@@ -1,0 +1,6 @@
+{"event": "start_spectral_affine_diagnostic", "actual_nonlinear_tail": false, "frozen_affine_dn": true, "modes": 14, "angular": 512, "nodes": 2633, "tol": 2e-09}
+   Iteration    Max residual  Max BC residual  Total nodes    Nodes added  
+       1          4.75e-07       2.09e-14         2633           2414      
+{"event": "spectral_affine_exception", "actual_nonlinear_tail": false, "frozen_affine_dn": true, "error": "MemoryError()"}
+{"event": "spectral_affine_program_result", "actual_nonlinear_tail": false, "frozen_affine_dn": true, "status": "FROZEN_AFFINE_DIAGNOSTIC_EXCEPTION", "success": false, "requested_process_exit_code": 2}
+Not enough memory to perform factorization.

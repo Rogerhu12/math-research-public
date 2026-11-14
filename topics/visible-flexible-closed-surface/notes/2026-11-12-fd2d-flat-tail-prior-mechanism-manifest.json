@@ -1,0 +1,43 @@
+{
+  "schema": "read-only-prior-mechanism-comparison-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-flat-tail-prior-mechanism-and-interface.md",
+      "bytes": 4432,
+      "sha256": "edbc04f4031df64064c7fd0c758f06027a0bb5ed0abb2783d27c5345f5a1c378"
+    }
+  ],
+  "read_sources": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch.md",
+      "bytes": 18689,
+      "sha256": "ec4c52b1abafb44b300ae20956bc1308c9b522b62a9cff1a70208a65326117ee"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch-erratum.md",
+      "bytes": 1338,
+      "sha256": "ea35d469fafb9e137f4d821917730e1f20766071c267d5b8392e23999d4a4578"
+    },
+    {
+      "path": "notes/2026-11-10-78718-geometry-flat-strip-provider-v2.md",
+      "bytes": 12558,
+      "sha256": "cc26cf6685ec4a26f4c8b612c64d1af598cc4f8e223d6cd2c1b0a87e99af23d4"
+    },
+    {
+      "path": "results/R43-explicit-three-cylinder-flat-end-disk.md",
+      "bytes": 18896,
+      "sha256": "c709b5c1c130c59b769c2d6cd359f567ff545d750d17abc0f1e29c7259e8d576"
+    },
+    {
+      "path": "results/R71-flat-strip-exact-global-angle-propagation.md",
+      "bytes": 13938,
+      "sha256": "ab70f041bc41c47d74db9205098aa7a40948d32c6988fe0a1b8d4603f2a6c717"
+    },
+    {
+      "path": "results/R44-explicit-flexible-ruled-saddle-annulus.md",
+      "bytes": 26869,
+      "sha256": "1bfa23d66aade89fe65835ee4e3758064a3d4e0942f51fb8a6ff7fe83e450f6f"
+    }
+  ],
+  "scope": "same generalized-cylinder mechanism already in R43; current full-amplitude parameters and interfaces recorded separately; old specific gluing restrictions retained"
+}

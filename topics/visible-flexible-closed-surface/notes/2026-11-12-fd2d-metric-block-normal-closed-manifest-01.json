@@ -1,0 +1,75 @@
+{
+  "schema": "fd2d-R159-SPD-block-solve-closed-group-v1",
+  "closed_utc": "2026-11-12T18:17:28.016147+00:00",
+  "proof_note": "notes/2026-11-12-fd2d-metric-block-normal-solve.md",
+  "source_frozen": true,
+  "helper": {
+    "path": "scripts/fd2d_gc_block_normal_solve.py",
+    "bytes": 10816,
+    "sha256": "d992719316f0375ef3fe52b0feb75d970d3a560703edd9072ec1dacdd7457e26"
+  },
+  "api": "solve_scaled_normal_field(normal,damping=1e-7,progress=None) -> solved,field_scale,parameter_scale,hfp,hpp,gf,gp,info",
+  "original_global_column_scaling_and_damping_preserved": true,
+  "whole_Hff_or_sparse_LU_created": false,
+  "F_or_J_recomputed": false,
+  "original_normal_modified": false,
+  "floating_local_symmetrization_declared_and_measured": true,
+  "residual_checked_against_original_unaveraged_scaled_blocks": true,
+  "small_check": {
+    "session_id": 70637,
+    "initial_chunk": "d076fb",
+    "final_chunk": "44aa71",
+    "returncode": 0,
+    "passed": true,
+    "cases": 3,
+    "maximum_field_dimension": 12,
+    "right_hand_sides": 55,
+    "wrapper_seconds": 7.1364588489996095,
+    "internal_seconds": 0.4908706060014083,
+    "peak_rss_kib": 49348
+  },
+  "actual_consumption": {
+    "path": "notes/2026-11-12-fd2d-metric-block-normal-actual-consumption-01.json",
+    "bytes": 3864,
+    "sha256": "8b13058f358d166f2764367b2bd50e1c73b721a73221160dea865d3d4afd3b0f"
+  },
+  "actual_current_normal_stage_succeeded": true,
+  "nonlinear_direction_or_trial_success_not_inferred": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_block_normal_solve.py",
+      "bytes": 10816,
+      "sha256": "d992719316f0375ef3fe52b0feb75d970d3a560703edd9072ec1dacdd7457e26"
+    },
+    {
+      "path": "scripts/fd2d-metric-block-normal-check.py",
+      "bytes": 7171,
+      "sha256": "a99517c72684e5a2a56bf62724291908bb8018765ff550c2342a305629c5cd66"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-block-normal-solve.md",
+      "bytes": 9298,
+      "sha256": "27381b5a9aae7bc3f4a60e07f9ff984baee831d1bd366c1f35e2095f03fc4b10"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-block-normal-01-report.json",
+      "bytes": 35244,
+      "sha256": "877ebc10a3d3bae94ddbaa3677a2c990d7de78aa525a8b4fc6bf506dffa78cb0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-block-normal-01-exit-receipt.json",
+      "bytes": 799,
+      "sha256": "059ad6ea0ffcbfcc838cff749f18a42c9488ecf8e08cfea8a5f57f08b92421cf"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-block-normal-01-console.txt",
+      "bytes": 1518,
+      "sha256": "fd7b9fb4bfc347a0cc4a1013cb9c42c2333cfd10975dc075ab3e1bfa5ba253a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-block-normal-actual-consumption-01.json",
+      "bytes": 3864,
+      "sha256": "8b13058f358d166f2764367b2bd50e1c73b721a73221160dea865d3d4afd3b0f"
+    }
+  ]
+}

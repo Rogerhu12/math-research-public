@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-actual-tool-observations-v1",
+  "recorded_utc": "2026-11-12T19:52:29.003660+00:00",
+  "outcomes": [
+    {
+      "stage": "normal-gap08-retarget",
+      "session": 37390,
+      "launch": "6bef0c",
+      "completion": "740050",
+      "tool_exit": 0
+    },
+    {
+      "stage": "gap09-block",
+      "session": 42490,
+      "launch": "33ae2c",
+      "completion": "e20858",
+      "tool_exit": 0
+    },
+    {
+      "stage": "gap09-QP",
+      "session": 30203,
+      "launch": "210752",
+      "completion": "7024c4",
+      "tool_exit": 0
+    },
+    {
+      "stage": "gap08-block",
+      "session": 93564,
+      "launch": "67685c",
+      "completion": "ef9d9c",
+      "tool_exit": 0
+    },
+    {
+      "stage": "gap08-QP",
+      "session": 16853,
+      "launch": "00f961",
+      "completion": "0809a0",
+      "tool_exit": 0
+    },
+    {
+      "stage": "gap08-full-trial-a01",
+      "session": 25875,
+      "launch": "c071fe",
+      "completion": "9146f6",
+      "tool_exit": 137,
+      "child_receipt_returncode": -9,
+      "complete_residual_evaluated": false,
+      "termination_cause": "unknown"
+    },
+    {
+      "stage": "gap08-full-trial-a02",
+      "session": 49604,
+      "launch": "b4f87e",
+      "completion": "164995",
+      "tool_exit": 0,
+      "child_receipt_returncode": 0,
+      "complete_residual_evaluated": true,
+      "accepted": true
+    }
+  ],
+  "provenance": "Actual tool identities retained in active-task continuation record; child receipts separately preserved. No inferred exit code from absent output."
+}

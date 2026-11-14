@@ -1,0 +1,28 @@
+{
+  "status": "CHILD_COMPLETED_AWAITING_ROOT_TOOL_OBSERVATION",
+  "binding": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-guard-launch.json",
+  "binding_sha256": "fcaf2122799032d32d93fb6dc358f4ba2df6d55ebfd58393b13374a8011df0dc",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-direct-csc.py",
+    "--launch",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-launch.json"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "stem": "2026-11-10-78718-numerical-m14-direct-csc-01",
+  "wrapper_sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd",
+  "minimum_free": 536870912,
+  "resume_free": 805306368,
+  "poll_seconds": 2.0,
+  "events": [
+    {
+      "event": "started",
+      "elapsed_seconds": 0.0005148619999317816
+    }
+  ],
+  "numerical_inputs_or_argv_changed": false,
+  "tool_exit_observed_by_root": false,
+  "child_pid_and_process_group": 5,
+  "actual_child_exit_code": 2,
+  "seconds": 2.002243470999929
+}

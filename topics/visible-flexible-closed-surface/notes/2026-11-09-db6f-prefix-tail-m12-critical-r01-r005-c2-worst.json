@@ -1,0 +1,15 @@
+{
+  "scope": "Local floating diagnostic at a continuous finite-C2 comparison's worst span.",
+  "comparison": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-m12-critical-r01-r005-c2.json",
+  "comparison_sha256": "0dcdd5a8f2221e8662d0e33ac4ddec1c0ad2ed61c59dfe558326035c3b7282d5",
+  "script_sha256": "f3a0b35f23368e37e229c4765b05f0533715ec8e9ee8db9377ea4883cd09c4da",
+  "radial_samples": 97,
+  "angular_samples": 512,
+  "continuous_rr_upper": 0.0006120922613335622,
+  "sampled_rr_difference": 0.00018919346333528294,
+  "location": {
+    "r": 0.5277881139390467,
+    "theta": 0.0
+  },
+  "caveat": "This is a floating localization diagnostic, not an interval lower bound or an infinite Cauchy result."
+}

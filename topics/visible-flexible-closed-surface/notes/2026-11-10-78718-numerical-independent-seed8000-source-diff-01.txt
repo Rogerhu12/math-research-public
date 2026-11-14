@@ -1,0 +1,692 @@
+--- 78718-prefix-restart8000-inputs-v1.py
++++ 78718-prefix-independent-seed8000-inputs-v1.py
+@@ -1,10 +1,10 @@
+ #!/usr/bin/env python3
+-"""Closed metadata/input identities for the separately named restart8000 run.
+-
+-The frozen ancestor is validated by its own unchanged entry.  The failed CP
+-and its audited last tail are additional declared warm inputs, never relabeled
+-as a successful candidate.  No candidate, restart, RHS, Newton, DN or matrix
+-factory is called here; saved polynomial evaluation is only an input check.
++"""Pure inputs for an independently executed published-M14-seed8000 route.
++
++The original 97/141/152 source closures validate themselves. This new route
++uses the published true M14 prefix and its own tail_0002, not the current root
++failed CP. It is not byte-for-byte replay of the failed-CP restart route.
++No candidate, restart, RHS, Newton, DN, matrix or solver factory is called.
+ """
+ import os
+ for _key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):
+@@ -25,28 +25,32 @@
+ STEM = '2026-11-10-78718-numerical-m14-direct-csc-02'
+ ANCESTOR = OLD_TOPIC / 'notes' / (STEM + '-launch.json')
+ ANCESTOR_SHA = 'b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671'
+-FAILED_CP = OLD_TOPIC / 'notes' / (STEM + '.json.gz')
+-FAILED_CP_SHA = 'b04af907d3f3552a484115bfd79cba4ef0848874ba1859f1335aae8b91411b03'
+-LAST_TAIL = OLD_TOPIC / 'notes' / (STEM + '_tail_0003.json.gz')
+-LAST_TAIL_SHA = 'b26fff3dc70e052ef68a25f3008c36e180c3037311c30fe8e5a9a29b2775fe79'
+-FAILURE_OBSERVATION = NOTES / (STEM + '-root-observed-exit.json')
+-FAILURE_OBSERVATION_SHA = 'c32d439bae21251cf57ec7ffdaa05480995419f8c11e0e82ade5ac2151220fdc'
+-RESIDUAL_REPORT = NOTES / '2026-11-10-78718-numerical-run02-restart-rms-full-01.json'
+-RESIDUAL_REPORT_SHA = 'fb758032d1b5f8b8b0655ae956f3a245fe6860422924af8a72b886a660e64c78'
+-RUNNER = HERE / '78718-prefix-spectral-restart8000-v1.py'
+-PREPARER = HERE / '78718-prefix-prepare-restart8000-v1.py'
+-AUDITOR = HERE / '78718-prefix-audit-restart8000-v1.py'
++PUBLISHED_STEM = '2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14'
++PUBLISHED_CP = OLD_TOPIC / 'notes' / (PUBLISHED_STEM + '.json.gz')
++PUBLISHED_CP_SHA = '3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0'
++LAST_TAIL = OLD_TOPIC / 'notes' / (PUBLISHED_STEM + '_tail_0002.json.gz')
++LAST_TAIL_SHA = '009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762'
++RUNTIME_SOURCE_GUARD = OLD_TOPIC / 'notes' / (STEM + '-guard-launch.json')
++RUNTIME_SOURCE_GUARD_SHA = 'c5a9bb2d5bba1099db7b489d52b423b0fff135be339a8ea435989f235d3b8063'
++EXECUTOR = '/root/independent_audit'
++TOOL_OBSERVER = HERE / '78718-record-independent-tool-observation-v1.py'
++RUNTIME_CHECKER = HERE / '78718-check-independent-seed8000-runtime-v1.py'
++GUARD_PREPARER = HERE / '78718-prepare-independent-seed8000-guard-v1.py'
++RUNNER = HERE / '78718-prefix-spectral-independent-seed8000-v1.py'
++PREPARER = HERE / '78718-prefix-prepare-independent-seed8000-v1.py'
++AUDITOR = HERE / '78718-prefix-audit-independent-seed8000-v1.py'
+ CODE_CORE = HERE / '78718-canonical-runtime-code-v1.py'
+ CODE_CHECKER = HERE / '78718-check-canonical-runtime-code-v1.py'
+-LAUNCH_SCHEMA = '78718-true-m14-w14-restart8000-launch-v1'
+-PROGRAM_SCHEMA = '78718-true-m14-w14-restart8000-program-v1'
++LAUNCH_SCHEMA = '78718-true-m14-w14-independent-seed8000-launch-v1'
++PROGRAM_SCHEMA = '78718-true-m14-w14-independent-seed8000-program-v1'
+ SETTINGS = {'modes': 14, 'angular': 512, 'audit_angular': 1024, 'nodes': 1601,
+             'max_nodes': 8000, 'tol': 2e-9, 'bc_tol': 1e-8,
+             'physical_bc_tol': 2e-11, 'node_heap': 1536}
+-SCOPE = ('Original fixed-g M14/N512 W14 true-DN equations, with a separately declared '
+-         'failed-run02 CP restart, its own audited tail_0003 warm input, max_nodes8000, '
+-         'unchanged reviewed release-LU/direct-CSC kernels and typed live-code identity. '
+-         'This is a new computation, not success or repair of run02.')
++SCOPE = ('Original fixed-g M14/N512 W14 true-DN equations, starting anew from the '
++         'published true M14 prefix and its own audited tail_0002, max_nodes8000, '
++         'unchanged reviewed release-LU/direct-CSC kernels and complete typed live-code identity. '
++         'Execution observer is /root/independent_audit. This is a separately declared '
++         'independent numerical route, not exact replay of the root failed-CP restart route.')
+ 
+ 
+ def require(condition, message):
+@@ -92,75 +96,62 @@
+     rows = [row for row in launch['bindings'] if row['path'] == str(path)]
+     require(len(rows) == 1, 'Frozen ancestor entry is not uniquely bound')
+     verify(rows[0])
+-    original = module('restart8000_frozen_ancestor_entry', path)
++    original = module('independent_seed8000_frozen_ancestor_entry', path)
+     context = original.validate_inputs(launch)
+     require(context['launch']['settings'] == dict(SETTINGS, max_nodes=6500),
+             'The original numerical policy is not the reviewed ancestor')
+     return original, context
+ 
+ 
+-def failure_inputs(original, ancestor):
+-    """Validate a closed failure and its saved data without claiming success."""
+-    pinned(FAILED_CP, FAILED_CP_SHA)
++def published_seed_inputs(original, ancestor):
++    """Original public true M14 inputs and runtime source closure; no new solve."""
++    pinned(PUBLISHED_CP, PUBLISHED_CP_SHA)
+     pinned(LAST_TAIL, LAST_TAIL_SHA)
+-    pinned(FAILURE_OBSERVATION, FAILURE_OBSERVATION_SHA)
+-    pinned(RESIDUAL_REPORT, RESIDUAL_REPORT_SHA)
+-    obs = original.read(FAILURE_OBSERVATION)
+-    require(obs.get('status') == 'observed-process-completed' and obs.get('observer') == '/root'
+-            and type(obs.get('actual_exit_code')) is int and obs['actual_exit_code'] == 2
+-            and obs.get('session_id') == 44394 and obs.get('tool_receipt') == 'f09268'
+-            and obs.get('stem') == STEM, 'Missing the true failed-run02 root observation')
+-    observed = {}
+-    for row in obs['files']:
+-        verify(row)
+-        require(row['path'] not in observed, 'Duplicate failure observation binding')
+-        observed[row['path']] = row
+-    for path in (ANCESTOR, FAILED_CP, LAST_TAIL):
+-        equal(observed.get(str(path)), identity(path), 'Failure observation omitted a necessary input')
+-    guard_path = OLD_TOPIC / 'notes' / (STEM + '-guard-launch.json')
+-    equal(observed.get(str(guard_path)), identity(guard_path), 'Closed original guard binding omitted')
+-    guard = original.read(guard_path)
+-    require(len(guard['bound_files']) == 152, 'Original runtime/Node source closure extent changed')
++    equal(ancestor['launch']['source_checkpoint'], identity(PUBLISHED_CP),
++          'The original ancestor did not declare the published M14 seed')
++    equal(ancestor['launch']['own_actual_tail_warm'], identity(LAST_TAIL),
++          'The original ancestor did not declare its own published last tail')
++    pinned(RUNTIME_SOURCE_GUARD, RUNTIME_SOURCE_GUARD_SHA)
++    guard = original.read(RUNTIME_SOURCE_GUARD)
++    equal(guard['command'], ancestor['launch']['command'], 'Original source guard command differs')
++    require(len(guard['bound_files']) == 152, 'Original runtime source closure extent changed')
+     guard_bindings = {}
+     for row in guard['bound_files']:
+         verify(row)
+-        require(row['path'] not in guard_bindings, 'Duplicate original runtime closure binding')
++        require(row['path'] not in guard_bindings, 'Duplicate original runtime source binding')
+         guard_bindings[row['path']] = row
+     for row in ancestor['launch']['bindings']:
+-        equal(guard_bindings.get(row['path']), row, 'Original guard omitted a launch dependency')
++        equal(guard_bindings.get(row['path']), row, 'Original guard omitted a launch source')
++    cp, prior = ancestor['seed'], ancestor['prior']
++    require(cp.get('solver_success') is True and cp.get('nodes') == 2633,
++            'The declared published seed is not the reviewed finite M14 solution')
++    require(cp['tail_seam']['tail_record'] == LAST_TAIL.name,
++            'Published warm packet is not the seed own last actual tail')
+     auditor_path = OLD_HERE / 'db6f-prefix-audit-spectral-true-m14-direct-csc.py'
+-    bound = ancestor['bindings'].get(auditor_path.resolve())
+-    equal(bound, identity(auditor_path), 'Frozen ancestor auditor differs')
+-    auditor = module('restart8000_frozen_failure_input_reader', auditor_path)
+-    cp = original.read(FAILED_CP)
+-    require(cp.get('solver_success') is False and cp.get('nodes') == 6344,
+-            'The frozen restart is not the explicitly failed CP')
+-    for key in auditor.FIXED_FIELDS:
+-        equal(cp[key], ancestor['seed'][key], 'Failed warm input changed physical definition: ' + key)
+-    height, chunks, polynomial = auditor.polynomial_endpoint(cp, ancestor)
+-    for row in chunks:
+-        equal(observed.get(row['path']), row, 'Failure observation omitted a coefficient chunk')
+-    require(cp['tail_calls'] == 3 and cp['tail_seam']['tail_record'] == LAST_TAIL.name,
+-            'Warm packet is not this failed CP own final actual tail')
+-    warm = auditor.check_packet(LAST_TAIL, height, True, ancestor)
+-    residual = original.read(RESIDUAL_REPORT)
+-    require(residual['status'] == 'COMPLETED_READ_ONLY_RESTART_RESIDUAL_DIAGNOSTIC'
+-            and residual['mode'] == 'full' and residual['BVP_Newton_DN_calls'] == 0
+-            and residual['actual_restart_nodes'] == 6344
+-            and residual['full']['requested_additional_nodes'] == 255
+-            and residual['full']['next_mesh_nodes_from_this_initial_guess'] == 6599,
+-            'Changed numerical budget diagnostic')
+-    equal(residual['failed_checkpoint'], identity(FAILED_CP), 'Budget diagnostic used a different CP')
+-    return {'checkpoint': cp, 'warm_packet': original.read(LAST_TAIL),
+-            'coefficient_files': chunks, 'polynomial_check': polynomial,
+-            'warm_check': warm, 'closed_failure_files': list(observed.values()),
+-            'original_runtime_closure': list(guard_bindings.values()),
+-            'root_observation': identity(FAILURE_OBSERVATION),
+-            'next_initial_guess_diagnostic': identity(RESIDUAL_REPORT)}
++    equal(ancestor['bindings'].get(auditor_path.resolve()), identity(auditor_path),
++          'Frozen ancestor auditor differs')
++    auditor = module('independent_seed8000_published_input_schema', auditor_path)
++    warm = auditor.check_packet(LAST_TAIL, prior['request']['height'], True,
++                                {'config': prior['config'], 'prior': prior})
++    chunks = []
++    for chunk in cp['pp_coefficient_chunks']:
++        row = identity(PUBLISHED_CP.parent / chunk['file'])
++        require(row['bytes'] == chunk['bytes'] and row['sha256'] == chunk['sha256'],
++                'Published coefficient input changed')
++        equal(guard_bindings.get(row['path']), row, 'Original source closure omitted a seed chunk')
++        chunks.append(row)
++    record = {'scope': 'Original published finite M14 seed and own tail as inputs only; no new mathematical success.',
++              'checkpoint': identity(PUBLISHED_CP), 'own_last_packet': identity(LAST_TAIL),
++              'original_prefix_nodes': cp['nodes'], 'original_prefix_success': True,
++              'own_last_packet_check': warm, 'coefficient_files': chunks,
++              'original_runtime_source_guard': identity(RUNTIME_SOURCE_GUARD),
++              'original_runtime_source_bindings': len(guard_bindings),
++              'failed_CP_warm_input_used': False, 'solver_calls': 0}
++    return {'record': record, 'original_runtime_closure': list(guard_bindings.values())}
+ 
+ 
+ def code_evidence(report_path, observation_path):
+-    core = module('restart8000_typed_code_gate', CODE_CORE)
++    core = module('independent_seed8000_typed_code_gate', CODE_CORE)
+     report_path, observation_path = Path(report_path).resolve(), Path(observation_path).resolve()
+     report = json.loads(report_path.read_text())
+     require(report.get('schema') == '78718-canonical-runtime-code-check-v1'
+@@ -213,14 +204,14 @@
+         if key in cfg:
+             cfg[key] = str(out) + suffix
+     equal(original.without_io(cfg), original.without_io(ancestor['config']),
+-          'Restart tail physical equations or discretization changed')
++          'Original seed tail physical equations or discretization changed')
+     return cfg
+ 
+ 
+ def expected_argv(ancestor, config_path, out):
+     argv = ancestor['launch']['delegated_parser_argv'][:]
+     for key, value in (('--tail-config', str(config_path)), ('--out-prefix', str(out)),
+-                       ('--restart', str(FAILED_CP)), ('--max-nodes', '8000')):
++                       ('--restart', str(PUBLISHED_CP)), ('--max-nodes', '8000')):
+         require(argv.count(key) == 1, 'Ambiguous original argument: ' + key)
+         argv[argv.index(key) + 1] = value
+     return argv
+@@ -228,59 +219,64 @@
+ 
+ def validate(launch, planned_config=None):
+     original, ancestor = ancestor_context()
+-    require(launch['schema'] == LAUNCH_SCHEMA, 'Wrong separately named restart launch')
+-    equal(launch['settings'], SETTINGS, 'Changed declared restart8000 numerical policy')
+-    equal(launch['ancestor_launch'], identity(ANCESTOR), 'Different frozen run02 ancestor')
++    require(launch['schema'] == LAUNCH_SCHEMA, 'Wrong separately named independent seed launch')
++    equal(launch['settings'], SETTINGS, 'Changed declared seed8000 numerical policy')
++    equal(launch['ancestor_launch'], identity(ANCESTOR), 'Different frozen source ancestor')
+     equal(launch['reference_preparation'], ancestor['launch']['reference_preparation'],
+-          'Different original affine reference')
+-    failed = failure_inputs(original, ancestor)
+-    equal(launch['source_checkpoint'], identity(FAILED_CP), 'Different failed CP restart')
+-    equal(launch['own_actual_tail_warm'], identity(LAST_TAIL), 'Different own audited warm tail')
+-    equal(launch['ancestor_source_checkpoint'], ancestor['launch']['source_checkpoint'],
+-          'Original seed provenance changed')
+-    equal(launch['ancestor_tail_warm'], ancestor['launch']['own_actual_tail_warm'],
+-          'Original warm provenance changed')
++          'Different original published M14 reference')
++    seed_inputs = published_seed_inputs(original, ancestor)
++    equal(launch['source_checkpoint'], identity(PUBLISHED_CP), 'Different original M14 seed')
++    equal(launch['own_actual_tail_warm'], identity(LAST_TAIL), 'Different original M14 own warm tail')
++    equal(launch['published_seed_input_check'], seed_inputs['record'], 'Published seed input ledger differs')
++    require(launch.get('executor') == EXECUTOR == '/root/independent_audit',
++            'The declared independent executor changed')
++    equal(launch['observation_recorder'], identity(TOOL_OBSERVER), 'Different fixed-actor tool observer')
++    require(launch.get('failed_CP_warm_input_used') is False
++            and launch.get('exact_replay_of_failed_CP_restart_route') is False,
++            'The independent seed route must not be relabeled as failed-CP restart replay')
++    require(not {'failed_source_root_observation', 'restart_budget_diagnostic',
++                 'ancestor_source_checkpoint', 'ancestor_tail_warm'} & set(launch),
++            'Unexpected failed-restart input fields')
+     for key in ('frozen_physical_fields', 'source_root', 'weights', 'callbacks',
+                 'newton_lifetime_definitions', 'csc_selection_definitions', 'csc_prerequisites'):
+         equal(launch[key], ancestor['launch'][key], 'Changed frozen original definition: ' + key)
+-    equal(launch['failed_source_root_observation'], failed['root_observation'], 'Lost true failure observation')
+-    equal(launch['restart_budget_diagnostic'], failed['next_initial_guess_diagnostic'], 'Lost budget diagnostic')
+     evidence = code_evidence(launch['typed_code_prerequisite']['report']['path'],
+                              launch['typed_code_prerequisite']['root_observation']['path'])
+-    equal(launch['typed_code_prerequisite'], evidence, 'Typed code evidence changed')
++    equal(launch['typed_code_prerequisite'], evidence, 'Common typed-code source prerequisite changed')
+     out = Path(launch['out_prefix']).resolve()
+-    require(out.parent == NOTES.resolve(), 'New output is outside current topic notes')
++    require(out.parent == NOTES.resolve() and out.name.startswith('2026-11-10-78718-independent-'),
++            'Use the explicit new independent output namespace')
+     cfg_path = Path(str(out) + '-tail-config.json')
+     launch_path = Path(str(out) + '-launch.json')
+     equal(launch['command'], [sys.executable, str(RUNNER), '--launch', str(launch_path)],
+-          'Wrong separately named runtime command')
++          'Wrong separately named independent runtime command')
+     require(launch['launch_path'] == str(launch_path) and launch['cwd'] == str(REPO),
+-            'Wrong new launch path or cwd')
++            'Wrong independent launch path or cwd')
+     equal(launch['delegated_parser_argv'], expected_argv(ancestor, cfg_path, out),
+           'Undeclared original coupled argument change')
+     cfg = planned_config if planned_config is not None else original.read(cfg_path)
+-    equal(cfg, expected_config(original, ancestor, out), 'Wrong restart warm config or I/O')
++    equal(cfg, expected_config(original, ancestor, out), 'Wrong original warm config or new I/O')
+     bindings = {}
+     for row in launch['bindings']:
+         path = Path(row['path']).resolve()
+-        require(path not in bindings, 'Duplicate new source binding')
++        require(path not in bindings, 'Duplicate independent source binding')
+         bindings[path] = row
+         if planned_config is not None and path == cfg_path:
+             data = (json.dumps(cfg, indent=2, ensure_ascii=False, allow_nan=False) + '\n').encode()
+             equal(row, {'path': str(path), 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()},
+-                  'Planned new config differs')
++                  'Planned independent config differs')
+             require(not path.exists(), 'Pure preparation refuses an existing config')
+         else:
+             verify(row)
+-    required = ancestor['launch']['bindings'] + failed['closed_failure_files'] + evidence['bindings']
+-    required += failed['original_runtime_closure']
+-    required += [identity(path) for path in (ANCESTOR, FAILURE_OBSERVATION, RESIDUAL_REPORT,
+-                  RUNNER, PREPARER, AUDITOR, Path(__file__), CODE_CORE, CODE_CHECKER)]
++    required = ancestor['launch']['bindings'] + seed_inputs['original_runtime_closure'] + evidence['bindings']
++    required += [identity(path) for path in (ANCESTOR, RUNTIME_SOURCE_GUARD,
++                  RUNNER, PREPARER, AUDITOR, Path(__file__), CODE_CORE, CODE_CHECKER,
++                  RUNTIME_CHECKER, GUARD_PREPARER, TOOL_OBSERVER)]
+     for row in required:
+-        equal(bindings.get(Path(row['path'])), row, 'Required ancestor/new source omitted')
+-    equal(launch['tail_config'], bindings.get(cfg_path), 'New tail config is unbound')
++        equal(bindings.get(Path(row['path'])), row, 'Required original/new source omitted')
++    equal(launch['tail_config'], bindings.get(cfg_path), 'Independent tail config is unbound')
+     return {'reference': ancestor['reference'], 'seed': ancestor['seed'], 'prior': ancestor['prior'],
+             'port': ancestor['port'], 'config': cfg, 'out': out, 'launch': launch,
+             'bindings': bindings, 'csc_prerequisites': ancestor['csc_prerequisites'],
+-            'ancestor_context': ancestor, 'failed_restart_inputs': failed,
++            'ancestor_context': ancestor, 'published_seed_inputs': seed_inputs,
+             'typed_code_prerequisite': evidence}
+--- 78718-prefix-prepare-restart8000-v1.py
++++ 78718-prefix-prepare-independent-seed8000-v1.py
+@@ -1,9 +1,10 @@
+ #!/usr/bin/env python3
+-"""Pure preparation of a new same-g M14 restart with max_nodes=8000.
++"""Pure preparation for the independent published-M14 seed route at max8000.
+ 
+-Validates the unchanged run02 ancestor, its explicitly failed saved CP and own
+-last audited tail, and actual small code-identity checks.  Creates metadata
+-only. No candidate/restart/RHS/Newton/CSC factory/BVP/DN is executed.
++Validates original 97/141/152 source inputs, the original true M14 seed
++and own tail_0002, plus existing common typed-code source evidence.
++Creates metadata only; no candidate/restart/RHS/Newton/factory/BVP/DN.
++This preparation is not an independent numerical execution.
+ """
+ import argparse
+ import hashlib
+@@ -29,30 +30,29 @@
+     ap.add_argument('--code-check-observed', type=Path, required=True)
+     ap.add_argument('--check-current-gate', action='store_true')
+     args = ap.parse_args()
+-    i = module('restart8000_pure_input_definitions', HERE / '78718-prefix-restart8000-inputs-v1.py')
++    i = module('independent_seed8000_pure_input_definitions', HERE / '78718-prefix-independent-seed8000-inputs-v1.py')
+     original, ancestor = i.ancestor_context()
+-    failed = i.failure_inputs(original, ancestor)
++    seed_inputs = i.published_seed_inputs(original, ancestor)
+     evidence = i.code_evidence(args.code_check_report, args.code_check_observed)
+     if args.check_current_gate:
+-        print(json.dumps({'status': 'PASS_RESTART8000_INPUTS_ONLY', 'writes': 0,
+-                          'failed_source_remains_failed': True, 'solver_calls': 0,
+-                          'warm_residual': failed['warm_check']['residual']}))
++        print(json.dumps({'status': 'PASS_PUBLISHED_SEED8000_INPUTS_ONLY', 'writes': 0,
++                          'failed_CP_warm_input_used': False, 'solver_calls': 0,
++                          'warm_residual': seed_inputs['record']['own_last_packet_check']['residual']}))
+         return 0
+     out = args.out_prefix.resolve()
+-    i.require(out.parent == i.NOTES.resolve() and not list(out.parent.glob(out.name + '*')),
+-              'Use a completely unused current topic notes stem')
+-    c = module('restart8000_pure_driver_definitions', i.RUNNER)
++    i.require(out.parent == i.NOTES.resolve() and out.name.startswith('2026-11-10-78718-independent-')
++              and not list(out.parent.glob(out.name + '*')), 'Use a completely unused independent notes stem')
++    c = module('independent_seed8000_pure_driver_definitions', i.RUNNER)
+     cfg_path = Path(str(out) + '-tail-config.json')
+     launch_path = Path(str(out) + '-launch.json')
+     prep_path = Path(str(out) + '-preparation.json')
+     cfg = i.expected_config(original, ancestor, out)
+     cfg_data = (json.dumps(cfg, indent=2, ensure_ascii=False, allow_nan=False) + '\n').encode()
+     cfg_row = {'path': str(cfg_path), 'bytes': len(cfg_data), 'sha256': hashlib.sha256(cfg_data).hexdigest()}
+-    rows = ancestor['launch']['bindings'] + failed['closed_failure_files'] + evidence['bindings']
+-    rows += failed['original_runtime_closure']
+-    rows += [i.identity(path) for path in (i.ANCESTOR, i.FAILURE_OBSERVATION, i.RESIDUAL_REPORT,
+-             i.RUNNER, i.PREPARER, i.AUDITOR, HERE / '78718-prefix-restart8000-inputs-v1.py',
+-             i.CODE_CORE, i.CODE_CHECKER)]
++    rows = ancestor['launch']['bindings'] + seed_inputs['original_runtime_closure'] + evidence['bindings']
++    rows += [i.identity(path) for path in (i.ANCESTOR, i.RUNTIME_SOURCE_GUARD,
++             i.RUNNER, i.PREPARER, i.AUDITOR, HERE / '78718-prefix-independent-seed8000-inputs-v1.py',
++             i.CODE_CORE, i.CODE_CHECKER, i.RUNTIME_CHECKER, i.GUARD_PREPARER, i.TOOL_OBSERVER)]
+     bindings = {row['path']: row for row in rows}
+     bindings[str(cfg_path)] = cfg_row
+     launch = {key: ancestor['launch'][key] for key in (
+@@ -60,11 +60,9 @@
+         'weights', 'newton_lifetime_definitions', 'csc_prerequisites', 'csc_selection_definitions')}
+     launch.update(schema=i.LAUNCH_SCHEMA, status='PREPARED_NOT_STARTED', scope=i.SCOPE,
+         settings=i.SETTINGS, ancestor_launch=i.identity(i.ANCESTOR),
+-        source_checkpoint=i.identity(i.FAILED_CP), own_actual_tail_warm=i.identity(i.LAST_TAIL),
+-        ancestor_source_checkpoint=ancestor['launch']['source_checkpoint'],
+-        ancestor_tail_warm=ancestor['launch']['own_actual_tail_warm'],
+-        failed_source_root_observation=failed['root_observation'],
+-        restart_budget_diagnostic=failed['next_initial_guess_diagnostic'],
++        source_checkpoint=i.identity(i.PUBLISHED_CP), own_actual_tail_warm=i.identity(i.LAST_TAIL),
++        published_seed_input_check=seed_inputs['record'], executor=i.EXECUTOR,
++        observation_recorder=i.identity(i.TOOL_OBSERVER),
+         typed_code_prerequisite=evidence, launch_path=str(launch_path), out_prefix=str(out),
+         tail_config=cfg_row, command=[sys.executable, str(i.RUNNER), '--launch', str(launch_path)],
+         cwd=str(i.REPO), delegated_parser_argv=i.expected_argv(ancestor, cfg_path, out),
+@@ -74,32 +72,30 @@
+         coefficient_output_pattern=str(out)+'_coeff_*.npy.gz',
+         bindings=sorted(bindings.values(), key=lambda row: row['path']),
+         original_equations_and_callback_identity_unchanged=True,
+-        changed_numeric_policy={'max_nodes': {'ancestor': 6500, 'new': 8000}},
+-        restart_scope='Failed run02 CP and own audited last packet are initial guesses only.',
+-        original_ancestor_success=False,
+-        runtime_code_gate='Retain every original raw identity/closure gate; separately capture live typed code and check against pinned compilation before/after each real BVP and after restoration.',
+-        final_gate='Actual successful outer/CP/tail and root natural exit0 remain mandatory.')
++        changed_numeric_policy={'max_nodes': {'source_ancestor': 6500, 'new': 8000}},
++        restart_scope='Published true M14 seed and its own published audited tail_0002; no current root failed-CP warm input.',
++        failed_CP_warm_input_used=False, exact_replay_of_failed_CP_restart_route=False,
++        runtime_code_gate='Retain every original raw identity/closure gate and all ten live typed-code source identities before/after each real BVP and restoration.',
++        final_gate='Actual successful outer/CP/tail and genuine /root/independent_audit natural tool exit0 remain mandatory.')
+     c.validate_inputs(launch, planned_config=cfg)
+     c.write_json(cfg_path, cfg, exclusive=True)
+     c.write_json(launch_path, launch, exclusive=True)
+-    report = {'schema': '78718-restart8000-pure-preparation-v1',
+-        'status': 'PREPARED_ONLY_NO_NEW_CANDIDATE_NO_SOLVER',
+-        'scope': __doc__, 'launch': i.identity(launch_path), 'tail_config': i.identity(cfg_path),
+-        'ancestor_launch': i.identity(i.ANCESTOR), 'ancestor_success': False,
+-        'failed_CP': i.identity(i.FAILED_CP), 'own_last_warm_packet': i.identity(i.LAST_TAIL),
+-        'failed_CP_polynomial_check': failed['polynomial_check'],
+-        'own_last_warm_check': failed['warm_check'],
++    report = {'schema': '78718-independent-seed8000-pure-preparation-v1',
++        'status': 'PREPARED_ONLY_NO_NEW_CANDIDATE_NO_SOLVER', 'scope': __doc__,
++        'launch': i.identity(launch_path), 'tail_config': i.identity(cfg_path),
++        'source_ancestor_launch': i.identity(i.ANCESTOR),
++        'original_seed_input_check': seed_inputs['record'], 'executor': i.EXECUTOR,
+         'settings': i.SETTINGS, 'bindings': len(bindings),
+-        'callback_definitions': len(launch['callbacks']),
+-        'typed_code_evidence': evidence,
++        'callback_definitions': len(launch['callbacks']), 'typed_code_evidence': evidence,
+         'operations': {'candidate_objects': 0, 'restart_calls': 0, 'RHS_calls': 0,
+             'Newton_install_calls': 0, 'CSC_factory_calls': 0, 'matrix_calls': 0,
+             'BVP_calls': 0, 'DN_calls': 0},
+-        'future_actual_exit': 'NOT_STARTED; only root can supply actual observation'}
++        'failed_CP_warm_input_used': False, 'independent_numerical_replay_performed': False,
++        'future_actual_exit': 'NOT_STARTED; only /root/independent_audit can supply its actual tool observation'}
+     c.write_json(prep_path, report, exclusive=True)
+     print(json.dumps({'status': report['status'], 'bindings': len(bindings),
+         'launch': i.identity(launch_path), 'preparation': i.identity(prep_path),
+-        'source_CP_remains_failed': True, 'solver_calls': 0}, indent=2))
++        'failed_CP_warm_input_used': False, 'solver_calls': 0}, indent=2))
+     return 0
+ 
+ 
+--- 78718-prefix-spectral-restart8000-v1.py
++++ 78718-prefix-spectral-independent-seed8000-v1.py
+@@ -1,8 +1,8 @@
+ #!/usr/bin/env python3
+-"""New restart8000 / typed-code identity of the actual-DN M14 W14 runner.
++"""Independent published-M14 seed8000 / typed-code identity of the actual-DN M14 W14 runner.
+ 
+ Import defines metadata helpers only.  main() is a real coupled computation
+-and must be launched separately by root.  Its program status never substitutes
++and must be launched separately by /root/independent_audit.  Its program status never substitutes
+ for the observer's actual tool-exit evidence or continuous closed-map bounds.
+ """
+ import os
+@@ -82,8 +82,8 @@
+ h = module('spectral_true_frozen_metadata_helpers', HERE / 'db6f-prefix-spectral-affine-replay.py')
+ require, canonical, read, identity, verify = h.require, h.canonical, h.read, h.identity, h.verify
+ number, vector = h.number, h.vector
+-i = module('restart8000_closed_input_definitions', NEW_HERE / '78718-prefix-restart8000-inputs-v1.py')
+-typed = module('restart8000_live_typed_code', NEW_HERE / '78718-canonical-runtime-code-v1.py')
++i = module('independent_seed8000_closed_input_definitions', NEW_HERE / '78718-prefix-independent-seed8000-inputs-v1.py')
++typed = module('independent_seed8000_live_typed_code', NEW_HERE / '78718-canonical-runtime-code-v1.py')
+ SCOPE = i.SCOPE
+ require(SETTINGS == i.SETTINGS, 'New numerical policy differs from input gate')
+ 
+@@ -253,7 +253,7 @@
+                 'csc_selection_definitions': launch['csc_selection_definitions'],
+                 'csc_selection': None, 'csc_restoration': None,
+                 'mathematical_success': False,
+-                'exit_scope': 'Program requested exit only; root actual tool observation is separate.'}
++                'exit_scope': 'Program requested exit only; /root/independent_audit actual tool observation is separate.'}
+     write_json(reproduction, manifest, exclusive=True)
+     saved_argv = sys.argv[:]
+     try:
+@@ -265,7 +265,7 @@
+         equal(weights.tolist(), launch['weights'], 'Runtime W14 differs')
+         selected_solver, records = spectral.make_solver(weights)
+         manifest['spectral_coordinate_calls'] = records
+-        auditor = module('spectral_true_closed_output_checks', NEW_HERE / '78718-prefix-audit-restart8000-v1.py')
++        auditor = module('spectral_true_closed_output_checks', NEW_HERE / '78718-prefix-audit-independent-seed8000-v1.py')
+ 
+         def selected(fun, bc, x, y, p, **kwargs):
+             for key in ('tol', 'bc_tol', 'max_nodes'):
+@@ -314,11 +314,11 @@
+         sys.argv = launch['delegated_parser_argv'][:]
+         runner.main()
+         closed = auditor.check_outputs(context, records, call_audits)
+-        manifest.update(status='RESTART8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS',
++        manifest.update(status='INDEPENDENT_SEED8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS',
+                         mathematical_success=True, closed_output_checks=closed)
+         requested_exit = 0
+     except Exception as error:
+-        manifest.update(status='RESTART8000_FINITE_M14_COUPLED_PROGRAM_FAILURE',
++        manifest.update(status='INDEPENDENT_SEED8000_FINITE_M14_COUPLED_PROGRAM_FAILURE',
+                         mathematical_success=False, error_type=type(error).__name__, error=repr(error))
+         print(json.dumps({'event': 'spectral_true_program_failure', 'error': repr(error)}), flush=True)
+     finally:
+@@ -329,7 +329,7 @@
+                 h.check_callback(type(selection).restore, launch['callbacks']['csc_runtime_restore'])
+                 manifest['csc_restoration'] = restore_runtime_csc(context)
+             except Exception as restore_error:
+-                manifest.update(status='RESTART8000_FINITE_M14_COUPLED_PROGRAM_FAILURE',
++                manifest.update(status='INDEPENDENT_SEED8000_FINITE_M14_COUPLED_PROGRAM_FAILURE',
+                                 mathematical_success=False, csc_restore_error=repr(restore_error))
+                 requested_exit = 2
+         if manifest['status'] in ('STARTING', 'RUNNING_ORIGINAL_TRUE_OUTER'):
+--- 78718-prefix-audit-restart8000-v1.py
++++ 78718-prefix-audit-independent-seed8000-v1.py
+@@ -1,9 +1,9 @@
+ #!/usr/bin/env python3
+-"""New read-only close audit for restart8000 and complete typed runtime code.
++"""Read-only close audit for independent published-M14 seed8000 and complete typed runtime code.
+ 
+ Only source hashes, JSON, saved polynomial arrays and polynomial evaluation
+ are used. No BVP, DN, original flow or candidate initializer is called.
+-Final CLI mode additionally requires root's real tool-exit observation.
++Final CLI mode requires /root/independent_audit's genuine tool-exit observation.
+ """
+ import argparse
+ import gzip
+@@ -16,7 +16,7 @@
+ from types import CodeType
+ 
+ HERE = Path(__file__).resolve().parent
+-spec = importlib.util.spec_from_file_location('spectral_true_audit_definitions', HERE / '78718-prefix-spectral-restart8000-v1.py')
++spec = importlib.util.spec_from_file_location('spectral_true_audit_definitions', HERE / '78718-prefix-spectral-independent-seed8000-v1.py')
+ c = importlib.util.module_from_spec(spec)
+ spec.loader.exec_module(c)  # Definitions only; c.main is never invoked here.
+ require, equal, read, identity, verify = c.require, c.equal, c.read, c.identity, c.verify
+@@ -96,7 +96,7 @@
+     first = read(path)
+     require(first['status'] == 'ACTUAL_FIRST_DN_CLOSED_BEFORE_INNER_BVP', 'Missing actual first-call evidence')
+     equal(first['launch'], identity(context['launch']['launch_path']), 'First call belongs to another launch')
+-    equal(first['selector'], identity(HERE / '78718-prefix-spectral-restart8000-v1.py'), 'First-call selector identity differs')
++    equal(first['selector'], identity(HERE / '78718-prefix-spectral-independent-seed8000-v1.py'), 'First-call selector identity differs')
+     packet = Path(str(out) + '_tail_0001.json.gz')
+     equal(first['packet'], identity(packet), 'First packet binding differs')
+     report = check_packet(packet, first['request_height'], False, context)
+@@ -354,7 +354,7 @@
+     required_files = [identity(cp_path),identity(summary_path),identity(outer_path),identity(seam_path),
+                       first['first_request_binding'],first['packet']] + chunks
+     unique = {row['path']: row for row in required_files}
+-    return {'status':'PASS_RESTART8000_FINITE_M14_PROGRAM_OUTPUTS','prefix_CP':identity(cp_path),
++    return {'status':'PASS_INDEPENDENT_SEED8000_FINITE_M14_PROGRAM_OUTPUTS','prefix_CP':identity(cp_path),
+             'summary':identity(summary_path),'outer':outer_report,'final_audit':final_report,
+             'first_actual_DN':first,'coefficients':polynomial,'outer_checks':len(checks),
+             'original_physical_rms':cp['max_rms_collocation_residual'],
+@@ -366,13 +366,19 @@
+ 
+ 
+ def final_audit(context, observed):
+-    require(observed is not None, 'NOT_READY: root actual tool-exit observation is required')
++    require(observed is not None, 'NOT_READY: /root/independent_audit actual tool-exit observation is required')
+     obs = read(observed); out = context['out']
+-    require(obs.get('status') == 'observed-process-completed' and obs.get('observer') == '/root'
++    require(obs.get('status') == 'observed-process-completed' and obs.get('observer') == '/root/independent_audit'
+             and type(obs.get('actual_exit_code')) is int and type(obs.get('session_id')) is int
+             and obs['session_id'] > 0 and type(obs.get('tool_receipt')) is str and bool(obs['tool_receipt'])
+-            and obs.get('stem') in (out.name,str(out)), 'Wrong actual root observation identity')
+-    require(obs['actual_exit_code'] == 0, 'Root observed a nonzero tool exit')
++            and obs.get('stem') in (out.name,str(out)), 'Wrong actual independent observation identity')
++    require(obs['actual_exit_code'] == 0, 'Independent executor observed a nonzero tool exit')
++    equal(obs.get('recorder_source'), identity(c.i.TOOL_OBSERVER), 'Wrong fixed-actor observation recorder source')
++    tool = obs.get('tool_return_metadata')
++    require(type(tool) is dict and type(tool.get('exit_code')) is int
++            and tool['exit_code'] == obs['actual_exit_code']
++            and tool.get('chunk_id') == obs['tool_receipt'] and tool.get('session_id') is None,
++            'Observation is detached from a completed actual terminal-tool return')
+     repro_path = Path(str(out)+'-reproduction.json'); repro = read(repro_path)
+     equal(repro['launch'], identity(context['launch']['launch_path']), 'Reproduction launch differs')
+     equal(repro['source_bindings'], context['launch']['bindings'], 'Reproduction source closure differs')
+@@ -406,7 +412,7 @@
+     equal(before['signature'], '(n, m, h, col_fun, bc, jac, y, p, B, bvp_tol, bc_tol)',
+           'Original installed Newton signature differs')
+     check_newton_lifetime_record(selection['selected'], context)
+-    require(repro.get('status') == 'RESTART8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS'
++    require(repro.get('status') == 'INDEPENDENT_SEED8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS'
+             and repro.get('mathematical_success') is True and repro.get('error') is None
+             and type(repro.get('requested_process_exit_code')) is int
+             and repro['requested_process_exit_code'] == 0, 'Program did not close successfully')
+@@ -415,15 +421,15 @@
+     required = {row['path']: row for row in report['required_closed_files']}
+     for path in (repro_path,Path(context['launch']['launch_path'])):
+         row=identity(path); required[row['path']]=row
+-    require(type(obs.get('files')) is list, 'Root observation must bind closed outputs')
++    require(type(obs.get('files')) is list, 'Independent observation must bind closed outputs')
+     observed_rows = {}
+     for row in obs['files']:
+-        verify(row); require(row['path'] not in observed_rows, 'Duplicate root output binding')
++        verify(row); require(row['path'] not in observed_rows, 'Duplicate independent output binding')
+         observed_rows[row['path']] = row
+     for path, row in required.items():
+-        equal(observed_rows.get(path), row, 'Root observation omitted or changed closed file: '+path)
+-    report.update(status='PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE',
+-                  root_observation=identity(observed),reproduction=identity(repro_path))
++        equal(observed_rows.get(path), row, 'Independent observation omitted or changed closed file: '+path)
++    report.update(status='PASS_INDEPENDENT_OBSERVED_SEED8000_M14_W14_FINITE_COUPLED_CLOSE',
++                  independent_observation=identity(observed),reproduction=identity(repro_path))
+     return report
+ 
+ 
+--- 78718-check-restart8000-runtime-v1.py
++++ 78718-check-independent-seed8000-runtime-v1.py
+@@ -32,12 +32,12 @@
+     args = ap.parse_args()
+     if args.out.exists():
+         raise FileExistsError(args.out)
+-    c = module('restart8000_small_runtime_probe_driver', HERE / '78718-prefix-spectral-restart8000-v1.py')
+-    audit = module('restart8000_small_runtime_probe_auditor', HERE / '78718-prefix-audit-restart8000-v1.py')
++    c = module('independent_seed8000_small_runtime_probe_driver', HERE / '78718-prefix-spectral-independent-seed8000-v1.py')
++    audit = module('independent_seed8000_small_runtime_probe_auditor', HERE / '78718-prefix-audit-independent-seed8000-v1.py')
+     _, context = c.i.ancestor_context()
+     import scipy.integrate._bvp as backend
+     old_newton, old_prepare = backend.solve_newton, backend.prepare_sys
+-    record = {'schema': '78718-restart8000-runtime-identity-check-v1',
++    record = {'schema': '78718-independent-seed8000-runtime-identity-check-v1',
+               'status': 'STARTED_RUNTIME_IDENTITY_CHECK_ONLY', 'scope': __doc__,
+               'checker': c.identity(__file__), 'driver': c.identity(c.i.RUNNER),
+               'auditor': c.identity(c.i.AUDITOR), 'input_gate': c.identity(c.i.__file__),
+@@ -55,7 +55,7 @@
+         original.install()
+         record['newton_installations'] = 1
+         record['newton_transition'] = c.select_runtime_newton(context)
+-        spectral = c.module('restart8000_small_uninvoked_spectral_module', c.HERE / 'db6f-root-spectral-collocation-v2.py')
++        spectral = c.module('independent_seed8000_small_uninvoked_spectral_module', c.HERE / 'db6f-root-spectral-collocation-v2.py')
+         selected = c.select_runtime_csc(context, spectral)
+         record['CSC_function_factory_calls'] = 1
+         audit.check_csc_runtime_record(selected, context)
+--- 78718-prepare-restart8000-guard-v1.py
++++ 78718-prepare-independent-seed8000-guard-v1.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Resource metadata only for the frozen restart8000 launch; never starts it."""
++"""Resource metadata only for the frozen independent seed8000 launch; never starts it."""
+ import argparse
+ import hashlib
+ import importlib.util
+@@ -14,8 +14,8 @@
+     ap = argparse.ArgumentParser(description=__doc__)
+     ap.add_argument('--launch', type=Path, required=True)
+     args = ap.parse_args()
+-    spec = importlib.util.spec_from_file_location('restart8000_guard_metadata_driver',
+-                                                HERE/'78718-prefix-spectral-restart8000-v1.py')
++    spec = importlib.util.spec_from_file_location('independent_seed8000_guard_metadata_driver',
++                                                HERE/'78718-prefix-spectral-independent-seed8000-v1.py')
+     c = importlib.util.module_from_spec(spec)
+     spec.loader.exec_module(c)
+     launch = c.read(args.launch)
+@@ -36,17 +36,18 @@
+     command = [sys.executable, str(wrapper), '--launch', str(path),
+                '--observation', str(out)+'-guard-completion.json',
+                '--backup-observation', str(out)+'-guard-live.json']
+-    value = {'schema':'78718-restart8000-resource-bound-command-v1',
++    value = {'schema':'78718-independent-seed8000-resource-bound-command-v1',
+              'status':'PREPARED_NOT_STARTED', 'cwd':launch['cwd'], 'out_prefix':str(out),
+              'command':launch['command'], 'bound_files':sorted(rows.values(),key=lambda row:row['path']),
+              'resource_policy':{'RLIMIT_DATA_bytes_per_process':6*1024**3,
+                  'Node_heap_MiB':1536,'disk_minimum_free_bytes':512*1024**2,
+                  'disk_resume_free_bytes':768*1024**2},
+-             'root_start_command':command, 'solver_started':False,
++             'executor_start_command':command, 'executor':c.i.EXECUTOR,
++             'observation_recorder':c.identity(c.i.TOOL_OBSERVER), 'solver_started':False,
+              'scope':'Resource/storage supervision only. Same frozen mathematical argv, no convergence or aggregate-memory guarantee.'}
+     c.write_json(path,value,exclusive=True)
+     print(json.dumps({'status':value['status'],'guard_launch':c.identity(path),
+-                      'bound_files':len(rows),'solver_calls':0,'root_start_command':command},indent=2))
++                      'bound_files':len(rows),'solver_calls':0,'executor_start_command':command,'executor':c.i.EXECUTOR},indent=2))
+ 
+ 
+ if __name__=='__main__':
+--- 78718-record-root-tool-observation-v1.py
++++ 78718-record-independent-tool-observation-v1.py
+@@ -1,8 +1,8 @@
+ #!/usr/bin/env python3
+-"""Record metadata supplied by an actual root terminal-tool return.
++"""Record metadata supplied by an actual /root/independent_audit terminal-tool return.
+ 
+ This script never starts or inspects a solver.  It cannot infer an exit from
+-guard files.  The root orchestration cell must supply the genuine tool result.
++guard files.  Only /root/independent_audit supplies its genuine tool result to this fixed-actor recorder.
+ """
+ import argparse
+ from datetime import datetime, timezone
+@@ -34,28 +34,28 @@
+         if result.get("session_id") is not None:
+             raise ValueError("A running tool session is not a natural completion")
+         status = "observed-process-completed"
+-        suffix = "-root-observed-exit.json"
++        suffix = "-independent-observed-exit.json"
+     elif args.phase == "start":
+         if type(result.get("session_id")) is not int or result.get("exit_code") is not None:
+             raise ValueError("Start observation requires an actual running tool session")
+         if result["session_id"] != args.session_id or not result.get("chunk_id"):
+             raise ValueError("Start session/receipt mismatch")
+         status = "observed-process-started-not-completed"
+-        suffix = "-root-observed-start.json"
++        suffix = "-independent-observed-start.json"
+     else:
+         if not isinstance(result.get("tool_error"), str) or "exit_code" in result:
+             raise ValueError("Unavailable sessions must not invent an exit code")
+         status = "tool-session-unavailable-no-completion-observed"
+-        suffix = "-root-unavailable-session.json"
++        suffix = "-independent-unavailable-session.json"
+     path = Path(str(out) + suffix)
+     if path.exists():
+         raise ValueError("Refusing to overwrite an observation")
+     record = {
+-        "status": status, "observer": "/root", "stem": out.name,
++        "status": status, "observer": "/root/independent_audit", "stem": out.name,
+         "session_id": args.session_id, "tool_receipt": result.get("chunk_id"),
+         "actual_exit_code": result.get("exit_code"),
+         "observed_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+-        "observation_scope": "Actual root orchestration tool return; timestamp is the recording time, not exact process wall-end. Guard metadata is not used to infer an exit.",
++        "observation_scope": "Actual /root/independent_audit orchestration tool return; timestamp is the recording time, not exact process wall-end. Guard metadata is not used to infer an exit.",
+         "tool_return_metadata": {k: v for k, v in result.items() if k != "output"},
+         "recorder_source": identity(Path(__file__).resolve()),
+         "files": [],

@@ -1,0 +1,234 @@
+{
+  "status": "independent-finite-supplier-plan-and-assembly-replay-pass",
+  "script_sha256": "30638ff73d8e67db327180db6fa5d26be09e4d65e65f97f00e2f054237c67fee",
+  "supplier_cases": [
+    {
+      "author": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-tight-int2-suffix-wide.json",
+      "author_sha256": "2d373a377e4c3fc4a33af3db5e6edb8fccb193202f36ac6a6f2ff1c1a52c7c43",
+      "replay": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-suffix-wide.json",
+      "replay_sha256": "56bda84d0867d9939f5f45893b593a9406da805f175e79832c9b2a8c84450881",
+      "all_arrays_identical": true,
+      "rows": 214,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-background-packet.py",
+        "--manifest",
+        "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--primitive",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth2.json.gz",
+        "--calibrations",
+        "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-suffix-wide",
+        "--order",
+        "8",
+        "--output-degree",
+        "8",
+        "--radial-residual",
+        "1e-08",
+        "--w-width",
+        "2e-07",
+        "--wr-width",
+        "0.08",
+        "--max-depth",
+        "0",
+        "--span-start",
+        "4423",
+        "--span-stop",
+        "4637",
+        "--rows-per-shard",
+        "5000"
+      ]
+    },
+    {
+      "author": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-critical-depth2.json",
+      "author_sha256": "13720dbc387154449a3864e5dd64ccde44dca000b07feaf6114bb93d7bb8b0a9",
+      "replay": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-depth2.json",
+      "replay_sha256": "d7ba8fab251af4dd76aeadadef143c73c6b4d11f7cef39015832c237ace363b2",
+      "all_arrays_identical": true,
+      "rows": 20,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-background-packet.py",
+        "--manifest",
+        "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--primitive",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth2.json.gz",
+        "--calibrations",
+        "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-depth2",
+        "--order",
+        "8",
+        "--output-degree",
+        "8",
+        "--radial-residual",
+        "1e-08",
+        "--w-width",
+        "2e-07",
+        "--wr-width",
+        "0.08",
+        "--max-depth",
+        "2",
+        "--span-start",
+        "4567",
+        "--span-stop",
+        "4572",
+        "--rows-per-shard",
+        "5000"
+      ]
+    },
+    {
+      "author": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-critical-4568-depth3.json",
+      "author_sha256": "bfa60dba452a451739c7e48e0602b480f40ecc8c3471655441df243aa252686f",
+      "replay": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4568-depth3.json",
+      "replay_sha256": "cd9164b35dfde50c0182e5d117f5b8119077dc09dd3a29ef61fb597a424f6584",
+      "all_arrays_identical": true,
+      "rows": 8,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-background-packet.py",
+        "--manifest",
+        "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--primitive",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth2.json.gz",
+        "--calibrations",
+        "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4568-depth3",
+        "--order",
+        "8",
+        "--output-degree",
+        "8",
+        "--radial-residual",
+        "1e-08",
+        "--w-width",
+        "2e-07",
+        "--wr-width",
+        "0.08",
+        "--max-depth",
+        "3",
+        "--span-start",
+        "4568",
+        "--span-stop",
+        "4569",
+        "--rows-per-shard",
+        "5000"
+      ]
+    },
+    {
+      "author": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-critical-4571-depth3.json",
+      "author_sha256": "5653a68f4c30ff57d53607624c1d0496674b72eace8c9cefc5999440e46ead0d",
+      "replay": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4571-depth3.json",
+      "replay_sha256": "d7063223b6ac77fd2d94c2518c9355833859e784dcb10f16a35ddb11c271f49d",
+      "all_arrays_identical": true,
+      "rows": 8,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-background-packet.py",
+        "--manifest",
+        "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--primitive",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth2.json.gz",
+        "--calibrations",
+        "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4571-depth3",
+        "--order",
+        "8",
+        "--output-degree",
+        "8",
+        "--radial-residual",
+        "1e-08",
+        "--w-width",
+        "2e-07",
+        "--wr-width",
+        "0.08",
+        "--max-depth",
+        "3",
+        "--span-start",
+        "4571",
+        "--span-stop",
+        "4572",
+        "--rows-per-shard",
+        "5000"
+      ]
+    }
+  ],
+  "assembly": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-overlay-tail-packet.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-coarse-int2.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-packet-prefix.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-0.json"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-0.json",
+      "sha256": "98fb0a7a7aa7f0c8193c0a2d5fbb4c85f3f7caf110582d4af3aa28cc4eedd852"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-overlay-tail-packet.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-0.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-suffix-wide.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-1.json"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-1.json",
+      "sha256": "591507f5cfe2a6b73a85a74aa5d6a3284dbd8fde452353d4fca20c76f9dc6125"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-overlay-tail-packet.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-1.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-depth2.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-2.json"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-2.json",
+      "sha256": "2eb9911252b43f7fba8060583de5ff252f6851ada4d6a9cb0c1b96d8ad91232b"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-overlay-tail-packet.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-2.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4568-depth3.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-3.json"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-3.json",
+      "sha256": "e43678fcffdc881a41d5949edf00a868966d41734b382a944c784dec305bcc94"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-overlay-tail-packet.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-3.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-4571-depth3.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-4.json"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-4.json",
+      "sha256": "82db9568516a6cdbe97ff5e346f97fb43fbe62b930ba950d72d04970be36b0f4"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-inherit-coarse-wr.py",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-4.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-coarse-int2.json",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-reconstructed-packet.json",
+        "--minimum-span",
+        "4423"
+      ],
+      "output": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-reconstructed-packet.json",
+      "sha256": "adf9c77831460e4ccfc953f9d7474bfa69970213179ff39923c09a6d11bc78af"
+    }
+  ],
+  "final_author_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "final_replay_sha256": "adf9c77831460e4ccfc953f9d7474bfa69970213179ff39923c09a6d11bc78af",
+  "all_final_arrays_identical": true,
+  "final_rows": 5237,
+  "scope": "Finite suffix settings, exact row overlays and inherited constant wr; reviewed coarse packet, root prefix and primitive are inputs.",
+  "seconds": 84.38054633140564
+}

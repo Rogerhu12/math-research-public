@@ -1,0 +1,76 @@
+{
+  "schema": "fd2d-R170-domain-only-recoverable-search-v1",
+  "created_utc": "2026-11-12T20:00:48.009954+00:00",
+  "run_prefix": "notes/2026-11-12-fd2d-raw-bump-dyadic31",
+  "cache_dir": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work",
+  "settings": {
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "reference_inlet": "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "reference_cache": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "reference_rim_fraction": 0.12,
+    "out_prefix": "notes/2026-11-12-fd2d-raw-bump-dyadic31",
+    "owner_stop_file": "/tmp/2026-11-12-fd2d-raw-bump-dyadic31-stop",
+    "max_iterations": 1,
+    "modes": 31,
+    "mesh_step": 0.04,
+    "gap": 0.8,
+    "central_floor": 0.1,
+    "central_cap": 8.264462809917354,
+    "profile_box": 0.08,
+    "radius_floor": 0.1,
+    "curvature_cap": 7.2,
+    "curvature_weight": 1.0,
+    "high_gauss_weight": 1.0,
+    "high_codazzi_weight": 1.0,
+    "mesh_relative_tolerance": 1e-12,
+    "damping": 1e-07,
+    "finite_tolerance": 2e-07,
+    "minimum_active_n": 0.05,
+    "interior_cells": [
+      63,
+      64,
+      65,
+      74,
+      75,
+      76,
+      123,
+      124
+    ],
+    "interior_gauss_weight": 1.0,
+    "block_cells": 2,
+    "prepared_cache_mib": 16,
+    "operator_cache_mib": 32
+  },
+  "input_sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981",
+  "physical_parameters_preserved": true,
+  "finite_equations_changed_from25": true,
+  "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+  "owner": "numerical_recovery",
+  "strong_target_complete": false,
+  "previous_actual_accepted_result": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-work/accepted-result.json",
+    "bytes": 99974,
+    "sha256": "4cc4c5d245cba9ad69071a55b3f7bb3cff25eccbc9595d14fd771f77df748e1b"
+  },
+  "finite_goal_unchanged_from_parent": true,
+  "new_actual_F_evaluations": 0,
+  "gap_retarget_origin": {
+    "parent_request": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-request.json",
+      "bytes": 2544,
+      "sha256": "5e88d0228c5fda80dc1027aef5c7fb183bf5831a1720e52dc66130b29e9b4250"
+    },
+    "old_gap": 0.9,
+    "new_gap": 0.8,
+    "rationale": "R168/R169 D4 construction; all curvature guides and physical field arrays remain unchanged"
+  },
+  "parent_same_function_request": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped29-request.json",
+    "bytes": 3040,
+    "sha256": "9b833082541723a14a88458809d7a22d98d5f23bff4a2bd6efc290ab2e9090c5"
+  },
+  "tail_domain_changed_only": true,
+  "actual_new_F_J_evaluations": 0
+}

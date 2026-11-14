@@ -1,0 +1,15 @@
+{
+  "scope": "Correct actual default projectionFloor during source-path cache relocation; no stage flow rerun",
+  "prior_attempt": {
+    "tool": "ee06de",
+    "session": 31764,
+    "exit_code": 1,
+    "cause": "Input cfg omits projectionFloor; original DN supplies .05 by default, but migration had incorrectly used undefined"
+  },
+  "original_source": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-relocate-stage-cache-v2.mjs",
+  "copied_source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-relocate-stage-cache-v2.mjs",
+  "bytes": 7894,
+  "sha256": "b2fd7f63b6eddc75547ab8f2e9e05b92ec55f2c770557a2a7719e3075f0cd6c1",
+  "mathematical_flow_sources_changed": false,
+  "old_cache_untouched": true
+}

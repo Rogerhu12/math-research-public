@@ -1,0 +1,101 @@
+{
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-mode-refinement-compare-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-native-sign-replay-v2.mjs",
+    "sha256": "5607231c720168be01b21e43698fc3ba42befc34dad1ba89f16eb3de6dd3cda0"
+  },
+  "runtime": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05",
+  "response": {
+    "path": "inputs/m8-response.json",
+    "bytes": 1486592,
+    "sha256": "8d25507e0b65de103afaee0109f97aef2eeb8313fd2eded486a3561447036502"
+  },
+  "actual_native_input_hash": "aea57a9e0dd527663051693eb3ed68dc8741a67370cb04ac3bfcd5b9643e7366",
+  "parsed_json_input_hash": "884e60fbd32e1c13c550e8e9c24131d3cb53a0ea2ea9186a480b1cf6fb87fe85",
+  "linear_graph_bootstrap_recomputed": true,
+  "local_algebraic_roots_recomputed": true,
+  "new_nonlinear_radial_maps": 0,
+  "numeric_values_identical": true,
+  "negative_zero_count": 706,
+  "coordinate_count": 46080,
+  "finalResidual": 1.6067532721703842e-14,
+  "originalResidual": 1.6067532721703842e-14,
+  "replayEvents": [
+    {
+      "key": "c4f20686264a77b78fdf06ab4b45d14fe49ce7da5f13bd9713ba37e5c855ebb0",
+      "inputHash": "2bf07f4e807067492008abd14f10d4187f429d601be96ae50e8a620071f64762",
+      "withJac": true,
+      "count": 2880
+    },
+    {
+      "key": "7079c9c0968816d51289a68c3abcdf8042e58fe9999529694b500a4a691d8729",
+      "inputHash": "aea57a9e0dd527663051693eb3ed68dc8741a67370cb04ac3bfcd5b9643e7366",
+      "withJac": false,
+      "count": 2880
+    },
+    {
+      "key": "ab50d9825d7ba255c977063007e36ad289abe87154e87f6eec82c5af8efe12cd",
+      "inputHash": "aea57a9e0dd527663051693eb3ed68dc8741a67370cb04ac3bfcd5b9643e7366",
+      "withJac": true,
+      "count": 2880
+    }
+  ],
+  "progress": [
+    {
+      "iteration": 0,
+      "norm": 3.836142665793242e-7,
+      "minA": 0.9601336638163431,
+      "minD": 0.9999999871918737,
+      "worst": {
+        "stage": 28,
+        "component": 12,
+        "absolute": 4.937259028956821e-18,
+        "scale": 1.2870373860133508e-11,
+        "normalized": 3.836142665793242e-7,
+        "kind": "shooting",
+        "rawCell": 1,
+        "rawSegment": 3
+      }
+    },
+    {
+      "iteration": 0,
+      "norm": 3.836142665793242e-7,
+      "minA": 0.9601336638163431,
+      "minD": 0.9999999871918737,
+      "chartCondition": 59513.7618213545,
+      "phase": "correction",
+      "worst": {
+        "stage": 28,
+        "component": 12,
+        "absolute": 4.937259028956821e-18,
+        "scale": 1.2870373860133508e-11,
+        "normalized": 3.836142665793242e-7,
+        "kind": "shooting",
+        "rawCell": 1,
+        "rawSegment": 3
+      }
+    },
+    {
+      "iteration": 1,
+      "norm": 1.6067532721703842e-14,
+      "minA": 0.9601336639368594,
+      "minD": 0.9999999871918737,
+      "worst": {
+        "stage": 28,
+        "component": 8,
+        "absolute": 2.0679515313825692e-25,
+        "scale": 1.2870373860133508e-11,
+        "normalized": 1.6067532721703842e-14,
+        "kind": "shooting",
+        "rawCell": 1,
+        "rawSegment": 3
+      }
+    }
+  ],
+  "mask": {
+    "path": "outputs/2026-11-12-fd2d-numerical-gc-native-sign-replay-02-negative-zero-mask.json.gz",
+    "bytes": 2027,
+    "sha256": "8ff35840f7d909508d25ae5366067dea9d25e5139f896ddbf8dadeba6c3b5361"
+  },
+  "seconds": 52.649,
+  "scope": "Exact original packed-input SHA reproduced from frozen Newton algebra and SHA-bound retained maps; no new nonlinear radial stage map was evaluated; linear graph bootstrap and local algebraic roots were recomputed."
+}

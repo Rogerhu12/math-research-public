@@ -1,0 +1,93 @@
+{
+  "schema": "fd2d-closed-actual-prefix-run-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-candidate.json",
+      "bytes": 33535,
+      "sha256": "b537ce0056c0df03b23bca50960d05c815611644da5e30cb227d5c23e534e18c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-field.npz.gz",
+      "bytes": 1561527,
+      "sha256": "3c7e9921791e670c73c892236765a78e21756906e51bf457d33268ae34e384a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-polynomial.npz.gz",
+      "bytes": 1242559,
+      "sha256": "cd82cd4a904c0184de70de3513af42ff73405097952e3564a86ae5a385ad5d2f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-progress.jsonl",
+      "bytes": 9503,
+      "sha256": "ec8832f722931eadfb4afbef9f93eaf34270cb227cbadad284f30c6254d448d6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-report.json",
+      "bytes": 23225,
+      "sha256": "6a4c05b0b890c9a26c5a2746eec277e518d15c32efcb3594d7cc6b276202b8ad"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-runtime.json",
+      "bytes": 572,
+      "sha256": "42384d273328ab6c7f4d0b23b9814052414c7dda320dfe29042f1f17e7d47d83"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-resources.jsonl",
+      "bytes": 8385,
+      "sha256": "41c88410b02ba956cefdcf1cd1195e3075af21fa200dbde87e4b6abdaf3acf52"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-completion-receipt.json",
+      "bytes": 271,
+      "sha256": "d75d452748d402326bab2e0aae77fd187a30c56690fb37590737eceb0e036302"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-accepted-0001.npz",
+      "bytes": 763315,
+      "sha256": "3d1227bb5651bd099c1a4481d8a55629540dbc9b71c01521fc3e7971bf651cdd",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-accepted-0002.npz",
+      "bytes": 763065,
+      "sha256": "cc8c9da56c847a9a060b5086d2ec57200658505d4b1dcc962a3be2460820ce1f",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-accepted-0003.npz",
+      "bytes": 762840,
+      "sha256": "73f7b30a420bdb75ef609e2c49ca3ac68e2ea7a02eacaca1ebf8f9bc7cbeba97",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-accepted-0004.npz",
+      "bytes": 762581,
+      "sha256": "b6b6b771379a1bd3696fb175fdab1fb89646133a02ce694e5c0b9df559c2bf18",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-accepted-0005.npz",
+      "bytes": 938599,
+      "sha256": "e48ef00fb3afbed0c0279951a7f0d231af73f9a4a7973e4b3315dbacbfa2bdd4",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream04-initial.npz",
+      "bytes": 253172,
+      "sha256": "4e193c5d17d5446509075ee8fd59967f785a6a834b42e51ff7e9ab6f1654a7b1",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 70177,
+    "completion_chunk": "9f385e",
+    "actual_exit_code": 0,
+    "solver_success": true,
+    "accepted_steps": 5,
+    "seconds": 64.76679756500016,
+    "maximum_rss_kib": 272080,
+    "scope": "95-dimensional finite prefix at gap .0025; linear tail; outer T"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-active-run-static-input-manifest-v1",
+  "session_id": 39587,
+  "launch_chunk_id": "f686cc",
+  "run_prefix": "notes/2026-11-12-fd2d-raw-bump-atlas10",
+  "actual_exit_unknown_while_active": true,
+  "active_outputs_excluded": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    {
+      "path": "scripts/fd2d-gc-ruling-atlas-warm-check.py",
+      "bytes": 8546,
+      "sha256": "9311239fe1ceb16ffaba75bde5236e620b9d692dcd72e3a55ec1d47e36bff338"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run.py",
+      "bytes": 20372,
+      "sha256": "b2c5bf6e68d514628adbd6601c25c356f098a8ef7c0f89a85a0f812a79cb7414"
+    },
+    {
+      "path": "scripts/fd2d-gc-natural-batch-chain-v4.py",
+      "bytes": 6871,
+      "sha256": "c693e5fbf6c7204da476e327358ff7d689b5c1d4320f3a44cbbaffb2f925c52f"
+    },
+    {
+      "path": "scripts/fd2d-run-monitored-command-v2.py",
+      "bytes": 4061,
+      "sha256": "86527392fc0e200065f76f49dbf4e4e195ac92293ee48ef1fc7cd01dd7172d44"
+    },
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-warm01-warm.npz",
+      "bytes": 55033,
+      "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+      "bytes": 68907,
+      "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+    }
+  ]
+}

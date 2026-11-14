@@ -1,0 +1,108 @@
+{
+  "status": "STATIC_INTERFACE_ONLY_NO_CANDIDATE_CREATED",
+  "note": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-warm-interface.md",
+  "note_sha256": "194b992a7f13d73138b1c288e6e3c6e84d81af3a3b2f3561c3452ce64fbca5aa",
+  "sources": [
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py",
+      "sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9",
+      "bytes": 11026
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-continuation-client.py",
+      "sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564",
+      "bytes": 3945
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs",
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "bytes": 9280
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs",
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "bytes": 17134
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-split.mjs",
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "bytes": 1952
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "bytes": 3312
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "bytes": 5118
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py",
+      "sha256": "acf6d249aa07cb093b41406506b3df80e04ff7a6a81ef3b753755c0bb536c320",
+      "bytes": 5157
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py",
+      "sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+      "bytes": 3711
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-config.json",
+      "sha256": "1e5fc1ae3e6ecd2200891ce6b9d6694d1bb93d05061cde1d2397ff8b85f76614",
+      "bytes": 3100
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0009.json.gz",
+      "sha256": "78d7e112d4823a717d0f46549b9f88d11872dbe390f40f70d295278ed50320e8",
+      "bytes": 267896
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation02-call009-closed-audit-v2.json",
+      "sha256": "8ae901094b155204c4ead255fd8222290d45ac6e7e4124f0f19832b076c6b12b",
+      "bytes": 4507
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190",
+      "bytes": 29001
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-continuation-warm-scaling-static.md",
+      "sha256": "0c31f54b321358119bdab570537c3759dd91e67f6aba08d0474a122eacc721a9",
+      "bytes": 7352
+    }
+  ],
+  "source_observed_metadata": {
+    "response_converged": true,
+    "residual": 3.796278258536727e-10,
+    "request_jacobian": false,
+    "request_audit": false,
+    "state_rows": 865,
+    "all_state_rows_30": true,
+    "rawNode_count": 13,
+    "rawNode_72n": true,
+    "rawStates_exactly_indexed": true,
+    "request_equals_cutHeight": true,
+    "native_parameter_subset": {
+      "modes": 15,
+      "spacing": 3,
+      "depth": 864,
+      "physicalDepth": 12,
+      "shootingParts": 8,
+      "steps": 32,
+      "quadrature": 256,
+      "projectionFloor": 0.05,
+      "linearFar": 32,
+      "linearSteps": 256,
+      "linearMethod": "stable-momentum-cusp-subdivision",
+      "rhsEvaluation": "split-linear-flux-v1"
+    }
+  },
+  "candidate_created": false,
+  "transformed_state_created": false,
+  "root_flow_solver_backend_calls": 0,
+  "active_file_reads": 0,
+  "README_complete": false
+}

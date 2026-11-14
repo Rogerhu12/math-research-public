@@ -1,0 +1,55 @@
+{
+  "status": "PASS_DIRECTED_REAL_PROCESS_GROUP_TEST",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+    "bytes": 6899,
+    "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd"
+  },
+  "real_child_exit_code": 0,
+  "real_grandchild_exit_code": 0,
+  "solver_calls": 0,
+  "controlled_free_space_callback_used_only_in_test": true,
+  "both_child_and_grandchild_heartbeats_stopped_across_three_observations": true,
+  "paused_heartbeat_counts": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "same_child_pid_before_and_after": true,
+  "both_processes_resumed_and_completed_all_24_updates": true,
+  "controller_reproduction_sentinel_preserved": true,
+  "no_numerical_inputs_changed": true,
+  "tool_observation_not_falsely_claimed": true,
+  "events": [
+    {
+      "event": "started",
+      "elapsed_seconds": 0.0004059269995195791
+    },
+    {
+      "event": "paused_own_process_group_for_space",
+      "elapsed_seconds": 0.10120817400456872,
+      "available_bytes": 0
+    },
+    {
+      "event": "resumed_same_process_group",
+      "elapsed_seconds": 0.3032198930013692,
+      "available_bytes": 1000
+    }
+  ],
+  "temporary_test_directory": "/dev/shm/db6f-space-guard-test2-of_t4741",
+  "prior_test_failure": {
+    "actual_tool_exit_code": 1,
+    "receipt": "5523f6",
+    "reason": "The first test compared namespace-relative Popen PIDs with a procfs view of a different PID namespace. Those proc entries were not the child processes. The test was corrected to observe both real heartbeat files; supervisor code was unchanged.",
+    "old_backup": "/dev/shm/db6f-space-guard-test-wahqlh4d/backup.json"
+  }
+}

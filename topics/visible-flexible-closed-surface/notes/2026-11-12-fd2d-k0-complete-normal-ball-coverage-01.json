@@ -1,0 +1,86 @@
+{
+  "schema": "fd2d-R151-complete-actual-coast-normal-ball-coverage-v1",
+  "actual_execution": true,
+  "source_sha256": "f0f229f84cc2803f0be33525082d72c77509f9502730c9074615c21b769c5a10",
+  "input_sha256": {
+    "v2": "8909ebfc5692155b8352e333fd31bd45a3d6f86b38414ea118c31d8e0f94d2ab",
+    "v3": "54cc1eca66804673faddc4ccb90eb20137b5650718ee0dbf96f0479d39f8bcea",
+    "v3_stop": "3e5dd418a18144c5216f5c343116728e91c4e61ec0b8717729edda08a1b2c849",
+    "v4": "c0726bf023bc015a7806a7343b56d92123eb08e6ebc7250d0d8c48c84e272790"
+  },
+  "verifier_source_sha256": {
+    "v2": "94b104d4b9e4fb650f316a78905336ed40e276c9a1a67499d658029155e52be2",
+    "v3": "c3569e27886cf1b6ff770f74e2b078bd0b423c590528a55cf32f49bedd5e6714",
+    "v4": "76842c8b8fd971257573bc9c1c9124ead27c860b22bf88f7391a49fd1f46f5b4"
+  },
+  "physical_definition_sha256": {
+    "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "moments_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+    "means_sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3"
+  },
+  "exact_row_partition": [
+    [
+      0,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      9,
+      32
+    ]
+  ],
+  "initial_angle_boxes": 32,
+  "completed_initial_products": 528,
+  "segment_products": [
+    177,
+    75,
+    276
+  ],
+  "segment_leaves": [
+    29996,
+    21211,
+    49314
+  ],
+  "accepted_leaf_methods": {
+    "separation": 2356,
+    "short_chord": 29075,
+    "convex_QP": 69090
+  },
+  "accepted_leaves": 100521,
+  "recursive_box_calls": 200514,
+  "unresolved_products": 0,
+  "complete_original_coast_product_covered": true,
+  "radius_rational": [
+    17,
+    125
+  ],
+  "both_endpoint_both_sign_normal_balls": true,
+  "original_parameter_annulus_embedded": true,
+  "its_normal_tube_is_injective_for_absolute_offset_less_than_radius": true,
+  "actual_F_changed_between_segments": false,
+  "nonzero_delta_target_included": false,
+  "boundary_normal_cone_set_reach_claimed": false,
+  "whole_closed_surface_reach_claimed": false,
+  "v2_uniform_far_numeric_margin_and_leaf_chain_not_reconstructed": true,
+  "v3_leaf_hash_chain_sha256": "dd5c66b5d62e90759732773c4c9aa5a600bf244afa1125637ac99f066a4f3c8c",
+  "v4_leaf_hash_chain_sha256": "7edd7e26b2c03b5db0cda5e47f8ec563f577ca3533ea0a49064fe1285886d7d2",
+  "v4_minimum_strict_far_Phi_lower": {
+    "lower_binary": [
+      "105065985527986895153661374161889410501459207387",
+      -180
+    ],
+    "upper_binary": [
+      "105065985527986895153661374161889410501459207387",
+      -180
+    ],
+    "lower_display": 6.855875448004412e-08,
+    "upper_display": 6.855875448004412e-08
+  },
+  "mathematical_scope": "Actual original delta=0 coast only. Strict complete normal balls and self normal-tube injectivity; cross-patch normal balls remain separate.",
+  "passed": true,
+  "seconds": 0.0939944750007271
+}

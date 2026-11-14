@@ -1,0 +1,17 @@
+{
+  "status": "PASS-exact-polynomial-identity",
+  "original": "1-t^4*(35-84*t+70*t^2-20*t^3)",
+  "factored": "(1-t)^4*(1+4*t+10*t^2+20*t^3)",
+  "exactRationalCoefficientVector": [
+    "1",
+    "0",
+    "0",
+    "0",
+    "-35",
+    "84",
+    "-70",
+    "20"
+  ],
+  "normalizedJetIdentityAllOrders": true,
+  "scope": "Pure algebra; a later stable-source code change and new supplier packet still require their own frozen-hash review."
+}

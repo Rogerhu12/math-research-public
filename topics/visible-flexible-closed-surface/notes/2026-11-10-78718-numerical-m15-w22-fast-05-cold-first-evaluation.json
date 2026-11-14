@@ -1,0 +1,50 @@
+{
+  "scope": "Actual first finite shooting evaluation observed in the existing trace. No new root/ODE, no tool-session consumption, no convergence or closed-surface assertion.",
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T12:41:30.351403+00:00",
+  "actual_read_only_tool_chunk": "e2b04d",
+  "source_trace": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05_tail-trace.jsonl",
+  "source_is_live_not_immutable": true,
+  "configuration": {
+    "modes": 22,
+    "angular": 512,
+    "has_initialCheckpoint": false,
+    "projectionFloor": 0.05,
+    "bootstrap_height_scale": 0.125,
+    "known_seed_packet": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz"
+  },
+  "actual_backends": {
+    "actual_tail_trial": "same-direction-Q-L-Newton-retraction-mean-seeded-v2",
+    "actual_tail_jacobian_backend": "fourier-root-and-product-moments-v1",
+    "actual_tail_predictor": "full-shooting-tangent-v1"
+  },
+  "first_evaluation": {
+    "time": "2026-11-10T12:40:37.086Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 163692,
+    "iteration": 0,
+    "norm": 231.56829464834516,
+    "minA": 0.9431560339705308,
+    "minD": 0.9989638250217566,
+    "chartCondition": 105807.2891109469,
+    "phase": "correction",
+    "worst": {
+      "stage": 11,
+      "component": 23,
+      "absolute": 0.16811080304582005,
+      "scale": 0.0007259664078845925,
+      "normalized": 231.56829464834516,
+      "kind": "shooting",
+      "rawCell": 0,
+      "rawSegment": 7
+    }
+  },
+  "derived_worst": {
+    "coordinate": "momentum",
+    "zero_based_momentum_index": 1,
+    "physical_frequency": 6
+  },
+  "solver_success_asserted": false,
+  "natural_tool_exit_observed": false
+}

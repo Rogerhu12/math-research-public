@@ -1,0 +1,40 @@
+{
+  "schema": "fd2d-R144-window-mass-endpoint-elimination-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-coast-window-quadrature.py",
+      "bytes": 6907,
+      "sha256": "98d83250887d033d124c970acd6f5ef28b1284394a0eecaa54d27b4dac58bd7a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-window-quadrature.md",
+      "bytes": 7535,
+      "sha256": "0ef1b79189cd1d6ddf97df96205908c9ea411508cd2062a082b45be947e8b0e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-window-quadrature-01-report.json",
+      "bytes": 7147,
+      "sha256": "c60bb65f4a019b17b4bf7a92ec571e8f27b008a824852d84773fe6522cae99f4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-window-quadrature-01-exit-receipt.json",
+      "bytes": 435,
+      "sha256": "6933c82b57d984df3fcdc9a2d41182deda29cf433f0a61e439b5a271aa829748"
+    }
+  ],
+  "actual_success": {
+    "session_id": 31387,
+    "completion_chunk_id": "8f1bbf",
+    "exit_code": 0
+  },
+  "mathematical_result": "Exact scalar mass and the endpoint elimination of known lifting derivatives; no solver code changed",
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-initial.npz",
+    "bytes": 47125,
+    "sha256": "897ecba1f6eaf69252c12236cffae324058b3aeec5fdee817000245224ba3b56"
+  },
+  "unknown_fields_evaluated": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "complete_surface_certificate": false
+}

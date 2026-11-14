@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-observed-tool-process-exit-v1",
+  "session_id": 32887,
+  "initial_tool_chunk": "5ca503",
+  "final_tool_chunk": "c5008a",
+  "actual_exit_code": 1,
+  "report": "notes/2026-11-12-fd2d-metric-current-native-interval-02-report.json",
+  "source_sha256": "105316cda3fd3a8526baaf66ea1a0a37b61cd2cea581b59953a69004d3848061",
+  "primitive_source_sha256": "0563f7f90b5e5bac6fcea15e37e0c445ac1548e66981388c06f6361d6492a6b4",
+  "actual_saved_input_loaded": true,
+  "raw_cut_and_jet_algebra_comparisons_reached": true,
+  "error": "Arb norm square-root nonfinite after a nonnegative-hull lower endpoint rounded below zero; no false pass",
+  "original_sources_and_report_preserved": true,
+  "repair_module": "scripts/fd2d_gc_current_primitive_interval_v2.py",
+  "repair_checker": "scripts/fd2d-metric-current-native-interval-check-v3.py"
+}

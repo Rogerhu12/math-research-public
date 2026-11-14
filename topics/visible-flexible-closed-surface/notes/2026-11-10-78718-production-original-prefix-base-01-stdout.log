@@ -1,0 +1,14 @@
+{"resource_only": "RLIMIT_FSIZE", "effective_bytes": [4999999, 4999999], "original_argv_and_environment_preserved": true}
+Traceback (most recent call last):
+  File "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py", line 109, in <module>
+    main()
+  File "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py", line 105, in main
+    build(parser.parse_args())
+  File "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py", line 41, in build
+    base.build(args)
+  File "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-root-fullxyz-hermite.py", line 148, in build
+    out_data.write_bytes(gzip.compress(payload.getvalue(), mtime=0))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1037, in write_bytes
+    return f.write(view)
+           ^^^^^^^^^^^^^
+OSError: [Errno 27] File too large

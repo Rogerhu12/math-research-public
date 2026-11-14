@@ -1,0 +1,76 @@
+{
+  "schema": "fd2d-actual-warm-state-csc-assembly-check-v1",
+  "passed": true,
+  "mathematical_claim": "same Lobatto residual and full analytic Jacobian; only storage representation changes",
+  "another_BVP_solved": false,
+  "maximum_mode": 95,
+  "dimension": 95,
+  "nodes": 9,
+  "parameters": 95,
+  "actual_mesh_indices": [
+    0,
+    29,
+    59,
+    88,
+    118,
+    148,
+    177,
+    207,
+    237
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+      "bytes": 33873,
+      "sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-linear-tail95-01.json",
+      "bytes": 22011,
+      "sha256": "6e1c7f63ce9fe2be3e45825bf7e7b782560938be9c747de53faa28d73a3c6944"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-design-p148-small-01-field.npz",
+      "bytes": 881282,
+      "sha256": "a1dea96f1c97fcf993b5ffb777ec0aa3eca53a22520d6f3037e78756761ef8a1"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-stream-csc-check.py",
+      "bytes": 3612,
+      "sha256": "2b6c6ac5f2da7db324d17e102f5fd3f1ae9e845f21d4e8c7be72aab32ffe21ca"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_stream_csc.py",
+      "bytes": 4907,
+      "sha256": "2b19ec81d6ac99bc1b377df7f518f268e70b97b776388092e26c449b1bf655a6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bvp-design-warm.py",
+      "bytes": 17364,
+      "sha256": "6b7c716fb4c098c2ad88924beb0ca75a8b57d19b41c50d8c13cf6563262310a8"
+    }
+  ],
+  "maximum_entry_difference": 4.547473508864641e-13,
+  "maximum_entry_scale": 12251.86968140239,
+  "maximum_entry_relative_difference": 3.7116567733065554e-17,
+  "matrix_vector_difference": 2.2737367544323206e-13,
+  "residual_bitwise_equal": true,
+  "original_stored_entries": 270750,
+  "stream_stored_entries": 151499,
+  "last_parameter_nonzero_collocation_entries": 190,
+  "original_seconds": 0.7894686079998792,
+  "stream_seconds": 0.7799171239998941,
+  "stream_status": {
+    "phase": "assembled",
+    "assembled": 1,
+    "nodes": 9,
+    "dimension": 95,
+    "interval": 8,
+    "intervals": 8,
+    "seconds": 0.7798941099999865,
+    "entries": 151499,
+    "bytes": 1821792
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "schema": "fd2d-actual-node-normalized-spectral-prolongation-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-normalized-remesh-check-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-normalized-remesh-check.mjs",
+    "sha256": "f462154ebbfefcfe138229db0621f6f23fbf25364e701656437deae40dfc09e4"
+  },
+  "config": {
+    "path": "config.json",
+    "sha256": "3a7d37e6f711519d3de3c2679eb4f1585ecc6354fca9f45647df292618752988",
+    "bytes": 22506
+  },
+  "actual_source_response": {
+    "path": "actual-response.json",
+    "sha256": "d8a78ef41bed1c7d98af6f887e30e6ddbe2b88208fe5abc9ca8d26da24f58248",
+    "bytes": 799650,
+    "actualResidual": 1.6067532721703842e-14,
+    "actualHeight": [
+      -2e-9,
+      0,
+      0,
+      0
+    ]
+  },
+  "converted": {
+    "path": "outputs/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-initial.json.gz",
+    "sha256": "142d7a05673cb7d5836de8d5b87c5cef8f9c93713c0fac0fb887bdbeed03239b",
+    "bytes": 185270
+  },
+  "diagnostics": {
+    "method": "same-physical-Q-L-prolongation-normalized-arithmetic-v1",
+    "scope": "Initial guess conversion only; no new shooting solve or high-mode trajectory is asserted.",
+    "sourceModes": 4,
+    "targetModes": 8,
+    "sourceQuadrature": 64,
+    "targetQuadrature": 128,
+    "physicalDepth": 160,
+    "shootingParts": 2,
+    "nodeCount": 2881,
+    "commonAngularNodes": 64,
+    "quadratureChanged": true,
+    "maxQChange": 0,
+    "maxNonconstantHeightChange": 0,
+    "maxNormalizedNonmeanLGap": 1.636655837684664e-18,
+    "maxURGapCommonAngles": 2.6488783739049993e-23,
+    "maxURGapFloatingFourierL1": 2.6492816584695624e-23,
+    "maxMeanSlopeChange": 0,
+    "maxLowMomentumRelativeChange": 7.656430523542421e-14,
+    "maxNewHighMomentumRelativeSize": 1.484950476544544e-11,
+    "maxRootRelativeResidual": 7.656427920341724e-14,
+    "minLeading": 0.9901038631668481,
+    "minD": 0.9999999967980512,
+    "worstURNode": 9
+  },
+  "selected": [
+    {
+      "node": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "logw": -2.302585092994047,
+      "old_Q": [
+        -3.1999999999999976e-8,
+        0,
+        0,
+        0
+      ],
+      "new_Q": [
+        -3.1999999999999976e-8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        4.720000000579443e-15,
+        2.781313150212894e-16,
+        3.11233513683099e-13,
+        2.8875117705082033e-18,
+        9.104879401828189e-24,
+        2.5919379242573445e-31,
+        -1.4791145033552414e-31,
+        3.821044888573672e-31,
+        -1.232595100859972e-31
+      ],
+      "rootRelativeResidual": 1.6520074186515276e-16,
+      "minimumLeading": 0.9999999984004445,
+      "minimumD": 0.9999999967999909
+    },
+    {
+      "node": 18,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "logw": -5.523673598434213,
+      "old_Q": [
+        4.473333025835292e-9,
+        -3.1243233221120955e-14,
+        -1.9492556139400676e-19,
+        5.318949016190052e-23
+      ],
+      "new_Q": [
+        4.473333025835292e-9,
+        -3.1243233221120955e-14,
+        -1.9492556139400676e-19,
+        5.318949016190052e-23,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        1.1506525741749929e-14,
+        -5.723527304002206e-14,
+        5.077903661580217e-12,
+        -8.028436956965623e-17,
+        -1.440868480214763e-19,
+        8.389472328994965e-31,
+        -8.36788074530589e-31,
+        1.9721513875753391e-31,
+        -5.423418723848603e-31
+      ],
+      "rootRelativeResidual": 1.5950609766988663e-16,
+      "minimumLeading": 0.9999999999925734,
+      "minimumD": 0.9999999999921076
+    },
+    {
+      "node": 28,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "logw": -12.919161734416395,
+      "old_Q": [
+        3.2178729606214126e-12,
+        2.96579747626138e-14,
+        -5.2740102054361333e-17,
+        1.2740554730560592e-19
+      ],
+      "new_Q": [
+        3.2178729606214126e-12,
+        2.96579747626138e-14,
+        -5.2740102054361333e-17,
+        1.2740554730560592e-19,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        -0.000024367576398789137,
+        0.00698101415746521,
+        6.155549611910023e-7,
+        -3.6014847600181657e-9,
+        1.726023891320827e-11,
+        -4.691073126088024e-21,
+        3.7054707460630734e-20,
+        -2.154607633623797e-22,
+        6.408144974700059e-21
+      ],
+      "rootRelativeResidual": 2.9606154753776646e-17,
+      "minimumLeading": 0.9901038631668481,
+      "minimumD": 0.9999999999998811
+    },
+    {
+      "node": 36,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "logw": -6.13713171804395,
+      "old_Q": [
+        -3.1080407670177196e-11,
+        -4.0237874266996855e-15,
+        2.5787201339573165e-20,
+        6.757342424890538e-24
+      ],
+      "new_Q": [
+        -3.1080407670177196e-11,
+        -4.0237874266996855e-15,
+        2.5787201339573165e-20,
+        6.757342424890538e-24,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        1.0195232856796118e-18,
+        4.384095827534732e-18,
+        2.611048631420521e-14,
+        -4.6666941361166735e-19,
+        -5.898381564837909e-22,
+        -6.541008368841917e-35,
+        -1.2040954146948802e-35,
+        -1.1435208962152342e-34,
+        9.027796614489133e-36
+      ],
+      "rootRelativeResidual": 2.950567141087723e-20,
+      "minimumLeading": 0.9999999999999627,
+      "minimumD": 0.9999999999999782
+    },
+    {
+      "node": 2640,
+      "rawCell": 146,
+      "rawSegment": 3,
+      "logw": -178.30307743739195,
+      "old_Q": [
+        6.190321545547518e-275,
+        0,
+        0,
+        0
+      ],
+      "new_Q": [
+        6.190321545547518e-275,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        0,
+        -1.1999865201467947e-243,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rootRelativeResidual": 0,
+      "minimumLeading": 1,
+      "minimumD": 1
+    },
+    {
+      "node": 2880,
+      "rawCell": 159,
+      "rawSegment": 0,
+      "logw": -307.2089717896682,
+      "old_Q": [
+        -2.0482055846822626e-298,
+        0,
+        0,
+        0
+      ],
+      "new_Q": [
+        -2.0482055846822626e-298,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normalized_L": [
+        0,
+        -8.722393333177156e-182,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rootRelativeResidual": 0,
+      "minimumLeading": 1,
+      "minimumD": 1
+    }
+  ],
+  "pointCache": {
+    "schema": "fd2d-fixed-tail-bounded-point-cache-v1",
+    "entries": 1440,
+    "pointsPerEntry": 8,
+    "maximum_retained_point_values": 11520,
+    "scope": "Memoization only. The configured fixed physical source, point arithmetic, and subsequent nonlinear equations are unchanged."
+  },
+  "seconds": 11.044,
+  "scope": "Actual Q/L spectral prolongation of a stored M4/N64 solution. M8/N128 initial guess only; no new ODE, Newton residual, DN or geometry certificate."
+}

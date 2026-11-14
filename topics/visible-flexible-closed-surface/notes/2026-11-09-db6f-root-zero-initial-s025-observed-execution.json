@@ -1,0 +1,59 @@
+{
+  "status": "observed-process-completed",
+  "session_id": 18291,
+  "actual_exit_code": 0,
+  "observer": "/root",
+  "observed_utc": "2026-11-09T12:52:29.868387+00:00",
+  "stem": "2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01",
+  "launch": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-launch.json",
+    "bytes": 20569,
+    "sha256": "114ddc195ef4b038a4b825c508fca42c4ed0de4f38a6c554a8829c506c188a5a"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-config.json",
+      "bytes": 3071,
+      "sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-iteration.json.gz",
+      "bytes": 263179,
+      "sha256": "e25f2db63d61485906cc69593c44db142a67b1a63d6fffa8ec7f66bfa14f30c0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-reproduction.json",
+      "bytes": 4114,
+      "sha256": "cc3d7a0e698ca0094996a8ad4b3c22a13c430c6c8708c67ceaf9ff5800c8a60e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-run.log",
+      "bytes": 669,
+      "sha256": "c541dc07165fc20158a9df3290353da9e451dfb2edf840b786c255ea606b09b4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-summary.json",
+      "bytes": 691,
+      "sha256": "5b122cf27d5f3b7bf8e77b833143dc03f4e2a4a1075e159340c4db55a742b05e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trace.jsonl",
+      "bytes": 4034,
+      "sha256": "f6d6deec7be633ac55216fb84d855f83bc91d25f1f94982d167bc8e36babdc96"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trials.jsonl",
+      "bytes": 11279,
+      "sha256": "2b32782ac45a56d3b3b2473fba5f423538a778ff4e7c5121cdc69119f450103f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01_tail_0001.json.gz",
+      "bytes": 272869,
+      "sha256": "7a5f0b57fabdd58000905d61644513a292ab5f7d6b8fe7ee0fc0375866301442"
+    }
+  ],
+  "timestamp_scope": "This records the write time after the actual tool exit 0 was observed. The final solver trace timestamp is separate.",
+  "last_solver_trace_timestamp": "2026-11-09T12:35:40.706Z",
+  "converged": false,
+  "note": "The terminal wrapper and worker exited normally, while the eight-iteration mathematical solve did not converge. No successful warm state or nonexistence conclusion is claimed."
+}

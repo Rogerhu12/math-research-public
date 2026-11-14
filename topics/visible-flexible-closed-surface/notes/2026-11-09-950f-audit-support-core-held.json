@@ -1,0 +1,21 @@
+{
+  "status": "PASS: exact finite core and conditional held-distance theorem",
+  "source_sha256": {
+    "notes/2026-11-09-950f-support-core-held-certificate.md": "a88dad9c39a505a2bebbdf42bc0c5cd237f5229b2b68933d95fe401f5a21ecd5",
+    "scripts/950f-root-support-certificate.py": "aac87b12b552f5d71be1c47fc05ddeed040434e2f7a5a502ded59ba7d7dc531b",
+    "notes/2026-11-09-950f-prefix-adaptive-fixed-m12-summary.json": "a96eda8b9aa7d35714b02aeb74ba273ea35c5530a00b7fb2781ebc0de44a9a42"
+  },
+  "coefficients": 12,
+  "rho_lower": "108161459408633580760405739/309485009821345068724781056",
+  "gap": "99004839455425855022037795/618970019642690137449562112",
+  "held_ratio_at_D_3_1": "495024197277129275110188975/9594035304461697130468212736",
+  "reported_and_rerun_equal": true,
+  "independent_exact_inequality_checks_passed": true,
+  "unpaid": [
+    "complete nonlinear prefix-tail-cap family",
+    "true global diameter",
+    "fixed holding set",
+    "noncongruence",
+    "all-point C2 gluing and reach"
+  ]
+}

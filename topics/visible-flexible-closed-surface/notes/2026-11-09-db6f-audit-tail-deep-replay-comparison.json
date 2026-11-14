@@ -1,0 +1,23 @@
+{
+  "status": "PASS-continuous-deep-finite-tail-metric-and-curvature",
+  "oldBackendSHA256": "87bcf9d395e3d83df11e1d8d3ba5c0ca77dcc10645feff390c45271421373e9d",
+  "currentBackendSHA256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "oldWholeReportSHA256": "f988f229b4f367f7e2c58b35b179b73e78596dc525e2550c395b95c24ca752d7",
+  "currentDeepReportSHA256": "8a70e00d49a31fdd33b7a5cebb9987efa62aede4f7f073f3beaeeb82a426f11b",
+  "currentRowsSHA256": "09f707061c66dadbe24ff4396d013920c722c0a45404e23cb84518bd41aa4434",
+  "exactRowsEqual": true,
+  "checkedRows": 3478,
+  "geometrySpanInterval": [
+    -1,
+    3477
+  ],
+  "includesCompleteR6Collar": true,
+  "metricOperatorUpper": 4.809212847603965e-07,
+  "principalCurvatureUpper": 6.169207593957708,
+  "metricBelowOnePartPerMillion": true,
+  "curvatureBelowReachBudgetForDiameter392": true,
+  "reachCurvatureBudgetExact": "1250/147",
+  "strongerWorkingCurvatureBudgetExact": "625/98",
+  "strongerBudgetIsNotREADMERequirement": true,
+  "scope": "Only the collar and finite spans 0..3476. Complete outer-tail metric and curvature remain pending."
+}

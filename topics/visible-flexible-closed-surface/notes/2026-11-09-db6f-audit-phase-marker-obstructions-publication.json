@@ -1,0 +1,66 @@
+{
+  "status": "CLOSED-independent-full-proof-v2-review-and-two-observed-arithmetic-replays",
+  "reviewer": "/root/independent_geometry",
+  "reviewed_author_proof_sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486",
+  "reviewed_author_script_sha256": "e904ab1b2aa23745c1eb64db562fb52c5fd31a0fc35b6dc3e90f3232b0b593d7",
+  "reviewed_author_report_sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96",
+  "observed_exit_codes": [
+    0,
+    0
+  ],
+  "all_bound_files_rehashed_at_closure": true,
+  "new_solver_root_flow_geometry_backend_calls": 0,
+  "new_candidate_certificate": false,
+  "README_complete": false,
+  "files": [
+    {
+      "file": "scripts/db6f-audit-phase-marker-obstructions.py",
+      "sha256": "53921d9aceb4917b5df57608251d30ee57d705936bcbbc6e0ae02a5f3e03d75a",
+      "bytes": 8779,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-review.md",
+      "sha256": "06702fc0aad8c88c75ca87da5b1c08943356c57b5cf4390b762bee5e189b8abe",
+      "bytes": 13963,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-check.json",
+      "sha256": "95968c1e9ed2a7ac9d29ca8ac57bc687c2df865138049953306c6ebe53553197",
+      "bytes": 6112,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-replay.json",
+      "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96",
+      "bytes": 11251,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-replay-sources.json",
+      "sha256": "74a2e4f996872b1b36b6cf24aec526266382da269de35b78f9aa9c3dc8c9a60a",
+      "bytes": 5862,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-comparison.json",
+      "sha256": "894156f913373734734b152464637cc77cc0e34e6a3234bfd5667889f4dee1e9",
+      "bytes": 4286,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions.execution.json",
+      "sha256": "fa38500681a01e9f2bd7d98271a822e5f9b669bcd021e4444fed2b299dd852a4",
+      "bytes": 2658,
+      "closed": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions.log",
+      "sha256": "f841bae1d302f489b8adcf03bca88d50aebd5e71eb1948bea8c555222c0e992f",
+      "bytes": 526,
+      "closed": true
+    }
+  ],
+  "total_bytes": 53437
+}

@@ -1,0 +1,207 @@
+{
+  "schema": "fd2d-raw-three-field-exact-lifting-finite-design-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-flat-dae-01/topic/scripts/fd2d-gc-raw-lifted-design.py",
+    "bytes": 10614,
+    "sha256": "1d586dd7dc2e798ef0504c83434614c214bd655c2c7dac51c495f300b15535d5"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-flat-dae-01/topic/scripts/fd2d_gc_raw_lifted_dae.py",
+    "bytes": 15820,
+    "sha256": "fd2bc0cc968513fa6700aa361094bea858cebc0326a98695de740d42dae8b45c"
+  },
+  "family_provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-flat-dae-01/topic/scripts/fd2d_flat_developable_family.py",
+    "bytes": 12827,
+    "sha256": "c2d2afb3ed558f50aef20629b323c7bc1475561e5d2c2d8e105260d2b0ebb2eb"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-flat-dae-01/topic/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "parameters": {
+    "candidate": "topic/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "out_prefix": "outputs/2026-11-12-fd2d-root-flat-dae-jac01",
+    "modes": 3,
+    "mesh_step": 0.06,
+    "gap": 0.9,
+    "amplitude": 1.0,
+    "max_iterations": 30,
+    "finite_tolerance": 2e-07,
+    "check_jacobian_only": true
+  },
+  "finite_scheme": "Trapezoidal Codazzi cells, projected Gauss at noncut nodes, exact endpoint liftings",
+  "missing_final_conditions": [
+    "continuous full residual",
+    "actual body and alignment",
+    "prefix and cross-piece geometry",
+    "complete closed map and all-time bounds",
+    "same-g refinement"
+  ],
+  "exact_tail_functions_are_not_truncated": true,
+  "cut_mean_removed": false,
+  "physical_metric_changes_with_T": true,
+  "success": false,
+  "completed": true,
+  "accepted_steps": 0,
+  "exception": null,
+  "seconds": 29.59078486100043,
+  "maximum_rss_kib": 78792,
+  "initial_checkpoint": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-flat-dae-01/outputs/2026-11-12-fd2d-root-flat-dae-jac01-initial.npz",
+    "bytes": 9241,
+    "sha256": "f11dc9ce9b41fa2334b0003baaa3b1974f3fdcb54f73015e2982585f49199c05"
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.02,
+    "actual_T": 0.02,
+    "physical_T_domain": [
+      0.0,
+      0.22510364412376974
+    ],
+    "computational_endpoint": 1.344258724456249,
+    "actual_physical_endpoint": 1.344258724456249,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.263603200988874
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "initial": {
+    "residual_maximum": 1867.686853666024,
+    "residual_rms": 111.80485913964242,
+    "full_gauss_node_maximum": 573.1168595698556,
+    "formal_curvature_node_maximum": 2118.8166810851476,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.02,
+    "tail_coefficients": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_n": -0.5341119517057542,
+    "maximum_n": 4.707701973996513,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false
+  },
+  "dimensions": {
+    "nodes": 104,
+    "frequencies": 3,
+    "correction": 11,
+    "parameters": 8,
+    "unknowns": 1152
+  },
+  "jacobian_check": {
+    "rows": [
+      {
+        "direction": "all_three_fields",
+        "step": 2e-05,
+        "absolute_maximum": 1.0067415123771184e-08,
+        "relative_l2": 8.49074769831908e-11
+      },
+      {
+        "direction": "all_three_fields",
+        "step": 1e-05,
+        "absolute_maximum": 1.761558010571207e-08,
+        "relative_l2": 1.9681523579545293e-10
+      },
+      {
+        "direction": "all_three_fields",
+        "step": 2e-06,
+        "absolute_maximum": 1.4340981568938815e-07,
+        "relative_l2": 1.1014270598979453e-09
+      },
+      {
+        "direction": "central_curve",
+        "step": 2e-05,
+        "absolute_maximum": 1.3619383398832952e-12,
+        "relative_l2": 1.165245112350818e-12
+      },
+      {
+        "direction": "central_curve",
+        "step": 1e-05,
+        "absolute_maximum": 4.79632999983437e-12,
+        "relative_l2": 4.103636627090547e-12
+      },
+      {
+        "direction": "central_curve",
+        "step": 2e-06,
+        "absolute_maximum": 2.327116277456298e-11,
+        "relative_l2": 1.9910305561595517e-11
+      },
+      {
+        "direction": "exact_tail_function",
+        "step": 2e-05,
+        "absolute_maximum": 8.770226600507414e-09,
+        "relative_l2": 1.2767116066170957e-10
+      },
+      {
+        "direction": "exact_tail_function",
+        "step": 1e-05,
+        "absolute_maximum": 9.76708205979726e-09,
+        "relative_l2": 2.0166094003973864e-10
+      },
+      {
+        "direction": "exact_tail_function",
+        "step": 2e-06,
+        "absolute_maximum": 2.918675007235194e-08,
+        "relative_l2": 6.279521232209554e-10
+      },
+      {
+        "direction": "physical_T",
+        "step": 2e-05,
+        "absolute_maximum": 1.5684821619288414e-07,
+        "relative_l2": 5.870365874544523e-10
+      },
+      {
+        "direction": "physical_T",
+        "step": 1e-05,
+        "absolute_maximum": 1.8526992562328815e-07,
+        "relative_l2": 6.570126580631084e-10
+      },
+      {
+        "direction": "physical_T",
+        "step": 2e-06,
+        "absolute_maximum": 1.006191325814143e-07,
+        "relative_l2": 4.751919428089638e-10
+      }
+    ],
+    "exact_endpoint_lifting_sample_difference": 4.440892098500626e-16,
+    "exact_endpoint_gauss_sample": 8.881784197001252e-16,
+    "finite_dimensions": {
+      "nodes": 104,
+      "correction": 11,
+      "parameters": 8,
+      "unknowns": 1152,
+      "equations": 1152
+    },
+    "jacobian_nonzero_entries": 16738,
+    "implementation_diagnostic_only": true
+  }
+}

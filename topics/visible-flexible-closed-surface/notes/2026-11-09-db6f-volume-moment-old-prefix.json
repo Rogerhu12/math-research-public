@@ -1,0 +1,21 @@
+{
+  "scope": "Rigorous finite-prefix contribution to the third horizontal volume moment.\n\nUses div(0,0,z(x+iy)^3)=(x+iy)^3. This is a boundary contribution from\nthe represented prefix and its mirror, not a complete body's moment.\nThe angular trapezoid is EXACT for the finite trigonometric polynomial;\nradial Bernstein enclosures and outward arithmetic control the integral.\n",
+  "geometry": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-mirror-m12f16.json",
+  "geometry_sha256": "0a6849d0fd2dbb60bcebe67bd8c428abcbab09e8367c1ac7da2ab5ad2f738c87",
+  "data_sha256": "aa283735d7c98d64874a891471bf3cfd2b3ee1784fee40409597692a6d80a67d",
+  "script_sha256": "aa192db73e12eb0e18534a973e0246cc2ad0891d3c0a0d991d367311a8ceb069",
+  "interval_backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "angular_points_per_period": 128,
+  "exact_angular_degree_bound": 97,
+  "radial_subdivisions": 1,
+  "upper_prefix_real_moment_interval": [
+    0.12080885851705339,
+    0.12958107412043243
+  ],
+  "mirrored_prefix_real_moment_interval": [
+    0.24161771703410675,
+    0.2591621482408649
+  ],
+  "imaginary_part_zero_by_exact_reflection_symmetry": true,
+  "complete_volume_moment_certified": false
+}

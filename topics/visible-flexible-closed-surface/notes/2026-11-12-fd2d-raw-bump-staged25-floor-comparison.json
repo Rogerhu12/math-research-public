@@ -1,0 +1,29 @@
+{
+  "schema": "fd2d-one-unchanged-normal-search-domain-comparison-v1",
+  "same_normal_sha256": "e022f588dd0731aca74896ea8ef7fcbf649bd89c4a8d336e50b57a55c730a732",
+  "same_factor_packet_sha256": "03412f96a6803bd1cde7c5e09b1b8ea749c215ff5418a3a47a5415182149fc28",
+  "damping": 1e-07,
+  "old_floor": 0.1,
+  "new_floor": 0.01,
+  "old_predicted_norm": 4.406258781158003,
+  "new_predicted_norm": 4.370657786016888,
+  "predicted_norm_decrease": 0.03560099514111581,
+  "relative_remaining_norm_decrease": 0.008079642369928976,
+  "old_direction_summary": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/directions/lambda1e7-block-floor01/summary.json",
+    "bytes": 62595,
+    "sha256": "782ab0a3c80f4b615a52bfe5760d0d858aa7b9e2fe09f67f40f5be9b9758ce4d"
+  },
+  "new_direction_summary": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/directions/lambda1e7-block-floor001/summary.json",
+    "bytes": 62597,
+    "sha256": "29f9af21647eaf0e1f06df43b5ec828ddaa6ae79e7bb682483f471d0e3233bc7"
+  },
+  "new_QP_optimizer_success": true,
+  "new_QP_optimizer_iterations": 343,
+  "new_proposed_minimum_central_curvature": 0.009999999999999926,
+  "same_F_J_recomputed": false,
+  "new_floor_actual_line_search_executed": false,
+  "decision": "The extra predicted improvement is only 0.81 percent of the remaining norm in this one damped constrained linear model. Keep the actually accepted floor-0.1 state and move to the independently prepared R163/R165 discretization; this is not a proof that the central search bound never matters.",
+  "retained_actual_accepted_sha256": "8758adec459324f84bb1d3bf4aa0092b484142151207bc8866d103b30ee42d84"
+}

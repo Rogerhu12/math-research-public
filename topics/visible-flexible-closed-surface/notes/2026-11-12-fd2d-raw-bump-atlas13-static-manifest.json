@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-active-run-static-input-manifest-v1",
+  "session_id": 69015,
+  "launch_chunk_id": "ebdd12",
+  "active_outputs_excluded": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run-v3.py",
+      "bytes": 21627,
+      "sha256": "123ff526bb2232e3bfeae1fc61686ff1db0b8791979ab09f9518e9c7efe00cf8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-reset01-warm.npz",
+      "bytes": 53453,
+      "sha256": "f8b8d15f9bf0488e5f8f36e2d8a952f2ecd67bed1250d1c6b27283675e5bef60"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-reset01-closed-group.json",
+      "bytes": 1070,
+      "sha256": "83b1a25205f36182426f5b7f9e5832f0f5ab9572aa6649a2645183ff7de48dfb"
+    }
+  ],
+  "changed_initial_field": true,
+  "physical_g_parameters_unchanged_at_start": true,
+  "finite_equations_same_as_atlas12": true
+}

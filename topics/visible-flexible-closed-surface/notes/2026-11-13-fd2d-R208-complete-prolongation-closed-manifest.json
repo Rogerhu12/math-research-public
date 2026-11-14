@@ -1,0 +1,85 @@
+{
+  "schema": "fd2d-R208-complete-full-half-prolongation-closed-group-v1",
+  "utc": "2026-11-13T02:40:57.147Z",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-R201-R205-complete-radial-prolongation.cjs",
+      "bytes": 4240,
+      "sha256": "f1e979bfabfc94706e3af3a069f6f3f52f172205c4e7133537f63fa1b08e5671",
+      "commit": "8a28c1c187f85d8e62341898c3227c12ccd724a3"
+    },
+    {
+      "path": "scripts/fd2d-check-R201-R205-prolongation-R208.cjs",
+      "bytes": 6013,
+      "sha256": "dfbbd7fbcd0f27f0bc5bce0962a03ed4aa437d50d80c6b646600c4e9cd2f468a",
+      "commit": "f9dd752a92710ab5eb2ed0d545afeecf093bc8e7"
+    },
+    {
+      "path": "results/R208-complete-full-half-radial-prolongation-and-global-columns.md",
+      "bytes": 6404,
+      "sha256": "169afde4f93bfabe0f4fbd8a9452fef5f4dfcdbd68e546659e6c95cf4ce186e7",
+      "commit": "def96282ec25ccc30d52fa3bef0d8469e22839c0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R208-complete-prolongation-check.json",
+      "bytes": 56299,
+      "sha256": "7a1e64eba4036e088dc627e1047a86d4e605c7467ae0cc396e9503437d1a5b82",
+      "commit": "09b8dad3a7ab03f81b7e988fe166be2b1fe5c640"
+    }
+  ],
+  "input": {
+    "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+    "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5"
+  },
+  "actualExecution": {
+    "runtime": "pure V8; no OS child or exit code",
+    "physicalCheckSeconds": 0.957,
+    "directionCheckSeconds": 0.708,
+    "physicalPoints": 72,
+    "directionPoints": 4,
+    "oldDimension": 932,
+    "newDimension": 1025,
+    "maxPhysicalJetDifference": 3.7614356074300304e-13,
+    "maxMappedDirectionJetDifference": 8.93729534823251e-15,
+    "largeNormalEvaluated": false,
+    "acceptedOptimizationStep": false
+  },
+  "publication": {
+    "mode": "root README section 8 small UTF8 during unavailable executor",
+    "journal": [
+      {
+        "utc": "2026-11-13T02:40:32.112Z",
+        "path": "scripts/fd2d-R201-R205-complete-radial-prolongation.cjs",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 13dff3f1430ce052b38e26c87a91cbca45b5ce25 but expected 74c96a8b703eff9448d1a2addf67b8f81a359543\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 13dff3f1430ce052b38e26c87a91cbca45b5ce25 but expected 74c96a8b703eff9448d1a2addf67b8f81a359543\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at 13dff3f1430ce052b38e26c87a91cbca45b5ce25 but expected 74c96a8b703eff9448d1a2addf67b8f81a359543\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T02:40:32.113Z",
+        "event": "immediate literal pull after 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T02:40:32.426Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      }
+    ]
+  },
+  "exactRealSameField": true,
+  "binary64ExactEqualityClaimed": false,
+  "newFiniteQuadratureRequiresFreshBaseline": true,
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

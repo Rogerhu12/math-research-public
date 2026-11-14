@@ -1,0 +1,281 @@
+{
+  "schema": "78718-independent-post-plans-exact-source-derivation-v1",
+  "status": "SOURCE_ONLY_DERIVATION_NOT_SUCCESSFUL_CANDIDATE",
+  "builder": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-build-independent-post-plans-v1.py",
+    "bytes": 11273,
+    "sha256": "e62c201b15355687f9645690b4e3d57e0341348cafd853e2d38d8bfb7b60f461"
+  },
+  "independent_final_auditor": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-independent-seed8000-v1.py",
+    "bytes": 32581,
+    "sha256": "067f8944cb0d75ceffc846119b1ca2511f0e6e886799258e4659b023d8828578"
+  },
+  "independent_entry_complete_review": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-independent-seed8000-entry-v1.md",
+    "bytes": 20752,
+    "sha256": "4bf8d07536b0df21f824bf06ba753af3905d6db252744b46b58fadf0aeeff9e3"
+  },
+  "plans": [
+    {
+      "old": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+        "bytes": 32491,
+        "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+      },
+      "new": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-independent-seed8000-v1.py",
+        "bytes": 32715,
+        "sha256": "b3526176d56179a3edce6a71a159591a1e9f5ceecd9d253a4eeec95887e07053"
+      },
+      "replacements": [
+        {
+          "index": 0,
+          "old_text": "Read-only, success-only command plan for the original post-restart8000 chain.",
+          "new_text": "Read-only, success-only original-family plan after independent published-M14 seed8000.",
+          "exact_match_count": 1
+        },
+        {
+          "index": 1,
+          "old_text": "and root's actual successful tool-exit observation, hashes pre-existing inputs,",
+          "new_text": "and /root/independent_audit's actual successful tool-exit observation, hashes pre-existing inputs,",
+          "exact_match_count": 1
+        },
+        {
+          "index": 2,
+          "old_text": "The separately named byte-storage family remains outside this frozen v1 plan.",
+          "new_text": "The separately named independent byte-storage plan remains outside this frozen v1 plan.",
+          "exact_match_count": 1
+        },
+        {
+          "index": 3,
+          "old_text": "AUDITOR = HERE / '78718-prefix-audit-restart8000-v1.py'",
+          "new_text": "AUDITOR = HERE / '78718-prefix-audit-independent-seed8000-v1.py'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 4,
+          "old_text": "AUDITOR_SHA = 'cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f'",
+          "new_text": "AUDITOR_SHA = '067f8944cb0d75ceffc846119b1ca2511f0e6e886799258e4659b023d8828578'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 5,
+          "old_text": "LAUNCH_SCHEMA = '78718-true-m14-w14-restart8000-launch-v1'",
+          "new_text": "LAUNCH_SCHEMA = '78718-true-m14-w14-independent-seed8000-launch-v1'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 6,
+          "old_text": "SUCCESS = 'PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE'",
+          "new_text": "SUCCESS = 'PASS_INDEPENDENT_OBSERVED_SEED8000_M14_W14_FINITE_COUPLED_CLOSE'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 7,
+          "old_text": "module('post_restart8000_full_close_audit', AUDITOR)",
+          "new_text": "module('post_independent_seed8000_full_close_audit', AUDITOR)",
+          "exact_match_count": 1
+        },
+        {
+          "index": 8,
+          "old_text": "'Not the restart8000 launch schema'",
+          "new_text": "'Not the independent seed8000 launch schema'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 9,
+          "old_text": "run.name.startswith('2026-11-10-78718-')",
+          "new_text": "run.name.startswith('2026-11-10-78718-independent-post-seed8000-')",
+          "exact_match_count": 1
+        },
+        {
+          "index": 10,
+          "old_text": "'Use a separately named immediate notes subdirectory'",
+          "new_text": "'Use the separately named independent-post-seed8000 immediate notes subdirectory'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 11,
+          "old_text": "bindings.bound(final['root_observation'], 'actual-success-root-observation')",
+          "new_text": "bindings.bound(final['independent_observation'], 'actual-success-independent-observation')",
+          "exact_match_count": 1
+        },
+        {
+          "index": 12,
+          "old_text": "(args.observed_execution, 'actual-root-success-observation')",
+          "new_text": "(args.observed_execution, 'actual-independent-success-observation')",
+          "exact_match_count": 1
+        },
+        {
+          "index": 13,
+          "old_text": "'schema': '78718-post-restart8000-success-only-original-plan-v1'",
+          "new_text": "'schema': '78718-post-independent-seed8000-success-only-original-plan-v1'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 14,
+          "old_text": "'status': 'ACTUAL_MAIN_SUCCESS_BOUND_FUTURE_PRODUCTION_PLAN_ONLY'",
+          "new_text": "'status': 'ACTUAL_INDEPENDENT_MAIN_SUCCESS_BOUND_FUTURE_PRODUCTION_PLAN_ONLY'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 15,
+          "old_text": "'root_actual_exit_observation': identity(args.observed_execution)",
+          "new_text": "'independent_actual_exit_observation': identity(args.observed_execution)",
+          "exact_match_count": 1
+        },
+        {
+          "index": 16,
+          "old_text": "'The restart8000 ancestor failed CP is a declared true input, not an independent final rerun performed here.'",
+          "new_text": "'The published M14 seed and its own tail are the declared solver inputs; this plan does not execute or fabricate the independently observed solver run.'",
+          "exact_match_count": 1
+        }
+      ],
+      "exact_AST_unchanged_functions": [
+        "canonical",
+        "command_plan",
+        "existing_reference",
+        "identity",
+        "intended_reference_path",
+        "main",
+        "module",
+        "pinned",
+        "read_json",
+        "require",
+        "same",
+        "verify_fixed_inputs"
+      ],
+      "identity_string_changes_only_in_functions": [
+        "audited_success",
+        "build"
+      ],
+      "explicit_preserved_route_functions": [
+        "verify_fixed_inputs",
+        "command_plan"
+      ]
+    },
+    {
+      "old": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-storage-v2.py",
+        "bytes": 20326,
+        "sha256": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc"
+      },
+      "new": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-independent-seed8000-storage-v2.py",
+        "bytes": 20428,
+        "sha256": "c94d7b8204ad8184a181fc6d8b4b9b495f3dd0d9fdf3609f6ea23168ed4fc223"
+      },
+      "replacements": [
+        {
+          "index": 0,
+          "old_text": "Success-only conditional storage plan, separate from frozen original plan-v1.",
+          "new_text": "Success-only conditional storage plan after independent published-M14 seed8000.",
+          "exact_match_count": 1
+        },
+        {
+          "index": 1,
+          "old_text": "The original complete main exit audit runs unchanged through the pinned parent\nplanner.",
+          "new_text": "The complete independent-actor main exit audit runs unchanged through the pinned\nindependent original-family planner.",
+          "exact_match_count": 1
+        },
+        {
+          "index": 2,
+          "old_text": "BASE_NAME = '78718-plan-post-restart8000-v1.py'",
+          "new_text": "BASE_NAME = '78718-plan-post-independent-seed8000-v1.py'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 3,
+          "old_text": "BASE_SHA = 'c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456'",
+          "new_text": "BASE_SHA = 'b3526176d56179a3edce6a71a159591a1e9f5ceecd9d253a4eeec95887e07053'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 4,
+          "old_text": "'storage_v2_original_plan'",
+          "new_text": "'independent_storage_v2_original_plan'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 5,
+          "old_text": "'Changed frozen original success-only planner'",
+          "new_text": "'Changed frozen independent success-only planner'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 6,
+          "old_text": "'2026-11-10-78718-post-restart8000-storage-v2-'",
+          "new_text": "'2026-11-10-78718-independent-post-seed8000-storage-v2-'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 7,
+          "old_text": "'Use the distinct post-restart8000-storage-v2 production namespace'",
+          "new_text": "'Use the distinct independent-post-seed8000-storage-v2 production namespace'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 8,
+          "old_text": "# exact frozen call demands the genuine root exit and complete final report.",
+          "new_text": "# exact frozen call demands the genuine independent exit and complete final report.",
+          "exact_match_count": 1
+        },
+        {
+          "index": 9,
+          "old_text": "'78718-post-restart8000-success-only-conditional-storage-plan-v2'",
+          "new_text": "'78718-post-independent-seed8000-success-only-conditional-storage-plan-v2'",
+          "exact_match_count": 1
+        },
+        {
+          "index": 10,
+          "old_text": "'ACTUAL_MAIN_SUCCESS_BOUND_CONDITIONAL_STORAGE_PLAN_ONLY'",
+          "new_text": "'ACTUAL_INDEPENDENT_MAIN_SUCCESS_BOUND_CONDITIONAL_STORAGE_PLAN_ONLY'",
+          "exact_match_count": 1
+        }
+      ],
+      "exact_AST_unchanged_functions": [
+        "assignment",
+        "literal",
+        "main",
+        "replace_command_records",
+        "require",
+        "source_ast",
+        "static_command_names",
+        "verify_storage_inputs"
+      ],
+      "identity_string_changes_only_in_functions": [
+        "build",
+        "load_base"
+      ],
+      "explicit_preserved_route_functions": [
+        "verify_storage_inputs",
+        "replace_command_records",
+        "static_command_names"
+      ]
+    }
+  ],
+  "full_diff": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-source-diff-01.txt",
+    "bytes": 10465,
+    "sha256": "38537c125310eadc6f15862d780034e3edc8ea27c515859732fe4d883d05b8c4"
+  },
+  "actual_solver_calls": 0,
+  "actual_production_calls": 0,
+  "planner_imports": 0,
+  "numerical_backend_imports": 0,
+  "candidate_argv_constructed": false,
+  "root_only_source_globals_modified": false,
+  "source_ancestors_unchanged": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+      "bytes": 32491,
+      "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-storage-v2.py",
+      "bytes": 20326,
+      "sha256": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc"
+    }
+  ]
+}

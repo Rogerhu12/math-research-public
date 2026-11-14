@@ -1,0 +1,92 @@
+{
+  "schema": "fd2d-geometry-R137-ruling-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R137-flat-coast-ruling-two-jets-and-actual-inlet-consumer.md",
+      "bytes": 12814,
+      "sha256": "9a7af76f04c4da1fa70d51673c3be12cde4c377837d19243eb2ccd01173374db",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_coast.py",
+      "bytes": 7020,
+      "sha256": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_coast_check.py",
+      "bytes": 4506,
+      "sha256": "e895912d46a1429b8756167c0f678e5cc170df0cde93f90388d6b131570cc482",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-twojet-check-01.json",
+      "bytes": 2701,
+      "sha256": "0e04c2aba60cee7a6690f08929a3fbd5407fbe35bfe037195b58916607f15153",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_peak_spacer_ruling_consumer.py",
+      "bytes": 13279,
+      "sha256": "955bf2495b0f6395838ef6303822f94dd3907e4152862cb033c38199a6243529",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+      "bytes": 68907,
+      "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-endpoint.npz",
+      "bytes": 132868,
+      "sha256": "9cd84c4f845bb0f646940cb234a1c634e3ae08bc0f837d0dc4621eb65dd6b81a",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-overview.npz",
+      "bytes": 132766,
+      "sha256": "2acf1ad7dc66fca857d18934e100b5f3efe595e27b60e981b97971e0d6db1a53",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-report.json",
+      "bytes": 48827,
+      "sha256": "3f45f937132e0614b642b29822030cb719de4d300aa1e67179dcff9debef85ab",
+      "closed": true
+    }
+  ],
+  "file_count": 9,
+  "total_bytes": 423688,
+  "actual_runs": [
+    {
+      "task": "complete Cartesian twojet implementation check",
+      "final_chunk": "aa3ce7",
+      "exit_code": 0,
+      "seconds": 0.031055237000146008
+    },
+    {
+      "task": "passive saved-field inlet reconstruction and complete actual coast propagation",
+      "session": 61552,
+      "final_chunk": "30050b",
+      "exit_code": 0,
+      "seconds": 140.55613315699975
+    }
+  ],
+  "all_files_closed": true,
+  "mechanism_attribution": "2026-11-09-db6f-flat-outlet-ruling-continuation-v1.md already contains the underlying exact ruling construction; R137 adds the current full-twojet consumer and actual saved inlet.",
+  "input_scope": "The recovered inlet is a new passive reconstruction from actually saved C1 Hermite n,m, not the missing original intermediate X/frame byte state.",
+  "finite_summary": {
+    "D_min": 0.21726361773588812,
+    "metric_max": 1.09111070269619e-09,
+    "curvature_max": 4.24891605393483,
+    "held_distance_min": 0.9603513518153031,
+    "outward_support_min": -0.10045924307261947,
+    "maximum_abs_y": 0.790439737666351,
+    "maximum_radius": 1.66971588694323
+  },
+  "continuous_geometry_certificate": false,
+  "nonlinear_prefix_BVP_solved": false,
+  "own_outward_support_can_be_negative": true,
+  "global_indexes_and_git_untouched": true
+}

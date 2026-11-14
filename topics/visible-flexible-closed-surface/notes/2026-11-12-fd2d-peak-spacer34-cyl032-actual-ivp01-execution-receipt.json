@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-observed-closed-numerical-exit-v1",
+  "observed_utc": "2026-11-12T11:50:39.638469+00:00",
+  "session_id": 3632,
+  "launch_chunk": "f3fe1d",
+  "completion_chunk": "b08e9b",
+  "actual_exit_code": 0,
+  "seconds": 162.9621074800002,
+  "scope": "New candidate actual initializers only, not a solved prefix or full geometry certificate.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-actual-ivp01-report.json",
+      "bytes": 387241,
+      "sha256": "69a28aeb1c0ea2a10f0d70e8a6b0808847a6ff748f5ec1ce3daa725dfec71dd2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-actual-ivp01-trajectory.npz.gz",
+      "bytes": 1691383,
+      "sha256": "e97fb705a9f1db242adfd2c6df409ec602c9539da67caa4f7efe092451b7b959"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-actual-ivp01-guard-state.npz",
+      "bytes": 35277,
+      "sha256": "ca9aefe03c2f13bbf6180855b9146c25bad43741901fa3b36706826ae805c692"
+    },
+    {
+      "path": "scripts/fd2d-flat-prefix-balanced-ivp-physical-recovery.py",
+      "bytes": 10953,
+      "sha256": "4299b1a0f7ae2819b4b10190cde4e8736082b77a147301932b0b8c116ba27824"
+    }
+  ]
+}

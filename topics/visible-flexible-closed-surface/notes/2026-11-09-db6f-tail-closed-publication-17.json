@@ -1,0 +1,29 @@
+{
+  "README_complete": false,
+  "files": [
+    {
+      "bytes": 9658,
+      "file": "scripts/db6f-tail-review-next-mode-static.py",
+      "sha256": "e89febc398e6b7f9aa9e50d66208e331ead87e3693e69e7d54d9de504fa37168"
+    },
+    {
+      "bytes": 11656,
+      "file": "notes/2026-11-09-db6f-tail-review-next-mode-static.json",
+      "sha256": "04fa7441fe8a68c4b50c92509ea6bd3ce0173cac85ee4ecfdb62a4aa9bfacbff"
+    },
+    {
+      "bytes": 11347,
+      "file": "notes/2026-11-09-db6f-tail-review-next-mode-interface-v2.md",
+      "sha256": "9370f5e1fed69f907ba9e8a6b966a7cd69807389f95962b01ac3ce66d6b710ef"
+    },
+    {
+      "bytes": 1149,
+      "file": "notes/2026-11-09-db6f-tail-review-next-mode-observed-execution.json",
+      "sha256": "b8c7ac91025680d7f424de2de1a074efaf6cefdf6ce5efd540bbcef2e1701010"
+    }
+  ],
+  "scope": "Full static review and pure read-only checker. v1 optional raw-lift dependency path fixed in author v2; no future M15/M16 success or certificate asserted. Author files are separate.",
+  "status": "CLOSED-independent-next-mode-interface-v2-review",
+  "total_bytes": 33810,
+  "total_files": 4
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "fd2d-natural-finite-GC-batch-chain-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-natural-batch-chain.py",
+    "bytes": 5555,
+    "sha256": "c1772c3a031ec4d1e43dd401be52f84c2aa0e7b567b970b9150050d76fefa816"
+  },
+  "driver": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-gauss-run.py",
+    "bytes": 17400,
+    "sha256": "ff7447efd4b109945e8dd9fecf34b088a07590b3132c3d6c3aacb4b76b837c67"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "initial_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+    "bytes": 48129,
+    "sha256": "6edb4f22059f365c6351a32ea86fcc1f5b7c3460902dc1ca075c67432c7fb122"
+  },
+  "started_utc": "2026-11-12T12:39:16.649897+00:00",
+  "settings": {
+    "driver": "scripts/fd2d-gc-raw-bump-joint-gauss-run.py",
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "out_prefix": "notes/2026-11-12-fd2d-raw-bump-gauss05",
+    "owner_stop_file": "notes/2026-11-12-fd2d-raw-bump-gauss05-owner-stop.txt",
+    "blocks": 8,
+    "iterations_per_block": 1,
+    "modes": 15
+  },
+  "batches": [
+    {
+      "index": 1,
+      "stem": "notes/2026-11-12-fd2d-raw-bump-gauss05-b0001",
+      "input": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+        "bytes": 48129,
+        "sha256": "6edb4f22059f365c6351a32ea86fcc1f5b7c3460902dc1ca075c67432c7fb122"
+      },
+      "actual_wrapper_returncode": 1,
+      "seconds": 5.642844958000751,
+      "actual_process_receipt": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss05-b0001-process-receipt.json",
+        "bytes": 3645,
+        "sha256": "72e8a221246aafe4bae5cc0c51a74a81b6c179ebf5fd45d8d175941aa6095a4a"
+      }
+    }
+  ],
+  "actual_accepted_steps": 0,
+  "completed": true,
+  "finite_success": false,
+  "strong_target_completed": false,
+  "stop_reason": "A child returned nonzero; actual closed evidence and last accepted entity retained",
+  "seconds": 5.82341770200037
+}

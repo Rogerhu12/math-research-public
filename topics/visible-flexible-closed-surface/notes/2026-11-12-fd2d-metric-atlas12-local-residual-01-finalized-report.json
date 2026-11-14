@@ -1,0 +1,2803 @@
+{
+  "schema": "fd2d-actual-atlas-local-GC-decomposition-finalized-v1",
+  "actual_execution": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-atlas-local-residual-finalize.py",
+    "bytes": 7781,
+    "sha256": "2e3cf45f9ef129144e85b1090c4da4510229390b4e93c9c41037f48934cf3a69"
+  },
+  "producer_source": {
+    "path": "scripts/fd2d-metric-atlas-local-residual-screen.py",
+    "bytes": 12246,
+    "sha256": "8f82a80a5c8e218edba36890cdcdeed31494f9c7fd06e4d411d77d341144dc24"
+  },
+  "producer_exit_receipt": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-exit-receipt.json",
+    "bytes": 1239,
+    "sha256": "67884af6b9a2388757bd616b1b4fc0f00053ea71b7c6b4de386ef1391f69ac31"
+  },
+  "producer_exit_code": 1,
+  "producer_failure": "JSON serialization of numpy.longdouble after complete sample/definition saves",
+  "producer_exit_reinterpreted_as_success": false,
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0001-accepted-0002.npz",
+    "bytes": 54990,
+    "sha256": "ef6dc889f6dd647b18767cd8564dc4fd68f2c355ad77b6d6e2c9cff3b7d2bf89"
+  },
+  "source_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0001-report.json",
+    "bytes": 127849,
+    "sha256": "4406025cc4f92636d47720aa25a25daa320e410aebbe47e545d013c6c3b8325e"
+  },
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-definition.json",
+    "bytes": 36917,
+    "sha256": "dbae09599707e7686ec52afabcf5403e11b1df561b48b2db1a18c32c621d519c"
+  },
+  "samples": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-samples.npz",
+    "bytes": 180124,
+    "sha256": "4f55fdbf9e7ae21e14bbc6e21b0e7b40bb0c8dc3bd1e9bc7b9373f08de075eea"
+  },
+  "angular_points": 1024,
+  "original_angular_points": 256,
+  "maximum_retained_frequency": 30,
+  "gauss_node": {
+    "node": 64,
+    "s": 0.6313633493003443,
+    "sampled_peak": {
+      "angular_index": 320,
+      "xi": 1.9634954084936207,
+      "actual_n_m_l": [
+        1.0581222989982257,
+        0.5401297856707064,
+        -1.341048624571248
+      ],
+      "frozen_reference_n_m_l": [
+        0.5888058321644539,
+        0.8872509278585161,
+        1.336967410957859
+      ],
+      "correction_n_m_l": [
+        0.4693164668337717,
+        -0.34712114218780976,
+        -2.678016035529107
+      ],
+      "target_K": -0.1061005709325655,
+      "G": -1.6046330681358552,
+      "reference_rank1_defect": 5.421010862427522e-20,
+      "linear_correction_contribution": -0.3334035277959459,
+      "quadratic_correction_contribution": -1.3773301112724747,
+      "target_contribution": 0.1061005709325655
+    },
+    "original_256_grid_peak": {
+      "angular_index": 320,
+      "xi": 1.9634954084936207,
+      "actual_n_m_l": [
+        1.0581222989982257,
+        0.5401297856707064,
+        -1.341048624571248
+      ],
+      "frozen_reference_n_m_l": [
+        0.5888058321644539,
+        0.8872509278585161,
+        1.336967410957859
+      ],
+      "correction_n_m_l": [
+        0.4693164668337717,
+        -0.34712114218780976,
+        -2.678016035529107
+      ],
+      "target_K": -0.1061005709325655,
+      "G": -1.6046330681358552,
+      "reference_rank1_defect": 5.421010862427522e-20,
+      "linear_correction_contribution": -0.3334035277959459,
+      "quadratic_correction_contribution": -1.3773301112724747,
+      "target_contribution": 0.1061005709325655
+    },
+    "actual_minus_reference_minus_correction": 6.500876226223085e-16,
+    "decomposition_roundoff": 5.000340419503146e-16,
+    "sampled_minimum_n": 0.24916636516578605,
+    "sampled_minimum_l": -1.645834098789392,
+    "actual_G_in_low_modes_maximum": 1.5941368087097798,
+    "actual_G_in_high_modes_maximum": 0.022704908709548444
+  },
+  "codazzi_cell": {
+    "cell": 71,
+    "endpoints": [
+      0.8281800958020702,
+      0.8675434451024153
+    ],
+    "width": 0.03936334930034513,
+    "split_point": 0.8344782316901254,
+    "original_256_grid": [
+      {
+        "component": "n",
+        "sampled_maximum": 2.6030059073655316,
+        "retained_maximum": 0.7268827644726333,
+        "omitted_maximum": 2.544430720401976,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 2.544430720401976,
+          "62": 0.5869909741719073,
+          "126": 0.0037736748940966347
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 0.45914687728886355,
+            "maximum_coefficient": 0.3217871042868494
+          },
+          "31:62": {
+            "coefficient_l2": 0.8251880936785035,
+            "maximum_coefficient": 0.33488401473538554
+          },
+          "63:126": {
+            "coefficient_l2": 0.18771938286571965,
+            "maximum_coefficient": 0.075026121474492
+          },
+          "127:254": {
+            "coefficient_l2": 0.003773674894092978,
+            "maximum_coefficient": 0.003773674894092978
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 44,
+            "amplitude": 0.33488401473538554
+          },
+          {
+            "frequency": 2,
+            "amplitude": 0.3217871042868494
+          },
+          {
+            "frequency": 46,
+            "amplitude": 0.30775235956310754
+          },
+          {
+            "frequency": 32,
+            "amplitude": 0.30513585760194467
+          },
+          {
+            "frequency": 48,
+            "amplitude": 0.28563266620700634
+          },
+          {
+            "frequency": 42,
+            "amplitude": 0.2792430224123224
+          },
+          {
+            "frequency": 50,
+            "amplitude": 0.24493596394015818
+          },
+          {
+            "frequency": 52,
+            "amplitude": 0.20406789333823594
+          },
+          {
+            "frequency": 54,
+            "amplitude": 0.19051955191749836
+          },
+          {
+            "frequency": 4,
+            "amplitude": 0.18068590087008016
+          },
+          {
+            "frequency": 38,
+            "amplitude": 0.17708603653263952
+          },
+          {
+            "frequency": 56,
+            "amplitude": 0.1691156729972078
+          },
+          {
+            "frequency": 10,
+            "amplitude": 0.15064089735629702
+          },
+          {
+            "frequency": 8,
+            "amplitude": 0.14318141558976924
+          },
+          {
+            "frequency": 58,
+            "amplitude": 0.11485799983417515
+          },
+          {
+            "frequency": 72,
+            "amplitude": 0.075026121474492
+          }
+        ],
+        "reflection_defect": 1.247890679678676e-13,
+        "half_period_defect": 1.3855583347321954e-13
+      },
+      {
+        "component": "m",
+        "sampled_maximum": 1.0577084005231168,
+        "retained_maximum": 0.3464674868209503,
+        "omitted_maximum": 0.9776790749009614,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 0.9776790749009614,
+          "62": 0.20217695614619502,
+          "126": 8.215650382226158e-15
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 0.2314749316689833,
+            "maximum_coefficient": 0.18109097894918108
+          },
+          "31:62": {
+            "coefficient_l2": 0.33050987843585417,
+            "maximum_coefficient": 0.22572370489887966
+          },
+          "63:126": {
+            "coefficient_l2": 0.06859019619182018,
+            "maximum_coefficient": 0.03785070971215841
+          },
+          "127:254": {
+            "coefficient_l2": 7.907289363099095e-15,
+            "maximum_coefficient": 7.904061953342363e-15
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 32,
+            "amplitude": 0.22572370489887966
+          },
+          {
+            "frequency": 2,
+            "amplitude": 0.18109097894918108
+          },
+          {
+            "frequency": 40,
+            "amplitude": 0.11538392083713811
+          },
+          {
+            "frequency": 34,
+            "amplitude": 0.10799267591962694
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.09861038471607877
+          },
+          {
+            "frequency": 42,
+            "amplitude": 0.08975823023407306
+          },
+          {
+            "frequency": 38,
+            "amplitude": 0.08422420629799085
+          },
+          {
+            "frequency": 44,
+            "amplitude": 0.05665470577939621
+          },
+          {
+            "frequency": 36,
+            "amplitude": 0.04914203147977314
+          },
+          {
+            "frequency": 52,
+            "amplitude": 0.04818157038855167
+          },
+          {
+            "frequency": 24,
+            "amplitude": 0.043882989092417536
+          },
+          {
+            "frequency": 54,
+            "amplitude": 0.04323890636175013
+          },
+          {
+            "frequency": 6,
+            "amplitude": 0.04068006456284688
+          },
+          {
+            "frequency": 56,
+            "amplitude": 0.039514245385102426
+          },
+          {
+            "frequency": 26,
+            "amplitude": 0.038948256733981855
+          },
+          {
+            "frequency": 58,
+            "amplitude": 0.038808831186249115
+          }
+        ],
+        "reflection_defect": 3.375077994860476e-13,
+        "half_period_defect": 3.552713678800501e-13
+      }
+    ],
+    "original_report_maxima": [
+      2.6030059073655836,
+      1.0577084005231285
+    ],
+    "original_report_omitted_maxima": [
+      2.5444307204019667,
+      0.9776790749009896
+    ],
+    "angular_refinement_maximum_change": [
+      0.0,
+      0.031435903220479844
+    ],
+    "whole2_vs_split8_maximum": [
+      0.494897309551356,
+      0.4449561869847418
+    ],
+    "split3_vs_split8_maximum": [
+      0.014227419479000858,
+      0.012469827203391404
+    ],
+    "quadrature": [
+      {
+        "name": "whole_Gauss2",
+        "full": [
+          {
+            "component": "n",
+            "sampled_maximum": 2.6030059073655316,
+            "retained_maximum": 0.7278859710197786,
+            "omitted_maximum": 2.544673859844866,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 2.544673859844866,
+              "62": 0.5874512667451577,
+              "126": 0.023864467370409592
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.45927460974015133,
+                "maximum_coefficient": 0.32188204790053604
+              },
+              "31:62": {
+                "coefficient_l2": 0.8250567603242852,
+                "maximum_coefficient": 0.334847688422274
+              },
+              "63:126": {
+                "coefficient_l2": 0.18570612640748232,
+                "maximum_coefficient": 0.07438290545779136
+              },
+              "127:254": {
+                "coefficient_l2": 0.008441804720722304,
+                "maximum_coefficient": 0.0037723425134740117
+              },
+              "255:512": {
+                "coefficient_l2": 0.00016729477698175854,
+                "maximum_coefficient": 6.694131298884062e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 44,
+                "amplitude": 0.334847688422274
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.32188204790053604
+              },
+              {
+                "frequency": 46,
+                "amplitude": 0.30754740012777804
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.305286875594873
+              },
+              {
+                "frequency": 48,
+                "amplitude": 0.28533466920036077
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.27935185949806923
+              },
+              {
+                "frequency": 50,
+                "amplitude": 0.2446847119811763
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.2039834979011615
+              },
+              {
+                "frequency": 54,
+                "amplitude": 0.19062523553588928
+              },
+              {
+                "frequency": 4,
+                "amplitude": 0.1806922116103311
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.17698139603278856
+              },
+              {
+                "frequency": 56,
+                "amplitude": 0.1693222952512024
+              },
+              {
+                "frequency": 10,
+                "amplitude": 0.15072628195508425
+              },
+              {
+                "frequency": 8,
+                "amplitude": 0.14329922572030707
+              },
+              {
+                "frequency": 58,
+                "amplitude": 0.11501961227986329
+              },
+              {
+                "frequency": 72,
+                "amplitude": 0.07438290545779136
+              }
+            ],
+            "reflection_defect": 1.2612133559741778e-13,
+            "half_period_defect": 1.3855583347321954e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 1.0891443037435966,
+            "retained_maximum": 0.3464719988112932,
+            "omitted_maximum": 1.0109954970683355,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.0109954970683355,
+              "62": 0.2019681459840421,
+              "126": 0.013615022188276565
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.23143248733860833,
+                "maximum_coefficient": 0.1811785370249792
+              },
+              "31:62": {
+                "coefficient_l2": 0.33047858399110025,
+                "maximum_coefficient": 0.22572726860881595
+              },
+              "63:126": {
+                "coefficient_l2": 0.06747963475319183,
+                "maximum_coefficient": 0.03777855874165255
+              },
+              "127:254": {
+                "coefficient_l2": 0.0036239330729809643,
+                "maximum_coefficient": 0.0016667701968327473
+              },
+              "255:512": {
+                "coefficient_l2": 0.00016581806202494278,
+                "maximum_coefficient": 5.8520744192236916e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 32,
+                "amplitude": 0.22572726860881595
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.1811785370249792
+              },
+              {
+                "frequency": 40,
+                "amplitude": 0.11535746283476486
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.10811069135701601
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.09849864550765747
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.08959741264903812
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.08433010246133493
+              },
+              {
+                "frequency": 44,
+                "amplitude": 0.0564403936055108
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.04930473450331983
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.047915172737290485
+              },
+              {
+                "frequency": 24,
+                "amplitude": 0.04389628228756092
+              },
+              {
+                "frequency": 54,
+                "amplitude": 0.04304645611756259
+              },
+              {
+                "frequency": 6,
+                "amplitude": 0.040593432848348064
+              },
+              {
+                "frequency": 56,
+                "amplitude": 0.03950531986403724
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.039067574704919575
+              },
+              {
+                "frequency": 58,
+                "amplitude": 0.038985996336986
+              }
+            ],
+            "reflection_defect": 3.375077994860476e-13,
+            "half_period_defect": 4.2810199829546036e-13
+          }
+        ],
+        "correction": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.47106512922858,
+            "retained_maximum": 101.73023819811048,
+            "omitted_maximum": 1.0737323708896938,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.0737323708896938,
+              "62": 0.14589205128843474,
+              "126": 0.007997951039104834
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.4736025069074,
+                "maximum_coefficient": 54.30656404716762
+              },
+              "31:62": {
+                "coefficient_l2": 0.42408114768876,
+                "maximum_coefficient": 0.3222475726648359
+              },
+              "63:126": {
+                "coefficient_l2": 0.050127037909824465,
+                "maximum_coefficient": 0.028072991327784055
+              },
+              "127:254": {
+                "coefficient_l2": 0.0024154442368925816,
+                "maximum_coefficient": 0.0009488928062330907
+              },
+              "255:512": {
+                "coefficient_l2": 3.054815642461824e-06,
+                "maximum_coefficient": 1.1768295462705192e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.30656404716762
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.664757061022755
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.87728368845805
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.382897067378035
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.791988388063902
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.9959853425413487
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.0813334400912984
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.034339830571284
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.48148455205712
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9738069448919806
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.2629770883570868
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.2577968180487349
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.066009516552324
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9992561176219856
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.8065722910887694
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.507031204938179
+              }
+            ],
+            "reflection_defect": 3.552713678800501e-13,
+            "half_period_defect": 3.268496584496461e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 27.02812647680618,
+            "retained_maximum": 25.005259727421006,
+            "omitted_maximum": 4.241415385655348,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 4.241415385655348,
+              "62": 0.6324756896469843,
+              "126": 0.023577332586977917
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.624024895829585,
+                "maximum_coefficient": 8.076266209697717
+              },
+              "31:62": {
+                "coefficient_l2": 1.3484152350096945,
+                "maximum_coefficient": 0.6765359951661556
+              },
+              "63:126": {
+                "coefficient_l2": 0.20819836107100573,
+                "maximum_coefficient": 0.12182985382381568
+              },
+              "127:254": {
+                "coefficient_l2": 0.0070220129667370925,
+                "maximum_coefficient": 0.0027384501496477676
+              },
+              "255:512": {
+                "coefficient_l2": 8.055820862171547e-06,
+                "maximum_coefficient": 3.0859998129337263e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.076266209697717
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.448931386430551
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.399717940018534
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.500343480301488
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.1921447400687457
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8609662594413545
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.9589613507460277
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.9493618090956177
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.7819571232419436
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6765359951661556
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6508236039756277
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.6315084022472652
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.6171225005773031
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.5755712830775015
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.5653688858037026
+              },
+              {
+                "frequency": 16,
+                "amplitude": 0.500750251928507
+              }
+            ],
+            "reflection_defect": 3.3928415632544784e-13,
+            "half_period_defect": 4.3165471197426086e-13
+          }
+        ],
+        "lifting": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.4186964858865,
+            "retained_maximum": 101.99007930475037,
+            "omitted_maximum": 3.2551632829003374,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 3.2551632829003374,
+              "62": 0.6713518564946206,
+              "126": 0.030072875415406486
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.69901068465099,
+                "maximum_coefficient": 54.628446095068156
+              },
+              "31:62": {
+                "coefficient_l2": 1.1112497868651707,
+                "maximum_coefficient": 0.6275344482597098
+              },
+              "63:126": {
+                "coefficient_l2": 0.2090979993772962,
+                "maximum_coefficient": 0.08038472804846675
+              },
+              "127:254": {
+                "coefficient_l2": 0.01043160461037843,
+                "maximum_coefficient": 0.004467628923789031
+              },
+              "255:512": {
+                "coefficient_l2": 0.00016727963023088625,
+                "maximum_coefficient": 6.708293291879386e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.628446095068156
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.716336612350474
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.880617600651416
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.202204855767704
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.641262106108818
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.852686116821041
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.132790463558124
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.103553696250577
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.5133993883261807
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9641208174759286
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.326324388495868
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.3109812497737712
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.1069579056125904
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9369943315104815
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.8652252504941665
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6275344482597098
+              }
+            ],
+            "reflection_defect": 3.197442310920451e-13,
+            "half_period_defect": 2.7711166694643907e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 27.934057539275273,
+            "retained_maximum": 25.005157061561523,
+            "omitted_maximum": 5.252410882723677,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 5.252410882723677,
+              "62": 0.8344438356310206,
+              "126": 0.02909130635354984
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.592986097669057,
+                "maximum_coefficient": 8.102103310787747
+              },
+              "31:62": {
+                "coefficient_l2": 1.6590575852652831,
+                "maximum_coefficient": 0.9022632637749715
+              },
+              "63:126": {
+                "coefficient_l2": 0.274994264230734,
+                "maximum_coefficient": 0.1596084125654682
+              },
+              "127:254": {
+                "coefficient_l2": 0.00919627503915591,
+                "maximum_coefficient": 0.004010203147868391
+              },
+              "255:512": {
+                "coefficient_l2": 0.00016663020696552753,
+                "maximum_coefficient": 6.082718672673765e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.102103310787747
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.440311372866883
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.267752849405571
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.5357870580238355
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.2108668505869877
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8377477973204628
+              },
+              {
+                "frequency": 30,
+                "amplitude": 1.047860454603275
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.9731006203704609
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.9022632637749715
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.7535171842189916
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.7252331919343189
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.6381041330273092
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.6146736203070224
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6117560292707079
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.5990592714220607
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.5559524272262495
+              }
+            ],
+            "reflection_defect": 2.7711166694643907e-13,
+            "half_period_defect": 2.3092638912203256e-13
+          }
+        ],
+        "decomposition_roundoff": 1.4210854715202004e-14
+      },
+      {
+        "name": "split_Gauss3",
+        "full": [
+          {
+            "component": "n",
+            "sampled_maximum": 3.0917222816423755,
+            "retained_maximum": 0.7830089759174935,
+            "omitted_maximum": 2.6923182190933335,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 2.6923182190933335,
+              "62": 0.6271873400085739,
+              "126": 0.02745084816559662
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.4398187171906956,
+                "maximum_coefficient": 0.2519129670989355
+              },
+              "31:62": {
+                "coefficient_l2": 0.8599261021870552,
+                "maximum_coefficient": 0.339892985337644
+              },
+              "63:126": {
+                "coefficient_l2": 0.1957170762018021,
+                "maximum_coefficient": 0.07730170122893407
+              },
+              "127:254": {
+                "coefficient_l2": 0.009509052104442008,
+                "maximum_coefficient": 0.004222909890655074
+              },
+              "255:512": {
+                "coefficient_l2": 0.00017661797395970307,
+                "maximum_coefficient": 7.174827482565871e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 44,
+                "amplitude": 0.339892985337644
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.3280680915505286
+              },
+              {
+                "frequency": 46,
+                "amplitude": 0.3157942684432139
+              },
+              {
+                "frequency": 48,
+                "amplitude": 0.2960822543537367
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.28137924067952524
+              },
+              {
+                "frequency": 50,
+                "amplitude": 0.25680945302193703
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.2519129670989355
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.21673419109717734
+              },
+              {
+                "frequency": 54,
+                "amplitude": 0.20315755836536692
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.18502588352707022
+              },
+              {
+                "frequency": 56,
+                "amplitude": 0.1806494040793285
+              },
+              {
+                "frequency": 10,
+                "amplitude": 0.17714218665577555
+              },
+              {
+                "frequency": 8,
+                "amplitude": 0.16195865716559704
+              },
+              {
+                "frequency": 58,
+                "amplitude": 0.1246357563082185
+              },
+              {
+                "frequency": 4,
+                "amplitude": 0.10995091078280779
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.09408781469769295
+              }
+            ],
+            "reflection_defect": 1.3100631690576847e-13,
+            "half_period_defect": 1.3988810110276972e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 1.5227528506789518,
+            "retained_maximum": 0.3799982324339173,
+            "omitted_maximum": 1.1975223858932749,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.1975223858932749,
+              "62": 0.2607725289922276,
+              "126": 0.01397416170510575
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.26528722658165355,
+                "maximum_coefficient": 0.1808448952835996
+              },
+              "31:62": {
+                "coefficient_l2": 0.3755962899143287,
+                "maximum_coefficient": 0.24201776343528916
+              },
+              "63:126": {
+                "coefficient_l2": 0.08400224804823253,
+                "maximum_coefficient": 0.04621430893710404
+              },
+              "127:254": {
+                "coefficient_l2": 0.0041432209193120705,
+                "maximum_coefficient": 0.001978824550404018
+              },
+              "255:512": {
+                "coefficient_l2": 0.00017532431646998184,
+                "maximum_coefficient": 5.970254842915603e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 32,
+                "amplitude": 0.24201776343528916
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.1808448952835996
+              },
+              {
+                "frequency": 40,
+                "amplitude": 0.13477719781758316
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.12752755294306073
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.11050371934870458
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.10643139387841666
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.10526712763057412
+              },
+              {
+                "frequency": 8,
+                "amplitude": 0.07092817355176703
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.07030071750432781
+              },
+              {
+                "frequency": 44,
+                "amplitude": 0.07013113259398943
+              },
+              {
+                "frequency": 6,
+                "amplitude": 0.0655742543556952
+              },
+              {
+                "frequency": 10,
+                "amplitude": 0.057764092582231905
+              },
+              {
+                "frequency": 22,
+                "amplitude": 0.05212512533175444
+              },
+              {
+                "frequency": 24,
+                "amplitude": 0.05057652430115602
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.04778832787546872
+              },
+              {
+                "frequency": 64,
+                "amplitude": 0.04621430893710404
+              }
+            ],
+            "reflection_defect": 3.339550858072471e-13,
+            "half_period_defect": 4.3165471197426086e-13
+          }
+        ],
+        "correction": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.47085848020738,
+            "retained_maximum": 101.73003647602513,
+            "omitted_maximum": 1.074213192961178,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.074213192961178,
+              "62": 0.1461287632324364,
+              "126": 0.0080165882330121
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.47347840759191,
+                "maximum_coefficient": 54.306560115138794
+              },
+              "31:62": {
+                "coefficient_l2": 0.4241221827384242,
+                "maximum_coefficient": 0.32226123990320565
+              },
+              "63:126": {
+                "coefficient_l2": 0.050165965774152166,
+                "maximum_coefficient": 0.028100405638125398
+              },
+              "127:254": {
+                "coefficient_l2": 0.0024196404883782816,
+                "maximum_coefficient": 0.0009498574987501226
+              },
+              "255:512": {
+                "coefficient_l2": 3.09697875424916e-06,
+                "maximum_coefficient": 1.1943689990911999e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.306560115138794
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.66458878291351
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.877267550677463
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.3828854587553
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.791965315698646
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.995960618676129
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.0813196295281537
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.034349451627395
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.481478674091705
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9738316973506858
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.262980976956366
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.257789378584159
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.0660053087919326
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9992600854372193
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.8065786189993623
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.5070347197987872
+              }
+            ],
+            "reflection_defect": 3.552713678800501e-13,
+            "half_period_defect": 3.268496584496461e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 27.028039816752617,
+            "retained_maximum": 25.005138243979175,
+            "omitted_maximum": 4.241526972444543,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 4.241526972444543,
+              "62": 0.632572842530454,
+              "126": 0.0236274843230575
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.623915545925554,
+                "maximum_coefficient": 8.076241770001243
+              },
+              "31:62": {
+                "coefficient_l2": 1.3483872710949605,
+                "maximum_coefficient": 0.6765347081880047
+              },
+              "63:126": {
+                "coefficient_l2": 0.208207936830508,
+                "maximum_coefficient": 0.12182865332275332
+              },
+              "127:254": {
+                "coefficient_l2": 0.0070339255424597185,
+                "maximum_coefficient": 0.0027426267071593486
+              },
+              "255:512": {
+                "coefficient_l2": 8.160514530110578e-06,
+                "maximum_coefficient": 3.1241085667946256e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.076241770001243
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.448855480576432
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.399681276927565
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.500286177374459
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.192105809827325
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8609183937722766
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.9589859056496417
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.9493674005129715
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.781896802408307
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6765347081880047
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6508736674948895
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.631439407927967
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.6171174651156786
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.5755191973106694
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.5653554642647569
+              },
+              {
+                "frequency": 16,
+                "amplitude": 0.5006811095413564
+              }
+            ],
+            "reflection_defect": 3.3928415632544784e-13,
+            "half_period_defect": 4.3520742565306136e-13
+          }
+        ],
+        "lifting": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.38714031373652,
+            "retained_maximum": 101.97206565348898,
+            "omitted_maximum": 3.406101385180502,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 3.406101385180502,
+              "62": 0.710891447183915,
+              "126": 0.033637965733095854
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.66512163382531,
+                "maximum_coefficient": 54.55847308223774
+              },
+              "31:62": {
+                "coefficient_l2": 1.1521339308589373,
+                "maximum_coefficient": 0.6503293314537351
+              },
+              "63:126": {
+                "coefficient_l2": 0.22054193739170402,
+                "maximum_coefficient": 0.0841768308354311
+              },
+              "127:254": {
+                "coefficient_l2": 0.011555140113892805,
+                "maximum_coefficient": 0.00491357033965168
+              },
+              "255:512": {
+                "coefficient_l2": 0.00017656207191767508,
+                "maximum_coefficient": 7.181381012344445e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.55847308223774
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.71341601296456
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.91814840980321
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.27293454797249
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.61482312904287
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.834001961510532
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.1437552234971853
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.1225553214990467
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.5431726315038574
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9604439121460753
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.3383129659206343
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.3370013253636739
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.138366855834207
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9155342112792026
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.8932609399477929
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6503293314537351
+              }
+            ],
+            "reflection_defect": 3.197442310920451e-13,
+            "half_period_defect": 2.7000623958883807e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 28.32139810516246,
+            "retained_maximum": 25.17969006486262,
+            "omitted_maximum": 5.439049358337815,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 5.439049358337815,
+              "62": 0.8933453715226669,
+              "126": 0.031666039540702684
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.644886010230016,
+                "maximum_coefficient": 8.112015276678463
+              },
+              "31:62": {
+                "coefficient_l2": 1.7075243587026028,
+                "maximum_coefficient": 0.9185524716232938
+              },
+              "63:126": {
+                "coefficient_l2": 0.29120768570258726,
+                "maximum_coefficient": 0.16804296225985732
+              },
+              "127:254": {
+                "coefficient_l2": 0.0099508428966875,
+                "maximum_coefficient": 0.004357439475463628
+              },
+              "255:512": {
+                "coefficient_l2": 0.0001760315771667237,
+                "maximum_coefficient": 6.118595919731712e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.112015276678463
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.465255531283258
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.268010585292832
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.571214350926226
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.249869902409557
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8772716999607644
+              },
+              {
+                "frequency": 30,
+                "amplitude": 1.0598711198616761
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.9799809220002457
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.9185524716232938
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.7920558753069334
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.7446450180587393
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.6669466249700493
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.6356561817690844
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.6209248782286219
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6124613524730879
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.5768647727082559
+              }
+            ],
+            "reflection_defect": 2.8421709430404007e-13,
+            "half_period_defect": 2.3447910280083306e-13
+          }
+        ],
+        "decomposition_roundoff": 1.4210854715202004e-14
+      },
+      {
+        "name": "split_Gauss8",
+        "full": [
+          {
+            "component": "n",
+            "sampled_maximum": 3.0784386124285597,
+            "retained_maximum": 0.7813048314671804,
+            "omitted_maximum": 2.6874186781093434,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 2.6874186781093434,
+              "62": 0.6257306655716253,
+              "126": 0.02728711262385919
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.43925650642576825,
+                "maximum_coefficient": 0.25343299583704154
+              },
+              "31:62": {
+                "coefficient_l2": 0.8588407982019753,
+                "maximum_coefficient": 0.33978166579871244
+              },
+              "63:126": {
+                "coefficient_l2": 0.19536954644579332,
+                "maximum_coefficient": 0.07721618393198282
+              },
+              "127:254": {
+                "coefficient_l2": 0.009461905423295208,
+                "maximum_coefficient": 0.004203794599246101
+              },
+              "255:512": {
+                "coefficient_l2": 0.0001762552328422892,
+                "maximum_coefficient": 7.158514577529362e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 44,
+                "amplitude": 0.33978166579871244
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.327349358209959
+              },
+              {
+                "frequency": 46,
+                "amplitude": 0.3155669685768022
+              },
+              {
+                "frequency": 48,
+                "amplitude": 0.29576124006594984
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.2813927219747454
+              },
+              {
+                "frequency": 50,
+                "amplitude": 0.25642091372352777
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.25343299583704154
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.21631283221819408
+              },
+              {
+                "frequency": 54,
+                "amplitude": 0.20274007951492035
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.18475726362379355
+              },
+              {
+                "frequency": 56,
+                "amplitude": 0.1802585221458861
+              },
+              {
+                "frequency": 10,
+                "amplitude": 0.17652671762305966
+              },
+              {
+                "frequency": 8,
+                "amplitude": 0.16104934709208818
+              },
+              {
+                "frequency": 58,
+                "amplitude": 0.12428238303353939
+              },
+              {
+                "frequency": 4,
+                "amplitude": 0.11075986861733547
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.09325045046334873
+              }
+            ],
+            "reflection_defect": 1.3145040611561853e-13,
+            "half_period_defect": 1.3944401189291966e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 1.5117149100841782,
+            "retained_maximum": 0.379894052427618,
+            "omitted_maximum": 1.1920628512154525,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.1920628512154525,
+              "62": 0.25853396088128866,
+              "126": 0.013971225679782873
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 0.26432822105616105,
+                "maximum_coefficient": 0.18110215862230522
+              },
+              "31:62": {
+                "coefficient_l2": 0.3743505907120404,
+                "maximum_coefficient": 0.24164842863327402
+              },
+              "63:126": {
+                "coefficient_l2": 0.08340130749605694,
+                "maximum_coefficient": 0.045927914915895526
+              },
+              "127:254": {
+                "coefficient_l2": 0.004120079657171737,
+                "maximum_coefficient": 0.001965767799424766
+              },
+              "255:512": {
+                "coefficient_l2": 0.0001749149280147022,
+                "maximum_coefficient": 5.9463860253359266e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 32,
+                "amplitude": 0.24164842863327402
+              },
+              {
+                "frequency": 2,
+                "amplitude": 0.18110215862230522
+              },
+              {
+                "frequency": 40,
+                "amplitude": 0.13420590456479659
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.1270381522402356
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.1102839553048269
+              },
+              {
+                "frequency": 42,
+                "amplitude": 0.10590632465095313
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.10467761482361476
+              },
+              {
+                "frequency": 8,
+                "amplitude": 0.07029663893023472
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.06973605571674588
+              },
+              {
+                "frequency": 44,
+                "amplitude": 0.06966934896527943
+              },
+              {
+                "frequency": 6,
+                "amplitude": 0.06504839262084361
+              },
+              {
+                "frequency": 10,
+                "amplitude": 0.05700164261396741
+              },
+              {
+                "frequency": 22,
+                "amplitude": 0.051689651549439095
+              },
+              {
+                "frequency": 24,
+                "amplitude": 0.05031510404356636
+              },
+              {
+                "frequency": 52,
+                "amplitude": 0.047857238293093116
+              },
+              {
+                "frequency": 64,
+                "amplitude": 0.045927914915895526
+              }
+            ],
+            "reflection_defect": 3.383959779057477e-13,
+            "half_period_defect": 4.334310688136611e-13
+          }
+        ],
+        "correction": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.47085879177268,
+            "retained_maximum": 101.73003680951089,
+            "omitted_maximum": 1.0742149220732387,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 1.0742149220732387,
+              "62": 0.14612967011086653,
+              "126": 0.008016578750275727
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.47347859499156,
+                "maximum_coefficient": 54.30656011655877
+              },
+              "31:62": {
+                "coefficient_l2": 0.42412229924175693,
+                "maximum_coefficient": 0.32226128581223995
+              },
+              "63:126": {
+                "coefficient_l2": 0.050166070634859394,
+                "maximum_coefficient": 0.028100480955633188
+              },
+              "127:254": {
+                "coefficient_l2": 0.002419639792172777,
+                "maximum_coefficient": 0.000949853315208536
+              },
+              "255:512": {
+                "coefficient_l2": 3.096531652777705e-06,
+                "maximum_coefficient": 1.194187035744032e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.30656011655877
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.66458903068709
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.877267606829516
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.382885502750893
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.791965314575454
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.995960626019805
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.081319612606139
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.0343494823977686
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.481478682696358
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9738317046799252
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.262980990871168
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.2577893586108286
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.0660052959373902
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9992601073426803
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.806578658816507
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.50703475007403
+              }
+            ],
+            "reflection_defect": 3.552713678800501e-13,
+            "half_period_defect": 3.268496584496461e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 27.02803964882284,
+            "retained_maximum": 25.005137793470237,
+            "omitted_maximum": 4.241527341648382,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 4.241527341648382,
+              "62": 0.6325731700638642,
+              "126": 0.02362783746332653
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.62391532431685,
+                "maximum_coefficient": 8.07624169404821
+              },
+              "31:62": {
+                "coefficient_l2": 1.348387106542224,
+                "maximum_coefficient": 0.6765346879178341
+              },
+              "63:126": {
+                "coefficient_l2": 0.20820793047912273,
+                "maximum_coefficient": 0.12182862232425039
+              },
+              "127:254": {
+                "coefficient_l2": 0.007034002944669718,
+                "maximum_coefficient": 0.0027426538035179577
+              },
+              "255:512": {
+                "coefficient_l2": 8.161731229454324e-06,
+                "maximum_coefficient": 3.1245330756324297e-06
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.07624169404821
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.448855534183291
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.399681155479881
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.500286037249651
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.192105620493516
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8609181972105087
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.9589859660349058
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.9493674211873446
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.7818965949955808
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6765346879178341
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6508737515805127
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.6314392197859451
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.6171174121608509
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.5755190226371141
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.5653553818194509
+              },
+              {
+                "frequency": 16,
+                "amplitude": 0.5006809023682606
+              }
+            ],
+            "reflection_defect": 3.446132268436486e-13,
+            "half_period_defect": 4.3520742565306136e-13
+          }
+        ],
+        "lifting": [
+          {
+            "component": "n",
+            "sampled_maximum": 101.38761250649122,
+            "retained_maximum": 101.97213849680793,
+            "omitted_maximum": 3.400303448815258,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 3.400303448815258,
+              "62": 0.7094337843572411,
+              "126": 0.033473971155785875
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 79.66556410232673,
+                "maximum_coefficient": 54.55999311239581
+              },
+              "31:62": {
+                "coefficient_l2": 1.1508433462786625,
+                "maximum_coefficient": 0.6496106440222011
+              },
+              "63:126": {
+                "coefficient_l2": 0.220128789674553,
+                "maximum_coefficient": 0.08404970849123142
+              },
+              "127:254": {
+                "coefficient_l2": 0.011504987780952032,
+                "maximum_coefficient": 0.004894424941754407
+              },
+              "255:512": {
+                "coefficient_l2": 0.00017619896544140618,
+                "maximum_coefficient": 7.164932945968872e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 2,
+                "amplitude": 54.55999311239581
+              },
+              {
+                "frequency": 0,
+                "amplitude": 53.71287876850755
+              },
+              {
+                "frequency": 6,
+                "amplitude": 17.917382533197085
+              },
+              {
+                "frequency": 4,
+                "amplitude": 8.272125634133559
+              },
+              {
+                "frequency": 10,
+                "amplitude": 6.615438596952393
+              },
+              {
+                "frequency": 8,
+                "amplitude": 3.8349112789277164
+              },
+              {
+                "frequency": 16,
+                "amplitude": 3.1436749735820078
+              },
+              {
+                "frequency": 12,
+                "amplitude": 3.122336099877701
+              },
+              {
+                "frequency": 24,
+                "amplitude": 2.542443197749708
+              },
+              {
+                "frequency": 14,
+                "amplitude": 1.9603683144217128
+              },
+              {
+                "frequency": 26,
+                "amplitude": 1.3374922907068552
+              },
+              {
+                "frequency": 18,
+                "amplitude": 1.3366033677334763
+              },
+              {
+                "frequency": 22,
+                "amplitude": 1.1376925013637444
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.9161579802323471
+              },
+              {
+                "frequency": 30,
+                "amplitude": 0.8924771341269946
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.6496106440222011
+              }
+            ],
+            "reflection_defect": 3.197442310920451e-13,
+            "half_period_defect": 2.7000623958883807e-13
+          },
+          {
+            "component": "m",
+            "sampled_maximum": 28.31226358094561,
+            "retained_maximum": 25.176274393354024,
+            "omitted_maximum": 5.433590192863829,
+            "hypothetical_residual_tail_after_projecting_to": {
+              "30": 5.433590192863829,
+              "62": 0.8911071309451408,
+              "126": 0.031558375504918246
+            },
+            "coefficient_bands": {
+              "0:30": {
+                "coefficient_l2": 13.643578622264009,
+                "maximum_coefficient": 8.111588519694639
+              },
+              "31:62": {
+                "coefficient_l2": 1.7062151814726574,
+                "maximum_coefficient": 0.9181831165511083
+              },
+              "63:126": {
+                "coefficient_l2": 0.29063018860350376,
+                "maximum_coefficient": 0.16775653724014594
+              },
+              "127:254": {
+                "coefficient_l2": 0.009919800862099508,
+                "maximum_coefficient": 0.004343158662836326
+              },
+              "255:512": {
+                "coefficient_l2": 0.00017563481637252652,
+                "maximum_coefficient": 6.094703316555927e-05
+              }
+            },
+            "top_modes": [
+              {
+                "frequency": 4,
+                "amplitude": 8.111588519694639
+              },
+              {
+                "frequency": 6,
+                "amplitude": 6.464729548100724
+              },
+              {
+                "frequency": 2,
+                "amplitude": 6.2677533755609875
+              },
+              {
+                "frequency": 8,
+                "amplitude": 4.570582676179887
+              },
+              {
+                "frequency": 10,
+                "amplitude": 3.249107263107483
+              },
+              {
+                "frequency": 12,
+                "amplitude": 1.8764070110544637
+              },
+              {
+                "frequency": 30,
+                "amplitude": 1.0596513764921716
+              },
+              {
+                "frequency": 28,
+                "amplitude": 0.979921426366945
+              },
+              {
+                "frequency": 32,
+                "amplitude": 0.9181831165511083
+              },
+              {
+                "frequency": 14,
+                "amplitude": 0.7911623214655072
+              },
+              {
+                "frequency": 34,
+                "amplitude": 0.7441555644010862
+              },
+              {
+                "frequency": 18,
+                "amplitude": 0.666190740964414
+              },
+              {
+                "frequency": 36,
+                "amplitude": 0.6350914375361969
+              },
+              {
+                "frequency": 20,
+                "amplitude": 0.6203145480435717
+              },
+              {
+                "frequency": 26,
+                "amplitude": 0.6125608416466849
+              },
+              {
+                "frequency": 38,
+                "amplitude": 0.5762751488523686
+              }
+            ],
+            "reflection_defect": 2.877698079828406e-13,
+            "half_period_defect": 2.3803181647963356e-13
+          }
+        ],
+        "decomposition_roundoff": 1.4210854715202004e-14
+      }
+    ],
+    "endpoint_full": [
+      {
+        "component": "n",
+        "sampled_maximum": 10.241171055235007,
+        "retained_maximum": 10.710313980854993,
+        "omitted_maximum": 1.9244814514972721,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 1.9244814514972721,
+          "62": 0.3528801133313344,
+          "126": 0.0147651757842856
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 6.035519897128186,
+            "maximum_coefficient": 4.345853585640533
+          },
+          "31:62": {
+            "coefficient_l2": 0.7455602335847779,
+            "maximum_coefficient": 0.4153923039736823
+          },
+          "63:126": {
+            "coefficient_l2": 0.11675467721615096,
+            "maximum_coefficient": 0.048168938642448714
+          },
+          "127:254": {
+            "coefficient_l2": 0.00442058715428955,
+            "maximum_coefficient": 0.001593726514921085
+          },
+          "255:512": {
+            "coefficient_l2": 0.00019754995418223427,
+            "maximum_coefficient": 7.703917789481096e-05
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 2,
+            "amplitude": 4.345853585640533
+          },
+          {
+            "frequency": 0,
+            "amplitude": 2.9305531820094344
+          },
+          {
+            "frequency": 8,
+            "amplitude": 1.9367902808176538
+          },
+          {
+            "frequency": 10,
+            "amplitude": 1.5719566242019753
+          },
+          {
+            "frequency": 22,
+            "amplitude": 0.693229799133322
+          },
+          {
+            "frequency": 18,
+            "amplitude": 0.6732425803585392
+          },
+          {
+            "frequency": 16,
+            "amplitude": 0.6682611305463397
+          },
+          {
+            "frequency": 6,
+            "amplitude": 0.6647521959447906
+          },
+          {
+            "frequency": 26,
+            "amplitude": 0.6405977947239507
+          },
+          {
+            "frequency": 28,
+            "amplitude": 0.5184278218268299
+          },
+          {
+            "frequency": 32,
+            "amplitude": 0.4153923039736823
+          },
+          {
+            "frequency": 44,
+            "amplitude": 0.26780039499263214
+          },
+          {
+            "frequency": 20,
+            "amplitude": 0.26617285379721267
+          },
+          {
+            "frequency": 42,
+            "amplitude": 0.2575616336653096
+          },
+          {
+            "frequency": 4,
+            "amplitude": 0.24809398438580008
+          },
+          {
+            "frequency": 38,
+            "amplitude": 0.24158809383913468
+          }
+        ],
+        "reflection_defect": 1.0169642905566434e-13,
+        "half_period_defect": 1.1191048088221578e-13
+      },
+      {
+        "component": "m",
+        "sampled_maximum": 14.478751781954312,
+        "retained_maximum": 11.92129854193512,
+        "omitted_maximum": 3.3434208683257083,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 3.3434208683257083,
+          "62": 0.3985713139298195,
+          "126": 0.013425877788557639
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 7.972266128356359,
+            "maximum_coefficient": 6.151159759697469
+          },
+          "31:62": {
+            "coefficient_l2": 1.1350303238990134,
+            "maximum_coefficient": 0.6888143510652427
+          },
+          "63:126": {
+            "coefficient_l2": 0.14128671585064945,
+            "maximum_coefficient": 0.08462262484251272
+          },
+          "127:254": {
+            "coefficient_l2": 0.004661497959890762,
+            "maximum_coefficient": 0.001959598052893588
+          },
+          "255:512": {
+            "coefficient_l2": 0.000200909561902153,
+            "maximum_coefficient": 7.266865189564295e-05
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 6,
+            "amplitude": 6.151159759697469
+          },
+          {
+            "frequency": 12,
+            "amplitude": 3.2406986288429467
+          },
+          {
+            "frequency": 2,
+            "amplitude": 2.381490229253426
+          },
+          {
+            "frequency": 16,
+            "amplitude": 1.7944428925270155
+          },
+          {
+            "frequency": 10,
+            "amplitude": 1.4764378038138808
+          },
+          {
+            "frequency": 14,
+            "amplitude": 0.9072848415488596
+          },
+          {
+            "frequency": 24,
+            "amplitude": 0.9026631801131224
+          },
+          {
+            "frequency": 22,
+            "amplitude": 0.809704726499016
+          },
+          {
+            "frequency": 8,
+            "amplitude": 0.7919320449668803
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.7239676470554853
+          },
+          {
+            "frequency": 32,
+            "amplitude": 0.6888143510652427
+          },
+          {
+            "frequency": 18,
+            "amplitude": 0.5663897238108175
+          },
+          {
+            "frequency": 34,
+            "amplitude": 0.495551878872597
+          },
+          {
+            "frequency": 20,
+            "amplitude": 0.46404206843163087
+          },
+          {
+            "frequency": 36,
+            "amplitude": 0.39001396725143356
+          },
+          {
+            "frequency": 28,
+            "amplitude": 0.38414790860189074
+          }
+        ],
+        "reflection_defect": 1.6697754290362354e-13,
+        "half_period_defect": 1.3855583347321954e-13
+      }
+    ],
+    "endpoint_correction": [
+      {
+        "component": "n",
+        "sampled_maximum": 98.31863525671827,
+        "retained_maximum": 98.31863525671827,
+        "omitted_maximum": 1.9895196601282805e-13,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 1.9895196601282805e-13,
+          "62": 1.9895196601282805e-13,
+          "126": 1.7053025658242404e-13
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 75.20426967441793,
+            "maximum_coefficient": 51.14839193861017
+          },
+          "31:62": {
+            "coefficient_l2": 6.62614045135151e-15,
+            "maximum_coefficient": 2.1067363947767573e-15
+          },
+          "63:126": {
+            "coefficient_l2": 1.3179452857219705e-14,
+            "maximum_coefficient": 4.4891769777283084e-15
+          },
+          "127:254": {
+            "coefficient_l2": 2.5610374468583696e-14,
+            "maximum_coefficient": 7.674274923877711e-15
+          },
+          "255:512": {
+            "coefficient_l2": 3.644254030234236e-14,
+            "maximum_coefficient": 7.131043309983511e-15
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 2,
+            "amplitude": 51.14839193861017
+          },
+          {
+            "frequency": 0,
+            "amplitude": 51.03479156083476
+          },
+          {
+            "frequency": 6,
+            "amplitude": 16.711527628717977
+          },
+          {
+            "frequency": 10,
+            "amplitude": 8.540081711052075
+          },
+          {
+            "frequency": 4,
+            "amplitude": 6.824716664763697
+          },
+          {
+            "frequency": 16,
+            "amplitude": 3.586987609761761
+          },
+          {
+            "frequency": 12,
+            "amplitude": 2.7206310692015956
+          },
+          {
+            "frequency": 8,
+            "amplitude": 2.0038921389934687
+          },
+          {
+            "frequency": 24,
+            "amplitude": 1.9677112808274866
+          },
+          {
+            "frequency": 14,
+            "amplitude": 1.925525363503851
+          },
+          {
+            "frequency": 22,
+            "amplitude": 1.430507161110539
+          },
+          {
+            "frequency": 20,
+            "amplitude": 0.8668917881795078
+          },
+          {
+            "frequency": 28,
+            "amplitude": 0.7585646918218557
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.6940169972679373
+          },
+          {
+            "frequency": 18,
+            "amplitude": 0.5690984579982609
+          },
+          {
+            "frequency": 26,
+            "amplitude": 0.38351380186094813
+          }
+        ],
+        "reflection_defect": 3.126388037344441e-13,
+        "half_period_defect": 2.8421709430404007e-13
+      },
+      {
+        "component": "m",
+        "sampled_maximum": 20.5036669347784,
+        "retained_maximum": 20.5036669347784,
+        "omitted_maximum": 5.5067062021407764e-14,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 5.5067062021407764e-14,
+          "62": 5.5067062021407764e-14,
+          "126": 5.684341886080802e-14
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 13.32171296859585,
+            "maximum_coefficient": 8.741723012362378
+          },
+          "31:62": {
+            "coefficient_l2": 1.823245006385113e-15,
+            "maximum_coefficient": 6.480900697761322e-16
+          },
+          "63:126": {
+            "coefficient_l2": 5.331360696589966e-15,
+            "maximum_coefficient": 1.9581474817169157e-15
+          },
+          "127:254": {
+            "coefficient_l2": 7.696288555471354e-15,
+            "maximum_coefficient": 1.98165785066413e-15
+          },
+          "255:512": {
+            "coefficient_l2": 1.3910168737758238e-14,
+            "maximum_coefficient": 2.9049682252721163e-15
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 2,
+            "amplitude": 8.741723012362378
+          },
+          {
+            "frequency": 4,
+            "amplitude": 8.1588597723993
+          },
+          {
+            "frequency": 8,
+            "amplitude": 4.83629976594403
+          },
+          {
+            "frequency": 12,
+            "amplitude": 1.9103065043789524
+          },
+          {
+            "frequency": 16,
+            "amplitude": 1.7018667944482966
+          },
+          {
+            "frequency": 10,
+            "amplitude": 1.2054891911896939
+          },
+          {
+            "frequency": 22,
+            "amplitude": 0.9685027857663844
+          },
+          {
+            "frequency": 20,
+            "amplitude": 0.8440800809988578
+          },
+          {
+            "frequency": 24,
+            "amplitude": 0.7135655716206044
+          },
+          {
+            "frequency": 14,
+            "amplitude": 0.6237943747872375
+          },
+          {
+            "frequency": 26,
+            "amplitude": 0.48813262919995815
+          },
+          {
+            "frequency": 28,
+            "amplitude": 0.480241809611638
+          },
+          {
+            "frequency": 18,
+            "amplitude": 0.2315828110524554
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.15186952871019516
+          },
+          {
+            "frequency": 6,
+            "amplitude": 0.018346022471966452
+          },
+          {
+            "frequency": 260,
+            "amplitude": 2.9049682252721163e-15
+          }
+        ],
+        "reflection_defect": 1.0125233984581428e-13,
+        "half_period_defect": 8.171241461241152e-14
+      }
+    ],
+    "endpoint_lifting": [
+      {
+        "component": "n",
+        "sampled_maximum": 101.89078447951252,
+        "retained_maximum": 102.31906903536337,
+        "omitted_maximum": 1.9244814514972859,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 1.9244814514972859,
+          "62": 0.35288011333133795,
+          "126": 0.014765175784271278
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 80.23821365505763,
+            "maximum_coefficient": 55.4942455242507
+          },
+          "31:62": {
+            "coefficient_l2": 0.7455602335847774,
+            "maximum_coefficient": 0.4153923039736816
+          },
+          "63:126": {
+            "coefficient_l2": 0.11675467721615089,
+            "maximum_coefficient": 0.04816893864244699
+          },
+          "127:254": {
+            "coefficient_l2": 0.004420587154288908,
+            "maximum_coefficient": 0.0015937265149209906
+          },
+          "255:512": {
+            "coefficient_l2": 0.0001975499541824473,
+            "maximum_coefficient": 7.703917789569914e-05
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 2,
+            "amplitude": 55.4942455242507
+          },
+          {
+            "frequency": 0,
+            "amplitude": 53.965344742844195
+          },
+          {
+            "frequency": 6,
+            "amplitude": 17.376279824662767
+          },
+          {
+            "frequency": 4,
+            "amplitude": 7.072810649149499
+          },
+          {
+            "frequency": 10,
+            "amplitude": 6.968125086850098
+          },
+          {
+            "frequency": 8,
+            "amplitude": 3.940682419811122
+          },
+          {
+            "frequency": 16,
+            "amplitude": 2.9187264792154224
+          },
+          {
+            "frequency": 12,
+            "amplitude": 2.8087636299183814
+          },
+          {
+            "frequency": 24,
+            "amplitude": 2.1746122941296253
+          },
+          {
+            "frequency": 14,
+            "amplitude": 2.0839146152386494
+          },
+          {
+            "frequency": 18,
+            "amplitude": 1.2423410383567997
+          },
+          {
+            "frequency": 20,
+            "amplitude": 1.1330646419767207
+          },
+          {
+            "frequency": 26,
+            "amplitude": 1.0241115965848984
+          },
+          {
+            "frequency": 22,
+            "amplitude": 0.7372773619772175
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.5483281710469736
+          },
+          {
+            "frequency": 32,
+            "amplitude": 0.4153923039736816
+          }
+        ],
+        "reflection_defect": 3.197442310920451e-13,
+        "half_period_defect": 2.7000623958883807e-13
+      },
+      {
+        "component": "m",
+        "sampled_maximum": 23.881129976244864,
+        "retained_maximum": 22.81381711356746,
+        "omitted_maximum": 3.343420868325719,
+        "hypothetical_residual_tail_after_projecting_to": {
+          "30": 3.343420868325719,
+          "62": 0.3985713139298319,
+          "126": 0.013425877788547425
+        },
+        "coefficient_bands": {
+          "0:30": {
+            "coefficient_l2": 13.064521536759031,
+            "maximum_coefficient": 8.064489105973376
+          },
+          "31:62": {
+            "coefficient_l2": 1.1350303238990136,
+            "maximum_coefficient": 0.6888143510652429
+          },
+          "63:126": {
+            "coefficient_l2": 0.14128671585064947,
+            "maximum_coefficient": 0.08462262484251354
+          },
+          "127:254": {
+            "coefficient_l2": 0.0046614979598906805,
+            "maximum_coefficient": 0.001959598052893586
+          },
+          "255:512": {
+            "coefficient_l2": 0.0002009095619015042,
+            "maximum_coefficient": 7.266865189366895e-05
+          }
+        },
+        "top_modes": [
+          {
+            "frequency": 4,
+            "amplitude": 8.064489105973376
+          },
+          {
+            "frequency": 2,
+            "amplitude": 6.360232783108952
+          },
+          {
+            "frequency": 6,
+            "amplitude": 6.1328137372255025
+          },
+          {
+            "frequency": 8,
+            "amplitude": 4.04436772097715
+          },
+          {
+            "frequency": 10,
+            "amplitude": 2.681926995003575
+          },
+          {
+            "frequency": 12,
+            "amplitude": 1.3303921244639947
+          },
+          {
+            "frequency": 30,
+            "amplitude": 0.8758371757656803
+          },
+          {
+            "frequency": 28,
+            "amplitude": 0.8643897182135287
+          },
+          {
+            "frequency": 32,
+            "amplitude": 0.6888143510652429
+          },
+          {
+            "frequency": 26,
+            "amplitude": 0.5843717723477052
+          },
+          {
+            "frequency": 34,
+            "amplitude": 0.49555187887259683
+          },
+          {
+            "frequency": 36,
+            "amplitude": 0.3900139672514339
+          },
+          {
+            "frequency": 20,
+            "amplitude": 0.3800380125672269
+          },
+          {
+            "frequency": 38,
+            "amplitude": 0.34711477370915433
+          },
+          {
+            "frequency": 18,
+            "amplitude": 0.334806912758362
+          },
+          {
+            "frequency": 40,
+            "amplitude": 0.31192761770832655
+          }
+        ],
+        "reflection_defect": 2.0961010704922955e-13,
+        "half_period_defect": 1.723066134218243e-13
+      }
+    ]
+  },
+  "finite_scope": "One reported worst node and one reported worst cell. Saved samples only; no whole-domain inference.",
+  "quadrature_scope": "Same finite field; full endpoint difference minus fixed-xi Gauss PDE averages. No remainder bound.",
+  "hypothetical_spectral_projection_is_new_solution": false,
+  "field_evaluation_repeated": false,
+  "source_or_field_modified": false,
+  "BVP_or_Jacobian_matrix_assembled": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false,
+  "finalizer_seconds": 4.883247574000052,
+  "finalizer_maximum_rss_kib": 66948
+}

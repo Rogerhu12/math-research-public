@@ -1,0 +1,45 @@
+{
+  "schema": "78718-production-stage-tool-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "recorded_utc": "2026-11-10T08:28:30.140375+00:00",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-production-stage-record-v1.py",
+    "bytes": 7156,
+    "sha256": "4c87bc4496ddeb14c66310777c3b7c98e78d19df70cfb94f5971699999ac2dc9"
+  },
+  "invocation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-invocation.json",
+    "bytes": 5699,
+    "sha256": "ffbef0729d2ab088c404d6f2819ce69ba42079aab0b96e51dbf98d64471fab8b"
+  },
+  "plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-production-plan-01.json",
+    "bytes": 241222,
+    "sha256": "fa888f5db4bc5dc510d2d0baabc0ee26820de4d0c085a73b8e0ba18b828f6c61"
+  },
+  "stage_id": "prefix-base",
+  "tool_session_id": 81586,
+  "tool_return_metadata": {
+    "chunk_id": "8091f7",
+    "wall_time_seconds": 3.63292242,
+    "exit_code": 1,
+    "original_token_count": 0
+  },
+  "files_after": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original/prefix-base-data.npz.gz",
+      "bytes": 4999999,
+      "sha256": "5fc58432f70b05085bda36cdef3d952312deb664899c569751b0ed638ae6acc6"
+    }
+  ],
+  "stdout_log": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-stdout.log",
+    "bytes": 1100,
+    "sha256": "283b83a5de885002ca8774297c77848a9c6ca46d9b798390b60eaedaef29c2d0"
+  },
+  "status": "observed-process-completed",
+  "actual_exit_code": 1,
+  "tool_receipt": "8091f7",
+  "expected_outputs_present": false,
+  "all_production_files_below_5000000": true
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "fd2d-R212-and-same-field-angle-diagnostic-closed-v1",
+  "R212": {
+    "status": "complete_analytic_proof",
+    "scope": "Arbitrary spatial arclength curves with curvature bound and the stated orthogonal tangent/end-displacement conditions. Exact warped metric makes material meridians geodesics. No claim from C0 approximate metric alone.",
+    "newCompletionGate": false,
+    "currentLowHeightBranchExcluded": false,
+    "numericalExecutionNeeded": false
+  },
+  "angleDiagnostic": {
+    "input": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R208-refined-amplitude-04-checkpoint.json",
+      "commit": "6e52a2ca961019ab3154dbb5d3d740147385eed0",
+      "bytes": 63054,
+      "sha256": "12d22d674aef4b7ae9db974bfae153e7c46ff6647e4f564936b0447121f5ff91",
+      "centralSeed": {
+        "schema": "fd2d-complete-material-ellipse-numeric-seed-identity-v1",
+        "rawA": 1.3620341722637315,
+        "rawB": 0.5620341722637314,
+        "rawArcA0": 1.004082838021469,
+        "rawQuarter": 1.5772096337619188,
+        "baseA0": 1.004082838021469,
+        "normalization": 1,
+        "actualCentralA": 1.3620341722637315,
+        "actualCentralB": 0.5620341722637314,
+        "actualCentralGap": 0.8,
+        "binary64": {
+          "rawA": "3ff5cae4581e83b7",
+          "rawB": "3fe1fc2f16a36dd4",
+          "rawArcA0": "3ff010b92a7c6ee6",
+          "rawQuarter": "3ff93c402b3f18e6",
+          "baseA0": "3ff010b92a7c6ee6",
+          "normalization": "3ff0000000000000",
+          "actualCentralA": "3ff5cae4581e83b7",
+          "actualCentralB": "3fe1fc2f16a36dd4",
+          "actualCentralGap": "3fe999999999999a"
+        },
+        "normalizationSemantics": "same R187 material ellipse definition: Xcentral=baseA0*gammaRaw/rawArcA0; accurate-target errors remain explicit",
+        "accurateEllipticIntegralOrInverseCertificate": false
+      }
+    },
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "completed": true,
+      "elapsedMilliseconds": 1134,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "originalSourceFullAngles": 64,
+    "observationLevels": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "radialPoints": [
+      {
+        "s": 0.13413328040878245,
+        "reason": "Same immutable fourth state saved N64 metric peak"
+      },
+      {
+        "s": 0.2191792174807537,
+        "reason": "Same immutable fourth state saved N64 curvature peak"
+      },
+      {
+        "s": 0.3857929045873372,
+        "reason": "R207 earlier third-state F-variance peak, now evaluated on the immutable fourth refined state"
+      },
+      {
+        "s": 0.4207304881689033,
+        "reason": "R207 earlier third-state weighted F-variance peak, now evaluated on the immutable fourth refined state"
+      },
+      {
+        "s": 0.5926430311081439,
+        "reason": "Explicit downstream physical s near, but not byte-identical to, the earlier R207 F spectral diagnostic; evaluated on the immutable fourth refined state"
+      }
+    ],
+    "wholeFieldOrTargetChanged": false,
+    "normalOrLM": false,
+    "continuousCertificate": false,
+    "downstreamSelectionClarification": {
+      "oldR207s": 0.5926430100318445,
+      "newExplicitPhysicalS": 0.5926430311081439,
+      "exactOldPointReused": false
+    }
+  },
+  "artifacts": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R212-spatial-meridian-length-bound-without-reflection.md",
+      "bytes": 10061,
+      "sha256": "6e69ba7f65b8c7f76346e482a1482b98f37a64fe1aea195c7b78ec959726769d",
+      "commit": "2f8aa9623dc7973a8923a3864300658185b8d547"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-R201-same-field-angle-circles.cjs",
+      "bytes": 3075,
+      "sha256": "82ebcba17fc76c0f14ef23bacdd4d891776c72bce204fd20183e0f96a3d3e009",
+      "commit": "5a269a8bb4f408e4f8d7e7b2fb866bb53bb66d70"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R208-fourth-state-same-field-angle-circles-01.json",
+      "bytes": 73271,
+      "sha256": "f2d6b58baa8da14b7ed7affb0a84ae5cf48af933d0dbe01b664c86ba0b613624",
+      "commit": "657e8a25d82d5641114851d55976b5994c11f302"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R208-fourth-state-same-field-angle-circles.md",
+      "bytes": 3903,
+      "sha256": "880e0ffe2854d1fa383b8ebc4d5a338c99b769f9d50b45536e3c90c0645ce829",
+      "commit": "4aadd71b8f26bfef63591ac29ef54c7b7105be7b"
+    }
+  ],
+  "publication": {
+    "method": "Authorized small UTF-8 GitHub fallback",
+    "API409": false,
+    "rootReadmeBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicReadmeBlob": "71875538fe72d500277129b7f67d99f89d21c9e0"
+  },
+  "strongTargetComplete": false
+}

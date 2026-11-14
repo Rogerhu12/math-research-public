@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "closed",
+  "result": "R168",
+  "scope": "Complete conditional smaller-D cap constructions and exact cylinder-removal geometry; exact scalar budget run only, no actual core or BVP completion.",
+  "actual_exit_code": 0,
+  "old_sources_or_active_solver_changed": false,
+  "variants": [
+    {
+      "D_upper": "4",
+      "held_ball": "4/5",
+      "reach": "121/1000",
+      "actual_Z_cap": [
+        "4/5",
+        "29/25"
+      ],
+      "actual_Z_uniform_tail": [
+        "229/250",
+        "29/25"
+      ]
+    },
+    {
+      "D_upper": "15/4",
+      "held_ball": "3/4",
+      "reach": "113/1000",
+      "actual_Z_cap": [
+        "3/4",
+        "21/20"
+      ],
+      "actual_Z_uniform_tail": [
+        "853/1000",
+        "21/20"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/R168-smaller-corner-caps-and-shorter-cylinder-window.md",
+      "bytes": 17645,
+      "sha256": "9c51a41ee319e76c5ca35ae2d4309a9b3a0ee854ebd1113ddc3788c9d3ff0409"
+    },
+    {
+      "path": "scripts/fd2d_smaller_corner_caps.py",
+      "bytes": 8066,
+      "sha256": "1f3eca78d1ec686b47d668e831dab9e46761b40e35a928e6bb717437a77fccd7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-smaller-corner-caps-budget-01.json",
+      "bytes": 18722,
+      "sha256": "a9f4592d90290279f04ac89a44191a7541427fd15e94a0fdb663d3befe7009ad"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-smaller-corner-caps-budget-01-exit-receipt.json",
+      "bytes": 396,
+      "sha256": "4902b0520bedad1587b713a889b8f5d3b77d4ee5495925c77c71702ae4dba555"
+    }
+  ]
+}

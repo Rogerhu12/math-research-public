@@ -1,0 +1,15 @@
+{"time":"2026-11-09T02:36:45.547Z","event":"warm_initial_state","source":"/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m4-seed-a0001.json.gz","sourceModes":4,"targetModes":4,"depth":10}
+{"time":"2026-11-09T02:36:45.556Z","event":"request","call":1,"height":[-0.0001,0,0,0],"jacobian":false,"audit":true}
+{"time":"2026-11-09T02:36:48.634Z","event":"iteration","call":1,"elapsed_ms":3078,"iteration":0,"norm":0.0025398568958115513,"minA":0.9608187798512828,"minD":0.9989397458153666}
+{"time":"2026-11-09T02:36:48.639Z","event":"iteration","call":1,"elapsed_ms":3083,"iteration":0,"norm":0.0025398568958115513,"minA":0.9608187798512828,"minD":0.9989397458153666,"chartCondition":2133.7330551863265,"phase":"correction"}
+{"time":"2026-11-09T02:36:54.311Z","event":"iteration","call":1,"elapsed_ms":8755,"iteration":1,"norm":1.1079303268034302e-11,"minA":0.9608187799529297,"minD":0.9989397458262479}
+{"time":"2026-11-09T02:36:57.434Z","event":"response","call":1,"elapsed_ms":11878,"converged":true,"residual":1.1079303268034302e-11,"maxChartCondition":2133.7330551863265}
+{"time":"2026-11-09T02:36:57.442Z","event":"request","call":2,"height":[-0.0003,0,0,0],"jacobian":false,"audit":true}
+{"time":"2026-11-09T02:37:00.455Z","event":"iteration","call":2,"elapsed_ms":3013,"iteration":0,"norm":34.681991597863195,"minA":0.8112635386218544,"minD":0.9968092267504419}
+{"time":"2026-11-09T02:37:00.461Z","event":"iteration","call":2,"elapsed_ms":3019,"iteration":0,"norm":34.681991597863195,"minA":0.8112635386218544,"minD":0.9968092267504419,"chartCondition":2140.4764829371607,"phase":"correction"}
+{"time":"2026-11-09T02:37:05.364Z","event":"iteration","call":2,"elapsed_ms":7922,"iteration":1,"norm":2.007589275729962,"minA":0.8205019061974078,"minD":0.9968091934284636}
+{"time":"2026-11-09T02:37:05.373Z","event":"iteration","call":2,"elapsed_ms":7931,"iteration":1,"norm":2.007589275729962,"minA":0.8205019061974078,"minD":0.9968091934284636,"chartCondition":2140.7439137789397,"phase":"correction"}
+{"time":"2026-11-09T02:37:09.878Z","event":"iteration","call":2,"elapsed_ms":12436,"iteration":2,"norm":0.000461112949402382,"minA":0.8203223696283419,"minD":0.9968091934457426}
+{"time":"2026-11-09T02:37:09.883Z","event":"iteration","call":2,"elapsed_ms":12441,"iteration":2,"norm":0.000461112949402382,"minA":0.8203223696283419,"minD":0.9968091934457426,"chartCondition":2140.7430299178636,"phase":"correction"}
+{"time":"2026-11-09T02:37:15.165Z","event":"iteration","call":2,"elapsed_ms":17723,"iteration":3,"norm":4.913248972963817e-11,"minA":0.8203223645606534,"minD":0.9968091934455092}
+{"time":"2026-11-09T02:37:18.412Z","event":"response","call":2,"elapsed_ms":20970,"converged":true,"residual":4.913248972963817e-11,"maxChartCondition":2140.7439137789397}

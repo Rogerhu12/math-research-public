@@ -1,0 +1,175 @@
+{
+  "schema": "78718-synthetic-byte-storage-check-v1",
+  "status": "PASS_SYNTHETIC_EXACT_BYTE_STORAGE_ONLY",
+  "solver_calls": 0,
+  "research_geometry_generated": false,
+  "production_ready": false,
+  "complete_consumer_closure_checked": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "sources": [
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "bytes": 11138,
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "bytes": 5923,
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-check-byte-storage-v1.py",
+      "bytes": 15009,
+      "sha256": "c7953e5630fb20c4f0ecd68f89e48f1d01bf0a69066a346afd743840646a4b91"
+    }
+  ],
+  "positive_cases": [
+    {
+      "case": "arbitrary_shapes_dtypes_orders_and_float_bits",
+      "array_count": 10,
+      "logical_bytes": 791,
+      "logical_sha256": "5f06e654196185a6f16c3341cbc5d92907954d5c1fedfb8ff723fa24b6ca90b2",
+      "parts": 22,
+      "contains_nan_payloads_signed_zero_and_infinity": true,
+      "comparison": "Full logical bytes and loaded dtype/shape/strides/C-and-F byte strings"
+    },
+    {
+      "case": "actual_large_npz_disk_round_trip",
+      "logical_bytes": 9303308,
+      "logical_sha256": "700dc96311b8a66833c05df1655471190714e7ccc8baad943368ea20fd01cbd3",
+      "logical_container_written_as_one_file": false,
+      "parts": 3,
+      "raw_max": 4600000,
+      "physical_max": 4601423,
+      "physical_files": [
+        {
+          "bytes": 1215,
+          "sha256": "2f3fbb444b2ea31c05539927a32c993c02cc6297ca0422695bf0beb3bbd7e505"
+        },
+        {
+          "bytes": 4601423,
+          "sha256": "fcfb5f62177c31cb558819ba38dd5f867823082a28609d18bd83757934d44a2c"
+        },
+        {
+          "bytes": 4601423,
+          "sha256": "1b2fe48ff718cf558c80f0bf46e73ef48be67bf61ab94453fbacfafb13a95557"
+        },
+        {
+          "bytes": 103361,
+          "sha256": "26e0af1eaa3e93cc5ae8ef0fda06fb7259fee29a653dd0cd429376c379b76703"
+        }
+      ]
+    },
+    {
+      "case": "actual_helper_prefix_layout_and_nan_bits",
+      "logical_sha256": "b603d07b7167e65feb3c6d296764e2877adba680e8b72537827bae4705f88135",
+      "logical_bytes": 485,
+      "closure_files": 11,
+      "source_hashes_checked": true
+    },
+    {
+      "case": "relocated_actual_hash_only_fresh_child",
+      "actual_child_exit_code": 0,
+      "numpy_imported": false,
+      "scipy_imported": false,
+      "closure_files": 11,
+      "logical_sha256": "b603d07b7167e65feb3c6d296764e2877adba680e8b72537827bae4705f88135"
+    }
+  ],
+  "rejection_cases": [
+    {
+      "case": "missing_part",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "extra_part",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "reordered_parts",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "gap_in_offsets",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "overlap_in_offsets",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "boolean_integer",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "traversal_filename",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "duplicate_filename",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "raw_part_above_limit",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "stored_part_at_file_limit",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "wrong_outer_logical_sha",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "wrong_logical_length",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "stored_payload_corruption",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "valid_gzip_with_wrong_raw_bytes",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "all_local_hashes_changed_but_global_sha_bound",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "duplicate_descriptor_json_key",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "nonfinite_descriptor_json",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "empty_logical_payload",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "existing_conflicting_content_addressed_file",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "mixed_legacy_storage",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "common_cut_mode_used_as_base_mode",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "boolean_base_nodes",
+      "exception_type": "ValueError"
+    },
+    {
+      "case": "changed_helper_source_identity",
+      "exception_type": "ValueError"
+    }
+  ],
+  "temporary_fixture_cleanup": "TemporaryDirectory exits after these checks; no test arrays retained."
+}

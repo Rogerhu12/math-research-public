@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-observed-exit-receipt-v1",
+  "command": "python scripts/fd2d_r136_shorter_phase_design.py --out-prefix notes/2026-11-12-fd2d-r136-shorter-phase-design-01",
+  "execution_chunk": "6acbbf",
+  "observed_exit_code": 0,
+  "observed_tool_wall_seconds": 0.658317809,
+  "reported_internal_seconds": 0.10478347299795132,
+  "earlier_finite_scalar_preview": {
+    "chunk": "57c6ee",
+    "exit": 0,
+    "scope": "Two direct scalar evaluations, no persistent candidate was claimed at that point"
+  },
+  "closure_scope": "Exact rational round-height outer enclosures and tail constants compared with the already saved report; no new surface or BVP run.",
+  "no_old_field_or_solver_mutation": true,
+  "actual_nonround_height_known": false
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "fd2d-natural-finite-GC-batch-chain-recover-accepted-v3",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-natural-batch-chain-v3.py",
+    "bytes": 6326,
+    "sha256": "ae4d185f81459798d8253d196cfdaf64ae28f208fb4cd469096f61fc1e64c81e"
+  },
+  "driver": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-gauss-run.py",
+    "bytes": 17400,
+    "sha256": "ff7447efd4b109945e8dd9fecf34b088a07590b3132c3d6c3aacb4b76b837c67"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "initial_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss06-b0005-accepted-0001.npz",
+    "bytes": 48695,
+    "sha256": "8ea89ac9d76b55f57ab7d3a97b017a636e05f806909c109d02fd35587f3103ac"
+  },
+  "started_utc": "2026-11-12T12:49:21.668179+00:00",
+  "settings": {
+    "driver": "scripts/fd2d-gc-raw-bump-joint-gauss-run.py",
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "notes/2026-11-12-fd2d-raw-bump-gauss06-b0005-accepted-0001.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "out_prefix": "notes/2026-11-12-fd2d-raw-bump-gauss07",
+    "owner_stop_file": "notes/2026-11-12-fd2d-raw-bump-gauss07-owner-stop.txt",
+    "blocks": 8,
+    "iterations_per_block": 1,
+    "modes": 15
+  },
+  "batches": [
+    {
+      "index": 1,
+      "stem": "notes/2026-11-12-fd2d-raw-bump-gauss07-b0001",
+      "input": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss06-b0005-accepted-0001.npz",
+        "bytes": 48695,
+        "sha256": "8ea89ac9d76b55f57ab7d3a97b017a636e05f806909c109d02fd35587f3103ac"
+      },
+      "actual_wrapper_returncode": 137,
+      "seconds": 28.92375797600016,
+      "actual_process_receipt": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-process-receipt.json",
+        "bytes": 3711,
+        "sha256": "fb7ebf1d04e5fa71c3ca6b370475b92f4c41f129f20871d1ad03acb16d44e606"
+      },
+      "driver_report": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-report.json",
+        "bytes": 55954,
+        "sha256": "0e17d98fdf8f9679caa17ff1a90c97c1a3d313da08e4cc86848c5281f9c72660"
+      },
+      "actual_accepted_steps": 0,
+      "completed": false,
+      "finite_success": false,
+      "last_diagnostics": {
+        "residual_maximum": 3.7649515171488908,
+        "residual_rms": 0.16594981228618896,
+        "legacy_trapezoid_residual_maximum": 3.7712439494855907,
+        "full_gauss_node_maximum": 1.7312950897185098,
+        "formal_curvature_node_maximum": 7.775332060856202,
+        "A": 1.3788258594154912,
+        "B": 0.4788260543616188,
+        "gap": 0.8999998050538723,
+        "base_coast_T_fixed": 0.02,
+        "tail_coefficients": [
+          1.2,
+          1.2,
+          0.9664748915512476,
+          4.113209669083217e-18,
+          0.501486842117296,
+          0.8371318952783406,
+          3.8862683658245644e-18,
+          0.1520729280363528,
+          0.6882484107293414,
+          6.502014630530163e-19,
+          1.4477106245828615e-19,
+          0.4848668563750692,
+          0.1149810845707954,
+          5.482610464400545e-19,
+          0.48065023282031255,
+          1.2
+        ],
+        "profile_deltas": [
+          -0.0018888224504628663,
+          -0.010485315786145347,
+          -0.014811230486677342,
+          -0.022439149865787746,
+          0.008351413655214298,
+          0.026506811583284457,
+          0.012906429871840992
+        ],
+        "minimum_n": -0.21218483722016726,
+        "maximum_n": 4.784642065696976,
+        "minimum_central_curvature": 0.10000000000000006,
+        "minimum_radius_at_nodes": 0.8,
+        "exact_cut_lifting": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "finite_radial_scheme": "Gauss2 retained/full angular cell averages",
+        "curvature_merit": {
+          "cap": 7.2,
+          "weight": 1.0,
+          "active_rows": 286,
+          "repeated_eigenvalue_rows": 0,
+          "residual_l2": 2.9034510509088487,
+          "sampled_formal_curvature_maximum": 7.775332060856202,
+          "original_equations_changed": false,
+          "actual_geometry_certified": false
+        },
+        "high_gauss_merit": {
+          "weight": 1.0,
+          "normalization": "sqrt(2/angular_work)",
+          "rows": 30976,
+          "sampled_full_gauss_maximum": 1.7312950897185098,
+          "sampled_omitted_gauss_maximum": 0.18111175594902268,
+          "residual_l2": 0.25909475375260704,
+          "continuous_certificate": false,
+          "scope": "Angular orthogonal complement on the actual finite working grid"
+        },
+        "high_codazzi_merit": {
+          "schema": "fd2d-fixed-physical-s-gauss-cell-codazzi-v1",
+          "order": 2,
+          "quadrature_fraction_nodes": [
+            0.21132486540518713,
+            0.7886751345948129
+          ],
+          "quadrature_average_weights": [
+            0.5,
+            0.5
+          ],
+          "physical_g_changed": false,
+          "unknown_mesh_changed": false,
+          "original_trapezoid_rows_changed": true,
+          "node_Gauss_boundary_gap_rows_changed": false,
+          "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+          "retained_cell_maximum": 3.7649515171488908,
+          "sampled_full_average_codazzi_maximum": 13.07323473668469,
+          "sampled_omitted_average_codazzi_maximum": 0.18010122608869583,
+          "sampled_interior_Gauss_maximum": 1.607993941893056,
+          "normalization": "high_weight*sqrt(2/angular_work)",
+          "continuous_certificate": false,
+          "scope": "Finite Gauss-Legendre averages of the actual P1 correction RHS; no pointwise or continuous bound",
+          "residual_l2": 0.394022291439629,
+          "sampled_omitted_codazzi_maximum": 0.18010122608869583
+        }
+      }
+    }
+  ],
+  "actual_accepted_steps": 0,
+  "completed": true,
+  "finite_success": false,
+  "strong_target_completed": false,
+  "stop_reason": "A child returned nonzero without an eligible newly accepted signal checkpoint; owner diagnosis required",
+  "seconds": 29.31053625700042
+}

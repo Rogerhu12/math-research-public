@@ -1,0 +1,547 @@
+{
+  "status": "PURE_LIFETIME_PROTOCOL_PASS",
+  "scope": "Pure AST and isolated refresh-block protocol checks; zero Newton/BVP calls.\n\nThe only executed excerpt of either Newton definition is its refresh block,\ninside a synthetic harness with string inputs and fake jac/splu/solve objects.\nNo SciPy routine, original install(), selector mutation, real LU, geometry,\ntail, mesh or solve_newton function is called.\n",
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+      "bytes": 2320,
+      "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-domain-newton-release-lu.py",
+      "bytes": 9904,
+      "sha256": "bc7d376ca52a565e5b345aeef40319578ae8ea3b74dbe0333c5e26c927c68916"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-domain-newton-release-lu.py",
+      "bytes": 10295,
+      "sha256": "9a7c74aa354e196bd986848b33cc0eacf2a6623e7aa3c61d99c7f9f5525549b3"
+    }
+  ],
+  "byte_exact_function_after_removing_one_assignment": true,
+  "single_statement_AST_check": {
+    "schema": "db6f-newton-lu-lifetime-definitions-v1",
+    "original_newton": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+        "bytes": 2576,
+        "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+      },
+      "qualname": "solve_newton",
+      "first_line": 13,
+      "source_sha256_rstrip": "67ed0cb4b65795dd9531e6eebc21548475f92e398da8acef3f31acdbcfc1ad14"
+    },
+    "derived_newton": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+        "bytes": 2320,
+        "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+      },
+      "qualname": "solve_newton",
+      "first_line": 16,
+      "source_sha256_rstrip": "8e4da9ad1124cac2870a77f2059cc4c1d04e8a61c1cce20aae671c082cba8121"
+    },
+    "original_install": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+        "bytes": 2576,
+        "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+      },
+      "qualname": "install",
+      "first_line": 42,
+      "source_sha256_rstrip": "eb1c5b7ae0059110bc16302a3aa3b40f1806093846d0853e356196c5d760c4cd"
+    },
+    "selector": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-domain-newton-release-lu.py",
+      "bytes": 9904,
+      "sha256": "bc7d376ca52a565e5b345aeef40319578ae8ea3b74dbe0333c5e26c927c68916"
+    },
+    "statement_added": "factor=None",
+    "solver_calls": 0,
+    "installed": false
+  },
+  "cases": [
+    {
+      "case": {
+        "name": "first-refresh",
+        "refresh": true,
+        "factors": 0,
+        "have_old": false
+      },
+      "original": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 1,
+            "step": "replacement-step",
+            "cost": 4.0,
+            "factor": "new"
+          }
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 1,
+            "step": "replacement-step",
+            "cost": 4.0,
+            "factor": "new"
+          }
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "replacement-refresh",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true
+      },
+      "original": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 2,
+            "step": "replacement-step",
+            "cost": 4.0,
+            "factor": "new"
+          }
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": true
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 2,
+            "step": "replacement-step",
+            "cost": 4.0,
+            "factor": "new"
+          }
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "reuse-full-step",
+        "refresh": false,
+        "factors": 1,
+        "have_old": true
+      },
+      "original": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 1,
+            "step": "previous",
+            "cost": 9.0,
+            "factor": "old"
+          }
+        },
+        "events": []
+      },
+      "derived": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 1,
+            "step": "previous",
+            "cost": 9.0,
+            "factor": "old"
+          }
+        },
+        "events": []
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "budget-exhausted",
+        "refresh": true,
+        "factors": 8,
+        "have_old": true
+      },
+      "original": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 8,
+            "step": "previous",
+            "cost": 9.0,
+            "factor": "old"
+          }
+        },
+        "events": []
+      },
+      "derived": {
+        "outcome": {
+          "return": {
+            "kind": "normal-exit",
+            "factors": 8,
+            "step": "previous",
+            "cost": 9.0,
+            "factor": "old"
+          }
+        },
+        "events": []
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "jac-runtime",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "jac-runtime"
+      },
+      "original": {
+        "outcome": {
+          "return": [
+            "Y",
+            "P",
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "return": [
+            "Y",
+            "P",
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "splu-runtime",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "splu-runtime"
+      },
+      "original": {
+        "outcome": {
+          "return": [
+            "Y",
+            "P",
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": true
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "return": [
+            "Y",
+            "P",
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "jac-memory",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "jac-memory"
+      },
+      "original": {
+        "outcome": {
+          "exception_type": "MemoryError",
+          "exception_message": "synthetic jac failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "exception_type": "MemoryError",
+          "exception_message": "synthetic jac failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "splu-memory",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "splu-memory"
+      },
+      "original": {
+        "outcome": {
+          "exception_type": "MemoryError",
+          "exception_message": "synthetic LU failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": true
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "exception_type": "MemoryError",
+          "exception_message": "synthetic LU failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "solve-runtime",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "solve-runtime"
+      },
+      "original": {
+        "outcome": {
+          "exception_type": "RuntimeError",
+          "exception_message": "synthetic solve failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": true
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "exception_type": "RuntimeError",
+          "exception_message": "synthetic solve failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": {
+        "name": "solve-floating",
+        "refresh": true,
+        "factors": 1,
+        "have_old": true,
+        "failure": "solve-floating"
+      },
+      "original": {
+        "outcome": {
+          "exception_type": "FloatingPointError",
+          "exception_message": "synthetic solve failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": true
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": true
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "derived": {
+        "outcome": {
+          "exception_type": "FloatingPointError",
+          "exception_message": "synthetic solve failure"
+        },
+        "events": [
+          {
+            "event": "jac",
+            "old_reference_alive": false
+          },
+          {
+            "event": "splu",
+            "old_reference_alive": false
+          },
+          {
+            "event": "factor.solve",
+            "old_reference_alive": false,
+            "factor": "new",
+            "residual": "R"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "negative_gates": [
+    {
+      "case": "derived-cannot-impersonate-original-source",
+      "error": "Original source hash changed"
+    }
+  ],
+  "STATS_alias_preserved": true,
+  "actual_newton_calls": 0,
+  "actual_scipy_LU_calls": 0,
+  "actual_BVP_calls": 0,
+  "actual_DN_or_RK_calls": 0,
+  "runtime_selector_install_calls": 0,
+  "limitation": "Weak-reference checks establish Python-reference lifetime in the isolated protocol, not SuperLU bytes, allocator release, RSS reduction or successful candidate computation."
+}

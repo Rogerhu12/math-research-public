@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-normal-adapter-check.py", line 139, in <module>
+    args=parser.parse_args();sys.exit(run(args.out_prefix))
+                                      ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-normal-adapter-check.py", line 85, in run
+    checks['cell_row_construction_and_release_AST_identical']=dump(math_cell_loop(aa))==dump(math_cell_loop(bb))
+                                                                   ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-normal-adapter-check.py", line 82, in math_cell_loop
+    v=copy.deepcopy(loop);j=common_statistics_index(v);k=delete_packet_index(v)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-normal-adapter-check.py", line 47, in common_statistics_index
+    raise ValueError('Frozen stream statistics boundary not found')
+ValueError: Frozen stream statistics boundary not found

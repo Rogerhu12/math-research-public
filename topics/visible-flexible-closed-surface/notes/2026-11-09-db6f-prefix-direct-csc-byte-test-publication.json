@@ -1,0 +1,49 @@
+{
+  "schema": "db6f-closed-text-publication-v1",
+  "status": "UNEXECUTED_SYNTHETIC_TEST_AND_PLAN_ONLY",
+  "task": "original versus direct CSC byte/alias test",
+  "date": "2026-11-09",
+  "author": "db6f/coupled_prefix",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+      "commit": "4fb8b855e7df8ef5c68c797f13da70640900bbfe",
+      "blob": "abb5f27a8926652933c827d85c0bbcea54fe8601",
+      "bytes": 26045,
+      "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc",
+      "readback_exact": true,
+      "role": "unexecuted real small synthetic test source"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-direct-csc-byte-test-plan.md",
+      "commit": "e38667630145d094523e64abcd3dcb4f39cdd926",
+      "sha256": "a6431c443165cbb41b80f374c1bd4cac46690cc456e5bb9e0b136de5d7af54ba",
+      "blob": "29320562def56ab47b25736ad308b3ac4073e343",
+      "bytes": 7772,
+      "readback_exact": true,
+      "role": "test method and observation boundaries"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-direct-csc-byte-test-planned-run.json",
+      "commit": "70305f7e40c3416a182da71b8ace812bd8a860f7",
+      "sha256": "f205bbefdee7fd8d1e875b677ab3d0b4b86ae3dabc648341e278ae248babe944",
+      "blob": "bd8b0b0664df1f710f8ef85caf32a73c13bed90b",
+      "bytes": 5375,
+      "readback_exact": true,
+      "role": "unexecuted conditional command plan"
+    }
+  ],
+  "actual_author_execution": {
+    "python": false,
+    "factory": false,
+    "matrices": false,
+    "solver": false,
+    "exit_code": null
+  },
+  "actual_author_saving": {
+    "new_paths_checked_absent": true,
+    "all_fixed_commit_text_readbacks_exact": true
+  },
+  "no_runtime_or_positive_report_created": true,
+  "independent_full_review_pending": true
+}

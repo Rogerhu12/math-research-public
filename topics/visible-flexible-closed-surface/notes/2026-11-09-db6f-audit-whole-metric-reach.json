@@ -1,0 +1,26 @@
+{
+  "status": "PASS-independent-R18-composition-and-exact-scalar-replay",
+  "hashes": {
+    "notes/2026-11-09-db6f-whole-metric-reach-theorem.md": "c880a3a12add2d27c8096546e048a45a97381a9de1d5989cf035cbde81983676",
+    "scripts/db6f-root-whole-metric-reach.py": "9dbb5f084d86227b5760a1b1d333b674d7586ec3b72ee195906cc5e7c147a3f8",
+    "notes/2026-11-09-db6f-root-whole-metric-reach.json": "265fe7d95f08895580ade27c4aa64b243736604f1a9a8fac55d65ade42521aaa",
+    "notes/2026-11-09-db6f-audit-whole-metric-reach-replay.json": "265fe7d95f08895580ade27c4aa64b243736604f1a9a8fac55d65ade42521aaa",
+    "notes/2026-11-09-db6f-root-review-full-tail-replays.md": "ea374076645c901b9b44c0364e2581be6ca29bb954cf8a2d629a6dad8c56c59a",
+    "notes/2026-11-09-db6f-root-review-full-tail-replays.json": "457e04d61bfe1c1cc43da293a81c8452863371e3edb2b4eeceafceb67c2d0c6c"
+  },
+  "all_replay_json_fields_identical": true,
+  "saved_tail_rows": 5237,
+  "saved_row_maxima_rechecked": true,
+  "root_independent_tail_rows_identical": true,
+  "all_packet_rows_once": true,
+  "all_finite_spans_and_collar_present": true,
+  "same_R17_map_and_target": true,
+  "whole_metric_operator_upper_exact": "4707697980434257/4722366482869645213696",
+  "whole_actual_curvature_upper_exact": "4765622078421039/562949953421312",
+  "whole_reach_over_diameter_lower_exact": "7036874417766400/233515481842630911",
+  "all_safe_decimal_and_README_threshold_comparisons_exact": true,
+  "independence_scope": "Independent review of root R18 composition and summary. Own tail backend and background lemmas rely on separate coupled_prefix/root reviews; no self-review is counted as independent.",
+  "G5_paid": false,
+  "final_meshes_paid": false,
+  "README_complete": false
+}

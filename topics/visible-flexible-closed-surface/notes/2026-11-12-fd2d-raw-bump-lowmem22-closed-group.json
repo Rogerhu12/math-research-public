@@ -1,0 +1,74 @@
+{
+  "schema": "fd2d-closed-owner-recovered-signal-branch-v1",
+  "closed": true,
+  "actual_tool_exit": 130,
+  "recorded_child_exits": [
+    -9,
+    null
+  ],
+  "accepted_steps": 1,
+  "finite_success": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-static-manifest.json",
+      "bytes": 1109,
+      "sha256": "ede7ca0cb566512ede43499ed943f4a880df8a1944dc35a1b8af7005511f53f7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-chain-report.json",
+      "bytes": 23001,
+      "sha256": "1d4bc4487cb85ec5770354ffe87001aea1ae669922b24ab2dde2ec9fcdf2e566"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-execution-receipt.json",
+      "bytes": 1042,
+      "sha256": "cec743cd4618dd337410d7da6e99e87167c4cc8f5e7be219c7ac2c861a0381ae"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-initial-value-storage-comparison.json",
+      "bytes": 894,
+      "sha256": "bf5033413857333a1a041e8af504d8bcf955c47574f219d286a52cb93fe65649"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-lowmem22-actual-recovery.md",
+      "bytes": 2266,
+      "sha256": "7bfb6c13ba5de87b3701814aab7754617dec11aa609c5774a64793911f481686"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+      "bytes": 127034,
+      "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-initial.npz",
+      "bytes": 84844,
+      "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-report.json",
+      "bytes": 331932,
+      "sha256": "788ede0d93443d0f02320475748cb1080873c508d1a51ee76e12ede27bdae6bb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-progress.jsonl",
+      "bytes": 81159,
+      "sha256": "6ebc0b2421bce735ccc8e18042b1128ac05ed0b44d0b93ffa7ecd36c22b9ffb7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-process-receipt.json",
+      "bytes": 3949,
+      "sha256": "683d33b05cbb3c4cd5dd52c20acc1f17c403bad09a1e037625b4688747e6d31e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0002-report.json",
+      "bytes": 16880,
+      "sha256": "f55a7beda0fc63d1dd2710f32985cd4c1e05f8f562bd523e612539dda84ea6a4"
+    }
+  ],
+  "latest_complete_state": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "termination_cause_not_inferred": true
+}

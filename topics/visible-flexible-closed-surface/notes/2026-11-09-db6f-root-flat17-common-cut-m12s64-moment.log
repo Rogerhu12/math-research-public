@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py", line 230, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py", line 226, in main
+    mod.integrate(SimpleNamespace(geometry=args.geometry,out=args.out,angular=args.angular,
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-volume-moment.py", line 33, in integrate
+    raise ValueError('Angular count must exceed the exact degree 6M+1')
+ValueError: Angular count must exceed the exact degree 6M+1

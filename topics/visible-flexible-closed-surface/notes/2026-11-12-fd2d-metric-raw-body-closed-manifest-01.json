@@ -1,0 +1,102 @@
+{
+  "schema": "fd2d-closed-source-and-actual-output-manifest-v1",
+  "scope": "Actual fixed-u raw body and one proper rigid cut screen; known bad jac01 is only interface smoke; independent exact-tail geometry fixture",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-raw-body-screen.py",
+      "bytes": 28076,
+      "sha256": "27abc54c5c170ac2074428c2726e4077a3d57e25d15ea0e0a5f1606c56185827"
+    },
+    {
+      "path": "scripts/fd2d-metric-raw-body-geometry-check.py",
+      "bytes": 4781,
+      "sha256": "8c9ee5f929292f7b809800654a43ebf3bbb66c3385542e3fbae8c6454c8f5786"
+    },
+    {
+      "path": "repro/fd2d-metric-raw-body-check-01/geometry-check-before-syntax-fix.py",
+      "bytes": 4779,
+      "sha256": "a39a0470af4b4fb24ae179297fb38bf0e861b1db5e35de5a63319c7e2c4c00a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-geometry-check-01-failure.json",
+      "bytes": 392,
+      "sha256": "66478c85ff9c0671b1d1b561ec01790b76e6d6e3bcd0b69ea180bb7fdbd7ff5d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-geometry-check-02-cut.npz",
+      "bytes": 44995,
+      "sha256": "82049bb0133911676d071d2ef5ef5991878ea2e28128369cfee0abee5f0140aa"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-geometry-check-02-exit-receipt.json",
+      "bytes": 463,
+      "sha256": "8f3988a14ccebe6d77ebc50f4ece586d1678c007aafd3d840f71e79080e301d9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-geometry-check-02-report.json",
+      "bytes": 7309,
+      "sha256": "c1cb9587567f73d4eaf6f5b613fd4736e96aa4367527ea0634e27cb89b6b9756"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-cut.npz",
+      "bytes": 12583,
+      "sha256": "84997c978cce0e4a35946634edecb1fc012595c19f055e684d64705208d0cad2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-definition.json",
+      "bytes": 8132,
+      "sha256": "e6f54c3ee90c74c65d43f3bda1789fcef165ca51064eb7681aa102b1d6d8414e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-endpoint-current.npz",
+      "bytes": 2466,
+      "sha256": "9871989b22e677bd6e76fa309b1e6c889294638a2936f61469a0828867af690c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-exit-receipt.json",
+      "bytes": 437,
+      "sha256": "ac1cbe94ef966d5e6319ec61a349d811b220e9bde37d2e0bb992a7ed61ba7fac"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-progress.jsonl",
+      "bytes": 24973,
+      "sha256": "190aedc3a8227ca8a022d6ba20474f78e2f4e98da74c04f4ee60111a46937cfe"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-report.json",
+      "bytes": 194792,
+      "sha256": "e47f3b06793d273391de3994ea0d2f5a017e81b5dd0eb3fbdfbc8a74f7839e27"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-jac01-smoke-01-samples.npz",
+      "bytes": 438790,
+      "sha256": "4920c20e267aea608d6d4012e3b214024f31b1dc0f648c6f30dd2d60b17bfa32"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-body-screen.md",
+      "bytes": 13567,
+      "sha256": "2b176a835b42dacb5818bed18252384aed477a381d72af0961e4c874e521f0c2"
+    }
+  ],
+  "actual_runs": [
+    {
+      "session": 86835,
+      "chunk": "af544b",
+      "exit_code": 0,
+      "scope": "whole bad jac01/M3/8-angle screen"
+    },
+    {
+      "session": 26063,
+      "chunk": "52259c",
+      "exit_code": 0,
+      "scope": "exact tail actual geometry and nonzero-tilt registration check"
+    },
+    {
+      "chunk": "0e90f8",
+      "exit_code": 1,
+      "scope": "checker syntax failure before numerical evaluation, source snapshot preserved"
+    }
+  ],
+  "continuous_certificate": false,
+  "closed_surface": false
+}

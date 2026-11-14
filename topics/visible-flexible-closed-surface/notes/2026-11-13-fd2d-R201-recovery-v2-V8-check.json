@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-R201-recovery-v2-V8-implementation-check",
+  "source_sha256": "098f5a517aaf7857888f48f5e158c445414218e5e53a886aed661aa650feb375",
+  "runtime": "functions JavaScript V8, no OS child",
+  "actual_completed": true,
+  "exit_code": null,
+  "seconds": 0.636,
+  "input": {
+    "s": 0.37,
+    "u": 0.731,
+    "parameters": [
+      0.1,
+      0.06,
+      -0.04,
+      0.08,
+      0.09,
+      -0.055,
+      0.17
+    ],
+    "panels": 16,
+    "centered_difference_step": 0.000004
+  },
+  "measurements": {
+    "unit_error": 2.220446049250313e-16,
+    "half_period_twojet": 1.0547118733938987e-15,
+    "half_period_parameter_twojet": 1.1102230246251565e-14,
+    "constant_psi_gauge_column": 5.146930046951647e-15,
+    "constant_theta_column_max": 12.545804568916829,
+    "all_parameter_twojet_relative": 2.398049989177834e-10,
+    "all_parameter_twojet_absolute": 2.2204975185507825e-10,
+    "primitive_direction_relative": 5.394667170322051e-11,
+    "cut_twojet_difference": 0,
+    "reflection_violation": 0.13692438331068835
+  },
+  "continuous_certificate": false,
+  "old_unpublished_source_identity": false,
+  "passed": true
+}

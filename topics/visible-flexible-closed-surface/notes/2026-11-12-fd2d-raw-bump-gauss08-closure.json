@@ -1,0 +1,337 @@
+{
+  "schema": "fd2d-closed-natural-Gauss2-D2-chain-v1",
+  "actual_chain_exit": 0,
+  "actual_tool_receipt": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-gauss08-tool-exit.json",
+    "bytes": 434,
+    "sha256": "478550d1b40d94cdc101bae3e6c4766bb31c75a2ccc0f0c45b4e19ad4e2cf5f9"
+  },
+  "elapsed_chain_seconds": 421.3065867389996,
+  "accepted_steps": 16,
+  "latest_checkpoint": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-gauss08-b0008-accepted-0002.npz",
+    "bytes": 48713,
+    "sha256": "9ceb403f33b3f5a6c6baa757ecf83ec04cccb1f9060ae9b986f79336098b96f5"
+  },
+  "latest_full_field": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-gauss08-b0008-field.npz",
+    "bytes": 716467,
+    "sha256": "f7efb326e59431fe2fc42c0fe5f6d55072d63e89e984e4889869531d4938998e"
+  },
+  "finite_success": false,
+  "strong_target_completed": false,
+  "batches": [
+    {
+      "batch": 1,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 53.66687896500025,
+      "kernel_peak_RSS_KiB": 435776,
+      "raw_residual_maximum": 0.6258532646493133,
+      "full_Gauss_node_maximum": 1.7622112299324952,
+      "full_Gauss_interior_maximum": 1.6392281682262209,
+      "full_angular_average_Codazzi_maximum": 0.6657286246767291,
+      "formal_curvature_node_maximum": 7.557353669542632,
+      "gap": 0.8999996967963431,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0001-accepted-0002.npz",
+        "bytes": 48673,
+        "sha256": "04dc77226269f3d80e3dfa32cce65a4ee033efd9c6f785899fa5ab4ac271463e"
+      }
+    },
+    {
+      "batch": 2,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 64.28392610500032,
+      "kernel_peak_RSS_KiB": 447648,
+      "raw_residual_maximum": 0.625890084706477,
+      "full_Gauss_node_maximum": 1.7823934471387186,
+      "full_Gauss_interior_maximum": 1.6589554234628965,
+      "full_angular_average_Codazzi_maximum": 0.6513954985013948,
+      "formal_curvature_node_maximum": 7.366100686394638,
+      "gap": 0.8999997022684175,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0002-accepted-0002.npz",
+        "bytes": 48716,
+        "sha256": "7bef911c31d6f2814c35944fa582d307d60d016ac64bb689bf08ad184a2d2458"
+      }
+    },
+    {
+      "batch": 3,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 50.952260688000024,
+      "kernel_peak_RSS_KiB": 454980,
+      "raw_residual_maximum": 0.6253103021551281,
+      "full_Gauss_node_maximum": 1.787414738426138,
+      "full_Gauss_interior_maximum": 1.6635816588092385,
+      "full_angular_average_Codazzi_maximum": 0.64900739531488,
+      "formal_curvature_node_maximum": 7.272304148930672,
+      "gap": 0.8999998052130342,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0003-accepted-0002.npz",
+        "bytes": 48705,
+        "sha256": "ea25796b908b5ee735e7aac3ca4494319d1a3d649c72fe41b5d97c5017b02231"
+      }
+    },
+    {
+      "batch": 4,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 35.126905685000565,
+      "kernel_peak_RSS_KiB": 463908,
+      "raw_residual_maximum": 0.6247088499458502,
+      "full_Gauss_node_maximum": 1.7921478023035076,
+      "full_Gauss_interior_maximum": 1.66790460093592,
+      "full_angular_average_Codazzi_maximum": 0.6470317337577254,
+      "formal_curvature_node_maximum": 7.2320585251276,
+      "gap": 0.8999998557401292,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0004-accepted-0002.npz",
+        "bytes": 48688,
+        "sha256": "3b76ed92e073ba26a14fa10e7e4562dfe25235bbd94468581a64ada8fe09bec0"
+      }
+    },
+    {
+      "batch": 5,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 43.54917983300038,
+      "kernel_peak_RSS_KiB": 435996,
+      "raw_residual_maximum": 0.6242079956279932,
+      "full_Gauss_node_maximum": 1.7958192709514091,
+      "full_Gauss_interior_maximum": 1.6712218980311229,
+      "full_angular_average_Codazzi_maximum": 0.6455362037780259,
+      "formal_curvature_node_maximum": 7.2183589153512795,
+      "gap": 0.8999998959577667,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0005-accepted-0002.npz",
+        "bytes": 48710,
+        "sha256": "9dfd3ef07b153169c6f2efa651448f45e1c7f9333ef54bba43bb44f725690424"
+      }
+    },
+    {
+      "batch": 6,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 68.62380904499969,
+      "kernel_peak_RSS_KiB": 455020,
+      "raw_residual_maximum": 0.6235696165191695,
+      "full_Gauss_node_maximum": 1.8002822202967712,
+      "full_Gauss_interior_maximum": 1.675232266483075,
+      "full_angular_average_Codazzi_maximum": 0.6438478661607996,
+      "formal_curvature_node_maximum": 7.254943909233532,
+      "gap": 0.8999999079283882,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0006-accepted-0002.npz",
+        "bytes": 48723,
+        "sha256": "1840c6dd9f12ebacc20feed7a715a8b9cd736c7523ee80c20ffc86b3499c98b6"
+      }
+    },
+    {
+      "batch": 7,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 49.82459997099977,
+      "kernel_peak_RSS_KiB": 459360,
+      "raw_residual_maximum": 0.6224579973035701,
+      "full_Gauss_node_maximum": 1.807654408086667,
+      "full_Gauss_interior_maximum": 1.681809506523131,
+      "full_angular_average_Codazzi_maximum": 0.6412359959289522,
+      "formal_curvature_node_maximum": 7.206347467714961,
+      "gap": 0.8999998268754359,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0007-accepted-0002.npz",
+        "bytes": 48696,
+        "sha256": "102dc956662ea85fc7bc5447cffc4f0af65c564991ad2e5fbf27b59a568207a2"
+      }
+    },
+    {
+      "batch": 8,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "seconds": 51.61416811500021,
+      "kernel_peak_RSS_KiB": 436260,
+      "raw_residual_maximum": 0.6211429559319708,
+      "full_Gauss_node_maximum": 1.8158324923904356,
+      "full_Gauss_interior_maximum": 1.689020236138202,
+      "full_angular_average_Codazzi_maximum": 0.638614589245496,
+      "formal_curvature_node_maximum": 7.250394632052189,
+      "gap": 0.8999998416272207,
+      "final_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0008-accepted-0002.npz",
+        "bytes": 48713,
+        "sha256": "9ceb403f33b3f5a6c6baa757ecf83ec04cccb1f9060ae9b986f79336098b96f5"
+      }
+    }
+  ],
+  "final_residual_locations": {
+    "continuous_certificate": false,
+    "raw_codazzi_n": {
+      "maximum": 0.3838997633527961,
+      "signed_value": -0.3838997633527961,
+      "cell": 95,
+      "mode": 2,
+      "coefficient": 1,
+      "endpoints": [
+        1.0637122293135557,
+        1.101036958018343
+      ],
+      "cell_length": 0.03732472870478731
+    },
+    "raw_codazzi_m": {
+      "maximum": 0.21922382343261893,
+      "signed_value": -0.21922382343261893,
+      "cell": 63,
+      "mode": 2,
+      "coefficient": 0,
+      "endpoints": [
+        0.5919999999999992,
+        0.6313633493003443
+      ],
+      "cell_length": 0.03936334930034513
+    },
+    "full_gauss": {
+      "maximum": 1.8158324923904356,
+      "signed_value": -1.8158324923904356,
+      "angular_index": 177,
+      "node": 64,
+      "s": 0.6313633493003443,
+      "xi": 4.344233591292136,
+      "material_u": 3.6252917649101906,
+      "n_m_l": [
+        1.0410725983986724,
+        -0.5725407217969251,
+        -1.363117174686387
+      ],
+      "target_K": 0.06892567530207767
+    },
+    "formal_curvature": {
+      "maximum": 7.250394632052189,
+      "signed_value": 7.250394632052189,
+      "angular_index": 13,
+      "node": 116,
+      "s": 1.4689731783581288,
+      "xi": 0.3190680038802134,
+      "material_u": 0.3190680038802134,
+      "n_m_l": [
+        -0.08177822207141797,
+        -0.3290003582831526,
+        -7.235295311686862
+      ],
+      "target_K": 0.629296914373976,
+      "cap": 7.2,
+      "active_points": 168,
+      "active_s_range": [
+        1.0609143548287172,
+        1.4857231783581288
+      ]
+    },
+    "full_angular_codazzi": {
+      "n": {
+        "maximum": 0.6386145892454926,
+        "signed_value": -0.6386145892454926,
+        "angular_index": 252,
+        "xi": 6.1850105367549055,
+        "cell": 95,
+        "endpoints": [
+          1.0637122293135557,
+          1.101036958018343
+        ],
+        "cell_length": 0.03732472870478731,
+        "material_u_endpoints": [
+          6.210359876647202,
+          6.204541569232236
+        ]
+      },
+      "m": {
+        "maximum": 0.44831112535413453,
+        "signed_value": 0.44831112535413453,
+        "angular_index": 209,
+        "xi": 5.129631754689584,
+        "cell": 63,
+        "endpoints": [
+          0.5919999999999992,
+          0.6313633493003443
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          5.903840206605597,
+          5.90213325376601
+        ]
+      }
+    },
+    "omitted_angular_codazzi": {
+      "n": {
+        "maximum": 0.17964087558203623,
+        "signed_value": -0.17964087558203623,
+        "angular_index": 207,
+        "xi": 5.080544369477244,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          5.680912051227081,
+          5.630727762948061
+        ]
+      },
+      "m": {
+        "maximum": 0.11593737284678729,
+        "signed_value": 0.11593737284678729,
+        "angular_index": 179,
+        "xi": 4.3933209765044765,
+        "cell": 68,
+        "endpoints": [
+          0.7494533972013798,
+          0.7888167465017251
+        ],
+        "cell_length": 0.03936334930034524,
+        "material_u_endpoints": [
+          3.7896335779301107,
+          3.8188773038256563
+        ]
+      }
+    }
+  },
+  "last_parameters": {
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      0.8736374812541333,
+      0.0,
+      0.5896440472920899,
+      0.7327453415817836,
+      0.0,
+      0.2191544857351121,
+      0.6188339434131694,
+      4.191036165591205e-18,
+      0.022949109887185362,
+      0.43678732331375864,
+      0.1274375397429338,
+      0.0,
+      0.37888324369549925,
+      1.2
+    ],
+    "profile_deltas": [
+      -0.0023671744455213903,
+      -0.011840983306443318,
+      -0.016325633049062118,
+      -0.024508186553440652,
+      0.005244299475301122,
+      0.02460733841863325,
+      0.01269842313072356
+    ],
+    "A": 1.3769482100450159,
+    "B": 0.47694836841779514,
+    "gap": 0.8999998416272207
+  },
+  "implementation_scope": "Same targeted122/Gauss2 retained finite equations and D2 angular objective as 06/07; exact-cylinder Schur with 16-cell same-formula assembly and orthogonal high-angular row coordinates. Profile deltas remain actual outer-design variables, so this run is not final same-g refinement.",
+  "resource_scope": "All eight children and parent observed exit0. Other agents released heavy matrices. This observation does not establish the cause of earlier SIGKILL exits.",
+  "diagnostic_scope": "Full residual maxima and matrices aggregate every cell. Nested D2 parity/reconstruction diagnostics copied from chunk info describe the first 16-cell block only; no whole-domain floating-point symmetry certificate is claimed.",
+  "continuation": "The next targeted branch will use the separately declared R139 coast reference lifting. Its unchanged base-g reference is an initialization function under the current nonzero deltas, with all new physical residuals paid explicitly.",
+  "excluded_intermediate_states": "All 16 accepted entities remain local. Publication keeps complete progress, actual receipts, initial identity, and only the latest required accepted entity and full field; intermediate-state hashes are retained in the immutable reports."
+}

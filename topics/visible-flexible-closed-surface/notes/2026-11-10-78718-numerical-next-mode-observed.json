@@ -1,0 +1,64 @@
+{
+  "schema": "78718-next-mode-small-computations",
+  "observer": "/root/numerical_recovery",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "fixed_state_diagnostic": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flexible-closed-surface/scripts/78718-prefix-next-mode-diagnostic.py",
+      "--checkpoint",
+      "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "--modes",
+      "15",
+      "16",
+      "18",
+      "22",
+      "--out",
+      "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-warm-next-mode-diagnostic.json"
+    ],
+    "initial": {
+      "chunk_id": "98390d",
+      "wall_time_seconds": 1.001125854,
+      "session_id": 25071,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "final": {
+      "chunk_id": "7104da",
+      "wall_time_seconds": 0.000016184,
+      "exit_code": 0,
+      "original_token_count": 517,
+      "output": "{\"BVP_calls\": 0, \"DN_calls\": 0, \"output\": {\"bytes\": 154323, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-warm-next-mode-diagnostic.json\", \"sha256\": \"5f0b54e3245a1d4a0bf4415c954545fc6ee6acb033791fcefbe651bf54de4746\"}, \"projections\": [{\"M\": 15, \"fixed_G_FFT_l1\": 1.1540536363096874e-06, \"source_E_FFT_l1\": 1.4291551421723765e-10, \"source_F_FFT_l1\": 5.177249617884417e-11}, {\"M\": 16, \"fixed_G_FFT_l1\": 1.1540536363096874e-06, \"source_E_FFT_l1\": 1.6612556616771807e-10, \"source_F_FFT_l1\": 3.584944233895949e-11}, {\"M\": 18, \"fixed_G_FFT_l1\": 1.1540536363096874e-06, \"source_E_FFT_l1\": 5.778833772625353e-11, \"source_F_FFT_l1\": 8.546455577462932e-12}, {\"M\": 22, \"fixed_G_FFT_l1\": 1.1540536363096874e-06, \"source_E_FFT_l1\": 2.8712960528518653e-12, \"source_F_FFT_l1\": 3.076618370268684e-13}], \"radial_points\": 42, \"resource_estimates\": [{\"M\": 15, \"canonical_CSC_bytes_by_nodes\": {\"2633\": 156019308, \"6599\": 390996876, \"8000\": 474003324}, \"default_angular\": 512, \"n2N_relative_to_M16\": 0.8812994585589338, \"parameters\": 15, \"scope\": \"Final explicit CSC storage only; no LU/Jacobian/worker peak guarantee.\", \"states\": 46}, {\"M\": 16, \"canonical_CSC_bytes_by_nodes\": {\"2633\": 177033280, \"6599\": 443659528, \"8000\": 537845956}, \"default_angular\": 512, \"n2N_relative_to_M16\": 1.0, \"parameters\": 16, \"scope\": \"Final explicit CSC storage only; no LU/Jacobian/worker peak guarantee.\", \"states\": 49}, {\"M\": 18, \"canonical_CSC_bytes_by_nodes\": {\"2633\": 223042824, \"6599\": 558963024, \"8000\": 677627724}, \"default_angular\": 512, \"n2N_relative_to_M16\": 1.2598917117867554, \"parameters\": 18, \"scope\": \"Final explicit CSC storage only; no LU/Jacobian/worker peak guarantee.\", \"states\": 55}, {\"M\": 22, \"canonical_CSC_bytes_by_nodes\": {\"2633\": 330988312, \"6599\": 829482784, \"8000\": 1005577276}, \"default_angular\": 1024, \"n2N_relative_to_M16\": 3.739275301957518, \"parameters\": 22, \"scope\": \"Final explicit CSC storage only; no LU/Jacobian/worker peak guarantee.\", \"states\": 67}], \"seconds\": 2.226525883997965}\n"
+    }
+  },
+  "m22_initial_preparation": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flexible-closed-surface/scripts/78718-run-prefix-mode.py",
+      "--modes",
+      "22",
+      "--restart",
+      "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "--tail-seed",
+      "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+      "--out-prefix",
+      "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-m22-initial-prepare-01",
+      "--prepare-only"
+    ],
+    "initial": {
+      "chunk_id": "87b9cd",
+      "wall_time_seconds": 0.602031472,
+      "exit_code": 0,
+      "original_token_count": 117,
+      "output": "{\"status\": \"PREPARED_WITHOUT_SOLVER\", \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-m22-initial-prepare-01-mode-run.json\", \"bytes\": 8745, \"sha256\": \"9a566ee367312863a22a684b34f42cc3a80a44be62d407e80fa3717fe8dfcfa0\"}, \"modes\": 22, \"angular\": 1024, \"initial_nodes\": 2633, \"height_difference_from_padded_tail_seed_max\": 0.0, \"maximum_weight\": 8192.0, \"solver_calls\": 0}\n"
+    },
+    "final": {
+      "chunk_id": "87b9cd",
+      "wall_time_seconds": 0.602031472,
+      "exit_code": 0,
+      "original_token_count": 117,
+      "output": "{\"status\": \"PREPARED_WITHOUT_SOLVER\", \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-m22-initial-prepare-01-mode-run.json\", \"bytes\": 8745, \"sha256\": \"9a566ee367312863a22a684b34f42cc3a80a44be62d407e80fa3717fe8dfcfa0\"}, \"modes\": 22, \"angular\": 1024, \"initial_nodes\": 2633, \"height_difference_from_padded_tail_seed_max\": 0.0, \"maximum_weight\": 8192.0, \"solver_calls\": 0}\n"
+    }
+  },
+  "scope": "Both are actual small computations with zero DN/BVP. Neither a new converged M22 prefix nor an M22 tail is claimed."
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "fd2d-actual-curvature-Taylor-v4-evaluation-exit1",
+  "session": 3848,
+  "final_chunk": "59435c",
+  "exit_code": 1,
+  "completed_certificate": false,
+  "reason": "Curvature/immersion boxes began passing. A diagnostic Gaussian-curvature interval used a dependent interval product in its positive denominator; its enclosure crossed zero and became nonfinite. Serialization correctly rejected the nonfinite diagnostic. Replace this optional diagnostic by [-abs(fnum)^2/area_lower^2,0].",
+  "source_snapshot": "scripts/fd2d_k0_ruling_actual_curvature_taylor_v4.py",
+  "source_sha256": "00aad1027d6464690e81a3316b4212a4ac9b904d3b7e0f928c3c14452df5924c",
+  "helper_snapshot": "scripts/fd2d_k0_ruling_actual_curvature_certificate_v4.py",
+  "helper_sha256": "0b7c5c962184c96e89944cee70f4c164932c6a57d9cf88b07470e0a7767e653a",
+  "last_visible_progress": {
+    "initial_blocks": 32,
+    "accepted_angles": 34,
+    "unresolved": 0
+  },
+  "mathematical_failure_claimed": false
+}

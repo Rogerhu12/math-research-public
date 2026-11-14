@@ -1,0 +1,5489 @@
+{
+  "status": "finite-C2-increment-integrated-explicit-tail-with-sampled-audit",
+  "scope": "Exact C2 integrated-quartic derivative perturbation plus one fixed analytic rotational background; shared binary nodes, endpoint derivative jets, physical-midpoint first derivatives and C3 coefficients. Sampling is not a continuous metric/curvature certificate. Planar rr source uses finite differences; ODE and far nonlinear graph errors remain unpaid. Source-critical grid layers use finite-difference width proposals only to choose interpolation nodes. They do not certify the source ODE, and source CP/native flow steps remain separately recorded. Sampled target jets are evaluated at the source profile radius; maxSourceRadiusDisplayDifference records the numerical shift to the exact-sum representation. No continuous certification is inferred from these samples. Each stage endpoint shooting defect is distributed through one physical-r cubic Hermite correction to Fr; its exact derivative corrects Frr. This is part of the finite map definition, not an exact ODE correction.",
+  "input": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+  "inputSHA256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2",
+  "sourceSHA256": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-increment-export.mjs": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8"
+  },
+  "parameters": {
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "delta0": 0.006,
+    "R": 64,
+    "a": 2.75,
+    "etaPower": 1.5,
+    "etaRatioAtN0": 0.05,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 160,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "quadratureTolerance": 2e-10,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "capMode": "cut-preserving",
+    "cuspAwareQuadrature": true,
+    "valleyControls": [
+      3.125,
+      2.8125,
+      4.0625,
+      5,
+      5.25,
+      4.0625,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rejoinR20At": null,
+    "rejoinIndexOffset": 4,
+    "pulseCaps": [
+      [
+        0.4,
+        0.02
+      ]
+    ],
+    "valleyCaps": [
+      0.1
+    ],
+    "maxCachedBetas": 1,
+    "warpWeightLevels": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ],
+    "modes": 12,
+    "spacing": 3,
+    "depth": 432,
+    "steps": 64,
+    "quadrature": 512,
+    "linearFar": 32,
+    "linearSteps": 256,
+    "linearMethod": "stable-momentum-cusp-subdivision",
+    "fastJacobian": true,
+    "cuspAwareFlow": true,
+    "actualCuspGrid": true,
+    "solveTolerance": 2e-9,
+    "auditSteps": 64,
+    "maxIterations": 36,
+    "traceFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-tail-trace.jsonl",
+    "initialCheckpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+    "harmonicAmplitudePredictor": true,
+    "shootingParts": 4,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "epsilonScale": 0.17696901915065752,
+    "prefixRByCell": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3.0844216508158815,
+      4.756828460010883,
+      7.33603234563737,
+      11.31370849898476,
+      17.448123722644116,
+      26.908685288118864,
+      41.4988657488323,
+      63.99999999999998
+    ],
+    "constructor": "closing_weighted_tail_v1",
+    "physicalDepth": 12,
+    "projectionFloor": 0.05,
+    "farPadding": 20,
+    "nodeIndex": 0,
+    "rhsEvaluation": "split-linear-flux-v1"
+  },
+  "physicalStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "settings": {
+    "depth": 8,
+    "steps": 64,
+    "angularNodes": 512,
+    "degree": 192,
+    "radialDifferenceStep": 0.00005,
+    "grid": "critical",
+    "auditAngularNodes": 128,
+    "auditFractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "stageHermiteCorrection": true,
+    "criticalRatio": 0.1,
+    "criticalBaseSteps": 64,
+    "criticalCells": [
+      0
+    ],
+    "maximumFlowStep": 0.015625
+  },
+  "format": {
+    "dtype": "little-endian float64",
+    "stride": 567,
+    "columns": [
+      "r",
+      "rotational-height-above-cuff-approx",
+      "derived-value-approx:planar-exp-i-191theta",
+      "derived-value-approx:planar-exp-i-188theta",
+      "derived-value-approx:planar-exp-i-185theta",
+      "derived-value-approx:planar-exp-i-182theta",
+      "derived-value-approx:planar-exp-i-179theta",
+      "derived-value-approx:planar-exp-i-176theta",
+      "derived-value-approx:planar-exp-i-173theta",
+      "derived-value-approx:planar-exp-i-170theta",
+      "derived-value-approx:planar-exp-i-167theta",
+      "derived-value-approx:planar-exp-i-164theta",
+      "derived-value-approx:planar-exp-i-161theta",
+      "derived-value-approx:planar-exp-i-158theta",
+      "derived-value-approx:planar-exp-i-155theta",
+      "derived-value-approx:planar-exp-i-152theta",
+      "derived-value-approx:planar-exp-i-149theta",
+      "derived-value-approx:planar-exp-i-146theta",
+      "derived-value-approx:planar-exp-i-143theta",
+      "derived-value-approx:planar-exp-i-140theta",
+      "derived-value-approx:planar-exp-i-137theta",
+      "derived-value-approx:planar-exp-i-134theta",
+      "derived-value-approx:planar-exp-i-131theta",
+      "derived-value-approx:planar-exp-i-128theta",
+      "derived-value-approx:planar-exp-i-125theta",
+      "derived-value-approx:planar-exp-i-122theta",
+      "derived-value-approx:planar-exp-i-119theta",
+      "derived-value-approx:planar-exp-i-116theta",
+      "derived-value-approx:planar-exp-i-113theta",
+      "derived-value-approx:planar-exp-i-110theta",
+      "derived-value-approx:planar-exp-i-107theta",
+      "derived-value-approx:planar-exp-i-104theta",
+      "derived-value-approx:planar-exp-i-101theta",
+      "derived-value-approx:planar-exp-i-98theta",
+      "derived-value-approx:planar-exp-i-95theta",
+      "derived-value-approx:planar-exp-i-92theta",
+      "derived-value-approx:planar-exp-i-89theta",
+      "derived-value-approx:planar-exp-i-86theta",
+      "derived-value-approx:planar-exp-i-83theta",
+      "derived-value-approx:planar-exp-i-80theta",
+      "derived-value-approx:planar-exp-i-77theta",
+      "derived-value-approx:planar-exp-i-74theta",
+      "derived-value-approx:planar-exp-i-71theta",
+      "derived-value-approx:planar-exp-i-68theta",
+      "derived-value-approx:planar-exp-i-65theta",
+      "derived-value-approx:planar-exp-i-62theta",
+      "derived-value-approx:planar-exp-i-59theta",
+      "derived-value-approx:planar-exp-i-56theta",
+      "derived-value-approx:planar-exp-i-53theta",
+      "derived-value-approx:planar-exp-i-50theta",
+      "derived-value-approx:planar-exp-i-47theta",
+      "derived-value-approx:planar-exp-i-44theta",
+      "derived-value-approx:planar-exp-i-41theta",
+      "derived-value-approx:planar-exp-i-38theta",
+      "derived-value-approx:planar-exp-i-35theta",
+      "derived-value-approx:planar-exp-i-32theta",
+      "derived-value-approx:planar-exp-i-29theta",
+      "derived-value-approx:planar-exp-i-26theta",
+      "derived-value-approx:planar-exp-i-23theta",
+      "derived-value-approx:planar-exp-i-20theta",
+      "derived-value-approx:planar-exp-i-17theta",
+      "derived-value-approx:planar-exp-i-14theta",
+      "derived-value-approx:planar-exp-i-11theta",
+      "derived-value-approx:planar-exp-i-8theta",
+      "derived-value-approx:planar-exp-i-5theta",
+      "derived-value-approx:planar-exp-i-2theta",
+      "derived-value-approx:planar-exp-i1theta",
+      "derived-value-approx:planar-exp-i4theta",
+      "derived-value-approx:planar-exp-i7theta",
+      "derived-value-approx:planar-exp-i10theta",
+      "derived-value-approx:planar-exp-i13theta",
+      "derived-value-approx:planar-exp-i16theta",
+      "derived-value-approx:planar-exp-i19theta",
+      "derived-value-approx:planar-exp-i22theta",
+      "derived-value-approx:planar-exp-i25theta",
+      "derived-value-approx:planar-exp-i28theta",
+      "derived-value-approx:planar-exp-i31theta",
+      "derived-value-approx:planar-exp-i34theta",
+      "derived-value-approx:planar-exp-i37theta",
+      "derived-value-approx:planar-exp-i40theta",
+      "derived-value-approx:planar-exp-i43theta",
+      "derived-value-approx:planar-exp-i46theta",
+      "derived-value-approx:planar-exp-i49theta",
+      "derived-value-approx:planar-exp-i52theta",
+      "derived-value-approx:planar-exp-i55theta",
+      "derived-value-approx:planar-exp-i58theta",
+      "derived-value-approx:planar-exp-i61theta",
+      "derived-value-approx:planar-exp-i64theta",
+      "derived-value-approx:planar-exp-i67theta",
+      "derived-value-approx:planar-exp-i70theta",
+      "derived-value-approx:planar-exp-i73theta",
+      "derived-value-approx:planar-exp-i76theta",
+      "derived-value-approx:planar-exp-i79theta",
+      "derived-value-approx:planar-exp-i82theta",
+      "derived-value-approx:planar-exp-i85theta",
+      "derived-value-approx:planar-exp-i88theta",
+      "derived-value-approx:planar-exp-i91theta",
+      "derived-value-approx:planar-exp-i94theta",
+      "derived-value-approx:planar-exp-i97theta",
+      "derived-value-approx:planar-exp-i100theta",
+      "derived-value-approx:planar-exp-i103theta",
+      "derived-value-approx:planar-exp-i106theta",
+      "derived-value-approx:planar-exp-i109theta",
+      "derived-value-approx:planar-exp-i112theta",
+      "derived-value-approx:planar-exp-i115theta",
+      "derived-value-approx:planar-exp-i118theta",
+      "derived-value-approx:planar-exp-i121theta",
+      "derived-value-approx:planar-exp-i124theta",
+      "derived-value-approx:planar-exp-i127theta",
+      "derived-value-approx:planar-exp-i130theta",
+      "derived-value-approx:planar-exp-i133theta",
+      "derived-value-approx:planar-exp-i136theta",
+      "derived-value-approx:planar-exp-i139theta",
+      "derived-value-approx:planar-exp-i142theta",
+      "derived-value-approx:planar-exp-i145theta",
+      "derived-value-approx:planar-exp-i148theta",
+      "derived-value-approx:planar-exp-i151theta",
+      "derived-value-approx:planar-exp-i154theta",
+      "derived-value-approx:planar-exp-i157theta",
+      "derived-value-approx:planar-exp-i160theta",
+      "derived-value-approx:planar-exp-i163theta",
+      "derived-value-approx:planar-exp-i166theta",
+      "derived-value-approx:planar-exp-i169theta",
+      "derived-value-approx:planar-exp-i172theta",
+      "derived-value-approx:planar-exp-i175theta",
+      "derived-value-approx:planar-exp-i178theta",
+      "derived-value-approx:planar-exp-i181theta",
+      "derived-value-approx:planar-exp-i184theta",
+      "derived-value-approx:planar-exp-i187theta",
+      "derived-value-approx:planar-exp-i190theta",
+      "derived-value-approx:height-cos-0theta",
+      "derived-value-approx:height-cos-3theta",
+      "derived-value-approx:height-cos-6theta",
+      "derived-value-approx:height-cos-9theta",
+      "derived-value-approx:height-cos-12theta",
+      "derived-value-approx:height-cos-15theta",
+      "derived-value-approx:height-cos-18theta",
+      "derived-value-approx:height-cos-21theta",
+      "derived-value-approx:height-cos-24theta",
+      "derived-value-approx:height-cos-27theta",
+      "derived-value-approx:height-cos-30theta",
+      "derived-value-approx:height-cos-33theta",
+      "derived-value-approx:height-cos-36theta",
+      "r-derivative:planar-exp-i-191theta",
+      "r-derivative:planar-exp-i-188theta",
+      "r-derivative:planar-exp-i-185theta",
+      "r-derivative:planar-exp-i-182theta",
+      "r-derivative:planar-exp-i-179theta",
+      "r-derivative:planar-exp-i-176theta",
+      "r-derivative:planar-exp-i-173theta",
+      "r-derivative:planar-exp-i-170theta",
+      "r-derivative:planar-exp-i-167theta",
+      "r-derivative:planar-exp-i-164theta",
+      "r-derivative:planar-exp-i-161theta",
+      "r-derivative:planar-exp-i-158theta",
+      "r-derivative:planar-exp-i-155theta",
+      "r-derivative:planar-exp-i-152theta",
+      "r-derivative:planar-exp-i-149theta",
+      "r-derivative:planar-exp-i-146theta",
+      "r-derivative:planar-exp-i-143theta",
+      "r-derivative:planar-exp-i-140theta",
+      "r-derivative:planar-exp-i-137theta",
+      "r-derivative:planar-exp-i-134theta",
+      "r-derivative:planar-exp-i-131theta",
+      "r-derivative:planar-exp-i-128theta",
+      "r-derivative:planar-exp-i-125theta",
+      "r-derivative:planar-exp-i-122theta",
+      "r-derivative:planar-exp-i-119theta",
+      "r-derivative:planar-exp-i-116theta",
+      "r-derivative:planar-exp-i-113theta",
+      "r-derivative:planar-exp-i-110theta",
+      "r-derivative:planar-exp-i-107theta",
+      "r-derivative:planar-exp-i-104theta",
+      "r-derivative:planar-exp-i-101theta",
+      "r-derivative:planar-exp-i-98theta",
+      "r-derivative:planar-exp-i-95theta",
+      "r-derivative:planar-exp-i-92theta",
+      "r-derivative:planar-exp-i-89theta",
+      "r-derivative:planar-exp-i-86theta",
+      "r-derivative:planar-exp-i-83theta",
+      "r-derivative:planar-exp-i-80theta",
+      "r-derivative:planar-exp-i-77theta",
+      "r-derivative:planar-exp-i-74theta",
+      "r-derivative:planar-exp-i-71theta",
+      "r-derivative:planar-exp-i-68theta",
+      "r-derivative:planar-exp-i-65theta",
+      "r-derivative:planar-exp-i-62theta",
+      "r-derivative:planar-exp-i-59theta",
+      "r-derivative:planar-exp-i-56theta",
+      "r-derivative:planar-exp-i-53theta",
+      "r-derivative:planar-exp-i-50theta",
+      "r-derivative:planar-exp-i-47theta",
+      "r-derivative:planar-exp-i-44theta",
+      "r-derivative:planar-exp-i-41theta",
+      "r-derivative:planar-exp-i-38theta",
+      "r-derivative:planar-exp-i-35theta",
+      "r-derivative:planar-exp-i-32theta",
+      "r-derivative:planar-exp-i-29theta",
+      "r-derivative:planar-exp-i-26theta",
+      "r-derivative:planar-exp-i-23theta",
+      "r-derivative:planar-exp-i-20theta",
+      "r-derivative:planar-exp-i-17theta",
+      "r-derivative:planar-exp-i-14theta",
+      "r-derivative:planar-exp-i-11theta",
+      "r-derivative:planar-exp-i-8theta",
+      "r-derivative:planar-exp-i-5theta",
+      "r-derivative:planar-exp-i-2theta",
+      "r-derivative:planar-exp-i1theta",
+      "r-derivative:planar-exp-i4theta",
+      "r-derivative:planar-exp-i7theta",
+      "r-derivative:planar-exp-i10theta",
+      "r-derivative:planar-exp-i13theta",
+      "r-derivative:planar-exp-i16theta",
+      "r-derivative:planar-exp-i19theta",
+      "r-derivative:planar-exp-i22theta",
+      "r-derivative:planar-exp-i25theta",
+      "r-derivative:planar-exp-i28theta",
+      "r-derivative:planar-exp-i31theta",
+      "r-derivative:planar-exp-i34theta",
+      "r-derivative:planar-exp-i37theta",
+      "r-derivative:planar-exp-i40theta",
+      "r-derivative:planar-exp-i43theta",
+      "r-derivative:planar-exp-i46theta",
+      "r-derivative:planar-exp-i49theta",
+      "r-derivative:planar-exp-i52theta",
+      "r-derivative:planar-exp-i55theta",
+      "r-derivative:planar-exp-i58theta",
+      "r-derivative:planar-exp-i61theta",
+      "r-derivative:planar-exp-i64theta",
+      "r-derivative:planar-exp-i67theta",
+      "r-derivative:planar-exp-i70theta",
+      "r-derivative:planar-exp-i73theta",
+      "r-derivative:planar-exp-i76theta",
+      "r-derivative:planar-exp-i79theta",
+      "r-derivative:planar-exp-i82theta",
+      "r-derivative:planar-exp-i85theta",
+      "r-derivative:planar-exp-i88theta",
+      "r-derivative:planar-exp-i91theta",
+      "r-derivative:planar-exp-i94theta",
+      "r-derivative:planar-exp-i97theta",
+      "r-derivative:planar-exp-i100theta",
+      "r-derivative:planar-exp-i103theta",
+      "r-derivative:planar-exp-i106theta",
+      "r-derivative:planar-exp-i109theta",
+      "r-derivative:planar-exp-i112theta",
+      "r-derivative:planar-exp-i115theta",
+      "r-derivative:planar-exp-i118theta",
+      "r-derivative:planar-exp-i121theta",
+      "r-derivative:planar-exp-i124theta",
+      "r-derivative:planar-exp-i127theta",
+      "r-derivative:planar-exp-i130theta",
+      "r-derivative:planar-exp-i133theta",
+      "r-derivative:planar-exp-i136theta",
+      "r-derivative:planar-exp-i139theta",
+      "r-derivative:planar-exp-i142theta",
+      "r-derivative:planar-exp-i145theta",
+      "r-derivative:planar-exp-i148theta",
+      "r-derivative:planar-exp-i151theta",
+      "r-derivative:planar-exp-i154theta",
+      "r-derivative:planar-exp-i157theta",
+      "r-derivative:planar-exp-i160theta",
+      "r-derivative:planar-exp-i163theta",
+      "r-derivative:planar-exp-i166theta",
+      "r-derivative:planar-exp-i169theta",
+      "r-derivative:planar-exp-i172theta",
+      "r-derivative:planar-exp-i175theta",
+      "r-derivative:planar-exp-i178theta",
+      "r-derivative:planar-exp-i181theta",
+      "r-derivative:planar-exp-i184theta",
+      "r-derivative:planar-exp-i187theta",
+      "r-derivative:planar-exp-i190theta",
+      "r-derivative:height-cos-0theta",
+      "r-derivative:height-cos-3theta",
+      "r-derivative:height-cos-6theta",
+      "r-derivative:height-cos-9theta",
+      "r-derivative:height-cos-12theta",
+      "r-derivative:height-cos-15theta",
+      "r-derivative:height-cos-18theta",
+      "r-derivative:height-cos-21theta",
+      "r-derivative:height-cos-24theta",
+      "r-derivative:height-cos-27theta",
+      "r-derivative:height-cos-30theta",
+      "r-derivative:height-cos-33theta",
+      "r-derivative:height-cos-36theta",
+      "rr-derivative:planar-exp-i-191theta",
+      "rr-derivative:planar-exp-i-188theta",
+      "rr-derivative:planar-exp-i-185theta",
+      "rr-derivative:planar-exp-i-182theta",
+      "rr-derivative:planar-exp-i-179theta",
+      "rr-derivative:planar-exp-i-176theta",
+      "rr-derivative:planar-exp-i-173theta",
+      "rr-derivative:planar-exp-i-170theta",
+      "rr-derivative:planar-exp-i-167theta",
+      "rr-derivative:planar-exp-i-164theta",
+      "rr-derivative:planar-exp-i-161theta",
+      "rr-derivative:planar-exp-i-158theta",
+      "rr-derivative:planar-exp-i-155theta",
+      "rr-derivative:planar-exp-i-152theta",
+      "rr-derivative:planar-exp-i-149theta",
+      "rr-derivative:planar-exp-i-146theta",
+      "rr-derivative:planar-exp-i-143theta",
+      "rr-derivative:planar-exp-i-140theta",
+      "rr-derivative:planar-exp-i-137theta",
+      "rr-derivative:planar-exp-i-134theta",
+      "rr-derivative:planar-exp-i-131theta",
+      "rr-derivative:planar-exp-i-128theta",
+      "rr-derivative:planar-exp-i-125theta",
+      "rr-derivative:planar-exp-i-122theta",
+      "rr-derivative:planar-exp-i-119theta",
+      "rr-derivative:planar-exp-i-116theta",
+      "rr-derivative:planar-exp-i-113theta",
+      "rr-derivative:planar-exp-i-110theta",
+      "rr-derivative:planar-exp-i-107theta",
+      "rr-derivative:planar-exp-i-104theta",
+      "rr-derivative:planar-exp-i-101theta",
+      "rr-derivative:planar-exp-i-98theta",
+      "rr-derivative:planar-exp-i-95theta",
+      "rr-derivative:planar-exp-i-92theta",
+      "rr-derivative:planar-exp-i-89theta",
+      "rr-derivative:planar-exp-i-86theta",
+      "rr-derivative:planar-exp-i-83theta",
+      "rr-derivative:planar-exp-i-80theta",
+      "rr-derivative:planar-exp-i-77theta",
+      "rr-derivative:planar-exp-i-74theta",
+      "rr-derivative:planar-exp-i-71theta",
+      "rr-derivative:planar-exp-i-68theta",
+      "rr-derivative:planar-exp-i-65theta",
+      "rr-derivative:planar-exp-i-62theta",
+      "rr-derivative:planar-exp-i-59theta",
+      "rr-derivative:planar-exp-i-56theta",
+      "rr-derivative:planar-exp-i-53theta",
+      "rr-derivative:planar-exp-i-50theta",
+      "rr-derivative:planar-exp-i-47theta",
+      "rr-derivative:planar-exp-i-44theta",
+      "rr-derivative:planar-exp-i-41theta",
+      "rr-derivative:planar-exp-i-38theta",
+      "rr-derivative:planar-exp-i-35theta",
+      "rr-derivative:planar-exp-i-32theta",
+      "rr-derivative:planar-exp-i-29theta",
+      "rr-derivative:planar-exp-i-26theta",
+      "rr-derivative:planar-exp-i-23theta",
+      "rr-derivative:planar-exp-i-20theta",
+      "rr-derivative:planar-exp-i-17theta",
+      "rr-derivative:planar-exp-i-14theta",
+      "rr-derivative:planar-exp-i-11theta",
+      "rr-derivative:planar-exp-i-8theta",
+      "rr-derivative:planar-exp-i-5theta",
+      "rr-derivative:planar-exp-i-2theta",
+      "rr-derivative:planar-exp-i1theta",
+      "rr-derivative:planar-exp-i4theta",
+      "rr-derivative:planar-exp-i7theta",
+      "rr-derivative:planar-exp-i10theta",
+      "rr-derivative:planar-exp-i13theta",
+      "rr-derivative:planar-exp-i16theta",
+      "rr-derivative:planar-exp-i19theta",
+      "rr-derivative:planar-exp-i22theta",
+      "rr-derivative:planar-exp-i25theta",
+      "rr-derivative:planar-exp-i28theta",
+      "rr-derivative:planar-exp-i31theta",
+      "rr-derivative:planar-exp-i34theta",
+      "rr-derivative:planar-exp-i37theta",
+      "rr-derivative:planar-exp-i40theta",
+      "rr-derivative:planar-exp-i43theta",
+      "rr-derivative:planar-exp-i46theta",
+      "rr-derivative:planar-exp-i49theta",
+      "rr-derivative:planar-exp-i52theta",
+      "rr-derivative:planar-exp-i55theta",
+      "rr-derivative:planar-exp-i58theta",
+      "rr-derivative:planar-exp-i61theta",
+      "rr-derivative:planar-exp-i64theta",
+      "rr-derivative:planar-exp-i67theta",
+      "rr-derivative:planar-exp-i70theta",
+      "rr-derivative:planar-exp-i73theta",
+      "rr-derivative:planar-exp-i76theta",
+      "rr-derivative:planar-exp-i79theta",
+      "rr-derivative:planar-exp-i82theta",
+      "rr-derivative:planar-exp-i85theta",
+      "rr-derivative:planar-exp-i88theta",
+      "rr-derivative:planar-exp-i91theta",
+      "rr-derivative:planar-exp-i94theta",
+      "rr-derivative:planar-exp-i97theta",
+      "rr-derivative:planar-exp-i100theta",
+      "rr-derivative:planar-exp-i103theta",
+      "rr-derivative:planar-exp-i106theta",
+      "rr-derivative:planar-exp-i109theta",
+      "rr-derivative:planar-exp-i112theta",
+      "rr-derivative:planar-exp-i115theta",
+      "rr-derivative:planar-exp-i118theta",
+      "rr-derivative:planar-exp-i121theta",
+      "rr-derivative:planar-exp-i124theta",
+      "rr-derivative:planar-exp-i127theta",
+      "rr-derivative:planar-exp-i130theta",
+      "rr-derivative:planar-exp-i133theta",
+      "rr-derivative:planar-exp-i136theta",
+      "rr-derivative:planar-exp-i139theta",
+      "rr-derivative:planar-exp-i142theta",
+      "rr-derivative:planar-exp-i145theta",
+      "rr-derivative:planar-exp-i148theta",
+      "rr-derivative:planar-exp-i151theta",
+      "rr-derivative:planar-exp-i154theta",
+      "rr-derivative:planar-exp-i157theta",
+      "rr-derivative:planar-exp-i160theta",
+      "rr-derivative:planar-exp-i163theta",
+      "rr-derivative:planar-exp-i166theta",
+      "rr-derivative:planar-exp-i169theta",
+      "rr-derivative:planar-exp-i172theta",
+      "rr-derivative:planar-exp-i175theta",
+      "rr-derivative:planar-exp-i178theta",
+      "rr-derivative:planar-exp-i181theta",
+      "rr-derivative:planar-exp-i184theta",
+      "rr-derivative:planar-exp-i187theta",
+      "rr-derivative:planar-exp-i190theta",
+      "rr-derivative:height-cos-0theta",
+      "rr-derivative:height-cos-3theta",
+      "rr-derivative:height-cos-6theta",
+      "rr-derivative:height-cos-9theta",
+      "rr-derivative:height-cos-12theta",
+      "rr-derivative:height-cos-15theta",
+      "rr-derivative:height-cos-18theta",
+      "rr-derivative:height-cos-21theta",
+      "rr-derivative:height-cos-24theta",
+      "rr-derivative:height-cos-27theta",
+      "rr-derivative:height-cos-30theta",
+      "rr-derivative:height-cos-33theta",
+      "rr-derivative:height-cos-36theta",
+      "previous-span-mid-r-derivative:planar-exp-i-191theta",
+      "previous-span-mid-r-derivative:planar-exp-i-188theta",
+      "previous-span-mid-r-derivative:planar-exp-i-185theta",
+      "previous-span-mid-r-derivative:planar-exp-i-182theta",
+      "previous-span-mid-r-derivative:planar-exp-i-179theta",
+      "previous-span-mid-r-derivative:planar-exp-i-176theta",
+      "previous-span-mid-r-derivative:planar-exp-i-173theta",
+      "previous-span-mid-r-derivative:planar-exp-i-170theta",
+      "previous-span-mid-r-derivative:planar-exp-i-167theta",
+      "previous-span-mid-r-derivative:planar-exp-i-164theta",
+      "previous-span-mid-r-derivative:planar-exp-i-161theta",
+      "previous-span-mid-r-derivative:planar-exp-i-158theta",
+      "previous-span-mid-r-derivative:planar-exp-i-155theta",
+      "previous-span-mid-r-derivative:planar-exp-i-152theta",
+      "previous-span-mid-r-derivative:planar-exp-i-149theta",
+      "previous-span-mid-r-derivative:planar-exp-i-146theta",
+      "previous-span-mid-r-derivative:planar-exp-i-143theta",
+      "previous-span-mid-r-derivative:planar-exp-i-140theta",
+      "previous-span-mid-r-derivative:planar-exp-i-137theta",
+      "previous-span-mid-r-derivative:planar-exp-i-134theta",
+      "previous-span-mid-r-derivative:planar-exp-i-131theta",
+      "previous-span-mid-r-derivative:planar-exp-i-128theta",
+      "previous-span-mid-r-derivative:planar-exp-i-125theta",
+      "previous-span-mid-r-derivative:planar-exp-i-122theta",
+      "previous-span-mid-r-derivative:planar-exp-i-119theta",
+      "previous-span-mid-r-derivative:planar-exp-i-116theta",
+      "previous-span-mid-r-derivative:planar-exp-i-113theta",
+      "previous-span-mid-r-derivative:planar-exp-i-110theta",
+      "previous-span-mid-r-derivative:planar-exp-i-107theta",
+      "previous-span-mid-r-derivative:planar-exp-i-104theta",
+      "previous-span-mid-r-derivative:planar-exp-i-101theta",
+      "previous-span-mid-r-derivative:planar-exp-i-98theta",
+      "previous-span-mid-r-derivative:planar-exp-i-95theta",
+      "previous-span-mid-r-derivative:planar-exp-i-92theta",
+      "previous-span-mid-r-derivative:planar-exp-i-89theta",
+      "previous-span-mid-r-derivative:planar-exp-i-86theta",
+      "previous-span-mid-r-derivative:planar-exp-i-83theta",
+      "previous-span-mid-r-derivative:planar-exp-i-80theta",
+      "previous-span-mid-r-derivative:planar-exp-i-77theta",
+      "previous-span-mid-r-derivative:planar-exp-i-74theta",
+      "previous-span-mid-r-derivative:planar-exp-i-71theta",
+      "previous-span-mid-r-derivative:planar-exp-i-68theta",
+      "previous-span-mid-r-derivative:planar-exp-i-65theta",
+      "previous-span-mid-r-derivative:planar-exp-i-62theta",
+      "previous-span-mid-r-derivative:planar-exp-i-59theta",
+      "previous-span-mid-r-derivative:planar-exp-i-56theta",
+      "previous-span-mid-r-derivative:planar-exp-i-53theta",
+      "previous-span-mid-r-derivative:planar-exp-i-50theta",
+      "previous-span-mid-r-derivative:planar-exp-i-47theta",
+      "previous-span-mid-r-derivative:planar-exp-i-44theta",
+      "previous-span-mid-r-derivative:planar-exp-i-41theta",
+      "previous-span-mid-r-derivative:planar-exp-i-38theta",
+      "previous-span-mid-r-derivative:planar-exp-i-35theta",
+      "previous-span-mid-r-derivative:planar-exp-i-32theta",
+      "previous-span-mid-r-derivative:planar-exp-i-29theta",
+      "previous-span-mid-r-derivative:planar-exp-i-26theta",
+      "previous-span-mid-r-derivative:planar-exp-i-23theta",
+      "previous-span-mid-r-derivative:planar-exp-i-20theta",
+      "previous-span-mid-r-derivative:planar-exp-i-17theta",
+      "previous-span-mid-r-derivative:planar-exp-i-14theta",
+      "previous-span-mid-r-derivative:planar-exp-i-11theta",
+      "previous-span-mid-r-derivative:planar-exp-i-8theta",
+      "previous-span-mid-r-derivative:planar-exp-i-5theta",
+      "previous-span-mid-r-derivative:planar-exp-i-2theta",
+      "previous-span-mid-r-derivative:planar-exp-i1theta",
+      "previous-span-mid-r-derivative:planar-exp-i4theta",
+      "previous-span-mid-r-derivative:planar-exp-i7theta",
+      "previous-span-mid-r-derivative:planar-exp-i10theta",
+      "previous-span-mid-r-derivative:planar-exp-i13theta",
+      "previous-span-mid-r-derivative:planar-exp-i16theta",
+      "previous-span-mid-r-derivative:planar-exp-i19theta",
+      "previous-span-mid-r-derivative:planar-exp-i22theta",
+      "previous-span-mid-r-derivative:planar-exp-i25theta",
+      "previous-span-mid-r-derivative:planar-exp-i28theta",
+      "previous-span-mid-r-derivative:planar-exp-i31theta",
+      "previous-span-mid-r-derivative:planar-exp-i34theta",
+      "previous-span-mid-r-derivative:planar-exp-i37theta",
+      "previous-span-mid-r-derivative:planar-exp-i40theta",
+      "previous-span-mid-r-derivative:planar-exp-i43theta",
+      "previous-span-mid-r-derivative:planar-exp-i46theta",
+      "previous-span-mid-r-derivative:planar-exp-i49theta",
+      "previous-span-mid-r-derivative:planar-exp-i52theta",
+      "previous-span-mid-r-derivative:planar-exp-i55theta",
+      "previous-span-mid-r-derivative:planar-exp-i58theta",
+      "previous-span-mid-r-derivative:planar-exp-i61theta",
+      "previous-span-mid-r-derivative:planar-exp-i64theta",
+      "previous-span-mid-r-derivative:planar-exp-i67theta",
+      "previous-span-mid-r-derivative:planar-exp-i70theta",
+      "previous-span-mid-r-derivative:planar-exp-i73theta",
+      "previous-span-mid-r-derivative:planar-exp-i76theta",
+      "previous-span-mid-r-derivative:planar-exp-i79theta",
+      "previous-span-mid-r-derivative:planar-exp-i82theta",
+      "previous-span-mid-r-derivative:planar-exp-i85theta",
+      "previous-span-mid-r-derivative:planar-exp-i88theta",
+      "previous-span-mid-r-derivative:planar-exp-i91theta",
+      "previous-span-mid-r-derivative:planar-exp-i94theta",
+      "previous-span-mid-r-derivative:planar-exp-i97theta",
+      "previous-span-mid-r-derivative:planar-exp-i100theta",
+      "previous-span-mid-r-derivative:planar-exp-i103theta",
+      "previous-span-mid-r-derivative:planar-exp-i106theta",
+      "previous-span-mid-r-derivative:planar-exp-i109theta",
+      "previous-span-mid-r-derivative:planar-exp-i112theta",
+      "previous-span-mid-r-derivative:planar-exp-i115theta",
+      "previous-span-mid-r-derivative:planar-exp-i118theta",
+      "previous-span-mid-r-derivative:planar-exp-i121theta",
+      "previous-span-mid-r-derivative:planar-exp-i124theta",
+      "previous-span-mid-r-derivative:planar-exp-i127theta",
+      "previous-span-mid-r-derivative:planar-exp-i130theta",
+      "previous-span-mid-r-derivative:planar-exp-i133theta",
+      "previous-span-mid-r-derivative:planar-exp-i136theta",
+      "previous-span-mid-r-derivative:planar-exp-i139theta",
+      "previous-span-mid-r-derivative:planar-exp-i142theta",
+      "previous-span-mid-r-derivative:planar-exp-i145theta",
+      "previous-span-mid-r-derivative:planar-exp-i148theta",
+      "previous-span-mid-r-derivative:planar-exp-i151theta",
+      "previous-span-mid-r-derivative:planar-exp-i154theta",
+      "previous-span-mid-r-derivative:planar-exp-i157theta",
+      "previous-span-mid-r-derivative:planar-exp-i160theta",
+      "previous-span-mid-r-derivative:planar-exp-i163theta",
+      "previous-span-mid-r-derivative:planar-exp-i166theta",
+      "previous-span-mid-r-derivative:planar-exp-i169theta",
+      "previous-span-mid-r-derivative:planar-exp-i172theta",
+      "previous-span-mid-r-derivative:planar-exp-i175theta",
+      "previous-span-mid-r-derivative:planar-exp-i178theta",
+      "previous-span-mid-r-derivative:planar-exp-i181theta",
+      "previous-span-mid-r-derivative:planar-exp-i184theta",
+      "previous-span-mid-r-derivative:planar-exp-i187theta",
+      "previous-span-mid-r-derivative:planar-exp-i190theta",
+      "previous-span-mid-r-derivative:height-cos-0theta",
+      "previous-span-mid-r-derivative:height-cos-3theta",
+      "previous-span-mid-r-derivative:height-cos-6theta",
+      "previous-span-mid-r-derivative:height-cos-9theta",
+      "previous-span-mid-r-derivative:height-cos-12theta",
+      "previous-span-mid-r-derivative:height-cos-15theta",
+      "previous-span-mid-r-derivative:height-cos-18theta",
+      "previous-span-mid-r-derivative:height-cos-21theta",
+      "previous-span-mid-r-derivative:height-cos-24theta",
+      "previous-span-mid-r-derivative:height-cos-27theta",
+      "previous-span-mid-r-derivative:height-cos-30theta",
+      "previous-span-mid-r-derivative:height-cos-33theta",
+      "previous-span-mid-r-derivative:height-cos-36theta",
+      "previous-span-radial-integral-unscaled"
+    ],
+    "planarModes": [
+      -191,
+      -188,
+      -185,
+      -182,
+      -179,
+      -176,
+      -173,
+      -170,
+      -167,
+      -164,
+      -161,
+      -158,
+      -155,
+      -152,
+      -149,
+      -146,
+      -143,
+      -140,
+      -137,
+      -134,
+      -131,
+      -128,
+      -125,
+      -122,
+      -119,
+      -116,
+      -113,
+      -110,
+      -107,
+      -104,
+      -101,
+      -98,
+      -95,
+      -92,
+      -89,
+      -86,
+      -83,
+      -80,
+      -77,
+      -74,
+      -71,
+      -68,
+      -65,
+      -62,
+      -59,
+      -56,
+      -53,
+      -50,
+      -47,
+      -44,
+      -41,
+      -38,
+      -35,
+      -32,
+      -29,
+      -26,
+      -23,
+      -20,
+      -17,
+      -14,
+      -11,
+      -8,
+      -5,
+      -2,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28,
+      31,
+      34,
+      37,
+      40,
+      43,
+      46,
+      49,
+      52,
+      55,
+      58,
+      61,
+      64,
+      67,
+      70,
+      73,
+      76,
+      79,
+      82,
+      85,
+      88,
+      91,
+      94,
+      97,
+      100,
+      103,
+      106,
+      109,
+      112,
+      115,
+      118,
+      121,
+      124,
+      127,
+      130,
+      133,
+      136,
+      139,
+      142,
+      145,
+      148,
+      151,
+      154,
+      157,
+      160,
+      163,
+      166,
+      169,
+      172,
+      175,
+      178,
+      181,
+      184,
+      187,
+      190
+    ],
+    "heightModes": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36
+    ],
+    "coefficientCount": 141,
+    "interpretation": "Gamma-r exp(i theta)=sum real a_m exp(i m theta); z-h=sum c_m cos(m theta). Fr is the cubic Hermite interpolant of endpoint Fr,Frr plus the quartic bubble t^2(1-t)^2 matching its physical-midpoint value. F is the exact integral from the first endpoint; stored node positions are numerical evaluations only. Thus the model is piecewise quintic and exactly C2, without differentiating quantized point values. Duplicate raw-cell interface rows are byte-identical. Radii and span lengths use radialGeometry, not differences of the displayed cumulative r columns."
+  },
+  "gauge": "At deepest represented port the nonlinear mean-height perturbation is zero; mean is accumulated outward without resets. Exact fixed h_rot has cuff value zero; stored h_rot values are numerical primitive evaluations, used only for positions, not metric derivatives.",
+  "files": [
+    {
+      "rawCell": 7,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4271510,
+      "sha256": "a507e1135e03c4053e3a5a6fc99e702ab77ee956fa84e2dd0cf5cd7285b9b605",
+      "minR": 0.1525361819534748,
+      "maxR": 0.15456381642533346
+    },
+    {
+      "rawCell": 7,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4299571,
+      "sha256": "ae1f8fc7df62e1203438779c1abd51d47d9033d0e86072d93fc0e4a860ab34fb",
+      "minR": 0.15456381642533346,
+      "maxR": 0.15587802523917257
+    },
+    {
+      "rawCell": 7,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part02.f64.gz",
+      "rows": 311,
+      "columns": 567,
+      "bytes": 1274262,
+      "sha256": "cc715f97eeadb204ab6e51fbdf2ef9fc9cf4db9db849885102162717baaea768",
+      "minR": 0.15587802523917257,
+      "maxR": 0.15587918880495616
+    },
+    {
+      "rawCell": 6,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4269694,
+      "sha256": "589d79408d39ef937f49702f57fc2a29cc7e3022a1b3ae85c4c76b9c071898f7",
+      "minR": 0.15587918880495616,
+      "maxR": 0.1611506688713148
+    },
+    {
+      "rawCell": 6,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4329062,
+      "sha256": "2f5de0fb3ae6063b59a191ff899d42f2e39d5acbf9fa79ac62c6184fcbbc4ca2",
+      "minR": 0.1611506688713148,
+      "maxR": 0.16490960129140103
+    },
+    {
+      "rawCell": 6,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part02.f64.gz",
+      "rows": 311,
+      "columns": 567,
+      "bytes": 1292584,
+      "sha256": "00dcc411c768cfe7baee12fddce1289a1e289c54bad1874c223577b4f7429a6a",
+      "minR": 0.16490960129140103,
+      "maxR": 0.16491321795392636
+    },
+    {
+      "rawCell": 5,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4305526,
+      "sha256": "ce21f02fbd659003f6aaa6c6ba2983c77ea14718c0a88d47694bbb23cea711c2",
+      "minR": 0.16491321795392636,
+      "maxR": 0.17233479281704955
+    },
+    {
+      "rawCell": 5,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4371380,
+      "sha256": "8aedb2a14b1da32ec1d276fb7aff7f298e46bf0c2025452e9786636b74b55fb4",
+      "minR": 0.17233479281704955,
+      "maxR": 0.17992431591394012
+    },
+    {
+      "rawCell": 5,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part02.f64.gz",
+      "rows": 311,
+      "columns": 567,
+      "bytes": 1306183,
+      "sha256": "b12208ac83254b63059207090ab017b79f80b5d02fba1dec5ca8433814db1631",
+      "minR": 0.17992431591394012,
+      "maxR": 0.1799364625194169
+    },
+    {
+      "rawCell": 4,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4296739,
+      "sha256": "4d829c46b12bab139efb42dacabf69ffa63d74465a0b80938582702623e60278",
+      "minR": 0.1799364625194169,
+      "maxR": 0.1882379231984065
+    },
+    {
+      "rawCell": 4,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4383310,
+      "sha256": "896b80ffea12fb2c067b35286cbde6f95ed5982465516eb15b342acbad3ead8f",
+      "minR": 0.1882379231984065,
+      "maxR": 0.1980479616249345
+    },
+    {
+      "rawCell": 4,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part02.f64.gz",
+      "rows": 310,
+      "columns": 567,
+      "bytes": 1340630,
+      "sha256": "0c5964e530dce6ec244fffcf29ed2d7bd76124733d715889546140eebef5c584",
+      "minR": 0.1980479616249345,
+      "maxR": 0.19809212907081733
+    },
+    {
+      "rawCell": 3,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4364750,
+      "sha256": "dea6d37f4adecc136eda96c4ed67cad0d29a14b0c1e66ad839421cd1ede7e823",
+      "minR": 0.19809212907081733,
+      "maxR": 0.20804494823994546
+    },
+    {
+      "rawCell": 3,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4377950,
+      "sha256": "ebb5788d5bfdc4c06e05730a1191ef3febc8fb7f5822305be72413bd0342373e",
+      "minR": 0.20804494823994546,
+      "maxR": 0.22075827637451703
+    },
+    {
+      "rawCell": 3,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part02.f64.gz",
+      "rows": 309,
+      "columns": 567,
+      "bytes": 1330742,
+      "sha256": "b2d578d970aa66276c3e736711de7a0d461ea4735c649233cd5c383e336588d6",
+      "minR": 0.22075827637451703,
+      "maxR": 0.22093610836283792
+    },
+    {
+      "rawCell": 2,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4357998,
+      "sha256": "5977fe4c1dd86df8c1d124b8c56b119fd43f96d44384ec33e033d5f16e7c49d6",
+      "minR": 0.22093610836283792,
+      "maxR": 0.2340990665811683
+    },
+    {
+      "rawCell": 2,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4400049,
+      "sha256": "c9d6e0ae5591e713755356c4212ec457d56c329ecf08092d80da5062c65a3d08",
+      "minR": 0.2340990665811683,
+      "maxR": 0.2515697987636883
+    },
+    {
+      "rawCell": 2,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part02.f64.gz",
+      "rows": 309,
+      "columns": 567,
+      "bytes": 1355643,
+      "sha256": "66bdbf13257abed545cc031fa86faf4a42c4cb4557692eb29b4c3c738daf8725",
+      "minR": 0.2515697987636883,
+      "maxR": 0.25215123757256674
+    },
+    {
+      "rawCell": 1,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4396895,
+      "sha256": "dd164b09f0d3693ab8e99fcf14872543947ca51748768ee1ee7b6b24a850bd35",
+      "minR": 0.25215123757256674,
+      "maxR": 0.2709667945158349
+    },
+    {
+      "rawCell": 1,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4418707,
+      "sha256": "c63c27e0cf6b106d23d552a847e46968d23d29d0b5f715569ff10bacbea948a9",
+      "minR": 0.2709667945158349,
+      "maxR": 0.300575067616689
+    },
+    {
+      "rawCell": 1,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part02.f64.gz",
+      "rows": 309,
+      "columns": 567,
+      "bytes": 1362800,
+      "sha256": "389886533c38204fc183844402e12a0c0e4aefd8611c1f30d3a54ef867fdae3a",
+      "minR": 0.300575067616689,
+      "maxR": 0.3011238599642374
+    },
+    {
+      "rawCell": 0,
+      "part": 0,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part00.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4418763,
+      "sha256": "b130ce387316349117e350d56c839da1e2613ae57362449f5ac7dc457b233c70",
+      "minR": 0.3011238599642374,
+      "maxR": 0.43498276613318504
+    },
+    {
+      "rawCell": 0,
+      "part": 1,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part01.f64.gz",
+      "rows": 1000,
+      "columns": 567,
+      "bytes": 4418227,
+      "sha256": "9d641224842d713104276e3eea7c4a8fa2320ebad99f1963120d6e830de5bb42",
+      "minR": 0.43498276613318504,
+      "maxR": 0.5461895925874488
+    },
+    {
+      "rawCell": 0,
+      "part": 2,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part02.f64.gz",
+      "rows": 406,
+      "columns": 567,
+      "bytes": 1787305,
+      "sha256": "89fe80d3453aa25978c343f7d58d51a31dd1d3fe37e6fffcdd48cfc31b551249",
+      "minR": 0.5461895925874488,
+      "maxR": 0.6
+    }
+  ],
+  "totals": {
+    "metric": 1.9672181383004357e-8,
+    "fullTensor": 0.00008183039150612982,
+    "curvature": 6.428976116919993,
+    "minArea": 0.9999999902150983,
+    "sourceMetric": 1.9649659316723447e-8,
+    "sourceFullD": 0.0000823926300436316,
+    "maxSeamValue": 8.050096619544673e-13,
+    "maxSeamFirst": 0,
+    "maxSeamSecond": 1.6155871338926322e-27,
+    "minRadialGap": 2.2945037203140802e-11,
+    "maximumWholeCellV2Norm": 443.4897723448575,
+    "maxIntegratedPositionDeviation": 8.09767554439412e-13,
+    "stageFirstEndpointDefect": 8.89735941173031e-12,
+    "stageSecondEndpointDefect": 1.9383907333414552e-8,
+    "stageMaxFirstCorrection": 8.897359411730357e-12,
+    "stageMaxSecondCorrection": 1.9383907333414552e-8,
+    "maxSourceRadiusDisplayDifference": 3.3806291099836017e-14
+  },
+  "rawCells": [
+    {
+      "n": 7,
+      "metric": 9.665976831955681e-31,
+      "fullTensor": 5.026809493991111e-23,
+      "curvature": 5.999022859581409,
+      "wholeCellV2Norm": 2.1771741741221085e-11
+    },
+    {
+      "n": 6,
+      "metric": 2.429488699107894e-24,
+      "fullTensor": 9.46771239810555e-17,
+      "curvature": 5.999010098530523,
+      "wholeCellV2Norm": 0.0000034298657055465806
+    },
+    {
+      "n": 5,
+      "metric": 3.1420671073265483e-21,
+      "fullTensor": 1.0987249204467277e-13,
+      "curvature": 5.998114922893976,
+      "wholeCellV2Norm": 0.00229656770644859
+    },
+    {
+      "n": 4,
+      "metric": 5.203077156103106e-19,
+      "fullTensor": 6.417795561684303e-13,
+      "curvature": 5.99536409323663,
+      "wholeCellV2Norm": 0.08147108875882389
+    },
+    {
+      "n": 3,
+      "metric": 9.495250553706916e-18,
+      "fullTensor": 2.5120174777937022e-11,
+      "curvature": 5.98745983939485,
+      "wholeCellV2Norm": 0.6501907336847956
+    },
+    {
+      "n": 2,
+      "metric": 3.1875371847233223e-16,
+      "fullTensor": 2.710832270414291e-10,
+      "curvature": 5.964339564435049,
+      "wholeCellV2Norm": 2.7188526407430316
+    },
+    {
+      "n": 1,
+      "metric": 8.114840457260347e-15,
+      "fullTensor": 1.4412143222899822e-9,
+      "curvature": 5.89494702061761,
+      "wholeCellV2Norm": 9.042073395862213
+    },
+    {
+      "n": 0,
+      "metric": 1.9672181383004357e-8,
+      "fullTensor": 0.00008183039150612982,
+      "curvature": 6.428976116919993,
+      "wholeCellV2Norm": 443.4897723448575
+    }
+  ],
+  "gridPlan": [
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 1,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 2,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 3,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 4,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 5,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 6,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 8,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 9,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 10,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 11,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 12,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 13,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 14,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 161,
+      "layers": [
+        {
+          "x": 0.7015162318838541,
+          "r": 0.52093744282803,
+          "widthScale": 0.0038668845638663045,
+          "radialSpeed": 0.00021736298269503038,
+          "sourceWxDerivative": -0.3386762310871247,
+          "differenceStep": 0.00001
+        }
+      ]
+    },
+    {
+      "stage": 15,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 16,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 17,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 18,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 19,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 20,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 21,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 22,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 23,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 24,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 25,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 26,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 27,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 28,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 29,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 30,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 31,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 32,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 33,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 34,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 35,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 36,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 37,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 38,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 39,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 40,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 41,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 42,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 43,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 44,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 45,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 46,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 47,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 48,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 49,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 50,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 51,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 52,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 53,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 54,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 55,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 56,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 57,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 58,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 59,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 60,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 61,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 62,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 63,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 64,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 65,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 66,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 67,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 68,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 69,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 70,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 71,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 72,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 73,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 74,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 75,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 76,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 77,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 78,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 79,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 80,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 81,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 82,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 83,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 84,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 85,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 86,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 87,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 88,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 89,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 90,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 91,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 92,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 93,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 94,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 95,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 96,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 97,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 98,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 99,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 100,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 101,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 102,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 103,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 104,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 105,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 106,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 107,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 108,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 109,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 110,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 111,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 112,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 113,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 114,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 115,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 116,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 117,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 118,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 119,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 120,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 121,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 122,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 123,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 124,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 125,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 126,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 127,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 128,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 129,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 130,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 131,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 132,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 133,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 134,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 135,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 136,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 137,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 138,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 139,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 140,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 141,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 142,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 143,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 144,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 145,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 146,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 147,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 148,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 149,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 150,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 151,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 152,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 153,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 154,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 155,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 156,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 157,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 158,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 159,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 160,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 161,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 162,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 163,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 164,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 165,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 166,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 167,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 168,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 169,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 170,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 171,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 172,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 173,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 174,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 175,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 176,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 177,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 178,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 179,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 180,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 181,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 182,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 183,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 184,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 185,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 186,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 187,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 188,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 189,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 190,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 191,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 192,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 193,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 194,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 195,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 196,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 197,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 198,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 199,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 200,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 201,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 202,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 203,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 204,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 205,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 206,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 207,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 208,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 209,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 210,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 211,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 212,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 213,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 214,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 215,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 216,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 217,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 218,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 219,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 220,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 221,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 222,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 223,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 224,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 225,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 226,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 227,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 228,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 229,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 230,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 231,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 232,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 233,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 234,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 235,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 236,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 237,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 238,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 239,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 240,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 241,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 242,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 243,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 244,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 245,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 246,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 247,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 248,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 249,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 250,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 251,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 252,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 253,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 254,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 255,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 256,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 257,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 258,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 259,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 260,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 261,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 262,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 263,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 264,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 265,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 266,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 267,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 268,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 269,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 270,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 271,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 272,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 273,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 274,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 275,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 276,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 277,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 278,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 279,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 280,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 281,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 282,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 283,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 284,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 285,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 286,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 287,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    }
+  ],
+  "worstSamples": {
+    "metric": {
+      "value": 1.9672181383004357e-8,
+      "stage": 20,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0.61328125,
+      "sourceR": 0.43501362393011234,
+      "displayR": 0.4350136239301113,
+      "theta": 3.141592653589793,
+      "span": [
+        0.609375,
+        0.625
+      ]
+    },
+    "fullTensor": {
+      "value": 0.00008183039150612982,
+      "stage": 20,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0.84765625,
+      "sourceR": 0.43531150821186415,
+      "displayR": 0.43531150821186304,
+      "theta": 0,
+      "span": [
+        0.84375,
+        0.859375
+      ]
+    },
+    "curvature": {
+      "value": 6.428976116919993,
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "x": 0.38671875,
+      "sourceR": 0.5279640630706416,
+      "displayR": 0.5279640630706409,
+      "theta": 3.141592653589793,
+      "span": [
+        0.375,
+        0.390625
+      ]
+    }
+  },
+  "radialGeometry": {
+    "innerAnchor": 0.1525361819534748,
+    "outerAnchor": 0.6,
+    "unscaledSum": {
+      "numerator": "138483344122824057231229805",
+      "binaryExponent": -88
+    },
+    "normalization": {
+      "numerator": "138483344122825409921286144",
+      "denominator": "138483344122824057231229805"
+    },
+    "scaleApprox": 1.0000000000000098,
+    "spanCount": 18552,
+    "definition": "Each saved final column is an exact binary positive increment ell_i, evaluated by a local radial integral without subtracting absolute radii. beta=(outerAnchor-innerAnchor)/sum_i ell_i is an exact rational. Actual node r_i=innerAnchor+beta*sum_{j<i}ell_j, and each Hermite span has exact length beta*ell_i. Displayed r columns are approximate only. Both radial end anchors are therefore exact. The target rotational metric is unchanged."
+  },
+  "stageDefects": [
+    {
+      "stage": 287,
+      "rawCell": 7,
+      "width": 2.189859355181881e-7,
+      "firstDefect": 6.117472938748617e-56,
+      "secondDefect": 8.669438158970303e-59
+    },
+    {
+      "stage": 286,
+      "rawCell": 7,
+      "width": 2.189859387921368e-7,
+      "firstDefect": 7.000892187593784e-61,
+      "secondDefect": 2.7667468489570492e-36
+    },
+    {
+      "stage": 285,
+      "rawCell": 7,
+      "width": 2.189859420660856e-7,
+      "firstDefect": 4.078315292499078e-56,
+      "secondDefect": 5.465215019680034e-36
+    },
+    {
+      "stage": 284,
+      "rawCell": 7,
+      "width": 2.1898594534003445e-7,
+      "firstDefect": 7.778769097326427e-62,
+      "secondDefect": 1.584815643275571e-36
+    },
+    {
+      "stage": 283,
+      "rawCell": 7,
+      "width": 2.6227173295964885e-7,
+      "firstDefect": 7.137051761873386e-56,
+      "secondDefect": 3.698020992365857e-36
+    },
+    {
+      "stage": 282,
+      "rawCell": 7,
+      "width": 0.0000045914875388186695,
+      "firstDefect": 1.6704779438076223e-52,
+      "secondDefect": 1.9158941902307e-31
+    },
+    {
+      "stage": 281,
+      "rawCell": 7,
+      "width": 0.0002997811972139225,
+      "firstDefect": 1.0947644252537633e-47,
+      "secondDefect": 3.6421425991339375e-34
+    },
+    {
+      "stage": 280,
+      "rawCell": 7,
+      "width": 0.0006096803280488556,
+      "firstDefect": 3.587324068671532e-43,
+      "secondDefect": 1.0129639266138593e-33
+    },
+    {
+      "stage": 279,
+      "rawCell": 7,
+      "width": 0.00004957061775712205,
+      "firstDefect": 4.203895392974451e-45,
+      "secondDefect": 7.866498586910707e-33
+    },
+    {
+      "stage": 278,
+      "rawCell": 7,
+      "width": 0.000049570785013407104,
+      "firstDefect": 4.3790577010150533e-47,
+      "secondDefect": 3.185291884046229e-35
+    },
+    {
+      "stage": 277,
+      "rawCell": 7,
+      "width": 0.00004957095227025975,
+      "firstDefect": 7.006492321624085e-46,
+      "secondDefect": 3.374675699680595e-35
+    },
+    {
+      "stage": 276,
+      "rawCell": 7,
+      "width": 0.000049571119527680055,
+      "firstDefect": 7.006492321624085e-46,
+      "secondDefect": 2.009404612497661e-35
+    },
+    {
+      "stage": 275,
+      "rawCell": 7,
+      "width": 0.0008096928443960132,
+      "firstDefect": 5.3809861030072976e-43,
+      "secondDefect": 1.009804251814771e-32
+    },
+    {
+      "stage": 274,
+      "rawCell": 7,
+      "width": 0.00010409649034469454,
+      "firstDefect": 4.484155085839415e-44,
+      "secondDefect": 1.7323182612635486e-32
+    },
+    {
+      "stage": 273,
+      "rawCell": 7,
+      "width": 2.4382616720825957e-7,
+      "firstDefect": 1.6036588260553174e-50,
+      "secondDefect": 2.6039806750188343e-29
+    },
+    {
+      "stage": 272,
+      "rawCell": 7,
+      "width": 2.189941991429578e-7,
+      "firstDefect": 6.998950084492081e-49,
+      "secondDefect": 8.335151412066614e-28
+    },
+    {
+      "stage": 271,
+      "rawCell": 7,
+      "width": 0.00004955162313097499,
+      "firstDefect": 3.5415275352667132e-44,
+      "secondDefect": 4.393527685633382e-33
+    },
+    {
+      "stage": 270,
+      "rawCell": 7,
+      "width": 0.00004955179076002586,
+      "firstDefect": 1.4693679385278594e-39,
+      "secondDefect": 1.855851027705875e-36
+    },
+    {
+      "stage": 269,
+      "rawCell": 7,
+      "width": 0.00004955195838964375,
+      "firstDefect": 6.726232628759122e-44,
+      "secondDefect": 3.5727845520009877e-37
+    },
+    {
+      "stage": 268,
+      "rawCell": 7,
+      "width": 0.000049552126019828764,
+      "firstDefect": 2.2420775429197073e-44,
+      "secondDefect": 3.5740485169003864e-37
+    },
+    {
+      "stage": 267,
+      "rawCell": 7,
+      "width": 2.1899675398151564e-7,
+      "firstDefect": 1.4444474582904269e-34,
+      "secondDefect": 5.212047911997957e-33
+    },
+    {
+      "stage": 266,
+      "rawCell": 7,
+      "width": 2.3655148254361737e-7,
+      "firstDefect": 1.401298464324817e-45,
+      "secondDefect": 5.695395282213262e-28
+    },
+    {
+      "stage": 265,
+      "rawCell": 7,
+      "width": 0.00005601184932725657,
+      "firstDefect": 1.401298464324817e-45,
+      "secondDefect": 3.6935726403361345e-27
+    },
+    {
+      "stage": 264,
+      "rawCell": 7,
+      "width": 0.00040259874229992324,
+      "firstDefect": 3.76158192263132e-37,
+      "secondDefect": 4.038172568582621e-28
+    },
+    {
+      "stage": 263,
+      "rawCell": 7,
+      "width": 0.00004956277202543196,
+      "firstDefect": 1.504632769052528e-36,
+      "secondDefect": 6.241311729922661e-27
+    },
+    {
+      "stage": 262,
+      "rawCell": 7,
+      "width": 0.0000495629394163096,
+      "firstDefect": 9.183549615799121e-41,
+      "secondDefect": 1.559559532946064e-29
+    },
+    {
+      "stage": 261,
+      "rawCell": 7,
+      "width": 0.000049563106807759726,
+      "firstDefect": 2.582873329443503e-41,
+      "secondDefect": 1.5072400095349775e-29
+    },
+    {
+      "stage": 260,
+      "rawCell": 7,
+      "width": 0.000049563274199782244,
+      "firstDefect": 2.2958874039497803e-41,
+      "secondDefect": 1.523407261271469e-29
+    },
+    {
+      "stage": 259,
+      "rawCell": 7,
+      "width": 0.0002594934681976594,
+      "firstDefect": 7.346839692639297e-40,
+      "secondDefect": 3.848944266439696e-27
+    },
+    {
+      "stage": 258,
+      "rawCell": 7,
+      "width": 0.00019095563082139645,
+      "firstDefect": 7.346839692639297e-40,
+      "secondDefect": 1.3317629523403757e-29
+    },
+    {
+      "stage": 257,
+      "rawCell": 7,
+      "width": 0.000008021838465896128,
+      "firstDefect": 5.473822126268817e-48,
+      "secondDefect": 6.02163022850984e-28
+    },
+    {
+      "stage": 256,
+      "rawCell": 7,
+      "width": 4.07345776390935e-7,
+      "firstDefect": 1.4349296274686127e-42,
+      "secondDefect": 3.090288916066941e-25
+    },
+    {
+      "stage": 255,
+      "rawCell": 7,
+      "width": 2.1899490377232808e-7,
+      "firstDefect": 1.4444474582904269e-34,
+      "secondDefect": 3.9879753220963234e-29
+    },
+    {
+      "stage": 254,
+      "rawCell": 7,
+      "width": 2.1899490704640938e-7,
+      "firstDefect": 6.681911775230489e-52,
+      "secondDefect": 2.6585216013122544e-29
+    },
+    {
+      "stage": 253,
+      "rawCell": 7,
+      "width": 2.1899491032049072e-7,
+      "firstDefect": 1.0947644252537633e-47,
+      "secondDefect": 4.412479503680648e-29
+    },
+    {
+      "stage": 252,
+      "rawCell": 7,
+      "width": 2.1899491359457214e-7,
+      "firstDefect": 4.81482486096809e-35,
+      "secondDefect": 1.5239223495438895e-29
+    },
+    {
+      "stage": 251,
+      "rawCell": 6,
+      "width": 6.194111715189121e-7,
+      "firstDefect": 7.2222372914521344e-34,
+      "secondDefect": 3.974402512614103e-29
+    },
+    {
+      "stage": 250,
+      "rawCell": 6,
+      "width": 6.194111977115648e-7,
+      "firstDefect": 3.28429327576129e-47,
+      "secondDefect": 9.23480943762917e-30
+    },
+    {
+      "stage": 249,
+      "rawCell": 6,
+      "width": 6.194112239042185e-7,
+      "firstDefect": 1.4349296274686127e-42,
+      "secondDefect": 2.6578692693932532e-30
+    },
+    {
+      "stage": 248,
+      "rawCell": 6,
+      "width": 6.194112500968732e-7,
+      "firstDefect": 3.28429327576129e-47,
+      "secondDefect": 3.533529461477536e-30
+    },
+    {
+      "stage": 247,
+      "rawCell": 6,
+      "width": 8.803598848229736e-7,
+      "firstDefect": 8.210733189403225e-48,
+      "secondDefect": 1.1317478007710327e-29
+    },
+    {
+      "stage": 246,
+      "rawCell": 6,
+      "width": 0.00002131524611804789,
+      "firstDefect": 1.8367099231598242e-40,
+      "secondDefect": 3.432623098346405e-26
+    },
+    {
+      "stage": 245,
+      "rawCell": 6,
+      "width": 0.0010674071601340092,
+      "firstDefect": 1.3775324423698682e-40,
+      "secondDefect": 9.170342212663113e-29
+    },
+    {
+      "stage": 244,
+      "rawCell": 6,
+      "width": 0.0013467847962367867,
+      "firstDefect": 7.346839692639297e-40,
+      "secondDefect": 2.5632412179590827e-29
+    },
+    {
+      "stage": 243,
+      "rawCell": 6,
+      "width": 0.00009914757045759368,
+      "firstDefect": 3.76158192263132e-37,
+      "secondDefect": 7.483124320654638e-27
+    },
+    {
+      "stage": 242,
+      "rawCell": 6,
+      "width": 0.00009914824330208946,
+      "firstDefect": 5.877471754111438e-39,
+      "secondDefect": 1.563938884243295e-29
+    },
+    {
+      "stage": 241,
+      "rawCell": 6,
+      "width": 0.00009914891615092726,
+      "firstDefect": 9.183549615799121e-41,
+      "secondDefect": 2.5180157709996128e-30
+    },
+    {
+      "stage": 240,
+      "rawCell": 6,
+      "width": 0.00009914958900410694,
+      "firstDefect": 3.6734198463196485e-40,
+      "secondDefect": 2.0969182765964055e-29
+    },
+    {
+      "stage": 239,
+      "rawCell": 6,
+      "width": 0.0020311036962236935,
+      "firstDefect": 1.128474576789396e-36,
+      "secondDefect": 2.8085804091254916e-27
+    },
+    {
+      "stage": 238,
+      "rawCell": 6,
+      "width": 0.0004037721356106632,
+      "firstDefect": 1.3775324423698682e-40,
+      "secondDefect": 6.110501754218448e-30
+    },
+    {
+      "stage": 237,
+      "rawCell": 6,
+      "width": 7.865432074725668e-7,
+      "firstDefect": 3.0815088638729453e-41,
+      "secondDefect": 6.528903700475673e-24
+    },
+    {
+      "stage": 236,
+      "rawCell": 6,
+      "width": 6.194884109471591e-7,
+      "firstDefect": 9.4039548065783e-37,
+      "secondDefect": 3.162398307830101e-23
+    },
+    {
+      "stage": 235,
+      "rawCell": 6,
+      "width": 0.00009910884623836797,
+      "firstDefect": 8.474091755303838e-33,
+      "secondDefect": 1.0444518385126196e-26
+    },
+    {
+      "stage": 234,
+      "rawCell": 6,
+      "width": 0.00009910951679359406,
+      "firstDefect": 7.703719777548943e-34,
+      "secondDefect": 1.3909750017657646e-30
+    },
+    {
+      "stage": 233,
+      "rawCell": 6,
+      "width": 0.00009911018735335697,
+      "firstDefect": 7.671147167227035e-34,
+      "secondDefect": 1.3333118633717737e-30
+    },
+    {
+      "stage": 232,
+      "rawCell": 6,
+      "width": 0.00009911085791765687,
+      "firstDefect": 5.073469422576729e-34,
+      "secondDefect": 5.866924606631922e-30
+    },
+    {
+      "stage": 231,
+      "rawCell": 6,
+      "width": 6.195003923315969e-7,
+      "firstDefect": 2.668581850655812e-37,
+      "secondDefect": 1.2066416406260597e-26
+    },
+    {
+      "stage": 230,
+      "rawCell": 6,
+      "width": 7.375751636282837e-7,
+      "firstDefect": 7.346839692639297e-40,
+      "secondDefect": 9.946884800375975e-23
+    },
+    {
+      "stage": 229,
+      "rawCell": 6,
+      "width": 0.00021712138134015525,
+      "firstDefect": 9.62964972193618e-35,
+      "secondDefect": 1.1088491897900952e-21
+    },
+    {
+      "stage": 228,
+      "rawCell": 6,
+      "width": 0.0012654829795865055,
+      "firstDefect": 1.925929944387236e-34,
+      "secondDefect": 1.3440972752195884e-23
+    },
+    {
+      "stage": 227,
+      "rawCell": 6,
+      "width": 0.00009916437843774722,
+      "firstDefect": 1.1832913578315177e-30,
+      "secondDefect": 3.122221967621203e-21
+    },
+    {
+      "stage": 226,
+      "rawCell": 6,
+      "width": 0.00009916504823575833,
+      "firstDefect": 4.408103815583578e-39,
+      "secondDefect": 1.03103189733852e-23
+    },
+    {
+      "stage": 225,
+      "rawCell": 6,
+      "width": 0.00009916571803816597,
+      "firstDefect": 1.925929944387236e-34,
+      "secondDefect": 2.228493591806137e-24
+    },
+    {
+      "stage": 224,
+      "rawCell": 6,
+      "width": 0.00009916638784497023,
+      "firstDefect": 1.5407439555097887e-33,
+      "secondDefect": 1.6749515833449655e-23
+    },
+    {
+      "stage": 223,
+      "rawCell": 6,
+      "width": 0.0007639309390824623,
+      "firstDefect": 3.944304526105059e-31,
+      "secondDefect": 3.41655298304917e-21
+    },
+    {
+      "stage": 222,
+      "rawCell": 6,
+      "width": 0.0006798712467138251,
+      "firstDefect": 1.5777218104420236e-30,
+      "secondDefect": 3.18571801983364e-22
+    },
+    {
+      "stage": 221,
+      "rawCell": 6,
+      "width": 0.00003721447506383896,
+      "firstDefect": 5.441755478643706e-42,
+      "secondDefect": 1.0796921499927366e-21
+    },
+    {
+      "stage": 220,
+      "rawCell": 6,
+      "width": 0.0000017308720978645635,
+      "firstDefect": 1.1479437019748901e-41,
+      "secondDefect": 6.494931403556836e-19
+    },
+    {
+      "stage": 219,
+      "rawCell": 6,
+      "width": 6.194622321037759e-7,
+      "firstDefect": 1.5146129380243427e-28,
+      "secondDefect": 1.246581833824308e-22
+    },
+    {
+      "stage": 218,
+      "rawCell": 6,
+      "width": 6.194622582985047e-7,
+      "firstDefect": 2.2958874039497803e-41,
+      "secondDefect": 2.970226195874337e-23
+    },
+    {
+      "stage": 217,
+      "rawCell": 6,
+      "width": 6.194622844932348e-7,
+      "firstDefect": 1.1479437019748901e-41,
+      "secondDefect": 1.4026467975977818e-22
+    },
+    {
+      "stage": 216,
+      "rawCell": 6,
+      "width": 6.19462310687966e-7,
+      "firstDefect": 1.1479437019748901e-41,
+      "secondDefect": 4.794956469195386e-23
+    },
+    {
+      "stage": 215,
+      "rawCell": 5,
+      "width": 0.0000017521041441316737,
+      "firstDefect": 9.087677628146056e-28,
+      "secondDefect": 4.2552698313518225e-23
+    },
+    {
+      "stage": 214,
+      "rawCell": 5,
+      "width": 0.0000017521043536895568,
+      "firstDefect": 9.380204339036305e-42,
+      "secondDefect": 9.724836169907348e-24
+    },
+    {
+      "stage": 213,
+      "rawCell": 5,
+      "width": 0.0000017521045632474654,
+      "firstDefect": 1.1479437019748901e-41,
+      "secondDefect": 4.362776246637273e-23
+    },
+    {
+      "stage": 212,
+      "rawCell": 5,
+      "width": 0.0000017521047728053994,
+      "firstDefect": 1.1479437019748901e-41,
+      "secondDefect": 2.782481695383256e-23
+    },
+    {
+      "stage": 211,
+      "rawCell": 5,
+      "width": 0.0000033178102838022875,
+      "firstDefect": 5.641538506728088e-41,
+      "secondDefect": 1.4238070699022038e-23
+    },
+    {
+      "stage": 210,
+      "rawCell": 5,
+      "width": 0.00009953204154631634,
+      "firstDefect": 3.944304526105059e-31,
+      "secondDefect": 8.704372612463881e-20
+    },
+    {
+      "stage": 209,
+      "rawCell": 5,
+      "width": 0.0026446550900275914,
+      "firstDefect": 3.944304526105059e-31,
+      "secondDefect": 3.6080202219574887e-23
+    },
+    {
+      "stage": 208,
+      "rawCell": 5,
+      "width": 0.0005633551369593078,
+      "firstDefect": 3.851859888774472e-34,
+      "secondDefect": 2.9778617579612473e-24
+    },
+    {
+      "stage": 207,
+      "rawCell": 5,
+      "width": 0.0001981651170476597,
+      "firstDefect": 1.5777218104420236e-30,
+      "secondDefect": 5.785229409069527e-22
+    },
+    {
+      "stage": 206,
+      "rawCell": 5,
+      "width": 0.0001981678040336673,
+      "firstDefect": 3.851859888774472e-34,
+      "secondDefect": 5.627781266679284e-24
+    },
+    {
+      "stage": 205,
+      "rawCell": 5,
+      "width": 0.00019817049105734898,
+      "firstDefect": 3.851859888774472e-34,
+      "secondDefect": 4.3911164689134786e-24
+    },
+    {
+      "stage": 204,
+      "rawCell": 5,
+      "width": 0.00019817317811870506,
+      "firstDefect": 1.232595164407831e-32,
+      "secondDefect": 1.2842844399466209e-24
+    },
+    {
+      "stage": 203,
+      "rawCell": 5,
+      "width": 0.0012265369833483824,
+      "firstDefect": 1.1832913578315177e-30,
+      "secondDefect": 2.46801056030068e-22
+    },
+    {
+      "stage": 202,
+      "rawCell": 5,
+      "width": 0.0020731589314286164,
+      "firstDefect": 1.2037062152420224e-35,
+      "secondDefect": 6.9340400252383805e-25
+    },
+    {
+      "stage": 201,
+      "rawCell": 5,
+      "width": 0.00001029818516754941,
+      "firstDefect": 2.033782021272921e-31,
+      "secondDefect": 9.709761162724135e-21
+    },
+    {
+      "stage": 200,
+      "rawCell": 5,
+      "width": 0.0000017759636863664135,
+      "firstDefect": 8.274582686912116e-34,
+      "secondDefect": 5.199157382165376e-17
+    },
+    {
+      "stage": 199,
+      "rawCell": 5,
+      "width": 0.00019824020775040997,
+      "firstDefect": 6.34478360878931e-30,
+      "secondDefect": 8.511454017481894e-23
+    },
+    {
+      "stage": 198,
+      "rawCell": 5,
+      "width": 0.00019824289028498612,
+      "firstDefect": 5.679798517591285e-29,
+      "secondDefect": 1.891946977693154e-23
+    },
+    {
+      "stage": 197,
+      "rawCell": 5,
+      "width": 0.00019824557285586162,
+      "firstDefect": 3.1554436208840472e-30,
+      "secondDefect": 1.9507525394422823e-23
+    },
+    {
+      "stage": 196,
+      "rawCell": 5,
+      "width": 0.00019824825546303686,
+      "firstDefect": 3.944304526105059e-30,
+      "secondDefect": 7.952837959647164e-24
+    },
+    {
+      "stage": 195,
+      "rawCell": 5,
+      "width": 0.0000017739133980270587,
+      "firstDefect": 1.754205347528144e-33,
+      "secondDefect": 7.577959563231091e-22
+    },
+    {
+      "stage": 194,
+      "rawCell": 5,
+      "width": 0.000007786009474324662,
+      "firstDefect": 2.407412430484045e-35,
+      "secondDefect": 3.670015854784587e-17
+    },
+    {
+      "stage": 193,
+      "rawCell": 5,
+      "width": 0.0012511183671812046,
+      "firstDefect": 1.6155871338926322e-27,
+      "secondDefect": 3.837394194586579e-19
+    },
+    {
+      "stage": 192,
+      "rawCell": 5,
+      "width": 0.0017466712125410225,
+      "firstDefect": 3.155443620884047e-29,
+      "secondDefect": 5.996620662595351e-19
+    },
+    {
+      "stage": 191,
+      "rawCell": 5,
+      "width": 0.00019826367687712196,
+      "firstDefect": 4.8467614016778965e-27,
+      "secondDefect": 4.4888242212574335e-18
+    },
+    {
+      "stage": 190,
+      "rawCell": 5,
+      "width": 0.00019826637269363098,
+      "firstDefect": 1.5777218104420236e-30,
+      "secondDefect": 5.910198626538826e-20
+    },
+    {
+      "stage": 189,
+      "rawCell": 5,
+      "width": 0.0001982690685468021,
+      "firstDefect": 1.6155871338926322e-27,
+      "secondDefect": 4.222694075351881e-20
+    },
+    {
+      "stage": 188,
+      "rawCell": 5,
+      "width": 0.00019827176443663536,
+      "firstDefect": 6.310887241768095e-30,
+      "secondDefect": 3.623352803976935e-20
+    },
+    {
+      "stage": 187,
+      "rawCell": 5,
+      "width": 0.0008034956771792424,
+      "firstDefect": 6.310887241768094e-29,
+      "secondDefect": 5.7700952889472025e-18
+    },
+    {
+      "stage": 186,
+      "rawCell": 5,
+      "width": 0.002016277569551805,
+      "firstDefect": 1.6155871338926322e-27,
+      "secondDefect": 5.1978898781838534e-20
+    },
+    {
+      "stage": 185,
+      "rawCell": 5,
+      "width": 0.0001724978124493515,
+      "firstDefect": 1.0097419586828951e-28,
+      "secondDefect": 3.3887849644330856e-18
+    },
+    {
+      "stage": 184,
+      "rawCell": 5,
+      "width": 0.000008251452955559314,
+      "firstDefect": 3.944304526105059e-31,
+      "secondDefect": 8.517830587341702e-16
+    },
+    {
+      "stage": 183,
+      "rawCell": 5,
+      "width": 0.0000017523975137045969,
+      "firstDefect": 4.621215590123096e-36,
+      "secondDefect": 2.6591071383041844e-18
+    },
+    {
+      "stage": 182,
+      "rawCell": 5,
+      "width": 0.0000017523977232931226,
+      "firstDefect": 1.063704404767093e-35,
+      "secondDefect": 2.9941364109912957e-18
+    },
+    {
+      "stage": 181,
+      "rawCell": 5,
+      "width": 0.0000017523979328816735,
+      "firstDefect": 1.1252438253938497e-35,
+      "secondDefect": 2.6148711278962807e-19
+    },
+    {
+      "stage": 180,
+      "rawCell": 5,
+      "width": 0.0000017523981424702494,
+      "firstDefect": 1.0339757656912846e-25,
+      "secondDefect": 2.1702441137910204e-18
+    },
+    {
+      "stage": 179,
+      "rawCell": 4,
+      "width": 0.000004956531574275216,
+      "firstDefect": 2.481541837659083e-24,
+      "secondDefect": 3.6457240808111634e-18
+    },
+    {
+      "stage": 178,
+      "rawCell": 4,
+      "width": 0.000004956533250984593,
+      "firstDefect": 2.171138065968765e-35,
+      "secondDefect": 2.2989596503473116e-18
+    },
+    {
+      "stage": 177,
+      "rawCell": 4,
+      "width": 0.000004956534927694534,
+      "firstDefect": 2.7083389842945504e-35,
+      "secondDefect": 6.771886828395937e-20
+    },
+    {
+      "stage": 176,
+      "rawCell": 4,
+      "width": 0.000004956536604405047,
+      "firstDefect": 1.232595164407831e-32,
+      "secondDefect": 7.9562960022189e-20
+    },
+    {
+      "stage": 175,
+      "rawCell": 4,
+      "width": 0.000014296721662952383,
+      "firstDefect": 4.733165431326071e-29,
+      "secondDefect": 7.598827492674321e-19
+    },
+    {
+      "stage": 174,
+      "rawCell": 4,
+      "width": 0.0004657223527226047,
+      "firstDefect": 1.5165850902873952e-28,
+      "secondDefect": 3.26018859188834e-16
+    },
+    {
+      "stage": 173,
+      "rawCell": 4,
+      "width": 0.0028577644803253082,
+      "firstDefect": 2.4233807008389483e-27,
+      "secondDefect": 1.4794607992946507e-19
+    },
+    {
+      "stage": 172,
+      "rawCell": 4,
+      "width": 0.000008179738549687672,
+      "firstDefect": 7.703719777548943e-34,
+      "secondDefect": 1.9932370241650852e-19
+    },
+    {
+      "stage": 171,
+      "rawCell": 4,
+      "width": 0.0003963691141682935,
+      "firstDefect": 8.077935669463161e-28,
+      "secondDefect": 8.904955328403806e-20
+    },
+    {
+      "stage": 170,
+      "rawCell": 4,
+      "width": 0.00039637984136726637,
+      "firstDefect": 3.155443620884047e-29,
+      "secondDefect": 4.920298177301402e-21
+    },
+    {
+      "stage": 169,
+      "rawCell": 4,
+      "width": 0.00039639056885655674,
+      "firstDefect": 6.310887241768095e-30,
+      "secondDefect": 3.0595509860398143e-21
+    },
+    {
+      "stage": 168,
+      "rawCell": 4,
+      "width": 0.0003964012966361722,
+      "firstDefect": 3.1554436208840472e-30,
+      "secondDefect": 2.5113487984832764e-20
+    },
+    {
+      "stage": 167,
+      "rawCell": 4,
+      "width": 0.00003156633356455814,
+      "firstDefect": 1.6408306828597046e-28,
+      "secondDefect": 1.0285315482269693e-18
+    },
+    {
+      "stage": 166,
+      "rawCell": 4,
+      "width": 0.0032065283722315994,
+      "firstDefect": 6.310887241768095e-30,
+      "secondDefect": 1.6541360122595907e-19
+    },
+    {
+      "stage": 165,
+      "rawCell": 4,
+      "width": 0.00010839611784684265,
+      "firstDefect": 8.204153414298523e-29,
+      "secondDefect": 1.700146079785058e-17
+    },
+    {
+      "stage": 164,
+      "rawCell": 4,
+      "width": 0.000005687780877770011,
+      "firstDefect": 1.9387045606711586e-26,
+      "secondDefect": 2.333376570536871e-14
+    },
+    {
+      "stage": 163,
+      "rawCell": 4,
+      "width": 0.0003965711855941864,
+      "firstDefect": 3.877409121342317e-26,
+      "secondDefect": 8.500130838144057e-19
+    },
+    {
+      "stage": 162,
+      "rawCell": 4,
+      "width": 0.0003965819182490814,
+      "firstDefect": 1.6155871338926322e-27,
+      "secondDefect": 4.070599750013702e-20
+    },
+    {
+      "stage": 161,
+      "rawCell": 4,
+      "width": 0.00039659265119444345,
+      "firstDefect": 2.2441860158373378e-27,
+      "secondDefect": 3.7078500651352665e-21
+    },
+    {
+      "stage": 160,
+      "rawCell": 4,
+      "width": 0.00039660338443028083,
+      "firstDefect": 2.059873595713106e-26,
+      "secondDefect": 1.1806878444703393e-20
+    },
+    {
+      "stage": 159,
+      "rawCell": 4,
+      "width": 0.000005615491729971175,
+      "firstDefect": 5.048709793414476e-29,
+      "secondDefect": 4.387136045872559e-18
+    },
+    {
+      "stage": 158,
+      "rawCell": 4,
+      "width": 0.00007781052427448642,
+      "firstDefect": 2.0194839173657902e-28,
+      "secondDefect": 1.496492102283583e-14
+    },
+    {
+      "stage": 157,
+      "rawCell": 4,
+      "width": 0.002992897161528235,
+      "firstDefect": 6.462348535570529e-27,
+      "secondDefect": 1.6663288742084726e-18
+    },
+    {
+      "stage": 156,
+      "rawCell": 4,
+      "width": 0.00027546490173863537,
+      "firstDefect": 4.0389678347315804e-28,
+      "secondDefect": 7.238034618833666e-17
+    },
+    {
+      "stage": 155,
+      "rawCell": 4,
+      "width": 0.00039645707999585425,
+      "firstDefect": 8.077935669463161e-26,
+      "secondDefect": 1.8056742121869607e-15
+    },
+    {
+      "stage": 154,
+      "rawCell": 4,
+      "width": 0.0003964678117584237,
+      "firstDefect": 4.0389678347315804e-28,
+      "secondDefect": 1.56340877475038e-17
+    },
+    {
+      "stage": 153,
+      "rawCell": 4,
+      "width": 0.00039647854381469165,
+      "firstDefect": 8.077935669463161e-28,
+      "secondDefect": 4.704915884561724e-18
+    },
+    {
+      "stage": 152,
+      "rawCell": 4,
+      "width": 0.0003964892761646701,
+      "firstDefect": 8.271806125530277e-25,
+      "secondDefect": 7.032411627755311e-18
+    },
+    {
+      "stage": 151,
+      "rawCell": 4,
+      "width": 0.000050450516913378264,
+      "firstDefect": 9.693522803355793e-27,
+      "secondDefect": 6.490307071092493e-16
+    },
+    {
+      "stage": 150,
+      "rawCell": 4,
+      "width": 0.002421700416304008,
+      "firstDefect": 2.0679515313825692e-25,
+      "secondDefect": 1.0067628304836578e-16
+    },
+    {
+      "stage": 149,
+      "rawCell": 4,
+      "width": 0.0007936196821450726,
+      "firstDefect": 1.2924697071141057e-26,
+      "secondDefect": 5.889251833722557e-17
+    },
+    {
+      "stage": 148,
+      "rawCell": 4,
+      "width": 0.000042524088346455024,
+      "firstDefect": 2.5849394142282115e-26,
+      "secondDefect": 2.0801077804770626e-14
+    },
+    {
+      "stage": 147,
+      "rawCell": 4,
+      "width": 0.000004958262997310358,
+      "firstDefect": 1.9852334701272664e-23,
+      "secondDefect": 5.325452413198349e-16
+    },
+    {
+      "stage": 146,
+      "rawCell": 4,
+      "width": 0.0000049582646743681425,
+      "firstDefect": 3.4512664603419266e-31,
+      "secondDefect": 1.0707105958420659e-16
+    },
+    {
+      "stage": 145,
+      "rawCell": 4,
+      "width": 0.000004958266351426496,
+      "firstDefect": 9.860761315262648e-32,
+      "secondDefect": 2.88999331073892e-16
+    },
+    {
+      "stage": 144,
+      "rawCell": 4,
+      "width": 0.000004958268028485417,
+      "firstDefect": 4.930380657631324e-32,
+      "secondDefect": 2.9862496391850957e-16
+    },
+    {
+      "stage": 143,
+      "rawCell": 3,
+      "width": 0.00001402410886349008,
+      "firstDefect": 8.933550615572699e-23,
+      "secondDefect": 4.210048980685958e-17
+    },
+    {
+      "stage": 142,
+      "rawCell": 3,
+      "width": 0.000014024122279978842,
+      "firstDefect": 1.1014612750303278e-32,
+      "secondDefect": 1.1629154630823576e-16
+    },
+    {
+      "stage": 141,
+      "rawCell": 3,
+      "width": 0.000014024135696480462,
+      "firstDefect": 1.9721522630525295e-31,
+      "secondDefect": 3.6412874589923684e-17
+    },
+    {
+      "stage": 140,
+      "rawCell": 3,
+      "width": 0.000014024149112994935,
+      "firstDefect": 4.930380657631324e-32,
+      "secondDefect": 1.5569903964183262e-16
+    },
+    {
+      "stage": 139,
+      "rawCell": 3,
+      "width": 0.000069336174127423,
+      "firstDefect": 1.2924697071141057e-26,
+      "secondDefect": 1.1331523785476702e-16
+    },
+    {
+      "stage": 138,
+      "rawCell": 3,
+      "width": 0.001921094856877353,
+      "firstDefect": 8.271806125530277e-25,
+      "secondDefect": 1.1326812594973795e-15
+    },
+    {
+      "stage": 137,
+      "rawCell": 3,
+      "width": 0.0013404994273545929,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 8.209630278746292e-17
+    },
+    {
+      "stage": 136,
+      "rawCell": 3,
+      "width": 0.000014018303050479892,
+      "firstDefect": 2.0194839173657902e-28,
+      "secondDefect": 8.383818118842412e-17
+    },
+    {
+      "stage": 135,
+      "rawCell": 3,
+      "width": 0.0007930168126527424,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 2.3645116651481653e-17
+    },
+    {
+      "stage": 134,
+      "rawCell": 3,
+      "width": 0.0007930597371084959,
+      "firstDefect": 3.2311742677852644e-27,
+      "secondDefect": 2.523500962571432e-18
+    },
+    {
+      "stage": 133,
+      "rawCell": 3,
+      "width": 0.0007931026638876662,
+      "firstDefect": 3.2311742677852644e-27,
+      "secondDefect": 1.562704543013281e-17
+    },
+    {
+      "stage": 132,
+      "rawCell": 3,
+      "width": 0.0007931455929903799,
+      "firstDefect": 1.9721522630525295e-31,
+      "secondDefect": 5.768838351757921e-18
+    },
+    {
+      "stage": 131,
+      "rawCell": 3,
+      "width": 0.000014021351846768238,
+      "firstDefect": 1.6543612251060553e-24,
+      "secondDefect": 1.201734510802391e-16
+    },
+    {
+      "stage": 130,
+      "rawCell": 3,
+      "width": 0.0027269094738206832,
+      "firstDefect": 1.2407709188295415e-24,
+      "secondDefect": 4.0002626980409073e-16
+    },
+    {
+      "stage": 129,
+      "rawCell": 3,
+      "width": 0.0006240655149195262,
+      "firstDefect": 1.2476624076975523e-26,
+      "secondDefect": 4.8660980719853036e-17
+    },
+    {
+      "stage": 128,
+      "rawCell": 3,
+      "width": 0.000020474793567390583,
+      "firstDefect": 1.2924697071141057e-26,
+      "secondDefect": 3.6553349636776386e-13
+    },
+    {
+      "stage": 127,
+      "rawCell": 3,
+      "width": 0.000793510084411036,
+      "firstDefect": 1.0587911840678754e-22,
+      "secondDefect": 1.1672526499568877e-16
+    },
+    {
+      "stage": 126,
+      "rawCell": 3,
+      "width": 0.0007935530350266027,
+      "firstDefect": 4.963083675318166e-24,
+      "secondDefect": 3.095671241243823e-18
+    },
+    {
+      "stage": 125,
+      "rawCell": 3,
+      "width": 0.0007935959879672071,
+      "firstDefect": 1.0587911840678754e-22,
+      "secondDefect": 6.598042563285288e-19
+    },
+    {
+      "stage": 124,
+      "rawCell": 3,
+      "width": 0.0007936389432329753,
+      "firstDefect": 5.293955920339377e-22,
+      "secondDefect": 5.789752363844271e-19
+    },
+    {
+      "stage": 123,
+      "rawCell": 3,
+      "width": 0.00001979446640386113,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 2.2032578882309934e-16
+    },
+    {
+      "stage": 122,
+      "rawCell": 3,
+      "width": 0.00044258649246753986,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 4.6038347201271486e-14
+    },
+    {
+      "stage": 121,
+      "rawCell": 3,
+      "width": 0.0029090767471662785,
+      "firstDefect": 1.6543612251060553e-24,
+      "secondDefect": 6.794029994841388e-16
+    },
+    {
+      "stage": 120,
+      "rawCell": 3,
+      "width": 0.000014031376678413833,
+      "firstDefect": 2.524354896707238e-29,
+      "secondDefect": 3.698966625946887e-15
+    },
+    {
+      "stage": 119,
+      "rawCell": 3,
+      "width": 0.0007933663462842738,
+      "firstDefect": 3.9291079096268815e-24,
+      "secondDefect": 1.2697780207826542e-14
+    },
+    {
+      "stage": 118,
+      "rawCell": 3,
+      "width": 0.0007934092896596019,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 1.8889498674170044e-17
+    },
+    {
+      "stage": 117,
+      "rawCell": 3,
+      "width": 0.0007934522353593716,
+      "firstDefect": 1.3234889800848443e-23,
+      "secondDefect": 2.288604570936513e-16
+    },
+    {
+      "stage": 116,
+      "rawCell": 3,
+      "width": 0.0007934951833837077,
+      "firstDefect": 3.970466940254533e-23,
+      "secondDefect": 8.238400530807744e-17
+    },
+    {
+      "stage": 115,
+      "rawCell": 3,
+      "width": 0.00001402753196042003,
+      "firstDefect": 6.617444900424221e-23,
+      "secondDefect": 1.4543159698712345e-14
+    },
+    {
+      "stage": 114,
+      "rawCell": 3,
+      "width": 0.000559621271083709,
+      "firstDefect": 1.3234889800848443e-23,
+      "secondDefect": 2.864185871397469e-14
+    },
+    {
+      "stage": 113,
+      "rawCell": 3,
+      "width": 0.002293998261834153,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 2.793618421580721e-16
+    },
+    {
+      "stage": 112,
+      "rawCell": 3,
+      "width": 0.00022784026972733429,
+      "firstDefect": 6.617444900424222e-24,
+      "secondDefect": 5.997534520613742e-15
+    },
+    {
+      "stage": 111,
+      "rawCell": 3,
+      "width": 0.000014035117682198061,
+      "firstDefect": 3.308722450212111e-24,
+      "secondDefect": 4.282912782784418e-15
+    },
+    {
+      "stage": 110,
+      "rawCell": 3,
+      "width": 0.000014035131096998302,
+      "firstDefect": 3.2311742677852644e-27,
+      "secondDefect": 9.238738401108817e-15
+    },
+    {
+      "stage": 109,
+      "rawCell": 3,
+      "width": 0.000014035144511811472,
+      "firstDefect": 6.462348535570529e-27,
+      "secondDefect": 4.914907537673868e-15
+    },
+    {
+      "stage": 108,
+      "rawCell": 3,
+      "width": 0.00001403515792663758,
+      "firstDefect": 3.308722450212111e-24,
+      "secondDefect": 8.352947951321763e-15
+    },
+    {
+      "stage": 107,
+      "rawCell": 2,
+      "width": 0.0000396974940106443,
+      "firstDefect": 1.5881867761018131e-21,
+      "secondDefect": 4.82596374868748e-16
+    },
+    {
+      "stage": 106,
+      "rawCell": 2,
+      "width": 0.0000396976013296491,
+      "firstDefect": 3.308722450212111e-24,
+      "secondDefect": 4.817326663351608e-16
+    },
+    {
+      "stage": 105,
+      "rawCell": 2,
+      "width": 0.00003969770864894648,
+      "firstDefect": 2.5849394142282115e-26,
+      "secondDefect": 7.408386450521609e-16
+    },
+    {
+      "stage": 104,
+      "rawCell": 2,
+      "width": 0.0000396978159685364,
+      "firstDefect": 6.462348535570529e-27,
+      "secondDefect": 7.271565818903801e-16
+    },
+    {
+      "stage": 103,
+      "rawCell": 2,
+      "width": 0.0003640204854253932,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 5.383392646647958e-16
+    },
+    {
+      "stage": 102,
+      "rawCell": 2,
+      "width": 0.00273137961847771,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 3.305899501157149e-15
+    },
+    {
+      "stage": 101,
+      "rawCell": 2,
+      "width": 0.00006305191084311585,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 1.5635916921706268e-15
+    },
+    {
+      "stage": 100,
+      "rawCell": 2,
+      "width": 0.00003967694194792474,
+      "firstDefect": 4.1359030627651384e-25,
+      "secondDefect": 1.479257743411498e-14
+    },
+    {
+      "stage": 99,
+      "rawCell": 2,
+      "width": 0.0015871657318107062,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 1.1573252050651768e-15
+    },
+    {
+      "stage": 98,
+      "rawCell": 2,
+      "width": 0.0015873375568413119,
+      "firstDefect": 1.3234889800848443e-23,
+      "secondDefect": 9.377914076355777e-17
+    },
+    {
+      "stage": 97,
+      "rawCell": 2,
+      "width": 0.0015875094004735297,
+      "firstDefect": 6.203854594147708e-25,
+      "secondDefect": 2.2053956690082367e-16
+    },
+    {
+      "stage": 96,
+      "rawCell": 2,
+      "width": 0.0015876812627093728,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 5.4398106258185716e-17
+    },
+    {
+      "stage": 95,
+      "rawCell": 2,
+      "width": 0.00003969423371353653,
+      "firstDefect": 2.895132143935597e-24,
+      "secondDefect": 6.950627108294744e-15
+    },
+    {
+      "stage": 94,
+      "rawCell": 2,
+      "width": 0.0011689756839301246,
+      "firstDefect": 6.203854594147708e-25,
+      "secondDefect": 3.9496040675744974e-15
+    },
+    {
+      "stage": 93,
+      "rawCell": 2,
+      "width": 0.0021940932948582344,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 2.6931336324985226e-15
+    },
+    {
+      "stage": 92,
+      "rawCell": 2,
+      "width": 0.0000713425632444385,
+      "firstDefect": 3.7223127564886245e-24,
+      "secondDefect": 3.5170852040494776e-13
+    },
+    {
+      "stage": 91,
+      "rawCell": 2,
+      "width": 0.0015885186215074817,
+      "firstDefect": 3.3881317890172014e-21,
+      "secondDefect": 2.453618089213274e-15
+    },
+    {
+      "stage": 90,
+      "rawCell": 2,
+      "width": 0.001588690581635308,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 2.629803972185365e-16
+    },
+    {
+      "stage": 89,
+      "rawCell": 2,
+      "width": 0.0015888625603879651,
+      "firstDefect": 3.3881317890172014e-21,
+      "secondDefect": 1.338710727473254e-16
+    },
+    {
+      "stage": 88,
+      "rawCell": 2,
+      "width": 0.00158903455776746,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 2.6286736725298117e-16
+    },
+    {
+      "stage": 87,
+      "rawCell": 2,
+      "width": 0.00006787983707589061,
+      "firstDefect": 5.0664812518872945e-24,
+      "secondDefect": 5.172280029679154e-15
+    },
+    {
+      "stage": 86,
+      "rawCell": 2,
+      "width": 0.001707642530459164,
+      "firstDefect": 7.940933880509066e-23,
+      "secondDefect": 2.440494197518666e-13
+    },
+    {
+      "stage": 85,
+      "rawCell": 2,
+      "width": 0.0016589956073604264,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 1.1988497759622685e-15
+    },
+    {
+      "stage": 84,
+      "rawCell": 2,
+      "width": 0.00003971217785530954,
+      "firstDefect": 6.617444900424222e-24,
+      "secondDefect": 4.5280151826394346e-13
+    },
+    {
+      "stage": 83,
+      "rawCell": 2,
+      "width": 0.001588575246304132,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 1.7377677901170263e-13
+    },
+    {
+      "stage": 82,
+      "rawCell": 2,
+      "width": 0.0015887472239274158,
+      "firstDefect": 1.2705494208814505e-21,
+      "secondDefect": 1.9082902864068456e-14
+    },
+    {
+      "stage": 81,
+      "rawCell": 2,
+      "width": 0.001588919220168832,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 2.114238859276962e-15
+    },
+    {
+      "stage": 80,
+      "rawCell": 2,
+      "width": 0.0015890912350303944,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 5.0681077445057596e-15
+    },
+    {
+      "stage": 79,
+      "rawCell": 2,
+      "width": 0.000039729484977221995,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 4.3405469212210314e-14
+    },
+    {
+      "stage": 78,
+      "rawCell": 2,
+      "width": 0.00003978845462650097,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 9.4632404892725e-14
+    },
+    {
+      "stage": 77,
+      "rawCell": 2,
+      "width": 0.0009116001085333391,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 1.0177300993970031e-13
+    },
+    {
+      "stage": 76,
+      "rawCell": 2,
+      "width": 0.0006995518005459393,
+      "firstDefect": 8.470329472543003e-22,
+      "secondDefect": 2.0689648162178542e-14
+    },
+    {
+      "stage": 75,
+      "rawCell": 2,
+      "width": 0.0000397675029530027,
+      "firstDefect": 4.632211430296955e-23,
+      "secondDefect": 1.2327004568858053e-13
+    },
+    {
+      "stage": 74,
+      "rawCell": 2,
+      "width": 0.00003976761053962338,
+      "firstDefect": 1.0587911840678754e-22,
+      "secondDefect": 1.617493107412773e-13
+    },
+    {
+      "stage": 73,
+      "rawCell": 2,
+      "width": 0.000039767718126521946,
+      "firstDefect": 3.3087224502121107e-23,
+      "secondDefect": 1.3610671875339014e-13
+    },
+    {
+      "stage": 72,
+      "rawCell": 2,
+      "width": 0.0000397678257136984,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 1.5110721074534773e-13
+    },
+    {
+      "stage": 71,
+      "rawCell": 1,
+      "width": 0.00011248097944317502,
+      "firstDefect": 3.8116482626443515e-21,
+      "secondDefect": 9.270685718973768e-14
+    },
+    {
+      "stage": 70,
+      "rawCell": 1,
+      "width": 0.00011248184014909756,
+      "firstDefect": 1.9852334701272664e-23,
+      "secondDefect": 2.9703092190922604e-14
+    },
+    {
+      "stage": 69,
+      "rawCell": 1,
+      "width": 0.00011248270086130797,
+      "firstDefect": 5.955700410381799e-23,
+      "secondDefect": 4.277227028576756e-14
+    },
+    {
+      "stage": 68,
+      "rawCell": 1,
+      "width": 0.00011248356157980643,
+      "firstDefect": 4.632211430296955e-23,
+      "secondDefect": 5.801991013175579e-14
+    },
+    {
+      "stage": 67,
+      "rawCell": 1,
+      "width": 0.0010154649548697245,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 9.214548208715584e-14
+    },
+    {
+      "stage": 66,
+      "rawCell": 1,
+      "width": 0.0007414652526807025,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 3.813436518602595e-14
+    },
+    {
+      "stage": 65,
+      "rawCell": 1,
+      "width": 0.00011237982519991422,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 1.8455419331738076e-13
+    },
+    {
+      "stage": 64,
+      "rawCell": 1,
+      "width": 0.0001123806854320476,
+      "firstDefect": 1.0587911840678754e-22,
+      "secondDefect": 4.525107261926297e-14
+    },
+    {
+      "stage": 63,
+      "rawCell": 1,
+      "width": 0.00317896207563888,
+      "firstDefect": 8.470329472543003e-22,
+      "secondDefect": 1.3499130312576e-13
+    },
+    {
+      "stage": 62,
+      "rawCell": 1,
+      "width": 0.003179650415629975,
+      "firstDefect": 2.117582368135751e-22,
+      "secondDefect": 1.5654845277197158e-15
+    },
+    {
+      "stage": 61,
+      "rawCell": 1,
+      "width": 0.0031803389046671814,
+      "firstDefect": 2.6469779601696886e-23,
+      "secondDefect": 4.335731631689043e-15
+    },
+    {
+      "stage": 60,
+      "rawCell": 1,
+      "width": 0.0031810275427827752,
+      "firstDefect": 1.6940658945086007e-21,
+      "secondDefect": 8.995083207589007e-15
+    },
+    {
+      "stage": 59,
+      "rawCell": 1,
+      "width": 0.00011247891309948116,
+      "firstDefect": 9.26442286059391e-23,
+      "secondDefect": 8.667837129399423e-14
+    },
+    {
+      "stage": 58,
+      "rawCell": 1,
+      "width": 0.00015944259090790093,
+      "firstDefect": 4.235164736271502e-22,
+      "secondDefect": 3.4113967121719816e-14
+    },
+    {
+      "stage": 57,
+      "rawCell": 1,
+      "width": 0.003212554232249838,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 8.863308714355742e-15
+    },
+    {
+      "stage": 56,
+      "rawCell": 1,
+      "width": 0.0002313667505119439,
+      "firstDefect": 1.6940658945086007e-21,
+      "secondDefect": 7.599896484567414e-12
+    },
+    {
+      "stage": 55,
+      "rawCell": 1,
+      "width": 0.003183187162202119,
+      "firstDefect": 2.710505431213761e-20,
+      "secondDefect": 1.603628248934241e-14
+    },
+    {
+      "stage": 54,
+      "rawCell": 1,
+      "width": 0.003183876243433575,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 3.8262259312771695e-15
+    },
+    {
+      "stage": 53,
+      "rawCell": 1,
+      "width": 0.0031845654741325643,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 3.846082600404852e-16
+    },
+    {
+      "stage": 52,
+      "rawCell": 1,
+      "width": 0.0031852548543310644,
+      "firstDefect": 1.0164395367051604e-20,
+      "secondDefect": 3.4169886795178283e-16
+    },
+    {
+      "stage": 51,
+      "rawCell": 1,
+      "width": 0.00021795124693225354,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 8.462976696834372e-14
+    },
+    {
+      "stage": 50,
+      "rawCell": 1,
+      "width": 0.0030982692711020586,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 1.6999403729296703e-12
+    },
+    {
+      "stage": 49,
+      "rawCell": 1,
+      "width": 0.0002878500186249108,
+      "firstDefect": 3.3881317890172014e-21,
+      "secondDefect": 1.1357340306931973e-13
+    },
+    {
+      "stage": 48,
+      "rawCell": 1,
+      "width": 0.00011258239718199035,
+      "firstDefect": 1.0587911840678754e-22,
+      "secondDefect": 2.189630360840353e-12
+    },
+    {
+      "stage": 47,
+      "rawCell": 1,
+      "width": 0.0031846679849845444,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 2.6164968396227335e-12
+    },
+    {
+      "stage": 46,
+      "rawCell": 1,
+      "width": 0.0031853575604749913,
+      "firstDefect": 3.049318610115481e-20,
+      "secondDefect": 1.679420684428098e-14
+    },
+    {
+      "stage": 45,
+      "rawCell": 1,
+      "width": 0.0031860472852790734,
+      "firstDefect": 7.453889935837843e-20,
+      "secondDefect": 1.881519268341115e-14
+    },
+    {
+      "stage": 44,
+      "rawCell": 1,
+      "width": 0.003186737159429123,
+      "firstDefect": 8.131516293641283e-20,
+      "secondDefect": 2.905468316591735e-14
+    },
+    {
+      "stage": 43,
+      "rawCell": 1,
+      "width": 0.00011268080115796495,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 6.014707480230584e-13
+    },
+    {
+      "stage": 42,
+      "rawCell": 1,
+      "width": 0.00011268166369397444,
+      "firstDefect": 6.617444900424222e-24,
+      "secondDefect": 2.1505455479185295e-12
+    },
+    {
+      "stage": 41,
+      "rawCell": 1,
+      "width": 0.00011275070257140664,
+      "firstDefect": 2.117582368135751e-22,
+      "secondDefect": 1.1221059965121987e-12
+    },
+    {
+      "stage": 40,
+      "rawCell": 1,
+      "width": 0.00011996706027426447,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 5.926356669165892e-13
+    },
+    {
+      "stage": 39,
+      "rawCell": 1,
+      "width": 0.00011268727482740233,
+      "firstDefect": 5.293955920339377e-23,
+      "secondDefect": 8.858263850741244e-13
+    },
+    {
+      "stage": 38,
+      "rawCell": 1,
+      "width": 0.00011268813829811813,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 1.4033957587098502e-12
+    },
+    {
+      "stage": 37,
+      "rawCell": 1,
+      "width": 0.0001126890017756249,
+      "firstDefect": 2.0328790734103208e-20,
+      "secondDefect": 1.1864296995006818e-12
+    },
+    {
+      "stage": 36,
+      "rawCell": 1,
+      "width": 0.00011268986525992276,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 2.288789133093404e-12
+    },
+    {
+      "stage": 35,
+      "rawCell": 0,
+      "width": 0.00031873974673273463,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 5.750214579399061e-13
+    },
+    {
+      "stage": 34,
+      "rawCell": 0,
+      "width": 0.00031874665481511756,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 4.597006507571782e-13
+    },
+    {
+      "stage": 33,
+      "rawCell": 0,
+      "width": 0.00031875356305117493,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 1.0187441979215849e-12
+    },
+    {
+      "stage": 32,
+      "rawCell": 0,
+      "width": 0.00031876047144091074,
+      "firstDefect": 6.776263578034403e-21,
+      "secondDefect": 5.570392563347408e-13
+    },
+    {
+      "stage": 31,
+      "rawCell": 0,
+      "width": 0.0015302754586636667,
+      "firstDefect": 2.0328790734103208e-20,
+      "secondDefect": 2.653450845199553e-13
+    },
+    {
+      "stage": 30,
+      "rawCell": 0,
+      "width": 0.010566941486988803,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 3.3772415202956707e-13
+    },
+    {
+      "stage": 29,
+      "rawCell": 0,
+      "width": 0.032254924981723915,
+      "firstDefect": 2.168404344971009e-19,
+      "secondDefect": 1.892464050051723e-14
+    },
+    {
+      "stage": 28,
+      "rawCell": 0,
+      "width": 0.015127187028537005,
+      "firstDefect": 7.589415207398531e-19,
+      "secondDefect": 6.91600599836409e-11
+    },
+    {
+      "stage": 27,
+      "rawCell": 0,
+      "width": 0.002749823373846115,
+      "firstDefect": 9.75781955236954e-19,
+      "secondDefect": 2.5588244236684235e-10
+    },
+    {
+      "stage": 26,
+      "rawCell": 0,
+      "width": 0.002751014340128105,
+      "firstDefect": 2.168404344971009e-19,
+      "secondDefect": 1.2022367152771267e-11
+    },
+    {
+      "stage": 25,
+      "rawCell": 0,
+      "width": 0.0027522058222252937,
+      "firstDefect": 2.168404344971009e-19,
+      "secondDefect": 7.679820395676203e-12
+    },
+    {
+      "stage": 24,
+      "rawCell": 0,
+      "width": 0.002753397820361081,
+      "firstDefect": 2.168404344971009e-19,
+      "secondDefect": 2.1366469763415272e-11
+    },
+    {
+      "stage": 23,
+      "rawCell": 0,
+      "width": 0.007474161952543642,
+      "firstDefect": 3.2526065174565133e-19,
+      "secondDefect": 2.326586729974316e-10
+    },
+    {
+      "stage": 22,
+      "rawCell": 0,
+      "width": 0.023359141299777664,
+      "firstDefect": 4.336808689942018e-19,
+      "secondDefect": 3.1853534566972375e-13
+    },
+    {
+      "stage": 21,
+      "rawCell": 0,
+      "width": 0.02921837924956425,
+      "firstDefect": 8.673617379884035e-19,
+      "secondDefect": 1.7363154100266676e-12
+    },
+    {
+      "stage": 20,
+      "rawCell": 0,
+      "width": 0.0025263837561976398,
+      "firstDefect": 5.204170427930421e-18,
+      "secondDefect": 4.5273166183849856e-11
+    },
+    {
+      "stage": 19,
+      "rawCell": 0,
+      "width": 0.019176273058248695,
+      "firstDefect": 6.5052130349130266e-18,
+      "secondDefect": 9.764259716662236e-12
+    },
+    {
+      "stage": 18,
+      "rawCell": 0,
+      "width": 0.019184571848319797,
+      "firstDefect": 1.3010426069826053e-18,
+      "secondDefect": 1.3741183077465788e-13
+    },
+    {
+      "stage": 17,
+      "rawCell": 0,
+      "width": 0.01919287423660234,
+      "firstDefect": 6.776263578034403e-19,
+      "secondDefect": 5.083215817128402e-13
+    },
+    {
+      "stage": 16,
+      "rawCell": 0,
+      "width": 0.019201180224732328,
+      "firstDefect": 4.336808689942018e-19,
+      "secondDefect": 4.370012754168883e-13
+    },
+    {
+      "stage": 15,
+      "rawCell": 0,
+      "width": 0.002261383663234051,
+      "firstDefect": 8.673617379884035e-19,
+      "secondDefect": 6.115385633190208e-12
+    },
+    {
+      "stage": 14,
+      "rawCell": 0,
+      "width": 0.00783891537740375,
+      "firstDefect": 8.89735941173031e-12,
+      "secondDefect": 1.7795527135211486e-9
+    },
+    {
+      "stage": 13,
+      "rawCell": 0,
+      "width": 0.003566961720117105,
+      "firstDefect": 2.574980159653073e-19,
+      "secondDefect": 1.288260817466913e-11
+    },
+    {
+      "stage": 12,
+      "rawCell": 0,
+      "width": 0.0006219545554563865,
+      "firstDefect": 6.098637220230962e-20,
+      "secondDefect": 1.8429450326928887e-10
+    },
+    {
+      "stage": 11,
+      "rawCell": 0,
+      "width": 0.00032001384475088915,
+      "firstDefect": 4.336808689942018e-19,
+      "secondDefect": 6.980072296796768e-11
+    },
+    {
+      "stage": 10,
+      "rawCell": 0,
+      "width": 0.0003201524448160762,
+      "firstDefect": 1.0842021724855044e-19,
+      "secondDefect": 7.618441271533372e-11
+    },
+    {
+      "stage": 9,
+      "rawCell": 0,
+      "width": 0.00032029110490984806,
+      "firstDefect": 1.2197274440461925e-19,
+      "secondDefect": 8.314522048221101e-11
+    },
+    {
+      "stage": 8,
+      "rawCell": 0,
+      "width": 0.00032042982505820264,
+      "firstDefect": 4.336808689942018e-19,
+      "secondDefect": 1.4967665019477292e-10
+    },
+    {
+      "stage": 7,
+      "rawCell": 0,
+      "width": 0.002946561181532805,
+      "firstDefect": 1.7618285302889447e-19,
+      "secondDefect": 1.0404821108263892e-9
+    },
+    {
+      "stage": 6,
+      "rawCell": 0,
+      "width": 0.0300847098953604,
+      "firstDefect": 4.2543974115998694e-18,
+      "secondDefect": 1.6904654759342108e-11
+    },
+    {
+      "stage": 5,
+      "rawCell": 0,
+      "width": 0.03630144211316589,
+      "firstDefect": 3.469446951953614e-18,
+      "secondDefect": 7.74512398660221e-12
+    },
+    {
+      "stage": 4,
+      "rawCell": 0,
+      "width": 0.002326760327385701,
+      "firstDefect": 8.673617379884035e-19,
+      "secondDefect": 1.3934542408833295e-10
+    },
+    {
+      "stage": 3,
+      "rawCell": 0,
+      "width": 0.00025810149344522755,
+      "firstDefect": 4.336808689942018e-19,
+      "secondDefect": 1.1631630641301127e-10
+    },
+    {
+      "stage": 2,
+      "rawCell": 0,
+      "width": 0.00019192124678964247,
+      "firstDefect": 2.168404344971009e-19,
+      "secondDefect": 9.334227091348929e-9
+    },
+    {
+      "stage": 1,
+      "rawCell": 0,
+      "width": 0.00008291977000059545,
+      "firstDefect": 1.3552527156068805e-20,
+      "secondDefect": 1.082474539344791e-8
+    },
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "width": 0.0000198850978356968,
+      "firstDefect": 6.505213034913027e-19,
+      "secondDefect": 1.9383907333414552e-8
+    }
+  ],
+  "totalUniqueNodes": 18553,
+  "cutMeanHeightCorrection": 0.000012803594141975518,
+  "cutBackgroundHeightApprox": 0.04928110417212175,
+  "deepBackgroundHeightApprox": 0.0000018841598255699282,
+  "finished": true
+}

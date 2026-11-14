@@ -1,0 +1,4679 @@
+{
+  "scope": "Same fixed physical metric and saved state. Actual RHS/Jacobian/root at saved stage endpoints; no new DN solve, no all-state aliasing proof.",
+  "checkpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0014.json.gz",
+  "checkpointSHA256": "af8f26102f791fd558f4a80dd94a03f556af536023f5d4ba07196bc03ed881d3",
+  "config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-tail-config.json",
+  "configSHA256": "4c5a07697c22ee2d77510783cd8171d64310224ff08857d6bc51335cfff2957e",
+  "scriptSHA256": "f46c649587d11879e94f9c2b81942ccf477437d0b80a33f8dd4406cbfa27650d",
+  "modes": 12,
+  "referenceQuadrature": 512,
+  "selectedStages": 58,
+  "maxima": [
+    {
+      "quadrature": 256,
+      "evaluations": 116,
+      "milliseconds": 180.81425599999966,
+      "rhsAbsolute": 3.9532604251958745e-13,
+      "rhsRelative": 3.5596243129848874e-14,
+      "jacobianAbsolute": 9.685754776000977e-8,
+      "jacobianRelative": 8.985979632893082e-16,
+      "rootAbsolute": 2.393918396847994e-16,
+      "rootRelative": 1.5917736480038584e-15,
+      "minimumLeading": 0.19934133624672248
+    },
+    {
+      "quadrature": 512,
+      "evaluations": 116,
+      "milliseconds": 361.8108840000018,
+      "rhsAbsolute": 0,
+      "rhsRelative": 0,
+      "jacobianAbsolute": 0,
+      "jacobianRelative": 0,
+      "rootAbsolute": 0,
+      "rootRelative": 0,
+      "minimumLeading": 0.19927706204049572
+    }
+  ],
+  "rows": [
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9875903714109525,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.244249713594274e-16,
+            "relative": 1.0489528643594448e-15
+          },
+          "jacobian": {
+            "absolute": 5.820766091346741e-11,
+            "relative": 1.8495242642852638e-17
+          },
+          "root": {
+            "absolute": 1.3245746546388201e-19,
+            "relative": 2.6027657887827854e-17
+          },
+          "minLeading": 0.9875903714109525
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9875903714109525
+        }
+      ]
+    },
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9875845060595877,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.6548741839041134e-16,
+            "relative": 1.1314708327094164e-15
+          },
+          "jacobian": {
+            "absolute": 2.546585164964199e-11,
+            "relative": 2.3815082092706072e-17
+          },
+          "root": {
+            "absolute": 1.3806580171577983e-19,
+            "relative": 2.710517675487798e-17
+          },
+          "minLeading": 0.9875845060595877
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9875845060595877
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9876113444311722,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.6496533774264984e-15,
+            "relative": 1.0726129420920492e-15
+          },
+          "jacobian": {
+            "absolute": 2.3283064365386963e-10,
+            "relative": 2.0685188600227266e-17
+          },
+          "root": {
+            "absolute": 1.367963638188465e-19,
+            "relative": 2.6955973065375365e-17
+          },
+          "minLeading": 0.9876113444311722
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9876113444311722
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9875903714109525,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.244249713594274e-16,
+            "relative": 1.0489528643594448e-15
+          },
+          "jacobian": {
+            "absolute": 5.820766091346741e-11,
+            "relative": 1.8495242642852638e-17
+          },
+          "root": {
+            "absolute": 1.3245746546388201e-19,
+            "relative": 2.6027657887827854e-17
+          },
+          "minLeading": 0.9875903714109525
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9875903714109525
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.987658461089856,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.546569204512577e-15,
+            "relative": 1.0577298987111996e-15
+          },
+          "jacobian": {
+            "absolute": 5.238689482212067e-10,
+            "relative": 2.6752868075469333e-17
+          },
+          "root": {
+            "absolute": 1.3594999003114282e-19,
+            "relative": 2.6954225559027722e-17
+          },
+          "minLeading": 0.987658461089856
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.987658461089856
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9876113444311722,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.6496533774264984e-15,
+            "relative": 1.0726129420920492e-15
+          },
+          "jacobian": {
+            "absolute": 2.3283064365386963e-10,
+            "relative": 2.0685188600227266e-17
+          },
+          "root": {
+            "absolute": 1.367963638188465e-19,
+            "relative": 2.6955973065375365e-17
+          },
+          "minLeading": 0.9876113444311722
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9876113444311722
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9877214884183058,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.0688930855603725e-15,
+            "relative": 1.0615226604125163e-15
+          },
+          "jacobian": {
+            "absolute": 1.3969838619232178e-9,
+            "relative": 6.423641544287814e-17
+          },
+          "root": {
+            "absolute": 1.250448415008529e-19,
+            "relative": 2.4996655261333983e-17
+          },
+          "minLeading": 0.9877214884183058
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9877214884183058
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.987658461089856,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.546569204512577e-15,
+            "relative": 1.0577298987111996e-15
+          },
+          "jacobian": {
+            "absolute": 5.238689482212067e-10,
+            "relative": 2.6752868075469333e-17
+          },
+          "root": {
+            "absolute": 1.3594999003114282e-19,
+            "relative": 2.6954225559027722e-17
+          },
+          "minLeading": 0.987658461089856
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.987658461089856
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9880314751228843,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.9402093517596473e-13,
+            "relative": 1.0818981761952718e-15
+          },
+          "jacobian": {
+            "absolute": 3.166496753692627e-8,
+            "relative": 3.8550365995674123e-17
+          },
+          "root": {
+            "absolute": 1.3171512256290396e-19,
+            "relative": 2.639158890757338e-17
+          },
+          "minLeading": 0.9880314751228843
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9880314751228843
+        }
+      ]
+    },
+    {
+      "stage": 4,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9877214884183058,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.0688930855603725e-15,
+            "relative": 1.0615226604125165e-15
+          },
+          "jacobian": {
+            "absolute": 1.3969838619232178e-9,
+            "relative": 6.423641544287815e-17
+          },
+          "root": {
+            "absolute": 1.250448415008529e-19,
+            "relative": 2.4996655261333983e-17
+          },
+          "minLeading": 0.9877214884183058
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9877214884183058
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9911313946302992,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.9532604251958745e-13,
+            "relative": 1.5808842414198948e-15
+          },
+          "jacobian": {
+            "absolute": 9.685754776000977e-8,
+            "relative": 7.56055258913302e-17
+          },
+          "root": {
+            "absolute": 3.4238807256341533e-19,
+            "relative": 6.407453694882255e-17
+          },
+          "minLeading": 0.9911313946302992
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9911313946302992
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9880314751228843,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.9402093517596473e-13,
+            "relative": 1.0818981761952718e-15
+          },
+          "jacobian": {
+            "absolute": 3.166496753692627e-8,
+            "relative": 3.8550365995674123e-17
+          },
+          "root": {
+            "absolute": 1.3171512256290396e-19,
+            "relative": 2.639158890757338e-17
+          },
+          "minLeading": 0.9880314751228843
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9880314751228843
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9723831512405462,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.7401529396203772e-14,
+            "relative": 6.00416695593229e-15
+          },
+          "jacobian": {
+            "absolute": 1.0710209608078003e-8,
+            "relative": 3.752121391418696e-16
+          },
+          "root": {
+            "absolute": 5.775494150853447e-18,
+            "relative": 2.554724426947772e-16
+          },
+          "minLeading": 0.9723831512405462
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9723831512405462
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9911313946302992,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.9532604251958745e-13,
+            "relative": 1.5808842414198948e-15
+          },
+          "jacobian": {
+            "absolute": 9.685754776000977e-8,
+            "relative": 7.56055258913302e-17
+          },
+          "root": {
+            "absolute": 3.4238807256341533e-19,
+            "relative": 6.407453694882255e-17
+          },
+          "minLeading": 0.9911313946302992
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9911313946302992
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9132583229250705,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.072097659035248e-17,
+            "relative": 1.1593717526284155e-14
+          },
+          "jacobian": {
+            "absolute": 1.2732925824820995e-11,
+            "relative": 5.038204949857182e-16
+          },
+          "root": {
+            "absolute": 1.736078728692414e-17,
+            "relative": 2.4788941893901736e-16
+          },
+          "minLeading": 0.9132583229250705
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9132583229250705
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9723831512405462,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.7401529396203772e-14,
+            "relative": 6.00416695593229e-15
+          },
+          "jacobian": {
+            "absolute": 1.0710209608078003e-8,
+            "relative": 3.752121391418696e-16
+          },
+          "root": {
+            "absolute": 5.775494150853447e-18,
+            "relative": 2.554724426947772e-16
+          },
+          "minLeading": 0.9723831512405462
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9723831512405462
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9141415864924339,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.842047019081862e-16,
+            "relative": 1.1204420455262472e-14
+          },
+          "jacobian": {
+            "absolute": 2.6193447411060333e-10,
+            "relative": 5.204195890997997e-16
+          },
+          "root": {
+            "absolute": 1.6595069502606252e-17,
+            "relative": 2.3895755614836926e-16
+          },
+          "minLeading": 0.9141415864924339
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9141415864924339
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9132583229250705,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.575811858265627e-16,
+            "relative": 1.0784591882530438e-14
+          },
+          "jacobian": {
+            "absolute": 2.0372681319713593e-10,
+            "relative": 4.0305639598857435e-16
+          },
+          "root": {
+            "absolute": 1.7221873883574434e-17,
+            "relative": 2.459059165626515e-16
+          },
+          "minLeading": 0.9132583229250706
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9132583229250705
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9150272584346012,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.827109593057033e-16,
+            "relative": 1.1224020475094183e-14
+          },
+          "jacobian": {
+            "absolute": 1.6007106751203537e-10,
+            "relative": 3.1938710698203553e-16
+          },
+          "root": {
+            "absolute": 1.789272397779984e-17,
+            "relative": 2.598393717932466e-16
+          },
+          "minLeading": 0.9150272584346013
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9150272584346012
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9141415864924339,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.842047019081862e-16,
+            "relative": 1.1204420455262472e-14
+          },
+          "jacobian": {
+            "absolute": 2.6193447411060333e-10,
+            "relative": 5.204195890997997e-16
+          },
+          "root": {
+            "absolute": 1.6595069502606252e-17,
+            "relative": 2.3895755614836926e-16
+          },
+          "minLeading": 0.9141415864924339
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9141415864924339
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9159153483426573,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.044959369562412e-16,
+            "relative": 1.01394470686404e-14
+          },
+          "jacobian": {
+            "absolute": 1.6007106751203537e-10,
+            "relative": 3.207459355508835e-16
+          },
+          "root": {
+            "absolute": 2.0816681711721685e-17,
+            "relative": 3.0490256922471353e-16
+          },
+          "minLeading": 0.9159153483426573
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9159153483426573
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9150272584346012,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.827109593057033e-16,
+            "relative": 1.1224020475094183e-14
+          },
+          "jacobian": {
+            "absolute": 1.6007106751203537e-10,
+            "relative": 3.1938710698203553e-16
+          },
+          "root": {
+            "absolute": 1.789272397779984e-17,
+            "relative": 2.598393717932466e-16
+          },
+          "minLeading": 0.9150272584346013
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9150272584346012
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9168058658595234,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.221193044568142e-16,
+            "relative": 1.0431221071689288e-14
+          },
+          "jacobian": {
+            "absolute": 1.8917489796876907e-10,
+            "relative": 3.806762883290156e-16
+          },
+          "root": {
+            "absolute": 1.734723475976807e-17,
+            "relative": 2.5629245709890793e-16
+          },
+          "minLeading": 0.9168058658595234
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9168058658595234
+        }
+      ]
+    },
+    {
+      "stage": 11,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9159153483426573,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.044959369562412e-16,
+            "relative": 1.01394470686404e-14
+          },
+          "jacobian": {
+            "absolute": 1.6007106751203537e-10,
+            "relative": 3.207459355508835e-16
+          },
+          "root": {
+            "absolute": 2.0816681711721685e-17,
+            "relative": 3.0490256922471353e-16
+          },
+          "minLeading": 0.9159153483426573
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9159153483426573
+        }
+      ]
+    },
+    {
+      "stage": 12,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9424460213931726,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.3753757940964005e-15,
+            "relative": 9.791320368176036e-15
+          },
+          "jacobian": {
+            "absolute": 7.566995918750763e-10,
+            "relative": 2.474033172614962e-16
+          },
+          "root": {
+            "absolute": 1.3000261674459002e-17,
+            "relative": 2.725564857432457e-16
+          },
+          "minLeading": 0.9424460213931726
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9424460213931726
+        }
+      ]
+    },
+    {
+      "stage": 12,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9168058658595233,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.802876177684349e-17,
+            "relative": 1.0986728058052788e-14
+          },
+          "jacobian": {
+            "absolute": 1.1823431123048067e-11,
+            "relative": 4.758453604112696e-16
+          },
+          "root": {
+            "absolute": 1.676786422384613e-17,
+            "relative": 2.4773268948876843e-16
+          },
+          "minLeading": 0.9168058658595234
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9168058658595233
+        }
+      ]
+    },
+    {
+      "stage": 13,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9877794877146283,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.48844220911222e-14,
+            "relative": 4.961107943441073e-15
+          },
+          "jacobian": {
+            "absolute": 3.4924596548080444e-9,
+            "relative": 1.8905946734499808e-16
+          },
+          "root": {
+            "absolute": 3.5041753027910405e-18,
+            "relative": 3.312727104704806e-16
+          },
+          "minLeading": 0.9877794877146283
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9877794877146283
+        }
+      ]
+    },
+    {
+      "stage": 13,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9424460213931726,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.3753757940964005e-15,
+            "relative": 9.791320368176036e-15
+          },
+          "jacobian": {
+            "absolute": 7.566995918750763e-10,
+            "relative": 2.474033172614962e-16
+          },
+          "root": {
+            "absolute": 1.3000261674459002e-17,
+            "relative": 2.725564857432457e-16
+          },
+          "minLeading": 0.9424460213931726
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9424460213931726
+        }
+      ]
+    },
+    {
+      "stage": 14,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9757367129522782,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1178558079194545e-14,
+            "relative": 1.2243855442716399e-14
+          },
+          "jacobian": {
+            "absolute": 1.3969838619232178e-9,
+            "relative": 2.285431666126646e-16
+          },
+          "root": {
+            "absolute": 4.5102810375396984e-17,
+            "relative": 1.5917736480038584e-15
+          },
+          "minLeading": 0.9757367129522782
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9757367129522782
+        }
+      ]
+    },
+    {
+      "stage": 14,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9877794877146283,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.48844220911222e-14,
+            "relative": 4.961107943441073e-15
+          },
+          "jacobian": {
+            "absolute": 3.4924596548080444e-9,
+            "relative": 1.8905946734499808e-16
+          },
+          "root": {
+            "absolute": 3.5041753027910405e-18,
+            "relative": 3.312727104704806e-16
+          },
+          "minLeading": 0.9877794877146283
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9877794877146283
+        }
+      ]
+    },
+    {
+      "stage": 15,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9057405419505945,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.6115581091824538e-15,
+            "relative": 2.4228864066529014e-14
+          },
+          "jacobian": {
+            "absolute": 1.7462298274040222e-10,
+            "relative": 3.3651183600544324e-16
+          },
+          "root": {
+            "absolute": 8.413408858487514e-17,
+            "relative": 7.864179643370989e-16
+          },
+          "minLeading": 0.9057405419505948
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9057405419505945
+        }
+      ]
+    },
+    {
+      "stage": 15,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9757367129522782,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1178558079194545e-14,
+            "relative": 1.2243855442716399e-14
+          },
+          "jacobian": {
+            "absolute": 1.3969838619232178e-9,
+            "relative": 2.285431666126646e-16
+          },
+          "root": {
+            "absolute": 4.5102810375396984e-17,
+            "relative": 1.5917736480038584e-15
+          },
+          "minLeading": 0.9757367129522782
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9757367129522782
+        }
+      ]
+    },
+    {
+      "stage": 16,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.6257109855878161,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.8457457784393227e-14,
+            "relative": 1.7384721244787647e-14
+          },
+          "jacobian": {
+            "absolute": 5.587935447692871e-9,
+            "relative": 7.1416835062059345e-16
+          },
+          "root": {
+            "absolute": 6.245004513516506e-17,
+            "relative": 6.267268638778812e-16
+          },
+          "minLeading": 0.6259691781405304
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.6257109855878161
+        }
+      ]
+    },
+    {
+      "stage": 16,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9057405419505945,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.222422328974517e-14,
+            "relative": 2.422364794939952e-14
+          },
+          "jacobian": {
+            "absolute": 3.259629011154175e-9,
+            "relative": 3.1407771360508037e-16
+          },
+          "root": {
+            "absolute": 8.413408858487514e-17,
+            "relative": 7.864179643370989e-16
+          },
+          "minLeading": 0.9057405419505948
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9057405419505945
+        }
+      ]
+    },
+    {
+      "stage": 17,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.3286003983303524,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.5618396293225487e-14,
+            "relative": 2.6287879303623438e-14
+          },
+          "jacobian": {
+            "absolute": 3.4924596548080444e-9,
+            "relative": 5.885958091034592e-16
+          },
+          "root": {
+            "absolute": 1.1102230246251565e-16,
+            "relative": 6.780995469718551e-16
+          },
+          "minLeading": 0.3294120939257048
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.3286003983303524
+        }
+      ]
+    },
+    {
+      "stage": 17,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.6257109855878161,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.8457457784393227e-14,
+            "relative": 1.7384721244787647e-14
+          },
+          "jacobian": {
+            "absolute": 5.587935447692871e-9,
+            "relative": 7.1416835062059345e-16
+          },
+          "root": {
+            "absolute": 6.245004513516506e-17,
+            "relative": 6.267268638778812e-16
+          },
+          "minLeading": 0.6259691781405304
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.6257109855878161
+        }
+      ]
+    },
+    {
+      "stage": 18,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.20327971624536495,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.735900477863652e-14,
+            "relative": 3.5596243129848874e-14
+          },
+          "jacobian": {
+            "absolute": 2.1245796233415604e-9,
+            "relative": 4.718955730643835e-16
+          },
+          "root": {
+            "absolute": 1.5981140022436335e-16,
+            "relative": 5.541124828016275e-16
+          },
+          "minLeading": 0.2032797162453654
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.20327971624536495
+        }
+      ]
+    },
+    {
+      "stage": 18,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.3286003983303524,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.5618396293225487e-14,
+            "relative": 2.6287879303623438e-14
+          },
+          "jacobian": {
+            "absolute": 3.4924596548080444e-9,
+            "relative": 5.885958091034592e-16
+          },
+          "root": {
+            "absolute": 1.1102230246251565e-16,
+            "relative": 6.780995469718551e-16
+          },
+          "minLeading": 0.3294120939257048
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.3286003983303524
+        }
+      ]
+    },
+    {
+      "stage": 19,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.19927706204049772,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.015407797930415e-14,
+            "relative": 2.8582324925433997e-14
+          },
+          "jacobian": {
+            "absolute": 3.14321368932724e-9,
+            "relative": 8.985979632893082e-16
+          },
+          "root": {
+            "absolute": 1.938553484404082e-16,
+            "relative": 3.941057657329507e-16
+          },
+          "minLeading": 0.19934133624672448
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.19927706204049772
+        }
+      ]
+    },
+    {
+      "stage": 19,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.20327971624536495,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.735900477863652e-14,
+            "relative": 3.5596243129848874e-14
+          },
+          "jacobian": {
+            "absolute": 2.1245796233415604e-9,
+            "relative": 4.718955730643835e-16
+          },
+          "root": {
+            "absolute": 1.5981140022436335e-16,
+            "relative": 5.541124828016275e-16
+          },
+          "minLeading": 0.2032797162453654
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.20327971624536495
+        }
+      ]
+    },
+    {
+      "stage": 20,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9186259497419076,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.49747486317176e-15,
+            "relative": 5.553120728718291e-15
+          },
+          "jacobian": {
+            "absolute": 7.421476766467094e-10,
+            "relative": 2.6813831290587294e-16
+          },
+          "root": {
+            "absolute": 2.0816681711721685e-17,
+            "relative": 2.5377647913983967e-16
+          },
+          "minLeading": 0.9186486600520981
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9186259497419076
+        }
+      ]
+    },
+    {
+      "stage": 20,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.19927706204049572,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.854866629215357e-15,
+            "relative": 2.6406483902782278e-14
+          },
+          "jacobian": {
+            "absolute": 1.4915713109076023e-10,
+            "relative": 8.528360299736496e-16
+          },
+          "root": {
+            "absolute": 2.393918396847994e-16,
+            "relative": 4.866809456031064e-16
+          },
+          "minLeading": 0.19934133624672248
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.19927706204049572
+        }
+      ]
+    },
+    {
+      "stage": 21,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9870088944184698,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 6.106226635438361e-15,
+            "relative": 2.46607060607288e-16
+          },
+          "jacobian": {
+            "absolute": 8.476490620523691e-10,
+            "relative": 8.680792883073568e-18
+          },
+          "root": {
+            "absolute": 5.421010862427522e-20,
+            "relative": 6.594850711099376e-18
+          },
+          "minLeading": 0.9870088944184698
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9870088944184698
+        }
+      ]
+    },
+    {
+      "stage": 21,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9186259497419076,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.49747486317176e-15,
+            "relative": 5.553120728718291e-15
+          },
+          "jacobian": {
+            "absolute": 7.421476766467094e-10,
+            "relative": 2.6813831290587294e-16
+          },
+          "root": {
+            "absolute": 2.0816681711721685e-17,
+            "relative": 2.5377647913983967e-16
+          },
+          "minLeading": 0.9186486600520981
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9186259497419076
+        }
+      ]
+    },
+    {
+      "stage": 22,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9944640418246147,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1657341758564144e-15,
+            "relative": 1.1335956984969146e-16
+          },
+          "jacobian": {
+            "absolute": 4.656612873077393e-10,
+            "relative": 6.996775873167225e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 9.784596237089516e-19
+          },
+          "minLeading": 0.9944640418246147
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9944640418246147
+        }
+      ]
+    },
+    {
+      "stage": 22,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9870088944184698,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 6.106226635438361e-15,
+            "relative": 2.46607060607288e-16
+          },
+          "jacobian": {
+            "absolute": 8.476490620523691e-10,
+            "relative": 8.680792883073568e-18
+          },
+          "root": {
+            "absolute": 5.421010862427522e-20,
+            "relative": 6.594850711099376e-18
+          },
+          "minLeading": 0.9870088944184698
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9870088944184698
+        }
+      ]
+    },
+    {
+      "stage": 23,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9962433243792717,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1926223897340549e-17,
+            "relative": 9.745625071574586e-17
+          },
+          "jacobian": {
+            "absolute": 1.7053025658242404e-12,
+            "relative": 3.265026803186112e-18
+          },
+          "root": {
+            "absolute": 6.776263578034403e-21,
+            "relative": 3.0628226609702707e-18
+          },
+          "minLeading": 0.9962433243792717
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9962433243792717
+        }
+      ]
+    },
+    {
+      "stage": 23,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9944640418246147,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1657341758564144e-15,
+            "relative": 1.1335956984969146e-16
+          },
+          "jacobian": {
+            "absolute": 4.656612873077393e-10,
+            "relative": 6.996775873167225e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 9.784596237089516e-19
+          },
+          "minLeading": 0.9944640418246147
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9944640418246147
+        }
+      ]
+    },
+    {
+      "stage": 24,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9965709496423781,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.3332030751888055e-16,
+            "relative": 9.918296939842423e-17
+          },
+          "jacobian": {
+            "absolute": 2.9103830456733704e-11,
+            "relative": 2.914113515044465e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 1.6855548753059513e-18
+          },
+          "minLeading": 0.9965709496423781
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9965709496423781
+        }
+      ]
+    },
+    {
+      "stage": 24,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9962433243792717,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.3765711620882257e-16,
+            "relative": 9.710186434950678e-17
+          },
+          "jacobian": {
+            "absolute": 3.456079866737127e-11,
+            "relative": 3.3085604938952603e-18
+          },
+          "root": {
+            "absolute": 6.776263578034403e-21,
+            "relative": 3.0628226609702707e-18
+          },
+          "minLeading": 0.9962433243792717
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9962433243792717
+        }
+      ]
+    },
+    {
+      "stage": 25,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9969035660687051,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.8041124150158794e-16,
+            "relative": 7.984743911675959e-17
+          },
+          "jacobian": {
+            "absolute": 2.091837814077735e-11,
+            "relative": 2.191396961817183e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 1.8772657046520414e-18
+          },
+          "minLeading": 0.9969035660687051
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9969035660687051
+        }
+      ]
+    },
+    {
+      "stage": 25,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9965709496423781,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.3332030751888055e-16,
+            "relative": 9.918296939842423e-17
+          },
+          "jacobian": {
+            "absolute": 2.9103830456733704e-11,
+            "relative": 2.914113515044465e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 1.6855548753059513e-18
+          },
+          "minLeading": 0.9965709496423781
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9965709496423781
+        }
+      ]
+    },
+    {
+      "stage": 26,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9972412885367654,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.457167719820518e-16,
+            "relative": 6.719525933553069e-17
+          },
+          "jacobian": {
+            "absolute": 2.3646862246096134e-11,
+            "relative": 2.592632789243361e-18
+          },
+          "root": {
+            "absolute": 2.541098841762901e-21,
+            "relative": 1.591637394266665e-18
+          },
+          "minLeading": 0.9972412885367654
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9972412885367654
+        }
+      ]
+    },
+    {
+      "stage": 26,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9969035660687051,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.8041124150158794e-16,
+            "relative": 7.984743911675959e-17
+          },
+          "jacobian": {
+            "absolute": 2.091837814077735e-11,
+            "relative": 2.191396961817183e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 1.8772657046520414e-18
+          },
+          "minLeading": 0.9969035660687051
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9969035660687051
+        }
+      ]
+    },
+    {
+      "stage": 27,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9975842354770839,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.2750217548429532e-16,
+            "relative": 6.130729426661041e-17
+          },
+          "jacobian": {
+            "absolute": 1.8189894035458565e-11,
+            "relative": 2.087910283964398e-18
+          },
+          "root": {
+            "absolute": 1.6940658945086007e-21,
+            "relative": 1.2230132023883332e-18
+          },
+          "minLeading": 0.9975842354770839
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9975842354770839
+        }
+      ]
+    },
+    {
+      "stage": 27,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9972412885367654,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.457167719820518e-16,
+            "relative": 6.719525933553069e-17
+          },
+          "jacobian": {
+            "absolute": 2.3646862246096134e-11,
+            "relative": 2.592632789243361e-18
+          },
+          "root": {
+            "absolute": 2.541098841762901e-21,
+            "relative": 1.591637394266665e-18
+          },
+          "minLeading": 0.9972412885367654
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9972412885367654
+        }
+      ]
+    },
+    {
+      "stage": 28,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9983997233957933,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.199833619240479e-16,
+            "relative": 5.094310894096926e-17
+          },
+          "jacobian": {
+            "absolute": 2.1827872842550278e-10,
+            "relative": 3.540174469337428e-18
+          },
+          "root": {
+            "absolute": 1.6940658945086007e-21,
+            "relative": 1.6599307744248297e-18
+          },
+          "minLeading": 0.9983997233957933
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9983997233957933
+        }
+      ]
+    },
+    {
+      "stage": 28,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9975842354770839,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.9631119486702744e-18,
+            "relative": 5.734525824257762e-17
+          },
+          "jacobian": {
+            "absolute": 8.384404281969182e-13,
+            "relative": 1.9247922930296775e-18
+          },
+          "root": {
+            "absolute": 3.3881317890172014e-21,
+            "relative": 2.4460264047766665e-18
+          },
+          "minLeading": 0.9975842354770839
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9975842354770839
+        }
+      ]
+    },
+    {
+      "stage": 29,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9991850208182784,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.025392509840287e-17,
+            "relative": 5.250834683381752e-17
+          },
+          "jacobian": {
+            "absolute": 1.1823431123048067e-11,
+            "relative": 1.852322566884492e-18
+          },
+          "root": {
+            "absolute": 1.1464707134113625e-21,
+            "relative": 2.339813216733798e-18
+          },
+          "minLeading": 0.9991850208182784
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9991850208182784
+        }
+      ]
+    },
+    {
+      "stage": 29,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9983997233957933,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.199833619240479e-16,
+            "relative": 5.094310894096926e-17
+          },
+          "jacobian": {
+            "absolute": 2.1827872842550278e-10,
+            "relative": 3.540174469337428e-18
+          },
+          "root": {
+            "absolute": 1.6940658945086007e-21,
+            "relative": 1.6599307744248297e-18
+          },
+          "minLeading": 0.9983997233957933
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9983997233957933
+        }
+      ]
+    },
+    {
+      "stage": 30,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.998188146680582,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.2338180512314722e-18,
+            "relative": 1.4336283539821862e-16
+          },
+          "jacobian": {
+            "absolute": 4.547473508864641e-13,
+            "relative": 1.5425897845217912e-18
+          },
+          "root": {
+            "absolute": 4.5031663196248596e-21,
+            "relative": 4.625787601380827e-18
+          },
+          "minLeading": 0.998188146680582
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.998188146680582
+        }
+      ]
+    },
+    {
+      "stage": 30,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9991850208182784,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.025392509840287e-17,
+            "relative": 5.250834683381752e-17
+          },
+          "jacobian": {
+            "absolute": 1.1823431123048067e-11,
+            "relative": 1.852322566884492e-18
+          },
+          "root": {
+            "absolute": 1.1464707134113625e-21,
+            "relative": 2.339813216733798e-18
+          },
+          "minLeading": 0.9991850208182784
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9991850208182784
+        }
+      ]
+    },
+    {
+      "stage": 31,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9969938463596079,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 8.044938087327777e-20,
+            "relative": 2.292121690212147e-16
+          },
+          "jacobian": {
+            "absolute": 4.263256414560601e-14,
+            "relative": 2.4845755964051415e-18
+          },
+          "root": {
+            "absolute": 6.888725454338751e-21,
+            "relative": 4.282721988064968e-18
+          },
+          "minLeading": 0.9969938463596079
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9969938463596079
+        }
+      ]
+    },
+    {
+      "stage": 31,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.998188146680582,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.2338180512314722e-18,
+            "relative": 1.4336283539821862e-16
+          },
+          "jacobian": {
+            "absolute": 4.547473508864641e-13,
+            "relative": 1.5425897845217912e-18
+          },
+          "root": {
+            "absolute": 4.5031663196248596e-21,
+            "relative": 4.625787601380827e-18
+          },
+          "minLeading": 0.998188146680582
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.998188146680582
+        }
+      ]
+    },
+    {
+      "stage": 32,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9970483288226649,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.680571749303055e-20,
+            "relative": 2.2008898491348698e-16
+          },
+          "jacobian": {
+            "absolute": 9.237055564881302e-14,
+            "relative": 5.417525175287515e-18
+          },
+          "root": {
+            "absolute": 6.597510311196361e-21,
+            "relative": 4.176183443579886e-18
+          },
+          "minLeading": 0.9970483288226649
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9970483288226649
+        }
+      ]
+    },
+    {
+      "stage": 32,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9969938463596079,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 8.044938087327777e-20,
+            "relative": 2.292121690212147e-16
+          },
+          "jacobian": {
+            "absolute": 4.263256414560601e-14,
+            "relative": 2.4845755964051415e-18
+          },
+          "root": {
+            "absolute": 6.888725454338751e-21,
+            "relative": 4.282721988064968e-18
+          },
+          "minLeading": 0.9969938463596079
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9969938463596079
+        }
+      ]
+    },
+    {
+      "stage": 33,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9971029309497925,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.714696957536469e-20,
+            "relative": 2.223412513608699e-16
+          },
+          "jacobian": {
+            "absolute": 7.815970093361102e-14,
+            "relative": 4.613279148123931e-18
+          },
+          "root": {
+            "absolute": 6.6306741830017555e-21,
+            "relative": 4.27499759251838e-18
+          },
+          "minLeading": 0.9971029309497925
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9971029309497925
+        }
+      ]
+    },
+    {
+      "stage": 33,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9970483288226649,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.680571749303055e-20,
+            "relative": 2.2008898491348698e-16
+          },
+          "jacobian": {
+            "absolute": 9.237055564881302e-14,
+            "relative": 5.417525175287515e-18
+          },
+          "root": {
+            "absolute": 6.597510311196361e-21,
+            "relative": 4.176183443579886e-18
+          },
+          "minLeading": 0.9970483288226649
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9970483288226649
+        }
+      ]
+    },
+    {
+      "stage": 34,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9971576531331174,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.498772161578719e-20,
+            "relative": 2.1736740421518143e-16
+          },
+          "jacobian": {
+            "absolute": 6.750155989720952e-14,
+            "relative": 4.009617698839989e-18
+          },
+          "root": {
+            "absolute": 6.478417630632159e-21,
+            "relative": 4.255909674101764e-18
+          },
+          "minLeading": 0.9971576531331174
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9971576531331174
+        }
+      ]
+    },
+    {
+      "stage": 34,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9971029309497925,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.714696957536469e-20,
+            "relative": 2.223412513608699e-16
+          },
+          "jacobian": {
+            "absolute": 7.815970093361102e-14,
+            "relative": 4.613279148123931e-18
+          },
+          "root": {
+            "absolute": 6.6306741830017555e-21,
+            "relative": 4.27499759251838e-18
+          },
+          "minLeading": 0.9971029309497925
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9971029309497925
+        }
+      ]
+    },
+    {
+      "stage": 35,
+      "rawCell": 0,
+      "x": 0,
+      "minLeadingReference": 0.9972124957664931,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.29203275589957e-20,
+            "relative": 2.125997109932485e-16
+          },
+          "jacobian": {
+            "absolute": 3.552713678800501e-14,
+            "relative": 2.1238044746435044e-18
+          },
+          "root": {
+            "absolute": 6.776263578034403e-21,
+            "relative": 4.537664194816966e-18
+          },
+          "minLeading": 0.9972124957664931
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9972124957664931
+        }
+      ]
+    },
+    {
+      "stage": 35,
+      "rawCell": 0,
+      "x": 1,
+      "minLeadingReference": 0.9971576531331174,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.498772161578719e-20,
+            "relative": 2.1736740421518143e-16
+          },
+          "jacobian": {
+            "absolute": 6.750155989720952e-14,
+            "relative": 4.009617698839989e-18
+          },
+          "root": {
+            "absolute": 6.478417630632159e-21,
+            "relative": 4.255909674101764e-18
+          },
+          "minLeading": 0.9971576531331174
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9971576531331174
+        }
+      ]
+    },
+    {
+      "stage": 36,
+      "rawCell": 1,
+      "x": 0,
+      "minLeadingReference": 0.9972319144605681,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.7753661827752925e-19,
+            "relative": 2.180737890604991e-16
+          },
+          "jacobian": {
+            "absolute": 1.4210854715202004e-13,
+            "relative": 3.579854258345687e-18
+          },
+          "root": {
+            "absolute": 6.465179850839384e-21,
+            "relative": 4.359197529272336e-18
+          },
+          "minLeading": 0.9972319144605681
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9972319144605681
+        }
+      ]
+    },
+    {
+      "stage": 36,
+      "rawCell": 1,
+      "x": 1,
+      "minLeadingReference": 0.9972124957664931,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.7343474474466157e-19,
+            "relative": 2.1259971101983435e-16
+          },
+          "jacobian": {
+            "absolute": 7.815970093361102e-14,
+            "relative": 1.9644895263702738e-18
+          },
+          "root": {
+            "absolute": 6.776263578034403e-21,
+            "relative": 4.537664194816966e-18
+          },
+          "minLeading": 0.9972124957664931
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9972124957664931
+        }
+      ]
+    },
+    {
+      "stage": 71,
+      "rawCell": 1,
+      "x": 0,
+      "minLeadingReference": 0.9998991264967714,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 7.842193107635638e-23,
+            "relative": 1.3548072690437312e-17
+          },
+          "jacobian": {
+            "absolute": 2.220446049250313e-15,
+            "relative": 2.9953331754444308e-19
+          },
+          "root": {
+            "absolute": 2.2669918662781415e-23,
+            "relative": 2.441424838380031e-19
+          },
+          "minLeading": 0.9998991264967714
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998991264967714
+        }
+      ]
+    },
+    {
+      "stage": 71,
+      "rawCell": 1,
+      "x": 1,
+      "minLeadingReference": 0.9998985597860102,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 8.227470249390683e-23,
+            "relative": 1.418149997322486e-17
+          },
+          "jacobian": {
+            "absolute": 1.7763568394002505e-15,
+            "relative": 2.3899434876023973e-19
+          },
+          "root": {
+            "absolute": 3.3087224502121107e-23,
+            "relative": 3.5459307727224474e-19
+          },
+          "minLeading": 0.9998985618012788
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998985597860102
+        }
+      ]
+    },
+    {
+      "stage": 72,
+      "rawCell": 2,
+      "x": 0,
+      "minLeadingReference": 0.999899325959859,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.993165371865955e-22,
+            "relative": 1.4489187337484658e-17
+          },
+          "jacobian": {
+            "absolute": 2.6645352591003757e-15,
+            "relative": 1.5126717970948241e-19
+          },
+          "root": {
+            "absolute": 2.2825015027635107e-23,
+            "relative": 2.462397277501044e-19
+          },
+          "minLeading": 0.9998993262502875
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999899325959859
+        }
+      ]
+    },
+    {
+      "stage": 72,
+      "rawCell": 2,
+      "x": 1,
+      "minLeadingReference": 0.9998991264967714,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.8608480282936795e-22,
+            "relative": 1.3516473520176161e-17
+          },
+          "jacobian": {
+            "absolute": 4.884981308350689e-15,
+            "relative": 2.770641422693915e-19
+          },
+          "root": {
+            "absolute": 3.970466940254533e-23,
+            "relative": 4.275973263114877e-19
+          },
+          "minLeading": 0.9998991264967714
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998991264967714
+        }
+      ]
+    },
+    {
+      "stage": 107,
+      "rawCell": 2,
+      "x": 0,
+      "minLeadingReference": 0.999854577509495,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.536852838593756e-25,
+            "relative": 7.925893490502273e-18
+          },
+          "jacobian": {
+            "absolute": 1.3964523981613297e-16,
+            "relative": 1.0766517448658084e-19
+          },
+          "root": {
+            "absolute": 5.463825756681687e-24,
+            "relative": 4.775979775778455e-20
+          },
+          "minLeading": 0.999854577509495
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999854577509495
+        }
+      ]
+    },
+    {
+      "stage": 107,
+      "rawCell": 2,
+      "x": 1,
+      "minLeadingReference": 0.9998546289868818,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.891861939618104e-25,
+            "relative": 8.43421885737008e-18
+          },
+          "jacobian": {
+            "absolute": 1.3617579286417936e-16,
+            "relative": 1.0487885074671911e-19
+          },
+          "root": {
+            "absolute": 5.8095944615370195e-24,
+            "relative": 5.082640277238557e-20
+          },
+          "minLeading": 0.9998546289868818
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998546289868818
+        }
+      ]
+    },
+    {
+      "stage": 108,
+      "rawCell": 3,
+      "x": 0,
+      "minLeadingReference": 0.9998545593060608,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.286357036582214e-24,
+            "relative": 9.82909808055468e-18
+          },
+          "jacobian": {
+            "absolute": 3.400058012914542e-16,
+            "relative": 1.1025822333272212e-19
+          },
+          "root": {
+            "absolute": 5.3507692192776126e-24,
+            "relative": 4.6757178595239174e-20
+          },
+          "minLeading": 0.9998545593060608
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998545593060608
+        }
+      ]
+    },
+    {
+      "stage": 108,
+      "rawCell": 3,
+      "x": 1,
+      "minLeadingReference": 0.999854577509495,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.3371084553049023e-24,
+            "relative": 1.0212683334292212e-17
+          },
+          "jacobian": {
+            "absolute": 3.5561831257524545e-16,
+            "relative": 1.1527781460281712e-19
+          },
+          "root": {
+            "absolute": 5.5510557769097304e-24,
+            "relative": 4.852228329631061e-20
+          },
+          "minLeading": 0.999854577509495
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999854577509495
+        }
+      ]
+    },
+    {
+      "stage": 143,
+      "rawCell": 3,
+      "x": 0,
+      "minLeadingReference": 0.999885378287552,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.4070464323514102e-26,
+            "relative": 3.8174136063716844e-18
+          },
+          "jacobian": {
+            "absolute": 2.0491421059976034e-17,
+            "relative": 8.567638212539405e-20
+          },
+          "root": {
+            "absolute": 3.667398588028836e-24,
+            "relative": 4.54732035155986e-20
+          },
+          "minLeading": 0.999885378287552
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999885378287552
+        }
+      ]
+    },
+    {
+      "stage": 143,
+      "rawCell": 3,
+      "x": 1,
+      "minLeadingReference": 0.9998854455488629,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.413303512190915e-26,
+            "relative": 3.8344115075815734e-18
+          },
+          "jacobian": {
+            "absolute": 2.0477868532819965e-17,
+            "relative": 8.558384906415632e-20
+          },
+          "root": {
+            "absolute": 3.6673817555666316e-24,
+            "relative": 4.549926163094904e-20
+          },
+          "minLeading": 0.9998854455488629
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998854455488629
+        }
+      ]
+    },
+    {
+      "stage": 144,
+      "rawCell": 4,
+      "x": 0,
+      "minLeadingReference": 0.9998853545052192,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.397418837834062e-26,
+            "relative": 5.984623862921294e-18
+          },
+          "jacobian": {
+            "absolute": 4.743384504624082e-17,
+            "relative": 8.339772806807583e-20
+          },
+          "root": {
+            "absolute": 3.677075299842602e-24,
+            "relative": 4.55838833133823e-20
+          },
+          "minLeading": 0.9998853545052192
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9998853545052192
+        }
+      ]
+    },
+    {
+      "stage": 144,
+      "rawCell": 4,
+      "x": 1,
+      "minLeadingReference": 0.999885378287552,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.403635708049182e-26,
+            "relative": 5.994255929429905e-18
+          },
+          "jacobian": {
+            "absolute": 5.095750210681871e-17,
+            "relative": 8.95797154035476e-20
+          },
+          "root": {
+            "absolute": 3.719077961114441e-24,
+            "relative": 4.611399196372431e-20
+          },
+          "minLeading": 0.999885378287552
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999885378287552
+        }
+      ]
+    },
+    {
+      "stage": 179,
+      "rawCell": 4,
+      "x": 0,
+      "minLeadingReference": 0.9999832045212377,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.2080269239866639e-29,
+            "relative": 6.223793597319751e-20
+          },
+          "jacobian": {
+            "absolute": 5.826527885925518e-19,
+            "relative": 1.224256479526897e-20
+          },
+          "root": {
+            "absolute": 7.971965439358889e-26,
+            "relative": 6.7217596690973975e-21
+          },
+          "minLeading": 0.9999832045212377
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999832045212377
+        }
+      ]
+    },
+    {
+      "stage": 179,
+      "rawCell": 4,
+      "x": 1,
+      "minLeadingReference": 0.9999832085672687,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.2557541821403633e-29,
+            "relative": 6.469699099504736e-20
+          },
+          "jacobian": {
+            "absolute": 6.215104250478429e-19,
+            "relative": 1.305690077421982e-20
+          },
+          "root": {
+            "absolute": 9.04728794979874e-26,
+            "relative": 7.630274773271765e-21
+          },
+          "minLeading": 0.9999832085672687
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999832085672687
+        }
+      ]
+    },
+    {
+      "stage": 180,
+      "rawCell": 5,
+      "x": 0,
+      "minLeadingReference": 0.9999832030907049,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.9574001640776554e-29,
+            "relative": 4.309564074813644e-19
+          },
+          "jacobian": {
+            "absolute": 1.4308504061493268e-18,
+            "relative": 1.2641377031346139e-20
+          },
+          "root": {
+            "absolute": 9.04728794979874e-26,
+            "relative": 7.627797479426582e-21
+          },
+          "minLeading": 0.9999832030907049
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999832030907049
+        }
+      ]
+    },
+    {
+      "stage": 180,
+      "rawCell": 5,
+      "x": 1,
+      "minLeadingReference": 0.9999832045212377,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.923453936303021e-29,
+            "relative": 4.2601002233471357e-19
+          },
+          "jacobian": {
+            "absolute": 1.469602163486211e-18,
+            "relative": 1.298299440632011e-20
+          },
+          "root": {
+            "absolute": 7.896239464626866e-26,
+            "relative": 6.657909442107784e-21
+          },
+          "minLeading": 0.9999832045212377
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999832045212377
+        }
+      ]
+    },
+    {
+      "stage": 215,
+      "rawCell": 5,
+      "x": 0,
+      "minLeadingReference": 0.9999999508233334,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.228262686983039e-36,
+            "relative": 4.140841033549814e-25
+          },
+          "jacobian": {
+            "absolute": 3.7659982325890813e-22,
+            "relative": 3.772597804005145e-23
+          },
+          "root": {
+            "absolute": 1.1832913578315177e-30,
+            "relative": 3.406466409843087e-23
+          },
+          "minLeading": 0.9999999508233334
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999508233334
+        }
+      ]
+    },
+    {
+      "stage": 215,
+      "rawCell": 5,
+      "x": 1,
+      "minLeadingReference": 0.999999950827935,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.1140124189707194e-36,
+            "relative": 4.028955843856741e-25
+          },
+          "jacobian": {
+            "absolute": 3.7194693231329735e-22,
+            "relative": 3.725752521062866e-23
+          },
+          "root": {
+            "absolute": 6.725347228861418e-31,
+            "relative": 1.9362776810409435e-23
+          },
+          "minLeading": 0.999999950827935
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.999999950827935
+        }
+      ]
+    },
+    {
+      "stage": 216,
+      "rawCell": 6,
+      "x": 0,
+      "minLeadingReference": 0.9999999508217065,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 9.951567319857882e-36,
+            "relative": 2.756531541264262e-24
+          },
+          "jacobian": {
+            "absolute": 1.164670302474663e-21,
+            "relative": 4.905525986763791e-23
+          },
+          "root": {
+            "absolute": 2.3665827156630354e-30,
+            "relative": 6.812708156371013e-23
+          },
+          "minLeading": 0.9999999508217065
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999508217065
+        }
+      ]
+    },
+    {
+      "stage": 216,
+      "rawCell": 6,
+      "x": 1,
+      "minLeadingReference": 0.9999999508233334,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.0291145892411087e-35,
+            "relative": 2.8505937340173024e-24
+          },
+          "jacobian": {
+            "absolute": 8.684879443923945e-22,
+            "relative": 3.6579409928620534e-23
+          },
+          "root": {
+            "absolute": 7.029644159148399e-31,
+            "relative": 2.0236982669401368e-23
+          },
+          "minLeading": 0.9999999508233334
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999508233334
+        }
+      ]
+    },
+    {
+      "stage": 251,
+      "rawCell": 6,
+      "x": 0,
+      "minLeadingReference": 0.9999999999997111,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 6.84237824948271e-48,
+            "relative": 1.2743746471041018e-35
+          },
+          "jacobian": {
+            "absolute": 5.565413686334238e-28,
+            "relative": 2.210002580062135e-28
+          },
+          "root": {
+            "absolute": 2.428169978982043e-41,
+            "relative": 1.1875432401149794e-28
+          },
+          "minLeading": 0.9999999999997111
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999999997111
+        }
+      ]
+    },
+    {
+      "stage": 251,
+      "rawCell": 6,
+      "x": 1,
+      "minLeadingReference": 0.9999999999997111,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 6.692754521910268e-48,
+            "relative": 1.2465079443163746e-35
+          },
+          "jacobian": {
+            "absolute": 5.205988936392915e-28,
+            "relative": 2.067227747055941e-28
+          },
+          "root": {
+            "absolute": 2.304855714121459e-41,
+            "relative": 1.1272733234190705e-28
+          },
+          "minLeading": 0.9999999999997111
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999999997111
+        }
+      ]
+    },
+    {
+      "stage": 252,
+      "rawCell": 7,
+      "x": 0,
+      "minLeadingReference": 0.9999999999997111,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.5811417621684608e-47,
+            "relative": 8.329248295032079e-35
+          },
+          "jacobian": {
+            "absolute": 1.2346659242840361e-27,
+            "relative": 2.0613935768234002e-28
+          },
+          "root": {
+            "absolute": 2.4236858238962036e-41,
+            "relative": 1.1853355686145309e-28
+          },
+          "minLeading": 0.9999999999997111
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999999997111
+        }
+      ]
+    },
+    {
+      "stage": 252,
+      "rawCell": 7,
+      "x": 1,
+      "minLeadingReference": 0.9999999999997111,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.6021849037915053e-47,
+            "relative": 8.440101573824572e-35
+          },
+          "jacobian": {
+            "absolute": 1.379619115618397e-27,
+            "relative": 2.303387669439628e-28
+          },
+          "root": {
+            "absolute": 2.390054660752408e-41,
+            "relative": 1.1689022104917453e-28
+          },
+          "minLeading": 0.9999999999997111
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 0.9999999999997111
+        }
+      ]
+    },
+    {
+      "stage": 287,
+      "rawCell": 7,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.363533310607048e-60,
+            "relative": 8.373799594894216e-47
+          },
+          "jacobian": {
+            "absolute": 9.62964972193618e-34,
+            "relative": 1.2315036823105684e-33
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 287,
+      "rawCell": 7,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.39381526962126e-60,
+            "relative": 8.48108678780746e-47
+          },
+          "jacobian": {
+            "absolute": 8.665744354261904e-34,
+            "relative": 1.108223603413131e-33
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 288,
+      "rawCell": 8,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.590049040550571e-60,
+            "relative": 5.601720466613574e-46
+          },
+          "jacobian": {
+            "absolute": 2.1122575539360766e-33,
+            "relative": 1.1357582782997035e-33
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 288,
+      "rawCell": 8,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.723262953928819e-60,
+            "relative": 5.735212698323105e-46
+          },
+          "jacobian": {
+            "absolute": 2.311115933264683e-33,
+            "relative": 1.242680438192048e-33
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 323,
+      "rawCell": 8,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.204214697922102e-72,
+            "relative": 1.4857269247836605e-57
+          },
+          "jacobian": {
+            "absolute": 1.2517767652598144e-39,
+            "relative": 4.7872004608238954e-39
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 323,
+      "rawCell": 8,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 2.1843763392299807e-72,
+            "relative": 1.4723551417384775e-57
+          },
+          "jacobian": {
+            "absolute": 1.3050656935857746e-39,
+            "relative": 4.990979427950333e-39
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 324,
+      "rawCell": 9,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.281591916409701e-72,
+            "relative": 1.0069199156872141e-56
+          },
+          "jacobian": {
+            "absolute": 3.099071746694532e-39,
+            "relative": 4.983096880431907e-39
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 324,
+      "rawCell": 9,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.229429998097466e-72,
+            "relative": 9.969754110421015e-57
+          },
+          "jacobian": {
+            "absolute": 3.062680025576017e-39,
+            "relative": 4.924576167952632e-39
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 359,
+      "rawCell": 9,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.324925053536134e-84,
+            "relative": 1.6991328341503037e-68
+          },
+          "jacobian": {
+            "absolute": 1.7516230804060213e-45,
+            "relative": 1.941570148284138e-44
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 359,
+      "rawCell": 9,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.3376926238206803e-84,
+            "relative": 1.71550645717965e-68
+          },
+          "jacobian": {
+            "absolute": 1.5452227721732938e-45,
+            "relative": 1.712785815813934e-44
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 360,
+      "rawCell": 10,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.1519207685047416e-84,
+            "relative": 1.1432897332004033e-67
+          },
+          "jacobian": {
+            "absolute": 3.6866681470458016e-45,
+            "relative": 1.718142358419007e-44
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 360,
+      "rawCell": 10,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 3.172782452094871e-84,
+            "relative": 1.1508568533147542e-67
+          },
+          "jacobian": {
+            "absolute": 4.5542200090556555e-45,
+            "relative": 2.122457190952481e-44
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 395,
+      "rawCell": 10,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 4.931990593383017e-97,
+            "relative": 1.2034345541521828e-79
+          },
+          "jacobian": {
+            "absolute": 1.44039210986964e-51,
+            "relative": 4.565590648980716e-50
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 395,
+      "rawCell": 10,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 5.025715559468163e-97,
+            "relative": 1.2263039989767173e-79
+          },
+          "jacobian": {
+            "absolute": 1.4111190310673446e-51,
+            "relative": 4.4728024710482565e-50
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 396,
+      "rawCell": 11,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1795629878033078e-96,
+            "relative": 8.140786541932037e-79
+          },
+          "jacobian": {
+            "absolute": 3.470383764902142e-51,
+            "relative": 4.624942134901213e-50
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 396,
+      "rawCell": 11,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.1935074339769515e-96,
+            "relative": 8.237024533914666e-79
+          },
+          "jacobian": {
+            "absolute": 3.4960707689204175e-51,
+            "relative": 4.659174291462349e-50
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 431,
+      "rawCell": 11,
+      "x": 0,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.0977552712521014e-109,
+            "relative": 5.096553933910846e-91
+          },
+          "jacobian": {
+            "absolute": 1.0571389329091788e-57,
+            "relative": 9.524963905609149e-56
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    },
+    {
+      "stage": 431,
+      "rawCell": 11,
+      "x": 1,
+      "minLeadingReference": 1,
+      "comparisons": [
+        {
+          "quadrature": 256,
+          "rhs": {
+            "absolute": 1.0977552712521014e-109,
+            "relative": 5.096553941054224e-91
+          },
+          "jacobian": {
+            "absolute": 1.0233785054781777e-57,
+            "relative": 9.220776667618772e-56
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        },
+        {
+          "quadrature": 512,
+          "rhs": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "jacobian": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "root": {
+            "absolute": 0,
+            "relative": 0
+          },
+          "minLeading": 1
+        }
+      ]
+    }
+  ]
+}

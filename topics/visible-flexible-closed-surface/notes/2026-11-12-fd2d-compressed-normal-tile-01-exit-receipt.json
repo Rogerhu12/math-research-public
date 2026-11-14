@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-real-tool-exit-receipt-v1",
+  "completed_check": {
+    "chunk_id": "cb0a2e",
+    "exit_code": 0,
+    "tool_wall_seconds": 0.957320375,
+    "internal_seconds": 0.06525933100056136
+  },
+  "post_outage_readonly_identity": {
+    "chunk_id": "4f8e0e",
+    "exit_code": 0,
+    "helper_sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+  },
+  "later_failed_or_unstarted_reads": {
+    "functions_cell": "g4:30",
+    "reason": "exec-server transport disconnected; first subprocess never created; dependent patch/rerun did not execute"
+  },
+  "API_recovery_branch_is_not_this_source": "fd2d-geometry-recovery-20261113",
+  "no_F_J_normal_assembly_QP_BVP_or_body": true
+}

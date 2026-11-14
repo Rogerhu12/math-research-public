@@ -1,0 +1,133 @@
+{
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "stem": "2026-11-10-78718-numerical-m14-restart8000-02",
+  "session_id": 72917,
+  "tool_receipt": "dc2cc9",
+  "actual_exit_code": 0,
+  "observed_at_utc": "2026-11-10 08:17:47 UTC",
+  "observation_scope": "Actual root orchestration tool return; timestamp is the recording time, not exact process wall-end. Guard metadata is not used to infer an exit.",
+  "tool_return_metadata": {
+    "chunk_id": "dc2cc9",
+    "wall_time_seconds": 4.57520895,
+    "exit_code": 0,
+    "original_token_count": 86
+  },
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-root-tool-observation-v1.py",
+    "bytes": 3721,
+    "sha256": "d7115aa54f2148ea579161e164de5c79585269dc5522f13b1b1bb228c8d4440b"
+  },
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-first-audit-01.json",
+      "bytes": 1078,
+      "sha256": "3ef5e19cf19dbcf36ddccfb1a091d763d52176fad8b26d34d3505b65ecbe65bc"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "708c447b13a2ddac801873dff66f5f7c6493409aebdc8c0bf92f95700febc25b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-guard-completion.json",
+      "bytes": 1307,
+      "sha256": "97f670d63614b287393e6f9673f2a712098f40218456e58354f44d5185c34cc7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-guard-launch.json",
+      "bytes": 53915,
+      "sha256": "41eb98c8d4c1b001cecec0f8b9ed00023a4ceaa0b418f2d5a3dee09899ae908a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-guard-live.json",
+      "bytes": 1307,
+      "sha256": "97f670d63614b287393e6f9673f2a712098f40218456e58354f44d5185c34cc7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json",
+      "bytes": 103214,
+      "sha256": "0a84349dbfbaf00c7670fe846605209fd8350722c439a0fd5c39931826de012d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-preparation.json",
+      "bytes": 5236,
+      "sha256": "ade31b80bcac09173d05da27ff87e99fba67b6a16dd8eaebca1e25b5e5defa32"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-reproduction.json",
+      "bytes": 258160,
+      "sha256": "622efa5f8319ccd39ebe3ffe55dac5025a1d7e20586149d44cf7c203e6eadb36"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-root-observed-start.json",
+      "bytes": 2035,
+      "sha256": "4e7c5acab66d45e72201a877e8296c868f1c7399d10fdc52474f0580ac9f5dbc"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-run.log",
+      "bytes": 680,
+      "sha256": "e4e627b01580561449f4456c2b2688cb92c9c2cb8ef81d7aa356c700328d758e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-summary.json",
+      "bytes": 18309,
+      "sha256": "3a8bbbd61b1f4095f29a731b14d43d68a213856f73623a63d49dbfdca9f34f77"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-tail-config.json",
+      "bytes": 2655,
+      "sha256": "52f6ec2e6adcd15196a27161a155e6133899f6ff02833bc67055c613c18e2c75"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-tail-iteration.json.gz",
+      "bytes": 245015,
+      "sha256": "d0fffac0e48a660340f12e7384d15d6e610f4c80f26e3cda33e09de5ae8c01a5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-tail-trace.jsonl",
+      "bytes": 2986,
+      "sha256": "595a72beb9aae4fb12d569c00b6f12846b4a9169da754f77313c588e304b72bd"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "bytes": 64813,
+      "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_00.npy.gz",
+      "bytes": 3977073,
+      "sha256": "f21b8cf276c11a702073a1157f08614d7bb9bca5e19ad58b3c0cd66376d7541b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_01.npy.gz",
+      "bytes": 3976194,
+      "sha256": "f9cef130b1cb18ea1a8233c5eddbe63db3da49109ed972ca1466609d34548ed7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_02.npy.gz",
+      "bytes": 3934835,
+      "sha256": "47d5a54321162dd0bf07a75f57ca2c35205e5dff8bd3f8aeacbe1fa5f10d83fe"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_03.npy.gz",
+      "bytes": 1183204,
+      "sha256": "800dfe92a8df04fc7d4637a11a6876c5f9ecabb5030043cdaf5add86171ed48a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "7c17f5db4ae0977fcdff4ad338e04187dfacc990c3b9106e86819d50bfcbf074"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0002.json.gz",
+      "bytes": 254030,
+      "sha256": "970cb426872477a55959a450e433acb2a289c3b9fd1ca52ac33d956398a7420d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+      "bytes": 254106,
+      "sha256": "c253eedbf3a4711ad79740d655262a5991e803e38dab2b4a248c386db9efcb7d"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "fd2d-actual-gauss-cell-codazzi-check-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-gauss-cell-codazzi-check.py",
+      "bytes": 8881,
+      "sha256": "e185209a7df55ea3e08e799bb53bc489e58c09140d0bc6cb347caadf89527450"
+    },
+    {
+      "path": "scripts/fd2d-metric-gauss-cell-codazzi-stream-check.py",
+      "bytes": 10410,
+      "sha256": "4f121794a1c2a5aa3d06fcb3fff6a8d47757f345592eed517747da50d5336a33"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check.md",
+      "bytes": 5008,
+      "sha256": "420679e348651631c958f4942217605f2653555e3f7b0ef596d4683fb9dc3b1f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-01-failure.json",
+      "bytes": 858,
+      "sha256": "76867a4f8672dc145db55aff1303610c10ed23a5861ab592e9ec969bd9b4c310"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02-exit-receipt.json",
+      "bytes": 762,
+      "sha256": "7e4976b4cb1ec514458b7ef088943be1833ffc8cdd947899bba3eee3fd50c499"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02-progress.jsonl",
+      "bytes": 1132,
+      "sha256": "caf88037200896717edbaf2c0c28032292d7d194b88a99912e176f1f26ffc812"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02.json",
+      "bytes": 9837,
+      "sha256": "aa3af6725da2e3c82a176a0e05f9fdbbe6cbd641ba583b78531581df780b2955"
+    },
+    {
+      "path": "repro/fd2d-metric-gauss-cell-check01/fd2d-metric-gauss-cell-codazzi-check.py",
+      "bytes": 8881,
+      "sha256": "e185209a7df55ea3e08e799bb53bc489e58c09140d0bc6cb347caadf89527450"
+    },
+    {
+      "path": "repro/fd2d-metric-gauss-cell-check01/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    }
+  ],
+  "actual_success": {
+    "session_id": 75977,
+    "chunk_id": "77b248",
+    "exit_code": 0
+  },
+  "prior_incomplete": {
+    "session_id": 45122,
+    "chunk_id": "a5f706",
+    "exit_code": 137
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+    "bytes": 11505,
+    "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+  },
+  "original_nodal_F_unchanged": true,
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

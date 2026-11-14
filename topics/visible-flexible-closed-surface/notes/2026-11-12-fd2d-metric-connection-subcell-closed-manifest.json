@@ -1,0 +1,47 @@
+{
+  "schema": "fd2d-R180-exact-verification-subcell-closed-group-v1",
+  "closed": true,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_connection_primitive_subcell.py",
+      "bytes": 5970,
+      "sha256": "f4f66fde5daf4392f40a5a97c2168a33bb61a517bee7c82341127096678f074d"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-subcell-check.py",
+      "bytes": 3970,
+      "sha256": "9ee91c196a147a050ff7b532247ef6718c915d09f583eacab659f5edcacfd148"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-connection-primitive-subcell.md",
+      "bytes": 3673,
+      "sha256": "7e987d302deddd7f222c623e2cda66ebe562bc4fb2f3a87d7e362c304853d01a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-subcell-R180-01-report.json",
+      "bytes": 6453,
+      "sha256": "dedebcd4ef24cb9a94e50fbb59b84d4a4cc21cc4acafa6f1bf80da7e4f0e6df2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-subcell-R180-01-completion-receipt.json",
+      "bytes": 1124,
+      "sha256": "08d3df54d905127f8c7c54365bbfb7bc427f5387adbc417edba174bdd68088b6"
+    }
+  ],
+  "artifact_count": 5,
+  "artifact_bytes": 21190,
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "dependency": {
+    "path": "notes/2026-11-12-fd2d-metric-connection-primitive-R180-closed-manifest.json",
+    "bytes": 3240,
+    "sha256": "10ef6cd2bb960c67eeb2ef22d0e888774101db58c415285b106dbbcde3d5b125"
+  },
+  "new_mathematical_result_number_needed": false,
+  "original_field_or_mesh_changed": false,
+  "whole_surface_certificate": false,
+  "replay_entry_not_retroactively_claimed_as_actual_execution": true
+}

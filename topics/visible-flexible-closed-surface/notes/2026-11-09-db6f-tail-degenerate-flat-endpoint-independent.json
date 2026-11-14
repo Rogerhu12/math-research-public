@@ -1,0 +1,135 @@
+{
+  "status": "PASS_INDEPENDENT_CARTESIAN_FLAT_ENDPOINT_ALGEBRA",
+  "scope": "Independent Cartesian-basis algebra for the conditional flat endpoint.\n\nThe author uses an orthonormal frame and general symbolic functions. This\nchecker starts with the nonorthonormal Cartesian derivative basis\n(F_r,F_theta,n) and independent jet symbols. It performs no ODE/PDE solve.\nThe analytic, uniqueness, limiting and all-pair proofs require full reading.\n",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-check-degenerate-flat-endpoint.py",
+    "bytes": 5368,
+    "sha256": "2e7d6d8f70f5b8e8a0bda95495a0c273d89c3a821d804b2674d1f0b004dd0b77"
+  },
+  "sympy_version": "1.14.0",
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 19628,
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-interface-v2.md",
+      "bytes": 16684,
+      "sha256": "c289b4fda5cefbc679a6519a45fe37830cfa8229bfd09260865a20b99919beab"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-symbolics-v2.json",
+      "bytes": 2020,
+      "sha256": "32d213fe01441ed44cd69d611c6bf7b3a89715f73430c949a0d248fb92a98a39"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-observed.json",
+      "bytes": 687,
+      "sha256": "7f169c0c577d1ea4ed015d1f88b2c3f2973c2b6696f494f26e6092942d302f3e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-publication.json",
+      "bytes": 1466,
+      "sha256": "03c78b235ee3e2fff125fbecb5388c1caea4cb581d7509fc60608ed0cb0720f4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-sources.json",
+      "bytes": 2182,
+      "sha256": "4b9bb0cb84fd1575979a84a792ec99a7c7906b470ac5309594848a231db526a0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.md",
+      "bytes": 10352,
+      "sha256": "f962bee606ba0a2cc03b08bb9e4669bf43056dfd6f983cfa24d6c3d990a7c805"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template.md",
+      "bytes": 8222,
+      "sha256": "16d0eb80746246c5bf84a33326055705931f7248e55cf82342927a0c2ab2dd0e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R38-ck-local-exact-isometric-collar.md",
+      "bytes": 20176,
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R6-regular-cut-height-to-cartesian-two-jet.md",
+      "bytes": 4695,
+      "sha256": "b797485d834a62428f33580c481d09ea551b837277fdeb3c1c1b9dd73cba969f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-degenerate-flat-endpoint-symbolics-v2.py",
+      "bytes": 6179,
+      "sha256": "8166eb3d295a0f13697c3d8526df7162608a8fd03fdfbefad7186b72db0858b3"
+    }
+  ],
+  "identity_count": 51,
+  "identities": [
+    "Cartesian_metric_r_00",
+    "Cartesian_metric_theta_00",
+    "Cartesian_metric_r_01",
+    "Cartesian_metric_theta_01",
+    "Cartesian_metric_r_02",
+    "Cartesian_metric_theta_02",
+    "Cartesian_metric_r_10",
+    "Cartesian_metric_theta_10",
+    "Cartesian_metric_r_11",
+    "Cartesian_metric_theta_11",
+    "Cartesian_metric_r_12",
+    "Cartesian_metric_theta_12",
+    "Cartesian_metric_r_20",
+    "Cartesian_metric_theta_20",
+    "Cartesian_metric_r_21",
+    "Cartesian_metric_theta_21",
+    "Cartesian_metric_r_22",
+    "Cartesian_metric_theta_22",
+    "Cartesian_integrability_Gauss",
+    "Cartesian_integrability_first_Codazzi",
+    "Cartesian_integrability_second_Codazzi",
+    "all_Cartesian_compatibility_00",
+    "all_Cartesian_compatibility_01",
+    "all_Cartesian_compatibility_02",
+    "all_Cartesian_compatibility_10",
+    "all_Cartesian_compatibility_11",
+    "all_Cartesian_compatibility_12",
+    "all_Cartesian_compatibility_20",
+    "all_Cartesian_compatibility_21",
+    "all_Cartesian_compatibility_22",
+    "inward_orthonormal_U_00",
+    "inward_orthonormal_V_00",
+    "inward_orthonormal_U_01",
+    "inward_orthonormal_V_01",
+    "inward_orthonormal_U_02",
+    "inward_orthonormal_V_02",
+    "inward_orthonormal_U_10",
+    "inward_orthonormal_V_10",
+    "inward_orthonormal_U_11",
+    "inward_orthonormal_V_11",
+    "inward_orthonormal_U_12",
+    "inward_orthonormal_V_12",
+    "inward_orthonormal_U_20",
+    "inward_orthonormal_V_20",
+    "inward_orthonormal_U_21",
+    "inward_orthonormal_V_21",
+    "inward_orthonormal_U_22",
+    "inward_orthonormal_V_22",
+    "position_mixed_derivative_commutes",
+    "opposite_winding_C3_norm",
+    "weighted_A_bound"
+  ],
+  "analytic_proofs_checked_separately": true,
+  "candidate_reads": 0,
+  "ODE_PDE_BVP_DN_RK_or_geometry_backend_calls": 0,
+  "nonrotational_solution_or_closed_surface_constructed": false
+}

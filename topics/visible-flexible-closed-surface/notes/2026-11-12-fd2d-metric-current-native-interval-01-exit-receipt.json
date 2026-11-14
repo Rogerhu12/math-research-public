@@ -1,0 +1,12 @@
+{
+  "schema": "fd2d-observed-tool-process-exit-v1",
+  "command": "python scripts/fd2d-metric-current-native-interval-check.py --definition notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json --out-prefix notes/2026-11-12-fd2d-metric-current-native-interval-01 --precision 256",
+  "tool_chunk_id": "13639b",
+  "actual_exit_code": 1,
+  "source_sha256": "652a8dc0d145b146db7d15ecd2b3dd4cbc1b38a4996b1321572df095d8d21f88",
+  "error": "SyntaxError at line 133: '(' was never closed",
+  "actual_saved_input_loaded": false,
+  "interval_mathematics_executed": false,
+  "original_source_preserved": true,
+  "repair_source": "scripts/fd2d-metric-current-native-interval-check-v2.py"
+}

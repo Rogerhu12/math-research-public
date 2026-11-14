@@ -1,0 +1,56 @@
+{
+  "status": "LOCAL_BINDINGS_AND_PRIMARY_PUBLICATION_STATEMENTS_READ",
+  "reading_date": "2026-11-09",
+  "local_files": [
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Pogorelov, A theorem of uniqueness for convex surfaces (1950)",
+      "url": "https://www.mathnet.ru/eng/sm5873",
+      "scope_read": "Official original-paper bibliography; not full original proof."
+    },
+    {
+      "title": "Borisenko, Rigidity of Closed Convex Hypersurfaces in Multidimensional Spaces of Constant Curvature (2025)",
+      "url": "https://jmag.ilt.kharkiv.ua/index.php/jmag/article/download/1105/jm21-0267e/1239",
+      "scope_read": "Theorem A, including no additional regularity assumption."
+    },
+    {
+      "title": "Ghomi-Xiong, Nonnegatively Curved Hypersurfaces with Free Boundary on a Sphere",
+      "url": "https://ghomi.math.gatech.edu/Papers/nonnegative.pdf",
+      "scope_read": "Proposition 7.1 and its proof, plus historical regularity discussion; use empty exceptional set for closed C2 surfaces."
+    },
+    {
+      "title": "Federer, Curvature Measures (1959)",
+      "url": "https://static1.squarespace.com/static/5cb91b1c70468025fd21e98b/t/5d37d6d2e6603300016d83dc/1563940577696/federer-curvature-measures-transAMS-1959.pdf",
+      "scope_read": "Retrieved original Theorem 4.18 text for reach-tangent inequality."
+    },
+    {
+      "title": "Fefferman-Ivanov-Kurylev-Lassas-Narayanan, Fitting a Putative Manifold to Noisy Data (2018)",
+      "url": "https://proceedings.mlr.press/v75/fefferman18a.html",
+      "scope_read": "Official bibliography; Proposition 3 in linked original PDF repeats the Federer formula."
+    }
+  ],
+  "PDF_files_saved_or_uploaded": 0,
+  "rendered_PDF_pages": 0,
+  "independent_full_review_of_external_long_theorems_claimed": false
+}

@@ -1,0 +1,139 @@
+{
+  "ODE_calls": 0,
+  "RHS_calls": 0,
+  "adjacent_comparisons": [
+    {
+      "branch_switch_proved": false,
+      "common_higher_support_difference_max": 3.663637539451408e-09,
+      "common_support_coefficient_difference_l1": 8.388712126784862e-09,
+      "common_support_coefficient_difference_max": 3.663637539451408e-09,
+      "fixed_fields_equal": {
+        "chart": true,
+        "frozen_profile": true,
+        "gauge_amplitude": true,
+        "physical_port_sha256": true,
+        "physical_tail_cut": true,
+        "physical_tail_parameters": true,
+        "warp_reference_q": true
+      },
+      "left_index": 0,
+      "new_support_modes": 2,
+      "new_support_modes_absolute_max": 1.189214893276175e-08,
+      "right_index": 1,
+      "same_mathematical_branch_proved": false,
+      "support_amplitude_difference": -6.739795666010906e-10
+    },
+    {
+      "branch_switch_proved": false,
+      "common_higher_support_difference_max": 8.999593917962957e-11,
+      "common_support_coefficient_difference_l1": 4.245874055680522e-10,
+      "common_support_coefficient_difference_max": 2.3946727933932266e-10,
+      "fixed_fields_equal": {
+        "chart": true,
+        "frozen_profile": true,
+        "gauge_amplitude": true,
+        "physical_port_sha256": true,
+        "physical_tail_cut": true,
+        "physical_tail_parameters": true,
+        "warp_reference_q": true
+      },
+      "left_index": 1,
+      "new_support_modes": 0,
+      "new_support_modes_absolute_max": 0.0,
+      "right_index": 2,
+      "same_mathematical_branch_proved": false,
+      "support_amplitude_difference": -2.3946727933932266e-10
+    }
+  ],
+  "checkpoints": [
+    {
+      "actual_support_amplitude": 0.09999976505231697,
+      "checkpoint": {
+        "bytes": 28724,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64.json.gz",
+        "sha256": "2ab86890b3ddf84a6a23ddc1621b11ef05f90bb8e3c9899aeb06922d24b4e37e"
+      },
+      "gauge_amplitude": 0.1,
+      "highest_support_coefficient": 2.4233142751359304e-10,
+      "highest_support_mode": 12,
+      "last_three_support_absolute_max": 7.050341026639808e-10,
+      "modes": 12,
+      "nodes": 2570,
+      "physical_collocation_rms_saved": 1.9971315068724603e-09,
+      "sampled_flow_defect_saved": 1.7500095498085914e-08,
+      "sampled_inlet_saved": {
+        "first": 2.9436644490953524e-08,
+        "metric_l1": 8.951208342629974e-09,
+        "position": 7.084646203026068e-10,
+        "second": 1.2781301204356499e-06
+      },
+      "sampled_metric_saved": 8.951344414076039e-09,
+      "solver_success_saved": true,
+      "source_angular": 512,
+      "support_higher_absolute_max": 0.00017340635052370438,
+      "support_higher_absolute_sum": 0.00019413822900536798
+    },
+    {
+      "actual_support_amplitude": 0.09999976437833741,
+      "checkpoint": {
+        "bytes": 30149,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+        "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+      },
+      "gauge_amplitude": 0.1,
+      "highest_support_coefficient": 1.189214893276175e-08,
+      "highest_support_mode": 14,
+      "last_three_support_absolute_max": 1.189214893276175e-08,
+      "modes": 14,
+      "nodes": 2633,
+      "physical_collocation_rms_saved": 1.9978998186646144e-09,
+      "sampled_flow_defect_saved": 9.525366622313956e-07,
+      "sampled_inlet_saved": {
+        "first": 5.97567261470346e-08,
+        "metric_l1": 1.3229879340823171e-08,
+        "position": 1.2330632070955971e-09,
+        "second": 3.000353972243408e-06
+      },
+      "sampled_metric_saved": 7.946154956992427e-08,
+      "solver_success_saved": true,
+      "source_angular": 512,
+      "support_higher_absolute_max": 0.0001734063510120185,
+      "support_higher_absolute_sum": 0.00019416122748247403
+    },
+    {
+      "actual_support_amplitude": 0.09999976413887013,
+      "checkpoint": {
+        "bytes": 64813,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+      },
+      "gauge_amplitude": 0.1,
+      "highest_support_coefficient": 1.198214487194138e-08,
+      "highest_support_mode": 14,
+      "last_three_support_absolute_max": 1.198214487194138e-08,
+      "modes": 14,
+      "nodes": 6599,
+      "physical_collocation_rms_saved": 6.265093215675974e-10,
+      "sampled_flow_defect_saved": 9.59829452104778e-07,
+      "sampled_inlet_saved": {
+        "first": 6.014411345406912e-08,
+        "metric_l1": 1.3311438033968845e-08,
+        "position": 1.2410348304570107e-09,
+        "second": 3.0198949200754832e-06
+      },
+      "sampled_metric_saved": 8.006151376570554e-08,
+      "solver_success_saved": true,
+      "source_angular": 512,
+      "support_higher_absolute_max": 0.00017340635018792775,
+      "support_higher_absolute_sum": 0.00019416140913723463
+    }
+  ],
+  "schema": "78718-prefix-saved-branch-metadata-v1",
+  "scope": "Saved numerical diagnostics and exact JSON metadata identities only; no new solution or uniqueness/branch certificate.",
+  "script": {
+    "bytes": 3933,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-branch-metadata-v1.py",
+    "sha256": "87250b176ef68ddb6099718910a342bf5941df9df1d83756c91c9563ad76c193"
+  },
+  "solver_calls": 0
+}

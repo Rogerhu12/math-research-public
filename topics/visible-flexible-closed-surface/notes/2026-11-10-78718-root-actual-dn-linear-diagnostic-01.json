@@ -1,0 +1,61 @@
+{
+  "scope": "Inspect saved physical tail slope Jacobians; no solver or certificate.\n\nThe finite tail DN derivative alone is not the full prefix-tail boundary\noperator. Its floating point condition estimate does not prove any inverse\nbound for the current coupled problem or the infinite-dimensional problem.\nArrays are read and kept in the terminal process; only scalar diagnostics\nand source/input identities are saved.\n",
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-root-actual-dn-linear-diagnostic.py",
+    "bytes": 3705,
+    "sha256": "372bbc18a1345603ef74dd2f9dea10b47f5b8cfb4e5533d8d834d307fdbdab78"
+  },
+  "records": [
+    {
+      "input": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+        "bytes": 254106,
+        "sha256": "c253eedbf3a4711ad79740d655262a5991e803e38dab2b4a248c386db9efcb7d"
+      },
+      "modes": 14,
+      "true_response_converged": true,
+      "response_residual": 1.233790464730497e-09,
+      "slope_singular_max": 183.48635684614266,
+      "slope_singular_min": 10.568342091522899,
+      "slope_condition_estimate": 17.36188659083255,
+      "slope_diagonal_absolute_min": 10.568760762686342,
+      "slope_diagonal_absolute_max": 183.43003834109814,
+      "offdiagonal_spectral_norm": 3.040734530635157,
+      "row_diagonal_dominance_margin_min": 10.170643997226428,
+      "column_diagonal_dominance_margin_min": 10.51598702807001,
+      "second_jet_derivative_spectral_norm": 32171.948024692298,
+      "mean_slope_derivative_euclidean_norm": 0.13956412965971887,
+      "mean_second_derivative_euclidean_norm": 4.2634467010844626,
+      "height_identity_maximum_difference": 6.348255254806645e-13
+    },
+    {
+      "input": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+        "bytes": 272525,
+        "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+      },
+      "modes": 15,
+      "true_response_converged": true,
+      "response_residual": 6.266872045838407e-10,
+      "slope_singular_max": 194.8582298765125,
+      "slope_singular_min": 10.56867640542695,
+      "slope_condition_estimate": 18.43733523494522,
+      "slope_diagonal_absolute_min": 10.56908199125523,
+      "slope_diagonal_absolute_max": 194.79721197592653,
+      "offdiagonal_spectral_norm": 3.229701737234602,
+      "row_diagonal_dominance_margin_min": 10.177810500468366,
+      "column_diagonal_dominance_margin_min": 10.517169570612324,
+      "second_jet_derivative_spectral_norm": 37117.03548976864,
+      "mean_slope_derivative_euclidean_norm": 0.13733477795323926,
+      "mean_second_derivative_euclidean_norm": 4.195439484939984,
+      "height_identity_maximum_difference": 2.0983215165415459e-13
+    }
+  ],
+  "common_block_order": 14,
+  "common_block_spectral_difference": 0.04801715747364533,
+  "common_block_relative_spectral_difference": 0.00026169333948849815,
+  "actual_new_solver_calls": 0,
+  "actual_new_tail_calls": 0,
+  "full_coupled_inverse_proved": false,
+  "infinite_inverse_proved": false
+}

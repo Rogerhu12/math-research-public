@@ -1,0 +1,104 @@
+{
+  "status": "PREPARED_ONLY_NO_CANDIDATE_INITIALIZATION_NO_SOLVER",
+  "scope": "Pure preparation of the explicit direct-CSC/release-LU M14/N512 W14 entry.\n\nNo candidate class, saved-mesh restart, flow, RHS, Newton installation,\nweighted solver factory, BVP or DN is constructed/called by this script.\n",
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-launch.json",
+    "bytes": 101683,
+    "sha256": "a05d22affb9a4dc5c06f1095527b1ae0ba66af423b3ade00bf8e65c846da7487"
+  },
+  "tail_config": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-tail-config.json",
+    "bytes": 2682,
+    "sha256": "5df3b72b7d8943fbb17b7388a6447c17846731d0f212afe306d56b81d400fd78"
+  },
+  "source_checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "own_actual_tail_warm": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+    "bytes": 254154,
+    "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+  },
+  "original_warm_residual": 5.397833270174952e-10,
+  "bindings": 141,
+  "old_actual_tail_metadata_check": {
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+      "bytes": 254154,
+      "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+    },
+    "residual": 5.397833270174952e-10,
+    "history_rows": 1,
+    "last_history_norm": 5.397833270174952e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 8,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "original_reference_bindings": 97,
+  "callback_definitions": 27,
+  "visited_python_sources": 71,
+  "included_actual_coupled_main": true,
+  "new_state_components": 43,
+  "new_free_parameters": 14,
+  "new_central_scales": 13,
+  "new_tail_Jacobian_entries": 616,
+  "original_settings": {
+    "modes": 14,
+    "angular": 512,
+    "audit_angular": 1024,
+    "nodes": 1601,
+    "max_nodes": 6500,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "node_heap": 1536
+  },
+  "operations": {
+    "candidate_objects": 0,
+    "restart_calls": 0,
+    "flow_calls": 0,
+    "RHS_calls": 0,
+    "Newton_install_calls": 0,
+    "CSC_install_calls": 0,
+    "CSC_factory_calls": 0,
+    "weighted_solver_factory_calls": 0,
+    "BVP_calls": 0,
+    "DN_calls": 0
+  },
+  "actual_CSC_prerequisites": {
+    "pure_report": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-check.json",
+      "bytes": 10669,
+      "sha256": "8cf25532c636659b63cbea1ac50c0577135778a70b46cd86ccc0b6fe5f6b65d7"
+    },
+    "pure_observed": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-observed.json",
+      "bytes": 3583,
+      "sha256": "67db4ec48e0ffe8991759373a708dda86334add9f5c90c07339e87db4a68dba9"
+    },
+    "byte_report": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json",
+      "bytes": 43707,
+      "sha256": "7bb6b7e4b35e04d22d2dc582ecef4ac5aa5849ca5541f4aa865b94190ff6f11b"
+    },
+    "byte_observed": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-observed.json",
+      "bytes": 3440,
+      "sha256": "00fcdc7e24d84dd72fc6f2c3610ea9156c0624eaa3df1992b621fa5a6f818cb4"
+    }
+  },
+  "new_entry_runtime_CSC_status": "NOT_RUN; prior small tests do not prove this new coupled run",
+  "runtime_identity_status": "NOT_RUN; remains a gate in the future actual selector",
+  "future_tool_exit_status": "NOT_STARTED; only root may provide an actual tool observation"
+}

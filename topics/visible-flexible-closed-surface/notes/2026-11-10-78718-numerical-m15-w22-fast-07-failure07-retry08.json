@@ -1,0 +1,165 @@
+{
+  "status": "CLOSED_REQUEST_FAILURE_WITH_ACTUAL_NEXT_REQUEST",
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T15:19:19.463527+00:00",
+  "failed_call": 7,
+  "failed_packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0007.json.gz",
+    "bytes": 763026,
+    "sha256": "19b2a9d9d2fcea987f91cc4c2dfbeb06f7cb639915572ae4cbf0668e18a44a22"
+  },
+  "failed_message": "Error: multiple-shooting line search failed at 1490.3692014743258",
+  "failed_request_height_scale_from_original_first_component": 0.78125,
+  "last_iteration_scalar": {
+    "iteration": 5,
+    "norm": 1490.3692014743258,
+    "minA": 0.0500084280520222,
+    "minD": 0.9934795940808978
+  },
+  "failure_trace_event": {
+    "time": "2026-11-10T15:17:05.794Z",
+    "event": "failure",
+    "call": 7,
+    "error": "Error: multiple-shooting line search failed at 1490.3692014743258"
+  },
+  "controller_events": [
+    {
+      "classification": {
+        "closed_call_trial_rows_sha256": "0b3fdab4c59ab279da53021dbef7670e69ba5c207676bafb9286bf7a9a1c80d2",
+        "geometric_construction_rejection_rows": 23,
+        "iteration_groups": 6,
+        "kind": "geometric-trial-known-ten-trial-rejection",
+        "scope": "Numerical H subdivision only; no assertion that the original ODE or geometric problem has no solution.",
+        "trial_rows": 33
+      },
+      "event": "closed-numerical-failure",
+      "external_request": 1,
+      "packet": {
+        "bytes": 763026,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0007.json.gz",
+        "sha256": "19b2a9d9d2fcea987f91cc4c2dfbeb06f7cb639915572ae4cbf0668e18a44a22"
+      },
+      "phase": "TRACK",
+      "physical_calls": 7,
+      "policy_sha256": "e0b4d741ef478f27804144bb798dfb5263829e507176693d65d043d59886c589",
+      "state": "TRACK",
+      "utc": "2026-11-10T15:17:06.457133+00:00"
+    },
+    {
+      "event": "halve-from-last-good",
+      "external_request": 1,
+      "last_good_packet": {
+        "bytes": 764459,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0006.json.gz",
+        "sha256": "8186962e25b01fe6441490b3e11bb3bbbb661fbcc7a7a1d6119de9c013036be5"
+      },
+      "new_step": "1/16",
+      "physical_calls": 7,
+      "policy_sha256": "e0b4d741ef478f27804144bb798dfb5263829e507176693d65d043d59886c589",
+      "rejected_packet": {
+        "bytes": 763026,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0007.json.gz",
+        "sha256": "19b2a9d9d2fcea987f91cc4c2dfbeb06f7cb639915572ae4cbf0668e18a44a22"
+      },
+      "state": "TRACK",
+      "tau_good": "5/8",
+      "utc": "2026-11-10T15:17:06.459044+00:00"
+    },
+    {
+      "event": "tracking-target",
+      "external_request": 1,
+      "goal_sha256": "e18420bcdeb6832f2dca254ee7aa2849cab1c70c5106f59f376f045d62544077",
+      "last_good_packet": {
+        "bytes": 764459,
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0006.json.gz",
+        "sha256": "8186962e25b01fe6441490b3e11bb3bbbb661fbcc7a7a1d6119de9c013036be5"
+      },
+      "origin_sha256": "cfd8505b00b0d147f182f48e9e828763dbcd04253fa64c56bc3e462d830a5a96",
+      "physical_calls": 7,
+      "policy_sha256": "e0b4d741ef478f27804144bb798dfb5263829e507176693d65d043d59886c589",
+      "state": "TRACK",
+      "step": "1/16",
+      "tau": "11/16",
+      "utc": "2026-11-10T15:17:06.461770+00:00"
+    },
+    {
+      "audit": false,
+      "cache_expected": false,
+      "event": "physical-request-or-cache",
+      "external_request": 1,
+      "height_sha256": "bba4af99577a90f05f061e4109f7622796923d608b522d9d1ce805b3056cfc6e",
+      "jacobian": false,
+      "phase": "TRACK",
+      "physical_calls": 7,
+      "policy_sha256": "e0b4d741ef478f27804144bb798dfb5263829e507176693d65d043d59886c589",
+      "state": "TRACK",
+      "utc": "2026-11-10T15:17:06.462459+00:00"
+    }
+  ],
+  "last_actual_good": {
+    "call": 6,
+    "packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0006.json.gz",
+      "bytes": 764459,
+      "sha256": "8186962e25b01fe6441490b3e11bb3bbbb661fbcc7a7a1d6119de9c013036be5"
+    },
+    "residual": 1.6905980402725216e-09,
+    "height_scale": 0.671875
+  },
+  "next_actual_request": {
+    "call": 8,
+    "time": "2026-11-10T15:17:06.465Z",
+    "jacobian": false,
+    "audit": false,
+    "height_scale_from_original_first_component": 0.7265625,
+    "max_height_difference_from_that_multiple": 0.0,
+    "height_sha256": "bba4af99577a90f05f061e4109f7622796923d608b522d9d1ce805b3056cfc6e",
+    "converged_asserted": false,
+    "trace_native_json_types_sha256": "427210ae87bc4f483ea39bd8244aa634b2f329367166222dc02efccf337a1217",
+    "height_digest_matches_controller": true,
+    "trace_encoding_note": "Node JSON serializes integral-valued binary64 components as JSON integers; canonical controller digest is recomputed after casting every parsed trace component back to float. This changes JSON spelling only."
+  },
+  "predictor_evidence": {
+    "call6_own_predictor_ready": {
+      "time": "2026-11-10T14:56:41.334Z",
+      "event": "tangent_predictor_ready",
+      "call": 6,
+      "maxChartCondition": 228735.92479189846
+    },
+    "failed_call7_predictor": {
+      "time": "2026-11-10T14:56:42.423Z",
+      "event": "tangent_warm_predictor",
+      "call": 7,
+      "kind": "full-nonlinear-shooting-tangent-warm",
+      "modes": 22,
+      "stages": 1728,
+      "maxChartCondition": 228735.92479189846,
+      "maxRelativeCorrection": 0.36589248010091613,
+      "scope": "Initial guess only; original nonlinear residual and guards still decide success."
+    },
+    "actual_call8_predictor": {
+      "time": "2026-11-10T15:17:06.521Z",
+      "event": "tangent_warm_predictor",
+      "call": 8,
+      "kind": "full-nonlinear-shooting-tangent-warm",
+      "modes": 22,
+      "stages": 1728,
+      "maxChartCondition": 228735.92479189846,
+      "maxRelativeCorrection": 0.18294624005045806,
+      "scope": "Initial guess only; original nonlinear residual and guards still decide success."
+    },
+    "same_chart_condition_as_actual_good_call6": true,
+    "call8_relative_correction_is_half_call7": true,
+    "worker_source": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-partition-centered-worker.mjs",
+      "bytes": 16040,
+      "sha256": "177974004bbddd0a3817bd05ff61bf753e6b3a42599f04707ce4ae5edc4da249"
+    },
+    "source_rule": "last and tangentPredictor are replaced only inside if(sol.converged); the thrown call7 failure does not replace either."
+  },
+  "process_exit_observed": false,
+  "process_tool_consumed": false,
+  "new_solver_started": false,
+  "new_ode_calls": 0,
+  "scope": "A closed finite TRACK request failed, and the original controller actually halved from call6 before call8. This is not a run exit, not failure of the original physical problem, and not an original-full-height or prefix success."
+}

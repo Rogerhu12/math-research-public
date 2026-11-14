@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-closed-static-finite-equation-extension-v1",
+  "closed": true,
+  "actual_check_exit": 0,
+  "active_outputs_excluded": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_interior_merit.py",
+      "bytes": 8377,
+      "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+    },
+    {
+      "path": "scripts/fd2d-gc-positive-trace-interior-check.py",
+      "bytes": 4507,
+      "sha256": "e8c4ea3d3b61c579b60289be79c8c55deac9b4f7813067c127e7607bb82ab5f3"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-positive-trace-interior-run.py",
+      "bytes": 26889,
+      "sha256": "41a5acda7a2d72759e9f2e2b902e2170cb9497ea26ddbdaf510b7835b66fa98e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace18-interior-rows-check01-report.json",
+      "bytes": 6717,
+      "sha256": "e37aed09e25f2b48984dbe499acab6376ec00098c0c964085f5069564184134d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace18-interior-rows-check01-receipt.json",
+      "bytes": 201,
+      "sha256": "aab24827b945753a62ddbcf32b6127a6d4713affd56feca4a6b31a5735fd0654"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-trace18-interior-equations.md",
+      "bytes": 1497,
+      "sha256": "2561db7b2907a1227617a8e318172bb0ae57715d2918693e6326e15f9899fbd2"
+    }
+  ]
+}

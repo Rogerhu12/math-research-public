@@ -1,0 +1,592 @@
+{
+  "scope": "Algebraic roots only at the two endpoints of one actual saved shooting stage. Same Q/pi state and physical profile. This cannot determine accumulation of root errors along an unexecuted flow.",
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-iteration3-root-diagnostic-input.json.gz",
+    "bytes": 385541,
+    "sha256": "18996bebb3b93b2b092c31e7e16f956a3826071133d40c01ac20dfe931adf7d9"
+  },
+  "config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-tail-config.json",
+    "bytes": 2819,
+    "sha256": "a49e86e6ae7735ae2fb2d9f44765da459f04d10fa5c7b7245f6f468652a64f04"
+  },
+  "iteration": {
+    "iteration": 3,
+    "norm": 3.3366011642270125e-9,
+    "minA": 0.9605876583918314,
+    "minD": 0.9989651369830822,
+    "worst": {
+      "stage": 12,
+      "component": 42,
+      "absolute": 2.141778724366807e-12,
+      "scale": 0.0006419043268729995,
+      "normalized": 3.3366011642270125e-9,
+      "kind": "shooting",
+      "rawCell": 0,
+      "rawSegment": 7
+    }
+  },
+  "modes": 22,
+  "quadrature": 512,
+  "scriptSHA256": "74cf8e4cbcd9a8beb3d8866a8f0ff04b9ff9dbd392fa88b66a3d0b7d96558b43",
+  "sourceSHA256": {
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-root-tight-momentum.mjs": "d463980ebdb549d6eccfbc5e3d2b2571b292812e74fe8b67f3508a38f688bfa3",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "endpointMapping": "x=0 uses checkpoint node stage+1; x=1 uses node stage with pi multiplied by stage.portRatio.",
+  "endpoints": [
+    {
+      "stage": 12,
+      "x": 0,
+      "node": 13,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "part": 3,
+      "portRatio": 1,
+      "geometry": {
+        "r": 0.5397604481389657,
+        "w": 0.09203085339939848,
+        "E": 1.0084696779774216,
+        "drdx": 0.014565808810853002
+      },
+      "normal": {
+        "iterations": 2,
+        "error": 8.470329472543003e-20,
+        "scale": 0.0009213479162756595,
+        "relativeResidual": 9.193410353368349e-17,
+        "roundoffFallback": false,
+        "meanResidual": 4.743384504624082e-20,
+        "meanPhysical": 0.0000014846954048649579,
+        "meanRootCoefficient": 0.000016132583259025412,
+        "minA": 0.9986760917560458,
+        "minD": 0.9998758435687634,
+        "minS": 0.9999999295004183,
+        "maximumImpliedMomentumResidual": 1.8100168811147518e-16,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": 1.3214630880586913e-22,
+            "relativeToRootScale": 1.434271532734786e-19,
+            "impliedMomentumResidual": 2.82382226678387e-19,
+            "targetMagnitude": 3.291144009902325e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 3.4407250620899843e-22,
+            "relativeToRootScale": 3.7344471087516395e-19,
+            "impliedMomentumResidual": 7.352453603894751e-19,
+            "targetMagnitude": 3.6192695139107956e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 7.941159955459152e-23,
+            "relativeToRootScale": 8.619067580420102e-20,
+            "impliedMomentumResidual": 1.6969391357923427e-19,
+            "targetMagnitude": 2.849928729078051e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": -3.971643525116091e-23,
+            "relativeToRootScale": 4.3106881287261836e-20,
+            "impliedMomentumResidual": -8.486968363548185e-20,
+            "targetMagnitude": 4.998255403705015e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.854858096296484e-22,
+            "relativeToRootScale": 2.0132005114792338e-19,
+            "impliedMomentumResidual": 3.963629133024805e-19,
+            "targetMagnitude": 6.611426087697287e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -1.9850319112198633e-22,
+            "relativeToRootScale": 2.154486786320531e-19,
+            "impliedMomentumResidual": -4.2417963557452285e-19,
+            "targetMagnitude": 1.716017293214648e-20
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9985797569595369,
+          "gershgorinUpper": 1.001489756864985,
+          "gershgorinConditionUpperEstimate": 1.0029141386906424,
+          "eigenvalueMinimumApprox": 0.9988645696780827,
+          "eigenvalueMaximumApprox": 1.0012402125698687,
+          "condition2Approx": 1.0023783433349245,
+          "jacobiFinalOffDiagonalMaximum": 1.768648219002621e-16,
+          "jacobiRotations": 924,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9988621087140198,
+        "gramAngularWeightMaximum": 1.001243329180008,
+        "rootPrecision": null
+      },
+      "tight": {
+        "ok": true,
+        "iterations": 2,
+        "error": 8.470329472543003e-20,
+        "scale": 0.0009213479162756595,
+        "relativeResidual": 9.193410353368349e-17,
+        "roundoffFallback": false,
+        "meanResidual": 4.743384504624082e-20,
+        "meanPhysical": 0.0000014846954048649579,
+        "meanRootCoefficient": 0.000016132583259025412,
+        "minA": 0.9986760917560458,
+        "minD": 0.9998758435687634,
+        "minS": 0.9999999295004183,
+        "maximumImpliedMomentumResidual": 1.8100168811147518e-16,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": 1.3214630880586913e-22,
+            "relativeToRootScale": 1.434271532734786e-19,
+            "impliedMomentumResidual": 2.82382226678387e-19,
+            "targetMagnitude": 3.291144009902325e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 3.4407250620899843e-22,
+            "relativeToRootScale": 3.7344471087516395e-19,
+            "impliedMomentumResidual": 7.352453603894751e-19,
+            "targetMagnitude": 3.6192695139107956e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 7.941159955459152e-23,
+            "relativeToRootScale": 8.619067580420102e-20,
+            "impliedMomentumResidual": 1.6969391357923427e-19,
+            "targetMagnitude": 2.849928729078051e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": -3.971643525116091e-23,
+            "relativeToRootScale": 4.3106881287261836e-20,
+            "impliedMomentumResidual": -8.486968363548185e-20,
+            "targetMagnitude": 4.998255403705015e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.854858096296484e-22,
+            "relativeToRootScale": 2.0132005114792338e-19,
+            "impliedMomentumResidual": 3.963629133024805e-19,
+            "targetMagnitude": 6.611426087697287e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -1.9850319112198633e-22,
+            "relativeToRootScale": 2.154486786320531e-19,
+            "impliedMomentumResidual": -4.2417963557452285e-19,
+            "targetMagnitude": 1.716017293214648e-20
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9985797569595369,
+          "gershgorinUpper": 1.001489756864985,
+          "gershgorinConditionUpperEstimate": 1.0029141386906424,
+          "eigenvalueMinimumApprox": 0.9988645696780827,
+          "eigenvalueMaximumApprox": 1.0012402125698687,
+          "condition2Approx": 1.0023783433349245,
+          "jacobiFinalOffDiagonalMaximum": 1.768648219002621e-16,
+          "jacobiRotations": 924,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9988621087140198,
+        "gramAngularWeightMaximum": 1.001243329180008,
+        "rootPrecision": null
+      },
+      "tightChange": {
+        "maximumLCoefficientChange": 0,
+        "meanPhysicalChange": 0,
+        "nonmeanRadialHeightSlopeCoefficientL1Change": 0,
+        "maximumGramEntryChange": 0,
+        "maximumLeadingChange": 0,
+        "maximumDChange": 0
+      },
+      "tightFromNormal": {
+        "ok": true,
+        "iterations": 0,
+        "error": 8.470329472543003e-20,
+        "scale": 0.0009213479162756595,
+        "relativeResidual": 9.193410353368349e-17,
+        "roundoffFallback": false,
+        "meanResidual": 4.743384504624082e-20,
+        "meanPhysical": 0.0000014846954048649579,
+        "meanRootCoefficient": 0.000016132583259025412,
+        "minA": 0.9986760917560458,
+        "minD": 0.9998758435687634,
+        "minS": 0.9999999295004183,
+        "maximumImpliedMomentumResidual": 1.8100168811147518e-16,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": 1.3214630880586913e-22,
+            "relativeToRootScale": 1.434271532734786e-19,
+            "impliedMomentumResidual": 2.82382226678387e-19,
+            "targetMagnitude": 3.291144009902325e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 3.4407250620899843e-22,
+            "relativeToRootScale": 3.7344471087516395e-19,
+            "impliedMomentumResidual": 7.352453603894751e-19,
+            "targetMagnitude": 3.6192695139107956e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 7.941159955459152e-23,
+            "relativeToRootScale": 8.619067580420102e-20,
+            "impliedMomentumResidual": 1.6969391357923427e-19,
+            "targetMagnitude": 2.849928729078051e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": -3.971643525116091e-23,
+            "relativeToRootScale": 4.3106881287261836e-20,
+            "impliedMomentumResidual": -8.486968363548185e-20,
+            "targetMagnitude": 4.998255403705015e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.854858096296484e-22,
+            "relativeToRootScale": 2.0132005114792338e-19,
+            "impliedMomentumResidual": 3.963629133024805e-19,
+            "targetMagnitude": 6.611426087697287e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -1.9850319112198633e-22,
+            "relativeToRootScale": 2.154486786320531e-19,
+            "impliedMomentumResidual": -4.2417963557452285e-19,
+            "targetMagnitude": 1.716017293214648e-20
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9985797569595369,
+          "gershgorinUpper": 1.001489756864985,
+          "gershgorinConditionUpperEstimate": 1.0029141386906424,
+          "eigenvalueMinimumApprox": 0.9988645696780827,
+          "eigenvalueMaximumApprox": 1.0012402125698687,
+          "condition2Approx": 1.0023783433349245,
+          "jacobiFinalOffDiagonalMaximum": 1.768648219002621e-16,
+          "jacobiRotations": 924,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9988621087140198,
+        "gramAngularWeightMaximum": 1.001243329180008,
+        "rootPrecision": null
+      },
+      "tightFromNormalChange": {
+        "maximumLCoefficientChange": 0,
+        "meanPhysicalChange": 0,
+        "nonmeanRadialHeightSlopeCoefficientL1Change": 0,
+        "maximumGramEntryChange": 0,
+        "maximumLeadingChange": 0,
+        "maximumDChange": 0
+      }
+    },
+    {
+      "stage": 12,
+      "x": 1,
+      "node": 12,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "part": 3,
+      "portRatio": 1,
+      "geometry": {
+        "r": 0.5608189699513776,
+        "w": 0.22320376867933053,
+        "E": 1.049819922352656,
+        "drdx": 0.026131378601919334
+      },
+      "normal": {
+        "iterations": 2,
+        "error": 1.0842021724855044e-19,
+        "scale": 0.0006567557992661072,
+        "relativeResidual": 1.650845220852329e-16,
+        "roundoffFallback": false,
+        "meanResidual": 0,
+        "meanPhysical": 9.616464983088087e-7,
+        "meanRootCoefficient": 0.000004308379307386939,
+        "minA": 0.9988931624056134,
+        "minD": 0.9996415789098327,
+        "minS": 0.9999998846038864,
+        "maximumImpliedMomentumResidual": 1.5882369426855723e-15,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": -7.605438678705507e-23,
+            "relativeToRootScale": 1.1580314459657938e-19,
+            "impliedMomentumResidual": -1.114113122201047e-18,
+            "targetMagnitude": 1.5826270943023797e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 8.607006440339247e-23,
+            "relativeToRootScale": 1.3105337554624047e-19,
+            "impliedMomentumResidual": 1.260831784088885e-18,
+            "targetMagnitude": 2.4417105359699977e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 3.3091926764262606e-23,
+            "relativeToRootScale": 5.0386957833096006e-20,
+            "impliedMomentumResidual": 4.847603327630299e-19,
+            "targetMagnitude": 1.1966509499981797e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": 1.653180255547125e-23,
+            "relativeToRootScale": 2.5171917132585263e-20,
+            "impliedMomentumResidual": 2.421727258449506e-19,
+            "targetMagnitude": 4.485751343947133e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.0262268944121796e-22,
+            "relativeToRootScale": 1.5625699773933302e-19,
+            "impliedMomentumResidual": 1.5033095363998648e-18,
+            "targetMagnitude": 3.5445999238926635e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -4.633902568720031e-23,
+            "relativeToRootScale": 7.055746708134428e-20,
+            "impliedMomentumResidual": -6.788157628917794e-19,
+            "targetMagnitude": 6.819974179800482e-21
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9992644553002009,
+          "gershgorinUpper": 1.0007852152993972,
+          "gershgorinConditionUpperEstimate": 1.0015218794095297,
+          "eigenvalueMinimumApprox": 0.9994315320640309,
+          "eigenvalueMaximumApprox": 1.0006564727140492,
+          "condition2Approx": 1.0012256373855732,
+          "jacobiFinalOffDiagonalMaximum": 1.895313728315549e-16,
+          "jacobiRotations": 912,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9994304396771492,
+        "gramAngularWeightMaximum": 1.0006582777921058,
+        "rootPrecision": null
+      },
+      "tight": {
+        "ok": true,
+        "iterations": 2,
+        "error": 1.0842021724855044e-19,
+        "scale": 0.0006567557992661072,
+        "relativeResidual": 1.650845220852329e-16,
+        "roundoffFallback": false,
+        "meanResidual": 0,
+        "meanPhysical": 9.616464983088087e-7,
+        "meanRootCoefficient": 0.000004308379307386939,
+        "minA": 0.9988931624056134,
+        "minD": 0.9996415789098327,
+        "minS": 0.9999998846038864,
+        "maximumImpliedMomentumResidual": 1.5882369426855723e-15,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": -7.605438678705507e-23,
+            "relativeToRootScale": 1.1580314459657938e-19,
+            "impliedMomentumResidual": -1.114113122201047e-18,
+            "targetMagnitude": 1.5826270943023797e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 8.607006440339247e-23,
+            "relativeToRootScale": 1.3105337554624047e-19,
+            "impliedMomentumResidual": 1.260831784088885e-18,
+            "targetMagnitude": 2.4417105359699977e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 3.3091926764262606e-23,
+            "relativeToRootScale": 5.0386957833096006e-20,
+            "impliedMomentumResidual": 4.847603327630299e-19,
+            "targetMagnitude": 1.1966509499981797e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": 1.653180255547125e-23,
+            "relativeToRootScale": 2.5171917132585263e-20,
+            "impliedMomentumResidual": 2.421727258449506e-19,
+            "targetMagnitude": 4.485751343947133e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.0262268944121796e-22,
+            "relativeToRootScale": 1.5625699773933302e-19,
+            "impliedMomentumResidual": 1.5033095363998648e-18,
+            "targetMagnitude": 3.5445999238926635e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -4.633902568720031e-23,
+            "relativeToRootScale": 7.055746708134428e-20,
+            "impliedMomentumResidual": -6.788157628917794e-19,
+            "targetMagnitude": 6.819974179800482e-21
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9992644553002009,
+          "gershgorinUpper": 1.0007852152993972,
+          "gershgorinConditionUpperEstimate": 1.0015218794095297,
+          "eigenvalueMinimumApprox": 0.9994315320640309,
+          "eigenvalueMaximumApprox": 1.0006564727140492,
+          "condition2Approx": 1.0012256373855732,
+          "jacobiFinalOffDiagonalMaximum": 1.895313728315549e-16,
+          "jacobiRotations": 912,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9994304396771492,
+        "gramAngularWeightMaximum": 1.0006582777921058,
+        "rootPrecision": null
+      },
+      "tightChange": {
+        "maximumLCoefficientChange": 0,
+        "meanPhysicalChange": 0,
+        "nonmeanRadialHeightSlopeCoefficientL1Change": 0,
+        "maximumGramEntryChange": 0,
+        "maximumLeadingChange": 0,
+        "maximumDChange": 0
+      },
+      "tightFromNormal": {
+        "ok": true,
+        "iterations": 0,
+        "error": 1.0842021724855044e-19,
+        "scale": 0.0006567557992661072,
+        "relativeResidual": 1.650845220852329e-16,
+        "roundoffFallback": false,
+        "meanResidual": 0,
+        "meanPhysical": 9.616464983088087e-7,
+        "meanRootCoefficient": 0.000004308379307386939,
+        "minA": 0.9988931624056134,
+        "minD": 0.9996415789098327,
+        "minS": 0.9999998846038864,
+        "maximumImpliedMomentumResidual": 1.5882369426855723e-15,
+        "highModes": [
+          {
+            "modeIndex": 17,
+            "frequency": 51,
+            "residual": -7.605438678705507e-23,
+            "relativeToRootScale": 1.1580314459657938e-19,
+            "impliedMomentumResidual": -1.114113122201047e-18,
+            "targetMagnitude": 1.5826270943023797e-20
+          },
+          {
+            "modeIndex": 18,
+            "frequency": 54,
+            "residual": 8.607006440339247e-23,
+            "relativeToRootScale": 1.3105337554624047e-19,
+            "impliedMomentumResidual": 1.260831784088885e-18,
+            "targetMagnitude": 2.4417105359699977e-20
+          },
+          {
+            "modeIndex": 19,
+            "frequency": 57,
+            "residual": 3.3091926764262606e-23,
+            "relativeToRootScale": 5.0386957833096006e-20,
+            "impliedMomentumResidual": 4.847603327630299e-19,
+            "targetMagnitude": 1.1966509499981797e-20
+          },
+          {
+            "modeIndex": 20,
+            "frequency": 60,
+            "residual": 1.653180255547125e-23,
+            "relativeToRootScale": 2.5171917132585263e-20,
+            "impliedMomentumResidual": 2.421727258449506e-19,
+            "targetMagnitude": 4.485751343947133e-21
+          },
+          {
+            "modeIndex": 21,
+            "frequency": 63,
+            "residual": 1.0262268944121796e-22,
+            "relativeToRootScale": 1.5625699773933302e-19,
+            "impliedMomentumResidual": 1.5033095363998648e-18,
+            "targetMagnitude": 3.5445999238926635e-20
+          },
+          {
+            "modeIndex": 22,
+            "frequency": 66,
+            "residual": -4.633902568720031e-23,
+            "relativeToRootScale": 7.055746708134428e-20,
+            "impliedMomentumResidual": -6.788157628917794e-19,
+            "targetMagnitude": 6.819974179800482e-21
+          }
+        ],
+        "gram": {
+          "dimension": 23,
+          "symmetryGap": 0,
+          "gershgorinLower": 0.9992644553002009,
+          "gershgorinUpper": 1.0007852152993972,
+          "gershgorinConditionUpperEstimate": 1.0015218794095297,
+          "eigenvalueMinimumApprox": 0.9994315320640309,
+          "eigenvalueMaximumApprox": 1.0006564727140492,
+          "condition2Approx": 1.0012256373855732,
+          "jacobiFinalOffDiagonalMaximum": 1.895313728315549e-16,
+          "jacobiRotations": 912,
+          "scope": "Floating diagnostics of the assembled matrix; no outward eigenvalue certificate."
+        },
+        "gramAngularWeightMinimum": 0.9994304396771492,
+        "gramAngularWeightMaximum": 1.0006582777921058,
+        "rootPrecision": null
+      },
+      "tightFromNormalChange": {
+        "maximumLCoefficientChange": 0,
+        "meanPhysicalChange": 0,
+        "nonmeanRadialHeightSlopeCoefficientL1Change": 0,
+        "maximumGramEntryChange": 0,
+        "maximumLeadingChange": 0,
+        "maximumDChange": 0
+      }
+    }
+  ],
+  "actualODECalls": 0,
+  "actualDNCalls": 0,
+  "actualBVPCalls": 0,
+  "seconds": 2.698
+}

@@ -1,0 +1,206 @@
+{
+  "schema": "fd2d-raw-body-exact-tail-geometry-check-v1",
+  "scope": "Small independent exact-tail check of actual curvature and one rigid cut fit.\n\nThis is a constructed R128 tail fixture, not a BVP field or a surface certificate.\nIt checks the new postprocessor's geometry formulas, including an actual nonzero\ntilt and horizontal translation which must be retained by the registration.\n",
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-body-geometry-check.py",
+      "bytes": 4781,
+      "sha256": "8c9ee5f929292f7b809800654a43ebf3bbb66c3385542e3fbae8c6454c8f5786"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-body-screen.py",
+      "bytes": 28076,
+      "sha256": "27abc54c5c170ac2074428c2726e4077a3d57e25d15ea0e0a5f1606c56185827"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_flat_developable_tail.py",
+      "bytes": 8004,
+      "sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3"
+    }
+  ],
+  "fixture": {
+    "tail_kind": "positive_bernstein",
+    "controls": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "cut_radius": 0.8,
+    "angles": 64,
+    "angle_formula": "2*pi*(j+.137)/64",
+    "proper_rotation": [
+      [
+        0.9077758055611578,
+        -0.2842590603758515,
+        0.30844752135821935
+      ],
+      [
+        0.21254967937539945,
+        0.9456833418570963,
+        0.24597896400182112
+      ],
+      [
+        -0.361615431964962,
+        -0.15773333042902596,
+        0.918887629602533
+      ]
+    ],
+    "translation": [
+      0.13,
+      -0.2,
+      0.7
+    ],
+    "body_state": "Exact tail frame and angle variations, then one declared rigid motion"
+  },
+  "errors": {
+    "metric": 6.661338147750939e-16,
+    "actual_curvature": 1.7763568394002505e-15,
+    "rotation": 4.440892098500626e-16,
+    "translation": 2.220446049250313e-16,
+    "rigid_twojets": 1.2994827337208943e-15,
+    "rigid_normal": 4.871083751574258e-16,
+    "independent_R128_twojets": 3.3306690738754696e-14
+  },
+  "checks": {
+    "actual_curvature": true,
+    "metric": true,
+    "proper_rigid_fit": true,
+    "all_cartesian_jets": true,
+    "oriented_normal": true,
+    "independent_R128": true,
+    "nonzero_tilt_retained": true,
+    "nonzero_horizontal_translation_retained": true
+  },
+  "implementation_checks_passed": true,
+  "cut": {
+    "status": "FINITE_CUT_SAMPLE_COMPARISON_ONLY",
+    "registration": {
+      "Q": [
+        [
+          0.9077758055611581,
+          -0.28425906037585164,
+          0.3084475213582194
+        ],
+        [
+          0.2125496793753996,
+          0.9456833418570963,
+          0.24597896400182104
+        ],
+        [
+          -0.3616154319649623,
+          -0.15773333042902601,
+          0.9188876296025326
+        ]
+      ],
+      "translation": [
+        0.1299999999999999,
+        -0.19999999999999998,
+        0.6999999999999997
+      ],
+      "covariance_singular_values": [
+        20.480000000000004,
+        18.383861629947354,
+        0.33450633192893003
+      ],
+      "source_centered_singular_values": [
+        4.525483399593904,
+        4.287640566785813,
+        0.5783652236510506
+      ],
+      "source_sample_rank": 3,
+      "proper_rotation_det": 1.0000000000000002,
+      "orthogonality_error": 8.881784197001252e-16,
+      "z_axis_after_rotation": [
+        0.3084475213582194,
+        0.24597896400182104,
+        0.9188876296025326
+      ],
+      "oriented_z_tilt_radians": 0.4055447233375669,
+      "unoriented_vertical_axis_tilt_radians": 0.4055447233375669,
+      "horizontal_translation_norm": 0.23853720883753118,
+      "position_rms": 8.680986823973174e-16,
+      "position_max": 1.1960688787401997e-15,
+      "method": "One proper position-only Kabsch fit from same-u tail cut to prefix cut",
+      "mathematical_direction": "Y_tail_registered=Q_tail_to_prefix*X_tail+translation",
+      "no_phase_optimization": true,
+      "no_reflection": true,
+      "no_separate_derivative_or_normal_fit": true,
+      "tilt_not_forced_to_zero": true,
+      "horizontal_translation_not_forced_to_zero": true
+    },
+    "jets": {
+      "X": {
+        "absolute_vector_max": 1.1960688787401997e-15,
+        "rms": 8.680986823973174e-16,
+        "worst_material_u": 6.100285709878405,
+        "target_scaled_vector_max": 1.1960688787401997e-15,
+        "target_scaling_divisor": 1.0
+      },
+      "X_s": {
+        "absolute_vector_max": 5.768888059150692e-16,
+        "rms": 4.3207588195749366e-16,
+        "worst_material_u": 4.136790301384785,
+        "target_scaled_vector_max": 5.768888059150692e-16,
+        "target_scaling_divisor": 1.0
+      },
+      "X_u": {
+        "absolute_vector_max": 5.103707577989016e-16,
+        "rms": 3.182333240884195e-16,
+        "worst_material_u": 1.0933724182196727,
+        "target_scaled_vector_max": 6.379634472486269e-16,
+        "target_scaling_divisor": 0.8
+      },
+      "X_ss": {
+        "absolute_vector_max": 1.1986424564952127e-15,
+        "rms": 4.216329733671093e-16,
+        "worst_material_u": 0.8970228773703106,
+        "target_scaled_vector_max": 1.1986424564952127e-15,
+        "target_scaling_divisor": 1.0
+      },
+      "X_su": {
+        "absolute_vector_max": 1.2994827337208943e-15,
+        "rms": 5.17042505981626e-16,
+        "worst_material_u": 0.7988481069456296,
+        "target_scaled_vector_max": 1.6243534171511178e-15,
+        "target_scaling_divisor": 0.8
+      },
+      "X_uu": {
+        "absolute_vector_max": 7.468261590855957e-16,
+        "rms": 3.8847010742537786e-16,
+        "worst_material_u": 5.609411857755,
+        "target_scaled_vector_max": 1.166915873571243e-15,
+        "target_scaling_divisor": 0.6400000000000001
+      }
+    },
+    "inward_normal_vector_error_max": 4.871083751574258e-16,
+    "auxiliary_nml_difference_max": 0.0,
+    "prefix_target_radius": 0.8,
+    "tail_declared_cut_radius": 0.8,
+    "radius_difference": 0.0,
+    "saved_cut_correction_absolute_max": 0.0,
+    "saved_cut_correction_exactly_zero": true,
+    "arrays": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-raw-body-geometry-check-02-cut.npz",
+      "bytes": 44995,
+      "sha256": "82049bb0133911676d071d2ef5ef5991878ea2e28128369cfee0abee5f0140aa"
+    },
+    "tail_quadrature_order": 96,
+    "scope": "One fitted rigid comparison; errors neither vanish by definition nor prove an exact C2 seam."
+  },
+  "no_BVP_or_continuous_surface_claim": true
+}

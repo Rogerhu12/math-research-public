@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-closed-codazzi-complement-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    {
+      "path": "scripts/fd2d-metric-codazzi-complement-check.py",
+      "bytes": 9469,
+      "sha256": "cc27dde2488e8c9888acd1431045a4ffaeabf29961f1bc23193a6b36e615a6eb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-codazzi-complement.md",
+      "bytes": 8951,
+      "sha256": "46170f42150482477a6940777d1845ae41d8bb2c5c6df49e711b68f566f442c7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-codazzi-complement-T-check-01.json",
+      "bytes": 8066,
+      "sha256": "e202ce81871a76a05a5ebc7042c4917cdb9265b8bf9667443d00135e6391b719"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-codazzi-complement-T-check-01-exit-receipt.json",
+      "bytes": 770,
+      "sha256": "191969f397aaeddee0c8231d74898b613fec7e1ea1f1dcaa7f8c2bb08817d086"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-codazzi-complement-bump-check-01.json",
+      "bytes": 7988,
+      "sha256": "23f860e5396f2b0d8c33acaa41a024982ae1de39604bf3c39e8ebd80e569e2ff"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-codazzi-complement-bump-check-01-exit-receipt.json",
+      "bytes": 790,
+      "sha256": "3c5c49a9752d858134a476ab79ce1612dd178a3865c89edbad1fae22f1f5dec7"
+    }
+  ],
+  "actual_executions": [
+    {
+      "session_id": 43283,
+      "chunk_id": "f9ac44",
+      "exit_code": 0
+    },
+    {
+      "session_id": 58332,
+      "chunk_id": "2aa5f1",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Finite additional angular residual/JVP on actual archived inputs; original F and fields unchanged; no BVP or continuous certificate"
+}

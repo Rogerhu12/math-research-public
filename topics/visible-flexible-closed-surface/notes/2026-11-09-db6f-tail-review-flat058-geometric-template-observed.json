@@ -1,0 +1,35 @@
+{
+  "status": "INDEPENDENT_FULL_FLAT058_REVIEW_CLOSED",
+  "observer": "/root/tail_review_continued",
+  "recorded_utc": "2026-11-09T20:35:31.615184+00:00",
+  "operations": [
+    {
+      "kind": "author_exact_program_independent_replay",
+      "tool_receipt": "8c879e",
+      "actual_exit_code": 0,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-replay.json",
+        "bytes": 7550,
+        "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e"
+      },
+      "byte_identical_to_author_report": true
+    },
+    {
+      "kind": "different_Fraction_implementation",
+      "tool_receipt": "f443ad",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.016256963,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-independent.json",
+        "bytes": 6125,
+        "sha256": "4e44860c517fe9e88ead0dc280afea53301e0eef853034ddea7084252b90a142"
+      },
+      "all_fraction_fields": 38,
+      "sources": 16,
+      "solver_calls": 0
+    }
+  ],
+  "current_candidate_read": false,
+  "geometry_backend_calls": 0,
+  "scope": "Conditional retained pieces and planar two-jet data; no common-metric exit or closed surface"
+}

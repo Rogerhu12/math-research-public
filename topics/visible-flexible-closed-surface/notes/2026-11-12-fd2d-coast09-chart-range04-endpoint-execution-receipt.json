@@ -1,0 +1,17 @@
+{
+  "schema": "fd2d-observed-tool-execution-receipt-v1",
+  "actual_execution": true,
+  "session_id": 5653,
+  "launch_chunk_id": "863372",
+  "completion_chunk_id": "674b57",
+  "actual_exit_code": 0,
+  "report_seconds": 18.73611982500006,
+  "report_completed": true,
+  "observed_report": {
+    "path": "notes/2026-11-12-fd2d-coast09-chart-range04-endpoint-report.json",
+    "bytes": 10329,
+    "sha256": "e5948eabad5c852feca21143993dfc8d5b36e5a0e7f102a5aadd383f7a4b3b22"
+  },
+  "receipt_written_utc": "2026-11-12T14:01:26.606881+00:00",
+  "scope": "Tool exit observed before context compaction; completion not inferred from a file"
+}

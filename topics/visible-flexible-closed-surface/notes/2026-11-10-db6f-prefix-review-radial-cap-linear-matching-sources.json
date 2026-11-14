@@ -1,0 +1,84 @@
+{
+  "schema": "db6f-prefix-radial-cap-linear-matching-full-review-sources-v1",
+  "reviewer": "/root/coupled_prefix",
+  "status": "PASS_FULL_ELEVEN_SECTION_PAPER_PROOF",
+  "subject": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-radial-cylinder-cap-linear-matching-v1.md",
+    "commit": "92236c4b60e5996eb4b17efbfdfd6412e4bc84b0",
+    "blob": "0e9e0413b0c196ad3c988f7135392327ac3ac8ad",
+    "bytes": 22996,
+    "sha256": "a93f8a74f2a23726dd93310d41c85b27499311ed8634c57b37453e48907c9c62"
+  },
+  "definitions_and_scope_sources": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-radial-mixed-flux-cap-gate-v1.md",
+      "commit": "013eba46d6875cf0f6e83ce3fb66e430a9f1e05b",
+      "blob": "308f30f00c6d8c82b0471d84d5694d74e46c3e70",
+      "bytes": 6088,
+      "sha256": "2581f2b01e1dfdd86cd7c11b8e18f031c5abc22e9a8074f2d85186ca1138eebe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-smooth-core-fixed-h-reach-v1.md",
+      "commit": "be7b380055c1906a1abacfc5682da0e372ef8579",
+      "blob": "543ec104f6038f84ea05ea8f11d05445b02d72d8",
+      "bytes": 17561,
+      "sha256": "45d197cbc2b3f6c103ecd131b8bf3f49fb374fad5cc9a900a3d45dd29f5e2687"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-positive-k-centered-cap-flat-outlet-v1.md",
+      "commit": "b86b496d59518717e9335a098879c657395df899",
+      "blob": "4c048cac1215fee49cf5fd8350bbbf31f380edb0",
+      "bytes": 14035,
+      "sha256": "d452eb6d06ad88e22f2e4ec7ea5dc9c45d0e6369cbb92dbdf6bcf9910454c272"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v1.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "823c3b7ecb90201ba9718dc1865a12ce83fb0046",
+      "bytes": 23092,
+      "sha256": "b4b5c9d5154c9bcb09f4c077ca14d6ac05064ffb61e6b75f6017ce28c6f475fc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "commit": "626b6123f05b37793b85aae640d2bb25810318f2",
+      "blob": "099f451b142e184c223d2d0764887d99bd492db5",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    }
+  ],
+  "main_source_read": "All eleven sections, fixed commit; mathematical formulas independently rederived on paper.",
+  "dependency_scope": "Referenced definitions and scope were checked from frozen texts. This does not replace or relabel the earlier independent reviews of the input theorems.",
+  "standing_gauge_clarification": "Section9's scalar planar tangent variation is read under Section4 equation15's fixed e_z conormal gauge. If planes move, first remove the ambient rigid tilt; curvature and its variation k are unchanged.",
+  "checked_sections": [
+    "2: Gauss-Weingarten, Codazzi, principal type and actual two-jet port matching",
+    "3: Constant conormal, planar seam, C2 reflection versus cylinder insertion",
+    "4: Fixed rotational base, smooth positive-curvature center and C2 parameter differentiation",
+    "5: Exact x/zeta and y/Z transformations, n^2-1 coefficient and pointwise inlet conditions",
+    "6: Cartesian center bounds, boundary energy term, nonnegative-curvature restricted exclusion and rigid kernel",
+    "7: Cooperative high-frequency comparison and analytic necessary inlet trace",
+    "8: Exact spherical-core stable/unstable solutions, n1 exclusion and same-a resonance",
+    "9: Actual planar closure, fixed arc infinite frequency support and explicit support-kernel variation",
+    "10: No-factorial second-order Gauss coefficient and both forced Codazzi terms",
+    "1,11: Accurate provenance and necessary-only scope"
+  ],
+  "execution": {
+    "mathematical_program": false,
+    "terminal": false,
+    "python": false,
+    "matrix": false,
+    "ode_pde_bvp_dn_rk": false,
+    "geometry_data": false,
+    "text_fetch_and_sha_only": true
+  },
+  "scope": "Necessary conditions for the same radial metric, specified rotational base and parameter-differentiable family. No general closed-surface no-go, no existence of a matching cap, no numerical or README completion claim.",
+  "untouched": [
+    "author draft",
+    "old sources",
+    "HANDOFF",
+    "open",
+    "results",
+    "LOG",
+    "QUEUE",
+    "all active/numerical entries"
+  ]
+}

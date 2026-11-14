@@ -1,0 +1,190 @@
+{
+  "scope": "Planning upper budget from the M8 exact finite height fields; not a true metric lower bound and not yet recomputed for M12/M16.",
+  "reference_manifest": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "background_packet": "2026-11-09-db6f-audit-tail-tight-final-packet.json",
+  "settings": [
+    {
+      "allocated_w_budget": 1e-09,
+      "raw_cells": {
+        "0": {
+          "rows": 108,
+          "span_ranges": [
+            [
+              4294,
+              4297
+            ],
+            [
+              4302,
+              4305
+            ],
+            [
+              4390,
+              4392
+            ],
+            [
+              4398,
+              4400
+            ],
+            [
+              4403,
+              4410
+            ],
+            [
+              4428,
+              4444
+            ],
+            [
+              4508,
+              4541
+            ],
+            [
+              4542,
+              4567
+            ],
+            [
+              4568,
+              4572
+            ]
+          ],
+          "maximum_budget": 1.2152363828152598e-06,
+          "sufficient_w_uncertainty": 4.555909682474915e-08
+        },
+        "2": {
+          "rows": 586,
+          "span_ranges": [
+            [
+              2898,
+              2978
+            ],
+            [
+              2979,
+              3477
+            ]
+          ],
+          "maximum_budget": 2.416909149830028e-07,
+          "sufficient_w_uncertainty": 4.2219549846839226e-05
+        },
+        "3": {
+          "rows": 344,
+          "span_ranges": [
+            [
+              2553,
+              2816
+            ],
+            [
+              2817,
+              2898
+            ]
+          ],
+          "maximum_budget": 1.6772192216140757e-08,
+          "sufficient_w_uncertainty": 0.0006083928386435462
+        }
+      }
+    },
+    {
+      "allocated_w_budget": 2e-10,
+      "raw_cells": {
+        "0": {
+          "rows": 216,
+          "span_ranges": [
+            [
+              4175,
+              4176
+            ],
+            [
+              4182,
+              4185
+            ],
+            [
+              4256,
+              4261
+            ],
+            [
+              4282,
+              4288
+            ],
+            [
+              4289,
+              4293
+            ],
+            [
+              4294,
+              4301
+            ],
+            [
+              4302,
+              4308
+            ],
+            [
+              4309,
+              4313
+            ],
+            [
+              4378,
+              4384
+            ],
+            [
+              4386,
+              4411
+            ],
+            [
+              4412,
+              4444
+            ],
+            [
+              4508,
+              4567
+            ],
+            [
+              4568,
+              4572
+            ]
+          ],
+          "maximum_budget": 1.2152363828152598e-06,
+          "sufficient_w_uncertainty": 9.111819364949829e-09
+        },
+        "2": {
+          "rows": 587,
+          "span_ranges": [
+            [
+              2898,
+              3477
+            ]
+          ],
+          "maximum_budget": 2.416909149830028e-07,
+          "sufficient_w_uncertainty": 8.443909969367844e-06
+        },
+        "3": {
+          "rows": 432,
+          "span_ranges": [
+            [
+              2319,
+              2401
+            ],
+            [
+              2548,
+              2898
+            ]
+          ],
+          "maximum_budget": 1.6772192216140757e-08,
+          "sufficient_w_uncertainty": 0.00012167856772870924
+        },
+        "4": {
+          "rows": 180,
+          "span_ranges": [
+            [
+              1982,
+              2079
+            ],
+            [
+              2236,
+              2319
+            ]
+          ],
+          "maximum_budget": 5.730978217054824e-10,
+          "sufficient_w_uncertainty": 0.0035610261446420194
+        }
+      }
+    }
+  ]
+}

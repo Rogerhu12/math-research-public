@@ -1,0 +1,14 @@
+{
+  "schema": "78718-root-half-height-initialization-exit-v1",
+  "utc": "2026-11-10T12:09:48.834766+00:00",
+  "actual_tool_exit": {
+    "chunk_id": "a5f53a",
+    "exit_code": 2
+  },
+  "seconds": 14.348588483997446,
+  "finite_success": false,
+  "last_iteration": null,
+  "completed_inner_bvp_calls": 0,
+  "scope": "Actual first half-height DN request failed in the initial momentum root before a shooting iteration. Not a nonexistence proof.",
+  "next_initial_guess": "Decode Q/physical nonmean radial data, scale them, solve the new mean root and reproject nonlinear momentum; keep actual target and all original success conditions."
+}

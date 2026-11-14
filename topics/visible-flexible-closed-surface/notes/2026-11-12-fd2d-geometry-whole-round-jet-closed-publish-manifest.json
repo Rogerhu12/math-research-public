@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-manifest.json",
+    "bytes": 1420,
+    "sha256": "03f85b5d157495dcbd75a9ec2849610114a84d0cdc5cd8b44e23f1aae8e43db6"
+  },
+  "original_status": "closed",
+  "only_key_adaptation": "Exact original artifacts plus original manifest exposed as files; no source, number, proof or input changed",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_whole_round_reference.py",
+      "bytes": 12299,
+      "sha256": "b98a1c32b1e28dc1158803892443f415772a78a3ce397a67038a46e71513ffa7"
+    },
+    {
+      "path": "scripts/fd2d-whole-round-reference-check.py",
+      "bytes": 9607,
+      "sha256": "fbfd58b54233e4d69eec06798af0d6f93af0d5aba150194e95460900fb166faf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-whole-round-reference-check-01.json",
+      "bytes": 8891,
+      "sha256": "0a9304e17bfdbbf3d463b2c78e3bd5e19758936515aeee6b7a5715cdef98a642"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-whole-round-reference-check-01-exit.json",
+      "bytes": 424,
+      "sha256": "03afbfb1ed3458e00c46633e074cbc8145b4d4195cca1e002b7e6db18f2c09bc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-packet.md",
+      "bytes": 7765,
+      "sha256": "e0646611f9fcdb4b82d43e3d11644c7acb50a2d77e0daceca0140aa4362757cb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-manifest.json",
+      "bytes": 1420,
+      "sha256": "03f85b5d157495dcbd75a9ec2849610114a84d0cdc5cd8b44e23f1aae8e43db6"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "scope": "New original full-F accepted state, still unconverged, no successful DN or geometry claim",
+  "retained": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-m15-w22-resume-19-accepted1-recovery.json.gz",
+  "bytes": 754570,
+  "sha256": "eb34085b1e06f1d44c0798195ad432cc611c2c0faa030282fb9032115e0905d8",
+  "acceptedEvent": {
+    "time": "2026-11-12T05:00:20.237Z",
+    "event": "accepted_state_saved",
+    "call": 1,
+    "iteration": 1,
+    "trial": 0,
+    "step": 1,
+    "norm": 7.565301707732489e-06,
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/outputs/2026-11-12-fd2d-numerical-m15-w22-resume-19_tail-iteration-accepted.json.gz",
+    "bytes": 754570,
+    "sha256": "eb34085b1e06f1d44c0798195ad432cc611c2c0faa030282fb9032115e0905d8"
+  },
+  "fullFComplete": {
+    "time": "2026-11-12T05:00:19.361Z",
+    "call": 1,
+    "event": "stage_cache_evaluation_complete",
+    "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+    "key": "7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a",
+    "inputHash": "42e7edeab838b09d945b758b84915f0faf7a2259e276d0b36d574f2dea42ee14",
+    "withJac": false,
+    "count": 1728,
+    "loadedStages": 0,
+    "newlySavedStages": 1728,
+    "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a"
+  },
+  "selectedActualTrace": [
+    {
+      "time": "2026-11-12T04:48:33.743Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_complete",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "eef61fae50b86dc4ac2d4a22b2473253231a1f3ce2e252860ee770d2e392e9a2",
+      "inputHash": "7ada040c435eda395ec7f5a1e921c7dd098b107f630360af0b3cbb3f21b53428",
+      "withJac": false,
+      "count": 1728,
+      "loadedStages": 544,
+      "newlySavedStages": 1184,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/eef61fae50b86dc4ac2d4a22b2473253231a1f3ce2e252860ee770d2e392e9a2"
+    },
+    {
+      "time": "2026-11-12T04:48:34.772Z",
+      "event": "accepted_state_saved",
+      "call": 1,
+      "iteration": 0,
+      "trial": 0,
+      "step": 1,
+      "norm": 0.0074002192307086635,
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/outputs/2026-11-12-fd2d-numerical-m15-w22-resume-19_tail-iteration-accepted.json.gz",
+      "bytes": 754581,
+      "sha256": "fdf94c2cee7b4f3f59b0064467792a79d4e1a200008e38e49e181daa63d3aee2"
+    },
+    {
+      "time": "2026-11-12T04:48:34.787Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_start",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "e0f35581e26da2ad51eb03c6305b9c5315c9759668daa3338cb3ced203047727",
+      "inputHash": "7ada040c435eda395ec7f5a1e921c7dd098b107f630360af0b3cbb3f21b53428",
+      "withJac": true,
+      "count": 1728,
+      "loadedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/e0f35581e26da2ad51eb03c6305b9c5315c9759668daa3338cb3ced203047727"
+    },
+    {
+      "time": "2026-11-12T04:56:00.523Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_complete",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "e0f35581e26da2ad51eb03c6305b9c5315c9759668daa3338cb3ced203047727",
+      "inputHash": "7ada040c435eda395ec7f5a1e921c7dd098b107f630360af0b3cbb3f21b53428",
+      "withJac": true,
+      "count": 1728,
+      "loadedStages": 0,
+      "newlySavedStages": 1728,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/e0f35581e26da2ad51eb03c6305b9c5315c9759668daa3338cb3ced203047727"
+    },
+    {
+      "time": "2026-11-12T04:56:00.861Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 563676,
+      "iteration": 1,
+      "norm": 0.0074002192307086635,
+      "minA": 0.4043202414609659,
+      "minD": 0.9932495875766826,
+      "worst": {
+        "stage": 84,
+        "component": 43,
+        "absolute": 8.480556565153285e-09,
+        "scale": 1.1459872066980867e-06,
+        "normalized": 0.0074002192307086635,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      },
+      "rhsRootStatistics": {
+        "evaluations": 44,
+        "roundoffFallbacks": 0,
+        "maximumRootRelativeResidual": 6.193461147236695e-17,
+        "parallel": {
+          "evaluations": 186660,
+          "roundoffFallbacks": 0,
+          "maximumRootRelativeResidual": 7.995721145448984e-14,
+          "scope": "Actual cumulative work in this request pool, including already dispatched later stages after an earlier failure."
+        },
+        "scope": "Existing parent-engine counters and actual request-pool counters; no extra root or flow."
+      },
+      "hostMemory": {
+        "rss": 628539392,
+        "heapTotal": 116707328,
+        "heapUsed": 110991616,
+        "external": 88474605,
+        "arrayBuffers": 111102319
+      }
+    },
+    {
+      "time": "2026-11-12T04:56:02.513Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 565328,
+      "iteration": 1,
+      "norm": 0.0074002192307086635,
+      "minA": 0.4043202414609659,
+      "minD": 0.9932495875766826,
+      "chartCondition": 240614.32526161484,
+      "phase": "correction",
+      "worst": {
+        "stage": 84,
+        "component": 43,
+        "absolute": 8.480556565153285e-09,
+        "scale": 1.1459872066980867e-06,
+        "normalized": 0.0074002192307086635,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      },
+      "rhsRootStatistics": {
+        "evaluations": 44,
+        "roundoffFallbacks": 0,
+        "maximumRootRelativeResidual": 6.193461147236695e-17,
+        "parallel": {
+          "evaluations": 186660,
+          "roundoffFallbacks": 0,
+          "maximumRootRelativeResidual": 7.995721145448984e-14,
+          "scope": "Actual cumulative work in this request pool, including already dispatched later stages after an earlier failure."
+        },
+        "scope": "Existing parent-engine counters and actual request-pool counters; no extra root or flow."
+      },
+      "hostMemory": {
+        "rss": 629252096,
+        "heapTotal": 129814528,
+        "heapUsed": 111105216,
+        "external": 88984477,
+        "arrayBuffers": 110075535
+      }
+    },
+    {
+      "time": "2026-11-12T04:56:08.015Z",
+      "event": "geometric_trial_cache_saved",
+      "context": "bf47708a47026adb1aa1183a42b1e8fbb7585f51058a4688ffa8f7f40b8b20c2",
+      "key": "bea6f7031d0fa2193af0e53b5b5fbc169fd6ceb5112eba38fa4ecedf76cde964",
+      "stateHash": "3537cb166887b567fd556421718f2c34f1488b1028f36eb1f69fb9b2d8a5c26b",
+      "deltaHash": "3e75791447913fb22666429d3d666521dc11ce1c15cf4c2edde20258c83181e9",
+      "lambda": 1,
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/geometric-trials/bea6f7031d0fa2193af0e53b5b5fbc169fd6ceb5112eba38fa4ecedf76cde964.v8.gz",
+      "bytes": 598589,
+      "sha256": "4b56e081ceb6156fae7baa9e3b987f78c6116211ae9f97996531c7b88b834eb6",
+      "scope": "Complete construction only; not accepted.",
+      "hostMemory": {
+        "rss": 632922112,
+        "heapTotal": 213438464,
+        "heapUsed": 166173992,
+        "external": 67214579,
+        "arrayBuffers": 89233124
+      }
+    },
+    {
+      "time": "2026-11-12T04:56:08.018Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_start",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a",
+      "inputHash": "42e7edeab838b09d945b758b84915f0faf7a2259e276d0b36d574f2dea42ee14",
+      "withJac": false,
+      "count": 1728,
+      "loadedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a"
+    },
+    {
+      "time": "2026-11-12T05:00:19.361Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_complete",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a",
+      "inputHash": "42e7edeab838b09d945b758b84915f0faf7a2259e276d0b36d574f2dea42ee14",
+      "withJac": false,
+      "count": 1728,
+      "loadedStages": 0,
+      "newlySavedStages": 1728,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/7a58ec3e5130dfecd10061f8c2482a58d990029075ce3f33839fe6882e8d192a"
+    },
+    {
+      "time": "2026-11-12T05:00:20.237Z",
+      "event": "accepted_state_saved",
+      "call": 1,
+      "iteration": 1,
+      "trial": 0,
+      "step": 1,
+      "norm": 7.565301707732489e-06,
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/outputs/2026-11-12-fd2d-numerical-m15-w22-resume-19_tail-iteration-accepted.json.gz",
+      "bytes": 754570,
+      "sha256": "eb34085b1e06f1d44c0798195ad432cc611c2c0faa030282fb9032115e0905d8"
+    }
+  ]
+}

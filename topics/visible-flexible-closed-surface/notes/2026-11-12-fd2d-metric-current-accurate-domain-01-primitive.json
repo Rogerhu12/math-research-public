@@ -1,0 +1,353 @@
+{
+  "schema": "fd2d-current-exact-normalized-physical-cell-primitive-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_current_accurate_domain_arb.py",
+    "bytes": 15180,
+    "sha256": "01600097f6bece6e8ba7ce56bb56bced28e832c0b8b58d5cf30cc0939ffc6c2c"
+  },
+  "field_binding_sha256": "d8f0ef5da9239458f1bf46de845332746f7bec16cd55d654d34f799f252388d8",
+  "cell_definition": {
+    "cell": 129,
+    "left_exact": [
+      "6698420701823855",
+      "4503599627370496"
+    ],
+    "right_definition": "S: the R171 exact phase-integral cut",
+    "right_enclosure": {
+      "lower_binary": [
+        "2693926799068983009599668889973212808561885364892825513989211860043082510757",
+        -250
+      ],
+      "upper_binary": [
+        "2693926799068983009599668889973686279431756556377767851663376363331056841125",
+        -250
+      ],
+      "lower_display": 1.48897317835813,
+      "upper_display": 1.48897317835813
+    },
+    "physical_length": {
+      "lower_binary": [
+        "2940033515793357224428063235227730880013399497884670734176019165134729637",
+        -250
+      ],
+      "upper_binary": [
+        "2940033515793357224428063235701201749884590982827008408340522453109060005",
+        -250
+      ],
+      "lower_display": 0.001625000000001175,
+      "upper_display": 0.001625000000001175
+    },
+    "normalized_label": "s=b+(S-b)*t; 0<=t<=1",
+    "source_binding_sha256": "585264c14cfcc61e2ffc423e20c7824a8b8ca0d343a047faa66b866c2435ba3c"
+  },
+  "unit_cell_polynomial": {
+    "schema": "fd2d-current-R125-physical-s-zero-end-primitive-v1",
+    "field_binding_sha256": "d8f0ef5da9239458f1bf46de845332746f7bec16cd55d654d34f799f252388d8",
+    "left_exact": [
+      "0",
+      "1"
+    ],
+    "right_exact": [
+      "1",
+      "1"
+    ],
+    "coefficient_semantics": "Exact rational finite polynomial in t, complete D2 cosine/sine vector in xi",
+    "cosine": [
+      [
+        [
+          [
+            "15719095750160751",
+            "2251799813685248"
+          ]
+        ],
+        [
+          [
+            "-2019736057153355",
+            "140737488355328"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "21110207062076909",
+            "576460752303423488"
+          ]
+        ],
+        [
+          [
+            "-6827515431815343",
+            "144115188075855872"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "25472713395953387",
+            "12259964326927110866866776217202473468949912977468817408"
+          ]
+        ],
+        [
+          [
+            "-4901428168949995",
+            "3064991081731777716716694054300618367237478244367204352"
+          ]
+        ]
+      ]
+    ],
+    "sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "mean_cosine": [
+      [
+        [
+          [
+            "-438792707066089",
+            "2251799813685248"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "7455176198446223",
+            "576460752303423488"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "15669857058053397",
+            "12259964326927110866866776217202473468949912977468817408"
+          ]
+        ]
+      ]
+    ],
+    "mean_sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "primitive_cosine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "2019736057153355",
+            "281474976710656"
+          ]
+        ],
+        [
+          [
+            "-2019736057153355",
+            "281474976710656"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "6827515431815343",
+            "288230376151711744"
+          ]
+        ],
+        [
+          [
+            "-6827515431815343",
+            "288230376151711744"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "4901428168949995",
+            "6129982163463555433433388108601236734474956488734408704"
+          ]
+        ],
+        [
+          [
+            "-4901428168949995",
+            "6129982163463555433433388108601236734474956488734408704"
+          ]
+        ]
+      ]
+    ],
+    "primitive_sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "exact_identities": {
+      "q_left_exact_zero": true,
+      "q_right_exact_zero": true,
+      "q_s_exact_P_minus_mean": true,
+      "angular_jet_of_zero_endpoint_exact_zero": true
+    },
+    "provenance": {
+      "kind": "actual last-cell two-point forcing secant; finite rational P only",
+      "sample_labels": [
+        "1/4",
+        "3/4"
+      ],
+      "angular_pi_multiple": "1/4",
+      "sample_fit_error_claimed": false
+    },
+    "actual_H_minus_P_bound_supplied": false,
+    "moving_chart_term": "+(U_s/U_xi)*q_xi, at fixed physical material u",
+    "commutator_term": "q cross alpha, alpha=(m,-l,0)",
+    "connection_vector": "(-a*Rn,+a*Rm,-a*G)",
+    "continuous_global_certificate": false,
+    "packet_sha256": "a73f152e9b592c22fd1f9b7cab579ec0d23a3410b31cfe97f0188cb0647f5ac8"
+  },
+  "physical_primitive": "q=L*q_unit, with L the exact physical cell length defined by the bound field",
+  "exact_identities": {
+    "q_left_exact_zero": true,
+    "q_right_exact_zero": true,
+    "q_s_exact_P_minus_mean": true,
+    "angular_jet_of_zero_endpoint_exact_zero": true,
+    "physical_q_s_exact_P_minus_mean": true,
+    "true_length_not_enclosure_midpoint_defines_polynomial": true
+  },
+  "all_three_Gauss_Codazzi_components_retained": true,
+  "actual_H_minus_P_or_complete_posterior_asserted": false,
+  "packet_sha256": "f95d0c1596f3ad8bbaaad5619b527287731eb211223cee1fe0387ca4fd617dba"
+}

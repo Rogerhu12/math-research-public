@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-09T13:43:43.325741+00:00",
+  "status": "PASS-exact-object-ID-preserving-duplicate-compaction",
+  "objects": 108632,
+  "sorted_oid_sha256": "e4b051783edc11dcaff5598231ee1ff83fb950417801ca22103bf1f6b6fdf301",
+  "batch": 500000000,
+  "before": {
+    "available": 783818752,
+    "free": 4236566528,
+    "pack_bytes": 8360892324
+  },
+  "after": {
+    "available": 783818752,
+    "free": 4236566528,
+    "pack_bytes": 8360892324
+  },
+  "seconds": 0.05185985565185547,
+  "refs_changed": false,
+  "research_files_removed": false
+}

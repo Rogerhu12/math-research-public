@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-actual-main-run-start-observation-v1",
+  "session_id": 61353,
+  "launch_chunk": "ef0615",
+  "observed_utc": "2026-11-12T16:21:47.090074+00:00",
+  "started": true,
+  "exit_not_yet_observed": true,
+  "out_prefix": "notes/2026-11-12-fd2d-raw-bump-refined21",
+  "driver": {
+    "path": "scripts/fd2d-gc-raw-bump-refined-angular-stream-run.py",
+    "bytes": 32915,
+    "sha256": "48c9cfacec24bbd4ec2003f15d2051bf841bb9680de349163ea4db564efbad7a"
+  },
+  "input": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "blocks": 4,
+  "iterations_per_block": 2,
+  "angular_modes": 31,
+  "tail_parameter_count": 16,
+  "physical_profile_parameter_count": 7,
+  "radial_node_count": 129
+}

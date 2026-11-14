@@ -1,0 +1,289 @@
+{
+  "schema": "fd2d-fixed-parameter-local-Codazzi-range-screen-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-coast-cell-range-screen.py",
+    "bytes": 10156,
+    "sha256": "67ee3ca603bb6da8c94e791547d1e9f79be4e7db1590b86badb3b21871b9dc02"
+  },
+  "inputs": {
+    "candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "field": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+      "bytes": 49734,
+      "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+    },
+    "radius_packet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    },
+    "reference_inlet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+      "bytes": 68907,
+      "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+    },
+    "reference_cache": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    }
+  },
+  "started_utc": "2026-11-12T13:28:04.568095+00:00",
+  "completed": true,
+  "exception": null,
+  "original_field_modified": false,
+  "nonlinear_BVP_performed": false,
+  "continuous_certificate": false,
+  "scope": "Finite fixed-p affine Codazzi ranges with two free endpoint correction nodes; no global boundary or Gauss/curvature constraints",
+  "cells": [
+    {
+      "cell": 63,
+      "endpoints": [
+        0.5919999999999992,
+        0.6313633493003443
+      ],
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "parameters_fixed": true,
+      "actual_before_l2": 0.8270982995422764,
+      "actual_before_full_mean_maximum": 1.093071236637682,
+      "actual_before_high_mean_maximum": 0.14908965720617906,
+      "before_point_fields": {
+        "n_minimum": 0.22382542743205855,
+        "n_maximum": 5.311225870026021,
+        "formal_curvature_maximum": 5.311225870026021
+      },
+      "cases": [
+        {
+          "relative_svd_cutoff": 1e-10,
+          "numerical_rank": 59,
+          "largest_scaled_singular_value": 2.26144398180204,
+          "smallest_scaled_singular_value": 4.115231897630977e-17,
+          "predicted_l2": 0.001879552974933001,
+          "actual_l2": 0.0018795530052077942,
+          "affine_backsubstitution_maximum": 4.773001993640946e-10,
+          "correction_change_maximum": 94867.64557290213,
+          "correction_change_l2": 211269.7305285445,
+          "actual_full_mean_maximum": 0.002859612606698647,
+          "actual_high_mean_maximum": 0.0028596143674803898,
+          "actual_point_Gauss_maximum": 9067043025.397009,
+          "point_fields": {
+            "n_minimum": -89944.36557445122,
+            "n_maximum": 88568.07553080481,
+            "formal_curvature_maximum": 157907.5459519936
+          },
+          "admissible_global_field_claimed": false
+        },
+        {
+          "relative_svd_cutoff": 1e-12,
+          "numerical_rank": 63,
+          "largest_scaled_singular_value": 2.26144398180204,
+          "smallest_scaled_singular_value": 4.115231897630977e-17,
+          "predicted_l2": 0.0012082813137529026,
+          "actual_l2": 0.001208281870066351,
+          "affine_backsubstitution_maximum": 8.400623863202838e-09,
+          "correction_change_maximum": 3151822.941752168,
+          "correction_change_l2": 6508262.773354931,
+          "actual_full_mean_maximum": 0.0020286226645112038,
+          "actual_high_mean_maximum": 0.0020287036895751953,
+          "actual_point_Gauss_maximum": 16805716325111.166,
+          "point_fields": {
+            "n_minimum": -1814577.7610769917,
+            "n_maximum": 2109521.081635588,
+            "formal_curvature_maximum": 7566566.331145466
+          },
+          "admissible_global_field_claimed": false
+        },
+        {
+          "relative_svd_cutoff": 1e-14,
+          "numerical_rank": 70,
+          "largest_scaled_singular_value": 2.26144398180204,
+          "smallest_scaled_singular_value": 4.115231897630977e-17,
+          "predicted_l2": 0.0005217814611432838,
+          "actual_l2": 0.0005218803453868571,
+          "affine_backsubstitution_maximum": 8.642459801144753e-07,
+          "correction_change_maximum": 1192669526.9569933,
+          "correction_change_l2": 1809380587.1590395,
+          "actual_full_mean_maximum": 0.0006225705146789551,
+          "actual_high_mean_maximum": 0.00061759352684021,
+          "actual_point_Gauss_maximum": 1.4846310212496362e+17,
+          "point_fields": {
+            "n_minimum": -155530092.5075892,
+            "n_maximum": 92441629.14908792,
+            "formal_curvature_maximum": 1596580882.9782555
+          },
+          "admissible_global_field_claimed": false
+        }
+      ],
+      "necessary_component_coefficient_box_case": {
+        "cap": 7.352941176470588,
+        "bound_kind": "Discrete Fourier row L1 bound implied by componentwise sample cap; deliberately loose, not a sufficient curvature condition",
+        "solver_status": 1,
+        "solver_message": "The first-order optimality measure is less than `tol`.",
+        "optimality": 7.786803902956434e-13,
+        "iterations": 143,
+        "actual_l2": 0.01051426659339169,
+        "predicted_l2": 0.010514266593383222,
+        "actual_full_mean_maximum": 0.018529929104488474,
+        "actual_high_mean_maximum": 0.01853001765172735,
+        "correction_change_maximum": 10.248357056108066,
+        "actual_point_Gauss_maximum": 1911.8629289078738,
+        "point_fields": {
+          "n_minimum": -60.493486558427755,
+          "n_maximum": 41.18081456536651,
+          "formal_curvature_maximum": 75.46483437642894
+        },
+        "admissible_global_field_claimed": false
+      }
+    },
+    {
+      "cell": 71,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "parameters_fixed": true,
+      "actual_before_l2": 2.743294550098692,
+      "actual_before_full_mean_maximum": 8.213569571579256,
+      "actual_before_high_mean_maximum": 8.089119531293,
+      "before_point_fields": {
+        "n_minimum": 0.36806721018383726,
+        "n_maximum": 4.9213747241224715,
+        "formal_curvature_maximum": 6.2193093684925795
+      },
+      "cases": [
+        {
+          "relative_svd_cutoff": 1e-10,
+          "numerical_rank": 60,
+          "largest_scaled_singular_value": 2.3645079197393617,
+          "smallest_scaled_singular_value": 2.526129509905014e-17,
+          "predicted_l2": 2.010914751390093,
+          "actual_l2": 2.010914751320359,
+          "affine_backsubstitution_maximum": 3.4348698996211624e-08,
+          "correction_change_maximum": 21317811.16324765,
+          "correction_change_l2": 40584089.878394864,
+          "actual_full_mean_maximum": 6.09513696283102,
+          "actual_high_mean_maximum": 6.095136824995279,
+          "actual_point_Gauss_maximum": 170002074217667.97,
+          "point_fields": {
+            "n_minimum": -6291392.3090546625,
+            "n_maximum": 10282470.504744884,
+            "formal_curvature_maximum": 48030350.848025106
+          },
+          "admissible_global_field_claimed": false
+        },
+        {
+          "relative_svd_cutoff": 1e-12,
+          "numerical_rank": 66,
+          "largest_scaled_singular_value": 2.3645079197393617,
+          "smallest_scaled_singular_value": 2.526129509905014e-17,
+          "predicted_l2": 1.879335924020544,
+          "actual_l2": 1.8793355490109287,
+          "affine_backsubstitution_maximum": 5.4806459506007155e-06,
+          "correction_change_maximum": 2926546734.7293816,
+          "correction_change_l2": 6029382276.472914,
+          "actual_full_mean_maximum": 5.471974015235901,
+          "actual_high_mean_maximum": 5.471982002258301,
+          "actual_point_Gauss_maximum": 3.8987871060466427e+18,
+          "point_fields": {
+            "n_minimum": -1286477689.190426,
+            "n_maximum": 1354650702.2212052,
+            "formal_curvature_maximum": 6504941275.446964
+          },
+          "admissible_global_field_claimed": false
+        },
+        {
+          "relative_svd_cutoff": 1e-14,
+          "numerical_rank": 70,
+          "largest_scaled_singular_value": 2.3645079197393617,
+          "smallest_scaled_singular_value": 2.526129509905014e-17,
+          "predicted_l2": 1.7982698689739798,
+          "actual_l2": 1.7982656095334144,
+          "affine_backsubstitution_maximum": 0.0003271684549366327,
+          "correction_change_maximum": 114460571530.96243,
+          "correction_change_l2": 256268336344.53928,
+          "actual_full_mean_maximum": 5.38934326171875,
+          "actual_high_mean_maximum": 5.389068603515625,
+          "actual_point_Gauss_maximum": 4.84862720721436e+21,
+          "point_fields": {
+            "n_minimum": -34495184037.33804,
+            "n_maximum": 33332213236.90003,
+            "formal_curvature_maximum": 311035054430.2603
+          },
+          "admissible_global_field_claimed": false
+        }
+      ],
+      "necessary_component_coefficient_box_case": {
+        "cap": 7.352941176470588,
+        "bound_kind": "Discrete Fourier row L1 bound implied by componentwise sample cap; deliberately loose, not a sufficient curvature condition",
+        "solver_status": 1,
+        "solver_message": "The first-order optimality measure is less than `tol`.",
+        "optimality": 1.1221290772798912e-12,
+        "iterations": 139,
+        "actual_l2": 2.258364439939628,
+        "predicted_l2": 2.2583644399396157,
+        "actual_full_mean_maximum": 7.929739233451912,
+        "actual_high_mean_maximum": 7.9297388099505515,
+        "correction_change_maximum": 10.282563965356761,
+        "actual_point_Gauss_maximum": 2393.2154539293215,
+        "point_fields": {
+          "n_minimum": -43.52914899057933,
+          "n_maximum": 36.57745069284526,
+          "formal_curvature_maximum": 81.59293319840961
+        },
+        "admissible_global_field_claimed": false
+      }
+    }
+  ],
+  "seconds": 3.7435628219991486,
+  "peak_RSS_KiB": 77224,
+  "functional_definition": {
+    "accurate_reference_GC_applies_only_to_base_delta_zero": true,
+    "angular_chart_fixed_across_unknown_parameters": true,
+    "lifting": "(1-w)*old_seed_tail_lifting+w*frozen_native_reference",
+    "original_physical_g_changed": false,
+    "reference": {
+      "a_c": 1.029181699754392,
+      "binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+      "cached_jets_dtype": "binary64",
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "component_order": [
+        "n",
+        "m",
+        "l"
+      ],
+      "inverse_tolerance": 2e-13,
+      "physical_coast": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "schema": "fd2d-frozen-R139-coast-reference-v1",
+      "v": 0.2587478542495509
+    },
+    "reference_parameters_frozen": true,
+    "rim_fraction": 0.12,
+    "support": [
+      0.5919999999999992,
+      0.8675434451024153
+    ],
+    "target_defects_and_target_profile_derivatives_not_omitted": true,
+    "weight": "S5((s-entry)/rim)*S5((exit-s)/rim), each argument clipped to [0,1]"
+  },
+  "modes": 15,
+  "work": 256,
+  "local_states": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-coast09-cell-range01-local-states.npz",
+    "bytes": 24316,
+    "sha256": "bd8b5731f040ca9939d1fbf86f421f67572c94c5694ac1274a19e6f23b21c367"
+  }
+}

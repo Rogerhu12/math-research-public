@@ -1,0 +1,29 @@
+{
+  "central_seed": {
+    "kind": "R118_balanced_oval",
+    "provider": "../scripts/fd2d_balanced_oval_core.py",
+    "provider_sha256": "1df75241ec76ae9a28042b72cbb721de61e7283378d82e7dea5ff05c3f84b692",
+    "coefficients": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "same_a0_as_original_ellipse": true,
+    "computational_chart": "fixed_seed_normal_angle",
+    "chart_definition": "sigma=S_seed(phi)/a0; b(s,phi)=a(s)*rho_seed(phi)/a0; never update chart with core parameters"
+  },
+  "frozen_candidate_label": "v4_early_partial_return_a25_vmid098_return01",
+  "selection_scope": "Complete fixed C2 metric input selected from finite m2 direction/height/rotational-curvature screen. Not a nonlinear BVP solution. Actual active-core E/F/G, curvature, held, slab, reach and nonlinear tail remain unverified.",
+  "candidate_file": "2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+  "candidate_sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d",
+  "tail_port": "2026-11-12-fd2d-ellipse-cuff032-cut04-port.json",
+  "screen_file": "2026-11-12-fd2d-ellipse-partial-return-screen-a25.json",
+  "profile_frozen": true,
+  "nonlinear_geometry_proved": false,
+  "warnings": [
+    "The ellipse entry defines a0 only. The chosen nonlinear central seed is the R118 balanced oval.",
+    "Do not replace this immutable profile with another run of the screen script.",
+    "The 7.159166 meridional curvature value is for the sampled rotational background, not the actual noncircular surface."
+  ]
+}

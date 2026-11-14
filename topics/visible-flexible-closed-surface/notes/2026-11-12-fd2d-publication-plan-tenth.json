@@ -1,0 +1,25 @@
+{
+  "label": "tenth",
+  "base_commit": "9c39fa3dd69327dce7f3857fc5d7072c254b11b4",
+  "message": "Preserve true hidden interior defects and correct the finite Gauss target without changing the physical field",
+  "root_log_text": "收录16/17真实末态、格内缺陷及R159–161完整证明；18已加实际内部行，局部normal保原目标/Jd，原g/字段保持。继续实际全域核与强几何。",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-raw-bump-trace16-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-trace17-closed-group.json",
+    "notes/2026-11-12-fd2d-trace16-interior-gauss-closed-group.json",
+    "notes/2026-11-12-fd2d-trace18-interior-static-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-interior18-static-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-R160-closed-manifest.json",
+    "notes/2026-11-12-fd2d-R161-interior-Gauss-proof-closed-manifest.json",
+    "notes/2026-11-12-fd2d-metric-R159-closed-manifest-01.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-ninth-batch-main-receipt.json"
+  ],
+  "excluded": [
+    "active interior18 output",
+    "active independent-tail native reader work",
+    "regenerable intermediate arrays"
+  ],
+  "scope": "16/17 outcomes, hidden interior defects, 18 static finite rows and R159–161 full proofs; no strong completion claim"
+}

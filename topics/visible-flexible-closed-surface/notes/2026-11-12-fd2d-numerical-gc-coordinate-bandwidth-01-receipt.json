@@ -1,0 +1,17 @@
+{
+  "session_id": 99998,
+  "launch_chunk": "419162",
+  "completion_chunk": "86836b",
+  "tool_exit_code": 0,
+  "seconds": 8.416256227999838,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-numerical-gc-coordinate-bandwidth-01.json",
+    "bytes": 68981,
+    "sha256": "231eafd3c38c1c500d874744c3e7c37733bb6919a476cdccef7677f0588d7f75"
+  },
+  "source": {
+    "path": "scripts/fd2d_gc_native_coordinate_bandwidth.py",
+    "sha256": "73f2e20fddac1bbd0a8eb938a5a63774c854f44871a990b0f2e09c2378029a1e"
+  },
+  "scope": "Read-only actual same-field coordinate bandwidth comparison at2048 angular points, including correctly transported RHS; no new BVP or ODE."
+}

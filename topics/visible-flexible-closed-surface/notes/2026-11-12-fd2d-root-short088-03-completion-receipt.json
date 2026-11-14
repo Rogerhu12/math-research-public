@@ -1,0 +1,17 @@
+{
+  "actual_tool_result": {
+    "session_id": 34484,
+    "actual_exit_code": 0,
+    "completion_chunk": "549850",
+    "source": "Actual tools.write_stdin result"
+  },
+  "solver_success": false,
+  "solver_status": 1,
+  "message": "The maximum number of mesh nodes is exceeded.",
+  "seconds": 269.22691917200063,
+  "accepted_steps": 11,
+  "final_nodes": 689,
+  "maximum_rms_residual": 9.188286805017972e-05,
+  "collocation_tolerance": 2e-05,
+  "scope": "Actual finite gap .05 state with linear tail. Mesh capacity 700 reached; not solver convergence. Continuation at the identical gap and equations with capacity 1400 is active as short088-04, session60439. No geometrical nonexistence conclusion."
+}

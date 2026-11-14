@@ -1,0 +1,42 @@
+{
+  "schema": "fd2d-closed-deliverable-manifest-v1",
+  "scope": "Only frozen angular projection arithmetic/cache reuse; exact real formulas unchanged, finite local floating differences recorded",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-frozen-operator-projections-check.py",
+      "bytes": 11193,
+      "sha256": "3739f854a1e8badb7d374c196c807e9f57912f4f8d38789a46429f84dc4bd8c4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-projections-check-01.json",
+      "bytes": 19913,
+      "sha256": "d244191456f5125de697591c7b4cd7e1fd6839c215245b1c7532c955e5d0a2d1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-frozen-operator-projections.md",
+      "bytes": 8011,
+      "sha256": "101f3380e52b5557fb5c56ced19d3ba4b4ab4dc66b8c3717691d6130ba5e61b5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-projections-check-01-process-receipt.json",
+      "bytes": 716,
+      "sha256": "a1f1f850dddc6c47efe9e74ff49e2ee6a79e1a298d9e3d0eb20e7fa00948d27f"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 53710,
+  "actual_exit_code": 0,
+  "actual_process_receipt": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-projections-check-01-process-receipt.json",
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "no_new_R_number": true,
+  "no_active_source_modified": true
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-R186-unexecuted-same-Schur-endpoint-proposal-source-v1",
+  "source_status": "Text saved while executor unavailable; no Python import, compilation, QP or F/J run claimed",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_R186_endpoint_proposal.py",
+      "bytes": 4875,
+      "sha256": "ff6c12dface3c90f2c030e1b7cde7f774031a2fe05e32988f64d9f1b231785ab",
+      "commit": "f6af9935a893da9f4cc0c392836eb8c6d4c82f96"
+    },
+    {
+      "path": "scripts/fd2d-gc-signed-stage-qp-R186-endpoint-proposal.py",
+      "bytes": 11481,
+      "sha256": "38264a4acd34b06544d7546fe5428a6cb9978872016b4281667f2e0d9a47f7eb",
+      "commit": "833cd3d9dc02b7f61c9a5830c0591dcb1340083d"
+    }
+  ],
+  "base_context": "Explicit signed36 middle-positive-only actual context",
+  "baseline_normal_and_factor_must_bind_same_actual_vector": true,
+  "new_QP_constraint": "Only the full proposed endpoint must satisfy delta7 >= binary64 .027; original six profile coefficients remain free within existing box",
+  "original_actual_trial_domain_changed": false,
+  "original_F_or_normal_changed": false,
+  "actual_trials_may_be_outside_R186_interval": true,
+  "membership_source": "Inspect actual binary64 trial parameter values, optionally using fd2d-metric-R186-step-domain-arithmetic.mjs; ideal alpha threshold is a separate observation",
+  "damping_scales_and_factor_unchanged": true,
+  "whole_F_J_evaluations": 0,
+  "QP_directions_created": 0,
+  "NPZ_fields_created": 0,
+  "accepted_states_created": 0,
+  "mathematical_references": [
+    "results/R184-signed-trace-preimages-and-transition-Codazzi-cost.md",
+    "notes/2026-11-12-fd2d-metric-R186-free-first-six-corollary.md",
+    "notes/2026-11-12-fd2d-metric-R186-Armijo-step-domain.md"
+  ],
+  "usage": {
+    "module_call": "qp_problem, definition = endpoint_profile_proposal(problem, lower=.027, profile_box=.08)",
+    "direction_call": "bounded_direction_from_schur(qp_problem, original_vector, original_normal, original_Schur_packet, ... original search settings ...)",
+    "projection": "original Context.project only; report any true change",
+    "trial": "Original complete actual Armijo; accurately report actual delta7 and interval membership",
+    "formal_R186_domain_activation": "A future explicit new search-domain binding must separately enforce the binary lower bound in every actual domain check"
+  },
+  "strong_target_complete": false
+}

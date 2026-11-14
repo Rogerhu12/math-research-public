@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED-publication-inventory-no-active-outputs",
+  "scope": "Independent extraction/reference review with one observed zero-root replay and exact comparison. Author inputs and original comparator review are separately supplied by tail/coupled.",
+  "files": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-check.json",
+      "sha256": "9a7b112a7bf4e10fe23dbf3d69b400cb8e7c2554616624ec682144c8c7859dc3",
+      "bytes": 5219
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-observed-execution.json",
+      "sha256": "547f1e6c75e514db175621ff6eeedd3319b74292dcbcee6c8b3f0635995d013c",
+      "bytes": 480
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-observed-summary.json",
+      "sha256": "b63292059821d0a21c285a80c07652c9708799d618940ab7b88092eeee857cf3",
+      "bytes": 26559
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-observed.json.gz",
+      "sha256": "706a0c3900e5c9c3017fc2e395d420ad2365ef6b8abfe9973b894fa985ec3652",
+      "bytes": 201723
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-observed.log",
+      "sha256": "134ad948e6a5300b46af1e7acf3e1f2ec1594d177938f9a5fe01033810454530",
+      "bytes": 8802
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-local-projection-reference-review.md",
+      "sha256": "ced4511442281a77a98bf66549a6b63571ede110dbeed79110542ab9557b7bae",
+      "bytes": 6957
+    },
+    {
+      "path": "scripts/db6f-audit-local-projection-reference.py",
+      "sha256": "2bf9dcd3041c08210b156ba45d4f8668b6dbf85eb2cb38b145760e923e4094e4",
+      "bytes": 13337
+    }
+  ],
+  "total_bytes": 263077,
+  "all_files_under_5MB": true,
+  "excluded_local_duplicates": [
+    "2026-11-09-db6f-audit-local-projection-reference.json.gz",
+    "2026-11-09-db6f-audit-local-projection-summary.json",
+    "2026-11-09-db6f-audit-local-projection-reference.log"
+  ]
+}

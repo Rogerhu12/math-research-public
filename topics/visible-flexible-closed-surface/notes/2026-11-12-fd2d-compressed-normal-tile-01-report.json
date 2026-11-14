@@ -1,0 +1,140 @@
+{
+  "schema": "fd2d-compressed-normal-tile-small-roundtrip-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-compressed-normal-tile-check.py",
+    "bytes": 7097,
+    "sha256": "a0d4e489484cf6984a69e79eb5e49176944554ad4be51ba6fc9990295ed814ca"
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_compressed_normal_tile.py",
+    "bytes": 10561,
+    "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+  },
+  "fixture_manifest": {
+    "path": "/tmp/fd2d-compressed-normal-tile-fixture-b977g8nn/tile/manifest.json",
+    "bytes": 1902,
+    "sha256": "934eadabbddd4497bac68437b80e9c9f77231888f6a01a0cab4194ee83833ac6"
+  },
+  "fixture_definition": {
+    "binding_sha256": "0dd63818a67e991daef4b60f7c34f752a4dd42ca6f75eb0535759012b627c619",
+    "complete": true,
+    "compressed_numerical_bytes": 203674,
+    "directory_name": "tile",
+    "largest_compressed_piece_bytes": 176825,
+    "logical_directory_name": "normal-tile",
+    "logical_loader": "fd2d_gc_normal_checkpoint.load_normal_checkpoint",
+    "logical_manifest": {
+      "bytes": 25033,
+      "file": "payload/original-manifest.json",
+      "sha256": "bd1f7fcd79a12f9a882de432019729491eb123cb6122ea85b3c71ab9086daf83"
+    },
+    "logical_normal_schema": "fd2d-lossless-local-normal-checkpoint-v1",
+    "logical_numerical_bytes": 888972,
+    "logical_piece_count": 5,
+    "mapping_sha256": "db929c0bcc6b2a401c226d28829bb5323743563cdc889f42a9e9e60753773f36",
+    "mathematical_or_finite_objective_change": false,
+    "metadata_sha256": "1591145b2ce1c3623f0b3e5a5183174e33a5adbab204510aebe60590733edb2c",
+    "numerical_operations_performed": false,
+    "offline_piece_result": "Verified original NPZ bytes, strictly below 1,000,000 bytes",
+    "original_manifest_and_pieces_lossless": true,
+    "payload_index": {
+      "bytes": 3257,
+      "file": "payload/index.json",
+      "sha256": "a3fd49967f4111c31c32220bcdd97d0a008c95c8cf9379c868d6d8603fbb5132"
+    },
+    "raw_temporary_directory_removed_after_success": true,
+    "schema": "fd2d-compressed-original-local-normal-tile-v1",
+    "sources": {
+      "capsule_transport": {
+        "bytes": 12264,
+        "name": "fd2d_gc_normal_capsule.py",
+        "sha256": "da1f00e2936472b0a7824ebd6ea4f460eb1f5086a810e8b4c4128c9c14e73d34"
+      },
+      "helper": {
+        "bytes": 10561,
+        "name": "fd2d_gc_compressed_normal_tile.py",
+        "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+      },
+      "normal_transport": {
+        "bytes": 16976,
+        "name": "fd2d_gc_normal_checkpoint.py",
+        "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+      }
+    }
+  },
+  "logical_manifest_schema": "fd2d-lossless-local-normal-checkpoint-v1",
+  "logical_piece_checks": [
+    {
+      "file": "mapping.npz",
+      "bytes": 9768,
+      "sha_equal": true
+    },
+    {
+      "file": "global.npz",
+      "bytes": 24964,
+      "sha_equal": true
+    },
+    {
+      "file": "nodes-000000-000004.npz",
+      "bytes": 275726,
+      "sha_equal": true
+    },
+    {
+      "file": "nodes-000004-000008.npz",
+      "bytes": 577446,
+      "sha_equal": true
+    },
+    {
+      "file": "nodes-000008-000009.npz",
+      "bytes": 1068,
+      "sha_equal": true
+    }
+  ],
+  "original_class_used": true,
+  "values_bitwise_equal": true,
+  "value_checks": {
+    "diagonal": true,
+    "upper": true,
+    "Hfp": true,
+    "Hpp": true,
+    "gf": true,
+    "gp": true,
+    "field_norm_squared": true,
+    "parameter_norm_squared": true,
+    "residual_squared": true,
+    "rows": true,
+    "blocks": true,
+    "row_groups": true,
+    "info": true
+  },
+  "rebuilt_mapping_bitwise_equal": true,
+  "mapping_checks": {
+    "N": true,
+    "q": true,
+    "P": true,
+    "total": true,
+    "count": true,
+    "central_nodes": true,
+    "extra": true,
+    "pairs": true,
+    "fixed": true,
+    "free": true,
+    "node_free": true,
+    "widths": true,
+    "offsets": true,
+    "field_maps": true,
+    "parameter_maps": true
+  },
+  "wrong_binding_rejected": true,
+  "altered_piece_row_rejected": true,
+  "compressed_one_byte_corruption_rejected": true,
+  "own_raw_temporary_directory_removed": true,
+  "logical_numerical_bytes": 888972,
+  "compressed_numerical_bytes": 203674,
+  "largest_compressed_piece_bytes": 176825,
+  "disk_savings_are_for_this_synthetic_payload_only": true,
+  "no_F_J_normal_assembly_QP_BVP_or_body": true,
+  "old_actual_normals_tiles_sources_modified": false,
+  "seconds": 0.06525933100056136,
+  "passed": true
+}

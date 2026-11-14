@@ -1,0 +1,352 @@
+{
+  "schema": "fd2d-continuous-actual-material-field-bounds-v1",
+  "scope": "Continuous bounds for actual saved shared-two-jet material fields.\n\nEvery native radial polynomial is bounded by its Bernstein hull, and all\nfinite angular modes by a full Fourier coefficient sum. Prefix derivatives\nare converted through the exact frozen material chart, and through the\nexact bridge's native/physical meridian scale. Tail derivatives use the\nsame physical arclength direction and the existing target curvature <=6.\nThis certifies the field bounds only, never its repaired metric residual.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-material-field-bounds.py",
+    "bytes": 10755,
+    "sha256": "49acf4749bbec3a05a571b353804d7aef07b60fac8e60b9abd73e38144f271a1"
+  },
+  "geometry": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "bytes": 10095,
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "target": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "bytes": 3668,
+    "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+  },
+  "bridge": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+    "bytes": 3887,
+    "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+  },
+  "warp": {
+    "e": "3602879701896397/4503599627370496",
+    "ep": "1775415958891829534082370254878228962025822179343913083881909960943464042871572312111627328942077605232875045869948937325229404355145163358328125473572637672496710487127959333136286416912242106152426766225547415068814377201563834435604278792954229521355381335914222044869738577808749978330465922746321472015888815492769487516507306002809225411507324725173283319939412225349014731980964148131543877569960463051096348103096531247494365488325053317313213708579598603764448345231446055608022856930778443091458062232798781849802840176022713239400709514073763062816585443337/1542050730896355890961307555004740636205932427891997871147823562528271324591625181946133008005818601684939211305855404283521481971366518599075745160392253032982278130364132226679269255541694658366753781553937814973893630996745867619804571649619042457021740773951125747667387881602597775847192676360712535924723400278927153050704615441534649664377300172248873785887116747530865918027867449276048002090751989720858051975790467373742385783460136275802452220373319145236284638867655413945199224007813100791519959212155181968215761934298386952342706561375398058062879129600",
+    "epp": "10926038389786070921439126486603014943125611065273509754367895873629932420837019432624421428358371811253626260961677027736010977583570835000208589234300099007890188140310084104221151462260494009527797269400679786508482644843598363948056605853091229844005972885218602466124045531973635991366074332490355849385224574103558542331053354478676165998482413236949649021977856491397337332079924319422015686893692815068107328181799849397755569225673003624011769680708694329115458843602668524727746256432326830566321933686944353833593536367418733907584202015252122835022082272/1571411792719757875004856329545252117602924097029549038131256215913381628435727408915322398521911338009751567798619718392714024625739374064519780983591790472506811827152516234907595340026190039094760405433928294457055318818089014282815845909106825608324257140865005683200790138931133335790800592750090160987371961898429125964302298172466607208908408208402650850238639774181093359743495609085322910395722269610663832444872207045910311757236772301085129982608474696748289702269723206181325740774233847259692723350740319366404052807783774071822374797616295492808840475",
+    "rho": "900719925474099/4503599627370496",
+    "panels": 520,
+    "supplier": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+      "bytes": 17622,
+      "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+    }
+  },
+  "regions": [
+    {
+      "field": {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+        "bytes": 7139,
+        "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+      },
+      "bindings": [
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000000-000064.npz.gz",
+          "bytes": 3024758,
+          "sha256": "9df969a38835623c24d3f0bfda358a4f2992b869eeafce2601862ccff4c4aa79"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000064-000128.npz.gz",
+          "bytes": 3054667,
+          "sha256": "967016c13bbdca023585561bc66184a4dc60207a72f0fd0feafead4fe9bba20c"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000128-000192.npz.gz",
+          "bytes": 3053232,
+          "sha256": "4ff214b33934dc01c25734e4c84e649f898a0ac885c46bc2a7955c20c60d3802"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000192-000256.npz.gz",
+          "bytes": 3056268,
+          "sha256": "17fec7c7215472cd6957f0fa3837d6d4da0f2cf6f938ea73ca6e0f1a21ac35e6"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000256-000320.npz.gz",
+          "bytes": 3057152,
+          "sha256": "089a79a63ad714f87d10290ff30eff051b1a79cd2ef7247199c07886bcfdbe6d"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000320-000384.npz.gz",
+          "bytes": 3059113,
+          "sha256": "59aca4f4c7623af1258e2e732f9a98bbd05c6bd373ff0dab7789423a011c6167"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000384-000448.npz.gz",
+          "bytes": 3056384,
+          "sha256": "09516fc6908aaf61171a578727392caee59627e2d38b6fbd09c685bc429ba8e0"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000448-000512.npz.gz",
+          "bytes": 3065070,
+          "sha256": "6d8c0d308646bb9a865da3a861aeba598bb06a5ee619c947973f327c8a5e606e"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000512-000576.npz.gz",
+          "bytes": 3071043,
+          "sha256": "b774f3f982ae8d67346e6a8b865a83cefb2d78f64b639e1ff5b0f45fd16f9381"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000576-000640.npz.gz",
+          "bytes": 3070026,
+          "sha256": "ea679eb25034cb641534051364442fbf9b0c587d46170cf4b07552a712452689"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000640-000704.npz.gz",
+          "bytes": 3069403,
+          "sha256": "d435f0c2a261d3c8df2b18f131ed955179d5cacdd17492cd10328d84bcebd376"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000704-000768.npz.gz",
+          "bytes": 3075598,
+          "sha256": "d3e44aeadb81044d025ee8949e0c5e2c47861d82550ab01e18cc5e79bedaabaa"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000768-000832.npz.gz",
+          "bytes": 3078482,
+          "sha256": "b0c4f13da8829b21b430a0a864230ecb3403c9065ff41787562d3ce3d7bbd9a1"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000832-000896.npz.gz",
+          "bytes": 3078010,
+          "sha256": "78aa641d603444e707ee56c9b1c6cd3d740ede1aac9b20bf7e4c954fc41598c2"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000896-000960.npz.gz",
+          "bytes": 3077835,
+          "sha256": "03296e3f4a660784e5321683cc256ad566e353efc0f9614d53d91fa70f707f64"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000960-001024.npz.gz",
+          "bytes": 2816925,
+          "sha256": "1b5f0d9f85ad226d7c9eddf10e87a73c0fcaec1162ed5038f83dcd5f9c476980"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-001024-001025.npz.gz",
+          "bytes": 408,
+          "sha256": "97faf04546736b5d0226785f6c98154df7f2727ba67a1f2de7dd30c1e9fc4a88"
+        }
+      ],
+      "region": "prefix",
+      "complete_native_domain": true,
+      "native_bounds": [
+        {
+          "v": 1.1362026047307049e-11,
+          "x": 7.345534173244805e-10,
+          "u": 9.973822776114756e-10,
+          "xx": 1.4899430779245816e-06,
+          "xu": 7.102021266000943e-08,
+          "uu": 1.296600458791967e-07
+        },
+        {
+          "v": 2.174839769807261e-11,
+          "x": 9.213611966364459e-10,
+          "u": 8.960300349607943e-10,
+          "xx": 1.9241532790047685e-06,
+          "xu": 9.463447859009793e-08,
+          "uu": 7.764748592023711e-08
+        }
+      ],
+      "physical_bounds": [
+        {
+          "v": 1.1362026047307063e-11,
+          "s": 2.6484208594567685e-09,
+          "u": 4.986911388057387e-09,
+          "ss": 2.3175927313075755e-06,
+          "su": 1.7426583148867787e-06,
+          "uu": 3.5407158302633687e-06
+        },
+        {
+          "v": 2.1748397698072635e-11,
+          "s": 2.64074477661233e-09,
+          "u": 4.48015017480398e-09,
+          "ss": 2.643019753672383e-06,
+          "su": 1.3471113020612167e-06,
+          "uu": 2.209996158494172e-06
+        }
+      ],
+      "conversion": {
+        "scale_factor_upper": 1.0000000000000004,
+        "bridge": {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+          "bytes": 3887,
+          "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+        }
+      },
+      "field_support_native_enclosure": [
+        0.0,
+        2.0119039424926344
+      ],
+      "exact_zero_endpoint_jets_verified": true
+    },
+    {
+      "field": {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+        "bytes": 7350,
+        "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df"
+      },
+      "bindings": [
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000000-000064.npz.gz",
+          "bytes": 963554,
+          "sha256": "14f45a76238b645569491c564a67f30cec83bf2e7cd096ec8f1f38572a9a40d0"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000064-000128.npz.gz",
+          "bytes": 1161712,
+          "sha256": "18d3ac6c8e38ddbed24b36c1544df0524c7ddde77215c9dd775188c1c655b2c8"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000128-000192.npz.gz",
+          "bytes": 1163093,
+          "sha256": "3029c1bd694fbe1e08674e327abb022838cc1146020a860a34cf88306b9c9649"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000192-000256.npz.gz",
+          "bytes": 1164080,
+          "sha256": "1e5437b2342fbc66c42e4118c90f082113942d01bcef97e27c0b41c62adfef7a"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000256-000320.npz.gz",
+          "bytes": 1163899,
+          "sha256": "05d06e4c79d394792d61312567b0ccf9a54a5c30ac889f5e77a0e29c1c676ff0"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000320-000384.npz.gz",
+          "bytes": 1163947,
+          "sha256": "9cd8d053094530f2aad4476202a47aca40595207d693cb2d11b8c35abb7507c4"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000384-000448.npz.gz",
+          "bytes": 1163939,
+          "sha256": "f9c45f8a707e58bf14990f27a05d0dcc684cff812cb804c6c89659286c3ad3c6"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000448-000512.npz.gz",
+          "bytes": 1163952,
+          "sha256": "ee2696a6d9f956646dadf58c13dc1b845cc037bf7b8a5bdde00c5bfaea9e2ead"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000512-000576.npz.gz",
+          "bytes": 1164093,
+          "sha256": "d6e8da6bc989df0f722d3a3ce5038065868a0ce2cce0df06821ac6876f7c2370"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000576-000640.npz.gz",
+          "bytes": 1162230,
+          "sha256": "81671827d2bae4dbc28f05c8a837af2f78a3654c43b791f129ec13a96b5b2538"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000640-000704.npz.gz",
+          "bytes": 1161654,
+          "sha256": "f966306a3eeb19d5ae7dc6ea09df5637b9d733f231f2ebd0789d9da81b369c6d"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000704-000768.npz.gz",
+          "bytes": 1161225,
+          "sha256": "6f1b894ac996e1472a0b8ab367c228229679d24b8605537959fc1b5cd42002b4"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000768-000832.npz.gz",
+          "bytes": 1161753,
+          "sha256": "1c4446138d879ab3987b6725690ed3feb45d1a6acfebd00d65e343ea1f3e0288"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000832-000896.npz.gz",
+          "bytes": 1162002,
+          "sha256": "62a428da8a859d1bc7a874da36153952eddfd3c53235e012fbf608ec58a09ffc"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000896-000960.npz.gz",
+          "bytes": 1162448,
+          "sha256": "ece52e9d1170b3ddb5fadbd3d0a23f44846b6d4894c73d4b14cecf53b56b344e"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000960-001024.npz.gz",
+          "bytes": 239744,
+          "sha256": "a0b018a7feca59602b0142a80c5cfe5e3a7d3abd0d4e563fb08f6987c37e3784"
+        },
+        {
+          "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-001024-001025.npz.gz",
+          "bytes": 324,
+          "sha256": "94e07e613e993d01da9142db3d25f5d0d44c0025e0f7e6ff9d0aa4bb93064f4c"
+        }
+      ],
+      "region": "tail",
+      "complete_native_domain": true,
+      "native_bounds": [
+        {
+          "v": 1.5348355764193366e-11,
+          "x": 1.3721433762718312e-08,
+          "u": 6.450752908888119e-10,
+          "xx": 0.00019119532183105658,
+          "xu": 5.56963995387533e-07,
+          "uu": 2.7623574855464885e-08
+        },
+        {
+          "v": 9.489794579974111e-12,
+          "x": 1.2610572156051406e-09,
+          "u": 4.1084748991940807e-10,
+          "xx": 1.1092279977524434e-05,
+          "xu": 5.408467387809709e-08,
+          "uu": 1.8289835239301466e-08
+        }
+      ],
+      "physical_bounds": [
+        {
+          "v": 1.5348355764193366e-11,
+          "s": 1.3721433762718312e-08,
+          "u": 6.450752908888119e-10,
+          "ss": 0.00019127765043363293,
+          "su": 5.56963995387533e-07,
+          "uu": 2.7623574855464885e-08
+        },
+        {
+          "v": 9.489794579974111e-12,
+          "s": 1.2610572156051406e-09,
+          "u": 4.1084748991940807e-10,
+          "ss": 1.1099846320818066e-05,
+          "su": 5.408467387809709e-08,
+          "uu": 1.8289835239301466e-08
+        }
+      ],
+      "conversion": {
+        "target_curvature_upper_used": 6.0
+      },
+      "field_support_native_enclosure": [
+        0.401953125,
+        0.5900390625
+      ],
+      "exact_zero_endpoint_jets_verified": true
+    }
+  ],
+  "bounds": {
+    "p": 1.5348355764193366e-11,
+    "p_s": 1.3721433762718312e-08,
+    "p_u": 4.986911388057387e-09,
+    "p_ss": 0.00019127765043363293,
+    "p_su": 1.7426583148867787e-06,
+    "p_uu": 3.5407158302633687e-06,
+    "q": 2.1748397698072635e-11,
+    "q_s": 2.64074477661233e-09,
+    "q_u": 4.48015017480398e-09,
+    "q_ss": 1.1099846320818066e-05,
+    "q_su": 1.3471113020612167e-06,
+    "q_uu": 2.209996158494172e-06
+  },
+  "Dv_operator_upper": 1.5498138864425113e-08,
+  "D2v_bilinear_upper": 0.00019167021163731551,
+  "all_finite_angular_modes_covered": true,
+  "all_native_radial_intervals_covered": true,
+  "material_derivative_coordinates": "physical meridian arclength sigma and physical angle u",
+  "global_field_components_present": true,
+  "sufficient_field_boxes": {
+    "p": true,
+    "q": true,
+    "Dv": true,
+    "D2v": true
+  },
+  "continuous_linear_residual_not_computed": true,
+  "nonlinear_metric_not_certified": true,
+  "seconds": 145.63776303699706
+}

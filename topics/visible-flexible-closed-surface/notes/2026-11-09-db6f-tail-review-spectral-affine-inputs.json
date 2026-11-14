@@ -1,0 +1,97 @@
+{
+  "status": "PASS_METADATA_AND_AST_FOR_FROZEN_AFFINE_SPECTRAL_RUNNER",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-affine-inputs.py",
+    "bytes": 10686,
+    "sha256": "555cec5ff2b99e23a0fa700a86c0253dfd94fb4cd65522917a30cb6846ced72c"
+  },
+  "runner": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-affine-replay.py",
+    "bytes": 18828,
+    "sha256": "ad219dbab80278670665ac3cb5401cb55daf33834cea8495dd16bf1c1396e4bd"
+  },
+  "preparer": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+    "bytes": 13600,
+    "sha256": "915c3701e8b2de3857e10e7462e09630a5d5f4f955fc77882723788f1344fc99"
+  },
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+    "bytes": 55594,
+    "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+  },
+  "binding_count": 97,
+  "callback_AST_identities": [
+    "fun",
+    "fun_jac",
+    "bc",
+    "bc_jac",
+    "terminal",
+    "initial",
+    "chart",
+    "physical_fun",
+    "physical_fun_jac",
+    "physical_c2_interpolant",
+    "affine_dn",
+    "restart",
+    "save_checkpoint",
+    "domain_install",
+    "domain_solve_newton"
+  ],
+  "physical_state_components": 43,
+  "unchanged_parameter_components": 14,
+  "physical_restart_fields": [
+    "angular_chart",
+    "chart",
+    "frozen_profile",
+    "physical_tail_parameters",
+    "physical_tail_cut",
+    "warp_reference_q"
+  ],
+  "original_true_DN_J_length": 616,
+  "original_true_jets_scalar_count": 14,
+  "original_true_jets_vector_count": 3,
+  "original_true_audit_keys": [
+    "actualMetric",
+    "formalCurvature",
+    "fullD",
+    "holonomy",
+    "maxPhysicalPV",
+    "minD",
+    "minLeading",
+    "normalizedFullDefect"
+  ],
+  "frozen_tail_source_count": 8,
+  "original_coefficient_chunks": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_00.npy.gz",
+      "bytes": 4170219,
+      "sha256": "233c33e9c194e66b45403d7044fe3e28fa4bcf9a1451ba9177b584b047d34db6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_01.npy.gz",
+      "bytes": 1064379,
+      "sha256": "630dc63fead1d2ad46b24c6d71bb71a78c5874b192bc4aa19780374d71494028"
+    }
+  ],
+  "scope_flags": {
+    "actual_nonlinear_tail": false,
+    "frozen_affine_dn": true
+  },
+  "settings": {
+    "modes": 14,
+    "angular": 512,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "max_nodes": 6500
+  },
+  "weight_definition": "mean=1; each of R/T/Z mode j uses 2**bit_length(9*j*j)",
+  "runtime_newton_identity_and_signature_are_future_runtime_gates": true,
+  "only_metadata_and_AST_executed": true,
+  "prefix_objects": 0,
+  "flow_initializations": 0,
+  "newton_install_calls": 0,
+  "solver_factory_calls": 0,
+  "actual_BVP_or_DN_calls": 0
+}

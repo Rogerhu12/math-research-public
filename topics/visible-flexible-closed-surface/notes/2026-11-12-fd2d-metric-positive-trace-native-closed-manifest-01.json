@@ -1,0 +1,80 @@
+{
+  "schema": "fd2d-closed-combined-positive-trace-native-group-v1",
+  "state": "closed_actual_v2_with_preserved_v1_identity_failure",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_native_field.py",
+      "bytes": 16847,
+      "sha256": "da21af4729036536a7114e6d0a46bd32d9b3bb3b6fb9ee028bdbe4eb3ee5d98f"
+    },
+    {
+      "path": "scripts/fd2d-metric-positive-trace-native-check.py",
+      "bytes": 10776,
+      "sha256": "d5c6306b74c18c718570470e16f36757749d598a0dc38e2923004b7173710f75"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native-check-01-exit-receipt.json",
+      "bytes": 1337,
+      "sha256": "226af003a9fe19010ef5bdc61c558627fbd2eb76f0b3bfa6b1a969686fcb7711"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    },
+    {
+      "path": "scripts/fd2d-metric-positive-trace-native-check-v2.py",
+      "bytes": 10785,
+      "sha256": "4d996b554f579c69d6c9317a08abd228f73ed3b28ff507092fc19b7b4eb613b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native.md",
+      "bytes": 12137,
+      "sha256": "d2689caf6e5c1b4af0965bfbe2a85e3e589cb0b3fa9ca9d1bca22e7c5e0bafce"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-report.json",
+      "bytes": 9798,
+      "sha256": "e099b7636d8470001c5abde83f26108c15b8b964430c9cee2d7e717cc4ebe614"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-definition.json",
+      "bytes": 44141,
+      "sha256": "9d1c1763351727c2e23f4c888ef61b3bde2d12442d7e45ff0f5dece746fb21ff"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-samples.npz",
+      "bytes": 8969,
+      "sha256": "9ed13cc4d1ef651f240c0f95fcfc3f3042e1d98a9469904ae14fca8bf287c1e0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-exit-receipt.json",
+      "bytes": 581,
+      "sha256": "49f9974b7fc1a66c8d854f19a2218ffc8039ef0d08adf9f730dc2da1af52e80e"
+    }
+  ],
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "failed_attempt": {
+    "session": 65794,
+    "exit_code": 1,
+    "phase": "ramp_stop metadata validation, no field query",
+    "source_preserved": true
+  },
+  "successful_attempt": {
+    "session": 20405,
+    "completion_chunk": "bd0335",
+    "exit_code": 0,
+    "all_declared_small_checks_passed": true
+  },
+  "usable_reader": "scripts/fd2d_gc_positive_trace_native_field_v2.py::PositiveTraceNativeField",
+  "exact_cut_scope": "Value and angular two-jet directly from complete bound tail. No cut radial II jet fabricated; body callbacks request angular data only.",
+  "BVP_run": false,
+  "body_integration_run": false,
+  "continuous_endpoint_regularity_certificate": false,
+  "closed_surface_certificate": false,
+  "added_C3_completion_gate": false
+}

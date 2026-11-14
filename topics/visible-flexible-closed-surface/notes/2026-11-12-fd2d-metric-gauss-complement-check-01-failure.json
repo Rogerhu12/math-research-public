@@ -1,0 +1,17 @@
+{
+  "schema": "fd2d-actual-exit-receipt-v1",
+  "session_id": 17081,
+  "chunk_id": "cac016",
+  "exit_code": 1,
+  "source": {
+    "path": "scripts/fd2d-metric-gauss-complement-check.py",
+    "sha256": "35df70d5e7a8c1292a97ad8d1de23bd81051fd9a8f294a57438adddb926e6f10"
+  },
+  "exception": {
+    "type": "FileNotFoundError",
+    "path": "notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "stage": "load_npz before any Gauss JVP computation"
+  },
+  "context": "Root reported a source-tree rebase temporarily removing newly committed inputs; no mathematical failure or inferred process-kill cause",
+  "no_JVP_result_produced": true
+}

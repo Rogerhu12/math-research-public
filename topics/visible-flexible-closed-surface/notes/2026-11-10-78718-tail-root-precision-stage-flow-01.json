@@ -1,0 +1,351 @@
+{
+  "scope": "Exactly one actual saved stage and its S32 production state-flow branches; no new shooting solve or BVP. Comparison of original/tight roots and withJac=true/false paths. State arrays and tangent matrices are not printed or stored in this scalar report.",
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-iteration3-root-diagnostic-input.json.gz",
+    "bytes": 385541,
+    "sha256": "18996bebb3b93b2b092c31e7e16f956a3826071133d40c01ac20dfe931adf7d9"
+  },
+  "config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-tail-config.json",
+    "bytes": 2819,
+    "sha256": "a49e86e6ae7735ae2fb2d9f44765da459f04d10fa5c7b7245f6f468652a64f04"
+  },
+  "iteration": {
+    "iteration": 3,
+    "norm": 3.3366011642270125e-9,
+    "minA": 0.9605876583918314,
+    "minD": 0.9989651369830822,
+    "worst": {
+      "stage": 12,
+      "component": 42,
+      "absolute": 2.141778724366807e-12,
+      "scale": 0.0006419043268729995,
+      "normalized": 3.3366011642270125e-9,
+      "kind": "shooting",
+      "rawCell": 0,
+      "rawSegment": 7
+    }
+  },
+  "stage": 12,
+  "rawCell": 0,
+  "rawSegment": 7,
+  "part": 3,
+  "inputNode": 13,
+  "targetNode": 12,
+  "portRatio": 1,
+  "modes": 22,
+  "quadrature": 512,
+  "steps": 32,
+  "cuspAwareFlow": true,
+  "breakpointCount": 0,
+  "jacobianGridSHA256": "282e0f61f7cf0ea27855737d24fc0d72e3206481f60063eb46021877fe25dd2a",
+  "plainGridSHA256": "282e0f61f7cf0ea27855737d24fc0d72e3206481f60063eb46021877fe25dd2a",
+  "gridsExactlyEqual": true,
+  "integrationSubsteps": 32,
+  "scriptSHA256": "93fa08822de82eb266b949fcafca5e810a2cb8f6c0bca3d5888048cf2eab974d",
+  "sourceSHA256": {
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-root-tight-momentum.mjs": "d463980ebdb549d6eccfbc5e3d2b2571b292812e74fe8b67f3508a38f688bfa3",
+    "78718-tail-fourier-root-split-engine.mjs": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+    "78718-tail-fourier-root-tight-split-engine.mjs": "0aae8f08a5a6fe44df37dc2e78b7fb8473d4bfbe3c07c23b4a9f4cbd459cd919",
+    "78718-tail-fourier-product-jacobian.mjs": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "78718-tail-tangent-core.mjs": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "cuspSourceSHA256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+  "results": [
+    {
+      "key": "original-jac",
+      "ok": true,
+      "precision": "original",
+      "withJac": true,
+      "milliseconds": 215.60459100000026,
+      "minimumLeading": 0.9986760917560458,
+      "minimumD": 0.9996415788861829,
+      "maximumRootRelative": 1.6457031643868078e-16,
+      "maximumAbsoluteResidual": 2.141778724366807e-12,
+      "normalizedStageResidual": 3.3366011642270125e-9,
+      "worstComponent": 42,
+      "worstFrequency": 63,
+      "savedWorstComponent": 42,
+      "savedWorstComponentResidual": 2.141778724366807e-12,
+      "savedWorstComponentNormalized": 3.3366011642270125e-9,
+      "savedWorstAbsoluteReplayDifference": 0,
+      "highModes": [
+        {
+          "frequency": 51,
+          "qResidual": -1.0598043774442779e-20,
+          "piResidual": 2.0797727700828705e-13,
+          "normalizedPiResidual": 3.240004285707756e-10
+        },
+        {
+          "frequency": 54,
+          "qResidual": -3.579111504294386e-21,
+          "piResidual": 7.717928987098649e-14,
+          "normalizedPiResidual": 1.2023488024603451e-10
+        },
+        {
+          "frequency": 57,
+          "qResidual": -3.210416302051843e-20,
+          "piResidual": 7.925588386447514e-13,
+          "normalizedPiResidual": 1.2346993242835062e-9
+        },
+        {
+          "frequency": 60,
+          "qResidual": -3.5633712118824784e-20,
+          "piResidual": 9.750139957967314e-13,
+          "normalizedPiResidual": 1.5189397469034939e-9
+        },
+        {
+          "frequency": 63,
+          "qResidual": -7.052743802294224e-20,
+          "piResidual": 2.141778724366807e-12,
+          "normalizedPiResidual": 3.3366011642270125e-9
+        },
+        {
+          "frequency": 66,
+          "qResidual": -5.583981083447921e-20,
+          "piResidual": 1.86705860700378e-12,
+          "normalizedPiResidual": 2.9086244302154035e-9
+        }
+      ],
+      "tangentMaximum": 24210979745932.918,
+      "tangentInfinity": 24289037520804.742,
+      "targetComponentTangentL1": 12694310152339.979,
+      "targetComponentTangentMaximum": 12182669891462.29
+    },
+    {
+      "key": "original-plain",
+      "ok": true,
+      "precision": "original",
+      "withJac": false,
+      "milliseconds": 123.27243800000042,
+      "minimumLeading": null,
+      "minimumD": null,
+      "maximumRootRelative": null,
+      "maximumAbsoluteResidual": 2.141778724366807e-12,
+      "normalizedStageResidual": 3.3366011642270125e-9,
+      "worstComponent": 42,
+      "worstFrequency": 63,
+      "savedWorstComponent": 42,
+      "savedWorstComponentResidual": 2.141778724366807e-12,
+      "savedWorstComponentNormalized": 3.3366011642270125e-9,
+      "savedWorstAbsoluteReplayDifference": 0,
+      "highModes": [
+        {
+          "frequency": 51,
+          "qResidual": -1.0598043774442779e-20,
+          "piResidual": 2.0797727700828705e-13,
+          "normalizedPiResidual": 3.240004285707756e-10
+        },
+        {
+          "frequency": 54,
+          "qResidual": -3.579111504294386e-21,
+          "piResidual": 7.717928987098649e-14,
+          "normalizedPiResidual": 1.2023488024603451e-10
+        },
+        {
+          "frequency": 57,
+          "qResidual": -3.210416302051843e-20,
+          "piResidual": 7.925588386447514e-13,
+          "normalizedPiResidual": 1.2346993242835062e-9
+        },
+        {
+          "frequency": 60,
+          "qResidual": -3.5633712118824784e-20,
+          "piResidual": 9.750139957967314e-13,
+          "normalizedPiResidual": 1.5189397469034939e-9
+        },
+        {
+          "frequency": 63,
+          "qResidual": -7.052743802294224e-20,
+          "piResidual": 2.141778724366807e-12,
+          "normalizedPiResidual": 3.3366011642270125e-9
+        },
+        {
+          "frequency": 66,
+          "qResidual": -5.583981083447921e-20,
+          "piResidual": 1.86705860700378e-12,
+          "normalizedPiResidual": 2.9086244302154035e-9
+        }
+      ],
+      "tangentMaximum": null,
+      "tangentInfinity": null,
+      "targetComponentTangentL1": null,
+      "targetComponentTangentMaximum": null
+    },
+    {
+      "key": "tight-jac",
+      "ok": true,
+      "precision": "tight",
+      "withJac": true,
+      "milliseconds": 159.71822900000006,
+      "minimumLeading": 0.9986760917560458,
+      "minimumD": 0.9996415788861829,
+      "maximumRootRelative": 1.6457031643868078e-16,
+      "maximumAbsoluteResidual": 2.141778724366807e-12,
+      "normalizedStageResidual": 3.3366011642270125e-9,
+      "worstComponent": 42,
+      "worstFrequency": 63,
+      "savedWorstComponent": 42,
+      "savedWorstComponentResidual": 2.141778724366807e-12,
+      "savedWorstComponentNormalized": 3.3366011642270125e-9,
+      "savedWorstAbsoluteReplayDifference": 0,
+      "highModes": [
+        {
+          "frequency": 51,
+          "qResidual": -1.0598043774442779e-20,
+          "piResidual": 2.0797727700828705e-13,
+          "normalizedPiResidual": 3.240004285707756e-10
+        },
+        {
+          "frequency": 54,
+          "qResidual": -3.579111504294386e-21,
+          "piResidual": 7.717928987098649e-14,
+          "normalizedPiResidual": 1.2023488024603451e-10
+        },
+        {
+          "frequency": 57,
+          "qResidual": -3.210416302051843e-20,
+          "piResidual": 7.925588386447514e-13,
+          "normalizedPiResidual": 1.2346993242835062e-9
+        },
+        {
+          "frequency": 60,
+          "qResidual": -3.5633712118824784e-20,
+          "piResidual": 9.750139957967314e-13,
+          "normalizedPiResidual": 1.5189397469034939e-9
+        },
+        {
+          "frequency": 63,
+          "qResidual": -7.052743802294224e-20,
+          "piResidual": 2.141778724366807e-12,
+          "normalizedPiResidual": 3.3366011642270125e-9
+        },
+        {
+          "frequency": 66,
+          "qResidual": -5.583981083447921e-20,
+          "piResidual": 1.86705860700378e-12,
+          "normalizedPiResidual": 2.9086244302154035e-9
+        }
+      ],
+      "tangentMaximum": 24210979745932.918,
+      "tangentInfinity": 24289037520804.742,
+      "targetComponentTangentL1": 12694310152339.979,
+      "targetComponentTangentMaximum": 12182669891462.29
+    },
+    {
+      "key": "tight-plain",
+      "ok": true,
+      "precision": "tight",
+      "withJac": false,
+      "milliseconds": 93.71153299999969,
+      "minimumLeading": null,
+      "minimumD": null,
+      "maximumRootRelative": null,
+      "maximumAbsoluteResidual": 2.141778724366807e-12,
+      "normalizedStageResidual": 3.3366011642270125e-9,
+      "worstComponent": 42,
+      "worstFrequency": 63,
+      "savedWorstComponent": 42,
+      "savedWorstComponentResidual": 2.141778724366807e-12,
+      "savedWorstComponentNormalized": 3.3366011642270125e-9,
+      "savedWorstAbsoluteReplayDifference": 0,
+      "highModes": [
+        {
+          "frequency": 51,
+          "qResidual": -1.0598043774442779e-20,
+          "piResidual": 2.0797727700828705e-13,
+          "normalizedPiResidual": 3.240004285707756e-10
+        },
+        {
+          "frequency": 54,
+          "qResidual": -3.579111504294386e-21,
+          "piResidual": 7.717928987098649e-14,
+          "normalizedPiResidual": 1.2023488024603451e-10
+        },
+        {
+          "frequency": 57,
+          "qResidual": -3.210416302051843e-20,
+          "piResidual": 7.925588386447514e-13,
+          "normalizedPiResidual": 1.2346993242835062e-9
+        },
+        {
+          "frequency": 60,
+          "qResidual": -3.5633712118824784e-20,
+          "piResidual": 9.750139957967314e-13,
+          "normalizedPiResidual": 1.5189397469034939e-9
+        },
+        {
+          "frequency": 63,
+          "qResidual": -7.052743802294224e-20,
+          "piResidual": 2.141778724366807e-12,
+          "normalizedPiResidual": 3.3366011642270125e-9
+        },
+        {
+          "frequency": 66,
+          "qResidual": -5.583981083447921e-20,
+          "piResidual": 1.86705860700378e-12,
+          "normalizedPiResidual": 2.9086244302154035e-9
+        }
+      ],
+      "tangentMaximum": null,
+      "tangentInfinity": null,
+      "targetComponentTangentL1": null,
+      "targetComponentTangentMaximum": null
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "original-jac",
+      "b": "original-plain",
+      "maximumStateDifference": 0,
+      "normalizedStateDifference": 0,
+      "worstComponent": 0,
+      "worstFrequency": 3,
+      "nonzeroComponents": 0,
+      "savedWorstComponentDifference": 0,
+      "meanHeightDifference": 0
+    },
+    {
+      "a": "tight-jac",
+      "b": "tight-plain",
+      "maximumStateDifference": 0,
+      "normalizedStateDifference": 0,
+      "worstComponent": 0,
+      "worstFrequency": 3,
+      "nonzeroComponents": 0,
+      "savedWorstComponentDifference": 0,
+      "meanHeightDifference": 0
+    },
+    {
+      "a": "original-jac",
+      "b": "tight-jac",
+      "maximumStateDifference": 0,
+      "normalizedStateDifference": 0,
+      "worstComponent": 0,
+      "worstFrequency": 3,
+      "nonzeroComponents": 0,
+      "savedWorstComponentDifference": 0,
+      "meanHeightDifference": 0
+    },
+    {
+      "a": "original-plain",
+      "b": "tight-plain",
+      "maximumStateDifference": 0,
+      "normalizedStateDifference": 0,
+      "worstComponent": 0,
+      "worstFrequency": 3,
+      "nonzeroComponents": 0,
+      "savedWorstComponentDifference": 0,
+      "meanHeightDifference": 0
+    }
+  ],
+  "actualStageFlows": 4,
+  "actualShootingSolves": 0,
+  "actualBVPCalls": 0,
+  "seconds": 3.727
+}

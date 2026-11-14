@@ -1,0 +1,134 @@
+{
+  "scope": "Sample the centred diameter envelope of a frozen ellipse prefix.\n\nThis is geometry screening only. It does not supply the missing compact tail,\ncertify continuous extrema, or assert an exact isometry. Dependencies and the\ncheckpoint are hashed in the output. The exact centre-symmetry lemma is in the\ncompanion note, and does not depend on this numerical screening.\n",
+  "checkpoint": "/workspace/scratch/effcccee615b/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_ellipse_refine_m8_ratio1p3.json.gz",
+  "checkpoint_sha256": "a099d62a87fdc23d90784b15bc634066cdd2b04193d6fcdc78bf7afc62b940be",
+  "sampling": {
+    "s": 5617,
+    "theta": 1024
+  },
+  "config": {
+    "direction": "outward",
+    "delta": 0.19156131657843867,
+    "vu": 0.35,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "cycles": 1,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5
+  },
+  "aspect": 1.3,
+  "central_R": 1.1309610897866502,
+  "sampled_support_y": 0.8699700690666539,
+  "sampled_anisotropy": 0.26099102071999636,
+  "sampled_prefix_min_z": -4.370148214574154e-31,
+  "half_turn_numerical_error": 8.881784197001252e-16,
+  "rows": [
+    {
+      "ell": 0.0,
+      "centred_diameter_sample": 3.9908696616302826,
+      "cylinder_diameter_sample": 4.510675538648169,
+      "radius_max": 1.2432864316621508,
+      "height_max": 1.8816979838923495,
+      "where": {
+        "s": 1.9350437009144628,
+        "theta": 0.0,
+        "rho": 0.8439847943069999,
+        "z": 1.8081620035297783
+      },
+      "conditional_delta_hold": 0.0,
+      "conditional_ratio_before_tail": 0.0,
+      "diameter_limit_for_5percent": 0.0,
+      "allowed_height_if_tail_radius_cut": 0.0,
+      "additional_height_budget_sample": -1.8816979838923495
+    },
+    {
+      "ell": 0.26099102071999636,
+      "centred_diameter_sample": 4.470391077263919,
+      "cylinder_diameter_sample": 4.954544306650956,
+      "radius_max": 1.2432864316621508,
+      "height_max": 2.142689004612346,
+      "where": {
+        "s": 1.9573956908590193,
+        "theta": 0.0,
+        "rho": 0.8234552329531111,
+        "z": 2.0779847389339396
+      },
+      "conditional_delta_hold": 0.26099102071999636,
+      "conditional_ratio_before_tail": 0.05838214514326891,
+      "diameter_limit_for_5percent": 5.219820414399927,
+      "allowed_height_if_tail_radius_cut": 2.5400061593717753,
+      "additional_height_budget_sample": 0.3973171547594294
+    },
+    {
+      "ell": 0.26,
+      "centred_diameter_sample": 4.468548513530465,
+      "cylinder_diameter_sample": 4.952830061838891,
+      "radius_max": 1.2432864316621508,
+      "height_max": 2.1416979838923496,
+      "where": {
+        "s": 1.9569395277989263,
+        "theta": 0.0,
+        "rho": 0.8238792697855502,
+        "z": 2.0768255591795524
+      },
+      "conditional_delta_hold": 0.26,
+      "conditional_ratio_before_tail": 0.058184441595014014,
+      "diameter_limit_for_5percent": 5.2,
+      "allowed_height_if_tail_radius_cut": 2.5298221281347035,
+      "additional_height_budget_sample": 0.388124144242354
+    },
+    {
+      "ell": 0.3,
+      "centred_diameter_sample": 4.543030180162125,
+      "cylinder_diameter_sample": 5.022177712536722,
+      "radius_max": 1.2432864316621508,
+      "height_max": 2.1816979838923496,
+      "where": {
+        "s": 1.9601326692195773,
+        "theta": 0.0,
+        "rho": 0.8209070278056841,
+        "z": 2.117992553378131
+      },
+      "conditional_delta_hold": 0.26099102071999636,
+      "conditional_ratio_before_tail": 0.0574486653995071,
+      "diameter_limit_for_5percent": 5.219820414399927,
+      "allowed_height_if_tail_radius_cut": 2.5400061593717753,
+      "additional_height_budget_sample": 0.35830817547942573
+    },
+    {
+      "ell": 0.4,
+      "centred_diameter_sample": 4.730189347323494,
+      "cylinder_diameter_sample": 5.196886314266887,
+      "radius_max": 1.2432864316621508,
+      "height_max": 2.2816979838923497,
+      "where": {
+        "s": 1.9683436043012512,
+        "theta": 0.0,
+        "rho": 0.813223431629393,
+        "z": 2.2208873149333983
+      },
+      "conditional_delta_hold": 0.26099102071999636,
+      "conditional_ratio_before_tail": 0.05517559690663846,
+      "diameter_limit_for_5percent": 5.219820414399927,
+      "allowed_height_if_tail_radius_cut": 2.5400061593717753,
+      "additional_height_budget_sample": 0.25830817547942564
+    }
+  ],
+  "dependencies_sha256": {
+    "/workspace/scratch/effcccee615b/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_ellipse_bvp.py": "4376797f9ff63439dad0d0f973a4d68e7b2a6b50a29fd9b2d635ea74fc140326",
+    "/workspace/scratch/effcccee615b/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+    "/workspace/scratch/effcccee615b/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_ellipse_core.py": "921d8d8fd90249ce5090241d39f35cb76f9e990b5fd545d26c0810f402a3962f",
+    "/workspace/scratch/f6f33987b45e/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+  }
+}

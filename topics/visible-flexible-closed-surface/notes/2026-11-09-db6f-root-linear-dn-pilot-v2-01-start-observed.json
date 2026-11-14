@@ -1,0 +1,21 @@
+{
+  "status": "ROOT_OBSERVED_BOUND_CHILD_STARTED_NOT_COMPLETED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T19:28:56.002035+00:00",
+  "session_id": 45706,
+  "launch_tool_receipt": "7b772a",
+  "actual_start_poll_receipt": "691b8b",
+  "actual_tool_exit_code": null,
+  "original_pilot_argv_unchanged": true,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+    "bytes": 48896,
+    "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+  },
+  "bound_input_count": 161,
+  "space_reapply_actual_exit_code": 0,
+  "space_free_before": 853913600,
+  "space_free_after": 870309888,
+  "primary_bound_inputs_unchanged": true,
+  "scope": "Observed supervisor child-start event only; first actual DN response/target/prefix success not inferred."
+}

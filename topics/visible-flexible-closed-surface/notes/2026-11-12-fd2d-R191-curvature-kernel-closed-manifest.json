@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-R191-complete-curvature-kernel-closed-v1",
+  "source_readback": [
+    {
+      "path": "scripts/fd2d-position-curvature-chain-R191.cjs",
+      "git_blob_sha": "7abcea6d968125aee8bc807e2f797b2227746828",
+      "exact_readback": true,
+      "characters": 3222
+    },
+    {
+      "path": "scripts/fd2d-position-curvature-provider-R191.cjs",
+      "git_blob_sha": "9322c7d1cc804d6529ab397d030af0e6c23ca2c7",
+      "exact_readback": true,
+      "characters": 15579
+    },
+    {
+      "path": "scripts/fd2d-check-position-curvature-R191.cjs",
+      "git_blob_sha": "6f0590f59b7a6278439a890b9e33f7acd9d6fe5b",
+      "exact_readback": true,
+      "characters": 3838
+    }
+  ],
+  "proof": {
+    "path": "results/R191-complete-true-curvature-penalty-and-parameter-jets.md",
+    "git_blob_sha": "81b9a9fcd5646e49de14a08f4a8b91b9e33a9a1a"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-R191-curvature-local-jvp-01.json",
+    "git_blob_sha": "95b36eed605a0ac8e8b77066c4856b9f79dfb4f4"
+  },
+  "actual_input": {
+    "path": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+    "sha256": "b30236a681fdd4329386583a98e740ff2d281f853d9873835f093228129bafab",
+    "git_blob_sha": "416afb489caf4816fd634ecfac3d91a6ae93c3d2"
+  },
+  "local_execution": {
+    "runtime": "pure JavaScript/V8",
+    "milliseconds": 261,
+    "completed": true,
+    "OS_process": false,
+    "OS_exit_code": null
+  },
+  "scope": {
+    "complete_position_parameter_two_jets": true,
+    "curvature_hinge_three_rows": true,
+    "metric_rows_unchanged": true,
+    "supports_R187_181_and_R190_193": true,
+    "exact_continuous_curvature_certificate": false,
+    "no_BVP_or_whole_normal_run_in_this_local_kernel_group": true,
+    "guide_is_not_completion_criterion": true
+  },
+  "API": "createR191CurvatureProvider(engine,metricProvider,{guide:9.5,weight:1e-4,nodeShare:.5},createR191Algebra())",
+  "saved_sources_equal_executed_function_bodies": true
+}

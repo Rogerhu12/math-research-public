@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-candidate.json",
+      "bytes": 35798,
+      "sha256": "bd25574a0b872b569be43d26e2e03acc57585ed0f011b722e871939c61584868"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-field.npz.gz",
+      "bytes": 1076830,
+      "sha256": "739ca63b2d5a4ed424b9830157fc7e0bb290c26822209bd07b82768fc0126118"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-polynomial.npz",
+      "bytes": 851947,
+      "sha256": "b6820a7d06a3da7caa448ea5eb9b0b2e1f7c920aa71e3c6d83aaa4f660927ca7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-progress.jsonl",
+      "bytes": 20965,
+      "sha256": "e91e678cddb7b79f3728a1679a666c83b430d1b7813bb9b209d2aa2693f7f865"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-report.json",
+      "bytes": 19735,
+      "sha256": "ec8ef4e0a56896fd50651bc8c24d13dc0f12f086e82dd8ced56d0a82faa4cae7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-runtime.json",
+      "bytes": 583,
+      "sha256": "4545a529a60d1b773e1f6535223444a5cc7f4d53eee691f07dede4b9ae43df0c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-resources.jsonl",
+      "bytes": 1570,
+      "sha256": "6bed3ffe4d9e3a2a6a1dae21ca5eba3eccd23e52e9ad3e72bb7c74107dbb39b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m47-01-completion-receipt.json",
+      "bytes": 317,
+      "sha256": "559c960887a1c95433992caee61f1888083c96d9bdc1cf6a0d2911e40766890b"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0001.npz",
+      "bytes": 644362,
+      "sha256": "db8774981e0a7d92bb01594636750d3a44d15a2cb25a74b71650eb92356bd8bd",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0002.npz",
+      "bytes": 645365,
+      "sha256": "7fafbca7673fc2a50562479e8bc8c00c5e5bc60152918118333d68fa2f01a474",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0003.npz",
+      "bytes": 645433,
+      "sha256": "2ed2a39c1f06d83fbd2bbc47327ce7b1ba22c413b9d44c0161f90513c0463e2e",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0004.npz",
+      "bytes": 646831,
+      "sha256": "a03abd05e3f551cafe075cd5e90f5af5a9b5345573b05a88e003b2de28cd0c1f",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0005.npz",
+      "bytes": 647059,
+      "sha256": "c3fa579ce896115cbf4369571fd37fc1dbb31aee2c4039264505050c40891946",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0006.npz",
+      "bytes": 647489,
+      "sha256": "221f69f3a6b68756f352f75a89c8617d09c8f742999f2974de3296f4df8cb696",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0007.npz",
+      "bytes": 647508,
+      "sha256": "5ac90a798e10bbf0584d6e855c19dc1c319566a8c382ff2da05c015b3979e56c",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-accepted-0008.npz",
+      "bytes": 647575,
+      "sha256": "086ed7a9c0a6d0cdbdf86e660130e7d10dcb1bb05619a3cec565568744e4b8f4",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m47-01-initial.npz",
+      "bytes": 213353,
+      "sha256": "7627d357f7c66e0880dabd9bc2621f82290c8e8cdb480b5be004bbf1c0afcb74",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 34067,
+    "completion_chunk": "25842a",
+    "actual_exit_code": 0,
+    "solver_success": false,
+    "solver_status": 1,
+    "seconds": 278.93825967199973,
+    "reason": "Coarse branch stagnated; eight accepted steps and eventual mesh-capacity status. Rms2.692710377; not a physical nonexistence conclusion."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "ACTUAL_FINITE_COUPLED_NOT_COMPLETED",
+  "actual_final_tool_chunk": "9fa811",
+  "actual_process_exit_code": 2,
+  "natural_exit": true,
+  "elapsed_seconds": 1385.5881467860017,
+  "original_session": 42458,
+  "new_successful_DN_responses": 0,
+  "inner_BVP_returns": 0,
+  "last_iteration": 3,
+  "shooting_norm": 3.3366011642270125e-09,
+  "minA": 0.9605876583918314,
+  "minD": 0.9989651369830822,
+  "reason": "Original ten trial steps exhausted without decreasing the shooting norm. No geometric branch guard failure at the base iterate.",
+  "mode_run": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-mode-run.json",
+    "bytes": 16705,
+    "sha256": "99c08d35c57692d4137bd90f02cb170464fafae5145c0ba7d89c371a6c8b7895"
+  },
+  "interpretation": "Failure of this actual finite solve at the original tolerance; not nonexistence and not a complete curve. The iteration remains an UNSOLVED recovery input."
+}

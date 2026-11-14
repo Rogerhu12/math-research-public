@@ -1,0 +1,36 @@
+{
+  "status": "PASS-complete-independent-30971-row-backend-replay",
+  "actual_exit_code": 0,
+  "original_report_sha256": "83cf92351c83ce3275af9ac2fd975ecf87dc81e74379e2f1ccb2436374147056",
+  "independent_report_sha256": "091a64b3ef49887471ff734ba2670062883ef65b42f54698fb760afd254e8160",
+  "original_rows_sha256": "06706fee1a59c4f0ce15ebde39af24e323bd077cf1819020ab660c8221c41f7d",
+  "independent_rows_sha256": "06706fee1a59c4f0ce15ebde39af24e323bd077cf1819020ab660c8221c41f7d",
+  "all_rows_exactly_equal": true,
+  "complete_rows": 30971,
+  "all_mathematical_report_fields_exactly_equal": true,
+  "excluded_nonmathematical_report_fields": [
+    "manifest",
+    "packet",
+    "peak_process_rss_bytes",
+    "row_data_file",
+    "row_data_sha256",
+    "seconds"
+  ],
+  "manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "packet_sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59",
+  "packet_data_sha256": "a9173083636377a323ff9438481fd8a90c84772f9791b78c8542b7e209301cc8",
+  "metric_operator_upper": 2.334386824020345e-08,
+  "curvature_evaluated": false,
+  "source_sha256": {
+    "db6f-audit-tail-metric-only.py": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6",
+    "db6f-audit-tail-stream.py": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f-audit-metric-polynomial.py": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "seconds": 1657.1640843749992,
+  "peak_process_rss_bytes": 334225408,
+  "README_complete": false,
+  "scope": "Independent complete rerun of the reviewed metric-only backend on the identical first-critical M12 map and full packet. All 30971 mathematical rows agree; source solving and final fresh end-to-end rerun remain separate."
+}

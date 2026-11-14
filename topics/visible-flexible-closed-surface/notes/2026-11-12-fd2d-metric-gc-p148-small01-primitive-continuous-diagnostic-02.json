@@ -1,0 +1,110 @@
+{
+  "schema": "fd2d-continuous-native-cell-primitive-posterior-v1",
+  "scope": "Continuous R125 primitive bounds for an actual shared native GC field.\n\nAll finite Fourier coefficients are combined before bounds. Exact scalar\nprofile packets and the exact chart Fourier error are consumed. A radial\npolynomial auxiliary P uses a finite geometric expansion of 1/q about a\ncommon angular denominator for each original native cell. Its primitive\nhas one common cell mean even across internal phase branches. Every\ntruncation and every reciprocal/exponential remainder is paid.\n\nThe physical X is the fixed-material ODE definition using the separately\ncalibrated exact clock packet, not a relabeling of old floating body data.\nNo BVP, frame ODE, or tail solve is performed here.\n",
+  "source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-gc-primitive-continuous.py",
+    "bytes": 29608,
+    "sha256": "f2af57b123fac83fa0025197954950361f1ebe3865ed801db9e0b10f0d8939b6"
+  },
+  "interval_models": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_interval_models.py",
+    "bytes": 11260,
+    "sha256": "aa0942e1e3acf08d631d7b2c394bb50e63eedebde9a55ef9d3c390fb88c6f82d"
+  },
+  "interval_polynomial_backend": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-polynomial.py",
+    "bytes": 10966,
+    "sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4"
+  },
+  "interval_elementary_backend": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py",
+    "bytes": 15300,
+    "sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+  },
+  "normal_range_adapter": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-normal-interval-arithmetic.py",
+    "bytes": 3384,
+    "sha256": "fe197e7fe8923de3aa5f7ed45130aa63c632162cc017a12a734a4836f6a32032"
+  },
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-native-field.json",
+    "bytes": 15071,
+    "sha256": "df05c14e863ce3725eb9e3567811f0aced0c13cf3542a0282e5014204814ce72"
+  },
+  "actual_native_arrays": {
+    "file": "2026-11-12-fd2d-numerical-gc-design-p148-small-01-field.npz",
+    "bytes": 881282,
+    "sha256": "a1dea96f1c97fcf993b5ffb777ec0aa3eca53a22520d6f3037e78756761ef8a1"
+  },
+  "accurate_profile": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-exact-profile-02.packet.json.gz",
+    "bytes": 242960,
+    "sha256": "4ce4afa2e4595e19f5644be649e32c52821a0e2db8b10b0e2ac7f7ec763d1ca0"
+  },
+  "chart": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-chart-fourier-tail-01.json",
+    "bytes": 11099,
+    "sha256": "314240aeaf1bf354ad4e6e1d86c300695cdca2a3fc9eef049879013bec985057"
+  },
+  "means": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-512-02.json.gz",
+    "bytes": 263756,
+    "sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3"
+  },
+  "inlet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-native-bounds-01.json",
+    "bytes": 6611,
+    "sha256": "87630475bce0ed8336d379b573571df3a92c2f2db7e9987b2e0792b42babb299"
+  },
+  "requested_cells": [
+    189,
+    190
+  ],
+  "completed_cells": [
+    189
+  ],
+  "complete_requested_interval": true,
+  "whole_prefix": false,
+  "radial_domain_exact": [
+    "5387761987577059/4503599627370496",
+    "2706583576793413/2251799813685248"
+  ],
+  "all_angles_covered": true,
+  "material_coordinate": "physical u; scalar x clock and moving xi chart exactly as bound input packets",
+  "field_definition_unchanged": true,
+  "new_calibrated_clock_finite_X": true,
+  "old_body_samples_not_used": true,
+  "auxiliary_approximation": {
+    "radial_degree": 16,
+    "native_exponential_order": 8,
+    "reciprocal_q_order": 5,
+    "finite_chart_modes": 160,
+    "angular_arcs": 1024,
+    "angular_chart_value_error_upper": 1.3306338459804401e-18,
+    "angular_chart_first_error_upper": 4.867308334280778e-18,
+    "auxiliary_outer_coefficient_compaction_budget": 1e-22,
+    "every_removed_coefficient_is_in_uniform_remainder": true,
+    "exact_common_native_cell_mean": true,
+    "primitive_zero_at_native_endpoints": true,
+    "fixed_xi_drift_wQxi_included": true,
+    "piecewise_AC_primitive_identity_used": true
+  },
+  "initial_frame_angular_defect_upper": 1.638645511272696e-16,
+  "initial_position_tangency_defect_exact": 0,
+  "continuation_posterior_requires_true_inlet": true,
+  "metric_operator_upper": null,
+  "local_zero_inlet_metric_upper": 2.57617096790726e-10,
+  "absolute_residual_metric_operator_upper": null,
+  "final_d_upper": 9.017963383238265e-09,
+  "final_k_upper": 9.161608366407871e-11,
+  "rows": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-diagnostic-02.rows.jsonl.gz",
+    "bytes": 1129,
+    "sha256": "62751b32571cadc75882f61bfb8d52eafd6e89c19ce68a908fa81aa79ef6e919"
+  },
+  "stopfile_observed": false,
+  "actual_metric_tolerance_passed": false,
+  "nonlinear_tail_matched": false,
+  "closed_surface": false,
+  "seconds": 31.027515607000055
+}

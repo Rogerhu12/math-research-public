@@ -1,0 +1,46 @@
+{
+  "schema": "actual-ivp-initializer-consumer-check-v1",
+  "initializer_only": true,
+  "source_sha256": "6300cd5e5134480da94914362c0704627c11d89405123703710fe9e596ffefa9",
+  "trajectory_sha256": "db7614138c5f55b77e23f04849af02c75db36a277064b64f684a8da574c68c51",
+  "definition": {
+    "interval": [
+      0.0,
+      0.8090484941089444
+    ],
+    "physical_T": 0.02,
+    "candidate_sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147",
+    "angular_coordinate": "fixed seed phi; material u=U_seed(phi)",
+    "radial_coordinate": "physical s; equals reference x at T=.02",
+    "representation": "n,m real finite Fourier in phi; shared-node cubic Hermite in physical s; l=(K+m^2)/n",
+    "derivative_scope": "shared-node interpolant derivatives, with source projected RHS at nodes",
+    "initializer_only": true,
+    "extrapolation": false
+  },
+  "node_count": 25,
+  "angular_nodes": 19,
+  "shared_node_lmn_max_difference": {
+    "l": 7.105427357601002e-15,
+    "m": 1.1102230246251565e-15,
+    "n": 3.1086244689504383e-15
+  },
+  "material_inverse_vs_fixed_phi_difference": {
+    "l": 6.217248937900877e-15,
+    "m": 1.3877787807814457e-15,
+    "n": 8.881784197001252e-15,
+    "n_s": 4.263256414560601e-14,
+    "m_s": 3.8191672047105385e-14,
+    "l_u": 3.907985046680551e-14,
+    "m_u": 4.440892098500626e-14,
+    "n_u": 2.0961010704922955e-13
+  },
+  "root_chart": {
+    "blend_left": 0.58,
+    "blend_right": 1.263603200988874,
+    "U": "xi+(1-beta)*(U_seed(xi)-xi)",
+    "radial_s_equals_x_at_T": 0.02
+  },
+  "preview": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-root-xi-preview.npz",
+  "preview_sha256": "ff427c3eb32cc183351b7ee1774cc80d38021e2131afd739f0dbfea51d503900",
+  "seconds": 0.6553444130004209
+}

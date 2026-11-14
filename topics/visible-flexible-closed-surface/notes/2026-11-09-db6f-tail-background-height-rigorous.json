@@ -1,0 +1,222 @@
+{
+  "status": "rigorous-cell-zero-integral-enclosure-and-conditional-whole-height-bound",
+  "scope": "Rigorous Riemann enclosures for the nine finite cell-zero warp integrals.\n\nFinite calibration constants are fixed binary-real geometry coefficients.\nElementary exp/log enclosures use explicit convergent series and remainder\nbounds. No Gauss quadrature value is promoted into a certificate.\n",
+  "checkpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+  "checkpointSHA256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0",
+  "scriptSHA256": "37adea90f144d3550ddfd098dcf8fa08eb30e8b0bab46d28df20efffaf7ab94e",
+  "intervalBackendSHA256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "bookkeepingSHA256": "66c4d9cf819925840ad85cbec66de6c4d1b51f89b71eeb69385e70a5294fb1f7",
+  "riemannCellsPerSegment": 4096,
+  "calibrationAlpha0Interval": [
+    1.426600691200502,
+    1.426600691200502
+  ],
+  "cell0": {
+    "A": [
+      0.20028930195707434,
+      0.208230146301551
+    ],
+    "B": [
+      0.0009760409686192003,
+      0.0009760687654462759
+    ],
+    "AH": [
+      0.04120445618178714,
+      0.04284170452349319
+    ],
+    "BH": [
+      5.87711063743899e-05,
+      5.878382736765318e-05
+    ]
+  },
+  "wholeHeightUpper": 0.08315918777432545,
+  "strictlyBelowOneTenth": true,
+  "formula": "H <= 1/98 + AH_0 + (1/2)*BH_0/B_0; uses positive exact global radial alpha and width<1/2",
+  "segments": [
+    {
+      "segment": 0,
+      "A": [
+        3.204316508513381e-08,
+        3.204712227386418e-08
+      ],
+      "B": [
+        1.3057133916392162e-05,
+        1.3057134192498654e-05
+      ],
+      "AH": [
+        6.394437601350262e-10,
+        6.395227308617985e-10
+      ],
+      "BH": [
+        2.6056423601141685e-07,
+        2.605642424417096e-07
+      ]
+    },
+    {
+      "segment": 1,
+      "A": [
+        0.058365272520678024,
+        0.05885465627448746
+      ],
+      "B": [
+        9.279078333338582e-06,
+        9.281041301305916e-06
+      ],
+      "AH": [
+        0.011855305698902452,
+        0.011921956042182515
+      ],
+      "BH": [
+        1.0755695254392133e-06,
+        1.0766275288302074e-06
+      ]
+    },
+    {
+      "segment": 2,
+      "A": [
+        -4.047e-320,
+        1.874697333336806e-17
+      ],
+      "B": [
+        0.00011271851984388615,
+        0.00011271856750850051
+      ],
+      "AH": [
+        -4.047e-320,
+        7.4987893333475e-18
+      ],
+      "BH": [
+        4.508740793755286e-05,
+        4.5087427003401845e-05
+      ]
+    },
+    {
+      "segment": 3,
+      "A": [
+        0.058689531677594005,
+        0.06430998479500709
+      ],
+      "B": [
+        1.9419858580451938e-05,
+        1.9428642657690923e-05
+      ],
+      "AH": [
+        0.011515133887228716,
+        0.012714259278786258
+      ],
+      "BH": [
+        1.7648530135643066e-06,
+        1.7699922536631738e-06
+      ]
+    },
+    {
+      "segment": 4,
+      "A": [
+        1.4666272155786842e-05,
+        1.4666322800762838e-05
+      ],
+      "B": [
+        0.0007859075610704805,
+        0.0007859078936884584
+      ],
+      "AH": [
+        1.0645638243434686e-07,
+        1.0645711759896325e-07
+      ],
+      "BH": [
+        5.704496940574779e-06,
+        5.704519050310681e-06
+      ]
+    },
+    {
+      "segment": 5,
+      "A": [
+        0.012354093240209385,
+        0.013349675908050826
+      ],
+      "B": [
+        1.3006979315098196e-05,
+        1.3016639332979746e-05
+      ],
+      "AH": [
+        0.0003927358280217712,
+        0.0004416100247023081
+      ],
+      "BH": [
+        2.18069099903471e-07,
+        2.1922268362124958e-07
+      ]
+    },
+    {
+      "segment": 6,
+      "A": [
+        -4.047e-320,
+        1.1703819766035448e-18
+      ],
+      "B": [
+        1.3117746853471308e-05,
+        1.3117752400495148e-05
+      ],
+      "AH": [
+        -4.047e-320,
+        2.340763953207385e-20
+      ],
+      "BH": [
+        2.6235493706939464e-07,
+        2.6235504800993645e-07
+      ]
+    },
+    {
+      "segment": 7,
+      "A": [
+        0.07082586143665859,
+        0.07166126467023136
+      ],
+      "B": [
+        4.281952976924995e-06,
+        4.286390826274344e-06
+      ],
+      "AH": [
+        0.017421245763653087,
+        0.017743833407949064
+      ],
+      "BH": [
+        1.7705846017158178e-06,
+        1.7746297189427404e-06
+      ]
+    },
+    {
+      "segment": 8,
+      "A": [
+        3.9844766613624435e-05,
+        3.9866283851050535e-05
+      ],
+      "B": [
+        5.2521377291571695e-06,
+        5.254703538071657e-06
+      ],
+      "AH": [
+        1.9927908154947715e-05,
+        1.993867323267561e-05
+      ],
+      "BH": [
+        2.627206082558686e-06,
+        2.628489838431583e-06
+      ]
+    }
+  ],
+  "conditions": [
+    "finite source calibration coefficients frozen as binary-real constants (or inside the stated boxes)",
+    "oldCut and epsilonScale analytically derived, not independent rounded values",
+    "positive exact global radial alpha from the original width normalization",
+    "R15 raw infinite source bound beyond protectCell=160",
+    "all finite cells except cell0 use the stated common cap; no flat override or literal rejoin"
+  ],
+  "notCertified": [
+    "global radial-alpha normalization existence",
+    "nonlinear surface metric",
+    "reach",
+    "infinite nonlinear graph",
+    "README completion"
+  ]
+}

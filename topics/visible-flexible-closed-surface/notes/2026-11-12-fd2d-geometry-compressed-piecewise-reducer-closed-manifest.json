@@ -1,0 +1,30 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "scope": "raw/compressed tile logical transport adapter, unchanged ordered reduction; source/import probe only",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-compressed-piecewise-normal-reduce.py",
+      "bytes": 23369,
+      "sha256": "5416025f947fc02a7fafb84291b9a4272ba7839717618a20e491ea2c92579021"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-compressed-piecewise-reducer-01-probe.json",
+      "bytes": 1792,
+      "sha256": "d5a9336f6b90857dc315565e0b96b61adeebb903d92ae639aea9d73af9596d6e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-compressed-piecewise-reducer.md",
+      "bytes": 2138,
+      "sha256": "72cd3428c10202673a942376ab4e6436ddd0541bf6adc085f3046882eec9fffa"
+    }
+  ],
+  "file_count": 3,
+  "total_bytes": 27299,
+  "source_probe": {
+    "chunk_id": "9bac4c",
+    "exit_code": 0
+  },
+  "complete_compressed_reduction_executed": false,
+  "F_J_QP_BVP_or_body": false
+}

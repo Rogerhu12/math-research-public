@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-closed-real-signal-run-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run.py",
+      "bytes": 20372,
+      "sha256": "b2c5bf6e68d514628adbd6601c25c356f098a8ef7c0f89a85a0f812a79cb7414"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-atlas10-signal-and-atlas11-recovery.md",
+      "bytes": 1094,
+      "sha256": "686c24919997b8c3e76f024d4659d2433814613b20d7beb3217026f93b809945"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-b0001-initial.npz",
+      "bytes": 55033,
+      "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-b0001-process-receipt.json",
+      "bytes": 3768,
+      "sha256": "20cdb119c3619d1a39c6e1dcc4a3829eca2fcb2567c8bbe3351bb70568ac1e69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-b0001-progress.jsonl",
+      "bytes": 27467,
+      "sha256": "9f47e916ac73c61d46d397f4bc6e7d8b69d636afa3a3368f8b5fe8b4033bcfde"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-b0001-report.json",
+      "bytes": 97383,
+      "sha256": "3a761c7ad103445d1e4b3249cdf498b7ad56a63cdb76f3dc972bc26924775b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-chain-report.json",
+      "bytes": 15703,
+      "sha256": "656fb81272afc8d6a8006422a08f77823d15118c99266344fe23dcba9fda9312"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-execution-receipt.json",
+      "bytes": 519,
+      "sha256": "e383f36801aa3384d13cccc1d85d0ba60929d6fed75c4e82358ba23ddcddcb10"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-static-manifest.json",
+      "bytes": 2306,
+      "sha256": "40f2efb7fa6c2d9efb67c5993be5a0cc299d6e30cf78cc7c3b342da5023a19d3"
+    }
+  ],
+  "actual_exit": 137,
+  "actual_accepted_steps": 0,
+  "signal_cause_unknown": true
+}

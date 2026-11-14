@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-actual-run-static-input-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-initializer-closed-group.json",
+      "bytes": 3145,
+      "sha256": "b590f3e5bdf78bfe4ff19e6a2f7841a90bad55e4ece552bf1895727eb99f03bf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-launch-receipt.json",
+      "bytes": 833,
+      "sha256": "310937700e09f53d9425ea59532577f076daa4ad620b608528973c00e200c5e3"
+    }
+  ],
+  "actual_driver": {
+    "path": "scripts/fd2d-gc-raw-bump-refined-angular-stream-run.py",
+    "bytes": 32915,
+    "sha256": "48c9cfacec24bbd4ec2003f15d2051bf841bb9680de349163ea4db564efbad7a"
+  },
+  "active_outputs_excluded": true
+}

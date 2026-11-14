@@ -1,0 +1,79 @@
+{
+  "schema": "fd2d-explicit-R149-atlas-native-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_ruling_atlas_native_field.py",
+      "bytes": 12040,
+      "sha256": "b1dec2e31de3fe8cb496653456c2f75d4175e243444d76efe0701d348df5f363"
+    },
+    {
+      "path": "scripts/fd2d_gc_ruling_reference_second_jets.py",
+      "bytes": 4475,
+      "sha256": "80cd29e787f2eaba2e5cd70c499d5a583e3ff1f65e3821db29541bf2657ab2e9"
+    },
+    {
+      "path": "scripts/fd2d-metric-ruling-atlas-native-check.py",
+      "bytes": 8853,
+      "sha256": "55ff65c84a963618bb8404d8cb35308961609d493fb93a3b772df4dc3fe473d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native.md",
+      "bytes": 10673,
+      "sha256": "efe87583b5d5c29ba681c33e4421286751de4a9f5b256d4f6cc21f6139e9027d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01-report.json",
+      "bytes": 9315,
+      "sha256": "e82e39a64c4ef1db6675665074b867ab464b6e57cc78ca7230ccfa5da64b7198"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01-definition.json",
+      "bytes": 36904,
+      "sha256": "02ee5848e0e157c2ad889fe9b58bbd57990e99d9fcc7c2b1a7167728cc9df5fe"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01-samples.npz",
+      "bytes": 4516,
+      "sha256": "312d562f31460714f0e9b4f618d80a2a5279028b207e466742d560a25d56a44a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01-exit-receipt.json",
+      "bytes": 962,
+      "sha256": "7857f82a610e551507440f3242cf3b76ab9aea7a2ab4e1858561ba6879466d73"
+    }
+  ],
+  "actual_success": {
+    "session_id": 62999,
+    "completion_chunk_id": "ff5ed7",
+    "exit_code": 0
+  },
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ruling-atlas-warm01-warm.npz",
+    "bytes": 55033,
+    "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+  },
+  "reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+  "actual_node_count": 123,
+  "point_count": 2,
+  "angles_per_point": 8,
+  "angular_indices": [
+    5,
+    17,
+    31,
+    53,
+    71,
+    89,
+    107,
+    123
+  ],
+  "interface_radial_query": "Exact saved binary e/f, analytic left/right pieces; no radial epsilon offset",
+  "reference_first_jet_maximum_difference": 0.0,
+  "maximum_fine_fd_scaled_error": 5.785685988162947e-08,
+  "maximum_common_trace_error": 0.0,
+  "maximum_material_inverse_residual": 5.995204332975845e-15,
+  "source_checkpoint_projection_reinterpreted_as_exact": false,
+  "original_frozen_cache_or_solver_sources_changed": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false
+}

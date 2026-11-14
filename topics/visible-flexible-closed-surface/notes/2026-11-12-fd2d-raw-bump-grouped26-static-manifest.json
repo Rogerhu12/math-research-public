@@ -1,0 +1,113 @@
+{
+  "schema": "fd2d-new-grouped-coast-finite-goal-static-manifest-v1",
+  "closed_static_inputs": true,
+  "created_utc": "2026-11-12T18:41:50.146138+00:00",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_grouped_search_context.py",
+      "bytes": 8495,
+      "sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec"
+    },
+    {
+      "path": "scripts/fd2d_gc_grouped_normal_tile_io.py",
+      "bytes": 2360,
+      "sha256": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1"
+    },
+    {
+      "path": "scripts/fd2d-gc-prepare-grouped-field.py",
+      "bytes": 5239,
+      "sha256": "19a8dbfbb7551026ef7117bf3c7f89a1b7fa9f3e677a08b5bbe40aa45713c003"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-baseline.py",
+      "bytes": 4018,
+      "sha256": "8541c8dbb3a29265c6d6ae6e66ea71264cf76a43ec95486ec953918dad8a9bd6"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-plan.py",
+      "bytes": 1401,
+      "sha256": "9d8cfa76d293af7724be7f8bb7ac49bd0d252dac4e5c1bf7492d53a4d32f11f9"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-tile-batch.py",
+      "bytes": 4215,
+      "sha256": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-run-normal-tile-batches.py",
+      "bytes": 4524,
+      "sha256": "dcad76943d4841b316f718c72728900963b27ea372a327407a9a2d8bcc1741ec"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-merge.py",
+      "bytes": 4281,
+      "sha256": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-schur-block.py",
+      "bytes": 4853,
+      "sha256": "fbb8b7a0809b857b50b1d4fe214b68517444a86f29f6a81651ae7fa1eae5c62e"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-qp-from-schur.py",
+      "bytes": 6586,
+      "sha256": "bd5644c53a1032714dd78c3ce816b3d3c604cced5f250bb19bab7f40a2a64799"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-trial.py",
+      "bytes": 7859,
+      "sha256": "07c3034f946240033f95e121083987b84b1ac0822e61583052fd464ae84ad1de"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-initial.npz",
+      "bytes": 120827,
+      "sha256": "12d38ca0a72bd2cb810fb2b1e3cfe061b2831360a734d67af05433ef8ae2a695"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-request.json",
+      "bytes": 2029,
+      "sha256": "c40be25d005cee35c1c59acf123147000ba39a0b35571351deeb416b56b4388b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-report.json",
+      "bytes": 55836,
+      "sha256": "0aa04194b0257533c29d23b501370dd2661afc963ccb8c77d617b40868cf9202"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt.json",
+      "bytes": 3428,
+      "sha256": "c27472fb2b75082221ad05866fbaa06a49a5da34777fd56806f24070074fc03a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt-console.txt",
+      "bytes": 416,
+      "sha256": "73805be8d65fd3e1f7a0ac2eab01cfc36c2ed7e8f6aa7de44624968ab84f360b"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt-samples.jsonl",
+      "bytes": 864,
+      "sha256": "01a2adec4fb5f6e20740874fbfb26264bda9c820efed82390d6223511705e83a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-actual-tool-exit.json",
+      "bytes": 346,
+      "sha256": "22b62923e1f852930701656888c4fb93d2a6a7a8ba8345b87b5571b274c96924"
+    }
+  ],
+  "old_accepted_sha256": "8758adec459324f84bb1d3bf4aa0092b484142151207bc8866d103b30ee42d84",
+  "new_initial_sha256": "12d38ca0a72bd2cb810fb2b1e3cfe061b2831360a734d67af05433ef8ae2a695",
+  "old_nodes": 129,
+  "new_nodes": 131,
+  "physical_parameters_byte_preserved": true,
+  "finite_goal_changed": true,
+  "actual_baseline_session": 19511,
+  "actual_tiles_controller_session": 28754,
+  "active_outputs_excluded": true,
+  "unexecuted_future_entries": [
+    "fd2d-gc-grouped-stage-normal-merge.py",
+    "fd2d-gc-grouped-stage-schur-block.py",
+    "fd2d-gc-grouped-stage-qp-from-schur.py",
+    "fd2d-gc-grouped-stage-trial.py"
+  ],
+  "strong_target_complete": false
+}

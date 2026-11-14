@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T17:12:23.737564+00:00",
+  "finished_utc": "2026-11-12T17:12:52.309139+00:00",
+  "command": [
+    "python",
+    "-u",
+    "scripts/fd2d-metric-coast-delta-quadrature-screen.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "--expected-field-sha",
+    "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 28.5715754390003,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-console.txt",
+  "console_sha256": "4a87274299b5c7e5741b8bab247d662db576f049a9b0c7c9331191f8023ffcd1",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

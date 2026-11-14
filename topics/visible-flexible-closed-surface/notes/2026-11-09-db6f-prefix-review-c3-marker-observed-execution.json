@@ -1,0 +1,65 @@
+{
+  "status": "CLOSED_FULL_INDEPENDENT_REVIEW_PASS_WITH_V2_SCOPE",
+  "observer": "/root/coupled_prefix",
+  "review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker.md",
+    "bytes": 12346,
+    "sha256": "fab33d0bca894f10957e8e40d4ea3520d4ce639da69e0d5840741e82edea0214"
+  },
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-c3-marker.py",
+    "bytes": 12678,
+    "sha256": "d297fc34d50224a0db2b34500c191590f5b1b02b88310c6e0f56aad83b5cccca"
+  },
+  "original_author_replay": {
+    "command": [
+      "python3",
+      "-B",
+      "topics/visible-flexible-closed-surface/scripts/db6f-audit-c3-marker-bounds.py",
+      "--out",
+      "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-author-replay.json"
+    ],
+    "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+    "actual_exit_code": 0,
+    "tool_receipt": "fa81fb",
+    "output": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-author-replay.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    "byte_identical_to_original": true
+  },
+  "independent_reconstruction": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/db6f-prefix-review-c3-marker.py",
+      "--out",
+      "notes/2026-11-09-db6f-prefix-review-c3-marker-independent.json"
+    ],
+    "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+    "actual_exit_code": 0,
+    "tool_receipt": "3335c5",
+    "output": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-independent.json",
+      "bytes": 7473,
+      "sha256": "ff6d27568b755c5262329b5fc6341fd71069021aa622a52378eeb76beb3746f5"
+    },
+    "four_index_terms": 4096,
+    "exact_Bernstein_system_size": 7,
+    "fixed_marker_cases": 5,
+    "four_vertex_all_pair_count_per_phase": 6
+  },
+  "final_model_v2": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model-v2.md",
+    "bytes": 12748,
+    "sha256": "3c47ec456ce527d344e103aeb5f88aae4dbe618cfefc1341f64c37bd1f8d9a97"
+  },
+  "v2_entire_text_and_diff_read": true,
+  "v2_numeric_sources_changed": false,
+  "source_binding_count": 9,
+  "zero_new_solver_or_optimizer_calls": true,
+  "actual_candidate_data_read": false,
+  "original_full_closed_surface_goal_claimed": false,
+  "connectivity_scope": "Two-sided epsilon=.005 proximity to the separated model cannot be connected; final transfer is v2 one-sided whole convex-hull enclosure plus actual initial pair."
+}

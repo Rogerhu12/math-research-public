@@ -1,0 +1,23 @@
+{
+  "label": "fifteenth",
+  "base_commit": "d2af94f275195259c5eeaa1485d3090cee74620e",
+  "message": "Preserve R166 exact round reference, truthful staged attempts and resumable normal row partitions",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-closed-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-tiles-static-manifest.json",
+    "notes/2026-11-12-fd2d-metric-partitioned-normal-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-small-batches-static-manifest.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-fourteenth-batch-main-receipt.json",
+    "results/R166-exact-round-prefix-and-complete-increment-equations.md",
+    "notes/2026-11-12-fd2d-fifteenth-batch-schema-adaptation.json"
+  ],
+  "excluded": [
+    "active numerical tiles or trials",
+    "regenerable intermediate matrices"
+  ],
+  "scope": "R166 and round jets, true baseline and failed full assembly, frozen partitioned recovery source; active tile matrices and outcomes excluded"
+}

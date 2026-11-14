@@ -1,0 +1,52 @@
+{
+  "status": "observed-process-completed",
+  "session_id": 48634,
+  "actual_exit_code": 0,
+  "observer": "/root",
+  "observed_utc": "2026-11-09T11:52:04.153491+00:00",
+  "note": "write_stdin returned exit_code 0; original target/response acceptance independently checked separately",
+  "stem": "2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-config.json",
+      "bytes": 3073,
+      "sha256": "f933a3e7ac102f589276cca3e34db5c4999ce21b3efe2ddc3fa0731fecce5eb6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-summary.json",
+      "bytes": 570,
+      "sha256": "7558e7ffd9c38505e9decde179b390dc46462dc884f815fdb564c972aab32110"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-reproduction.json",
+      "bytes": 3974,
+      "sha256": "41ccf599d554389c8bb7d1c9ade57c3fcdb50037fed05645e1d5ed98b7c7ca93"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+      "bytes": 273159,
+      "sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trace.jsonl",
+      "bytes": 6038,
+      "sha256": "79bbbaefcdc7876ad345a6ee14e0964ac406341441df969d88b37226bc12ff90"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trials.jsonl",
+      "bytes": 6425,
+      "sha256": "2bc940724b85d170e9d3fb27ce92f26de354b6ffba4a5334fac3d8a71f6d4b3d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-iteration.json.gz",
+      "bytes": 263135,
+      "sha256": "6e0a4b8e22d4a1e998a93a3ce04742d071f24b524c70c1154590fa30b74beac4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-run.log",
+      "bytes": 548,
+      "sha256": "2dd32f51d6ee5e3ff80eccb4c78f7defd2417661f40dda60e93d96c9f82106f0"
+    }
+  ],
+  "timestamp_scope": "UTC time the closed execution metadata record was written after observed exit, not worker completion time"
+}

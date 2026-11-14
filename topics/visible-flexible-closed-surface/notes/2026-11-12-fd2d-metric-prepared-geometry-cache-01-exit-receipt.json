@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T16:48:13.871185+00:00",
+  "finished_utc": "2026-11-12T16:48:41.320047+00:00",
+  "command": [
+    "python",
+    "-u",
+    "scripts/fd2d-metric-prepared-geometry-cache-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-prepared-geometry-cache-01"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 27.44888859099956,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-prepared-geometry-cache-01-console.txt",
+  "console_sha256": "9ddd3e64f08b6917075d8703688743f7544b22ad99a1c6d614e520c1a20133e0"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "fd2d-closed-preparatory-source-and-actual-node-check-v1",
+  "scope": "Closed source and actual all-node spectral prolongation check only. Active04 output not included.",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-tail-normalized-remesh-check.mjs",
+      "bytes": 4089,
+      "sha256": "f462154ebbfefcfe138229db0621f6f23fbf25364e701656437deae40dfc09e4"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-normalized-warm-remesh.mjs",
+      "bytes": 5495,
+      "sha256": "3bf870ae8ffc1f0cd31b2dfde78c437e5c559e68c318312ea72b2013eae75c15"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-partition-worker-v9.mjs",
+      "bytes": 19944,
+      "sha256": "cab58f7d72ba963dafa7606997b48ef18ec1f5ad9082115363557f841f551841"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-initial.json.gz",
+      "bytes": 185270,
+      "sha256": "142d7a05673cb7d5836de8d5b87c5cef8f9c93713c0fac0fb887bdbeed03239b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-launch-error.json",
+      "bytes": 445,
+      "sha256": "c93608c215152ccbec3b7eb669708223c57e2d3cbcce23d6f2bd21eb66c8e55e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-receipt.json",
+      "bytes": 1551,
+      "sha256": "fff2de26a31385e04f7310b5463dd602083db0af6ac1666bd1eaf1d9f5c1176b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-report.json",
+      "bytes": 7125,
+      "sha256": "457da348c18a8a2ccd8369f836ee42e16fe3effccc463b741b260e6ecfbad17b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01.md",
+      "bytes": 2692,
+      "sha256": "73c807890ed8f13de109d693eb108f7620d4f232d1523fe9950b6f8705d5e61e"
+    }
+  ]
+}

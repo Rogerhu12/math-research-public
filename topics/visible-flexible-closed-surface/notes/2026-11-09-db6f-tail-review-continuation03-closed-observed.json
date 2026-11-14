@@ -1,0 +1,74 @@
+{
+  "status": "OBSERVED_READONLY_AUDITS_WITH_PRESERVED_INITIAL_CHECKER_FAILURE",
+  "reviewer": "/root/tail_theory",
+  "root_solver_observation_not_our_execution": {
+    "source": {
+      "path": "notes/2026-11-09-db6f-root-continuation03-final-observed.json",
+      "bytes": 3715,
+      "sha256": "c355b99501948e34a290cbb5fb0d54250c28c5b1b9e6491c0892c2636dc8c68f"
+    },
+    "root_session_id": 3046,
+    "root_receipt": "eaf578",
+    "root_actual_tool_exit_code": 0,
+    "guard_child_exit_code": 0,
+    "worker_exit_code": 0
+  },
+  "our_executions": [
+    {
+      "tool": "exec_command",
+      "receipt": "c1d7d9",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.132916463,
+      "argv": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling-v3.py",
+        "--check-current-gate",
+        "--observed-execution",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-final-observed.json"
+      ],
+      "reported_result": {
+        "ready": false,
+        "reason": "Continuation has no target-DN audited success",
+        "files_written": 0,
+        "solver_launches": 0
+      }
+    },
+    {
+      "tool": "exec_command",
+      "receipt": "986e13",
+      "actual_exit_code": 1,
+      "wall_time_seconds": 0.360386127,
+      "source": {
+        "path": "scripts/db6f-tail-review-continuation03-closed.py",
+        "bytes": 22115,
+        "sha256": "78056595a77bdeeb2cd35b34168e9cb6df1ab6f0dca9d9ccf251179b78777415"
+      },
+      "reason": "Reviewer extra assumption that old active log paths must be absent; actual preserved historical prefixes were present. Report did not yet exist. No original acceptance gate changed."
+    },
+    {
+      "tool": "exec_command",
+      "receipt": "c63a9c",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.475217542,
+      "source": {
+        "path": "scripts/db6f-tail-review-continuation03-closed-v2.py",
+        "bytes": 22682,
+        "sha256": "31ff410d759f11aac6f3e19ce8baca6c8ce371ed9581e1edc8cc14f09c8d2983"
+      },
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-review-continuation03-closed-check.json",
+        "bytes": 52807,
+        "sha256": "a92f7d6f21dfc91e0ea3123c220e3329c0aaaf797e13b6b9acd746b8bbc57b8b"
+      },
+      "argv": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-continuation03-closed-v2.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-continuation03-closed-check.json"
+      ]
+    }
+  ],
+  "v2_difference": "Replace only extra active-path-absence assertion with exact historical strict-prefix checks and an explicit report field; source/numerical/schema/controller checks unchanged.",
+  "new_worker_DN_RK_BVP_optimization_calls": 0,
+  "old_source_data_or_log_mutations": 0
+}

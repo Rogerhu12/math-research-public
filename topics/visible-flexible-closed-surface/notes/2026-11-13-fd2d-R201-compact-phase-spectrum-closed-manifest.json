@@ -1,0 +1,118 @@
+{
+  "schema": "fd2d-R201-compact-phase-and-spectrum-closed-v1",
+  "status": "completed_finite_diagnostics_no_accepted_replacement",
+  "input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+    "commit": "fd49361f31e6aa8e4ab1c8aca20d5916b901d59f",
+    "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5"
+  },
+  "scope": {
+    "parameterCount": 932,
+    "centralGap": 0.8,
+    "completeActualObjective": "Original full R203 metric, curvature and geometry value",
+    "targetMetricChanged": false,
+    "radiusDesignCoefficientsChanged": false,
+    "tailAmplitudeChanged": false,
+    "normalOrJacobianAssembled": false,
+    "BVPRun": false,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "initialFields": [
+    {
+      "name": "coupled",
+      "newFiniteInitialField": true,
+      "accepted": false,
+      "completed": true,
+      "execution": {
+        "runtime": "pure V8 JavaScript",
+        "elapsedMilliseconds": 24934,
+        "completed": true,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      },
+      "originalSquaredNorm": 0.01956949507342286,
+      "squaredNorm": 0.1836714613226747,
+      "maxRelativeMetric": 1.1310210129080982,
+      "maxCurvature": 37.32924162367196,
+      "minImmersion": 0.26891030032038366,
+      "endpointTwojetMaximumDifference": 0
+    },
+    {
+      "name": "psi",
+      "newFiniteInitialField": true,
+      "accepted": false,
+      "completed": true,
+      "execution": {
+        "runtime": "pure V8 JavaScript",
+        "elapsedMilliseconds": 21282,
+        "completed": true,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      },
+      "originalSquaredNorm": 0.01956949507342286,
+      "squaredNorm": 0.1352939156770523,
+      "maxRelativeMetric": 1.059773013449027,
+      "maxCurvature": 34.46600700448663,
+      "minImmersion": 0.33407883934107674,
+      "endpointTwojetMaximumDifference": 0
+    }
+  ],
+  "spectrum": {
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "elapsedMilliseconds": 162,
+      "completed": true,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "scope": "Three actual radial points, 32 half-period values and the discrete Fourier spectrum; a diagnostic rather than a continuous spectral certificate."
+  },
+  "conclusion": "Both non-small structured phase seeds worsen the complete unchanged finite objective. Neither replaces the original field. The leading F variance peaks already lie predominantly in existing low angular modes; no further blind phase kick is requested.",
+  "artifacts": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-R201-compact-mode-phase-seeds.cjs",
+      "bytes": 3056,
+      "sha256": "3c642935ed04e8d7dfb6e81a6238fc53b43862574f245b52e4b64daab4571e41",
+      "commit": "f5c599ee4c85621a61649d32d6dc4a653e296804"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-compact-phase-coupled-initial-01.json",
+      "bytes": 56803,
+      "sha256": "518e2256765a256d3a363a83c06bcca6a2ddff1df2c562e640dd762df7ba2197",
+      "commit": "a49138e77b728cc1eb32d5ca917963df91997b36"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-compact-phase-psi-initial-01.json",
+      "bytes": 55477,
+      "sha256": "36ecda3e53f928c3966a638940ab61b7009c34af2f3513aded477344bd1d3744",
+      "commit": "f052efa647a70f7f75f806430668134b71708836"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-compact-phase-comparison-01.json",
+      "bytes": 40186,
+      "sha256": "5cdc90414f83604192025aa136dfed603ecdcfe335920e1591b9c7d1306c2b15",
+      "commit": "16de9115b0ddff3317c2571c7332ca4aba7052bf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-R201-F-harmonics-diagnostic.cjs",
+      "bytes": 1506,
+      "sha256": "4ee7053218f3a44947893d5d373d611e64d5863fd44f89373549bad764f8031b",
+      "commit": "1aa8bbd96a49a82960750cfbeb7d8fcdc165debd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-F-harmonics-01.json",
+      "bytes": 19587,
+      "sha256": "66884f1e4c4d5d33c1c8cbcdc86434697faf599076d4685736f442f61cdc8963",
+      "commit": "01612d6ef355ba132c61ae196df856f3f6e799f3"
+    }
+  ],
+  "publication": {
+    "method": "GitHub small UTF-8 fallback under root README section 8",
+    "OSAvailable": false,
+    "OSExitCode": null,
+    "API409": false,
+    "rootReadmeBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicReadmeBlob": "71875538fe72d500277129b7f67d99f89d21c9e0"
+  }
+}

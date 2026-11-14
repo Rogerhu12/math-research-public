@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_LEIBNIZ_RANK",
+  "script_sha256": "fdeb0bbeecb3abb9b85d4fd5b6aff179766f9c2a782998bd469cb4674b80eeef",
+  "column_construction": "D=(gamma_v cross gamma_vv) cross gamma_v; W=D+speed_squared*(gamma_v cross gamma_vv)",
+  "determinant_method": "positive column denominator clearing; complete 720-term integer Leibniz sum",
+  "permutation_terms": 720,
+  "nonzero_terms": 84,
+  "positive_sum": "1843124136828891428780920266048000000",
+  "negative_absolute_sum": "1842490612333348911722969526551040000",
+  "integer_determinant": "633524495542517057950739496960000",
+  "denominator_product": "395048386342823505401611328125000000",
+  "determinant": "15838112388562926448768487424/9876209658570587635040283203125",
+  "rank": 6,
+  "pde_runs": 0,
+  "ode_runs": 0,
+  "optimization_runs": 0,
+  "scope": "Exact finite endpoint derivative only; no nonlinear family or closed surface execution."
+}

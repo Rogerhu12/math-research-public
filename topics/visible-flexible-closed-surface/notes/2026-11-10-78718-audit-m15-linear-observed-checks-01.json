@@ -1,0 +1,42 @@
+{
+  "schema": "independent-m15-entry-actual-small-executions-v1",
+  "actor": "/root/independent_audit",
+  "observations": {
+    "audit_m15_entry_start_return": {
+      "chunk_id": "47cef4",
+      "wall_time_seconds": 0.151232249,
+      "exit_code": 1,
+      "original_token_count": 489
+    },
+    "audit_m15_entry_exact_start_return": {
+      "chunk_id": "115355",
+      "wall_time_seconds": 1.000505941,
+      "session_id": 56381,
+      "original_token_count": 0
+    },
+    "audit_m15_entry_exact_last_return": {
+      "chunk_id": "39330d",
+      "wall_time_seconds": 0.000034381,
+      "exit_code": 0,
+      "original_token_count": 104
+    },
+    "audit_m15_final_negative_start_return": {
+      "chunk_id": "971b01",
+      "wall_time_seconds": 1.001577838,
+      "session_id": 29360,
+      "original_token_count": 50
+    },
+    "audit_m15_final_negative_last_return": {
+      "chunk_id": "b02fd4",
+      "wall_time_seconds": 0.000014262,
+      "exit_code": 2,
+      "original_token_count": 0
+    }
+  },
+  "interpretation": {
+    "first_attempt": "47cef4 exited 1: CODEX_PRIMARY_RUNTIME_PYTHON expanded to /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3, while the frozen ancestor command requires the literal .../bin/python. 96fa4d confirmed the difference and that no output report was created. No gate/source was changed.",
+    "exact_literal_retry": "115355/session56381 -> 39330d actual natural exit 0; 188 bindings, 30 control functions, 30 altered identities rejected; no numerical solver.",
+    "final_negative": "971b01/session29360 -> b02fd4 actual natural exit 2, specifically missing the future root natural exit observation; no successful candidate claimed."
+  },
+  "scope": "These are actual metadata/identity and negative-gate tool returns. The M15 main solver has not been started by this auditor. Session 23125 is the separate original-seed M14 computation and is not an M15 success."
+}

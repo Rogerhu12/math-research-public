@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-09T14:09:08.080368+00:00",
+  "status": "PASS-static-full-text-review-and-source-bindings-only",
+  "reviewed_complete_documents": [
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-metric-risk-order.md",
+      "bytes": 12424,
+      "sha256": "b374a7adfd336518f9b3bca9128048cce507ac906757ef18fdd44278ee3b359a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-g5-final-m15-sufficiency.md",
+      "bytes": 19221,
+      "sha256": "f3b37b270e7f347952053279ceaea775e924191e45ed70eea99268eb0901b0fb"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-final-independent-pipeline.md",
+      "bytes": 29289,
+      "sha256": "b2608b81418823b214bb205b375738915c39229ceb64b09c6979bf091441a2d4"
+    }
+  ],
+  "source_reference_binding_records_verified": 89,
+  "six_closed_checkpoints_and_six_last_tail_sha_verified": 12,
+  "six_physical_definition_fields_reconstructed_equal": true,
+  "physical_definition_canonical_sha256": "811e8cdccbad6edd4c487afc8ec07c16d519995cd9c5b182bc79ab327f414071",
+  "future_M15_success_assumed": false,
+  "normal_terminal_candidate_branch_run": false,
+  "new_solver_root_flow_export_backend_runs": 0,
+  "README_complete": false
+}

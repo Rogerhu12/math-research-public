@@ -1,0 +1,82 @@
+{
+  "scope": "Physical-design derivative/representation checks only; all original equations retained, no BVP or geometric completion.",
+  "dependencies": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    }
+  ],
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_dae_check01_snapshot.py",
+      "bytes": 15102,
+      "sha256": "f16e2753052756ff02251058f2fec265cbf98e38a7db9aa57b19619525cd674f"
+    },
+    {
+      "path": "scripts/fd2d-gc-radial-bump-profile-check.py",
+      "bytes": 6688,
+      "sha256": "4797b6695c6ddb522aecab420cc84eedf000dd2431e7f3cecde5f135f72cb8f4"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-jvp-check.py",
+      "bytes": 6520,
+      "sha256": "7996cf4023a113865eca507a81c71e50676b37728c456c21842ceaeddcc663cf"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-tail-columns-check.py",
+      "bytes": 3605,
+      "sha256": "33572b9dd817ac2cadb844e7a4e628307c965da2d213d707672fc62408bf889a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-radial-bump-profile-check01.json",
+      "bytes": 8501,
+      "sha256": "1476ccc11813d031ac160babbf6d4aee88c709a941fadae4dbeb77effb7674de"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-jvp01-report.json",
+      "bytes": 11587,
+      "sha256": "dd701446296b5beb548c95d7f1fa15d8cb13f476456dba6eff0f778c13855c47"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+      "bytes": 38553,
+      "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-tail-columns-check01.json",
+      "bytes": 6827,
+      "sha256": "ca90f0326abe6be075309f8d1bbcf2b280c6fdc0584e1fa22038cc2269b0d058"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-radial-bump-outer-design.md",
+      "bytes": 8990,
+      "sha256": "5fb4b45523766db6687347066f5e602ed9e687f7b84a58a8631be8abc9303366"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-radial-bump-design01-definition.json",
+      "bytes": 10478,
+      "sha256": "2a64036848b68b08d7ba8d3aea09930812c885a6327a8ae5196e2c89528258d1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-radial-bump-design01-execution-receipt.json",
+      "bytes": 1325,
+      "sha256": "1151eda096d0c87516481a9559eb3b3c07c6b0a3196bfbb9caa341a289dd174c"
+    }
+  ]
+}

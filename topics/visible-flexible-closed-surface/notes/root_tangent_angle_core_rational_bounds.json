@@ -1,0 +1,31 @@
+{
+  "B": "11/50",
+  "exponential_upper": "10000/9879",
+  "support_gap_lower": "656007/4000000",
+  "rows": [
+    {
+      "M": 4,
+      "derivative_bound": 2.767802807863089e-07,
+      "second_derivative_bound": 4.1672695650085876e-06,
+      "metric_bound": 5.535606381799417e-07,
+      "exact_derivative_fraction": "161051/581873100000",
+      "exact_second_fraction": "161051/38646648000"
+    },
+    {
+      "M": 6,
+      "derivative_bound": 7.936851482229645e-11,
+      "second_derivative_bound": 1.6700650316825852e-09,
+      "metric_bound": 1.5873702965089226e-10,
+      "exact_derivative_fraction": "19487171/245527726500000000",
+      "exact_second_fraction": "136410197/81679572000000000"
+    },
+    {
+      "M": 8,
+      "derivative_bound": 1.3301231500621103e-14,
+      "second_derivative_bound": 3.595776223678029e-13,
+      "metric_bound": 2.6602463001242383e-14,
+      "exact_derivative_fraction": "2357947691/177272885664000000000000",
+      "exact_second_fraction": "2357947691/6557548480000000000000"
+    }
+  ]
+}

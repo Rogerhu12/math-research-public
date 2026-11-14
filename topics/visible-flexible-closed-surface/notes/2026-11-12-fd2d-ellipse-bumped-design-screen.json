@@ -1,0 +1,251 @@
+{
+  "scope": "Finite linear design with one shallow phase return while a' stays negative.\n\nThe return creates a negative-Gaussian-curvature section without an axial\npause. A curvature-bounded phase brake joins the main acceleration to the\nnear-horizontal coast. Whole-prefix nonlinear geometry remains unverified.\n",
+  "source_sha256": "ef1c6ea789e47926ac0370ee3999099e2c10da047b63266a096e16d170884929",
+  "source_candidate_sha256": "064a7a3bcb7beaaa45bf59e30e0c64be58106a566edfa55d6b3c4bf6480b2ba0",
+  "epsilon": 0.001,
+  "position": 0.5,
+  "rows": [
+    {
+      "mid_phase": 1.0,
+      "fraction": 0.0,
+      "residual": 0.5205087809557969,
+      "metric": {
+        "end": 1.5354580770697421,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 3.5092401637719113,
+        "background_height": 1.0812616719659014,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0831740495060078
+      },
+      "radial_coast_budget": 0.03711162248676225
+    },
+    {
+      "mid_phase": 1.0,
+      "fraction": 0.3,
+      "residual": 0.5205785397083672,
+      "metric": {
+        "end": 1.5375555659161941,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 3.5092401637719113,
+        "background_height": 1.0883992681046721,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0903116456447786
+      },
+      "radial_coast_budget": 0.03711162248676225
+    },
+    {
+      "mid_phase": 1.0,
+      "fraction": 0.6,
+      "residual": 0.5206960479436609,
+      "metric": {
+        "end": 1.5396530547626455,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 3.5092401637719113,
+        "background_height": 1.0955368642434427,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.097449241783549
+      },
+      "radial_coast_budget": 0.03711162248676225
+    },
+    {
+      "mid_phase": 1.0,
+      "fraction": 0.9,
+      "residual": 0.5209352435098598,
+      "metric": {
+        "end": 1.5417505436090972,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 3.5092401637719113,
+        "background_height": 1.1026744603822134,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.1045868379223198
+      },
+      "radial_coast_budget": 0.03711162248676225
+    },
+    {
+      "mid_phase": 1.2,
+      "fraction": 0.0,
+      "residual": 0.5203716824281199,
+      "metric": {
+        "end": 1.5281443733748772,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.34791248753572,
+        "background_height": 1.0524524280101033,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0543648055502097
+      },
+      "radial_coast_budget": 0.09373650940527312
+    },
+    {
+      "mid_phase": 1.2,
+      "fraction": 0.3,
+      "residual": 0.5204184118957844,
+      "metric": {
+        "end": 1.5301948373318954,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.34791248753572,
+        "background_height": 1.0633571589761062,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0652695365162126
+      },
+      "radial_coast_budget": 0.09373650940527312
+    },
+    {
+      "mid_phase": 1.2,
+      "fraction": 0.6,
+      "residual": 0.5205157086369407,
+      "metric": {
+        "end": 1.5322453012889137,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.34791248753572,
+        "background_height": 1.0742618899421092,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0761742674822157
+      },
+      "radial_coast_budget": 0.09373650940527312
+    },
+    {
+      "mid_phase": 1.2,
+      "fraction": 0.9,
+      "residual": 0.5208308148403171,
+      "metric": {
+        "end": 1.5342957652459321,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.34791248753572,
+        "background_height": 1.0851666209081121,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0870789984482185
+      },
+      "radial_coast_budget": 0.09373650940527312
+    },
+    {
+      "mid_phase": 1.35,
+      "fraction": 0.0,
+      "residual": 0.5203353202398321,
+      "metric": {
+        "end": 1.5259378163290218,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.0767034332074323,
+        "background_height": 1.0385495209327986,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.040461898472905
+      },
+      "radial_coast_budget": 0.13948389368008973
+    },
+    {
+      "mid_phase": 1.35,
+      "fraction": 0.3,
+      "residual": 0.5203698005653807,
+      "metric": {
+        "end": 1.526978930851836,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.0767034332074323,
+        "background_height": 1.047900063012774,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0498124405528804
+      },
+      "radial_coast_budget": 0.13948389368008973
+    },
+    {
+      "mid_phase": 1.35,
+      "fraction": 0.6,
+      "residual": 0.5204515930123573,
+      "metric": {
+        "end": 1.5280200453746502,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.0767034332074323,
+        "background_height": 1.0572506050927497,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.0591629826328561
+      },
+      "radial_coast_budget": 0.13948389368008973
+    },
+    {
+      "mid_phase": 1.35,
+      "fraction": 0.9,
+      "residual": 0.5207875005159279,
+      "metric": {
+        "end": 1.5290611598974644,
+        "minimum_radius_sample": 0.4,
+        "maximum_abs_a_prime_sample": 0.9999995000000417,
+        "maximum_abs_a_second_sample": 2.0767034332074323,
+        "background_height": 1.0666011471727255,
+        "maximum_jet_join_roundoff": 0.0,
+        "cut_jet": [
+          0.40000000000000013,
+          -0.9950371902099892,
+          0.17155180864621083
+        ],
+        "background_height_with_tail": 1.068513524712832
+      },
+      "radial_coast_budget": 0.13948389368008973
+    }
+  ],
+  "roots": [],
+  "accepted_finite_seed_count": 0
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-closed-regenerable-cache-manifest-identities-v1",
+  "manifests": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/baseline-values/manifest.json",
+      "bytes": 491580,
+      "sha256": "73b9702da848075399b2d0bf8ed7a07a5aa77b627255471017ea311389e531db"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partitioned/manifest.json",
+      "bytes": 454048,
+      "sha256": "1c4c90913a26d4b3248d781286feb040164631c0ec01568f6cfe7afa1316a753"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/reduced-factors/lambda1e7-block-a01/packet/manifest.json",
+      "bytes": 267375,
+      "sha256": "c026bbdec4e4cca2c8b5ac9540c8a12b3a8a0925f91e1d92beec932ae1183fca"
+    }
+  ],
+  "primary_accepted_state": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+    "bytes": 130600,
+    "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+  },
+  "normal_factor_rebuild_from_primary_state_and_frozen_sources": true
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-actual-process-exit-v1",
+  "session": 18872,
+  "launch_chunk": "a654f3",
+  "final_chunk": "1e9206",
+  "exit_code": 0,
+  "working_directory": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "python",
+    "scripts/fd2d-root-fast-material-inverse-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-report.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-root-fast-material-inverse02"
+  ],
+  "actual_report": {
+    "path": "notes/2026-11-12-fd2d-root-fast-material-inverse02-report.json",
+    "bytes": 9144,
+    "sha256": "c662a7f75910b5957d0de52d3c27f3d0b7b58745dad8ec6f91f01e038f34ce0c"
+  },
+  "internal_seconds": 13.447571533000882,
+  "peak_rss_kib": 75956
+}

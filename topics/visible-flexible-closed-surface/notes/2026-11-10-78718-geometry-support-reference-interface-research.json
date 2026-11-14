@@ -1,0 +1,190 @@
+{
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "actual_closed_surface": false,
+  "angular_evaluations": 2048,
+  "angular_metric_finite_diagnostic": {
+    "new_warm_minus_exact_transport_max_sampled": 1.1884337958179003e-09,
+    "projected_new_warm_FFT_l1": 1.153979581137702e-06,
+    "transported_saved_curve_FFT_l1": 1.1539790389989253e-06
+  },
+  "background_jet_difference": {
+    "p1_p": 4.3075676359194404e-10,
+    "p1_s": 2.9152102953844405e-10,
+    "p2_s": 5.946612091634051e-10,
+    "pos_p": 2.029601278707993e-10,
+    "pos_s": 1.3959411404584898e-10,
+    "s1_s": 1.4011906218636128e-10
+  },
+  "continuous_metric_certificate": false,
+  "cut_background_two_jet_differences": {
+    "p1": 0.0,
+    "p2": 0.0,
+    "pos": 0.0,
+    "rho": 0.0,
+    "rhop": 0.0,
+    "s1": 0.0,
+    "s2": 0.0,
+    "sp": 0.0,
+    "spp": 0.0,
+    "theta": 0.0,
+    "v": 0.0,
+    "vp": 0.0,
+    "vs": 0.0
+  },
+  "cut_projected_state_first_second_max_difference": [
+    2.4799721106623524e-17,
+    2.7755575615628914e-17,
+    1.6653345369377348e-16
+  ],
+  "exact_zero_initial_state": true,
+  "finite_RHS_jacobian": {
+    "complex_step": 1e-25,
+    "max_absolute": 1.000444171950221e-11,
+    "parameter_block_max": 0.0,
+    "points": 5,
+    "relative_l2": 9.503077315226724e-16
+  },
+  "implementation": {
+    "bytes": 17247,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-support-reference-interface.py",
+    "sha256": "646908b00183995289961475c74dc3dd146e851ee8ed841038074156f216485b"
+  },
+  "inputs": [
+    {
+      "bytes": 27524,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+    },
+    {
+      "bytes": 5581,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "bytes": 4174602,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_00.npy.gz",
+      "sha256": "afde04de0544743ee695ce539abcc91116b142ff3aaae3d3fbd88d34fb3a789f"
+    },
+    {
+      "bytes": 1467096,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_01.npy.gz",
+      "sha256": "f988042717251970e96fdd47eb9f4dc03475c55f9772c339f81c319b2e554f2f"
+    }
+  ],
+  "loader": {
+    "bytes": 2740,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+    "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+  },
+  "mean_shift_value_first_second_max": [
+    5.7034327311856516e-08,
+    2.6974800086772743e-07,
+    8.230795453867997e-06
+  ],
+  "neighboring_quadratic_inlet_diagnostics": [
+    {
+      "first": 9.197270281743565e-07,
+      "metric_l1": 1.830165246349283e-07,
+      "metric_l1_over_scale_squared": 1.830165246349283e-07,
+      "position": 1.782317423110072e-08,
+      "reference_equal": false,
+      "scale": 1.0,
+      "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+      "second": 6.16359354511653e-05,
+      "stable_arc_iterations": 5,
+      "stable_arc_residual": 4.174178364069192e-18
+    },
+    {
+      "first": 2.2946725534322606e-07,
+      "metric_l1": 4.555230161617858e-08,
+      "metric_l1_over_scale_squared": 1.8220920646471432e-07,
+      "position": 4.4453594703804935e-09,
+      "reference_equal": false,
+      "scale": 0.5,
+      "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+      "second": 1.5312196740446815e-05,
+      "stable_arc_iterations": 5,
+      "stable_arc_residual": 3.449118161219511e-18
+    },
+    {
+      "first": 5.730772540829792e-08,
+      "metric_l1": 1.136266895519596e-08,
+      "metric_l1_over_scale_squared": 1.8180270328313536e-07,
+      "position": 1.1100300246580201e-09,
+      "reference_equal": false,
+      "scale": 0.25,
+      "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+      "second": 3.816043882526321e-06,
+      "stable_arc_iterations": 4,
+      "stable_arc_residual": 2.3107058801097313e-18
+    },
+    {
+      "first": 1.4319481959985663e-08,
+      "metric_l1": 2.8374838806879652e-09,
+      "metric_l1_over_scale_squared": 1.8159896836402977e-07,
+      "position": 2.773434290504541e-10,
+      "reference_equal": false,
+      "scale": 0.125,
+      "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+      "second": 9.525160494516793e-07,
+      "stable_arc_iterations": 4,
+      "stable_arc_residual": 1.0367683274392636e-18
+    },
+    {
+      "first": 3.5789353770265567e-09,
+      "metric_l1": 7.089763370005556e-10,
+      "metric_l1_over_scale_squared": 1.8149794227214224e-07,
+      "position": 6.931532601872305e-11,
+      "reference_equal": false,
+      "scale": 0.0625,
+      "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+      "second": 2.3794250375575032e-07,
+      "stable_arc_iterations": 4,
+      "stable_arc_residual": 7.284483346386983e-19
+    }
+  ],
+  "old_inlet": {
+    "first": 4.6388301055689495e-09,
+    "metric_l1": 1.3024531138063886e-09,
+    "position": 9.158318547974886e-11,
+    "second": 2.4219292441007845e-07
+  },
+  "original_solver_success": false,
+  "original_status": "UNSOLVED_Z_ONLY_HERMITE_INITIAL_GUESS",
+  "production_changed": false,
+  "projection_position_first_second_max": [
+    8.643419313614231e-11,
+    9.721277116625515e-10,
+    2.1249577153437063e-09
+  ],
+  "pullback_coordinate_residual": 1.7763568394002505e-15,
+  "radial_evaluations": 11,
+  "radial_integrations": 0,
+  "reference_coefficient_sha256_f64": "45480178c42ab5be1088983ce3c6bd622dc52a9cc92522509d481369b07f1237",
+  "reference_inlet": {
+    "first": 0.0,
+    "metric_l1": 5.850614377815305e-15,
+    "position": 0.0,
+    "reference_equal": true,
+    "scope": "Finite angular diagnostic of the anchored inlet, not a continuous bound",
+    "second": 5.095246377785861e-16,
+    "stable_arc_iterations": 1,
+    "stable_arc_residual": 0.0
+  },
+  "reference_kind": "fixed-support-reference-anchor-v1",
+  "reference_triangle_rho_lower": 0.19227355148143732,
+  "schema": "78718-actual-support-reference-interface-v1",
+  "scope": "Small actual checks of the optional R93 reference interface, without solving.\n\nThe saved input remains UNSOLVED. Reprojected states are new numerical warm\nrepresentations only. This report is finite floating evidence, not a complete\ncontinuous metric certificate or a solved prefix/tail.\n",
+  "script": {
+    "bytes": 10032,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-support-reference-research.py",
+    "sha256": "19b1b353fb37765c375222710443c1caddeafaebeaae3d269dd3c743edfb6c9c"
+  },
+  "seconds": 1.0237704399987706,
+  "velocity_s_difference": {
+    "absolute": 1.5793153451681974e-09,
+    "central_difference_step": 2e-06,
+    "relative_l2": 1.4914213912132668e-10
+  }
+}

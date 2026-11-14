@@ -1,0 +1,81 @@
+{
+  "purpose": "exploration only; not an exact-isometry or reach certificate",
+  "arguments": {
+    "cells": 18,
+    "modes": 4,
+    "amplitude": 0.06,
+    "height": 0.25,
+    "ripple": 0.025,
+    "vary_mean": true,
+    "max_nfev": 180,
+    "out": "math-research/topics/visible-flexible-closed-surface/notes/direct-band-a006-m4-n18-mean"
+  },
+  "unknowns": 237,
+  "residuals": 8640,
+  "jacobian_directional_checks": {
+    "0.0001": 5.283959685783848e-13,
+    "1e-05": 5.5857312823448434e-12,
+    "1e-06": 5.669418803550972e-11
+  },
+  "initial": {
+    "max_relative_metric_spectral_defect": 0.2816966516730043,
+    "max_E_nonmean_relative": 0.2816966516730043,
+    "max_F_relative": 0.15015533590612906,
+    "max_G_relative": 0.04144076540710081,
+    "max_abs_principal_curvature_sampled": 11.028185858859471,
+    "minimum_curvature_radius_sampled": 0.0906767452777967,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      0.0,
+      0.25
+    ],
+    "dense_grid": [
+      145,
+      40
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "final": {
+    "max_relative_metric_spectral_defect": 0.012224600513619639,
+    "max_E_nonmean_relative": 0.012224600513619639,
+    "max_F_relative": 0.006884413602152036,
+    "max_G_relative": 0.006282391763342854,
+    "max_abs_principal_curvature_sampled": 101.18618791793526,
+    "minimum_curvature_radius_sampled": 0.009882771755479386,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      -0.041015476232144604,
+      0.25
+    ],
+    "dense_grid": [
+      289,
+      80
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "solver": {
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 177,
+    "cost": 0.007619851647326926,
+    "optimality": 8.620118848737812e-07
+  },
+  "elapsed_seconds": 161.4366152940056,
+  "numpy": "2.3.5"
+}

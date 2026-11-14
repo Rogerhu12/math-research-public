@@ -1,0 +1,46 @@
+{
+  "status": "ACTUAL_CONTINUATION_RESPONSE_ONLY",
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T15:36:30.063661+00:00",
+  "call": 8,
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0008.json.gz",
+    "bytes": 764025,
+    "sha256": "d539302dcf0d61fb48c20cd2f91a1f1680a2381addd7e1869355368e16fc8d0e"
+  },
+  "converged": true,
+  "residual": 6.469029208606757e-10,
+  "request_equals_checkpoint_height": true,
+  "height_scale_from_original_first_component": 0.7265625,
+  "max_height_difference_from_that_multiple": 0.0,
+  "history_iterations": 5,
+  "last_history_min_A": 0.48890623791224047,
+  "last_history_min_D": 0.9939404002907085,
+  "requested_jacobian": false,
+  "requested_audit": false,
+  "response_events": [
+    {
+      "time": "2026-11-10T15:34:34.005Z",
+      "event": "tangent_predictor_ready",
+      "call": 8,
+      "maxChartCondition": 233246.81016784578
+    },
+    {
+      "time": "2026-11-10T15:34:34.005Z",
+      "event": "response",
+      "call": 8,
+      "elapsed_ms": 1047540,
+      "converged": true,
+      "residual": 6.469029208606757e-10,
+      "maxChartCondition": 233284.3691382641
+    }
+  ],
+  "preceding_failed_request": 7,
+  "continuation_step": "1/16",
+  "continuation_tau": "11/16",
+  "warm_from_actual_good_call": 6,
+  "original_full_height_solved": false,
+  "prefix_inner_or_closed_surface_asserted": false,
+  "process_tool_consumed": false,
+  "scope": "Actual own finite response after the original controller halved a failed TRACK request. Full original height, prefix coupling and closed-map criteria remain."
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "theorem": "R177",
+  "scope": "Complete generalized-cylinder normal balls and exact R168 cap compatibility for the same tail function with 0<=P<=3/2; actual whole-core conditions remain explicit.",
+  "files": [
+    {
+      "path": "results/R177-three-halves-tail-bound-with-the-complete-smaller-caps.md",
+      "bytes": 10444,
+      "sha256": "3363039d24c4a6992ef7fc463ddeb64020b70cbb84a6f28f27cebb6ba3a6099c"
+    },
+    {
+      "path": "scripts/fd2d_flat_tail_three_halves_budget.py",
+      "bytes": 8019,
+      "sha256": "10ee3fc5e8cb175a03a25943bcfa1699ff40f9671d293879a83156c455eac085"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-tail-three-halves-budget-01-report.json",
+      "bytes": 16359,
+      "sha256": "d6fa4d51e4f4daee50b672585245376c02d3663bbe0476b30e57fdfb0879c56a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-tail-three-halves-budget-01-exit-receipt.json",
+      "bytes": 652,
+      "sha256": "bff51fce584de4b7e885b22bd9c0eefaa7da9f74bbbc99ac7cbf8d3adcaeec62"
+    }
+  ],
+  "file_count": 4,
+  "total_bytes": 35474,
+  "actual_rational_budget_exit": 0,
+  "new_tail_domain_installed": false,
+  "whole_surface_certified": false,
+  "strong_target_completed": false
+}

@@ -1,0 +1,43 @@
+{
+  "status": "EXACT_CONDITIONAL_EQUAL_RADIUS_HORIZONTAL_TANGENT_CUFF_OBSTRUCTION",
+  "script_sha256": "d28dc276030c6d3ba0a1af05756415854f2f3a66b4289ca9f9930cac50f5d0bf",
+  "source": {
+    "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+    "bytes": 6587,
+    "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+  },
+  "unit_support_direction": {
+    "x": {
+      "numerator": "9",
+      "denominator": "41"
+    },
+    "z_abs": {
+      "numerator": "40",
+      "denominator": "41"
+    }
+  },
+  "core_minus_all_marker_support_gap_times_41_lower": {
+    "numerator": "440542079647",
+    "denominator": "500000000000"
+  },
+  "actual_initial_diameter_lower_from_required_point_pair": {
+    "numerator": "41263718446199477231864206210654045173",
+    "denominator": "16615349947311448411297588253504307200"
+  },
+  "reach_required_from_actual_diameter_lower": {
+    "numerator": "123791155338598431695592618631962135519",
+    "denominator": "1661534994731144841129758825350430720000"
+  },
+  "cuff_height_abs_upper_when_radius_is_two_fifths": {
+    "numerator": "181649872727",
+    "denominator": "2500000000000"
+  },
+  "necessary_common_cuff_radius_upper": {
+    "numerator": "286082113900297332804248058313322136457133573",
+    "denominator": "730166745731460135262101046296576000000000000"
+  },
+  "strict_common_cuff_radius_ge_two_fifths_obstruction": true,
+  "hypotheses": "Both complete circles have the same radius about the z-axis, distinct heights, and horizontal surface tangent planes; the halfphase complete image satisfies the frozen one-sided envelope and the initial point-pair condition.",
+  "not_a_statement_about_R29_tail_cut_c_or_current_M15": true,
+  "solver_backend_or_optimization_calls": 0
+}

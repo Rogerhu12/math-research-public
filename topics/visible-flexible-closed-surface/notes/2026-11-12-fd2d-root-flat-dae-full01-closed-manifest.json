@@ -1,0 +1,75 @@
+{
+  "scope": "Actual raw K7 finite solve: process exit0, solver success false. All main states and exact source/input closure preserved. Intermediate accepted files are reproducible from source; their identities remain in progress.",
+  "actual_exit_code": 0,
+  "solver_success": false,
+  "final": {
+    "residual_maximum": 10.361843625922194,
+    "residual_rms": 1.4591832453544153,
+    "full_gauss_node_maximum": 98.97390415403605,
+    "formal_curvature_node_maximum": 206.41532834791306,
+    "A": 1.3319477907386035,
+    "B": 0.45032490556866434,
+    "gap": 0.8816228851699391,
+    "T": 0.12028614311498692,
+    "tail_coefficients": [
+      0.48503216245724606,
+      -8.008420814712284,
+      28.639057933361435,
+      -14.60290507720665,
+      20.45355981945221,
+      -8.444952457546481,
+      7.32171887506158,
+      -1.7960720535977273
+    ],
+    "minimum_n": -17.08788795623607,
+    "maximum_n": 20.359116881704484,
+    "minimum_central_curvature": -7.776932551898515,
+    "maximum_lifting_alpha": 1.147931820707114,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-report.json",
+      "bytes": 10769,
+      "sha256": "a54a7585118f9e640540ddccfcf1b5cb3b6806e157498892217ee1c04e00cc98"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-progress.jsonl",
+      "bytes": 60751,
+      "sha256": "48d2b4276a83f601efc45eea8e839cd7f5bb267c2b55187b659f1319c030790c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-initial.npz",
+      "bytes": 19004,
+      "sha256": "cc6e5a23c5793beb192b060a57edadfe23c1c87792756b86db72aa392c73e00e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-field.npz",
+      "bytes": 124572,
+      "sha256": "4abda137f917a27ff355026d18765696441d6588e24137b08e2bedad261722a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-candidate.json",
+      "bytes": 34749,
+      "sha256": "553305cc928153ce11497e091ed2da4fd592479daa0cb9dbb4b51ecd8b3b15e0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-completion-receipt.json",
+      "bytes": 215,
+      "sha256": "ec062fd869e10163800b390e026ca3207c456d390c4fed286b38fe2fe3c3c66c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-source-input-manifest.json",
+      "bytes": 5205,
+      "sha256": "ab978bd23bae6a75273d44796eef1260b8d62e177dcea54c0a1ad1b2d58dd18d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-flat-dae-full01-source-snapshot.tar.gz",
+      "bytes": 1010094,
+      "sha256": "149395c7ef142b34a27f1dfb41d133f15567eb8bcbaffaf8a7afcfd48b3675b2"
+    }
+  ]
+}

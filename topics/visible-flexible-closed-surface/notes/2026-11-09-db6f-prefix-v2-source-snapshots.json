@@ -1,0 +1,19 @@
+{
+  "scope": "Read-only local git history recovery. Exact source snapshots make availability independent of local or remote commit reachability.",
+  "files": [
+    {
+      "original": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "sha256": "5f187f209ad1c95829908dfa64a1f5b42fa6c50c74ceb8d533208f7f2272fc73",
+      "snapshot": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled-frozen-5f187f209ad1.py",
+      "local_commit": "210f5f89c47762810ff619dc7f1f47fb50230515",
+      "known_origin_main_contains_commit": true
+    },
+    {
+      "original": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "sha256": "1484a0442745c0c16c62b1771320c5df106a754b0cf6cf4bf75c23a4eb6e7ac2",
+      "snapshot": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-frozen-1484a0442745.py",
+      "local_commit": "210f5f89c47762810ff619dc7f1f47fb50230515",
+      "known_origin_main_contains_commit": true
+    }
+  ]
+}

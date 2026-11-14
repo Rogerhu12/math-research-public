@@ -1,0 +1,35 @@
+{
+  "status": "CLOSED_PREPARATION_EXECUTIONS_NO_SOLVER",
+  "recorded_utc": "2026-11-09 15:51:39 UTC",
+  "argv": [
+    "python",
+    "scripts/db6f-prefix-prepare-amplitude-resume03.py"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "preliminary_unfrozen_setup": {
+    "actual_exit_code": 1,
+    "tool_receipt": "77a2fd",
+    "tool_reported_wall_time_seconds": 0.15867757,
+    "error": "KeyError: rawNodeIndices",
+    "outputs_written": false,
+    "one_line_correction": "indices=cp[\"rawNodeIndices\"] -> indices=cp[\"rawNode\"]",
+    "scope": "Metadata field-name typo, not a data/solver failure."
+  },
+  "final": {
+    "actual_exit_code": 0,
+    "tool_receipt": "77b2b6",
+    "tool_reported_wall_time_seconds": 0.193222483,
+    "stdout_summary": {
+      "verified": true,
+      "launch": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "launch_sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c",
+      "report_sha256": "ba64ac7ab6098750724e992d85c562559705a2a426e787aec965fc90312f9c84",
+      "bindings": 83,
+      "first_scale": 0.984375,
+      "solver_launches": 0
+    }
+  },
+  "solver_launches": 0,
+  "changed_original_source_files": [],
+  "future_resume03_started_by_this_agent": false
+}

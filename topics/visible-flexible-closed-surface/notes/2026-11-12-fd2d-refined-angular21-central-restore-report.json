@@ -1,0 +1,78 @@
+{
+  "schema": "fd2d-explicit-central-search-domain-restoration-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-central-search-domain-restore.py",
+    "bytes": 6166,
+    "sha256": "f340b2670e827612472bafef17360a89118ba5f98330090fb9ddc59ba4d1cbfa"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-refined-angular21-init-field.npz",
+    "bytes": 74546,
+    "sha256": "04d6e3fb776e3b691c69a3fcc5cd41bf04fa0f7ffc6b844b3537720381292885"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T16:20:26.025725+00:00",
+  "completed": true,
+  "BVP_performed": false,
+  "physical_metric_changed": false,
+  "actual_central_field_changed": true,
+  "continuous_geometric_certificate": false,
+  "seconds": 4.305242275000637,
+  "peak_rss_kib": 92164,
+  "definition": {
+    "schema": "fd2d-central-finite-domain-initializer-change-v1",
+    "input": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-refined-angular21-init-field.npz",
+      "bytes": 74546,
+      "sha256": "04d6e3fb776e3b691c69a3fcc5cd41bf04fa0f7ffc6b844b3537720381292885"
+    },
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-central-search-domain-restore.py",
+      "bytes": 6166,
+      "sha256": "f340b2670e827612472bafef17360a89118ba5f98330090fb9ddc59ba4d1cbfa"
+    },
+    "floor": 0.1,
+    "QP_lower_target": 0.100000001,
+    "cap": 7.352941176470588,
+    "gap_target": 0.9,
+    "old_minimum": 0.09996466620977024,
+    "new_minimum": 0.10000000099999992,
+    "new_maximum": 3.910030471536933,
+    "A": 1.3690376232725068,
+    "B": 0.46903762327250675,
+    "gap": 0.9,
+    "central_delta_l2": 1.3369663055504599e-05,
+    "central_delta_max": 4.269902444454219e-06,
+    "central_curvature_maximum_change": 3.578360142736381e-05,
+    "changed_raw_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "changed_raw_coefficient_maximum": 4.269902444453688e-06,
+    "tail_and_profile_bytes_unchanged": true,
+    "noncentral_raw_bytes_unchanged": true,
+    "SLSQP_success": true,
+    "SLSQP_status": 0,
+    "SLSQP_message": "Optimization terminated successfully",
+    "iterations": 3,
+    "not_claimed_same_field": true,
+    "physical_g_unchanged": true,
+    "no_whole_F_or_J": true
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  }
+}

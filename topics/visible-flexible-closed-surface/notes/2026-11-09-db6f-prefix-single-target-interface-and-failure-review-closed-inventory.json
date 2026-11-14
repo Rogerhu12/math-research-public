@@ -1,0 +1,41 @@
+{
+  "status": "CLOSED_STATIC_INTERFACE_AND_FAILED_RUN_METADATA_REVIEW",
+  "recorded_utc": "2026-11-09T14:45:31.549394+00:00",
+  "count": 6,
+  "total_bytes": 60682,
+  "maximum_file_bytes": 33225,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-single-target-coupling-readiness-interface.md",
+      "bytes": 9519,
+      "sha256": "5d196cb2bb6b3bdad050333c1b69ec49e5eef475f005394b11aa38d5b41959ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-single-target-coupling-readiness-interface-sources.json",
+      "bytes": 2562,
+      "sha256": "ff0cd9bc7fcaa73f4dee032128813aa13ee06bf715c0fc339234cf94a8432edf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-single-target-closed-failure.py",
+      "bytes": 8524,
+      "sha256": "717c9d04f15275bac297ff9b3043ad98da067863c1355e72a8c6a8d7f3b19f45"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-single-target-closed-failure.json",
+      "bytes": 33225,
+      "sha256": "dc341acadfb5ae74ad751545bedc0cb3bb07b55a41d1885f44c50b3b99a834cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-single-target-closed-failure.md",
+      "bytes": 5807,
+      "sha256": "22382ecb64c062992304c402bf10cc8d13b94b3d4490a21f8bdd86671e4663b7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-single-target-closed-failure-execution.json",
+      "bytes": 1045,
+      "sha256": "c78e45ba9e98467da9efac7870056cddb82bd8b47eed7f8444ae766e134c539c"
+    }
+  ],
+  "scope": "No readiness or coupled launch generated; no solver or active continuation touched.",
+  "root_run_outputs": "Already owned by root observed-execution; only referenced by immutable hashes here."
+}

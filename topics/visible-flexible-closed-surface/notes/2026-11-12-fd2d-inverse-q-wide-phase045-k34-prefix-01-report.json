@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-phase-contraction-whole-tail-prefix-design-v1",
+  "source_sha256": "f36a191c3525c9afbbd9950b2f7caf81146de9d413a3fb27109e281a0151a311",
+  "initial_file": "2026-11-12-fd2d-inverse-q-wide-phase045-k34-prefix-01-initial.json",
+  "initial_sha256": "e1e2ffe69f8cf082e11ffc916d253cb7828ce84241bc8110fa92588e5f9dd99b",
+  "tail_config_sha256": "1568104bf06bf9d270c1a1555d7004bbc068a44d716d9d8baf17911f05931e94",
+  "tail_port_sha256": "c86454dd40ccdbbe7a4c191ee327a1132df96cd03c15a6ce6f54df5eeacaeebe",
+  "vmid": 0.45,
+  "pdeep": 1.4712276743037345,
+  "central_cylinder": 0.001,
+  "early_turn_curvature": 3.4,
+  "phase_curvature": 6.8,
+  "phase_ramp_length": 0.04,
+  "evaluations": [
+    {
+      "T": 0.0,
+      "residual": 0.418508927618532,
+      "terminal_fg": [
+        1.6692741776651994,
+        3.622517653397683
+      ]
+    },
+    {
+      "T": 0.2,
+      "residual": 0.49406170501485086,
+      "terminal_fg": [
+        1.6040006176429977,
+        2.8226457843406205
+      ]
+    },
+    {
+      "T": 0.4,
+      "residual": 0.6153584608238223,
+      "terminal_fg": [
+        1.5332984470232345,
+        1.9640885623619884
+      ]
+    },
+    {
+      "T": 0.44629363290851487,
+      "residual": 0.6534159355741547,
+      "terminal_fg": [
+        1.51610824525498,
+        1.7564502053597586
+      ]
+    }
+  ],
+  "completed": true,
+  "nonlinear_solution": false,
+  "continuous_certificate": false,
+  "root_found": false,
+  "Tmax": 0.46978277148264724,
+  "seconds": 27.306503420999434
+}

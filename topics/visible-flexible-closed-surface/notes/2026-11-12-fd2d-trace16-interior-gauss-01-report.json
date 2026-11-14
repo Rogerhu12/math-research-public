@@ -1,0 +1,36 @@
+{
+  "schema": "fd2d-actual-positive-trace-interior-Gauss-location-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-interior-gauss-screen.py",
+    "bytes": 5137,
+    "sha256": "88e2e92f8c4b7323eb723400b0e2a9a4ff5205e1386a9b0f4ed1b6588d21ef24"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+    "bytes": 11797,
+    "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace16-b0004-accepted-0002.npz",
+    "bytes": 57893,
+    "sha256": "520a3e333c54bcc18da5071d8534cf91f9e6f0de60a567a5cbb56abb5e697e28"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T15:35:12.638284+00:00",
+  "completed": false,
+  "no_BVP": true,
+  "no_Jacobian": true,
+  "no_new_field": true,
+  "continuous_certificate": false,
+  "seconds": 7.420798622999428,
+  "peak_rss_kib": 293364,
+  "exception": {
+    "type": "AttributeError",
+    "message": "'PositiveTraceRawBumpDAE' object has no attribute 'xi'",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-interior-gauss-screen.py\", line 62, in main\n    rows.append(dict(cell=cell,quadrature_index=q,s=float(view.x[j]),xi=float(view.xi[i]),material_u=float(view.coords['u'][i,j]),\n                                                                              ^^^^^^^\nAttributeError: 'PositiveTraceRawBumpDAE' object has no attribute 'xi'\n"
+  }
+}

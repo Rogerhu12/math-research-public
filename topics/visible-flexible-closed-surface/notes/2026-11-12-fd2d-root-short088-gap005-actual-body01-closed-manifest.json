@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-closed-root-actual-state-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-native-field.json",
+      "bytes": 15320,
+      "sha256": "5d6c34af2b1b3765f03db622db422a7ff18a0824acd62e510ef2475597f6a57b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-nodes.npz.gz",
+      "bytes": 2818675,
+      "sha256": "2732f2deefa38d8c06b8e16078da152a239467714bdd35b13ef66a092712a88b",
+      "lossless_original": {
+        "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-nodes.npz",
+        "bytes": 2852754,
+        "sha256": "fa2926a1ee63fb32d137cd4d60728333505db54d00131ac48881e61442980736"
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-progress.jsonl",
+      "bytes": 237056,
+      "sha256": "5410adb60718708204f78f8c6cbeae52267e25ce479132d8daac06b01a97f05d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-report.json",
+      "bytes": 4770,
+      "sha256": "288941e485ab1cbeb5486abd8550fed2071d128482fddb8983e9d953c294419b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-runtime.json",
+      "bytes": 320,
+      "sha256": "d7f30af32e5533083abe444f15d8c1382a217d52dfff6290ea7a847338028eb0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-gap005-actual-body01-completion-receipt.json",
+      "bytes": 441,
+      "sha256": "b079dd7b16c41f1a44e56460b3632e19e19b840631b20a1ee6dbfe427bf2e5bf"
+    }
+  ],
+  "reproducible_local_intermediate_states": [],
+  "completion": {
+    "session_id": 22392,
+    "completion_chunk": "d0b2a9",
+    "actual_exit_code": 0,
+    "seconds": 802.6370425169998,
+    "actual_metric_sample_maximum": 0.000897105083804529,
+    "actual_curvature_sample_maximum": 12.648306505793393,
+    "scope": "Complete actual fixed-material body through the finite prefix, 32 angles. Finite diagnostics; this field fails the current metric and curvature budgets. Not a continuous certificate or a tail solve."
+  }
+}

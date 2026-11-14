@@ -1,0 +1,126 @@
+{
+  "schema": "db6f-unexecuted-direct-csc-byte-test-plan-v1",
+  "status": "PLANNED_NOT_EXECUTED_NOT_APPROVED_AS_PASSED",
+  "script": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+    "commit": "4fb8b855e7df8ef5c68c797f13da70640900bbfe",
+    "blob": "abb5f27a8926652933c827d85c0bbcea54fe8601",
+    "bytes": 26045,
+    "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc",
+    "readback_exact": true
+  },
+  "foundation": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "commit": "5b7a715833357675cbe5d9944ce54a165997473a",
+    "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf",
+    "blob": "71f91271133dacd85e4d8d63a7ec3b757222d453",
+    "bytes": 17550,
+    "readback_exact": true
+  },
+  "static_foundation_review": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direct-csc-foundation-v2.md",
+    "sha256": "0cc7ed169f1c7606e86e6c50107afe70e51e84a28acc5be3f7aeacbdaed9e90b",
+    "commit": "398944aa07f18b8d44e614aa86cfe1bea14454ec",
+    "scope": "static source review only; no actual array test"
+  },
+  "cwd_template": "/workspace/scratch/db6f0b0e7462/math-research",
+  "command_template": [
+    "python3",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+    "--foundation",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-direct-csc-byte-test-01.json"
+  ],
+  "workspace_path_and_output_absence_must_be_rechecked": true,
+  "workspace_output_absence_checked": false,
+  "expected_case_count": 15,
+  "expected_original_completed_calls": 15,
+  "expected_new_completed_calls": 15,
+  "expected_original_function": "scipy.integrate._bvp.construct_global_jac",
+  "expected_original_indices_function": "scipy.integrate._bvp.compute_jac_indices",
+  "expected_original_bvp_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "expected_runtime_source_sha256": [
+    {
+      "path": "scipy/integrate/_bvp.py",
+      "ref": "v1.17.0",
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "bytes": 41294,
+      "blob": "c82ebd0a9c582685cbd1b1b1c128391abd57ebef",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/integrate/_bvp.py"
+    },
+    {
+      "path": "scipy/sparse/_coo.py",
+      "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898",
+      "bytes": 74635,
+      "blob": "5b0d0a3fb1d7066a6faaa5869533bda3e3c347fa",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_coo.py"
+    },
+    {
+      "path": "scipy/sparse/_compressed.py",
+      "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f",
+      "bytes": 52058,
+      "blob": "f2d19f200aebcc77c3b413716d08d73bfe2d80d0",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_compressed.py"
+    },
+    {
+      "path": "scipy/sparse/_sputils.py",
+      "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f",
+      "bytes": 21095,
+      "blob": "326c68bab785498fa5e2ddef3ddcb6a85828e374",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_sputils.py"
+    },
+    {
+      "path": "scipy/sparse/_csc.py",
+      "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552",
+      "bytes": 11162,
+      "blob": "32eb9f2a1bbf53320487ce3fadfc8799600ab049",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_csc.py"
+    },
+    {
+      "path": "scipy/sparse/_base.py",
+      "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b",
+      "bytes": 58343,
+      "blob": "fa1ec6bf2600aab0d633cf93bf88187a2bba4a5f",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_base.py"
+    }
+  ],
+  "extra_source_read_for_review": {
+    "path": "scipy/sparse/sparsetools/csr.h",
+    "sha256": "2064bcb579658d0a94ce04e8f4955f307f985a63ec15db293f2cd6018a2b0e7a",
+    "bytes": 50275,
+    "blob": "997ffdde6b34c88ca3329adf7ee2d29757f94f8c",
+    "ref": "v1.17.0"
+  },
+  "forbidden_actions": [
+    "install/monkeypatch",
+    "SuperLU/linear solve",
+    "BVP/DN/RK",
+    "main research data read"
+  ],
+  "actual_execution": {
+    "python": false,
+    "factory": false,
+    "matrices": false,
+    "tool_exit_code": null
+  },
+  "required_before_claiming_pass": [
+    "independent full review of this test and this plan",
+    "all source identities verified in recovered actual environment",
+    "actual original/updated matrices and alias effects compared",
+    "natural external tool exit separately observed",
+    "closed report hash and all 15 case identities verified"
+  ],
+  "numerical_candidate_or_G5_conclusion": false
+}

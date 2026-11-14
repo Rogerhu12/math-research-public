@@ -1,0 +1,195 @@
+{
+  "theorem": "R121",
+  "source_sha256": "007ecc83686d6d12b9a5efcd95dd6b052705a09c1d49b7f3d4a6c1df7fa1619b",
+  "definition": {
+    "P0_vertices": [
+      [
+        -0.6,
+        -0.944,
+        1.79
+      ],
+      [
+        -0.6,
+        0.944,
+        1.79
+      ],
+      [
+        0.6,
+        -0.944,
+        1.79
+      ],
+      [
+        0.6,
+        0.944,
+        1.79
+      ],
+      [
+        0.0,
+        0.0,
+        2.113
+      ]
+    ],
+    "P": "sublevel (distance_to_P0 convolved with symmetric nonnegative delta-mollifier) <= epsilon",
+    "K": "P plus Euclidean radius-R ball",
+    "neck": "R113 exact meridian with a=.3,R=.136,lambda=.01",
+    "cap_translation": "upper by -(zc-Z) ez, lower by +(zc-Z) ez"
+  },
+  "exact_bounds": {
+    "core_axis_support_lower": {
+      "exact": "7/5",
+      "approximate": 1.4
+    },
+    "corner_x": {
+      "exact": "3/5",
+      "approximate": 0.6
+    },
+    "corner_y": {
+      "exact": "27/25",
+      "approximate": 1.08
+    },
+    "side_height": {
+      "exact": "179/100",
+      "approximate": 1.79
+    },
+    "top_height": {
+      "exact": "2249/1000",
+      "approximate": 2.249
+    },
+    "sphere_radius": {
+      "exact": "9/4",
+      "approximate": 2.25
+    },
+    "whole_diameter_upper": {
+      "exact": "9/2",
+      "approximate": 4.5
+    },
+    "active_halfwidth": {
+      "exact": "17/20",
+      "approximate": 0.85
+    },
+    "reach_radius": {
+      "exact": "17/125",
+      "approximate": 0.136
+    },
+    "cuff_radius": {
+      "exact": "8/25",
+      "approximate": 0.32
+    },
+    "neck_radius": {
+      "exact": "3/10",
+      "approximate": 0.3
+    },
+    "base_vertex_norm_squared": {
+      "exact": "1113809/250000",
+      "approximate": 4.455236
+    },
+    "seed_sphere_squared_margin": {
+      "exact": "1333721/100000000",
+      "approximate": 0.01333721
+    },
+    "pole_seed_margin": {
+      "exact": "9/10000",
+      "approximate": 0.0009
+    },
+    "flat_base_disk_margin": {
+      "exact": "163999/1000000",
+      "approximate": 0.163999
+    },
+    "neck_minimum_radius": {
+      "exact": "504/3125",
+      "approximate": 0.16128
+    },
+    "neck_radius_minus_reach": {
+      "exact": "79/3125",
+      "approximate": 0.02528
+    },
+    "neck_and_collar_sphere_squared_margin": {
+      "exact": "222471479/100000000",
+      "approximate": 2.22471479
+    },
+    "fixed_cap_x_halfwidth": {
+      "exact": "7361/10000",
+      "approximate": 0.7361
+    },
+    "fixed_cap_y_halfwidth": {
+      "exact": "10801/10000",
+      "approximate": 1.0801
+    },
+    "cap_slab_margin": {
+      "exact": "1139/10000",
+      "approximate": 0.1139
+    },
+    "marker_ball_radius": {
+      "exact": "27/25",
+      "approximate": 1.08
+    },
+    "marker_support_squared_margin": {
+      "exact": "96/625",
+      "approximate": 0.1536
+    },
+    "cuff_height_min": {
+      "exact": "9/10",
+      "approximate": 0.9
+    },
+    "reference_cuff_height_lower": {
+      "exact": "482169/350000",
+      "approximate": 1.3776257142857142
+    },
+    "reference_cuff_height_upper": {
+      "exact": "68959/50000",
+      "approximate": 1.37918
+    },
+    "maximum_inward_translation": {
+      "exact": "23959/50000",
+      "approximate": 0.47918
+    },
+    "translated_side_height_lower": {
+      "exact": "65541/50000",
+      "approximate": 1.31082
+    },
+    "translated_side_minus_marker_radius": {
+      "exact": "11541/50000",
+      "approximate": 0.23082
+    },
+    "translated_top_height_lower": {
+      "exact": "88491/50000",
+      "approximate": 1.76982
+    },
+    "grip_diameter_lower": {
+      "exact": "44243/12500",
+      "approximate": 3.53944
+    },
+    "cap_separation_margin": {
+      "exact": "191/125",
+      "approximate": 1.528
+    },
+    "euclidean_quotient_lower": {
+      "exact": "2299/10000",
+      "approximate": 0.2299
+    },
+    "held_over_D_lower": {
+      "exact": "1/5",
+      "approximate": 0.2
+    },
+    "reach_over_D_lower": {
+      "exact": "34/1125",
+      "approximate": 0.030222222222222223
+    },
+    "euclidean_quotient_over_D_lower": {
+      "exact": "2299/45000",
+      "approximate": 0.05108888888888889
+    }
+  },
+  "numerical_reference_cuff_height": 1.3786410585615192,
+  "numerical_height_quadrature_error": 3.618151820906426e-18,
+  "needed_actual_core_conditions": [
+    "same g and fixed full cuff two jets at +/-Z",
+    "Z in [.9,zc]",
+    "all-phase reach >= .136 of original flat-disk closed core",
+    "actual active ball radius 2.25 and |z|<=Z",
+    "actual phase-zero |y|<=.85",
+    "actual held witness sphere avoidance"
+  ],
+  "actual_core_completed": false,
+  "strong_target_completed": false
+}

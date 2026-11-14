@@ -1,0 +1,483 @@
+{
+  "stage": 2640,
+  "rawCell": 146,
+  "rawSegment": 2,
+  "mu": 7.56329349850664e-127,
+  "portRatio": 1,
+  "checkpointFile": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-02-accepted1-recovery.json.gz",
+  "iteration": {
+    "iteration": 1,
+    "trial": 0,
+    "step": 1,
+    "baseNorm": 0.0016237284101061752,
+    "kind": "accepted",
+    "trialNorm": 0.0016237283781537783
+  },
+  "rows": [
+    {
+      "component": 0,
+      "initial": 3.095216471074291e-275,
+      "actual_end": 3.095216471074291e-275,
+      "J_times_initial": 3.095216471074291e-275,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 1,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 2,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 3,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 4,
+      "initial": -2.281780779799899e-275,
+      "actual_end": -4.5613471996496004e-275,
+      "J_times_initial": -4.5613471996496023e-275,
+      "difference": 1.924001625608614e-290,
+      "relative": 6.216048678950165e-16,
+      "rawResidual": -5.0306728498480484e-278
+    },
+    {
+      "component": 5,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 6,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    },
+    {
+      "component": 7,
+      "initial": 0,
+      "actual_end": 0,
+      "J_times_initial": 0,
+      "difference": 0,
+      "relative": 0,
+      "rawResidual": 0
+    }
+  ],
+  "points": [
+    {
+      "j": 0,
+      "x": 0,
+      "g": {
+        "r": 0.32,
+        "drdx": 4.0871852395752835e-47,
+        "logw": -178.30307743739195,
+        "dlogwdx": 0,
+        "oldR": 0.32,
+        "oldDrdx": 6.213427550153797e-48,
+        "chi": 1,
+        "w": 3.664016009266437e-78,
+        "w2": 1.342501331616075e-155,
+        "E": 1,
+        "deepScaled": false,
+        "momentumTargetFactor": 1.3160486395535676e+31,
+        "momentumInverseFactor": 7.598503352727311e-32,
+        "momentumFluxFactor": 9.70515335816574e-78,
+        "momentumPFactor": 6.323791966880541e+75
+      },
+      "L": [
+        0,
+        -3.002934491015136e-244,
+        0,
+        0,
+        0
+      ],
+      "component": [
+        {
+          "i": 0,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 1,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 2,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 3,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 4,
+          "rhs": -2.2795664198497046e-275,
+          "J_times_initial": -2.279566419849705e-275,
+          "difference": 3.2066693760143564e-291
+        },
+        {
+          "i": 5,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 6,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 7,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "j": 0,
+      "x": 0.25,
+      "g": {
+        "r": 0.32,
+        "drdx": 4.0871852395752835e-47,
+        "logw": -178.30307743739195,
+        "dlogwdx": 0,
+        "oldR": 0.32,
+        "oldDrdx": 6.213427550153797e-48,
+        "chi": 1,
+        "w": 3.664016009266437e-78,
+        "w2": 1.342501331616075e-155,
+        "E": 1,
+        "deepScaled": false,
+        "momentumTargetFactor": 1.3160486395535676e+31,
+        "momentumInverseFactor": 7.598503352727311e-32,
+        "momentumFluxFactor": 9.70515335816574e-78,
+        "momentumPFactor": 6.323791966880541e+75
+      },
+      "L": [
+        0,
+        -3.002934491015136e-244,
+        0,
+        0,
+        0
+      ],
+      "component": [
+        {
+          "i": 0,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 1,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 2,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 3,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 4,
+          "rhs": -2.2795664198497046e-275,
+          "J_times_initial": -2.279566419849705e-275,
+          "difference": 3.2066693760143564e-291
+        },
+        {
+          "i": 5,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 6,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 7,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "j": 0,
+      "x": 0.5,
+      "g": {
+        "r": 0.32,
+        "drdx": 4.0871852395752835e-47,
+        "logw": -178.30307743739195,
+        "dlogwdx": 0,
+        "oldR": 0.32,
+        "oldDrdx": 6.213427550153797e-48,
+        "chi": 1,
+        "w": 3.664016009266437e-78,
+        "w2": 1.342501331616075e-155,
+        "E": 1,
+        "deepScaled": false,
+        "momentumTargetFactor": 1.3160486395535676e+31,
+        "momentumInverseFactor": 7.598503352727311e-32,
+        "momentumFluxFactor": 9.70515335816574e-78,
+        "momentumPFactor": 6.323791966880541e+75
+      },
+      "L": [
+        0,
+        -3.002934491015136e-244,
+        0,
+        0,
+        0
+      ],
+      "component": [
+        {
+          "i": 0,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 1,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 2,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 3,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 4,
+          "rhs": -2.2795664198497046e-275,
+          "J_times_initial": -2.279566419849705e-275,
+          "difference": 3.2066693760143564e-291
+        },
+        {
+          "i": 5,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 6,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 7,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "j": 0,
+      "x": 0.75,
+      "g": {
+        "r": 0.32,
+        "drdx": 4.0871852395752835e-47,
+        "logw": -178.30307743739195,
+        "dlogwdx": 0,
+        "oldR": 0.32,
+        "oldDrdx": 6.213427550153797e-48,
+        "chi": 1,
+        "w": 3.664016009266437e-78,
+        "w2": 1.342501331616075e-155,
+        "E": 1,
+        "deepScaled": false,
+        "momentumTargetFactor": 1.3160486395535676e+31,
+        "momentumInverseFactor": 7.598503352727311e-32,
+        "momentumFluxFactor": 9.70515335816574e-78,
+        "momentumPFactor": 6.323791966880541e+75
+      },
+      "L": [
+        0,
+        -3.002934491015136e-244,
+        0,
+        0,
+        0
+      ],
+      "component": [
+        {
+          "i": 0,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 1,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 2,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 3,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 4,
+          "rhs": -2.2795664198497046e-275,
+          "J_times_initial": -2.279566419849705e-275,
+          "difference": 3.2066693760143564e-291
+        },
+        {
+          "i": 5,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 6,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 7,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "j": 0,
+      "x": 1,
+      "g": {
+        "r": 0.32,
+        "drdx": 4.0871852395752835e-47,
+        "logw": -178.30307743739195,
+        "dlogwdx": 0,
+        "oldR": 0.32,
+        "oldDrdx": 6.213427550153797e-48,
+        "chi": 1,
+        "w": 3.664016009266437e-78,
+        "w2": 1.342501331616075e-155,
+        "E": 1,
+        "deepScaled": false,
+        "momentumTargetFactor": 1.3160486395535676e+31,
+        "momentumInverseFactor": 7.598503352727311e-32,
+        "momentumFluxFactor": 9.70515335816574e-78,
+        "momentumPFactor": 6.323791966880541e+75
+      },
+      "L": [
+        0,
+        -3.002934491015136e-244,
+        0,
+        0,
+        0
+      ],
+      "component": [
+        {
+          "i": 0,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 1,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 2,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 3,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 4,
+          "rhs": -2.2795664198497046e-275,
+          "J_times_initial": -2.279566419849705e-275,
+          "difference": 3.2066693760143564e-291
+        },
+        {
+          "i": 5,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 6,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        },
+        {
+          "i": 7,
+          "rhs": 0,
+          "J_times_initial": 0,
+          "difference": 0
+        }
+      ]
+    }
+  ],
+  "scope": "One actual stored stage, no new whole-tail solve or accepted state."
+}

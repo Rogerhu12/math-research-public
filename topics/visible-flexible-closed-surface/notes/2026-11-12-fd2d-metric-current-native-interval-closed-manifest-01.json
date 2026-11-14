@@ -1,0 +1,110 @@
+{
+  "schema": "fd2d-closed-current-native-interval-pieces-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_current_native_interval.py",
+      "bytes": 23311,
+      "sha256": "8f4836a3926ce9f2e25d034b1b5489a3a719db38110458ef8267edcba326d6b1"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_primitive_interval.py",
+      "bytes": 10790,
+      "sha256": "0563f7f90b5e5bac6fcea15e37e0c445ac1548e66981388c06f6361d6492a6b4"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_primitive_interval_v2.py",
+      "bytes": 11139,
+      "sha256": "e767046a567b6d6481faaa927211196ed34ca0da413d90b8a14e37c8c2129ffc"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-native-interval-check.py",
+      "bytes": 14351,
+      "sha256": "652a8dc0d145b146db7d15ecd2b3dd4cbc1b38a4996b1321572df095d8d21f88"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-native-interval-check-v2.py",
+      "bytes": 14465,
+      "sha256": "105316cda3fd3a8526baaf66ea1a0a37b61cd2cea581b59953a69004d3848061"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-native-interval-check-v3.py",
+      "bytes": 14471,
+      "sha256": "aed3cb230729df66bf700d51dde739c5d899c681eb63d578a151d57e6ac581c6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval.md",
+      "bytes": 17083,
+      "sha256": "989e27762c56d939039220f71a02497eec73d4af41f2db0289a5d73127a6dab6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-01-exit-receipt.json",
+      "bytes": 691,
+      "sha256": "2fa4dd397e7ade1493ad9137620567b07c4df5d145bbb20ed9f9417dc282e9da"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-02-definition.json",
+      "bytes": 93109,
+      "sha256": "f68e2dfd98b2e04a3fcc8c7597633b402cdc8083a00c5548aa40021e83acb765"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-02-report.json",
+      "bytes": 43309,
+      "sha256": "7f0dc6cfda59db4cf0878fa532136b176aab055110042b32db9eeed2962a9405"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-02-exit-receipt.json",
+      "bytes": 844,
+      "sha256": "ec86e4f7c5a6c907133c06c3a1a31ab93264cefcb7e05c3c57feacc2485d8372"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-03-definition.json",
+      "bytes": 93109,
+      "sha256": "f68e2dfd98b2e04a3fcc8c7597633b402cdc8083a00c5548aa40021e83acb765"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-03-primitive.json",
+      "bytes": 11955,
+      "sha256": "fdbb54566f20dde639c3d1ed20047a05ba8d2cd1e06a85dd6c82a4d0b40c9cd6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-03-report.json",
+      "bytes": 46650,
+      "sha256": "968c5e1a54da1430039251fb8e77ab04f15adf7dac63df4b79dba5fca05d9868"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-03-exit-receipt.json",
+      "bytes": 1018,
+      "sha256": "11b0c452982025c2ca03f4c4b846eee80ce7320f220793997b4ab93b11e161f0"
+    }
+  ],
+  "file_count": 15,
+  "total_bytes": 396295,
+  "usable_modules": [
+    "scripts/fd2d_gc_current_native_interval.py",
+    "scripts/fd2d_gc_current_primitive_interval_v2.py"
+  ],
+  "usable_check": "scripts/fd2d-metric-current-native-interval-check-v3.py",
+  "archived_failed_sources": [
+    "scripts/fd2d-metric-current-native-interval-check.py",
+    "scripts/fd2d-metric-current-native-interval-check-v2.py",
+    "scripts/fd2d_gc_current_primitive_interval.py"
+  ],
+  "input_native_definition": {
+    "path": "notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json",
+    "bytes": 54778,
+    "sha256": "6b6020f50c8f0e1541ea6a6f75d8919f0ce38a750a8dd73dd3cb5260298fa566"
+  },
+  "input_array_sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82",
+  "actual_final_exit_code": 0,
+  "actual_final_session": 82889,
+  "old_sources_and_arrays_modified": false,
+  "continuous_global_certificate": false,
+  "unpaid_parts": [
+    "full affine central/reference/tail lifting away from the cut",
+    "base phase-profile values/integrals and all physical a jets",
+    "complete ruling/transition atlas U_xi,U_s and required angular jets",
+    "R155 one-sided degenerate cut derivative boxes",
+    "actual forcing polynomial remainder for each R125 primitive cell",
+    "initial frame/position compatibility and final complete posterior"
+  ]
+}

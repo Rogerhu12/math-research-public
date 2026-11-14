@@ -1,0 +1,134 @@
+{
+  "status": "PASS for unchanged rotational deep cells only",
+  "independence": "Self-contained Fraction arithmetic; no construction or candidate certificate module imported.",
+  "source_sha256": {
+    "results/R8-default-n160-deep-background.md": "cd3b863bfba88929a7003ac0627a2b6ceeed605c89fceaa531e2c8604e7f4263",
+    "notes/2026-11-09-closing-deep-radius-family.md": "9942d2ef21b66eaeeda169f0759211b5ae463ee82f6e13974da9a3babca3f368",
+    "scripts/closing_deep_background_radius_family.py": "7fa9d6168fd06f9254d945b541a8cb7becaf3527060f9f33af5dd81bec4b8714",
+    "scripts/closing_deep_background_rational.py": "3258e3758e4d610bb85d35a7ed977d3f3caaf3cbdde763e5d2c57f1c688fa45d",
+    "scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "source_r28_git_blob": "cf9881e3ae2c2797a61213ab099dbec239be5f0d",
+  "fixed_parameters": {
+    "N": 160,
+    "delta0": "3/500",
+    "wCut": "1/2",
+    "R": 64,
+    "a": "11/4",
+    "eta0": "3/10000"
+  },
+  "W160_upper": {
+    "numerator": "625",
+    "denominator": "1229345158361594177691221987911758058109648077837682040792162540537900367981421002752",
+    "decimal_diagnostic": 5.0840074957708925e-82
+  },
+  "first_term_step_ratio_upper": {
+    "numerator": "4846",
+    "denominator": "5621",
+    "decimal_diagnostic": 0.8621241771926703
+  },
+  "rows": [
+    {
+      "radius": "1/10",
+      "strict_meridian_bound": "1/20",
+      "meridian_majorant": {
+        "numerator": "9702705072529734257835360949717784948570850696709535098799315304624510293333340625",
+        "denominator": "204890859726932362948536997985293009684941346306280340132027090089650061330236833792",
+        "decimal_diagnostic": 0.047355480305275616
+      },
+      "angular_majorant": {
+        "numerator": "3125",
+        "denominator": "614672579180797088845610993955879029054824038918841020396081270268950183990710501376",
+        "decimal_diagnostic": 5.084007495770893e-81
+      },
+      "remaining_height_majorant": {
+        "numerator": "1",
+        "denominator": "1109067877648325943831365673657233481374574830150326630068191832245848523122250249215989762441655831238956484384561428731589663129600",
+        "decimal_diagnostic": 9.016580681431383e-133
+      }
+    },
+    {
+      "radius": "3/20",
+      "strict_meridian_bound": "1/30",
+      "meridian_majorant": {
+        "numerator": "9702705072529734257835360949717784948570850696709535098799315304624510293333340625",
+        "denominator": "307336289590398544422805496977939514527412019459420510198040635134475091995355250688",
+        "decimal_diagnostic": 0.03157032020351708
+      },
+      "angular_majorant": {
+        "numerator": "3125",
+        "denominator": "922008868771195633268416490933818543582236058378261530594121905403425275986065752064",
+        "decimal_diagnostic": 3.3893383305139285e-81
+      },
+      "remaining_height_majorant": {
+        "numerator": "3",
+        "denominator": "2218135755296651887662731347314466962749149660300653260136383664491697046244500498431979524883311662477912968769122857463179326259200",
+        "decimal_diagnostic": 1.3524871022147073e-132
+      }
+    },
+    {
+      "radius": "1/5",
+      "strict_meridian_bound": "1/40",
+      "meridian_majorant": {
+        "numerator": "9702705072529734257835360949717784948570850696709535098799315304624510293333340625",
+        "denominator": "409781719453864725897073995970586019369882692612560680264054180179300122660473667584",
+        "decimal_diagnostic": 0.023677740152637808
+      },
+      "angular_majorant": {
+        "numerator": "3125",
+        "denominator": "1229345158361594177691221987911758058109648077837682040792162540537900367981421002752",
+        "decimal_diagnostic": 2.5420037478854464e-81
+      },
+      "remaining_height_majorant": {
+        "numerator": "1",
+        "denominator": "554533938824162971915682836828616740687287415075163315034095916122924261561125124607994881220827915619478242192280714365794831564800",
+        "decimal_diagnostic": 1.8033161362862766e-132
+      }
+    },
+    {
+      "radius": "1/4",
+      "strict_meridian_bound": "1/50",
+      "meridian_majorant": {
+        "numerator": "1940541014505946851567072189943556989714170139341907019759863060924902058666668125",
+        "denominator": "102445429863466181474268498992646504842470673153140170066013545044825030665118416896",
+        "decimal_diagnostic": 0.018942192122110246
+      },
+      "angular_majorant": {
+        "numerator": "625",
+        "denominator": "307336289590398544422805496977939514527412019459420510198040635134475091995355250688",
+        "decimal_diagnostic": 2.033602998308357e-81
+      },
+      "remaining_height_majorant": {
+        "numerator": "1",
+        "denominator": "443627151059330377532546269462893392549829932060130652027276732898339409248900099686395904976662332495582593753824571492635865251840",
+        "decimal_diagnostic": 2.2541451703578458e-132
+      }
+    },
+    {
+      "radius": "7/20",
+      "strict_meridian_bound": "1/70",
+      "meridian_majorant": {
+        "numerator": "1386100724647104893976480135673969278367264385244219299828473614946358613333334375",
+        "denominator": "102445429863466181474268498992646504842470673153140170066013545044825030665118416896",
+        "decimal_diagnostic": 0.013530137230078747
+      },
+      "angular_majorant": {
+        "numerator": "3125",
+        "denominator": "2151354027132789810959638478845576601691884136215943571386284445941325643967486754816",
+        "decimal_diagnostic": 1.452573570220255e-81
+      },
+      "remaining_height_majorant": {
+        "numerator": "7",
+        "denominator": "2218135755296651887662731347314466962749149660300653260136383664491697046244500498431979524883311662477912968769122857463179326259200",
+        "decimal_diagnostic": 3.155803238500984e-132
+      }
+    }
+  ],
+  "unpaid": [
+    "finite warped cells",
+    "nonaxisymmetric correction",
+    "infinite nonlinear extension",
+    "all-surface reach"
+  ]
+}

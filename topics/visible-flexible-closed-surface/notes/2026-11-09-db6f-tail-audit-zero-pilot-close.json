@@ -1,0 +1,110 @@
+{
+  "status": "INDEPENDENT_CLOSED_ZERO_PILOT_EVIDENCE_CHECK_PASS_UNSOLVED",
+  "script_sha256": "db0320864190e00fd689e2146477c26d70500f40c012acfa4f80d38d98aa090c",
+  "observer_of_process_exit": "/root",
+  "root_observed_session": 18291,
+  "root_observed_tool_exit_code": 0,
+  "saved_worker_exit_code": 0,
+  "reviewer": "/root/tail_theory",
+  "saved_client_nonconvergence_exception": "FloatingPointError(\"Weighted finite DN trial failed {'failed': None, 'residual': 0.9163518748162202, 'lastIteration': None}\")",
+  "new_solver_calls": 0,
+  "physical_equations_or_tolerance_changed": false,
+  "original_solve_tolerance": 2e-09,
+  "converged": false,
+  "launch_bindings_rehashed": 61,
+  "direct_response_sources_rehashed": 8,
+  "history_base_evaluations": 8,
+  "correction_trace_records": 8,
+  "accepted_updates": 8,
+  "trial_records": 66,
+  "residual_rejections": 58,
+  "initial_residual": 1,
+  "final_residual": 0.9163518748162202,
+  "initial_min_A": 1,
+  "initial_min_D": 1,
+  "last_saved_base_min_A": 0.9909273037146521,
+  "last_saved_base_min_D": 0.9998178687117372,
+  "accepted_steps": [
+    0.03125,
+    0.03125,
+    0.0078125,
+    0.0078125,
+    0.00390625,
+    0.00390625,
+    0.001953125,
+    0.001953125
+  ],
+  "history_norms": [
+    1,
+    0.96875,
+    0.9384765625,
+    0.9311447143554688,
+    0.9238701462745667,
+    0.9202612785156815,
+    0.9169253573189158,
+    0.9166412789458033
+  ],
+  "final_residual_is_last_accepted_norm_not_last_history_base": true,
+  "state_counts": {
+    "staged_nodes": 865,
+    "shape_slots": 30,
+    "raw_nodes": 13
+  },
+  "all_saved_shape_states_finite": true,
+  "exact_nonzero_quarter_target": true,
+  "explicit_zero_shape_seed": true,
+  "correctInitialBoundary": false,
+  "bound_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-audit-zero-pilot-close.py",
+      "bytes": 9714,
+      "sha256": "db0320864190e00fd689e2146477c26d70500f40c012acfa4f80d38d98aa090c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-launch.json",
+      "bytes": 20569,
+      "sha256": "114ddc195ef4b038a4b825c508fca42c4ed0de4f38a6c554a8829c506c188a5a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-zero-initial-s025-observed-execution.json",
+      "bytes": 2915,
+      "sha256": "63952ddc6741600745024dfdb16611d9e543958f5ff2f3bf5c30b6e63f1926da"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-zero-initial-s025-closed-audit.json",
+      "bytes": 5005,
+      "sha256": "2bce66a98a7c25f2f53b307673104782346ea3351e407ccbf5de06802a4d94e4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01_tail_0001.json.gz",
+      "bytes": 272869,
+      "sha256": "7a5f0b57fabdd58000905d61644513a292ab5f7d6b8fe7ee0fc0375866301442"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-summary.json",
+      "bytes": 691,
+      "sha256": "5b122cf27d5f3b7bf8e77b833143dc03f4e2a4a1075e159340c4db55a742b05e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-reproduction.json",
+      "bytes": 4114,
+      "sha256": "cc3d7a0e698ca0094996a8ad4b3c22a13c430c6c8708c67ceaf9ff5800c8a60e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-config.json",
+      "bytes": 3071,
+      "sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trace.jsonl",
+      "bytes": 4034,
+      "sha256": "f6d6deec7be633ac55216fb84d855f83bc91d25f1f94982d167bc8e36babdc96"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trials.jsonl",
+      "bytes": 11279,
+      "sha256": "2b32782ac45a56d3b3b2473fba5f423538a778ff4e7c5121cdc69119f450103f"
+    }
+  ],
+  "scope": "Read-only independent file and log cross-check. The root observer, not this reviewer, observed process exit. Eight iterations were insufficient for the original tolerance; no claim of nonexistence or failure of eventual convergence is made. This failed response is not a successful continuation warm or a complete surface."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS-independent-M12-closed-budget-v2-composition",
+  "hashes": {
+    "scripts/db6f-root-closed-budget-v2.py": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641",
+    "scripts/db6f-root-common-cut-v2.py": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+    "notes/2026-11-09-db6f-root-flat17-common-cut-m12s64.json": "1fa6c8de825be71b90308e72be166dcc7ee6ae7983456d244d2c5609e3d19858",
+    "notes/2026-11-09-db6f-root-closed-budget-m12.json": "008831251b2f84c297f7cac1c8813683918cd57bbb1f42d387bafa8420cdf866",
+    "notes/2026-11-09-db6f-audit-closed-budget-m12-replay.json": "008831251b2f84c297f7cac1c8813683918cd57bbb1f42d387bafa8420cdf866",
+    "notes/2026-11-09-db6f-root-background-transfer-tight-m12.json": "e5ff36012f66910e6a3b4de08902bfe113837c98fbf7cf42bd9084557dea385a"
+  },
+  "all_replay_json_fields_identical": true,
+  "geometric_and_fraction_formulas_unchanged_from_reviewed_v1": true,
+  "new_transfer_parameter_and_domain_guards_reviewed": true,
+  "common_cut_v2_exact_anchor_and_independent_interval_storage_guards_reviewed": true,
+  "whole_support_lower": {
+    "exact": "244170596202211040267326231768797326814272075836464037580939670901888499/331283824645946988237082319826632020516995927449337740948323297929461760",
+    "lower_display": 0.7370435198976694,
+    "upper_display": 0.7370435198976695
+  },
+  "hold_over_diameter_lower": {
+    "exact": "45011483952312925/882705526964617216",
+    "lower_display": 0.05099263862898321,
+    "upper_display": 0.05099263862898322
+  },
+  "unmarked_moment_lower": {
+    "exact": "242807075519727602918187268446069312606912930961170421840507291730074084506634927006336381224864717293471647467285793/551628086749522708971906561402010593271116349786516253351276107659440104800960948559799727568388818971292791864295424",
+    "lower_display": 0.4401644538269836,
+    "upper_display": 0.44016445382698366
+  },
+  "prefix_exact_metric_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "lower_display": 2.5721188324492386e-08,
+    "upper_display": 2.572118832449239e-08
+  },
+  "scope": "Composition and lightweight scalar replay. New M12 complete tail metric/curvature, final component-wide independent numerical replay, G5 and meshes remain separate.",
+  "README_complete": false
+}

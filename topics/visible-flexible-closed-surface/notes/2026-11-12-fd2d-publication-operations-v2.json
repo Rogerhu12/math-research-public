@@ -1,0 +1,18 @@
+{
+  "schema": "fd2d-publication-operations-20261112-v2",
+  "previous_main": "929f7c8ed289b673a83d5a90d72d245059dda3ac",
+  "checkpoint6": {
+    "commit": "f6f380277536a5b6dd94413489f52959bb171272",
+    "ref": "refs/heads/visible-flex-fd2d-checkpoint6-20261112t1430",
+    "utc": "2026-11-12T14:31:04.064573+00:00",
+    "method": "ordinary push of the complete explicit payload to an owned recovery branch; main integration continues"
+  },
+  "publisher_session": 6664,
+  "publisher_final_chunk": "096598",
+  "publisher_exit_code": 1,
+  "cause": "The explicitly attempted tree:2 filter was rejected by the remote (only depth0 allowed); configuration restored to blob:none immediately.",
+  "main_publication_success": false,
+  "next_method": "A narrow push-triggered CI runner executes ordinary terminal Git with the built-in job token; no user credential is stored and no API file publication is used.",
+  "source_checkout_unchanged": true,
+  "math_completion": false
+}

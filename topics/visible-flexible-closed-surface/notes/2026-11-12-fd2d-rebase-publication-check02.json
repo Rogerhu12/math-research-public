@@ -1,0 +1,24 @@
+{
+  "status": "case_observed_before_assertions",
+  "case": "foreign_race",
+  "exit_code": 1,
+  "history": [
+    {
+      "attempt": 1,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "e131d86f3dc75477fd0050613e0fd1546b90e0e9",
+      "readme_current": "e131d86f3dc75477fd0050613e0fd1546b90e0e9",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 1,
+      "push_exit": 1,
+      "commit": "5788a89b0624650afec16dd6a17efe9c251f6d69",
+      "seconds": 0.5945439039969642,
+      "message": "To /tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git\n   e131d86..e5fa999  main -> main\nTo /tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git\n ! [remote rejected] HEAD -> main (incorrect old value provided)\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git'\n"
+    }
+  ],
+  "stdout": "{\"attempt\": 1, \"pull_command\": \"git pull --rebase --no-stat origin main\", \"pull_exit\": 0, \"readme_previous\": \"e131d86f3dc75477fd0050613e0fd1546b90e0e9\", \"readme_current\": \"e131d86f3dc75477fd0050613e0fd1546b90e0e9\", \"readme_diff_empty\": true}\n{\"attempt\": 1, \"push_exit\": 1, \"commit\": \"5788a89b0624650afec16dd6a17efe9c251f6d69\", \"seconds\": 0.5945439039969642, \"message\": \"To /tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git\\n   e131d86..e5fa999  main -> main\\nTo /tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git\\n ! [remote rejected] HEAD -> main (incorrect old value provided)\\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-8wbdekpv/foreign_race/remote.git'\\n\"}\n",
+  "stderr": ""
+}

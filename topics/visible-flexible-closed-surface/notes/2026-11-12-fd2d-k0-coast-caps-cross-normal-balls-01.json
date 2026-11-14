@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-R154-all-phase-actual-coast-to-complete-fixed-caps-v1",
+  "actual_execution": true,
+  "source_sha256": "754e22b4bac3a212d01af833d5dda52a25bf63f4d4f88849b961e783c92ea4d0",
+  "cylinder_sha256": "dab733bf7f47c55bb7ef4356e91025873a3d0479d413546e1299a8846204e3bd",
+  "position_sha256": "b941b2bff3cb3f6223580632948f9095a5406369278bd7071b2c4f993900ed6e",
+  "self_normal_ball_sha256": "c4f204493e073e0b702cf3911e660a7ee53c60ce4b392b4192bd5b3942c26c97",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "exact_scope": "Same original delta=0 upper coast, its reflected lower coast, and complete upper/lower R121 caps in the common fixed coordinate system.",
+  "actual_geometry_or_metric_modified": false,
+  "arbitrary_z_axis_coast_phases_covered": true,
+  "all_cross_point_pairs_and_both_normal_signs_covered": true,
+  "normal_radius_rational": [
+    17,
+    125
+  ],
+  "cap_height_lower_rational": [
+    9,
+    10
+  ],
+  "minimum_cross_distance_strict_lower_rational": [
+    73,
+    250
+  ],
+  "minimum_cross_normal_ball_margin_strict_lower_rational": [
+    73,
+    12500
+  ],
+  "cylinder_alone_sufficient_height_rational": [
+    3459,
+    5000
+  ],
+  "cap_decomposition": [
+    "Throat and flat ring in r<=8/25,z>=Z",
+    "Convex body surface in z>=Z+2*rho+rho*lambda*positive_integral",
+    "Lower cap obtained by reflection"
+  ],
+  "actual_cut_height_and_two_jet_matching_not_certified": true,
+  "unknown_prefix_or_tail_cross_pairs_not_certified": true,
+  "full_closed_surface_completion_not_claimed": true,
+  "checks": {
+    "actual_coast_z_above_point56": true,
+    "actual_coast_z_below_point88": true,
+    "distance_to_nominal_whole_cylinder_above_point39": true,
+    "cylinder_threshold_below_point6918": true,
+    "same_cap_convex_body_distance_above_point292": true,
+    "opposite_cap_distance_above_point292": true,
+    "point39_above_point292": true,
+    "point292_above_twice_normal_radius": true
+  },
+  "passed": true,
+  "seconds": 0.1653591949998372
+}

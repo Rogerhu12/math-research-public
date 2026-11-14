@@ -1,0 +1,244 @@
+{
+  "schema": "R195-actual-normal-and-policy-check-v1",
+  "runtime": "functions.exec V8",
+  "OSProcessCreated": false,
+  "OSExitCode": null,
+  "dimension": 193,
+  "lambda": 0.0011111111111111111,
+  "squaredNorm": 0.00004384082096786088,
+  "actualNormalAssembliesInThisCheck": 0,
+  "elapsedMilliseconds": 199,
+  "prepareMilliseconds": 13,
+  "bandSolveMilliseconds": 33,
+  "densePrepareAndSolveMilliseconds": 135,
+  "directionRelativeL2": 3.4267215126552416e-14,
+  "directionMaximumAbsolute": 2.461138931542095e-16,
+  "scaledDirectionRelativeL2": 2.3848127835491802e-14,
+  "predictedSquaredNormBand": 0.00004101244285920853,
+  "predictedSquaredNormDense": 0.00004101244285920854,
+  "predictedSquaredNormDifference": 6.776263578034403e-21,
+  "slopeDifference": 4.235164736271502e-22,
+  "independentOriginalScaledEquationResidualMaximum": 3.2526065174565133e-18,
+  "independentOriginalScaledEquationRelative": 4.261458704357545e-15,
+  "bandInfo": {
+    "dimension": 193,
+    "radialBlocks": 12,
+    "blockSize": 16,
+    "halfBandwidthBlocks": 3,
+    "scalarStorageStride": 64,
+    "oneGlobalBorderOriginalIndex": 180,
+    "offBandNonzeroCount": 0,
+    "offBandMaximum": 0,
+    "offBandTolerance": 0,
+    "storedLowerNonzeros": 9505,
+    "zeroDiagonalColumns": [],
+    "zeroDiagonalScale": 1,
+    "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+    "suppliedDiagonalDifference": 0,
+    "suppliedDiagonalRelativeDifference": 0,
+    "suppliedDiagonalUsedInsteadOfHjj": false,
+    "symmetryAdjustment": 0,
+    "scaledSymmetryAdjustment": 0,
+    "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+    "scaledGradientInfinity": 0.0002771958670557967,
+    "preparedNumericStorageBytes": 307240,
+    "fullScaledMatrixAllocated": false,
+    "inputArraysModified": false,
+    "continuousCertificate": false,
+    "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+    "fieldMinimumPivot": 0.006424967913561286,
+    "fieldMaximumPivot": 1.0011111111111108,
+    "borderSchur": 0.005709939853307366,
+    "borderContraction": 0.9954011712578039,
+    "minimumPivot": 0.005709939853307366,
+    "maximumPivot": 1.0011111111111108,
+    "scaledSlope": -0.0000019273443251745188,
+    "physicalAndScaledSlopeDifference": 0,
+    "originalScaledEquationResidualMaximum": 3.2526065174565133e-18,
+    "workingScaledEquationResidualMaximum": 3.577867169202165e-18,
+    "workingScaledEquationRelativeResidual": 3.1252234952092226e-15,
+    "originalUnscaledDampedEquationResidualMaximum": 1.567954114624498e-17,
+    "factorNumericStorageBytes": 98304,
+    "diagonalDampingInScaledCoordinates": 0.0011111111111111111,
+    "hiddenDiagonalShift": 0,
+    "actualTrialEvaluated": false,
+    "finiteSpaceLowerBoundClaimed": false,
+    "fullDenseFactorAllocated": false
+  },
+  "denseInfo": {
+    "dimension": 193,
+    "zeroDiagonalColumns": [],
+    "zeroDiagonalScale": 1,
+    "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+    "suppliedDiagonalDifference": 0,
+    "suppliedDiagonalRelativeDifference": 0,
+    "suppliedDiagonalUsedInsteadOfHjj": false,
+    "symmetryAdjustment": 0,
+    "scaledSymmetryAdjustment": 0,
+    "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+    "scaledGradientInfinity": 0.0002771958670557967,
+    "inputArraysModified": false,
+    "continuousCertificate": false,
+    "minimumPivot": 0.004513816471677146,
+    "maximumPivot": 1.0011111111111108,
+    "scaledSlope": -0.000001927344325174519,
+    "physicalAndScaledSlopeDifference": 0,
+    "originalScaledEquationResidualMaximum": 2.0599841277224584e-18,
+    "workingScaledEquationResidualMaximum": 1.7618285302889447e-18,
+    "workingScaledEquationRelativeResidual": 2.380303799811453e-15,
+    "diagonalDampingInScaledCoordinates": 0.0011111111111111111,
+    "hiddenDiagonalShift": 0,
+    "actualTrialEvaluated": false,
+    "finiteSpaceLowerBoundClaimed": false
+  },
+  "inputArraysBitwiseUnchanged": true,
+  "zeroColumnCase": {
+    "ok": true,
+    "zeroColumnCount": 5,
+    "directionExactlyZero": true,
+    "scaleExactlyOne": true
+  },
+  "nonSPDField": {
+    "ok": false,
+    "phase": "band_cholesky",
+    "pivot": -2.9503960396039615,
+    "lambda": 0.01,
+    "hiddenDiagonalShift": 0
+  },
+  "nonSPDBorder": {
+    "ok": false,
+    "phase": "border_schur",
+    "pivot": -2.9503960396039615,
+    "lambda": 0.01,
+    "hiddenDiagonalShift": 0
+  },
+  "smallestInjectedOffBand": 1e-300,
+  "offBandRejected": true,
+  "offBandDetails": {
+    "offBandCount": 1,
+    "offBandMaximum": 1e-300,
+    "offBandFirst": {
+      "originalIndices": [
+        28,
+        0
+      ],
+      "radialBlocks": [
+        4,
+        0
+      ],
+      "entries": [
+        0,
+        1e-300
+      ]
+    }
+  },
+  "wholeJvpCalled": false,
+  "actualTrialOrValueCalled": false,
+  "providerModified": false,
+  "continuousCertificate": false,
+  "passed": true,
+  "actualNormalAssemblyMilliseconds": 2006,
+  "immutableFixturePath": "notes/2026-11-12-fd2d-direct-position-R191-curvature-weight02-01.json",
+  "fixtureSourceSHA256": {
+    "engine": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+    "metric": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+    "curvature": "8122d9c03850563c49594c66fd3d7b21dd7e2364063b0f90247ec0700c24759f",
+    "curvatureAlgebra": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812",
+    "lm": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4"
+  },
+  "actualNormalAssembledExactlyOnce": true,
+  "sourceSHA256": {
+    "kernel": "0ae8ae6d6cd58b8bbc6435189a9850861dc5948c4ba322028dc6fc3886d98013",
+    "checker": "9f3ab0b27d421d4ac6b04f5c6aa5d987cae685bc2d043aec08226db8a7de48b3",
+    "dense": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4",
+    "adapter": "bea8b48e2d3457f3a19e963fbaea5eafece023071ec43747e0525ea97370fe4a"
+  },
+  "fixtureSHA256": "7109305642200f9a08a2b5a079acaebabef39e7c4131caac9932e73552473dc0",
+  "definition": {
+    "schema": "fd2d-R191-complete-true-curvature-hinge-finite-provider-v1",
+    "metricProvider": {
+      "schema": "fd2d-R190-C2-direct-position-designed-radius-finite-provider-v1",
+      "radialBasisCount": 12,
+      "angularModes": 7,
+      "fullEquivalentAngles": 64,
+      "dimension": 193,
+      "angularPrimitive": "complete quarter-cell Gauss8 with actual first moment; no Fourier projection",
+      "angularMetric": "exactly a^2 in mathematical complete definition",
+      "radialMetric": "R181 B32 plus complete C2 radius B-spline design; changing rho changes g",
+      "radiusCoefficientBound": 0.4,
+      "oldDimension": 181,
+      "boundary": "complete central ellipse cylinder and zero-tail round flat cut two jets",
+      "stateLayout": {
+        "theta": [
+          0,
+          84
+        ],
+        "phi": [
+          84,
+          168
+        ],
+        "height": [
+          168,
+          180
+        ],
+        "cutHeight": 180,
+        "radius": [
+          181,
+          193
+        ]
+      },
+      "centralGap": 0.050000000000000024,
+      "centralA": 1.0289271932119122,
+      "centralB": 0.9789271932119121,
+      "radiusGrid": "C2 centered cardinal cubic B-splines with supports inside [c,S]",
+      "residual": "rE=|Xs|^2-1 and rF=Xs dot T, weighted squared rE^2+2*rF^2",
+      "radialQuadrature": "Gauss2 on union of original phase/Hermite breaks and spline knots",
+      "derivative": "complete state and primitive first-moment derivatives, fixed physical s and u",
+      "continuousMetricOrGeometryCertified": false,
+      "strongTargetComplete": false
+    },
+    "dimension": 193,
+    "guide": 9.5,
+    "weight": 0.01,
+    "nodeShare": 0.5,
+    "stateLayout": {
+      "theta": [
+        0,
+        84
+      ],
+      "phi": [
+        84,
+        168
+      ],
+      "height": [
+        168,
+        180
+      ],
+      "cutHeight": 180,
+      "radius": [
+        181,
+        193
+      ]
+    },
+    "physicalMetricChangesWithRadius": true,
+    "residual": "sqrt(weight*radialWeight*angularWeight)*(Q11,sqrt(2)Q12,Q22), Q=S-clip(S,[-guide,guide]); S is actual orthonormal II",
+    "radialSampling": "physical profile and B3 knots plus actual cell G2; shares declared and fixed",
+    "curvatureRadialPoints": 223,
+    "quarterNodes": 17,
+    "derivatives": "All actual theta/phi/height/cut-height/radius columns via complete T/Ts/Tss/Tu and quarter primitives, actual Gram and normal; no DFT",
+    "angularThirdTensorsAreParameterDerivativesNotRadialC3Requirement": true,
+    "thresholdConvention": "inactive slope zero at exact guide; generalized derivative, not claimed smooth there",
+    "completeSquaredPenaltyEqualsSumPrincipalCurvatureHingesSquared": true,
+    "continuousMetricOrReachCertificate": false,
+    "strongTargetComplete": false
+  },
+  "initialBandPrepareAndSolveMilliseconds": 71,
+  "normalAssemblyRepetitions": 1,
+  "adapterStaticCheck": {
+    "compiled": true,
+    "policyTextExactlyFrozen": true,
+    "helperTextExactlyFrozen": true,
+    "actualFCalled": false,
+    "actualNormalCalled": false
+  }
+}

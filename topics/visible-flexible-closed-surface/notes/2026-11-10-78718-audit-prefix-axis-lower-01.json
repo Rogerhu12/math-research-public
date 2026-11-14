@@ -1,0 +1,149 @@
+{
+  "common_cut_support": {
+    "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+    "start_index": 6124,
+    "start_s": {
+      "exact": "4215455085040821/2251799813685248",
+      "lower": 1.8720381178742067,
+      "upper": 1.8720381178742067
+    },
+    "statement": "The prescribed width=.15 common-cut correction is identically zero here if that graph is constructed from this base; its construction is not claimed.",
+    "width_float_hex": "0x1.3333333333333p-3",
+    "witness_strictly_before_support": true
+  },
+  "exact_point_evaluations": 12246,
+  "exceeds_original_budget_relative_to_frozen_prefix_target": true,
+  "geometry_producer_calls": 0,
+  "input_bindings": [
+    {
+      "bytes": 9865,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "bytes": 5695,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+      "sha256": "dbfb5c348a6921b078c1ee25c9aa5874856de303afd11b1e6277ac1eebdbbd8c"
+    },
+    {
+      "bytes": 4110,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-metric.json",
+      "sha256": "b076c6c052a00d72d201ca9c76a3a5a724e9dc70350437cb14fa90d430f0c48a"
+    },
+    {
+      "bytes": 887,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "bytes": 4599313,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "bytes": 3886748,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "bytes": 5923,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "bytes": 11138,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    }
+  ],
+  "modes": 24,
+  "new_ode_calls": 0,
+  "nodes": 6599,
+  "original_budget_exact": "1/500000000",
+  "proof_scope": {
+    "actual_common_cut_generated_by_this_program": false,
+    "complete_closed_graph_rejection": false,
+    "exact_infinite_isometry_rejection": false,
+    "finite_shared_jet_map": true,
+    "frozen_prefix_target": true,
+    "new_exact_bridge_target_transfer": false,
+    "point_rayleigh_lower_only": true
+  },
+  "schema": "78718-prefix-nodal-axis-exact-lower-v1",
+  "script": {
+    "bytes": 9205,
+    "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-nodal-axis-lower-v1.py",
+    "sha256": "661bc0daf17b303cfc3c093b9f913b9f003f68f0463b24bda0557ad72c48cbf8"
+  },
+  "seconds": 2.0695239559972833,
+  "solver_calls": 0,
+  "source_bindings": [
+    {
+      "bytes": 5923,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "bytes": 11138,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    },
+    {
+      "bytes": 15784,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-continuous-hermite-storage-v1.py",
+      "sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18"
+    },
+    {
+      "bytes": 13714,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+      "sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43"
+    },
+    {
+      "bytes": 11134,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+      "sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e"
+    },
+    {
+      "bytes": 17622,
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+      "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+    }
+  ],
+  "status": "EXACT_FROZEN_PREFIX_POINT_LOWER_COMPUTED",
+  "witness": {
+    "frozen_target_metric_ss_exact": "1",
+    "height_s_derivative": {
+      "exact": "2312039289246267522341855/2417851639229258349412352",
+      "lower": 0.9562370377626971,
+      "upper": 0.9562370377626972
+    },
+    "metric_ss": {
+      "exact": "2521728591788219863580632708194716969967330445794089105137305289846041174337940973524893434854953834616396854193735729/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+      "lower": 1.0000000774147497,
+      "upper": 1.00000007741475
+    },
+    "native_node_index": 1518,
+    "psi_exact": "pi/3",
+    "radial_s_derivative": {
+      "exact": "14693100356498561447911038797885027535618607548076565038073/50216813883093446110686315385661331328818843555712276103168",
+      "lower": 0.2925932415924401,
+      "upper": 0.29259324159244016
+    },
+    "relative_metric_operator_lower": {
+      "exact": "195218973193994774141785525686442227132484300518388614511974314980962119494394380394542319233604772662814099505/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+      "lower": 7.741474992294399e-08,
+      "upper": 7.7414749922944e-08
+    },
+    "s": {
+      "exact": "2474546589463719/9007199254740992",
+      "lower": 0.27472985991302756,
+      "upper": 0.27472985991302756
+    },
+    "signed_metric_ss_difference": {
+      "exact": "195218973193994774141785525686442227132484300518388614511974314980962119494394380394542319233604772662814099505/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+      "lower": 7.741474992294399e-08,
+      "upper": 7.7414749922944e-08
+    },
+    "tangential_s_derivative_exact": "0"
+  }
+}

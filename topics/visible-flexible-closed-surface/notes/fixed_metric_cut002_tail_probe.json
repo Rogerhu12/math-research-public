@@ -1,0 +1,397 @@
+{
+  "scope": "Actual finite nonlinear DN continuation on one fixed cut-preserving metric.\nThis is a branch/domain diagnostic, not an exact round-tail closure proof.\n",
+  "config": {
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 80,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "cuspAwareQuadrature": true,
+    "quadratureTolerance": 2e-10,
+    "modes": 4,
+    "spacing": 2,
+    "depth": 8,
+    "steps": 64,
+    "quadrature": 128,
+    "linearFar": 40,
+    "linearSteps": 1024,
+    "linearMethod": "projective",
+    "fastJacobian": true,
+    "cuspAwareFlow": true,
+    "solveTolerance": 2e-09,
+    "auditSteps": 64
+  },
+  "rows": [
+    {
+      "cut_fundamental": -1e-08,
+      "success": true,
+      "residual": 6.001789304242594e-14,
+      "jets": {
+        "radius": 0.6000000000000001,
+        "backgroundSlope": 0.49999999999999994,
+        "backgroundSecond": -5.833333333333331,
+        "E": 1.25,
+        "Ep": -5.833333333333331,
+        "height": [
+          -1e-08,
+          0,
+          0,
+          0
+        ],
+        "slope": [
+          -5.676917801308669e-08,
+          1.777110644312175e-16,
+          -8.633769369404042e-21,
+          -5.583714029498637e-25
+        ],
+        "second": [
+          1.1547070095843042e-07,
+          -6.59813714631041e-15,
+          -1.0036955539352283e-19,
+          -6.526436367336645e-24
+        ],
+        "meanSlope": 0.5000000000000011,
+        "meanSecond": -5.833333333333292,
+        "meanSlopeCorrection": 1.2164232642331132e-15,
+        "meanSecondCorrection": 3.88051769376663e-14,
+        "minLeading": 0.9999999468716921,
+        "minD": 0.9999999432308174,
+        "endpointFullD": 2.901918962917976e-22,
+        "endpointPhi": 4.52364397489937e-25,
+        "formalCurvature": 4.173993661279724
+      },
+      "audit": {
+        "fullD": 7.769815556543451e-20,
+        "normalizedFullDefect": 5.149526638437151e-15,
+        "minLeading": 0.9975643195074013,
+        "minD": 0.9999999431893548,
+        "formalCurvature": 5.9987995535652,
+        "maxPhysicalPV": 2.000000000335067e-08,
+        "actualMetric": 3.1237261403375972e-15,
+        "holonomy": 1.9273954507339102e-24
+      },
+      "seconds": 18.50978660583496
+    },
+    {
+      "cut_fundamental": -3e-08,
+      "success": true,
+      "residual": 1.317305639569889e-13,
+      "jets": {
+        "radius": 0.6000000000000001,
+        "backgroundSlope": 0.49999999999999994,
+        "backgroundSecond": -5.833333333333331,
+        "E": 1.25,
+        "Ep": -5.833333333333331,
+        "height": [
+          -3e-08,
+          0,
+          0,
+          0
+        ],
+        "slope": [
+          -1.7030753391180086e-07,
+          1.5993959321601065e-15,
+          -2.331116229009539e-19,
+          -4.522682428481814e-23
+        ],
+        "second": [
+          3.4641210436224206e-07,
+          -5.938327685335721e-14,
+          -2.709976252031903e-18,
+          -5.286270280828558e-22
+        ],
+        "meanSlope": 0.5000000000000109,
+        "meanSecond": -5.833333333332982,
+        "meanSlopeCorrection": 1.0947809384221004e-14,
+        "meanSecondCorrection": 3.492465920178348e-13,
+        "minLeading": 0.999999840615093,
+        "minD": 0.9999998296924245,
+        "endpointFullD": 1.2934267377577267e-21,
+        "endpointPhi": 1.0598251598335667e-24,
+        "formalCurvature": 4.1739938678398545
+      },
+      "audit": {
+        "fullD": 4.1729840029555014e-18,
+        "normalizedFullDefect": 1.247972211682047e-12,
+        "minLeading": 0.9926853510306048,
+        "minD": 0.999999829568037,
+        "formalCurvature": 5.9987995535652,
+        "maxPhysicalPV": 6.000000000311312e-08,
+        "actualMetric": 2.666529068869166e-15,
+        "holonomy": 7.248331676209294e-24
+      },
+      "seconds": 17.94608998298645
+    },
+    {
+      "cut_fundamental": -1e-07,
+      "success": true,
+      "residual": 1.141664887627237e-13,
+      "jets": {
+        "radius": 0.6000000000000001,
+        "backgroundSlope": 0.49999999999999994,
+        "backgroundSecond": -5.833333333333331,
+        "E": 1.25,
+        "Ep": -5.833333333333331,
+        "height": [
+          -1e-07,
+          0,
+          0,
+          0
+        ],
+        "slope": [
+          -5.676917748731963e-07,
+          1.7770604884195703e-14,
+          -8.633700584620305e-18,
+          -5.583559486349732e-21
+        ],
+        "second": [
+          1.1547070709208844e-06,
+          -6.598195633770211e-13,
+          -1.0036875631278795e-16,
+          -6.526260925916577e-20
+        ],
+        "meanSlope": 0.5000000000001216,
+        "meanSecond": -5.833333333329451,
+        "meanSlopeCorrection": 1.2164232726521884e-13,
+        "meanSecondCorrection": 3.8805176358571676e-12,
+        "minLeading": 0.9999994687171618,
+        "minD": 0.9999994323077634,
+        "endpointFullD": 3.515467543649206e-21,
+        "endpointPhi": 3.825710333057753e-24,
+        "formalCurvature": 4.173994590799261
+      },
+      "audit": {
+        "fullD": 1.7196882794098424e-15,
+        "normalizedFullDefect": 5.144863285400092e-10,
+        "minLeading": 0.9755293730795549,
+        "minD": 0.9999994318931383,
+        "formalCurvature": 5.9987995535652,
+        "maxPhysicalPV": 1.9999999999881224e-07,
+        "actualMetric": 2.886653827355312e-15,
+        "holonomy": 2.6320337791811817e-23
+      },
+      "seconds": 17.80105209350586
+    },
+    {
+      "cut_fundamental": -3e-07,
+      "success": true,
+      "residual": 3.615197172723226e-11,
+      "jets": {
+        "radius": 0.6000000000000001,
+        "backgroundSlope": 0.49999999999999994,
+        "backgroundSecond": -5.833333333333331,
+        "E": 1.25,
+        "Ep": -5.833333333333331,
+        "height": [
+          -3e-07,
+          0,
+          0,
+          0
+        ],
+        "slope": [
+          -1.7030751971658416e-06,
+          1.598989696953443e-13,
+          -2.330949053793637e-16,
+          -4.522929792547827e-19
+        ],
+        "second": [
+          3.4641226996526625e-06,
+          -5.938801401657463e-12,
+          -2.7097820440689714e-15,
+          -5.286558438114199e-18
+        ],
+        "meanSlope": 0.5000000000010947,
+        "meanSecond": -5.833333333298406,
+        "meanSlopeCorrection": 1.0947810066142356e-12,
+        "meanSecondCorrection": 3.492465451128055e-11,
+        "minLeading": 0.9999984061529041,
+        "minD": 0.9999982969206475,
+        "endpointFullD": 5.571684408802515e-21,
+        "endpointPhi": 5.08716076720112e-23,
+        "formalCurvature": 4.173996656389419
+      },
+      "audit": {
+        "fullD": 4.2082816130632106e-13,
+        "normalizedFullDefect": 1.260140213288352e-07,
+        "minLeading": 0.9258372136401136,
+        "minD": 0.9999982956767722,
+        "formalCurvature": 5.9987995535652,
+        "maxPhysicalPV": 6.000000000033756e-07,
+        "actualMetric": 2.6681427360104333e-15,
+        "holonomy": 2.075447855683831e-22
+      },
+      "seconds": 17.95361042022705
+    },
+    {
+      "cut_fundamental": -1e-06,
+      "success": true,
+      "residual": 1.6861512186494575e-13,
+      "jets": {
+        "radius": 0.6000000000000001,
+        "backgroundSlope": 0.49999999999999994,
+        "backgroundSecond": -5.833333333333331,
+        "E": 1.25,
+        "Ep": -5.833333333333331,
+        "height": [
+          -1e-06,
+          0,
+          0,
+          0
+        ],
+        "slope": [
+          -5.676912493307713e-06,
+          1.772048891982068e-12,
+          -8.626813436044018e-15,
+          -5.588827737656696e-17
+        ],
+        "second": [
+          1.1547132019589127e-05,
+          -6.604039722775307e-11,
+          -1.0028874744778267e-13,
+          -6.532397627865558e-16
+        ],
+        "meanSlope": 0.5000000000121642,
+        "meanSecond": -5.83333333294528,
+        "meanSlopeCorrection": 1.2164241141977612e-11,
+        "meanSecondCorrection": 3.8805118473819043e-10,
+        "minLeading": 0.9999946871862097,
+        "minD": 0.9999943230413343,
+        "endpointFullD": 4.775729493259298e-20,
+        "endpointPhi": 5.07888896107559e-22,
+        "formalCurvature": 4.174003885893748
+      },
+      "audit": {
+        "fullD": 1.8399736881930703e-10,
+        "normalizedFullDefect": 5.500585596390773e-05,
+        "minLeading": 0.7443027911308137,
+        "minD": 0.9999943188950846,
+        "formalCurvature": 5.9987995535652,
+        "maxPhysicalPV": 2.000000000002e-06,
+        "actualMetric": 5.437872386010054e-13,
+        "holonomy": 2.2237716792722458e-21
+      },
+      "seconds": 25.602247714996338
+    },
+    {
+      "cut_fundamental": -3e-06,
+      "success": false,
+      "error": "FloatingPointError(\"Compact tail trial failed {'failed': 'Error: momentum Newton line search failed'}\")",
+      "seconds": 0.865056037902832
+    }
+  ],
+  "actual_ready": {
+    "event": "ready",
+    "parameters": {
+      "rCut": 0.6,
+      "wCut": 0.5,
+      "width": 0.35,
+      "curvatureBound": 6,
+      "orientation": 1,
+      "prefixR": 2,
+      "prefixEnd": 15,
+      "prefixReturnStart": 8,
+      "protectCell": 80,
+      "slopeCap": 0.02,
+      "capTransition": 2,
+      "calibrationSteps": 512,
+      "warpSteps": 16,
+      "cuspAwareQuadrature": true,
+      "quadratureTolerance": 2e-10,
+      "modes": 4,
+      "spacing": 2,
+      "depth": 8,
+      "steps": 64,
+      "quadrature": 128,
+      "linearFar": 40,
+      "linearSteps": 1024,
+      "linearMethod": "projective",
+      "fastJacobian": true,
+      "cuspAwareFlow": true,
+      "solveTolerance": 2e-09,
+      "auditSteps": 64,
+      "cutPreservingCap": true,
+      "delta0": 0.006,
+      "R": 64,
+      "a": 2.75,
+      "etaPower": 1.5,
+      "etaRatioAtN0": 0.05,
+      "valleyControls": [],
+      "rejoinR20At": null,
+      "rejoinIndexOffset": 4,
+      "rCuff": 0.25,
+      "oldCut": 0.25281475451853164,
+      "epsilonScale": 6.321767087857858,
+      "prefixRByCell": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3.0844216508158815,
+        4.756828460010883,
+        7.33603234563737,
+        11.31370849898476,
+        17.448123722644116,
+        26.908685288118864,
+        41.4988657488323,
+        63.99999999999998
+      ],
+      "projectionFloor": 0.05,
+      "farPadding": 32,
+      "nodeIndex": 0,
+      "rhsEvaluation": "split-linear-flux-v1"
+    },
+    "cut": {
+      "radius": 0.6000000000000001,
+      "backgroundSlope": 0.49999999999999994,
+      "backgroundSecond": -5.833333333333331,
+      "E": 1.25,
+      "Ep": -5.833333333333331,
+      "height": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "slope": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "second": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "meanSlope": 0.49999999999999994,
+      "meanSecond": -5.833333333333331,
+      "meanSlopeCorrection": 0,
+      "meanSecondCorrection": 0,
+      "minLeading": 1,
+      "minD": 1,
+      "endpointFullD": 0,
+      "endpointPhi": 0,
+      "formalCurvature": 4.173993557999606
+    },
+    "linearSlope": [
+      5.676917011542046,
+      15.580778556870927,
+      25.549515307892833,
+      35.31157276620141
+    ]
+  },
+  "seconds": 106.24807858467102
+}

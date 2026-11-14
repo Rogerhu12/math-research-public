@@ -1,0 +1,182 @@
+{
+  "schema": "78718-next-restart-weighted-residual-diagnostic-v1",
+  "status": "COMPLETED_READ_ONLY_RESTART_RESIDUAL_DIAGNOSTIC",
+  "mode": "full",
+  "observed_start_utc": "2026-11-10T06:01:15.620390+00:00",
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-diagnose-restart-residual-v1.py",
+    "bytes": 10915,
+    "sha256": "b0a2f7ac798474731e25bd415c434f92f4f4f94bd6642263157978a6f61701f4"
+  },
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-launch.json",
+    "bytes": 101683,
+    "sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671"
+  },
+  "failed_checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02.json.gz",
+    "bytes": 62486,
+    "sha256": "b04af907d3f3552a484115bfd79cba4ef0848874ba1859f1335aae8b91411b03"
+  },
+  "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "effective_DATA": [
+    2147483648,
+    2147483648
+  ],
+  "BVP_Newton_DN_calls": 0,
+  "Jacobian_or_LU_constructions": 0,
+  "recovers_old_final_weighted_cubic": false,
+  "certificate_or_solver_success_claimed": false,
+  "coefficient_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_00.npy.gz",
+      "bytes": 4119049,
+      "sha256": "ed70de68c1ddd04c22968bfe7a3790051603e0777580f68243b3fcfaf8a79099"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_01.npy.gz",
+      "bytes": 4116636,
+      "sha256": "f6c1ecd63133158b80efaf86278944bbeb46b90c82eb84c181fe5a5bee6f72b6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_02.npy.gz",
+      "bytes": 4048612,
+      "sha256": "505d66331db1fc1ebbd6909e7a72364a06c1778f67deb32d8b4286cb80b8c338"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_03.npy.gz",
+      "bytes": 286585,
+      "sha256": "244b5e061cc1fa81beb49e15a77c7cfc9fb1067ac57653957f0160e3e526790e"
+    }
+  ],
+  "settings": {
+    "modes": 14,
+    "angular": 512,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11
+  },
+  "restart": {
+    "method": "saved-adaptive-mesh-and-exact-signed-mode-padding",
+    "source": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02.json.gz",
+    "source_sha256": "b04af907d3f3552a484115bfd79cba4ef0848874ba1859f1335aae8b91411b03",
+    "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+    "fixed_inputs_checked": [
+      "angular_chart",
+      "chart",
+      "frozen_profile",
+      "physical_tail_parameters",
+      "physical_tail_cut",
+      "warp_reference_q"
+    ],
+    "old_modes": 14,
+    "new_modes": 14,
+    "old_nodes": 6344,
+    "new_nodes": 6344,
+    "numerical_merge_tolerance": 2e-13,
+    "minimum_numerical_span": 1.3020833333332767e-05,
+    "physical_gauge_ratio": 1.0,
+    "inlet_correction_coefficient_l1": 3.2385370535496012e-15,
+    "inlet_correction_physical_l1": 3.2385370535496014e-16,
+    "scope": "Fixed-metric warm restart on the saved adaptive radial mesh.\n\nThis only constructs an initial guess. Mode padding and gauge rescaling\npreserve the old represented nonmean Fourier profile before the explicit\ninlet correction; the mean height is recomputed by the solver.\nThe nonlinear BVP and actual-DN acceptance tests remain unchanged.\n"
+  },
+  "actual_restart_nodes": 6344,
+  "state_components": 43,
+  "old_saved_nodes": 6344,
+  "fixed_physical_fields_unchanged": true,
+  "setup_seconds": 0.8155422380004893,
+  "frozen_RHS": {
+    "file": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "bytes": 22225,
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    "qualname": "SupportBVP.fun",
+    "first_line": 105,
+    "source_sha256_rstrip": "598fb1de93c3cd5f94c8c022b05b9089c27b27a509e0f3d15ee37e70136e3969"
+  },
+  "frozen_physical_RHS": {
+    "file": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    "qualname": "build_classes.<locals>.Flow.adapt_fun",
+    "first_line": 62,
+    "source_sha256_rstrip": "2babd8c6eeb896ee36caff96e5d30251b27fabadf4de0c899fff2c9b17be4a32"
+  },
+  "frozen_restart": {
+    "file": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    "qualname": "restart",
+    "first_line": 15,
+    "source_sha256_rstrip": "00bb781b2a258e0101516d8cb398ea137e40591245f318f3cc8bf71069ffe748"
+  },
+  "scipy_source": {
+    "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+    "bytes": 41294,
+    "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+  },
+  "original_spectral_weights_source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+    "bytes": 8906,
+    "sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854"
+  },
+  "pilot": {
+    "radial_points": 64,
+    "selection": "64 evenly distributed saved-restart indices",
+    "RHS_seconds": 0.10460806799983402,
+    "outputs_finite": true,
+    "peak_RSS_bytes": 105705472,
+    "estimated_full_RHS_radial_evaluations": 25373,
+    "linear_time_estimate_seconds": 41.4721954587467,
+    "estimate_is_not_a_time_upper_bound": true
+  },
+  "full": {
+    "full_RHS_sweeps": [
+      {
+        "call": 1,
+        "radial_points": 6344,
+        "seconds": 7.857667981999839
+      },
+      {
+        "call": 2,
+        "radial_points": 6343,
+        "seconds": 7.67840962199989
+      },
+      {
+        "call": 3,
+        "radial_points": 6343,
+        "seconds": 8.24647113500032
+      },
+      {
+        "call": 4,
+        "radial_points": 6343,
+        "seconds": 9.419597365999834
+      }
+    ],
+    "RHS_radial_evaluations": 25373,
+    "calculation_seconds": 33.22295562599993,
+    "weighted_RMS_max": 3.483713379768016e-09,
+    "intervals": 6343,
+    "intervals_requiring_one_new_node": 255,
+    "intervals_requiring_two_new_nodes": 0,
+    "requested_additional_nodes": 255,
+    "next_mesh_nodes_from_this_initial_guess": 6599,
+    "original_max_nodes": 6500,
+    "would_exceed_original_max_nodes": true,
+    "interval_data": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-run02-restart-rms-full-01-intervals.npz.gz",
+      "bytes": 68437,
+      "sha256": "5b1b33bc1670f503d3d4c32833774aaba06a3b203f2218af579a12c853bdde14"
+    },
+    "scope": "Original SciPy estimates on the next restart initial guess, before any Newton. Not the previous run final cubic and not a solver convergence prediction."
+  },
+  "seconds": 34.14372891600033,
+  "observed_end_utc": "2026-11-10T06:01:49.764662+00:00",
+  "peak_RSS_bytes": 166653952
+}

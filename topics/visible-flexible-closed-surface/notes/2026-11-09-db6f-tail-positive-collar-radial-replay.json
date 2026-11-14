@@ -1,0 +1,169 @@
+{
+  "status": "EXACT_RADIAL_OBSTRUCTION_AND_ALTERNATIVE_FIXED_ANNULI",
+  "script_sha256": "88f26b69f6927cbe9787fccb44ebad361d9f9def89fd8934c3bcbceb07698f70",
+  "sources": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    }
+  ],
+  "old_fixed_annulus": {
+    "radius_interval": [
+      {
+        "numerator": "39",
+        "denominator": "100"
+      },
+      {
+        "numerator": "41",
+        "denominator": "100"
+      }
+    ],
+    "height": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "normal_rotation_stereographic_parameter": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "cos_eta": {
+      "numerator": "39999",
+      "denominator": "40001"
+    },
+    "sin_eta": {
+      "numerator": "400",
+      "denominator": "40001"
+    },
+    "normal_chord_squared": {
+      "numerator": "4",
+      "denominator": "40001"
+    },
+    "cap_point_negative_x_magnitude_interval": [
+      {
+        "numerator": "204525847239349105308373136291999160680685007969819283",
+        "denominator": "159080398092293436689684604154399740425056250000000000"
+      },
+      {
+        "numerator": "409052438809190071333828619000150291685919335150635783",
+        "denominator": "318154649274921763288154355627362827931505000000000000"
+      }
+    ],
+    "cap_point_height_interval": [
+      {
+        "numerator": "3901726935576453387925845985709792611500207776431",
+        "denominator": "12428156100960424741381609699562479720707519531250"
+      },
+      {
+        "numerator": "1950827571813027568354082704392348218062620409279",
+        "denominator": "6213957993650815689221764758346930233037207031250"
+      }
+    ],
+    "same_ray_intersection_radius_interval": [
+      {
+        "numerator": "325346112327648509531736929888032007874903220946846002433907121079020689611521259023122183",
+        "denominator": "794446511274820915142034055932937065562486702401380130695042220609078687122424201927040000"
+      },
+      {
+        "numerator": "260282392165753688035522779823810376839976556525499573194786582211615300718438071574286047",
+        "denominator": "635556624238873024294955296331946900885906892304171934243053501282713659026818563249254400"
+      }
+    ],
+    "strictly_inside_old_annulus": true,
+    "closed_connected_surface_positive_radial_support_everywhere_impossible": true,
+    "this_does_not_refute_old_local_pair_bounds_or_all_pair_BVP": true
+  },
+  "alternative_fixed_annuli": {
+    "center_radius": {
+      "numerator": "7",
+      "denominator": "20"
+    },
+    "radius_halfwidth": {
+      "numerator": "1",
+      "denominator": "100"
+    },
+    "height_absolute": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "boundary_radius_outer_for_active_BVP": {
+      "numerator": "9",
+      "denominator": "25"
+    },
+    "boundary_radius_inner_for_stationary_bridge": {
+      "numerator": "17",
+      "denominator": "50"
+    },
+    "core_cap_and_auxiliary_envelope_unchanged": true,
+    "common_host_slab_disk_radius_lower": {
+      "numerator": "8271161257",
+      "denominator": "16000000000"
+    },
+    "core_collar_absolute_vertical_over_horizontal_upper": {
+      "numerator": "7500000000",
+      "denominator": "327844003649"
+    },
+    "upper_cap_vertical_over_horizontal_interval": [
+      {
+        "numerator": "198496613307256093952477878485532431062200000000",
+        "denominator": "818720522631073677851855824480636159433923846991"
+      },
+      {
+        "numerator": "1446557933623972554166477372767009506020040284925849539849259451140659731250000000",
+        "denominator": "5919864499891947164650714115316072379050119539342109131030801746574734732356286579"
+      }
+    ],
+    "upper_annulus_vertical_over_horizontal_interval": [
+      {
+        "numerator": "5",
+        "denominator": "18"
+      },
+      {
+        "numerator": "5",
+        "denominator": "17"
+      }
+    ],
+    "separation_via_one_fourth": true,
+    "all_cross_group_radial_projections_disjoint": true,
+    "cross_piece_distance_lower_bounds": {
+      "active_to_annulus": {
+        "numerator": "147844003649",
+        "denominator": "500000000000"
+      },
+      "annulus_to_cap": {
+        "numerator": "181663669267",
+        "denominator": "250000000000"
+      },
+      "opposite_annuli": {
+        "numerator": "1",
+        "denominator": "5"
+      },
+      "active_to_cap": {
+        "numerator": "37",
+        "denominator": "200"
+      },
+      "opposite_caps": {
+        "numerator": "2",
+        "denominator": "5"
+      }
+    },
+    "retained_pair_radius_still": {
+      "numerator": "37",
+      "denominator": "400"
+    },
+    "retained_radial_support_still": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "original_strong_ratio_bounds_reused_without_change": true,
+    "closed_extension_or_global_support_certificate_constructed": false
+  },
+  "all_exact_checks_passed": true,
+  "new_solver_root_RK_integration_optimization_calls": 0,
+  "current_M15_candidate_data_read": false
+}

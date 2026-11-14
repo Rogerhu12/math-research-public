@@ -1,0 +1,13 @@
+{
+  "status": "independent-depth4-primitive-full-replay-PASS",
+  "author": "2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+  "author_sha256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9",
+  "replay": "2026-11-09-db6f-root-review-background-primitive-stable-depth4.json.gz",
+  "replay_sha256": "098a32bbe63c1a71cd3aff94692d60270f1a3ca156916c4d5df315179f98e680",
+  "all_36_profiles_identical": true,
+  "all_sources_inputs_parameters_alpha_identical": true,
+  "analytic_leaves": 9301,
+  "range_leaves": 463,
+  "scope": "Same previously reviewed mathematical primitive/source, extended to cells0..3; not a complete background value packet or metric certificate.",
+  "operational_note": "An initial comparison overlapped the running builder and correctly failed before its completed snapshot. The present comparison was made after tool-confirmed exit0; only finished full data are asserted."
+}

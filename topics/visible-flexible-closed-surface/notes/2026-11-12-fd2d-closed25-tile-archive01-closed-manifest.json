@@ -1,0 +1,41 @@
+{
+  "schema": "fd2d-own-regenerable-tile-lossless-archive-closed-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-archive-closed-normal-tiles.py",
+      "bytes": 4564,
+      "sha256": "1bb1fbacc037085f891bf9484db358177f179c016f794ad218380282f23edd2e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-closed25-tile-archive01-report.json",
+      "bytes": 27130,
+      "sha256": "3bb5c02f3fc35fc5269c49437973184d1744472968971252eee25b85d1326903"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-closed25-tile-archive01-process-receipt.json",
+      "bytes": 3654,
+      "sha256": "52d17b717af7199b239be68bf81c13a6656728193d5cbcd66c2af576f38af53b"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-closed25-tile-archive01-process-receipt-console.txt",
+      "bytes": 24799,
+      "sha256": "a4030cc1a89308f28a06567e55c2fd32a21c65f42ef894dc4f4fcacb2e4d9189"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-closed25-tile-archive01-process-receipt-samples.jsonl",
+      "bytes": 36860,
+      "sha256": "739d1b1da09575c5903338f59a03fc64f2876f69bf4e000217ce9ade467ef824"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-closed25-tile-archive01-actual-tool-exit.json",
+      "bytes": 339,
+      "sha256": "3103aae2a45c0ff5b13be1939e27811ce1e92530456e3ce3926746eb645f7f62"
+    }
+  ],
+  "archived_tile_count": 48,
+  "original_bytes": 1059290911,
+  "archive_bytes": 57658633,
+  "complete_main_normal_and_primary_states_unchanged": true,
+  "cache_capsules_retained_locally_not_published": true
+}

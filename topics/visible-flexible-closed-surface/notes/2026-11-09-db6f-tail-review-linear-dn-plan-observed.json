@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_READ_ONLY_REVIEW_EXECUTION",
+  "scope": "Static source/hash/diff checks and replay of already closed matched-cut metadata only. No DN/root/RK/flow/BVP or active03 access.",
+  "executions": [
+    {
+      "tool_receipt": "7bd517",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.06960066,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-prefix-matched-cut-dn-request-compare.py",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-linear-dn-closed-diagnosis-replay.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-review-linear-dn-closed-diagnosis-replay.json",
+        "bytes": 11433,
+        "sha256": "c15fe8ad4b26adea9638acca728bcf170d7cae744b10e1b66b2e923cbacdd702"
+      },
+      "byte_identical_to_author": true,
+      "new_solver_calls": 0
+    },
+    {
+      "tool_receipt": "89e8bc",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 3.2769e-05,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-tail-review-linear-dn-plan.py"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-review-linear-dn-plan-check.json",
+        "bytes": 11429,
+        "sha256": "18290d3701a95d674afda0c11e4ee9bd46a76ea4003a5dc75b91c0b5416b3fd5"
+      },
+      "direct_closed_bindings": 32,
+      "selected_actual_source_root_bindings": 5,
+      "v1_to_v2_exact_replacements": 4,
+      "new_solver_calls": 0
+    }
+  ],
+  "author_v2_sha256": "a65890daff2c55ff8e0593445c0f7689e06d445024e87988444160762da04fe6",
+  "frozen_prior_files_changed": false,
+  "git_operations": 0,
+  "notes": "An earlier read-only attempted filename plan-sources.json did not exist; it caused no output or changes. The actual source ledger omits plan in its name. It is not a data or mathematical failure."
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "Stable actual-run sources and inputs only; excludes all active solver outputs.",
+  "session_id": 15035,
+  "launch_chunk": "5a9407",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-run.py",
+      "bytes": 11975,
+      "sha256": "81b3dee561aaf94faadb4b502f1a02de197013400ced81ae907813361bfaa7d5"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    {
+      "path": "scripts/fd2d-run-observed-command.py",
+      "bytes": 1411,
+      "sha256": "5c8f763704be538bbf8c8b01260b2fdcb0c9da1169f171fa286b6db4927d0a1e"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+      "bytes": 38553,
+      "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    }
+  ]
+}

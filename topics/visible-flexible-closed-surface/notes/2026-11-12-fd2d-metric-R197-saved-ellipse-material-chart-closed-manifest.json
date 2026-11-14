@@ -1,0 +1,86 @@
+{
+  "schema": "fd2d-R197-actual-saved-ellipse-chart-closed-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_R197_saved_ellipse_material_chart.cjs",
+      "bytes": 10092,
+      "sha256": "3ccca82923ac0ed4cebcd66cc912944e41565d8e27567e0bd08f684a029ff79f"
+    },
+    {
+      "path": "results/R197-exact-material-ellipse-inverse-and-safe-seed-chart.md",
+      "bytes": 11628,
+      "sha256": "d0c2e71d7f8d8967baa8c57eb874f8ebbd6c49fa09a155eeeae52e5aeeee5206"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R197-saved-ellipse-material-chart-01-report.json",
+      "bytes": 85146,
+      "sha256": "bd9c9af847fbd0821d3011a00444d4f1d7f96027ef2179e4a5a8d91d378f22af"
+    }
+  ],
+  "actual_execution": {
+    "host": "functions.exec JavaScript isolate",
+    "cell": "g2:46",
+    "completed": true,
+    "passed": true,
+    "elapsed_seconds": 643.853,
+    "OS_subprocess_started": false,
+    "complete_quarter_cells": 32,
+    "Taylor_order": 16,
+    "outward_precision_bits": 160,
+    "selected_points": 7,
+    "continuous_box_normalized": [
+      "7/30",
+      "1/4"
+    ]
+  },
+  "actual_global_bound": {
+    "maximum_node_theta_enclosure_width": [
+      "245057301338398166056725",
+      "1461501637330902918203684832716283019655932542976"
+    ],
+    "width_display": 1.676750097837311e-25
+  },
+  "input": {
+    "path": "notes/2026-11-12-fd2d-metric-R187-saved-ellipse-normalization-01-report.json",
+    "sha256": "8c2f37b42187712e5cb20cc24e7b862d5b71b8b4c20224738837ab84b23717c6",
+    "selection": "actual_result",
+    "A_bits": "0x3ff0767c5c4cf6bc",
+    "B_bits": "0x3fef535f1f0053de"
+  },
+  "arithmetic": {
+    "path": "scripts/fd2d_R188_exact_quarter_primitive.cjs",
+    "sha256": "5c04a135eed859a6d6d583877e53681cdc1dddc6102c913152adfc1913a9f97e"
+  },
+  "mathematical_scope": [
+    "same exact ellipse arclength inverse on the complete quarter",
+    "strict full-cell Taylor remainders",
+    "physical material-angle jets",
+    "complete v/v_u/v_uu and H/H_u/H_uu seed boxes",
+    "full-circle symmetry extension",
+    "global seed horizontal norm squared >=1/2",
+    "equivalent complete angle modifications without atan2/asin branches"
+  ],
+  "unpaid_scope": [
+    "accurate complete B32 radial/height profile",
+    "full main-state nonlinear T/T_s/T_ss primitive packets",
+    "whole main-surface metric/curvature/reach/closed caps",
+    "uniform error of the finite Newton evaluator over all angles"
+  ],
+  "large_original_store_outputs": [
+    {
+      "kind": "repeated-definition full report",
+      "bytes": 120596,
+      "sha256": "05718d4f2ac8456919acfe58ed3ad8c70560087d47babe29b3fcb7c0e5ff87ac",
+      "store_key": "r197_material_chart_report"
+    },
+    {
+      "kind": "all portable Taylor cell packets",
+      "bytes": 879135,
+      "sha256": "39aad4ebdbc35fe843eef7df35bbd3f9a29450f1fb2bd6d1d547a98a1771f65f",
+      "store_key": "r197_material_chart_packets_json"
+    }
+  ],
+  "large_store_payloads_uploaded_through_text_API": false,
+  "publication_note": "Numerical report keeps all actual selected outputs, deduplicates unchanged repeated definition objects and uses one-space indentation. Complete source/input identities permit regeneration; pending large store outputs are not claimed to exist in Git."
+}

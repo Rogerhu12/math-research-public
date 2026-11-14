@@ -1,0 +1,97 @@
+{
+  "schema": "fd2d-R158-independent-tail-native-closed-manifest-v1",
+  "closed_utc": "2026-11-12T15:56:10.306182+00:00",
+  "upstream_R158_manifest": {
+    "path": "notes/2026-11-12-fd2d-geometry-R158-closed-manifest.json",
+    "bytes": 2769,
+    "sha256": "68c5701681237085c883e87f20ac32707f708aece47fb273ce8f0f0839d35ab5"
+  },
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-field.npz",
+    "bytes": 61242,
+    "sha256": "19cffa6028804219373ed20be8e29d3d11938b3ebdae16ed8caee2aeb79554c9"
+  },
+  "original_zero_injection_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "actual_check": {
+    "returncode": 0,
+    "executor_session": 82192,
+    "initial_chunk": "f49649",
+    "final_chunk": "20e169",
+    "internal_seconds": 7.491418421999697,
+    "peak_rss_kib": 81292,
+    "physical_samples": 42
+  },
+  "source_frozen": true,
+  "original_readers_unchanged": true,
+  "legacy_parameter_decoder_invoked": false,
+  "parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "counts": {
+    "raw_and_central": 31,
+    "tail": 16,
+    "profile": 7,
+    "parameters": 54
+  },
+  "accurate_cut_scope": "Complete original nonnegative tail values and angular two jets; no zero radial II jet assertion",
+  "no_BVP": true,
+  "no_body_integration": true,
+  "no_new_continuous_certificate": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_independent_tail_native_field.py",
+      "bytes": 23627,
+      "sha256": "d030b81e792e252be1d44d795d1c393a7a8c8fbf4336319de5bcabe0b2a4bbfd"
+    },
+    {
+      "path": "scripts/fd2d-metric-independent-tail-native-check.py",
+      "bytes": 10765,
+      "sha256": "969932f55e7b0d83ac9e048acb23ab4a131b1d33214df7df714c3e402f327d21"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-independent-tail-native.md",
+      "bytes": 9804,
+      "sha256": "c05bce7753555897a290e3b8e537789905a5e460ef2c28b633668c23f00041f9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-report.json",
+      "bytes": 13856,
+      "sha256": "a571cd1b72c7c598b58e218929ef42421041f2a062d3aac5ce753a0e0feafebc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-definition.json",
+      "bytes": 51755,
+      "sha256": "c3d3455b4fff807c2e16cb4cb1e242f1c1559c93d850173aec7aa0e7dae9bb17"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-samples.npz",
+      "bytes": 12740,
+      "sha256": "fc8f043c527bd8e419d1717a07271c6848dfd50977a3ea7032ff18d1b66c4bee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-exit-receipt.json",
+      "bytes": 1030,
+      "sha256": "e84720a4fa5f299b2acf13ef057deaba16be7d1eb6e5d655291dea313943a035"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-independent-tail-native-check-01-console.txt",
+      "bytes": 202,
+      "sha256": "ca921ea74e1267018b8fd8446d2f797b9cd7678e66cd42a48982fb05e310e2a4"
+    }
+  ]
+}

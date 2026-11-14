@@ -1,0 +1,31 @@
+{
+  "schema": "fd2d-observed-tool-and-child-exits-v1",
+  "baseline": {
+    "session_id": 13340,
+    "launch_chunk": "ff5fcc",
+    "final_chunk": "1973b6",
+    "tool_exit_code": 0,
+    "child_exit_code": 0,
+    "receipt": {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt.json",
+      "bytes": 3328,
+      "sha256": "bd0a5dcd746d0a02ad98b19067723c62689fc53c7d5cfa02987e1c65a7e88424"
+    }
+  },
+  "normal_a01": {
+    "session_id": 16050,
+    "launch_chunk": "bc7c28",
+    "final_chunk": "519368",
+    "tool_exit_code": 137,
+    "child_exit_code": -9,
+    "receipt": {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt.json",
+      "bytes": 3322,
+      "sha256": "787deaaabcb78ae01342772f168cdd8ee63e28819706e7d579233ba7f6d0360a"
+    }
+  },
+  "termination_cause": "Unknown; no timeout/OOM inference",
+  "new_accepted_states": 0,
+  "baseline_packet_closed": true,
+  "normal_matrix_entity_created": false
+}

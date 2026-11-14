@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-owned-resumable-normal-merge-controller-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-resume-normal-merge.py",
+    "bytes": 12808,
+    "sha256": "909f2d2321c69c99be0046c783cbc45702921dcf66d7b8ce7a32e7f2dacc4de3"
+  },
+  "request": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-request.json",
+    "bytes": 2544,
+    "sha256": "5e88d0228c5fda80dc1027aef5c7fb183bf5831a1720e52dc66130b29e9b4250"
+  },
+  "started_utc": "2026-11-12T19:17:57.439736+00:00",
+  "actual_child_records": [
+    {
+      "first": 0,
+      "stop": 4,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-resume-normal-merge.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01",
+        "--fold-start",
+        "0",
+        "--batch-size",
+        "4"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt.json",
+      "started_utc": "2026-11-12T19:17:57.441233+00:00",
+      "monitor_returncode": 137,
+      "ended_utc": "2026-11-12T19:18:06.501254+00:00",
+      "child_returncode": -9,
+      "seconds": 8.749934501000098,
+      "peak_rss_kib": 155632
+    }
+  ],
+  "complete": false,
+  "no_actual_F_or_J_evaluations": true,
+  "original_tile_order_unchanged": true,
+  "batch_size": 4,
+  "returncode": 137,
+  "ended_utc": "2026-11-12T19:18:06.502730+00:00"
+}

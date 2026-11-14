@@ -1,0 +1,104 @@
+{
+  "status": "CONDITIONAL_SCALAR_BUDGET_ONLY",
+  "actual_new_surface_difference_bounds_supplied": false,
+  "metric_or_refinement_certified": false,
+  "hypotheses": {
+    "epsilon_C0": {
+      "exact": "1/10000",
+      "approximate": 0.0001
+    },
+    "eta_first_relative_to_old_metric": {
+      "exact": "1/1000",
+      "approximate": 0.001
+    },
+    "beta_covariant_second_relative_to_old_metric": {
+      "exact": "1/10",
+      "approximate": 0.1
+    }
+  },
+  "old_R21_R25_bounds": {
+    "radius_upper": {
+      "exact": "2131902881202937/1125899906842624",
+      "approximate": 1.8935101319809684
+    },
+    "diameter_upper": {
+      "exact": "2131902881202937/562949953421312",
+      "approximate": 3.787020263961937
+    },
+    "support_lower": {
+      "exact": "737/1000",
+      "approximate": 0.737
+    },
+    "curvature_upper": {
+      "exact": "52891/6250",
+      "approximate": 8.46256
+    },
+    "held_lower": {
+      "exact": "199891/1000000",
+      "approximate": 0.199891
+    },
+    "holding_diameter_lower": {
+      "exact": "17713/5000",
+      "approximate": 3.5426
+    },
+    "real_third_moment_lower": {
+      "exact": "11/25",
+      "approximate": 0.44
+    }
+  },
+  "new_conditional_bounds": {
+    "diameter_upper": {
+      "exact": "1332509669496013289/351843720888320000",
+      "approximate": 3.787220263961937
+    },
+    "support_lower": {
+      "exact": "2063529588974809379/2814749767106560000",
+      "approximate": 0.7331129797360381
+    },
+    "curvature_upper": {
+      "exact": "8562560/998001",
+      "approximate": 8.579710841973105
+    },
+    "reach_lower": {
+      "exact": "998001/8562560",
+      "approximate": 0.11655404458479707
+    },
+    "reach_ratio_lower": {
+      "exact": "548656852016037888000/17827646868187161793531",
+      "approximate": 0.03077561812126185
+    },
+    "held_lower": {
+      "exact": "199691/1000000",
+      "approximate": 0.199691
+    },
+    "held_ratio_lower": {
+      "exact": "1756500611697737728/33312741737400332225",
+      "approximate": 0.05272759070820365
+    },
+    "holding_diameter_lower": {
+      "exact": "2214/625",
+      "approximate": 3.5424
+    },
+    "holding_diameter_ratio_lower": {
+      "exact": "1246371196874784768/1332509669496013289",
+      "approximate": 0.9353562119711986
+    },
+    "third_moment_error_upper": {
+      "exact": "3281583596700099370319830099118552946485967187198341408905091998810987601380516734515035629540125928807751/41650821049319631280513263282296245358413202629277871335638858064802107874799670200893440000000000000000000",
+      "approximate": 0.07878796897699342
+    },
+    "real_third_moment_lower": {
+      "exact": "15044777665000538393106005745091795011215841969683921978776005549701939863531338153878077970459874071192249/41650821049319631280513263282296245358413202629277871335638858064802107874799670200893440000000000000000000",
+      "approximate": 0.3612120310230066
+    }
+  },
+  "exact_comparisons": {
+    "positive_support": true,
+    "reach_ratio_above_003": true,
+    "held_ratio_above_005": true,
+    "holding_diameter_ratio_above_02": true,
+    "positive_real_third_moment": true
+  },
+  "all_conditional_geometric_thresholds_hold": true,
+  "scope": "Requires an actual C2 closed common-material chart, complete own-map difference bounds and the original fixed-cap/symmetry construction. It does not prove a new isometric solution or complete the topic."
+}

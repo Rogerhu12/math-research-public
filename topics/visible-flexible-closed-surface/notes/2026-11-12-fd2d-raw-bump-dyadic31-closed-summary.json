@@ -1,0 +1,86 @@
+{
+  "schema": "fd2d-actual-dyadic31-closed-summary-v1",
+  "created_utc": "2026-11-12T20:27:05.074423+00:00",
+  "input": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "accepted": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic31-trial-back01-a01-accepted.npz",
+    "bytes": 133772,
+    "sha256": "dba5cbd01da65cd7ae156b7d33e5ecd80a971451335a34b5e72d2dcc797e2eda"
+  },
+  "objective_before": 3.6542929578185577,
+  "objective_after": 3.617502057213986,
+  "actual_alpha": 0.5,
+  "full_step_actual_objective": 9.196568011088425,
+  "full_step_rejected": true,
+  "gap": 0.7993799470703334,
+  "A": 1.358170042011956,
+  "B": 0.5587900949416226,
+  "formal_node_curvature_maximum": 7.294192995286273,
+  "node_Gauss_maximum": 1.6250354987701616,
+  "selected_interior_Gauss_maximum": 1.0311315718639145,
+  "retained_Codazzi_maximum": 0.42061755756006713,
+  "high_Codazzi_maximum": 1.0753553653615509,
+  "curvature_squared_fraction": 0.09087274877525087,
+  "actual_global_tail_controls_range": [
+    -2.324944638316213,
+    2.1342276909841607
+  ],
+  "exact_dyadic_domain_maintained": true,
+  "tool_completions": {
+    "tiles_resume": {
+      "session": 60082,
+      "initial_chunk": "fc0bcb",
+      "completion_chunk": "fc4432",
+      "exit": 0
+    },
+    "merge": {
+      "session": 5251,
+      "initial_chunk": "c7f72a",
+      "completion_chunk": "5f97cd",
+      "exit": 0
+    },
+    "block_schur": {
+      "session": 89354,
+      "initial_chunk": "93899c",
+      "completion_chunk": "e65a26",
+      "exit": 0
+    },
+    "qp": {
+      "session": 83816,
+      "initial_chunk": "7bb05c",
+      "completion_chunk": "1641fe",
+      "exit": 0
+    },
+    "full_trial": {
+      "session": 68512,
+      "initial_chunk": "f68acf",
+      "completion_chunk": "fa1724",
+      "exit": 0
+    },
+    "half_trial": {
+      "session": 36286,
+      "initial_chunk": "ba1b83",
+      "completion_chunk": "cdc115",
+      "exit": 0
+    },
+    "tile_archive": {
+      "session": 21094,
+      "initial_chunk": "6e6a8e",
+      "completion_chunk": "ab0d8a",
+      "exit": 0
+    }
+  },
+  "runtime_resumption_record": {
+    "path": "notes/2026-11-12-fd2d-numerical-runtime-resumption-01.json",
+    "bytes": 2576,
+    "sha256": "50f539a411793990959950294b616f52c0f04344f5c0ef26cf539cfa82f3b1c1"
+  },
+  "old_interrupted_and_ENOSPC_records_retained_without_inferred_exit": true,
+  "strong_target_complete": false,
+  "continuous_geometry_certificate": false,
+  "normal_and_field_objects_unchanged_by_transport": true
+}

@@ -1,0 +1,47 @@
+{
+  "status": "CLOSED_AUTHOR_SCALAR_EXECUTIONS_OBSERVED",
+  "recorded_utc": "2026-11-09 15:31:09 UTC",
+  "scope": "Pure Fraction arithmetic for unclosed auxiliary convex cores; no current frozen geometry modified.",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "observations": [
+    {
+      "argv": [
+        "python",
+        "scripts/db6f-prefix-c3-poisson-bounds.py",
+        "--out",
+        "notes/2026-11-09-db6f-prefix-c3-poisson-bounds.json"
+      ],
+      "tool_receipt": "40a6d1",
+      "actual_exit_code": 0,
+      "tool_reported_wall_time_seconds": 0.105354489,
+      "stdout_summary": {
+        "status": "PASS",
+        "cases": 5,
+        "bytes": 28270,
+        "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e",
+        "solver_calls": 0
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/db6f-prefix-c3-finite-bounds.py",
+        "--out",
+        "notes/2026-11-09-db6f-prefix-c3-finite-bounds.json"
+      ],
+      "tool_receipt": "97a4c8",
+      "actual_exit_code": 0,
+      "tool_reported_wall_time_seconds": 0.000029594,
+      "stdout_summary": {
+        "status": "PASS",
+        "cases": 4,
+        "bytes": 23434,
+        "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa",
+        "solver_calls": 0
+      }
+    }
+  ],
+  "solver_root_RK_geometry_backend_calls": 0,
+  "active_processes_from_this_task": 0,
+  "independent_review_status": "Requested from tail_theory; not substituted by author run."
+}

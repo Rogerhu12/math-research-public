@@ -1,0 +1,1187 @@
+{
+  "schema": "fd2d-further-smaller-complete-caps-rational-budget-v1",
+  "theorem": "R179",
+  "source_sha256": "9c7d022b765218a1b71a9d7f8c5062b3ae07b36f60bcac504cf27d09cc318dc9",
+  "parent_R168_budget_source_sha256": "1f3eca78d1ec686b47d668e831dab9e46761b40e35a928e6bb717437a77fccd7",
+  "common_parameters": {
+    "A": {
+      "exact": "32/25",
+      "approximate": 1.28
+    },
+    "slab": {
+      "exact": "17/20",
+      "approximate": 0.85
+    },
+    "neck": {
+      "exact": "3/10",
+      "approximate": 0.3
+    },
+    "cuff": {
+      "exact": "8/25",
+      "approximate": 0.32
+    },
+    "lam": {
+      "exact": "1/100",
+      "approximate": 0.01
+    },
+    "epsilon": {
+      "exact": "1/10000",
+      "approximate": 0.0001
+    },
+    "delta": {
+      "exact": "1/1000000",
+      "approximate": 1e-06
+    }
+  },
+  "variants": [
+    {
+      "variant": "D35",
+      "definition": {
+        "P0_vertices": [
+          [
+            "-13/25",
+            "-23/25",
+            "251/200"
+          ],
+          [
+            "-13/25",
+            "23/25",
+            "251/200"
+          ],
+          [
+            "13/25",
+            "-23/25",
+            "251/200"
+          ],
+          [
+            "13/25",
+            "23/25",
+            "251/200"
+          ],
+          [
+            "0",
+            "0",
+            "797/500"
+          ]
+        ],
+        "P": "sublevel of distance_to_P0 convolved with the R111 radial delta-mollifier at epsilon",
+        "K": "P + B_R, with the actual circular opening replaced by the full R168 neck and .30<=r<=.32 flat annulus",
+        "upper_placement": "translate by -(zc-Z) ez once; actual Z is fixed for every phase",
+        "lower_placement": "z-reflection",
+        "tail_function_domain": [
+          "0",
+          "6/5"
+        ],
+        "tail_source": "R132/R170 when U=6/5; R177 when U=3/2; unchanged exact function formula",
+        "cap_parameters_are_new": true
+      },
+      "values": {
+        "diameter_upper": {
+          "exact": "7/2",
+          "approximate": 3.5
+        },
+        "ball_radius": {
+          "exact": "7/4",
+          "approximate": 1.75
+        },
+        "held_radius": {
+          "exact": "7/10",
+          "approximate": 0.7
+        },
+        "reach_radius": {
+          "exact": "53/500",
+          "approximate": 0.106
+        },
+        "local_curvature_cap": {
+          "exact": "500/53",
+          "approximate": 9.433962264150944
+        },
+        "central_axis_support_lower": {
+          "exact": "32/25",
+          "approximate": 1.28
+        },
+        "active_halfwidth": {
+          "exact": "17/20",
+          "approximate": 0.85
+        },
+        "cap_corner_x": {
+          "exact": "13/25",
+          "approximate": 0.52
+        },
+        "cap_corner_y": {
+          "exact": "513/500",
+          "approximate": 1.026
+        },
+        "reference_side_height": {
+          "exact": "251/200",
+          "approximate": 1.255
+        },
+        "reference_pole_height": {
+          "exact": "17/10",
+          "approximate": 1.7
+        },
+        "reference_Z_lower": {
+          "exact": "326749/350000",
+          "approximate": 0.9335685714285714
+        },
+        "reference_Z_upper": {
+          "exact": "46739/50000",
+          "approximate": 0.93478
+        },
+        "actual_Z_lower": {
+          "exact": "393/500",
+          "approximate": 0.786
+        },
+        "actual_Z_upper": {
+          "exact": "93/100",
+          "approximate": 0.93
+        },
+        "actual_marker_height_lower": {
+          "exact": "55311/50000",
+          "approximate": 1.10622
+        },
+        "actual_pole_height_lower": {
+          "exact": "77561/50000",
+          "approximate": 1.55122
+        },
+        "fixed_grip_diameter_lower": {
+          "exact": "19389/6250",
+          "approximate": 3.10224
+        },
+        "tail_function_upper": {
+          "exact": "6/5",
+          "approximate": 1.2
+        },
+        "tail_depression_upper": {
+          "exact": "69/250",
+          "approximate": 0.276
+        },
+        "tail_curvature_upper": {
+          "exact": "4725/736",
+          "approximate": 6.419836956521739
+        },
+        "complete_tail_normal_radius": {
+          "exact": "736/4725",
+          "approximate": 0.15576719576719578
+        },
+        "tail_support_lower": {
+          "exact": "19581/50000",
+          "approximate": 0.39162
+        },
+        "quotient_lower": {
+          "exact": "1759/10000",
+          "approximate": 0.1759
+        },
+        "held_ratio_lower": {
+          "exact": "1/5",
+          "approximate": 0.2
+        },
+        "quotient_ratio_lower": {
+          "exact": "1759/35000",
+          "approximate": 0.050257142857142854
+        },
+        "reach_ratio_lower": {
+          "exact": "53/1750",
+          "approximate": 0.030285714285714287
+        },
+        "old_actual_Z_lower_for_Delta_7_over_50": {
+          "exact": "463/500",
+          "approximate": 0.926
+        },
+        "old_actual_Z_upper_for_Delta_7_over_50": {
+          "exact": "107/100",
+          "approximate": 1.07
+        },
+        "old_actual_Z_strict_upper_for_any_column_deletion_less_than_point32": {
+          "exact": "5/4",
+          "approximate": 1.25
+        }
+      },
+      "exact_margins": {
+        "mollifier_level": {
+          "exact": "99/1000000",
+          "approximate": 9.9e-05
+        },
+        "pyramid_height": {
+          "exact": "339/1000",
+          "approximate": 0.339
+        },
+        "flat_base_disk": {
+          "exact": "113999/1000000",
+          "approximate": 0.113999
+        },
+        "neck_radius_minus_reach": {
+          "exact": "2147/25000",
+          "approximate": 0.08588
+        },
+        "annulus_width": {
+          "exact": "1/50",
+          "approximate": 0.02
+        },
+        "whole_convex_body_ball": {
+          "exact": "1058221/100000000",
+          "approximate": 0.01058221
+        },
+        "top_ball": {
+          "exact": "499/10000",
+          "approximate": 0.0499
+        },
+        "neck_annulus_ball": {
+          "exact": "164012879/100000000",
+          "approximate": 1.64012879
+        },
+        "cap_x_slab": {
+          "exact": "2239/10000",
+          "approximate": 0.2239
+        },
+        "central_marker_inball": {
+          "exact": "2031/250000",
+          "approximate": 0.008124
+        },
+        "actual_translated_marker_height": {
+          "exact": "4011/50000",
+          "approximate": 0.08022
+        },
+        "opposite_caps_separation": {
+          "exact": "34/25",
+          "approximate": 1.36
+        },
+        "fixed_grip_diameter": {
+          "exact": "7507/3125",
+          "approximate": 2.40224
+        },
+        "selected_Zmax_below_accurate_reference": {
+          "exact": "1249/350000",
+          "approximate": 0.0035685714285714288
+        },
+        "reach_ratio": {
+          "exact": "1/3500",
+          "approximate": 0.00028571428571428574
+        },
+        "quotient_ratio": {
+          "exact": "9/35000",
+          "approximate": 0.00025714285714285715
+        },
+        "tail_radius": {
+          "exact": "4703/94500",
+          "approximate": 0.049767195767195765
+        },
+        "tail_to_opposite_tail": {
+          "exact": "101/125",
+          "approximate": 0.808
+        },
+        "tail_within_ball": {
+          "exact": "1947/1250",
+          "approximate": 1.5576
+        },
+        "tail_slab": {
+          "exact": "1/20",
+          "approximate": 0.05
+        },
+        "tail_function_held": {
+          "exact": "1/2000",
+          "approximate": 0.0005
+        },
+        "actual_Z_above_held_radius": {
+          "exact": "43/500",
+          "approximate": 0.086
+        },
+        "actual_Z_interval": {
+          "exact": "18/125",
+          "approximate": 0.144
+        },
+        "tail_support_above_seven_twentieths": {
+          "exact": "2081/50000",
+          "approximate": 0.04162
+        }
+      },
+      "all_required_rational_comparisons_passed": true,
+      "remaining_actual_inputs": [
+        "A common-g C2 embedded core family with exact fixed .32 disks and full two-jet seams at actual +/-Z",
+        "Global all-phase reach of that complete old flat-disk core at least R, including prefix-tail and all opposite-half pairs",
+        "The entire actual core in B_(D/2) and |z|<=actual Z, and the phase-zero full active core in |y|<=.85",
+        "True central points (+/-Aq,0,0), Aq>=1.28, and phase interval including pi/2",
+        "The phase-zero whole core excludes the actual ball centered at (0,Aq,0) of radius D/5",
+        "If deleting exact central cylinder, actual translated whole-core position/held/opposite-half conditions are paid anew"
+      ],
+      "actual_core_solved": false,
+      "strong_target_completed": false
+    },
+    {
+      "variant": "D35",
+      "definition": {
+        "P0_vertices": [
+          [
+            "-13/25",
+            "-23/25",
+            "251/200"
+          ],
+          [
+            "-13/25",
+            "23/25",
+            "251/200"
+          ],
+          [
+            "13/25",
+            "-23/25",
+            "251/200"
+          ],
+          [
+            "13/25",
+            "23/25",
+            "251/200"
+          ],
+          [
+            "0",
+            "0",
+            "797/500"
+          ]
+        ],
+        "P": "sublevel of distance_to_P0 convolved with the R111 radial delta-mollifier at epsilon",
+        "K": "P + B_R, with the actual circular opening replaced by the full R168 neck and .30<=r<=.32 flat annulus",
+        "upper_placement": "translate by -(zc-Z) ez once; actual Z is fixed for every phase",
+        "lower_placement": "z-reflection",
+        "tail_function_domain": [
+          "0",
+          "3/2"
+        ],
+        "tail_source": "R132/R170 when U=6/5; R177 when U=3/2; unchanged exact function formula",
+        "cap_parameters_are_new": true
+      },
+      "values": {
+        "diameter_upper": {
+          "exact": "7/2",
+          "approximate": 3.5
+        },
+        "ball_radius": {
+          "exact": "7/4",
+          "approximate": 1.75
+        },
+        "held_radius": {
+          "exact": "7/10",
+          "approximate": 0.7
+        },
+        "reach_radius": {
+          "exact": "53/500",
+          "approximate": 0.106
+        },
+        "local_curvature_cap": {
+          "exact": "500/53",
+          "approximate": 9.433962264150944
+        },
+        "central_axis_support_lower": {
+          "exact": "32/25",
+          "approximate": 1.28
+        },
+        "active_halfwidth": {
+          "exact": "17/20",
+          "approximate": 0.85
+        },
+        "cap_corner_x": {
+          "exact": "13/25",
+          "approximate": 0.52
+        },
+        "cap_corner_y": {
+          "exact": "513/500",
+          "approximate": 1.026
+        },
+        "reference_side_height": {
+          "exact": "251/200",
+          "approximate": 1.255
+        },
+        "reference_pole_height": {
+          "exact": "17/10",
+          "approximate": 1.7
+        },
+        "reference_Z_lower": {
+          "exact": "326749/350000",
+          "approximate": 0.9335685714285714
+        },
+        "reference_Z_upper": {
+          "exact": "46739/50000",
+          "approximate": 0.93478
+        },
+        "actual_Z_lower": {
+          "exact": "171/200",
+          "approximate": 0.855
+        },
+        "actual_Z_upper": {
+          "exact": "93/100",
+          "approximate": 0.93
+        },
+        "actual_marker_height_lower": {
+          "exact": "58761/50000",
+          "approximate": 1.17522
+        },
+        "actual_pole_height_lower": {
+          "exact": "81011/50000",
+          "approximate": 1.62022
+        },
+        "fixed_grip_diameter_lower": {
+          "exact": "40503/12500",
+          "approximate": 3.24024
+        },
+        "tail_function_upper": {
+          "exact": "3/2",
+          "approximate": 1.5
+        },
+        "tail_depression_upper": {
+          "exact": "69/200",
+          "approximate": 0.345
+        },
+        "tail_curvature_upper": {
+          "exact": "23625/2944",
+          "approximate": 8.024796195652174
+        },
+        "complete_tail_normal_radius": {
+          "exact": "2944/23625",
+          "approximate": 0.12461375661375661
+        },
+        "tail_support_lower": {
+          "exact": "7929/20000",
+          "approximate": 0.39645
+        },
+        "quotient_lower": {
+          "exact": "1759/10000",
+          "approximate": 0.1759
+        },
+        "held_ratio_lower": {
+          "exact": "1/5",
+          "approximate": 0.2
+        },
+        "quotient_ratio_lower": {
+          "exact": "1759/35000",
+          "approximate": 0.050257142857142854
+        },
+        "reach_ratio_lower": {
+          "exact": "53/1750",
+          "approximate": 0.030285714285714287
+        },
+        "old_actual_Z_lower_for_Delta_7_over_50": {
+          "exact": "199/200",
+          "approximate": 0.995
+        },
+        "old_actual_Z_upper_for_Delta_7_over_50": {
+          "exact": "107/100",
+          "approximate": 1.07
+        },
+        "old_actual_Z_strict_upper_for_any_column_deletion_less_than_point32": {
+          "exact": "5/4",
+          "approximate": 1.25
+        }
+      },
+      "exact_margins": {
+        "mollifier_level": {
+          "exact": "99/1000000",
+          "approximate": 9.9e-05
+        },
+        "pyramid_height": {
+          "exact": "339/1000",
+          "approximate": 0.339
+        },
+        "flat_base_disk": {
+          "exact": "113999/1000000",
+          "approximate": 0.113999
+        },
+        "neck_radius_minus_reach": {
+          "exact": "2147/25000",
+          "approximate": 0.08588
+        },
+        "annulus_width": {
+          "exact": "1/50",
+          "approximate": 0.02
+        },
+        "whole_convex_body_ball": {
+          "exact": "1058221/100000000",
+          "approximate": 0.01058221
+        },
+        "top_ball": {
+          "exact": "499/10000",
+          "approximate": 0.0499
+        },
+        "neck_annulus_ball": {
+          "exact": "164012879/100000000",
+          "approximate": 1.64012879
+        },
+        "cap_x_slab": {
+          "exact": "2239/10000",
+          "approximate": 0.2239
+        },
+        "central_marker_inball": {
+          "exact": "2031/250000",
+          "approximate": 0.008124
+        },
+        "actual_translated_marker_height": {
+          "exact": "7461/50000",
+          "approximate": 0.14922
+        },
+        "opposite_caps_separation": {
+          "exact": "749/500",
+          "approximate": 1.498
+        },
+        "fixed_grip_diameter": {
+          "exact": "31753/12500",
+          "approximate": 2.54024
+        },
+        "selected_Zmax_below_accurate_reference": {
+          "exact": "1249/350000",
+          "approximate": 0.0035685714285714288
+        },
+        "reach_ratio": {
+          "exact": "1/3500",
+          "approximate": 0.00028571428571428574
+        },
+        "quotient_ratio": {
+          "exact": "9/35000",
+          "approximate": 0.00025714285714285715
+        },
+        "tail_radius": {
+          "exact": "1759/94500",
+          "approximate": 0.018613756613756614
+        },
+        "tail_to_opposite_tail": {
+          "exact": "101/125",
+          "approximate": 0.808
+        },
+        "tail_within_ball": {
+          "exact": "1947/1250",
+          "approximate": 1.5576
+        },
+        "tail_slab": {
+          "exact": "1/20",
+          "approximate": 0.05
+        },
+        "tail_function_held": {
+          "exact": "1/2000",
+          "approximate": 0.0005
+        },
+        "actual_Z_above_held_radius": {
+          "exact": "31/200",
+          "approximate": 0.155
+        },
+        "actual_Z_interval": {
+          "exact": "3/40",
+          "approximate": 0.075
+        },
+        "tail_support_above_seven_twentieths": {
+          "exact": "929/20000",
+          "approximate": 0.04645
+        }
+      },
+      "all_required_rational_comparisons_passed": true,
+      "remaining_actual_inputs": [
+        "A common-g C2 embedded core family with exact fixed .32 disks and full two-jet seams at actual +/-Z",
+        "Global all-phase reach of that complete old flat-disk core at least R, including prefix-tail and all opposite-half pairs",
+        "The entire actual core in B_(D/2) and |z|<=actual Z, and the phase-zero full active core in |y|<=.85",
+        "True central points (+/-Aq,0,0), Aq>=1.28, and phase interval including pi/2",
+        "The phase-zero whole core excludes the actual ball centered at (0,Aq,0) of radius D/5",
+        "If deleting exact central cylinder, actual translated whole-core position/held/opposite-half conditions are paid anew"
+      ],
+      "actual_core_solved": false,
+      "strong_target_completed": false
+    },
+    {
+      "variant": "D32",
+      "definition": {
+        "P0_vertices": [
+          [
+            "-1/2",
+            "-457/500",
+            "27/25"
+          ],
+          [
+            "-1/2",
+            "457/500",
+            "27/25"
+          ],
+          [
+            "1/2",
+            "-457/500",
+            "27/25"
+          ],
+          [
+            "1/2",
+            "457/500",
+            "27/25"
+          ],
+          [
+            "0",
+            "0",
+            "1453/1000"
+          ]
+        ],
+        "P": "sublevel of distance_to_P0 convolved with the R111 radial delta-mollifier at epsilon",
+        "K": "P + B_R, with the actual circular opening replaced by the full R168 neck and .30<=r<=.32 flat annulus",
+        "upper_placement": "translate by -(zc-Z) ez once; actual Z is fixed for every phase",
+        "lower_placement": "z-reflection",
+        "tail_function_domain": [
+          "0",
+          "6/5"
+        ],
+        "tail_source": "R132/R170 when U=6/5; R177 when U=3/2; unchanged exact function formula",
+        "cap_parameters_are_new": true
+      },
+      "values": {
+        "diameter_upper": {
+          "exact": "16/5",
+          "approximate": 3.2
+        },
+        "ball_radius": {
+          "exact": "8/5",
+          "approximate": 1.6
+        },
+        "held_radius": {
+          "exact": "16/25",
+          "approximate": 0.64
+        },
+        "reach_radius": {
+          "exact": "97/1000",
+          "approximate": 0.097
+        },
+        "local_curvature_cap": {
+          "exact": "1000/97",
+          "approximate": 10.309278350515465
+        },
+        "central_axis_support_lower": {
+          "exact": "32/25",
+          "approximate": 1.28
+        },
+        "active_halfwidth": {
+          "exact": "17/20",
+          "approximate": 0.85
+        },
+        "cap_corner_x": {
+          "exact": "1/2",
+          "approximate": 0.5
+        },
+        "cap_corner_y": {
+          "exact": "1011/1000",
+          "approximate": 1.011
+        },
+        "reference_side_height": {
+          "exact": "27/25",
+          "approximate": 1.08
+        },
+        "reference_pole_height": {
+          "exact": "31/20",
+          "approximate": 1.55
+        },
+        "reference_Z_lower": {
+          "exact": "34381/43750",
+          "approximate": 0.7858514285714285
+        },
+        "reference_Z_upper": {
+          "exact": "9837/12500",
+          "approximate": 0.78696
+        },
+        "actual_Z_lower": {
+          "exact": "18/25",
+          "approximate": 0.72
+        },
+        "actual_Z_upper": {
+          "exact": "39/50",
+          "approximate": 0.78
+        },
+        "actual_marker_height_lower": {
+          "exact": "12663/12500",
+          "approximate": 1.01304
+        },
+        "actual_pole_height_lower": {
+          "exact": "9269/6250",
+          "approximate": 1.48304
+        },
+        "fixed_grip_diameter_lower": {
+          "exact": "74147/25000",
+          "approximate": 2.96588
+        },
+        "tail_function_upper": {
+          "exact": "6/5",
+          "approximate": 1.2
+        },
+        "tail_depression_upper": {
+          "exact": "69/250",
+          "approximate": 0.276
+        },
+        "tail_curvature_upper": {
+          "exact": "4725/736",
+          "approximate": 6.419836956521739
+        },
+        "complete_tail_normal_radius": {
+          "exact": "736/4725",
+          "approximate": 0.15576719576719578
+        },
+        "tail_support_lower": {
+          "exact": "387/1000",
+          "approximate": 0.387
+        },
+        "quotient_lower": {
+          "exact": "1609/10000",
+          "approximate": 0.1609
+        },
+        "held_ratio_lower": {
+          "exact": "1/5",
+          "approximate": 0.2
+        },
+        "quotient_ratio_lower": {
+          "exact": "1609/32000",
+          "approximate": 0.05028125
+        },
+        "reach_ratio_lower": {
+          "exact": "97/3200",
+          "approximate": 0.0303125
+        },
+        "old_actual_Z_lower_for_Delta_7_over_50": {
+          "exact": "43/50",
+          "approximate": 0.86
+        },
+        "old_actual_Z_upper_for_Delta_7_over_50": {
+          "exact": "23/25",
+          "approximate": 0.92
+        },
+        "old_actual_Z_strict_upper_for_any_column_deletion_less_than_point32": {
+          "exact": "11/10",
+          "approximate": 1.1
+        }
+      },
+      "exact_margins": {
+        "mollifier_level": {
+          "exact": "99/1000000",
+          "approximate": 9.9e-05
+        },
+        "pyramid_height": {
+          "exact": "373/1000",
+          "approximate": 0.373
+        },
+        "flat_base_disk": {
+          "exact": "102999/1000000",
+          "approximate": 0.102999
+        },
+        "neck_radius_minus_reach": {
+          "exact": "5203/50000",
+          "approximate": 0.10406
+        },
+        "annulus_width": {
+          "exact": "1/50",
+          "approximate": 0.02
+        },
+        "whole_convex_body_ball": {
+          "exact": "691241/100000000",
+          "approximate": 0.00691241
+        },
+        "top_ball": {
+          "exact": "499/10000",
+          "approximate": 0.0499
+        },
+        "neck_annulus_ball": {
+          "exact": "149150759/100000000",
+          "approximate": 1.49150759
+        },
+        "cap_x_slab": {
+          "exact": "2529/10000",
+          "approximate": 0.2529
+        },
+        "central_marker_inball": {
+          "exact": "7879/1000000",
+          "approximate": 0.007879
+        },
+        "actual_translated_marker_height": {
+          "exact": "51/25000",
+          "approximate": 0.00204
+        },
+        "opposite_caps_separation": {
+          "exact": "623/500",
+          "approximate": 1.246
+        },
+        "fixed_grip_diameter": {
+          "exact": "58147/25000",
+          "approximate": 2.32588
+        },
+        "selected_Zmax_below_accurate_reference": {
+          "exact": "128/21875",
+          "approximate": 0.005851428571428572
+        },
+        "reach_ratio": {
+          "exact": "1/3200",
+          "approximate": 0.0003125
+        },
+        "quotient_ratio": {
+          "exact": "9/32000",
+          "approximate": 0.00028125
+        },
+        "tail_radius": {
+          "exact": "11107/189000",
+          "approximate": 0.058767195767195766
+        },
+        "tail_to_opposite_tail": {
+          "exact": "347/500",
+          "approximate": 0.694
+        },
+        "tail_within_ball": {
+          "exact": "3279/2500",
+          "approximate": 1.3116
+        },
+        "tail_slab": {
+          "exact": "1/20",
+          "approximate": 0.05
+        },
+        "tail_function_held": {
+          "exact": "1121/62500",
+          "approximate": 0.017936
+        },
+        "actual_Z_above_held_radius": {
+          "exact": "2/25",
+          "approximate": 0.08
+        },
+        "actual_Z_interval": {
+          "exact": "3/50",
+          "approximate": 0.06
+        },
+        "tail_support_above_seven_twentieths": {
+          "exact": "37/1000",
+          "approximate": 0.037
+        }
+      },
+      "all_required_rational_comparisons_passed": true,
+      "remaining_actual_inputs": [
+        "A common-g C2 embedded core family with exact fixed .32 disks and full two-jet seams at actual +/-Z",
+        "Global all-phase reach of that complete old flat-disk core at least R, including prefix-tail and all opposite-half pairs",
+        "The entire actual core in B_(D/2) and |z|<=actual Z, and the phase-zero full active core in |y|<=.85",
+        "True central points (+/-Aq,0,0), Aq>=1.28, and phase interval including pi/2",
+        "The phase-zero whole core excludes the actual ball centered at (0,Aq,0) of radius D/5",
+        "If deleting exact central cylinder, actual translated whole-core position/held/opposite-half conditions are paid anew"
+      ],
+      "actual_core_solved": false,
+      "strong_target_completed": false
+    },
+    {
+      "variant": "D32",
+      "definition": {
+        "P0_vertices": [
+          [
+            "-1/2",
+            "-457/500",
+            "27/25"
+          ],
+          [
+            "-1/2",
+            "457/500",
+            "27/25"
+          ],
+          [
+            "1/2",
+            "-457/500",
+            "27/25"
+          ],
+          [
+            "1/2",
+            "457/500",
+            "27/25"
+          ],
+          [
+            "0",
+            "0",
+            "1453/1000"
+          ]
+        ],
+        "P": "sublevel of distance_to_P0 convolved with the R111 radial delta-mollifier at epsilon",
+        "K": "P + B_R, with the actual circular opening replaced by the full R168 neck and .30<=r<=.32 flat annulus",
+        "upper_placement": "translate by -(zc-Z) ez once; actual Z is fixed for every phase",
+        "lower_placement": "z-reflection",
+        "tail_function_domain": [
+          "0",
+          "3/2"
+        ],
+        "tail_source": "R132/R170 when U=6/5; R177 when U=3/2; unchanged exact function formula",
+        "cap_parameters_are_new": true
+      },
+      "values": {
+        "diameter_upper": {
+          "exact": "16/5",
+          "approximate": 3.2
+        },
+        "ball_radius": {
+          "exact": "8/5",
+          "approximate": 1.6
+        },
+        "held_radius": {
+          "exact": "16/25",
+          "approximate": 0.64
+        },
+        "reach_radius": {
+          "exact": "97/1000",
+          "approximate": 0.097
+        },
+        "local_curvature_cap": {
+          "exact": "1000/97",
+          "approximate": 10.309278350515465
+        },
+        "central_axis_support_lower": {
+          "exact": "32/25",
+          "approximate": 1.28
+        },
+        "active_halfwidth": {
+          "exact": "17/20",
+          "approximate": 0.85
+        },
+        "cap_corner_x": {
+          "exact": "1/2",
+          "approximate": 0.5
+        },
+        "cap_corner_y": {
+          "exact": "1011/1000",
+          "approximate": 1.011
+        },
+        "reference_side_height": {
+          "exact": "27/25",
+          "approximate": 1.08
+        },
+        "reference_pole_height": {
+          "exact": "31/20",
+          "approximate": 1.55
+        },
+        "reference_Z_lower": {
+          "exact": "34381/43750",
+          "approximate": 0.7858514285714285
+        },
+        "reference_Z_upper": {
+          "exact": "9837/12500",
+          "approximate": 0.78696
+        },
+        "actual_Z_lower": {
+          "exact": "77/100",
+          "approximate": 0.77
+        },
+        "actual_Z_upper": {
+          "exact": "39/50",
+          "approximate": 0.78
+        },
+        "actual_marker_height_lower": {
+          "exact": "3322/3125",
+          "approximate": 1.06304
+        },
+        "actual_pole_height_lower": {
+          "exact": "19163/12500",
+          "approximate": 1.53304
+        },
+        "fixed_grip_diameter_lower": {
+          "exact": "76647/25000",
+          "approximate": 3.06588
+        },
+        "tail_function_upper": {
+          "exact": "3/2",
+          "approximate": 1.5
+        },
+        "tail_depression_upper": {
+          "exact": "69/200",
+          "approximate": 0.345
+        },
+        "tail_curvature_upper": {
+          "exact": "23625/2944",
+          "approximate": 8.024796195652174
+        },
+        "complete_tail_normal_radius": {
+          "exact": "2944/23625",
+          "approximate": 0.12461375661375661
+        },
+        "tail_support_lower": {
+          "exact": "781/2000",
+          "approximate": 0.3905
+        },
+        "quotient_lower": {
+          "exact": "1609/10000",
+          "approximate": 0.1609
+        },
+        "held_ratio_lower": {
+          "exact": "1/5",
+          "approximate": 0.2
+        },
+        "quotient_ratio_lower": {
+          "exact": "1609/32000",
+          "approximate": 0.05028125
+        },
+        "reach_ratio_lower": {
+          "exact": "97/3200",
+          "approximate": 0.0303125
+        },
+        "old_actual_Z_lower_for_Delta_7_over_50": {
+          "exact": "91/100",
+          "approximate": 0.91
+        },
+        "old_actual_Z_upper_for_Delta_7_over_50": {
+          "exact": "23/25",
+          "approximate": 0.92
+        },
+        "old_actual_Z_strict_upper_for_any_column_deletion_less_than_point32": {
+          "exact": "11/10",
+          "approximate": 1.1
+        }
+      },
+      "exact_margins": {
+        "mollifier_level": {
+          "exact": "99/1000000",
+          "approximate": 9.9e-05
+        },
+        "pyramid_height": {
+          "exact": "373/1000",
+          "approximate": 0.373
+        },
+        "flat_base_disk": {
+          "exact": "102999/1000000",
+          "approximate": 0.102999
+        },
+        "neck_radius_minus_reach": {
+          "exact": "5203/50000",
+          "approximate": 0.10406
+        },
+        "annulus_width": {
+          "exact": "1/50",
+          "approximate": 0.02
+        },
+        "whole_convex_body_ball": {
+          "exact": "691241/100000000",
+          "approximate": 0.00691241
+        },
+        "top_ball": {
+          "exact": "499/10000",
+          "approximate": 0.0499
+        },
+        "neck_annulus_ball": {
+          "exact": "149150759/100000000",
+          "approximate": 1.49150759
+        },
+        "cap_x_slab": {
+          "exact": "2529/10000",
+          "approximate": 0.2529
+        },
+        "central_marker_inball": {
+          "exact": "7879/1000000",
+          "approximate": 0.007879
+        },
+        "actual_translated_marker_height": {
+          "exact": "1301/25000",
+          "approximate": 0.05204
+        },
+        "opposite_caps_separation": {
+          "exact": "673/500",
+          "approximate": 1.346
+        },
+        "fixed_grip_diameter": {
+          "exact": "60647/25000",
+          "approximate": 2.42588
+        },
+        "selected_Zmax_below_accurate_reference": {
+          "exact": "128/21875",
+          "approximate": 0.005851428571428572
+        },
+        "reach_ratio": {
+          "exact": "1/3200",
+          "approximate": 0.0003125
+        },
+        "quotient_ratio": {
+          "exact": "9/32000",
+          "approximate": 0.00028125
+        },
+        "tail_radius": {
+          "exact": "5219/189000",
+          "approximate": 0.027613756613756615
+        },
+        "tail_to_opposite_tail": {
+          "exact": "82/125",
+          "approximate": 0.656
+        },
+        "tail_within_ball": {
+          "exact": "3279/2500",
+          "approximate": 1.3116
+        },
+        "tail_slab": {
+          "exact": "1/20",
+          "approximate": 0.05
+        },
+        "tail_function_held": {
+          "exact": "57/40000",
+          "approximate": 0.001425
+        },
+        "actual_Z_above_held_radius": {
+          "exact": "13/100",
+          "approximate": 0.13
+        },
+        "actual_Z_interval": {
+          "exact": "1/100",
+          "approximate": 0.01
+        },
+        "tail_support_above_seven_twentieths": {
+          "exact": "81/2000",
+          "approximate": 0.0405
+        }
+      },
+      "all_required_rational_comparisons_passed": true,
+      "remaining_actual_inputs": [
+        "A common-g C2 embedded core family with exact fixed .32 disks and full two-jet seams at actual +/-Z",
+        "Global all-phase reach of that complete old flat-disk core at least R, including prefix-tail and all opposite-half pairs",
+        "The entire actual core in B_(D/2) and |z|<=actual Z, and the phase-zero full active core in |y|<=.85",
+        "True central points (+/-Aq,0,0), Aq>=1.28, and phase interval including pi/2",
+        "The phase-zero whole core excludes the actual ball centered at (0,Aq,0) of radius D/5",
+        "If deleting exact central cylinder, actual translated whole-core position/held/opposite-half conditions are paid anew"
+      ],
+      "actual_core_solved": false,
+      "strong_target_completed": false
+    }
+  ],
+  "sufficient_budget_floor": {
+    "scope": "Only the original origin-ball plus h_Z>=b four-corner sufficient budget at fixed A_min=1.28 and W=.85; other caps or marker proofs are not excluded.",
+    "necessary_lower_D_from_core_ball": {
+      "exact": "64/25",
+      "approximate": 2.56
+    },
+    "ruled_out_budget_D_upper": {
+      "exact": "61/20",
+      "approximate": 3.05
+    },
+    "limiting_definitions": {
+      "R0": ".03 D",
+      "b0": ".85+.05 D+.0001",
+      "c0": "1.28-sqrt(1.28^2-b0^2)",
+      "F": "(.47 D-epsilon)^2-c0^2-(b0-.03 D)^2-b0^2"
+    },
+    "monotonic_interval": [
+      {
+        "exact": "64/25",
+        "approximate": 2.56
+      },
+      {
+        "exact": "61/20",
+        "approximate": 3.05
+      }
+    ],
+    "exact_derivative_lower": {
+      "exact": "1032427/1250000",
+      "approximate": 0.8259416
+    },
+    "exact_sqrt_lower": {
+      "exact": "3/4",
+      "approximate": 0.75
+    },
+    "exact_sqrt_margin": {
+      "exact": "1767331/25000000",
+      "approximate": 0.07069324
+    },
+    "exact_c_lower_at_Dhi": {
+      "exact": "12/25",
+      "approximate": 0.48
+    },
+    "exact_c_lower_margin": {
+      "exact": "170169/25000000",
+      "approximate": 0.00680676
+    },
+    "exact_F_upper_at_Dhi": {
+      "exact": "-1107441/100000000",
+      "approximate": -0.01107441
+    },
+    "general_surface_nonexistence_claim": false,
+    "exact_optimal_D_claim": false
+  },
+  "all_arithmetic_certificates_rational": true,
+  "body_or_BVP_runs": 0,
+  "solver_or_saved_field_mutations": 0,
+  "elapsed_seconds": 0.0014194249961292371
+}

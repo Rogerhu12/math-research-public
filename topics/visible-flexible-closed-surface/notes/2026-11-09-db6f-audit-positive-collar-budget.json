@@ -1,0 +1,400 @@
+{
+  "status": "EXACT_GEOMETRIC_LOCAL_SEAM_AND_AUXILIARY_ENVELOPE_BUDGET",
+  "scope": "An explicit C2 noncompact saddle template and retained-piece pair bounds; closed connectors and common metric remain unconstructed.",
+  "script_sha256": "e80831d9950975ed673b93df4c82ead661a4e8887f422dd49162c2bbc2ba6297",
+  "sources": [
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    }
+  ],
+  "core_bounds": {
+    "hmin_lower": {
+      "numerator": "327844003649",
+      "denominator": "500000000000"
+    },
+    "hmin_upper": {
+      "numerator": "40981930303",
+      "denominator": "62500000000"
+    },
+    "H_lower": {
+      "numerator": "296663669267",
+      "denominator": "250000000000"
+    },
+    "H_upper": {
+      "numerator": "1186677994999",
+      "denominator": "1000000000000"
+    },
+    "diameter_lower": {
+      "numerator": "260440120871",
+      "denominator": "125000000000"
+    },
+    "diameter_upper": {
+      "numerator": "520880243903",
+      "denominator": "250000000000"
+    },
+    "Delta_lower": {
+      "numerator": "53096666977",
+      "denominator": "100000000000"
+    },
+    "curvature_radius_lower": {
+      "numerator": "104",
+      "denominator": "995"
+    }
+  },
+  "new_auxiliary_envelope": {
+    "retained_band_halfheight": {
+      "numerator": "1",
+      "denominator": "100"
+    },
+    "envelope_halfheight": {
+      "numerator": "9",
+      "denominator": "100"
+    },
+    "cap_center_height": {
+      "numerator": "3",
+      "denominator": "10"
+    },
+    "cap_sphere_radius": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "epsilon0": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "epsilon1": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "Dstar": {
+      "numerator": "63",
+      "denominator": "25"
+    },
+    "required_reach_at_Dstar": {
+      "numerator": "189",
+      "denominator": "2500"
+    },
+    "cap_axes_still_use_z_plus_b": true,
+    "physical_core_or_common_metric_redefined": false
+  },
+  "diameter_and_witness": {
+    "initial_witness_Lb_lower": {
+      "numerator": "1590733478037657874993896930713546301",
+      "denominator": "664613997892457936451903530140172288"
+    },
+    "initial_witness_Lb_upper": {
+      "numerator": "3181528423635277851847395898190540045",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "initial_envelope_LB_upper": {
+      "numerator": "3197040279074814148934341854355834703",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "halfphase_envelope_UB_lower": {
+      "numerator": "704393617137110424362303206532619487",
+      "denominator": "332306998946228968225951765070086144"
+    },
+    "halfphase_envelope_UB_upper": {
+      "numerator": "2817574479842140198525993359005890911",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "core_core_diameter_upper": {
+      "numerator": "694947585964390118572349380999161823",
+      "denominator": "332306998946228968225951765070086144"
+    },
+    "all_cap_pairs_upper": {
+      "numerator": "4",
+      "denominator": "5"
+    },
+    "initial_actual_diameter_lower": {
+      "numerator": "41263718446199477231864206210654045173",
+      "denominator": "16615349947311448411297588253504307200"
+    },
+    "initial_actual_diameter_upper": {
+      "numerator": "83581383965278872373844015774666815159",
+      "denominator": "33230699894622896822595176507008614400"
+    },
+    "halfphase_actual_diameter_upper": {
+      "numerator": "74094738984462023613635303390918220359",
+      "denominator": "33230699894622896822595176507008614400"
+    },
+    "strict_nine_to_ten_margin": {
+      "numerator": "449885546742588509300669470647652381",
+      "denominator": "8307674973655724205648794126752153600"
+    },
+    "rigid_quotient_ratio_lower": {
+      "numerator": "8432697907936930850093109030389869987",
+      "denominator": "165054873784797908927456824842616180692"
+    },
+    "held_distance_lower": {
+      "numerator": "52096666977",
+      "denominator": "100000000000"
+    },
+    "held_ratio_lower": {
+      "numerator": "33812670035601524389956491393987536930996224",
+      "denominator": "163244890557185297605164093309896123357421875"
+    },
+    "fixed_cap_pair_diameter_lower": {
+      "numerator": "3",
+      "denominator": "5"
+    }
+  },
+  "old_narrow_envelope_obstruction": {
+    "normal": [
+      {
+        "numerator": "9",
+        "denominator": "41"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "40",
+        "denominator": "41"
+      }
+    ],
+    "core_minus_ball_support_times_41_lower": {
+      "numerator": "440542079647",
+      "denominator": "500000000000"
+    },
+    "required_reach_from_actual_witness": {
+      "numerator": "123791155338598431695592618631962135519",
+      "denominator": "1661534994731144841129758825350430720000"
+    },
+    "necessary_slack_at_vertical_tangent": {
+      "numerator": "123791155338598431695592618631962135519",
+      "denominator": "2128841711999279327697503494980239360000"
+    },
+    "available_slack_at_band_edge": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "available_slack_at_central_curve": {
+      "numerator": "121",
+      "denominator": "8200"
+    },
+    "expanded_envelope_slack_at_band_edge": {
+      "numerator": "681",
+      "denominator": "8200"
+    },
+    "hypothesis": "Exact vertical tangent is retained and the entire closed surface obeys the corresponding one-sided envelope."
+  },
+  "explicit_saddle_template": {
+    "delta": {
+      "numerator": "1",
+      "denominator": "1000000"
+    },
+    "transition_length": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "polynomial_coefficients_ascending": [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "64",
+        "denominator": "1"
+      },
+      {
+        "numerator": "-192",
+        "denominator": "1"
+      },
+      {
+        "numerator": "192",
+        "denominator": "1"
+      },
+      {
+        "numerator": "-64",
+        "denominator": "1"
+      }
+    ],
+    "derivative_squared_max": {
+      "numerator": "36864",
+      "denominator": "3125"
+    },
+    "second_derivative_min": {
+      "numerator": "-24",
+      "denominator": "1"
+    },
+    "second_derivative_max": {
+      "numerator": "96",
+      "denominator": "5"
+    },
+    "slope_bound_A": {
+      "numerator": "1",
+      "denominator": "1250"
+    },
+    "second_derivative_bound_M": {
+      "numerator": "24",
+      "denominator": "25"
+    },
+    "saddle_parameter_tau": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "saddle_f_second_derivative": {
+      "numerator": "2376",
+      "denominator": "3125"
+    },
+    "infinite_complete_template_reach_lower": {
+      "numerator": "676000000000000",
+      "denominator": "7116526015802101"
+    },
+    "principal_curvature_absolute_upper": {
+      "numerator": "995",
+      "denominator": "104"
+    },
+    "radial_support_lower": {
+      "numerator": "327838003649",
+      "denominator": "500000160000"
+    },
+    "all_seam_two_jets_vanish": true,
+    "finite_retained_part_inside_envelope_plus_epsilon": true,
+    "proof_uses_all_pairs_not_only_curvature": true
+  },
+  "fixed_small_caps": {
+    "normal_chord_radius": {
+      "numerator": "1",
+      "denominator": "100"
+    },
+    "unit_normal_membership_dot_lower": {
+      "numerator": "19999",
+      "denominator": "20000"
+    },
+    "axis_vertical_component_lower": {
+      "numerator": "10301516967333098015004504717172670464",
+      "denominator": "79538210590881946296184897454763501125"
+    },
+    "radial_support_lower": {
+      "numerator": "4040991178421128079497630980369604065788471663423242896077",
+      "denominator": "3106961351206326027194722556826699262695312500000000000000"
+    },
+    "all_phase_support_gap_over_active_envelope": {
+      "numerator": "3167686286211114128070817947886787943687076153009",
+      "denominator": "31815284236352778518473958981905400450000000000000"
+    },
+    "all_phase_support_gap_over_opposite_cap": {
+      "numerator": "114073618337091342624511868911500425433",
+      "denominator": "1590764211817638925923697949095270022500"
+    }
+  },
+  "fixed_flat_annuli": {
+    "radius_center": {
+      "numerator": "2",
+      "denominator": "5"
+    },
+    "radius_halfwidth": {
+      "numerator": "1",
+      "denominator": "100"
+    },
+    "absolute_height": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "slab_halfheight": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "convex_combination_weight_upper": {
+      "numerator": "1",
+      "denominator": "14"
+    },
+    "common_envelope_host_slab_disk_radius_lower": {
+      "numerator": "8271161257",
+      "denominator": "16000000000"
+    },
+    "radial_support": {
+      "numerator": "1",
+      "denominator": "10"
+    }
+  },
+  "retained_pieces_only": {
+    "cross_piece_distance_lower_bounds": {
+      "active_collar_to_either_cap": {
+        "numerator": "37",
+        "denominator": "200"
+      },
+      "active_collar_to_either_annulus": {
+        "numerator": "122844003649",
+        "denominator": "500000000000"
+      },
+      "annulus_to_either_cap": {
+        "numerator": "169163669267",
+        "denominator": "250000000000"
+      },
+      "opposite_annuli": {
+        "numerator": "1",
+        "denominator": "5"
+      },
+      "opposite_caps": {
+        "numerator": "2",
+        "denominator": "5"
+      }
+    },
+    "all_pair_normal_inequality_radius": {
+      "numerator": "37",
+      "denominator": "400"
+    },
+    "all_radial_support_lower": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "reach_of_union_with_boundary_claimed": false,
+    "whole_closed_surface_reach_claimed": false
+  },
+  "all_exact_strict_gates_passed": true,
+  "safe_displays": {
+    "D0_upper": "2.51518578393841",
+    "D1_upper": "2.22970744580831",
+    "rigid_ratio_lower": "0.05109026903944",
+    "held_ratio_lower": "0.20712850442174",
+    "infinite_template_reach_lower": "0.09499016774462",
+    "retained_pair_radius": "0.09250000000000",
+    "template_radial_support_lower": "0.65567579748174",
+    "common_host_slab_disk_radius_lower": "0.51694757856250",
+    "fixed_cap_support_gap_lower": "0.07170994764003"
+  },
+  "unpaid": [
+    "connected closed C2 geometric connectors",
+    "global all-time embedding of completed surfaces",
+    "new-connector and mixed-point normal inequalities",
+    "common metric on moving connectors",
+    "exact isometric family and convergence",
+    "final independent replay"
+  ],
+  "current_M15_candidate_data_read": false,
+  "new_solver_root_RK_integration_optimization_calls": 0
+}

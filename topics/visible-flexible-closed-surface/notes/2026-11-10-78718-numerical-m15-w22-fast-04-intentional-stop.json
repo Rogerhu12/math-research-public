@@ -1,0 +1,13 @@
+{
+  "schema": "78718-route-change-stop-v1",
+  "utc": "2026-11-10T12:36:54.070133+00:00",
+  "session": 83728,
+  "status": "INTENTIONALLY_STOPPED",
+  "reason": "Switch from the stalled half-height geometric warm to a genuine weaker-height cold linear bootstrap, with the original physical metric and final target unchanged. Geometric Newton retraction keeps the same residual and acceptance.",
+  "mathematical_success": false,
+  "nonexistence_or_failure_proved": false,
+  "actual_stop_tool_chunk": "f4eb4d",
+  "actual_exit_code": 1,
+  "natural_exit": false,
+  "interpretation": "Research route change after shrinking accepted steps near the unchanged positive branch guard; neither mathematical nonexistence nor solver success."
+}

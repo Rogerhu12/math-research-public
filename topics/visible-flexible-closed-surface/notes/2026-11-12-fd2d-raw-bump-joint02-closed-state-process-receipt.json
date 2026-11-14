@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-observed-child-process-exit-v1",
+  "argv": [
+    "python",
+    "-u",
+    "scripts/fd2d-gc-bump-closed-state-consumer.py",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--input",
+    "notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-joint02-closed-state",
+    "--representation",
+    "clean"
+  ],
+  "cwd": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "started_utc": "2026-11-12T12:24:29.009957+00:00",
+  "ended_utc": "2026-11-12T12:24:38.805233+00:00",
+  "seconds": 9.79530780099958,
+  "actual_child_returncode": 0,
+  "returncode_convention": "Negative child returncode is an observed signal; wrapper returns 128+signal"
+}

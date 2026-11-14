@@ -1,0 +1,27 @@
+{
+  "schema": "fd2d-actual-main-run-start-observation-v1",
+  "session_id": 77825,
+  "launch_chunk": "c197ff",
+  "started": true,
+  "exit_not_yet_observed": true,
+  "observed_utc": "2026-11-12T16:36:48.514501+00:00",
+  "out_prefix": "notes/2026-11-12-fd2d-raw-bump-reuse23",
+  "driver": {
+    "path": "scripts/fd2d-gc-raw-bump-refined-angular-reuse-run.py",
+    "bytes": 32812,
+    "sha256": "2d605667eb218791964b93455b8842b38043faa8a1ebc37a04f2cbd9e4b2cf76"
+  },
+  "input": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "blocks": 6,
+  "iterations_per_block": 1,
+  "block_cells": 2,
+  "angular_modes": 31,
+  "tail_parameter_count": 16,
+  "physical_profile_parameter_count": 7,
+  "radial_node_count": 129,
+  "finite_target_unchanged_from_21": true
+}

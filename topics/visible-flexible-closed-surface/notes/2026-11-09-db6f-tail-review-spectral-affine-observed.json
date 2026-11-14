@@ -1,0 +1,51 @@
+{
+  "status": "CLOSED_INDEPENDENT_STATIC_AND_METADATA_REVIEW",
+  "executions": [
+    {
+      "receipt": "99db4a",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.349205249,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-tail-review-spectral-affine-inputs.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-affine-inputs.json"
+      ],
+      "result": "97 bindings, 15 callback AST identities, original closed own-M14 DN schema, weights, physical inputs and new output paths pass."
+    }
+  ],
+  "read_only_tool_notes": [
+    "A batch of read-only tools was rejected before process creation because exec-server transport disconnected; later pwd receipt20f034 exited0 and all required reads resumed.",
+    "One supplementary rg (c689a6) exited2 because an additional guessed nonbinding f6curve_profile.py path did not exist. It did not affect the actual bound source graph; the subsequent 97-file check passed."
+  ],
+  "author_execution_scope": "Author pureprepare and definition-only observations are in the author frozen bundle, not claimed as reviewer execution.",
+  "module_imports_by_independent_checker": 0,
+  "prefix_objects": 0,
+  "bridge_or_flow_initializations": 0,
+  "restart_calls": 0,
+  "newton_install_calls": 0,
+  "solver_factory_calls": 0,
+  "BVP_or_DN_calls": 0,
+  "new_positive_candidate_packets": 0,
+  "runtime_after_install_gate_paid": false,
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-review-spectral-affine-runner.md",
+    "bytes": 11104,
+    "sha256": "d6a439ceb745451fd039a7810b9b3f6e91fde3a1cc4a3637f8a4ddff0d512751"
+  },
+  "checker": {
+    "path": "scripts/db6f-tail-review-spectral-affine-inputs.py",
+    "bytes": 10686,
+    "sha256": "555cec5ff2b99e23a0fa700a86c0253dfd94fb4cd65522917a30cb6846ced72c"
+  },
+  "check_report": {
+    "path": "notes/2026-11-09-db6f-tail-review-spectral-affine-inputs.json",
+    "bytes": 3338,
+    "sha256": "36121327bd55a4f64de6834c10c8f0da838469046bb7606c8ac334453f104884"
+  },
+  "source_ledger": {
+    "path": "notes/2026-11-09-db6f-tail-review-spectral-affine-sources.json",
+    "bytes": 5559,
+    "sha256": "337b09d519e63251e41ec3cb1b56334e9425807766fadf54655ec4f90e2bb2ed"
+  }
+}

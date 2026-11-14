@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-active-run-static-input-manifest-v1",
+  "session_id": 29402,
+  "launch_chunk_id": "12b556",
+  "active_outputs_excluded": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run-v2.py",
+      "bytes": 21199,
+      "sha256": "ef456ccf2ffb2d213cb9663de07d0a80fe0301445a1569fb366cdf8b12bcaded"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-warm01-warm.npz",
+      "bytes": 55033,
+      "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas10-static-manifest.json",
+      "bytes": 2306,
+      "sha256": "40f2efb7fa6c2d9efb67c5993be5a0cc299d6e30cf78cc7c3b342da5023a19d3"
+    }
+  ],
+  "equations_same_as_atlas10": true,
+  "changes": "8-cell assembly and process memory phases only"
+}

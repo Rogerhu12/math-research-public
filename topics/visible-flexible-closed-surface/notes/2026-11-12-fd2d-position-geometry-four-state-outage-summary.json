@@ -1,0 +1,178 @@
+{
+  "schema": "fd2d-actual-position-geometry-outage-summary-v1",
+  "scope": "New summary transcribed from actual completed Node output and explicitly observed file identities. It is not a byte-for-byte reconstruction of the original detailed radial reports.",
+  "source_location_at_execution": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "kernel": {
+    "path": "scripts/fd2d-direct-position-two-jet-geometry-R187.cjs",
+    "sha256": "f4e84afd9699c275e7e0dc1658cff4971691125f0afaad0eab602c30b93738f0",
+    "unchanged_from_small_check": true
+  },
+  "engine_sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+  "candidate_sha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+  "sampling": "All actual original phase/Hermite and spline knots, interval midpoint and G2 nodes, 128 angular points; complete quarter Gauss8 primitives and analytic two jets, no DFT.",
+  "states": [
+    {
+      "name": "R187 gap.05 step6",
+      "input": "notes/2026-11-12-fd2d-direct-position-R187-LM-01.json",
+      "input_sha256": "531a87b1b4e82d4818eefadaf81c3d7c8827c6b85f096ba041944a9247691155",
+      "original_output": "notes/2026-11-12-fd2d-direct-position-R187-step6-geometry-01.json",
+      "original_output_sha256": "4478a3cc5a5ef7939d6901fd5ee2a509f33881ba5932cdb7f29ea8bf6dca9d3d",
+      "output_bytes": 116506,
+      "actual_execution": {
+        "start_chunk": "9d26f1",
+        "session": 53549,
+        "completion_chunk": "d12f42",
+        "exit_code": 0,
+        "seconds": 1.50696101
+      },
+      "sample": {
+        "maxRelativeMetric": 0.02766754630172886,
+        "minImmersion": 0.9755939366474904,
+        "maxCurvature": 7.044638262685982,
+        "maxSquaredRadius": 1.4186837986908212,
+        "minZ": 0,
+        "maxZ": 0.7429605066151259,
+        "cutZ": 0.7429605066151259
+      },
+      "worstCurvature": {
+        "s": 0.8726739498716914,
+        "u": 1.5707963267948966,
+        "piece": "cut_second_jet_brake",
+        "relativeMetric": 0.0003389965953120022,
+        "principalCurvatures": [
+          7.044638262685982,
+          0.07480214197918844
+        ]
+      },
+      "worstMetric": {
+        "s": 0.30468749999999994,
+        "u": 1.1780972450961724,
+        "piece": "frozen_feedback_prefix"
+      }
+    },
+    {
+      "name": "R187 gap.05 step16",
+      "input": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+      "input_sha256": "b30236a681fdd4329386583a98e740ff2d281f853d9873835f093228129bafab",
+      "original_output": "notes/2026-11-12-fd2d-direct-position-R187-step16-geometry-01.json",
+      "original_output_sha256": "4b29763cf88c5649cab7c466c3b24919eb5ecd545bfd9f1cce52dcd90b44bc25",
+      "output_bytes": 116348,
+      "actual_execution": {
+        "start_chunk": "a91403",
+        "session": 73889,
+        "completion_chunk": "5c3398",
+        "exit_code": 0,
+        "seconds": 1.29392654
+      },
+      "sample": {
+        "maxRelativeMetric": 0.047633684849005216,
+        "minImmersion": 0.9645067907281449,
+        "maxCurvature": 11.836252554473024,
+        "maxSquaredRadius": 1.418437572295002,
+        "minZ": 0,
+        "maxZ": 0.7417916484398404,
+        "cutZ": 0.7417916484398404
+      },
+      "worstCurvature": {
+        "s": 0.36293298329056384,
+        "u": 1.5707963267948966,
+        "piece": "frozen_feedback_prefix",
+        "relativeMetric": 0.031201784897556872,
+        "principalCurvatures": [
+          -0.5334625414735594,
+          -11.836252554473024
+        ]
+      },
+      "worstMetric": {
+        "s": 0.30024171959121754,
+        "u": 1.1780972450961724,
+        "piece": "frozen_feedback_prefix"
+      }
+    },
+    {
+      "name": "R187 gap.64 step24",
+      "input": "notes/2026-11-12-fd2d-direct-position-R187-gap064-LM-01-report.json",
+      "input_sha256": "3961c574a32e07742e261acbc7e9074a3ad07e0d0d8c47f43def9df42f809aeb",
+      "original_output": "notes/2026-11-12-fd2d-direct-position-R187-gap064-geometry-01.json",
+      "original_output_sha256": null,
+      "output_hash_status": "Not read before the next outage; do not infer or invent it",
+      "actual_execution": {
+        "start_chunk": "bd413a",
+        "session": 63306,
+        "completion_chunk": "97aa1a",
+        "exit_code": 0,
+        "seconds": 1.493370652
+      },
+      "sample": {
+        "maxRelativeMetric": 0.4191415456889742,
+        "minImmersion": 0.6589137882702369,
+        "maxCurvature": 46.37010021519778,
+        "maxSquaredRadius": 1.6996462130647312,
+        "minZ": 0,
+        "maxZ": 0.5838998470675547,
+        "cutZ": 0.5020706495543763
+      },
+      "worstCurvature": {
+        "s": 0.20611069331622553,
+        "u": 0.5399612373357456,
+        "piece": "frozen_feedback_prefix",
+        "relativeMetric": 0.3239744998013798,
+        "principalCurvatures": [
+          -0.15231866867162935,
+          -46.37010021519778
+        ]
+      }
+    },
+    {
+      "name": "R190 gap.64 step32",
+      "input": "notes/2026-11-12-fd2d-designed-metric-R190-gap064-LM-02-report.json",
+      "input_sha256": "6709f1095ad6124852e021de4aafa5ced2a0f90571ad8f82283829f48f360d6c",
+      "provider_sha256": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+      "original_output": "notes/2026-11-12-fd2d-designed-metric-R190-gap064-geometry-01.json",
+      "original_output_sha256": null,
+      "output_hash_status": "Not read before the next outage; do not infer or invent it",
+      "actual_execution": {
+        "start_chunk": "3d3756",
+        "session": 22525,
+        "completion_chunk": "7d09c5",
+        "exit_code": 0,
+        "seconds": 1.662848831
+      },
+      "sample": {
+        "maxRelativeMetric": 0.278778721245762,
+        "minImmersion": 0.7913011850767804,
+        "maxCurvature": 28.64173927864625,
+        "maxSquaredRadius": 1.7009281702111627,
+        "minZ": 0,
+        "maxZ": 0.5047629478480318,
+        "cutZ": 0.39937772174080727
+      },
+      "saved_worst_metric_overlap": 4.440892098500626e-16,
+      "worstCurvature": {
+        "s": 0.2583847899743383,
+        "u": 2.405281875404685,
+        "piece": "frozen_feedback_prefix",
+        "relativeMetric": 0.11529627873950796,
+        "inwardSupport": -0.21905757931453332,
+        "principalCurvatures": [
+          -0.5070029100087048,
+          -28.64173927864625
+        ]
+      }
+    }
+  ],
+  "conclusions": [
+    "The gap.05 L2 improvement from step6 to step16 is accompanied by a real sampled curvature peak growing from 7.0446 to 11.8363.",
+    "Both sampled strong-amplitude states have substantially larger curvature in the early frozen_feedback_prefix, even after allowing radius design.",
+    "The actual cut height is not an upper bound on all interior heights.",
+    "Negative sampled inward support is retained as a diagnostic; it is not a nonexistence result.",
+    "No finite screen proves continuous immersion, embedding, metric accuracy, reach, held separation, or the strong target."
+  ],
+  "pending_read_only_execution": {
+    "cell": "g3:10",
+    "reason": "Reading old compact transport generator CLI",
+    "OS_child_or_exit_observed": false
+  },
+  "all_four_math_diagnostics_completed_before_environment_unavailable": true,
+  "inaccessible_original_reports_not_assumed_destroyed": true
+}

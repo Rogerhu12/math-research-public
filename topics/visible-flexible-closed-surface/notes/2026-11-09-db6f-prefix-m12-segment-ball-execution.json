@@ -1,0 +1,38 @@
+{
+  "status": "observed-finite-Fraction-ledger-completion",
+  "observer": "/root/coupled_prefix",
+  "record_written_utc": "2026-11-09T13:31:44.264905+00:00",
+  "command": [
+    "python",
+    "scripts/db6f-prefix-m12-segment-ball-budget.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "actual_exit_code": 0,
+  "execution_tool_chunk": "f8329a",
+  "stdout_capture": "scalar summary in execution tool output; no separate run log was written",
+  "new_integrals_evaluated": false,
+  "solver_root_backend_calls": 0,
+  "sampled_positions_used": false,
+  "candidate_geometry_changed": false,
+  "fixed_g_changed": false,
+  "independent_review_status_at_author_close": "pending",
+  "closed_files": [
+    {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-m12-segment-ball-budget.py",
+      "bytes": 11401,
+      "sha256": "b209f8e1feadf1fb39c9ba4c8173d617728d88532ebe130e92b3914b12066a89"
+    },
+    {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json",
+      "bytes": 54651,
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c"
+    },
+    {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-proof.md",
+      "bytes": 8141,
+      "sha256": "bad275038aa56b96209620cfe91a0154fbb2dad55697c58264ea80b6c3044935"
+    }
+  ]
+}

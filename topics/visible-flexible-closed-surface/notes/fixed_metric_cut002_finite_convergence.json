@@ -1,0 +1,28 @@
+{
+  "scope": "Finite depth8 N80 protected physical tail only. Deep raw cell80 curvature about342.85 makes it inadmissible as a globally low-curvature final geometry. Same-physical-metric radial comparison, not exact closure.",
+  "cut_fundamental": -1e-06,
+  "modes": 8,
+  "steps": [
+    64,
+    128
+  ],
+  "source_results": [
+    "fixed_metric_cut002_tail_m8_a1e6.json",
+    "fixed_metric_cut002_tail_m8_s128_a1e6.json"
+  ],
+  "slope_abs_change": 4.489048801464054e-14,
+  "slope_rel_change": 7.90755437504328e-09,
+  "second_abs_change": 5.237222602209185e-13,
+  "normalized_full_defects": [
+    2.9694363190557738e-08,
+    2.9694365299981498e-08
+  ],
+  "minimum_leading": [
+    0.7443055735391725,
+    0.7443055712652205
+  ],
+  "shooting_residuals": [
+    1.2538846337863757e-10,
+    3.1448169635335277e-10
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "status": "PASS-independent-full-proof-and-static-interface-review-v2",
+  "reviewer": "/root/independent_geometry",
+  "date": "2026-11-09",
+  "proof_v2": {
+    "path": "notes/2026-11-09-db6f-tail-free-cut-schur-method-v2.md",
+    "sha256": "479252a0fbaa8ba4d7299acee038a4b49f22a40e8f3c6cc4b4cff50eb6f16802",
+    "bytes": 15835
+  },
+  "source_ledger_v2": {
+    "path": "notes/2026-11-09-db6f-tail-free-cut-schur-sources-v2.json",
+    "sha256": "06c4f4283fa55b13e58950d4d97b6e8c7e28d29fffbfff7c64febcf4e401c528",
+    "bytes": 2139
+  },
+  "frozen_v1": {
+    "path": "notes/2026-11-09-db6f-tail-free-cut-schur-method.md",
+    "sha256": "12b9deadc7f5271acccf19dcf770ab0600f28e34ff5cc03a9cc03cf1198bde9c",
+    "bytes": 15769
+  },
+  "v2_is_exactly_the_single_logical_wording_replacement": true,
+  "all_19_numbered_formulas_unchanged": true,
+  "primary_sources_checked": [
+    {
+      "path": "scripts/db6f-prefix-tail-trial-core.mjs",
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "bytes": 17134
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-trial-split.mjs",
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "bytes": 1952
+    },
+    {
+      "path": "scripts/950f-prefix-nonlinear-coupling-v2.py",
+      "sha256": "e2277a3ad801ce207134d4ec71fb0e3fb6687b638b9624162080d3bdb497522b",
+      "bytes": 9645
+    },
+    {
+      "path": "scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "bytes": 19011
+    },
+    {
+      "path": "scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "bytes": 19466
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+      "bytes": 13095
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+      "bytes": 2892
+    }
+  ],
+  "additional_interface_sources_checked": [
+    {
+      "path": "scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "bytes": 5118
+    },
+    {
+      "path": "notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+      "bytes": 22225
+    },
+    {
+      "path": "notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+      "bytes": 5131
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+      "bytes": 5123
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs",
+      "sha256": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+      "bytes": 5715
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+      "bytes": 2420
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs",
+      "sha256": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+      "bytes": 4129
+    }
+  ],
+  "total_source_bindings": 14,
+  "review_checks": {
+    "tail_residual_plus_R_and_deep_minus_e": true,
+    "full_stage_momentum_port_scaling_applied_once": true,
+    "nonhomogeneous_b_propagation_and_reconstruction": true,
+    "node0_to_engine_rho_chain_rule": true,
+    "physical_height_c4_Q_and_full_M_plus_1_moment_root": true,
+    "physical_slope_m2_c3_Q_plus_sqrt2_w_L": true,
+    "prefix_sigma_gauge_sqrtE_and_physical_arclength_rhs": true,
+    "prefix_collocation_and_height_forcing_retained": true,
+    "last_system_rhs_minus_rout_minus_Dout_b0": true,
+    "dimension_count_and_two_way_equivalence_under_chart_invertibility": true,
+    "singular_chart_not_a_nonlinear_nonexistence_result": true,
+    "unconverged_local_linearization_not_a_solved_DN": true,
+    "row_scales_frozen_for_the_unscaled_residual_linearization": true,
+    "existing_heightJetJacobian_is_only_contracted_tangent_and_has_no_forcing": true
+  },
+  "actual_new_root_calls": 0,
+  "actual_new_flow_calls": 0,
+  "actual_new_solver_calls": 0,
+  "new_linear_solver_implemented": false,
+  "synthetic_or_physical_numerical_schur_solve_performed": false,
+  "existing_active_solver_outputs_used": false,
+  "scope": "Conditional exact block algebra and frozen-source normalization/interface review only. No claim that numerical blocks equal true derivatives, that chart pivots are invertible at a current state, that a Newton step succeeds, or that a nonlinear/full closed surface/G5 is complete."
+}

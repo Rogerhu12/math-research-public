@@ -1,0 +1,58 @@
+{
+  "scope": "Coefficient-first metric residual bounds for a shared-jet Fourier map.\n\nInput target packets enclose the SAME analytic a(s), e(s), e'(s), on each\nlisted interval, in the local variable u=(s-left)/(right-left). Interval\npower coefficients and uniform remainder bounds are allowed. This backend\ndoes not establish the supplier's analytic enclosures. It never imports\nthe nonlinear solver, and subtracts coefficients before taking norms.\n",
+  "geometry_sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d",
+  "geometry_data_sha256": "5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8",
+  "target_sha256": "dbfb5c348a6921b078c1ee25c9aa5874856de303afd11b1e6277ac1eebdbbd8c",
+  "target_data_sha256": "d843a18bc7f419d1f943a7bcd22cd5930fea0cbeab632971cf31167811474a73",
+  "script_sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e",
+  "backend_sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18",
+  "storage_bindings": [
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "bytes": 9865,
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "bytes": 887,
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "bytes": 4599313,
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "bytes": 3886748,
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "bytes": 5923,
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "bytes": 11138,
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    }
+  ],
+  "supplier_claim": "Flat-ramp a(s): exact rational formulas in the saved binary main parameters; Tu,Td recomputed by Fraction. The clamped angular spline is solved exactly over Fraction and multiplied by the prescribed quintic cutoff. The bridge has frozen binary L,pt,ps but uses the true sine integral. Every bridge span uses a fifth-order Taylor enclosure around its exact midpoint phase, followed by integration and an explicitly bounded degree-eight truncation. The radius endpoint is not asserted to satisfy the exact bridge matching equation.",
+  "residual_norm": "Bernstein convex-hull bound for each Fourier coefficient, then Fourier l1",
+  "target_supplier_independently_verified": false,
+  "complete_closed_surface": false,
+  "intervals": 6604,
+  "metric_operator_upper": 1.4677456599912536e-07,
+  "coordinate_residual_upper": [
+    7.863022183580442e-08,
+    1.284247406144532e-08,
+    2.5092022726230166e-09
+  ],
+  "minimum_a_lower": 0.5999998144390138,
+  "minimum_chart_rho_lower": 0.1999999999999957,
+  "worst_interval": 961,
+  "intervals_checked": 6604,
+  "entire_prefix_covered": true,
+  "seconds": 91.83651832200121
+}

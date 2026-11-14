@@ -1,0 +1,59 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "theorem": "R181",
+  "scope": "Two new complete scalar profiles with exact positive-coast, radius, round-curvature and rotational-height proofs; primary same .8 cut plus faster redeepen, secondary explicit 23/32 cut. No nonround field transferred or solved.",
+  "files": [
+    {
+      "path": "results/R181-shorter-phase-prefixes-and-an-explicit-variable-cut-budget.md",
+      "bytes": 13495,
+      "sha256": "bab76a81c6a7fffe443776be14075c28580a89a8da20d4211a94012775ee0c8e"
+    },
+    {
+      "path": "scripts/fd2d_r136_shorter_phase_design.py",
+      "bytes": 16727,
+      "sha256": "a83bbb871754080a000415e98e5c8d12e2e395a218fbb8d3a77bc0b8358e91af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl032-candidate.json",
+      "bytes": 21857,
+      "sha256": "b132f1c11d16d3ebbc279ad467843ef95df4ce241d0cac8ac77346f92bec5e5f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl3over16-candidate.json",
+      "bytes": 21829,
+      "sha256": "d6ba4efabc230230fc3d9df84e5d6455158af313838a4cdd36d9e21e4353c0c4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl13over128-candidate.json",
+      "bytes": 21834,
+      "sha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-A_cut23over32-cyl3over16-candidate.json",
+      "bytes": 21878,
+      "sha256": "dd22cf79cb5ed6936d6502a6b35ba511cdfc059469269667efe54e77c9844686"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-A_cut23over32-cyl3over64-candidate.json",
+      "bytes": 21880,
+      "sha256": "1f59789c79a7e929f9d0b2b2dcdee85afa67c3ac4a47d1216d99b2a66d1bcd8f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-report.json",
+      "bytes": 81481,
+      "sha256": "4805e1212c4a273dedc682422848b0dc9c4c61e439640f37e6f89eb112f9c976"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-exit-receipt.json",
+      "bytes": 745,
+      "sha256": "7e9db4ecff90ee366c1ca3c16c8db59f0b2931c7faa85b400162a262c1a42803"
+    }
+  ],
+  "file_count": 9,
+  "total_bytes": 221726,
+  "actual_generation_and_rational_certificate_exit": 0,
+  "old_sources_or_solver_modified": false,
+  "whole_surface_certified": false,
+  "strong_target_completed": false
+}

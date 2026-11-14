@@ -1,0 +1,121 @@
+{
+  "schema": "78718-restart8000-pure-preparation-v1",
+  "status": "PREPARED_ONLY_NO_NEW_CANDIDATE_NO_SOLVER",
+  "scope": "Pure preparation of a new same-g M14 restart with max_nodes=8000.\n\nValidates the unchanged run02 ancestor, its explicitly failed saved CP and own\nlast audited tail, and actual small code-identity checks.  Creates metadata\nonly. No candidate/restart/RHS/Newton/CSC factory/BVP/DN is executed.\n",
+  "launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-launch.json",
+    "bytes": 103214,
+    "sha256": "8fa55f4f50d70e363d91944624e10d394b6906350ab4a2f853b818613c0b5996"
+  },
+  "tail_config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-tail-config.json",
+    "bytes": 2655,
+    "sha256": "705e40dc6f06c51f90da852a635c99c4a8c62984666db259e52dc0e5e7bc0cd2"
+  },
+  "ancestor_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-launch.json",
+    "bytes": 101683,
+    "sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671"
+  },
+  "ancestor_success": false,
+  "failed_CP": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02.json.gz",
+    "bytes": 62486,
+    "sha256": "b04af907d3f3552a484115bfd79cba4ef0848874ba1859f1335aae8b91411b03"
+  },
+  "own_last_warm_packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_tail_0003.json.gz",
+    "bytes": 254263,
+    "sha256": "b26fff3dc70e052ef68a25f3008c36e180c3037311c30fe8e5a9a29b2775fe79"
+  },
+  "failed_CP_polynomial_check": {
+    "shape": [
+      6,
+      6343,
+      43
+    ],
+    "all_coefficients_finite": true,
+    "minimum_span": 2.6325206967516696e-05
+  },
+  "own_last_warm_check": {
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_tail_0003.json.gz",
+      "bytes": 254263,
+      "sha256": "b26fff3dc70e052ef68a25f3008c36e180c3037311c30fe8e5a9a29b2775fe79"
+    },
+    "residual": 6.168952323652266e-10,
+    "history_rows": 1,
+    "last_history_norm": 6.168952323652266e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 8,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "settings": {
+    "modes": 14,
+    "angular": 512,
+    "audit_angular": 1024,
+    "nodes": 1601,
+    "max_nodes": 8000,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "node_heap": 1536
+  },
+  "bindings": 181,
+  "callback_definitions": 27,
+  "typed_code_evidence": {
+    "report": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+      "bytes": 6264,
+      "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+    },
+    "root_observation": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json",
+      "bytes": 1707,
+      "sha256": "164bdb08c46d7d4e709fc3248a0b5f117364bec73e826531c3b2ac228a0a2b74"
+    },
+    "bindings": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+        "bytes": 8260,
+        "sha256": "f869c3e17f5ff58577fb43967dc3f7df825144a9a9650e0ca7c5bb4ff6b95762"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+        "bytes": 7876,
+        "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+        "bytes": 6264,
+        "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json",
+        "bytes": 1707,
+        "sha256": "164bdb08c46d7d4e709fc3248a0b5f117364bec73e826531c3b2ac228a0a2b74"
+      }
+    ],
+    "scope": "Only small source/code identity checks; no candidate or solver success."
+  },
+  "operations": {
+    "candidate_objects": 0,
+    "restart_calls": 0,
+    "RHS_calls": 0,
+    "Newton_install_calls": 0,
+    "CSC_factory_calls": 0,
+    "matrix_calls": 0,
+    "BVP_calls": 0,
+    "DN_calls": 0
+  },
+  "future_actual_exit": "NOT_STARTED; only root can supply actual observation"
+}

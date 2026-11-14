@@ -1,0 +1,166 @@
+{
+  "scope": "Finite original solver gates only; no continuous XYZ, reach or exact-limit certificate.",
+  "mode": "final",
+  "ready": true,
+  "solver_calls": 0,
+  "active_trace_read": false,
+  "status": "PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE",
+  "prefix_CP": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+    "bytes": 64813,
+    "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+  },
+  "summary": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-summary.json",
+    "bytes": 18309,
+    "sha256": "3a8bbbd61b1f4095f29a731b14d43d68a213856f73623a63d49dbfdca9f34f77"
+  },
+  "outer": {
+    "packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0002.json.gz",
+      "bytes": 254030,
+      "sha256": "970cb426872477a55959a450e433acb2a289c3b9fd1ca52ac33d956398a7420d"
+    },
+    "residual": 1.233790464730497e-09,
+    "history_rows": 2,
+    "last_history_norm": 1.233790464730497e-09,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 0,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "final_audit": {
+    "packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+      "bytes": 254106,
+      "sha256": "c253eedbf3a4711ad79740d655262a5991e803e38dab2b4a248c386db9efcb7d"
+    },
+    "residual": 1.233790464730497e-09,
+    "history_rows": 1,
+    "last_history_norm": 1.233790464730497e-09,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 8,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "first_actual_DN": {
+    "status": "PASS_FIRST_ACTUAL_M14_DN_ONLY",
+    "first_request_binding": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "708c447b13a2ddac801873dff66f5f7c6493409aebdc8c0bf92f95700febc25b"
+    },
+    "packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "7c17f5db4ae0977fcdff4ad338e04187dfacc990c3b9106e86819d50bfcbf074"
+    },
+    "residual": 6.168952323652266e-10,
+    "history_rows": 1,
+    "last_history_norm": 6.168952323652266e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 0,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "coefficients": {
+    "shape": [
+      6,
+      6598,
+      43
+    ],
+    "all_coefficients_finite": true,
+    "minimum_span": 2.6325206967516696e-05
+  },
+  "outer_checks": 1,
+  "original_physical_rms": 6.265093215675974e-10,
+  "original_actual_BC": 2.5976382909921256e-15,
+  "sampled_prefix_metric": 8.006151376570554e-08,
+  "source_tail_actualMetric": 8.563817432971632e-09,
+  "required_closed_files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "708c447b13a2ddac801873dff66f5f7c6493409aebdc8c0bf92f95700febc25b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-summary.json",
+      "bytes": 18309,
+      "sha256": "3a8bbbd61b1f4095f29a731b14d43d68a213856f73623a63d49dbfdca9f34f77"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "bytes": 64813,
+      "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_00.npy.gz",
+      "bytes": 3977073,
+      "sha256": "f21b8cf276c11a702073a1157f08614d7bb9bca5e19ad58b3c0cd66376d7541b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_01.npy.gz",
+      "bytes": 3976194,
+      "sha256": "f9cef130b1cb18ea1a8233c5eddbe63db3da49109ed972ca1466609d34548ed7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_02.npy.gz",
+      "bytes": 3934835,
+      "sha256": "47d5a54321162dd0bf07a75f57ca2c35205e5dff8bd3f8aeacbe1fa5f10d83fe"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_03.npy.gz",
+      "bytes": 1183204,
+      "sha256": "800dfe92a8df04fc7d4637a11a6876c5f9ecabb5030043cdaf5add86171ed48a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "7c17f5db4ae0977fcdff4ad338e04187dfacc990c3b9106e86819d50bfcbf074"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0002.json.gz",
+      "bytes": 254030,
+      "sha256": "970cb426872477a55959a450e433acb2a289c3b9fd1ca52ac33d956398a7420d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+      "bytes": 254106,
+      "sha256": "c253eedbf3a4711ad79740d655262a5991e803e38dab2b4a248c386db9efcb7d"
+    }
+  ],
+  "root_observation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-root-observed-exit.json",
+    "bytes": 7230,
+    "sha256": "acfd41643ef533c220de0619db97ef23b743f6b251c6b8e92a07f7f2a1ce2ef5"
+  },
+  "reproduction": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-reproduction.json",
+    "bytes": 258160,
+    "sha256": "622efa5f8319ccd39ebe3ffe55dac5025a1d7e20586149d44cf7c203e6eadb36"
+  }
+}

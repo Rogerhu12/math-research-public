@@ -1,0 +1,834 @@
+{
+  "status": "isolated-positive-floor-probe-not-a-stage-or-coupled-solution",
+  "authorizationScope": "Root explicitly authorized .025/.01/.001 numerical positive-floor probes at the saved lambda=1/16 entry. No active worker, old checkpoint, metric or equation is changed.",
+  "mathematicalScope": "All roots here concern one fixed finite moment target. Positive angular sampling is not a rigorous all-angle bound. Failure is not nonexistence. Successful local roots would still not solve any complete stage or prefix-tail joint system.",
+  "scriptSHA256": "0daac9cb19aa312c55a1817adabab13f06338a6b4a8e9d306da4a000c0bb8670",
+  "inputs": {
+    "config": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-config.json",
+      "sha256": "ce5d00cb72d00fb3161c7224d626ad1417e1ee92e4bc6cfbd9717c4935c2fb7b"
+    },
+    "stage-input": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial4.json.gz",
+      "sha256": "a4a2928a176362e6f1fe5ae64698012225a06a33fea8a6a5f1443e1e5cc2716b"
+    },
+    "control-checkpoint": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-iteration.json.gz",
+      "sha256": "5dc9396d142f8252597c14230c4089f4a16bf527948b68e95e60c2e57c7233af"
+    }
+  },
+  "sourceSHA256": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "stage": 35,
+  "rawCell": 0,
+  "rawSegment": 4,
+  "rawX": 0.5,
+  "x": 0,
+  "originalFloor": 0.05,
+  "geometry": {
+    "r": 0.4738235418774038,
+    "w": 0.0072584641261549685,
+    "w2": 0.000052685301470678616,
+    "E": 1.0000526853014706,
+    "drdx": 0.00959436122131134
+  },
+  "controlResult": {
+    "input": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-iteration.json.gz",
+    "sha256": "5dc9396d142f8252597c14230c4089f4a16bf527948b68e95e60c2e57c7233af",
+    "iteration": {
+      "iteration": 0,
+      "norm": 6.60078222010092,
+      "minA": 0.08211879278547045,
+      "minD": 0.9915015285901698
+    },
+    "stage": 35,
+    "rootCoefficientsByteIdentical": true,
+    "firstRKStepByteIdentical": true,
+    "root": {
+      "minA": 0.1721491935171636,
+      "minD": 0.9999264819800188,
+      "minS": 0.9999991829838761,
+      "residual": 2.7755575615628914e-17,
+      "scale": 0.20427418347600396
+    }
+  },
+  "records": [
+    {
+      "N": 256,
+      "floor": 0.05,
+      "seed": "default-target",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.16233482805621374,
+          "minD": 0.9999235666913948,
+          "minS": 0.9999991087190093,
+          "residual": 0.04161005981724321,
+          "scale": 0.29104360434613186
+        },
+        {
+          "iteration": 1,
+          "minA": 0.1048842252317201,
+          "minD": 0.9999246169201372,
+          "minS": 0.9999991087190093,
+          "residual": 0.03090817811266655,
+          "scale": 0.2774229662607289
+        },
+        {
+          "iteration": 2,
+          "minA": 0.05641177848932339,
+          "minD": 0.9999253873905246,
+          "minS": 0.9999991087190093,
+          "residual": 0.023002675585988293,
+          "scale": 0.26579154579281816
+        },
+        {
+          "iteration": 3,
+          "minA": 0.05131439095514063,
+          "minD": 0.9999254632837064,
+          "minS": 0.9999991087190093,
+          "residual": 0.02228212778102959,
+          "scale": 0.26464713690694425
+        },
+        {
+          "iteration": 4,
+          "minA": 0.05006557871931722,
+          "minD": 0.9999254817589889,
+          "minS": 0.9999991087190093,
+          "residual": 0.022107947055554772,
+          "scale": 0.26436842497832064
+        },
+        {
+          "iteration": 5,
+          "minA": 0.050026749171006864,
+          "minD": 0.9999254823325601,
+          "minS": 0.9999991087190093,
+          "residual": 0.02210254950961308,
+          "scale": 0.26435977392542737
+        },
+        {
+          "iteration": 6,
+          "minA": 0.0500073374424393,
+          "minD": 0.9999254826192868,
+          "minS": 0.9999991087190093,
+          "residual": 0.022099851420014836,
+          "scale": 0.2643554492282904
+        },
+        {
+          "iteration": 7,
+          "minA": 0.050002484890942896,
+          "minD": 0.9999254826909612,
+          "minS": 0.9999991087190093,
+          "residual": 0.02209917698454336,
+          "scale": 0.26435436816308155
+        },
+        {
+          "iteration": 8,
+          "minA": 0.05000005866277186,
+          "minD": 0.9999254827267974,
+          "minS": 0.9999991087190093,
+          "residual": 0.022098839777481026,
+          "scale": 0.26435382764343157
+        }
+      ],
+      "rejectedLineSearchEvaluations": 92
+    },
+    {
+      "N": 256,
+      "floor": 0.05,
+      "seed": "unit-A-c0",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.9999999999999999,
+          "minD": 0.9998788260761075,
+          "minS": 0.9999991087190093,
+          "residual": 0.15738330484795393,
+          "scale": 0.3267343810535215
+        },
+        {
+          "iteration": 1,
+          "minA": 0.3163010677847537,
+          "minD": 0.9999182745062162,
+          "minS": 0.9999991087190093,
+          "residual": 0.04560215858445261,
+          "scale": 0.21668565245660054
+        },
+        {
+          "iteration": 2,
+          "minA": 0.16797390704534526,
+          "minD": 0.9999225540631055,
+          "minS": 0.9999991087190093,
+          "residual": 0.02400897788353981,
+          "scale": 0.22238648553290127
+        },
+        {
+          "iteration": 3,
+          "minA": 0.05869626258638678,
+          "minD": 0.9999248067019791,
+          "minS": 0.9999991087190093,
+          "residual": 0.012606044044457757,
+          "scale": 0.22424530734780543
+        },
+        {
+          "iteration": 4,
+          "minA": 0.053779417633834266,
+          "minD": 0.9999248857646633,
+          "minS": 0.9999991087190093,
+          "residual": 0.012213238065167123,
+          "scale": 0.22426241990034326
+        },
+        {
+          "iteration": 5,
+          "minA": 0.051366056518004584,
+          "minD": 0.9999249242686886,
+          "minS": 0.9999991087190093,
+          "residual": 0.01202267840936307,
+          "scale": 0.22426986236231758
+        },
+        {
+          "iteration": 6,
+          "minA": 0.050170473401400746,
+          "minD": 0.999924943270616,
+          "minS": 0.9999991087190093,
+          "residual": 0.011928817945601449,
+          "scale": 0.22427331907285453
+        },
+        {
+          "iteration": 7,
+          "minA": 0.05002171392442318,
+          "minD": 0.9999249456304642,
+          "minS": 0.9999991087190093,
+          "residual": 0.01191716974141906,
+          "scale": 0.2242737350493498
+        },
+        {
+          "iteration": 8,
+          "minA": 0.050003129703873724,
+          "minD": 0.9999249459252063,
+          "minS": 0.9999991087190093,
+          "residual": 0.01191571502489117,
+          "scale": 0.22427378679779478
+        },
+        {
+          "iteration": 9,
+          "minA": 0.050000806843630015,
+          "minD": 0.9999249459620454,
+          "minS": 0.9999991087190093,
+          "residual": 0.011915533205760689,
+          "scale": 0.22427379326247185
+        },
+        {
+          "iteration": 10,
+          "minA": 0.05000022613379768,
+          "minD": 0.999924945971255,
+          "minS": 0.9999991087190093,
+          "residual": 0.01191548775162449,
+          "scale": 0.2242737948785199
+        }
+      ],
+      "rejectedLineSearchEvaluations": 97
+    },
+    {
+      "N": 256,
+      "floor": 0.025,
+      "seed": "default-target",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.16233482805621374,
+          "minD": 0.9999235666913948,
+          "minS": 0.9999991087190093,
+          "residual": 0.04161005981724321,
+          "scale": 0.29104360434613186
+        },
+        {
+          "iteration": 1,
+          "minA": 0.0474336224072261,
+          "minD": 0.9999255955639484,
+          "minS": 0.9999991087190093,
+          "residual": 0.01961365307075401,
+          "scale": 0.26104123065729556
+        },
+        {
+          "iteration": 2,
+          "minA": 0.027810118256107862,
+          "minD": 0.9999258751504723,
+          "minS": 0.9999991087190093,
+          "residual": 0.01715882393103131,
+          "scale": 0.2568510244219962
+        },
+        {
+          "iteration": 3,
+          "minA": 0.025555199179671594,
+          "minD": 0.999925906461284,
+          "minS": 0.9999991087190093,
+          "residual": 0.01689068763336901,
+          "scale": 0.25638492201475094
+        },
+        {
+          "iteration": 4,
+          "minA": 0.025276199690136458,
+          "minD": 0.9999259103243419,
+          "minS": 0.9999991087190093,
+          "residual": 0.01685769757296346,
+          "scale": 0.2563274587769663
+        },
+        {
+          "iteration": 5,
+          "minA": 0.025136877380595734,
+          "minD": 0.9999259122527325,
+          "minS": 0.9999991087190093,
+          "residual": 0.01684123486947714,
+          "scale": 0.25629877393592027
+        },
+        {
+          "iteration": 6,
+          "minA": 0.025067260535658064,
+          "minD": 0.9999259132161447,
+          "minS": 0.9999991087190093,
+          "residual": 0.016833011583316695,
+          "scale": 0.25628444319206545
+        },
+        {
+          "iteration": 7,
+          "minA": 0.02503246318453196,
+          "minD": 0.999925913697655,
+          "minS": 0.9999991087190093,
+          "residual": 0.016828901954624262,
+          "scale": 0.2562772807370839
+        },
+        {
+          "iteration": 8,
+          "minA": 0.025015067276040703,
+          "minD": 0.9999259139383613,
+          "minS": 0.9999991087190093,
+          "residual": 0.016826847643624285,
+          "scale": 0.2562737002385521
+        },
+        {
+          "iteration": 9,
+          "minA": 0.02500637001346757,
+          "minD": 0.9999259140587022,
+          "minS": 0.9999991087190093,
+          "residual": 0.016825820613929565,
+          "scale": 0.2562719101714913
+        },
+        {
+          "iteration": 10,
+          "minA": 0.025002021555087194,
+          "minD": 0.9999259141188697,
+          "minS": 0.9999991087190093,
+          "residual": 0.016825307130529557,
+          "scale": 0.2562710151835079
+        },
+        {
+          "iteration": 11,
+          "minA": 0.025000934462104673,
+          "minD": 0.9999259141339111,
+          "minS": 0.9999991087190093,
+          "residual": 0.016825178763616763,
+          "scale": 0.2562707914424072
+        },
+        {
+          "iteration": 12,
+          "minA": 0.025000390918314918,
+          "minD": 0.9999259141414318,
+          "minS": 0.9999991087190093,
+          "residual": 0.01682511458065171,
+          "scale": 0.2562706795725686
+        },
+        {
+          "iteration": 13,
+          "minA": 0.02500011914709539,
+          "minD": 0.9999259141451922,
+          "minS": 0.9999991087190093,
+          "residual": 0.01682508248929203,
+          "scale": 0.2562706236378271
+        }
+      ],
+      "rejectedLineSearchEvaluations": 168
+    },
+    {
+      "N": 256,
+      "floor": 0.025,
+      "seed": "unit-A-c0",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.9999999999999999,
+          "minD": 0.9998788260761075,
+          "minS": 0.9999991087190093,
+          "residual": 0.15738330484795393,
+          "scale": 0.3267343810535215
+        },
+        {
+          "iteration": 1,
+          "minA": 0.3163010677847537,
+          "minD": 0.9999182745062162,
+          "minS": 0.9999991087190093,
+          "residual": 0.04560215858445261,
+          "scale": 0.21668565245660054
+        },
+        {
+          "iteration": 2,
+          "minA": 0.16797390704534526,
+          "minD": 0.9999225540631055,
+          "minS": 0.9999991087190093,
+          "residual": 0.02400897788353981,
+          "scale": 0.22238648553290127
+        },
+        {
+          "iteration": 3,
+          "minA": 0.05869626258638678,
+          "minD": 0.9999248067019791,
+          "minS": 0.9999991087190093,
+          "residual": 0.012606044044457757,
+          "scale": 0.22424530734780543
+        },
+        {
+          "iteration": 4,
+          "minA": 0.03902888277617684,
+          "minD": 0.9999251228060001,
+          "minS": 0.9999991087190093,
+          "residual": 0.011048414872061485,
+          "scale": 0.22431374820369054
+        },
+        {
+          "iteration": 5,
+          "minA": 0.029921063399473268,
+          "minD": 0.9999252644028488,
+          "minS": 0.9999991087190093,
+          "residual": 0.010361731188858466,
+          "scale": 0.22433030766714027
+        },
+        {
+          "iteration": 6,
+          "minA": 0.02553774710727803,
+          "minD": 0.9999253315196543,
+          "minS": 0.9999991087190093,
+          "residual": 0.010038812219153308,
+          "scale": 0.22433505770902315
+        },
+        {
+          "iteration": 7,
+          "minA": 0.02500017251663329,
+          "minD": 0.9999253396915604,
+          "minS": 0.9999991087190093,
+          "residual": 0.009999611387228994,
+          "scale": 0.22433545429927212
+        }
+      ],
+      "rejectedLineSearchEvaluations": 42
+    },
+    {
+      "N": 256,
+      "floor": 0.01,
+      "seed": "default-target",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.16233482805621374,
+          "minD": 0.9999235666913948,
+          "minS": 0.9999991087190093,
+          "residual": 0.04161005981724321,
+          "scale": 0.29104360434613186
+        },
+        {
+          "iteration": 1,
+          "minA": 0.0474336224072261,
+          "minD": 0.9999255955639484,
+          "minS": 0.9999991087190093,
+          "residual": 0.01961365307075401,
+          "scale": 0.26104123065729556
+        },
+        {
+          "iteration": 2,
+          "minA": 0.027810118256107862,
+          "minD": 0.9999258751504723,
+          "minS": 0.9999991087190093,
+          "residual": 0.01715882393103131,
+          "scale": 0.2568510244219962
+        },
+        {
+          "iteration": 3,
+          "minA": 0.018790441950362235,
+          "minD": 0.999926000370518,
+          "minS": 0.9999991087190093,
+          "residual": 0.016085922654309165,
+          "scale": 0.2549760265557684
+        },
+        {
+          "iteration": 4,
+          "minA": 0.01013871026489439,
+          "minD": 0.9999261190592643,
+          "minS": 0.9999991087190093,
+          "residual": 0.015080186236772389,
+          "scale": 0.25319391486061665
+        },
+        {
+          "iteration": 5,
+          "minA": 0.010009084615839225,
+          "minD": 0.9999261208174097,
+          "minS": 0.9999991087190093,
+          "residual": 0.015065459424792996,
+          "scale": 0.2531676391399959
+        },
+        {
+          "iteration": 6,
+          "minA": 0.010000988236204277,
+          "minD": 0.9999261209272047,
+          "minS": 0.9999991087190093,
+          "residual": 0.01506453990186006,
+          "scale": 0.2531659983440373
+        },
+        {
+          "iteration": 7,
+          "minA": 0.010000482232869156,
+          "minD": 0.9999261209340665,
+          "minS": 0.9999991087190093,
+          "residual": 0.015064482435199908,
+          "scale": 0.2531658957998965
+        },
+        {
+          "iteration": 8,
+          "minA": 0.01000022923183903,
+          "minD": 0.9999261209374974,
+          "minS": 0.9999991087190093,
+          "residual": 0.01506445370197966,
+          "scale": 0.2531658445279925
+        }
+      ],
+      "rejectedLineSearchEvaluations": 93
+    },
+    {
+      "N": 256,
+      "floor": 0.01,
+      "seed": "unit-A-c0",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.9999999999999999,
+          "minD": 0.9998788260761075,
+          "minS": 0.9999991087190093,
+          "residual": 0.15738330484795393,
+          "scale": 0.3267343810535215
+        },
+        {
+          "iteration": 1,
+          "minA": 0.3163010677847537,
+          "minD": 0.9999182745062162,
+          "minS": 0.9999991087190093,
+          "residual": 0.04560215858445261,
+          "scale": 0.21668565245660054
+        },
+        {
+          "iteration": 2,
+          "minA": 0.019646746305936835,
+          "minD": 0.9999264063145625,
+          "minS": 0.9999991087190093,
+          "residual": 0.004831528391667037,
+          "scale": 0.22792253617625738
+        },
+        {
+          "iteration": 3,
+          "minA": 0.011223187171673098,
+          "minD": 0.9999264542395662,
+          "minS": 0.9999991087190093,
+          "residual": 0.004532558464443604,
+          "scale": 0.22770039547380175
+        },
+        {
+          "iteration": 4,
+          "minA": 0.01021096864034039,
+          "minD": 0.9999264599770069,
+          "minS": 0.9999991087190093,
+          "residual": 0.004497191019272435,
+          "scale": 0.22767371080529067
+        },
+        {
+          "iteration": 5,
+          "minA": 0.01008505661601684,
+          "minD": 0.999926460690385,
+          "minS": 0.9999991087190093,
+          "residual": 0.00449279989882681,
+          "scale": 0.22767039159201763
+        },
+        {
+          "iteration": 6,
+          "minA": 0.010022138899969345,
+          "minD": 0.9999264610468375,
+          "minS": 0.9999991087190093,
+          "residual": 0.00449060631557887,
+          "scale": 0.22766873299863633
+        },
+        {
+          "iteration": 7,
+          "minA": 0.010006414255622941,
+          "minD": 0.999926461135921,
+          "minS": 0.9999991087190093,
+          "residual": 0.004490058156274904,
+          "scale": 0.2276683184773628
+        },
+        {
+          "iteration": 8,
+          "minA": 0.010002483393502026,
+          "minD": 0.9999264611581901,
+          "minS": 0.9999991087190093,
+          "residual": 0.004489921131225004,
+          "scale": 0.22766821485498437
+        },
+        {
+          "iteration": 9,
+          "minA": 0.010000517999809676,
+          "minD": 0.9999264611693243,
+          "minS": 0.9999991087190093,
+          "residual": 0.0044898526206282215,
+          "scale": 0.22766816304478396
+        },
+        {
+          "iteration": 10,
+          "minA": 0.010000026656057547,
+          "minD": 0.9999264611721078,
+          "minS": 0.9999991087190093,
+          "residual": 0.004489835493209873,
+          "scale": 0.22766815009235788
+        }
+      ],
+      "rejectedLineSearchEvaluations": 114
+    },
+    {
+      "N": 256,
+      "floor": 0.001,
+      "seed": "default-target",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.16233482805621374,
+          "minD": 0.9999235666913948,
+          "minS": 0.9999991087190093,
+          "residual": 0.04161005981724321,
+          "scale": 0.29104360434613186
+        },
+        {
+          "iteration": 1,
+          "minA": 0.0474336224072261,
+          "minD": 0.9999255955639484,
+          "minS": 0.9999991087190093,
+          "residual": 0.01961365307075401,
+          "scale": 0.26104123065729556
+        },
+        {
+          "iteration": 2,
+          "minA": 0.00818661410498973,
+          "minD": 0.999926154429055,
+          "minS": 0.9999991087190093,
+          "residual": 0.014697749706446536,
+          "scale": 0.2525125461440815
+        },
+        {
+          "iteration": 3,
+          "minA": 0.004079950486303118,
+          "minD": 0.9999262097062993,
+          "minS": 0.9999991087190093,
+          "residual": 0.014238387249672843,
+          "scale": 0.25168665540100055
+        },
+        {
+          "iteration": 4,
+          "minA": 0.002069132470405143,
+          "minD": 0.9999262366262553,
+          "minS": 0.9999991087190093,
+          "residual": 0.01401590013187956,
+          "scale": 0.2512848034771265
+        },
+        {
+          "iteration": 5,
+          "minA": 0.0010741630664383264,
+          "minD": 0.9999262499112214,
+          "minS": 0.9999991087190093,
+          "residual": 0.013906398076498502,
+          "scale": 0.2510865794390199
+        },
+        {
+          "iteration": 6,
+          "minA": 0.0010123008160733517,
+          "minD": 0.9999262507361428,
+          "minS": 0.9999991087190093,
+          "residual": 0.01389960783244161,
+          "scale": 0.2510742777305825
+        },
+        {
+          "iteration": 7,
+          "minA": 0.0010045705489986725,
+          "minD": 0.9999262508392162,
+          "minS": 0.9999991087190093,
+          "residual": 0.013898759467540253,
+          "scale": 0.25107274068969554
+        },
+        {
+          "iteration": 8,
+          "minA": 0.0010007055725545601,
+          "minD": 0.9999262508907502,
+          "minS": 0.9999991087190093,
+          "residual": 0.01389833531102104,
+          "scale": 0.2510719722096248
+        },
+        {
+          "iteration": 9,
+          "minA": 0.001000222460316901,
+          "minD": 0.9999262508971918,
+          "minS": 0.9999991087190093,
+          "residual": 0.01389828229307867,
+          "scale": 0.25107187615224225
+        }
+      ],
+      "rejectedLineSearchEvaluations": 99
+    },
+    {
+      "N": 256,
+      "floor": 0.001,
+      "seed": "unit-A-c0",
+      "success": false,
+      "originalFunctionExactlyReproduced": true,
+      "error": "Error: momentum Newton line search failed",
+      "accepted": [
+        {
+          "iteration": 0,
+          "minA": 0.9999999999999999,
+          "minD": 0.9998788260761075,
+          "minS": 0.9999991087190093,
+          "residual": 0.15738330484795393,
+          "scale": 0.3267343810535215
+        },
+        {
+          "iteration": 1,
+          "minA": 0.3163010677847537,
+          "minD": 0.9999182745062162,
+          "minS": 0.9999991087190093,
+          "residual": 0.04560215858445261,
+          "scale": 0.21668565245660054
+        },
+        {
+          "iteration": 2,
+          "minA": 0.019646746305936835,
+          "minD": 0.9999264063145625,
+          "minS": 0.9999991087190093,
+          "residual": 0.004831528391667037,
+          "scale": 0.22792253617625738
+        },
+        {
+          "iteration": 3,
+          "minA": 0.002799628037409584,
+          "minD": 0.9999265021554725,
+          "minS": 0.9999991087190093,
+          "residual": 0.004239589724567786,
+          "scale": 0.2274779817133923
+        },
+        {
+          "iteration": 4,
+          "minA": 0.0018285503372528868,
+          "minD": 0.9999265076371521,
+          "minS": 0.9999991087190093,
+          "residual": 0.004206507500804608,
+          "scale": 0.2274523800604987
+        },
+        {
+          "iteration": 5,
+          "minA": 0.001345398049226353,
+          "minD": 0.9999265103633419,
+          "minS": 0.9999991087190093,
+          "residual": 0.004190085622356454,
+          "scale": 0.22743964252787607
+        },
+        {
+          "iteration": 6,
+          "minA": 0.0011044161849114822,
+          "minD": 0.9999265117227916,
+          "minS": 0.9999991087190093,
+          "residual": 0.004181904296689399,
+          "scale": 0.22743328952425113
+        },
+        {
+          "iteration": 7,
+          "minA": 0.0010442448567322229,
+          "minD": 0.9999265120621995,
+          "minS": 0.9999991087190093,
+          "residual": 0.0041798625030483975,
+          "scale": 0.22743170324682527
+        },
+        {
+          "iteration": 8,
+          "minA": 0.0010141684503428108,
+          "minD": 0.9999265122318468,
+          "minS": 0.9999991087190093,
+          "residual": 0.004178842066734221,
+          "scale": 0.2274309103536804
+        },
+        {
+          "iteration": 9,
+          "minA": 0.0010066505056715682,
+          "minD": 0.9999265122742516,
+          "minS": 0.9999991087190093,
+          "residual": 0.0041785870128255645,
+          "scale": 0.22743071216119115
+        },
+        {
+          "iteration": 10,
+          "minA": 0.001002891677932948,
+          "minD": 0.999926512295453,
+          "minS": 0.9999991087190093,
+          "residual": 0.004178459493062378,
+          "scale": 0.22743061306878207
+        },
+        {
+          "iteration": 11,
+          "minA": 0.0010010123002117224,
+          "minD": 0.9999265123060536,
+          "minS": 0.9999991087190093,
+          "residual": 0.004178395734978441,
+          "scale": 0.22743056352353638
+        },
+        {
+          "iteration": 12,
+          "minA": 0.001000072620388214,
+          "minD": 0.9999265123113538,
+          "minS": 0.9999991087190093,
+          "residual": 0.004178363856385925,
+          "scale": 0.22743053875115327
+        }
+      ],
+      "rejectedLineSearchEvaluations": 132
+    }
+  ],
+  "refinements": [],
+  "seconds": 3.2066436799999996
+}

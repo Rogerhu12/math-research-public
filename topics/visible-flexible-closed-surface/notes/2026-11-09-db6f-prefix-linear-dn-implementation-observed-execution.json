@@ -1,0 +1,121 @@
+{
+  "status": "CLOSED_PROTOCOL_TESTS_AND_PURE_PREPARATION_ONLY",
+  "observer": "/root/coupled_prefix",
+  "actual_new_port_node_root_flow_DN_BVP_calls": 0,
+  "actual_new_candidate_packets": 0,
+  "runs": [
+    {
+      "kind": "protocol01_pre_freeze",
+      "tool_receipt": "d2032b",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.107309135,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-01.json",
+        "bytes": 3271,
+        "sha256": "3bd1f0e3550a5c5400ea8de6fca9458db730783f8c53449b2446cdc284c5c694"
+      },
+      "source_bytes_recoverable_at": [
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-linear-client-protocol01-source-snapshot.py",
+          "bytes": 31942,
+          "sha256": "b52e74dc5be77cb3dcc9871d8a4701ddc97510297feb56f66d9184c5fb6d1e05"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-linear-protocol01-test-source-snapshot.py",
+          "bytes": 13532,
+          "sha256": "3fac3455928cf430aec5d32e11e26e613e43f3bf496c3cd00e43698ae1492aa9"
+        }
+      ]
+    },
+    {
+      "kind": "protocol02_final_frozen_sources",
+      "tool_receipt": "47e346",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.251822708,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-02.json",
+        "bytes": 3271,
+        "sha256": "2a7c21f4d2e65e4b664e0fe223ec8be681513215ae8d289a8c116299a914ec14"
+      },
+      "command": [
+        "python",
+        "-B",
+        "scripts/db6f-prefix-test-linear-dn-protocol.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-02.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface"
+    },
+    {
+      "kind": "pure_prepare_not_solver",
+      "tool_receipt": "c27be6",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.195952728,
+      "command": [
+        "python",
+        "-B",
+        "scripts/db6f-prefix-prepare-linear-dn-pilot.py",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "prepared_files": [
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-tail-config.json",
+          "bytes": 3092,
+          "sha256": "2d41a2dacda0aa767c17bc4f944285c3f6a1f4b3f947217c6c3125ed71246a3a"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01_tail-continuation-policy.json",
+          "bytes": 44553,
+          "sha256": "6493fb9fc1b90b4352666a241ff17cde7bcc711e83eb526b9810e9e23a2ec510"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-launch.json",
+          "bytes": 44850,
+          "sha256": "d09a7b6b918c6a35eac9d122aaa754cef67caa630678635fbe61156616fd9241"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-preparation.json",
+          "bytes": 4677,
+          "sha256": "da774ee91424761680d4330f3f4c9be6d6ded3ade52aa607338815c847e38a1e"
+        }
+      ]
+    }
+  ],
+  "historical_source_resolution": {
+    "recovery_receipt": "aab4b3",
+    "actual_exit_code": 0,
+    "method": "Reverse exactly the one pre-freeze classifier hardening patch and extra protocol assertion; save resulting original bytes only after exact SHA equality with protocol01 report. Frozen source/report bytes are not edited. To replay that historical report, place these snapshot bytes under the original adapter/test filenames in an isolated copy; do not overwrite current selected sources.",
+    "current_launcher_uses_snapshots": false
+  },
+  "current_source_identities": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client.py",
+      "bytes": 31943,
+      "sha256": "d0d06d44fe1a99c50a2d20890ec7e91909578851a9d763172b3b48f2639d169e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear-continuation-coupled.py",
+      "bytes": 938,
+      "sha256": "7c381f042b505131ceb81bf47ca8f6d7ac6794c504f48e087c5b33832a537ab9"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-linear-dn-pilot.py",
+      "bytes": 9488,
+      "sha256": "d2023e9497cd2c65c98fda11b7a7e96998fefeabc6fd350e78cc00eb38201ba8"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-linear-dn-protocol.py",
+      "bytes": 13771,
+      "sha256": "6ae0759a5a7b510067297bb5ffacad07dfe2c6a895c345fb2e519e3b8c00a523"
+    }
+  ],
+  "runtime_readiness": "NOT_STARTED. Only root may launch after independent implementation review and root full review.",
+  "final_rehash": {
+    "launch_bindings": 143,
+    "policy_bindings": 142,
+    "all_match": true
+  },
+  "scope": "No actual solver outcome follows from the protocol stubs. Current full prefix remains UNSOLVED; current original continuation03 is untouched."
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "fd2d-actual-nonlinear-tail-ray-continuation-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-ray-continuation.py",
+    "bytes": 7999,
+    "sha256": "f8ea0cc10a13a87b82e70201bc8845f18f5e460ee3ec458d97e16ae097400e5c"
+  },
+  "worker": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker.mjs",
+    "bytes": 16330,
+    "sha256": "682758c3c07b49e15564ff07b6d04b810af87b6396f3a9dfbd5700d3d0962521"
+  },
+  "config": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/config.json",
+    "bytes": 2548,
+    "sha256": "a40599d672a47e2e116cf48db6dc9bbc0f5e654d73f50ac4b8736c629f8a850e"
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/request.json",
+    "bytes": 171,
+    "sha256": "5062c16453ec0d7195165b8ead2c4f033a803966ff26501fa45569d25de54cd2"
+  },
+  "target": {
+    "height": [
+      -1.3144314807763338e-05,
+      1.3153089029661174e-10,
+      -2.4006943319277254e-13,
+      4.563467345614098e-16
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "initial_factor": 5.684341886080802e-14,
+  "growth": 2.8,
+  "responses": [
+    {
+      "call": 1,
+      "factor": 5.684341886080802e-14,
+      "converged": true,
+      "residual": 2.3453092487852374e-13,
+      "failure": null,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-request-0001.json",
+        "bytes": 169,
+        "sha256": "0bd00f23559836a56046a99f7703799a18c797dbbac8f8d073fb34ce8dad5971"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-response-0001.json",
+        "bytes": 69602,
+        "sha256": "ceea81026db8aeb32df1d5221a4350fb2e9c882e3ffa08d13d75a9ccd565c39a"
+      },
+      "seconds": 70.52440969300369,
+      "has_actual_audit": false
+    },
+    {
+      "call": 2,
+      "factor": 1.5916157281026243e-13,
+      "converged": true,
+      "residual": 8.72456784699564e-14,
+      "failure": null,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-request-0002.json",
+        "bytes": 170,
+        "sha256": "4662444575532441b8b4df36ed662b0d1dd47d910b8b88d62c934dbb0bbc11ab"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-response-0002.json",
+        "bytes": 69659,
+        "sha256": "07524fd22835b4d519e3898921cc6f991c9a4fc2cd0e30786738f868940411cc"
+      },
+      "seconds": 165.2439261449981,
+      "has_actual_audit": false
+    },
+    {
+      "call": 3,
+      "factor": 4.456524038687348e-13,
+      "converged": true,
+      "residual": 1.4235919110071493e-13,
+      "failure": null,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-request-0003.json",
+        "bytes": 170,
+        "sha256": "96419f44a9a7863e1c0b2136fe3054779f25cfcba0a63bc770e391260279de52"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-response-0003.json",
+        "bytes": 69688,
+        "sha256": "cc102c9a82c759c3d469d19b6ed9b7f5764c09bc43465888e0a781e04a157068"
+      },
+      "seconds": 136.36570769199898,
+      "has_actual_audit": false
+    }
+  ],
+  "scope": "Actual same-g nonlinear DN continuation in a declared cut-height ray.\n\nEvery response is retained. Only a real converged response advances the\naccepted ray factor. Failed requests are not fabricated into checkpoints.\nThe worker's equations, residual tolerance and geometric root checks remain\nunchanged. This is a finite tail calculation, not a complete surface proof.\n",
+  "full_target_accepted": false,
+  "ready": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-ready.json",
+    "bytes": 4909,
+    "sha256": "fc9f4b4453333f0bd7bc08eb96c6a438e9b76e3e4a90493539416622c3ea9bcb"
+  },
+  "last_accepted": {
+    "call": 3,
+    "factor": 4.456524038687348e-13,
+    "converged": true,
+    "residual": 1.4235919110071493e-13,
+    "failure": null,
+    "request": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-request-0003.json",
+      "bytes": 170,
+      "sha256": "96419f44a9a7863e1c0b2136fe3054779f25cfcba0a63bc770e391260279de52"
+    },
+    "response": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-04/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-response-0003.json",
+      "bytes": 69688,
+      "sha256": "cc102c9a82c759c3d469d19b6ed9b7f5764c09bc43465888e0a781e04a157068"
+    },
+    "seconds": 136.36570769199898,
+    "has_actual_audit": false
+  }
+}

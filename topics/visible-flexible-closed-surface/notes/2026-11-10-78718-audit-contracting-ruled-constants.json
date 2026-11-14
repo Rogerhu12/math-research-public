@@ -1,0 +1,203 @@
+{
+  "scope": "exact scalar margins; no ODE/PDE/mesh or candidate optimization",
+  "checker_sha256": "fae7af9e61dea590abe2a9d730ab764d06cb195dd9257d87140fe58103f42957",
+  "checks": [
+    {
+      "name": "s upper after squaring",
+      "margin": "1/2500",
+      "pass": true
+    },
+    {
+      "name": "p upper after squaring",
+      "margin": "4/625",
+      "pass": true
+    },
+    {
+      "name": "curvature upper after squaring",
+      "margin": "1/20",
+      "pass": true
+    },
+    {
+      "name": "cos theta lower after squaring",
+      "margin": "7/153",
+      "pass": true
+    },
+    {
+      "name": "sin theta lower after squaring",
+      "margin": "1/100",
+      "pass": true
+    },
+    {
+      "name": "minus alpha lower",
+      "margin": "8/195",
+      "pass": true
+    },
+    {
+      "name": "kappa baseline lower",
+      "margin": "19/260",
+      "pass": true
+    },
+    {
+      "name": "alpha and kappa upper",
+      "margin": "1/35",
+      "pass": true
+    },
+    {
+      "name": "brace minimum attained at x=0,c=-1",
+      "value": "346/725",
+      "pass": true
+    },
+    {
+      "name": "brace lower positive",
+      "margin": "346/725",
+      "pass": true
+    },
+    {
+      "name": "beta lower on chosen control arc",
+      "margin": "8/10875",
+      "pass": true
+    },
+    {
+      "name": "global beta upper",
+      "margin": "21/2600",
+      "pass": true
+    },
+    {
+      "name": "curvature derivative upper",
+      "margin": "1/2500",
+      "pass": true
+    },
+    {
+      "name": "alpha and kappa derivative upper",
+      "margin": "9/500",
+      "pass": true
+    },
+    {
+      "name": "theta second derivative upper",
+      "margin": "274/15625",
+      "pass": true
+    },
+    {
+      "name": "beta derivative upper",
+      "margin": "27/338",
+      "pass": true
+    },
+    {
+      "name": "metric quadratic coefficient upper",
+      "margin": "31/1600",
+      "pass": true
+    },
+    {
+      "name": "radial numerator upper",
+      "value": "-99/200",
+      "pass": true
+    },
+    {
+      "name": "band metric lower",
+      "value": "124/125",
+      "pass": true
+    },
+    {
+      "name": "baseline second form C lower",
+      "margin": "15933/10316800",
+      "pass": true
+    },
+    {
+      "name": "baseline C margin",
+      "value": "15933/10316800",
+      "pass": true
+    },
+    {
+      "name": "perturbed second form C lower",
+      "margin": "3/100",
+      "pass": true
+    },
+    {
+      "name": "ruling second derivative upper squared",
+      "margin": "22399/10000",
+      "pass": true
+    },
+    {
+      "name": "F uu upper",
+      "margin": "1/50",
+      "pass": true
+    },
+    {
+      "name": "Hessian matrix first principal minor",
+      "margin": "9/5",
+      "pass": true
+    },
+    {
+      "name": "Hessian matrix second principal minor",
+      "value": "27/400",
+      "pass": true
+    },
+    {
+      "name": "Hessian matrix second principal minor positive",
+      "margin": "27/400",
+      "pass": true
+    },
+    {
+      "name": "near chord margin",
+      "margin": "1/500",
+      "pass": true
+    },
+    {
+      "name": "far angular separation after squaring",
+      "margin": "49/5000",
+      "pass": true
+    },
+    {
+      "name": "circle chord slope using pi < 22/7",
+      "margin": "67/2805",
+      "pass": true
+    },
+    {
+      "name": "coordinate versus angular ratio after squaring",
+      "margin": "240001/6002500",
+      "pass": true
+    },
+    {
+      "name": "far chord value",
+      "value": "1370/2499",
+      "pass": true
+    },
+    {
+      "name": "far chord margin",
+      "margin": "1027/124950",
+      "pass": true
+    },
+    {
+      "name": "perturbed chord margin",
+      "margin": "1/50",
+      "pass": true
+    },
+    {
+      "name": "diameter square margin",
+      "margin": "1/400",
+      "pass": true
+    },
+    {
+      "name": "reach bound from chord and Hessian",
+      "value": "1/8",
+      "pass": true
+    },
+    {
+      "name": "reach to initial diameter ratio",
+      "value": "25/406",
+      "pass": true
+    },
+    {
+      "name": "normalized reach margin",
+      "margin": "641/20300",
+      "pass": true
+    },
+    {
+      "name": "held diameter normalized margin",
+      "margin": "197/406",
+      "pass": true
+    }
+  ],
+  "check_count": 39,
+  "all_pass": true
+}

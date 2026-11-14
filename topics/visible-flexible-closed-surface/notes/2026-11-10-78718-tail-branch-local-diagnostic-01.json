@@ -1,0 +1,698 @@
+{
+  "scope": "Local fixed-input branch/root diagnostics. Lower floor only in fixed-point diagnostic attempts, not a production acceptance or a new tail solution.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+      "bytes": 272525,
+      "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-branch-call2-iteration5-input.json.gz",
+      "bytes": 262748,
+      "sha256": "21e0fe2c2da4d0826968e501c75ea00d032ab725af39468c3d13a464ad2cd4c7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial0.json.gz",
+      "bytes": 1785,
+      "sha256": "d508df8ee187a1583a7436556a1cde113ad09030d6d2a3082b1051eacf6e7be1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial1.json.gz",
+      "bytes": 1794,
+      "sha256": "8db5fe665f046a906d82e5c81ae593368bf562c5df82b43a645bf74cf1392ed5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial2.json.gz",
+      "bytes": 1791,
+      "sha256": "70568716e8e7b0411cdee033cd83c47b15232d9a1c96509b6af4d8409082919b"
+    }
+  ],
+  "modes": 15,
+  "quadrature": 512,
+  "originalFloor": 0.05,
+  "iteration": {
+    "iteration": 5,
+    "norm": 0.08048699963143999,
+    "minA": 0.07195411518767784,
+    "minD": 0.9916161884250875
+  },
+  "firstHeightFraction": 0.0019840488528957145,
+  "localStages": [
+    {
+      "stage": 32,
+      "previous": {
+        "stage": 32,
+        "minA": 0.777576280656009,
+        "minD": 0.9999281643787338,
+        "fields": 128
+      },
+      "current": {
+        "stage": 32,
+        "minA": 0.7719237340239253,
+        "minD": 0.9999279964452795,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 33,
+      "previous": {
+        "stage": 33,
+        "minA": 0.5449889819203704,
+        "minD": 0.9999280178295966,
+        "fields": 128
+      },
+      "current": {
+        "stage": 33,
+        "minA": 0.5342060499662196,
+        "minD": 0.9999278439877821,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 34,
+      "previous": {
+        "stage": 34,
+        "minA": 0.35289863539315,
+        "minD": 0.9999278945098091,
+        "fields": 128
+      },
+      "current": {
+        "stage": 34,
+        "minA": 0.3345043937945741,
+        "minD": 0.9999277128444575,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 35,
+      "previous": {
+        "stage": 35,
+        "minA": 0.20252787806228567,
+        "minD": 0.9999278687734424,
+        "fields": 128
+      },
+      "current": {
+        "stage": 35,
+        "minA": 0.17335029023790227,
+        "minD": 0.9999276863940272,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 36,
+      "previous": {
+        "stage": 36,
+        "minA": 0.12376689963013407,
+        "minD": 0.9999278709744699,
+        "fields": 128
+      },
+      "current": {
+        "stage": 36,
+        "minA": 0.08919193471969954,
+        "minD": 0.9999276899853309,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 37,
+      "previous": {
+        "stage": 37,
+        "minA": 0.10528109149708334,
+        "minD": 0.9999278708359127,
+        "fields": 128
+      },
+      "current": {
+        "stage": 37,
+        "minA": 0.07195411518767784,
+        "minD": 0.9999277041986806,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 38,
+      "previous": {
+        "stage": 38,
+        "minA": 0.1070151734357759,
+        "minD": 0.9999278521412482,
+        "fields": 128
+      },
+      "current": {
+        "stage": 38,
+        "minA": 0.07539960719036701,
+        "minD": 0.9999276792336241,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 39,
+      "previous": {
+        "stage": 39,
+        "minA": 0.15021057722325448,
+        "minD": 0.9999278533466702,
+        "fields": 128
+      },
+      "current": {
+        "stage": 39,
+        "minA": 0.13256879321876447,
+        "minD": 0.9999276795507038,
+        "fields": 128
+      }
+    },
+    {
+      "stage": 40,
+      "previous": {
+        "stage": 40,
+        "minA": 0.21803993820495943,
+        "minD": 0.9999278845494524,
+        "fields": 128
+      },
+      "current": {
+        "stage": 40,
+        "minA": 0.21695349520923635,
+        "minD": 0.9999277113657711,
+        "fields": 128
+      }
+    }
+  ],
+  "worst": {
+    "stage": 37,
+    "x": 0.265625,
+    "phase": "b",
+    "fieldNo": 33,
+    "current": {
+      "iterations": 5,
+      "relativeResidual": 2.4786946808928957e-16,
+      "minA": 0.07195411518767784,
+      "minD": 0.9999277121955515,
+      "minS": 0.9999993739553948,
+      "theta": 2.4911847995262812,
+      "r": 0.4571864429997782,
+      "w": 0.0072775682586440765,
+      "atMinimumA": {
+        "onePlusL": 0.07198894988569382,
+        "WPt": -0.00003483469801597952,
+        "P": 0.07198983955093748,
+        "Pt": -0.6577176174752617,
+        "K": -0.2702934326390445,
+        "D": 1.0000244872053503,
+        "S": 0.9999997255172942
+      }
+    },
+    "previousAtSameX": {
+      "iterations": 5,
+      "relativeResidual": 1.860716660419302e-16,
+      "minA": 0.10529803429342548,
+      "minD": 0.9999278787714884,
+      "minS": 0.9999993765904748,
+      "theta": 2.4911847995262812,
+      "r": 0.4571864429997782,
+      "w": 0.0072775682586440765,
+      "atMinimumA": {
+        "onePlusL": 0.10533114133111632,
+        "WPt": -0.000033107037690841184,
+        "P": 0.07206135166126922,
+        "Pt": -0.6250974801531218,
+        "K": -0.26957137851576185,
+        "D": 1.0000244308210158,
+        "S": 0.9999997249717009
+      }
+    },
+    "sameTheta": {
+      "theta": 2.4911847995262812,
+      "previousA": 0.10529803429342548,
+      "currentA": 0.07195411518767784,
+      "deltaL": -0.0333421914454225,
+      "deltaWPt": -0.0000017276603251383401,
+      "deltaA": -0.03334391910574763
+    },
+    "geometricM22": {
+      "ok": true,
+      "modes": 22,
+      "floor": 0.05,
+      "defaultRoot": {
+        "ok": true,
+        "iterations": 6,
+        "relativeResidual": 2.47869468089289e-16,
+        "minA": 0.07195411518766108,
+        "minD": 0.9999277121955515,
+        "minS": 0.9999993739553948,
+        "theta": 3.792000507653305,
+        "r": 0.4571864429997782,
+        "w": 0.0072775682586440765,
+        "atMinimumA": {
+          "onePlusL": 0.07198894988567706,
+          "WPt": -0.00003483469801597954,
+          "P": -0.07198983955093724,
+          "Pt": -0.657717617475262,
+          "K": -0.2702934326390609,
+          "D": 1.0000244872053503,
+          "S": 0.9999997255172942
+        }
+      },
+      "geometricSeedRoot": {
+        "ok": true,
+        "iterations": 0,
+        "relativeResidual": 8.8458416424365e-15,
+        "minA": 0.07195411518767984,
+        "minD": 0.9999277121955515,
+        "minS": 0.9999993739553948,
+        "theta": 2.4911847995262812,
+        "r": 0.4571864429997782,
+        "w": 0.0072775682586440765,
+        "atMinimumA": {
+          "onePlusL": 0.07198894988569582,
+          "WPt": -0.00003483469801597952,
+          "P": 0.07198983955093748,
+          "Pt": -0.6577176174752617,
+          "K": -0.2702934326390425,
+          "D": 1.0000244872053503,
+          "S": 0.9999997255172942
+        }
+      },
+      "slopeCoefficientL1Gap": 1.5456475315040275e-16,
+      "AAtCommonAnglesGap": 1.6764367671839864e-14,
+      "extraPiRatio": 0.00889400934289465
+    }
+  },
+  "nodalProbes": [
+    {
+      "stage": 36,
+      "root": {
+        "iterations": 5,
+        "relativeResidual": 6.356323303704931e-17,
+        "minA": 0.08919193471969954,
+        "minD": 0.9999277174415423,
+        "minS": 0.9999992959422256,
+        "theta": 4.565126824747668,
+        "r": 0.46423021837963524,
+        "w": 0.007269472991330078,
+        "atMinimumA": {
+          "onePlusL": 0.08922536978582762,
+          "WPt": -0.00003343506612808473,
+          "P": 0.08623646567435261,
+          "Pt": -0.6326978108998856,
+          "K": -0.27807681931428674,
+          "D": 1.0000249107059793,
+          "S": 0.9999996070043414
+        }
+      },
+      "geometricM22": {
+        "ok": true,
+        "modes": 22,
+        "floor": 0.05,
+        "defaultRoot": {
+          "ok": true,
+          "iterations": 5,
+          "relativeResidual": 4.322299846520736e-15,
+          "minA": 0.08919193471977625,
+          "minD": 0.9999277174415423,
+          "minS": 0.9999992959422256,
+          "theta": 4.565126824747668,
+          "r": 0.46423021837963524,
+          "w": 0.007269472991330078,
+          "atMinimumA": {
+            "onePlusL": 0.08922536978590434,
+            "WPt": -0.00003343506612808473,
+            "P": 0.08623646567435261,
+            "Pt": -0.6326978108998856,
+            "K": -0.27807681931421,
+            "D": 1.0000249107059793,
+            "S": 0.9999996070043414
+          }
+        },
+        "geometricSeedRoot": {
+          "ok": true,
+          "iterations": 0,
+          "relativeResidual": 2.383621238889349e-17,
+          "minA": 0.08919193471969954,
+          "minD": 0.9999277174415423,
+          "minS": 0.9999992959422256,
+          "theta": 4.565126824747668,
+          "r": 0.46423021837963524,
+          "w": 0.007269472991330078,
+          "atMinimumA": {
+            "onePlusL": 0.08922536978582762,
+            "WPt": -0.00003343506612808473,
+            "P": 0.08623646567435261,
+            "Pt": -0.6326978108998856,
+            "K": -0.27807681931428674,
+            "D": 1.0000249107059793,
+            "S": 0.9999996070043414
+          }
+        },
+        "slopeCoefficientL1Gap": 7.089053335323762e-16,
+        "AAtCommonAnglesGap": 7.704947790898586e-14,
+        "extraPiRatio": 0.013656234160897146
+      }
+    },
+    {
+      "stage": 37,
+      "root": {
+        "iterations": 5,
+        "relativeResidual": 2.7864622409769596e-16,
+        "minA": 0.07557997249371201,
+        "minD": 0.9999277045924686,
+        "minS": 0.9999993981613629,
+        "theta": 5.878214379177777,
+        "r": 0.45463897002908416,
+        "w": 0.007280498553579174,
+        "atMinimumA": {
+          "onePlusL": 0.07561481792471825,
+          "WPt": -0.00003484543100624182,
+          "P": -0.06626699483991051,
+          "Pt": -0.6573907680727624,
+          "K": -0.26699441400251933,
+          "D": 1.000024293090637,
+          "S": 0.9999997672354747
+        }
+      },
+      "geometricM22": {
+        "ok": true,
+        "modes": 22,
+        "floor": 0.05,
+        "defaultRoot": {
+          "ok": true,
+          "iterations": 5,
+          "relativeResidual": 7.673917011650449e-14,
+          "minA": 0.07557997249556486,
+          "minD": 0.9999277045924686,
+          "minS": 0.9999993981613629,
+          "theta": 0.4049709280018093,
+          "r": 0.45463897002908416,
+          "w": 0.007280498553579174,
+          "atMinimumA": {
+            "onePlusL": 0.0756148179265711,
+            "WPt": -0.0000348454310062418,
+            "P": 0.06626699483991064,
+            "Pt": -0.6573907680727621,
+            "K": -0.2669944140006668,
+            "D": 1.0000242930906367,
+            "S": 0.9999997672354747
+          }
+        },
+        "geometricSeedRoot": {
+          "ok": true,
+          "iterations": 0,
+          "relativeResidual": 4.369172793851817e-14,
+          "minA": 0.07557997249372311,
+          "minD": 0.9999277045924686,
+          "minS": 0.9999993981613629,
+          "theta": 5.878214379177777,
+          "r": 0.45463897002908416,
+          "w": 0.007280498553579174,
+          "atMinimumA": {
+            "onePlusL": 0.07561481792472935,
+            "WPt": -0.00003484543100624182,
+            "P": -0.06626699483991051,
+            "Pt": -0.6573907680727624,
+            "K": -0.26699441400250823,
+            "D": 1.000024293090637,
+            "S": 0.9999997672354747
+          }
+        },
+        "slopeCoefficientL1Gap": 1.735090695100093e-14,
+        "AAtCommonAnglesGap": 1.865174681370263e-12,
+        "extraPiRatio": 0.005459683388468456
+      }
+    }
+  ],
+  "trials": [
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 0,
+        "step": 1,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 36,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 36,
+      "originalLocalReplay": {
+        "stage": 36,
+        "minA": null,
+        "minD": null,
+        "fields": 0,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0,
+          "step": 0,
+          "phase": "a"
+        }
+      },
+      "sameFailurePoint": {
+        "x": 0,
+        "r": 0.46423021837963524,
+        "originalFloor": 0.05,
+        "seededOriginalFloor": {
+          "ok": false,
+          "error": "No previous local root"
+        },
+        "looseFloor": 1e-10,
+        "looseDefault": {
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseSeeded": {
+          "ok": false,
+          "error": "No previous local root"
+        }
+      }
+    },
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 1,
+        "step": 0.5,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 36,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 36,
+      "originalLocalReplay": {
+        "stage": 36,
+        "minA": null,
+        "minD": null,
+        "fields": 0,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0,
+          "step": 0,
+          "phase": "a"
+        }
+      },
+      "sameFailurePoint": {
+        "x": 0,
+        "r": 0.46423021837963524,
+        "originalFloor": 0.05,
+        "seededOriginalFloor": {
+          "ok": false,
+          "error": "No previous local root"
+        },
+        "looseFloor": 1e-10,
+        "looseDefault": {
+          "ok": true,
+          "iterations": 5,
+          "relativeResidual": 4.778713857627175e-16,
+          "minA": 0.040903141326775604,
+          "minD": 0.9999277194805898,
+          "minS": 0.9999992863749535,
+          "theta": 4.565126824747668,
+          "r": 0.46423021837963524,
+          "w": 0.007269472991330078,
+          "atMinimumA": {
+            "onePlusL": 0.04093908395789869,
+            "WPt": -0.00003594263112308777,
+            "P": 0.08623854513201733,
+            "Pt": -0.6801489173804244,
+            "K": -0.27891199866167693,
+            "D": 1.000024974374686,
+            "S": 0.9999996069853883
+          }
+        },
+        "looseSeeded": {
+          "ok": false,
+          "error": "No previous local root"
+        },
+        "geometricM22": {
+          "ok": true,
+          "modes": 22,
+          "floor": 1e-10,
+          "defaultRoot": {
+            "ok": true,
+            "iterations": 6,
+            "relativeResidual": 1.792017696610194e-16,
+            "minA": 0.04090314132677605,
+            "minD": 0.9999277194805898,
+            "minS": 0.9999992863749535,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.040939083957899136,
+              "WPt": -0.00003594263112308777,
+              "P": 0.08623854513201733,
+              "Pt": -0.6801489173804244,
+              "K": -0.2789119986616765,
+              "D": 1.000024974374686,
+              "S": 0.9999996069853883
+            }
+          },
+          "geometricSeedRoot": {
+            "ok": true,
+            "iterations": 0,
+            "relativeResidual": 7.466740402542454e-18,
+            "minA": 0.04090314132677538,
+            "minD": 0.9999277194805898,
+            "minS": 0.9999992863749535,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.04093908395789847,
+              "WPt": -0.00003594263112308777,
+              "P": 0.08623854513201733,
+              "Pt": -0.6801489173804244,
+              "K": -0.27891199866167715,
+              "D": 1.000024974374686,
+              "S": 0.9999996069853883
+            }
+          },
+          "slopeCoefficientL1Gap": 6.9098846926585565e-18,
+          "AAtCommonAnglesGap": 8.881784197001252e-16,
+          "extraPiRatio": 0.016183839892339232
+        }
+      }
+    },
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 2,
+        "step": 0.25,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 37,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 37,
+      "originalLocalReplay": {
+        "stage": 37,
+        "minA": 0.050054360267958835,
+        "minD": 0.9999277100248545,
+        "fields": 21,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0.171875,
+          "step": 5,
+          "phase": "b"
+        }
+      },
+      "sameFailurePoint": {
+        "x": 0.171875,
+        "r": 0.45628731817685403,
+        "originalFloor": 0.05,
+        "seededOriginalFloor": {
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseFloor": 1e-10,
+        "looseDefault": {
+          "ok": true,
+          "iterations": 5,
+          "relativeResidual": 1.2224012745165258e-15,
+          "minA": 0.04990593384508704,
+          "minD": 0.9999277152767967,
+          "minS": 0.9999993829015446,
+          "theta": 3.792000507653305,
+          "r": 0.45628731817685403,
+          "w": 0.007278602345689318,
+          "atMinimumA": {
+            "onePlusL": 0.04994199648130171,
+            "WPt": -0.000036062636214669944,
+            "P": -0.07185604984593941,
+            "Pt": -0.680708987602186,
+            "K": -0.2693490159165123,
+            "D": 1.0000244221177608,
+            "S": 0.9999997264588527
+          }
+        },
+        "looseSeeded": {
+          "ok": true,
+          "iterations": 3,
+          "relativeResidual": 2.385173218568831e-16,
+          "minA": 0.04990593384506983,
+          "minD": 0.9999277152767967,
+          "minS": 0.9999993829015446,
+          "theta": 3.792000507653305,
+          "r": 0.45628731817685403,
+          "w": 0.007278602345689318,
+          "atMinimumA": {
+            "onePlusL": 0.0499419964812845,
+            "WPt": -0.000036062636214669944,
+            "P": -0.07185604984593941,
+            "Pt": -0.680708987602186,
+            "K": -0.2693490159165295,
+            "D": 1.0000244221177608,
+            "S": 0.9999997264588527
+          }
+        },
+        "geometricM22": {
+          "ok": true,
+          "modes": 22,
+          "floor": 1e-10,
+          "defaultRoot": {
+            "ok": true,
+            "iterations": 6,
+            "relativeResidual": 1.7888799139266177e-16,
+            "minA": 0.04990593384504963,
+            "minD": 0.9999277152767967,
+            "minS": 0.9999993829015446,
+            "theta": 3.792000507653305,
+            "r": 0.45628731817685403,
+            "w": 0.007278602345689318,
+            "atMinimumA": {
+              "onePlusL": 0.049941996481264295,
+              "WPt": -0.000036062636214669944,
+              "P": -0.07185604984593941,
+              "Pt": -0.680708987602186,
+              "K": -0.2693490159165497,
+              "D": 1.0000244221177608,
+              "S": 0.9999997264588527
+            }
+          },
+          "geometricSeedRoot": {
+            "ok": true,
+            "iterations": 0,
+            "relativeResidual": 1.609991922533956e-14,
+            "minA": 0.049905933845090816,
+            "minD": 0.9999277152767967,
+            "minS": 0.9999993829015446,
+            "theta": 3.792000507653305,
+            "r": 0.45628731817685403,
+            "w": 0.007278602345689318,
+            "atMinimumA": {
+              "onePlusL": 0.049941996481305484,
+              "WPt": -0.000036062636214669944,
+              "P": -0.07185604984593941,
+              "Pt": -0.680708987602186,
+              "K": -0.2693490159165085,
+              "D": 1.0000244221177608,
+              "S": 0.9999997264588527
+            }
+          },
+          "slopeCoefficientL1Gap": 3.496334646430997e-16,
+          "AAtCommonAnglesGap": 3.774758283725532e-14,
+          "extraPiRatio": 0.009078798786402966
+        }
+      }
+    }
+  ],
+  "elapsedSeconds": 7.028
+}

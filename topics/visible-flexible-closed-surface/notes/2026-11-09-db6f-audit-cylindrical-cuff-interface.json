@@ -1,0 +1,160 @@
+{
+  "status": "EXACT_LOCAL_CYLINDRICAL_CUFF_AND_NECESSARY_KERNEL_GATES",
+  "script_sha256": "b2a1d8bd026740805147d2748dc901237dbfaa8b318b69ab91fd7c3f3bee80db",
+  "inputs": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    }
+  ],
+  "cylindrical_cuffs": {
+    "radius": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "center_height_absolute": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "halfheight": {
+      "numerator": "1",
+      "denominator": "1000"
+    },
+    "slab_height_lower": {
+      "numerator": "99",
+      "denominator": "1000"
+    },
+    "slab_height_upper": {
+      "numerator": "101",
+      "denominator": "1000"
+    },
+    "infinite_cylinder_reach": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "radial_support": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "coordinate_second_fundamental_form_at_cuff": {
+      "L": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "M": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "N_inward": {
+        "numerator": "1",
+        "denominator": "10"
+      }
+    },
+    "common_host_radius_lower": {
+      "numerator": "8271161257",
+      "denominator": "16000000000"
+    }
+  },
+  "small_upper_cap_bounds": {
+    "horizontal_radius_lower": {
+      "numerator": "3721468480813480792164803196098691463094688879",
+      "denominator": "2896511674831826157909136833749581250000000000"
+    },
+    "horizontal_radius_upper": {
+      "numerator": "10235078545335048125606062267301333282051427131207",
+      "denominator": "7953667390188289374969484653567731505000000000000"
+    },
+    "height_lower": {
+      "numerator": "992483066536280469762389392427662155311",
+      "denominator": "3181528423635277851847395898190540045000"
+    },
+    "height_upper": {
+      "numerator": "499413810824001216403171985579122777529",
+      "denominator": "1590733478037657874993896930713546301000"
+    }
+  },
+  "necessary_two_point_kernel_tests": {
+    "same_side_line_distance_squared_lower_at_cos_minus_one": {
+      "numerator": "194843487406102190801311446020906386195210010499122735240268362016821886398168443607479674420485267575949252263561151998804202988854994073988938402728252034812503285041",
+      "denominator": "30884821002433949993919319478617447559345278924148029490335190901024403307965651113540375088180576138327669765837197584321624019031293091435298603774422402617773689062500"
+    },
+    "same_side_line_distance_squared_lower_at_cos_plus_one": {
+      "numerator": "1004036919812323051585127595157649641336789762298732905027117962896716085908595788927615590364854033135726900202655616735385832646763292628887047469882189334252041505226055289",
+      "denominator": "78822014448310531659519383916484147875892724047771987718172553765840785130180077691283441268495962932039514946187209508106687627281939728985556299821268591508816096688701562500"
+    },
+    "same_side_all_lines_distance_strictly_above": {
+      "numerator": "79",
+      "denominator": "1000"
+    },
+    "opposite_side_relevant_endpoint_line_distance_squared_lower": {
+      "numerator": "1004036919812323051585127595157649641336789762298732905027117962896716085908595788927615590364854033135726900202655616735385832646763292628887047469882189334252041505226055289",
+      "denominator": "63263730994559819126979095414575911997351195697352378797673118458233403980228877249193759222402419887718973242203144957156800609459209745493214259603423129424441096688701562500"
+    },
+    "opposite_side_backward_rays_norm_lower": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "cap_based_backward_ray_dot_lower": {
+      "numerator": "39943511939050951876911030932874854431033019286770359047137356568280651362974632979584247654505654442446978580277207595627939918672389",
+      "denominator": "25158750157079120117800967496501301155418099052081013625454308940866567435427223430774626764620637787281030507812500000000000000000000"
+    },
+    "active_to_cylinder_cylinder_based_center_height_lower": {
+      "numerator": "99",
+      "denominator": "1000"
+    },
+    "active_to_cylinder_active_based_center_horizontal_norm_lower": {
+      "numerator": "327843503649",
+      "denominator": "500000000000"
+    },
+    "two_cylinder_points_center_horizontal_norm_lower": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "these_tests_are_necessary_not_sufficient_for_global_support": true,
+    "all_other_retained_pair_kernel_tests_claimed": false
+  },
+  "retained_piece_geometry": {
+    "cross_piece_distance_lower_bounds": {
+      "active_to_caps": {
+        "numerator": "184999",
+        "denominator": "1000000"
+      },
+      "active_to_cylinders": {
+        "numerator": "277843503649",
+        "denominator": "500000000000"
+      },
+      "cylinders_to_caps": {
+        "numerator": "246663669267",
+        "denominator": "250000000000"
+      },
+      "opposite_cylinders": {
+        "numerator": "99",
+        "denominator": "500"
+      },
+      "opposite_caps": {
+        "numerator": "2",
+        "denominator": "5"
+      }
+    },
+    "using_only_existential_CK_width_and_C0_conditions": true,
+    "combined_point_pair_radius_if_CK_local_lemma_accepted": {
+      "numerator": "9",
+      "denominator": "100"
+    },
+    "global_support_or_closed_reach_claimed": false
+  },
+  "reach_goal": {
+    "numerator": "189",
+    "denominator": "2500"
+  },
+  "all_exact_scalar_gates_passed": true,
+  "closed_surface_or_common_metric_connection_constructed": false,
+  "current_M15_candidate_read": false,
+  "solver_root_RK_or_geometry_backend_calls": 0
+}

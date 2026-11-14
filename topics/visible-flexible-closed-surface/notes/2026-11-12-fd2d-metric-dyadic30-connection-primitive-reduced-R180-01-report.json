@@ -1,0 +1,99 @@
+{
+  "schema": "fd2d-R180-combined-Gauss-one-box-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-connection-primitive-reduced-check.py",
+    "bytes": 3669,
+    "sha256": "3c9d5e1155392b9ac9d7e6b34bba042f060302750d1d794a8e1e1820d7f14caf"
+  },
+  "passed": true,
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-native-definition.json",
+    "bytes": 59298,
+    "sha256": "5853eda23c948549b871777ac3aabbb298c8f76808267ab45c114432b9f6d8db"
+  },
+  "profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+    "bytes": 381917,
+    "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+  },
+  "whole_F_J_BVP_body_evaluated": false,
+  "whole_surface_certificate": false,
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "cell": 69,
+  "field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "primitive_sha256": "ae37508e664fe38a00134803e4c4f92abff46c2f9078c25ac5cfb9695bcaf192",
+  "original_E3": {
+    "lower_binary": [
+      "83523361558186280613777157888459134237082897271750910225933704031956725662529",
+      -265
+    ],
+    "upper_binary": [
+      "87181817686995702278921077593656116501458734537594164593001126869344154551105",
+      -265
+    ],
+    "lower_display": 0.0014088316966886572,
+    "upper_display": 0.0014705407665711113
+  },
+  "combined_E3": {
+    "lower_binary": [
+      "312296212044154564337586172357315302398471046437702232484614808763244997507",
+      -257
+    ],
+    "upper_binary": [
+      "354521290126404341237171312938774123595668046374758837540287506778114222979",
+      -257
+    ],
+    "lower_display": 0.0013485213631654173,
+    "upper_display": 0.001530852808950584
+  },
+  "intersected_E3": {
+    "lower_binary": [
+      "83523361554816287280383327914125757351205443437546267173116132471818774381377",
+      -265
+    ],
+    "upper_binary": [
+      "87181817690365695612314907567989493387336188371798807645818698429482105832257",
+      -265
+    ],
+    "lower_display": 0.0014088316966318138,
+    "upper_display": 0.0014705407666279547
+  },
+  "original_E_norm_upper": {
+    "lower_binary": [
+      "44560663771734085553580075429523811735643051307499018815642244672299191194271",
+      -256
+    ],
+    "upper_binary": [
+      "44560663771734085553580075429523811735643051307499018815642244672299191194271",
+      -256
+    ],
+    "lower_display": 0.38483340325958615,
+    "upper_display": 0.38483340325958615
+  },
+  "reduced_E_norm_upper": {
+    "lower_binary": [
+      "89121327543468221410101894903186296705013866189883453733727519448397557268333",
+      -257
+    ],
+    "upper_binary": [
+      "89121327543468221410101894903186296705013866189883453733727519448397557268333",
+      -257
+    ],
+    "lower_display": 0.3848334032595863,
+    "upper_display": 0.3848334032595863
+  },
+  "reducer_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_connection_primitive_gauss_reduction.py",
+    "bytes": 2112,
+    "sha256": "6d941988f5873d031cbb8e16539eba1b8f9ad0e4f5bae0cca68c69c7a8b5bd0f"
+  },
+  "same_full_mathematical_E": true,
+  "full_Gauss_contribution_kept": true,
+  "interval_enclosure_only_no_new_actual_field": true,
+  "seconds": 0.49855672500416404,
+  "peak_rss_kib": 93776
+}

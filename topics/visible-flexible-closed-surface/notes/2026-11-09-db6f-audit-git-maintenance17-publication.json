@@ -1,0 +1,47 @@
+{
+  "status": "CLOSED_INDEPENDENT_READ_ONLY_MAINTENANCE17_REVIEW",
+  "files": [
+    {
+      "path": "scripts/db6f-audit-git-maintenance17-preflight.py",
+      "bytes": 12811,
+      "sha256": "db3b33fd4426aef7c5c158fb3c1f494a367f4b70f45d9b15f80c266f623817be"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance17-preflight.json",
+      "bytes": 17361,
+      "sha256": "f6be4675466dd82f9589fc10cb16021cd09d38bc56bca07b5e5eaf9f40b839bf"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance17-preflight-oid-sets.json.gz",
+      "bytes": 2863579,
+      "sha256": "c7701e26f4f56ff5e52050696f19064262bd497df77471d9fa2667dc9940ddf5"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance17-preflight-promisor-delta-oids.txt",
+      "bytes": 260596,
+      "sha256": "7f9713ac800ca8cb820d5a14082530ba04a3cedba31e6db74b386007a8db20a8"
+    },
+    {
+      "path": "scripts/db6f-audit-git-maintenance17-postcheck.py",
+      "bytes": 7426,
+      "sha256": "ce6db9088ee53b5c86e0591d928dcb697570a50bb87df143638b80e92c6a7070"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance17-postcheck.json",
+      "bytes": 5174,
+      "sha256": "c340a5dfa11fdc406c18ff12bc65c49617e899ebf40c780105d464e1318b330f"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance17-review.md",
+      "bytes": 3473,
+      "sha256": "c3e4d582ebf6fc5b9509168adb5264c4829ed2da1bb8987eda22e2d5b064c92e"
+    }
+  ],
+  "total_bytes": 3170420,
+  "preflight_actual_exit_code": 0,
+  "preflight_receipt": "8b7ef7",
+  "postcheck_actual_exit_code": 0,
+  "postcheck_receipt": "f7aff9",
+  "new_full_oid_snapshot_created_after_maintenance": false,
+  "git_mutations_performed_by_reviewer": false
+}

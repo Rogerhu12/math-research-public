@@ -1,0 +1,171 @@
+{
+  "schema": "fd2d-new-physical-bridge-observed-exit-v1",
+  "observed_utc": "2026-11-12T11:37:46.346059+00:00",
+  "session_id": 76820,
+  "launch_chunk": "c0a4c6",
+  "completion_chunk": "327c23",
+  "actual_exit_code": 0,
+  "seconds": 50.34356171000036,
+  "candidate_sha256": "4ac49af76c08e9a89a0b8ddb3949082fad9f29ab4e2cbc9cc31daa1417d445e1",
+  "trajectory_sha256": "185e1fac5627f5eb1607b2309b5d4f04f3c24cd5448893a99650e7020b3b5ea5",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-flat-prefix-bridge-physical-recovery.py",
+    "bytes": 8005,
+    "sha256": "31ef0ce96b361e7cc6cd94176011f5aad6c1274fe33a690d8c288868770869ec"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": "New physical-g explicit K15 initializer and one fixed-parameter linear Codazzi projection; neither nonlinear solution nor full geometry certificate.",
+  "outputs": [
+    {
+      "amount": 0.0,
+      "output": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-redeep45-cyl040-k15-bridge01-amount000.npz",
+        "bytes": 41663,
+        "sha256": "d234fc7e4bdd294c732c072cea330d7176a9d28fae31e4bedd68742db7b1d383"
+      },
+      "diagnostics": {
+        "residual_maximum": 13.157566752261722,
+        "residual_rms": 1.5970742172543557,
+        "full_gauss_node_maximum": 1.1824939824271947,
+        "formal_curvature_node_maximum": 7.583558043060775,
+        "A": 1.405,
+        "B": 0.495,
+        "gap": 0.91,
+        "T": 0.04,
+        "tail_coefficients": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_n": 0.0,
+        "maximum_n": 4.37576460256795,
+        "minimum_central_curvature": 0.32088353624816085,
+        "maximum_lifting_alpha": 1.0,
+        "exact_cut_lifting_function": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "actual_field_cut_exact": true,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "codazzi_maximum": 13.157566752261722,
+        "projected_gauss_maximum": 0.04277329945574424,
+        "exact_endpoint_correction_maximum": 0.0
+      }
+    },
+    {
+      "amount": 0.25,
+      "output": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-redeep45-cyl040-k15-bridge01-amount025.npz",
+        "bytes": 43931,
+        "sha256": "c5e864e7e2e97b65e85241a50674b92e2d038701c9c845ea6963fc39cde26697"
+      },
+      "diagnostics": {
+        "residual_maximum": 9.868175064196262,
+        "residual_rms": 1.1995411036390886,
+        "full_gauss_node_maximum": 2.611426564509536,
+        "formal_curvature_node_maximum": 7.794879518965283,
+        "A": 1.405,
+        "B": 0.495,
+        "gap": 0.91,
+        "T": 0.04,
+        "tail_coefficients": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_n": 0.0,
+        "maximum_n": 4.364114158061169,
+        "minimum_central_curvature": 0.32088353624816085,
+        "maximum_lifting_alpha": 1.0,
+        "exact_cut_lifting_function": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "actual_field_cut_exact": true,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "codazzi_maximum": 9.868175064196262,
+        "projected_gauss_maximum": 0.7811327304014786,
+        "exact_endpoint_correction_maximum": 0.0
+      }
+    },
+    {
+      "amount": 0.75,
+      "output": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-redeep45-cyl040-k15-bridge01-amount075.npz",
+        "bytes": 43892,
+        "sha256": "2f341322e6c1a2874ba82dca2252ee5f94c2221f30c1875f20c554cfbfea8f88"
+      },
+      "diagnostics": {
+        "residual_maximum": 3.2893916880654146,
+        "residual_rms": 0.4532516532104717,
+        "full_gauss_node_maximum": 7.649421832230395,
+        "formal_curvature_node_maximum": 8.255065978679923,
+        "A": 1.405,
+        "B": 0.495,
+        "gap": 0.91,
+        "T": 0.04,
+        "tail_coefficients": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_n": -0.015695659406817344,
+        "maximum_n": 4.36678735136013,
+        "minimum_central_curvature": 0.32088353624816085,
+        "maximum_lifting_alpha": 1.0,
+        "exact_cut_lifting_function": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "actual_field_cut_exact": true,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "codazzi_maximum": 3.2893916880654146,
+        "projected_gauss_maximum": 2.106650345766585,
+        "exact_endpoint_correction_maximum": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": "certified-w-uncertainty-upper-budget-not-an-error-floor",
+  "scope": "Local metric budget spent by uncertainty in a certified background w packet.\n\nFor the exact finite map, the only w-dependent residual numerators are\nEres = ... + 2*w*Zr and Fres = ... + w*Ztheta. Around the exact midpoint of\neach interval power coefficient, a pointwise uncertainty delta_w contributes\nat most delta_w*(2*||Zr|| + ||Ztheta||/r_min) to a relative row-sum bound,\nusing 1+w^2 >= 1. This is an upper-bound budget, NOT a lower bound on the\nactual error, a necessity theorem, or a complete metric certificate.\n\nThe coefficient uncertainty and explicit remainder are both included. In\nparticular a coarse interval constant may have zero remainder yet be wide.\nNo source ODE or source radius evaluator is used.\n",
+  "manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "packet": "notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+  "packet_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "packet_data_sha256": "275138aba6a789c4283b560668e5c8a45f8292e0d2bd188f7433a0bdda3f022c",
+  "script_sha256": "31cc2622399ccc1ce40ba313fb49a2529157081d175f21ec2a7d439a8e9af191",
+  "finite_tail_backend_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "requested_background_budget": 2e-10,
+  "cells": {
+    "-1": {
+      "rows": 1,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 9.682122077080712e-27,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 9.68212207708071e-27,
+      "span_ranges_above_budget": []
+    },
+    "0": {
+      "rows": 997,
+      "rows_above_budget": 216,
+      "maximum_budget_upper": 1.2152363828152598e-06,
+      "maximum_remainder_budget_upper": 1.2152363823978083e-06,
+      "maximum_coefficient_budget_upper": 9.235163133881924e-10,
+      "span_ranges_above_budget": [
+        [
+          4175,
+          4176
+        ],
+        [
+          4182,
+          4185
+        ],
+        [
+          4256,
+          4261
+        ],
+        [
+          4282,
+          4288
+        ],
+        [
+          4289,
+          4293
+        ],
+        [
+          4294,
+          4301
+        ],
+        [
+          4302,
+          4308
+        ],
+        [
+          4309,
+          4313
+        ],
+        [
+          4378,
+          4384
+        ],
+        [
+          4386,
+          4411
+        ],
+        [
+          4412,
+          4444
+        ],
+        [
+          4508,
+          4567
+        ],
+        [
+          4568,
+          4572
+        ]
+      ]
+    },
+    "1": {
+      "rows": 753,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 2.647187767837139e-11,
+      "maximum_remainder_budget_upper": 2.6471877079979746e-11,
+      "maximum_coefficient_budget_upper": 1.0407761877928088e-11,
+      "span_ranges_above_budget": []
+    },
+    "2": {
+      "rows": 588,
+      "rows_above_budget": 587,
+      "maximum_budget_upper": 2.416909149830028e-07,
+      "maximum_remainder_budget_upper": 6.43701861981194e-13,
+      "maximum_coefficient_budget_upper": 2.416909149830027e-07,
+      "span_ranges_above_budget": [
+        [
+          2898,
+          3477
+        ]
+      ]
+    },
+    "3": {
+      "rows": 579,
+      "rows_above_budget": 432,
+      "maximum_budget_upper": 1.6772192216140757e-08,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 1.6772192216140753e-08,
+      "span_ranges_above_budget": [
+        [
+          2319,
+          2401
+        ],
+        [
+          2548,
+          2898
+        ]
+      ]
+    },
+    "4": {
+      "rows": 579,
+      "rows_above_budget": 180,
+      "maximum_budget_upper": 5.730978217054824e-10,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.730978217054823e-10,
+      "span_ranges_above_budget": [
+        [
+          1982,
+          2079
+        ],
+        [
+          2236,
+          2319
+        ]
+      ]
+    },
+    "5": {
+      "rows": 580,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 1.3257469959074134e-11,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 1.3257469959074132e-11,
+      "span_ranges_above_budget": []
+    },
+    "6": {
+      "rows": 580,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 5.810927626701693e-15,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.8109276267016925e-15,
+      "span_ranges_above_budget": []
+    },
+    "7": {
+      "rows": 580,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 5.078709735868839e-21,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.078709735868838e-21,
+      "span_ranges_above_budget": []
+    }
+  },
+  "checked_rows": 5237,
+  "rows_above_budget": 1415,
+  "row_file": "2026-11-09-db6f-audit-background-metric-budget-m8.rows.json.gz",
+  "row_sha256": "d451eb67d5eb1eff57240c4a46ccaafe18f959ae67f770b5be7b401f7d4f4b18",
+  "seconds": 86.64496512299957,
+  "complete_metric_certified": false,
+  "actual_error_lower_bound": false
+}

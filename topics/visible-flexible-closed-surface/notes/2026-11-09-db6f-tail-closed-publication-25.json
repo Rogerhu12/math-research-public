@@ -1,0 +1,39 @@
+{
+  "status": "CLOSED-PASS-MATCHED-CUT-WARM-INDEPENDENT-REVIEW",
+  "scope": "Only review/checker/observed pure replay metadata. Author initial guess arrays are in their existing closed inventory; duplicate local replay arrays are byte identical and reproducible from the frozen preparer. No coupled solver result.",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-matched-cut-warm.py",
+      "bytes": 15696,
+      "sha256": "02dd8e6ad710f55d682b8509b66daf6d11ee36eb455d3729ba254e0117d6be47"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-check.json",
+      "bytes": 5305,
+      "sha256": "11403ef8c0bef61541744ab1b172ad154333ff55e18e58cd7bb42579b2a78805"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay-preparation.json",
+      "bytes": 50144,
+      "sha256": "38ac47331826053026709467a3c6adfb0a16414f11b3c84d85921c74ebcd0b7a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-observed.json",
+      "bytes": 4441,
+      "sha256": "8aa4a65322b7b34bc009ff9eca7fadaf6190af475b7f53e0f4627a338e384d00"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm.md",
+      "bytes": 13113,
+      "sha256": "924cee9834bbf8637472fbdf2ed0f6fd8d6740844738ed4fa2eb68b5cf6ce790"
+    }
+  ],
+  "total_bytes": 88699,
+  "author_dependencies": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-publication.json",
+    "bytes": 3238,
+    "sha256": "bd8151805eaf1cb5eb26b0c8ccbfeaee26643fbb5554c8caf9812414a4b0f08d"
+  },
+  "no_active_writer": true,
+  "no_solver_executed": true
+}

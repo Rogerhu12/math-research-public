@@ -1,0 +1,174 @@
+{
+  "schema": "fd2d-refined-angular-local-JVP21-closed-manifest-v1",
+  "closed_utc": "2026-11-12T16:31:51.860490+00:00",
+  "input_field": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "input_closed_failed_main_run_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+    "bytes": 260072,
+    "sha256": "f73915e5da735e21a50e82163d9e888d616c94f73c0c6a8cff7e0e561a2f916f"
+  },
+  "input_scope": "Immutable central-restored warm before actual v21 main process exit137; no new accepted iterate claimed",
+  "actual_execution": {
+    "returncode": 0,
+    "executor_session": 64182,
+    "initial_chunk": "28a839",
+    "final_chunk": "970ec4",
+    "internal_seconds": 122.22958408100021,
+    "wrapper_seconds": 129.2719601739991,
+    "peak_rss_kib": 148112
+  },
+  "dimensions": {
+    "raw_modes": 31,
+    "central": 31,
+    "tail": 16,
+    "profile": 7,
+    "parameters": 54,
+    "nodes": 129,
+    "q": 95,
+    "work": 512
+  },
+  "selection": {
+    "cells": [
+      {
+        "index": 8,
+        "left": 0.32,
+        "right": 0.32625
+      },
+      {
+        "index": 63,
+        "left": 0.5919999999999992,
+        "right": 0.6116816746501718
+      },
+      {
+        "index": 121,
+        "left": 1.4694731783581287,
+        "right": 1.4727231783581287
+      },
+      {
+        "index": 124,
+        "left": 1.4792231783581289,
+        "right": 1.4824731783581289
+      }
+    ],
+    "nodes": [
+      {
+        "index": 8,
+        "s": 0.32
+      },
+      {
+        "index": 64,
+        "s": 0.6116816746501718
+      },
+      {
+        "index": 122,
+        "s": 1.4727231783581287
+      },
+      {
+        "index": 124,
+        "s": 1.4792231783581289
+      }
+    ],
+    "roles": {
+      "central_transition_cell": 8,
+      "refined_coast_rim_cell": 63,
+      "refined_terminal_ramp_cell": 121,
+      "terminal_gauge_cell": 124
+    },
+    "terminal_gauge_node": 124,
+    "coast_deleted_nodes": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "trace_gauge_nodes": [
+      124,
+      125,
+      126,
+      127
+    ]
+  },
+  "maximum_relative_l2": 1.8285019437204542e-07,
+  "maximum_relative_maximum": 4.890915949323782e-08,
+  "reduced_map_action_relative_maximum": 2.9831114548155546e-16,
+  "original_local_residual_change": 0.0,
+  "nonzero_action_maxima": {
+    "new_high_raw_modes_with_terminal_gauge": 101.95109199204504,
+    "last_central_parameter_30": 159.99999910563963,
+    "independent_tail_31_to_46": 5.789095083303647,
+    "all_seven_physical_parameters_47_to_53": 1310.008991179183,
+    "combined_new_raw_central_tail_profile": 131.10269037485324
+  },
+  "finite_difference_steps": [
+    1e-06,
+    5e-07
+  ],
+  "all_central_cut_coast_trace_constraint_errors_zero": true,
+  "vector_bytes_unchanged": true,
+  "source_frozen": true,
+  "no_whole_J": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_continuous_certificate": true,
+  "existing_sources_unchanged": true,
+  "independent_tail_columns_tested": [
+    31,
+    35,
+    38,
+    42,
+    46
+  ],
+  "full_parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "profile": [
+      47,
+      54
+    ]
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-refined-angular-local-jvp-check.py",
+      "bytes": 18740,
+      "sha256": "a5dd12451b105a94e1656807e91506a86d1535738ef0bd2de5e89a22ee4ff2b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-refined-angular-local-jvp21.md",
+      "bytes": 9742,
+      "sha256": "ce14c8dabd65370a84bd4e12ff33509755cb4f8828707d459a40eec5047d34f6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-refined-angular-jvp21-01-report.json",
+      "bytes": 160077,
+      "sha256": "691106f0c719f89aef7381f7c69b6580a2554311c270f1368fc68dccaf1331b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-refined-angular-jvp21-01-witnesses.npz",
+      "bytes": 263748,
+      "sha256": "61c97625fb729a5e0d5b55f8914f5e6ca0ff84716cf71a6a02fd39f5551b954b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-refined-angular-jvp21-01-exit-receipt.json",
+      "bytes": 770,
+      "sha256": "ca02c0a3e26e37fccb6e798d918f2cd9a4ec8665767b42431e133b776d6e3ab3"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-refined-angular-jvp21-01-console.txt",
+      "bytes": 1911,
+      "sha256": "b3b98c7d2e17b6fc68bf0ba3489b77a60aa53e957d6cd1adc5a3bd393e6133fa"
+    }
+  ]
+}

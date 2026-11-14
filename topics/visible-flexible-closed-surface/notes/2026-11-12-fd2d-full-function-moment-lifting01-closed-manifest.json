@@ -1,0 +1,34 @@
+{
+  "schema": "closed-research-group-v1",
+  "files": [
+    {
+      "path": "results/R150-three-radial-moments-preserve-full-angular-boundaries.md",
+      "bytes": 8807,
+      "sha256": "840beb340492bbd5b27045d9c56a6f3aad489116482176c1da7af056c4e98823"
+    },
+    {
+      "path": "scripts/fd2d_full_function_moment_lifting_probe.py",
+      "bytes": 10027,
+      "sha256": "e6b27babfae42b275b1476551bcb2e0e776e1c1a67d22494917c4207cfcb9ada"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-full-function-moment-lifting01-report.json",
+      "bytes": 3423,
+      "sha256": "f1a2548e5a0acd3ad7c4fd6c7b223c43501d9f2e90fe8a9c0d8a99a060f275f1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-full-function-moment-lifting01-controls.npz",
+      "bytes": 2767,
+      "sha256": "800662c5ca998cb7362ae693e4c8c229c9d2f7affc7a17ef1701812b3f26e43a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-full-function-moment-lifting01-tool-exit.json",
+      "bytes": 329,
+      "sha256": "494649ea066ffc0d9e86bfe973d5aa505bf7b1f58738e0cffb606d2ecce69dc8"
+    }
+  ],
+  "actual_tool_exit": 0,
+  "proof": "R150",
+  "prototype_passed_Gauss_or_curvature": false,
+  "complete_surface": false
+}

@@ -1,0 +1,40 @@
+{
+  "session_id": 74866,
+  "launch_chunk": "eee69d",
+  "observation_chunk": "fb99af",
+  "actual_heap_size_limit": 268435456,
+  "runtime": {
+    "heap_size_limit": 268435456,
+    "heap_used": 61467256,
+    "rss": 194371584,
+    "max_rss_kb": 189816,
+    "user_cpu_microseconds": 25410501,
+    "system_cpu_microseconds": 912381
+  },
+  "warmEmbedding": {
+    "method": "same-physical-Q-L-prolongation-normalized-arithmetic-v1",
+    "scope": "Initial guess conversion only; no new shooting solve or high-mode trajectory is asserted.",
+    "sourceModes": 4,
+    "targetModes": 8,
+    "sourceQuadrature": 64,
+    "targetQuadrature": 128,
+    "physicalDepth": 160,
+    "shootingParts": 2,
+    "nodeCount": 2881,
+    "commonAngularNodes": 64,
+    "quadratureChanged": true,
+    "maxQChange": 0,
+    "maxNonconstantHeightChange": 0,
+    "maxNormalizedNonmeanLGap": 3.469446951953614e-18,
+    "maxURGapCommonAngles": 1.0620582105360421e-22,
+    "maxURGapFloatingFourierL1": 1.063719160437371e-22,
+    "maxMeanSlopeChange": 0,
+    "maxLowMomentumRelativeChange": 4.962834972681363e-14,
+    "maxNewHighMomentumRelativeSize": 3.8091127995259196e-09,
+    "maxRootRelativeResidual": 5.668287628698728e-14,
+    "minLeading": 0.9601336638163431,
+    "minD": 0.9999999871920954,
+    "worstURNode": 8
+  },
+  "scope": "Observed ready and actual initial guess only; full M8 response has not completed."
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-observed-command-incomplete-check-v1",
+  "session_id": 45122,
+  "completion_chunk_id": "a5f706",
+  "observed_exit_code": 137,
+  "stdout": "",
+  "complete_report_saved": false,
+  "sources": [
+    {
+      "path": "repro/fd2d-metric-gauss-cell-check01/fd2d-metric-gauss-cell-codazzi-check.py",
+      "bytes": 8881,
+      "sha256": "e185209a7df55ea3e08e799bb53bc489e58c09140d0bc6cb347caadf89527450"
+    },
+    {
+      "path": "repro/fd2d-metric-gauss-cell-check01/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    }
+  ],
+  "cause": "No termination reason was reported beyond status 137; no mathematical failure is inferred",
+  "next_action": "Stream independent native-point comparison in small batches and add stage/RSS progress; helper unchanged"
+}

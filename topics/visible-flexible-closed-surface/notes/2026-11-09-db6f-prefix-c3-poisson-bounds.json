@@ -1,0 +1,974 @@
+{
+  "status": "EXACT_RATIONAL_AUXILIARY_SECTION_BOUNDS_ONLY",
+  "same_as_current_frozen_g": false,
+  "new_closed_surface_or_flexible_family_asserted": false,
+  "source_bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-poisson-bounds.py",
+      "bytes": 5362,
+      "sha256": "6f804847b44a8395c4abb5b325ed2b83f855c056b8bbc51ed1b7768e7f46c7b9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R10-positive-support-offset-reach.md",
+      "bytes": 3937,
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "rounding_scale": 1000000000000,
+  "rounding": "integer floor/ceiling of exact Fraction; no binary floating arithmetic",
+  "cases": [
+    {
+      "q": {
+        "numerator": "9",
+        "denominator": "10"
+      },
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "terms": 256,
+      "delta": {
+        "lower": {
+          "numerator": "430511763949",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "8610235279",
+          "denominator": "20000000000"
+        },
+        "lower_decimal": "0.430511763949",
+        "upper_decimal": "0.430511763950"
+      },
+      "diameter": {
+        "lower": {
+          "numerator": "516746437187",
+          "denominator": "250000000000"
+        },
+        "upper": {
+          "numerator": "2066985748749",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "2.066985748748",
+        "upper_decimal": "2.066985748749"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "91483972641",
+          "denominator": "125000000000"
+        },
+        "upper": {
+          "numerator": "731871781129",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.731871781128",
+        "upper_decimal": "0.731871781129"
+      },
+      "rho_min": {
+        "numerator": "37",
+        "denominator": "190"
+      },
+      "rho_max": {
+        "numerator": "163",
+        "denominator": "10"
+      },
+      "plane_ratio": {
+        "lower": {
+          "numerator": "4165599731",
+          "denominator": "20000000000"
+        },
+        "upper": {
+          "numerator": "208279986551",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.208279986550",
+        "upper_decimal": "0.208279986551"
+      },
+      "five_delta": {
+        "lower": {
+          "numerator": "430511763949",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "1076279409873",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "2.152558819745",
+        "upper_decimal": "2.152558819746"
+      },
+      "height_squared_allowance": {
+        "lower": {
+          "numerator": "180539693467",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "72215877387",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "0.361079386934",
+        "upper_decimal": "0.361079386935"
+      },
+      "conditional_whole_budget": {
+        "whole_D_budget": {
+          "numerator": "43",
+          "denominator": "20"
+        },
+        "z_span_budget": {
+          "numerator": "59",
+          "denominator": "100"
+        },
+        "projection_leakage_budget": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "492478617",
+              "denominator": "250000000000"
+            },
+            "upper": {
+              "numerator": "1969914469",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.001969914468",
+            "upper_decimal": "0.001969914469"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "511763949",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "511763949",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.000511763949",
+            "upper_decimal": "0.000511763949"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "26047368421",
+              "denominator": "200000000000"
+            },
+            "upper": {
+              "numerator": "65118421053",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.130236842105",
+            "upper_decimal": "0.130236842106"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "53983972641",
+              "denominator": "125000000000"
+            },
+            "upper": {
+              "numerator": "53983972641",
+              "denominator": "125000000000"
+            },
+            "lower_decimal": "0.431871781128",
+            "upper_decimal": "0.431871781128"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "17",
+              "denominator": "100"
+            },
+            "upper": {
+              "numerator": "17",
+              "denominator": "100"
+            },
+            "lower_decimal": "0.170000000000",
+            "upper_decimal": "0.170000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      }
+    },
+    {
+      "q": {
+        "numerator": "19",
+        "denominator": "20"
+      },
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "terms": 256,
+      "delta": {
+        "lower": {
+          "numerator": "466264824561",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "233132412281",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "0.466264824561",
+        "upper_decimal": "0.466264824562"
+      },
+      "diameter": {
+        "lower": {
+          "numerator": "2073525636621",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "1036762818311",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "2.073525636621",
+        "upper_decimal": "2.073525636622"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "703886227097",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "351943113603",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "0.703886227097",
+        "upper_decimal": "0.703886227206"
+      },
+      "rho_min": {
+        "numerator": "67",
+        "denominator": "390"
+      },
+      "rho_max": {
+        "numerator": "333",
+        "denominator": "10"
+      },
+      "plane_ratio": {
+        "lower": {
+          "numerator": "11243285743",
+          "denominator": "50000000000"
+        },
+        "upper": {
+          "numerator": "224865714861",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.224865714860",
+        "upper_decimal": "0.224865714861"
+      },
+      "five_delta": {
+        "lower": {
+          "numerator": "2331324122807",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "291415515351",
+          "denominator": "125000000000"
+        },
+        "lower_decimal": "2.331324122807",
+        "upper_decimal": "2.331324122808"
+      },
+      "height_squared_allowance": {
+        "lower": {
+          "numerator": "70972724991",
+          "denominator": "62500000000"
+        },
+        "upper": {
+          "numerator": "1135563599857",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "1.135563599856",
+        "upper_decimal": "1.135563599857"
+      },
+      "conditional_whole_budget": {
+        "whole_D_budget": {
+          "numerator": "23",
+          "denominator": "10"
+        },
+        "z_span_budget": {
+          "numerator": "99",
+          "denominator": "100"
+        },
+        "projection_leakage_budget": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "10391434271",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "324732321",
+              "denominator": "31250000000"
+            },
+            "lower_decimal": "0.010391434271",
+            "upper_decimal": "0.010391434272"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "6264824561",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "6264824561",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.006264824561",
+            "upper_decimal": "0.006264824561"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "51397435897",
+              "denominator": "500000000000"
+            },
+            "upper": {
+              "numerator": "20558974359",
+              "denominator": "200000000000"
+            },
+            "lower_decimal": "0.102794871794",
+            "upper_decimal": "0.102794871795"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "403886227097",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "403886227097",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.403886227097",
+            "upper_decimal": "0.403886227097"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "7",
+              "denominator": "50"
+            },
+            "upper": {
+              "numerator": "7",
+              "denominator": "50"
+            },
+            "lower_decimal": "0.140000000000",
+            "upper_decimal": "0.140000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      }
+    },
+    {
+      "q": {
+        "numerator": "97",
+        "denominator": "100"
+      },
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "terms": 256,
+      "delta": {
+        "lower": {
+          "numerator": "241300847907",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "482601695819",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.482601695814",
+        "upper_decimal": "0.482601695819"
+      },
+      "diameter": {
+        "lower": {
+          "numerator": "2076190154591",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "64880942331",
+          "denominator": "31250000000"
+        },
+        "lower_decimal": "2.076190154591",
+        "upper_decimal": "2.076190154592"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "6906284597",
+          "denominator": "10000000000"
+        },
+        "upper": {
+          "numerator": "690628497681",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.690628459700",
+        "upper_decimal": "0.690628497681"
+      },
+      "rho_min": {
+        "numerator": "321",
+        "denominator": "1970"
+      },
+      "rho_max": {
+        "numerator": "1679",
+        "denominator": "30"
+      },
+      "plane_ratio": {
+        "lower": {
+          "numerator": "9297832277",
+          "denominator": "40000000000"
+        },
+        "upper": {
+          "numerator": "14527862933",
+          "denominator": "62500000000"
+        },
+        "lower_decimal": "0.232445806925",
+        "upper_decimal": "0.232445806928"
+      },
+      "five_delta": {
+        "lower": {
+          "numerator": "2413008479073",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "2413008479093",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "2.413008479073",
+        "upper_decimal": "2.413008479093"
+      },
+      "height_squared_allowance": {
+        "lower": {
+          "numerator": "1512044362053",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "1512044362151",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "1.512044362053",
+        "upper_decimal": "1.512044362151"
+      },
+      "conditional_whole_budget": {
+        "whole_D_budget": {
+          "numerator": "12",
+          "denominator": "5"
+        },
+        "z_span_budget": {
+          "numerator": "6",
+          "denominator": "5"
+        },
+        "projection_leakage_budget": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "377377679",
+              "denominator": "40000000000"
+            },
+            "upper": {
+              "numerator": "1179305247",
+              "denominator": "125000000000"
+            },
+            "lower_decimal": "0.009434441975",
+            "upper_decimal": "0.009434441976"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "1300847907",
+              "denominator": "500000000000"
+            },
+            "upper": {
+              "numerator": "1300847907",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.002601695814",
+            "upper_decimal": "0.002601695814"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "22736040609",
+              "denominator": "250000000000"
+            },
+            "upper": {
+              "numerator": "90944162437",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.090944162436",
+            "upper_decimal": "0.090944162437"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "3906284597",
+              "denominator": "10000000000"
+            },
+            "upper": {
+              "numerator": "3906284597",
+              "denominator": "10000000000"
+            },
+            "lower_decimal": "0.390628459700",
+            "upper_decimal": "0.390628459700"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "3",
+              "denominator": "25"
+            },
+            "upper": {
+              "numerator": "3",
+              "denominator": "25"
+            },
+            "lower_decimal": "0.120000000000",
+            "upper_decimal": "0.120000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      }
+    },
+    {
+      "q": {
+        "numerator": "99",
+        "denominator": "100"
+      },
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "terms": 256,
+      "delta": {
+        "lower": {
+          "numerator": "10029370429",
+          "denominator": "20000000000"
+        },
+        "upper": {
+          "numerator": "100293787473",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "0.501468521450",
+        "upper_decimal": "0.501468937365"
+      },
+      "diameter": {
+        "lower": {
+          "numerator": "64965028539",
+          "denominator": "31250000000"
+        },
+        "upper": {
+          "numerator": "2078880921411",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "2.078880913248",
+        "upper_decimal": "2.078880921411"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "674816451337",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "84354757239",
+          "denominator": "125000000000"
+        },
+        "lower_decimal": "0.674816451337",
+        "upper_decimal": "0.674838057912"
+      },
+      "rho_min": {
+        "numerator": "307",
+        "denominator": "1990"
+      },
+      "rho_max": {
+        "numerator": "1693",
+        "denominator": "10"
+      },
+      "plane_ratio": {
+        "lower": {
+          "numerator": "241220416371",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "120610308693",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "0.241220416371",
+        "upper_decimal": "0.241220617386"
+      },
+      "five_delta": {
+        "lower": {
+          "numerator": "2507342607251",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "1253672343411",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "2.507342607251",
+        "upper_decimal": "2.507344686822"
+      },
+      "height_squared_allowance": {
+        "lower": {
+          "numerator": "1965021064733",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "393006305413",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "1.965021064733",
+        "upper_decimal": "1.965031527065"
+      },
+      "conditional_whole_budget": {
+        "whole_D_budget": {
+          "numerator": "5",
+          "denominator": "2"
+        },
+        "z_span_budget": {
+          "numerator": "69",
+          "denominator": "50"
+        },
+        "projection_leakage_budget": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "23854114593",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "11927057297",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.023854114593",
+            "upper_decimal": "0.023854114594"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "29370429",
+              "denominator": "20000000000"
+            },
+            "upper": {
+              "numerator": "29370429",
+              "denominator": "20000000000"
+            },
+            "lower_decimal": "0.001468521450",
+            "upper_decimal": "0.001468521450"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "79271356783",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "4954459799",
+              "denominator": "62500000000"
+            },
+            "lower_decimal": "0.079271356783",
+            "upper_decimal": "0.079271356784"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "374816451337",
+              "denominator": "1000000000000"
+            },
+            "upper": {
+              "numerator": "374816451337",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.374816451337",
+            "upper_decimal": "0.374816451337"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "1",
+              "denominator": "10"
+            },
+            "upper": {
+              "numerator": "1",
+              "denominator": "10"
+            },
+            "lower_decimal": "0.100000000000",
+            "upper_decimal": "0.100000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      }
+    },
+    {
+      "q": {
+        "numerator": "99",
+        "denominator": "100"
+      },
+      "r": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "terms": 256,
+      "delta": {
+        "lower": {
+          "numerator": "53096666977",
+          "denominator": "100000000000"
+        },
+        "upper": {
+          "numerator": "530967110151",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.530966669770",
+        "upper_decimal": "0.530967110151"
+      },
+      "diameter": {
+        "lower": {
+          "numerator": "260440120871",
+          "denominator": "125000000000"
+        },
+        "upper": {
+          "numerator": "520880243903",
+          "denominator": "250000000000"
+        },
+        "lower_decimal": "2.083520966968",
+        "upper_decimal": "2.083520975612"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "327844003649",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "40981930303",
+          "denominator": "62500000000"
+        },
+        "lower_decimal": "0.655688007298",
+        "upper_decimal": "0.655710884848"
+      },
+      "rho_min": {
+        "numerator": "104",
+        "denominator": "995"
+      },
+      "rho_max": {
+        "numerator": "896",
+        "denominator": "5"
+      },
+      "plane_ratio": {
+        "lower": {
+          "numerator": "254841048391",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "63710315203",
+          "denominator": "250000000000"
+        },
+        "lower_decimal": "0.254841048391",
+        "upper_decimal": "0.254841260812"
+      },
+      "five_delta": {
+        "lower": {
+          "numerator": "1327416674427",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "2654835550753",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "2.654833348854",
+        "upper_decimal": "2.654835550753"
+      },
+      "height_squared_allowance": {
+        "lower": {
+          "numerator": "2707080454377",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "135354609087",
+          "denominator": "50000000000"
+        },
+        "lower_decimal": "2.707080454377",
+        "upper_decimal": "2.707092181740"
+      },
+      "conditional_whole_budget": {
+        "whole_D_budget": {
+          "numerator": "13",
+          "denominator": "5"
+        },
+        "z_span_budget": {
+          "numerator": "31",
+          "denominator": "20"
+        },
+        "projection_leakage_budget": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "2055043023",
+              "denominator": "125000000000"
+            },
+            "upper": {
+              "numerator": "3288068837",
+              "denominator": "200000000000"
+            },
+            "lower_decimal": "0.016440344184",
+            "upper_decimal": "0.016440344185"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "1096666977",
+              "denominator": "100000000000"
+            },
+            "upper": {
+              "numerator": "1096666977",
+              "denominator": "100000000000"
+            },
+            "lower_decimal": "0.010966669770",
+            "upper_decimal": "0.010966669770"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "5304522613",
+              "denominator": "200000000000"
+            },
+            "upper": {
+              "numerator": "13261306533",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.026522613065",
+            "upper_decimal": "0.026522613066"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "177844003649",
+              "denominator": "500000000000"
+            },
+            "upper": {
+              "numerator": "177844003649",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.355688007298",
+            "upper_decimal": "0.355688007298"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "2",
+              "denominator": "25"
+            },
+            "upper": {
+              "numerator": "2",
+              "denominator": "25"
+            },
+            "lower_decimal": "0.080000000000",
+            "upper_decimal": "0.080000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      },
+      "optional_leakage_budget": {
+        "whole_D_budget": {
+          "numerator": "13",
+          "denominator": "5"
+        },
+        "z_span_budget": {
+          "numerator": "3",
+          "denominator": "2"
+        },
+        "projection_leakage_budget": {
+          "numerator": "1",
+          "denominator": "100"
+        },
+        "unconstructed_grip_disk_radius": {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        "strict_margins": {
+          "whole_diameter_squared": {
+            "lower": {
+              "numerator": "2129987629",
+              "denominator": "25000000000"
+            },
+            "upper": {
+              "numerator": "85199505161",
+              "denominator": "1000000000000"
+            },
+            "lower_decimal": "0.085199505160",
+            "upper_decimal": "0.085199505161"
+          },
+          "held_target": {
+            "lower": {
+              "numerator": "96666977",
+              "denominator": "100000000000"
+            },
+            "upper": {
+              "numerator": "96666977",
+              "denominator": "100000000000"
+            },
+            "lower_decimal": "0.000966669770",
+            "upper_decimal": "0.000966669770"
+          },
+          "core_reach_target_only": {
+            "lower": {
+              "numerator": "5304522613",
+              "denominator": "200000000000"
+            },
+            "upper": {
+              "numerator": "13261306533",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.026522613065",
+            "upper_decimal": "0.026522613066"
+          },
+          "possible_grip_disk_projection": {
+            "lower": {
+              "numerator": "177844003649",
+              "denominator": "500000000000"
+            },
+            "upper": {
+              "numerator": "177844003649",
+              "denominator": "500000000000"
+            },
+            "lower_decimal": "0.355688007298",
+            "upper_decimal": "0.355688007298"
+          },
+          "possible_grip_disk_diameter": {
+            "lower": {
+              "numerator": "2",
+              "denominator": "25"
+            },
+            "upper": {
+              "numerator": "2",
+              "denominator": "25"
+            },
+            "lower_decimal": "0.080000000000",
+            "upper_decimal": "0.080000000000"
+          }
+        },
+        "scope": "CONDITIONAL_ON_FULL_PROJECTION_AND_ROTATED_SECTION; core reach is not whole-surface reach",
+        "all_strict_rational_checks_passed": true
+      }
+    }
+  ],
+  "solver_root_RK_geometry_backend_calls": 0
+}

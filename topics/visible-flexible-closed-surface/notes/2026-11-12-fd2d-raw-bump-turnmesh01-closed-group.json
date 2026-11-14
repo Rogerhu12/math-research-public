@@ -1,0 +1,35 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "utc": "2026-11-12T12:40:50.368336+00:00",
+  "session": 71824,
+  "completion_chunk": "6f9603",
+  "actual_exit_code": 0,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_bump_turn_mesh.py",
+      "bytes": 4611,
+      "sha256": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275"
+    },
+    {
+      "path": "scripts/fd2d-gc-bump-turn-mesh-prepare.py",
+      "bytes": 3392,
+      "sha256": "7e8cfc7f74cca52b23dcf9807de90685fe431ecac0d53125c89d515fc5356416"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-turnmesh01-report.json",
+      "bytes": 21909,
+      "sha256": "966fab19012fc0a19dbb6b24795082a687ccd23e164f9191f5b8d36b7ec95f9a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+      "bytes": 48129,
+      "sha256": "6edb4f22059f365c6351a32ea86fcc1f5b7c3460902dc1ca075c67432c7fb122"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-turnmesh01-process-receipt.json",
+      "bytes": 769,
+      "sha256": "1a5a25eefd99488162790cf5b3fae80f5b063a77d55d465b34a384599d88318c"
+    }
+  ],
+  "scope": "Targeted physical-turn P1 re-expression; all prior nodes and parameters preserved, no nonlinear solve"
+}

@@ -1,0 +1,248 @@
+{
+  "schema": "fd2d-R210-height-allowance-complete-chain-check-v1",
+  "runtime": "actual pure V8; no OS child or exit",
+  "options": {
+    "radialBasisCount": 3,
+    "radialKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "modes": 2,
+    "angles": 32,
+    "gap": 0.8,
+    "radiusCoefficientBound": 0.4
+  },
+  "geometryDefinition": {
+    "radius": 1.59,
+    "width": 0.84,
+    "held": 0.65,
+    "weight": 10,
+    "nodeShare": 0.5,
+    "centralA": 1.3620341722637315,
+    "cutWindow": [
+      0.41,
+      0.6
+    ],
+    "names": [
+      "ball",
+      "width_plus",
+      "width_minus",
+      "height_plus",
+      "height_minus",
+      "held_plus",
+      "held_minus"
+    ],
+    "heightAllowance": {
+      "schema": "fd2d-R210-conservative-C2-height-allowance-v1",
+      "maximum": 0.0195,
+      "radialStart": 0.52,
+      "radialEnd": 0.54,
+      "exactCapOffset": [
+        "1",
+        "50"
+      ],
+      "exactFarRadius": [
+        "257",
+        "500"
+      ],
+      "rule": "quintic smoothstep in cylindrical radius; constant outside the transition",
+      "newR210CompleteCapsRequired": true,
+      "finiteGuideNotContinuousCertificate": true
+    },
+    "heightMeaning": "Inner flat cuff Zc, not developed outer section mean",
+    "symmetry": "proper half-turn only; full half-period angles, both width and held targets; no quarter reflection",
+    "derivatives": "all actual X columns including cylindrical-radius allowance derivative and full cut-height derivative; fixed central A",
+    "thresholdConvention": "zero generalized slope at exact hinge boundary",
+    "noProjection": true,
+    "fullNonlinearValueRequired": true,
+    "continuousCertificate": false,
+    "nonlocalReachChecked": false
+  },
+  "z": [
+    0.00019555013130646097,
+    0.0002965955288555159,
+    0.0002543033520400709,
+    0.00008911240539204972,
+    -0.00011914445018578794,
+    -0.00026982162290555326,
+    -0.0002901004140731298,
+    -0.00017018056557869057,
+    0.00003198350813436679,
+    0.00021869071203776277,
+    0.0002997098891509487,
+    0.00023588639554107874,
+    0.00005806460973539405,
+    -0.00014781842280589807,
+    -0.0002822643225854722,
+    -0.18353698925620798,
+    -0.00014287119073480656,
+    0.00006360245113502775,
+    0.00023933853905551517,
+    0.00029940799581490847,
+    0.00021478067972998893,
+    0.000026354962598193645,
+    -0.0001748074819747373,
+    -0.0002914896225332714,
+    -0.000267301751977456,
+    -0.00011393329363707441,
+    0.00009449641937667676,
+    0.0002572582573828401,
+    0.00029569328998912216,
+    0.00019122677884507244,
+    -0.0000056550924999802,
+    -0.00019980399195944213,
+    -0.0002973923678455295,
+    -0.0002512580760097475,
+    0.25
+  ],
+  "direction": [
+    0.0027969820368181036,
+    0.002215405676188764,
+    0.001333984550225121,
+    0.00027201487339292905,
+    -0.0008267707404735388,
+    -0.001813656813173788,
+    -0.002555072944459697,
+    -0.0029506719391020194,
+    -0.0029469113290146952,
+    -0.0025443000951312243,
+    -0.001797329779223055,
+    -0.0008070993093521998,
+    0.0002923682657654572,
+    0.0013522651676732963,
+    0.0022291393228992297,
+    0.002804309928136047,
+    0.0029999303402122295,
+    0.002789524254050104,
+    0.002201569146352144,
+    0.001315641982723171,
+    0.0002516488486881669,
+    -0.0008464037764786697,
+    -0.0018298996211587246,
+    -0.002565727136562135,
+    -0.002954295520401971,
+    -0.0029430138647821994,
+    -0.0025334090888663174,
+    -0.0017809192775316745,
+    -0.0007873903966531239,
+    0.0003127080805970906,
+    0.0013704829861184156,
+    0.002242769448694933,
+    0.0028115075876976978,
+    0.002999721364083908,
+    0.0027819369261704273
+  ],
+  "dimension": 35,
+  "actualGeometryRows": 23324,
+  "actualGeometrySquaredNorm": 0.004886285847515778,
+  "epsilon": 0.00001,
+  "jvpRelative": 1.428243765918592e-8,
+  "maxJVPAbsoluteError": 8.385488158881016e-12,
+  "gradientDirectionalRelativeError": 0,
+  "normalQuadraticRelativeError": 2.09097561303178e-16,
+  "syntheticBothSignsAndTransitionEndpoints": [
+    {
+      "cylindricalRadius": 0.5,
+      "sign": -1,
+      "allowance": 0,
+      "radialDerivative": 0,
+      "maximumJVPError": 4.547161258638965e-12
+    },
+    {
+      "cylindricalRadius": 0.5,
+      "sign": 1,
+      "allowance": 0,
+      "radialDerivative": 0,
+      "maximumJVPError": 3.3969355106577837e-12
+    },
+    {
+      "cylindricalRadius": 0.52,
+      "sign": -1,
+      "allowance": 0,
+      "radialDerivative": 0,
+      "maximumJVPError": 4.547161258638965e-12
+    },
+    {
+      "cylindricalRadius": 0.52,
+      "sign": 1,
+      "allowance": 0,
+      "radialDerivative": 0,
+      "maximumJVPError": 3.3969355106577837e-12
+    },
+    {
+      "cylindricalRadius": 0.53,
+      "sign": -1,
+      "allowance": 0.00975,
+      "radialDerivative": 1.8281249999999982,
+      "maximumJVPError": 3.0075698875808854e-12
+    },
+    {
+      "cylindricalRadius": 0.53,
+      "sign": 1,
+      "allowance": 0.00975,
+      "radialDerivative": 1.8281249999999982,
+      "maximumJVPError": 4.936523412268912e-12
+    },
+    {
+      "cylindricalRadius": 0.54,
+      "sign": -1,
+      "allowance": 0.0195,
+      "radialDerivative": 0,
+      "maximumJVPError": 4.200216563443604e-12
+    },
+    {
+      "cylindricalRadius": 0.54,
+      "sign": 1,
+      "allowance": 0.0195,
+      "radialDerivative": 0,
+      "maximumJVPError": 3.743880205853145e-12
+    },
+    {
+      "cylindricalRadius": 0.56,
+      "sign": -1,
+      "allowance": 0.0195,
+      "radialDerivative": 0,
+      "maximumJVPError": 4.547161258638965e-12
+    },
+    {
+      "cylindricalRadius": 0.56,
+      "sign": 1,
+      "allowance": 0.0195,
+      "radialDerivative": 0,
+      "maximumJVPError": 3.3969355106577837e-12
+    }
+  ],
+  "fullCutAndAmplitudeColumnsIncluded": true,
+  "oldPhysicalFieldAndMetricUnchanged": true,
+  "newCompleteR210CapsRequired": true,
+  "actualLMOrLargeNormalRun": false,
+  "continuousCoreCertificate": false,
+  "strongTargetComplete": false,
+  "seconds": 6.861
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "fd2d-cut-material-tail-lifting-actual-parameter-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-cut-material-tail-lifting-check.py",
+    "bytes": 8296,
+    "sha256": "164b5d1d2aae1306976405ff5a5d0a4c975c57e71f057621bde2ae87e94b5b36"
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_cut_material_tail_lifting.py",
+    "bytes": 9657,
+    "sha256": "93c13091f2a398188046e35a21983200255e1f852018fe89263a7907962436e2"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-warm.npz",
+    "bytes": 58965,
+    "sha256": "d671d84b4442547045b4072fde277a961bc42720e6dca07125bfa317cff0ce5b"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "completed": true,
+  "exception": null,
+  "nonlinear_BVP_performed": false,
+  "actual_old_field_preserved": false,
+  "continuous_certificate": false,
+  "seconds": 1.5468537010019645,
+  "peak_rss_kib": 82152,
+  "definition": {
+    "schema": "fd2d-complete-cut-material-tail-lifting-v1",
+    "cut_radius": 0.8,
+    "tail_parameter_count": 16,
+    "values": "(1-chi)*old_complete_lifting+chi*cut_material_rank_one_tail",
+    "fixed_physical_window": true,
+    "angular_coordinate_and_cut_radius_parameter_frozen": true,
+    "tail_parameters_linear": true,
+    "physical_profile_cut_reference_derivative_zero": true,
+    "old_actual_field_preserved": false,
+    "physical_metric_changed": false,
+    "nonlinear_trace_reapplied_to_complete_field": true,
+    "exact_cut_value_and_angular_jets_preserved": true,
+    "exact_cut_radial_II_derivative_preserved": false,
+    "stale_original_forcing_retained": false,
+    "Gauss_Codazzi_solution_claimed": false
+  },
+  "fixed_window": {
+    "start": 1.3,
+    "stop": 1.4759731783581287
+  },
+  "physical_points": [
+    0.1,
+    0.65,
+    1.31,
+    1.36,
+    1.405,
+    1.46,
+    1.48,
+    1.4889731783581288
+  ],
+  "angle_count": 64,
+  "tail_parameter_count": 16,
+  "profile_parameter_count": 7,
+  "nonzero_parameter_checks": [
+    {
+      "direction": "tail",
+      "quantity": "values",
+      "analytic_maximum": 0.00549992519022522,
+      "max_error": 1.4244363826486361e-11,
+      "relative_L2": 1.0663587627085106e-09
+    },
+    {
+      "direction": "tail",
+      "quantity": "x",
+      "analytic_maximum": 0.09051521773785812,
+      "max_error": 1.25438714970727e-10,
+      "relative_L2": 1.0452320774935645e-09
+    },
+    {
+      "direction": "tail",
+      "quantity": "xi",
+      "analytic_maximum": 0.10264319190308246,
+      "max_error": 1.28660741782749e-10,
+      "relative_L2": 6.603265535850332e-10
+    },
+    {
+      "direction": "tail",
+      "quantity": "forcing_full",
+      "analytic_maximum": 0.07255332313687773,
+      "max_error": 1.1634102362045873e-10,
+      "relative_L2": 9.833964417056745e-10
+    },
+    {
+      "direction": "physical_profile",
+      "quantity": "values",
+      "analytic_maximum": 0.0004327352050732036,
+      "max_error": 8.500947354768895e-11,
+      "relative_L2": 1.402153493026326e-07
+    },
+    {
+      "direction": "physical_profile",
+      "quantity": "x",
+      "analytic_maximum": 0.006353402830871247,
+      "max_error": 8.625707902120989e-10,
+      "relative_L2": 8.190484265243009e-08
+    },
+    {
+      "direction": "physical_profile",
+      "quantity": "xi",
+      "analytic_maximum": 0.008109110694303775,
+      "max_error": 4.76135230634972e-10,
+      "relative_L2": 6.84101273865463e-08
+    },
+    {
+      "direction": "physical_profile",
+      "quantity": "forcing_full",
+      "analytic_maximum": 0.007139861736949247,
+      "max_error": 8.599401268044485e-10,
+      "relative_L2": 4.093627128789226e-08
+    }
+  ],
+  "difference_step": 1e-05,
+  "cut_angular_twojet_check": {
+    "step": 1e-06,
+    "first_max_error": 5.217890119979529e-09,
+    "second_max_error": 2.6287366949873103e-07
+  },
+  "exact_cut_value_and_allowed_parameter_errors": {
+    "values": 1.1102230246251565e-16,
+    "xi": 1.3322676295501878e-15,
+    "parameters": 0.0,
+    "xi_parameters": 0.0,
+    "profile_parameters": 0.0,
+    "profile_xi_parameters": 0.0
+  },
+  "cut_radial_II_lifting_change": 3.6692412746055325,
+  "old_lifting_unchanged_where_window_zero": 0.0,
+  "nonzero_lifting_change": 0.18962183017272677,
+  "material_coordinate_has_nonzero_radial_chain": true,
+  "source_input_unchanged": true
+}

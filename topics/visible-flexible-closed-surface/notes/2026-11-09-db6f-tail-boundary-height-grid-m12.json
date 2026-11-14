@@ -1,0 +1,151 @@
+{
+  "status": "numerical-endpoint-layer-grid-design-not-a-certificate",
+  "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+  "inputSHA256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2",
+  "scriptSHA256": "8036030f4c4da3bb6c94b020c0d8a5437f49707c9f20011918d5ee66bf3008e5",
+  "radius": 0.5277881139390467,
+  "stage": 7,
+  "rawCell": 0,
+  "rawSegment": 7,
+  "angularNodes": 512,
+  "flowSteps": 256,
+  "nativeCheckpointSteps": 64,
+  "physicalStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "layers": [
+    {
+      "x": 0,
+      "r": 0.5277876988744847,
+      "widthScale": 0.04035660907590666,
+      "endpointCurvatureLayer": true,
+      "initialCurvature": 0,
+      "thresholdCurvature": 3,
+      "radialSpeed": 0.000016024960257853692
+    }
+  ],
+  "rows": [
+    {
+      "steps": 64,
+      "ratio": 0,
+      "nodes": 65,
+      "maxFirstSampleError": 9.953505467757973e-12,
+      "maxSecondSampleError": 0.00018922060846882083,
+      "worst": {
+        "x": 0.02408979353495333,
+        "r": 0.527788131280774,
+        "sourceSecond": -0.16328986354840946,
+        "interpolatedSecond": -0.16310064293994064,
+        "span": [
+          0.015625,
+          0.03125
+        ],
+        "radialSpan": 3.3864669593294867e-7
+      },
+      "stageEndpointFirstDefect": 1.1254989995546083e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0,
+      "nodes": 129,
+      "maxFirstSampleError": 3.195642535314125e-13,
+      "maxSecondSampleError": 0.000014249057247506247,
+      "worst": {
+        "x": 0.019679813687552006,
+        "r": 0.5277880395650625,
+        "sourceSecond": -0.11969513485866878,
+        "interpolatedSecond": -0.11968088580142128,
+        "span": [
+          0.015625,
+          0.0234375
+        ],
+        "radialSpan": 1.5521527303668387e-7
+      },
+      "stageEndpointFirstDefect": 1.1254989995546083e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.2,
+      "nodes": 145,
+      "maxFirstSampleError": 2.664452859735267e-13,
+      "maxSecondSampleError": 0.000014231186523259477,
+      "worst": {
+        "x": 0.0039431141342136655,
+        "r": 0.5277877622676248,
+        "sourceSecond": -0.005948997406785846,
+        "interpolatedSecond": -0.005963228593309105,
+        "span": [
+          0,
+          0.0078125
+        ],
+        "radialSpan": 1.2678628022343725e-7
+      },
+      "stageEndpointFirstDefect": 1.125673339263944e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.1,
+      "nodes": 161,
+      "maxFirstSampleError": 1.59389862419701e-13,
+      "maxSecondSampleError": 0.0000020078787604238535,
+      "worst": {
+        "x": 0.07437366246433808,
+        "r": 0.527790229773346,
+        "sourceSecond": -0.47513088619312693,
+        "interpolatedSecond": -0.47513289407188736,
+        "span": [
+          0.0703125,
+          0.078125
+        ],
+        "radialSpan": 5.419270194242527e-7
+      },
+      "stageEndpointFirstDefect": 1.1257808921194545e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.05,
+      "nodes": 193,
+      "maxFirstSampleError": 4.386291677094256e-14,
+      "maxSecondSampleError": 5.973076198095839e-7,
+      "worst": {
+        "x": 0.06674586286079043,
+        "r": 0.5277897391018386,
+        "sourceSecond": -0.4506151971133523,
+        "interpolatedSecond": -0.4506157944209721,
+        "span": [
+          0.06399386482889874,
+          0.06934402803335579
+        ],
+        "radialSpan": 3.1679690568063616e-7
+      },
+      "stageEndpointFirstDefect": 1.1259890589365718e-12
+    }
+  ],
+  "scope": "One-stage theta=0 height two-jet interpolation diagnostic; endpoint layers are heuristic background half-curvature scales. The initial CP is fixed; altered local integration grids are not a re-shot boundary solve.",
+  "finished": true
+}

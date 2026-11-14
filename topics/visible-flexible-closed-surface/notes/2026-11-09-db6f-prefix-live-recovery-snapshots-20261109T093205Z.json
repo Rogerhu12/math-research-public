@@ -1,0 +1,74 @@
+{
+  "time_utc": "20261109T093205Z",
+  "scope": "Byte-identical read-only copies of active atomic recovery snapshots. UNCONVERGED status retained even if a separate response later converges. Running workers and active paths are untouched.",
+  "workers": [
+    {
+      "active": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-iteration.json.gz",
+      "present": true,
+      "snapshot": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-recovery-call001-iteration007.json.gz",
+      "sha256": "bd7ebfeab571198b50c909f5d614490de36ffd007846fcf754fd569284cda11c",
+      "bytes": 262687,
+      "call": 1,
+      "iteration": 7,
+      "norm": 6.60078222010092,
+      "status": "iteration-recovery-only",
+      "scope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate.",
+      "tail_config": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-config.json",
+      "tail_config_sha256": "297ab20791f4d5972e92a113dd783ec6f997d62f7fabe1c8f0b93569e92def94",
+      "reproduction": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-reproduction.json",
+      "reproduction_sha256": "c6679c0ff0758cffc602c67fceb74352d43da25a03fe5e85f701db53b6b07bfd",
+      "driver_sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    },
+    {
+      "active": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-iteration.json.gz",
+      "present": true,
+      "snapshot": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-recovery-call001-iteration001.json.gz",
+      "sha256": "41f7576ba4cd659e6781a08f908a27265c425134428d534bdaa0369dabd95d5e",
+      "bytes": 245076,
+      "call": 1,
+      "iteration": 1,
+      "norm": 3.8555951929821096e-10,
+      "status": "iteration-recovery-only",
+      "scope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate.",
+      "tail_config": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-config.json",
+      "tail_config_sha256": "7b6f64680beb5ccc04d819b638a27499ab00b6742c964d41352339bec14da2c4",
+      "reproduction": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reproduction.json",
+      "reproduction_sha256": "f3cf229e7896ada319fee9277dd9f7684cd02acef251777ef997920f7d7db38f",
+      "driver_sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    }
+  ],
+  "unchanged_loaded_worker_sources": [
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    }
+  ]
+}

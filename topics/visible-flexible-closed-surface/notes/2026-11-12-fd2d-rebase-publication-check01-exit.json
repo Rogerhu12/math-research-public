@@ -1,0 +1,12 @@
+{
+  "schema": "fd2d-actual-integration-check-exit-v1",
+  "session": 16200,
+  "launch_chunk": "604edc",
+  "final_chunk": "9a357a",
+  "exit_code": 1,
+  "failure": "Local race fixture did not observe the expected two pulls; first harness did not persist underlying command output before assertion cleanup",
+  "checker_sha256": "a9dc972cb7f0e4457b783607ed5e04b71656e835aa1bc04d9efa544750433342",
+  "publisher_sha256": "ef337c9633ea7fc0203883704ddf48d47eb1af2a331eef96dfcddb2c66e98380",
+  "no_external_repository_used": true,
+  "no_real_main_write_attempted": true
+}

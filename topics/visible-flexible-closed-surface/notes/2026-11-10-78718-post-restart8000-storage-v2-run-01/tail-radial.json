@@ -1,0 +1,23 @@
+{
+  "status": "exact-rational-increment-anchor-invariant-pass",
+  "scope": "Independently verify the exact increment/anchor invariant of a tail export.",
+  "manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-manifest.json",
+  "manifestSHA256": "207a40b90ba65e2297c24c48b8d5848d3e18e6ed62ca77024ce71d7b3f68558b",
+  "scriptSHA256": "6c2318e1d2fc40bf9598c2c1dbbe110a0d86d98376e73b6ee64d3acfd054ac3b",
+  "readerSHA256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+  "spans": 21030,
+  "nodes": 21031,
+  "dataFiles": 26,
+  "allDataHashesAndSharedRowsVerified": true,
+  "unscaledSumMatchesData": true,
+  "normalizationEqualsExactAnchorRatio": true,
+  "exactFinalAnchorEquality": true,
+  "innerAnchorExact": "2747847568824749/18014398509481984",
+  "outerAnchorExact": "5404319552844595/9007199254740992",
+  "largestCompressedFileBytes": 4494694,
+  "notCertified": [
+    "target metric",
+    "curvature or reach",
+    "source ODE or solver convergence"
+  ]
+}

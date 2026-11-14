@@ -1,0 +1,108 @@
+{
+  "schema": "fd2d-closed-root-actual-state-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-candidate.json",
+      "bytes": 35029,
+      "sha256": "3d7b33a5082470b9abba94694f1417ae0074745c67fabaca07b68d9d52e28bdb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-field-aux-midpoint-001.npz",
+      "bytes": 6193,
+      "sha256": "12c0289511a1af523be44e6f05bba8931f930f170bf6e1e4eab19bd1e65644e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-field-aux-midpoint_first-001.npz.gz",
+      "bytes": 1256915,
+      "sha256": "e67227366def7abd1084991c0030744b72e47b089a1fe123de34983449ed25c5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-field-aux-midpoint_values-001.npz.gz",
+      "bytes": 1254685,
+      "sha256": "d5e1deae865baca3e4e387ffccccb362b5ef097404e678c433d781773db46827"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-field-aux-rhs-001.npz.gz",
+      "bytes": 1238767,
+      "sha256": "b7d2cbaae9a1d618aa812c7033f94fe2c164c4ce5261b08c4c495eaf4d4b280c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-field.npz.gz",
+      "bytes": 2507474,
+      "sha256": "12f264d2609bd9e44c42bee48b6d676e12eae924823e9cddb8473cf8a1b72bd7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-polynomial.npz.gz",
+      "bytes": 4991506,
+      "sha256": "7490e4baf0e35a268890ce390dc299e8602fbd4f7c07ec5687d10c2cac7f15e3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-progress.jsonl",
+      "bytes": 5896,
+      "sha256": "d8a0bb50da3f29fb41182c9c6c0e696ce1148921d63df1f3157d002dcf8351be"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-report.json",
+      "bytes": 36918,
+      "sha256": "15d6bf96fec401f3220146709ec29c4e40bb227db9595f9c4fc31729f7daf463"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-runtime.json",
+      "bytes": 583,
+      "sha256": "80ca2083191fa445b07122ab952f33b1bebe5a17029c4801f30670e753b29e2a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-resources.jsonl",
+      "bytes": 38755,
+      "sha256": "a8dfc07a74ac6d386393b60f5c9d3d93cd7db7d0567770e9e40f7a88b1dc2166"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-tool-receipt.json",
+      "bytes": 410,
+      "sha256": "291fc07065e6cdeb0f8d0d5d8d344f893fa85f212358e6e939c7a07a558c2ddd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-archive-restoration.json",
+      "bytes": 1142,
+      "sha256": "579953db91c7a3ef484782c48142b2f8a7ff84b3d754d39be688a4152acaf398"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-accepted-0001.npz.gz",
+      "bytes": 3746835,
+      "sha256": "95a443ab1499624872cdfced3145eadff0351c5f14aebcab4d9cf5f7817d8946",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-accepted-0002.npz.gz",
+      "bytes": 3745667,
+      "sha256": "a23e7af59b82cee8d4a806b53cb06617fe07d045471168bfc86638a68b05b058",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-accepted-0003.npz.gz",
+      "bytes": 3744566,
+      "sha256": "2a3b3abe8504c0dbbf0f875941caeb398448b1c92ab21d8e8539e2490ac912ba",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-01-initial.npz",
+      "bytes": 924137,
+      "sha256": "71a0eaae2d0fba0ff7165555513b42990d837d88bd57fc5b761aed4f63d0c749",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 94280,
+    "completion_chunk": "22c69a",
+    "actual_exit_code": 0,
+    "seconds": 411.7504654510003,
+    "accepted_steps": 3,
+    "final_nodes": 844,
+    "maximum_rss_kib": 1814520,
+    "same_physical_T": 0.3477340963905257,
+    "actual_gap": 0.05000009401532286,
+    "scope": "191-dimensional same-metric finite prefix solve, still linear tail; actual body and global continuous metric not certified here"
+  }
+}

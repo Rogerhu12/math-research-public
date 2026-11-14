@@ -1,0 +1,27 @@
+{
+  "schema": "closed-publication-workflow-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_publish_tree_overlay_binary.py",
+      "bytes": 6934,
+      "sha256": "03034612bf31b3a483b91197adb1a065316b82f32c4e475203326702f22063ed"
+    },
+    {
+      "path": "scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-publisher-tree-performance-and-owner-stop.json",
+      "bytes": 1779,
+      "sha256": "0ad9ad790ada081510839076d86c5219c2feb66d93f1b37a2f645ee44c65c0df"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-fifth-batch-checkpoint-receipt.json",
+      "bytes": 440,
+      "sha256": "a4b2984b679664bd7219c5447b42be08ed4f2d6949623f3dd99754ae13ec36e1"
+    }
+  ],
+  "checkpoint_is_not_main_completion": true,
+  "no_force": true
+}

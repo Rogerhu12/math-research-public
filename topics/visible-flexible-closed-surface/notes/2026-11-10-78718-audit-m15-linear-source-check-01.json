@@ -1,0 +1,183 @@
+{
+  "all_sources_and_bindings_rehashed": true,
+  "closed_pure_evidence_files": 10,
+  "complete_unified_diff_matches": true,
+  "derived_files": 7,
+  "frozen_sources": 12,
+  "guard_bindings": 190,
+  "guard_command_equals_launch": true,
+  "launch_bindings": 188,
+  "ledger": {
+    "bytes": 22268,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-generated-sources-v1.json",
+    "sha256": "bc74421b42c62996d0dfbef51fa029a9e397304cb8e86083285abeff91e257d3"
+  },
+  "literal_transformations": 68,
+  "manifest": {
+    "bytes": 6237,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-entry-v1-source-manifest.json",
+    "sha256": "77e402d9911b2cadf20e2b0004467f1ee8e2ad9ac113b3e13dd3eae66bb55cd8"
+  },
+  "policy_bindings": 187,
+  "recursive_AST_details": [
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "WeightedTailPort.__init__",
+        "pilot_main"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [
+        "Coordinator.__init__",
+        "Coordinator._accept",
+        "Coordinator._budget_used",
+        "Coordinator._cache_consistent",
+        "Coordinator._call",
+        "Coordinator._return",
+        "Coordinator.emit",
+        "Coordinator.solve",
+        "NumericalSubdivision.__init__",
+        "WeightedTailPort.M",
+        "WeightedTailPort._classify",
+        "WeightedTailPort._emit",
+        "WeightedTailPort._inspect",
+        "WeightedTailPort._persist_good",
+        "WeightedTailPort.calls",
+        "WeightedTailPort.close",
+        "WeightedTailPort.cut",
+        "WeightedTailPort.linearD",
+        "WeightedTailPort.proc",
+        "WeightedTailPort.ready",
+        "WeightedTailPort.solve",
+        "canonical",
+        "classify_original_failure",
+        "complete_trial_groups",
+        "digest",
+        "identity",
+        "int_value",
+        "number",
+        "read",
+        "require",
+        "same_height",
+        "validate_checkpoint",
+        "validate_response",
+        "vector",
+        "verify",
+        "without_io"
+      ],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-prefix-tail-linear-m15q512-v1.py",
+      "literal_transformations": 6
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "controlled_module"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-prefix-flat-linear-m15q512-v1.py",
+      "literal_transformations": 6
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "main",
+        "main.<locals>.selected",
+        "runtime_callbacks"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [
+        "equal",
+        "expected_config",
+        "expected_parser_argv",
+        "module",
+        "restore_runtime_csc",
+        "runtime_csc",
+        "runtime_newton",
+        "runtime_original_newton",
+        "select_runtime_csc",
+        "select_runtime_newton",
+        "validate_inputs",
+        "without_io",
+        "write_json"
+      ],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-prefix-spectral-m15-linear-v1.py",
+      "literal_transformations": 17
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "check_outputs",
+        "check_packet",
+        "check_runtime_records",
+        "final_audit",
+        "first_packet",
+        "polynomial_endpoint"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [
+        "_compiled_runtime_record",
+        "check_csc_restoration",
+        "check_csc_runtime_record",
+        "check_newton_lifetime_record",
+        "main"
+      ],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-prefix-audit-m15-linear-v1.py",
+      "literal_transformations": 32
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "main"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-prepare-m15-linear-guard-v1.py",
+      "literal_transformations": 3
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "main"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [
+        "module"
+      ],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-check-m15-linear-runtime-v1.py",
+      "literal_transformations": 3
+    },
+    {
+      "all_recursive_functions_added": [],
+      "all_recursive_functions_changed": [
+        "main"
+      ],
+      "all_recursive_functions_removed": [],
+      "all_recursive_functions_unchanged": [
+        "AbstractPort.__init__",
+        "AbstractPort.solve",
+        "expect_terminal",
+        "setup",
+        "setup.<locals>.classify",
+        "setup.<locals>.inspect",
+        "setup.<locals>.journal",
+        "setup.<locals>.persist",
+        "tests"
+      ],
+      "entire_text_exactly_reconstructed": true,
+      "file": "78718-check-m15-linear-protocol-v1.py",
+      "literal_transformations": 1
+    }
+  ],
+  "schema": "independent-m15-frozen-source-transform-audit-v1",
+  "solver_calls": 0,
+  "status": "PASS_SOURCE_AND_METADATA_ONLY",
+  "weight_count": 46,
+  "weight_maximum": 2048
+}

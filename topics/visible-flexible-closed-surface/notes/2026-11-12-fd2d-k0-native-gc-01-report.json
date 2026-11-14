@@ -1,0 +1,192 @@
+{
+  "schema": "fd2d-R139-native-flat-coast-GC-v1",
+  "actual_execution": true,
+  "source_sha256": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "dependencies": {
+    "fd2d_k0_ruling_coast.py": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+    "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+  },
+  "physical_metric_scope": "Frozen new34 base candidate, delta=0 only; no reuse as an exact solution on modified radial-bump metrics.",
+  "exact_formula": "Q=sqrt(rhoc^2+(1+k^2)*(rho^2-rhoc^2)); knew=k*rhoc/Q; nnew=ac*nc*Q^2/(D*rho^2); mnew=nnew*knew; lnew=nnew*knew^2.",
+  "a_c": 1.029181699754392,
+  "v": 0.2587478542495509,
+  "coast_length": 0.2755434451024161,
+  "angular_work": 768,
+  "rows": [
+    {
+      "sigma": 0.0,
+      "physical_s": 0.5919999999999992,
+      "D_min": 1.029181699754392,
+      "n_min": 0.20887845685637466,
+      "curvature_max": 4.24891605320223,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 2.1602728286773676e-16,
+      "codazzi_n": 7.204523436166177e-16,
+      "material_inverse_residual": 0.0,
+      "inverse_iterations": 0
+    },
+    {
+      "sigma": 0.03444293063780201,
+      "physical_s": 0.6264429306378012,
+      "D_min": 0.9250044723563309,
+      "n_min": 0.22388952569596807,
+      "curvature_max": 4.212438939748214,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 3.7787156216551043e-16,
+      "codazzi_n": 2.6660531421418554e-16,
+      "material_inverse_residual": 1.5829807083200809e-13,
+      "inverse_iterations": 4
+    },
+    {
+      "sigma": 0.06888586127560402,
+      "physical_s": 0.6608858612756032,
+      "D_min": 0.8220558315600157,
+      "n_min": 0.24122519580049948,
+      "curvature_max": 4.176582810065907,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 2.8189256484623115e-16,
+      "codazzi_n": 2.8072704751080924e-16,
+      "material_inverse_residual": 1.6415579832951277e-13,
+      "inverse_iterations": 5
+    },
+    {
+      "sigma": 0.10332879191340602,
+      "physical_s": 0.6953287919134052,
+      "D_min": 0.7191935110821518,
+      "n_min": 0.26147076518638424,
+      "curvature_max": 4.1413319406184845,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 1.4761412578390143e-16,
+      "codazzi_n": 2.4139761370389756e-16,
+      "material_inverse_residual": 1.9307342183361165e-13,
+      "inverse_iterations": 5
+    },
+    {
+      "sigma": 0.13777172255120804,
+      "physical_s": 0.7297717225512073,
+      "D_min": 0.6172952131488382,
+      "n_min": 0.28542602569998976,
+      "curvature_max": 4.106671134260611,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 3.448576060133268e-16,
+      "codazzi_n": 7.545267850187637e-16,
+      "material_inverse_residual": 1.7718899264496102e-13,
+      "inverse_iterations": 6
+    },
+    {
+      "sigma": 0.17221465318901005,
+      "physical_s": 0.7642146531890093,
+      "D_min": 0.5172152848878434,
+      "n_min": 0.3142134297577844,
+      "curvature_max": 4.072585698393142,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 3.1455415529235697e-16,
+      "codazzi_n": 2.841566839142419e-16,
+      "material_inverse_residual": 1.9386120313213961e-13,
+      "inverse_iterations": 6
+    },
+    {
+      "sigma": 0.20665758382681204,
+      "physical_s": 0.7986575838268113,
+      "D_min": 0.4209760277094627,
+      "n_min": 0.349459056097821,
+      "curvature_max": 4.039061424196783,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 1.1468148479465423e-16,
+      "codazzi_n": 2.174909558005922e-16,
+      "material_inverse_residual": 1.7679964209229432e-13,
+      "inverse_iterations": 6
+    },
+    {
+      "sigma": 0.24110051446461406,
+      "physical_s": 0.8331005144646133,
+      "D_min": 0.3282638747844125,
+      "n_min": 0.3850115333563796,
+      "curvature_max": 4.006084566883018,
+      "gauss_residual": 5.421010862427522e-20,
+      "codazzi_m": 2.486509262378256e-15,
+      "codazzi_n": 2.83245827034412e-15,
+      "material_inverse_residual": 1.78910272013999e-13,
+      "inverse_iterations": 7
+    },
+    {
+      "sigma": 0.2755434451024161,
+      "physical_s": 0.8675434451024153,
+      "D_min": 0.2360744462757054,
+      "n_min": 0.3566124048932462,
+      "curvature_max": 3.9736418269046587,
+      "gauss_residual": 1.0842021724855044e-19,
+      "codazzi_m": 1.0114196806465525e-14,
+      "codazzi_n": 1.0682278087266461e-14,
+      "material_inverse_residual": 1.793959945872725e-13,
+      "inverse_iterations": 49
+    }
+  ],
+  "maximum_gauss_residual": 1.0842021724855044e-19,
+  "maximum_codazzi_residual": 1.0682278087266461e-14,
+  "material_provider_input_inverse_error": 6.071532165918825e-18,
+  "finite_projection_diagnostics": [
+    {
+      "maximum_mode": 15,
+      "value_projection_error_max": 0.9797199796070265,
+      "component_errors": [
+        0.880356303758175,
+        0.9797199796070265,
+        0.5031073378264401
+      ],
+      "scope": "Only a finite-value projection diagnostic, not a solved finite BVP or discarded-equation certificate."
+    },
+    {
+      "maximum_mode": 31,
+      "value_projection_error_max": 0.7000300863349449,
+      "component_errors": [
+        0.6915672066493608,
+        0.7000300863349449,
+        0.4932341473626054
+      ],
+      "scope": "Only a finite-value projection diagnostic, not a solved finite BVP or discarded-equation certificate."
+    },
+    {
+      "maximum_mode": 63,
+      "value_projection_error_max": 0.5398318081261,
+      "component_errors": [
+        0.5398318081261,
+        0.43078251958583536,
+        0.42531429184885905
+      ],
+      "scope": "Only a finite-value projection diagnostic, not a solved finite BVP or discarded-equation certificate."
+    },
+    {
+      "maximum_mode": 95,
+      "value_projection_error_max": 0.3966050369581364,
+      "component_errors": [
+        0.34090834854255725,
+        0.3966050369581364,
+        0.2092644202837004
+      ],
+      "scope": "Only a finite-value projection diagnostic, not a solved finite BVP or discarded-equation certificate."
+    },
+    {
+      "maximum_mode": 191,
+      "value_projection_error_max": 0.17313870580377322,
+      "component_errors": [
+        0.17313870580377322,
+        0.13443016931156726,
+        0.0767910603160572
+      ],
+      "scope": "Only a finite-value projection diagnostic, not a solved finite BVP or discarded-equation certificate."
+    }
+  ],
+  "actual_cartesian_II_difference": {
+    "l": 2.0146802537368558e-07,
+    "m": 1.9818518315339873e-07,
+    "n": 1.6108490497046546e-07
+  },
+  "global_position_compatibility_or_monodromy_certified": false,
+  "continuous_metric_certificate": false,
+  "arrays_file": "2026-11-12-fd2d-k0-native-gc-01-field.npz",
+  "arrays_sha256": "5f260eff2719cb48174dd51c85c3b3eca1e9c33e6806695ad165e776e01070ae",
+  "seconds": 100.49913619299969
+}

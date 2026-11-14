@@ -1,0 +1,135 @@
+{
+  "schema": "fd2d-R201-R205-exact-slice-reuse-closed-group-v1",
+  "utc": "2026-11-13T02:27:20.253Z",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-R201-R205-variable-amplitude-slice-reuse.cjs",
+      "bytes": 28898,
+      "sha256": "65f8c554c4b9ce1e2838dddbeaadb99ab7029c2bc64f15b86d09f3eb4d1bfd4d",
+      "commit": "648b3bc4c1379f63671b4f72cf486d774ce78666"
+    },
+    {
+      "path": "scripts/fd2d-check-R201-R205-slice-reuse.cjs",
+      "bytes": 6375,
+      "sha256": "9d2c495765f432aa77c316265b08c990b775704f78a930f70512c31ba295d097",
+      "commit": "88d916ffcf4b624f8a2445983f24adfca7f43403"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-slice-reuse-check.json",
+      "bytes": 5108,
+      "sha256": "36c104793a574a5f7bb5a491fddd31312900a0599447bfe8aacd48ec0f1c5fe6",
+      "commit": "a5fef191dae2104adba947468e8cd577581801c0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-exact-slice-reuse.md",
+      "bytes": 4364,
+      "sha256": "722230125889a5b28683c275641a217af34d347ab396756d1cce80571e485604",
+      "commit": "aaa6bb4e766ef419a9e9a163c7c2fd03383ef006"
+    }
+  ],
+  "actualCheck": {
+    "runtime": "pure V8, actual completion; no OS child or exit",
+    "dimension": 35,
+    "rows": 37740,
+    "scalarComparisons": 84769,
+    "ObjectIsEquality": true,
+    "fullNormalGradientDiagonalResidualJVP": true,
+    "calls": 631,
+    "hits": 233,
+    "builds": 398
+  },
+  "sourceParentSHA256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+  "publication": {
+    "mode": "root README section 8 UTF8 fallback while executor unavailable",
+    "actualTerminalPullSucceeded": false,
+    "lastActualReadCommit": "390299b08b597fbc8fda81e5303b1435203fe295",
+    "journal": [
+      {
+        "utc": "2026-11-13T02:25:34.631Z",
+        "path": "scripts/fd2d-check-R201-R205-slice-reuse.cjs",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 5a3826695e0db31eb1cb193ba5cca8d4285edf7b but expected 648b3bc4c1379f63671b4f72cf486d774ce78666\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 5a3826695e0db31eb1cb193ba5cca8d4285edf7b but expected 648b3bc4c1379f63671b4f72cf486d774ce78666\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at 5a3826695e0db31eb1cb193ba5cca8d4285edf7b but expected 648b3bc4c1379f63671b4f72cf486d774ce78666\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T02:25:34.631Z",
+        "event": "immediate literal pull after API 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T02:25:35.105Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      },
+      {
+        "utc": "2026-11-13T02:25:51.570Z",
+        "path": "scripts/fd2d-check-R201-R205-slice-reuse.cjs",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 77960299909446d1fe8ee19a48ae09fd22d3603b but expected 298a85f108d4ba5992a2f98c8c5890b26f150d25\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at 77960299909446d1fe8ee19a48ae09fd22d3603b but expected 298a85f108d4ba5992a2f98c8c5890b26f150d25\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at 77960299909446d1fe8ee19a48ae09fd22d3603b but expected 298a85f108d4ba5992a2f98c8c5890b26f150d25\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T02:25:51.571Z",
+        "event": "immediate literal pull after 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T02:25:52.041Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      },
+      {
+        "utc": "2026-11-13T02:27:05.102Z",
+        "path": "notes/2026-11-13-fd2d-R201-R205-exact-slice-reuse.md",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at e9160a0e4df2eeaa9fe88de0db4178f505b2e1c2 but expected a5fef191dae2104adba947468e8cd577581801c0\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at e9160a0e4df2eeaa9fe88de0db4178f505b2e1c2 but expected a5fef191dae2104adba947468e8cd577581801c0\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at e9160a0e4df2eeaa9fe88de0db4178f505b2e1c2 but expected a5fef191dae2104adba947468e8cd577581801c0\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T02:27:05.104Z",
+        "event": "immediate literal pull after 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T02:27:05.552Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      }
+    ]
+  },
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-guide10-actual-comparison-closed-group-v1",
+  "utc": "2026-11-13T03:05:10.159Z",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-run-full-half-amplitude-branch.cjs",
+      "bytes": 5561,
+      "sha256": "acedf832f742d39a79a5dc6113b17ac07b60ccc80aea40c9248674dd8bdedcae",
+      "commit": "279e695760af72e39fdb29f592345bd1cfa586a3"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-guide10-01-initial.json",
+      "bytes": 54300,
+      "sha256": "2b865a116755fb298cf52f594843cb103225a20c81e8f90417de27f4cd151260",
+      "commit": "76303569de1e2e0da3545daa6672cd19d6b1834c"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-guide10-01-accepted.json",
+      "bytes": 80315,
+      "sha256": "820b06a009e650ed8171da1f8d6885fd4af09ed1fa9b0f3d20c1531c4b99c115",
+      "commit": "98dd58dca8f9bf50969e62ce67c1a68aec90a3b0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-guide10-actual-comparison.md",
+      "bytes": 1368,
+      "sha256": "0cfcdfef45020ac3441e48edfdf4eb5703869ba935556a529dbe5c056baf90ac",
+      "commit": "d415a8f8a184629174d8363734a702652042d3af"
+    }
+  ],
+  "actualExecution": {
+    "runtime": "pure V8 cell102, actual completion, no OS process/exit",
+    "normalSeconds": 67.618,
+    "totalSeconds": 187.176,
+    "realTrials": 9,
+    "rejectedTrials": 8,
+    "acceptedAlpha": 0.25,
+    "originalScaledEquationRelativeResidual": 2.729235156524891e-16,
+    "originalObjectiveReevaluationSeconds": 12.303
+  },
+  "targetComparison": {
+    "newGuide10Baseline": 0.013692177133816295,
+    "newGuide10Accepted": 0.01367046343149907,
+    "oldGuide95Parent": 0.014402381503128186,
+    "oldGuide95AtCandidate": 0.014863610226384712,
+    "adoptedAsReplacement": false
+  },
+  "publication": {
+    "mode": "README section 8 complete UTF8 files below 100KB during unavailable executor",
+    "completeCompactJSONNoRemovedFields": true,
+    "journal": []
+  },
+  "strongTargetComplete": false
+}

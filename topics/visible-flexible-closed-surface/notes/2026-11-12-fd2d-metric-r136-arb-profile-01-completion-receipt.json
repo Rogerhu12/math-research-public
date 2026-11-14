@@ -1,0 +1,46 @@
+{
+  "schema": "fd2d-direct-exec-observed-completion-v1",
+  "command": [
+    "python",
+    "scripts/fd2d-metric-r136-profile-packet.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-r136-arb-profile-01",
+    "--precision",
+    "256",
+    "--order",
+    "24"
+  ],
+  "workdir": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "session_id": 87589,
+  "initial_chunk_id": "3ee9be",
+  "completion_chunk_id": "f951e0",
+  "observed_exit_code": 0,
+  "observed_stdout": {
+    "passed": true,
+    "report": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-report.json",
+    "seconds": 1.933955775002687,
+    "peak_rss_kib": 90720,
+    "whole_surface_certificate": false
+  },
+  "source": {
+    "path": "scripts/fd2d-metric-r136-profile-packet.py",
+    "bytes": 11619,
+    "sha256": "b4aea52fa04314064d37e6b1f556f38a4c8ab5c8ec947696281f1cdd0b7d83d5"
+  },
+  "interval_source": {
+    "path": "scripts/fd2d_gc_r136_arb_profile.py",
+    "bytes": 32315,
+    "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-report.json",
+    "bytes": 452505,
+    "sha256": "c11f79bf403aa5a1cd4ed1bb58989c51710f41f3a75481bc09576089ace7e2e6"
+  },
+  "python_flint_version": "0.9.0",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "limitations": "Tool-observed true exit and producer measurements; no additional full F/J, BVP, frame, body or global surface certificate."
+}

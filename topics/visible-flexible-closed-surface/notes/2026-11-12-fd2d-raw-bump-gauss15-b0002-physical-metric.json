@@ -1,0 +1,101 @@
+{
+  "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+    "bytes": 12253,
+    "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+  },
+  "base_candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "parameters": [
+    -0.0027844239365272176,
+    -0.008544214322804937,
+    -0.015691180723036605,
+    -0.02209714642036593,
+    -0.013489755526597052,
+    0.009804285779508676,
+    0.011565975846357166
+  ],
+  "parameter_count": 7,
+  "supports": [
+    [
+      0.34,
+      0.7915892713432515
+    ],
+    [
+      0.4528973178358129,
+      0.9044865891790643
+    ],
+    [
+      0.5657946356716258,
+      1.0173839070148774
+    ],
+    [
+      0.6786919535074387,
+      1.1302812248506902
+    ],
+    [
+      0.7915892713432515,
+      1.243178542686503
+    ],
+    [
+      0.9044865891790643,
+      1.356075860522316
+    ],
+    [
+      1.0173839070148774,
+      1.4689731783581288
+    ]
+  ],
+  "physical_endpoint": 1.4889731783581288,
+  "protected_cylinder": [
+    0.0,
+    0.32
+  ],
+  "protected_cut_neighborhood": [
+    1.4689731783581288,
+    1.4889731783581288
+  ],
+  "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+  "q_j": "(s-support_left)/(support_right-support_left)",
+  "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+  "uniform_basis_bounds": {
+    "value": 1.0,
+    "first": [
+      9.216266735965766,
+      9.216266735965768,
+      9.216266735965766,
+      9.216266735965768,
+      9.216266735965768,
+      9.216266735965762,
+      9.216266735965768
+    ],
+    "second": [
+      196.14297587978166,
+      196.1429758797817,
+      196.1429758797816,
+      196.1429758797817,
+      196.1429758797817,
+      196.1429758797815,
+      196.1429758797817
+    ]
+  },
+  "delta_scales_for_unit_a_second": [
+    0.00509832174980822,
+    0.00509832174980822,
+    0.005098321749808222,
+    0.00509832174980822,
+    0.00509832174980822,
+    0.0050983217498082245,
+    0.00509832174980822
+  ],
+  "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+  "physical_metric_changes_with_delta": true,
+  "radial_clock": "s is physical; scale 1; no warp",
+  "base_coast_T_fixed": true,
+  "central_and_cut_all_existing_jets_unchanged": true,
+  "same_g_refinement": false
+}

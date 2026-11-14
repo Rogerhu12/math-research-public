@@ -1,0 +1,59 @@
+{
+  "status": "AUTHOR_FROZEN_V2_SOURCE_BINDINGS",
+  "files": [
+    {
+      "path": "results/R6-regular-cut-height-to-cartesian-two-jet.md",
+      "bytes": 4695,
+      "sha256": "b797485d834a62428f33580c481d09ea551b837277fdeb3c1c1b9dd73cba969f"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "results/R38-ck-local-exact-isometric-collar.md",
+      "bytes": 20176,
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 19628,
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-flat058-geometric-template.md",
+      "bytes": 10352,
+      "sha256": "f962bee606ba0a2cc03b08bb9e4669bf43056dfd6f983cfa24d6c3d990a7c805"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-flat058-geometric-template.md",
+      "bytes": 8222,
+      "sha256": "16d0eb80746246c5bf84a33326055705931f7248e55cf82342927a0c2ab2dd0e"
+    }
+  ],
+  "prior_frozen_publication": {
+    "path": "notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-publication.json",
+    "bytes": 1226,
+    "sha256": "72ad3921430e5450d98e0a92893ab13309354c6bd37d0c9eda5468aa58a230ac"
+  },
+  "prior_frozen_source_manifest": {
+    "path": "notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-sources.json",
+    "bytes": 1460,
+    "sha256": "cb9b871ffa00a453182e6c029910819529dab5749a5821b578956a20eeddd663"
+  },
+  "changes_from_original": {
+    "missing_TeX_backslashes": {
+      "qquad": 33,
+      "longrightarrow": 1
+    },
+    "logical_scope_sentence": "identify rotational coefficients before reconstructing an immersion",
+    "mathematical_claims_and_constants_changed": false
+  },
+  "candidate_M14_M15_read": false
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-owned-child-exit-and-resource-observation-v1",
+  "observer_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-monitored-command-v2.py",
+    "sha256": "86527392fc0e200065f76f49dbf4e4e195ac92293ee48ef1fc7cd01dd7172d44"
+  },
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fd2d-gc-raw-bump-joint-gauss-run.py",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--warm-start",
+    "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss06-b0004-accepted-0001.npz",
+    "--radius-packet",
+    "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-gauss06-b0005",
+    "--owner-stop-file",
+    "notes/2026-11-12-fd2d-raw-bump-gauss06-owner-stop.txt",
+    "--max-iterations",
+    "1",
+    "--modes",
+    "15"
+  ],
+  "cwd": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "started_utc": "2026-11-12T12:44:07.837287+00:00",
+  "ended_utc": "2026-11-12T12:44:56.313021+00:00",
+  "seconds": 48.47576747699986,
+  "actual_child_returncode": -9,
+  "wrapper_returncode": 137,
+  "child_cpu_seconds": {
+    "user": 5.61418,
+    "system": 0.973869
+  },
+  "kernel_child_maximum_resident_KiB": 584212,
+  "sampled_process_peaks": {
+    "VmRSS_KiB": 537692,
+    "VmHWM_KiB": 584212,
+    "VmSize_KiB": 1026444,
+    "VmPeak_KiB": 1026444,
+    "RssAnon_KiB": 518748,
+    "RssFile_KiB": 18944
+  },
+  "last_sample": {
+    "utc": "2026-11-12T12:44:55.715055+00:00",
+    "seconds": 47.87780148299953,
+    "pid": 14,
+    "utime_seconds": 5.59,
+    "stime_seconds": 0.92,
+    "VmRSS_KiB": 484368,
+    "VmHWM_KiB": 584212,
+    "VmSize_KiB": 750392,
+    "VmPeak_KiB": 1026444,
+    "RssAnon_KiB": 465424,
+    "RssFile_KiB": 18944,
+    "host_MemAvailable_KiB": 1200844
+  },
+  "samples": 91,
+  "observed_child_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+  "observed_child_cgroup": "0::/\n",
+  "telemetry_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-gauss06-b0005-process-receipt-samples.jsonl",
+  "console_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-gauss06-b0005-process-receipt-console.txt",
+  "termination_cause": "Actual wait return code only; no inferred OOM or time-limit cause"
+}

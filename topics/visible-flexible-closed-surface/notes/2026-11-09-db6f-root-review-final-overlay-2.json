@@ -1,0 +1,46 @@
+{
+  "status": "exact-row-overlay-analytic-suppliers-remain-dependencies",
+  "finished": true,
+  "finite_tail_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "data_file": "2026-11-09-db6f-root-review-final-overlay-2.npz",
+  "data_sha256": "c9d1d1644d56e59b1f927a4d6b2014ad217f9cadcef90f827fc483f67ea1cc21",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "sources": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-final-overlay-1.json": "591507f5cfe2a6b73a85a74aa5d6a3284dbd8fde452353d4fca20c76f9dc6125",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-critical-depth2.json": "d7ba8fab251af4dd76aeadadef143c73c6b4d11f7cef39015832c237ace363b2"
+  },
+  "script_sha256": "87218edf0b73b6e67dae3c58a618841601dc64b093b24519820bcfd63efca839",
+  "overlaid_spans": [
+    4567,
+    4568,
+    4569,
+    4570,
+    4571
+  ],
+  "analytic_definition": "Same exact background; use fine packet on the listed complete spans and coarse packet elsewhere."
+}

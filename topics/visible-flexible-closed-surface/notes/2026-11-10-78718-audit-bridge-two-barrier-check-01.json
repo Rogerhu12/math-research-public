@@ -1,0 +1,59 @@
+{
+  "scope": "Exact author checks for fixed-bridge signs and two-module feedback.\nUses the already audited R21 exact-root existence as a dependency.\nNo root solve, candidate arrays, PDE, tail request, or new geometry certificate.",
+  "proof": "notes/2026-11-10-78718-geometry-bridge-two-barrier-feedback-v1.md",
+  "proof_sha256": "9336712dd04a7fc8ecd29b72997a3284074a11b4f4b65bea2da8ef3de075fbaa",
+  "checker_sha256": "86794b2b29ba3cbb307eb6c64488375b1d65e8aa9a791873ce7911ac93375ec6",
+  "symbolic_checks": {
+    "turn_at_end": true,
+    "turn_slope_at_end": true,
+    "unique_derivative_factor": true,
+    "critical_point": true,
+    "peak_value": true,
+    "left_simple_coefficient": true,
+    "transmission_AMGM_square": true,
+    "interface_source_elimination": true
+  },
+  "rational_checks": {
+    "actual_cut": true,
+    "pt_upper": true,
+    "sqrt_E_lower": true,
+    "ps_upper": true,
+    "d_upper": true,
+    "phase_peak": true,
+    "cos_lower": true,
+    "omega_lower": true,
+    "sturm_length": true,
+    "phase_slope": true,
+    "potential_full": true,
+    "potential_positive": true,
+    "S_bound": true,
+    "reverse_log_bound": true,
+    "exponential": true,
+    "outer_constant": true
+  },
+  "symbolic_count": 8,
+  "rational_count": 16,
+  "source_bindings": [
+    {
+      "path": "results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "bytes": 14695,
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c"
+    },
+    {
+      "path": "scripts/db6f-root-exact-bridge.py",
+      "bytes": 9408,
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1"
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "bytes": 5123,
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    }
+  ],
+  "exp_upper": "7802379100688977240289345319426092283751933987/2730346980207021260800000000000000000000000000",
+  "root_solves": 0,
+  "pde_runs": 0,
+  "tail_calls": 0,
+  "candidate_arrays_read": 0,
+  "passed": true
+}

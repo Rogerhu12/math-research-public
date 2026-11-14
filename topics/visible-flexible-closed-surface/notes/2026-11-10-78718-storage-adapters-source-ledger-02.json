@@ -1,0 +1,1108 @@
+{
+  "schema": "78718-complete-storage-source-transformations-v1",
+  "status": "PURE_SOURCE_GENERATION_NOT_PRODUCTION_ACCEPTANCE",
+  "builder_sha256": "17c63f1c0c2066b42c1f5e9e113e679247b30b317ac103d63176a50bc3233500",
+  "core_sources": {
+    "78718-prefix-byte-shards-v1.py": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39",
+    "78718-prefix-storage-v1.py": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+  },
+  "new_source_names": {
+    "fullxyz": "78718-prefix-fullxyz-hermite-storage-v1.py",
+    "mirror": "78718-prefix-mirror-hermite-storage-v1.py",
+    "continuous": "78718-prefix-continuous-hermite-storage-v1.py",
+    "polynomial": "78718-prefix-metric-polynomial-storage-v1.py",
+    "supplier": "78718-prefix-metric-supplier-storage-v1.py",
+    "moment": "78718-prefix-volume-moment-storage-v1.py",
+    "common": "78718-prefix-common-cut-storage-v1.py",
+    "arithmetic": "78718-prefix-angular-arithmetic-storage-v1.py",
+    "metric_budget": "78718-prefix-metric-budget-storage-v1.py",
+    "closed_budget": "78718-prefix-closed-budget-storage-v1.py",
+    "angular": "78718-prefix-angular-metric-storage-v1.py",
+    "export": "78718-prefix-export-closed-mesh-storage-v1.py",
+    "review": "78718-prefix-review-closed-mesh-storage-v1.py",
+    "terminal": "78718-prefix-terminal-error-storage-v1.py",
+    "codec": "78718-prefix-byte-shards-v1.py",
+    "helper": "78718-prefix-storage-v1.py"
+  },
+  "transformations": [
+    {
+      "old": "950f-root-fullxyz-hermite.py",
+      "old_bytes": 15452,
+      "old_sha256": "4f60dbd1735268e2f4953748d12c4a87099d49ddf69dcb34d40b9f26986d0bd9",
+      "new": "78718-prefix-fullxyz-hermite-storage-v1.py",
+      "new_bytes": 15820,
+      "new_sha256": "2ab813fba7d3a33ef273799a4f6d27628b9cc2f98285fb3d3371fdacb49b009d",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "HERE = Path(__file__).resolve().parent\n",
+          "new": "HERE = Path(__file__).resolve().parent\n\n_storage_spec = importlib.util.spec_from_file_location(\n    'prefix_78718_explicit_storage', HERE/'78718-prefix-storage-v1.py')\nstorage = importlib.util.module_from_spec(_storage_spec)\n_storage_spec.loader.exec_module(storage)\n",
+          "reason": "Explicit new storage helper import; no numerical callback change"
+        },
+        {
+          "old": "    out_data = args.out_prefix.with_name(args.out_prefix.name+'-data.npz.gz')\n    out_data.write_bytes(gzip.compress(payload.getvalue(), mtime=0))\n    if out_data.stat().st_size >= 5_000_000:\n        raise ValueError('Checkpoint exceeds the repository file-size limit')\n",
+          "new": "    logical_payload = gzip.compress(payload.getvalue(), mtime=0)\n    storage_record = storage.write_payload(args.out_prefix, logical_payload,\n                                           nodes=len(mesh), modes=M)\n",
+          "reason": "Only physical storage after the unchanged original NPZ serialization"
+        },
+        {
+          "old": "        data_file=out_data.name, data_sha256=sha(out_data),\n",
+          "new": "        data_storage=storage_record, data_sha256=storage_record['logical_sha256'],\n",
+          "reason": "Explicit storage reference; data SHA still identifies the original logical gzip/NPZ"
+        },
+        {
+          "old": "    print(json.dumps({'data_bytes': out_data.stat().st_size}))\n",
+          "new": "    print(json.dumps({'logical_data_bytes': len(logical_payload),\n                      'storage_descriptor': storage_record['descriptor_file']}))\n",
+          "reason": "Storage-only console summary"
+        },
+        {
+          "old": "        data_path = Path(meta_path).parent/self.meta['data_file']\n        if sha(data_path) != self.meta['data_sha256']:\n            raise ValueError('Geometry data hash mismatch')\n        raw = np.load(io.BytesIO(gzip.decompress(data_path.read_bytes())),\n                      allow_pickle=False)\n",
+          "new": "        stored_meta, payload, self.storage_bindings = storage.read_payload(meta_path, verify_arrays=True)\n        if stored_meta != self.meta:\n            raise ValueError('Geometry metadata changed during storage read')\n        raw = np.load(io.BytesIO(gzip.decompress(payload)), allow_pickle=False)\n",
+          "reason": "Only logical-container acquisition; all original SharedHermite arithmetic follows unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "SharedHermite.basis",
+        "SharedHermite.evaluate",
+        "angular_warp_jets",
+        "audit",
+        "audit.values",
+        "main",
+        "sha",
+        "source"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "SharedHermite.__init__",
+        "build"
+      ]
+    },
+    {
+      "old": "db6f-root-mirror-hermite.py",
+      "old_bytes": 4602,
+      "old_sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6",
+      "new": "78718-prefix-mirror-hermite-storage-v1.py",
+      "new_bytes": 5138,
+      "new_sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "HERE = Path(__file__).resolve().parent\n",
+          "new": "HERE = Path(__file__).resolve().parent\n\n_storage_spec = importlib.util.spec_from_file_location(\n    'prefix_78718_explicit_storage', HERE/'78718-prefix-storage-v1.py')\nstorage = importlib.util.module_from_spec(_storage_spec)\n_storage_spec.loader.exec_module(storage)\n",
+          "reason": "Explicit new storage helper import; no numerical callback change"
+        },
+        {
+          "old": "    'mirror_original', HERE / '950f-root-fullxyz-hermite.py')\n",
+          "new": "    'mirror_original', HERE / '78718-prefix-fullxyz-hermite-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    data_path = meta_path.parent / meta['data_file']\n    saved = np.load(io.BytesIO(gzip.decompress(data_path.read_bytes())),\n                    allow_pickle=False)\n",
+          "new": "    stored_meta, payload, _storage_bindings = storage.read_payload(meta_path, verify_arrays=True)\n    if stored_meta != meta:\n        raise ValueError('Base metadata changed during storage read')\n    saved = np.load(io.BytesIO(gzip.decompress(payload)), allow_pickle=False)\n",
+          "reason": "Read the original logical payload before unchanged mirror parity statements"
+        },
+        {
+          "old": "    data_path.write_bytes(gzip.compress(stream.getvalue(), mtime=0))\n    if data_path.stat().st_size >= 5_000_000:\n        raise RuntimeError('Data exceeds the repository size limit')\n",
+          "new": "    logical_payload = gzip.compress(stream.getvalue(), mtime=0)\n    storage_record = storage.write_payload(args.out_prefix, logical_payload,\n                                           nodes=meta['nodes'], modes=meta['modes'])\n",
+          "reason": "Only physical storage after the unchanged mirror NPZ serialization"
+        },
+        {
+          "old": "        data_sha256=sha(data_path), wrapper_sha256=sha(__file__),\n",
+          "new": "        data_storage=storage_record, data_sha256=storage_record['logical_sha256'],\n        wrapper_sha256=sha(__file__),\n",
+          "reason": "Bind the modified logical payload and the explicit new wrapper identity"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "fraction_record",
+        "main",
+        "sha"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "build"
+      ]
+    },
+    {
+      "old": "db6f-audit-continuous-hermite.py",
+      "old_bytes": 15300,
+      "old_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+      "new": "78718-prefix-continuous-hermite-storage-v1.py",
+      "new_bytes": 15784,
+      "new_sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "import numpy as np\n\n\ndef down(x):",
+          "new": "import numpy as np\nimport importlib.util\n\nHERE = Path(__file__).resolve().parent\n\n\ndef down(x):",
+          "reason": "Add only the explicit storage loader imports/path to a reader with no original HERE"
+        },
+        {
+          "old": "HERE = Path(__file__).resolve().parent\n",
+          "new": "HERE = Path(__file__).resolve().parent\n\n_storage_spec = importlib.util.spec_from_file_location(\n    'prefix_78718_explicit_storage', HERE/'78718-prefix-storage-v1.py')\nstorage = importlib.util.module_from_spec(_storage_spec)\n_storage_spec.loader.exec_module(storage)\n",
+          "reason": "Explicit new storage helper import; no numerical callback change"
+        },
+        {
+          "old": "        data=self.path.parent/self.meta['data_file']\n        if sha(data)!=self.meta['data_sha256']:raise ValueError('Data hash mismatch')\n        raw=np.load(io.BytesIO(gzip.decompress(data.read_bytes())),allow_pickle=False)\n",
+          "new": "        stored_meta,payload,self.storage_bindings=storage.read_payload(self.path,verify_arrays=True)\n        if stored_meta!=self.meta:raise ValueError('Geometry metadata changed during storage read')\n        raw=np.load(io.BytesIO(gzip.decompress(payload)),allow_pickle=False)\n",
+          "reason": "Only logical-container acquisition before unchanged exact/interval arithmetic"
+        },
+        {
+          "old": "             data_sha256=geom.meta['data_sha256'],script_sha256=sha(__file__),\n",
+          "new": "             data_sha256=geom.meta['data_sha256'],script_sha256=sha(__file__),\n             storage_bindings=geom.storage_bindings,\n",
+          "reason": "Certificate provenance adds the actual prefix storage closure"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "ExactHermite.ranges",
+        "I.__add__",
+        "I.__getitem__",
+        "I.__init__",
+        "I.__mul__",
+        "I.__neg__",
+        "I.__rsub__",
+        "I.__sub__",
+        "I.__truediv__",
+        "I.abs",
+        "I.get",
+        "I.sqrt",
+        "I.square",
+        "ceil",
+        "cross",
+        "cylindrical",
+        "dot",
+        "down",
+        "floor",
+        "norm",
+        "pi_bounds",
+        "pi_bounds.atan",
+        "qbounds",
+        "sha",
+        "stack",
+        "trig_point",
+        "trig_range",
+        "trigonometry",
+        "up",
+        "witness_trigonometry"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "ExactHermite.__init__",
+        "certify"
+      ]
+    },
+    {
+      "old": "db6f-audit-metric-polynomial.py",
+      "old_bytes": 10966,
+      "old_sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+      "new": "78718-prefix-metric-polynomial-storage-v1.py",
+      "new_bytes": 11134,
+      "new_sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "spec=importlib.util.spec_from_file_location('independent_continuous_geometry',HERE/'db6f-audit-continuous-hermite.py')\n",
+          "new": "spec=importlib.util.spec_from_file_location('independent_continuous_geometry',HERE/'78718-prefix-continuous-hermite-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "             backend_sha256=sha(HERE/'db6f-audit-continuous-hermite.py'),\n",
+          "new": "             backend_sha256=sha(HERE/'78718-prefix-continuous-hermite-storage-v1.py'),\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "             supplier_claim=target.get('analytic_definition'),\n",
+          "new": "             storage_bindings=geom.storage_bindings,\n             supplier_claim=target.get('analytic_definition'),\n",
+          "reason": "Report provenance only; target bytes and all metric arithmetic unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "P.__add__",
+        "P.__add__.pad",
+        "P.__mul__",
+        "P.__neg__",
+        "P.__sub__",
+        "P.norm",
+        "P.scalar",
+        "P.theta",
+        "bernstein_matrix",
+        "compose",
+        "geometry_coefficients",
+        "geometry_coefficients.expand",
+        "interval_convolution",
+        "interval_convolution.flat",
+        "interval_convolution.nonnegative_upper",
+        "interval_matmul",
+        "interval_matmul.pos",
+        "lower_value",
+        "positive_sum_upper",
+        "sha",
+        "target_scalar"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "run"
+      ]
+    },
+    {
+      "old": "db6f-audit-metric-supplier.py",
+      "old_bytes": 17450,
+      "old_sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0",
+      "new": "78718-prefix-metric-supplier-storage-v1.py",
+      "new_bytes": 17622,
+      "new_sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "spec=importlib.util.spec_from_file_location('metric_backend',HERE/'db6f-audit-metric-polynomial.py')\n",
+          "new": "spec=importlib.util.spec_from_file_location('metric_backend',HERE/'78718-prefix-metric-polynomial-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        arithmetic_backend_sha256=sha(HERE/'db6f-audit-metric-polynomial.py'),\n",
+          "new": "        arithmetic_backend_sha256=sha(HERE/'78718-prefix-metric-polynomial-storage-v1.py'),\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    output=dict(scope=__doc__,geometry_file=str(args.geometry),geometry_sha256=sha(args.geometry),\n",
+          "new": "    output=dict(scope=__doc__,geometry_file=str(args.geometry),geometry_sha256=sha(args.geometry),\n        geometry_storage_bindings=geom.storage_bindings,\n",
+          "reason": "Report provenance only; original target construction and storage unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "Target.__init__",
+        "Target.a_prefix_poly",
+        "Target.bridge_packet",
+        "Target.chart_packet",
+        "Target.e_poly",
+        "Target.radius_packet",
+        "Target.sincos",
+        "add",
+        "compose",
+        "der",
+        "exact_clamped_spline",
+        "interval_add_poly",
+        "interval_mul_poly",
+        "mul",
+        "polynomial_bound",
+        "q",
+        "qinterval",
+        "scale",
+        "sha",
+        "trim"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "main"
+      ]
+    },
+    {
+      "old": "db6f-root-volume-moment.py",
+      "old_bytes": 3973,
+      "old_sha256": "502a3d8c9439ee0b707e6be7b367e356ef44d1942aa6a0615330b1005fe10913",
+      "new": "78718-prefix-volume-moment-storage-v1.py",
+      "new_bytes": 4138,
+      "new_sha256": "16f493774c7176566dda1f08e494b2af74d2f6e04b970b43c802838b08a5f654",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "spec=importlib.util.spec_from_file_location('volume_interval',HERE/'db6f-audit-continuous-hermite.py')\n",
+          "new": "spec=importlib.util.spec_from_file_location('volume_interval',HERE/'78718-prefix-continuous-hermite-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'interval_backend_sha256':iv.sha(HERE/'db6f-audit-continuous-hermite.py'),\n",
+          "new": "        'interval_backend_sha256':iv.sha(HERE/'78718-prefix-continuous-hermite-storage-v1.py'),\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'geometry_sha256':iv.sha(args.geometry),'data_sha256':geom.meta['data_sha256'],\n",
+          "new": "        'geometry_sha256':iv.sha(args.geometry),'data_sha256':geom.meta['data_sha256'],\n        'storage_bindings':geom.storage_bindings,\n",
+          "reason": "Report provenance only; original moment arithmetic unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "integrate"
+      ]
+    },
+    {
+      "old": "db6f-root-common-cut-v2.py",
+      "old_bytes": 13021,
+      "old_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+      "new": "78718-prefix-common-cut-storage-v1.py",
+      "new_bytes": 13714,
+      "new_sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "HERE=Path(__file__).resolve().parent\n",
+          "new": "HERE=Path(__file__).resolve().parent\n\n_storage_spec = importlib.util.spec_from_file_location(\n    'prefix_78718_explicit_storage', HERE/'78718-prefix-storage-v1.py')\nstorage = importlib.util.module_from_spec(_storage_spec)\n_storage_spec.loader.exec_module(storage)\n",
+          "reason": "Explicit new storage helper import; no numerical callback change"
+        },
+        {
+          "old": "    b=module('common_cut_initial_enclosure','db6f-audit-continuous-hermite.py');install(b)\n",
+          "new": "    b=module('common_cut_initial_enclosure','78718-prefix-continuous-hermite-storage-v1.py');install(b)\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        mod=module('common_cut_geometry','db6f-audit-continuous-hermite.py');install(mod)\n",
+          "new": "        mod=module('common_cut_geometry','78718-prefix-continuous-hermite-storage-v1.py');install(mod)\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        mod=module('common_cut_metric','db6f-audit-metric-polynomial.py');install(mod.base)\n",
+          "new": "        mod=module('common_cut_metric','78718-prefix-metric-polynomial-storage-v1.py');install(mod.base)\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        mod=module('common_cut_moment','db6f-root-volume-moment.py');install(mod.iv)\n",
+          "new": "        mod=module('common_cut_moment','78718-prefix-volume-moment-storage-v1.py');install(mod.iv)\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "            rawpath=oldpath.parent/self.meta['data_file']\n            raw=np.load(io.BytesIO(gzip.decompress(rawpath.read_bytes())),allow_pickle=False)\n",
+          "new": "            stored_meta,payload,bindings=storage.read_payload(oldpath,verify_arrays=True)\n            if stored_meta!=self.meta or bindings!=self.storage_bindings:\n                raise ValueError('Defining base changed during common-cut storage read')\n            raw=np.load(io.BytesIO(gzip.decompress(payload)),allow_pickle=False)\n",
+          "reason": "Second read uses the same defining base and its original mode count; correction math unchanged"
+        },
+        {
+          "old": "    raw=np.load(io.BytesIO(gzip.decompress((args.geometry.parent/old['data_file']).read_bytes())),allow_pickle=False)\n",
+          "new": "    stored_meta,payload,_storage_bindings=storage.read_payload(args.geometry,verify_arrays=True)\n    if stored_meta!=old:raise ValueError('Defining base changed during common-cut make')\n    raw=np.load(io.BytesIO(gzip.decompress(payload)),allow_pickle=False)\n",
+          "reason": "Common-cut make reads the defining base bytes; all node/mode/width formulas unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "install.CommonCutPrefix.__init__.put",
+        "module",
+        "resolve",
+        "sha",
+        "validate_tail"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "install",
+        "install.CommonCutPrefix.__init__",
+        "main",
+        "make"
+      ]
+    },
+    {
+      "old": "db6f-audit-tail-metric-curvature.py",
+      "old_bytes": 22932,
+      "old_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+      "new": "78718-prefix-angular-arithmetic-storage-v1.py",
+      "new_bytes": 23047,
+      "new_sha256": "3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "SPEC = importlib.util.spec_from_file_location('db6f_tail_metric_poly', HERE/'db6f-audit-metric-polynomial.py')\n",
+          "new": "SPEC = importlib.util.spec_from_file_location('db6f_tail_metric_poly', HERE/'78718-prefix-metric-polynomial-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        script_sha256=sha(__file__), polynomial_backend_sha256=sha(HERE/'db6f-audit-metric-polynomial.py'),\n",
+          "new": "        script_sha256=sha(__file__), polynomial_backend_sha256=sha(HERE/'78718-prefix-metric-polynomial-storage-v1.py'),\n",
+          "reason": "Explicit source filename/hash binding"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "ExactIntegratedTail.__init__",
+        "ExactIntegratedTail.expand",
+        "ExactIntegratedTail.expand.add",
+        "ExactIntegratedTail.fields",
+        "ExactIntegratedTail.interval_radius",
+        "check",
+        "direct_curvature",
+        "exact",
+        "intervals",
+        "load_packet",
+        "metric_residuals",
+        "perturbative_curvature",
+        "real_coefficients",
+        "real_coefficients.coefficient",
+        "restricted",
+        "sha",
+        "value_range",
+        "vector_norm_bound",
+        "vector_range"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "run"
+      ]
+    },
+    {
+      "old": "db6f-audit-prefix-metric-budget.py",
+      "old_bytes": 9504,
+      "old_sha256": "dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f",
+      "new": "78718-prefix-metric-budget-storage-v1.py",
+      "new_bytes": 9635,
+      "new_sha256": "656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "spec = importlib.util.spec_from_file_location('prefix_budget_existing_backend', HERE/'db6f-audit-tail-metric-curvature.py')\n",
+          "new": "spec = importlib.util.spec_from_file_location('prefix_budget_existing_backend', HERE/'78718-prefix-angular-arithmetic-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        backend_sha256={name: sha(HERE/name) for name in ['db6f-audit-tail-metric-curvature.py',\n",
+          "new": "        backend_sha256={name: sha(HERE/name) for name in ['78718-prefix-angular-arithmetic-storage-v1.py',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    implementation = HERE/'db6f-root-common-cut-v2.py'\n",
+          "new": "    implementation = HERE/'78718-prefix-common-cut-storage-v1.py'\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "            'db6f-root-common-cut-v2.py']},\n",
+          "new": "            '78718-prefix-common-cut-storage-v1.py']},\n",
+          "reason": "Explicit source filename/hash binding"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "angular_bound",
+        "check",
+        "midpoint_value",
+        "restrict",
+        "sha",
+        "traditional"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "load_uncorrected_region",
+        "main"
+      ]
+    },
+    {
+      "old": "db6f-audit-closed-budget-transfer-v3.py",
+      "old_bytes": 24545,
+      "old_sha256": "5ef8d229e0a19bc83381a2cdcaef8b24309e00a1fdc6b9409b20d7ca34092e49",
+      "new": "78718-prefix-closed-budget-storage-v1.py",
+      "new_bytes": 24683,
+      "new_sha256": "375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "    implementations=[HERE/'db6f-root-common-cut.py',HERE/'db6f-root-common-cut-v2.py']\n",
+          "new": "    implementations=[HERE/'78718-prefix-common-cut-storage-v1.py']\n",
+          "reason": "Explicit new prefix implementation family; no widening of old tail/transfer identities"
+        },
+        {
+          "old": "    base=common.module('common_cut_budget_intervals','db6f-audit-continuous-hermite.py');common.install(base)\n",
+          "new": "    base=common.module('common_cut_budget_intervals','78718-prefix-continuous-hermite-storage-v1.py');common.install(base)\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "      'same_background_transfer':transfer_binding,\n",
+          "new": "      'same_background_transfer':transfer_binding,\n      'prefix_storage_bindings':shape.storage_bindings,\n",
+          "reason": "Report actual prefix storage closure; all original scalar inequalities unchanged"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "canonical",
+        "check",
+        "checkpoint_parameters",
+        "high",
+        "load_transfer_implementation",
+        "low",
+        "parameter_differences",
+        "q",
+        "read_json",
+        "record",
+        "resolve",
+        "sha",
+        "verify_completed_transfer",
+        "verify_definitions",
+        "verify_parameter_preflight",
+        "verify_source_context"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "main"
+      ]
+    },
+    {
+      "old": "db6f-prefix-angular-metric-storage.py",
+      "old_bytes": 24286,
+      "old_sha256": "2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c",
+      "new": "78718-prefix-angular-metric-storage-v1.py",
+      "new_bytes": 24403,
+      "new_sha256": "baa57dbb55360f9706c9cd409233be7bef3b31f68f35217e06d1936658193e2f",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "    'db6f-prefix-shared-jet-byte-shards-v2.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "new": "    '78718-prefix-byte-shards-v1.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-byte-shards-v1.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "new": "    '78718-prefix-byte-shards-v1.py': 'e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-shared-jet-storage.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "new": "    '78718-prefix-storage-v1.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    storage = module('prefix_angular_jet_storage', HERE/'db6f-prefix-shared-jet-storage.py')\n",
+          "new": "    storage = module('prefix_angular_jet_storage', HERE/'78718-prefix-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-storage-v1.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "new": "    '78718-prefix-storage-v1.py': '83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-continuous-hermite-storage.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "new": "    '78718-prefix-continuous-hermite-storage-v1.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "          baseline['backend_sha256'] == SOURCES['db6f-prefix-continuous-hermite-storage.py'], 'Baseline belongs to another map/target/backend')\n",
+          "new": "          baseline['backend_sha256'] == SOURCES['78718-prefix-continuous-hermite-storage-v1.py'], 'Baseline belongs to another map/target/backend')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-continuous-hermite-storage-v1.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "new": "    '78718-prefix-continuous-hermite-storage-v1.py': '09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-polynomial-storage.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "new": "    '78718-prefix-metric-polynomial-storage-v1.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "          target['arithmetic_backend_sha256'] == SOURCES['db6f-prefix-metric-polynomial-storage.py'] and\n",
+          "new": "          target['arithmetic_backend_sha256'] == SOURCES['78718-prefix-metric-polynomial-storage-v1.py'] and\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "          baseline['script_sha256'] == SOURCES['db6f-prefix-metric-polynomial-storage.py'] and\n",
+          "new": "          baseline['script_sha256'] == SOURCES['78718-prefix-metric-polynomial-storage-v1.py'] and\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-polynomial-storage-v1.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "new": "    '78718-prefix-metric-polynomial-storage-v1.py': 'd290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-supplier-storage.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "new": "    '78718-prefix-metric-supplier-storage-v1.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "          target['script_sha256'] == SOURCES['db6f-prefix-metric-supplier-storage.py'] and\n",
+          "new": "          target['script_sha256'] == SOURCES['78718-prefix-metric-supplier-storage-v1.py'] and\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-supplier-storage-v1.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "new": "    '78718-prefix-metric-supplier-storage-v1.py': 'f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-common-cut-storage.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "new": "    '78718-prefix-common-cut-storage-v1.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "          meta['common_cut_implementation_sha256'] == SOURCES['db6f-prefix-common-cut-storage.py'],\n",
+          "new": "          meta['common_cut_implementation_sha256'] == SOURCES['78718-prefix-common-cut-storage-v1.py'],\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "            common = module('prefix_angular_common_cut', HERE/'db6f-prefix-common-cut-storage.py')\n",
+          "new": "            common = module('prefix_angular_common_cut', HERE/'78718-prefix-common-cut-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-common-cut-storage-v1.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "new": "    '78718-prefix-common-cut-storage-v1.py': '34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-angular-arithmetic-storage.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "new": "    '78718-prefix-angular-arithmetic-storage-v1.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-angular-arithmetic-storage-v1.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "new": "    '78718-prefix-angular-arithmetic-storage-v1.py': '3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-budget-storage.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "new": "    '78718-prefix-metric-budget-storage-v1.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    helper = module('prefix_angular_reviewed_local', HERE/'db6f-prefix-metric-budget-storage.py')\n",
+          "new": "    helper = module('prefix_angular_reviewed_local', HERE/'78718-prefix-metric-budget-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-budget-storage-v1.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "new": "    '78718-prefix-metric-budget-storage-v1.py': '656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "Rows.__init__",
+        "Rows.add",
+        "Rows.flush",
+        "check",
+        "locate",
+        "module",
+        "positive_binary",
+        "read",
+        "record",
+        "run.emit",
+        "run.transferred",
+        "sha",
+        "trig_table",
+        "verify_rows"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "run",
+        "validate_inputs"
+      ]
+    },
+    {
+      "old": "db6f-prefix-export-closed-mesh-storage.py",
+      "old_bytes": 25497,
+      "old_sha256": "d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1",
+      "new": "78718-prefix-export-closed-mesh-storage-v1.py",
+      "new_bytes": 25593,
+      "new_sha256": "5126cfca789877456463ae640d0f174d45ab50dffbe83233c080b02f21119ea5",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "        'db6f-prefix-shared-jet-byte-shards-v2.py']}\n",
+          "new": "        '78718-prefix-byte-shards-v1.py']}\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'db6f-prefix-metric-polynomial-storage.py', 'db6f-prefix-shared-jet-storage.py',\n",
+          "new": "        'db6f-prefix-metric-polynomial-storage.py', '78718-prefix-storage-v1.py',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    base = module('mesh_prefix_intervals', 'db6f-prefix-continuous-hermite-storage.py')\n",
+          "new": "    base = module('mesh_prefix_intervals', '78718-prefix-continuous-hermite-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'db6f-prefix-continuous-hermite-storage.py', 'db6f-audit-tail-stream.py',\n",
+          "new": "        '78718-prefix-continuous-hermite-storage-v1.py', 'db6f-audit-tail-stream.py',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'db6f-prefix-metric-polynomial-storage.py', '78718-prefix-storage-v1.py',\n",
+          "new": "        '78718-prefix-metric-polynomial-storage-v1.py', '78718-prefix-storage-v1.py',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    supplier = module('mesh_material_spline', 'db6f-prefix-metric-supplier-storage.py')\n",
+          "new": "    supplier = module('mesh_material_spline', '78718-prefix-metric-supplier-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        'db6f-audit-tail-metric-curvature.py', 'db6f_tail_integrated.py', 'db6f-prefix-metric-supplier-storage.py',\n",
+          "new": "        'db6f-audit-tail-metric-curvature.py', 'db6f_tail_integrated.py', '78718-prefix-metric-supplier-storage-v1.py',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    matching = [name for name in ['db6f-prefix-common-cut-storage.py']\n",
+          "new": "    matching = [name for name in ['78718-prefix-common-cut-storage-v1.py']\n",
+          "reason": "Explicit source filename/hash binding"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "build",
+        "cap_points",
+        "check",
+        "distinct",
+        "evaluate_tail",
+        "exact_chart_values",
+        "flat_sampling_knots",
+        "interval_midpoint",
+        "invert_material_angle",
+        "module",
+        "plan",
+        "polynomial_value",
+        "prefix_points",
+        "resolve",
+        "sha",
+        "tail_coefficient_value",
+        "triangle_faces",
+        "write_ply"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "prepare"
+      ]
+    },
+    {
+      "old": "db6f-prefix-review-closed-mesh-storage.py",
+      "old_bytes": 11115,
+      "old_sha256": "698e8b0528ffa7b1bbe1bc84c574079f60261156f1d3a6ddae048af0f9c0c479",
+      "new": "78718-prefix-review-closed-mesh-storage-v1.py",
+      "new_bytes": 11228,
+      "new_sha256": "9a211f07178ae7653518b59a243dee0046825cec2e7fae287762ebdef5a11611",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "    supplier = module(\"independent_mesh_spline\", HERE / \"db6f-prefix-metric-supplier-storage.py\")\n",
+          "new": "    supplier = module(\"independent_mesh_spline\", HERE / \"78718-prefix-metric-supplier-storage-v1.py\")\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    exporter_path = HERE / \"db6f-prefix-export-closed-mesh-storage.py\"\n",
+          "new": "    exporter_path = HERE / \"78718-prefix-export-closed-mesh-storage-v1.py\"\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "EXPORTER_SHA = \"d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1\"\n",
+          "new": "EXPORTER_SHA = \"5126cfca789877456463ae640d0f174d45ab50dffbe83233c080b02f21119ea5\"\n",
+          "reason": "Reviewer binds exact new exporter bytes"
+        },
+        {
+          "old": "\"reviewer\": \"/root/coupled_prefix explicit storage-interface adaptation\",",
+          "new": "\"reviewer\": \"78718 new storage interface; actual independent runner recorded separately\",",
+          "reason": "Honest new implementation provenance, without claiming independent execution"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "module",
+        "read_ply",
+        "resolve",
+        "sha"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "main"
+      ]
+    },
+    {
+      "old": "db6f-prefix-terminal-error-storage-v3.py",
+      "old_bytes": 48711,
+      "old_sha256": "8db94c71a9035f2f977daea9c315b669bce4c20800f80e7886b77c66af6f7ed7",
+      "new": "78718-prefix-terminal-error-storage-v1.py",
+      "new_bytes": 48878,
+      "new_sha256": "fdaddf0466c5a7a1606315a5c741b55882e9a1170b985dfd4b30b86e574437b0",
+      "replacements": [
+        {
+          "old": "#!/usr/bin/env python3\n",
+          "new": "#!/usr/bin/env python3\n# New 78718 explicit storage adaptation; original mathematical source is retained below.\n",
+          "reason": "Explicit new source identity; comment only"
+        },
+        {
+          "old": "    'db6f-prefix-shared-jet-byte-shards-v2.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "new": "    '78718-prefix-byte-shards-v1.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-shared-jet-byte-shards-v2.py')\n",
+          "new": "    files.prefix_source('78718-prefix-byte-shards-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-byte-shards-v1.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n",
+          "new": "    '78718-prefix-byte-shards-v1.py': 'e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-shared-jet-storage.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "new": "    '78718-prefix-storage-v1.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    path = files.prefix_source('db6f-prefix-shared-jet-storage.py')\n",
+          "new": "    path = files.prefix_source('78718-prefix-storage-v1.py')\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-storage-v1.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n",
+          "new": "    '78718-prefix-storage-v1.py': '83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-fullxyz-hermite-storage.py': 'f7b3659a98d70941377a6e054fd9900a1de45518e65899da862987aae75f9ccc',\n",
+          "new": "    '78718-prefix-fullxyz-hermite-storage-v1.py': 'f7b3659a98d70941377a6e054fd9900a1de45518e65899da862987aae75f9ccc',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', base['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-fullxyz-hermite-storage-v1.py', base['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', geom['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-fullxyz-hermite-storage-v1.py', geom['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-fullxyz-hermite-storage-v1.py': 'f7b3659a98d70941377a6e054fd9900a1de45518e65899da862987aae75f9ccc',\n",
+          "new": "    '78718-prefix-fullxyz-hermite-storage-v1.py': '2ab813fba7d3a33ef273799a4f6d27628b9cc2f98285fb3d3371fdacb49b009d',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-mirror-hermite-storage.py': '163d3ce9b11036c4ff9effce52d02dece2f09e57f582e24ce26e9ae4162eee94',\n",
+          "new": "    '78718-prefix-mirror-hermite-storage-v1.py': '163d3ce9b11036c4ff9effce52d02dece2f09e57f582e24ce26e9ae4162eee94',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "                        ('wrapper_sha256', 'db6f-prefix-mirror-hermite-storage.py')]:\n",
+          "new": "                        ('wrapper_sha256', '78718-prefix-mirror-hermite-storage-v1.py')]:\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-mirror-hermite-storage.py', base['wrapper_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-mirror-hermite-storage-v1.py', base['wrapper_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-mirror-hermite-storage-v1.py': '163d3ce9b11036c4ff9effce52d02dece2f09e57f582e24ce26e9ae4162eee94',\n",
+          "new": "    '78718-prefix-mirror-hermite-storage-v1.py': 'f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-continuous-hermite-storage.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "new": "    '78718-prefix-continuous-hermite-storage-v1.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        files.prefix_source('db6f-prefix-continuous-hermite-storage.py', baseline['backend_sha256'])\n",
+          "new": "        files.prefix_source('78718-prefix-continuous-hermite-storage-v1.py', baseline['backend_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        files.prefix_source('db6f-prefix-continuous-hermite-storage.py', metric['backend_sha256'])\n",
+          "new": "        files.prefix_source('78718-prefix-continuous-hermite-storage-v1.py', metric['backend_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-continuous-hermite-storage.py', geom_cert['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-continuous-hermite-storage-v1.py', geom_cert['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-continuous-hermite-storage.py', moment['interval_backend_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-continuous-hermite-storage-v1.py', moment['interval_backend_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-continuous-hermite-storage-v1.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n",
+          "new": "    '78718-prefix-continuous-hermite-storage-v1.py': '09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-polynomial-storage.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "new": "    '78718-prefix-metric-polynomial-storage-v1.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', baseline['script_sha256'])\n",
+          "new": "        files.prefix_source('78718-prefix-metric-polynomial-storage-v1.py', baseline['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', metric['script_sha256'])\n",
+          "new": "        files.prefix_source('78718-prefix-metric-polynomial-storage-v1.py', metric['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-metric-polynomial-storage.py', target['arithmetic_backend_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-metric-polynomial-storage-v1.py', target['arithmetic_backend_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-polynomial-storage-v1.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n",
+          "new": "    '78718-prefix-metric-polynomial-storage-v1.py': 'd290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-supplier-storage.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "new": "    '78718-prefix-metric-supplier-storage-v1.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-metric-supplier-storage.py', target['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-metric-supplier-storage-v1.py', target['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-supplier-storage-v1.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n",
+          "new": "    '78718-prefix-metric-supplier-storage-v1.py': 'f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-volume-moment-storage.py': 'fd81fd2b1ebee77bd95ce9065e4898d5ef03b8bf72e99e3d0858f401b16818c1',\n",
+          "new": "    '78718-prefix-volume-moment-storage-v1.py': 'fd81fd2b1ebee77bd95ce9065e4898d5ef03b8bf72e99e3d0858f401b16818c1',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-volume-moment-storage.py', moment['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-volume-moment-storage-v1.py', moment['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-volume-moment-storage-v1.py': 'fd81fd2b1ebee77bd95ce9065e4898d5ef03b8bf72e99e3d0858f401b16818c1',\n",
+          "new": "    '78718-prefix-volume-moment-storage-v1.py': '16f493774c7176566dda1f08e494b2af74d2f6e04b970b43c802838b08a5f654',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-common-cut-storage.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "new": "    '78718-prefix-common-cut-storage-v1.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    for key, source in [('common_cut_implementation_sha256', 'db6f-prefix-common-cut-storage.py'),\n",
+          "new": "    for key, source in [('common_cut_implementation_sha256', '78718-prefix-common-cut-storage-v1.py'),\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-common-cut-storage-v1.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n",
+          "new": "    '78718-prefix-common-cut-storage-v1.py': '34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-angular-arithmetic-storage.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "new": "    '78718-prefix-angular-arithmetic-storage-v1.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-angular-arithmetic-storage-v1.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n",
+          "new": "    '78718-prefix-angular-arithmetic-storage-v1.py': '3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-metric-budget-storage.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "new": "    '78718-prefix-metric-budget-storage-v1.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-metric-budget-storage-v1.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n",
+          "new": "    '78718-prefix-metric-budget-storage-v1.py': '656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-closed-budget-storage.py': 'dc07d80f74a1cb880132e91ef0296f972e7e550a278eac057975fb8b032a09e9',\n",
+          "new": "    '78718-prefix-closed-budget-storage-v1.py': 'dc07d80f74a1cb880132e91ef0296f972e7e550a278eac057975fb8b032a09e9',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    files.prefix_source('db6f-prefix-closed-budget-storage.py', budget['script_sha256'])\n",
+          "new": "    files.prefix_source('78718-prefix-closed-budget-storage-v1.py', budget['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-closed-budget-storage-v1.py': 'dc07d80f74a1cb880132e91ef0296f972e7e550a278eac057975fb8b032a09e9',\n",
+          "new": "    '78718-prefix-closed-budget-storage-v1.py': '375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        },
+        {
+          "old": "    'db6f-prefix-angular-metric-storage.py': '2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c',\n",
+          "new": "    '78718-prefix-angular-metric-storage-v1.py': '2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c',\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    angular = metric['script_sha256'] == PREFIX_SOURCES['db6f-prefix-angular-metric-storage.py']\n",
+          "new": "    angular = metric['script_sha256'] == PREFIX_SOURCES['78718-prefix-angular-metric-storage-v1.py']\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "        files.prefix_source('db6f-prefix-angular-metric-storage.py', metric['script_sha256'])\n",
+          "new": "        files.prefix_source('78718-prefix-angular-metric-storage-v1.py', metric['script_sha256'])\n",
+          "reason": "Explicit source filename/hash binding"
+        },
+        {
+          "old": "    '78718-prefix-angular-metric-storage-v1.py': '2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c',\n",
+          "new": "    '78718-prefix-angular-metric-storage-v1.py': 'baa57dbb55360f9706c9cd409233be7bef3b31f68f35217e06d1936658193e2f',\n",
+          "reason": "Bind explicit new prefix source bytes; original tail source table retained"
+        }
+      ],
+      "unchanged_ast_functions": [
+        "Files.__init__",
+        "Files.file",
+        "Files.item",
+        "Files.json",
+        "Files.json.nonfinite",
+        "Files.output",
+        "Files.prefix_source",
+        "Files.source",
+        "binary",
+        "canonical",
+        "check",
+        "checkpoint_parameters",
+        "definitions",
+        "exact",
+        "main",
+        "manifest_files",
+        "parameters",
+        "prefix_storage_ledger",
+        "prefix_storage_ledger.key",
+        "reference",
+        "same",
+        "scalar_gate",
+        "tail_certificate",
+        "transfer"
+      ],
+      "changed_ast_functions_requiring_storage_diff_review": [
+        "candidate",
+        "prefix_metric",
+        "prefix_storage"
+      ]
+    }
+  ],
+  "mathematical_backend_calls": 0,
+  "solver_calls": 0,
+  "scope": "Complete unique textual replay and compile only. Changed function bodies require semantic storage review; no blanket unchanged-math claim is inferred from AST counts."
+}

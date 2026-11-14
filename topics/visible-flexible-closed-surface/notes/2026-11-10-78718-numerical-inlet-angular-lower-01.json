@@ -1,0 +1,270 @@
+{
+  "DN_calls": 0,
+  "ODE_calls": 0,
+  "axes": [
+    {
+      "angular_tangent_coefficient": {
+        "binary64_lower": 0.19999999866885787,
+        "binary64_upper": 0.1999999986688579,
+        "decimal_lower_exact": "0.199999998668857894481440",
+        "decimal_upper_exact": "0.199999998668857894481441",
+        "exact": "321387606712735163435604487857896172195402442660969839101595/1606938044258990275541962092341162602522202993782792835301376"
+      },
+      "axis_exact": "0",
+      "map_metric_psipsi": {
+        "binary64_lower": 0.03999999946754316,
+        "binary64_upper": 0.039999999467543165,
+        "decimal_lower_exact": "0.039999999467543159564515",
+        "decimal_upper_exact": "0.039999999467543159564516",
+        "exact": "103289993748539732285166736228588478460497878602195201808132331538739134293388813856832144923158626391968382596731544025/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+      },
+      "relative_operator_lower": {
+        "binary64_lower": 1.3311420566797904e-08,
+        "binary64_upper": 1.3311420566797906e-08,
+        "decimal_lower_exact": "0.000000013311420566797905",
+        "decimal_upper_exact": "0.000000013311420566797906",
+        "exact": "152770729492344190094456317431801475920494510432001698089185213834054690114502526421052679046482898935714453679/11476666124830699746251605230966148371856795765182866188460846037934006533320113876372764745848081978923830335351291904"
+      },
+      "relative_signed_error": {
+        "binary64_lower": -1.3311420566797906e-08,
+        "binary64_upper": -1.3311420566797904e-08,
+        "decimal_lower_exact": "-0.000000013311420566797906",
+        "decimal_upper_exact": "-0.000000013311420566797905",
+        "exact": "-152770729492344190094456317431801475920494510432001698089185213834054690114502526421052679046482898935714453679/11476666124830699746251605230966148371856795765182866188460846037934006533320113876372764745848081978923830335351291904"
+      },
+      "target_metric_psipsi": {
+        "binary64_lower": 0.03999999999999998,
+        "binary64_upper": 0.03999999999999999,
+        "decimal_lower_exact": "0.039999999999999982236431",
+        "decimal_upper_exact": "0.039999999999999982236432",
+        "exact": "811296384146066456669919861801/20282409603651670423947251286016"
+      },
+      "target_rho": {
+        "binary64_lower": 0.19999999999999996,
+        "binary64_upper": 0.19999999999999996,
+        "decimal_lower_exact": "0.199999999999999955591079",
+        "decimal_upper_exact": "0.199999999999999955591080",
+        "exact": "900719925474099/4503599627370496"
+      }
+    },
+    {
+      "angular_tangent_coefficient": {
+        "binary64_lower": 1.80000000004579,
+        "binary64_upper": 1.8000000000457903,
+        "decimal_lower_exact": "1.800000000045790182211899",
+        "decimal_upper_exact": "1.800000000045790182211900",
+        "exact": "2892488479739764481825384045139436088697282297274172266937755/1606938044258990275541962092341162602522202993782792835301376"
+      },
+      "axis_exact": "pi/3",
+      "map_metric_psipsi": {
+        "binary64_lower": 3.2400000001648444,
+        "binary64_upper": 3.240000000164845,
+        "decimal_lower_exact": "3.240000000164844655964934",
+        "decimal_upper_exact": "3.240000000164844655964935",
+        "exact": "8366489605427253923253907969202848631465192170498761453099895127654187509197447861009681738608160356804257583485044440025/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+      },
+      "relative_operator_lower": {
+        "binary64_lower": 5.087793089284527e-11,
+        "binary64_upper": 5.0877930892845276e-11,
+        "decimal_lower_exact": "0.000000000050877930892845",
+        "decimal_upper_exact": "0.000000000050877930892846",
+        "exact": "425669679938978973700212976099243411141212257032639738726484312425907135922886507702124944395342338128953523161/8366489605001584243314928995502635655365948759357549196067255388927703196771540725086795230906035412408915245356090916864"
+      },
+      "relative_signed_error": {
+        "binary64_lower": 5.087793089284527e-11,
+        "binary64_upper": 5.0877930892845276e-11,
+        "decimal_lower_exact": "0.000000000050877930892845",
+        "decimal_upper_exact": "0.000000000050877930892846",
+        "exact": "425669679938978973700212976099243411141212257032639738726484312425907135922886507702124944395342338128953523161/8366489605001584243314928995502635655365948759357549196067255388927703196771540725086795230906035412408915245356090916864"
+      },
+      "target_metric_psipsi": {
+        "binary64_lower": 3.2399999999999998,
+        "binary64_upper": 3.24,
+        "decimal_lower_exact": "3.240000000000000159872115",
+        "decimal_upper_exact": "3.240000000000000159872116",
+        "exact": "65715007115831415416180825873449/20282409603651670423947251286016"
+      },
+      "target_rho": {
+        "binary64_lower": 1.8,
+        "binary64_upper": 1.8,
+        "decimal_lower_exact": "1.800000000000000044408920",
+        "decimal_upper_exact": "1.800000000000000044408921",
+        "exact": "8106479329266893/4503599627370496"
+      }
+    }
+  ],
+  "common_extension_conditions": {
+    "correction_identically_zero_near_inlet": true,
+    "correction_start_index": 6124,
+    "exact_final_target": "a_*(0)=1 and the same frozen angular chart at the inlet",
+    "implementation": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+    "implementation_sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43",
+    "lower_persists_for_every_extension_satisfying_these_conditions": true,
+    "radial_change": "sigma=lambda*s for any constant lambda>0; no angular change at s=0",
+    "requested_width_float_hex": "0x1.3333333333333p-3",
+    "start_coordinate": {
+      "binary64_lower": 1.8720381178742067,
+      "binary64_upper": 1.8720381178742067,
+      "decimal_lower_exact": "1.872038117874206708535211",
+      "decimal_upper_exact": "1.872038117874206708535212",
+      "exact": "4215455085040821/2251799813685248"
+    }
+  },
+  "exceeds_original_budget": true,
+  "input_bindings": [
+    {
+      "bytes": 64813,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+    },
+    {
+      "bytes": 887,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "bytes": 4599313,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "bytes": 3886748,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "bytes": 9865,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "bytes": 5695,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+      "sha256": "dbfb5c348a6921b078c1ee25c9aa5874856de303afd11b1e6277ac1eebdbbd8c"
+    },
+    {
+      "bytes": 11138,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    },
+    {
+      "bytes": 5923,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "bytes": 5581,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    }
+  ],
+  "modes": 24,
+  "native_node_index": 0,
+  "nodes": 6599,
+  "original_budget_exact": "1/500000000",
+  "producer_calls": 0,
+  "relative_operator_lower": {
+    "binary64_lower": 1.3311420566797904e-08,
+    "binary64_upper": 1.3311420566797906e-08,
+    "decimal_lower_exact": "0.000000013311420566797905",
+    "decimal_upper_exact": "0.000000013311420566797906",
+    "exact": "152770729492344190094456317431801475920494510432001698089185213834054690114502526421052679046482898935714453679/11476666124830699746251605230966148371856795765182866188460846037934006533320113876372764745848081978923830335351291904"
+  },
+  "s_exact": "0",
+  "schema": "78718-stored-prefix-inlet-angular-lower-v1",
+  "scope": {
+    "complete_closed_surface_claimed": false,
+    "complete_common_cut_generated_or_claimed": false,
+    "exact_bridge_root_recomputed": false,
+    "exact_point_lower": true,
+    "exact_saved_finite_map": true,
+    "infinite_exact_isometry_rejected": false,
+    "new_M15_success_claimed": false,
+    "new_acceptance_requirement": false
+  },
+  "script": {
+    "bytes": 12292,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inlet-angular-lower-v1.py",
+    "sha256": "8d62095b36b383bbbbf9d7f94be4d1488b5011c1da63dace781d5012e78a3277"
+  },
+  "seconds": 0.17743969000002835,
+  "solver_calls": 0,
+  "source_bindings": [
+    {
+      "bytes": 15452,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-root-fullxyz-hermite.py",
+      "sha256": "4f60dbd1735268e2f4953748d12c4a87099d49ddf69dcb34d40b9f26986d0bd9"
+    },
+    {
+      "bytes": 4602,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+      "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+    },
+    {
+      "bytes": 17450,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-supplier.py",
+      "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+    },
+    {
+      "bytes": 13021,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "bytes": 15820,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fullxyz-hermite-storage-v1.py",
+      "sha256": "2ab813fba7d3a33ef273799a4f6d27628b9cc2f98285fb3d3371fdacb49b009d"
+    },
+    {
+      "bytes": 5138,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+      "sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957"
+    },
+    {
+      "bytes": 17622,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+      "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+    },
+    {
+      "bytes": 13714,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+      "sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43"
+    },
+    {
+      "bytes": 5923,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "bytes": 11138,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    },
+    {
+      "bytes": 2740,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "bytes": 2008,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "bytes": 9408,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-exact-bridge.py",
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1"
+    }
+  ],
+  "status": "EXACT_STORED_INLET_ANGULAR_RAYLEIGH_LOWER_COMPUTED",
+  "storage_family": "storage",
+  "target_radius_at_inlet_exact": "1",
+  "warp_at_inlet": {
+    "binary64_lower": 0.8,
+    "binary64_upper": 0.8,
+    "decimal_lower_exact": "0.800000000000000044408920",
+    "decimal_upper_exact": "0.800000000000000044408921",
+    "exact": "3602879701896397/4503599627370496"
+  },
+  "witness_axis_exact": "0"
+}

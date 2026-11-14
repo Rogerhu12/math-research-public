@@ -1,0 +1,97 @@
+{
+  "status": "ACTUAL_PARTITION_WARM_OBSERVED_ONLY",
+  "observer": "/root/numerical_recovery",
+  "read_tool_receipts": [
+    "8ff3a5",
+    "3e22bb"
+  ],
+  "root_reported_launch": {
+    "observer": "/root",
+    "tool_chunk": "be42ba",
+    "session_id": 67954,
+    "phase": "started",
+    "natural_exit_not_observed_here": true
+  },
+  "root_reported_previous_stop": {
+    "tool_chunk": "719dc2",
+    "actual_exit_code": 1,
+    "intentional_route_change": true
+  },
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-06-partition-recovery-input.json.gz",
+    "bytes": 385457,
+    "sha256": "662846709e8882f73efd8c4fe743c0ca186829083bf472ef3b835974d2fc1f4c"
+  },
+  "retained_input_bytes_equal": true,
+  "events": [
+    {
+      "time": "2026-11-10T13:40:41.830Z",
+      "event": "partition_warm_start",
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07-tail-warm-input.json.gz",
+      "sourceParts": 8,
+      "targetParts": 16,
+      "sourceSteps": 32,
+      "targetSteps": 16
+    },
+    {
+      "time": "2026-11-10T13:41:07.093Z",
+      "event": "partition_warm_complete",
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07-tail-warm-input.json.gz",
+      "method": "actual-partial-RK-partition-warm-v1",
+      "scope": "UNCONVERGED initial guess only. The new full shooting residual must be actually solved; no equality of nonzero old/new normalized residuals is asserted.",
+      "sourceModes": 22,
+      "targetModes": 22,
+      "sourceQuadrature": 512,
+      "targetQuadrature": 512,
+      "physicalDepth": 12,
+      "sourceShootingParts": 8,
+      "targetShootingParts": 16,
+      "sourceStepsPerStage": 32,
+      "targetStepsPerStage": 16,
+      "nominalRKStepsPerRawProfile": 256,
+      "refinementFactor": 2,
+      "sourceNodeCount": 865,
+      "nodeCount": 1729,
+      "insertedNodes": 864,
+      "retainedNodesBitwiseEqual": true,
+      "maximumRetainedNodeChange": 0,
+      "partialFlowNominalRKSteps": 13824,
+      "midpointEngine": "actual selected cell.engine; original root precision and original physical RHS",
+      "actualCriticalPointSplits": true,
+      "partialPhysicalCoordinateRoundingMayDiffer": true,
+      "noMomentumReprojection": true,
+      "knownConvergenceNotInferred": true,
+      "sourceScope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate.",
+      "seconds": 25.262
+    },
+    {
+      "time": "2026-11-10T13:41:07.124Z",
+      "event": "unchanged_height_canonical_warm",
+      "call": 1,
+      "actualHeightEqual": true,
+      "nodeCount": 1729,
+      "rawReprojectionCalls": 0,
+      "amplitudeScalingCalls": 0,
+      "boundaryCorrectionApplied": false,
+      "actualCanonicalBoundaryMismatch": 0,
+      "scope": "Initial guess reuse only; the original full residual is evaluated again."
+    }
+  ],
+  "tail_shooting_grid": {
+    "shootingParts": 16,
+    "steps": 16,
+    "auditSteps": 16,
+    "oldShootingParts": 8,
+    "oldSteps": 32,
+    "oldAuditSteps": 32,
+    "nominalRKStepsPerRawProfile": 256,
+    "nominalAuditStepsPerRawProfile": 256,
+    "partition_refinement": true,
+    "scope": "Numerical shooting partition, RK and audit grid only; same physical metric and final target."
+  },
+  "selected_source_count": 13,
+  "selected_source_hashes_match_recorded_run": true,
+  "new_finite_response_asserted": false,
+  "prefix_inner_asserted": false,
+  "scope": "Closed scalar excerpt of actual initialization. No actual session return was consumed and no running-state or completion inference is made from files."
+}

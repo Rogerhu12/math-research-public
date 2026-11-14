@@ -1,0 +1,405 @@
+{
+  "schema": "fd2d-R205-fixed-amplitude-complete-goal-eight-accepted-closed-v1",
+  "scope": "Continuation of the same fixed A=1/4, J30 K15 N128 complete R203 goal from actual step4 through actual step8. No previous normal or accepted step was repeated.",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-six-accepted-03.json",
+      "bytes": 93595,
+      "sha256": "7532e4098f433354ba1ac16387a6647adaf0fc059761cb82c430bab3a4bc8bee",
+      "commit": "5b49102357bb3deb47245ea2a08e9e9c699a81f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-eight-accepted-04.json",
+      "bytes": 75975,
+      "sha256": "f95abce8124c3b5a85da839a0e6d4370ffcdfa40e13011d9d5e0d1408d940bc6",
+      "commit": "4e5e40653d96efbbdeba2b3791a48eb2c399fce0"
+    }
+  ],
+  "parentClosedManifest": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-four-accepted-closed-manifest.json",
+    "sha256": "3baf8071de8244716f61fa77e2fd3cdddcb15968dcdadead0f0c066e3fbc0f6f",
+    "commit": "4ae8b58e26bb5894aa886619f4cd65252a76a5f5"
+  },
+  "sourceBindings": {
+    "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+    "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+    "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f",
+    "guideSHA256": "ef23317ebbb3ed121b09a79cd677293f70ab49f01eb2e88a9c89cf9078914b8e",
+    "kernelSHA256": "50012d8815d08553698ede9de96f09653bce03522a99dcbb11881ab58fd99bdd",
+    "adapterSHA256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1",
+    "runnerSHA256": "2912d01f31cb29439aa2cce39b69488b80fff9914c8dd76e854ccbce9b40ebba"
+  },
+  "runtime": {
+    "kind": "pure V8 JavaScript",
+    "OSProcessStarted": false,
+    "OSExitCode": null,
+    "actualBatches": [
+      {
+        "toolCell": "g2:102",
+        "state": "completed",
+        "runtime": "pure V8 JavaScript",
+        "completed": true,
+        "iteration": 6,
+        "acceptedThisBatch": 2,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      },
+      {
+        "toolCell": "g2:104",
+        "state": "completed",
+        "runtime": "pure V8 JavaScript",
+        "completed": true,
+        "iteration": 8,
+        "acceptedThisBatch": 2,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      }
+    ]
+  },
+  "finiteDefinition": {
+    "dimension": 961,
+    "options": {
+      "radialBasisCount": 30,
+      "modes": 15,
+      "angles": 128,
+      "gap": 0.8,
+      "radiusCoefficientBound": 0.4,
+      "radialKnots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "bentAnnulus": {
+        "amplitude": 0.25
+      }
+    },
+    "curvatureOptions": {
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "geometryGuide": {
+      "radius": 1.59,
+      "width": 0.84,
+      "held": 0.65,
+      "weight": 10,
+      "nodeShare": 0.5,
+      "cutWindow": [
+        0.41,
+        0.62
+      ]
+    },
+    "fullObjectiveRows": 103554,
+    "metricRadialPoints": 184,
+    "curvatureRadialPoints": 277,
+    "fullEquivalentAngles": 128,
+    "allCoefficientsSaved": true
+  },
+  "acceptedSteps": [
+    {
+      "iteration": 5,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.013231498001989112,
+      "squaredNorm": 0.01258725203496539,
+      "alpha": 1,
+      "lambda": 0.0011111111111111111,
+      "nextLambda": 0.0011111111111111111,
+      "actualValueEvaluations": 1,
+      "metricSquaredNorm": 0.009960371286614653,
+      "curvatureSquaredNorm": 0.0011319565483054466,
+      "geometrySquaredNorm": 0.001494924200045291,
+      "maxMetric": 0.41463504302485044,
+      "maxCurvature": 15.14690415395376,
+      "normalSeconds": 49.674,
+      "elapsedSeconds": 56.277,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0,
+      "equationResidual": 1.7249470308784707e-15
+    },
+    {
+      "iteration": 6,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.01258725203496539,
+      "squaredNorm": 0.012332602294821544,
+      "alpha": 0.5,
+      "lambda": 0.0011111111111111111,
+      "nextLambda": 0.0011111111111111111,
+      "actualValueEvaluations": 2,
+      "metricSquaredNorm": 0.00985550942332344,
+      "curvatureSquaredNorm": 0.0009806581677755063,
+      "geometrySquaredNorm": 0.0014964347037225967,
+      "maxMetric": 0.4110474954931622,
+      "maxCurvature": 13.159679560057643,
+      "normalSeconds": 49.677,
+      "elapsedSeconds": 62.589,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0,
+      "equationResidual": 5.686032293674842e-16
+    },
+    {
+      "iteration": 7,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.012332602294821544,
+      "squaredNorm": 0.012016488363947402,
+      "alpha": 0.5,
+      "lambda": 0.0011111111111111111,
+      "nextLambda": 0.0011111111111111111,
+      "actualValueEvaluations": 2,
+      "metricSquaredNorm": 0.00978892521123256,
+      "curvatureSquaredNorm": 0.0007424178867628126,
+      "geometrySquaredNorm": 0.0014851452659520301,
+      "maxMetric": 0.4115565111297175,
+      "maxCurvature": 12.438911089356925,
+      "normalSeconds": 52.767,
+      "elapsedSeconds": 64.382,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0,
+      "equationResidual": 1.3409756621769951e-15
+    },
+    {
+      "iteration": 8,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.012016488363947402,
+      "squaredNorm": 0.011761913002003832,
+      "alpha": 1,
+      "lambda": 0.0011111111111111111,
+      "nextLambda": 0.0011111111111111111,
+      "actualValueEvaluations": 1,
+      "metricSquaredNorm": 0.009711214420089233,
+      "curvatureSquaredNorm": 0.0005830820158369286,
+      "geometrySquaredNorm": 0.0014676165660776695,
+      "maxMetric": 0.4085968224055989,
+      "maxCurvature": 12.43273176953536,
+      "normalSeconds": 48.999,
+      "elapsedSeconds": 56.44,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0,
+      "equationResidual": 9.290843324254204e-16
+    }
+  ],
+  "final": {
+    "iteration": 8,
+    "lambda": 0.0011111111111111111,
+    "totalSquaredNorm": 0.011761913002003832,
+    "metricSquaredNorm": 0.009711214420089233,
+    "curvaturePenaltySquaredNorm": 0.0005830820158369286,
+    "geometryPenaltySquaredNorm": 0.0014676165660776695,
+    "metricMaximum": 0.4085968224055989,
+    "metricWitness": {
+      "s": 0.14399171959121762,
+      "u": 0,
+      "rE": 0.4085968224055989,
+      "rF": 0
+    },
+    "curvatureMaximum": 12.43273176953536,
+    "curvatureWitness": {
+      "s": 0.7549887082264096,
+      "u": 0.7853981633974483,
+      "kind": "physical_knot",
+      "principalCurvatures": [
+        12.43273176953536,
+        0.9611822028776409
+      ],
+      "relativeMetric": 0.1320981576757299
+    },
+    "minimumImmersion": 0.8817913389772836,
+    "cuffHeight": 0.5680962429930927,
+    "outerCutMeanHeight": 0.5487487111856368,
+    "maximumRadius": 1.3666996098123616,
+    "maximumAbsoluteY": 0.8987722265542915,
+    "minimumHeldDistance": 0.5778444868836086,
+    "maximumHeightExcess": 0.014763126169413665,
+    "geometryWitnesses": {
+      "ball": null,
+      "width_plus": {
+        "s": 0.7027146115682968,
+        "u": 1.5707963267948966,
+        "X": [
+          0,
+          0.8987722265542915,
+          0.3768729384760249
+        ]
+      },
+      "width_minus": null,
+      "height_plus": {
+        "s": 0.7605121164466363,
+        "u": 0.5399612373357456,
+        "X": [
+          0.7981593787053846,
+          0.4699362531851801,
+          0.5828593691625064
+        ]
+      },
+      "height_minus": null,
+      "held_plus": {
+        "s": 0.6449171066899573,
+        "u": 1.5707963267948966,
+        "X": [
+          0,
+          0.8828305860266686,
+          0.3229058283142607
+        ]
+      },
+      "held_minus": null
+    }
+  },
+  "checkpointNotes": [
+    "The six-step text is indented JSON; the eight-step text is compact JSON to keep the complete unsplit UTF-8 artifact below 100 KB. All original z and history values are preserved.",
+    "lastEvaluation and localAcceptedSteps were explicitly set to the actual final accepted record; inherited parent flags describe only the historical new-reference injection.",
+    "The current complete goal remains substantially unsatisfied. Finite sampled values are not continuous metric, curvature, reach, or held certificates.",
+    "rho remains a physical metric design variable and A remains fixed. No same-g final refinement is claimed.",
+    "No OS process was started. Real V8 completion is reported without inventing an exit code."
+  ],
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "publicationRecovery": {
+    "firstManifestWrite": "GitHub contents conflict 409, no successful commit",
+    "literalPullAttempt": {
+      "operation": "literal git pull --rebase origin main",
+      "error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+      "processStarted": false,
+      "pullCompleted": false
+    },
+    "rootReadmeBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicReadmeBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "rulesChanged": false,
+    "APISuccessIsNotALiteralPull": true
+  }
+}

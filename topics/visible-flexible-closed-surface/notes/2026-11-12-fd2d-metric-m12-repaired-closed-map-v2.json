@@ -1,0 +1,206 @@
+{
+  "schema": "fd2d-actual-repaired-m12-closed-family-v1",
+  "status": "ACTUAL_C2_SAME_IMAGE_FAMILY_DEFINED__NEW_METRIC_POSTERIOR_SEPARATE",
+  "scope": "Portably define the actual repaired M12 family and evaluate material Phi.\n\nThe JSON manifest gives the exact mathematical definition. The phi and\ndemo commands evaluate floating representatives for display and point\nqueries; they do not replace the continuous metric or geometry proofs.\nThe tail inverse uses a numerical representative of the SAME certified w\npacket. Its exact definition is the monotone original-arclength inverse.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-repaired-closed-map-v2.py",
+    "bytes": 20939,
+    "sha256": "09fa502711677f0794e1a4adf820111502aca152bf15bc0654fdeb8bab3cd28e",
+    "topic_relative_file": "scripts/fd2d-metric-repaired-closed-map-v2.py"
+  },
+  "inputs": {
+    "geometry": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "bytes": 10095,
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+      "topic_relative_file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json"
+    },
+    "tail": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "bytes": 138611,
+      "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+      "topic_relative_file": "notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json"
+    },
+    "target": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "bytes": 3668,
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b",
+      "topic_relative_file": "notes/2026-11-09-db6f-root-flat17-m12-target.json"
+    },
+    "bridge": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "bytes": 3887,
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa",
+      "topic_relative_file": "notes/2026-11-09-db6f-root-exact-bridge-m12.json"
+    },
+    "tail_background_packet": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+      "bytes": 3979,
+      "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59",
+      "topic_relative_file": "notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json"
+    },
+    "old_whole_certificate": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+      "bytes": 6733,
+      "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5",
+      "topic_relative_file": "notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json"
+    },
+    "old_sharper_diameter": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json",
+      "bytes": 54651,
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c",
+      "topic_relative_file": "notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json"
+    },
+    "prefix_field": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+      "bytes": 7139,
+      "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4",
+      "topic_relative_file": "notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json"
+    },
+    "tail_field": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+      "bytes": 7350,
+      "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df",
+      "topic_relative_file": "notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json"
+    },
+    "global_field_bounds": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-global-field-bounds-01.json",
+      "bytes": 20241,
+      "sha256": "6259b7ad47690bfd4ab17d19fc4af470e795a3b1e7dbe1cc6a427dcc26baa176",
+      "topic_relative_file": "notes/2026-11-12-fd2d-metric-m12-global-field-bounds-01.json"
+    },
+    "image_meshes": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-visible-m12-manifest.json",
+      "bytes": 5682,
+      "sha256": "54a607a46bf8cc11a2be9fc89f6e035861d4d35bc26e879a37a8e4e5adb49bcb",
+      "topic_relative_file": "notes/2026-11-12-fd2d-visible-m12-manifest.json"
+    }
+  },
+  "proofs": {
+    "R16-fixed-cap-volume-moment-noncongruence.md": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R16-fixed-cap-volume-moment-noncongruence.md",
+      "bytes": 4869,
+      "sha256": "278753736f651a82e64bc9d6de61b290395eb3d48390c7b8aef73f939dd565f1",
+      "topic_relative_file": "results/R16-fixed-cap-volume-moment-noncongruence.md"
+    },
+    "R17-exact-finite-visible-closed-geometry.md": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R17-exact-finite-visible-closed-geometry.md",
+      "bytes": 15067,
+      "sha256": "d7ad70cfb98d552ce0832555c230b644e49a21cd5cef2ae16a291013ad66e725",
+      "topic_relative_file": "results/R17-exact-finite-visible-closed-geometry.md"
+    },
+    "R21-m12-whole-map-and-actual-metric-decrease.md": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "bytes": 14695,
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c",
+      "topic_relative_file": "results/R21-m12-whole-map-and-actual-metric-decrease.md"
+    },
+    "R25-m12-sharper-enclosing-ball.md": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R25-m12-sharper-enclosing-ball.md",
+      "bytes": 10100,
+      "sha256": "faf9c254abad7376249277b336468db19d6598ac9520f999265be139b4dc845b",
+      "topic_relative_file": "results/R25-m12-sharper-enclosing-ball.md"
+    },
+    "R112-noncircular-metric-repair-and-stable-pullback.md": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R112-noncircular-metric-repair-and-stable-pullback.md",
+      "bytes": 14193,
+      "sha256": "761fe621f0d13050fc3813d22186e17881611f4db7fc5d9e59827eba68ff9ce4",
+      "topic_relative_file": "results/R112-noncircular-metric-repair-and-stable-pullback.md"
+    }
+  },
+  "domain": "S^2: the original two mirrored active annuli joined to the original two fixed caps",
+  "time": {
+    "interval_exact": [
+      "0",
+      "1"
+    ],
+    "phase": "alpha(t)=2*pi*t/3"
+  },
+  "original_fixed_metric": "Exactly the R21 original fixed g; no physical parameter, target profile, cap or time range is changed",
+  "original_background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "prefix": {
+    "native_coordinates": "s, psi",
+    "material_angle": "u=psi-e(s)*sin(3*psi)/3",
+    "field_definition": "Saved binary two-jets, exact quintic Hermite, all saved cos(3n psi) and sin(3n psi) modes",
+    "native_transform": "Phi_n(s,u)=(s+p_n(s,u),u+q_n(s,u))",
+    "physical_coordinate": "sigma=s/lambda, lambda=S/L_exact from the unique original exact bridge",
+    "physical_radial_component": "p_phys(sigma,u)=p_n(lambda*sigma,u)/lambda",
+    "physical_angular_component": "q_phys(sigma,u)=q_n(lambda*sigma,u)",
+    "own_frozen_target": "g0=ds^2+a0(s)^2 du^2; its fixed comparison with original g is paid separately",
+    "exact_bridge_scale_interval": {
+      "lo": "115792089237316237354770182999710312925668582817346796036411454119476037678417/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "hi": "115792089237316237354770182999710312925680037310351449914155699265507029095801/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "display": [
+        1.0000000000000004,
+        1.0000000000000004
+      ]
+    }
+  },
+  "tail": {
+    "stored_coordinates": "physical radius r and material angle u",
+    "field_components": "p_T is physical meridian-arclength displacement; q_T is angular displacement",
+    "physical_coordinate": "sigma(r)=L_exact+integral_r^c sqrt(1+w(z)^2) dz for the original exact w",
+    "radial_transform": "r_prime is the unique root integral_(r_prime)^r sqrt(1+w(z)^2) dz=p_T(r,u)",
+    "angular_transform": "u_prime=u+q_T(r,u)",
+    "inner_zero_extension": "p_T=q_T=0 below the actual stored lower field endpoint, with its saved zero two-jet",
+    "support_native_enclosure": [
+      0.401953125,
+      0.5900390625
+    ]
+  },
+  "mirror": {
+    "rule": "p(-sigma,u)=-p(sigma,u); q(-sigma,u)=q(sigma,u)",
+    "exact_central_identities": "p(0,psi)=p_ss(0,psi)=q_s(0,psi)=0; original exact clamped chart has e_s(0)=0",
+    "physical_C2_mirror": "The chart identities imply the same material-coordinate mirror two-jets"
+  },
+  "fixed_caps": {
+    "material_transform": "identity",
+    "disk_radius_exact": "2702159776422297/18014398509481984",
+    "upper_height": "Original common-cut Hc + integral_(r_cuff)^c w(r) dr + sum of the three R16 bumps",
+    "lower_height": "Negative of the original unmarked cap height; no lower bump",
+    "centers_radius_exact": "2/25",
+    "centers_angles": "0,2*pi/3,4*pi/3",
+    "bump_radius_exact": "3/100",
+    "bump_height_exact": "1/2000",
+    "bump": "(1/2000)*max(1-distance_to_center^2/(3/100)^2,0)^3"
+  },
+  "family": {
+    "active": "Y_alpha=R_alpha o (X_0 o Phi) o tau_(-alpha)",
+    "caps": "Y_alpha=X_0 pointwise on each cap",
+    "warning": "Phi need not commute with tau; X_alpha o Phi is not the defining formula",
+    "image_identity": "At every t, the complete image equals that of the original R21 family at the same t"
+  },
+  "global_C2_diffeomorphism_proved": true,
+  "actual_Dv_upper": 1.5498138864425113e-08,
+  "all_time_same_image_geometry": "R21/R25 embedding, reach, D, held and noncongruence statements transfer exactly by the image identity",
+  "mesh_scope": "The three existing M12 PLYs display the same images; their vertex material labels remain the old labels, not Phi-transported labels",
+  "evaluator_scope": "Floating Phi and material-to-old-map coordinates only; no new vertex, metric or inverse error certificate is claimed",
+  "continuous_linear_residual_certified_here": false,
+  "nonlinear_metric_certified_here": false,
+  "README_gate_5_certified_here": false
+}

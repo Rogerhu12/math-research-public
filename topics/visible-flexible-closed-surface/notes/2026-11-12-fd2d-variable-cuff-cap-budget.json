@@ -1,0 +1,126 @@
+{
+  "theorem": "R120",
+  "source_sha256": "e5aa945f0939bb6d6d189a73a15423049748ffae3852703670daa3c448bf26ce",
+  "scope": "R120: translate the complete R113 caps to an actual cuff height.\n\nThe uniform interval .9 <= Z <= original_zc preserves the original strong\ngeometric budget. This does not certify the actual active surface or its\nreach; it removes the unnecessary equation Z=original_zc from the BVP.\n",
+  "uniform_budget": {
+    "cuff_height_min": {
+      "exact": "9/10",
+      "approximate": 0.9
+    },
+    "original_cuff_height_lower": {
+      "exact": "450669/350000",
+      "approximate": 1.2876257142857144
+    },
+    "original_cuff_height_upper": {
+      "exact": "64459/50000",
+      "approximate": 1.28918
+    },
+    "inward_translation_upper": {
+      "exact": "19459/50000",
+      "approximate": 0.38918
+    },
+    "side_marker_height_lower": {
+      "exact": "65541/50000",
+      "approximate": 1.31082
+    },
+    "top_marker_height_lower": {
+      "exact": "92991/50000",
+      "approximate": 1.85982
+    },
+    "six_marker_planar_inradius_margin": {
+      "exact": "3201573581/2500000000",
+      "approximate": 1.2806294324
+    },
+    "marker_inradius_squared": {
+      "exact": "919681/959225",
+      "approximate": 0.9587750527769814
+    },
+    "marker_lower_margin": {
+      "exact": "12817271/38369000000",
+      "approximate": 0.0003340527769814173
+    },
+    "cap_separation_margin": {
+      "exact": "191/125",
+      "approximate": 1.528
+    },
+    "grip_diameter_lower": {
+      "exact": "46493/12500",
+      "approximate": 3.71944
+    },
+    "fixed_cap_x_halfwidth": {
+      "exact": "288051/500000",
+      "approximate": 0.576102
+    },
+    "diameter_upper": {
+      "exact": "9/2",
+      "approximate": 4.5
+    },
+    "held_over_D_lower": {
+      "exact": "1/5",
+      "approximate": 0.2
+    },
+    "reach_over_D_lower": {
+      "exact": "34/1125",
+      "approximate": 0.030222222222222223
+    },
+    "euclidean_quotient_over_D_strict_lower": {
+      "exact": "763/15000",
+      "approximate": 0.050866666666666664
+    }
+  },
+  "illustration": {
+    "actual_cuff_height": 1.2150918501962928,
+    "reference_height": 1.2886410585615193,
+    "numerical_height_quadrature_error": 3.618151820906426e-18,
+    "upper_cap_translation": [
+      0.0,
+      0.0,
+      -0.07354920836522649
+    ],
+    "lower_cap_translation": [
+      0.0,
+      0.0,
+      0.07354920836522649
+    ],
+    "side_markers": [
+      [
+        0.0,
+        -1.37,
+        -1.6264507916347735
+      ],
+      [
+        0.0,
+        -1.37,
+        1.6264507916347735
+      ],
+      [
+        0.0,
+        1.37,
+        -1.6264507916347735
+      ],
+      [
+        0.0,
+        1.37,
+        1.6264507916347735
+      ]
+    ],
+    "axial_markers": [
+      [
+        0.0,
+        0.0,
+        -2.1754507916347734
+      ],
+      [
+        0.0,
+        0.0,
+        2.1754507916347734
+      ]
+    ],
+    "cap_intrinsic_metric_changed": false,
+    "numerical_planar_inradius_margin": 2.5542851468243617
+  },
+  "illustration_scope": "The default Z is v4 rotational-background height, not an observed nonlinear cuff height.",
+  "actual_active_reach_verified": false,
+  "actual_held_sphere_verified": false,
+  "closed_strong_family": false
+}

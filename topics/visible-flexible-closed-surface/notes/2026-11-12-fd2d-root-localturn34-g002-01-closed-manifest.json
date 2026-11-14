@@ -1,0 +1,150 @@
+{
+  "schema": "fd2d-closed-root-actual-state-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-candidate.json",
+      "bytes": 35792,
+      "sha256": "8c1d169f144d7fb601a79cbb77c5c03b72c6d6667e03b4a5b67a565e150db56b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-field.npz.gz",
+      "bytes": 1368673,
+      "sha256": "9c9d60b8c2d20410645d3a31251d380ba360a912ce8e22bd64285c2060bc0b4a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-polynomial.npz.gz",
+      "bytes": 1086699,
+      "sha256": "a91678adb7e100072bdece29e8883929fbba1705c475bc9c369fbfbbb5c30f41"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-progress.jsonl",
+      "bytes": 27879,
+      "sha256": "2d40ba09e9676b587470d2c11d5199bc451fe3195d630b055b337cd5b883c5e6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-report.json",
+      "bytes": 22686,
+      "sha256": "396128df5c730d3bb63cdec2fc9dc6e9418e82fb1f785e22a0f93f9f5a2bd6c6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-runtime.json",
+      "bytes": 555,
+      "sha256": "2ff2c8a894b5c7648f32cfbc9ac97544d3e54a384231c38d29490c333526a572"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-resources.jsonl",
+      "bytes": 29529,
+      "sha256": "4c0da79cb228dfadee72348e2467db1bd125f3ef9e0aa14882cf955703febb34"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-completion-receipt.json",
+      "bytes": 451,
+      "sha256": "54bdc4c78680c6e8505bd4ce64e5a239f775dadfcda2a433b5eeb1456de66e10"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-tool-receipt.json",
+      "bytes": 130,
+      "sha256": "98551330f1f636a5fd87b756bf3d428e36bbebd414eb4727acadbe39dbd4a838"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0001.npz",
+      "bytes": 305593,
+      "sha256": "e3022d0ecd1bf7cd392eede5ce3fa6751abfe92c226138b923547770b352d486",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0002.npz",
+      "bytes": 305780,
+      "sha256": "a048493eabeb451930d5d97e56fd2d720836cfbf857ba09ad87efe138257a524",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0003.npz",
+      "bytes": 305721,
+      "sha256": "3fd2ea837e09335b47b6486fa1f030fa5c4a6338b50cb64fef1b3c0b5fb1dde3",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0004.npz",
+      "bytes": 306664,
+      "sha256": "c5d16a7cf3fd3e4fc7a6746565be95006132cc71cd2d2cacc97dac2528803a36",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0005.npz",
+      "bytes": 306830,
+      "sha256": "313809018af34df5ce271dac91bab4a6092068ab4692543aa7536b1b23a91290",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0006.npz",
+      "bytes": 417350,
+      "sha256": "4acdc6e77fb98bb2ab6f80706f3bf33696a3d40d90adce8243637cd465fd14c1",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0007.npz",
+      "bytes": 417600,
+      "sha256": "c4080e18d6848988b3ba6608ba476a9dd9d3f5d666dc7e3e0bb1474073fb65ef",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0008.npz",
+      "bytes": 417560,
+      "sha256": "855448986d931dfb636060aeb0f7122576d7e7b9e5016dedccfa68b8edc6f11f",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0009.npz",
+      "bytes": 572233,
+      "sha256": "09da7bb4c8ff82b27ef3f7172cd2695f11f22fb6116bb4ef9941851f3cd14f47",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0010.npz",
+      "bytes": 726786,
+      "sha256": "bf23f36f0710fe0cee96149cad95f850fdfcd6e14c4d62dfde1ee6478ff35e7a",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0011.npz",
+      "bytes": 816359,
+      "sha256": "b2701817acff19974ac66cd149bd10cf2fd59cbc2fec3523c94e05bb77256879",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0012.npz",
+      "bytes": 820851,
+      "sha256": "9392dac989a91c3a5addcb3300186658b3c47bd7f200402610ad2459c0aadef7",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-accepted-0013.npz",
+      "bytes": 823138,
+      "sha256": "0634ca20e65582f8468bd17a332337ddc2eab84dcee675b837e54b4a53c782bc",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g002-01-initial.npz",
+      "bytes": 101850,
+      "sha256": "4bbc7b8968a75202f91499f267f244e19855703c416dc1388409327fe62aad6b",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 86369,
+    "completion_chunk": "8f3652",
+    "actual_exit_code": 0,
+    "solver_success": true,
+    "accepted_steps": 13,
+    "final_nodes": 367,
+    "seconds": 249.00887505399987,
+    "maximum_rss_kib": 268516,
+    "physical_T": 0.208916528894536,
+    "gap": 0.02,
+    "maximum_worker_height": 0.002282744583989177,
+    "scope": "Actual finite new metric prefix with slower early turn; finite linear tail only, not same-g refinement from old profile."
+  }
+}

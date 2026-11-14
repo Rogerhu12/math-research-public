@@ -1,0 +1,69 @@
+{
+  "schema": "fd2d-confirmed-ordinary-main-publication-v1",
+  "label": "sixteenth",
+  "main": {
+    "commit": "b84bcfb30d095fe314ff1ef7fbecd26d80a4c904",
+    "rules_read_sha": "35f1e38fc801675a363fc7a3acd7cbcf6f887e82",
+    "attempt": 2,
+    "utc": "2026-11-12T18:28:09.158112+00:00",
+    "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched"
+  },
+  "ci": {
+    "run_id": 43280077358,
+    "job_id": 131398708028,
+    "job_conclusion": "success",
+    "events": [
+      {
+        "attempt": 1,
+        "pull_command": "git pull --rebase --no-stat origin main",
+        "pull_exit": 0,
+        "readme_previous": "44a939c5e60031f7f583bdef3aa14a41c3d71bf2",
+        "readme_current": "44a939c5e60031f7f583bdef3aa14a41c3d71bf2",
+        "readme_diff_empty": true
+      },
+      {
+        "attempt": 1,
+        "push_exit": 1,
+        "commit": "0583b71f23a9c752b66783a883eab75167076188",
+        "seconds": 2.6653100459999983,
+        "message": "To https://github.com/Rogerhu12/math-research.git\n ! [remote rejected] HEAD -> main (cannot lock ref 'refs/heads/main': is at 35f1e38fc801675a363fc7a3acd7cbcf6f887e82 but expected 44a939c5e60031f7f583bdef3aa14a41c3d71bf2)\nerror: failed to push some refs to 'https://github.com/Rogerhu12/math-research.git'\n"
+      },
+      {
+        "attempt": 2,
+        "pull_command": "git pull --rebase --no-stat origin main",
+        "pull_exit": 0,
+        "readme_previous": "44a939c5e60031f7f583bdef3aa14a41c3d71bf2",
+        "readme_current": "35f1e38fc801675a363fc7a3acd7cbcf6f887e82",
+        "readme_diff_empty": true
+      },
+      {
+        "attempt": 2,
+        "push_exit": 0,
+        "commit": "b84bcfb30d095fe314ff1ef7fbecd26d80a4c904",
+        "seconds": 1.8926453809999941,
+        "message": "To https://github.com/Rogerhu12/math-research.git\n   35f1e38..b84bcfb  HEAD -> main\n"
+      }
+    ]
+  },
+  "local_payload": {
+    "session": 50391,
+    "launch_chunk": "6e6e9e",
+    "completion_chunk": "609715",
+    "actual_exit_code": 0,
+    "commit": "707008f4c87075708e654c33faa6e9db25535a1d",
+    "branch": "visible-flex-fd2d-ci-publish-20261112t182700",
+    "literal_pull_exit": 0,
+    "rules_read_sha": "44a939c5e60031f7f583bdef3aa14a41c3d71bf2",
+    "readme_diff_empty": true,
+    "worktree": "math-research-publish-sparse"
+  },
+  "batch": {
+    "closed_groups": 7,
+    "owned_files": 131,
+    "bytes": 15443508,
+    "manifest": "notes/2026-11-12-fd2d-live-recovery-sixteenth-retry-batch-manifest.json"
+  },
+  "root_LOG_unchanged": true,
+  "force_push_used": false,
+  "strong_target_complete": false
+}

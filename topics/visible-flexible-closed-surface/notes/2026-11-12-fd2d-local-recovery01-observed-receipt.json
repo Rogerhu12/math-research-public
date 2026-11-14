@@ -1,0 +1,96 @@
+{
+  "schema": "fd2d-observed-local-execution-receipt-v1",
+  "observed_utc": "2026-11-12T11:33:42.733266+00:00",
+  "source_git_sha": "db44cc3e389449a315850f397cc65d32dcc1ea76",
+  "rules_read_sha": "db44cc3e389449a315850f397cc65d32dcc1ea76",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "steps": [
+    {
+      "name": "bridge",
+      "session_id": 96973,
+      "launch_chunk": "d30902",
+      "completion_chunk": "ad3068",
+      "actual_exit_code": 0,
+      "reported_seconds": 27.909393548965454
+    },
+    {
+      "name": "K7_to_K15_initializer_elevation",
+      "session_id": 4964,
+      "launch_chunk": "731fe0",
+      "completion_chunk": "e2368a",
+      "actual_exit_code": 0
+    },
+    {
+      "name": "penalty_check_original_cap",
+      "session_id": 57237,
+      "launch_chunk": "371956",
+      "completion_chunk": "ab0416",
+      "actual_exit_code": 0,
+      "limitation": "Actual initial field lies below cap; active row count zero. This does not test nonzero active Jacobian columns."
+    },
+    {
+      "name": "penalty_check_nonzero_actual_active_rows",
+      "session_id": 23814,
+      "launch_chunk": "695f4a",
+      "completion_chunk": "b46b81",
+      "actual_exit_code": 0,
+      "reported_seconds": 28.947676469999806,
+      "diagnostic_cap": 6.8,
+      "active_rows": 192,
+      "optimization_target_unchanged": true,
+      "limitation": "Actual active rows here have zero physical-T and pre-boundary central columns; nonzero node/tail JVPs are checked."
+    }
+  ],
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount025.npz",
+      "bytes": 429846,
+      "sha256": "0a590694739c9edefdecaf870f01ae59d95d1c0961dcfda394ae6593cab1d0fd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount075.npz",
+      "bytes": 430344,
+      "sha256": "22446031b14e15c21f449f20bce3085c26c243a5dd091a11a4347a3ab8bd3975"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-report.json",
+      "bytes": 7137,
+      "sha256": "3484b58a34fb7436a5c9144c24519f155b6e86f7e68dfa6ef7995d3eee79c729"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-manifest.json",
+      "bytes": 1875,
+      "sha256": "9cc18b8c091e97d86fa24bc9bee8b88e82c502b38154141af99661e84617e679"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+      "bytes": 23429,
+      "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15.npz-report.json",
+      "bytes": 1708,
+      "sha256": "0da684b2fee513065d4a364fcec37ac9de105a47c4b6c443ae842ba278bdbc11"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15-penalty-check.json",
+      "bytes": 6367,
+      "sha256": "c27007ad8803ebe86182b17025a579db60bad712745c5924916f16f2551f7455"
+    },
+    {
+      "path": "scripts/fd2d-metric-curvature-penalty-active-check.py",
+      "bytes": 6888,
+      "sha256": "fd5a5fb26d66e48c7246e7afb5f77ba8a955d1b7ad894592fa10e21317f761c9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15-penalty-active-check.json",
+      "bytes": 6881,
+      "sha256": "47eb9778659e9f8b69655f34bf6f7a34093438f142eff3f64b212ca8424a258f"
+    }
+  ],
+  "scope": "New real recomputation; initializer only. Source/API restoration is not numerical convergence."
+}

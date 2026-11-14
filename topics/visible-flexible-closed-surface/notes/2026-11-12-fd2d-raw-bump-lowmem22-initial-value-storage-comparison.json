@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-actual-initial-report-storage-comparison-v1",
+  "same_saved_input": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "no_extra_field_evaluation": true,
+  "scalar_differences": {
+    "residual_maximum": 0.0,
+    "residual_rms": 0.0,
+    "full_gauss_node_maximum": -1.3322676295501878e-15,
+    "formal_curvature_node_maximum": -2.6645352591003757e-15,
+    "A": 0.0,
+    "B": 0.0,
+    "gap": 0.0
+  },
+  "guidance_L2_differences": {
+    "curvature_merit": -2.9976021664879227e-15,
+    "high_gauss_merit": 1.0234868508263162e-16,
+    "high_codazzi_merit": -3.3306690738754696e-16
+  },
+  "first_normal_sum_difference": 1.0913936421275139e-11,
+  "first_normal_direct_squared": 4431.184123682947,
+  "first_normal_storage_bytes": 21160616
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "fd2d-common-reference-angle-inverse-check-v1",
+  "scope": "The common original-ellipse inverse theta(u), independent of every d.\n\nUse this inverse before a MATERIAL-u Fourier projection of a theta-based\nGC solution. It inverts the original ellipse arclength, not the support\nseed's own normal angle. Returned values are numerical representatives.\n",
+  "script_sha256": "29e9ddd4af2e0a791a42bb75e9639eb463fa43110ac7b7d45bbc4ea51f77b92d",
+  "provider_sha256": "7aa0d7173cc25891a7d422056d64b81e1daa2e40552043a1881627933eae2ad0",
+  "point_count": 547,
+  "material_roundtrip_error": 3.469446951953614e-18,
+  "first_chain_error": 1.0842021724855044e-19,
+  "second_chain_error": 1.5720931501039814e-18,
+  "maximum_ellipse_arc_residual": 2.4936649967166602e-18,
+  "coordinate_independent_of_all_shape_parameters": true,
+  "uses_original_ellipse_not_support_seed_arclength": true,
+  "continuous_certificate": false,
+  "closed_surface": false
+}

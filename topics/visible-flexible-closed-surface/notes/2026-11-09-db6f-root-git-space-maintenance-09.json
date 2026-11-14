@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-09T13:43:07.708789+00:00",
+  "initial_objects": 108632,
+  "sorted_oid_sha256": "e4b051783edc11dcaff5598231ee1ff83fb950417801ca22103bf1f6b6fdf301",
+  "steps": [
+    {
+      "batch": 200000000,
+      "before": {
+        "available": 0,
+        "free": 1997938688,
+        "pack_bytes": 10606838659
+      },
+      "after": {
+        "available": 0,
+        "free": 3100868608,
+        "pack_bytes": 9503944229
+      },
+      "seconds": 1.8588967323303223
+    },
+    {
+      "batch": 500000000,
+      "before": {
+        "available": 0,
+        "free": 3100864512,
+        "pack_bytes": 9503944229
+      },
+      "after": {
+        "available": 786071552,
+        "free": 4238819328,
+        "pack_bytes": 8360892324
+      },
+      "seconds": 18.32741689682007
+    }
+  ],
+  "refs_changed": false,
+  "research_files_removed": false,
+  "status": "PASS-exact-object-ID-preserving-duplicate-compaction"
+}

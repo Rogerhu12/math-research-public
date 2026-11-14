@@ -1,0 +1,44 @@
+{
+  "actual_state_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+  "gap_row_index": 11996,
+  "original_residual": {
+    "shape": [
+      51441
+    ],
+    "dtype": "<f8",
+    "sha256": "173423acb4d859a3c96db397e49ee469fb94efdd7333dcd891c3aca26d7500f9"
+  },
+  "original_raw": {
+    "shape": [
+      12509
+    ],
+    "dtype": "<f8",
+    "sha256": "0751a657802e863f23032ecb792b85bdf4145e337b9b973c69aa73be49ceb3b5"
+  },
+  "updated_residual": {
+    "shape": [
+      51441
+    ],
+    "dtype": "<f8",
+    "sha256": "d4204304a808d1c031ded6dd4aa76ac9f371d7c413fb1ad76ccb92025a128f27"
+  },
+  "old_target": 0.9,
+  "new_target": 0.8,
+  "actual_gap": 0.9000177132651845,
+  "old_gap_residual": 1.9681405760573077e-05,
+  "new_gap_residual": 0.12502214158148062,
+  "original_objective_norm": 4.746160513957569,
+  "new_objective_norm": 4.747806878944028,
+  "normal_residual_squared": 22.541670159748257,
+  "actual_residual_squared": 22.541670159748236,
+  "squared_difference": 2.1316282072803006e-14,
+  "curvature_guide": 7.2,
+  "central_cap": 7.352941176470588,
+  "central_floor": 0.1,
+  "node_curvature_merit_l2": 0.6569358207714346,
+  "interior_curvature_merit_l2": 0.10845616657131214,
+  "full_field_J_or_F_recomputed": false,
+  "physical_g_or_field_changed": false,
+  "scaled_Schur_reused": false,
+  "strong_target_complete": false
+}

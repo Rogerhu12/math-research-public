@@ -1,0 +1,62 @@
+{
+  "scope": "Author exact checks for actual position/Sturm/Robin port conversion.\nThis checks symbolic identities and source file identities only: no data arrays,\nno PDE, no candidate solve, and no original tail DN call.",
+  "proof": "notes/2026-11-10-78718-geometry-actual-port-transfer-v1.md",
+  "proof_sha256": "4922ab60da4f8f361e21c01df13ec5e0ece4846b5f94c825ca370cb300b89f69",
+  "checker_sha256": "c2bd711cbb3c55c13995f5f10ce90324d8b46d3afb6ef2592f79e43318cbabc5",
+  "symbolic_checks": {
+    "metric_ss": true,
+    "metric_su": true,
+    "delta_C_with_normal_variation": true,
+    "delta_M_with_normal_variation": true,
+    "sturm_x": true,
+    "sturm_y": true,
+    "inverse_f": true,
+    "inverse_h": true,
+    "map_determinant": true,
+    "forced_Robin_row": true,
+    "ideal_cut_x": true,
+    "ideal_cut_y": true
+  },
+  "symbolic_count": 12,
+  "sources": [
+    {
+      "path": "notes/fixed_metric_mode3_flow.py",
+      "bytes": 5131,
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "path": "notes/fixed_metric_mode3_core.py",
+      "bytes": 10411,
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "path": "scripts/950f-prefix-warped-bvp.py",
+      "bytes": 19466,
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "path": "scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "path": "scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "scripts/db6f-audit-metric-supplier.py",
+      "bytes": 17450,
+      "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "bytes": 5123,
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    }
+  ],
+  "pde_runs": 0,
+  "candidate_arrays_read": 0,
+  "tail_calls": 0,
+  "passed": true
+}

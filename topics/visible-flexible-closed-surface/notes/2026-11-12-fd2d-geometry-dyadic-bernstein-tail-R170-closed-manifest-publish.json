@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail-R170-closed-manifest.json",
+    "bytes": 2308,
+    "sha256": "97fb9c1ca2f032f45c1ea038b458d957e7121d07e69b869f6bdf381a5a40642b"
+  },
+  "only_key_adaptation": "artifacts to files; original closed manifest retained unchanged",
+  "files": [
+    {
+      "path": "results/R170-dyadic-Bernstein-box-for-the-same-flat-tail.md",
+      "bytes": 11627,
+      "sha256": "6992810e0c159bd85ed41c256421db3d42b1d831405794f813724c7c4b639c06"
+    },
+    {
+      "path": "scripts/fd2d_dyadic_bernstein_tail.py",
+      "bytes": 14784,
+      "sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400"
+    },
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_native.py",
+      "bytes": 9508,
+      "sha256": "f3b90904861c48019b620e738ce490d2645bd968fd29dbc4946e8bfee5e77231"
+    },
+    {
+      "path": "scripts/fd2d-dyadic-bernstein-tail-check.py",
+      "bytes": 10365,
+      "sha256": "501eb2ffe7250a094c137b32ab24fa95b7538414679119c37b33351bd067fa80"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-tail-definition.json",
+      "bytes": 3809,
+      "sha256": "4c4a99b00d80148a6d4d585e9bfc93bf95b969ab64923866869f68b2ed56c1e2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-native-definition.json",
+      "bytes": 67796,
+      "sha256": "4c6200d4136a632b8c6c062ec8b85a67188ff1638c674efea52f0ceaaa040693"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-report.json",
+      "bytes": 38122,
+      "sha256": "25fb092fe3a798223ced1a6ae9b30a98bc5197d72f1436f257bb3180e63fdfeb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-exit-receipt.json",
+      "bytes": 563,
+      "sha256": "dc2ac24e556b0b743fcfe664f56e4e0007d6bf524e4aab4f378d97f26332492d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail.md",
+      "bytes": 4176,
+      "sha256": "217fdd150b159a492a1a41abff05303f134a1ecb6b6c7a346f81a2c2057b8d3a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail-R170-closed-manifest.json",
+      "bytes": 2308,
+      "sha256": "97fb9c1ca2f032f45c1ea038b458d957e7121d07e69b869f6bdf381a5a40642b"
+    }
+  ]
+}

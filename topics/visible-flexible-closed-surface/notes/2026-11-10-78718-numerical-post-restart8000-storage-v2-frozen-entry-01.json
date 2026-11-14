@@ -1,0 +1,114 @@
+{
+  "schema": "78718-post-restart8000-storage-v2-frozen-entry-v1",
+  "created_utc": "2026-11-10T07:58:14.056164+00:00",
+  "author": "/root/numerical_recovery",
+  "scope": "Frozen source-only conditional route and actual static/negative checks; complete new planner review is pending. No solver or producer.",
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-storage-v2.py",
+      "bytes": 20326,
+      "sha256": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-post-restart8000-storage-v2.py",
+      "bytes": 4988,
+      "sha256": "c0a25ca74795429f6cd68cca0ae473957cc92dc4760c5fbc6170c33ebd4a0841"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-storage-v2.md",
+      "bytes": 17380,
+      "sha256": "16be12285b5c08f56863a1fb60940bfd6498c97073f49836e87738fa411c1faa"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-static-01.json",
+      "bytes": 66508,
+      "sha256": "446894565beab95320c320c15fac0f8c304aa1ac36a4e3e5f7043abb04799052"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-negative-missing-exit-01.json",
+      "bytes": 315,
+      "sha256": "f18bcad1471b6214677c2a98094e5ba9bc6641f9642d4ceffa87f476f03bb5d9"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-negative-wrong-run-01.json",
+      "bytes": 318,
+      "sha256": "a5ff186e3556b1eb3fa5639714d3c82538bdda454986cc40efeb283513da70ec"
+    }
+  ],
+  "unchanged_original_plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+    "bytes": 32491,
+    "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+  },
+  "actual_observations": [
+    {
+      "tool_receipt": "d9dfc8",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-check-post-restart8000-storage-v2.py",
+        "--out",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-static-01.json"
+      ],
+      "result": "PASS_SOURCE_INPUT_CLOSURE_ONLY_NO_CANDIDATE_ARGV"
+    },
+    {
+      "tool_receipt": "634795",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-restart8000-storage-v2.py",
+        "--launch",
+        "notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-intentionally-absent-observation-01.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-post-restart8000-storage-v2-negative-missing-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-negative-missing-exit-01.json"
+      ],
+      "result": "Rejected missing actual process observation"
+    },
+    {
+      "tool_receipt": "4b340e",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-restart8000-storage-v2.py",
+        "--launch",
+        "notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-m14-direct-csc-02-root-observed-exit.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-post-restart8000-storage-v2-negative-wrong-run-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-post-restart8000-storage-v2-negative-wrong-run-01.json"
+      ],
+      "result": "Rejected wrong actual root observation identity"
+    },
+    {
+      "tool_receipt": "f57656",
+      "actual_exit_code": 0,
+      "scope": "Rehashed files and verified both future production directories absent; no command plan constructed"
+    }
+  ],
+  "actual_solver_calls": 0,
+  "actual_production_calls": 0,
+  "candidate_argv_constructed": false,
+  "production_commands_emitted": 0,
+  "storage_branch_selected_or_activated": false,
+  "complete_final_audit_replayed": false,
+  "new_successful_candidate_claimed": false,
+  "root_main_session_consumed": false,
+  "original_plan_modified": false,
+  "frozen_main_sources_modified": false,
+  "new_planner_full_independent_review_completed": false,
+  "original_single_container_route_remains_first": true
+}

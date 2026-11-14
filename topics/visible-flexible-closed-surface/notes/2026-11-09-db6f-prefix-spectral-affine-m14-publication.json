@@ -1,0 +1,60 @@
+{
+  "status": "CLOSED_NOT_RUN_NUMERICALLY",
+  "scope": "New affine spectral runner, pure preparation and definition-only checks; pending independent new-implementation review. Original reviewed spectral module is unchanged.",
+  "actual_nonlinear_tail": false,
+  "frozen_affine_dn": true,
+  "file_count": 9,
+  "total_bytes": 131758,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-affine-replay.py",
+      "bytes": 18828,
+      "sha256": "ad219dbab80278670665ac3cb5401cb55daf33834cea8495dd16bf1c1396e4bd"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+      "bytes": 13600,
+      "sha256": "915c3701e8b2de3857e10e7462e09630a5d5f4f955fc77882723788f1344fc99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14-pre-closure-scope.py",
+      "bytes": 12669,
+      "sha256": "f4215d26fd7b2ca297c559ca69bb6f9ee1467317a097b0479042460b7a56c0ea"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-spectral-affine-definitions.py",
+      "bytes": 3392,
+      "sha256": "0f59d90c2359433bb9af1ea30451395488b5fbccd2085d22def55a149dbd4321"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-method.md",
+      "bytes": 8927,
+      "sha256": "07ef29867fe40fe46f5b2048c3e220711e9f7d725afea47cb36cfed306422500"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+      "bytes": 55594,
+      "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-preparation.json",
+      "bytes": 2630,
+      "sha256": "c65a5873d10449f75818ebc282794f0bb8996e33384bbd777a2f815563d91abb"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-definition-check-01.json",
+      "bytes": 10096,
+      "sha256": "638c1bb5d925c2d381ae9a608d65b8f4e8bd34ac6250fb366432e2a5f13f8ff8"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-observed-execution.json",
+      "bytes": 6022,
+      "sha256": "02efeb57248cd698c683b839da2411532d03b29f052d35b0727155b1f53e7c19"
+    }
+  ],
+  "excludes": [
+    "Every active amplitude03 file",
+    "Any new BVP/DN response or actual candidate CP",
+    "Any claim of a future tool or worker exit"
+  ]
+}

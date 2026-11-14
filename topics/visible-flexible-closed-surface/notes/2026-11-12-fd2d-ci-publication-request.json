@@ -1,0 +1,33 @@
+{
+  "schema": "fd2d-explicit-ci-git-publication-v2",
+  "base_commit": "c888afab1e87be5c7a75c0688fc686fceae59aba",
+  "message": "visible-flex: resume actual Git and save R187 nonlinear position steps and two-jets",
+  "publication_policy": "No root LOG writes; rejected main pushes immediately pull --rebase, then inspect both README differences",
+  "owned_paths": [
+    ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+    "topics/visible-flexible-closed-surface/HANDOFF.md",
+    "topics/visible-flexible-closed-surface/log.md",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-01.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-02-terminal-receipt.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-two-jet-local-01-report.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-handoff-local-before-third-return.md",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-live-recovery-twentythird-position-batch-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-retired-normal25-33-metadata-compression-02.json.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-third-return-duplicate35-retirement.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-third-return-main-text-reconciliation.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-twentysecond-batch-main-receipt.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-twentythird-position-publication-plan.json",
+    "topics/visible-flexible-closed-surface/open.md",
+    "topics/visible-flexible-closed-surface/results.md",
+    "topics/visible-flexible-closed-surface/scripts/fd2d-check-direct-position-two-jet-R187.cjs",
+    "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-lm-run-R187.cjs",
+    "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-two-jet-geometry-R187.cjs",
+    "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+    "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+    "topics/visible-flexible-closed-surface/scripts/fd2d_publish_rebase_checkpoint.py",
+    "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+    "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py"
+  ]
+}

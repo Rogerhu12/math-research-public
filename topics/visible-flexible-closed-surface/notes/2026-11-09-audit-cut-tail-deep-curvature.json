@@ -1,0 +1,148 @@
+{
+  "scope": "Independent witness on a raw-source first transition.\nThe raw formula is retained by the candidate only at n>=protectCell.\nNo cell calibration alpha enters this segment. The optional crude all-segment\nbound assumes every deep calibrated alpha is in [1/2,2] and R dominates\nall plateau levels; these hypotheses are not certified by this script.\n",
+  "source_parameters": {
+    "delta0": 0.006,
+    "R": 64,
+    "a": 2.75,
+    "etaPower": 1.5,
+    "etaRatioAtN0": 0.05,
+    "epsilonScale": 6.321767087857858,
+    "rCuff": 0.25,
+    "orientation": 1,
+    "protectCell": 80
+  },
+  "rows": [
+    {
+      "retained_unmodified": false,
+      "optimized_first_transition": {
+        "n": 79,
+        "segment": 1,
+        "x": 0.8953237839209116,
+        "r": 0.25,
+        "w": 1.1087430673296121e-39,
+        "w_r": 406.0687543048817,
+        "curvature": 406.0687543048817
+      },
+      "fixed_x_0p9": {
+        "n": 79,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 1.1960731517924834e-39,
+        "w_r": 403.9756083238705,
+        "curvature": 403.9756083238705
+      },
+      "conditional_coarse_bound_all_raw_segments": 10493.341359844408
+    },
+    {
+      "retained_unmodified": true,
+      "optimized_first_transition": {
+        "n": 80,
+        "segment": 1,
+        "x": 0.8957098185367601,
+        "r": 0.25,
+        "w": 3.2956816505281524e-40,
+        "w_r": 342.8467339147789,
+        "curvature": 342.8467339147789
+      },
+      "fixed_x_0p9": {
+        "n": 80,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 3.5349105838860894e-40,
+        "w_r": 341.3474778118837,
+        "curvature": 341.3474778118837
+      },
+      "conditional_coarse_bound_all_raw_segments": 8921.985501762694
+    },
+    {
+      "retained_unmodified": true,
+      "optimized_first_transition": {
+        "n": 96,
+        "segment": 1,
+        "x": 0.9012157012950425,
+        "r": 0.25,
+        "w": 1.2244237972095447e-48,
+        "w_r": 22.73535478735617,
+        "curvature": 22.73535478735617
+      },
+      "fixed_x_0p9": {
+        "n": 96,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 1.1975936537113657e-48,
+        "w_r": 22.726425717827418,
+        "curvature": 22.726425717827418
+      },
+      "conditional_coarse_bound_all_raw_segments": 655.7964620961613
+    },
+    {
+      "retained_unmodified": true,
+      "optimized_first_transition": {
+        "n": 112,
+        "segment": 1,
+        "x": 0.9057298052177168,
+        "r": 0.25,
+        "w": 4.5514405554496725e-57,
+        "w_r": 1.4950009262432173,
+        "curvature": 1.4950009262432173
+      },
+      "fixed_x_0p9": {
+        "n": 112,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 4.057331933508497e-57,
+        "w_r": 1.4807168446908507,
+        "curvature": 1.4807168446908507
+      },
+      "conditional_coarse_bound_all_raw_segments": 47.123051895759644
+    },
+    {
+      "retained_unmodified": true,
+      "optimized_first_transition": {
+        "n": 120,
+        "segment": 1,
+        "x": 0.9077052157265414,
+        "r": 0.25,
+        "w": 2.775375947235527e-61,
+        "w_r": 0.3824146169669527,
+        "curvature": 0.3824146169669527
+      },
+      "fixed_x_0p9": {
+        "n": 120,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 2.361598507808568e-61,
+        "w_r": 0.3755430839642482,
+        "curvature": 0.3755430839642482
+      },
+      "conditional_coarse_bound_all_raw_segments": 12.547734600783604
+    },
+    {
+      "retained_unmodified": true,
+      "optimized_first_transition": {
+        "n": 128,
+        "segment": 1,
+        "x": 0.9095268877363638,
+        "r": 0.25,
+        "w": 1.6925011825368782e-65,
+        "w_r": 0.09768432290684798,
+        "curvature": 0.09768432290684798
+      },
+      "fixed_x_0p9": {
+        "n": 128,
+        "segment": 1,
+        "x": 0.9,
+        "r": 0.25,
+        "w": 1.3745849744320142e-65,
+        "w_r": 0.09490352763684248,
+        "curvature": 0.09490352763684248
+      },
+      "conditional_coarse_bound_all_raw_segments": 3.328676556906825
+    }
+  ]
+}

@@ -1,0 +1,1724 @@
+{
+  "schema": "fd2d-R194-actual-exact-arithmetic-fixture-v1",
+  "passed": true,
+  "continuous_quadratic_graph": {
+    "input": {
+      "scope": "certified common continuous physical box",
+      "derivatives": "fixed physical s,u",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": [
+            "-1/100",
+            "1/100"
+          ],
+          "u": [
+            "-1/100",
+            "1/100"
+          ]
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "jets": {
+        "Xs": [
+          "1",
+          "0",
+          {
+            "lower": "-1/40",
+            "upper": "1/40"
+          }
+        ],
+        "Xu": [
+          "0",
+          "1",
+          {
+            "lower": "-3/200",
+            "upper": "3/200"
+          }
+        ],
+        "Xss": [
+          "0",
+          "0",
+          "2"
+        ],
+        "Xsu": [
+          "0",
+          "0",
+          "1/2"
+        ],
+        "Xuu": [
+          "0",
+          "0",
+          "-1"
+        ]
+      }
+    },
+    "result": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "Cartesian physical two-jet box",
+      "scope": "certified common continuous physical box",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": [
+            "-1/100",
+            "1/100"
+          ],
+          "u": [
+            "-1/100",
+            "1/100"
+          ]
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "curvature_cap": [
+        "21",
+        "10"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": true,
+      "strict_cap_proved": true,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "derivatives": "fixed physical s,u",
+      "margins": {
+        "diagonal_11": {
+          "lower": [
+            "41",
+            "100"
+          ],
+          "upper": [
+            "2146649137897",
+            "5120000000000"
+          ]
+        },
+        "diagonal_22": {
+          "lower": [
+            "341",
+            "100"
+          ],
+          "upper": [
+            "10930351712867257",
+            "3200000000000000"
+          ]
+        },
+        "determinant_center": {
+          "lower": [
+            "54",
+            "25"
+          ],
+          "upper": [
+            "86700007449",
+            "40000000000"
+          ]
+        },
+        "determinant_squared": {
+          "lower": [
+            "782610594775767",
+            "3200000000000000"
+          ],
+          "upper": [
+            "474996235656655487601",
+            "1600000000000000000000"
+          ]
+        }
+      },
+      "Gram": {
+        "E": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1601",
+            "1600"
+          ]
+        },
+        "F": {
+          "lower": [
+            "-3",
+            "8000"
+          ],
+          "upper": [
+            "3",
+            "8000"
+          ]
+        },
+        "G": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "40009",
+            "40000"
+          ]
+        }
+      },
+      "squared_cross_norm": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "20017",
+          "20000"
+        ]
+      },
+      "unnormalized_second_form": {
+        "B11": {
+          "lower": [
+            "2",
+            "1"
+          ],
+          "upper": [
+            "2",
+            "1"
+          ]
+        },
+        "B12": {
+          "lower": [
+            "1",
+            "2"
+          ],
+          "upper": [
+            "1",
+            "2"
+          ]
+        },
+        "B22": {
+          "lower": [
+            "-1",
+            "1"
+          ],
+          "upper": [
+            "-1",
+            "1"
+          ]
+        }
+      },
+      "determinant_B": {
+        "lower": [
+          "-9",
+          "4"
+        ],
+        "upper": [
+          "-9",
+          "4"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "999",
+          "1000"
+        ],
+        "upper": [
+          "40033",
+          "40000"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "proved under the stated enclosure premises",
+      "unresolved_quantities": [],
+      "continuous_box_conclusion": true,
+      "failure_is_not_geometric_nonexistence": true
+    }
+  },
+  "false_cap_at_origin": {
+    "result": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "Cartesian physical two-jet box",
+      "scope": "certified single physical point",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": "0",
+          "u": "0"
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "curvature_cap": [
+        "2",
+        "1"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": false,
+      "strict_cap_proved": false,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "derivatives": "fixed physical s,u",
+      "margins": {
+        "diagonal_11": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "diagonal_22": {
+          "lower": [
+            "3",
+            "1"
+          ],
+          "upper": [
+            "3",
+            "1"
+          ]
+        },
+        "determinant_center": {
+          "lower": [
+            "7",
+            "4"
+          ],
+          "upper": [
+            "7",
+            "4"
+          ]
+        },
+        "determinant_squared": {
+          "lower": [
+            "-15",
+            "16"
+          ],
+          "upper": [
+            "-15",
+            "16"
+          ]
+        }
+      },
+      "Gram": {
+        "E": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        "F": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "G": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        }
+      },
+      "squared_cross_norm": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "unnormalized_second_form": {
+        "B11": {
+          "lower": [
+            "2",
+            "1"
+          ],
+          "upper": [
+            "2",
+            "1"
+          ]
+        },
+        "B12": {
+          "lower": [
+            "1",
+            "2"
+          ],
+          "upper": [
+            "1",
+            "2"
+          ]
+        },
+        "B22": {
+          "lower": [
+            "-1",
+            "1"
+          ],
+          "upper": [
+            "-1",
+            "1"
+          ]
+        }
+      },
+      "determinant_B": {
+        "lower": [
+          "-9",
+          "4"
+        ],
+        "upper": [
+          "-9",
+          "4"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "unresolved by these intervals",
+      "unresolved_quantities": [
+        "determinant_squared"
+      ],
+      "continuous_box_conclusion": false,
+      "failure_is_not_geometric_nonexistence": true
+    },
+    "exact_Rayleigh_witness": {
+      "vector": [
+        "10",
+        "1"
+      ],
+      "Q_energy": "209",
+      "H_energy": "101",
+      "cap_energy": "202"
+    }
+  },
+  "exact_coordinate_changes": {
+    "original": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "normalized Gram and second-form box",
+      "scope": "certified single physical point",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": "0",
+          "u": "0"
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "curvature_cap": [
+        "21",
+        "10"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": true,
+      "strict_cap_proved": true,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "margins": {
+        "plus_11": {
+          "lower": [
+            "41",
+            "10"
+          ],
+          "upper": [
+            "41",
+            "10"
+          ]
+        },
+        "minus_11": {
+          "lower": [
+            "1",
+            "10"
+          ],
+          "upper": [
+            "1",
+            "10"
+          ]
+        },
+        "plus_22": {
+          "lower": [
+            "11",
+            "10"
+          ],
+          "upper": [
+            "11",
+            "10"
+          ]
+        },
+        "minus_22": {
+          "lower": [
+            "31",
+            "10"
+          ],
+          "upper": [
+            "31",
+            "10"
+          ]
+        },
+        "plus_determinant": {
+          "lower": [
+            "213",
+            "50"
+          ],
+          "upper": [
+            "213",
+            "50"
+          ]
+        },
+        "minus_determinant": {
+          "lower": [
+            "3",
+            "50"
+          ],
+          "upper": [
+            "3",
+            "50"
+          ]
+        }
+      },
+      "H": [
+        {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "Q": [
+        {
+          "lower": [
+            "2",
+            "1"
+          ],
+          "upper": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "1",
+            "2"
+          ],
+          "upper": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "lower": [
+            "-1",
+            "1"
+          ],
+          "upper": [
+            "-1",
+            "1"
+          ]
+        }
+      ],
+      "determinant_H": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "determinant_Q": {
+        "lower": [
+          "-9",
+          "4"
+        ],
+        "upper": [
+          "-9",
+          "4"
+        ]
+      },
+      "determinant_center": {
+        "lower": [
+          "54",
+          "25"
+        ],
+        "upper": [
+          "54",
+          "25"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "proved under the stated enclosure premises",
+      "unresolved_quantities": [],
+      "continuous_box_conclusion": false,
+      "failure_is_not_geometric_nonexistence": true
+    },
+    "rotation_3_4_5": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "normalized Gram and second-form box",
+      "scope": "certified single physical point",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": "0",
+          "u": "0"
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "curvature_cap": [
+        "21",
+        "10"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": true,
+      "strict_cap_proved": true,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "margins": {
+        "plus_11": {
+          "lower": [
+            "133",
+            "50"
+          ],
+          "upper": [
+            "133",
+            "50"
+          ]
+        },
+        "minus_11": {
+          "lower": [
+            "77",
+            "50"
+          ],
+          "upper": [
+            "77",
+            "50"
+          ]
+        },
+        "plus_22": {
+          "lower": [
+            "127",
+            "50"
+          ],
+          "upper": [
+            "127",
+            "50"
+          ]
+        },
+        "minus_22": {
+          "lower": [
+            "83",
+            "50"
+          ],
+          "upper": [
+            "83",
+            "50"
+          ]
+        },
+        "plus_determinant": {
+          "lower": [
+            "213",
+            "50"
+          ],
+          "upper": [
+            "213",
+            "50"
+          ]
+        },
+        "minus_determinant": {
+          "lower": [
+            "3",
+            "50"
+          ],
+          "upper": [
+            "3",
+            "50"
+          ]
+        }
+      },
+      "H": [
+        {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "Q": [
+        {
+          "lower": [
+            "14",
+            "25"
+          ],
+          "upper": [
+            "14",
+            "25"
+          ]
+        },
+        {
+          "lower": [
+            "-79",
+            "50"
+          ],
+          "upper": [
+            "-79",
+            "50"
+          ]
+        },
+        {
+          "lower": [
+            "11",
+            "25"
+          ],
+          "upper": [
+            "11",
+            "25"
+          ]
+        }
+      ],
+      "determinant_H": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "determinant_Q": {
+        "lower": [
+          "-9",
+          "4"
+        ],
+        "upper": [
+          "-9",
+          "4"
+        ]
+      },
+      "determinant_center": {
+        "lower": [
+          "54",
+          "25"
+        ],
+        "upper": [
+          "54",
+          "25"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "proved under the stated enclosure premises",
+      "unresolved_quantities": [],
+      "continuous_box_conclusion": false,
+      "failure_is_not_geometric_nonexistence": true
+    },
+    "coordinate_scales_3_2": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "normalized Gram and second-form box",
+      "scope": "certified single physical point",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,u,s^2+s*u/2-u^2/2)",
+        "domain": {
+          "s": "0",
+          "u": "0"
+        },
+        "enclosure_evidence": "exact polynomial derivatives and rational box arithmetic; analytic fixture, not repository candidate"
+      },
+      "curvature_cap": [
+        "21",
+        "10"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": true,
+      "strict_cap_proved": true,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "margins": {
+        "plus_11": {
+          "lower": [
+            "369",
+            "10"
+          ],
+          "upper": [
+            "369",
+            "10"
+          ]
+        },
+        "minus_11": {
+          "lower": [
+            "9",
+            "10"
+          ],
+          "upper": [
+            "9",
+            "10"
+          ]
+        },
+        "plus_22": {
+          "lower": [
+            "22",
+            "5"
+          ],
+          "upper": [
+            "22",
+            "5"
+          ]
+        },
+        "minus_22": {
+          "lower": [
+            "62",
+            "5"
+          ],
+          "upper": [
+            "62",
+            "5"
+          ]
+        },
+        "plus_determinant": {
+          "lower": [
+            "3834",
+            "25"
+          ],
+          "upper": [
+            "3834",
+            "25"
+          ]
+        },
+        "minus_determinant": {
+          "lower": [
+            "54",
+            "25"
+          ],
+          "upper": [
+            "54",
+            "25"
+          ]
+        }
+      },
+      "H": [
+        {
+          "lower": [
+            "9",
+            "1"
+          ],
+          "upper": [
+            "9",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "4",
+            "1"
+          ],
+          "upper": [
+            "4",
+            "1"
+          ]
+        }
+      ],
+      "Q": [
+        {
+          "lower": [
+            "18",
+            "1"
+          ],
+          "upper": [
+            "18",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "3",
+            "1"
+          ],
+          "upper": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "lower": [
+            "-4",
+            "1"
+          ],
+          "upper": [
+            "-4",
+            "1"
+          ]
+        }
+      ],
+      "determinant_H": {
+        "lower": [
+          "36",
+          "1"
+        ],
+        "upper": [
+          "36",
+          "1"
+        ]
+      },
+      "determinant_Q": {
+        "lower": [
+          "-81",
+          "1"
+        ],
+        "upper": [
+          "-81",
+          "1"
+        ]
+      },
+      "determinant_center": {
+        "lower": [
+          "1944",
+          "25"
+        ],
+        "upper": [
+          "1944",
+          "25"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "36",
+          "1"
+        ],
+        "upper": [
+          "36",
+          "1"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "proved under the stated enclosure premises",
+      "unresolved_quantities": [],
+      "continuous_box_conclusion": false,
+      "failure_is_not_geometric_nonexistence": true
+    }
+  },
+  "continuous_unit_cylinder": {
+    "input": {
+      "scope": "certified common continuous physical box",
+      "derivatives": "fixed physical s,u",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,sin(u),-cos(u)); a=1",
+        "domain": {
+          "s": [
+            "-1",
+            "1"
+          ],
+          "u": [
+            "-1/100",
+            "1/100"
+          ]
+        },
+        "enclosure_evidence": "|sin u|<=1/100 and 1-u^2/2<=cos u<=1, with exact unit tangent"
+      },
+      "exact_unit_tangent": true,
+      "exact_position_identity": "X_u=a T; X_s=V",
+      "jets": {
+        "a": "1",
+        "V": [
+          "1",
+          "0",
+          "0"
+        ],
+        "T": [
+          "0",
+          {
+            "lower": "19999/20000",
+            "upper": "1"
+          },
+          {
+            "lower": "-1/100",
+            "upper": "1/100"
+          }
+        ],
+        "Ts": [
+          "0",
+          "0",
+          "0"
+        ],
+        "Tu": [
+          "0",
+          {
+            "lower": "-1/100",
+            "upper": "1/100"
+          },
+          {
+            "lower": "19999/20000",
+            "upper": "1"
+          }
+        ],
+        "Xss": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    "result": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "unit-tangent normalized physical two-jet box",
+      "scope": "certified common continuous physical box",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,sin(u),-cos(u)); a=1",
+        "domain": {
+          "s": [
+            "-1",
+            "1"
+          ],
+          "u": [
+            "-1/100",
+            "1/100"
+          ]
+        },
+        "enclosure_evidence": "|sin u|<=1/100 and 1-u^2/2<=cos u<=1, with exact unit tangent"
+      },
+      "curvature_cap": [
+        "1001",
+        "1000"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": true,
+      "strict_cap_proved": true,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "derivatives": "fixed physical s,u",
+      "exact_cancellations": [
+        "|T|^2=1",
+        "N dot (a_s T/a+T_s)=N dot T_s",
+        "det H=|V cross T|^2"
+      ],
+      "margins": {
+        "diagonal_11": {
+          "lower": [
+            "1002001",
+            "1000000"
+          ],
+          "upper": [
+            "1002001",
+            "1000000"
+          ]
+        },
+        "diagonal_22": {
+          "lower": [
+            "180099",
+            "100000000"
+          ],
+          "upper": [
+            "384152800159999",
+            "160000000000000000"
+          ]
+        },
+        "determinant_center": {
+          "lower": [
+            "1002001",
+            "1000000"
+          ],
+          "upper": [
+            "1002001",
+            "1000000"
+          ]
+        },
+        "determinant_squared": {
+          "lower": [
+            "180459378099",
+            "100000000000000"
+          ],
+          "upper": [
+            "384921489913119157999",
+            "160000000000000000000000"
+          ]
+        }
+      },
+      "Gram": {
+        "E": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        "F": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "G": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        }
+      },
+      "squared_cross_norm": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "unnormalized_second_form": {
+        "B11": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "B12": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "B22": {
+          "lower": [
+            "399920001",
+            "400000000"
+          ],
+          "upper": [
+            "10001",
+            "10000"
+          ]
+        }
+      },
+      "determinant_B": {
+        "lower": [
+          "0",
+          "1"
+        ],
+        "upper": [
+          "0",
+          "1"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "399920001",
+          "400000000"
+        ],
+        "upper": [
+          "10001",
+          "10000"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "proved under the stated enclosure premises",
+      "unresolved_quantities": [],
+      "continuous_box_conclusion": true,
+      "failure_is_not_geometric_nonexistence": true
+    },
+    "sharp_cap_interval_unresolved": {
+      "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+      "kind": "unit-tangent normalized physical two-jet box",
+      "scope": "certified common continuous physical box",
+      "bindings": {
+        "geometry_definition": "X(s,u)=(s,sin(u),-cos(u)); a=1",
+        "domain": {
+          "s": [
+            "-1",
+            "1"
+          ],
+          "u": [
+            "-1/100",
+            "1/100"
+          ]
+        },
+        "enclosure_evidence": "|sin u|<=1/100 and 1-u^2/2<=cos u<=1, with exact unit tangent"
+      },
+      "curvature_cap": [
+        "1",
+        "1"
+      ],
+      "arithmetic": "exact BigInt rational interval arithmetic",
+      "passed": false,
+      "strict_cap_proved": false,
+      "immersion_proved": true,
+      "pointwise_algebra_is_equivalent": true,
+      "interval_pass_is_sufficient_only": true,
+      "supplied_enclosures_are_premises": true,
+      "coverage_proved_here": false,
+      "repository_main_candidate_certified": false,
+      "derivatives": "fixed physical s,u",
+      "exact_cancellations": [
+        "|T|^2=1",
+        "N dot (a_s T/a+T_s)=N dot T_s",
+        "det H=|V cross T|^2"
+      ],
+      "margins": {
+        "diagonal_11": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        "diagonal_22": {
+          "lower": [
+            "-20001",
+            "100000000"
+          ],
+          "upper": [
+            "63992800159999",
+            "160000000000000000"
+          ]
+        },
+        "determinant_center": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        "determinant_squared": {
+          "lower": [
+            "-20001",
+            "100000000"
+          ],
+          "upper": [
+            "63992800159999",
+            "160000000000000000"
+          ]
+        }
+      },
+      "Gram": {
+        "E": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        },
+        "F": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "G": {
+          "lower": [
+            "1",
+            "1"
+          ],
+          "upper": [
+            "1",
+            "1"
+          ]
+        }
+      },
+      "squared_cross_norm": {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      },
+      "unnormalized_second_form": {
+        "B11": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "B12": {
+          "lower": [
+            "0",
+            "1"
+          ],
+          "upper": [
+            "0",
+            "1"
+          ]
+        },
+        "B22": {
+          "lower": [
+            "399920001",
+            "400000000"
+          ],
+          "upper": [
+            "10001",
+            "10000"
+          ]
+        }
+      },
+      "determinant_B": {
+        "lower": [
+          "0",
+          "1"
+        ],
+        "upper": [
+          "0",
+          "1"
+        ]
+      },
+      "determinant_mixed": {
+        "lower": [
+          "399920001",
+          "400000000"
+        ],
+        "upper": [
+          "10001",
+          "10000"
+        ]
+      },
+      "square_root_evaluation_used": false,
+      "status": "unresolved by these intervals",
+      "unresolved_quantities": [
+        "diagonal_22",
+        "determinant_squared"
+      ],
+      "continuous_box_conclusion": false,
+      "failure_is_not_geometric_nonexistence": true
+    }
+  },
+  "R193_conditional_adapter": {
+    "schema": "fd2d-R194-exact-interval-curvature-certificate-v1",
+    "kind": "normalized Gram and second-form box",
+    "scope": "certified common continuous physical box",
+    "bindings": {
+      "geometry_definition": {
+        "R193_bindings": {
+          "accurate_base": {
+            "kind": "conditional arithmetic fixture; not a repository B32 state"
+          },
+          "accurate_central_curve": {
+            "kind": "conditional fixture"
+          },
+          "accurate_angle_height_grid": {
+            "kind": "conditional fixture"
+          },
+          "accurate_radius_grid": {
+            "kind": "conditional fixture"
+          },
+          "reference_fields": {
+            "kind": "explicit bounds below"
+          },
+          "error_evidence": {
+            "kind": "hypotheses of this arithmetic fixture, not measured errors of a main candidate"
+          }
+        },
+        "Q0_definition": "N0 dot [Xss0,Ts0,Tu0/a0]"
+      },
+      "domain": {
+        "kind": "same conditional arithmetic fixture box as R193; not an actual B32 enclosure"
+      },
+      "enclosure_evidence": {
+        "R193_budget": {
+          "source": "fd2d_R193_direct_position_error_budget.cjs",
+          "fixture": "runR193BudgetFixture nonzero_result"
+        },
+        "reference_Q0": {
+          "kind": "additional exact conditional component bounds [6,0,-5]; not sampled principal curvatures"
+        },
+        "expected_budget_bindings": {
+          "accurate_base": {
+            "kind": "conditional arithmetic fixture; not a repository B32 state"
+          },
+          "accurate_central_curve": {
+            "kind": "conditional fixture"
+          },
+          "accurate_angle_height_grid": {
+            "kind": "conditional fixture"
+          },
+          "accurate_radius_grid": {
+            "kind": "conditional fixture"
+          },
+          "reference_fields": {
+            "kind": "explicit bounds below"
+          },
+          "error_evidence": {
+            "kind": "hypotheses of this arithmetic fixture, not measured errors of a main candidate"
+          }
+        }
+      }
+    },
+    "curvature_cap": [
+      "15",
+      "2"
+    ],
+    "arithmetic": "exact BigInt rational interval arithmetic",
+    "passed": true,
+    "strict_cap_proved": true,
+    "immersion_proved": true,
+    "pointwise_algebra_is_equivalent": true,
+    "interval_pass_is_sufficient_only": true,
+    "supplied_enclosures_are_premises": true,
+    "coverage_proved_here": false,
+    "repository_main_candidate_certified": false,
+    "margins": {
+      "plus_11": {
+        "lower": [
+          "90195529580051558181435346744604337643419672338229307643529226963619107192306788821798220437392191728364423",
+          "6681150340747872836966604994509102548483728998400000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "90195529620141008416662988107141431165641010618570692356470773036380892807693211178201779562607808271635577",
+          "6681150340747872836966604994509102548483728998400000000000000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "minus_11": {
+        "lower": [
+          "10021725491077084137836086810495107061614924357429307643529226963619107192306788821798220437392191728364423",
+          "6681150340747872836966604994509102548483728998400000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "10021725531166534373063728173032200583836262637770692356470773036380892807693211178201779562607808271635577",
+          "6681150340747872836966604994509102548483728998400000000000000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "plus_22": {
+        "lower": [
+          "6562740162309563793061704762698260419973317810681547589",
+          "2625096064923880138960406065216064453125000000000000000"
+        ],
+        "upper": [
+          "6562740162309836901740325563382061845651682189318452411",
+          "2625096064923880138960406065216064453125000000000000000"
+        ]
+      },
+      "minus_22": {
+        "lower": [
+          "32813700811548365182665765414858904951223317810681547589",
+          "2625096064923880138960406065216064453125000000000000000"
+        ],
+        "upper": [
+          "32813700811548638291344386215542706376901682189318452411",
+          "2625096064923880138960406065216064453125000000000000000"
+        ]
+      },
+      "plus_determinant": {
+        "lower": [
+          "561029810059008727203664288749333023685244750778383762954444635805480905090017475082028433885722403033299637737155870393574455538357486323796617135060316223727546862315212967950877379497477",
+          "16623105501701525409413760370412019344926659743825730143262331920163630537005755187425138226233344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "4143508776575694356423820476881499749435225245263862325736544794240134327575023710162215354841816561862117644289193642205798655193411263139907332239336982136816971",
+          "122770630280634573341433402921584646273046516775927069788855385731366912000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "minus_determinant": {
+        "lower": [
+          "311683227533485846062463071655852274670338705900996253094180381770461370966777645343369021186337599040929175151200272119773131677612921965546284255455488341649594661871246215742054749408773",
+          "16623105501701525409413760370412019344926659743825730143262331920163630537005755187425138226233344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "2301949322366175756302357752662676617763443631888765114216962827005252506287215076876951968153519683294502798703852227800566792479182577832748917760663017863183029",
+          "122770630280634573341433402921584646273046516775927069788855385731366912000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ]
+      }
+    },
+    "H": [
+      {
+        "lower": [
+          "18446744066330599421447911247822024391279994468226758323699935689926360191090411",
+          "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "18446744081088503810552088752177975608720005531773241676300064310073639808909589",
+          "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+        ]
+      },
+      {
+        "lower": [
+          "-725374592796727899539829458353895632177340329",
+          "2417851639229258349412352000000000000000000000000000000"
+        ],
+        "upper": [
+          "725374592796727899539829458353895632177340329",
+          "2417851639229258349412352000000000000000000000000000000"
+        ]
+      },
+      {
+        "lower": [
+          "1",
+          "1"
+        ],
+        "upper": [
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "Q": [
+      {
+        "lower": [
+          "33954926785035968782304832284924038034156527362566073263889",
+          "5659154464172743710095696443750000000000000000000000000000"
+        ],
+        "upper": [
+          "33954926785036955738843525040075961965843472637433926736111",
+          "5659154464172743710095696443750000000000000000000000000000"
+        ]
+      },
+      {
+        "lower": [
+          "-90911221634052938947583028048196433970691",
+          "4835703277491358150716537488555908203125000000000000000"
+        ],
+        "upper": [
+          "90911221634052938947583028048196433970691",
+          "4835703277491358150716537488555908203125000000000000000"
+        ]
+      },
+      {
+        "lower": [
+          "-13125480324619537249141340726422222978464182189318452411",
+          "2625096064923880138960406065216064453125000000000000000"
+        ],
+        "upper": [
+          "-13125480324619264140462719925738421552785817810681547589",
+          "2625096064923880138960406065216064453125000000000000000"
+        ]
+      }
+    ],
+    "determinant_H": {
+      "lower": [
+        "5846006546985128377668729560743345770427015986110454671705417188715975894921192291182301071268750056789484143",
+        "5846006549323611672814739330865132078623730171904000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper": [
+        "18446744081088503810552088752177975608720005531773241676300064310073639808909589",
+        "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "determinant_Q": {
+      "lower": [
+        "-109190307243020373114070513621325561101641636684778830397138540987315361406413219533825710582065082869612915611719833",
+        "3639676908100588340841765213064035017219059756393615176634788513183593750000000000000000000000000000000000000000000"
+      ],
+      "upper": [
+        "-445674723440877254434430200803356656593302309206217759465230782780146555705864656509972049480826242149290908713621",
+        "14855824114696278942211286583934836804975754107729041537284851074218750000000000000000000000000000000000000000000"
+      ]
+    },
+    "determinant_center": {
+      "lower": [
+        "292833902921459108652559738426743351575453421903288378649172865418427622134528231672305042807178075090498242366412541814761022437659478531128240879074519768724220975764909",
+        "11155577263713394372928923644265698301840522987226757638848923491531199394541661920902081114054947147612160000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper": [
+        "3771513765454039190389268403535392001494594322387000119404101993766189283582596236468513269373297252657371150529967780076787342127627685507",
+        "143676714751279774973288919533374488895542437918342079387186188558765391872000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "determinant_mixed": {
+      "lower": [
+        "338971326271856718030190722495066220390100209547619514080878934071646877087433263233097447271982242807138279951948319818877887713516447",
+        "338971326949869952131865869243511443690618880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper": [
+        "338971327627883186233526909200772445742832016705194028025033593946170439772833519631846573820930832886129742299360429193877887713516447",
+        "338971326949869952131865869243511443690618880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "square_root_evaluation_used": false,
+    "status": "proved under the stated enclosure premises",
+    "unresolved_quantities": [],
+    "continuous_box_conclusion": true,
+    "failure_is_not_geometric_nonexistence": true,
+    "adapter": "R193 exact metric intervals and componentwise second-form errors",
+    "reference_Q0": [
+      "6",
+      "0",
+      "-5"
+    ],
+    "added_Q_errors": [
+      [
+        "493478269346377575961965843472637433926736111",
+        "5659154464172743710095696443750000000000000000000000000000"
+      ],
+      [
+        "90911221634052938947583028048196433970691",
+        "4835703277491358150716537488555908203125000000000000000"
+      ],
+      [
+        "136554339310400341900712839182189318452411",
+        "2625096064923880138960406065216064453125000000000000000"
+      ]
+    ],
+    "sampled_or_formal_curvature_used_as_Q0_bound": false
+  },
+  "OS_subprocess_started": false,
+  "repository_B32_or_complete_surface_certified": false,
+  "scope_note": "The graph and cylinder are analytic verification fixtures. The R193 data are conditional arithmetic hypotheses. No repository candidate box was certified.",
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "elapsed_ms": 7,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null,
+    "completed": true
+  },
+  "sources": [
+    {
+      "path": "scripts/fd2d-position-curvature-certificate-R194.cjs",
+      "git_blob_sha": "f091145b32c62d1944c604ff41ed33d5ac70b5d4",
+      "characters": 11336,
+      "exact_readback": true
+    },
+    {
+      "path": "scripts/fd2d-check-position-curvature-certificate-R194.cjs",
+      "git_blob_sha": "2f87fb459f8e6dc2cd88e432432d1c149ab260a4",
+      "characters": 4552,
+      "exact_readback": true
+    }
+  ],
+  "R193_source": {
+    "path": "scripts/fd2d_R193_direct_position_error_budget.cjs",
+    "git_blob_sha": "64d9b9f7bfcab9657ae4665cefbcdefcc253e619"
+  },
+  "saved_sources_equal_executed_function_bodies": true
+}

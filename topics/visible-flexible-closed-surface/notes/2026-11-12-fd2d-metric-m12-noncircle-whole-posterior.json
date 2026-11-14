@@ -1,0 +1,173 @@
+{
+  "schema": "fd2d-actual-noncircle-whole-metric-posterior-v1",
+  "scope": "Compose actual complete field/linear certificates using R112 section 4.1.\n\nPrefix computations use their own frozen native metric g0, then pay the\nexisting exact-bridge target transfer. Tail computations use the original\nphysical meridian metric. All image-set geometry is unchanged by the\nproved global material diffeomorphism. This certifies a finite numerical\nerror bound, never exact isometry or an infinite refinement limit.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-noncircle-actual-pullback.py",
+    "bytes": 15801,
+    "sha256": "c31a92b0319c3be63589e8a2f1a3e82939fae067616b2d693a538925be313c1e"
+  },
+  "inputs": {
+    "budget": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-noncircle-pullback-budget.json",
+      "bytes": 2786,
+      "sha256": "1b9dbd4925f9b015a2d93563c572cf39458670fac61187588faec2495b59ab6f"
+    },
+    "prefix_linear": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-complete-03.json",
+      "bytes": 14756,
+      "sha256": "36f33f00a3a7740427536bfa6f85710073aed3c81c290eaf5a7706ad833ceb10"
+    },
+    "tail_linear": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-tail-linear-full-03.json",
+      "bytes": 14016,
+      "sha256": "4518129862caa7a764dce9ef199f4b1bbc2c410881348d30306930c277dcedc2"
+    },
+    "tail_regions": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-tail-gauge-support-regions.json",
+      "bytes": 4666,
+      "sha256": "11a32e01fb866a9a4339596f95037525311be38a4ecfbacbdaed0d8c56b6a07c"
+    },
+    "old_whole": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+      "bytes": 6733,
+      "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5"
+    },
+    "old_prefix": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "bytes": 2130,
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    "bridge": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "bytes": 3887,
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    "meshes": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-visible-m12-family-audit.json",
+      "bytes": 2356,
+      "sha256": "7a21f639fb50e24b61522ada337e19010b155fbbce30dd384a267926c57690a0"
+    },
+    "closed_map": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-repaired-closed-map-v2.json",
+      "bytes": 12377,
+      "sha256": "7cc24cf74d61da9415e3b63b460c5ed1af4681974c6ee84b31771e4facf519bc"
+    }
+  },
+  "actual_field_bounds": [
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-global-field-bounds-01.json",
+      "bytes": 20241,
+      "sha256": "6259b7ad47690bfd4ab17d19fc4af470e795a3b1e7dbe1cc6a427dcc26baa176"
+    }
+  ],
+  "regions": {
+    "prefix": {
+      "p_upper": 1.1362026047307063e-11,
+      "q_upper": 2.1748397698072635e-11,
+      "Dv_operator_upper": 7.676502902047499e-09,
+      "D2v_bilinear_upper": 6.283364928357972e-06,
+      "coordinate_displacement_upper": 2.453749046526999e-11,
+      "old_relative_error_upper_exact": "7773651848823799/302231454903657293676544",
+      "linear_operator_upper": 8.581678122630337e-10,
+      "nonlinear_coordinate_remainder_upper": 9.227133199781653e-16,
+      "target_frame_factor_upper": 1.0000000001562281,
+      "own_target_metric_upper": 8.581735793553537e-10,
+      "fixed_target_transfer_upper_exact": "1643648383685965/4951760157141521099596496896",
+      "original_fixed_target_metric_upper": 8.585055115033048e-10
+    },
+    "tail": {
+      "p_upper": 1.5348355764193366e-11,
+      "q_upper": 9.489794579974111e-12,
+      "Dv_operator_upper": 1.3800468383231936e-08,
+      "D2v_bilinear_upper": 0.00019160107909253822,
+      "coordinate_displacement_upper": 1.8045171815041106e-11,
+      "old_relative_error_upper_exact": "7055251261315967/302231454903657293676544",
+      "linear_operator_upper": 1.2566186391203421e-09,
+      "nonlinear_coordinate_remainder_upper": 9.377820016581995e-15,
+      "target_frame_factor_upper": 1.00000000021104,
+      "own_target_metric_upper": 1.256677250760643e-09,
+      "fixed_target_transfer_upper_exact": "0",
+      "original_fixed_target_metric_upper": 1.2566772507606437e-09
+    }
+  },
+  "unchanged_deep_tail_metric_upper": 1.1313778765583975e-09,
+  "fixed_caps_metric_error": 0.0,
+  "original_fixed_target_metric_upper": 1.2566772507606437e-09,
+  "original_tolerance": 2e-09,
+  "original_tolerance_met": true,
+  "global_C2_material_diffeomorphism_certified": true,
+  "complete_continuous_radial_and_angular_domain": true,
+  "all_time_coverage": "R112: rotate Y=X o Phi after material phase shift on activity; caps fixed pointwise",
+  "image_sets_identical_to_reference_family": true,
+  "unchanged_geometry": {
+    "diameter_upper": {
+      "exact": "98/25",
+      "lower_display": 3.92,
+      "upper_display": 3.9200000000000004
+    },
+    "whole_reach_lower_by_R10": {
+      "exact": "562949953421312/4763997235009095",
+      "lower_display": 0.11816756510360091,
+      "upper_display": 0.11816756510360092
+    },
+    "whole_reach_over_diameter_lower": {
+      "exact": "1407374883553280/46687172903089131",
+      "lower_display": 0.030144787016224722,
+      "upper_display": 0.030144787016224726
+    },
+    "held_region_diameter_over_diameter_lower": {
+      "exact": "199431196334744125/220676381741154304",
+      "lower_display": 0.9037269632627472,
+      "upper_display": 0.9037269632627473
+    },
+    "hold_over_diameter_lower": {
+      "exact": "45011483952312925/882705526964617216",
+      "lower_display": 0.05099263862898321,
+      "upper_display": 0.05099263862898322
+    }
+  },
+  "sharper_unchanged_geometry": {
+    "diameter_upper": {
+      "exact": "2131902881202937/562949953421312",
+      "lower_display": 3.787020263961937,
+      "upper_display": 3.787020263961937
+    },
+    "unchanged_absolute_reach_lower": {
+      "exact": "562949953421312/4763997235009095",
+      "lower_display": 0.11816756510360091,
+      "upper_display": 0.11816756510360092
+    },
+    "reach_over_D_lower": {
+      "exact": "316912650057057350374175801344/10156379431358714998583735712015",
+      "lower_display": 0.031203309427231683,
+      "upper_display": 0.031203309427231686
+    },
+    "hausdorff_hold_over_D_lower": {
+      "exact": "1800459358092517/34110446099246992",
+      "lower_display": 0.05278322519892999,
+      "upper_display": 0.052783225198929994
+    },
+    "fixed_caps_diameter_over_D_lower": {
+      "exact": "7977247853389765/8527611524811748",
+      "lower_display": 0.9354609822667628,
+      "upper_display": 0.9354609822667629
+    }
+  },
+  "E3_quotient_strictly_positive_by_unchanged_R21_R16_moment": true,
+  "original_M12_actual_error_lower_exact": "370012576184137/18889465931478580854784",
+  "actual_fixed_g_improvement_factor_lower": 15.587377483792219,
+  "fixed_g_and_physical_source_unchanged": true,
+  "mesh_images_delivered": true,
+  "mesh_indices_follow_new_material_field": false,
+  "finite_numerical_refinement_evidence_paid": true,
+  "basic_numerical_requirements_paid": true,
+  "exact_isometric_family_proved": false,
+  "infinite_refinement_convergence_proved": false,
+  "stronger_target_paid": false,
+  "proof_dependencies": [
+    "R112 sections 4.1, 5, 6",
+    "R21 same g/exact bridge and complete image family",
+    "Actual shared-two-jet field and continuous linear reports",
+    "fd2d-noncircle-continuous-tail-proof and field-definition note"
+  ]
+}

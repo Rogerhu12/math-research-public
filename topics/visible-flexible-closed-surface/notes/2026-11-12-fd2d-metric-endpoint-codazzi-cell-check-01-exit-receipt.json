@@ -1,0 +1,13 @@
+{
+  "schema": "fd2d-actual-tool-exit-receipt-v1",
+  "session_id": 47283,
+  "completion_chunk_id": "9bf408",
+  "exit_code": 1,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-endpoint-codazzi-cell-check-01-report.json",
+    "bytes": 10119,
+    "sha256": "f989022e9656c77a5b9254c9701de7e1f11cec33cc3fad3d3bd695c22858aec2"
+  },
+  "scope": "One actual two-node cell view only; no BVP/body/full matrix",
+  "failure_reason": "Requested nonzero-tail-column coverage was absent: the actual tail parameter JVP is exactly zero on cell63; identities and every nonzero derivative check passed."
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "fd2d-observed-tool-process-exit-v1",
+  "recorded_at_utc": "2026-11-12T19:24:25.630108+00:00",
+  "command": "python scripts/fd2d-dyadic-bernstein-tail-check.py --parent-definition notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json --out-prefix notes/2026-11-12-fd2d-dyadic-bernstein-tail-01",
+  "owner_session_id": 89903,
+  "initial_chunk_id": "47b9b3",
+  "completion_chunk_id": "fe9dd8",
+  "observed_exit_code": 0,
+  "natural_completion": true,
+  "script_elapsed_seconds": 3.656446038003196,
+  "no_BVP_or_whole_FJ_or_body": true
+}

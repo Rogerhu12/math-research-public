@@ -1,0 +1,74 @@
+{
+  "scope": "Faithful canonical packaging of actual cut-preserving physical-tail finite linear DN; no synthetic scaling. No nonlinear tail or exact collar claim.",
+  "parameters": {
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 80,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "cuspAwareQuadrature": true,
+    "quadratureTolerance": 2e-10
+  },
+  "geometry": {
+    "rCut": 0.6,
+    "rCuff": 0.25,
+    "oldCut": 0.25281475451853164,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "alpha": 71.92861702899957,
+    "meridianLength": 0.3529172290121696,
+    "heightSpan": 0.0216288082485462,
+    "minimumWarpWidth": 0.14866993535891906,
+    "bufferMaxCurvature": 9.90930980273585,
+    "cutRadiusError": 1.1102230246251565e-16,
+    "cutSlopeError": -5.551115123125783e-17,
+    "cutSecondError": 2.6645352591003757e-15,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "deepDerivativeRatio": 1,
+    "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+  },
+  "cut": {
+    "radius": 0.6,
+    "backgroundSlope": 0.5,
+    "backgroundSecond": -5.833333333333334,
+    "E": 1.25,
+    "Ep": -5.833333333333334
+  },
+  "rows": [
+    {
+      "steps": 1024,
+      "far": 40,
+      "modes": [
+        {
+          "mode": 2,
+          "slope": 5.676917011542046
+        },
+        {
+          "mode": 4,
+          "slope": 15.580778556870927
+        },
+        {
+          "mode": 6,
+          "slope": 25.54951530789281
+        },
+        {
+          "mode": 8,
+          "slope": 35.31157276620139
+        }
+      ]
+    }
+  ],
+  "source_file": "root_cut_tail_cap002_linear_s1024_far40.json",
+  "source_sha256": "84fc6e1846dcf9611dfc7831e7b8ae1c0765757fae97dc01681ece20bdbb3731"
+}

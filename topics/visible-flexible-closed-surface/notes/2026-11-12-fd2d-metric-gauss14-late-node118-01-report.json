@@ -1,0 +1,2503 @@
+{
+  "schema": "fd2d-actual-R153-late-two-cell-diagnostic-v1",
+  "actual_execution": true,
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss14-b0003-accepted-0002.npz",
+    "bytes": 56014,
+    "sha256": "9bebfd806d5bb014f0aca395c3424baeadba9907b92e7692099631f3d2d7d786"
+  },
+  "source_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss14-b0003-report.json",
+    "bytes": 133306,
+    "sha256": "78ba9d6d9e428c6c892752ba8dcc8a54fab01751b5346e1d8c200f80b6e31228"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-positive-gauss-late-screen.py",
+      "bytes": 12636,
+      "sha256": "500a0fa89766af419ba0ad7eeca64bb03a6f9bdd2a1ab64786ac1f88de01938f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l_native_field.py",
+      "bytes": 14983,
+      "sha256": "d48399b351fa818f3b3be1359f34a504c4e7f832d201c2d528216590fb9efc7d"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    }
+  ],
+  "node": 118,
+  "adjacent_cells": [
+    117,
+    118
+  ],
+  "angular_grid": 1024,
+  "finite_angular_samples_not_continuous_residual_certificate": true,
+  "exact_angle_coefficient_arithmetic": "Fraction of saved binary64 values and actual binary s; exact P1 ratio",
+  "exact_nonnegative_tail": true,
+  "tail_parameter_minimum": 0.0,
+  "tail_parameter_maximum": 1.2,
+  "tail_kappa_global_upper": {
+    "exact_rational": "42559016478651185625/6629298651489370112",
+    "display": 6.419836956521739,
+    "sign": 1
+  },
+  "tail_width_lower": {
+    "exact_rational": "23/50",
+    "display": 0.46,
+    "sign": 1
+  },
+  "protected_bump_free_final_interval": [
+    1.4689731783581288,
+    1.4889731783581288
+  ],
+  "no_unknown_n_divided_in_this_span": true,
+  "point_queries": [
+    {
+      "label": "left_node",
+      "physical_s": 1.4689731783581288,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.11518363533537204,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.642887446157903,
+          "maximum_xi": 3.8288160465625602,
+          "minimum_absolute": 0.0055213391231093405,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5993985284580342,
+          "minimum_xi": 0.7424467013366504,
+          "maximum": 0.5993985284580342,
+          "maximum_xi": 2.399145952253143,
+          "minimum_absolute": 0.0,
+          "negative_samples": 510,
+          "positive_samples": 513,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.1998369663091175,
+          "minimum_xi": 1.5585244804918115,
+          "maximum": 6.632954955238475,
+          "maximum_xi": 2.073942025221387,
+          "minimum_absolute": 0.019290669616167395,
+          "negative_samples": 556,
+          "positive_samples": 468,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.629296914373976,
+      "actual_a": 0.8199693806577286,
+      "actual_a_s": -0.9945483301280066,
+      "actual_a_ss": -0.5160042011290488,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.6879594762325076,
+        "retained_maximum": 0.560606716024834,
+        "omitted_maximum": 0.17120450199893478,
+        "full_rms": 0.2414423107108354,
+        "retained_rms": 0.22672366377869022,
+        "omitted_rms": 0.083010660063362,
+        "retained_energy_fraction": 0.8817936038971358,
+        "omitted_energy_fraction": 0.11820639610286439,
+        "discrete_orthogonality_error": 1.214306433183765e-17,
+        "D2_reflection_error": 8.493206138382448e-15,
+        "D2_half_period_error": 1.0436096431476471e-14,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.13027301135940633,
+            "sine": 1.9450851374628193e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.1087407237604755,
+            "sine": 4.367035949089285e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.08530883201833858,
+            "sine": -2.7342952399618956e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.0661283126406258,
+            "sine": 2.131411069424175e-16
+          },
+          {
+            "frequency": 16,
+            "cosine": -0.0578212134858836,
+            "sine": -8.348356728138384e-17
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.05479387068172968,
+            "sine": 5.149333928840683e-17
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.03247985211737388,
+            "sine": -1.102633609417758e-16
+          },
+          {
+            "frequency": 14,
+            "cosine": -0.031519000225216046,
+            "sine": -1.0927453881830618e-16
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-616816481239914179/2305843009213693952",
+            "display": -0.26750150759407176,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "350661050760568787085/53034389211914960896",
+            "display": 6.611956052881016,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-234970218212830669/2305843009213693952",
+              "display": -0.10190208842229762,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "88703799236858725/2305843009213693952",
+              "display": 0.0384691407361281,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "42198577317699259/2305843009213693952",
+              "display": 0.018300715681458826,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "8539564940851019/2305843009213693952",
+              "display": 0.003703445944380689,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-132007242742708469/2305843009213693952",
+              "display": -0.05724901574618634,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-234970218212830669/2305843009213693952",
+            "display": -0.10190208842229762,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-132007242742708469/2305843009213693952",
+            "display": -0.05724901574618634,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-4690482477597089741/288230376151711744",
+            "display": -16.27338013509106,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "31255674461725226257/1657324662872342528",
+            "display": 18.859113824780348,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-1686274332125511013/288230376151711744",
+              "display": -5.85043934175047,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "390938992919786367/288230376151711744",
+              "display": 1.3563420973853684,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "95078140493830899/72057594037927936",
+              "display": 1.3194742589349564,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "1820816696177125853/288230376151711744",
+              "display": 6.317226936617979,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-2075210913354775731/288230376151711744",
+              "display": -7.199834177999603,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-1686274332125511013/288230376151711744",
+            "display": -5.85043934175047,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.058662561858531734,
+        0.6126246682221628
+      ],
+      "sampled_indefinite_points": 44,
+      "peak": {
+        "xi": 2.6691265709210157,
+        "signed_G": -0.6879594762325076,
+        "n": 0.009794057276351614,
+        "m": 0.2356686674061759,
+        "l": -0.3188506023003575,
+        "n_times_l": -0.0031228410615289108,
+        "m_squared": 0.055539720797002756,
+        "K": 0.629296914373976,
+        "retained_G": -0.557271404074798,
+        "omitted_G": -0.1306880721577096
+      }
+    },
+    {
+      "label": "cell117_fraction1",
+      "physical_s": 1.4690981783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.11408123860598886,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.642674992834497,
+          "maximum_xi": 5.595961914206819,
+          "minimum_absolute": 0.00556191604090734,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5986737310302974,
+          "minimum_xi": 3.8840393549264434,
+          "maximum": 0.5986737310302968,
+          "maximum_xi": 2.399145952253143,
+          "minimum_absolute": 0.0,
+          "negative_samples": 510,
+          "positive_samples": 513,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.214814956673906,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 6.466810690210017,
+          "maximum_xi": 2.073942025221387,
+          "minimum_absolute": 0.011989380371040876,
+          "negative_samples": 556,
+          "positive_samples": 468,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6346948374549326,
+      "actual_a": 0.819845058073685,
+      "actual_a_s": -0.9946131051373207,
+      "actual_a_ss": -0.5203514258723073,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.6918976318404764,
+        "retained_maximum": 0.5664862660200641,
+        "omitted_maximum": 0.1672429496861208,
+        "full_rms": 0.24834394474255392,
+        "retained_rms": 0.23468889152234645,
+        "omitted_rms": 0.08121477135536974,
+        "retained_energy_fraction": 0.8930544049042188,
+        "omitted_energy_fraction": 0.10694559509578112,
+        "discrete_orthogonality_error": 8.673617379884035e-19,
+        "D2_reflection_error": 7.494005416219807e-15,
+        "D2_half_period_error": 8.659739592076221e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.13106965329132023,
+            "sine": 1.5253128770268393e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.10584202241432636,
+            "sine": 4.4358057351660963e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.08368363396006807,
+            "sine": -2.684700641989391e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.0660812723533912,
+            "sine": 1.9844246231763708e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.05418038543940097,
+            "sine": 6.192955034045051e-17
+          },
+          {
+            "frequency": 16,
+            "cosine": -0.05105255339886302,
+            "sine": -5.5185890579512176e-17
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.04110645024226698,
+            "sine": -1.1568437180420332e-16
+          },
+          {
+            "frequency": 14,
+            "cosine": -0.03206662691476103,
+            "sine": -1.0823684156684311e-16
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-344032069344510333573470896271/1298074214633563944866052833280",
+            "display": -0.26503266567206857,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "197348565887804992320204480302123/29855706936571970731919215165440",
+            "display": 6.610078478699876,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-87633179307541876084162234161/865382809755709296577368555520",
+              "display": -0.10126521849016162,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "398538707466774353788230379423/10384593717068511558928422666240",
+              "display": 0.03837788153538651,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "47065086644287757918938936877/2596148429267127889732105666560",
+              "display": 0.01812881194068471,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "10625262540193271598970509577/3461531239022837186309474222080",
+              "display": 0.003069526693970469,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-29297010312877527894825943291/519229685853425577946421133312",
+              "display": -0.05642398944259871,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-87633179307541876084162234161/865382809755709296577368555520",
+            "display": -0.10126521849016162,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-29297010312877527894825943291/519229685853425577946421133312",
+            "display": -0.05642398944259871,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-5235217053655247011175568498733/324518553658390986216513208320",
+            "display": -16.13225806240395,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "278364151419378077796088461751043/14927853468285985365959607582720",
+            "display": 18.647299292611546,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-1878892860920036235621924013691/324518553658390986216513208320",
+              "display": -5.789785637026718,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "787262890450425591748913991407/649037107316781972433026416640",
+              "display": 1.2129705398587918,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "435291211157373345395290762613/324518553658390986216513208320",
+              "display": 1.3413446049546638,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "797314517923695791434418287135/129807421463356394486605283328",
+              "display": 6.1422876206563535,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-2341341314652743051189149915583/324518553658390986216513208320",
+              "display": -7.214814956673907,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-1878892860920036235621924013691/324518553658390986216513208320",
+            "display": -5.789785637026718,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.05720279438554372,
+        0.6203205419662847
+      ],
+      "sampled_indefinite_points": 44,
+      "peak": {
+        "xi": 5.8045833013592665,
+        "signed_G": -0.6918976318404764,
+        "n": 0.03199007016095885,
+        "m": 0.22428096668563383,
+        "l": -0.21571826299159605,
+        "n_times_l": -0.0069008423681013314,
+        "m_squared": 0.05030195201744239,
+        "K": 0.6346948374549326,
+        "retained_G": -0.5615957708566273,
+        "omitted_G": -0.1303018609838491
+      }
+    },
+    {
+      "label": "cell117_fraction2",
+      "physical_s": 1.4692231783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.1129788418766057,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.6424620251255782,
+          "maximum_xi": 0.6872233929727672,
+          "minimum_absolute": 0.005602707451694566,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5979486435491554,
+          "minimum_xi": 3.8840393549264434,
+          "maximum": 0.5979486435491547,
+          "maximum_xi": 2.399145952253143,
+          "minimum_absolute": 0.0,
+          "negative_samples": 510,
+          "positive_samples": 513,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.229795735348212,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 6.300666482028357,
+          "maximum_xi": 2.073942025221387,
+          "minimum_absolute": 0.004210258213413396,
+          "negative_samples": 556,
+          "positive_samples": 468,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6397693226089249,
+      "actual_a": 0.8197207273594974,
+      "actual_a_s": -0.9946784068811441,
+      "actual_a_ss": -0.5244321744712809,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.7001219662122445,
+        "retained_maximum": 0.5747262283763674,
+        "omitted_maximum": 0.16334458909449462,
+        "full_rms": 0.2557314238040251,
+        "retained_rms": 0.2430482466164821,
+        "omitted_rms": 0.07953685270041544,
+        "retained_energy_fraction": 0.9032683467484992,
+        "omitted_energy_fraction": 0.09673165325150074,
+        "discrete_orthogonality_error": 1.734723475976807e-18,
+        "D2_reflection_error": 8.049116928532385e-15,
+        "D2_half_period_error": 7.771561172376096e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.13193552863144867,
+            "sine": 1.7361742416092435e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.10297147766600764,
+            "sine": 4.310394364559931e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.08211222171039931,
+            "sine": -2.384241442503652e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.06608325746028694,
+            "sine": 2.2092105542830232e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.053610927233116,
+            "sine": 7.270384218595583e-17
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.04968430577932295,
+            "sine": -1.3712446976510417e-16
+          },
+          {
+            "frequency": 16,
+            "cosine": -0.044341339510098034,
+            "sine": -5.084908188957016e-17
+          },
+          {
+            "frequency": 14,
+            "cosine": -0.032623744719349104,
+            "sine": -1.067545666655787e-16
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-1363309317222206622530177430553/5192296858534255779464211333120",
+            "display": -0.26256382375006543,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "789170038333204816259006408158759/119422827746287882927676860661760",
+            "display": 6.608200904518736,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-174164086032442206293097634889/1730765619511418593154737111040",
+              "display": -0.10062834855802563,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "99397754436032115824281863899/2596148429267127889732105666560",
+              "display": 0.03828662233464491,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "93237598035383773206693188093/5192296858534255779464211333120",
+              "display": 0.01795690819991059,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "1053866406485044347280761143/432691404877854648288684277760",
+              "display": 0.0024356074435602495,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-57737264328889811802009453511/1038459371706851155892842266624",
+              "display": -0.05559896313901107,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-174164086032442206293097634889/1730765619511418593154737111040",
+            "display": -0.10062834855802563,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-57737264328889811802009453511/1038459371706851155892842266624",
+            "display": -0.05559896313901107,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-10378840645475104179420249089347/649037107316781972433026416640",
+            "display": -15.991135989716842,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "137601107560354323497734321896953/7463926734142992682979803791360",
+            "display": 18.435484760442744,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-3718419216778121433378880441859/649037107316781972433026416640",
+              "display": -5.729131932302964,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "694209429481874708137224950419/649037107316781972433026416640",
+              "display": 1.0695989823322152,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "110597136053924336567597354899/81129638414597746554128302080",
+              "display": 1.3632149509743714,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "774606096406153733359997234609/129807421463356394486605283328",
+              "display": 5.9673483046947275,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-4692405710561609535385839983597/649037107316781972433026416640",
+              "display": -7.229795735348211,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-3718419216778121433378880441859/649037107316781972433026416640",
+            "display": -5.729131932302964,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.06035264360331961,
+        0.6280116317907087
+      ],
+      "sampled_indefinite_points": 40,
+      "peak": {
+        "xi": 3.6201946594101133,
+        "signed_G": -0.7001219662122445,
+        "n": 0.03209894161221516,
+        "m": -0.21707879404232996,
+        "l": -0.4121457006362121,
+        "n_times_l": -0.01322944078044728,
+        "m_squared": 0.04712320282287231,
+        "K": 0.6397693226089249,
+        "retained_G": -0.5732681053111999,
+        "omitted_G": -0.12685386090104467
+      }
+    },
+    {
+      "label": "cell117_fraction3",
+      "physical_s": 1.4693481783581288,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.11187644514722056,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.6422485428365612,
+          "maximum_xi": 5.595961914206819,
+          "minimum_absolute": 0.00564371319706324,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5972232655438736,
+          "minimum_xi": 0.7424467013366504,
+          "maximum": 0.5972232655438736,
+          "maximum_xi": 2.399145952253143,
+          "minimum_absolute": 0.0,
+          "negative_samples": 510,
+          "positive_samples": 513,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.244776514022543,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 6.134522330794209,
+          "maximum_xi": 4.2092432819582,
+          "minimum_absolute": 0.0204113372443963,
+          "negative_samples": 560,
+          "positive_samples": 464,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6445219110161523,
+      "actual_a": 0.819596388451402,
+      "actual_a_s": -0.9947442021352617,
+      "actual_a_ss": -0.5282478305466344,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.7081713899182522,
+        "retained_maximum": 0.584811090691466,
+        "omitted_maximum": 0.15950941464718116,
+        "full_rms": 0.2635190132641844,
+        "retained_rms": 0.2517171690852776,
+        "omitted_rms": 0.0779790814220276,
+        "retained_energy_fraction": 0.9124346437893825,
+        "omitted_energy_fraction": 0.08756535621061781,
+        "discrete_orthogonality_error": 2.6020852139652106e-17,
+        "D2_reflection_error": 8.215650382226158e-15,
+        "D2_half_period_error": 9.048317650695026e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.1328706602719052,
+            "sine": 1.513200633445409e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.10012910555217905,
+            "sine": 4.158715028220032e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.08059462133078145,
+            "sine": -2.606476330399691e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.06613428369395347,
+            "sine": 2.029341961458501e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.058213438768842815,
+            "sine": -1.2527956103070004e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.05308550674526627,
+            "sine": 4.9932940817411315e-17
+          },
+          {
+            "frequency": 16,
+            "cosine": -0.037687581656514244,
+            "sine": -4.4885969940899884e-17
+          },
+          {
+            "frequency": 10,
+            "cosine": -0.03502391190604513,
+            "sine": -2.5036948431712917e-17
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-1350490357066349139718924447111/5192296858534255779464211333120",
+            "display": -0.26009498182805785,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "788945813115189264933195307658953/119422827746287882927676860661760",
+            "display": 6.606323330337593,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-173061813449798702388429741683/1730765619511418593154737111040",
+              "display": -0.09999147862588852,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "198321664010740444685452039741/5192296858534255779464211333120",
+              "display": 0.03819536313390315,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "92345022782190445043352814991/5192296858534255779464211333120",
+              "display": 0.017785004459136167,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "3118299981781770021064880969/1730765619511418593154737111040",
+              "display": 0.0018016881931489032,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-56880508032023045909459383789/1038459371706851155892842266624",
+              "display": -0.05477393683542196,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-173061813449798702388429741683/1730765619511418593154737111040",
+            "display": -0.09999147862588852,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-56880508032023045909459383789/1038459371706851155892842266624",
+            "display": -0.05477393683542196,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-10287247183639551633816985450489/649037107316781972433026416640",
+            "display": -15.850013917029482,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "68010069705508399866919733341843/3731963367071496341489901895680",
+            "display": 18.223670228273566,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-3679052711716100466553402736273/649037107316781972433026416640",
+              "display": -5.6684782275791035,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "601155968513158528373714468203/649037107316781972433026416640",
+              "display": 0.9262274248053839,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "224742938637016977270803869451/162259276829195493108256604160",
+              "display": 1.3850852969941176,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "751897674888571337025701490077/129807421463356394486605283328",
+              "display": 5.792408988732791,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-4702128791817750240055269504839/649037107316781972433026416640",
+              "display": -7.244776514022542,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-3679052711716100466553402736273/649037107316781972433026416640",
+            "display": -5.6684782275791035,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.06364947890209993,
+        0.636453639669984
+      ],
+      "sampled_indefinite_points": 40,
+      "peak": {
+        "xi": 2.662990647769473,
+        "signed_G": -0.7081713899182522,
+        "n": 0.03220839130388321,
+        "m": 0.20987692141051262,
+        "l": -0.6085729826246298,
+        "n_times_l": -0.019601156761345395,
+        "m_squared": 0.04404832214075449,
+        "K": 0.6445219110161523,
+        "retained_G": -0.5848110906914658,
+        "omitted_G": -0.12336029922678649
+      }
+    },
+    {
+      "label": "peak_node",
+      "physical_s": 1.4694731783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.11077404841783739,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.64203454577591,
+          "maximum_xi": 3.8288160465625602,
+          "minimum_absolute": 0.005684933109457974,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5964975965391542,
+          "minimum_xi": 0.7424467013366504,
+          "maximum": 0.5964975965391542,
+          "maximum_xi": 2.399145952253143,
+          "minimum_absolute": 0.0,
+          "negative_samples": 511,
+          "positive_samples": 512,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.259757292696845,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 5.968378236607957,
+          "maximum_xi": 2.073942025221387,
+          "minimum_absolute": 0.005984555970114845,
+          "negative_samples": 560,
+          "positive_samples": 464,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6489542809756621,
+      "actual_a": 0.8194720412897777,
+      "actual_a_s": -0.9948104578554082,
+      "actual_a_ss": -0.5317998893348658,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.7197145212010442,
+        "retained_maximum": 0.5969126117978202,
+        "omitted_maximum": 0.1557374208578377,
+        "full_rms": 0.27163027588068744,
+        "retained_rms": 0.26062256841365683,
+        "omitted_rms": 0.07654334463875437,
+        "retained_energy_fraction": 0.9205930489339877,
+        "omitted_energy_fraction": 0.07940695106601217,
+        "discrete_orthogonality_error": 3.469446951953614e-18,
+        "D2_reflection_error": 7.549516567451064e-15,
+        "D2_half_period_error": 8.326672684688674e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.13387507106615015,
+            "sine": 1.4384864313400685e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.0973149220979253,
+            "sine": 4.0832859253562706e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.07913085889744036,
+            "sine": -2.5500885281902066e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.06669386926558886,
+            "sine": -1.308089921103761e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.06623436680338365,
+            "sine": 2.001617754184102e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.052604134687018286,
+            "sine": 3.3994239957850594e-17
+          },
+          {
+            "frequency": 10,
+            "cosine": -0.03749774164030211,
+            "sine": -1.830041351112292e-17
+          },
+          {
+            "frequency": 36,
+            "cosine": -0.03478475782455308,
+            "sine": -1.2175590397012215e-16
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-148511358423271317/576460752303423488",
+            "display": -0.2576261399060547,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "87565686690245334253/13258597302978740224",
+            "display": 6.604445756156453,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-114548064944825675/1152921504606846976",
+              "display": -0.09935460869375252,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "175724163353265163/4611686018427387904",
+              "display": 0.03810410393316155,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "20306522581005909/1152921504606846976",
+              "display": 0.017613100718362047,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "5385383705981719/4611686018427387904",
+              "display": 0.0011677689427386834,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-62198859102262607/1152921504606846976",
+              "display": -0.05394891053183433,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-114548064944825675/1152921504606846976",
+            "display": -0.09935460869375252,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-62198859102262607/1152921504606846976",
+            "display": -0.05394891053183433,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-2263889902610679501/144115188075855872",
+            "display": -15.708891844342373,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "119405970677008435631/6629298651489370112",
+            "display": 18.011855696104764,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-808172685807695475/144115188075855872",
+              "display": -5.60782452285535,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "225642841098345139/288230376151711744",
+              "display": 0.7828558672788073,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "202763677107324121/144115188075855872",
+              "display": 1.406955643013825,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "1619125396803665823/288230376151711744",
+              "display": 5.617469672771165,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-1046241287622072271/144115188075855872",
+              "display": -7.259757292696847,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-808172685807695475/144115188075855872",
+            "display": -5.60782452285535,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.0707602402253821,
+        0.6450815812168016
+      ],
+      "sampled_indefinite_points": 44,
+      "peak": {
+        "xi": 3.6263305825616556,
+        "signed_G": -0.7197145212010442,
+        "n": 0.05672268892392254,
+        "m": -0.20358827384951197,
+        "l": -0.5167606742986401,
+        "n_times_l": -0.02931205497635822,
+        "m_squared": 0.04144818524902388,
+        "K": 0.6489542809756621,
+        "retained_G": -0.5969126117978198,
+        "omitted_G": -0.12280190940322433
+      },
+      "original_256_grid_peak_reproduction_error": 0.0,
+      "original_256_grid_maximum": 0.7127287941726228
+    },
+    {
+      "label": "cell118_fraction1",
+      "physical_s": 1.4710981783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.09408655592446716,
+          "minimum_xi": 5.902758071783947,
+          "maximum": 0.6402996431290277,
+          "maximum_xi": 5.595961914206819,
+          "minimum_absolute": 0.00423262095426946,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5865888976211469,
+          "minimum_xi": 0.7485826244881929,
+          "maximum": 0.5865888976211472,
+          "maximum_xi": 5.534602682691394,
+          "minimum_absolute": 0.0,
+          "negative_samples": 511,
+          "positive_samples": 512,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.1880241522504935,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 5.099586721110503,
+          "maximum_xi": 1.0737865515199487,
+          "minimum_absolute": 0.052843748201515356,
+          "negative_samples": 568,
+          "positive_samples": 456,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.678433709573799,
+      "actual_a": 0.8178547573628684,
+      "actual_a_s": -0.9956990594112165,
+      "actual_a_ss": -0.5548602369302701,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.7375973549322911,
+        "retained_maximum": 0.6412765110827907,
+        "omitted_maximum": 0.12479173571927504,
+        "full_rms": 0.34376307775713194,
+        "retained_rms": 0.3383375273557128,
+        "omitted_rms": 0.060833964295270535,
+        "retained_energy_fraction": 0.9686834595685839,
+        "omitted_energy_fraction": 0.03131654043141624,
+        "discrete_orthogonality_error": 2.1250362580715887e-17,
+        "D2_reflection_error": 5.995204332975845e-15,
+        "D2_half_period_error": 7.105427357601002e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.13592688721260832,
+            "sine": 1.4636993728792553e-16
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.0758815393883145,
+            "sine": 3.2353016806865963e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.07169372249764433,
+            "sine": -1.4287074127927735e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.0600290396674361,
+            "sine": -1.7255501555005313e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.05760576815502911,
+            "sine": 4.6353882672740405e-17
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.05074944048666512,
+            "sine": 1.7016977077058502e-16
+          },
+          {
+            "frequency": 2,
+            "cosine": 0.039809400363261804,
+            "sine": 4.280312055785038e-17
+          },
+          {
+            "frequency": 10,
+            "cosine": -0.030623143345793413,
+            "sine": -1.794778575362019e-17
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-16222202225901949973/73786976294838206464",
+            "display": -0.219851836197776,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "11159330243795406581475/1697100454781278748672",
+            "display": 6.5755272248946595,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-6741740034922249603/73786976294838206464",
+              "display": -0.09136761490244004,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "2585072709867572149/73786976294838206464",
+              "display": 0.03503426810089265,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "1128550218533111229/73786976294838206464",
+              "display": 0.015294707483657374,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "-398237571610679011/73786976294838206464",
+              "display": -0.005397125503820623,
+              "sign": -1
+            },
+            "pi_over_2": {
+              "exact_rational": "-3182295512986074035/73786976294838206464",
+              "display": -0.04312814635837968,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-6741740034922249603/73786976294838206464",
+            "display": -0.09136761490244004,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-3182295512986074035/73786976294838206464",
+            "display": -0.04312814635837968,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-4258496683072068669/288230376151711744",
+            "display": -14.774628336988965,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "27979033004287169381/1657324662872342528",
+            "display": 16.88204709136238,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-1633374308116639027/288230376151711744",
+              "display": -5.666905514694617,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "532005358619566717/1152921504606846976",
+              "display": 0.4614410924714113,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "11862446201895859/9007199254740992",
+              "display": 1.3169960901722022,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "5447523785125876925/1152921504606846976",
+              "display": 4.724973697999947,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-2071806905190748139/288230376151711744",
+              "display": -7.188024152250492,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-1633374308116639027/288230376151711744",
+            "display": -5.666905514694617,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.05916364535849207,
+        0.5982780687292419
+      ],
+      "sampled_indefinite_points": 32,
+      "peak": {
+        "xi": 0.4908738521234052,
+        "signed_G": -0.7375973549322911,
+        "n": 0.08066277532948281,
+        "m": -0.1379687412141862,
+        "l": -0.49748191334048736,
+        "n_times_l": -0.040128271806264965,
+        "m_squared": 0.01903537355222708,
+        "K": 0.678433709573799,
+        "retained_G": -0.6412765110827906,
+        "omitted_G": -0.09632084384950046
+      }
+    },
+    {
+      "label": "cell118_fraction2",
+      "physical_s": 1.4727231783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.08338062111112757,
+          "minimum_xi": 0.0,
+          "maximum": 0.638477360731279,
+          "maximum_xi": 5.595961914206819,
+          "minimum_absolute": 0.0003122252732512352,
+          "negative_samples": 544,
+          "positive_samples": 480,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5768229974146049,
+          "minimum_xi": 0.7485826244881929,
+          "maximum": 0.5768229974146057,
+          "maximum_xi": 2.3930100291016,
+          "minimum_absolute": 0.0,
+          "negative_samples": 511,
+          "positive_samples": 512,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.116291011804137,
+          "minimum_xi": 1.5707963267948966,
+          "maximum": 4.2355980064561916,
+          "maximum_xi": 1.0799224746714913,
+          "minimum_absolute": 0.006854775696297562,
+          "negative_samples": 572,
+          "positive_samples": 452,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6602148745502271,
+      "actual_a": 0.8162360168721527,
+      "actual_a_s": -0.9965925708404422,
+      "actual_a_ss": -0.5388911594826253,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.723345388295245,
+        "retained_maximum": 0.656337200008917,
+        "omitted_maximum": 0.10111924930634086,
+        "full_rms": 0.38324653853638035,
+        "retained_rms": 0.38025951902841293,
+        "omitted_rms": 0.047755706343822237,
+        "retained_energy_fraction": 0.9844727672169041,
+        "omitted_energy_fraction": 0.015527232783096008,
+        "discrete_orthogonality_error": 1.5178830414797062e-17,
+        "D2_reflection_error": 5.88418203051333e-15,
+        "D2_half_period_error": 6.439293542825908e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.14010774410824173,
+            "sine": 1.5784068675465758e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.07580443181543456,
+            "sine": -1.368534192219828e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.06218092274504498,
+            "sine": 2.7239507889985532e-17
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.05804150589410756,
+            "sine": 2.27057968279064e-16
+          },
+          {
+            "frequency": 2,
+            "cosine": 0.05330206162634186,
+            "sine": 5.900663154381081e-17
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.04619615900300171,
+            "sine": -1.4704384794963377e-16
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.040456004105040744,
+            "sine": 1.2893767166912585e-16
+          },
+          {
+            "frequency": 36,
+            "cosine": -0.025446954990461707,
+            "sine": -8.838958211188075e-17
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-6897271351975748853/36893488147419103232",
+            "display": -0.18695091460085347,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "5559261605118457942147/848550227390639374336",
+            "display": 6.5514820757442225,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-3076201956687828003/36893488147419103232",
+              "display": -0.08338062111112757,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "1179279403041450845/36893488147419103232",
+              "display": 0.03196443226862374,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "478741495940922141/36893488147419103232",
+              "display": 0.012976314248952701,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "-441320641258532763/36893488147419103232",
+              "display": -0.011962019950379928,
+              "sign": -1
+            },
+            "pi_over_2": {
+              "exact_rational": "-1191932021713670611/36893488147419103232",
+              "display": -0.03230738218492503,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-3076201956687828003/36893488147419103232",
+            "display": -0.08338062111112757,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-1191932021713670611/36893488147419103232",
+            "display": -0.03230738218492503,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-504253795583853165/36028797018963968",
+            "display": -13.995854352795522,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "105457079843494000049/6629298651489370112",
+            "display": 15.907728009779964,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-12893775348577243/2251799813685248",
+              "display": -5.725986506533884,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "80719676422876439/576460752303423488",
+              "display": 0.14002631766401533,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "176834601353343367/144115188075855872",
+              "display": 1.2270365373305792,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "2209272991518545279/576460752303423488",
+              "display": 3.8324777232287297,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-256391404392168967/36028797018963968",
+              "display": -7.116291011804137,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-12893775348577243/2251799813685248",
+            "display": -5.725986506533884,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.06313051374501791,
+        0.5529009996114673
+      ],
+      "sampled_indefinite_points": 52,
+      "peak": {
+        "xi": 0.4970097752749477,
+        "signed_G": -0.723345388295245,
+        "n": 0.1039038067951988,
+        "m": -0.08405508324821151,
+        "l": -0.5395880907006846,
+        "n_times_l": -0.05606525672515414,
+        "m_squared": 0.007065257019863767,
+        "K": 0.6602148745502271,
+        "retained_G": -0.6544217404681505,
+        "omitted_G": -0.06892364782709448
+      }
+    },
+    {
+      "label": "cell118_fraction3",
+      "physical_s": 1.4743481783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.0753936273198151,
+          "minimum_xi": 0.0,
+          "maximum": 0.636567451671935,
+          "maximum_xi": 3.8288160465625602,
+          "minimum_absolute": 0.0030063817946256325,
+          "negative_samples": 540,
+          "positive_samples": 484,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5670090363425607,
+          "minimum_xi": 0.7485826244881929,
+          "maximum": 0.5670090363425617,
+          "maximum_xi": 2.3930100291016,
+          "minimum_absolute": 0.0,
+          "negative_samples": 511,
+          "positive_samples": 512,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.0586679279376785,
+          "minimum_xi": 0.25770877236478773,
+          "maximum": 3.3861760466797457,
+          "maximum_xi": 4.227651051412827,
+          "minimum_absolute": 0.02644481250297806,
+          "negative_samples": 584,
+          "positive_samples": 440,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.6029865277845499,
+      "actual_a": 0.8146158603690876,
+      "actual_a_s": -0.9974332460622383,
+      "actual_a_ss": -0.49120238912217984,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.6849389360000969,
+        "retained_maximum": 0.6484564607751678,
+        "omitted_maximum": 0.08447068802003099,
+        "full_rms": 0.3906107814359589,
+        "retained_rms": 0.3888261318848998,
+        "omitted_rms": 0.03729640381373198,
+        "retained_energy_fraction": 0.9908831362546117,
+        "omitted_energy_fraction": 0.009116863745388117,
+        "discrete_orthogonality_error": 3.122502256758253e-17,
+        "D2_reflection_error": 5.9396931817445875e-15,
+        "D2_half_period_error": 6.217248937900877e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.146432392460061,
+            "sine": 1.6645266263372695e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.07903141674591235,
+            "sine": -1.5086673230135794e-16
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.0663182093424044,
+            "sine": 5.396828303495853e-17
+          },
+          {
+            "frequency": 2,
+            "cosine": 0.06462167319420431,
+            "sine": 2.4288248563167845e-17
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.04379879551692414,
+            "sine": 2.0572948212861702e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.037641328374496,
+            "sine": -8.616908755777802e-17
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.03536070258373453,
+            "sine": 1.2090421465878236e-16
+          },
+          {
+            "frequency": 4,
+            "cosine": -0.0346172636649706,
+            "sine": -1.6290137641594704e-17
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-11623513759405397343/73786976294838206464",
+            "display": -0.15752798587328107,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "11083618679958725280905/1697100454781278748672",
+            "display": 6.530914919463135,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-5563067791829062409/73786976294838206464",
+              "display": -0.0753936273198151,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "2132044902298231231/73786976294838206464",
+              "display": 0.028894596436354843,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "786415765230577335/73786976294838206464",
+              "display": 0.010657921014248029,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "-1367044993423452041/73786976294838206464",
+              "display": -0.018526914396939237,
+              "sign": -1
+            },
+            "pi_over_2": {
+              "exact_rational": "-1585432573868608409/73786976294838206464",
+              "display": -0.02148661801147038,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-5563067791829062409/73786976294838206464",
+            "display": -0.0753936273198151,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-1585432573868608409/73786976294838206464",
+            "display": -0.02148661801147038,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-3827677323557661381/288230376151711744",
+            "display": -13.279923423279095,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "24853658261866287251/1657324662872342528",
+            "display": 14.996251982874565,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-1667432181119135181/288230376151711744",
+              "display": -5.7850674983731505,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "-209126652928060961/1152921504606846976",
+              "display": -0.18138845714338062,
+              "sign": -1
+            },
+            "pi_over_4": {
+              "exact_rational": "81935031738176495/72057594037927936",
+              "display": 1.1370769844889563,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "3389568180948304191/1152921504606846976",
+              "display": 2.939981748457513,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-2030455565083955333/288230376151711744",
+              "display": -7.0445578713577826,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-1667432181119135181/288230376151711744",
+            "display": -5.7850674983731505,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.08195240821554704,
+        0.5106394698410568
+      ],
+      "sampled_indefinite_points": 80,
+      "peak": {
+        "xi": 0.5031456984264903,
+        "signed_G": -0.6849389360000969,
+        "n": 0.1264448028550843,
+        "m": -0.04236194807882558,
+        "l": -0.6339356917846688,
+        "n_times_l": -0.08015787357051393,
+        "m_squared": 0.0017945346450331144,
+        "K": 0.6029865277845499,
+        "retained_G": -0.6433905402519233,
+        "omitted_G": -0.041548395748173594
+      }
+    },
+    {
+      "label": "right_node",
+      "physical_s": 1.4759731783581287,
+      "sampled_field": {
+        "n": {
+          "minimum": -0.06740663352850262,
+          "minimum_xi": 0.0,
+          "maximum": 0.6345697951158558,
+          "maximum_xi": 5.595961914206819,
+          "minimum_absolute": 0.0015238484880319156,
+          "negative_samples": 540,
+          "positive_samples": 484,
+          "near_zero_1e_minus8": 0
+        },
+        "m": {
+          "minimum": -0.5574833881072835,
+          "minimum_xi": 0.7547185476397354,
+          "maximum": 0.557483388107285,
+          "maximum_xi": 5.5284667595398505,
+          "minimum_absolute": 0.0,
+          "negative_samples": 511,
+          "positive_samples": 512,
+          "near_zero_1e_minus8": 4
+        },
+        "l": {
+          "minimum": -7.187934924580274,
+          "minimum_xi": 6.043884304269426,
+          "maximum": 2.561162152194225,
+          "maximum_xi": 5.190990986205009,
+          "minimum_absolute": 0.0013369359335232145,
+          "negative_samples": 596,
+          "positive_samples": 428,
+          "near_zero_1e_minus8": 0
+        }
+      },
+      "actual_K": 0.5174206211525252,
+      "actual_a": 0.8129944118223754,
+      "actual_a_s": -0.9981765853388839,
+      "actual_a_ss": -0.42066007355866536,
+      "base_piece_index": 60,
+      "base_piece": {
+        "kind": "phase_bridge",
+        "label": "cut_second_jet_brake",
+        "s0": 1.4629731783581288,
+        "s1": 1.4889731783581288,
+        "p0": -1.45,
+        "p1": -1.5707963267948966,
+        "ps0": 0.0,
+        "ps1": 0.0,
+        "L": 0.026
+      },
+      "actual_bump_value_first_second_basis_maxima": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coast_window": 0.0,
+      "material_chart_exact": true,
+      "gauss_spectrum": {
+        "full_maximum": 0.6431092749493975,
+        "retained_maximum": 0.6235475729766864,
+        "omitted_maximum": 0.07485006022857466,
+        "full_rms": 0.37462308393007737,
+        "retained_rms": 0.3734397974032613,
+        "omitted_rms": 0.029751852525398102,
+        "retained_energy_fraction": 0.9936927658233625,
+        "omitted_energy_fraction": 0.006307234176637896,
+        "discrete_orthogonality_error": 5.2909066017292616e-17,
+        "D2_reflection_error": 5.662137425588298e-15,
+        "D2_half_period_error": 6.994405055138486e-15,
+        "top_nonconstant_frequencies": [
+          {
+            "frequency": 8,
+            "cosine": 0.15491498039763602,
+            "sine": 1.5251587732748028e-16
+          },
+          {
+            "frequency": 12,
+            "cosine": -0.08138036540701676,
+            "sine": -1.310258325448732e-16
+          },
+          {
+            "frequency": 2,
+            "cosine": 0.07377619939332966,
+            "sine": 5.0671565291383557e-17
+          },
+          {
+            "frequency": 6,
+            "cosine": 0.07000716031985468,
+            "sine": 3.0966190806459513e-17
+          },
+          {
+            "frequency": 4,
+            "cosine": -0.04446679619247132,
+            "sine": -1.2278589603398338e-17
+          },
+          {
+            "frequency": 18,
+            "cosine": 0.03547012275981974,
+            "sine": 1.182986758001669e-16
+          },
+          {
+            "frequency": 26,
+            "cosine": -0.034373752058696555,
+            "sine": -8.018896943730141e-17
+          },
+          {
+            "frequency": 34,
+            "cosine": 0.0331576937036894,
+            "sine": 1.6260188707335582e-16
+          }
+        ],
+        "angular_truncation_applied_to_actual_field": false,
+        "continuous_Fourier_or_alias_certificate": false
+      },
+      "exact_angle_facts": {
+        "n": {
+          "all_angle_lower": {
+            "exact_rational": "-2363121203714824245/18446744073709551616",
+            "display": -0.12810505714570863,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "2762178537420133669379/424275113695319687168",
+            "display": 6.510347763182048,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-1243432917570617203/18446744073709551616",
+              "display": -0.06740663352850261,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "476382749628390193/18446744073709551616",
+              "display": 0.02582476060408594,
+              "sign": 1
+            },
+            "pi_over_4": {
+              "exact_rational": "153837134644827597/18446744073709551616",
+              "display": 0.008339527779543356,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "-462862176082459639/18446744073709551616",
+              "display": -0.025091808843498542,
+              "sign": -1
+            },
+            "pi_over_2": {
+              "exact_rational": "-196750276077468899/18446744073709551616",
+              "display": -0.010665853838015727,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-1243432917570617203/18446744073709551616",
+            "display": -0.06740663352850261,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_6",
+            "pi_over_4"
+          ],
+          "nonnegative_tail_used": true,
+          "exact_complete_value_at_pi_over_2": {
+            "exact_rational": "-196750276077468899/18446744073709551616",
+            "display": -0.010665853838015727,
+            "sign": -1
+          },
+          "both_signs_and_angular_zero_proved": true
+        },
+        "l": {
+          "all_angle_lower": {
+            "exact_rational": "-1821410087390836697/144115188075855872",
+            "display": -12.63857135191141,
+            "sign": -1
+          },
+          "all_angle_upper": {
+            "exact_rational": "93866591775191344855/6629298651489370112",
+            "display": 14.159354814117904,
+            "sign": 1
+          },
+          "correction_special_angles": {
+            "zero": {
+              "exact_rational": "-842230558810191629/144115188075855872",
+              "display": -5.844148490212417,
+              "sign": -1
+            },
+            "pi_over_6": {
+              "exact_rational": "-36230791168867175/72057594037927936",
+              "display": -0.5028032319507766,
+              "sign": -1
+            },
+            "pi_over_4": {
+              "exact_rational": "150905525599362613/144115188075855872",
+              "display": 1.0471174316473335,
+              "sign": 1
+            },
+            "pi_over_3": {
+              "exact_rational": "18442112334839983/9007199254740992",
+              "display": 2.0474857736862955,
+              "sign": 1
+            },
+            "pi_over_2": {
+              "exact_rational": "-1004889947515279465/144115188075855872",
+              "display": -6.9728247309114275,
+              "sign": -1
+            }
+          },
+          "exact_complete_value_at_zero": {
+            "exact_rational": "-842230558810191629/144115188075855872",
+            "display": -5.844148490212417,
+            "sign": -1
+          },
+          "positive_complete_value_proved_at": [
+            "pi_over_4",
+            "pi_over_3"
+          ],
+          "nonnegative_tail_used": true
+        },
+        "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+      },
+      "determinant_nl_minus_m2_sample_range": [
+        -0.12568865379687236,
+        0.47555360715014783
+      ],
+      "sampled_indefinite_points": 128,
+      "peak": {
+        "xi": 1.2087768608538851,
+        "signed_G": -0.6431092749493975,
+        "n": -0.0015238484880319737,
+        "m": -0.35470145970151656,
+        "l": -0.08168247597565939,
+        "n_times_l": 0.00012447171751421657,
+        "m_squared": 0.1258131255143866,
+        "K": 0.5174206211525252,
+        "retained_G": -0.5682592147208233,
+        "omitted_G": -0.07485006022857421
+      }
+    }
+  ],
+  "peak_node_summary": {
+    "label": "peak_node",
+    "physical_s": 1.4694731783581287,
+    "sampled_field": {
+      "n": {
+        "minimum": -0.11077404841783739,
+        "minimum_xi": 5.902758071783947,
+        "maximum": 0.64203454577591,
+        "maximum_xi": 3.8288160465625602,
+        "minimum_absolute": 0.005684933109457974,
+        "negative_samples": 544,
+        "positive_samples": 480,
+        "near_zero_1e_minus8": 0
+      },
+      "m": {
+        "minimum": -0.5964975965391542,
+        "minimum_xi": 0.7424467013366504,
+        "maximum": 0.5964975965391542,
+        "maximum_xi": 2.399145952253143,
+        "minimum_absolute": 0.0,
+        "negative_samples": 511,
+        "positive_samples": 512,
+        "near_zero_1e_minus8": 4
+      },
+      "l": {
+        "minimum": -7.259757292696845,
+        "minimum_xi": 1.5707963267948966,
+        "maximum": 5.968378236607957,
+        "maximum_xi": 2.073942025221387,
+        "minimum_absolute": 0.005984555970114845,
+        "negative_samples": 560,
+        "positive_samples": 464,
+        "near_zero_1e_minus8": 0
+      }
+    },
+    "actual_K": 0.6489542809756621,
+    "actual_a": 0.8194720412897777,
+    "actual_a_s": -0.9948104578554082,
+    "actual_a_ss": -0.5317998893348658,
+    "base_piece_index": 60,
+    "base_piece": {
+      "kind": "phase_bridge",
+      "label": "cut_second_jet_brake",
+      "s0": 1.4629731783581288,
+      "s1": 1.4889731783581288,
+      "p0": -1.45,
+      "p1": -1.5707963267948966,
+      "ps0": 0.0,
+      "ps1": 0.0,
+      "L": 0.026
+    },
+    "actual_bump_value_first_second_basis_maxima": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "coast_window": 0.0,
+    "material_chart_exact": true,
+    "gauss_spectrum": {
+      "full_maximum": 0.7197145212010442,
+      "retained_maximum": 0.5969126117978202,
+      "omitted_maximum": 0.1557374208578377,
+      "full_rms": 0.27163027588068744,
+      "retained_rms": 0.26062256841365683,
+      "omitted_rms": 0.07654334463875437,
+      "retained_energy_fraction": 0.9205930489339877,
+      "omitted_energy_fraction": 0.07940695106601217,
+      "discrete_orthogonality_error": 3.469446951953614e-18,
+      "D2_reflection_error": 7.549516567451064e-15,
+      "D2_half_period_error": 8.326672684688674e-15,
+      "top_nonconstant_frequencies": [
+        {
+          "frequency": 8,
+          "cosine": 0.13387507106615015,
+          "sine": 1.4384864313400685e-16
+        },
+        {
+          "frequency": 34,
+          "cosine": 0.0973149220979253,
+          "sine": 4.0832859253562706e-16
+        },
+        {
+          "frequency": 26,
+          "cosine": -0.07913085889744036,
+          "sine": -2.5500885281902066e-16
+        },
+        {
+          "frequency": 12,
+          "cosine": -0.06669386926558886,
+          "sine": -1.308089921103761e-16
+        },
+        {
+          "frequency": 18,
+          "cosine": 0.06623436680338365,
+          "sine": 2.001617754184102e-16
+        },
+        {
+          "frequency": 6,
+          "cosine": 0.052604134687018286,
+          "sine": 3.3994239957850594e-17
+        },
+        {
+          "frequency": 10,
+          "cosine": -0.03749774164030211,
+          "sine": -1.830041351112292e-17
+        },
+        {
+          "frequency": 36,
+          "cosine": -0.03478475782455308,
+          "sine": -1.2175590397012215e-16
+        }
+      ],
+      "angular_truncation_applied_to_actual_field": false,
+      "continuous_Fourier_or_alias_certificate": false
+    },
+    "exact_angle_facts": {
+      "n": {
+        "all_angle_lower": {
+          "exact_rational": "-148511358423271317/576460752303423488",
+          "display": -0.2576261399060547,
+          "sign": -1
+        },
+        "all_angle_upper": {
+          "exact_rational": "87565686690245334253/13258597302978740224",
+          "display": 6.604445756156453,
+          "sign": 1
+        },
+        "correction_special_angles": {
+          "zero": {
+            "exact_rational": "-114548064944825675/1152921504606846976",
+            "display": -0.09935460869375252,
+            "sign": -1
+          },
+          "pi_over_6": {
+            "exact_rational": "175724163353265163/4611686018427387904",
+            "display": 0.03810410393316155,
+            "sign": 1
+          },
+          "pi_over_4": {
+            "exact_rational": "20306522581005909/1152921504606846976",
+            "display": 0.017613100718362047,
+            "sign": 1
+          },
+          "pi_over_3": {
+            "exact_rational": "5385383705981719/4611686018427387904",
+            "display": 0.0011677689427386834,
+            "sign": 1
+          },
+          "pi_over_2": {
+            "exact_rational": "-62198859102262607/1152921504606846976",
+            "display": -0.05394891053183433,
+            "sign": -1
+          }
+        },
+        "exact_complete_value_at_zero": {
+          "exact_rational": "-114548064944825675/1152921504606846976",
+          "display": -0.09935460869375252,
+          "sign": -1
+        },
+        "positive_complete_value_proved_at": [
+          "pi_over_6",
+          "pi_over_4",
+          "pi_over_3"
+        ],
+        "nonnegative_tail_used": true,
+        "exact_complete_value_at_pi_over_2": {
+          "exact_rational": "-62198859102262607/1152921504606846976",
+          "display": -0.05394891053183433,
+          "sign": -1
+        },
+        "both_signs_and_angular_zero_proved": true
+      },
+      "l": {
+        "all_angle_lower": {
+          "exact_rational": "-2263889902610679501/144115188075855872",
+          "display": -15.708891844342373,
+          "sign": -1
+        },
+        "all_angle_upper": {
+          "exact_rational": "119405970677008435631/6629298651489370112",
+          "display": 18.011855696104764,
+          "sign": 1
+        },
+        "correction_special_angles": {
+          "zero": {
+            "exact_rational": "-808172685807695475/144115188075855872",
+            "display": -5.60782452285535,
+            "sign": -1
+          },
+          "pi_over_6": {
+            "exact_rational": "225642841098345139/288230376151711744",
+            "display": 0.7828558672788073,
+            "sign": 1
+          },
+          "pi_over_4": {
+            "exact_rational": "202763677107324121/144115188075855872",
+            "display": 1.406955643013825,
+            "sign": 1
+          },
+          "pi_over_3": {
+            "exact_rational": "1619125396803665823/288230376151711744",
+            "display": 5.617469672771165,
+            "sign": 1
+          },
+          "pi_over_2": {
+            "exact_rational": "-1046241287622072271/144115188075855872",
+            "display": -7.259757292696847,
+            "sign": -1
+          }
+        },
+        "exact_complete_value_at_zero": {
+          "exact_rational": "-808172685807695475/144115188075855872",
+          "display": -5.60782452285535,
+          "sign": -1
+        },
+        "positive_complete_value_proved_at": [
+          "pi_over_6",
+          "pi_over_4",
+          "pi_over_3"
+        ],
+        "nonnegative_tail_used": true
+      },
+      "scope": "Exact P1 binary-node Fourier coefficients at this exact binary s; nonnegative full tail and 0<=S5 weight<=1; no radial evaluation or Fourier truncation needed. Only zero-angle n/l and pi/2 n are complete exact values; the other correction values are lower bounds on the full n/l. Ranges are conservative full-circle enclosures."
+    },
+    "determinant_nl_minus_m2_sample_range": [
+      -0.0707602402253821,
+      0.6450815812168016
+    ],
+    "sampled_indefinite_points": 44,
+    "peak": {
+      "xi": 3.6263305825616556,
+      "signed_G": -0.7197145212010442,
+      "n": 0.05672268892392254,
+      "m": -0.20358827384951197,
+      "l": -0.5167606742986401,
+      "n_times_l": -0.02931205497635822,
+      "m_squared": 0.04144818524902388,
+      "K": 0.6489542809756621,
+      "retained_G": -0.5969126117978198,
+      "omitted_G": -0.12280190940322433
+    },
+    "original_256_grid_peak_reproduction_error": 0.0,
+    "original_256_grid_maximum": 0.7127287941726228
+  },
+  "original_256_peak_reproduction_error": 0.0,
+  "actual_original_input_unchanged": true,
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-definition.json",
+    "bytes": 40830,
+    "sha256": "b6e73f11520b7fa1611b12a1eb6cdc0d01503825e8a34619fab7701e13ae8e19"
+  },
+  "samples": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-samples.npz",
+    "bytes": 256229,
+    "sha256": "e1bacda26eb5b5fd6547278cae293a054e5b1024b7cc5be66381da0756c4c6e7"
+  },
+  "BVP_run": false,
+  "body_run": false,
+  "Jacobian_assembled": false,
+  "actual_field_projection_or_parameters_changed": false,
+  "continuous_residual_certificate": false,
+  "closed_surface_certificate": false,
+  "seconds": 5.154641991999597,
+  "maximum_rss_kib": 78512,
+  "passed_execution_checks": true
+}

@@ -1,0 +1,122 @@
+{
+  "status": "exact-scalar-budget-for-defined-finite-closed-map-pending-independent-assembly-review",
+  "script_sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641",
+  "inputs": {
+    "geometry": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "geometry_certificate": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-geometry.json",
+      "sha256": "fc00c975f1ec9b0413d2d1c77e0dbf3dd27d35016c0b335ff439aba4aeeca462"
+    },
+    "metric_certificate": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    "moment_certificate": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-moment.json",
+      "sha256": "1d7836c03c90e0db4d479a234f2994787043d4ffa29374dbe37202915c5c3444"
+    },
+    "tail_first": {
+      "file": "notes/2026-11-09-db6f-tail-first-flat17-m12-critical-r01.json",
+      "sha256": "5c2ddbfc230416cf7805bf84ea5686ed9db1427c2df2b8f1b3a8379b453e848d"
+    },
+    "height": {
+      "file": "notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+      "sha256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+    },
+    "positive_alpha": {
+      "file": "notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+      "sha256": "35811ec9035d77e60f5809b6d1e19d8a27f4755f95eb5498eaa8fcc0f4808a19"
+    }
+  },
+  "same_background_transfer": {
+    "file": "notes/2026-11-09-db6f-audit-transfer-tight-m12-critical-r01.json",
+    "sha256": "c3dbdbe79e42528b58b033f48e3694e70776666b8b890fbcb0d5b378539d2108",
+    "old_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+    "new_manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+  },
+  "tail_support_lower": {
+    "exact": "1017377484176631142782199142968963805038721215955239444619399738596877/1380349269358112450987842999277633418820816364372240587284680408039424",
+    "lower_display": 0.7370435198982139,
+    "upper_display": 0.737043519898214
+  },
+  "whole_surface_support_lower": {
+    "exact": "1017377484176631142782199142968963805038721215955239444619399738596877/1380349269358112450987842999277633418820816364372240587284680408039424",
+    "lower_display": 0.7370435198982139,
+    "upper_display": 0.737043519898214
+  },
+  "tail_height_lower": {
+    "exact": "16329701646229624691/9223372036854775808",
+    "lower_display": 1.7704698000882275,
+    "upper_display": 1.7704698000882277
+  },
+  "tail_height_upper": {
+    "exact": "17112113688380127757/9223372036854775808",
+    "lower_display": 1.8552990836760672,
+    "upper_display": 1.8552990836760674
+  },
+  "ball_radius_upper": {
+    "exact": "49/25",
+    "lower_display": 1.96,
+    "upper_display": 1.9600000000000002
+  },
+  "diameter_upper": {
+    "exact": "98/25",
+    "lower_display": 3.92,
+    "upper_display": 3.9200000000000004
+  },
+  "hausdorff_hold_lower": {
+    "exact": "1800459358092517/9007199254740992",
+    "lower_display": 0.1998911434256142,
+    "upper_display": 0.1998911434256142
+  },
+  "hold_over_diameter_lower": {
+    "exact": "45011483952312925/882705526964617216",
+    "lower_display": 0.05099263862898321,
+    "upper_display": 0.05099263862898322
+  },
+  "held_region_diameter_lower": {
+    "exact": "7977247853389765/2251799813685248",
+    "lower_display": 3.542609695989969,
+    "upper_display": 3.542609695989969
+  },
+  "two_tail_moment_absolute_upper": {
+    "exact": "1378775817309775512307755095795760257041192723658125698480899572134448396793102920468387348029766959873074560546875/1103256173499045417943813122804021186542232699573032506702552215318880209601921897119599455136777637942585583728590848",
+    "lower_display": 0.0012497331539391276,
+    "upper_display": 0.0012497331539391278
+  },
+  "unmarked_volume_moment_real_lower": {
+    "exact": "485614151039579925935202859823258523232542741071650348009349585158969322047042151738129701151981086060281338003670981/1103256173499045417943813122804021186542232699573032506702552215318880209601921897119599455136777637942585583728590848",
+    "lower_display": 0.4401644538270966,
+    "upper_display": 0.4401644538270967
+  },
+  "unmarked_volume_moment_real_upper": {
+    "exact": "524748833009617530737376296414164486171280194153368320063176087671792934008997424427812587049970943818157878721427515/1103256173499045417943813122804021186542232699573032506702552215318880209601921897119599455136777637942585583728590848",
+    "lower_display": 0.4756364347777398,
+    "upper_display": 0.47563643477773987
+  },
+  "centered_third_tensor_norm_squared_change_lower": {
+    "exact": "39334746234205974000751431645683940381835962026803678188757316397876515085810414290788505793310467970882788378297349461/172383777109225846553720800438128310397223859308286329172273783643575032750300296424937414865121505928528997457592320000000000000",
+    "lower_display": 2.281812528639669e-10,
+    "upper_display": 2.2818125286396692e-10
+  },
+  "corrected_prefix_exact_target_metric_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "lower_display": 2.5721188324492386e-08,
+    "upper_display": 2.572118832449239e-08
+  },
+  "embedding_all_phases_follows_from_support_given_reviewed_assembly": true,
+  "rigid_noncongruence_follows_from_moment_given_reviewed_assembly": true,
+  "whole_tail_metric_certified": false,
+  "whole_tail_curvature_certified": false,
+  "quantitative_reach_certified": false,
+  "README_complete": false,
+  "remaining": [
+    "independent common-cut/closed-map implementation review",
+    "tight exact background parameter enclosure and whole-tail metric",
+    "actual whole-tail curvature and reach >= .03D",
+    "fixed-g high-frequency/full-XYZ convergence and final independent replay"
+  ]
+}

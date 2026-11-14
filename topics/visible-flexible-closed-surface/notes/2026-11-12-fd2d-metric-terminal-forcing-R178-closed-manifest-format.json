@@ -1,0 +1,48 @@
+{
+  "schema": "fd2d-closed-result-format-normalization-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_terminal_forcing_majorant.py",
+      "bytes": 8256,
+      "sha256": "a27e2d02d89cec782e3a40938fb6824542ccef7d6e478b5395b09869b219295d"
+    },
+    {
+      "path": "scripts/fd2d-metric-terminal-forcing-check.py",
+      "bytes": 6208,
+      "sha256": "342e2f21d8063d1bf5d55c76c4272183bca0aeecc0a981305a243f117a4e1af9"
+    },
+    {
+      "path": "results/R178-bounded-terminal-Codazzi-forcing-and-cut-completion.md",
+      "bytes": 12306,
+      "sha256": "127e24760a24a8c6a9b71ac7d5b43ad99fce2b3e1fdbe17f961e9cff2c27dcd4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-terminal-forcing-R178-01-report.json",
+      "bytes": 62013,
+      "sha256": "4621ea00174b862523dce2db4ce7a5c1789f05599b697c74d94933a7a5352186"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-terminal-forcing-R178-01-majorant.json.gz",
+      "bytes": 21341,
+      "sha256": "852144e90e5858ca0855f4938adeffbaeb5e9e3ad279ce4f20ff9ba178741683"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-terminal-forcing-R178-01-completion-receipt.json",
+      "bytes": 715,
+      "sha256": "da20a4a9f83d4e2ea65b764b00c973d7d7f381f536d7411aee228f2a29640e92"
+    }
+  ],
+  "format_only_change": "README rule4: inline/display math delimiters normalized to dollars; mathematical proof, computational sources and actual reports unchanged",
+  "previous_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-terminal-forcing-R178-closed-manifest.json",
+    "bytes": 4374,
+    "sha256": "ea9dd55479474d7f663e481c4bf553e81a423b4abe384c1a63920430d87bbf60"
+  },
+  "previous_proof": {
+    "path": "results/R178-bounded-terminal-Codazzi-forcing-and-cut-completion.md",
+    "bytes": 12486,
+    "sha256": "40e65fde5e92c9b3df1476edc3afdd0cd635f50406b209f59fb517860942e9f2"
+  },
+  "previous_manifest_not_published_with_stale_proof_identity": true
+}

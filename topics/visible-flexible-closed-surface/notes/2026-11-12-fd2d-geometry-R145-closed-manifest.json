@@ -1,0 +1,126 @@
+{
+  "schema": "fd2d-R145-actual-ruled-continuous-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R145-actual-ruled-coast-continuous-metric-and-curvature.md",
+      "sha256": "28f25b1e4d7e3fb05ec7e0efaafc21741960dcead3549f556477d7bccc1ce7e0",
+      "bytes": 13907,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_certificate.py",
+      "sha256": "85f71d57d298a3308962fdbd452465025ebecf096d831cb10dcac39cd6e47dd4",
+      "bytes": 11013,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_taylor.py",
+      "sha256": "1cee03ba2044040811d4b115fc7c954638e9cbb30bd382629e151567d7a5135c",
+      "bytes": 9811,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_metric_convolution.py",
+      "sha256": "650d4d32ac5a51a8866c362171ed7f2daf1564af7dde6c3aa0b2cb4336a3a3f1",
+      "bytes": 10516,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-actual-curvature-certificate-05.json.gz",
+      "sha256": "49757e19101aeed2167b27432cab93725c4c84dd29c92a53ef7f1354494ae6fe",
+      "bytes": 189577,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-metric-convolution-01.json",
+      "sha256": "1db13655fe83e9a9430dc16a647765477438024e574d66f04c4c58d90d5671ec",
+      "bytes": 416237,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_certificate_v1.py",
+      "sha256": "472552ce5c3fe75900fe9935d8d74bb652737c42725fe558d8fcba17996c0cbd",
+      "bytes": 9523,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_certificate_v2.py",
+      "sha256": "dbd9b86e4bca8dcb3b2edc9341633021ab955ec9a0707ddb2989cbb380881635",
+      "bytes": 10571,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_taylor_v3.py",
+      "sha256": "f6cb62672b7c7e9f0db9360f6dd695115c9db5c8153dcc8ae3fd86e31477b100",
+      "bytes": 9627,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_certificate_v4.py",
+      "sha256": "0b7c5c962184c96e89944cee70f4c164932c6a57d9cf88b07470e0a7767e653a",
+      "bytes": 10989,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_taylor_v4.py",
+      "sha256": "00aad1027d6464690e81a3316b4212a4ac9b904d3b7e0f928c3c14452df5924c",
+      "bytes": 9811,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-actual-curvature-v1-owner-stop.json",
+      "sha256": "3126fc8431fa89762d8f117dcea75210ec319a5e37ab995250aa5cd9f6c50009",
+      "bytes": 798,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-actual-curvature-v3-owner-stop.json",
+      "sha256": "1481b15620d72318b18d79e798856936058a8a5fe7390f99935ef38a674b9cdb",
+      "bytes": 1004,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-actual-curvature-v4-evaluation-exit1.json",
+      "sha256": "92ec8f821637c6a99b50bc1df820ad26e0a9fb4042f7a32305cba782d0d1ccf1",
+      "bytes": 981,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-actual-curvature-attempts.json",
+      "sha256": "bc09edd801af75a4ae540d6c9736ed56c25352b9a3afbd00d0b3070d084a0986",
+      "bytes": 2353,
+      "closed": true
+    }
+  ],
+  "all_files_closed": true,
+  "actual_successful_runs": [
+    {
+      "kind": "actual_curvature",
+      "session": 63760,
+      "final_chunk": "b5a130",
+      "exit_code": 0,
+      "seconds": 67.83885530299995,
+      "report": "notes/2026-11-12-fd2d-k0-ruling-actual-curvature-certificate-05.json.gz"
+    },
+    {
+      "kind": "actual_metric",
+      "session": 19051,
+      "final_chunk": "0d1440",
+      "exit_code": 0,
+      "seconds": 4.952587145000507,
+      "report": "notes/2026-11-12-fd2d-k0-ruling-metric-convolution-01.json"
+    }
+  ],
+  "strict_claims": {
+    "same_actual_ruled_Cartesian_surface": true,
+    "full_circle_and_full_radial_domain": true,
+    "metric_operator_error_less_than": "71/2000000000",
+    "actual_principal_curvature_absolute_less_than": "73/10",
+    "actual_immersion": true,
+    "base_delta_zero_only": true,
+    "whole_closed_surface_completion": false,
+    "global_embedding_or_reach_certificate": false
+  },
+  "excluded_reproducible_intermediate": "notes/2026-11-12-fd2d-k0-ruling-actual-curvature-certificate-02.json.gz; full source, inputs, actual exit1, hash and recipe are retained in attempts.json",
+  "index_owned_by_root": true
+}

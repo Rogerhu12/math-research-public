@@ -1,0 +1,433 @@
+{
+  "scope": "Floating exploratory radial-background Robin line comparison only; no rigorous gap or current nonradial inverse.",
+  "equation": "theta_s=-n[(a*a_ss/v^3)cos(theta)^2+(v/a^2)sin(theta)^2], v=sqrt(1-a_s^2)",
+  "left_boundary": "x(0)=0; X=x/i, y=Y, theta=atan2(X,Y)",
+  "right_boundary": "X=n*(a*D_n-1), Y=w*(a*D_n-n^2)/a, sigma=-1",
+  "match_location": "cycle/bridge common boundary a=1, a_s=0",
+  "frozen_port_path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+  "frozen_port_sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702",
+  "frozen_port_raw_cut_slope_abs_diff": 1.7763568394002505e-15,
+  "parameters": {
+    "delta_hex": "0x1.29245a5f859ffp-4",
+    "vu_hex": "0x1.5c28f5c28f5c3p-3",
+    "vd_hex": "0x1.70a3d70a3d70ap-3",
+    "eps_hex": "0x1.999999999999ap-2",
+    "eta_hex": "0x1.999999999999ap-5",
+    "cut_hex": "0x1.3333333333333p-1",
+    "w_hex": "0x1.0000000000000p-1"
+  },
+  "script_sha256": "b3baa2244e6547f9f72b98e61d51f4fc3a51bbc2f191f65324e9b145f47eb863",
+  "runs": [
+    {
+      "settings": {
+        "quadrature": 32,
+        "rtol": 2e-10,
+        "atol": 2e-12,
+        "divisions": 30
+      },
+      "bridge_length_float": 0.6388482209066088,
+      "bridge_root_gap_float": 1.1102230246251565e-16,
+      "cycle_length_float": 1.3829276741988448,
+      "rows": [
+        {
+          "mode": 3,
+          "phase_difference_mod_pi": -0.002677255023027403,
+          "normalized_line_wronskian": -0.0026772518247375502,
+          "abs_normalized_line_wronskian": 0.0026772518247375502,
+          "left_log_euclidean_amplification": -1.61210693462242,
+          "right_log_euclidean_amplification": 2.497557966269642,
+          "ode_rhs_calls": 6032
+        },
+        {
+          "mode": 6,
+          "phase_difference_mod_pi": 0.18818016357549716,
+          "normalized_line_wronskian": 0.18707149615503843,
+          "abs_normalized_line_wronskian": 0.18707149615503843,
+          "left_log_euclidean_amplification": 2.672196833864857,
+          "right_log_euclidean_amplification": 5.393300261237519,
+          "ode_rhs_calls": 6104
+        },
+        {
+          "mode": 9,
+          "phase_difference_mod_pi": -0.726789524825449,
+          "normalized_line_wronskian": -0.6644738384339898,
+          "abs_normalized_line_wronskian": 0.6644738384339898,
+          "left_log_euclidean_amplification": 4.553977070517662,
+          "right_log_euclidean_amplification": 9.641841514931146,
+          "ode_rhs_calls": 6260
+        },
+        {
+          "mode": 12,
+          "phase_difference_mod_pi": -1.5649249531745255,
+          "normalized_line_wronskian": -0.9999827635354211,
+          "abs_normalized_line_wronskian": 0.9999827635354211,
+          "left_log_euclidean_amplification": 6.018416737975029,
+          "right_log_euclidean_amplification": 12.500849527398191,
+          "ode_rhs_calls": 6404
+        },
+        {
+          "mode": 15,
+          "phase_difference_mod_pi": 0.9379978387012464,
+          "normalized_line_wronskian": 0.8063756318275699,
+          "abs_normalized_line_wronskian": 0.8063756318275699,
+          "left_log_euclidean_amplification": 6.4740819088678645,
+          "right_log_euclidean_amplification": 14.901359835285797,
+          "ode_rhs_calls": 6728
+        },
+        {
+          "mode": 18,
+          "phase_difference_mod_pi": 0.3220415413524975,
+          "normalized_line_wronskian": 0.3165038070898714,
+          "abs_normalized_line_wronskian": 0.3165038070898714,
+          "left_log_euclidean_amplification": 8.338030845191145,
+          "right_log_euclidean_amplification": 19.354575682622134,
+          "ode_rhs_calls": 6860
+        },
+        {
+          "mode": 21,
+          "phase_difference_mod_pi": -0.45477727591729433,
+          "normalized_line_wronskian": -0.43926223854398855,
+          "abs_normalized_line_wronskian": 0.43926223854398855,
+          "left_log_euclidean_amplification": 10.461550544481774,
+          "right_log_euclidean_amplification": 22.302282062473772,
+          "ode_rhs_calls": 7016
+        },
+        {
+          "mode": 24,
+          "phase_difference_mod_pi": -1.294845349124035,
+          "normalized_line_wronskian": -0.9621665274048388,
+          "abs_normalized_line_wronskian": 0.9621665274048388,
+          "left_log_euclidean_amplification": 12.084956553345533,
+          "right_log_euclidean_amplification": 24.30201356549676,
+          "ode_rhs_calls": 7424
+        },
+        {
+          "mode": 27,
+          "phase_difference_mod_pi": 1.2025500682807504,
+          "normalized_line_wronskian": 0.9329600915290018,
+          "abs_normalized_line_wronskian": 0.9329600915290018,
+          "left_log_euclidean_amplification": 13.262160858821007,
+          "right_log_euclidean_amplification": 29.039210771378745,
+          "ode_rhs_calls": 7616
+        },
+        {
+          "mode": 30,
+          "phase_difference_mod_pi": 0.6609824502535027,
+          "normalized_line_wronskian": 0.6138926840239044,
+          "abs_normalized_line_wronskian": 0.6138926840239044,
+          "left_log_euclidean_amplification": 12.230814625220821,
+          "right_log_euclidean_amplification": 32.08012878832196,
+          "ode_rhs_calls": 7916
+        },
+        {
+          "mode": 33,
+          "phase_difference_mod_pi": 0.017732946320258236,
+          "normalized_line_wronskian": 0.017732016958881967,
+          "abs_normalized_line_wronskian": 0.017732016958881967,
+          "left_log_euclidean_amplification": 15.783778055041873,
+          "right_log_euclidean_amplification": 33.52258237505193,
+          "ode_rhs_calls": 8276
+        },
+        {
+          "mode": 36,
+          "phase_difference_mod_pi": -0.8417559687889593,
+          "normalized_line_wronskian": -0.745814015232681,
+          "abs_normalized_line_wronskian": 0.745814015232681,
+          "left_log_euclidean_amplification": 17.635921102758815,
+          "right_log_euclidean_amplification": 38.70839826744349,
+          "ode_rhs_calls": 8540
+        },
+        {
+          "mode": 39,
+          "phase_difference_mod_pi": 1.5396744589419562,
+          "normalized_line_wronskian": 0.9995157537581234,
+          "abs_normalized_line_wronskian": 0.9995157537581234,
+          "left_log_euclidean_amplification": 19.193767918183962,
+          "right_log_euclidean_amplification": 41.84206915211576,
+          "ode_rhs_calls": 8720
+        },
+        {
+          "mode": 42,
+          "phase_difference_mod_pi": 0.9997664792026058,
+          "normalized_line_wronskian": 0.8413447900402108,
+          "abs_normalized_line_wronskian": 0.8413447900402108,
+          "left_log_euclidean_amplification": 20.142981151502067,
+          "right_log_euclidean_amplification": 42.206854701647856,
+          "ode_rhs_calls": 9140
+        },
+        {
+          "mode": 45,
+          "phase_difference_mod_pi": 0.4857768334141035,
+          "normalized_line_wronskian": 0.4668954637692306,
+          "abs_normalized_line_wronskian": 0.4668954637692306,
+          "left_log_euclidean_amplification": 19.499052184127,
+          "right_log_euclidean_amplification": 48.36475365234382,
+          "ode_rhs_calls": 9308
+        },
+        {
+          "mode": 48,
+          "phase_difference_mod_pi": -0.2318960897147413,
+          "normalized_line_wronskian": -0.22982327145886108,
+          "abs_normalized_line_wronskian": 0.22982327145886108,
+          "left_log_euclidean_amplification": 22.80205489721649,
+          "right_log_euclidean_amplification": 51.59096711657007,
+          "ode_rhs_calls": 9656
+        },
+        {
+          "mode": 51,
+          "phase_difference_mod_pi": -1.1487690048816397,
+          "normalized_line_wronskian": -0.9122604027640128,
+          "abs_normalized_line_wronskian": 0.9122604027640128,
+          "left_log_euclidean_amplification": 24.591048121035975,
+          "right_log_euclidean_amplification": 51.659311336372916,
+          "ode_rhs_calls": 10304
+        },
+        {
+          "mode": 54,
+          "phase_difference_mod_pi": 1.3293543404196875,
+          "normalized_line_wronskian": 0.9709942011588069,
+          "abs_normalized_line_wronskian": 0.9709942011588069,
+          "left_log_euclidean_amplification": 26.090247189778726,
+          "right_log_euclidean_amplification": 58.00876265300037,
+          "ode_rhs_calls": 10112
+        },
+        {
+          "mode": 57,
+          "phase_difference_mod_pi": 0.8576201162828632,
+          "normalized_line_wronskian": 0.7562876929031125,
+          "abs_normalized_line_wronskian": 0.7562876929031125,
+          "left_log_euclidean_amplification": 26.81308326119283,
+          "right_log_euclidean_amplification": 61.328490336285185,
+          "ode_rhs_calls": 10520
+        },
+        {
+          "mode": 60,
+          "phase_difference_mod_pi": 0.34277410291740296,
+          "normalized_line_wronskian": 0.3361011040558043,
+          "abs_normalized_line_wronskian": 0.3361011040558043,
+          "left_log_euclidean_amplification": 27.14192567059589,
+          "right_log_euclidean_amplification": 62.54299930161634,
+          "ode_rhs_calls": 11144
+        },
+        {
+          "mode": 63,
+          "phase_difference_mod_pi": -0.4782673640801285,
+          "normalized_line_wronskian": -0.4602416439098142,
+          "abs_normalized_line_wronskian": 0.4602416439098142,
+          "left_log_euclidean_amplification": 29.63104476053949,
+          "right_log_euclidean_amplification": 67.63999599158437,
+          "ode_rhs_calls": 11264
+        }
+      ]
+    },
+    {
+      "settings": {
+        "quadrature": 64,
+        "rtol": 2e-12,
+        "atol": 2e-14,
+        "divisions": 60
+      },
+      "bridge_length_float": 0.6388482209066082,
+      "bridge_root_gap_float": 5.551115123125783e-17,
+      "cycle_length_float": 1.3829276741988448,
+      "rows": [
+        {
+          "mode": 3,
+          "phase_difference_mod_pi": -0.0026772550230163006,
+          "normalized_line_wronskian": -0.002677251824726448,
+          "abs_normalized_line_wronskian": 0.002677251824726448,
+          "left_log_euclidean_amplification": -1.6121069346224024,
+          "right_log_euclidean_amplification": 2.497557966257841,
+          "ode_rhs_calls": 11840
+        },
+        {
+          "mode": 6,
+          "phase_difference_mod_pi": 0.188180163574728,
+          "normalized_line_wronskian": 0.18707149615428287,
+          "abs_normalized_line_wronskian": 0.18707149615428287,
+          "left_log_euclidean_amplification": 2.6721968338648496,
+          "right_log_euclidean_amplification": 5.393300261144261,
+          "ode_rhs_calls": 11900
+        },
+        {
+          "mode": 9,
+          "phase_difference_mod_pi": -0.7267895248280052,
+          "normalized_line_wronskian": -0.6644738384359,
+          "abs_normalized_line_wronskian": 0.6644738384359,
+          "left_log_euclidean_amplification": 4.553977070517661,
+          "right_log_euclidean_amplification": 9.641841514936758,
+          "ode_rhs_calls": 12092
+        },
+        {
+          "mode": 12,
+          "phase_difference_mod_pi": -1.5649249531829952,
+          "normalized_line_wronskian": -0.9999827635354709,
+          "abs_normalized_line_wronskian": 0.9999827635354709,
+          "left_log_euclidean_amplification": 6.0184167379750235,
+          "right_log_euclidean_amplification": 12.500849527437795,
+          "ode_rhs_calls": 12344
+        },
+        {
+          "mode": 15,
+          "phase_difference_mod_pi": 0.9379978386877923,
+          "normalized_line_wronskian": 0.806375631819613,
+          "abs_normalized_line_wronskian": 0.806375631819613,
+          "left_log_euclidean_amplification": 6.474081908867816,
+          "right_log_euclidean_amplification": 14.901359834937642,
+          "ode_rhs_calls": 12788
+        },
+        {
+          "mode": 18,
+          "phase_difference_mod_pi": 0.3220415413126858,
+          "normalized_line_wronskian": 0.31650380705210635,
+          "abs_normalized_line_wronskian": 0.31650380705210635,
+          "left_log_euclidean_amplification": 8.338030845191014,
+          "right_log_euclidean_amplification": 19.354575682384564,
+          "ode_rhs_calls": 13016
+        },
+        {
+          "mode": 21,
+          "phase_difference_mod_pi": -0.45477727604443174,
+          "normalized_line_wronskian": -0.4392622386582035,
+          "abs_normalized_line_wronskian": 0.4392622386582035,
+          "left_log_euclidean_amplification": 10.461550544481305,
+          "right_log_euclidean_amplification": 22.302282061154077,
+          "ode_rhs_calls": 13352
+        },
+        {
+          "mode": 24,
+          "phase_difference_mod_pi": -1.2948453493196546,
+          "normalized_line_wronskian": -0.9621665274581377,
+          "abs_normalized_line_wronskian": 0.9621665274581377,
+          "left_log_euclidean_amplification": 12.084956553344291,
+          "right_log_euclidean_amplification": 24.302013561464015,
+          "ode_rhs_calls": 13916
+        },
+        {
+          "mode": 27,
+          "phase_difference_mod_pi": 1.202550068125241,
+          "normalized_line_wronskian": 0.9329600914730215,
+          "abs_normalized_line_wronskian": 0.9329600914730215,
+          "left_log_euclidean_amplification": 13.262160858821968,
+          "right_log_euclidean_amplification": 29.03921077014796,
+          "ode_rhs_calls": 14288
+        },
+        {
+          "mode": 30,
+          "phase_difference_mod_pi": 0.6609824498788726,
+          "normalized_line_wronskian": 0.6138926837281753,
+          "abs_normalized_line_wronskian": 0.6138926837281753,
+          "left_log_euclidean_amplification": 12.230814625200024,
+          "right_log_euclidean_amplification": 32.08012878740626,
+          "ode_rhs_calls": 14612
+        },
+        {
+          "mode": 33,
+          "phase_difference_mod_pi": 0.017732946016678852,
+          "normalized_line_wronskian": 0.017732016655350312,
+          "abs_normalized_line_wronskian": 0.017732016655350312,
+          "left_log_euclidean_amplification": 15.783778055039015,
+          "right_log_euclidean_amplification": 33.5225823675305,
+          "ode_rhs_calls": 15164
+        },
+        {
+          "mode": 36,
+          "phase_difference_mod_pi": -0.8417559690211434,
+          "normalized_line_wronskian": -0.7458140153873514,
+          "abs_normalized_line_wronskian": 0.7458140153873514,
+          "left_log_euclidean_amplification": 17.63592110274986,
+          "right_log_euclidean_amplification": 38.7083982638302,
+          "ode_rhs_calls": 15572
+        },
+        {
+          "mode": 39,
+          "phase_difference_mod_pi": 1.5396744584722875,
+          "normalized_line_wronskian": 0.9995157537435089,
+          "abs_normalized_line_wronskian": 0.9995157537435089,
+          "left_log_euclidean_amplification": 19.193767918153704,
+          "right_log_euclidean_amplification": 41.842069151238206,
+          "ode_rhs_calls": 15956
+        },
+        {
+          "mode": 42,
+          "phase_difference_mod_pi": 0.9997664782864959,
+          "normalized_line_wronskian": 0.8413447895450545,
+          "abs_normalized_line_wronskian": 0.8413447895450545,
+          "left_log_euclidean_amplification": 20.142981151482058,
+          "right_log_euclidean_amplification": 42.20685467229111,
+          "ode_rhs_calls": 16640
+        },
+        {
+          "mode": 45,
+          "phase_difference_mod_pi": 0.4857768326555565,
+          "normalized_line_wronskian": 0.466895463098438,
+          "abs_normalized_line_wronskian": 0.466895463098438,
+          "left_log_euclidean_amplification": 19.499052184144514,
+          "right_log_euclidean_amplification": 48.36475364839829,
+          "ode_rhs_calls": 16940
+        },
+        {
+          "mode": 48,
+          "phase_difference_mod_pi": -0.23189608948424123,
+          "normalized_line_wronskian": -0.22982327123453095,
+          "abs_normalized_line_wronskian": 0.22982327123453095,
+          "left_log_euclidean_amplification": 22.80205489723057,
+          "right_log_euclidean_amplification": 51.59096711407853,
+          "ode_rhs_calls": 17420
+        },
+        {
+          "mode": 51,
+          "phase_difference_mod_pi": -1.1487690050754544,
+          "normalized_line_wronskian": -0.9122604028434014,
+          "abs_normalized_line_wronskian": 0.9122604028434014,
+          "left_log_euclidean_amplification": 24.59104812083383,
+          "right_log_euclidean_amplification": 51.65931097699225,
+          "ode_rhs_calls": 18416
+        },
+        {
+          "mode": 54,
+          "phase_difference_mod_pi": 1.3293543407181865,
+          "normalized_line_wronskian": 0.9709942012301789,
+          "abs_normalized_line_wronskian": 0.9709942012301789,
+          "left_log_euclidean_amplification": 26.090247189354304,
+          "right_log_euclidean_amplification": 58.00876264650342,
+          "ode_rhs_calls": 18368
+        },
+        {
+          "mode": 57,
+          "phase_difference_mod_pi": 0.85762011584983,
+          "normalized_line_wronskian": 0.7562876926198052,
+          "abs_normalized_line_wronskian": 0.7562876926198052,
+          "left_log_euclidean_amplification": 26.813083260739518,
+          "right_log_euclidean_amplification": 61.3284903327278,
+          "ode_rhs_calls": 18836
+        },
+        {
+          "mode": 60,
+          "phase_difference_mod_pi": 0.34277410269143616,
+          "normalized_line_wronskian": 0.33610110384298286,
+          "abs_normalized_line_wronskian": 0.33610110384298286,
+          "left_log_euclidean_amplification": 27.141925670351444,
+          "right_log_euclidean_amplification": 62.54299930987706,
+          "ode_rhs_calls": 19760
+        },
+        {
+          "mode": 63,
+          "phase_difference_mod_pi": -0.47826736427568406,
+          "normalized_line_wronskian": -0.4602416440834272,
+          "abs_normalized_line_wronskian": 0.4602416440834272,
+          "left_log_euclidean_amplification": 29.631044759977872,
+          "right_log_euclidean_amplification": 67.63999598731083,
+          "ode_rhs_calls": 19808
+        }
+      ]
+    }
+  ],
+  "maximum_cross_refinement_wronskian_difference": 6.707925881421772e-10,
+  "smallest_refined_mode": 3,
+  "smallest_refined_abs_normalized_line_wronskian": 0.002677251824726448,
+  "seconds": 5.007335123002122,
+  "candidate_arrays_read": 0,
+  "tail_requests": 0,
+  "nonlinear_pde_runs": 0
+}

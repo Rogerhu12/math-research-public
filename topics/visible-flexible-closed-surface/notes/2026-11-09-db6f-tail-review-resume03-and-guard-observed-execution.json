@@ -1,0 +1,57 @@
+{
+  "author_heartbeat_test_repeated": false,
+  "child_processes_started": 0,
+  "date": "2026-11-09",
+  "reviewer": "/root/tail_theory",
+  "root_heartbeat_report_reviewed": {
+    "bytes": 1783,
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-space-guard-directed-check.json",
+    "sha256": "dd55296087499e29723bffa178ae08939acfca32eddcbaccf2492b09d3b6556a"
+  },
+  "runs": [
+    {
+      "exit_code": 1,
+      "kind": "own_metadata_checker_setup_failure",
+      "reason": "The checker looked for literal ENOSPC in the Python run.log; its exact text is Errno 28, while the worker trace contains ENOSPC. No output was created and no solver ran.",
+      "receipt": "23b91c",
+      "source": {
+        "bytes": 10369,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-amplitude-resume03-pre-log-token-fix.py",
+        "sha256": "e672655a33e8c3488d6b56d4b37b4ca2c77b759b9005f0f8fd1b7ce3fec2a9da"
+      }
+    },
+    {
+      "exit_code": 0,
+      "kind": "own_corrected_resume03_metadata_checker",
+      "output": {
+        "bytes": 1809,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-amplitude-resume03.json",
+        "sha256": "794052a0edd01765e16c9490594af6c8476cd09867a89acbc575cf2a806debba"
+      },
+      "receipt": "043017",
+      "source": {
+        "bytes": 10790,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-amplitude-resume03.py",
+        "sha256": "32a7006bdac244b8e6baa5b80c05f4493cf390325d66a5f9e1ce57596979680b"
+      }
+    },
+    {
+      "exit_code": 0,
+      "kind": "own_production_guard_path_checker",
+      "output": {
+        "bytes": 2434,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-space-guard-paths.json",
+        "sha256": "02a7ff0e155bda7d03f80b2666f01b86443142516ff120cc74c6149bb32bf867"
+      },
+      "receipt": "f3ffa6",
+      "source": {
+        "bytes": 4487,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-space-guard-paths.py",
+        "sha256": "116ad65a237aa081db9d13fc0301fb5df744304bda7a72e923a2da2734fbaed9"
+      }
+    }
+  ],
+  "schema": "db6f-tail-resume03-and-guard-observed-execution-v1",
+  "scope": "Prepared original-command resumption and explicit external guard paths only. No future solve or README completion.",
+  "solver_calls": 0
+}

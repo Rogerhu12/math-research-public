@@ -1,0 +1,41 @@
+{
+  "schema": "db6f-independent-closed-review-publication-v1",
+  "author": "/root/tail_review_continued",
+  "status": "PASS_FULL_TEXT_IMPLEMENTATION_REVIEW",
+  "scope": "True M14 selector/preparer/auditor static and closed historical compatibility only; no BVP/DN and no G5 completion",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-true-m14-implementation.py",
+      "bytes": 12608,
+      "sha256": "89ba4bbc4e45b452526fa8fa1efc2cd96b69d6912927da6d88d953e2ba9b16b4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-check.json",
+      "bytes": 33529,
+      "sha256": "c071919195a98d4f61e58d16b0d9d95b06e66feb8f8c0a6cda7a88bec3d5a937"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-sources.json",
+      "bytes": 32219,
+      "sha256": "2577d38b9fac2cb172a90523ec1a3f604d5346e7016d2f3a8badaf8e9f5dd5d2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-observed.json",
+      "bytes": 1419,
+      "sha256": "86c76dd45bf02780a70a8b409aeb10586e025aedceb97d061ba702f8dd2f344f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation.md",
+      "bytes": 14311,
+      "sha256": "588c4d315c01182eae04263bc0d162e70fa6e0de219392e286ac92ebc55bd4c3"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 94086,
+  "excluded": [
+    "all actual future true M14 outputs",
+    "all active linear-DN pilot outputs",
+    "all affine01 numerical outputs",
+    "HANDOFF/open/results/LOG/git mutations"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g004-m191-01-initial.npz",
+      "bytes": 745389,
+      "sha256": "729d3c6cce95e1c440f7e08d39360c4ff0da5ed781e691d3e83265d5b0951483"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g004-m191-01-report.json",
+      "bytes": 8216,
+      "sha256": "1f95ac4417b210d4b562a894ddc7ef932e7ee76e8354b8c4820973fd3d7f2db8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g004-m191-01-runtime.json",
+      "bytes": 207,
+      "sha256": "4a534c3d29a201684079eb3bed5f14a5e4b1f4981ab34646d1e7927be6b9c0a3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g004-m191-01-resources.jsonl",
+      "bytes": 1094,
+      "sha256": "117f068158a14c10704179e5c235f992035a4e7c8dd7fb608ded093b0440bf44"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g004-m191-01-completion-receipt.json",
+      "bytes": 290,
+      "sha256": "abf5e1bb45c9595d7b9f91004d0f3f3d6c0dcfe2219fb8dc07ce6e677f1e5cfe"
+    }
+  ],
+  "reproducible_local_intermediate_states": [],
+  "completion": {
+    "session_id": 73597,
+    "completion_chunk": "b4ae06",
+    "actual_exit_code": 137,
+    "solver_success": false,
+    "reason": "Tool returned137 after initialization; no factorization/accepted state was observed. Cause not established; do not classify as mathematical failure or assert OOM."
+  }
+}

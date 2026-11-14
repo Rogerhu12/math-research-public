@@ -1,0 +1,58 @@
+{
+  "status": "independent-review-and-replay-PASS-conditionally",
+  "authorship_limit": "The nested-projection lemma was proposed by this reviewer and is not counted as an independent review of that sublemma; all remaining moment identities, estimates and executable implementation were independently reviewed.",
+  "reviewed_sha256": {
+    "notes/2026-11-09-db6f-tail-volume-moment-bound.md": "e1c87d9373d9d61bab9269f0adaf6d6bc550476e6e8d965b4f1d4726c5d6ff2f",
+    "scripts/db6f-root-volume-moment.py": "aa192db73e12eb0e18534a973e0246cc2ad0891d3c0a0d991d367311a8ceb069",
+    "notes/2026-11-09-db6f-all-phase-assembly.md": "9af3d05f9d4d2105a83e29b78970611e59ece98e051eb6574f1d6cf56c641bd6"
+  },
+  "prefix_original_and_rerun_all_fields_equal": true,
+  "prefix_report": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat17-coupled-moment-rerun.json",
+  "prefix_report_sha256": "20df128a2b2d263fc9f1a4e86c944c7150d72ff4c57dd56d173ed968ca86cb0c",
+  "prefix_mirrored_real_moment_interval": [
+    0.43484892373304096,
+    0.48095522199304885
+  ],
+  "conditional_tail_bound_inputs": {
+    "absolute_cut_height_upper": "2",
+    "background_height_total_variation_upper": "1",
+    "outer_radius_upper": "601/1000",
+    "horizontal_perturbation_upper": "7/50000",
+    "vertical_perturbation_upper": "21/25000",
+    "radial_envelope_upper": "301/500",
+    "pi_upper": "22/7"
+  },
+  "conditional_two_tail_absolute_bound_exact": "351967329516033/195312500000000000",
+  "conditional_two_tail_absolute_bound_float_diagnostic": 0.001802072727122089,
+  "conditional_bound_strictly_below_003": true,
+  "complete_volume_moment_certified": false,
+  "unpaid_inputs": [
+    "Exact common C2 prefix/tail and cap interfaces",
+    "Complete closed embedded surface with consistent outward orientation",
+    "Absolute physical cut height and background total variation bounds",
+    "Common exact target metric and fixed-g convergence"
+  ],
+  "v2": {
+    "script_sha256": "502a3d8c9439ee0b707e6be7b367e356ef44d1942aa6a0615330b1005fe10913",
+    "all_report_fields_equal": true,
+    "rerun_report_sha256": "391cacb8b75c73e5d42315707e26d97f2afc81997e118a0e9f1c5a3d8978cc06",
+    "complete_cut_height_interval": [
+      1.7704697794920459,
+      1.772114271700638
+    ],
+    "mirrored_prefix_real_moment_interval": [
+      0.43484892373304096,
+      0.48095522199304885
+    ],
+    "cut_background_height_strictly_below_2_conditional_on_interface": true,
+    "script_added_guards_reviewed": true
+  },
+  "height_total_variation_review": {
+    "proof_sha256": "42a0c5d7019b970edc5a6b2ce2da0e1889d6aa2f3b7658c0aaa1a91fbd36b366",
+    "status": "independent-full-review-PASS-conditionally",
+    "exact_two_tail_background_variation_upper": "8/15 per tail",
+    "source_conditions": "Positive finite caps, no flat override, no literal rejoin, exact analytic normalization for oldCut/epsilonScale and positive exact radial normalization alpha",
+    "not_inferred": "The numerical alpha or stored quadrature values are not certified exact by this review"
+  },
+  "phase_revised_proof_sha256": "9af3d05f9d4d2105a83e29b78970611e59ece98e051eb6574f1d6cf56c641bd6"
+}

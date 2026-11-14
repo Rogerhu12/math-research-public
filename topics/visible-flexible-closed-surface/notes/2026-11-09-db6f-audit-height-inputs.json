@@ -1,0 +1,44 @@
+{
+  "status": "PASS-actual-height-inputs-and-alpha-only-rational-ledger",
+  "scope": "Bind the actual mesh height samples and check the alpha-only ledger.\n\nThis audits source identity and a rational conditional error contribution.\nThe sampler's numerical quadrature, inversion and rounding remain numeric\ndiagnostics and are not turned into a certified vertex error.\n",
+  "script_sha256": "862a11dd1249868f5a9765cb8db30e2e3b0347d329215dc90a665a9a77eeb25e",
+  "sample_report": "notes/2026-11-09-db6f-visible-m8-heights.json",
+  "sample_sha256": "475006a9aa34cd590dbde257e873a901525c55656fa3deb1f3efccc17f0675f5",
+  "helper_sha256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4",
+  "verified_inputs": {
+    "manifest": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+      "sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da"
+    },
+    "calibrations": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "radii": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-visible-m8-radii.json",
+      "sha256": "9b0443353067ca9df4b82dfb1585265480d541bb2644cd306428047098569738"
+    }
+  },
+  "verified_source_sha256": {
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575"
+  },
+  "complete_parameter_dict_equality": true,
+  "matched_parameter_count": 56,
+  "finite_calibration_binary_equality_count": 160,
+  "query_count": 76,
+  "alpha_ledger_sha256": "411af35301c3dd91f44f098a523687284c6f63a37a1aa9e8c11a5ab329245e2f",
+  "alpha_only_height_upper_exact": "1385558069256187277/30423614405477505635920876929024",
+  "alpha_only_height_upper_diagnostic": 4.5542191364571383e-14,
+  "omitted_deep_height_upper_exact": "5/15177100720513508366558296147058741458143803430094840009779784451085189728165691392",
+  "maximum_inverse_residual_diagnostic": 4.812122922359663e-15,
+  "maximum_split_height_difference_diagnostic": 1.734723475976807e-17,
+  "total_numeric_error_certified": false,
+  "fixed_g_convergence_gate_5_paid": false
+}

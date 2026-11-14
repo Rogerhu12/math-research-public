@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-R193-direct-position-error-budget-closed-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_R193_direct_position_error_budget.cjs",
+      "bytes": 12136,
+      "sha256": "fce702f79dcb66267ff4db1cbc204cc388904a2bb444a9fd423016314c91ea80"
+    },
+    {
+      "path": "results/R193-exact-direct-position-jets-to-metric-and-curvature.md",
+      "bytes": 13163,
+      "sha256": "fbe0b2059fcfb2a1c70c88afef5c4dbbf7d7740becbd5402056ebd12d66e8aa4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R193-direct-position-budget-01-report.json",
+      "bytes": 13691,
+      "sha256": "d9995f302d11222cae0142b1c7a25f1e561b164487c865b2d180f45ef4f8470b"
+    }
+  ],
+  "complete_result": "R193 exact direct-position first/second jets to normalized metric, actual Gram and actual principal-curvature bounds",
+  "actual_execution": {
+    "host": "functions.exec JavaScript isolate",
+    "elapsed_seconds": 0.002,
+    "passed": true,
+    "OS_subprocess_started": false,
+    "fixture": "nonzero conditional exact-rational budget, zero-error identity, intentionally unresolved immersion"
+  },
+  "scope": {
+    "mathematical_proof_complete": true,
+    "exact_metric_and_mixed_second_form_cancellation_retained": true,
+    "accurate_B32_central_ellipse_and_float_grid_dependencies_explicit": true,
+    "actual_main_candidate_interval_inputs_consumed": false,
+    "continuous_main_surface_metric_or_geometry_certified": false,
+    "C3_requirement_added": false,
+    "whole_body_or_BVP_run": false
+  },
+  "key_output_interfaces": {
+    "input_schema": "fd2d-R193-direct-position-box-budget-input-v1",
+    "input_coordinates": "fixed physical s,u",
+    "output_residual_intervals": "accurate_residuals.rE/rF: lower/upper exact numerator-denominator arrays",
+    "actual_Gram": "[[1+rE,rF],[rF,1]]",
+    "output_second_form_errors": "second_form_error.L/M/N.exact: nonnegative rational arrays",
+    "curvature_reference_requirement": "Generalized Rayleigh bound for Q0=[[N0·Xss0,N0·Ts0],[N0·Ts0,N0·Tu0/a0]] against actual reference H0, on the identical query box.",
+    "exact_cut_use": "No division by n, l, principal curvature or a curvature gap; genuine positive-radius immersion is required."
+  },
+  "dependencies": [
+    {
+      "path": "results/R187-closed-unit-angular-tangents-and-direct-position-metric.md"
+    },
+    {
+      "path": "results/R188-quarter-periodic-primitives-and-certified-cell-integration.md",
+      "sha256": "a2c3b7caccf362a19bc8ff11a794508cf75ce39d94a92014b8197f79a0c47434"
+    },
+    {
+      "path": "results/R190-positive-radius-design-and-exact-fixing-of-the-metric.md",
+      "commit": "eb6ff7c0a537fd43bda53c22d57e7151453b2520"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R190-radius-spline-interval-closed-manifest.json",
+      "sha256": "b6c40e266c6e03123558315e6735862d45c005ee47cd9a9e77e82b33db5f22e7"
+    }
+  ],
+  "note": "The arithmetic fixture's input error bounds are explicit conditions, not measurements or certificates of the current main B32 state."
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "R190-fourth-loss-recovered-execution-summary-v1",
+  "summaryIsNewTextNotOriginalReportBytes": true,
+  "originalCompleteReportsRemainUnpublishedUntilDiskRecovery": true,
+  "correctedKernel": {
+    "actualToolChunk": "3b5422",
+    "actualExitCode": 0,
+    "toolWallSeconds": 0.546686248,
+    "internalSeconds": 0.405446441,
+    "sourceSHA256": "06a477210fb8fd822e665638bf6b16003587caef145663b9f8115f6ba5c07132",
+    "providerSHA256": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+    "inputPath": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+    "inputSHA256": "b30236a681fdd4329386583a98e740ff2d281f853d9873835f093228129bafab",
+    "dimension": 193,
+    "oldDimension": 181,
+    "completeResidualZeroInjectionDifference": 0,
+    "oldDirectionZeroInjectionDifference": 0,
+    "nonzeroDirectionRelativeL2": 3.1065247718947127e-9,
+    "nonzeroDirectionMaximumAbsolute": 3.725391177456742e-11
+  },
+  "firstImplementation": {
+    "sourceSHA256": "05fc4b21f60160ee40b407b849fe7d3cad30d71ebe2d3b6cf77354306894e165",
+    "error": "Angular-column loop variable a shadowed the new radius scalar a in the angle Jacobian",
+    "kernelException": "New complete derivative check failed",
+    "kernelChildExactStatusSeparatelyCaptured": false,
+    "combinedShellFinalExit": 0,
+    "combinedShellFinalChunk": "54473c",
+    "nonlinearHistory": "Two true objective decreases followed by rejected actual trials, with an incorrect Jacobian. Not reused as the valid normal or a solution."
+  },
+  "actualNodeRuns": [
+    {
+      "path": "notes/2026-11-12-fd2d-designed-metric-R190-gap064-LM-02-report.json",
+      "finalChunk": "b0188b",
+      "exitCode": 0,
+      "acceptedSteps": 32,
+      "squaredNorm": 0.0028661517148728614,
+      "maxSampledRelativeMetric": 0.2787787212457624,
+      "minSampledImmersion": 0.7913011850767805,
+      "cutHeight": 0.39937772174080727,
+      "maxAbsRho": 0.08956519834527085
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-designed-metric-R190-gap005-LM-01-report.json",
+      "finalChunk": "c096bd",
+      "exitCode": 0,
+      "acceptedSteps": 24,
+      "squaredNorm": 0.000020883120709725303,
+      "maxSampledRelativeMetric": 0.016558994048729254,
+      "cutHeight": 0.5641608574300059,
+      "maxAbsRho": 0.12576891610812133
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-designed-metric-R190-gap005-LM-02-report.json",
+      "finalChunk": "cee2c0",
+      "exitCode": 0,
+      "iterations": [
+        25,
+        56
+      ],
+      "squaredNorm": 0.000010079175290329194,
+      "maxSampledRelativeMetric": 0.009537179564065634,
+      "minSampledImmersion": 0.9904628204359344,
+      "cutHeight": 0.5386413105597461,
+      "maxAbsRho": 0.13315031383125145,
+      "finiteOptimizationStalledAtRoundoff": true
+    }
+  ],
+  "rhoChangedPhysicalMetric": true,
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "fd2d-R159-partitioned-normal-closed-group-v1",
+  "closed_utc": "2026-11-12T17:49:57.724117+00:00",
+  "result_basis": "R159; no new numbered theorem needed",
+  "note": "notes/2026-11-12-fd2d-metric-partitioned-normal.md",
+  "helper": {
+    "path": "scripts/fd2d_gc_partitioned_normal.py",
+    "bytes": 19548,
+    "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+  },
+  "source_frozen": true,
+  "api": {
+    "plan": "make_normal_partition(problem, node_block=16, cell_block=4, interior_cells=(), interior_block=1)",
+    "tile": "assemble_normal_tile(problem, vector, descriptor, curvature_cap=7.2, curvature_weight=1., high_gauss_weight=1., high_codazzi_weight=1., interior_gauss_weight=1., block_cells=2, cell_consumer=old25_compatible, progress=None, binding=None)",
+    "merge": "merge_normal_tiles(problem, ordered_iterator_of_descriptor_normal_pairs, plan)"
+  },
+  "scope": "Original v25 finite objective; ordered unscaled row-group partial normals. No R165 finite-objective substitution.",
+  "actual_current_field_normal_computed_by_this_group": false,
+  "physical_BVP_run": false,
+  "whole_J_stored": false,
+  "matrix_scaling_or_damping_in_tiles": false,
+  "problem_dynamic_type_identity_required": false,
+  "exact_elimination_mapping_identity_required": true,
+  "all_planned_rows_exactly_once": true,
+  "only_running_total_plus_current_tile_required": true,
+  "floating_reduction_order_change_declared": true,
+  "failed_run": {
+    "session_id": 6232,
+    "initial_chunk": "066750",
+    "final_chunk": "49f68f",
+    "returncode": 1,
+    "scope": "Synthetic 9-tile assembly, transport and merge completed; final JSON report serialization failed on numpy.bool. No completed failure report exists.",
+    "original_sources_preserved": true,
+    "repair": "Only separately named checker-v2 casts that comparison to builtin bool; helper unchanged."
+  },
+  "successful_run": {
+    "session_id": 6584,
+    "initial_chunk": "9e027f",
+    "final_chunk": "78675a",
+    "returncode": 0,
+    "wrapper_seconds": 11.885113392003404,
+    "internal_seconds": 3.388038298999163,
+    "peak_rss_kib": 70140,
+    "tiles": 9,
+    "rows": 105,
+    "blocks": 32,
+    "transport_bit_identity": true,
+    "all_elimination_checks": {
+      "central_to_parameter_exact": true,
+      "fixed_cut_exact": true,
+      "inactive_coast_l_exact": true,
+      "terminal_n_minus_l_exact": true
+    },
+    "maximum_scale_normalized_sum_difference": 2.220446049250313e-16,
+    "missing_duplicate_streams_rejected": true
+  },
+  "regenerable_local_outputs_inventory": {
+    "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-generated-file-inventory.json",
+    "bytes": 20208,
+    "sha256": "56ce144c94e01270c745b041454533c8816f647063ab86e30d74911e7caafef0"
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_partitioned_normal.py",
+      "bytes": 19548,
+      "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+    },
+    {
+      "path": "scripts/fd2d-metric-partitioned-normal-check.py",
+      "bytes": 12824,
+      "sha256": "4608ab6c09b8481b9412f32636befa22eed383bb3f7437775c6053498683397a"
+    },
+    {
+      "path": "scripts/fd2d-metric-partitioned-normal-check-v2.py",
+      "bytes": 12830,
+      "sha256": "20c070bb36355edd0e27241b64f3c272efdc5215128e16c5b0b2ebf179485f19"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal.md",
+      "bytes": 11775,
+      "sha256": "eb82b306944a27cec17c5c514294c0ddfe9789c2e54421c098b20a6fb5faa148"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-generated-file-inventory.json",
+      "bytes": 20208,
+      "sha256": "56ce144c94e01270c745b041454533c8816f647063ab86e30d74911e7caafef0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-01-plan.json",
+      "bytes": 8455,
+      "sha256": "45dc1d832bcb2c7e3daca8a6528f7ba49ca2a2415a2000cc2c1261a13cdd62f0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-01-exit-receipt.json",
+      "bytes": 816,
+      "sha256": "ca0ac0438edffcf918d6f3c13b42a7cf46efb5b70058a700a34dea5f6b3b7069"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-partitioned-normal-01-console.txt",
+      "bytes": 2288,
+      "sha256": "ff70ef8640e4ef69df5046f5193a54c416a4515f2cf6273a419d2c8b3d481d48"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-02-plan.json",
+      "bytes": 8455,
+      "sha256": "45dc1d832bcb2c7e3daca8a6528f7ba49ca2a2415a2000cc2c1261a13cdd62f0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-02-exit-receipt.json",
+      "bytes": 819,
+      "sha256": "8023d58e9528aa5aa24eb0634b62df57a89af82e74ed96648ff52b03bef36010"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-partitioned-normal-02-console.txt",
+      "bytes": 237,
+      "sha256": "4e0f2971adab27590f9ddd64438a320f7410c25ba8f1c19cce81b56451a7a564"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-02-report.json",
+      "bytes": 16764,
+      "sha256": "01c570510c3063e8f05fc3afc9332dc339a6a3f4728c97f27a74ab03277df5ee"
+    }
+  ]
+}

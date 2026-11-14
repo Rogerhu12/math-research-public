@@ -1,0 +1,490 @@
+{
+  "scope": "Only selected actual successful stages, serial and selected-worker state/Jacobian parity and local timing; no new shooting or prefix BVP, no global speed or geometry claim.",
+  "packet": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0009.json.gz",
+    "bytes": 764073,
+    "sha256": "2cc67a7a0cd1652df817aff62770ca20c6b3804bd3e38af581032f787bb2ad52"
+  },
+  "sourceIdentities": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-tail-stage-pool-benchmark.mjs",
+      "bytes": 6993,
+      "sha256": "c4d38e323c11bbb6e0e56e46668ce9ef248101bd5700a5d30cb345246378212f"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-tail-parallel-stage-pool.mjs",
+      "bytes": 17233,
+      "sha256": "0face34151d61fc071109a749149602065a01ad16f9a221e527bd7940fd5f039"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-stage-parity-benchmark.mjs",
+      "bytes": 8990,
+      "sha256": "18f34a9697f21abb12e6e4abade766d993be22f0faeae8e8e4a9800d63f1eda1"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-split-engine.mjs",
+      "bytes": 2045,
+      "sha256": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-momentum.mjs",
+      "bytes": 13809,
+      "sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-flow.mjs",
+      "bytes": 2400,
+      "sha256": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-jacobian.mjs",
+      "bytes": 3948,
+      "sha256": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "bytes": 2420,
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+      "bytes": 1805,
+      "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f"
+    }
+  ],
+  "config": {
+    "modes": 22,
+    "quadrature": 512,
+    "spacing": 3,
+    "physicalDepth": 12,
+    "shootingParts": 16,
+    "stepsPerSegment": 16,
+    "orientation": 1,
+    "projectionFloor": 0.05,
+    "cuspAwareFlow": true
+  },
+  "savedResponseResidual": 1.0528345037007498e-9,
+  "requestHeightSHA256": "b4092c39bbb15d1f0d55130b3e354ae441c34b25273220f8f3ec820c96bad8a4",
+  "selectedStages": [
+    0,
+    12,
+    74,
+    1440
+  ],
+  "geometryPreparationMilliseconds": 14815.746402,
+  "stableGraphConstructed": false,
+  "actualShootingSolves": 0,
+  "actualBVPCalls": 0,
+  "poolStartupMilliseconds": 1052.7949960000005,
+  "poolMetadata": {
+    "implementation": "visible-flex-independent-stage-pool-v2-multi",
+    "workers": 4,
+    "stageCount": 4,
+    "modes": 22,
+    "quadrature": 512,
+    "stepsPerSegment": 16,
+    "cuspAwareFlow": true,
+    "profileTableMilliseconds": 6.642954000000827,
+    "profileCount": 4,
+    "exactProfilePoints": 132,
+    "profileTableValueBytes": 8448,
+    "sharedBufferBytes": 65040,
+    "policy": "ascending dynamic claims; stop dispatch above first observed failure; minimum failed stage; serial ordered reduction",
+    "resourceLimits": {
+      "maxOldGenerationSizeMb": 256,
+      "maxYoungGenerationSizeMb": 32,
+      "stackSizeMb": 4
+    },
+    "noProgressMilliseconds": 120000,
+    "closeGraceMilliseconds": 2000,
+    "terminateGraceMilliseconds": 5000,
+    "workerHeapSizeLimitBytes": [
+      318767104,
+      318767104,
+      318767104,
+      318767104
+    ],
+    "closeBeforeDNResponse": true
+  },
+  "benchmark": {
+    "scope": "Only the supplied two-to-four actual stages and selected flow branches; no whole-tail timing or whole-shooting claim.",
+    "selectedStageCount": 4,
+    "serialStageFlows": 8,
+    "parallelStageFlows": 8,
+    "blocks": [
+      {
+        "withJac": false,
+        "serialMilliseconds": 994.1899849999991,
+        "parallelMilliseconds": 792.7760689999996,
+        "selectedBlockSpeedRatio": 1.2540615488735187,
+        "comparisons": [
+          {
+            "stage": 0,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 8,
+              "part": 15,
+              "profiles": 1,
+              "portRatio": 6.727171322029716,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 1,
+              "targetNode": 0
+            },
+            "inputSHA256": "7561256f29310e3f94b2fd44ae05b626bb3204669ca7728725fbfeaf06ba8cb4",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 56.002514635329874,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "9b984ce31c86cd844caab815ce3d1c616c49c081ccd8c0b335f3e8b1dc5e9f30",
+              "parallelSHA256": "9b984ce31c86cd844caab815ce3d1c616c49c081ccd8c0b335f3e8b1dc5e9f30"
+            },
+            "J": null,
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": null,
+            "parallelMinimumA": null,
+            "serialMinimumD": null,
+            "parallelMinimumD": null,
+            "maximumSerialResidual": 1.4210854715202004e-14,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 12,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 8,
+              "part": 3,
+              "profiles": 1,
+              "portRatio": 1,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 13,
+              "targetNode": 12
+            },
+            "inputSHA256": "cf257591c327cf018e13d86202769d323036fe13e51da4d084d5ac912ba04503",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 372.64775188687764,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "e8fb5d177dd319cdb72441da2585f240f242a39b066472fac61640b3de897f50",
+              "parallelSHA256": "e8fb5d177dd319cdb72441da2585f240f242a39b066472fac61640b3de897f50"
+            },
+            "J": null,
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": null,
+            "parallelMinimumA": null,
+            "serialMinimumD": null,
+            "parallelMinimumD": null,
+            "maximumSerialResidual": 3.7643499428696714e-16,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 74,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 4,
+              "part": 5,
+              "profiles": 1,
+              "portRatio": 1,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 75,
+              "targetNode": 74
+            },
+            "inputSHA256": "2bfcdad34477f3a49c453679f922e7e4654f19fe3254947c911db9b42f0eed24",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 1.0670556307964356,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "00124591d5bfdec57503f7642b0ed286d55a851631e316042653366a0ab03097",
+              "parallelSHA256": "00124591d5bfdec57503f7642b0ed286d55a851631e316042653366a0ab03097"
+            },
+            "J": null,
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": null,
+            "parallelMinimumA": null,
+            "serialMinimumD": null,
+            "parallelMinimumD": null,
+            "maximumSerialResidual": 1.1238579511463342e-13,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 1440,
+            "metadata": {
+              "rawCell": 10,
+              "rawSegment": 8,
+              "part": 15,
+              "profiles": 1,
+              "portRatio": 6.727171322029716,
+              "mu": 7.235829112111797e-16,
+              "inputNode": 1441,
+              "targetNode": 1440
+            },
+            "inputSHA256": "f03bd48cac1bd7ef1d97a24a90f8213ea5da85ec803d47af0d868afbefcaf76f",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 4.2388330306297556e-36,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "981e165e7cd71d876ec54e9f712b2c0ba0c51140c4a22848269f2196be6be324",
+              "parallelSHA256": "981e165e7cd71d876ec54e9f712b2c0ba0c51140c4a22848269f2196be6be324"
+            },
+            "J": null,
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": null,
+            "parallelMinimumA": null,
+            "serialMinimumD": null,
+            "parallelMinimumD": null,
+            "maximumSerialResidual": 1.3363823550460978e-51,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          }
+        ],
+        "allFlowsBitwiseEqual": true
+      },
+      {
+        "withJac": true,
+        "serialMilliseconds": 3552.843095,
+        "parallelMilliseconds": 1853.5489549999984,
+        "selectedBlockSpeedRatio": 1.9167786669006557,
+        "comparisons": [
+          {
+            "stage": 0,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 8,
+              "part": 15,
+              "profiles": 1,
+              "portRatio": 6.727171322029716,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 1,
+              "targetNode": 0
+            },
+            "inputSHA256": "7561256f29310e3f94b2fd44ae05b626bb3204669ca7728725fbfeaf06ba8cb4",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 56.002514635329874,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "9b984ce31c86cd844caab815ce3d1c616c49c081ccd8c0b335f3e8b1dc5e9f30",
+              "parallelSHA256": "9b984ce31c86cd844caab815ce3d1c616c49c081ccd8c0b335f3e8b1dc5e9f30"
+            },
+            "J": {
+              "components": 1936,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 453866.3022006541,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "bb9aad45c708e7cfa984225f946ca254c1e4ba6f927f9005fb4d8ad69e5462ce",
+              "parallelSHA256": "bb9aad45c708e7cfa984225f946ca254c1e4ba6f927f9005fb4d8ad69e5462ce"
+            },
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": 0.9904313911824603,
+            "parallelMinimumA": 0.9904313911824603,
+            "serialMinimumD": 0.9934852887164036,
+            "parallelMinimumD": 0.9934852887164036,
+            "maximumSerialResidual": 1.4210854715202004e-14,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 12,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 8,
+              "part": 3,
+              "profiles": 1,
+              "portRatio": 1,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 13,
+              "targetNode": 12
+            },
+            "inputSHA256": "cf257591c327cf018e13d86202769d323036fe13e51da4d084d5ac912ba04503",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 372.64775188687764,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "e8fb5d177dd319cdb72441da2585f240f242a39b066472fac61640b3de897f50",
+              "parallelSHA256": "e8fb5d177dd319cdb72441da2585f240f242a39b066472fac61640b3de897f50"
+            },
+            "J": {
+              "components": 1936,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 57078070.42754137,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "bfce311ebbd0320dd451527fd7fc54dd312f8d4ce338b7812d161ad98d0ca677",
+              "parallelSHA256": "bfce311ebbd0320dd451527fd7fc54dd312f8d4ce338b7812d161ad98d0ca677"
+            },
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": 0.9904885289072485,
+            "parallelMinimumA": 0.9904885289072485,
+            "serialMinimumD": 0.9934811844066953,
+            "parallelMinimumD": 0.9934811844066953,
+            "maximumSerialResidual": 3.7643499428696714e-16,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 74,
+            "metadata": {
+              "rawCell": 0,
+              "rawSegment": 4,
+              "part": 5,
+              "profiles": 1,
+              "portRatio": 1,
+              "mu": 1.373451039451549e-7,
+              "inputNode": 75,
+              "targetNode": 74
+            },
+            "inputSHA256": "2bfcdad34477f3a49c453679f922e7e4654f19fe3254947c911db9b42f0eed24",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 1.0670556307964356,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "00124591d5bfdec57503f7642b0ed286d55a851631e316042653366a0ab03097",
+              "parallelSHA256": "00124591d5bfdec57503f7642b0ed286d55a851631e316042653366a0ab03097"
+            },
+            "J": {
+              "components": 1936,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 12996232.24951243,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "883ddfa8ba54de613deda5208b4508cd3d716ff990069b81aac4b811a61c9f21",
+              "parallelSHA256": "883ddfa8ba54de613deda5208b4508cd3d716ff990069b81aac4b811a61c9f21"
+            },
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": 0.5188351915854967,
+            "parallelMinimumA": 0.5188351915854967,
+            "serialMinimumD": 0.9999465786055296,
+            "parallelMinimumD": 0.9999465786055296,
+            "maximumSerialResidual": 1.1238579511463342e-13,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          },
+          {
+            "stage": 1440,
+            "metadata": {
+              "rawCell": 10,
+              "rawSegment": 8,
+              "part": 15,
+              "profiles": 1,
+              "portRatio": 6.727171322029716,
+              "mu": 7.235829112111797e-16,
+              "inputNode": 1441,
+              "targetNode": 1440
+            },
+            "inputSHA256": "f03bd48cac1bd7ef1d97a24a90f8213ea5da85ec803d47af0d868afbefcaf76f",
+            "state": {
+              "components": 44,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 4.2388330306297556e-36,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "981e165e7cd71d876ec54e9f712b2c0ba0c51140c4a22848269f2196be6be324",
+              "parallelSHA256": "981e165e7cd71d876ec54e9f712b2c0ba0c51140c4a22848269f2196be6be324"
+            },
+            "J": {
+              "components": 1936,
+              "bitwiseEqual": true,
+              "unequalNumericalComponents": 0,
+              "maximumAbsoluteDifference": 0,
+              "largestDifferenceIndex": null,
+              "maximumMagnitude": 1.0000699579013594,
+              "maximumDifferenceRelativeToLargestEntry": 0,
+              "serialSHA256": "42fef88fc8e37ad7d6acfd22c5d1684391601b924d64b87e2b64a08346d7ed62",
+              "parallelSHA256": "42fef88fc8e37ad7d6acfd22c5d1684391601b924d64b87e2b64a08346d7ed62"
+            },
+            "meanHeightDifference": 0,
+            "meanHeightBitwiseEqual": true,
+            "serialMinimumA": 1,
+            "parallelMinimumA": 1,
+            "serialMinimumD": 1,
+            "parallelMinimumD": 1,
+            "maximumSerialResidual": 1.3363823550460978e-51,
+            "maximumSerialNormalizedResidual": null,
+            "normalizedStateDifference": null,
+            "serialInputStatus": "unchanged",
+            "poolInputStatus": "unchanged"
+          }
+        ],
+        "allFlowsBitwiseEqual": true
+      }
+    ]
+  },
+  "success": true,
+  "poolCloseMilliseconds": 48.99928600000203,
+  "sourcesUnchanged": true,
+  "elapsedSeconds": 23.249619607999996
+}

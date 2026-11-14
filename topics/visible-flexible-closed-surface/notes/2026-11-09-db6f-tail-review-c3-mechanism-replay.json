@@ -1,0 +1,175 @@
+{
+  "status": "CONDITIONAL_POSITION_BUDGET_AND_STATIC_INPUT_LIMITS_ONLY",
+  "source_bindings": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-finite-bounds.json",
+      "bytes": 23434,
+      "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "bytes": 6006,
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+      "bytes": 5299,
+      "sha256": "b98272c2d92406dd3611ae680ebd754b3558268281c47500aea1e6a70b23f527"
+    }
+  ],
+  "core": {
+    "Fejer_order": 7,
+    "C3_support_modes": 14,
+    "rho_min": {
+      "numerator": "3",
+      "denominator": "20",
+      "display_only": 0.15
+    },
+    "rho_max": {
+      "numerator": "8833",
+      "denominator": "860",
+      "display_only": 10.27093023255814
+    },
+    "minimum_curvature": {
+      "numerator": "860",
+      "denominator": "8833",
+      "display_only": 0.09736216460998529
+    },
+    "rotated_first_support_coefficient": {
+      "numerator": "357",
+      "denominator": "1720",
+      "display_only": 0.20755813953488372
+    },
+    "support_gap_published_lower": {
+      "numerator": "57858534567",
+      "denominator": "125000000000",
+      "display_only": 0.462868276536
+    },
+    "diameter_published_upper": {
+      "numerator": "422558683837",
+      "denominator": "200000000000",
+      "display_only": 2.112793419185
+    },
+    "centered_radius_upper": {
+      "numerator": "57",
+      "denominator": "40",
+      "display_only": 1.425
+    },
+    "centered_inradius_lower": {
+      "numerator": "23",
+      "denominator": "40",
+      "display_only": 0.575
+    }
+  },
+  "enclosure_parameters": {
+    "projection_leakage": {
+      "numerator": "1",
+      "denominator": "1000",
+      "display_only": 0.001
+    },
+    "central_half_height": {
+      "numerator": "1",
+      "denominator": "10",
+      "display_only": 0.1
+    },
+    "end_disk_radius": {
+      "numerator": "3",
+      "denominator": "10",
+      "display_only": 0.3
+    },
+    "end_half_height": {
+      "numerator": "11",
+      "denominator": "10",
+      "display_only": 1.1
+    }
+  },
+  "pair_distance_squared_upper": {
+    "central_central": {
+      "numerator": "180494048233127325042569",
+      "denominator": "40000000000000000000000",
+      "display_only": 4.512351205828183
+    },
+    "disk_disk": {
+      "numerator": "26",
+      "denominator": "5",
+      "display_only": 5.2
+    },
+    "central_disk": {
+      "numerator": "1104769",
+      "denominator": "250000",
+      "display_only": 4.419076
+    }
+  },
+  "conditional_whole_D_squared_upper": {
+    "numerator": "26",
+    "denominator": "5",
+    "display_only": 5.2
+  },
+  "conditional_whole_D_clean_upper": {
+    "numerator": "23",
+    "denominator": "10",
+    "display_only": 2.3
+  },
+  "conditional_held_lower": {
+    "numerator": "57733534567",
+    "denominator": "125000000000",
+    "display_only": 0.461868276536
+  },
+  "old_M12_actual_fixed_axis_separation_lower": {
+    "numerator": "7977247853389765",
+    "denominator": "2251799813685248",
+    "display_only": 3.542609695989969
+  },
+  "strict_rational_margins": {
+    "cap_disk_inside_core": {
+      "numerator": "11",
+      "denominator": "40",
+      "display_only": 0.275
+    },
+    "central_pairs_below_cap_pair": {
+      "numerator": "27505951766872674957431",
+      "denominator": "40000000000000000000000",
+      "display_only": 0.6876487941718169
+    },
+    "cross_pairs_below_cap_pair": {
+      "numerator": "195231",
+      "denominator": "250000",
+      "display_only": 0.780924
+    },
+    "whole_D_squared": {
+      "numerator": "9",
+      "denominator": "100",
+      "display_only": 0.09
+    },
+    "held_above_one_fifth_whole_D": {
+      "numerator": "233534567",
+      "denominator": "125000000000",
+      "display_only": 0.001868276536
+    },
+    "core_rho_above_three_percent_whole_D_only": {
+      "numerator": "81",
+      "denominator": "1000",
+      "display_only": 0.081
+    },
+    "old_actual_axis_separation_exceeds_new_total_height": {
+      "numerator": "15116441316411097",
+      "denominator": "11258999068426240",
+      "display_only": 1.342609695989969
+    },
+    "first_support_coefficient_exceeds_current_guard_literal": {
+      "numerator": "3593",
+      "denominator": "43000",
+      "display_only": 0.08355813953488372
+    },
+    "naive_chart_warp_e_exceeds_one": {
+      "numerator": "142",
+      "denominator": "215",
+      "display_only": 0.6604651162790698
+    }
+  },
+  "all_strict_rational_comparisons_passed": true,
+  "solver_root_RK_geometry_backend_calls": 0,
+  "same_as_current_frozen_g_claimed": false,
+  "enclosure_realized_by_an_ODE_solution": false,
+  "whole_reach_or_closed_flex_asserted": false
+}

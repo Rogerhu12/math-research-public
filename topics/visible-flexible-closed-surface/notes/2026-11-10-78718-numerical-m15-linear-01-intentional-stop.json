@@ -1,0 +1,30 @@
+{
+  "schema": "78718-intentional-stop-for-higher-tail-mode-v1",
+  "utc": "2026-11-10T11:44:20.305173+00:00",
+  "session": 61908,
+  "status": "INTENTIONALLY_STOPPED_ACTUAL_TOOL_EXIT_130",
+  "reason": "Move actual research to M15/W22 on the identical physical g, with equivalent Fourier evaluation and a full nonlinear shooting tangent warm predictor. W15 has measured unresolved angular truncation; the current 1/8 changed-H request is not converged. This is a chosen numerical-route change, not a proof of W15 failure.",
+  "retained_first_inner": {
+    "nodes": 5345,
+    "physical_rms_max": 6.265089919191649e-10,
+    "physical_bc_max": 6.661338147750939e-16,
+    "curve_object_not_serialized": true,
+    "scope": "Local collocation success only"
+  },
+  "last_observed_live_tool_chunk": "ec9e4b",
+  "last_read_tail_iteration": {
+    "iteration": 5,
+    "norm": 0.08048699963143999,
+    "minA": 0.07195411518767784
+  },
+  "next_restart": "2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+  "next_true_tail_seed": "2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+  "mathematical_success": false,
+  "mathematical_nonexistence_or_failure_proved": false,
+  "actual_stop_tool": {
+    "chunk_id": "f5f4cc",
+    "exit_code": 130,
+    "wall_time_seconds": 0.02336939
+  },
+  "stop_observed_utc": "2026-11-10T11:45:19.224145+00:00"
+}

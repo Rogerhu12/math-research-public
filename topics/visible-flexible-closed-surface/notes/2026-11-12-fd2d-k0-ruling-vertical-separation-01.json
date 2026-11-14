@@ -1,0 +1,44 @@
+{
+  "schema": "fd2d-ruled-coast-exact-vertical-separation-v1",
+  "actual_execution": true,
+  "source_sha256": "3995da6b7d6f3703edf2cb61e2844b0e20f899ed4c4c8dc5dad3c6e6cb610939",
+  "certificate_sha256": "b941b2bff3cb3f6223580632948f9095a5406369278bd7071b2c4f993900ed6e",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "boxes": 296,
+  "complete_angular_partition_verified": true,
+  "radial_affinity_used": true,
+  "minimum_saved_z_lower_exact": [
+    "207919559113821548394784293057223717246812537499",
+    "365375409332725729550921208179070754913983135744"
+  ],
+  "minimum_box_sorted_index": 246,
+  "minimum_endpoint": "z_start",
+  "strict_coast_z_lower": [
+    "14",
+    "25"
+  ],
+  "rho": [
+    "17",
+    "125"
+  ],
+  "upper_to_reflected_coast_distance_strict_lower": [
+    "28",
+    "25"
+  ],
+  "upper_to_any_z_nonpositive_set_distance_strict_lower": [
+    "14",
+    "25"
+  ],
+  "reflected_coast_normal_ball_distance_margin_strict": [
+    "106",
+    "125"
+  ],
+  "nonpositive_set_normal_ball_distance_margin_strict": [
+    "36",
+    "125"
+  ],
+  "assertion_scope": "Actual finite ruled coast defined in input certificate. Any normal directions are allowed in this separation corollary. Other upper-core parts and same-coast pairs are not certified.",
+  "full_reach_certificate": false,
+  "rounding_used_in_assertions": false,
+  "seconds": 0.07938190100048814
+}

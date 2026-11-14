@@ -1,0 +1,99 @@
+{
+  "schema": "fd2d-geometry-R135-redeep45-closed-manifest-v1",
+  "actual_repo": "/workspace/scratch/fd2d-recovered-20261112/math-research",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R135-D2-cut-registration-reduces-to-height.md",
+      "bytes": 6694,
+      "sha256": "d0beff50358255e5ee610d9b83dee2000d53c989174a354bc18f1a01adbf70af"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_D2_height_only_cut.py",
+      "bytes": 3469,
+      "sha256": "f1a2270d0e90f3ee81f867b91f7ad048f2a081be9844ce666ce5a31624c65d2d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_D2_height_only_cut_check.py",
+      "bytes": 3182,
+      "sha256": "0524a666b80d043ad5125b94a866167814221f7c78c9d3655d5a9b927611a8ca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-D2-height-only-cut-check-01.json",
+      "bytes": 12035,
+      "sha256": "b74dddab8a381d54ce73dcc237bc8078830d8903b53c6b9377d63241cc5b8436"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_flatcut_milder_redeep_design.py",
+      "bytes": 11929,
+      "sha256": "63ed8761394db0e46ca8042eb226ad4228fc8ba10ac0a8f0e010ddae75f94fa3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json",
+      "bytes": 35378,
+      "sha256": "4ac49af76c08e9a89a0b8ddb3949082fad9f29ab4e2cbc9cc31daa1417d445e1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-meridian.npz",
+      "bytes": 357970,
+      "sha256": "7fd46d5964ceb905dc3025ea885d7cb88a2dd776ae034de0f19c6118a38ea80c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl047-candidate.json",
+      "bytes": 35381,
+      "sha256": "3a0f7be0167257e3c88d9b033a390e2f831b46333919103ee7747e7229d94ac0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl047-meridian.npz",
+      "bytes": 357510,
+      "sha256": "cdda506430d528cbee179924061821e71e4f9a1fc1cfb9f7f3999e6987f12cf2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-report.json",
+      "bytes": 8895,
+      "sha256": "4880b0c831f6f2aa2fa63c56d5794f4429f36188722683e3f44e5ce035b0d7e3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R133-central-domain-cut-registration-and-one-dimensional-cross-balls.md",
+      "bytes": 10398,
+      "sha256": "1b5eec4aca3299cf4b0c0b482ffb0922e67cf8e9819a792b641f2bb126d90b6d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R134-pointwise-gauss-and-curvature-cap-initialization.md",
+      "bytes": 8298,
+      "sha256": "8f0d67866e854d0feeb9ac44782dd02f578a60b48cb1d7a47f1d7eb44c0ea59e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-central-cylinder-height-window.md",
+      "bytes": 5076,
+      "sha256": "4ee03b3c8e99a41280c5b06338c04904939502d735553353b2facae19252e2d6"
+    }
+  ],
+  "actual_runs": [
+    {
+      "purpose": "main-byte milder45 generation",
+      "session": 34473,
+      "chunk": "4bc7da",
+      "exit_code": 0,
+      "seconds": 6.579940585000031
+    },
+    {
+      "purpose": "R135 finite rigid fixtures",
+      "session": 45294,
+      "chunk": "d61b2d",
+      "exit_code": 0,
+      "seconds": 1.02790660200003,
+      "passed": true
+    }
+  ],
+  "scope": "Complete R135 proof and finite source/metric checks. Strong nonlinear prefix remains open; no old unavailable state is relabeled.",
+  "format_only_updates": {
+    "rule": "root README section 4",
+    "changed": [
+      "topics/visible-flexible-closed-surface/results/R135-D2-cut-registration-reduces-to-height.md",
+      "topics/visible-flexible-closed-surface/results/R133-central-domain-cut-registration-and-one-dimensional-cross-balls.md",
+      "topics/visible-flexible-closed-surface/results/R134-pointwise-gauss-and-curvature-cap-initialization.md",
+      "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-central-cylinder-height-window.md"
+    ],
+    "mathematical_contents_changed": false
+  }
+}

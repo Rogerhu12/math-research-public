@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-main20-math-delimiters-format-only-v1",
+  "closed": true,
+  "scope": "Only the four literal mathematical delimiter replacements in three Markdown explanations. No source, report, mathematical expression interior, numeric artifact or computation was changed.",
+  "replacements": {
+    "\\(": "$",
+    "\\)": "$",
+    "\\[": "$$",
+    "\\]": "$$"
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-initial-compatibility.md",
+      "before": {
+        "bytes": 6587,
+        "sha256": "6bc49f73d6253ccd6b24c706b74ae96046e17c4fc3bbb0322e255e2374daa340"
+      },
+      "after": {
+        "bytes": 6505,
+        "sha256": "ce27e40bb5eea6169c802099ba598cb3dea6b86e309f4ff3761361417dffe5cd"
+      },
+      "literal_replacement_counts": {
+        "\\(": 41,
+        "\\)": 41,
+        "\\[": 12,
+        "\\]": 12
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-exact-base-rebind.md",
+      "before": {
+        "bytes": 6373,
+        "sha256": "dcf109cc99453687b2647774a1f283e0a4d95778d4b1acba6519706fcfe5bf0b"
+      },
+      "after": {
+        "bytes": 6339,
+        "sha256": "544b8c6ebca72f3dadbbb64beddcbdc66e61feb392c928aa20add262d206ce83"
+      },
+      "literal_replacement_counts": {
+        "\\(": 17,
+        "\\)": 17,
+        "\\[": 2,
+        "\\]": 2
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic-tail-complete-Arb.md",
+      "before": {
+        "bytes": 6812,
+        "sha256": "f870609ef5c88a350b340f9c8aa884e308f4303e7b23709b62e7790a4b785adc"
+      },
+      "after": {
+        "bytes": 6758,
+        "sha256": "5d08e9e661182ccbcca9c2c4a023fa11678b3ef1acc22ab3f32aebbcc2018a44"
+      },
+      "literal_replacement_counts": {
+        "\\(": 27,
+        "\\)": 27,
+        "\\[": 4,
+        "\\]": 4
+      }
+    }
+  ],
+  "mathematical_computation_repeated": false
+}

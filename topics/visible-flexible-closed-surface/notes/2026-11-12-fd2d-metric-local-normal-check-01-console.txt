@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-local-normal-check.py", line 191, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-local-normal-check.py", line 46, in main
+    raise FileExistsError('Use a fresh immutable check stem')
+FileExistsError: Use a fresh immutable check stem

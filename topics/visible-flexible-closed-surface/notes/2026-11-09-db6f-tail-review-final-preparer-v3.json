@@ -1,0 +1,46 @@
+{
+  "all_function_ASTs_equal_after_two_error_message_normalizations": true,
+  "all_other_source_bytes_identical": true,
+  "author_ledger_files_rehashed": 13,
+  "changed_lines": [
+    2,
+    23,
+    26,
+    104,
+    239
+  ],
+  "function_count": 11,
+  "future_positive_fixture_created": false,
+  "guarded_launch_bindings_rehashed": 89,
+  "old_exit1_not_relabelled": true,
+  "preparer_or_solver_imports": 0,
+  "resume03_bindings_rehashed": 83,
+  "root_started_is_not_completion": true,
+  "scope": "Identity migration retains the old gates. Final root completion and additional guard provenance remain future actual evidence.",
+  "script_sha256": "bb3cf9dbe90d9b692639531c8635898d858e83f0d62f5907717c4be983db3f8d",
+  "solver_calls": 0,
+  "sources": [
+    {
+      "bytes": 19101,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling-v2.py",
+      "sha256": "8b235dfd97d558fc16e446b65bff2412642b041b9bbe6efb193fc88147426b81"
+    },
+    {
+      "bytes": 19107,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling-v3.py",
+      "sha256": "273bb318dfaa2839be8fa6c532152cf708880c13591ac0fcbae5f4e97bdacdb5"
+    },
+    {
+      "bytes": 6757,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-preparer-v3.md",
+      "sha256": "02f41feaf685cf44e267334cc20b85797ed1904b27c18382b389addda79560af"
+    },
+    {
+      "bytes": 3800,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-preparer-v3-sources.json",
+      "sha256": "f879f6b04cccae80736d8ab3f8ab735fad59925d8dd3cdac5e1f12975a4cf035"
+    }
+  ],
+  "status": "PASS-exact-five-line-migration-and-frozen-provenance",
+  "unique_bound_files_rehashed": 95
+}

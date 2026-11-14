@@ -1,0 +1,41 @@
+{
+  "modes": 24,
+  "nodes": 2570,
+  "minimum_span": 3.2961946714094026e-05,
+  "inlet_jet_changes": [
+    2.6134839681439074e-31,
+    4.83570050796296e-16,
+    0.0
+  ],
+  "continuous_bounds_certified": false
+}
+{"data_bytes": 3112436}
+{
+  "mirror_inlet_C2_exact": true,
+  "mirror_second_height_adjustment_max": 1.0899875314600453e-33,
+  "exact_inlet_witness": {
+    "radius_at_psi_0": {
+      "numerator": "1767876825058754546439763825676523083037145462529958051021339",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 1.1001524491717278
+    },
+    "radius_at_psi_pi_over_3": {
+      "numerator": "1446556578961330869283398799043684108058619346887355544863259",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 0.9001943691166909
+    },
+    "radial_gap": {
+      "numerator": "241734485819103172145205",
+      "denominator": "1208925819614629174706176",
+      "display": 0.19995808005503696
+    },
+    "tangent_at_psi_pi_over_3": {
+      "numerator": "2892488480094581619903232397793923610847822520922548254178715",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 1.8000000002665935
+    },
+    "radial_normal_points_outward": true,
+    "positive_radii_and_gap": true
+  },
+  "complete_closed_surface": false
+}

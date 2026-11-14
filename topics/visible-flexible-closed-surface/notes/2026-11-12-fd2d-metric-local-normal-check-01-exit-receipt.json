@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T15:38:29.494456+00:00",
+  "finished_utc": "2026-11-12T15:38:35.535628+00:00",
+  "command": [
+    "python",
+    "scripts/fd2d-metric-local-normal-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-trace16-b0004-accepted-0002.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-trace16-b0004-report.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-local-normal-check-01",
+    "--damping",
+    "0.001"
+  ],
+  "pid": 4,
+  "returncode": 1,
+  "seconds": 6.041202382002666,
+  "console": "notes/2026-11-12-fd2d-metric-local-normal-check-01-console.txt",
+  "console_sha256": "4ce3b898a35d73991d9b663c592f77561db06bb446616af8e63673ae1e0ad9b1"
+}

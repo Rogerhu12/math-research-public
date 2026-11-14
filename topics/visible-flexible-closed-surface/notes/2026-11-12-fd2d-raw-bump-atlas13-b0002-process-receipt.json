@@ -1,0 +1,71 @@
+{
+  "schema": "fd2d-owned-child-exit-and-resource-observation-v1",
+  "observer_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-monitored-command-v2.py",
+    "sha256": "86527392fc0e200065f76f49dbf4e4e195ac92293ee48ef1fc7cd01dd7172d44"
+  },
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run-v3.py",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--warm-start",
+    "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas13-b0001-accepted-0002.npz",
+    "--radius-packet",
+    "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-atlas13-b0002",
+    "--owner-stop-file",
+    "/tmp/fd2d-raw-bump-atlas13-stop",
+    "--max-iterations",
+    "2",
+    "--modes",
+    "15",
+    "--reference-inlet",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "--reference-rim-fraction",
+    "0.12",
+    "--reference-cache",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz"
+  ],
+  "cwd": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "started_utc": "2026-11-12T14:22:13.854611+00:00",
+  "ended_utc": "2026-11-12T14:23:43.997194+00:00",
+  "seconds": 90.14261687399994,
+  "actual_child_returncode": 0,
+  "wrapper_returncode": 0,
+  "child_cpu_seconds": {
+    "user": 13.635779,
+    "system": 1.114521
+  },
+  "kernel_child_maximum_resident_KiB": 265976,
+  "sampled_process_peaks": {
+    "VmRSS_KiB": 266112,
+    "VmHWM_KiB": 266112,
+    "VmSize_KiB": 965212,
+    "VmPeak_KiB": 965212,
+    "RssAnon_KiB": 247112,
+    "RssFile_KiB": 19368
+  },
+  "last_sample": {
+    "utc": "2026-11-12T14:23:43.470757+00:00",
+    "seconds": 89.61617956199916,
+    "pid": 8,
+    "utime_seconds": 13.63,
+    "stime_seconds": 1.1,
+    "VmRSS_KiB": 193404,
+    "VmHWM_KiB": 265976,
+    "VmSize_KiB": 444012,
+    "VmPeak_KiB": 965212,
+    "RssAnon_KiB": 174036,
+    "RssFile_KiB": 19368,
+    "host_MemAvailable_KiB": 1472404
+  },
+  "samples": 168,
+  "observed_child_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+  "observed_child_cgroup": "0::/\n",
+  "telemetry_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas13-b0002-process-receipt-samples.jsonl",
+  "console_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas13-b0002-process-receipt-console.txt",
+  "termination_cause": "Actual wait return code only; no inferred OOM or time-limit cause"
+}

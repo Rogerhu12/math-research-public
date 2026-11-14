@@ -1,0 +1,291 @@
+{
+  "schema": "fd2d-actual-prepared-frozen-geometry-cache-check-v1",
+  "status": "completed",
+  "passed": true,
+  "sources": {
+    "fd2d_gc_prepared_geometry_cache.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_prepared_geometry_cache.py",
+      "bytes": 13991,
+      "sha256": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03"
+    },
+    "fd2d-metric-prepared-geometry-cache-check.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-prepared-geometry-cache-check.py",
+      "bytes": 9695,
+      "sha256": "cf1bfd67c7c1240d66b8a4d37af40b6670d3fd55489f13020a941fcf09375409"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_raw_bump_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    "fd2d_gc_raw_lifted_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    "fd2d_gc_blended.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace_v3.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    }
+  },
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "input_run_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+    "bytes": 260072,
+    "sha256": "f73915e5da735e21a50e82163d9e888d616c94f73c0c6a8cff7e0e561a2f916f"
+  },
+  "no_BVP": true,
+  "no_body": true,
+  "no_whole_profile": true,
+  "no_Jacobian": true,
+  "no_speedup_claim": true,
+  "dimensions": {
+    "raw": 31,
+    "tail": 16,
+    "nodes": 129,
+    "work": 512
+  },
+  "radial_points": [
+    0.6388423856674099,
+    0.7655923704145213,
+    0.9207891005921738
+  ],
+  "active_reference_mask": [
+    true,
+    true,
+    false
+  ],
+  "actual_small_labels": [
+    "0.17000000000000001221",
+    "0.53000000000000002665",
+    "1.1200000000000001066"
+  ],
+  "scalar_s_hex": "0x1.471659637af44p-1",
+  "distinct_adjacent_s_hex": "0x1.471659637af45p-1",
+  "original_vs_cached_maximum_differences": {
+    "original_vs_cached_coordinates": 0.0,
+    "original_vs_cached_reference": 0.0,
+    "repeated_coordinates": 0.0,
+    "repeated_reference": 0.0,
+    "different_delta_frozen_coordinates": 0.0,
+    "different_delta_frozen_reference": 0.0,
+    "different_actual_label_grid": 0.0,
+    "distinct_adjacent_binary_s": 0.0,
+    "left_side": 0.0,
+    "coast_side": 0.0,
+    "standalone_ruling": 0.0,
+    "repeated_ruling": 0.0,
+    "fixed_seed": 0.0,
+    "repeated_seed": 0.0
+  },
+  "actual_current_profile_changes_not_cached": {
+    "a": 1.8167711766547967e-05,
+    "a_s": 0.00028300757271115806,
+    "a_ss": 0.006798731827684534,
+    "c": 0.0002641258952644776,
+    "K": 0.006410631901930142
+  },
+  "distinct_side_radial_u_s_difference": 1.190846767018484,
+  "adjacent_binary_s_caused_a_new_cache_miss": true,
+  "exact_repetition_increased_coordinate_hits": true,
+  "exact_repetition_increased_reference_hits": true,
+  "cached_array_mutation_rejected": true,
+  "mapping_container_mutation_isolated": true,
+  "copy_views_share_chart_and_reference": true,
+  "repeated_install_returns_same_handle": true,
+  "source_vector_bytes_unchanged": true,
+  "definition": {
+    "schema": "fd2d-shared-prepared-frozen-geometry-cache-v1",
+    "source_sha256": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+    "binding_sha256": "c183ea7c9aad2b8dc30827a4cf8c9d0c1a1d2098fff464047598c62da214625c",
+    "frozen_binding": {
+      "chart": {
+        "schema": "fd2d-global-positive-frozen-ruling-atlas-v1",
+        "source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+        "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+        "dependencies": {
+          "fd2d_k0_ruling_chart.py": "dc6a6f2b8f3adc886365fad29202bbadde4373154112233767d034f2aa1a5098",
+          "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+          "fd2d_k0_ruling_coast.py": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+          "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+        },
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+        "original_chart": {
+          "kind": "fixed-seed-normal-to-material-quintic",
+          "blend_interval": [
+            0.58,
+            1.399634787656641
+          ],
+          "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+          "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+          "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+          "material_metric_changed": false,
+          "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+        },
+        "entry_transition": [
+          0.55,
+          0.5919999999999992
+        ],
+        "coast": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "exit_transition": [
+          0.8675434451024153,
+          1.4
+        ],
+        "smoothstep_degree": 5,
+        "entry_formula": "(1-S5)*U_old(s,xi)+S5*U_seed(xi)",
+        "coast_formula": "Frozen R139 ruling map, label xi is fixed inlet seed-normal angle",
+        "exit_formula": "(1-S5)*U_exit(xi)+S5*U_old(s,xi)",
+        "elsewhere": "original chart on open central and cut neighborhoods",
+        "interface_values_and_angular_jets": "same whole functions on both sides",
+        "interface_radial_jets": "one-sided; coordinates side=coast default, or left/right explicitly",
+        "a_c": 1.029181699754392,
+        "v": 0.2587478542495509,
+        "positive_U_xi": "positive convex combinations of original/seed/frozen-exit derivatives, and R139 D>0 within coast",
+        "parameters_frozen": true,
+        "physical_g_changed": false,
+        "physical_metric": "ds^2+a_delta(s)^2 du^2",
+        "coordinate_metric": "(1+a_delta^2 U_s^2) ds^2+2 a_delta^2 U_s U_xi ds dxi+a_delta^2 U_xi^2 dxi^2",
+        "selected_actual_reconstruction": "fixed physical material u",
+        "field_interface": "shared P1 coefficient value and common full physical lifting trace; U_s continuity is not assumed"
+      },
+      "reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+      "reference_evaluation": {
+        "schema": "fd2d-known-ruling-label-fixed-reference-evaluation-v1",
+        "source_sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+        "physical_reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+        "angular_atlas_source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+        "method": "R139 native_from_inlet at known frozen inlet label; no material inverse",
+        "physical_component_order": [
+          "n",
+          "m",
+          "l"
+        ],
+        "physical_l_s": "(2*m*m_s*n-m*m*n_s)/n^2 of the positive frozen reference",
+        "computational_x": "physical_s+U_s*physical_u",
+        "computational_xi": "U_xi*physical_u",
+        "composition_tolerance": 2e-13,
+        "stored_jets_dtype": "binary64",
+        "cache": "bounded recent 64 scalar-s/full-label pairs, actual label equality and requested material composition checked",
+        "physical_function_changed": false,
+        "unknown_raw_n_divided": false
+      },
+      "numpy_version": "2.3.5",
+      "longdouble_itemsize": 16,
+      "longdouble_mantissa_bits": 63
+    },
+    "byte_limit": 16777216,
+    "budget_scope": "Conservatively accounted cache payloads, keys and container headers; not total process RSS or temporary evaluations",
+    "keys": "Registered actual longdouble label column checked by array_equal; exact binary64 radial bytes or scalar hex; full ordered chart side; static frozen binding",
+    "longdouble_padding_bytes_are_not_keys": true,
+    "nearest_point_or_rounded_coordinate_hits": false,
+    "label_registry_maximum": 8,
+    "all_cached_arrays_readonly": true,
+    "mapping_containers_copied_on_return": true,
+    "original_reference_staging_capacity": 64,
+    "installed_reference_staging_capacity": 1,
+    "reference_staging_outside_budget": "One original DirectLabel row plus its original label; measured separately in statistics",
+    "large_native_packets_cached": false,
+    "cached": [
+      "frozen atlas coordinates",
+      "standalone frozen ruling chart jets without native packet",
+      "frozen reference physical values/physical_s/physical_u with material check",
+      "fixed original seed-coordinate jets"
+    ],
+    "not_cached": [
+      "current a_delta/c_delta/K_delta or their parameter jets",
+      "raw correction",
+      "current tail angle jets at a_delta*sin(U)",
+      "full lifting",
+      "current Codazzi forcing or Jacobians",
+      "nonlinear R153/R155 actual field",
+      "core geometry depending on central c"
+    ],
+    "original_mathematical_definitions_changed": false,
+    "old_source_files_modified": false,
+    "source_functions_used_on_every_miss": true
+  },
+  "statistics": {
+    "schema": "fd2d-prepared-frozen-geometry-cache-statistics-v1",
+    "entries": 10,
+    "label_entries": 2,
+    "by_kind": {
+      "coordinates": {
+        "hits": 5,
+        "misses": 5,
+        "stores": 5,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 5
+      },
+      "ruling_jet": {
+        "hits": 1,
+        "misses": 1,
+        "stores": 1,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 1
+      },
+      "reference_point": {
+        "hits": 6,
+        "misses": 2,
+        "stores": 2,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 2
+      },
+      "seed_coordinate": {
+        "hits": 5,
+        "misses": 2,
+        "stores": 2,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 2
+      }
+    },
+    "label_hits": 25,
+    "label_misses": 2,
+    "label_evictions": 0,
+    "cached_array_payload_bytes": 313312,
+    "accounted_bytes": 340893,
+    "peak_post_eviction_accounted_bytes": 340893,
+    "byte_limit": 16777216,
+    "within_byte_limit": true,
+    "original_reference_staging_entries": 1,
+    "original_reference_staging_accounted_bytes": 54416,
+    "original_reference_statistics": {
+      "entries": 1,
+      "maximum_entries": 1,
+      "hits": 0,
+      "misses": 4,
+      "maximum_material_composition_residual": 0.0,
+      "maximum_numerical_native_GC_residual": 8.031498643229495e-16,
+      "evaluation": "known ruling label",
+      "loaded_old_mixed_cache_used": false
+    },
+    "maximum_material_composition_residual": 0.0,
+    "no_runtime_speedup_claim": true
+  },
+  "verification_scope": "Three full-grid radial points plus small label/side/adjacent-s queries; no whole residual or solver computation",
+  "forced_eviction_stress_run": false,
+  "seconds": 12.073596700000053,
+  "peak_rss_kib": 92580,
+  "sources_unchanged": true
+}

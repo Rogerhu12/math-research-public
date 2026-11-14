@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-09T13:45:28.693385+00:00",
+  "status": "PASS-exact-object-ID-preserving-local-promisor-pack-compaction",
+  "objects": 108632,
+  "sorted_oid_sha256": "e4b051783edc11dcaff5598231ee1ff83fb950417801ca22103bf1f6b6fdf301",
+  "assigned_objects_repacked": 12353,
+  "assigned_oid_list_sha256": "74906ee64fc89a600be1dd3debfc7f476ff9afad488bf3c29a81dea2c303d711",
+  "new_pack": "pack-18ca53f56db0536fc09ca550d008d4b2ba029cd0.pack",
+  "new_pack_bytes": 77093681,
+  "old_duplicate_pack_selected_after_reindex": 0,
+  "old_duplicate_pack_present_after_git_expire": false,
+  "before": {
+    "available": 750993408,
+    "free": 4203741184,
+    "pack_bytes": 8360892324
+  },
+  "after": {
+    "available": 3888324608,
+    "free": 7341072384,
+    "pack_bytes": 5220472262
+  },
+  "seconds": 1.0015075206756592,
+  "refs_changed": false,
+  "research_files_removed": false,
+  "method": "Standard pack-objects copies exactly the old promisor pack objects assigned by MIDX; keeps promisor marker; rebuilds derived MIDX with original base preferred; verifies complete sorted object-ID set; standard MIDX expire removes only zero-selected duplicates."
+}

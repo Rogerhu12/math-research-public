@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "closed": true,
+  "scope": "Actual32 input adoption and declared identical row plan, frozen compressed storage entries; excludes active normal/trials",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_compressed_normal_tile_io.py",
+      "bytes": 2555,
+      "sha256": "3d324a341a03b796ee5e670314410d2cab83e7fbd7f1c2788ea78c0e5b315833"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-stage-normal-plan.py",
+      "bytes": 1506,
+      "sha256": "c30da55d8ea8dc13ee03071fb599f15217b44b4efd71b4f11b1bc0f4e1389667"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-stage-normal-tile-batch.py",
+      "bytes": 4549,
+      "sha256": "eff854721b0dd1bd8387c0c64309cf9e6c58a82eed79b4004e9fac59b419c92f"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-run-normal-tile-batches.py",
+      "bytes": 4705,
+      "sha256": "a6ec82c692d0d8c01b0f8d5353a5f161939e544116a6490694432683b7ac7f24"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-compressed-storage-static-definition.json",
+      "bytes": 1848,
+      "sha256": "27f552861454811eac0850a33a87ab1135edf3f18a6aff931443547eb4148b60"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-request.json",
+      "bytes": 3405,
+      "sha256": "ddf9681a0ce004f334dacd1e7e0a327c4721085536efa97dc1a89000ab44926e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-baseline-adoption-report.json",
+      "bytes": 134892,
+      "sha256": "fba5873d512a549071a607896cefc7fd26df4a992fe81e2d4912625483265cb6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-adoption-a01-process-receipt.json",
+      "bytes": 3408,
+      "sha256": "baf3aff0e3c257111397f2812d7f4d1fc5a4e88f368d0872c0efe4ce52d2b4f5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-plan-a01-report.json",
+      "bytes": 99822,
+      "sha256": "d0396cff1bb056bf1a66aad8a14314d302223ddfb1972715fb552f4ed7cb48b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-plan-a01-process-receipt.json",
+      "bytes": 3325,
+      "sha256": "8819dde850f740c738ec974d166ec77ebdd94b9dcbc6ce08a07471ef8dbbb6e5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic32-work/normal-partition-plan.json",
+      "bytes": 46631,
+      "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+    }
+  ]
+}

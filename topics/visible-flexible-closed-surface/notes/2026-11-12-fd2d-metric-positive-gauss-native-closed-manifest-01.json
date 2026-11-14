@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-closed-positive-Gauss-native-group-v1",
+  "state": "closed_actual_small_entity_consumer",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_gauss_l_native_field.py",
+      "bytes": 14983,
+      "sha256": "d48399b351fa818f3b3be1359f34a504c4e7f832d201c2d528216590fb9efc7d"
+    },
+    {
+      "path": "scripts/fd2d-metric-positive-gauss-native-check.py",
+      "bytes": 12218,
+      "sha256": "c0761152a9be152c2507cdf0d864908ea3f5e365e05c100c83fd25186a385718"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-gauss-native.md",
+      "bytes": 10379,
+      "sha256": "1d868d3b84f2e9ff7560691fbda4c9de14b7b67fa9fc66d862aaed4eb859c8a6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-gauss-native-check-01-report.json",
+      "bytes": 15909,
+      "sha256": "5b02b4bf912253c02bd50d1fa5ec259aedad29c93c182fd02cfca5c3888c6613"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-gauss-native-check-01-definition.json",
+      "bytes": 40883,
+      "sha256": "af645438d3371cc140092a82cc8dc1786f2e98e8971af779e27ef175f2f31101"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-gauss-native-check-01-samples.npz",
+      "bytes": 13809,
+      "sha256": "a7e5fb4c51b446b2cbbf84eee1e107d508c5b838d05057f0e68af4c1f93814aa"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-positive-gauss-native-check-01-exit-receipt.json",
+      "bytes": 567,
+      "sha256": "2914a15f7297d7131c7692eeb438f73763b316b1c5636e9f56c7e3b19af2a534"
+    }
+  ],
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-warm01-warm.npz",
+    "bytes": 56874,
+    "sha256": "4a3737df628b837143cf3237624656fb7e7c7721495e8df6f0199c5301e6c2a2"
+  },
+  "formal_result": "R153; full native formulas and piecewise regularity explained in dedicated note",
+  "actual_session": 74450,
+  "actual_completion_chunk": "7c9cda",
+  "actual_exit_code": 0,
+  "all_declared_small_checks_passed": true,
+  "source_and_input_unchanged": true,
+  "BVP_run": false,
+  "body_run": false,
+  "continuous_positive_domain_certificate": false,
+  "continuous_residual_or_closed_surface_certificate": false,
+  "additional_C3_completion_requirement": false,
+  "next_consumer": "Actual future R153 fields must retain explicit gauss_l_definition; do not feed these corrections to the affine reader as the actual l field."
+}

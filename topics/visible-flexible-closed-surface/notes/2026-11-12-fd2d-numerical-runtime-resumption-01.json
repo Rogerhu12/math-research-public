@@ -1,0 +1,82 @@
+{
+  "schema": "fd2d-observed-runtime-resumption-v1",
+  "observed_utc": "2026-11-12T20:20:21.700300+00:00",
+  "read_only_executor_chunk": "d256de",
+  "read_only_executor_exit": 0,
+  "files_observed": {
+    "scripts/fd2d_gc_dyadic_grouped_search_context.py": {
+      "bytes": 13329,
+      "sha256": "ad739600f698a1efeeb5bbb3e880dec4140ed06a641483d612e6a2ee08126658"
+    },
+    "scripts/fd2d_gc_dyadic_tail_problem.py": {
+      "bytes": 8554,
+      "sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533"
+    },
+    "scripts/fd2d-gc-piecewise-normal-reduce.py": {
+      "bytes": 16064,
+      "sha256": "870447554f40d4c4ea0a45fd3d9ad2cd4002c8a27de0cea291e0d16f559237d2"
+    },
+    "scripts/fd2d_gc_piecewise_normal_transport.py": {
+      "bytes": 3468,
+      "sha256": "eb004a7d7f39e50e707e9210039475d7f3af0733f7c10221369be04d62d72b4e"
+    },
+    "notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz": {
+      "bytes": 133735,
+      "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+    },
+    "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json": {
+      "bytes": 3404,
+      "sha256": "9ea1e0cfcbf2c2da3fcbef027e0f306d3413a10057cff2a3360fc6a08fd0e878"
+    },
+    "notes/2026-11-12-fd2d-raw-bump-grouped29-dyadic30-closed-manifest.json": {
+      "bytes": 33008,
+      "sha256": "abb701aab188ed5731219395f24cb22e6c67619cb6e6d24ce86c830c012efc09"
+    }
+  },
+  "before_resumption_closed_tile_ids": [
+    "0000-nodes",
+    "0001-nodes",
+    "0002-nodes",
+    "0003-nodes",
+    "0004-nodes",
+    "0005-nodes",
+    "0006-nodes",
+    "0007-nodes",
+    "0008-nodes",
+    "0009-cells",
+    "0010-cells",
+    "0011-cells",
+    "0012-cells",
+    "0013-cells",
+    "0014-cells",
+    "0015-cells",
+    "0016-cells",
+    "0017-cells",
+    "0018-cells",
+    "0019-cells",
+    "0020-cells",
+    "0021-cells",
+    "0022-cells",
+    "0023-cells",
+    "0024-cells",
+    "0025-cells",
+    "0026-cells",
+    "0027-cells",
+    "0028-cells"
+  ],
+  "old_processes_seen_in_ps": false,
+  "previous_environment_failure_exit_inferences": null,
+  "old_exit_records_unchanged": true,
+  "resume_controller_session_id": 60082,
+  "resume_controller_initial_chunk": "fc0bcb",
+  "resume_controller_prefix": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tile-controller-a05",
+  "resume_batch_size": 2,
+  "first_requested_missing_tiles": [
+    "0029-cells",
+    "0030-cells"
+  ],
+  "new_recovery_trajectory_not_started": true,
+  "accepted_input_unchanged": true,
+  "complete_normal31_not_yet_available": true,
+  "free_bytes_at_note_write": 1329135616
+}

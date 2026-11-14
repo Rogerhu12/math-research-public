@@ -1,0 +1,1354 @@
+{
+  "status": "PREPARED_OFFLINE_AWAITING_ORDINARY_FAST_FORWARD_PUSH",
+  "source_base": "fc197d3124c291d6da5e4ba496a123316fe31a83",
+  "source_commit": "382f1aa79513f197500e5548f030ee747e7fdcec",
+  "latest_parent": "531c5a63ad02ba1f78715f2ea2323e6121d61896",
+  "candidate_commit": "af206baee1e2bf97aad313b8d4f417e8645f4ac7",
+  "candidate_tree": "9d3c402f4f7b452ad524b2395c19ad42a2d50bb4",
+  "changed_path_count": 168,
+  "topic_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/HANDOFF.md",
+      "mode": "100644",
+      "git_blob": "533a3598874a71333887722c1dccf8d328308b12",
+      "sha256": "d2c33dcab7f28c5c748ddc3bb640bea265a369917d525e37c2678d04b080e043",
+      "bytes": 9924,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "mode": "100644",
+      "git_blob": "1d5115c18186ac833b41dcc7ab1342f6fe11a899",
+      "sha256": "e326557edac0537edb715fd2f460d856b8e06ca9c3ebe3d85964f55deefc542d",
+      "bytes": 17697,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar-publication.json",
+      "mode": "100644",
+      "git_blob": "b301a35bdde430e1945108147389b40ee275c798",
+      "sha256": "603b100deacbc2674ba658dc7483f901bd1e86cc7a15a155fc5fd2580e775b6d",
+      "bytes": 666,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar-sources.json",
+      "mode": "100644",
+      "git_blob": "6f04a2409c4cfe04aebdc7897a1d53917f8f5523",
+      "sha256": "575fcc2c123ad7e39f06085939c59ff1a1fe67843e68c235f5f50cedb27e1e66",
+      "bytes": 4062,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+      "mode": "100644",
+      "git_blob": "19010e9e52b86a333881018bea830a16f6f2dba0",
+      "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87",
+      "bytes": 19568,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-cones.json",
+      "mode": "100644",
+      "git_blob": "da147476338be5659fab013497e897208c69f6e8",
+      "sha256": "872fa1456032e41f5b87a88c1706755b66563c05121e5cbd4888c6d35842a535",
+      "bytes": 2769,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-interface.md",
+      "mode": "100644",
+      "git_blob": "69346135235809edda0987a69590dcb7d8513bba",
+      "sha256": "78b5d369810d4c37898a4f7d80def5d5a169a3921bdde823edded0c22840ed6e",
+      "bytes": 13770,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "18749679631b30af775c86f56e43834eb5311736",
+      "sha256": "163f973af882445df38d32443df4033f209df787d1e8c89a0b2c0a7875aee13b",
+      "bytes": 863,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-publication.json",
+      "mode": "100644",
+      "git_blob": "ca87d056bd82ac80aa169c595192d2aa47aa8ce7",
+      "sha256": "e2bd96fe707470720d24f0c92754b22939f0285cbe7b7a9c4f88ffce3f84b34a",
+      "bytes": 1438,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-sources.json",
+      "mode": "100644",
+      "git_blob": "ff62cc03bdb794aaea85c9801646b9696579cead",
+      "sha256": "29dba83dd1b546d27cf8102e7e1a81b09ea9a0252cd65799642894061a4325a3",
+      "bytes": 2559,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-cuff-budget.json",
+      "mode": "100644",
+      "git_blob": "888b4db8b563c568de739daff8799a2551d6de84",
+      "sha256": "88df09518665ba8c96b8f53b24d0ebbded2ebaddf4c98449ab4e50b86d010c91",
+      "bytes": 1754,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "mode": "100644",
+      "git_blob": "b1a8bd8196b0621837a9c16ab3c33f772a518925",
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8",
+      "bytes": 26777,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "mode": "100644",
+      "git_blob": "5d12aefaf2066de3163d943c398208d0bcac671e",
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63",
+      "bytes": 11706,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "6f3fbc7ab5691a8ed7464c7439e1f1cfb0a5aed0",
+      "sha256": "e6af9a1a9f5822a3747165e184de78ea07ed915c35d16bc6f780b99f7c3f1537",
+      "bytes": 1281,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-publication.json",
+      "mode": "100644",
+      "git_blob": "d0c457ef0720293df0a097f34a24eecebcdc7494",
+      "sha256": "497d47525bb33b12168fc594d84c693dc205b596661f11b0e83d0b8b4b5ef292",
+      "bytes": 1355,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-radial-interface.json",
+      "mode": "100644",
+      "git_blob": "1e09fcade43e76f14144335d8a976ab22db3ac99",
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948",
+      "bytes": 5299,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "mode": "100644",
+      "git_blob": "aeda6023e1cd8e295139bafcacb32b5f3a885982",
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507",
+      "bytes": 7319,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-radial-observed.json",
+      "mode": "100644",
+      "git_blob": "9cd738969603cd87f78c467f167d77ef80b03716",
+      "sha256": "180f39d9ac6ba1f38f58d2019bd544a9323774ff99baf1857b4de4dc0ed51389",
+      "bytes": 904,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-radial-publication.json",
+      "mode": "100644",
+      "git_blob": "61d62e466687bc8ab87bd254b6b386018aeee21f",
+      "sha256": "67b4e18269a9817656e38db0ce12895821c0372182a2e6feb4b75a9f26d54f82",
+      "bytes": 1023,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-sources.json",
+      "mode": "100644",
+      "git_blob": "05fc0242745455bfd50375d127384001156049f1",
+      "sha256": "afd0f40c6b523726cda98a6a1d72a0d63fa5455ed52d09d1e09a0a266acebef9",
+      "bytes": 2978,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-support-kernel-independent.json",
+      "mode": "100644",
+      "git_blob": "41d56c1e0e35dc7305da77743d9b61c59be550bc",
+      "sha256": "ff5094f0d1102570fb407c8cae08c177ec5113ed6acfa65ba83bb7012124459d",
+      "bytes": 3670,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-support-kernel-observed.json",
+      "mode": "100644",
+      "git_blob": "1e07fa9351dd5b45ca86aabe8dbbe57131e0908e",
+      "sha256": "e09b3cebd30e871e9f5f15d6ccf6abc91ac7faea49bdd7c443a2a2279838f03d",
+      "bytes": 1182,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-support-kernel-publication.json",
+      "mode": "100644",
+      "git_blob": "89d20cad9488fb49174411d2318890792a3b96ff",
+      "sha256": "5e7391168fc43e998a3e53bcdfe52099d3ff5e0e38681db2bb6dfcb758684139",
+      "bytes": 1194,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-support-kernel-replay.json",
+      "mode": "100644",
+      "git_blob": "bee4a970f7765cf1d5b8c78a7e879931c6e16071",
+      "sha256": "eb163aacdf57abb4511838753a3effec7b582ddc8ee27f9f3120d65483bc38c4",
+      "bytes": 2054,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-review-positive-support-kernel.md",
+      "mode": "100644",
+      "git_blob": "9fb1482d6edaed2f18bf77624d2cd4fea71a731b",
+      "sha256": "ac5f95bb39ec5e15aebf4f548744bd26a7396274674cd6630b8519ffcff5852a",
+      "bytes": 5530,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-active-trace.jsonl",
+      "mode": "100644",
+      "git_blob": "f5c57714f33726f405fc803f700bacd3b5c950f7",
+      "sha256": "f3b7e8a3b417697a3f139b0aaf865c0e41742d93d423c15d1d46255abc2f9a57",
+      "bytes": 2106,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-active-trials.jsonl",
+      "mode": "100644",
+      "git_blob": "fdb17cd515aa608c21d9d62b39e0651583a91563",
+      "sha256": "a0b42be810975c9cfacc34d58f89ab10c665cea8bc0738f576d24696eae10ef6",
+      "bytes": 5528,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call007-trace.jsonl",
+      "mode": "100644",
+      "git_blob": "ffd1afd1248f7dc1d3f82d153fcbe8de075d5120",
+      "sha256": "9bbcbda29309cdc6b0b302dbe6e76f6e24d7393a16a0c9fada18d61742011fba",
+      "bytes": 3498,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call007-trials.jsonl",
+      "mode": "100644",
+      "git_blob": "9bb510416491c68589c669d1c1036d3ae22ab21c",
+      "sha256": "29f140e1bb0c2084ed79e49da1d37f9465e74e00a704d217fd78f7fe52ff2201",
+      "bytes": 37834,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call008-trace.jsonl",
+      "mode": "100644",
+      "git_blob": "303e11ded5145b5626458bc4e776e5c45f081250",
+      "sha256": "77c696135dc7524da53eeee237edb222d21ff7da8a5416f8e3cd5981543f2694",
+      "bytes": 2461,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call008-trials.jsonl",
+      "mode": "100644",
+      "git_blob": "8dfaefa1af6e73e0552c13990aa400ab6e383a4f",
+      "sha256": "12b39803903c75be490022c8c4a3c22ab6831b78ad0c0f83a808692b7d03904b",
+      "bytes": 647,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call009-trace.jsonl",
+      "mode": "100644",
+      "git_blob": "b5f09818f13869b9cd33407471c6b6b79b02421d",
+      "sha256": "431460bdd92c4e0d84a0e35358f63de0d55f5391ccc5b20c623797074ecee218",
+      "bytes": 2246,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call009-trials.jsonl",
+      "mode": "100644",
+      "git_blob": "cc69fe047ca0cffd51237375f7e4daf6d3e62f2f",
+      "sha256": "e5e063b1d95e65443927194263b6e1915afe5ee97e06f64f7cf0187816a83f66",
+      "bytes": 5713,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-iteration.json.gz",
+      "mode": "100644",
+      "git_blob": "b88ad39b7808eaf3b84aa40038eeba8a39cf5aa3",
+      "sha256": "4ae99daed6ada2af7d1dbba9ac2e0b19f2257e0edc243a5d2e4a306b7cddd341",
+      "bytes": 262614,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-progress.json",
+      "mode": "100644",
+      "git_blob": "69fd358042ce1f30f58d31b3078b2e3be84c2e72",
+      "sha256": "25e939c4774c0d834ffe135ad1e6a34cf3eac635a9d03edd3b74655b8811a791",
+      "bytes": 15510,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-reproduction.json",
+      "mode": "100644",
+      "git_blob": "022b0824e47ae2a10c8ce3b2d081a633f99daa24",
+      "sha256": "3edfe30bed2fed4cf2218368ef229093b187377171ad0e2707a69f147c03d0d3",
+      "bytes": 19885,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-run.log",
+      "mode": "100644",
+      "git_blob": "fcc8b7660f0cc58e97dcba45eb3080507130a430",
+      "sha256": "285b972d2e3db804dcaffee7c9c35370247912e88baa56458543eda2f8944954",
+      "bytes": 3220,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-stage-input-call9-iteration2-trial0.json.gz",
+      "mode": "100644",
+      "git_blob": "918751cb02d905a4d8e3871bff50b71d53ca10f8",
+      "sha256": "06aae22246daf31aba2881d6ec9575d315ce0abc9c2e21da045f9b0e46171142",
+      "bytes": 1758,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-stage-input-call9-iteration2-trial1.json.gz",
+      "mode": "100644",
+      "git_blob": "585e4ba1119f96b34033675131303d1c6eeff03d",
+      "sha256": "03da201360607b432a5e4109e06d0f3157b29375d4c24f45bc4588e96814e1e4",
+      "bytes": 1756,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-stage-input-call9-iteration2-trial2.json.gz",
+      "mode": "100644",
+      "git_blob": "fdec13a34789667a4d89e79447940b2a50fd5004",
+      "sha256": "d74d964f67bf0f4480951bf47ee83de21f3ec78c5539abb7bd506429c0327d14",
+      "bytes": 1762,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0007.json.gz",
+      "mode": "100644",
+      "git_blob": "311defb6c5b392b8f7b61342716a3c144de02975",
+      "sha256": "352afd42a85af071b369b4987558854b0ed37ccc5173e26faca504251e4740aa",
+      "bytes": 266598,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0008.json.gz",
+      "mode": "100644",
+      "git_blob": "c18a739f3ad848d230205183e0ef1d573a93b7d5",
+      "sha256": "396cdd758e7b38cfd7d06ae7595210685bf2d9d9ef90e2fa157bafff087f93cf",
+      "bytes": 267635,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0009.json.gz",
+      "mode": "100644",
+      "git_blob": "c266b94570a826fb9dfbce3633cb8e446beb021a",
+      "sha256": "19ca2fbff43302060aa66a5f841b516b9c30d40aec338d3d5879e4814ee23810",
+      "bytes": 266620,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-historical-data-recovery-candidates-01.json",
+      "mode": "100644",
+      "git_blob": "90be7d91c08a8223ce7a212bbb6c6963332eb2a9",
+      "sha256": "cfc440e00797e6c68bbb3cb78077757f20d8bfa1f0f7902f594581f1b40c45c7",
+      "bytes": 59022,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "ff2b9f825b779090ebfc683709d04e74dc7f37b7",
+      "sha256": "8e81822d19359742e77da1b83d468fd92db34c0cee115ca684b3720e58f5663b",
+      "bytes": 6073,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation-publication.json",
+      "mode": "100644",
+      "git_blob": "d535c4fe64b4bcfae3e60ce62dec0b72161684dd",
+      "sha256": "f855b94c710179cea72a9c588257ae29dc9433d41a29145b17643cd871d7c577",
+      "bytes": 4415,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation-v2-erratum.md",
+      "mode": "100644",
+      "git_blob": "b01df42c7bc2850953b70be8a9a31c704efdfa26",
+      "sha256": "7955dc5e1ab7981ca04f8937cb0f975e1ca68b65e5014ec36a3afddc0eec5f84",
+      "bytes": 5413,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation-v2-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "3779831ec932f93660b511399bd0e2c7862cda91",
+      "sha256": "4640a6cb7924cc0bafc88fe2df7e9765450e8433efdf480ff2bf90d317f2e4f9",
+      "bytes": 5037,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation-v2-publication.json",
+      "mode": "100644",
+      "git_blob": "95b561bfac27810409e556070d3fb76468dbfe12",
+      "sha256": "80dc8e419eee37a8b9e496b89a17682a951c164ee964494baac2f6990207c975",
+      "bytes": 3825,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-implementation.md",
+      "mode": "100644",
+      "git_blob": "8ef6852c662137638aa1bbc555c3955a0f9a1d62",
+      "sha256": "c390a0594f2adb9717a45b4277ae1a41a07ecf3ebcc876220144db71df14933e",
+      "bytes": 9337,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-launch.json",
+      "mode": "100644",
+      "git_blob": "7f685c0d94a869ea78cdfe9a223848c0f206bbba",
+      "sha256": "d09a7b6b918c6a35eac9d122aaa754cef67caa630678635fbe61156616fd9241",
+      "bytes": 44850,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-preparation.json",
+      "mode": "100644",
+      "git_blob": "6e592fb42314c65107b937d82dc4df828294ccb4",
+      "sha256": "da774ee91424761680d4330f3f4c9be6d6ded3ade52aa607338815c847e38a1e",
+      "bytes": 4677,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-tail-config.json",
+      "mode": "100644",
+      "git_blob": "ca4742a914ba5bf1a64fb45838b397094f43f0fc",
+      "sha256": "2d41a2dacda0aa767c17bc4f944285c3f6a1f4b3f947217c6c3125ed71246a3a",
+      "bytes": 3092,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01_tail-continuation-policy.json",
+      "mode": "100644",
+      "git_blob": "78c49b41dc4094bf50cd18240b0bc9fa69766bd8",
+      "sha256": "6493fb9fc1b90b4352666a241ff17cde7bcc711e83eb526b9810e9e23a2ec510",
+      "bytes": 44553,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01-launch.json",
+      "mode": "100644",
+      "git_blob": "d87985927820fb3d9549661cc0bf12f11dbcc60a",
+      "sha256": "5d4224ea9138bd6fc6f017c6aade288e003532fb45e77252d4d45c4fdc988cb5",
+      "bytes": 45173,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01-preparation.json",
+      "mode": "100644",
+      "git_blob": "7e7bbaa580f849d8106593e3a579b9775413d749",
+      "sha256": "1df30588553b77d5e90ebe9a59ec838254de0de0091abc55f5597b9429eddc59",
+      "bytes": 4692,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01-tail-config.json",
+      "mode": "100644",
+      "git_blob": "74e793986a64d7516c03083106232355b5ee43f8",
+      "sha256": "422d298c0dd19b7e35bdc97f25dcd1edb4e3f1d523496f804ea8a8e7371950a3",
+      "bytes": 3104,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail-continuation-policy.json",
+      "mode": "100644",
+      "git_blob": "45b2c98739d3a7a7fd2d8b5fdbade0570d521cc2",
+      "sha256": "1feff0e39f7b9cb5030163c5d62f5c8becf714f23fa0cf46515aea54f3b874ea",
+      "bytes": 44867,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail_0001.json.gz",
+      "mode": "100644",
+      "git_blob": "019c27807d02e0c791f10f89a7ebd4ba66eb156e",
+      "sha256": "de47db235f5c94d4848b745c2b9f36bde6e99b47d24af376b0818386f84a47f0",
+      "bytes": 267350,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-01.json",
+      "mode": "100644",
+      "git_blob": "b09c6292fb40323fc52dfdedaa3bf70235c255ca",
+      "sha256": "3bd1f0e3550a5c5400ea8de6fca9458db730783f8c53449b2446cdc284c5c694",
+      "bytes": 3271,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-02.json",
+      "mode": "100644",
+      "git_blob": "b160889d8eb3697d17bd47841c063f73443ac9f1",
+      "sha256": "2a7c21f4d2e65e4b664e0fe223ec8be681513215ae8d289a8c116299a914ec14",
+      "bytes": 3271,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-protocol-v2-01.json",
+      "mode": "100644",
+      "git_blob": "af5a77386bcf1aa344427b2a5b3afc7b84e1d688",
+      "sha256": "5b4a683c3d6cef32558614790a6e4eb1e3408ebb30b3e110cda88caba22e5dc2",
+      "bytes": 4198,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-definition-check-01.json",
+      "mode": "100644",
+      "git_blob": "3413c0787485de7151c3b59ae9195432a0b37579",
+      "sha256": "638c1bb5d925c2d381ae9a608d65b8f4e8bd34ac6250fb366432e2a5f13f8ff8",
+      "bytes": 10096,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-method.md",
+      "mode": "100644",
+      "git_blob": "4c57e03ac552ae98934409cc9a5c1dc11ae06816",
+      "sha256": "07ef29867fe40fe46f5b2048c3e220711e9f7d725afea47cb36cfed306422500",
+      "bytes": 8927,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "b911225471cd5e5e1a956645e3517090c291b508",
+      "sha256": "02efeb57248cd698c683b839da2411532d03b29f052d35b0727155b1f53e7c19",
+      "bytes": 6022,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-publication.json",
+      "mode": "100644",
+      "git_blob": "1ad0885c85b56219aa871d413437fd11e76d2f06",
+      "sha256": "7f94ae12cb5dde41c3dc4adabeae8fbd5d6ee11e775d465b639445c66f7a3ebe",
+      "bytes": 3052,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+      "mode": "100644",
+      "git_blob": "82417f39c90c143d3f04dd861e300eca957ff6a1",
+      "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83",
+      "bytes": 55594,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-preparation.json",
+      "mode": "100644",
+      "git_blob": "5f738e395b32853ab9a2c71df9272d9fa833f5d2",
+      "sha256": "c65a5873d10449f75818ebc282794f0bb8996e33384bbd777a2f815563d91abb",
+      "bytes": 2630,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-interface-publication.json",
+      "mode": "100644",
+      "git_blob": "37fa4874592944bce90060bbda40cb5dc49d56cc",
+      "sha256": "315badfc287432d58505f687b1efd0d16979f0b5227fac596d8f96de04801615",
+      "bytes": 814,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-interface-sources.json",
+      "mode": "100644",
+      "git_blob": "c2c4c8cc97e58728de367d62e5f1f97064494a3a",
+      "sha256": "150a196fc14b79ec21f0cae635d32f8635617ee79b14edd646b5449e50c50800",
+      "bytes": 12923,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-interface.md",
+      "mode": "100644",
+      "git_blob": "a7d594a723fd27b3c4ef6d574190fd0512d042dd",
+      "sha256": "39516e14f7185ecd4ff14c3a4df7c8501794a90bc34be0bb2622371f0b6c3f6d",
+      "bytes": 13430,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-child-execution.json",
+      "mode": "100644",
+      "git_blob": "a6c408988e37db5cc76456f5f7d32b282011e92f",
+      "sha256": "2b8655432bf73a597c7e6f4b5ee9221230835212bf48628dcc3460d18abda545",
+      "bytes": 2306,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed03-localgeometry-publication.json",
+      "mode": "100644",
+      "git_blob": "682168dbd0f21ef6f033f9714855dfc8f1c0511d",
+      "sha256": "07105739ec3d26bfa86f4bcaca9153bfac612f2239a525567cea1098e3a26706",
+      "bytes": 40079,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-calls007008-audit.json",
+      "mode": "100644",
+      "git_blob": "5a2fda45aced38bfa84d10b5e840ef8299c9eeb6",
+      "sha256": "389a3fd19350a3fd19257dc01fb33e8f245f4ae55023ac9d2a175d880c44d525",
+      "bytes": 4513,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-calls007008-observed.json",
+      "mode": "100644",
+      "git_blob": "4da5a471599ac3cdb5d26e6a8f36eec68d6a2dca",
+      "sha256": "af86f0334e25dd7bc16fc88ea1b0c117b63256436948891714149c071995df1b",
+      "bytes": 659,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-final-observed.json",
+      "mode": "100644",
+      "git_blob": "e438318a690100bb28aaab990c638bf5deb13078",
+      "sha256": "c355b99501948e34a290cbb5fb0d54250c28c5b1b9e6491c0892c2636dc8c68f",
+      "bytes": 3715,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-historical-worktree-eviction-observed.json",
+      "mode": "100644",
+      "git_blob": "36f89715e62329ea3524d8e792cf234c2561155b",
+      "sha256": "bc4fa38dc7e4f0c10e9583c800003d77bb8b31b101db81c778a00fa08713b039",
+      "bytes": 6306,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-bootstrap-audit.json",
+      "mode": "100644",
+      "git_blob": "0b113bf6377c9e1c5f15932f95345a8300e28f4f",
+      "sha256": "a6eaba0e8102caef19d16e97fa4998b5051e91803182a0fcf47161534320287d",
+      "bytes": 2955,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-bootstrap-observed.json",
+      "mode": "100644",
+      "git_blob": "445d83ac2c424b51bae3060d9affc71a33ecba80",
+      "sha256": "09a7597f7ce5956be1adf8267785e3e34abfcefec8b88345d97d816fbdece838",
+      "bytes": 656,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "mode": "100644",
+      "git_blob": "f154e00281305754af2a16d157717cf00fc2cb1e",
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d",
+      "bytes": 48896,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-start-observed.json",
+      "mode": "100644",
+      "git_blob": "793ae00fad1e9d3af523e5be866dee41f8ca797a",
+      "sha256": "6da6ddafac2f68775cc291144b4839fc83a062567d2fd170956a6d9e38f57cd2",
+      "bytes": 904,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.json",
+      "mode": "100644",
+      "git_blob": "bee4a970f7765cf1d5b8c78a7e879931c6e16071",
+      "sha256": "eb163aacdf57abb4511838753a3effec7b582ddc8ee27f9f3120d65483bc38c4",
+      "bytes": 2054,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.md",
+      "mode": "100644",
+      "git_blob": "955c2b113d51c9b0ce7cd0204fb548a4fb90c5b1",
+      "sha256": "0b3ad1fcdf31af4653547ae5d9d2bba520096210887f5ff24adf4f1ed7a2531f",
+      "bytes": 4616,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r35-adoption-observed.json",
+      "mode": "100644",
+      "git_blob": "b6bc917343068ab59b4d09962b6834e40d87a3c9",
+      "sha256": "0e1ad59a327d52039d370f3c484202cc4828925f2d9264ae34d5513b01ee3111",
+      "bytes": 2365,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r36-r37-adoption.json",
+      "mode": "100644",
+      "git_blob": "c28fc7470554116ee89009aacaa27ead762de4f2",
+      "sha256": "8504f9ea141ca3160b39ad02d4cce812cc6297fa97c7b783ce94e15df2eadf11",
+      "bytes": 2141,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r38-adoption.json",
+      "mode": "100644",
+      "git_blob": "17412398fffa23509baf2bab230267ac865ba1f0",
+      "sha256": "214ac66fa098ab27ff0dd69ef36b473055f9d10d610db657ddbfd7a72b293fd6",
+      "bytes": 3204,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-readonly-pack-coverage-after-pilot-start.json",
+      "mode": "100644",
+      "git_blob": "18f41839713760420a33d0aa0a9e0c5472e2ffd6",
+      "sha256": "50239a0c8dd88c11b69af91e75ea9cca64a1bea06654b7afd9bbaeeac5c38a34",
+      "bytes": 37106,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-resource-residency-observations.md",
+      "mode": "100644",
+      "git_blob": "fd30c1bd2c62e48a7ee6fe08c95839574cb38c87",
+      "sha256": "cbf363700d1ace394f748c7c3910c317f2dbc6c6d66d6b06a94b5b699bb8f7ff",
+      "bytes": 2047,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-retired-upload-index-preservation.json",
+      "mode": "100644",
+      "git_blob": "c4b6287d8f9062c87de4647411050bdf66afecb1",
+      "sha256": "068542ea8f31c1f391f5000479696860a7ff0f33628e0fdcec1fec156aba68c5",
+      "bytes": 5744,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cones-replay.json",
+      "mode": "100644",
+      "git_blob": "da147476338be5659fab013497e897208c69f6e8",
+      "sha256": "872fa1456032e41f5b87a88c1706755b66563c05121e5cbd4888c6d35842a535",
+      "bytes": 2769,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cuff-replay.json",
+      "mode": "100644",
+      "git_blob": "888b4db8b563c568de739daff8799a2551d6de84",
+      "sha256": "88df09518665ba8c96b8f53b24d0ebbded2ebaddf4c98449ab4e50b86d010c91",
+      "bytes": 1754,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-interface-check.json",
+      "mode": "100644",
+      "git_blob": "bd63359bcb48ed52303dd81dbcb7a2e79fac3ade",
+      "sha256": "292ae0cdcdcbbab0ab11fb314fc6b54bc3e6ffc71f078b96048f2f02e9262834",
+      "bytes": 4087,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-interface.md",
+      "mode": "100644",
+      "git_blob": "1f31169476b13df9a0eb9d05d40494e25b596588",
+      "sha256": "9da7c3bc36fffcbaabb47b60404652e4c1935ccb8d6929d225aba64187d99edb",
+      "bytes": 6768,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-launch.json",
+      "mode": "100644",
+      "git_blob": "290976ae85041afe595b780a69d3670e90048728",
+      "sha256": "ce1d05787e40c3b9cd3ff42443ef3de66f275c9be3135ff5c6b430e6cabc2b92",
+      "bytes": 34121,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-start-observed.json",
+      "mode": "100644",
+      "git_blob": "5590f0db03f275acdd489fd54db8d65afda52a94",
+      "sha256": "a50537456eef1844ee6830dd1582d86a3207cf33b2086e0c078b3d9c1c17825d",
+      "bytes": 809,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-33.json",
+      "mode": "100644",
+      "git_blob": "9568e9210a214d967c6025233474cda4c0690d00",
+      "sha256": "39bcd8996391bd54264e04e7755e87a3725dff8e8e00b7ab025d9be0fd492f1b",
+      "bytes": 1703,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-34.json",
+      "mode": "100644",
+      "git_blob": "fa0dd6762e99a69df13c8f46db60ba8a42d0b95e",
+      "sha256": "13c3c8c1d3cc4d625261e56b14353457ab0eb4759da00d60f97290a83e59518f",
+      "bytes": 1429,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-35.json",
+      "mode": "100644",
+      "git_blob": "014ee117d6ea9749ca33184ad380e3936081380f",
+      "sha256": "3589fe96c385fbd34fd3aa4359f18a110f27c5f847843be8cfd79aa391571dcc",
+      "bytes": 1218,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-36.json",
+      "mode": "100644",
+      "git_blob": "1493c4b5a2a2cfd45e862169a4ce4d99bd729625",
+      "sha256": "5ef1fc80d9dfde87b1caac46d08fe68612a6e8948cc8d98c9f565977d1eb919b",
+      "bytes": 1402,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-37.json",
+      "mode": "100644",
+      "git_blob": "a4d074473415e5ac6c603e5b6eafb75824f46e00",
+      "sha256": "464a248cbbd13bca36fe6e4efab3f09bf054a5a823637d1f5d231008fcfc64a3",
+      "bytes": 1631,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-38.json",
+      "mode": "100644",
+      "git_blob": "f1bf949826d4c7ac7a516e9b06cc5da27b4a5874",
+      "sha256": "09ce3a2cd7cc9dfc69291a75ecb485d2dca08c365b11ce20ee3d8f1904454725",
+      "bytes": 1273,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-positive-collar-budget-replay.json",
+      "mode": "100644",
+      "git_blob": "5d12aefaf2066de3163d943c398208d0bcac671e",
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63",
+      "bytes": 11706,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-positive-collar-radial-replay.json",
+      "mode": "100644",
+      "git_blob": "1e09fcade43e76f14144335d8a976ab22db3ac99",
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948",
+      "bytes": 5299,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-check.json",
+      "mode": "100644",
+      "git_blob": "a8ace1553f5a3d51605b10974e9b5dfab5826609",
+      "sha256": "d39ffb492df931010320af1e130e48e6bee4d6dd5ea222acc8c7ab5fbb3b07f1",
+      "bytes": 5289,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-observed.json",
+      "mode": "100644",
+      "git_blob": "190701f13d417cb9c590ced9e54c8354a1a0a696",
+      "sha256": "0633aff9e89a7a74e20129c7d2183f5df2aa14e5d75f8ec48990555da3d053c3",
+      "bytes": 1188,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-sources.json",
+      "mode": "100644",
+      "git_blob": "e0b7c569449348dd4a1a4293483ffc13ed260029",
+      "sha256": "a940dc04386a8e56c6c905f2e63b582c694f12d2cfb7aca82c24a7f2dbb847f7",
+      "bytes": 3432,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar.md",
+      "mode": "100644",
+      "git_blob": "db0e4f47bf71a88c33f0babc2e76259cb4cdac6b",
+      "sha256": "85582515d89de88f21dd1371b7fc54d2e7db7845da99c966ba84754481e0e142",
+      "bytes": 13405,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-continuation03-closed-check.json",
+      "mode": "100644",
+      "git_blob": "52c2363ca6446436d50992e3d2633ae48053ca62",
+      "sha256": "a92f7d6f21dfc91e0ea3123c220e3329c0aaaf797e13b6b9acd746b8bbc57b8b",
+      "bytes": 52807,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-continuation03-closed-observed.json",
+      "mode": "100644",
+      "git_blob": "26e8098cbd40ad96bcf19c271abccc3673b3d94b",
+      "sha256": "d2e2a07170b673737e47f3a4cfd1fc4787cb2df573b4580b0f222e17c5681515",
+      "bytes": 3061,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-continuation03-closed-sources.json",
+      "mode": "100644",
+      "git_blob": "8f5938a6560e8e225d0477064d6dd02466c6d225",
+      "sha256": "42f0acd3306d36547e1aa8790874fbf41c6d6609634a9d87493ec8a8ac1d3075",
+      "bytes": 4764,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-continuation03-closed.md",
+      "mode": "100644",
+      "git_blob": "f27f506d72d1efbd7fa1be2bf05e5037b32e6924",
+      "sha256": "d0d3f40712b93cce7f7fc2426c0ac4db64cd6fa50aa6f5d69a497c4c3b716a80",
+      "bytes": 11868,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-implementation-observed.json",
+      "mode": "100644",
+      "git_blob": "8c51c05152ae12392c5f51602fdeabc9ebbd2b09",
+      "sha256": "6d1b4d81bccbdf749e044f5a4b9ec0cb1343d64628274b9e6312a6294d3c6097",
+      "bytes": 5699,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-implementation-sources.json",
+      "mode": "100644",
+      "git_blob": "23924567695d710df7d295a493926944594252a0",
+      "sha256": "d603e73b7a888c6b2315e5f77eddde08e3eeda7f37f23cc6e627fe81186dc56a",
+      "bytes": 11970,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-implementation.md",
+      "mode": "100644",
+      "git_blob": "3dcf279764a046f61d60d919030ab24bbd36cdbb",
+      "sha256": "d4c68f959fe0c05e6a52ef4154ab4da8d0930b623228a00d85b2a366339d49b6",
+      "bytes": 15638,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-protocol-replay.json",
+      "mode": "100644",
+      "git_blob": "b160889d8eb3697d17bd47841c063f73443ac9f1",
+      "sha256": "2a7c21f4d2e65e4b664e0fe223ec8be681513215ae8d289a8c116299a914ec14",
+      "bytes": 3271,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-protocol-v2-replay.json",
+      "mode": "100644",
+      "git_blob": "af5a77386bcf1aa344427b2a5b3afc7b84e1d688",
+      "sha256": "5b4a683c3d6cef32558614790a6e4eb1e3408ebb30b3e110cda88caba22e5dc2",
+      "bytes": 4198,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-linear-dn-v2-check.json",
+      "mode": "100644",
+      "git_blob": "4411f8142d6903d4ae6727c088df9b523c64bd4f",
+      "sha256": "0ae529a9f8cdf5e43fa0fce64e0afcab25348f8b67282aad65534d81aa9c4d0c",
+      "bytes": 3341,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-positive-collar-check.json",
+      "mode": "100644",
+      "git_blob": "e39d24ee850ed4d6c5b83615e0d808741aab8fe5",
+      "sha256": "9c2304ecf7d89074443f98527e37a12684fa1cc3e0c1ef6ae6c9719b701f6842",
+      "bytes": 6137,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-positive-collar-observed.json",
+      "mode": "100644",
+      "git_blob": "282b76ad99a3257a60de2db0176eed839702f9ce",
+      "sha256": "7ec1aefe8892910a950f70c7fa216ab17175fad16357bedc484eb1f508b286cf",
+      "bytes": 3806,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-positive-collar.md",
+      "mode": "100644",
+      "git_blob": "b4c6606e0da05a0c20d13ff50f3571729a0bf661",
+      "sha256": "17ae3b7070ae6fd8c6bdbca18f2b284bfa887672e696bcb206a16bd255c06070",
+      "bytes": 14951,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-affine-inputs.json",
+      "mode": "100644",
+      "git_blob": "e86e7c7e806de4a97f45d104ee888745ab942ae2",
+      "sha256": "36121327bd55a4f64de6834c10c8f0da838469046bb7606c8ac334453f104884",
+      "bytes": 3338,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-affine-observed.json",
+      "mode": "100644",
+      "git_blob": "7b81cd2554c56df5fb07f7fe5402d47504d37fd4",
+      "sha256": "024acc0a4c6844ab28e33f98d1159258b8cdfbee50244fd93dd68939d0c83584",
+      "bytes": 2345,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-affine-runner.md",
+      "mode": "100644",
+      "git_blob": "43851d7e498d5535be542e2db35c36efb05f73ea",
+      "sha256": "d6a439ceb745451fd039a7810b9b3f6e91fde3a1cc4a3637f8a4ddff0d512751",
+      "bytes": 11104,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-affine-sources.json",
+      "mode": "100644",
+      "git_blob": "aeb705a74feb8e275383cbb56bb07ed93365982d",
+      "sha256": "337b09d519e63251e41ec3cb1b56334e9425807766fadf54655ec4f90e2bb2ed",
+      "bytes": 5559,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface-check.json",
+      "mode": "100644",
+      "git_blob": "c791a19151c16c41ddc888e90538926dae9d77ba",
+      "sha256": "262ae71305c8c3c588fc8831d0970c51051b25d0d866f36e33f645c192092627",
+      "bytes": 35857,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface-observed.json",
+      "mode": "100644",
+      "git_blob": "e2f781320295d047d4547b5178a43c35d3d04fdd",
+      "sha256": "6fbf94d8307dc8b8ebdb0ebb8cde21027b11068831d1779df99cdc419e5d7d7d",
+      "bytes": 1253,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface-sources.json",
+      "mode": "100644",
+      "git_blob": "139133ae7b789284796f79b370c58b55739d5276",
+      "sha256": "8ccc1aca3b338b97430cadcab201fda3a777fd2491f3953b40cd65d0882207ce",
+      "bytes": 2034,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface.md",
+      "mode": "100644",
+      "git_blob": "7c9e66408ccfa70010e99b5699f5dd456a168afc",
+      "sha256": "73125985a2ca47b124d6940bd8248c3fc5e9e1e367e84e7613e035744a3b5631",
+      "bytes": 9498,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "mode": "100644",
+      "git_blob": "b9ada5c1d8b3cdcb061783fa6056a9f94900c7ba",
+      "sha256": "1fa1cf3804e2430f3a15c6155ec046418f3d50999b03768ac2ad2f90dd3d8656",
+      "bytes": 16782,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "mode": "100644",
+      "git_blob": "0fd07afe6e550ff5169ff258285c2c51efd69f56",
+      "sha256": "6f51076350e5681ee3242150ed235f502dd2aa1c54b602f9d04a3fcaf7d45d87",
+      "bytes": 11558,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R35-nonconvex-connector-and-fixed-cuff-constraints.md",
+      "mode": "100644",
+      "git_blob": "3eaaec27439be7574ed8d4f490b67bc332883bba",
+      "sha256": "327f4fd5e5683479836e72bdc28c1a692b2da4c60af8fb1bcddf7bc2d40887e9",
+      "bytes": 14272,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R36-positive-collar-template-and-conditional-strong-ratios.md",
+      "mode": "100644",
+      "git_blob": "befb82fc1d813dd67426c6d39458fd9b194c08c6",
+      "sha256": "60005ee6ec956c7483cdf77d712925960bfec79712d8f204283cf1c7ee518e3e",
+      "bytes": 26972,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R37-radial-interface-and-positive-support-kernel-obstruction.md",
+      "mode": "100644",
+      "git_blob": "f36b88518a24ba0410903a7a44557ae30b7f921e",
+      "sha256": "cbdfc3b0022efcda1d083f2782df6700223d19027007c4c0072579bd879f5875",
+      "bytes": 11871,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R38-ck-local-exact-isometric-collar.md",
+      "mode": "100644",
+      "git_blob": "203c3e8d707f6c332550546e16e9ef8ed1ae5f17",
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1",
+      "bytes": 20176,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-nonconvex-connector-cones.py",
+      "mode": "100644",
+      "git_blob": "5760958dbf09145025659fe003a3213d6477cc3e",
+      "sha256": "4de1c310ca2075295370bec5e8dc5bccc8ab3722199f69d21d9362ddc5a02df3",
+      "bytes": 4431,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-cuff-budget.py",
+      "mode": "100644",
+      "git_blob": "5e0021f972054a39348737cdae1163b98de75dc9",
+      "sha256": "d28dc276030c6d3ba0a1af05756415854f2f3a66b4289ca9f9930cac50f5d0bf",
+      "bytes": 2888,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-positive-collar-budget.py",
+      "mode": "100644",
+      "git_blob": "84fb2e0a7736a6d1352c702db97e325cafb70a13",
+      "sha256": "e80831d9950975ed673b93df4c82ead661a4e8887f422dd49162c2bbc2ba6297",
+      "bytes": 15340,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-positive-collar-radial-interface.py",
+      "mode": "100644",
+      "git_blob": "672005ec78cb2d597d09ccb0f5e17bde6a7c3661",
+      "sha256": "88f26b69f6927cbe9787fccb44ebad361d9f9def89fd8934c3bcbceb07698f70",
+      "bytes": 6028,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-positive-support-kernel-check.py",
+      "mode": "100644",
+      "git_blob": "737d79924900a125d7e9dc81b714b4cc2cb9692c",
+      "sha256": "873cb4589717bdd5863f2a678ca4b8109bb8c71ad5f8a79389800c7010e8a1bf",
+      "bytes": 5991,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-spectral-affine-definitions.py",
+      "mode": "100644",
+      "git_blob": "9d4e3f49067fc4e7a3fde13ba36b656ad80af60a",
+      "sha256": "0f59d90c2359433bb9af1ea30451395488b5fbccd2085d22def55a149dbd4321",
+      "bytes": 3392,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear-continuation-coupled-v2.py",
+      "mode": "100644",
+      "git_blob": "8f9e8bd5d167e0009916dcb8d636944dddd89585",
+      "sha256": "c7598d48d695570b9fb8fbd0959ca382ed16e246125e05ddba7f757b9198ae43",
+      "bytes": 941,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear-continuation-coupled.py",
+      "mode": "100644",
+      "git_blob": "74574f544ac885d10cea39f433aa6013c0352018",
+      "sha256": "7c381f042b505131ceb81bf47ca8f6d7ac6794c504f48e087c5b33832a537ab9",
+      "bytes": 938,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-linear-client-protocol01-source-snapshot.py",
+      "mode": "100644",
+      "git_blob": "84dd245a18f85013456841e996492ca6136d770a",
+      "sha256": "b52e74dc5be77cb3dcc9871d8a4701ddc97510297feb56f66d9184c5fb6d1e05",
+      "bytes": 31942,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-linear-protocol01-test-source-snapshot.py",
+      "mode": "100644",
+      "git_blob": "98c9679a947ade6887ce77b130afff0068e0f13c",
+      "sha256": "3fac3455928cf430aec5d32e11e26e613e43f3bf496c3cd00e43698ae1492aa9",
+      "bytes": 13532,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-linear-dn-pilot-v2.py",
+      "mode": "100644",
+      "git_blob": "ec855020185a9764da15c3b1b02f139160729423",
+      "sha256": "91e3d9689daf9863ab575a9985c217f61f601b84ddd45cceaf1248d24f391062",
+      "bytes": 9581,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-linear-dn-pilot.py",
+      "mode": "100644",
+      "git_blob": "b5fa35438fa965f1ff8c863a32ac9b751dbcb24b",
+      "sha256": "d2023e9497cd2c65c98fda11b7a7e96998fefeabc6fd350e78cc00eb38201ba8",
+      "bytes": 9488,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14-pre-closure-scope.py",
+      "mode": "100644",
+      "git_blob": "912b1f12efb7e37c7d12668c5fc0a0fa74665d43",
+      "sha256": "f4215d26fd7b2ca297c559ca69bb6f9ee1467317a097b0479042460b7a56c0ea",
+      "bytes": 12669,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+      "mode": "100644",
+      "git_blob": "c4ee8d4b6b24319f35b34b081499e8cbbf2d37aa",
+      "sha256": "915c3701e8b2de3857e10e7462e09630a5d5f4f955fc77882723788f1344fc99",
+      "bytes": 13600,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-affine-replay.py",
+      "mode": "100644",
+      "git_blob": "24ed3730b125284914ef29780aa87c21842fda2a",
+      "sha256": "ad219dbab80278670665ac3cb5401cb55daf33834cea8495dd16bf1c1396e4bd",
+      "bytes": 18828,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client-v2.py",
+      "mode": "100644",
+      "git_blob": "0f92ad3728628dde852656787a147788ee8979c6",
+      "sha256": "6d278d78e275df2e0e66db3eb0edb592321fecc22c1c229eacd53f5869166d15",
+      "bytes": 34350,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client.py",
+      "mode": "100644",
+      "git_blob": "2f00ff5fbc4e77818376da5dc6fca27861d7a719",
+      "sha256": "d0d06d44fe1a99c50a2d20890ec7e91909578851a9d763172b3b48f2639d169e",
+      "bytes": 31943,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-linear-dn-protocol-v2.py",
+      "mode": "100644",
+      "git_blob": "fc7c408d07c63d129117d7c59351f891029e23e1",
+      "sha256": "bf3d9aef7cde67bb86e5ff0e0291cf51030810f24d8c47f2b516747c00e31317",
+      "bytes": 17801,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-linear-dn-protocol.py",
+      "mode": "100644",
+      "git_blob": "6358b1bbcd685a695c74d104c2836f71950c32d9",
+      "sha256": "6ae0759a5a7b510067297bb5ffacad07dfe2c6a895c345fb2e519e3b8c00a523",
+      "bytes": 13771,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-affine-resource-limited.py",
+      "mode": "100644",
+      "git_blob": "0248100b608b783ac41f1051d89b03b4f4ea6024",
+      "sha256": "411ab03a70f4c53da60b3fd82b1d21b47deafaa474c54a32647bd4cb5bffcbf5",
+      "bytes": 1635,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-continuation03-calls007008.py",
+      "mode": "100644",
+      "git_blob": "a185207598897e7c71fe618afef748f28c026c33",
+      "sha256": "80945fb80f7dc47dfab01c1877f0e255675288b6a0e8893dcab2fc4011256cdd",
+      "bytes": 6127,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-linear-dn-pilot-bootstrap.py",
+      "mode": "100644",
+      "git_blob": "a507072a60b5153f35e3d14d329eba7c16782860",
+      "sha256": "ef9fa44553ce13f4d0f0c6ba8c92bb4cdf3069779bd32f5aa056dfaa3fe37aca",
+      "bytes": 4306,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-positive-support-kernel-obstruction.py",
+      "mode": "100644",
+      "git_blob": "72d9470a40e41383ba4509f3859b2ae1a31dee7a",
+      "sha256": "56ae6c786589dfdbf9ed0acb4dcf7e1d0a9a17ee444f309e0c761e17623582cc",
+      "bytes": 3378,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-preserve-retired-upload-indexes.py",
+      "mode": "100644",
+      "git_blob": "26a58a5bba362612db3217f67029c22741c746eb",
+      "sha256": "5048796274bdacc4e9994103287f761ee9f5e2924ae0292d20a946382f97ff93",
+      "bytes": 4700,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-recoverable-historical-worktree.py",
+      "mode": "100644",
+      "git_blob": "df44dab4c712f5b3d66a7e43cc438c742a6835cb",
+      "sha256": "d85fe003816de33c02881c7829ab7ad2127950281fb93a3599607d76378257a2",
+      "bytes": 7409,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-review-nonconvex-interface.py",
+      "mode": "100644",
+      "git_blob": "525e36357102f674555bbd4a8136d9b3f02cd551",
+      "sha256": "80c555e97f4b0f413fc8ca5aa7e3f38cc88fb5b9d0d6571b4dfaa193b75037c8",
+      "bytes": 6663,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-ck-local-isometric-collar.py",
+      "mode": "100644",
+      "git_blob": "06819d3c7d515f8fb7e94d47c675ca355f5e54a7",
+      "sha256": "a6cc998ca71dd51283914d0e9ca164897366a9b5605652d4be7d0d6693b9781d",
+      "bytes": 9714,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-continuation03-closed-v2.py",
+      "mode": "100644",
+      "git_blob": "45f25df55221d3ad01cc874a79264b0f93c30dfe",
+      "sha256": "31ff410d759f11aac6f3e19ce8baca6c8ce371ed9581e1edc8cc14f09c8d2983",
+      "bytes": 22682,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-continuation03-closed.py",
+      "mode": "100644",
+      "git_blob": "ca91867db830a762a501365fe22ee1aeb686f63f",
+      "sha256": "78056595a77bdeeb2cd35b34168e9cb6df1ab6f0dca9d9ccf251179b78777415",
+      "bytes": 22115,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-linear-dn-v2.py",
+      "mode": "100644",
+      "git_blob": "4a7341b942c9d215a75dc13bb12ec93389824431",
+      "sha256": "870b8953753a179163752cde91f166812b56b1964fb91ba9d04566b73848e9a3",
+      "bytes": 13638,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-positive-collar.py",
+      "mode": "100644",
+      "git_blob": "8b234a59abbca67d494eb0d332e1a7af593f72cb",
+      "sha256": "7c4e7560b10eac067b1250fb3598569e1fa408b1daa1e9aa2c19552ea14785d7",
+      "bytes": 10669,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-affine-inputs.py",
+      "mode": "100644",
+      "git_blob": "a583a75c8416488c68125c976e10caeb808c989b",
+      "sha256": "555cec5ff2b99e23a0fa700a86c0253dfd94fb4cd65522917a30cb6846ced72c",
+      "bytes": 10686,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-true-m14-interface.py",
+      "mode": "100644",
+      "git_blob": "49709750c5391912fecadeadeedcd5db5bf46911",
+      "sha256": "e08f6df21c64a2e44a396e252d5858a9a72b487268717b8783b3a11f0cc98307",
+      "bytes": 7586,
+      "already_present": false
+    }
+  ],
+  "topic_total_bytes": 2956882,
+  "root_log_bytes": 23763,
+  "root_log_sha256": "e0b5f1084d12c498bc035455e6d886f18d5417093873741f92f0cfeb0f6142bd",
+  "per_path_conflict_gate": true,
+  "unrelated_paths_preserved": true,
+  "network_calls": 0,
+  "remote_ref_updates": 0
+}

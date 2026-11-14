@@ -1,0 +1,188 @@
+{
+  "status": "PASS_R32_R33_FORMAL_ADOPTION_TEXT_AND_SCOPE",
+  "scope": "Only R32/R33 proof-copy and scope review. The shared 27-file root ledger is rehashed; R34 is not newly mathematically reviewed here. No scalar recomputation, root, flow, BVP or candidate.",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-r32-r33-adoption.py",
+    "bytes": 4635,
+    "sha256": "52aa28d0977f31d0b320602e48adcc354d5cc9a1908a4148fb7fe54ae0f1e021"
+  },
+  "root_ledger": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r32-r34-adoption-check.json",
+    "bytes": 10608,
+    "sha256": "9ce110720e14ee318ca6054a26f9c52595129fc031173bad8084dee51e3112f7"
+  },
+  "shared_root_ledger_source_count_rehashed": 27,
+  "shared_root_ledger_sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-publication.json",
+      "bytes": 1154,
+      "sha256": "66249d2b129aeea2cc4db56066839e7b4d6957c4abae78735f4e8388199ac9ee"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-c3-marker-bounds.py",
+      "bytes": 9646,
+      "sha256": "b0064c43b8a20d45aff26b89f52484793a098c99a4560d8d542fd8545321e24e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-bounds.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-exact-diameter.md",
+      "bytes": 5053,
+      "sha256": "eb62542a4bd61d88acb467324618d5ac1c287259785e16c2cba2a5273edfc7ed"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model.md",
+      "bytes": 10540,
+      "sha256": "ed256356fd822783f1af4a3fae41dbeeca9d46ad87619c839fdf88ab780c10eb"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-observed-execution.json",
+      "bytes": 953,
+      "sha256": "66f7bf63f0a76b2d736472a605c12c64256040605430d1d3eb75b60100f22261"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-publication.json",
+      "bytes": 883,
+      "sha256": "4200d61df1457c41c0a337813c00044c25042d5088cb66c1e52492b0d7d7aeb2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model.md",
+      "bytes": 10831,
+      "sha256": "bc635aa9f6a76ac6564d734c4f77fda78b34079e777fd5ecf1b86c5ef46d1c5e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-observed-execution.json",
+      "bytes": 870,
+      "sha256": "f820bc0cb87a4579dfc212c68121770fb22d7dff0e05df5bf858fe16d978c445"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-marker-models-publication-v2.json",
+      "bytes": 675,
+      "sha256": "e597ec5b98d700d55af75c5ee2c20421eb93ec825310bfcf659165b0c6e6ed0b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model-v2.md",
+      "bytes": 12748,
+      "sha256": "3c47ec456ce527d344e103aeb5f88aae4dbe618cfefc1341f64c37bd1f8d9a97"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-marker-connected-envelope-correction.json",
+      "bytes": 1885,
+      "sha256": "f28b0a10536e86ef3f1a826296a811818f36ac4caf1d736829305f913c760fb3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-publication.json",
+      "bytes": 2218,
+      "sha256": "5a6622505708324dc2253009b0cadb7a8f72b9a3af56016ba4e38d70af1a2894"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-c3-marker.py",
+      "bytes": 12678,
+      "sha256": "d297fc34d50224a0db2b34500c191590f5b1b02b88310c6e0f56aad83b5cccca"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-author-replay.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-independent.json",
+      "bytes": 7473,
+      "sha256": "ff6d27568b755c5262329b5fc6341fd71069021aa622a52378eeb76beb3746f5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker.md",
+      "bytes": 12346,
+      "sha256": "fab33d0bca894f10957e8e40d4ea3520d4ce639da69e0d5840741e82edea0214"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-observed-execution.json",
+      "bytes": 2932,
+      "sha256": "126498dd00fe485c780833137f2a0ffe67123561029cf9870a0baa57884c4590"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-28.json",
+      "bytes": 1666,
+      "sha256": "9226c80b8c2f7226d684fc09d13fa07b6337c7224a1002ee2b4fb91d4f9fc83b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-poisson-twin-marker.py",
+      "bytes": 10486,
+      "sha256": "aaf4e4561c7eecfc3b21649f7a3ca31d607c42d741bd07f6fa4f09ae613e2a6c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-check.json",
+      "bytes": 5439,
+      "sha256": "e56a82d3f663792bff6fdf869806684a72859ec77dc5e2539693325f16f87377"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-observed.json",
+      "bytes": 2860,
+      "sha256": "da125ca663ec71ed042000b772f191b58241c34d15835a9131a57a09edeebdfc"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker.md",
+      "bytes": 14976,
+      "sha256": "40da27583d791aab3227e33b94a3f6017695d1b1d264922d6a3dcdb77f19e027"
+    }
+  ],
+  "adoptions": [
+    {
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-exact-diameter.md",
+        "bytes": 5053,
+        "sha256": "eb62542a4bd61d88acb467324618d5ac1c287259785e16c2cba2a5273edfc7ed"
+      },
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R32-c3-n7-exact-global-diameter.md",
+        "bytes": 6089,
+        "sha256": "3fdc8b16d5e54bbc56d054328695142838fb4f5f28b2205ecb015f8ec5fc3e16"
+      },
+      "metadata_sentence_replacements": 1,
+      "full_body_after_exact_metadata_replacements_identical": true,
+      "body_sha256": "40292fe8054ffb6df0dbd7bdbe9f04e85a51397501a31a0b98ac0f570a908e03",
+      "mathematical_formula_hypothesis_parameter_changes": false
+    },
+    {
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model-v2.md",
+        "bytes": 12748,
+        "sha256": "3c47ec456ce527d344e103aeb5f88aae4dbe618cfefc1341f64c37bd1f8d9a97"
+      },
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R33-fixed-marker-diameter-gap-and-one-sided-transfer.md",
+        "bytes": 13942,
+        "sha256": "9868f6e4d2a95613154776e37ff51f936411e192d3c3b2fea64902ec5ba471a9"
+      },
+      "metadata_sentence_replacements": 2,
+      "full_body_after_exact_metadata_replacements_identical": true,
+      "body_sha256": "61d809ae8135fcf585e2c6ae70666cceb5151a867d51aa6d4f49cf38e0a7d705",
+      "mathematical_formula_hypothesis_parameter_changes": false
+    }
+  ],
+  "solver_calls": 0,
+  "new_scalar_runs": 0
+}

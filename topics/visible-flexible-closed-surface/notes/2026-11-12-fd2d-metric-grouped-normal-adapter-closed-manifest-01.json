@@ -1,0 +1,111 @@
+{
+  "schema": "fd2d-R165-grouped-normal-thin-adapters-closed-group-v1",
+  "closed_utc": "2026-11-12T17:56:38.045212+00:00",
+  "source_frozen": true,
+  "note": "notes/2026-11-12-fd2d-metric-grouped-normal-adapter.md",
+  "new_stream": {
+    "path": "scripts/fd2d_gc_grouped_coast_stream_normal.py",
+    "bytes": 12952,
+    "sha256": "ad127ceab9a5b592d2784806abbb730f4d1996a5d3110e1b3620dfc6160f219d"
+  },
+  "new_partition": {
+    "path": "scripts/fd2d_gc_grouped_coast_partitioned_normal.py",
+    "bytes": 19628,
+    "sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367"
+  },
+  "old_sources_unchanged": true,
+  "mathematical_row_and_partition_AST_checks": {
+    "G2_and_fine_maxima_separate": true,
+    "all_normal_add_calls_AST_identical": true,
+    "cell_row_construction_and_release_AST_identical": true,
+    "complete_boundary_rows_AST_identical": true,
+    "complete_node_row_loop_AST_identical": true,
+    "every_partition_function_AST_identical_except_consumer_default": true,
+    "frozen_dependencies_unchanged": true,
+    "input_packet_metadata_not_mutated": true,
+    "known_only_never_fabricated": true,
+    "locality_assertion_AST_identical": true,
+    "minimum_and_global_cell_mapping": true,
+    "outside_fine_and_known_diagnostics_are_None": true,
+    "partition_function_names_identical": true,
+    "radial_view_AST_identical": true,
+    "source_identity_unchanged_during_check": true
+  },
+  "only_diagnostic_metadata_cases_executed": true,
+  "no_F_or_J_evaluated": true,
+  "no_physical_problem_constructed": true,
+  "no_normal_or_BVP_or_body": true,
+  "R165_finite_target_distinct_from_old25": true,
+  "known_only_diagnostics": null,
+  "known_only_diagnostics_not_separately_evaluated": true,
+  "G2_and_fine_diagnostics_separately_named": true,
+  "failed_run": {
+    "session_id": 27013,
+    "initial_chunk": "b50697",
+    "final_chunk": "2e31c6",
+    "returncode": 1,
+    "meaning": "Checker AST Store/Load context mismatch while locating a statistics block; adapters unchanged.",
+    "completed_report_exists": false
+  },
+  "successful_run": {
+    "session_id": 62603,
+    "initial_chunk": "6359f4",
+    "final_chunk": "077ddf",
+    "returncode": 0,
+    "wrapper_seconds": 2.718527061999339,
+    "internal_seconds": 1.006594654001674,
+    "all_checks_passed": true
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_grouped_coast_stream_normal.py",
+      "bytes": 12952,
+      "sha256": "ad127ceab9a5b592d2784806abbb730f4d1996a5d3110e1b3620dfc6160f219d"
+    },
+    {
+      "path": "scripts/fd2d_gc_grouped_coast_partitioned_normal.py",
+      "bytes": 19628,
+      "sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367"
+    },
+    {
+      "path": "scripts/fd2d-metric-grouped-normal-adapter-check.py",
+      "bytes": 8220,
+      "sha256": "f46019bc2eb557ca1920fd340f62739e4ddf800abfe382a7bf7c6123b4cc4ab9"
+    },
+    {
+      "path": "scripts/fd2d-metric-grouped-normal-adapter-check-v2.py",
+      "bytes": 8258,
+      "sha256": "9c00a4319cebcbb2425dac2535991e44b91f3dc37abe752b0c460aa690458b39"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-normal-adapter.md",
+      "bytes": 7588,
+      "sha256": "3699d108674f4d1adb2745e60f2fd6eb15326a3488be26a1a022478ec0bc25c1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-normal-adapter-02-report.json",
+      "bytes": 4509,
+      "sha256": "2dbde4fefdd1d0ea28546d29831242100964edfbe123be7e53765b864d1c0a6f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-normal-adapter-01-exit-receipt.json",
+      "bytes": 829,
+      "sha256": "3f3f9beeea912e2df302fd5244ca58b2b2e734bf0ed314a8de9fc2023f449bd2"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-grouped-normal-adapter-01-console.txt",
+      "bytes": 1345,
+      "sha256": "5b3c7f70897d597a590f76bb5fc2019f947c1860e199ec498ead6dc87091ab27"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-normal-adapter-02-exit-receipt.json",
+      "bytes": 830,
+      "sha256": "aa8fb2a4809967e0993acf5a67f55001d7ee7b945555c4eae0630aa0cd45dba5"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-grouped-normal-adapter-02-console.txt",
+      "bytes": 823,
+      "sha256": "7844a4a7ca3f0ea2ba5171b8975916a16b39df7dd68f7b36bd3dcb50520a8a0b"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "schema": "fd2d-closed-frozen-reference-GC-chain-v1",
+  "actual_chain_exit": 137,
+  "tool_receipt": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-coast09-tool-exit.json",
+    "bytes": 541,
+    "sha256": "f88026af44ac3d6e6934f3f46efb2c73387c673f5a360375acee127bfc43bdd4"
+  },
+  "accepted_steps": 15,
+  "seconds": 457.022003854001,
+  "finite_success": false,
+  "strong_target_completed": false,
+  "latest_checkpoint": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+    "bytes": 49734,
+    "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+  },
+  "latest_full_field": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-coast09-b0008-field.npz",
+    "bytes": 718402,
+    "sha256": "e1fb4417fb2d2a427997f3ed23d843ba6ceaaa85610f8a7663c8df47d3995ddc"
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 43.156747696999446,
+      "kernel_peak_RSS_KiB": 433988,
+      "raw": 13.662148965000888,
+      "full_Gauss": 0.9062805452362208,
+      "formal_kappa": 7.237604612228461,
+      "full_mean_Codazzi": 24.921609575785546,
+      "high_mean_Codazzi": 8.14274126998483,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-accepted-0002.npz",
+        "bytes": 49784,
+        "sha256": "c4d1d4139a91294c5fec4a1acb8fd38da2694eec7ac89409db1977870e1a77aa"
+      }
+    },
+    {
+      "batch": 2,
+      "actual_child_returncode": -9,
+      "accepted_steps": 2,
+      "driver_completed": false,
+      "seconds": 62.896838906000994,
+      "kernel_peak_RSS_KiB": 443524,
+      "raw": 10.199492269176968,
+      "full_Gauss": 0.8234317899359563,
+      "formal_kappa": 7.2437979513921364,
+      "full_mean_Codazzi": 18.768218846047397,
+      "high_mean_Codazzi": 8.07238066856447,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0002-accepted-0002.npz",
+        "bytes": 49764,
+        "sha256": "0c702fa8c77b9f486f6dd12a15262ad9e18d3202b6ac1839fcc80927a6a6afd4"
+      }
+    },
+    {
+      "batch": 3,
+      "actual_child_returncode": -9,
+      "accepted_steps": 1,
+      "driver_completed": false,
+      "seconds": 66.72662642099931,
+      "kernel_peak_RSS_KiB": 410960,
+      "raw": 10.120942260847903,
+      "full_Gauss": 0.8217944194693136,
+      "formal_kappa": 7.243471131208609,
+      "full_mean_Codazzi": 18.628514796288712,
+      "high_mean_Codazzi": 8.072464196289218,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0003-accepted-0001.npz",
+        "bytes": 49753,
+        "sha256": "e7eb191e5d5fc157bc920d484883909c241b76c54037a5a8ea4d5d94fcc436be"
+      }
+    },
+    {
+      "batch": 4,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 57.011670879999656,
+      "kernel_peak_RSS_KiB": 425928,
+      "raw": 7.613840050045939,
+      "full_Gauss": 0.8971453649359686,
+      "formal_kappa": 7.233702878955932,
+      "full_mean_Codazzi": 14.167138170910796,
+      "high_mean_Codazzi": 8.075204863298781,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0004-accepted-0002.npz",
+        "bytes": 49785,
+        "sha256": "aab42fb32f391915679772f18749df9f8fc8b3a184c54838a9fd927ef6ec2912"
+      }
+    },
+    {
+      "batch": 5,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 52.94427334200009,
+      "kernel_peak_RSS_KiB": 428620,
+      "raw": 2.9629997610264347,
+      "full_Gauss": 1.3588619625698708,
+      "formal_kappa": 7.236644637234888,
+      "full_mean_Codazzi": 9.378175568743474,
+      "high_mean_Codazzi": 8.08469416182259,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0005-accepted-0002.npz",
+        "bytes": 49764,
+        "sha256": "83a2f1737492ab2013938546a3039c1912399e11a57de1ab788f06ba85c4d586"
+      }
+    },
+    {
+      "batch": 6,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 74.14126089099955,
+      "kernel_peak_RSS_KiB": 426496,
+      "raw": 1.4862367721811296,
+      "full_Gauss": 1.5182564164065762,
+      "formal_kappa": 7.217215125891101,
+      "full_mean_Codazzi": 8.618943747208663,
+      "high_mean_Codazzi": 8.088150487745814,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0006-accepted-0002.npz",
+        "bytes": 49770,
+        "sha256": "08c4d910aaf0b07befd6dd2eb6491f1957fc994b6acaf9885740ba86e5bd02a2"
+      }
+    },
+    {
+      "batch": 7,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 59.3960365669991,
+      "kernel_peak_RSS_KiB": 428872,
+      "raw": 0.8152939254677545,
+      "full_Gauss": 1.5866233047691984,
+      "formal_kappa": 7.210452114610762,
+      "full_mean_Codazzi": 8.27255885729268,
+      "high_mean_Codazzi": 8.089092283295827,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0007-accepted-0002.npz",
+        "bytes": 49752,
+        "sha256": "bccc61607351ff159b1e3ac624a2b2bb41d292f66abf0544597fc74f848b305a"
+      }
+    },
+    {
+      "batch": 8,
+      "actual_child_returncode": 0,
+      "accepted_steps": 2,
+      "driver_completed": true,
+      "seconds": 37.41804968499855,
+      "kernel_peak_RSS_KiB": 426452,
+      "raw": 0.7019685663768076,
+      "full_Gauss": 1.5965850939775947,
+      "formal_kappa": 7.208632452287919,
+      "full_mean_Codazzi": 8.213569571579258,
+      "high_mean_Codazzi": 8.089119531293,
+      "latest_accepted": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+        "bytes": 49734,
+        "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+      }
+    }
+  ],
+  "initial_reference_conversion": {
+    "schema": "fd2d-frozen-coast-new-initial-field-v1",
+    "old_representation_kind": "targeted_turn_mesh_exact_central_cylinder_v1",
+    "new_representation_kind": "targeted_turn_mesh_exact_cylinder_frozen_coast_reference_v1",
+    "same_mesh": true,
+    "parameters_unchanged": true,
+    "same_physical_metric": true,
+    "nonlinear_solve_performed": false,
+    "nodal_target": "(1-w)*old_full_field+w*frozen_reference",
+    "exact_reference_plateau_node_count": 8,
+    "changed_correction_node_count": 8,
+    "correction_change_maximum": 2.1594485347973666,
+    "exact_cylinder_boundary_projection_change": 0.0,
+    "preserved_old_complete_field": false,
+    "between_nodes": "Actual new P1 correction plus the declared smooth reference lifting; recompute the complete residual"
+  },
+  "final_residual_locations": {
+    "continuous_certificate": false,
+    "raw_codazzi_n": {
+      "maximum": 0.5651444266639487,
+      "signed_value": -0.5651444266639487,
+      "cell": 71,
+      "mode": 2,
+      "coefficient": 1,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "cell_length": 0.03936334930034513
+    },
+    "raw_codazzi_m": {
+      "maximum": 0.7019685663768076,
+      "signed_value": -0.7019685663768076,
+      "cell": 71,
+      "mode": 2,
+      "coefficient": 0,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "cell_length": 0.03936334930034513
+    },
+    "full_gauss": {
+      "maximum": 1.5965850939775947,
+      "signed_value": -1.5965850939775947,
+      "angular_index": 50,
+      "node": 64,
+      "s": 0.6313633493003443,
+      "xi": 1.227184630308513,
+      "material_u": 0.544047017260408,
+      "n_m_l": [
+        1.0784793093808058,
+        -0.8189766132218345,
+        -0.6080202271358652
+      ],
+      "target_K": 0.2701251663222399
+    },
+    "formal_curvature": {
+      "maximum": 7.208632452287919,
+      "signed_value": 7.208632452287919,
+      "angular_index": 72,
+      "node": 116,
+      "s": 1.4689731783581288,
+      "xi": 1.7671458676442586,
+      "material_u": 1.7671458676442586,
+      "n_m_l": [
+        -0.04572378028790534,
+        -0.15105505799778624,
+        -7.205446926464322
+      ],
+      "target_K": 0.629296914373976,
+      "cap": 7.2,
+      "active_points": 222,
+      "active_s_range": [
+        1.0609143548287172,
+        1.4857231783581288
+      ]
+    },
+    "full_angular_codazzi": {
+      "n": {
+        "maximum": 7.434318307125297,
+        "signed_value": -7.434318307125297,
+        "angular_index": 190,
+        "xi": 4.663301595172349,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          4.577297484578268,
+          4.584486504258099
+        ]
+      },
+      "m": {
+        "maximum": 8.21356957157927,
+        "signed_value": -8.21356957157927,
+        "angular_index": 194,
+        "xi": 4.76147636559703,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          4.847480476191111,
+          4.840291456511281
+        ]
+      }
+    },
+    "omitted_angular_codazzi": {
+      "n": {
+        "maximum": 8.089119531293,
+        "signed_value": -8.089119531293,
+        "angular_index": 190,
+        "xi": 4.663301595172349,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          4.577297484578268,
+          4.584486504258099
+        ]
+      },
+      "m": {
+        "maximum": 7.888219969046308,
+        "signed_value": -7.888219969046308,
+        "angular_index": 194,
+        "xi": 4.76147636559703,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          4.847480476191111,
+          4.840291456511281
+        ]
+      }
+    }
+  },
+  "reference_cache_statistics": {
+    "entries": 26,
+    "hits": 156,
+    "misses": 0,
+    "loaded_cache": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    },
+    "maximum_material_inverse_residual": 1.9539231344012364e-13,
+    "maximum_numerical_native_GC_residual": 1.275290984265238e-14
+  },
+  "scope": "An explicit new frozen-reference lifting, with initial parameters retained and all original target defects recomputed. Subsequent profile delta updates are outer design. No actual global metric/embedding success claim.",
+  "high_frequency_finding": "After fifteen accepted updates the retained raw max is .701969 but full high-angle mean Codazzi remains 8.08912 on the exit rim. The fixed-parameter local range diagnostic is separate, finite and noncertifying.",
+  "diagnostic_scope": "D2 info nested symmetry/reconstruction entries in chunk result describe the first block; full residual maxima and matrices cover all cells."
+}

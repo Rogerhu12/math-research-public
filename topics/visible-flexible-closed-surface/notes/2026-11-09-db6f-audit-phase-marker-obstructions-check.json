@@ -1,0 +1,156 @@
+{
+  "status": "PASS-independent-Fraction-application-and-frozen-source-identity",
+  "reviewer": "/root/independent_geometry",
+  "script_sha256": "53921d9aceb4917b5df57608251d30ee57d705936bcbbc6e0ae02a5f3e03d75a",
+  "inputs": {
+    "proof_v1": {
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.md",
+      "sha256": "bd3a3b8dd611def263826a5ba9559404d77db2b928648d4f327a896ecf17d1fb",
+      "bytes": 17008
+    },
+    "proof_v2": {
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-v2.md",
+      "sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486",
+      "bytes": 17349
+    },
+    "budget": {
+      "file": "notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7",
+      "bytes": 6006
+    },
+    "first": {
+      "file": "notes/2026-11-09-db6f-tail-first-flat17-m12-critical-r01.json",
+      "sha256": "5c2ddbfc230416cf7805bf84ea5686ed9db1427c2df2b8f1b3a8379b453e848d",
+      "bytes": 3775
+    },
+    "tail": {
+      "file": "notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+      "bytes": 138611
+    },
+    "geometry": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+      "bytes": 10095
+    },
+    "budget_source": {
+      "file": "scripts/db6f-root-closed-budget-v2.py",
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641",
+      "bytes": 10356
+    },
+    "common_cut_source": {
+      "file": "scripts/db6f-root-common-cut-v2.py",
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+      "bytes": 13021
+    },
+    "R16": {
+      "file": "results/R16-fixed-cap-volume-moment-noncongruence.md",
+      "sha256": "278753736f651a82e64bc9d6de61b290395eb3d48390c7b8aef73f939dd565f1",
+      "bytes": 4869
+    },
+    "R17": {
+      "file": "results/R17-exact-finite-visible-closed-geometry.md",
+      "sha256": "d7ad70cfb98d552ce0832555c230b644e49a21cd5cef2ae16a291013ad66e725",
+      "bytes": 15067
+    },
+    "R21": {
+      "file": "results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c",
+      "bytes": 14695
+    },
+    "R24": {
+      "file": "results/R24-cap-marking-quotient-upper-bound.md",
+      "sha256": "611401f48cd15594ee663b92950d1828e101005de6e4be1d762ef35245940d5e",
+      "bytes": 6066
+    }
+  },
+  "Hc_lower": {
+    "exact": "7977247853389765/4503599627370496",
+    "display_only": 1.7713048479949844
+  },
+  "actual_cuff": {
+    "exact": "2702159776422297/18014398509481984",
+    "display_only": 0.14999999999999997
+  },
+  "diameter_lower_from_preserved_seam_circles": {
+    "exact": "7977247853389765/2251799813685248",
+    "display_only": 3.542609695989969
+  },
+  "cylinder_radius_over_new_D_upper": {
+    "exact": "2702159776422297/63817982827118120",
+    "display_only": 0.04234166698346458
+  },
+  "balanced_1_over_25_squared_margin": {
+    "exact": "24218466148102856714953454068661/2036367466061171636096032216167200",
+    "display_only": 0.011892974402575406
+  },
+  "necessary_balanced_cylinder_ratio_box": [
+    {
+      "exact": "21481241202688085262510474014534041959/397000000000000000000000000000000000000",
+      "display_only": 0.05410891990601533
+    },
+    {
+      "exact": "42962482405376170525020948029068083919/794000000000000000000000000000000000000",
+      "display_only": 0.05410891990601533
+    }
+  ],
+  "necessary_polynomial_support_ratio_box": [
+    {
+      "exact": "23717082451262844989991701583245389/250000000000000000000000000000000000",
+      "display_only": 0.09486832980505137
+    },
+    {
+      "exact": "94868329805051379959966806332981557/1000000000000000000000000000000000000",
+      "display_only": 0.09486832980505137
+    }
+  ],
+  "necessary_polynomial_cuff_ratio_box": [
+    {
+      "exact": "88513356715413148489256136876550938042795176203739857723445641475265763/433012701892219323381861585376468091750000000000000000000000000000000000",
+      "display_only": 0.20441284130608461
+    },
+    {
+      "exact": "177026713430826296978512273753101877904181591289392672230631050536976931/866025403784438646763723170752936183000000000000000000000000000000000000",
+      "display_only": 0.20441284130608461
+    }
+  ],
+  "necessary_general_radial_support_ratio_box": [
+    {
+      "exact": "5916079783099616042567328291561617/100000000000000000000000000000000000",
+      "display_only": 0.05916079783099616
+    },
+    {
+      "exact": "59160797830996160425673282915616171/1000000000000000000000000000000000000",
+      "display_only": 0.05916079783099616
+    }
+  ],
+  "necessary_general_radial_cuff_ratio_box": [
+    {
+      "exact": "22079110332158830468355695263644285907215293339437444182411738318137439/173205080756887729352744634150587236700000000000000000000000000000000000",
+      "display_only": 0.1274738029373935
+    },
+    {
+      "exact": "110395551660794152341778476318221431372521471566127787462945220885815293/866025403784438646763723170752936183000000000000000000000000000000000000",
+      "display_only": 0.1274738029373935
+    }
+  ],
+  "original_R16_center_principal_curvature_absolute": {
+    "exact": "10/3",
+    "display_only": 3.3333333333333335
+  },
+  "fixed_original_support_height_over_new_D_upper_under_curvature_gate": {
+    "exact": "633825300114114700748351602688/1590912082860290340700025168880625",
+    "display_only": 0.0003984037250974701
+  },
+  "original_marker_height_over_new_D_upper": {
+    "exact": "140737488355328/997155981673720625",
+    "display_only": 0.00014113888994488196
+  },
+  "v1_upward_rounded_table_thresholds_are_stronger_than_the_proved_roots": true,
+  "v2_is_the_reviewed_text": true,
+  "new_geometry_created": false,
+  "new_isometry_or_reach_certificate": false,
+  "new_background_integrals_evaluated": false,
+  "solver_root_flow_backend_calls": 0,
+  "README_complete": false
+}

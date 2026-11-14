@@ -1,0 +1,43 @@
+{
+  "scope": "Only immutable source/method/generated config/input bindings for the active amplitude continuation. No completed DN or target success asserted.",
+  "created_utc": "2026-11-09T10:35:47.226407+00:00",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py",
+      "bytes": 11026,
+      "sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-continuation-client.py",
+      "bytes": 3945,
+      "sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-continuation-source-map.json",
+      "bytes": 478,
+      "sha256": "6f27dc9cd2dc2e9ccb0a2a38c07671e8f0057b301c68a15fedd81c10e71c3234"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-amplitude-continuation-method.md",
+      "bytes": 3875,
+      "sha256": "3fae1b9c9c28a5942e527cacf2710d5de1edd29b0418657441bb339d9334b77d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "bytes": 2907,
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-input-bindings.json",
+      "bytes": 3171,
+      "sha256": "6ec973d0e3a33b7847a909666be88148916500326b500492e7f9edb9d33808fa"
+    }
+  ],
+  "bound_static_inputs_verified": {
+    "generated_config": true,
+    "original_config": true,
+    "target_prefix": true
+  },
+  "total_bytes": 25402,
+  "excluded": "All active trace, trials, progress, run log, iteration CP, responses and independent mock/test artifacts."
+}

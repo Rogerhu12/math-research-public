@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-process-exit-v1",
+  "session": 85028,
+  "launch_chunk": "74a8be",
+  "final_chunk": "39836c",
+  "exit_code": 1,
+  "observed_utc": "2026-11-12T16:20:21+00:00",
+  "working_directory": "/workspace/scratch/fd2d-recovered-20261112/math-research",
+  "cause": "Invocation cwd did not resolve existing topic-relative notes/... candidate path; FileNotFoundError before field comparison",
+  "source": {
+    "path": "scripts/fd2d-root-fast-material-inverse-check.py",
+    "bytes": 5061,
+    "sha256": "378150ff5767570ec8d6eaccd78d3a212fbc9cbd8ad0005cfe9fec52129a556c"
+  },
+  "console": {
+    "path": "notes/process-observations/2026-11-12-fd2d-root-fast-material-inverse01-console.txt",
+    "bytes": 2549,
+    "sha256": "66ab0aeba6501c353c5185c2aba245e030f0f2291cd9b972ec9c62c47e7a100e"
+  },
+  "same_source_retried_in_correct_topic_directory": true
+}

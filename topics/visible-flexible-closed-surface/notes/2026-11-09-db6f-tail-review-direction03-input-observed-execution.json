@@ -1,0 +1,32 @@
+{
+  "status": "CLOSED_STATIC_AUDIT_EXIT0",
+  "record_written_utc": "2026-11-09T17:13:20.533078+00:00",
+  "command": [
+    "node",
+    "scripts/db6f-tail-review-direction03-input.mjs",
+    "--out",
+    "notes/2026-11-09-db6f-tail-review-direction03-input-check.json"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "actual_receipt": "1fc4e3",
+  "actual_exit_code": 0,
+  "source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-direction03-input.mjs",
+    "bytes": 8406,
+    "sha256": "4fac999242e1489594cf6850e9463d478b8f3724684b8615bc1623a2bb2fee81"
+  },
+  "output": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direction03-input-check.json",
+    "bytes": 4858,
+    "sha256": "b81c9a2013e592b14f491d87843b3ad315fa2342408f60cc8c52b8a10694800d"
+  },
+  "review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direction03-input.md",
+    "bytes": 5807,
+    "sha256": "548f341d82c26ad7fc5c0d9d85691b830ed21fb592a3064f75590d791a588e47"
+  },
+  "solver_root_RK_backend_calls": 0,
+  "base_or_direction_results_read": false,
+  "active_files_changed": false,
+  "runtime_stage2_gate_certified_by_this_review": false
+}

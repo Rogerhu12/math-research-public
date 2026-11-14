@@ -1,0 +1,67 @@
+{
+  "schema": "fd2d-R147-short-pair-normal-balls-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R147-actual-coast-short-chord-normal-balls-with-certified-extension.md",
+      "sha256": "f05e6e8fe0793af95ba784c8487ba037403dbdff40f58e9993d1295512a808f0",
+      "bytes": 11430,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_extension_certificate.py",
+      "sha256": "4cd50b777db34eaa817456bc8d0c95c7a46f046dbacfb1aba49d26baedc49232",
+      "bytes": 9493,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_short_pair_normal_balls.py",
+      "sha256": "66148cbcb9527608aea1b0a57b5d35205d5219e40a38bc32f4fc05fbf60a9733",
+      "bytes": 5089,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-extension-certificate-01.json.gz",
+      "sha256": "25e6664304ea2c5a528252ba5ad62d0b899fb254f616d1f2353597f3259facc5",
+      "bytes": 316204,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-short-pair-normal-balls-01.json",
+      "sha256": "317edc7ccf01e5c4466444fd4dd6719e9a65a1d789ef69b66997364f74351c45",
+      "bytes": 2590,
+      "closed": true
+    }
+  ],
+  "all_files_closed": true,
+  "actual_runs": [
+    {
+      "kind": "auxiliary_extension",
+      "session": 29554,
+      "final_chunk": "989918",
+      "exit_code": 0,
+      "seconds": 72.16957055400053,
+      "report": "notes/2026-11-12-fd2d-k0-ruling-extension-certificate-01.json.gz"
+    },
+    {
+      "kind": "short_pair_consumer",
+      "session": 59621,
+      "final_chunk": "4d4948",
+      "exit_code": 0,
+      "seconds": 0.3912455410008988,
+      "report": "notes/2026-11-12-fd2d-k0-short-pair-normal-balls-01.json"
+    }
+  ],
+  "strict_scope": {
+    "original_physical_surface_unchanged": true,
+    "base_delta_zero_only": true,
+    "auxiliary_sigma_extension": "[-1/1000,L+1/1000]",
+    "full_angle_and_radial_extension_verified": true,
+    "developed_short_distance_at_most": "1/10",
+    "normal_ball_radius": "17/125",
+    "both_signs_and_both_endpoint_normals": true,
+    "squared_margin_lower": "developed_distance_squared/160",
+    "far_pairs_not_certified": true,
+    "whole_strong_target_not_completed": true
+  },
+  "root_owns_index": true
+}

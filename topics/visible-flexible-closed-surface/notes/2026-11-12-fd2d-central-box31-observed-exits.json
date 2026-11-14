@@ -1,0 +1,71 @@
+[
+  {
+    "label": "capD4",
+    "central_cap": 8.264462809917354,
+    "central_floor": 0.1,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/fd2d-gc-dyadic-stage-qp-v2.py",
+      "--request",
+      "notes/2026-11-12-fd2d-central-box31-capD4-request.json",
+      "--out-prefix",
+      "notes/2026-11-12-fd2d-central-box31-capD4",
+      "--factor-id",
+      "lambda1e7-dyadic-a01",
+      "--direction-id",
+      "root-central-box31-capD4",
+      "--central-floor",
+      "0.1"
+    ],
+    "start_utc": "2026-11-12T20:26:56.090547+00:00",
+    "exit_code": 0,
+    "observed_completion": true,
+    "actual_F_or_J_recomputed": false
+  },
+  {
+    "label": "floor001",
+    "central_cap": 7.352941176470588,
+    "central_floor": 0.01,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/fd2d-gc-dyadic-stage-qp-v2.py",
+      "--request",
+      "notes/2026-11-12-fd2d-central-box31-floor001-request.json",
+      "--out-prefix",
+      "notes/2026-11-12-fd2d-central-box31-floor001",
+      "--factor-id",
+      "lambda1e7-dyadic-a01",
+      "--direction-id",
+      "root-central-box31-floor001",
+      "--central-floor",
+      "0.01"
+    ],
+    "start_utc": "2026-11-12T20:26:58.926226+00:00",
+    "exit_code": 0,
+    "observed_completion": true,
+    "actual_F_or_J_recomputed": false
+  },
+  {
+    "label": "both",
+    "central_cap": 8.264462809917354,
+    "central_floor": 0.01,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/fd2d-gc-dyadic-stage-qp-v2.py",
+      "--request",
+      "notes/2026-11-12-fd2d-central-box31-both-request.json",
+      "--out-prefix",
+      "notes/2026-11-12-fd2d-central-box31-both",
+      "--factor-id",
+      "lambda1e7-dyadic-a01",
+      "--direction-id",
+      "root-central-box31-both",
+      "--central-floor",
+      "0.01"
+    ],
+    "start_utc": "2026-11-12T20:27:02.123202+00:00",
+    "exit_code": 0,
+    "observed_completion": true,
+    "actual_F_or_J_recomputed": false
+  }
+]

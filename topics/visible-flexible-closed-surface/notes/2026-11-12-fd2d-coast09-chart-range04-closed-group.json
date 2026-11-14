@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-closed-small-numerical-group-v1",
+  "closed": true,
+  "actual_exit": 0,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-coast-chart-range-endpoint.py",
+      "bytes": 13572,
+      "sha256": "cc31c72bb26a9aa535076f763e4cd782352bbb35cda0fc74fac89558ba799843"
+    },
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-endpoint-range-and-global-atlas-entry.md",
+      "bytes": 1489,
+      "sha256": "e7f0e8ef2ff66a27df02b0868dab78b498700177188d0a00cd6470e7a73ddc19"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range04-endpoint-execution-receipt.json",
+      "bytes": 632,
+      "sha256": "cd8d4d7c2706cd618b79c14a572ffe3b7715657117b7ea006ea1c01d71bf385a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range04-endpoint-local-states.npz",
+      "bytes": 5393,
+      "sha256": "00314bcfb934445e7e80b25f244000ad1ec262ae5ef182bf28323f9f89397dc7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range04-endpoint-report.json",
+      "bytes": 10329,
+      "sha256": "e5948eabad5c852feca21143993dfc8d5b36e5a0e7f102a5aadd383f7a4b3b22"
+    }
+  ],
+  "preserves_old_failure_and_finite_scope": true
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "fd2d-owned-child-exit-and-resource-observation-v1",
+  "observer_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-monitored-command-v2.py",
+    "sha256": "86527392fc0e200065f76f49dbf4e4e195ac92293ee48ef1fc7cd01dd7172d44"
+  },
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fd2d-gc-dyadic-compressed-stage-normal-tile-batch.py",
+    "--request",
+    "notes/2026-11-12-fd2d-raw-bump-dyadic35-request.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0030-0031-a01",
+    "--tile-id",
+    "0030-cells",
+    "--tile-id",
+    "0031-cells"
+  ],
+  "cwd": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "started_utc": "2026-11-12T21:02:40.324153+00:00",
+  "ended_utc": "2026-11-12T21:02:44.849302+00:00",
+  "seconds": 4.525174781003443,
+  "actual_child_returncode": 0,
+  "wrapper_returncode": 0,
+  "child_cpu_seconds": {
+    "user": 2.70511,
+    "system": 0.46654199999999996
+  },
+  "kernel_child_maximum_resident_KiB": 130852,
+  "sampled_process_peaks": {
+    "VmRSS_KiB": 130180,
+    "VmHWM_KiB": 130852,
+    "VmSize_KiB": 349580,
+    "VmPeak_KiB": 350604,
+    "RssAnon_KiB": 111536,
+    "RssFile_KiB": 18644
+  },
+  "last_sample": {
+    "utc": "2026-11-12T21:02:44.347701+00:00",
+    "seconds": 4.023572327998409,
+    "pid": 36,
+    "utime_seconds": 2.49,
+    "stime_seconds": 0.43,
+    "VmRSS_KiB": 130084,
+    "VmHWM_KiB": 130852,
+    "VmSize_KiB": 349580,
+    "VmPeak_KiB": 350604,
+    "RssAnon_KiB": 111440,
+    "RssFile_KiB": 18644,
+    "host_MemAvailable_KiB": 6844644
+  },
+  "samples": 9,
+  "observed_child_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+  "observed_child_cgroup": "0::/\n",
+  "telemetry_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0030-0031-a01-process-receipt-samples.jsonl",
+  "console_path": "notes/process-observations/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0030-0031-a01-process-receipt-console.txt",
+  "termination_cause": "Actual wait return code only; no inferred OOM or time-limit cause"
+}

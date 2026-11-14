@@ -1,0 +1,223 @@
+{
+  "schema": "fd2d-R182-original-publication-inventory-from-real-prior-reads-v1",
+  "inventory_closed": true,
+  "original_artifacts_rechecked_in_current_outage": false,
+  "purpose": "Restore the publisher's exact path list without rerunning mathematics or uploading binary payloads through the text API.",
+  "linear_domain": {
+    "original_manifest": "notes/2026-11-12-fd2d-metric-signed-trace-linear-domain-R182-closed-manifest.json",
+    "original_schema": "fd2d-R182-exact-linear-window-domain-closed-manifest-v1",
+    "artifact_key": "artifacts",
+    "artifact_count": 10,
+    "declared_total_bytes": 1204238,
+    "recommended_generation": "02: exact binary64 .08 coefficient box",
+    "artifacts": [
+      {
+        "path": "scripts/fd2d_gc_signed_trace_bernstein_domain.py",
+        "bytes": 12318,
+        "sha256": "284b951b709df634242ec8d18656ee4a4bd2149cec5b5bb1db479d972568638a",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-trace-linear-domain-R182.md",
+        "bytes": 6830,
+        "sha256": "03c4dd355ba8d292baf3ce3e71032c0761f30547ac6375485243a52714b2a29c",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-01-report.json",
+        "bytes": 5256,
+        "sha256": "f6506bb2b667d0804087ac5ea3347428012a677f03732b5b418eccd0a3393563",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-01-domain.json.gz",
+        "bytes": 549834,
+        "sha256": "03994046f247b99320178f66242105ad7ed74681e29bb58e41298bf37263b3d1",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-01-qp.npz",
+        "bytes": 36586,
+        "sha256": "3bd2e3aba64fae78004a026f500fa9bd054c2df71e97d2eeb69b9292c3b800f3",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-01-completion-receipt.json",
+        "bytes": 807,
+        "sha256": "6f607db018d0b0e9d207f3ac6c29a6660203a133f4b45dd460def4cf3c294d76",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-02-report.json",
+        "bytes": 5347,
+        "sha256": "b0d936c43cab57b55aa2028c314e7e8c6b5c3a5d1e7c1e2217672b0f96a350cb",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-02-domain.json.gz",
+        "bytes": 549866,
+        "sha256": "66b65bcb3d39b9348cbded5aacf77898c0091b55b6a96156384b96ee0b76e485",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-02-qp.npz",
+        "bytes": 36586,
+        "sha256": "3bd2e3aba64fae78004a026f500fa9bd054c2df71e97d2eeb69b9292c3b800f3",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-linear-domain-R182-02-completion-receipt.json",
+        "bytes": 808,
+        "sha256": "0eb5615928d472b0737881c04dc35dfbb1d3f721d7ab28d86febc61b127771b6",
+        "evidence": "Exact identity read from the original closed manifest, not independently reread during this outage."
+      }
+    ],
+    "finite_layout": {
+      "QP_rows": 1620,
+      "profile_columns": 7,
+      "children": 180,
+      "Bernstein_rows_per_child": 9
+    }
+  },
+  "signed_native": {
+    "sources": [
+      {
+        "path": "scripts/fd2d_gc_signed_trace_archive_native.py",
+        "bytes": 13900,
+        "sha256": "2e889c83edf4cd72a7089b80ccf64c53d00fe9ff7b3c30d86e44cc0799803ac5",
+        "evidence": "Previously preserved exact source identity; existing main paths should be checked before adding duplicates."
+      },
+      {
+        "path": "scripts/fd2d_gc_signed_trace_complete_arb.py",
+        "bytes": 14833,
+        "sha256": "0bc513970a7be8eaf27b59b8d3f90525e87d0555c3006aa50658e84a5d0c1c32",
+        "evidence": "Previously preserved exact source identity; existing main paths should be checked before adding duplicates."
+      },
+      {
+        "path": "scripts/fd2d-metric-signed-trace-native-arb-check.py",
+        "bytes": 8170,
+        "sha256": "0e691832c951d6776aea662519fbc416ddb74e6224cbcf4bea6ed3c91b7982c9",
+        "evidence": "Previously preserved exact source identity; existing main paths should be checked before adding duplicates."
+      },
+      {
+        "path": "scripts/fd2d-metric-signed-trace-native-arb-check-v2.py",
+        "bytes": 8170,
+        "sha256": "e1ce2a06ddb15c2946ca6cf425f6ef9a6ceb7d366e667e340a98aec979eb1ce5",
+        "evidence": "Previously preserved exact source identity; existing main paths should be checked before adding duplicates."
+      }
+    ],
+    "proof_note": {
+      "path": "notes/2026-11-12-fd2d-metric-signed-trace-native-and-complete-Arb.md",
+      "sha256": "c2fb98fe0e4f8aa33038b5a0a57d60595c4bb385fe29a370d7a7e2e40e997ada",
+      "bytes_not_recorded": true
+    },
+    "artifacts": [
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-01-native-definition.json",
+        "bytes": 71692,
+        "sha256": "484a05f949b19e6eec8195caa7520dbafbdcd3e32dc80100741b751ffb4c7ebc",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-01-process-receipt.json",
+        "bytes": 520,
+        "sha256": "926cd47a4bd931169f1980b1794ff08481e1c41ce15c93b5b4a86c4b9048ec28",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-01-report.json",
+        "bytes": 2131,
+        "sha256": "dfac0693d6877dc7f0a69e6916cd43151d4faa3a8d9e1df8065ac76112a4a881",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-interval-definition.json.gz",
+        "bytes": 30541,
+        "sha256": "25964d645aef31b5d3b657c91f190460f65a55291a204f55495df432b66c0630",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-native-definition.json",
+        "bytes": 71692,
+        "sha256": "484a05f949b19e6eec8195caa7520dbafbdcd3e32dc80100741b751ffb4c7ebc",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-process-receipt.json",
+        "bytes": 438,
+        "sha256": "ba3c03a00b96860796fd173accb9d423f8935b97fa235426a08422c00c2f1969",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-report.json",
+        "bytes": 78247,
+        "sha256": "bb710280f62807b382d16177debdfd1c5ff9c7da2c93f3b6610c0774b938fdf3",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-accurate-profile-rebind-01-packet.json.gz",
+        "bytes": 381911,
+        "sha256": "a8df9aef4da79c535510d9b8b140a6d553640bac4c92a474737b16a6db055d8b",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-accurate-profile-rebind-01-process-receipt.json",
+        "bytes": 407,
+        "sha256": "045e9921dd11ff8890ff9f37cc475d905fbe8b22d5414a3290c21d69e0fd6f49",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-warm-accurate-profile-rebind-01-report.json",
+        "bytes": 24826,
+        "sha256": "4b6cbe93ba6769d1d74e2f93e13ed06bb6f9c28d48bb35af6776cfa9d5379378",
+        "evidence": "Actual file identity reread in the restored executor before the fourth outage, read-only chunk b699af."
+      }
+    ],
+    "actual_executions": [
+      {
+        "stem": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-01",
+        "session": 76915,
+        "initial_chunk": "aedefa",
+        "final_chunk": "e0850d",
+        "exit_code": 1,
+        "status": "KeyError U_s in the first checker; actual native coordinate key is U_x. Preserved as failed implementation check."
+      },
+      {
+        "stem": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02",
+        "session": 33385,
+        "initial_chunk": "b7acc9",
+        "final_chunk": "7d3ea2",
+        "exit_code": 0,
+        "seconds": 0.36810716199397575,
+        "peak_rss_KiB": 97300,
+        "scope": "Two native points, one complete continuous box including three forcing components, exact cut angular trace; no full F/J/BVP/body."
+      },
+      {
+        "stem": "notes/2026-11-12-fd2d-metric-signed-warm-accurate-profile-rebind-01",
+        "chunk": "8fbfa4",
+        "exit_code": 0,
+        "seconds": 1.156027132,
+        "peak_rss_KiB": 86064,
+        "scope": "Same accurate base integration explicitly rebound to the actual signed field; no base reintegration."
+      }
+    ],
+    "field": {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-01-warm.npz",
+      "bytes": 137021,
+      "sha256": "b7d2ae3350926666cb25d634bbb14aa49a3eb6b04a5a07f9657a0fca90095626"
+    },
+    "origin": {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+      "bytes": 133721,
+      "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+    },
+    "representation": "ruling_atlas_coast_Gauss_l_and_signed_disjoint_traces_v1"
+  },
+  "recovery_requirements": [
+    "Verify original artifacts against these identities when the executor returns; existence is not asserted during the outage.",
+    "Read the original domain manifest's artifacts array, not only files.",
+    "Preserve failed -01 checker receipt and the successful -02 report separately.",
+    "Do not mistake the rebind packet's historical approximate size for the later actually read 381911 bytes.",
+    "No numerical arrays or gzip data are reconstructed by this small text inventory."
+  ]
+}

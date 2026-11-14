@@ -1,0 +1,381 @@
+{
+  "BVP_calls": 0,
+  "actual_argv": [
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-core-g-transport-v1.py",
+    "--checkpoint",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+    "--linear-port",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+    "--source-root",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "--previous-diagnostic",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-fixed-state-projection-01.json",
+    "--out",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-geometry-core-g-transport-source-closed-v2.json",
+    "--orders",
+    "4",
+    "8"
+  ],
+  "companion": {
+    "bytes": 10241,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-core-source-closure-v2.py",
+    "sha256": "66d741e38f89cf8a9a5a56df0ab158bb4425bb12f157a58fead07e90401a4a92"
+  },
+  "complete_non_time_output_identical": true,
+  "entry_returned_normally": true,
+  "explicit_original_source_count": 21,
+  "explicit_original_sources_after": [
+    {
+      "bytes": 2740,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "bytes": 19011,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "bytes": 19466,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "bytes": 2008,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "bytes": 6004,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "bytes": 5131,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "bytes": 10411,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "bytes": 22225,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    {
+      "bytes": 18439,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604"
+    },
+    {
+      "bytes": 10432,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef"
+    },
+    {
+      "bytes": 6579,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158"
+    },
+    {
+      "bytes": 8737,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a"
+    },
+    {
+      "bytes": 13127,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984"
+    },
+    {
+      "bytes": 36488,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "bytes": 5012,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+    },
+    {
+      "bytes": 3834,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8"
+    },
+    {
+      "bytes": 10959,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e"
+    },
+    {
+      "bytes": 5123,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "bytes": 2576,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "bytes": 10353,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302"
+    },
+    {
+      "bytes": 6349,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    }
+  ],
+  "explicit_original_sources_before": [
+    {
+      "bytes": 2740,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "bytes": 19011,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "bytes": 19466,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "bytes": 2008,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "bytes": 6004,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "bytes": 5131,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "bytes": 10411,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "bytes": 22225,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    {
+      "bytes": 18439,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604"
+    },
+    {
+      "bytes": 10432,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef"
+    },
+    {
+      "bytes": 6579,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158"
+    },
+    {
+      "bytes": 8737,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a"
+    },
+    {
+      "bytes": 13127,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984"
+    },
+    {
+      "bytes": 36488,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "bytes": 5012,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+    },
+    {
+      "bytes": 3834,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8"
+    },
+    {
+      "bytes": 10959,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e"
+    },
+    {
+      "bytes": 5123,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "bytes": 2576,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "bytes": 10353,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302"
+    },
+    {
+      "bytes": 6349,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    }
+  ],
+  "explicit_source_preexisting_binding_provenance": {
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": [
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": [
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": [
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py": [
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": [
+      "successful_production_plan"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": [
+      "successful_production_plan"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": [
+      "successful_production_plan"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py": [
+      "successful_production_plan",
+      "original_fixed_state_diagnostic"
+    ],
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": [
+      "successful_production_plan"
+    ]
+  },
+  "frozen_entry": {
+    "bytes": 12785,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-core-g-transport-v1.py",
+    "sha256": "9c4cba0e1b9f60a4d826a26ffc1d59ffaf19a54471abd17aee76cd909e3da77f"
+  },
+  "new_candidate": false,
+  "new_report": {
+    "bytes": 15043,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-geometry-core-g-transport-source-closed-v2.json",
+    "sha256": "fb4e98a83a3b51e956fc3c520ecae092524e7abe49fe98519eaef19de676b4c7"
+  },
+  "numpy_version": "2.3.5",
+  "observed_original_source_count": 21,
+  "observed_repository_exec_sources": [
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-core-g-transport-v1.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py"
+  ],
+  "old_report": {
+    "bytes": 15042,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-geometry-core-g-transport-v1.json",
+    "sha256": "69afb89bcfd7e63c89bcce9e1c2f59519503bb5520876087ec5a287e6e70c523"
+  },
+  "original_fixed_state_diagnostic": {
+    "bytes": 208191,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-fixed-state-projection-01.json",
+    "sha256": "53641e7e8ceb2ea822794a9df5404807a5162aa704aa9ee35be99b3c2d86dbfe"
+  },
+  "original_successful_plan": {
+    "bytes": 297542,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json",
+    "sha256": "232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "required_unregistered_dynamic_sources_observed": true,
+  "schema": "78718-core-explicit-source-closure-v2",
+  "scipy_version": "1.17.0",
+  "scope": "Explicit source-closure companion for frozen read-only core diagnostics.\n\nEvery declared repository source is checked against the already bound original\nsuccessful production plan and/or fixed-state diagnostic before and after execution. Python exec audit events\nalso record unregistered importlib modules. This does not rely on sys.modules\nas a complete source inventory. The frozen original diagnostic is not edited.\n",
+  "seconds": 30.995944439000596,
+  "status": "PASSED_ACTUAL_EXPLICIT_SOURCE_CLOSURE_REPLAY",
+  "tail_calls": 0,
+  "task": "transport",
+  "unexpected_repository_exec_sources": []
+}

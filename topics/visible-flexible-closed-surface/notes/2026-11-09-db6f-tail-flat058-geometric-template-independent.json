@@ -1,0 +1,126 @@
+{
+  "status": "PASS_INDEPENDENT_FLAT058_EXACT_RETAINED_GEOMETRY",
+  "scope": "Independent exact arithmetic for the conditional flat058 retained pieces.\n\nNo author helper is called. No actual numerical candidate or solver is read.\n",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-check-flat058-geometric-template.py",
+    "bytes": 7657,
+    "sha256": "8a725c5abc8226c592245eba9c3b509949919e5a9dab72d615ffe4bdf0cb34ce"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template.md",
+      "bytes": 11433,
+      "sha256": "d2ce64be1c667f8582efb6addd7aa528757a1266b6d6da98c44e7275dd8a31a3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 19628,
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-observed.json",
+      "bytes": 442,
+      "sha256": "32dbe3ca99078e6172bdd725599cfb3cb8b4f5d8c1d21b798c97611b14799ad1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-publication.json",
+      "bytes": 1193,
+      "sha256": "9b71b9a878f09c6e051cf3ad654771f22981a2ebe3f79098cf5001bcfad6b673"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-sources.json",
+      "bytes": 1867,
+      "sha256": "63ff67906be6f15d8423f2a5c22a27b1625bb4117ffd0a3afb17c8eee43e2f4c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.json",
+      "bytes": 7550,
+      "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.md",
+      "bytes": 10352,
+      "sha256": "f962bee606ba0a2cc03b08bb9e4669bf43056dfd6f983cfa24d6c3d990a7c805"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-replay.json",
+      "bytes": 7550,
+      "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R34-poisson-twin-caps-conditional-strong-ratios.md",
+      "bytes": 14623,
+      "sha256": "b6549b3388cce38e826bd29bf65041d019ddd91a9a54031ca4a77119d76314ae"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R36-positive-collar-template-and-conditional-strong-ratios.md",
+      "bytes": 26972,
+      "sha256": "60005ee6ec956c7483cdf77d712925960bfec79712d8f204283cf1c7ee518e3e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R37-radial-interface-and-positive-support-kernel-obstruction.md",
+      "bytes": 11871,
+      "sha256": "cbdfc3b0022efcda1d083f2782df6700223d19027007c4c0072579bd879f5875"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R38-ck-local-exact-isometric-collar.md",
+      "bytes": 20176,
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-flat058-geometric-template.py",
+      "bytes": 7818,
+      "sha256": "47d63175450ce66d31e5af054844d1748a75dda2382817459f4ef18e392f65c2"
+    }
+  ],
+  "exact_fraction_fields_recomputed": 38,
+  "all_fraction_fields_equal": true,
+  "independent_directed_radii": {
+    "flat_normal": {
+      "numerator": "38343503649",
+      "denominator": "500000000000"
+    },
+    "active_normal": {
+      "numerator": "2080280667",
+      "denominator": "26339266600"
+    }
+  },
+  "strict_margins": {
+    "flat_above_07668": {
+      "numerator": "3503649",
+      "denominator": "500000000000"
+    },
+    "active_above_07898": {
+      "numerator": "1347733",
+      "denominator": "6584816650000"
+    },
+    "retained_above_goal": {
+      "numerator": "1",
+      "denominator": "1000"
+    }
+  },
+  "author_report_byte_identical_replay": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-replay.json",
+    "bytes": 7550,
+    "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e"
+  },
+  "conditional_ratio_displays_checked": true,
+  "closed_surface_or_common_metric_exit_proved": false,
+  "candidate_reads": 0,
+  "solver_calls": 0
+}

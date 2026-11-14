@@ -1,0 +1,14 @@
+{
+  "status": "PASS signed-mode/restriction component diagnostics",
+  "scope": "Independent signed-mode/restriction diagnostics for the tail backend.",
+  "script_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "reviewer_sha256": "0b0a79c20ca995e940991c48a9f15e8b13f7e29afe9ef9bc10b96dd4b72ea84c",
+  "cartesian_complex_comparisons": 15552,
+  "max_absolute_difference": 8.326672684688674e-17,
+  "sampled_interval_violations": 0,
+  "not_certified": [
+    "supplier packet validity",
+    "whole physical tail",
+    "README completion"
+  ]
+}

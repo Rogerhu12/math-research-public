@@ -1,0 +1,310 @@
+{
+  "schema": "fd2d-R186-exact-BigInt-delta7-island-removal-v1",
+  "passed": true,
+  "arithmetic": "all assertions and bounds are exact reduced BigInt rationals; displayed Number ratios never determine an assertion",
+  "actual_origin": {
+    "bytes": 133721,
+    "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+  },
+  "evidence": {
+    "R182_report": {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-report.json",
+      "bytes": 12198,
+      "sha256": "44d3d9318ffa7b70f7bcc59cebf81df09e72b9c37562c05e1410cdb65b627a68"
+    },
+    "R182_rows": {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-rows.json.gz",
+      "bytes": 124843,
+      "sha256": "d7f990bcef75ec30311e23d3cf92dadf5736f871f141dd3f7fa62071f7793095"
+    },
+    "endpoint_radius_source": "late_negative row 0, exact a.upper_binary; actual pre-disconnect tool observation 1da6f9, not a new binary download",
+    "base_lipschitz_source": "R136 accurate shared-jet/phase definition and R166 sections 1(3),2: |a_base,s|<=1; Hermite Bernstein bound followed by exact phase derivatives",
+    "profile_family": "same accurate base, same seven saved compact C4 bump supports; only coefficient seven increases"
+  },
+  "target_interval": [
+    {
+      "exact": [
+        "801077783718527",
+        "562949953421312"
+      ],
+      "display": 1.423
+    },
+    {
+      "exact": [
+        "6507701461550367",
+        "4503599627370496"
+      ],
+      "display": 1.445
+    }
+  ],
+  "target_endpoint_semantics": "original R182 exact dyadic support with decimal labels 1.423 and 1.445",
+  "bump_support": [
+    {
+      "exact": [
+        "4581889784524941",
+        "4503599627370496"
+      ],
+      "display": 1.0173839070148774
+    },
+    {
+      "exact": [
+        "3307833529335461",
+        "2251799813685248"
+      ],
+      "display": 1.4689731783581288
+    }
+  ],
+  "bump_width": {
+    "exact": [
+      "2033777274145981",
+      "4503599627370496"
+    ],
+    "display": 0.45158927134325144
+  },
+  "old_delta7": {
+    "exact": [
+      "1836789295023669",
+      "144115188075855872"
+    ],
+    "display": 0.012745286042001792
+  },
+  "allowed_new_delta7_interval": [
+    {
+      "exact": [
+        "7782220156096217",
+        "288230376151711744"
+      ],
+      "display": 0.027
+    },
+    {
+      "exact": [
+        "5764607523034235",
+        "72057594037927936"
+      ],
+      "display": 0.08
+    }
+  ],
+  "witness_binary64_delta7": {
+    "exact": [
+      "7782220156096217",
+      "288230376151711744"
+    ],
+    "display": 0.027
+  },
+  "witness_increase": {
+    "exact": [
+      "4108641566048879",
+      "288230376151711744"
+    ],
+    "display": 0.014254713957998207
+  },
+  "normalized_q_left": {
+    "exact": [
+      "260961783603325",
+      "290539610592283"
+    ],
+    "display": 0.8981969207962324
+  },
+  "normalized_q_right": {
+    "exact": [
+      "1925811677025426",
+      "2033777274145981"
+    ],
+    "display": 0.9469137557523886
+  },
+  "quadratic_factor_at_q_left": {
+    "exact": [
+      "99358388270889496878074536028",
+      "84413265323115444010059152089"
+    ],
+    "display": 1.1770470895844083
+  },
+  "exact_independent_factor_psi7_second_lower": {
+    "exact": [
+      "1345602646973140390406083503762556528050879658973879032705178640530577926661161420871272763524242571746724899872013843389434453192175779840000000000",
+      "210014645297298611268947013473948551929166929465199690931846598229108346234090538013926842427355927099649214311691679923527249149566906668568753001"
+    ],
+    "display": 6.407184818317281
+  },
+  "simple_psi7_second_strict_lower": {
+    "exact": [
+      "32",
+      "5"
+    ],
+    "display": 6.4
+  },
+  "first_box_a_upper_at_A": {
+    "exact": [
+      "100232046176162410354410926399048739012901711058992158435288592685611452460697",
+      "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+    ],
+    "display": 0.8656208453993481
+  },
+  "old_whole_target_a_upper": {
+    "exact": [
+      "104255275438113960997395325553568106777221649456211336924290530009552187551385",
+      "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+    ],
+    "display": 0.90036613144135
+  },
+  "old_K_upper": {
+    "exact": [
+      "852552185",
+      "8589934592"
+    ],
+    "display": 0.09925013699103147
+  },
+  "simple_old_a_ss_strict_lower": {
+    "exact": [
+      "-901",
+      "10000"
+    ],
+    "display": -0.0901
+  },
+  "simple_new_a_ss_strict_lower": {
+    "exact": [
+      "11",
+      "10000"
+    ],
+    "display": 0.0011
+  },
+  "direct_new_a_ss_strict_lower_from_coarse_old_ass": {
+    "exact": [
+      "2588612924407535800901813454623225594270205575334905286866686589468902872899093286879804674495577220970501235754279516537814074978751491619553546099",
+      "2100146452972986112689470134739485519291669294651996909318465982291083462340905380139268424273559270996492143116916799235272491495669066685687530010000"
+    ],
+    "display": 0.0012325868611415514
+  },
+  "direct_new_a_ss_strict_lower_from_saved_K_and_radius": {
+    "exact": [
+      "411748938667152709014644179341058910156632710286043459399292342438175511300483909898329176995118836885819535906889350406991512353971086739661007378842574752701855523162084877603766773880999495011616721044422786955797881231871048775",
+      "208890326185411847428824864733232528545082571966156802755101466070972339342945252112423406982976234577904593257198945339854798187697552687963580792673680656316061526526750470943171119029284022716940981505799135658220785528987149402112"
+    ],
+    "display": 0.00197112497350252
+  },
+  "new_whole_target_a_upper_for_all_allowed_delta7": {
+    "exact": [
+      "112042839278368664743016498497672046642053326592183952621239440754526044024473",
+      "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+    ],
+    "display": 0.9676208453993482
+  },
+  "new_whole_target_K_strict_upper": {
+    "exact": [
+      "-11",
+      "10000"
+    ],
+    "display": -0.0011
+  },
+  "retained_global_radius_lower": {
+    "exact": [
+      "18103121383342981011",
+      "23058430092136939520"
+    ],
+    "display": 0.78509774130357
+  },
+  "coast_and_middle_metric_unchanged": true,
+  "protected_terminal_metric_and_K_unchanged": true,
+  "complete_body_or_seam_unchanged_claimed": false,
+  "current_late_positive_K_window_constraints_must_not_be_applied_to_new_negative_K_target": true,
+  "all_checks": [
+    {
+      "name": "exact old support and target ordering",
+      "passed": true
+    },
+    {
+      "name": "old seventh coefficient strictly positive",
+      "passed": true
+    },
+    {
+      "name": "new coefficient is the exact binary64 0.027",
+      "passed": true
+    },
+    {
+      "name": "original upper bound is exact binary64 0.08",
+      "passed": true
+    },
+    {
+      "name": "increase only and within original coefficient box",
+      "passed": true
+    },
+    {
+      "name": "original global radius bound positive",
+      "passed": true
+    },
+    {
+      "name": "normalized target lies strictly in the right half of bump support",
+      "passed": true
+    },
+    {
+      "name": "increasing quadratic factor is already positive at qLeft",
+      "passed": true
+    },
+    {
+      "name": "exact full-band psi7-second factor bound exceeds 32/5",
+      "passed": true
+    },
+    {
+      "name": "saved first-box endpoint radius upper is below 0.865621",
+      "passed": true
+    },
+    {
+      "name": "old full-band radius upper is below 901/1000",
+      "passed": true
+    },
+    {
+      "name": "certified old K upper is below 1/10",
+      "passed": true
+    },
+    {
+      "name": "actual binary64 increase exceeds 57/4000",
+      "passed": true
+    },
+    {
+      "name": "simple uniform new a_ss lower equals 11/10000",
+      "passed": true
+    },
+    {
+      "name": "uniform a_ss margin exceeds one thousandth",
+      "passed": true
+    },
+    {
+      "name": "all allowed increased profiles have radius below one on the target",
+      "passed": true
+    },
+    {
+      "name": "middle window ends before changed bump support",
+      "passed": true
+    },
+    {
+      "name": "bump right endpoint is exactly the protected terminal start",
+      "passed": true
+    },
+    {
+      "name": "direct exact margin dominates simple bound",
+      "passed": true
+    },
+    {
+      "name": "saved K/radius margin dominates coarse-ass margin",
+      "passed": true
+    }
+  ],
+  "first89_box_ratio_maximum_computed": false,
+  "sufficient_witness_not_optimal_threshold": true,
+  "new_field_F_J_BVP_body_ODE_or_Arb_intervals_evaluated": false,
+  "whole_closed_surface_solution_claimed": false,
+  "source": {
+    "path": "scripts/fd2d-metric-delta7-island-removal-rational.mjs",
+    "bytes": 8335,
+    "sha256": "394af7bde86078a6fd5d63a810a233795d6c0c179ebb801af2b01d1aedfe515a"
+  },
+  "execution": {
+    "kind": "functions.exec V8 BigInt",
+    "actual_completed": true,
+    "all_twenty_exact_checks_passed": true,
+    "subprocess_started": false,
+    "OS_exit_code": null,
+    "executor_required": false,
+    "note": "Executed the preserved standalone source through Function('emit',source+'; return result;') with a result collector; no Python/Node subprocess or GitHub Actions child is claimed."
+  }
+}

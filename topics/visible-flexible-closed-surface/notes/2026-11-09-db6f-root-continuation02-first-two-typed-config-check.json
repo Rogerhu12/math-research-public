@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Canonical JSON type-preserving equality of actual closed records, no solver replay.",
+  "config_sha256": "1e5fc1ae3e6ecd2200891ce6b9d6694d1bb93d05061cde1d2397ff8b85f76614",
+  "calls": [
+    {
+      "call": 1,
+      "response_sha256": "159bfe9470b77b698fbcc14d22a31f0a16a029394c8cd6c39506dfa3bb1d9cd1",
+      "typed_configuration_equal": true
+    },
+    {
+      "call": 2,
+      "response_sha256": "c8868f86e69a0186af308d654957b26a865ed78f86a2928721bf9535206c3376",
+      "typed_configuration_equal": true
+    }
+  ]
+}

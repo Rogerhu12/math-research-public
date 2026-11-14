@@ -1,0 +1,76 @@
+{
+  "schema": "R195-scaled-band-border-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_scaled_band_border_lm_R195.cjs",
+      "sha256": "0ae8ae6d6cd58b8bbc6435189a9850861dc5948c4ba322028dc6fc3886d98013",
+      "bytes": 14210
+    },
+    {
+      "path": "scripts/fd2d_band_border_lm_adapter_R195.cjs",
+      "sha256": "bea8b48e2d3457f3a19e963fbaea5eafece023071ec43747e0525ea97370fe4a",
+      "bytes": 11780
+    },
+    {
+      "path": "scripts/fd2d_scaled_band_border_lm_R195_check.cjs",
+      "sha256": "9f3ab0b27d421d4ac6b04f5c6aa5d987cae685bc2d043aec08226db8a7de48b3",
+      "bytes": 4498
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R195-band-border-actual-check-01.json",
+      "sha256": "b3a91c7afdc0714766dcc89ec989910740869ac41c91d9bc335adace18871805",
+      "bytes": 8951
+    },
+    {
+      "path": "results/R195-scaled-band-border-normal-equivalence.md",
+      "sha256": "e7cea170ef4a56fb1050b75ec2aab70686a1512e2c5bb1493aadbbf5061b4c4b",
+      "bytes": 8630
+    }
+  ],
+  "actual": {
+    "runtime": "functions.exec V8",
+    "OSProcessCreated": false,
+    "OSExitCode": null,
+    "oneActualCoupledNormal": true,
+    "normalAssemblyMilliseconds": 2006,
+    "normalDimension": 193,
+    "normalSquaredNorm": 0.00004384082096786088,
+    "sameExplicitLambda": 0.0011111111111111111,
+    "directionRelativeL2": 3.4267215126552416e-14,
+    "independentOriginalEquationMaximum": 3.2526065174565133e-18,
+    "testPassed": true,
+    "providerOrArmijoChanged": false,
+    "adapterAdditionalFOrNormalCalls": 0
+  },
+  "input": {
+    "fixture": "notes/2026-11-12-fd2d-direct-position-R191-curvature-weight02-01.json",
+    "fixtureSHA256": "7109305642200f9a08a2b5a079acaebabef39e7c4131caac9932e73552473dc0",
+    "sourceSHA256": {
+      "engine": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+      "metric": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+      "curvature": "8122d9c03850563c49594c66fd3d7b21dd7e2364063b0f90247ec0700c24759f",
+      "curvatureAlgebra": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812",
+      "lm": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4"
+    }
+  },
+  "scope": {
+    "sameFiniteEquations": true,
+    "sameDomain": true,
+    "sameDampingDefinition": true,
+    "hiddenShift": 0,
+    "bandAccumulatorImplemented": false,
+    "structuralOffBandTolerance": 0,
+    "fieldAndBorderNonSPDRejected": true,
+    "denseInputStillAllocatedByCaller": true,
+    "continuousGeometryCertificate": false
+  },
+  "publication": {
+    "terminalUnavailable": true,
+    "firstCheckerCreate409": true,
+    "thenCheckerRead404": true,
+    "freshCreateSucceeded": true,
+    "rulesRootBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "rulesTopicBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "gitPullClaimed": false
+  }
+}

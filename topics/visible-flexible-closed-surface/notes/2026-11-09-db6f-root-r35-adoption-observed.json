@@ -1,0 +1,61 @@
+{
+  "status": "ROOT_INDEPENDENT_FULL_REVIEW_AND_REPLAYS_PASSED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T19:15:43.777671+00:00",
+  "actual_executions": [
+    {
+      "receipt": "5b313f",
+      "tool_exit_code": 0,
+      "task": "author support-cone program independent replay"
+    },
+    {
+      "receipt": "38ba7e",
+      "tool_exit_code": 0,
+      "task": "author cuff-budget program independent replay"
+    },
+    {
+      "receipt": "162ea2",
+      "tool_exit_code": 0,
+      "task": "independent rational rederivation and 15-source check"
+    }
+  ],
+  "formal_proof_body_byte_equal_to_reviewed_source": true,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-interface.md",
+      "bytes": 13770,
+      "sha256": "78b5d369810d4c37898a4f7d80def5d5a169a3921bdde823edded0c22840ed6e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-interface.md",
+      "bytes": 6768,
+      "sha256": "9da7c3bc36fffcbaabb47b60404652e4c1935ccb8d6929d225aba64187d99edb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R35-nonconvex-connector-and-fixed-cuff-constraints.md",
+      "bytes": 14272,
+      "sha256": "327f4fd5e5683479836e72bdc28c1a692b2da4c60af8fb1bcddf7bc2d40887e9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-review-nonconvex-interface.py",
+      "bytes": 6663,
+      "sha256": "80c555e97f4b0f413fc8ca5aa7e3f38cc88fb5b9d0d6571b4dfaa193b75037c8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-interface-check.json",
+      "bytes": 4087,
+      "sha256": "292ae0cdcdcbbab0ab11fb314fc6b54bc3e6ffc71f078b96048f2f02e9262834"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cones-replay.json",
+      "bytes": 2769,
+      "sha256": "872fa1456032e41f5b87a88c1706755b66563c05121e5cbd4888c6d35842a535"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cuff-replay.json",
+      "bytes": 1754,
+      "sha256": "88df09518665ba8c96b8f53b24d0ebbded2ebaddf4c98449ab4e50b86d010c91"
+    }
+  ],
+  "scope": "Conditional geometry only; no new actual closed family/whole reach/G5 result."
+}

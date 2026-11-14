@@ -1,0 +1,7 @@
+{"event": "start_UNSOLVED_affine_lift", "oldM": 14, "M": 15, "nodes": 2633, "tol": 2e-09, "initial_affine_bc": 4.096723062722538e-09}
+   Iteration    Max residual  Max BC residual  Total nodes    Nodes added  
+       1          2.00e-09       1.13e-15         2633             0       
+Solved in 1 iterations, number of nodes 2633. 
+Maximum relative residual: 2.00e-09 
+Maximum boundary residual: 1.13e-15
+{"event": "UNSOLVED_affine_lift_result", "affine_solver_success": true, "nodes": 2633, "rms": 1.9978791182184204e-09, "prefix_metric": 1.3024643295715905e-09, "cut_change_linf": 1.8282176553890972e-11, "new_mode_cut_height_linf": 8.873136367407456e-16, "actual_amplitude": 0.09999976661892393}

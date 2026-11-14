@@ -1,0 +1,127 @@
+{
+  "schema": "fd2d-noncircle-tangential-minimum-strain-screen-v1",
+  "status": "SCREEN_ONLY__PIECEWISE_LINEAR_FIELD",
+  "scope": "Floating minimum-strain tangential projection on the SAME fixed target.\n\nThe actual common-prefix and optional own-tail metric is sampled in material\nangle. A piecewise-linear radial p,q field is fitted separately for each\nFourier mode of g=ds^2+a(s)^2du^2. It minimizes all three normalized linear\nmetric errors together, instead of forcing E/F exactly to zero. The fit has\np(0)=0 and p=q=0 on a selected terminal collar. This is a SCREEN: the fitted\nfield is not C2, finite radial/angular samples are not a uniform bound, and\nno nonlinear pullback map is constructed or certified.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-noncircle-projection-screen.py",
+    "bytes": 9657,
+    "sha256": "71d2f4b1b90a52614f78a308fbcb6cf9401d1d6e03b0d7c8fe329677530c548b"
+  },
+  "metric_sampler": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-noncircle-gauge-screen.py",
+    "bytes": 19853,
+    "sha256": "7549b00920c98b4d0cb5443f4db6448e492bd4d510ef9ef847a54bacb3861ccd"
+  },
+  "geometry": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "bytes": 10095,
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "target": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "bytes": 3668,
+    "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+  },
+  "angular_samples": 512,
+  "psi_samples": 2048,
+  "prefix_cells": 2048,
+  "tail_cells": 1024,
+  "fitted_modes": 192,
+  "iterations": [
+    {
+      "iteration": 1,
+      "p": 1.3297157523312943e-11,
+      "q": 2.1276622316321193e-11,
+      "p_u": 5.436913739130844e-10,
+      "q_u": 4.4786422505734356e-09,
+      "p_s": 9.612851819566531e-09,
+      "q_s": 1.0932092650740613e-09,
+      "metric": 1.201404051386598e-09,
+      "E": 9.656571666011247e-10,
+      "F": 5.4466017797795e-10,
+      "G": 6.510814601930281e-10,
+      "worst_cell": 2278,
+      "worst_angle_index": 55,
+      "worst_location": {
+        "region": "tail",
+        "r": 0.49870605468749996,
+        "span": 17384,
+        "tau": 0.9671832008498654
+      },
+      "seconds": 178.46699236700078
+    },
+    {
+      "iteration": 2,
+      "p": 1.2711344829683397e-11,
+      "q": 2.1276607744505335e-11,
+      "p_u": 5.364573226173418e-10,
+      "q_u": 4.47861137053586e-09,
+      "p_s": 9.615678305845914e-09,
+      "q_s": 1.1278130118784765e-09,
+      "metric": 1.064397683743347e-09,
+      "E": 8.395293604126785e-10,
+      "F": 5.46112266394613e-10,
+      "G": 6.397537781933822e-10,
+      "worst_cell": 2279,
+      "worst_angle_index": 55,
+      "worst_location": {
+        "region": "tail",
+        "r": 0.4982666015625,
+        "span": 17383,
+        "tau": 0.5022924241345064
+      },
+      "seconds": 189.44784224600153
+    },
+    {
+      "iteration": 3,
+      "p": 1.2338033475058776e-11,
+      "q": 2.1276625059490917e-11,
+      "p_u": 5.407528596609212e-10,
+      "q_u": 4.478596908352384e-09,
+      "p_s": 9.617325283663797e-09,
+      "q_s": 1.1460619149081044e-09,
+      "metric": 9.716480021560608e-10,
+      "E": 7.501577199779242e-10,
+      "F": 5.661607931747909e-10,
+      "G": 6.306981267787528e-10,
+      "worst_cell": 2282,
+      "worst_angle_index": 56,
+      "worst_location": {
+        "region": "tail",
+        "r": 0.4969482421875,
+        "span": 17379,
+        "tau": 0.1075357818899508
+      },
+      "seconds": 194.68385331900208
+    }
+  ],
+  "sampled_original_metric_max": 1.9296933780411876e-08,
+  "remaining_untreated_angular_modes": true,
+  "fixed_terminal_width": 0.002,
+  "fixed_terminal_nodes": 5,
+  "initial_p_sampled_absmax": 0.0,
+  "initial_q_s_sampled_absmax": 2.738697430345042e-12,
+  "mirror_second_jet_verified": false,
+  "terminal_values_exact_in_fitted_algebra": true,
+  "terminal_shared_two_jets_verified": false,
+  "field_C2": false,
+  "nonlinear_pullback_checked": false,
+  "exact_target_bridge_transfer_applied": false,
+  "continuous_certificate": false,
+  "metric_bound_certified": false,
+  "complete_closed_surface": false,
+  "solver_type": "Complex Hermitian banded linear least squares; no nonlinear BVP",
+  "nonlinear_solver_calls": 0,
+  "ODE_shooting_calls": 0,
+  "seconds": 194.71949969699926,
+  "tail": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+    "bytes": 138611,
+    "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+  },
+  "tail_packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+    "bytes": 3979,
+    "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+  }
+}

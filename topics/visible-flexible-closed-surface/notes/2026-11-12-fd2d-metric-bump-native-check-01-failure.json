@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-actual-failed-check-receipt-v1",
+  "session_id": 84705,
+  "completion_chunk_id": "7bdae5",
+  "observed_exit_code": 1,
+  "exception": "TypeError: Object of type bool is not JSON serializable",
+  "cause": "NumPy boolean in final checks dictionary; failure occurred while serializing the final report",
+  "original_source_snapshot": {
+    "path": "repro/fd2d-metric-bump-native-check01/fd2d-metric-bump-native-check.py",
+    "sha256": "5dabf62703bc9f75425cc25085fadf137cde2be68b7e56321226546c308d445d"
+  },
+  "actual_written_objects": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-01-fixture.npz",
+      "bytes": 39345,
+      "sha256": "d9ac60e7c824cbb6af1a8b6880be9617e66294fb0b966514d7e16e364572c7b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-01-definition.json",
+      "bytes": 12691,
+      "sha256": "39a126d7892c74994e03f5926cf31667d97022eab8a1fb425a87b87db08561e4"
+    }
+  ],
+  "complete_report_saved": false,
+  "scope": "No final numeric check result is claimed; fixture/definition existed before output failure"
+}

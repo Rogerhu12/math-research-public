@@ -1,0 +1,63 @@
+{
+  "schema": "fd2d-normal-ball-streaming-closed-inputs-and-partial-coverage-v1",
+  "scope": "Strict global normal variation, completed one-row all-radial/all-angle coverage, and frozen full-domain consumer source. Not yet a full-domain normal-ball conclusion.",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_normal_variation_convolution.py",
+      "sha256": "ae72990e5cfe6818a5f6c14102dcecdb7f613984ae04d800f73962cd2334a0f6",
+      "bytes": 5344,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-normal-variation-02.json",
+      "sha256": "d0346166838ec246cbf48ff91c5445abe1c7024d9d1b3e5cbb69d550a087c7f8",
+      "bytes": 345513,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls.py",
+      "sha256": "c018b2f7cba0cf3f65855c0200eb563e9ebff831ac0f15a2335a5449ad9c00ab",
+      "bytes": 18353,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-pilot-01.json",
+      "sha256": "fb578b3964a6a1b8b4568600f61e97e1fd5ce210a40f41c533b0aa87b2dd9596",
+      "bytes": 3989,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls_taylor.py",
+      "sha256": "94b104d4b9e4fb650f316a78905336ed40e276c9a1a67499d658029155e52be2",
+      "bytes": 20674,
+      "closed": true
+    }
+  ],
+  "executions": [
+    {
+      "session": 67568,
+      "final_chunk": "945a5a",
+      "exit_code": 0,
+      "source_seconds": 1.386122283000077,
+      "scope": "Global actual normal variation"
+    },
+    {
+      "session": 19820,
+      "final_chunk": "a1dc8f",
+      "exit_code": 0,
+      "source_seconds": 133.17509612499998,
+      "scope": "Only initial row 0 of 32; complete=false"
+    },
+    {
+      "session": 38901,
+      "initial_chunk": "5f9398",
+      "status": "running",
+      "source_frozen": true,
+      "scope": "Full 32-row triangle; report still pending"
+    }
+  ],
+  "exclude_pending": [
+    "results/R151-actual-coast-complete-self-normal-balls.md",
+    "notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-02.json"
+  ]
+}

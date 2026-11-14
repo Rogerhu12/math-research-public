@@ -1,0 +1,87 @@
+{
+  "schema": "fd2d-R151-streaming-inputs-and-completed-products-closed-manifest-v2",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-extension-certificate-02.json.gz",
+      "sha256": "0148e396f0474b47afde17a39028c85f63ba42fe0fc03dcaa603a4b7218df919",
+      "bytes": 321964,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_double_short_pair_constants.py",
+      "sha256": "95d2536ff4dd533eaf8abf43b7d1e424c9286197a7eee09846abf7a5cd0f19dd",
+      "bytes": 3445,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-double-short-pair-constants-01.json",
+      "sha256": "b93fece6d16730a4be1a132635b748d42fe387d4eae3691edc001ed37da38dea",
+      "bytes": 2059,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-v2-completed-rows-receipt.json",
+      "sha256": "8909ebfc5692155b8352e333fd31bd45a3d6f86b38414ea118c31d8e0f94d2ab",
+      "bytes": 4239,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls_extended.py",
+      "sha256": "c3569e27886cf1b6ff770f74e2b078bd0b423c590528a55cf32f49bedd5e6714",
+      "bytes": 23563,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-v3-completed-rows-checkpoint.json",
+      "sha256": "54cc1eca66804673faddc4ccb90eb20137b5650718ee0dbf96f0479d39f8bcea",
+      "bytes": 2482,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-v3-owner-stop-receipt.json",
+      "sha256": "3e5dd418a18144c5216f5c343116728e91c4e61ec0b8717729edda08a1b2c849",
+      "bytes": 825,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_frame_reference_bound.py",
+      "sha256": "402d3f3ede62e22f22fb6ff020b37884664e55d705f78eede4b090730c239737",
+      "bytes": 2900,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-frame-reference-bound-01.json",
+      "sha256": "1cd8aa712459af3ffd5122cb37198902a5435003a7bc170c6f8be91e0304f31a",
+      "bytes": 2166,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls_frame.py",
+      "sha256": "76842c8b8fd971257573bc9c1c9124ead27c860b22bf88f7391a49fd1f46f5b4",
+      "bytes": 23625,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_complete_normal_ball_coverage.py",
+      "sha256": "f0f229f84cc2803f0be33525082d72c77509f9502730c9074615c21b769c5a10",
+      "bytes": 6845,
+      "closed": true
+    }
+  ],
+  "scope": "Same original F. New strict .003 auxiliary extension and d<=.2 theorem; frozen verified reference-normal error; completed initial rows0..8. Complete suffix still running; no global theorem yet.",
+  "actual_completed_initial_products": 252,
+  "active_run": {
+    "session": 63725,
+    "initial_chunk": "510ae4",
+    "initial_rows": [
+      9,
+      32
+    ],
+    "source_frozen": true
+  },
+  "exclude_pending": [
+    "results/R151-actual-coast-complete-self-normal-balls.md",
+    "notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-04.json",
+    "notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-04.json.checkpoint.json"
+  ]
+}

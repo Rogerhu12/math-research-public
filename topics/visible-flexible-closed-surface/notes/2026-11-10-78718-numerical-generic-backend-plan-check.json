@@ -1,0 +1,1692 @@
+{
+  "scope": "Practical same-g continuous backend for an actual successful prefix/tail.\n\nPlan the existing mathematical producers, run an explicitly selected stage, or\nsummarize an actual whole-map certificate at the original 2e-9 target. Prefix\nand tail Fourier orders are separate. No frozen-launch, observer, independent\nreplay or old 80 MB comparison package is a prerequisite. Plans are not bounds.\n",
+  "status": "ACTUAL_FINITE_INPUTS_PLANNED_NO_PRODUCTION",
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+    "bytes": 21471,
+    "sha256": "51f892fd54ad99851fc2179027839d64342b58a6b068319ff815752f014f7ac1"
+  },
+  "argv": [
+    "topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+    "plan",
+    "--checkpoint",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+    "--run-directory",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-backend-plan-check.json"
+  ],
+  "candidate": {
+    "checkpoint": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "bytes": 64813,
+      "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+    },
+    "own_final_tail": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+      "bytes": 254106,
+      "sha256": "c253eedbf3a4711ad79740d655262a5991e803e38dab2b4a248c386db9efcb7d"
+    },
+    "prefix_modes": 14,
+    "tail_modes": 14,
+    "prefix_angular": 512,
+    "tail_angular": 512,
+    "physical_rms": 6.265093215675974e-10,
+    "physical_bc": 5.195276581984251e-18,
+    "actual_tail_residual": 1.233790464730497e-09,
+    "finite_success_only": true,
+    "closed_surface_success": false
+  },
+  "production_directory": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check",
+  "container": "storage",
+  "container_note": "Lossless logical NPZ byte shards; no geometry or float change.",
+  "command_template": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json",
+    "bytes": 297542,
+    "sha256": "232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9"
+  },
+  "fixed_input_roles": {
+    "old_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "linear_port": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+    "tight_packet": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+    "alpha": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+    "calibrations": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+    "lowmetric_packet": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-lowmetric-final-packet.json",
+    "height": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+    "positive_alpha": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json"
+  },
+  "missing_named_fixed_inputs": [],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VISIBLE_FLEX_SOURCE_ROOT": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts"
+  },
+  "commands": [
+    {
+      "id": "tail-export",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--max-old-space-size=1536",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-endpoint-critical-increment-export.mjs",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0003.json.gz",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--depth",
+        "8",
+        "--steps",
+        "32",
+        "--flow-steps",
+        "32",
+        "--angular-nodes",
+        "512",
+        "--degree",
+        "192",
+        "--grid",
+        "critical",
+        "--critical-cells",
+        "0",
+        "--critical-base-steps",
+        "64",
+        "--critical-ratio",
+        ".05",
+        "--endpoint-ratio",
+        ".025",
+        "--difference-step",
+        ".00005",
+        "--audit-angular-nodes",
+        "128",
+        "--audit-fractions",
+        ".25,.5,.75"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-collar.json"
+      ]
+    },
+    {
+      "id": "tail-radial",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-radial-invariant.py",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-radial.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-export"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-radial.json"
+      ]
+    },
+    {
+      "id": "tail-collar",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-collar-exact-check.py",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-collar.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-collar-check.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-export"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-collar-check.json"
+      ]
+    },
+    {
+      "id": "tail-first",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-first-bounds-stream.py",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-first.json",
+        "--batch",
+        "128"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-export",
+        "tail-radial",
+        "tail-collar"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-first.json"
+      ]
+    },
+    {
+      "id": "prefix-base",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--checkpoint",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "--linear-port",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base",
+        "--modes",
+        "24",
+        "--angular",
+        "768",
+        "--quadrature",
+        "8",
+        "--subdivide",
+        "1",
+        "--ell",
+        "0"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json"
+      ]
+    },
+    {
+      "id": "prefix-target",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-base"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json"
+      ]
+    },
+    {
+      "id": "prefix-inlet-lower",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inlet-angular-lower-v1.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json",
+        "--target",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-inlet-lower.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-target"
+      ],
+      "condition": "Optional early necessary-condition diagnostic; a lower bound above 2e-9 rejects this retained-prefix graph.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-inlet-lower.json"
+      ]
+    },
+    {
+      "id": "prefix-base-metric",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json",
+        "--target",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base-metric.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-target"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base-metric.json"
+      ]
+    },
+    {
+      "id": "bridge",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-exact-bridge.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json",
+        "--target",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json",
+        "--tail-manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--metric-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base-metric.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/bridge.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-base-metric",
+        "tail-radial",
+        "tail-collar"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/bridge.json"
+      ]
+    },
+    {
+      "id": "common-cut",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+        "make",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-base.json",
+        "--tail",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--bridge",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/bridge.json",
+        "--width",
+        ".15",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "bridge"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json"
+      ]
+    },
+    {
+      "id": "prefix-geometry",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+        "geometry",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--angular",
+        "256",
+        "--radial",
+        "1",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-geometry.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "common-cut"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-geometry.json"
+      ]
+    },
+    {
+      "id": "prefix-baseline",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+        "metric",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--target",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-baseline-metric.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "common-cut"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-baseline-metric.json"
+      ]
+    },
+    {
+      "id": "prefix-moment",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+        "moment",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--angular",
+        "512",
+        "--radial",
+        "1",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-moment.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "common-cut"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-moment.json"
+      ]
+    },
+    {
+      "id": "prefix-angular",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-metric-storage-v2.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--target",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-target.json",
+        "--baseline",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-baseline-metric.json",
+        "--bridge",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/bridge.json",
+        "--budget",
+        "2e-9",
+        "--initial-arcs",
+        "128",
+        "--max-depth",
+        "4",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-angular-metric.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-baseline"
+      ],
+      "condition": "Only if actual baseline target transfer exceeds 1/500000000 and the original angular branch is selected.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-angular-metric.json"
+      ]
+    },
+    {
+      "id": "background-k",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+        "--old-manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--packet",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+        "--new-manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-k"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-radial",
+        "tail-collar"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-k.json"
+      ]
+    },
+    {
+      "id": "background-e",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+        "--old-manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+        "--packet",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-lowmetric-final-packet.json",
+        "--new-manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-e"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-radial",
+        "tail-collar"
+      ],
+      "condition": "Only if complete tail-full has not attained the original metric bound.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-e.json"
+      ]
+    },
+    {
+      "id": "tail-full",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-stream.py",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--packet",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-k.json",
+        "--angular",
+        "128",
+        "--radial",
+        "1",
+        "--background-curvature",
+        "6",
+        "--direct-threshold",
+        "8.5",
+        "--block-size",
+        "128",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "background-k"
+      ],
+      "condition": "always",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json"
+      ]
+    },
+    {
+      "id": "tail-metric",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-only.py",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--packet",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-e.json",
+        "--radial",
+        "1",
+        "--block-size",
+        "128",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-metric.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "background-e",
+        "tail-full"
+      ],
+      "condition": "Only if complete tail-full has not attained the original metric bound.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-metric.json"
+      ]
+    },
+    {
+      "id": "tail-completeness",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-complete-metric-report.py",
+        "--report",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-metric.json",
+        "--curvature-report",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-completeness.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "tail-metric"
+      ],
+      "condition": "Required if metric-only is actually used.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-completeness.json"
+      ]
+    },
+    {
+      "id": "closed-budget-baseline",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-closed-budget-storage-v1.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--geometry-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-geometry.json",
+        "--metric-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-baseline-metric.json",
+        "--moment-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-moment.json",
+        "--tail-first",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-first.json",
+        "--height",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+        "--positive-alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+        "--background-transfer",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-k.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-baseline.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-geometry",
+        "prefix-baseline",
+        "prefix-moment",
+        "tail-first",
+        "background-k"
+      ],
+      "condition": "Only for the selected complete baseline certificate.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-baseline.json"
+      ]
+    },
+    {
+      "id": "whole-baseline-full",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+        "--closed-budget",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-baseline.json",
+        "--tail-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-full.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "closed-budget-baseline",
+        "tail-full"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-full.json"
+      ]
+    },
+    {
+      "id": "summary-baseline-full",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+        "summarize",
+        "--checkpoint",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "--whole",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-full.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-baseline-full.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "whole-baseline-full"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-baseline-full.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-full-plan",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "plan",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--whole-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-full.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full",
+        "--angular",
+        "144",
+        "--prefix-intervals",
+        "128",
+        "--tail-intervals",
+        "64",
+        "--collar-intervals",
+        "4",
+        "--cap-intervals",
+        "12"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "summary-baseline-full"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-plan.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-radii.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-full-heights",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--max-old-space-size=1536",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--calibrations",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+        "--radii",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-radii.json",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-heights.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-baseline-full-plan"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-heights.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-full-build",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "build",
+        "--plan",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-plan.json",
+        "--height-samples",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-heights.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-baseline-full-heights"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-manifest.json"
+      ]
+    },
+    {
+      "id": "whole-baseline-metric-only",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+        "--closed-budget",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-baseline.json",
+        "--tail-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json",
+        "--tail-metric-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-metric.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-metric-only.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "closed-budget-baseline",
+        "tail-full",
+        "tail-completeness"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-metric-only.json"
+      ]
+    },
+    {
+      "id": "summary-baseline-metric-only",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+        "summarize",
+        "--checkpoint",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "--whole",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-metric-only.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-baseline-metric-only.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "whole-baseline-metric-only"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-baseline-metric-only.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-metric-only-plan",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "plan",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--whole-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-baseline-metric-only.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only",
+        "--angular",
+        "144",
+        "--prefix-intervals",
+        "128",
+        "--tail-intervals",
+        "64",
+        "--collar-intervals",
+        "4",
+        "--cap-intervals",
+        "12"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "summary-baseline-metric-only"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-plan.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-radii.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-metric-only-heights",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--max-old-space-size=1536",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--calibrations",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+        "--radii",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-radii.json",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-heights.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-baseline-metric-only-plan"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-heights.json"
+      ]
+    },
+    {
+      "id": "mesh-baseline-metric-only-build",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "build",
+        "--plan",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-plan.json",
+        "--height-samples",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-heights.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-baseline-metric-only-heights"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-manifest.json"
+      ]
+    },
+    {
+      "id": "closed-budget-angular",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-closed-budget-storage-v1.py",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--geometry-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-geometry.json",
+        "--metric-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-angular-metric.json",
+        "--moment-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/prefix-moment.json",
+        "--tail-first",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-first.json",
+        "--height",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+        "--positive-alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+        "--background-transfer",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/background-k.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-angular.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "prefix-geometry",
+        "prefix-angular",
+        "prefix-moment",
+        "tail-first",
+        "background-k"
+      ],
+      "condition": "Only for the selected complete angular certificate.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-angular.json"
+      ]
+    },
+    {
+      "id": "whole-angular-full",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+        "--closed-budget",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-angular.json",
+        "--tail-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-full.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "closed-budget-angular",
+        "tail-full"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-full.json"
+      ]
+    },
+    {
+      "id": "summary-angular-full",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+        "summarize",
+        "--checkpoint",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "--whole",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-full.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-angular-full.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "whole-angular-full"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-angular-full.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-full-plan",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "plan",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--whole-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-full.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full",
+        "--angular",
+        "144",
+        "--prefix-intervals",
+        "128",
+        "--tail-intervals",
+        "64",
+        "--collar-intervals",
+        "4",
+        "--cap-intervals",
+        "12"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "summary-angular-full"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-plan.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-radii.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-full-heights",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--max-old-space-size=1536",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--calibrations",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+        "--radii",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-radii.json",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-heights.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-angular-full-plan"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-heights.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-full-build",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "build",
+        "--plan",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-plan.json",
+        "--height-samples",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-heights.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-angular-full-heights"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-manifest.json"
+      ]
+    },
+    {
+      "id": "whole-angular-metric-only",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+        "--closed-budget",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-budget-angular.json",
+        "--tail-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-full.json",
+        "--tail-metric-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-metric.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-metric-only.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "closed-budget-angular",
+        "tail-full",
+        "tail-completeness"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-metric-only.json"
+      ]
+    },
+    {
+      "id": "summary-angular-metric-only",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+        "summarize",
+        "--checkpoint",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+        "--whole",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-metric-only.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-angular-metric-only.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "whole-angular-metric-only"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/summary-angular-metric-only.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-metric-only-plan",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "plan",
+        "--geometry",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/closed-map.json",
+        "--whole-certificate",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/whole-angular-metric-only.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only",
+        "--angular",
+        "144",
+        "--prefix-intervals",
+        "128",
+        "--tail-intervals",
+        "64",
+        "--collar-intervals",
+        "4",
+        "--cap-intervals",
+        "12"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "summary-angular-metric-only"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-plan.json",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-radii.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-metric-only-heights",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--max-old-space-size=1536",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+        "--manifest",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/tail-manifest.json",
+        "--calibrations",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "--alpha",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+        "--radii",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-radii.json",
+        "--source-root",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-heights.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-angular-metric-only-plan"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-heights.json"
+      ]
+    },
+    {
+      "id": "mesh-angular-metric-only-build",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "build",
+        "--plan",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-plan.json",
+        "--height-samples",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-heights.json",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "depends_on": [
+        "mesh-angular-metric-only-heights"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "expected_output_paths": [
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-manifest.json"
+      ]
+    }
+  ],
+  "command_sources": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py",
+      "bytes": 21471,
+      "sha256": "51f892fd54ad99851fc2179027839d64342b58a6b068319ff815752f014f7ac1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-metric-storage-v2.py",
+      "bytes": 24403,
+      "sha256": "7f60b8431c10ef93878049be0ae9d9677df268b7cb3963315096103bafdd0dc1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-closed-budget-storage-v1.py",
+      "bytes": 24683,
+      "sha256": "375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+      "bytes": 13714,
+      "sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+      "bytes": 25593,
+      "sha256": "5126cfca789877456463ae640d0f174d45ab50dffbe83233c080b02f21119ea5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inlet-angular-lower-v1.py",
+      "bytes": 12292,
+      "sha256": "8d62095b36b383bbbbf9d7f94be4d1488b5011c1da63dace781d5012e78a3277"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+      "bytes": 11134,
+      "sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+      "bytes": 17622,
+      "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+      "bytes": 5138,
+      "sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+      "bytes": 1636,
+      "sha256": "f02862fe1e8b53ebb5cea862e64f1632d826f86ae0d9d613e0e066cef79d56ad"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-complete-metric-report.py",
+      "bytes": 6715,
+      "sha256": "a39967ec6d2f590cc4b31fbacbfa225ca6dfd221b476f474b660318c5afdc29d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-only.py",
+      "bytes": 7829,
+      "sha256": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-stream.py",
+      "bytes": 8174,
+      "sha256": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-endpoint-critical-increment-export.mjs",
+      "bytes": 30944,
+      "sha256": "993dc6a180b917132d8284fae6c6366b45dddd883f9c09ab50b2b1dcf87f593b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-exact-bridge.py",
+      "bytes": 9408,
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+      "bytes": 11339,
+      "sha256": "20d9b6127625595afaf14daac4d23ccdd68d10f5d3a36d0697472f5df50d8fc3"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-collar-exact-check.py",
+      "bytes": 3619,
+      "sha256": "5dba8adfa32273b79fe99cf9a9a85e79fbf64dbf674173ac6ae5e4d6521ae1ba"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-first-bounds-stream.py",
+      "bytes": 6187,
+      "sha256": "98686f818270191e413fa20b9388637bf85649bfa82b4f60b3cbde40dee0ad7d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-radial-invariant.py",
+      "bytes": 2520,
+      "sha256": "6c2318e1d2fc40bf9598c2c1dbbe110a0d86d98376e73b6ee64d3acfd054ac3b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+      "bytes": 9474,
+      "sha256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+      "bytes": 19033,
+      "sha256": "bdf6307fd93328b1ae70923caac2687fa19b0187ca9c723fe5d7072d7799a47b"
+    }
+  ],
+  "optional_mesh_checks": [
+    {
+      "id": "mesh-baseline-full-PL-t0",
+      "depends_on": [
+        "mesh-baseline-full-build"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "0"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-PL-t0.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-baseline-full-PL-t1of4",
+      "depends_on": [
+        "mesh-baseline-full-build"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/4"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-PL-t1of4.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-baseline-full-PL-t1of2",
+      "depends_on": [
+        "mesh-baseline-full-build"
+      ],
+      "condition": "Selected complete route: baseline-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/2"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-full-PL-t1of2.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-baseline-metric-only-PL-t0",
+      "depends_on": [
+        "mesh-baseline-metric-only-build"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "0"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-PL-t0.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-baseline-metric-only-PL-t1of4",
+      "depends_on": [
+        "mesh-baseline-metric-only-build"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/4"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-PL-t1of4.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-baseline-metric-only-PL-t1of2",
+      "depends_on": [
+        "mesh-baseline-metric-only-build"
+      ],
+      "condition": "Selected complete route: baseline-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/2"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-baseline-metric-only-PL-t1of2.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-full-PL-t0",
+      "depends_on": [
+        "mesh-angular-full-build"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "0"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-PL-t0.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-full-PL-t1of4",
+      "depends_on": [
+        "mesh-angular-full-build"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/4"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-PL-t1of4.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-full-PL-t1of2",
+      "depends_on": [
+        "mesh-angular-full-build"
+      ],
+      "condition": "Selected complete route: angular-full; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/2"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-full-PL-t1of2.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-metric-only-PL-t0",
+      "depends_on": [
+        "mesh-angular-metric-only-build"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "0"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-PL-t0.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-metric-only-PL-t1of4",
+      "depends_on": [
+        "mesh-angular-metric-only-build"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/4"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-PL-t1of4.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    },
+    {
+      "id": "mesh-angular-metric-only-PL-t1of2",
+      "depends_on": [
+        "mesh-angular-metric-only-build"
+      ],
+      "condition": "Selected complete route: angular-metric-only; mutually exclusive with the other final routes.",
+      "argv_template": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "--mesh",
+        {
+          "resolve_from_closed_manifest": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-manifest.json",
+          "array": "mesh_files",
+          "select": {
+            "time_exact": "1/2"
+          },
+          "field": "file",
+          "also_verify": [
+            "sha256",
+            "stored_bytes"
+          ]
+        },
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check/mesh-angular-metric-only-PL-t1of2.json",
+        "--batch",
+        "2048"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "source": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+        "bytes": 9956,
+        "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e"
+      },
+      "reason_not_literal_argv_yet": "The actual output selects .ply or .ply.gz; do not guess it.",
+      "executed": false
+    }
+  ],
+  "branch_policy": {
+    "prefix": "Use complete baseline if its exact-target bound passes; otherwise diagnose and use complete angular refinement.",
+    "tail": "Use full alone if sufficient; metric-only needs its complete coverage and identical background.",
+    "stop": "A valid strict point lower above the target rejects that graph; do not repeat whole-domain work on it."
+  },
+  "mathematical_target": "1/500000000",
+  "accepted_comparison": {
+    "M12_point_lower_exact": "370012576184137/18889465931478580854784",
+    "reference": "notes/2026-11-09-db6f-root-tail-m12-point-lower-proof.md; R21/R25",
+    "M14_strict_lower_reference": "R81; R83",
+    "old_reference_arrays_required": false
+  },
+  "prefix_and_tail_orders_may_differ": true,
+  "old_launch_or_observer_required": false,
+  "mandatory_independent_replay": false,
+  "actual_production_calls": 0,
+  "README_complete": false
+}

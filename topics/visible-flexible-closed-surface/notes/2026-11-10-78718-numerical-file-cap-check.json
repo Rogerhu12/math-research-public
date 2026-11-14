@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ACTUAL_SMALL_RLIMIT_FSIZE_BOUNDARY",
+  "scope": "Two actual 1KB synthetic file writes only; no research data, geometry, solver or certificate computed. Files were removed by TemporaryDirectory after measured sizes were checked.",
+  "wrapper": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+    "bytes": 1636,
+    "sha256": "f02862fe1e8b53ebb5cea862e64f1632d826f86ae0d9d613e0e066cef79d56ad"
+  },
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "cases": [
+    {
+      "case": "within",
+      "attempted_bytes": 1022,
+      "actual_file_bytes": 1022,
+      "actual_child_exit_code": 0,
+      "resource_record": {
+        "resource_only": "RLIMIT_FSIZE",
+        "effective_bytes": [
+          1023,
+          1023
+        ],
+        "original_argv_and_environment_preserved": true
+      }
+    },
+    {
+      "case": "over",
+      "attempted_bytes": 2048,
+      "actual_file_bytes": 1023,
+      "actual_child_exit_code": 1,
+      "resource_record": {
+        "resource_only": "RLIMIT_FSIZE",
+        "effective_bytes": [
+          1023,
+          1023
+        ],
+        "original_argv_and_environment_preserved": true
+      }
+    }
+  ],
+  "actual_research_calls": 0
+}

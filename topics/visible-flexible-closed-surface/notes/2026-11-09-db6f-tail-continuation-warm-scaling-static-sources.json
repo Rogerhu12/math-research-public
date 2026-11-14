@@ -1,0 +1,75 @@
+{
+  "status": "closed-read-only-static-analysis",
+  "note": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-continuation-warm-scaling-static.md",
+  "note_sha256": "0c31f54b321358119bdab570537c3759dd91e67f6aba08d0474a122eacc721a9",
+  "sources": [
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py",
+      "sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9",
+      "bytes": 11026
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-continuation-client.py",
+      "sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564",
+      "bytes": 3945
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs",
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "bytes": 9280
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs",
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "bytes": 17134
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-split.mjs",
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "bytes": 1952
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-config.json",
+      "sha256": "1e5fc1ae3e6ecd2200891ce6b9d6694d1bb93d05061cde1d2397ff8b85f76614",
+      "bytes": 3100
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-launch.json",
+      "sha256": "b2e7371a89906a5f1048077eb2040fef8f2c0a58a136ef3812ab6cbc36b5310e",
+      "bytes": 22355
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190",
+      "bytes": 29001
+    }
+  ],
+  "observed_input_checks": {
+    "modes": 15,
+    "all_goal_modes_nonzero": true,
+    "scaled_modes_finite_nonzero_at_s_11_12_13_14_over_16": true,
+    "highest_goal_mode": 8.873136367407456e-16,
+    "harmonicAmplitudePredictor": true,
+    "correctInitialBoundary_key_absent": true
+  },
+  "ideal_real_ratio_checks": [
+    {
+      "ratio": "12/11",
+      "highest_mode_target_multiplier_exact": "15407021574586368/4177248169415651",
+      "highest_mode_linear_correction_fraction_exact": "904168630965623/1283918464548864"
+    },
+    {
+      "ratio": "13/12",
+      "highest_mode_target_multiplier_exact": "51185893014090757/15407021574586368",
+      "highest_mode_linear_correction_fraction_exact": "2653457921150425/3937376385699289"
+    },
+    {
+      "ratio": "14/13",
+      "highest_mode_target_multiplier_exact": "155568095557812224/51185893014090757",
+      "highest_mode_linear_correction_fraction_exact": "7174630439858727/11112006825558016"
+    }
+  ],
+  "root_flow_solver_backend_calls": 0,
+  "active_trace_or_state_reads": 0,
+  "README_complete": false
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "Exact-rational bound for the unchanged n>=160 rotational background; not the finite warp or nonrotational surface.",
+  "source_r28_blob": "cf9881e3ae2c2797a61213ab099dbec239be5f0d",
+  "parameters": {
+    "rCuff": "1/4",
+    "wCut": "1/2",
+    "delta0": "3/500",
+    "R": 64,
+    "a": "11/4",
+    "N": 160
+  },
+  "W160_upper": {
+    "numerator": "625",
+    "denominator": "1229345158361594177691221987911758058109648077837682040792162540537900367981421002752",
+    "approx": 5.0840074957708925e-82
+  },
+  "meridian_curvature_upper": {
+    "numerator": "1940541014505946851567072189943556989714170139341907019759863060924902058666668125",
+    "denominator": "102445429863466181474268498992646504842470673153140170066013545044825030665118416896",
+    "approx": 0.018942192122110246
+  },
+  "angular_curvature_upper": {
+    "numerator": "625",
+    "denominator": "307336289590398544422805496977939514527412019459420510198040635134475091995355250688",
+    "approx": 2.033602998308357e-81
+  },
+  "strict_meridian_bound": "1/50",
+  "calibration_B80_upper": {
+    "numerator": "157912285899248005700972278761304935628808019",
+    "denominator": "11417981541448294849098550374660390032019921305600000",
+    "approx": 1.3830140233281363e-08
+  },
+  "first_term_step_ratio_upper": {
+    "numerator": "4846",
+    "denominator": "5621",
+    "approx": 0.8621241771926703
+  },
+  "remaining_height_upper": {
+    "numerator": "1",
+    "denominator": "443627151059330377532546269462893392549829932060130652027276732898339409248900099686395904976662332495582593753824571492635865251840",
+    "approx": 2.2541451703578458e-132
+  },
+  "conclusion": "Every exact bracket-root selection from R28 gives |kappa_mer|<0.02 in all unwarped cells n>=160, and w,w_r tend to zero, so the rotational background closes C2 onto the flat disk."
+}

@@ -1,0 +1,8 @@
+{"event": "start_affine_diagnostic", "modes": 14, "angular": 512, "nodes": 2633, "tol": 1e-11, "original_bc": 2.088381569023649e-14}
+   Iteration    Max residual  Max BC residual  Total nodes    Nodes added  
+       1          2.00e-09       2.09e-14         2633           3257      
+       2          1.54e-10       2.22e-16         5890          (5841)     
+Number of nodes is exceeded after iteration 2. 
+Maximum relative residual: 1.54e-10 
+Maximum boundary residual: 2.22e-16
+{"event": "result_affine_diagnostic", "success": false, "nodes": 5890, "metric": 8.00329073343333e-08, "max_rms": 1.535762812063138e-10, "actual_amplitude": 0.09999976413133652, "cut_height_change": 2.0222576868275666e-12}

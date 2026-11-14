@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-confirmed-ordinary-main-publication-v1",
+  "label": "seventeenth",
+  "main": {
+    "commit": "7e26ead9490fdc81c13239ae92b8f9cc67a532b2",
+    "rules_read_sha": "8d7850523701d4b76f27ac54b7d0bffdf16d4135",
+    "attempt": 1,
+    "utc": "2026-11-12T19:01:51.158034+00:00",
+    "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched"
+  },
+  "ci": {
+    "run_id": 43285886233,
+    "job_id": 131419032195,
+    "job_conclusion": "success",
+    "events": [
+      {
+        "attempt": 1,
+        "pull_command": "git pull --rebase --no-stat origin main",
+        "pull_exit": 0,
+        "readme_previous": "3cd443ab3c7eddfa7a48e709c4dd10ee65be2df4",
+        "readme_current": "8d7850523701d4b76f27ac54b7d0bffdf16d4135",
+        "readme_diff_empty": true
+      },
+      {
+        "attempt": 1,
+        "push_exit": 0,
+        "commit": "7e26ead9490fdc81c13239ae92b8f9cc67a532b2",
+        "seconds": 2.818421874000002,
+        "message": "To https://github.com/Rogerhu12/math-research.git\n   8d78505..7e26ead  HEAD -> main\n"
+      }
+    ]
+  },
+  "local_payload": {
+    "session": 43165,
+    "launch_chunk": "e33fe9",
+    "completion_chunk": "f882f7",
+    "actual_exit_code": 0,
+    "commit": "684ab76eda52244fea57e235ab43b671997f8274",
+    "branch": "visible-flex-fd2d-ci-publish-20261112t190100",
+    "literal_pull_exit": 0,
+    "rules_read_sha": "3cd443ab3c7eddfa7a48e709c4dd10ee65be2df4",
+    "readme_diff_empty": true,
+    "worktree": "math-research-publish-sparse"
+  },
+  "batch": {
+    "closed_groups": 9,
+    "owned_files": 206,
+    "bytes": 6111617,
+    "manifest": "notes/2026-11-12-fd2d-live-recovery-seventeenth-batch-manifest.json"
+  },
+  "root_LOG_unchanged": true,
+  "force_push_used": false,
+  "strong_target_complete": false
+}

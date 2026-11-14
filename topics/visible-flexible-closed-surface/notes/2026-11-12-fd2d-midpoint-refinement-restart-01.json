@@ -1,0 +1,82 @@
+{
+  "schema": "fd2d-midpoint-empty-split-restart-check-v1",
+  "passed": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-midpoint-refinement-restart-check.py",
+    "bytes": 2622,
+    "sha256": "ec2cd966a9b1ab8d536ecc47a65890f75d76320e6f6f4ab2d2e605a6f0636775"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+    "bytes": 16752,
+    "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-midpoint-refinement-19final-01-field.npz",
+    "bytes": 70626,
+    "sha256": "d93a16d60f6379c5cf24bfca91ab60390e65880ca781ad800a9c271a2d1890e1"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "modes": 15,
+  "node_count": 129,
+  "parameter_count": 38,
+  "original_array_byte_identity": {
+    "mesh": true,
+    "corrections": true,
+    "parameters": true,
+    "modes": true,
+    "profile_supports": true,
+    "profile_count": true,
+    "fixed_base_T": true,
+    "profile_kind": true,
+    "tail_kind": true,
+    "base_kind": true,
+    "candidate_sha256": true,
+    "blend": true,
+    "seed_weight_definition": true,
+    "representation_kind": true,
+    "central_field_definition": true,
+    "targeted_mesh_definition": true,
+    "coast_reference_definition": true,
+    "angular_atlas_definition": true,
+    "atlas_mesh_definition": true,
+    "reference_evaluation_definition": true,
+    "finite_radial_scheme": true,
+    "gauss_l_definition": true,
+    "inactive_l_raw_nodes": true,
+    "positive_trace_definition": true,
+    "inactive_raw_trace_nodes": true,
+    "trace_gauge_pairs": true,
+    "radial_refinement_definition": true,
+    "finite_interior_rows_definition": true,
+    "parent_finite_interior_rows_definition": true
+  },
+  "operation": "restore_saved_mesh",
+  "inactive_l_nodes": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "inactive_trace_nodes": [
+    124,
+    125,
+    126,
+    127
+  ],
+  "constructor_rebound_saved_original_schema": true,
+  "common_field_or_native_check_repeated": false,
+  "no_F": true,
+  "no_J": true,
+  "no_BVP": true,
+  "no_body": true,
+  "independent_tail_full_constructor_check_performed": false,
+  "seconds": 0.9467279730015434
+}

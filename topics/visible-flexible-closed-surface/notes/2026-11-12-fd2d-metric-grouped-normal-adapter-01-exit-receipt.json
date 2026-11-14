@@ -1,0 +1,24 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-receipt-v1",
+  "utc_start": "2026-11-12T17:54:23.070597+00:00",
+  "utc_end": "2026-11-12T17:54:24.661199+00:00",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/fd2d-metric-grouped-normal-adapter-check.py",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-grouped-normal-adapter-01"
+  ],
+  "returncode": 1,
+  "natural_process_exit_observed": true,
+  "seconds": 1.5906273549990146,
+  "console": {
+    "path": "notes/process-observations/2026-11-12-fd2d-metric-grouped-normal-adapter-01-console.txt",
+    "bytes": 1345,
+    "sha256": "5b3c7f70897d597a590f76bb5fc2019f947c1860e199ec498ead6dc87091ab27"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "fd2d-actual-coast-all-pair-normal-ball-Arb-v1",
+  "actual_execution": true,
+  "source_sha256": "c018b2f7cba0cf3f65855c0200eb563e9ebff831ac0f15a2335a5449ad9c00ab",
+  "helper_sources": {
+    "fd2d_k0_ruling_actual_curvature_taylor.py": "1cee03ba2044040811d4b115fc7c954638e9cbb30bd382629e151567d7a5135c",
+    "fd2d_k0_ruling_actual_curvature_certificate.py": "85f71d57d298a3308962fdbd452465025ebecf096d831cb10dcac39cd6e47dd4",
+    "fd2d_k0_ruling_angular_certificate.py": "447ea6a33550c376db941cb0c7f3c4a2b4024a7bdc068d201f844916a5d81cb3",
+    "fd2d_k0_ruling_metric_convolution.py": "650d4d32ac5a51a8866c362171ed7f2daf1564af7dde6c3aa0b2cb4336a3a3f1"
+  },
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "moments_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+  "means_sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3",
+  "normal_variation_sha256": "d0346166838ec246cbf48ff91c5445abe1c7024d9d1b3e5cbb69d550a087c7f8",
+  "short_chord_extension_sha256": "25e6664304ea2c5a528252ba5ad62d0b899fb254f616d1f2353597f3259facc5",
+  "precision_bits": 160,
+  "flint_version": "0.9.0",
+  "radius": {
+    "lower_binary": [
+      "795056890708011187502804548997657962692827303377",
+      -162
+    ],
+    "upper_binary": [
+      "795056890708011187502804548997657962692827303379",
+      -162
+    ],
+    "lower_display": 0.136,
+    "upper_display": 0.136
+  },
+  "normal_variation_upper": {
+    "lower_binary": [
+      "504051542521552865800661270726685836872935322125",
+      -177
+    ],
+    "upper_binary": [
+      "504051542521552865800661270726685836872935322125",
+      -177
+    ],
+    "lower_display": 2.6312718260139496e-06,
+    "upper_display": 2.6312718260139496e-06
+  },
+  "initial_angle_boxes": 32,
+  "initial_rows": [
+    0,
+    1
+  ],
+  "completed_initial_products": 32,
+  "full_initial_triangle_covered": false,
+  "unordered_angle_products_with_both_endpoint_normals_and_both_signs": true,
+  "radial_cover": "tau=w/W(phi) in [0,1] for both points; every split is an exact dyadic partition",
+  "periodic_boundary": "Chosen inlet lift checked to stay inside a polar angle of pi; short-chord cells then invoke the certified material shortest-lift theorem",
+  "actual_finite_Cartesian_surface_used": true,
+  "changed_delta_target": false,
+  "exact_frame_or_developability_assumed": false,
+  "boundary_normal_cone_reach_not_claimed": true,
+  "methods": {
+    "separation": 105,
+    "short_chord": 601,
+    "convex_QP": 6048
+  },
+  "recursive_box_calls": 13476,
+  "split_count": 6722,
+  "angle_interval_evaluations": 272,
+  "invalid_coarse_angle_boxes": 32,
+  "angle_cache_limit": 4096,
+  "maximum_stack_size": 13,
+  "maximum_angle_denominator": 32768,
+  "maximum_radial_denominator": 32,
+  "minimum_strict_far_Phi_lower": {
+    "lower_binary": [
+      "456628787088643526360921483945213591738239278225",
+      -180
+    ],
+    "upper_binary": [
+      "456628787088643526360921483945213591738239278225",
+      -180
+    ],
+    "lower_display": 2.9796418646062726e-07,
+    "upper_display": 2.9796418646062726e-07
+  },
+  "maximum_short_developed_distance2_upper": {
+    "lower_binary": [
+      "935360374178215452661173271285114183815320179843",
+      -166
+    ],
+    "upper_binary": [
+      "935360374178215452661173271285114183815320179843",
+      -166
+    ],
+    "lower_display": 0.009999992797288663,
+    "upper_display": 0.009999992797288663
+  },
+  "leaf_hash_chain_sha256": "40f491ff2e8909915f8c09d1d9a209af7cdc72ec4d713da0b8cc14b620058a99",
+  "passed": true,
+  "unresolved": [],
+  "rows": [
+    {
+      "row": 0,
+      "calls": 13476,
+      "leaves": {
+        "separation": 105,
+        "short_chord": 601,
+        "convex_QP": 6048
+      }
+    }
+  ],
+  "seconds": 133.17509612499998,
+  "displayed_decimals_are_not_outward_rounded": true,
+  "strict_values_are_exact_binary_endpoint_fields": true
+}

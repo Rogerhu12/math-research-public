@@ -1,0 +1,206 @@
+{
+  "schema": "fd2d-exact-physical-profile-calibrated-clock-summary-v1",
+  "source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_exact_profile.py",
+    "bytes": 20375,
+    "sha256": "f5d291617078cbe71109c30c5b24a973e85d0cb2bbf39068eb41f659b8fdb041"
+  },
+  "packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-exact-profile-02.packet.json.gz",
+    "bytes": 242960,
+    "sha256": "4ce4afa2e4595e19f5644be649e32c52821a0e2db8b10b0e2ac7f7ec763d1ca0"
+  },
+  "raw_packet_sha256": "8215dba79c52c545f206b2630ede98c018b4b209f4d065b81e8563c9f65fa29c",
+  "raw_packet_bytes": 923247,
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-p148-small01-native-field.json",
+    "bytes": 15071,
+    "sha256": "df05c14e863ce3725eb9e3567811f0aced0c13cf3542a0282e5014204814ce72"
+  },
+  "target": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+    "bytes": 33873,
+    "sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a"
+  },
+  "exact_moments": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "pieces": 89,
+  "shared_physical_C2_joins": 88,
+  "complete": true,
+  "all_reference_x_boundaries_are_actual_field_nodes": true,
+  "maximum_physical_length_interval_width_upper": 2.5786472375787715e-31,
+  "maximum_length_difference_from_old_float_upper": 1.2386381637258761e-16,
+  "maximum_reference_binary_width_minus_old_length_upper": 8.326672684688674e-17,
+  "global_profile_bounds": {
+    "a": {
+      "binary_lower": [
+        0,
+        5521397077432451336446912862999392033630292607798145967877843815759869,
+        -233,
+        232
+      ],
+      "binary_upper": [
+        0,
+        58093236843722717053702779520221655672414099263684161832794003968626865,
+        -235,
+        236
+      ],
+      "midpoint": 0.726073709507025,
+      "width_upper": 0.6521474190140499
+    },
+    "a_s": {
+      "binary_lower": [
+        1,
+        109973071690021738247636645788374133946808632984051465569072064906752731,
+        -236,
+        236
+      ],
+      "binary_upper": [
+        0,
+        14286698335676543858545109006629820094699968072859332307338675441631233,
+        -235,
+        234
+      ],
+      "midpoint": -0.3685646670449255,
+      "width_upper": 1.2546323549854292
+    },
+    "a_ss": {
+      "binary_lower": [
+        1,
+        46697411266693257687403674176937144333899035995633819597342731146912807,
+        -232,
+        235
+      ],
+      "binary_upper": [
+        0,
+        11674352816673314421850918544234286083474758998908454899335682786750867,
+        -230,
+        233
+      ],
+      "midpoint": 6.567975367724069e-66,
+      "width_upper": 13.53205664778115
+    },
+    "one_minus_a_s_squared_lower_exact": "100253777733183954002844065616135167546160919888914514291337835691977805342067374479671011021221761134482700971768896848120497183136688519335/12194330274671844653834364178879555881830461494785043558043581873536608354764709453594945715091765512343073949692994620685343654997219864477696",
+    "J": {
+      "binary_lower": [
+        0,
+        27606872137339857126226282520117442001132835989528086864357934182452911,
+        -234,
+        234
+      ],
+      "binary_upper": [
+        0,
+        55213972725901813167487801085167786934680201344562945158405251864988373,
+        -235,
+        236
+      ],
+      "midpoint": 0.999997966564763,
+      "width_upper": 4.1375619049870795e-06
+    }
+  },
+  "physical_endpoint": {
+    "binary_lower": [
+      0,
+      11139257304893974236285246016603055367300569405365959755149403527576017,
+      -232,
+      233
+    ],
+    "binary_upper": [
+      0,
+      89114058439151793890281968132838680673725851933417602751109978558477945,
+      -235,
+      236
+    ],
+    "midpoint": 1.6139766292735358,
+    "width_upper": 2.5786472375787715e-31
+  },
+  "exact_cut_jet": {
+    "a": {
+      "binary_lower": [
+        0,
+        3602879701896397,
+        -53,
+        52
+      ],
+      "binary_upper": [
+        0,
+        3602879701896397,
+        -53,
+        52
+      ],
+      "midpoint": 0.4,
+      "width_upper": 0.0
+    },
+    "a_s": {
+      "binary_lower": [
+        1,
+        109879908679240637691741882524997048272094846193186626001396863932668725,
+        -236,
+        236
+      ],
+      "binary_upper": [
+        1,
+        54939954339620318845870941262498524136047423096593313000698431966334361,
+        -235,
+        235
+      ],
+      "midpoint": -0.9950371902099892,
+      "width_upper": 2.7167037236480137e-71
+    },
+    "a_ss": {
+      "binary_lower": [
+        0,
+        37888226195497656376981021713961180863915097043083622359817014335491443,
+        -237,
+        235
+      ],
+      "binary_upper": [
+        0,
+        75776452390995312753962043427922361727830194086167244719634028670982887,
+        -238,
+        236
+      ],
+      "midpoint": 0.17155180864621117,
+      "width_upper": 2.263919769706678e-72
+    }
+  },
+  "internal_phase_x_cut_enclosures": [
+    {
+      "physical_tau_exact": "2/25",
+      "clock_t_lower_exact": "103845937170696591634265099450287/1298074214633706907132624082305024",
+      "clock_t_upper_exact": "415383748682786366537060397801149/5192296858534827628530496329220096",
+      "x_lower_exact": "750052981034315591986546884180144366711891460065/730750818665451459101842416358141509827966271488",
+      "x_upper_exact": "3000211924137262367946187536720577581170812884211/2923003274661805836407369665432566039311865085952"
+    },
+    {
+      "physical_tau_exact": "23/25",
+      "clock_t_lower_exact": "4776913109852041261993435931418947/5192296858534827628530496329220096",
+      "clock_t_upper_exact": "1194228277463010315498358982854737/1298074214633706907132624082305024",
+      "x_lower_exact": "3498836122783660881118155856485325066598954724109/2923003274661805836407369665432566039311865085952",
+      "x_upper_exact": "874709030695915220279538964121331295230550442015/730750818665451459101842416358141509827966271488"
+    },
+    {
+      "physical_tau_exact": "2/25",
+      "clock_t_lower_exact": "415383748682786422738331973073447/5192296858534827628530496329220096",
+      "clock_t_upper_exact": "51922968585348302842291496634181/649037107316853453566312041152512",
+      "x_lower_exact": "29097609245995115629309200725572497595795913063313/23384026197294446691258957323460528314494920687616",
+      "x_upper_exact": "3637201155749389453663650090696562323654625917027/2923003274661805836407369665432566039311865085952"
+    },
+    {
+      "physical_tau_exact": "23/25",
+      "clock_t_lower_exact": "597114138731505150724020544518331/649037107316853453566312041152512",
+      "clock_t_upper_exact": "4776913109852041205792164356146649/5192296858534827628530496329220096",
+      "x_lower_exact": "4178816468407311958425263220895638187269454104477/2923003274661805836407369665432566039311865085952",
+      "x_upper_exact": "33430531747258495667402105767165106491596727108719/23384026197294446691258957323460528314494920687616"
+    }
+  ],
+  "new_finite_reconstructed_map": true,
+  "old_body_results_transfer_not_claimed": true,
+  "accurate_constants_are_not_redefined_as_midpoints": true,
+  "no_fixed_metric_or_physical_target_changed_by_clock_calibration": true,
+  "reconstructed_after_executor_reset": true,
+  "seconds": 5.241559766000023
+}

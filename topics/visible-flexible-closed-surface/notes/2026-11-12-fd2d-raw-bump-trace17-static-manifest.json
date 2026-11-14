@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-static-active-run-inputs-v1",
+  "active_outputs_excluded": true,
+  "started_utc": "2026-11-12T15:34:11.493891+00:00",
+  "session_id": 90654,
+  "launch_chunk": "e0669c",
+  "out_prefix": "notes/2026-11-12-fd2d-raw-bump-trace17",
+  "source_and_input_identity_unchanged_from": "2026-11-12-fd2d-raw-bump-trace16",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-natural-batch-chain-v4.py",
+      "bytes": 6871,
+      "sha256": "c693e5fbf6c7204da476e327358ff7d689b5c1d4320f3a44cbbaffb2f925c52f"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-positive-trace-run.py",
+      "bytes": 24651,
+      "sha256": "210b26400587df12a1940bd7e9ab77e6bdaf96a213613847add407033c310a72"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace16-b0004-accepted-0002.npz",
+      "bytes": 57893,
+      "sha256": "520a3e333c54bcc18da5071d8534cf91f9e6f0de60a567a5cbb56abb5e697e28"
+    }
+  ],
+  "settings": {
+    "blocks": 4,
+    "iterations_per_block": 2,
+    "modes": 15,
+    "tail_parameter_count": 16,
+    "profile_parameter_count": 7
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "scripts/db6f-tail-local-projection-reference.py",
+    "--input",
+    "notes/2026-11-09-db6f-tail-local-projection-values.json.gz",
+    "--out",
+    "notes/2026-11-09-db6f-audit-local-projection-reference-observed.json.gz",
+    "--summary",
+    "notes/2026-11-09-db6f-audit-local-projection-reference-observed-summary.json"
+  ],
+  "exit_code": 0,
+  "seconds": 1.746343603997957,
+  "maximum_rss_bytes": 32628736,
+  "new_original_root_calls": 0
+}

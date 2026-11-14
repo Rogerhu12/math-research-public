@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-gap-row-retarget-actual-small-check-exits-v1",
+  "helper_unchanged_across_all_checks": true,
+  "runs": [
+    {
+      "checker": "fd2d-gap-row-retarget-check.py",
+      "session": 66941,
+      "launch_chunk": "529c24",
+      "completion_chunk": "837087",
+      "actual_exit_code": 0,
+      "scope": "generic row replacement; example K1 but two initial parameter derivative entries, not a literal current central layout"
+    },
+    {
+      "checker": "fd2d-gap-row-retarget-check-v2.py",
+      "session": 6159,
+      "launch_chunk": "1e908f",
+      "completion_chunk": "696be4",
+      "actual_exit_code": 1,
+      "failure": "Negative test set modes to 2 after fixture was changed to K2, so it did not change the binding. Helper correctly did not reject an unchanged value."
+    },
+    {
+      "checker": "fd2d-gap-row-retarget-check-v3.py",
+      "session": 64935,
+      "launch_chunk": "3aa8dd",
+      "completion_chunk": "8d9b50",
+      "actual_exit_code": 0,
+      "maximum_relative_difference": 1.8518445499218924e-16,
+      "scope": "consistent K2/five-parameter layout with independent full small-row assembly"
+    }
+  ],
+  "actual_physical_F_or_J_or_BVP": false
+}

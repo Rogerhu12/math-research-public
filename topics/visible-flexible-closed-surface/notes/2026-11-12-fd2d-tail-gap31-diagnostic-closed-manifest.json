@@ -1,0 +1,42 @@
+{
+  "schema": "fd2d-closed-same-Schur-tail-gap-diagnostic-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-same-schur-tail-gap-diagnostic.py",
+      "bytes": 7751,
+      "sha256": "ed4e1336ab9ed44dddb1eec0f173a5bc7b471b0244e7c9f533dc91e901aa652c"
+    },
+    {
+      "path": "scripts/fd2d-same-schur-tail-gap-diagnostic-v2.py",
+      "bytes": 7758,
+      "sha256": "5869c6be7306227f85f37fc34406f688eb59ad3f07510d1274b7539465f7ee3c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-tail-gap31-diagnostic-02-comparison.json",
+      "bytes": 12094,
+      "sha256": "de4a13721d826056b7a88a3a3554e5f190ef806dd51fc8ff9d28e7401d2eac9d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-tail-gap31-diagnostic-v1-failure.json",
+      "bytes": 637,
+      "sha256": "172c8df45804942b7c45e38bf3850b059c924b2abde1d64c54fa1e1a10ca9add"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-tail-gap31-diagnostic-actual-exits.json",
+      "bytes": 657,
+      "sha256": "daaf521520fe22b65f170601f32cb1a133b48e55206df4cc9127375a4b614761"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-tail-gap31-same-Schur-diagnostic.md",
+      "bytes": 2725,
+      "sha256": "20eb5655bd3fa74fec04c64ce8bb1d30d6bba4ba47aee1127a829327baaa5409"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-readonly33-field-values.json",
+      "bytes": 18337,
+      "sha256": "225e1391a884ae807f3178ea18de280ed8aed907233da0257baaf02507d10138"
+    }
+  ],
+  "scope": "Explicit hypothetical small QPs and saved-value reads; original fields, finite objective and search domain unchanged; no actual line search"
+}

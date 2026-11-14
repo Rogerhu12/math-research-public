@@ -1,0 +1,26 @@
+{
+  "scope": "Independent directional centered differences, including metric-design p0 and planar inlet correction parameters; not a proof of global solvability.",
+  "rows": [
+    {
+      "step": 1e-05,
+      "fun_absolute": 3.1351524398814945e-07,
+      "fun_relative": 7.050140162956849e-10,
+      "bc_absolute": 0.00030408939346671104,
+      "bc_relative": 8.320583534270326e-11
+    },
+    {
+      "step": 1e-06,
+      "fun_absolute": 1.7244676087102562e-07,
+      "fun_relative": 3.877877896216709e-10,
+      "bc_absolute": 6.906967610120773e-05,
+      "bc_relative": 1.8899048175713722e-11
+    },
+    {
+      "step": 1e-07,
+      "fun_absolute": 1.6429814877483295e-06,
+      "fun_relative": 3.694636862444535e-09,
+      "bc_absolute": 0.0008742050267755985,
+      "bc_relative": 2.3920255384249946e-10
+    }
+  ]
+}

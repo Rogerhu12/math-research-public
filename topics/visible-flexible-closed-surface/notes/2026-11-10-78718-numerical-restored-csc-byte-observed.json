@@ -1,0 +1,67 @@
+{
+  "schema": "78718-actual-root-process-observation-v1",
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "recorded_by": "/root/numerical_recovery",
+  "actual_exit_code": 0,
+  "tool_receipt": "functions.exec / tools.exec_command chunk_id d4e4ec",
+  "observation_source": "Actual execution at the exactly restored source paths and natural exit 0 communicated by /root. This record does not describe the former environment.",
+  "reported_wall_time_seconds": 0.445,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+    "--foundation",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json"
+  ],
+  "files": [
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+      "bytes": 41294,
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+      "bytes": 58343,
+      "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+      "bytes": 52058,
+      "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+      "bytes": 74635,
+      "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+      "bytes": 11162,
+      "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+      "bytes": 21095,
+      "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+      "bytes": 17550,
+      "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+      "bytes": 26045,
+      "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json",
+      "bytes": 43707,
+      "sha256": "7bb6b7e4b35e04d22d2dc582ecef4ac5aa5849ca5541f4aa865b94190ff6f11b"
+    }
+  ],
+  "main_solver_executed": false,
+  "main_solver_success": false
+}

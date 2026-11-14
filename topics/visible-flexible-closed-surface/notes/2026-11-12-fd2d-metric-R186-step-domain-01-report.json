@@ -1,0 +1,134 @@
+{
+  "schema": "fd2d-R186-exact-Armijo-step-domain-v1",
+  "arithmetic": "exact BigInt rationals; Number only decodes provided binary64 inputs and displays ratios",
+  "origin": {
+    "exact": [
+      "1836789295023669",
+      "144115188075855872"
+    ],
+    "display": 0.012745286042001792
+  },
+  "endpoint": {
+    "exact": [
+      "5764607523034235",
+      "72057594037927936"
+    ],
+    "display": 0.08
+  },
+  "R186_delta7_lower": {
+    "exact": [
+      "7782220156096217",
+      "288230376151711744"
+    ],
+    "display": 0.027
+  },
+  "original_delta7_upper": {
+    "exact": [
+      "5764607523034235",
+      "72057594037927936"
+    ],
+    "display": 0.08
+  },
+  "origin_is_b075_default": true,
+  "default_endpoint_is_only_the_original_box_upper_not_an_executed_QP": true,
+  "entry_kind": "entry_on_ideal_unit_segment",
+  "ideal_alpha_enter": {
+    "exact": [
+      "4108641566048879",
+      "19384851502089602"
+    ],
+    "display": 0.21195114987628283
+  },
+  "minimum_possible_ideal_alpha_under_original_endpoint_box": {
+    "exact": [
+      "4108641566048879",
+      "19384851502089602"
+    ],
+    "display": 0.21195114987628283
+  },
+  "endpoint_requirements": [
+    {
+      "ideal_step": {
+        "exact": [
+          "1",
+          "1"
+        ],
+        "display": 1
+      },
+      "endpoint_required": {
+        "exact": [
+          "7782220156096217",
+          "288230376151711744"
+        ],
+        "display": 0.027
+      },
+      "compatible_with_original_upper": true
+    },
+    {
+      "ideal_step": {
+        "exact": [
+          "1",
+          "2"
+        ],
+        "display": 0.5
+      },
+      "endpoint_required": {
+        "exact": [
+          "1486357715268137",
+          "36028797018963968"
+        ],
+        "display": 0.04125471395799821
+      },
+      "compatible_with_original_upper": true
+    },
+    {
+      "ideal_step": {
+        "exact": [
+          "1",
+          "4"
+        ],
+        "display": 0.25
+      },
+      "endpoint_required": {
+        "exact": [
+          "10054072427121427",
+          "144115188075855872"
+        ],
+        "display": 0.06976414187399463
+      },
+      "compatible_with_original_upper": true
+    },
+    {
+      "ideal_step": {
+        "exact": [
+          "1",
+          "8"
+        ],
+        "display": 0.125
+      },
+      "endpoint_required": {
+        "exact": [
+          "18271355559219185",
+          "144115188075855872"
+        ],
+        "display": 0.12678299770598744
+      },
+      "compatible_with_original_upper": false
+    }
+  ],
+  "requested_ideal_step": null,
+  "actual_trial_membership": null,
+  "existing_domain_Armijo_trial_acceptance_changed": false,
+  "no_F_J_BVP_body_or_profile_box_evaluated": true,
+  "execution": {
+    "runtime": "functions.exec V8 BigInt",
+    "actual_completed": true,
+    "subprocess_started": false,
+    "OS_exit_code": null
+  },
+  "source": {
+    "path": "scripts/fd2d-metric-R186-step-domain-arithmetic.mjs",
+    "bytes": 4286,
+    "sha256": "9f8a9d48fd8096deef24192c9d4666424087e1e9b9055e00313f73e9c711b25d"
+  }
+}

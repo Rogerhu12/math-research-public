@@ -1,0 +1,79 @@
+{
+  "scope": "Independent nonsubtractive linear coordinates for the same frozen metric.\nV=f/r^4, pi=sigma*r^4*w*(f_r-m^2*f/r)/(sqrt(12)*mu).\nNo author linear propagation code is invoked. No nonlinear claim.\n",
+  "input_sha256": "88b4c26dd409972d835ef5ce1eb49c376199869273f4785726f6aed69e0cc0b1",
+  "audited_scripts_sha256": {
+    "root_cut_preserving_tail.mjs": "c76f81a14c71ca6ca360c774b0b6e65c4082ada29519620949eb6ef436f3c8e1",
+    "root_cut_tail_linear.mjs": "29bc8232abd880516b5044325285d01cff05ef0c83140c3c8b2919439be0869d",
+    "root_cut_tail_general_linear.mjs": "0ca6574d7590cf7797b7c090d5de5f00c5a372878dc72a8edd3b39812deecc4c"
+  },
+  "stats": {
+    "alpha": 71.92861702899884,
+    "minimumWarpWidth": 0.14866993535892076,
+    "heightSpan": 0.021628808248546225,
+    "meridianLength": 0.3529172290121697,
+    "cutRadius": 0.6000000000000001,
+    "rootStatDifferences": {
+      "alpha": -7.247535904753022e-13,
+      "minimumWarpWidth": 1.6930901125533637e-15,
+      "heightSpan": 2.42861286636753e-17,
+      "meridianLength": 1.1102230246251565e-16
+    }
+  },
+  "rows": [
+    {
+      "mode": 3,
+      "far": 48,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-13,
+      "cutSlope": 10.543760771206284,
+      "logHeightGain": 655.9121564849083,
+      "radialODESegmentError": 1.4748757770632892e-12,
+      "nfev": 204432,
+      "linearTThresholdSample": 4.060742744439171e-05,
+      "linearTThresholdOptimizedEstimate": 4.060733961038424e-05,
+      "thresholdLocation": {
+        "cell": 0,
+        "segment": 3,
+        "x": 0.9934235118512804,
+        "r": 0.4589270779190528,
+        "w": 0.0003208653186214756,
+        "f": -0.010064840210223525,
+        "fr": 7.704277028361075,
+        "baseT": 0.00014725376792007382,
+        "linearT": 3.62628454198013
+      },
+      "normalizedHeightMaxSample": 1.0000000000000124,
+      "normalizedDerivativeMaxSample": 10.546520381474469
+    },
+    {
+      "mode": 6,
+      "far": 48,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-13,
+      "cutSlope": 25.549515349754337,
+      "logHeightGain": 788.7315986255892,
+      "radialODESegmentError": 5.788147738883254e-13,
+      "nfev": 214383
+    },
+    {
+      "mode": 9,
+      "far": 48,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-13,
+      "cutSlope": 40.12563244375828,
+      "logHeightGain": 879.979667340441,
+      "radialODESegmentError": 2.7067237340361316e-13,
+      "nfev": 221397
+    },
+    {
+      "mode": 12,
+      "far": 48,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-13,
+      "cutSlope": 54.31448386342129,
+      "logHeightGain": 942.4713794948782,
+      "radialODESegmentError": 1.0813572259849025e-13,
+      "nfev": 226404
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "78718-nodal-axis-lower-tool-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "status": "observed-process-completed",
+  "recorded_utc": "2026-11-10 08:54:53 UTC",
+  "actual_exit_code": 0,
+  "tool_receipt": "950f89",
+  "session_id": 84911,
+  "actual_final_tool_return": {
+    "chunk_id": "950f89",
+    "wall_time_seconds": 0.000015353,
+    "exit_code": 0,
+    "original_token_count": 132,
+    "output": "{\"checked_points\": 12246, \"exceeds_frozen_target_budget\": true, \"metric_operator_lower\": 7.741474992294399e-08, \"new_exact_bridge_transfer\": false, \"output\": {\"bytes\": 7601, \"file\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json\", \"sha256\": \"ccce95078e16f2b503dc3df1f19503c8e15b8362647007db5f9ea243f1c746cf\"}, \"solver_calls\": 0, \"status\": \"EXACT_FROZEN_PREFIX_POINT_LOWER_COMPUTED\", \"witness_axis\": \"pi/3\", \"witness_node\": 1518}\n"
+  },
+  "initial_tool_receipt": "baa0a5",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/78718-prefix-nodal-axis-lower-v1.py",
+    "--geometry",
+    "notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+    "--target",
+    "notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+    "--metric-certificate",
+    "notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-metric.json",
+    "--out",
+    "notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json"
+  ],
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+  "output_identity": {
+    "bytes": 7601,
+    "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json",
+    "sha256": "ccce95078e16f2b503dc3df1f19503c8e15b8362647007db5f9ea243f1c746cf"
+  },
+  "scope": "Exact rational point computation on the generated finite base and frozen target; not a complete closed-graph or README result."
+}

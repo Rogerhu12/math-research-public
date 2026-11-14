@@ -1,0 +1,140 @@
+{
+  "status": "PASS_COMPLETE_FROZEN_INDEPENDENT_SEED8000_SOURCE_AND_INPUT_CHECK",
+  "source_manifest": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-seed8000-frozen-sources-01.json",
+    "bytes": 8091,
+    "sha256": "e9ef5c9ecddc006e394fcc723e12bffac0ace3c6d0e9b10550b352d3a85d2125"
+  },
+  "frozen_manifest_all_bindings_verified": 22,
+  "new_source_count": 8,
+  "unmodified_canonical_sources": 2,
+  "derivation_ledger": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-seed8000-derivation-01.json",
+    "bytes": 4383,
+    "sha256": "cf8fac0eff1898278a610cec059ae93fc2ff90fc671f3ea359d4a4a3bd5fdf9f"
+  },
+  "source_outputs_exact_builder_derivation": 7,
+  "independently_regenerated_full_diff": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-seed8000-source-diff-01.txt",
+    "bytes": 46451,
+    "sha256": "7746ccfbb3ffeb30ab1bce533155c7fcf16f5ca2f8b444a390369648e4a79a93"
+  },
+  "complete_ast_comparison": [
+    {
+      "old": "78718-prefix-spectral-restart8000-v1.py",
+      "new": "78718-prefix-spectral-independent-seed8000-v1.py",
+      "same_functions": [
+        "module",
+        "equal",
+        "without_io",
+        "write_json",
+        "expected_config",
+        "expected_parser_argv",
+        "validate_inputs",
+        "runtime_original_newton",
+        "runtime_newton",
+        "select_runtime_newton",
+        "runtime_csc",
+        "restore_runtime_csc",
+        "select_runtime_csc",
+        "runtime_callbacks",
+        "main"
+      ],
+      "changed_functions": []
+    },
+    {
+      "old": "78718-prefix-audit-restart8000-v1.py",
+      "new": "78718-prefix-audit-independent-seed8000-v1.py",
+      "same_functions": [
+        "check_packet",
+        "first_packet",
+        "polynomial_endpoint",
+        "check_newton_lifetime_record",
+        "_compiled_runtime_record",
+        "check_csc_runtime_record",
+        "check_csc_restoration",
+        "check_runtime_records",
+        "check_outputs",
+        "main"
+      ],
+      "changed_functions": [
+        "final_audit"
+      ]
+    }
+  ],
+  "source_text_normalization": [
+    [
+      "78718-prefix-spectral-independent-seed8000-v1.py",
+      "78718-prefix-spectral-restart8000-v1.py"
+    ],
+    [
+      "78718-prefix-audit-independent-seed8000-v1.py",
+      "78718-prefix-audit-restart8000-v1.py"
+    ],
+    [
+      "INDEPENDENT_SEED8000_FINITE_M14_",
+      "RESTART8000_FINITE_M14_"
+    ],
+    [
+      "Program requested exit only; /root/independent_audit actual tool observation is separate.",
+      "Program requested exit only; root actual tool observation is separate."
+    ]
+  ],
+  "main_launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+    "bytes": 100701,
+    "sha256": "a00359ad76c53e92890f5cd098878929838b6505923deaef92d5603bec421019"
+  },
+  "main_guard": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-guard-launch.json",
+    "bytes": 49374,
+    "sha256": "5dad81b17ce9e382933f10bf4e52c0c4cd6fee6bb86c8e54c93e4cc839a26e4b"
+  },
+  "actual_main_launch_validation_called": true,
+  "launch_bindings_verified": 165,
+  "guard_bindings_verified": 167,
+  "published_CP": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "published_own_tail": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+    "bytes": 254154,
+    "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+  },
+  "same_original_reference_seed_and_tail_as_141_ancestor": true,
+  "failed_CP_or_failure_observation_dependency_used": false,
+  "settings_only_difference_from_141_ancestor": {
+    "max_nodes": [
+      6500,
+      8000
+    ]
+  },
+  "actual_argv_differences_from_141_ancestor": [
+    {
+      "option": "--tail-config",
+      "old": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-tail-config.json",
+      "new": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-tail-config.json"
+    },
+    {
+      "option": "--out-prefix",
+      "old": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02",
+      "new": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01"
+    },
+    {
+      "option": "--max-nodes",
+      "old": "6500",
+      "new": "8000"
+    }
+  ],
+  "actual_config_differences_from_141_ancestor": [
+    "iterationCheckpointFile",
+    "traceFile"
+  ],
+  "recorder_source_and_executor_match_launch_guard": true,
+  "main_or_pure_preparer_called": false,
+  "main_guard_or_recorder_started": false,
+  "BVP_Newton_DN_candidate_calls": 0,
+  "scope": "All eight new sources and complete textual delta read separately; this actual run does source derivation/compile, input closure and binding checks only. No solver, factory, successful independent observation or main start."
+}

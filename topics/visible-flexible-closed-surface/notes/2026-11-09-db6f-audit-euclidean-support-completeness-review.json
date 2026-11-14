@@ -1,0 +1,121 @@
+{
+  "status": "PASS_FULL_PAPER_REVIEW_V2",
+  "reviewer": "/root/independent_geometry",
+  "author": "/root/coupled_prefix",
+  "reviewed_manuscript_sha256": "7c70b4b7fed7a8b9077dfd2c372b8cbd8d2bae8c097b93923d9df54f8512a1b2",
+  "method": "Independent mathematical reading of all seven sections and the needed main-manuscript foundations; source/hash verification only, no implemented numerical certificate search.",
+  "prior_component_role": "Before manuscript freeze the reviewer checked author-supplied section 1-2 component claims on paper. This was not authorship, numerical optimization, an actual candidate computation or an earlier full-manuscript review.",
+  "needed_main_sections_independently_read": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "verdict": "PASS",
+      "basis": "Compactness/coercivity, attainment of both translation minima, coordinate bound |t_j|<=2B, and a uniform residual Lipschitz bound <=5B for every orthogonal Q."
+    },
+    {
+      "section": 2,
+      "verdict": "PASS",
+      "basis": "Active-gradient separation yields a balanced convex combination; minimum support gives independent rational augmented columns and at most four nonzero rational weights even for irrational d. The s=0 coordinate-pair construction preserves l1=1. Finite library equality follows from both weak duality and existence of an attaining library entry."
+    },
+    {
+      "section": 3,
+      "verdict": "PASS",
+      "basis": "Stereographic identities, truncation T=4/epsilon, coordinate grid h=epsilon/4 with ceiling boundary, added pole/axes, and exact deduplication give a complete rational chordal epsilon-net."
+    },
+    {
+      "section": 4,
+      "verdict": "PASS",
+      "basis": "The main manuscript quaternion grid covers SO(3); its rational rotation matrices plus right reflection cover O(3). Signed endpoint loss <=2 eta and rotation loss <=A1 rho combine with direction loss 5B epsilon, leaving a strict positive Delta/4 margin for every cell and branch."
+    },
+    {
+      "section": 5,
+      "verdict": "PASS_AFTER_EXPLICIT_INDEX_CLARIFICATION",
+      "basis": "The certified support oracle is an extra effective input. v2 explicitly uses P_(n+1) for a width <=2^-n request; an effective radius alone does not compute support values of an arbitrary compact set."
+    },
+    {
+      "section": 6,
+      "verdict": "PASS",
+      "basis": "Each stage is finite rational work plus finitely terminating oracle queries. Maximizing rational lower endpoints needs no real equality test. Positive convex-hull gap eventually passes; nonpositive gap cannot pass a truthful full certificate. This is a semidecision, without a negative termination guarantee or performance bound."
+    },
+    {
+      "section": 7,
+      "verdict": "PASS",
+      "basis": "The claim is complete only relative to the convex-hull quotient gap and the stated oracle. It neither certifies a present surface nor removes support functions' information loss for nonconvex sets, nor discharges README numerical/replay requirements."
+    }
+  ],
+  "identified_issue": {
+    "historical_v1_sha256": "0a68b2fbbf1a40e83433f89b51ae31c28ef599695a75d32e82d441119b0c5261",
+    "issue": "The Hausdorff approximant P_n with error 2^-n gives interval width 2^(1-n); the oracle contract requests width <=2^-n.",
+    "resolution": "v2 explicitly selects P_(n+1) for request n.",
+    "only_one_sentence_added": true,
+    "all_other_bytes_identical": true,
+    "mathematical_theorem_changed": false
+  },
+  "frozen_inputs": [
+    {
+      "path": "README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound.md",
+      "bytes": 12039,
+      "sha256": "b6df2b1b46542d20ef0198293efe6b98389dc758a52cba9ed50dd6d3ca9780e6"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-fixed-cap-scope.md",
+      "bytes": 2390,
+      "sha256": "0496aa18c4c9b9fdceb014b57628db17c38e6965504b1bfe49ae748d641e4f86"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness.md",
+      "bytes": 12823,
+      "sha256": "0a68b2fbbf1a40e83433f89b51ae31c28ef599695a75d32e82d441119b0c5261"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-sources.json",
+      "bytes": 1800,
+      "sha256": "35fe28633693269076749f24abfc46ad1295655384e3449a4b34d4855b938737"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-publication.json",
+      "bytes": 774,
+      "sha256": "4d256392d65bcce054b2d7d833fe3a42190b746ac90138ddf929511d44bd7306"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-v2.md",
+      "bytes": 12944,
+      "sha256": "7c70b4b7fed7a8b9077dfd2c372b8cbd8d2bae8c097b93923d9df54f8512a1b2"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-v2-sources.json",
+      "bytes": 2324,
+      "sha256": "b8d2405788e1f3b1dfa5dac1e1eb8d54553aafa67f0404803ebb664ec114f551"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-v2-publication.json",
+      "bytes": 821,
+      "sha256": "18658051c16ed78e12dda223572b0b824e1b5cdde5516bd4b6fcdc0814abd561"
+    }
+  ],
+  "all_file_hash_and_byte_bindings_passed": true,
+  "metadata_and_exact_diff_receipt": "76d3eb",
+  "actual_candidate_data_read": false,
+  "new_solver_calls": 0,
+  "new_optimization_calls": 0,
+  "new_LP_or_support_search_runs": 0,
+  "new_numeric_certificate_generation": false,
+  "git_or_results_or_handoff_mutations": false,
+  "remaining_conditions": [
+    "Truthful independently guaranteed support enclosures for the entire input compact sets.",
+    "Actual verified origin-radius bounds and complete cell/branch enumeration.",
+    "A convex-hull rigid-motion quotient gap larger than the chosen target; no claim that any current research surface has such a gap."
+  ],
+  "scope_limit": "This is a theoretical completeness and conditional computability result. It is not a current-surface lower bound, a positive decision procedure for arbitrary compact-set descriptions, or completion of the research problem."
+}

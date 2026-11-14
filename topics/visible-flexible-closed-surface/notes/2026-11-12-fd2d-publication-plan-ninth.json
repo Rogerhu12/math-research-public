@@ -1,0 +1,30 @@
+{
+  "label": "ninth",
+  "base_commit": "bb82527513b8c69f530e5351810fb17390d5a7d6",
+  "message": "Preserve terminal positive-trace proofs, actual Jacobians and native fields; continue the corrected branch",
+  "root_log_text": "合存R155–158、15失败主态、正trace实际JVP/native和新暖态；角阶准确嵌套，16继续联解。保留真实实现失败，强目标未完成。",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json",
+    "notes/2026-11-12-fd2d-terminal-trace-reference-R156-closed-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-R157-closed-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-gauss15-closed-group.json",
+    "notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-closed-group.json",
+    "notes/2026-11-12-fd2d-metric-gauss14-late-node118-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-positive-trace-warm04-closed-group.json",
+    "notes/2026-11-12-fd2d-positive-trace-tailwarm01-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-trace16-static-manifest.json",
+    "notes/2026-11-12-fd2d-metric-positive-trace-native-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-geometry-R158-closed-manifest.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-seventh-batch-main-receipt.json",
+    "notes/2026-11-12-fd2d-eighth-publication-owner-stop.json",
+    "scripts/fd2d_publish_payload_checkpoint.py"
+  ],
+  "excluded": [
+    "active trace16 outputs",
+    "active R159 streamed normal-system work",
+    "regenerable intermediate arrays"
+  ],
+  "scope": "Combined unpublished R155–158 proofs, 15 outcome, actual positive-trace consumers and static trace16 input; strong target remains open"
+}

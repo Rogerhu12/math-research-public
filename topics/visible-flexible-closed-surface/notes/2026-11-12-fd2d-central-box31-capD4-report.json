@@ -1,0 +1,5385 @@
+{
+  "schema": "fd2d-process-independent-same-finite-context-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_grouped_search_context.py",
+    "bytes": 13329,
+    "sha256": "ad739600f698a1efeeb5bbb3e880dec4140ed06a641483d612e6a2ee08126658"
+  },
+  "parent_objective_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-damping-run.py",
+    "bytes": 35879,
+    "sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c"
+  },
+  "providers": {
+    "fd2d_gc_prepared_geometry_cache.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_prepared_geometry_cache.py",
+      "bytes": 13991,
+      "sha256": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03"
+    },
+    "fd2d_gc_frozen_operator_projections.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    "fd2d_gc_gauss_cell_frozen_operator_compatible.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+      "bytes": 4592,
+      "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+    },
+    "fd2d_gc_positive_trace_stream_normal_consumer.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal_consumer.py",
+      "bytes": 10776,
+      "sha256": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3"
+    },
+    "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_stream_normal_consumer.py",
+      "bytes": 2483,
+      "sha256": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470"
+    },
+    "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py",
+      "bytes": 35656,
+      "sha256": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b"
+    },
+    "fd2d_gc_positive_trace_value_nodes.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_value_nodes.py",
+      "bytes": 2637,
+      "sha256": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace_v3.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace.py",
+      "bytes": 15938,
+      "sha256": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158"
+    },
+    "fd2d_gc_nested_angular_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "bytes": 8686,
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c"
+    },
+    "fd2d_gc_search_domain_roundoff.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_search_domain_roundoff.py",
+      "bytes": 2020,
+      "sha256": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5"
+    },
+    "fd2d_gc_positive_trace_interior_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_stream_normal.py",
+      "bytes": 2241,
+      "sha256": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6"
+    },
+    "fd2d_gc_positive_trace_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+      "bytes": 10262,
+      "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+    },
+    "fd2d_gc_local_normal_system.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_local_normal_system.py",
+      "bytes": 13329,
+      "sha256": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf"
+    },
+    "fd2d_gc_positive_trace_interior_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_merit.py",
+      "bytes": 8377,
+      "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+    },
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    "fd2d_gc_positive_trace_branch.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    "fd2d_gc_gauss_cell_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    "fd2d_gc_positive_trace_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_merit.py",
+      "bytes": 4401,
+      "sha256": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a"
+    },
+    "fd2d_gc_positive_trace_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_bounded_schur.py",
+      "bytes": 6319,
+      "sha256": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57"
+    },
+    "fd2d_gc_positive_gauss_coast_hybrid.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_coast_hybrid.py",
+      "bytes": 6689,
+      "sha256": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166"
+    },
+    "fd2d_gc_positive_gauss_hybrid.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_hybrid.py",
+      "bytes": 4766,
+      "sha256": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7"
+    },
+    "fd2d_gc_hybrid_lifting_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_hybrid_lifting_codazzi_d2.py",
+      "bytes": 15889,
+      "sha256": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe"
+    },
+    "fd2d_gc_raw_bump_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_gauss.py",
+      "bytes": 8930,
+      "sha256": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb"
+    },
+    "fd2d_gc_positive_gauss_l.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l.py",
+      "bytes": 3324,
+      "sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be"
+    },
+    "fd2d_gc_gauss_cell_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_gauss.py",
+      "bytes": 6590,
+      "sha256": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e"
+    },
+    "fd2d_gc_positive_gauss_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_merit.py",
+      "bytes": 4093,
+      "sha256": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a"
+    },
+    "fd2d_gc_positive_gauss_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_bounded_schur.py",
+      "bytes": 5655,
+      "sha256": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_raw_bump_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    "fd2d_gc_raw_bump_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    "fd2d_gc_frozen_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    },
+    "fd2d_k0_native_gc.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_k0_native_gc.py",
+      "bytes": 9495,
+      "sha256": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+    },
+    "fd2d_gc_raw_bump_turn_mesh.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_turn_mesh.py",
+      "bytes": 4611,
+      "sha256": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275"
+    },
+    "fd2d_gc_gauss_cell_codazzi.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    },
+    "fd2d_gc_gauss_cell_codazzi_chunked.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_chunked.py",
+      "bytes": 4903,
+      "sha256": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09"
+    },
+    "fd2d_gc_gauss_cell_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_d2.py",
+      "bytes": 11040,
+      "sha256": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756"
+    },
+    "fd2d_gc_d2_complements.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    "fd2d_gc_raw_bump_cylinder.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_cylinder.py",
+      "bytes": 1749,
+      "sha256": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a"
+    },
+    "fd2d_gc_bump_cylinder_bounded_schur_v2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_cylinder_bounded_schur_v2.py",
+      "bytes": 5390,
+      "sha256": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea"
+    },
+    "fd2d_gc_raw_bump_clean.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    "fd2d_gc_raw_bump_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "fd2d_gc_codazzi_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    "fd2d_gc_bump_residual_locations.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_residual_locations.py",
+      "bytes": 2654,
+      "sha256": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2"
+    },
+    "fd2d_gc_radial_bump_profile.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    "fd2d_gc_bump_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    "fd2d_gc_bump_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    },
+    "fd2d_gc_packet_checkpoint.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_packet_checkpoint.py",
+      "bytes": 8340,
+      "sha256": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd"
+    },
+    "fd2d_gc_normal_checkpoint.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_normal_checkpoint.py",
+      "bytes": 16976,
+      "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+    },
+    "fd2d_gc_grouped_coast_codazzi.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_coast_codazzi.py",
+      "bytes": 21332,
+      "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    }
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-central-box31-capD4-request.json",
+    "bytes": 3404,
+    "sha256": "3f636594ed0aba06348d656d03f6ef36e76d2de404114e3111cefe734712dfc3"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "warm_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "reference_inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "settings": {
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "reference_inlet": "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "reference_cache": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "reference_rim_fraction": 0.12,
+    "out_prefix": "notes/2026-11-12-fd2d-central-box31-capD4",
+    "owner_stop_file": "/tmp/2026-11-12-fd2d-raw-bump-dyadic31-stop",
+    "max_iterations": 1,
+    "modes": 31,
+    "mesh_step": 0.04,
+    "gap": 0.8,
+    "central_floor": 0.1,
+    "central_cap": 8.264462809917354,
+    "profile_box": 0.08,
+    "radius_floor": 0.1,
+    "curvature_cap": 7.2,
+    "curvature_weight": 1.0,
+    "high_gauss_weight": 1.0,
+    "high_codazzi_weight": 1.0,
+    "mesh_relative_tolerance": 1e-12,
+    "damping": 1e-07,
+    "finite_tolerance": 2e-07,
+    "minimum_active_n": 0.05,
+    "interior_cells": [
+      63,
+      64,
+      65,
+      74,
+      75,
+      76,
+      123,
+      124
+    ],
+    "interior_gauss_weight": 1.0,
+    "block_cells": 2,
+    "prepared_cache_mib": 16,
+    "operator_cache_mib": 32
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "started_utc": "2026-11-12T20:26:57.013325+00:00",
+  "completed": true,
+  "accepted_steps": 0,
+  "finite_success": false,
+  "strong_target_complete": false,
+  "finite_interior_rows_definition": {
+    "cells": [
+      63,
+      64,
+      65,
+      74,
+      75,
+      76,
+      123,
+      124
+    ],
+    "complete_all_cell_Gauss2_diagnostic_retained": true,
+    "curvature": "same actual chain derivatives at selected internal points",
+    "finite_discretization_changed": true,
+    "high_Gauss_rows": "full D2 high complement",
+    "low_Gauss_rows": "append to original finite equations",
+    "order": 2,
+    "parent_selected_cells": [
+      63,
+      64,
+      73,
+      74,
+      121,
+      122
+    ],
+    "physical_field_unchanged": true,
+    "physical_g_family_unchanged": true,
+    "previous_finite_residual_preservation_claimed": false,
+    "schema": "fd2d-existing-G2-point-Gauss-curvature-v1",
+    "selection": "all refined children of the same explicitly saved old physical intervals",
+    "weight": "sqrt(1/2) per point"
+  },
+  "initial_projection_change": 0.0,
+  "parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ],
+    "base_coast_T_fixed": 0.02,
+    "parameter_count": 54,
+    "raw_unknowns": 12499,
+    "raw_equations": 11997,
+    "unknowns_minus_equations": 502,
+    "physical_profile_definition": {
+      "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+      "source": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+        "bytes": 12253,
+        "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+      },
+      "base_candidate": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+        "bytes": 25453,
+        "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+      },
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameter_count": 7,
+      "supports": [
+        [
+          0.34,
+          0.7915892713432515
+        ],
+        [
+          0.4528973178358129,
+          0.9044865891790643
+        ],
+        [
+          0.5657946356716258,
+          1.0173839070148774
+        ],
+        [
+          0.6786919535074387,
+          1.1302812248506902
+        ],
+        [
+          0.7915892713432515,
+          1.243178542686503
+        ],
+        [
+          0.9044865891790643,
+          1.356075860522316
+        ],
+        [
+          1.0173839070148774,
+          1.4689731783581288
+        ]
+      ],
+      "physical_endpoint": 1.4889731783581288,
+      "protected_cylinder": [
+        0.0,
+        0.32
+      ],
+      "protected_cut_neighborhood": [
+        1.4689731783581288,
+        1.4889731783581288
+      ],
+      "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+      "q_j": "(s-support_left)/(support_right-support_left)",
+      "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+      "uniform_basis_bounds": {
+        "value": 1.0,
+        "first": [
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965768,
+          9.216266735965762,
+          9.216266735965768
+        ],
+        "second": [
+          196.14297587978166,
+          196.1429758797817,
+          196.1429758797816,
+          196.1429758797817,
+          196.1429758797817,
+          196.1429758797815,
+          196.1429758797817
+        ]
+      },
+      "delta_scales_for_unit_a_second": [
+        0.00509832174980822,
+        0.00509832174980822,
+        0.005098321749808222,
+        0.00509832174980822,
+        0.00509832174980822,
+        0.0050983217498082245,
+        0.00509832174980822
+      ],
+      "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+      "physical_metric_changes_with_delta": true,
+      "radial_clock": "s is physical; scale 1; no warp",
+      "base_coast_T_fixed": true,
+      "central_and_cut_all_existing_jets_unchanged": true,
+      "same_g_refinement": false
+    },
+    "field_representation_kind": "ruling_atlas_coast_Gauss_l_terminal_positive_trace_fixed_tail_degree_v1",
+    "seed_weight_definition": {
+      "kind": "central_plateau",
+      "start": 0.32,
+      "end": 0.55,
+      "step": 5
+    },
+    "central_field_definition": {
+      "additional_surface_regularity_assumed": false,
+      "fixed_node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "kind": "exact_central_cylinder",
+      "l": 0.0,
+      "m": 0.0,
+      "n": "actual central seed plus sum c_j*(cos(2j*xi)-mu_j)",
+      "s_end": 0.32,
+      "s_start": 0.0,
+      "target_metric_changed": false
+    },
+    "eliminated_field_node_count": 10,
+    "targeted_mesh_definition": {
+      "Fourier_order_changed": false,
+      "actual_node_count": 131,
+      "actual_nodes": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.32625,
+        0.33249999999999996,
+        0.33874999999999994,
+        0.34,
+        0.3449999999999999,
+        0.3512499999999999,
+        0.35749999999999993,
+        0.3637499999999999,
+        0.3699999999999999,
+        0.37624999999999986,
+        0.38249999999999984,
+        0.3887499999999998,
+        0.3949999999999998,
+        0.4012499999999998,
+        0.40749999999999975,
+        0.41374999999999973,
+        0.4199999999999997,
+        0.4262499999999997,
+        0.43249999999999966,
+        0.43874999999999964,
+        0.4449999999999996,
+        0.4512499999999996,
+        0.4528973178358129,
+        0.4574999999999996,
+        0.46374999999999955,
+        0.46999999999999953,
+        0.4762499999999995,
+        0.4824999999999995,
+        0.48874999999999946,
+        0.49499999999999944,
+        0.5012499999999994,
+        0.5074999999999994,
+        0.5137499999999994,
+        0.5199999999999994,
+        0.5262499999999993,
+        0.5324999999999993,
+        0.5387499999999993,
+        0.5449999999999993,
+        0.55,
+        0.5512499999999992,
+        0.5574999999999992,
+        0.5637499999999992,
+        0.5657946356716258,
+        0.5699999999999992,
+        0.5719999999999992,
+        0.5739999999999992,
+        0.5759999999999992,
+        0.5779999999999992,
+        0.58,
+        0.5819999999999992,
+        0.5839999999999992,
+        0.5859999999999992,
+        0.5879999999999992,
+        0.5899999999999992,
+        0.5919999999999992,
+        0.6116816746501718,
+        0.6250652134122892,
+        0.6313633493003443,
+        0.6707266986006896,
+        0.6747093260540642,
+        0.6786919535074387,
+        0.7100900479010347,
+        0.7494533972013798,
+        0.7888167465017251,
+        0.7915892713432515,
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8478617704522428,
+        0.8675434451024153,
+        0.8725434451024153,
+        0.8775434451024153,
+        0.8825434451024153,
+        0.8875434451024153,
+        0.9044865891790643,
+        0.9183292851737158,
+        0.9491151252450164,
+        0.9799009653163169,
+        0.9849009653163169,
+        0.9899009653163169,
+        0.9949009653163169,
+        0.9999009653163169,
+        1.0001604267280149,
+        1.000419888139713,
+        1.0031442329625426,
+        1.0058685777853722,
+        1.0061280391970702,
+        1.0063875006087684,
+        1.0173839070148774,
+        1.0263875006087684,
+        1.043650927718743,
+        1.0609143548287172,
+        1.0637122293135557,
+        1.101036958018343,
+        1.1302812248506902,
+        1.13836168672313,
+        1.1756864154279174,
+        1.2130111441327047,
+        1.2421803394834487,
+        1.243178542686503,
+        1.250335872837492,
+        1.2876606015422793,
+        1.3249853302470664,
+        1.356075860522316,
+        1.3623100589518538,
+        1.371656042808257,
+        1.399634787656641,
+        1.4,
+        1.42344632413818,
+        1.428803983007385,
+        1.4407097512481546,
+        1.457973178358129,
+        1.4629731783581288,
+        1.4662231783581288,
+        1.4689731783581288,
+        1.4694731783581287,
+        1.4727231783581287,
+        1.4759731783581287,
+        1.4792231783581289,
+        1.4824731783581289,
+        1.4857231783581288,
+        1.4873481783581288,
+        1.4889731783581288
+      ],
+      "angular_chart_changed": false,
+      "base_mesh_coalescence": {
+        "absolute_tolerance": 1.4889731783581288e-12,
+        "actual_count": 99,
+        "actual_minimum_cell": 0.0012500000000000844,
+        "actual_nodes": [
+          0.0,
+          0.04,
+          0.08,
+          0.12,
+          0.16,
+          0.2,
+          0.24,
+          0.28,
+          0.32,
+          0.32625,
+          0.33249999999999996,
+          0.33874999999999994,
+          0.34,
+          0.3449999999999999,
+          0.3512499999999999,
+          0.35749999999999993,
+          0.3637499999999999,
+          0.3699999999999999,
+          0.37624999999999986,
+          0.38249999999999984,
+          0.3887499999999998,
+          0.3949999999999998,
+          0.4012499999999998,
+          0.40749999999999975,
+          0.41374999999999973,
+          0.4199999999999997,
+          0.4262499999999997,
+          0.43249999999999966,
+          0.43874999999999964,
+          0.4449999999999996,
+          0.4512499999999996,
+          0.4528973178358129,
+          0.4574999999999996,
+          0.46374999999999955,
+          0.46999999999999953,
+          0.4762499999999995,
+          0.4824999999999995,
+          0.48874999999999946,
+          0.49499999999999944,
+          0.5012499999999994,
+          0.5074999999999994,
+          0.5137499999999994,
+          0.5199999999999994,
+          0.5262499999999993,
+          0.5324999999999993,
+          0.5387499999999993,
+          0.5449999999999993,
+          0.5512499999999992,
+          0.5574999999999992,
+          0.5637499999999992,
+          0.5657946356716258,
+          0.5699999999999992,
+          0.5719999999999992,
+          0.5739999999999992,
+          0.5759999999999992,
+          0.5779999999999992,
+          0.58,
+          0.5819999999999992,
+          0.5839999999999992,
+          0.5859999999999992,
+          0.5879999999999992,
+          0.5899999999999992,
+          0.5919999999999992,
+          0.6313633493003443,
+          0.6707266986006896,
+          0.6786919535074387,
+          0.7100900479010347,
+          0.7494533972013798,
+          0.7888167465017251,
+          0.7915892713432515,
+          0.8281800958020702,
+          0.8675434451024153,
+          0.8875434451024153,
+          0.9044865891790643,
+          0.9183292851737158,
+          0.9491151252450164,
+          0.9799009653163169,
+          0.9999009653163169,
+          1.0063875006087684,
+          1.0173839070148774,
+          1.0263875006087684,
+          1.0637122293135557,
+          1.101036958018343,
+          1.1302812248506902,
+          1.13836168672313,
+          1.1756864154279174,
+          1.2130111441327047,
+          1.243178542686503,
+          1.250335872837492,
+          1.2876606015422793,
+          1.3249853302470664,
+          1.356075860522316,
+          1.3623100589518538,
+          1.399634787656641,
+          1.428803983007385,
+          1.457973178358129,
+          1.4629731783581288,
+          1.4689731783581288,
+          1.4889731783581288
+        ],
+        "angular_chart_function_changed": false,
+        "clusters": [
+          {
+            "old_indices": [
+              56,
+              57
+            ],
+            "old_values": [
+              0.5799999999999992,
+              0.58
+            ],
+            "representative": 0.58,
+            "retained_old_index": 57
+          }
+        ],
+        "maximum_displacement": 7.771561172376096e-16,
+        "original_count": 100,
+        "original_minimum_cell": 7.771561172376096e-16,
+        "original_nodes": [
+          0.0,
+          0.04,
+          0.08,
+          0.12,
+          0.16,
+          0.2,
+          0.24,
+          0.28,
+          0.32,
+          0.32625,
+          0.33249999999999996,
+          0.33874999999999994,
+          0.34,
+          0.3449999999999999,
+          0.3512499999999999,
+          0.35749999999999993,
+          0.3637499999999999,
+          0.3699999999999999,
+          0.37624999999999986,
+          0.38249999999999984,
+          0.3887499999999998,
+          0.3949999999999998,
+          0.4012499999999998,
+          0.40749999999999975,
+          0.41374999999999973,
+          0.4199999999999997,
+          0.4262499999999997,
+          0.43249999999999966,
+          0.43874999999999964,
+          0.4449999999999996,
+          0.4512499999999996,
+          0.4528973178358129,
+          0.4574999999999996,
+          0.46374999999999955,
+          0.46999999999999953,
+          0.4762499999999995,
+          0.4824999999999995,
+          0.48874999999999946,
+          0.49499999999999944,
+          0.5012499999999994,
+          0.5074999999999994,
+          0.5137499999999994,
+          0.5199999999999994,
+          0.5262499999999993,
+          0.5324999999999993,
+          0.5387499999999993,
+          0.5449999999999993,
+          0.5512499999999992,
+          0.5574999999999992,
+          0.5637499999999992,
+          0.5657946356716258,
+          0.5699999999999992,
+          0.5719999999999992,
+          0.5739999999999992,
+          0.5759999999999992,
+          0.5779999999999992,
+          0.5799999999999992,
+          0.58,
+          0.5819999999999992,
+          0.5839999999999992,
+          0.5859999999999992,
+          0.5879999999999992,
+          0.5899999999999992,
+          0.5919999999999992,
+          0.6313633493003443,
+          0.6707266986006896,
+          0.6786919535074387,
+          0.7100900479010347,
+          0.7494533972013798,
+          0.7888167465017251,
+          0.7915892713432515,
+          0.8281800958020702,
+          0.8675434451024153,
+          0.8875434451024153,
+          0.9044865891790643,
+          0.9183292851737158,
+          0.9491151252450164,
+          0.9799009653163169,
+          0.9999009653163169,
+          1.0063875006087684,
+          1.0173839070148774,
+          1.0263875006087684,
+          1.0637122293135557,
+          1.101036958018343,
+          1.1302812248506902,
+          1.13836168672313,
+          1.1756864154279174,
+          1.2130111441327047,
+          1.243178542686503,
+          1.250335872837492,
+          1.2876606015422793,
+          1.3249853302470664,
+          1.356075860522316,
+          1.3623100589518538,
+          1.399634787656641,
+          1.428803983007385,
+          1.457973178358129,
+          1.4629731783581288,
+          1.4689731783581288,
+          1.4889731783581288
+        ],
+        "physical_profile_functions_changed": false,
+        "physical_segments_changed": false,
+        "relative_tolerance": 1e-12,
+        "scale": 1.4889731783581288,
+        "schema": "fd2d-scale-aware-computational-mesh-coalescence-v1"
+      },
+      "explicit_seed_decay_end": 0.55,
+      "finite_radial_equations_changed": true,
+      "further_midpoint_subdivision": true,
+      "further_physical_point_subdivision": true,
+      "original_computational_mesh": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.32625,
+        0.33249999999999996,
+        0.33874999999999994,
+        0.34,
+        0.3449999999999999,
+        0.3512499999999999,
+        0.35749999999999993,
+        0.3637499999999999,
+        0.3699999999999999,
+        0.37624999999999986,
+        0.38249999999999984,
+        0.3887499999999998,
+        0.3949999999999998,
+        0.4012499999999998,
+        0.40749999999999975,
+        0.41374999999999973,
+        0.4199999999999997,
+        0.4262499999999997,
+        0.43249999999999966,
+        0.43874999999999964,
+        0.4449999999999996,
+        0.4512499999999996,
+        0.4528973178358129,
+        0.4574999999999996,
+        0.46374999999999955,
+        0.46999999999999953,
+        0.4762499999999995,
+        0.4824999999999995,
+        0.48874999999999946,
+        0.49499999999999944,
+        0.5012499999999994,
+        0.5074999999999994,
+        0.5137499999999994,
+        0.5199999999999994,
+        0.5262499999999993,
+        0.5324999999999993,
+        0.5387499999999993,
+        0.5449999999999993,
+        0.5512499999999992,
+        0.5574999999999992,
+        0.5637499999999992,
+        0.5657946356716258,
+        0.5699999999999992,
+        0.5719999999999992,
+        0.5739999999999992,
+        0.5759999999999992,
+        0.5779999999999992,
+        0.58,
+        0.5819999999999992,
+        0.5839999999999992,
+        0.5859999999999992,
+        0.5879999999999992,
+        0.5899999999999992,
+        0.5919999999999992,
+        0.6313633493003443,
+        0.6707266986006896,
+        0.6786919535074387,
+        0.7100900479010347,
+        0.7494533972013798,
+        0.7888167465017251,
+        0.7915892713432515,
+        0.8281800958020702,
+        0.8675434451024153,
+        0.8875434451024153,
+        0.9044865891790643,
+        0.9183292851737158,
+        0.9491151252450164,
+        0.9799009653163169,
+        0.9999009653163169,
+        1.0063875006087684,
+        1.0173839070148774,
+        1.0263875006087684,
+        1.0637122293135557,
+        1.101036958018343,
+        1.1302812248506902,
+        1.13836168672313,
+        1.1756864154279174,
+        1.2130111441327047,
+        1.243178542686503,
+        1.250335872837492,
+        1.2876606015422793,
+        1.3249853302470664,
+        1.356075860522316,
+        1.3623100589518538,
+        1.399634787656641,
+        1.428803983007385,
+        1.457973178358129,
+        1.4629731783581288,
+        1.4689731783581288,
+        1.4889731783581288
+      ],
+      "original_node_count": 99,
+      "physical_profile_changed": false,
+      "reason": "Observed short-turn interior target-curvature peak and large retained radial residuals; no global angular increase",
+      "schema": "fd2d-targeted-physical-turn-mesh-v1",
+      "subdivision_parent_nodes": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.32625,
+        0.33249999999999996,
+        0.33874999999999994,
+        0.34,
+        0.3449999999999999,
+        0.3512499999999999,
+        0.35749999999999993,
+        0.3637499999999999,
+        0.3699999999999999,
+        0.37624999999999986,
+        0.38249999999999984,
+        0.3887499999999998,
+        0.3949999999999998,
+        0.4012499999999998,
+        0.40749999999999975,
+        0.41374999999999973,
+        0.4199999999999997,
+        0.4262499999999997,
+        0.43249999999999966,
+        0.43874999999999964,
+        0.4449999999999996,
+        0.4512499999999996,
+        0.4528973178358129,
+        0.4574999999999996,
+        0.46374999999999955,
+        0.46999999999999953,
+        0.4762499999999995,
+        0.4824999999999995,
+        0.48874999999999946,
+        0.49499999999999944,
+        0.5012499999999994,
+        0.5074999999999994,
+        0.5137499999999994,
+        0.5199999999999994,
+        0.5262499999999993,
+        0.5324999999999993,
+        0.5387499999999993,
+        0.5449999999999993,
+        0.55,
+        0.5512499999999992,
+        0.5574999999999992,
+        0.5637499999999992,
+        0.5657946356716258,
+        0.5699999999999992,
+        0.5719999999999992,
+        0.5739999999999992,
+        0.5759999999999992,
+        0.5779999999999992,
+        0.58,
+        0.5819999999999992,
+        0.5839999999999992,
+        0.5859999999999992,
+        0.5879999999999992,
+        0.5899999999999992,
+        0.5919999999999992,
+        0.6116816746501718,
+        0.6250652134122892,
+        0.6313633493003443,
+        0.6707266986006896,
+        0.6747093260540642,
+        0.6786919535074387,
+        0.7100900479010347,
+        0.7494533972013798,
+        0.7888167465017251,
+        0.7915892713432515,
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8478617704522428,
+        0.8675434451024153,
+        0.8725434451024153,
+        0.8775434451024153,
+        0.8825434451024153,
+        0.8875434451024153,
+        0.9044865891790643,
+        0.9183292851737158,
+        0.9491151252450164,
+        0.9799009653163169,
+        0.9849009653163169,
+        0.9899009653163169,
+        0.9949009653163169,
+        0.9999009653163169,
+        1.0001604267280149,
+        1.000419888139713,
+        1.0031442329625426,
+        1.0058685777853722,
+        1.0061280391970702,
+        1.0063875006087684,
+        1.0173839070148774,
+        1.0263875006087684,
+        1.043650927718743,
+        1.0609143548287172,
+        1.0637122293135557,
+        1.101036958018343,
+        1.1302812248506902,
+        1.13836168672313,
+        1.1756864154279174,
+        1.2130111441327047,
+        1.2421803394834487,
+        1.243178542686503,
+        1.250335872837492,
+        1.2876606015422793,
+        1.3249853302470664,
+        1.356075860522316,
+        1.3623100589518538,
+        1.371656042808257,
+        1.399634787656641,
+        1.4,
+        1.42344632413818,
+        1.428803983007385,
+        1.4407097512481546,
+        1.457973178358129,
+        1.4629731783581288,
+        1.4662231783581288,
+        1.4689731783581288,
+        1.4694731783581287,
+        1.4727231783581287,
+        1.4759731783581287,
+        1.4792231783581289,
+        1.4824731783581289,
+        1.4857231783581288,
+        1.4873481783581288,
+        1.4889731783581288
+      ],
+      "targeted_additions": [
+        {
+          "actual_nodes": [
+            0.8725434451024153,
+            0.8775434451024153,
+            0.8825434451024153
+          ],
+          "fractions": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "kind": "phase_bridge",
+          "label": "partial_return_acceleration_entry",
+          "physical_segment_index": 53,
+          "s0": 0.8675434451024153,
+          "s1": 0.8875434451024153
+        },
+        {
+          "actual_nodes": [
+            0.9849009653163169,
+            0.9899009653163169,
+            0.9949009653163169
+          ],
+          "fractions": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "kind": "phase_bridge",
+          "label": "partial_return_acceleration_exit",
+          "physical_segment_index": 55,
+          "s0": 0.9799009653163169,
+          "s1": 0.9999009653163169
+        },
+        {
+          "actual_nodes": [
+            1.0001604267280149,
+            1.000419888139713,
+            1.0031442329625426,
+            1.0058685777853722,
+            1.0061280391970702
+          ],
+          "fractions": [
+            0.04,
+            0.08,
+            0.5,
+            0.92,
+            0.96
+          ],
+          "kind": "turn",
+          "label": "early_shallow_return",
+          "physical_segment_index": 56,
+          "s0": 0.9999009653163169,
+          "s1": 1.0063875006087684
+        },
+        {
+          "actual_nodes": [
+            1.043650927718743,
+            1.0609143548287172,
+            1.2421803394834487,
+            1.371656042808257,
+            1.42344632413818,
+            1.4407097512481546
+          ],
+          "fractions": [
+            0.04,
+            0.08,
+            0.5,
+            0.8,
+            0.92,
+            0.96
+          ],
+          "kind": "turn",
+          "label": "redeepen_after_partial_return",
+          "physical_segment_index": 58,
+          "s0": 1.0263875006087684,
+          "s1": 1.457973178358129
+        },
+        {
+          "actual_nodes": [
+            1.4662231783581288,
+            1.4694731783581287,
+            1.4759731783581287,
+            1.4824731783581289,
+            1.4857231783581288
+          ],
+          "fractions": [
+            0.125,
+            0.25,
+            0.5,
+            0.75,
+            0.875
+          ],
+          "kind": "phase_bridge",
+          "label": "cut_second_jet_brake",
+          "physical_segment_index": 60,
+          "s0": 1.4629731783581288,
+          "s1": 1.4889731783581288
+        }
+      ]
+    },
+    "coast_reference_definition": {
+      "reference": {
+        "schema": "fd2d-frozen-R139-coast-reference-v1",
+        "binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+        "physical_coast": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "a_c": 1.029181699754392,
+        "v": 0.2587478542495509,
+        "component_order": [
+          "n",
+          "m",
+          "l"
+        ],
+        "inverse_tolerance": 2e-13,
+        "cached_jets_dtype": "binary64"
+      },
+      "support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "rim_fraction": 0.12,
+      "weight": "S5((s-entry)/rim)*S5((exit-s)/rim), each argument clipped to [0,1]",
+      "lifting": "(1-w)*old_seed_tail_lifting+w*frozen_native_reference",
+      "reference_parameters_frozen": true,
+      "original_physical_g_changed": false,
+      "accurate_reference_GC_applies_only_to_base_delta_zero": true,
+      "target_defects_and_target_profile_derivatives_not_omitted": true,
+      "angular_chart_fixed_across_unknown_parameters": true
+    },
+    "angular_atlas_definition": {
+      "schema": "fd2d-global-positive-frozen-ruling-atlas-v1",
+      "source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "dependencies": {
+        "fd2d_k0_ruling_chart.py": "dc6a6f2b8f3adc886365fad29202bbadde4373154112233767d034f2aa1a5098",
+        "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+        "fd2d_k0_ruling_coast.py": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+        "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+      },
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "original_chart": {
+        "kind": "fixed-seed-normal-to-material-quintic",
+        "blend_interval": [
+          0.58,
+          1.399634787656641
+        ],
+        "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+        "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+        "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+        "material_metric_changed": false,
+        "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+      },
+      "entry_transition": [
+        0.55,
+        0.5919999999999992
+      ],
+      "coast": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "exit_transition": [
+        0.8675434451024153,
+        1.4
+      ],
+      "smoothstep_degree": 5,
+      "entry_formula": "(1-S5)*U_old(s,xi)+S5*U_seed(xi)",
+      "coast_formula": "Frozen R139 ruling map, label xi is fixed inlet seed-normal angle",
+      "exit_formula": "(1-S5)*U_exit(xi)+S5*U_old(s,xi)",
+      "elsewhere": "original chart on open central and cut neighborhoods",
+      "interface_values_and_angular_jets": "same whole functions on both sides",
+      "interface_radial_jets": "one-sided; coordinates side=coast default, or left/right explicitly",
+      "a_c": 1.029181699754392,
+      "v": 0.2587478542495509,
+      "positive_U_xi": "positive convex combinations of original/seed/frozen-exit derivatives, and R139 D>0 within coast",
+      "parameters_frozen": true,
+      "physical_g_changed": false,
+      "physical_metric": "ds^2+a_delta(s)^2 du^2",
+      "coordinate_metric": "(1+a_delta^2 U_s^2) ds^2+2 a_delta^2 U_s U_xi ds dxi+a_delta^2 U_xi^2 dxi^2",
+      "selected_actual_reconstruction": "fixed physical material u",
+      "field_interface": "shared P1 coefficient value and common full physical lifting trace; U_s continuity is not assumed"
+    },
+    "atlas_mesh_definition": {
+      "schema": "fd2d-explicit-ruling-atlas-computational-mesh-v1",
+      "old_nodes": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.32625,
+        0.33249999999999996,
+        0.33874999999999994,
+        0.34,
+        0.3449999999999999,
+        0.3512499999999999,
+        0.35749999999999993,
+        0.3637499999999999,
+        0.3699999999999999,
+        0.37624999999999986,
+        0.38249999999999984,
+        0.3887499999999998,
+        0.3949999999999998,
+        0.4012499999999998,
+        0.40749999999999975,
+        0.41374999999999973,
+        0.4199999999999997,
+        0.4262499999999997,
+        0.43249999999999966,
+        0.43874999999999964,
+        0.4449999999999996,
+        0.4512499999999996,
+        0.4528973178358129,
+        0.4574999999999996,
+        0.46374999999999955,
+        0.46999999999999953,
+        0.4762499999999995,
+        0.4824999999999995,
+        0.48874999999999946,
+        0.49499999999999944,
+        0.5012499999999994,
+        0.5074999999999994,
+        0.5137499999999994,
+        0.5199999999999994,
+        0.5262499999999993,
+        0.5324999999999993,
+        0.5387499999999993,
+        0.5449999999999993,
+        0.55,
+        0.5512499999999992,
+        0.5574999999999992,
+        0.5637499999999992,
+        0.5657946356716258,
+        0.5699999999999992,
+        0.5719999999999992,
+        0.5739999999999992,
+        0.5759999999999992,
+        0.5779999999999992,
+        0.58,
+        0.5819999999999992,
+        0.5839999999999992,
+        0.5859999999999992,
+        0.5879999999999992,
+        0.5899999999999992,
+        0.5919999999999992,
+        0.6116816746501718,
+        0.6250652134122892,
+        0.6313633493003443,
+        0.6707266986006896,
+        0.6747093260540642,
+        0.6786919535074387,
+        0.7100900479010347,
+        0.7494533972013798,
+        0.7888167465017251,
+        0.7915892713432515,
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8478617704522428,
+        0.8675434451024153,
+        0.8725434451024153,
+        0.8775434451024153,
+        0.8825434451024153,
+        0.8875434451024153,
+        0.9044865891790643,
+        0.9183292851737158,
+        0.9491151252450164,
+        0.9799009653163169,
+        0.9849009653163169,
+        0.9899009653163169,
+        0.9949009653163169,
+        0.9999009653163169,
+        1.0001604267280149,
+        1.000419888139713,
+        1.0031442329625426,
+        1.0058685777853722,
+        1.0061280391970702,
+        1.0063875006087684,
+        1.0173839070148774,
+        1.0263875006087684,
+        1.043650927718743,
+        1.0609143548287172,
+        1.0637122293135557,
+        1.101036958018343,
+        1.1302812248506902,
+        1.13836168672313,
+        1.1756864154279174,
+        1.2130111441327047,
+        1.2421803394834487,
+        1.243178542686503,
+        1.250335872837492,
+        1.2876606015422793,
+        1.3249853302470664,
+        1.356075860522316,
+        1.3623100589518538,
+        1.371656042808257,
+        1.399634787656641,
+        1.4,
+        1.42344632413818,
+        1.428803983007385,
+        1.4407097512481546,
+        1.457973178358129,
+        1.4629731783581288,
+        1.4662231783581288,
+        1.4689731783581288,
+        1.4694731783581287,
+        1.4727231783581287,
+        1.4759731783581287,
+        1.4792231783581289,
+        1.4824731783581289,
+        1.4857231783581288,
+        1.4873481783581288,
+        1.4889731783581288
+      ],
+      "actual_nodes": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.32625,
+        0.33249999999999996,
+        0.33874999999999994,
+        0.34,
+        0.3449999999999999,
+        0.3512499999999999,
+        0.35749999999999993,
+        0.3637499999999999,
+        0.3699999999999999,
+        0.37624999999999986,
+        0.38249999999999984,
+        0.3887499999999998,
+        0.3949999999999998,
+        0.4012499999999998,
+        0.40749999999999975,
+        0.41374999999999973,
+        0.4199999999999997,
+        0.4262499999999997,
+        0.43249999999999966,
+        0.43874999999999964,
+        0.4449999999999996,
+        0.4512499999999996,
+        0.4528973178358129,
+        0.4574999999999996,
+        0.46374999999999955,
+        0.46999999999999953,
+        0.4762499999999995,
+        0.4824999999999995,
+        0.48874999999999946,
+        0.49499999999999944,
+        0.5012499999999994,
+        0.5074999999999994,
+        0.5137499999999994,
+        0.5199999999999994,
+        0.5262499999999993,
+        0.5324999999999993,
+        0.5387499999999993,
+        0.5449999999999993,
+        0.55,
+        0.5512499999999992,
+        0.5574999999999992,
+        0.5637499999999992,
+        0.5657946356716258,
+        0.5699999999999992,
+        0.5719999999999992,
+        0.5739999999999992,
+        0.5759999999999992,
+        0.5779999999999992,
+        0.58,
+        0.5819999999999992,
+        0.5839999999999992,
+        0.5859999999999992,
+        0.5879999999999992,
+        0.5899999999999992,
+        0.5919999999999992,
+        0.6116816746501718,
+        0.6250652134122892,
+        0.6313633493003443,
+        0.6707266986006896,
+        0.6747093260540642,
+        0.6786919535074387,
+        0.7100900479010347,
+        0.7494533972013798,
+        0.7888167465017251,
+        0.7915892713432515,
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8478617704522428,
+        0.8675434451024153,
+        0.8725434451024153,
+        0.8775434451024153,
+        0.8825434451024153,
+        0.8875434451024153,
+        0.9044865891790643,
+        0.9183292851737158,
+        0.9491151252450164,
+        0.9799009653163169,
+        0.9849009653163169,
+        0.9899009653163169,
+        0.9949009653163169,
+        0.9999009653163169,
+        1.0001604267280149,
+        1.000419888139713,
+        1.0031442329625426,
+        1.0058685777853722,
+        1.0061280391970702,
+        1.0063875006087684,
+        1.0173839070148774,
+        1.0263875006087684,
+        1.043650927718743,
+        1.0609143548287172,
+        1.0637122293135557,
+        1.101036958018343,
+        1.1302812248506902,
+        1.13836168672313,
+        1.1756864154279174,
+        1.2130111441327047,
+        1.2421803394834487,
+        1.243178542686503,
+        1.250335872837492,
+        1.2876606015422793,
+        1.3249853302470664,
+        1.356075860522316,
+        1.3623100589518538,
+        1.371656042808257,
+        1.399634787656641,
+        1.4,
+        1.42344632413818,
+        1.428803983007385,
+        1.4407097512481546,
+        1.457973178358129,
+        1.4629731783581288,
+        1.4662231783581288,
+        1.4689731783581288,
+        1.4694731783581287,
+        1.4727231783581287,
+        1.4759731783581287,
+        1.4792231783581289,
+        1.4824731783581289,
+        1.4857231783581288,
+        1.4873481783581288,
+        1.4889731783581288
+      ],
+      "added_nodes": [],
+      "old_node_count": 131,
+      "actual_node_count": 131,
+      "minimum_cell": 0.0002594614116979699,
+      "all_old_nodes_retained": true,
+      "physical_metric_changed": false,
+      "finite_representation_changed": true
+    },
+    "reference_evaluation_definition": {
+      "schema": "fd2d-known-ruling-label-fixed-reference-evaluation-v1",
+      "source_sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+      "physical_reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+      "angular_atlas_source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "method": "R139 native_from_inlet at known frozen inlet label; no material inverse",
+      "physical_component_order": [
+        "n",
+        "m",
+        "l"
+      ],
+      "physical_l_s": "(2*m*m_s*n-m*m*n_s)/n^2 of the positive frozen reference",
+      "computational_x": "physical_s+U_s*physical_u",
+      "computational_xi": "U_xi*physical_u",
+      "composition_tolerance": 2e-13,
+      "stored_jets_dtype": "binary64",
+      "cache": "bounded recent 64 scalar-s/full-label pairs, actual label equality and requested material composition checked",
+      "physical_function_changed": false,
+      "unknown_raw_n_divided": false
+    },
+    "gauss_l_definition": {
+      "active_profile_K_s": "base K0 coast: -sum(delta_j*psi_j_third)/a + a_ss*a_s/a^2",
+      "actual_continuous_positive_certificate_paid": false,
+      "algebra_source_sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+      "exact_elimination_reason": "entire nodal P1 hat support lies in w=1, so (1-w)*hat is identically zero",
+      "exact_pointwise_domain": "n>0 at every point with w>0; no positivity condition imposed at the flat n=0 tail",
+      "finite_floor_is_not_continuous_certificate_or_nonexistence_condition": true,
+      "full_actual_G_C_curvature_required": true,
+      "gauss_plateau": [
+        0.6250652134122892,
+        0.8344782316901254
+      ],
+      "inactive_l_raw_nodes": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "known_lifting_unchanged": true,
+      "l": "(1-w)*l_raw+w*(K+m^2)/n; evaluate quotient only where w>0",
+      "n_and_m": "unchanged complete affine P1 correction plus exact declared lifting",
+      "old_field_preserved": false,
+      "physical_metric_changed_by_representation": false,
+      "provider_source_sha256": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+      "regularity_sufficient_domain": "uniform n>=nu>0 on a neighborhood of the closed coast support, as in R153",
+      "rim_adjacent_l_nodes_not_removed": true,
+      "rim_fraction": 0.12,
+      "schema": "fd2d-positive-n-local-Gauss-l-field-v1",
+      "selected_finite_evaluation_floor": 0.05,
+      "support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "true_gauss_identity": "G_actual=(1-w)*G_raw",
+      "weight": "same S5 coast-window function as the declared frozen reference"
+    },
+    "inactive_l_field_columns": [
+      6333,
+      6334,
+      6335,
+      6336,
+      6337,
+      6338,
+      6339,
+      6340,
+      6341,
+      6342,
+      6343,
+      6344,
+      6345,
+      6346,
+      6347,
+      6348,
+      6349,
+      6350,
+      6351,
+      6352,
+      6353,
+      6354,
+      6355,
+      6356,
+      6357,
+      6358,
+      6359,
+      6360,
+      6361,
+      6362,
+      6363,
+      6364,
+      6428,
+      6429,
+      6430,
+      6431,
+      6432,
+      6433,
+      6434,
+      6435,
+      6436,
+      6437,
+      6438,
+      6439,
+      6440,
+      6441,
+      6442,
+      6443,
+      6444,
+      6445,
+      6446,
+      6447,
+      6448,
+      6449,
+      6450,
+      6451,
+      6452,
+      6453,
+      6454,
+      6455,
+      6456,
+      6457,
+      6458,
+      6459,
+      6523,
+      6524,
+      6525,
+      6526,
+      6527,
+      6528,
+      6529,
+      6530,
+      6531,
+      6532,
+      6533,
+      6534,
+      6535,
+      6536,
+      6537,
+      6538,
+      6539,
+      6540,
+      6541,
+      6542,
+      6543,
+      6544,
+      6545,
+      6546,
+      6547,
+      6548,
+      6549,
+      6550,
+      6551,
+      6552,
+      6553,
+      6554,
+      6618,
+      6619,
+      6620,
+      6621,
+      6622,
+      6623,
+      6624,
+      6625,
+      6626,
+      6627,
+      6628,
+      6629,
+      6630,
+      6631,
+      6632,
+      6633,
+      6634,
+      6635,
+      6636,
+      6637,
+      6638,
+      6639,
+      6640,
+      6641,
+      6642,
+      6643,
+      6644,
+      6645,
+      6646,
+      6647,
+      6648,
+      6649,
+      6713,
+      6714,
+      6715,
+      6716,
+      6717,
+      6718,
+      6719,
+      6720,
+      6721,
+      6722,
+      6723,
+      6724,
+      6725,
+      6726,
+      6727,
+      6728,
+      6729,
+      6730,
+      6731,
+      6732,
+      6733,
+      6734,
+      6735,
+      6736,
+      6737,
+      6738,
+      6739,
+      6740,
+      6741,
+      6742,
+      6743,
+      6744,
+      6808,
+      6809,
+      6810,
+      6811,
+      6812,
+      6813,
+      6814,
+      6815,
+      6816,
+      6817,
+      6818,
+      6819,
+      6820,
+      6821,
+      6822,
+      6823,
+      6824,
+      6825,
+      6826,
+      6827,
+      6828,
+      6829,
+      6830,
+      6831,
+      6832,
+      6833,
+      6834,
+      6835,
+      6836,
+      6837,
+      6838,
+      6839,
+      6903,
+      6904,
+      6905,
+      6906,
+      6907,
+      6908,
+      6909,
+      6910,
+      6911,
+      6912,
+      6913,
+      6914,
+      6915,
+      6916,
+      6917,
+      6918,
+      6919,
+      6920,
+      6921,
+      6922,
+      6923,
+      6924,
+      6925,
+      6926,
+      6927,
+      6928,
+      6929,
+      6930,
+      6931,
+      6932,
+      6933,
+      6934,
+      6998,
+      6999,
+      7000,
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006,
+      7007,
+      7008,
+      7009,
+      7010,
+      7011,
+      7012,
+      7013,
+      7014,
+      7015,
+      7016,
+      7017,
+      7018,
+      7019,
+      7020,
+      7021,
+      7022,
+      7023,
+      7024,
+      7025,
+      7026,
+      7027,
+      7028,
+      7029,
+      7093,
+      7094,
+      7095,
+      7096,
+      7097,
+      7098,
+      7099,
+      7100,
+      7101,
+      7102,
+      7103,
+      7104,
+      7105,
+      7106,
+      7107,
+      7108,
+      7109,
+      7110,
+      7111,
+      7112,
+      7113,
+      7114,
+      7115,
+      7116,
+      7117,
+      7118,
+      7119,
+      7120,
+      7121,
+      7122,
+      7123,
+      7124
+    ],
+    "positive_trace_definition": {
+      "E": "w*(h-n-l)/2",
+      "actual_fields": "n_new=n+E,m_new=m,l_new=l+E",
+      "algebra_source_sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+      "composition_order": "R153 coast positive-n Gauss-l first, then disjoint R155 terminal positive trace",
+      "cut": 1.4889731783581288,
+      "exact_tail_bypass": "At s=cut take E=E_xi=all E parameter/state partials=0 along the accurate analytic nonnegative tail family",
+      "exact_trace_gauge": "At entire-hat plateau nodes set raw n correction=(old n-old l)/2, raw l correction=negative of it; d unchanged",
+      "h": "sqrt((n-l)^2+4*m^2+4*K)",
+      "inactive_raw_trace_nodes": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "invariant_fields": "d=n-l and m from the actual R153 background",
+      "mathematical_field_changed": true,
+      "no_continuous_geometry_claim": true,
+      "physical_metric_changed_by_representation": false,
+      "positive_K_domain": "K>=0 at active non-cut points; h>0 when its general derivative is used; no n floor added",
+      "provider_source_sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+      "ramp_stop": 1.4759731783581287,
+      "schema": "fd2d-terminal-positive-trace-Gauss-field-v1",
+      "start": 1.4689731783581288,
+      "step": 5,
+      "tail_contract": "All correction coefficients at cut are exactly zero; existing positive tail parameters define the complete true trace",
+      "weight": "S5((s-start)/(ramp_stop-start)), clipped, then exactly one up to cut"
+    },
+    "trace_gauge_pairs": [
+      [
+        11970,
+        12033
+      ],
+      [
+        11971,
+        12034
+      ],
+      [
+        11972,
+        12035
+      ],
+      [
+        11973,
+        12036
+      ],
+      [
+        11974,
+        12037
+      ],
+      [
+        11975,
+        12038
+      ],
+      [
+        11976,
+        12039
+      ],
+      [
+        11977,
+        12040
+      ],
+      [
+        11978,
+        12041
+      ],
+      [
+        11979,
+        12042
+      ],
+      [
+        11980,
+        12043
+      ],
+      [
+        11981,
+        12044
+      ],
+      [
+        11982,
+        12045
+      ],
+      [
+        11983,
+        12046
+      ],
+      [
+        11984,
+        12047
+      ],
+      [
+        11985,
+        12048
+      ],
+      [
+        11986,
+        12049
+      ],
+      [
+        11987,
+        12050
+      ],
+      [
+        11988,
+        12051
+      ],
+      [
+        11989,
+        12052
+      ],
+      [
+        11990,
+        12053
+      ],
+      [
+        11991,
+        12054
+      ],
+      [
+        11992,
+        12055
+      ],
+      [
+        11993,
+        12056
+      ],
+      [
+        11994,
+        12057
+      ],
+      [
+        11995,
+        12058
+      ],
+      [
+        11996,
+        12059
+      ],
+      [
+        11997,
+        12060
+      ],
+      [
+        11998,
+        12061
+      ],
+      [
+        11999,
+        12062
+      ],
+      [
+        12000,
+        12063
+      ],
+      [
+        12001,
+        12064
+      ],
+      [
+        12065,
+        12128
+      ],
+      [
+        12066,
+        12129
+      ],
+      [
+        12067,
+        12130
+      ],
+      [
+        12068,
+        12131
+      ],
+      [
+        12069,
+        12132
+      ],
+      [
+        12070,
+        12133
+      ],
+      [
+        12071,
+        12134
+      ],
+      [
+        12072,
+        12135
+      ],
+      [
+        12073,
+        12136
+      ],
+      [
+        12074,
+        12137
+      ],
+      [
+        12075,
+        12138
+      ],
+      [
+        12076,
+        12139
+      ],
+      [
+        12077,
+        12140
+      ],
+      [
+        12078,
+        12141
+      ],
+      [
+        12079,
+        12142
+      ],
+      [
+        12080,
+        12143
+      ],
+      [
+        12081,
+        12144
+      ],
+      [
+        12082,
+        12145
+      ],
+      [
+        12083,
+        12146
+      ],
+      [
+        12084,
+        12147
+      ],
+      [
+        12085,
+        12148
+      ],
+      [
+        12086,
+        12149
+      ],
+      [
+        12087,
+        12150
+      ],
+      [
+        12088,
+        12151
+      ],
+      [
+        12089,
+        12152
+      ],
+      [
+        12090,
+        12153
+      ],
+      [
+        12091,
+        12154
+      ],
+      [
+        12092,
+        12155
+      ],
+      [
+        12093,
+        12156
+      ],
+      [
+        12094,
+        12157
+      ],
+      [
+        12095,
+        12158
+      ],
+      [
+        12096,
+        12159
+      ],
+      [
+        12160,
+        12223
+      ],
+      [
+        12161,
+        12224
+      ],
+      [
+        12162,
+        12225
+      ],
+      [
+        12163,
+        12226
+      ],
+      [
+        12164,
+        12227
+      ],
+      [
+        12165,
+        12228
+      ],
+      [
+        12166,
+        12229
+      ],
+      [
+        12167,
+        12230
+      ],
+      [
+        12168,
+        12231
+      ],
+      [
+        12169,
+        12232
+      ],
+      [
+        12170,
+        12233
+      ],
+      [
+        12171,
+        12234
+      ],
+      [
+        12172,
+        12235
+      ],
+      [
+        12173,
+        12236
+      ],
+      [
+        12174,
+        12237
+      ],
+      [
+        12175,
+        12238
+      ],
+      [
+        12176,
+        12239
+      ],
+      [
+        12177,
+        12240
+      ],
+      [
+        12178,
+        12241
+      ],
+      [
+        12179,
+        12242
+      ],
+      [
+        12180,
+        12243
+      ],
+      [
+        12181,
+        12244
+      ],
+      [
+        12182,
+        12245
+      ],
+      [
+        12183,
+        12246
+      ],
+      [
+        12184,
+        12247
+      ],
+      [
+        12185,
+        12248
+      ],
+      [
+        12186,
+        12249
+      ],
+      [
+        12187,
+        12250
+      ],
+      [
+        12188,
+        12251
+      ],
+      [
+        12189,
+        12252
+      ],
+      [
+        12190,
+        12253
+      ],
+      [
+        12191,
+        12254
+      ],
+      [
+        12255,
+        12318
+      ],
+      [
+        12256,
+        12319
+      ],
+      [
+        12257,
+        12320
+      ],
+      [
+        12258,
+        12321
+      ],
+      [
+        12259,
+        12322
+      ],
+      [
+        12260,
+        12323
+      ],
+      [
+        12261,
+        12324
+      ],
+      [
+        12262,
+        12325
+      ],
+      [
+        12263,
+        12326
+      ],
+      [
+        12264,
+        12327
+      ],
+      [
+        12265,
+        12328
+      ],
+      [
+        12266,
+        12329
+      ],
+      [
+        12267,
+        12330
+      ],
+      [
+        12268,
+        12331
+      ],
+      [
+        12269,
+        12332
+      ],
+      [
+        12270,
+        12333
+      ],
+      [
+        12271,
+        12334
+      ],
+      [
+        12272,
+        12335
+      ],
+      [
+        12273,
+        12336
+      ],
+      [
+        12274,
+        12337
+      ],
+      [
+        12275,
+        12338
+      ],
+      [
+        12276,
+        12339
+      ],
+      [
+        12277,
+        12340
+      ],
+      [
+        12278,
+        12341
+      ],
+      [
+        12279,
+        12342
+      ],
+      [
+        12280,
+        12343
+      ],
+      [
+        12281,
+        12344
+      ],
+      [
+        12282,
+        12345
+      ],
+      [
+        12283,
+        12346
+      ],
+      [
+        12284,
+        12347
+      ],
+      [
+        12285,
+        12348
+      ],
+      [
+        12286,
+        12349
+      ]
+    ],
+    "coupled_trace_eliminated_l_columns": [
+      12033,
+      12034,
+      12035,
+      12036,
+      12037,
+      12038,
+      12039,
+      12040,
+      12041,
+      12042,
+      12043,
+      12044,
+      12045,
+      12046,
+      12047,
+      12048,
+      12049,
+      12050,
+      12051,
+      12052,
+      12053,
+      12054,
+      12055,
+      12056,
+      12057,
+      12058,
+      12059,
+      12060,
+      12061,
+      12062,
+      12063,
+      12064,
+      12128,
+      12129,
+      12130,
+      12131,
+      12132,
+      12133,
+      12134,
+      12135,
+      12136,
+      12137,
+      12138,
+      12139,
+      12140,
+      12141,
+      12142,
+      12143,
+      12144,
+      12145,
+      12146,
+      12147,
+      12148,
+      12149,
+      12150,
+      12151,
+      12152,
+      12153,
+      12154,
+      12155,
+      12156,
+      12157,
+      12158,
+      12159,
+      12223,
+      12224,
+      12225,
+      12226,
+      12227,
+      12228,
+      12229,
+      12230,
+      12231,
+      12232,
+      12233,
+      12234,
+      12235,
+      12236,
+      12237,
+      12238,
+      12239,
+      12240,
+      12241,
+      12242,
+      12243,
+      12244,
+      12245,
+      12246,
+      12247,
+      12248,
+      12249,
+      12250,
+      12251,
+      12252,
+      12253,
+      12254,
+      12318,
+      12319,
+      12320,
+      12321,
+      12322,
+      12323,
+      12324,
+      12325,
+      12326,
+      12327,
+      12328,
+      12329,
+      12330,
+      12331,
+      12332,
+      12333,
+      12334,
+      12335,
+      12336,
+      12337,
+      12338,
+      12339,
+      12340,
+      12341,
+      12342,
+      12343,
+      12344,
+      12345,
+      12346,
+      12347,
+      12348,
+      12349
+    ],
+    "nested_angular_definition": {
+      "schema": "fd2d-independent-tail-angular-nesting-v1",
+      "provider_source_sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+      "inherited_provider_source_sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+      "angular_mode_count": 31,
+      "central_parameter_count": 31,
+      "tail_parameter_count": 16,
+      "tail_bernstein_degree": 15,
+      "physical_profile_parameter_count": 7,
+      "layout": {
+        "central": [
+          0,
+          31
+        ],
+        "tail": [
+          31,
+          47
+        ],
+        "physical_profile": [
+          47,
+          54
+        ]
+      },
+      "inherited_full_function_definitions_unchanged": true,
+      "parameter_count_independent_of_equation_count": true,
+      "old_native_K_plus_one_tail_decoder_permitted": false
+    },
+    "tail_parameter_count": 16,
+    "tail_search_domain_definition": {
+      "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+      "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+      "control_box": {
+        "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+        "degree": 15,
+        "parts": 8,
+        "interval_endpoints_exact": [
+          "0",
+          "1/8",
+          "1/4",
+          "3/8",
+          "1/2",
+          "5/8",
+          "3/4",
+          "7/8",
+          "1"
+        ],
+        "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+        "shape": [
+          128,
+          16
+        ],
+        "numerator_denominator": "35184372088832",
+        "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+        "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+        "exact_lower": "0",
+        "exact_upper": "6/5",
+        "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+        "matrix_entries_exact_in_binary64": true,
+        "floating_matrix_vector_product_claimed_exact": false,
+        "selected_sufficient_domain_not_necessary_function_range": true
+      },
+      "tail_parameter_count": 16,
+      "inherited_polynomial_basis_tag": "positive_bernstein",
+      "basis_tag_is_not_global_control_box": true,
+      "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+      "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+      "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+      "old_parameter_domain_global_tail_min_max_replaced": true,
+      "central_and_profile_domain_predicates_unchanged": true,
+      "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+      "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+      "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "tail_global_variable_box_required": false,
+    "tail_two_sided_linear_row_count": 128
+  },
+  "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+  "physical_field_and_objective_unchanged_from24": false,
+  "interior_cells": [
+    63,
+    64,
+    65,
+    74,
+    75,
+    76,
+    123,
+    124
+  ],
+  "source_finite_input": {
+    "mesh": {
+      "shape": [
+        131
+      ],
+      "dtype": "<f8",
+      "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+    },
+    "vector": {
+      "shape": [
+        12499
+      ],
+      "dtype": "<f8",
+      "sha256": "a3cd2756aedd73f45ccf8728da4eeedebe036d37386913b419627a514c66172e"
+    }
+  },
+  "initial_domain": {
+    "original_strict_domain": false,
+    "roundoff_admitted": true,
+    "central_minimum": 0.09999999999999998,
+    "central_maximum": 7.093644048867999,
+    "requested_QP_lower_bound": 0.1,
+    "search_comparison_allowance": 2.816433732726551e-13,
+    "observed_lower_difference": -2.7755575615628914e-17,
+    "formula": "4*gamma_(K+2)*max(1,max(abs(seed)+abs(B)@abs(c)))",
+    "all_other_domain_checks_unchanged": true,
+    "QP_constraint_changed": false,
+    "physical_field_or_equations_changed": false,
+    "continuous_geometry_claimed": false
+  },
+  "cache_instances_are_process_local": true,
+  "base_context_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_staged_search_context.py",
+    "bytes": 20890,
+    "sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf"
+  },
+  "physical_field_definition_unchanged_by_cell_rule": true,
+  "finite_objective_changed_from25": true,
+  "grouped_rule_definition": {
+    "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+    "consumer_source": {
+      "name": "fd2d_gc_grouped_coast_codazzi.py",
+      "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+      "bytes": 21332
+    },
+    "fine_order": 8,
+    "point_batch": 2,
+    "old_point_gauss_diagnostic_order": 2,
+    "support": [
+      0.5919999999999992,
+      0.8675434451024153
+    ],
+    "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+    "known_lifting_change_not_separately_evaluated": true,
+    "outside_coast_consumer_unchanged": true,
+    "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+  },
+  "tail_search_domain_definition": {
+    "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+    "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+    "control_box": {
+      "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+      "degree": 15,
+      "parts": 8,
+      "interval_endpoints_exact": [
+        "0",
+        "1/8",
+        "1/4",
+        "3/8",
+        "1/2",
+        "5/8",
+        "3/4",
+        "7/8",
+        "1"
+      ],
+      "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+      "shape": [
+        128,
+        16
+      ],
+      "numerator_denominator": "35184372088832",
+      "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+      "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+      "exact_lower": "0",
+      "exact_upper": "6/5",
+      "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+      "matrix_entries_exact_in_binary64": true,
+      "floating_matrix_vector_product_claimed_exact": false,
+      "selected_sufficient_domain_not_necessary_function_range": true
+    },
+    "tail_parameter_count": 16,
+    "inherited_polynomial_basis_tag": "positive_bernstein",
+    "basis_tag_is_not_global_control_box": true,
+    "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+    "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+    "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+    "old_parameter_domain_global_tail_min_max_replaced": true,
+    "central_and_profile_domain_predicates_unchanged": true,
+    "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+    "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+    "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+    "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+  },
+  "global_tail_coefficient_box_required": false,
+  "actual_finite_functions_changed_by_domain": false,
+  "original_grouped_objective_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_search_context.py",
+    "bytes": 8495,
+    "sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec"
+  },
+  "stage": "explicit_R170_tail_domain_QP_from_unchanged_same_function_Schur",
+  "stage_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-dyadic-stage-qp-v2.py",
+    "bytes": 10439,
+    "sha256": "4a80e5d0c362c8a2f5565424fd9a84ff880c44ff382b190f9d0d044fb8abc2b9"
+  },
+  "seconds": 1.8317255329966429,
+  "peak_rss_kib": 133188,
+  "normal_origin": {
+    "kind": "fd2d-explicit-piecewise-merged-normal-reference-v1",
+    "reference": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic31-work/normal-reference.json",
+      "bytes": 40050,
+      "sha256": "587764e6a5728e157baa219213e19d765dade847fec17d49c3bb5e6871cbc77d"
+    }
+  },
+  "latest_incomplete_QP_iterate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic31-work/directions/root-central-box31-capD4/qp-iterate-latest.npz",
+    "bytes": 1782,
+    "sha256": "e85db006c059ffdc085e8cdadba8107e71e829b925ca5d3679bc3b78fa2c7bfc"
+  },
+  "QP_iteration": 350,
+  "direction_summary": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic31-work/directions/root-central-box31-capD4/summary.json",
+    "bytes": 85933,
+    "sha256": "338b1384a7228d5bc3300e90da48c90ac820cc1460740e3e741d63307f4dbace"
+  },
+  "direction": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic31-work/directions/root-central-box31-capD4/direction.npz",
+    "bytes": 353463,
+    "sha256": "4f4d4fa63e8d5e6cbbae37df56618bce11319988b794c8aacbb85cc3ef2049ca"
+  },
+  "direction_information": {
+    "method": "R170 dyadic-tail bounded parameter QP from the unchanged same-normal block Schur solve",
+    "direction_seconds": 1.098244874003285,
+    "free_field_unknowns": 11079,
+    "tail_linear_rows": 128,
+    "old_global_tail_bounds_removed": true,
+    "tail_search_domain_definition": {
+      "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+      "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+      "control_box": {
+        "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+        "degree": 15,
+        "parts": 8,
+        "interval_endpoints_exact": [
+          "0",
+          "1/8",
+          "1/4",
+          "3/8",
+          "1/2",
+          "5/8",
+          "3/4",
+          "7/8",
+          "1"
+        ],
+        "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+        "shape": [
+          128,
+          16
+        ],
+        "numerator_denominator": "35184372088832",
+        "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+        "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+        "exact_lower": "0",
+        "exact_upper": "6/5",
+        "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+        "matrix_entries_exact_in_binary64": true,
+        "floating_matrix_vector_product_claimed_exact": false,
+        "selected_sufficient_domain_not_necessary_function_range": true
+      },
+      "tail_parameter_count": 16,
+      "inherited_polynomial_basis_tag": "positive_bernstein",
+      "basis_tag_is_not_global_control_box": true,
+      "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+      "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+      "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+      "old_parameter_domain_global_tail_min_max_replaced": true,
+      "central_and_profile_domain_predicates_unchanged": true,
+      "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+      "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+      "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "parameter_unknowns": 54,
+    "damping": 1e-07,
+    "schur_shift": 0.0,
+    "schur_minimum_eigenvalue": 1.0000937230494833e-07,
+    "optimizer_success": true,
+    "optimizer_status": 0,
+    "optimizer_message": "Optimization terminated successfully",
+    "optimizer_iterations": 356,
+    "proposed_minimum_central_curvature": 0.0999999999999999,
+    "proposed_maximum_central_curvature": 7.84223006439422,
+    "central_floor": 0.1,
+    "central_cap": 8.264462809917354,
+    "profile_box": 0.08,
+    "preserve_gap": true,
+    "profile_linear_rows": 39,
+    "maximum_profile_direction": 0.009867714857472867,
+    "no_whole_sparse_field_matrix": true,
+    "no_residual_or_Jacobian_evaluation": true,
+    "field_solve_information": {
+      "schema": "fd2d-R159-scaled-SPD-block-normal-solve-v1",
+      "field_unknowns": 11079,
+      "parameter_unknowns": 54,
+      "right_hand_sides": 55,
+      "total_nodes": 131,
+      "factorized_nonempty_nodes": 121,
+      "empty_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        130
+      ],
+      "damping": 1e-07,
+      "column_scale_floor": 1e-12,
+      "original_global_column_norm_squares_used": true,
+      "whole_Hff_constructed": false,
+      "whole_sparse_matrix_constructed": false,
+      "sparse_LU_called": false,
+      "normal_scaled_method_called": false,
+      "normal_modified": false,
+      "new_F_or_J_computed": false,
+      "numerical_symmetrization": "(D + D.T)/2 evaluated as .5*D + .5*D.T before local Cholesky",
+      "maximum_scaled_diagonal_asymmetry": 2.220446049250313e-16,
+      "maximum_forward_Schur_asymmetry": 1.9741153156616065e-15,
+      "maximum_local_symmetrization_change": 9.870576578308032e-16,
+      "maximum_opposite_orientation_scaling_rounding": 2.220446049250313e-16,
+      "minimum_Cholesky_diagonal": 0.003093639585250557,
+      "eigenvalue_clipping_or_added_damping": false,
+      "coupling_workspace_bytes": 8146112,
+      "solution_array_bytes": 4874760,
+      "largest_local_dense_entry_estimate": 50350,
+      "factor_and_substitution_seconds": 0.10624424400157295,
+      "seconds": 0.13854140100011136,
+      "residual_definition": "Original unaveraged diagonal and independently left/right-scaled lower/upper blocks applied to returned solution, minus original scaled [gf,hfp]",
+      "residual_evaluation_is_interval_certificate": false,
+      "absolute_residual_maximum": 6.436935403100752e-14,
+      "relative_residual_l2_maximum": 3.289427153512832e-13,
+      "componentwise_backward_maximum": 4.473649233365581e-14,
+      "absolute_residual_maxima_by_rhs": [
+        6.436935403100752e-14,
+        1.2906342661267445e-14,
+        6.217248937900877e-15,
+        5.10702591327572e-15,
+        5.2735593669694936e-15,
+        3.1086244689504383e-15,
+        4.440892098500626e-15,
+        4.565792188770956e-15,
+        5.440092820663267e-15,
+        3.552713678800501e-15,
+        4.000272335602517e-15,
+        3.8311367966947785e-15,
+        4.746203430272544e-15,
+        5.662137425588298e-15,
+        5.995204332975845e-15,
+        6.418476861114186e-15,
+        6.484396353201305e-15,
+        3.969047313034935e-15,
+        7.632783294297951e-15,
+        5.023759186428833e-15,
+        5.870304242705515e-15,
+        7.008282842946301e-15,
+        6.8833827526759706e-15,
+        5.995204332975845e-15,
+        4.6629367034256575e-15,
+        4.017619570362285e-15,
+        3.309852392163748e-15,
+        2.6298407895808396e-15,
+        1.6653345369377348e-15,
+        1.3322676295501878e-15,
+        4.218847493575595e-15,
+        7.105427357601002e-15,
+        1.7277469738100418e-14,
+        8.989472577783375e-15,
+        1.0212692338671097e-14,
+        7.812482181090898e-15,
+        1.6753024206610234e-14,
+        7.240518948292696e-15,
+        1.3850465913067822e-14,
+        5.6840383094725055e-15,
+        6.485914236242785e-15,
+        7.68784043586948e-15,
+        6.65158032819857e-15,
+        6.6509298068950784e-15,
+        1.0088284374543122e-14,
+        9.850193577465305e-15,
+        1.5719852381065012e-14,
+        1.7798926937352688e-14,
+        1.5844096867834168e-14,
+        1.7763568394002505e-14,
+        1.172525641028874e-14,
+        3.584849431192971e-14,
+        2.7710472805253517e-14,
+        3.2672093654671774e-14,
+        5.247365042482244e-14
+      ],
+      "residual_l2_by_rhs": [
+        3.062078000875773e-13,
+        2.4904384279649417e-14,
+        1.6936429850083107e-14,
+        1.8082086141085186e-14,
+        1.716615638850968e-14,
+        1.5666991493763083e-14,
+        1.6963953489862218e-14,
+        1.9730272949622317e-14,
+        2.116468317302698e-14,
+        1.9160018129157502e-14,
+        2.0220428231423047e-14,
+        1.908570572854947e-14,
+        2.0336212050884228e-14,
+        2.1949673391990893e-14,
+        2.1240722211476944e-14,
+        1.8773469266817357e-14,
+        2.1816331224375117e-14,
+        1.8335154564887472e-14,
+        2.4010900009960725e-14,
+        1.8459677867229865e-14,
+        1.932135844581049e-14,
+        2.0081697832405212e-14,
+        2.0473324506998598e-14,
+        1.7415018932217654e-14,
+        1.3691958442496027e-14,
+        1.303613562393369e-14,
+        1.1353506437147193e-14,
+        1.0653572538230127e-14,
+        9.819534411610235e-15,
+        1.016319574816281e-14,
+        1.3830707407343262e-14,
+        1.5375030949785288e-14,
+        3.2578742659406733e-14,
+        2.9177068368456746e-14,
+        3.491176233995514e-14,
+        3.1958419121214705e-14,
+        3.5320062479157e-14,
+        2.7215128069612658e-14,
+        3.286934675499446e-14,
+        2.280589126400121e-14,
+        2.2711334623193424e-14,
+        2.3433721457792966e-14,
+        2.1896431433241452e-14,
+        2.1568610092195702e-14,
+        3.3486633581008336e-14,
+        4.337542610638627e-14,
+        5.518286185748977e-14,
+        5.836190706982893e-14,
+        7.366138736062802e-14,
+        4.6370019360840445e-14,
+        4.4553558330095804e-14,
+        1.0274499794715769e-13,
+        8.142098960001287e-14,
+        9.218313253591212e-14,
+        1.6300776434975548e-13
+      ],
+      "rhs_l2_by_rhs": [
+        1.3269745779450404,
+        0.7072167900203392,
+        0.7078862700148434,
+        0.708691230390632,
+        0.709736522137755,
+        0.7113001194358519,
+        0.7129110744130835,
+        0.7150040326824595,
+        0.7173311439482561,
+        0.7198346097279953,
+        0.7226838331018345,
+        0.7257151679273958,
+        0.7289515743504312,
+        0.7324034110251897,
+        0.7360151263027344,
+        0.7397895872043527,
+        0.743704561018006,
+        0.747738228917582,
+        0.7518798314531515,
+        0.7561065041316767,
+        0.7604041734533291,
+        0.7647617062831608,
+        0.7691472723385355,
+        0.7735653160428837,
+        0.7779993232733289,
+        0.7823621311332831,
+        0.7867745243082481,
+        0.7910722870842106,
+        0.7949367119448935,
+        0.7992296610835318,
+        0.8015486361108564,
+        0.7948164734700602,
+        0.31607407699912243,
+        0.3969389751679277,
+        0.49720660233655695,
+        0.6388787541282703,
+        0.8178649821988985,
+        0.9935691473035645,
+        1.1221494502252656,
+        1.1844336502508293,
+        1.1926388793794387,
+        1.176867124321715,
+        1.1540492263523188,
+        1.110379989493116,
+        1.0204935130367123,
+        0.8759096354257178,
+        0.6990450480348978,
+        0.542761836730118,
+        0.742693676709512,
+        0.8055922804780431,
+        0.8951880728514454,
+        0.9021868612584415,
+        0.9374771746880831,
+        0.7412257793643607,
+        0.49555061335125444
+      ],
+      "relative_residual_l2_by_rhs": [
+        2.307563424174804e-13,
+        3.5214639458620853e-14,
+        2.392535435067553e-14,
+        2.551475927128138e-14,
+        2.4186660617104114e-14,
+        2.202585247165279e-14,
+        2.3795328896844656e-14,
+        2.7594631705223864e-14,
+        2.950475990284575e-14,
+        2.6617250504803485e-14,
+        2.7979632731833583e-14,
+        2.6299168836524718e-14,
+        2.789789166585699e-14,
+        2.9969376250264314e-14,
+        2.885908380467212e-14,
+        2.537676873469097e-14,
+        2.933467450369303e-14,
+        2.452082006216166e-14,
+        3.193449139812019e-14,
+        2.441412389175149e-14,
+        2.540932719775027e-14,
+        2.6258764877238452e-14,
+        2.6618211158379287e-14,
+        2.251266773606513e-14,
+        1.759893361460641e-14,
+        1.6662534017399744e-14,
+        1.4430444919565082e-14,
+        1.3467255410371923e-14,
+        1.2352598973050001e-14,
+        1.2716239452855593e-14,
+        1.725498214861966e-14,
+        1.9344127182794793e-14,
+        1.0307312440398959e-13,
+        7.350517382706797e-14,
+        7.021580601683868e-14,
+        5.0022666921865243e-14,
+        4.318568865021713e-14,
+        2.7391277339349225e-14,
+        2.929141635135686e-14,
+        1.9254680293127078e-14,
+        1.9042926585632297e-14,
+        1.991195180279927e-14,
+        1.8973567966811068e-14,
+        1.9424530607798227e-14,
+        3.2814156242268686e-14,
+        4.9520434930829985e-14,
+        7.894035157335802e-14,
+        1.0752765415754296e-13,
+        9.918138483012697e-14,
+        5.756015851259674e-14,
+        4.977005355777274e-14,
+        1.1388438732508346e-13,
+        8.68511701387324e-14,
+        1.243657939352351e-13,
+        3.289427153512832e-13
+      ],
+      "componentwise_backward_by_rhs": [
+        4.055929599704487e-15,
+        6.700841670831958e-15,
+        4.040888748341686e-15,
+        1.411841292788839e-14,
+        2.4638260794837354e-14,
+        1.0625327458545392e-14,
+        1.0668396015663001e-14,
+        9.841888137128032e-15,
+        1.6245602590310014e-14,
+        4.473649233365581e-14,
+        1.6159466727928578e-14,
+        1.3322546029140392e-14,
+        1.22527327352386e-14,
+        1.2719482462674127e-14,
+        5.212490165796335e-15,
+        4.5009922074493344e-15,
+        6.5157278911426456e-15,
+        1.4084073945338519e-14,
+        7.60224194078362e-15,
+        7.675464264834906e-15,
+        6.419697685807773e-15,
+        7.23025793444769e-15,
+        9.540845451862968e-15,
+        8.612992051445692e-15,
+        6.366947633625219e-15,
+        8.332047861884014e-15,
+        6.3062408244911164e-15,
+        4.587375863138005e-15,
+        4.256744166836839e-15,
+        3.2107774259466056e-15,
+        3.8455559846745405e-15,
+        4.167153802870602e-15,
+        3.853046573309035e-15,
+        6.375699779060868e-15,
+        3.189816243560613e-15,
+        3.4517520973394733e-15,
+        3.5999277399997654e-15,
+        3.914670475309227e-15,
+        3.462830587300391e-15,
+        4.982566567949795e-15,
+        4.936619989049437e-15,
+        6.057878118328933e-15,
+        8.411946786520868e-15,
+        4.4604433703698114e-15,
+        2.55518732874082e-15,
+        3.0177136905952815e-15,
+        2.439389330611638e-15,
+        2.977355459549609e-15,
+        3.98113394261502e-15,
+        2.4879190612631945e-15,
+        4.887745448957404e-15,
+        3.957084899877646e-15,
+        4.977184962986885e-15,
+        3.066613611069348e-15,
+        4.034026678855383e-15
+      ],
+      "block_residuals": [
+        {
+          "node": 0,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 1,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 2,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 3,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 4,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 5,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 6,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 7,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 8,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        },
+        {
+          "node": 9,
+          "width": 95,
+          "absolute_residual_maximum": 2.247215678515338e-15,
+          "componentwise_backward_maximum": 5.612246730836238e-16
+        },
+        {
+          "node": 10,
+          "width": 95,
+          "absolute_residual_maximum": 6.484396353201305e-15,
+          "componentwise_backward_maximum": 8.612992051445692e-15
+        },
+        {
+          "node": 11,
+          "width": 95,
+          "absolute_residual_maximum": 7.438494264988549e-15,
+          "componentwise_backward_maximum": 9.540845451862968e-15
+        },
+        {
+          "node": 12,
+          "width": 95,
+          "absolute_residual_maximum": 9.849051777052406e-15,
+          "componentwise_backward_maximum": 1.4084073945338519e-14
+        },
+        {
+          "node": 13,
+          "width": 95,
+          "absolute_residual_maximum": 4.000272335602517e-15,
+          "componentwise_backward_maximum": 1.3322546029140392e-14
+        },
+        {
+          "node": 14,
+          "width": 95,
+          "absolute_residual_maximum": 4.440892098500626e-15,
+          "componentwise_backward_maximum": 1.6159466727928578e-14
+        },
+        {
+          "node": 15,
+          "width": 95,
+          "absolute_residual_maximum": 3.3393426912553537e-15,
+          "componentwise_backward_maximum": 4.473649233365581e-14
+        },
+        {
+          "node": 16,
+          "width": 95,
+          "absolute_residual_maximum": 3.3845674743751553e-15,
+          "componentwise_backward_maximum": 1.6245602590310014e-14
+        },
+        {
+          "node": 17,
+          "width": 95,
+          "absolute_residual_maximum": 2.3037127760972e-15,
+          "componentwise_backward_maximum": 7.742908910335342e-15
+        },
+        {
+          "node": 18,
+          "width": 95,
+          "absolute_residual_maximum": 3.071897120357492e-15,
+          "componentwise_backward_maximum": 1.0668396015663001e-14
+        },
+        {
+          "node": 19,
+          "width": 95,
+          "absolute_residual_maximum": 2.587997361986477e-15,
+          "componentwise_backward_maximum": 2.4638260794837354e-14
+        },
+        {
+          "node": 20,
+          "width": 95,
+          "absolute_residual_maximum": 4.441773012765771e-15,
+          "componentwise_backward_maximum": 1.018146476671564e-14
+        },
+        {
+          "node": 21,
+          "width": 95,
+          "absolute_residual_maximum": 3.288222558822662e-15,
+          "componentwise_backward_maximum": 7.386511127373414e-15
+        },
+        {
+          "node": 22,
+          "width": 95,
+          "absolute_residual_maximum": 3.3797021171261266e-15,
+          "componentwise_backward_maximum": 6.593155933111386e-15
+        },
+        {
+          "node": 23,
+          "width": 95,
+          "absolute_residual_maximum": 2.913332552631487e-15,
+          "componentwise_backward_maximum": 6.7250718192978474e-15
+        },
+        {
+          "node": 24,
+          "width": 95,
+          "absolute_residual_maximum": 5.407065311983927e-15,
+          "componentwise_backward_maximum": 6.700841670831958e-15
+        },
+        {
+          "node": 25,
+          "width": 95,
+          "absolute_residual_maximum": 4.970958540628789e-15,
+          "componentwise_backward_maximum": 1.2774114722919648e-14
+        },
+        {
+          "node": 26,
+          "width": 95,
+          "absolute_residual_maximum": 3.3652686757049133e-15,
+          "componentwise_backward_maximum": 8.260803478928422e-15
+        },
+        {
+          "node": 27,
+          "width": 95,
+          "absolute_residual_maximum": 4.896666974891009e-15,
+          "componentwise_backward_maximum": 1.085497086472202e-14
+        },
+        {
+          "node": 28,
+          "width": 95,
+          "absolute_residual_maximum": 6.893885961221924e-15,
+          "componentwise_backward_maximum": 1.411841292788839e-14
+        },
+        {
+          "node": 29,
+          "width": 95,
+          "absolute_residual_maximum": 5.135418457667684e-15,
+          "componentwise_backward_maximum": 3.5285510245542478e-15
+        },
+        {
+          "node": 30,
+          "width": 95,
+          "absolute_residual_maximum": 1.3293348626736146e-14,
+          "componentwise_backward_maximum": 1.4257180003693042e-15
+        },
+        {
+          "node": 31,
+          "width": 95,
+          "absolute_residual_maximum": 3.716845624682219e-14,
+          "componentwise_backward_maximum": 5.031577095468534e-15
+        },
+        {
+          "node": 32,
+          "width": 95,
+          "absolute_residual_maximum": 7.447127224786965e-15,
+          "componentwise_backward_maximum": 3.8090198762595156e-15
+        },
+        {
+          "node": 33,
+          "width": 95,
+          "absolute_residual_maximum": 7.132207151261394e-15,
+          "componentwise_backward_maximum": 5.7345981641703385e-15
+        },
+        {
+          "node": 34,
+          "width": 95,
+          "absolute_residual_maximum": 5.5605476820264066e-15,
+          "componentwise_backward_maximum": 1.9102440621068953e-15
+        },
+        {
+          "node": 35,
+          "width": 95,
+          "absolute_residual_maximum": 4.012415399934355e-15,
+          "componentwise_backward_maximum": 3.0687096152438257e-15
+        },
+        {
+          "node": 36,
+          "width": 95,
+          "absolute_residual_maximum": 9.11163505756818e-15,
+          "componentwise_backward_maximum": 3.4955347351409597e-15
+        },
+        {
+          "node": 37,
+          "width": 95,
+          "absolute_residual_maximum": 6.501698906973105e-15,
+          "componentwise_backward_maximum": 2.1960664200408662e-15
+        },
+        {
+          "node": 38,
+          "width": 95,
+          "absolute_residual_maximum": 6.287830499329683e-15,
+          "componentwise_backward_maximum": 3.2235962900805096e-15
+        },
+        {
+          "node": 39,
+          "width": 95,
+          "absolute_residual_maximum": 6.682774857580051e-15,
+          "componentwise_backward_maximum": 4.470826312895583e-15
+        },
+        {
+          "node": 40,
+          "width": 95,
+          "absolute_residual_maximum": 1.4909026704174044e-14,
+          "componentwise_backward_maximum": 2.8886429780051382e-15
+        },
+        {
+          "node": 41,
+          "width": 95,
+          "absolute_residual_maximum": 6.526097479260529e-15,
+          "componentwise_backward_maximum": 4.103708282035431e-15
+        },
+        {
+          "node": 42,
+          "width": 95,
+          "absolute_residual_maximum": 1.1891773373309822e-14,
+          "componentwise_backward_maximum": 2.3359990629937795e-15
+        },
+        {
+          "node": 43,
+          "width": 95,
+          "absolute_residual_maximum": 1.0687997253726322e-14,
+          "componentwise_backward_maximum": 2.385465501498415e-15
+        },
+        {
+          "node": 44,
+          "width": 95,
+          "absolute_residual_maximum": 7.65216340813113e-15,
+          "componentwise_backward_maximum": 2.8638944538655242e-15
+        },
+        {
+          "node": 45,
+          "width": 95,
+          "absolute_residual_maximum": 5.849839926699851e-15,
+          "componentwise_backward_maximum": 2.1832203990444894e-15
+        },
+        {
+          "node": 46,
+          "width": 95,
+          "absolute_residual_maximum": 6.766868288583458e-15,
+          "componentwise_backward_maximum": 1.497201144703967e-15
+        },
+        {
+          "node": 47,
+          "width": 95,
+          "absolute_residual_maximum": 4.58569814065779e-14,
+          "componentwise_backward_maximum": 1.0374226613164407e-15
+        },
+        {
+          "node": 48,
+          "width": 95,
+          "absolute_residual_maximum": 4.602394854114067e-14,
+          "componentwise_backward_maximum": 1.1684874890629392e-15
+        },
+        {
+          "node": 49,
+          "width": 95,
+          "absolute_residual_maximum": 1.0988639739892975e-14,
+          "componentwise_backward_maximum": 2.541943927068708e-15
+        },
+        {
+          "node": 50,
+          "width": 95,
+          "absolute_residual_maximum": 1.541377702557467e-14,
+          "componentwise_backward_maximum": 1.1455368526388285e-15
+        },
+        {
+          "node": 51,
+          "width": 95,
+          "absolute_residual_maximum": 1.4533350651407817e-14,
+          "componentwise_backward_maximum": 3.0177136905952815e-15
+        },
+        {
+          "node": 52,
+          "width": 95,
+          "absolute_residual_maximum": 2.261526469565789e-14,
+          "componentwise_backward_maximum": 1.28238812710222e-15
+        },
+        {
+          "node": 53,
+          "width": 95,
+          "absolute_residual_maximum": 1.362831966418912e-14,
+          "componentwise_backward_maximum": 2.8407395611998864e-15
+        },
+        {
+          "node": 54,
+          "width": 95,
+          "absolute_residual_maximum": 3.608902456389562e-14,
+          "componentwise_backward_maximum": 5.212490165796335e-15
+        },
+        {
+          "node": 55,
+          "width": 95,
+          "absolute_residual_maximum": 2.985427931343626e-14,
+          "componentwise_backward_maximum": 1.735164304531728e-15
+        },
+        {
+          "node": 56,
+          "width": 95,
+          "absolute_residual_maximum": 2.3008604773506157e-14,
+          "componentwise_backward_maximum": 4.278153764975481e-15
+        },
+        {
+          "node": 57,
+          "width": 95,
+          "absolute_residual_maximum": 2.5778153483341226e-14,
+          "componentwise_backward_maximum": 3.3768094634506967e-15
+        },
+        {
+          "node": 58,
+          "width": 95,
+          "absolute_residual_maximum": 1.9237182105526912e-14,
+          "componentwise_backward_maximum": 3.656374023946851e-15
+        },
+        {
+          "node": 59,
+          "width": 95,
+          "absolute_residual_maximum": 1.8061668616657092e-14,
+          "componentwise_backward_maximum": 3.1355016160670502e-15
+        },
+        {
+          "node": 60,
+          "width": 95,
+          "absolute_residual_maximum": 2.6421315764586784e-14,
+          "componentwise_backward_maximum": 3.98113394261502e-15
+        },
+        {
+          "node": 61,
+          "width": 95,
+          "absolute_residual_maximum": 2.917096767049085e-14,
+          "componentwise_backward_maximum": 3.5266162875664753e-15
+        },
+        {
+          "node": 62,
+          "width": 95,
+          "absolute_residual_maximum": 2.6432676170475358e-14,
+          "componentwise_backward_maximum": 2.474653995570296e-15
+        },
+        {
+          "node": 63,
+          "width": 95,
+          "absolute_residual_maximum": 2.0135369066531794e-14,
+          "componentwise_backward_maximum": 3.4944773426721023e-15
+        },
+        {
+          "node": 64,
+          "width": 95,
+          "absolute_residual_maximum": 7.784246337794176e-15,
+          "componentwise_backward_maximum": 1.624186814899395e-15
+        },
+        {
+          "node": 65,
+          "width": 95,
+          "absolute_residual_maximum": 5.608848888810636e-15,
+          "componentwise_backward_maximum": 9.420523658648706e-16
+        },
+        {
+          "node": 66,
+          "width": 63,
+          "absolute_residual_maximum": 5.8077457773531016e-15,
+          "componentwise_backward_maximum": 1.3022662801562055e-15
+        },
+        {
+          "node": 67,
+          "width": 63,
+          "absolute_residual_maximum": 1.0025400648538962e-14,
+          "componentwise_backward_maximum": 1.114481328234792e-15
+        },
+        {
+          "node": 68,
+          "width": 63,
+          "absolute_residual_maximum": 1.185989105317517e-14,
+          "componentwise_backward_maximum": 9.866891283288335e-16
+        },
+        {
+          "node": 69,
+          "width": 63,
+          "absolute_residual_maximum": 8.791578576250458e-15,
+          "componentwise_backward_maximum": 1.0172844052737787e-15
+        },
+        {
+          "node": 70,
+          "width": 63,
+          "absolute_residual_maximum": 3.6225362987085674e-15,
+          "componentwise_backward_maximum": 6.065613012865265e-16
+        },
+        {
+          "node": 71,
+          "width": 63,
+          "absolute_residual_maximum": 1.2385925618474403e-15,
+          "componentwise_backward_maximum": 7.298923455631037e-16
+        },
+        {
+          "node": 72,
+          "width": 63,
+          "absolute_residual_maximum": 2.5894651006774794e-14,
+          "componentwise_backward_maximum": 1.4394648972988212e-15
+        },
+        {
+          "node": 73,
+          "width": 63,
+          "absolute_residual_maximum": 2.6450846721259857e-14,
+          "componentwise_backward_maximum": 1.070449646023626e-15
+        },
+        {
+          "node": 74,
+          "width": 63,
+          "absolute_residual_maximum": 5.322131624296844e-15,
+          "componentwise_backward_maximum": 1.0268613124976445e-15
+        },
+        {
+          "node": 75,
+          "width": 95,
+          "absolute_residual_maximum": 9.938664474740122e-15,
+          "componentwise_backward_maximum": 1.12830096188916e-15
+        },
+        {
+          "node": 76,
+          "width": 95,
+          "absolute_residual_maximum": 4.262378210800888e-15,
+          "componentwise_backward_maximum": 9.903128115577575e-16
+        },
+        {
+          "node": 77,
+          "width": 95,
+          "absolute_residual_maximum": 8.137587825807202e-15,
+          "componentwise_backward_maximum": 1.302809736035812e-15
+        },
+        {
+          "node": 78,
+          "width": 95,
+          "absolute_residual_maximum": 5.939151080658345e-15,
+          "componentwise_backward_maximum": 1.2035374597195963e-15
+        },
+        {
+          "node": 79,
+          "width": 95,
+          "absolute_residual_maximum": 6.101740748949702e-15,
+          "componentwise_backward_maximum": 1.323581579889247e-15
+        },
+        {
+          "node": 80,
+          "width": 95,
+          "absolute_residual_maximum": 7.89848058919268e-15,
+          "componentwise_backward_maximum": 1.4909587227921019e-15
+        },
+        {
+          "node": 81,
+          "width": 95,
+          "absolute_residual_maximum": 5.9117343182216175e-15,
+          "componentwise_backward_maximum": 1.3633014093263832e-15
+        },
+        {
+          "node": 82,
+          "width": 95,
+          "absolute_residual_maximum": 2.1262288804613227e-15,
+          "componentwise_backward_maximum": 1.3265387785751222e-15
+        },
+        {
+          "node": 83,
+          "width": 95,
+          "absolute_residual_maximum": 1.2802259252708836e-15,
+          "componentwise_backward_maximum": 1.5261148520802635e-15
+        },
+        {
+          "node": 84,
+          "width": 95,
+          "absolute_residual_maximum": 6.349087922075114e-16,
+          "componentwise_backward_maximum": 8.065389974509938e-16
+        },
+        {
+          "node": 85,
+          "width": 95,
+          "absolute_residual_maximum": 3.3801086929408086e-15,
+          "componentwise_backward_maximum": 1.247873341329023e-15
+        },
+        {
+          "node": 86,
+          "width": 95,
+          "absolute_residual_maximum": 3.590931805380615e-15,
+          "componentwise_backward_maximum": 9.793551233958988e-16
+        },
+        {
+          "node": 87,
+          "width": 95,
+          "absolute_residual_maximum": 2.3643738876477638e-15,
+          "componentwise_backward_maximum": 1.2729240151056814e-15
+        },
+        {
+          "node": 88,
+          "width": 95,
+          "absolute_residual_maximum": 2.4569105430694016e-15,
+          "componentwise_backward_maximum": 1.1272680506189586e-15
+        },
+        {
+          "node": 89,
+          "width": 95,
+          "absolute_residual_maximum": 2.1981494315731487e-14,
+          "componentwise_backward_maximum": 1.2687383198989304e-15
+        },
+        {
+          "node": 90,
+          "width": 95,
+          "absolute_residual_maximum": 5.495806582175508e-14,
+          "componentwise_backward_maximum": 1.0976936664135023e-15
+        },
+        {
+          "node": 91,
+          "width": 95,
+          "absolute_residual_maximum": 4.516764566531162e-14,
+          "componentwise_backward_maximum": 1.4317590924672053e-15
+        },
+        {
+          "node": 92,
+          "width": 95,
+          "absolute_residual_maximum": 3.2960017094102456e-15,
+          "componentwise_backward_maximum": 2.1301250817982276e-15
+        },
+        {
+          "node": 93,
+          "width": 95,
+          "absolute_residual_maximum": 6.436935403100752e-14,
+          "componentwise_backward_maximum": 1.380466469570366e-15
+        },
+        {
+          "node": 94,
+          "width": 95,
+          "absolute_residual_maximum": 5.439930190337394e-14,
+          "componentwise_backward_maximum": 1.10161153052543e-15
+        },
+        {
+          "node": 95,
+          "width": 95,
+          "absolute_residual_maximum": 5.758631418939508e-14,
+          "componentwise_backward_maximum": 1.605690295901339e-15
+        },
+        {
+          "node": 96,
+          "width": 95,
+          "absolute_residual_maximum": 1.4293037239876405e-15,
+          "componentwise_backward_maximum": 1.0149587324557243e-15
+        },
+        {
+          "node": 97,
+          "width": 95,
+          "absolute_residual_maximum": 9.261797058457422e-16,
+          "componentwise_backward_maximum": 1.2837229547513646e-15
+        },
+        {
+          "node": 98,
+          "width": 95,
+          "absolute_residual_maximum": 3.642919299551295e-16,
+          "componentwise_backward_maximum": 1.0333282130157652e-15
+        },
+        {
+          "node": 99,
+          "width": 95,
+          "absolute_residual_maximum": 3.183217578417441e-15,
+          "componentwise_backward_maximum": 1.367868415345356e-15
+        },
+        {
+          "node": 100,
+          "width": 95,
+          "absolute_residual_maximum": 2.0383000842727483e-15,
+          "componentwise_backward_maximum": 1.3012994169772021e-15
+        },
+        {
+          "node": 101,
+          "width": 95,
+          "absolute_residual_maximum": 4.466912950640278e-16,
+          "componentwise_backward_maximum": 1.6450304466348095e-15
+        },
+        {
+          "node": 102,
+          "width": 95,
+          "absolute_residual_maximum": 5.273559366969494e-16,
+          "componentwise_backward_maximum": 1.3388032934613544e-15
+        },
+        {
+          "node": 103,
+          "width": 95,
+          "absolute_residual_maximum": 1.1449174941446927e-15,
+          "componentwise_backward_maximum": 1.2719848425260787e-15
+        },
+        {
+          "node": 104,
+          "width": 95,
+          "absolute_residual_maximum": 6.956241138666996e-16,
+          "componentwise_backward_maximum": 2.1032638308440345e-15
+        },
+        {
+          "node": 105,
+          "width": 95,
+          "absolute_residual_maximum": 5.967448757360216e-16,
+          "componentwise_backward_maximum": 9.32815172166884e-16
+        },
+        {
+          "node": 106,
+          "width": 95,
+          "absolute_residual_maximum": 1.975719934876885e-14,
+          "componentwise_backward_maximum": 1.5405077531032674e-15
+        },
+        {
+          "node": 107,
+          "width": 95,
+          "absolute_residual_maximum": 3.9064210850467407e-14,
+          "componentwise_backward_maximum": 1.2774637176198033e-15
+        },
+        {
+          "node": 108,
+          "width": 95,
+          "absolute_residual_maximum": 3.990622936267396e-15,
+          "componentwise_backward_maximum": 3.182216140082329e-15
+        },
+        {
+          "node": 109,
+          "width": 95,
+          "absolute_residual_maximum": 7.680488189887313e-16,
+          "componentwise_backward_maximum": 1.2898855177191522e-15
+        },
+        {
+          "node": 110,
+          "width": 95,
+          "absolute_residual_maximum": 2.7313221129254828e-15,
+          "componentwise_backward_maximum": 3.7853317395990725e-15
+        },
+        {
+          "node": 111,
+          "width": 95,
+          "absolute_residual_maximum": 5.684322912542783e-15,
+          "componentwise_backward_maximum": 1.3074848095006903e-15
+        },
+        {
+          "node": 112,
+          "width": 95,
+          "absolute_residual_maximum": 3.996247235037165e-15,
+          "componentwise_backward_maximum": 2.406407344266456e-15
+        },
+        {
+          "node": 113,
+          "width": 95,
+          "absolute_residual_maximum": 7.017823822064173e-15,
+          "componentwise_backward_maximum": 2.8362594194111238e-15
+        },
+        {
+          "node": 114,
+          "width": 95,
+          "absolute_residual_maximum": 5.247365042482244e-14,
+          "componentwise_backward_maximum": 2.914644077868573e-15
+        },
+        {
+          "node": 115,
+          "width": 95,
+          "absolute_residual_maximum": 5.1107826738033824e-14,
+          "componentwise_backward_maximum": 2.2986817533481866e-15
+        },
+        {
+          "node": 116,
+          "width": 95,
+          "absolute_residual_maximum": 2.1978946440626146e-15,
+          "componentwise_backward_maximum": 1.6280266467669149e-15
+        },
+        {
+          "node": 117,
+          "width": 95,
+          "absolute_residual_maximum": 1.4676777046300493e-15,
+          "componentwise_backward_maximum": 2.39843948585269e-15
+        },
+        {
+          "node": 118,
+          "width": 95,
+          "absolute_residual_maximum": 9.705845610726016e-16,
+          "componentwise_backward_maximum": 3.5530172391697815e-15
+        },
+        {
+          "node": 119,
+          "width": 95,
+          "absolute_residual_maximum": 2.5720968595006194e-15,
+          "componentwise_backward_maximum": 9.910803811033538e-16
+        },
+        {
+          "node": 120,
+          "width": 95,
+          "absolute_residual_maximum": 6.966351323925424e-15,
+          "componentwise_backward_maximum": 1.3517300751665007e-15
+        },
+        {
+          "node": 121,
+          "width": 95,
+          "absolute_residual_maximum": 6.310727917476335e-15,
+          "componentwise_backward_maximum": 6.728261586726491e-15
+        },
+        {
+          "node": 122,
+          "width": 95,
+          "absolute_residual_maximum": 1.7277469738100418e-14,
+          "componentwise_backward_maximum": 1.316609471109334e-15
+        },
+        {
+          "node": 123,
+          "width": 95,
+          "absolute_residual_maximum": 1.7798926937352688e-14,
+          "componentwise_backward_maximum": 4.465645098081085e-15
+        },
+        {
+          "node": 124,
+          "width": 95,
+          "absolute_residual_maximum": 2.7720881146109377e-15,
+          "componentwise_backward_maximum": 8.967698063675847e-16
+        },
+        {
+          "node": 125,
+          "width": 95,
+          "absolute_residual_maximum": 3.634137261954162e-15,
+          "componentwise_backward_maximum": 1.5093482798114351e-15
+        },
+        {
+          "node": 126,
+          "width": 63,
+          "absolute_residual_maximum": 1.5211627530514749e-15,
+          "componentwise_backward_maximum": 1.2459459992200714e-15
+        },
+        {
+          "node": 127,
+          "width": 63,
+          "absolute_residual_maximum": 1.1102230246251565e-15,
+          "componentwise_backward_maximum": 4.708340891992842e-16
+        },
+        {
+          "node": 128,
+          "width": 63,
+          "absolute_residual_maximum": 2.5777990853015353e-15,
+          "componentwise_backward_maximum": 3.712296036900672e-16
+        },
+        {
+          "node": 129,
+          "width": 63,
+          "absolute_residual_maximum": 3.4139358007223564e-15,
+          "componentwise_backward_maximum": 5.410188964208002e-16
+        },
+        {
+          "node": 130,
+          "width": 0,
+          "absolute_residual_maximum": 0.0,
+          "componentwise_backward_maximum": 0.0
+        }
+      ]
+    },
+    "peak_rss_kib": 132932,
+    "exact_central_field_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exact_coupled_trace_gauge_pairs": [
+      [
+        11970,
+        12033
+      ],
+      [
+        11971,
+        12034
+      ],
+      [
+        11972,
+        12035
+      ],
+      [
+        11973,
+        12036
+      ],
+      [
+        11974,
+        12037
+      ],
+      [
+        11975,
+        12038
+      ],
+      [
+        11976,
+        12039
+      ],
+      [
+        11977,
+        12040
+      ],
+      [
+        11978,
+        12041
+      ],
+      [
+        11979,
+        12042
+      ],
+      [
+        11980,
+        12043
+      ],
+      [
+        11981,
+        12044
+      ],
+      [
+        11982,
+        12045
+      ],
+      [
+        11983,
+        12046
+      ],
+      [
+        11984,
+        12047
+      ],
+      [
+        11985,
+        12048
+      ],
+      [
+        11986,
+        12049
+      ],
+      [
+        11987,
+        12050
+      ],
+      [
+        11988,
+        12051
+      ],
+      [
+        11989,
+        12052
+      ],
+      [
+        11990,
+        12053
+      ],
+      [
+        11991,
+        12054
+      ],
+      [
+        11992,
+        12055
+      ],
+      [
+        11993,
+        12056
+      ],
+      [
+        11994,
+        12057
+      ],
+      [
+        11995,
+        12058
+      ],
+      [
+        11996,
+        12059
+      ],
+      [
+        11997,
+        12060
+      ],
+      [
+        11998,
+        12061
+      ],
+      [
+        11999,
+        12062
+      ],
+      [
+        12000,
+        12063
+      ],
+      [
+        12001,
+        12064
+      ],
+      [
+        12065,
+        12128
+      ],
+      [
+        12066,
+        12129
+      ],
+      [
+        12067,
+        12130
+      ],
+      [
+        12068,
+        12131
+      ],
+      [
+        12069,
+        12132
+      ],
+      [
+        12070,
+        12133
+      ],
+      [
+        12071,
+        12134
+      ],
+      [
+        12072,
+        12135
+      ],
+      [
+        12073,
+        12136
+      ],
+      [
+        12074,
+        12137
+      ],
+      [
+        12075,
+        12138
+      ],
+      [
+        12076,
+        12139
+      ],
+      [
+        12077,
+        12140
+      ],
+      [
+        12078,
+        12141
+      ],
+      [
+        12079,
+        12142
+      ],
+      [
+        12080,
+        12143
+      ],
+      [
+        12081,
+        12144
+      ],
+      [
+        12082,
+        12145
+      ],
+      [
+        12083,
+        12146
+      ],
+      [
+        12084,
+        12147
+      ],
+      [
+        12085,
+        12148
+      ],
+      [
+        12086,
+        12149
+      ],
+      [
+        12087,
+        12150
+      ],
+      [
+        12088,
+        12151
+      ],
+      [
+        12089,
+        12152
+      ],
+      [
+        12090,
+        12153
+      ],
+      [
+        12091,
+        12154
+      ],
+      [
+        12092,
+        12155
+      ],
+      [
+        12093,
+        12156
+      ],
+      [
+        12094,
+        12157
+      ],
+      [
+        12095,
+        12158
+      ],
+      [
+        12096,
+        12159
+      ],
+      [
+        12160,
+        12223
+      ],
+      [
+        12161,
+        12224
+      ],
+      [
+        12162,
+        12225
+      ],
+      [
+        12163,
+        12226
+      ],
+      [
+        12164,
+        12227
+      ],
+      [
+        12165,
+        12228
+      ],
+      [
+        12166,
+        12229
+      ],
+      [
+        12167,
+        12230
+      ],
+      [
+        12168,
+        12231
+      ],
+      [
+        12169,
+        12232
+      ],
+      [
+        12170,
+        12233
+      ],
+      [
+        12171,
+        12234
+      ],
+      [
+        12172,
+        12235
+      ],
+      [
+        12173,
+        12236
+      ],
+      [
+        12174,
+        12237
+      ],
+      [
+        12175,
+        12238
+      ],
+      [
+        12176,
+        12239
+      ],
+      [
+        12177,
+        12240
+      ],
+      [
+        12178,
+        12241
+      ],
+      [
+        12179,
+        12242
+      ],
+      [
+        12180,
+        12243
+      ],
+      [
+        12181,
+        12244
+      ],
+      [
+        12182,
+        12245
+      ],
+      [
+        12183,
+        12246
+      ],
+      [
+        12184,
+        12247
+      ],
+      [
+        12185,
+        12248
+      ],
+      [
+        12186,
+        12249
+      ],
+      [
+        12187,
+        12250
+      ],
+      [
+        12188,
+        12251
+      ],
+      [
+        12189,
+        12252
+      ],
+      [
+        12190,
+        12253
+      ],
+      [
+        12191,
+        12254
+      ],
+      [
+        12255,
+        12318
+      ],
+      [
+        12256,
+        12319
+      ],
+      [
+        12257,
+        12320
+      ],
+      [
+        12258,
+        12321
+      ],
+      [
+        12259,
+        12322
+      ],
+      [
+        12260,
+        12323
+      ],
+      [
+        12261,
+        12324
+      ],
+      [
+        12262,
+        12325
+      ],
+      [
+        12263,
+        12326
+      ],
+      [
+        12264,
+        12327
+      ],
+      [
+        12265,
+        12328
+      ],
+      [
+        12266,
+        12329
+      ],
+      [
+        12267,
+        12330
+      ],
+      [
+        12268,
+        12331
+      ],
+      [
+        12269,
+        12332
+      ],
+      [
+        12270,
+        12333
+      ],
+      [
+        12271,
+        12334
+      ],
+      [
+        12272,
+        12335
+      ],
+      [
+        12273,
+        12336
+      ],
+      [
+        12274,
+        12337
+      ],
+      [
+        12275,
+        12338
+      ],
+      [
+        12276,
+        12339
+      ],
+      [
+        12277,
+        12340
+      ],
+      [
+        12278,
+        12341
+      ],
+      [
+        12279,
+        12342
+      ],
+      [
+        12280,
+        12343
+      ],
+      [
+        12281,
+        12344
+      ],
+      [
+        12282,
+        12345
+      ],
+      [
+        12283,
+        12346
+      ],
+      [
+        12284,
+        12347
+      ],
+      [
+        12285,
+        12348
+      ],
+      [
+        12286,
+        12349
+      ]
+    ],
+    "additional_exact_inactive_field_indices": [
+      6333,
+      6334,
+      6335,
+      6336,
+      6337,
+      6338,
+      6339,
+      6340,
+      6341,
+      6342,
+      6343,
+      6344,
+      6345,
+      6346,
+      6347,
+      6348,
+      6349,
+      6350,
+      6351,
+      6352,
+      6353,
+      6354,
+      6355,
+      6356,
+      6357,
+      6358,
+      6359,
+      6360,
+      6361,
+      6362,
+      6363,
+      6364,
+      6428,
+      6429,
+      6430,
+      6431,
+      6432,
+      6433,
+      6434,
+      6435,
+      6436,
+      6437,
+      6438,
+      6439,
+      6440,
+      6441,
+      6442,
+      6443,
+      6444,
+      6445,
+      6446,
+      6447,
+      6448,
+      6449,
+      6450,
+      6451,
+      6452,
+      6453,
+      6454,
+      6455,
+      6456,
+      6457,
+      6458,
+      6459,
+      6523,
+      6524,
+      6525,
+      6526,
+      6527,
+      6528,
+      6529,
+      6530,
+      6531,
+      6532,
+      6533,
+      6534,
+      6535,
+      6536,
+      6537,
+      6538,
+      6539,
+      6540,
+      6541,
+      6542,
+      6543,
+      6544,
+      6545,
+      6546,
+      6547,
+      6548,
+      6549,
+      6550,
+      6551,
+      6552,
+      6553,
+      6554,
+      6618,
+      6619,
+      6620,
+      6621,
+      6622,
+      6623,
+      6624,
+      6625,
+      6626,
+      6627,
+      6628,
+      6629,
+      6630,
+      6631,
+      6632,
+      6633,
+      6634,
+      6635,
+      6636,
+      6637,
+      6638,
+      6639,
+      6640,
+      6641,
+      6642,
+      6643,
+      6644,
+      6645,
+      6646,
+      6647,
+      6648,
+      6649,
+      6713,
+      6714,
+      6715,
+      6716,
+      6717,
+      6718,
+      6719,
+      6720,
+      6721,
+      6722,
+      6723,
+      6724,
+      6725,
+      6726,
+      6727,
+      6728,
+      6729,
+      6730,
+      6731,
+      6732,
+      6733,
+      6734,
+      6735,
+      6736,
+      6737,
+      6738,
+      6739,
+      6740,
+      6741,
+      6742,
+      6743,
+      6744,
+      6808,
+      6809,
+      6810,
+      6811,
+      6812,
+      6813,
+      6814,
+      6815,
+      6816,
+      6817,
+      6818,
+      6819,
+      6820,
+      6821,
+      6822,
+      6823,
+      6824,
+      6825,
+      6826,
+      6827,
+      6828,
+      6829,
+      6830,
+      6831,
+      6832,
+      6833,
+      6834,
+      6835,
+      6836,
+      6837,
+      6838,
+      6839,
+      6903,
+      6904,
+      6905,
+      6906,
+      6907,
+      6908,
+      6909,
+      6910,
+      6911,
+      6912,
+      6913,
+      6914,
+      6915,
+      6916,
+      6917,
+      6918,
+      6919,
+      6920,
+      6921,
+      6922,
+      6923,
+      6924,
+      6925,
+      6926,
+      6927,
+      6928,
+      6929,
+      6930,
+      6931,
+      6932,
+      6933,
+      6934,
+      6998,
+      6999,
+      7000,
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006,
+      7007,
+      7008,
+      7009,
+      7010,
+      7011,
+      7012,
+      7013,
+      7014,
+      7015,
+      7016,
+      7017,
+      7018,
+      7019,
+      7020,
+      7021,
+      7022,
+      7023,
+      7024,
+      7025,
+      7026,
+      7027,
+      7028,
+      7029,
+      7093,
+      7094,
+      7095,
+      7096,
+      7097,
+      7098,
+      7099,
+      7100,
+      7101,
+      7102,
+      7103,
+      7104,
+      7105,
+      7106,
+      7107,
+      7108,
+      7109,
+      7110,
+      7111,
+      7112,
+      7113,
+      7114,
+      7115,
+      7116,
+      7117,
+      7118,
+      7119,
+      7120,
+      7121,
+      7122,
+      7123,
+      7124,
+      12033,
+      12034,
+      12035,
+      12036,
+      12037,
+      12038,
+      12039,
+      12040,
+      12041,
+      12042,
+      12043,
+      12044,
+      12045,
+      12046,
+      12047,
+      12048,
+      12049,
+      12050,
+      12051,
+      12052,
+      12053,
+      12054,
+      12055,
+      12056,
+      12057,
+      12058,
+      12059,
+      12060,
+      12061,
+      12062,
+      12063,
+      12064,
+      12128,
+      12129,
+      12130,
+      12131,
+      12132,
+      12133,
+      12134,
+      12135,
+      12136,
+      12137,
+      12138,
+      12139,
+      12140,
+      12141,
+      12142,
+      12143,
+      12144,
+      12145,
+      12146,
+      12147,
+      12148,
+      12149,
+      12150,
+      12151,
+      12152,
+      12153,
+      12154,
+      12155,
+      12156,
+      12157,
+      12158,
+      12159,
+      12223,
+      12224,
+      12225,
+      12226,
+      12227,
+      12228,
+      12229,
+      12230,
+      12231,
+      12232,
+      12233,
+      12234,
+      12235,
+      12236,
+      12237,
+      12238,
+      12239,
+      12240,
+      12241,
+      12242,
+      12243,
+      12244,
+      12245,
+      12246,
+      12247,
+      12248,
+      12249,
+      12250,
+      12251,
+      12252,
+      12253,
+      12254,
+      12318,
+      12319,
+      12320,
+      12321,
+      12322,
+      12323,
+      12324,
+      12325,
+      12326,
+      12327,
+      12328,
+      12329,
+      12330,
+      12331,
+      12332,
+      12333,
+      12334,
+      12335,
+      12336,
+      12337,
+      12338,
+      12339,
+      12340,
+      12341,
+      12342,
+      12343,
+      12344,
+      12345,
+      12346,
+      12347,
+      12348,
+      12349
+    ],
+    "linear_residual_norm": 3.38003806319161,
+    "linear_residual_squared_unclamped": 11.424657308624091,
+    "normal_quadratic_cancellation_scale": 3678131.1757573523,
+    "actual_merit_slope": -1.768814539698081,
+    "linear_residual_norm_source": "Original unscaled normal blocks; no sparse matrix or new F/J",
+    "before_projection_prediction": {
+      "linear_residual_norm": 3.3800380632010785,
+      "linear_residual_squared_unclamped": 11.424657308688097,
+      "normal_quadratic_cancellation_scale": 3678131.1757573527,
+      "actual_merit_slope": -1.7688145396980843,
+      "linear_residual_norm_source": "Original unscaled normal blocks; no sparse matrix or new F/J"
+    },
+    "global_tail_box_for_comparison_only": {
+      "current": {
+        "count": 16,
+        "tolerance": 1e-10,
+        "minimum": -1.4535648477121876,
+        "maximum": 1.3199051687420176,
+        "lower_active_count": 0,
+        "upper_active_count": 0,
+        "below_lower_count": 6,
+        "above_upper_count": 2
+      },
+      "proposed_before_projection": {
+        "count": 16,
+        "tolerance": 1e-10,
+        "minimum": -2.9802168933187594,
+        "maximum": 2.5902777020259933,
+        "lower_active_count": 0,
+        "upper_active_count": 1,
+        "below_lower_count": 6,
+        "above_upper_count": 2
+      },
+      "proposed_after_projection": {
+        "count": 16,
+        "tolerance": 1e-10,
+        "minimum": -2.9802168933187585,
+        "maximum": 2.590277702025993,
+        "lower_active_count": 0,
+        "upper_active_count": 1,
+        "below_lower_count": 6,
+        "above_upper_count": 2
+      }
+    },
+    "same_Schur_unconstrained_linear_diagnostic": {
+      "linear_residual_norm": 2.2920001477124186,
+      "linear_residual_squared_unclamped": 5.253264677113748,
+      "normal_quadratic_cancellation_scale": 15468859.646965967,
+      "actual_merit_slope": -7.317441415363946,
+      "linear_residual_norm_source": "Original unscaled normal blocks; no sparse matrix or new F/J",
+      "parameter_constraints_omitted": true,
+      "omitted_constraints": [
+        "central bounds",
+        "tail coefficient box",
+        "profile box and radius rows",
+        "linear gap equality"
+      ],
+      "exact_structural_field_eliminations_preserved": true,
+      "same_damping": 1e-07,
+      "same_schur_shift": 0.0,
+      "small_schur_equation_maximum": 1.1093556628871681e-15,
+      "proposed_tail": {
+        "count": 16,
+        "tolerance": 1e-10,
+        "minimum": -5.64593091264979,
+        "maximum": 7.5693273857092365,
+        "lower_active_count": 0,
+        "upper_active_count": 0,
+        "below_lower_count": 6,
+        "above_upper_count": 6
+      },
+      "actual_F_or_J_recomputed": false,
+      "actual_line_search_executed": false,
+      "finite_space_lower_bound_claimed": false,
+      "usable_physical_direction_claimed": false
+    },
+    "actual_baseline_curvature_merit": {
+      "node": {
+        "cap": 7.2,
+        "weight": 1.0,
+        "active_rows": 1224,
+        "repeated_eigenvalue_rows": 0,
+        "residual_l2": 0.8655842678438956,
+        "sampled_formal_curvature_maximum": 7.387397005331857,
+        "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+        "complete_chain_derivative": true,
+        "actual_geometry_certified": false
+      },
+      "interior": {
+        "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+        "selected_cells": [
+          63,
+          64,
+          65,
+          74,
+          75,
+          76,
+          123,
+          124
+        ],
+        "points": [
+          0.5961592272463956,
+          0.6075224474037754,
+          0.6145099491777213,
+          0.6222369388847396,
+          0.626396166131136,
+          0.6300323965814975,
+          0.8295110485209171,
+          0.8331472789712785,
+          0.8373065062176749,
+          0.8450334959246932,
+          0.8520209976986391,
+          0.8633842178560189,
+          1.4701599841706956,
+          1.4720363725455619,
+          1.4734099841706956,
+          1.4752863725455618
+        ],
+        "sample_cell_indices": [
+          63,
+          63,
+          64,
+          64,
+          65,
+          65,
+          74,
+          74,
+          75,
+          75,
+          76,
+          76,
+          123,
+          123,
+          124,
+          124
+        ],
+        "fractions": [
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129,
+          0.21132486540518713,
+          0.7886751345948129
+        ],
+        "quadrature_mean_weights": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+        "physical_field_unchanged": true,
+        "physical_g_unchanged_by_extra_rows": true,
+        "unknown_mesh_unchanged": true,
+        "finite_Gauss_equations_changed": true,
+        "complete_actual_Gauss": true,
+        "full_parameter_chain_rule": true,
+        "full_Gauss_maximum": 1.0283273501396326,
+        "high_Gauss_maximum": 0.03479287615583282,
+        "retained_residual_l2": 0.7488024371326708,
+        "high_residual_l2": 0.014047695166116507,
+        "curvature_residual_l2": 0.43182098124262647,
+        "curvature": {
+          "cap": 7.2,
+          "weight": 1.0,
+          "active_rows": 132,
+          "repeated_eigenvalue_rows": 0,
+          "residual_l2": 0.6106870881905802,
+          "sampled_formal_curvature_maximum": 7.345975262851685,
+          "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+          "complete_chain_derivative": true,
+          "actual_geometry_certified": false
+        },
+        "maximum_location": {
+          "cell": 64,
+          "s": 0.6145099491777213,
+          "xi": 4.368777283898306,
+          "material_u": 3.722051422960331,
+          "G": -1.0283273501396326,
+          "n_m_l": [
+            1.027495050654015,
+            -0.31143492531142625,
+            -0.7235484798283918
+          ],
+          "K": 0.18789315550399005
+        },
+        "continuous_certificate": false
+      },
+      "complete_objective_norm": 3.6542929578185577,
+      "source": "Previously saved complete actual same-state value packet; no new F/J",
+      "complete_weighted_curvature_l2": 0.9673187088959861,
+      "complete_weighted_curvature_square_fraction": 0.07007005414760138,
+      "no_constraint_importance_or_infeasibility_inferred": true
+    },
+    "actual_tail_projection": {
+      "new_domain": "R170 eight dyadic Bernstein boxes",
+      "global_control_clipping_applied": false,
+      "exact_tail_certificate": {
+        "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+        "passed": true,
+        "exact_arithmetic": true,
+        "controls_interpreted_as_exact_values": true,
+        "degree": 15,
+        "parts": 8,
+        "rows": 128,
+        "local_lower_exact": "468463358835791452076603089/19807040628566084398385987584",
+        "local_upper_exact": "5534023222112864799/4611686018427387904",
+        "minimum_lower_slack_exact": "468463358835791452076603089/19807040628566084398385987584",
+        "minimum_upper_slack_exact": "3429/23058430092136939520",
+        "global_lower_exact": "-6710851845116809/2251799813685248",
+        "global_upper_exact": "5832786846815183/2251799813685248",
+        "global_control_box_passed": false,
+        "global_negative_indices": [
+          1,
+          3,
+          4,
+          6,
+          11,
+          13
+        ],
+        "violated_rows": []
+      },
+      "explicit_tail_repair": {
+        "schema": "fd2d-explicit-tail-contraction-to-three-fifths-v1",
+        "input_certificate": {
+          "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+          "passed": false,
+          "exact_arithmetic": true,
+          "controls_interpreted_as_exact_values": true,
+          "degree": 15,
+          "parts": 8,
+          "rows": 128,
+          "local_lower_exact": "29278959927236783753755605/1237940039285380274899124224",
+          "local_upper_exact": "2767011611056432783/2305843009213693952",
+          "minimum_lower_slack_exact": "29278959927236783753755605/1237940039285380274899124224",
+          "minimum_upper_slack_exact": "-203/11529215046068469760",
+          "global_lower_exact": "-6710851845116811/2251799813685248",
+          "global_upper_exact": "364549177925949/140737488355328",
+          "global_control_box_passed": false,
+          "global_negative_indices": [
+            1,
+            3,
+            4,
+            6,
+            11,
+            13
+          ],
+          "violated_rows": [
+            {
+              "row": 124,
+              "interval": 7,
+              "local_index": 12,
+              "value_exact": "2767011611056432783/2305843009213693952"
+            }
+          ]
+        },
+        "output_certificate": {
+          "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+          "passed": true,
+          "exact_arithmetic": true,
+          "controls_interpreted_as_exact_values": true,
+          "degree": 15,
+          "parts": 8,
+          "rows": 128,
+          "local_lower_exact": "468463358835791452076603089/19807040628566084398385987584",
+          "local_upper_exact": "5534023222112864799/4611686018427387904",
+          "minimum_lower_slack_exact": "468463358835791452076603089/19807040628566084398385987584",
+          "minimum_upper_slack_exact": "3429/23058430092136939520",
+          "global_lower_exact": "-6710851845116809/2251799813685248",
+          "global_upper_exact": "5832786846815183/2251799813685248",
+          "global_control_box_passed": false,
+          "global_negative_indices": [
+            1,
+            3,
+            4,
+            6,
+            11,
+            13
+          ],
+          "violated_rows": []
+        },
+        "exact_anchor": "3/5",
+        "exact_minimum_theta": "203/6917529027641082059",
+        "exact_used_theta": "1739/6917529027641082059",
+        "extra_fraction_of_remaining_segment": "1/4503599627370496",
+        "attempts": 2,
+        "input_modified_in_place": false,
+        "saved_binary64_controls_claimed_exactly_on_segment": false,
+        "maximum_actual_parameter_change_exact": "1/1125899906842624",
+        "maximum_rounding_error_from_exact_segment_exact": "504198449191524291/7080404807092946973957659620802560",
+        "actual_parameter_changes_exact": [
+          "-1/4503599627370496",
+          "3/9007199254740992",
+          "0",
+          "1/4503599627370496",
+          "349/2305843009213693952",
+          "1/9007199254740992",
+          "13/72057594037927936",
+          "85/576460752303423488",
+          "1/9007199254740992",
+          "9/72057594037927936",
+          "1/9007199254740992",
+          "1/2251799813685248",
+          "-1/2251799813685248",
+          "1/1125899906842624",
+          "-1/2251799813685248",
+          "-1/9007199254740992"
+        ],
+        "input_controls_hex": [
+          "0x1.3333333333333p+0",
+          "-0x1.ca2912300b312p-1",
+          "0x1.5c98463428d50p-1",
+          "-0x1.1b796ceac235dp-2",
+          "-0x1.c66ddd8a10180p-10",
+          "0x1.8c52d03dd26a6p-3",
+          "-0x1.e5eb94de39bbap-4",
+          "0x1.6024b076f983cp-7",
+          "0x1.76fd84a5f676ep-3",
+          "0x1.ec53bea18138fp-4",
+          "0x1.90212ed7e8a89p-3",
+          "-0x1.03084cd631628p+0",
+          "0x1.4b8e3840e13d0p+1",
+          "-0x1.7d77bf45e538bp+1",
+          "0x1.2ed8420a496f2p+1",
+          "0x1.e78378e82fa2ep-1"
+        ],
+        "output_controls_hex": [
+          "0x1.3333333333332p+0",
+          "-0x1.ca2912300b30fp-1",
+          "0x1.5c98463428d50p-1",
+          "-0x1.1b796ceac2359p-2",
+          "-0x1.c66ddd8a0fec6p-10",
+          "0x1.8c52d03dd26aap-3",
+          "-0x1.e5eb94de39badp-4",
+          "0x1.6024b076f9891p-7",
+          "0x1.76fd84a5f6772p-3",
+          "0x1.ec53bea181398p-4",
+          "0x1.90212ed7e8a8dp-3",
+          "-0x1.03084cd631626p+0",
+          "0x1.4b8e3840e13cfp+1",
+          "-0x1.7d77bf45e5389p+1",
+          "0x1.2ed8420a496f1p+1",
+          "0x1.e78378e82fa2dp-1"
+        ],
+        "field_changed": true,
+        "exact_recheck_passed": true
+      },
+      "profile_clip_maximum_change": 0.0,
+      "maximum_full_vector_change": 8.881784197001252e-16
+    },
+    "exact_proposed_dyadic_certificate": {
+      "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+      "passed": true,
+      "exact_arithmetic": true,
+      "controls_interpreted_as_exact_values": true,
+      "degree": 15,
+      "parts": 8,
+      "rows": 128,
+      "local_lower_exact": "3659869990904620749839291/154742504910672534362390528",
+      "local_upper_exact": "5534023222112864799/4611686018427387904",
+      "minimum_lower_slack_exact": "3659869990904620749839291/154742504910672534362390528",
+      "minimum_upper_slack_exact": "3429/23058430092136939520",
+      "global_lower_exact": "-6710851845116809/2251799813685248",
+      "global_upper_exact": "5832786846815183/2251799813685248",
+      "global_control_box_passed": false,
+      "global_negative_indices": [
+        1,
+        3,
+        4,
+        6,
+        11,
+        13
+      ],
+      "violated_rows": []
+    }
+  },
+  "actual_merit_slope": -1.768814539698081,
+  "actual_F_or_J_recomputed": false
+}

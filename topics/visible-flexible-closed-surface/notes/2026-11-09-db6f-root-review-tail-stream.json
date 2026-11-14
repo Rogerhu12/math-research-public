@@ -1,0 +1,35 @@
+{
+  "status": "independent-full-storage-adapter-equivalence-PASS",
+  "reviewer": "Astra-visible-flex-db6f0b0e/root",
+  "script_sha256": "8bac721d78637dfda401f82d3b8c2794728e2d64fdadcec174b8a3b0800bb895",
+  "adapter_sha256": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+  "frozen_backend_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "reports": [
+    {
+      "manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+      "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+      "format": "finite-C2-integrated-explicit-tail-with-sampled-audit",
+      "spans": 4637,
+      "coefficient_slots_per_endpoint": 5077515,
+      "all_F_G_Gp_endpoints_bitwise_identical": true,
+      "endpoint_value_and_collar_bitwise_identical": true,
+      "exact_radial_nodes_lengths_cuff_identical": true,
+      "same_inherited_expand_and_radius_functions": true,
+      "seconds": 3.166245222091675
+    },
+    {
+      "manifest": "notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+      "manifest_sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+      "format": "finite-C2-increment-integrated-explicit-tail-with-sampled-audit",
+      "spans": 18457,
+      "coefficient_slots_per_endpoint": 39036555,
+      "all_F_G_Gp_endpoints_bitwise_identical": true,
+      "endpoint_value_and_collar_bitwise_identical": true,
+      "exact_radial_nodes_lengths_cuff_identical": true,
+      "same_inherited_expand_and_radius_functions": true,
+      "seconds": 17.355605363845825
+    }
+  ],
+  "peak_process_rss_bytes": 1330118656,
+  "scope": "Independent full bitwise polynomial comparison for both finite-tail formats.\n\nThis verifies storage/operation equivalence only; it does not certify new\nmetric bounds or replace the independent mathematical adapter review.\n"
+}

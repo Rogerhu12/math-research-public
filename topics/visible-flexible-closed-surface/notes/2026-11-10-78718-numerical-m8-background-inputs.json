@@ -1,0 +1,93 @@
+{
+  "status": "ORIGINAL_M8_BACKGROUND_INPUTS_AVAILABLE_AND_FIRST_DN_PARAMETERS_COMPATIBLE",
+  "observer": "/root/numerical_recovery",
+  "scope": "Hash and original parameter/source preflight only; no new finite map, grid transfer, geometric certificate, root, RK, BVP or DN solve.",
+  "manifest": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "bytes": 54855,
+    "sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da"
+  },
+  "raw_parts": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw007.f64.gz",
+      "bytes": 1298365,
+      "sha256": "36e4fbd78c3deae7d40d180fa7156c743ed45fad057ac72aa3cee30796644acf",
+      "rows": 581,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw006.f64.gz",
+      "bytes": 1296595,
+      "sha256": "68efc671f10134f1904dc854020ada32ae6d65bf7cf769dc9cd980e1cf90b23a",
+      "rows": 581,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw005.f64.gz",
+      "bytes": 1301678,
+      "sha256": "9bfbca2d18c1242c10f561872d79729b1b547311aa5965ee6f11ccdb30118b78",
+      "rows": 581,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw004.f64.gz",
+      "bytes": 1301612,
+      "sha256": "a63a06b21a95f05863f9d7e8666dd5becee6931a5c471b0666c572771d4deeb6",
+      "rows": 580,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw003.f64.gz",
+      "bytes": 1311397,
+      "sha256": "ff3b27b9e509c27eb27d47572aa19aa1c63404b92633ee5e0d40455994ff4bf0",
+      "rows": 580,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw002.f64.gz",
+      "bytes": 1319856,
+      "sha256": "8a4a6a03248d4a23aefce5894b41850a91cd289c5d6ce8a7f7648f65a140f57c",
+      "rows": 580,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw001.f64.gz",
+      "bytes": 1330336,
+      "sha256": "ab0a51c6164bdea5bedca0c61e467760739ea6eee46f8421a3d9f6d9b1e99cc1",
+      "rows": 581,
+      "columns": 294
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw000.f64.gz",
+      "bytes": 1334422,
+      "sha256": "365e5a99753414b8ef7609d70e8db62194037492e85448451963e714aa9ffffc",
+      "rows": 581,
+      "columns": 294
+    }
+  ],
+  "preflight_runs": [
+    {
+      "kind": "tight",
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-first-dn-tight-background-preflight.json",
+      "bytes": 5403,
+      "sha256": "198be34d48c7c99106ca6609bce19d616a815f7a67838094c2ca87e2fe5e13cf",
+      "actual_tool_chunk": "eb7b41",
+      "actual_exit_code": 0,
+      "status": "read-only-parameter-and-background-source-preflight"
+    },
+    {
+      "kind": "lowmetric",
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-first-dn-lowmetric-background-preflight.json",
+      "bytes": 5411,
+      "sha256": "74cc0ddea6120a7e67989602ddec3a079e3fb841afb3d25174e2be5203685275",
+      "actual_tool_chunk": "863c2c",
+      "actual_exit_code": 0,
+      "status": "read-only-parameter-and-background-source-preflight"
+    }
+  ],
+  "raw_stored_bytes": 10494261,
+  "all_raw_hashes_match": true,
+  "all_files_below_5000000": true,
+  "actual_new_solver_calls": 0,
+  "new_background_transfer_performed": false
+}

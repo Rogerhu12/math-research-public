@@ -1,0 +1,147 @@
+{
+  "schema": "R198-actual-packed-normal-check-v1",
+  "runtime": "functions.exec V8",
+  "OSProcessCreated": false,
+  "OSExitCode": null,
+  "dimension": 193,
+  "rowCount": 16405,
+  "halfBandwidthBlocks": 4,
+  "newPackedNormalCallsTotal": 1,
+  "oldDenseNormalRecomputed": false,
+  "firstExecutionWallSeconds": 4.3,
+  "firstExecutionFinalReportError": "serialized prior typed array lacked .length",
+  "actualNormalMilliseconds": null,
+  "normalTimingReason": "local timing was not stored before the final-report failure",
+  "reportRecovery": "Only saved matrix arrays restored; no normal reassembly. The small one-point check was repeated to recover its unstored summary.",
+  "recoveredPrepareAndSolveMilliseconds": 68,
+  "fieldAndObjectiveDefinitionBitwiseSame": true,
+  "squaredNorm": 0.00004384082096786088,
+  "squaredNormDifference": 0,
+  "denseExpandedHMaximumDifference": 0,
+  "gradientMaximumDifference": 0,
+  "diagonalMaximumDifference": 0,
+  "solverOk": true,
+  "directionMaximumDifference": 0,
+  "solverInfo": {
+    "dimension": 193,
+    "radialBlocks": 12,
+    "blockSize": 16,
+    "halfBandwidthBlocks": 4,
+    "scalarStorageStride": 80,
+    "oneGlobalBorderOriginalIndex": 180,
+    "offBandNonzeroCount": 0,
+    "offBandMaximum": 0,
+    "offBandTolerance": 0,
+    "storedLowerNonzeros": 9505,
+    "zeroDiagonalColumns": [],
+    "zeroDiagonalScale": 1,
+    "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+    "suppliedDiagonalDifference": 0,
+    "suppliedDiagonalRelativeDifference": 0,
+    "suppliedDiagonalUsedInsteadOfHjj": false,
+    "symmetryAdjustment": 0,
+    "scaledSymmetryAdjustment": 0,
+    "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+    "scaledGradientInfinity": 0.0002771958670557967,
+    "preparedNumericStorageBytes": 380968,
+    "rawPackedNumericStorageBytes": 124424,
+    "rawDenseMatrixAllocated": false,
+    "fullScaledMatrixAllocated": false,
+    "originalPairAdditionOrderPreserved": true,
+    "rawBandDiagnostics": {
+      "pairContributions": 3644494,
+      "zeroOutsideBandContributions": 0,
+      "maximumNonzeroRadialBlockDistance": 3,
+      "denseMatrixAllocated": false
+    },
+    "inputArraysModified": false,
+    "continuousCertificate": false,
+    "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+    "fieldMinimumPivot": 0.006424967913561286,
+    "fieldMaximumPivot": 1.0011111111111108,
+    "borderSchur": 0.005709939853307366,
+    "borderContraction": 0.9954011712578039,
+    "minimumPivot": 0.005709939853307366,
+    "maximumPivot": 1.0011111111111108,
+    "scaledSlope": -0.0000019273443251745188,
+    "physicalAndScaledSlopeDifference": 0,
+    "originalScaledEquationResidualMaximum": 3.2526065174565133e-18,
+    "workingScaledEquationResidualMaximum": 3.577867169202165e-18,
+    "workingScaledEquationRelativeResidual": 3.1252234952092226e-15,
+    "originalUnscaledDampedEquationResidualMaximum": 1.567954114624498e-17,
+    "factorNumericStorageBytes": 122880,
+    "diagonalDampingInScaledCoordinates": 0.0011111111111111111,
+    "hiddenDiagonalShift": 0,
+    "actualTrialEvaluated": false,
+    "finiteSpaceLowerBoundClaimed": false,
+    "fullDenseFactorAllocated": false
+  },
+  "actualLocalPoint": {
+    "s": 0.20611069331622553,
+    "u": 1.5707963267948966,
+    "numericLeaves": 758,
+    "maximumDifference": 0,
+    "completeColumns": {
+      "theta": {
+        "count": 14,
+        "jacobianNorm": 508.6257093880794
+      },
+      "phi": {
+        "count": 14,
+        "jacobianNorm": 357.09571492408423
+      },
+      "height": {
+        "count": 2,
+        "jacobianNorm": 568.7821229796149
+      },
+      "cutHeight": {
+        "count": 1,
+        "jacobianNorm": 13.09554358247203
+      },
+      "radius": {
+        "count": 2,
+        "jacobianNorm": 622.737438555994
+      }
+    }
+  },
+  "normalHasDenseH": false,
+  "packedMatrixNumericBytes": 124424,
+  "denseMatrixEquivalentBytes": 297992,
+  "packetDiagnostics": {
+    "pairContributions": 3644494,
+    "zeroOutsideBandContributions": 0,
+    "maximumNonzeroRadialBlockDistance": 3,
+    "denseMatrixAllocated": false
+  },
+  "expansionForThisSmallCheckOnly": true,
+  "offBandContributionAt1eMinus300Rejected": true,
+  "originalStateUnchanged": true,
+  "fullJvpCalled": false,
+  "actualNonlinearTrialCalled": false,
+  "passed": true,
+  "providerSourceSHA256": "a414c691b0c9853dcf47682a36b4bbea18410997a9382e0876724d57e210e878",
+  "reproducerSourceSHA256": "120d7fb1b81a96bd062bb06875da3ab3ecc701e0cb675fa35d5fb66c6d767180",
+  "reproducerCompiledAfterInlineActualCheck": true,
+  "fixture": {
+    "path": "notes/2026-11-12-fd2d-direct-position-R191-curvature-weight02-01.json",
+    "sha256": "7109305642200f9a08a2b5a079acaebabef39e7c4131caac9932e73552473dc0",
+    "options": {
+      "radialBasisCount": 12,
+      "modes": 7,
+      "angles": 64,
+      "gap": 0.05
+    },
+    "guide": {
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    }
+  },
+  "originalFormulaSourceSHA256": {
+    "engine": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+    "metric": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+    "curvature": "8122d9c03850563c49594c66fd3d7b21dd7e2364063b0f90247ec0700c24759f",
+    "curvatureAlgebra": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812",
+    "lm": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "fd2d-prefix-linear-progress-v1",
+  "complete_prefix_domain": false,
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+    "bytes": 7139,
+    "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+  },
+  "start": 0,
+  "next_cell": 2400,
+  "total_radial_cells": 3604,
+  "angular": 1024,
+  "radial_subdivisions": 1,
+  "completed_cells": 2400,
+  "maximum": 8.581678122630337e-10,
+  "worst_interval": {
+    "cell": 176,
+    "subdivision": 0,
+    "left_exact": "8741058401110631/288230376151711744",
+    "right_exact": "4552634583911787/144115188075855872",
+    "linear_operator_upper": 8.581678122630337e-10,
+    "all_angle_attempts": [
+      {
+        "angular": 1024,
+        "bound": 8.581678122630337e-10
+      }
+    ],
+    "exact_nonzero_geometry_modes": 24,
+    "prior_upper_if_refined": null,
+    "reused_closed_checkpoint": true
+  },
+  "peak_rss_bytes": 430575616,
+  "seconds": 629.261038880999,
+  "reused_intervals": 1314,
+  "newly_computed_intervals": 1086,
+  "prior_checkpoint": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-front-checkpoint-02.json",
+    "bytes": 10189,
+    "sha256": "2fb0c6225331cb7e86d538c11fa293d0e7ef900011bca4635659f299fc7ff002"
+  }
+}

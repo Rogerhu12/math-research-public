@@ -1,0 +1,44 @@
+{
+  "scope": "Replay a saved actual DN state with diagnostic-only line-search recording.\n\nThis performs no prefix BVP. Output remains a failed/unconverged response\nunless the unchanged shooting equations actually meet their original tol.\nThe max-iteration budget, recovery input and recording paths are the only\nconfiguration changes from the input config.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py",
+    "--source-root",
+    "topics/visible-flexible-closed-surface/repro/source-root",
+    "--config",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+    "--checkpoint",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+    "--out-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01",
+    "--max-iterations",
+    "32",
+    "--node-heap",
+    "1536"
+  ],
+  "script_sha256": "acf6d249aa07cb093b41406506b3df80e04ff7a6a81ef3b753755c0bb536c320",
+  "client_sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+  "input_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+  "input_config_sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096",
+  "input_checkpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+  "input_checkpoint_sha256": "8266c8b9e66ffd57e3fce0c9e806a0c14533cd9b7795cca6bcfdb2fc205cd20a",
+  "input_checkpoint_scope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate.",
+  "source_map": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-trial-diagnostic-source-map.json",
+  "source_map_sha256": "17dbd71341f82bf7605e743288f3a42526fd0f14a94d8eff9350c336ba1135b9",
+  "diagnostic_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-config.json",
+  "diagnostic_config_sha256": "f933a3e7ac102f589276cca3e34db5c4999ce21b3efe2ddc3fa0731fecce5eb6",
+  "overrides": {
+    "initialCheckpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+    "maxIterations": 32,
+    "traceFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trace.jsonl",
+    "iterationCheckpointFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-iteration.json.gz",
+    "trialDiagnosticFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trials.jsonl",
+    "trialStatePrefix": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-stage-input"
+  },
+  "original_projection_floor": 0.05,
+  "request": {
+    "jacobian": true,
+    "audit": false
+  },
+  "independent_static_review": "Root read all four shared-to-trial source diffs and found no change to RK/Jacobian/evaluation, trial steps, guard or strict norm-decrease acceptance. This is a source review, not a numerical result."
+}

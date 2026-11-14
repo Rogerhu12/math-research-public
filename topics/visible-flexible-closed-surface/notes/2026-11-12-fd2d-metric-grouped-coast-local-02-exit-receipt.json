@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T17:26:26.254451+00:00",
+  "finished_utc": "2026-11-12T17:26:54.501378+00:00",
+  "command": [
+    "python",
+    "-u",
+    "scripts/fd2d-metric-grouped-coast-local-check-v2.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "--previous-witness",
+    "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-witnesses.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-grouped-coast-local-02"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 28.247039226000197,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-grouped-coast-local-02-console.txt",
+  "console_sha256": "1607adab5eca466279466d99eea78c69b395b3fc0372de971c7c624715644e78",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

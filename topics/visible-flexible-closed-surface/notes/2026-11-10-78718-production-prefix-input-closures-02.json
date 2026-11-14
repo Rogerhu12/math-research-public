@@ -1,0 +1,35 @@
+{
+  "schema": "78718-closed-production-input-rehash-v1",
+  "stage": "prefix-base-metric",
+  "invocation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-metric-01-invocation.json",
+    "bytes": 7730,
+    "sha256": "e3e7b796f6948ebf85cbfa248f739712b7ce2082cb2167a160a0f29460e3e572"
+  },
+  "actual_tool_observation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-metric-01-observed-exit.json",
+    "bytes": 5225,
+    "sha256": "8fb03405588bcd48b9e692092148ba052a222f3f7baea0a7ecb0a897a84ebc41"
+  },
+  "plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json",
+    "bytes": 297542,
+    "sha256": "232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9"
+  },
+  "checks": {
+    "preexisting_inputs": {
+      "count": 354,
+      "all_current_bytes_equal": true
+    },
+    "production_inputs": {
+      "count": 9,
+      "all_current_bytes_equal": true
+    },
+    "closed_outputs": {
+      "count": 10,
+      "all_current_bytes_equal": true
+    }
+  },
+  "scope": "Read-only byte identity after the genuine completed metric stage, not a new metric or candidate computation.",
+  "diagnostic_correction": "First ad hoc f6e4ca compared a three-field file identity to plan records also containing roles and exited1 before writing any report. Actual32d281 verified the Node bytes unchanged; this replay compares exactly path/bytes/SHA, retaining all role metadata."
+}

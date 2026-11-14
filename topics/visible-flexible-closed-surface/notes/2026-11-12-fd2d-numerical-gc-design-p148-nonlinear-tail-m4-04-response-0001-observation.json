@@ -1,0 +1,45 @@
+{
+  "schema": "actual-immutable-nonlinear-response-observation-v1",
+  "source_session": 40623,
+  "source_launch_chunk": "b054d0",
+  "response": {
+    "path": "2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-response-0001.json",
+    "bytes": 69602,
+    "sha256": "ceea81026db8aeb32df1d5221a4350fb2e9c882e3ffa08d13d75a9ccd565c39a"
+  },
+  "factor": 5.684341886080802e-14,
+  "converged": true,
+  "normalized_residual": 2.3453092487852374e-13,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 0.0017986741259172123,
+      "minA": 0.9989084149799404,
+      "minD": 1,
+      "chartCondition": 7335.64414623398,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 1.7068982134646233e-08,
+      "minA": 0.9989087131293087,
+      "minD": 1,
+      "chartCondition": 7335.644146922088,
+      "step": 1
+    },
+    {
+      "iteration": 2,
+      "norm": 2.3453092487852374e-13,
+      "minA": 0.9989087131293312,
+      "minD": 1
+    }
+  ],
+  "actual_audit": null,
+  "active_supervisor_not_closed": true,
+  "finite_tail_only": true,
+  "source_snapshot": {
+    "path": "2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-04-runtime-source-snapshot.tar.gz",
+    "bytes": 136162,
+    "sha256": "b95e845451c6d941912656955e6b392cf42f82eedb1a53d0fa3f3876c1c7a306"
+  }
+}

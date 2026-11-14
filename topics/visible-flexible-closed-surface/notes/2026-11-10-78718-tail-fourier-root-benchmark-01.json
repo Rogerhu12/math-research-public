@@ -1,0 +1,474 @@
+{
+  "scope": "Fixed geometric warm states, original root policy and physical equations; finite comparisons only, no new tail or BVP.",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+  },
+  "modes": 22,
+  "quadrature": 512,
+  "repeat": 20,
+  "sources": {
+    "78718-tail-fourier-root-momentum.mjs": {
+      "bytes": 13809,
+      "sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88"
+    },
+    "78718-tail-fourier-root-split-engine.mjs": {
+      "bytes": 2045,
+      "sha256": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372"
+    },
+    "78718-tail-fourier-product-jacobian.mjs": {
+      "bytes": 3948,
+      "sha256": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+    },
+    "78718-tail-fourier-product-flow.mjs": {
+      "bytes": 2400,
+      "sha256": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f"
+    }
+  },
+  "rows": [
+    {
+      "node": 0,
+      "rawCell": 0,
+      "r": 0.6,
+      "root": {
+        "originalMilliseconds": 1.7518225000000256,
+        "fourierMilliseconds": 1.154435149999972,
+        "speedup": 1.5174715530795022,
+        "lambdaGap": {
+          "maxAbsolute": 2.762365957882963e-25,
+          "oldMaxMagnitude": 0.005013924862658988,
+          "maxNormRelative": 5.509388420348252e-23
+        },
+        "BGap": {
+          "maxAbsolute": 3.9968028886505635e-15,
+          "oldMaxMagnitude": 1.0004714808747834,
+          "maxNormRelative": 3.99491936057575e-15
+        },
+        "oldIterations": 3,
+        "newIterations": 3,
+        "oldRelativeResidual": 1.0826187178398292e-17,
+        "newRelativeResidual": 1.0826187178398292e-17
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 3.298989900000015,
+        "fourierMilliseconds": 1.5243154000000232,
+        "speedup": 2.1642436335682005,
+        "rhsGap": {
+          "maxAbsolute": 7.490631123663269e-22,
+          "oldMaxMagnitude": 0.11548890408395787,
+          "maxNormRelative": 6.486018014525228e-21
+        },
+        "matrixGap": {
+          "maxAbsolute": 3.828972694464028e-10,
+          "oldMaxMagnitude": 6043293.758312017,
+          "maxNormRelative": 6.335903643931944e-17,
+          "maxScaledShapeRow": 2.5980483954308485e-13,
+          "maxScaledMeanRow": 2.1530156598389434e-14
+        }
+      }
+    },
+    {
+      "node": 16,
+      "rawCell": 0,
+      "r": 0.5277876988744847,
+      "root": {
+        "originalMilliseconds": 1.6443687500000124,
+        "fourierMilliseconds": 0.9588546999999835,
+        "speedup": 1.7149300618749022,
+        "lambdaGap": {
+          "maxAbsolute": 3.0357660829594124e-18,
+          "oldMaxMagnitude": 0.06891769539260588,
+          "maxNormRelative": 4.4049152625685696e-17
+        },
+        "BGap": {
+          "maxAbsolute": 4.6629367034256575e-15,
+          "oldMaxMagnitude": 1.0164634183685577,
+          "maxNormRelative": 4.5874122168702895e-15
+        },
+        "oldIterations": 3,
+        "newIterations": 3,
+        "oldRelativeResidual": 5.961067775449316e-14,
+        "newRelativeResidual": 5.956091925887172e-14
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 4.798491250000007,
+        "fourierMilliseconds": 1.134169299999985,
+        "speedup": 4.23084212383466,
+        "rhsGap": {
+          "maxAbsolute": 8.563470300322158e-19,
+          "oldMaxMagnitude": 0.0017283199233345987,
+          "maxNormRelative": 4.954794644616436e-16
+        },
+        "matrixGap": {
+          "maxAbsolute": 1.1141310096718371e-10,
+          "oldMaxMagnitude": 142706.65723236173,
+          "maxNormRelative": 7.807141105251707e-16,
+          "maxScaledShapeRow": 1.196092542880935e-12,
+          "maxScaledMeanRow": 7.138927873743023e-14
+        }
+      }
+    },
+    {
+      "node": 31,
+      "rawCell": 0,
+      "r": 0.5128424779733312,
+      "root": {
+        "originalMilliseconds": 2.096140149999974,
+        "fourierMilliseconds": 1.155153700000028,
+        "speedup": 1.8145984815699616,
+        "lambdaGap": {
+          "maxAbsolute": 6.071532165918825e-18,
+          "oldMaxMagnitude": 0.08670037210071074,
+          "maxNormRelative": 7.002890551457105e-17
+        },
+        "BGap": {
+          "maxAbsolute": 5.551115123125783e-15,
+          "oldMaxMagnitude": 1.0761769054996295,
+          "maxNormRelative": 5.158180866693663e-15
+        },
+        "oldIterations": 4,
+        "newIterations": 4,
+        "oldRelativeResidual": 2.639115501438648e-16,
+        "newRelativeResidual": 2.6391155014386476e-16
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 3.762088249999988,
+        "fourierMilliseconds": 1.4590462000000115,
+        "speedup": 2.578457248303692,
+        "rhsGap": {
+          "maxAbsolute": 4.7789598884087625e-17,
+          "oldMaxMagnitude": 0.07008823899754275,
+          "maxNormRelative": 6.818490458258353e-16
+        },
+        "matrixGap": {
+          "maxAbsolute": 7.974449545145035e-9,
+          "oldMaxMagnitude": 6066336.605893919,
+          "maxNormRelative": 1.31454122367645e-15,
+          "maxScaledShapeRow": 1.5967627623243814e-12,
+          "maxScaledMeanRow": 3.163836324518374e-14
+        }
+      }
+    },
+    {
+      "node": 34,
+      "rawCell": 0,
+      "r": 0.49301641611400593,
+      "root": {
+        "originalMilliseconds": 2.0823925000000143,
+        "fourierMilliseconds": 1.1373004499999753,
+        "speedup": 1.8309959342758195,
+        "lambdaGap": {
+          "maxAbsolute": 6.938893903907228e-18,
+          "oldMaxMagnitude": 0.09826017261030318,
+          "maxNormRelative": 7.061756273751592e-17
+        },
+        "BGap": {
+          "maxAbsolute": 2.886579864025407e-15,
+          "oldMaxMagnitude": 1.099481733488366,
+          "maxNormRelative": 2.6254004737914556e-15
+        },
+        "oldIterations": 4,
+        "newIterations": 4,
+        "oldRelativeResidual": 3.537591582640713e-16,
+        "newRelativeResidual": 3.930657314045237e-16
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 6.795522699999992,
+        "fourierMilliseconds": 2.0746468499999993,
+        "speedup": 3.2755081666067625,
+        "rhsGap": {
+          "maxAbsolute": 7.771561172376096e-16,
+          "oldMaxMagnitude": 0.5215933087811938,
+          "maxNormRelative": 1.489965657446007e-15
+        },
+        "matrixGap": {
+          "maxAbsolute": 4.0978193283081055e-8,
+          "oldMaxMagnitude": 44179143.60993026,
+          "maxNormRelative": 9.27546120968046e-16,
+          "maxScaledShapeRow": 2.253001933755745e-13,
+          "maxScaledMeanRow": 5.733750294656329e-15
+        }
+      }
+    },
+    {
+      "node": 40,
+      "rawCell": 0,
+      "r": 0.43546269697083567,
+      "root": {
+        "originalMilliseconds": 3.7284663500000077,
+        "fourierMilliseconds": 1.7288798000000043,
+        "speedup": 2.156579277518309,
+        "lambdaGap": {
+          "maxAbsolute": 6.938893903907228e-17,
+          "oldMaxMagnitude": 0.4828140986121256,
+          "maxNormRelative": 1.437177150346985e-16
+        },
+        "BGap": {
+          "maxAbsolute": 1.3322676295501878e-15,
+          "oldMaxMagnitude": 1.255265798818194,
+          "maxNormRelative": 1.0613430484639106e-15
+        },
+        "oldIterations": 5,
+        "newIterations": 5,
+        "oldRelativeResidual": 1.194070798470671e-16,
+        "newRelativeResidual": 1.4925884980883385e-16
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 4.536179449999963,
+        "fourierMilliseconds": 1.6347168000000238,
+        "speedup": 2.774902325589299,
+        "rhsGap": {
+          "maxAbsolute": 7.629910158540865e-15,
+          "oldMaxMagnitude": 0.67870298120238,
+          "maxNormRelative": 1.1241898694807307e-14
+        },
+        "matrixGap": {
+          "maxAbsolute": 4.260800778865814e-8,
+          "oldMaxMagnitude": 19690357.218824122,
+          "maxNormRelative": 2.163902224583543e-15,
+          "maxScaledShapeRow": 5.142177793713403e-13,
+          "maxScaledMeanRow": 3.4778275825334204e-14
+        }
+      }
+    },
+    {
+      "node": 72,
+      "rawCell": 0,
+      "r": 0.3011238599642435,
+      "root": {
+        "originalMilliseconds": 1.1538167000000157,
+        "fourierMilliseconds": 0.7044224499999927,
+        "speedup": 1.637961283034105,
+        "lambdaGap": {
+          "maxAbsolute": 5.169878828456423e-26,
+          "oldMaxMagnitude": 0.0014703452256768614,
+          "maxNormRelative": 3.516098626481758e-23
+        },
+        "BGap": {
+          "maxAbsolute": 2.220446049250313e-15,
+          "oldMaxMagnitude": 1.0000039149979147,
+          "maxNormRelative": 2.2204373562426937e-15
+        },
+        "oldIterations": 2,
+        "newIterations": 2,
+        "oldRelativeResidual": 7.195216536285147e-19,
+        "newRelativeResidual": 7.195216536285147e-19
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 2.626645600000029,
+        "fourierMilliseconds": 0.9005471999999827,
+        "speedup": 2.9167217442906708,
+        "rhsGap": {
+          "maxAbsolute": 9.106988371586155e-26,
+          "oldMaxMagnitude": 0.0001688559952722532,
+          "maxNormRelative": 5.393346180514702e-22
+        },
+        "matrixGap": {
+          "maxAbsolute": 9.094947017729282e-13,
+          "oldMaxMagnitude": 94540.27356505822,
+          "maxNormRelative": 9.62018267428702e-18,
+          "maxScaledShapeRow": 2.34759579914972e-14,
+          "maxScaledMeanRow": 8.843626330005456e-15
+        }
+      }
+    },
+    {
+      "node": 144,
+      "rawCell": 1,
+      "r": 0.25215123757256336,
+      "root": {
+        "originalMilliseconds": 1.4117847500000154,
+        "fourierMilliseconds": 1.00707510000002,
+        "speedup": 1.4018664049979859,
+        "lambdaGap": {
+          "maxAbsolute": 9.817801110970321e-32,
+          "oldMaxMagnitude": 0.0000914341791423194,
+          "maxNormRelative": 1.0737561383570456e-27
+        },
+        "BGap": {
+          "maxAbsolute": 1.7763568394002505e-15,
+          "oldMaxMagnitude": 1.0000159920542515,
+          "maxNormRelative": 1.7763284322595934e-15
+        },
+        "oldIterations": 2,
+        "newIterations": 2,
+        "oldRelativeResidual": 3.7056180790993174e-17,
+        "newRelativeResidual": 3.7056180790993174e-17
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 3.135549149999997,
+        "fourierMilliseconds": 0.9113644000000022,
+        "speedup": 3.4404999251671335,
+        "rhsGap": {
+          "maxAbsolute": 7.750806664962427e-31,
+          "oldMaxMagnitude": 0.0000028499287905933636,
+          "maxNormRelative": 2.7196492384459496e-25
+        },
+        "matrixGap": {
+          "maxAbsolute": 3.941291737419306e-14,
+          "oldMaxMagnitude": 41895.401146635646,
+          "maxNormRelative": 9.407456736419877e-19,
+          "maxScaledShapeRow": 2.4549043070927763e-15,
+          "maxScaledMeanRow": 1.713519921771333e-14
+        }
+      }
+    },
+    {
+      "node": 288,
+      "rawCell": 3,
+      "r": 0.19809212907081442,
+      "root": {
+        "originalMilliseconds": 1.200081649999993,
+        "fourierMilliseconds": 0.6120989000000009,
+        "speedup": 1.9606008930909549,
+        "lambdaGap": {
+          "maxAbsolute": 1.0346229402199641e-32,
+          "oldMaxMagnitude": 0.0000794231885402771,
+          "maxNormRelative": 1.3026711206580254e-28
+        },
+        "BGap": {
+          "maxAbsolute": 1.4432899320127035e-15,
+          "oldMaxMagnitude": 0.9999999968647488,
+          "maxNormRelative": 1.44328993653778e-15
+        },
+        "oldIterations": 2,
+        "newIterations": 2,
+        "oldRelativeResidual": 4.686683893247217e-20,
+        "newRelativeResidual": 4.686683893247217e-20
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 2.678366700000015,
+        "fourierMilliseconds": 0.8502642999999808,
+        "speedup": 3.150040169862566,
+        "rhsGap": {
+          "maxAbsolute": 9.424475412321563e-35,
+          "oldMaxMagnitude": 1.842931599031992e-9,
+          "maxNormRelative": 5.113849812587624e-26
+        },
+        "matrixGap": {
+          "maxAbsolute": 2.0419033780660204e-16,
+          "oldMaxMagnitude": 1351.705942327242,
+          "maxNormRelative": 1.5106121191939577e-19,
+          "maxScaledShapeRow": 2.007738105696156e-16,
+          "maxScaledMeanRow": 5.049330448138467e-16
+        }
+      }
+    },
+    {
+      "node": 576,
+      "rawCell": 7,
+      "r": 0.1525361819534748,
+      "root": {
+        "originalMilliseconds": 0.34892655000003286,
+        "fourierMilliseconds": 0.1840431499999795,
+        "speedup": 1.8958953375883412,
+        "lambdaGap": {
+          "maxAbsolute": 0,
+          "oldMaxMagnitude": 1.0591260843771687e-18,
+          "maxNormRelative": 0
+        },
+        "BGap": {
+          "maxAbsolute": 3.417961413998949e-33,
+          "oldMaxMagnitude": 1,
+          "maxNormRelative": 3.417961413998949e-33
+        },
+        "oldIterations": 0,
+        "newIterations": 0,
+        "oldRelativeResidual": 5.294836830685674e-19,
+        "newRelativeResidual": 5.294836830685674e-19
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 2.0767941000000065,
+        "fourierMilliseconds": 0.5824669499999799,
+        "speedup": 3.5655140604974718,
+        "rhsGap": {
+          "maxAbsolute": 0,
+          "oldMaxMagnitude": 1.4112669426959853e-14,
+          "maxNormRelative": 0
+        },
+        "matrixGap": {
+          "maxAbsolute": 9.353141017798504e-33,
+          "oldMaxMagnitude": 4.419224249757463,
+          "maxNormRelative": 2.116466712073239e-33,
+          "maxScaledShapeRow": 6.236172800276434e-31,
+          "maxScaledMeanRow": 8.327300647045672e-16
+        }
+      }
+    },
+    {
+      "node": 864,
+      "rawCell": 11,
+      "r": 0.1501073350790043,
+      "root": {
+        "originalMilliseconds": 0.48543934999997873,
+        "fourierMilliseconds": 0.20381130000000666,
+        "speedup": 2.381807829104485,
+        "lambdaGap": {
+          "maxAbsolute": 0,
+          "oldMaxMagnitude": 8.492330301583947e-41,
+          "maxNormRelative": 0
+        },
+        "BGap": {
+          "maxAbsolute": 2.724386304525385e-55,
+          "oldMaxMagnitude": 1,
+          "maxNormRelative": 2.724386304525385e-55
+        },
+        "oldIterations": 0,
+        "newIterations": 0,
+        "oldRelativeResidual": 4.2437148677199243e-41,
+        "newRelativeResidual": 4.2437148677199243e-41
+      },
+      "completeJacobian": {
+        "originalMilliseconds": 2.087978599999997,
+        "fourierMilliseconds": 0.3343747500000063,
+        "speedup": 6.2444266500384895,
+        "rhsGap": {
+          "maxAbsolute": 0,
+          "oldMaxMagnitude": 1.0769583580269675e-19,
+          "maxNormRelative": 0
+        },
+        "matrixGap": {
+          "maxAbsolute": 1.0617024176790705e-56,
+          "oldMaxMagnitude": 0.06272490233323746,
+          "maxNormRelative": 1.6926330343865394e-55,
+          "maxScaledShapeRow": 8.428980379916046e-53,
+          "maxScaledMeanRow": 1.2093300934131478e-15
+        }
+      }
+    }
+  ],
+  "flow": {
+    "stage": 31,
+    "rawCell": 0,
+    "rawSegment": 5,
+    "steps": 32,
+    "originalMilliseconds": 652.8657349999994,
+    "fourierMilliseconds": 236.8304530000005,
+    "speedup": 2.7566798388043368,
+    "stateGap": {
+      "maxAbsolute": 6.938893903907228e-18,
+      "oldMaxMagnitude": 1.2599993740344198,
+      "maxNormRelative": 5.507061389792148e-18
+    },
+    "tangentGap": {
+      "maxAbsolute": 2.4971086531877518e-8,
+      "oldMaxMagnitude": 4334792.3960513435,
+      "maxNormRelative": 5.760618791023123e-15,
+      "maxScaledShapeRow": 3.439005886753786e-13,
+      "maxScaledMeanRow": 6.714876919884202e-14
+    },
+    "oldGuards": {
+      "minA": 0.9074023013164033,
+      "minD": 0.9999189739088554,
+      "maxRootRelative": 2.6044361841223694e-15
+    },
+    "newGuards": {
+      "minA": 0.9074023013164033,
+      "minD": 0.9999189739088554,
+      "maxRootRelative": 2.6044361841223694e-15
+    }
+  },
+  "aggregateRootSpeedup": 1.7977735650367201,
+  "aggregateCompleteJacobianSpeedup": 3.1384255138244272,
+  "elapsedSeconds": 7.908
+}

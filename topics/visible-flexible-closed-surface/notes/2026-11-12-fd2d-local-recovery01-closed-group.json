@@ -1,0 +1,86 @@
+{
+  "scope": "Closed recovery computation and actual local CI fixtures only. Active new-g IVP excluded.",
+  "observed_utc": "2026-11-12T11:34:49.646368+00:00",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount025.npz",
+      "bytes": 429846,
+      "sha256": "0a590694739c9edefdecaf870f01ae59d95d1c0961dcfda394ae6593cab1d0fd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount075.npz",
+      "bytes": 430344,
+      "sha256": "22446031b14e15c21f449f20bce3085c26c243a5dd091a11a4347a3ab8bd3975"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-report.json",
+      "bytes": 7137,
+      "sha256": "3484b58a34fb7436a5c9144c24519f155b6e86f7e68dfa6ef7995d3eee79c729"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-manifest.json",
+      "bytes": 1875,
+      "sha256": "9cc18b8c091e97d86fa24bc9bee8b88e82c502b38154141af99661e84617e679"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+      "bytes": 23429,
+      "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15.npz-report.json",
+      "bytes": 1708,
+      "sha256": "0da684b2fee513065d4a364fcec37ac9de105a47c4b6c443ae842ba278bdbc11"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15-penalty-check.json",
+      "bytes": 6367,
+      "sha256": "c27007ad8803ebe86182b17025a579db60bad712745c5924916f16f2551f7455"
+    },
+    {
+      "path": "scripts/fd2d-metric-curvature-penalty-active-check.py",
+      "bytes": 6888,
+      "sha256": "fd5a5fb26d66e48c7246e7afb5f77ba8a955d1b7ad894592fa10e21317f761c9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-k15-penalty-active-check.json",
+      "bytes": 6881,
+      "sha256": "47eb9778659e9f8b69655f34bf6f7a34093438f142eff3f64b212ca8424a258f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-observed-receipt.json",
+      "bytes": 3369,
+      "sha256": "423227bd34c5b487769a922a110ac9103b0a6399f81c877c1b7689951eb22510"
+    },
+    {
+      "path": "scripts/fd2d_ci_run_recovery.py",
+      "bytes": 20232,
+      "sha256": "8efb5ff49aa7d85eba51ae7597569ba049bdfa6236a9d6c0c036e8ff02053e93"
+    },
+    {
+      "path": "scripts/fd2d_ci_publish_recovery.py",
+      "bytes": 12168,
+      "sha256": "6745b88da07acb1ddd966c89f11481825695b7cfdf55a89d13a1c93e6d12a9ee"
+    },
+    {
+      "path": "scripts/fd2d-ci-recovery-fixture-check.py",
+      "bytes": 5193,
+      "sha256": "2f6441d6831b1727336801e59c48c16e0d0120a296d6d6e54a2ec0248517672f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ci-recovery-fixture-report.json",
+      "bytes": 951,
+      "sha256": "f8910ea31a3575af904e5145bba0c9e91b9621c457379cb72bef120655e3b04b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ci-recovery-fixture-receipt.json",
+      "bytes": 2422,
+      "sha256": "b0a2d67a9f6f75ccc6993f13088068d0201cc0f5e475bce9e12f559e111cd304"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ci-recovery-fixture.md",
+      "bytes": 1249,
+      "sha256": "1836c9c79534bc3e1232237aead4e5d80833d1cae711e66164f8bca60da22bc1"
+    }
+  ]
+}

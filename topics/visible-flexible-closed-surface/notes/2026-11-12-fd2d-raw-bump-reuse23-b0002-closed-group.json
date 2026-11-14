@@ -1,0 +1,60 @@
+{
+  "schema": "fd2d-closed-single-natural-child-v1",
+  "closed": true,
+  "parent_chain_still_active": true,
+  "actual_observed_session": 77825,
+  "actual_child_exit": 0,
+  "observed_tool_chunk": "db1079",
+  "observed_utc": "2026-11-12T16:55:05.118693+00:00",
+  "accepted_steps": 1,
+  "finite_success": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-accepted-0001.npz",
+      "bytes": 126875,
+      "sha256": "2357897ebd6e45097d81353c9f2f874a6f1d367dd9437f8623cd34e1d126f2f0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-report.json",
+      "bytes": 359910,
+      "sha256": "4cc628412e0affd37121cabe76e665c16b31c352a8828c3fac108b7fb83b3ab0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-progress.jsonl",
+      "bytes": 91211,
+      "sha256": "cae9bccc05abd7985cec6e65c85b78d629f6a9fe6f8ced545bba4c852b9fa810"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-process-receipt.json",
+      "bytes": 4035,
+      "sha256": "c3d6dfb2988e87410de89d3f076641f8fa39317857b100b7fb4c4c6ff0f2093d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-physical-metric.json",
+      "bytes": 2678,
+      "sha256": "6a4c983d9ec08b0efcd48b7611e7b1666220c7eb4446dcc85cc05c1e587e2936"
+    }
+  ],
+  "inherited_static_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-static-manifest.json",
+    "bytes": 913,
+    "sha256": "6ef509a42c8bd6ebec422aa6aca550a2995a1ed497bd2641e3298e596c6780be"
+  },
+  "regenerable_diagnostic_fields_retained_locally": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-field.npz.gz",
+      "bytes": 1519361,
+      "sha256": "911f5d4fc583426b409947b2120eb9bfed9d02d532be13377143f1d20a458884"
+    }
+  ],
+  "summary": {
+    "residual_maximum": 0.6554928710809249,
+    "full_gauss_node_maximum": 1.7419687605048448,
+    "formal_curvature_node_maximum": 7.3544455710146215,
+    "gap": 0.8999993978011271,
+    "all_G2_G": 2.170282132491166,
+    "high_C": 0.7082575715692354,
+    "objective_value_evaluations": 2,
+    "whole_continuous_or_strong_target_complete": false
+  }
+}

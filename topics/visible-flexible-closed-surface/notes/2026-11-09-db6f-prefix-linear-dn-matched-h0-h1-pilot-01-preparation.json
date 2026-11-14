@@ -1,0 +1,80 @@
+{
+  "status": "PREPARED_ONLY_NO_DN_NO_BVP",
+  "scope": "Pure input preparation for ONE closed H0->H1 control pilot; never starts DN.\n\nKeeps the frozen matched-cut physical/numerical config except its five I/O\npaths. The target is the original second real request, not a manufactured\nsuccess. The first real successful packet is only a bootstrap warm source.\n",
+  "original_matched_bindings": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json",
+    "bytes": 39604,
+    "sha256": "5b184918f4c5a86f10189c5433cd447af4a822856a2fe569df4439e03efdeb21"
+  },
+  "actual_original_failure_observation": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-observed-execution-01.json",
+    "bytes": 6034,
+    "sha256": "1f7a7290c5c65a9f73531cd0edddf8f15b0290477be7d0b74eff9a3d5ba57334"
+  },
+  "bootstrap_packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+    "bytes": 272279,
+    "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+  },
+  "target_packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0002.json.gz",
+    "bytes": 266623,
+    "sha256": "44088a6fce132438771fb83267754f32e8d12043379b8f83c1977eccaad0d1de"
+  },
+  "source_sha256": {
+    "db6f-prefix-tail-trial-client.py": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+    "db6f-prefix-tail-trial-worker.mjs": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+    "db6f-prefix-tail-trial-core.mjs": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+    "db6f-prefix-tail-trial-split.mjs": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "db6f-prefix-tail-linear-continuation-client.py": "d0d06d44fe1a99c50a2d20890ec7e91909578851a9d763172b3b48f2639d169e"
+  },
+  "changed_config_keys": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "same_non_io_typed_config": true,
+  "original_source_count": 8,
+  "new_actual_source_count": 9,
+  "policy_binding_count": 142,
+  "launch_binding_count": 143,
+  "exact_target_is_original_second_request": true,
+  "target_flags": {
+    "jacobian": true,
+    "audit": false
+  },
+  "new_prefix_status": "UNSOLVED",
+  "actual_dn_calls": 0,
+  "actual_root_flow_bvp_calls": 0,
+  "prepared_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-tail-config.json",
+      "bytes": 3092,
+      "sha256": "2d41a2dacda0aa767c17bc4f944285c3f6a1f4b3f947217c6c3125ed71246a3a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01_tail-continuation-policy.json",
+      "bytes": 44553,
+      "sha256": "6493fb9fc1b90b4352666a241ff17cde7bcc711e83eb526b9810e9e23a2ec510"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-01-launch.json",
+      "bytes": 44850,
+      "sha256": "d09a7b6b918c6a35eac9d122aaa754cef67caa630678635fbe61156616fd9241"
+    }
+  ],
+  "future_coupled_interface": {
+    "wrapper": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear-continuation-coupled.py",
+      "bytes": 938,
+      "sha256": "7c381f042b505131ceb81bf47ca8f6d7ac6794c504f48e087c5b33832a537ab9"
+    },
+    "scope": "The wrapper is frozen for later review/use; this preparer emits no coupled launch. A later coupled run needs a new unused stem and a separately bound five-I/O config/policy."
+  }
+}

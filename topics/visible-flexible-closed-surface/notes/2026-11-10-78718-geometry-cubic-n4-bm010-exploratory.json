@@ -1,0 +1,25 @@
+{
+  "status": "exploratory only",
+  "count": 1,
+  "results": [
+    {
+      "n": 4,
+      "join": 1.794988657581534,
+      "bump": -0.01,
+      "width": 0.2,
+      "rtol": 1e-10,
+      "resonance_residual": -2.4811648394950357e-13,
+      "doubled_resonance_residual": 1.3889352148369623,
+      "second_bvp_nodes": 2465,
+      "second_bvp_max_rms": 9.995303101836217e-08,
+      "boundary_second_curvature": 0.9373444654980616,
+      "mean_core_discrepancy": -1.919631120728127e-12,
+      "cubic_bridge": -4.184694319966128,
+      "cubic_core_self": -0.9733220328014783,
+      "cubic_core_cross": 0.6452712509600561,
+      "cubic_total": -4.51274510180755,
+      "quadrature_error_estimate": 2.158037240663777e-07,
+      "evidence": "floating-point exploratory ODE/BVP; not certified"
+    }
+  ]
+}

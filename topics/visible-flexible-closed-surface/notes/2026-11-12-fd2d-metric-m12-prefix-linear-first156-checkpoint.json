@@ -1,0 +1,177 @@
+{
+  "schema": "fd2d-prefix-linear-closed-checkpoint-v1",
+  "scope": "Close complete prefix metric rows after an interrupted actual consumer.\n\nThe existing row bounds are retained verbatim; no new numerical bound is\ninferred. A resumed consumer must independently check every exact interval\nagainst its reconstructed full partition and verify all input identities.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-prefix-linear-snapshot.py",
+    "bytes": 3997,
+    "sha256": "a388139fbb5445dd7273fdfa4e8eee119b585754dda65bd6fd595b4fc016de89"
+  },
+  "old_consumer": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-prefix-linear-sparse.py",
+    "bytes": 8777,
+    "sha256": "584b1f0d3a90535f4881b24da351c82cca971ddff545949cb816a686d4b7c3ef"
+  },
+  "input_identity_reference": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-first20-03.json",
+    "bytes": 10333,
+    "sha256": "b09f79da586978c05187082952965c836a3fbd7bd19f9a1dc58ace434be36df9"
+  },
+  "inputs": {
+    "geometry": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "bytes": 10095,
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "target": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "bytes": 3668,
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+    },
+    "field": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+      "bytes": 7139,
+      "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+    },
+    "target_data": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target-data.npz.gz",
+      "bytes": 550495,
+      "sha256": "bebad72e13a3b8494f234deb1399ee6ba7d771a982127a4b3c912277c56770af"
+    },
+    "field_bindings": [
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000000-000064.npz.gz",
+        "bytes": 3024758,
+        "sha256": "9df969a38835623c24d3f0bfda358a4f2992b869eeafce2601862ccff4c4aa79"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000064-000128.npz.gz",
+        "bytes": 3054667,
+        "sha256": "967016c13bbdca023585561bc66184a4dc60207a72f0fd0feafead4fe9bba20c"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000128-000192.npz.gz",
+        "bytes": 3053232,
+        "sha256": "4ff214b33934dc01c25734e4c84e649f898a0ac885c46bc2a7955c20c60d3802"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000192-000256.npz.gz",
+        "bytes": 3056268,
+        "sha256": "17fec7c7215472cd6957f0fa3837d6d4da0f2cf6f938ea73ca6e0f1a21ac35e6"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000256-000320.npz.gz",
+        "bytes": 3057152,
+        "sha256": "089a79a63ad714f87d10290ff30eff051b1a79cd2ef7247199c07886bcfdbe6d"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000320-000384.npz.gz",
+        "bytes": 3059113,
+        "sha256": "59aca4f4c7623af1258e2e732f9a98bbd05c6bd373ff0dab7789423a011c6167"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000384-000448.npz.gz",
+        "bytes": 3056384,
+        "sha256": "09516fc6908aaf61171a578727392caee59627e2d38b6fbd09c685bc429ba8e0"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000448-000512.npz.gz",
+        "bytes": 3065070,
+        "sha256": "6d8c0d308646bb9a865da3a861aeba598bb06a5ee619c947973f327c8a5e606e"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000512-000576.npz.gz",
+        "bytes": 3071043,
+        "sha256": "b774f3f982ae8d67346e6a8b865a83cefb2d78f64b639e1ff5b0f45fd16f9381"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000576-000640.npz.gz",
+        "bytes": 3070026,
+        "sha256": "ea679eb25034cb641534051364442fbf9b0c587d46170cf4b07552a712452689"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000640-000704.npz.gz",
+        "bytes": 3069403,
+        "sha256": "d435f0c2a261d3c8df2b18f131ed955179d5cacdd17492cd10328d84bcebd376"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000704-000768.npz.gz",
+        "bytes": 3075598,
+        "sha256": "d3e44aeadb81044d025ee8949e0c5e2c47861d82550ab01e18cc5e79bedaabaa"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000768-000832.npz.gz",
+        "bytes": 3078482,
+        "sha256": "b0c4f13da8829b21b430a0a864230ecb3403c9065ff41787562d3ce3d7bbd9a1"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000832-000896.npz.gz",
+        "bytes": 3078010,
+        "sha256": "78aa641d603444e707ee56c9b1c6cd3d740ede1aac9b20bf7e4c954fc41598c2"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000896-000960.npz.gz",
+        "bytes": 3077835,
+        "sha256": "03296e3f4a660784e5321683cc256ad566e353efc0f9614d53d91fa70f707f64"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000960-001024.npz.gz",
+        "bytes": 2816925,
+        "sha256": "1b5f0d9f85ad226d7c9eddf10e87a73c0fcaec1162ed5038f83dcd5f9c476980"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-001024-001025.npz.gz",
+        "bytes": 408,
+        "sha256": "97faf04546736b5d0226785f6c98154df7f2727ba67a1f2de7dd30c1e9fc4a88"
+      }
+    ],
+    "geometry_bindings": [
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+        "bytes": 10095,
+        "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+        "bytes": 13021,
+        "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+      },
+      {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+        "bytes": 3112330,
+        "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+      }
+    ],
+    "tail_storage_adapter": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-light-tail-definition-reader.py",
+      "bytes": 5089,
+      "sha256": "2060f2b536a3c25f2c2f984bbd10011f206cb57edf861902d0eeb83cd4aae354"
+    }
+  },
+  "source_progress": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-full-01-progress.json",
+    "bytes": 985,
+    "sha256": "c51806f805930c9689fa82d668874676d2feae196176dda1f363878afb82e63e"
+  },
+  "source_rows": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-full-01.rows.jsonl.gz",
+    "bytes": 7784,
+    "sha256": "e81d918611d1c9127089eb92b6012aa5dafbefaf0bd40c468bccf67c145a5ec2"
+  },
+  "source_gzip_eof_present": false,
+  "recorded_actual_session": 31409,
+  "recorded_exit_code": 130,
+  "row_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-prefix-linear-first156.rows.jsonl.gz",
+    "bytes": 5058,
+    "sha256": "efd08dab6e9d5c42b189e34a104fa6cc832167ec57e9b57cef0ecb174162d57b"
+  },
+  "row_format": "gzip JSON lines",
+  "start": 0,
+  "stop": 156,
+  "radial_subdivisions": 1,
+  "total_radial_cells": 3604,
+  "linear_operator_upper": 5.77228670937406e-10,
+  "complete_prefix_domain": false,
+  "bounds_recomputed": false,
+  "exact_partition_must_be_rechecked_by_resumed_consumer": true
+}

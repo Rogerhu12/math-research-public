@@ -1,0 +1,70 @@
+{
+  "status": "CLOSED_ACTUAL_TWO_LIGHTWEIGHT_RUNS_EXIT0",
+  "record_written_utc": "2026-11-09T16:26:58.166792+00:00",
+  "working_directory": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-c3-mechanism-replay.json"
+      ],
+      "observed_exec_command_chunk_id": "64c26f",
+      "actual_exit_code": 0,
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+        "bytes": 5299,
+        "sha256": "b98272c2d92406dd3611ae680ebd754b3558268281c47500aea1e6a70b23f527"
+      },
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-mechanism-replay.json",
+        "bytes": 5093,
+        "sha256": "47fda2e36bf60860f94c0f151542cbff465a3ebb28845db617bf80d45f5ef1a1"
+      },
+      "output_identical_to_author": true,
+      "solver_root_RK_backend_calls": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/db6f-tail-review-c3-mechanism.py",
+        "--replay",
+        "notes/2026-11-09-db6f-tail-review-c3-mechanism-replay.json",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-c3-mechanism-check.json"
+      ],
+      "observed_exec_command_chunk_id": "8a5999",
+      "actual_exit_code": 0,
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-mechanism.py",
+        "bytes": 13595,
+        "sha256": "8cfa9b1716f33cda5f3da7aec932f92157247b88a3148c5ef2881c6c4c3d5fef"
+      },
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-mechanism-check.json",
+        "bytes": 14455,
+        "sha256": "14ca00414c8869c7856e0a1589ed14d9fe444a69f474a57f857c3f7f28c957a7"
+      },
+      "unique_bound_files": 38,
+      "author_exact_fraction_fields_compared": 28,
+      "v2_exact_text_replacements": 3,
+      "independent_four_index_counts_by_N": {
+        "3": 256,
+        "4": 625,
+        "7": 4096
+      },
+      "solver_root_RK_backend_calls": 0
+    }
+  ],
+  "written_full_review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-mechanism.md",
+    "bytes": 15740,
+    "sha256": "a32caba0f3acd2ffaed6a4ed139e9371b5c31dfb5c77210c3ff0c99248228794"
+  },
+  "closure_rehash_all_recorded_inputs": true,
+  "author_bytes_changed": false,
+  "current_geometry_metric_or_active_job_changed": false,
+  "new_future_candidate_created": false,
+  "scope": "Full independent review of frozen v2 conditional C3/current-mechanism proof; no new solution, full geometry, or G5 certificate."
+}

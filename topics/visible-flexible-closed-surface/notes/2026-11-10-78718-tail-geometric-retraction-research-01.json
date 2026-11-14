@@ -1,0 +1,481 @@
+{
+  "scope": "Actual W22 fixed-node retraction study only; no whole shooting residual or accepted nonlinear solution is computed.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-02-tail-config.json",
+      "bytes": 2995,
+      "sha256": "cf250e28c04c72465e5de1b79415fdedb085c8c91f53086f525d88882b73cdfb"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-w22-branch-call1-iteration1-input.json.gz",
+      "bytes": 386180,
+      "sha256": "66d469c1cf73c57984c18533bebde9391fffd74b3dae18148736320b6d1f3ae3"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-02_tail-trial-call1-iteration0-trial8.json.gz",
+      "bytes": 1891,
+      "sha256": "3d1fd71cc8ac183fa588c4016602e510a192bba45b7a4cfd49471747f0d482ef"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+      "bytes": 272525,
+      "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+    }
+  ],
+  "helper": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-newton-retraction.mjs",
+    "bytes": 6698,
+    "sha256": "cb1bce1fc95af367db28326349997bedc0e0f7a486acc9a2ed6836d159fc1847"
+  },
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-retraction-research.mjs",
+    "bytes": 6948,
+    "sha256": "30807e2d4bb5dea5c114d363d80b2890a38453369f80c37108119eca7c2510f6"
+  },
+  "M": 22,
+  "N": 512,
+  "spacing": 3,
+  "stage": 35,
+  "node": 36,
+  "originalFloor": 0.05,
+  "looseFloor": 1e-10,
+  "originalTrialStep": 0.00390625,
+  "recoveredHalfStepMaxDifference": 2.220446049250313e-16,
+  "baseRoot": {
+    "ok": true,
+    "minA": 0.202527878062286,
+    "minD": 0.9999278715517148,
+    "minS": 0.9999992079534852,
+    "relativeResidual": 4.341642283997367e-16
+  },
+  "prepared": {
+    "M": 22,
+    "N": 512,
+    "spacing": 3,
+    "x": 0,
+    "portRatio": 1,
+    "minA": 0.202527878062286,
+    "minD": 0.9999278715517148,
+    "minS": 0.9999992079534852,
+    "rootRelativeResidual": 4.341642283997367e-16,
+    "meanLDirection": -0.04054958760975746,
+    "maxNonmeanLDirection": 9.232549698986132,
+    "scope": "One fixed physical-node differential; positive geometry of later trial roots is not asserted."
+  },
+  "rows": [
+    {
+      "factor": 0.015625,
+      "step": 0.00006103515625,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.19941100901742834,
+        "minD": 0.9999278715810834,
+        "minS": 0.9999992075256368,
+        "relativeResidual": 2.160776846434492e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.19941100901742834,
+        "minD": 0.9999278715810834,
+        "minS": 0.9999992075256368,
+        "relativeResidual": 2.160776846434492e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.00006103515625,
+        "normalizedMeanResidual": 8.673617379884035e-18,
+        "minA": 0.19941119244233727,
+        "minD": 0.9999278715795734,
+        "minS": 0.9999992075256368,
+        "meanL": 0.010877109381851659,
+        "meanLChange": -0.0000024756794083490713,
+        "meanLLinearPrediction": 0.010877110110844374,
+        "canonicalLinearDifference": 6.439019033504384e-8,
+        "canonicalDifference": 6.439019033504384e-8,
+        "canonicalDifferenceOverStepSquared": 17.284610104514286,
+        "root": {
+          "ok": true,
+          "minA": 0.19941119244233738,
+          "minD": 0.9999278715795734,
+          "minS": 0.9999992075256368,
+          "relativeResidual": 1.0803892148628359e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.00006103515625,
+        "normalizedMeanResidual": 8.673617379884035e-18,
+        "minA": 0.19941119244233727,
+        "minD": 0.9999278715795734,
+        "minS": 0.9999992075256368,
+        "meanL": 0.010877109381851659,
+        "meanLChange": -0.0000024756794083490713,
+        "meanLLinearPrediction": 0.010877110110844374,
+        "canonicalLinearDifference": 6.439019033504384e-8,
+        "canonicalDifference": 6.439019033504384e-8,
+        "canonicalDifferenceOverStepSquared": 17.284610104514286,
+        "root": {
+          "ok": true,
+          "minA": 0.19941119244233738,
+          "minD": 0.9999278715795734,
+          "minS": 0.9999992075256368,
+          "relativeResidual": 1.0803892148628359e-16
+        }
+      }
+    },
+    {
+      "factor": 0.03125,
+      "step": 0.0001220703125,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.19629376580300412,
+        "minD": 0.9999278716137128,
+        "minS": 0.9999992070976728,
+        "relativeResidual": 1.4338808131769388e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.19629376580300412,
+        "minD": 0.9999278716137128,
+        "minS": 0.9999992070976728,
+        "relativeResidual": 1.4338808131769388e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.0001220703125,
+        "normalizedMeanResidual": 1.734723475976807e-17,
+        "minA": 0.19629450536439524,
+        "minD": 0.9999278716076685,
+        "minS": 0.9999992070976728,
+        "meanL": 0.010874632244450712,
+        "meanLChange": -0.000004952816809296323,
+        "meanLLinearPrediction": 0.010874635160428739,
+        "canonicalLinearDifference": 2.5756216933347197e-7,
+        "canonicalDifference": 2.5756216933347197e-7,
+        "canonicalDifferenceOverStepSquared": 17.28470459334494,
+        "root": {
+          "ok": true,
+          "minA": 0.19629450536439513,
+          "minD": 0.9999278716076685,
+          "minS": 0.9999992070976728,
+          "relativeResidual": 2.8677700951521223e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.0001220703125,
+        "normalizedMeanResidual": 1.734723475976807e-17,
+        "minA": 0.19629450536439524,
+        "minD": 0.9999278716076685,
+        "minS": 0.9999992070976728,
+        "meanL": 0.010874632244450712,
+        "meanLChange": -0.000004952816809296323,
+        "meanLLinearPrediction": 0.010874635160428739,
+        "canonicalLinearDifference": 2.5756216933347197e-7,
+        "canonicalDifference": 2.5756216933347197e-7,
+        "canonicalDifferenceOverStepSquared": 17.28470459334494,
+        "root": {
+          "ok": true,
+          "minA": 0.19629450536439513,
+          "minD": 0.9999278716076685,
+          "minS": 0.9999992070976728,
+          "relativeResidual": 2.8677700951521223e-16
+        }
+      }
+    },
+    {
+      "factor": 0.0625,
+      "step": 0.000244140625,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.1900581204538139,
+        "minD": 0.999927871688781,
+        "minS": 0.999999206241398,
+        "relativeResidual": 2.1311708586388893e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.1900581204538139,
+        "minD": 0.999927871688781,
+        "minS": 0.999999206241398,
+        "relativeResidual": 2.1311708586388893e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.000244140625,
+        "normalizedMeanResidual": 1.5612511283791264e-17,
+        "minA": 0.19006112683449142,
+        "minD": 0.9999278716645681,
+        "minS": 0.999999206241398,
+        "meanL": 0.010869673595628201,
+        "meanLChange": -0.000009911465631807018,
+        "meanLLinearPrediction": 0.010869685259597469,
+        "canonicalLinearDifference": 0.000001030259942940391,
+        "canonicalDifference": 0.0000010302599429404995,
+        "canonicalDifferenceOverStepSquared": 17.284893598860435,
+        "root": {
+          "ok": true,
+          "minA": 0.19006112683449086,
+          "minD": 0.9999278716645681,
+          "minS": 0.999999206241398,
+          "relativeResidual": 1.4207976139700638e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.000244140625,
+        "normalizedMeanResidual": 1.5612511283791264e-17,
+        "minA": 0.19006112683449142,
+        "minD": 0.9999278716645681,
+        "minS": 0.999999206241398,
+        "meanL": 0.010869673595628201,
+        "meanLChange": -0.000009911465631807018,
+        "meanLLinearPrediction": 0.010869685259597469,
+        "canonicalLinearDifference": 0.000001030259942940391,
+        "canonicalDifference": 0.0000010302599429404995,
+        "canonicalDifferenceOverStepSquared": 17.284893598860435,
+        "root": {
+          "ok": true,
+          "minA": 0.19006112683449086,
+          "minD": 0.9999278716645681,
+          "minS": 0.999999206241398,
+          "relativeResidual": 1.4207976139700638e-16
+        }
+      }
+    },
+    {
+      "factor": 0.125,
+      "step": 0.00048828125,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.17758192056104308,
+        "minD": 0.9999278718783738,
+        "minS": 0.9999992041062229,
+        "relativeResidual": 2.7905053667078247e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.17758192056104308,
+        "minD": 0.9999278718783738,
+        "minS": 0.9999992041062229,
+        "relativeResidual": 2.7905053667078247e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.00048828125,
+        "normalizedMeanResidual": -1.0408340855860843e-17,
+        "minA": 0.17759435227830014,
+        "minD": 0.9999278717812049,
+        "minS": 0.9999992041062229,
+        "meanL": 0.01085973880159983,
+        "meanLChange": -0.000019846259660177487,
+        "meanLLinearPrediction": 0.010859785457934932,
+        "canonicalLinearDifference": 0.000004121129897400287,
+        "canonicalDifference": 0.000004121129897400287,
+        "canonicalDifferenceOverStepSquared": 17.285271613185614,
+        "root": {
+          "ok": true,
+          "minA": 0.1775943522782997,
+          "minD": 0.9999278717812049,
+          "minS": 0.9999992041062229,
+          "relativeResidual": 3.4883044378126626e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.00048828125,
+        "normalizedMeanResidual": -1.0408340855860843e-17,
+        "minA": 0.17759435227830014,
+        "minD": 0.9999278717812049,
+        "minS": 0.9999992041062229,
+        "meanL": 0.01085973880159983,
+        "meanLChange": -0.000019846259660177487,
+        "meanLLinearPrediction": 0.010859785457934932,
+        "canonicalLinearDifference": 0.000004121129897400287,
+        "canonicalDifference": 0.000004121129897400287,
+        "canonicalDifferenceOverStepSquared": 17.285271613185614,
+        "root": {
+          "ok": true,
+          "minA": 0.1775943522782997,
+          "minD": 0.9999278717812049,
+          "minS": 0.9999992041062229,
+          "relativeResidual": 3.4883044378126626e-16
+        }
+      }
+    },
+    {
+      "factor": 0.25,
+      "step": 0.0009765625,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.15260737278396772,
+        "minD": 0.9999278724175685,
+        "minS": 0.9999991996838157,
+        "relativeResidual": 1.3467125294824593e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.15260737278396772,
+        "minD": 0.9999278724175685,
+        "minS": 0.9999991996838157,
+        "relativeResidual": 1.3467125294824593e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.0009765625,
+        "normalizedMeanResidual": -1.5612511283791264e-17,
+        "minA": 0.1526607331779732,
+        "minD": 0.999927872025829,
+        "minS": 0.9999991996838157,
+        "meanL": 0.010839799225599215,
+        "meanLChange": -0.000039785835660792815,
+        "meanLLinearPrediction": 0.010839985854609855,
+        "canonicalLinearDifference": 0.00001648524061660661,
+        "canonicalDifference": 0.00001648524061660661,
+        "canonicalDifferenceOverStepSquared": 17.286027664798894,
+        "root": {
+          "ok": true,
+          "minA": 0.15266073317797288,
+          "minD": 0.999927872025829,
+          "minS": 0.9999991996838157,
+          "relativeResidual": 4.714492833540158e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.0009765625,
+        "normalizedMeanResidual": -1.5612511283791264e-17,
+        "minA": 0.1526607331779732,
+        "minD": 0.999927872025829,
+        "minS": 0.9999991996838157,
+        "meanL": 0.010839799225599215,
+        "meanLChange": -0.000039785835660792815,
+        "meanLLinearPrediction": 0.010839985854609855,
+        "canonicalLinearDifference": 0.00001648524061660661,
+        "canonicalDifference": 0.00001648524061660661,
+        "canonicalDifferenceOverStepSquared": 17.286027664798894,
+        "root": {
+          "ok": true,
+          "minA": 0.15266073317797288,
+          "minD": 0.999927872025829,
+          "minS": 0.9999991996838157,
+          "relativeResidual": 4.714492833540158e-16
+        }
+      }
+    },
+    {
+      "factor": 0.5,
+      "step": 0.001953125,
+      "linearOriginalFloor": {
+        "ok": true,
+        "minA": 0.10254256639761812,
+        "minD": 0.9999278741625434,
+        "minS": 0.999999189768591,
+        "relativeResidual": 4.4045080772135456e-16
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.10254256639761812,
+        "minD": 0.9999278741625434,
+        "minS": 0.999999189768591,
+        "relativeResidual": 4.4045080772135456e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": true,
+        "lambda": 0.001953125,
+        "normalizedMeanResidual": 1.214306433183765e-17,
+        "minA": 0.10279321500617218,
+        "minD": 0.9999278725604831,
+        "minS": 0.999999189768591,
+        "meanL": 0.010799640102450415,
+        "meanLChange": -0.00007994495880959268,
+        "meanLLinearPrediction": 0.0108003866479597,
+        "canonicalLinearDifference": 0.00006594673103321388,
+        "canonicalDifference": 0.00006594673103321388,
+        "canonicalDifferenceOverStepSquared": 17.28753985997082,
+        "root": {
+          "ok": true,
+          "minA": 0.10279321500617263,
+          "minD": 0.9999278725604831,
+          "minS": 0.999999189768591,
+          "relativeResidual": 1.8895170955545384e-16
+        }
+      },
+      "retractedLooseFloor": {
+        "ok": true,
+        "lambda": 0.001953125,
+        "normalizedMeanResidual": 1.214306433183765e-17,
+        "minA": 0.10279321500617218,
+        "minD": 0.9999278725604831,
+        "minS": 0.999999189768591,
+        "meanL": 0.010799640102450415,
+        "meanLChange": -0.00007994495880959268,
+        "meanLLinearPrediction": 0.0108003866479597,
+        "canonicalLinearDifference": 0.00006594673103321388,
+        "canonicalDifference": 0.00006594673103321388,
+        "canonicalDifferenceOverStepSquared": 17.28753985997082,
+        "root": {
+          "ok": true,
+          "minA": 0.10279321500617263,
+          "minD": 0.9999278725604831,
+          "minS": 0.999999189768591,
+          "relativeResidual": 1.8895170955545384e-16
+        }
+      }
+    },
+    {
+      "factor": 1,
+      "step": 0.00390625,
+      "linearOriginalFloor": {
+        "ok": false,
+        "error": "Error: momentum Newton line search failed"
+      },
+      "linearLooseFloor": {
+        "ok": true,
+        "minA": 0.001490460305375611,
+        "minD": 0.999927880823822,
+        "minS": 0.9999991664820407,
+        "relativeResidual": 2.2161431108024986e-16
+      },
+      "retractedOriginalFloor": {
+        "ok": false,
+        "error": "Error: momentum branch D/S/A rejected"
+      },
+      "retractedLooseFloor": {
+        "ok": false,
+        "error": "Error: momentum branch D/S/A rejected"
+      }
+    },
+    {
+      "factor": 2,
+      "step": 0.0078125,
+      "linearOriginalFloor": {
+        "ok": false,
+        "error": "Error: momentum Newton line search failed"
+      },
+      "linearLooseFloor": {
+        "ok": false,
+        "error": "Error: momentum Newton line search failed"
+      },
+      "retractedOriginalFloor": {
+        "ok": false,
+        "error": "Error: momentum branch D/S/A rejected"
+      },
+      "retractedLooseFloor": {
+        "ok": false,
+        "error": "Error: momentum branch D/S/A rejected"
+      }
+    }
+  ],
+  "node0": {
+    "portRatio": 6.727171322029716,
+    "step": 0.000244140625,
+    "normalizationGap": 5.684341886080802e-14
+  },
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "RK_steps": 0,
+  "shooting_residual_evaluations": 0,
+  "production_changed": false,
+  "seconds": 4.007
+}

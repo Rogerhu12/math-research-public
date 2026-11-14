@@ -1,0 +1,32 @@
+{
+  "schema": "closed-research-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    {
+      "path": "scripts/fd2d_coast_reference_lifting_jvp_check.py",
+      "bytes": 4526,
+      "sha256": "ac0479143f0189fd2b7725c49e64a259ea182d54d0501c40ec9c76b82d0388c7"
+    },
+    {
+      "path": "results/R144-frozen-coast-reference-lifting-and-explicit-new-initializer.md",
+      "bytes": 6422,
+      "sha256": "80bad7be69859c09d228c32fcba355f9d3803a80b0331df88ea73d45994e16a7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast-reference-lifting-jvp01.json",
+      "bytes": 4959,
+      "sha256": "9bac38ab3273afed56fde99e91e237456ca0ad6cdcb3f23f2f65277d5a8f8eb3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast-reference-lifting-jvp01-tool-exit.json",
+      "bytes": 326,
+      "sha256": "b6b9ce20f58c20f7a5c880c536b42441f75e8aec7c32ede36a3aac320da4a8e1"
+    }
+  ],
+  "actual_tool_exit": 0,
+  "claim": "Explicit new representation and initializer; six nonzero parameter JVPs at rim and plateau points; no nonlinear convergence claim"
+}

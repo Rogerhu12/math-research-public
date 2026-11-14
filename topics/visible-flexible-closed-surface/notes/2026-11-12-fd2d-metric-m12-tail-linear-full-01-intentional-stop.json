@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-tail-linear-intentional-stop-v1",
+  "session": 6541,
+  "exit_code": 130,
+  "termination": "Root intentionally interrupted the old arithmetic adapter after preparing a resumable conservative normal-range consumer.",
+  "completed_cells": 1043,
+  "continuous_linear_upper": 6.190197478718488e-10,
+  "checkpoints": {
+    "file": "notes/2026-11-12-fd2d-metric-m12-tail-linear-full-01.checkpoints.jsonl.gz",
+    "sha256": "8e25bce655e52a634e491fff746e19e131521127a4f476c87ab2eeb6058eea88",
+    "bytes": 277131
+  },
+  "all_gzip_members_verified": true,
+  "complete_tail_activity_domain": false,
+  "mathematical_failure": false,
+  "external_exit": false,
+  "first_exact": "3602879701896397/9007199254740992",
+  "last_exact": "8511099608288461/18014398509481984"
+}

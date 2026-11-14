@@ -1,0 +1,236 @@
+{
+  "status": "complete-priority-overlay-of-raw0-selections-pending-single-span-repair",
+  "finished": true,
+  "source_ledger": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase.json",
+  "source_ledger_sha256": "38458b7473ba181dc4858d4edd912bfe002c57991b2504694ec5e6c216ffe63a",
+  "initial_packet": "notes/2026-11-09-db6f-audit-tail-lowmetric-r23-packet.json",
+  "initial_packet_sha256": "073e3437b91fca90f74516b994c395eea16f824f84b59fa67fa60231433a6076",
+  "overlay_helper_sha256": "87218edf0b73b6e67dae3c58a618841601dc64b093b24519820bcfd63efca839",
+  "stages": [
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r23-packet.json",
+      "coarse_sha256": "073e3437b91fca90f74516b994c395eea16f824f84b59fa67fa60231433a6076",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r00.json",
+      "fine_sha256": "76fdb023c2960e2ed9a3863c4dca42981cfcac243fd620d49b842098ed8593a3",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-01-packet.json",
+      "output_sha256": "51968506ada38fb7ff5620526b351b82b289da08303ff3e8f933d36fb0260e98",
+      "statistics": {
+        "rows": 5464,
+        "fine_span_count": 1,
+        "fine_span_range": [
+          4175,
+          4176
+        ],
+        "bytes": 447415
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-01-packet.json",
+      "coarse_sha256": "51968506ada38fb7ff5620526b351b82b289da08303ff3e8f933d36fb0260e98",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r01.json",
+      "fine_sha256": "5ce1a34017b10bb606af4af4a73334a492fb70bf906e25404cfaa18ae641c0b9",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-02-packet.json",
+      "output_sha256": "3f0f654572d197300a0ee55137c62b089ca0b1f55be188e38e4a192c692aea79",
+      "statistics": {
+        "rows": 5489,
+        "fine_span_count": 3,
+        "fine_span_range": [
+          4182,
+          4185
+        ],
+        "bytes": 454919
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-02-packet.json",
+      "coarse_sha256": "3f0f654572d197300a0ee55137c62b089ca0b1f55be188e38e4a192c692aea79",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r02.json",
+      "fine_sha256": "f15ab9f748ddfc4c17274d36f5017a9b98457417f55797ff8ffdaa543b0efc1f",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-03-packet.json",
+      "output_sha256": "845068c98682a98ecc161afa329b5a96822b59db22d33881637bcaaa59ac09ed",
+      "statistics": {
+        "rows": 5516,
+        "fine_span_count": 5,
+        "fine_span_range": [
+          4256,
+          4261
+        ],
+        "bytes": 463028
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-03-packet.json",
+      "coarse_sha256": "845068c98682a98ecc161afa329b5a96822b59db22d33881637bcaaa59ac09ed",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r03.json",
+      "fine_sha256": "d062667954086386bc71bf6e8a70a1fc73be1c1b322934ca9518c50166d77ed1",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-04-packet.json",
+      "output_sha256": "010dd2d7e798d1512d64769b4489b17040f95869ea2e8d0819f40802ef47c1b4",
+      "statistics": {
+        "rows": 5543,
+        "fine_span_count": 6,
+        "fine_span_range": [
+          4282,
+          4288
+        ],
+        "bytes": 471046
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-04-packet.json",
+      "coarse_sha256": "010dd2d7e798d1512d64769b4489b17040f95869ea2e8d0819f40802ef47c1b4",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r04.json",
+      "fine_sha256": "2e0211f020aff4849fc267528f8d6b7332f2306237d24f310f3b169b654fc202",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-05-packet.json",
+      "output_sha256": "856d0d65cde111ea41485357ac77c6996255ecb91158e2b7c6b0d7bb2ef9f388",
+      "statistics": {
+        "rows": 5559,
+        "fine_span_count": 4,
+        "fine_span_range": [
+          4289,
+          4293
+        ],
+        "bytes": 475837
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-05-packet.json",
+      "coarse_sha256": "856d0d65cde111ea41485357ac77c6996255ecb91158e2b7c6b0d7bb2ef9f388",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r05.json",
+      "fine_sha256": "9180af6ca48934ea448e352618598146d83eae20be6ef298796cad72873544ed",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-06-packet.json",
+      "output_sha256": "c36f420c1233f8985e9e5b258daf90789f0ef3160a00e43b97b06c291c741c7b",
+      "statistics": {
+        "rows": 5575,
+        "fine_span_count": 7,
+        "fine_span_range": [
+          4294,
+          4301
+        ],
+        "bytes": 480460
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-06-packet.json",
+      "coarse_sha256": "c36f420c1233f8985e9e5b258daf90789f0ef3160a00e43b97b06c291c741c7b",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r06.json",
+      "fine_sha256": "cdfbdeb7522cff937f756b1b0bbe9dc0dddaa9f6c64295a3baec00608b1ae733",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-07-packet.json",
+      "output_sha256": "2c6bf15beb06958954e4a8b449a81218bf945058becb195083dc2d19090a8e80",
+      "statistics": {
+        "rows": 5589,
+        "fine_span_count": 6,
+        "fine_span_range": [
+          4302,
+          4308
+        ],
+        "bytes": 484663
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-07-packet.json",
+      "coarse_sha256": "2c6bf15beb06958954e4a8b449a81218bf945058becb195083dc2d19090a8e80",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r07.json",
+      "fine_sha256": "48c15946004335e0129796c00b33d4195de6e6c46d958a1a38a98993a399c232",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-08-packet.json",
+      "output_sha256": "572cb702b8815ddbc0a682af31b57c0153044128ea156c4986cbe618a58c52a2",
+      "statistics": {
+        "rows": 5596,
+        "fine_span_count": 4,
+        "fine_span_range": [
+          4309,
+          4313
+        ],
+        "bytes": 486779
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-08-packet.json",
+      "coarse_sha256": "572cb702b8815ddbc0a682af31b57c0153044128ea156c4986cbe618a58c52a2",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r08.json",
+      "fine_sha256": "4faf71149b253973c26220c155d78ed819c889c3dfa2edd3e24205077823ba18",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-09-packet.json",
+      "output_sha256": "f9f621c7562e731f1263fb56aac493bb7934544af1fe6c6174334ef8185c9c1a",
+      "statistics": {
+        "rows": 5605,
+        "fine_span_count": 6,
+        "fine_span_range": [
+          4378,
+          4384
+        ],
+        "bytes": 489336
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-09-packet.json",
+      "coarse_sha256": "f9f621c7562e731f1263fb56aac493bb7934544af1fe6c6174334ef8185c9c1a",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r09.json",
+      "fine_sha256": "09b07df1f82f531dcdd86432162ff506456d0715f20641a99c583e9bd43af1f0",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-10-packet.json",
+      "output_sha256": "9f2119b89104da45ce5765fae3fb5992cf37567523a3614111d46562ce413bf6",
+      "statistics": {
+        "rows": 5728,
+        "fine_span_count": 25,
+        "fine_span_range": [
+          4386,
+          4411
+        ],
+        "bytes": 526219
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-10-packet.json",
+      "coarse_sha256": "9f2119b89104da45ce5765fae3fb5992cf37567523a3614111d46562ce413bf6",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r10.json",
+      "fine_sha256": "0c9068d106e9d564b0327b28208297073141190e67fab6a2c2c916b2d9b04682",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-11-packet.json",
+      "output_sha256": "84c57fd373c9b9edb13eff765536df4dc8fc24840f45db70f2ddaad0dadaa0ca",
+      "statistics": {
+        "rows": 5799,
+        "fine_span_count": 32,
+        "fine_span_range": [
+          4412,
+          4444
+        ],
+        "bytes": 550319
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-11-packet.json",
+      "coarse_sha256": "84c57fd373c9b9edb13eff765536df4dc8fc24840f45db70f2ddaad0dadaa0ca",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r11.json",
+      "fine_sha256": "252976548a9eb332666be802a5c369bcaa34f5aa1c7303bbb16b537096d7dfe6",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-12-packet.json",
+      "output_sha256": "0de51d63c5a1c81b11873e6a9e01d5542862f458aa35931850f75ca8c4206c37",
+      "statistics": {
+        "rows": 6155,
+        "fine_span_count": 59,
+        "fine_span_range": [
+          4508,
+          4567
+        ],
+        "bytes": 663006
+      }
+    },
+    {
+      "coarse": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-12-packet.json",
+      "coarse_sha256": "0de51d63c5a1c81b11873e6a9e01d5542862f458aa35931850f75ca8c4206c37",
+      "fine": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r12.json",
+      "fine_sha256": "8cb4bbd1fc5f3480ae958d96869ee805e75074e965091d1a8e0fed30438d0328",
+      "output": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-13-packet.json",
+      "output_sha256": "0c6d0f97fa1cab5be4108e3de581e437cdc4250fa05b823a73ef47c7f815677c",
+      "statistics": {
+        "rows": 6208,
+        "fine_span_count": 4,
+        "fine_span_range": [
+          4568,
+          4572
+        ],
+        "bytes": 672177
+      }
+    }
+  ],
+  "output_packet": "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-13-packet.json",
+  "output_packet_sha256": "0c6d0f97fa1cab5be4108e3de581e437cdc4250fa05b823a73ef47c7f815677c",
+  "remaining_working_width_repair_span": 4407,
+  "scope": "Same finite map and same g; only source row selection and zero padding. Actual metric still requires evaluation."
+}

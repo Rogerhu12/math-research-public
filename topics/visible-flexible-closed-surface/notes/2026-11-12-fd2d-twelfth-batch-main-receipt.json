@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-actual-ci-main-publication-receipt-v1",
+  "commit": "bbd15325797e47e72dcfa033904d87b76eced4e5",
+  "rules_read_sha": "986d55fe5f7a56a559bfe6f1f8d7d88afedf0215",
+  "attempt": 1,
+  "utc": "2026-11-12T17:02:11.544816+00:00",
+  "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched",
+  "workflow_run_id": 43265074847,
+  "workflow_job_id": 131346341743,
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "checkpoint_commit": "1eccd71621cd8e4441c60610909943abc20ab5cf",
+  "checkpoint_branch": "visible-flex-fd2d-ci-publish-20261112t170038",
+  "local_checkpoint_process": {
+    "session": 24118,
+    "launch_chunk": "f416be",
+    "final_output": "truncated during context exhaustion; persisted checkpoint receipt confirms pull_exit=0 and push_exit=0",
+    "exit_code": null
+  },
+  "readme_pull_checks": [
+    {
+      "attempt": 1,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "71cdad9ed39c404dd3462abad7f7616c2deea85a",
+      "readme_current": "986d55fe5f7a56a559bfe6f1f8d7d88afedf0215",
+      "readme_diff_empty": true
+    }
+  ],
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "push_exit": 0,
+      "seconds": 2.5381275620000032
+    }
+  ],
+  "closed_batch": {
+    "files": 176,
+    "bytes": 8574750,
+    "groups": 20
+  },
+  "no_strong_completion_claim": true
+}

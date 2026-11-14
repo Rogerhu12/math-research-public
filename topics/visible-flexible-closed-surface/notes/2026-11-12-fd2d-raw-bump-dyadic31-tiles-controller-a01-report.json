@@ -1,0 +1,68 @@
+{
+  "schema": "fd2d-owned-normal-small-batch-controller-v1",
+  "started_utc": "2026-11-12T20:02:23.843175+00:00",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-dyadic-run-normal-tile-batches.py",
+    "sha256": "156fc11d94ccc0749619e9f68e5844d13aa14326842422f1a3e5a18959ca153d"
+  },
+  "request": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+    "sha256": "9ea1e0cfcbf2c2da3fcbef027e0f306d3413a10057cff2a3360fc6a08fd0e878"
+  },
+  "plan": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work/normal-partition-plan.json",
+    "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+  },
+  "context_reuse_only": true,
+  "finite_target_or_tile_partition_changed": false,
+  "batch_size": 4,
+  "actual_child_records": [
+    {
+      "tile_ids": [
+        "0000-nodes",
+        "0001-nodes",
+        "0002-nodes",
+        "0003-nodes"
+      ],
+      "started_utc": "2026-11-12T20:02:23.844839+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0000-0003-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0000-0003-a01",
+        "--tile-id",
+        "0000-nodes",
+        "--tile-id",
+        "0001-nodes",
+        "--tile-id",
+        "0002-nodes",
+        "--tile-id",
+        "0003-nodes"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0000-0003-a01-process-receipt.json",
+      "complete": false,
+      "actual_monitor_returncode": 1,
+      "ended_utc": "2026-11-12T20:02:28.506975+00:00",
+      "closed_tile_ids": [],
+      "actual_child_returncode": 1,
+      "actual_child_seconds": 4.532056200001534,
+      "peak_rss_kib": 121524
+    }
+  ],
+  "complete": false,
+  "accepted_states_created": 0,
+  "seconds": 4.664860540997324,
+  "closed_manifest_count": 0,
+  "ended_utc": "2026-11-12T20:02:28.507695+00:00",
+  "controller_returncode": 1
+}

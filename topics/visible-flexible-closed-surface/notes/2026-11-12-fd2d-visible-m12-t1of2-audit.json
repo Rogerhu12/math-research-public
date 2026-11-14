@@ -1,0 +1,53 @@
+{
+  "status": "PASS-closed-oriented-manifold-and-radial-PL-embedding",
+  "scope": "Validate an indexed binary PLY and certify its radial PL embedding.\n\nThe vertices in the file are exact binary64 inputs to the interval checks.\nThis proves a property of the exported piecewise-linear mesh, not a new\nmetric, curvature, C2 or convergence certificate for the continuous map.\n",
+  "mesh": "notes/2026-11-12-fd2d-visible-m12-t1of2.ply.gz",
+  "mesh_sha256": "77c14d929c45da4b06341ca37f95d9ad40bcebc0f78a43d26a62ad20ac60cecb",
+  "script_sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+  "interval_backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "uncompressed_bytes": 3593267,
+  "stored_bytes": 1332136,
+  "topology": {
+    "vertices": 71858,
+    "edges": 215568,
+    "faces": 143712,
+    "euler_characteristic": 2,
+    "connected": true,
+    "all_edges_exactly_twice_and_oppositely_oriented": true,
+    "every_vertex_link_one_cycle": true,
+    "duplicate_faces": 0,
+    "boundary_edges": 0,
+    "minimum_valence": 5,
+    "maximum_valence": 144
+  },
+  "geometric_certificate": {
+    "all_exact_binary_faces_strictly_radially_outward": true,
+    "minimum_face_determinant_lower": 1.4403375572314204e-08,
+    "minimum_adjacent_vertex_dot_lower": 0.8098717147259604,
+    "maximum_solid_angle_half_tangent_upper": 0.00021222549103865033,
+    "spherical_area_interval_exact": [
+      "7595904947270134851870631/604462909807314587353088",
+      "60767239831617604191931919/4835703278458516698824704"
+    ],
+    "spherical_area_interval_outward": [
+      12.566370614354966,
+      12.566370666768549
+    ],
+    "signed_volume_interval_exact": [
+      "643175240131252505161571/56668397794435742564352",
+      "214391746710600560459983/18889465931478580854784"
+    ],
+    "signed_volume_interval_outward": [
+      11.349804567695148,
+      11.34980456770484
+    ],
+    "degree_one_isolated_by_rational_comparison": true,
+    "radial_projection_homeomorphism": true,
+    "piecewise_linear_mesh_embedded": true,
+    "proof": "Positive face orientation and single-cycle vertex links give positive local degree. The solid-angle sum is 4*pi times integer degree; 44/7<L<=sum<=U<18 and 3<pi<22/7 isolate degree one, excluding branching and multiple preimages."
+  },
+  "continuous_surface_C2_metric_reach_certified_here": false,
+  "approximation_error_to_continuous_map_certified_here": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "seconds": 17.81403826699534
+}

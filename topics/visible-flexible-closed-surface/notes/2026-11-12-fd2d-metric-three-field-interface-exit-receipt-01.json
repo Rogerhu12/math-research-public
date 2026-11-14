@@ -1,0 +1,14 @@
+{
+  "schema": "fd2d-observed-exit-receipt-v1",
+  "observed_utc": "2026-11-12T10:27:43.970316+00:00",
+  "process_session_id": 64888,
+  "terminal_chunk_id": "6780c0",
+  "observed_exit_code": 0,
+  "command": "python scripts/fd2d-metric-three-field-interface-check.py --out notes/2026-11-12-fd2d-metric-three-field-interface-check-01.json",
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-three-field-interface-check-01.json",
+    "bytes": 3810,
+    "sha256": "f9e6b8bd4ad00761f3236c6022d109962d3f3ed05f5803a3f1dd4a276a914082"
+  },
+  "scope": "Formula and actual two-jet implementation checks; no BVP or continuous global certificate."
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "fd2d-closed-initializer-and-frozen-next-driver-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-angular-radial-initializer.py",
+      "bytes": 5705,
+      "sha256": "e954f5fc066114dffdd4ca0fcf882a2de1127d282936e9c00023bf2c7bdbd162"
+    },
+    {
+      "path": "scripts/fd2d-gc-central-search-domain-restore.py",
+      "bytes": 6166,
+      "sha256": "f340b2670e827612472bafef17360a89118ba5f98330090fb9ddc59ba4d1cbfa"
+    },
+    {
+      "path": "scripts/fd2d_gc_search_domain_roundoff.py",
+      "bytes": 2020,
+      "sha256": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-refined-angular-stream-run.py",
+      "bytes": 32915,
+      "sha256": "48c9cfacec24bbd4ec2003f15d2051bf841bb9680de349163ea4db564efbad7a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-init-field.npz",
+      "bytes": 74546,
+      "sha256": "04d6e3fb776e3b691c69a3fcc5cd41bf04fa0f7ffc6b844b3537720381292885"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-init-report.json",
+      "bytes": 105104,
+      "sha256": "94fd7864fa6f28f865aa2b6b625c1e41b4de8e7e86201c305f9b2c8b093a873b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-init-execution-receipt.json",
+      "bytes": 287,
+      "sha256": "52654101e8b0522fa945c9da902f92141dda19963b981a9f9cecd10417f9958a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+      "bytes": 84844,
+      "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-report.json",
+      "bytes": 3138,
+      "sha256": "abe26d1955722f15e0b8b314abe0fdff0c4dc347288ac28203a7323321f90c88"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-execution-receipt.json",
+      "bytes": 287,
+      "sha256": "321d45ac320e932dcd8cff7a493f5ca3af24baf6efc2887c56fa12f6711df794"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-refined-angular21-initializer.md",
+      "bytes": 3131,
+      "sha256": "73271d6112e0bae125d69589710a4a74f677e87f7df5d1e4aca325e133dcdfab"
+    }
+  ],
+  "provider_dependencies": [
+    {
+      "path": "scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "bytes": 8686,
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c"
+    },
+    {
+      "path": "scripts/fd2d_gc_midpoint_refined_positive_trace.py",
+      "bytes": 15938,
+      "sha256": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158"
+    },
+    {
+      "path": "scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    }
+  ],
+  "regenerable_angular_intermediate_retained_locally": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-init-angular.npz",
+    "bytes": 61706,
+    "sha256": "f183ab7046af66ec01784902ffbd664c3b1dcc0aace98dabc1029cc2cee92216"
+  },
+  "actual_initializer_exits": [
+    0,
+    0
+  ],
+  "active_run_outputs_excluded": true
+}

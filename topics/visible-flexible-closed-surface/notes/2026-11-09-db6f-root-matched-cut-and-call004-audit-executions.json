@@ -1,0 +1,68 @@
+{
+  "status": "ROOT_OBSERVED_CLOSED_AUDIT_EXECUTIONS",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T18:19:33.617312+00:00",
+  "earlier_observations_retained": [
+    {
+      "receipt": "30a8a7",
+      "actual_exit_code": 0,
+      "action": "Exact source diff v1 to v2: central_correction_scales M to M-1 only"
+    },
+    {
+      "receipt": "0930fb",
+      "actual_exit_code": 1,
+      "action": "First audit invocation rejected relative output resolved from repo root",
+      "output_written": false,
+      "solver_calls": 0
+    },
+    {
+      "receipt": "320c94",
+      "actual_exit_code": 0,
+      "action": "Same frozen v2 first-mode audit with absolute output path",
+      "result": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-first-dn-full-audit-v2.json",
+        "bytes": 38292,
+        "sha256": "d068833a3e632771612b0060a9cd9e72d560736dd4d063386e9729d1a28b4ed5"
+      }
+    },
+    {
+      "session_id": 5817,
+      "receipt": "ff466f",
+      "actual_exit_code": 0,
+      "action": "Actual guarded original Python runner completion; mathematical failure caught by Python",
+      "result": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-observed-execution-01.json",
+        "bytes": 6034,
+        "sha256": "1f7a7290c5c65a9f73531cd0edddf8f15b0290477be7d0b74eff9a3d5ba57334"
+      }
+    },
+    {
+      "receipt": "cc36ed",
+      "actual_exit_code": 2,
+      "action": "Normal final-mode audit rejects closed mathematical failure",
+      "result": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-final-failure-audit-v2.json",
+        "bytes": 42232,
+        "sha256": "fa3861adbf609c61301f958cda6a921ddbdf57ca6f654328ad60037f35795988"
+      }
+    },
+    {
+      "receipt": "a721ac",
+      "actual_exit_code": 1,
+      "action": "Root call004 inline metadata check treated checkpoint parameters dict as numeric array; failed before writing any report",
+      "solver_calls": 0,
+      "output_written": false
+    },
+    {
+      "receipt": "aaac43",
+      "actual_exit_code": 0,
+      "action": "Closed call004 immutable response and logs checked by dedicated script; no active progress/log read",
+      "result": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-call004-failure-audit.json",
+        "bytes": 3519,
+        "sha256": "ddb6e7f0966d3205d97b49b91365eb2df4f4a0350a4b3078f312161afab678a5"
+      }
+    }
+  ],
+  "scope": "Tool exit and mathematical success are separate. No new solver or controller-completion claim for session3046."
+}

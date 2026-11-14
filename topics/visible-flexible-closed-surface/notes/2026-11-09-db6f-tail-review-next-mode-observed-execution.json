@@ -1,0 +1,32 @@
+{
+  "README_complete": false,
+  "argv": [
+    "python",
+    "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-next-mode-static.py",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-next-mode-static.json"
+  ],
+  "closed_files": [
+    {
+      "bytes": 9658,
+      "file": "scripts/db6f-tail-review-next-mode-static.py",
+      "sha256": "e89febc398e6b7f9aa9e50d66208e331ead87e3693e69e7d54d9de504fa37168"
+    },
+    {
+      "bytes": 11656,
+      "file": "notes/2026-11-09-db6f-tail-review-next-mode-static.json",
+      "sha256": "04fa7441fe8a68c4b50c92509ea6bd3ce0173cac85ee4ecfdb62a4aa9bfacbff"
+    },
+    {
+      "bytes": 11347,
+      "file": "notes/2026-11-09-db6f-tail-review-next-mode-interface-v2.md",
+      "sha256": "9370f5e1fed69f907ba9e8a6b966a7cd69807389f95962b01ac3ce66d6b710ef"
+    }
+  ],
+  "observed_exit_code": 0,
+  "observer": "/root/tail_theory",
+  "scope": "stdlib read-only source hashes, AST and static metadata only; no mathematical module import, future fixture, root, flow, solver or export",
+  "solver_calls": 0,
+  "status": "ACTUAL_EXIT_0",
+  "tool_chunk_id": "b2e4fb"
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "environment": {
+    "NODE_OPTIONS": "--max-old-space-size=1536",
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts"
+  },
+  "bindings": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-bindings.json",
+    "bytes": 31346,
+    "sha256": "4f161641ccf73a79388f674dfcc48eea5f599237ab3bdd2e867507640e8b87fe"
+  },
+  "method": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-interface.md",
+    "bytes": 7152,
+    "sha256": "c51ba48eff5dfe6d1bc013582007c468f51b4aeaf4e96d307307ce5b864c15a3"
+  },
+  "all_future_outputs_absent_at_preparation": true,
+  "future_outputs": [
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.json",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01-direction.json.gz",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.json",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.run.log",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.run.log"
+  ],
+  "stages": [
+    {
+      "id": "base",
+      "command": [
+        "node",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-direction-probe.mjs",
+        "--source-root",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--config",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+        "--checkpoint",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0002.json.gz",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.json"
+      ],
+      "stdout_log": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.run.log",
+      "stderr": "same_log",
+      "calls": "One original evaluate(false), one evaluate(true), one original correction; no tail.solve."
+    },
+    {
+      "id": "small_trials",
+      "requires_reviewed_base": true,
+      "base_gate": {
+        "actual_tool_exit": 0,
+        "stateOnly.norm": 2.604516507642326,
+        "variational.norm": 2.604516507642326,
+        "maximumNormalizedResidualDifference": 0,
+        "chartCondition": 46758.07673463052,
+        "linearizedResidualMaximum": "finite; record actual value without presuming zero",
+        "direction_sha": "Must match completed base report and actual direction file; not known at preparation"
+      },
+      "command": [
+        "node",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-direction-probe.mjs",
+        "--source-root",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+        "--config",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+        "--checkpoint",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0002.json.gz",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.json",
+        "--direction",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01-direction.json.gz",
+        "--lambdas",
+        "0.000244140625,0.0001220703125,0.00006103515625"
+      ],
+      "stdout_log": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.run.log",
+      "stderr": "same_log",
+      "calls": "Only three original evaluate(false) trials; no acceptance/state update."
+    }
+  ],
+  "unchanged": {
+    "config_sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae",
+    "modes": 15,
+    "spacing": 3,
+    "quadrature": 256,
+    "physicalDepth": 12,
+    "shootingParts": 8,
+    "steps": 32,
+    "default_projectionFloor": 0.05,
+    "original_solveTolerance": 2e-09
+  },
+  "interpretation": "Diagnostic exit0 does not guarantee trial evaluations succeeded. No convergence, accepted state, or new CP is produced. Do not change active continuation03."
+}

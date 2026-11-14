@@ -1,0 +1,19 @@
+{
+  "status": "PURE_SOURCE_GENERATION_FAILED_BEFORE_OUTPUTS",
+  "observer": "/root",
+  "tool_receipt": "47de38",
+  "actual_exit_code": 1,
+  "builder": {
+    "file": "scripts/78718-build-storage-adapters-v1.py",
+    "bytes": 21154,
+    "sha256": "4c574c493f53f0e90ba3d6db98b64a61a930d9d34a6c9faa7a7df092425f52e8"
+  },
+  "error": "ValueError: Missing unique HERE assignment",
+  "cause": "The frozen original continuous Hermite source has neither HERE nor importlib.util; v1 import insertion assumed HERE exists.",
+  "adapters_written": 0,
+  "ledger_written": false,
+  "mathematical_backend_calls": 0,
+  "solver_calls": 0,
+  "next_source": "scripts/78718-build-storage-adapters-v2.py",
+  "old_source_retained": true
+}

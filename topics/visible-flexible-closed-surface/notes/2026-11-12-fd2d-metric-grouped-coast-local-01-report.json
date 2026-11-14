@@ -1,0 +1,103 @@
+{
+  "schema": "fd2d-actual-grouped-coast-single-balanced-JVP-v1",
+  "status": "failed",
+  "passed": false,
+  "sources": {
+    "fd2d-metric-grouped-coast-local-check.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-coast-local-check.py",
+      "bytes": 9226,
+      "sha256": "bd3ac706cb93decd6a8fedfcf4e6386886abd2ae46e337715b89aa405408effa"
+    },
+    "fd2d_gc_grouped_coast_codazzi.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_coast_codazzi.py",
+      "bytes": 21332,
+      "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace_v3.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    },
+    "fd2d_gc_positive_trace_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+      "bytes": 10262,
+      "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+    },
+    "fd2d_gc_gauss_cell_frozen_operator_compatible.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+      "bytes": 4592,
+      "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+    },
+    "fd2d_gc_frozen_operator_projections.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    "fd2d_gc_gauss_cell_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    "fd2d_gc_hybrid_lifting_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_hybrid_lifting_codazzi_d2.py",
+      "bytes": 15889,
+      "sha256": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe"
+    },
+    "fd2d_gc_positive_gauss_l.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l.py",
+      "bytes": 3324,
+      "sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be"
+    },
+    "fd2d_gc_codazzi_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    "fd2d_gc_d2_complements.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    "fd2d_gc_raw_bump_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    }
+  },
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "bytes": 126857,
+    "sha256": "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e"
+  },
+  "input_run_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "bytes": 359916,
+    "sha256": "ef14e4765f8a552da288195576368a8f70ffdeb2315ab852318b836d2e751a95"
+  },
+  "old_four_cell_witness": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-witnesses.npz",
+    "bytes": 500760,
+    "sha256": "a82fd282d315b4514555c9890de3785cac3d4c801c345bb087fb182c9bfa9a6b"
+  },
+  "no_whole_J": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_continuous_certificate": true,
+  "original_affine_R152_not_rechecked": true,
+  "exception_type": "ValueError",
+  "exception": "The declared direction has no real action: tail",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-coast-local-check.py\", line 69, in main\n    if not norm>1e-10:raise ValueError('The declared direction has no real action: '+name)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: The declared direction has no real action: tail\n",
+  "seconds": 20.749870771000133,
+  "peak_rss_kib": 94652,
+  "sources_unchanged": true
+}

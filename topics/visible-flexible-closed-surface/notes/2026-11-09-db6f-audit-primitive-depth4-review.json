@@ -1,0 +1,15 @@
+{
+  "status": "PASS-independent-complete-depth4-primitive-replay",
+  "author_file": "2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+  "author_sha256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9",
+  "replay_file": "2026-11-09-db6f-audit-primitive-stable-depth4.json.gz",
+  "replay_sha256": "6ee097814cba7d6e15807b8e4faef44ff7147772c89a27d3cfa64e3f5a430309",
+  "profiles": 36,
+  "all_profile_and_leaf_values_identical": true,
+  "all_inputs_sources_parameters_alpha_identical": true,
+  "only_differences": [
+    "settings.out",
+    "seconds"
+  ],
+  "scope": "Same previously reviewed exact primitive method, now all raw 0..3 profiles. No finite perturbation or metric/curvature result follows alone."
+}

@@ -1,0 +1,234 @@
+{
+  "scope": "Oversampled nonlinear elliptic-core design with a projected velocity field.\n\nUnlike point-collocation Frenet stepping, the RHS is evaluated on a finer\nangular grid and then projected to the state Fourier space. Curvature bounds\nuse the ACTUAL projected velocity and its time derivative; metric diagnostics\ninclude E, F, G on the finer grid. These remain finite design diagnostics, not\nan all-angle certificate, a fixed-g refinement, a tail match, or a closed map.\n",
+  "source_sha256": "3be21e894051d5ab87145e961e934b873b9868649c6311e79f2efa603573f8f3",
+  "control": [
+    {
+      "s0": 0.0,
+      "s1": 0.25,
+      "L": 0.25,
+      "u0": 0.0,
+      "u1": 0.85
+    },
+    {
+      "s0": 0.25,
+      "s1": 0.55,
+      "L": 0.3,
+      "u0": 0.85,
+      "u1": -0.85
+    },
+    {
+      "s0": 0.55,
+      "s1": 1.0,
+      "L": 0.45,
+      "u0": -0.85,
+      "u1": -0.85
+    }
+  ],
+  "nodes": 256,
+  "geometry_grid": 512,
+  "ellipse_A": 1.4,
+  "ellipse_B": 0.5,
+  "metric_a0": 1.0040828380214688,
+  "sampled_curvature_budget": 7.1,
+  "tracking": 20.0,
+  "initial": {
+    "s": 0.0,
+    "radius": 1.0040828380214688,
+    "radial_speed": 0.0,
+    "radial_acceleration": 0.0,
+    "control": 0.0,
+    "control_rate": 0.0,
+    "requested_control": 0.0,
+    "minimum_chart": 1.0,
+    "relative_metric_error": 2.1715962361668062e-13,
+    "metric_angular_error": 2.1715962361668062e-13,
+    "metric_E_error": 4.440892098500626e-16,
+    "metric_F_error": 0.0,
+    "sampled_curvature_max": 5.600000000014304,
+    "sampled_support_min": 0.5,
+    "maximum_radius": 1.4,
+    "maximum_abs_z": 0.0,
+    "maximum_abs_y": 0.5,
+    "held_witness_min_distance": 0.8999999999999999,
+    "held_required_upward_shift": 1.4901161193847656e-08,
+    "curvature_rate_feasibility": 1.4999999999856954,
+    "velocity_projection_error": 3.3306690738754696e-16,
+    "velocity_projection_first_derivative_error": 5.493981424231067e-14
+  },
+  "complete_control": false,
+  "closed_surface": false,
+  "metric_frozen": false,
+  "rows": [
+    {
+      "index": 0,
+      "status": 1,
+      "message": "A termination event occurred.",
+      "events": {
+        "chart": [],
+        "metric": [
+          0.11009846797875887
+        ],
+        "curvature_rate": [],
+        "slab": []
+      },
+      "last": {
+        "s": 0.11009846797875887,
+        "radius": 1.0054929349930806,
+        "radial_speed": 0.04393609291166562,
+        "radial_acceleration": 0.9429326350865822,
+        "control": 0.16666418280765702,
+        "control_rate": 3.277070527115187,
+        "requested_control": 0.34927208835394913,
+        "minimum_chart": 0.9722087150929358,
+        "relative_metric_error": 1.999999999657094e-05,
+        "metric_angular_error": 4.830695203517088e-06,
+        "metric_E_error": 2.482097799627603e-06,
+        "metric_F_error": 1.9978303986700196e-05,
+        "sampled_curvature_max": 5.57167989191167,
+        "sampled_support_min": 0.47952859757107313,
+        "maximum_radius": 1.4045726475423823,
+        "maximum_abs_z": 0.11009788220446504,
+        "maximum_abs_y": 0.5054730617173482,
+        "held_witness_min_distance": 0.9012429889174242,
+        "held_required_upward_shift": -0.010716457460999376,
+        "curvature_rate_feasibility": 1.52832010808833,
+        "velocity_projection_error": 1.9985438297292075e-05,
+        "velocity_projection_first_derivative_error": 0.002586699489259828
+      },
+      "extrema": {
+        "minimum_chart": 0.9722087150929358,
+        "relative_metric_error": 1.999999999657094e-05,
+        "metric_angular_error": 4.830695203517088e-06,
+        "metric_E_error": 2.482097799627603e-06,
+        "metric_F_error": 1.9978303986700196e-05,
+        "sampled_curvature_max": 5.600000000014304,
+        "sampled_support_min": 0.47952859757107313,
+        "maximum_radius": 1.4045726475423823,
+        "maximum_abs_z": 0.11009788220446504,
+        "maximum_abs_y": 0.5054730617173482,
+        "held_witness_min_distance": 0.8999999999999999,
+        "curvature_rate_feasibility": 1.4999999999856954,
+        "velocity_projection_error": 1.9985438297292075e-05,
+        "velocity_projection_first_derivative_error": 0.002586699489259828
+      }
+    }
+  ],
+  "metric_knots": [
+    {
+      "s": 0.0,
+      "radius": 1.0040828380214688,
+      "radial_speed": 0.0,
+      "radial_acceleration": 0.0
+    },
+    {
+      "s": 0.00625,
+      "radius": 1.0040828636876702,
+      "radial_speed": 1.6283558106743264e-05,
+      "radial_acceleration": 0.0077027927767045305
+    },
+    {
+      "s": 0.0125,
+      "radius": 1.0040832346848207,
+      "radial_speed": 0.00012473752358673864,
+      "radial_acceleration": 0.029073042797389224
+    },
+    {
+      "s": 0.018750000000000003,
+      "radius": 1.0040847780325937,
+      "radial_speed": 0.0004031838994577144,
+      "radial_acceleration": 0.06172582477352333
+    },
+    {
+      "s": 0.025,
+      "radius": 1.0040887623201673,
+      "radial_speed": 0.0009153740138048568,
+      "radial_acceleration": 0.10353669398759607
+    },
+    {
+      "s": 0.03125,
+      "radius": 1.0040968146122946,
+      "radial_speed": 0.0017125053290183948,
+      "radial_acceleration": 0.1526085920606244
+    },
+    {
+      "s": 0.037500000000000006,
+      "radius": 1.004110846284483,
+      "radial_speed": 0.002834576764874004,
+      "radial_acceleration": 0.207252896688366
+    },
+    {
+      "s": 0.043750000000000004,
+      "radius": 1.004132987033713,
+      "radial_speed": 0.00431166022953197,
+      "radial_acceleration": 0.26598070322427353
+    },
+    {
+      "s": 0.05,
+      "radius": 1.0041655267063943,
+      "radial_speed": 0.006165135669884946,
+      "radial_acceleration": 0.3274989836068146
+    },
+    {
+      "s": 0.05625,
+      "radius": 1.0042108647778711,
+      "radial_speed": 0.008408904621805522,
+      "radial_acceleration": 0.39070686875167343
+    },
+    {
+      "s": 0.0625,
+      "radius": 1.0042714673278568,
+      "radial_speed": 0.01105057212299727,
+      "radial_acceleration": 0.4546888593268691
+    },
+    {
+      "s": 0.06875,
+      "radius": 1.0043498312419308,
+      "radial_speed": 0.014092572406151771,
+      "radial_acceleration": 0.5187035195973915
+    },
+    {
+      "s": 0.07500000000000001,
+      "radius": 1.0044484551976738,
+      "radial_speed": 0.017533209636999145,
+      "radial_acceleration": 0.5821677147604069
+    },
+    {
+      "s": 0.08125,
+      "radius": 1.004569816823305,
+      "radial_speed": 0.021367588792692474,
+      "radial_acceleration": 0.6446374097481331
+    },
+    {
+      "s": 0.08750000000000001,
+      "radius": 1.0047163552812954,
+      "radial_speed": 0.02558841789611656,
+      "radial_acceleration": 0.7057856565310675
+    },
+    {
+      "s": 0.09375,
+      "radius": 1.0048904584216007,
+      "radial_speed": 0.030186669825376038,
+      "radial_acceleration": 0.7653840766164116
+    },
+    {
+      "s": 0.1,
+      "radius": 1.0050944541740565,
+      "radial_speed": 0.03515238162036596,
+      "radial_acceleration": 0.8233618118396498
+    },
+    {
+      "s": 0.10625000000000001,
+      "radius": 1.0053305979370117,
+      "radial_speed": 0.040468765696952735,
+      "radial_acceleration": 0.8763734492098308
+    },
+    {
+      "s": 0.11009846797875887,
+      "radius": 1.0054929349930806,
+      "radial_speed": 0.04393609291166562,
+      "radial_acceleration": 0.9429326350865822
+    }
+  ],
+  "sampled_additional_lead_required": 1.4901161193847656e-08,
+  "rhs_calls": 767
+}

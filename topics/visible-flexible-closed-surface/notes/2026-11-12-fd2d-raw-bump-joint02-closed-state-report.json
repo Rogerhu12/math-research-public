@@ -1,0 +1,466 @@
+{
+  "schema": "fd2d-closed-raw-bump-state-consumption-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bump-closed-state-consumer.py",
+    "bytes": 3262,
+    "sha256": "90688da5bb21dcc2d894665f691d1a8a12988b34b27e2e6aa04040d494b2f016"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "bytes": 39331,
+    "sha256": "2bf2d98aaa6c57752a78aeabf96a4d5541528c998b669b59fc139556203f1a22"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "representation": "clean",
+  "parameter_layout": {
+    "central": [
+      0,
+      15
+    ],
+    "tail": [
+      15,
+      31
+    ],
+    "physical_profile": [
+      31,
+      38
+    ],
+    "base_coast_T_fixed": 0.02,
+    "parameter_count": 38,
+    "raw_unknowns": 4691,
+    "raw_equations": 4685,
+    "unknowns_minus_equations": 6,
+    "physical_profile_definition": {
+      "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+      "source": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+        "bytes": 12253,
+        "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+      },
+      "base_candidate": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+        "bytes": 25453,
+        "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+      },
+      "parameters": [
+        -0.00759288845563114,
+        -0.018901765270381756,
+        -0.026024976829266803,
+        -0.03550597232795978,
+        -0.007051083844053206,
+        0.017283058269508912,
+        0.0126244156567645
+      ],
+      "parameter_count": 7,
+      "supports": [
+        [
+          0.34,
+          0.7915892713432515
+        ],
+        [
+          0.4528973178358129,
+          0.9044865891790643
+        ],
+        [
+          0.5657946356716258,
+          1.0173839070148774
+        ],
+        [
+          0.6786919535074387,
+          1.1302812248506902
+        ],
+        [
+          0.7915892713432515,
+          1.243178542686503
+        ],
+        [
+          0.9044865891790643,
+          1.356075860522316
+        ],
+        [
+          1.0173839070148774,
+          1.4689731783581288
+        ]
+      ],
+      "physical_endpoint": 1.4889731783581288,
+      "protected_cylinder": [
+        0.0,
+        0.32
+      ],
+      "protected_cut_neighborhood": [
+        1.4689731783581288,
+        1.4889731783581288
+      ],
+      "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+      "q_j": "(s-support_left)/(support_right-support_left)",
+      "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+      "uniform_basis_bounds": {
+        "value": 1.0,
+        "first": [
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965768,
+          9.216266735965762,
+          9.216266735965768
+        ],
+        "second": [
+          196.14297587978166,
+          196.1429758797817,
+          196.1429758797816,
+          196.1429758797817,
+          196.1429758797817,
+          196.1429758797815,
+          196.1429758797817
+        ]
+      },
+      "delta_scales_for_unit_a_second": [
+        0.00509832174980822,
+        0.00509832174980822,
+        0.005098321749808222,
+        0.00509832174980822,
+        0.00509832174980822,
+        0.0050983217498082245,
+        0.00509832174980822
+      ],
+      "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+      "physical_metric_changes_with_delta": true,
+      "radial_clock": "s is physical; scale 1; no warp",
+      "base_coast_T_fixed": true,
+      "central_and_cut_all_existing_jets_unchanged": true,
+      "same_g_refinement": false
+    },
+    "field_representation_kind": "coalesced_mesh_central_seed_plateau_v1",
+    "seed_weight_definition": {
+      "kind": "central_plateau",
+      "start": 0.32,
+      "end": 0.55,
+      "step": 5
+    }
+  },
+  "seed_weight_definition": {
+    "kind": "central_plateau",
+    "start": 0.32,
+    "end": 0.55,
+    "step": 5
+  },
+  "original_diagnostics": {
+    "residual_maximum": 0.3904810104886512,
+    "residual_rms": 0.030217185756120164,
+    "full_gauss_node_maximum": 0.7679799758695302,
+    "formal_curvature_node_maximum": 7.216729327919897,
+    "A": 1.3972807453821179,
+    "B": 0.497284047976582,
+    "gap": 0.8999966974055359,
+    "base_coast_T_fixed": 0.02,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      0.5593954244298928,
+      7.46210275429691e-19,
+      0.5387731023043529,
+      0.5371154601171932,
+      4.423598615913921e-18,
+      0.20358121527474593,
+      0.5359773693982715,
+      1.1032968299247547e-18,
+      8.121461783257033e-19,
+      0.4639754367105395,
+      0.06310869007759934,
+      1.6111370923415117e-19,
+      0.47511314160228646,
+      1.2
+    ],
+    "profile_deltas": [
+      -0.00759288845563114,
+      -0.018901765270381756,
+      -0.026024976829266803,
+      -0.03550597232795978,
+      -0.007051083844053206,
+      0.017283058269508912,
+      0.0126244156567645
+    ],
+    "minimum_n": -0.15586990379833354,
+    "maximum_n": 7.200447395892932,
+    "minimum_central_curvature": 0.10000000000000003,
+    "minimum_radius_at_nodes": 0.8,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false
+  },
+  "omitted_codazzi": {
+    "weight": 1.0,
+    "normalization": "weight*sqrt(2/angular_work)",
+    "row_order": "radial cell, equation n then m, angular point",
+    "rows": 50176,
+    "sampled_omitted_codazzi_maximum": 0.12867453083896563,
+    "sampled_omitted_node_rhs_maximum": 0.1506881022151354,
+    "residual_l2": 0.3006712663789329,
+    "profile_kind": "physical_bumps",
+    "original_equations_changed": false,
+    "independent_l_retained": true,
+    "finite_parameter_difference_used": false,
+    "exact_retained_terms_cancelled_before_projection": true,
+    "continuous_certificate": false,
+    "scope": "High angular complement of the two original trapezoidal correction equations on the recorded finite angular grid"
+  },
+  "locations": {
+    "continuous_certificate": false,
+    "raw_codazzi_n": {
+      "maximum": 0.14454938855678656,
+      "signed_value": -0.14454938855678656,
+      "cell": 81,
+      "mode": 2,
+      "coefficient": 1,
+      "endpoints": [
+        1.0637122293135557,
+        1.101036958018343
+      ],
+      "cell_length": 0.03732472870478731
+    },
+    "raw_codazzi_m": {
+      "maximum": 0.09877173301371422,
+      "signed_value": -0.09877173301371422,
+      "cell": 0,
+      "mode": 2,
+      "coefficient": 0,
+      "endpoints": [
+        0.0,
+        0.04
+      ],
+      "cell_length": 0.04
+    },
+    "full_gauss": {
+      "maximum": 0.7679799758695302,
+      "signed_value": -0.7679799758695302,
+      "angular_index": 198,
+      "node": 1,
+      "s": 0.04,
+      "xi": 4.859651136021712,
+      "material_u": 5.168046338215955,
+      "n_m_l": [
+        0.3466902735299684,
+        0.11733476184617213,
+        -2.175464923929679
+      ],
+      "target_K": -0.0
+    },
+    "formal_curvature": {
+      "maximum": 7.216729327919897,
+      "signed_value": 7.216729327919897,
+      "angular_index": 195,
+      "node": 96,
+      "s": 1.4629731783581288,
+      "xi": 4.7860200582032,
+      "material_u": 4.7860200582032,
+      "n_m_l": [
+        -0.02341743114885579,
+        -0.09458741344750339,
+        7.2154936100428415
+      ],
+      "target_K": -0.003254613213957838,
+      "cap": 7.2,
+      "active_points": 98,
+      "active_s_range": [
+        0.0,
+        1.4689731783581288
+      ]
+    },
+    "full_angular_codazzi": {
+      "n": {
+        "maximum": 0.2614805498693937,
+        "signed_value": -0.2614805498693937,
+        "angular_index": 252,
+        "xi": 6.1850105367549055,
+        "cell": 81,
+        "endpoints": [
+          1.0637122293135557,
+          1.101036958018343
+        ],
+        "cell_length": 0.03732472870478731,
+        "material_u_endpoints": [
+          6.210359876647202,
+          6.204541569232236
+        ]
+      },
+      "m": {
+        "maximum": 0.2037599643346561,
+        "signed_value": 0.2037599643346561,
+        "angular_index": 83,
+        "xi": 2.0371264863121317,
+        "cell": 7,
+        "endpoints": [
+          0.28,
+          0.32
+        ],
+        "cell_length": 0.03999999999999998,
+        "material_u_endpoints": [
+          2.8348137026434577,
+          2.8348137026434577
+        ]
+      }
+    },
+    "omitted_angular_codazzi": {
+      "n": {
+        "maximum": 0.12867453083896563,
+        "signed_value": 0.12867453083896563,
+        "angular_index": 176,
+        "xi": 4.319689898685966,
+        "cell": 68,
+        "endpoints": [
+          0.7888167465017251,
+          0.7915892713432515
+        ],
+        "cell_length": 0.002772524841526458,
+        "material_u_endpoints": [
+          3.650417108645804,
+          3.6531875932235405
+        ]
+      },
+      "m": {
+        "maximum": 0.111895538006056,
+        "signed_value": 0.111895538006056,
+        "angular_index": 89,
+        "xi": 2.184388641949153,
+        "cell": 7,
+        "endpoints": [
+          0.28,
+          0.32
+        ],
+        "cell_length": 0.03999999999999998,
+        "material_u_endpoints": [
+          2.920455993810241,
+          2.920455993810241
+        ]
+      }
+    }
+  },
+  "nonlinear_solve_performed": false,
+  "saved_field_altered": false,
+  "continuous_certificate": false,
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-closed-state-field.npz",
+    "bytes": 585240,
+    "sha256": "657c068cafa75fca54560cf9c2f74a9e28833399e8e743ed91aa682f37eb179d"
+  },
+  "actual_physical_metric": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-closed-state-physical-metric.json",
+    "bytes": 2680,
+    "sha256": "801e64e593e270cadd6657d27282cbaf57b6f0e4e7e1765325d19775486b2e5b"
+  },
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "4699581512446911/9007199254740992",
+      "8071363856515447/4503599627370496",
+      "7152134538914573/18014398509481984",
+      "-2582340621644751/2251799813685248",
+      "-4270780526463693/9007199254740992",
+      "-7470714443797987/36028797018963968",
+      "-3890749199725063/18014398509481984",
+      "808737346201303/4503599627370496",
+      "3404485090770815/9007199254740992",
+      "8112728885820263/72057594037927936",
+      "3372164067008939/144115188075855872",
+      "1703036733317893/36028797018963968",
+      "-6182919979669205/144115188075855872",
+      "-4872036693969779/36028797018963968",
+      "-5561394179379819/72057594037927936"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "-8696033009475846062724352304413314587790663135430731571443785555499219154196671128948345060923/1291480808996064178694194566451545754106630961584203582903313044890677744049955471720273936384",
+    "conservative_curvature_upper_exact": "2655414176401742623445731873224959877182057661840360468628946495295788248009467384008248841183/232222101302131413834602808478669110359867396877916732572520011226399468173020384504907300864",
+    "global_convexity_proved_by_l1_bound": false,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "16629518042829653614609599034092959542089063392640197897088491533599542343/4074071952668972172536891376818756322102936787331872501272280898708762599526673412366794752",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  },
+  "seconds": 5.436626901000636
+}

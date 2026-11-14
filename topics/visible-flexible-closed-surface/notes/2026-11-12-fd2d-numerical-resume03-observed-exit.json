@@ -1,0 +1,34 @@
+{
+  "scope": "Actual observed exit; no numerical response is inferred",
+  "run": "resume-03",
+  "poll_tool": "3f8a39",
+  "session": 17640,
+  "driver_exit_code": 2,
+  "worker_exception": {
+    "scope": "Actual client exception and own worker state; not a fabricated DN response.",
+    "unix_time": 1794452785.4545403,
+    "worker_pid": 6,
+    "worker_returncode": -9,
+    "exception": "RuntimeError('Weighted tail worker stopped')",
+    "call": 1,
+    "expected_response_exists": false
+  },
+  "last_runtime": {
+    "scope": "Observed own worker process only; no solver or geometry claim.",
+    "unix_time": 1794452783.3138554,
+    "worker_pid": 6,
+    "worker_returncode": null,
+    "status_file_available": true,
+    "last_live_memory": {
+      "unix_time": 1794452783.3138554,
+      "State": "S (sleeping)",
+      "VmHWM": "1029840 kB",
+      "VmRSS": "1029840 kB",
+      "VmData": "3734920 kB",
+      "Threads": "15"
+    }
+  },
+  "new_completed_iterations": 0,
+  "new_response_packet_exists": false,
+  "specific_kill_cause": "not established; SIGKILL is observed"
+}

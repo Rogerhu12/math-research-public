@@ -1,0 +1,41 @@
+{
+  "schema": "fd2d-explicit-physical-point-P1-refinement-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-physical-point-refinement-check.py",
+    "bytes": 10569,
+    "sha256": "30621ecd3c2364e757b3bb75fd43aef0f5c20f7288dcda19043972c74515bedb"
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_physical_point_refinement.py",
+    "bytes": 16638,
+    "sha256": "68c84652c073d2bd41e2ae29ea300ab53b288ffed37dc9c3b44f42ec5100fafc"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "bytes": 126857,
+    "sha256": "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "reused_R163_provider": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+    "bytes": 16752,
+    "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+  },
+  "native_reader": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_independent_tail_native_field.py",
+    "bytes": 23627,
+    "sha256": "d030b81e792e252be1d44d795d1c393a7a8c8fbf4336319de5bcabe0b2a4bbfd"
+  },
+  "completed": false,
+  "whole_finite_objective_evaluated": false,
+  "Jacobian_assembled": false,
+  "nonlinear_BVP_performed": false,
+  "body_performed": false,
+  "continuous_certificate_claimed": false,
+  "seconds": 0.06468717600000673,
+  "peak_rss_kib": 68824
+}

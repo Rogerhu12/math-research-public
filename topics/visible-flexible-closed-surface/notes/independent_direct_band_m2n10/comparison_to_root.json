@@ -1,0 +1,26 @@
+{
+  "root_directory_present": true,
+  "initial_exact_match": false,
+  "final_exact_match": false,
+  "solver_exact_match": true,
+  "checkpoint_arrays_exact_match": {
+    "coefficients": true,
+    "free_variables": true,
+    "knots": true,
+    "blocks": true,
+    "radial_grid": true,
+    "theta": true
+  },
+  "max_coefficient_difference": 0.0,
+  "initial_common_fields_exact_match": true,
+  "initial_fields_only_in_independent": [
+    "max_cartesian_domain_hessian_components_sampled"
+  ],
+  "initial_fields_only_in_root": [],
+  "final_common_fields_exact_match": true,
+  "final_fields_only_in_independent": [
+    "max_cartesian_domain_hessian_components_sampled"
+  ],
+  "final_fields_only_in_root": [],
+  "explanation": "The root report predates the added Hessian-component diagnostic field; all common numerical fields and all checkpoint arrays match exactly."
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "fd2d-prepared-frozen-geometry-cache-closed-group-v1",
+  "closed_utc": "2026-11-12T16:55:20.614396+00:00",
+  "implementation": "scripts/fd2d_gc_prepared_geometry_cache.py",
+  "api": "install_prepared_geometry_cache(problem, byte_limit=16*1024*1024)",
+  "new_source_frozen": true,
+  "input_field": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "input_run_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+    "bytes": 260072,
+    "sha256": "f73915e5da735e21a50e82163d9e888d616c94f73c0c6a8cff7e0e561a2f916f"
+  },
+  "actual_execution": {
+    "session_id": 50469,
+    "initial_chunk": "14da72",
+    "final_chunk": "3c7b4b",
+    "returncode": 0,
+    "internal_seconds": 12.073596700000053,
+    "wrapper_seconds": 27.44888859099956,
+    "peak_rss_kib": 92580,
+    "receipt": "notes/2026-11-12-fd2d-metric-prepared-geometry-cache-01-exit-receipt.json"
+  },
+  "dimensions": {
+    "raw": 31,
+    "tail": 16,
+    "nodes": 129,
+    "work": 512
+  },
+  "new_cache_binding_sha256": "c183ea7c9aad2b8dc30827a4cf8c9d0c1a1d2098fff464047598c62da214625c",
+  "original_vs_cached_maximum_differences": {
+    "original_vs_cached_coordinates": 0.0,
+    "original_vs_cached_reference": 0.0,
+    "repeated_coordinates": 0.0,
+    "repeated_reference": 0.0,
+    "different_delta_frozen_coordinates": 0.0,
+    "different_delta_frozen_reference": 0.0,
+    "different_actual_label_grid": 0.0,
+    "distinct_adjacent_binary_s": 0.0,
+    "left_side": 0.0,
+    "coast_side": 0.0,
+    "standalone_ruling": 0.0,
+    "repeated_ruling": 0.0,
+    "fixed_seed": 0.0,
+    "repeated_seed": 0.0
+  },
+  "actual_current_profile_changes_not_cached": {
+    "a": 1.8167711766547967e-05,
+    "a_s": 0.00028300757271115806,
+    "a_ss": 0.006798731827684534,
+    "c": 0.0002641258952644776,
+    "K": 0.006410631901930142
+  },
+  "exact_entry_side_u_s_difference_on_three_declared_angles": 1.190846767018484,
+  "cache_statistics": {
+    "schema": "fd2d-prepared-frozen-geometry-cache-statistics-v1",
+    "entries": 10,
+    "label_entries": 2,
+    "by_kind": {
+      "coordinates": {
+        "hits": 5,
+        "misses": 5,
+        "stores": 5,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 5
+      },
+      "ruling_jet": {
+        "hits": 1,
+        "misses": 1,
+        "stores": 1,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 1
+      },
+      "reference_point": {
+        "hits": 6,
+        "misses": 2,
+        "stores": 2,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 2
+      },
+      "seed_coordinate": {
+        "hits": 5,
+        "misses": 2,
+        "stores": 2,
+        "evictions": 0,
+        "uncached": 0,
+        "entries": 2
+      }
+    },
+    "label_hits": 25,
+    "label_misses": 2,
+    "label_evictions": 0,
+    "cached_array_payload_bytes": 313312,
+    "accounted_bytes": 340893,
+    "peak_post_eviction_accounted_bytes": 340893,
+    "byte_limit": 16777216,
+    "within_byte_limit": true,
+    "original_reference_staging_entries": 1,
+    "original_reference_staging_accounted_bytes": 54416,
+    "original_reference_statistics": {
+      "entries": 1,
+      "maximum_entries": 1,
+      "hits": 0,
+      "misses": 4,
+      "maximum_material_composition_residual": 0.0,
+      "maximum_numerical_native_GC_residual": 8.031498643229495e-16,
+      "evaluation": "known ruling label",
+      "loaded_old_mixed_cache_used": false
+    },
+    "maximum_material_composition_residual": 0.0,
+    "no_runtime_speedup_claim": true
+  },
+  "cache_identity_rule": "Registered actual longdouble label column checked by array_equal; exact binary64 radial bytes or scalar hex; full ordered chart side; static frozen binding",
+  "not_cached": [
+    "current a_delta/c_delta/K_delta or their parameter jets",
+    "raw correction",
+    "current tail angle jets at a_delta*sin(U)",
+    "full lifting",
+    "current Codazzi forcing or Jacobians",
+    "nonlinear R153/R155 actual field",
+    "core geometry depending on central c"
+  ],
+  "array_and_container_protection": {
+    "arrays_readonly": true,
+    "mapping_isolated": true
+  },
+  "copy_views_share_frozen_objects": true,
+  "exact_adjacent_s_separated": true,
+  "old_sources_unchanged": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_whole_profile": true,
+  "no_Jacobian": true,
+  "no_continuous_geometric_certificate": true,
+  "no_measured_runtime_speedup_claim": true,
+  "forced_eviction_stress_run": false,
+  "performance_evidence": "Existing22 first-iteration progress prefix only; no function-level profiler or causal timing attribution. See bound audit JSON.",
+  "next_integration_scope": "Numerical owner may install only on its new24 problem together with the separately frozen angular-operator layer; no active22/23 source changed.",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_prepared_geometry_cache.py",
+      "bytes": 13991,
+      "sha256": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03"
+    },
+    {
+      "path": "scripts/fd2d-metric-prepared-geometry-cache-check.py",
+      "bytes": 9695,
+      "sha256": "cf1bfd67c7c1240d66b8a4d37af40b6670d3fd55489f13020a941fcf09375409"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-prepared-frozen-geometry-cache.md",
+      "bytes": 11966,
+      "sha256": "c307740a9db7257e226e312cbf82db7675092d520510571365b6463ddf27cc2b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-prepared-geometry-cache-01-report.json",
+      "bytes": 12465,
+      "sha256": "a3a5d50a41b447eab6318f13d348f15bca9e2c1d860455ee2a4b51776207ff72"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-prepared-geometry-cache-01-exit-receipt.json",
+      "bytes": 772,
+      "sha256": "ab0d129ed812f90c20fcc111cec967c9a63bc3ad31a565a64b2ed0c2eb738fcc"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-prepared-geometry-cache-01-console.txt",
+      "bytes": 175,
+      "sha256": "9ddd3e64f08b6917075d8703688743f7544b22ad99a1c6d614e520c1a20133e0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-cache-path-audit22-01.json",
+      "bytes": 16857,
+      "sha256": "936f07a0d61346736671612e6f10f00e05db6dce9252342cb544307216107945"
+    }
+  ]
+}

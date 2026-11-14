@@ -1,0 +1,57 @@
+{
+  "status": "ACTUAL_FIRST_DN_CLOSED_BEFORE_INNER_BVP",
+  "launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json",
+    "bytes": 103214,
+    "sha256": "0a84349dbfbaf00c7670fe846605209fd8350722c439a0fd5c39931826de012d"
+  },
+  "selector": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-restart8000-v1.py",
+    "bytes": 18738,
+    "sha256": "200792dbe56a84c2cf1b3954f3a4c73a060bab8579029612d16ffe2f162c9b30"
+  },
+  "request_height": [
+    -0.0008134333054409601,
+    -8.64957723844244e-06,
+    -1.5587020479761313e-07,
+    -5.283357090312952e-09,
+    -2.9164062687724026e-10,
+    -1.480094316491007e-11,
+    -8.406906725605731e-13,
+    -7.348653561327229e-14,
+    3.5313399078854102e-16,
+    4.26903362113135e-15,
+    -2.294913788539867e-14,
+    -1.2519650726702976e-14,
+    -1.1482608899005066e-14,
+    6.558812198206414e-14
+  ],
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0001.json.gz",
+    "bytes": 254065,
+    "sha256": "7c17f5db4ae0977fcdff4ad338e04187dfacc990c3b9106e86819d50bfcbf074"
+  },
+  "packet_checks": {
+    "packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "7c17f5db4ae0977fcdff4ad338e04187dfacc990c3b9106e86819d50bfcbf074"
+    },
+    "residual": 6.168952323652266e-10,
+    "history_rows": 1,
+    "last_history_norm": 6.168952323652266e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 0,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "scope": "One actual DN only; outer remains unresolved."
+}

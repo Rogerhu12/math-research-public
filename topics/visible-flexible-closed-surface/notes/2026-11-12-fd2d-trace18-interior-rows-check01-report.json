@@ -1,0 +1,217 @@
+{
+  "schema": "fd2d-selected-interior-actual-Gauss-curvature-JVP-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-interior-check.py",
+    "bytes": 4507,
+    "sha256": "e8c4ea3d3b61c579b60289be79c8c55deac9b4f7813067c127e7607bb82ab5f3"
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_merit.py",
+    "bytes": 8377,
+    "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace17-b0002-accepted-0002.npz",
+    "bytes": 57887,
+    "sha256": "f36d789495c002b3b233dd28d0de210978e7aed76dbd24e9fe49bb648b7ddd1e"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T15:39:33.613326+00:00",
+  "completed": true,
+  "no_BVP": true,
+  "continuous_certificate": false,
+  "seconds": 2.6284196720007458,
+  "peak_rss_kib": 83556,
+  "actual": {
+    "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+    "selected_cells": [
+      63,
+      71,
+      118
+    ],
+    "points": [
+      0.600318454492792,
+      0.6230448948075515,
+      0.836498550294863,
+      0.8592249906096225,
+      1.4708467899832625,
+      1.474599566732995
+    ],
+    "sample_cell_indices": [
+      63,
+      63,
+      71,
+      71,
+      118,
+      118
+    ],
+    "fractions": [
+      0.21132486540518713,
+      0.7886751345948129,
+      0.21132486540518713,
+      0.7886751345948129,
+      0.21132486540518713,
+      0.7886751345948129
+    ],
+    "quadrature_mean_weights": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+    "physical_field_unchanged": true,
+    "physical_g_unchanged_by_extra_rows": true,
+    "unknown_mesh_unchanged": true,
+    "finite_Gauss_equations_changed": true,
+    "complete_actual_Gauss": true,
+    "full_parameter_chain_rule": true,
+    "full_Gauss_maximum": 255.29675123454544,
+    "high_Gauss_maximum": 0.5350424743756292,
+    "retained_residual_l2": 162.33060696285787,
+    "high_residual_l2": 0.2888421407616093,
+    "curvature_residual_l2": 903.0544073752058,
+    "curvature": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 798,
+      "repeated_eigenvalue_rows": 0,
+      "residual_l2": 1277.111790470814,
+      "sampled_formal_curvature_maximum": 75.73554671310411,
+      "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+      "complete_chain_derivative": true,
+      "actual_geometry_certified": false
+    },
+    "maximum_location": {
+      "cell": 63,
+      "s": 0.600318454492792,
+      "xi": 0.0,
+      "material_u": 0.0,
+      "G": 255.29675123454544,
+      "n_m_l": [
+        3.367968959143557,
+        0.0,
+        75.73554671310411
+      ],
+      "K": -0.22178080104394832
+    },
+    "continuous_certificate": false
+  },
+  "checks": [
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 2e-05,
+      "group": "retained",
+      "rows": 96,
+      "analytic_norm": 5.282095318011958,
+      "absolute_maximum": 2.7387412337986916e-09,
+      "relative_L2": 6.831095171013141e-10
+    },
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 2e-05,
+      "group": "high",
+      "rows": 294,
+      "analytic_norm": 0.20554611339483428,
+      "absolute_maximum": 5.171307930484925e-10,
+      "relative_L2": 6.979778430357074e-09
+    },
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 2e-05,
+      "group": "curvature",
+      "rows": 798,
+      "analytic_norm": 0.9500993363898059,
+      "absolute_maximum": 1.346981772648581e-09,
+      "relative_L2": 9.441304743512037e-09
+    },
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 1e-05,
+      "group": "retained",
+      "rows": 96,
+      "analytic_norm": 5.282095318011958,
+      "absolute_maximum": 8.067811751999443e-09,
+      "relative_L2": 1.5762930608389745e-09
+    },
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 1e-05,
+      "group": "high",
+      "rows": 294,
+      "analytic_norm": 0.20554611339483428,
+      "absolute_maximum": 1.3526430752384966e-09,
+      "relative_L2": 1.618902611136256e-08
+    },
+    {
+      "direction": "two_endpoint_state_columns",
+      "step": 1e-05,
+      "group": "curvature",
+      "rows": 798,
+      "analytic_norm": 0.9500993363898059,
+      "absolute_maximum": 2.2043224745527112e-09,
+      "relative_L2": 1.8444159074679097e-08
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 2e-05,
+      "group": "retained",
+      "rows": 96,
+      "analytic_norm": 0.04877084385991899,
+      "absolute_maximum": 7.105427362601734e-10,
+      "relative_L2": 2.460088811314635e-08
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 2e-05,
+      "group": "high",
+      "rows": 294,
+      "analytic_norm": 0.034022357771426044,
+      "absolute_maximum": 1.5467228208231404e-10,
+      "relative_L2": 2.1924440529340753e-08
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 2e-05,
+      "group": "curvature",
+      "rows": 798,
+      "analytic_norm": 0.06018285144091985,
+      "absolute_maximum": 5.336348006274722e-10,
+      "relative_L2": 6.518573120551533e-08
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 1e-05,
+      "group": "retained",
+      "rows": 96,
+      "analytic_norm": 0.04877084385991899,
+      "absolute_maximum": 7.815970092861028e-09,
+      "relative_L2": 1.9817398485992405e-07
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 1e-05,
+      "group": "high",
+      "rows": 294,
+      "analytic_norm": 0.034022357771426044,
+      "absolute_maximum": 3.493294715200851e-10,
+      "relative_L2": 4.318145261901574e-08
+    },
+    {
+      "direction": "all_tail_and_nonzero_physical_profile_columns",
+      "step": 1e-05,
+      "group": "curvature",
+      "rows": 798,
+      "analytic_norm": 0.06018285144091985,
+      "absolute_maximum": 1.21021728684452e-09,
+      "relative_L2": 1.2608590257566288e-07
+    }
+  ],
+  "maximum_relative_L2": 1.9817398485992405e-07
+}

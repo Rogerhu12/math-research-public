@@ -1,0 +1,43 @@
+{
+  "scope": "Author-side exact algebra and rational gates for the ramp provider.\nThis is not a PDE run, an embedding/reach certificate, or an independent audit.",
+  "proof": "notes/2026-11-10-78718-geometry-ramp-analytic-provider-v1.md",
+  "proof_sha256": "bb727afa2bc5ba13d1005df5d806757f69332d35c6ea172cfb7ac781a19d2402",
+  "checker_sha256": "1700548362dafb80d23c38882bf5a92cd1b24008bf0284532de5e983ac72d638",
+  "symbolic_checks": {
+    "gauss": true,
+    "codazzi_M": true,
+    "codazzi_C": true,
+    "frame_curvature_0_0": true,
+    "frame_curvature_0_1": true,
+    "frame_curvature_0_2": true,
+    "frame_curvature_1_0": true,
+    "frame_curvature_1_1": true,
+    "frame_curvature_1_2": true,
+    "frame_curvature_2_0": true,
+    "frame_curvature_2_1": true,
+    "frame_curvature_2_2": true,
+    "rotational_background_b": true,
+    "rotational_background_p": true,
+    "rotational_background_derivative": true
+  },
+  "rational_checks": {
+    "eps_lower": true,
+    "eps_upper": true,
+    "eta_lower": true,
+    "eta_upper": true,
+    "vu_bounds": true,
+    "vd_bounds": true,
+    "delta_lower": true,
+    "delta_upper": true,
+    "acceleration_upper": true,
+    "Q_upper": true,
+    "mu_upper": true,
+    "rouche_margin": true
+  },
+  "symbolic_count": 15,
+  "rational_count": 12,
+  "acceleration_upper_exact": "19689361/27262872",
+  "pde_runs": 0,
+  "geometric_candidate_runs": 0,
+  "passed": true
+}

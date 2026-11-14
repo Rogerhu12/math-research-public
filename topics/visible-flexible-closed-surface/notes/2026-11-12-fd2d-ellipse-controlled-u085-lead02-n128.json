@@ -1,0 +1,157 @@
+{
+  "scope": "Choose a new radial metric with actual-curvature feedback, finite IVP screen.\n\nThe exact formal construction uses a'=u(s)*a*kappa(s,theta=pi/2), with a fixed\nC1 control u. The Frenet equation then preserves ds^2+(a/a0)^2*ell0(theta)^2\ndtheta^2 while its positive-binormal chart exists. Numerical records below do\nnot prove continuum existence, all-time geometry, a tail match, or closure.\nThe feedback defines a new metric; it is not a refinement of a production g.\n",
+  "source_sha256": "08eb87ef75689692d418de61a346432f553c079305e320dd9616bd42504b5a21",
+  "control": [
+    {
+      "s0": 0.0,
+      "s1": 0.2,
+      "L": 0.2,
+      "u0": 0.0,
+      "u1": 0.0
+    },
+    {
+      "s0": 0.2,
+      "s1": 0.5,
+      "L": 0.3,
+      "u0": 0.0,
+      "u1": 0.85
+    },
+    {
+      "s0": 0.5,
+      "s1": 0.9,
+      "L": 0.4,
+      "u0": 0.85,
+      "u1": -0.85
+    },
+    {
+      "s0": 0.9,
+      "s1": 1.25,
+      "L": 0.35,
+      "u0": -0.85,
+      "u1": -0.85
+    }
+  ],
+  "nodes": 128,
+  "initial": {
+    "s": 0.0,
+    "radius": 0.9870588543320401,
+    "radial_speed": 0.0,
+    "minimum_chart": 1.0,
+    "metric_angular_error": 4.3853809472693683e-14,
+    "sampled_curvature_max": 6.913580246913604,
+    "sampled_support_min": 0.45,
+    "maximum_radius": 1.4,
+    "maximum_abs_z": 0.0,
+    "maximum_abs_y": 0.45,
+    "held_witness_min_distance": 0.95
+  },
+  "complete_control": false,
+  "closed_surface": false,
+  "rows": [
+    {
+      "index": 0,
+      "status": 0,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "events": {
+        "chart": [],
+        "metric": [],
+        "slab": [],
+        "height": []
+      },
+      "last": {
+        "s": 0.2,
+        "radius": 0.9870588543320401,
+        "radial_speed": 0.0,
+        "minimum_chart": 1.0,
+        "metric_angular_error": 4.960476474025199e-13,
+        "sampled_curvature_max": 6.913580246835284,
+        "sampled_support_min": 0.45000000000000784,
+        "maximum_radius": 1.4142135623730878,
+        "maximum_abs_z": 0.20000000000000004,
+        "maximum_abs_y": 0.4499999999999981,
+        "held_witness_min_distance": 0.970824391947383
+      },
+      "extrema": {
+        "minimum_chart": 1.0,
+        "metric_angular_error": 4.960476474025199e-13,
+        "sampled_curvature_max": 6.913580246936107,
+        "sampled_support_min": 0.45,
+        "maximum_radius": 1.4142135623730878,
+        "maximum_abs_z": 0.20000000000000004,
+        "maximum_abs_y": 0.4500000000000037,
+        "held_witness_min_distance": 0.95
+      }
+    },
+    {
+      "index": 1,
+      "status": 0,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "events": {
+        "chart": [],
+        "metric": [],
+        "slab": [],
+        "height": []
+      },
+      "last": {
+        "s": 0.5,
+        "radius": 1.03043526529746,
+        "radial_speed": 0.4203051214042986,
+        "minimum_chart": 0.08298754147425946,
+        "metric_angular_error": 7.033924998012253e-09,
+        "sampled_curvature_max": 9.798142719417301,
+        "sampled_support_min": -0.5281732881637125,
+        "maximum_radius": 1.4926964506210902,
+        "maximum_abs_z": 0.4998743662286938,
+        "maximum_abs_y": 0.5968190018696786,
+        "held_witness_min_distance": 0.9034659392707376
+      },
+      "extrema": {
+        "minimum_chart": 0.08298754147425946,
+        "metric_angular_error": 7.033924998012253e-09,
+        "sampled_curvature_max": 10.353361805744747,
+        "sampled_support_min": -0.5281732881637125,
+        "maximum_radius": 1.4926964506210902,
+        "maximum_abs_z": 0.4998743662286938,
+        "maximum_abs_y": 0.5968190018696786,
+        "held_witness_min_distance": 0.9034659392707376
+      }
+    },
+    {
+      "index": 2,
+      "status": 1,
+      "message": "A termination event occurred.",
+      "events": {
+        "chart": [],
+        "metric": [
+          0.5429566511370731
+        ],
+        "slab": [],
+        "height": []
+      },
+      "last": {
+        "s": 0.5429566511370731,
+        "radius": 1.0508723381877478,
+        "radial_speed": 0.5331623597973416,
+        "minimum_chart": 0.0011892167362888006,
+        "metric_angular_error": 1.9999999998576712e-05,
+        "sampled_curvature_max": 9.688193438228371,
+        "sampled_support_min": -0.6765848117560991,
+        "maximum_radius": 1.5105432910126277,
+        "maximum_abs_z": 0.5427130268461837,
+        "maximum_abs_y": 0.6362118145404044,
+        "held_witness_min_distance": 0.8608760737141757
+      },
+      "extrema": {
+        "minimum_chart": 0.0011892167362888006,
+        "metric_angular_error": 1.9999999998576712e-05,
+        "sampled_curvature_max": 9.798142719417301,
+        "sampled_support_min": -0.6765848117560991,
+        "maximum_radius": 1.5105432910126277,
+        "maximum_abs_z": 0.5427130268461837,
+        "maximum_abs_y": 0.6362118145404044,
+        "held_witness_min_distance": 0.8608760737141757
+      }
+    }
+  ],
+  "rhs_calls": 3570
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "utc": "2026-11-12T19:46:55.533026+00:00",
+  "session_id": 40483,
+  "initial_chunk_id": "b65d3f",
+  "completion_chunk_id": "eecf6c",
+  "observed_exit_code": 0,
+  "seconds": 0.46158047599965357,
+  "peak_rss_kib": 86520,
+  "exact_rational_checks": 140,
+  "continuous_boxes": 80,
+  "original_coarse_diagnostic": {
+    "chunk_id": "2ec750",
+    "observed_exit_code": 0,
+    "query_count": 80,
+    "all_signs_unresolved": true
+  },
+  "no_whole_F_J_BVP_or_body": true
+}

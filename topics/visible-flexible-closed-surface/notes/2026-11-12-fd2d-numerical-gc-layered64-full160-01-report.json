@@ -1,0 +1,48 @@
+{
+  "schema": "fd2d-real-nonlinear-tail-query-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-query-bounded.py",
+    "bytes": 6117,
+    "sha256": "99f2c0f9068b4c862958142c0e2f675cd047dc0c27fb7854080987df5b62a65b"
+  },
+  "worker": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v5.mjs",
+    "bytes": 20264,
+    "sha256": "8865178e86462c4adb1e6b650bbccf59e3f1041bd281e649a3ee55c54827c7f9"
+  },
+  "config": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/config.json",
+    "bytes": 22373,
+    "sha256": "d499a1f463ec82f857ff79bcbace04ad15fa603f62160514e45d36504953f9eb"
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/request.json",
+    "bytes": 91,
+    "sha256": "596d4d8f7a54b2ce1cd2bce37e082d31b4b275467fa4310b22d5780dee519aa1"
+  },
+  "request_value": {
+    "height": [
+      -1e-09,
+      0,
+      0,
+      0
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "scope": "Actual finite Fourier/depth nonlinear worker response; no infinite-tail or full-surface assertion.",
+  "actual_worker_command": [
+    "node",
+    "--max-heap-size=128",
+    "--max-semi-space-size=8",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v5.mjs",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-01/config.json"
+  ],
+  "exception": {
+    "type": "RuntimeError",
+    "message": "Worker EOF before ready; actual return code -6"
+  },
+  "worker_returncode_observed": -6,
+  "maximum_observed_worker_rss_kb": 146744,
+  "seconds": 35.56460666399994
+}

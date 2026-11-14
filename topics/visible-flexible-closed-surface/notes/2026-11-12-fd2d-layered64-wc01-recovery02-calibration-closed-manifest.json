@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-closed-research-files-v1",
+  "actual_owner_session": 57066,
+  "actual_exit_code": 0,
+  "scope": "Completed recovered finite physical tail calibration, conditional geometric proof, and lost-executor historical record. No actual nonlinear tail or strong target completion.",
+  "files": [
+    {
+      "path": "scripts/fd2d-bounded-tail-point-cache.mjs",
+      "bytes": 1767,
+      "sha256": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07"
+    },
+    {
+      "path": "scripts/fd2d-layered-tail-recovery-input.py",
+      "bytes": 1429,
+      "sha256": "8e90a0a40b6c9fabfac79d61c999a370c2322875cedad6b3ed3b2822a7fbc859"
+    },
+    {
+      "path": "scripts/fd2d-layered-tail-recovery-calibrate.mjs",
+      "bytes": 9285,
+      "sha256": "51502708e43a7f58530b80c7321373d430d821668a2327b0b0be23f8f230f4f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-layered64-slope-path-budget.md",
+      "bytes": 5532,
+      "sha256": "6f2c2eedfd627162abf0639c6a5dd5d0a6ce4328b83809bbec1c6818bd2366c3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-lost-executor-output.md",
+      "bytes": 1927,
+      "sha256": "0a1149be0c813816a7852b5f36d3a0abb411e8d645fc86be02ebefa6137cf73a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-initial-config.json",
+      "bytes": 18362,
+      "sha256": "26f55033513c19b341d035ea3ac6d1cb851d1a21e2d66d3ae658af94977e7f15"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-checkpoint.json",
+      "bytes": 83520,
+      "sha256": "536d1b09f235c85bd22b2a29d6a0629406d2fb64f6a4a302b02ccf5c6dbf3fe9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-config.json",
+      "bytes": 21376,
+      "sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-cells.jsonl.gz",
+      "bytes": 72569,
+      "sha256": "e49c27f90dd6ded05ccc51bab4fadced26750d1886f737c3d76e834c01bd50e6"
+    }
+  ]
+}

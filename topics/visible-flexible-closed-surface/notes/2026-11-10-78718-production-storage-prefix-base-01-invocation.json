@@ -1,0 +1,78 @@
+{
+  "schema": "78718-production-stage-invocation-v1",
+  "observer": "/root/numerical_recovery",
+  "recorded_utc": "2026-11-10T08:30:01.790418+00:00",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-production-stage-record-v1.py",
+    "bytes": 7156,
+    "sha256": "4c87bc4496ddeb14c66310777c3b7c98e78d19df70cfb94f5971699999ac2dc9"
+  },
+  "plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json",
+    "bytes": 297542,
+    "sha256": "232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9"
+  },
+  "stage": {
+    "id": "prefix-base",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+      "--",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+      "--source-root",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+      "--checkpoint",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "--linear-port",
+      "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "--out-prefix",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base",
+      "--modes",
+      "24",
+      "--angular",
+      "768",
+      "--quadrature",
+      "8",
+      "--subdivide",
+      "1",
+      "--ell",
+      "0"
+    ],
+    "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+    "depends_on": [],
+    "condition": "always",
+    "source": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+      "bytes": 1636,
+      "sha256": "f02862fe1e8b53ebb5cea862e64f1632d826f86ae0d9d613e0e066cef79d56ad"
+    },
+    "expected_output_paths": [
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json"
+    ],
+    "executed": false,
+    "completion_requirement": "Natural exit 0; the defining M24 base and its actual data_storage descriptor plus every content-addressed part must close and hash correctly. The original logical gzip/NPZ bytes are retained by the reviewed codec, with each raw part <=4,600,000 bytes and each physical file <5,000,000 bytes. The unchanged RLIMIT_FSIZE 4,999,999 wrapper remains; storage success is not a graph certificate.",
+    "additional_sources": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+        "bytes": 5138,
+        "sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957"
+      }
+    ]
+  },
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "environment_overrides": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VISIBLE_FLEX_SOURCE_ROOT": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts"
+  },
+  "production_directory": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01",
+  "files_before": [],
+  "preexisting_input_binding_count_verified": 354,
+  "stdout_log": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-01-stdout.log",
+  "execution_command": "exec env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 VISIBLE_FLEX_SOURCE_ROOT=/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root CLOSING_TAIL_CACHE=/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py --source-root /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root --checkpoint /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz --linear-port /workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json --out-prefix /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base --modes 24 --angular 768 --quadrature 8 --subdivide 1 --ell 0 > /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-01-stdout.log 2>&1",
+  "actual_command_started_by_this_program": false
+}

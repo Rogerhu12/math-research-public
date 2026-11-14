@@ -1,0 +1,142 @@
+{
+  "schema": "fd2d-shared-twojet-finite-fourier-material-field-v1",
+  "region": "prefix",
+  "modes": 512,
+  "nodes": 1025,
+  "producer": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-material-field-candidate.py",
+    "bytes": 17916,
+    "sha256": "aef93d450a93b575de9eaee7ef7149e909d4ee836d41080b8df400b2b73bad70"
+  },
+  "shards": [
+    {
+      "first_node": 0,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000000-000064.npz.gz",
+      "bytes": 3024758,
+      "sha256": "9df969a38835623c24d3f0bfda358a4f2992b869eeafce2601862ccff4c4aa79"
+    },
+    {
+      "first_node": 64,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000064-000128.npz.gz",
+      "bytes": 3054667,
+      "sha256": "967016c13bbdca023585561bc66184a4dc60207a72f0fd0feafead4fe9bba20c"
+    },
+    {
+      "first_node": 128,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000128-000192.npz.gz",
+      "bytes": 3053232,
+      "sha256": "4ff214b33934dc01c25734e4c84e649f898a0ac885c46bc2a7955c20c60d3802"
+    },
+    {
+      "first_node": 192,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000192-000256.npz.gz",
+      "bytes": 3056268,
+      "sha256": "17fec7c7215472cd6957f0fa3837d6d4da0f2cf6f938ea73ca6e0f1a21ac35e6"
+    },
+    {
+      "first_node": 256,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000256-000320.npz.gz",
+      "bytes": 3057152,
+      "sha256": "089a79a63ad714f87d10290ff30eff051b1a79cd2ef7247199c07886bcfdbe6d"
+    },
+    {
+      "first_node": 320,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000320-000384.npz.gz",
+      "bytes": 3059113,
+      "sha256": "59aca4f4c7623af1258e2e732f9a98bbd05c6bd373ff0dab7789423a011c6167"
+    },
+    {
+      "first_node": 384,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000384-000448.npz.gz",
+      "bytes": 3056384,
+      "sha256": "09516fc6908aaf61171a578727392caee59627e2d38b6fbd09c685bc429ba8e0"
+    },
+    {
+      "first_node": 448,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000448-000512.npz.gz",
+      "bytes": 3065070,
+      "sha256": "6d8c0d308646bb9a865da3a861aeba598bb06a5ee619c947973f327c8a5e606e"
+    },
+    {
+      "first_node": 512,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000512-000576.npz.gz",
+      "bytes": 3071043,
+      "sha256": "b774f3f982ae8d67346e6a8b865a83cefb2d78f64b639e1ff5b0f45fd16f9381"
+    },
+    {
+      "first_node": 576,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000576-000640.npz.gz",
+      "bytes": 3070026,
+      "sha256": "ea679eb25034cb641534051364442fbf9b0c587d46170cf4b07552a712452689"
+    },
+    {
+      "first_node": 640,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000640-000704.npz.gz",
+      "bytes": 3069403,
+      "sha256": "d435f0c2a261d3c8df2b18f131ed955179d5cacdd17492cd10328d84bcebd376"
+    },
+    {
+      "first_node": 704,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000704-000768.npz.gz",
+      "bytes": 3075598,
+      "sha256": "d3e44aeadb81044d025ee8949e0c5e2c47861d82550ab01e18cc5e79bedaabaa"
+    },
+    {
+      "first_node": 768,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000768-000832.npz.gz",
+      "bytes": 3078482,
+      "sha256": "b0c4f13da8829b21b430a0a864230ecb3403c9065ff41787562d3ce3d7bbd9a1"
+    },
+    {
+      "first_node": 832,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000832-000896.npz.gz",
+      "bytes": 3078010,
+      "sha256": "78aa641d603444e707ee56c9b1c6cd3d740ede1aac9b20bf7e4c954fc41598c2"
+    },
+    {
+      "first_node": 896,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000896-000960.npz.gz",
+      "bytes": 3077835,
+      "sha256": "03296e3f4a660784e5321683cc256ad566e353efc0f9614d53d91fa70f707f64"
+    },
+    {
+      "first_node": 960,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-000960-001024.npz.gz",
+      "bytes": 2816925,
+      "sha256": "1b5f0d9f85ad226d7c9eddf10e87a73c0fcaec1162ed5038f83dcd5f9c476980"
+    },
+    {
+      "first_node": 1024,
+      "node_count": 1,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-nodes-001024-001025.npz.gz",
+      "bytes": 408,
+      "sha256": "97faf04546736b5d0226785f6c98154df7f2727ba67a1f2de7dd30c1e9fc4a88"
+    }
+  ],
+  "coordinates": "native prefix s, saved psi; material u=psi-e(s)sin(3psi)/3",
+  "components": "p is native meridian displacement; q is physical angular displacement",
+  "basis": "sum cosine[n] cos(3n angle)+sine[n] sin(3n angle); n=0 sine is exactly zero",
+  "jets": "exact saved binary value, native first derivative, native second derivative",
+  "interpolation": "exact quintic Hermite from shared nodal two-jets; coefficient arithmetic interpreted over rationals",
+  "outside_radial_interval": "field and both native derivatives are identically zero where an endpoint zero two-jet permits this extension",
+  "field_is_actual_saved_finite_definition": true,
+  "uniform_metric_bound_certified": false,
+  "inverse_material_map_certified": false,
+  "full_surface_success": false
+}

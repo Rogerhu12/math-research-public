@@ -1,0 +1,75 @@
+{
+  "status": "closed-independent-review-of-fixed-R21-M12-segment-ball-budget",
+  "owner": "/root/independent_geometry",
+  "files": [
+    {
+      "path": "scripts/db6f-audit-m12-segment-ball-check.py",
+      "bytes": 10198,
+      "sha256": "21d61845ffcb5c1328be13cc82a349cd056960a64f1333f5a79e17c753edbd54",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-m12-segment-ball-check.json",
+      "bytes": 7372,
+      "sha256": "cef22848e41c50057bc639d597cdf72d28a8b364799c189ded7d4573ed20b8fe",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-m12-segment-ball-review.md",
+      "bytes": 8988,
+      "sha256": "f5d159299e8f74e3bf6840210a60f31d1c4bfd09553dfe09c1930f4c5a908eb6",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-m12-segment-ball-replay.json",
+      "bytes": 54651,
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-m12-segment-ball-replay.execution.json",
+      "bytes": 1369,
+      "sha256": "7e787cc659dffd5c6498851121d5008f0ed02923ae8709843547866eba295241",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-m12-segment-ball-replay.log",
+      "bytes": 595,
+      "sha256": "ff200141d89139f2cd976571c1c0ec57c593d7fed798ff5079d13564ab5d029d",
+      "closed": true
+    }
+  ],
+  "file_count": 6,
+  "total_bytes": 83173,
+  "separately_owned_frozen_dependencies": [
+    {
+      "path": "scripts/db6f-prefix-m12-segment-ball-budget.py",
+      "bytes": 11401,
+      "sha256": "b209f8e1feadf1fb39c9ba4c8173d617728d88532ebe130e92b3914b12066a89",
+      "owner": "/root/coupled_prefix"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-m12-segment-ball-proof.md",
+      "bytes": 8141,
+      "sha256": "bad275038aa56b96209620cfe91a0154fbb2dad55697c58264ea80b6c3044935",
+      "owner": "/root/coupled_prefix"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json",
+      "bytes": 54651,
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c",
+      "owner": "/root/coupled_prefix"
+    }
+  ],
+  "full_source_and_proof_review": "PASS",
+  "author_script_independent_replay_exit_code": 0,
+  "author_replay_byte_identical": true,
+  "independent_Fraction_checker_exit_code": 0,
+  "independent_exact_record_comparisons": 95,
+  "independent_frozen_file_bindings": 24,
+  "solver_root_backend_calls": 0,
+  "new_integrals_evaluated": false,
+  "new_geometry_created": false,
+  "analytic_certificate_rows_replayed": false,
+  "README_complete": false
+}

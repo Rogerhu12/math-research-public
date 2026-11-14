@@ -1,0 +1,44 @@
+{
+  "scope": "Replay a saved actual DN state with diagnostic-only line-search recording.\n\nThis performs no prefix BVP. Output remains a failed/unconverged response\nunless the unchanged shooting equations actually meet their original tol.\nThe max-iteration budget, recovery input and recording paths are the only\nconfiguration changes from the input config.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py",
+    "--source-root",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "--config",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-config.json",
+    "--checkpoint",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-input.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01",
+    "--max-iterations",
+    "8",
+    "--node-heap",
+    "1536"
+  ],
+  "script_sha256": "acf6d249aa07cb093b41406506b3df80e04ff7a6a81ef3b753755c0bb536c320",
+  "client_sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+  "input_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-config.json",
+  "input_config_sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c",
+  "input_checkpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-input.json.gz",
+  "input_checkpoint_sha256": "6c723e80597dade42a1e002e832638451f9e4cb1a4aa290510adf44d0952eae6",
+  "input_checkpoint_scope": "UNCONVERGED ZERO SHAPE INITIAL GUESS. cutHeight is the nonzero requested target label, not the zero state physical boundary height. The original cut residual is intentionally nonzero; no solved DN or geometric claim.",
+  "source_map": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-trial-diagnostic-source-map.json",
+  "source_map_sha256": "17dbd71341f82bf7605e743288f3a42526fd0f14a94d8eff9350c336ba1135b9",
+  "diagnostic_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-config.json",
+  "diagnostic_config_sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c",
+  "overrides": {
+    "initialCheckpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-input.json.gz",
+    "maxIterations": 8,
+    "traceFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trace.jsonl",
+    "iterationCheckpointFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-iteration.json.gz",
+    "trialDiagnosticFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-trials.jsonl",
+    "trialStatePrefix": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01-stage-input"
+  },
+  "original_projection_floor": 0.05,
+  "request": {
+    "jacobian": true,
+    "audit": false
+  },
+  "independent_static_review": "Root read all four shared-to-trial source diffs and found no change to RK/Jacobian/evaluation, trial steps, guard or strict norm-decrease acceptance. This is a source review, not a numerical result."
+}

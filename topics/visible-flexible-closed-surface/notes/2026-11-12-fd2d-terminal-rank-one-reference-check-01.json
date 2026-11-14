@@ -1,0 +1,39 @@
+{
+  "schema": "fd2d-terminal-rank-one-reference-check-v1",
+  "passed": true,
+  "scope": "Exact rational uniform curvature budget plus finite independent derivative/Codazzi checks; no actual14 replay, BVP or geometry-completion claim",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-terminal-rank-one-reference-check.py",
+    "sha256": "3137d6b62c52cc694c18a4c0d5200eb3964592ae6a4a645a0aec3fae9d388bcc",
+    "bytes": 4093
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_terminal_rank_one_reference.py",
+    "sha256": "edae03a13f19347c33258a089bec27738d9aaae5fd76619b28ad698e6d9abd98",
+    "bytes": 2770
+  },
+  "candidate": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "bytes": 25453
+  },
+  "exact_rational": {
+    "input_pd": "6530219459687219/4503599627370496",
+    "input_L": "7493989779944505/288230376151711744",
+    "pi_upper": "22/7",
+    "D_upper": "8507/70000",
+    "K_strict_upper": "75/64",
+    "kappa_upper": "4725/736",
+    "curvature_strict_cap": "33/5",
+    "cap_allowed_K": "21879/18400",
+    "strict_positive_margin": "633/36800"
+  },
+  "derivative_check_points": 561,
+  "difference_step": 2e-06,
+  "radial_jet_max_error": 5.5732675419140065e-11,
+  "angular_jet_max_error": 1.2433848395332348e-10,
+  "codazzi_formula_max_error": 8.973788379051939e-11,
+  "gauss_formula_max_error": 1.1102230246251565e-16,
+  "exact_zero_tail_values_preserved": true,
+  "wall_seconds": 0.0036072731018066406
+}

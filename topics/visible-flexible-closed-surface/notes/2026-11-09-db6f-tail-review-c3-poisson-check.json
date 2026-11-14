@@ -1,0 +1,391 @@
+{
+  "README_complete": false,
+  "author_replay_byte_identical": true,
+  "future_closed_surface_constructed": false,
+  "rows": [
+    {
+      "bounds": {
+        "delta": {
+          "lower_display_only": 0.4305117639490146,
+          "lower_exact": "2152558819745073/5000000000000000",
+          "upper_display_only": 0.4305117639490147,
+          "upper_exact": "4305117639490147/10000000000000000"
+        },
+        "diameter": {
+          "lower_display_only": 2.066985748748062,
+          "lower_exact": "20669857487480621/10000000000000000",
+          "upper_display_only": 2.066985748748062,
+          "upper_exact": "10334928743740311/5000000000000000"
+        },
+        "five_delta": {
+          "lower_display_only": 2.152558819745073,
+          "lower_exact": "5381397049362683/2500000000000000",
+          "upper_display_only": 2.152558819745073,
+          "upper_exact": "21525588197450733/10000000000000000"
+        },
+        "height_squared_allowance": {
+          "lower_display_only": 0.3610793869347157,
+          "lower_exact": "3610793869347157/10000000000000000",
+          "upper_display_only": 0.3610793869347158,
+          "upper_exact": "1805396934673579/5000000000000000"
+        },
+        "inradius": {
+          "lower_display_only": 0.7318717811284278,
+          "lower_exact": "3659358905642139/5000000000000000",
+          "upper_display_only": 0.7318717811284279,
+          "upper_exact": "7318717811284279/10000000000000000"
+        },
+        "plane_ratio": {
+          "lower_display_only": 0.2082799865503515,
+          "lower_exact": "416559973100703/2000000000000000",
+          "upper_display_only": 0.2082799865503516,
+          "upper_exact": "520699966375879/2500000000000000"
+        }
+      },
+      "budgets": [
+        {
+          "D": "43/20",
+          "eta": "0",
+          "length": "59/100",
+          "name": "conditional_whole_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "4949/38000",
+            "held_target": "511763949/1000000000000",
+            "possible_grip_disk_diameter": "17/100",
+            "possible_grip_disk_projection": "53983972641/125000000000",
+            "whole_diameter_squared": "1969914468535844934999/1000000000000000000000000"
+          }
+        }
+      ],
+      "finer_support_based_bounds_inside_published_intervals": true,
+      "full_support_terms": 1024,
+      "hmax_independent": {
+        "lower_display_only": 1.1623835450774425,
+        "lower_exact": "464953418030977/400000000000000",
+        "upper_display_only": 1.1623835450774427,
+        "upper_exact": "5811917725387213/5000000000000000"
+      },
+      "q": "9/10",
+      "r": "3/20",
+      "rho_max": "163/10",
+      "rho_min": "37/190"
+    },
+    {
+      "bounds": {
+        "delta": {
+          "lower_display_only": 0.4662648245614252,
+          "lower_exact": "1165662061403563/2500000000000000",
+          "upper_display_only": 0.4662648245614253,
+          "upper_exact": "4662648245614253/10000000000000000"
+        },
+        "diameter": {
+          "lower_display_only": 2.0735256366214236,
+          "lower_exact": "10367628183107119/5000000000000000",
+          "upper_display_only": 2.073525636621424,
+          "upper_exact": "20735256366214239/10000000000000000"
+        },
+        "five_delta": {
+          "lower_display_only": 2.331324122807126,
+          "lower_exact": "23313241228071261/10000000000000000",
+          "upper_display_only": 2.331324122807126,
+          "upper_exact": "11656620614035631/5000000000000000"
+        },
+        "height_squared_allowance": {
+          "lower_display_only": 1.1355635998561349,
+          "lower_exact": "2838908999640337/2500000000000000",
+          "upper_display_only": 1.1355635998561349,
+          "upper_exact": "11355635998561349/10000000000000000"
+        },
+        "inradius": {
+          "lower_display_only": 0.7038862271109501,
+          "lower_exact": "7038862271109501/10000000000000000",
+          "upper_display_only": 0.7038862271109502,
+          "upper_exact": "3519431135554751/5000000000000000"
+        },
+        "plane_ratio": {
+          "lower_display_only": 0.2248657148609703,
+          "lower_exact": "2248657148609703/10000000000000000",
+          "upper_display_only": 0.2248657148609704,
+          "upper_exact": "281082143576213/1250000000000000"
+        }
+      },
+      "budgets": [
+        {
+          "D": "23/10",
+          "eta": "0",
+          "length": "99/100",
+          "name": "conditional_whole_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "4009/39000",
+            "held_target": "6264824561/1000000000000",
+            "possible_grip_disk_diameter": "7/50",
+            "possible_grip_disk_projection": "403886227097/1000000000000",
+            "whole_diameter_squared": "2597858567832403107279/250000000000000000000000"
+          }
+        }
+      ],
+      "finer_support_based_bounds_inside_published_intervals": true,
+      "full_support_terms": 1024,
+      "hmax_independent": {
+        "lower_display_only": 1.1701510516723754,
+        "lower_exact": "5850755258361877/5000000000000000",
+        "upper_display_only": 1.1701510516723754,
+        "upper_exact": "2340302103344751/2000000000000000"
+      },
+      "q": "19/20",
+      "r": "3/20",
+      "rho_max": "333/10",
+      "rho_min": "67/390"
+    },
+    {
+      "bounds": {
+        "delta": {
+          "lower_display_only": 0.4826016958181669,
+          "lower_exact": "4826016958181669/10000000000000000",
+          "upper_display_only": 0.482601695818167,
+          "upper_exact": "482601695818167/1000000000000000"
+        },
+        "diameter": {
+          "lower_display_only": 2.0761901545918695,
+          "lower_exact": "2595237693239837/1250000000000000",
+          "upper_display_only": 2.0761901545918695,
+          "upper_exact": "20761901545918697/10000000000000000"
+        },
+        "five_delta": {
+          "lower_display_only": 2.4130084790908346,
+          "lower_exact": "6032521197727087/2500000000000000",
+          "upper_display_only": 2.413008479090835,
+          "upper_exact": "24130084790908349/10000000000000000"
+        },
+        "height_squared_allowance": {
+          "lower_display_only": 1.5120443621400528,
+          "lower_exact": "15120443621400527/10000000000000000",
+          "upper_display_only": 1.5120443621400528,
+          "upper_exact": "945027726337533/625000000000000"
+        },
+        "inradius": {
+          "lower_display_only": 0.6906284667688622,
+          "lower_exact": "6906284667688623/10000000000000000",
+          "upper_display_only": 0.6906284667688624,
+          "upper_exact": "431642791730539/625000000000000"
+        },
+        "plane_ratio": {
+          "lower_display_only": 0.2324458069270804,
+          "lower_exact": "581114517317701/2500000000000000",
+          "upper_display_only": 0.2324458069270805,
+          "upper_exact": "464891613854161/2000000000000000"
+        }
+      },
+      "budgets": [
+        {
+          "D": "12/5",
+          "eta": "0",
+          "length": "6/5",
+          "name": "conditional_whole_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "4479/49250",
+            "held_target": "1300847907/500000000000",
+            "possible_grip_disk_diameter": "3/25",
+            "possible_grip_disk_projection": "3906284597/10000000000",
+            "whole_diameter_squared": "9213322241452286439/976562500000000000000"
+          }
+        }
+      ],
+      "finer_support_based_bounds_inside_published_intervals": true,
+      "full_support_terms": 1024,
+      "hmax_independent": {
+        "lower_display_only": 1.1732301625870294,
+        "lower_exact": "11732301625870293/10000000000000000",
+        "upper_display_only": 1.1732301625870294,
+        "upper_exact": "5866150812935147/5000000000000000"
+      },
+      "q": "97/100",
+      "r": "3/20",
+      "rho_max": "1679/30",
+      "rho_min": "321/1970"
+    },
+    {
+      "bounds": {
+        "delta": {
+          "lower_display_only": 0.5014688317801602,
+          "lower_exact": "2507344158900801/5000000000000000",
+          "upper_display_only": 0.5014688323899141,
+          "upper_exact": "5014688323899141/10000000000000000"
+        },
+        "diameter": {
+          "lower_display_only": 2.0788809173802094,
+          "lower_exact": "10394404586901047/5000000000000000",
+          "upper_display_only": 2.07888091739214,
+          "upper_exact": "10394404586960699/5000000000000000"
+        },
+        "five_delta": {
+          "lower_display_only": 2.507344158900801,
+          "lower_exact": "2507344158900801/1000000000000000",
+          "upper_display_only": 2.5073441619495704,
+          "upper_exact": "3134180202436963/1250000000000000"
+        },
+        "height_squared_allowance": {
+          "lower_display_only": 1.9650288624767809,
+          "lower_exact": "307035759761997/156250000000000",
+          "upper_display_only": 1.9650288778150122,
+          "upper_exact": "9825144389075061/5000000000000000"
+        },
+        "inradius": {
+          "lower_display_only": 0.6748248374465022,
+          "lower_exact": "3374124187232511/5000000000000000",
+          "upper_display_only": 0.674824838050219,
+          "upper_exact": "674824838050219/1000000000000000"
+        },
+        "plane_ratio": {
+          "lower_display_only": 0.2412205661155568,
+          "lower_exact": "150762853822223/625000000000000",
+          "upper_display_only": 0.24122056641025,
+          "upper_exact": "964882265641/4000000000000"
+        }
+      },
+      "budgets": [
+        {
+          "D": "5/2",
+          "eta": "0",
+          "length": "69/50",
+          "name": "conditional_whole_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "631/7960",
+            "held_target": "29370429/20000000000",
+            "possible_grip_disk_diameter": "1/10",
+            "possible_grip_disk_projection": "374816451337/1000000000000",
+            "whole_diameter_squared": "23854114593351641769079/1000000000000000000000000"
+          }
+        }
+      ],
+      "finer_support_based_bounds_inside_published_intervals": true,
+      "full_support_terms": 1024,
+      "hmax_independent": {
+        "lower_display_only": 1.1762936698303792,
+        "lower_exact": "11762936698303791/10000000000000000",
+        "upper_display_only": 1.1762936698364164,
+        "upper_exact": "2940734174591041/2500000000000000"
+      },
+      "q": "99/100",
+      "r": "3/20",
+      "rho_max": "1693/10",
+      "rho_min": "307/1990"
+    },
+    {
+      "bounds": {
+        "delta": {
+          "lower_display_only": 0.5309669983554637,
+          "lower_exact": "5309669983554637/10000000000000000",
+          "upper_display_only": 0.5309669990010855,
+          "upper_exact": "1061933998002171/2000000000000000"
+        },
+        "diameter": {
+          "lower_display_only": 2.0835209713437512,
+          "lower_exact": "20835209713437511/10000000000000000",
+          "upper_display_only": 2.0835209713563834,
+          "upper_exact": "20835209713563833/10000000000000000"
+        },
+        "five_delta": {
+          "lower_display_only": 2.6548349917773186,
+          "lower_exact": "26548349917773187/10000000000000000",
+          "upper_display_only": 2.6548349950054275,
+          "upper_exact": "1061933998002171/400000000000000"
+        },
+        "height_squared_allowance": {
+          "lower_display_only": 2.7070891954834293,
+          "lower_exact": "6767722988708573/2500000000000000",
+          "upper_display_only": 2.7070892126762596,
+          "upper_exact": "6767723031690649/2500000000000000"
+        },
+        "inradius": {
+          "lower_display_only": 0.6556968867080613,
+          "lower_exact": "1639242216770153/2500000000000000",
+          "upper_display_only": 0.6556968873472907,
+          "upper_exact": "6556968873472907/10000000000000000"
+        },
+        "plane_ratio": {
+          "lower_display_only": 0.2548412066185258,
+          "lower_exact": "1274206033092629/5000000000000000",
+          "upper_display_only": 0.2548412069299415,
+          "upper_exact": "509682413859883/2000000000000000"
+        }
+      },
+      "budgets": [
+        {
+          "D": "13/5",
+          "eta": "0",
+          "length": "31/20",
+          "name": "conditional_whole_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "2639/99500",
+            "held_target": "1096666977/100000000000",
+            "possible_grip_disk_diameter": "2/25",
+            "possible_grip_disk_projection": "177844003649/500000000000",
+            "whole_diameter_squared": "1027521511551231326591/62500000000000000000000"
+          }
+        },
+        {
+          "D": "13/5",
+          "eta": "1/100",
+          "length": "3/2",
+          "name": "optional_leakage_budget",
+          "reconstructed_exact_margins": {
+            "core_reach_target_only": "2639/99500",
+            "held_target": "96666977/100000000000",
+            "possible_grip_disk_diameter": "2/25",
+            "possible_grip_disk_projection": "177844003649/500000000000",
+            "whole_diameter_squared": "5324969072521231326591/62500000000000000000000"
+          }
+        }
+      ],
+      "finer_support_based_bounds_inside_published_intervals": true,
+      "full_support_terms": 1024,
+      "hmax_independent": {
+        "lower_display_only": 1.1866638857027545,
+        "lower_exact": "1483329857128443/1250000000000000",
+        "upper_display_only": 1.1866638857091467,
+        "upper_exact": "2966659714272867/2500000000000000"
+      },
+      "q": "99/100",
+      "r": "1/10",
+      "rho_max": "896/5",
+      "rho_min": "104/995"
+    }
+  ],
+  "scope": "Auxiliary planar section and conditional whole-image scalar inequalities only.",
+  "script_sha256": "32555fe71af3907dd41ff53e0c1b85bafc72854666ae283048a7da3fbd74c2d7",
+  "solver_root_RK_geometry_backend_calls": 0,
+  "sources": [
+    {
+      "bytes": 14980,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-core.md",
+      "sha256": "df2f2857c8330dc9fd851d09e194ae731c46336e4dafba2a5cb9afd90cfd761f"
+    },
+    {
+      "bytes": 5362,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-poisson-bounds.py",
+      "sha256": "6f804847b44a8395c4abb5b325ed2b83f855c056b8bbc51ed1b7768e7f46c7b9"
+    },
+    {
+      "bytes": 28270,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-bounds.json",
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "bytes": 28270,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-replay.json",
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "bytes": 4418,
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "bytes": 3937,
+      "path": "topics/visible-flexible-closed-surface/results/R10-positive-support-offset-reach.md",
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "status": "PASS-independent-full-support-Fraction-reconstruction"
+}

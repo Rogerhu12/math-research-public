@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-actual-completion-receipt-v1",
+  "actual_exit_code": 0,
+  "session_id": 86586,
+  "initial_chunk_id": "65fdf7",
+  "final_chunk_id": "3fda05",
+  "source": {
+    "path": "scripts/fd2d_gc_signed_trace_window_certificate.py",
+    "bytes": 13065,
+    "sha256": "d5b588e356986e40d4c77e9fd6bbee342cb79fc6c14799686a1ae56b87264810"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-report.json",
+    "bytes": 12198,
+    "sha256": "44d3d9318ffa7b70f7bcc59cebf81df09e72b9c37562c05e1410cdb65b627a68"
+  },
+  "seconds": 0.856556405997253,
+  "peak_rss_kib": 85028,
+  "passed": true,
+  "receipt_written_after_observed_completion": true,
+  "mathematical_computation_repeated": false
+}

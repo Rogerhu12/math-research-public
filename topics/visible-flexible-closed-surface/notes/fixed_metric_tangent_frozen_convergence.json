@@ -1,0 +1,44 @@
+{
+  "scope": "One physical meridian metric and one p160 tail geometry. M4 design output is frozen before M8 angular/radial checks. Only a finite actual linear DN port; no nonlinear or infinite-tail closure.",
+  "rows": [
+    {
+      "source": "fixed_metric_tangent_p160_chart_design_m4_summary.json",
+      "modes": 4,
+      "actual_q_eff": 0.01,
+      "delta": 0.07252770232246168,
+      "nodes": 559,
+      "success": true,
+      "metric_l1": 2.056124477890375e-07,
+      "flow_defect": 6.013332209319534e-07,
+      "darboux_l1": 1.708334390385812e-05,
+      "weighted_bc": 1.3182906103772817e-11,
+      "port_height": 0.00015983673723340877
+    },
+    {
+      "source": "fixed_metric_tangent_p160_frozen_m8_summary.json",
+      "modes": 8,
+      "actual_q_eff": 0.009998774848046173,
+      "delta": 0.07252770232246168,
+      "nodes": 560,
+      "success": true,
+      "metric_l1": 2.2635194989446796e-10,
+      "flow_defect": 2.2584759526353456e-10,
+      "darboux_l1": 6.052658184015132e-08,
+      "weighted_bc": 7.480024013327239e-12,
+      "port_height": 0.00015981712222008974
+    },
+    {
+      "source": "fixed_metric_tangent_p160_frozen_m8_tight_summary.json",
+      "modes": 8,
+      "actual_q_eff": 0.009998603096179103,
+      "delta": 0.07252770232246168,
+      "nodes": 2915,
+      "success": true,
+      "metric_l1": 1.4505522822509642e-11,
+      "flow_defect": 5.311259337079752e-11,
+      "darboux_l1": 2.0697596648608146e-09,
+      "weighted_bc": 1.7644070565766663e-11,
+      "port_height": 0.00015981437363310152
+    }
+  ]
+}

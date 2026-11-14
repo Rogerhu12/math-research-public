@@ -1,0 +1,266 @@
+{
+  "status": "READ_ONLY_TRACKED_NOTES_REPRO_COPY_PREFLIGHT",
+  "recorded_utc": "2026-11-09T18:22:10.685503+00:00",
+  "source_script_sha256": "a3b293b2a388b77b65b02e67ba936bb3ff20fd9e24a9aba7453b8871f554cd29",
+  "primary": "/workspace/scratch/db6f0b0e7462/math-research",
+  "publication": "/workspace/scratch/db6f0b0e7462/math-publication",
+  "allowed_pathspecs": [
+    "topics/visible-flexible-closed-surface/notes",
+    "topics/visible-flexible-closed-surface/repro"
+  ],
+  "publication_git_admin": "/workspace/scratch/db6f0b0e7462/math-research/.git/worktrees/math-publication",
+  "summary": {
+    "tracked_target_files": 2598,
+    "present_same_hash_and_index_blob": 2597,
+    "publication_logical_bytes": 703354576,
+    "eligible_logical_bytes": 703350709,
+    "eligible_allocated_bytes": 709005312,
+    "eligible_single_link_distinct_inode_allocated_bytes": 709005312,
+    "same_inode_logical_bytes": 0
+  },
+  "exceptions": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-quadrature-cost.md",
+      "reason": "different_size",
+      "publication_bytes": 3867,
+      "primary_bytes": 4454
+    }
+  ],
+  "publication_status": {
+    "dirty_records": 0,
+    "untracked_records": 0,
+    "ignored_records": 0,
+    "raw_status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "clean_including_untracked_and_ignored": true
+  },
+  "read_interval_index_head_status_configs_and_hashed_files_unchanged": true,
+  "index_and_head": {
+    "/workspace/scratch/db6f0b0e7462/math-research/.git/worktrees/math-publication/index": {
+      "stat": [
+        20890949,
+        1794248466335999118,
+        2515824,
+        27,
+        1
+      ],
+      "sha256": "e0872b58678ead819e658d2ddc3448710f10923a2a3480397ff0c383231a638e"
+    },
+    "/workspace/scratch/db6f0b0e7462/math-research/.git/worktrees/math-publication/HEAD": {
+      "stat": [
+        41,
+        1794246379697666927,
+        2515355,
+        27,
+        1
+      ],
+      "sha256": "4ef844df58b2d93afc721146db3ed64600e31c6363632f5d141b3c327f88ec49"
+    }
+  },
+  "effective_safe_config_values": {
+    "publication": {
+      "extensions.worktreeConfig": {
+        "found": true,
+        "value": "true"
+      },
+      "core.sparseCheckout": {
+        "found": true,
+        "value": "true"
+      },
+      "core.sparseCheckoutCone": {
+        "found": true,
+        "value": "true"
+      },
+      "index.sparse": {
+        "found": false,
+        "value": null
+      },
+      "core.bare": {
+        "found": true,
+        "value": "false"
+      },
+      "core.worktree": {
+        "found": false,
+        "value": null
+      }
+    },
+    "primary": {
+      "extensions.worktreeConfig": {
+        "found": true,
+        "value": "true"
+      },
+      "core.sparseCheckout": {
+        "found": true,
+        "value": "true"
+      },
+      "core.sparseCheckoutCone": {
+        "found": true,
+        "value": "true"
+      },
+      "index.sparse": {
+        "found": false,
+        "value": null
+      },
+      "core.bare": {
+        "found": true,
+        "value": "false"
+      },
+      "core.worktree": {
+        "found": false,
+        "value": null
+      }
+    }
+  },
+  "existing_sparse_patterns": {
+    "publication": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/.git/worktrees/math-publication/info/sparse-checkout",
+      "sha256": "518d77a5cad0c177b44d5329b5fd3f27fdf0dafda434e8ed99b3aa6350732a55",
+      "text": "/*\n!/*/\n/topics/\n!/topics/*/\n/topics/visible-flexible-closed-surface/\n"
+    },
+    "primary": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/.git/info/sparse-checkout",
+      "sha256": "518d77a5cad0c177b44d5329b5fd3f27fdf0dafda434e8ed99b3aa6350732a55",
+      "text": "/*\n!/*/\n/topics/\n!/topics/*/\n/topics/visible-flexible-closed-surface/\n"
+    }
+  },
+  "target_manifest_sha256": "a85a819dcc6d0a42bc15bddfed3cc17136026d269678d5b6bcfa904e3ad66880",
+  "largest_verified_copies": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part02.f64.gz",
+      "bytes": 4419822,
+      "sha256": "8d2567c34f937faffcdf6aeb5d8fe0a02d1cdbbd95b804d2a722c1c5c162fe34",
+      "index_blob_oid": "a8f168ee957fc8ad7ad8ddb16a90ea47713c437a",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part01.f64.gz",
+      "bytes": 4419547,
+      "sha256": "944632be1bc7444efe7992fa2662c254fa422576960c3ca01e7d7037d67332fb",
+      "index_blob_oid": "9a516bd8f446ffba339af08347511940d22ad0ac",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part00.f64.gz",
+      "bytes": 4419117,
+      "sha256": "1ec3b3e10943c65b40e1eb438d1d0733d070287771e06c393c761d2c3408a9ad",
+      "index_blob_oid": "5f2def3c0b29a033469036901fc6ccea0baddcf2",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part01.f64.gz",
+      "bytes": 4418921,
+      "sha256": "0a6924fb0baf22c5e1fd4b24f0c3a8f76b0484cee393973da733d61aa98b2832",
+      "index_blob_oid": "bd8cbb25d25bde84c8832ff716926bdd188ad857",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part00.f64.gz",
+      "bytes": 4418763,
+      "sha256": "b130ce387316349117e350d56c839da1e2613ae57362449f5ac7dc457b233c70",
+      "index_blob_oid": "c706e8235eca11b8def049afe55ca2ee6b36cf4a",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part00.f64.gz",
+      "bytes": 4418760,
+      "sha256": "89d97fd07d12e3f926e5cdacb2e8801ca72a79d0232f67806b5a3792b2ee8f5e",
+      "index_blob_oid": "7454a574ae20d1d763228c9fd48be883330b7ee8",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part01.f64.gz",
+      "bytes": 4418718,
+      "sha256": "8e857cc1dc12b6981f2b7fd4c7de05b6bf30f4fe63bdeae688f875e79409ca2d",
+      "index_blob_oid": "19cabb458ab5d59108bef546fc9dcbee0bfc0073",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part01.f64.gz",
+      "bytes": 4418707,
+      "sha256": "c63c27e0cf6b106d23d552a847e46968d23d29d0b5f715569ff10bacbea948a9",
+      "index_blob_oid": "94f907f44df822c84df25d9a5dc78946f9cbfee3",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part01.f64.gz",
+      "bytes": 4418569,
+      "sha256": "1ed526b321d2ff094fc8d2a1ea5b86a7598438db0a1683b9aa49730ce99a0d7a",
+      "index_blob_oid": "67668fe0630c218c7d812f0d781a01cdfb9f89e7",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part01.f64.gz",
+      "bytes": 4418227,
+      "sha256": "9d641224842d713104276e3eea7c4a8fa2320ebad99f1963120d6e830de5bb42",
+      "index_blob_oid": "5f9c90c55334de4a757b7c88708b7b454951585d",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part03.f64.gz",
+      "bytes": 4404843,
+      "sha256": "5e5dd52801047e90fcf03fbe57d9f32cd0358f46a22219ed86350f0686b9b182",
+      "index_blob_oid": "82e1e885f9dc2f27c539143acf33b41301de3625",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part01.f64.gz",
+      "bytes": 4400138,
+      "sha256": "8583d151b5d40a6c3aa9fe8715166ea2acc79ccb944b9d9ce8219edc08268a13",
+      "index_blob_oid": "81fe1b52abce6bbb7b1d06905762d4fe3ca720c2",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part01.f64.gz",
+      "bytes": 4400099,
+      "sha256": "97e111abeba66c01b0cc49fb0add63b76c8da24b0bea566e19c05aa8cb884bc1",
+      "index_blob_oid": "3d4abc7ab5cfb97e1e529620d9d10a00198ef9ee",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part01.f64.gz",
+      "bytes": 4400049,
+      "sha256": "c9d6e0ae5591e713755356c4212ec457d56c329ecf08092d80da5062c65a3d08",
+      "index_blob_oid": "a88c2c8b639d741a025fff5a307e894e86a42ac1",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part00.f64.gz",
+      "bytes": 4396922,
+      "sha256": "ef6fc206d1711c2b66f2cf6ed042406a78f40f44dcdb79a87cfb47f4a6734cb4",
+      "index_blob_oid": "124652ea7447f9668f37e015a820fc8b30d7da48",
+      "publication_nlink": 1,
+      "same_inode_as_primary": false
+    }
+  ],
+  "git_commands_read_only": [
+    "status --porcelain -z --untracked-files=all --ignored=matching",
+    "ls-files --stage -z -- notes/repro",
+    "config --get on six explicit nonsensitive keys"
+  ],
+  "optional_locks_fsmonitor_untracked_cache_disabled": true,
+  "lazy_fetch_disabled": true,
+  "global_and_system_config_disabled": true,
+  "sparse_checkout_config_index_refs_or_files_changed": false,
+  "solver_calls": 0,
+  "current_or_future_open_writer_absence_proved": false,
+  "limitations": [
+    "A stable read interval and clean Git status do not prove that no process holds a file open or will start writing; the root publication-worktree owner must confirm quiescence before changing checkout scope.",
+    "Only the exact tracked notes/repro paths are compared; no new scan of other directories is performed.",
+    "Raw blob hashes match the publication index without clean/smudge transformations; the same bytes exist in primary.",
+    "Distinct inode/single-link allocated-block sums are a space estimate, not a guarantee of exact overlay free-space recovery.",
+    "No sparse-checkout, worktreeConfig, index, reference, or checkout mutation was performed."
+  ]
+}

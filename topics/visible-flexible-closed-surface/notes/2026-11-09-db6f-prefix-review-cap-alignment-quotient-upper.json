@@ -1,0 +1,48 @@
+{
+  "verdict": "PASS",
+  "reviewer": "/root/coupled_prefix",
+  "author": "/root",
+  "scope": "Full mathematical text and applications to frozen already-reviewed R16/R17/R21. No new numerical computation; not the final independent candidate replay.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-cap-alignment-quotient-upper.md",
+      "bytes": 4955,
+      "sha256": "3d32b256f06b84f3785a3796ddd4820174ce2bdab374d6ba89f747f1ca6d87ab"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R16-fixed-cap-volume-moment-noncongruence.md",
+      "bytes": 4869,
+      "sha256": "278753736f651a82e64bc9d6de61b290395eb3d48390c7b8aef73f939dd565f1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R17-exact-finite-visible-closed-geometry.md",
+      "bytes": 15067,
+      "sha256": "d7ad70cfb98d552ce0832555c230b644e49a21cd5cef2ae16a291013ad66e725"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "bytes": 14695,
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c"
+    }
+  ],
+  "review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-cap-alignment-quotient-upper.md",
+    "bytes": 6301,
+    "sha256": "3b2876166771e02c9ee7a24410500dbf6944d0ef2e617d6aac0cd02b1f2f7b9f"
+  },
+  "checks": {
+    "whole_image_decomposition": true,
+    "rotation_inverse_sign": true,
+    "both_directed_Hausdorff_distances": true,
+    "common_union_contraction": true,
+    "nonnegative_disjoint_bumps_range": true,
+    "actual_binary_cuff_not_replaced": true,
+    "strict_positive_quotient_imported_from_R21": true,
+    "diameter_lower_bound_and_strict_ratio": true,
+    "held_quantity_not_changed": true,
+    "scope_limited_to_fixed_candidate": true
+  },
+  "required_revisions": [],
+  "new_solver_runs": 0,
+  "new_geometry_certifications": 0
+}

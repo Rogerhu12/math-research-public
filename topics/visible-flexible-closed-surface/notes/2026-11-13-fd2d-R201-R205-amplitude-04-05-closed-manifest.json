@@ -1,0 +1,161 @@
+{
+  "schema": "fd2d-R201-R205-amplitude-continuation-04-05-closed-v1",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-run-R201-R205-variable-amplitude-slice-reuse.cjs",
+      "bytes": 7065,
+      "sha256": "e8d6c720e9f413bec22ca01e112c9f0c731a753c8e527c6535af5006c7a0d96b",
+      "commit": "3a7dbf4d5965edc5c61473bcc0aa4d92b20d1b6d"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-04-checkpoint.json",
+      "bytes": 56494,
+      "sha256": "c72ac47e56ecedf9527ed53a58c961f2fefcec7adc58174273dfdb07cd4ef510",
+      "commit": "56b3d8d8798b2b8f3ba1c4b8b088ab069e5e8ffe"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-05-checkpoint.json",
+      "bytes": 58528,
+      "sha256": "f5708c59bbee004bb859d9205d5eb097c2638e6d682d8a27c92a63d0bf0280c8",
+      "commit": "754d3b0b5fd63e88850cfbfa2594eb2c40b2611a"
+    }
+  ],
+  "parent": {
+    "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-02-03-closed-manifest.json",
+    "sha256": "aea63071a7f192a92657ccf9267e567a58745c9c182d8483a94ca81f23dda586"
+  },
+  "actual": [
+    {
+      "iteration": 4,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "seconds": 119.667,
+      "normalSeconds": 92.879,
+      "R2": 0.01563261607619466,
+      "A": 0.18159353177762397,
+      "alpha": 1,
+      "lambda": 0.0037037037037037034,
+      "nextLambda": 0.0012345679012345679,
+      "metric": 0.4282240973260789,
+      "kappa": 15.521299208914193,
+      "originalEquationRelativeResidual": 2.1077549519369562e-16,
+      "normalSliceReuse": null,
+      "finalSliceReuse": null
+    },
+    {
+      "iteration": 5,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "seconds": 91.95,
+      "normalSeconds": 77.294,
+      "R2": 0.01457915471954206,
+      "A": 0.19246219740837273,
+      "alpha": 1,
+      "lambda": 0.0012345679012345679,
+      "nextLambda": 0.00041152263374485596,
+      "metric": 0.43497603870121343,
+      "kappa": 14.658173740402404,
+      "originalEquationRelativeResidual": 8.628023976726095e-16,
+      "normalSliceReuse": {
+        "calls": 1029,
+        "hits": 359,
+        "builds": 670,
+        "invalidations": 0,
+        "uncachedBuildMilliseconds": 53827,
+        "valueHits": 276,
+        "derivativeHits": 83,
+        "valueEntries": 278,
+        "derivativeEntries": 96,
+        "valueLimit": 512,
+        "derivativeLimit": 96,
+        "key": "Every complete parameter via Object.is, exact physical s, separate derivative flag",
+        "eviction": "Clear all on state change; retain first entries at each explicit limit",
+        "cachedNodePackets": 0,
+        "approximationIntroduced": false
+      },
+      "finalSliceReuse": {
+        "calls": 1767,
+        "hits": 819,
+        "builds": 948,
+        "invalidations": 1,
+        "uncachedBuildMilliseconds": 64370,
+        "valueHits": 736,
+        "derivativeHits": 83,
+        "valueEntries": 278,
+        "derivativeEntries": 0,
+        "valueLimit": 512,
+        "derivativeLimit": 96,
+        "key": "Every complete parameter via Object.is, exact physical s, separate derivative flag",
+        "eviction": "Clear all on state change; retain first entries at each explicit limit",
+        "cachedNodePackets": 0,
+        "approximationIntroduced": false
+      }
+    }
+  ],
+  "evaluationImplementationChange": {
+    "onlyIteration5": true,
+    "source": "scripts/fd2d-R201-R205-variable-amplitude-slice-reuse.cjs",
+    "sha256": "65f8c554c4b9ce1e2838dddbeaadb99ab7029c2bc64f15b86d09f3eb4d1bfd4d",
+    "physicalFunctionsUnchanged": true,
+    "rowsAndWeightsUnchanged": true,
+    "proofManifest": "notes/2026-11-13-fd2d-R201-R205-slice-reuse-closed-manifest.json",
+    "limits": {
+      "value": 512,
+      "derivative": 96
+    }
+  },
+  "execution": {
+    "runtime": "functions pure V8",
+    "cells": [
+      "g4:94",
+      "g4:96"
+    ],
+    "bothCompleted": true,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null,
+    "replayDriverSyntaxChecked": true,
+    "replayDriverOSExecuted": false
+  },
+  "timingScope": "Reported actual single-step times and counters; no universal speed factor inferred.",
+  "APIjournal": [
+    {
+      "event": "API_error",
+      "path": "scripts/fd2d-run-R201-R205-variable-amplitude-slice-reuse.cjs",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 409: {\"message\":\"is at ec02b4020142f5b0d46c04e7a4c5c53a704720e8 but expected 00bf57adc6893bfc76c9027b18e69eb6255dc135\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 409: {\"message\":\"is at ec02b4020142f5b0d46c04e7a4c5c53a704720e8 but expected 00bf57adc6893bfc76c9027b18e69eb6255dc135\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+          "error_code": "CONFLICT",
+          "error_data": {
+            "message": "is at ec02b4020142f5b0d46c04e7a4c5c53a704720e8 but expected 00bf57adc6893bfc76c9027b18e69eb6255dc135",
+            "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents",
+            "status": "409"
+          }
+        },
+        "isError": true
+      },
+      "utc": "2026-11-13T02:34:55.220Z"
+    },
+    {
+      "event": "immediate_literal_pull_after_409",
+      "result": {
+        "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+      },
+      "utc": "2026-11-13T02:34:55.221Z"
+    },
+    {
+      "event": "API_README_only",
+      "reads": [
+        "f787a306d90892d8dec765dc59747d60ba39f055",
+        "71875538fe72d500277129b7f67d99f89d21c9e0"
+      ]
+    }
+  ],
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

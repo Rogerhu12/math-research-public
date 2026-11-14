@@ -1,0 +1,65 @@
+{
+  "schema": "R203-actual-two-accepts-closed-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_scaled_band_border_lm_R203.cjs",
+      "bytes": 15268,
+      "commit": "0395026147d1c51442b9a3c00e8e4679766fc224"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-run-geometry-guided-position-R203.cjs",
+      "bytes": 4000,
+      "commit": "3e4282220fbb442dd99510896311cb6c89d640a0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R203-first-run-unsupported-schema-source.cjs",
+      "bytes": 4003,
+      "commit": "a761baf388fee792892f5ee0ed94750649ea9302"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R203-first-run-implementation-failure.json",
+      "bytes": 912,
+      "commit": "526c548c236df8c8156e9ed3e809c1e41c9cbca1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R203-freecut-geometry-01-initial.json",
+      "bytes": 23295,
+      "commit": "c7c0e50dc002c094411f21d700294ec0f8035391"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R203-freecut-geometry-01-two-accepted.json",
+      "bytes": 47616,
+      "commit": "157ca2b0185ce9536c34e15f2bb789177821195f"
+    }
+  ],
+  "parentMain": "38deca30e2a307fa73211d7c5054bdc694d443a8",
+  "completeGeometrySourceCommit": "aad9bc305b1d5494514d5a486999207a262eefb9",
+  "completeProofCommit": "47b446ca13abaf617cec1fc6bd2f617a0b9ee5b6",
+  "actualJacobianReportCommit": "145eda6b2840f633789ff04b3b714c683ce3a691",
+  "sourceGitBlobs": {
+    "fd2d-direct-position-tangent-lift-baseline-R187.cjs": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+    "fd2d-nonuniform-metric-provider-R196.cjs": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+    "fd2d-nonuniform-curvature-provider-R196.cjs": "4512b251cd28727b714015b88e68ca8e8411cf08",
+    "fd2d-cubic-spline-refinement-R196.cjs": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+    "fd2d-position-curvature-chain-R191.cjs": "7abcea6d968125aee8bc807e2f797b2227746828",
+    "fd2d_band_border_lm_adapter_v2_R195.cjs": "3c358ed9e75bc05c62eb8dd40870b1e594fd37ba"
+  },
+  "runtime": "actual pure V8 functions execution, no OS child or exit code",
+  "failedAttempt": {
+    "cell": "43",
+    "kind": "implementation schema mismatch",
+    "accepted": 0,
+    "normalReturned": true
+  },
+  "successfulAttempt": {
+    "cell": "45",
+    "accepted": 2,
+    "actualFullValues": true,
+    "initialR2": 0.03369112321226578,
+    "finalR2": 0.019705968938001125
+  },
+  "objectiveChangeExplicit": true,
+  "completePhysicalMetricFixedDuringDesign": false,
+  "continuousGeometryOrMetricCertificate": false,
+  "strongTargetComplete": false
+}

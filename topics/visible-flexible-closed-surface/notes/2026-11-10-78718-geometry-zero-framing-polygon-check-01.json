@@ -1,0 +1,49 @@
+{
+  "P": {
+    "all_L_in_closed_interval_43_44": true,
+    "minimum_segment_distance_squared": "1/100",
+    "minimum_segment_witness": {
+      "L": "43",
+      "first": 0,
+      "second": 5
+    },
+    "minimum_vertex_edge_distance_squared": "1/100",
+    "minimum_vertex_edge_witness": {
+      "L": "43",
+      "edge": 6,
+      "vertex": 0
+    },
+    "nonadjacent_segment_pairs": 54,
+    "required_squared": "1/100",
+    "vertex_nonincident_edge_pairs": 120
+  },
+  "Q": {
+    "all_L_in_closed_interval_43_44": true,
+    "minimum_segment_distance_squared": "1/4",
+    "minimum_segment_witness": {
+      "L": "43",
+      "first": 2,
+      "second": 5
+    },
+    "minimum_vertex_edge_distance_squared": "1/4",
+    "minimum_vertex_edge_witness": {
+      "L": "43",
+      "edge": 2,
+      "vertex": 6
+    },
+    "nonadjacent_segment_pairs": 54,
+    "required_squared": "1/4",
+    "vertex_nonincident_edge_pairs": 120
+  },
+  "arithmetic": "fractions.Fraction only; exact piecewise quadratic minimization",
+  "maximum_Q_vertex_norm_squared": "45",
+  "mixed_integral_L_coefficient": "-1/2",
+  "mixed_integral_constant": "109/5",
+  "negative_turns": 4,
+  "positive_turns": 8,
+  "schema": "78718-zero-framing-seed-rational-polygon-check-v1",
+  "scope": "No smoothing-integral evaluation, no PDE or common-metric flex, no amplitude or reach certificate.",
+  "script_sha256": "c1b14479812c759bff6e9c7997fc78d723cc15a1a045fd25829a05e095ccc869",
+  "solver_calls": 0,
+  "status": "PASS_EXACT_FINITE_POLYGON_DATA_ONLY"
+}

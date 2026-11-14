@@ -1,0 +1,91 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "utc": "2026-11-12T12:16:50.451790+00:00",
+  "actual_exit_code": 0,
+  "accepted_count": 40,
+  "finite_success": false,
+  "owner_stop_consumed": false,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-run.py",
+      "bytes": 11975,
+      "sha256": "81b3dee561aaf94faadb4b502f1a02de197013400ced81ae907813361bfaa7d5"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    {
+      "path": "scripts/fd2d-run-observed-command.py",
+      "bytes": 1411,
+      "sha256": "5c8f763704be538bbf8c8b01260b2fdcb0c9da1169f171fa286b6db4927d0a1e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-initial.npz",
+      "bytes": 38549,
+      "sha256": "48e9a48bb65a6574b935364644632545256f8b22e2a8062335a8bc467093d235"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-accepted-0016.npz",
+      "bytes": 38998,
+      "sha256": "c504e44c964e3768ddbb397ede6717c817a8b5bccbf247782dc279c0821ca18c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-accepted-0040.npz",
+      "bytes": 38975,
+      "sha256": "1b029c98ec1734120fc74294a4504abd6f3b78a7e3353778307d6ca185e30fe6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-field.npz",
+      "bytes": 230227,
+      "sha256": "83ebe0e7f969a1b11e009495054981b6f0c82584cc3ba066acc3c9b599d0cc19"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-report.json",
+      "bytes": 19980,
+      "sha256": "5248012d06eda6f029d71a2c62dd6b372b409034d71b79b53accda98019f3d92"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-progress.jsonl",
+      "bytes": 194288,
+      "sha256": "bf4a492b3a34dcdf7e87746e67c53b4ac3a517f4608d4da32d71d8e5e18ac8d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-physical-metric.json",
+      "bytes": 2684,
+      "sha256": "590afcf39a8d7e7583e3b2ab1500f878014bfbf6c9a353ee7bc85f1f0e5704b2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-process-receipt.json",
+      "bytes": 969,
+      "sha256": "40f9e120b7d323798c4cda6861f4cc42bf276a84fbe934c73107519f9626bf29"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-static-inputs.json",
+      "bytes": 1769,
+      "sha256": "74659fefc1ab69ee2369699729a8dafe84db49ca773035169f9a5d2756fe4b5d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-accepted16-local-diagnostic.json",
+      "bytes": 648,
+      "sha256": "12b28bf05064a1e65123b4ac037f0a2ac6c890e7dfe86bdc703006f8273d4c32"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-owner-stop.txt",
+      "bytes": 294,
+      "sha256": "d4652464b0ce280b57beab6819e0fe106292ccd228c7b51fff37080fb254f5b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint01-closure.md",
+      "bytes": 5064,
+      "sha256": "9e0bfceba3f47a50993b8003ef382a75cfc4bcea011120e7053938a1e20ee99b"
+    }
+  ],
+  "excluded": "Other accepted states remain local; all joint02 active outputs excluded. Clean check is in its separate closed group."
+}

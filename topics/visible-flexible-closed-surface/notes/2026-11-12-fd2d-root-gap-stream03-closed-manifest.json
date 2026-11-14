@@ -1,0 +1,87 @@
+{
+  "schema": "fd2d-closed-gap-branch-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-candidate.json",
+      "bytes": 33538,
+      "sha256": "b9e2c5257ca145b6af0138213bd531e5fe8269bb223d7d514e62335a83f9a592"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-field.npz.gz",
+      "bytes": 1269454,
+      "sha256": "7e939f646446fcaf45266ad6aa7b96527310ca151aea148263434a8c2c556785"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-polynomial.npz.gz",
+      "bytes": 1009892,
+      "sha256": "62ddc1b64c34ba230e9f8e7f45c99c5f553b7c77d6ccc043869deba8466f5ebb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-progress.jsonl",
+      "bytes": 9245,
+      "sha256": "dbc33c6534264c38c2f63d4493bc5e7af85d524b1f3b5e60ea7e7ff511d43573"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-report.json",
+      "bytes": 23242,
+      "sha256": "c23484702d478c92b882ec192b2a48e59a706caae615b8db8e61dac9c5cba32f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-runtime.json",
+      "bytes": 558,
+      "sha256": "5a4bc4f7d2aa60552b0d3c4d94ca2e8ab2800ddee8e618540969b1d996962cb9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-resources.jsonl",
+      "bytes": 7367,
+      "sha256": "70ea17d27dd4c72f078c2b72c2612d21797b77c2cd570d56746ccb82d00d83f5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-completion-receipt.json",
+      "bytes": 287,
+      "sha256": "89544b165150e47a4093437bd019533994a150438e56b696d1bfea82bb4ea8f1"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-accepted-0001.npz",
+      "bytes": 653940,
+      "sha256": "2538e327144e0ef8b6264ed72d8deddce7bcb94dc7543d4a02a6ca447cc01cc8",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-accepted-0002.npz",
+      "bytes": 653546,
+      "sha256": "2d664096fb99d054ced33966f9cc4b8b580b7d2e289dd110551acb8ce569410c",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-accepted-0003.npz",
+      "bytes": 761603,
+      "sha256": "54960b111d08b5916fb21353e7ce07b0a117405af274c3c3479d1f5952df899f",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-accepted-0004.npz",
+      "bytes": 763493,
+      "sha256": "1f8788ad00a7dbf0f83de90e3fc13c437eaf905d449909b5ecf135e8678bcedb",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream03-initial.npz",
+      "bytes": 217203,
+      "sha256": "bf49b608702d3a507ae85f101beb4abd6f745ebd491c33f881ffca99434fe907",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 30606,
+    "completion_chunk": "c6c6ab",
+    "actual_exit_code": 0,
+    "solver_success": true,
+    "accepted_steps": 4,
+    "seconds": 54.2302871710001,
+    "maximum_rss_kib": 242988,
+    "scope": "95-dimensional finite prefix at gap .001, labelled linear tail, changing outer T"
+  }
+}

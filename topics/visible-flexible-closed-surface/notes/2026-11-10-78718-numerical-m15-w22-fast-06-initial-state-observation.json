@@ -1,0 +1,49 @@
+{
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T13:19:43.279844+00:00",
+  "read_only_tool_chunk": "84b708",
+  "root_reported_actual_start": {
+    "tool_chunk": "3afd01",
+    "session_id": 27279
+  },
+  "scope": "Actual completed initialization metadata only; no session consumed, new solver run, convergence or natural tool exit asserted.",
+  "actual_backends": {
+    "actual_tail_trial": "same-direction-Q-L-Newton-retraction-centered-v3",
+    "actual_tail_root_precision": "original-8e-14-fallback-5e-12",
+    "actual_tail_jacobian_backend": "fourier-root-and-product-moments-v1",
+    "actual_tail_predictor": "full-shooting-tangent-v1"
+  },
+  "source_binding_count": 12,
+  "source_bindings_match_observed_bytes": true,
+  "identity_reuse_events": [
+    {
+      "time": "2026-11-10T13:17:42.826Z",
+      "event": "unchanged_warm_state_copy",
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-06-tail-warm-input.json.gz",
+      "method": "unchanged-same-grid-canonical-state-copy",
+      "nodeCount": 865,
+      "sourceModes": 22,
+      "targetModes": 22,
+      "quadrature": 512,
+      "maxQChange": 0,
+      "maxMomentumChange": 0,
+      "rootCallsForCopy": 0,
+      "knownConvergenceNotInferred": true,
+      "sourceScope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate."
+    },
+    {
+      "time": "2026-11-10T13:17:43.048Z",
+      "event": "unchanged_height_canonical_warm",
+      "call": 1,
+      "actualHeightEqual": true,
+      "nodeCount": 865,
+      "rawReprojectionCalls": 0,
+      "amplitudeScalingCalls": 0,
+      "boundaryCorrectionApplied": false,
+      "actualCanonicalBoundaryMismatch": 0,
+      "scope": "Initial guess reuse only; the original full residual is evaluated again."
+    }
+  ],
+  "source_trace_is_mutable": true,
+  "natural_exit_observed": false
+}

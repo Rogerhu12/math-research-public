@@ -1,0 +1,67 @@
+{
+  "kind": "UTF8 source recovery after executor unavailable",
+  "all_blobs_created_without_changing_refs": true,
+  "all_reconstructed_sources_not_yet_executed": true,
+  "required_input_commit": "c57249ac7dbda27de4bb178052cf78f81d641643",
+  "source_api_read": {
+    "raw_lifted_main_blob": "85f1ae7b93dc1313cbc46ebd01ad2d6e810fb08e",
+    "prefix_reader_blob": "3f2a2dcb56f24ac98a0759ef02bd8f22464eb607",
+    "positive_clock_blob": "792c503112bb89bf0af5ea825a3d7cf6e6580d9e",
+    "positive_tail_blob": "cffc859fa8df36c06d1029b4cdba8bbc4b6cc69f"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bridge_api_snapshot_01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff7c396ec21ea88e189e97def6bd0a4de6b8fc9",
+      "bytes": 20523
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_flat_gc_codazzi_api_projector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d15a41fa1373ad545035c13486daaf64460df0ef",
+      "bytes": 3950
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-flat-prefix-bridge-api-recovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c7368bc36a4893e336f57120079efab6db52fb",
+      "bytes": 10917
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-api-bridge-recovery-definition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ae1e4e2f0b5f6c147667f8e038d864de73d327",
+      "bytes": 8921
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_spectral_gauss_api_cap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc958aa4d08a362549db6051c3460bfeea23d252",
+      "bytes": 5323
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-flat-gc-alternating-api-recovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777d3719169930c5b5a6a8ecd644aa0d362a6049",
+      "bytes": 9748
+    }
+  ],
+  "main_recovery_command": "cd topics/visible-flexible-closed-surface && python -u scripts/fd2d-flat-prefix-bridge-api-recovery.py --stem notes/2026-11-12-fd2d-api-bridge-recovery-01",
+  "primary_output_suffixes": [
+    "-amount025.npz",
+    "-amount075.npz",
+    "-report.json",
+    "-manifest.json"
+  ],
+  "optional_historical_spectral_replay": "python -u scripts/fd2d-flat-gc-alternating-api-recovery.py --stem notes/2026-11-12-fd2d-api-spectral-replay-01 --repair spectral --norm legacy --iterations 8",
+  "optional_unexecuted_common_metric_variant": "python -u scripts/fd2d-flat-gc-alternating-api-recovery.py --stem notes/2026-11-12-fd2d-api-frobenius-trial-01 --repair spectral --norm frobenius --iterations 12",
+  "no_requirement_to_rerun_unsuccessful_optional_trials": true,
+  "new_actual_execution_and_hashes_required_before_claiming_numerical_recovery": true
+}

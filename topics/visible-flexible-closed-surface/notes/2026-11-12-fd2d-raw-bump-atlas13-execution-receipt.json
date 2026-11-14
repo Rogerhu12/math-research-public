@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 69015,
+  "launch_chunk": "ebdd12",
+  "completion_chunk": "8f0e19",
+  "actual_exit_code": 0,
+  "actual_accepted_steps": 8,
+  "body_completed": true,
+  "child_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "recorded_utc": "2026-11-12T14:46:09.656071+00:00",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-natural-batch-chain-v4.py",
+    "bytes": 6871,
+    "sha256": "c693e5fbf6c7204da476e327358ff7d689b5c1d4320f3a44cbbaffb2f925c52f"
+  },
+  "driver": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run-v3.py",
+    "bytes": 21627,
+    "sha256": "123ff526bb2232e3bfeae1fc61686ff1db0b8791979ab09f9518e9c7efe00cf8"
+  },
+  "final_state": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-atlas13-b0004-accepted-0002.npz",
+    "bytes": 55013,
+    "sha256": "77d61e81e97ae6469c679a067f2cd18d351bd8a60d6af2202ec3ac9f0281d884"
+  },
+  "outcome": "Explicit reset returned to the negative-l compromise; use the R153 local positive-n Gauss representation next, not another reset loop."
+}

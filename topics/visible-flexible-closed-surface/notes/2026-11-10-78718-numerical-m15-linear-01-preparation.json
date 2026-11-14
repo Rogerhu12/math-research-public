@@ -1,0 +1,143 @@
+{
+  "schema": "78718-m15-linear-pure-preparation-v1",
+  "status": "PREPARED_ONLY_NO_NEW_CANDIDATE_NO_SOLVER",
+  "scope": "Prepare the new M15/N512/W15 coupled route without running any solver.",
+  "launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+    "bytes": 124724,
+    "sha256": "dbccb1b7892a0cfda626bf2769270b8bd1c9d3e3ef715c7583d8e731f88fee03"
+  },
+  "tail_config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-config.json",
+    "bytes": 3042,
+    "sha256": "ad2b46eea89751d1ddb77cc1d645228e1e841a3a9c9f03efcac3e7557fe3cee5"
+  },
+  "continuation_policy": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail-continuation-policy.json",
+    "bytes": 55171,
+    "sha256": "87f2b5ef523369c00b5723cb20b1284c448585674bd4380ed977b50405dd67ab"
+  },
+  "seed_inputs": {
+    "status": "OLD_UNSOLVED_PREFIX_AND_TRUE_LOCAL_DN_WARM_ONLY",
+    "checkpoint": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "bytes": 27524,
+      "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+    },
+    "bootstrap_packet": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+      "bytes": 272279,
+      "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+    },
+    "preparation_provenance": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01-preparation.json",
+      "bytes": 50218,
+      "sha256": "31bc073433407e02edb11ec7ea41478195b46d95de1bb73d04b864e56c40a358"
+    },
+    "old_failed_run_observation": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-observed-execution-01.json",
+      "bytes": 6034,
+      "sha256": "1f7a7290c5c65a9f73531cd0edddf8f15b0290477be7d0b74eff9a3d5ba57334"
+    },
+    "old_prefix_solver_success": false,
+    "old_DN_residual": 1.2533744091676813e-09,
+    "old_DN_quadrature": 256,
+    "new_DN_quadrature": 512,
+    "original_prefix_nodes": 2633,
+    "physical_state_components": 46,
+    "free_parameters": 15,
+    "coefficient_files": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_00.npy.gz",
+        "bytes": 4174602,
+        "sha256": "afde04de0544743ee695ce539abcc91116b142ff3aaae3d3fbd88d34fb3a789f"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_01.npy.gz",
+        "bytes": 1467096,
+        "sha256": "f988042717251970e96fdd47eb9f4dc03475c55f9772c339f81c319b2e554f2f"
+      }
+    ],
+    "all_coefficients_finite": true,
+    "saved_endpoint_vs_bootstrap_height_max_abs": 0.0,
+    "endpoint_roundtrip_equality_required": false,
+    "same_fixed_physical_fields": [
+      "angular_chart",
+      "chart",
+      "frozen_profile",
+      "gauge_amplitude",
+      "meridian_length",
+      "physical_port_sha256",
+      "physical_tail_cut",
+      "physical_tail_parameters",
+      "warp_reference_q"
+    ],
+    "original_runtime_source_bindings": 152,
+    "current_local_tail_source_bindings": 9,
+    "source_file_migration": "Original bytes are read under current checkout names; old root execution is not relabeled as new.",
+    "solver_calls": 0
+  },
+  "settings": {
+    "modes": 15,
+    "angular": 512,
+    "audit_angular": 1024,
+    "nodes": 1601,
+    "max_nodes": 8000,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "node_heap": 1536
+  },
+  "launch_bindings": 188,
+  "policy_bindings": 187,
+  "actual_tail_source_count": 9,
+  "control_callback_definitions": 30,
+  "original_physical_callback_definitions": 27,
+  "typed_code_evidence": {
+    "report": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+      "bytes": 6264,
+      "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+    },
+    "root_observation": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json",
+      "bytes": 1707,
+      "sha256": "164bdb08c46d7d4e709fc3248a0b5f117364bec73e826531c3b2ac228a0a2b74"
+    },
+    "bindings": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+        "bytes": 8260,
+        "sha256": "f869c3e17f5ff58577fb43967dc3f7df825144a9a9650e0ca7c5bb4ff6b95762"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+        "bytes": 7876,
+        "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+        "bytes": 6264,
+        "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json",
+        "bytes": 1707,
+        "sha256": "164bdb08c46d7d4e709fc3248a0b5f117364bec73e826531c3b2ac228a0a2b74"
+      }
+    ],
+    "scope": "Only small source/code identity checks; no candidate or solver success."
+  },
+  "old_prefix_remains_unsolved": true,
+  "operations": {
+    "candidate_objects": 0,
+    "restart_calls": 0,
+    "RHS_calls": 0,
+    "Newton_install_calls": 0,
+    "CSC_factory_calls": 0,
+    "matrix_calls": 0,
+    "BVP_calls": 0,
+    "DN_calls": 0
+  },
+  "future_actual_exit": "NOT_STARTED; a true root tool observation is required"
+}

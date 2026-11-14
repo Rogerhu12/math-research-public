@@ -1,0 +1,228 @@
+{
+  "schema": "fd2d-finite-curvature-merit-check-recovered-v1",
+  "sources_at_start": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-curvature-penalty-active-check.py",
+      "bytes": 6888,
+      "sha256": "fd5a5fb26d66e48c7246e7afb5f77ba8a955d1b7ad894592fa10e21317f761c9"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    }
+  ],
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "bytes": 23429,
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+  },
+  "K": 15,
+  "cap": 6.8,
+  "weight": 0.2,
+  "penalty": {
+    "cap": 6.8,
+    "weight": 0.2,
+    "active_rows": 192,
+    "upper_active_rows": 192,
+    "lower_active_rows": 0,
+    "active_rows_before_zero_weight": 192,
+    "active_repeated_eigenvalue_rows": 0,
+    "sampled_formal_curvature_maximum": 7.123311908510938,
+    "sampled_exact_cap_equalities": 0,
+    "residual_l2": 0.41132785802015825,
+    "original_equations_changed": false,
+    "actual_geometry_certified": false,
+    "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+    "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+    "central_parameter_columns": "zero before composing caller linear boundary projection",
+    "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate.",
+    "T_column": "centered actual lifting difference, same epsilon as raw provider",
+    "T_difference_epsilon": 1.02e-06,
+    "jacobian_nonzeros": 10240
+  },
+  "diagnostic_cap_only": true,
+  "optimization_target_unchanged": true,
+  "parent_checker_sha256": "3127bcca707f67f7981e35db3f3eb57f61538bee74b8b7ce69eb0045b51007f4",
+  "sparse_matrix_shape": [
+    192,
+    5343
+  ],
+  "directional_checks": [
+    {
+      "direction": "three_independent_node_fields",
+      "step": 1e-05,
+      "absolute_maximum": 4.187102140701393e-11,
+      "relative_l2": 2.4286971006255834e-10,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "three_independent_node_fields",
+      "step": 3e-06,
+      "absolute_maximum": 1.9539192139261807e-10,
+      "relative_l2": 8.871973665051454e-10,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "three_independent_node_fields",
+      "step": 1e-06,
+      "absolute_maximum": 4.673447440671497e-10,
+      "relative_l2": 2.327219790052243e-09,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "tail_parameters",
+      "step": 1e-05,
+      "absolute_maximum": 1.783383944687081e-11,
+      "relative_l2": 5.300015867155749e-11,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "tail_parameters",
+      "step": 3e-06,
+      "absolute_maximum": 5.60780189645671e-11,
+      "relative_l2": 1.9374705313244568e-10,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "tail_parameters",
+      "step": 1e-06,
+      "absolute_maximum": 1.6878564171318722e-10,
+      "relative_l2": 5.66513551842412e-10,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "physical_T",
+      "step": 1e-05,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "physical_T",
+      "step": 3e-06,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "physical_T",
+      "step": 1e-06,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "central_c_before_boundary_composition",
+      "step": 1e-05,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "central_c_before_boundary_composition",
+      "step": 3e-06,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    },
+    {
+      "direction": "central_c_before_boundary_composition",
+      "step": 1e-06,
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0,
+      "fixed_active_rows": 192,
+      "original_active_hinges_remained_positive": true
+    }
+  ],
+  "original_raw_F_absolute_change": 0.0,
+  "original_fields_absolute_change": 0.0,
+  "repeated_eigenvalue_check": {
+    "fields_nml": [
+      [
+        [
+          10.0,
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -10.0,
+          0.0,
+          -10.0
+        ]
+      ]
+    ],
+    "residual": [
+      0.6400000000000001,
+      0.6400000000000001
+    ],
+    "gradients_nml": [
+      [
+        0.1,
+        0.0,
+        0.1
+      ],
+      [
+        -0.1,
+        0.0,
+        -0.1
+      ]
+    ],
+    "labels": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "branch": [
+      1,
+      -1
+    ],
+    "repeated": [
+      true,
+      true
+    ],
+    "minimum_tested_subgradient_slack": 0.0015079594296611085,
+    "exact_zero_matrix_has_no_row": true
+  },
+  "zero_weight": {
+    "row_count": 0,
+    "matrix_shape": [
+      0,
+      5343
+    ]
+  },
+  "scope": "Derivative/merit implementation check only; the input field is not solved or geometrically certified by this check.",
+  "seconds": 28.947676469999806,
+  "implementation_checks_passed": true
+}

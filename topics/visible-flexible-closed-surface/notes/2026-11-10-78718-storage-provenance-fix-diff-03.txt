@@ -1,0 +1,144 @@
+--- 78718-build-storage-adapters-v2.py
++++ 78718-build-storage-adapters-v3.py
+@@ -40,13 +40,13 @@
+  'supplier':'78718-prefix-metric-supplier-storage-v1.py',
+  'moment':'78718-prefix-volume-moment-storage-v1.py',
+  'common':'78718-prefix-common-cut-storage-v1.py',
+- 'arithmetic':'78718-prefix-angular-arithmetic-storage-v1.py',
+- 'metric_budget':'78718-prefix-metric-budget-storage-v1.py',
++ 'arithmetic':'78718-prefix-angular-arithmetic-storage-v2.py',
++ 'metric_budget':'78718-prefix-metric-budget-storage-v2.py',
+  'closed_budget':'78718-prefix-closed-budget-storage-v1.py',
+- 'angular':'78718-prefix-angular-metric-storage-v1.py',
++ 'angular':'78718-prefix-angular-metric-storage-v2.py',
+  'export':'78718-prefix-export-closed-mesh-storage-v1.py',
+  'review':'78718-prefix-review-closed-mesh-storage-v1.py',
+- 'terminal':'78718-prefix-terminal-error-storage-v1.py',
++ 'terminal':'78718-prefix-terminal-error-storage-v2.py',
+  'codec':'78718-prefix-byte-shards-v1.py',
+  'helper':'78718-prefix-storage-v1.py',
+ }
+@@ -241,10 +241,13 @@
+ 
+     t = Transform('db6f-audit-tail-metric-curvature.py', NEW['arithmetic'])
+     t.rename('db6f-audit-metric-polynomial.py',NEW['polynomial'])
++    t.rename('db6f-audit-continuous-hermite.py',NEW['continuous'])
+     add(t)
+     t = Transform('db6f-audit-prefix-metric-budget.py', NEW['metric_budget'])
+     t.rename('db6f-audit-tail-metric-curvature.py',NEW['arithmetic'])
+     t.rename('db6f-root-common-cut-v2.py',NEW['common'])
++    t.rename('db6f-audit-metric-polynomial.py',NEW['polynomial'])
++    t.rename('db6f-audit-continuous-hermite.py',NEW['continuous'])
+     add(t)
+     t = Transform('db6f-audit-closed-budget-transfer-v3.py', NEW['closed_budget'])
+     t.replace("    implementations=[HERE/'db6f-root-common-cut.py',HERE/'db6f-root-common-cut-v2.py']\n",
+--- 78718-check-storage-readers-v1.py
++++ 78718-check-storage-readers-v2.py
+@@ -52,7 +52,7 @@
+     require(not any(k.split('.')[0] in ('numpy', 'scipy') for k in sys.modules),
+             'Numerical modules were already imported in the child')
+     terminal = load('storage_child_actual_terminal',
+-                    HERE / '78718-prefix-terminal-error-storage-v1.py')
++                    HERE / '78718-prefix-terminal-error-storage-v2.py')
+     base = json.loads(base_path.read_text())
+     geom = json.loads(expanded_path.read_text())
+     files = terminal.Files()
+@@ -106,7 +106,7 @@
+     args.scratch_dir.mkdir(parents=True)
+     start = time.monotonic()
+     ledger = json.loads(args.source_ledger.read_text())
+-    builder_path = HERE / '78718-build-storage-adapters-v2.py'
++    builder_path = HERE / '78718-build-storage-adapters-v3.py'
+     require(ledger['builder_sha256'] == identity(builder_path)['sha256'], 'Changed source builder')
+     builder = load('storage_reader_checked_builder', builder_path)
+     generated, rows = builder.build_all()
+--- 78718-prefix-angular-arithmetic-storage-v1.py
++++ 78718-prefix-angular-arithmetic-storage-v2.py
+@@ -364,7 +364,7 @@
+         manifest=str(args.manifest.resolve()), manifest_sha256=sha(args.manifest),
+         packet=str(args.packet.resolve()), packet_sha256=sha(args.packet), packet_data_sha256=sha(data_path),
+         script_sha256=sha(__file__), polynomial_backend_sha256=sha(HERE/'78718-prefix-metric-polynomial-storage-v1.py'),
+-        interval_backend_sha256=sha(HERE/'db6f-audit-continuous-hermite.py'),
++        interval_backend_sha256=sha(HERE/'78718-prefix-continuous-hermite-storage-v1.py'),
+         reader_sha256=sha(HERE/'db6f_tail_integrated.py'),
+         supplier_definition=meta.get('analytic_definition'), supplier_independently_verified=False,
+         background_curvature_upper_assumed=args.background_curvature,
+--- 78718-prefix-angular-metric-storage-v1.py
++++ 78718-prefix-angular-metric-storage-v2.py
+@@ -29,7 +29,7 @@
+ HERE = Path(__file__).resolve().parent
+ ROOT = HERE.parent
+ SOURCES = {
+-    '78718-prefix-metric-budget-storage-v1.py': '656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091',
++    '78718-prefix-metric-budget-storage-v2.py': '18599b65771eae53199442589547105292489c323aac333e5eee6f2dacadb3aa',
+     '78718-prefix-metric-polynomial-storage-v1.py': 'd290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e',
+     '78718-prefix-continuous-hermite-storage-v1.py': '09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18',
+     'db6f-audit-tail-metric-curvature.py': 'ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670',
+@@ -37,7 +37,7 @@
+     '78718-prefix-common-cut-storage-v1.py': '34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43',
+     'db6f-root-exact-bridge.py': 'f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1',
+     'db6f_tail_integrated.py': '4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae',
+-    '78718-prefix-angular-arithmetic-storage-v1.py': '3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece',
++    '78718-prefix-angular-arithmetic-storage-v2.py': '4977cb407bc9cdd64a580c999727a9978bf4041011e89cab192be7ecd2c2f5dd',
+     '78718-prefix-storage-v1.py': '83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329',
+     '78718-prefix-byte-shards-v1.py': 'e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39',
+ }
+@@ -263,7 +263,7 @@
+     check(selected and all(0 <= i < total for i in selected), 'Invalid selected target intervals')
+     # All heavy geometric construction stays lazy. A loose-budget inherited
+     # full-domain check only hashes data and validates the exact partition.
+-    helper = module('prefix_angular_reviewed_local', HERE/'78718-prefix-metric-budget-storage-v1.py')
++    helper = module('prefix_angular_reviewed_local', HERE/'78718-prefix-metric-budget-storage-v2.py')
+     backend, poly, I, P = helper.backend, helper.poly, helper.I, helper.P
+     geom = None
+     leaves, summaries = Rows(args.out, 'rows'), Rows(args.out, 'intervals')
+--- 78718-prefix-metric-budget-storage-v1.py
++++ 78718-prefix-metric-budget-storage-v2.py
+@@ -23,7 +23,7 @@
+ import numpy as np
+ 
+ HERE = Path(__file__).resolve().parent
+-spec = importlib.util.spec_from_file_location('prefix_budget_existing_backend', HERE/'78718-prefix-angular-arithmetic-storage-v1.py')
++spec = importlib.util.spec_from_file_location('prefix_budget_existing_backend', HERE/'78718-prefix-angular-arithmetic-storage-v2.py')
+ backend = importlib.util.module_from_spec(spec)
+ sys.modules[spec.name] = backend
+ spec.loader.exec_module(backend)
+@@ -181,8 +181,8 @@
+         script_sha256=sha(__file__),
+         inputs={name: dict(file=str(path), sha256=sha(path)) for name, path in {
+             'geometry': args.geometry, 'target': args.target, 'certificate': args.certificate}.items()},
+-        backend_sha256={name: sha(HERE/name) for name in ['78718-prefix-angular-arithmetic-storage-v1.py',
+-            'db6f-audit-metric-polynomial.py', 'db6f-audit-continuous-hermite.py',
++        backend_sha256={name: sha(HERE/name) for name in ['78718-prefix-angular-arithmetic-storage-v2.py',
++            '78718-prefix-metric-polynomial-storage-v1.py', '78718-prefix-continuous-hermite-storage-v1.py',
+             '78718-prefix-common-cut-storage-v1.py']},
+         common_cut_zero_correction_region_end=cutoff, original_whole_prefix_bound=certificate['metric_operator_upper'],
+         inspected_intervals=rows, full_prefix_recertified=False, new_map_constructed=False,
+--- 78718-prefix-terminal-error-storage-v1.py
++++ 78718-prefix-terminal-error-storage-v2.py
+@@ -63,10 +63,10 @@
+     '78718-prefix-metric-supplier-storage-v1.py': 'f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3',
+     '78718-prefix-volume-moment-storage-v1.py': '16f493774c7176566dda1f08e494b2af74d2f6e04b970b43c802838b08a5f654',
+     '78718-prefix-common-cut-storage-v1.py': '34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43',
+-    '78718-prefix-angular-arithmetic-storage-v1.py': '3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece',
+-    '78718-prefix-metric-budget-storage-v1.py': '656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091',
++    '78718-prefix-angular-arithmetic-storage-v2.py': '4977cb407bc9cdd64a580c999727a9978bf4041011e89cab192be7ecd2c2f5dd',
++    '78718-prefix-metric-budget-storage-v2.py': '18599b65771eae53199442589547105292489c323aac333e5eee6f2dacadb3aa',
+     '78718-prefix-closed-budget-storage-v1.py': '375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150',
+-    '78718-prefix-angular-metric-storage-v1.py': 'baa57dbb55360f9706c9cd409233be7bef3b31f68f35217e06d1936658193e2f',
++    '78718-prefix-angular-metric-storage-v2.py': '7f60b8431c10ef93878049be0ae9d9677df268b7cb3963315096103bafdd0dc1',
+ }
+ 
+ REFERENCE = {
+@@ -366,9 +366,9 @@
+     geometry_sha = hashlib.sha256(geom_path.read_bytes()).hexdigest()
+     check(metric['geometry_sha256'] == geometry_sha and metric['geometry_data_sha256'] == geom['data_sha256'] and
+           metric.get('entire_prefix_covered') is True, 'Prefix metric is partial or belongs to another final common-cut map')
+-    angular = metric['script_sha256'] == PREFIX_SOURCES['78718-prefix-angular-metric-storage-v1.py']
++    angular = metric['script_sha256'] == PREFIX_SOURCES['78718-prefix-angular-metric-storage-v2.py']
+     if angular:
+-        files.prefix_source('78718-prefix-angular-metric-storage-v1.py', metric['script_sha256'])
++        files.prefix_source('78718-prefix-angular-metric-storage-v2.py', metric['script_sha256'])
+         check(metric.get('finished') is True and metric['requested_intervals'] is None and
+               metric['processed_intervals'] == metric['target_intervals'] and
+               metric.get('exact_partition_reread_verified') is True, 'Incomplete angular certificate')

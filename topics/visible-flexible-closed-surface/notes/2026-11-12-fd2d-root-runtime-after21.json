@@ -1,0 +1,18 @@
+{
+  "schema": "fd2d-actual-runtime-observation-v1",
+  "utc": "2026-11-12T16:25:06+00:00",
+  "tool_chunk": "ab2931",
+  "read_command_exit": 0,
+  "proc_self_cgroup": "0::/\n",
+  "missing_paths": [
+    "/sys/fs/cgroup/memory.max",
+    "/sys/fs/cgroup/memory.high",
+    "/sys/fs/cgroup/memory.current",
+    "/sys/fs/cgroup/memory.peak",
+    "/sys/fs/cgroup/memory.events",
+    "/sys/fs/cgroup/memory.events.local",
+    "/sys/fs/cgroup/cgroup.controllers"
+  ],
+  "run21_kill_cause_confirmed": false,
+  "inference": "Unavailable cgroup counters do not establish the reason for SIGKILL"
+}

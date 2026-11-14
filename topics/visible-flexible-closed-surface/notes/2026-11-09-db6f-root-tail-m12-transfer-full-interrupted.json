@@ -1,0 +1,22 @@
+{
+  "status": "interrupted-for-observed-memory-pressure-no-full-certificate",
+  "tool_exit_code": 130,
+  "last_progress": {
+    "checked": 15000,
+    "total": 28928,
+    "metric": 1.1313778765583975e-09,
+    "curvature": 6.005111144424504
+  },
+  "log": "2026-11-09-db6f-root-tail-m12-transfer-full.log",
+  "log_sha256": "5e9beaab25fc131988c2d8fe2211ec253c9469712472a56b0a019c818a8efa3c",
+  "manifest": "2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+  "packet": "2026-11-09-db6f-root-background-transfer-tight-m12.json",
+  "settings": {
+    "angular": 128,
+    "radial": 1,
+    "direct_threshold": 8.5
+  },
+  "reason": "Observed cgroup 8589852672/8589934592 bytes and oom/oom_kill counts increased to9/2. Root stopped this restartable consumer to protect active nonlinear solve and near-complete critical exporter; a separate new budget reader was also stopped. No attribution of the OOM victim and no mathematical failure is inferred.",
+  "restart_required": true,
+  "README_complete": false
+}

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-09T13:52:27.946672+00:00",
+  "status": "PASS-restore-promisor-classification-only-for-provably-already-promisor-objects",
+  "official_semantics": "https://git-scm.com/docs/git-index-pack",
+  "observed_failure": "could not finish pack-objects to repack local links",
+  "new_promisor_pack_during_last_fetch_bytes": 3155644753,
+  "existing_promisor_union_count": 107143,
+  "existing_promisor_union_sorted_oid_sha256": "457c48fbaebc48a065ce7c8f72fbc9eb1f4b12059430ecceca752afc7b8a66ca",
+  "restored_markers": [],
+  "left_unchanged": [
+    {
+      "pack": "pack-73bfa94cb256c82da92dd9449117611933e7cb26.pack",
+      "objects": 5959,
+      "not_in_existing_promisor_union": 1671,
+      "sorted_oid_sha256": "1ab3bd1152c8632abfa6d932107130c865adbd1e4e3684c8cdd1549c6e7b4000"
+    },
+    {
+      "pack": "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2.pack",
+      "objects": 37,
+      "not_in_existing_promisor_union": 37,
+      "sorted_oid_sha256": "34cdecde36c155320d3a3628e86c4e994d8a3b9c8a25958f14f2900eb3210430"
+    }
+  ],
+  "object_bytes_modified": false,
+  "objects_removed": false,
+  "refs_changed": false,
+  "research_files_removed": false,
+  "scope": "Only empty Git classification markers restored after exact pack-index membership in already-promisor packs was verified; no object gains a remote-availability assumption that was not already implied by an existing promisor pack."
+}

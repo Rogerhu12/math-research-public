@@ -1,0 +1,338 @@
+{
+  "schema": "fd2d-current-exact-normalized-physical-cell-primitive-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_current_accurate_domain_arb.py",
+    "bytes": 15180,
+    "sha256": "01600097f6bece6e8ba7ce56bb56bced28e832c0b8b58d5cf30cc0939ffc6c2c"
+  },
+  "field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "cell_definition": {
+    "cell": 69,
+    "left_exact": [
+      "3056556828915455",
+      "4503599627370496"
+    ],
+    "right_exact": [
+      "6395922550253195",
+      "9007199254740992"
+    ],
+    "length_exact": [
+      "282808892422285",
+      "9007199254740992"
+    ],
+    "normalized_label": "s=left+(right-left)*t; 0<=t<=1"
+  },
+  "unit_cell_polynomial": {
+    "schema": "fd2d-current-R125-physical-s-zero-end-primitive-v1",
+    "field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+    "left_exact": [
+      "0",
+      "1"
+    ],
+    "right_exact": [
+      "1",
+      "1"
+    ],
+    "coefficient_semantics": "Exact rational finite polynomial in t, complete D2 cosine/sine vector in xi",
+    "cosine": [
+      [
+        [
+          [
+            "20734428537862139",
+            "36028797018963968"
+          ]
+        ],
+        [
+          [
+            "-5142298714964151",
+            "9007199254740992"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "-14584109860877743",
+            "72057594037927936"
+          ]
+        ],
+        [
+          [
+            "-836909016259257",
+            "18014398509481984"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "61902487339345371",
+            "44601490397061246283071436545296723011960832"
+          ]
+        ],
+        [
+          [
+            "-73465414171049705",
+            "11150372599265311570767859136324180752990208"
+          ]
+        ]
+      ]
+    ],
+    "sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "mean_cosine": [
+      [
+        [
+          [
+            "10449831107933837",
+            "36028797018963968"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "-16257927893396257",
+            "72057594037927936"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "-85028341002754039",
+            "44601490397061246283071436545296723011960832"
+          ]
+        ]
+      ]
+    ],
+    "mean_sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "primitive_cosine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "5142298714964151",
+            "18014398509481984"
+          ]
+        ],
+        [
+          [
+            "-5142298714964151",
+            "18014398509481984"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "836909016259257",
+            "36028797018963968"
+          ]
+        ],
+        [
+          [
+            "-836909016259257",
+            "36028797018963968"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "73465414171049705",
+            "22300745198530623141535718272648361505980416"
+          ]
+        ],
+        [
+          [
+            "-73465414171049705",
+            "22300745198530623141535718272648361505980416"
+          ]
+        ]
+      ]
+    ],
+    "primitive_sine": [
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    ],
+    "exact_identities": {
+      "q_left_exact_zero": true,
+      "q_right_exact_zero": true,
+      "q_s_exact_P_minus_mean": true,
+      "angular_jet_of_zero_endpoint_exact_zero": true
+    },
+    "provenance": {
+      "kind": "actual R170 complete forcing secant at fixed native xi",
+      "t": [
+        "1/4",
+        "3/4"
+      ],
+      "xi_exact": [
+        "3512807709348987",
+        "4503599627370496"
+      ],
+      "fit_is_not_certificate": true
+    },
+    "actual_H_minus_P_bound_supplied": false,
+    "moving_chart_term": "+(U_s/U_xi)*q_xi, at fixed physical material u",
+    "commutator_term": "q cross alpha, alpha=(m,-l,0)",
+    "connection_vector": "(-a*Rn,+a*Rm,-a*G)",
+    "continuous_global_certificate": false,
+    "packet_sha256": "beb8c9c288886d482ac19f1ee8050a8cc0c3fe9ccedae77f313b7e2e06349050"
+  },
+  "physical_primitive": "q=L*q_unit, with L the exact physical cell length defined by the bound field",
+  "exact_identities": {
+    "q_left_exact_zero": true,
+    "q_right_exact_zero": true,
+    "q_s_exact_P_minus_mean": true,
+    "angular_jet_of_zero_endpoint_exact_zero": true,
+    "physical_q_s_exact_P_minus_mean": true,
+    "true_length_not_enclosure_midpoint_defines_polynomial": true
+  },
+  "all_three_Gauss_Codazzi_components_retained": true,
+  "actual_H_minus_P_or_complete_posterior_asserted": false,
+  "packet_sha256": "528d561be5e7cb2a3f0a0ac112fdc828d0168f555118280b194256f588c95fe9"
+}

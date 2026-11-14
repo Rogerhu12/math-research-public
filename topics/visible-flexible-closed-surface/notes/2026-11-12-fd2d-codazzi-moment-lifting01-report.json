@@ -1,0 +1,88 @@
+{
+  "schema": "fd2d-Codazzi-two-moment-finite-probe-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_codazzi_moment_lifting_probe.py",
+    "bytes": 10581,
+    "sha256": "c1ec5a48c9c662167b73c8d1b5b75a3f109548eb108298ae1bd5aafd5c7dc712"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "input_state": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+    "bytes": 49734,
+    "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+  },
+  "controls": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-codazzi-moment-lifting01-controls.npz",
+    "bytes": 10908,
+    "sha256": "64f83a8c4c16bdc1893dfd62a359891f4f1bf5627486ef8663b8de3b1749330d"
+  },
+  "parameters_unchanged": true,
+  "physical_metric_unchanged": true,
+  "angular_basis": "fixed physical material u",
+  "angular_polynomial_definition": {
+    "modes": 63,
+    "highest_integer_wave": 126,
+    "uniform_samples": 1024
+  },
+  "actual_boundary_truncation_maximum": {
+    "left": 0.07043468925412455,
+    "right": 6.115448547410016e-05
+  },
+  "weight_definition": {
+    "left": 0.321,
+    "right": 1.487973178358129,
+    "ramp": 0.01,
+    "formula": "S5((s-left)/ramp)*S5((right-s)/ramp)"
+  },
+  "Gram_screen": {
+    "A": 1.1891937073101946,
+    "M0": 0.30846630493024096,
+    "minimum_V": 0.057476826943956665,
+    "maximum_V": 0.10354579278525565
+  },
+  "coarse": {
+    "order": 16,
+    "nodes": 2240,
+    "minimum_a": 0.8000052995325042,
+    "endpoint_coefficient_maximum": 3.0010716134398763e-15,
+    "endpoint_material_maximum": 1.251180925764741e-14,
+    "sampled_full_Gauss_maximum": 11.877617918618748,
+    "sampled_formal_curvature_maximum": 4.4532490552887545,
+    "gauss_maximum_location": {
+      "s": 0.3306808741056711,
+      "u": 3.067961575771282
+    },
+    "minimum_n": -5.2104708111823383e-05,
+    "maximum_n": 4.4532490552887545,
+    "maximum_abs_l": 3.8917778767894218,
+    "exact_Codazzi_claimed_for_numerical_quadrature": false,
+    "continuous_certificate": false,
+    "nonlinear_success": false
+  },
+  "independent_radial_consumption": {
+    "order": 24,
+    "nodes": 3360,
+    "minimum_a": 0.8000024063900015,
+    "endpoint_coefficient_maximum": 1.1360240526059329e-10,
+    "endpoint_material_maximum": 2.1067731281063787e-10,
+    "sampled_full_Gauss_maximum": 11.878077445445184,
+    "sampled_formal_curvature_maximum": 4.4532490552887545,
+    "gauss_maximum_location": {
+      "s": 0.33073023687663544,
+      "u": 0.07363107781851078
+    },
+    "minimum_n": -5.233353967775897e-05,
+    "maximum_n": 4.4532490552887545,
+    "maximum_abs_l": 3.8917115888216953,
+    "exact_Codazzi_claimed_for_numerical_quadrature": false,
+    "continuous_certificate": false,
+    "nonlinear_success": false
+  },
+  "seconds": 92.65709250500004,
+  "peak_rss_kib": 314644,
+  "scope": "A finite initializer probe; full boundary truncation and radial moment defects are reported, not called an exact nonlinear GC field"
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "fd2d-own-abandoned-git-transport-temporary-retirement-v1",
+  "observed_utc": "2026-11-12T20:22:07.189006+00:00",
+  "reason": "Only previously observed .tmp and tmp_pack transport/repack files, unchanged in size and with last writes before 15:24 UTC; no active owned Git transport since environment recovery. Normal pack-* files, Git references and research files untouched.",
+  "files": [
+    {
+      "path": ".git/objects/pack/.tmp-32-pack-14d48286912b64d802bc885deac257aafe08927d.idx",
+      "bytes": 4152408,
+      "mtime_utc": "2026-11-12T13:04:47.415604+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-32-pack-14d48286912b64d802bc885deac257aafe08927d.pack",
+      "bytes": 976733444,
+      "mtime_utc": "2026-11-12T13:41:56.629210+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-32-pack-14d48286912b64d802bc885deac257aafe08927d.promisor",
+      "bytes": 0,
+      "mtime_utc": "2026-11-12T13:04:47.599603+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-32-pack-14d48286912b64d802bc885deac257aafe08927d.rev",
+      "bytes": 593100,
+      "mtime_utc": "2026-11-12T13:04:47.563604+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-55-pack-38a56d943a79f305ae25251181c4fda2e73d2545.idx",
+      "bytes": 4210004,
+      "mtime_utc": "2026-11-12T14:16:37.542322+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-55-pack-38a56d943a79f305ae25251181c4fda2e73d2545.pack",
+      "bytes": 979123319,
+      "mtime_utc": "2026-11-12T14:58:04.515578+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-55-pack-38a56d943a79f305ae25251181c4fda2e73d2545.promisor",
+      "bytes": 0,
+      "mtime_utc": "2026-11-12T14:16:37.826322+00:00"
+    },
+    {
+      "path": ".git/objects/pack/.tmp-55-pack-38a56d943a79f305ae25251181c4fda2e73d2545.rev",
+      "bytes": 601328,
+      "mtime_utc": "2026-11-12T14:16:37.754322+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_0g5daG",
+      "bytes": 94502912,
+      "mtime_utc": "2026-11-12T12:15:28.885988+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_BlrpTN",
+      "bytes": 582877184,
+      "mtime_utc": "2026-11-12T12:37:50.068415+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_L6v1Wf",
+      "bytes": 4108,
+      "mtime_utc": "2026-11-12T14:18:54.634370+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_SgL96G",
+      "bytes": 133943295,
+      "mtime_utc": "2026-11-12T11:54:38.231719+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_n9gRO9",
+      "bytes": 83099648,
+      "mtime_utc": "2026-11-12T15:00:44.487599+00:00"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_pwMRZa",
+      "bytes": 133955584,
+      "mtime_utc": "2026-11-12T15:23:37.411886+00:00"
+    }
+  ],
+  "planned_bytes": 2993796334,
+  "completed": true,
+  "remaining_files": []
+}

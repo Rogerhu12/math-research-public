@@ -1,0 +1,41 @@
+{
+  "record_prefix": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-m15-w22-resume-02_tail",
+  "journal_file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-m15-w22-resume-02_tail-control.jsonl",
+  "last_good_file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-m15-w22-resume-02_tail-last-good.json",
+  "bootstrap_height_scale": 1.0,
+  "known_seed_packet": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0009.json.gz",
+  "worker_warm_input": null,
+  "tail_cold_start": false,
+  "tail_trial": "geometric-centered",
+  "tail_stage_workers": 2,
+  "small_height_continuation": {
+    "direct_relative_limit": 0.01,
+    "selection_requires_actual_successful_origin": true,
+    "bootstrap_is_actually_solved": true,
+    "direct_initial_step": "1",
+    "ordinary_initial_step": "1/8",
+    "minimum_step": "1/1024",
+    "scope": "Only target scheduling changes; all original residual, floor, physical and final validation conditions remain."
+  },
+  "tail_shooting_grid": {
+    "shootingParts": 16,
+    "steps": 16,
+    "auditSteps": 16,
+    "oldShootingParts": 16,
+    "oldSteps": 16,
+    "oldAuditSteps": 16,
+    "nominalRKStepsPerRawProfile": 256,
+    "nominalAuditStepsPerRawProfile": 256,
+    "partition_refinement": false,
+    "scope": "Numerical shooting partition, RK and audit grid only; same physical metric and final target."
+  },
+  "control": {
+    "initial_step": "1/8",
+    "maximum_step": "1/8",
+    "minimum_step": "1/1024",
+    "maximum_physical_requests": 32,
+    "maximum_logical_moves": 1024,
+    "grow_after_success": false
+  },
+  "scope": "Actual same-g Fourier continuation; all added modes are initial guesses until solved."
+}

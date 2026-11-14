@@ -1,0 +1,442 @@
+{
+  "schema": "fd2d-R162-same-physical-parameters-complete-objective-choice-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-existing-tail-fade-objective-choice.py",
+    "bytes": 4972,
+    "sha256": "a5731fc1ee1f89507da584e96649264886a926dbe4cde34ceffa42348b4609bd"
+  },
+  "helpers": {
+    "fd2d_gc_existing_tail_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_existing_tail_reference.py",
+      "bytes": 7341,
+      "sha256": "4b7ce10e568521ec7fe92ed23d0f8b1d947671aa9278fc63f631d007241bd2cf"
+    },
+    "fd2d_gc_positive_trace_value_objective.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_value_objective.py",
+      "bytes": 2960,
+      "sha256": "0dd7a78c34fae46b0be1397c35f2ddfcb636a6619b5ac5dab9a5a99c3ff4f365"
+    },
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    "fd2d_gc_positive_trace_interior_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_merit.py",
+      "bytes": 8377,
+      "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+    }
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0003-accepted-0002.npz",
+    "bytes": 58549,
+    "sha256": "ac8bad448e55e8b3f4d565c4717c1d48f09e992591e415cdb6159018fa992714"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T16:00:38.586293+00:00",
+  "completed": true,
+  "no_BVP": true,
+  "no_Jacobian": true,
+  "continuous_certificate": false,
+  "seconds": 32.611835510000674,
+  "peak_rss_kib": 217864,
+  "new_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-field.npz",
+    "bytes": 59081,
+    "sha256": "9eb3a54551f38b2578f480153c1cc3fb52bb094ac05252de090eade99d360942"
+  },
+  "change": {
+    "definition": {
+      "schema": "fd2d-existing-tail-raw-zero-initializer-v1",
+      "fade_start": 1.3,
+      "plateau_start": 1.4759731783581287,
+      "nodal_multiplier": "1-S5((s_i-fade_start)/(plateau_start-fade_start)), clipped",
+      "interpolation": "P1 interpolation of the new nodal coefficients; not a pointwise product with the old P1 field",
+      "zero_raw_nodes": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "complete_zero_raw_cells": [
+        119,
+        120,
+        121
+      ],
+      "complete_zero_raw_interval": [
+        1.4759731783581287,
+        1.4889731783581288
+      ],
+      "unchanged_raw_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "fade_raw_nodes": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "coefficients_max_abs_change": 5.482473357186759,
+      "parameter_vector_changed": false,
+      "physical_metric_changed": false,
+      "angular_atlas_changed": false,
+      "lifting_or_nonlinear_window_changed": false,
+      "angular_projection_performed": false,
+      "boundary_reimposition_performed": false,
+      "initial_field_changed": true,
+      "same_field_refinement": false,
+      "full_BVP_or_continuous_geometry_claim": false
+    },
+    "actual_field_changed": true,
+    "physical_g_changed": false,
+    "physical_parameters_bytes_preserved": true,
+    "other_original_arrays_bytes_preserved": true,
+    "maximum_raw_coefficient_change": 5.482473357186759
+  },
+  "old": {
+    "schema": "fd2d-v18-v19-complete-value-objective-v1",
+    "rows": 24304,
+    "objective_norm": 8.490178241924935,
+    "objective_squared": 72.0831265796556,
+    "component_squared_norms": {
+      "raw": 64.5344616178529,
+      "node_curvature": 2.1028242841683427,
+      "node_high_G": 0.027096698311382922,
+      "high_C": 5.309088663189645,
+      "interior_high_G": 0.010377020700093905,
+      "interior_curvature": 0.09927829543325549
+    },
+    "raw_maximum": 2.6470265619746587,
+    "previous_raw_maximum": 1.4121367810010108,
+    "node_full_G_maximum": 1.8321445733363106,
+    "node_formal_curvature": 7.678332045695155,
+    "whole_G2_Gauss_maximum": 6.088509745677225,
+    "whole_G2_peak": {
+      "cell": 63,
+      "s": 0.600318454492792,
+      "xi": 0.0,
+      "G": 6.088509745677225
+    },
+    "whole_C_average_maximum": 10.422030631704986,
+    "high_C_average_maximum": 2.7799289866572123,
+    "interior": {
+      "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+      "selected_cells": [
+        63,
+        71,
+        118
+      ],
+      "points": [
+        0.600318454492792,
+        0.6230448948075515,
+        0.836498550294863,
+        0.8592249906096225,
+        1.4708467899832625,
+        1.474599566732995
+      ],
+      "sample_cell_indices": [
+        63,
+        63,
+        71,
+        71,
+        118,
+        118
+      ],
+      "fractions": [
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_mean_weights": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+      "physical_field_unchanged": true,
+      "physical_g_unchanged_by_extra_rows": true,
+      "unknown_mesh_unchanged": true,
+      "finite_Gauss_equations_changed": true,
+      "complete_actual_Gauss": true,
+      "full_parameter_chain_rule": true,
+      "full_Gauss_maximum": 6.088509745677225,
+      "high_Gauss_maximum": 0.20225726753698728,
+      "retained_residual_l2": 4.160598346752417,
+      "high_residual_l2": 0.10186766268101917,
+      "curvature_residual_l2": 0.31508458456937477,
+      "curvature": {
+        "cap": 7.2,
+        "weight": 1.0,
+        "active_rows": 58,
+        "repeated_eigenvalue_rows": 0,
+        "residual_l2": 0.4455968927927022,
+        "sampled_formal_curvature_maximum": 7.331243004450819,
+        "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+        "complete_chain_derivative": true,
+        "actual_geometry_certified": false
+      },
+      "maximum_location": {
+        "cell": 63,
+        "s": 0.600318454492792,
+        "xi": 0.0,
+        "material_u": 0.0,
+        "G": 6.088509745677225,
+        "n_m_l": [
+          2.2645729646310535,
+          0.0,
+          4.136975916720638
+        ],
+        "K": 3.2799740706580987
+      },
+      "continuous_certificate": false
+    },
+    "axes": {
+      "A": 1.3681106533747693,
+      "B": 0.46811332375853176,
+      "gap": 0.8999973296162376
+    },
+    "minimum_active_coast_n": 0.5245042529090433,
+    "no_Jacobian": true,
+    "no_BVP": true,
+    "continuous_certificate": false
+  },
+  "new": {
+    "schema": "fd2d-v18-v19-complete-value-objective-v1",
+    "rows": 23962,
+    "objective_norm": 143.50212656911347,
+    "objective_squared": 20592.860329857864,
+    "component_squared_norms": {
+      "raw": 20586.58137323815,
+      "node_curvature": 1.7022447437546082,
+      "node_high_G": 0.025056103847726902,
+      "high_C": 4.450789414436785,
+      "interior_high_G": 0.0016244747070355196,
+      "interior_curvature": 0.09924188297999394
+    },
+    "raw_maximum": 107.48442853917558,
+    "previous_raw_maximum": 107.48442853917558,
+    "node_full_G_maximum": 1.8321445733363106,
+    "node_formal_curvature": 7.678332045695155,
+    "whole_G2_Gauss_maximum": 6.088509745677225,
+    "whole_G2_peak": {
+      "cell": 63,
+      "s": 0.600318454492792,
+      "xi": 0.0,
+      "G": 6.088509745677225
+    },
+    "whole_C_average_maximum": 110.25353663916309,
+    "high_C_average_maximum": 2.7799289866572123,
+    "interior": {
+      "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+      "selected_cells": [
+        63,
+        71,
+        118
+      ],
+      "points": [
+        0.600318454492792,
+        0.6230448948075515,
+        0.836498550294863,
+        0.8592249906096225,
+        1.4708467899832625,
+        1.474599566732995
+      ],
+      "sample_cell_indices": [
+        63,
+        63,
+        71,
+        71,
+        118,
+        118
+      ],
+      "fractions": [
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_mean_weights": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+      "physical_field_unchanged": true,
+      "physical_g_unchanged_by_extra_rows": true,
+      "unknown_mesh_unchanged": true,
+      "finite_Gauss_equations_changed": true,
+      "complete_actual_Gauss": true,
+      "full_parameter_chain_rule": true,
+      "full_Gauss_maximum": 6.088509745677225,
+      "high_Gauss_maximum": 0.13710886633404096,
+      "retained_residual_l2": 3.939596652003046,
+      "high_residual_l2": 0.040304772757522395,
+      "curvature_residual_l2": 0.315026797241114,
+      "curvature": {
+        "cap": 7.2,
+        "weight": 1.0,
+        "active_rows": 42,
+        "repeated_eigenvalue_rows": 0,
+        "residual_l2": 0.4455151691693425,
+        "sampled_formal_curvature_maximum": 7.331243004450819,
+        "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+        "complete_chain_derivative": true,
+        "actual_geometry_certified": false
+      },
+      "maximum_location": {
+        "cell": 63,
+        "s": 0.600318454492792,
+        "xi": 0.0,
+        "material_u": 0.0,
+        "G": 6.088509745677225,
+        "n_m_l": [
+          2.2645729646310535,
+          0.0,
+          4.136975916720638
+        ],
+        "K": 3.2799740706580987
+      },
+      "continuous_certificate": false
+    },
+    "axes": {
+      "A": 1.3681106533747693,
+      "B": 0.46811332375853176,
+      "gap": 0.8999973296162376
+    },
+    "minimum_active_coast_n": 0.5245042529090433,
+    "no_Jacobian": true,
+    "no_BVP": true,
+    "continuous_certificate": false
+  },
+  "new_objective_smaller": false,
+  "automatic_replace_live_state": false
+}

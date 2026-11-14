@@ -1,0 +1,83 @@
+{
+  "schema": "fd2d-closed-static-mathematical-input-manifest-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T20:50:18.672692+00:00",
+  "scope": "New guide 8.1 at the exact saved 33 accepted field, complete new baseline and new normal partition plan; excludes all active normal, direction and trial output",
+  "same_actual_field_sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc",
+  "old_goal_norm": 3.439832922685,
+  "new_goal_same_field_norm": 3.3934257946163444,
+  "norm_difference_is_objective_change_not_field_improvement": true,
+  "strong_target_complete": false,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-retarget-curvature-guidance.py",
+      "bytes": 3586,
+      "sha256": "6762c033f4796660a89ebfea6aac451e36770cbf92ab3677af6b0d8ce44ddbc4"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-stage-baseline-checkpointed.py",
+      "bytes": 4245,
+      "sha256": "376a191a62fe30d4b3e8169ce1a45a652d70f6bab283c0a936a6bc35843017a6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-request.json",
+      "bytes": 4894,
+      "sha256": "ea975b82582397c10d22620616e61603b7e0757a5ed5a59d8a7498fb83988318"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-retarget-report.json",
+      "bytes": 1041,
+      "sha256": "49ed4447e4e2a1484cabac2f3301e0aa91db286ed842670049c7209dd9eef231"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-retarget-process-receipt.json",
+      "bytes": 3494,
+      "sha256": "0ec256d3c2299d7ae25b0a16f3cf69e29bee1900627d7c76b885835545d009e4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-baseline-a01-report.json",
+      "bytes": 146693,
+      "sha256": "a4cad46522eeae556ba6a078aab3e966bfbf79aefee121e06006e8842894a236"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-baseline-a01-progress.jsonl",
+      "bytes": 1833,
+      "sha256": "43fee4804d3316463b2bf81175a44b6a44126b86b3e5aa5cc89f14883e15c63e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-baseline-a01-process-receipt.json",
+      "bytes": 3335,
+      "sha256": "c0e412d4beb6335444dab4d5da9c02203b07053dbe4281dc0db4e58e855bda74"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-baseline-a01-actual-current.npz",
+      "bytes": 133746,
+      "sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-work/baseline-summary.json",
+      "bytes": 76188,
+      "sha256": "3d9168d5a6fdab03c43518dadb3e2168dfc749336f0cdecef94b98a3ce2f9dc8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-work/normal-partition-plan.json",
+      "bytes": 46631,
+      "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-plan-a01-report.json",
+      "bytes": 99836,
+      "sha256": "d8081640fae8e8fe3cf6a22a4e1dd53520731474fd8d612e3599a04f13893260"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-plan-a01-progress.jsonl",
+      "bytes": 234,
+      "sha256": "6a68edf76c7eb6dc56a07e6e30acc8ded2a9dd7a6ffe0ffd09c53ed5cfd5cd1d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-plan-a01-process-receipt.json",
+      "bytes": 3313,
+      "sha256": "5a706eb6a3a60cce88d7272c4a6b497a273a62968f0a11af41c3d3a9efeec0f5"
+    }
+  ]
+}

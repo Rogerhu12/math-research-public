@@ -1,0 +1,93 @@
+{
+  "schema": "fd2d-accurate-last-P1-cell-physical-tail-v1",
+  "inputs": {
+    "field_arrays": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    "profile_packet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_accurate_last_cell.py",
+      "bytes": 12120,
+      "sha256": "8c8b8fefd5a3d459833e2b20b472710c54aebbf3ed00028e9740ef0843f6f435"
+    }
+  },
+  "physical_target_binding": "174ce735894c493f545295fe9f32c25de8b5e8aced2b4142df8e92fa08462794",
+  "saved_last_left": [
+    "6698420701823855",
+    "4503599627370496"
+  ],
+  "saved_endpoint_label": [
+    "1676434762804583",
+    "1125899906842624"
+  ],
+  "accurate_endpoint": {
+    "lower_binary": [
+      "2693926799068983009599668889973212808561885364892825513989211860043082510757",
+      -250
+    ],
+    "upper_binary": [
+      "2693926799068983009599668889973686279431756556377767851663376363331056841125",
+      -250
+    ],
+    "lower_display": 1.48897317835813,
+    "upper_display": 1.48897317835813
+  },
+  "accurate_last_width": {
+    "lower_binary": [
+      "2940033515793357224428063235227730880013399497884670734176019165134729637",
+      -250
+    ],
+    "upper_binary": [
+      "2940033515793357224428063235701201749884590982827008408340522453109060005",
+      -250
+    ],
+    "lower_display": 0.001625000000001175,
+    "upper_display": 0.001625000000001175
+  },
+  "accurate_minus_saved_endpoint": {
+    "lower_binary": [
+      "2148197134075819855372057145759069760076098703579405283504549",
+      -250
+    ],
+    "upper_binary": [
+      "2148197134075820328842927016950554702413772868082693257834917",
+      -250
+    ],
+    "lower_display": 1.1873403225247744e-15,
+    "upper_display": 1.1873403225247746e-15
+  },
+  "coordinate": "s=b+(S-b)*t; sigma=b+(E-b)*t; 0<=t<=1",
+  "raw": "same saved last-cell Fourier coefficients, affine in t",
+  "tail_weight": "original clipped S5((sigma-weight_start)/weight_length)",
+  "weight_start": [
+    "5632820803023399",
+    "9007199254740992"
+  ],
+  "weight_length": [
+    "7778657299413265",
+    "9007199254740992"
+  ],
+  "tail_geometry": {
+    "cut_radius": "4/5",
+    "flat_radius": "17/50",
+    "width": "23/50",
+    "controls": "original sixteen exact binary64 rationals"
+  },
+  "full_affine": "raw(sigma,u)+eta(sigma)*T(a_accurate(s),u)",
+  "terminal": "R155 positive trace using K_accurate(s); trace weight exactly one",
+  "identity_chart_on_entire_completed_cell": true,
+  "seed_coast_and_bumps_zero": true,
+  "old_array_bytes_changed": false,
+  "old_field_equal_on_completed_cell_claimed": false,
+  "physical_target_g_changed": false,
+  "old_finite_F_or_body_transferred": false,
+  "cut_radial_II_jets_assigned": false,
+  "whole_surface_certificate": false,
+  "binding_sha256": "585264c14cfcc61e2ffc423e20c7824a8b8ca0d343a047faa66b866c2435ba3c"
+}

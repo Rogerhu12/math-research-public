@@ -1,0 +1,11 @@
+# 仅在需要时构造完整曲率 Jacobian
+
+2026-11-13。父源为已闭精确slice复用源SHA65f8c554…bfd4d；新源scripts/fd2d-R201-R205-variable-amplitude-lazy-curvature.cjs，SHAa57438e8631afa6c5b0e4a10ecc7a51a5d81e96648e710fbcda11c3fc7e0f919。保原物理schema、全部有限公式、积分、行/列、曲率、阈值约定及完整参数链。
+
+原finish对每个含参数列的节点都会构造三个曲率残差的全部Jacobian，metric与位置guide只需要位置两jet和其参数变分，未读取该Jacobian。新源仅把该构造放入同一packet的jacobian属性首次读取处。首次读取仍执行原来的同一algebra.variation、hinge.apply和列循环；以后返回同一数组。仅metric/几何行使用的packet不执行无用曲率变分。公开setter允许调用者替换该返回属性，但数学评估按原规则只读结果packet，不在读取Jacobian之前修改其物理jet。缓存不保存点packet，之后新点查询仍独立。
+
+在固定参数、同一纯R191代数或同样纯的包装、且求值内部不修改packet的前提下，每个实际被读取的Jacobian都是原表达式/原顺序的值。metric/曲率/位置三部分的累加顺序不变；所以同一完整normal、梯度、对角、残差、JVP逐位一致。该命题不依靠删除零导数、阈值容差或少算参数列。曲率penalty的活动节点仍读取并计算全部真实参数列；A/cut/rho/phase链全部保留。输出新增curvatureJacobianStats只计真实潜在packet、实际构造和实际列变分次数。
+
+真实V8检验在原35维、37740行完整实际位置场上完成，两侧所有H/g/diag/residual/JVP、节点及失效/界限检查共84769个数Object.is一致。原uncached normal本次7.675秒，新normal6.239秒，总14.462秒；记录时间，不泛化因果加速比。含该次全部检查的第一实例2857个候选packet只实际构造606次曲率Jacobian，17041个列变分；另一个显式条目界实例3次均实际构造。缺省slice条目界仍512/96，没有取消内存边界。
+
+实际V8用已存完整检查源加新工厂alias完成；scripts/fd2d-check-lazy-curvature-jacobian.cjs保存等价调用序列供Node重放，包装器已编译，未冒称CLI已在终端运行。完整实际报告含输入向量、方向、所有计数；未跑或重算932/1025大normal。下一自然LM边界可用新源重新建provider，保原完整接受态/目标/λ/solver；不复用旧normal、不把性能改动当数学改善。

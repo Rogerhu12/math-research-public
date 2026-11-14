@@ -1,0 +1,116 @@
+{
+  "BVP_calls": 0,
+  "actual_support_amplitude": 0.09999976661892393,
+  "angular_metric_diagnostic_samples": 4096,
+  "callback_vs_N4096_physical_coefficient_max": 2.7755575615628914e-17,
+  "checkpoint_solver_success": false,
+  "checkpoint_status": "UNSOLVED_Z_ONLY_HERMITE_INITIAL_GUESS",
+  "continuous_FFT_bound": false,
+  "diagnostic_script": {
+    "bytes": 6498,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-m15-warm-inlet-v1.py",
+    "sha256": "cd44ffcb92141d6be3192e519c9867893d1d82f9ddd4c05ff4f604d1697c2dcf"
+  },
+  "flow_integrations": 0,
+  "gauge_amplitude": 0.1,
+  "input_bindings": [
+    {
+      "bytes": 27524,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+    },
+    {
+      "bytes": 5581,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "bytes": 4174602,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_00.npy.gz",
+      "sha256": "afde04de0544743ee695ce539abcc91116b142ff3aaae3d3fbd88d34fb3a789f"
+    },
+    {
+      "bytes": 1467096,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_01.npy.gz",
+      "sha256": "f988042717251970e96fdd47eb9f4dc03475c55f9772c339f81c319b2e554f2f"
+    }
+  ],
+  "literal_saved_parameters_replayed": true,
+  "material_base_mode": 3,
+  "modes": 15,
+  "new_candidate": false,
+  "pscale_matches_saved": true,
+  "rows": [
+    {
+      "G_relative_FFT_l1": 1.3024481970289505e-09,
+      "G_relative_max_sampled": 1.3024374911907444e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_relative": -4.418448884524492e-11,
+          "G_relative_exact": "-17798918123219750771326403890838030624064735277575549615826882674187148543871/402831821491927200022889099755748833492752904045902291521494005183641850446481348100096",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-443406162364204431109770810993599/20070670678677561322558162159535635315032064"
+        },
+        "psi_zero": {
+          "G_relative": -1.3024377627134984e-09,
+          "G_relative_exact": "-6477325633749984439315410934789978699300661767755401629750147427868721552343/4973232364097864212994991508488041621169224121542669725574112723877276316377131515904",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-1452266634633772160378581966921933/2230074519853061818977556113112726190948352"
+        }
+      },
+      "representation": "saved_first_PP_value"
+    },
+    {
+      "G_relative_FFT_l1": 1.3024564362454404e-09,
+      "G_relative_max_sampled": 1.302445817863429e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_relative": -4.4182210354780303e-11,
+          "G_relative_exact": "-71192001099022546274317383094418910999338812989300492239330243580050450038359/1611327285967708800091556399022995333971011616183609166085976020734567401785925392400384",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-886766593896647989753394623816333/40141341357355122645116324319071270630064128"
+        },
+        "psi_zero": {
+          "G_relative": -1.3024458677244646e-09,
+          "G_relative_exact": "-25909463767411333483333049378104595203395311569641253076755864584348262608455/19892929456391456851979966033952166484676896486170678902296450895509105265508526063616",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-2904551344045995148881179402745835/4460149039706123637955112226225452381896704"
+        }
+      },
+      "representation": "literal_initial_callback_N2048"
+    },
+    {
+      "G_relative_FFT_l1": 1.3024655986052231e-09,
+      "G_relative_max_sampled": 1.302454699647626e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_relative": -4.4182872574915095e-11,
+          "G_relative_exact": "-71193068152395055747579578888320607798002687813193083172991015244881376921863/1611327285967708800091556399022995333971011616183609166085976020734567401785925392400384",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-886779885098890506855802626817589/40141341357355122645116324319071270630064128"
+        },
+        "psi_zero": {
+          "G_relative": -1.3024548885670447e-09,
+          "G_relative_exact": "-25909643218396416550620004459671002485769990598677180762988017334829031542391/19892929456391456851979966033952166484676896486170678902296450895509105265508526063616",
+          "abs_above_2e_minus_9": false,
+          "relative_tangent_exact": "-2904571461197193727908840904732739/4460149039706123637955112226225452381896704"
+        }
+      },
+      "representation": "same_core_reprojected_N4096"
+    }
+  ],
+  "saved_vs_callback_physical_coefficient_max": 1.1285399857576922e-16,
+  "schema": "78718-M15-unsolved-warm-inlet-v1",
+  "scope": "Read-only inlet diagnostic of the UNSOLVED saved M15 warm start.\n\nNo BVP, tail call, flow integration, parameter update or candidate generation.\nThe saved first PP value and the literal original initial callback are compared.\n",
+  "seconds": 0.6004634129967599,
+  "source_loader": {
+    "bytes": 2740,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+    "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+  },
+  "source_nodes": 2633,
+  "source_root": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+  "support_coefficient_count": 15,
+  "support_coefficients_sha256_little_endian_f64": "45480178c42ab5be1088983ce3c6bd622dc52a9cc92522509d481369b07f1237",
+  "tail_calls": 0
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-R152-hybrid-known-lifting-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_hybrid_lifting_codazzi_d2.py",
+      "bytes": 15889,
+      "sha256": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe"
+    },
+    {
+      "path": "scripts/fd2d-metric-hybrid-lifting-cell-check.py",
+      "bytes": 11216,
+      "sha256": "f20e82ce9b6cf39d4e2d122f3f381195378fce1088b036ca2be4ec6408e8d298"
+    },
+    {
+      "path": "results/R152-hybrid-known-lifting-Codazzi-quadrature.md",
+      "bytes": 11705,
+      "sha256": "f9f6c7239b6a9ea6be2bffe429c3a0c329176a1473ebb2cda98b98ab2e57518c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-hybrid-lifting-cell71-01-report.json",
+      "bytes": 24118,
+      "sha256": "97ea6fb00509ac8cd5452a929e64d9d4adb54d46a47212c3b7dcd597659dd8a3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-hybrid-lifting-cell71-01-witnesses.npz",
+      "bytes": 20474,
+      "sha256": "9d7685f17ba0d7047e923ae420eb4bfdd687d58b3220dfd8f385957878881519"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-hybrid-lifting-cell71-01-exit-receipt.json",
+      "bytes": 444,
+      "sha256": "a7641ccac3fbd472ef0f2f179fa81ee430ed81b8ff1ff2bd73c441e0ddba6e98"
+    }
+  ],
+  "actual_success": {
+    "session_id": 34047,
+    "completion_chunk_id": "d54522",
+    "exit_code": 0
+  },
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0001-accepted-0002.npz",
+    "bytes": 54990,
+    "sha256": "ef6dc889f6dd647b18767cd8564dc4fd68f2c355ad77b6d6e2c9cff3b7d2bf89"
+  },
+  "scope": {
+    "cell": 71,
+    "local_nodes": 2,
+    "angular_work": 256,
+    "state_Jacobian_changed": false,
+    "affine_R149_background_only": true,
+    "nonlinear_R153_field_supported": false
+  },
+  "original_sources_changed": false,
+  "whole_BVP_matrix_assembled": false,
+  "nonlinear_solve_performed": false,
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

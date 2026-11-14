@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-actual-curvature-direct-box-owner-stop-v1",
+  "source_snapshot": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_actual_curvature_certificate_v1.py",
+  "source_sha256": "472552ce5c3fe75900fe9935d8d74bb652737c42725fe558d8fcba17996c0cbd",
+  "session": 59212,
+  "final_chunk": "9770cb",
+  "exit_code": 130,
+  "owner_interrupt": true,
+  "completed_certificate": false,
+  "reason": "Direct Cartesian interval products lose radial dependency and used a generic product for a square. Point-angle diagnostics exposed NaN or inflated enclosures, so the owner stopped to preserve radial quadratic structure and bounded storage. No mathematical impossibility is inferred.",
+  "point_diagnostic": {
+    "session": 38005,
+    "final_chunk": "7fb66a",
+    "exit_code": 0
+  }
+}

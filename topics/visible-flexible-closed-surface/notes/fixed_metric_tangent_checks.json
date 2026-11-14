@@ -1,0 +1,56 @@
+{
+  "scope": "Analytic tangent-angle Jacobian and profile-chart checks.",
+  "parameter_fd_errors": [
+    3.7087111159905817e-10,
+    3.265633735649587e-10,
+    3.0889196755978787e-10,
+    2.8435538645954495e-10
+  ],
+  "parameter_fd_step": 1e-06,
+  "parameter_theta_derivative_errors": [
+    4.803559250984066e-15,
+    3.6123924315387946e-15,
+    3.8166755004343645e-15,
+    7.160723346098895e-15
+  ],
+  "series_first_jet_error": 7.108895957933346e-16,
+  "series_second_jet_error": 1.0053497077208614e-15,
+  "closure_error": 2.4485984571363984e-16,
+  "chart": [
+    {
+      "delta_factor": 0.8,
+      "inverse_error": 2.220446049250313e-16,
+      "minimum_ds": 1.1396444197645808,
+      "maximum_ds": 1.6738522826937279,
+      "end_error": 0.0
+    },
+    {
+      "delta_factor": 0.9,
+      "inverse_error": 1.1102230246251565e-16,
+      "minimum_ds": 1.2820999722351534,
+      "maximum_ds": 1.5492039036997272,
+      "end_error": 0.0
+    },
+    {
+      "delta_factor": 1.0,
+      "inverse_error": 1.1102230246251565e-16,
+      "minimum_ds": 1.424555524705726,
+      "maximum_ds": 1.4245555247057262,
+      "end_error": 0.0
+    },
+    {
+      "delta_factor": 1.1,
+      "inverse_error": 2.220446049250313e-16,
+      "minimum_ds": 1.2999071457117248,
+      "maximum_ds": 1.5670110771762988,
+      "end_error": 0.0
+    },
+    {
+      "delta_factor": 1.8,
+      "inverse_error": 4.440892098500626e-16,
+      "minimum_ds": 0.4273684927537176,
+      "maximum_ds": 2.564199944470307,
+      "end_error": 0.0
+    }
+  ]
+}

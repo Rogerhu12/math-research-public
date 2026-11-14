@@ -1,0 +1,546 @@
+{
+  "schema": "fd2d-current-central-compatibility-actual-run-v1",
+  "passed": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_current_initial_compatibility.py",
+    "bytes": 7471,
+    "sha256": "4798015e22dc7d335cd7eb6b96c1d0f57b3bfc5a2a2d1ab2c3e9e7c5c205cca6"
+  },
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-current-complete-arb-02-native-definition.json",
+    "bytes": 54399,
+    "sha256": "9b63f99189bbb46da57602ad4962784cb2639643b5853d3c1b8ad67531de92f1"
+  },
+  "profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+    "bytes": 381511,
+    "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+  },
+  "bound": {
+    "schema": "fd2d-current-exact-central-compatibility-v1",
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_current_initial_compatibility.py",
+      "bytes": 7471,
+      "sha256": "4798015e22dc7d335cd7eb6b96c1d0f57b3bfc5a2a2d1ab2c3e9e7c5c205cca6"
+    },
+    "full_field_binding_sha256": "d8f0ef5da9239458f1bf46de845332746f7bec16cd55d654d34f799f252388d8",
+    "actual_field": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    "exact_means": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-512-02.json.gz",
+      "bytes": 263756,
+      "sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3"
+    },
+    "exact_moments": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "accurate_profile_binding": "174ce735894c493f545295fe9f32c25de8b5e8aced2b4142df8e92fa08462794",
+    "base_kind": "balanced_seed",
+    "central_count": 31,
+    "exact_initial_curve": "Declared central family kappa=base+sum c_j(cos(2j*xi)-mu_j_true), gamma_u=a0*T",
+    "exact_initial_frame": "F0=(fixed unit transverse direction,T,N), right handed, T_u=a0*kappa*N",
+    "exact_raw_n_mean": [
+      "-1381746453690685",
+      "2251799813685248"
+    ],
+    "raw_cosine_minus_central_exact": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "raw_initial_m_exact": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "raw_initial_l_exact": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "n_field_minus_exact_curve_constant": {
+      "lower_binary": [
+        "-9697916873236778932304640056000438284250261524689214400481803",
+        -256
+      ],
+      "upper_binary": [
+        "-8634006699152689011024279131842182727600023705538386505091595",
+        -256
+      ],
+      "lower_display": -8.375284475056731e-17,
+      "upper_display": -7.456473715969723e-17
+    },
+    "n_error_uniform_upper": {
+      "lower_binary": [
+        "9697916873236778932304640056000438284250261524689214400481803",
+        -256
+      ],
+      "upper_binary": [
+        "9697916873236778932304640056000438284250261524689214400481803",
+        -256
+      ],
+      "lower_display": 8.375284475056731e-17,
+      "upper_display": 8.375284475056731e-17
+    },
+    "m_uniform_upper": {
+      "lower_binary": [
+        "0",
+        0
+      ],
+      "upper_binary": [
+        "0",
+        0
+      ],
+      "lower_display": 0.0,
+      "upper_display": 0.0
+    },
+    "exact_cosine_match": true,
+    "initial_m_exact_zero": true,
+    "initial_l_exact_zero": true,
+    "initial_D_operator_upper": {
+      "lower_binary": [
+        "10963463737684080537565722014565083928535074889370511245007308667935800665435",
+        -306
+      ],
+      "upper_binary": [
+        "10963463737684080537565722014565083928535074889370511245007308667935800665435",
+        -306
+      ],
+      "lower_display": 8.409479404952111e-17,
+      "upper_display": 8.409479404952111e-17
+    },
+    "initial_C_norm_upper": {
+      "lower_binary": [
+        "0",
+        0
+      ],
+      "upper_binary": [
+        "0",
+        0
+      ],
+      "lower_display": 0.0,
+      "upper_display": 0.0
+    },
+    "initial_Du_operator_upper": {
+      "lower_binary": [
+        "58503712802646361744293220082382525573462680158070423566476591146343279274327",
+        -305
+      ],
+      "upper_binary": [
+        "58503712802646361744293220082382525573462680158070423566476591146343279274327",
+        -305
+      ],
+      "lower_display": 8.975006069222694e-16,
+      "upper_display": 8.975006069222694e-16
+    },
+    "initial_Cu_norm_upper": {
+      "lower_binary": [
+        "0",
+        0
+      ],
+      "upper_binary": [
+        "0",
+        0
+      ],
+      "lower_display": 0.0,
+      "upper_display": 0.0
+    },
+    "auxiliary_exact_curve_abs_curvature_upper": {
+      "lower_binary": [
+        "38461392793381553703101121189613776854700825728639032479278326359348929467615",
+        -251
+      ],
+      "upper_binary": [
+        "38461392793381553703101121189613776854700825728639032479278326359348929467615",
+        -251
+      ],
+      "lower_display": 10.629090272874812,
+      "upper_display": 10.629090272874812
+    },
+    "formulas": {
+      "d0": "a0*sup sqrt((n_field-n_curve)^2+m_field^2); a_s(0)=0",
+      "k0": "0 exactly for the declared accurate arclength initial curve/frame",
+      "d0u": "a0*sup|kappa_curve|*d0 + a0*sup sqrt((Delta_n)_u^2+(m_field)_u^2)"
+    },
+    "whole_angle_bound": true,
+    "angular_sampling_used": false,
+    "actual_initial_curve_numeric_quadrature_error_transferred": false,
+    "frame_body_BVP_or_full_F_J_computed": false,
+    "global_embedding_or_surface_certificate": false
+  },
+  "actual_field_unchanged": true,
+  "seconds": 1.5715151870026602,
+  "peak_rss_kib": 92596
+}

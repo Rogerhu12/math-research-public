@@ -1,0 +1,46 @@
+{
+  "status": "METADATA_ONLY_EXECUTION_CLOSED",
+  "execution_receipt": {
+    "tool": "exec_command",
+    "chunk_id": "cb260d",
+    "exit_code": 0,
+    "wall_time_seconds": 0.448401761
+  },
+  "recorded_utc": "2026-11-09T14:14:25.318146+00:00",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "python",
+    "scripts/db6f-prefix-continuation-call10-diagnosis.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-continuation-call10-diagnosis.json"
+  ],
+  "source": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-continuation-call10-diagnosis.py",
+    "bytes": 12282,
+    "sha256": "5487c2a374f459f5553a25f6267662c59a1e40c067f7d6e1ee6c696fc4ec62a9"
+  },
+  "output": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation-call10-diagnosis.json",
+    "bytes": 48571,
+    "sha256": "9590a68b5aff0b916801830a0e964df85a4e2a2bd7c1446fc8066bac02b271b8"
+  },
+  "controller_status_observation_utc": "2026-11-09T14:08:15.435178+00:00",
+  "worker_exit_code_was_reported": false,
+  "worker_exit_inferred": false,
+  "additional_read_only_scalar_check": {
+    "tool_chunk_id": "ebe81c",
+    "exit_code": 0,
+    "scope": "No engine imported; for closed calls 7,8,9 compare CP Q0 with request.height / response.jets.radius**4.",
+    "max_Q0_minus_requested_height_over_c4_each": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scope_note": "Q0 division values agree; multiplication/division rounding is not a bitwise identity."
+  },
+  "solver_calls": 0,
+  "angular_root_calls": 0,
+  "rk_calls": 0,
+  "backend_calls": 0,
+  "original_closed_input_or_active_file_modified": false
+}

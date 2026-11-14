@@ -1,0 +1,104 @@
+{
+  "schema": "fd2d-R196-actual-mixed-110-closed-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-cubic-spline-refinement-R196.cjs",
+      "bytes": 10459,
+      "sha256": "ecef2af139d2fe92387c2984ca75edf26e7fd0b6f44e909cf91ac3b2530a5f77"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-tangent-lift-baseline-R187.cjs",
+      "bytes": 12898,
+      "sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-nonuniform-curvature-provider-R196.cjs",
+      "bytes": 16309,
+      "sha256": "a2b1ddaede16a7e59f1528f9799d3da22f6df07c019abf02f60903ab77d7b4fc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-nonuniform-metric-provider-R196.cjs",
+      "bytes": 12736,
+      "sha256": "a941529bfa24849758bb3539bf23871919cbc9c3f4778703080ecabc5d5cac3e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-position-curvature-chain-R191.cjs",
+      "bytes": 3222,
+      "sha256": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-record-subprocess-exit.py",
+      "bytes": 1372,
+      "sha256": "416404e606facade5d0950e4f337cd614c56fe163a7fb069314abbb4e3d2efd7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-run-nonuniform-position-R196-root.cjs",
+      "bytes": 4540,
+      "sha256": "5a93445788bcbf70447ad8a11a81aca5aa2d3760ac39f2dbcbe4fc10513d3f6e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_band_border_lm_adapter_v2_R195.cjs",
+      "bytes": 12143,
+      "sha256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_scaled_band_border_lm_v2_R195.cjs",
+      "bytes": 14773,
+      "sha256": "3484c99bfe0a5602c16eb5ccd70288326be04eeadc2804df4c7fd16639ece02c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl13over128-candidate.json",
+      "bytes": 21834,
+      "sha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-01-report.json",
+      "bytes": 62592,
+      "sha256": "2666bc7046add73b120c5d1a4099e5008cbfb2f1a6c37fe2644dfb4144d9456b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-02-report.json",
+      "bytes": 166892,
+      "sha256": "1feceb2f3618341fc96a5e1651fe72636ede20fdde2bcf9303804af5bd929a0d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-03-process-receipt.json",
+      "bytes": 571,
+      "sha256": "8f83a0bcb740b09cf9459e7ea1f3467345a10e1a1b69e7b55030d43bc14493a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-03-process-receipt.stdout.log",
+      "bytes": 18437,
+      "sha256": "0ad8d0486bf67b7579cbb967cbfe7e6e35081d7d07334e2e7f258c200ef94b60"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-03-report.json",
+      "bytes": 489193,
+      "sha256": "77edd9b4e5b344b942f9a8e4cc8e75def83b0b8d9be43b6c14ea6cb8b5866099"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R196-J30K15-mixed-initial.json",
+      "bytes": 22172,
+      "sha256": "8761f80174f11e4cccb3cce26f920f48d03cd1a3df67c96d71ac6927fb5db763"
+    }
+  ],
+  "actual_executions": {
+    "first6": {
+      "OS_exit": 0,
+      "tool_chunk": "ee9bc1"
+    },
+    "next24": {
+      "complete_24_accepted_history_and_final_report_present": true,
+      "tool_session": "42645",
+      "OS_exit": null,
+      "reason": "exit lookup returned Unknown process id; no zero inferred"
+    },
+    "next80": {
+      "receipt": "notes/2026-11-13-fd2d-R196-J30K15-mixed-03-process-receipt.json",
+      "actual_child_exit": 0,
+      "seconds": 107.40173951399629
+    }
+  },
+  "continuous_certificate": false,
+  "strong_complete": false
+}

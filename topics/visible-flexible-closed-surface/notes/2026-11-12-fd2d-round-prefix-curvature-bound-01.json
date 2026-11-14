@@ -1,0 +1,233 @@
+{
+  "schema": "fd2d-whole-round-prefix-curvature-rational-corollary-v1",
+  "actual_execution": true,
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "inherited_packet_sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695",
+  "inherited_packet_source_sha256": "a33c214dffc98dd2b5c09a5d3d1d130726d1ff8abb997162a9d70b59cacbe5ae",
+  "consumer_source_sha256": "46897a520cbbe296118f250bf49d88a6c9fd2b69f040de92ec20fa5ec4c7a46e",
+  "encodings": [
+    {
+      "encoding": "exact binary64 numerical data",
+      "passed": true,
+      "inherited_radius_lower": "4/5",
+      "inherited_phase_range": "[-pi/2,3/10]",
+      "hermite_count": 51,
+      "hermite_velocity_upper": {
+        "exact": "4661186959924771/18014398509481984",
+        "display": 0.2587478542495509
+      },
+      "hermite_acceleration_absolute_upper": {
+        "exact": "297385298499352045922524514831179834281751/182687704666363189294014262516406275801088",
+        "display": 1.627834226952807
+      },
+      "hermite_squared_margin_for_abs_l_lt_2": {
+        "exact": "577973486014890307763146391504187419865692262259017676611622874037371151416145694199/533996758980229417736345490733461343437739886909173169753442174733781851138271739904",
+        "display": 1.0823539212459696
+      },
+      "hermite_abs_l_strict_upper": "2",
+      "phase_checks": [
+        {
+          "label": "outward_peak_spacer",
+          "kind": "coast",
+          "absolute_phi_s_upper": {
+            "exact": "0",
+            "display": 0.0
+          },
+          "method": "constant phase",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "7656119366529843/2251799813685248",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "7656119366529843/2251799813685248",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "7656119366529843/2251799813685248",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "early_shallow_return",
+          "kind": "turn",
+          "absolute_phi_s_upper": {
+            "exact": "7656119366529843/2251799813685248",
+            "display": 3.4
+          },
+          "method": "R136 exact soft-turn normalization; ramp in [0,1]",
+          "passed": true
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "kind": "coast",
+          "absolute_phi_s_upper": {
+            "exact": "0",
+            "display": 0.0
+          },
+          "method": "constant phase",
+          "passed": true
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "kind": "turn",
+          "absolute_phi_s_upper": {
+            "exact": "7656119366529843/2251799813685248",
+            "display": 3.4
+          },
+          "method": "R136 exact soft-turn normalization; ramp in [0,1]",
+          "passed": true
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "6553528473564877141176725815958718708747083531121034610221795746473537209687281940312576376625906057313891604603879798612512/940380362183250392182857935643128582427769309818111672957779957610518386714666450630667181068279318860732018947601318359375",
+            "display": 6.969018853551731
+          },
+          "method": "zero-end-slope cubic derivative; 6t(1-t)<=3/2",
+          "passed": true
+        }
+      ],
+      "central_and_derived_deep_coast_abs_l": "0",
+      "azimuthal_curvature_absolute_upper": "5/4",
+      "terminal_brake_abs_l_upper": {
+        "exact": "6553528473564877141176725815958718708747083531121034610221795746473537209687281940312576376625906057313891604603879798612512/940380362183250392182857935643128582427769309818111672957779957610518386714666450630667181068279318860732018947601318359375",
+        "display": 6.969018853551731
+      },
+      "global_principal_curvature_absolute_strict_upper": "7",
+      "exact_flat_annulus_extension_curvature": "0"
+    },
+    {
+      "encoding": "exact written decimal numerical data",
+      "passed": true,
+      "inherited_radius_lower": "4/5",
+      "inherited_phase_range": "[-pi/2,3/10]",
+      "hermite_count": 51,
+      "hermite_velocity_upper": {
+        "exact": "2587478542495509/10000000000000000",
+        "display": 0.2587478542495509
+      },
+      "hermite_acceleration_absolute_upper": {
+        "exact": "406958556738067843605200531537289531057932846179/250000000000000450000000000000202500000000000000",
+        "display": 1.6278342269522685
+      },
+      "hermite_squared_margin_for_abs_l_lt_2": {
+        "exact": "54117696062386357230146631706042098230417275849583635882187832896744721834858767210237861211879/50000000000000180000000000000243000000000000145800000000000032805000000000000000000000000000000",
+        "display": 1.0823539212477233
+      },
+      "hermite_abs_l_strict_upper": "2",
+      "phase_checks": [
+        {
+          "label": "outward_peak_spacer",
+          "kind": "coast",
+          "absolute_phi_s_upper": {
+            "exact": "0",
+            "display": 0.0
+          },
+          "method": "constant phase",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "17/5",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "17/5",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "17/5",
+            "display": 3.4
+          },
+          "method": "convex hull of quadratic Bernstein derivative controls",
+          "passed": true
+        },
+        {
+          "label": "early_shallow_return",
+          "kind": "turn",
+          "absolute_phi_s_upper": {
+            "exact": "17/5",
+            "display": 3.4
+          },
+          "method": "R136 exact soft-turn normalization; ramp in [0,1]",
+          "passed": true
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "kind": "coast",
+          "absolute_phi_s_upper": {
+            "exact": "0",
+            "display": 0.0
+          },
+          "method": "constant phase",
+          "passed": true
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "kind": "turn",
+          "absolute_phi_s_upper": {
+            "exact": "17/5",
+            "display": 3.4
+          },
+          "method": "R136 exact soft-turn normalization; ramp in [0,1]",
+          "passed": true
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "kind": "phase_bridge",
+          "absolute_phi_s_upper": {
+            "exact": "181896955097207011827550092926748508182784223066199328820431798618519115496438860878951685940886484183623859/26100798250029711859697765623777601768796054383240240422801343655588917149926714830456301569938659667968750",
+            "display": 6.969018853551728
+          },
+          "method": "zero-end-slope cubic derivative; 6t(1-t)<=3/2",
+          "passed": true
+        }
+      ],
+      "central_and_derived_deep_coast_abs_l": "0",
+      "azimuthal_curvature_absolute_upper": "5/4",
+      "terminal_brake_abs_l_upper": {
+        "exact": "181896955097207011827550092926748508182784223066199328820431798618519115496438860878951685940886484183623859/26100798250029711859697765623777601768796054383240240422801343655588917149926714830456301569938659667968750",
+        "display": 6.969018853551728
+      },
+      "global_principal_curvature_absolute_strict_upper": "7",
+      "exact_flat_annulus_extension_curvature": "0"
+    }
+  ],
+  "passed": true,
+  "seconds": 0.04588851899825386,
+  "scope": "Whole accurate surface-of-revolution prefix for the immutable base delta=0 metric, with zero-control flat annulus extension. A corollary of the closed R136 scalar packet. No new ODE, BVP, noncircular branch, nonlocal reach, held-point or strong-target certificate."
+}

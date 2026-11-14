@@ -1,0 +1,30 @@
+{
+  "scope": "Actual small planner executions only, no producer/BVP/DN.",
+  "actor": "/root/numerical_recovery",
+  "commands": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py plan --checkpoint topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz --run-directory topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-plan-check --out topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-backend-plan-check.json",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/scripts/78718-closed-mode-backend.py plan --checkpoint topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz --run-directory topics/visible-flexible-closed-surface/notes/2026-11-10-78718-generic-backend-unsolved-check --out topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-backend-unsolved-check.json"
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "6340d0",
+        "wall_time_seconds": 0.000029404,
+        "exit_code": 0,
+        "original_token_count": 111,
+        "output": "{\"status\": \"ACTUAL_FINITE_INPUTS_PLANNED_NO_PRODUCTION\", \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-backend-plan-check.json\", \"bytes\": 92403, \"sha256\": \"71bcf5e1e4e0de3ac11cf7d141febc05c14bba94d356e6f663561476b16af758\"}, \"prefix_modes\": 14, \"tail_modes\": 14, \"commands\": 41, \"missing_named_fixed_inputs\": 0, \"actual_production_calls\": 0}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "996f79",
+        "wall_time_seconds": 0.000024255,
+        "exit_code": 2,
+        "original_token_count": 32,
+        "output": "{\"status\": \"NOT_COMPLETED\", \"error\": \"ValueError('Checkpoint is not an actual successful prefix solve')\", \"command\": \"plan\"}\n"
+      }
+    }
+  ]
+}

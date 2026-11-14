@@ -1,0 +1,29 @@
+{
+  "status": "ONLY_REJECTED_INELIGIBLE_COMPLETION_INPUTS",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-independent-tool-observation-v1.py",
+    "sha256": "65daca0b3bc7b8512bab1fff4edf672c2d158a0b21198b2d0f5a23815a7f0a6b"
+  },
+  "actual_guard_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-guard-completion.json",
+    "sha256": "b49df9783672134346088e6dbcf137196a9196f68147d2ee20b82106fac0072a"
+  },
+  "actual_small_check_start_receipt": "ac32b3",
+  "cases": [
+    {
+      "case": "actual-guard-is-not-tool-exit",
+      "subprocess_exit_code": 1,
+      "error_last_line": "ValueError: Natural tool exit code and receipt are required",
+      "no_observation_file_created": true
+    },
+    {
+      "case": "actual-running-small-check-is-not-complete",
+      "subprocess_exit_code": 1,
+      "error_last_line": "ValueError: Natural tool exit code and receipt are required",
+      "no_observation_file_created": true
+    }
+  ],
+  "positive_independent_observation_created": false,
+  "actual_solver_calls": 0,
+  "actual_production_calls": 0
+}

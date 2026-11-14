@@ -1,0 +1,94 @@
+{
+  "status": "PASS_FROZEN_IDENTITIES_AND_MATHEMATICAL_BODY_UNCHANGED",
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-conjugacy.md",
+      "bytes": 7427,
+      "sha256": "a413fcdfe3d5fac0bbef4fc0466707fd5ddaf88d87e00924b03ea23c463067fe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation.py",
+      "bytes": 8035,
+      "sha256": "b5422e43c06bde4f988bf5a2d4331ff9fa65ecef5f11722388aa5c6f57d8575c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+      "bytes": 8906,
+      "sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-check-spectral-collocation-analytic.py",
+      "bytes": 5410,
+      "sha256": "9035714601625d617da35acf0ace91d3f788406b99c33aac19f658fd49f96624"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-check-spectral-collocation-analytic-v2.py",
+      "bytes": 7069,
+      "sha256": "d320a57fbb18a1c41bdd9ae2a89302b94102338f1fdea50e6f4b95f0219b764a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-analytic-check.json",
+      "bytes": 2198,
+      "sha256": "d0780e5644a3772fb9e3d19fdb7b7e974573d76f140009d55e517d0f625683a5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-analytic-check-v2-observed-replay.json",
+      "bytes": 2429,
+      "sha256": "682e758be6032aae354a6630306963bcb181a24ffdcc4176f91a507c33cfcda2"
+    },
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+      "bytes": 41294,
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "bytes": 19466,
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "bytes": 5131,
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "bytes": 36488,
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-conjugacy.py",
+      "bytes": 9635,
+      "sha256": "b8442b7b00fc22cbbd721274a64626f98792b6df74e3e83a9e49649fec53d88b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-conjugacy-check.json",
+      "bytes": 3475,
+      "sha256": "b154d3679ce7b44c31239218e9c4d9df008df4990e43976927f61d887417c79c"
+    }
+  ],
+  "number_of_sources": 15,
+  "unchanged_function_ASTs": [
+    "power2_weights",
+    "weighted_fun",
+    "weighted_jac",
+    "physical_bc",
+    "physical_bc_jac"
+  ],
+  "entire_body_from_weighted_fun_through_end_byte_equal": true,
+  "new_formulas_or_tolerances": false,
+  "author_analytic_BVP_independently_rerun": false,
+  "scipy_source_file_hash_does_not_bind_runtime_newton_monkeypatch": true,
+  "actual_candidate_files_read": false,
+  "solver_calls": 0
+}

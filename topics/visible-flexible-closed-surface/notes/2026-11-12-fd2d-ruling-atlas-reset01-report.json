@@ -1,0 +1,207 @@
+{
+  "schema": "fd2d-explicit-ruling-coast-correction-reset-initializer-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-ruling-coast-reset-initializer.py",
+    "bytes": 7030,
+    "sha256": "50ee307318d911017e49fd9a3d4adcbe34d650aede72b28462c7ac50c63e5bc5"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0004-accepted-0002.npz",
+    "bytes": 55004,
+    "sha256": "b54dcf3a071b1e9d5b5033f57916ef4b0382985435d4a4ce26c7cf367442c263"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T14:18:36.395162+00:00",
+  "completed": true,
+  "nonlinear_solve_performed": false,
+  "whole_strong_solution": false,
+  "exception": null,
+  "seconds": 7.951533723000466,
+  "peak_rss_kib": 204800,
+  "explicit_reset": {
+    "formula": "new node correction=(1-w)*old node correction",
+    "known_lifting_changed": false,
+    "angular_atlas_changed": false,
+    "physical_parameters_unchanged": true,
+    "physical_metric_changed": false,
+    "old_full_field_preserved": false,
+    "exact_boundary_projection_change": 0.0,
+    "zero_weight_nodes_unchanged": true,
+    "plateau_node_indices": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "plateau_corrections_maximum": 0.0,
+    "maximum_correction_change": 1.3165343744530311,
+    "between_nodes": "actual P1 of new nodal coefficients, not the nonlinear product (1-w(s))*old P1",
+    "plain_bump_initializer_used": false,
+    "coast_physical_reference_exact_GC_scope": "frozen base delta=0 only"
+  },
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ruling-atlas-reset01-warm.npz",
+    "bytes": 53453,
+    "sha256": "f8b8d15f9bf0488e5f8f36e2d8a952f2ecd67bed1250d1c6b27283675e5bef60"
+  },
+  "actual_new_initial": {
+    "raw_maximum": 29.703167252183487,
+    "full_gauss_node_maximum": 0.9196896902186189,
+    "formal_curvature_node_maximum": 7.202043894872742,
+    "full_endpoint_codazzi_maximum": 58.732372006467656,
+    "high_endpoint_codazzi_maximum": 3.455382790168915,
+    "minimum_central_curvature": 0.1,
+    "gap": 0.8999998755219005,
+    "node_n_minimum": -0.1827581401488111
+  },
+  "actual_new_locations": {
+    "continuous_certificate": false,
+    "raw_codazzi_n": {
+      "maximum": 29.703167252183487,
+      "signed_value": -29.703167252183487,
+      "cell": 71,
+      "mode": 2,
+      "coefficient": 1,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "cell_length": 0.03936334930034513
+    },
+    "raw_codazzi_m": {
+      "maximum": 15.195623972195719,
+      "signed_value": -15.195623972195719,
+      "cell": 71,
+      "mode": 2,
+      "coefficient": 0,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "cell_length": 0.03936334930034513
+    },
+    "full_gauss": {
+      "maximum": 0.9196896902186189,
+      "signed_value": -0.9196896902186189,
+      "angular_index": 216,
+      "node": 79,
+      "s": 0.9491151252450164,
+      "xi": 5.301437602932776,
+      "material_u": 5.916309803268829,
+      "n_m_l": [
+        0.9322317464652524,
+        0.7690262486667581,
+        1.0367862041981168
+      ],
+      "target_K": 1.2948133329308429
+    },
+    "formal_curvature": {
+      "maximum": 7.202043894872742,
+      "signed_value": 7.202043894872742,
+      "angular_index": 60,
+      "node": 99,
+      "s": 1.1756864154279174,
+      "xi": 1.4726215563702156,
+      "material_u": 1.4536863104131421,
+      "n_m_l": [
+        0.6903996808778502,
+        -0.06926815235940259,
+        7.201307049189285
+      ],
+      "target_K": 5.076996399010593,
+      "cap": 7.2,
+      "active_points": 66,
+      "active_s_range": [
+        1.1756864154279174,
+        1.4857231783581288
+      ]
+    },
+    "full_angular_codazzi": {
+      "n": {
+        "maximum": 58.732372006467656,
+        "signed_value": -58.732372006467656,
+        "angular_index": 0,
+        "xi": 0.0,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          0.0,
+          0.0
+        ]
+      },
+      "m": {
+        "maximum": 24.78475998312669,
+        "signed_value": -24.78475998312669,
+        "angular_index": 150,
+        "xi": 3.6815538909255388,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          3.2649516795404643,
+          3.264966587906458
+        ]
+      }
+    },
+    "omitted_angular_codazzi": {
+      "n": {
+        "maximum": 2.7666589142762112,
+        "signed_value": -2.7666589142762112,
+        "angular_index": 197,
+        "xi": 4.835107443415541,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          4.864201586149037,
+          4.829800172286802
+        ]
+      },
+      "m": {
+        "maximum": 3.455382790168915,
+        "signed_value": 3.455382790168915,
+        "angular_index": 59,
+        "xi": 1.4480778637640452,
+        "cell": 71,
+        "endpoints": [
+          0.8281800958020702,
+          0.8675434451024153
+        ],
+        "cell_length": 0.03936334930034513,
+        "material_u_endpoints": [
+          1.4189837210305494,
+          1.4533851348927838
+        ]
+      }
+    }
+  },
+  "node_field_change_maximum": 3.8099133748848852,
+  "reference_cache_statistics": {
+    "entries": 26,
+    "maximum_entries": 64,
+    "hits": 9,
+    "misses": 26,
+    "maximum_material_composition_residual": 1.6219664500383146e-15,
+    "maximum_numerical_native_GC_residual": 1.4115729527093557e-14,
+    "evaluation": "known ruling label",
+    "loaded_old_mixed_cache_used": false
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "PASS-independent-extraction-reference-and-finite-statistics-review",
+  "script_sha256": "2bf9dcd3041c08210b156ba45d4f8668b6dbf85eb2cb38b145760e923e4094e4",
+  "frozen_inputs": {
+    "scripts/db6f-tail-local-projection-points.mjs": "837a2361bdf17731903fdf31afaadd1c46023db63bcff665feeec0f2f621a377",
+    "scripts/db6f-prefix-one-m14-root-packet.mjs": "7b28538a9c92b391cddba341b7ca3469fdc3c006eb491788fd31e8259cd68ca2",
+    "scripts/db6f-tail-local-projection-reference.py": "5ab87f037a40579bae5164ef0b50b9e701d58703411177569a91ec94b810249a",
+    "scripts/db6f-tail-local-projection-values.mjs": "99aec526e2cc5c7949a2050f18b3f98c02cd8c270821fbb44a09c6f21b889444",
+    "notes/2026-11-09-db6f-tail-local-projection-points-three.json.gz": "be48b24e08a8cdd6aec1b6c4c377ab62cb1a10bb989d19c98293bd666c7dbc86",
+    "notes/2026-11-09-db6f-prefix-m14-q512-stage37-projection-input.json.gz": "62076b6b944cd1665fde25f3d4858322c5019af8b916e8e13ec663004781af4f",
+    "notes/2026-11-09-db6f-tail-local-projection-values.json.gz": "8146e56b0a1d9f9dcd03d5bc5f81ea955112d2f8f8962ad65d6611f79f8595a3",
+    "notes/2026-11-09-db6f-tail-local-projection-reference.json.gz": "89886e6ed3b5d68adb07ebe3f82473061ae5a91ff8d44c6aaf537a9f2dc3e601",
+    "notes/2026-11-09-db6f-tail-local-projection-summary.json": "9f13b792b14e7e486e365cfc13659ad417fff3af75d82eaf9e2ab19d2f2d96a8",
+    "notes/2026-11-09-db6f-tail-local-projection-comparison.md": "ef93eb972b9c0fa71279756da7c56344292dec0503e4e87072b222834278a055"
+  },
+  "checked_binding_files": 54,
+  "new_root_calls": 0,
+  "new_flow_calls": 0,
+  "reference_replay_exit_code": 0,
+  "reference_replay_sha256": "706a0c3900e5c9c3017fc2e395d420ad2365ef6b8abfe9973b894fa985ec3652",
+  "summary_replay_sha256": "b63292059821d0a21c285a80c07652c9708799d618940ab7b88092eeee857cf3",
+  "execution_sha256": "547f1e6c75e514db175621ff6eeedd3319b74292dcbcee6c8b3f0635995d013c",
+  "mathematical_reference_fields_identical": true,
+  "mathematical_summary_fields_identical": true,
+  "ignored_reference_fields": [
+    "input",
+    "seconds"
+  ],
+  "ignored_summary_fields": [
+    "input",
+    "seconds",
+    "full_report",
+    "full_report_sha256"
+  ],
+  "original_extractor_root_calls": 2,
+  "maximum_relative_moment_change": "4.768284752036641289644596331599988057159690009696099512030527181049979711742291274782500825798850983978139118656686586405400162784E-16",
+  "maximum_reference_precision_difference": "1.18472938558372218003550778827492785908240E-78",
+  "cases": [
+    {
+      "id": "m15-failed-trial-default-legal",
+      "relative_moment_change": "4.768284752036641289644596331599988057159690009696099512030527181049979711742291274782500825798850983978139118656686586405400162784E-16",
+      "fixed_L_maximum_residual": {
+        "original": "0.04161005981724320845760445308769703842699527740478515625",
+        "algebraSameTable": "0.04161005981724320845760445308769703842699527740478515625",
+        "analyticLowProjection": "0.04161005981724326396875568434552405960857868194580078125"
+      },
+      "maximum_reference_precision_difference": "1.18472938558372218003550778827492785908240E-78"
+    },
+    {
+      "id": "m15-failed-trial-last-accepted",
+      "relative_moment_change": "4.462246581333125523789777858085632155125986426060666553786172180976880458916612640305085871067865786380142895980664604366772974154E-16",
+      "fixed_L_maximum_residual": {
+        "original": "0.022098839777481026069860803318078978918492794036865234375",
+        "algebraSameTable": "0.022098839777481012192072995503622223623096942901611328125",
+        "analyticLowProjection": "0.02209883977748104688654251503976411186158657073974609375"
+      },
+      "maximum_reference_precision_difference": "2.20216986013804172693989947526701555662947E-79"
+    },
+    {
+      "id": "m15-base-success-control",
+      "relative_moment_change": "4.076223702378331358927581748269902758437449331020482949342017773681227180506121778865120916940011939225112116330950407687664619513E-16",
+      "fixed_L_maximum_residual": {
+        "original": "2.775557561562891351059079170227050781250E-17",
+        "algebraSameTable": "2.775557561562891351059079170227050781250E-17",
+        "analyticLowProjection": "8.32667268468867405317723751068115234375000E-17"
+      },
+      "maximum_reference_precision_difference": "5.769239955991206975353981062656966489342E-80"
+    },
+    {
+      "id": "m14-q512-success-control",
+      "relative_moment_change": "2.948526486397164867288795562803085551382698058022212024722763917952545303449427479502493532017569038348531562996426953572274190836E-16",
+      "fixed_L_maximum_residual": {
+        "original": "5.5511151231257827021181583404541015625E-17",
+        "algebraSameTable": "5.5511151231257827021181583404541015625E-17",
+        "analyticLowProjection": "7.5243630770494007720117224380373954772949218750E-17"
+      },
+      "maximum_reference_precision_difference": "9.4938807823337059200725944617153087375877E-80"
+    }
+  ],
+  "scope": "Four frozen points only. Decimal 80/120 agreement is not an interval certificate. Original extracted roots were not rerun. Floating-value comparator is separately reviewed by coupled_prefix. No new solver, global conclusion, or G5 assertion."
+}

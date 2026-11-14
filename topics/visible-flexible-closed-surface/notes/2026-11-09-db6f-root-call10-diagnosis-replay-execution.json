@@ -1,0 +1,22 @@
+{
+  "status": "observed-metadata-replay-completed",
+  "observer": "/root",
+  "actual_exit_code": 0,
+  "started_utc": "2026-11-09T14:19:21.114006+00:00",
+  "ended_utc": "2026-11-09T14:19:21.487164+00:00",
+  "seconds": 0.37451565799710806,
+  "command": [
+    "python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-continuation-call10-diagnosis.py",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-call10-diagnosis-replay.json"
+  ],
+  "script_sha256": "5487c2a374f459f5553a25f6267662c59a1e40c067f7d6e1ee6c696fc4ec62a9",
+  "report_sha256": "64ada469574abc042b7e7fe13f7999c63df68d0fd61491620513c5cde43dbe1e",
+  "closed_diagnostic_payload_exactly_matches_author": true,
+  "only_excluded_field": "controller_observation (explicit mutable time/status snapshot)",
+  "closed_payload_canonical_sha256": "87bdd7cfe5b832f9e274af3618f913a9b0606a0e5ea3734cd82b5675b69f3315",
+  "stdout": "{\"status\": \"CLOSED_CALL10_FAILURE_AND_CALL8_9_METADATA_DIAGNOSIS\", \"source_bindings\": 66, \"closed_inputs\": 43, \"failed_call\": 10, \"last_norm\": 4892.887571107566, \"observed_controller_scale\": 0.875, \"worker_exit_key_present\": false}\n",
+  "stderr": "",
+  "new_root_flow_solver_backend_calls": 0
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "fd2d-closed-research-files-v1",
+  "actual_owner_session": 18562,
+  "actual_exit_code": 0,
+  "source": "scripts/fd2d-layered-tail-recovery-calibrate.mjs",
+  "source_sha256": "51502708e43a7f58530b80c7321373d430d821668a2327b0b0be23f8f230f4f2",
+  "scope": "New wc .3 physical g with finite actual full-prefix m2 recalibration only; actual port and nonlinear tail remain separate.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc03-01-initial-config.json",
+      "bytes": 18362,
+      "sha256": "d30f902accc681ac774048a0ebe8eaf685ee54699eaa8a6a6e1247c044461384"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc03-01-checkpoint.json",
+      "bytes": 84097,
+      "sha256": "b8086ae3648b5fe43bce645d5acf691df8be1638d58509073be16246c7519c15"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc03-01-config.json",
+      "bytes": 21233,
+      "sha256": "f0188f4e16ebbf69d237311d378b05cd860c130f0503fa7461b2fb3080f2df68"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc03-01-cells.jsonl.gz",
+      "bytes": 93977,
+      "sha256": "7cdcfdd88db6c772759ad6fd67f902cc42853a3e8510e97ed1ab239aff14ba88"
+    }
+  ]
+}

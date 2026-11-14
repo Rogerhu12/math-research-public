@@ -1,0 +1,30 @@
+{
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T16:10:44.031092+00:00",
+  "status": "observed-process-completed",
+  "initial_tool_chunk": "8c16d4",
+  "actual_session_id": 89819,
+  "final_tool_chunk": "07fa95",
+  "actual_exit_code": 0,
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "node",
+    "scripts/78718-tail-stage-pool-infrastructure-probe.mjs",
+    "--out",
+    "notes/2026-11-10-78718-numerical-stage-pool-infrastructure-01.json"
+  ],
+  "report": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-stage-pool-infrastructure-01.json",
+    "bytes": 2118,
+    "sha256": "89562c8d78170b03187f90efa826aee9fb42ff71784fc0cd735b5ca914b633de"
+  },
+  "source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-parallel-stage-pool.mjs",
+    "bytes": 17223,
+    "sha256": "ec9b0d2ab58d66b0853179ebd67ec1f487403d6570585d3a84c5ef861fdc57cd"
+  },
+  "actual_roots": 0,
+  "actual_flows": 0,
+  "actual_DN": 0,
+  "actual_BVP": 0
+}

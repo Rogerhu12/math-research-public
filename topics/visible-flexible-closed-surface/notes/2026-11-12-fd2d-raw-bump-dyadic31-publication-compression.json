@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-lossless-publication-compression-v1",
+  "entries": [
+    {
+      "original": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work/accepted-values/manifest.json",
+        "bytes": 2242224,
+        "sha256": "23f04831f074222c8293ce26ebf3031fefb9b9c911294da89473f18da6fa1bfe"
+      },
+      "gzip": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work/accepted-values/manifest.json.gz",
+        "bytes": 76017,
+        "sha256": "9a84fa41785911864a1de968b54b7a29605c0430988a749f66c2a2ee392740ad"
+      },
+      "original_retained_locally": true,
+      "restore_before_original_path_consumer": true
+    }
+  ],
+  "non_numerical_packaging_first_pass_exit": 1,
+  "first_pass_reason": "Publication size assertion identified a 2242224-byte actual-value metadata manifest; no numerical calculation was repeated",
+  "restoration": "gzip.decompress the exact .gz bytes to the recorded original path, then verify original SHA256 before using its existing loader"
+}

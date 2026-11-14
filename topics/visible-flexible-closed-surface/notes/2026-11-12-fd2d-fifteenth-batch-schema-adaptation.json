@@ -1,0 +1,18 @@
+{
+  "schema": "fd2d-publication-assembly-actual-failure-v1",
+  "utc_observed": "2026-11-12T17:53:50.820153+00:00",
+  "session": 59528,
+  "launch_chunk": "e48104",
+  "final_chunk": "7eb0ec",
+  "exit_code": 1,
+  "error_type": "KeyError",
+  "error_key": "files",
+  "cause": "Two closed research manifests expose their exact rows under artifacts; publication builder requires files",
+  "mathematical_computation_failed": false,
+  "main_push_attempted": false,
+  "recovery": "Separate publication wrappers preserving original manifest and every exact artifact; frozen builder unchanged",
+  "wrappers": [
+    "notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-publish-manifest.json"
+  ]
+}

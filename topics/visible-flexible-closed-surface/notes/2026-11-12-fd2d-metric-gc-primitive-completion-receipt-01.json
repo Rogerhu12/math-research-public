@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-observed-completion-receipt-v1",
+  "observed_runs": [
+    {
+      "session_id": 44235,
+      "exit_code": 0,
+      "natural_exit": true,
+      "report": {
+        "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-full-01.json",
+        "bytes": 8882,
+        "sha256": "83f41d703f504c6bcccb816e99e72d13276023135f4cfe28f7f65488d8060281"
+      },
+      "complete_cells": 237,
+      "metric_bound_passed": false
+    },
+    {
+      "session_id": 79564,
+      "exit_code": 0,
+      "natural_exit": true,
+      "report": {
+        "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-joint103-01.json",
+        "bytes": 6331,
+        "sha256": "6fb9520d42892da11508ab8617f5a21850f329c49eae6629eb1da0771a7847de"
+      },
+      "complete_cells": [
+        103
+      ]
+    },
+    {
+      "exec_chunk_id": "524aff",
+      "exit_code": 0,
+      "natural_exit": true,
+      "report": {
+        "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-merged-01.json",
+        "bytes": 11202,
+        "sha256": "5677eefb937edb67522085e5d476d48932559d5975f5d8018e911e0bd9056c50"
+      },
+      "complete_cells": 237,
+      "metric_bound_passed": true
+    }
+  ],
+  "scope": "Observed actual run exits; mathematical proof is in the bound source, reports and all continuous rows. Prefix only, no matched nonlinear tail."
+}

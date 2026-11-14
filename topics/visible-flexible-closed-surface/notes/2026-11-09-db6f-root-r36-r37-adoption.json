@@ -1,0 +1,47 @@
+{
+  "status": "ROOT_ADOPTED_FULLY_REVIEWED_R36_R37",
+  "recorded_utc": "2026-11-09T19:44:55.716384+00:00",
+  "source_proofs_and_full_reviews": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.md",
+      "bytes": 4616,
+      "sha256": "0b3ad1fcdf31af4653547ae5d9d2bba520096210887f5ff24adf4f1ed7a2531f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-positive-collar.md",
+      "bytes": 14951,
+      "sha256": "17ae3b7070ae6fd8c6bdbca18f2b284bfa887672e696bcb206a16bd255c06070"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-review-positive-support-kernel.md",
+      "bytes": 5530,
+      "sha256": "ac5f95bb39ec5e15aebf4f548744bd26a7396274674cd6630b8519ffcff5852a"
+    }
+  ],
+  "formal_results": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R36-positive-collar-template-and-conditional-strong-ratios.md",
+      "bytes": 26972,
+      "sha256": "60005ee6ec956c7483cdf77d712925960bfec79712d8f204283cf1c7ee518e3e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R37-radial-interface-and-positive-support-kernel-obstruction.md",
+      "bytes": 11871,
+      "sha256": "cbdfc3b0022efcda1d083f2782df6700223d19027007c4c0072579bd879f5875"
+    }
+  ],
+  "reviewed_mathematical_bodies_byte_exact": true,
+  "root_read_all_proof_bodies_and_both_budget_scripts": true,
+  "new_solver_calls": 0,
+  "scope": "Local/noncompact/conditional geometry and positive-support obstructions only; no new closed common-metric surface, whole reach or G5 completion."
+}

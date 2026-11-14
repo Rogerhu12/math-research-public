@@ -1,0 +1,36 @@
+{
+  "schema": "fd2d-actual-ci-main-publication-receipt-v1",
+  "commit": "73fbe8bb8742fbaf148cbf9bd2ea5827ce8b2454",
+  "rules_read_sha": "5dde1d49baed297e19b3471a1c09eaa2d3f24aec",
+  "attempt": 1,
+  "utc": "2026-11-12T16:05:09.457339+00:00",
+  "method": "ordinary terminal git push; fresh main parent; canonical binary tree overlay preserving all unowned entries",
+  "workflow_run_id": 43254743627,
+  "workflow_job_id": 131309808100,
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "checkpoint_commit": "b220d70587cd5f1a19422b3796098f6ff1cffa5e",
+  "checkpoint_branch": "visible-flex-fd2d-ci-publish-20261112t1604",
+  "local_checkpoint_process": {
+    "session": 19608,
+    "launch_chunk": "dc0e4e",
+    "final_chunk": "fc603a",
+    "exit_code": 0
+  },
+  "readme_pull_checks": [
+    {
+      "attempt": 1,
+      "pull_exit": 0,
+      "readme_previous": "ac7a0f668b03adc0c8cb6447196bd458799fac8e",
+      "readme_current": "5dde1d49baed297e19b3471a1c09eaa2d3f24aec",
+      "readme_diff_empty": true
+    }
+  ],
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "push_exit": 0,
+      "seconds": 4.650658912000001
+    }
+  ]
+}

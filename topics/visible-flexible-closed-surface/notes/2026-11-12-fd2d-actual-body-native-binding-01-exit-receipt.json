@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-observed-exec-exit-receipt-v1",
+  "command": "env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python scripts/fd2d_gc_actual_body_reader_factory.py --field notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz --foundation-definition notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-definition.json --out-prefix notes/2026-11-12-fd2d-actual-body-native-binding-01",
+  "session_id": 20029,
+  "initial_chunk_id": "300980",
+  "final_chunk_id": "f9e271",
+  "observed_exit_code": 0,
+  "report_seconds": 3.9702904369987664,
+  "body_ODE_runs": 0,
+  "field_point_evaluation_calls": 0,
+  "separate_thin_CLI_syntax_compile": {
+    "chunk_id": "8d31b1",
+    "observed_exit_code": 0,
+    "body_main_called": false
+  }
+}

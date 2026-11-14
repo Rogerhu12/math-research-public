@@ -1,0 +1,100 @@
+{
+  "status": "PASS_ISOLATED_CONTROL_PROTOCOL_ONLY",
+  "scope": "Isolated CONTROL-PROTOCOL tests. No port constructor, Node, root, flow or DN.\n\nThe stub uses one abstract scalar, deliberately lacks every actual finite-DN\nschema, and only stores records in memory. It cannot be a positive candidate\nfixture. A separate metadata check reads the already closed real first packet.\n",
+  "source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client.py",
+    "bytes": 31943,
+    "sha256": "d0d06d44fe1a99c50a2d20890ec7e91909578851a9d763172b3b48f2639d169e"
+  },
+  "test_source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-linear-dn-protocol.py",
+    "bytes": 13771,
+    "sha256": "6ae0759a5a7b510067297bb5ffacad07dfe2c6a895c345fb2e519e3b8c00a523"
+  },
+  "tests": [
+    {
+      "case": "known_failure_rolls_back_and_calls_stays_physical",
+      "pass": true,
+      "stub_calls": 19
+    },
+    {
+      "case": "unknown_is_terminal_without_old_cache_return",
+      "pass": true,
+      "stub_calls": 2
+    },
+    {
+      "case": "partial-record_is_terminal_without_old_cache_return",
+      "pass": true,
+      "stub_calls": 2
+    },
+    {
+      "case": "io-after-worker-update_is_terminal_without_old_cache_return",
+      "pass": true,
+      "stub_calls": 2
+    },
+    {
+      "case": "bootstrap_requires_a_real_new_success",
+      "pass": true,
+      "stub_calls": 1
+    },
+    {
+      "case": "budget_reserves_validation_and_never_returns_intermediate",
+      "pass": true,
+      "stub_calls": 3
+    },
+    {
+      "case": "minimum_step_exhaustion_is_terminal",
+      "pass": true,
+      "stub_calls": 9
+    },
+    {
+      "case": "one_ulp_exact_goal_flags_and_same_packet_cache",
+      "pass": true,
+      "stub_calls": 3,
+      "logical_duplicate_moves": 4
+    },
+    {
+      "case": "logical_grid_budget_is_finite",
+      "pass": true,
+      "stub_calls": 1
+    },
+    {
+      "case": "final_requested_postprocess_failure_is_not_target_success",
+      "pass": true,
+      "stub_calls": 10
+    },
+    {
+      "case": "journal_failure_after_real_return_cannot_return_success",
+      "pass": true,
+      "stub_calls": 1
+    },
+    {
+      "case": "atomic_reference_failure_is_terminal",
+      "pass": true,
+      "stub_calls": 1
+    },
+    {
+      "case": "stale_cache_packet_counter_is_rejected",
+      "pass": true,
+      "stub_calls": 2
+    },
+    {
+      "case": "strict_failure_stage_and_all_closed_trial_classification",
+      "pass": true
+    },
+    {
+      "case": "closed_real_schema_compatible_and_five_invalid_numeric_copies_rejected",
+      "pass": true,
+      "actual_new_DN_calls": 0
+    }
+  ],
+  "test_count": 15,
+  "actual_port_constructions": 0,
+  "actual_node_root_flow_DN_BVP_calls": 0,
+  "new_candidate_packets": 0,
+  "real_closed_metadata_source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+    "bytes": 272279,
+    "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+  }
+}

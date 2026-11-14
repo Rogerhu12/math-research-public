@@ -1,0 +1,54 @@
+{
+  "status": "OBSERVED_STATIC_REVIEW_AND_EXPECTED_NEGATIVE_GATE",
+  "observer": "/root/tail_theory",
+  "negative_gate": {
+    "tool": "exec_command",
+    "receipt": "2b9873",
+    "actual_exit_code": 2,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-matched-cut-closed-v2.py",
+      "--mode",
+      "final",
+      "--check-current-gate"
+    ],
+    "source": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-matched-cut-closed-v2.py",
+      "bytes": 29240,
+      "sha256": "00c048161cde786c830199d092b76e4a6027e081eab180e2fc449133515050a7"
+    },
+    "actual_output": {
+      "status": "NOT_READY",
+      "ready": false,
+      "reason": "Final mode requires the root actual tool-exit observation",
+      "mode": "final",
+      "solver_calls": 0,
+      "active_trace_read": false,
+      "files_written_by_auditor": 0
+    }
+  },
+  "exact_diff_AST": {
+    "receipt": "71cc97",
+    "actual_exit_code": 0,
+    "single_expression": "central_correction_scales length M becomes M-1"
+  },
+  "independent_static_checker": {
+    "receipt": "936276",
+    "actual_exit_code": 0,
+    "source": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-matched-cut-auditor.py",
+      "bytes": 9754,
+      "sha256": "5fcde178c893498ab31824b98bce6caff8a6cad0838b64f1c441629c4bc9058c"
+    },
+    "report": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-auditor-check.json",
+      "bytes": 42387,
+      "sha256": "668039b7c1ead7a246fdf401f33b098042ed33ca2e6a0911bb0f92c3ccae5001"
+    }
+  },
+  "first_or_final_positive_branch_runs": 0,
+  "active_response_or_trace_reads": 0,
+  "synthetic_positive_fixtures": 0,
+  "solver_or_flow_or_RK_calls": 0,
+  "scope": "Observed tool results, not inferred from output-file presence. Author v1 retained; only v2 is approved."
+}

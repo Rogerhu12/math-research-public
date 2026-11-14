@@ -1,0 +1,47 @@
+{
+  "status": "INDEPENDENT_ENDPOINT_DIFFERENCE_AND_PLAN_ONLY_REVIEW_PASS",
+  "reviewer": "/root/tail_theory",
+  "implementation_author": "/root/coupled_prefix",
+  "new_source_sha256": "993dc6a180b917132d8284fae6c6366b45dddd883f9c09ab50b2b1dcf87f593b",
+  "old_base_sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+  "actual_plan_only_session": 80390,
+  "actual_exit_code": 0,
+  "plan_replay_byte_identical": true,
+  "source_stage_count": 576,
+  "source_node_count": 21031,
+  "unchanged_source_x_stages": 575,
+  "angular_root_calls": 0,
+  "RK_calls": 0,
+  "full_map_exports": 0,
+  "normalized_physical_grid_constructed": false,
+  "complete_geometric_certificate": false,
+  "README_complete": false,
+  "bound_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-endpoint-plan.py",
+      "sha256": "2bff9a031ad7445bd7549155ddfdca1d9a7a5d883a19b70e9c8cfbcefcb26275",
+      "bytes": 7313
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-endpoint-plan-check.json",
+      "sha256": "37a6df2955d8d55ccad75901510649b1820cf846c337533fcbe892b854510c7b",
+      "bytes": 3903
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-endpoint-grid-m15-quarter-p8-r0025-grid-plan.json",
+      "sha256": "0a028f17f2d0b7e310ff94205dd8ffd540d7f67532c85d6959b37593f469259e",
+      "bytes": 408183
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-endpoint-grid-m15-quarter-p8-r0025-run.log",
+      "sha256": "9509d3f0bea142fb05b482ce580195a2ebf81be54df3c687aaa3898d3f848b31",
+      "bytes": 1885
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-endpoint-exporter.md",
+      "sha256": "bf78721c74bcfc8a87844b030551c6169e9b81467d5cf5e758236e923c58f378",
+      "bytes": 6602
+    }
+  ],
+  "scope": "New source diff plus one real quarter-warm plan-only replay. Old baseline was authored by this reviewer; its independent review is separate. Unchanged other-stage source-x does not imply unchanged normalized physical radii or map coefficients."
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "Adaptive-chart prefix coupled to the actual weighted finite-tail DN.\n\nDerived db6f continuation runner, using v3 warm remeshing.\nThis changes a finite linear port to a finite nonlinear one. Every physical\nparameter, numerical cutoff, tail response, mean jet and failure is retained.\nFinite-depth convergence and complete closed-surface reach remain separate.\n",
+  "tail_config_sha256": "cacb4eb9dd3aeb698ba74fb04ecbcd47a0c6a1fa8d9c363c2c2daa61654d805d",
+  "solver_success": false,
+  "linear_dn_ready_max_difference": 2.6984787467654314e-05,
+  "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+  "tail_calls": 1,
+  "seconds": 16.121104955673218
+}

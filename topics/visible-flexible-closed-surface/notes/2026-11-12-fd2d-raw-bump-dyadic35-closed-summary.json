@@ -1,0 +1,4701 @@
+{
+  "schema": "fd2d-staged-actual-rejected-step-summary-v1",
+  "created_utc": "2026-11-12T21:19:40.769501+00:00",
+  "request": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-request.json",
+    "bytes": 4893,
+    "sha256": "8db9b998da4fc2ef896cb35fafc1cf91fdb17a31d609e293f14e0b3e911917a3"
+  },
+  "unchanged_latest_accepted_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+    "bytes": 133721,
+    "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+  },
+  "new_accepted_state": null,
+  "reason_for_ending_this_step": "Full and half steps genuinely failed Armijo; change to explicit signed-window representation with fresh actual objective, retaining accepted34 unchanged.",
+  "trials": [
+    {
+      "result": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-work/trials/lambda1e3-dyadic-floor01-a01/back-00.json",
+        "bytes": 81408,
+        "sha256": "d14b5d2eeb4cbcd13fdbf9b17826d7c4aa342ca954febb46be3b54b13abce0dc"
+      },
+      "alpha": 1.0,
+      "actual_full_residual_evaluated": true,
+      "actual_norm": 18.421686121777146,
+      "actual_cost": 169.67925978463836,
+      "rejection": "Complete actual Armijo inequality failed",
+      "diagnostics": {
+        "residual_maximum": 0.4211514914614125,
+        "previous_node_cell_residual_maximum": 0.4211514914614125,
+        "interior_actual_constraints": {
+          "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+          "selected_cells": [
+            63,
+            64,
+            65,
+            74,
+            75,
+            76,
+            123,
+            124
+          ],
+          "points": [
+            0.5961592272463956,
+            0.6075224474037754,
+            0.6145099491777213,
+            0.6222369388847396,
+            0.626396166131136,
+            0.6300323965814975,
+            0.8295110485209171,
+            0.8331472789712785,
+            0.8373065062176749,
+            0.8450334959246932,
+            0.8520209976986391,
+            0.8633842178560189,
+            1.4701599841706956,
+            1.4720363725455619,
+            1.4734099841706956,
+            1.4752863725455618
+          ],
+          "sample_cell_indices": [
+            63,
+            63,
+            64,
+            64,
+            65,
+            65,
+            74,
+            74,
+            75,
+            75,
+            76,
+            76,
+            123,
+            123,
+            124,
+            124
+          ],
+          "fractions": [
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129
+          ],
+          "quadrature_mean_weights": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+          "physical_field_unchanged": true,
+          "physical_g_unchanged_by_extra_rows": true,
+          "unknown_mesh_unchanged": true,
+          "finite_Gauss_equations_changed": true,
+          "complete_actual_Gauss": true,
+          "full_parameter_chain_rule": true,
+          "full_Gauss_maximum": 1.031667270738274,
+          "high_Gauss_maximum": 0.024666082854298776,
+          "retained_residual_l2": 0.7475750162398425,
+          "high_residual_l2": 0.013836663297071089,
+          "curvature_residual_l2": 0.0,
+          "curvature": {
+            "cap": 8.1,
+            "weight": 1.0,
+            "active_rows": 0,
+            "repeated_eigenvalue_rows": 0,
+            "residual_l2": 0.0,
+            "sampled_formal_curvature_maximum": 7.254548426207733,
+            "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+            "complete_chain_derivative": true,
+            "actual_geometry_certified": false
+          },
+          "maximum_location": {
+            "cell": 64,
+            "s": 0.6145099491777213,
+            "xi": 4.368777283898306,
+            "material_u": 3.722051422960331,
+            "G": -1.031667270738274,
+            "n_m_l": [
+              0.9245049675639341,
+              -0.2728554232717961,
+              -0.8231106270373725
+            ],
+            "K": 0.1962473251787274
+          },
+          "continuous_certificate": false
+        },
+        "residual_rms": 0.029437166895941953,
+        "legacy_trapezoid_residual_maximum": null,
+        "legacy_trapezoid_not_evaluated": true,
+        "full_gauss_node_maximum": 1.5882535033993406,
+        "formal_curvature_node_maximum": 9.552628780617015,
+        "A": 1.358903752969486,
+        "B": 0.5589037560705555,
+        "gap": 0.7999999968989305,
+        "base_coast_T_fixed": 0.02,
+        "tail_coefficients": [
+          1.150729563375077,
+          -0.8489125508230069,
+          0.6657615910538905,
+          -0.31805287605933613,
+          0.06151264403027073,
+          0.19905812304116557,
+          -0.2516049739420025,
+          0.19233495939454515,
+          0.1408009163394834,
+          -0.10008504653651253,
+          0.6098318860305667,
+          -1.40983512631361,
+          2.778991660121539,
+          -2.956558585526251,
+          2.285090072766439,
+          0.9748019911591042
+        ],
+        "profile_deltas": [
+          0.00036960052610479307,
+          -0.00551139555643925,
+          -0.007783616198059338,
+          -0.0005155933090827895,
+          0.030070362580419098,
+          0.03677088041413217,
+          0.012680798600022702
+        ],
+        "minimum_n": -0.17410548525309255,
+        "maximum_n": 7.242169475513187,
+        "minimum_active_coast_n_at_nodes": 0.32219053323356595,
+        "gauss_l_field": true,
+        "continuous_positive_domain_certified": false,
+        "removed_actual_zero_Gauss_nodes": [
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "removed_terminal_positive_trace_Gauss_nodes": [
+          125,
+          126,
+          127,
+          128,
+          129
+        ],
+        "minimum_sampled_positive_trace_h": 0.1298276955941684,
+        "minimum_central_curvature": 0.0999999999999994,
+        "minimum_radius_at_nodes": 0.8,
+        "exact_cut_lifting": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+        "curvature_merit": {
+          "cap": 8.1,
+          "weight": 1.0,
+          "active_rows": 494,
+          "repeated_eigenvalue_rows": 0,
+          "residual_l2": 18.117216873320995,
+          "sampled_formal_curvature_maximum": 9.552628780617015,
+          "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+          "complete_chain_derivative": true,
+          "actual_geometry_certified": false
+        },
+        "high_gauss_merit": {
+          "weight": 1.0,
+          "rows": 11058,
+          "retained_radial_node_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ],
+          "exact_zero_plateau_nodes_removed": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            125,
+            126,
+            127,
+            128,
+            129
+          ],
+          "sampled_full_gauss_maximum": 1.5882535033993406,
+          "sampled_omitted_gauss_maximum": 0.14075269526708672,
+          "residual_l2": 0.10568515841757255,
+          "actual_field": "Complete R153 plus R155 actual Gauss, not scaled old G",
+          "normalization": "D2 isometric Fourier rows, same complete nonzero high-Gauss objective",
+          "continuous_certificate": false
+        },
+        "high_codazzi_merit": {
+          "schema": "fd2d-R153-nonlinear-G2-plus-R152-known-coast-cells-v1",
+          "order": 2,
+          "quadrature_fraction_nodes": [
+            0.21132486540518713,
+            0.7886751345948129
+          ],
+          "quadrature_average_weights": [
+            0.5,
+            0.5
+          ],
+          "physical_g_changed": false,
+          "unknown_mesh_changed": false,
+          "original_trapezoid_rows_changed": true,
+          "original_whole_correction_RHS_Gauss_rows_changed": true,
+          "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+          "finite_equations_changed_by_exact_lifting_integration": true,
+          "node_Gauss_boundary_gap_rows_changed": false,
+          "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+          "retained_cell_maximum": 0.40931521267164506,
+          "sampled_full_average_codazzi_maximum": 1.0686391049698045,
+          "sampled_omitted_average_codazzi_maximum": 0.9789185470407027,
+          "sampled_interior_Gauss_maximum": 1.6061171588245493,
+          "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+          "row_definition": {
+            "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+            "work": 512,
+            "retained_maximum_frequency": 62,
+            "even_frequencies": [
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94,
+              96,
+              98,
+              100,
+              102,
+              104,
+              106,
+              108,
+              110,
+              112,
+              114,
+              116,
+              118,
+              120,
+              122,
+              124,
+              126,
+              128,
+              130,
+              132,
+              134,
+              136,
+              138,
+              140,
+              142,
+              144,
+              146,
+              148,
+              150,
+              152,
+              154,
+              156,
+              158,
+              160,
+              162,
+              164,
+              166,
+              168,
+              170,
+              172,
+              174,
+              176,
+              178,
+              180,
+              182,
+              184,
+              186,
+              188,
+              190,
+              192,
+              194,
+              196,
+              198,
+              200,
+              202,
+              204,
+              206,
+              208,
+              210,
+              212,
+              214,
+              216,
+              218,
+              220,
+              222,
+              224,
+              226,
+              228,
+              230,
+              232,
+              234,
+              236,
+              238,
+              240,
+              242,
+              244,
+              246,
+              248,
+              250,
+              252,
+              254,
+              256
+            ],
+            "odd_frequencies": [
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94,
+              96,
+              98,
+              100,
+              102,
+              104,
+              106,
+              108,
+              110,
+              112,
+              114,
+              116,
+              118,
+              120,
+              122,
+              124,
+              126,
+              128,
+              130,
+              132,
+              134,
+              136,
+              138,
+              140,
+              142,
+              144,
+              146,
+              148,
+              150,
+              152,
+              154,
+              156,
+              158,
+              160,
+              162,
+              164,
+              166,
+              168,
+              170,
+              172,
+              174,
+              176,
+              178,
+              180,
+              182,
+              184,
+              186,
+              188,
+              190,
+              192,
+              194,
+              196,
+              198,
+              200,
+              202,
+              204,
+              206,
+              208,
+              210,
+              212,
+              214,
+              216,
+              218,
+              220,
+              222,
+              224,
+              226,
+              228,
+              230,
+              232,
+              234,
+              236,
+              238,
+              240,
+              242,
+              244,
+              246,
+              248,
+              250,
+              252,
+              254
+            ],
+            "ordinary_projection_weight": "2/W",
+            "even_Nyquist_projection_weight": "sqrt(2)/W",
+            "old_point_normalization": "sqrt(2/W)",
+            "grid_roundoff_maximum": 8.881784197001252e-16,
+            "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+            "arbitrary_sampled_fields_supported": false,
+            "floating_point_symmetry_defects_are_reported": true,
+            "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+            "continuous_angular_certificate": false
+          },
+          "old_high_point_rows": 2048,
+          "old_large_high_point_jacobian_constructed": false,
+          "finite_symmetry_and_compression": {
+            "n": {
+              "parity": "even",
+              "point_rows": 512,
+              "compressed_rows": 97,
+              "normalized_point_l2": 6.863171391821831e-16,
+              "compressed_l2": 3.1105275152841824e-16,
+              "point_reconstruction_error_l2": 6.117821518333273e-16,
+              "point_reconstruction_error_maximum": 5.20417042793042e-16,
+              "sampled_reflection_error_maximum": 1.1102230246251565e-14,
+              "sampled_half_period_error_maximum": 1.1102230246251565e-14,
+              "sampled_row_gram_error_maximum": 1.4022809130894021e-14
+            },
+            "m": {
+              "parity": "odd",
+              "point_rows": 512,
+              "compressed_rows": 96,
+              "normalized_point_l2": 0.0,
+              "compressed_l2": 0.0,
+              "point_reconstruction_error_l2": 0.0,
+              "point_reconstruction_error_maximum": 0.0,
+              "sampled_reflection_error_maximum": 0.0,
+              "sampled_half_period_error_maximum": 0.0,
+              "sampled_row_gram_error_maximum": 1.3037676136825957e-14
+            }
+          },
+          "continuous_certificate": false,
+          "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+          "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+          "full_nonlinear_delta_l_and_angular_delta_included": true,
+          "known_affine_endpoint_primitive_preserved": true,
+          "finite_field_representation_changed": true,
+          "sampled_active_n_minimum": null,
+          "actual_field_representation_changed": false,
+          "physical_metric_changed": false,
+          "finite_quadrature_rule_changed": true,
+          "formula": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting",
+          "nonlinear_Gauss_l_correction": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2",
+          "nonlinear_field_treated_as_affine": false,
+          "new_field_at_zero_state_used_for_lifting_correction": false,
+          "state_jacobian": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added",
+          "parameter_jacobian": "Complete R153 columns plus derivative of the original known-affine-lifting average difference",
+          "known_lifting_quadrature_order": 8,
+          "nonlinear_correction_quadrature_order": 2,
+          "selected_coast_local_cells": [],
+          "fine_known_physical_support": [
+            0.5919999999999992,
+            0.8675434451024153
+          ],
+          "all_other_cells_keep_original_G2": true,
+          "selection_independent_of_chunk_size_and_parameters": true,
+          "known_lifting_fixed_boundaries": [],
+          "known_lifting_cell_rules": [],
+          "known_lifting_full_change_maximum": null,
+          "point_gauss_scope": "Original R153 actual-field Gauss2 points; not fine known-lifting points",
+          "terminal_trace_change_identically_zero_on_block": true,
+          "runtime_operator_cache_compatibility": {
+            "actual_R153_background_class": "fd2d_gc_raw_bump_positive_gauss.PositiveGaussRawBumpDAE",
+            "old_strict_identity_check_unchanged": true,
+            "original_complete_cell_formula_and_Jacobian_called": true,
+            "mathematical_fields_or_finite_equations_changed": false,
+            "operator_projection_cache_used_in_R152_R153_background": false,
+            "prepared_geometry_reference_cache_still_shared": true,
+            "node_and_separate_terminal_operator_cache_left_enabled": true,
+            "no_process_global_class_patch": true
+          },
+          "grouped_coast_local_cells": [],
+          "grouped_coast_consumer_source_sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "grouped_coast_applied": false,
+          "all_rows_from_frozen_outside_coast_consumer": true,
+          "assembly": "bounded radial-cell blocks of the unchanged original formula",
+          "block_cells": 2,
+          "block_count": 65,
+          "cell_consumer": "fd2d_gc_checkpointed_grouped_values.consume",
+          "finite_equations_changed_by_chunking": false,
+          "independent_unknown_columns_preserved": true,
+          "legacy_first_chunk_info": {
+            "known_lifting_full_change_maximum": 0.0,
+            "selected_coast_local_cells": [],
+            "grouped_coast_local_cells": []
+          },
+          "known_lifting_change_maximum_not_separately_evaluated": true,
+          "selected_coast_local_cells_scope": "Legacy first chunk only; use whole_grouped_coast_cells",
+          "whole_grouped_coast_rules": [
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.5919999999999992,
+                0.6116816746501718
+              ],
+              "cuts": [
+                0.5919999999999992,
+                0.6116816746501718
+              ],
+              "points": [
+                0.5923907810623628,
+                0.5940009721185084,
+                0.5966691583700383,
+                0.6000356868485004,
+                0.6036459878016706,
+                0.6070125162801326,
+                0.6096807025316625,
+                0.6112908935878082
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.5919999999999992,
+                    0.6116816746501718
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.0096938784458536,
+              "fine_Gauss_location": {
+                "angular_index": 355,
+                "xi": 4.356505437595221,
+                "s": 0.6036459878016706,
+                "signed_value": -1.0096938784458536
+              },
+              "fine_sampled_minimum_active_n": 0.2537025736370123,
+              "global_cell": 63
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6116816746501718,
+                0.6250652134122892
+              ],
+              "cuts": [
+                0.6116816746501718,
+                0.6250652134122892
+              ],
+              "points": [
+                0.611947405772579,
+                0.6130423356907581,
+                0.6148567023417983,
+                0.6171459417071526,
+                0.6196009463553083,
+                0.6218901857206626,
+                0.6237045523717029,
+                0.6247994822898819
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6116816746501718,
+                    0.6250652134122892
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.031563496968746,
+              "fine_Gauss_location": {
+                "angular_index": 356,
+                "xi": 4.368777283898306,
+                "s": 0.6148567023417983,
+                "signed_value": -1.031563496968746
+              },
+              "fine_sampled_minimum_active_n": 0.3247813029213888,
+              "global_cell": 64
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6250652134122892,
+                0.6313633493003443
+              ],
+              "cuts": [
+                0.6250652134122892,
+                0.6253687349104141,
+                0.6313633493003443
+              ],
+              "points": [
+                0.6250712398534125,
+                0.6250960714599864,
+                0.6251372189691661,
+                0.6251891359826025,
+                0.6252448123401008,
+                0.6252967293535372,
+                0.6253378768627169,
+                0.6253627084692908,
+                0.6254877584092472,
+                0.6259781879406399,
+                0.6267908600319496,
+                0.6278162321316212,
+                0.6289158520791372,
+                0.6299412241788088,
+                0.6307538962701186,
+                0.6312443258015112
+              ],
+              "average_weights": [
+                0.0024392167407918347,
+                0.005358524008657837,
+                0.0075591185091129125,
+                0.00873927835420373,
+                0.00873927835420373,
+                0.0075591185091129125,
+                0.005358524008657837,
+                0.0024392167407918347,
+                0.0481750514043967,
+                0.10583199321802939,
+                0.14929420442983055,
+                0.1726026133349771,
+                0.1726026133349771,
+                0.14929420442983055,
+                0.10583199321802939,
+                0.0481750514043967
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6250652134122892,
+                    0.6253687349104141
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                },
+                {
+                  "endpoints": [
+                    0.6253687349104141,
+                    0.6313633493003443
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.6653345369377348e-16,
+              "fine_Gauss_location": {
+                "angular_index": 78,
+                "xi": 0.9572040116406402,
+                "s": 0.6251372189691661,
+                "signed_value": 1.6653345369377348e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3273878983847773,
+              "global_cell": 65
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6313633493003443,
+                0.6707266986006896
+              ],
+              "cuts": [
+                0.6313633493003443,
+                0.6707266986006896
+              ],
+              "points": [
+                0.6321449114250715,
+                0.6353652935373628,
+                0.6407016660404226,
+                0.6474347229973468,
+                0.654655324903687,
+                0.6613883818606113,
+                0.6667247543636711,
+                0.6699451364759624
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6313633493003443,
+                    0.6707266986006896
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.6653345369377348e-16,
+              "fine_Gauss_location": {
+                "angular_index": 73,
+                "xi": 0.8958447801252145,
+                "s": 0.6353652935373628,
+                "signed_value": 1.6653345369377348e-16
+              },
+              "fine_sampled_minimum_active_n": 0.33054045437118246,
+              "global_cell": 66
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6707266986006896,
+                0.6747093260540642
+              ],
+              "cuts": [
+                0.6707266986006896,
+                0.6747093260540642
+              ],
+              "points": [
+                0.6708057739545348,
+                0.6711315994353115,
+                0.6716715124256915,
+                0.6723527364058253,
+                0.6730832882489285,
+                0.6737645122290623,
+                0.6743044252194422,
+                0.674630250700219
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6707266986006896,
+                    0.6747093260540642
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 8.326672684688674e-17,
+              "fine_Gauss_location": {
+                "angular_index": 73,
+                "xi": 0.8958447801252145,
+                "s": 0.6716715124256915,
+                "signed_value": -8.326672684688674e-17
+              },
+              "fine_sampled_minimum_active_n": 0.34355894358541345,
+              "global_cell": 67
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6747093260540642,
+                0.6786919535074387
+              ],
+              "cuts": [
+                0.6747093260540642,
+                0.6786919535074387
+              ],
+              "points": [
+                0.6747884014079094,
+                0.6751142268886862,
+                0.6756541398790661,
+                0.6763353638591999,
+                0.677065915702303,
+                0.6777471396824368,
+                0.6782870526728167,
+                0.6786128781535935
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6747093260540642,
+                    0.6786919535074387
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 5.551115123125783e-17,
+              "fine_Gauss_location": {
+                "angular_index": 15,
+                "xi": 0.18407769454627695,
+                "s": 0.6751142268886862,
+                "signed_value": 5.551115123125783e-17
+              },
+              "fine_sampled_minimum_active_n": 0.34152097420340316,
+              "global_cell": 68
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6786919535074387,
+                0.7100900479010347
+              ],
+              "cuts": [
+                0.6786919535074387,
+                0.7100900479010347
+              ],
+              "points": [
+                0.6793153649244755,
+                0.6818840960752134,
+                0.6861406425975133,
+                0.6915112515941697,
+                0.6972707498143037,
+                0.7026413588109601,
+                0.70689790533326,
+                0.7094666364839979
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6786919535074387,
+                    0.7100900479010347
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.1102230246251565e-16,
+              "fine_Gauss_location": {
+                "angular_index": 15,
+                "xi": 0.18407769454627695,
+                "s": 0.6972707498143037,
+                "signed_value": -1.1102230246251565e-16
+              },
+              "fine_sampled_minimum_active_n": 0.34162475333933906,
+              "global_cell": 69
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.7100900479010347,
+                0.7494533972013798
+              ],
+              "cuts": [
+                0.7100900479010347,
+                0.7494533972013798
+              ],
+              "points": [
+                0.7108716100257618,
+                0.7140919921380532,
+                0.7194283646411129,
+                0.7261614215980372,
+                0.7333820235043773,
+                0.7401150804613016,
+                0.7454514529643613,
+                0.7486718350766527
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7100900479010347,
+                    0.7494533972013798
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 13,
+                "xi": 0.1595340019401067,
+                "s": 0.7401150804613016,
+                "signed_value": 2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.34402644612289723,
+              "global_cell": 70
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.7494533972013798,
+                0.7888167465017251
+              ],
+              "cuts": [
+                0.7494533972013798,
+                0.7888167465017251
+              ],
+              "points": [
+                0.750234959326107,
+                0.7534553414383983,
+                0.7587917139414581,
+                0.7655247708983823,
+                0.7727453728047226,
+                0.7794784297616468,
+                0.7848148022647066,
+                0.7880351843769979
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7494533972013798,
+                    0.7888167465017251
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 47,
+                "xi": 0.5767767762450011,
+                "s": 0.7587917139414581,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3662792226423285,
+              "global_cell": 71
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.7888167465017251,
+                0.7915892713432515
+              ],
+              "cuts": [
+                0.7888167465017251,
+                0.7915892713432515
+              ],
+              "points": [
+                0.7888717951813856,
+                0.7890986201229679,
+                0.7894744830917282,
+                0.7899487203709304,
+                0.7904572974740461,
+                0.7909315347532484,
+                0.7913073977220086,
+                0.791534222663591
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7888167465017251,
+                    0.7915892713432515
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 199,
+                "xi": 2.442097414313941,
+                "s": 0.7890986201229679,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.386073089256766,
+              "global_cell": 72
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.7915892713432515,
+                0.8281800958020702
+              ],
+              "cuts": [
+                0.7915892713432515,
+                0.8281800958020702
+              ],
+              "points": [
+                0.7923157847883181,
+                0.7953093419590271,
+                0.8002698514933267,
+                0.8065286711710487,
+                0.8132406959742731,
+                0.819499515651995,
+                0.8244600251862946,
+                0.8274535823570036
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7915892713432515,
+                    0.8281800958020702
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 7,
+                "xi": 0.0859029241215959,
+                "s": 0.7953093419590271,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3871623564492089,
+              "global_cell": 73
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "cuts": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "points": [
+                0.8283051457420265,
+                0.8288204068799931,
+                0.8296742264804827,
+                0.8307515155935906,
+                0.8319068118986049,
+                0.8329841010117128,
+                0.8338379206122024,
+                0.834353181750169
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8281800958020702,
+                    0.8344782316901254
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 4.440892098500626e-16,
+              "fine_Gauss_location": {
+                "angular_index": 184,
+                "xi": 2.2580197197676637,
+                "s": 0.8338379206122024,
+                "signed_value": -4.440892098500626e-16
+              },
+              "fine_sampled_minimum_active_n": 0.4047031079790005,
+              "global_cell": 74
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.8344782316901254,
+                0.8478617704522428
+              ],
+              "cuts": [
+                0.8344782316901254,
+                0.8478617704522428
+              ],
+              "points": [
+                0.8347439628125326,
+                0.8358388927307117,
+                0.837653259381752,
+                0.8399424987471062,
+                0.8423975033952619,
+                0.8446867427606162,
+                0.8465011094116565,
+                0.8475960393298355
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8344782316901254,
+                    0.8478617704522428
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 0.9178699921331543,
+              "fine_Gauss_location": {
+                "angular_index": 420,
+                "xi": 5.154175447295755,
+                "s": 0.8446867427606162,
+                "signed_value": -0.9178699921331543
+              },
+              "fine_sampled_minimum_active_n": 0.4054396284338801,
+              "global_cell": 75
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.8478617704522428,
+                0.8675434451024153
+              ],
+              "cuts": [
+                0.8478617704522428,
+                0.8675434451024153
+              ],
+              "points": [
+                0.8482525515146063,
+                0.849862742570752,
+                0.8525309288222819,
+                0.855897457300744,
+                0.8595077582539141,
+                0.8628742867323762,
+                0.8655424729839061,
+                0.8671526640400518
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8478617704522428,
+                    0.8675434451024153
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 0.8283358800833183,
+              "fine_Gauss_location": {
+                "angular_index": 420,
+                "xi": 5.154175447295755,
+                "s": 0.8525309288222819,
+                "signed_value": -0.8283358800833183
+              },
+              "fine_sampled_minimum_active_n": 0.31130885025628385,
+              "global_cell": 76
+            }
+          ],
+          "whole_grouped_coast_cells": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "whole_grouped_coast_cell_count": 14,
+          "grouped_block_records": [
+            {
+              "node_start": 0,
+              "node_stop": 2,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 2,
+              "node_stop": 4,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 4,
+              "node_stop": 6,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 6,
+              "node_stop": 8,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 8,
+              "node_stop": 10,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 10,
+              "node_stop": 12,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 12,
+              "node_stop": 14,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 14,
+              "node_stop": 16,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 16,
+              "node_stop": 18,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 18,
+              "node_stop": 20,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 20,
+              "node_stop": 22,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 22,
+              "node_stop": 24,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 24,
+              "node_stop": 26,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 26,
+              "node_stop": 28,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 28,
+              "node_stop": 30,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 30,
+              "node_stop": 32,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 32,
+              "node_stop": 34,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 34,
+              "node_stop": 36,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 36,
+              "node_stop": 38,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 38,
+              "node_stop": 40,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 40,
+              "node_stop": 42,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 42,
+              "node_stop": 44,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 44,
+              "node_stop": 46,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 46,
+              "node_stop": 48,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 48,
+              "node_stop": 50,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 50,
+              "node_stop": 52,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 52,
+              "node_stop": 54,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 54,
+              "node_stop": 56,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 56,
+              "node_stop": 58,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 58,
+              "node_stop": 60,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 60,
+              "node_stop": 62,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 62,
+              "node_stop": 64,
+              "grouped_coast_local_cells": [
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 64,
+              "node_stop": 66,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 66,
+              "node_stop": 68,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 68,
+              "node_stop": 70,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 70,
+              "node_stop": 72,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 72,
+              "node_stop": 74,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 74,
+              "node_stop": 76,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 76,
+              "node_stop": 78,
+              "grouped_coast_local_cells": [
+                0
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 78,
+              "node_stop": 80,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 80,
+              "node_stop": 82,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 82,
+              "node_stop": 84,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 84,
+              "node_stop": 86,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 86,
+              "node_stop": 88,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 88,
+              "node_stop": 90,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 90,
+              "node_stop": 92,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 92,
+              "node_stop": 94,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 94,
+              "node_stop": 96,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 96,
+              "node_stop": 98,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 98,
+              "node_stop": 100,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 100,
+              "node_stop": 102,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 102,
+              "node_stop": 104,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 104,
+              "node_stop": 106,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 106,
+              "node_stop": 108,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 108,
+              "node_stop": 110,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 110,
+              "node_stop": 112,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 112,
+              "node_stop": 114,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 114,
+              "node_stop": 116,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 116,
+              "node_stop": 118,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 118,
+              "node_stop": 120,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 120,
+              "node_stop": 122,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 122,
+              "node_stop": 124,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 124,
+              "node_stop": 126,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 126,
+              "node_stop": 128,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 128,
+              "node_stop": 130,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            }
+          ],
+          "known_lifting_change_not_separately_evaluated": true,
+          "whole_known_lifting_change_maximum": null,
+          "fine_sampled_interior_Gauss_maximum": 1.031563496968746,
+          "grouped_rule_diagnostic_scope": "All grouped coast cells with global saved-mesh indices",
+          "nested_symmetry_diagnostic_scope": "Original chunk sub-diagnostics may refer to first block only",
+          "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+          "residual_l2": 0.5234287644664601,
+          "sampled_omitted_codazzi_maximum": 0.9789185470407027
+        },
+        "finite_objective_changed_from25": true
+      },
+      "locations": {
+        "continuous_certificate": false,
+        "raw_codazzi_n": {
+          "maximum": 0.40931521267164506,
+          "signed_value": -0.40931521267164506,
+          "cell": 103,
+          "mode": 2,
+          "coefficient": 1,
+          "endpoints": [
+            1.13836168672313,
+            1.1756864154279174
+          ],
+          "cell_length": 0.03732472870478731
+        },
+        "raw_codazzi_m": {
+          "maximum": 0.23176704079883415,
+          "signed_value": -0.23176704079883415,
+          "cell": 66,
+          "mode": 2,
+          "coefficient": 0,
+          "endpoints": [
+            0.6313633493003443,
+            0.6707266986006896
+          ],
+          "cell_length": 0.03936334930034524
+        },
+        "full_gauss": {
+          "maximum": 1.5882535033993406,
+          "signed_value": -1.5882535033993406,
+          "angular_index": 347,
+          "node": 84,
+          "s": 0.9491151252450164,
+          "xi": 4.25833066717054,
+          "material_u": 3.753506164908234,
+          "n_m_l": [
+            0.7655638812670309,
+            -0.7830495607263375,
+            2.491374188371319
+          ],
+          "target_K": 2.8823929821836765
+        },
+        "formal_curvature": {
+          "maximum": 9.552628780617015,
+          "signed_value": 9.552628780617015,
+          "angular_index": 0,
+          "node": 118,
+          "s": 1.4407097512481546,
+          "xi": 0.0,
+          "material_u": 0.0,
+          "n_m_l": [
+            0.010057944174115138,
+            0.0,
+            -9.552628780617015
+          ],
+          "target_K": 0.04025585039665868,
+          "cap": 8.1,
+          "active_points": 494,
+          "active_s_range": [
+            1.3249853302470664,
+            1.4407097512481546
+          ]
+        },
+        "full_angular_codazzi": {
+          "n": {
+            "maximum": 1.0686391049698423,
+            "signed_value": -1.0686391049698423,
+            "angular_index": 219,
+            "xi": 2.6875343403756435,
+            "cell": 129,
+            "endpoints": [
+              1.4873481783581288,
+              1.4889731783581288
+            ],
+            "cell_length": 0.0016249999999999876,
+            "material_u_endpoints": [
+              2.6875343403756435,
+              2.6875343403756435
+            ]
+          },
+          "m": {
+            "maximum": 0.9771794668268536,
+            "signed_value": 0.9771794668268536,
+            "angular_index": 120,
+            "xi": 1.4726215563702156,
+            "cell": 74,
+            "endpoints": [
+              0.8281800958020702,
+              0.8344782316901254
+            ],
+            "cell_length": 0.0062981358880551674,
+            "material_u_endpoints": [
+              1.4411200320191602,
+              1.4454322768135182
+            ]
+          }
+        },
+        "omitted_angular_codazzi": {
+          "n": {
+            "maximum": 0.8583901561814926,
+            "signed_value": -0.8583901561814926,
+            "angular_index": 394,
+            "xi": 4.835107443415541,
+            "cell": 76,
+            "endpoints": [
+              0.8478617704522428,
+              0.8675434451024153
+            ],
+            "cell_length": 0.019681674650172565,
+            "material_u_endpoints": [
+              4.846884269670413,
+              4.829800172286802
+            ]
+          },
+          "m": {
+            "maximum": 0.9789185470407027,
+            "signed_value": 0.9789185470407027,
+            "angular_index": 120,
+            "xi": 1.4726215563702156,
+            "cell": 74,
+            "endpoints": [
+              0.8281800958020702,
+              0.8344782316901254
+            ],
+            "cell_length": 0.0062981358880551674,
+            "material_u_endpoints": [
+              1.4411200320191602,
+              1.4454322768135182
+            ]
+          }
+        }
+      }
+    },
+    {
+      "result": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-work/trials/lambda1e3-dyadic-floor01-a01/back-01.json",
+        "bytes": 80950,
+        "sha256": "fb57134771f3a4a00538539c49351a1f716f9d05d77fbe7fb6b2f9cf1f05e066"
+      },
+      "alpha": 0.5,
+      "actual_full_residual_evaluated": true,
+      "actual_norm": 8.487924225181295,
+      "actual_cost": 36.02242882620974,
+      "rejection": "Complete actual Armijo inequality failed",
+      "diagnostics": {
+        "residual_maximum": 0.41942248415985817,
+        "previous_node_cell_residual_maximum": 0.41942248415985817,
+        "interior_actual_constraints": {
+          "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+          "selected_cells": [
+            63,
+            64,
+            65,
+            74,
+            75,
+            76,
+            123,
+            124
+          ],
+          "points": [
+            0.5961592272463956,
+            0.6075224474037754,
+            0.6145099491777213,
+            0.6222369388847396,
+            0.626396166131136,
+            0.6300323965814975,
+            0.8295110485209171,
+            0.8331472789712785,
+            0.8373065062176749,
+            0.8450334959246932,
+            0.8520209976986391,
+            0.8633842178560189,
+            1.4701599841706956,
+            1.4720363725455619,
+            1.4734099841706956,
+            1.4752863725455618
+          ],
+          "sample_cell_indices": [
+            63,
+            63,
+            64,
+            64,
+            65,
+            65,
+            74,
+            74,
+            75,
+            75,
+            76,
+            76,
+            123,
+            123,
+            124,
+            124
+          ],
+          "fractions": [
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129,
+            0.21132486540518713,
+            0.7886751345948129
+          ],
+          "quadrature_mean_weights": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+          "physical_field_unchanged": true,
+          "physical_g_unchanged_by_extra_rows": true,
+          "unknown_mesh_unchanged": true,
+          "finite_Gauss_equations_changed": true,
+          "complete_actual_Gauss": true,
+          "full_parameter_chain_rule": true,
+          "full_Gauss_maximum": 1.0318133355946908,
+          "high_Gauss_maximum": 0.024725083472170617,
+          "retained_residual_l2": 0.7485597507768587,
+          "high_residual_l2": 0.013901625662303643,
+          "curvature_residual_l2": 0.0,
+          "curvature": {
+            "cap": 8.1,
+            "weight": 1.0,
+            "active_rows": 0,
+            "repeated_eigenvalue_rows": 0,
+            "residual_l2": 0.0,
+            "sampled_formal_curvature_maximum": 7.239816957784819,
+            "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+            "complete_chain_derivative": true,
+            "actual_geometry_certified": false
+          },
+          "maximum_location": {
+            "cell": 64,
+            "s": 0.6145099491777213,
+            "xi": 4.368777283898306,
+            "material_u": 3.722051422960331,
+            "G": -1.0318133355946908,
+            "n_m_l": [
+              0.9245890525668081,
+              -0.27297379427623686,
+              -0.8208752579389441
+            ],
+            "K": 0.19832636621982302
+          },
+          "continuous_certificate": false
+        },
+        "residual_rms": 0.029517434327325443,
+        "legacy_trapezoid_residual_maximum": null,
+        "legacy_trapezoid_not_evaluated": true,
+        "full_gauss_node_maximum": 1.5866361454454059,
+        "formal_curvature_node_maximum": 8.805849999587869,
+        "A": 1.3588899223621715,
+        "B": 0.5589487361089774,
+        "gap": 0.7999411862531941,
+        "base_coast_T_fixed": 0.02,
+        "tail_coefficients": [
+          1.141467156759028,
+          -0.8414046565543584,
+          0.6635686706242316,
+          -0.31868116482113074,
+          0.061932499739309935,
+          0.19948129335102133,
+          -0.2515783229421966,
+          0.19195999259195423,
+          0.14046253768406824,
+          -0.09973995992707117,
+          0.6111228699535267,
+          -1.4083280063926529,
+          2.778371075686532,
+          -2.95990388254236,
+          2.2928687308269673,
+          0.963616362290797
+        ],
+        "profile_deltas": [
+          0.00033695500621971555,
+          -0.005613438179900182,
+          -0.007972629887651829,
+          -0.0007703638124536721,
+          0.02945557611462494,
+          0.03650225355879333,
+          0.012713042321012247
+        ],
+        "minimum_n": -0.17430401004200882,
+        "maximum_n": 7.240512488428013,
+        "minimum_active_coast_n_at_nodes": 0.32225385746470975,
+        "gauss_l_field": true,
+        "continuous_positive_domain_certified": false,
+        "removed_actual_zero_Gauss_nodes": [
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "removed_terminal_positive_trace_Gauss_nodes": [
+          125,
+          126,
+          127,
+          128,
+          129
+        ],
+        "minimum_sampled_positive_trace_h": 0.12982718456618325,
+        "minimum_central_curvature": 0.10000165741651762,
+        "minimum_radius_at_nodes": 0.8,
+        "exact_cut_lifting": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+        "curvature_merit": {
+          "cap": 8.1,
+          "weight": 1.0,
+          "active_rows": 324,
+          "repeated_eigenvalue_rows": 0,
+          "residual_l2": 7.801333589857882,
+          "sampled_formal_curvature_maximum": 8.805849999587869,
+          "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+          "complete_chain_derivative": true,
+          "actual_geometry_certified": false
+        },
+        "high_gauss_merit": {
+          "weight": 1.0,
+          "rows": 11058,
+          "retained_radial_node_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ],
+          "exact_zero_plateau_nodes_removed": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            125,
+            126,
+            127,
+            128,
+            129
+          ],
+          "sampled_full_gauss_maximum": 1.5866361454454059,
+          "sampled_omitted_gauss_maximum": 0.1412972398727364,
+          "residual_l2": 0.10567283782769162,
+          "actual_field": "Complete R153 plus R155 actual Gauss, not scaled old G",
+          "normalization": "D2 isometric Fourier rows, same complete nonzero high-Gauss objective",
+          "continuous_certificate": false
+        },
+        "high_codazzi_merit": {
+          "schema": "fd2d-R153-nonlinear-G2-plus-R152-known-coast-cells-v1",
+          "order": 2,
+          "quadrature_fraction_nodes": [
+            0.21132486540518713,
+            0.7886751345948129
+          ],
+          "quadrature_average_weights": [
+            0.5,
+            0.5
+          ],
+          "physical_g_changed": false,
+          "unknown_mesh_changed": false,
+          "original_trapezoid_rows_changed": true,
+          "original_whole_correction_RHS_Gauss_rows_changed": true,
+          "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+          "finite_equations_changed_by_exact_lifting_integration": true,
+          "node_Gauss_boundary_gap_rows_changed": false,
+          "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+          "retained_cell_maximum": 0.40745719470382336,
+          "sampled_full_average_codazzi_maximum": 1.0721510255041835,
+          "sampled_omitted_average_codazzi_maximum": 0.9834732086132982,
+          "sampled_interior_Gauss_maximum": 1.6054909641685007,
+          "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+          "row_definition": {
+            "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+            "work": 512,
+            "retained_maximum_frequency": 62,
+            "even_frequencies": [
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94,
+              96,
+              98,
+              100,
+              102,
+              104,
+              106,
+              108,
+              110,
+              112,
+              114,
+              116,
+              118,
+              120,
+              122,
+              124,
+              126,
+              128,
+              130,
+              132,
+              134,
+              136,
+              138,
+              140,
+              142,
+              144,
+              146,
+              148,
+              150,
+              152,
+              154,
+              156,
+              158,
+              160,
+              162,
+              164,
+              166,
+              168,
+              170,
+              172,
+              174,
+              176,
+              178,
+              180,
+              182,
+              184,
+              186,
+              188,
+              190,
+              192,
+              194,
+              196,
+              198,
+              200,
+              202,
+              204,
+              206,
+              208,
+              210,
+              212,
+              214,
+              216,
+              218,
+              220,
+              222,
+              224,
+              226,
+              228,
+              230,
+              232,
+              234,
+              236,
+              238,
+              240,
+              242,
+              244,
+              246,
+              248,
+              250,
+              252,
+              254,
+              256
+            ],
+            "odd_frequencies": [
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94,
+              96,
+              98,
+              100,
+              102,
+              104,
+              106,
+              108,
+              110,
+              112,
+              114,
+              116,
+              118,
+              120,
+              122,
+              124,
+              126,
+              128,
+              130,
+              132,
+              134,
+              136,
+              138,
+              140,
+              142,
+              144,
+              146,
+              148,
+              150,
+              152,
+              154,
+              156,
+              158,
+              160,
+              162,
+              164,
+              166,
+              168,
+              170,
+              172,
+              174,
+              176,
+              178,
+              180,
+              182,
+              184,
+              186,
+              188,
+              190,
+              192,
+              194,
+              196,
+              198,
+              200,
+              202,
+              204,
+              206,
+              208,
+              210,
+              212,
+              214,
+              216,
+              218,
+              220,
+              222,
+              224,
+              226,
+              228,
+              230,
+              232,
+              234,
+              236,
+              238,
+              240,
+              242,
+              244,
+              246,
+              248,
+              250,
+              252,
+              254
+            ],
+            "ordinary_projection_weight": "2/W",
+            "even_Nyquist_projection_weight": "sqrt(2)/W",
+            "old_point_normalization": "sqrt(2/W)",
+            "grid_roundoff_maximum": 8.881784197001252e-16,
+            "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+            "arbitrary_sampled_fields_supported": false,
+            "floating_point_symmetry_defects_are_reported": true,
+            "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+            "continuous_angular_certificate": false
+          },
+          "old_high_point_rows": 2048,
+          "old_large_high_point_jacobian_constructed": false,
+          "finite_symmetry_and_compression": {
+            "n": {
+              "parity": "even",
+              "point_rows": 512,
+              "compressed_rows": 97,
+              "normalized_point_l2": 6.863171391821831e-16,
+              "compressed_l2": 3.1105275152841824e-16,
+              "point_reconstruction_error_l2": 6.117821518333273e-16,
+              "point_reconstruction_error_maximum": 5.20417042793042e-16,
+              "sampled_reflection_error_maximum": 1.1102230246251565e-14,
+              "sampled_half_period_error_maximum": 1.1102230246251565e-14,
+              "sampled_row_gram_error_maximum": 1.4022809130894021e-14
+            },
+            "m": {
+              "parity": "odd",
+              "point_rows": 512,
+              "compressed_rows": 96,
+              "normalized_point_l2": 0.0,
+              "compressed_l2": 0.0,
+              "point_reconstruction_error_l2": 0.0,
+              "point_reconstruction_error_maximum": 0.0,
+              "sampled_reflection_error_maximum": 0.0,
+              "sampled_half_period_error_maximum": 0.0,
+              "sampled_row_gram_error_maximum": 1.3037676136825957e-14
+            }
+          },
+          "continuous_certificate": false,
+          "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+          "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+          "full_nonlinear_delta_l_and_angular_delta_included": true,
+          "known_affine_endpoint_primitive_preserved": true,
+          "finite_field_representation_changed": true,
+          "sampled_active_n_minimum": null,
+          "actual_field_representation_changed": false,
+          "physical_metric_changed": false,
+          "finite_quadrature_rule_changed": true,
+          "formula": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting",
+          "nonlinear_Gauss_l_correction": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2",
+          "nonlinear_field_treated_as_affine": false,
+          "new_field_at_zero_state_used_for_lifting_correction": false,
+          "state_jacobian": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added",
+          "parameter_jacobian": "Complete R153 columns plus derivative of the original known-affine-lifting average difference",
+          "known_lifting_quadrature_order": 8,
+          "nonlinear_correction_quadrature_order": 2,
+          "selected_coast_local_cells": [],
+          "fine_known_physical_support": [
+            0.5919999999999992,
+            0.8675434451024153
+          ],
+          "all_other_cells_keep_original_G2": true,
+          "selection_independent_of_chunk_size_and_parameters": true,
+          "known_lifting_fixed_boundaries": [],
+          "known_lifting_cell_rules": [],
+          "known_lifting_full_change_maximum": null,
+          "point_gauss_scope": "Original R153 actual-field Gauss2 points; not fine known-lifting points",
+          "terminal_trace_change_identically_zero_on_block": true,
+          "runtime_operator_cache_compatibility": {
+            "actual_R153_background_class": "fd2d_gc_raw_bump_positive_gauss.PositiveGaussRawBumpDAE",
+            "old_strict_identity_check_unchanged": true,
+            "original_complete_cell_formula_and_Jacobian_called": true,
+            "mathematical_fields_or_finite_equations_changed": false,
+            "operator_projection_cache_used_in_R152_R153_background": false,
+            "prepared_geometry_reference_cache_still_shared": true,
+            "node_and_separate_terminal_operator_cache_left_enabled": true,
+            "no_process_global_class_patch": true
+          },
+          "grouped_coast_local_cells": [],
+          "grouped_coast_consumer_source_sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "grouped_coast_applied": false,
+          "all_rows_from_frozen_outside_coast_consumer": true,
+          "assembly": "bounded radial-cell blocks of the unchanged original formula",
+          "block_cells": 2,
+          "block_count": 65,
+          "cell_consumer": "fd2d_gc_checkpointed_grouped_values.consume",
+          "finite_equations_changed_by_chunking": false,
+          "independent_unknown_columns_preserved": true,
+          "legacy_first_chunk_info": {
+            "known_lifting_full_change_maximum": 0.0,
+            "selected_coast_local_cells": [],
+            "grouped_coast_local_cells": []
+          },
+          "known_lifting_change_maximum_not_separately_evaluated": true,
+          "selected_coast_local_cells_scope": "Legacy first chunk only; use whole_grouped_coast_cells",
+          "whole_grouped_coast_rules": [
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.5919999999999992,
+                0.6116816746501718
+              ],
+              "cuts": [
+                0.5919999999999992,
+                0.6116816746501718
+              ],
+              "points": [
+                0.5923907810623628,
+                0.5940009721185084,
+                0.5966691583700383,
+                0.6000356868485004,
+                0.6036459878016706,
+                0.6070125162801326,
+                0.6096807025316625,
+                0.6112908935878082
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.5919999999999992,
+                    0.6116816746501718
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.0124856899348418,
+              "fine_Gauss_location": {
+                "angular_index": 355,
+                "xi": 4.356505437595221,
+                "s": 0.6036459878016706,
+                "signed_value": -1.0124856899348418
+              },
+              "fine_sampled_minimum_active_n": 0.25374516643547884,
+              "global_cell": 63
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6116816746501718,
+                0.6250652134122892
+              ],
+              "cuts": [
+                0.6116816746501718,
+                0.6250652134122892
+              ],
+              "points": [
+                0.611947405772579,
+                0.6130423356907581,
+                0.6148567023417983,
+                0.6171459417071526,
+                0.6196009463553083,
+                0.6218901857206626,
+                0.6237045523717029,
+                0.6247994822898819
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6116816746501718,
+                    0.6250652134122892
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.031614698811703,
+              "fine_Gauss_location": {
+                "angular_index": 356,
+                "xi": 4.368777283898306,
+                "s": 0.6148567023417983,
+                "signed_value": -1.031614698811703
+              },
+              "fine_sampled_minimum_active_n": 0.32484569910160266,
+              "global_cell": 64
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6250652134122892,
+                0.6313633493003443
+              ],
+              "cuts": [
+                0.6250652134122892,
+                0.6253687349104141,
+                0.6313633493003443
+              ],
+              "points": [
+                0.6250712398534125,
+                0.6250960714599864,
+                0.6251372189691661,
+                0.6251891359826025,
+                0.6252448123401008,
+                0.6252967293535372,
+                0.6253378768627169,
+                0.6253627084692908,
+                0.6254877584092472,
+                0.6259781879406399,
+                0.6267908600319496,
+                0.6278162321316212,
+                0.6289158520791372,
+                0.6299412241788088,
+                0.6307538962701186,
+                0.6312443258015112
+              ],
+              "average_weights": [
+                0.0024392167407918347,
+                0.005358524008657837,
+                0.0075591185091129125,
+                0.00873927835420373,
+                0.00873927835420373,
+                0.0075591185091129125,
+                0.005358524008657837,
+                0.0024392167407918347,
+                0.0481750514043967,
+                0.10583199321802939,
+                0.14929420442983055,
+                0.1726026133349771,
+                0.1726026133349771,
+                0.14929420442983055,
+                0.10583199321802939,
+                0.0481750514043967
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6250652134122892,
+                    0.6253687349104141
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                },
+                {
+                  "endpoints": [
+                    0.6253687349104141,
+                    0.6313633493003443
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.6653345369377348e-16,
+              "fine_Gauss_location": {
+                "angular_index": 66,
+                "xi": 0.8099418560036186,
+                "s": 0.6250960714599864,
+                "signed_value": 1.6653345369377348e-16
+              },
+              "fine_sampled_minimum_active_n": 0.32755637069734,
+              "global_cell": 65
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6313633493003443,
+                0.6707266986006896
+              ],
+              "cuts": [
+                0.6313633493003443,
+                0.6707266986006896
+              ],
+              "points": [
+                0.6321449114250715,
+                0.6353652935373628,
+                0.6407016660404226,
+                0.6474347229973468,
+                0.654655324903687,
+                0.6613883818606113,
+                0.6667247543636711,
+                0.6699451364759624
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6313633493003443,
+                    0.6707266986006896
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.6653345369377348e-16,
+              "fine_Gauss_location": {
+                "angular_index": 71,
+                "xi": 0.8713010875190442,
+                "s": 0.6353652935373628,
+                "signed_value": 1.6653345369377348e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3307498770655942,
+              "global_cell": 66
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6707266986006896,
+                0.6747093260540642
+              ],
+              "cuts": [
+                0.6707266986006896,
+                0.6747093260540642
+              ],
+              "points": [
+                0.6708057739545348,
+                0.6711315994353115,
+                0.6716715124256915,
+                0.6723527364058253,
+                0.6730832882489285,
+                0.6737645122290623,
+                0.6743044252194422,
+                0.674630250700219
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6707266986006896,
+                    0.6747093260540642
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 8.326672684688674e-17,
+              "fine_Gauss_location": {
+                "angular_index": 71,
+                "xi": 0.8713010875190442,
+                "s": 0.6711315994353115,
+                "signed_value": -8.326672684688674e-17
+              },
+              "fine_sampled_minimum_active_n": 0.34373418288729635,
+              "global_cell": 67
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.6747093260540642,
+                0.6786919535074387
+              ],
+              "cuts": [
+                0.6747093260540642,
+                0.6786919535074387
+              ],
+              "points": [
+                0.6747884014079094,
+                0.6751142268886862,
+                0.6756541398790661,
+                0.6763353638591999,
+                0.677065915702303,
+                0.6777471396824368,
+                0.6782870526728167,
+                0.6786128781535935
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6747093260540642,
+                    0.6786919535074387
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 5.551115123125783e-17,
+              "fine_Gauss_location": {
+                "angular_index": 63,
+                "xi": 0.7731263170943632,
+                "s": 0.6747884014079094,
+                "signed_value": 5.551115123125783e-17
+              },
+              "fine_sampled_minimum_active_n": 0.34168368114913616,
+              "global_cell": 68
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.6786919535074387,
+                0.7100900479010347
+              ],
+              "cuts": [
+                0.6786919535074387,
+                0.7100900479010347
+              ],
+              "points": [
+                0.6793153649244755,
+                0.6818840960752134,
+                0.6861406425975133,
+                0.6915112515941697,
+                0.6972707498143037,
+                0.7026413588109601,
+                0.70689790533326,
+                0.7094666364839979
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.6786919535074387,
+                    0.7100900479010347
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 1.1102230246251565e-16,
+              "fine_Gauss_location": {
+                "angular_index": 270,
+                "xi": 3.3133985018329852,
+                "s": 0.6915112515941697,
+                "signed_value": -1.1102230246251565e-16
+              },
+              "fine_sampled_minimum_active_n": 0.34178376328403726,
+              "global_cell": 69
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.7100900479010347,
+                0.7494533972013798
+              ],
+              "cuts": [
+                0.7100900479010347,
+                0.7494533972013798
+              ],
+              "points": [
+                0.7108716100257618,
+                0.7140919921380532,
+                0.7194283646411129,
+                0.7261614215980372,
+                0.7333820235043773,
+                0.7401150804613016,
+                0.7454514529643613,
+                0.7486718350766527
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7100900479010347,
+                    0.7494533972013798
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 44,
+                "xi": 0.5399612373357457,
+                "s": 0.7401150804613016,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3439175090834681,
+              "global_cell": 70
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.7494533972013798,
+                0.7888167465017251
+              ],
+              "cuts": [
+                0.7494533972013798,
+                0.7888167465017251
+              ],
+              "points": [
+                0.750234959326107,
+                0.7534553414383983,
+                0.7587917139414581,
+                0.7655247708983823,
+                0.7727453728047226,
+                0.7794784297616468,
+                0.7848148022647066,
+                0.7880351843769979
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7494533972013798,
+                    0.7888167465017251
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 139,
+                "xi": 1.705786636128833,
+                "s": 0.750234959326107,
+                "signed_value": 2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3659936870715954,
+              "global_cell": 71
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.7888167465017251,
+                0.7915892713432515
+              ],
+              "cuts": [
+                0.7888167465017251,
+                0.7915892713432515
+              ],
+              "points": [
+                0.7888717951813856,
+                0.7890986201229679,
+                0.7894744830917282,
+                0.7899487203709304,
+                0.7904572974740461,
+                0.7909315347532484,
+                0.7913073977220086,
+                0.791534222663591
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7888167465017251,
+                    0.7915892713432515
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 316,
+                "xi": 3.877903431774901,
+                "s": 0.7888717951813856,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3860011418998559,
+              "global_cell": 72
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.7915892713432515,
+                0.8281800958020702
+              ],
+              "cuts": [
+                0.7915892713432515,
+                0.8281800958020702
+              ],
+              "points": [
+                0.7923157847883181,
+                0.7953093419590271,
+                0.8002698514933267,
+                0.8065286711710487,
+                0.8132406959742731,
+                0.819499515651995,
+                0.8244600251862946,
+                0.8274535823570036
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.7915892713432515,
+                    0.8281800958020702
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 8,
+                "xi": 0.09817477042468103,
+                "s": 0.8274535823570036,
+                "signed_value": 2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.3870939522295666,
+              "global_cell": 73
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "cuts": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "points": [
+                0.8283051457420265,
+                0.8288204068799931,
+                0.8296742264804827,
+                0.8307515155935906,
+                0.8319068118986049,
+                0.8329841010117128,
+                0.8338379206122024,
+                0.834353181750169
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8281800958020702,
+                    0.8344782316901254
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+              "fine_Gauss_location": {
+                "angular_index": 10,
+                "xi": 0.1227184630308513,
+                "s": 0.8288204068799931,
+                "signed_value": -2.220446049250313e-16
+              },
+              "fine_sampled_minimum_active_n": 0.4047349213201225,
+              "global_cell": 74
+            },
+            {
+              "local_cell": 1,
+              "endpoints": [
+                0.8344782316901254,
+                0.8478617704522428
+              ],
+              "cuts": [
+                0.8344782316901254,
+                0.8478617704522428
+              ],
+              "points": [
+                0.8347439628125326,
+                0.8358388927307117,
+                0.837653259381752,
+                0.8399424987471062,
+                0.8423975033952619,
+                0.8446867427606162,
+                0.8465011094116565,
+                0.8475960393298355
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8344782316901254,
+                    0.8478617704522428
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 0.9230624719179985,
+              "fine_Gauss_location": {
+                "angular_index": 420,
+                "xi": 5.154175447295755,
+                "s": 0.8446867427606162,
+                "signed_value": -0.9230624719179985
+              },
+              "fine_sampled_minimum_active_n": 0.40550629841340396,
+              "global_cell": 75
+            },
+            {
+              "local_cell": 0,
+              "endpoints": [
+                0.8478617704522428,
+                0.8675434451024153
+              ],
+              "cuts": [
+                0.8478617704522428,
+                0.8675434451024153
+              ],
+              "points": [
+                0.8482525515146063,
+                0.849862742570752,
+                0.8525309288222819,
+                0.855897457300744,
+                0.8595077582539141,
+                0.8628742867323762,
+                0.8655424729839061,
+                0.8671526640400518
+              ],
+              "average_weights": [
+                0.05061426814518853,
+                0.11119051722668721,
+                0.15685332293894344,
+                0.18134189168918083,
+                0.18134189168918083,
+                0.15685332293894344,
+                0.11119051722668721,
+                0.05061426814518853
+              ],
+              "panels": [
+                {
+                  "endpoints": [
+                    0.8478617704522428,
+                    0.8675434451024153
+                  ],
+                  "requested_order": 8,
+                  "actual_point_count": 8,
+                  "narrow_panel_fallback": null
+                }
+              ],
+              "fine_sampled_Gauss_maximum": 0.8338035165022162,
+              "fine_Gauss_location": {
+                "angular_index": 420,
+                "xi": 5.154175447295755,
+                "s": 0.8525309288222819,
+                "signed_value": -0.8338035165022162
+              },
+              "fine_sampled_minimum_active_n": 0.31138101365675364,
+              "global_cell": 76
+            }
+          ],
+          "whole_grouped_coast_cells": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "whole_grouped_coast_cell_count": 14,
+          "grouped_block_records": [
+            {
+              "node_start": 0,
+              "node_stop": 2,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 2,
+              "node_stop": 4,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 4,
+              "node_stop": 6,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 6,
+              "node_stop": 8,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 8,
+              "node_stop": 10,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 10,
+              "node_stop": 12,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 12,
+              "node_stop": 14,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 14,
+              "node_stop": 16,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 16,
+              "node_stop": 18,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 18,
+              "node_stop": 20,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 20,
+              "node_stop": 22,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 22,
+              "node_stop": 24,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 24,
+              "node_stop": 26,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 26,
+              "node_stop": 28,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 28,
+              "node_stop": 30,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 30,
+              "node_stop": 32,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 32,
+              "node_stop": 34,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 34,
+              "node_stop": 36,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 36,
+              "node_stop": 38,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 38,
+              "node_stop": 40,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 40,
+              "node_stop": 42,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 42,
+              "node_stop": 44,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 44,
+              "node_stop": 46,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 46,
+              "node_stop": 48,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 48,
+              "node_stop": 50,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 50,
+              "node_stop": 52,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 52,
+              "node_stop": 54,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 54,
+              "node_stop": 56,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 56,
+              "node_stop": 58,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 58,
+              "node_stop": 60,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 60,
+              "node_stop": 62,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 62,
+              "node_stop": 64,
+              "grouped_coast_local_cells": [
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 64,
+              "node_stop": 66,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 66,
+              "node_stop": 68,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 68,
+              "node_stop": 70,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 70,
+              "node_stop": 72,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 72,
+              "node_stop": 74,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 74,
+              "node_stop": 76,
+              "grouped_coast_local_cells": [
+                0,
+                1
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 76,
+              "node_stop": 78,
+              "grouped_coast_local_cells": [
+                0
+              ],
+              "grouped_coast_applied": true,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 78,
+              "node_stop": 80,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 80,
+              "node_stop": 82,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 82,
+              "node_stop": 84,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 84,
+              "node_stop": 86,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 86,
+              "node_stop": 88,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 88,
+              "node_stop": 90,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 90,
+              "node_stop": 92,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 92,
+              "node_stop": 94,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 94,
+              "node_stop": 96,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 96,
+              "node_stop": 98,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 98,
+              "node_stop": 100,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 100,
+              "node_stop": 102,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 102,
+              "node_stop": 104,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 104,
+              "node_stop": 106,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 106,
+              "node_stop": 108,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 108,
+              "node_stop": 110,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 110,
+              "node_stop": 112,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 112,
+              "node_stop": 114,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 114,
+              "node_stop": 116,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 116,
+              "node_stop": 118,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 118,
+              "node_stop": 120,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 120,
+              "node_stop": 122,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 122,
+              "node_stop": 124,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 124,
+              "node_stop": 126,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 126,
+              "node_stop": 128,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            },
+            {
+              "node_start": 128,
+              "node_stop": 130,
+              "grouped_coast_local_cells": [],
+              "grouped_coast_applied": false,
+              "old_G2_point_gauss_kept": true
+            }
+          ],
+          "known_lifting_change_not_separately_evaluated": true,
+          "whole_known_lifting_change_maximum": null,
+          "fine_sampled_interior_Gauss_maximum": 1.031614698811703,
+          "grouped_rule_diagnostic_scope": "All grouped coast cells with global saved-mesh indices",
+          "nested_symmetry_diagnostic_scope": "Original chunk sub-diagnostics may refer to first block only",
+          "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+          "residual_l2": 0.5233199232887761,
+          "sampled_omitted_codazzi_maximum": 0.9834732086132982
+        },
+        "finite_objective_changed_from25": true
+      },
+      "locations": {
+        "continuous_certificate": false,
+        "raw_codazzi_n": {
+          "maximum": 0.40745719470382336,
+          "signed_value": -0.40745719470382336,
+          "cell": 103,
+          "mode": 2,
+          "coefficient": 1,
+          "endpoints": [
+            1.13836168672313,
+            1.1756864154279174
+          ],
+          "cell_length": 0.03732472870478731
+        },
+        "raw_codazzi_m": {
+          "maximum": 0.23584653440837833,
+          "signed_value": -0.23584653440837833,
+          "cell": 66,
+          "mode": 2,
+          "coefficient": 0,
+          "endpoints": [
+            0.6313633493003443,
+            0.6707266986006896
+          ],
+          "cell_length": 0.03936334930034524
+        },
+        "full_gauss": {
+          "maximum": 1.5866361454454059,
+          "signed_value": -1.5866361454454059,
+          "angular_index": 347,
+          "node": 84,
+          "s": 0.9491151252450164,
+          "xi": 4.25833066717054,
+          "material_u": 3.753506164908234,
+          "n_m_l": [
+            0.7661045221975148,
+            -0.7820660927161781,
+            2.4727513913304016
+          ],
+          "target_K": 2.8693947952374734
+        },
+        "formal_curvature": {
+          "maximum": 8.805849999587869,
+          "signed_value": 8.805849999587869,
+          "angular_index": 0,
+          "node": 118,
+          "s": 1.4407097512481546,
+          "xi": 0.0,
+          "material_u": 0.0,
+          "n_m_l": [
+            0.01226440756630795,
+            0.0,
+            -8.805849999587869
+          ],
+          "target_K": 0.039688327908035496,
+          "cap": 8.1,
+          "active_points": 324,
+          "active_s_range": [
+            1.3249853302470664,
+            1.4407097512481546
+          ]
+        },
+        "full_angular_codazzi": {
+          "n": {
+            "maximum": 1.0721510255041848,
+            "signed_value": -1.0721510255041848,
+            "angular_index": 37,
+            "xi": 0.4540583132141498,
+            "cell": 129,
+            "endpoints": [
+              1.4873481783581288,
+              1.4889731783581288
+            ],
+            "cell_length": 0.0016249999999999876,
+            "material_u_endpoints": [
+              0.4540583132141498,
+              0.4540583132141498
+            ]
+          },
+          "m": {
+            "maximum": 0.9796331578485392,
+            "signed_value": 0.9796331578485392,
+            "angular_index": 120,
+            "xi": 1.4726215563702156,
+            "cell": 74,
+            "endpoints": [
+              0.8281800958020702,
+              0.8344782316901254
+            ],
+            "cell_length": 0.0062981358880551674,
+            "material_u_endpoints": [
+              1.4411200320191602,
+              1.4454322768135182
+            ]
+          }
+        },
+        "omitted_angular_codazzi": {
+          "n": {
+            "maximum": 0.8546032066653808,
+            "signed_value": -0.8546032066653808,
+            "angular_index": 394,
+            "xi": 4.835107443415541,
+            "cell": 76,
+            "endpoints": [
+              0.8478617704522428,
+              0.8675434451024153
+            ],
+            "cell_length": 0.019681674650172565,
+            "material_u_endpoints": [
+              4.846884269670413,
+              4.829800172286802
+            ]
+          },
+          "m": {
+            "maximum": 0.9834732086132982,
+            "signed_value": 0.9834732086132982,
+            "angular_index": 120,
+            "xi": 1.4726215563702156,
+            "cell": 74,
+            "endpoints": [
+              0.8281800958020702,
+              0.8344782316901254
+            ],
+            "cell_length": 0.0062981358880551674,
+            "material_u_endpoints": [
+              1.4411200320191602,
+              1.4454322768135182
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "complete_normal": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-work/normal-partitioned/manifest.json",
+    "bytes": 476983,
+    "sha256": "1c5eef91c673ae20622965f60ef57a2678468a4c41cae51db487a5ca42bc7d13"
+  },
+  "actual_process_receipts": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-baseline-adoption-process-receipt.json",
+      "bytes": 3427,
+      "sha256": "703ef4dac668e357419850bf7138a2b401b21fb4775e60b706b7a9367a705b6b",
+      "actual_child_returncode": 0,
+      "seconds": 2.006452695997723,
+      "peak_rss_kib": 104160
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0000-process-receipt.json",
+      "bytes": 3550,
+      "sha256": "d115f8ce56758508a035ef9b23c708c7e36972b280116232a8c006a0ce5512ea",
+      "actual_child_returncode": 0,
+      "seconds": 2.01296547200036,
+      "peak_rss_kib": 31256
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0001-process-receipt.json",
+      "bytes": 3550,
+      "sha256": "aaae4b25b7ff36df6149b992049de48d10876e67ab834dc19f4c1c33b3a35ce8",
+      "actual_child_returncode": 0,
+      "seconds": 1.5619013340037782,
+      "peak_rss_kib": 31780
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0002-process-receipt.json",
+      "bytes": 3552,
+      "sha256": "ef0db461cde1ed94150bb55e6046a48c99633b9ab1e1a084517084796e5ac1a4",
+      "actual_child_returncode": 0,
+      "seconds": 2.016718202998163,
+      "peak_rss_kib": 31780
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0003-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "84fbf5f4ece3fe9dbc1a6b6d73707a1cce2878a6ae987b22d9be749715f3112f",
+      "actual_child_returncode": 0,
+      "seconds": 1.0018651589998626,
+      "peak_rss_kib": 31780
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0004-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "6285db49d9288064298d26b289a9b0c59d7825686ed33f141ae4724bd0d40565",
+      "actual_child_returncode": 0,
+      "seconds": 1.002346741996007,
+      "peak_rss_kib": 31840
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0005-process-receipt.json",
+      "bytes": 3564,
+      "sha256": "9d0750cf8e1b2897048b5e2ab000bef0498a23b984c3564a4722eb99f6e4e5cf",
+      "actual_child_returncode": 0,
+      "seconds": 2.5075685439951485,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0006-process-receipt.json",
+      "bytes": 3552,
+      "sha256": "773513ae6dc4d9514cb9b3e8fed07fc802aa60654ced6ae00e7f1e0fc1ad29a4",
+      "actual_child_returncode": 0,
+      "seconds": 1.508267186996818,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0007-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "ff5a6bf38bcdff4ea7bf63181c8723c4cc689f79bc12f58b048570f80f668d6a",
+      "actual_child_returncode": 0,
+      "seconds": 1.5102657780007576,
+      "peak_rss_kib": 32020
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0008-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "77443540eecac98ec9999c930780bd67c289e07c72ffaa115fb0b1e4a9bb12f0",
+      "actual_child_returncode": 0,
+      "seconds": 2.5125676130046486,
+      "peak_rss_kib": 32028
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0009-process-receipt.json",
+      "bytes": 3563,
+      "sha256": "a8270dc17f1970b199afce50b9e4ca63c5017103748deab2d181d78b5151131e",
+      "actual_child_returncode": 0,
+      "seconds": 1.5069719910025015,
+      "peak_rss_kib": 32016
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0010-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "7ca825a602d38e71cc217c20de65b9058c063b0ba1a847207b09bc4c1e206061",
+      "actual_child_returncode": 0,
+      "seconds": 1.0060818179990747,
+      "peak_rss_kib": 32036
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0011-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "98aed455bb852110cc92f50bd2d411b063d09ba9251e9f0711ad2e4479f4f35c",
+      "actual_child_returncode": 0,
+      "seconds": 3.0129073509961017,
+      "peak_rss_kib": 32040
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0012-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "45efa232b7557b2b0c3a7f5a44d629dfd0ea45bf05ac5d1ea0124c6f9709a442",
+      "actual_child_returncode": 0,
+      "seconds": 2.50952889600012,
+      "peak_rss_kib": 32040
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0013-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "2583840d19924f294b789a9c12b3d232c24ccbfec4b5df05598e96a338c93e64",
+      "actual_child_returncode": 0,
+      "seconds": 2.0281421410036273,
+      "peak_rss_kib": 32036
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0014-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "7930e131a4c2cf77d840c75317e7bd35aa9bd3df516079ad52af7ec8b1dee628",
+      "actual_child_returncode": 0,
+      "seconds": 1.5071496489981655,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0015-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "535014d480d922b83c9c1bb0d843eb6ba0775d69ae44cfda4fe3d651c62a3057",
+      "actual_child_returncode": 0,
+      "seconds": 1.5104774339997675,
+      "peak_rss_kib": 31964
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0016-process-receipt.json",
+      "bytes": 3566,
+      "sha256": "7441315e81f4bd7240b7ae47460e84a93045aaf8d9a2fe3bd90692b2cf22065a",
+      "actual_child_returncode": 0,
+      "seconds": 1.5157165809941944,
+      "peak_rss_kib": 31920
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0017-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "18f96d07c4b4d5ffc120b729a8ed600a0e15cf830008806a61c01ab6ef37dd76",
+      "actual_child_returncode": 0,
+      "seconds": 1.5112477650036453,
+      "peak_rss_kib": 32104
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0018-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "c91554a8716a63b6e87b59a3c7ac00629f947e9bd1ffb1870fa549fcdcc7487f",
+      "actual_child_returncode": 0,
+      "seconds": 2.5259245589986676,
+      "peak_rss_kib": 31836
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0019-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "35de17aed46014e8cba364912beb1ff33833365cc01554e81458db2443a6d60a",
+      "actual_child_returncode": 0,
+      "seconds": 2.007986365999386,
+      "peak_rss_kib": 31884
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0020-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "3fe4bb79f87cc0f23a610ac5e812028a31ff8fc3cb44eb4c93d211aa939e3c06",
+      "actual_child_returncode": 0,
+      "seconds": 2.507721535002929,
+      "peak_rss_kib": 32308
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0021-process-receipt.json",
+      "bytes": 3576,
+      "sha256": "b144d216195567a0debfce056747d2c164394de3b833be94d52d3c293a880b7e",
+      "actual_child_returncode": 0,
+      "seconds": 2.0056085199976224,
+      "peak_rss_kib": 32040
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0022-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "1411f00d4a89c02ae98d66f96fab9c45d4d81444ae8c8f3fc4f196f2739fd516",
+      "actual_child_returncode": 0,
+      "seconds": 1.5068708879989572,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0023-process-receipt.json",
+      "bytes": 3563,
+      "sha256": "a0334e2d7344e64368ff0aa7cd1ff01451182895092e679c564bd4f022519f79",
+      "actual_child_returncode": 0,
+      "seconds": 1.5052209090063116,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0024-process-receipt.json",
+      "bytes": 3565,
+      "sha256": "db88747217f0389e279f74f822073117cd6664b104f10cf4b5b657841101d685",
+      "actual_child_returncode": 0,
+      "seconds": 1.5052160519990139,
+      "peak_rss_kib": 31876
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0025-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "4e7de322185cd97fea8232bf68a7ab26bb7fc85671cd78ff0ab648c875afac97",
+      "actual_child_returncode": 0,
+      "seconds": 2.0165306810013135,
+      "peak_rss_kib": 32028
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0026-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "0cad7b7b11197d5bc5ed70b1ab8fde11a091bd377fe8a40423845d8fef6812ff",
+      "actual_child_returncode": 0,
+      "seconds": 2.510518030001549,
+      "peak_rss_kib": 32040
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0027-process-receipt.json",
+      "bytes": 3564,
+      "sha256": "f80a3ea0bee14fc5bc05c5df259d04ed85db74b67b8f1b55b5fce751d7b40117",
+      "actual_child_returncode": 0,
+      "seconds": 2.0099726529952022,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0028-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "24f25c72fb3b9079b69391481ecb8c63bac5e0b3319853d8c4284a733e2d420b",
+      "actual_child_returncode": 0,
+      "seconds": 2.5237626629968872,
+      "peak_rss_kib": 32032
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0029-process-receipt.json",
+      "bytes": 3564,
+      "sha256": "9ebf61f0488ee8cafbd959ac5ec6bf84c4a4fc938362d42486a7b1aff59909de",
+      "actual_child_returncode": 0,
+      "seconds": 2.5121700119998422,
+      "peak_rss_kib": 32036
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0030-process-receipt.json",
+      "bytes": 3564,
+      "sha256": "6737ceca81bed40e85e663a75f4622ab018d1bfd9180b379989b49cebd90dec8",
+      "actual_child_returncode": 0,
+      "seconds": 2.5139584179996746,
+      "peak_rss_kib": 32028
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0031-process-receipt.json",
+      "bytes": 3551,
+      "sha256": "c6d0ca70ef9ea85f454a259012d0ecd2db61a6f5cef3755e39417bc056bb68b5",
+      "actual_child_returncode": 0,
+      "seconds": 2.012870603997726,
+      "peak_rss_kib": 32024
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0032-process-receipt.json",
+      "bytes": 3554,
+      "sha256": "80d6e7f08d98f1feb194929fab5c176225febd401e82f8a9bddefc0ca270b079",
+      "actual_child_returncode": 0,
+      "seconds": 1.5046661050000694,
+      "peak_rss_kib": 31960
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0033-process-receipt.json",
+      "bytes": 3552,
+      "sha256": "c84905cc23456377139225c66b4550b0d04709ff15355907b70b191ecedd5962",
+      "actual_child_returncode": 0,
+      "seconds": 2.505775673998869,
+      "peak_rss_kib": 32268
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-compressed-merge-a01-p0034-process-receipt.json",
+      "bytes": 3553,
+      "sha256": "da17fd49b8d4073965342327fbda1f02e2414135ed347431d826aa0702974fb5",
+      "actual_child_returncode": 0,
+      "seconds": 2.008135265998135,
+      "peak_rss_kib": 31136
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-plan-a01-process-receipt.json",
+      "bytes": 3325,
+      "sha256": "0d95d84271eede853565b8a689908bd8716292a4e9e883cd9e97bf880e80a465",
+      "actual_child_returncode": 0,
+      "seconds": 1.0052830629938398,
+      "peak_rss_kib": 98484
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-qp-a01-process-receipt.json",
+      "bytes": 3445,
+      "sha256": "6dde81e158b8c13a5a06d32d00330443032cabbedca9ad76c01f892c2c4e3ccb",
+      "actual_child_returncode": 0,
+      "seconds": 3.027145825995831,
+      "peak_rss_kib": 133012
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-schur-a01-process-receipt.json",
+      "bytes": 3455,
+      "sha256": "803961b1d8a659f34e7fe0e888f2185b63b156c50eb63c9d4fea44be8c9a52e1",
+      "actual_child_returncode": 0,
+      "seconds": 3.519171137995727,
+      "peak_rss_kib": 138536
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0000-0001-a01-process-receipt.json",
+      "bytes": 3496,
+      "sha256": "ecdb3d5e79bdfc5c02267d416081eff5ce0fbddc87d1c18ddea28c699c0953d8",
+      "actual_child_returncode": 0,
+      "seconds": 5.047691297004349,
+      "peak_rss_kib": 129712
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0002-0003-a01-process-receipt.json",
+      "bytes": 3495,
+      "sha256": "e23c87930c53c21c75014795330c82b8a8a67a9b7ea455ea06b3e29eac407976",
+      "actual_child_returncode": 0,
+      "seconds": 3.520755117999215,
+      "peak_rss_kib": 129488
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0004-0005-a01-process-receipt.json",
+      "bytes": 3508,
+      "sha256": "ea5e53ec4555892a0f6efcd0aa3877e201f54b11d9f41b87159fc26afd96c214",
+      "actual_child_returncode": 0,
+      "seconds": 3.5102016070013633,
+      "peak_rss_kib": 130888
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0006-0007-a01-process-receipt.json",
+      "bytes": 3497,
+      "sha256": "db4099040e936de848c3204f118a2479466a7a3505616d03c744802342c00c40",
+      "actual_child_returncode": 0,
+      "seconds": 4.5205039479988045,
+      "peak_rss_kib": 129628
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0008-0009-a01-process-receipt.json",
+      "bytes": 3508,
+      "sha256": "06e666065d693b71712dda9d76c00bea4553142a7c4b774d8f9b8a2ba51d10cc",
+      "actual_child_returncode": 0,
+      "seconds": 4.009859639998467,
+      "peak_rss_kib": 130340
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0010-0011-a01-process-receipt.json",
+      "bytes": 3497,
+      "sha256": "0490045f7127211da622e0ed0e316fba37f7432f538c90dc61a35779bee761a9",
+      "actual_child_returncode": 0,
+      "seconds": 6.046892531994672,
+      "peak_rss_kib": 130004
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0012-0013-a01-process-receipt.json",
+      "bytes": 3496,
+      "sha256": "a2c5e8b6ce52da790f8a7a84c47c27280ee9f8d5e54af3b8e44ebcaf13481eca",
+      "actual_child_returncode": 0,
+      "seconds": 5.027112058000057,
+      "peak_rss_kib": 130180
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0014-0015-a01-process-receipt.json",
+      "bytes": 3497,
+      "sha256": "e1f4bf7a22fb9590bdc8486d068a9ab88fdcefcebb1487d37d52e092ba4c9ad3",
+      "actual_child_returncode": 0,
+      "seconds": 6.017868923001515,
+      "peak_rss_kib": 130804
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0016-0017-a01-process-receipt.json",
+      "bytes": 3495,
+      "sha256": "8a0fca3bd942432e5362be2f01f2f9c5e164dba2183bb3b5b086dfe6971ad3fa",
+      "actual_child_returncode": 0,
+      "seconds": 5.018303644996195,
+      "peak_rss_kib": 130464
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0018-0019-a01-process-receipt.json",
+      "bytes": 3505,
+      "sha256": "6c26caa9eecf4f76d04248c83a1c53273c982507d91e885fd54af8a36efc6182",
+      "actual_child_returncode": 0,
+      "seconds": 3.528991307000979,
+      "peak_rss_kib": 130736
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0020-0021-a01-process-receipt.json",
+      "bytes": 3495,
+      "sha256": "2f34b7f0103d057a809c69d5cecf3182b335e37e06ca5bc690b55f3b21d4b1f6",
+      "actual_child_returncode": 0,
+      "seconds": 4.01297001200146,
+      "peak_rss_kib": 131344
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0022-0023-a01-process-receipt.json",
+      "bytes": 3508,
+      "sha256": "bf5dc2137e3982c99a66aa3880eaa06444d3695debef6aeb0e0c340ad8247b0b",
+      "actual_child_returncode": 0,
+      "seconds": 3.5374385510003776,
+      "peak_rss_kib": 130868
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0024-0025-a01-process-receipt.json",
+      "bytes": 3507,
+      "sha256": "748befce2d6e2ffec88de5e5d858d88113b81786180e65abbbaede7fcb1ea3fb",
+      "actual_child_returncode": 0,
+      "seconds": 6.56223718199908,
+      "peak_rss_kib": 144208
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0026-0027-a01-process-receipt.json",
+      "bytes": 3518,
+      "sha256": "6e303ff1a7cbf5730b319d43e69fd295f66f1bb2d4a254d62ca1d021c2a88a12",
+      "actual_child_returncode": 0,
+      "seconds": 5.015750860002299,
+      "peak_rss_kib": 147748
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0028-0029-a01-process-receipt.json",
+      "bytes": 3507,
+      "sha256": "fee149db553567de82d72a3bb5b3137ba0e2e559650632e80bf7a466399db511",
+      "actual_child_returncode": 0,
+      "seconds": 3.512466611995478,
+      "peak_rss_kib": 134836
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0030-0031-a01-process-receipt.json",
+      "bytes": 3506,
+      "sha256": "022893d4d4a71ae0ceab9f24f28157baeb90b2a501e353b4dd7bff30a9ee446c",
+      "actual_child_returncode": 0,
+      "seconds": 4.525174781003443,
+      "peak_rss_kib": 130852
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0032-0033-a01-process-receipt.json",
+      "bytes": 3495,
+      "sha256": "2e7f72aedb3b3fc6bf42d64e4c1ac6fa0d2bfa1191537e8a11e9cb43a7eac4fe",
+      "actual_child_returncode": 0,
+      "seconds": 4.517952262998733,
+      "peak_rss_kib": 131112
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0034-0035-a01-process-receipt.json",
+      "bytes": 3497,
+      "sha256": "2c579abfb866ef4a738fe144bc52f90c21efb8e55d3eeab5c4dd06854133286b",
+      "actual_child_returncode": 0,
+      "seconds": 3.523216486995807,
+      "peak_rss_kib": 131648
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0036-0037-a01-process-receipt.json",
+      "bytes": 3507,
+      "sha256": "849f45c8fc6682663fbbba864e843df31e5d571e65d849925fb55fa1795afb07",
+      "actual_child_returncode": 0,
+      "seconds": 4.519387377004023,
+      "peak_rss_kib": 130856
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0038-0039-a01-process-receipt.json",
+      "bytes": 3504,
+      "sha256": "d97da25dc3b922b2e81459e3910301c51bc6f85210200bbd1681bddae9290c10",
+      "actual_child_returncode": 0,
+      "seconds": 4.553951500005496,
+      "peak_rss_kib": 130880
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0040-0041-a01-process-receipt.json",
+      "bytes": 3496,
+      "sha256": "f326bc975192aa703e67f5b4b71a9ebced21e10dd64a903eb27a7351f3296b92",
+      "actual_child_returncode": 0,
+      "seconds": 5.519832380996377,
+      "peak_rss_kib": 130576
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0042-0043-a01-process-receipt.json",
+      "bytes": 3513,
+      "sha256": "89e3363de6e763496bd80389a309f6287b97df8c7575385b75b62ead75d30505",
+      "actual_child_returncode": 0,
+      "seconds": 2.507084245000442,
+      "peak_rss_kib": 126764
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0044-0045-a01-process-receipt.json",
+      "bytes": 3513,
+      "sha256": "b6e9aaac68b7a7e56c45170a10c2e1c9c77db8a144e7960c5ea172ee9220e644",
+      "actual_child_returncode": 0,
+      "seconds": 3.0059816210050485,
+      "peak_rss_kib": 126508
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0046-0047-a01-process-receipt.json",
+      "bytes": 3503,
+      "sha256": "1d365840c82c5b7956cb80a715f60a58eae444ed6321de7dc91a27644e1023dc",
+      "actual_child_returncode": 0,
+      "seconds": 6.015240382002958,
+      "peak_rss_kib": 127000
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0048-0049-a01-process-receipt.json",
+      "bytes": 3503,
+      "sha256": "3493875b60e1888c82d33b6d4b142abb4066303f47607a4477c1ce79547c5452",
+      "actual_child_returncode": 0,
+      "seconds": 5.013590297996416,
+      "peak_rss_kib": 126684
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-tiles-0050-0050-a01-process-receipt.json",
+      "bytes": 3474,
+      "sha256": "c9fd1f470aee55c5d9940b26198bc0270c80d60c7788ac232b024c08dab623bd",
+      "actual_child_returncode": 0,
+      "seconds": 3.018129844000214,
+      "peak_rss_kib": 119000
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-trial-back00-a01-process-receipt.json",
+      "bytes": 3432,
+      "sha256": "2a0f142c53fee001396b609e62b78172fbd1258f35c5ebfd420bd69b3e48ecbc",
+      "actual_child_returncode": 1,
+      "seconds": 2.0252205510041676,
+      "peak_rss_kib": 105832
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-trial-back00-a02-process-receipt.json",
+      "bytes": 3435,
+      "sha256": "f501d84ac94393f001bd1748c470fff83b690fe2e4c94185e174e67fdb180d10",
+      "actual_child_returncode": 0,
+      "seconds": 11.56789194400335,
+      "peak_rss_kib": 183804
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic35-trial-back01-a01-process-receipt.json",
+      "bytes": 3425,
+      "sha256": "dbbefa4c48eb16ddb581c9f0cda8aaf501815209f59267da2de3ef806da2dced",
+      "actual_child_returncode": 0,
+      "seconds": 24.68384840300132,
+      "peak_rss_kib": 181288
+    }
+  ],
+  "numerical_calculations_in_closure": 0,
+  "strong_target_complete": false,
+  "continuous_geometry_certificate": false,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-close-staged-rejected-step.py",
+    "bytes": 6636,
+    "sha256": "a7823bf24ca9c6ccc9ac91e66accea921b555f70f818e5d9e55dd1421bc22de5"
+  }
+}

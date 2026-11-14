@@ -1,0 +1,109 @@
+--- 78718-plan-post-restart8000-v1.py
++++ 78718-plan-post-m15-linear-v1.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Read-only, success-only command plan for the original post-restart8000 chain.
++"""Read-only, success-only command plan for the new M15/N512/W15 post-coupled chain.
+ 
+ This program never executes a producer, solver, numerical callback or command.
+ It replays the frozen complete final audit, requires its separately saved report
+@@ -24,10 +24,10 @@
+ OLD_TOPIC = Path('/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface')
+ PYTHON = '/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python'
+ NODE = '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node'
+-AUDITOR = HERE / '78718-prefix-audit-restart8000-v1.py'
+-AUDITOR_SHA = 'cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f'
+-LAUNCH_SCHEMA = '78718-true-m14-w14-restart8000-launch-v1'
+-SUCCESS = 'PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE'
++AUDITOR = HERE / '78718-prefix-audit-m15-linear-v1.py'
++AUDITOR_SHA = 'fd41b9ef4c2eea648cbb1ab1c3b638e61bc41d97d99d9213ad0370c042ff147e'
++LAUNCH_SCHEMA = '78718-true-m15-w15-n512-linear-dn-launch-v1'
++SUCCESS = 'PASS_ROOT_OBSERVED_M15_N512_W15_LINEAR_DN_FINITE_COUPLED_CLOSE'
+ LINEAR_PORT = OLD_TOPIC / 'notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json'
+ LINEAR_PORT_SHA = '500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702'
+ TERMINAL_BOUND_EXACT = '1/500000000'
+@@ -242,9 +242,9 @@
+     """The complete original new-identity audit is the sole success predicate."""
+     require(sys.executable == PYTHON, 'Use the frozen absolute primary Python interpreter')
+     pinned(AUDITOR, AUDITOR_SHA)
+-    audit = module('post_restart8000_full_close_audit', AUDITOR)
++    audit = module('post_m15_linear_full_close_audit', AUDITOR)
+     launch = read_json(launch_path)
+-    require(launch.get('schema') == LAUNCH_SCHEMA, 'Not the restart8000 launch schema')
++    require(launch.get('schema') == LAUNCH_SCHEMA, 'Not the M15/N512 linear-DN launch schema')
+     context = audit.c.validate_inputs(launch)
+     require(Path(launch_path).resolve() == Path(context['launch']['launch_path']), 'Wrong launch file')
+     actual = {'scope': audit.__doc__, 'mode': 'final', 'ready': False,
+@@ -466,7 +466,7 @@
+         require(entry['source']['path'] in source_paths, 'Unbound command source')
+         for row in entry.get('additional_sources', []):
+             require(row['path'] in source_paths, 'Unbound additional command source')
+-    return {'schema': '78718-post-restart8000-success-only-original-plan-v1',
++    return {'schema': '78718-post-m15-linear-success-only-original-plan-v1',
+             'status': 'ACTUAL_MAIN_SUCCESS_BOUND_FUTURE_PRODUCTION_PLAN_ONLY',
+             'plan_ready': True, 'mathematical_completion_claimed': False,
+             'actual_solver_calls': 0, 'actual_production_calls': 0,
+@@ -496,7 +496,7 @@
+                 'The normal terminal gate must pass exact 1/500000000 with the real original M12 lower-bound files.',
+                 'G5 refinement record and all README geometry/time conditions remain separate obligations.',
+                 'An uninvolved auditor must perform the actual frozen-seed solver-to-mesh workflow in fresh processes; metadata replay and same-plan mesh comparison do not replace it.',
+-                'The restart8000 ancestor failed CP is a declared true input, not an independent final rerun performed here.',
++                'The old matched M15 prefix remains UNSOLVED and its old local N256 DN is only a declared warm input; no independent final rerun is performed here.',
+                 'Finite numerical certificates do not prove the strict infinite-tail exact existence theorem.',
+                 'Continue the stronger amplitude/reach objectives after all basic completion conditions are actually paid.'],
+             **plan}
+--- 78718-plan-post-restart8000-storage-v2.py
++++ 78718-plan-post-m15-linear-storage-v1.py
+@@ -18,8 +18,8 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ NOTES = HERE.parent / 'notes'
+-BASE_NAME = '78718-plan-post-restart8000-v1.py'
+-BASE_SHA = 'c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456'
++BASE_NAME = '78718-plan-post-m15-linear-v1.py'
++BASE_SHA = '8de9aa493d4bebeeeb2acf392935b720456ce11b0b377b2a82679e8e01f8f58b'
+ FAMILY = {
+     '78718-prefix-byte-shards-v1.py': 'e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39',
+     '78718-prefix-storage-v1.py': '83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329',
+@@ -262,8 +262,8 @@
+ 
+ def build(args):
+     base = load_base()
+-    require(args.run_directory.name.startswith('2026-11-10-78718-post-restart8000-storage-v2-'),
+-            'Use the distinct post-restart8000-storage-v2 production namespace')
++    require(args.run_directory.name.startswith('2026-11-10-78718-post-m15-linear-storage-v1-'),
++            'Use the distinct post-m15-linear-storage-v1 production namespace')
+     # No monkeypatch, synthetic CP, alternate status or substituted audit. This
+     # exact frozen call demands the genuine root exit and complete final report.
+     original = base.build(args)
+@@ -280,7 +280,7 @@
+             bindings.bound(row, role)
+     bindings.add(Path(__file__), 'this-plan-source')
+     result['preexisting_bindings'] = bindings.output()
+-    result['schema'] = '78718-post-restart8000-success-only-conditional-storage-plan-v2'
++    result['schema'] = '78718-post-m15-linear-success-only-conditional-storage-plan-v1'
+     result['status'] = 'ACTUAL_MAIN_SUCCESS_BOUND_CONDITIONAL_STORAGE_PLAN_ONLY'
+     result['branch_policy']['storage'] = STORAGE_POLICY
+     result['storage_branch_selected_or_activated'] = False
+--- 78718-check-post-restart8000-storage-v2.py
++++ 78718-check-post-m15-linear-plans-v1.py
+@@ -10,8 +10,8 @@
+ HERE = Path(__file__).resolve().parent
+ NOTES = HERE.parent / 'notes'
+ PYTHON = '/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python'
+-PLANNER = HERE / '78718-plan-post-restart8000-storage-v2.py'
+-PLANNER_SHA = '99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc'
++PLANNER = HERE / '78718-plan-post-m15-linear-storage-v1.py'
++PLANNER_SHA = '4cd5386249e57e2f033638acf8e92f931aa6a3d1fe559496ba16d82b920211df'
+ 
+ 
+ def main():
+@@ -51,7 +51,7 @@
+     if loaded_numerical:
+         raise ValueError('Unexpected numerical import in pure metadata check')
+     report = {
+-        'schema': '78718-post-restart8000-storage-v2-static-input-check-v1',
++        'schema': '78718-post-m15-linear-storage-v1-static-input-check-v1',
+         'status': 'PASS_SOURCE_INPUT_CLOSURE_ONLY_NO_CANDIDATE_ARGV',
+         'scope': __doc__, 'plan_ready': False,
+         'planner': base.identity(PLANNER), 'checker': base.identity(__file__),

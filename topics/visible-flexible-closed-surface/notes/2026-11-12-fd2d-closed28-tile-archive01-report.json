@@ -1,0 +1,637 @@
+{
+  "schema": "fd2d-lossless-own-closed-tile-retirement-v1",
+  "complete": true,
+  "source": {
+    "bytes": 4564,
+    "sha256": "1bb1fbacc037085f891bf9484db358177f179c016f794ad218380282f23edd2e"
+  },
+  "plan": {
+    "bytes": 46631,
+    "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+  },
+  "complete_merged_normal": {
+    "bytes": 453850,
+    "sha256": "bb50e4ccc1ba7f98f36303631592738815249785ecc9f45a202d465199be4c31"
+  },
+  "merged_normal_modified": false,
+  "retire_uncompressed": true,
+  "started_utc": "2026-11-12T19:34:47.153755+00:00",
+  "tiles": [
+    {
+      "id": "0000-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0000-nodes/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "a8a547eaccb562ffe6cb52d7de706be4a642353c9ea795fe3a4baa60b5e368ea"
+      },
+      "old_bytes": 22343673,
+      "compressed_bytes": 1223496,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0001-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0001-nodes/index.json",
+      "index_identity": {
+        "bytes": 16642,
+        "sha256": "f20140ca42ded19def6a3e67d0aa11f91dd35f943d865ffa4220acba69dde74d"
+      },
+      "old_bytes": 22343733,
+      "compressed_bytes": 1731328,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0002-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0002-nodes/index.json",
+      "index_identity": {
+        "bytes": 16643,
+        "sha256": "bdbb52d248b9d48d48008054a6554434895428e391036a77485c006a801f0664"
+      },
+      "old_bytes": 22343733,
+      "compressed_bytes": 1743606,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0003-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0003-nodes/index.json",
+      "index_identity": {
+        "bytes": 16643,
+        "sha256": "4ebaac4a540dd4327c982b714b4ab35e3d9bd7dd7128860cdbfa2dd2a21f7bb9"
+      },
+      "old_bytes": 22343733,
+      "compressed_bytes": 1753365,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0004-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0004-nodes/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "3e3d50948a0f2dfe4c27590af0a9caed37060047099a623dd8d7ee78eca0fd1e"
+      },
+      "old_bytes": 22327331,
+      "compressed_bytes": 1159607,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0005-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0005-nodes/index.json",
+      "index_identity": {
+        "bytes": 16644,
+        "sha256": "00b05cd83b6eae3789b0ddcc932bc514c370548aaddaf5fb4bea91c1e70bd060"
+      },
+      "old_bytes": 22343733,
+      "compressed_bytes": 1957017,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0006-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0006-nodes/index.json",
+      "index_identity": {
+        "bytes": 16644,
+        "sha256": "d4d7690d405843162211e733fba94e6b3fa3276b1b12dc0a52f18d416a647604"
+      },
+      "old_bytes": 22343819,
+      "compressed_bytes": 1946172,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0007-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0007-nodes/index.json",
+      "index_identity": {
+        "bytes": 16643,
+        "sha256": "e2785436e743c0040aa301f6290179c1af80a97cec9e980bd8b398ce181fd926"
+      },
+      "old_bytes": 22339362,
+      "compressed_bytes": 1763539,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0008-nodes",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0008-nodes/index.json",
+      "index_identity": {
+        "bytes": 16632,
+        "sha256": "04a46860fa74cd761f212df3e8509ca1edbd461764cfb7a65a6c5dce43e77da2"
+      },
+      "old_bytes": 22307157,
+      "compressed_bytes": 798584,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0009-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0009-cells/index.json",
+      "index_identity": {
+        "bytes": 16632,
+        "sha256": "a9ea07dd9c359e9a714d74b8e3389b0cf92e0590bb08dab4bbb327d8dd5cd618"
+      },
+      "old_bytes": 22312257,
+      "compressed_bytes": 803684,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0010-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0010-cells/index.json",
+      "index_identity": {
+        "bytes": 16632,
+        "sha256": "b8788f4425e8e773bb76e7e8a753a29f4481e4382ab0096f7e37e9e8c4015ff1"
+      },
+      "old_bytes": 22312259,
+      "compressed_bytes": 803686,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0011-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0011-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "d09074315f1387f70f4d89bfc4b8a564ace5ca658ad6431adee33ece8cbc27c3"
+      },
+      "old_bytes": 22312275,
+      "compressed_bytes": 1075953,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0012-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0012-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "8c0f877db0ba6bbfa587683cead79168d24caaf52a9a702ab49c672bce1f959b"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1147133,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0013-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0013-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "1a276f598bda65d96d197154c455463390ca213010b1dd07bf5bfdd97a990f55"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1146709,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0014-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0014-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "ba521c821bf50ea409b35bb13937bffd5415c7dccd5497a877a3b76c2eae05e8"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1147528,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0015-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0015-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "1fcc031610c8bde7984091c2bbf79eb048c8c00d7566f4fa4cacf446acabd46a"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1148178,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0016-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0016-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "f04264a57dfaa5f25d409bebf8c2ff73c7dddeaa18ba3816d665c400026a2434"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1150861,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0017-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0017-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "4f0f06cdf15cb88503ba6137ca3dc4d24ac49574c93bcd2c3e594a1d5f41e830"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1152254,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0018-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0018-cells/index.json",
+      "index_identity": {
+        "bytes": 16636,
+        "sha256": "13a710d72a079b764db95e0b99bd3bb639c0acffe230cef0323570abef8e6ae2"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1152423,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0019-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0019-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "14a658647d05cc2067d8148495c4349dbf5328740a2a9f243a3ec4c7a78b3fca"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1152569,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0020-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0020-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "4a36fb900ee9cb6771224823e0a73de2bf788b48b12abe3476455afe4b5b3050"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1216519,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0021-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0021-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "d5430d0383c0d7eedddd08852477dcdec90f322b6e759fc3ec19218678c5a0a7"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1346094,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0022-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0022-cells/index.json",
+      "index_identity": {
+        "bytes": 16636,
+        "sha256": "0c16cfbe1821ce33db34cfd011749fd02b6fc0ec320b53dafd876a97921683d0"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1346767,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0023-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0023-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "3b7f045062a2cf90ea02cd24e06319248c89d60b9edcef7d60a2b0f9e93f507c"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1357516,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0024-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0024-cells/index.json",
+      "index_identity": {
+        "bytes": 16636,
+        "sha256": "3227fa4e93656562ce29e0ea82c3ec5bd40df3f8fcb1a0e426375c0b72e66cc0"
+      },
+      "old_bytes": 22319973,
+      "compressed_bytes": 1369628,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0025-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0025-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "af7d5b1bb6b4ea0a009366d2f1c822fcb63155a9fbdd58547339d8825378442d"
+      },
+      "old_bytes": 22346456,
+      "compressed_bytes": 1183486,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0026-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0026-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "aafcde32e1155139bf348cfe952a04915d7f39079959a29dfcc8b2f21ba93abd"
+      },
+      "old_bytes": 22342579,
+      "compressed_bytes": 1074669,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0027-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0027-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "8f14810acd76b9bf181191b9836cf9c9348941e318b1a394416829857b7f53c0"
+      },
+      "old_bytes": 22342577,
+      "compressed_bytes": 1209123,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0028-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0028-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "6ec3ff66ceb87ca102f53435bf1e5785341296dc3a1d2a609ad93b7d41ecd8ea"
+      },
+      "old_bytes": 22319973,
+      "compressed_bytes": 1434142,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0029-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0029-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "d722e20957e6f4a1588f09b2706794a558ab33e2bb350e758a61107786b7625a"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1425943,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0030-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0030-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "ce3a0d03ac99006f67dc7823eeff314addd8646e430b0762301c80d39dcbb936"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1425001,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0031-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0031-cells/index.json",
+      "index_identity": {
+        "bytes": 16636,
+        "sha256": "a306439fb938da6f309662f455b9ef5678910a849dae0087035a67e09136568f"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1424532,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0032-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0032-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "24bb5566270568f9d66cf1a0de005e6c04855fa294eb73b211cb9f85db62da26"
+      },
+      "old_bytes": 22312287,
+      "compressed_bytes": 1424578,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0033-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0033-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "4c7aea4b5deddfa213f8e8636f32cfe0ef3c5aae06881dfd05a4e99588fe8f4c"
+      },
+      "old_bytes": 22312289,
+      "compressed_bytes": 1425206,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0034-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0034-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "76bbda76bc0dda9700c9974c73f0d7533c6f72dc4f95eccf66ab8fb1a2ce47c8"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1424110,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0035-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0035-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "a432ee090490cf5e018e72fecf192be98703a382fe25e42d0c2ce2f2a48f2e7e"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1420907,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0036-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0036-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "239d78266e21a3c50d8d48f8d2e564f9e53cd1dfc1663b245c39be8dea936caf"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1416949,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0037-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0037-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "150122530577e4e35ff63e230f5f937bc39eaf24b9970e4531756e5161d27273"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1373083,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0038-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0038-cells/index.json",
+      "index_identity": {
+        "bytes": 16638,
+        "sha256": "aa1509fa53125e227476d3a68f5c1e91b458506b8adcc8ebcced2592cbf6abea"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1227201,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0039-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0039-cells/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "5d091aea07349f5f4a7e557d4f8494c5c30fbba8e4a6cb081db3f81ebee82996"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1333140,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0040-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0040-cells/index.json",
+      "index_identity": {
+        "bytes": 16639,
+        "sha256": "c8a75e69e06b752d009da4a6a13e143d16f9fc5841c17464adcfe8f8834a304d"
+      },
+      "old_bytes": 22312315,
+      "compressed_bytes": 1199286,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0041-cells",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0041-cells/index.json",
+      "index_identity": {
+        "bytes": 16636,
+        "sha256": "391c658a4e489ffe3692f94db0e27416986389c8285638a117fff2b8eede4b4d"
+      },
+      "old_bytes": 22308467,
+      "compressed_bytes": 890701,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0042-boundary",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0042-boundary/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "ff03f4198c15eb230e4391afd5eef6e8baf8f43aef1a9fdea203c8094c358d2a"
+      },
+      "old_bytes": 22307874,
+      "compressed_bytes": 804709,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0043-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0043-interior/index.json",
+      "index_identity": {
+        "bytes": 16640,
+        "sha256": "7b29412aab0c9b9cf211452ef51194ac5649af83623ae8344232a18b68767022"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 668134,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0044-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0044-interior/index.json",
+      "index_identity": {
+        "bytes": 16639,
+        "sha256": "30814f69beac63dff5054e8ba02ae88810e968e4b43090b2d8f057f09d440a19"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 667819,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0045-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0045-interior/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "7ac63f7eabbaf8a9c5892b525db822a7cd633e0aec996c726fc9fbef6074ecc6"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 566247,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0046-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0046-interior/index.json",
+      "index_identity": {
+        "bytes": 16637,
+        "sha256": "21b4f43c035a166cce985fedb0ed74f363ebcbac98476f2e2593656aabdc6916"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 568029,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0047-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0047-interior/index.json",
+      "index_identity": {
+        "bytes": 16640,
+        "sha256": "2934abb52f4241092392e8ddd6ee4a74d849506e7aa4a0a93b19593e328bfa1a"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 696097,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0048-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0048-interior/index.json",
+      "index_identity": {
+        "bytes": 16640,
+        "sha256": "2b9e9a0e39976b8194e5da7d185eed71de1907add7f9bd452736dcd84cf37045"
+      },
+      "old_bytes": 22005081,
+      "compressed_bytes": 694525,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0049-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0049-interior/index.json",
+      "index_identity": {
+        "bytes": 16641,
+        "sha256": "3e50c871072608e023ca5634ecabb648146be1061708a8810c7e502d8b4ec177"
+      },
+      "old_bytes": 22005094,
+      "compressed_bytes": 689012,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    },
+    {
+      "id": "0050-interior",
+      "index": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-tiles-gzip-closed/0050-interior/index.json",
+      "index_identity": {
+        "bytes": 16640,
+        "sha256": "d13b0f28c355fe73239c1d1442304a70daa206383adad5df43adbf16bb97a144"
+      },
+      "old_bytes": 22005098,
+      "compressed_bytes": 686639,
+      "every_decompressed_byte_SHA_checked": true,
+      "uncompressed_directory_retired": true
+    }
+  ],
+  "ended_utc": "2026-11-12T19:36:05.970527+00:00",
+  "original_bytes": 1135796728,
+  "archive_bytes": 60947484,
+  "numerical_operations_performed": false
+}

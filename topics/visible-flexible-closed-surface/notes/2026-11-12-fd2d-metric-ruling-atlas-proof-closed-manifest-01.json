@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-R149-frozen-ruling-atlas-proof-closed-v1",
+  "files": [
+    {
+      "path": "results/R149-frozen-ruling-atlas-with-full-functional-traces.md",
+      "bytes": 12790,
+      "sha256": "fcf2ecff89df23f77e682e8b4d5afec57a059bfc97f0c131f0b8eb85e5bae9f8"
+    }
+  ],
+  "complete_mathematical_proof": true,
+  "includes_explicit_native_reader_definition": true,
+  "actual_new_atlas_provider_execution_claimed": false,
+  "new_BVP_run": false,
+  "known_finite_warm_projection_changes_field": true,
+  "interfaces": {
+    "entry_transition_start": 0.55,
+    "entry_s": 0.5919999999999992,
+    "exit_s": 0.8675434451024153,
+    "exit_transition_stop": 1.4
+  },
+  "coast_label": "Frozen inlet seed-normal xi; incoming material t=U_seed(xi)"
+}

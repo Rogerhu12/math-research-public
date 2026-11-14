@@ -1,0 +1,9 @@
+{
+  "status": "SETUP_GUARD_REJECTION_BEFORE_ROOT",
+  "actual_tool_exit_code": 1,
+  "source_snapshot": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-one-m14-root-packet-pre-depth-guard-fix.mjs",
+  "source_sha256": "6e35d764056eb7be34a4ab2234bb1ff02fa4aed89ac8cd632b076362ed2aee07",
+  "error": "Physical parameter mismatch: depth",
+  "original_root_calls": 0,
+  "reason": "The original DN overwrites physical.parameters.depth with the numerical shooting stage count. Physical depth and total stage count are validated separately; all other physical parameter comparisons remain."
+}

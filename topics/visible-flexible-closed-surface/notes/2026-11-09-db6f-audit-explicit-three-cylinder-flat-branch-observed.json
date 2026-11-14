@@ -1,0 +1,31 @@
+{
+  "schema": "observed-subprocess-execution-v1",
+  "command_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-explicit-three-cylinder-flat-branch.py",
+    "--output",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch-receipt-replay.json"
+  ],
+  "working_directory": "/workspace/scratch/db6f0b0e7462/math-research",
+  "pid": 5,
+  "started_utc": "2026-11-09T21:14:13.274164+00:00",
+  "finished_utc": "2026-11-09T21:14:13.925510+00:00",
+  "wall_seconds": 0.6513271409930894,
+  "returncode": 0,
+  "stdout": "{\"output\": \"/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch-receipt-replay.json\", \"sha256\": \"4f69b9e47ec6cbe6e1eba678526420376519c99ef72839420b9da86613826807\", \"symbolic_identities\": 18, \"rational_gates\": 10, \"all_exact_checks_passed\": true, \"mesh_count\": 0}\n",
+  "stderr": "",
+  "frozen_sources_unchanged": true,
+  "replay_report_byte_equal_to_frozen": true,
+  "source_manifest": {
+    "path": "notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch-sources.json",
+    "bytes": 1662,
+    "sha256": "74678dd05a95794d857cd65b1d908f63de5bc6cd50677702bfe7db889910c1d7"
+  },
+  "replay_report": {
+    "path": "notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch-receipt-replay.json",
+    "bytes": 8766,
+    "sha256": "4f69b9e47ec6cbe6e1eba678526420376519c99ef72839420b9da86613826807"
+  },
+  "main_candidate_data_read": false,
+  "mesh_count": 0
+}

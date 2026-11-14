@@ -1,0 +1,69 @@
+{
+  "status": "PASS-BACKGROUND-SOURCE-GRID-PLAN-ONLY",
+  "scope": "Read-only invariants for the M15-quarter background endpoint-grid plan.\n\nNo background factory, angular root, RK, or numerical surface is evaluated.\nThis checks the closed source-x proposal and frozen code/input identities.\n",
+  "plan_process_observed_exit_code": 0,
+  "angular_root_calls": 0,
+  "RK_calls": 0,
+  "full_export_calls": 0,
+  "geometry_manifest_created": false,
+  "legacy_grid_functions_byte_identical": true,
+  "post_plan_map_code_identical_except_endpoint_setting": true,
+  "physical_parameter_keys_identical_to_M12": 27,
+  "background_construction_stats_bitwise_equal_to_M12": true,
+  "planned_stages": 576,
+  "planned_unique_nodes": 21031,
+  "changed_source_x_stages": [
+    15
+  ],
+  "endpoint_label": {
+    "stage": 15,
+    "rawCell": 0,
+    "rawSegment": 7,
+    "rawLeft": 0,
+    "rawRight": 0.125
+  },
+  "endpoint_width_scale": 0.08071321815181332,
+  "endpoint_ratio": 0.025,
+  "old_selected_nodes": 65,
+  "new_selected_nodes": 168,
+  "added_selected_nodes": 103,
+  "independent_selected_node_sha256": "ee7fc4853b6c8193a356bb3b379b612864bc4a29608d56208360b8adc3f7e58b",
+  "physical_map_scope": "Only source-x proposals are compared. New subdivision may change the exact global beta via numerical local integrals; post-plan exact-r normalization and any actual finite map have not run.",
+  "bound_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+      "bytes": 273159,
+      "sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-endpoint-grid-m15-quarter-p8-r0025-grid-plan.json",
+      "bytes": 408183,
+      "sha256": "0a028f17f2d0b7e310ff94205dd8ffd540d7f67532c85d6959b37593f469259e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+      "bytes": 115582,
+      "sha256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-grid-plan.json",
+      "bytes": 34219,
+      "sha256": "822f948a50bb3706746799b127618d4f940e1a60b56a1059eea0e79feaa18be8"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-endpoint-grid-plan.py",
+      "bytes": 8632,
+      "sha256": "2a588066783f911de66d81a59b27542557c80330b9dbd10a0b6175584dd195de"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-endpoint-critical-increment-export.mjs",
+      "bytes": 30944,
+      "sha256": "993dc6a180b917132d8284fae6c6366b45dddd883f9c09ab50b2b1dcf87f593b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-increment-export.mjs",
+      "bytes": 25539,
+      "sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175"
+    }
+  ]
+}

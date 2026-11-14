@@ -1,0 +1,75 @@
+{
+  "schema": "fd2d-closed-gap-branch-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-candidate.json",
+      "bytes": 33535,
+      "sha256": "15e550b62ecb747cf7e9a42de0924c12680269055b507c85b9a0ea7846eb34d2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-field.npz.gz",
+      "bytes": 1087831,
+      "sha256": "6c5ea4a56c18887c1b3c85b94558cc5bd8177c49d9637c4d50743d997a317021"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-polynomial.npz",
+      "bytes": 864837,
+      "sha256": "70184ce318fd069bdf334e69323df9beca2c9fe8e69d388573bf5ea391eb4395"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-progress.jsonl",
+      "bytes": 5242,
+      "sha256": "6e6e9c9039d16213cffa1fcd4664b9ad1ee93e84a2d32d2be5679aff97ffc1bf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-report.json",
+      "bytes": 23285,
+      "sha256": "e55130224333b95f142af86526f4bbb10db8e86965ba672b00653832d2482938"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-runtime.json",
+      "bytes": 573,
+      "sha256": "abf52a7068863182153d02c75b46325f923b99adb6b5f1becff33872405300d0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-resources.jsonl",
+      "bytes": 11176,
+      "sha256": "41555159408527905dd5e118d8c640f3dfad9caf34a4eeaa73d599be25fb78d1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-completion-receipt.json",
+      "bytes": 306,
+      "sha256": "fc86ed00c2d7fe31882230261980ade8fb77b56b6e16f0a59fea4800303505d8"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-accepted-0001.npz",
+      "bytes": 575381,
+      "sha256": "d7932ade859a9c74315df71f5431306d4b20bfe3ff9138edd2d4b542123e1e82",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-accepted-0002.npz",
+      "bytes": 654241,
+      "sha256": "2ebb7000b2c26953ff79a41380d32743e0cdc6a601734f91ef9940c6b03616ef",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream02-initial.npz",
+      "bytes": 190655,
+      "sha256": "c53e97d8edd762e77395fddeda91d495d672a453c437315fb844468696aa35f3",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 79197,
+    "completion_chunk": "52bcef",
+    "actual_exit_code": 0,
+    "solver_success": true,
+    "accepted_steps": 2,
+    "seconds": 87.69395406900003,
+    "maximum_rss_kib": 212272,
+    "scope": "95-dimensional actual finite nonlinear prefix; linear tail; changed outer T; not strong completion"
+  }
+}

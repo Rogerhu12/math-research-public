@@ -1,0 +1,102 @@
+{
+  "schema": "fd2d-frozen-static-recoverable-normal-partition-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_normal_tile_io.py",
+      "bytes": 2255,
+      "sha256": "2d0803b50f8b386bdc3c811aead20abab86a94aa08bcc5c3eb0bcbfd80e47c0b"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-normal-tile.py",
+      "bytes": 3268,
+      "sha256": "f2395f5dbf42af1ec8781dea633b4f24de0b75eefcebaa110ae8583badedce9d"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-normal-merge.py",
+      "bytes": 4134,
+      "sha256": "1458c7edb96a98eae4a6db4d29f1a19d6dd35895dc42316f1bf1b72c79e9f301"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-normal-plan.py",
+      "bytes": 1323,
+      "sha256": "4a2cdc67aea579a07a0704f8d5d513d87f8c7f30bb9fba152ca57a8bd82e4106"
+    },
+    {
+      "path": "scripts/fd2d-gc-run-normal-tiles.py",
+      "bytes": 4851,
+      "sha256": "3f03b7ba95cf8362c5f5a3bd7838b9b0ad5f1ebe9714ae6fdf6314b7f15f9890"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-direction-v2.py",
+      "bytes": 4526,
+      "sha256": "c221d6d1dde22f7a51a13a90b1cd0140ae4dfa4f7b26e59228ee6977d6d5f86c"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-trial.py",
+      "bytes": 7789,
+      "sha256": "366ed28451895de639ebc3a7c915be28ea4980c2ec091881fe7e0c4751513893"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-staged25-partition-protocol.md",
+      "bytes": 2920,
+      "sha256": "f9b7c74d28ba244867179274cd7d88b80cfa0801466541d3695cea06bd9cc2f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-tiles-actual-launch.json",
+      "bytes": 872,
+      "sha256": "8b3b1442b2401e1a871f2e0f170b6c0da7fd3fe485ed249d57662b221d09d0ba"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/normal-partition-plan.json",
+      "bytes": 44037,
+      "sha256": "76f86d08455ab74fc8efa32697beeaa3cf4425e30b68f343afdc6fa629751e31"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-report.json",
+      "bytes": 87179,
+      "sha256": "a9dfd75b71d80b4223b54c7888e999dce35abb1972503f76ffd5c633dc79eec8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt.json",
+      "bytes": 3309,
+      "sha256": "0aff296508e83d42cd5017550c1af085bdabc97d83d385072a1258da632fa278"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-progress.jsonl",
+      "bytes": 232,
+      "sha256": "0a65d564c22b233733819f90face9bb9e00b2f60859ab0098599301276967621"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt-samples.jsonl",
+      "bytes": 7871,
+      "sha256": "bbad2bed2f5395384e23b984c5d5af173a5585a5db95271613718d9374f9309c"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt-console.txt",
+      "bytes": 232,
+      "sha256": "0a65d564c22b233733819f90face9bb9e00b2f60859ab0098599301276967621"
+    }
+  ],
+  "inherited_helpers": [
+    {
+      "path": "scripts/fd2d_gc_partitioned_normal.py",
+      "bytes": 19548,
+      "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+    },
+    {
+      "path": "scripts/fd2d_gc_normal_checkpoint.py",
+      "bytes": 16976,
+      "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-closed-manifest.json",
+      "bytes": 6309,
+      "sha256": "619a7c6ce83d529a0bfa6ed5a978ecd2491cc632f7fd25d53c78b7481f2d0b7b"
+    }
+  ],
+  "active_controller_outputs_excluded": true,
+  "new_accepted_states": 0,
+  "finite_objective_changed": false,
+  "strong_target_complete": false
+}

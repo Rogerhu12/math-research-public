@@ -1,0 +1,157 @@
+{
+  "schema": "fd2d-closed-actual-short-prefix-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-candidate.json",
+      "bytes": 35026,
+      "sha256": "2a366e189c5d89cbb470450cd543dcd69314d1ff23adc02837a3b203b88d7fd9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-field.npz.gz",
+      "bytes": 1465844,
+      "sha256": "c5f99464869f59e3edbc84cba974e72c62b31acabeafc2332d0afacd48b3b492"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-polynomial.npz.gz",
+      "bytes": 1164288,
+      "sha256": "7bfdbc80f35bbb6a4ed03e0bf92a6a5226be221fd3fd04be8b695c9d8d977243"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-progress.jsonl",
+      "bytes": 9428,
+      "sha256": "5dc0ebc8bc4d011bdd235829e4c7b334993a9c50733d50792fff7a41e0713849"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-report.json",
+      "bytes": 23117,
+      "sha256": "64d4498c09fec424815b059a33425c038c9f19594355d973fc4c286d669ab839"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-runtime.json",
+      "bytes": 551,
+      "sha256": "7edaf55647fa8665dd48d26fbb24b363d4f6e70528c3041521e741bb1879b5ca"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-resources.jsonl",
+      "bytes": 7886,
+      "sha256": "1dacd1d1c603a9c5befd326bc906bcec797f6d9611a5ca7b0fb0ad81a8350472"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-completion-receipt.json",
+      "bytes": 2454,
+      "sha256": "f1ddf3466dd893ab045ed4f69f8264a5d452914da94c37cfbfdf2c34f9d39efe"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-accepted-0001.npz",
+      "bytes": 681572,
+      "sha256": "7784e241c05b20465b67674f82997402b3e54e718dae78d70ef932e5372b2964",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-accepted-0002.npz",
+      "bytes": 681676,
+      "sha256": "09092c48d45f2523eaf5814d9be8da7f9ed9e86dbc3178a4b13a0de91e64fa44",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-accepted-0003.npz",
+      "bytes": 681568,
+      "sha256": "227392c8434b9495ffdeec6ab9407203a0163a75e5d19b083e6bf0b0160d1e01",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-accepted-0004.npz",
+      "bytes": 681603,
+      "sha256": "2fd4fcd9dcefcf6fa54be221e4015fe9b6e8789f941ed71393ea26d179665b3b",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-accepted-0005.npz",
+      "bytes": 881331,
+      "sha256": "94b334ea1c3271b57c34db57a1a6c0872d78311593d4ea29a5410fe1bf51a6bb",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-02-initial.npz",
+      "bytes": 227686,
+      "sha256": "0efd785344bfebbfefeb1cc688cb29351cbd3c50a7d7061a1aff3bbeb638b149",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 87432,
+    "launch_chunk": "02a9e7",
+    "actual_tool_exit_code": null,
+    "tool_exit_status": "Unknown: final tool output was not observed before context compaction; subsequent poll returned Unknown process id. Do not infer exit 0 from files.",
+    "actual_solver_report": {
+      "success": true,
+      "status": 0,
+      "accepted_steps": 5,
+      "final_nodes": 393,
+      "seconds": 56.362081835000026,
+      "final": {
+        "T": 0.3587663037499098,
+        "A": 1.0142082058810316,
+        "B": 0.9942082058810315,
+        "gap": 0.02,
+        "gap_target": 0.02,
+        "boundary_maximum": 1.5959455978986625e-16,
+        "omitted_eta_mean": 0.0026631084853195037,
+        "omitted_n_mean": 0.0005306847187389665,
+        "all_cut_curvature_coefficients_maximum": 0.0005306847187389665,
+        "core_parameter_l1": 0.050699781258730404,
+        "maximum_worker_height": 0.0014840892047180445,
+        "minimum_n_grid": 0.13719636394438786,
+        "maximum_eta": 0.23274085856849425,
+        "maximum_zeta": 0.2869369652534259,
+        "minimum_radial_scale": 0.9906617738714915,
+        "tail": {
+          "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+          "minimum_n": 0.19895226703697047,
+          "maximum_m": 0.03565144431564863,
+          "nonlinear_tail_solved": false,
+          "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+        }
+      }
+    },
+    "observed_closed_runtime_phase": "body_completed",
+    "observed_wrapper_final_event": {
+      "event": "wrapper_exit",
+      "utc": "2026-11-12T08:45:44Z",
+      "seconds": 56.37447571599978,
+      "pid": 2,
+      "resources": {
+        "VmSize": "513300 kB",
+        "VmHWM": "265936 kB",
+        "VmRSS": "112396 kB",
+        "Threads": "1"
+      },
+      "maximum_rss_kib": 265936,
+      "streaming": {
+        "phase": "assembled",
+        "assembled": 2,
+        "nodes": 393,
+        "dimension": 95,
+        "interval": 392,
+        "intervals": 392,
+        "seconds": 26.82519464699999,
+        "entries": 7094384,
+        "bytes": 85282332
+      },
+      "newton": {
+        "calls": 2,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 5,
+        "no_step": 0,
+        "minimum_alpha": 1.0,
+        "factorizations": 2
+      }
+    },
+    "continuous_certificate": false,
+    "nonlinear_tail_solved": false,
+    "scope": "Finite 95-dimensional new physical short-cylinder prefix with full160 finite linear tail initializer only"
+  }
+}

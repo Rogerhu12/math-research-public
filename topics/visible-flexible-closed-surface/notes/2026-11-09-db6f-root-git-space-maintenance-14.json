@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-09T13:54:08.194402+00:00",
+  "status": "PASS-preserve-promisor-partitions-and-complete-object-ID-set",
+  "initial_and_final_objects": 108851,
+  "initial_and_final_sorted_oid_sha256": "e9fe2ea9c8e3a66e9a2a05aad8c510bafcad856e93601b5d8bc1829fad81c6f9",
+  "before": {
+    "available": 595177472,
+    "free": 4047925248,
+    "pack_bytes": 8379905284
+  },
+  "after": {
+    "available": 3750305792,
+    "free": 7203053568,
+    "pack_bytes": 5220591453
+  },
+  "new_partitions": [
+    {
+      "partition": "already_promisor_extras",
+      "objects": 16860,
+      "sorted_oid_sha256": "35c8fd84ffb64cd7b49ccdec3f15416fa175cc3a2c7a84447784a0ce0dae8cd9",
+      "pack": "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+      "bytes": 1108181319,
+      "promisor": true
+    },
+    {
+      "partition": "mixed_pack_unknown_local_objects",
+      "objects": 1671,
+      "sorted_oid_sha256": "85139232f447e7d15c974f21065e4368c1b6ba59229e72da77e2edcee6dffe65",
+      "pack": "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5.pack",
+      "bytes": 43924544,
+      "promisor": false
+    }
+  ],
+  "seconds": 7.127284288406372,
+  "objects_removed": false,
+  "refs_changed": false,
+  "research_files_removed": false,
+  "cruft_pack_preserved": true,
+  "method": "Copy already-promisor union outside original preferred base into a new promisor pack; copy 1671 mixed-pack objects not in that union into an ordinary pack; preserve original cruft pack; rebuild MIDX and expire only zero-selected duplicates. Full indexed object set verified before and after.",
+  "do_not_repeat": "Do not use cross-partition MIDX repack which drops promisor classification; use partition-aware git repack or exact conservative partition copies."
+}

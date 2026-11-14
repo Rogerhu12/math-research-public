@@ -1,0 +1,279 @@
+{
+  "status": "CLOSED_PACKET_SCALAR_COMPARISON_PASS",
+  "scope": "Closed matched-cut packets only. No root, flow, DN, BVP, active continuation03 read, or new candidate.",
+  "observed_tool_exit": {
+    "status": "observed-process-completed",
+    "observer": "/root",
+    "session_id": 5817,
+    "tool_receipt": "ff466f",
+    "actual_exit_code": 0
+  },
+  "closed_observed_file_count_rehashed": 15,
+  "original_121_binding_scope": "The binding document is hashed here; its whole 121-file closure was previously checked by root and the preparer reviews, not newly claimed as rehashed by this scalar comparison.",
+  "same_typed_config_and_source8": true,
+  "first": {
+    "request_jacobian": true,
+    "request_audit": false,
+    "response_keys": [
+      "audit",
+      "checkpoint",
+      "converged",
+      "heightJetJacobian",
+      "history",
+      "jets",
+      "residual"
+    ],
+    "converged": true,
+    "residual": 1.2533744091676813e-09,
+    "history_count": 1,
+    "first_history": {
+      "iteration": 0,
+      "norm": 1.2533744091676813e-09,
+      "minA": 0.10551506989602055,
+      "minD": 0.9916325655575039
+    },
+    "shape": {
+      "states": [
+        865,
+        30
+      ],
+      "rawStates": [
+        13,
+        30
+      ],
+      "heightJetJacobian": 705,
+      "jets_keys": 17
+    },
+    "returned_request_height_max_difference": 0.0
+  },
+  "second": {
+    "request_jacobian": true,
+    "request_audit": false,
+    "response_keys": [
+      "checkpoint",
+      "failed",
+      "lastIteration"
+    ],
+    "failed": "Error: multiple-shooting line search failed at 2489.354194334243",
+    "lastIteration": {
+      "iteration": 3,
+      "norm": 2489.354194334243,
+      "minA": 0.05044758616045935,
+      "minD": 0.9915002412989463,
+      "chartCondition": 39850.69351187304
+    },
+    "normal_converged_residual_history_fields_absent": true
+  },
+  "height_difference": {
+    "changed_components": 15,
+    "sign_changes": 0,
+    "max_absolute": 1.2709397064221634e-05,
+    "max_absolute_mode": 1,
+    "relative_l2": 0.015875052709737162,
+    "max_component_relative": 0.23770225974710935,
+    "max_component_relative_mode": 15,
+    "absolute_at_max_relative": 1.6654020638587972e-16,
+    "worker_uniform_ratio": 1.0158723931241456,
+    "higher_nonzero_counts": [
+      14,
+      14
+    ],
+    "original_linear_boundary_delta_max_abs": 1.0409765777442666e-06,
+    "original_linear_boundary_delta_max_mode": 2,
+    "only_scalar_formula_recomputed": true
+  },
+  "trace": {
+    "rows": 14,
+    "second_base_rows": [
+      {
+        "time": "2026-11-09T17:45:25.224Z",
+        "event": "iteration",
+        "call": 2,
+        "elapsed_ms": 163137,
+        "iteration": 0,
+        "norm": 2528.657869764615,
+        "minA": 0.0725169878140196,
+        "minD": 0.991500220486668
+      },
+      {
+        "time": "2026-11-09T17:49:20.425Z",
+        "event": "iteration",
+        "call": 2,
+        "elapsed_ms": 398338,
+        "iteration": 1,
+        "norm": 2508.914844855985,
+        "minA": 0.05822405326157375,
+        "minD": 0.9915002310126051
+      },
+      {
+        "time": "2026-11-09T17:53:09.304Z",
+        "event": "iteration",
+        "call": 2,
+        "elapsed_ms": 627217,
+        "iteration": 2,
+        "norm": 2499.1154926366553,
+        "minA": 0.05410478579729761,
+        "minD": 0.991500236170829
+      },
+      {
+        "time": "2026-11-09T17:56:40.153Z",
+        "event": "iteration",
+        "call": 2,
+        "elapsed_ms": 838066,
+        "iteration": 3,
+        "norm": 2489.354194334243,
+        "minA": 0.05044758616045935,
+        "minD": 0.9915002412989463
+      }
+    ],
+    "trials_rows": 36,
+    "accepted_steps": [
+      0.0078125,
+      0.00390625,
+      0.00390625
+    ],
+    "last_iteration_trial_count": 10,
+    "last_iteration_kinds": {
+      "momentum-root-solver-rejection": 10
+    },
+    "last_iteration_stages": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  "actual_prefix_status": {
+    "solver_success": false,
+    "tail_calls": 2,
+    "summary_seconds": 1194.7504980564117,
+    "successful_prefix_checkpoint_exists": false
+  },
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json",
+      "bytes": 39604,
+      "sha256": "5b184918f4c5a86f10189c5433cd447af4a822856a2fe569df4439e03efdeb21"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-reproduction.json",
+      "bytes": 40419,
+      "sha256": "ef9a3c058074fb17481dca0b933eee8a69f8f50089c1c8fd6919947e79ad2c3a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-run.log",
+      "bytes": 418,
+      "sha256": "04560403ec060730ca7b572edd5e9e6fa2454269478b55a610f02aeba2abea8a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-summary.json",
+      "bytes": 936,
+      "sha256": "9240a92a79ecdd2f3090597a9084f1723bd95129e4be9f71cd26b42aa753a613"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-config.json",
+      "bytes": 3213,
+      "sha256": "811278d87f3a0f3f489c2141aae867787ea0d791488ba3ccf223bbaaaa80ca1b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-iteration.json.gz",
+      "bytes": 262521,
+      "sha256": "fb1cb3a81f65ae97daf00a2d11ae58a495131bae6e054daa19ce932a16efff4c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-trace.jsonl",
+      "bytes": 3301,
+      "sha256": "6d4be873c89a4636cddbcc38dd0a2be7bc4ec16feec54036cfb3a5919a6e8477"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-trials.jsonl",
+      "bytes": 20277,
+      "sha256": "8f97397cc10be65da720ff20f0befe92ac957b4d270d0ecb50596e49c7d870e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+      "bytes": 272279,
+      "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0002.json.gz",
+      "bytes": 266623,
+      "sha256": "44088a6fce132438771fb83267754f32e8d12043379b8f83c1977eccaad0d1de"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-child-execution-01.json",
+      "bytes": 1331,
+      "sha256": "b6b32393f21b761c47caa09d93b069e02090e7e82fd0c5447218a8a8e2dcdd1a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-guarded-launch-01.json",
+      "bytes": 40542,
+      "sha256": "eeb885a6382575888ed095a455aa2a99bf06b582d6758fd1d1c2a8d0de5b45c4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-input-adoption.json",
+      "bytes": 39765,
+      "sha256": "4fb2c524edf09abdfc6bd3532d0dc55bd12cb56b72fed4fedbbff7b176a2c19d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-observed-execution-01.json",
+      "bytes": 6034,
+      "sha256": "1f7a7290c5c65a9f73531cd0edddf8f15b0290477be7d0b74eff9a3d5ba57334"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-started-01.json",
+      "bytes": 1076,
+      "sha256": "1a3513776a36bdcfa2522b821490f999b873209e66a1836b8798ff4031f57600"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "bytes": 3312,
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-matched-cut-dn-request-compare.py",
+      "bytes": 9507,
+      "sha256": "90797d13186e2fe53c8fed1e7fe9d58e6799c9a1b70d33921b46ba3a44e7d45b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py",
+      "bytes": 3711,
+      "sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs",
+      "bytes": 17134,
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-split.mjs",
+      "bytes": 1952,
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs",
+      "bytes": 9280,
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+      "bytes": 6899,
+      "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd"
+    }
+  ]
+}

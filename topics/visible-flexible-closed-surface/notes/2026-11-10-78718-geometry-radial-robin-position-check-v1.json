@@ -1,0 +1,60 @@
+{
+  "scope": "Floating numerical cross-check only; no rigorous spectral gap or current nonradial inverse.",
+  "profile_samples": 1002,
+  "profile_max_abs_difference": 4.440892098500626e-16,
+  "position_equation": "f_s=-[(n^2-1)c f+n^2v h]/a; h_s=[(n^2-1)c^2f/v+n^2c h]/a",
+  "common_interface_map": "(X,Y) is proportional to (n*h,-f)",
+  "rows": [
+    {
+      "mode": 3,
+      "physical_position_abs_line_wronskian": 0.0026772518247396015,
+      "difference_from_projective_scan": 1.315354075659414e-14
+    },
+    {
+      "mode": 39,
+      "physical_position_abs_line_wronskian": 0.9995157537434207,
+      "difference_from_projective_scan": 8.815170815523743e-14
+    },
+    {
+      "mode": 42,
+      "physical_position_abs_line_wronskian": 0.8413447895434538,
+      "difference_from_projective_scan": 1.6007195569045507e-12
+    },
+    {
+      "mode": 45,
+      "physical_position_abs_line_wronskian": 0.4668954630945061,
+      "difference_from_projective_scan": 3.931910352861223e-12
+    }
+  ],
+  "maximum_projective_position_difference": 3.931910352861223e-12,
+  "sources": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-radial-robin-position-check-v1.py",
+      "bytes": 4723,
+      "sha256": "2e87aa7d0f5d1bae4cf05aec5c5fbde4288c9eef220f1eef5bb704d4d0aed4ef"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-radial-robin-scan-v1.py",
+      "bytes": 9468,
+      "sha256": "b3baa2244e6547f9f72b98e61d51f4fc3a51bbc2f191f65324e9b145f47eb863"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "bytes": 6004,
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "bytes": 5581,
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "path": "notes/2026-11-10-78718-geometry-radial-robin-scan-v1.json",
+      "bytes": 18339,
+      "sha256": "7ef8dafb7ae5ff029919fdf25b37c9964456ad084da0e86c7d0086ef5d4fef5d"
+    }
+  ],
+  "tail_requests": 0,
+  "nonlinear_pde_runs": 0,
+  "candidate_arrays_read": 0
+}

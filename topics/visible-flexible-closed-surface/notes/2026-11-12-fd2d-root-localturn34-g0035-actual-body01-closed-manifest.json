@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-native-field.json",
+      "bytes": 15365,
+      "sha256": "72dd4b18d6f54a97a336671a191c6e91e6046d83de100f1ed5fd09e10713b136"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-nodes.npz.gz",
+      "bytes": 1984654,
+      "sha256": "395e67817d45e31e1bd6a6b340f5b37c47088b368bfa1ebc94d32fb95deb42f2",
+      "lossless_original": {
+        "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-nodes.npz",
+        "bytes": 2004698,
+        "sha256": "f77bae1b7fc5f2e28c888f8346cb36fb7bcdff8a601dcc32e167406da3894512"
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-progress.jsonl",
+      "bytes": 163366,
+      "sha256": "deb4ee473aa79e72157ea2acfb80f0ee7fa7f78d1280b3ecac3f3555d661fc6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-report.json",
+      "bytes": 4807,
+      "sha256": "7394ea382ce205837b328c4b72afe65d5ae5ecf40584080c13e087c0f0c9b4d9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-runtime.json",
+      "bytes": 323,
+      "sha256": "17817ebdc04e6f598905d7ff1b8f7dfb75628598521acde7fb21ffdd0dad388f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g0035-actual-body01-completion-receipt.json",
+      "bytes": 584,
+      "sha256": "fbaf6524e89d39e08e4958e9830946bb083e3b3c3feb9b7fd01a6d2839034727"
+    }
+  ],
+  "completion": {
+    "session_id": 41676,
+    "completion_chunk": "09fc02",
+    "actual_exit_code": 0,
+    "seconds": 496.9263306740004,
+    "actual_metric_sample_maximum": 5.431697820609237e-05,
+    "actual_curvature_sample_maximum": 7.055703107062431,
+    "scope": "Actual fixed-material body of the completed .035 slower-turn prefix, 32 angles, all spans. Early-turn sampled peak drops to 5.8102781, and the new global sampled peak is in the later brake. Metric still fails 1e-6; sampled curvature is below the selected absolute 1/.136 budget. Neither fact is a continuous certificate. Tail remains linear."
+  }
+}

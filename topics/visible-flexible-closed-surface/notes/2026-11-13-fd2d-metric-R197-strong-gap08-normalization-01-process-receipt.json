@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-real-process-receipt-v1",
+  "argv": [
+    "node",
+    "/tmp/fd2d-metric-store-recovery-20261113/fd2d-R197-strong-gap08-normalization-check.cjs",
+    "--input",
+    "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-input.json",
+    "--checkpoint",
+    "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-R196-strong-gap08-branch-00.json",
+    "--out",
+    "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-report.json"
+  ],
+  "runtime": "Node subprocess launched by Python",
+  "started_unix": 1794529278.9206538,
+  "seconds": 1.936046838760376,
+  "exit_code": 0,
+  "stdout": "2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stdout.txt",
+  "stderr": "2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stderr.txt"
+}

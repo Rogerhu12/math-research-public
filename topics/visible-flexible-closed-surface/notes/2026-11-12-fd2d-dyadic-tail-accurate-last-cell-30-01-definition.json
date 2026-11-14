@@ -1,0 +1,206 @@
+{
+  "schema": "fd2d-R170-accurate-last-P1-cell-physical-tail-v1",
+  "inputs": {
+    "field_arrays": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+      "bytes": 133735,
+      "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+    },
+    "profile_packet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+      "bytes": 381917,
+      "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+    },
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_accurate_last_cell.py",
+      "bytes": 8240,
+      "sha256": "30401b51b3346405ba36544d17aadee8c1d389a26da4e506e799305ec37cb19f"
+    }
+  },
+  "physical_target_binding": "5994cdb58d4d09a98e01dbd313b34480ed2eb89ced9a293c7d593d45ed276f7b",
+  "saved_last_left": [
+    "6698420701823855",
+    "4503599627370496"
+  ],
+  "saved_endpoint_label": [
+    "1676434762804583",
+    "1125899906842624"
+  ],
+  "accurate_endpoint": {
+    "lower_binary": [
+      "2693926799068983009599668889973212808561885364892825513989211860043082510757",
+      -250
+    ],
+    "upper_binary": [
+      "2693926799068983009599668889973686279431756556377767851663376363331056841125",
+      -250
+    ],
+    "lower_display": 1.48897317835813,
+    "upper_display": 1.48897317835813
+  },
+  "accurate_last_width": {
+    "lower_binary": [
+      "2940033515793357224428063235227730880013399497884670734176019165134729637",
+      -250
+    ],
+    "upper_binary": [
+      "2940033515793357224428063235701201749884590982827008408340522453109060005",
+      -250
+    ],
+    "lower_display": 0.001625000000001175,
+    "upper_display": 0.001625000000001175
+  },
+  "accurate_minus_saved_endpoint": {
+    "lower_binary": [
+      "2148197134075819855372057145759069760076098703579405283504549",
+      -250
+    ],
+    "upper_binary": [
+      "2148197134075820328842927016950554702413772868082693257834917",
+      -250
+    ],
+    "lower_display": 1.1873403225247744e-15,
+    "upper_display": 1.1873403225247746e-15
+  },
+  "coordinate": "s=b+(S-b)*t; sigma=b+(E-b)*t; 0<=t<=1",
+  "raw": "same saved last-cell Fourier coefficients, affine in t",
+  "tail_weight": "original clipped S5((sigma-weight_start)/weight_length)",
+  "weight_start": [
+    "5632820803023399",
+    "9007199254740992"
+  ],
+  "weight_length": [
+    "7778657299413265",
+    "9007199254740992"
+  ],
+  "tail_geometry": {
+    "cut_radius": "4/5",
+    "flat_radius": "17/50",
+    "width": "23/50",
+    "controls": "actual sixteen exact binary64 rationals in the R170 eight-piece local Bernstein domain"
+  },
+  "full_affine": "raw(sigma,u)+eta(sigma)*T(a_accurate(s),u)",
+  "terminal": "R155 positive trace using K_accurate(s); trace weight exactly one",
+  "identity_chart_on_entire_completed_cell": true,
+  "seed_coast_and_bumps_zero": true,
+  "old_array_bytes_changed": false,
+  "old_field_equal_on_completed_cell_claimed": false,
+  "physical_target_g_changed": false,
+  "old_finite_F_or_body_transferred": false,
+  "cut_radial_II_jets_assigned": false,
+  "whole_surface_certificate": false,
+  "tail_search_domain_kind": "degree15_eight_dyadic_Bernstein_box",
+  "tail_search_domain_definition": {
+    "basis_tag_is_not_global_control_box": true,
+    "central_and_profile_domain_predicates_unchanged": true,
+    "control_box": {
+      "degree": 15,
+      "exact_lower": "0",
+      "exact_upper": "6/5",
+      "floating_matrix_vector_product_claimed_exact": false,
+      "interval_endpoints_exact": [
+        "0",
+        "1/8",
+        "1/4",
+        "3/8",
+        "1/2",
+        "5/8",
+        "3/4",
+        "7/8",
+        "1"
+      ],
+      "matrix_entries_exact_in_binary64": true,
+      "numerator_denominator": "35184372088832",
+      "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+      "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+      "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+      "parts": 8,
+      "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+      "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+      "selected_sufficient_domain_not_necessary_function_range": true,
+      "shape": [
+        128,
+        16
+      ]
+    },
+    "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+    "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+    "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+    "inherited_polynomial_basis_tag": "positive_bernstein",
+    "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+    "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+    "old_parameter_domain_global_tail_min_max_replaced": true,
+    "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+    "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+    "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+    "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+    "tail_parameter_count": 16
+  },
+  "tail_search_domain_certificate": {
+    "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+    "passed": true,
+    "exact_arithmetic": true,
+    "controls_interpreted_as_exact_values": true,
+    "degree": 15,
+    "parts": 8,
+    "rows": 128,
+    "local_lower_exact": "228260934878538348367554125/9903520314283042199192993792",
+    "local_upper_exact": "5009343682113593/4503599627370496",
+    "minimum_lower_slack_exact": "228260934878538348367554125/9903520314283042199192993792",
+    "minimum_upper_slack_exact": "1974879353655011/22517998136852480",
+    "global_lower_exact": "-1636568526628865/1125899906842624",
+    "global_upper_exact": "2972162213055471/2251799813685248",
+    "global_control_box_passed": false,
+    "global_negative_indices": [
+      1,
+      3,
+      6,
+      9,
+      11,
+      13
+    ],
+    "violated_rows": []
+  },
+  "parent_formula_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_accurate_last_cell.py",
+    "bytes": 12120,
+    "sha256": "8c8b8fefd5a3d459833e2b20b472710c54aebbf3ed00028e9740ef0843f6f435"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_accurate_last_cell.py",
+      "bytes": 8240,
+      "sha256": "30401b51b3346405ba36544d17aadee8c1d389a26da4e506e799305ec37cb19f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_accurate_last_cell.py",
+      "bytes": 12120,
+      "sha256": "8c8b8fefd5a3d459833e2b20b472710c54aebbf3ed00028e9740ef0843f6f435"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_dyadic_bernstein_tail.py",
+      "bytes": 14784,
+      "sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_problem.py",
+      "bytes": 8554,
+      "sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_arb_profile.py",
+      "bytes": 32315,
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_terminal_angular_majorant.py",
+      "bytes": 10688,
+      "sha256": "0b24400ff37d224963fd45b1290c0801bcbd896b5b70cd1a245e1613326dd6a7"
+    }
+  ],
+  "legacy_constructor_or_global_control_guard_invoked": false,
+  "inherited_full_polynomial_interval_methods_unchanged": true,
+  "radial_II_jets_at_cut_assigned": false,
+  "R174_angular_majorant_method": "angular_majorant(); conditional true-body remainder needs actual initial norms",
+  "binding_sha256": "d63f083a4209b4105242fea76e00704d6ab9b774ce41062c63d6d91005d5c671"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "stop-requested-but-process-completed-before-session-observation",
+  "script": "scripts/db6f-audit-background-metric-budget.py",
+  "script_sha256": "ef5a9d04d0fe9687a5704683a2dbef65f8870c2fda503933ad05e4738519f0d3",
+  "manifest": "notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+  "packet": "notes/2026-11-09-db6f-audit-transfer-tight-m12.json",
+  "pid": 283467,
+  "rss_kib_before_stop": 1068600,
+  "reason": "During shared-memory pressure a stop was requested for this own diagnostic. The subsequent exec session observation returned exit code 0 and the complete bound report exists; the original no-result interruption description is superseded.",
+  "completed": true,
+  "final_report": "2026-11-09-db6f-audit-background-metric-budget-m12.json"
+}

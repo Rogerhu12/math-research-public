@@ -1,0 +1,202 @@
+{
+  "schema": "fd2d-fifth-outage-R197-thin-R201-original-identities-recovery-v1",
+  "date": "2026-11-13",
+  "status": "The following original files were closed and tested before the fifth executor outage; their original bytes were not available to this recovery writer. This recovery JSON is newly serialized and has its own identity. No unknown child exit is filled in. No new optimizer or BVP run is claimed.",
+  "local_root": "/tmp/fd2d-metric-store-recovery-20261113",
+  "repository_topic": "topics/visible-flexible-closed-surface",
+  "groups": [
+    {
+      "group": "R197 portable chart reader and safe tangent composition",
+      "original_manifest": {
+        "path": "2026-11-13-fd2d-metric-R197-portable-safe-composition-closed-manifest.json",
+        "bytes": 4170,
+        "sha256": "4553ee18fab632f877d1d30a8a1f6be4e12ad3b9cb3ba1eeb82c3f3539b9d373"
+      },
+      "artifacts": [
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d_R197_portable_chart_reader.cjs",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R197_portable_chart_reader.cjs",
+          "bytes": 6334,
+          "sha256": "8541b0ac8f99f9f08d2b2f0307fc290204b95a0c2f2d2ff4245aad2e656fd193",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d_R197_safe_tangent_composition.cjs",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R197_safe_tangent_composition.cjs",
+          "bytes": 8206,
+          "sha256": "c5a7178fdc58d056574628ebb98ad524415ca7e2285acac84010e1cb3808b3f3",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d-R197-safe-composition-check.cjs",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-R197-safe-composition-check.cjs",
+          "bytes": 5642,
+          "sha256": "357b04e6f91027a3992d212352b51845efec4f87cb74168121aefa8498098c7c",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d-R197-safe-composition-independent-check.py",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-R197-safe-composition-independent-check.py",
+          "bytes": 2705,
+          "sha256": "946dbd99bf79a78ce1a16f8164b14e49b6858a91cd3f22bf9dde7bc5082ab910",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-safe-composition-01-report.json",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-safe-composition-01-report.json",
+          "bytes": 57847,
+          "sha256": "57dd87ac2a272841b5682b34264bcdfc502d6fefd2dc523c1ddc0e680206ef15",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-safe-composition-independent-01-report.json",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-safe-composition-independent-01-report.json",
+          "bytes": 6707,
+          "sha256": "5e6d6ce8adbd3edf09eb5609066c619c32a764cae618ab59025cdb6da83eaafd",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-safe-composition-process-receipt.json",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-safe-composition-process-receipt.json",
+          "bytes": 541,
+          "sha256": "04eda125652d134b19b05464fe1916bcff7d5891d4c9119f207bc652ad75fbfe",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-portable-safe-composition.md",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-portable-safe-composition.md",
+          "bytes": 7963,
+          "sha256": "d355fb88f4e397a281069f5aee5425660d9ce46c6e39fa69e43d989cf39eede6",
+          "bytes_restored_by_this_record": false
+        }
+      ],
+      "actual_executions": [
+        {
+          "kind": "Node finite and interval implementation check",
+          "session": 88063,
+          "chunk": "f62b56",
+          "exit_code": 0,
+          "seconds": 42.095404616,
+          "saved_theta_evaluations_bitwise_equal": 7,
+          "physical_jet_overlap_checks": 12,
+          "fixture": "small saved-axis seed; b=pi*(1-S5(s)), P=s*sin(2u)/10, W=s^2*sin(4u)/20; point s=1/3,u=pi/8, box s=[999/3000,1001/3000], normalized u=[7/30,1/4]",
+          "claimed_scope": "portable exact chart plus explicit fixture; not the main strong BVP field"
+        },
+        {
+          "kind": "independent 90-digit Python check",
+          "session": 37633,
+          "chunk": "f7305c",
+          "exit_code": 0,
+          "seconds": 248.30569767951965,
+          "values_contained": 27,
+          "note": "The last polling call included Ctrl-C but returned a previously completed natural exit 0; no owner termination is claimed."
+        }
+      ],
+      "upstream_portable": {
+        "path": "notes/2026-11-12-fd2d-metric-R197-material-chart-portable-32cells.json",
+        "bytes": 879135,
+        "sha256": "39aad4ebdbc35fe843eef7df35bbd3f9a29450f1fb2bd6d1d547a98a1771f65f",
+        "published_commit": "38deca30e2a307fa73211d7c5054bdc694d443a8"
+      },
+      "unpaid": "No main-state whole-body certificate and no parameter-column API in this thin composition layer."
+    },
+    {
+      "group": "R201 half-period phase prototype",
+      "original_manifest": {
+        "path": "2026-11-13-fd2d-metric-R201-half-period-phase-closed-manifest.json",
+        "bytes": 3462,
+        "sha256": "c437d0df3ab998a15b39c8fdf3e13b8765135463d27a71f5520c9c7cacee9ed4"
+      },
+      "artifacts": [
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/R201-half-period-mean-phase-closure-without-reflection.md",
+          "repository_path": "topics/visible-flexible-closed-surface/results/R201-half-period-mean-phase-closure-without-reflection.md",
+          "bytes": 10925,
+          "sha256": "ee7d5f59a40b29413895e33d4afe1fd17f0373a074f8554faa54b80dc3fe5f34",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d_R201_half_period_phase_provider.cjs",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R201_half_period_phase_provider.cjs",
+          "bytes": 9630,
+          "sha256": "e75bf1e40d330a2fab9eb4074f38f056aed90c8194fceb05dc13274c0acb8477",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d-R201-half-period-phase-check.cjs",
+          "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-R201-half-period-phase-check.cjs",
+          "bytes": 6797,
+          "sha256": "fedc5e529b88503aaa6acff71f1e5e1c36bc8af5503ad20ba59624c7358a7524",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R201-half-period-phase.md",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R201-half-period-phase.md",
+          "bytes": 4650,
+          "sha256": "77078fb9570bf29459e894b565b457bd998b410fdbc1a069044e3825ad35bf42",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R201-half-period-phase-01-report.json",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R201-half-period-phase-01-report.json",
+          "bytes": 9930,
+          "sha256": "5250c803e8c299d7efb7480384f1d7d7194c982f75f4fe69275ab41113ebffe4",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R201-half-period-phase-01-process-receipt.json",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R201-half-period-phase-01-process-receipt.json",
+          "bytes": 255,
+          "sha256": "824059a90050de82d3792311d2a4a981c8b4ae1775d0e7e548ffc4b5d0333945",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R201-half-period-phase-01-stdout.txt",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R201-half-period-phase-01-stdout.txt",
+          "bytes": 765,
+          "sha256": "5ecc9a31f173ec81388d6ff57ed7f1a7c6aabb19a06ea773d07426e282e775d9",
+          "bytes_restored_by_this_record": false
+        },
+        {
+          "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R201-half-period-phase-01-stderr.txt",
+          "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R201-half-period-phase-01-stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes_restored_by_this_record": false
+        }
+      ],
+      "actual_execution": {
+        "session": 2054,
+        "chunk": "e87705",
+        "exit_code": 0,
+        "outer_seconds": 1.6820590496063232,
+        "internal_seconds": 1.47349108,
+        "unit_error_max": 6.661338147750939e-16,
+        "full_half_period_jet_and_parameter_relation_max": 1.5987211554602254e-14,
+        "reflection_violation": 0.2053146441947865,
+        "constant_psi_gauge_column_max": 1.3954458825027955e-14,
+        "constant_theta_column_norm_max": 15.039857856008723,
+        "cut_twojet_difference": 0,
+        "old_odd_injection_difference": 1.1102230246251565e-16,
+        "all_seven_parameter_twojet_centered_difference_relative_max": 1.0389522530480554e-10,
+        "phase_parameter_relative_max": 1.7006292991835495e-10,
+        "physical_Ts_centered_difference_relative": 6.323059939147138e-13,
+        "physical_Tss_centered_difference_relative": 2.7030854900209223e-9,
+        "primitive_parameter_direction_relative": 2.196674915315724e-11,
+        "independent_full_mean_rounded_summary": [
+          1.9890773e-15,
+          -7.4072692e-16,
+          -2.0832945e-16
+        ]
+      },
+      "unpaid": "Finite implementation check only. Actual R196 new-layout adapter, old-normal comparison, actual new-column JVP, and a genuine new-freedom LM step remain separate ongoing tasks."
+    }
+  ],
+  "recovery_proof": {
+    "repository_path": "topics/visible-flexible-closed-surface/results/R201-half-period-mean-phase-closure-without-reflection.md",
+    "bytes": 12995,
+    "sha256": "31e762568abe57518ba4fcfd61e7b296864d16c387897d5e262e71c50628bba9",
+    "commit": "da4ceac23c0af7b8b6168d73e9a38b4fb062d727",
+    "same_original_bytes": false
+  }
+}

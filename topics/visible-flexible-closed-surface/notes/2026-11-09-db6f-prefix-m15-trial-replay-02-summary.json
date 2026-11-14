@@ -1,0 +1,18 @@
+{
+  "scope": "Actual finite DN replay only; no coupled prefix or infinite-tail claim.",
+  "converged": false,
+  "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 6.60078222010092', 'residual': None, 'lastIteration': {'iteration': 0, 'norm': 6.60078222010092, 'minA': 0.08211879278547045, 'minD': 0.9915015285901698, 'chartCondition': 39850.69351187304}}\")",
+  "response_failed": "Error: multiple-shooting line search failed at 6.60078222010092",
+  "residual": null,
+  "last_iteration": {
+    "iteration": 0,
+    "norm": 6.60078222010092,
+    "minA": 0.08211879278547045,
+    "minD": 0.9915015285901698,
+    "chartCondition": 39850.69351187304
+  },
+  "seconds": 334.3424220085144,
+  "actual_worker_exit_code": 0,
+  "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02_tail_0001.json.gz",
+  "response_record_sha256": "0da47ff8a09e3a00a5ec51575a046b5f9c06fb65921a70e1fbdad73128b1cd1e"
+}

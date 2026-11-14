@@ -1,0 +1,358 @@
+{
+  "schema": "db6f-unexecuted-direct-csc-full-entry-source-transforms-v1",
+  "status": "SOURCE_TEXT_SAVED_V8_REPLAY_ONLY_NOT_PYTHON_NOT_RUNTIME",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+      "commit": "a804d0121309ac33ed4f1c3ee88c0a7586d7a47b",
+      "bytes": 20547,
+      "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b",
+      "blob": "25d9e33b56c27c10fce0b33e3259dc4d4b272504",
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-direct-csc.py",
+      "commit": "9af49bff30bae6307ff15167f918e3b40e2406db",
+      "bytes": 14009,
+      "sha256": "e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49",
+      "blob": "b80d31ec94d295cadd2d00a4839aa3a1afa1a231",
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-direct-csc.py",
+      "commit": "4682653bd3f69028709959d5667ffa47f0003204",
+      "bytes": 24690,
+      "sha256": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+      "blob": "05424747517e97e7f6b4a5368d9f809312ad6f65",
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-direct-csc.py",
+      "commit": "d01c9ae6e672ca7ad04755ea087a3564177d1bb3",
+      "bytes": 13103,
+      "sha256": "2e843363c57aee7d96b3359fc0735604f9c0fdbafce8ad4adb2feb421d4f3116",
+      "blob": "fcc88cd81da8d0e1d9b87b1842878457315f7dc7",
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+      "commit": "82ddbdffef930266a5aadb52bcbc24a513a01897",
+      "bytes": 31225,
+      "sha256": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0",
+      "blob": "024b3f6cb4889c6f06d63fc33e05f9b931ef9f3d",
+      "readback_exact": true
+    }
+  ],
+  "transformations": [
+    {
+      "component": "runner",
+      "original": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-release-lu.py",
+        "bytes": 20496,
+        "sha256": "2db1fe8b9171c3d9a7a4ac0d11311cff8daec1aa36bb8cd91130148903070ed0"
+      },
+      "new": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-direct-csc.py",
+        "commit": "4682653bd3f69028709959d5667ffa47f0003204",
+        "bytes": 24690,
+        "sha256": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+        "blob": "05424747517e97e7f6b4a5368d9f809312ad6f65",
+        "readback_exact": true
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"Explicit LU-lifetime variant of the actual-DN M14 W14 runner.",
+          "after": "\"\"\"Explicit direct-CSC / release-LU variant of the actual-DN M14 W14 runner.",
+          "count": 1
+        },
+        {
+          "before": "M = 14\n",
+          "after": "CSC_SELECTOR = HERE / 'db6f-prefix-select-direct-csc.py'\nCSC_SELECTOR_SHA = 'e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49'\nCSC_GATES = HERE / 'db6f-prefix-direct-csc-entry-gates.py'\nCSC_GATES_SHA = 'd110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b'\nCSC_FOUNDATION = HERE / 'db6f-prefix-direct-csc-foundation-v2.py'\nCSC_HERITAGE = {\n    HERE/'db6f-prefix-spectral-true-m14-release-lu.py':\n        '2db1fe8b9171c3d9a7a4ac0d11311cff8daec1aa36bb8cd91130148903070ed0',\n    HERE/'db6f-prefix-prepare-spectral-true-m14-release-lu.py':\n        '2018226a193294d7791492ec44d595e19ae004079ae717eb5557db249a21949c',\n    HERE/'db6f-prefix-audit-spectral-true-m14-release-lu.py':\n        'ee0d6aeadc4cfbe25ef4788581cebf81d5a50cfdb77b9a47f83d9d6df3071989',\n}\nM = 14\n",
+          "count": 1
+        },
+        {
+          "before": "SCOPE = ('Original finite M14/N512 true-DN equations and W14 coordinates, with '\n         'explicit one-statement LU-lifetime Newton identity; no closed-surface '\n         'or exact-limit conclusion and no assumed memory improvement.')",
+          "after": "SCOPE = ('Original finite M14/N512 true-DN equations and W14 coordinates, with '\n         'the reviewed release-LU Newton and explicit direct canonical CSC prepare identity; '\n         'actual source/integer and small byte tests are prerequisites, not solver success. '\n         'No closed-surface or exact-limit conclusion and no memory guarantee.')",
+          "count": 1
+        },
+        {
+          "before": "    'newton_lifetime_runtime_check': (LIFETIME_SELECTOR,'Selection.check'),\n",
+          "after": "    'newton_lifetime_runtime_check': (LIFETIME_SELECTOR,'Selection.check'),\n    'csc_select': (CSC_SELECTOR,'select_prepare_sys'),\n    'csc_runtime_check': (CSC_SELECTOR,'Selection.check'),\n    'csc_runtime_restore': (CSC_SELECTOR,'Selection.restore'),\n",
+          "count": 1
+        },
+        {
+          "before": "db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+          "after": "db6f-prefix-prepare-spectral-true-m14-direct-csc.py",
+          "count": 2
+        },
+        {
+          "before": "db6f-prefix-audit-spectral-true-m14-release-lu.py",
+          "after": "db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+          "count": 3
+        },
+        {
+          "before": "    HERE/'db6f-prefix-prepare-spectral-true-m14-direct-csc.py':\n        '2018226a",
+          "after": "    HERE/'db6f-prefix-prepare-spectral-true-m14-release-lu.py':\n        '2018226a",
+          "count": 1
+        },
+        {
+          "before": "    HERE/'db6f-prefix-audit-spectral-true-m14-direct-csc.py':\n        'ee0d6aea",
+          "after": "    HERE/'db6f-prefix-audit-spectral-true-m14-release-lu.py':\n        'ee0d6aea",
+          "count": 1
+        },
+        {
+          "before": "db6f-spectral-true-m14q512-release-lu-v1",
+          "after": "db6f-spectral-true-m14q512-direct-csc-v1",
+          "count": 1
+        },
+        {
+          "before": "              LIFETIME_SELECTOR, LIFETIME_NEWTON, ORIGINAL_ENTRY):",
+          "after": "              LIFETIME_SELECTOR, LIFETIME_NEWTON, ORIGINAL_ENTRY,\n              CSC_SELECTOR, CSC_GATES, CSC_FOUNDATION, *CSC_HERITAGE):",
+          "count": 1
+        },
+        {
+          "before": "    equal(by_path.get(config_path), launch['tail_config'], 'New config is not bound')",
+          "after": "    require(identity(CSC_SELECTOR)['sha256'] == CSC_SELECTOR_SHA\n            and identity(CSC_GATES)['sha256'] == CSC_GATES_SHA, 'Frozen CSC selection/gate changed')\n    for path, expected_sha in CSC_HERITAGE.items():\n        require(identity(path)['sha256'] == expected_sha, 'Historical release-LU entry changed')\n    gate = module('direct_csc_pure_prerequisite_gate', CSC_GATES)\n    prerequisites = gate.verify_prerequisites(launch['csc_prerequisites'])\n    for row in prerequisites['bindings']:\n        equal(by_path.get(Path(row['path'])), row, 'CSC prerequisite/source was omitted')\n    selector = module('direct_csc_pure_selection_definitions', CSC_SELECTOR)\n    equal(launch['csc_selection_definitions'], selector.definition_identity(),\n          'Explicit CSC source identities differ')\n    equal(by_path.get(config_path), launch['tail_config'], 'New config is not bound')",
+          "count": 1
+        },
+        {
+          "before": "            'config': cfg, 'out': out, 'launch': launch, 'bindings': by_path}",
+          "after": "            'config': cfg, 'out': out, 'launch': launch, 'bindings': by_path,\n            'csc_prerequisites': prerequisites}",
+          "count": 1
+        },
+        {
+          "before": "\ndef runtime_callbacks(fun, bc, kwargs, context):",
+          "after": "\ndef runtime_csc(context):\n    selection = context.get('csc_selection')\n    require(selection is not None, 'Explicit direct-CSC selection was not made')\n    h.check_callback(type(selection).check, context['launch']['callbacks']['csc_runtime_check'])\n    record = selection.check()\n    equal(record['definitions'], context['launch']['csc_selection_definitions'],\n          'Runtime CSC source identity differs')\n    equal(record['prerequisite_inputs'], context['csc_prerequisites']['inputs'],\n          'Runtime CSC prerequisite identity differs')\n    return record\n\n\ndef select_runtime_csc(context, spectral):\n    \"\"\"After original install and explicit release-LU selection; before any BVP.\"\"\"\n    require('csc_selection' not in context, 'Repeated direct-CSC selection')\n    import scipy.integrate._bvp as scipy_bvp\n    selector = module('spectral_true_explicit_direct_csc_selector', CSC_SELECTOR)\n    h.check_callback(selector.select_prepare_sys, context['launch']['callbacks']['csc_select'])\n    context['csc_selection'] = selector.select_prepare_sys(\n        scipy_bvp, spectral, context['csc_prerequisites'])\n    return runtime_csc(context)\n\n\ndef runtime_callbacks(fun, bc, kwargs, context):",
+          "count": 1
+        },
+        {
+          "before": "db6f-spectral-true-m14-lu-release-program-record-v1",
+          "after": "db6f-spectral-true-m14-direct-csc-program-record-v1",
+          "count": 1
+        },
+        {
+          "before": "                'newton_selection': None,\n",
+          "after": "                'newton_selection': None,\n                'csc_prerequisites': launch['csc_prerequisites'],\n                'csc_selection_definitions': launch['csc_selection_definitions'],\n                'csc_selection': None, 'csc_restoration': None,\n",
+          "count": 1
+        },
+        {
+          "before": "            before = runtime_newton(context)\n",
+          "after": "            before = runtime_newton(context)\n            if 'csc_selection' not in context:\n                manifest['csc_selection'] = select_runtime_csc(context, spectral)\n            before_csc = runtime_csc(context)\n",
+          "count": 1
+        },
+        {
+          "before": "            entry = {'call': call, 'before_newton': before, 'physical_callbacks': checked,",
+          "after": "            entry = {'call': call, 'before_newton': before, 'before_csc': before_csc,\n                     'physical_callbacks': checked,",
+          "count": 1
+        },
+        {
+          "before": "                entry['after_newton'] = runtime_newton(context)\n",
+          "after": "                entry['after_newton'] = runtime_newton(context)\n                entry['after_csc'] = runtime_csc(context)\n",
+          "count": 1
+        },
+        {
+          "before": "        # The sole mathematical selection: original main, tail client,\n        # callbacks, outer loop and final seam remain the frozen originals.",
+          "after": "        # Explicit W14, release-LU and CSC storage identities are recorded.\n        # Original equations, main, tail client, callback/outer/final gates remain.",
+          "count": 1
+        },
+        {
+          "before": "LU_RELEASE_FINITE_M14_COUPLED_PROGRAM_SUCCESS",
+          "after": "DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_SUCCESS",
+          "count": 1
+        },
+        {
+          "before": "LU_RELEASE_FINITE_M14_COUPLED_PROGRAM_FAILURE",
+          "after": "DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_FAILURE",
+          "count": 1
+        },
+        {
+          "before": "        sys.argv = saved_argv\n        if manifest['status'] in",
+          "after": "        sys.argv = saved_argv\n        if 'csc_selection' in context:\n            try:\n                selection = context['csc_selection']\n                h.check_callback(type(selection).restore, launch['callbacks']['csc_runtime_restore'])\n                manifest['csc_restoration'] = selection.restore()\n            except Exception as restore_error:\n                manifest.update(status='DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_FAILURE',\n                                mathematical_success=False, csc_restore_error=repr(restore_error))\n                requested_exit = 2\n        if manifest['status'] in",
+          "count": 1
+        }
+      ],
+      "complete_v8_text_replay": true
+    },
+    {
+      "component": "preparer",
+      "original": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+        "bytes": 9757,
+        "sha256": "2018226a193294d7791492ec44d595e19ae004079ae717eb5557db249a21949c",
+        "blob": "68a7ebfdaf04a31f368467d61e406ef63d5b92c8"
+      },
+      "new": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-direct-csc.py",
+        "commit": "d01c9ae6e672ca7ad04755ea087a3564177d1bb3",
+        "bytes": 13103,
+        "sha256": "2e843363c57aee7d96b3359fc0735604f9c0fdbafce8ad4adb2feb421d4f3116",
+        "blob": "fcc88cd81da8d0e1d9b87b1842878457315f7dc7",
+        "readback_exact": true
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"Pure preparation of the explicit LU-lifetime true M14/N512 W14 variant.",
+          "after": "\"\"\"Pure preparation of the explicit direct-CSC/release-LU M14/N512 W14 entry.",
+          "count": 1
+        },
+        {
+          "before": "db6f-prefix-spectral-true-m14-release-lu.py",
+          "after": "db6f-prefix-spectral-true-m14-direct-csc.py",
+          "count": 1
+        },
+        {
+          "before": "db6f-prefix-audit-spectral-true-m14-release-lu.py",
+          "after": "db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+          "count": 2
+        },
+        {
+          "before": "RUNNER = HERE / 'db6f-prefix-spectral-true-m14-direct-csc.py'\n",
+          "after": "RUNNER = HERE / 'db6f-prefix-spectral-true-m14-direct-csc.py'\nGATES = HERE / 'db6f-prefix-direct-csc-entry-gates.py'\nGATES_SHA = 'd110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b'\n",
+          "count": 1
+        },
+        {
+          "before": "    args = parser.parse_args()\n",
+          "after": "    parser.add_argument('--pure-check-report',type=Path,required=True)\n    parser.add_argument('--pure-observed',type=Path,required=True)\n    parser.add_argument('--byte-check-report',type=Path,required=True)\n    parser.add_argument('--byte-observed',type=Path,required=True)\n    parser.add_argument('--check-current-gate',action='store_true',\n                        help='Only check closed prerequisites; no runner import and no output writes')\n    args = parser.parse_args()\n    # This check precedes even the definitions/NumPy import below. There is no\n    # bypass for an unavailable executor or a merely planned check.\n    try:\n        raw=GATES.read_bytes()\n        if hashlib.sha256(raw).hexdigest()!=GATES_SHA:\n            raise ValueError('Changed prerequisite gate source')\n        from types import ModuleType\n        gate=ModuleType('direct_csc_preparer_prerequisites')\n        gate.__file__=str(GATES.resolve())\n        exec(compile(raw,str(GATES.resolve()),'exec',dont_inherit=True),vars(gate))\n        prerequisites=gate.prerequisite_evidence(\n            args.pure_check_report,args.pure_observed,args.byte_check_report,args.byte_observed)\n    except (ValueError,KeyError,FileNotFoundError) as error:\n        print(json.dumps({'status':'NOT_READY_ACTUAL_CSC_CHECKS_REQUIRED','ready':False,\n                          'reason':repr(error),'writes':0,'factory_calls':0,'solver_calls':0}))\n        return 2\n    if args.check_current_gate:\n        print(json.dumps({'status':'ACTUAL_CSC_PREREQUISITES_ONLY','ready':True,\n                          'inputs':prerequisites['inputs'],'writes':0,\n                          'factory_calls':0,'solver_calls':0}))\n        return 0\n",
+          "count": 1
+        },
+        {
+          "before": "    bindings = {row['path']: row for row in reference['bindings']}\n",
+          "after": "    bindings = {row['path']: row for row in reference['bindings']}\n    for row in prerequisites['bindings']:\n        bindings[row['path']] = row\n",
+          "count": 1
+        },
+        {
+          "before": "              NOTES/'2026-11-09-db6f-prefix-spectral-true-m14-release-lu-implementation.md'):",
+          "after": "              NOTES/'2026-11-09-db6f-prefix-spectral-true-m14-release-lu-implementation.md',\n              c.CSC_SELECTOR,c.CSC_GATES,c.CSC_FOUNDATION,*c.CSC_HERITAGE,\n              NOTES/'2026-11-09-db6f-prefix-direct-csc-foundation-method.md',\n              NOTES/'2026-11-09-db6f-prefix-direct-csc-publication-role-erratum.md',\n              NOTES/'2026-11-09-db6f-tail-review-direct-csc-foundation-v2.md',\n              NOTES/'2026-11-09-db6f-prefix-direct-csc-byte-test-plan.md',\n              NOTES/'2026-11-09-db6f-prefix-direct-csc-byte-test-planned-run.json',\n              NOTES/'2026-11-09-db6f-prefix-spectral-true-m14-direct-csc-method.md',\n              NOTES/'2026-11-09-db6f-prefix-spectral-true-m14-direct-csc-source-transforms.json'):",
+          "count": 1
+        },
+        {
+          "before": "db6f-spectral-true-m14q512-release-lu-v1",
+          "after": "db6f-spectral-true-m14q512-direct-csc-v1",
+          "count": 1
+        },
+        {
+          "before": "              'physical_BC_scope':'The weighted callable checks inner affine-DN physical-coordinate BC; the unchanged actual outer checks pay the nonlinear BC.',",
+          "after": "              'csc_prerequisites':prerequisites,\n              'csc_selection_definitions':c.module(\n                  'pure_direct_csc_selection_metadata',c.CSC_SELECTOR).definition_identity(),\n              'runtime_csc_gate':'Actual prior source/integer and small byte reports plus root tool exits are mandatory. Before first BVP a fresh factory must match the tested source/environment. Only prepare_sys is selected; original exports and release-LU Newton remain. Every BVP checks before/after identities; finally restores original prepare.',\n              'physical_BC_scope':'The weighted callable checks inner affine-DN physical-coordinate BC; the unchanged actual outer checks pay the nonlinear BC.',",
+          "count": 1
+        },
+        {
+          "before": "                            'Newton_install_calls':0,'weighted_solver_factory_calls':0,'BVP_calls':0,'DN_calls':0},",
+          "after": "                            'Newton_install_calls':0,'CSC_install_calls':0,'CSC_factory_calls':0,\n                            'weighted_solver_factory_calls':0,'BVP_calls':0,'DN_calls':0},\n              'actual_CSC_prerequisites':prerequisites['inputs'],\n              'new_entry_runtime_CSC_status':'NOT_RUN; prior small tests do not prove this new coupled run',",
+          "count": 1
+        },
+        {
+          "before": "                      'config':c.identity(cfg_path),'new_solver_calls':0},indent=2))",
+          "after": "                      'config':c.identity(cfg_path),'new_solver_calls':0},indent=2))\n    return 0",
+          "count": 1
+        },
+        {
+          "before": "if __name__=='__main__':\n    main()",
+          "after": "if __name__=='__main__':\n    sys.exit(main())",
+          "count": 1
+        }
+      ],
+      "complete_v8_text_replay": true
+    },
+    {
+      "component": "auditor",
+      "original": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-release-lu.py",
+        "bytes": 25074,
+        "sha256": "ee0d6aeadc4cfbe25ef4788581cebf81d5a50cfdb77b9a47f83d9d6df3071989",
+        "blob": "351394c4ef57db2580f213b9d4ca7a1694bbd5a5"
+      },
+      "new": {
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+        "commit": "82ddbdffef930266a5aadb52bcbc24a513a01897",
+        "bytes": 31225,
+        "sha256": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0",
+        "blob": "024b3f6cb4889c6f06d63fc33e05f9b931ef9f3d",
+        "readback_exact": true
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"Read-only close audit for the explicit LU-lifetime true M14 W14 variant.",
+          "after": "\"\"\"Read-only close audit for the explicit direct-CSC/release-LU true M14 entry.",
+          "count": 1
+        },
+        {
+          "before": "import json\nfrom pathlib import Path",
+          "after": "import json\nimport hashlib\nimport marshal\nfrom pathlib import Path\nfrom types import CodeType",
+          "count": 1
+        },
+        {
+          "before": "db6f-prefix-spectral-true-m14-release-lu.py",
+          "after": "db6f-prefix-spectral-true-m14-direct-csc.py",
+          "count": 2
+        },
+        {
+          "before": "\ndef check_runtime_records(records, calls, context, cp):",
+          "after": "\ndef _compiled_runtime_record(row, path, qualname, module):\n    \"\"\"Compile pinned text only; never execute a callback or scientific source.\"\"\"\n    gate = c.module('closed_csc_identity_gate', c.CSC_GATES)\n    gate.runtime_function_record(row)\n    require(Path(row['filename']).resolve() == Path(path).resolve()\n            and row['module'] == module and row['qualname'] == qualname,\n            'Runtime function source/module/name differs')\n    code = compile(Path(path).read_bytes(), row['filename'], 'exec', dont_inherit=True)\n    for name in (part for part in qualname.split('.') if part != '<locals>'):\n        candidates = [value for value in code.co_consts\n                      if isinstance(value, CodeType) and value.co_name == name]\n        require(len(candidates) == 1, 'Ambiguous compiled runtime function')\n        code = candidates[0]\n    equal(row['firstlineno'], code.co_firstlineno, 'Runtime function line differs')\n    equal(row['code_sha256'], hashlib.sha256(marshal.dumps(code)).hexdigest(),\n          'Runtime function code digest differs from pinned source')\n\n\ndef check_csc_runtime_record(record, context):\n    keys = {'schema','definitions','prerequisite_inputs','tested_factory_normalized_sha256',\n            'factory_provenance','original_runtime','selected_runtime',\n            'foundation_helper_runtime','newton_runtime_unchanged',\n            'only_backend_prepare_attribute_changed','old_exported_construct_and_indices_retained',\n            'no_old_global_coo_index_closure','scope'}\n    require(type(record) is dict and set(record) == keys\n            and record['schema'] == 'db6f-explicit-direct-csc-runtime-v1',\n            'Missing explicit CSC runtime identity')\n    equal(record['definitions'],context['launch']['csc_selection_definitions'],\n          'CSC runtime definitions differ')\n    prerequisites = context['csc_prerequisites']\n    equal(record['prerequisite_inputs'],prerequisites['inputs'],'CSC actual prerequisites differ')\n    equal(record['tested_factory_normalized_sha256'],\n          prerequisites['tested_factory_normalized_sha256'],'CSC tested factory differs')\n    gate = c.module('closed_csc_actual_factory_gate',c.CSC_GATES)\n    equal(gate.normalized_provenance(record['factory_provenance'],gate.RUNTIME_MODULE),\n          gate.normalized_provenance(prerequisites['tested_factory_provenance'],gate.TEST_MODULE),\n          'Runtime CSC factory did not match the actually byte-tested environment')\n    equal(record['selected_runtime'],record['factory_provenance']['new_functions'],\n          'Selected new function identities differ from factory')\n    bvp_path = prerequisites['source_files']['scipy.integrate._bvp']['path']\n    require(type(record['original_runtime']) is dict and set(record['original_runtime']) ==\n            {'prepare_sys','construct_global_jac','compute_jac_indices','solve_bvp'},\n            'Original exported runtime identities incomplete')\n    for name,row in record['original_runtime'].items():\n        _compiled_runtime_record(row,bvp_path,name,'scipy.integrate._bvp')\n    require(type(record['foundation_helper_runtime']) is dict and\n            set(record['foundation_helper_runtime']) == {'dimensions','column_segments','_assemble_csc'},\n            'Foundation storage helper identities incomplete')\n    for name,row in record['foundation_helper_runtime'].items():\n        _compiled_runtime_record(row,c.CSC_FOUNDATION,name,gate.RUNTIME_MODULE)\n    for name,row in record['selected_runtime'].items():\n        _compiled_runtime_record(row,c.CSC_FOUNDATION,'make_functions.<locals>.'+name,gate.RUNTIME_MODULE)\n    _compiled_runtime_record(record['newton_runtime_unchanged'],c.LIFETIME_NEWTON,\n                             'solve_newton','db6f_lu_lifetime_selected_definition_v1')\n    for key in ('only_backend_prepare_attribute_changed','old_exported_construct_and_indices_retained',\n                'no_old_global_coo_index_closure'):\n        require(record[key] is True,'CSC changed an unreviewed runtime/closure identity')\n    require(type(record['scope']) is str,'Missing runtime identity scope')\n\n\ndef check_csc_restoration(record, context):\n    require(type(record) is dict and set(record) ==\n            {'schema','before_restore','restored_original_prepare','newton_runtime_unchanged',\n             'backend_prepare_restored','scope'}\n            and record['schema'] == 'db6f-explicit-direct-csc-restoration-v1',\n            'Missing explicit original-prepare restoration')\n    check_csc_runtime_record(record['before_restore'],context)\n    equal(record['restored_original_prepare'],\n          record['before_restore']['original_runtime']['prepare_sys'],\n          'Restored prepare is not the original function')\n    equal(record['newton_runtime_unchanged'],record['before_restore']['newton_runtime_unchanged'],\n          'Restoration changed the separately selected Newton')\n    require(record['backend_prepare_restored'] is True and type(record['scope']) is str,\n            'Original prepare restoration did not pass')\n\n\ndef check_runtime_records(records, calls, context, cp):",
+          "count": 1
+        },
+        {
+          "before": "        for key in ('before_newton','after_newton'):\n            check_newton_lifetime_record(call[key], context)\n",
+          "after": "        for key in ('before_newton','after_newton'):\n            check_newton_lifetime_record(call[key], context)\n        for key in ('before_csc','after_csc'):\n            check_csc_runtime_record(call[key], context)\n",
+          "count": 1
+        },
+        {
+          "before": "PASS_LU_RELEASE_FINITE_M14_PROGRAM_OUTPUTS",
+          "after": "PASS_DIRECT_CSC_FINITE_M14_PROGRAM_OUTPUTS",
+          "count": 1
+        },
+        {
+          "before": "LU_RELEASE_FINITE_M14_COUPLED_PROGRAM_SUCCESS",
+          "after": "DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_SUCCESS",
+          "count": 1
+        },
+        {
+          "before": "PASS_ROOT_OBSERVED_TRUE_M14_W14_LU_RELEASE_FINITE_COUPLED_CLOSE",
+          "after": "PASS_ROOT_OBSERVED_TRUE_M14_W14_DIRECT_CSC_FINITE_COUPLED_CLOSE",
+          "count": 1
+        },
+        {
+          "before": "    selection = repro['newton_selection']",
+          "after": "    equal(repro['schema'],'db6f-spectral-true-m14-direct-csc-program-record-v1',\n          'Wrong explicit CSC reproduction schema')\n    equal(repro['csc_prerequisites'],context['csc_prerequisites'],'Reproduction omitted actual prerequisites')\n    equal(repro['csc_selection_definitions'],context['launch']['csc_selection_definitions'],\n          'Reproduction CSC definition identity differs')\n    check_csc_runtime_record(repro['csc_selection'],context)\n    check_csc_restoration(repro['csc_restoration'],context)\n    require('csc_restore_error' not in repro,'CSC restoration reported an error')\n    calls=repro['runtime_call_audits']\n    require(type(calls) is list and len(calls)>0,'No actual selected BVP calls')\n    equal(repro['csc_selection'],calls[0]['before_csc'],'Initial CSC identity differs from first call')\n    equal(repro['csc_restoration']['before_restore'],calls[-1]['after_csc'],\n          'Restored CSC identity differs from last closed call')\n    selection = repro['newton_selection']",
+          "count": 1
+        }
+      ],
+      "complete_v8_text_replay": true
+    }
+  ],
+  "exact_unchanged_function_text": [
+    "equal",
+    "without_io",
+    "write_json",
+    "expected_config",
+    "expected_parser_argv",
+    "runtime_original_newton",
+    "runtime_newton",
+    "select_runtime_newton",
+    "runtime_callbacks",
+    "check_packet",
+    "polynomial_endpoint",
+    "check_newton_lifetime_record"
+  ],
+  "performed": {
+    "v8_full_text_replay": true,
+    "fixed_commit_readback": true,
+    "python_ast": false,
+    "pure_checker": false,
+    "byte_matrices": false,
+    "entry_preparation": false,
+    "factory": false,
+    "installation": false,
+    "bvp": false,
+    "dn": false
+  },
+  "source_read_scope": "Only frozen source/method/metadata text. No actual research arrays or numerical packet read for this new offline implementation.",
+  "source_ledger_assembly_history": "An initial JavaScript ledger-assembly call had a for-of syntax typo and produced no output/write. The corrected call replayed all three complete source transformations.",
+  "prerequisites_unpaid": [
+    "actual stdlib source/integer checker and root observed exit",
+    "actual 15-case NumPy/SciPy oracle byte/alias replay and root observed exit",
+    "fresh complete runtime factory/source/callback gate",
+    "independent full new-entry review",
+    "actual new prefix solve, original true outer/seam gates and continuous closed-map certificate"
+  ],
+  "statement": "This ledger records source transformations only. It is not a launch, successful prerequisite report, resource guarantee, or numerical/G5 result."
+}

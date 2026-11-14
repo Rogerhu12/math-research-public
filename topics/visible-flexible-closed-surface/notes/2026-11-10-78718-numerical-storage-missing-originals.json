@@ -1,0 +1,67 @@
+{
+  "status": "EXACT_STORAGE_C_RESTORED_BUT_ORIGINAL_A_B_BYTE_SOURCES_MISSING",
+  "scope": "Missing byte identities only; no substitute source generated, no recovered code imported or executed, no geometry or numerical gate run.",
+  "terminal_v3": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-terminal-error-storage-v3.py",
+    "bytes": 48711,
+    "sha256": "8db94c71a9035f2f977daea9c315b669bce4c20800f80e7886b77c66af6f7ed7"
+  },
+  "frozen_missing_sources": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-shared-jet-byte-shards-v2.py",
+      "sha256": "b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-shared-jet-storage.py",
+      "sha256": "c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-fullxyz-hermite-storage.py",
+      "sha256": "f7b3659a98d70941377a6e054fd9900a1de45518e65899da862987aae75f9ccc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-mirror-hermite-storage.py",
+      "sha256": "163d3ce9b11036c4ff9effce52d02dece2f09e57f582e24ce26e9ae4162eee94"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-continuous-hermite-storage.py",
+      "sha256": "511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-metric-polynomial-storage.py",
+      "sha256": "70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-metric-supplier-storage.py",
+      "sha256": "cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-volume-moment-storage.py",
+      "sha256": "fd81fd2b1ebee77bd95ce9065e4898d5ef03b8bf72e99e3d0858f401b16818c1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-common-cut-storage.py",
+      "sha256": "b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-angular-arithmetic-storage.py",
+      "sha256": "d27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-metric-budget-storage.py",
+      "sha256": "0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-closed-budget-storage.py",
+      "sha256": "dc07d80f74a1cb880132e91ef0296f972e7e550a278eac057975fb8b032a09e9"
+    }
+  ],
+  "all_local_ref_path_history_commit_count": 0,
+  "history_query_used_network": false,
+  "known_missing_old_storage_fixture": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-old-m12-01.json",
+  "known_missing_publications": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-foundation-publication.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-consumers-publication.json"
+  ],
+  "actual_numerical_calls": 0
+}

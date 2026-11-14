@@ -1,0 +1,155 @@
+{
+  "scope": "Actual jet and variational-flow equivalence at representative saved states. Allocation only is changed.",
+  "checkpoint": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+  "config": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine-tail-config.json",
+  "stages": 180,
+  "oldEngineObjects": 180,
+  "sharedEngineObjects": 10,
+  "jetRows": [
+    {
+      "name": "radius",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "backgroundSlope",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "backgroundSecond",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "E",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "Ep",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "height",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "slope",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "second",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "meanSlope",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "meanSecond",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "meanSlopeCorrection",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "meanSecondCorrection",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "minLeading",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "minD",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "endpointFullD",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "endpointPhi",
+      "maximum": 0,
+      "bitwise": true
+    },
+    {
+      "name": "formalCurvature",
+      "maximum": 0,
+      "bitwise": true
+    }
+  ],
+  "stageRows": [
+    {
+      "stage": 0,
+      "state": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "tangent": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minA": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minD": {
+        "maximum": 0,
+        "bitwise": true
+      }
+    },
+    {
+      "stage": 60,
+      "state": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "tangent": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minA": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minD": {
+        "maximum": 0,
+        "bitwise": true
+      }
+    },
+    {
+      "stage": 179,
+      "state": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "tangent": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minA": {
+        "maximum": 0,
+        "bitwise": true
+      },
+      "minD": {
+        "maximum": 0,
+        "bitwise": true
+      }
+    }
+  ],
+  "all_bitwise_equal": true
+}

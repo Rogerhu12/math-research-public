@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 37799,
+  "initial_chunk_id": "7c42fa",
+  "final_chunk_id": "d35444",
+  "actual_exit_code": 0,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-report.json",
+    "bytes": 62381,
+    "sha256": "1a773ac1ce0b508c9dd5773ae317be7d6d6c8a414239b363554e182795e38a6d"
+  },
+  "source": {
+    "path": "scripts/fd2d-metric-dyadic-tail-complete-arb-check.py",
+    "bytes": 9248,
+    "sha256": "231c8c11668b8a89b02f417213ee5e4ff0480f339990894b3f486d2deeec4fe7"
+  },
+  "seconds": 1.1578619509964483,
+  "peak_rss_kib": 96020,
+  "passed": true,
+  "scope": "Three local complete R170 interval boxes, exact cut scope and one complete zero-end primitive; no whole F/J/BVP/body"
+}

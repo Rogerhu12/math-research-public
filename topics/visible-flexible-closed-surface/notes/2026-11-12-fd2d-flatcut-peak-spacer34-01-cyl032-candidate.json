@@ -1,0 +1,1003 @@
+{
+  "schema": "fd2d-frozen-ellipse-metric-v2-shared-jets",
+  "ellipse": {
+    "A": 1.4,
+    "B": 0.5
+  },
+  "cut_reference": {
+    "r": 0.8,
+    "w": 0.0,
+    "wr": 0.0,
+    "meaning": "Exact flat metric endpoint; do not divide by w or reference n"
+  },
+  "exact_a0_definition": "2*A*complete_elliptic_E(1-(B/A)^2)/pi",
+  "segments": [
+    {
+      "kind": "coast",
+      "p0": 0.0,
+      "p1": 0.0,
+      "L": 0.32,
+      "label": "central_cylinder"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.00625,
+      "jet0": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "jet1": [
+        2.5666201386442822e-08,
+        1.628355810669987e-05,
+        0.007702792776681892
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.00625,
+      "jet0": [
+        2.5666201386442822e-08,
+        1.628355810669987e-05,
+        0.007702792776681892
+      ],
+      "jet1": [
+        3.9666335194255e-07,
+        0.0001247375235865215,
+        0.02907304279723772
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006250000000000002,
+      "jet0": [
+        3.9666335194255e-07,
+        0.0001247375235865215,
+        0.02907304279723772
+      ],
+      "jet1": [
+        1.940011125078911e-06,
+        0.00040318389945508457,
+        0.06172582477277802
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        1.940011125078911e-06,
+        0.00040318389945508457,
+        0.06172582477277802
+      ],
+      "jet1": [
+        5.924298698278818e-06,
+        0.0009153740138436045,
+        0.10353669399172434
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        5.924298698278818e-06,
+        0.0009153740138436045,
+        0.10353669399172434
+      ],
+      "jet1": [
+        1.397659082558178e-05,
+        0.0017125053291464395,
+        0.15260859206333985
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        1.397659082558178e-05,
+        0.0017125053291464395,
+        0.15260859206333985
+      ],
+      "jet1": [
+        2.800826301352366e-05,
+        0.0028345767650094773,
+        0.20725289667505933
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        2.800826301352366e-05,
+        0.0028345767650094773,
+        0.20725289667505933
+      ],
+      "jet1": [
+        5.014901224309476e-05,
+        0.004311660229588276,
+        0.26598070319402367
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        5.014901224309476e-05,
+        0.004311660229588276,
+        0.26598070319402367
+      ],
+      "jet1": [
+        8.268868492300463e-05,
+        0.006165135669938748,
+        0.3274989834825207
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        8.268868492300463e-05,
+        0.006165135669938748,
+        0.3274989834825207
+      ],
+      "jet1": [
+        0.0001280267563970039,
+        0.008408904621855954,
+        0.3907068688736381
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999999,
+      "jet0": [
+        0.0001280267563970039,
+        0.008408904621855954,
+        0.3907068688736381
+      ],
+      "jet1": [
+        0.00018862930638841036,
+        0.011050572124405501,
+        0.4546888597506275
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.00018862930638841036,
+        0.011050572124405501,
+        0.4546888597506275
+      ],
+      "jet1": [
+        0.00026699322047929464,
+        0.014092572412676056,
+        0.5187035216463869
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.00026699322047929464,
+        0.014092572412676056,
+        0.5187035216463869
+      ],
+      "jet1": [
+        0.00036561717631178325,
+        0.017533209651923464,
+        0.5821677096329944
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999992,
+      "jet0": [
+        0.00036561717631178325,
+        0.017533209651923464,
+        0.5821677096329944
+      ],
+      "jet1": [
+        0.00048697880162285045,
+        0.021367588603441377,
+        0.644637341305834
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.00048697880162285045,
+        0.021367588603441377,
+        0.644637341305834
+      ],
+      "jet1": [
+        0.0006335172580349546,
+        0.025588418124854607,
+        0.7057861936166543
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999992,
+      "jet0": [
+        0.0006335172580349546,
+        0.025588418124854607,
+        0.7057861936166543
+      ],
+      "jet1": [
+        0.0008076204271976195,
+        0.030186679949969222,
+        0.765384233016588
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0008076204271976195,
+        0.030186679949969222,
+        0.765384233016588
+      ],
+      "jet1": [
+        0.0010116158570752098,
+        0.035152164011547596,
+        0.823276764876718
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0010116158570752098,
+        0.035152164011547596,
+        0.823276764876718
+      ],
+      "jet1": [
+        0.0012477646569566403,
+        0.04047387855468304,
+        0.8793653456982184
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999992,
+      "jet0": [
+        0.0012477646569566403,
+        0.04047387855468304,
+        0.8793653456982184
+      ],
+      "jet1": [
+        0.0015182575975318802,
+        0.04614034809512361,
+        0.9335910497830756
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0015182575975318802,
+        0.04614034809512361,
+        0.9335910497830756
+      ],
+      "jet1": [
+        0.0018252127631881443,
+        0.05213981495922455,
+        0.98592038666841
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999992,
+      "jet0": [
+        0.0018252127631881443,
+        0.05213981495922455,
+        0.98592038666841
+      ],
+      "jet1": [
+        0.0021706742068603457,
+        0.058460361371427925,
+        1.0363339446973117
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0021706742068603457,
+        0.058460361371427925,
+        1.0363339446973117
+      ],
+      "jet1": [
+        0.0025566111634822697,
+        0.06508996889135563,
+        1.084817682702352
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0025566111634822697,
+        0.06508996889135563,
+        1.084817682702352
+      ],
+      "jet1": [
+        0.00298491748118046,
+        0.0720165312515398,
+        1.131356701287523
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.00298491748118046,
+        0.0720165312515398,
+        1.131356701287523
+      ],
+      "jet1": [
+        0.0034574110265797042,
+        0.07922783562062154,
+        1.1759313127121374
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.0034574110265797042,
+        0.07922783562062154,
+        1.1759313127121374
+      ],
+      "jet1": [
+        0.003975832909496768,
+        0.08671152560130495,
+        1.2185150983860606
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999978,
+      "jet0": [
+        0.003975832909496768,
+        0.08671152560130495,
+        1.2185150983860606
+      ],
+      "jet1": [
+        0.004541846450400566,
+        0.09445505779007439,
+        1.259074738411235
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.004541846450400566,
+        0.09445505779007439,
+        1.259074738411235
+      ],
+      "jet1": [
+        0.005157035883087024,
+        0.102445661986096,
+        1.2975713005075011
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.005157035883087024,
+        0.102445661986096,
+        1.2975713005075011
+      ],
+      "jet1": [
+        0.005822904841902066,
+        0.11067031324613602,
+        1.3339626754897915
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.005822904841902066,
+        0.11067031324613602,
+        1.3339626754897915
+      ],
+      "jet1": [
+        0.006540874727197554,
+        0.11911572161526662,
+        1.368206733029513
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.006540874727197554,
+        0.11911572161526662,
+        1.368206733029513
+      ],
+      "jet1": [
+        0.007312283071035042,
+        0.12776834280906196,
+        1.400264816727646
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999978,
+      "jet0": [
+        0.007312283071035042,
+        0.12776834280906196,
+        1.400264816727646
+      ],
+      "jet1": [
+        0.008138382038226144,
+        0.13661441069373442,
+        1.4301050877472585
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.008138382038226144,
+        0.13661441069373442,
+        1.4301050877472585
+      ],
+      "jet1": [
+        0.009020337191334882,
+        0.14563998858691798,
+        1.457705175595282
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.009020337191334882,
+        0.14563998858691798,
+        1.457705175595282
+      ],
+      "jet1": [
+        0.009959226621291783,
+        0.15483103418460767,
+        1.48305717130475
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.009959226621291783,
+        0.15483103418460767,
+        1.48305717130475
+      ],
+      "jet1": [
+        0.010956042624927997,
+        0.16417471114095133,
+        1.5066965720364034
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.010956042624927997,
+        0.16417471114095133,
+        1.5066965720364034
+      ],
+      "jet1": [
+        0.012011709452790065,
+        0.17366186329134733,
+        1.5289600531026486
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999978,
+      "jet0": [
+        0.012011709452790065,
+        0.17366186329134733,
+        1.5289600531026486
+      ],
+      "jet1": [
+        0.013127096517091319,
+        0.18328368882476762,
+        1.5497843684808852
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.013127096517091319,
+        0.18328368882476762,
+        1.5497843684808852
+      ],
+      "jet1": [
+        0.014303016991193518,
+        0.19303098565222637,
+        1.5690980511629755
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.014303016991193518,
+        0.19303098565222637,
+        1.5690980511629755
+      ],
+      "jet1": [
+        0.015540225017931508,
+        0.20289403458816113,
+        1.5868104917531016
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.015540225017931508,
+        0.20289403458816113,
+        1.5868104917531016
+      ],
+      "jet1": [
+        0.016839411954110872,
+        0.21286242128509128,
+        1.6027622874369802
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0062500000000000056,
+      "jet0": [
+        0.016839411954110872,
+        0.21286242128509128,
+        1.6027622874369802
+      ],
+      "jet1": [
+        0.018201200844705223,
+        0.2229246173622564,
+        1.6167827067070815
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.006249999999999978,
+      "jet0": [
+        0.018201200844705223,
+        0.2229246173622564,
+        1.6167827067070815
+      ],
+      "jet1": [
+        0.019626134108718052,
+        0.2330647169002747,
+        1.627030098965189
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.019626134108718052,
+        0.2330647169002747,
+        1.627030098965189
+      ],
+      "jet1": [
+        0.02009551674852883,
+        0.2363162795080908,
+        1.6221148050061616
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.02009551674852883,
+        0.2363162795080908,
+        1.6221148050061616
+      ],
+      "jet1": [
+        0.020571382801529925,
+        0.23954310713676769,
+        1.6020615777973077
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.020571382801529925,
+        0.23954310713676769,
+        1.6020615777973077
+      ],
+      "jet1": [
+        0.021053651358317715,
+        0.2427129685680733,
+        1.5645936336723807
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.021053651358317715,
+        0.2427129685680733,
+        1.5645936336723807
+      ],
+      "jet1": [
+        0.021542171141508693,
+        0.2457871596295549,
+        1.5054990054074033
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.021542171141508693,
+        0.2457871596295549,
+        1.5054990054074033
+      ],
+      "jet1": [
+        0.022036703641338473,
+        0.24871641168153813,
+        1.4184472148999663
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.022036703641338473,
+        0.24871641168153813,
+        1.4184472148999663
+      ],
+      "jet1": [
+        0.022536897927193822,
+        0.25143689177529105,
+        1.2953468725736261
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.022536897927193822,
+        0.25143689177529105,
+        1.2953468725736261
+      ],
+      "jet1": [
+        0.023042258392239612,
+        0.2538675771263418,
+        1.1272468174726116
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.023042258392239612,
+        0.2538675771263418,
+        1.1272468174726116
+      ],
+      "jet1": [
+        0.02355211058264861,
+        0.25591138862700413,
+        0.9076210651076122
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.02355211058264861,
+        0.25591138862700413,
+        0.9076210651076122
+      ],
+      "jet1": [
+        0.02406557601133774,
+        0.2574636242129801,
+        0.6364772831087268
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.02406557601133774,
+        0.2574636242129801,
+        0.6364772831087268
+      ],
+      "jet1": [
+        0.02458157347323242,
+        0.25842967345649737,
+        0.3243560959793571
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "hermite",
+      "L": 0.0020000000000000018,
+      "jet0": [
+        0.02458157347323242,
+        0.25842967345649737,
+        0.3243560959793571
+      ],
+      "jet1": [
+        0.025098861732923305,
+        0.2587478542495509,
+        0.0
+      ],
+      "label": "frozen_feedback_prefix"
+    },
+    {
+      "kind": "coast",
+      "p0": 0.26172568633247734,
+      "p1": 0.26172568633247734,
+      "L": 0.2755434451024161,
+      "start_from_previous": true,
+      "label": "outward_peak_spacer"
+    },
+    {
+      "kind": "phase_bridge",
+      "p0": 0.26172568633247734,
+      "p1": 0.22772568633247733,
+      "L": 0.02,
+      "ps0": 0.0,
+      "ps1": -3.4,
+      "start_from_previous": true,
+      "start_second_from_previous": true,
+      "label": "partial_return_acceleration_entry"
+    },
+    {
+      "kind": "phase_bridge",
+      "p0": 0.22772568633247733,
+      "p1": -0.08628988239478806,
+      "L": 0.09235752021390159,
+      "ps0": -3.4,
+      "ps1": -3.4,
+      "start_from_previous": true,
+      "label": "partial_return_acceleration_plateau"
+    },
+    {
+      "kind": "phase_bridge",
+      "p0": -0.08628988239478806,
+      "p1": -0.12028988239478806,
+      "L": 0.02,
+      "ps0": -3.4,
+      "ps1": 0.0,
+      "start_from_previous": true,
+      "label": "partial_return_acceleration_exit"
+    },
+    {
+      "kind": "turn",
+      "p0": -0.12028988239478806,
+      "p1": -0.1,
+      "L": 0.006486535292451425,
+      "K": 3.4,
+      "start_from_previous": true,
+      "length_from_turn_rate": true,
+      "label": "early_shallow_return"
+    },
+    {
+      "kind": "coast",
+      "p0": -0.1,
+      "p1": -0.1,
+      "L": 0.02,
+      "start_from_previous": true,
+      "label": "partial_return_matching_coast"
+    },
+    {
+      "kind": "turn",
+      "p0": -0.1,
+      "p1": -1.45,
+      "L": 0.4315856777493606,
+      "K": 3.4,
+      "start_from_previous": true,
+      "length_from_turn_rate": true,
+      "label": "redeepen_after_partial_return"
+    },
+    {
+      "kind": "coast_to",
+      "p0": -1.45,
+      "p1": -1.45,
+      "start_from_previous": true,
+      "radius_after_next": 0.8,
+      "label": "final_deep_coast"
+    },
+    {
+      "kind": "phase_bridge",
+      "p0": -1.45,
+      "p1": -1.5707963267948966,
+      "L": 0.026,
+      "ps0": 0.0,
+      "ps1": 0.0,
+      "start_from_previous": true,
+      "label": "cut_second_jet_brake",
+      "exact_endpoint_phase": "-pi/2",
+      "geometric_role": "flat_cut_quadratic_brake"
+    }
+  ],
+  "exact_definition": "Shared endpoint jets define each Hermite polynomial algebraically; derived phase rules and exact phase integrals define joins. Floating coefficients and quadrature are numerical evaluations, not independently rounded defining data.",
+  "generated_by": "fd2d_flatcut_peak_spacer_design.py",
+  "generator_sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607",
+  "inputs": {
+    "prefix_report": "2026-11-12-fd2d-ellipse-b05-fastturn-design-n256.json",
+    "prefix_report_sha256": "e74bc43d2065d4fd7b6ef4f23782cf36b4eb6b2572d7018cc11391586b9ac589",
+    "historical_tail_port_only": "2026-11-12-fd2d-ellipse-cuff032-cut04-port.json",
+    "historical_tail_port_sha256_only": "dcadf539f5a4f70d640a092b54b690646fad21085cca03e3e3a7d9cd6cbe82cf",
+    "historical_tail_config_sha256_only": "1ce47e6f66d67e41d9d5f5e837f5d516766d101492648faadb6f989ef33558ee",
+    "flat_cut_generator": "fd2d_flat_cut_prefix_candidate.py",
+    "flat_cut_generator_sha256": "135303639c5eb1970b6b76aad47a53b7627bcc7176243713c56c63ae8260547a",
+    "historical_candidate": "2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+    "historical_candidate_sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a",
+    "scalar_reader_sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30",
+    "flat_cut_coast_compatibility": {
+      "source_file": "2026-11-12-fd2d-flat-cut-prefix-v1-candidate.json",
+      "source_sha256": "fa7d242002223063a3da9bbbb6dbec2be1a034b0e93e64d7294e304705fb70fc",
+      "adapter": "fd2d_flat_cut_coast_compatibility.py",
+      "adapter_sha256": "4c7a53dfb631981b984a573ce5f52613222063a8af273f9775020c36e92a5392",
+      "same_physical_metric": true
+    },
+    "peak_spacer_source": {
+      "file": "2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+      "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147",
+      "generator": "fd2d_flatcut_peak_spacer_design.py",
+      "generator_sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607"
+    }
+  },
+  "status": {
+    "metric_frozen": true,
+    "nonlinear_prefix_solved": false,
+    "nonlinear_tail_matched": false,
+    "closed_nonround_surface": false,
+    "reach_certified": false,
+    "strong_target_complete": false
+  },
+  "cut": {
+    "r": 0.8,
+    "a_prime": -1.0,
+    "a_second": 0.0,
+    "gaussian_curvature": 0.0,
+    "cuff_radius": 0.32,
+    "flat_collar_radius": 0.34,
+    "tail_metric": "dr^2+r^2 du^2",
+    "tail_definition": "R128 integral-defined exact developable annulus",
+    "tail_bending_amplitude_interval": [
+      0.0,
+      1.2
+    ],
+    "tail_bending_amplitude_initial": 0.0,
+    "plane_height_unknown": true,
+    "linear_DN_not_used": true,
+    "complete_two_jet_required": true,
+    "tail_height_span": 0.0,
+    "tail_height_span_known": true,
+    "tail_height_span_scope": "exact rotational A=0 background; bent tail position uses R128 full cut port"
+  },
+  "partial_return_design_parameters": {
+    "vmid": 0.12,
+    "return_phase": 0.1,
+    "coast_length": 0.02,
+    "fraction": 0.28686801868311995,
+    "K": 3.4,
+    "transition": 0.02,
+    "epsilon": 0.1207963267948966
+  },
+  "source_frozen_candidate": "2026-11-12-fd2d-ellipse-b05-frozen-candidate-v2.json",
+  "source_frozen_candidate_sha256": "064a7a3bcb7beaaa45bf59e30e0c64be58106a566edfa55d6b3c4bf6480b2ba0",
+  "flat_cut_design": {
+    "vmid": 0.12,
+    "contraction_curvature": 3.4,
+    "early_return_curvature": 3.4,
+    "redeepen_curvature": 3.4,
+    "ramp_length": 0.02,
+    "coast_length": 0.02,
+    "deep_phase": 1.45,
+    "brake_length": 0.026,
+    "cylinder_length": 0.32,
+    "contraction_plateau_length": 0.09235752021390159,
+    "physical_metric_changed": true,
+    "terminal_phase": "-pi/2 + O((s_cut-s)^2)",
+    "future_design_T": "Outer physical design; freeze after a solution is selected"
+  },
+  "peak_spacer_design": {
+    "retained_source_feedback_raw_last_index": 51,
+    "retained_feedback_length": 0.272,
+    "removed_feedback_length": 0.057999999999999996,
+    "original_final_acceleration": -0.007312396476198968,
+    "new_exact_final_acceleration": 0.0,
+    "final_shared_position_and_velocity": [
+      0.025098861732923305,
+      0.2587478542495509
+    ],
+    "feedback_change": "The last retained quintic has the same endpoint radius/speed and a newly defined zero acceleration; the old positive-K suffix is not retained.",
+    "outward_phase": 0.26172568633247734,
+    "outward_radial_speed": 0.2587478542495509,
+    "outward_coast_length": 0.2755434451024161,
+    "zero_spacer_radial_budget_for_selection": {
+      "physical_T_lower_open": 0.0,
+      "physical_T_upper_open": -0.6444339385102935,
+      "deep_coast_at_T": -0.06681962542694224,
+      "current_radial_room": -0.06633271021759113,
+      "T": 0.02,
+      "vm": -0.09983341664682815,
+      "vd": -0.9927129910375885,
+      "positive_at_T": false,
+      "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+    },
+    "target_final_deep_coast_for_selection": 0.005,
+    "actual_final_deep_coast_from_frozen_spacer": 0.004999999999999962,
+    "selection_formula": "E=(sin(pdeep)*target_Ldeep-zero_spacer_room)/saved_peak_radial_speed",
+    "zero_spacer_used_only_to_evaluate_the_affine_design_budget": true,
+    "spacer_length_frozen_as_written_binary64": true,
+    "exact_final_radius_from_derived_coast_to": true,
+    "same_central_a0": true,
+    "background_height_is_not_actual_nonlinear_height": true
+  },
+  "positive_coast_domain": {
+    "physical_T_lower_open": 0.0,
+    "physical_T_upper_open": 0.06971847225009907,
+    "deep_coast_at_T": 0.004999999999999962,
+    "current_radial_room": 0.004963564955187905,
+    "T": 0.02,
+    "vm": -0.09983341664682815,
+    "vd": -0.9927129910375885,
+    "positive_at_T": true,
+    "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+  }
+}

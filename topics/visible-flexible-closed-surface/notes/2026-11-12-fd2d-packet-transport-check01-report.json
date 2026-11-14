@@ -1,0 +1,18 @@
+{
+  "actual_completed": true,
+  "source_sha256": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+  "input": {
+    "source_sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82",
+    "purpose": "lossless archive transport of actual saved data, no PDE evaluation"
+  },
+  "arrays_checked": 35,
+  "all_original_arrays_byte_equal": true,
+  "actual_nested_diagnostics_equal": true,
+  "native_tuple_preserved": true,
+  "numpy_scalar_dtype_equal": true,
+  "part_count": 1,
+  "maximum_part_bytes": 127555,
+  "manifest": "notes/2026-11-12-fd2d-packet-transport-check01-data/manifest.json",
+  "seconds": 0.2672248010021576,
+  "no_F_or_J_evaluated": true
+}

@@ -1,0 +1,422 @@
+{
+  "BVP_calls": 0,
+  "M14_N2048_callback_physical_coefficient_max_difference": 0.0,
+  "actual_support_amplitude": 0.09999976413887013,
+  "continuous_FFT_bound": false,
+  "exact_core_unit_tangent_max_floating_error": 2.220446049250313e-16,
+  "fixed_support_coefficient_count": 14,
+  "fixed_support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844",
+  "flow_integrations": 0,
+  "gauge_amplitude": 0.1,
+  "input_bindings": [
+    {
+      "bytes": 64813,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a"
+    },
+    {
+      "bytes": 5581,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "bytes": 208191,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-fixed-state-projection-01.json",
+      "sha256": "53641e7e8ceb2ea822794a9df5404807a5162aa704aa9ee35be99b3c2d86dbfe"
+    },
+    {
+      "bytes": 3977073,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_00.npy.gz",
+      "sha256": "f21b8cf276c11a702073a1157f08614d7bb9bca5e19ad58b3c0cd66376d7541b"
+    },
+    {
+      "bytes": 3976194,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_01.npy.gz",
+      "sha256": "f9cef130b1cb18ea1a8233c5eddbe63db3da49109ed972ca1466609d34548ed7"
+    },
+    {
+      "bytes": 3934835,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_02.npy.gz",
+      "sha256": "47d5a54321162dd0bf07a75f57ca2c35205e5dff8bd3f8aeacbe1fa5f10d83fe"
+    },
+    {
+      "bytes": 1183204,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02_coeff_03.npy.gz",
+      "sha256": "800dfe92a8df04fc7d4637a11a6876c5f9ecabb5030043cdaf5add86171ed48a"
+    }
+  ],
+  "literal_saved_parameters_replayed": true,
+  "new_candidate": false,
+  "original_scaling_factors_verified": true,
+  "rows": [
+    {
+      "G_relative_FFT_l1": 1.3311438033968845e-08,
+      "G_relative_max_sampled": 1.3311430735463148e-08,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 5.087572934803903e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "320224417546888418741535278300355692707821051852875473479911698985115115857/6294247210811362500357642183683575523324264125717223305023343830994403913226271064064"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.3311430989441333e-08,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-114932012863098779590485164459803511602084399280593771565737669758458305623/8634083965447680925338526924458405592307680766567134940232834590064715827043631104"
+        }
+      },
+      "first_jet_error_max_sampled": 6.014411345406912e-08,
+      "position_error_max_sampled": 1.2410348304570107e-09,
+      "projection_modes": 14,
+      "second_jet_error_max_sampled": 3.0198949200754832e-06,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 9.301507227698508e-09,
+      "G_relative_max_sampled": 9.301499903635602e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": -3.9467217549745547e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-2543784181565144717997210014721415141728793632549348181875487386475370605015887/6445309143870835200366225596091981335884046464734436664343904082938269607143701569601536"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -9.301499868156306e-09,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-740136322863471367622728755729871721424085279018987096586030476027184060303183/79571717825565827407919864135808665938707585944682715609185803582036421062034104254464"
+        }
+      },
+      "first_jet_error_max_sampled": 4.309384894620254e-08,
+      "position_error_max_sampled": 8.559442044031584e-10,
+      "projection_modes": 15,
+      "second_jet_error_max_sampled": 2.239669709941383e-06,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 4.5118249326924606e-09,
+      "G_relative_max_sampled": 4.511817475183477e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 1.3751473408513237e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "886324973015870038143038595896037337996005901589218520457531177159057657157265/6445309143870835200366225596091981335884046464734436664343904082938269607143701569601536"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -4.5118176981454395e-09,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-39890342750802538996136536891285054888960952786204996142281617151409061163895/8841301980618425267546651570645407326523065104964746178798422620226269006892678250496"
+        }
+      },
+      "first_jet_error_max_sampled": 2.1044472021274587e-08,
+      "position_error_max_sampled": 3.9096481607714395e-10,
+      "projection_modes": 16,
+      "second_jet_error_max_sampled": 1.1678640294832121e-06,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.392071323026886e-09,
+      "G_relative_max_sampled": 1.3920639085895914e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.425691954717542e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "1140998112947862596592668922336265501580745097086329247180189181659299052846225/25781236575483340801464902384367925343536185858937746657375616331753078428574806278406144"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.3920640564032455e-09,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-49230634796102934432536566014141971146277646519185152855602273003280937738415/35365207922473701070186606282581629306092260419858984715193690480905076027570713001984"
+        }
+      },
+      "first_jet_error_max_sampled": 6.5767233389485786e-09,
+      "position_error_max_sampled": 1.097275603711978e-10,
+      "projection_modes": 18,
+      "second_jet_error_max_sampled": 4.049670687678031e-07,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.3798406720203295e-10,
+      "G_relative_max_sampled": 1.379008018886907e-10,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.134221883820998e-12,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "1705365639077272763316434286872387661266546976313207013446238893453035583581105/412499785207733452823438438149886805496578973743003946518009861308049254857196900454498304"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.379010626341871e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-78030396044609535393600063180423199962071368822874431287695527884070272391119/565843326759579217122985700521306068897476166717743755443099047694481216441131408031744"
+        }
+      },
+      "first_jet_error_max_sampled": 6.759309290930599e-10,
+      "position_error_max_sampled": 9.297229652815986e-12,
+      "projection_modes": 22,
+      "second_jet_error_max_sampled": 5.03230206116978e-08,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.8929342992712734e-11,
+      "G_relative_max_sampled": 1.8634427334518477e-11,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.768284149025469e-13,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "12588263598607655472627311245377482187319933377992485758360061080065081970196073/26399986253294940980700060041592755551781054319552252577152631123715152310860601629087891456"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.86347478732511e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-6073544292437604299550725992125769726005798106558987231285492681143431384389319/325925756213517629062839763500272295684946272029420403135225051472021180670091691026284544"
+        }
+      },
+      "first_jet_error_max_sampled": 1.0621160740543275e-10,
+      "position_error_max_sampled": 1.2534417948018017e-12,
+      "projection_modes": 26,
+      "second_jet_error_max_sampled": 9.126302713546863e-09,
+      "source_quadrature": 2048,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.3311424620319656e-08,
+      "G_relative_max_sampled": 1.3311414082117778e-08,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 5.087703539611682e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "1280930552545437032287991006182040395548619366669831667745552321714881923769/25176988843245450001430568734734302093297056502868893220093375323977615652905084256256"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.331141415444232e-08,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-459727470033214950393378402916865505823373787074511167510184125128237797775/34536335861790723701354107697833622369230723066268539760931338360258863308174524416"
+        }
+      },
+      "first_jet_error_max_sampled": 6.014681914371659e-08,
+      "position_error_max_sampled": 1.2410348304570107e-09,
+      "projection_modes": 14,
+      "second_jet_error_max_sampled": 3.019894907474452e-06,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 9.301498377739976e-09,
+      "G_relative_max_sampled": 9.301487913226936e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": -3.9467033322964555e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-2543772307579584048498819402364150479461446431113504967257590596055661380817311/6445309143870835200366225596091981335884046464734436664343904082938269607143701569601536"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -9.30148785913483e-09,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-82237263031667002308689411185475828864845167782567899269046478433069679237735/8841301980618425267546651570645407326523065104964746178798422620226269006892678250496"
+        }
+      },
+      "first_jet_error_max_sampled": 4.309886250073769e-08,
+      "position_error_max_sampled": 8.559442044031584e-10,
+      "projection_modes": 15,
+      "second_jet_error_max_sampled": 2.2396697087478934e-06,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 4.511819064773534e-09,
+      "G_relative_max_sampled": 4.511808260332373e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 1.375162793863851e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "886334932960164272397410997542799878465055340028034448923171457664382570239825/6445309143870835200366225596091981335884046464734436664343904082938269607143701569601536"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -4.5118083618229465e-09,
+          "abs_strictly_above_2e_minus_9": true,
+          "exact": "-39890260205555988719677680539645029932828449545667264638797222720392657833815/8841301980618425267546651570645407326523065104964746178798422620226269006892678250496"
+        }
+      },
+      "first_jet_error_max_sampled": 2.104447171345348e-08,
+      "position_error_max_sampled": 3.9096481607714395e-10,
+      "projection_modes": 16,
+      "second_jet_error_max_sampled": 1.167864013468245e-06,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.3920742989089629e-09,
+      "G_relative_max_sampled": 1.3920639085895914e-09,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.4258245488171714e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "71314518584148321384529783166978183198136018631029435668959177361960740284377/1611327285967708800091556399022995333971011616183609166085976020734567401785925392400384"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.3920637545454555e-09,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-192307125472029018865372662907956568514079222724697802205303152943927737543/138145343447162894805416430791334489476922892265074159043725353441035453232698097664"
+        }
+      },
+      "first_jet_error_max_sampled": 6.576723362794899e-09,
+      "position_error_max_sampled": 1.097275603711978e-10,
+      "projection_modes": 18,
+      "second_jet_error_max_sampled": 4.049670727090948e-07,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.3798323464279788e-10,
+      "G_relative_max_sampled": 1.3788847841311735e-10,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.136278612255041e-12,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "426553509778636549088287534628434384571753419171344408575543987064856641345393/103124946301933363205859609537471701374144743435750986629502465327012313714299225113624576"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.3788862219239344e-10,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-175552552583186959237787432663817715352980974563234345048267312489296554437663/1273147485209053238526717826172938655019321375114923449746972857312582736992545668071424"
+        }
+      },
+      "first_jet_error_max_sampled": 6.760556660918825e-10,
+      "position_error_max_sampled": 9.297229652815986e-12,
+      "projection_modes": 22,
+      "second_jet_error_max_sampled": 5.03229598269872e-08,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    },
+    {
+      "G_relative_FFT_l1": 1.892934251018097e-11,
+      "G_relative_max_sampled": 1.8627321907160876e-11,
+      "axes": {
+        "psi_pi_over_3": {
+          "G_over_a2_minus_1": 4.759527826451273e-13,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "3141286729762209216627979288307875303537616650488485718531979650523049465855345/6599996563323735245175015010398188887945263579888063144288157780928788077715150407271972864"
+        },
+        "psi_zero": {
+          "G_over_a2_minus_1": -1.8627409352266284e-11,
+          "abs_strictly_above_2e_minus_9": false,
+          "exact": "-1517788119859034922604323272755317614005279647370220676149292816556859265241895/81481439053379407265709940875068073921236568007355100783806262868005295167522922756571136"
+        }
+      },
+      "first_jet_error_max_sampled": 1.0620995090041468e-10,
+      "position_error_max_sampled": 1.2534417948018017e-12,
+      "projection_modes": 26,
+      "second_jet_error_max_sampled": 9.126179451035554e-09,
+      "source_quadrature": 4096,
+      "support_coefficient_count_unchanged": 14,
+      "support_coefficients_sha256_little_endian_f64": "fc09cc7849afd0fb2449206575e8d89fb807035291ae156bf8b5e737e7333844"
+    }
+  ],
+  "saved_curve_zero_padding": false,
+  "schema": "78718-fixed-support-core-reprojection-v1",
+  "scope": "Static re-projection of one fixed current exact support core.\n\nThe same 14 physical support coefficients and fixed angular chart are used at\nevery projection order. This is not zero padding of the saved curve, a solved\nhigher-mode curve, a BVP, or a new candidate. No tail is requested.\n",
+  "seconds": 0.7708302989994991,
+  "source_bindings": [
+    {
+      "bytes": 9479,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-core-reprojection-v1.py",
+      "sha256": "6f93dcb6d4634b5795343ff61c53e914901bb10b74e0569a6dd0a8c5f33090de"
+    },
+    {
+      "bytes": 10432,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef"
+    },
+    {
+      "bytes": 6579,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158"
+    },
+    {
+      "bytes": 8737,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a"
+    },
+    {
+      "bytes": 13127,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984"
+    },
+    {
+      "bytes": 36488,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "bytes": 5012,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+    },
+    {
+      "bytes": 3834,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8"
+    },
+    {
+      "bytes": 10959,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e"
+    },
+    {
+      "bytes": 5123,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "bytes": 2576,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "bytes": 10353,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302"
+    },
+    {
+      "bytes": 6349,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    },
+    {
+      "bytes": 5131,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "bytes": 10411,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "bytes": 18439,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604"
+    },
+    {
+      "bytes": 22225,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    }
+  ],
+  "status": "COMPLETED_STATIC_REPROJECTION_OF_ONE_FIXED_CORE",
+  "tail_calls": 0
+}

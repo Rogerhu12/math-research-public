@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-closed-source-and-actual-output-manifest-v1",
+  "scope": "Analytic raw physical-coast T column and shared lifting/target T derivatives; same finite residual and all non-T columns",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    {
+      "path": "scripts/fd2d-metric-raw-analytic-T-check.py",
+      "bytes": 6338,
+      "sha256": "06a14c5182cb5bdc078c6db4498415f39b68dd316adc6e7ba9f070b9ab777fec"
+    },
+    {
+      "path": "repro/fd2d-metric-analytic-T-version01/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8369,
+      "sha256": "54b2d5dcd01266364db44154036344362fafe0c00d843919e3fddfc1a162cace"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T.md",
+      "bytes": 8943,
+      "sha256": "71eb1e9bebeabda2715fd097007803ca97cd15e1114ab2126940849c867d26f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T-check-01-exit-receipt.json",
+      "bytes": 611,
+      "sha256": "e7de88c10cf0cd6b0686bec0249ac84edbfdc07e1d385ca75e9fa0cafdb6f69e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T-check-01.json",
+      "bytes": 11061,
+      "sha256": "f2bc6e91ef0e0ef523b72f50fbc195820caa5034870d697f9f286b11a9ef0b27"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T-check-02-exit-receipt.json",
+      "bytes": 433,
+      "sha256": "93df14f4b9b31d8fee3c0883c2aa7779684fefe7255111c956ad779495a4f2f0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T-check-02.json",
+      "bytes": 11061,
+      "sha256": "a152bcd68b7bce7ba2b4d6cdf34da33288de79f5d580209f29dc4a69f945db58"
+    }
+  ],
+  "actual_runs": [
+    {
+      "session": 7275,
+      "chunk": "bbe451",
+      "exit_code": 0,
+      "scope": "first analytic source; exact snapshot preserved"
+    },
+    {
+      "session": 33442,
+      "chunk": "a52a96",
+      "exit_code": 0,
+      "scope": "final source including fields_T/K_T aliases"
+    }
+  ],
+  "continuous_certificate": false,
+  "closed_surface": false
+}

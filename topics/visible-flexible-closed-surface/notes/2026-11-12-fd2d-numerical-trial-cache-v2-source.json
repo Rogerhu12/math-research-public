@@ -1,0 +1,63 @@
+{
+  "scope": "Prepared v2 cache route, not yet launched; correct a conservative cache miss, no change in trial/F/acceptance",
+  "v1ObservedMissCause": "Five observation paths differed across18/19 and were included in cache context; both actual constructed values and original F cache key were identical",
+  "excludedObservationKeys": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "physicalParametersRemoved": false,
+  "actualFullStatesAndDeltaRemainInKey": true,
+  "sources": [
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-trial-cache.py",
+      "originalSHA256": "ecd10ee72c1bfbece2cb58fdf1bbdf1fe0565f019e08b7d513c3df0fdc197da9",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-trial-cache-v2.py",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-trial-cache-v2.py",
+      "bytes": 40472,
+      "sha256": "755829002e74870e7940b929ce63167dd4b76ad00ffb7f51b39a70bcce96463c"
+    },
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-tail-continuation.py",
+      "originalSHA256": "1b13c126d9ce263ca461368414a2c489fd9577dd223897493e7997c4e4d31003",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-continuation.py",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-continuation.py",
+      "bytes": 9426,
+      "sha256": "127d4039863d45a2aa3fd06f8b993688f68d10ade554c20175fa66cfa7b42683"
+    },
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-tail-client.py",
+      "originalSHA256": "cbd378c9d435865ae1da730125cf7550e75572416639ddf484308f6e54293c90",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-client.py",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-client.py",
+      "bytes": 14869,
+      "sha256": "8afc6c7f66fedd7910bccaa391e57d013b6f7bfefbda6d58e448291a60310cc9"
+    },
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-tail-stage-worker.mjs",
+      "originalSHA256": "a6a300b73184a9d35ec8190d676e9d02bf7776e09cc1da99b33fada55d4cb009",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-stage-worker.mjs",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-tail-stage-worker.mjs",
+      "bytes": 20799,
+      "sha256": "c994731f943d3aee1b42ec473678b8e64cc27c1bdf603cb630962efaa0ba2bd9"
+    },
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-geometric-trial-cache.mjs",
+      "originalSHA256": "fee78b21859f43224910f1501f7cc272cb1462cb6eb06c11dd5eb896a726f4ff",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/scripts/fd2d-geometric-trial-cache-v2.mjs",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-geometric-trial-cache-v2.mjs",
+      "bytes": 7074,
+      "sha256": "2575874dc7375228315abdc25a0ee937f235c5974b76d52cc9fc430d3de1508e"
+    },
+    {
+      "original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/control/fd2d-trial-cache-external-exit-supervisor.py",
+      "originalSHA256": "1f1ab95fe5b4a6440f5785829c8327d44e826400b57f35f03c294b0b3416e7cd",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/control/fd2d-trial-cache-v2-external-exit-supervisor.py",
+      "repositoryFile": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-trial-cache-v2-external-exit-supervisor.py",
+      "bytes": 10627,
+      "sha256": "d94b4aafe5c13cd94a65cc9b77fe41979b17074e5000db1459a466533657cc83"
+    }
+  ]
+}

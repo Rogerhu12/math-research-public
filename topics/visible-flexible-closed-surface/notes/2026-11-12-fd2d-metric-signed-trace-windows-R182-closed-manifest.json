@@ -1,0 +1,89 @@
+{
+  "schema": "fd2d-R182-signed-positive-K-windows-closed-manifest-v1",
+  "closed": true,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_signed_trace_window_certificate.py",
+      "bytes": 13065,
+      "sha256": "d5b588e356986e40d4c77e9fd6bbee342cb79fc6c14799686a1ae56b87264810"
+    },
+    {
+      "path": "results/R182-signed-disjoint-trace-windows-on-certified-positive-K-bands.md",
+      "bytes": 12787,
+      "sha256": "93282b45494ec8014cb1c7df1ce5f0e3a8011ab522fb94f8d66944ef8e914b5e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-packet.json.gz",
+      "bytes": 381937,
+      "sha256": "2ad6ebdc6ce4a8bc13959610161638881bad3da235b4379f69bdbbec13318a30"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-report.json",
+      "bytes": 24888,
+      "sha256": "2b0f46004e28b8a8b17faf7d6187aaf03064e44607d91ae123fcd1fcee1e6894"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-completion-receipt.json",
+      "bytes": 725,
+      "sha256": "a36a2129c2709a272224267168a344a87e308597b6b32d041b9201f2ddd9c998"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-report.json",
+      "bytes": 12198,
+      "sha256": "44d3d9318ffa7b70f7bcc59cebf81df09e72b9c37562c05e1410cdb65b627a68"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-rows.json.gz",
+      "bytes": 124843,
+      "sha256": "d7f990bcef75ec30311e23d3cf92dadf5736f871f141dd3f7fa62071f7793095"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-completion-receipt.json",
+      "bytes": 736,
+      "sha256": "c1afbfe81de2cc4b5e53279630b90442f12dc304fbe41c1affa62ca5e91f3fd7"
+    }
+  ],
+  "artifact_count": 8,
+  "artifact_bytes": 571179,
+  "actual_field": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+    "bytes": 133721,
+    "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+  },
+  "dependencies": [
+    {
+      "path": "scripts/fd2d_gc_r136_rebind_profile.py",
+      "bytes": 7103,
+      "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+    },
+    {
+      "path": "scripts/fd2d_gc_r136_rebind_profile_v2.py",
+      "bytes": 5598,
+      "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+    },
+    {
+      "path": "scripts/fd2d_gc_r136_arb_profile.py",
+      "bytes": 32315,
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    {
+      "path": "scripts/fd2d_gc_r136_bernstein_bumps.py",
+      "bytes": 2895,
+      "sha256": "6daa895c0707712bedc3cf83eabdfb6dd6ee9f142a07f841c5ac695d1837d647"
+    }
+  ],
+  "whole_F_J_BVP_body_evaluated": false,
+  "active_solver_or_saved_field_changed": false,
+  "newly_proved_scope": [
+    "continuous exact K signs on two selected supports and separating negative gap",
+    "signed trace algebra, full derivative formulas and complete-hat gauge",
+    "actual delta sufficient neighborhoods",
+    "general exact Bernstein linear-domain proof; export implementation remains separate"
+  ],
+  "proof_format_correction": {
+    "previous_sha256": "367199bfd301b2f3bdac0c1c6a25e31114dd5496c65dc97a12a5160a7819e873",
+    "new_sha256": "93282b45494ec8014cb1c7df1ce5f0e3a8011ab522fb94f8d66944ef8e914b5e",
+    "scope": "Two missing delta-command backslashes in inline prose restored; h_q numerator comma notation replaced by explicit multiplication spaces. Sources, reports and mathematical computation unchanged.",
+    "computation_repeated": false
+  }
+}

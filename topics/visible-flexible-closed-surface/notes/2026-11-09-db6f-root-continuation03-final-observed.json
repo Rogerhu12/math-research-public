@@ -1,0 +1,79 @@
+{
+  "status": "ROOT_OBSERVED_CONTINUATION03_COMPLETED_WITH_UNCONVERGED_STEP_LIMIT",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T19:51:38.614321+00:00",
+  "root_tool_session_id": 3046,
+  "root_tool_final_receipt": "eaf578",
+  "actual_root_tool_exit_code": 0,
+  "actual_child_exit_code": 0,
+  "solver_mathematical_success": false,
+  "controller_status": "UNCONVERGED_CONTINUATION_STEP_LIMIT",
+  "target_reached": false,
+  "target_audited": false,
+  "last_actual_warm_scale": 0.985595703125,
+  "last_actual_warm_residual": 1.251822050474137e-09,
+  "last_failed_scale": 0.98583984375,
+  "last_failed_iteration": {
+    "iteration": 3,
+    "norm": 0.01964568659651265,
+    "minA": 0.0692573865773523,
+    "minD": 0.9916202785212969,
+    "chartCondition": 57772.820161704585
+  },
+  "minimum_attempted_step": 0.000244140625,
+  "final_success_preparer_executed": false,
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-child-execution.json",
+      "bytes": 2306,
+      "sha256": "2b8655432bf73a597c7e6f4b5ee9221230835212bf48628dcc3460d18abda545"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-guarded-launch.json",
+      "bytes": 29066,
+      "sha256": "9d2495ea6b48872b40a3c813f0c3076819f48a88f1f5bd9dc1b1ec33bfa49594"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-progress.json",
+      "bytes": 15510,
+      "sha256": "25e939c4774c0d834ffe135ad1e6a34cf3eac635a9d03edd3b74655b8811a791"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-reproduction.json",
+      "bytes": 19885,
+      "sha256": "3edfe30bed2fed4cf2218368ef229093b187377171ad0e2707a69f147c03d0d3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-run.log",
+      "bytes": 3220,
+      "sha256": "285b972d2e3db804dcaffee7c9c35370247912e88baa56458543eda2f8944954"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0008.json.gz",
+      "bytes": 267635,
+      "sha256": "396cdd758e7b38cfd7d06ae7595210685bf2d9d9ef90e2fa157bafff087f93cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0009.json.gz",
+      "bytes": 266620,
+      "sha256": "19ca2fbff43302060aa66a5f841b516b9c30d40aec338d3d5879e4814ee23810"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call009-trace.jsonl",
+      "bytes": 2246,
+      "sha256": "431460bdd92c4e0d84a0e35358f63de0d55f5391ccc5b20c623797074ecee218"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call009-trials.jsonl",
+      "bytes": 5713,
+      "sha256": "e5e063b1d95e65443927194263b6e1915afe5ee97e06f64f7cf0187816a83f66"
+    }
+  ],
+  "source_closure_independent_review": "In progress; not claimed by this actual tool observation.",
+  "scope": "Actual normal process exit with explicit mathematical failure; no full target, final Jacobian/audit, coupled prefix, geometric completion or nonexistence claim."
+}

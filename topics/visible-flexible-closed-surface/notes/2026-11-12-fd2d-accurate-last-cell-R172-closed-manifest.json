@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-R172-closed-current-endpoint-consumer-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_accurate_last_cell.py",
+      "bytes": 12120,
+      "sha256": "8c8b8fefd5a3d459833e2b20b472710c54aebbf3ed00028e9740ef0843f6f435"
+    },
+    {
+      "path": "scripts/fd2d-accurate-last-cell-check.py",
+      "bytes": 5955,
+      "sha256": "43499e138fbf799e02f86a333efccfb4f1be1b2e95a9fd694d338e592f13dcd3"
+    },
+    {
+      "path": "results/R172-accurate-last-cell-completion-on-the-unchanged-metric.md",
+      "bytes": 11228,
+      "sha256": "4522ac4e92c6e3bc52e3e38c455c7fd8202aa98f65da7efd185b7fd2e0168def"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-accurate-last-cell-01-definition.json",
+      "bytes": 3398,
+      "sha256": "4685a2ebaaed6545cc1ab77515eb764fea2cefcd0fc7aa6efc5610a67b4d511e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-accurate-last-cell-01-report.json",
+      "bytes": 20792,
+      "sha256": "52a91a41d039e179ee59fd6174eff5bc0266d8e9c14acdd54f16595fc7d47b5b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-accurate-last-cell-01-completion-receipt.json",
+      "bytes": 505,
+      "sha256": "98730532ace502e420f40cf7dd96c888c530d6c9176bc5bf2a2c4504d08d9c58"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01.json",
+      "bytes": 5246,
+      "sha256": "5e2ac101ddc8780dc666ffed46889d78c931ce84a6f52a86c1aef3a0945ad3ec"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_native_interval.py",
+      "bytes": 23311,
+      "sha256": "8f4836a3926ce9f2e25d034b1b5489a3a719db38110458ef8267edcba326d6b1"
+    }
+  ],
+  "actual_exit": 0,
+  "checks": 96,
+  "same_physical_target_g": true,
+  "same_saved_array_bytes": true,
+  "old_finite_field_equal_everywhere": false,
+  "prior_actual_body_transferred": false,
+  "scope": "Explicit accurate last-cell raw/weight completion, complete cut angular trace, physical interval jets and uniform II value comparison; strong target remains open."
+}

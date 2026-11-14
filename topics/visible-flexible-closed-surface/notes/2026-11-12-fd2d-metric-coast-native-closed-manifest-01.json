@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-explicit-R144-coast-native-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_frozen_coast_second_jets.py",
+      "bytes": 9546,
+      "sha256": "a96464af81f147129ecc170ccf2e3c7489fe2914ff28a64109bb2981f65823b1"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_coast_native_field.py",
+      "bytes": 10818,
+      "sha256": "c334fd316429127409459568a95174314da620ddd7861c485e0a9eafd0042284"
+    },
+    {
+      "path": "scripts/fd2d-metric-coast-native-jet-check.py",
+      "bytes": 8920,
+      "sha256": "a83827f7ca2ce5ee69916fda7c0a85fb734e7027b74c8ae7ca1c625e3dada073"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-native-second-jets.md",
+      "bytes": 9073,
+      "sha256": "5bbd1a8ec016887693b905325e53bb973be95deb11ee1db3852415f7f8f3484a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-report.json",
+      "bytes": 11332,
+      "sha256": "02131ba47f7838893d2de3801cbf095ee4d98eb3943a1db3bd227df740da385f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-definition.json",
+      "bytes": 25671,
+      "sha256": "98aba5f4371868c7fe23f910af24a75ee990451f8a093ba47c4c71d2b66ce0a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-samples.npz",
+      "bytes": 5207,
+      "sha256": "27477b1fe25061fec7f4cec953ca84f67316454ca784698d0402f38d98e4239c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-exit-receipt.json",
+      "bytes": 443,
+      "sha256": "fb32d70b859f61beb9c437dc063f6474a1a527bc88a51f4231e1f62ae7f17db4"
+    }
+  ],
+  "actual_success": {
+    "session_id": 72016,
+    "completion_chunk_id": "f19b24",
+    "exit_code": 0
+  },
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-initial.npz",
+    "bytes": 47125,
+    "sha256": "897ecba1f6eaf69252c12236cffae324058b3aeec5fdee817000245224ba3b56"
+  },
+  "reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+  "point_count": 2,
+  "angles_per_point": 8,
+  "original_frozen_cache_or_solver_sources_changed": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false
+}

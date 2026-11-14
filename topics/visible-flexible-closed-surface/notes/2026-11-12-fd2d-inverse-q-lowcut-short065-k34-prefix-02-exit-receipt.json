@@ -1,0 +1,11 @@
+{
+  "schema": "fd2d-observed-process-exit-v1",
+  "session": 67334,
+  "observed_exit_code": 1,
+  "source_file": "fd2d_tail_coupled_prefix_design.py",
+  "source_sha256": "05417298c7ec7ede5add20edd9312559321adb5a6d2cf90c48929124730d462f",
+  "report_file": "2026-11-12-fd2d-inverse-q-lowcut-short065-k34-prefix-02-report.json",
+  "report_sha256": "cf992fa6eb26b0299a75c392e2c681543228769de85a602322c6156b1bbd8055",
+  "exception": "RuntimeError: No T bracket within the positive-coast range",
+  "scope": "Actual attempted T values only; no continuous no-root or nonlinear nonexistence theorem."
+}

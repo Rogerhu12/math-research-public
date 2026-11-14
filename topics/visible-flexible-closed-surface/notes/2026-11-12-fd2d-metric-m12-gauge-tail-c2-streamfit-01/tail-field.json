@@ -1,0 +1,142 @@
+{
+  "schema": "fd2d-shared-twojet-finite-fourier-material-field-v1",
+  "region": "tail",
+  "modes": 192,
+  "nodes": 1025,
+  "producer": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-tail-field-streamfit.py",
+    "bytes": 10297,
+    "sha256": "dc305dbddb4d29009fa9905088187826eb312860718076ba85a6ca1ae76f465a"
+  },
+  "shards": [
+    {
+      "first_node": 0,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000000-000064.npz.gz",
+      "bytes": 963554,
+      "sha256": "14f45a76238b645569491c564a67f30cec83bf2e7cd096ec8f1f38572a9a40d0"
+    },
+    {
+      "first_node": 64,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000064-000128.npz.gz",
+      "bytes": 1161712,
+      "sha256": "18d3ac6c8e38ddbed24b36c1544df0524c7ddde77215c9dd775188c1c655b2c8"
+    },
+    {
+      "first_node": 128,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000128-000192.npz.gz",
+      "bytes": 1163093,
+      "sha256": "3029c1bd694fbe1e08674e327abb022838cc1146020a860a34cf88306b9c9649"
+    },
+    {
+      "first_node": 192,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000192-000256.npz.gz",
+      "bytes": 1164080,
+      "sha256": "1e5437b2342fbc66c42e4118c90f082113942d01bcef97e27c0b41c62adfef7a"
+    },
+    {
+      "first_node": 256,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000256-000320.npz.gz",
+      "bytes": 1163899,
+      "sha256": "05d06e4c79d394792d61312567b0ccf9a54a5c30ac889f5e77a0e29c1c676ff0"
+    },
+    {
+      "first_node": 320,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000320-000384.npz.gz",
+      "bytes": 1163947,
+      "sha256": "9cd8d053094530f2aad4476202a47aca40595207d693cb2d11b8c35abb7507c4"
+    },
+    {
+      "first_node": 384,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000384-000448.npz.gz",
+      "bytes": 1163939,
+      "sha256": "f9c45f8a707e58bf14990f27a05d0dcc684cff812cb804c6c89659286c3ad3c6"
+    },
+    {
+      "first_node": 448,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000448-000512.npz.gz",
+      "bytes": 1163952,
+      "sha256": "ee2696a6d9f956646dadf58c13dc1b845cc037bf7b8a5bdde00c5bfaea9e2ead"
+    },
+    {
+      "first_node": 512,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000512-000576.npz.gz",
+      "bytes": 1164093,
+      "sha256": "d6e8da6bc989df0f722d3a3ce5038065868a0ce2cce0df06821ac6876f7c2370"
+    },
+    {
+      "first_node": 576,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000576-000640.npz.gz",
+      "bytes": 1162230,
+      "sha256": "81671827d2bae4dbc28f05c8a837af2f78a3654c43b791f129ec13a96b5b2538"
+    },
+    {
+      "first_node": 640,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000640-000704.npz.gz",
+      "bytes": 1161654,
+      "sha256": "f966306a3eeb19d5ae7dc6ea09df5637b9d733f231f2ebd0789d9da81b369c6d"
+    },
+    {
+      "first_node": 704,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000704-000768.npz.gz",
+      "bytes": 1161225,
+      "sha256": "6f1b894ac996e1472a0b8ab367c228229679d24b8605537959fc1b5cd42002b4"
+    },
+    {
+      "first_node": 768,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000768-000832.npz.gz",
+      "bytes": 1161753,
+      "sha256": "1c4446138d879ab3987b6725690ed3feb45d1a6acfebd00d65e343ea1f3e0288"
+    },
+    {
+      "first_node": 832,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000832-000896.npz.gz",
+      "bytes": 1162002,
+      "sha256": "62a428da8a859d1bc7a874da36153952eddfd3c53235e012fbf608ec58a09ffc"
+    },
+    {
+      "first_node": 896,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000896-000960.npz.gz",
+      "bytes": 1162448,
+      "sha256": "ece52e9d1170b3ddb5fadbd3d0a23f44846b6d4894c73d4b14cecf53b56b344e"
+    },
+    {
+      "first_node": 960,
+      "node_count": 64,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000960-001024.npz.gz",
+      "bytes": 239744,
+      "sha256": "a0b018a7feca59602b0142a80c5cfe5e3a7d3abd0d4e563fb08f6987c37e3784"
+    },
+    {
+      "first_node": 1024,
+      "node_count": 1,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-001024-001025.npz.gz",
+      "bytes": 324,
+      "sha256": "94e07e613e993d01da9142db3d25f5d0d44c0025e0f7e6ff9d0aa4bb93064f4c"
+    }
+  ],
+  "coordinates": "physical radius r, physical/material theta=u",
+  "components": "p is physical meridian-arclength displacement; q is physical angular displacement",
+  "basis": "sum cosine[n] cos(3n angle)+sine[n] sin(3n angle); n=0 sine is exactly zero",
+  "jets": "exact saved binary value, native first derivative, native second derivative",
+  "interpolation": "exact quintic Hermite from shared nodal two-jets; coefficient arithmetic interpreted over rationals",
+  "outside_radial_interval": "field and both native derivatives are identically zero where an endpoint zero two-jet permits this extension",
+  "field_is_actual_saved_finite_definition": true,
+  "uniform_metric_bound_certified": false,
+  "inverse_material_map_certified": false,
+  "full_surface_success": false
+}

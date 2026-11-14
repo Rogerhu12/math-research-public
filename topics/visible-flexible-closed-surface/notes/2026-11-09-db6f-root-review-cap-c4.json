@@ -1,0 +1,38 @@
+{
+  "status": "PASS-exact-C4-identities-static-method-and-independent-cross-cap-replay",
+  "review_script_sha256": "7167061849af03c0346ebc78f77504b35e98453332b45d98509361fdd40f4d07",
+  "reviewed_script_sha256": "2c8e3c30cd7a23ee2d4c74fca9833b3454085889a28ac5fcf044029b66a4bdf3",
+  "reviewed_note_sha256": "9032aadb9b0bb512d06f56dad53921e8eb7e83ac7b0611d02b20298b3bf81168",
+  "report_sha256": [
+    "b03cfee21fdb4568018173db972f115191fef3a251c7c72b78b6b59626c07a44",
+    "fed472ab238c0b7fe43abd3e0a86bc08cb43d059ce474c857e32fddceb2564f7"
+  ],
+  "exact_rational_cap_identity": true,
+  "exact_derivative_matching_orders": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "all_pilot_arrays_bitwise_identical": true,
+  "matching_report_fields": [
+    "finished",
+    "rows",
+    "finite_tail_manifest_sha256",
+    "primitive_sha256",
+    "background_definition_hashes",
+    "source_hashes",
+    "unmet_tolerance_rows",
+    "cap_crossing_w_taylor_calls",
+    "maximum_w_total_uncertainty",
+    "maximum_radial_residual",
+    "maximum_w_remainder",
+    "maximum_wr_remainder"
+  ],
+  "rows": 3,
+  "cross_cap_taylor_calls": 3,
+  "maximum_w_total_uncertainty": 2.1779972011414653e-07,
+  "completed_replay_exit_code": 0,
+  "scope": "C4 regularity and Taylor enclosure for w(x) within one source profile only. No C4 assertion for abs(w_x), the radial primitive, or profile joins. Physical-radius transport still uses the separately proved Lipschitz bound. No new actual metric bound."
+}

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-coast-local-check.py", line 69, in main
+    if not norm>1e-10:raise ValueError('The declared direction has no real action: '+name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: The declared direction has no real action: tail
+
+{"status": "failed", "passed": false, "seconds": 20.749870771000133, "relative_l2_error": null, "grouped_maxima": null, "report": "notes/2026-11-12-fd2d-metric-grouped-coast-local-01-report.json"}

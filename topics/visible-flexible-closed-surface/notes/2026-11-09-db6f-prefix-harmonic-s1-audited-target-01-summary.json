@@ -1,0 +1,48 @@
+{
+  "status": "SINGLE_TARGET_NOT_ACCEPTED_PREFIX_UNSOLVED",
+  "scope": "One actual target DN only. Source-jet audit is not an actual XYZ or continuous geometry certificate.",
+  "prefix_solved": false,
+  "continuation02_completion_asserted": false,
+  "started_utc": "2026-11-09T14:37:16.748743+00:00",
+  "ended_utc": "2026-11-09T14:37:32.420942+00:00",
+  "elapsed_seconds": 15.672194001002936,
+  "reproduction": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-reproduction.json",
+    "bytes": 27445,
+    "sha256": "891cd833f7ae664e448dac7b678fbd9f97d4f97507697fc0c99ddafc239d8343"
+  },
+  "config": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-config.json",
+    "bytes": 3020,
+    "sha256": "742855f57567de83d3116c9c2770e3e0d28df7768c9996d0fe3ce5bc211d951a"
+  },
+  "actual_response": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01_tail_0001.json.gz",
+    "bytes": 1433,
+    "sha256": "8205dcefb590623700d14dd111bbf0ef6f9cd6defb8e9802de2e12dbad090c8e"
+  },
+  "actual_response_keys": [
+    "checkpoint",
+    "failed",
+    "lastIteration"
+  ],
+  "original_failed_text": "Error: momentum Newton line search failed",
+  "original_last_iteration": null,
+  "original_response_schema_modified": false,
+  "actual_request_count": 1,
+  "worker_pid": 15,
+  "actual_worker_exit_code": 0,
+  "worker_exit_inferred_from_files": false,
+  "worker_exit_validation_error": null,
+  "solver_or_client_error": {
+    "type": "FloatingPointError",
+    "message": "Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}"
+  },
+  "response_validation_error": {
+    "type": "ValueError",
+    "message": "No complete original successful response schema"
+  },
+  "validated_target_response": null,
+  "intended_runner_exit_code": 2,
+  "actual_runner_tool_exit_must_be_recorded_by_parent": true
+}

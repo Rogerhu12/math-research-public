@@ -1,0 +1,22 @@
+{
+  "status": "PASS conditional theorem and scoped finite packet",
+  "reviewer": "independent_geometry",
+  "proof_file": "2026-11-09-db6f-tail-background-collar-proof.md",
+  "proof_sha256": "73794d7ccd88206ae92e1c225e97a4c9ec08f5549a415cdefded042eaf4dc23e",
+  "reviewed_mathematical_sections": [
+    1,
+    2,
+    3
+  ],
+  "minor_repair_applied": "Exact binary64 0.02 is bounded by 1/49 rather than being identified with rational 1/50.",
+  "background_bound": 6,
+  "domain": "Raw node N>=1 inward, excludes cell0 and the prefix.",
+  "packet_rerun": "2026-11-09-db6f-audit-tail-packet-n8-rerun.json",
+  "independent_rational_check": "2026-11-09-db6f-audit-tail-background-and-packet.json",
+  "limitations": [
+    "Exact-integral radial redistribution with alpha>0 is a conditional hypothesis; floating quadrature errors remain separate.",
+    "Endpoint polynomials are exact definitions of approximate data, not enclosures of an unknown exact ODE solution.",
+    "Common outer gauge and projected shared two-jets remain obligations.",
+    "No infinite nonlinear continuation or C2 Cauchy convergence established."
+  ]
+}

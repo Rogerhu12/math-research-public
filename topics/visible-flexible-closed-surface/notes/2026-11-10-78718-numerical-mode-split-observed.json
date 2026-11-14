@@ -1,0 +1,21 @@
+{
+  "actor": "/root/numerical_recovery",
+  "scope": "Actual M/W initial preparation and small exact linear differentiation only; no new DN/BVP.",
+  "preparation": {
+    "tool_chunk": "8a1b5a",
+    "actual_exit_code": 0,
+    "wall_seconds": 0.525348898,
+    "report": "2026-11-10-78718-numerical-m15-w22-geometric-prepare-01-mode-run.json",
+    "report_sha256": "a7b8b35fec33c1366b5a0a67fbfff19087ae7b1a6414946b381cc16875a19b0f"
+  },
+  "projection_check": {
+    "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-projected-tail-interface-check.py --out topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-projected-tail-interface-check.json",
+    "actual_tool_result": {
+      "chunk_id": "b86951",
+      "wall_time_seconds": 0.046198445,
+      "exit_code": 0,
+      "original_token_count": 67,
+      "output": "{\"cases\": 3, \"all_exact\": true, \"solver_calls\": 0, \"tail_calls\": 0, \"report\": \"topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-projected-tail-interface-check.json\", \"sha256\": \"e0a95249bdd73d2d1a911d904f6557fa56f823c505cc09e10bdd59c5c579fe05\"}\n"
+    }
+  }
+}

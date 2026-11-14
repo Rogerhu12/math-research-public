@@ -1,0 +1,33 @@
+{
+  "schema": "db6f-independent-readonly-tool-observations-v1",
+  "observer": "/root/tail_review_continued_2",
+  "scope": "Completed source/hash/JSON/AST and exact integer/Fraction checks only. Root protocol remains conditional.",
+  "executions": [
+    {
+      "tool_receipt": "92702d",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-final-m14-w14-entry-and-export.py"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "observed_status": "PASS_CONDITIONAL_PROTOCOL_METADATA_AND_EXACT_ARITHMETIC",
+      "source_count": 55,
+      "root_source_bindings": 24,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-final-m14-w14-entry-and-export-check.json",
+        "bytes": 3502,
+        "sha256": "210363c3536079b9a2025709378f6aa7e4b76dc72a4a2312d3259d298d9a4be8"
+      }
+    }
+  ],
+  "actual_solver_root_RK_flow_background_factory_calls": 0,
+  "actual_export_transfer_geometry_continuous_backend_calls": 0,
+  "future_candidate_created": false,
+  "normal_terminal_candidate_branch_executed": false,
+  "G5": false,
+  "README_completed": false
+}

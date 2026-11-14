@@ -1,0 +1,19 @@
+{
+  "status": "ACTUAL_LOW_HEIGHT_DN_CONVERGED",
+  "response_utc": "2026-11-10T13:46:27.270Z",
+  "actual_running_tool_chunk": "b69e30",
+  "session_id": 67954,
+  "bootstrap_height_scale": 0.125,
+  "shooting_norm": 1.5667180114594494e-10,
+  "original_tolerance": 2e-09,
+  "packet": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0001.json.gz",
+    "bytes": 763610,
+    "sha256": "087b54b194aaef301b600e36db29a9ddd3aae586404e09ebf8d5e85354d5154e"
+  },
+  "request_jacobian": false,
+  "request_audit": false,
+  "subsequent_actual_tracking_tau": "1/8",
+  "subsequent_actual_tangent_warm": true,
+  "scope": "Actual low-height finite response only. Final original height, prefix coupling, whole metric and closed-surface completion remain unproved."
+}

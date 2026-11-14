@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-radial-angular-array-commutation-check-v1",
+  "passed": true,
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-accepted-0002.npz",
+    "bytes": 58515,
+    "sha256": "c56c1046d2c605d9d6c31bd816766c34ed0ca8eba2292e340332f4022eeba901"
+  },
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-midpoint-refinement-layout-check.py",
+    "bytes": 3191,
+    "sha256": "10ed4157cf0e4c31e84027a64d062e86ab4e26ad550deb35047468142a318cf4"
+  },
+  "provider_v2": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v2.py",
+    "bytes": 13937,
+    "sha256": "497eacc23a27fb12549346c8f427b3ad4db1830feeff33e187a3cf4132151238"
+  },
+  "interpolation_provider": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace.py",
+    "bytes": 15938,
+    "sha256": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158"
+  },
+  "old_modes": 15,
+  "new_modes": 31,
+  "tail_parameter_count": 16,
+  "profile_parameter_count": 7,
+  "old_raw_columns": 47,
+  "new_raw_columns": 95,
+  "old_parameter_count": 38,
+  "new_parameter_count": 54,
+  "mesh_and_coefficients_equal": true,
+  "parameter_arrays_equal": true,
+  "maximum_commutation_difference": 0.0,
+  "independent_tail_mro": [
+    "MidpointRefinedFixedTailDAE",
+    "_MidpointRefinementMixin",
+    "FixedTailDegreePositiveTraceDAE",
+    "PositiveTraceRawBumpDAE",
+    "PositiveGaussRawBumpDAE",
+    "RulingAtlasRawBumpDAE",
+    "CoastReferenceRawBumpDAE",
+    "TurnResolvedRawBumpDAE",
+    "CylinderRawBumpDAE",
+    "CleanRawBumpDAE",
+    "RawBumpDAE",
+    "RawLiftedDAE",
+    "object"
+  ],
+  "preferred_consumption_order": "R158 angular zero extension on the identical original mesh, then R163 radial subdivision; preserve and remap old physical interior-row intervals",
+  "v2_complete_K31_field_or_constructor_check_performed": false,
+  "no_BVP": true,
+  "no_full_function_recheck": true,
+  "no_whole_objective": true,
+  "no_Jacobian": true,
+  "seconds": 0.3922078869982215
+}

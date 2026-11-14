@@ -1,0 +1,106 @@
+{
+  "status": "PASS_DENSE_CALLBACK_IDENTITIES_AND_ZERO_SOLVER_REJECTIONS",
+  "scope": "One synthetic dense dyadic callback interception, twelve invalid-input gates, and rational scalar inequalities. The real SciPy solver is never called. No candidate, root, DN, RK, flow, or BVP integration.",
+  "script_sha256": "b8442b7b00fc22cbbd721274a64626f98792b6df74e3e83a9e49649fec53d88b",
+  "module": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+  "module_sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854",
+  "dense_fixture": {
+    "state_components": 4,
+    "parameters": 2,
+    "nodes": 3,
+    "nonzero_offdiagonal_f_y": true,
+    "nonzero_both_end_jacobians": true,
+    "nonzero_boundary_parameter_jacobian": true,
+    "callback_counts": {
+      "fun": 1,
+      "jac": 1,
+      "bc": 1,
+      "bc_jac": 1
+    },
+    "intercepted_reference_calls": 1,
+    "real_scipy_calls": 0,
+    "gate_values_unchanged": true,
+    "synthetic_call_stopped_by_exception": true
+  },
+  "unsupported_input_cases": [
+    {
+      "case": "complex_weight_ndarray",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only real numeric weights are supported"
+    },
+    {
+      "case": "object_complex_weight",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only real numeric weights are supported"
+    },
+    {
+      "case": "complex_parameter_ndarray",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only real numeric parameters are supported"
+    },
+    {
+      "case": "object_complex_parameter",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only real numeric parameters are supported"
+    },
+    {
+      "case": "complex_grid_ndarray",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only a real numeric one-dimensional mesh is supported"
+    },
+    {
+      "case": "object_complex_grid",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only a real numeric one-dimensional mesh is supported"
+    },
+    {
+      "case": "complex_initial_state",
+      "rejected": true,
+      "exception_type": "FloatingPointError",
+      "reason": "Nonfinite or complex coordinate data"
+    },
+    {
+      "case": "unsupported_S",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only nonsingular prefix problems with parameters are supported"
+    },
+    {
+      "case": "empty_parameter",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Only nonsingular prefix problems with parameters are supported"
+    },
+    {
+      "case": "missing_analytic_jacobian",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Reviewed analytic RHS and boundary Jacobians are required"
+    },
+    {
+      "case": "nonfinite_grid",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Finite strictly increasing mesh required"
+    },
+    {
+      "case": "nonincreasing_grid",
+      "rejected": true,
+      "exception_type": "ValueError",
+      "reason": "Finite strictly increasing mesh required"
+    }
+  ],
+  "invalid_input_call_counts": {
+    "solver": 0,
+    "callback": 0
+  },
+  "exact_rational_RMS_inequality_cases": 36,
+  "independent_replay_of_author_analytic_BVP": false,
+  "physical_graph_or_G5_claim": false
+}

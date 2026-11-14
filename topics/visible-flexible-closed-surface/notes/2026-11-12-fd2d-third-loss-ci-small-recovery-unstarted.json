@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-ci-unstarted-small-recovery-observation-v1",
+  "run_id": 43316649389,
+  "job_id": 131526286693,
+  "head_sha": "0fe552460f37b9a9e8ff44b1c15c311e99df1357",
+  "head_branch": "visible-flex-fd2d-small-recovery-20261112t2208",
+  "created_at": "2026-11-12T22:05:46Z",
+  "observed_status": "completed",
+  "observed_conclusion": "failure",
+  "observed_job_steps": null,
+  "observed_logs_url": null,
+  "executed_terminal_steps_observed": false,
+  "actual_git_pull_observed": false,
+  "actual_threshold_child_created_observed": false,
+  "actual_child_exit": null,
+  "failure_cause": "unknown; no executed step or child result observed",
+  "source_validated_by_run": false,
+  "local_executor": "explicitly unavailable",
+  "last_actual_pull_utc": "2026-11-12 21:36 UTC",
+  "last_rules_read_sha": "5f8785f7f677993f315f53683f1bdbc7ca1440f9"
+}

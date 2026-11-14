@@ -1,0 +1,78 @@
+{
+  "schema": "fd2d-same-g-finite-grid-comparison-v1",
+  "config_sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994",
+  "coarse_steps": 256,
+  "fine_steps": 512,
+  "deep_steps_shared": "n>=60:32; n>=24:128",
+  "far": 160,
+  "samples_compared": 26208,
+  "D2_256": 7.999999999930101,
+  "D2_512": 7.999999999927681,
+  "D2_absolute_difference": 2.4202861936828413e-12,
+  "pointwise_errors": {
+    "H": {
+      "absolute": 3.876883536424458e-11,
+      "cell": 0,
+      "segment": 3,
+      "x": 0.53125,
+      "value512": -0.08539218346905261
+    },
+    "Hr": {
+      "absolute": 3.9073881907825125e-09,
+      "cell": 0,
+      "segment": 4,
+      "x": 0.0625,
+      "value512": 106.3380362566692
+    },
+    "P": {
+      "absolute": 1.8314036424271762e-05,
+      "cell": 1,
+      "segment": 4,
+      "x": 1,
+      "value512": 96999.46400042142
+    },
+    "L": {
+      "absolute": 0.0009462228044867516,
+      "cell": 1,
+      "segment": 4,
+      "x": 0.09375,
+      "value512": -4923751.645891702
+    },
+    "eta": {
+      "absolute": 0.0009462228044867516,
+      "cell": 1,
+      "segment": 4,
+      "x": 0.09375,
+      "value512": 4923751.645921238
+    },
+    "zeta": {
+      "absolute": 0.0019047185778617859,
+      "cell": 1,
+      "segment": 4,
+      "x": 0.96875,
+      "value512": 9894481.317136269
+    },
+    "delta_n": {
+      "absolute": 8.738226142668282e-09,
+      "cell": 0,
+      "segment": 3,
+      "x": 1,
+      "value512": -226.95234977144298
+    },
+    "delta_m": {
+      "absolute": 1.6815079106891062e-08,
+      "cell": 0,
+      "segment": 4,
+      "x": 0,
+      "value512": -452.46954201859404
+    },
+    "delta_l": {
+      "absolute": 9.14710690267384e-05,
+      "cell": 1,
+      "segment": 3,
+      "x": 0.84375,
+      "value512": 478511.68915286724
+    }
+  },
+  "scope": "Same fixed g and saved identical sample locations. Finite refinement comparison only, not a rigorous interval error bound."
+}

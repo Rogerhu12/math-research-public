@@ -1,0 +1,36 @@
+{
+  "status": "PASS_R34_ADOPTION_COPY_AND_SCOPE",
+  "reviewer": "/root/tail_theory",
+  "source": {
+    "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+    "bytes": 13510,
+    "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+  },
+  "formal_result": {
+    "path": "results/R34-poisson-twin-caps-conditional-strong-ratios.md",
+    "bytes": 14623,
+    "sha256": "b6549b3388cce38e826bd29bf65041d019ddd91a9a54031ca4a77119d76314ae"
+  },
+  "existing_full_review": {
+    "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker.md",
+    "bytes": 14976,
+    "sha256": "40da27583d791aab3227e33b94a3f6017695d1b1d264922d6a3dcdb77f19e027"
+  },
+  "root_adoption_ledger": {
+    "path": "notes/2026-11-09-db6f-root-r32-r34-adoption-check.json",
+    "bytes": 10608,
+    "sha256": "9ce110720e14ee318ca6054a26f9c52595129fc031173bad8084dee51e3112f7"
+  },
+  "all_27_ledger_sources_rehashed": true,
+  "mathematical_body_sections_1_through_7_byte_identical": true,
+  "formula_tags_count": 24,
+  "formula_tags_identical": true,
+  "exact_full_body_reconstructed_with_only_one_pending_review_status_replacement": true,
+  "full_body_sha256": "1245248faeb3731ae71bd891db81be25deced35ac0861041ac2cb581986bd93f",
+  "mathematical_body_sha256": "0eae78c019d378760a28c4a496994c4e940329f2a134f16d3e736afceef3b378",
+  "header_scope_independently_read": true,
+  "single_sided_connected_transfer_and_two_sided_obstruction_retained": true,
+  "new_scalar_or_solver_runs": 0,
+  "mathematical_audit_of_other_adoptions_claimed": false,
+  "files_modified": false
+}

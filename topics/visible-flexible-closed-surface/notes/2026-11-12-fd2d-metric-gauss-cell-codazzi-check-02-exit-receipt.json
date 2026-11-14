@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 75977,
+  "completion_chunk_id": "77b248",
+  "observed_exit_code": 0,
+  "program_elapsed_seconds": 76.26218651099953,
+  "peak_rss_kib": 366380,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-gauss-cell-codazzi-stream-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--out",
+    "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02.json"
+  ],
+  "report": "notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02.json",
+  "report_sha256": "aa3af6725da2e3c82a176a0e05f9fdbbe6cbd641ba583b78531581df780b2955",
+  "body_integration_run": false
+}

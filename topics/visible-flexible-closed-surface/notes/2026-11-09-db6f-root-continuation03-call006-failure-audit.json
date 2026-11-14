@@ -1,0 +1,93 @@
+{
+  "status": "CLOSED_ORIGINAL_MATHEMATICAL_LINE_SEARCH_FAILURE",
+  "call": 6,
+  "scale": 0.986328125,
+  "step": 0.0009765625,
+  "response_keys": [
+    "checkpoint",
+    "failed",
+    "lastIteration"
+  ],
+  "last_iteration": {
+    "iteration": 3,
+    "norm": 0.23384170570383042,
+    "minA": 0.06944552583294465,
+    "minD": 0.9916161829305518,
+    "chartCondition": 56729.54425183614
+  },
+  "source_bindings_verified": 83,
+  "response_source_hashes_verified": 8,
+  "exact_request_and_checkpoint_target_equal": true,
+  "state_shape": [
+    865,
+    30
+  ],
+  "raw_shape": [
+    13,
+    30
+  ],
+  "state_and_height_values_finite": true,
+  "unchanged_original_config": true,
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "bytes": 3800,
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "bytes": 3107,
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "bytes": 2907,
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "bytes": 29001,
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0006.json.gz",
+      "bytes": 266811,
+      "sha256": "fda5867be9b3e8f79c52f43e4678b60d05ef973b51070174b0cef85555263780"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call006-trace.jsonl",
+      "bytes": 2242,
+      "sha256": "e07e32a684851ac742364468efd9134dd33bd17563d05c72a7d8d9df5bc5fcee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call006-trials.jsonl",
+      "bytes": 30555,
+      "sha256": "a2531b5ecf96ee8e399114514daeeb2b1ddff9ddda6abc2f50e08e124fb9c540"
+    }
+  ],
+  "log_metadata": [
+    {
+      "kind": "trace",
+      "rows": 10,
+      "scope": "Closed cumulative diagnostic log; no per-call count inferred from total"
+    },
+    {
+      "kind": "trials",
+      "rows": 106,
+      "scope": "Closed cumulative diagnostic log; no per-call count inferred from total"
+    }
+  ],
+  "root_tool_controller_exit_observed": false,
+  "active_progress_or_logs_read": false,
+  "source_script": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-continuation03-call006.py",
+    "bytes": 4810,
+    "sha256": "f878aff419c44419b0c29dbe66775a29d299ec019e03bd98ad177823c7a64014"
+  },
+  "scope": "Closed failure provenance only: no new accepted trial, independent solve, nonexistence or controller-completion claim."
+}

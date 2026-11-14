@@ -1,0 +1,85 @@
+{
+  "schema": "fd2d-R188-actual-completion-observation-recovery-v1",
+  "purpose": "Preserve only fields actually read before the fourth execution-environment loss. This file is newly written; it is not the original full numerical report.",
+  "mathematical_source": {
+    "path": "scripts/fd2d_R188_exact_quarter_primitive.cjs",
+    "bytes": 11478,
+    "sha256": "5c04a135eed859a6d6d583877e53681cdc1dddc6102c913152adfc1913a9f97e"
+  },
+  "actual_execution": {
+    "kind": "Node subprocess launched by the Python wrapper in the actual executor",
+    "command": "python scripts/fd2d-metric-R188-quarter-primitive-check.py --out-prefix notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02",
+    "session_id": 19106,
+    "initial_chunk": "11decf",
+    "final_chunk": "fd5a38",
+    "process_exit_code": 0,
+    "elapsed_seconds": 38.02164778199949,
+    "peak_child_rss_KiB": 84964,
+    "source_sha256_verified_before_launch": true,
+    "original_wrapper_sha256_read": false
+  },
+  "actual_mathematical_output_read": {
+    "complete": true,
+    "quarter_cells": 16,
+    "Taylor_order": 12,
+    "query_normalized_angle": "1/4",
+    "query_physical_angle": "pi/8",
+    "channels": [
+      "T",
+      "T_s",
+      "T_ss",
+      "T_p",
+      "T_q",
+      "T_sp",
+      "T_sq"
+    ],
+    "vector_components_per_channel": 3,
+    "integral_components": 21,
+    "maximum_strict_rational_interval_width_display": 2.270317215141131e-15,
+    "exact_rational_output_endpoints_in_this_recovery_file": false,
+    "complete_functions_not_Fourier_projection": true
+  },
+  "original_full_files_written_and_identity_read": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-report.json",
+      "bytes": 14492,
+      "sha256": "33493d898ce6cfb4067254e1c74b714a7cfe42ff3964e31bee025e7e9a56a043",
+      "complete_bytes_available_in_current_context": false
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-process-receipt.json",
+      "bytes": 1491,
+      "sha256": "c21f0d372b5d83cf47fd11ee55034f3cb44e3abcbc1ef3f58f3940092be650e2",
+      "complete_bytes_available_in_current_context": false
+    }
+  ],
+  "original_other_outputs": {
+    "prefix": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02",
+    "suffixes": [
+      "-stdout.json",
+      "-stderr.txt"
+    ],
+    "written": true,
+    "identities_not_read": true
+  },
+  "separate_unfinished_calls": [
+    {
+      "cell": "g3:52",
+      "state": "stale code-mode host generation; no recoverable completion output",
+      "exit_code": null
+    },
+    {
+      "cell": "g2:13",
+      "state": "post-completion documentation/manifest tool call blocked during the fourth outage; owner terminated the call",
+      "mathematical_subprocess": false,
+      "partial_file_write_status": "unconfirmed"
+    }
+  ],
+  "scope": {
+    "independent_nonlinear_complete_tangent_fixture": true,
+    "R187_or_R190_main_state": false,
+    "BVP_or_full_body_run": false,
+    "full_surface_metric_or_geometry_certificate": false
+  },
+  "next_recovery_action": "Read original files when the actual executor returns and verify the stated SHA256 identities. Do not label a reconstruction as the original report or repeat the completed mathematical run merely to repair storage."
+}

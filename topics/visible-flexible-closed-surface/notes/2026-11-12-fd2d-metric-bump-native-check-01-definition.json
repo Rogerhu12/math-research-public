@@ -1,0 +1,370 @@
+{
+  "schema": "fd2d-raw-physical-bump-piecewise-linear-exact-lifting-v1",
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-native-check-01-fixture.npz",
+    "bytes": 39345,
+    "sha256": "d9ac60e7c824cbb6af1a8b6880be9617e66294fb0b966514d7e16e364572c7b4"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_archive_arrays.py",
+      "bytes": 4139,
+      "sha256": "a2727d5c0a7cf0fea298ac6d055025b515fcaf1feab81f69eb1c29ea2afa6eea"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    }
+  ],
+  "moments": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "means": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+    "bytes": 203694,
+    "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+  },
+  "profile_kind": "physical_bumps",
+  "tail_kind": "positive_bernstein",
+  "base_kind": "balanced_seed",
+  "node_count": 100,
+  "mode_count": 15,
+  "profile_count": 7,
+  "profile_supports": [
+    [
+      0.34,
+      0.7915892713432515
+    ],
+    [
+      0.4528973178358129,
+      0.9044865891790643
+    ],
+    [
+      0.5657946356716258,
+      1.0173839070148774
+    ],
+    [
+      0.6786919535074387,
+      1.1302812248506902
+    ],
+    [
+      0.7915892713432515,
+      1.243178542686503
+    ],
+    [
+      0.9044865891790643,
+      1.356075860522316
+    ],
+    [
+      1.0173839070148774,
+      1.4689731783581288
+    ]
+  ],
+  "fixed_base_T": 0.02,
+  "collar_guard": 0.02,
+  "parameter_layout": {
+    "central": [
+      0,
+      15
+    ],
+    "tail": [
+      15,
+      31
+    ],
+    "physical_profile": [
+      31,
+      38
+    ]
+  },
+  "parameters_order": "[central K, positive tail K+1, physical radial delta J]; no variable T",
+  "physical_deltas": [
+    0.00022945265618534654,
+    -0.00012484405096414272,
+    -0.00029624393097265944,
+    -3.364575808051619e-05,
+    0.00027824352922321073,
+    0.00018250539435967636,
+    -0.00018060357080544706
+  ],
+  "correction_order": "[n_0,n_2,...,n_2K,m_2,...,m_2K,l_0,l_2,...,l_2K]",
+  "radial_interpolation": "Exact continuous P1 binary-node corrections in physical s=x",
+  "node_derivative": "One-sided cell slope; side affects no value or angular derivative",
+  "independent_l_saved": true,
+  "no_shape_denominator": true,
+  "cut_correction_exactly_zero": true,
+  "cut_correction_absolute_max": 0.0,
+  "central_l_correction_exactly_zero": true,
+  "central_m_correction_exactly_zero": true,
+  "physical_profile": {
+    "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    "base_candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "parameters": [
+      0.00022945265618534654,
+      -0.00012484405096414272,
+      -0.00029624393097265944,
+      -3.364575808051619e-05,
+      0.00027824352922321073,
+      0.00018250539435967636,
+      -0.00018060357080544706
+    ],
+    "parameter_count": 7,
+    "supports": [
+      [
+        0.34,
+        0.7915892713432515
+      ],
+      [
+        0.4528973178358129,
+        0.9044865891790643
+      ],
+      [
+        0.5657946356716258,
+        1.0173839070148774
+      ],
+      [
+        0.6786919535074387,
+        1.1302812248506902
+      ],
+      [
+        0.7915892713432515,
+        1.243178542686503
+      ],
+      [
+        0.9044865891790643,
+        1.356075860522316
+      ],
+      [
+        1.0173839070148774,
+        1.4689731783581288
+      ]
+    ],
+    "physical_endpoint": 1.4889731783581288,
+    "protected_cylinder": [
+      0.0,
+      0.32
+    ],
+    "protected_cut_neighborhood": [
+      1.4689731783581288,
+      1.4889731783581288
+    ],
+    "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+    "q_j": "(s-support_left)/(support_right-support_left)",
+    "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+    "uniform_basis_bounds": {
+      "value": 1.0,
+      "first": [
+        9.216266735965766,
+        9.216266735965768,
+        9.216266735965766,
+        9.216266735965768,
+        9.216266735965768,
+        9.216266735965762,
+        9.216266735965768
+      ],
+      "second": [
+        196.14297587978166,
+        196.1429758797817,
+        196.1429758797816,
+        196.1429758797817,
+        196.1429758797817,
+        196.1429758797815,
+        196.1429758797817
+      ]
+    },
+    "delta_scales_for_unit_a_second": [
+      0.00509832174980822,
+      0.00509832174980822,
+      0.005098321749808222,
+      0.00509832174980822,
+      0.00509832174980822,
+      0.0050983217498082245,
+      0.00509832174980822
+    ],
+    "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+    "physical_metric_changes_with_delta": true,
+    "radial_clock": "s is physical; scale 1; no warp",
+    "base_coast_T_fixed": true,
+    "central_and_cut_all_existing_jets_unchanged": true,
+    "same_g_refinement": false
+  },
+  "blend_interval": [
+    0.58,
+    1.399634787656641
+  ],
+  "angular_chart": "u=(1-beta(s))*U_seed(xi)+beta(s)*xi; fixed across delta",
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "100/317",
+    "conservative_curvature_upper_exact": "250/57",
+    "global_convexity_proved_by_l1_bound": true,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "0",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  },
+  "lifting": {
+    "component_order": [
+      "n",
+      "m",
+      "l"
+    ],
+    "tail_start_fraction": 0.42,
+    "tail_end": "fixed physical endpoint",
+    "seed_end": "min(.55,.4*physical endpoint)",
+    "radial_weights": "quintic steps; complete central and tail functions, no angular truncation"
+  },
+  "actual_map": "R119/R124 fixed physical u; F_s=F*A, X_s=F*e1; 24 body/angle-variation components",
+  "field_evaluation_is_floating": true,
+  "full_residual_certified": false,
+  "closed_surface": false,
+  "physical_g_changes_with_delta": true
+}

@@ -1,0 +1,36 @@
+{
+  "status": "conditional-alpha-only-height-transfer-exact-rational-ledger-pending-review",
+  "inputs": {
+    "notes/2026-11-09-db6f-tail-tight-alpha.json": {
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62",
+      "bytes": 4125
+    },
+    "scripts/db6f-tail-sample-background-height.mjs": {
+      "sha256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4",
+      "bytes": 9474
+    },
+    "notes/2026-11-09-db6f-tail-height-alpha-transfer.md": {
+      "sha256": "5bb6b9b576d8baf11c53469fdc66c662faa36de47a94ca246e70ef706fda3700",
+      "bytes": 3876
+    }
+  },
+  "BUpperExact": {
+    "numerator": "4150862999569165",
+    "denominator": "2305843009213693952"
+  },
+  "alphaGapUpperExactFromDisplayedEndpoints": {
+    "numerator": "1669",
+    "denominator": "70368744177664"
+  },
+  "heightDifferenceUpperExact": {
+    "numerator": "1385558069256187277",
+    "denominator": "30423614405477505635920876929024"
+  },
+  "strictThresholdExact": {
+    "numerator": "57",
+    "denominator": "1250000000000000"
+  },
+  "thresholdPassed": true,
+  "heightDifferenceUpperDiagnostic": 4.5542191364571383e-14,
+  "scope": "Only exact-source height change from alpha representative, with cut anchored and cuff constant extension. Finite numerical quadrature/inverse/source evaluation/rounding errors are not certified."
+}

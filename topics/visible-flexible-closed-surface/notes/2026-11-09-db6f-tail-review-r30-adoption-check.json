@@ -1,0 +1,49 @@
+{
+  "status": "PASS-independent-R30-adoption-text-and-scope",
+  "reviewer": "/root/tail_theory",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R30-balanced-support-certificates-over-euclidean-group.md",
+      "bytes": 15734,
+      "sha256": "36f095ba6be80199ad2a1a3a6e7bf8350ffeee4c4f4a34af814907729ed0c84b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound.md",
+      "bytes": 12039,
+      "sha256": "b6df2b1b46542d20ef0198293efe6b98389dc758a52cba9ed50dd6d3ca9780e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-fixed-cap-scope.md",
+      "bytes": 2390,
+      "sha256": "0496aa18c4c9b9fdceb014b57628db17c38e6965504b1bfe49ae748d641e4f86"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r30-adoption-check.json",
+      "bytes": 4885,
+      "sha256": "a103147e82992ccae9c8e4ecfc7ebd0b3ccdfaf745943679898599c2bf4d82ae"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-euclidean-support.md",
+      "bytes": 11780,
+      "sha256": "d2a188e222cb0333ecd0bbcf622501ea173c53cc79a3a1a52a1c66b25aca54ac"
+    }
+  ],
+  "root_source_bindings_rehashed": 15,
+  "main_body_equal_with_only_one_extra_section_separator_LF": true,
+  "main_body_source_bytes": 11668,
+  "main_body_adopted_bytes": 11669,
+  "cap_body_equal_after_conditional_proposition_heading_removed_except_separator_LF": true,
+  "cap_body_source_bytes": 1910,
+  "cap_body_adopted_bytes": 1912,
+  "cap_preface_omitted_is_only_frozen_source_and_scope_introduction": true,
+  "unchanged_all_quantified_hypotheses": true,
+  "no_new_surface_certificate_or_G5_claim": true,
+  "new_numeric_runs": 0,
+  "solver_calls": 0,
+  "first_check_attempt": {
+    "receipt": "0c7449",
+    "actual_exit_code": 1,
+    "reason": "Checker initially selected everything after the file title, including the historical source preface; corrected selector starts after the conditional-proposition section heading. No authored or adopted file was changed and no report had been written."
+  },
+  "scope": "Formal copy and added header/section9 review only. Frozen original proof and earlier independent actual toy/checker runs remain the numerical evidence."
+}

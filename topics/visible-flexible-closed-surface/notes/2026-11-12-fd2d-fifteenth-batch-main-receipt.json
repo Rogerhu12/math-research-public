@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-actual-ci-main-publication-receipt-v1",
+  "commit": "55900ae3c38773b96b3307d69d451f93cbaac6e7",
+  "rules_read_sha": "1e0142827639bc3738d35963e875e9cdbd6bcecb",
+  "attempt": 2,
+  "utc": "2026-11-12T17:56:11.502807+00:00",
+  "method": "ordinary terminal Git; actual main CAS rejection immediately followed by literal pull --rebase and README comparison; root LOG untouched",
+  "workflow_run_id": 43274545118,
+  "workflow_job_id": 131379341066,
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "checkpoint_commit": "dce16c8bd40054c946add638aa160b5e72442acf",
+  "checkpoint_branch": "visible-flex-fd2d-ci-publish-20261112t175428",
+  "local_checkpoint_process": {
+    "session": 50670,
+    "launch_chunk": "f4019c",
+    "final_chunk": "8564d8",
+    "exit_code": 0
+  },
+  "readme_pull_checks": [
+    {
+      "attempt": 1,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "c576eebf0ee762032fea431d1b7395ad5c1ad2bb",
+      "readme_current": "0a4bd6c4726fc342267fef19c537921b65f221fe",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 2,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "0a4bd6c4726fc342267fef19c537921b65f221fe",
+      "readme_current": "1e0142827639bc3738d35963e875e9cdbd6bcecb",
+      "readme_diff_empty": true
+    }
+  ],
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "push_exit": 1,
+      "seconds": 3.0139669080000004,
+      "rejection": "cannot lock main: actual tip 1e0142827639bc3738d35963e875e9cdbd6bcecb differed from expected 0a4bd6c4726fc342267fef19c537921b65f221fe"
+    },
+    {
+      "attempt": 2,
+      "push_exit": 0,
+      "seconds": 1.6564707710000022
+    }
+  ],
+  "closed_batch": {
+    "groups": 6,
+    "files": 94,
+    "bytes": 4733646
+  },
+  "no_strong_completion_claim": true
+}

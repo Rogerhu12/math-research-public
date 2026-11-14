@@ -1,0 +1,71 @@
+{
+  "schema": "fd2d-closed-deliverable-manifest-v1",
+  "scope": "R163 original-schema explicit physical-point subdivision, actual23b3 two saved plateau endpoints, one injected entity and a bounded recovered identity check; analytic R153 resolution formulas only",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_physical_point_refinement.py",
+      "bytes": 16638,
+      "sha256": "68c84652c073d2bd41e2ae29ea300ab53b288ffed37dc9c3b44f42ec5100fafc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-physical-point-refinement-check.py",
+      "bytes": 10569,
+      "sha256": "30621ecd3c2364e757b3bb75fd43aef0f5c20f7288dcda19043972c74515bedb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-physical-point-refinement-recovery-check.py",
+      "bytes": 11619,
+      "sha256": "3896343ee011c5c618a24ef69d9e1d2f93efdd9d22a5bc2fca4a17d94cf253c5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-01-field.npz",
+      "bytes": 119880,
+      "sha256": "2e45aeedbee3c9bdb068c1101195a2ff09f57712c4d6e28ebb2a7ea6bded1772"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-01-report.json",
+      "bytes": 2071,
+      "sha256": "410f9cc89b8fd694c11e1f2fc0b9c35f2ccd1f8dcaf8db36f9ed838da3871595"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-01-process-receipt.json",
+      "bytes": 1204,
+      "sha256": "ef7590d863a1f95b79da7cb13c6fd1cbb04aee90288e7848fa55f5e444f1b672"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-02-report.json",
+      "bytes": 61271,
+      "sha256": "cded95026983c1e2eba9a31d9fbcca067ab298b4c30806bffa0b6341c78ec1b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-02-process-receipt.json",
+      "bytes": 1372,
+      "sha256": "baef1b5ce33c5f9995c2029a8bf7af997c7db66c1568fd64a3118a6a963a2894"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-explicit-plateau-point-refinement.md",
+      "bytes": 7120,
+      "sha256": "97f03be35f5aae50380de711fe3aa86117aa2e35034f0eda8742fe3983dcfbab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R153-radial-resolution-formulas.md",
+      "bytes": 5173,
+      "sha256": "c15c6c35b8e60df0d4e1ae048b60574e9ca6224bae68ce98acda56c79ac065dd"
+    }
+  ],
+  "file_count": 10,
+  "total_bytes": 236917,
+  "actual_exit_codes": [
+    1,
+    0
+  ],
+  "initial_failure": "First report serialization of numpy.bool_ after entity write; original source/report/receipt retained",
+  "successful_actual_process_receipt": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-02-process-receipt.json",
+  "same_physical_input": true,
+  "new_finite_discretization": true,
+  "one_actual_P1_injection": true,
+  "latest_main_state_identity_not_claimed": true,
+  "no_new_R_number": true,
+  "no_active_source_modified": true,
+  "no_whole_F_J_body_or_BVP": true
+}

@@ -1,0 +1,201 @@
+{
+  "schema": "78718-m15-linear-author-observed-pure-executions-v1",
+  "observer": "/root/numerical_recovery",
+  "scope": "Only input preparation, isolated protocol, source/code identity, resource metadata and negative final gate. No candidate/BVP/DN has been started.",
+  "executions": [
+    {
+      "name": "m15_input_gate",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-prepare-m15-linear-v1.py",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01",
+        "--code-check-report",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+        "--code-check-observed",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json",
+        "--check-current-gate"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "587874",
+        "wall_time_seconds": 0.74995896,
+        "exit_code": 0,
+        "original_token_count": 41,
+        "output": "{\"status\": \"PASS_M15_UNSOLVED_WARM_AND_ORIGINAL_INPUTS_ONLY\", \"old_prefix_remains_unsolved\": true, \"new_DN_required_at_N512\": true, \"writes\": 0, \"solver_calls\": 0}\n"
+      },
+      "final_tool": {
+        "chunk_id": "587874",
+        "wall_time_seconds": 0.74995896,
+        "exit_code": 0,
+        "original_token_count": 41,
+        "output": "{\"status\": \"PASS_M15_UNSOLVED_WARM_AND_ORIGINAL_INPUTS_ONLY\", \"old_prefix_remains_unsolved\": true, \"new_DN_required_at_N512\": true, \"writes\": 0, \"solver_calls\": 0}\n"
+      }
+    },
+    {
+      "name": "m15_protocol",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-protocol-v1.py",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-protocol-check-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "e9cc5a",
+        "wall_time_seconds": 0.110822961,
+        "exit_code": 0,
+        "original_token_count": 81,
+        "output": "{\"status\": \"PASS_ISOLATED_CONTROL_PROTOCOL_ONLY\", \"test_count\": 21, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-protocol-check-01.json\", \"bytes\": 4183, \"sha256\": \"8b75c7687c7e080b8edffd9a3f97119da08f34c37e3b5f81cdff6fd957dee8f7\"}\n"
+      },
+      "final_tool": {
+        "chunk_id": "e9cc5a",
+        "wall_time_seconds": 0.110822961,
+        "exit_code": 0,
+        "original_token_count": 81,
+        "output": "{\"status\": \"PASS_ISOLATED_CONTROL_PROTOCOL_ONLY\", \"test_count\": 21, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-protocol-check-01.json\", \"bytes\": 4183, \"sha256\": \"8b75c7687c7e080b8edffd9a3f97119da08f34c37e3b5f81cdff6fd957dee8f7\"}\n"
+      }
+    },
+    {
+      "name": "m15_runtime",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-runtime-v1.py",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-runtime-check-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "79eb21",
+        "wall_time_seconds": 1.010274533,
+        "session_id": 26717,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "final_tool": {
+        "chunk_id": "202b76",
+        "wall_time_seconds": 0.771498749,
+        "exit_code": 0,
+        "original_token_count": 76,
+        "output": "{\"status\": \"PASS_COMPLETE_RUNTIME_IDENTITIES_AND_RESTORATION_ONLY\", \"seconds\": 1.1224377700018522, \"complete_live_code_functions\": 10, \"canonical_closure_changes_rejected\": 10, \"report_bytes\": 98318, \"report_sha256\": \"6a6b8fd079c04d2d4668fcd5b4be57f2e06373ff8f5856d0262c64aa956c0293\", \"solver_calls\": 0}\n"
+      }
+    },
+    {
+      "name": "m15_prepare",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-prepare-m15-linear-v1.py",
+        "--out-prefix",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01",
+        "--code-check-report",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+        "--code-check-observed",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-observed-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "e481c0",
+        "wall_time_seconds": 1.000876378,
+        "session_id": 10221,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "final_tool": {
+        "chunk_id": "ec266b",
+        "wall_time_seconds": 0.325217969,
+        "exit_code": 0,
+        "original_token_count": 164,
+        "output": "{\"status\": \"PREPARED_ONLY_NO_NEW_CANDIDATE_NO_SOLVER\", \"launch\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json\", \"bytes\": 124724, \"sha256\": \"dbccb1b7892a0cfda626bf2769270b8bd1c9d3e3ef715c7583d8e731f88fee03\"}, \"preparation\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-preparation.json\", \"bytes\": 6614, \"sha256\": \"0a3a61e3393a631d14c3c5a3dc06fd69fe7357c0debdf9578028a1e6d86d3475\"}, \"launch_bindings\": 188, \"policy_bindings\": 187, \"solver_calls\": 0}\n"
+      }
+    },
+    {
+      "name": "m15_entry_check",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-entry-gates-v1.py",
+        "--launch",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-entry-check-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "bd26ac",
+        "wall_time_seconds": 1.00153969,
+        "session_id": 12754,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "final_tool": {
+        "chunk_id": "130c00",
+        "wall_time_seconds": 3.002769839,
+        "exit_code": 0,
+        "original_token_count": 105,
+        "output": "{\"status\": \"PASS_INPUTS_AND_COMPLETE_LIVE_CONTROL_CODE_ONLY\", \"bindings\": 188, \"live_control_functions\": 30, \"changes_rejected\": 30, \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-entry-check-01.json\", \"bytes\": 51807, \"sha256\": \"b83056e9f8e940bdd314a2db905c3a8f6d0507a0646a6fb46881ebf3e68c2692\"}, \"solver_calls\": 0}\n"
+      }
+    },
+    {
+      "name": "m15_negative_final",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-m15-linear-v1.py",
+        "--launch",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+        "--mode",
+        "final",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-negative-final-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "9e5691",
+        "wall_time_seconds": 0.85315316,
+        "exit_code": 2,
+        "original_token_count": 50,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"ready\": false, \"mode\": \"final\", \"solver_calls\": 0, \"active_trace_read\": false, \"reason\": \"ValueError('NOT_READY: root actual tool-exit observation is required')\"}\n"
+      },
+      "final_tool": {
+        "chunk_id": "9e5691",
+        "wall_time_seconds": 0.85315316,
+        "exit_code": 2,
+        "original_token_count": 50,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"ready\": false, \"mode\": \"final\", \"solver_calls\": 0, \"active_trace_read\": false, \"reason\": \"ValueError('NOT_READY: root actual tool-exit observation is required')\"}\n"
+      }
+    },
+    {
+      "name": "m15_guard",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-m15-linear-guard-v1.py",
+        "--launch",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "3cfc0d",
+        "wall_time_seconds": 0.931403743,
+        "exit_code": 0,
+        "original_token_count": 289,
+        "output": "{\n  \"status\": \"PREPARED_NOT_STARTED\",\n  \"guard_launch\": {\n    \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-launch.json\",\n    \"bytes\": 55210,\n    \"sha256\": \"879dc8f158b855e90b33dd0898e4676d7cb9f7a3734b61fde9f2839ef0bc4a0f\"\n  },\n  \"bound_files\": 190,\n  \"solver_calls\": 0,\n  \"root_start_command\": [\n    \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-m14-csc-resource-6g.py\",\n    \"--launch\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-launch.json\",\n    \"--observation\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-completion.json\",\n    \"--backup-observation\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-live.json\"\n  ]\n}\n"
+      },
+      "final_tool": {
+        "chunk_id": "3cfc0d",
+        "wall_time_seconds": 0.931403743,
+        "exit_code": 0,
+        "original_token_count": 289,
+        "output": "{\n  \"status\": \"PREPARED_NOT_STARTED\",\n  \"guard_launch\": {\n    \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-launch.json\",\n    \"bytes\": 55210,\n    \"sha256\": \"879dc8f158b855e90b33dd0898e4676d7cb9f7a3734b61fde9f2839ef0bc4a0f\"\n  },\n  \"bound_files\": 190,\n  \"solver_calls\": 0,\n  \"root_start_command\": [\n    \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-m14-csc-resource-6g.py\",\n    \"--launch\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-launch.json\",\n    \"--observation\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-completion.json\",\n    \"--backup-observation\",\n    \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-guard-live.json\"\n  ]\n}\n"
+      }
+    }
+  ],
+  "source_generation": {
+    "actual_tool_receipt": "dde2e9",
+    "actual_exit_code": 0,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flexible-closed-surface/scripts/78718-build-m15-linear-entry-v1.py"
+    ],
+    "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+    "derived_sources": 7,
+    "scope": "Source text generation only; no numerical evaluation."
+  }
+}

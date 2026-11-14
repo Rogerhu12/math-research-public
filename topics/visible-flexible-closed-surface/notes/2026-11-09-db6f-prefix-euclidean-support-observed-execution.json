@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVED_EXACT_TOY_TABLE_COMPLETED",
+  "observer": "/root/coupled_prefix",
+  "recorded_utc": "2026-11-09T16:33:48.029994+00:00",
+  "actual_exit_code": 0,
+  "tool_receipt": "01bf28",
+  "wall_time_seconds": 0.159059187,
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "command": [
+    "python",
+    "scripts/db6f-prefix-euclidean-support-toy-certificate.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-euclidean-support-toy-certificate.json"
+  ],
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-euclidean-support-toy-certificate.py",
+    "bytes": 5962,
+    "sha256": "8c0207a9974829fee227eada20ac4977824d52e50ef2779ec8470e10cd1e3305"
+  },
+  "method": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound.md",
+    "bytes": 12039,
+    "sha256": "b6df2b1b46542d20ef0198293efe6b98389dc758a52cba9ed50dd6d3ca9780e6"
+  },
+  "output": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-toy-certificate.json",
+    "bytes": 8959,
+    "sha256": "5b5b3b8a6de37bde6c7132ea58791777c6275446884382f516b780b65c9e5793"
+  },
+  "stdout": {
+    "all_checks_passed": true,
+    "rows": 8,
+    "lower_bound": "1/4",
+    "strict_margin_above_1_5": "1/20",
+    "solver_calls": 0,
+    "bytes": 8959,
+    "sha256": "5b5b3b8a6de37bde6c7132ea58791777c6275446884382f516b780b65c9e5793"
+  },
+  "scope": "Only fixed finite-point-set rational support evaluations and coefficient checks. Universal rotation coverage is provided by the analytic theorem, not sampled by this execution."
+}

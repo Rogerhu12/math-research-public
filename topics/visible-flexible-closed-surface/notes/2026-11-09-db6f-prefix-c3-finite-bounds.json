@@ -1,0 +1,886 @@
+{
+  "status": "EXACT_FINITE_POSITIVE_TRIGONOMETRIC_AUXILIARY_CORE_ONLY",
+  "same_as_current_frozen_g": false,
+  "new_closed_surface_or_flexible_family_asserted": false,
+  "rounding_scale": 1000000000000,
+  "rounding": "integer floor/ceiling of exact Fraction; no binary floating arithmetic",
+  "source_bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-finite-bounds.py",
+      "bytes": 4639,
+      "sha256": "6ca39830537b2f63f444fb3de71f8ba69251211b2485a3f698dcc749e5063e69"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-core.md",
+      "bytes": 14980,
+      "sha256": "df2f2857c8330dc9fd851d09e194ae731c46336e4dafba2a5cb9afd90cfd761f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R10-positive-support-offset-reach.md",
+      "bytes": 3937,
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "cases": [
+    {
+      "Fejer_order": 3,
+      "rho_and_support_C3_harmonics": 6,
+      "rho_and_support_max_normal_angle_frequency": 18,
+      "Cartesian_max_normal_angle_frequency": 19,
+      "finite_in_arclength_Fourier_basis_asserted": false,
+      "r": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "normalization_c0": {
+        "numerator": "11",
+        "denominator": "4"
+      },
+      "positive_fourier_b": [
+        {
+          "j": 1,
+          "numerator": "10",
+          "denominator": "11"
+        },
+        {
+          "j": 2,
+          "numerator": "31",
+          "denominator": "44"
+        },
+        {
+          "j": 3,
+          "numerator": "5",
+          "denominator": "11"
+        },
+        {
+          "j": 4,
+          "numerator": "5",
+          "denominator": "22"
+        },
+        {
+          "j": 5,
+          "numerator": "1",
+          "denominator": "11"
+        },
+        {
+          "j": 6,
+          "numerator": "1",
+          "denominator": "44"
+        }
+      ],
+      "rho_min_exact": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "rho_max_exact": {
+        "numerator": "587",
+        "denominator": "110"
+      },
+      "delta_exact": {
+        "numerator": "531",
+        "denominator": "1232"
+      },
+      "delta": {
+        "lower": {
+          "numerator": "215503246753",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "431006493507",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.431006493506",
+        "upper_decimal": "0.431006493507"
+      },
+      "diameter_upper_exact": {
+        "numerator": "184802263",
+        "denominator": "88913825"
+      },
+      "diameter_upper": {
+        "lower": {
+          "numerator": "519610597677",
+          "denominator": "250000000000"
+        },
+        "upper": {
+          "numerator": "2078442390709",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "2.078442390708",
+        "upper_decimal": "2.078442390709"
+      },
+      "inradius_exact": {
+        "numerator": "2120489617",
+        "denominator": "2845242400"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "186318889473",
+          "denominator": "250000000000"
+        },
+        "upper": {
+          "numerator": "745275557893",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.745275557892",
+        "upper_decimal": "0.745275557893"
+      },
+      "plane_ratio_lower": {
+        "lower": {
+          "numerator": "41473989891",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "12960621841",
+          "denominator": "62500000000"
+        },
+        "lower_decimal": "0.207369949455",
+        "upper_decimal": "0.207369949456"
+      },
+      "whole_D_budget": {
+        "numerator": "43",
+        "denominator": "20"
+      },
+      "z_span_budget": {
+        "numerator": "27",
+        "denominator": "50"
+      },
+      "projection_leakage": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "strict_margins": {
+        "whole_diameter_squared": {
+          "lower": {
+            "numerator": "10977228503",
+            "denominator": "1000000000000"
+          },
+          "upper": {
+            "numerator": "1372153563",
+            "denominator": "125000000000"
+          },
+          "lower_decimal": "0.010977228503",
+          "upper_decimal": "0.010977228504"
+        },
+        "held_target": {
+          "lower": {
+            "numerator": "503246753",
+            "denominator": "500000000000"
+          },
+          "upper": {
+            "numerator": "503246753",
+            "denominator": "500000000000"
+          },
+          "lower_decimal": "0.001006493506",
+          "upper_decimal": "0.001006493506"
+        },
+        "core_reach_target_only": {
+          "lower": {
+            "numerator": "71",
+            "denominator": "2000"
+          },
+          "upper": {
+            "numerator": "71",
+            "denominator": "2000"
+          },
+          "lower_decimal": "0.035500000000",
+          "upper_decimal": "0.035500000000"
+        },
+        "unconstructed_grip_disk_projection": {
+          "lower": {
+            "numerator": "111318889473",
+            "denominator": "250000000000"
+          },
+          "upper": {
+            "numerator": "111318889473",
+            "denominator": "250000000000"
+          },
+          "lower_decimal": "0.445275557892",
+          "upper_decimal": "0.445275557892"
+        },
+        "unconstructed_grip_disk_diameter": {
+          "lower": {
+            "numerator": "17",
+            "denominator": "100"
+          },
+          "upper": {
+            "numerator": "17",
+            "denominator": "100"
+          },
+          "lower_decimal": "0.170000000000",
+          "upper_decimal": "0.170000000000"
+        }
+      },
+      "all_strict_rational_checks_passed": true,
+      "whole_budget_scope": "CONDITIONAL; no closed surface, fixed grip or whole reach asserted"
+    },
+    {
+      "Fejer_order": 4,
+      "rho_and_support_C3_harmonics": 8,
+      "rho_and_support_max_normal_angle_frequency": 24,
+      "Cartesian_max_normal_angle_frequency": 25,
+      "finite_in_arclength_Fourier_basis_asserted": false,
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "normalization_c0": {
+        "numerator": "17",
+        "denominator": "5"
+      },
+      "positive_fourier_b": [
+        {
+          "j": 1,
+          "numerator": "16",
+          "denominator": "17"
+        },
+        {
+          "j": 2,
+          "numerator": "4",
+          "denominator": "5"
+        },
+        {
+          "j": 3,
+          "numerator": "52",
+          "denominator": "85"
+        },
+        {
+          "j": 4,
+          "numerator": "7",
+          "denominator": "17"
+        },
+        {
+          "j": 5,
+          "numerator": "4",
+          "denominator": "17"
+        },
+        {
+          "j": 6,
+          "numerator": "2",
+          "denominator": "17"
+        },
+        {
+          "j": 7,
+          "numerator": "4",
+          "denominator": "85"
+        },
+        {
+          "j": 8,
+          "numerator": "1",
+          "denominator": "85"
+        }
+      ],
+      "rho_min_exact": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "rho_max_exact": {
+        "numerator": "32",
+        "denominator": "5"
+      },
+      "delta_exact": {
+        "numerator": "6621",
+        "denominator": "15400"
+      },
+      "delta": {
+        "lower": {
+          "numerator": "85987012987",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "53741883117",
+          "denominator": "125000000000"
+        },
+        "lower_decimal": "0.429935064935",
+        "upper_decimal": "0.429935064936"
+      },
+      "diameter_upper_exact": {
+        "numerator": "9708315928",
+        "denominator": "4647768125"
+      },
+      "diameter_upper": {
+        "lower": {
+          "numerator": "1044406225407",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "417762490163",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "2.088812450814",
+        "upper_decimal": "2.088812450815"
+      },
+      "inradius_exact": {
+        "numerator": "5006922241",
+        "denominator": "6760390000"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "5925009937",
+          "denominator": "8000000000"
+        },
+        "upper": {
+          "numerator": "370313121063",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "0.740626242125",
+        "upper_decimal": "0.740626242126"
+      },
+      "plane_ratio_lower": {
+        "lower": {
+          "numerator": "205827509677",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "102913754839",
+          "denominator": "500000000000"
+        },
+        "lower_decimal": "0.205827509677",
+        "upper_decimal": "0.205827509678"
+      },
+      "whole_D_budget": {
+        "numerator": "107",
+        "denominator": "50"
+      },
+      "z_span_budget": {
+        "numerator": "23",
+        "denominator": "50"
+      },
+      "projection_leakage": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "strict_margins": {
+        "whole_diameter_squared": {
+          "lower": {
+            "numerator": "121563633",
+            "denominator": "25000000000"
+          },
+          "upper": {
+            "numerator": "4862545321",
+            "denominator": "1000000000000"
+          },
+          "lower_decimal": "0.004862545320",
+          "upper_decimal": "0.004862545321"
+        },
+        "held_target": {
+          "lower": {
+            "numerator": "387012987",
+            "denominator": "200000000000"
+          },
+          "upper": {
+            "numerator": "387012987",
+            "denominator": "200000000000"
+          },
+          "lower_decimal": "0.001935064935",
+          "upper_decimal": "0.001935064935"
+        },
+        "core_reach_target_only": {
+          "lower": {
+            "numerator": "429",
+            "denominator": "5000"
+          },
+          "upper": {
+            "numerator": "429",
+            "denominator": "5000"
+          },
+          "lower_decimal": "0.085800000000",
+          "upper_decimal": "0.085800000000"
+        },
+        "unconstructed_grip_disk_projection": {
+          "lower": {
+            "numerator": "3525009937",
+            "denominator": "8000000000"
+          },
+          "upper": {
+            "numerator": "3525009937",
+            "denominator": "8000000000"
+          },
+          "lower_decimal": "0.440626242125",
+          "upper_decimal": "0.440626242125"
+        },
+        "unconstructed_grip_disk_diameter": {
+          "lower": {
+            "numerator": "43",
+            "denominator": "250"
+          },
+          "upper": {
+            "numerator": "43",
+            "denominator": "250"
+          },
+          "lower_decimal": "0.172000000000",
+          "upper_decimal": "0.172000000000"
+        }
+      },
+      "all_strict_rational_checks_passed": true,
+      "whole_budget_scope": "CONDITIONAL; no closed surface, fixed grip or whole reach asserted"
+    },
+    {
+      "Fejer_order": 7,
+      "rho_and_support_C3_harmonics": 14,
+      "rho_and_support_max_normal_angle_frequency": 42,
+      "Cartesian_max_normal_angle_frequency": 43,
+      "finite_in_arclength_Fourier_basis_asserted": false,
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "normalization_c0": {
+        "numerator": "43",
+        "denominator": "8"
+      },
+      "positive_fourier_b": [
+        {
+          "j": 1,
+          "numerator": "42",
+          "denominator": "43"
+        },
+        {
+          "j": 2,
+          "numerator": "315",
+          "denominator": "344"
+        },
+        {
+          "j": 3,
+          "numerator": "71",
+          "denominator": "86"
+        },
+        {
+          "j": 4,
+          "numerator": "123",
+          "denominator": "172"
+        },
+        {
+          "j": 5,
+          "numerator": "51",
+          "denominator": "86"
+        },
+        {
+          "j": 6,
+          "numerator": "161",
+          "denominator": "344"
+        },
+        {
+          "j": 7,
+          "numerator": "15",
+          "denominator": "43"
+        },
+        {
+          "j": 8,
+          "numerator": "21",
+          "denominator": "86"
+        },
+        {
+          "j": 9,
+          "numerator": "7",
+          "denominator": "43"
+        },
+        {
+          "j": 10,
+          "numerator": "35",
+          "denominator": "344"
+        },
+        {
+          "j": 11,
+          "numerator": "5",
+          "denominator": "86"
+        },
+        {
+          "j": 12,
+          "numerator": "5",
+          "denominator": "172"
+        },
+        {
+          "j": 13,
+          "numerator": "1",
+          "denominator": "86"
+        },
+        {
+          "j": 14,
+          "numerator": "1",
+          "denominator": "344"
+        }
+      ],
+      "rho_min_exact": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "rho_max_exact": {
+        "numerator": "8833",
+        "denominator": "860"
+      },
+      "delta_exact": {
+        "numerator": "242266589",
+        "denominator": "523402880"
+      },
+      "delta": {
+        "lower": {
+          "numerator": "57858534567",
+          "denominator": "125000000000"
+        },
+        "upper": {
+          "numerator": "462868276537",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.462868276536",
+        "upper_decimal": "0.462868276537"
+      },
+      "diameter_upper_exact": {
+        "numerator": "582632548035169127",
+        "denominator": "275764086893044750"
+      },
+      "diameter_upper": {
+        "lower": {
+          "numerator": "132049588699",
+          "denominator": "62500000000"
+        },
+        "upper": {
+          "numerator": "422558683837",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "2.112793419184",
+        "upper_decimal": "2.112793419185"
+      },
+      "inradius_exact": {
+        "numerator": "25138006521989158297",
+        "denominator": "35297803122309728000"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "712169152139",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "35608457607",
+          "denominator": "50000000000"
+        },
+        "lower_decimal": "0.712169152139",
+        "upper_decimal": "0.712169152140"
+      },
+      "plane_ratio_lower": {
+        "lower": {
+          "numerator": "3423106469",
+          "denominator": "15625000000"
+        },
+        "upper": {
+          "numerator": "219078814017",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.219078814016",
+        "upper_decimal": "0.219078814017"
+      },
+      "whole_D_budget": {
+        "numerator": "23",
+        "denominator": "10"
+      },
+      "z_span_budget": {
+        "numerator": "9",
+        "denominator": "10"
+      },
+      "projection_leakage": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "strict_margins": {
+        "whole_diameter_squared": {
+          "lower": {
+            "numerator": "2012995981",
+            "denominator": "125000000000"
+          },
+          "upper": {
+            "numerator": "16103967849",
+            "denominator": "1000000000000"
+          },
+          "lower_decimal": "0.016103967848",
+          "upper_decimal": "0.016103967849"
+        },
+        "held_target": {
+          "lower": {
+            "numerator": "358534567",
+            "denominator": "125000000000"
+          },
+          "upper": {
+            "numerator": "358534567",
+            "denominator": "125000000000"
+          },
+          "lower_decimal": "0.002868276536",
+          "upper_decimal": "0.002868276536"
+        },
+        "core_reach_target_only": {
+          "lower": {
+            "numerator": "81",
+            "denominator": "1000"
+          },
+          "upper": {
+            "numerator": "81",
+            "denominator": "1000"
+          },
+          "lower_decimal": "0.081000000000",
+          "upper_decimal": "0.081000000000"
+        },
+        "unconstructed_grip_disk_projection": {
+          "lower": {
+            "numerator": "412169152139",
+            "denominator": "1000000000000"
+          },
+          "upper": {
+            "numerator": "412169152139",
+            "denominator": "1000000000000"
+          },
+          "lower_decimal": "0.412169152139",
+          "upper_decimal": "0.412169152139"
+        },
+        "unconstructed_grip_disk_diameter": {
+          "lower": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "upper": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "lower_decimal": "0.140000000000",
+          "upper_decimal": "0.140000000000"
+        }
+      },
+      "all_strict_rational_checks_passed": true,
+      "whole_budget_scope": "CONDITIONAL; no closed surface, fixed grip or whole reach asserted"
+    },
+    {
+      "Fejer_order": 7,
+      "rho_and_support_C3_harmonics": 14,
+      "rho_and_support_max_normal_angle_frequency": 42,
+      "Cartesian_max_normal_angle_frequency": 43,
+      "finite_in_arclength_Fourier_basis_asserted": false,
+      "r": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "normalization_c0": {
+        "numerator": "43",
+        "denominator": "8"
+      },
+      "positive_fourier_b": [
+        {
+          "j": 1,
+          "numerator": "42",
+          "denominator": "43"
+        },
+        {
+          "j": 2,
+          "numerator": "315",
+          "denominator": "344"
+        },
+        {
+          "j": 3,
+          "numerator": "71",
+          "denominator": "86"
+        },
+        {
+          "j": 4,
+          "numerator": "123",
+          "denominator": "172"
+        },
+        {
+          "j": 5,
+          "numerator": "51",
+          "denominator": "86"
+        },
+        {
+          "j": 6,
+          "numerator": "161",
+          "denominator": "344"
+        },
+        {
+          "j": 7,
+          "numerator": "15",
+          "denominator": "43"
+        },
+        {
+          "j": 8,
+          "numerator": "21",
+          "denominator": "86"
+        },
+        {
+          "j": 9,
+          "numerator": "7",
+          "denominator": "43"
+        },
+        {
+          "j": 10,
+          "numerator": "35",
+          "denominator": "344"
+        },
+        {
+          "j": 11,
+          "numerator": "5",
+          "denominator": "86"
+        },
+        {
+          "j": 12,
+          "numerator": "5",
+          "denominator": "172"
+        },
+        {
+          "j": 13,
+          "numerator": "1",
+          "denominator": "86"
+        },
+        {
+          "j": 14,
+          "numerator": "1",
+          "denominator": "344"
+        }
+      ],
+      "rho_min_exact": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "rho_max_exact": {
+        "numerator": "4651",
+        "denominator": "430"
+      },
+      "delta_exact": {
+        "numerator": "2180399301",
+        "denominator": "4448924480"
+      },
+      "delta": {
+        "lower": {
+          "numerator": "98019164443",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "61261977777",
+          "denominator": "125000000000"
+        },
+        "lower_decimal": "0.490095822215",
+        "upper_decimal": "0.490095822216"
+      },
+      "diameter_upper_exact": {
+        "numerator": "4967928845423477393",
+        "denominator": "2343994738590880375"
+      },
+      "diameter_upper": {
+        "lower": {
+          "numerator": "423885665239",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "529857081549",
+          "denominator": "250000000000"
+        },
+        "lower_decimal": "2.119428326195",
+        "upper_decimal": "2.119428326196"
+      },
+      "inradius_exact": {
+        "numerator": "208593157136747560673",
+        "denominator": "300031326539632688000"
+      },
+      "inradius": {
+        "lower": {
+          "numerator": "347618962897",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "139047585159",
+          "denominator": "200000000000"
+        },
+        "lower_decimal": "0.695237925794",
+        "upper_decimal": "0.695237925795"
+      },
+      "plane_ratio_lower": {
+        "lower": {
+          "numerator": "5780990753",
+          "denominator": "25000000000"
+        },
+        "upper": {
+          "numerator": "231239630121",
+          "denominator": "1000000000000"
+        },
+        "lower_decimal": "0.231239630120",
+        "upper_decimal": "0.231239630121"
+      },
+      "whole_D_budget": {
+        "numerator": "12",
+        "denominator": "5"
+      },
+      "z_span_budget": {
+        "numerator": "11",
+        "denominator": "10"
+      },
+      "projection_leakage": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "strict_margins": {
+        "whole_diameter_squared": {
+          "lower": {
+            "numerator": "29011785059",
+            "denominator": "500000000000"
+          },
+          "upper": {
+            "numerator": "58023570119",
+            "denominator": "1000000000000"
+          },
+          "lower_decimal": "0.058023570118",
+          "upper_decimal": "0.058023570119"
+        },
+        "held_target": {
+          "lower": {
+            "numerator": "2019164443",
+            "denominator": "200000000000"
+          },
+          "upper": {
+            "numerator": "2019164443",
+            "denominator": "200000000000"
+          },
+          "lower_decimal": "0.010095822215",
+          "upper_decimal": "0.010095822215"
+        },
+        "core_reach_target_only": {
+          "lower": {
+            "numerator": "7",
+            "denominator": "250"
+          },
+          "upper": {
+            "numerator": "7",
+            "denominator": "250"
+          },
+          "lower_decimal": "0.028000000000",
+          "upper_decimal": "0.028000000000"
+        },
+        "unconstructed_grip_disk_projection": {
+          "lower": {
+            "numerator": "197618962897",
+            "denominator": "500000000000"
+          },
+          "upper": {
+            "numerator": "197618962897",
+            "denominator": "500000000000"
+          },
+          "lower_decimal": "0.395237925794",
+          "upper_decimal": "0.395237925794"
+        },
+        "unconstructed_grip_disk_diameter": {
+          "lower": {
+            "numerator": "3",
+            "denominator": "25"
+          },
+          "upper": {
+            "numerator": "3",
+            "denominator": "25"
+          },
+          "lower_decimal": "0.120000000000",
+          "upper_decimal": "0.120000000000"
+        }
+      },
+      "all_strict_rational_checks_passed": true,
+      "whole_budget_scope": "CONDITIONAL; no closed surface, fixed grip or whole reach asserted"
+    }
+  ],
+  "solver_root_RK_geometry_backend_calls": 0
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "fd2d-R186-Armijo-step-domain-closed-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-R186-step-domain-arithmetic.mjs",
+      "bytes": 4286,
+      "sha256": "9f8a9d48fd8096deef24192c9d4666424087e1e9b9055e00313f73e9c711b25d",
+      "commit_sha": "a46d743cb727c4a1fbc5ba9d7ab39779275c3cea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R186-step-domain-01-report.json",
+      "bytes": 3035,
+      "sha256": "5e1c6cb209d97a927214f67fea985ebb479e10db93fd947742b0a89a073ba977",
+      "commit_sha": "2919c200aa4f5e46e3faeed2a29fb551d1e84c44"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R186-Armijo-step-domain.md",
+      "bytes": 5686,
+      "sha256": "883a50f2f04c6c13ca776047caf50cf70ff9b6bab50a2e6f9fa676d1ecc88761",
+      "commit_sha": "80946d7d23f52cb3ea8ceadc1bca7a988cf93a0d"
+    }
+  ],
+  "mathematical_status": "exact affine entry condition proved; actual binary64 trial membership kept separate",
+  "execution": {
+    "runtime": "functions.exec V8 BigInt",
+    "actual_completed": true,
+    "origin_b075": true,
+    "default_endpoint_is_original_box_upper_not_actual_QP": true,
+    "new_F_J_BVP_body": false,
+    "subprocess_started": false,
+    "exit_code": null
+  },
+  "original_R186_and_solver_sources_modified": false,
+  "uncomputed": "No actual QP endpoint or saved Armijo trial was consumed in this default report."
+}

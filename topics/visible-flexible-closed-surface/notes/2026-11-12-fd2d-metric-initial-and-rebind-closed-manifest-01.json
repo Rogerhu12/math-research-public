@@ -1,0 +1,123 @@
+{
+  "schema": "fd2d-current-central-and-R171-rebind-closed-group-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T20:25:49.309370+00:00",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_current_initial_compatibility.py",
+      "bytes": 7471,
+      "sha256": "4798015e22dc7d335cd7eb6b96c1d0f57b3bfc5a2a2d1ab2c3e9e7c5c205cca6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-initial-compatibility.md",
+      "bytes": 6587,
+      "sha256": "6bc49f73d6253ccd6b24c706b74ae96046e17c4fc3bbb0322e255e2374daa340"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-initial-compatibility-01-report.json",
+      "bytes": 10167,
+      "sha256": "ccbc4c5b840fa441e53e9534f97c18ecd0a9a84fe798570b5b6d10a0ad2192ec"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-initial-compatibility-01-completion-receipt.json",
+      "bytes": 817,
+      "sha256": "65550db83d5a50918e3808de9a3696ff0567b02c81eef5476bbbf495dee92bf5"
+    },
+    {
+      "path": "scripts/fd2d_gc_r136_rebind_profile.py",
+      "bytes": 7103,
+      "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+    },
+    {
+      "path": "scripts/fd2d_gc_r136_rebind_profile_v2.py",
+      "bytes": 5598,
+      "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-exact-base-rebind.md",
+      "bytes": 6373,
+      "sha256": "dcf109cc99453687b2647774a1f283e0a4d95778d4b1acba6519706fcfe5bf0b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-01-report.json",
+      "bytes": 21628,
+      "sha256": "505976a9411758b3f184ba64d8a86774d41dad467d9a81e3d554c852421b7a7d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-01-packet.json.gz",
+      "bytes": 374988,
+      "sha256": "13fb5484546985ff8ecaf7f483f3fa7ddbd31897dc5ed1e93836b757b4d0e29b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-01-completion-receipt.json",
+      "bytes": 946,
+      "sha256": "49d061cf5871a3ad90c28198c01f26817f4fae0b5a6fea48e1646313962eed59"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-report.json",
+      "bytes": 24847,
+      "sha256": "a203c6fff516fe5dbbb36abab29c2c1cca7f5e7b0233e9539b751d18f7e684dc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+      "bytes": 381917,
+      "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-completion-receipt.json",
+      "bytes": 813,
+      "sha256": "6cb1ba6a191912343cc1d90af4b1dc077f6a73bc3af21b17d67d570f77f72db9"
+    }
+  ],
+  "artifact_count": 13,
+  "artifact_bytes": 849255,
+  "inputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+      "bytes": 133735,
+      "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-native-definition.json",
+      "bytes": 54399,
+      "sha256": "9b63f99189bbb46da57602ad4962784cb2639643b5853d3c1b8ad67531de92f1"
+    }
+  ],
+  "R173_closed_group": {
+    "path": "notes/2026-11-12-fd2d-metric-current-complete-R173-closed-manifest.json",
+    "bytes": 8377,
+    "sha256": "59ff0ea6c23a98e4910804773fa43810225c36f07ff2b6b3d8c8053376bd9807"
+  },
+  "scope": {
+    "initial_compatibility_whole_angle": true,
+    "accurate_base_encoded_identity_preserved": true,
+    "new_delta_bound_to_actual30": true,
+    "original_v1_failure_preserved": true,
+    "whole_F_J_BVP_body_run": false,
+    "global_surface_completion_claimed": false
+  },
+  "dependency_restore": {
+    "python_flint_version": "0.9.0",
+    "separate_target": "/workspace/scratch/fd2d-recovered-deps/python-flint-0.9.0",
+    "install_tool_chunks": [
+      "e894b2",
+      "8deb95"
+    ],
+    "install_actual_exit_code": 0,
+    "import_and_arb_check_chunk": "0af8fe",
+    "import_check_actual_exit_code": 0,
+    "global_numpy_scipy_unchanged": true
+  },
+  "new_notes_written_after_resume": true,
+  "original_closed_sources_or_reports_overwritten": false
+}

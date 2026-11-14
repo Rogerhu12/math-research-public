@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-actual-launch-argv-v1",
+  "started_utc": "2026-11-12T17:04:00.229148+00:00",
+  "cwd": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fd2d-run-monitored-command-v2.py",
+    "--receipt",
+    "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-process-receipt.json",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-damping-run.py",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--warm-start",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "--radius-packet",
+    "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "--reference-inlet",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "--reference-cache",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001",
+    "--owner-stop-file",
+    "/tmp/fd2d-raw-bump-prepared24-stop",
+    "--max-iterations",
+    "1",
+    "--modes",
+    "31",
+    "--damping",
+    "1e-7"
+  ],
+  "input": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "driver": {
+    "path": "scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-damping-run.py",
+    "sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c"
+  },
+  "initial_damping": 1e-07,
+  "previous23_damping": 1e-05,
+  "finite_equations_or_objective_changed": false,
+  "prepared_cache_mib": 16,
+  "operator_cache_mib": 32,
+  "actual_tool_session_recorded_after_launch": true
+}

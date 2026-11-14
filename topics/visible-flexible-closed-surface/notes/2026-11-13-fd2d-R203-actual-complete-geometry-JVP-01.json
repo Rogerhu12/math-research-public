@@ -1,0 +1,53 @@
+{
+  "schema": "R203-actual-published-strong-state-complete-geometry-JVP-v1",
+  "runtime": "actual pure V8 functions execution; no OS child or exit status",
+  "inputGitBlob": "4849e035a0d2935d19ae258bb9509575b6c14e3d",
+  "dimension": 481,
+  "angles": 128,
+  "guide": {
+    "weight": 10,
+    "radius": 1.59,
+    "width": 0.84,
+    "held": 0.65
+  },
+  "squaredNorm": 0.002524504856232235,
+  "rows": 63987,
+  "activePoints": 423,
+  "cutDirection": 0.031,
+  "normalChecks": {
+    "dHd": 0.00009648006285341057,
+    "JdSquared": 0.00009648006285341063,
+    "relativeH": 5.618788692814255e-16,
+    "dg": -0.00016018358555033066,
+    "residualDotJd": -0.00016018358555033068,
+    "relativeG": 1.6921243346510702e-16
+  },
+  "finiteDifference": [
+    {
+      "h": 0.00002,
+      "relativeL2": 1.2788516035551982e-9,
+      "maxAbsolute": 2.191211459241088e-12,
+      "maxJVP": 0.0012954979869220595
+    },
+    {
+      "h": 0.00001,
+      "relativeL2": 3.183982232744717e-9,
+      "maxAbsolute": 4.616136520339126e-12,
+      "maxJVP": 0.0012954979869220595
+    }
+  ],
+  "elapsedSeconds": 7.551,
+  "continuousCertificate": false,
+  "cutWindowCheck": {
+    "window": [
+      0.41,
+      0.62
+    ],
+    "actualFiniteCut": 0.5398516720542774,
+    "insidePenaltyBitwiseEqual": true,
+    "outsideFiniteCut": 0.63,
+    "outsideRejected": true,
+    "message": "Error: Outside declared actual finite cut-height window",
+    "elapsedSeconds": 1.15
+  }
+}

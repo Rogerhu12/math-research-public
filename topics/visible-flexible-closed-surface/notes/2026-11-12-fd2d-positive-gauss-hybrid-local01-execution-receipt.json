@@ -1,0 +1,15 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 52118,
+  "launch_chunk": "c7abe3",
+  "completion_chunk": "573a33",
+  "actual_exit_code": 0,
+  "body_completed": true,
+  "seconds": 8.108455228000821,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-report.json",
+    "bytes": 48996,
+    "sha256": "e05b153432e4f986edddc91c77bf80db3f69ab3999126064e65b3bc29db4f87b"
+  },
+  "scope": "One actual cell and full nonlinear-state Jacobian preservation / nonzero shared-parameter derivative; no BVP/body."
+}

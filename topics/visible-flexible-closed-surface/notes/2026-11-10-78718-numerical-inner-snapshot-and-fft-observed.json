@@ -1,0 +1,39 @@
+{
+  "scope": "Actual terminal receipts for scalar FFT and snapshot-storage checks. No BVP, DN, or new solution.",
+  "observer": "/root/numerical_recovery",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "long_fourier": {
+    "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/scripts/78718-prefix-long-fourier-research.py --checkpoint topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz --out topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-long-fourier-benchmark-01.json",
+    "initial_tool_return": {
+      "chunk_id": "3b97b5",
+      "wall_time_seconds": 1.000921792,
+      "session_id": 34280,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "final_tool_return": {
+      "chunk_id": "0ea332",
+      "wall_time_seconds": 0.757090117,
+      "exit_code": 0,
+      "original_token_count": 231,
+      "output": "{\"M\": 15, \"N\": 512, \"RHS_speedup\": 3.686941901473144, \"velocity_speedup\": 3.2581289053885247, \"RHS_difference\": {\"max_absolute\": 1.0506710443200708e-14, \"relative_l2\": 1.6512531772149274e-14}, \"complex_step_direction_difference\": {\"max_absolute\": 1.828287521377092e-12, \"relative_l2\": 1.805900085728765e-15}}\n{\"M\": 22, \"N\": 1024, \"RHS_speedup\": 4.905835199051733, \"velocity_speedup\": 3.2030823522035314, \"RHS_difference\": {\"max_absolute\": 9.855526463310293e-15, \"relative_l2\": 1.7518222732332072e-14}, \"complex_step_direction_difference\": {\"max_absolute\": 4.595657188133373e-12, \"relative_l2\": 2.368838094584265e-15}}\n{\"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-long-fourier-benchmark-01.json\", \"bytes\": 8391, \"sha256\": \"ccdc1a2a2ca63eb88d50ee593c7b3fc7ef0acc8cbac2570f783fdd6263bc6db0\"}, \"BVP_calls\": 0, \"DN_calls\": 0}\n"
+    }
+  },
+  "inner_snapshot": {
+    "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/scripts/78718-prefix-inner-snapshot-check.py --checkpoint topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz --fixture-directory /workspace/scratch/78718bd0c4a9/inner-snapshot-check-02 --out topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-inner-snapshot-check-02.json",
+    "actual_tool_return": {
+      "chunk_id": "3cf23f",
+      "wall_time_seconds": 0.986495879,
+      "exit_code": 0,
+      "original_token_count": 102,
+      "output": "{\"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-inner-snapshot-check-02.json\", \"bytes\": 3890, \"sha256\": \"7b487b231663595ad0ecf790770b316c30f24961d0d51e54232550d88f3b67bd\"}, \"checks_passed\": 11, \"fixture_nodes\": 64, \"BVP_calls\": 0, \"DN_calls\": 0, \"fixture_is_actual_inner_run\": false, \"seconds\": 0.6373271839984227}\n"
+    },
+    "earlier_attempt": {
+      "chunk_id": "445854",
+      "actual_exit_code": 1,
+      "reason": "The synthetic fixture lacked port['_sha256']; the production runner already supplies it. The fixture was corrected; no production equation or writer fallback was changed.",
+      "fixture_directory": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-01"
+    }
+  },
+  "status": "Actual checks completed; neither constitutes a new candidate solve."
+}

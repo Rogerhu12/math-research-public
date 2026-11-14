@@ -1,0 +1,30 @@
+{
+  "status": "OBSERVED_STATIC_AST_AND_METADATA_CHECK_EXIT_ZERO",
+  "observer": "/root/tail_theory",
+  "tool": "exec_command",
+  "receipt": "7120c6",
+  "actual_exit_code": 0,
+  "wall_time_seconds": 0.09878965,
+  "argv": [
+    "python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-true-m14-interface.py",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface-check.json"
+  ],
+  "script": {
+    "path": "scripts/db6f-tail-review-spectral-true-m14-interface.py",
+    "bytes": 7586,
+    "sha256": "e08f6df21c64a2e44a396e252d5858a9a72b487268717b8783b3a11f0cc98307"
+  },
+  "output": {
+    "path": "notes/2026-11-09-db6f-tail-review-spectral-true-m14-interface-check.json",
+    "bytes": 35857,
+    "sha256": "262ae71305c8c3c588fc8831d0970c51051b25d0d866f36e33f645c192092627"
+  },
+  "operations": "stdlib AST, gzip JSON, file SHA256, integer dimensions and existing closed input metadata only",
+  "candidate_imports": 0,
+  "candidate_initializations": 0,
+  "new_BVP_DN_root_flow_calls": 0,
+  "runtime_Newton_install_called": false,
+  "future_selector_reviewed": false
+}

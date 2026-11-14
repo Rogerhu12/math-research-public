@@ -1,0 +1,350 @@
+{
+  "status": "PASS_INDEPENDENT_COUNTS_FRACTION_BINDINGS_AND_V2_DIFF",
+  "scope": "Static interface and conditional whole-map enclosure only; no ODE realization.",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-mechanism.py",
+    "bytes": 13595,
+    "sha256": "8cfa9b1716f33cda5f3da7aec932f92157247b88a3148c5ef2881c6c4c3d5fef"
+  },
+  "checked_bindings": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+      "bytes": 3264,
+      "sha256": "35811ec9035d77e60f5809b6d1e19d8a27f4755f95eb5498eaa8fcc0f4808a19"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-current-mechanism-interface-sources.json",
+      "bytes": 7883,
+      "sha256": "d0b5020e709946a8b3e4264670c301d452d71356f7c3af8c81305272dfcd6a5b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-current-mechanism-interface-v2-sources.json",
+      "bytes": 8730,
+      "sha256": "d7c6f11a0150e292c4da692e9935ec12d2647ba4725d7175348b8af9fe3c849b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-current-mechanism-interface-v2.md",
+      "bytes": 21315,
+      "sha256": "7497d615d4fb46eeed1b6cc710851d9bca4aa46a040567f1879cf77acd30a356"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-current-mechanism-interface.md",
+      "bytes": 21223,
+      "sha256": "eec8eab0e2a4979436c0a21f27bccfdc8abdc1281587f8cdda6b1ae6281eb8da"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-finite-bounds.json",
+      "bytes": 23434,
+      "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-finite-core.md",
+      "bytes": 9781,
+      "sha256": "812a4e2ec8c1d54dcf3004b1c7ff275a0a84973fb22808c7ceac4cdeb0145d08"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-mechanism-conditional-budget.json",
+      "bytes": 5093,
+      "sha256": "47fda2e36bf60860f94c0f151542cbff465a3ebb28845db617bf80d45f5ef1a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-core.md",
+      "bytes": 14980,
+      "sha256": "df2f2857c8330dc9fd851d09e194ae731c46336e4dafba2a5cb9afd90cfd761f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json",
+      "bytes": 54651,
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "bytes": 6006,
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "bytes": 3887,
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-geometry.json",
+      "bytes": 3239,
+      "sha256": "fc00c975f1ec9b0413d2d1c77e0dbf3dd27d35016c0b335ff439aba4aeeca462"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "bytes": 2130,
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-moment.json",
+      "bytes": 1311,
+      "sha256": "1d7836c03c90e0db4d479a234f2994787043d4ffa29374dbe37202915c5c3444"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "bytes": 10095,
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+      "bytes": 5464,
+      "sha256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-first-flat17-m12-critical-r01.json",
+      "bytes": 3775,
+      "sha256": "5c2ddbfc230416cf7805bf84ea5686ed9db1427c2df2b8f1b3a8379b453e848d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-core-proofs.md",
+      "bytes": 13216,
+      "sha256": "f6fdf3ec47e9019338fd0e5f4d6e5de3e0e866c8118c8d889ff35f6076c76779"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-mechanism-replay.json",
+      "bytes": 5093,
+      "sha256": "47fda2e36bf60860f94c0f151542cbff465a3ebb28845db617bf80d45f5ef1a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "bytes": 22225,
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "bytes": 10411,
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "bytes": 5131,
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "bytes": 36488,
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "bytes": 5123,
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R10-positive-support-offset-reach.md",
+      "bytes": 3937,
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R17-exact-finite-visible-closed-geometry.md",
+      "bytes": 15067,
+      "sha256": "d7ad70cfb98d552ce0832555c230b644e49a21cd5cef2ae16a291013ad66e725"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "bytes": 14695,
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R25-m12-sharper-enclosing-ball.md",
+      "bytes": 10100,
+      "sha256": "faf9c254abad7376249277b336468db19d6598ac9520f999265be139b4dc845b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "bytes": 6004,
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "bytes": 19466,
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+      "bytes": 5299,
+      "sha256": "b98272c2d92406dd3611ae680ebd754b3558268281c47500aea1e6a70b23f527"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "bytes": 2008,
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "bytes": 13021,
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+      "bytes": 4602,
+      "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+    }
+  ],
+  "unique_bound_files": 38,
+  "author_ledger_bindings": 28,
+  "v1_to_v2_exact_replacements": 3,
+  "author_imports": [
+    "argparse",
+    "fractions",
+    "hashlib",
+    "json",
+    "pathlib"
+  ],
+  "integer_counting_tuples_by_order": {
+    "3": 256,
+    "4": 625,
+    "7": 4096
+  },
+  "four_core_inputs": [
+    {
+      "N": 3,
+      "r": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "b1": {
+        "numerator": "10",
+        "denominator": "11"
+      },
+      "q1": {
+        "numerator": "9",
+        "denominator": "44"
+      },
+      "all_finite_coefficients_rebuilt": true
+    },
+    {
+      "N": 4,
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "b1": {
+        "numerator": "16",
+        "denominator": "17"
+      },
+      "q1": {
+        "numerator": "1",
+        "denominator": "5"
+      },
+      "all_finite_coefficients_rebuilt": true
+    },
+    {
+      "N": 7,
+      "r": {
+        "numerator": "3",
+        "denominator": "20"
+      },
+      "b1": {
+        "numerator": "42",
+        "denominator": "43"
+      },
+      "q1": {
+        "numerator": "357",
+        "denominator": "1720"
+      },
+      "all_finite_coefficients_rebuilt": true
+    },
+    {
+      "N": 7,
+      "r": {
+        "numerator": "1",
+        "denominator": "10"
+      },
+      "b1": {
+        "numerator": "42",
+        "denominator": "43"
+      },
+      "q1": {
+        "numerator": "189",
+        "denominator": "860"
+      },
+      "all_finite_coefficients_rebuilt": true
+    }
+  ],
+  "author_exact_fraction_fields_compared": 28,
+  "same_author_replay_bytes": true,
+  "support_witness_normal": "pi/3 after the specified initial pi/3 rotation",
+  "exact_binary_0124_guard_gap": {
+    "numerator": "161814334611421923",
+    "denominator": "1936547839769313280"
+  },
+  "old_axis_from_twice_same_M12_cut_lower": {
+    "numerator": "7977247853389765",
+    "denominator": "2251799813685248"
+  },
+  "independent_strict_margins": {
+    "cap_disk_inside_core": {
+      "numerator": "11",
+      "denominator": "40"
+    },
+    "central_pairs_below_cap_pair": {
+      "numerator": "27505951766872674957431",
+      "denominator": "40000000000000000000000"
+    },
+    "cross_pairs_below_cap_pair": {
+      "numerator": "195231",
+      "denominator": "250000"
+    },
+    "whole_D_squared": {
+      "numerator": "9",
+      "denominator": "100"
+    },
+    "held_above_one_fifth_whole_D": {
+      "numerator": "233534567",
+      "denominator": "125000000000"
+    },
+    "core_rho_above_three_percent_whole_D_only": {
+      "numerator": "81",
+      "denominator": "1000"
+    },
+    "old_actual_axis_separation_exceeds_new_total_height": {
+      "numerator": "15116441316411097",
+      "denominator": "11258999068426240"
+    },
+    "first_support_coefficient_exceeds_current_guard_literal": {
+      "numerator": "3593",
+      "denominator": "43000"
+    },
+    "naive_chart_warp_e_exceeds_one": {
+      "numerator": "142",
+      "denominator": "215"
+    }
+  },
+  "pair_distance_squared_upper": {
+    "CC": {
+      "numerator": "180494048233127325042569",
+      "denominator": "40000000000000000000000"
+    },
+    "DD": {
+      "numerator": "26",
+      "denominator": "5"
+    },
+    "CD_upper": {
+      "numerator": "1104769",
+      "denominator": "250000"
+    }
+  },
+  "author_Q_CD_is_upper_constant_not_actual_radius_equality": true,
+  "regularity_scope_in_written_review": "One-sided joint C5 true solution suffices for the local quartic Taylor statement; C2 alone does not.",
+  "solver_root_RK_backend_calls": 0,
+  "current_metric_or_graph_changed": false,
+  "future_candidate_generated": false
+}

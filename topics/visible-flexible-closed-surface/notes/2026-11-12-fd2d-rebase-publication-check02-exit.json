@@ -1,0 +1,13 @@
+{
+  "schema": "fd2d-actual-integration-check-exit-v1",
+  "session": 19180,
+  "launch_chunk": "e25ba8",
+  "final_chunk": "aa534c",
+  "exit_code": 1,
+  "actual_failure": "The local remote rejected the true push race as incorrect old value provided; the new publisher had not yet recognized this CAS-race wording",
+  "observed_stdout": "notes/2026-11-12-fd2d-rebase-publication-check02.json",
+  "publisher_sha256": "ef337c9633ea7fc0203883704ddf48d47eb1af2a331eef96dfcddb2c66e98380",
+  "correction": "Recognize this exact ordinary compare-and-swap race and immediately pull --rebase; no other push rejection is reclassified",
+  "no_external_remote_used": true,
+  "no_real_main_write_attempted": true
+}

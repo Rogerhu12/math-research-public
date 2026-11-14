@@ -1,0 +1,37 @@
+{
+  "status": "INTENTIONALLY_STOPPED",
+  "reason": "Continue from the actual near-converged state on P16/S16, with the same raw RK density and same physical metric, to reduce measured local high-mode flow amplification. This is a research route change, not a proof of failure or nonexistence.",
+  "last_actual_running_tool_chunk": "96c84c",
+  "session_id": 27279,
+  "observed_iteration": {
+    "iteration": 2,
+    "norm": 2.9962890661398417e-09,
+    "minA": 0.9605876583918307,
+    "minD": 0.9989651369830822,
+    "worst": {
+      "stage": 12,
+      "component": 43,
+      "absolute": 1.9233309161174234e-12,
+      "scale": 0.0006419043268729995,
+      "normalized": 2.9962890661398417e-09,
+      "kind": "shooting",
+      "rawCell": 0,
+      "rawSegment": 7
+    },
+    "rhsRootStatistics": {
+      "evaluations": 1550628,
+      "roundoffFallbacks": 0,
+      "maximumRootRelativeResidual": 7.998222187192424e-14,
+      "scope": "Existing cumulative RHS root counters only; no extra root or flow."
+    }
+  },
+  "recovery_input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-06-partition-recovery-input.json.gz",
+    "bytes": 385457,
+    "sha256": "662846709e8882f73efd8c4fe743c0ca186829083bf472ef3b835974d2fc1f4c"
+  },
+  "utc": "2026-11-10T13:40:02.207823+00:00",
+  "actual_stop_tool_chunk": "719dc2",
+  "actual_exit_code": 1,
+  "natural_exit": false
+}

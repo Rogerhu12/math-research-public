@@ -1,0 +1,295 @@
+{
+  "schema": "fd2d-refined-angular-stream-local-value-packets-v22",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-refined-angular-lowmem-run.py",
+    "bytes": 31912,
+    "sha256": "9e8259d3234db057d78c4c822c56d99b05cd821d26adaacfd11f5e12dbc13c31"
+  },
+  "providers": {
+    "fd2d_gc_positive_trace_value_nodes.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_value_nodes.py",
+      "bytes": 2637,
+      "sha256": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace_v3.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace.py",
+      "bytes": 15938,
+      "sha256": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158"
+    },
+    "fd2d_gc_nested_angular_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "bytes": 8686,
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c"
+    },
+    "fd2d_gc_search_domain_roundoff.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_search_domain_roundoff.py",
+      "bytes": 2020,
+      "sha256": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5"
+    },
+    "fd2d_gc_positive_trace_interior_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_stream_normal.py",
+      "bytes": 2241,
+      "sha256": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6"
+    },
+    "fd2d_gc_positive_trace_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+      "bytes": 10262,
+      "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+    },
+    "fd2d_gc_local_normal_system.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_local_normal_system.py",
+      "bytes": 13329,
+      "sha256": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf"
+    },
+    "fd2d_gc_positive_trace_interior_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_merit.py",
+      "bytes": 8377,
+      "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+    },
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    "fd2d_gc_positive_trace_branch.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    "fd2d_gc_gauss_cell_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    "fd2d_gc_positive_trace_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_merit.py",
+      "bytes": 4401,
+      "sha256": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a"
+    },
+    "fd2d_gc_positive_trace_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_bounded_schur.py",
+      "bytes": 6319,
+      "sha256": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57"
+    },
+    "fd2d_gc_positive_gauss_coast_hybrid.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_coast_hybrid.py",
+      "bytes": 6689,
+      "sha256": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166"
+    },
+    "fd2d_gc_positive_gauss_hybrid.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_hybrid.py",
+      "bytes": 4766,
+      "sha256": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7"
+    },
+    "fd2d_gc_hybrid_lifting_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_hybrid_lifting_codazzi_d2.py",
+      "bytes": 15889,
+      "sha256": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe"
+    },
+    "fd2d_gc_raw_bump_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_gauss.py",
+      "bytes": 8930,
+      "sha256": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb"
+    },
+    "fd2d_gc_positive_gauss_l.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l.py",
+      "bytes": 3324,
+      "sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be"
+    },
+    "fd2d_gc_gauss_cell_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_gauss.py",
+      "bytes": 6590,
+      "sha256": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e"
+    },
+    "fd2d_gc_positive_gauss_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_merit.py",
+      "bytes": 4093,
+      "sha256": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a"
+    },
+    "fd2d_gc_positive_gauss_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_bounded_schur.py",
+      "bytes": 5655,
+      "sha256": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_raw_bump_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    "fd2d_gc_raw_bump_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    "fd2d_gc_frozen_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    },
+    "fd2d_k0_native_gc.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_k0_native_gc.py",
+      "bytes": 9495,
+      "sha256": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+    },
+    "fd2d_gc_raw_bump_turn_mesh.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_turn_mesh.py",
+      "bytes": 4611,
+      "sha256": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275"
+    },
+    "fd2d_gc_gauss_cell_codazzi.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    },
+    "fd2d_gc_gauss_cell_codazzi_chunked.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_chunked.py",
+      "bytes": 4903,
+      "sha256": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09"
+    },
+    "fd2d_gc_gauss_cell_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_d2.py",
+      "bytes": 11040,
+      "sha256": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756"
+    },
+    "fd2d_gc_d2_complements.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    "fd2d_gc_raw_bump_cylinder.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_cylinder.py",
+      "bytes": 1749,
+      "sha256": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a"
+    },
+    "fd2d_gc_bump_cylinder_bounded_schur_v2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_cylinder_bounded_schur_v2.py",
+      "bytes": 5390,
+      "sha256": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea"
+    },
+    "fd2d_gc_raw_bump_clean.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    "fd2d_gc_raw_bump_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "fd2d_gc_codazzi_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    "fd2d_gc_bump_residual_locations.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_residual_locations.py",
+      "bytes": 2654,
+      "sha256": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2"
+    },
+    "fd2d_gc_radial_bump_profile.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    "fd2d_gc_bump_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    "fd2d_gc_bump_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    }
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "warm_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "reference_inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "settings": {
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "reference_inlet": "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "reference_cache": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "reference_rim_fraction": 0.12,
+    "out_prefix": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0002",
+    "owner_stop_file": "/tmp/fd2d-raw-bump-lowmem22-stop",
+    "max_iterations": 2,
+    "modes": 31,
+    "mesh_step": 0.04,
+    "gap": 0.9,
+    "central_floor": 0.1,
+    "central_cap": 7.352941176470588,
+    "profile_box": 0.08,
+    "radius_floor": 0.1,
+    "curvature_cap": 7.2,
+    "curvature_weight": 1.0,
+    "high_gauss_weight": 1.0,
+    "high_codazzi_weight": 1.0,
+    "mesh_relative_tolerance": 1e-12,
+    "damping": 1e-05,
+    "finite_tolerance": 2e-07,
+    "minimum_active_n": 0.05,
+    "interior_cells": null,
+    "interior_gauss_weight": 1.0,
+    "block_cells": 2
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "started_utc": "2026-11-12T16:34:14.633110+00:00",
+  "physical_coordinates": "fixed physical s, fixed material u, recorded U(s,xi) chart",
+  "raw_differential_formulas_changed": false,
+  "finite_field_representation_changed": true,
+  "finite_matrix_changed_by_mesh_and_lifting": true,
+  "physical_g_changes_with_profile_parameters": true,
+  "exact_boundary_projection": "every exact-cylinder node n=Cc,m=l=0; cut all corrections zero",
+  "finite_guidance": "curvature cap and angular complements of Gauss and both Codazzi equations on the actual grid",
+  "missing": [
+    "continuous radial and angular residual bounds",
+    "actual position map and cut rigid alignment",
+    "continuous metric, whole geometry and reach",
+    "same-g refinement and closed meshes"
+  ],
+  "accepted_steps": 0,
+  "completed": false,
+  "finite_success": false,
+  "owner_stop": false,
+  "exception": null,
+  "seconds": 0.1921524989993486,
+  "peak_rss_kib": 68820
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "fd2d-R158-exact-angular-nesting-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R158-exact-angular-nesting-with-fixed-tail-degree.md",
+      "sha256": "3bc0f813f63959ccedaa8d7e773a0540041fea53191374cb214f27cda97a7279",
+      "bytes": 10184,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+      "bytes": 8686,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-nested-angular-positive-trace-check.py",
+      "sha256": "4c397f0b61837954412e2e47a2a10507c441e37eab4a9ec6280bc81d1bb722a1",
+      "bytes": 8627,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-field.npz",
+      "sha256": "19cffa6028804219373ed20be8e29d3d11938b3ebdae16ed8caee2aeb79554c9",
+      "bytes": 61242,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-report.json",
+      "sha256": "9e3acd3494c732e2010dbe4175deea29bbfe28b8c1ee4caedd0af85be5ee2ae0",
+      "bytes": 47143,
+      "closed": true
+    }
+  ],
+  "scope": "Exact raw/central angular zero injection K15 to K31 with independent unchanged tail16 and profile7. Same whole physical functions and nonlinear maps, distinct finite sample/projection spaces. Actual small whole-function comparison; no BVP or new geometry claim.",
+  "executions": [
+    {
+      "session": 30902,
+      "initial_chunk": "3ddcb5",
+      "final_chunk": "8a7711",
+      "exit_code": 0,
+      "natural_exit": true,
+      "source_seconds": 4.9056155670004955,
+      "peak_rss_kib": 96732,
+      "scope": "11 physical positions by128 common angles; full value/angular-jet and scalar/atlas differences all zero at evaluated points"
+    }
+  ],
+  "dependencies": [
+    "notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json"
+  ],
+  "inherited_provider_sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+  "native_decoder_requirement": "Use explicit central[0,31],tail[31,47],profile[47,54] for this entity, never old tail=K+1 assumption",
+  "source_inputs_unchanged": true,
+  "full_strong_target_completion_claimed": false
+}

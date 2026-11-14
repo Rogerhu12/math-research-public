@@ -1,0 +1,55 @@
+{
+  "session_id": 74866,
+  "launch_chunk": "eee69d",
+  "completion_chunk": "2ebb21",
+  "tool_exit_code": 0,
+  "worker_returncode": 0,
+  "seconds": 992.5926557120001,
+  "response": {
+    "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-05-response.json.gz",
+    "bytes": 249248,
+    "sha256": "c082a4aab7fcca806c47b977469412c8e09d3b19f0954f6765a97e714d56017b",
+    "uncompressed_bytes": 1486592,
+    "uncompressed_sha256": "8d25507e0b65de103afaee0109f97aef2eeb8313fd2eded486a3561447036502"
+  },
+  "height": [
+    -8e-09,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "residual": 1.6067532721703842e-14,
+  "meanHeightToCut": 0.016564199294891568,
+  "height_jet_matrix_entries": 208,
+  "audit": {
+    "fullD": 4.7601631169175205e-19,
+    "normalizedFullDefect": 1.592476150946709e-14,
+    "minLeading": 0.9601336639368594,
+    "minD": 0.9999999871918863,
+    "formalCurvature": 6.996605030552903,
+    "maxPhysicalPV": 1.5999999999999508e-08,
+    "actualMetric": 3.1152315122737985e-15,
+    "holonomy": 1.288915415419542e-23
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 3.836142665793242e-07,
+      "minA": 0.9601336638163431,
+      "minD": 0.9999999871918737,
+      "chartCondition": 59513.7618213545,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 1.6067532721703842e-14,
+      "minA": 0.9601336639368594,
+      "minD": 0.9999999871918737
+    }
+  ],
+  "scope": "Complete actual finite M8/N128 same wc01 physical g and h=-8e-9 response; not an infinite-tail or strong closed-surface proof."
+}

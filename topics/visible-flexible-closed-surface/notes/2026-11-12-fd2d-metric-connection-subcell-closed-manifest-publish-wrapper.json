@@ -1,0 +1,42 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-connection-subcell-closed-manifest.json",
+    "bytes": 1876,
+    "sha256": "6cd83a7fad39b1d1f31e56c0586c90981145c53989c11685ddcf186620574c7f"
+  },
+  "only_key_adaptation": "artifacts to files; original unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_connection_primitive_subcell.py",
+      "bytes": 5970,
+      "sha256": "f4f66fde5daf4392f40a5a97c2168a33bb61a517bee7c82341127096678f074d"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-subcell-check.py",
+      "bytes": 3970,
+      "sha256": "9ee91c196a147a050ff7b532247ef6718c915d09f583eacab659f5edcacfd148"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-connection-primitive-subcell.md",
+      "bytes": 3673,
+      "sha256": "7e987d302deddd7f222c623e2cda66ebe562bc4fb2f3a87d7e362c304853d01a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-subcell-R180-01-report.json",
+      "bytes": 6453,
+      "sha256": "dedebcd4ef24cb9a94e50fbb59b84d4a4cc21cc4acafa6f1bf80da7e4f0e6df2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-subcell-R180-01-completion-receipt.json",
+      "bytes": 1124,
+      "sha256": "08d3df54d905127f8c7c54365bbfb7bc427f5387adbc417edba174bdd68088b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-connection-subcell-closed-manifest.json",
+      "bytes": 1876,
+      "sha256": "6cd83a7fad39b1d1f31e56c0586c90981145c53989c11685ddcf186620574c7f"
+    }
+  ]
+}

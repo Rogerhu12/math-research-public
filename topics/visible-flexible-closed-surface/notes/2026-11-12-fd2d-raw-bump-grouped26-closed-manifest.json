@@ -1,0 +1,436 @@
+{
+  "schema": "fd2d-R165-first-actual-correction-closed-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-static-manifest.json",
+      "bytes": 4266,
+      "sha256": "faa033f5ce435991ac35f77957f7263f2acffed71db0917cf551f04076e8c922"
+    },
+    {
+      "path": "scripts/fd2d_gc_grouped_search_context.py",
+      "bytes": 8495,
+      "sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec"
+    },
+    {
+      "path": "scripts/fd2d_gc_grouped_normal_tile_io.py",
+      "bytes": 2360,
+      "sha256": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1"
+    },
+    {
+      "path": "scripts/fd2d-gc-prepare-grouped-field.py",
+      "bytes": 5239,
+      "sha256": "19a8dbfbb7551026ef7117bf3c7f89a1b7fa9f3e677a08b5bbe40aa45713c003"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-baseline.py",
+      "bytes": 4018,
+      "sha256": "8541c8dbb3a29265c6d6ae6e66ea71264cf76a43ec95486ec953918dad8a9bd6"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-plan.py",
+      "bytes": 1401,
+      "sha256": "9d8cfa76d293af7724be7f8bb7ac49bd0d252dac4e5c1bf7492d53a4d32f11f9"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-tile-batch.py",
+      "bytes": 4215,
+      "sha256": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-run-normal-tile-batches.py",
+      "bytes": 4524,
+      "sha256": "dcad76943d4841b316f718c72728900963b27ea372a327407a9a2d8bcc1741ec"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-normal-merge.py",
+      "bytes": 4281,
+      "sha256": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-schur-block.py",
+      "bytes": 4853,
+      "sha256": "fbb8b7a0809b857b50b1d4fe214b68517444a86f29f6a81651ae7fa1eae5c62e"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-qp-from-schur.py",
+      "bytes": 6586,
+      "sha256": "bd5644c53a1032714dd78c3ce816b3d3c604cced5f250bb19bab7f40a2a64799"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-trial.py",
+      "bytes": 7859,
+      "sha256": "07c3034f946240033f95e121083987b84b1ac0822e61583052fd464ae84ad1de"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-initial.npz",
+      "bytes": 120827,
+      "sha256": "12d38ca0a72bd2cb810fb2b1e3cfe061b2831360a734d67af05433ef8ae2a695"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-request.json",
+      "bytes": 2029,
+      "sha256": "c40be25d005cee35c1c59acf123147000ba39a0b35571351deeb416b56b4388b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-report.json",
+      "bytes": 55836,
+      "sha256": "0aa04194b0257533c29d23b501370dd2661afc963ccb8c77d617b40868cf9202"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt.json",
+      "bytes": 3428,
+      "sha256": "c27472fb2b75082221ad05866fbaa06a49a5da34777fd56806f24070074fc03a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt-console.txt",
+      "bytes": 416,
+      "sha256": "73805be8d65fd3e1f7a0ac2eab01cfc36c2ed7e8f6aa7de44624968ab84f360b"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-preparation-process-receipt-samples.jsonl",
+      "bytes": 864,
+      "sha256": "01a2adec4fb5f6e20740874fbfb26264bda9c820efed82390d6223511705e83a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-preparation-actual-tool-exit.json",
+      "bytes": 346,
+      "sha256": "22b62923e1f852930701656888c4fb93d2a6a7a8ba8345b87b5571b274c96924"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-process-receipt.json",
+      "bytes": 3327,
+      "sha256": "8d7f51abf02d73e6af5fa46b232d1cc061984393b33e54b9413b07fa57c0cf05"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-report.json",
+      "bytes": 142249,
+      "sha256": "19195a11184ca425c89af6d88c8bc34cccf296a17f56859bbafe41a1f7ea39b3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-progress.jsonl",
+      "bytes": 536,
+      "sha256": "4b62e7431cb83317cca06b9a788630f27fec41bb29500b08c7573f3bd4614eab"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-actual-tool-exit.json",
+      "bytes": 347,
+      "sha256": "1e62d01f7d572c2436bb8758ac67a065552da2afe52dd58456108140a179ed43"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-actual-current.npz",
+      "bytes": 130657,
+      "sha256": "78c245c128a74e67992a0f25a473932c174e10f1cab134c488bbd83a9f126a9f"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-process-receipt-console.txt",
+      "bytes": 536,
+      "sha256": "4b62e7431cb83317cca06b9a788630f27fec41bb29500b08c7573f3bd4614eab"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-baseline-a01-process-receipt-samples.jsonl",
+      "bytes": 15013,
+      "sha256": "06299262657840f671ceecac4c300cd1fb1a07e024851ecdaf02507cd96f1751"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-process-receipt.json",
+      "bytes": 3317,
+      "sha256": "3f4a0a37f796d5be6c2c530dd19c10e40f70d23f2c942c171395ff1c2b697583"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-actual-tool-exit.json",
+      "bytes": 343,
+      "sha256": "147a06527677cb1774d3f9238922734a5e65a245f21b051eb336544e8700dfdd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-report.json",
+      "bytes": 91357,
+      "sha256": "6d92f704c3020d734ef108ce647d82096ea2ad225b99880fa2d35633b3a46f59"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-progress.jsonl",
+      "bytes": 232,
+      "sha256": "6d21542caf26088507a32344088cb0a8b5afe470998873c5e19e357816996f9a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-process-receipt-console.txt",
+      "bytes": 232,
+      "sha256": "6d21542caf26088507a32344088cb0a8b5afe470998873c5e19e357816996f9a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-plan-a01-process-receipt-samples.jsonl",
+      "bytes": 1449,
+      "sha256": "35e8975cb0e44fe2ef7ec90b7e126a8870ba34498b4ce3c9a7488c760a31d138"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-actual-tool-exit.json",
+      "bytes": 344,
+      "sha256": "4e0e560d9731cbc629d10302fd4ef9d7543060d7fece1b3cb768666c12f3e4ae"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-progress.jsonl",
+      "bytes": 5627,
+      "sha256": "202dd3f96a245489a7f59ad289a65d520eb4b7dc96848cd8374f29a3f704c320"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-process-receipt.json",
+      "bytes": 3323,
+      "sha256": "cdd7c0f66fbac9a1e4144b8d587e309b5507b05875feb08fd08c8c028a05241b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-report.json",
+      "bytes": 108920,
+      "sha256": "9a53cc1e6de2b07f816da3feba9e5cd4b5b787ca0242e371fd5e5e9c92c0f4a0"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-process-receipt-console.txt",
+      "bytes": 5627,
+      "sha256": "202dd3f96a245489a7f59ad289a65d520eb4b7dc96848cd8374f29a3f704c320"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-merge-a01-process-receipt-samples.jsonl",
+      "bytes": 16203,
+      "sha256": "78aa0abdcfd07b0e561e2d4b0a983f004fe4766fde07cf0d0a23c9360733a5f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-process-receipt.json",
+      "bytes": 3538,
+      "sha256": "630503c059feeb5e72acfc7a9c0e9b4e00547f6ec12e80399586f49e61c54f2c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-progress.jsonl",
+      "bytes": 41074,
+      "sha256": "cc39cf57ebe1db4e47556311b15e73a5b2c04da3c58b5f83fbf3a5db17a0a764"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-report.json",
+      "bytes": 109185,
+      "sha256": "eda0e70074fbb187efb1dca3f2ea1e46f0ee52b3a6a0ca46fd985aca924b226e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-actual-tool-exit.json",
+      "bytes": 350,
+      "sha256": "f06fc76927b768c644e03a8be90ccba257b3bf04c770bf009ccc40ecb00e6332"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-process-receipt-console.txt",
+      "bytes": 41074,
+      "sha256": "cc39cf57ebe1db4e47556311b15e73a5b2c04da3c58b5f83fbf3a5db17a0a764"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-block-schur-a01-process-receipt-samples.jsonl",
+      "bytes": 2048,
+      "sha256": "b5042f9037babc5aabb4d570889ec5ac79a4653a2a1715884ad3adad27809237"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-process-receipt.json",
+      "bytes": 3433,
+      "sha256": "61cfb3c914fabad73946506b2f403a538e80ce02da5b7da3163a61a83d90003f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-report.json",
+      "bytes": 124697,
+      "sha256": "995cc95f26aa48015f6b8cd5818b2d90beb14ec42a7f4a175f4a95e72d4bc93e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-actual-tool-exit.json",
+      "bytes": 349,
+      "sha256": "54ee7cf124e7d6818461cf915cc01cc98dda49cbd47df0f4efa426f2c1a86ea6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-progress.jsonl",
+      "bytes": 5514,
+      "sha256": "5108c23e460a29253e23b4ab24ae6fba57a7501388eb56039e666b8d8c392fc2"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-process-receipt-console.txt",
+      "bytes": 5514,
+      "sha256": "5108c23e460a29253e23b4ab24ae6fba57a7501388eb56039e666b8d8c392fc2"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-qp-floor01-a01-process-receipt-samples.jsonl",
+      "bytes": 4102,
+      "sha256": "bdb3f4a0017a694bc9efa42b3e64208095b5850fd598fe710e8074de48d3817a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-actual-tool-exit.json",
+      "bytes": 351,
+      "sha256": "43f23dcb1c0d7d3a37aaf37e4769660a242d7dccb65b2c490e4e956419c07c71"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-accepted.npz",
+      "bytes": 130530,
+      "sha256": "4c6f9980ca6d03cdfc2b3442cf2eac4e548f3c1e83ae66a74590a2950c40e1a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-progress.jsonl",
+      "bytes": 1107,
+      "sha256": "4c6b9cc9369a9f8c89be05b85f09bef77fc79b1d164ec04253ae1d0321e87d17"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-report.json",
+      "bytes": 237434,
+      "sha256": "a66da58691c68530efb51d888eee047d030882efb23a7a5e5c0b6c3e45781552"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-physical-metric.json",
+      "bytes": 2683,
+      "sha256": "441bf084d3b96ea40bdeac5edb3dba1e5f681f5c3f2f6127b8691bae6b7e36c8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-process-receipt.json",
+      "bytes": 3436,
+      "sha256": "a9adc9c4ef38bd23cf43970dbfabf17407d496539fe42d81efe67c9c378434a0"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-process-receipt-console.txt",
+      "bytes": 1107,
+      "sha256": "4c6b9cc9369a9f8c89be05b85f09bef77fc79b1d164ec04253ae1d0321e87d17"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-process-receipt-samples.jsonl",
+      "bytes": 22985,
+      "sha256": "53e91db2cf1b6db1e86b132cfb9e72275c420f3b2cc39f72561e040ca79228ea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-controller-a01-report.json",
+      "bytes": 20318,
+      "sha256": "1915c0eca7e0659ffde5a12bd367275e5eb0cbe576a7b46f5c010bcb0e29a23e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-controller-a01-actual-tool-exit.json",
+      "bytes": 378,
+      "sha256": "51e0c9d7d29ad6445fb53dec820ce971bd68e37267065d974b9634649ec7d5a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0000-0003-a01-process-receipt.json",
+      "bytes": 3570,
+      "sha256": "04ed1d118cdcb040d923359f02199f167a1c1851e1b3c6786a1854067d085119"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0004-0007-a01-process-receipt.json",
+      "bytes": 3558,
+      "sha256": "75a7bb296f2c8aa23862486f312ef34059db8777d1682f3540d845bff1e7d6dc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0008-0011-a01-process-receipt.json",
+      "bytes": 3561,
+      "sha256": "9c5f0b2b5f583df2dd644cb664610c368092553b397bc49c3d3aefe855145cea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0012-0015-a01-process-receipt.json",
+      "bytes": 3572,
+      "sha256": "9df600bef5df025c5f95ab2f3966d8fc40d847fee388b1994b3408469ea70f8f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0016-0019-a01-process-receipt.json",
+      "bytes": 3417,
+      "sha256": "30dee91d7346f6f91013119b623b86448267e6e08492bf2ade51bfa8776752b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0020-0023-a01-process-receipt.json",
+      "bytes": 3571,
+      "sha256": "c3da3280afa31e2c1a8a66fe6c1520fa8c4b36ffc458464d1ac7734fcc0e469c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0024-0027-a01-process-receipt.json",
+      "bytes": 3561,
+      "sha256": "d0fa5b75d6485e8591a48ae1aa3deeae7534ae8a8d881ada23e42111b19a8b9b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0028-0031-a01-process-receipt.json",
+      "bytes": 3561,
+      "sha256": "94dc1f1981c5e2afe9e1ac81dd19cf379562c94c4b28cf112b1d956b95e4d904"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0032-0035-a01-process-receipt.json",
+      "bytes": 3559,
+      "sha256": "dea655298e0201979656542ab30e16a351f90d0aafd1e08d8ba7963f07670371"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0036-0039-a01-process-receipt.json",
+      "bytes": 3570,
+      "sha256": "a0430de7973d476f4a8ff380fd03b0ab38e0dfc9901230053a1ba7ffeb952d7d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0040-0043-a01-process-receipt.json",
+      "bytes": 3579,
+      "sha256": "268cbca11fee02bf835967d5fa38d3adf69678663e490e4b825b31450eef86ca"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0044-0047-a01-process-receipt.json",
+      "bytes": 3582,
+      "sha256": "5e6da53847c579f8a9b488ee538ba40354a5b77617bf786dddb75ce56a86bdc5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-tiles-0048-0050-a01-process-receipt.json",
+      "bytes": 3535,
+      "sha256": "39d7a8925a3ba57817869ab8ba75b59c152957eccd9f5c2403dade3f52eb69b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-normal-tiles-closed-inventory.json.gz",
+      "bytes": 389530,
+      "sha256": "cc378b4fec8f2c9b1a877af6efffb804c0b38124f580367e095a28be4ab56e83",
+      "uncompressed_bytes": 9750225,
+      "uncompressed_sha256": "6c3b819689c3f1667f9fc1df10b1c43e0d48af4a2151f9f7fa17f48ede8e15d8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/normal-partition-plan.json",
+      "bytes": 46631,
+      "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/baseline-summary.json",
+      "bytes": 72768,
+      "sha256": "02ca4bae7fa42d91235b0ee11c4e4a18d6eb51b26d4f374c3058082bbbc801ef"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/normal-partitioned-summary.json",
+      "bytes": 125607,
+      "sha256": "bba6fcd44306ed8d8565ddca981d61a6c3a78818aa1a344f36b5d0981653df25"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/reduced-factors/lambda1e7-block-a01/summary.json",
+      "bytes": 51114,
+      "sha256": "c4099c20d8e400f0fdfabef7b45fc75aae2c476d25c6a82158644c604eb7c100"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/directions/lambda1e7-block-floor01/summary.json",
+      "bytes": 64884,
+      "sha256": "56a03013e9decf61e4a0d90d36434d555331ace1dba596b7aaf04c5dcdfc4e6c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/directions/lambda1e7-block-floor01/direction.npz",
+      "bytes": 353792,
+      "sha256": "6b7c304be0aaff42ddf2beaf9ba5b13133415f2f9090bbddeb0601d538664692"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/accepted-result.json",
+      "bytes": 89775,
+      "sha256": "e1e16080fe44e2e16d7c6c499bc88baf47bdd76e5e51d41201c6a50a2af8760e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-work/trials/lambda1e7-block-floor01/back-00.json",
+      "bytes": 89775,
+      "sha256": "e1e16080fe44e2e16d7c6c499bc88baf47bdd76e5e51d41201c6a50a2af8760e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped26-complete-cache-inventory.json",
+      "bytes": 195091,
+      "sha256": "28155cddc1cd81bb2eade4add7ddf878923015f9569feadbd818c5fd485bae24"
+    }
+  ],
+  "initial_norm": 86.84628197535433,
+  "normal_rows": 51515,
+  "normal_value_squared_difference": 2.7284841053187847e-12,
+  "actual_accepted_norm": 6.308412244554135,
+  "actual_alpha": 1.0,
+  "actual_accepted_state": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped26-trial-back00-a01-accepted.npz",
+    "bytes": 130530,
+    "sha256": "4c6f9980ca6d03cdfc2b3442cf2eac4e548f3c1e83ae66a74590a2950c40e1a0"
+  },
+  "new_accepted_states": 1,
+  "finite_solution": false,
+  "strong_target_complete": false
+}

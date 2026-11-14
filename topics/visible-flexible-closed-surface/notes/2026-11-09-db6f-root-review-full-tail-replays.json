@@ -1,0 +1,74 @@
+{
+  "status": "independent-complete-background-assembly-and-consumer-replays-PASS",
+  "reviewer": "Astra-visible-flex-db6f0b0e/root",
+  "script_sha256": "fa0817f0addf1c81da14d869e05aace7053aab8958e2878070c272d3ae62a530",
+  "reports": {
+    "primitive": {
+      "complete_profiles": 18,
+      "all_fields_and_inputs_identical": true,
+      "analytic_leaves": 8451,
+      "range_leaves": 420
+    },
+    "strict_prefix": {
+      "replayed_rows": 4999,
+      "all_arrays_identical": true,
+      "collar_equal_to_reviewed_coarse_after_zero_padding": true
+    },
+    "assembled_packet": {
+      "rows": 5237,
+      "all_arrays_identical": true,
+      "replayed_suffix_cases": 4,
+      "finite_plan_report_sha256": "4a2fa78e181231a36475203ffea21577b16fef072d373407fa22324d8a504a6e"
+    },
+    "consumer": {
+      "checked_rows": 5237,
+      "all_rows_identical": true,
+      "all_mathematical_report_fields_identical": true,
+      "different_metadata_fields": [
+        "packet",
+        "packet_sha256",
+        "row_data_file",
+        "seconds"
+      ],
+      "metric_operator_upper": 9.968938237875866e-07,
+      "principal_curvature_upper": 8.46544537300005,
+      "author_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83",
+      "replay_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83"
+    }
+  },
+  "files": {
+    "primitive": {
+      "author": "2026-11-09-db6f-tail-background-primitive-stable-depth2.json.gz",
+      "author_sha256": "6a828623f4727a11e4ef46e0522fd651b910a54b3fbe4df873bcbc896faf34c5",
+      "replay": "2026-11-09-db6f-root-review-background-primitive-stable-depth2.json.gz",
+      "replay_sha256": "cd4abeaddb112067695f6894760336a2eb2f42a557b7dd64e0332a1f7051c25d"
+    },
+    "strict_prefix": {
+      "author": "2026-11-09-db6f-tail-background-tight-int2-prefix.json",
+      "author_sha256": "8d5e9d4b084a13fb8c5da6944de03e6c50a42f4035922983116ab00751c30fa1",
+      "replay": "2026-11-09-db6f-root-review-background-packet-prefix.json",
+      "replay_sha256": "071a5b01842deb309f87d64c183cb29793a5db9c83d2c9928a83f3117aa90e07"
+    },
+    "assembled_packet": {
+      "author": "2026-11-09-db6f-audit-tail-tight-final-packet.json",
+      "author_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+      "replay": "2026-11-09-db6f-root-review-final-reconstructed-packet.json",
+      "replay_sha256": "adf9c77831460e4ccfc953f9d7474bfa69970213179ff39923c09a6d11bc78af"
+    },
+    "consumer": {
+      "author": "2026-11-09-db6f-audit-tail-tight-full.json",
+      "author_sha256": "87b2e526a5883c46824d214e3207f3888651aef65dfb2a4714799d39974061d2",
+      "replay": "2026-11-09-db6f-root-tail-tight-full-replay.json",
+      "replay_sha256": "2e411bb9cf1abc1b0b78c8fbb18533808722f4d26be9a0296b60bb0e0b4cfaba"
+    }
+  },
+  "reviewed_sources_sha256": {
+    "db6f-audit-overlay-tail-packet.py": "87218edf0b73b6e67dae3c58a618841601dc64b093b24519820bcfd63efca839",
+    "db6f-audit-tail-inherit-coarse-wr.py": "718ae3b47154083cf0c5a17fd65cea6dad25b4440fd8e31d1dbcad1ba9748f1e",
+    "db6f-tail-background-packet.py": "75ef3b0426f31926d2e529d18f3b57beda8bc40fdca0cf7f9c26bf33442db1b7",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f-tail-build-background-primitive-stable.py": "5843f0b9898ac101a516e6eacadd9cb3ab529b94cda3f0bb4164a5e6ac6da465",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670"
+  },
+  "scope": "Complete source primitive, complete actual finite supplier plan, exact helper assembly and full finite-tail consumer. Analytic input proofs are separately reviewed dependencies; not README completion."
+}

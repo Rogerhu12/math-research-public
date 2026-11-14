@@ -1,0 +1,264 @@
+{
+  "schema": "db6f-prefix-bounded-forcing-full-review-receipt-v1",
+  "reviewer": "/root/coupled_prefix",
+  "status": "PASS_COMPLETE_FOURTEEN_SECTION_PROOF",
+  "source": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-bounded-forcing-strong-support-core-v1.md",
+    "commit": "fb9c9d106be35e52fc17bc91ddaf4895c0817dc4",
+    "blob": "32a23264bab0138aba1d67dc24d9310aeb3e6d0b",
+    "bytes": 21223,
+    "sha256": "2052d22f434067cc97875c100fd9183e8213a3357b06f6fa28bc88acc3af6b98"
+  },
+  "dependencies": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R50-increasing-q-smooth-flat-entry.md",
+      "commit": "fb9c9d106be35e52fc17bc91ddaf4895c0817dc4",
+      "blob": "778a8536fc07f73eb96f25336da0a80fc5f6fa40",
+      "bytes": 16151,
+      "sha256": "0742d61fac71e010ed60ef5e95486c668bdd8da82cacae02d3eea9abc0e3bb6a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R48-monotone-flat-collar-smooth-data.md",
+      "commit": "fb9c9d106be35e52fc17bc91ddaf4895c0817dc4",
+      "blob": "b3195ce6a2fe0108638c1f4ccc4be8a84d009f6c",
+      "bytes": 18887,
+      "sha256": "a625a205ea831a802f78566b09cdd6a13acd06b76a4659b6391382ad9f886f3a"
+    }
+  ],
+  "dependency_texts_equal_prior_full_read": true,
+  "independent_replay": {
+    "schema": "db6f-prefix-bounded-forcing-independent-rational-replay-v1",
+    "reviewer": "/root/coupled_prefix",
+    "source": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-bounded-forcing-strong-support-core-v1.md",
+      "commit": "fb9c9d106be35e52fc17bc91ddaf4895c0817dc4",
+      "blob": "32a23264bab0138aba1d67dc24d9310aeb3e6d0b",
+      "bytes": 21223,
+      "sha256": "2052d22f434067cc97875c100fd9183e8213a3357b06f6fa28bc88acc3af6b98"
+    },
+    "expression": {
+      "bytes": 2853,
+      "ascii": true,
+      "sha256": "b215925f779f522ba32c4d6174b5b5e738fa90d3db13881f679d497abb2c15d1",
+      "unique_javascript_fence": true
+    },
+    "started_utc": "2026-11-10 00:51:31 UTC",
+    "finished_utc": "2026-11-10 00:51:31 UTC",
+    "execution": "Actual standalone functions.exec V8 expression, completed normally",
+    "result": {
+      "check_count": 28,
+      "checks": [
+        {
+          "name": "plateau left",
+          "status": "PASS",
+          "left": "2/5",
+          "right": "7/20"
+        },
+        {
+          "name": "plateau right",
+          "status": "PASS",
+          "left": "3/2",
+          "right": "7/5"
+        },
+        {
+          "name": "Taylor integral lower",
+          "status": "PASS",
+          "left": "33523601/56250000",
+          "right": "59/100"
+        },
+        {
+          "name": "rho lower",
+          "status": "PASS",
+          "left": "1/10",
+          "right": "1/10"
+        },
+        {
+          "name": "rho upper",
+          "status": "PASS",
+          "left": "19/10",
+          "right": "19/10"
+        },
+        {
+          "name": "material chord",
+          "status": "PASS",
+          "left": "7/209",
+          "right": "1/30"
+        },
+        {
+          "name": "perturbation small",
+          "status": "PASS",
+          "left": "1/30",
+          "right": "1/100000"
+        },
+        {
+          "name": "normal cross column",
+          "status": "PASS",
+          "left": "3/100000",
+          "right": "200001/10000000000"
+        },
+        {
+          "name": "reach exact",
+          "status": "PASS",
+          "left": "99940009/1045950000",
+          "right": "99940009/1045950000"
+        },
+        {
+          "name": "reach absolute",
+          "status": "PASS",
+          "left": "99940009/1045950000",
+          "right": "3/32"
+        },
+        {
+          "name": "L budget",
+          "status": "PASS",
+          "left": "1/2000000",
+          "right": "10000001/50000000000000"
+        },
+        {
+          "name": "ru budget",
+          "status": "PASS",
+          "left": "1/50",
+          "right": "1001/100000"
+        },
+        {
+          "name": "uu budget",
+          "status": "PASS",
+          "left": "1/50",
+          "right": "531/50000"
+        },
+        {
+          "name": "directional Hessian",
+          "status": "PASS",
+          "left": "1/1",
+          "right": "7/100"
+        },
+        {
+          "name": "H chord",
+          "status": "PASS",
+          "left": "591/1000",
+          "right": "591/1000"
+        },
+        {
+          "name": "whole initial diameter budget",
+          "status": "PASS",
+          "left": "1011/500",
+          "right": "1011/500"
+        },
+        {
+          "name": "diameter convenient bound",
+          "status": "PASS",
+          "left": "51/25",
+          "right": "1011/500"
+        },
+        {
+          "name": "H ratio",
+          "status": "PASS",
+          "left": "197/680",
+          "right": "1/4"
+        },
+        {
+          "name": "north increment",
+          "status": "PASS",
+          "left": "531/1000",
+          "right": "531/1000"
+        },
+        {
+          "name": "held gap",
+          "status": "PASS",
+          "left": "53/100",
+          "right": "53/100"
+        },
+        {
+          "name": "held ratio",
+          "status": "PASS",
+          "left": "53/204",
+          "right": "53/204"
+        },
+        {
+          "name": "held strong",
+          "status": "PASS",
+          "left": "53/204",
+          "right": "1/4"
+        },
+        {
+          "name": "diameter witness",
+          "status": "PASS",
+          "left": "1281961/250000",
+          "right": "81/16"
+        },
+        {
+          "name": "rigid quotient gap",
+          "status": "PASS",
+          "left": "21/200",
+          "right": "21/200"
+        },
+        {
+          "name": "rigid quotient ratio",
+          "status": "PASS",
+          "left": "7/136",
+          "right": "7/136"
+        },
+        {
+          "name": "rigid quotient strong",
+          "status": "PASS",
+          "left": "7/136",
+          "right": "1/20"
+        },
+        {
+          "name": "reach normalized",
+          "status": "PASS",
+          "left": "25/544",
+          "right": "25/544"
+        },
+        {
+          "name": "reach normalized target",
+          "status": "PASS",
+          "left": "25/544",
+          "right": "3/100"
+        }
+      ]
+    },
+    "scope": {
+      "terminal": false,
+      "python": false,
+      "curve_samples": false,
+      "geometry_arrays": false,
+      "pde_bvp_dn_rk": false,
+      "author_execution_substituted": false
+    }
+  },
+  "proof_scope": [
+    "Complete smooth forcing definition, parity, reflected cancellation, periodic Cauchy data and support witnesses",
+    "Actual compact convex support set even for signed q; strict convex boundary and common unit-speed material",
+    "Actual rolling disks, all feasible boundary normal cones and global nearest-point uniqueness",
+    "Global chord gamma=1/30 and full C2 perturbation radius with R=1/10 and reference Hessian bound10",
+    "Uniform R50 to R48 application and noncircular fixed delta choice; correct low-order mixed energies",
+    "Actual periodic Cartesian position, fixed common metric, open seam and nonzero rank-one outlet",
+    "Full Cartesian first and second derivative bounds with epsilon=1/100000",
+    "Fixed material H, complete initial-image diameter, actual held Hausdorff witness",
+    "Effective full E(3) quotient bound from diameter gap, including reflections and attained minimum",
+    "Precise bordered-annulus scope; closure, effective delta computation, numerical G5 and mesh remain unpaid"
+  ],
+  "performed": {
+    "full_frozen_source_read": true,
+    "independent_paper_derivation": true,
+    "v8_frozen_appendix": true,
+    "terminal": false,
+    "python": false,
+    "pde_bvp_dn_rk": false,
+    "optimization_data": false,
+    "geometry_arrays": false
+  },
+  "untouched": [
+    "author proof",
+    "R50",
+    "R48",
+    "HANDOFF",
+    "open",
+    "results",
+    "LOG",
+    "QUEUE",
+    "all numerical entries and source bindings"
+  ],
+  "limitations": "Accepts the exact common-metric annulus with two boundary circles only. The proof fixes delta existentially and gives no computed decimal width, no cap or closed surface, no numerical G5, and no geometry mesh."
+}

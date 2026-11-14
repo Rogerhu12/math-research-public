@@ -1,0 +1,84 @@
+{
+  "scope": "Exercise snapshot storage using a 64-node fixture of an existing warm curve.\n\nThe fixture is not an inner solve: a cubic Hermite interpolant is constructed\non a subset of the saved warm mesh. No BVP, tail call or integration is run.\nThe test checks byte preservation, ordinary geometry-reader consumption and\nthat the live fixture object's caches and counters are unchanged by saving.\n",
+  "checks": {
+    "live_fixture_object_unchanged": true,
+    "returned_cubic_bytes_identical": true,
+    "returned_nodal_bytes_identical": true,
+    "physical_quintic_bytes_identical_to_original_formula": true,
+    "returned_parameters_equal": true,
+    "returned_numerical_mesh_equal": true,
+    "physical_mesh_equal": true,
+    "ordinary_geometry_reader_retains_pp_bytes": true,
+    "success_never_asserted": true,
+    "no_tail_seam_claim": true,
+    "file_size_limit": true
+  },
+  "fixture_nodes": 64,
+  "fixture_is_actual_inner_run": false,
+  "source_checkpoint": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "bytes": 27524,
+    "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+  },
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inner-snapshot-check.py",
+    "bytes": 6452,
+    "sha256": "ba11918947c9bc186660b63c1fca8527f148db8a95c14e451fba5719fe33bb77"
+  },
+  "snapshot_writer": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inner-snapshot.py",
+    "bytes": 7811,
+    "sha256": "c6a9385b9d5db8e9fb8dfc739758459f10f17c5f95949f70e97fff6b25dfb702"
+  },
+  "snapshot": {
+    "status": "UNSOLVED_OUTER_INNER_CANDIDATE",
+    "inner_call": 1,
+    "inner_success": false,
+    "physical_candidate": {
+      "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001.json.gz",
+      "bytes": 4107,
+      "sha256": "b918006d6981156eee6c62ff44a8f68baaf0d080e7fac2d1e4c26034f1419033"
+    },
+    "returned_collocation": {
+      "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001-collocation.json.gz",
+      "bytes": 1637,
+      "sha256": "2eeb2ddc1a3ad7ffc7440830104e9462dbffc4611fd8cef3c61027872cf7a433"
+    },
+    "closed_files": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001.json.gz",
+        "bytes": 4107,
+        "sha256": "b918006d6981156eee6c62ff44a8f68baaf0d080e7fac2d1e4c26034f1419033"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001_coeff_00.npy.gz",
+        "bytes": 135682,
+        "sha256": "689388cfc23c05d3c74c9b7fc94bf2d4c8a3b7267b5a2a50962850ee32fc4e76"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001-collocation.json.gz",
+        "bytes": 1637,
+        "sha256": "2eeb2ddc1a3ad7ffc7440830104e9462dbffc4611fd8cef3c61027872cf7a433"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001-collocation_coeff_00.npy.gz",
+        "bytes": 90724,
+        "sha256": "64617751c4a581ce49b96eaf223122f9986df1630f1fcc5641d4ab0a10ef74e2"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/inner-snapshot-check-02/synthetic_inner_0001-nodes-00.npy.gz",
+        "bytes": 23101,
+        "sha256": "a89caedcffdcc8068d0d20a946e086977856f828f6b146f8c93b8af2900586cd"
+      }
+    ],
+    "seconds": 0.17485155899703386,
+    "snapshot_rhs_calls_on_separate_flow": 1,
+    "new_BVP_calls": 0,
+    "new_DN_calls": 0,
+    "finite_coupled_success": false,
+    "closed_surface_success": false
+  },
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "seconds": 0.6373271839984227
+}

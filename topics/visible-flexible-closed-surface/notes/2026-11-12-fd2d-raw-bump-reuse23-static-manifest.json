@@ -1,0 +1,27 @@
+{
+  "schema": "fd2d-run-static-input-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-refined-angular-reuse-run.py",
+      "bytes": 32812,
+      "sha256": "2d605667eb218791964b93455b8842b38043faa8a1ebc37a04f2cbd9e4b2cf76"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-launch-receipt.json",
+      "bytes": 892,
+      "sha256": "4a6580548c17c26503629e87124b999c7afccad349af2b10270530e1784145c3"
+    }
+  ],
+  "input": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "inherited_source_group": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-static-manifest.json",
+    "bytes": 1109,
+    "sha256": "ede7ca0cb566512ede43499ed943f4a880df8a1944dc35a1b8af7005511f53f7"
+  },
+  "active_outputs_excluded": true
+}

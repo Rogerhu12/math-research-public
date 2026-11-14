@@ -1,0 +1,27 @@
+{
+  "scope": "Manufactured round surface and radial velocity derivative checks for chart code.",
+  "round_Fs": 2.220446049250313e-16,
+  "round_Ftheta": 2.220446049250313e-16,
+  "round_Fss": 1.7763568394002505e-15,
+  "round_Fstheta": 1.3877787807814457e-15,
+  "round_Fthetatheta": 2.040034807748725e-15,
+  "round_velocity_s": 1.7319479184152442e-14,
+  "velocity_s_finite_difference": [
+    {
+      "step": 0.0001,
+      "max_error": 3.646069452134526e-06
+    },
+    {
+      "step": 5e-05,
+      "max_error": 9.1151808190304e-07
+    },
+    {
+      "step": 2.5e-05,
+      "max_error": 2.278713333581095e-07
+    },
+    {
+      "step": 1.25e-05,
+      "max_error": 5.6977199403007717e-08
+    }
+  ]
+}

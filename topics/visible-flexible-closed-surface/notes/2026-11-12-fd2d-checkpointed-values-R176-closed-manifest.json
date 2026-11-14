@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-closed-complete-value-cache-result-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "results/R176-durable-complete-actual-value-evaluation.md",
+      "bytes": 8140,
+      "sha256": "9b4cf894b2f939c30118395cd59f00fac53de74ba56f9ed37dd6160f0d2da21e"
+    },
+    {
+      "path": "scripts/fd2d_gc_checkpointed_grouped_values.py",
+      "bytes": 12606,
+      "sha256": "985aa0b64148afaa568dffb8ce252b0b24b5dd1803c2d911b05e07ee77d0976b"
+    },
+    {
+      "path": "scripts/fd2d-checkpointed-value-cache-check.py",
+      "bytes": 6314,
+      "sha256": "61d11b9499cbc1f1b9183561dc270afc1128730069f69ece99124ea2baed698e"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stage-trial-checkpointed.py",
+      "bytes": 8516,
+      "sha256": "b4c475f21890a44f4754ce03e77e4eb069386154f46e823afca74e9fb8dc4ab0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-actual-exits.json",
+      "bytes": 760,
+      "sha256": "4a8fd8a3bbd0ed02519df84eaecfee1f594f7b5419ac70e9ebce97ebb11c7caa"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-02-report.json",
+      "bytes": 3387,
+      "sha256": "156a92ead7379546243caa2d0929cb4e407336621bc394e47b8b0243b84d882e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/cells-3477db830c1283c2312f51fa70520d3e323ec69713bb45702009c3a483b5ec8c/manifest.json",
+      "bytes": 170627,
+      "sha256": "6fa1a1fc44a52467835223d173c7284e64dec40babe001d2b0b7290d71c585d6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/cells-3477db830c1283c2312f51fa70520d3e323ec69713bb45702009c3a483b5ec8c/part-0000.npz",
+      "bytes": 30975,
+      "sha256": "0828dca9f1273d707045bf29075c432233d0e3a2d74f35a0d165f5ccd28eb258"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/node-9168e1bbff479029451693c0792117b439afed1b7175200a04a44578f75478ec/manifest.json",
+      "bytes": 21323,
+      "sha256": "e03a42b0dae6e204b11c0e225f250d24153ab1166b3578deeb9b8882f5c00e3a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/node-9168e1bbff479029451693c0792117b439afed1b7175200a04a44578f75478ec/part-0000.npz",
+      "bytes": 9001,
+      "sha256": "93ef3c25840fd8567d2cee786ee38ae65f2ae8cf616e220fb0d00b2df7a823b7"
+    }
+  ],
+  "dependencies_closed_manifests": [
+    "notes/2026-11-12-fd2d-raw-bump-grouped29-dyadic30-closed-manifest.json"
+  ],
+  "mathematical_goal_changed": false,
+  "whole_F_outcomes": "Actual R170-domain full trial rejected and half trial accepted; separate immutable group contains those outcomes",
+  "scope": "Complete actual residual replay with explicit source/input binding; strong target remains open"
+}

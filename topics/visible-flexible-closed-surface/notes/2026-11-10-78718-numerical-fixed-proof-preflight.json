@@ -1,0 +1,105 @@
+{
+  "status": "ORIGINAL_FIXED_PROOF_HEADERS_AND_CONSUMER_SOURCE_POLICY_CHECKED",
+  "scope": "Original metadata/hash preflight only; no new closed geometry or numerical bound. The word independent in the original consumer status names its producer-consumer role, not an independent end-to-end rerun by this operator.",
+  "terminal_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-terminal-error-gate.py",
+    "bytes": 41802,
+    "sha256": "1be7add52ec2c06653a2a64baa8653e675559a55551cf22603d14a80f9cfb234"
+  },
+  "fixed_reference_headers": {
+    "point": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-point-metric-witness.json",
+      "bytes": 5038,
+      "sha256": "13311ea4ecb781d0607ff6b58880c5f70bd79db2df2527aa9de3b6d9ad2e1b5e"
+    },
+    "point_wrapper": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-tail-m12-point.py",
+      "bytes": 6559,
+      "sha256": "5d950fa6caa3aff062ba5a62e743abac5b00d7ef0721930f299135d1dbdc1bb1"
+    },
+    "point_proof": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-point-lower-proof.md",
+      "bytes": 4298,
+      "sha256": "955a6550b43efb88f25767eaa0636fdb2be6eb397175507319c96fdddb2b8f92"
+    },
+    "point_review": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-m12-point-lower.md",
+      "bytes": 8965,
+      "sha256": "0105a546e1978533a9d6769204cd5910cede0e323b945b860806cf4f5da66466"
+    },
+    "geometry": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "bytes": 10095,
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "bytes": 138611,
+      "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+    },
+    "whole": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+      "bytes": 6733,
+      "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5"
+    },
+    "bridge": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "bytes": 3887,
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    "target": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "bytes": 3668,
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+    }
+  },
+  "fixed_background_proofs": {
+    "height": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+      "bytes": 5464,
+      "sha256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+    },
+    "positive_alpha": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+      "bytes": 3264,
+      "sha256": "35811ec9035d77e60f5809b6d1e19d8a27f4755f95eb5498eaa8fcc0f4808a19"
+    },
+    "numerical_bookkeeping": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-split.json",
+      "bytes": 50337,
+      "sha256": "66c4d9cf819925840ad85cbec66de6c4d1b51f89b71eeb69385e70a5294fb1f7"
+    }
+  },
+  "actual_consumer_preflights": [
+    {
+      "kind": "tight",
+      "output": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-first-dn-tight-consumer-preflight.json",
+        "bytes": 4687,
+        "sha256": "14b4edee28f99b0631b0916f8cc576c02b94a9f887dcf5bfdd01786a1e427911"
+      },
+      "actual_tool_chunk": "066add",
+      "actual_exit_code": 0,
+      "status": "independent-consumer-parameter-preflight-only",
+      "observer": "/root/numerical_recovery"
+    },
+    {
+      "kind": "lowmetric",
+      "output": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-first-dn-lowmetric-consumer-preflight.json",
+        "bytes": 4695,
+        "sha256": "2635864c633bb69d4620371ed775b1a4dde85f9417779a26a703e4fcc69b79c5"
+      },
+      "actual_tool_chunk": "8c6a95",
+      "actual_exit_code": 0,
+      "status": "independent-consumer-parameter-preflight-only",
+      "observer": "/root/numerical_recovery"
+    }
+  ],
+  "old_m12_final_gate_raw_count": 24,
+  "old_m12_raw_bytes": 80730280,
+  "deferred_input_list": "/workspace/scratch/78718bd0c4a9/numerical-final-gate-deferred-inputs.txt",
+  "deferred_missing_items": 26,
+  "deferred_packet_data_not_yet_resolved": true,
+  "actual_new_solver_calls": 0
+}

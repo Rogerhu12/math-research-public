@@ -1,0 +1,3 @@
+{"event": "start_coupled", "q": 0.1, "prefix_modes": 15, "tail_modes": 22, "nodes": 2633, "fixed": true}
+{"event": "failure", "error": "ContinuationFailure(\"[Errno 2] No such file or directory: '/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/outputs/2026-11-12-fd2d-numerical-m15-w22-resume-12_tail_0001.json.gz'\")"}
+{"status": "ACTUAL_FINITE_COUPLED_NOT_COMPLETED", "finite_success": false, "seconds": 257.96776929399493, "report": {"path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/outputs/2026-11-12-fd2d-numerical-m15-w22-resume-12-mode-run.json", "bytes": 25868, "sha256": "479d6965e3eed3344503e20b725fe7d1b5255e96eda9518543b589061871bdb1"}, "requested_exit_code": 2, "closed_surface_success": false}

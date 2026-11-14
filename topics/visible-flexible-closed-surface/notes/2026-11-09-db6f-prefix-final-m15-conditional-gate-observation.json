@@ -1,0 +1,28 @@
+{
+  "scope": "Observed pure readiness check only. No solver, generated launch or success-path execution.",
+  "observed_utc": "2026-11-09T12:10:20.894523+00:00",
+  "command": [
+    "python",
+    "scripts/db6f-prefix-prepare-final-m15-coupling.py",
+    "--check-current-gate"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "actual_exit_code": 0,
+  "output": {
+    "ready": false,
+    "reason": "Continuation is not closed: missing 2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-reproduction.json",
+    "files_written": 0,
+    "solver_launches": 0
+  },
+  "source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling.py",
+    "bytes": 18599,
+    "sha256": "22e43581c929145483b704673eb767cabfc1961eb41400595f1a289caf59855e"
+  },
+  "restart_only_actual_exit_code": 0,
+  "restart_only_report": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-restart-check.json",
+    "bytes": 16861,
+    "sha256": "c9390004df97d2db00e7ba2ac87eba95a6f256be95ea4f3ed12368ed4e13d2c6"
+  }
+}

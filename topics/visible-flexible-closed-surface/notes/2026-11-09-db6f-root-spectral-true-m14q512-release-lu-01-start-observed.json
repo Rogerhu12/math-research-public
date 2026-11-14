@@ -1,0 +1,45 @@
+{
+  "status": "ROOT_OBSERVED_ACTUAL_LU_RELEASE_PROCESS_STARTED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T21:36:05.641305+00:00",
+  "actual_start_command_receipt": "3a7d7f",
+  "actual_resource_and_child_start_receipt": "d919fe",
+  "actual_tool_session": 48113,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-release-lu-01-guard-launch.json",
+    "bytes": 43018,
+    "sha256": "16a99e7b5d2b5e9ca8e064e459285bd79d2423b12faed95163f3272897cd5384"
+  },
+  "same_process_recovery_preflight": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-lu-same-process-recovery-and-start.json",
+    "bytes": 6575,
+    "sha256": "b57d551fea3f8a0b2b8664564c125ce56fb13bfeadab271f2beee0c307dd72d8"
+  },
+  "resource_wrapper": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-true-m14-release-lu-resource-limited-6g.py",
+    "bytes": 1644,
+    "sha256": "c2f5a48a1a79c49ec37259653ee3ada00a368b8f038b6fa42ec55b73afe9e1d9"
+  },
+  "effective_RLIMIT_DATA_limits": [
+    6442450944,
+    6442450944
+  ],
+  "prior_RLIMIT_DATA_limits": [
+    -1,
+    -1
+  ],
+  "original_Node_heap_MiB": 1536,
+  "bound_source_count": 142,
+  "observed_reappeared_unchanged_historical_copies_removed": 32,
+  "free_bytes_before_guard_start": 888107008,
+  "math_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "guard_child_started": true,
+  "newton_selection_not_yet_independently_observed": true,
+  "first_DN_not_yet_audited": true,
+  "full_BVP_outer_seam_or_exit_not_yet_observed": true,
+  "G5_completed": false
+}

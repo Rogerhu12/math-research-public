@@ -1,0 +1,55 @@
+{
+  "scope": "Actual observed external exit; partial stage work remains retained, no full evaluation or DN response",
+  "run": "resume-05",
+  "launch_tool": "73403c",
+  "poll_tool": "35f4d9",
+  "session": 42979,
+  "driver_exit_code": 2,
+  "worker_exception": {
+    "scope": "Actual client exception and own worker state; not a fabricated DN response.",
+    "unix_time": 1794454602.6410737,
+    "worker_pid": 6,
+    "worker_returncode": -9,
+    "exception": "RuntimeError('Weighted tail worker stopped')",
+    "call": 1,
+    "expected_response_exists": false
+  },
+  "last_runtime": {
+    "scope": "Observed own Node/Python and global available memory; no solver or geometry claim.",
+    "parent_python_memory": {
+      "VmHWM": "102856 kB",
+      "VmRSS": "102844 kB",
+      "VmData": "198108 kB",
+      "Threads": "2"
+    },
+    "worker_cpu": {
+      "utime_ticks": 21020,
+      "stime_ticks": 452,
+      "clock_ticks_per_second": 100
+    },
+    "worker_inherited_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             4999999              4999999              bytes     \nMax data size             6442450944           6442450944           bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+    "system_memory": {
+      "MemFree": "973900 kB",
+      "MemAvailable": "1528848 kB",
+      "SwapFree": "0 kB"
+    },
+    "unix_time": 1794454599.5205996,
+    "worker_pid": 6,
+    "worker_returncode": null,
+    "status_file_available": true,
+    "last_live_memory": {
+      "unix_time": 1794454599.5205996,
+      "State": "S (sleeping)",
+      "VmHWM": "548936 kB",
+      "VmRSS": "548936 kB",
+      "VmData": "2723684 kB",
+      "Threads": "14"
+    }
+  },
+  "driver_summary_seconds": 403.5822682380676,
+  "closed_stage_count": 448,
+  "closed_block_count": 14,
+  "cache_evaluation_key": "f750d1a4292d76ffc0eab820fe851bc57712d775736e08a8ac8d13be5a8a4b15",
+  "cache_root": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache",
+  "specific_kill_cause": "not established"
+}

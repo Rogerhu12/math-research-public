@@ -1,0 +1,147 @@
+{
+  "schema": "fd2d-grouped-whole-actual-coast-R165-closed-group-v1",
+  "closed_utc": "2026-11-12T17:32:48.063387+00:00",
+  "result": "R165",
+  "proof": "results/R165-grouped-actual-field-Codazzi-quadrature.md",
+  "proof_status": "Complete finite-rule, exact-endpoint, cancellation, Jacobian and two-node-locality algebra; no continuous quadrature remainder or solved surface",
+  "consumer_api": "fd2d_gc_grouped_coast_codazzi.gauss_cell_positive_trace_grouped_coast(problem, vector, order=2, high_weight=1., jacobian=True, fine_order=8, point_batch=2)",
+  "consumer_source": {
+    "path": "scripts/fd2d_gc_grouped_coast_codazzi.py",
+    "bytes": 21332,
+    "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+  },
+  "input_field": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "bytes": 126857,
+    "sha256": "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e"
+  },
+  "input_closed_run_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "bytes": 359916,
+    "sha256": "ef14e4765f8a552da288195576368a8f70ffdeb2315ab852318b836d2e751a95"
+  },
+  "earlier_delta_comparison_witness": {
+    "path": "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-witnesses.npz",
+    "bytes": 500760,
+    "sha256": "a82fd282d315b4514555c9890de3785cac3d4c801c345bb087fb182c9bfa9a6b"
+  },
+  "failed_fixture": {
+    "session_id": 49076,
+    "initial_chunk": "472419",
+    "final_chunk": "28f536",
+    "returncode": 1,
+    "exception": "The declared direction has no real action: tail",
+    "finite_difference_reached": false,
+    "meaning": "Cell64 is structurally tail-independent; the requested three-nonzero-action fixture failed its declared scope. Consumer source unchanged."
+  },
+  "successful_fixture": {
+    "session_id": 16713,
+    "initial_chunk": "831eb6",
+    "final_chunk": "097749",
+    "returncode": 0,
+    "cell": 73,
+    "endpoints": [
+      0.8281800958020702,
+      0.8478617704522428
+    ],
+    "internal_seconds": 17.128621807001764,
+    "wrapper_seconds": 28.247039226000197,
+    "peak_rss_kib": 94024,
+    "balanced_group_action_norms": {
+      "state": 0.9999999999999998,
+      "tail": 1.0,
+      "physical_profile": 1.0
+    },
+    "finite_difference_step": 1e-06,
+    "relative_l2_error": 7.557115175724136e-09,
+    "relative_maximum_error": 1.1045826177143869e-08,
+    "absolute_error_maximum": 1.0640146097529168e-08
+  },
+  "retained_projection_difference": 3.90655389981287e-14,
+  "full_low_high_decomposition_difference": 7.435718707426986e-14,
+  "old_saved_full_maxima": [
+    0.49740039950587184,
+    0.6574084859959741
+  ],
+  "isolated_delta_only_fine_full_maxima": [
+    0.508306795106648,
+    3.6477091753292274
+  ],
+  "grouped_whole_actual_fine_full_maxima": [
+    0.5083213016780026,
+    3.664825908821722
+  ],
+  "diagnostic_grid_contract": "point_gauss and quadrature_points retain legacy G2 shape/order; split-fine observations have separately named metadata",
+  "finite_objective_changed": true,
+  "actual_field_changed": false,
+  "physical_metric_changed": false,
+  "mesh_changed": false,
+  "full_actual_field_common_point_quadrature": true,
+  "raw_l_and_trace_gauge_invariance_proved": true,
+  "full_state_tail_profile_derivative": true,
+  "exact_n_m_endpoint_functions_preserved": true,
+  "source_frozen": true,
+  "old_sources_unchanged": true,
+  "no_whole_J": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_new_global_certificate": true,
+  "no_residual_improvement_claim": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_grouped_coast_codazzi.py",
+      "bytes": 21332,
+      "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    },
+    {
+      "path": "scripts/fd2d-metric-grouped-coast-local-check.py",
+      "bytes": 9226,
+      "sha256": "bd3ac706cb93decd6a8fedfcf4e6386886abd2ae46e337715b89aa405408effa"
+    },
+    {
+      "path": "scripts/fd2d-metric-grouped-coast-local-check-v2.py",
+      "bytes": 9561,
+      "sha256": "d164974ade6b84d03981f2d9ab23ee6d36a0dcfe253e032398a7929010c02075"
+    },
+    {
+      "path": "results/R165-grouped-actual-field-Codazzi-quadrature.md",
+      "bytes": 16698,
+      "sha256": "f3a36b76f8eefbe0fcdc358828a80d8722deaed1d6a5c61c35079e28d39eb761"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-coast-local-01-report.json",
+      "bytes": 6244,
+      "sha256": "2507dcb2027c7ffed77e0add6f56068585ee0146d90ede2c4837c43008f1a009"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-coast-local-01-exit-receipt.json",
+      "bytes": 981,
+      "sha256": "1eda428ccef2a8af4d283fe92995c1191aebd43deda87bd2903fbfcf0335576b"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-grouped-coast-local-01-console.txt",
+      "bytes": 647,
+      "sha256": "7c2159a1643534499ffd636f5e6ae61db5722856c3baab419c93459ff87328a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-coast-local-02-report.json",
+      "bytes": 26425,
+      "sha256": "b91afffa2636fc0704b4fa4f56bb52c937c9069e768efcebc5431aa02de909af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-coast-local-02-exit-receipt.json",
+      "bytes": 984,
+      "sha256": "426cdff2e00144d9a67633eb8353f4e84b147eed41173ff1f404441122d7eeca"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-grouped-coast-local-02-console.txt",
+      "bytes": 251,
+      "sha256": "1607adab5eca466279466d99eea78c69b395b3fc0372de971c7c624715644e78"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-grouped-coast-local-02-witnesses.npz",
+      "bytes": 41857,
+      "sha256": "ec139a8e7ebae7c28efdfbf8e1144553e36f995d2186bb8a2ca1e3aaa7b440fe"
+    }
+  ]
+}

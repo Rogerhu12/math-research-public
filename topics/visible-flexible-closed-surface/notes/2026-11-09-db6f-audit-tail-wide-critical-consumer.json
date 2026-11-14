@@ -1,0 +1,62 @@
+{
+  "status": "continuous-finite-tail-bounds-conditional-on-background-packet",
+  "scope": "Continuous metric and curvature bounds for an exact integrated finite tail.\n\nThe manifest defines V by exact binary nodal derivative data and exact\nintegration. A separate packet must enclose the same exact background\nw(r), w_r(r) on every listed physical interval. This backend verifies the\npacket partition and performs coefficient-first residual subtraction; it\ndoes not prove the supplier's analytic claims. The R6 endpoint collar is\nspan -1. No source solver or approximate radial primitive is imported.\n",
+  "manifest": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "packet": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-wide-critical-overlay.json",
+  "packet_sha256": "8cfa70314698a496892bd4b80eaa5d11fa529292dbf191b35c54cc706617c969",
+  "packet_data_sha256": "ba83f13bacdbb36e967e8d1b083efc38214ab7457cdf29cd837c80cc12778803",
+  "script_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "polynomial_backend_sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+  "interval_backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "reader_sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+  "supplier_definition": "Same exact background; use fine packet on the listed complete spans and coarse packet elsewhere.",
+  "supplier_independently_verified": false,
+  "background_curvature_upper_assumed": 6.0,
+  "background_curvature_proof": null,
+  "total_finite_spans": 4637,
+  "collar_included": false,
+  "packet_intervals": 4638,
+  "checked_packet_intervals": 16,
+  "angular_intervals_per_threefold_period": 128,
+  "radial_subdivisions": 1,
+  "selected_span_interval": [
+    4561,
+    4577
+  ],
+  "metric_operator_upper": 8.169161123473551e-06,
+  "coordinate_residual_upper": [
+    8.104406199323749e-06,
+    1.1288612901464944e-06,
+    2.1107729623095965e-11
+  ],
+  "principal_curvature_upper": 6.203250756567895,
+  "curvature_all_checked_intervals_resolved": true,
+  "area_element_lower_from_direct": null,
+  "direct_curvature_calls": 0,
+  "perturbative_curvature_wins": 16,
+  "direct_curvature_wins": 0,
+  "worst_metric_packet": {
+    "row": 4568,
+    "span": 4567,
+    "child": 0
+  },
+  "worst_curvature_packet": {
+    "row": 4562,
+    "span": 4561,
+    "child": 0
+  },
+  "entire_finite_tail_and_collar_covered": false,
+  "complete_closed_surface": false,
+  "not_certified": [
+    "analytic validity of supplier packets",
+    "background curvature theorem",
+    "nonlinear infinite-tail solution",
+    "complete closed-surface metric or reach",
+    "README completion"
+  ],
+  "metric_immersion_certified_on_checked_intervals": true,
+  "seconds": 3.682899505001842,
+  "row_data_file": "2026-11-09-db6f-audit-tail-wide-critical-consumer.rows.json.gz",
+  "row_data_sha256": "f3e9aaa20eb87d76de91ea1091a315b2a956e806006db056b2af3108bf33cb97"
+}

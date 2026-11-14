@@ -1,0 +1,115 @@
+{
+  "schema": "fd2d-restored-warm-initializer-actual-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bvp-design-warm.py",
+    "bytes": 17364,
+    "sha256": "6b7c716fb4c098c2ad88924beb0ca75a8b57d19b41c50d8c13cf6563262310a8"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-design-p148-small-01-field.npz",
+    "bytes": 881282,
+    "sha256": "a1dea96f1c97fcf993b5ffb777ec0aa3eca53a22520d6f3037e78756761ef8a1"
+  },
+  "rows": [
+    {
+      "gap": 8e-05,
+      "initialization": {
+        "warm_field": {
+          "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-design-p148-small-01-field.npz",
+          "bytes": 881282,
+          "sha256": "a1dea96f1c97fcf993b5ffb777ec0aa3eca53a22520d6f3037e78756761ef8a1"
+        },
+        "previous_gap": 7.999999999999999e-05,
+        "requested_gap": 8e-05,
+        "predictor_ratio": 1.0000000000000002,
+        "previous_A": 1.0041228467145968,
+        "previous_B": 1.004042846714597,
+        "retained_T": 0.013443199905959788,
+        "minimum_predicted_relative_n": 0.9945237682546076,
+        "maximum_native_change": 1.734723475976807e-18,
+        "predictor": "eta=log1p(ratio*expm1(eta_old)); zeta=ratio*zeta_old; c and physical h scaled",
+        "fixed_original_radial_and_material_chart": true,
+        "omitted_eta_mean_retained": true,
+        "predictor_is_accepted": false,
+        "nonlinear_tail_solved": false
+      },
+      "maximum_parameter_change": 1.0842021724855044e-19,
+      "maximum_value_change": 1.734723475976807e-18,
+      "diagnostics": {
+        "T": 0.013443199905959788,
+        "A": 1.0041228467145968,
+        "B": 1.004042846714597,
+        "gap": 7.999999999999999e-05,
+        "gap_target": 8e-05,
+        "boundary_maximum": 1.6940658945086004e-16,
+        "omitted_eta_mean": 4.0487880556268485e-07,
+        "omitted_n_mean": 1.0071738765483487e-07,
+        "all_cut_curvature_coefficients_maximum": 1.0071738765483487e-07,
+        "core_parameter_l1": 0.00019947123959125106,
+        "maximum_worker_height": 1.3144314807763342e-05,
+        "minimum_n_grid": 0.15971405424480392,
+        "maximum_eta": 0.005491281270729541,
+        "maximum_zeta": 0.008990166917666359,
+        "minimum_radial_scale": 0.9999958977838014,
+        "tail": {
+          "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+          "minimum_n": 0.2486819418730839,
+          "maximum_m": 0.00033897332614986266,
+          "nonlinear_tail_solved": false,
+          "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+        }
+      }
+    },
+    {
+      "gap": 0.00016,
+      "initialization": {
+        "warm_field": {
+          "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-design-p148-small-01-field.npz",
+          "bytes": 881282,
+          "sha256": "a1dea96f1c97fcf993b5ffb777ec0aa3eca53a22520d6f3037e78756761ef8a1"
+        },
+        "previous_gap": 7.999999999999999e-05,
+        "requested_gap": 0.00016,
+        "predictor_ratio": 2.0000000000000004,
+        "previous_A": 1.0041228467145968,
+        "previous_B": 1.004042846714597,
+        "retained_T": 0.013443199905959788,
+        "minimum_predicted_relative_n": 0.9890475365092152,
+        "maximum_native_change": 0.008517427024546956,
+        "predictor": "eta=log1p(ratio*expm1(eta_old)); zeta=ratio*zeta_old; c and physical h scaled",
+        "fixed_original_radial_and_material_chart": true,
+        "omitted_eta_mean_retained": true,
+        "predictor_is_accepted": false,
+        "nonlinear_tail_solved": false
+      },
+      "maximum_parameter_change": 0.0005831406172589601,
+      "maximum_value_change": 0.008517427024546956,
+      "diagnostics": {
+        "T": 0.013443199905959788,
+        "A": 1.0041628534960922,
+        "B": 1.0040028534949703,
+        "gap": 0.00016000000112209318,
+        "gap_target": 0.00016,
+        "boundary_maximum": 7.013082301032032e-09,
+        "omitted_eta_mean": 8.097575254966154e-07,
+        "omitted_n_mean": 2.0143479478704477e-07,
+        "all_cut_curvature_coefficients_maximum": 2.0143479478704477e-07,
+        "core_parameter_l1": 0.0003989424791825021,
+        "maximum_worker_height": 2.6288629615526683e-05,
+        "minimum_n_grid": 0.15951914973011208,
+        "maximum_eta": 0.011012883287708676,
+        "maximum_zeta": 0.017980333835332717,
+        "minimum_radial_scale": 0.9999958977838014,
+        "tail": {
+          "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+          "minimum_n": 0.24860458619367098,
+          "maximum_m": 0.0006779466522997253,
+          "nonlinear_tail_solved": false,
+          "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+        }
+      }
+    }
+  ],
+  "seconds": 1.1701504019999902,
+  "scope": "Actual initialization only, no Newton solve; restored source has a new recorded identity."
+}

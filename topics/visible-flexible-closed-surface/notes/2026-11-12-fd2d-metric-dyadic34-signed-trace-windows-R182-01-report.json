@@ -1,0 +1,431 @@
+{
+  "schema": "fd2d-R182-signed-disjoint-positive-K-window-certificate-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_signed_trace_window_certificate.py",
+    "bytes": 13065,
+    "sha256": "d5b588e356986e40d4c77e9fd6bbee342cb79fc6c14799686a1ae56b87264810"
+  },
+  "profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-packet.json.gz",
+    "bytes": 381937,
+    "sha256": "2ad6ebdc6ce4a8bc13959610161638881bad3da235b4379f69bdbbec13318a30"
+  },
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+    "bytes": 133721,
+    "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+  },
+  "passed": true,
+  "field_Jacobian_BVP_or_body_evaluated": false,
+  "old_or_active_solver_source_changed": false,
+  "profile_input_binding_sha256": "d05316e7b1d6d9983b940646fad07f16a45a3b07b502e41f610143804e30ca1a",
+  "enclosure_backend": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_bernstein_bumps.py",
+    "bytes": 2895,
+    "sha256": "6daa895c0707712bedc3cf83eabdfb6dd6ee9f142a07f841c5ac695d1837d647"
+  },
+  "center_delta_exact": [
+    [
+      "2806759606808541",
+      "9223372036854775808"
+    ],
+    [
+      "-3294750363681323",
+      "576460752303423488"
+    ],
+    [
+      "-588108399571333",
+      "72057594037927936"
+    ],
+    [
+      "-4727597591298225",
+      "4611686018427387904"
+    ],
+    [
+      "8312791648994889",
+      "288230376151711744"
+    ],
+    [
+      "652726990879837",
+      "18014398509481984"
+    ],
+    [
+      "1836789295023669",
+      "144115188075855872"
+    ]
+  ],
+  "bump_supports_exact": [
+    [
+      [
+        "6124895493223875",
+        "18014398509481984"
+      ],
+      [
+        "1782500573725975",
+        "2251799813685248"
+      ]
+    ],
+    [
+      [
+        "63739630995077",
+        "140737488355328"
+      ],
+      [
+        "4073445465988445",
+        "4503599627370496"
+      ]
+    ],
+    [
+      [
+        "5096225020757919",
+        "9007199254740992"
+      ],
+      [
+        "4581889784524941",
+        "4503599627370496"
+      ]
+    ],
+    [
+      [
+        "3056556828915455",
+        "4503599627370496"
+      ],
+      [
+        "1272583525765359",
+        "1125899906842624"
+      ]
+    ],
+    [
+      [
+        "1782500573725975",
+        "2251799813685248"
+      ],
+      [
+        "5598778421597931",
+        "4503599627370496"
+      ]
+    ],
+    [
+      [
+        "4073445465988445",
+        "4503599627370496"
+      ],
+      [
+        "6107222740134427",
+        "4503599627370496"
+      ]
+    ],
+    [
+      [
+        "4581889784524941",
+        "4503599627370496"
+      ],
+      [
+        "3307833529335461",
+        "2251799813685248"
+      ]
+    ]
+  ],
+  "saved_mesh_count": 131,
+  "exact_global_radius_lower": {
+    "exact": [
+      "18103121383342981011",
+      "23058430092136939520"
+    ],
+    "display": 0.78509774130357
+  },
+  "windows": [
+    {
+      "name": "middle_positive",
+      "sign": 1,
+      "endpoints": [
+        {
+          "exact": [
+            "8106479329266893",
+            "9007199254740992"
+          ],
+          "display": 0.9
+        },
+        {
+          "exact": [
+            "1030198414761001",
+            "1125899906842624"
+          ],
+          "display": 0.915
+        },
+        {
+          "exact": [
+            "8872091265919877",
+            "9007199254740992"
+          ],
+          "display": 0.985
+        },
+        {
+          "exact": [
+            "4458563631096791",
+            "4503599627370496"
+          ],
+          "display": 0.99
+        }
+      ],
+      "support_scope": "w>0 exactly on (A,D); both endpoints have w=w_s=w_ss=0",
+      "plateau_scope": "w=1 on the closed interval [B,C]",
+      "weight": "S5 rising on [A,B], 1 on [B,C], 1-S5 falling on [C,D], 0 elsewhere",
+      "step_polynomial": "10*t^3-15*t^4+6*t^5",
+      "exact_cover_rows": 90,
+      "complete_closed_support_positive_K": true,
+      "current_K_lower": {
+        "exact": [
+          "750461597",
+          "1073741824"
+        ],
+        "display": 0.6989218266680837
+      },
+      "current_K_upper": {
+        "exact": [
+          "931200875",
+          "268435456"
+        ],
+        "display": 3.4689935855567455
+      },
+      "active_bump_parameter_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "uniform_delta_linf_radius": {
+        "exact": [
+          "1",
+          "2048"
+        ],
+        "display": 0.00048828125
+      },
+      "uniform_neighborhood_K_lower": {
+        "exact": [
+          "11240772056215546041498647248204915286728477643445012258355117990630464528893",
+          "33114050102896763395088762152232661305141258975897201280517279572661182398176"
+        ],
+        "display": 0.3394562737353659
+      },
+      "neighborhood_rule": "For every row: sum_j B_ij*abs(delta_j-new_center_j) <= margin_i/2; also sum_j abs(change_j) < current global radius lower. The stated uniform box is a simpler closed sufficient subset.",
+      "complete_P1_hat_indices_in_plateau": [
+        84,
+        85
+      ],
+      "node_indices_in_plateau": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "partial_hats_not_removed": true
+    },
+    {
+      "name": "late_negative",
+      "sign": -1,
+      "endpoints": [
+        {
+          "exact": [
+            "801077783718527",
+            "562949953421312"
+          ],
+          "display": 1.423
+        },
+        {
+          "exact": [
+            "1607785066971267",
+            "1125899906842624"
+          ],
+          "display": 1.428
+        },
+        {
+          "exact": [
+            "6494190662668255",
+            "4503599627370496"
+          ],
+          "display": 1.442
+        },
+        {
+          "exact": [
+            "6507701461550367",
+            "4503599627370496"
+          ],
+          "display": 1.445
+        }
+      ],
+      "support_scope": "w>0 exactly on (A,D); both endpoints have w=w_s=w_ss=0",
+      "plateau_scope": "w=1 on the closed interval [B,C]",
+      "weight": "S5 rising on [A,B], 1 on [B,C], 1-S5 falling on [C,D], 0 elsewhere",
+      "step_polynomial": "10*t^3-15*t^4+6*t^5",
+      "exact_cover_rows": 89,
+      "complete_closed_support_positive_K": true,
+      "current_K_lower": {
+        "exact": [
+          "515536027",
+          "68719476736"
+        ],
+        "display": 0.0075020365620730445
+      },
+      "current_K_upper": {
+        "exact": [
+          "852552185",
+          "8589934592"
+        ],
+        "display": 0.09925013699103147
+      },
+      "active_bump_parameter_indices_zero_based": [
+        6
+      ],
+      "uniform_delta_linf_radius": {
+        "exact": [
+          "1",
+          "4096"
+        ],
+        "display": 0.000244140625
+      },
+      "uniform_neighborhood_K_lower": {
+        "exact": [
+          "977573046108570303798597516491850340011065429527557894980047547171243033275",
+          "267813154793113571731531348584351855697798371347845940689595233547083269001624"
+        ],
+        "display": 0.003650205483236058
+      },
+      "neighborhood_rule": "For every row: sum_j B_ij*abs(delta_j-new_center_j) <= margin_i/2; also sum_j abs(change_j) < current global radius lower. The stated uniform box is a simpler closed sufficient subset.",
+      "complete_P1_hat_indices_in_plateau": [],
+      "node_indices_in_plateau": [
+        117,
+        118
+      ],
+      "partial_hats_not_removed": true,
+      "one_sided_parameter_condition": {
+        "parameter_index_zero_based": 6,
+        "delta_upper": {
+          "exact": [
+            "13057",
+            "1000000"
+          ],
+          "display": 0.013057
+        },
+        "other_parameters_do_not_act_on_this_support": true,
+        "radius_positivity_still_required": true,
+        "a_ss_upper": {
+          "exact": [
+            "-11482936581562789658409915330538559133721703377415038786637815425595075245396511",
+            "3618502788666131106986593281521497120414687020801267626233049500247285301248000000"
+          ],
+          "display": -0.00317339442642676
+        },
+        "reason": "The only active bump has nonnegative second derivative throughout every exact support box; the analytic base has strictly negative a_ss."
+      }
+    }
+  ],
+  "common_delta_linf_radius": {
+    "exact": [
+      "1",
+      "4096"
+    ],
+    "display": 0.000244140625
+  },
+  "negative_gap_witness": {
+    "interval": [
+      [
+        "29",
+        "20"
+      ],
+      [
+        "731",
+        "500"
+      ]
+    ],
+    "complete_closed_interval_negative_K": true,
+    "K_upper": {
+      "exact": [
+        "-254983929",
+        "68719476736"
+      ],
+      "display": -0.003710504519403912
+    },
+    "positive_K_bridge_to_old_terminal_window_claimed": false
+  },
+  "unchanged_terminal_window": {
+    "E": "w*(h-n-l)/2",
+    "actual_fields": "n_new=n+E,m_new=m,l_new=l+E",
+    "algebra_source_sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+    "composition_order": "R153 coast positive-n Gauss-l first, then disjoint R155 terminal positive trace",
+    "cut": 1.4889731783581288,
+    "exact_tail_bypass": "At s=cut take E=E_xi=all E parameter/state partials=0 along the accurate analytic nonnegative tail family",
+    "exact_trace_gauge": "At entire-hat plateau nodes set raw n correction=(old n-old l)/2, raw l correction=negative of it; d unchanged",
+    "h": "sqrt((n-l)^2+4*m^2+4*K)",
+    "inactive_raw_trace_nodes": [
+      126,
+      127,
+      128,
+      129
+    ],
+    "invariant_fields": "d=n-l and m from the actual R153 background",
+    "mathematical_field_changed": true,
+    "no_continuous_geometry_claim": true,
+    "physical_metric_changed_by_representation": false,
+    "positive_K_domain": "K>=0 at active non-cut points; h>0 when its general derivative is used; no n floor added",
+    "provider_source_sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+    "ramp_stop": 1.4759731783581287,
+    "schema": "fd2d-terminal-positive-trace-Gauss-field-v1",
+    "start": 1.4689731783581288,
+    "step": 5,
+    "tail_contract": "All correction coefficients at cut are exactly zero; existing positive tail parameters define the complete true trace",
+    "weight": "S5((s-start)/(ramp_stop-start)), clipped, then exactly one up to cut"
+  },
+  "disjoint_from_existing_terminal_weight": true,
+  "selected_profile_points": [
+    {
+      "node_index": 84,
+      "s_exact": [
+        "8548869048770315",
+        "9007199254740992"
+      ],
+      "K": {
+        "lower_binary": [
+          "8754787982390621739291014674194893865948927664709666925",
+          -181
+        ],
+        "upper_binary": [
+          "4377393991195310869645507337097446932974463832719640921",
+          -180
+        ],
+        "lower_display": 2.856382856893666,
+        "upper_display": 2.856382856893666
+      }
+    },
+    {
+      "node_index": 118,
+      "s_exact": [
+        "6488379898870229",
+        "4503599627370496"
+      ],
+      "K": {
+        "lower_binary": [
+          "1703951395127212600702687975526847155697",
+          -135
+        ],
+        "upper_binary": [
+          "1703951395127212600702687975527369145713",
+          -135
+        ],
+        "lower_display": 0.03912080545015222,
+        "upper_display": 0.03912080545015222
+      }
+    }
+  ],
+  "continuous_rows": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic34-signed-trace-windows-R182-01-rows.json.gz",
+    "bytes": 124843,
+    "sha256": "d7f990bcef75ec30311e23d3cf92dadf5736f871f141dd3f7fa62071f7793095",
+    "uncompressed_bytes": 561529,
+    "uncompressed_sha256": "11350ef54ce15c0dcf0f9766841f36b20e2f5604763d80fef7df90fa3f8250db"
+  },
+  "field_unchanged": true,
+  "seconds": 0.856556405997253,
+  "peak_rss_kib": 85028
+}

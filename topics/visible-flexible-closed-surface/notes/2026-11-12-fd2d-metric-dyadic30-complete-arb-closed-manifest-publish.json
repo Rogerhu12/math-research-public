@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-closed-manifest-01.json",
+    "bytes": 3590,
+    "sha256": "80eeaaf71620778e2a292e8c4423726c7b014a99aff2056af23e9f166f8f1943"
+  },
+  "only_key_adaptation": "artifacts to files; original unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_complete_arb.py",
+      "bytes": 13835,
+      "sha256": "fa39d247e561812a50dba36a91b9754cbb32ce27549ad78336e7e5b151fd667b"
+    },
+    {
+      "path": "scripts/fd2d-metric-dyadic-tail-complete-arb-check.py",
+      "bytes": 9248,
+      "sha256": "231c8c11668b8a89b02f417213ee5e4ff0480f339990894b3f486d2deeec4fe7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic-tail-complete-Arb.md",
+      "bytes": 6812,
+      "sha256": "f870609ef5c88a350b340f9c8aa884e308f4303e7b23709b62e7790a4b785adc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-report.json",
+      "bytes": 62381,
+      "sha256": "1a773ac1ce0b508c9dd5773ae317be7d6d6c8a414239b363554e182795e38a6d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-definition.json.gz",
+      "bytes": 23433,
+      "sha256": "71ac289a491b92336e7e085cc50f117fc8decf5085f38ea9a2bafd7b96ef009f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-primitive.json",
+      "bytes": 6469,
+      "sha256": "57cf89ff083a7dae1ac7ad1c97b4d55efc2108da391481d32cd6aa448ba3ff27"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-completion-receipt.json",
+      "bytes": 766,
+      "sha256": "24a22e03f144df61a8b811893c49865b7878a9d5ddb25f3aea1395b587ba9e6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-closed-manifest-01.json",
+      "bytes": 3590,
+      "sha256": "80eeaaf71620778e2a292e8c4423726c7b014a99aff2056af23e9f166f8f1943"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Trial20: actual line-search evidence and complete closure
+
+The same finite problem and actual R153/R155 field as interior18/stream19 were continued with a new driver recording every evaluated or rejected trial. The four natural two-step batches all exited 0. Tool session 58342 closed with chunk f455b6; the launch was 8bb4f5. Eight complete accepted states were saved. No tolerance or strong-target success is claimed.
+
+The accepted objective norm decreased from the first accepted 5.674522629744368 to 5.079120075538848. In the final state the original selected finite residual maximum is 0.97020271247129242, node Gauss maximum 1.5651323739488319, and all-cell Gauss2 point maximum 3.6225488560192005. The final sampled angular high-Codazzi maximum is 2.9255808435674986. This is a compromise among unresolved residuals, not a certified continuous field or closed surface.
+
+Four trial rejections were actual central lower-bound comparisons; their precise inputs and signed differences are preserved in the trial summary. Some were only binary64 dot-product rounding near 0.1. Other full steps passed the domain and were genuinely rejected by the evaluated complete Armijo cost. It is therefore incorrect to attribute all limiting steps to the guard. No active source, bound, QP or objective was changed in trial20. A separately named next driver may account for an explicit dot-product rounding scale only in the central lower comparison; the QP bound stays 0.1.
+
+The next finite discretization will add declared radial midpoints at the located transition cells and enlarge the raw/central angular space with tail degree fixed. Its initializer preserves physical parameters and full function definitions, while binary64 P1 injection error is reported separately. Old selected physical intervals must map to every new child cell; indices 63, 71 and 118 must not be reused blindly. New finite residuals and quadrature are not identified with the old target.
+
+The final defining state is `2026-11-12-fd2d-raw-bump-trial20-b0004-accepted-0002.npz`, SHA256 `5f4f4096b77a8e9bba86cdc9724f2f62d611c838b18a1bf23fac20bd057c1b8e`. The closed manifest retains initial/final defining states, final diagnostic field, all four reports/progress/actual exits, and source bindings. Regenerable intermediate accepted arrays remain local with complete hashes.

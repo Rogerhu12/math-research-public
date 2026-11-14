@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "tool_chunk_id": "fba2ec",
+  "actual_exit_code": 0,
+  "source": {
+    "path": "scripts/fd2d-metric-terminal-forcing-check.py",
+    "bytes": 6208,
+    "sha256": "342e2f21d8063d1bf5d55c76c4272183bca0aeecc0a981305a243f117a4e1af9"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-terminal-forcing-R178-01-report.json",
+    "bytes": 62013,
+    "sha256": "4621ea00174b862523dce2db4ce7a5c1789f05599b697c74d94933a7a5352186"
+  },
+  "seconds": 0.12913172200205736,
+  "peak_rss_kib": 84812,
+  "passed": true,
+  "scope": "Exact whole-angle terminal forcing constants from actual inputs; nine local interval comparisons; no whole F/J/BVP/body"
+}

@@ -1,0 +1,98 @@
+{
+  "status": "FROZEN_FULL_REVIEW_SOURCE_LEDGER",
+  "reviewer": "/root/tail_review_continued_2",
+  "scope": "Author function batch and closed attempt01 only; no active output or new candidate.",
+  "bindings": [
+    {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+      "bytes": 41294,
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-method.md",
+      "bytes": 10397,
+      "sha256": "29775fbf58d5c538622a8b21f0f2eeccb467d3ecc81876979c280460f949de05"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-observed-validation.json",
+      "bytes": 1460,
+      "sha256": "aea3aa185499490a3e1244788ad382802cb21b939546453c7744fb5becf38ced"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-protocol.json",
+      "bytes": 14261,
+      "sha256": "1cfe353071f1c823e507285e81e41559d84094f8af2a03aa2afe0d2f6715c40e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-publication.json",
+      "bytes": 2138,
+      "sha256": "59e915d98e058adbdaf8682b6c3cfaed8cd07045a5a2d271686974a90ecdd29d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-sources.json",
+      "bytes": 3711,
+      "sha256": "ca2ab35bd194483457815dfd5f893276258ef22dbdb59b74dd5921334df9d113"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-reproduction.json",
+      "bytes": 45136,
+      "sha256": "c9d324f2f91093ebb51e8c44a707bb395175ce1dcd3c07bcb7ac9f1360e0e785"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-summary.json",
+      "bytes": 669,
+      "sha256": "5bca477480f7747f5712f82fbc3bc6e00df3be491077a539088f1d38223738e4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-final-observed.json",
+      "bytes": 4534,
+      "sha256": "4e5660620a67503e4649789e7707723abadcd05ddf6e22430d7719e6892f227c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-domain-newton-release-lu.py",
+      "bytes": 10295,
+      "sha256": "9a7c74aa354e196bd986848b33cc0eacf2a6623e7aa3c61d99c7f9f5525549b3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+      "bytes": 2320,
+      "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-domain-newton-release-lu.py",
+      "bytes": 9904,
+      "sha256": "bc7d376ca52a565e5b345aeef40319578ae8ea3b74dbe0333c5e26c927c68916"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+      "bytes": 17329,
+      "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+      "bytes": 8906,
+      "sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-true-m14-resource-limited-4g.py",
+      "bytes": 1582,
+      "sha256": "f4a475f11a962511ee315c0c9e62b7a90dc5bcda807eb439b492253f53926a0f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-true-m14-resource-limited.py",
+      "bytes": 1582,
+      "sha256": "6a79a903233ec445c8de0571beae98f8435423eda93c6810f9fd562974061158"
+    }
+  ],
+  "count": 18
+}

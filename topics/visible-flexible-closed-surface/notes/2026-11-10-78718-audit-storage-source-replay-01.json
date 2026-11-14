@@ -1,0 +1,489 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_134_SOURCE_REPLAYS_AND_COMPLETE_PINS",
+  "source_ledger": {
+    "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-storage-adapters-source-ledger-02.json",
+    "bytes": 60660,
+    "sha256": "375e716789ef206deecbb62207d8e1c70d9995bfb303f27f0b1c250c174e8634"
+  },
+  "adapters": 14,
+  "core_sources": 2,
+  "unique_replacements": 134,
+  "unchanged_function_instances": 188,
+  "all_old_sources_retained": true,
+  "original_terminal_tail_reference_dictionary_exact": true,
+  "new_terminal_prefix_pins": 13,
+  "old_terminal_pins": 21,
+  "angular_source_pins": 11,
+  "new_mesh_exporter_pin_matches": true,
+  "solver_or_mathematical_backend_calls": 0,
+  "rows": [
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/950f-root-fullxyz-hermite.py",
+        "bytes": 15452,
+        "sha256": "4f60dbd1735268e2f4953748d12c4a87099d49ddf69dcb34d40b9f26986d0bd9"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fullxyz-hermite-storage-v1.py",
+        "bytes": 15820,
+        "sha256": "2ab813fba7d3a33ef273799a4f6d27628b9cc2f98285fb3d3371fdacb49b009d"
+      },
+      "unique_replacements": 6,
+      "whole_source_exact": true,
+      "unchanged_functions": 8,
+      "changed_functions": [
+        "SharedHermite.__init__",
+        "build"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+        "bytes": 4602,
+        "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+        "bytes": 5138,
+        "sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957"
+      },
+      "unique_replacements": 6,
+      "whole_source_exact": true,
+      "unchanged_functions": 3,
+      "changed_functions": [
+        "build"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py",
+        "bytes": 15300,
+        "sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-continuous-hermite-storage-v1.py",
+        "bytes": 15784,
+        "sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18"
+      },
+      "unique_replacements": 5,
+      "whole_source_exact": true,
+      "unchanged_functions": 30,
+      "changed_functions": [
+        "ExactHermite.__init__",
+        "certify"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-polynomial.py",
+        "bytes": 10966,
+        "sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+        "bytes": 11134,
+        "sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e"
+      },
+      "unique_replacements": 4,
+      "whole_source_exact": true,
+      "unchanged_functions": 21,
+      "changed_functions": [
+        "run"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-supplier.py",
+        "bytes": 17450,
+        "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+        "bytes": 17622,
+        "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+      },
+      "unique_replacements": 4,
+      "whole_source_exact": true,
+      "unchanged_functions": 20,
+      "changed_functions": [
+        "main"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-volume-moment.py",
+        "bytes": 3973,
+        "sha256": "502a3d8c9439ee0b707e6be7b367e356ef44d1942aa6a0615330b1005fe10913"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-volume-moment-storage-v1.py",
+        "bytes": 4138,
+        "sha256": "16f493774c7176566dda1f08e494b2af74d2f6e04b970b43c802838b08a5f654"
+      },
+      "unique_replacements": 4,
+      "whole_source_exact": true,
+      "unchanged_functions": 0,
+      "changed_functions": [
+        "integrate"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+        "bytes": 13021,
+        "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+        "bytes": 13714,
+        "sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43"
+      },
+      "unique_replacements": 8,
+      "whole_source_exact": true,
+      "unchanged_functions": 5,
+      "changed_functions": [
+        "install",
+        "install.CommonCutPrefix.__init__",
+        "main",
+        "make"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-curvature.py",
+        "bytes": 22932,
+        "sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-arithmetic-storage-v1.py",
+        "bytes": 23047,
+        "sha256": "3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece"
+      },
+      "unique_replacements": 3,
+      "whole_source_exact": true,
+      "unchanged_functions": 19,
+      "changed_functions": [
+        "run"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-metric-budget.py",
+        "bytes": 9504,
+        "sha256": "dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-budget-storage-v1.py",
+        "bytes": 9635,
+        "sha256": "656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091"
+      },
+      "unique_replacements": 5,
+      "whole_source_exact": true,
+      "unchanged_functions": 6,
+      "changed_functions": [
+        "load_uncorrected_region",
+        "main"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-budget-transfer-v3.py",
+        "bytes": 24545,
+        "sha256": "5ef8d229e0a19bc83381a2cdcaef8b24309e00a1fdc6b9409b20d7ca34092e49"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-closed-budget-storage-v1.py",
+        "bytes": 24683,
+        "sha256": "375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150"
+      },
+      "unique_replacements": 4,
+      "whole_source_exact": true,
+      "unchanged_functions": 16,
+      "changed_functions": [
+        "main"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-angular-metric-storage.py",
+        "bytes": 24286,
+        "sha256": "2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-metric-storage-v1.py",
+        "bytes": 24403,
+        "sha256": "baa57dbb55360f9706c9cd409233be7bef3b31f68f35217e06d1936658193e2f"
+      },
+      "unique_replacements": 25,
+      "whole_source_exact": true,
+      "unchanged_functions": 14,
+      "changed_functions": [
+        "run",
+        "validate_inputs"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-export-closed-mesh-storage.py",
+        "bytes": 25497,
+        "sha256": "d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-export-closed-mesh-storage-v1.py",
+        "bytes": 25593,
+        "sha256": "5126cfca789877456463ae640d0f174d45ab50dffbe83233c080b02f21119ea5"
+      },
+      "unique_replacements": 9,
+      "whole_source_exact": true,
+      "unchanged_functions": 18,
+      "changed_functions": [
+        "prepare"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-closed-mesh-storage.py",
+        "bytes": 11115,
+        "sha256": "698e8b0528ffa7b1bbe1bc84c574079f60261156f1d3a6ddae048af0f9c0c479"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-review-closed-mesh-storage-v1.py",
+        "bytes": 11228,
+        "sha256": "9a211f07178ae7653518b59a243dee0046825cec2e7fae287762ebdef5a11611"
+      },
+      "unique_replacements": 5,
+      "whole_source_exact": true,
+      "unchanged_functions": 4,
+      "changed_functions": [
+        "main"
+      ]
+    },
+    {
+      "old": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-terminal-error-storage-v3.py",
+        "bytes": 48711,
+        "sha256": "8db94c71a9035f2f977daea9c315b669bce4c20800f80e7886b77c66af6f7ed7"
+      },
+      "new": {
+        "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-terminal-error-storage-v1.py",
+        "bytes": 48878,
+        "sha256": "fdaddf0466c5a7a1606315a5c741b55882e9a1170b985dfd4b30b86e574437b0"
+      },
+      "unique_replacements": 46,
+      "whole_source_exact": true,
+      "unchanged_functions": 24,
+      "changed_functions": [
+        "candidate",
+        "prefix_metric",
+        "prefix_storage"
+      ]
+    }
+  ],
+  "terminal_pins": [
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+      "bytes": 11339,
+      "sha256": "20d9b6127625595afaf14daac4d23ccdd68d10f5d3a36d0697472f5df50d8fc3"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-budget-transfer-v3.py",
+      "bytes": 24545,
+      "sha256": "5ef8d229e0a19bc83381a2cdcaef8b24309e00a1fdc6b9409b20d7ca34092e49"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-closed-budget-v2.py",
+      "bytes": 10356,
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+      "bytes": 19033,
+      "sha256": "bdf6307fd93328b1ae70923caac2687fa19b0187ca9c723fe5d7072d7799a47b"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-transfer-background.py",
+      "bytes": 10948,
+      "sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "bytes": 13021,
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+      "bytes": 4602,
+      "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "bytes": 2740,
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "bytes": 2008,
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-exact-bridge.py",
+      "bytes": 9408,
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py",
+      "bytes": 15300,
+      "sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-polynomial.py",
+      "bytes": 10966,
+      "sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-metric-supplier.py",
+      "bytes": 17450,
+      "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py",
+      "bytes": 23157,
+      "sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-volume-moment.py",
+      "bytes": 3973,
+      "sha256": "502a3d8c9439ee0b707e6be7b367e356ef44d1942aa6a0615330b1005fe10913"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+      "bytes": 8064,
+      "sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-first-bounds.py",
+      "bytes": 6598,
+      "sha256": "ba3af5e44b9c727a9b7ca7b25b4e6abf19c504106b0810f4278928b82a084821"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-first-bounds-stream.py",
+      "bytes": 6187,
+      "sha256": "98686f818270191e413fa20b9388637bf85649bfa82b4f60b3cbde40dee0ad7d"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-curvature.py",
+      "bytes": 22932,
+      "sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-stream.py",
+      "bytes": 8174,
+      "sha256": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456"
+    },
+    {
+      "family": "original_tail_reference",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-only.py",
+      "bytes": 7829,
+      "sha256": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "bytes": 11138,
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "bytes": 5923,
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fullxyz-hermite-storage-v1.py",
+      "bytes": 15820,
+      "sha256": "2ab813fba7d3a33ef273799a4f6d27628b9cc2f98285fb3d3371fdacb49b009d"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-mirror-hermite-storage-v1.py",
+      "bytes": 5138,
+      "sha256": "f975ab40ca05f5237954398533934eda2365ceda38cb0ba4dfe8d9e3287f6957"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-continuous-hermite-storage-v1.py",
+      "bytes": 15784,
+      "sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+      "bytes": 11134,
+      "sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+      "bytes": 17622,
+      "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-volume-moment-storage-v1.py",
+      "bytes": 4138,
+      "sha256": "16f493774c7176566dda1f08e494b2af74d2f6e04b970b43c802838b08a5f654"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-cut-storage-v1.py",
+      "bytes": 13714,
+      "sha256": "34b0b92c6f4d92bd497f3d84d28cbd73cb29271e36b240d3a19795987f057d43"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-arithmetic-storage-v1.py",
+      "bytes": 23047,
+      "sha256": "3ade215b643345920eafe9a1e3c7ce477ed6e46913e47bf712f309d800636ece"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-budget-storage-v1.py",
+      "bytes": 9635,
+      "sha256": "656e11ca0226ca1647a968c76afb4566b076ba0e9b4c0836bf263cf097ced091"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-closed-budget-storage-v1.py",
+      "bytes": 24683,
+      "sha256": "375261a22c8465c9ce318624818493590b1ceee4eb28ce9cd3c1c253a9f8f150"
+    },
+    {
+      "family": "new_prefix",
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-angular-metric-storage-v1.py",
+      "bytes": 24403,
+      "sha256": "baa57dbb55360f9706c9cd409233be7bef3b31f68f35217e06d1936658193e2f"
+    }
+  ],
+  "scope": "Source identity and complete text replay only; semantic review, synthetic reader execution and actual candidate certification are distinct."
+}

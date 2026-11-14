@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-physical-bump-execution-receipt-v1",
+  "observed_utc": "2026-11-12T11:56:07.149285+00:00",
+  "steps": [
+    {
+      "name": "physical_profile_and_tail_lifting_jets",
+      "session_id": 67454,
+      "launch_chunk": "d951e8",
+      "completion_chunk": "2a3344",
+      "actual_exit_code": 0,
+      "seconds": 2.9460136550001153
+    },
+    {
+      "name": "full_rectangular_raw_JVP",
+      "session_id": 52457,
+      "launch_chunk": "109420",
+      "completion_chunk": "2b5b7b",
+      "actual_exit_code": 0,
+      "seconds": 29.801737953000156,
+      "source_snapshot": "scripts/fd2d_gc_raw_bump_dae_check01_snapshot.py"
+    },
+    {
+      "name": "added_tail_x_xi_parameters_and_unchanged_original_F_J",
+      "session_id": 83332,
+      "launch_chunk": "37969d",
+      "completion_chunk": "6fff46",
+      "actual_exit_code": 0,
+      "seconds": 11.754637338000066
+    },
+    {
+      "name": "first_metadata_export",
+      "completion_chunk": "c0dc31",
+      "actual_exit_code": 1,
+      "reason": "Numpy int64 subset indices were not JSON serializable with the default encoder. Export now converts numpy arrays/scalars; no mathematical source or data changed."
+    }
+  ],
+  "scope": "Physical-design derivative/representation checks only; all original equations retained, no BVP or geometric completion."
+}

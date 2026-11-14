@@ -1,0 +1,219 @@
+{
+  "schema": "fd2d-R202-R205-axial-port-orientation-diagnostic-v1",
+  "stateIteration": 8,
+  "actualFrozenAmplitude": 0.25,
+  "parameters": {
+    "A": 1.3620341722637315,
+    "B": 0.5620341722637314,
+    "c": 0.1015625,
+    "S": 0.8856739498716915,
+    "cuffHeight": 0.5680962429930927,
+    "outerRadius": 0.8,
+    "guideCurvature": 9.5
+  },
+  "central": [
+    {
+      "u": 0,
+      "X": [
+        1.3620341722637312,
+        0,
+        0
+      ],
+      "Xs": [
+        0,
+        0,
+        1
+      ],
+      "Xu": [
+        0,
+        1.004082838021469,
+        0
+      ]
+    },
+    {
+      "u": 1.5707963267948966,
+      "X": [
+        0,
+        0.5620341722637308,
+        0
+      ],
+      "Xs": [
+        0,
+        0,
+        1
+      ],
+      "Xu": [
+        -1.004082838021469,
+        -6.148234168308912e-17,
+        0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "amplitude": 0,
+      "major": {
+        "X": [
+          0.8,
+          0,
+          0.5680962429930927
+        ],
+        "Xs": [
+          -1,
+          0,
+          0
+        ],
+        "bound": 0.7477181651423608,
+        "slack": 0.03639328472933068
+      },
+      "minor": {
+        "X": [
+          4.898587196589413e-17,
+          0.8,
+          0.5680962429930927
+        ],
+        "Xs": [
+          -6.123233995736766e-17,
+          -1,
+          0
+        ],
+        "Couter": 0.8,
+        "Houter": 0,
+        "turn": 1.5707963267948966,
+        "bound": 0.6636667307590284,
+        "slack": 0.12044471911266308
+      }
+    },
+    {
+      "amplitude": 0.25,
+      "major": {
+        "X": [
+          0.8,
+          0,
+          0.5680962429930927
+        ],
+        "Xs": [
+          -1,
+          0,
+          0
+        ],
+        "bound": 0.7477181651423608,
+        "slack": 0.03639328472933068
+      },
+      "minor": {
+        "X": [
+          4.898587196589413e-17,
+          0.7940734215385468,
+          0.5110395851945295
+        ],
+        "Xs": [
+          -6.123233995736766e-17,
+          -0.9689124217106447,
+          0.24740395925452294
+        ],
+        "Couter": 0.7940734215385468,
+        "Houter": 0.05705665779856317,
+        "turn": 1.3207963267948966,
+        "bound": 0.5765589550969632,
+        "slack": 0.20755249477472826
+      }
+    },
+    {
+      "amplitude": 1,
+      "major": {
+        "X": [
+          0.8,
+          0,
+          0.5680962429930927
+        ],
+        "Xs": [
+          -1,
+          0,
+          0
+        ],
+        "bound": 0.7477181651423608,
+        "slack": 0.03639328472933068
+      },
+      "minor": {
+        "X": [
+          4.898587196589413e-17,
+          0.7111571096230277,
+          0.3653321898828076
+        ],
+        "Xs": [
+          -6.123233995736766e-17,
+          -0.5403023058681398,
+          0.8414709848078965
+        ],
+        "Couter": 0.7111571096230277,
+        "Houter": 0.20276405311028511,
+        "turn": 0.5707963267948966,
+        "bound": 0.32522318317736076,
+        "slack": 0.4588882666943307
+      }
+    },
+    {
+      "amplitude": 1.2,
+      "major": {
+        "X": [
+          0.8,
+          0,
+          0.5680962429930927
+        ],
+        "Xs": [
+          -1,
+          0,
+          0
+        ],
+        "bound": 0.7477181651423608,
+        "slack": 0.03639328472933068
+      },
+      "minor": {
+        "X": [
+          4.898587196589413e-17,
+          0.6759440648166232,
+          0.33826454270811296
+        ],
+        "Xs": [
+          -6.123233995736766e-17,
+          -0.3623577544766736,
+          0.9320390859672263
+        ],
+        "Couter": 0.6759440648166232,
+        "Houter": 0.22983170028497973,
+        "turn": 0.3707963267948966,
+        "bound": 0.2715868577169972,
+        "slack": 0.5125245921546943
+      }
+    }
+  ],
+  "majorCutDirectionIndependentOfTailAmplitude": true,
+  "majorBoundForFixed625": 0.7846284524763574,
+  "lengthAvailableFinite": 0.7841114498716915,
+  "finiteBinary64Only": true,
+  "continuousCertificate": false,
+  "scope": "The D2 major axis is u=0, not pi/2. The exact R202 major-axis necessary bound is unchanged by R205 amplitude. The hypothetical curvature guide is not a bound on this actual accepted field.",
+  "doesNotApplyToGeneralNonReflectionFullHalfField": true,
+  "execution": {
+    "runtime": "pure V8 JavaScript",
+    "elapsedMilliseconds": 3059,
+    "completed": true,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-eight-accepted-04.json",
+    "sha256": "f95abce8124c3b5a85da839a0e6d4370ffcdfa40e13011d9d5e0d1408d940bc6",
+    "commit": "4e5e40653d96efbbdeba2b3791a48eb2c399fce0"
+  },
+  "sourceBindings": {
+    "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+    "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+    "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f",
+    "guideSHA256": "ef23317ebbb3ed121b09a79cd677293f70ab49f01eb2e88a9c89cf9078914b8e",
+    "kernelSHA256": "50012d8815d08553698ede9de96f09653bce03522a99dcbb11881ab58fd99bdd",
+    "adapterSHA256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1",
+    "runnerSHA256": "2912d01f31cb29439aa2cce39b69488b80fff9914c8dd76e854ccbce9b40ebba"
+  },
+  "consumerSourceSHA256": "2e8b314a4ba33ffdf97ab2182efdba8715a3e538f85e8f9b89a2542c1d357310"
+}

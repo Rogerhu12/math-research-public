@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-09T13:42:54.291728+00:00",
+  "status": "PASS-derived-index-rebuild-no-object-or-ref-removed",
+  "before": {
+    "objects": 108632,
+    "sorted_oid_sha256": "e4b051783edc11dcaff5598231ee1ff83fb950417801ca22103bf1f6b6fdf301",
+    "midx_sha256": "21ed4a8bb4f22c1420d48f2b0a1a631a67a37ee343f2eb16db5e091deb91ddb4",
+    "assignment": [
+      {
+        "name": "pack-0183eb3e2cb55cf98dbda217111f2ae59e887b23.idx",
+        "objects": 185
+      },
+      {
+        "name": "pack-19d41e2cd32da65398b01a2426627f9847f9b5c4.idx",
+        "objects": 15
+      },
+      {
+        "name": "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "objects": 35986
+      },
+      {
+        "name": "pack-43373357acc31a9304b9a642a301ab3575a1a2f1.idx",
+        "objects": 25901
+      },
+      {
+        "name": "pack-50559d590aeb61a0855e0ee498edb8566020f3ea.idx",
+        "objects": 12
+      },
+      {
+        "name": "pack-76e29bb88b3b496877582332a6865d0d9c149192.idx",
+        "objects": 1486
+      },
+      {
+        "name": "pack-8966b00181b12b09fa99fd7be825521d068d3c01.idx",
+        "objects": 112
+      },
+      {
+        "name": "pack-9c668163ab37bd21a42b797a44132b222e5a024a.idx",
+        "objects": 1
+      },
+      {
+        "name": "pack-d44aca524f3f00fdfa862e4de61c6155b3229b82.idx",
+        "objects": 44896
+      },
+      {
+        "name": "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2.idx",
+        "objects": 37
+      },
+      {
+        "name": "pack-eb490596262b7d85c4cca8562a29a43efb25d860.idx",
+        "objects": 1
+      }
+    ]
+  },
+  "after": {
+    "objects": 108632,
+    "sorted_oid_sha256": "e4b051783edc11dcaff5598231ee1ff83fb950417801ca22103bf1f6b6fdf301",
+    "midx_sha256": "b44f3cce75bfaca307841837d729b2fc19d7a12f7bd4718b4948e4d4b226caab",
+    "assignment": [
+      {
+        "name": "pack-0183eb3e2cb55cf98dbda217111f2ae59e887b23.idx",
+        "objects": 185
+      },
+      {
+        "name": "pack-19d41e2cd32da65398b01a2426627f9847f9b5c4.idx",
+        "objects": 15
+      },
+      {
+        "name": "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "objects": 90283
+      },
+      {
+        "name": "pack-43373357acc31a9304b9a642a301ab3575a1a2f1.idx",
+        "objects": 4147
+      },
+      {
+        "name": "pack-50559d590aeb61a0855e0ee498edb8566020f3ea.idx",
+        "objects": 12
+      },
+      {
+        "name": "pack-76e29bb88b3b496877582332a6865d0d9c149192.idx",
+        "objects": 1486
+      },
+      {
+        "name": "pack-8966b00181b12b09fa99fd7be825521d068d3c01.idx",
+        "objects": 112
+      },
+      {
+        "name": "pack-9c668163ab37bd21a42b797a44132b222e5a024a.idx",
+        "objects": 1
+      },
+      {
+        "name": "pack-d44aca524f3f00fdfa862e4de61c6155b3229b82.idx",
+        "objects": 12353
+      },
+      {
+        "name": "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2.idx",
+        "objects": 37
+      },
+      {
+        "name": "pack-eb490596262b7d85c4cca8562a29a43efb25d860.idx",
+        "objects": 1
+      }
+    ]
+  },
+  "backup": "/tmp/db6f-midx-before-preferred-08.bin",
+  "research_files_removed": false,
+  "refs_changed": false
+}

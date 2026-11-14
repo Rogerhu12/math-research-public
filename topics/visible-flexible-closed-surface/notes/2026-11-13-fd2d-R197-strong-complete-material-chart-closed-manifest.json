@@ -1,0 +1,109 @@
+{
+  "schema": "fd2d-R197-strong-complete-material-chart-closed-manifest-v1",
+  "status": "complete actual strict inverse plus full-circle consumer; scope restricted to this fixed central curve",
+  "created_utc": "2026-11-13T02:29:28.914Z",
+  "files": [
+    {
+      "path": "scripts/fd2d_R197_resumable_saved_ellipse_chart.cjs",
+      "bytes": 17515,
+      "sha256": "cebb8d2fdbfd9196cd46d392afa8579468c45d96fefb2d0db8c5fb111264898b",
+      "commit": "622f3a9bb6cb43bd7bd5f78a88912ca760a5ea34"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R197-strong-material-chart-incremental-01-request.json",
+      "bytes": 23931,
+      "sha256": "0aa3647c06cc844b2f33d84a6215a6abba90d22da950c3d899fac45824817622",
+      "commit": "0ed7fdc2feb78a20acde6786fcea612e4fccfc27"
+    },
+    {
+      "path": "scripts/fd2d_R197_full_circle_material_consumer.cjs",
+      "bytes": 6175,
+      "sha256": "3676715bea0c5e49001d73754e6152f30118c94e9d76c2c19b1fe622f2fb7d4e",
+      "commit": "5e8d42013ae56d1c373b44d73bc54fad7a7609ed"
+    },
+    {
+      "path": "scripts/fd2d-R197-strong-material-chart-run.cjs",
+      "bytes": 7319,
+      "sha256": "7887b3ae705aa06d8ef70c4fb63aa109bc862b67fa51b12685938f9c5ecf84fe",
+      "commit": "e67f2b8f94cfd7b28d7acd04110d518c368c1652"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R197-strong-complete-material-chart-01-report.json",
+      "bytes": 42358,
+      "sha256": "d497ecf410696711ad5461d273f766f02fb9022ac76727ce873a8a5f1132450a",
+      "commit": "39ebf24944f26759c8884d1962ef226ff9e0e9e6"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R197-strong-complete-material-chart.md",
+      "bytes": 11697,
+      "sha256": "789e01f01c3f5e359d2c23314f620fa65a507fee6731c8ceba50ffcded94924f",
+      "commit": "2f7105072e826e3ee9e46b71857200d590812439"
+    }
+  ],
+  "total_artifact_bytes": 108995,
+  "actual_execution": {
+    "host": "functions.exec V8",
+    "os_process_created": false,
+    "strict_cells": 64,
+    "order": 16,
+    "precision_bits": 160,
+    "observed_cell_seconds": 342.409,
+    "full_circle_consumer_seconds": 141.06,
+    "all_predeclared_consumer_checks_passed": true,
+    "no_old_small_gap_or_strong_normalization_recomputation": true,
+    "normal_BVP_body_recomputed": false
+  },
+  "mathematical_inputs": {
+    "axes_bits": [
+      "0x3ff5cae4581e83b7",
+      "0x3fe1fc2f16a36dd4"
+    ],
+    "perimeter_report": {
+      "path": "notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-report.json",
+      "bytes": 23121,
+      "sha256": "2f8e8dd37de88688e703d5213cc46ada4b575d576b7a15a8b29b3da1ce186550"
+    },
+    "precise_a0_input": {
+      "path": "notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-input.json",
+      "bytes": 3153,
+      "sha256": "97b88016327b8ddc05ed5c1cb91b646ae4b21fc5a99bcf76d40de86f832cc9c0"
+    },
+    "original_math_source": {
+      "path": "scripts/fd2d_R197_saved_ellipse_material_chart.cjs",
+      "sha256": "3ccca82923ac0ed4cebcd66cc912944e41565d8e27567e0bd08f684a029ff79f"
+    },
+    "arithmetic_source": {
+      "path": "scripts/fd2d_R188_exact_quarter_primitive.cjs",
+      "sha256": "5c04a135eed859a6d6d583877e53681cdc1dddc6102c913152adfc1913a9f97e"
+    }
+  },
+  "large_actual_outputs_not_API_uploaded": {
+    "portable": {
+      "format": "fd2d-R197-saved-ellipse-material-chart-definition-v1",
+      "bytes": 1840505,
+      "sha256": "cefec4974db9096eb2f58fc9366835afca7e894c8090995d11edd8fd8e7f5216",
+      "serialization": "JSON.stringify with no trailing newline",
+      "gzip_saved": false,
+      "api_uploaded": false
+    },
+    "checkpoint": {
+      "bytes": 1873347,
+      "sha256": "a1bf7fecdc3e0739b03329efc8886eecbaff2dca3c9843d909c2ac1f94b4275f",
+      "serialization": "JSON.stringify with no trailing newline",
+      "api_uploaded": false,
+      "gzip_saved": false
+    },
+    "storage": "Actual objects retained in functions.store. No filesystem/gzip persistence claimed. Reproduction entry writes gzip when a genuine terminal is available."
+  },
+  "reproduction_command": "node scripts/fd2d-R197-strong-material-chart-run.cjs --request notes/2026-11-13-fd2d-R197-strong-material-chart-incremental-01-request.json --out-prefix notes/2026-11-13-fd2d-R197-strong-material-chart-node-replay01 --expected-report notes/2026-11-13-fd2d-R197-strong-complete-material-chart-01-report.json",
+  "node_replay_status": "New CLI syntax compiled in V8; not executed in the absent OS environment. The strict chart kernel and complete consumer were actually executed as recorded.",
+  "publication_observation": {
+    "first_request_attempt": "external CAS409; literal git pull --rebase rejected before process creation (No usable execution environment)",
+    "rules_read_ref": "1d3f3e2b63fa3839b8b3301bae692017eec39b58",
+    "root_README_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_README_blob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "rules_changed": false,
+    "request_retry_succeeded": true
+  },
+  "no_full_surface_or_visible_motion_completion_claim": true
+}

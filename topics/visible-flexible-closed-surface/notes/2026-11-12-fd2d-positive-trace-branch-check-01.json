@@ -1,0 +1,30 @@
+{
+  "schema": "fd2d-positive-trace-branch-check-v1",
+  "passed": true,
+  "scope": "Finite independent rotated-II and complete directional JVP checks; no BVP or continuous certification",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-positive-trace-branch-check.py",
+    "sha256": "cb79cb796172f3c0e836b210ae70989a349570a2a071f4d3f0350c41c33b5e88",
+    "bytes": 5175
+  },
+  "helper": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+    "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+    "bytes": 6738
+  },
+  "seed": 155,
+  "actual_points": 48,
+  "directions": 6,
+  "difference_step": 2e-06,
+  "delta_jvp_max_error": 2.9647312382863333e-10,
+  "angular_jvp_max_error": 2.5893781563368634e-10,
+  "window_gauss_identity_max_error": 2.220446049250313e-15,
+  "independent_spd_roundtrip_error": 8.881784197001252e-16,
+  "exact_rank_one_and_zero_trace_error": 4.440892098500626e-16,
+  "explicit_cut_delta_and_delta_jvp_zero": true,
+  "inactive_negative_K_preserved": true,
+  "unmasked_zero_square_root_derivative_rejected": true,
+  "eigenvalue_max_error": 8.881784197001252e-16,
+  "cap_domain_agreement": true,
+  "wall_seconds": 0.08062934875488281
+}

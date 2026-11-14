@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-actual-hourly-pull-unavailable-record-v1",
+  "scheduledUTC": "2026-11-13 02:42:00 UTC",
+  "startedUTC": "2026-11-13T02:42:26.533Z",
+  "command": "git pull --rebase origin main",
+  "workdir": "/tmp/fd2d-math-research-publish-isolated-25",
+  "pull": {
+    "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+  },
+  "processCreated": false,
+  "OSExitCode": null,
+  "actualSuccessfulPull": false,
+  "hourlySuccessfulPullRequirementMet": false,
+  "APIReadbackOnly": {
+    "rootBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "unchangedSinceLastRealPull": true,
+    "readbacksDoNotReplacePull": true
+  },
+  "lastActualPulledAndReadCommit": "390299b08b597fbc8fda81e5303b1435203fe295",
+  "lastActualPullUTC": "2026-11-13 00:42 UTC",
+  "nextScheduledAttemptNoLaterThanUTC": "2026-11-13 03:40 UTC",
+  "onEarlierEnvironmentRecovery": "Immediate ordinary terminal pull/rebase, README differences only, preserve source originals",
+  "workflow": "Research continues in actual pure V8; only complete UTF8 files under 100KB use README section 8 while terminal unavailable"
+}

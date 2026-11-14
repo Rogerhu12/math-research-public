@@ -1,0 +1,512 @@
+{
+  "schema": "fd2d-closed-publication-batch-v1",
+  "utc": "2026-11-12T15:30:05.670370+00:00",
+  "base_commit": "bb82527513b8c69f530e5351810fb17390d5a7d6",
+  "closed_group_manifests": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R157-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R158-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-closed-manifest-01.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-closed-manifest-01.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace16-static-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-trace-reference-R156-closed-manifest.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+      "bytes": 1437,
+      "sha256": "bba1794ddee07cdaf9674014168135019ef521c348ad71300aa8c541d306725c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 53306,
+      "sha256": "11afa4712c27c323f59d96a77e272179a0e951aff6b9bbd9d6b7315f9ed4d56b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+      "bytes": 10644,
+      "sha256": "d03cbb5223ccf87133a30b8f4851fae67845dd35c1faae78f3bfcb2c9c96a32b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-eighth-publication-owner-stop.json",
+      "bytes": 572,
+      "sha256": "886878e8408c93e9a2a4d56fc990d9916b4b90bebd985db6ffaef50419d194fd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json",
+      "bytes": 2066,
+      "sha256": "d1ea015b9f5b03826c568cb640136ff3e529c403b7382e55abbdabca79e50427"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R157-closed-manifest.json",
+      "bytes": 2205,
+      "sha256": "0859384e42948e8cd6fae81c756a48e5c78819cb2842aeb323273fb414b88041"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R158-closed-manifest.json",
+      "bytes": 2769,
+      "sha256": "68c5701681237085c883e87f20ac32707f708aece47fb273ce8f0f0839d35ab5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-definition.json",
+      "bytes": 40830,
+      "sha256": "b6e73f11520b7fa1611b12a1eb6cdc0d01503825e8a34619fab7701e13ae8e19"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-exit-receipt.json",
+      "bytes": 568,
+      "sha256": "f0ca55fcc22d42d3fead5ddd42e100305fe64fa6ae772e5bbd50bdbb57803d80"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-report.json",
+      "bytes": 88147,
+      "sha256": "6fd1157abaa19f65e3b72beae8995059fc5ab020229230d9c269aa289d11135f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-samples.npz",
+      "bytes": 256229,
+      "sha256": "e1bacda26eb5b5fd6547278cae293a054e5b1024b7cc5be66381da0756c4c6e7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118-closed-manifest-01.json",
+      "bytes": 2270,
+      "sha256": "9b7cf8f1d0c782ce1c6c6ea3dbf956eefa341fdb868e35c4e3eb58de929b3e82"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss14-late-node118.md",
+      "bytes": 9963,
+      "sha256": "86b2c04afc63cbf6637c198f669bcaf3f50e5a3115845f40a5b2521561426060"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-01-exit-receipt.json",
+      "bytes": 1337,
+      "sha256": "226af003a9fe19010ef5bdc61c558627fbd2eb76f0b3bfa6b1a969686fcb7711"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-definition.json",
+      "bytes": 44141,
+      "sha256": "9d1c1763351727c2e23f4c888ef61b3bde2d12442d7e45ff0f5dece746fb21ff"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-exit-receipt.json",
+      "bytes": 581,
+      "sha256": "49f9974b7fc1a66c8d854f19a2218ffc8039ef0d08adf9f730dc2da1af52e80e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-report.json",
+      "bytes": 9798,
+      "sha256": "e099b7636d8470001c5abde83f26108c15b8b964430c9cee2d7e717cc4ebe614"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-samples.npz",
+      "bytes": 8969,
+      "sha256": "9ed13cc4d1ef651f240c0f95fcfc3f3042e1d98a9469904ae14fca8bf287c1e0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-closed-manifest-01.json",
+      "bytes": 3174,
+      "sha256": "3a225ddaca94d061f29c1888acafd6240604c8ecfafca56f0e92977c50e16584"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native.md",
+      "bytes": 12137,
+      "sha256": "d2689caf6e5c1b4af0965bfbe2a85e3e589cb0b3fa9ca9d1bca22e7c5e0bafce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-field.npz",
+      "bytes": 61242,
+      "sha256": "19cffa6028804219373ed20be8e29d3d11938b3ebdae16ed8caee2aeb79554c9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-report.json",
+      "bytes": 47143,
+      "sha256": "9e3acd3494c732e2010dbe4175deea29bbfe28b8c1ee4caedd0af85be5ee2ae0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gauss14-known-lifting-integration.md",
+      "bytes": 2011,
+      "sha256": "b489859184999d9b8c7ae23bdc1c3490fea5a9bf229af8988b139dd229878570"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-closed-group.json",
+      "bytes": 1197,
+      "sha256": "bad7975ee2fae0e4adaf28f0a279d01ea3a602c4d497c42685da4bbb4e5b6b9b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-execution-receipt.json",
+      "bytes": 542,
+      "sha256": "95fc11d75555d8821a456bbf52b9ad0eab7fe48fc847eed3d84aee6221d6a76f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-report.json",
+      "bytes": 48996,
+      "sha256": "e05b153432e4f986edddc91c77bf80db3f69ab3999126064e65b3bc29db4f87b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-branch-check-01.json",
+      "bytes": 1369,
+      "sha256": "abf7a063b35e7fb157f75f28a152f957df59825b35d030999e2e56de653d5a9a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-closed-group.json",
+      "bytes": 2361,
+      "sha256": "f1c2841a9aa00fb17d89d5b5b2960b133996713b2582e8beea458bf74e91a2f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-execution-receipt.json",
+      "bytes": 806,
+      "sha256": "cdbfc5dd08a9a4daba66fb40ac47388fc112495ef43f1b265fe0996246819ab3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-report.json",
+      "bytes": 6343,
+      "sha256": "4a78c3660d8167c25c67965fbe95619d12e4a8251d566d3dc2c9726f461440d5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-warm.npz",
+      "bytes": 58965,
+      "sha256": "d671d84b4442547045b4072fde277a961bc42720e6dca07125bfa317cff0ce5b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm01-execution-receipt.json",
+      "bytes": 509,
+      "sha256": "03432cfcc703729382ea5adc4d4c9d12f69e60bbae84914c3db884101bd9dcc9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm02-execution-receipt.json",
+      "bytes": 909,
+      "sha256": "249ab29ff7073bbce8e6a47007f210ae2a486dbb2c492161f5e16755e4790c1d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm02-report.json",
+      "bytes": 9572,
+      "sha256": "2840f629571f56d351775288e90f92b603788cad0945761f948146930f52992b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm03-execution-receipt.json",
+      "bytes": 913,
+      "sha256": "343407066388f554099d0d60db61c619407e67aaacb29da52bd527abdcfb586a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm03-report.json",
+      "bytes": 16129,
+      "sha256": "6cf1652bc66d76f208d9753820cd8d0dab7fd92b33ff44b4ac521d97926c09aa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-closed-group.json",
+      "bytes": 7015,
+      "sha256": "79ec516e1c124b62b9ba4fd416986c433578ea596021c93630c783df269f94b6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-execution-receipt.json",
+      "bytes": 890,
+      "sha256": "0f421b915ad86daa43e781bccccc700ad2349e1b5f6ca749927239d85159a77b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-report.json",
+      "bytes": 20387,
+      "sha256": "dbea5aa9ff35496b398300d48d87ecde1a8a6889539ad7691b43cb0064ec47ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+      "bytes": 58791,
+      "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-publication-plan-ninth.json",
+      "bytes": 1686,
+      "sha256": "2da964f5e311d4eb083b64690b600196a5baf049bf539e8469965aeb48f162c7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0001-initial.npz",
+      "bytes": 56050,
+      "sha256": "5b50e0aa50a186666de7dd044ee444b7378b1b31c36c06cb1825db4a7fd041fe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0001-process-receipt.json",
+      "bytes": 3948,
+      "sha256": "2d517d781d7e73699965f517d1f263fdd8672272d83817dfe1e96b324ad8715a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0001-progress.jsonl",
+      "bytes": 76985,
+      "sha256": "349a2db2699107c24d64e3cd3b742ab3fe0e23a145baef0c1cf960d393507e93"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0001-report.json",
+      "bytes": 138992,
+      "sha256": "6f0f6887daa30eead5d947ba366aa4bf184781ce3e7967f17c878bc852ea6d5f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-accepted-0002.npz",
+      "bytes": 56022,
+      "sha256": "f89d52770f858b4ff5b5fe1e7ea084c92816c117777133377008f7058d84ebdc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-field.npz",
+      "bytes": 738587,
+      "sha256": "37121f1bdf90c1686d6fb9a2bd5692e1d8f6bce4f05ad0b30ab7d841be44cf43"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-physical-metric.json",
+      "bytes": 2684,
+      "sha256": "df679888761ba4b367da24c04b73815545225684286a1d16778c6eb6f11fe783"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-process-receipt.json",
+      "bytes": 4044,
+      "sha256": "b9f1a3235ad9dfdd0e6e276bc2c1c7fda92dab2479dbf98ae4fbf4b6950d6624"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-progress.jsonl",
+      "bytes": 76902,
+      "sha256": "72d3db069863c7dfe9ca346ea17b057620a3c4e94d071c6f63e24ea5e20dd694"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-report.json",
+      "bytes": 138999,
+      "sha256": "47d3ea29ac1addc7a200010d82625bfb59db8935a6bab347b43877cb00aeec19"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-chain-report.json",
+      "bytes": 31673,
+      "sha256": "ebac4b0117f13b15c77854925ab408b9228707e6d2c2cb51433329c22ffa64cc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-closed-group.json",
+      "bytes": 14837,
+      "sha256": "69d513557eaf9eb8d7273a1e407b3f1c8aee438ce5acaccb1643106be3a1f9d3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-execution-receipt.json",
+      "bytes": 589,
+      "sha256": "70a641a9ff3b71703fbb0e4669f8351dba9bca490c24ce2d944705a27d6db2f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace16-static-manifest.json",
+      "bytes": 1899,
+      "sha256": "04e5b0c97cac1a723ed3615bda132d02a844d51496cee9ca021bf25689f3c3f1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-seventh-batch-main-receipt.json",
+      "bytes": 1028,
+      "sha256": "9047eb0e8e91d5a4e61152b7523d485a4f323f64632f8b97dcf58f78dbb84038"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-rank-one-reference-check-01.json",
+      "bytes": 1757,
+      "sha256": "a19b25aa342742c01cb2a73459ee5c6b24548e8300ce066ff0846ddff87b05d2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-trace-reference-R156-closed-manifest.json",
+      "bytes": 1408,
+      "sha256": "41dbe32feadef8498443ea549cd8381a0ea83061c7571268101d4ec1d17de45a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-trace-reference-comparison-01-exit.json",
+      "bytes": 258,
+      "sha256": "1938bb2d24e2b372b4dc971cbdbb36d9d6d068bd7ca97e08004f9f70117f9cdb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-trace-reference-comparison-01.json",
+      "bytes": 5229,
+      "sha256": "4c4d2824982638210c79f0c46caf00757a41fdf90489a3ca38f9236841784e26"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 19292,
+      "sha256": "60ac5cf68c12123e56f39da8dac1a9375e08f519a70579f1921566bbd0605224"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "bytes": 56108,
+      "sha256": "5bd3a3b0929130987ea8c5cdab3077768b2afd278bd6c398c24315ef36cd05a0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R155-positive-II-branch-from-nonnegative-flat-tail.md",
+      "bytes": 13314,
+      "sha256": "ec2fe740d93b6d3e926e5d21541c6031de1cc52cadeef778225ea254698c7a6f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R156-terminal-brake-trace-regularity-and-round-tail-reference.md",
+      "bytes": 9752,
+      "sha256": "bc80e47b22c5e2d4023bc08fbf7586c808334cdece01d848729f980ae654b4ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R157-low-curvature-positive-terminal-reference.md",
+      "bytes": 7933,
+      "sha256": "100b1b3b0fcb435672f83074d6e29d8be1041313af09aa0cef5c0b976b4608ff"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R158-exact-angular-nesting-with-fixed-tail-degree.md",
+      "bytes": 10184,
+      "sha256": "3bc0f813f63959ccedaa8d7e773a0540041fea53191374cb214f27cda97a7279"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-gauss-hybrid-local-check.py",
+      "bytes": 6135,
+      "sha256": "dcb4ba0365dddff6545c8c93172ca1f711e1db981b5864216a355ee424b2b2c2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-initializer-check-unbound-snapshot.py",
+      "bytes": 10625,
+      "sha256": "db87d23248bccb3f80e505a6ca9b2ce6822046c7d6c08afa22627c00c20a9d52"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-initializer-check.py",
+      "bytes": 10629,
+      "sha256": "27fecd9391b4f9f4afecc0045bd339dcd27b3b03df5e6ffe2907aac24778ae38"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-tail-reference-initializer.py",
+      "bytes": 7023,
+      "sha256": "98e74ee4c20065bdbce731480482c4e63fbd191e718401671e8fa29482815882"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-positive-gauss-coast-hybrid-run.py",
+      "bytes": 23848,
+      "sha256": "7306e9c3a4900087360de0393398dcfe4f93166aab57cc6fb2eebc9ff253abf8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-positive-trace-run.py",
+      "bytes": 24651,
+      "sha256": "210b26400587df12a1940bd7e9ab77e6bdaf96a213613847add407033c310a72"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-positive-gauss-late-screen.py",
+      "bytes": 12636,
+      "sha256": "500a0fa89766af419ba0ad7eeca64bb03a6f9bdd2a1ab64786ac1f88de01938f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-positive-trace-native-check-v2.py",
+      "bytes": 10785,
+      "sha256": "4d996b554f579c69d6c9317a08abd228f73ed3b28ff507092fc19b7b4eb613b6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-positive-trace-native-check.py",
+      "bytes": 10776,
+      "sha256": "d5c6306b74c18c718570470e16f36757749d598a0dc38e2923004b7173710f75"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-nested-angular-positive-trace-check.py",
+      "bytes": 8627,
+      "sha256": "4c397f0b61837954412e2e47a2a10507c441e37eab4a9ec6280bc81d1bb722a1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-positive-trace-branch-check.py",
+      "bytes": 5175,
+      "sha256": "cb79cb796172f3c0e836b210ae70989a349570a2a071f4d3f0350c41c33b5e88"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-terminal-rank-one-reference-check.py",
+      "bytes": 4093,
+      "sha256": "3137d6b62c52cc694c18a4c0d5200eb3964592ae6a4a645a0aec3fae9d388bcc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+      "bytes": 5041,
+      "sha256": "4d6a56fe259317439726ed905503151693066f60804faaeb05fbae03a7074130"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+      "bytes": 4466,
+      "sha256": "db6bd9d12100a9eea751f12f155081c930cb06a6883c0e967733b23cb414d37a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "bytes": 8686,
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_coast_hybrid.py",
+      "bytes": 6689,
+      "sha256": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_hybrid.py",
+      "bytes": 4766,
+      "sha256": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_bounded_schur.py",
+      "bytes": 6319,
+      "sha256": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_merit.py",
+      "bytes": 4401,
+      "sha256": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field.py",
+      "bytes": 16847,
+      "sha256": "da21af4729036536a7114e6d0a46bd32d9b3bb3b6fb9ee028bdbe4eb3ee5d98f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace_empty_local_snapshot.py",
+      "bytes": 11222,
+      "sha256": "847e95ae5b11d947cf6278f46ca5edf6fb42283160f3e8d0295a6bd31655a812"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace_window_snapshot.py",
+      "bytes": 10856,
+      "sha256": "dcee8eb51577ee7927e755e588a278ccb5f5748296ce05240a2f3841d87d81bb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_terminal_rank_one_reference.py",
+      "bytes": 2770,
+      "sha256": "edae03a13f19347c33258a089bec27738d9aaae5fd76619b28ad698e6d9abd98"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_payload_checkpoint.py",
+      "bytes": 5771,
+      "sha256": "f9d3fd225c114045cf45c4c8076a6cc05b72e2a791fcadd217b6f82483b02fda"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py",
+      "bytes": 8154,
+      "sha256": "9b70cf65aa3bde7315b4bfe761721c81e501d9a9c8815e8861535597d8926fda"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_terminal_trace_reference_probe.py",
+      "bytes": 6049,
+      "sha256": "4fb0e11a713e5f0ba53d455e3fa7c1710e1c4af83901ff89545a8e0fbb2d42c2"
+    }
+  ],
+  "excluded": [
+    "active trace16 outputs",
+    "active R159 streamed normal-system work",
+    "regenerable intermediate arrays",
+    "HANDOFF hash refreshed after every literal pull"
+  ],
+  "scope": "Combined unpublished R155–158 proofs, 15 outcome, actual positive-trace consumers and static trace16 input; strong target remains open"
+}

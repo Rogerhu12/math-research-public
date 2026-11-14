@@ -1,0 +1,1051 @@
+{
+  "schema": "78718-m15-linear-input-live-code-check-v1",
+  "status": "PASS_INPUTS_AND_COMPLETE_LIVE_CONTROL_CODE_ONLY",
+  "scope": "Small immutable-input and live-control-code check; no numerical port.",
+  "checker": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-entry-gates-v1.py",
+    "bytes": 2579,
+    "sha256": "ec64153fe3ee9ed89586974ed2ec39ae257cd85b8a6f3123c272fbb2c6641709"
+  },
+  "input_gate": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-m15-linear-inputs-v1.py",
+    "bytes": 22133,
+    "sha256": "28f6c54353d9aff0184115235f728cf07fb90fab46a8bb959da58fc4c7fb06b9"
+  },
+  "launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+    "bytes": 124724,
+    "sha256": "dbccb1b7892a0cfda626bf2769270b8bd1c9d3e3ef715c7583d8e731f88fee03"
+  },
+  "bindings": 188,
+  "live_control_functions": 30,
+  "alterations_rejected": [
+    "Coordinator.__init__",
+    "Coordinator._accept",
+    "Coordinator._budget_used",
+    "Coordinator._cache_consistent",
+    "Coordinator._call",
+    "Coordinator._return",
+    "Coordinator.emit",
+    "Coordinator.solve",
+    "WeightedTailPort.__init__",
+    "WeightedTailPort._classify",
+    "WeightedTailPort._emit",
+    "WeightedTailPort._inspect",
+    "WeightedTailPort._persist_good",
+    "WeightedTailPort.close",
+    "WeightedTailPort.solve",
+    "canonical",
+    "classify_original_failure",
+    "complete_trial_groups",
+    "digest",
+    "identity",
+    "int_value",
+    "number",
+    "read",
+    "require",
+    "same_height",
+    "validate_checkpoint",
+    "validate_response",
+    "vector",
+    "verify",
+    "without_io"
+  ],
+  "actual_control_code": {
+    "WeightedTailPort.__init__": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort.__init__",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 429,
+        "code_sha256": "a0d3a36a207c4022555e6b1c10aac7e9d082edcf5b9be62374b9b4e37bcc0036"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort.__init__",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 429,
+          "code_sha256": "a0d3a36a207c4022555e6b1c10aac7e9d082edcf5b9be62374b9b4e37bcc0036"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "cc7f383011caba8c2613602317093ed0146970838f578eff6f83644e101bbeff",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort._inspect": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort._inspect",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 547,
+        "code_sha256": "99c120aaaccce00699e80cad32ca1b7188beb671460814115c418b50e97116c6"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort._inspect",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 547,
+          "code_sha256": "99c120aaaccce00699e80cad32ca1b7188beb671460814115c418b50e97116c6"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "3321d3021576553f8091069373c4fabb31e9c5b78d90c9eef9d6411817335654",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort._classify": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort._classify",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 576,
+        "code_sha256": "6d7d236c345521dc299ca7cab38e16ab72622a205b2a298bf7011c1a5a7521af"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort._classify",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 576,
+          "code_sha256": "6d7d236c345521dc299ca7cab38e16ab72622a205b2a298bf7011c1a5a7521af"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "37a3b492071f92e9311e2a23b86a8bf3946853975a78f9260a0dd3aafe412784",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort.solve": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort.solve",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 589,
+        "code_sha256": "d23afe0c55932371c650ec1c2fe6a7df8526636a7b70747723353c59c81c79e4"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort.solve",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 589,
+          "code_sha256": "d23afe0c55932371c650ec1c2fe6a7df8526636a7b70747723353c59c81c79e4"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "ae062a581bd4a3fdb3b08d1dd73c8bc04f76d5693a8591afa36a1dd3784ddbbf",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort.close": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort.close",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 592,
+        "code_sha256": "4089f10b09baaf535724870686a865c4fc7a468e2357465df95ec68b17168245"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort.close",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 592,
+          "code_sha256": "4089f10b09baaf535724870686a865c4fc7a468e2357465df95ec68b17168245"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "2f7784ea9dd41ec3f59e21a379d0c86da9d141384aa598c719eba01066786583",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort._emit": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort._emit",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 530,
+        "code_sha256": "371964235e197e02155deafde70b4e4d09c573ee61c3392a462af6f24f1d9819"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort._emit",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 530,
+          "code_sha256": "371964235e197e02155deafde70b4e4d09c573ee61c3392a462af6f24f1d9819"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "131260148c2ae670f8bc260a43334fe7b25602cce0d245c1aca666d08af3cc2f",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "WeightedTailPort._persist_good": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "WeightedTailPort._persist_good",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 536,
+        "code_sha256": "1c8226486e6963d1fb6855fc1d58a6e0ae776054480c4cd435fd4e3359b75d1a"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "WeightedTailPort._persist_good",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 536,
+          "code_sha256": "1c8226486e6963d1fb6855fc1d58a6e0ae776054480c4cd435fd4e3359b75d1a"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "ef0ee75d8a061543a73c65b39c940874bd1af95e13c6bf7e5ed07551d80557bc",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator.__init__": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator.__init__",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 165,
+        "code_sha256": "044526b15021b5a6188e75f4099458b5dd938669b4a1777a554deb384b6e986b"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator.__init__",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 165,
+          "code_sha256": "044526b15021b5a6188e75f4099458b5dd938669b4a1777a554deb384b6e986b"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "e72658202ed44841ac1bad27f7eb06af124a282dff6f47821d3343f3509d77ea",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator.emit": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator.emit",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 180,
+        "code_sha256": "cf9d1178e54b5370cefefc302e15dd5174e648c5cefe74d3af4759b222cd3c6b"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator.emit",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 180,
+          "code_sha256": "cf9d1178e54b5370cefefc302e15dd5174e648c5cefe74d3af4759b222cd3c6b"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "69f98236c320869bb3f7f67eb5a6f59fa07464298d0da437ca2d471341eb85cb",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator._budget_used": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator._budget_used",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 184,
+        "code_sha256": "2c54004d7fd04b85950849586fff80f192134d984f4414cf7770bec34a7f8dd8"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator._budget_used",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 184,
+          "code_sha256": "2c54004d7fd04b85950849586fff80f192134d984f4414cf7770bec34a7f8dd8"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "926b251d43d909fa9ef7bddac6d3ed50fd0aaa1a49303c93de01628d9b331852",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator._cache_consistent": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator._cache_consistent",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 187,
+        "code_sha256": "56a5b0243224ffb07e8fd69f604675201633498d4dcd5191a7ed9c23e6fae66f"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator._cache_consistent",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 187,
+          "code_sha256": "56a5b0243224ffb07e8fd69f604675201633498d4dcd5191a7ed9c23e6fae66f"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "039b9712614244cbc97ee6184a5b49c01913ceeea1f4eb43275370c709d89507",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator._call": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator._call",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 192,
+        "code_sha256": "7a0c2b6184f0ef2b6d02e9c888f12920fc09c8332d770dc06e70897471df7a52"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator._call",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 192,
+          "code_sha256": "7a0c2b6184f0ef2b6d02e9c888f12920fc09c8332d770dc06e70897471df7a52"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "ab35f4407ac7a78b5090795306b721151002440ff871e57d0d6d2829fdfae33b",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator._accept": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator._accept",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 229,
+        "code_sha256": "f2cd10e1bb90f19beb36fccb0fffed3e9ebe2ebcfc21b08d7b08a6affff19261"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator._accept",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 229,
+          "code_sha256": "f2cd10e1bb90f19beb36fccb0fffed3e9ebe2ebcfc21b08d7b08a6affff19261"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "e166f632203b65704747745d7213298d5114154e43df9ac466e9fcefa9475c86",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator._return": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator._return",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 242,
+        "code_sha256": "6f81b777ce3e4253e8b66c46571eee06fe6d9f1e8bfd457007ec79ba00dd72ec"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator._return",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 242,
+          "code_sha256": "6f81b777ce3e4253e8b66c46571eee06fe6d9f1e8bfd457007ec79ba00dd72ec"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "ec934e8f6db1a20d7ddf08eb4c235e0a3ec152f23a40e166db05596d0ba13cd1",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "Coordinator.solve": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "Coordinator.solve",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 252,
+        "code_sha256": "191fa58e93b36ccde63394befd72abda920315aefd09f21733625e69623904db"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "Coordinator.solve",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 252,
+          "code_sha256": "191fa58e93b36ccde63394befd72abda920315aefd09f21733625e69623904db"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "82ee4ea41baecf2a44d21200e1dc714040bbb5c8da3a5456d030aad6323b46cd",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "validate_checkpoint": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "validate_checkpoint",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 101,
+        "code_sha256": "42ebfca88fd624d7829908937147d65d6bf578e8169608001cffd70d21d29210"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "validate_checkpoint",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 101,
+          "code_sha256": "42ebfca88fd624d7829908937147d65d6bf578e8169608001cffd70d21d29210"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "2cdf9f683d4e3eda992a84b131e719cb8442ac4bb4c849174076e572a7827d14",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "validate_response": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "validate_response",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 120,
+        "code_sha256": "9d22b82fa356e22ad8082c52aa25ccb3bf0a848777717d30caf5d07a4b976206"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "validate_response",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 120,
+          "code_sha256": "9d22b82fa356e22ad8082c52aa25ccb3bf0a848777717d30caf5d07a4b976206"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "b9b3c65f18ee6373b9aa3dcc799d45f5ca936a26c3955e11b09d6065221243a0",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "complete_trial_groups": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "complete_trial_groups",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 324,
+        "code_sha256": "825e12cef7e552d4b6f55e8b031f36a48d73aef8d8506b99ebcd06f94bf03223"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "complete_trial_groups",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 324,
+          "code_sha256": "825e12cef7e552d4b6f55e8b031f36a48d73aef8d8506b99ebcd06f94bf03223"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "a863360ec61b2c4ea1ae6f6c744dba2b8846d6dd6b66ececc026a96ec53699fe",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "classify_original_failure": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "classify_original_failure",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 355,
+        "code_sha256": "21829a16ea7c2c528815a1cae0c5d68ff3cd4ed5a45d3c4a58656de2bae96dff"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "classify_original_failure",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 355,
+          "code_sha256": "21829a16ea7c2c528815a1cae0c5d68ff3cd4ed5a45d3c4a58656de2bae96dff"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "e1b832c5e357047dcebd3e636ba9e53cb42c941a412eb375ad473d4daf7b7498",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "same_height": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "same_height",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 93,
+        "code_sha256": "5900bfdf5b9fe05718458e8b5e81b244064570fcb6ffb244742dc1564860030c"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "same_height",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 93,
+          "code_sha256": "5900bfdf5b9fe05718458e8b5e81b244064570fcb6ffb244742dc1564860030c"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "0244901b99ae3b7f720ef6def8dd06d74dc099af0655d7922972e15d3f946e79",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "canonical": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "canonical",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 52,
+        "code_sha256": "cd600bef919a7422fc314e4c4eaf4e0cb349bf309d29292902feae3558a9f8da"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "canonical",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 52,
+          "code_sha256": "cd600bef919a7422fc314e4c4eaf4e0cb349bf309d29292902feae3558a9f8da"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "ad90da5c4c71f671acd32b3c7acdc47a3b86e87754a96b47fdca5d97966f8185",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "digest": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "digest",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 56,
+        "code_sha256": "3ccc0c98f25d7954b87a0b8feb46711d384f18ecbf39f212a7ac919e452a3ccb"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "digest",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 56,
+          "code_sha256": "3ccc0c98f25d7954b87a0b8feb46711d384f18ecbf39f212a7ac919e452a3ccb"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "38fcfe9b9b90847d532faa799b6f704f392e1f3bf4a4b80d2b62cd927b4c5439",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "read": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "read",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 75,
+        "code_sha256": "b4f7b122e779655b3c69163fbe65a43e03dce1297eb90941dcbf2f3b640573a0"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "read",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 75,
+          "code_sha256": "b4f7b122e779655b3c69163fbe65a43e03dce1297eb90941dcbf2f3b640573a0"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "c84ffdbacd9773c0649e6de6956146aef74820d5da8addc8d8406fb3ce2b647f",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "identity": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "identity",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 60,
+        "code_sha256": "bc11eeedb1784990f13d3de2c3bd70372a87010a6d738eefb98402a82117de54"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "identity",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 60,
+          "code_sha256": "bc11eeedb1784990f13d3de2c3bd70372a87010a6d738eefb98402a82117de54"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "bc8cb32c04052e939a9f7090bd7adbb39b091d003b4276485a348043642066b2",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "without_io": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "without_io",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 97,
+        "code_sha256": "5247234810d88ab740ee0ae3683446607901d0d01442d12a1c4e32cc3769f37d"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "without_io",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 97,
+          "code_sha256": "5247234810d88ab740ee0ae3683446607901d0d01442d12a1c4e32cc3769f37d"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "7d6df811509f3bb1865c148561c4c02e31c9c1fc22b95f4b64091756f6405343",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "verify": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "verify",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 69,
+        "code_sha256": "aa749a892ca5312c937bfcd090c128d7b63c339735164ba3fdd57f976c5e6281"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "verify",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 69,
+          "code_sha256": "aa749a892ca5312c937bfcd090c128d7b63c339735164ba3fdd57f976c5e6281"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "d22e3c5b91d2e0948a9378741a8a0f8060952c057c5b684785eac6f22f66376b",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "require": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "require",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 47,
+        "code_sha256": "d8dc63a467e9127778d4918800f2dbc082020ee187923f33f45a92c8e5c590cc"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "require",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 47,
+          "code_sha256": "d8dc63a467e9127778d4918800f2dbc082020ee187923f33f45a92c8e5c590cc"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "c94a8c7f33bbeef151c6163cabc385c92c322edac5537c3a1de755f0b803bdaf",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "vector": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "vector",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 85,
+        "code_sha256": "fba71bbde5efc66c5f1d07ce67cef50095a640d6e426ea482c14f1ed759649da"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "vector",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 85,
+          "code_sha256": "fba71bbde5efc66c5f1d07ce67cef50095a640d6e426ea482c14f1ed759649da"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "8fa560451903df1e5daaba527755dbd23b15cf5999cf8e9b5928083b0805867b",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "number": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "number",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 81,
+        "code_sha256": "d43a4d2f8fa2dd5ab5fd5df566320a6aa80afa51b541dc100bb7458789af4008"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "number",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 81,
+          "code_sha256": "d43a4d2f8fa2dd5ab5fd5df566320a6aa80afa51b541dc100bb7458789af4008"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "2ff42cc150c95da7741b874f7d9f9acefa14da101c45eb4c4d1f8369610208c6",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    },
+    "int_value": {
+      "raw": {
+        "module": "db6f_shared_client",
+        "qualname": "int_value",
+        "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "firstlineno": 89,
+        "code_sha256": "3df8ac18a39d711c779dd8cc22f2e3f3d913dfe8efd040d24f3f5268cd3d6a6d"
+      },
+      "typed": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_shared_client",
+          "qualname": "int_value",
+          "filename": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "firstlineno": 89,
+          "code_sha256": "3df8ac18a39d711c779dd8cc22f2e3f3d913dfe8efd040d24f3f5268cd3d6a6d"
+        },
+        "source": {
+          "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+          "bytes": 34790,
+          "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+        },
+        "canonical_code_sha256": "24f6fe64119b82683685b80ff06e621bfe9e204a8fdb94ed6861001f16d63d98",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    }
+  },
+  "original_canonical_kernel_functions": 10,
+  "candidate_initializations": 0,
+  "port_constructors": 0,
+  "BVP_Newton_DN_calls": 0,
+  "new_math_success": false
+}

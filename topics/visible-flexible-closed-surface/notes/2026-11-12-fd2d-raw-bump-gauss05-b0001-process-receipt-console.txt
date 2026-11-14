@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-gauss-run.py", line 240, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-gauss-run.py", line 48, in main
+    raise FileExistsError('Use a new unique run stem')
+FileExistsError: Use a new unique run stem

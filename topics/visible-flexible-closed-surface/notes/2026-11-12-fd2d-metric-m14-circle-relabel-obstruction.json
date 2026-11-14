@@ -1,0 +1,97 @@
+{
+  "checkpoint_sha256": "4776c4c251c4bc6fdadda56aaed78f6fc02175483c5ad3a6fb3cf0359a49cd6a",
+  "circles_checked": 6123,
+  "common_support": {
+    "actual_common_map_constructed": false,
+    "scope": "Any actual common-cut extension using this same base and zero correction before the stated index inherits the pair",
+    "start_index": 6124,
+    "width_binary64_hex": "0x1.3333333333333p-3",
+    "witness_before_support": true
+  },
+  "conclusion_scope": "A necessary lower bound for this finite graph under the stated relabeling class, not a nonexistence theorem for a new graph",
+  "continuous_metric_upper": false,
+  "exact_bridge_scale_cancels": true,
+  "exceeds_2e_minus9": true,
+  "geometry": {
+    "bytes": 9865,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+    "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+  },
+  "modes": 24,
+  "new_graph": false,
+  "nodes": 6599,
+  "ode_calls": 0,
+  "relabeling_class": "(s,u) -> (phi(s),chi(s,u)); phi a radial diffeomorphism and every chi(s,.) a circle diffeomorphism",
+  "schema": "fd2d-circle-relabel-two-axis-schur-obstruction-v1",
+  "script": {
+    "bytes": 6978,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-circle-relabel-obstruction.py",
+    "sha256": "cdc79aaca8cd83e5f801c5aaa7adcd7aa699ba1b1cc2bdfc97756efd156802a5"
+  },
+  "seconds": 18.012994507997064,
+  "solver_calls": 0,
+  "status": "EXACT_FINITE_GRAPH_NECESSARY_CONDITION",
+  "storage_bindings": [
+    {
+      "bytes": 9865,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "bytes": 887,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "bytes": 4599313,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "bytes": 3886748,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "bytes": 5923,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "bytes": 11138,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    }
+  ],
+  "storage_reader": {
+    "bytes": 5923,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+    "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+  },
+  "target_class": "Any fixed positive rotational metric zeta(s)^2 ds^2+a(s)^2 du^2",
+  "warp_handling": "The Schur complement is unchanged by replacing psi with the physical material angle at fixed radial coordinate",
+  "witness": {
+    "axes": {
+      "psi_pi_over_3": {
+        "angular_tangent": "689362057692090068424358580226351004803643292436397503968399173/411376139330301510538742295639337626245683966408394965837152256",
+        "height_component": "4630275606291542460478341/4835703278458516698824704",
+        "radial_component": "463395580307002440880564684919268669724501844821703945653813/1606938044258990275541962092341162602522202993782792835301376",
+        "schur": "2582250037144568518010179855427329304561237110443438326285177367300110138550050634141329629875195800437579476456661505785/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+      },
+      "psi_zero": {
+        "angular_tangent": "151311757787302753600747160893449427474429185742801401328149317/411376139330301510538742295639337626245683966408394965837152256",
+        "height_component": "4831659655796848940710823/4835703278458516698824704",
+        "radial_component": "65701494196980906292957970556367012556819015395664573795893/1606938044258990275541962092341162602522202993782792835301376",
+        "schur": "2582249807229373351498775988251811054423894169141176435567129297180775654649773111989423065759059073559846075097331193593/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+      }
+    },
+    "coordinate_exact": "1217158957088671/4503599627370496",
+    "node": 1470,
+    "safe_lower_decimal": {
+      "decimal": "0.000000044518385534849890",
+      "exact": "4451838553484989/100000000000000000000000"
+    },
+    "target_normalized_metric_lower_exact": "114957597583255701933587759125068671470651130945359024035059667241950138761075953282058068363438866700679665156096/2582249922186970934754477921839570179492565639792307380926153332240442896599911873065376347817127436998712775776996349689",
+    "unrestricted_optimal_radial_scale_exact": "2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376/2582249922186970934754477921839570179492565639792307380926153332240442896599911873065376347817127436998712775776996349689"
+  }
+}

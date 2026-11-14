@@ -1,0 +1,45 @@
+{
+  "schema": "fd2d-R182-signed-search-domain-recovery-source-manifest-v1",
+  "status": "new small-text source saved; Python generation and integration not yet executed",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_signed_search_domain_recovery.py",
+      "bytes": 26607,
+      "sha256": "4bd8bdd374ed4280f81f15264510f587ac2af47e2b7e401e71c9ee8c542e6c49"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-search-domain-recovery.md",
+      "bytes": 5222,
+      "sha256": "2f91a376518733f592828089012147e3e8c6459a9409600fb0c86d05171fb9ef"
+    }
+  ],
+  "original_domain02_bytes_and_source_not_available": true,
+  "original_domain02_sha_not_reused": true,
+  "exact_mathematical_basis": "R182 section7; original certified base upper and margin on each closed box, exact degree8 bump-second Bernstein rows and conservative binary64 coefficient rounding",
+  "fixed_input_rows_sha256": "d7f990bcef75ec30311e23d3cf92dadf5736f871f141dd3f7fa62071f7793095",
+  "fixed_input_certificate_sha256": "44d3d9318ffa7b70f7bcc59cebf81df09e72b9c37562c05e1410cdb65b627a68",
+  "new_domain_schema": "fd2d-R182-Bernstein-positive-K-domain-recovery-v1",
+  "installer_module": "fd2d_gc_signed_search_domain_recovery",
+  "installer_function": "install_signed_search_domain(problem, *, windows=None, domain_path, qp_path)",
+  "returned_methods": [
+    "verify_delta(delta7)",
+    "definition()"
+  ],
+  "returned_attributes": [
+    "delta_absolute_bounds"
+  ],
+  "profile_domain_append": "preserve original dictionary keys; append selected matrix/lower rows only; exact global p slice read from problem.profile_parameter_slice",
+  "selection": "all four exact dyadic breaks; neither actual name nor sign restricts K certificate matching",
+  "actual_field_metadata": "actual selected names, signs, supports, exact base, global row_owner and context box requirement retained",
+  "context_action": "retain profile_box <= exposed exact original binary64 bounds; call handle.verify_delta for every trial and saved accepted candidate, separately from floating parameter_domain",
+  "expected_generation_command": "python scripts/fd2d_gc_signed_search_domain_recovery.py --out-prefix notes/2026-11-12-fd2d-signed-domain-recovery-01",
+  "expected_new_outputs": [
+    "notes/2026-11-12-fd2d-signed-domain-recovery-01-domain.json.gz",
+    "notes/2026-11-12-fd2d-signed-domain-recovery-01-qp.npz",
+    "notes/2026-11-12-fd2d-signed-domain-recovery-01-report.json"
+  ],
+  "expected_outputs_already_generated": false,
+  "python_compile_or_execution_claimed": false,
+  "F_J_BVP_body_or_new_Arb_intervals_evaluated": false,
+  "active_old_source_changed": false
+}

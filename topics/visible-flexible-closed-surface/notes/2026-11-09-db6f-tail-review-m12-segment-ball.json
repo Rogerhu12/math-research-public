@@ -1,0 +1,62 @@
+{
+  "status": "PASS-full-review-and-independent-same-R21-tail-cap-position-reconstruction",
+  "reviewer": "/root/tail_theory",
+  "inputs": [
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-m12-segment-ball-budget.py",
+      "sha256": "b209f8e1feadf1fb39c9ba4c8173d617728d88532ebe130e92b3914b12066a89",
+      "bytes": 11401
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-proof.md",
+      "sha256": "bad275038aa56b96209620cfe91a0154fbb2dad55697c58264ea80b6c3044935",
+      "bytes": 8141
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-segment-ball-budget.json",
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c",
+      "bytes": 54651
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-m12-segment-ball-replay.json",
+      "sha256": "f08875b25cc46328e0c04171fdbf7f50b802dac6951381e4fb2c64d5839c483c",
+      "bytes": 54651
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-tail-check-m12-ball-position.py",
+      "sha256": "ca8dafc46e001d5334f481e815453d772bb9b75ac6989db6d995e5f65249b6b6",
+      "bytes": 9349
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-check-m12-ball-position.json",
+      "sha256": "7d32b8dd715626598282adc8b84ac83428afeee1a92499a3d48da321c7310bd0",
+      "bytes": 42228
+    }
+  ],
+  "observed_author_script_replay_exit_code": 0,
+  "author_replay_byte_identical": true,
+  "independent_reconstruction_observed_exit_code": 0,
+  "nine_segment_exact_fields_compared": true,
+  "inner_exact_fields_compared": true,
+  "cap_exact_cuff_box_difference_accounted_for": true,
+  "ratio_fields_independently_recomputed": true,
+  "textual_decimal_inequalities": {
+    "Bnew_saved_decimal_upper": true,
+    "reach_decimal_strict_lower": true,
+    "hold_decimal_strict_lower": true,
+    "fixed_caps_decimal_strict_lower": true,
+    "inner_norm_squared_decimal_upper": true,
+    "caps_norm_squared_decimal_upper": true,
+    "cell_zero_norm_squared_decimal_upper": true
+  },
+  "diameter_upper_exact": "2131902881202937/562949953421312",
+  "reach_over_D_lower_exact": "316912650057057350374175801344/10156379431358714998583735712015",
+  "hausdorff_hold_over_D_lower_exact": "1800459358092517/34110446099246992",
+  "source_map_and_metric_unchanged": true,
+  "new_root_flow_integral_export_or_backend_calls": 0,
+  "new_metric_curvature_certificate": false,
+  "original_R21_inputs_modified": false,
+  "final_independent_pipeline_verified": false,
+  "README_complete": false,
+  "scope": "Full mathematical/source review of the complete frozen note and scalar implementation, plus observed same-script replay and separately implemented Fraction reconstruction. Existing continuous/integral certificates remain mathematical inputs."
+}

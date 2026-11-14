@@ -1,0 +1,129 @@
+{
+  "README_complete": false,
+  "author_closed_inventory": {
+    "bytes": 1820,
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-core-closed-inventory.json",
+    "sha256": "bb7fd9a08e9a833073f22a0fcc5aea8f55adaa5f2faf3b0f21da5d2393d6b527"
+  },
+  "author_report_replays_byte_identical": true,
+  "closure_write_failure": {
+    "error": "OSError [Errno 28] No space left on device",
+    "inventory18_existed_after_failure": false,
+    "mathematical_outputs_changed": false,
+    "observed_exit_code": 1,
+    "observed_overlay_available_bytes": 0,
+    "read_only_followup_chunk_ids": [
+      "9d8782",
+      "85ca9d"
+    ],
+    "replacement": "This valid execution record replaces only that zero-byte file after root reported space recovery and explicitly authorized the replacement; the failed closure attempt is retained here.",
+    "this_record_bytes_after_failure": 0,
+    "tool_chunk_id": "4ca3a4"
+  },
+  "date": "2026-11-09",
+  "future_closed_surface_constructed": false,
+  "original_author_sources_changed": false,
+  "review": {
+    "bytes": 13216,
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-core-proofs.md",
+    "sha256": "f6fdf3ec47e9019338fd0e5f4d6e5de3e0e866c8118c8d889ff35f6076c76779"
+  },
+  "reviewer": "/root/tail_theory",
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-poisson-bounds.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-replay.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "name": "author_poisson_independent_replay",
+      "observation": "Actual completed terminal execution; no inferred process completion.",
+      "observed_exit_code": 0,
+      "output": {
+        "bytes": 28270,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-replay.json",
+        "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+      },
+      "script": {
+        "bytes": 5362,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-poisson-bounds.py",
+        "sha256": "6f804847b44a8395c4abb5b325ed2b83f855c056b8bbc51ed1b7768e7f46c7b9"
+      },
+      "tool_chunk_id": "221b87"
+    },
+    {
+      "argv": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-poisson-check.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-check.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "name": "independent_poisson_full_support",
+      "observation": "Actual completed terminal execution; no inferred process completion.",
+      "observed_exit_code": 0,
+      "output": {
+        "bytes": 15306,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-check.json",
+        "sha256": "954f6c8eb2cea48ad0852265bef36f9a391d3ee0c5710f234077373ed4aeab58"
+      },
+      "script": {
+        "bytes": 7615,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-poisson-check.py",
+        "sha256": "32555fe71af3907dd41ff53e0c1b85bafc72854666ae283048a7da3fbd74c2d7"
+      },
+      "tool_chunk_id": "d1a4b7"
+    },
+    {
+      "argv": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-finite-bounds.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-replay.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "name": "author_finite_independent_replay",
+      "observation": "Actual completed terminal execution; no inferred process completion.",
+      "observed_exit_code": 0,
+      "output": {
+        "bytes": 23434,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-replay.json",
+        "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+      },
+      "script": {
+        "bytes": 4639,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-finite-bounds.py",
+        "sha256": "6ca39830537b2f63f444fb3de71f8ba69251211b2485a3f698dcc749e5063e69"
+      },
+      "tool_chunk_id": "c2a03d"
+    },
+    {
+      "argv": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-finite-check.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-check.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "name": "independent_finite_four_tuple",
+      "observation": "Actual completed terminal execution; no inferred process completion.",
+      "observed_exit_code": 0,
+      "output": {
+        "bytes": 4806,
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-check.json",
+        "sha256": "b9bdf72324d06a49402365b2882fb061774720ea9d8d7d2b3c0034bcaa6bf240"
+      },
+      "script": {
+        "bytes": 6827,
+        "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-finite-check.py",
+        "sha256": "05814efba32df9423b8ae86d5cad918ae4abd2884290d154913a4018f36c219f"
+      },
+      "tool_chunk_id": "68de19"
+    }
+  ],
+  "schema": "db6f-tail-c3-core-independent-observed-execution-v1",
+  "scope": "Independent full proofs and exact scalar ledgers only: unclosed core and conditional whole-image transfer.",
+  "solver_root_RK_exporter_geometry_backend_calls": 0
+}

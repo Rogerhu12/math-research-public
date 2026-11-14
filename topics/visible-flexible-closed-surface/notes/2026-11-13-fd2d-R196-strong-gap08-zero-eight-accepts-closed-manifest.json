@@ -1,0 +1,225 @@
+{
+  "schema": "fd2d-R196-strong-gap08-eight-accepts-closed-manifest-v1",
+  "scope": "Eight real Armijo accepts after explicit zero reinitialization at central gap 0.8, plus one same-field N128 value verification; finite design search only.",
+  "completePhysicalMetricFixedDuringDesign": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "inputAndSources": {
+    "parentPath": "notes/2026-11-13-fd2d-R196-radial-refined-branch-03.json",
+    "parentGitBlob": "8ae0c6663bb716b7813a171d3fbadb4189d5af2f",
+    "parentCommit": "8560fb9b69abe4d8c826aa8173be3d45fcda8d3e",
+    "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+    "sourceGitBlobs": {
+      "engine": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+      "metric": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+      "curvature": "4512b251cd28727b714015b88e68ca8e8411cf08",
+      "curvatureAlgebra": "7abcea6d968125aee8bc807e2f797b2227746828",
+      "splineBasis": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+      "bandKernel": "501b52f91e557a7008bfa0ee6294f55546c4fdc2",
+      "bandAdapter": "3c358ed9e75bc05c62eb8dd40870b1e594fd37ba",
+      "densePolicyAncestor": "a07f371c4471f1cdb8365da2327d67a07242599c",
+      "driver": "b8c224375c9ebb8a404d33b309d8f93834c4f7fd",
+      "strongSeedInitializer": "789c3509b1e38aca99433ee45fe069e22caf2f31"
+    },
+    "zeroInitializerGitBlob": "2047b8e9f423dfd77738678df23356b97517975e",
+    "warmInitialPath": "notes/2026-11-13-fd2d-R196-strong-gap08-branch-00.json",
+    "warmAcceptedPath": "notes/2026-11-13-fd2d-R196-strong-gap08-branch-01.json",
+    "warmAcceptedCommit": "5b7c2c25792505e320a922597ed5487a0532b539"
+  },
+  "actualExecution": {
+    "arithmeticRuntime": "pure JavaScript/V8",
+    "completed": true,
+    "OSSubprocessStartedForArithmetic": false,
+    "OSExitCodeForArithmetic": null,
+    "acceptedSteps": 8,
+    "stepMilliseconds": 70349,
+    "N128Milliseconds": 1589,
+    "filePersistenceReceipts": [
+      {
+        "checkpoint": "zero-01",
+        "exitCode": 0,
+        "chunk": "6ee3a5"
+      },
+      {
+        "checkpoint": "zero-02",
+        "exitCode": 0,
+        "chunk": "c4079b"
+      },
+      {
+        "checkpoint": "zero-03",
+        "exitCode": 0,
+        "chunk": "9c5ad3"
+      },
+      {
+        "checkpoint": "zero-04",
+        "exitCode": 0,
+        "chunk": "a47adf"
+      },
+      {
+        "checkpoint": "N128 and note",
+        "exitCode": 0,
+        "chunk": "43f418"
+      }
+    ]
+  },
+  "finalN64": {
+    "squaredNorm": 0.031139765872066787,
+    "norm": 0.17646463065460677,
+    "maxRelativeMetric": 0.3093018929687015,
+    "minImmersion": 0.8005677533365847,
+    "worst": {
+      "s": 0.5297330249894753,
+      "u": 0.5890486225480862,
+      "rE": 0.1460090634645288,
+      "rF": 0.22473713817225677
+    },
+    "rowCount": 20383,
+    "radialPoints": 184,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.01820516343090281,
+    "conservativeRadiusLowerBound": 0.7817948365690972,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.02022903104860773,
+    "curvaturePenaltySquaredNorm": 0.010910734823459054,
+    "curvature": {
+      "squaredNorm": 0.010910734823459054,
+      "norm": 0.10445446291786223,
+      "maxCurvature": 26.952437247803676,
+      "minImmersion": 0.8005677533365847,
+      "maxRelativeMetric": 0.31036146954169885,
+      "worst": {
+        "s": 0.28452183830339467,
+        "u": 1.5707963267948966,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          26.952437247803676,
+          0.911178079349412
+        ],
+        "relativeMetric": 0.011181090528085136
+      },
+      "activePoints": 1681,
+      "thresholdPoints": 0,
+      "rowCount": 14127,
+      "radialPoints": 277,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "finalN128": {
+    "squaredNorm": 0.031166618356033543,
+    "norm": 0.17654069886582396,
+    "maxRelativeMetric": 0.31758394687125724,
+    "minImmersion": 0.8005677533365843,
+    "worst": {
+      "s": 0.5297330249894753,
+      "u": 0.5399612373357456,
+      "rE": 0.1481184926494037,
+      "rF": 0.23199031835425074
+    },
+    "rowCount": 39567,
+    "radialPoints": 184,
+    "quarterNodes": 33,
+    "fullEquivalentAngles": 128,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.01820516343090281,
+    "conservativeRadiusLowerBound": 0.7817948365690972,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.020229037291237557,
+    "curvaturePenaltySquaredNorm": 0.010937581064795986,
+    "curvature": {
+      "squaredNorm": 0.010937581064795986,
+      "norm": 0.10458289087989482,
+      "maxCurvature": 26.952437247803694,
+      "minImmersion": 0.800567753336584,
+      "maxRelativeMetric": 0.31876913951133634,
+      "worst": {
+        "s": 0.28452183830339467,
+        "u": 1.5707963267948966,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          26.952437247803694,
+          0.911178079349412
+        ],
+        "relativeMetric": 0.011181090528084914
+      },
+      "activePoints": 3237,
+      "thresholdPoints": 0,
+      "rowCount": 27423,
+      "radialPoints": 277,
+      "quarterNodes": 33,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "normalizationNote": "Exact central seed series certificate is a separate metric_closure closed group; this manifest preserves numeric raw bits and does not inherit full-surface geometry from it.",
+  "files": [
+    {
+      "path": "scripts/fd2d-nonuniform-refined-branch-R196.cjs",
+      "bytes": 5022,
+      "sha256": "5c9c7b6b4621a3a6861d773d4c26eddac24d5dff6d875d45666c7406577b2e7c"
+    },
+    {
+      "path": "scripts/fd2d-strong-gap-seed-initializer-R196.cjs",
+      "bytes": 2841,
+      "sha256": "45c8f2810076cc96844b5b4f5f8e0660c575272eb05eedfdfe1c8b868ace273f"
+    },
+    {
+      "path": "scripts/fd2d-zero-strong-gap-initializer-R196.cjs",
+      "bytes": 2192,
+      "sha256": "1220deeceef9f92c0b38a33fe3cd2f687f2e80ff8f54fc9b89378e118af89373"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-branch-01.json",
+      "bytes": 28769,
+      "sha256": "0ef5fb463b2ad91fa4f42c133052476cf67f2b16128ecccc6423109a0bf0b738"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-00.json",
+      "bytes": 15062,
+      "sha256": "25a52fee0ee1076f8175824740781df21cd68a995efb804b43ca269ed653e874"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-01.json",
+      "bytes": 32335,
+      "sha256": "53eddf9bf4a5c824f9a692c0cdcfffa0aab329cdfb6c44ea2d408d90401f52f1"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-02.json",
+      "bytes": 39868,
+      "sha256": "c01dead82144d00f3010b9c272f5e0ceedfa452cae14c656d42aafb865176f26"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-03.json",
+      "bytes": 47916,
+      "sha256": "91eab7e7c6d0772d0ceb21909c733385efb1ff995a8acdd214d4a01835b61648"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-04.json",
+      "bytes": 55923,
+      "sha256": "145f72e8facb8b1f7d9f962d0d7e1f63f952625ab423a76bcf76cc156d408f16"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-final-N128-check.json",
+      "bytes": 5572,
+      "sha256": "52f96dc5fda04d71e20a5898209a552075f4a23751fb8e12f587b21c8a98e352"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-eight-accepts.md",
+      "bytes": 6245,
+      "sha256": "3a3b58aa68c837ac7177a2c2d5cc836588288248b1b5a8e473226221fd1bf40d"
+    }
+  ]
+}

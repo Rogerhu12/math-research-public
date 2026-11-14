@@ -1,0 +1,31 @@
+{
+  "schema": "78718-fixed-state-diagnostic-tool-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "status": "observed-process-completed",
+  "recorded_utc": "2026-11-10 09:06:03 UTC",
+  "actual_exit_code": 0,
+  "tool_receipt": "75e2fd",
+  "session_id": 65086,
+  "initial_tool_return": {
+    "chunk_id": "66e54b",
+    "wall_time_seconds": 1.001349767,
+    "session_id": 65086,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "actual_final_tool_return": {
+    "chunk_id": "75e2fd",
+    "wall_time_seconds": 1.754196241,
+    "exit_code": 0,
+    "original_token_count": 106,
+    "output": "{\"BVP_calls\": 0, \"checkpoints\": 3, \"continuous_bound\": false, \"output\": {\"bytes\": 208191, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-fixed-state-projection-01.json\", \"sha256\": \"53641e7e8ceb2ea822794a9df5404807a5162aa704aa9ee35be99b3c2d86dbfe\"}, \"radial_points\": 10, \"status\": \"COMPLETED_FLOATING_FIXED_STATE_DIAGNOSTIC\", \"tail_calls\": 0}\n"
+  },
+  "actual_command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python scripts/78718-prefix-fixed-state-projection-v1.py --checkpoint notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64.json.gz --checkpoint notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz --checkpoint notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz --linear-port /workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json --source-root /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root --bound-plan notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json --bound-plan-sha256 232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9 --witness-report notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json --out notes/2026-11-10-78718-numerical-fixed-state-projection-01.json",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+  "output_identity": {
+    "bytes": 208191,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-fixed-state-projection-01.json",
+    "sha256": "53641e7e8ceb2ea822794a9df5404807a5162aa704aa9ee35be99b3c2d86dbfe"
+  },
+  "scope": "Floating same-state source-projection diagnostic, not a solved higher-order curve or a continuous bound."
+}

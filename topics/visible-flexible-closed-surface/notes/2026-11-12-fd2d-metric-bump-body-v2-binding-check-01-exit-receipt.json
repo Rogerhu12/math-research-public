@@ -1,0 +1,13 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 39468,
+  "completion_chunk_id": "4c43cf",
+  "observed_exit_code": 0,
+  "command": [
+    "python3",
+    "inline: import v2 body source, call bound_reader on actual clean01 field/report, no ODE"
+  ],
+  "report": "notes/2026-11-12-fd2d-metric-bump-body-v2-binding-check-01.json",
+  "report_sha256": "5a587d733a5afac4c40dc79076f1b92d1daa8ee83c3cd0fbcedd6bd85d3b86cc",
+  "body_integration_run": false
+}

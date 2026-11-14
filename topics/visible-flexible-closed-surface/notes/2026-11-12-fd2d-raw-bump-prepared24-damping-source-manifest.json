@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-closed-static-source-supplement-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T17:03:38.849626+00:00",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-damping-run.py",
+      "bytes": 35879,
+      "sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c"
+    }
+  ],
+  "parent_static_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-static-manifest.json",
+    "bytes": 1738,
+    "sha256": "32b7c2d727d8aa943e3f16bedd10db8ae99d00ec51c647eecb882500b69b2173"
+  },
+  "changes": "Inherited fixed-damping prose is replaced by exact CLI damping metadata; mathematical code unchanged",
+  "planned_actual_initial_damping": 1e-07,
+  "finite_equations_or_objective_changed": false,
+  "executed": false
+}

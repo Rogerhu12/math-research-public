@@ -1,0 +1,101 @@
+{
+  "status": "generated-numerical-visual-PLYs-pending-independent-discrete-validation",
+  "scope": "Visual PLY discretizations of an identified certified common-cut map.\n\nThe continuous graph is not changed. Prefix chart inversion uses material\ntheta, the entire upper-tail height perturbation is reflected, the lower\nband is the z mirror, and only the upper fixed cap has three bumps.\nThe height sampler supplies numerical representatives, not rigorous vertex\nerror bounds. C2/metric/reach proofs refer to the identified continuous map.\n",
+  "script_sha256": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+  "plan": {
+    "file": "notes/2026-11-12-fd2d-visible-m12-plan.json",
+    "sha256": "39a2073f7d576eebb5c5c4c923ac556b2285beddf8194ad4a875c1c54cc1c75d"
+  },
+  "geometry": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "whole_certificate": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+    "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5"
+  },
+  "finite_tail_manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "source_sha256": {
+    "db6f-export-closed-mesh.py": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+    "db6f-root-common-cut-v2.py": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f-audit-tail-stream.py": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "db6f-audit-metric-supplier.py": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+  },
+  "height_samples": {
+    "file": "notes/2026-11-12-fd2d-visible-m12-heights.json",
+    "sha256": "d739e67859b4d8034bd65b0cff0677fa65949a44a9d8aa04d6e7c585541b09cc"
+  },
+  "numerical_height_scope": "Numerical samples of the same frozen source and an enclosed alpha representative. All finite calibration binaries are checked. Adaptive Gauss quadrature, bisection and binary64 arithmetic are not rigorous interval error bounds; mesh positions remain visual approximations to the proved map.",
+  "height_deep_omission": {
+    "beginsAtCell": 160,
+    "exactHeightUpperExpression": "640 * 2^(-280)",
+    "heightUpper": 3.2944368572595385e-82,
+    "reason": "R15 gives w <= 1280*2^(-7*n/4) on the unchanged source n>=160; its physical width is less than 1/2. This bounds only the omitted exact deep height, not finite quadrature, inverse, alpha or rounding errors."
+  },
+  "mesh_files": [
+    {
+      "file": "notes/2026-11-12-fd2d-visible-m12-t0.ply.gz",
+      "sha256": "c4162676ca39bd69fe90c763d880df71b8e301bc3c277d3125216a48ec728034",
+      "uncompressed_bytes": 3593265,
+      "stored_bytes": 1332663,
+      "time_exact": "0",
+      "phase_expression": "2*pi*(0)/3",
+      "material_grid_shift": 0,
+      "vertices": 71858,
+      "faces": 143712,
+      "fixed_vertices": 4610
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-visible-m12-t1of4.ply.gz",
+      "sha256": "9b063ed740c0cc12f2b3c9758b1e573ea2ee00d29c65ce42ff13eef79a5fcd4f",
+      "uncompressed_bytes": 3593267,
+      "stored_bytes": 1289971,
+      "time_exact": "1/4",
+      "phase_expression": "2*pi*(1/4)/3",
+      "material_grid_shift": 12,
+      "vertices": 71858,
+      "faces": 143712,
+      "fixed_vertices": 4610
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-visible-m12-t1of2.ply.gz",
+      "sha256": "77c14d929c45da4b06341ca37f95d9ad40bcebc0f78a43d26a62ad20ac60cecb",
+      "uncompressed_bytes": 3593267,
+      "stored_bytes": 1332136,
+      "time_exact": "1/2",
+      "phase_expression": "2*pi*(1/2)/3",
+      "material_grid_shift": 24,
+      "vertices": 71858,
+      "faces": 143712,
+      "fixed_vertices": 4610
+    }
+  ],
+  "fixed_caps_bitwise_identical_across_times": true,
+  "fixed_vertex_indices_file": {
+    "file": "notes/2026-11-12-fd2d-visible-m12-fixed-vertices.npz",
+    "sha256": "60322be4ce02cfd1c2155720bd1e3572e86b906d5d58ab7e5c02b53889f1b1f3"
+  },
+  "diagnostics": {
+    "maximum_material_inverse_residual_approx": 7.993605777301127e-15,
+    "inverse_iterations": 30,
+    "maximum_sampled_absolute_chart_e": 0.8,
+    "maximum_prefix_coefficient_interval_radius_sum_approx": 1.0884900247317242e-14,
+    "maximum_independent_seam_gap_approx": 2.5438405243138006e-16,
+    "maximum_tail_coefficient_interval_radius_sum_approx": 1.0299136258426746e-16,
+    "background_cut_height_approx": 1.7713048479949847,
+    "fixed_cap_height_approx": 1.8205859521647094,
+    "background_height_max_inverse_residual_approx": 4.812122922359663e-15,
+    "background_height_max_split_difference_approx": 1.734723475976807e-17
+  },
+  "material_phase_implementation": "Theta is inverted on the uniform material grid. For these times N*t/3 is an exact integer; a cyclic grid permutation evaluates theta-alpha, followed by spatial R_alpha. Fixed cap rows are copied.",
+  "upper_cap_bumps": 3,
+  "lower_cap_bumps": 0,
+  "continuous_map_modified": false,
+  "continuous_vertex_error_certified": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "README_complete": false,
+  "seconds": 42.10358101299789
+}

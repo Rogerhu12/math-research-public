@@ -1,0 +1,132 @@
+{
+  "status": "numerical-source-jet-probe-not-a-certificate",
+  "radius": 0.5277881139390467,
+  "angularNodes": 512,
+  "scriptSHA256": "7feea756c32c31b42733e8d5569eaaa88aa77207c0de0d6271ee831170b6a442",
+  "backgroundStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+      "inputSHA256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2",
+      "nativeSteps": 64,
+      "shootingParts": 4,
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "rawLeft": 0,
+      "rawRight": 0.25,
+      "sourceXApprox": 0.02328668663582361,
+      "sourceRadiusError": -1.1102230246251565e-16,
+      "probes": [
+        {
+          "differenceStep": 0.0001,
+          "perturbationRRAtThetaZero": [
+            0.007682915903842513,
+            -7.179909263615991e-12,
+            -0.1553216991601059
+          ],
+          "backgroundWr": 1.509302033031234,
+          "fullRRAtThetaZero": [
+            0.007682915903842513,
+            -7.179909263615991e-12,
+            1.353980333871128
+          ],
+          "sourceMetric": 8.655328815071504e-12,
+          "formalHeightDarboux": 2.3838853183311848e-8
+        },
+        {
+          "differenceStep": 0.00005,
+          "perturbationRRAtThetaZero": [
+            0.007682914456381695,
+            -1.5719782024309135e-12,
+            -0.1553216991601059
+          ],
+          "backgroundWr": 1.509302033031234,
+          "fullRRAtThetaZero": [
+            0.007682914456381695,
+            -1.5719782024309135e-12,
+            1.353980333871128
+          ],
+          "sourceMetric": 8.655328815071504e-12,
+          "formalHeightDarboux": 2.3838853183311848e-8
+        },
+        {
+          "differenceStep": 0.000025,
+          "perturbationRRAtThetaZero": [
+            0.007682915134864743,
+            7.902739421401429e-12,
+            -0.1553216991601059
+          ],
+          "backgroundWr": 1.509302033031234,
+          "fullRRAtThetaZero": [
+            0.007682915134864743,
+            7.902739421401429e-12,
+            1.353980333871128
+          ],
+          "sourceMetric": 8.655328815071504e-12,
+          "formalHeightDarboux": 2.3838853183311848e-8
+        },
+        {
+          "differenceStep": 0.0000125,
+          "perturbationRRAtThetaZero": [
+            0.007682918541831896,
+            -8.513600170791038e-11,
+            -0.1553216991601059
+          ],
+          "backgroundWr": 1.509302033031234,
+          "fullRRAtThetaZero": [
+            0.007682918541831896,
+            -8.513600170791038e-11,
+            1.353980333871128
+          ],
+          "sourceMetric": 8.655328815071504e-12,
+          "formalHeightDarboux": 2.3838853183311848e-8
+        },
+        {
+          "differenceStep": 0.00000625,
+          "perturbationRRAtThetaZero": [
+            0.007682907555135898,
+            -9.408988267248144e-11,
+            -0.1553216991601059
+          ],
+          "backgroundWr": 1.509302033031234,
+          "fullRRAtThetaZero": [
+            0.007682907555135898,
+            -9.408988267248144e-11,
+            1.353980333871128
+          ],
+          "sourceMetric": 8.655328815071504e-12,
+          "formalHeightDarboux": 2.3838853183311848e-8
+        }
+      ],
+      "nearestSourceBreakpointDistance": null
+    }
+  ]
+}

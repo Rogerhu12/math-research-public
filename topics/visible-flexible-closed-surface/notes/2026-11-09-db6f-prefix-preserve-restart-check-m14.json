@@ -1,0 +1,77 @@
+{
+  "scope": "Check saved-mesh initialization without solving or changing a physical BVP.\n\nChecks exact signed-mode placement, gauge scaling, retained physical nodes,\nthe explicit inlet adjustment, and rejection of changed physical input.\nThe numerical checks do not certify any solution of the nonlinear equations.\n",
+  "checkpoint": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+  "checkpoint_sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b",
+  "script_sha256": "1a761b7be72c7b48bfa3216c0607f07825b253f68972cf0633f6f2e710b830a7",
+  "all_passed": true,
+  "checks": [
+    {
+      "modes": 14,
+      "angular": 256,
+      "passed": true,
+      "physical_mode_padding_error_outside_inlet": 0.0,
+      "whole_profile_difference": 1.4946834900704541e-16,
+      "inlet_coefficient_residual": 0.0,
+      "maximum_physical_saved_node_displacement": 4.440892098500626e-16,
+      "changed_metric_rejected": true,
+      "initializer": {
+        "method": "saved-adaptive-mesh-and-exact-signed-mode-padding",
+        "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+        "source_sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b",
+        "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+        "fixed_inputs_checked": [
+          "angular_chart",
+          "chart",
+          "frozen_profile",
+          "physical_tail_parameters",
+          "physical_tail_cut",
+          "warp_reference_q"
+        ],
+        "old_modes": 14,
+        "new_modes": 14,
+        "old_nodes": 2633,
+        "new_nodes": 2633,
+        "numerical_merge_tolerance": 2e-13,
+        "minimum_numerical_span": 2.1515810365135835e-05,
+        "physical_gauge_ratio": 1.0,
+        "inlet_correction_coefficient_l1": 2.7452487852463932e-15,
+        "inlet_correction_physical_l1": 2.7452487852463933e-16,
+        "scope": "Fixed-metric warm restart on the saved adaptive radial mesh.\n\nThis only constructs an initial guess. Mode padding and gauge rescaling\npreserve the old represented nonmean Fourier profile before the explicit\ninlet correction; the mean height is recomputed by the solver.\nThe nonlinear BVP and actual-DN acceptance tests remain unchanged.\n"
+      }
+    },
+    {
+      "modes": 16,
+      "angular": 256,
+      "passed": true,
+      "physical_mode_padding_error_outside_inlet": 0.0,
+      "whole_profile_difference": 8.446784383053796e-10,
+      "inlet_coefficient_residual": 0.0,
+      "maximum_physical_saved_node_displacement": 4.440892098500626e-16,
+      "changed_metric_rejected": true,
+      "initializer": {
+        "method": "saved-adaptive-mesh-and-exact-signed-mode-padding",
+        "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+        "source_sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b",
+        "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+        "fixed_inputs_checked": [
+          "angular_chart",
+          "chart",
+          "frozen_profile",
+          "physical_tail_parameters",
+          "physical_tail_cut",
+          "warp_reference_q"
+        ],
+        "old_modes": 14,
+        "new_modes": 16,
+        "old_nodes": 2633,
+        "new_nodes": 2633,
+        "numerical_merge_tolerance": 2e-13,
+        "minimum_numerical_span": 2.1515810365135835e-05,
+        "physical_gauge_ratio": 1.0,
+        "inlet_correction_coefficient_l1": 8.45325762332556e-09,
+        "inlet_correction_physical_l1": 8.45325762332556e-10,
+        "scope": "Fixed-metric warm restart on the saved adaptive radial mesh.\n\nThis only constructs an initial guess. Mode padding and gauge rescaling\npreserve the old represented nonmean Fourier profile before the explicit\ninlet correction; the mean height is recomputed by the solver.\nThe nonlinear BVP and actual-DN acceptance tests remain unchanged.\n"
+      }
+    }
+  ]
+}

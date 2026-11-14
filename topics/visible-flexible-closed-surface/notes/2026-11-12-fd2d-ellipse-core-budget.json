@@ -1,0 +1,208 @@
+{
+  "theorem": "R113",
+  "variant": "original",
+  "source_sha256": "ec4ef40ed06f95290c487cdcd8f446247924a4616cc2396b6434ea93754d60d8",
+  "status": "proved_fixed_caps_and_conditional_global_grafting",
+  "nonlinear_active_core_solved": false,
+  "complete_problem_solution": false,
+  "parameters": {
+    "ellipse_long_semiaxis": {
+      "fraction": "7/5",
+      "float": 1.4
+    },
+    "ellipse_short_semiaxis": {
+      "fraction": "9/20",
+      "float": 0.45
+    },
+    "R": {
+      "fraction": "17/125",
+      "float": 0.136
+    },
+    "neck_lambda": {
+      "fraction": "1/100",
+      "float": 0.01
+    },
+    "neck_radius": {
+      "fraction": "3/10",
+      "float": 0.3
+    },
+    "cuff_radius": {
+      "fraction": "8/25",
+      "float": 0.32
+    },
+    "epsilon": {
+      "fraction": "1/10000",
+      "float": 0.0001
+    },
+    "mollifier_radius": {
+      "fraction": "1/1000000",
+      "float": 1e-06
+    },
+    "base_square_halfwidth": {
+      "fraction": "220001/500000",
+      "float": 0.440002
+    },
+    "side_marker_radius": {
+      "fraction": "137/100",
+      "float": 1.37
+    },
+    "side_marker_height": {
+      "fraction": "17/10",
+      "float": 1.7
+    },
+    "top_marker_height": {
+      "fraction": "2249/1000",
+      "float": 2.249
+    },
+    "whole_ball_radius": {
+      "fraction": "9/4",
+      "float": 2.25
+    },
+    "active_halfwidth": {
+      "fraction": "3/4",
+      "float": 0.75
+    }
+  },
+  "exact_bounds": {
+    "core_minimum_curve_radius": {
+      "fraction": "81/560",
+      "float": 0.14464285714285716
+    },
+    "core_axis_gap": {
+      "fraction": "19/20",
+      "float": 0.95
+    },
+    "maximum_whole_diameter": {
+      "fraction": "9/2",
+      "float": 4.5
+    },
+    "neck_minimum_radius": {
+      "fraction": "504/3125",
+      "float": 0.16128
+    },
+    "collar_width": {
+      "fraction": "1/50",
+      "float": 0.02
+    },
+    "base_flat_disk_margin": {
+      "fraction": "4001/1000000",
+      "float": 0.004001
+    },
+    "side_ball_squared_margin": {
+      "fraction": "5581721/100000000",
+      "float": 0.05581721
+    },
+    "square_ball_squared_margin": {
+      "fraction": "148921211249/125000000000",
+      "float": 1.191369689992
+    },
+    "top_ball_margin": {
+      "fraction": "9/10000",
+      "float": 0.0009
+    },
+    "body_bottom_height": {
+      "fraction": "15639/10000",
+      "float": 1.5639
+    },
+    "fixed_cap_x_halfwidth_upper": {
+      "fraction": "288051/500000",
+      "float": 0.576102
+    },
+    "polygon_inradius_condition": {
+      "fraction": "28797/10000",
+      "float": 2.8797
+    },
+    "ideal_marker_inradius_squared": {
+      "fraction": "919681/959225",
+      "float": 0.9587750527769814
+    },
+    "ideal_marker_inradius_lower_margin": {
+      "fraction": "12817271/38369000000",
+      "float": 0.0003340527769814173
+    },
+    "marker_position_error": {
+      "fraction": "1/10000",
+      "float": 0.0001
+    },
+    "grip_diameter_lower": {
+      "fraction": "22489/5000",
+      "float": 4.4978
+    },
+    "cuff_height_strict_lower": {
+      "fraction": "450669/350000",
+      "float": 1.2876257142857144
+    },
+    "cuff_height_strict_upper": {
+      "fraction": "64459/50000",
+      "float": 1.28918
+    },
+    "held_over_D_lower_if_active_input": {
+      "fraction": "19/90",
+      "float": 0.2111111111111111
+    },
+    "deltaE_over_D_strict_lower_if_active_input": {
+      "fraction": "763/15000",
+      "float": 0.050866666666666664
+    },
+    "reach_over_D_lower_if_active_input": {
+      "fraction": "34/1125",
+      "float": 0.030222222222222223
+    }
+  },
+  "numerical_readings_not_certificates": {
+    "neck_integral": 2.396280469471185,
+    "integral_error": 2.660405750666489e-15,
+    "cuff_height": 1.2886410585615193,
+    "core_metric_a0": 0.9870588543320331,
+    "mean_radius_quadrature_error": 3.8445571226487436e-14,
+    "ideal_marker_inradius": 0.9791705943179572,
+    "normalized_support_coefficients": [
+      {
+        "mode": 2,
+        "normalized_support_coefficient": 0.4647936794035897,
+        "quadrature_reported_error": 3.133433100037591e-14
+      },
+      {
+        "mode": 4,
+        "normalized_support_coefficient": -0.057520947577930165,
+        "quadrature_reported_error": 2.5715000716137757e-14
+      },
+      {
+        "mode": 6,
+        "normalized_support_coefficient": 0.014487909087288474,
+        "quadrature_reported_error": 2.819415396422046e-14
+      },
+      {
+        "mode": 8,
+        "normalized_support_coefficient": -0.004595039969054278,
+        "quadrature_reported_error": 1.445986405435571e-14
+      },
+      {
+        "mode": 10,
+        "normalized_support_coefficient": 0.0016384783046534332,
+        "quadrature_reported_error": 1.4099388267768645e-14
+      },
+      {
+        "mode": 12,
+        "normalized_support_coefficient": -0.0006273643705859612,
+        "quadrature_reported_error": 1.4022202664009388e-14
+      },
+      {
+        "mode": 14,
+        "normalized_support_coefficient": 0.0002520087339807318,
+        "quadrature_reported_error": 1.4035046470070027e-14
+      },
+      {
+        "mode": 16,
+        "normalized_support_coefficient": -0.00010478142910759338,
+        "quadrature_reported_error": 1.4249029602720125e-14
+      }
+    ]
+  },
+  "missing_inputs": [
+    "actual common-g elliptic or controlled-nearby active core",
+    "actual all-phase reach >= .136 before grafting",
+    "whole active ball, height, halfwidth, and held protection inequalities",
+    "new physical tail nonlinear matching and complete collar closure"
+  ]
+}

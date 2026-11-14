@@ -1,0 +1,36 @@
+{
+  "status": "INDEPENDENT_ENDPOINT_V2_FULL_REVIEW_CLOSED",
+  "observer": "/root/tail_review_continued",
+  "recorded_utc": "2026-11-09T20:43:17.250327+00:00",
+  "operations": [
+    {
+      "kind": "author_symbolic_program_independent_replay",
+      "tool_receipt": "99c8e8",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.895995366,
+      "identities": 39,
+      "byte_identical_to_author": true,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-degenerate-flat-endpoint-symbolics-v2-replay.json",
+        "bytes": 2020,
+        "sha256": "32d213fe01441ed44cd69d611c6bf7b3a89715f73430c949a0d248fb92a98a39"
+      }
+    },
+    {
+      "kind": "different_Cartesian_basis_and_jet_symbol_algebra",
+      "tool_receipt": "f7e246",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.472325844,
+      "identities": 51,
+      "sources": 13,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-degenerate-flat-endpoint-independent.json",
+        "bytes": 6369,
+        "sha256": "a4163b7fb6ec240febf0bdf69898be655af6fc2589c3034021fbfe835d700ee4"
+      }
+    }
+  ],
+  "full_analytic_proofs_reviewed_separately": true,
+  "candidate_read": false,
+  "ODE_PDE_BVP_DN_RK_or_geometry_backend_calls": 0
+}

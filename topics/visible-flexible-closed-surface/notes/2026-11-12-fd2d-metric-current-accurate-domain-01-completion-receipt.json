@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 1030,
+  "initial_chunk_id": "6a0a2f",
+  "final_chunk_id": "d076db",
+  "actual_exit_code": 0,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-current-accurate-domain-01-report.json",
+    "bytes": 63879,
+    "sha256": "353098cedb957d6f1afb973c01d363c6d8fb0b152c54fc584703a4d83c10129e"
+  },
+  "source": {
+    "path": "scripts/fd2d-metric-current-accurate-domain-check.py",
+    "bytes": 9413,
+    "sha256": "b4a2070d1a33b9c4d4363351b084898aa0527fc89ce8a19e43c3add290d6b5b1"
+  },
+  "seconds": 0.6937043269972492,
+  "peak_rss_kib": 92796,
+  "passed": true,
+  "scope": "small full accurate-domain composition and normalized true-length primitive; no full-domain certificate"
+}

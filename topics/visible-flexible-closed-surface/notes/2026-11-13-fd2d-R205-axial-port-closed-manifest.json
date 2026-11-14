@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-R202-R205-axial-port-corollary-closed-v1",
+  "artifacts": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-R205-axial-port-orientation-check.cjs",
+      "bytes": 3600,
+      "sha256": "2e8b314a4ba33ffdf97ab2182efdba8715a3e538f85e8f9b89a2542c1d357310",
+      "commit": "48cb8172849104de13fbb124c0480e770ded7cc8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-axial-port-orientation.md",
+      "bytes": 6176,
+      "sha256": "e0d9d10f9ccb677cfaa817ad7e35f90bd62f8eb6a434cae5e1ce1fe4017309b1",
+      "commit": "bc2bed62d8ce2fa73865bc6b1d36a7f82bdb26ac"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-axial-port-orientation-01.json",
+      "bytes": 5377,
+      "sha256": "0a82a9c294c32ea5a80855225647cea58b8bb19aa4d2191df78478b41a60677f",
+      "commit": "aedb201419a70e1d103f5cc07516432403a60a13"
+    }
+  ],
+  "mathematicalScope": "Complete D2 reflection-axis proof: R205 tail bends the minor-axis port; the major-axis cut endpoint and tangent are unchanged for every amplitude. R202 necessary length condition retains precisely its original hypotheses. General nonreflection R201 fields are not excluded.",
+  "actualScope": "Actual frozen R205 A=.25 step8 state; endpoint-only consumer. No F/J/normal/body or solver.",
+  "input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-eight-accepted-04.json",
+    "sha256": "f95abce8124c3b5a85da839a0e6d4370ffcdfa40e13011d9d5e0d1408d940bc6",
+    "commit": "4e5e40653d96efbbdeba2b3791a48eb2c399fce0"
+  },
+  "execution": {
+    "runtime": "pure V8 JavaScript",
+    "elapsedMilliseconds": 3059,
+    "completed": true,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "publication": {
+    "fallback": "root README section 8; only small UTF8 text; no PAT",
+    "apiConflict409Observed": true,
+    "literalPullAttempt": {
+      "operation": "git pull --rebase origin main",
+      "processStarted": false,
+      "pullCompleted": false,
+      "error": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+    },
+    "rootReadmeBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicReadmeBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "rulesChanged": false,
+    "APIReadIsNotPull": true
+  },
+  "continuousNumericalCertificate": false,
+  "strongTargetComplete": false
+}

@@ -1,0 +1,108 @@
+{
+  "status": "PASS-method-rational-inclusion-and-complete-replay",
+  "source_script_sha256": "ccd59bc42f6685e38229b5425e52c18d08437a43ddbd5073e55e93561a6a0bef",
+  "source_note_sha256": "074b8a146559b8cddd29ebf2196fffd69a81c43a5a44b3279f99675d3a63d81e",
+  "input_packet_sha256": "ce9df0fd9fef64217566d455c8005b1d385062db08b3735aa0fcef13cb7b6688",
+  "output_packet_sha256": "5bf1d6723e4bfd71a286faeeadf872e10ac715997396f5fd7f47922658173ec2",
+  "replay_packet_sha256": "f47682de3a09dfe55445997a91575bc50a03cdba7e39ed029b825ee0f0c1e2ca",
+  "all_output_arrays_identical": true,
+  "all_non_w_arrays_bitwise_unchanged": true,
+  "all_other_w_rows_bitwise_unchanged": true,
+  "total_rows": 736,
+  "changed_rows": [
+    {
+      "row": 142,
+      "span": 2998,
+      "exact_corner_distance_check": true,
+      "exact_constant_inclusion_check": true,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    },
+    {
+      "row": 261,
+      "span": 3115,
+      "exact_corner_distance_check": true,
+      "exact_constant_inclusion_check": true,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    },
+    {
+      "row": 495,
+      "span": 3262,
+      "exact_corner_distance_check": true,
+      "exact_constant_inclusion_check": true,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    },
+    {
+      "row": 620,
+      "span": 3379,
+      "exact_corner_distance_check": true,
+      "exact_constant_inclusion_check": true,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    }
+  ],
+  "inner_derivative_rational_inequality_checked": true,
+  "uniform_m12_sensitivity_rows_sha256": "f3bddef11a611bf4d51093e987ae9e11e27c4810904fd2ebe2b6738da83f3c07",
+  "six_former_working_width_misses": [
+    {
+      "span": 2998,
+      "row": 142,
+      "delta_w_upper": 2.9451609317998617e-08,
+      "sensitivity_upper": 2.8184639716430624e-07,
+      "metric_uncertainty_budget_upper": 8.300829976968621e-15,
+      "below_two_e_minus_ten": true
+    },
+    {
+      "span": 3115,
+      "row": 261,
+      "delta_w_upper": 3.0186203755361296e-08,
+      "sensitivity_upper": 2.902296918028454e-07,
+      "metric_uncertainty_budget_upper": 8.760932612616405e-15,
+      "below_two_e_minus_ten": true
+    },
+    {
+      "span": 3129,
+      "row": 311,
+      "delta_w_upper": 1.2976763476003813e-06,
+      "sensitivity_upper": 6.32562649469588e-07,
+      "metric_uncertainty_budget_upper": 8.208615885921152e-13,
+      "below_two_e_minus_ten": true
+    },
+    {
+      "span": 3246,
+      "row": 447,
+      "delta_w_upper": 1.2768351934969691e-06,
+      "sensitivity_upper": 6.885320922278813e-06,
+      "metric_uncertainty_budget_upper": 8.791420072086598e-12,
+      "below_two_e_minus_ten": true
+    },
+    {
+      "span": 3262,
+      "row": 495,
+      "delta_w_upper": 1.456774197453048e-08,
+      "sensitivity_upper": 6.765599265930391e-06,
+      "metric_uncertainty_budget_upper": 9.855950440914677e-14,
+      "below_two_e_minus_ten": true
+    },
+    {
+      "span": 3379,
+      "row": 620,
+      "delta_w_upper": 2.9158535912177097e-08,
+      "sensitivity_upper": 6.981804612353007e-06,
+      "metric_uncertainty_budget_upper": 2.0357920052109887e-13,
+      "below_two_e_minus_ten": true
+    }
+  ],
+  "scope": "Point packages for the same frozen g. Sensitivity budget is for M12 uniform only; no complete metric residual, adaptive-grid bound, curvature or G5 claim.",
+  "script_sha256": "99a15c453502e854cf95e53c0129c408cde277660fc471953d6e47b9d55ef0e6"
+}

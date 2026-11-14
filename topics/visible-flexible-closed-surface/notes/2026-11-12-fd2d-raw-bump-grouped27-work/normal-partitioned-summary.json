@@ -1,0 +1,3660 @@
+{
+  "schema": "fd2d-complete-durable-partitioned-normal-v1",
+  "binding": {
+    "schema": "fd2d-durable-merged-normal-binding-v1",
+    "common": {
+      "schema": "fd2d-R165-durable-partitioned-normal-common-binding-v1",
+      "field_and_finite_objective": {
+        "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1",
+        "input_npz_sha256": "4c6f9980ca6d03cdfc2b3442cf2eac4e548f3c1e83ae66a74590a2950c40e1a0",
+        "input_npz_bytes": 130530,
+        "packed_vector": {
+          "shape": [
+            12499
+          ],
+          "dtype": "<f8",
+          "sha256": "675ff9fb9a370ae61ccbfddc95d68bf26709a5ea0f5f04c34d703d4b24821597"
+        },
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+        "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+        "mathematical_settings": {
+          "gap": 0.9,
+          "modes": 31,
+          "curvature_cap": 7.2,
+          "curvature_weight": 1.0,
+          "high_gauss_weight": 1.0,
+          "high_codazzi_weight": 1.0,
+          "minimum_active_n": 0.05,
+          "interior_gauss_weight": 1.0,
+          "reference_rim_fraction": 0.12,
+          "radius_floor": 0.1,
+          "interior_cells": [
+            63,
+            64,
+            65,
+            74,
+            75,
+            76,
+            123,
+            124
+          ]
+        },
+        "actual_saved_definition_arrays": {
+          "mesh": {
+            "shape": [
+              131
+            ],
+            "dtype": "<f8",
+            "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+          },
+          "modes": {
+            "shape": [],
+            "dtype": "<i8",
+            "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+          },
+          "profile_supports": {
+            "shape": [
+              7,
+              2
+            ],
+            "dtype": "<f8",
+            "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+          },
+          "profile_count": {
+            "shape": [],
+            "dtype": "<i8",
+            "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+          },
+          "fixed_base_T": {
+            "shape": [],
+            "dtype": "<f8",
+            "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+          },
+          "profile_kind": {
+            "shape": [],
+            "dtype": "<U14",
+            "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+          },
+          "tail_kind": {
+            "shape": [],
+            "dtype": "<U18",
+            "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+          },
+          "base_kind": {
+            "shape": [],
+            "dtype": "<U13",
+            "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+          },
+          "candidate_sha256": {
+            "shape": [],
+            "dtype": "<U64",
+            "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+          },
+          "blend": {
+            "shape": [
+              2
+            ],
+            "dtype": "<f8",
+            "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+          },
+          "seed_weight_definition": {
+            "shape": [],
+            "dtype": "<U66",
+            "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+          },
+          "representation_kind": {
+            "shape": [],
+            "dtype": "<U71",
+            "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+          },
+          "central_field_definition": {
+            "shape": [],
+            "dtype": "<U275",
+            "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+          },
+          "targeted_mesh_definition": {
+            "shape": [],
+            "dtype": "<U12990",
+            "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+          },
+          "coast_reference_definition": {
+            "shape": [],
+            "dtype": "<U929",
+            "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+          },
+          "angular_atlas_definition": {
+            "shape": [],
+            "dtype": "<U2325",
+            "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+          },
+          "atlas_mesh_definition": {
+            "shape": [],
+            "dtype": "<U5151",
+            "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+          },
+          "reference_evaluation_definition": {
+            "shape": [],
+            "dtype": "<U904",
+            "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+          },
+          "finite_radial_scheme": {
+            "shape": [],
+            "dtype": "<U256",
+            "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+          },
+          "gauss_l_definition": {
+            "shape": [],
+            "dtype": "<U1489",
+            "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+          },
+          "inactive_l_raw_nodes": {
+            "shape": [
+              9
+            ],
+            "dtype": "<i8",
+            "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+          },
+          "positive_trace_definition": {
+            "shape": [],
+            "dtype": "<U1389",
+            "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+          },
+          "inactive_raw_trace_nodes": {
+            "shape": [
+              4
+            ],
+            "dtype": "<i8",
+            "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+          },
+          "trace_gauge_pairs": {
+            "shape": [
+              128,
+              2
+            ],
+            "dtype": "<i8",
+            "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+          },
+          "tail_parameter_count": {
+            "shape": [],
+            "dtype": "<i8",
+            "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+          },
+          "central_parameter_count": {
+            "shape": [],
+            "dtype": "<i8",
+            "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+          },
+          "nested_angular_definition": {
+            "shape": [],
+            "dtype": "<U650",
+            "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+          },
+          "angular_embedding_definition": {
+            "shape": [],
+            "dtype": "<U1482",
+            "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+          },
+          "radial_refinement_definition": {
+            "shape": [],
+            "dtype": "<U29230",
+            "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+          },
+          "finite_interior_rows_definition": {
+            "shape": [],
+            "dtype": "<U684",
+            "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+          },
+          "parent_finite_interior_rows_definition": {
+            "shape": [],
+            "dtype": "<U663",
+            "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+          },
+          "grouped_goal_preparation": {
+            "shape": [],
+            "dtype": "<U919",
+            "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+          },
+          "radial_mesh_rebind_definition": {
+            "shape": [],
+            "dtype": "<U25689",
+            "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+          },
+          "finite_grouped_coast_rule_definition": {
+            "shape": [],
+            "dtype": "<U775",
+            "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+          }
+        },
+        "implementation_sources": {
+          "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+          "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+          "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+          "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+          "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+          "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+          "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+          "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+          "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+          "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+          "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+          "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+          "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+          "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+          "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+          "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+          "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+          "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+          "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+          "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+          "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+          "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+          "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+          "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+          "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+          "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+          "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+          "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+          "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+          "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+          "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+          "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+          "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+          "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+          "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+          "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+          "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+          "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+          "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+          "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+          "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+          "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+          "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+          "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+          "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+          "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+          "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+          "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+          "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+          "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+          "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+          "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+        },
+        "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+        "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+        "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+        "damping_and_search_floor_not_part_of_normal_identity": true,
+        "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+        "grouped_rule_definition": {
+          "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+          "consumer_source": {
+            "name": "fd2d_gc_grouped_coast_codazzi.py",
+            "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+            "bytes": 21332
+          },
+          "fine_order": 8,
+          "point_batch": 2,
+          "old_point_gauss_diagnostic_order": 2,
+          "support": [
+            0.5919999999999992,
+            0.8675434451024153
+          ],
+          "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+          "known_lifting_change_not_separately_evaluated": true,
+          "outside_coast_consumer_unchanged": true,
+          "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+        }
+      },
+      "actual_value_residual": {
+        "shape": [
+          51491
+        ],
+        "dtype": "<f8",
+        "sha256": "c0bbcc8eb83f799fa3b1500e7ba6c144f49415c712be65f097afaed4de5da2e1"
+      },
+      "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+      "partition_sources": {
+        "fd2d_gc_grouped_coast_partitioned_normal.py": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "fd2d_gc_grouped_coast_stream_normal.py": "ad127ceab9a5b592d2784806abbb730f4d1996a5d3110e1b3620dfc6160f219d",
+        "fd2d-gc-grouped-stage-normal-tile-batch.py": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf",
+        "fd2d-gc-grouped-stage-normal-merge.py": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5",
+        "fd2d_gc_grouped_normal_tile_io.py": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1",
+        "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+      },
+      "partition_changes_only_floating_sum_grouping": true
+    },
+    "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+    "ordered_tile_ids": [
+      "0000-nodes",
+      "0001-nodes",
+      "0002-nodes",
+      "0003-nodes",
+      "0004-nodes",
+      "0005-nodes",
+      "0006-nodes",
+      "0007-nodes",
+      "0008-nodes",
+      "0009-cells",
+      "0010-cells",
+      "0011-cells",
+      "0012-cells",
+      "0013-cells",
+      "0014-cells",
+      "0015-cells",
+      "0016-cells",
+      "0017-cells",
+      "0018-cells",
+      "0019-cells",
+      "0020-cells",
+      "0021-cells",
+      "0022-cells",
+      "0023-cells",
+      "0024-cells",
+      "0025-cells",
+      "0026-cells",
+      "0027-cells",
+      "0028-cells",
+      "0029-cells",
+      "0030-cells",
+      "0031-cells",
+      "0032-cells",
+      "0033-cells",
+      "0034-cells",
+      "0035-cells",
+      "0036-cells",
+      "0037-cells",
+      "0038-cells",
+      "0039-cells",
+      "0040-cells",
+      "0041-cells",
+      "0042-boundary",
+      "0043-interior",
+      "0044-interior",
+      "0045-interior",
+      "0046-interior",
+      "0047-interior",
+      "0048-interior",
+      "0049-interior",
+      "0050-interior"
+    ]
+  },
+  "normal_manifest": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partitioned/manifest.json",
+    "bytes": 454048,
+    "sha256": "1c4c90913a26d4b3248d781286feb040164631c0ec01568f6cfe7afa1316a753"
+  },
+  "normal_information": {
+    "schema": "fd2d-R159-ordered-normal-tile-sum-v1",
+    "complete": true,
+    "full_finite_objective": true,
+    "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+    "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+    "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+    "state_binding": {
+      "vector_identity": {
+        "shape": [
+          12499
+        ],
+        "dtype": "<f8",
+        "bytes": 99992,
+        "sha256": "675ff9fb9a370ae61ccbfddc95d68bf26709a5ea0f5f04c34d703d4b24821597"
+      },
+      "settings": {
+        "curvature_cap": 7.2,
+        "curvature_weight": 1.0,
+        "high_gauss_weight": 1.0,
+        "high_codazzi_weight": 1.0,
+        "interior_gauss_weight": 1.0,
+        "order": 2,
+        "block_cells": 2
+      },
+      "cell_consumer": {
+        "module": "fd2d_gc_grouped_coast_codazzi",
+        "qualified_name": "gauss_cell_positive_trace_grouped_coast",
+        "source_sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+      },
+      "opaque_binding": {
+        "actual_value_residual": {
+          "dtype": "<f8",
+          "sha256": "c0bbcc8eb83f799fa3b1500e7ba6c144f49415c712be65f097afaed4de5da2e1",
+          "shape": [
+            51491
+          ]
+        },
+        "field_and_finite_objective": {
+          "actual_saved_definition_arrays": {
+            "angular_atlas_definition": {
+              "dtype": "<U2325",
+              "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6",
+              "shape": []
+            },
+            "angular_embedding_definition": {
+              "dtype": "<U1482",
+              "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f",
+              "shape": []
+            },
+            "atlas_mesh_definition": {
+              "dtype": "<U5151",
+              "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410",
+              "shape": []
+            },
+            "base_kind": {
+              "dtype": "<U13",
+              "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032",
+              "shape": []
+            },
+            "blend": {
+              "dtype": "<f8",
+              "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239",
+              "shape": [
+                2
+              ]
+            },
+            "candidate_sha256": {
+              "dtype": "<U64",
+              "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4",
+              "shape": []
+            },
+            "central_field_definition": {
+              "dtype": "<U275",
+              "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9",
+              "shape": []
+            },
+            "central_parameter_count": {
+              "dtype": "<i8",
+              "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+              "shape": []
+            },
+            "coast_reference_definition": {
+              "dtype": "<U929",
+              "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50",
+              "shape": []
+            },
+            "finite_grouped_coast_rule_definition": {
+              "dtype": "<U775",
+              "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31",
+              "shape": []
+            },
+            "finite_interior_rows_definition": {
+              "dtype": "<U684",
+              "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef",
+              "shape": []
+            },
+            "finite_radial_scheme": {
+              "dtype": "<U256",
+              "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3",
+              "shape": []
+            },
+            "fixed_base_T": {
+              "dtype": "<f8",
+              "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454",
+              "shape": []
+            },
+            "gauss_l_definition": {
+              "dtype": "<U1489",
+              "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d",
+              "shape": []
+            },
+            "grouped_goal_preparation": {
+              "dtype": "<U919",
+              "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4",
+              "shape": []
+            },
+            "inactive_l_raw_nodes": {
+              "dtype": "<i8",
+              "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3",
+              "shape": [
+                9
+              ]
+            },
+            "inactive_raw_trace_nodes": {
+              "dtype": "<i8",
+              "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc",
+              "shape": [
+                4
+              ]
+            },
+            "mesh": {
+              "dtype": "<f8",
+              "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8",
+              "shape": [
+                131
+              ]
+            },
+            "modes": {
+              "dtype": "<i8",
+              "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+              "shape": []
+            },
+            "nested_angular_definition": {
+              "dtype": "<U650",
+              "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a",
+              "shape": []
+            },
+            "parent_finite_interior_rows_definition": {
+              "dtype": "<U663",
+              "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e",
+              "shape": []
+            },
+            "positive_trace_definition": {
+              "dtype": "<U1389",
+              "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc",
+              "shape": []
+            },
+            "profile_count": {
+              "dtype": "<i8",
+              "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534",
+              "shape": []
+            },
+            "profile_kind": {
+              "dtype": "<U14",
+              "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767",
+              "shape": []
+            },
+            "profile_supports": {
+              "dtype": "<f8",
+              "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d",
+              "shape": [
+                7,
+                2
+              ]
+            },
+            "radial_mesh_rebind_definition": {
+              "dtype": "<U25689",
+              "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397",
+              "shape": []
+            },
+            "radial_refinement_definition": {
+              "dtype": "<U29230",
+              "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c",
+              "shape": []
+            },
+            "reference_evaluation_definition": {
+              "dtype": "<U904",
+              "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94",
+              "shape": []
+            },
+            "representation_kind": {
+              "dtype": "<U71",
+              "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d",
+              "shape": []
+            },
+            "seed_weight_definition": {
+              "dtype": "<U66",
+              "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d",
+              "shape": []
+            },
+            "tail_kind": {
+              "dtype": "<U18",
+              "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1",
+              "shape": []
+            },
+            "tail_parameter_count": {
+              "dtype": "<i8",
+              "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d",
+              "shape": []
+            },
+            "targeted_mesh_definition": {
+              "dtype": "<U12990",
+              "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47",
+              "shape": []
+            },
+            "trace_gauge_pairs": {
+              "dtype": "<i8",
+              "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111",
+              "shape": [
+                128,
+                2
+              ]
+            }
+          },
+          "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+          "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+          "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+          "damping_and_search_floor_not_part_of_normal_identity": true,
+          "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+          "grouped_rule_definition": {
+            "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+            "consumer_source": {
+              "bytes": 21332,
+              "name": "fd2d_gc_grouped_coast_codazzi.py",
+              "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+            },
+            "fine_order": 8,
+            "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+            "known_lifting_change_not_separately_evaluated": true,
+            "old_point_gauss_diagnostic_order": 2,
+            "outside_coast_consumer_unchanged": true,
+            "point_batch": 2,
+            "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+            "support": [
+              0.5919999999999992,
+              0.8675434451024153
+            ]
+          },
+          "implementation_sources": {
+            "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+            "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+            "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+            "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+            "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+            "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+            "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+            "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+            "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+            "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+            "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+            "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+            "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+            "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+            "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+            "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+            "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+            "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+            "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+            "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+            "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+            "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+            "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+            "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+            "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+            "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+            "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+            "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+            "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+            "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+            "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+            "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+            "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+            "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+            "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+            "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+            "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+            "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+            "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+            "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+            "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+            "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+            "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+            "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+            "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+            "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+            "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+            "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+            "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+            "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+            "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+            "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+          },
+          "input_npz_bytes": 130530,
+          "input_npz_sha256": "4c6f9980ca6d03cdfc2b3442cf2eac4e548f3c1e83ae66a74590a2950c40e1a0",
+          "mathematical_settings": {
+            "curvature_cap": 7.2,
+            "curvature_weight": 1.0,
+            "gap": 0.9,
+            "high_codazzi_weight": 1.0,
+            "high_gauss_weight": 1.0,
+            "interior_cells": [
+              63,
+              64,
+              65,
+              74,
+              75,
+              76,
+              123,
+              124
+            ],
+            "interior_gauss_weight": 1.0,
+            "minimum_active_n": 0.05,
+            "modes": 31,
+            "radius_floor": 0.1,
+            "reference_rim_fraction": 0.12
+          },
+          "packed_vector": {
+            "dtype": "<f8",
+            "sha256": "675ff9fb9a370ae61ccbfddc95d68bf26709a5ea0f5f04c34d703d4b24821597",
+            "shape": [
+              12499
+            ]
+          },
+          "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+          "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+          "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1"
+        },
+        "partition_changes_only_floating_sum_grouping": true,
+        "partition_sources": {
+          "fd2d-gc-grouped-stage-normal-merge.py": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5",
+          "fd2d-gc-grouped-stage-normal-tile-batch.py": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf",
+          "fd2d_gc_grouped_coast_partitioned_normal.py": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+          "fd2d_gc_grouped_coast_stream_normal.py": "ad127ceab9a5b592d2784806abbb730f4d1996a5d3110e1b3620dfc6160f219d",
+          "fd2d_gc_grouped_normal_tile_io.py": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1",
+          "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+        },
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+        "schema": "fd2d-R165-durable-partitioned-normal-common-binding-v1"
+      },
+      "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367"
+    },
+    "state_binding_sha256": "8d4954134415b20e28736bb085491bc6e6bd48b472f4942ae8ab8682bbb97baa",
+    "consumed_tiles": [
+      {
+        "id": "0000-nodes",
+        "ordinal": 0,
+        "rows": 2064,
+        "local_blocks": 48,
+        "residual_squared": 0.90766835605512,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0001-nodes",
+        "ordinal": 1,
+        "rows": 2064,
+        "local_blocks": 48,
+        "residual_squared": 1.9837240133317608,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0002-nodes",
+        "ordinal": 2,
+        "rows": 2064,
+        "local_blocks": 48,
+        "residual_squared": 2.048053072931627,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0003-nodes",
+        "ordinal": 3,
+        "rows": 2064,
+        "local_blocks": 48,
+        "residual_squared": 0.4908680365802474,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0004-nodes",
+        "ordinal": 4,
+        "rows": 645,
+        "local_blocks": 26,
+        "residual_squared": 0.7847168329051627,
+        "row_groups": {
+          "node_G": 160,
+          "node_high_G": 485,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0005-nodes",
+        "ordinal": 5,
+        "rows": 2064,
+        "local_blocks": 48,
+        "residual_squared": 2.13100696137041,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0006-nodes",
+        "ordinal": 6,
+        "rows": 2602,
+        "local_blocks": 48,
+        "residual_squared": 0.9355194092411068,
+        "row_groups": {
+          "node_G": 512,
+          "node_high_G": 1552,
+          "node_curvature": 538
+        }
+      },
+      {
+        "id": "0007-nodes",
+        "ordinal": 7,
+        "rows": 2361,
+        "local_blocks": 42,
+        "residual_squared": 1.4669264537824975,
+        "row_groups": {
+          "node_G": 416,
+          "node_high_G": 1261,
+          "node_curvature": 684
+        }
+      },
+      {
+        "id": "0008-nodes",
+        "ordinal": 8,
+        "rows": 0,
+        "local_blocks": 3,
+        "residual_squared": 0.0,
+        "row_groups": {
+          "node_curvature": 0
+        }
+      },
+      {
+        "id": "0009-cells",
+        "ordinal": 9,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 3.15841666944121e-29,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0010-cells",
+        "ordinal": 10,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 5.5858977272296485e-30,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0011-cells",
+        "ordinal": 11,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.11669521944207317,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0012-cells",
+        "ordinal": 12,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.13601911036836456,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0013-cells",
+        "ordinal": 13,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.14232338800710057,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0014-cells",
+        "ordinal": 14,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.13272478016010597,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0015-cells",
+        "ordinal": 15,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.1225966370308082,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0016-cells",
+        "ordinal": 16,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.07459000466924147,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0017-cells",
+        "ordinal": 17,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.10253594754366975,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0018-cells",
+        "ordinal": 18,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.09193372251088676,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0019-cells",
+        "ordinal": 19,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.0862161258293399,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0020-cells",
+        "ordinal": 20,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.05594034680933322,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0021-cells",
+        "ordinal": 21,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.05155962675594512,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0022-cells",
+        "ordinal": 22,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.008610410557061524,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0023-cells",
+        "ordinal": 23,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.008667736453904982,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0024-cells",
+        "ordinal": 24,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.21244220065446165,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0025-cells",
+        "ordinal": 25,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 1.4410716427953827,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0026-cells",
+        "ordinal": 26,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 2.8020229087863733,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0027-cells",
+        "ordinal": 27,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 2.734414771244884,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0028-cells",
+        "ordinal": 28,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.5086735058357966,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0029-cells",
+        "ordinal": 29,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.5430711708815503,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0030-cells",
+        "ordinal": 30,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.3704097823727777,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0031-cells",
+        "ordinal": 31,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.015017678522147812,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0032-cells",
+        "ordinal": 32,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.04626059204590213,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0033-cells",
+        "ordinal": 33,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.22892641977163847,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0034-cells",
+        "ordinal": 34,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 1.1788332149267966,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0035-cells",
+        "ordinal": 35,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.6021152591588659,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0036-cells",
+        "ordinal": 36,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.7739009233631323,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0037-cells",
+        "ordinal": 37,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.3265313743966776,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0038-cells",
+        "ordinal": 38,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.13060869128881625,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0039-cells",
+        "ordinal": 39,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 0.2350483752202786,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0040-cells",
+        "ordinal": 40,
+        "rows": 1024,
+        "local_blocks": 8,
+        "residual_squared": 6.006495491614774,
+        "row_groups": {
+          "cell_C": 252,
+          "cell_high_C": 772
+        }
+      },
+      {
+        "id": "0041-cells",
+        "ordinal": 41,
+        "rows": 512,
+        "local_blocks": 4,
+        "residual_squared": 8.582688767883937,
+        "row_groups": {
+          "cell_C": 126,
+          "cell_high_C": 386
+        }
+      },
+      {
+        "id": "0042-boundary",
+        "ordinal": 42,
+        "rows": 159,
+        "local_blocks": 4,
+        "residual_squared": 1.8789113014887415e-08,
+        "row_groups": {
+          "cut_l": 32,
+          "central_boundary": 63,
+          "cut_nm": 63,
+          "gap": 1
+        }
+      },
+      {
+        "id": "0043-interior",
+        "ordinal": 43,
+        "rows": 262,
+        "local_blocks": 3,
+        "residual_squared": 0.4434909576555369,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 4
+        }
+      },
+      {
+        "id": "0044-interior",
+        "ordinal": 44,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 0.22432943220049364,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0045-interior",
+        "ordinal": 45,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 4.949521819892952e-34,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0046-interior",
+        "ordinal": 46,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 3.408745538288515e-33,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0047-interior",
+        "ordinal": 47,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 0.13745164807637666,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0048-interior",
+        "ordinal": 48,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 0.335501998344433,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0049-interior",
+        "ordinal": 49,
+        "rows": 258,
+        "local_blocks": 3,
+        "residual_squared": 0.025011368851119743,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 0
+        }
+      },
+      {
+        "id": "0050-interior",
+        "ordinal": 50,
+        "rows": 314,
+        "local_blocks": 3,
+        "residual_squared": 0.01285066022354238,
+        "row_groups": {
+          "interior_retained": 64,
+          "interior_high": 194,
+          "interior_curvature": 56
+        }
+      }
+    ],
+    "rows": 51491,
+    "local_blocks": 647,
+    "row_groups": {
+      "node_G": 3648,
+      "node_high_G": 11058,
+      "node_curvature": 1222,
+      "cell_C": 8190,
+      "cell_high_C": 25090,
+      "cut_l": 32,
+      "central_boundary": 63,
+      "cut_nm": 63,
+      "gap": 1,
+      "interior_retained": 512,
+      "interior_high": 1552,
+      "interior_curvature": 60
+    },
+    "residual_squared": 39.79606504724058,
+    "unscaled_normal_storage_bytes": 21344072,
+    "seconds": 36.66530468500059,
+    "iterator_consumed_in_original_group_order": true,
+    "all_planned_rows_covered_exactly_once": true,
+    "whole_tall_J_stored": false,
+    "scaling_or_damping_applied": false,
+    "complete_normal_created_only_after_all_tiles": true,
+    "floating_reduction_order_changed": true,
+    "floating_bit_identity_claimed": false,
+    "exact_arithmetic_finite_normal_unchanged": true,
+    "actual_complete_value_objective_squared": 39.79606504724054,
+    "merged_normal_residual_squared": 39.79606504724058,
+    "actual_objective_squared_difference": 4.263256414560601e-14
+  },
+  "complete_plan": {
+    "schema": "fd2d-R159-exact-row-partition-v1",
+    "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+    "dimensions": {
+      "nodes": 131,
+      "q": 95,
+      "parameters": 54,
+      "modes": 31,
+      "work": 512
+    },
+    "mesh_identity": {
+      "shape": [
+        131
+      ],
+      "dtype": "<f8",
+      "bytes": 1048,
+      "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+    },
+    "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+    "node_block": 16,
+    "cell_block": 4,
+    "interior_block": 1,
+    "interior_cells": [
+      63,
+      64,
+      65,
+      74,
+      75,
+      76,
+      123,
+      124
+    ],
+    "row_order": [
+      "nodes",
+      "cells",
+      "boundary",
+      "interior"
+    ],
+    "tiles": [
+      {
+        "id": "0000-nodes",
+        "ordinal": 0,
+        "kind": "nodes",
+        "node_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0001-nodes",
+        "ordinal": 1,
+        "kind": "nodes",
+        "node_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0002-nodes",
+        "ordinal": 2,
+        "kind": "nodes",
+        "node_indices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0003-nodes",
+        "ordinal": 3,
+        "kind": "nodes",
+        "node_indices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0004-nodes",
+        "ordinal": 4,
+        "kind": "nodes",
+        "node_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0005-nodes",
+        "ordinal": 5,
+        "kind": "nodes",
+        "node_indices": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0006-nodes",
+        "ordinal": 6,
+        "kind": "nodes",
+        "node_indices": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0007-nodes",
+        "ordinal": 7,
+        "kind": "nodes",
+        "node_indices": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0008-nodes",
+        "ordinal": 8,
+        "kind": "nodes",
+        "node_indices": [
+          128,
+          129,
+          130
+        ],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0009-cells",
+        "ordinal": 9,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0010-cells",
+        "ordinal": 10,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0011-cells",
+        "ordinal": 11,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0012-cells",
+        "ordinal": 12,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0013-cells",
+        "ordinal": 13,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0014-cells",
+        "ordinal": 14,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0015-cells",
+        "ordinal": 15,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0016-cells",
+        "ordinal": 16,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          28,
+          29,
+          30,
+          31
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0017-cells",
+        "ordinal": 17,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0018-cells",
+        "ordinal": 18,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0019-cells",
+        "ordinal": 19,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0020-cells",
+        "ordinal": 20,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0021-cells",
+        "ordinal": 21,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          48,
+          49,
+          50,
+          51
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0022-cells",
+        "ordinal": 22,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0023-cells",
+        "ordinal": 23,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0024-cells",
+        "ordinal": 24,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          60,
+          61,
+          62,
+          63
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0025-cells",
+        "ordinal": 25,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0026-cells",
+        "ordinal": 26,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          68,
+          69,
+          70,
+          71
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0027-cells",
+        "ordinal": 27,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          72,
+          73,
+          74,
+          75
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0028-cells",
+        "ordinal": 28,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          76,
+          77,
+          78,
+          79
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0029-cells",
+        "ordinal": 29,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0030-cells",
+        "ordinal": 30,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0031-cells",
+        "ordinal": 31,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0032-cells",
+        "ordinal": 32,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          92,
+          93,
+          94,
+          95
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0033-cells",
+        "ordinal": 33,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0034-cells",
+        "ordinal": 34,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0035-cells",
+        "ordinal": 35,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          104,
+          105,
+          106,
+          107
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0036-cells",
+        "ordinal": 36,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          108,
+          109,
+          110,
+          111
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0037-cells",
+        "ordinal": 37,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          112,
+          113,
+          114,
+          115
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0038-cells",
+        "ordinal": 38,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0039-cells",
+        "ordinal": 39,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0040-cells",
+        "ordinal": 40,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          124,
+          125,
+          126,
+          127
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0041-cells",
+        "ordinal": 41,
+        "kind": "cells",
+        "node_indices": [],
+        "cell_indices": [
+          128,
+          129
+        ],
+        "include_boundary": false,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0042-boundary",
+        "ordinal": 42,
+        "kind": "boundary",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": true,
+        "interior_cells": [],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0043-interior",
+        "ordinal": 43,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          63
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0044-interior",
+        "ordinal": 44,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          64
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0045-interior",
+        "ordinal": 45,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          65
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0046-interior",
+        "ordinal": 46,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          74
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0047-interior",
+        "ordinal": 47,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          75
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0048-interior",
+        "ordinal": 48,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          76
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0049-interior",
+        "ordinal": 49,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          123
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      },
+      {
+        "id": "0050-interior",
+        "ordinal": 50,
+        "kind": "interior",
+        "node_indices": [],
+        "cell_indices": [],
+        "include_boundary": false,
+        "interior_cells": [
+          124
+        ],
+        "mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+        "mesh_identity": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "bytes": 1048,
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "dimensions": {
+          "nodes": 131,
+          "q": 95,
+          "parameters": 54,
+          "modes": 31,
+          "work": 512
+        },
+        "partition_source_sha256": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+      }
+    ],
+    "finite_objective_changed": false,
+    "scaling_or_damping_applied": false,
+    "floating_bit_identity_of_regrouped_sum_claimed": false,
+    "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858"
+  },
+  "tile_records": [
+    {
+      "id": "0000-nodes",
+      "ordinal": 0,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0000-nodes/manifest.json",
+        "bytes": 718949,
+        "sha256": "dad87d2488260f01e0c2a3ac1885895755a8d0918a3ca6f9ca2a6454201d151d"
+      },
+      "rows": 2064,
+      "residual_squared": 0.90766835605512
+    },
+    {
+      "id": "0001-nodes",
+      "ordinal": 1,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0001-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "213462f8f9869c2a8d44db658874c6096617aec815177227fc8ae619035292e4"
+      },
+      "rows": 2064,
+      "residual_squared": 1.9837240133317608
+    },
+    {
+      "id": "0002-nodes",
+      "ordinal": 2,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0002-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "90a816aa2d601f58c3e42087c7f1e7dd4c4cc390d17000d7f4e058e04826650c"
+      },
+      "rows": 2064,
+      "residual_squared": 2.048053072931627
+    },
+    {
+      "id": "0003-nodes",
+      "ordinal": 3,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0003-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "22ff06287ec099c2cd940304070c849997730db5dbcb7014c57acef145b4d45d"
+      },
+      "rows": 2064,
+      "residual_squared": 0.4908680365802474
+    },
+    {
+      "id": "0004-nodes",
+      "ordinal": 4,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0004-nodes/manifest.json",
+        "bytes": 702604,
+        "sha256": "85b05684ba27af3d17f2426fbdc14054ddb7316715da0b57942d3d27c7ab7b83"
+      },
+      "rows": 645,
+      "residual_squared": 0.7847168329051627
+    },
+    {
+      "id": "0005-nodes",
+      "ordinal": 5,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0005-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "b5140acddfee8930c890ec7d411e8c15794694caf0bad57a222dfd947a995473"
+      },
+      "rows": 2064,
+      "residual_squared": 2.13100696137041
+    },
+    {
+      "id": "0006-nodes",
+      "ordinal": 6,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0006-nodes/manifest.json",
+        "bytes": 719094,
+        "sha256": "d7a5e3051313c335001462e82045fa6a519523f4822198aa21950b918bead5ac"
+      },
+      "rows": 2602,
+      "residual_squared": 0.9355194092411068
+    },
+    {
+      "id": "0007-nodes",
+      "ordinal": 7,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0007-nodes/manifest.json",
+        "bytes": 714638,
+        "sha256": "a94405502045b6dcf8de0fccf16058d0f17ba84be53790f93522e3b39585b660"
+      },
+      "rows": 2361,
+      "residual_squared": 1.4669264537824975
+    },
+    {
+      "id": "0008-nodes",
+      "ordinal": 8,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0008-nodes/manifest.json",
+        "bytes": 682433,
+        "sha256": "fbd12d060a99497e315333fe32ab91ea65b0f2ec74231c9ad4fe9624a086913f"
+      },
+      "rows": 0,
+      "residual_squared": 0.0
+    },
+    {
+      "id": "0009-cells",
+      "ordinal": 9,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0009-cells/manifest.json",
+        "bytes": 687533,
+        "sha256": "8575407ed2df6f70a92b6555aade9f91e06298a770b34a8b361dcfa61cce7b2b"
+      },
+      "rows": 1024,
+      "residual_squared": 3.15841666944121e-29
+    },
+    {
+      "id": "0010-cells",
+      "ordinal": 10,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0010-cells/manifest.json",
+        "bytes": 687535,
+        "sha256": "c49cf00bcabb98d32fc9d8897fbafc050a9568e225452a39784996e2aa9d8a13"
+      },
+      "rows": 1024,
+      "residual_squared": 5.5858977272296485e-30
+    },
+    {
+      "id": "0011-cells",
+      "ordinal": 11,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0011-cells/manifest.json",
+        "bytes": 687551,
+        "sha256": "d572816a79385773e6fc346f45502154105cc6ca9cca94b8760756043453b7f8"
+      },
+      "rows": 1024,
+      "residual_squared": 0.11669521944207317
+    },
+    {
+      "id": "0012-cells",
+      "ordinal": 12,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0012-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "5e4c457a08a78c0e2b4d93a5a5a14da77aa2576da9193c8215e03039672d9dfe"
+      },
+      "rows": 1024,
+      "residual_squared": 0.13601911036836456
+    },
+    {
+      "id": "0013-cells",
+      "ordinal": 13,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0013-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "acd6b835b495b32f7227b2eb94d283cb282416813b246391f6aefc4010d7189a"
+      },
+      "rows": 1024,
+      "residual_squared": 0.14232338800710057
+    },
+    {
+      "id": "0014-cells",
+      "ordinal": 14,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0014-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "9018b76e3df9165b52a637341ec08412b2ea67718670ac32ec2bbade2f949ab5"
+      },
+      "rows": 1024,
+      "residual_squared": 0.13272478016010597
+    },
+    {
+      "id": "0015-cells",
+      "ordinal": 15,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0015-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "20100332ce2b33a3f12c49bff8e4edaf4da67634efc21e3feff7badc2eccbc90"
+      },
+      "rows": 1024,
+      "residual_squared": 0.1225966370308082
+    },
+    {
+      "id": "0016-cells",
+      "ordinal": 16,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0016-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "a9d11c991e3f74ec04d83714e6a9e2572df120d50b6f11dc4e0fcb5f1baee746"
+      },
+      "rows": 1024,
+      "residual_squared": 0.07459000466924147
+    },
+    {
+      "id": "0017-cells",
+      "ordinal": 17,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0017-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "4055eb8c161173c116dc104fd69960be645c17e1197a87b1b77971c465a2ae51"
+      },
+      "rows": 1024,
+      "residual_squared": 0.10253594754366975
+    },
+    {
+      "id": "0018-cells",
+      "ordinal": 18,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0018-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "3bd2f9f2392a768c2078a0f3fc7c5cda5ae8cc03ffb8faefe2618350139a064c"
+      },
+      "rows": 1024,
+      "residual_squared": 0.09193372251088676
+    },
+    {
+      "id": "0019-cells",
+      "ordinal": 19,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0019-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "c6322a89db76720e6e1e8d8cb0e022bb8ef18388c321ad8a083beddc22010803"
+      },
+      "rows": 1024,
+      "residual_squared": 0.0862161258293399
+    },
+    {
+      "id": "0020-cells",
+      "ordinal": 20,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0020-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "e86b0885384bd8a0d02de43778eb8796d418b2fe317d5acc468e3dd7fcaf566a"
+      },
+      "rows": 1024,
+      "residual_squared": 0.05594034680933322
+    },
+    {
+      "id": "0021-cells",
+      "ordinal": 21,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0021-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "926887af5ccc5b38792a4ac33d58027eef003e75b284da5da662ce35a27acca7"
+      },
+      "rows": 1024,
+      "residual_squared": 0.05155962675594512
+    },
+    {
+      "id": "0022-cells",
+      "ordinal": 22,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0022-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "e066b9aca3d945303f650423f2e60b8c1bd10a037679e50595aab16c45bf17fa"
+      },
+      "rows": 1024,
+      "residual_squared": 0.008610410557061524
+    },
+    {
+      "id": "0023-cells",
+      "ordinal": 23,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0023-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "2d17ebe6c93585f695b3d633b8f5d792fbc9ed1e7bae00f267e450a10d2a96e9"
+      },
+      "rows": 1024,
+      "residual_squared": 0.008667736453904982
+    },
+    {
+      "id": "0024-cells",
+      "ordinal": 24,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0024-cells/manifest.json",
+        "bytes": 695249,
+        "sha256": "5c8e1d79c2df5d3f302a1cb21eb2cc6a8622c2b3142db555655f2ed4fe9300ea"
+      },
+      "rows": 1024,
+      "residual_squared": 0.21244220065446165
+    },
+    {
+      "id": "0025-cells",
+      "ordinal": 25,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0025-cells/manifest.json",
+        "bytes": 721733,
+        "sha256": "69983a70591f5e3eb0df29760161740362e79316e8708483f80323423ae6b81d"
+      },
+      "rows": 1024,
+      "residual_squared": 1.4410716427953827
+    },
+    {
+      "id": "0026-cells",
+      "ordinal": 26,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0026-cells/manifest.json",
+        "bytes": 717854,
+        "sha256": "3baa1907fb54ba4949599831294278e4fd657b5061a3bbfdcc3e0c07f18df1ef"
+      },
+      "rows": 1024,
+      "residual_squared": 2.8020229087863733
+    },
+    {
+      "id": "0027-cells",
+      "ordinal": 27,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0027-cells/manifest.json",
+        "bytes": 717857,
+        "sha256": "3d50da54ce13d980d785bad6184d7b1149efc6b5577b0a35ddd02aa924c43d8e"
+      },
+      "rows": 1024,
+      "residual_squared": 2.734414771244884
+    },
+    {
+      "id": "0028-cells",
+      "ordinal": 28,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0028-cells/manifest.json",
+        "bytes": 695249,
+        "sha256": "773c874724b469c14ffc9edfd55241df0966b7fd0fc404952141351b6c557f64"
+      },
+      "rows": 1024,
+      "residual_squared": 0.5086735058357966
+    },
+    {
+      "id": "0029-cells",
+      "ordinal": 29,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0029-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "f0fe5c2eac222af23d005ea0795410f4092874a137132f811366ce2e73ee4b55"
+      },
+      "rows": 1024,
+      "residual_squared": 0.5430711708815503
+    },
+    {
+      "id": "0030-cells",
+      "ordinal": 30,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0030-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "415ceed16d0fee1ef15cbf78cb1857c63254da917829e0d76ae4a1af56c2d08b"
+      },
+      "rows": 1024,
+      "residual_squared": 0.3704097823727777
+    },
+    {
+      "id": "0031-cells",
+      "ordinal": 31,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0031-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "a49719b5f77d8b68508cc7b08a820ccbbfbe3c2a4a0917d529c84d0ba0b05ce5"
+      },
+      "rows": 1024,
+      "residual_squared": 0.015017678522147812
+    },
+    {
+      "id": "0032-cells",
+      "ordinal": 32,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0032-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "ead39d0aa58b75a83cd5f58cafb4c4dce8c27e299e27f70f409c8ba3d3ab069b"
+      },
+      "rows": 1024,
+      "residual_squared": 0.04626059204590213
+    },
+    {
+      "id": "0033-cells",
+      "ordinal": 33,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0033-cells/manifest.json",
+        "bytes": 687565,
+        "sha256": "2c96c9ca27056ff00c76f4768ba376a9146ec74ff8fe2233cce50a7e903b4caf"
+      },
+      "rows": 1024,
+      "residual_squared": 0.22892641977163847
+    },
+    {
+      "id": "0034-cells",
+      "ordinal": 34,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0034-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "6e361efd09c34e2e0b0a220255be9063116430da3d866d2af985f37a6131550f"
+      },
+      "rows": 1024,
+      "residual_squared": 1.1788332149267966
+    },
+    {
+      "id": "0035-cells",
+      "ordinal": 35,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0035-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "27c121bd748c86051b42779d233ce0c2d1fbe4ee37865cd579d28295482f8f67"
+      },
+      "rows": 1024,
+      "residual_squared": 0.6021152591588659
+    },
+    {
+      "id": "0036-cells",
+      "ordinal": 36,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0036-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "b8efaec74bc6ea324c9189677916acf865f7b461c869180e0f3925fecd8ce078"
+      },
+      "rows": 1024,
+      "residual_squared": 0.7739009233631323
+    },
+    {
+      "id": "0037-cells",
+      "ordinal": 37,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0037-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "60872ba1667d72305b706fabf9dc25e61df2699db7ab4dc5fd5ab1262d3a4062"
+      },
+      "rows": 1024,
+      "residual_squared": 0.3265313743966776
+    },
+    {
+      "id": "0038-cells",
+      "ordinal": 38,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0038-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "8f3ae5e582538eeb57696dc314ebb2a0e997e83803ee761c4b2f3e7b25d5407f"
+      },
+      "rows": 1024,
+      "residual_squared": 0.13060869128881625
+    },
+    {
+      "id": "0039-cells",
+      "ordinal": 39,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0039-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "2e8d6a09063648012b4ba19f5e77e910ff932e6b1d443979bbfa5b48ee5a7ce3"
+      },
+      "rows": 1024,
+      "residual_squared": 0.2350483752202786
+    },
+    {
+      "id": "0040-cells",
+      "ordinal": 40,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0040-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "1c15988610c5a2d8d781134cbc57fcb439aa3689d6a638459dd59a020b7a37e0"
+      },
+      "rows": 1024,
+      "residual_squared": 6.006495491614774
+    },
+    {
+      "id": "0041-cells",
+      "ordinal": 41,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0041-cells/manifest.json",
+        "bytes": 683743,
+        "sha256": "6c6fc5caa2a3c0f256504fc8e2d6771f158f7e5754b4b88e01b181901db0618e"
+      },
+      "rows": 512,
+      "residual_squared": 8.582688767883937
+    },
+    {
+      "id": "0042-boundary",
+      "ordinal": 42,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0042-boundary/manifest.json",
+        "bytes": 683150,
+        "sha256": "072efef3f593a098746b56a029b68e1162e71d8b2928c32a03f98e384e976638"
+      },
+      "rows": 159,
+      "residual_squared": 1.8789113014887415e-08
+    },
+    {
+      "id": "0043-interior",
+      "ordinal": 43,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0043-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "94688f17307b6fdbdc81e95f50735d0a54e56de9166af8b3b1f9d4c46fec7184"
+      },
+      "rows": 262,
+      "residual_squared": 0.4434909576555369
+    },
+    {
+      "id": "0044-interior",
+      "ordinal": 44,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0044-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "49b38878ad3355ec9aa6a5647ea3deb8a59f843d8a6b4a3e19e234a5767a517c"
+      },
+      "rows": 258,
+      "residual_squared": 0.22432943220049364
+    },
+    {
+      "id": "0045-interior",
+      "ordinal": 45,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0045-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "09fabd937508c9576e6f504fec2cfdea24b2a3564d18ce2b48fd16575a4d2ba5"
+      },
+      "rows": 258,
+      "residual_squared": 4.949521819892952e-34
+    },
+    {
+      "id": "0046-interior",
+      "ordinal": 46,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0046-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "71d751fff36fb24e4fc67539ba20be4d84fae28070fa7a38ae5ae6d804ff9a51"
+      },
+      "rows": 258,
+      "residual_squared": 3.408745538288515e-33
+    },
+    {
+      "id": "0047-interior",
+      "ordinal": 47,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0047-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "9a39e516f2da8dd89f4172a0c979a5512df2bb7b18584e8415c1958a023141fe"
+      },
+      "rows": 258,
+      "residual_squared": 0.13745164807637666
+    },
+    {
+      "id": "0048-interior",
+      "ordinal": 48,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0048-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "9350fca638498bfe3a4329017f71c4f64ab53efd84c6b30c819eb2a27d543b4a"
+      },
+      "rows": 258,
+      "residual_squared": 0.335501998344433
+    },
+    {
+      "id": "0049-interior",
+      "ordinal": 49,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0049-interior/manifest.json",
+        "bytes": 380370,
+        "sha256": "d5a2631ec5a879816e1b6ce296dc7809f7ceb1161d5239820867808cc231faf7"
+      },
+      "rows": 258,
+      "residual_squared": 0.025011368851119743
+    },
+    {
+      "id": "0050-interior",
+      "ordinal": 50,
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0050-interior/manifest.json",
+        "bytes": 380374,
+        "sha256": "c78fd4e99827ab76e4d099e895effbdfc1bc3d58efa628d62c89a0fd81d23042"
+      },
+      "rows": 314,
+      "residual_squared": 0.01285066022354238
+    }
+  ],
+  "rows": 51491,
+  "residual_squared": 39.79606504724058,
+  "actual_value_objective_squared": 39.79606504724054,
+  "objective_squared_difference": 4.263256414560601e-14,
+  "recovered_complete_normal": false,
+  "F_or_J_recomputed_during_merge": false,
+  "only_one_tile_plus_total_retained": true
+}

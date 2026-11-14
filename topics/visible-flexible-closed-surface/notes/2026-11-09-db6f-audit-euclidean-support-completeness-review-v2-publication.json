@@ -1,0 +1,25 @@
+{
+  "status": "CLOSED_LATEX_ESCAPING_CORRECTION_ONLY",
+  "current_review": {
+    "path": "notes/2026-11-09-db6f-audit-euclidean-support-completeness-review-v2.md",
+    "bytes": 10148,
+    "sha256": "8c81f293cea99baecd8d82395be2a1e575c4754067b8c4bc34aa6ce45ab2cc8d"
+  },
+  "historical_review_preserved": {
+    "path": "notes/2026-11-09-db6f-audit-euclidean-support-completeness-review.md",
+    "sha256": "404baaf1a806dbfcb8ba7777b739a7b561b32eb92adfc3609e46be42a32ff4ab"
+  },
+  "historical_publication_preserved_sha256": "acb4ca6a1a809073b96122e1653f28f8d3d12fc33fc1c12df5535cf22cdc8120",
+  "unchanged_math_review_record_sha256": "b14cea475df7ba61184092d6dd3e6059306a0e56adff799203e71018c5565b4a",
+  "author_manuscript_unchanged_sha256": "7c70b4b7fed7a8b9077dfd2c372b8cbd8d2bae8c097b93923d9df54f8512a1b2",
+  "erratum": "The old review rendering lost LaTeX backslashes and converted two command starts into tabs and two into line breaks during nested source-string transport. This version restores the intended formulas only; the proof judgments and all non-math bytes are unchanged.",
+  "math_fragments_repaired": 36,
+  "all_nonmath_bytes_unchanged": true,
+  "math_fragment_count_unchanged": true,
+  "control_characters_except_LF": 0,
+  "tabs_anywhere": 0,
+  "carriage_returns_anywhere": 0,
+  "unescaped_known_latex_command_tokens_in_math": 0,
+  "mathematical_conclusions_changed": false,
+  "new_candidate_or_solver_computation": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 21449,
+  "initial_chunk_id": "1617a1",
+  "final_chunk_id": "21912f",
+  "actual_exit_code": 0,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-current-initial-compatibility-01-report.json",
+    "bytes": 10167,
+    "sha256": "ccbc4c5b840fa441e53e9534f97c18ecd0a9a84fe798570b5b6d10a0ad2192ec"
+  },
+  "source": {
+    "path": "scripts/fd2d_gc_current_initial_compatibility.py",
+    "bytes": 7471,
+    "sha256": "4798015e22dc7d335cd7eb6b96c1d0f57b3bfc5a2a2d1ab2c3e9e7c5c205cca6"
+  },
+  "seconds": 1.5715151870026602,
+  "peak_rss_kib": 92596,
+  "passed": true,
+  "receipt_written_after_environment_resume": true,
+  "original_process_repeated": false,
+  "scope": "Actual already-completed small interval computation; no whole F/J/BVP/body"
+}

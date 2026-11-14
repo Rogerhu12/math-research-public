@@ -1,0 +1,262 @@
+{
+  "schema": "fd2d-fixed-raw-P1-ruling-coast-positive-n-Arb-v1",
+  "actual_execution": true,
+  "inputs": {
+    "field": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+      "bytes": 127034,
+      "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+    },
+    "candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "inlet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+      "bytes": 68907,
+      "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+    },
+    "ruling_proof": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-angular-certificate-01.json",
+      "bytes": 441519,
+      "sha256": "78c4d96178f127b69343c09ec9deada1c3712b0db4919a68fc9180ce67f5d9e7"
+    },
+    "moments": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    }
+  },
+  "sources": {
+    "fd2d_coast_positive_n_certificate.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_coast_positive_n_certificate.py",
+      "bytes": 18751,
+      "sha256": "812a565fc71d7d70ba2cde334bc47103b701b689c82576438274ebe8f07c4825"
+    },
+    "fd2d_k0_ruling_angular_certificate.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_angular_certificate.py",
+      "bytes": 6479,
+      "sha256": "447ea6a33550c376db941cb0c7f3c4a2b4024a7bdc068d201f844916a5d81cb3"
+    },
+    "fd2d_gc_positive_trace_native_field_v2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    },
+    "fd2d_gc_ruling_atlas_native_field.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_ruling_atlas_native_field.py",
+      "bytes": 12040,
+      "sha256": "b1dec2e31de3fe8cb496653456c2f75d4175e243444d76efe0701d348df5f363"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_frozen_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    },
+    "fd2d_k0_native_gc.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_k0_native_gc.py",
+      "bytes": 9495,
+      "sha256": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+    },
+    "fd2d_gc_raw_bump_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    "fd2d_gc_archive_arrays.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_archive_arrays.py",
+      "bytes": 4139,
+      "sha256": "a2727d5c0a7cf0fea298ac6d055025b515fcaf1feab81f69eb1c29ea2afa6eea"
+    }
+  },
+  "precision_bits": 160,
+  "flint_version": "0.9.0",
+  "definition": {
+    "exact_input_coefficient_semantics": "Each saved binary64 is its exact dyadic rational; no fitting or field reset.",
+    "complete_field_identity": "n = raw_P1 + (1-w)*eta*kappa(a_delta(s)*sin(U))*cos(U)^2 + w*n_ref",
+    "lower_function": "raw_P1 + w*n_ref",
+    "seed_zero_on_closed_coast": true,
+    "terminal_trace_zero_on_closed_coast": true,
+    "tail_parameter_minimum_exact": [
+      "3420568940858695",
+      "187072209578355573530071658587684226515959365500928"
+    ],
+    "tail_nonnegative_reason": "eta>=0, nonnegative Bernstein controls, clipped kappa>=0, and cos(U)^2>=0",
+    "physical_profile_and_material_inverse_not_evaluated": true,
+    "physical_target_GC_solution_inferred": false,
+    "original_coast_definition": {
+      "accurate_reference_GC_applies_only_to_base_delta_zero": true,
+      "angular_chart_fixed_across_unknown_parameters": true,
+      "lifting": "(1-w)*old_seed_tail_lifting+w*frozen_native_reference",
+      "original_physical_g_changed": false,
+      "reference": {
+        "a_c": 1.029181699754392,
+        "binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+        "cached_jets_dtype": "binary64",
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+        "component_order": [
+          "n",
+          "m",
+          "l"
+        ],
+        "inverse_tolerance": 2e-13,
+        "physical_coast": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "schema": "fd2d-frozen-R139-coast-reference-v1",
+        "v": 0.2587478542495509
+      },
+      "reference_parameters_frozen": true,
+      "rim_fraction": 0.12,
+      "support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "target_defects_and_target_profile_derivatives_not_omitted": true,
+      "weight": "S5((s-entry)/rim)*S5((exit-s)/rim), each argument clipped to [0,1]"
+    },
+    "actual_rim_exact": [
+      "4765199449680475",
+      "144115188075855872"
+    ],
+    "endpoint_minus_entry_minus_stored_length_exact": [
+      "1",
+      "18014398509481984"
+    ],
+    "endpoint_rounding_handling": "Enclose the union of sigma=s-entry over the whole stored support and the stored endpoint sigma=L. At exit the multiplying coast weight is exactly zero.",
+    "angular_symmetry": "Both n_raw and n_ref are even and pi-periodic; [0,pi/2] covers the complete circle by exact D2 reflection.",
+    "original_atlas_source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+    "original_reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+    "frozen_full_physical_parameter_sha256": "585e83a515163cfb451419be99c278855b71f3c5368b6412a4c3515a5db59e2c",
+    "original_schema": "ruling_atlas_coast_Gauss_l_terminal_positive_trace_fixed_tail_degree_v1",
+    "angular_modes": 31,
+    "no_inference_for_later_accepted_fields": true
+  },
+  "radial_support_exact": [
+    [
+      "1333065489701665",
+      "2251799813685248"
+    ],
+    [
+      "1953534168045477",
+      "2251799813685248"
+    ]
+  ],
+  "initial_radial_segments": 14,
+  "original_angular_boxes": 209,
+  "interval_evaluations": 3260,
+  "accepted_boxes": 3093,
+  "unresolved_boxes": 0,
+  "maximum_radial_depth": 3,
+  "maximum_angle_depth": 3,
+  "maximum_evaluations": 16000,
+  "passed": true,
+  "minimum_accepted_box": {
+    "old_cell": 74,
+    "s_left_exact": [
+      "7636859906940819",
+      "9007199254740992"
+    ],
+    "s_right_exact": [
+      "1953534168045477",
+      "2251799813685248"
+    ],
+    "angle_left_pi_over_two": [
+      "1897",
+      "2048"
+    ],
+    "angle_right_pi_over_two": [
+      "949",
+      "1024"
+    ],
+    "radial_depth": 0,
+    "angular_depth": 0,
+    "lower_function": {
+      "lower_binary": [
+        "182198770862520850903534769371811225573291029",
+        -157
+      ],
+      "upper_binary": [
+        "411499887249568184521157691242932520620733264917",
+        -157
+      ],
+      "lower_display": 0.0009973236633262488,
+      "upper_display": 2.2524771877838097
+    },
+    "raw": {
+      "lower_binary": [
+        "129309954290145509974102298818501557",
+        -118
+      ],
+      "upper_binary": [
+        "304574761777042592891631129993141173",
+        -118
+      ],
+      "lower_display": 0.38912798917927494,
+      "upper_display": 0.9165463343922113
+    },
+    "weight": {
+      "lower_binary": [
+        "-1464515277864155526870463686458536870719",
+        -161
+      ],
+      "upper_binary": [
+        "985489461798671859560188424735565835215343722081",
+        -160
+      ],
+      "lower_display": -5.010310082644712e-10,
+      "upper_display": 0.6742992526497897
+    },
+    "reference": {
+      "lower_binary": [
+        "111400943",
+        -27
+      ],
+      "upper_binary": [
+        "1063655951",
+        -29
+      ],
+      "lower_display": 0.8300017043948174,
+      "upper_display": 1.9812135975807905
+    },
+    "D": {
+      "lower_binary": [
+        "102687979814549457233009746838641573697039",
+        -139
+      ],
+      "upper_binary": [
+        "234234041394222704490045501590249291978255",
+        -139
+      ],
+      "lower_display": 0.14735002462079588,
+      "upper_display": 0.3361093657582796
+    }
+  },
+  "accepted_only_lower_is_not_global_if_unresolved": true,
+  "unresolved_old_cells": [],
+  "unresolved_examples": [],
+  "boxes": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-coast-positive-n22-01-boxes.json.gz",
+    "bytes": 797110,
+    "sha256": "99683452fb7c420fcec03533858522e9a7a6ce209c8108bd90394633b0dab027"
+  },
+  "coverage": "The full stored closed coast times [0,pi/2], and the complete angle circle by exact D2 symmetry.",
+  "exact_unmodified_input_only": true,
+  "samples_used_for_certificate": false,
+  "no_BVP": true,
+  "no_whole_residual": true,
+  "no_Jacobian": true,
+  "no_body": true,
+  "no_frozen_reference_GC_transfer_to_modified_target_metric": true,
+  "strict_bounds_in_binary_fields": true,
+  "short_displays_not_outward_rounded": true,
+  "seconds": 18.79651432600076,
+  "peak_rss_kib": 99496
+}

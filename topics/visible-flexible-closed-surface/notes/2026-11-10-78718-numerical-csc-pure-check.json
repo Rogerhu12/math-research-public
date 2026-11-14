@@ -1,0 +1,444 @@
+{
+  "actual_original_splu_trajectory": "not performed",
+  "actual_sparse_byte_replay": "not performed",
+  "checker": {
+    "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+    "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd"
+  },
+  "complete_new_entry_authorized": false,
+  "factory_called": false,
+  "foundation": {
+    "bytes": 17550,
+    "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+  },
+  "frozen_sources": [
+    {
+      "bytes": 41294,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+      "module": "scipy.integrate._bvp",
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    {
+      "bytes": 58343,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+      "module": "scipy.sparse._base",
+      "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+    },
+    {
+      "bytes": 52058,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+      "module": "scipy.sparse._compressed",
+      "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+    },
+    {
+      "bytes": 74635,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+      "module": "scipy.sparse._coo",
+      "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+    },
+    {
+      "bytes": 11162,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+      "module": "scipy.sparse._csc",
+      "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+    },
+    {
+      "bytes": 21095,
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+      "module": "scipy.sparse._sputils",
+      "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+    }
+  ],
+  "integer_layout": {
+    "index_dtype_boundary": {
+      "actual_numpy_scipy_dtype_call": false,
+      "after_m": 499415,
+      "after_stored": 2147485900,
+      "before_m": 499414,
+      "before_stored": 2147481600,
+      "int32_max": 2147483647,
+      "non_four_byte_intc": "pinned original get_index_dtype returns int64"
+    },
+    "invalid_dimension_cases_rejected": 8,
+    "large_integer_counts_only": [
+      {
+        "direct_csc_bytes_if_int32": 261310144,
+        "float64_final_data_bytes": 173628000,
+        "k": 14,
+        "m": 5047,
+        "n": 43,
+        "size": 217035,
+        "stored": 21703500,
+        "two_old_int64_coo_index_bytes": 347256000
+      },
+      {
+        "direct_csc_bytes_if_int32": 328458428,
+        "float64_final_data_bytes": 218244800,
+        "k": 14,
+        "m": 6344,
+        "n": 43,
+        "size": 272806,
+        "stored": 27280600,
+        "two_old_int64_coo_index_bytes": 436489600
+      },
+      {
+        "direct_csc_bytes_if_int32": 336534860,
+        "float64_final_data_bytes": 223611200,
+        "k": 14,
+        "m": 6500,
+        "n": 43,
+        "size": 279514,
+        "stored": 27951400,
+        "two_old_int64_coo_index_bytes": 447222400
+      }
+    ],
+    "malformed_symbolic_layouts_rejected": 5,
+    "small_cases": [
+      {
+        "canonical": true,
+        "indptr_entries": 3,
+        "k": 0,
+        "m": 2,
+        "n": 1,
+        "size": 2,
+        "stored": 4
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 4,
+        "k": 1,
+        "m": 2,
+        "n": 1,
+        "size": 3,
+        "stored": 9
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 17,
+        "k": 14,
+        "m": 2,
+        "n": 1,
+        "size": 16,
+        "stored": 256
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 4,
+        "k": 0,
+        "m": 3,
+        "n": 1,
+        "size": 3,
+        "stored": 6
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 5,
+        "k": 1,
+        "m": 3,
+        "n": 1,
+        "size": 4,
+        "stored": 12
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 18,
+        "k": 14,
+        "m": 3,
+        "n": 1,
+        "size": 17,
+        "stored": 272
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 8,
+        "k": 0,
+        "m": 7,
+        "n": 1,
+        "size": 7,
+        "stored": 14
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 9,
+        "k": 1,
+        "m": 7,
+        "n": 1,
+        "size": 8,
+        "stored": 24
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 22,
+        "k": 14,
+        "m": 7,
+        "n": 1,
+        "size": 21,
+        "stored": 336
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 5,
+        "k": 0,
+        "m": 2,
+        "n": 2,
+        "size": 4,
+        "stored": 16
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 6,
+        "k": 1,
+        "m": 2,
+        "n": 2,
+        "size": 5,
+        "stored": 25
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 19,
+        "k": 14,
+        "m": 2,
+        "n": 2,
+        "size": 18,
+        "stored": 324
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 7,
+        "k": 0,
+        "m": 3,
+        "n": 2,
+        "size": 6,
+        "stored": 24
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 8,
+        "k": 1,
+        "m": 3,
+        "n": 2,
+        "size": 7,
+        "stored": 35
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 21,
+        "k": 14,
+        "m": 3,
+        "n": 2,
+        "size": 20,
+        "stored": 360
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 15,
+        "k": 0,
+        "m": 7,
+        "n": 2,
+        "size": 14,
+        "stored": 56
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 16,
+        "k": 1,
+        "m": 7,
+        "n": 2,
+        "size": 15,
+        "stored": 75
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 29,
+        "k": 14,
+        "m": 7,
+        "n": 2,
+        "size": 28,
+        "stored": 504
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 11,
+        "k": 0,
+        "m": 2,
+        "n": 5,
+        "size": 10,
+        "stored": 100
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 12,
+        "k": 1,
+        "m": 2,
+        "n": 5,
+        "size": 11,
+        "stored": 121
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 25,
+        "k": 14,
+        "m": 2,
+        "n": 5,
+        "size": 24,
+        "stored": 576
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 16,
+        "k": 0,
+        "m": 3,
+        "n": 5,
+        "size": 15,
+        "stored": 150
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 17,
+        "k": 1,
+        "m": 3,
+        "n": 5,
+        "size": 16,
+        "stored": 176
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 30,
+        "k": 14,
+        "m": 3,
+        "n": 5,
+        "size": 29,
+        "stored": 696
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 36,
+        "k": 0,
+        "m": 7,
+        "n": 5,
+        "size": 35,
+        "stored": 350
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 37,
+        "k": 1,
+        "m": 7,
+        "n": 5,
+        "size": 36,
+        "stored": 396
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 50,
+        "k": 14,
+        "m": 7,
+        "n": 5,
+        "size": 49,
+        "stored": 1176
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 87,
+        "k": 0,
+        "m": 2,
+        "n": 43,
+        "size": 86,
+        "stored": 7396
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 88,
+        "k": 1,
+        "m": 2,
+        "n": 43,
+        "size": 87,
+        "stored": 7569
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 101,
+        "k": 14,
+        "m": 2,
+        "n": 43,
+        "size": 100,
+        "stored": 10000
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 130,
+        "k": 0,
+        "m": 3,
+        "n": 43,
+        "size": 129,
+        "stored": 11094
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 131,
+        "k": 1,
+        "m": 3,
+        "n": 43,
+        "size": 130,
+        "stored": 11310
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 144,
+        "k": 14,
+        "m": 3,
+        "n": 43,
+        "size": 143,
+        "stored": 14300
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 302,
+        "k": 0,
+        "m": 7,
+        "n": 43,
+        "size": 301,
+        "stored": 25886
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 303,
+        "k": 1,
+        "m": 7,
+        "n": 43,
+        "size": 302,
+        "stored": 26274
+      },
+      {
+        "canonical": true,
+        "indptr_entries": 316,
+        "k": 14,
+        "m": 7,
+        "n": 43,
+        "size": 315,
+        "stored": 31500
+      }
+    ]
+  },
+  "matrix_calls": 0,
+  "runtime_callback_binding_gate": "not invoked",
+  "schema": "db6f-direct-canonical-csc-source-integer-check-v1",
+  "scope": "no scientific import; no factory, matrix, LU, linear solve or BVP",
+  "solver_calls": 0,
+  "source_replay": {
+    "construct_ast_replay": true,
+    "construct_replacements": 3,
+    "construct_text_replay": true,
+    "new_construct_sha256": "2361d669b2e6a836effb3d9db227e63ec0739a41c3894150e61badd6c9da1afd",
+    "new_prepare_sha256": "e95c8ba1141a8c3620f069af1abc6066c1a84580d6ba1d02f240f13d2b76946f",
+    "old_global_coo_construction_present": false,
+    "original_construct_sha256": "f209e18f334535a5b5fbe571ac4a875dccef89ab5b77b94977023f4b0919b916",
+    "original_prepare_sha256": "2e2a6f40f709556a98065b41491e1d90980fa68d8f0c9e59e15928732f144e54",
+    "parameter_midpoint_update_count": 1,
+    "prepare_ast_replay": true,
+    "prepare_replacements": 2,
+    "prepare_text_replay": true
+  },
+  "status": "PASS_SOURCE_AND_INTEGER_LAYOUT_ONLY"
+}

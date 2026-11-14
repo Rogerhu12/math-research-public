@@ -1,0 +1,23 @@
+{
+  "label": "thirteenth",
+  "base_commit": "bbd15325797e47e72dcfa033904d87b76eced4e5",
+  "message": "Preserve closed K31 run, honest staged-recovery checkpoint and fixed-field quadrature diagnostics",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-prepared24-static-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-prepared24-damping-source-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-explicit-plateau-refinement-closed-manifest.json",
+    "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-root-outer-cell-quadrature23b4-closed-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-prepared24-closed-manifest.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-twelfth-batch-main-receipt.json",
+    "notes/2026-11-12-fd2d-root-prepared24-observer-audit.json"
+  ],
+  "excluded": [
+    "active staged25 outputs and regenerable full normal blocks",
+    "regenerable intermediate arrays"
+  ],
+  "scope": "Actual complete 23 chain, true24 termination, same-field plateau insertion and finite quadrature diagnostics; no strong completion claim"
+}

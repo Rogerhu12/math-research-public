@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-D2-high-complement-isometric-row-compression-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_codazzi_d2.py",
+      "bytes": 11040,
+      "sha256": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756"
+    },
+    {
+      "path": "scripts/fd2d-metric-d2-compression-check.py",
+      "bytes": 10563,
+      "sha256": "6b683ed811a432099af0b1f960854ec903e271d24ea0d84c81dab4df3b3ce087"
+    },
+    {
+      "path": "results/R142-D2-isometric-high-angular-row-compression.md",
+      "bytes": 11248,
+      "sha256": "777649dfe3cb516da89c7ff68d4c6dc4fc1315894cf22c41a4920f6a6f9a031e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-d2-compression-check-01-report.json",
+      "bytes": 22085,
+      "sha256": "b354711f8440198b30a30fe7e94891ebc89807b837d5e9989cc3fcdb15d420ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-d2-compression-check-01-progress.jsonl",
+      "bytes": 1580,
+      "sha256": "876b68fd20809ca7b61e8d1b207d3cf4b15af7c3c73cfaa4778cf35e941413a6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-d2-compression-check-01-exit-receipt.json",
+      "bytes": 431,
+      "sha256": "570303332290ed825754a6daeecd6a362a266afaccf61c0cc7988d4d57729a8a"
+    }
+  ],
+  "actual_success": {
+    "session_id": 4558,
+    "chunk_id": "a5267d",
+    "exit_code": 0
+  },
+  "formal_result": "R142",
+  "old_point_helpers_unchanged": true,
+  "continuous_certificate": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false
+}

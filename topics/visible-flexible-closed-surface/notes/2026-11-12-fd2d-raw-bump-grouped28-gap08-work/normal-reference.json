@@ -1,0 +1,1376 @@
+{
+  "schema": "fd2d-explicit-derived-normal-reference-v1",
+  "finite_goal": {
+    "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1",
+    "input_npz_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+    "input_npz_bytes": 130600,
+    "packed_vector": {
+      "shape": [
+        12499
+      ],
+      "dtype": "<f8",
+      "sha256": "15db12fb1245ae4ac3824ad6adce7b8acc3aa7099f4ceda993a9f773ab1402c4"
+    },
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+    "mathematical_settings": {
+      "gap": 0.8,
+      "modes": 31,
+      "curvature_cap": 7.2,
+      "curvature_weight": 1.0,
+      "high_gauss_weight": 1.0,
+      "high_codazzi_weight": 1.0,
+      "minimum_active_n": 0.05,
+      "interior_gauss_weight": 1.0,
+      "reference_rim_fraction": 0.12,
+      "radius_floor": 0.1,
+      "interior_cells": [
+        63,
+        64,
+        65,
+        74,
+        75,
+        76,
+        123,
+        124
+      ]
+    },
+    "actual_saved_definition_arrays": {
+      "mesh": {
+        "shape": [
+          131
+        ],
+        "dtype": "<f8",
+        "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+      },
+      "modes": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+      },
+      "profile_supports": {
+        "shape": [
+          7,
+          2
+        ],
+        "dtype": "<f8",
+        "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+      },
+      "profile_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+      },
+      "fixed_base_T": {
+        "shape": [],
+        "dtype": "<f8",
+        "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+      },
+      "profile_kind": {
+        "shape": [],
+        "dtype": "<U14",
+        "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+      },
+      "tail_kind": {
+        "shape": [],
+        "dtype": "<U18",
+        "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+      },
+      "base_kind": {
+        "shape": [],
+        "dtype": "<U13",
+        "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+      },
+      "candidate_sha256": {
+        "shape": [],
+        "dtype": "<U64",
+        "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+      },
+      "blend": {
+        "shape": [
+          2
+        ],
+        "dtype": "<f8",
+        "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+      },
+      "seed_weight_definition": {
+        "shape": [],
+        "dtype": "<U66",
+        "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+      },
+      "representation_kind": {
+        "shape": [],
+        "dtype": "<U71",
+        "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+      },
+      "central_field_definition": {
+        "shape": [],
+        "dtype": "<U275",
+        "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+      },
+      "targeted_mesh_definition": {
+        "shape": [],
+        "dtype": "<U12990",
+        "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+      },
+      "coast_reference_definition": {
+        "shape": [],
+        "dtype": "<U929",
+        "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+      },
+      "angular_atlas_definition": {
+        "shape": [],
+        "dtype": "<U2325",
+        "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+      },
+      "atlas_mesh_definition": {
+        "shape": [],
+        "dtype": "<U5151",
+        "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+      },
+      "reference_evaluation_definition": {
+        "shape": [],
+        "dtype": "<U904",
+        "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+      },
+      "finite_radial_scheme": {
+        "shape": [],
+        "dtype": "<U256",
+        "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+      },
+      "gauss_l_definition": {
+        "shape": [],
+        "dtype": "<U1489",
+        "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+      },
+      "inactive_l_raw_nodes": {
+        "shape": [
+          9
+        ],
+        "dtype": "<i8",
+        "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+      },
+      "positive_trace_definition": {
+        "shape": [],
+        "dtype": "<U1389",
+        "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+      },
+      "inactive_raw_trace_nodes": {
+        "shape": [
+          4
+        ],
+        "dtype": "<i8",
+        "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+      },
+      "trace_gauge_pairs": {
+        "shape": [
+          128,
+          2
+        ],
+        "dtype": "<i8",
+        "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+      },
+      "tail_parameter_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+      },
+      "central_parameter_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+      },
+      "nested_angular_definition": {
+        "shape": [],
+        "dtype": "<U650",
+        "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+      },
+      "angular_embedding_definition": {
+        "shape": [],
+        "dtype": "<U1482",
+        "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+      },
+      "radial_refinement_definition": {
+        "shape": [],
+        "dtype": "<U29230",
+        "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+      },
+      "finite_interior_rows_definition": {
+        "shape": [],
+        "dtype": "<U684",
+        "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+      },
+      "parent_finite_interior_rows_definition": {
+        "shape": [],
+        "dtype": "<U663",
+        "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+      },
+      "grouped_goal_preparation": {
+        "shape": [],
+        "dtype": "<U919",
+        "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+      },
+      "radial_mesh_rebind_definition": {
+        "shape": [],
+        "dtype": "<U25689",
+        "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+      },
+      "finite_grouped_coast_rule_definition": {
+        "shape": [],
+        "dtype": "<U775",
+        "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+      }
+    },
+    "implementation_sources": {
+      "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+      "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+      "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+      "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+      "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+      "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+      "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+      "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+      "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+      "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+      "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+      "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+      "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+      "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+      "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+      "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+      "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+      "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+      "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+      "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+      "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+      "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+      "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+      "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+      "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+      "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+      "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+      "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+      "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+      "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+      "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+      "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+      "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+      "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+      "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+      "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+      "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+      "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+      "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+      "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+      "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+      "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+      "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+      "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+      "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+      "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+      "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+      "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+      "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+      "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    },
+    "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+    "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+    "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+    "damping_and_search_floor_not_part_of_normal_identity": true,
+    "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+    "grouped_rule_definition": {
+      "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+      "consumer_source": {
+        "name": "fd2d_gc_grouped_coast_codazzi.py",
+        "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+        "bytes": 21332
+      },
+      "fine_order": 8,
+      "point_batch": 2,
+      "old_point_gauss_diagnostic_order": 2,
+      "support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+      "known_lifting_change_not_separately_evaluated": true,
+      "outside_coast_consumer_unchanged": true,
+      "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+    }
+  },
+  "normal_manifest": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-gap08-work/normal-gap-derived/manifest.json",
+    "bytes": 649128,
+    "sha256": "970d859022c6f39986c7b9531fec353fc8463109d0250e1a4f92fa60cf760fa9"
+  },
+  "transport_binding": {
+    "schema": "fd2d-durable-single-gap-derived-normal-binding-v1",
+    "finite_goal": {
+      "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1",
+      "input_npz_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+      "input_npz_bytes": 130600,
+      "packed_vector": {
+        "shape": [
+          12499
+        ],
+        "dtype": "<f8",
+        "sha256": "15db12fb1245ae4ac3824ad6adce7b8acc3aa7099f4ceda993a9f773ab1402c4"
+      },
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "mathematical_settings": {
+        "gap": 0.8,
+        "modes": 31,
+        "curvature_cap": 7.2,
+        "curvature_weight": 1.0,
+        "high_gauss_weight": 1.0,
+        "high_codazzi_weight": 1.0,
+        "minimum_active_n": 0.05,
+        "interior_gauss_weight": 1.0,
+        "reference_rim_fraction": 0.12,
+        "radius_floor": 0.1,
+        "interior_cells": [
+          63,
+          64,
+          65,
+          74,
+          75,
+          76,
+          123,
+          124
+        ]
+      },
+      "actual_saved_definition_arrays": {
+        "mesh": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "modes": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "profile_supports": {
+          "shape": [
+            7,
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+        },
+        "profile_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+        },
+        "fixed_base_T": {
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+        },
+        "profile_kind": {
+          "shape": [],
+          "dtype": "<U14",
+          "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+        },
+        "tail_kind": {
+          "shape": [],
+          "dtype": "<U18",
+          "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+        },
+        "base_kind": {
+          "shape": [],
+          "dtype": "<U13",
+          "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+        },
+        "candidate_sha256": {
+          "shape": [],
+          "dtype": "<U64",
+          "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+        },
+        "blend": {
+          "shape": [
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+        },
+        "seed_weight_definition": {
+          "shape": [],
+          "dtype": "<U66",
+          "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+        },
+        "representation_kind": {
+          "shape": [],
+          "dtype": "<U71",
+          "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+        },
+        "central_field_definition": {
+          "shape": [],
+          "dtype": "<U275",
+          "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+        },
+        "targeted_mesh_definition": {
+          "shape": [],
+          "dtype": "<U12990",
+          "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+        },
+        "coast_reference_definition": {
+          "shape": [],
+          "dtype": "<U929",
+          "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+        },
+        "angular_atlas_definition": {
+          "shape": [],
+          "dtype": "<U2325",
+          "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+        },
+        "atlas_mesh_definition": {
+          "shape": [],
+          "dtype": "<U5151",
+          "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+        },
+        "reference_evaluation_definition": {
+          "shape": [],
+          "dtype": "<U904",
+          "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+        },
+        "finite_radial_scheme": {
+          "shape": [],
+          "dtype": "<U256",
+          "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+        },
+        "gauss_l_definition": {
+          "shape": [],
+          "dtype": "<U1489",
+          "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+        },
+        "inactive_l_raw_nodes": {
+          "shape": [
+            9
+          ],
+          "dtype": "<i8",
+          "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+        },
+        "positive_trace_definition": {
+          "shape": [],
+          "dtype": "<U1389",
+          "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+        },
+        "inactive_raw_trace_nodes": {
+          "shape": [
+            4
+          ],
+          "dtype": "<i8",
+          "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+        },
+        "trace_gauge_pairs": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "<i8",
+          "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+        },
+        "tail_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+        },
+        "central_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "nested_angular_definition": {
+          "shape": [],
+          "dtype": "<U650",
+          "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+        },
+        "angular_embedding_definition": {
+          "shape": [],
+          "dtype": "<U1482",
+          "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+        },
+        "radial_refinement_definition": {
+          "shape": [],
+          "dtype": "<U29230",
+          "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+        },
+        "finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U684",
+          "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+        },
+        "parent_finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U663",
+          "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+        },
+        "grouped_goal_preparation": {
+          "shape": [],
+          "dtype": "<U919",
+          "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+        },
+        "radial_mesh_rebind_definition": {
+          "shape": [],
+          "dtype": "<U25689",
+          "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+        },
+        "finite_grouped_coast_rule_definition": {
+          "shape": [],
+          "dtype": "<U775",
+          "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+        }
+      },
+      "implementation_sources": {
+        "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+        "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+        "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+        "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+        "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+        "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+        "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+        "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+        "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+        "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+        "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+        "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+        "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+        "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+        "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+        "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+        "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+        "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+        "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+        "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+        "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+        "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+        "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+        "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+        "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+        "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+        "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+        "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+        "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+        "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+        "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+        "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+        "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+        "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+        "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+        "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+        "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+        "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+        "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+        "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+        "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+        "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+        "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+        "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+        "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+        "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+        "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+        "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+        "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+        "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+        "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+        "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+      },
+      "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+      "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+      "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+      "damping_and_search_floor_not_part_of_normal_identity": true,
+      "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+      "grouped_rule_definition": {
+        "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+        "consumer_source": {
+          "name": "fd2d_gc_grouped_coast_codazzi.py",
+          "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "bytes": 21332
+        },
+        "fine_order": 8,
+        "point_batch": 2,
+        "old_point_gauss_diagnostic_order": 2,
+        "support": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+        "known_lifting_change_not_separately_evaluated": true,
+        "outside_coast_consumer_unchanged": true,
+        "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+      }
+    },
+    "original_normal": {
+      "name": "manifest.json",
+      "bytes": 453850,
+      "sha256": "bb50e4ccc1ba7f98f36303631592738815249785ecc9f45a202d465199be4c31"
+    },
+    "original_transport_binding": {
+      "schema": "fd2d-durable-merged-normal-binding-v1",
+      "common": {
+        "schema": "fd2d-R165-durable-partitioned-normal-common-binding-v1",
+        "field_and_finite_objective": {
+          "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1",
+          "input_npz_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+          "input_npz_bytes": 130600,
+          "packed_vector": {
+            "shape": [
+              12499
+            ],
+            "dtype": "<f8",
+            "sha256": "15db12fb1245ae4ac3824ad6adce7b8acc3aa7099f4ceda993a9f773ab1402c4"
+          },
+          "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+          "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+          "mathematical_settings": {
+            "gap": 0.9,
+            "modes": 31,
+            "curvature_cap": 7.2,
+            "curvature_weight": 1.0,
+            "high_gauss_weight": 1.0,
+            "high_codazzi_weight": 1.0,
+            "minimum_active_n": 0.05,
+            "interior_gauss_weight": 1.0,
+            "reference_rim_fraction": 0.12,
+            "radius_floor": 0.1,
+            "interior_cells": [
+              63,
+              64,
+              65,
+              74,
+              75,
+              76,
+              123,
+              124
+            ]
+          },
+          "actual_saved_definition_arrays": {
+            "mesh": {
+              "shape": [
+                131
+              ],
+              "dtype": "<f8",
+              "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+            },
+            "modes": {
+              "shape": [],
+              "dtype": "<i8",
+              "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+            },
+            "profile_supports": {
+              "shape": [
+                7,
+                2
+              ],
+              "dtype": "<f8",
+              "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+            },
+            "profile_count": {
+              "shape": [],
+              "dtype": "<i8",
+              "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+            },
+            "fixed_base_T": {
+              "shape": [],
+              "dtype": "<f8",
+              "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+            },
+            "profile_kind": {
+              "shape": [],
+              "dtype": "<U14",
+              "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+            },
+            "tail_kind": {
+              "shape": [],
+              "dtype": "<U18",
+              "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+            },
+            "base_kind": {
+              "shape": [],
+              "dtype": "<U13",
+              "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+            },
+            "candidate_sha256": {
+              "shape": [],
+              "dtype": "<U64",
+              "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+            },
+            "blend": {
+              "shape": [
+                2
+              ],
+              "dtype": "<f8",
+              "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+            },
+            "seed_weight_definition": {
+              "shape": [],
+              "dtype": "<U66",
+              "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+            },
+            "representation_kind": {
+              "shape": [],
+              "dtype": "<U71",
+              "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+            },
+            "central_field_definition": {
+              "shape": [],
+              "dtype": "<U275",
+              "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+            },
+            "targeted_mesh_definition": {
+              "shape": [],
+              "dtype": "<U12990",
+              "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+            },
+            "coast_reference_definition": {
+              "shape": [],
+              "dtype": "<U929",
+              "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+            },
+            "angular_atlas_definition": {
+              "shape": [],
+              "dtype": "<U2325",
+              "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+            },
+            "atlas_mesh_definition": {
+              "shape": [],
+              "dtype": "<U5151",
+              "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+            },
+            "reference_evaluation_definition": {
+              "shape": [],
+              "dtype": "<U904",
+              "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+            },
+            "finite_radial_scheme": {
+              "shape": [],
+              "dtype": "<U256",
+              "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+            },
+            "gauss_l_definition": {
+              "shape": [],
+              "dtype": "<U1489",
+              "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+            },
+            "inactive_l_raw_nodes": {
+              "shape": [
+                9
+              ],
+              "dtype": "<i8",
+              "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+            },
+            "positive_trace_definition": {
+              "shape": [],
+              "dtype": "<U1389",
+              "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+            },
+            "inactive_raw_trace_nodes": {
+              "shape": [
+                4
+              ],
+              "dtype": "<i8",
+              "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+            },
+            "trace_gauge_pairs": {
+              "shape": [
+                128,
+                2
+              ],
+              "dtype": "<i8",
+              "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+            },
+            "tail_parameter_count": {
+              "shape": [],
+              "dtype": "<i8",
+              "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+            },
+            "central_parameter_count": {
+              "shape": [],
+              "dtype": "<i8",
+              "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+            },
+            "nested_angular_definition": {
+              "shape": [],
+              "dtype": "<U650",
+              "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+            },
+            "angular_embedding_definition": {
+              "shape": [],
+              "dtype": "<U1482",
+              "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+            },
+            "radial_refinement_definition": {
+              "shape": [],
+              "dtype": "<U29230",
+              "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+            },
+            "finite_interior_rows_definition": {
+              "shape": [],
+              "dtype": "<U684",
+              "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+            },
+            "parent_finite_interior_rows_definition": {
+              "shape": [],
+              "dtype": "<U663",
+              "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+            },
+            "grouped_goal_preparation": {
+              "shape": [],
+              "dtype": "<U919",
+              "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+            },
+            "radial_mesh_rebind_definition": {
+              "shape": [],
+              "dtype": "<U25689",
+              "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+            },
+            "finite_grouped_coast_rule_definition": {
+              "shape": [],
+              "dtype": "<U775",
+              "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+            }
+          },
+          "implementation_sources": {
+            "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+            "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+            "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+            "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+            "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+            "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+            "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+            "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+            "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+            "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+            "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+            "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+            "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+            "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+            "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+            "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+            "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+            "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+            "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+            "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+            "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+            "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+            "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+            "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+            "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+            "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+            "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+            "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+            "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+            "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+            "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+            "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+            "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+            "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+            "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+            "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+            "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+            "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+            "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+            "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+            "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+            "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+            "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+            "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+            "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+            "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+            "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+            "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+            "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+            "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+            "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+            "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+          },
+          "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+          "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+          "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+          "damping_and_search_floor_not_part_of_normal_identity": true,
+          "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+          "grouped_rule_definition": {
+            "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+            "consumer_source": {
+              "name": "fd2d_gc_grouped_coast_codazzi.py",
+              "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+              "bytes": 21332
+            },
+            "fine_order": 8,
+            "point_batch": 2,
+            "old_point_gauss_diagnostic_order": 2,
+            "support": [
+              0.5919999999999992,
+              0.8675434451024153
+            ],
+            "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+            "known_lifting_change_not_separately_evaluated": true,
+            "outside_coast_consumer_unchanged": true,
+            "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+          }
+        },
+        "actual_value_residual": {
+          "shape": [
+            51441
+          ],
+          "dtype": "<f8",
+          "sha256": "173423acb4d859a3c96db397e49ee469fb94efdd7333dcd891c3aca26d7500f9"
+        },
+        "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+        "partition_sources": {
+          "fd2d_gc_grouped_coast_partitioned_normal.py": "23c79f05e6a54a32164fe445d3639335e3a014535aef38007667e5a90df16367",
+          "fd2d_gc_grouped_coast_stream_normal.py": "ad127ceab9a5b592d2784806abbb730f4d1996a5d3110e1b3620dfc6160f219d",
+          "fd2d-gc-grouped-stage-normal-tile-batch.py": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf",
+          "fd2d-gc-grouped-stage-normal-merge.py": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5",
+          "fd2d_gc_grouped_normal_tile_io.py": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1",
+          "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+        },
+        "partition_changes_only_floating_sum_grouping": true
+      },
+      "plan_sha256": "4bb5d719c7ebd78d881aa0a37655a987af3fd5bd4569f4271f58aedc674e3858",
+      "ordered_tile_ids": [
+        "0000-nodes",
+        "0001-nodes",
+        "0002-nodes",
+        "0003-nodes",
+        "0004-nodes",
+        "0005-nodes",
+        "0006-nodes",
+        "0007-nodes",
+        "0008-nodes",
+        "0009-cells",
+        "0010-cells",
+        "0011-cells",
+        "0012-cells",
+        "0013-cells",
+        "0014-cells",
+        "0015-cells",
+        "0016-cells",
+        "0017-cells",
+        "0018-cells",
+        "0019-cells",
+        "0020-cells",
+        "0021-cells",
+        "0022-cells",
+        "0023-cells",
+        "0024-cells",
+        "0025-cells",
+        "0026-cells",
+        "0027-cells",
+        "0028-cells",
+        "0029-cells",
+        "0030-cells",
+        "0031-cells",
+        "0032-cells",
+        "0033-cells",
+        "0034-cells",
+        "0035-cells",
+        "0036-cells",
+        "0037-cells",
+        "0038-cells",
+        "0039-cells",
+        "0040-cells",
+        "0041-cells",
+        "0042-boundary",
+        "0043-interior",
+        "0044-interior",
+        "0045-interior",
+        "0046-interior",
+        "0047-interior",
+        "0048-interior",
+        "0049-interior",
+        "0050-interior"
+      ]
+    },
+    "original_finite_goal": {
+      "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1",
+      "input_npz_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+      "input_npz_bytes": 130600,
+      "packed_vector": {
+        "shape": [
+          12499
+        ],
+        "dtype": "<f8",
+        "sha256": "15db12fb1245ae4ac3824ad6adce7b8acc3aa7099f4ceda993a9f773ab1402c4"
+      },
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "mathematical_settings": {
+        "gap": 0.9,
+        "modes": 31,
+        "curvature_cap": 7.2,
+        "curvature_weight": 1.0,
+        "high_gauss_weight": 1.0,
+        "high_codazzi_weight": 1.0,
+        "minimum_active_n": 0.05,
+        "interior_gauss_weight": 1.0,
+        "reference_rim_fraction": 0.12,
+        "radius_floor": 0.1,
+        "interior_cells": [
+          63,
+          64,
+          65,
+          74,
+          75,
+          76,
+          123,
+          124
+        ]
+      },
+      "actual_saved_definition_arrays": {
+        "mesh": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "modes": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "profile_supports": {
+          "shape": [
+            7,
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+        },
+        "profile_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+        },
+        "fixed_base_T": {
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+        },
+        "profile_kind": {
+          "shape": [],
+          "dtype": "<U14",
+          "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+        },
+        "tail_kind": {
+          "shape": [],
+          "dtype": "<U18",
+          "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+        },
+        "base_kind": {
+          "shape": [],
+          "dtype": "<U13",
+          "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+        },
+        "candidate_sha256": {
+          "shape": [],
+          "dtype": "<U64",
+          "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+        },
+        "blend": {
+          "shape": [
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+        },
+        "seed_weight_definition": {
+          "shape": [],
+          "dtype": "<U66",
+          "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+        },
+        "representation_kind": {
+          "shape": [],
+          "dtype": "<U71",
+          "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+        },
+        "central_field_definition": {
+          "shape": [],
+          "dtype": "<U275",
+          "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+        },
+        "targeted_mesh_definition": {
+          "shape": [],
+          "dtype": "<U12990",
+          "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+        },
+        "coast_reference_definition": {
+          "shape": [],
+          "dtype": "<U929",
+          "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+        },
+        "angular_atlas_definition": {
+          "shape": [],
+          "dtype": "<U2325",
+          "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+        },
+        "atlas_mesh_definition": {
+          "shape": [],
+          "dtype": "<U5151",
+          "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+        },
+        "reference_evaluation_definition": {
+          "shape": [],
+          "dtype": "<U904",
+          "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+        },
+        "finite_radial_scheme": {
+          "shape": [],
+          "dtype": "<U256",
+          "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+        },
+        "gauss_l_definition": {
+          "shape": [],
+          "dtype": "<U1489",
+          "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+        },
+        "inactive_l_raw_nodes": {
+          "shape": [
+            9
+          ],
+          "dtype": "<i8",
+          "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+        },
+        "positive_trace_definition": {
+          "shape": [],
+          "dtype": "<U1389",
+          "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+        },
+        "inactive_raw_trace_nodes": {
+          "shape": [
+            4
+          ],
+          "dtype": "<i8",
+          "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+        },
+        "trace_gauge_pairs": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "<i8",
+          "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+        },
+        "tail_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+        },
+        "central_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "nested_angular_definition": {
+          "shape": [],
+          "dtype": "<U650",
+          "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+        },
+        "angular_embedding_definition": {
+          "shape": [],
+          "dtype": "<U1482",
+          "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+        },
+        "radial_refinement_definition": {
+          "shape": [],
+          "dtype": "<U29230",
+          "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+        },
+        "finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U684",
+          "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+        },
+        "parent_finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U663",
+          "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+        },
+        "grouped_goal_preparation": {
+          "shape": [],
+          "dtype": "<U919",
+          "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+        },
+        "radial_mesh_rebind_definition": {
+          "shape": [],
+          "dtype": "<U25689",
+          "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+        },
+        "finite_grouped_coast_rule_definition": {
+          "shape": [],
+          "dtype": "<U775",
+          "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+        }
+      },
+      "implementation_sources": {
+        "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+        "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+        "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+        "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+        "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+        "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+        "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+        "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+        "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+        "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+        "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+        "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+        "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+        "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+        "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+        "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+        "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+        "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+        "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+        "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+        "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+        "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+        "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+        "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+        "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+        "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+        "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+        "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+        "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+        "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+        "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+        "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+        "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+        "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+        "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+        "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+        "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+        "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+        "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+        "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+        "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+        "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+        "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+        "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+        "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+        "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+        "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+        "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+        "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+        "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+        "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+        "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+      },
+      "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+      "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+      "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+      "damping_and_search_floor_not_part_of_normal_identity": true,
+      "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+      "grouped_rule_definition": {
+        "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+        "consumer_source": {
+          "name": "fd2d_gc_grouped_coast_codazzi.py",
+          "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "bytes": 21332
+        },
+        "fine_order": 8,
+        "point_batch": 2,
+        "old_point_gauss_diagnostic_order": 2,
+        "support": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+        "known_lifting_change_not_separately_evaluated": true,
+        "outside_coast_consumer_unchanged": true,
+        "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+      }
+    },
+    "gap_replacement_source": {
+      "name": "fd2d_gc_gap_row_retarget.py",
+      "bytes": 6071,
+      "sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+    },
+    "derivation_entry": {
+      "name": "fd2d-gc-grouped-retarget-gap.py",
+      "bytes": 8601,
+      "sha256": "486099d001703a78be17a542b030afb5a1702538c161be6f986c117742aaff13"
+    },
+    "actual_value_residual": {
+      "shape": [
+        51441
+      ],
+      "dtype": "<f8",
+      "sha256": "d4204304a808d1c031ded6dd4aa76ac9f371d7c413fb1ad76ccb92025a128f27"
+    },
+    "gap_row_index": 11996,
+    "old_target": 0.9,
+    "new_target": 0.8
+  },
+  "gap_row_replacement": {
+    "schema": "fd2d-single-gap-row-retargeted-unscaled-normal-v1",
+    "old_target": 0.9,
+    "new_target": 0.8,
+    "actual_gap": 0.9000177132651845,
+    "unnormalized_parameter_gradient": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "ad010c1abca7e47e973817f60c621bd1918877caa1081225b7190cbd62b2e223"
+    },
+    "old_gap_row": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "42483bb4511318e1e8fc4ad17ee5a9298aa9914840bd1281e795274d31161a06"
+    },
+    "new_gap_row": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "6f7ae0f470e169630844c3deda57733a3458474090547dfc724f8ae13d3081fb"
+    },
+    "old_gap_residual": 1.9681405760573077e-05,
+    "new_gap_residual": 0.12502214158148062,
+    "parameter_normal_update": {
+      "shape": [
+        54,
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "c9ef45b0917fe56bcae1f0759f0a8a001e5c8402c23cbc5024e8ac1ebb924b95"
+    },
+    "parameter_gradient_update": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "4b053185133a08afd57e0c9523aa5768cb9d408f83b63b3d055d006bd29f601b"
+    },
+    "parameter_column_squares_update": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "sha256": "037b4780a27dae44e2e5dd8710cf6b1e44e2d38da3f501ce3d7a048cf10909e4"
+    },
+    "old_residual_squared": 22.526039624249997,
+    "residual_squared_update": 0.01563053549826205,
+    "new_residual_squared": 22.541670159748257,
+    "same_state": true,
+    "same_physical_metric_and_field": true,
+    "finite_goal_changed": true,
+    "whole_F_or_J_recomputed": false,
+    "original_scaled_Schur_reused": false,
+    "unchanged_field_blocks_and_arrow": true,
+    "floating_bit_identity_with_reassembly_claimed": false,
+    "source_sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+  },
+  "newly_assembled_tile_set_claimed": false
+}

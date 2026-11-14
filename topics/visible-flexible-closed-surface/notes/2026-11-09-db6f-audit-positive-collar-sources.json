@@ -1,0 +1,72 @@
+{
+  "status": "FROZEN_AUTHOR_PROOF_AND_EXACT_LEDGER_BINDINGS",
+  "author": "/root/independent_geometry",
+  "date": "2026-11-09",
+  "inputs": [
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "results/R10-positive-support-offset-reach.md",
+      "bytes": 3937,
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "scripts/db6f-audit-positive-collar-budget.py",
+      "bytes": 15340,
+      "sha256": "e80831d9950975ed673b93df4c82ead661a4e8887f422dd49162c2bbc2ba6297"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    }
+  ],
+  "external_primary_source": {
+    "author": "Herbert Federer",
+    "title": "Curvature measures",
+    "year": 1959,
+    "journal": "Transactions of the American Mathematical Society 93, 418-491",
+    "theorem": "4.18",
+    "url": "https://static1.squarespace.com/static/5cb91b1c70468025fd21e98b/t/5d37d6d2e6603300016d83dc/1563940577696/federer-curvature-measures-transAMS-1959.pdf",
+    "use": "The local principal-curvature implication of reach in section 2. The sufficient all-pair reach implication in section 4.3 is proved directly.",
+    "retrieval": "Original theorem text was read in the preceding source-verification turn; no PDF saved or rendered."
+  },
+  "author_narrow_peer_check": {
+    "agent": "/root/coupled_prefix",
+    "scope": "Paper check only: |Delta f|<=delta, normal difference bound by Minkowski monotonicity, and the harmless normalizing denominator.",
+    "not_full_independent_review": true
+  },
+  "current_M15_candidate_data_read": false,
+  "new_solver_root_RK_integration_optimization_calls": 0,
+  "closed_geometric_extension_and_common_metric_unpaid": true
+}

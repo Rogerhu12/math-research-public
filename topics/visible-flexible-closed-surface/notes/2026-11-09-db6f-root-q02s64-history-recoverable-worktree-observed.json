@@ -1,0 +1,128 @@
+{
+  "status": "RECOVERABLE_Q02_WORKTREE_COPIES_EVICTED",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T21:28:39.062675+00:00",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-recover-q02s64-history-worktree.py",
+    "bytes": 8021,
+    "sha256": "3bb5e7e87954fcb74caec360e19d64c85469da1e35ebd80195b779ef81166712"
+  },
+  "current_source_head": "e6ee007fa3ecd0cee753a962c4bb7910e85a95cf",
+  "actually_published_anchor": "b77800583068ef38332c690f03a629784373ff82",
+  "published_anchor_repository": "/workspace/scratch/db6f0b0e7462/math-publication-minimal",
+  "protected_launch_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-launch.json",
+      "bytes": 37224,
+      "sha256": "05e3b3916f8b95baca5c9d7915feecbe6b8ed2382822d6efc29e7be27b2f532d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+      "bytes": 71499,
+      "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+    }
+  ],
+  "protected_unique_sources_rehashed": 220,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw000.f64.gz",
+      "mode": "100644",
+      "git_blob": "8fd907f207db350a11e3518dc1e28b2b807695a5",
+      "bytes": 2099092,
+      "sha256": "f19d1fec4505f4921cfb84eb55a0c4dc2b921e9b05de373385f848ffbd777392",
+      "decoded_bytes": 2721264,
+      "decoded_sha256": "c8573804c65c5880e8d940903ac8c27b7a4f8277367b5aa2e38beb1c7d0b6b03"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw001.f64.gz",
+      "mode": "100644",
+      "git_blob": "ad7b1fe78b5d789c07a8038f06d9f435e391de4d",
+      "bytes": 2048694,
+      "sha256": "97bccd3069f8a0f5f0c8da1e5a109faf012eafa48a9b99103815c9748e958f63",
+      "decoded_bytes": 2716560,
+      "decoded_sha256": "814a6ce51792bb2887543399017669add147514dd8b116291f70c7200bcbdafd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw002.f64.gz",
+      "mode": "100644",
+      "git_blob": "7709db5e1675ff66a6923883a92db053ac41b1e6",
+      "bytes": 2009279,
+      "sha256": "e8613da141cf7d915574cc568a44af78dc4498131a6e51c224677f5a16b47269",
+      "decoded_bytes": 2716560,
+      "decoded_sha256": "893714218ae444b4b12269fa987996e5bc5a8618b6b3be92a88f201420bdb7c2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw003.f64.gz",
+      "mode": "100644",
+      "git_blob": "9d666a091c10dbd62fc9a624a855f2a79fe62436",
+      "bytes": 1955291,
+      "sha256": "71dcff688faca3fd8df7c81b2116a2b84de40521023a6d76e4cc4f07d9b26ad8",
+      "decoded_bytes": 2716560,
+      "decoded_sha256": "8079be33b2f7aa9e398b13c4ebed54a8496ffe88f289f7d326bb95a1ca2204a6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw004.f64.gz",
+      "mode": "100644",
+      "git_blob": "8ef1588d9990130afbf6f6b807216b74c97cfe3a",
+      "bytes": 1915703,
+      "sha256": "bc78f70f6648cad1112f7b0a03c5fbc24ac17e989f1fd219d16b5eec40340eef",
+      "decoded_bytes": 2718912,
+      "decoded_sha256": "3adbdcdb24e727c832c36d5169d69b58376f5e563b11ab7a3e59a71aa5b8c450"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw005.f64.gz",
+      "mode": "100644",
+      "git_blob": "c58ef526bfba4ddcf6f33e1ad6bd189aeaf14053",
+      "bytes": 1893651,
+      "sha256": "1a8b1b9fc6d767fcab4d7a539f86e896af5b7f54ead1e4d0dd1e3b015bed2ee0",
+      "decoded_bytes": 2721264,
+      "decoded_sha256": "d4a1a5062292e6ad486da2c47a3b844fe1ff3a3fe4be5dfcad81e4f178c76fe4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw006.f64.gz",
+      "mode": "100644",
+      "git_blob": "fcd3201b412d1c3de0d025c0f0b46b361312ee41",
+      "bytes": 1887823,
+      "sha256": "af48a895e35bf86873458ecec2d07d6712453d4880762123f014b68e9373a555",
+      "decoded_bytes": 2721264,
+      "decoded_sha256": "772b60753731e3df628cc54f8473250c96bef52ee3c38e4452a5303dce7901ad"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw007.f64.gz",
+      "mode": "100644",
+      "git_blob": "e8e9db8f07c1b8901f790869c65ba06a17400650",
+      "bytes": 1870193,
+      "sha256": "27b0a36d701a775328478513516cc7e0ca59deee9cea112771a069d58b070a60",
+      "decoded_bytes": 2721264,
+      "decoded_sha256": "239a4c3fa8b2c8c7cb75074131f1f02a35280b1c2082f3b8230d607929e2bc13"
+    }
+  ],
+  "file_count": 8,
+  "total_historical_worktree_bytes": 15679726,
+  "old_sparse_rules": "/*\n!/*/\n/topics/\n!/topics/*/\n/topics/visible-flexible-closed-surface/\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part03.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part04.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw000.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw001.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw002.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw003.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw004.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw005.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw006.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw007.f64.gz\n",
+  "new_sparse_rules_sha256": "06f83b01fe70d41815e9fe3941f3a811a37060a28fefe373d2dae5fd68770d25",
+  "free_bytes_before": 785940480,
+  "removed_worktree_paths": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw000.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw001.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw002.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw003.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw004.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw005.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw006.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s64-raw007.f64.gz"
+  ],
+  "network_calls": 0,
+  "Git_objects_or_refs_removed": false,
+  "solver_calls": 0,
+  "restore": "All blobs remain local and in the published tree. Restore selected paths from the recorded source head with git restore --worktree --ignore-skip-worktree-bits after adjusting their recorded sparse exclusions.",
+  "scope": "Historical q02 data residency only; neither active inputs nor current flat17 geometry is evicted.",
+  "free_bytes_after": 800743424,
+  "current_and_published_blobs_preserved": true,
+  "selected_paths_git_status_clean": true
+}

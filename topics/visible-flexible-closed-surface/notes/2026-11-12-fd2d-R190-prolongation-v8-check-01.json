@@ -1,0 +1,125 @@
+{
+  "schema": "fd2d-R189-R190-prolongation-finite-check-v1",
+  "passed": true,
+  "elapsedMilliseconds": 158,
+  "input": "explicit deterministic nonzero finite fixture, not a main accepted state",
+  "options": {
+    "radialBasisCount": 12,
+    "modes": 7,
+    "angles": 64,
+    "gap": 0.05,
+    "radiusCoefficientBound": 0.4
+  },
+  "oldDimension": 193,
+  "newDimension": 865,
+  "provenance": {
+    "schema": "fd2d-R189-R190-radius-prolongation-v1",
+    "oldRadialBasisCount": 12,
+    "newRadialBasisCount": 27,
+    "oldAngularModes": 7,
+    "newAngularModes": 15,
+    "oldDimension": 193,
+    "newDimension": 865,
+    "radialRefinementLevels": 1,
+    "maskNumerators": [
+      1,
+      4,
+      6,
+      4,
+      1
+    ],
+    "maskDenominator": 8,
+    "oldMaximumRadiusCoefficient": 0.06999462802948707,
+    "newMaximumRadiusCoefficient": 0.0684466769645153,
+    "radiusCoefficientBound": 0.4,
+    "radiusMaskExactlyAccumulatedAsDyadicThenNearestEvenRounded": true,
+    "radiusCoefficientsClipped": false,
+    "radiusBoxPreserved": true,
+    "oldVectorModified": false,
+    "cutHeightCoefficientUnchanged": true,
+    "exactRealPhysicalMetricAndPositionPreserved": true,
+    "binary64BitwiseFieldIdentityClaimed": false,
+    "changingRadiusAfterInjectionIsNewPhysicalMetricDesign": true,
+    "radialQuadratureChanged": true,
+    "angularPrimitiveQuadratureChanged": true,
+    "originalNormalReusable": false,
+    "actualNewProviderEvaluated": false,
+    "actualNonlinearAcceptedState": false
+  },
+  "radiusJetMaximum": [
+    1.0408340855860843e-16,
+    1.8318679906315083e-15,
+    6.750155989720952e-13
+  ],
+  "radiusJetScaledMaximum": [
+    9.812775917627526e-17,
+    1.4802802135143746e-15,
+    1.4781194003033008e-13
+  ],
+  "actualCommonPointRows": [
+    {
+      "s": 0.20349698848331987,
+      "oldQuarterNodes": 17,
+      "newQuarterNodes": 33,
+      "sameRuleMaximum": 4.440892098500626e-16,
+      "changedRuleMaximum": 6.938893903907228e-16
+    },
+    {
+      "s": 0.34463704946022433,
+      "oldQuarterNodes": 17,
+      "newQuarterNodes": 33,
+      "sameRuleMaximum": 4.440892098500626e-16,
+      "changedRuleMaximum": 4.440892098500626e-16
+    },
+    {
+      "s": 0.5171415684319964,
+      "oldQuarterNodes": 17,
+      "newQuarterNodes": 33,
+      "sameRuleMaximum": 3.2612801348363973e-16,
+      "changedRuleMaximum": 6.661338147750939e-16
+    },
+    {
+      "s": 0.7210105453986363,
+      "oldQuarterNodes": 17,
+      "newQuarterNodes": 33,
+      "sameRuleMaximum": 3.774758283725532e-15,
+      "changedRuleMaximum": 4.052314039881821e-15
+    },
+    {
+      "s": 0.8856739498716915,
+      "oldQuarterNodes": 17,
+      "newQuarterNodes": 33,
+      "sameRuleMaximum": 0,
+      "changedRuleMaximum": 1.9984014443252818e-15
+    }
+  ],
+  "sameRuleMaximum": 3.774758283725532e-15,
+  "changedRuleMaximum": 4.052314039881821e-15,
+  "constantBoundaryAndSubnormalRefinementCases": 24,
+  "exactBinaryDyadicRoundTrips": 11,
+  "sourceArrayUnchanged": true,
+  "originalProviderSourceChanged": false,
+  "onlyReadOnlyInternalExposure": true,
+  "wholeObjectiveCalled": false,
+  "wholeNormalCalled": false,
+  "wholeJvpCalled": false,
+  "actualNonlinearAcceptedState": false,
+  "continuousCertificate": false,
+  "OSProcessCreated": false,
+  "runtime": "actual functions.exec V8",
+  "source": {
+    "path": "scripts/fd2d_r190_prolongation.cjs",
+    "sha256": "38d90cadd9c6f085278ff33f2829c0968a30c60455b0feee6410b501e2f992c2"
+  },
+  "inputs": {
+    "providerSHA256": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+    "engineSHA256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+    "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+    "checkerSHA256": "9c3d03087c0f5eabaf436d46a9c088a7d7fe98997d4cf58730050e7a1853804b"
+  },
+  "loader": {
+    "engineCJSRequireMain": null,
+    "filesystemRequireCalled": false,
+    "sourceModified": false
+  }
+}

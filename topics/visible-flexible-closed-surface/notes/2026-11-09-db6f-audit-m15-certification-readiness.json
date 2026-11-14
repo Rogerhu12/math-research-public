@@ -1,0 +1,129 @@
+{
+  "status": "READ_ONLY-planning-and-old-packet-scalar-ledger-NOT-a-new-M15-certificate",
+  "candidate_M15_data_read": false,
+  "new_root_flow_or_solver_calls": 0,
+  "new_prefix_or_tail_backend_runs": 0,
+  "exact_proposed_goal": {
+    "exact": "1/500000000",
+    "upper_display": 2e-09
+  },
+  "old_M12_bridge": {
+    "path": "notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+    "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa",
+    "bytes": 3887
+  },
+  "old_M12_target": {
+    "path": "notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b",
+    "bytes": 3668
+  },
+  "old_M12_target_data": {
+    "path": "notes/2026-11-09-db6f-root-flat17-m12-target-data.npz.gz",
+    "sha256": "bebad72e13a3b8494f234deb1399ee6ba7d771a982127a4b3c912277c56770af",
+    "bytes": 550495
+  },
+  "conditional_if_new_bridge_eta_identical": {
+    "eta": {
+      "exact": "1643648383685965/4951760157141521099596496896",
+      "upper_display": 3.319321476658082e-13
+    },
+    "maximum_allowed_source_metric": {
+      "exact": "19339602863084680144908191/9671406556920243648398794650390625",
+      "upper_display": 1.9996680678516708e-09
+    },
+    "eta_fraction_of_goal": {
+      "exact": "3210250749386650390625/19342813113834066795298816",
+      "upper_display": 0.00016596607383290412
+    }
+  },
+  "old_M12_packet_width_diagnostics": {
+    "a": {
+      "maximum_full_coefficient_width_plus_twice_remainder": {
+        "exact": "560523985183160872643119/166153499473114484112975882535043072",
+        "upper_display": 3.3735310237859903e-12
+      },
+      "interval": 2574,
+      "definition": "sum_j (hi_j-lo_j)+2*remainder; pointwise full spread on u in [0,1], not a metric error bound"
+    },
+    "e": {
+      "maximum_full_coefficient_width_plus_twice_remainder": {
+        "exact": "67371137/604462909807314587353088",
+        "upper_display": 1.114561967441079e-16
+      },
+      "interval": 503,
+      "definition": "sum_j (hi_j-lo_j)+2*remainder; pointwise full spread on u in [0,1], not a metric error bound"
+    },
+    "ep": {
+      "maximum_full_coefficient_width_plus_twice_remainder": {
+        "exact": "32897/147573952589676412928",
+        "upper_display": 2.2291874292659775e-16
+      },
+      "interval": 328,
+      "definition": "sum_j (hi_j-lo_j)+2*remainder; pointwise full spread on u in [0,1], not a metric error bound"
+    }
+  },
+  "all_width_sums_exact_Fraction": true,
+  "existing_implementations": [
+    {
+      "path": "scripts/db6f-audit-prefix-angular-metric.py",
+      "sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb",
+      "bytes": 23157
+    },
+    {
+      "path": "scripts/db6f-audit-prefix-angular-fixtures.py",
+      "sha256": "0f4b1e146d137564fac1924f13c8b877691803036a284ca754a4feb706bf7643",
+      "bytes": 8029
+    },
+    {
+      "path": "scripts/db6f-audit-metric-supplier.py",
+      "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0",
+      "bytes": 17450
+    },
+    {
+      "path": "scripts/db6f-audit-metric-polynomial.py",
+      "sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+      "bytes": 10966
+    },
+    {
+      "path": "scripts/db6f-root-mirror-hermite.py",
+      "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6",
+      "bytes": 4602
+    },
+    {
+      "path": "scripts/db6f-prefix-flat-geometry-source.py",
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f",
+      "bytes": 2740
+    },
+    {
+      "path": "scripts/db6f-root-common-cut-v2.py",
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+      "bytes": 13021
+    },
+    {
+      "path": "scripts/db6f-root-exact-bridge.py",
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1",
+      "bytes": 9408
+    },
+    {
+      "path": "scripts/db6f-root-closed-budget-v2.py",
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641",
+      "bytes": 10356
+    },
+    {
+      "path": "scripts/db6f-root-whole-metric-reach-v2.py",
+      "sha256": "20d9b6127625595afaf14daac4d23ccdd68d10f5d3a36d0697472f5df50d8fc3",
+      "bytes": 11339
+    },
+    {
+      "path": "scripts/db6f-tail-critical-increment-export.mjs",
+      "sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+      "bytes": 25539
+    },
+    {
+      "path": "scripts/db6f-root-transfer-background.py",
+      "sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+      "bytes": 10948
+    }
+  ],
+  "scope": "Only metadata/source reads and exact scalar arithmetic on an already certified M12 target packet. Fresh M15 map, packet, bridge, full continuous metric and geometry evidence remain required. This ledger does not transfer old geometry bounds to a new graph."
+}

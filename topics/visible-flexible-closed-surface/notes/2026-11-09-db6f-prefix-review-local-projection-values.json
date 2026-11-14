@@ -1,0 +1,26 @@
+{
+  "status": "PASS_FLOAT_LAYER_STATIC_REVIEW_AND_IDENTICAL_REPLAY",
+  "scope": "Review of binary64 standalone values only, including equation basis/normalization and report use of its actual differences. Decimal reference/extraction independent review belongs to independent_geometry. No whole-tail statement.",
+  "reviewed_script": "topics/visible-flexible-closed-surface/scripts/db6f-tail-local-projection-values.mjs",
+  "reviewed_script_sha256": "99aec526e2cc5c7949a2050f18b3f98c02cd8c270821fbb44a09c6f21b889444",
+  "author_output_sha256": "8146e56b0a1d9f9dcd03d5bc5f81ea955112d2f8f8962ad65d6611f79f8595a3",
+  "replay_path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-local-projection-values-replay.json.gz",
+  "replay_sha256": "8146e56b0a1d9f9dcd03d5bc5f81ea955112d2f8f8962ad65d6611f79f8595a3",
+  "replay_actual_exit_code": 0,
+  "bytes_identical": true,
+  "points": 4,
+  "original_root_calls_in_replay": 0,
+  "verified_source_bindings": true,
+  "max_moment_change_over_original_scale": 4.768284752036641e-16,
+  "successful_controls_still_under_original_root_threshold": true,
+  "report": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-local-projection-comparison.md",
+  "report_sha256": "ef93eb972b9c0fa71279756da7c56344292dec0503e4e87072b222834278a055",
+  "findings": [
+    "cosProduct/sineSquare include constant and sqrt2 product factors correctly",
+    "BL 00/0j/ii/ij branches agree with ideal normalized cosine triple products",
+    "UK sine difference term has correct sign, no extra physical frequency multiplier",
+    "All original q and B reconstruction checks pass; guard A is kept separate from 1+am used by B",
+    "Analytic polynomial projection is labeled ideal-grid, not literal rounded-basis exact equality",
+    "Reported source nonlinear momentum RHS is a partial flux contribution, not a complete RHS or flow error"
+  ]
+}

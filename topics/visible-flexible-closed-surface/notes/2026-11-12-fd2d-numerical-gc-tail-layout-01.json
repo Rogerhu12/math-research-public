@@ -1,0 +1,101 @@
+{
+  "schema": "fd2d-gc-tail-layout-v1",
+  "scope": "Finite background tail-parameter conditioning in two fixed charts.\n\nThis reads a completed finite linear graph and computes no nonlinear tail.\nIt measures whether the finite theta representation resolves each actual\nmaterial Fourier height direction before a whole BVP is attempted.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-layout-check.py",
+    "bytes": 3279,
+    "sha256": "10b169a2c07a066156ae5efe5ce0f7447abe6fd7aec004a2f21768a341494cd4"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bvp_ports.py",
+    "bytes": 5066,
+    "sha256": "9e283fd9aa0cf0f29c4ef1c3060fef4ecf2ab2b0bcc74638636fcb490cbf613c"
+  },
+  "intrinsic": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_intrinsic.py",
+    "bytes": 15291,
+    "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+    "bytes": 32125,
+    "sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d"
+  },
+  "linear_tail": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-linear-tail95-01.json",
+    "bytes": 22011,
+    "sha256": "6e1c7f63ce9fe2be3e45825bf7e7b782560938be9c747de53faa28d73a3c6944"
+  },
+  "rows": [
+    {
+      "maximum_mode": 95,
+      "height_parameters": 47,
+      "chart": "fixed_balanced_normal",
+      "condition": 876290685383477.9,
+      "largest_singular_value": 8.947407590323246,
+      "smallest_singular_value": 1.021054741259486e-14,
+      "rank_at_relative_1e_minus12": 41,
+      "rank_at_relative_1e_minus8": 36,
+      "zero_jet": {
+        "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+        "minimum_n": 0.24875929755249696,
+        "minimum_vertical_normal_squared": 0.9900990099009901,
+        "gauss_defect": 2.2106882296979435e-16,
+        "Fourier_projection_maximum_difference": 1.0394788328704774e-17
+      }
+    },
+    {
+      "maximum_mode": 95,
+      "height_parameters": 47,
+      "chart": "material_u",
+      "condition": 7.182273909167757,
+      "largest_singular_value": 4.2823055377706,
+      "smallest_singular_value": 0.5962325569767652,
+      "rank_at_relative_1e_minus12": 47,
+      "rank_at_relative_1e_minus8": 47,
+      "zero_jet": {
+        "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+        "minimum_n": 0.24875929755249696,
+        "minimum_vertical_normal_squared": 0.9900990099009901,
+        "gauss_defect": 2.2106882296979435e-16,
+        "Fourier_projection_maximum_difference": 1.0394788328704774e-17
+      }
+    },
+    {
+      "maximum_mode": 191,
+      "height_parameters": 95,
+      "chart": "fixed_balanced_normal",
+      "condition": 3524019470643278.5,
+      "largest_singular_value": 8.947694976700335,
+      "smallest_singular_value": 2.5390594607205767e-15,
+      "rank_at_relative_1e_minus12": 69,
+      "rank_at_relative_1e_minus8": 62,
+      "zero_jet": {
+        "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+        "minimum_n": 0.24875929755249696,
+        "minimum_vertical_normal_squared": 0.9900990099009901,
+        "gauss_defect": 2.2106882296979435e-16,
+        "Fourier_projection_maximum_difference": 1.0394788328704774e-17
+      }
+    },
+    {
+      "maximum_mode": 191,
+      "height_parameters": 95,
+      "chart": "material_u",
+      "condition": 7.182273909167743,
+      "largest_singular_value": 4.282305537770591,
+      "smallest_singular_value": 0.5962325569767652,
+      "rank_at_relative_1e_minus12": 95,
+      "rank_at_relative_1e_minus8": 95,
+      "zero_jet": {
+        "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+        "minimum_n": 0.24875929755249696,
+        "minimum_vertical_normal_squared": 0.9900990099009901,
+        "gauss_defect": 2.2106882296979435e-16,
+        "Fourier_projection_maximum_difference": 1.0394788328704774e-17
+      }
+    }
+  ],
+  "seconds": 14.398586513998453,
+  "new_nonlinear_tail_solved": false
+}

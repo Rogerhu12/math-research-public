@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-11-12T11:24:40.122698+00:00",
+  "kind": "actual isolated bare-git CI fixture, not mathematical computation",
+  "tool_session": 86369,
+  "launch_chunk": "e40b4d",
+  "completion_chunk": "0ce79d",
+  "true_exit_code": 0,
+  "sources": {
+    "fd2d_ci_run_recovery.py": {
+      "bytes": 20232,
+      "sha256": "8efb5ff49aa7d85eba51ae7597569ba049bdfa6236a9d6c0c036e8ff02053e93",
+      "git_blob_sha": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+    },
+    "fd2d_ci_publish_recovery.py": {
+      "bytes": 12168,
+      "sha256": "6745b88da07acb1ddd966c89f11481825695b7cfdf55a89d13a1c93e6d12a9ee",
+      "git_blob_sha": "de337178420bee532104a9030b74e6302fbbfb85"
+    },
+    "check_fixture.py": {
+      "bytes": 5193,
+      "sha256": "2f6441d6831b1727336801e59c48c16e0d0120a296d6d6e54a2ec0248517672f",
+      "git_blob_sha": "3fd8ced3d27ec9de36676e0b108afe4d54f5623e"
+    }
+  },
+  "fixtures": [
+    {
+      "case": "normal",
+      "path": "/tmp/fd2d-ci-fixture-1-j91ja8xr",
+      "run_code": 0,
+      "publish_code": 0,
+      "phase": "published",
+      "report_process_exit": 0,
+      "remote_head": "5b0b587667882966201a09fc6bd2f803dd6bac03",
+      "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+    },
+    {
+      "case": "conflict",
+      "path": "/tmp/fd2d-ci-fixture-2-ezoxmjec",
+      "run_code": 0,
+      "publish_code": 0,
+      "phase": "published",
+      "report_process_exit": 0,
+      "remote_head": "fbbe0eeda18c004f165002edce781c7e73bbd2e4",
+      "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+    },
+    {
+      "case": "rules",
+      "path": "/tmp/fd2d-ci-fixture-3-rlhegul8",
+      "run_code": 7,
+      "publish_code": 78,
+      "phase": "stopped_for_changed_or_unreadable_README",
+      "report_process_exit": 7,
+      "remote_head": "4f6ea9b5765af416314652a0873b82b1d02d3944",
+      "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+    }
+  ],
+  "previous_actual_failure": {
+    "session": 76698,
+    "launch_chunk": "aa202d",
+    "completion_chunk": "8c4038",
+    "true_exit_code": 1,
+    "reason": "source_inputs treated long Python -c code as a path; ENAMETOOLONG; fixed before these three passing scenarios"
+  },
+  "real_github_origin_was_not_written": true,
+  "scope": "normal publication; own H/root LOG conflicts with preservation of human text; failure exit propagation and README-change publication stop; latest accepted selection/gzip"
+}

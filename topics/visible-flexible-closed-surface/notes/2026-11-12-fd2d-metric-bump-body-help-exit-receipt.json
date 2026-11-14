@@ -1,0 +1,12 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 38015,
+  "completion_chunk_id": "2183ab",
+  "observed_exit_code": 0,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-bump-body-screen.py",
+    "--help"
+  ],
+  "scope": "Actual module import and CLI parsing only; no body integration"
+}

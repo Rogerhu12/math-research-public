@@ -1,0 +1,75 @@
+{
+  "status": "same-background-grid-transfer-conditional-on-reviewed-input-packet",
+  "scope": "Transfer a proved background value packet to another grid of the same g.\n\nThe packet is a pointwise interval-polynomial enclosure for w and wr; no\nderivative of a packet polynomial is asserted. Exact physical intersections\nare converted to binary local partitions using both outward neighbours.\nEvery old piece with positive-length intersection is affinely composed, then\ncoefficient hulls cover the possibly different pieces on a boundary sliver.\nThe analytic validity of the input packet remains a separate proof input.\n",
+  "finished": true,
+  "finite_tail_manifest_sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+  "data_file": "2026-11-09-db6f-root-background-transfer-tight-m12.npz.gz",
+  "data_sha256": "a9b4330542317d55e6fffe193a6d8040555b0857c341a60a007cc6d3ad9643f9",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "input_packet": "notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+  "input_packet_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "input_data_sha256": "275138aba6a789c4283b560668e5c8a45f8292e0d2bd188f7433a0bdda3f022c",
+  "old_manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "old_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "new_manifest": "notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+  "new_manifest_sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+  "script_sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+  "reader_sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+  "interval_backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "packet_validator_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "different_numerical_parameter_keys": [
+    "auditSteps",
+    "depth",
+    "farPadding",
+    "initialCheckpoint",
+    "maxIterations",
+    "modes",
+    "physicalDepth",
+    "quadrature",
+    "shootingParts",
+    "steps",
+    "traceFile"
+  ],
+  "all_other_parameters_identical": true,
+  "old_rows": 5237,
+  "rows": 28928,
+  "old_finite_spans": 4637,
+  "new_finite_spans": 18457,
+  "rounded_boundary_pairs": 5235,
+  "multiple_old_piece_rows": 5235,
+  "maximum_old_pieces_per_row": 2,
+  "coefficient_basis": "Power coefficients in each new local tau; pointwise interval-polynomial enclosure.",
+  "background_curvature_bound": 6,
+  "mathematical_scope": "Values of w and wr only. Do not differentiate these packet polynomials.",
+  "not_certified": [
+    "analytic validity of original background packet",
+    "metric or curvature of the new finite perturbation",
+    "README completion"
+  ],
+  "seconds": 3.719899892807007
+}

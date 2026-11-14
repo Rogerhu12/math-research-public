@@ -1,0 +1,26 @@
+{
+  "scope": "Complete the actual split prefix checkpoint input; no mathematical solve rerun",
+  "run08_poll_tool": "cbe8e4",
+  "run08_session": 92055,
+  "run08_exit_code": 1,
+  "run08_node_started": false,
+  "cause": "Copied prefix checkpoint metadata referenced external coefficient chunks, now copied exactly",
+  "files": [
+    {
+      "original_path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_00.npy.gz",
+      "copied_path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_00.npy.gz",
+      "bytes": 4174602,
+      "sha256": "afde04de0544743ee695ce539abcc91116b142ff3aaae3d3fbd88d34fb3a789f"
+    },
+    {
+      "original_path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_01.npy.gz",
+      "copied_path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01_coeff_01.npy.gz",
+      "bytes": 1467096,
+      "sha256": "f988042717251970e96fdd47eb9f4dc03475c55f9772c339f81c319b2e554f2f"
+    }
+  ],
+  "copied_bytes": 5641698,
+  "all_declared_chunk_hashes_match": true,
+  "actual_stage_cache_unchanged": true,
+  "retained_stages": 448
+}

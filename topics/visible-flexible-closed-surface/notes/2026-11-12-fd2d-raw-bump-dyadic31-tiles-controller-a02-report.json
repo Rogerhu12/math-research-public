@@ -1,0 +1,300 @@
+{
+  "schema": "fd2d-owned-normal-small-batch-controller-v1",
+  "started_utc": "2026-11-12T20:06:58.403064+00:00",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-dyadic-run-normal-tile-batches.py",
+    "sha256": "156fc11d94ccc0749619e9f68e5844d13aa14326842422f1a3e5a18959ca153d"
+  },
+  "request": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+    "sha256": "9ea1e0cfcbf2c2da3fcbef027e0f306d3413a10057cff2a3360fc6a08fd0e878"
+  },
+  "plan": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work/normal-partition-plan.json",
+    "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+  },
+  "context_reuse_only": true,
+  "finite_target_or_tile_partition_changed": false,
+  "batch_size": 4,
+  "actual_child_records": [
+    {
+      "tile_ids": [
+        "0004-nodes",
+        "0005-nodes",
+        "0006-nodes",
+        "0007-nodes"
+      ],
+      "started_utc": "2026-11-12T20:06:58.409340+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0004-0007-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0004-0007-a01",
+        "--tile-id",
+        "0004-nodes",
+        "--tile-id",
+        "0005-nodes",
+        "--tile-id",
+        "0006-nodes",
+        "--tile-id",
+        "0007-nodes"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0004-0007-a01-process-receipt.json",
+      "complete": true,
+      "actual_monitor_returncode": 0,
+      "ended_utc": "2026-11-12T20:07:08.646586+00:00",
+      "closed_tile_ids": [
+        "0004-nodes",
+        "0005-nodes",
+        "0006-nodes",
+        "0007-nodes"
+      ],
+      "actual_child_returncode": 0,
+      "actual_child_seconds": 10.100157387998479,
+      "peak_rss_kib": 132260
+    },
+    {
+      "tile_ids": [
+        "0008-nodes",
+        "0009-cells",
+        "0010-cells",
+        "0011-cells"
+      ],
+      "started_utc": "2026-11-12T20:07:08.657356+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0008-0011-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0008-0011-a01",
+        "--tile-id",
+        "0008-nodes",
+        "--tile-id",
+        "0009-cells",
+        "--tile-id",
+        "0010-cells",
+        "--tile-id",
+        "0011-cells"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0008-0011-a01-process-receipt.json",
+      "complete": true,
+      "actual_monitor_returncode": 0,
+      "ended_utc": "2026-11-12T20:07:20.429740+00:00",
+      "closed_tile_ids": [
+        "0008-nodes",
+        "0009-cells",
+        "0010-cells",
+        "0011-cells"
+      ],
+      "actual_child_returncode": 0,
+      "actual_child_seconds": 11.57022882700403,
+      "peak_rss_kib": 131340
+    },
+    {
+      "tile_ids": [
+        "0012-cells",
+        "0013-cells",
+        "0014-cells",
+        "0015-cells"
+      ],
+      "started_utc": "2026-11-12T20:07:20.445466+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0012-0015-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0012-0015-a01",
+        "--tile-id",
+        "0012-cells",
+        "--tile-id",
+        "0013-cells",
+        "--tile-id",
+        "0014-cells",
+        "--tile-id",
+        "0015-cells"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0012-0015-a01-process-receipt.json",
+      "complete": true,
+      "actual_monitor_returncode": 0,
+      "ended_utc": "2026-11-12T20:07:28.642374+00:00",
+      "closed_tile_ids": [
+        "0012-cells",
+        "0013-cells",
+        "0014-cells",
+        "0015-cells"
+      ],
+      "actual_child_returncode": 0,
+      "actual_child_seconds": 8.063701000995934,
+      "peak_rss_kib": 131804
+    },
+    {
+      "tile_ids": [
+        "0016-cells",
+        "0017-cells",
+        "0018-cells",
+        "0019-cells"
+      ],
+      "started_utc": "2026-11-12T20:07:28.646234+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0016-0019-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0016-0019-a01",
+        "--tile-id",
+        "0016-cells",
+        "--tile-id",
+        "0017-cells",
+        "--tile-id",
+        "0018-cells",
+        "--tile-id",
+        "0019-cells"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0016-0019-a01-process-receipt.json",
+      "complete": true,
+      "actual_monitor_returncode": 0,
+      "ended_utc": "2026-11-12T20:07:37.313196+00:00",
+      "closed_tile_ids": [
+        "0016-cells",
+        "0017-cells",
+        "0018-cells",
+        "0019-cells"
+      ],
+      "actual_child_returncode": 0,
+      "actual_child_seconds": 8.55307138599892,
+      "peak_rss_kib": 131624
+    },
+    {
+      "tile_ids": [
+        "0020-cells",
+        "0021-cells",
+        "0022-cells",
+        "0023-cells"
+      ],
+      "started_utc": "2026-11-12T20:07:37.325122+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0020-0023-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0020-0023-a01",
+        "--tile-id",
+        "0020-cells",
+        "--tile-id",
+        "0021-cells",
+        "--tile-id",
+        "0022-cells",
+        "--tile-id",
+        "0023-cells"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0020-0023-a01-process-receipt.json",
+      "complete": true,
+      "actual_monitor_returncode": 0,
+      "ended_utc": "2026-11-12T20:07:46.042787+00:00",
+      "closed_tile_ids": [
+        "0020-cells",
+        "0021-cells",
+        "0022-cells",
+        "0023-cells"
+      ],
+      "actual_child_returncode": 0,
+      "actual_child_seconds": 8.622728014997847,
+      "peak_rss_kib": 131732
+    },
+    {
+      "tile_ids": [
+        "0024-cells",
+        "0025-cells",
+        "0026-cells",
+        "0027-cells"
+      ],
+      "started_utc": "2026-11-12T20:07:46.045358+00:00",
+      "attempt": 1,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0024-0027-a01-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-gc-dyadic-stage-normal-tile-batch.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0024-0027-a01",
+        "--tile-id",
+        "0024-cells",
+        "--tile-id",
+        "0025-cells",
+        "--tile-id",
+        "0026-cells",
+        "--tile-id",
+        "0027-cells"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-dyadic31-tiles-0024-0027-a01-process-receipt.json",
+      "complete": false,
+      "actual_monitor_returncode": 137,
+      "ended_utc": "2026-11-12T20:07:51.798693+00:00",
+      "closed_tile_ids": [
+        "0024-cells"
+      ],
+      "actual_child_returncode": -9,
+      "actual_child_seconds": 5.598321405006573,
+      "peak_rss_kib": 134628
+    }
+  ],
+  "complete": false,
+  "accepted_states_created": 0,
+  "seconds": 53.39852022899868,
+  "closed_manifest_count": 24,
+  "ended_utc": "2026-11-12T20:07:51.801275+00:00",
+  "controller_returncode": 137
+}

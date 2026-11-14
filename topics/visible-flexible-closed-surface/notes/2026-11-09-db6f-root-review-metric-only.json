@@ -1,0 +1,40 @@
+{
+  "status": "PASS-static-method-and-complete-independent-metric-regression",
+  "script_sha256": "7cecc47c6163fd8f6c7fee49d22e53aa0cf15d666af733b8210d5c4e8e7ee454",
+  "reviewed_script_sha256": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6",
+  "reviewed_stream_sha256": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+  "frozen_backend_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "before_report_sha256": "87b2e526a5883c46824d214e3207f3888651aef65dfb2a4714799d39974061d2",
+  "after_report_sha256": "41874129f64f6d69262da913155050b3cc3f3bbb9d1d211abfe2729d4260b420",
+  "before_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83",
+  "after_rows_sha256": "31f473311a3db22d41b3d3bc8108d46fa84cbbe299cfe56f497fed500ee7cd37",
+  "all_rows_identical_on_metric_fields": true,
+  "row_fields_checked": [
+    "packet_row",
+    "span_index",
+    "metric_operator_upper"
+  ],
+  "checked_rows": 5237,
+  "all_global_metric_fields_identical": true,
+  "global_fields_checked": [
+    "manifest_sha256",
+    "packet_sha256",
+    "packet_data_sha256",
+    "total_finite_spans",
+    "collar_included",
+    "packet_intervals",
+    "checked_packet_intervals",
+    "radial_subdivisions",
+    "selected_span_interval",
+    "metric_operator_upper",
+    "coordinate_residual_upper",
+    "worst_metric_packet",
+    "entire_finite_tail_and_collar_covered",
+    "metric_immersion_certified_on_checked_intervals"
+  ],
+  "metric_operator_upper": 9.968938237875866e-07,
+  "no_curvature_claim": true,
+  "peak_process_rss_bytes": 75988992,
+  "completed_process_exit_code": 0,
+  "scope": "Same exact finite map and complete background packet. This verifies the omission of unused second-jet and curvature calculations. It does not certify a new source ODE, background supplier, or G5."
+}

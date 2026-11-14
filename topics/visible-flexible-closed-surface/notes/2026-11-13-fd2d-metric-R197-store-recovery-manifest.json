@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-R197-V8-store-to-executor-recovery-v1",
+  "date_utc": "2026-11-13",
+  "scope": "Byte-preserving recovery of the already completed 643.853-second R197 V8 run; no mathematical recomputation.",
+  "execution": {
+    "original_engine": "functions V8",
+    "original_cell": "g2:46",
+    "completed": true,
+    "seconds": 643.853,
+    "os_exit_code": null
+  },
+  "verification": {
+    "method": "Python hashlib.sha256 on recovered executor files, matched stored original hashes",
+    "exit_code": 0,
+    "chunk_id": "1ae27d"
+  },
+  "files": [
+    {
+      "path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-12-fd2d-metric-R197-material-chart-portable-32cells.json",
+      "bytes": 879135,
+      "sha256": "39aad4ebdbc35fe843eef7df35bbd3f9a29450f1fb2bd6d1d547a98a1771f65f",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-R197-material-chart-portable-32cells.json"
+    },
+    {
+      "path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-12-fd2d-metric-R197-material-chart-full-01-report.json",
+      "bytes": 120596,
+      "sha256": "05718d4f2ac8456919acfe58ed3ad8c70560087d47babe29b3fcb7c0e5ff87ac",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-R197-material-chart-full-01-report.json"
+    },
+    {
+      "path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d_R197_saved_ellipse_material_chart.cjs",
+      "bytes": 10092,
+      "sha256": "3ccca82923ac0ed4cebcd66cc912944e41565d8e27567e0bd08f684a029ff79f",
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R197_saved_ellipse_material_chart.cjs"
+    },
+    {
+      "path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d_R187_saved_ellipse_normalization_exact.cjs",
+      "bytes": 8239,
+      "sha256": "efdd34fd43db8da8b11e3cd0a319b04e11d068a36931b99cf0d8adb124a3ed45",
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R187_saved_ellipse_normalization_exact.cjs"
+    }
+  ],
+  "existing_closed_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-R197-saved-ellipse-material-chart-closed-manifest.json",
+    "sha256": "c2530cb9f6f995c84c848a397987cad39b866d792b41b695b88d5891d7b49fad"
+  },
+  "limitations": [
+    "No OS process exit code is assigned to the earlier V8 calculation.",
+    "The full portable cell data and full report were not previously transferred through GitHub API.",
+    "No full main-state posterior is claimed."
+  ]
+}

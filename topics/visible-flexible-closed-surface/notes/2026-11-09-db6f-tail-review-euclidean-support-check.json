@@ -1,0 +1,162 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_TOY_AND_QUATERNION_IDENTITIES",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-euclidean-support.py",
+    "bytes": 11449,
+    "sha256": "8e2f4187d4ac45a472c1682528fee5934f0f8fd30f44fe4c57e6d3d033f54274"
+  },
+  "verified_sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-closed-inventory.json",
+      "bytes": 1616,
+      "sha256": "5da983dea25da3c335c8a2ecb71337af97f845ff5009c3e88846a35b0abf8c1c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-fixed-cap-scope.md",
+      "bytes": 2390,
+      "sha256": "0496aa18c4c9b9fdceb014b57628db17c38e6965504b1bfe49ae748d641e4f86"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound-sources.json",
+      "bytes": 1614,
+      "sha256": "97177ab760b2c48df25134e61c07f44465485e08c5d636d40653530bd1d3d911"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound.md",
+      "bytes": 12039,
+      "sha256": "b6df2b1b46542d20ef0198293efe6b98389dc758a52cba9ed50dd6d3ca9780e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-observed-execution.json",
+      "bytes": 1805,
+      "sha256": "946388a9955396b5295df6b06e1268aa5ede86710ebff959757a8799364b7189"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-publication.json",
+      "bytes": 2238,
+      "sha256": "7f2208cbaca10d5ca220c877b7c886c95806a956be882f4414aab37597b88d3e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-toy-certificate.json",
+      "bytes": 8959,
+      "sha256": "5b5b3b8a6de37bde6c7132ea58791777c6275446884382f516b780b65c9e5793"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-euclidean-support-toy-replay.json",
+      "bytes": 8959,
+      "sha256": "5b5b3b8a6de37bde6c7132ea58791777c6275446884382f516b780b65c9e5793"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-euclidean-support-toy-certificate.py",
+      "bytes": 5962,
+      "sha256": "8c0207a9974829fee227eada20ac4977824d52e50ef2779ec8470e10cd1e3305"
+    }
+  ],
+  "bound_file_count": 10,
+  "author_replay_byte_identical": true,
+  "eight_distinct_cells_and_branches_checked": true,
+  "row_checks": [
+    {
+      "cell": 0,
+      "branch": "proper",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 0,
+      "branch": "reflected",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 1,
+      "branch": "proper",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 1,
+      "branch": "reflected",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 2,
+      "branch": "proper",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 2,
+      "branch": "reflected",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 3,
+      "branch": "proper",
+      "lower": "1/4",
+      "margin": "1/20"
+    },
+    {
+      "cell": 3,
+      "branch": "reflected",
+      "lower": "1/4",
+      "margin": "1/20"
+    }
+  ],
+  "integer_polynomial_identities": [
+    "action_formula_00",
+    "action_formula_01",
+    "action_formula_02",
+    "action_formula_10",
+    "action_formula_11",
+    "action_formula_12",
+    "action_formula_20",
+    "action_formula_21",
+    "action_formula_22",
+    "orthogonality_00",
+    "orthogonality_01",
+    "orthogonality_02",
+    "orthogonality_10",
+    "orthogonality_11",
+    "orthogonality_12",
+    "orthogonality_20",
+    "orthogonality_21",
+    "orthogonality_22",
+    "determinant_norm_cubed",
+    "quaternion_norm_multiplicativity",
+    "composition_00",
+    "composition_01",
+    "composition_02",
+    "composition_10",
+    "composition_11",
+    "composition_12",
+    "composition_20",
+    "composition_21",
+    "composition_22",
+    "relative_scalar_dot",
+    "trace_formula",
+    "conjugate_transpose_00",
+    "conjugate_transpose_01",
+    "conjugate_transpose_02",
+    "conjugate_transpose_10",
+    "conjugate_transpose_11",
+    "conjugate_transpose_12",
+    "conjugate_transpose_20",
+    "conjugate_transpose_21",
+    "conjugate_transpose_22"
+  ],
+  "polynomial_identity_count": 40,
+  "fixed_orientation_C3_coefficient": "32/25",
+  "coverage_scope": "Universal sphere/grid and four-cell coverage is proved in the independent written review, not inferred from row sampling.",
+  "actual_surface_files_read": false,
+  "actual_support_optimization_calls": 0,
+  "root_RK_prefix_tail_solver_calls": 0,
+  "current_candidate_metric_or_source_changed": false
+}

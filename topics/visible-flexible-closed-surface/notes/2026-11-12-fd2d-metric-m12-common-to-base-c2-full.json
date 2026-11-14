@@ -1,0 +1,162 @@
+{
+  "backend": {
+    "bytes": 11134,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-polynomial-storage-v1.py",
+    "sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e"
+  },
+  "bound_method": "Outward binary64 interval arithmetic; exact rational knot union and affine restrictions; subtract power coefficients; Bernstein hull per Fourier coefficient; Fourier l1 and Euclidean norm",
+  "candidate": {
+    "bytes": 9031,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+    "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+  },
+  "candidate_bindings": [
+    {
+      "bytes": 9031,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+      "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+    },
+    {
+      "bytes": 3112330,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+      "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+    }
+  ],
+  "candidate_radial_length_exact": "4552634583911787/2251799813685248",
+  "common_modes": 64,
+  "comparison_chart": "x in [0,1], psi; X(x,psi)=reference(S_ref*x,psi), Y(x,psi)=candidate(S_new*x,psi)",
+  "complete_prefix_domain": true,
+  "coordinate_derivatives_include_rotating_basis": true,
+  "first_cell": 0,
+  "last_cell_exclusive": 2569,
+  "mathematical_qualification": "Normalized coordinates coincide with common physical target coordinates only after the two exact bridge/material definitions are identified. This report does not establish that identity.",
+  "maxima": {
+    "position": {
+      "cell": 2476,
+      "components": [
+        1.186549629679928e-11,
+        1.3130083385225713e-11,
+        2.104043095875284e-12
+      ],
+      "left_exact": "8870808486752117/9105269167823574",
+      "right_exact": "4436542402022036/4552634583911787",
+      "subdivision": 0,
+      "vector": 1.7243295709225254e-11
+    },
+    "psi": {
+      "cell": 2463,
+      "components": [
+        1.040371742445269e-09,
+        5.849533940427181e-10,
+        2.2169910884934944e-11
+      ],
+      "left_exact": "1473536060326115/1517544861303929",
+      "right_exact": "1473915446541441/1517544861303929",
+      "subdivision": 0,
+      "vector": 1.188531169477414e-09
+    },
+    "psipsi": {
+      "cell": 2461,
+      "components": [
+        1.35096635480374e-07,
+        5.420113258536916e-08,
+        2.976252433402268e-10
+      ],
+      "left_exact": "1472777287895463/1517544861303929",
+      "right_exact": "8838940044664735/9105269167823574",
+      "subdivision": 0,
+      "vector": 1.455366101451861e-07
+    },
+    "x": {
+      "cell": 2528,
+      "components": [
+        6.313460626267278e-10,
+        4.2355826066268395e-10,
+        5.55095576406876e-11
+      ],
+      "left_exact": "1498575550537630/1517544861303929",
+      "right_exact": "1498954936752956/1517544861303929",
+      "subdivision": 0,
+      "vector": 6.936093352414087e-10
+    },
+    "xpsi": {
+      "cell": 2530,
+      "components": [
+        5.534886250353977e-08,
+        2.1280753989420844e-08,
+        6.341926676141465e-10
+      ],
+      "left_exact": "1499334322968282/1517544861303929",
+      "right_exact": "8998282255101647/9105269167823574",
+      "subdivision": 0,
+      "vector": 5.9235497493432456e-08
+    },
+    "xx": {
+      "cell": 2568,
+      "components": [
+        1.269455298749419e-07,
+        4.837103719411262e-08,
+        3.6724718671747674e-08
+      ],
+      "left_exact": "4550358266619832/4552634583911787",
+      "right_exact": "1",
+      "subdivision": 0,
+      "vector": 1.3586604366914439e-07
+    }
+  },
+  "merged_radial_cells": 2569,
+  "metric_solution": false,
+  "ode_calls": 0,
+  "radial_subdivisions": 1,
+  "reach_transfer": false,
+  "reference": {
+    "bytes": 10095,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "reference_bindings": [
+    {
+      "bytes": 10095,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    {
+      "bytes": 13021,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "bytes": 3112330,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+      "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+    }
+  ],
+  "reference_metric_norms_computed": false,
+  "reference_radial_length_exact": "4552634583911787/2251799813685248",
+  "representation_modes": [
+    64,
+    24
+  ],
+  "row_data": {
+    "bytes": 650473,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-common-to-base-c2-full-rows.json.gz",
+    "sha256": "cdacc6f598b8af1a5aa0c9448bf85781653c8cddc0e75bbba75f38627901726c"
+  },
+  "same_frozen_profile_metadata": true,
+  "same_saved_angular_chart": true,
+  "schema": "fd2d-continuous-prefix-coordinate-c2-difference-v1",
+  "scope": "Continuous C2 difference bounds for two actual shared-Hermite prefixes.\n\nThe maps are compared at the same normalized radial coordinate x in [0,1]\nand the same saved angular coordinate psi. Their exact rational knot union\nis used; polynomial coefficients are subtracted before any Fourier norm.\nAll Cartesian angular derivatives include rotation of the cylindrical basis.\n\nThis supplies coordinate-jet bounds only. Converting them to the reference\ninduced metric, matching the same physical material chart, and covering tails\nand caps are separate requirements. No global geometric transfer is asserted.\n",
+  "script": {
+    "bytes": 16619,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-prefix-c2-difference.py",
+    "sha256": "fc5d483550bafc8adc4ddf89e07b6d89bc25523a5e1e83fcdf86ae2b76ed77db"
+  },
+  "seconds": 99.92499044499709,
+  "solver_calls": 0,
+  "source_modes": [
+    12,
+    12
+  ],
+  "status": "PREFIX_COORDINATE_DIFFERENCE_ONLY__UNVERIFIED_GLOBALLY",
+  "whole_surface_covered": false
+}

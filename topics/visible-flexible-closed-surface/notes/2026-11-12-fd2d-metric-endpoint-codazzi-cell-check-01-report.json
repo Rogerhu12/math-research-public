@@ -1,0 +1,307 @@
+{
+  "schema": "fd2d-R146-actual-cell-endpoint-Codazzi-JVP-check-v1",
+  "actual_execution": true,
+  "passed": false,
+  "checks": {
+    "endpoint_difference_identity": true,
+    "state_Jacobian_exactly_unchanged": true,
+    "all_three_actual_JVPs_nonzero": false,
+    "all_three_parameter_and_state_JVPs": true,
+    "original_local_provider_and_arrays_unchanged": true,
+    "full_average_projection_matches_retained": true,
+    "source_bytes_unchanged": true
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-endpoint-codazzi-cell-check.py",
+      "bytes": 9252,
+      "sha256": "ecc816f3f71594ebc3b8a212a9973eac8dd049f0c3a6ac0ea2745da81cb3da00"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_d2.py",
+      "bytes": 11040,
+      "sha256": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    }
+  ],
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-initial.npz",
+    "bytes": 47125,
+    "sha256": "897ecba1f6eaf69252c12236cffae324058b3aeec5fdee817000245224ba3b56"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "cache": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "bytes": 401936,
+    "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+  },
+  "cell": 63,
+  "actual_cell_endpoints": [
+    0.5919999999999992,
+    0.6313633493003443
+  ],
+  "original_mesh_node_count": 122,
+  "local_view_nodes": 2,
+  "angular_work": 256,
+  "state_direction_seed": 146146,
+  "JVPs": [
+    {
+      "group": "actual_two_node_state",
+      "step": 1e-06,
+      "direction_l2": 1.0,
+      "analytic_JVP_l2": 32.863127885572375,
+      "finite_JVP_l2": 32.86312788526446,
+      "absolute_maximum_error": 1.230415769271076e-09,
+      "relative_l2_error": 6.286394556707222e-11,
+      "scaled_maximum_error": 9.557168856278647e-11
+    },
+    {
+      "group": "full_tail_parameters",
+      "step": 1e-06,
+      "direction_l2": 0.9999999999999999,
+      "analytic_JVP_l2": 0.0,
+      "finite_JVP_l2": 0.0,
+      "absolute_maximum_error": 0.0,
+      "relative_l2_error": 0.0,
+      "scaled_maximum_error": 0.0
+    },
+    {
+      "group": "physical_profile_parameters",
+      "step": 1e-06,
+      "direction_l2": 0.9999999999999999,
+      "analytic_JVP_l2": 2.9645665853176295,
+      "finite_JVP_l2": 2.964566585902247,
+      "absolute_maximum_error": 1.923655457147788e-09,
+      "relative_l2_error": 1.152876476679229e-09,
+      "scaled_maximum_error": 9.060499818398623e-10
+    }
+  ],
+  "exact_change_identity_errors": {
+    "full": 2.842170943040401e-14,
+    "retained": 7.105427357601002e-15,
+    "high": 1.2177758801357186e-15,
+    "point_Gauss": 0.0
+  },
+  "state_Jacobian_maximum_change": 0.0,
+  "unchanged_original_local_quantities": {
+    "original_local_provider_F": 0.0,
+    "original_local_fields": 0.0,
+    "original_vector": 0.0,
+    "original_mesh": 0.0,
+    "original_chart": 0.0
+  },
+  "full_average_projection_error": 1.056932319443149e-13,
+  "original_Gauss2_finite_residual_maximum": 11.545783495283615,
+  "new_endpoint_finite_residual_maximum": 17.65330199685642,
+  "new_finite_equation_definition": {
+    "schema": "fd2d-fixed-physical-s-endpoint-lifting-codazzi-D2-v1",
+    "order": 2,
+    "quadrature_fraction_nodes": [
+      0.21132486540518713,
+      0.7886751345948129
+    ],
+    "quadrature_average_weights": [
+      0.5,
+      0.5
+    ],
+    "physical_g_changed": false,
+    "unknown_mesh_changed": false,
+    "original_trapezoid_rows_changed": true,
+    "original_whole_correction_RHS_Gauss_rows_changed": true,
+    "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+    "finite_equations_changed_by_exact_lifting_integration": true,
+    "node_Gauss_boundary_gap_rows_changed": false,
+    "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+    "retained_cell_maximum": 17.65330199685642,
+    "sampled_full_average_codazzi_maximum": 30.399247658966427,
+    "sampled_omitted_average_codazzi_maximum": 0.2054936540230502,
+    "sampled_interior_Gauss_maximum": 0.5943688286229396,
+    "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+    "row_definition": {
+      "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+      "work": 256,
+      "retained_maximum_frequency": 30,
+      "even_frequencies": [
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128
+      ],
+      "odd_frequencies": [
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126
+      ],
+      "ordinary_projection_weight": "2/W",
+      "even_Nyquist_projection_weight": "sqrt(2)/W",
+      "old_point_normalization": "sqrt(2/W)",
+      "grid_roundoff_maximum": 8.881784197001252e-16,
+      "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+      "arbitrary_sampled_fields_supported": false,
+      "floating_point_symmetry_defects_are_reported": true,
+      "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+      "continuous_angular_certificate": false
+    },
+    "old_high_point_rows": 512,
+    "old_large_high_point_jacobian_constructed": false,
+    "finite_symmetry_and_compression": {
+      "n": {
+        "parity": "even",
+        "point_rows": 256,
+        "compressed_rows": 49,
+        "normalized_point_l2": 0.11446502962663511,
+        "compressed_l2": 0.11446502962663496,
+        "point_reconstruction_error_l2": 2.450264567299125e-13,
+        "point_reconstruction_error_maximum": 5.73078910715008e-14,
+        "sampled_reflection_error_maximum": 6.392664175791651e-13,
+        "sampled_half_period_error_maximum": 6.77347067323808e-13,
+        "sampled_row_gram_error_maximum": 9.111143040260421e-15
+      },
+      "m": {
+        "parity": "odd",
+        "point_rows": 256,
+        "compressed_rows": 48,
+        "normalized_point_l2": 0.08539000157399028,
+        "compressed_l2": 0.08539000157399028,
+        "point_reconstruction_error_l2": 4.118645400876426e-14,
+        "point_reconstruction_error_maximum": 1.2184697695261093e-14,
+        "sampled_reflection_error_maximum": 1.7069679003611782e-13,
+        "sampled_half_period_error_maximum": 1.620370504440416e-13,
+        "sampled_row_gram_error_maximum": 7.43401344956432e-15
+      }
+    },
+    "continuous_certificate": false,
+    "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+    "retained_jacobian_nonzeros": 1987,
+    "high_jacobian_nonzeros": 6111
+  },
+  "whole_BVP_matrix_assembled": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false,
+  "seconds": 5.309795498000312,
+  "maximum_rss_kib": 77328
+}

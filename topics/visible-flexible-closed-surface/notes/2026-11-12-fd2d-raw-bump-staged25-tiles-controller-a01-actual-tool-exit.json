@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-owner-stop-at-durable-tile-boundary-v1",
+  "session_id": 69212,
+  "launch_chunk": "7ea619",
+  "final_chunk": "80e4af",
+  "actual_tool_exit": 130,
+  "all_nine_completed_node_children_exit": 0,
+  "no_running_child_left": true,
+  "reason": "Reuse the same immutable context for up to four individually durable tiles per child; original finite target and all normal bindings unchanged.",
+  "stop_marker": {
+    "owner": "numerical_recovery",
+    "utc": "2026-11-12T17:49:47.505973+00:00",
+    "reason": "Switch only process scheduling to at most four independently durable tiles per shared immutable context; no finite-goal or partition change."
+  },
+  "observed_utc": "2026-11-12T17:50:14.124461+00:00"
+}

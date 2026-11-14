@@ -1,0 +1,187 @@
+{
+  "scope": "One-stage test of the actual zero-direction geometric roundtrip. One original base variational flow and one original plain flow at the roundtripped input. The full base Jacobian and output are retained as a small binary file. No full-tail shooting or BVP is run.",
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-iteration3-root-diagnostic-input.json.gz",
+    "bytes": 385541,
+    "sha256": "18996bebb3b93b2b092c31e7e16f956a3826071133d40c01ac20dfe931adf7d9"
+  },
+  "config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-tail-config.json",
+    "bytes": 2819,
+    "sha256": "a49e86e6ae7735ae2fb2d9f44765da459f04d10fa5c7b7245f6f468652a64f04"
+  },
+  "roundtrip": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-geometry-retraction-roundtrip-01.json",
+    "bytes": 19497,
+    "sha256": "a362888d83a83af9c0fb6cfc445f7a91d9de6871224a28a122fcb55768e20287"
+  },
+  "iteration": {
+    "iteration": 3,
+    "norm": 3.3366011642270125e-9,
+    "minA": 0.9605876583918314,
+    "minD": 0.9989651369830822,
+    "worst": {
+      "stage": 12,
+      "component": 42,
+      "absolute": 2.141778724366807e-12,
+      "scale": 0.0006419043268729995,
+      "normalized": 3.3366011642270125e-9,
+      "kind": "shooting",
+      "rawCell": 0,
+      "rawSegment": 7
+    }
+  },
+  "stage": 12,
+  "rawCell": 0,
+  "rawSegment": 7,
+  "part": 3,
+  "inputNode": 13,
+  "targetNode": 12,
+  "modes": 22,
+  "quadrature": 512,
+  "steps": 32,
+  "portRatio": 1,
+  "normalizingScale": 0.0006419043268729995,
+  "scriptSHA256": "882ec2302df6c748e6218028868b3565f82621b8f0465c9d15a306331ff7b97c",
+  "sourceSHA256": {
+    "78718-tail-fourier-root-split-engine.mjs": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "78718-tail-fourier-product-jacobian.mjs": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "jacobianData": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-retraction-bias-stage-flow-01-base-jacobian.f64.gz",
+    "bytes": 15662,
+    "sha256": "4f477ea21c3e1d98edd1dc76cf3346676a3a809eb49a68a0bef6cec321d61da9",
+    "dtype": "little-endian float64",
+    "rows": 44,
+    "columns": 44,
+    "layout": "First K*K row-major port-normalized state Jacobian, then K base output coordinates, then mean-height scalar."
+  },
+  "blocks": {
+    "QQ": {
+      "maximumEntry": 722297.641630804,
+      "maximumRowSum": 725405.8490021158
+    },
+    "QPi": {
+      "maximumEntry": 0.05879028478291447,
+      "maximumRowSum": 0.059279334949014065
+    },
+    "PiQ": {
+      "maximumEntry": 24210979745932.918,
+      "maximumRowSum": 24289035536140.316
+    },
+    "PiPi": {
+      "maximumEntry": 1970607.3041735736,
+      "maximumRowSum": 1984664.4205627886
+    }
+  },
+  "inputMaximumQBias": 0,
+  "inputMaximumPiBias": 2.220446049250313e-16,
+  "targetMaximumQBias": 0,
+  "targetMaximumPiBias": 1.7763568394002505e-15,
+  "centeredStatesBitwiseEqualBase": true,
+  "baseNormalizedStageResidual": 3.3366011642270125e-9,
+  "trialNormalizedStageResidual": 3.99009493351523e-9,
+  "savedWorstAbsoluteReplayDifference": 0,
+  "predictedChangeNormalized": 1.293706447196382e-9,
+  "actualChangeNormalized": 1.0814705032998263e-9,
+  "predictionErrorNormalized": 2.122359438965558e-10,
+  "savedWorst": {
+    "component": 42,
+    "frequency": 63,
+    "baseResidual": 2.141778724366807e-12,
+    "trialResidual": 1.6232103168058633e-12,
+    "predictedChange": -4.439088212537202e-13,
+    "actualChange": -5.185684075609435e-13,
+    "fromInputQ": 0,
+    "fromInputPi": -4.439073179441838e-13,
+    "minusTarget": -1.5033095363998767e-18,
+    "sameFrequencyPiFromQ": -12182669891462.29,
+    "sameFrequencyPiFromPi": -1083680.2137449011
+  },
+  "highModes": [
+    {
+      "frequency": 51,
+      "baseResidual": 2.0797727700828705e-13,
+      "trialResidual": 1.734072067835335e-13,
+      "predictedResidualChange": -2.55871681840118e-14,
+      "actualResidualChange": -3.4570070224753526e-14,
+      "linearPredictionError": -8.982902040741726e-15,
+      "inputPiRoundtrip": 2.8238222667838654e-19,
+      "targetPiRoundtrip": -1.1141131222010045e-18,
+      "sameFrequencyPiFromPi": -96278.69068198325,
+      "sameFrequencyPiFromQ": -724446270062.0139
+    },
+    {
+      "frequency": 54,
+      "baseResidual": 7.717928987098649e-14,
+      "trialResidual": -4.40626383559509e-14,
+      "predictedResidualChange": -1.2976586557425938e-13,
+      "actualResidualChange": -1.212419282269374e-13,
+      "linearPredictionError": 8.523937347321991e-15,
+      "inputPiRoundtrip": 7.352453603894715e-19,
+      "targetPiRoundtrip": 1.2608317840889505e-18,
+      "sameFrequencyPiFromPi": -177251.8967817669,
+      "sameFrequencyPiFromQ": -1486099349561.106
+    },
+    {
+      "frequency": 57,
+      "baseResidual": 7.925588386447514e-13,
+      "trialResidual": 7.433048223537371e-13,
+      "predictedResidualChange": -5.733319303340575e-14,
+      "actualResidualChange": -4.9254016291014304e-14,
+      "linearPredictionError": 8.07917674239145e-15,
+      "inputPiRoundtrip": 1.6969391357923685e-19,
+      "targetPiRoundtrip": 4.847603327630419e-19,
+      "sameFrequencyPiFromPi": -325137.23986941925,
+      "sameFrequencyPiFromQ": -3020600902569.8345
+    },
+    {
+      "frequency": 60,
+      "baseResidual": 9.750139957967314e-13,
+      "trialResidual": 1.0288637973550614e-12,
+      "predictedResidualChange": 5.696061722850347e-14,
+      "actualResidualChange": 5.384980155833002e-14,
+      "linearPredictionError": -3.110815670173447e-15,
+      "inputPiRoundtrip": -8.486968363548087e-20,
+      "targetPiRoundtrip": 2.4217272584495656e-19,
+      "sameFrequencyPiFromPi": -594461.4397142886,
+      "sameFrequencyPiFromQ": -6088975850951.473
+    },
+    {
+      "frequency": 63,
+      "baseResidual": 2.141778724366807e-12,
+      "trialResidual": 1.6232103168058633e-12,
+      "predictedResidualChange": -4.439088212537202e-13,
+      "actualResidualChange": -5.185684075609435e-13,
+      "linearPredictionError": -7.46595863072233e-14,
+      "inputPiRoundtrip": 3.963629133024763e-19,
+      "targetPiRoundtrip": 1.5033095363998767e-18,
+      "sameFrequencyPiFromPi": -1083680.2137449011,
+      "sameFrequencyPiFromQ": -12182669891462.29
+    },
+    {
+      "frequency": 66,
+      "baseResidual": 1.86705860700378e-12,
+      "trialResidual": 2.5612592024574594e-12,
+      "predictedResidualChange": 8.304357661588532e-13,
+      "actualResidualChange": 6.942005954536789e-13,
+      "linearPredictionError": -1.3623517070517433e-13,
+      "inputPiRoundtrip": -4.2417963557452073e-19,
+      "targetPiRoundtrip": -6.788157628917739e-19,
+      "sameFrequencyPiFromPi": -1970607.3041735736,
+      "sameFrequencyPiFromQ": -24210979745932.918
+    }
+  ],
+  "baseMinimumLeading": 0.9986760917560458,
+  "baseMinimumD": 0.9996415788861829,
+  "baseMaximumRootRelative": 1.6457031643868078e-16,
+  "actualStageFlows": 2,
+  "actualShootingSolves": 0,
+  "actualBVPCalls": 0,
+  "seconds": 3.086
+}

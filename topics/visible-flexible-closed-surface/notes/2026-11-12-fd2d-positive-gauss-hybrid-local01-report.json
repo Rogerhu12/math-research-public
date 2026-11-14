@@ -1,0 +1,1857 @@
+{
+  "schema": "fd2d-actual-R153-R152-explicit-composition-local-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-gauss-hybrid-local-check.py",
+    "bytes": 6135,
+    "sha256": "dcb4ba0365dddff6545c8c93172ca1f711e1db981b5864216a355ee424b2b2c2"
+  },
+  "consumer": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_hybrid.py",
+    "bytes": 4766,
+    "sha256": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss14-b0004-accepted-0002.npz",
+    "bytes": 56027,
+    "sha256": "bcbfb6e2227ffd88cc90caf5cbd515a8b2490b2b8ee84bec232810aa60166258"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T14:54:22.704058+00:00",
+  "completed": true,
+  "exception": null,
+  "nonlinear_BVP_performed": false,
+  "continuous_certificate": false,
+  "seconds": 8.108455228000821,
+  "peak_rss_kib": 86492,
+  "cell": 71,
+  "endpoints": [
+    0.8281800958020702,
+    0.8675434451024153
+  ],
+  "original_R153_G2": {
+    "full_by_component": [
+      2.8846020352650865,
+      0.499612432381511
+    ],
+    "high_by_component": [
+      2.614253444524705,
+      0.5374330460548395
+    ],
+    "low": 0.07331789173287513,
+    "info": {
+      "schema": "fd2d-positive-Gauss-l-exact-affine-endpoint-complete-nonlinear-Codazzi-v1",
+      "order": 2,
+      "quadrature_fraction_nodes": [
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_average_weights": [
+        0.5,
+        0.5
+      ],
+      "physical_g_changed": false,
+      "unknown_mesh_changed": false,
+      "original_trapezoid_rows_changed": true,
+      "original_whole_correction_RHS_Gauss_rows_changed": true,
+      "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+      "finite_equations_changed_by_exact_lifting_integration": true,
+      "node_Gauss_boundary_gap_rows_changed": false,
+      "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+      "retained_cell_maximum": 0.07331789173287513,
+      "sampled_full_average_codazzi_maximum": 2.8846020352650865,
+      "sampled_omitted_average_codazzi_maximum": 2.614253444524705,
+      "sampled_interior_Gauss_maximum": 75.35060075033314,
+      "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+      "row_definition": {
+        "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+        "work": 256,
+        "retained_maximum_frequency": 30,
+        "even_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128
+        ],
+        "odd_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126
+        ],
+        "ordinary_projection_weight": "2/W",
+        "even_Nyquist_projection_weight": "sqrt(2)/W",
+        "old_point_normalization": "sqrt(2/W)",
+        "grid_roundoff_maximum": 8.881784197001252e-16,
+        "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+        "arbitrary_sampled_fields_supported": false,
+        "floating_point_symmetry_defects_are_reported": true,
+        "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+        "continuous_angular_certificate": false
+      },
+      "old_high_point_rows": 512,
+      "old_large_high_point_jacobian_constructed": false,
+      "finite_symmetry_and_compression": {
+        "n": {
+          "parity": "even",
+          "point_rows": 256,
+          "compressed_rows": 49,
+          "normalized_point_l2": 0.8919592321804551,
+          "compressed_l2": 0.8919592321804548,
+          "point_reconstruction_error_l2": 2.0660389563982815e-13,
+          "point_reconstruction_error_maximum": 2.8033131371785203e-14,
+          "sampled_reflection_error_maximum": 1.155742168634788e-13,
+          "sampled_half_period_error_maximum": 1.5154544286133387e-13,
+          "sampled_row_gram_error_maximum": 9.111143040260421e-15
+        },
+        "m": {
+          "parity": "odd",
+          "point_rows": 256,
+          "compressed_rows": 48,
+          "normalized_point_l2": 0.30573299317105535,
+          "compressed_l2": 0.3057329931710553,
+          "point_reconstruction_error_l2": 2.4959005902229404e-13,
+          "point_reconstruction_error_maximum": 4.149328450275824e-14,
+          "sampled_reflection_error_maximum": 3.387845559643665e-13,
+          "sampled_half_period_error_maximum": 4.625189120588402e-13,
+          "sampled_row_gram_error_maximum": 7.43401344956432e-15
+        }
+      },
+      "continuous_certificate": false,
+      "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+      "retained_jacobian_nonzeros": 3504,
+      "high_jacobian_nonzeros": 10962,
+      "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+      "full_nonlinear_delta_l_and_angular_delta_included": true,
+      "known_affine_endpoint_primitive_preserved": true,
+      "finite_field_representation_changed": true,
+      "sampled_active_n_minimum": 0.4453638878196002
+    }
+  },
+  "affine_only_G8": {
+    "full_by_component": [
+      3.3607126888483854,
+      0.7900304276128569
+    ],
+    "high_by_component": [
+      2.7570211350297593,
+      0.5975010109423402
+    ],
+    "low": 0.10001065973370575,
+    "info": {
+      "schema": "fd2d-R153-complete-nonlinear-G2-plus-R152-affine-background-v1",
+      "order": 2,
+      "quadrature_fraction_nodes": [
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_average_weights": [
+        0.5,
+        0.5
+      ],
+      "physical_g_changed": false,
+      "unknown_mesh_changed": false,
+      "original_trapezoid_rows_changed": true,
+      "original_whole_correction_RHS_Gauss_rows_changed": true,
+      "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+      "finite_equations_changed_by_exact_lifting_integration": true,
+      "node_Gauss_boundary_gap_rows_changed": false,
+      "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+      "retained_cell_maximum": 0.10001065973370575,
+      "sampled_full_average_codazzi_maximum": 3.3607126888483854,
+      "sampled_omitted_average_codazzi_maximum": 2.7570211350297593,
+      "sampled_interior_Gauss_maximum": 75.35060075033314,
+      "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+      "row_definition": {
+        "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+        "work": 256,
+        "retained_maximum_frequency": 30,
+        "even_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128
+        ],
+        "odd_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126
+        ],
+        "ordinary_projection_weight": "2/W",
+        "even_Nyquist_projection_weight": "sqrt(2)/W",
+        "old_point_normalization": "sqrt(2/W)",
+        "grid_roundoff_maximum": 8.881784197001252e-16,
+        "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+        "arbitrary_sampled_fields_supported": false,
+        "floating_point_symmetry_defects_are_reported": true,
+        "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+        "continuous_angular_certificate": false
+      },
+      "old_high_point_rows": 512,
+      "old_large_high_point_jacobian_constructed": false,
+      "finite_symmetry_and_compression": {
+        "n": {
+          "parity": "even",
+          "point_rows": 256,
+          "compressed_rows": 49,
+          "normalized_point_l2": 0.8919592321804551,
+          "compressed_l2": 0.8919592321804548,
+          "point_reconstruction_error_l2": 2.0660389563982815e-13,
+          "point_reconstruction_error_maximum": 2.8033131371785203e-14,
+          "sampled_reflection_error_maximum": 1.155742168634788e-13,
+          "sampled_half_period_error_maximum": 1.5154544286133387e-13,
+          "sampled_row_gram_error_maximum": 9.111143040260421e-15
+        },
+        "m": {
+          "parity": "odd",
+          "point_rows": 256,
+          "compressed_rows": 48,
+          "normalized_point_l2": 0.30573299317105535,
+          "compressed_l2": 0.3057329931710553,
+          "point_reconstruction_error_l2": 2.4959005902229404e-13,
+          "point_reconstruction_error_maximum": 4.149328450275824e-14,
+          "sampled_reflection_error_maximum": 3.387845559643665e-13,
+          "sampled_half_period_error_maximum": 4.625189120588402e-13,
+          "sampled_row_gram_error_maximum": 7.43401344956432e-15
+        }
+      },
+      "continuous_certificate": false,
+      "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+      "retained_jacobian_nonzeros": 3504,
+      "high_jacobian_nonzeros": 10962,
+      "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+      "full_nonlinear_delta_l_and_angular_delta_included": true,
+      "known_affine_endpoint_primitive_preserved": true,
+      "finite_field_representation_changed": true,
+      "sampled_active_n_minimum": 0.4453638878196002,
+      "actual_field_representation_changed": false,
+      "physical_metric_changed": false,
+      "finite_quadrature_rule_changed": true,
+      "formula": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting",
+      "nonlinear_Gauss_l_correction": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2",
+      "nonlinear_field_treated_as_affine": false,
+      "new_field_at_zero_state_used_for_lifting_correction": false,
+      "state_jacobian": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added",
+      "parameter_jacobian": "Complete R153 columns plus derivative of the original known-affine-lifting average difference",
+      "known_lifting_quadrature_order": 8,
+      "nonlinear_correction_quadrature_order": 2,
+      "known_lifting_fixed_boundaries": [
+        {
+          "s": 0.0,
+          "kinds": [
+            "legacy_seed_algebraic_cancellation",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.32,
+          "kinds": [
+            "actual_seed_weight",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.32625,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.33249999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.33874999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.34,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3449999999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3512499999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.35749999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3637499999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3699999999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.37624999999999986,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.38249999999999984,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3887499999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3949999999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4012499999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.40749999999999975,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.41374999999999973,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4199999999999997,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4262499999999997,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.43249999999999966,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.43874999999999964,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4449999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4512499999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4528973178358129,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4574999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.46374999999999955,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.46999999999999953,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4762499999999995,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4824999999999995,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.48874999999999946,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.49499999999999944,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5012499999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5074999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5137499999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5199999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5262499999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5324999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5387499999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5449999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.55,
+          "kinds": [
+            "actual_seed_weight",
+            "atlas_entry_transition",
+            "legacy_seed_algebraic_cancellation"
+          ]
+        },
+        {
+          "s": 0.5512499999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5574999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5637499999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5657946356716258,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5699999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5719999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5739999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5759999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5779999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5799999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.58,
+          "kinds": [
+            "original_chart_blend"
+          ]
+        },
+        {
+          "s": 0.5819999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5839999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5859999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5879999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5899999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5919999999999992,
+          "kinds": [
+            "atlas_coast",
+            "atlas_entry_transition",
+            "frozen_reference_window",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.6250652134122892,
+          "kinds": [
+            "frozen_reference_window"
+          ]
+        },
+        {
+          "s": 0.6253687349104141,
+          "kinds": [
+            "tail_radial_lifting_weight"
+          ]
+        },
+        {
+          "s": 0.6786919535074387,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.7915892713432515,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.8344782316901254,
+          "kinds": [
+            "frozen_reference_window"
+          ]
+        },
+        {
+          "s": 0.8675434451024153,
+          "kinds": [
+            "atlas_coast",
+            "atlas_exit_transition",
+            "frozen_reference_window",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.8875434451024153,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9044865891790643,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9799009653163169,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9999009653163169,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.000419888139713,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.0058685777853722,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.0063875006087684,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0173839070148774,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0263875006087684,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0609143548287172,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.1302812248506902,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.243178542686503,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.356075860522316,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.399634787656641,
+          "kinds": [
+            "original_chart_blend"
+          ]
+        },
+        {
+          "s": 1.4,
+          "kinds": [
+            "atlas_exit_transition"
+          ]
+        },
+        {
+          "s": 1.42344632413818,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.457973178358129,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4629731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4689731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4889731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support",
+            "tail_radial_lifting_weight"
+          ]
+        }
+      ],
+      "known_lifting_cell_rules": [
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.8281800958020702,
+            0.8675434451024153
+          ],
+          "split_knots": [
+            0.8281800958020702,
+            0.8344782316901254,
+            0.8675434451024153
+          ],
+          "fine_point_count": 16,
+          "fine_points": [
+            0.8283051457420265,
+            0.8288204068799931,
+            0.8296742264804827,
+            0.8307515155935906,
+            0.8319068118986049,
+            0.8329841010117128,
+            0.8338379206122024,
+            0.834353181750169,
+            0.8351347438748962,
+            0.8378398648492209,
+            0.8423224177517911,
+            0.8479781855956074,
+            0.8540434911969332,
+            0.8596992590407496,
+            0.8641818119433198,
+            0.8668869329176445
+          ],
+          "fine_average_weights": [
+            0.008098282903230097,
+            0.017790482756269804,
+            0.025096531670230737,
+            0.029014702670268688,
+            0.029014702670268688,
+            0.025096531670230737,
+            0.017790482756269804,
+            0.008098282903230097,
+            0.04251598524195843,
+            0.0934000344704174,
+            0.1317567912687127,
+            0.15232718901891212,
+            0.15232718901891212,
+            0.1317567912687127,
+            0.0934000344704174,
+            0.04251598524195843
+          ],
+          "normalized_weight_sum": 1.0,
+          "panels": [
+            {
+              "endpoints": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            },
+            {
+              "endpoints": [
+                0.8344782316901254,
+                0.8675434451024153
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ]
+        }
+      ],
+      "known_lifting_full_change_maximum": 0.4761106535833024,
+      "point_gauss_scope": "Original R153 actual-field Gauss2 points; not fine known-lifting points"
+    }
+  },
+  "affine_only_G12": {
+    "full_by_component": [
+      3.360712688846769,
+      0.7900304276117347
+    ],
+    "high_by_component": [
+      2.757021139384707,
+      0.5975010120825515
+    ],
+    "low": 0.10001065628221492,
+    "info": {
+      "schema": "fd2d-R153-complete-nonlinear-G2-plus-R152-affine-background-v1",
+      "order": 2,
+      "quadrature_fraction_nodes": [
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_average_weights": [
+        0.5,
+        0.5
+      ],
+      "physical_g_changed": false,
+      "unknown_mesh_changed": false,
+      "original_trapezoid_rows_changed": true,
+      "original_whole_correction_RHS_Gauss_rows_changed": true,
+      "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+      "finite_equations_changed_by_exact_lifting_integration": true,
+      "node_Gauss_boundary_gap_rows_changed": false,
+      "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+      "retained_cell_maximum": 0.10001065628221492,
+      "sampled_full_average_codazzi_maximum": 3.360712688846769,
+      "sampled_omitted_average_codazzi_maximum": 2.757021139384707,
+      "sampled_interior_Gauss_maximum": 75.35060075033314,
+      "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+      "row_definition": {
+        "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+        "work": 256,
+        "retained_maximum_frequency": 30,
+        "even_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128
+        ],
+        "odd_frequencies": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126
+        ],
+        "ordinary_projection_weight": "2/W",
+        "even_Nyquist_projection_weight": "sqrt(2)/W",
+        "old_point_normalization": "sqrt(2/W)",
+        "grid_roundoff_maximum": 8.881784197001252e-16,
+        "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+        "arbitrary_sampled_fields_supported": false,
+        "floating_point_symmetry_defects_are_reported": true,
+        "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+        "continuous_angular_certificate": false
+      },
+      "old_high_point_rows": 512,
+      "old_large_high_point_jacobian_constructed": false,
+      "finite_symmetry_and_compression": {
+        "n": {
+          "parity": "even",
+          "point_rows": 256,
+          "compressed_rows": 49,
+          "normalized_point_l2": 0.8919592321804551,
+          "compressed_l2": 0.8919592321804548,
+          "point_reconstruction_error_l2": 2.0660389563982815e-13,
+          "point_reconstruction_error_maximum": 2.8033131371785203e-14,
+          "sampled_reflection_error_maximum": 1.155742168634788e-13,
+          "sampled_half_period_error_maximum": 1.5154544286133387e-13,
+          "sampled_row_gram_error_maximum": 9.111143040260421e-15
+        },
+        "m": {
+          "parity": "odd",
+          "point_rows": 256,
+          "compressed_rows": 48,
+          "normalized_point_l2": 0.30573299317105535,
+          "compressed_l2": 0.3057329931710553,
+          "point_reconstruction_error_l2": 2.4959005902229404e-13,
+          "point_reconstruction_error_maximum": 4.149328450275824e-14,
+          "sampled_reflection_error_maximum": 3.387845559643665e-13,
+          "sampled_half_period_error_maximum": 4.625189120588402e-13,
+          "sampled_row_gram_error_maximum": 7.43401344956432e-15
+        }
+      },
+      "continuous_certificate": false,
+      "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+      "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+      "full_nonlinear_delta_l_and_angular_delta_included": true,
+      "known_affine_endpoint_primitive_preserved": true,
+      "finite_field_representation_changed": true,
+      "sampled_active_n_minimum": 0.4453638878196002,
+      "actual_field_representation_changed": false,
+      "physical_metric_changed": false,
+      "finite_quadrature_rule_changed": true,
+      "formula": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting",
+      "nonlinear_Gauss_l_correction": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2",
+      "nonlinear_field_treated_as_affine": false,
+      "new_field_at_zero_state_used_for_lifting_correction": false,
+      "state_jacobian": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added",
+      "parameter_jacobian": "Complete R153 columns plus derivative of the original known-affine-lifting average difference",
+      "known_lifting_quadrature_order": 12,
+      "nonlinear_correction_quadrature_order": 2,
+      "known_lifting_fixed_boundaries": [
+        {
+          "s": 0.0,
+          "kinds": [
+            "legacy_seed_algebraic_cancellation",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.32,
+          "kinds": [
+            "actual_seed_weight",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.32625,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.33249999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.33874999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.34,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3449999999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3512499999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.35749999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3637499999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3699999999999999,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.37624999999999986,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.38249999999999984,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3887499999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.3949999999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4012499999999998,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.40749999999999975,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.41374999999999973,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4199999999999997,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4262499999999997,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.43249999999999966,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.43874999999999964,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4449999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4512499999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4528973178358129,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4574999999999996,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.46374999999999955,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.46999999999999953,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4762499999999995,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.4824999999999995,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.48874999999999946,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.49499999999999944,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5012499999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5074999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5137499999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5199999999999994,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5262499999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5324999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5387499999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5449999999999993,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.55,
+          "kinds": [
+            "actual_seed_weight",
+            "atlas_entry_transition",
+            "legacy_seed_algebraic_cancellation"
+          ]
+        },
+        {
+          "s": 0.5512499999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5574999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5637499999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5657946356716258,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5699999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5719999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5739999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5759999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5779999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5799999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.58,
+          "kinds": [
+            "original_chart_blend"
+          ]
+        },
+        {
+          "s": 0.5819999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5839999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5859999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5879999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5899999999999992,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.5919999999999992,
+          "kinds": [
+            "atlas_coast",
+            "atlas_entry_transition",
+            "frozen_reference_window",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.6250652134122892,
+          "kinds": [
+            "frozen_reference_window"
+          ]
+        },
+        {
+          "s": 0.6253687349104141,
+          "kinds": [
+            "tail_radial_lifting_weight"
+          ]
+        },
+        {
+          "s": 0.6786919535074387,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.7915892713432515,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.8344782316901254,
+          "kinds": [
+            "frozen_reference_window"
+          ]
+        },
+        {
+          "s": 0.8675434451024153,
+          "kinds": [
+            "atlas_coast",
+            "atlas_exit_transition",
+            "frozen_reference_window",
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.8875434451024153,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9044865891790643,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9799009653163169,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 0.9999009653163169,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.000419888139713,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.0058685777853722,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.0063875006087684,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0173839070148774,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0263875006087684,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.0609143548287172,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.1302812248506902,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.243178542686503,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.356075860522316,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.399634787656641,
+          "kinds": [
+            "original_chart_blend"
+          ]
+        },
+        {
+          "s": 1.4,
+          "kinds": [
+            "atlas_exit_transition"
+          ]
+        },
+        {
+          "s": 1.42344632413818,
+          "kinds": [
+            "physical_turn_internal_piece"
+          ]
+        },
+        {
+          "s": 1.457973178358129,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4629731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4689731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support"
+          ]
+        },
+        {
+          "s": 1.4889731783581288,
+          "kinds": [
+            "physical_profile_or_bump_support",
+            "tail_radial_lifting_weight"
+          ]
+        }
+      ],
+      "known_lifting_cell_rules": [
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.8281800958020702,
+            0.8675434451024153
+          ],
+          "split_knots": [
+            0.8281800958020702,
+            0.8344782316901254,
+            0.8675434451024153
+          ],
+          "fine_point_count": 24,
+          "fine_points": [
+            0.828238162617672,
+            0.8284820370764193,
+            0.8289046879147713,
+            0.8294796596033019,
+            0.830170837363799,
+            0.830934795233833,
+            0.8317235322583626,
+            0.8324874901283965,
+            0.8331786678888936,
+            0.8337536395774242,
+            0.8341762904157762,
+            0.8344201648745235,
+            0.8347830824720351,
+            0.8360634233804585,
+            0.8382823402818066,
+            0.8413009416465921,
+            0.8449296248892016,
+            0.8489404037068803,
+            0.8530812730856604,
+            0.857092051903339,
+            0.8607207351459486,
+            0.8637393365107341,
+            0.8659582534120822,
+            0.8672385943205055
+          ],
+          "fine_average_weights": [
+            0.003774026910920881,
+            0.008555146079625453,
+            0.012806266283467605,
+            0.01625339413784512,
+            0.01867940292306821,
+            0.019931763665072048,
+            0.019931763665072048,
+            0.01867940292306821,
+            0.01625339413784512,
+            0.012806266283467605,
+            0.008555146079625453,
+            0.003774026910920881,
+            0.019813641282334822,
+            0.044914516918034074,
+            0.0672328979882056,
+            0.08533031922368774,
+            0.09806686534610909,
+            0.10464175924162929,
+            0.10464175924162929,
+            0.09806686534610909,
+            0.08533031922368774,
+            0.0672328979882056,
+            0.044914516918034074,
+            0.019813641282334822
+          ],
+          "normalized_weight_sum": 1.0,
+          "panels": [
+            {
+              "endpoints": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "requested_order": 12,
+              "actual_point_count": 12,
+              "narrow_panel_fallback": null
+            },
+            {
+              "endpoints": [
+                0.8344782316901254,
+                0.8675434451024153
+              ],
+              "requested_order": 12,
+              "actual_point_count": 12,
+              "narrow_panel_fallback": null
+            }
+          ]
+        }
+      ],
+      "known_lifting_full_change_maximum": 0.4761106535816859,
+      "point_gauss_scope": "Original R153 actual-field Gauss2 points; not fine known-lifting points"
+    }
+  },
+  "G8_to_G12_full_difference": 1.2692487783017015e-07,
+  "G2_to_hybrid_full_change": 0.4761106535833024,
+  "actual_point_Gauss_unchanged": true,
+  "field_changed": false,
+  "physical_g_changed": false,
+  "nonlinear_Delta_quadrature_still_G2": true,
+  "complete_nonlinear_state_jacobian_changes": {
+    "retained_jacobian": 0.0,
+    "high_jacobian": 0.0
+  },
+  "parameter_checks": [
+    {
+      "step": 2e-05,
+      "block": "retained_residual",
+      "analytic_norm": 0.07750605535540538,
+      "absolute_maximum": 6.143952870768521e-09,
+      "relative_L2": 1.0379568393752463e-07
+    },
+    {
+      "step": 2e-05,
+      "block": "high_residual",
+      "analytic_norm": 0.050252537213997604,
+      "absolute_maximum": 1.842994472311954e-10,
+      "relative_L2": 1.1109375445887443e-08
+    },
+    {
+      "step": 1e-05,
+      "block": "retained_residual",
+      "analytic_norm": 0.07750605535540538,
+      "absolute_maximum": 1.127398486372444e-08,
+      "relative_L2": 2.0362227505185053e-07
+    },
+    {
+      "step": 1e-05,
+      "block": "high_residual",
+      "analytic_norm": 0.050252537213997604,
+      "absolute_maximum": 3.4515191486145236e-10,
+      "relative_L2": 2.0533907045101977e-08
+    }
+  ]
+}

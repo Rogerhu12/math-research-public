@@ -1,0 +1,34 @@
+{
+  "schema": "closed-research-group-v1",
+  "files": [
+    {
+      "path": "results/R148-Codazzi-exact-full-boundary-lifting-by-two-moments.md",
+      "bytes": 10484,
+      "sha256": "f7ee22f85492e2d48f7440bee137195da18231983e3039c6af08acb5de2d6c6b"
+    },
+    {
+      "path": "scripts/fd2d_codazzi_moment_lifting_probe.py",
+      "bytes": 10581,
+      "sha256": "c1ec5a48c9c662167b73c8d1b5b75a3f109548eb108298ae1bd5aafd5c7dc712"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-codazzi-moment-lifting01-report.json",
+      "bytes": 3465,
+      "sha256": "b3a494fc577671b8511c01524f3c0d82f87f40a495450d6639ee8cc6efcdd6ce"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-codazzi-moment-lifting01-controls.npz",
+      "bytes": 10908,
+      "sha256": "64f83a8c4c16bdc1893dfd62a359891f4f1bf5627486ef8663b8de3b1749330d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-codazzi-moment-lifting01-tool-exit.json",
+      "bytes": 340,
+      "sha256": "6fb735d61783864f47abcb9ebf5c7e23fc4a4df6c6e00a9e85490bef718635c0"
+    }
+  ],
+  "actual_tool_exit": 0,
+  "exact_proof": "R148",
+  "finite_probe_success_scope": "Finite control evaluated; nonlinear Gauss and full boundary truncation not passed",
+  "complete_surface": false
+}

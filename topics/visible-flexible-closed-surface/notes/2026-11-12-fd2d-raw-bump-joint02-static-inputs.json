@@ -1,0 +1,69 @@
+{
+  "schema": "fd2d-active-run-static-inputs-v1",
+  "session": 66986,
+  "launch_chunk": "6d5991",
+  "run_stem": "notes/2026-11-12-fd2d-raw-bump-joint02",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-fullcod-run.py",
+      "bytes": 13880,
+      "sha256": "c309f3dd02febaa643235c648dc2198072c64c88023101e7ef121114ca375207"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    {
+      "path": "scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_residual_locations.py",
+      "bytes": 2654,
+      "sha256": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    {
+      "path": "scripts/fd2d-run-observed-command.py",
+      "bytes": 1411,
+      "sha256": "5c8f763704be538bbf8c8b01260b2fdcb0c9da1169f171fa286b6db4927d0a1e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-clean01-warm.npz",
+      "bytes": 39309,
+      "sha256": "aa8046eec9da82f70fe89964d7553ab9691e1b2f0000719c2e6b19c1d043454f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    }
+  ],
+  "active_outputs_excluded": true
+}

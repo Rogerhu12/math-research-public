@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 45799,
+  "completion_chunk_id": "6546da",
+  "observed_exit_code": 0,
+  "program_elapsed_seconds": 174.93983905599998,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-bump-cell-residual-screen.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01",
+    "--angles",
+    "512"
+  ],
+  "report": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-report.json",
+  "report_sha256": "59ec738e29ce8c0009bb040c38b7b9d69f135948d8b338124bc116d68df5064a",
+  "body_integration_run": false
+}

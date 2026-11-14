@@ -1,0 +1,40 @@
+{
+  "status": "PASS-independent-completed-replay-file-and-all-row-check",
+  "script_sha256": "6be691f81865678b1f5b9d338ae1bf2a42762880543a1b932cb60c9dc8fbf35f",
+  "inputs": {
+    "author": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-lowmetric-full.json",
+      "sha256": "83cf92351c83ce3275af9ac2fd975ecf87dc81e74379e2f1ccb2436374147056"
+    },
+    "replay": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-critical-lowmetric-replay.json",
+      "sha256": "091a64b3ef49887471ff734ba2670062883ef65b42f54698fb760afd254e8160"
+    },
+    "root_comparison": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-m12-full-metric-replay.json",
+      "sha256": "73f3678feb51c2d61ea3378c751311d0b2926ae68cc223ea974575daaa702fae"
+    }
+  },
+  "rows": {
+    "author": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-lowmetric-full.rows.json.gz",
+      "sha256": "06706fee1a59c4f0ce15ebde39af24e323bd077cf1819020ab660c8221c41f7d"
+    },
+    "replay": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-critical-lowmetric-replay.rows.json.gz",
+      "sha256": "06706fee1a59c4f0ce15ebde39af24e323bd077cf1819020ab660c8221c41f7d"
+    }
+  },
+  "rows_exactly_equal": 30971,
+  "actual_differing_report_fields": [
+    "peak_process_rss_bytes",
+    "row_data_file",
+    "seconds"
+  ],
+  "all_mathematical_and_input_fields_exactly_equal": true,
+  "maximum_metric_operator_upper": 2.334386824020345e-08,
+  "completed_backend_exit_code_recorded_by_operator": 0,
+  "third_backend_run_performed": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "final_fresh_end_to_end_review_completed": false
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "fd2d-R144-actual-window-Gauss2-mass-v1",
+  "actual_execution": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-coast-window-quadrature.py",
+    "bytes": 6907,
+    "sha256": "98d83250887d033d124c970acd6f5ef28b1284394a0eecaa54d27b4dac58bd7a"
+  },
+  "reader_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_coast_native_field.py",
+    "bytes": 10818,
+    "sha256": "c334fd316429127409459568a95174314da620ddd7861c485e0a9eafd0042284"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-initial.npz",
+    "bytes": 47125,
+    "sha256": "897ecba1f6eaf69252c12236cffae324058b3aeec5fdee817000245224ba3b56"
+  },
+  "inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "actual_saved_mesh_node_count": 122,
+  "reference_definition": {
+    "accurate_reference_GC_applies_only_to_base_delta_zero": true,
+    "angular_chart_fixed_across_unknown_parameters": true,
+    "lifting": "(1-w)*old_seed_tail_lifting+w*frozen_native_reference",
+    "original_physical_g_changed": false,
+    "reference": {
+      "a_c": 1.029181699754392,
+      "binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+      "cached_jets_dtype": "binary64",
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "component_order": [
+        "n",
+        "m",
+        "l"
+      ],
+      "inverse_tolerance": 2e-13,
+      "physical_coast": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "schema": "fd2d-frozen-R139-coast-reference-v1",
+      "v": 0.2587478542495509
+    },
+    "reference_parameters_frozen": true,
+    "rim_fraction": 0.12,
+    "support": [
+      0.5919999999999992,
+      0.8675434451024153
+    ],
+    "target_defects_and_target_profile_derivatives_not_omitted": true,
+    "weight": "S5((s-entry)/rim)*S5((exit-s)/rim), each argument clipped to [0,1]"
+  },
+  "weight_coefficients": {
+    "entry_s": 0.5919999999999992,
+    "exit_s": 0.8675434451024153,
+    "length": 0.2755434451024161,
+    "rim_fraction": 0.12,
+    "rim_width": 0.03306521341228993,
+    "exact_representatives": {
+      "entry_s": {
+        "numerator": "1333065489701665",
+        "denominator": "2251799813685248"
+      },
+      "exit_s": {
+        "numerator": "1953534168045477",
+        "denominator": "2251799813685248"
+      },
+      "rim_width": {
+        "numerator": "4765199449680475",
+        "denominator": "144115188075855872"
+      }
+    },
+    "convention": "Round entry+length and length*fraction as the existing floating provider does, then regard those binary coefficients as exact polynomial constants"
+  },
+  "rows": [
+    {
+      "cell": 63,
+      "left": 0.5919999999999992,
+      "right": 0.6313633493003443,
+      "width": 0.03936334930034513,
+      "lambda_exact": {
+        "numerator": "5672856487714848",
+        "denominator": "4765199449680475"
+      },
+      "lambda_enclosure": [
+        1.1904761904761898,
+        1.19047619047619
+      ],
+      "Gauss2_points": [
+        0.600318454492792,
+        0.6230448948075515
+      ],
+      "exact_endpoint_mass": 1,
+      "exact_Gauss2_mass": {
+        "numerator": "339967538339232428969440340449595697044724874317759713693989213523376102506496",
+        "denominator": "491400292264274814014793396460370290184570642642759111352860655112367380859375"
+      },
+      "exact_Gauss2_mass_enclosure": [
+        0.6918342208807602,
+        0.6918342208807603
+      ],
+      "exact_Gauss2_error": {
+        "numerator": "-151432753925042385045353056010774593139845768324999397658871441588991278352879",
+        "denominator": "491400292264274814014793396460370290184570642642759111352860655112367380859375"
+      },
+      "exact_Gauss2_error_enclosure": [
+        -0.3081657791192398,
+        -0.30816577911923976
+      ],
+      "actual_float_Gauss2_mass": 0.6918342208807572,
+      "float_vs_exact_scalar_quadrature_difference": -2.9976021664879227e-15,
+      "rim_piece_three_point_exact_mass": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "rim_piece_three_point_float_mass": 1.0,
+      "rim_piece_two_point_exact_mass": {
+        "numerator": "5",
+        "denominator": "6"
+      }
+    },
+    {
+      "cell": 71,
+      "left": 0.8281800958020702,
+      "right": 0.8675434451024153,
+      "width": 0.03936334930034513,
+      "lambda_exact": {
+        "numerator": "5672856487714848",
+        "denominator": "4765199449680475"
+      },
+      "lambda_enclosure": [
+        1.1904761904761898,
+        1.19047619047619
+      ],
+      "Gauss2_points": [
+        0.836498550294863,
+        0.8592249906096225
+      ],
+      "exact_endpoint_mass": -1,
+      "exact_Gauss2_mass": {
+        "numerator": "-339967538339232428969440340449595697044724874317759713693989213523376102506496",
+        "denominator": "491400292264274814014793396460370290184570642642759111352860655112367380859375"
+      },
+      "exact_Gauss2_mass_enclosure": [
+        -0.6918342208807603,
+        -0.6918342208807602
+      ],
+      "exact_Gauss2_error": {
+        "numerator": "151432753925042385045353056010774593139845768324999397658871441588991278352879",
+        "denominator": "491400292264274814014793396460370290184570642642759111352860655112367380859375"
+      },
+      "exact_Gauss2_error_enclosure": [
+        0.30816577911923976,
+        0.3081657791192398
+      ],
+      "actual_float_Gauss2_mass": -0.6918342208807572,
+      "float_vs_exact_scalar_quadrature_difference": 2.9976021664879227e-15,
+      "rim_piece_three_point_exact_mass": {
+        "numerator": "-1",
+        "denominator": "1"
+      },
+      "rim_piece_three_point_float_mass": -1.0,
+      "rim_piece_two_point_exact_mass": {
+        "numerator": "-5",
+        "denominator": "6"
+      }
+    }
+  ],
+  "ideal_uniform_coast_ratio": {
+    "numerator": "25",
+    "denominator": "21"
+  },
+  "ideal_Gauss2_mass": {
+    "numerator": "2421875",
+    "denominator": "3500658"
+  },
+  "ideal_Gauss2_mass_enclosure": [
+    0.6918342208807601,
+    0.6918342208807602
+  ],
+  "exact_lemma": "If lambda>=1 and lambda*(1/2+sqrt(3)/6)<1, integral Gauss2 of S5_prime over the containing cell equals 10lambda^3-15lambda^4+(35/6)lambda^5, while the endpoint mass is one.",
+  "split_uniform_Gauss2_ramp_mass": "1-1/(6*N^4) for N equal polynomial ramp cells",
+  "piecewise_three_point_exact_for_scalar_weight_derivative": true,
+  "complete_nonpolynomial_GC_quadrature_claimed_exact": false,
+  "unknown_fields_evaluated": false,
+  "body_integration_run": false,
+  "large_matrix_assembled": false,
+  "nonlinear_solve_performed": false,
+  "metric_or_BVP_failure_inferred": false,
+  "seconds": 0.5323338569996849
+}

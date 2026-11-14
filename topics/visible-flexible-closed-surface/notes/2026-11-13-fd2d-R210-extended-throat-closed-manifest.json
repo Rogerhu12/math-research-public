@@ -1,0 +1,139 @@
+{
+  "schema": "fd2d-R210-complete-extended-throat-cap-closed-v1",
+  "status": "complete_conditional_theorem_and_actual_finite_consumer",
+  "theorem": {
+    "Delta": "1/50",
+    "trueCuffHeightInterval": [
+      "2/5",
+      "61/100"
+    ],
+    "coreAbsoluteHeightUpper": "Z+1/50",
+    "everyCorePointAboveCuffRequiredRadius": "257/500",
+    "reach": "97/1000",
+    "diameterUpper": "16/5",
+    "heldRatio": "1/5",
+    "E3IncludingReflectionsRatio": "1609/32000",
+    "reachRatio": "97/3200",
+    "completeCoreGlobalReachStillInput": true,
+    "actualMetricStillInput": true
+  },
+  "exactBudget": {
+    "execution": {
+      "runtime": "pure V8 JavaScript with BigInt rational arithmetic",
+      "completed": true,
+      "elapsedMilliseconds": 2,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "allPassed": true,
+    "dependency": {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_corner_cap_rational_R199_R204_recovery.cjs",
+      "gitBlob": "bc82064bcc968da690efeddb14c74e24f1992391",
+      "sha256": "c6002a13d2ebcd50e73c53c182f2b37f48e99f2aec7a3e33028356af37648401"
+    }
+  },
+  "finiteScreen": {
+    "input": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R208-refined-amplitude-04-checkpoint.json",
+      "commit": "6e52a2ca961019ab3154dbb5d3d740147385eed0",
+      "bytes": 63054,
+      "sha256": "12d22d674aef4b7ae9db974bfae153e7c46ff6647e4f564936b0447121f5ff91",
+      "centralSeed": {
+        "schema": "fd2d-complete-material-ellipse-numeric-seed-identity-v1",
+        "rawA": 1.3620341722637315,
+        "rawB": 0.5620341722637314,
+        "rawArcA0": 1.004082838021469,
+        "rawQuarter": 1.5772096337619188,
+        "baseA0": 1.004082838021469,
+        "normalization": 1,
+        "actualCentralA": 1.3620341722637315,
+        "actualCentralB": 0.5620341722637314,
+        "actualCentralGap": 0.8,
+        "binary64": {
+          "rawA": "3ff5cae4581e83b7",
+          "rawB": "3fe1fc2f16a36dd4",
+          "rawArcA0": "3ff010b92a7c6ee6",
+          "rawQuarter": "3ff93c402b3f18e6",
+          "baseA0": "3ff010b92a7c6ee6",
+          "normalization": "3ff0000000000000",
+          "actualCentralA": "3ff5cae4581e83b7",
+          "actualCentralB": "3fe1fc2f16a36dd4",
+          "actualCentralGap": "3fe999999999999a"
+        },
+        "normalizationSemantics": "same R187 material ellipse definition: Xcentral=baseA0*gammaRaw/rawArcA0; accurate-target errors remain explicit",
+        "accurateEllipticIntegralOrInverseCertificate": false
+      }
+    },
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "elapsedMilliseconds": 27840,
+      "completed": true,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "radialPoints": 381,
+    "pointCount": 24765,
+    "sourceFullAngles": 64,
+    "sampleFullEquivalentAngles": 128,
+    "Zc": 0.5758524041086304,
+    "tailAmplitude": 0.27537441141522595,
+    "maxHeightExcess": 0.010496280682234849,
+    "minRadiusAmongAbove": 0.7999999999999998,
+    "maxSlabViolation": 0,
+    "maxNearAxisProtrusion": 0,
+    "finiteConditionsSatisfied": true,
+    "smallestRadiusWitnessIsOneUlpCutHeightExcess": true,
+    "continuousCertificate": false,
+    "wholeCoreReachCertified": false,
+    "noStateOrObjectiveMutation": true,
+    "noJacobian": true,
+    "noNormal": true,
+    "noBVP": true
+  },
+  "artifacts": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R210-extended-throat-caps-for-far-radius-core-protrusions.md",
+      "bytes": 16848,
+      "sha256": "ba013947335df013a70ac10f9eeb71fa3b7702218d117dc579cefd42307f2f82",
+      "commit": "43072f193b29f4b99401277da811f1dec06c2547"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-extended-throat-cap-budget-R210.cjs",
+      "bytes": 5891,
+      "sha256": "14c06a3c480423eb364fde5530071e7ec3e92811dee55487d37c9ec7df3c4399",
+      "commit": "9478bf0985d6046b7e735ffdd9a2466e234716ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R210-extended-throat-cap-budget-01.json",
+      "bytes": 23924,
+      "sha256": "d034304b638e145ef780bf229e1336a2951ea7131442d76549e3a579011135eb",
+      "commit": "a15c8d3692204481c3ce380da518a1641103fd0b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-R210-prefix-protrusion-screen.cjs",
+      "bytes": 4918,
+      "sha256": "04bdfa01bf489806c53132eb69e7703d4ee75fbadb21a2e6f29440a3e1acfadf",
+      "commit": "1a1d068bdb6afdeae2f25af9e0890b2cc6d7b6e2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R210-prefix-protrusion-screen-01.json",
+      "bytes": 52519,
+      "sha256": "2f2eea27d02461bde353b4346165372e3b1a59ce2d8c7f04084a6528dba6af3e",
+      "commit": "c4e618e9f39a4a46befde8465cc0d7be150e5d5c"
+    }
+  ],
+  "publication": {
+    "method": "Authorized GitHub small UTF-8 fallback while executor unavailable",
+    "fourExternalMainCAS409ConflictsBeforeSourceSucceeded": true,
+    "literalPullAttemptsAfter409": 7,
+    "literalPullResult": "No usable execution environment; no OS process or pull occurred",
+    "readmesComparedAfterEvery409": true,
+    "rootReadmeBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicReadmeBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "APIReadIsNotGitPull": true,
+    "totalCAS409ConflictsBeforeThisRetry": 7,
+    "manifestInitialWriteAlsoEncounteredOne409": true,
+    "manifestCAS409CountBeforeThisRetry": 3
+  },
+  "strongTargetComplete": false
+}

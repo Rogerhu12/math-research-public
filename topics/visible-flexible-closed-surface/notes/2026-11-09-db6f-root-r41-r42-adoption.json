@@ -1,0 +1,45 @@
+{
+  "status": "FORMAL_ADOPTION_AFTER_FULL_PROOF_AND_INDEPENDENT_REVIEW",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T20:44:35.532529+00:00",
+  "results": [
+    {
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R41-flat-annulus-conditional-local-geometry.md",
+        "bytes": 10603,
+        "sha256": "00b859c437945ea9c10a879b5622fe98c0d4572248b1e78cce6717648adecb13"
+      },
+      "proof": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.md",
+        "bytes": 10352,
+        "sha256": "f962bee606ba0a2cc03b08bb9e4669bf43056dfd6f983cfa24d6c3d990a7c805"
+      },
+      "review": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template.md",
+        "bytes": 8222,
+        "sha256": "16d0eb80746246c5bf84a33326055705931f7248e55cf82342927a0c2ab2dd0e"
+      },
+      "full_mathematical_body_byte_identical": true
+    },
+    {
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R42-degenerate-flat-endpoint-and-finite-mode-uniqueness.md",
+        "bytes": 16723,
+        "sha256": "7251b31003e6545492c722eaaaf88efc7ee089e42e6a62104456b5609a908db8"
+      },
+      "proof": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-interface-v2.md",
+        "bytes": 16684,
+        "sha256": "c289b4fda5cefbc679a6519a45fe37830cfa8229bfd09260865a20b99919beab"
+      },
+      "review": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-degenerate-flat-endpoint-v2.md",
+        "bytes": 10763,
+        "sha256": "68d1c25628d12c408a212e08b22bd0ad0c7e09bdcae1dd6fde10cac56924b06b"
+      },
+      "full_mathematical_body_byte_identical": true
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Conditional retained geometry, exact endpoint criteria and finite-mode uniqueness; no constructed noncircular connector or G5."
+}

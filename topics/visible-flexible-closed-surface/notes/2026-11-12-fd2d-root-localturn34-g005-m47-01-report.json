@@ -1,0 +1,468 @@
+{
+  "schema": "fd2d-circle-T-gap-warm-nonlinear-prefix-linear-tail-design-v1",
+  "scope": "Original variable-T design equations with streaming CSC and lossless parts.\n\nThis changes storage only. T remains an outer physical design variable and\nthe prescribed central gap remains a boundary equation. It is not same-g\nrefinement. Every native defining coefficient and all auxiliary arrays are\nsaved losslessly, with files below the repository size limit.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d-gc-bvp-design-archive-stream.py",
+    "bytes": 2559,
+    "sha256": "c1880b74cd0cf9229ab8241eb405f62e84815eea22e2dbd84abc90eec4477ba1"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-root-localturn34-01-candidate.json",
+    "bytes": 36113,
+    "sha256": "41634c364ac309cc97a46f51498365174660eedb5a5e1cda52477db03427b43d"
+  },
+  "linear_tail": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-layered64-wc01-linear95-01.json",
+    "bytes": 38099,
+    "sha256": "f300a3e186174d8c26dc8d4f6f6e1853dc6abe5e39d997a8ce09fa40a1d5dc60"
+  },
+  "warm_field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-root-localturn34-g0035-coarse47-01-field.npz",
+    "bytes": 436295,
+    "sha256": "248669444777525137ec4e9bc56bdbf22c35aa26fa7dbdc89eaca228eb977d59"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_design_profile.py",
+      "bytes": 5719,
+      "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_design_flow.py",
+      "bytes": 4581,
+      "sha256": "97beebb06c46d81848713c3f461f6c892f94adf755dc84fe0736f807eb4f4aa0"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_design_ports.py",
+      "bytes": 2597,
+      "sha256": "a4ad3433d2afe385b69b93813cb89760d312ab7d4b470a2e9b37ad74789549a2"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_bvp_newton.py",
+      "bytes": 3509,
+      "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_logshape_stable.py",
+      "bytes": 1192,
+      "sha256": "c2107c094f673d38006111f1ab9b802267ff6a4974e656e8615543b3d959e580"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_logshape.py",
+      "bytes": 5005,
+      "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_partial_return_parameter.py",
+      "bytes": 6682,
+      "sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    }
+  ],
+  "nonlinear_tail_solved": false,
+  "closed_surface": false,
+  "physical_metric_frozen_for_refinement": false,
+  "maximum_mode": 47,
+  "intrinsic_dimension": 47,
+  "angular_grid": 192,
+  "initial_nodes": 584,
+  "maximum_nodes": 1400,
+  "tolerances": {
+    "collocation": 2e-05,
+    "boundary": 2e-10
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.4
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.2106180371449604,
+    "actual_T": 0.20525813841439644,
+    "physical_T_domain": [
+      0.0,
+      0.5449506114731018
+    ],
+    "computational_endpoint": 1.5607314855666952,
+    "actual_physical_endpoint": 1.5559088971038086,
+    "minimum_s_x": 0.9522841905848238,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "initialization": {
+    "warm_field": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-root-localturn34-g0035-coarse47-01-field.npz",
+      "bytes": 436295,
+      "sha256": "248669444777525137ec4e9bc56bdbf22c35aa26fa7dbdc89eaca228eb977d59"
+    },
+    "previous_gap": 0.03499999963014138,
+    "requested_gap": 0.05,
+    "predictor_ratio": 1.428571443667699,
+    "previous_A": 1.0214252784590305,
+    "previous_B": 0.9864252788288892,
+    "retained_T": 0.20525813841439644,
+    "minimum_predicted_relative_n": 0.46830998422034964,
+    "maximum_native_change": 0.2223208407397228,
+    "predictor": "eta=log1p(ratio*expm1(eta_old)); zeta=ratio*zeta_old; c and physical h scaled",
+    "fixed_original_radial_and_material_chart": true,
+    "omitted_eta_mean_retained": true,
+    "predictor_is_accepted": false,
+    "nonlinear_tail_solved": false
+  },
+  "initial": {
+    "T": 0.20525813841439644,
+    "A": 1.0287439649148815,
+    "B": 0.9787475688172483,
+    "gap": 0.04999639609763325,
+    "gap_target": 0.05,
+    "boundary_maximum": 7.207804733510583e-05,
+    "omitted_eta_mean": 0.02740494225614245,
+    "omitted_n_mean": 0.005529205075013259,
+    "all_cut_curvature_coefficients_maximum": 0.005529205075013259,
+    "core_parameter_l1": 0.12466195368684994,
+    "maximum_worker_height": 0.005748816721043631,
+    "minimum_n_grid": 0.14911480072858108,
+    "maximum_eta": 0.7574108377050396,
+    "maximum_zeta": 0.7928986680994127,
+    "minimum_radial_scale": 0.9522841905848238,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.1987755952925455,
+      "maximum_m": 0.13811192964449392,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    }
+  },
+  "central_exact_means": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+    "bytes": 203694,
+    "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+  },
+  "central_exact_moments": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "native_state_representation": "eta=log(n/n_ref), zeta=m/n_ref; real cosine/sine amplitudes",
+  "solver_success": false,
+  "solver_status": 1,
+  "message": "The maximum number of mesh nodes is exceeded.",
+  "iterations": 1,
+  "final_nodes": 584,
+  "maximum_rms_residual": 2.692710377316132,
+  "final": {
+    "T": 0.20085676634744928,
+    "A": 1.0285833233663983,
+    "B": 0.9785841418803333,
+    "gap": 0.04999918148606507,
+    "gap_target": 0.05,
+    "boundary_maximum": 1.637027869878468e-05,
+    "omitted_eta_mean": -0.007772823400599276,
+    "omitted_n_mean": -0.0015408535227225992,
+    "all_cut_curvature_coefficients_maximum": 0.0015408535227225992,
+    "core_parameter_l1": 0.12433430011485318,
+    "maximum_worker_height": 0.005792948156166219,
+    "minimum_n_grid": 0.1417587275266961,
+    "maximum_eta": 1.3216156699369008,
+    "maximum_zeta": 1.0929336556711722,
+    "minimum_radial_scale": 0.9131015415705517,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.19865023011543048,
+      "maximum_m": 0.13928820215978416,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    }
+  },
+  "residual_screen": {
+    "Rn_maximum": 9.553953449046624,
+    "Rm_maximum": 23.714476060642966,
+    "minimum_n": 0.14175766487921349,
+    "radial_samples": 3499,
+    "angular_samples": 192,
+    "physical_derivative": "(partial_x-(U_x/U_xi)*partial_xi)/s_x",
+    "uses_true_native_polynomial_derivative": true,
+    "continuous_certificate": false,
+    "nonlinear_tail_solved": false
+  },
+  "final_radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.2106180371449604,
+    "actual_T": 0.20085676634744928,
+    "physical_T_domain": [
+      0.0,
+      0.5449506114731018
+    ],
+    "computational_endpoint": 1.5607314855666952,
+    "actual_physical_endpoint": 1.551948746508072,
+    "minimum_s_x": 0.9131015415705517,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "parameters": {
+    "central_c": [
+      0.04539605939232014,
+      -0.03312932572940765,
+      0.02285843119370299,
+      -0.013475062824671452,
+      0.0063493806886753094,
+      -0.0020012187657344974,
+      1.4801254988721464e-05,
+      0.00048598044732843813,
+      -0.0003427002224410304,
+      9.462273515284645e-05,
+      4.264465104044745e-05,
+      -6.0753902946054026e-05,
+      2.512821131740975e-05,
+      8.585738417404621e-06,
+      -1.9935703704305535e-05,
+      1.4034945051837537e-05,
+      -3.5062645075168166e-06,
+      -3.230709038016067e-06,
+      4.5008286619265285e-06,
+      -2.6362801353604524e-06,
+      4.4302087520451314e-07,
+      6.500054115962808e-07,
+      -6.665993230357465e-07
+    ],
+    "worker_height": [
+      -0.005792948156166219,
+      2.9203995235332407e-05,
+      -3.2540628773492843e-07,
+      1.0068183577872473e-07,
+      -1.1409536584784291e-08,
+      1.3452684520705042e-09,
+      -1.5086806769127134e-10,
+      1.618488031188091e-11,
+      -2.9128955466041886e-12,
+      6.52894382183032e-13,
+      -1.3425099440343063e-13,
+      2.7409688577661317e-14,
+      -6.16646845020039e-15,
+      1.5991067205377174e-15,
+      -4.753587012519899e-16,
+      1.2810192986553291e-16,
+      7.009111263391548e-17,
+      -2.5441771451579854e-17,
+      2.9903251400131413e-18,
+      -9.89259057883997e-20,
+      -1.137819608832973e-20,
+      2.2364865106971173e-21,
+      -5.138366631585687e-22
+    ],
+    "T": 0.20085676634744928
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/outputs/2026-11-12-fd2d-root-localturn34-g005-m47-01-field.npz.gz",
+    "bytes": 1076830,
+    "sha256": "739ca63b2d5a4ed424b9830157fc7e0bb290c26822209bd07b82768fc0126118"
+  },
+  "polynomial": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/outputs/2026-11-12-fd2d-root-localturn34-g005-m47-01-polynomial.npz",
+    "bytes": 851947,
+    "sha256": "b6820a7d06a3da7caa448ea5eb9b0b2e1f7c920aa71e3c6d83aaa4f660927ca7"
+  },
+  "designed_candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/outputs/2026-11-12-fd2d-root-localturn34-g005-m47-01-candidate.json",
+    "bytes": 35798,
+    "sha256": "bd25574a0b872b569be43d26e2e03acc57585ed0f011b722e871939c61584868"
+  },
+  "actual_central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "circle",
+    "source": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "1635565409306735/36028797018963968",
+      "-4774439008319875/144115188075855872",
+      "3294247110599517/144115188075855872",
+      "-485490303327875/36028797018963968",
+      "1830084384227299/288230376151711744",
+      "-1153624075219037/576460752303423488",
+      "8737118807893171/590295810358705651712",
+      "8964756936694583/18446744073709551616",
+      "-6321703297373023/18446744073709551616",
+      "6981925515675835/73786976294838206464",
+      "6293239710846287/147573952589676412928",
+      "-8965693592998779/147573952589676412928",
+      "7416538931237593/295147905179352825856",
+      "1267031354157433/147573952589676412928",
+      "-5883981186602043/295147905179352825856",
+      "8284769262714345/590295810358705651712",
+      "-8278932995186429/2361183241434822606848",
+      "-7628296038515555/2361183241434822606848",
+      "2656820302277609/590295810358705651712",
+      "-3112370237670313/1180591620717411303424",
+      "8368427729109475/18889465931478580854784",
+      "6139127538812329/9444732965739290427392",
+      "-6295852601215209/9444732965739290427392"
+    ],
+    "curvature_definition": "1/a0+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "389592824828299214535685617877523654220973342374719836611963505520390588519519122735739814840771694990159128693715990271317355379681483206866521794273888536128102571261/473671362762649719429632331084487834342962511502096924850920487149945485819042399605244579771213529239148352113972644507155186257112240838763676743686324431359276220416",
+    "conservative_curvature_upper_exact": "276948890688543061762351513684771784254128481364695135241044034770507719370966295271638426002406194517086996472744361283289379882191853132568595601612134087138475540951/236835681381324859714816165542243917171481255751048462425460243574972704461754553226240806775216053567636113208304919833827734081807179619426774320313261802362073251840",
+    "global_convexity_proved_by_l1_bound": true,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23,
+      2.2504443484771028e-23,
+      1.8589029878963688e-24,
+      8.416452481263887e-24,
+      6.746714734886135e-24,
+      2.025673171259159e-24,
+      2.594664823718353e-25,
+      3.3231887274403375e-24,
+      3.4503743092621816e-25
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "90311288293762833115400247293870606217841026119047724971491393547992908283279/1067993517960455041197510853084776057301352261178326384973520803911109862890320275011481043468288",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19,
+      2.981555974335137e-19,
+      -5.014435047745458e-19,
+      5.353248226647178e-19,
+      -3.9979955110402976e-19,
+      8.131516293641283e-20,
+      3.1848438816761693e-19,
+      -6.979551485375435e-19,
+      7.487771253728015e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  },
+  "seconds": 278.93825967199973,
+  "newton_statistics": {
+    "calls": 1,
+    "rejected_domain_trials": 6,
+    "rejected_merit_trials": 44,
+    "accepted_steps": 8,
+    "no_step": 0,
+    "minimum_alpha": 3.814697265625e-06,
+    "factorizations": 8
+  },
+  "parent_frontend": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d-gc-bvp-design-warm.py",
+    "bytes": 17364,
+    "sha256": "6b7c716fb4c098c2ad88924beb0ca75a8b57d19b41c50d8c13cf6563262310a8"
+  },
+  "archive_source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_archive_arrays.py",
+    "bytes": 4139,
+    "sha256": "a2727d5c0a7cf0fea298ac6d055025b515fcaf1feab81f69eb1c29ea2afa6eea"
+  },
+  "streaming_source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_stream_csc.py",
+    "bytes": 4907,
+    "sha256": "2b19ec81d6ac99bc1b377df7f518f268e70b97b776388092e26c449b1bf655a6"
+  },
+  "original_design_equations_unchanged": true
+}

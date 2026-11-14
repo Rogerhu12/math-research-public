@@ -1,0 +1,96 @@
+{
+  "status": "working-tolerance-diagnostic-not-metric-error",
+  "packet": "notes/2026-11-09-db6f-tail-background-lowmetric-raw2.json",
+  "bad": [
+    {
+      "row": 142,
+      "span": 2998,
+      "u": [
+        0.9921875,
+        0.99609375
+      ],
+      "source": [
+        2,
+        1
+      ],
+      "total_width": 3.961676653064023e-05,
+      "remainder": 1.7496559014397922e-12,
+      "radial_residual": 7.290232922665798e-14
+    },
+    {
+      "row": 261,
+      "span": 3115,
+      "u": [
+        0.015625,
+        0.01953125
+      ],
+      "source": [
+        2,
+        3
+      ],
+      "total_width": 0.0002966326738452605,
+      "remainder": 1.742104584311134e-12,
+      "radial_residual": 7.258769101296389e-14
+    },
+    {
+      "row": 311,
+      "span": 3129,
+      "u": [
+        0.1328125,
+        0.13671875
+      ],
+      "source": [
+        2,
+        3
+      ],
+      "total_width": 2.591339695271312e-06,
+      "remainder": 4.012999929450569e-09,
+      "radial_residual": 1.672083303937736e-10
+    },
+    {
+      "row": 447,
+      "span": 3246,
+      "u": [
+        0.74609375,
+        0.75
+      ],
+      "source": [
+        2,
+        5
+      ],
+      "total_width": 2.5505652874830906e-06,
+      "remainder": 3.105099510847257e-09,
+      "radial_residual": 1.2937914628530233e-10
+    },
+    {
+      "row": 495,
+      "span": 3262,
+      "u": [
+        0.33984375,
+        0.34375
+      ],
+      "source": [
+        2,
+        5
+      ],
+      "total_width": 0.0001036850400021715,
+      "remainder": 1.652685528757463e-12,
+      "radial_residual": 6.886189703156094e-14
+    },
+    {
+      "row": 620,
+      "span": 3379,
+      "u": [
+        0.2421875,
+        0.24609375
+      ],
+      "source": [
+        2,
+        7
+      ],
+      "total_width": 3.374843837515018e-05,
+      "remainder": 1.7099217897330957e-12,
+      "radial_residual": 7.124674123887896e-14
+    }
+  ]
+}

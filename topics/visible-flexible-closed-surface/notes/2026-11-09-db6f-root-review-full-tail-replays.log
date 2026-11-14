@@ -1,0 +1,37 @@
+{
+  "status": "independent-complete-background-assembly-and-consumer-replays-PASS",
+  "reports": {
+    "primitive": {
+      "complete_profiles": 18,
+      "all_fields_and_inputs_identical": true,
+      "analytic_leaves": 8451,
+      "range_leaves": 420
+    },
+    "strict_prefix": {
+      "replayed_rows": 4999,
+      "all_arrays_identical": true,
+      "collar_equal_to_reviewed_coarse_after_zero_padding": true
+    },
+    "assembled_packet": {
+      "rows": 5237,
+      "all_arrays_identical": true,
+      "replayed_suffix_cases": 4,
+      "finite_plan_report_sha256": "4a2fa78e181231a36475203ffea21577b16fef072d373407fa22324d8a504a6e"
+    },
+    "consumer": {
+      "checked_rows": 5237,
+      "all_rows_identical": true,
+      "all_mathematical_report_fields_identical": true,
+      "different_metadata_fields": [
+        "packet",
+        "packet_sha256",
+        "row_data_file",
+        "seconds"
+      ],
+      "metric_operator_upper": 9.968938237875866e-07,
+      "principal_curvature_upper": 8.46544537300005,
+      "author_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83",
+      "replay_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PREPARED_PUBLICATION_SPARSE_REAPPLY",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T18:26:24.428749+00:00",
+  "prior_operation": {
+    "receipt": "1a53a7",
+    "tool_exit": 1,
+    "git_sparse_set_exit": 0,
+    "postcondition_failure": "Outside-cone notes/repro paths remained materialized; no observer file had yet been written.",
+    "subsequent_observation_receipt": "ca24fd",
+    "subsequent_publication_clean": true,
+    "subsequent_heads_unchanged": true,
+    "subsequent_primary_sparse_scope_unchanged": true,
+    "subsequent_available_bytes": 985776128
+  },
+  "read_only_preflight_sha256": "df9aecaa0a19fcb3fdfb61d389d99b75fdaa7254eb26d8039e7d9621ef712abd",
+  "before_remaining": {
+    "notes": {
+      "files": 1987,
+      "bytes": 361630754
+    },
+    "repro": {
+      "files": 45,
+      "bytes": 325009
+    }
+  },
+  "available_before": 943116288,
+  "command": [
+    "git",
+    "-C",
+    "/workspace/scratch/db6f0b0e7462/math-publication",
+    "sparse-checkout",
+    "reapply"
+  ]
+}

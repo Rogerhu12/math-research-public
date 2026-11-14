@@ -1,0 +1,68 @@
+{
+  "schema": "78718-independent-seed8000-source-derivation-v1",
+  "generator_sha256": "0bf553b59da21e48676dceae8046c062160210bbec059c6530ddb75ffd943b43",
+  "files": [
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-restart8000-inputs-v1.py",
+      "source_bytes": 16162,
+      "source_sha256": "8730f041dd471c8b37c915589ed3be9cc32049f6f2e34e43b05df481811d0dd6",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-independent-seed8000-inputs-v1.py",
+      "output_bytes": 16312,
+      "output_sha256": "3508c37cb4d9ff48702143b00fa668b6938b40e1e85e97d6ac0ae74cc55397be"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-prepare-restart8000-v1.py",
+      "source_bytes": 6227,
+      "source_sha256": "dded46af332d471e7e6e12535295fcfb901ffc312689fdd748b6845f149b08a5",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-prepare-independent-seed8000-v1.py",
+      "output_bytes": 6324,
+      "output_sha256": "f06e3c4a4fc9dfdfea73ace6eceb7658493106ede5dfac88947f51ae722c31df"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-restart8000-v1.py",
+      "source_bytes": 18738,
+      "source_sha256": "200792dbe56a84c2cf1b3954f3a4c73a060bab8579029612d16ffe2f162c9b30",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-independent-seed8000-v1.py",
+      "output_bytes": 18858,
+      "output_sha256": "2fec0b89aab9611677fef9c2eab70b78d9eef8e22b85dfcd5b46753e2d4517b5"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-restart8000-v1.py",
+      "source_bytes": 31955,
+      "source_sha256": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-independent-seed8000-v1.py",
+      "output_bytes": 32581,
+      "output_sha256": "067f8944cb0d75ceffc846119b1ca2511f0e6e886799258e4659b023d8828578"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-restart8000-runtime-v1.py",
+      "source_bytes": 4960,
+      "source_sha256": "57b49ef7d7ab4531c0cfed567a3cc3d85b5167773425b1fb9c1e3addeeadfdd6",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-independent-seed8000-runtime-v1.py",
+      "output_bytes": 5014,
+      "output_sha256": "c9a9adfc03688740ee258fff6895d4b0a62aa25832a9ab133dd5b75c8aba3f52"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-restart8000-guard-v1.py",
+      "source_bytes": 2720,
+      "source_sha256": "124c7acf14d9e52e25a41857db443231f3287c2f88ddda524b775e35c8b59b02",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-independent-seed8000-guard-v1.py",
+      "output_bytes": 2880,
+      "output_sha256": "f40f1157153a608c3744e772fffc5f8097195c25d2000c20ea9f7c7e7f8b9e4d"
+    },
+    {
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-root-tool-observation-v1.py",
+      "source_bytes": 3721,
+      "source_sha256": "d7115aa54f2148ea579161e164de5c79585269dc5522f13b1b1bb228c8d4440b",
+      "output": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-independent-tool-observation-v1.py",
+      "output_bytes": 3825,
+      "output_sha256": "65daca0b3bc7b8512bab1fff4edf672c2d158a0b21198b2d0f5a23815a7f0a6b"
+    }
+  ],
+  "source_compilation_only": true,
+  "old_sources_modified": false,
+  "mathematical_functions_executed": 0,
+  "solver_started": false,
+  "route": "Published original true M14 seed and own tail; not exact failed-CP restart replay.",
+  "execution_observer": "/root/independent_audit"
+}

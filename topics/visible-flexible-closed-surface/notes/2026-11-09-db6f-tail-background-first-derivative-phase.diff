@@ -1,0 +1,57 @@
+--- scripts/db6f-tail-background-packet-c4.py	2026-11-09 16:36:50.535631057 +0800
++++ scripts/db6f-tail-background-packet-phase.py	2026-11-09 16:48:36.430038187 +0800
+@@ -8,6 +8,8 @@
+ global cap and curvature bounds. No floating inverse is trusted as exact. Across cap boundaries w is C4;
+ only its order-four Taylor remainder is used there, even though the
+ individual branch expressions are not analytic across the boundary.
++A first-derivative residual enclosure preserves radius correlation even
++when the proposal crosses many tiny primitive leaves.
+ """
+ import argparse
+ from fractions import Fraction as Q
+@@ -154,14 +156,27 @@
+         exact=[a,3*(b-a),3*(c-2*b+a),d-3*c+3*b-a]
+         return [qbounds(z) for z in exact],x0,x1
+ 
++    def first_derivative_radial_residual(self,profile,xpoly,x0,x1,rl,rr):
++        # rho(0), rho(1) are bounded by the exact primitive at the two
++        # exact Bezier endpoint controls. Any tau is within 1/2 of one
++        # endpoint, so |rho| <= max endpoint error + sup |rho'| / 2.
++        source=self.source.evaluate(profile.n,profile.j,Jet.variable(I(x0,x1),0))
++        rx=source['A'].c[0]+source['B'].c[0]*self.alpha
++        derivative=bernstein_range([(k+1)*xpoly[k+1] for k in range(len(xpoly)-1)])
++        rho_derivative=(rx*derivative-qbounds(rr-rl)).abs()
++        endpoint_error=max(float((profile.point(x0)-qbounds(rl)).abs().hi),
++                           float((profile.point(x1)-qbounds(rr)).abs().hi))
++        return float((I(endpoint_error)+rho_derivative/2).hi)
++
+     def radial_residual(self,profile,xpoly,x0,x1,rl,rr):
+         first=profile.leaf_index(x0);last=profile.leaf_index(x1)
++        derivative_bound=self.first_derivative_radial_residual(profile,xpoly,x0,x1,rl,rr)
+         # Monotonicity is an independent, always valid fallback. It avoids
+         # composing thousands of tiny leaves near one |w_x| branch point.
+         left=profile.point(x0);right=profile.point(x1)
+         monotone=max(abs(Q(float(left.lo))-rr),abs(Q(float(right.hi))-rl))
+         monotone_bound=float(qbounds(monotone).hi)
+-        if last-first>64:return monotone_bound
++        if last-first>64:return min(monotone_bound,derivative_bound)
+         bound=0.
+         for leaf in profile.leaves[first:last+1]:
+             shifted=list(xpoly);shifted[0]=shifted[0]-I(leaf['center'])
+@@ -173,7 +188,7 @@
+             polynomial[1]=polynomial[1]-qbounds(rr-rl)
+             residual=bernstein_range(polynomial).abs()+I(leaf['primitiveRemainder'])
+             bound=max(bound,float(residual.hi))
+-        return min(bound,monotone_bound)
++        return min(bound,monotone_bound,derivative_bound)
+ 
+     def slope_polynomial(self,profile,xpoly,x0,x1,order):
+         center=float((Q(x0)+Q(x1))/2)
+@@ -319,6 +334,7 @@
+             'w_working_tolerance_criterion':'remainder plus outward sum of full coefficient widths; coarse dispatch rows are exempt and require the actual metric verifier',
+             'exact_radial_anchor_invariant':True,'background_curvature_bound':6,
+             'global_background_wr_absolute_bound':24,'cap_crossing_w_taylor_order':4,
++            'radial_residual_method':'minimum of original polynomial/monotone bound and endpoint error plus half the first-derivative bound',
+             'notes':['No source inverse is assumed exact.','The independent backend must include w_remainder and wr_remainder.',
+                      'Coarse inner w/wr boxes use separately reviewed cap/curvature proofs; they are not tight inverse results.']}
+     buffer=[];started=time.time()

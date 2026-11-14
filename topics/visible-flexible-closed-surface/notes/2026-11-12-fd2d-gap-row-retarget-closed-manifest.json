@@ -1,0 +1,47 @@
+{
+  "schema": "fd2d-closed-single-gap-row-replacement-consumer-v1",
+  "closed": true,
+  "scope": "R159 exact row-sum corollary and small independent assembly checks; not used on actual nonlinear branch",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_gap_row_retarget.py",
+      "bytes": 6071,
+      "sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+    },
+    {
+      "path": "scripts/fd2d-gap-row-retarget-check.py",
+      "bytes": 4162,
+      "sha256": "1cd7637bcc456340dfa4aa3860fa7c5d1aaf91c23ea31c5a84ae9285c22bd783"
+    },
+    {
+      "path": "scripts/fd2d-gap-row-retarget-check-v2.py",
+      "bytes": 4179,
+      "sha256": "a3d7afd531a3b60fe6fb82c9f7a289705a546ca774f53165086687f16559a974"
+    },
+    {
+      "path": "scripts/fd2d-gap-row-retarget-check-v3.py",
+      "bytes": 4221,
+      "sha256": "28ec48f8881790a92048b6357c44c35be1787513386498cb0ededd355d6aec80"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-gap-row-retarget-check-01.json",
+      "bytes": 8034,
+      "sha256": "f6ed6a1990a86660bdec71f462616a1cd583f74e09c3cba4ed7d041ad78cf137"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-gap-row-retarget-check-03.json",
+      "bytes": 7976,
+      "sha256": "44a8952c2ce4eb1e9fdc0c1acb6d7751f706737685e9a4ccd528fbbe09ddd96a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-gap-row-retarget.md",
+      "bytes": 4258,
+      "sha256": "4218f69a8772ab723699033265256d06998fa4b9b90337797d83dc7b4c9c31dd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-gap-row-retarget-actual-exits.json",
+      "bytes": 1190,
+      "sha256": "ab766a594a23a534a001c75513ac8293b6be5c029609f4ae2ddd8bf1bb1c3fe3"
+    }
+  ]
+}

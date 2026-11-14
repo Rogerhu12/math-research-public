@@ -1,0 +1,65 @@
+{
+  "schema": "fd2d-R146-exact-endpoint-Codazzi-consumer-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_codazzi_endpoint_d2.py",
+      "bytes": 13688,
+      "sha256": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f"
+    },
+    {
+      "path": "scripts/fd2d-metric-endpoint-codazzi-cell-check.py",
+      "bytes": 9252,
+      "sha256": "ecc816f3f71594ebc3b8a212a9973eac8dd049f0c3a6ac0ea2745da81cb3da00"
+    },
+    {
+      "path": "results/R146-exact-lifting-endpoint-Codazzi-quadrature.md",
+      "bytes": 11033,
+      "sha256": "8795ac9c235364f610421a0001c7b106fd7421873ad542d80585f4b4ca0e9ffc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-endpoint-codazzi-cell-check-01-report.json",
+      "bytes": 10119,
+      "sha256": "f989022e9656c77a5b9254c9701de7e1f11cec33cc3fad3d3bd695c22858aec2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-endpoint-codazzi-cell-check-02-report.json",
+      "bytes": 10203,
+      "sha256": "4252a0e80aa562723144abeebb6d1337005319f5d3a28772bbfc470f94384b98"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-endpoint-codazzi-cell-check-01-exit-receipt.json",
+      "bytes": 593,
+      "sha256": "361774b6f401081a15c7e686ad1a7de953421eb4e46b0b64ad48e588ec2a064d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-endpoint-codazzi-cell-check-02-exit-receipt.json",
+      "bytes": 434,
+      "sha256": "4e8b064eb8169872b50d39397755953f6890aa05ea8c99c6a67f09b2d69f36d4"
+    }
+  ],
+  "upstream_scalar_proof_group": {
+    "path": "notes/2026-11-12-fd2d-metric-coast-window-quadrature-closed-manifest-01.json",
+    "bytes": 1553,
+    "sha256": "1d01651995e57eab9bd7cdaa5f1eddac466eea173e73d2229f119e496e4d902d"
+  },
+  "actual_runs": [
+    {
+      "session_id": 47283,
+      "completion_chunk_id": "9bf408",
+      "exit_code": 1,
+      "scope": "Actual cell63: requested nonzero-tail coverage absent; no false pass"
+    },
+    {
+      "session_id": 84335,
+      "completion_chunk_id": "cc70b2",
+      "exit_code": 0,
+      "scope": "Actual cell71: three genuine nonzero JVP groups passed"
+    }
+  ],
+  "finite_equations_changed": true,
+  "physical_g_or_P1_field_changed": false,
+  "old_consumer_or_solver_source_changed": false,
+  "full_BVP_matrix_assembled": false,
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

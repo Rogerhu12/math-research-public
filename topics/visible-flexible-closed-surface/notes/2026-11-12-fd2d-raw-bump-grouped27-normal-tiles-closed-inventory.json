@@ -1,0 +1,629 @@
+{
+  "schema": "fd2d-compact-reproducible-closed-normal-tile-inventory-v1",
+  "plan": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partition-plan.json",
+    "bytes": 46631,
+    "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+  },
+  "all_complete": true,
+  "tiles": [
+    {
+      "id": "0000-nodes",
+      "ordinal": 0,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0000-nodes/manifest.json",
+        "bytes": 718949,
+        "sha256": "dad87d2488260f01e0c2a3ac1885895755a8d0918a3ca6f9ca2a6454201d151d"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0001-nodes",
+      "ordinal": 1,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0001-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "213462f8f9869c2a8d44db658874c6096617aec815177227fc8ae619035292e4"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0002-nodes",
+      "ordinal": 2,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0002-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "90a816aa2d601f58c3e42087c7f1e7dd4c4cc390d17000d7f4e058e04826650c"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0003-nodes",
+      "ordinal": 3,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0003-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "22ff06287ec099c2cd940304070c849997730db5dbcb7014c57acef145b4d45d"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0004-nodes",
+      "ordinal": 4,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0004-nodes/manifest.json",
+        "bytes": 702604,
+        "sha256": "85b05684ba27af3d17f2426fbdc14054ddb7316715da0b57942d3d27c7ab7b83"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0005-nodes",
+      "ordinal": 5,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0005-nodes/manifest.json",
+        "bytes": 719009,
+        "sha256": "b5140acddfee8930c890ec7d411e8c15794694caf0bad57a222dfd947a995473"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0006-nodes",
+      "ordinal": 6,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0006-nodes/manifest.json",
+        "bytes": 719094,
+        "sha256": "d7a5e3051313c335001462e82045fa6a519523f4822198aa21950b918bead5ac"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0007-nodes",
+      "ordinal": 7,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0007-nodes/manifest.json",
+        "bytes": 714638,
+        "sha256": "a94405502045b6dcf8de0fccf16058d0f17ba84be53790f93522e3b39585b660"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0008-nodes",
+      "ordinal": 8,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0008-nodes/manifest.json",
+        "bytes": 682433,
+        "sha256": "fbd12d060a99497e315333fe32ab91ea65b0f2ec74231c9ad4fe9624a086913f"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0009-cells",
+      "ordinal": 9,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0009-cells/manifest.json",
+        "bytes": 687533,
+        "sha256": "8575407ed2df6f70a92b6555aade9f91e06298a770b34a8b361dcfa61cce7b2b"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0010-cells",
+      "ordinal": 10,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0010-cells/manifest.json",
+        "bytes": 687535,
+        "sha256": "c49cf00bcabb98d32fc9d8897fbafc050a9568e225452a39784996e2aa9d8a13"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0011-cells",
+      "ordinal": 11,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0011-cells/manifest.json",
+        "bytes": 687551,
+        "sha256": "d572816a79385773e6fc346f45502154105cc6ca9cca94b8760756043453b7f8"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0012-cells",
+      "ordinal": 12,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0012-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "5e4c457a08a78c0e2b4d93a5a5a14da77aa2576da9193c8215e03039672d9dfe"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0013-cells",
+      "ordinal": 13,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0013-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "acd6b835b495b32f7227b2eb94d283cb282416813b246391f6aefc4010d7189a"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0014-cells",
+      "ordinal": 14,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0014-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "9018b76e3df9165b52a637341ec08412b2ea67718670ac32ec2bbade2f949ab5"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0015-cells",
+      "ordinal": 15,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0015-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "20100332ce2b33a3f12c49bff8e4edaf4da67634efc21e3feff7badc2eccbc90"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0016-cells",
+      "ordinal": 16,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0016-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "a9d11c991e3f74ec04d83714e6a9e2572df120d50b6f11dc4e0fcb5f1baee746"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0017-cells",
+      "ordinal": 17,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0017-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "4055eb8c161173c116dc104fd69960be645c17e1197a87b1b77971c465a2ae51"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0018-cells",
+      "ordinal": 18,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0018-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "3bd2f9f2392a768c2078a0f3fc7c5cda5ae8cc03ffb8faefe2618350139a064c"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0019-cells",
+      "ordinal": 19,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0019-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "c6322a89db76720e6e1e8d8cb0e022bb8ef18388c321ad8a083beddc22010803"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0020-cells",
+      "ordinal": 20,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0020-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "e86b0885384bd8a0d02de43778eb8796d418b2fe317d5acc468e3dd7fcaf566a"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0021-cells",
+      "ordinal": 21,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0021-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "926887af5ccc5b38792a4ac33d58027eef003e75b284da5da662ce35a27acca7"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0022-cells",
+      "ordinal": 22,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0022-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "e066b9aca3d945303f650423f2e60b8c1bd10a037679e50595aab16c45bf17fa"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0023-cells",
+      "ordinal": 23,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0023-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "2d17ebe6c93585f695b3d633b8f5d792fbc9ed1e7bae00f267e450a10d2a96e9"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0024-cells",
+      "ordinal": 24,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0024-cells/manifest.json",
+        "bytes": 695249,
+        "sha256": "5c8e1d79c2df5d3f302a1cb21eb2cc6a8622c2b3142db555655f2ed4fe9300ea"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0025-cells",
+      "ordinal": 25,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0025-cells/manifest.json",
+        "bytes": 721733,
+        "sha256": "69983a70591f5e3eb0df29760161740362e79316e8708483f80323423ae6b81d"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0026-cells",
+      "ordinal": 26,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0026-cells/manifest.json",
+        "bytes": 717854,
+        "sha256": "3baa1907fb54ba4949599831294278e4fd657b5061a3bbfdcc3e0c07f18df1ef"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0027-cells",
+      "ordinal": 27,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0027-cells/manifest.json",
+        "bytes": 717857,
+        "sha256": "3d50da54ce13d980d785bad6184d7b1149efc6b5577b0a35ddd02aa924c43d8e"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0028-cells",
+      "ordinal": 28,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0028-cells/manifest.json",
+        "bytes": 695249,
+        "sha256": "773c874724b469c14ffc9edfd55241df0966b7fd0fc404952141351b6c557f64"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0029-cells",
+      "ordinal": 29,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0029-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "f0fe5c2eac222af23d005ea0795410f4092874a137132f811366ce2e73ee4b55"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0030-cells",
+      "ordinal": 30,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0030-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "415ceed16d0fee1ef15cbf78cb1857c63254da917829e0d76ae4a1af56c2d08b"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0031-cells",
+      "ordinal": 31,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0031-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "a49719b5f77d8b68508cc7b08a820ccbbfbe3c2a4a0917d529c84d0ba0b05ce5"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0032-cells",
+      "ordinal": 32,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0032-cells/manifest.json",
+        "bytes": 687563,
+        "sha256": "ead39d0aa58b75a83cd5f58cafb4c4dce8c27e299e27f70f409c8ba3d3ab069b"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0033-cells",
+      "ordinal": 33,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0033-cells/manifest.json",
+        "bytes": 687565,
+        "sha256": "2c96c9ca27056ff00c76f4768ba376a9146ec74ff8fe2233cce50a7e903b4caf"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0034-cells",
+      "ordinal": 34,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0034-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "6e361efd09c34e2e0b0a220255be9063116430da3d866d2af985f37a6131550f"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0035-cells",
+      "ordinal": 35,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0035-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "27c121bd748c86051b42779d233ce0c2d1fbe4ee37865cd579d28295482f8f67"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0036-cells",
+      "ordinal": 36,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0036-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "b8efaec74bc6ea324c9189677916acf865f7b461c869180e0f3925fecd8ce078"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0037-cells",
+      "ordinal": 37,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0037-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "60872ba1667d72305b706fabf9dc25e61df2699db7ab4dc5fd5ab1262d3a4062"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0038-cells",
+      "ordinal": 38,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0038-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "8f3ae5e582538eeb57696dc314ebb2a0e997e83803ee761c4b2f3e7b25d5407f"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0039-cells",
+      "ordinal": 39,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0039-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "2e8d6a09063648012b4ba19f5e77e910ff932e6b1d443979bbfa5b48ee5a7ce3"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0040-cells",
+      "ordinal": 40,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0040-cells/manifest.json",
+        "bytes": 687591,
+        "sha256": "1c15988610c5a2d8d781134cbc57fcb439aa3689d6a638459dd59a020b7a37e0"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0041-cells",
+      "ordinal": 41,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0041-cells/manifest.json",
+        "bytes": 683743,
+        "sha256": "6c6fc5caa2a3c0f256504fc8e2d6771f158f7e5754b4b88e01b181901db0618e"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0042-boundary",
+      "ordinal": 42,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0042-boundary/manifest.json",
+        "bytes": 683150,
+        "sha256": "072efef3f593a098746b56a029b68e1162e71d8b2928c32a03f98e384e976638"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0043-interior",
+      "ordinal": 43,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0043-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "94688f17307b6fdbdc81e95f50735d0a54e56de9166af8b3b1f9d4c46fec7184"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0044-interior",
+      "ordinal": 44,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0044-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "49b38878ad3355ec9aa6a5647ea3deb8a59f843d8a6b4a3e19e234a5767a517c"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0045-interior",
+      "ordinal": 45,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0045-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "09fabd937508c9576e6f504fec2cfdea24b2a3564d18ce2b48fd16575a4d2ba5"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0046-interior",
+      "ordinal": 46,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0046-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "71d751fff36fb24e4fc67539ba20be4d84fae28070fa7a38ae5ae6d804ff9a51"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0047-interior",
+      "ordinal": 47,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0047-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "9a39e516f2da8dd89f4172a0c979a5512df2bb7b18584e8415c1958a023141fe"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0048-interior",
+      "ordinal": 48,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0048-interior/manifest.json",
+        "bytes": 380357,
+        "sha256": "9350fca638498bfe3a4329017f71c4f64ab53efd84c6b30c819eb2a27d543b4a"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0049-interior",
+      "ordinal": 49,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0049-interior/manifest.json",
+        "bytes": 380370,
+        "sha256": "d5a2631ec5a879816e1b6ce296dc7809f7ceb1161d5239820867808cc231faf7"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    },
+    {
+      "id": "0050-interior",
+      "ordinal": 50,
+      "manifest": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-tiles/0050-interior/manifest.json",
+        "bytes": 380374,
+        "sha256": "c78fd4e99827ab76e4d099e895effbdfc1bc3d58efa628d62c89a0fd81d23042"
+      },
+      "complete": true,
+      "numerical_piece_count": 35,
+      "numerical_piece_bytes": 21624724
+    }
+  ],
+  "pieces_remain_local": true,
+  "actual_complete_normal": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partitioned/manifest.json",
+    "bytes": 454048,
+    "sha256": "1c4c90913a26d4b3248d781286feb040164631c0ec01568f6cfe7afa1316a753"
+  }
+}

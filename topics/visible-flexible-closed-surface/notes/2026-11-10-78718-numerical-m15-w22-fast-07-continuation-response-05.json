@@ -1,0 +1,41 @@
+{
+  "status": "ACTUAL_CONTINUATION_RESPONSE_ONLY",
+  "observer": "/root/numerical_recovery",
+  "call": 5,
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0005.json.gz",
+    "bytes": 764328,
+    "sha256": "f951812360d3e93d7e63693ae94e6d5d54b8afb2d40e8caa1a7c546212759933"
+  },
+  "converged": true,
+  "residual": 8.355829394450392e-10,
+  "request_equals_checkpoint_height": true,
+  "height_scale_from_original_first_component": 0.5625,
+  "max_height_difference_from_that_multiple": 5.421010862427522e-20,
+  "history_iterations": 5,
+  "last_history_min_A": 0.6544448576022862,
+  "last_history_min_D": 0.9953180264439184,
+  "requested_jacobian": false,
+  "requested_audit": false,
+  "response_events": [
+    {
+      "time": "2026-11-10T14:41:36.308Z",
+      "event": "tangent_predictor_ready",
+      "call": 5,
+      "maxChartCondition": 220885.76555024838
+    },
+    {
+      "time": "2026-11-10T14:41:36.308Z",
+      "event": "response",
+      "call": 5,
+      "elapsed_ms": 950748,
+      "converged": true,
+      "residual": 8.355829394450392e-10,
+      "maxChartCondition": 220885.76606201104
+    }
+  ],
+  "original_full_height_solved": false,
+  "prefix_inner_or_closed_surface_asserted": false,
+  "process_tool_consumed": false,
+  "scope": "Actual own intermediate finite DN packet; eventual original height and full coupled/closed-map criteria remain."
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "78718-post-m15-plan-observed-pure-executions-v1",
+  "observer": "/root/numerical_recovery",
+  "scope": "Pure fixed-source check and two rejecting success gates. No positive candidate plan exists, no producer or solver was started.",
+  "source_generation": {
+    "tool_receipt": "8470a9",
+    "actual_exit_code": 0,
+    "source_files": 3
+  },
+  "executions": [
+    {
+      "name": "m15_post_static",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-post-m15-linear-plans-v1.py",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-static-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "baf9a6",
+        "wall_time_seconds": 0.204731526,
+        "exit_code": 0,
+        "original_token_count": 157,
+        "output": "{\"status\": \"PASS_SOURCE_INPUT_CLOSURE_ONLY_NO_CANDIDATE_ARGV\", \"original_fixed_binding_count\": 127, \"storage_binding_count\": 56, \"unique_preexisting_binding_count\": 159, \"storage_source_count\": 16, \"command_file_substitution_count\": 9, \"terminal_reference_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"production_commands_emitted\": 0, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-static-01.json\", \"bytes\": 66497, \"sha256\": \"49c5fbd3e4cbafa0b9ddc807c4246a2ba183f72a4893b79e04a0ee0fdff8d260\"}}\n"
+      },
+      "final_tool": {
+        "chunk_id": "baf9a6",
+        "wall_time_seconds": 0.204731526,
+        "exit_code": 0,
+        "original_token_count": 157,
+        "output": "{\"status\": \"PASS_SOURCE_INPUT_CLOSURE_ONLY_NO_CANDIDATE_ARGV\", \"original_fixed_binding_count\": 127, \"storage_binding_count\": 56, \"unique_preexisting_binding_count\": 159, \"storage_source_count\": 16, \"command_file_substitution_count\": 9, \"terminal_reference_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"production_commands_emitted\": 0, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-static-01.json\", \"bytes\": 66497, \"sha256\": \"49c5fbd3e4cbafa0b9ddc807c4246a2ba183f72a4893b79e04a0ee0fdff8d260\"}}\n"
+      }
+    },
+    {
+      "name": "m15_post_missing_exit",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-m15-linear-v1.py",
+        "--launch",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+        "--observed-execution",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-root-observed-exit.json",
+        "--final-audit",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-final-audit.json",
+        "--run-directory",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-m15-linear-original-unused-01",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-missing-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "ec08ae",
+        "wall_time_seconds": 0.972265799,
+        "exit_code": 2,
+        "original_token_count": 131,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"plan_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"complete_final_audit_replayed\": false, \"production_commands_emitted\": 0, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-missing-01.json\", \"bytes\": 266, \"sha256\": \"542903ae4255fad4a58f569ada19c3aad299cc750a2a702084a079825fd805c0\"}, \"reason\": \"FileNotFoundError(2, 'No such file or directory')\"}\n"
+      },
+      "final_tool": {
+        "chunk_id": "ec08ae",
+        "wall_time_seconds": 0.972265799,
+        "exit_code": 2,
+        "original_token_count": 131,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"plan_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"complete_final_audit_replayed\": false, \"production_commands_emitted\": 0, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-missing-01.json\", \"bytes\": 266, \"sha256\": \"542903ae4255fad4a58f569ada19c3aad299cc750a2a702084a079825fd805c0\"}, \"reason\": \"FileNotFoundError(2, 'No such file or directory')\"}\n"
+      }
+    },
+    {
+      "name": "m15_post_wrong_exit",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-m15-linear-storage-v1.py",
+        "--launch",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-launch.json",
+        "--observed-execution",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-root-observed-exit.json",
+        "--final-audit",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-final-audit.json",
+        "--run-directory",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-m15-linear-storage-v1-unused-01",
+        "--out",
+        "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-wrong-exit-01.json"
+      ],
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+      "initial_tool": {
+        "chunk_id": "b6d1af",
+        "wall_time_seconds": 0.984689824,
+        "exit_code": 2,
+        "original_token_count": 145,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"plan_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"complete_final_audit_replayed\": false, \"production_commands_emitted\": 0, \"storage_branch_selected_or_activated\": false, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-wrong-exit-01.json\", \"bytes\": 318, \"sha256\": \"a5ff186e3556b1eb3fa5639714d3c82538bdda454986cc40efeb283513da70ec\"}, \"reason\": \"ValueError('Wrong actual root observation identity')\"}\n"
+      },
+      "final_tool": {
+        "chunk_id": "b6d1af",
+        "wall_time_seconds": 0.984689824,
+        "exit_code": 2,
+        "original_token_count": 145,
+        "output": "{\"status\": \"NOT_READY_OR_REJECTED\", \"plan_ready\": false, \"actual_solver_calls\": 0, \"actual_production_calls\": 0, \"complete_final_audit_replayed\": false, \"production_commands_emitted\": 0, \"storage_branch_selected_or_activated\": false, \"output\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-negative-wrong-exit-01.json\", \"bytes\": 318, \"sha256\": \"a5ff186e3556b1eb3fa5639714d3c82538bdda454986cc40efeb283513da70ec\"}, \"reason\": \"ValueError('Wrong actual root observation identity')\"}\n"
+      }
+    }
+  ]
+}

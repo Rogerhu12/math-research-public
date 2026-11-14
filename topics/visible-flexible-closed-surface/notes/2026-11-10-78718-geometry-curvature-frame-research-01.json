@@ -1,0 +1,345 @@
+{
+  "scope": "Small own-map interval comparison of principal-curvature bounds.\n\nNo source BVP, tail shooting, or ODE is called.  Each reported bound covers\nthe indicated whole radial span and angular arcs of the actual saved map.\nOnly the selected spans are covered; no global geometry claim is made.\n",
+  "geometry": "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/closed-map.json",
+  "geometry_sha256": "6cd427ec5b4642a08ac64e9a1afbc5d4692ad5b449d305ffb10725f606e1eb83",
+  "script_sha256": "44611845bb32c02c3f12d02a427f22b74027e4cd91b929fc3ac155614b079cd5",
+  "interval_source_sha256": "09e8c748c7cc49347876d849029e835a8cd0e5f097d36eaf6cf2fd7c0f2ddc18",
+  "modes": 64,
+  "selected_spans": [
+    0,
+    600,
+    2500,
+    4000,
+    6124,
+    6500
+  ],
+  "whole_prefix_covered": false,
+  "rows": [
+    {
+      "span": 0,
+      "radial_interval": [
+        0.0,
+        2.632520696751894e-05
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.19951418497078527,
+        "curvature_upper": 8.656823837412027
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.18004234139921363,
+        "curvature_upper": 9.099727976047786
+      }
+    },
+    {
+      "span": 600,
+      "radial_interval": [
+        0.10045698978805223,
+        0.10077289227166247
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.2131600329355727,
+        "curvature_upper": 7.89283249115526
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.17406506332192231,
+        "curvature_upper": 8.1372439222769
+      }
+    },
+    {
+      "span": 2500,
+      "radial_interval": [
+        0.4471599655502766,
+        0.44731791679208177
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.585836709514012,
+        "curvature_upper": 2.269952467880509
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.08546787610158237,
+        "curvature_upper": 1.9936977801196518
+      }
+    },
+    {
+      "span": 4000,
+      "radial_interval": [
+        0.9673987056423856,
+        0.9675040064702558
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.8176751092399717,
+        "curvature_upper": 1.4517431824152303
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.028508546876311974,
+        "curvature_upper": 1.2048587328663773
+      }
+    },
+    {
+      "span": 6124,
+      "radial_interval": [
+        1.8720381178742067,
+        1.8723540203578168
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.7417982257847966,
+        "curvature_upper": 0.982844375093092
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.00092415156612523,
+        "curvature_upper": 0.9742883772296681
+      }
+    },
+    {
+      "span": 6500,
+      "radial_interval": [
+        1.990817451711652,
+        1.991133354195262
+      ],
+      "angular_intervals_per_threefold_period": 64,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.6277832528243054,
+        "curvature_upper": 3.004419972915258
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0015934328538556196,
+        "curvature_upper": 2.9982579611517
+      }
+    },
+    {
+      "span": 0,
+      "radial_interval": [
+        0.0,
+        2.632520696751894e-05
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.1998784687664368,
+        "curvature_upper": 6.346541079622964
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0860388927066787,
+        "curvature_upper": 6.400262583017731
+      }
+    },
+    {
+      "span": 600,
+      "radial_interval": [
+        0.10045698978805223,
+        0.10077289227166247
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.21352112667114204,
+        "curvature_upper": 5.799816191001718
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0835285309348429,
+        "curvature_upper": 5.7935440453943645
+      }
+    },
+    {
+      "span": 2500,
+      "radial_interval": [
+        0.4471599655502766,
+        0.44731791679208177
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.5861395678628881,
+        "curvature_upper": 1.9538345952507874
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.04230995091696616,
+        "curvature_upper": 1.8341980289767223
+      }
+    },
+    {
+      "span": 4000,
+      "radial_interval": [
+        0.9673987056423856,
+        0.9675040064702558
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.8177867126689558,
+        "curvature_upper": 1.2936482069070068
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0142024887856788,
+        "curvature_upper": 1.177460624853519
+      }
+    },
+    {
+      "span": 6124,
+      "radial_interval": [
+        1.8720381178742067,
+        1.8723540203578168
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.7418056112308554,
+        "curvature_upper": 0.9818801114459417
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0007316822729528485,
+        "curvature_upper": 0.9740569440880049
+      }
+    },
+    {
+      "span": 6500,
+      "radial_interval": [
+        1.990817451711652,
+        1.991133354195262
+      ],
+      "angular_intervals_per_threefold_period": 128,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.6278636847247351,
+        "curvature_upper": 3.0035658033666905
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0013356982795045492,
+        "curvature_upper": 2.997771532206
+      }
+    },
+    {
+      "span": 0,
+      "radial_interval": [
+        0.0,
+        2.632520696751894e-05
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.19996961140973482,
+        "curvature_upper": 5.5017221579403826
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.04200875006503539,
+        "curvature_upper": 5.505296006772768
+      }
+    },
+    {
+      "span": 600,
+      "radial_interval": [
+        0.10045698978805223,
+        0.10077289227166247
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.21361152626972985,
+        "curvature_upper": 5.016444357852828
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.041128608886115324,
+        "curvature_upper": 4.9886395981399945
+      }
+    },
+    {
+      "span": 2500,
+      "radial_interval": [
+        0.4471599655502766,
+        0.44731791679208177
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.5862154562416882,
+        "curvature_upper": 1.8255131325462493
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.021155977246106593,
+        "curvature_upper": 1.7860558217190936
+      }
+    },
+    {
+      "span": 4000,
+      "radial_interval": [
+        0.9673987056423856,
+        0.9675040064702558
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.8178146411441041,
+        "curvature_upper": 1.2150093098661279
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.007110313332108303,
+        "curvature_upper": 1.1693809043838042
+      }
+    },
+    {
+      "span": 6124,
+      "radial_interval": [
+        1.8720381178742067,
+        1.8723540203578168
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.7418074706698818,
+        "curvature_upper": 0.9816335724369303
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0006426841358593312,
+        "curvature_upper": 0.9739867210097931
+      }
+    },
+    {
+      "span": 6500,
+      "radial_interval": [
+        1.990817451711652,
+        1.991133354195262
+      ],
+      "angular_intervals_per_threefold_period": 256,
+      "original": {
+        "resolved": true,
+        "area_lower": 0.6279033330128238,
+        "curvature_upper": 3.003344188497753
+      },
+      "fixed_frame": {
+        "resolved": true,
+        "gram_defect_upper": 0.0012076850649000443,
+        "curvature_upper": 2.9976463875809416
+      }
+    }
+  ],
+  "seconds": 71.88125765899895,
+  "interpretation": "Every resolved bound is outward rounded on its own complete selected span. Midpoint frame and tangential subtraction are arbitrary exact binary constants. No assertion is made for unselected spans, closed geometry, or reach."
+}

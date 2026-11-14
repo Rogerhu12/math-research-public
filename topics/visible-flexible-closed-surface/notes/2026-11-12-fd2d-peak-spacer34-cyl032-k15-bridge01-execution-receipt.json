@@ -1,0 +1,42 @@
+{
+  "schema": "fd2d-observed-closed-numerical-exit-v1",
+  "observed_utc": "2026-11-12T11:50:39.701491+00:00",
+  "session_id": 6939,
+  "launch_chunk": "32adb9",
+  "completion_chunk": "24b6da",
+  "actual_exit_code": 0,
+  "seconds": 38.877551810000114,
+  "scope": "New candidate actual initializers only, not a solved prefix or full geometry certificate.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-report.json",
+      "bytes": 12374,
+      "sha256": "f03743ba701e0116bb3880e2784356d368266e17d6fd65d9cccdbaa431a466e7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-manifest.json",
+      "bytes": 1590,
+      "sha256": "5933dd31b641e3bf7f556993d96c0f7cfdec6572d4b6801d4b0135482315a596"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-amount000.npz",
+      "bytes": 34091,
+      "sha256": "27e7220b9575063efc717ff5a3bc3d6f4da752c0de9fd47ee271554d4db01d05"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-amount075.npz",
+      "bytes": 35939,
+      "sha256": "d6689a9c42ff8b69f6e83d64a1b983fbeb8232bd06f3af213cc04e8fa4c2edfb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-amount025.npz",
+      "bytes": 35951,
+      "sha256": "c1d295764a8bf913601358fc24cc16dbf2152d8142d74221d041dfc79927186e"
+    },
+    {
+      "path": "scripts/fd2d-flat-prefix-bridge-physical-recovery.py",
+      "bytes": 8005,
+      "sha256": "31ef0ce96b361e7cc6cd94176011f5aad6c1274fe33a690d8c288868770869ec"
+    }
+  ]
+}

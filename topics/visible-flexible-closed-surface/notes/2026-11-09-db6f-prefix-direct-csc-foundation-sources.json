@@ -1,0 +1,173 @@
+{
+  "schema": "db6f-direct-canonical-csc-foundation-sources-v1",
+  "status": "FROZEN_FUNCTIONS_ONLY_NO_INSTALLATION_NO_NUMERICAL_REPLAY",
+  "session": "db6f/coupled_prefix",
+  "date": "2026-11-09",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation.py",
+      "commit": "05ef1c42268872bb8b5ccf4094a2709f9606735a",
+      "blob": "f51f11ab750fa72ce90fac470c12feca6937d0cb",
+      "bytes": 17269,
+      "sha256": "cc837e05dbce4f8e8fe906b74b6d139dd126efea0fed04187f1395bde0a02e54",
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+      "commit": "5b7a715833357675cbe5d9944ce54a165997473a",
+      "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf",
+      "blob": "71f91271133dacd85e4d8d63a7ec3b757222d453",
+      "bytes": 17550,
+      "readback_exact": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+      "commit": "cbd77df636c629c3bbd5c1cf6aab6838149f3bb8",
+      "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd",
+      "blob": "aefd12d209e86017afe9550f12f3b6c08c42ce42",
+      "bytes": 19402,
+      "readback_exact": true
+    }
+  ],
+  "upstream_sources": [
+    {
+      "path": "scipy/integrate/_bvp.py",
+      "ref": "v1.17.0",
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "bytes": 41294,
+      "blob": "c82ebd0a9c582685cbd1b1b1c128391abd57ebef",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/integrate/_bvp.py"
+    },
+    {
+      "path": "scipy/sparse/_coo.py",
+      "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898",
+      "bytes": 74635,
+      "blob": "5b0d0a3fb1d7066a6faaa5869533bda3e3c347fa",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_coo.py"
+    },
+    {
+      "path": "scipy/sparse/_compressed.py",
+      "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f",
+      "bytes": 52058,
+      "blob": "f2d19f200aebcc77c3b413716d08d73bfe2d80d0",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_compressed.py"
+    },
+    {
+      "path": "scipy/sparse/_sputils.py",
+      "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f",
+      "bytes": 21095,
+      "blob": "326c68bab785498fa5e2ddef3ddcb6a85828e374",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_sputils.py"
+    },
+    {
+      "path": "scipy/sparse/_csc.py",
+      "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552",
+      "bytes": 11162,
+      "blob": "32eb9f2a1bbf53320487ce3fadfc8799600ab049",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_csc.py"
+    },
+    {
+      "path": "scipy/sparse/_base.py",
+      "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b",
+      "bytes": 58343,
+      "blob": "fa1ec6bf2600aab0d633cf93bf88187a2bba4a5f",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/scipy/sparse/_base.py"
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "221e59f5e910fd7f94e44f0dac77436a11338c285c6346232e4a850a50da0e94",
+      "bytes": 1531,
+      "blob": "1032aece8a8109d67f238de6865d8b08e750a8c0",
+      "ref": "v1.17.0",
+      "repository": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy/blob/v1.17.0/LICENSE.txt"
+    }
+  ],
+  "source_scope": "Exact upstream _bvp.py bytes match the previously frozen local file; this does not by itself identify every installed package/version.",
+  "complete_text_transforms": {
+    "original_file_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+    "original_construct_sha256": "f209e18f334535a5b5fbe571ac4a875dccef89ab5b77b94977023f4b0919b916",
+    "original_prepare_sha256": "2e2a6f40f709556a98065b41491e1d90980fa68d8f0c9e59e15928732f144e54",
+    "construct_edits": [
+      {
+        "old": "    values = np.hstack((dPhi_dy_0.ravel(), dPhi_dy_1.ravel(), dbc_dya.ravel(),\n                        dbc_dyb.ravel()))\n",
+        "new": "    # Preserve the first hstack's pre-parameter-update boundary snapshot.\n    dbc_dya = dbc_dya.copy()\n    dbc_dyb = dbc_dyb.copy()\n    dPhi_dp = None\n"
+      },
+      {
+        "old": "        values = np.hstack((values, dPhi_dp.ravel(), dbc_dp.ravel()))\n",
+        "new": ""
+      },
+      {
+        "old": "    J = coo_matrix((values, (i_jac, j_jac)))\n    return csc_matrix(J)\n",
+        "new": "    return _assemble_csc(np, csc_matrix, get_index_dtype, n, m, k,\n                         dPhi_dy_0, dPhi_dy_1, dPhi_dp,\n                         dbc_dya, dbc_dyb, dbc_dp)\n"
+      }
+    ],
+    "prepare_edits": [
+      {
+        "old": "    i_jac, j_jac = compute_jac_indices(n, m, k)\n",
+        "new": ""
+      },
+      {
+        "old": "return construct_global_jac(n, m, k, i_jac, j_jac, h, df_dy,",
+        "new": "return construct_global_jac(n, m, k, h, df_dy,"
+      }
+    ]
+  },
+  "v1_to_v2_exact_replacements": [
+    {
+      "old": "        dPhi_dp = None\n\n        if k > 0:\n",
+      "new": "        # Preserve the first hstack's pre-parameter-update boundary snapshot.\n        dbc_dya = dbc_dya.copy()\n        dbc_dyb = dbc_dyb.copy()\n        dPhi_dp = None\n\n        if k > 0:\n"
+    },
+    {
+      "old": "\"schema\": \"db6f-direct-canonical-csc-functions-v1\"",
+      "new": "\"schema\": \"db6f-direct-canonical-csc-functions-v2\""
+    },
+    {
+      "old": "This module defines functions only.",
+      "new": "Version 2 additionally snapshots D/E at the original first-hstack position.\nVersion 1 is preserved as an uninstalled historical source.\n\nThis module defines functions only."
+    }
+  ],
+  "actual_author_checks": {
+    "environment": "functions V8; text only",
+    "complete_construct_text_replay": true,
+    "complete_prepare_text_replay": true,
+    "complete_v1_to_v2_text_replay": true,
+    "remote_new_paths_checked_absent": true,
+    "all_saved_source_commit_readbacks_exact": true,
+    "python_executed": false,
+    "python_ast_checker_executed": false,
+    "foundation_imported": false,
+    "make_functions_called": false,
+    "numpy_scipy_imported": false,
+    "matrix_calls": 0,
+    "solver_calls": 0
+  },
+  "pending": [
+    "independent full source review",
+    "actual pure Python source/integer checker replay",
+    "definition-only make_functions runtime callback identity gate",
+    "actual original-versus-new CSC data/indices/indptr byte equality",
+    "actual original SuperLU/linear solve and merit-use equivalence",
+    "new explicit selector/preparer/runner/final auditor full source closure"
+  ],
+  "no_authorization_for_complete_solver_entry": true,
+  "proof": {
+    "main": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-weighted-bvp-block-factorization.md",
+    "main_sha256": "525cfd19f06732148d221e8cd270abb900c6cf2007e5dde47ea32bc2ad8a7741",
+    "erratum": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-weighted-bvp-block-factorization-notation-erratum.md",
+    "erratum_sha256": "d613c45b187c9357da8c8c95e25a96050852e53401cbe69c352e4e8e96f97fbd",
+    "review": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-weighted-bvp-block-factorization.md",
+    "review_sha256": "62a92fe7b29eb1ee215b631b6cd13ada82ddd7a8708419ca59b79b17c60a9db2"
+  }
+}

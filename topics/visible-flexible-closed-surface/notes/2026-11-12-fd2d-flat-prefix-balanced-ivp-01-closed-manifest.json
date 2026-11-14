@@ -1,0 +1,62 @@
+{
+  "schema": "closed-publish-group-v1",
+  "scope": "actual accepted positive-n IVP initialization only, fixed candidate/T; full scalar l retained; no final BVP",
+  "files": [
+    {
+      "path": "scripts/fd2d-flat-prefix-balanced-ivp-initializer.py",
+      "bytes": 10540,
+      "sha256": "87c48bec7d906e1f7aa78177a733d601ec2dbef6d9942acda2e1fa4b63ef3326"
+    },
+    {
+      "path": "scripts/fd2d_flat_prefix_initializer.py",
+      "bytes": 5168,
+      "sha256": "6300cd5e5134480da94914362c0704627c11d89405123703710fe9e596ffefa9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-initializer.md",
+      "bytes": 4934,
+      "sha256": "dadb3356e35b796380503c0915f67666396a38068e68a505a9690007afb4484c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-consumer-check-receipt.json",
+      "bytes": 355,
+      "sha256": "6f67aaa368ac4f2b8824b694f4348022d0cf702d7f9f534c3dc7a8555dc26598"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-consumer-check.json",
+      "bytes": 1738,
+      "sha256": "618112fa95f8ffb09f0affd552107e443dec55140085e60b15f767a486a6e96d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-guard-state.npz",
+      "bytes": 35286,
+      "sha256": "293db6435dbae5bc4d817977cbbdac8e8171308aa7969a3fdc3cc79a90b0e5ef"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-receipt.json",
+      "bytes": 1712,
+      "sha256": "8fd97928a027e68c01df6b8a334a2febe06837b15079d41587b3e87fc194c33c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-report.json",
+      "bytes": 319464,
+      "sha256": "d965e5671451235344951f96f8e28c414aa90433fe27788a91f6c4db60934f26"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-root-xi-preview.npz",
+      "bytes": 14275,
+      "sha256": "ff427c3eb32cc183351b7ee1774cc80d38021e2131afd739f0dbfea51d503900"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-source-closure.tar.gz",
+      "bytes": 85835,
+      "sha256": "fbbe0b2f6dcbebf80e853849746f51ef5ba146a8bb12b20f6a7255c4a0b4880c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-trajectory.npz.gz",
+      "bytes": 1374989,
+      "sha256": "db7614138c5f55b77e23f04849af02c75db36a277064b64f684a8da574c68c51"
+    }
+  ],
+  "total_bytes": 1854296
+}

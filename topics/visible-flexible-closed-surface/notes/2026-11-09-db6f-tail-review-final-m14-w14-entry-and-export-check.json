@@ -1,0 +1,96 @@
+{
+  "status": "PASS_CONDITIONAL_PROTOCOL_METADATA_AND_EXACT_ARITHMETIC",
+  "scope": "Pure source/metadata/arithmetic checks for a conditional M14 export protocol.\n\nNo project module, numerical backend, exporter, transfer, geometry object,\nsolver, RK, root, or background factory is imported or executed.\nExisting closed source records establish format only, never a new candidate.\n",
+  "root_source_bindings_verified": 24,
+  "source_ledger": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-final-m14-w14-entry-and-export-sources.json",
+    "bytes": 14999,
+    "sha256": "344cfb7c5bc49abe0895e6d4631e06457e315174a5983745896ba6a2723e836c"
+  },
+  "source_count": 55,
+  "input_envelope": {
+    "prefix": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+      "bytes": 30149,
+      "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+    },
+    "own_final_tail": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+      "bytes": 254154,
+      "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+    },
+    "prefix_parameters": "14-element list; no staged states",
+    "tail_parameters": "dictionary with M14/P8; 865x28 staged and 13x28 raw states",
+    "old_records_only": true,
+    "future_candidate_supplied": false
+  },
+  "M14_export_layout": {
+    "planar_modes": 128,
+    "height_modes": 15,
+    "coefficient_count": 143,
+    "stride": 575,
+    "raw_bytes_at_1000_rows": 4600000,
+    "minimum_common_cut_modes": 64,
+    "angular_512_satisfies_2degree_plus_4": true
+  },
+  "existing_P8_proposal": {
+    "identity": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-endpoint-grid-m15-quarter-p8-r0025-grid-plan.json",
+      "bytes": 408183,
+      "sha256": "0a028f17f2d0b7e310ff94205dd8ffd540d7f67532c85d6959b37593f469259e"
+    },
+    "stage_count": 576,
+    "unique_nodes": 21031,
+    "restoration_stage": {
+      "stage": 15,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "rawLeft": 0,
+      "rawRight": 0.125,
+      "nodes": 168
+    },
+    "settings": {
+      "depth": 8,
+      "steps": 32,
+      "grid": "critical",
+      "criticalRatio": 0.05,
+      "criticalBaseSteps": 64,
+      "criticalCells": [
+        0
+      ],
+      "endpointRatio": 0.025,
+      "flowSteps": 32,
+      "angularNodes": 512,
+      "degree": 192,
+      "radialDifferenceStep": 5e-05,
+      "auditAngularNodes": 128,
+      "auditFractions": [
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "future_M14_export_generated": false
+  },
+  "paired_transfer_source_verified": true,
+  "terminal": {
+    "normal_option": "--whole",
+    "threshold_exact": "1/500000000",
+    "fixed_old_lower_minus_factor_threshold_exact": "61863470598928509/23058430092136939520000000000000",
+    "normal_candidate_branch_run": false,
+    "new_upper_bound_asserted": false
+  },
+  "actual_calls": {
+    "solver": 0,
+    "root": 0,
+    "RK": 0,
+    "flow": 0,
+    "background_factory": 0,
+    "exporter": 0,
+    "transfer": 0,
+    "geometry": 0,
+    "continuous_backend": 0
+  },
+  "G5": false,
+  "README_completed": false
+}

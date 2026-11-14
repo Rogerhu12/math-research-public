@@ -1,0 +1,12 @@
+{
+  "status": "PASS-rebuilt-MIDX-only-with-same-object-identities",
+  "utc": "2026-11-09T13:32:36.048287+00:00",
+  "unique_objects_before_after": 108484,
+  "sorted_object_ids_sha256_before_after": "15ecfb1440ecde42c648bd312cc684d0fe0ecc9a0ef58e1d766f50e90ec8b6e9",
+  "old_index_backup_sha256": "d3a7eb6353fda8fb83def05650aed241be3cfb7c20cefb9187a821aae6b6c3a5",
+  "new_index_sha256": "703d510248e78ee051e7cbb077e625c64d0874e85dee52c3ae4404d3ada568aa",
+  "git_verify_exit": 0,
+  "research_files_changed": false,
+  "refs_changed": false,
+  "scope": "Rebuilt derived Git MIDX metadata from existing pack indexes; retained old index backup; no pack files or research files removed."
+}

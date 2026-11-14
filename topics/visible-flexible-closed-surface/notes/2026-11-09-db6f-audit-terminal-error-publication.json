@@ -1,0 +1,70 @@
+{
+  "status": "closed-posterior-error-gate-and-real-negative-replay-deliverables",
+  "owner": "/root/independent_geometry",
+  "files": [
+    {
+      "path": "scripts/db6f-audit-terminal-error-gate.py",
+      "bytes": 41802,
+      "sha256": "1be7add52ec2c06653a2a64baa8653e675559a55551cf22603d14a80f9cfb234",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-terminal-error-gate-method.md",
+      "bytes": 14366,
+      "sha256": "06dc6928cd0581ec7e0ccde947ab9de2dc9adff351d3598cd31703fad8b7fb5a",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-terminal-error-m12-negative.json",
+      "bytes": 18371,
+      "sha256": "3f75f6668aaf0c90dbca169e353a6eb9d8df38de8e01b24acf0bafcd7daaa213",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-terminal-error-m12-negative.execution.json",
+      "bytes": 1405,
+      "sha256": "a4fb872ee4dba02ced3d5568c8b4240764abad231c66400b3327762dea8cd83d",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-terminal-error-m12-negative.log",
+      "bytes": 192,
+      "sha256": "18727cca23a6b5389f18d3baa5506033fc366fc2cf63a5fd1f08d1315296e0f7",
+      "closed": true
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 76136,
+  "separately_owned_frozen_review_references": [
+    {
+      "path": "notes/2026-11-09-db6f-prefix-review-terminal-gate-candidate-interface.md",
+      "bytes": 7335,
+      "sha256": "6ae0bf0d170fa5b3741b2b5f19ddb7c051f2d50cdd1fa54de976fdbc21eaa52b",
+      "owner": "/root/coupled_prefix"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-review-terminal-gate-candidate-interface.json",
+      "bytes": 4760,
+      "sha256": "7fc74726e2aa7cef467f7a892de3d2d992f0ba2738e5d46e96c142b1492d767c",
+      "owner": "/root/coupled_prefix"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-closed-publication-10.json",
+      "bytes": 1398,
+      "sha256": "30624b96ee5dc3a5f1e431bf183b67e2058947f1588011706ffcd86e4a000ac6",
+      "owner": "/root/tail_theory"
+    }
+  ],
+  "actual_test_status": "EXPECTED_REJECTION",
+  "actual_test_exit_code": 0,
+  "actual_test_exit_zero_means": "The real frozen M12 negative fixture was rejected as required; no new candidate certificate was issued.",
+  "normal_candidate_branch_executed": false,
+  "actual_new_root_flow_solver_calls": 0,
+  "new_finite_map_created": false,
+  "backend_recomputed": false,
+  "coverage_scope": "Hash-bound complete analytic certificates remain premises; this gate checks metadata, identities, coverage declarations and exact Fraction consequences without replaying row-level analytic bounds.",
+  "fixed_g_convergence_gate_5_paid": false,
+  "independent_final_full_pipeline_verified": false,
+  "infinite_solution_existence_proved": false,
+  "README_complete": false
+}

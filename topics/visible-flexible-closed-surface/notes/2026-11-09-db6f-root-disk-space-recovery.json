@@ -1,0 +1,16 @@
+{
+  "status": "recovered-space-without-changing-research-files",
+  "utc": "2026-11-09T12:42:36.077824+00:00",
+  "removed_closed_unindexed_git_temp_bytes": 57278464,
+  "removed_recreatable_clean_publication_worktree": true,
+  "publication_head_preserved": "f718528cd6706443fbe9bafee20d622f02d2f249",
+  "publication_recovery_ref": "refs/heads/db6f-disk-recovery-publication",
+  "first_safe_midx_repack_expire_freed_bytes": 1986547577,
+  "second_safe_midx_repack_expire_freed_bytes": 1964014429,
+  "packed_unique_object_count_before_and_after": 107151,
+  "git_multi_pack_index_verify_exit": 0,
+  "research_artifacts_deleted": false,
+  "other_workspaces_changed": false,
+  "available_bytes_after": 4186402816,
+  "scope": "Only own local Git duplicate storage and a clean recreatable publication checkout. No git history/refs force rewrite, no research data deletion."
+}

@@ -1,0 +1,125 @@
+{
+  "status": "closed-explicit-transfer-interface-and-consumer-preflight-deliverables",
+  "owner": "/root/independent_geometry",
+  "files": [
+    {
+      "path": "scripts/db6f-audit-closed-budget-transfer-v3.py",
+      "bytes": 24545,
+      "sha256": "5ef8d229e0a19bc83381a2cdcaef8b24309e00a1fdc6b9409b20d7ca34092e49",
+      "closed": true
+    },
+    {
+      "path": "scripts/db6f-audit-transfer-v3-interface.py",
+      "bytes": 10550,
+      "sha256": "323a50a92391883c44c1fed3760d819715cc7babb5fc04700aa07b9b4048fb28",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-transfer-v3-interface.json",
+      "bytes": 6582,
+      "sha256": "618e01b5068ac4b60c8eda4db80d8e8df28115d17ec07f1e765b37e611aec047",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-transfer-v3-quarter-replay-preflight.json",
+      "bytes": 5311,
+      "sha256": "1e5a70147345f2acb83c6d491df70e4843daeff685077b96dce59be28fd7a519",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-transfer-v3-quarter-replay.execution.json",
+      "bytes": 1321,
+      "sha256": "c97c23dedf84a9ca23977a81be603f2a443ffd216431a81b1f4e567581280ea4",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-transfer-v3-quarter-replay.log",
+      "bytes": 353,
+      "sha256": "c87c1cd686716bc2ada29a615c8e08cfa0723d1638c6a025dd86f36186086221",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-closed-budget-v3-quarter-preflight.json",
+      "bytes": 4590,
+      "sha256": "f91bcfe5969d0ffaeec2a9951fe92535b2c8def9f17a49fd12beca55e10d517f",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-closed-budget-v3-quarter-preflight.execution.json",
+      "bytes": 1697,
+      "sha256": "997e12a9f5c79f4a0a4f189de7f3d8951953da71561d7963849db53457d1ffc8",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-closed-budget-v3-quarter-preflight.log",
+      "bytes": 376,
+      "sha256": "fb3534dd7aa9ea7e4049a81779deeed0ecd97bf175a5b231a7d9779bbc051cb7",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-transfer-v3-review.md",
+      "bytes": 8835,
+      "sha256": "a816f436f6e95a3175544be43339c5ec41e418b8adaa38daa141c6ca39f86496",
+      "closed": true
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-closed-budget-transfer-v3.md",
+      "bytes": 5195,
+      "sha256": "3931d51607d4e80685ddedd30f656bd48a845915bfed347df0283f6f32eeb2fb",
+      "closed": true
+    }
+  ],
+  "file_count": 11,
+  "total_bytes": 69355,
+  "separately_owned_frozen_dependencies": [
+    {
+      "path": "scripts/db6f-tail-transfer-background-v2.py",
+      "bytes": 18838,
+      "sha256": "7e58e063788127e3f6f5ed609c4851d395436aa22da421e8e0d320eff527b184",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "scripts/db6f-tail-transfer-background-v3.py",
+      "bytes": 19033,
+      "sha256": "bdf6307fd93328b1ae70923caac2687fa19b0187ca9c723fe5d7072d7799a47b",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-transfer-v2-quarter-policy-preflight.json",
+      "bytes": 5280,
+      "sha256": "0e04afd3f56ea64e37ac8cb2b1f6146df9366d44a84587ae1d593ee9a732318f",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-transfer-v3-quarter-policy-preflight.json",
+      "bytes": 5311,
+      "sha256": "1e5a70147345f2acb83c6d491df70e4843daeff685077b96dce59be28fd7a519",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-closed-budget-transfer-v3.md",
+      "bytes": 4911,
+      "sha256": "be9d4e9253fe719033c8d1a18bd6b85ea777171249b780bfe604802a5be13c51",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-closed-budget-transfer-v3.json",
+      "bytes": 2727,
+      "sha256": "78224cdc7a6780bc95f3f8fd8c982b7db8b23348a6ebea70522c7b3bfcf4c617",
+      "owner": "/root/tail_theory"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-closed-budget-v3-preflight.json",
+      "bytes": 4455,
+      "sha256": "fccb8639d608124e9daf6ee774e3018247f61a866c09d9e058c6212ad844adb9",
+      "owner": "/root/tail_theory"
+    }
+  ],
+  "producer_review": "notes/2026-11-09-db6f-audit-transfer-v3-review.md",
+  "consumer_independent_review": "notes/2026-11-09-db6f-tail-review-closed-budget-transfer-v3.md",
+  "old_frozen_v2_failure_preserved": true,
+  "actual_new_root_flow_solver_calls": 0,
+  "geometric_transfer_performed": false,
+  "new_finite_map_created": false,
+  "README_complete": false
+}

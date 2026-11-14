@@ -1,0 +1,1501 @@
+{
+  "cases": [
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "real64_normal",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "c215cedbbf4c1ef50ef9f30bb29387ff68b047b077599b6f8b2c7e36fa746af4",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "00b8a7d9ca24eb46c3f6fde3e6c2a4f9859c98e55bd941f54c99e24c4a4401ff",
+            "dtype": "<f8",
+            "nbytes": 360,
+            "shape": [
+              45
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "8286081a7582f8e8434ed1b1a4787977d180318af8d558b543cc36f6b0797f04",
+      "seed_sha256": "5f93015d369c215ddbe2c59e31a4b5a8a56be810a52f6a28ac8fb3589143d2ef",
+      "spec": {
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "real64_normal",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "real64_signed_zero",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "a118e07380ab101964726706779818d481ca2202b76ef50630bf9bd07b31dc75",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "799891f93f91f51f5687ff66e95c11c94ac2d90a868cdf84eb84b2424174799b",
+            "dtype": "<f8",
+            "nbytes": 280,
+            "shape": [
+              35
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "9e4bc9a75a6ef50a67048b9ea651128a2a9fd370a981ab9bec9a8e04474b34cb",
+            "dtype": "<i4",
+            "nbytes": 140,
+            "shape": [
+              35
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "8c0bfa3e4a7939d6606097cf44b7d2568573ca805c891b04909809ce898b26e1",
+            "dtype": "<i4",
+            "nbytes": 32,
+            "shape": [
+              8
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          7,
+          7
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 14,
+          "whole_numeric_zero_count": 27
+        },
+        "stored": 35
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "9c7c9aeddf1e757d920528c91caae131cec3958afb1b267e0c1a4e1a030d111f",
+      "seed_sha256": "22a677bdf4cff8bf57a23e25a910f7bbfe6439472fbe6a36d42615cc06456ce0",
+      "spec": {
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "real64_signed_zero",
+        "k": 1,
+        "m": 3,
+        "n": 2,
+        "require_negative_real_zero": true,
+        "zeros": true
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [],
+      "id": "float32_k0_m2",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "72b7162be1e367d502c6553cedd7b30193c2a06e3218e599aee8eafacba3c683",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "8851c40664b45e0a871daf47d4c961f7d8ada794b786c1faa427eb03c9ab274f",
+            "dtype": "<f4",
+            "nbytes": 144,
+            "shape": [
+              36
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "f7c19bc2f6239c274665e4427bdc72dbb28605cf766bba74bcac6930a5770b38",
+            "dtype": "<i4",
+            "nbytes": 144,
+            "shape": [
+              36
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "9e0e452b08d7f1d988fd0bebad7acaf34c293b40f39345024a83ce2564db4e92",
+            "dtype": "<i4",
+            "nbytes": 28,
+            "shape": [
+              7
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          6,
+          6
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 36
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "72b7162be1e367d502c6553cedd7b30193c2a06e3218e599aee8eafacba3c683",
+      "seed_sha256": "a6e49d099391f1e573f67dbc85ba73388e8338956e10ddf6d4f580fb53c88bae",
+      "spec": {
+        "dtype": "float32",
+        "expected_data_dtype": "float32",
+        "id": "float32_k0_m2",
+        "k": 0,
+        "m": 2,
+        "n": 3
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [],
+      "id": "complex64_k0",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "b15b20eb70c03b0d89a0f83923d5201c0886785c55cf40cdd9313d7104208a64",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "8a5ab94ee75a0ef7bcb36c922cafe8a5673fe332ec5e9d031d6b55d112081aeb",
+            "dtype": "<c8",
+            "nbytes": 192,
+            "shape": [
+              24
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "421cbf88f5794b0011a90ca3f74e2b7859aaac5970d38102f00695994f41311b",
+            "dtype": "<i4",
+            "nbytes": 96,
+            "shape": [
+              24
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "8295c639172730ec11a3ec08100913306c0ac8addfa6e5e9c8a7c68ff5dc7fec",
+            "dtype": "<i4",
+            "nbytes": 28,
+            "shape": [
+              7
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          6,
+          6
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 0,
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 24
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "b15b20eb70c03b0d89a0f83923d5201c0886785c55cf40cdd9313d7104208a64",
+      "seed_sha256": "3b2f2906ff4dd847f031997006229e2aa2fc0bb911ce2f49f03ad490aab099e4",
+      "spec": {
+        "dtype": "complex64",
+        "expected_data_dtype": "complex64",
+        "id": "complex64_k0",
+        "k": 0,
+        "m": 3,
+        "n": 2
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "complex128_signed_zero",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "d1f37637a9a9ba5743ac04fd286208bfdafb7e7330bc0a8bc2f53a1cb20f199b",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "3d8164714391a8e8a35334fcb721225ee81236b9a369beeece5ae854f8871225",
+            "dtype": "<c16",
+            "nbytes": 560,
+            "shape": [
+              35
+            ],
+            "strides": [
+              16
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "9e4bc9a75a6ef50a67048b9ea651128a2a9fd370a981ab9bec9a8e04474b34cb",
+            "dtype": "<i4",
+            "nbytes": 140,
+            "shape": [
+              35
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "8c0bfa3e4a7939d6606097cf44b7d2568573ca805c891b04909809ce898b26e1",
+            "dtype": "<i4",
+            "nbytes": 32,
+            "shape": [
+              8
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          7,
+          7
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 8,
+          "negative_real_zero_count": 14,
+          "whole_numeric_zero_count": 27
+        },
+        "stored": 35
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "b8b92d010e080dfd729ebd161ca8565d4a9dd1fe3560bdcdbd6cee708913ff54",
+      "seed_sha256": "2c7c4b2dec2580cedb0b2bd2288d4045e9240eb3e7addf16a20d5416a6607702",
+      "spec": {
+        "dtype": "complex128",
+        "expected_data_dtype": "complex128",
+        "id": "complex128_signed_zero",
+        "k": 1,
+        "m": 3,
+        "n": 2,
+        "require_negative_imaginary_zero": true,
+        "require_negative_real_zero": true,
+        "zeros": true
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "float32_parameter_promotes_to_float64",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "7ddcb958d1652ee66d0fcf2d9411aec2c8f600dfb8ec00e01c8bca7d41819800",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "693afd936d25ad43494846b1f769fa55daa9873d704d1e54e16aace6902bea92",
+            "dtype": "<f8",
+            "nbytes": 280,
+            "shape": [
+              35
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "9e4bc9a75a6ef50a67048b9ea651128a2a9fd370a981ab9bec9a8e04474b34cb",
+            "dtype": "<i4",
+            "nbytes": 140,
+            "shape": [
+              35
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "8c0bfa3e4a7939d6606097cf44b7d2568573ca805c891b04909809ce898b26e1",
+            "dtype": "<i4",
+            "nbytes": 32,
+            "shape": [
+              8
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          7,
+          7
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 35
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "41c527f1049d7911a4fdbd972409c09ba0d0e5c03a8ca437ac7bd3d73c48980a",
+      "seed_sha256": "7b87667aaa2d6adf62bca84d6ac339e5d7cecbfa2da401e9df2fa2949a7917d5",
+      "spec": {
+        "dtype": "float32",
+        "expected_data_dtype": "float64",
+        "id": "float32_parameter_promotes_to_float64",
+        "k": 1,
+        "m": 3,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "real32_boundary64_parameter_complex128",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "c97da530ed95b18830fcfa59fb279f3f1db4be2f4fae72b79d467d88781aec48",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "af90b4849334f8b304ea79245b523013bb6f94113e76523d0e018d3304fec87c",
+            "dtype": "<c16",
+            "nbytes": 720,
+            "shape": [
+              45
+            ],
+            "strides": [
+              16
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 0,
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "733aae56d445640199a3d23f1974e2aec2ced6d3650a1abb0b2b990450f370a2",
+      "seed_sha256": "8169762c48ee43d98213cd9e9898547bbefa668d1072d668338ea7fa4d89ef2c",
+      "spec": {
+        "dtype": "float32",
+        "expected_data_dtype": "complex128",
+        "id": "real32_boundary64_parameter_complex128",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true,
+        "types": {
+          "dbc_dp": "complex128",
+          "dbc_dya": "float64",
+          "dbc_dyb": "float64",
+          "df_dp": "complex128",
+          "df_dp_middle": "complex128"
+        }
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "complex64_mixed_boundary_parameter128",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "97aab7a67257c6b81dd496780977df3bff017850dddf8f4913dea876aa8e9d50",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "3e78653ab049e276c75bc915320911c2f0b804e1495cd9225157a04ccf580328",
+            "dtype": "<c16",
+            "nbytes": 768,
+            "shape": [
+              48
+            ],
+            "strides": [
+              16
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "7b02d90ca0ebc87a748fc129ee63bb83244e4c59be242c6dbc8d80f808ae0968",
+            "dtype": "<i4",
+            "nbytes": 192,
+            "shape": [
+              48
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "7e1cc7324ded88d044242565adafb937165dbb25b04961dee89c3a79ca4f3e5a",
+            "dtype": "<i4",
+            "nbytes": 36,
+            "shape": [
+              9
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          8,
+          8
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 0,
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 48
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "89b52fb98c80c97a5de5751bf3387b8b84bfc73635d6bbb6fad901f7c72ec365",
+      "seed_sha256": "ba39278aedcf85bb226ca337b11840b15e226d007ebcfe371a0d585b871b666a",
+      "spec": {
+        "dtype": "complex64",
+        "expected_data_dtype": "complex128",
+        "id": "complex64_mixed_boundary_parameter128",
+        "k": 2,
+        "m": 3,
+        "n": 2,
+        "require_mid_change": true,
+        "types": {
+          "dbc_dp": "float64",
+          "dbc_dya": "float32",
+          "df_dp": "complex128",
+          "df_dp_middle": "complex128"
+        }
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "mixed_signed_zero",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "b2132457f7ac0cee58cb5b7d291800e20cd2a5fbb60e22dc7a346c29317fe226",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "871700c6b5cafbcd1713b2494a7990cbca361d752bb1edfd87a5e88720ac74bb",
+            "dtype": "<c16",
+            "nbytes": 560,
+            "shape": [
+              35
+            ],
+            "strides": [
+              16
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "9e4bc9a75a6ef50a67048b9ea651128a2a9fd370a981ab9bec9a8e04474b34cb",
+            "dtype": "<i4",
+            "nbytes": 140,
+            "shape": [
+              35
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "8c0bfa3e4a7939d6606097cf44b7d2568573ca805c891b04909809ce898b26e1",
+            "dtype": "<i4",
+            "nbytes": 32,
+            "shape": [
+              8
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          7,
+          7
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 2,
+          "negative_real_zero_count": 14,
+          "whole_numeric_zero_count": 27
+        },
+        "stored": 35
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "22e2f5f00679c8d76bce1e9825d0be27662979f8a2122edf21454fd90f6df3f5",
+      "seed_sha256": "b5c378cdfad2a52cbd925ca125a5c77189354d55cb0df7e624caa5bdac837338",
+      "spec": {
+        "dtype": "float32",
+        "expected_data_dtype": "complex128",
+        "id": "mixed_signed_zero",
+        "k": 1,
+        "m": 3,
+        "n": 2,
+        "require_negative_imaginary_zero": true,
+        "require_negative_real_zero": true,
+        "types": {
+          "dbc_dp": "complex128",
+          "dbc_dya": "float64",
+          "dbc_dyb": "float64",
+          "df_dp": "complex128",
+          "df_dp_middle": "complex128"
+        },
+        "zeros": true
+      }
+    },
+    {
+      "alias_pairs": [
+        [
+          "df_dp_middle",
+          "dbc_dya"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dyb"
+        ],
+        [
+          "dbc_dya",
+          "dbc_dyb"
+        ]
+      ],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb"
+      ],
+      "id": "full_boundary_alias_real64",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "860e0656311aa3e5ce1a788532022a28084b877890c16588e00af09edc5572a3",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "c76bdb42f801bbbe21504fe6ebc171f9bcff1a59968f43da7ccca9a176a6e41f",
+            "dtype": "<f8",
+            "nbytes": 360,
+            "shape": [
+              45
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "f3d44e6540f87e5a5f97838b3d179c3d0b18670312706a7716de2bdd2612dfc2",
+      "seed_sha256": "227be1ff02f6f3e406c845cfaead9e404898b8d8df8fea300e5b734f1ed27ee4",
+      "spec": {
+        "alias": "full_boundary",
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "full_boundary_alias_real64",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [
+        [
+          "df_dp_middle",
+          "dbc_dya"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dyb"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dp"
+        ],
+        [
+          "dbc_dya",
+          "dbc_dp"
+        ],
+        [
+          "dbc_dyb",
+          "dbc_dp"
+        ]
+      ],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "id": "partial_boundary_F_alias_real64",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "2991fbd93cb3e7a3b3d8eea591da38700e2cf3c99cc44b83a1765248ab3b7997",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "7679a5fd24bec4dd1439fd3f80e096a8f385096442d955830bfbf743a2c7f705",
+            "dtype": "<f8",
+            "nbytes": 384,
+            "shape": [
+              48
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "7b02d90ca0ebc87a748fc129ee63bb83244e4c59be242c6dbc8d80f808ae0968",
+            "dtype": "<i4",
+            "nbytes": 192,
+            "shape": [
+              48
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "7e1cc7324ded88d044242565adafb937165dbb25b04961dee89c3a79ca4f3e5a",
+            "dtype": "<i4",
+            "nbytes": 36,
+            "shape": [
+              9
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          8,
+          8
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 48
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "75059760066a87ae3c06816849b649ebcbf9e70300c0b56a3dde476e3c2c7f8e",
+      "seed_sha256": "0e354b96618b80b9755b7fbaf04869891ecf6d5333030afb1a1a2bea2910380e",
+      "spec": {
+        "alias": "partial_boundary_and_F",
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "partial_boundary_F_alias_real64",
+        "k": 2,
+        "m": 3,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [
+        [
+          "df_dp_middle",
+          "dbc_dya"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dyb"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dp"
+        ],
+        [
+          "dbc_dya",
+          "dbc_dp"
+        ]
+      ],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "id": "negative_Fortran_alias_real64",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "0f31b20d14d11f069ad7bc90e8d7ebd4064baaa2cc04fc1768016e0b21125b1e",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "f376c9cdd5d51ec719513c6b3ab42d89a31f085fbfeb8b4afa038e607c138b89",
+            "dtype": "<f8",
+            "nbytes": 360,
+            "shape": [
+              45
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "2bd84cbc8eaa3b8f53151f031710a2ad21261534c0f8e5c7732a13ab0e64fb22",
+      "seed_sha256": "7015e31e0753b68e4f4cefc2c622b60d6e73db6ce1d612c610af78b556d5d534",
+      "spec": {
+        "alias": "negative_and_fortran",
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "negative_Fortran_alias_real64",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [
+        [
+          "df_dp_middle",
+          "dbc_dya"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dyb"
+        ],
+        [
+          "dbc_dya",
+          "dbc_dyb"
+        ]
+      ],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb"
+      ],
+      "id": "full_boundary_alias_complex128",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "a71cda34058d5360b5b5dab20c049f92df3edc6b06aa7aae62c856505cdb01cf",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "4b9ad17a8975e02b4c8fd2f2fa3d8179d27b12ba8af408fe3c47984245ec9939",
+            "dtype": "<c16",
+            "nbytes": 720,
+            "shape": [
+              45
+            ],
+            "strides": [
+              16
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_imaginary_zero_count": 0,
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "f14040788d085654fa49fd6fc854113e36c90c2e26a41a81492f0d58a8487607",
+      "seed_sha256": "8b0af73818e6c5de11e050e5b30f0ae77b5b297cd3f64b68ba18c6ee5622af1f",
+      "spec": {
+        "alias": "full_boundary",
+        "dtype": "complex128",
+        "expected_data_dtype": "complex128",
+        "id": "full_boundary_alias_complex128",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [
+        [
+          "df_dp",
+          "df_dp_middle"
+        ],
+        [
+          "df_dp",
+          "dbc_dya"
+        ],
+        [
+          "df_dp",
+          "dbc_dyb"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dya"
+        ],
+        [
+          "df_dp_middle",
+          "dbc_dyb"
+        ],
+        [
+          "dbc_dya",
+          "dbc_dyb"
+        ],
+        [
+          "dbc_dyb",
+          "dbc_dp"
+        ]
+      ],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb"
+      ],
+      "id": "node_and_boundary_alias_real64",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "eb20c0efa8327a0df5aac39b29a51210710f5f587c5b48d7043a29c983d05817",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "0385cca582e8dae8137e95ac090521981778bfc579a384c780dbd96c16ec9fdc",
+            "dtype": "<f8",
+            "nbytes": 360,
+            "shape": [
+              45
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "5f9bccc8904d24e24aea7c636aee363474bb82aa7fa6b96b42123edd60f1d31a",
+            "dtype": "<i4",
+            "nbytes": 180,
+            "shape": [
+              45
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "1bc9a88b78c98a34c6ebc79c0b0530592e6566f46ccd6a028601ae419fa08c1c",
+            "dtype": "<i4",
+            "nbytes": 40,
+            "shape": [
+              10
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          9,
+          9
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 45
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "3cc65ca6f753d621ff607e577717b03f2935ee0f150b74ca09688edc4d7cdd34",
+      "seed_sha256": "a6807a30f71168c7b5bc2f4d13d6eba3da8832a3ee99bd3abe9ad80b4f341ae8",
+      "spec": {
+        "alias": "node_and_boundary",
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "node_and_boundary_alias_real64",
+        "k": 1,
+        "m": 4,
+        "n": 2,
+        "require_mid_change": true
+      }
+    },
+    {
+      "alias_pairs": [],
+      "all_input_views_compared": [
+        "h",
+        "df_dy",
+        "df_dy_middle",
+        "df_dp",
+        "df_dp_middle",
+        "dbc_dya",
+        "dbc_dyb",
+        "dbc_dp"
+      ],
+      "changed_input_views": [
+        "df_dp_middle"
+      ],
+      "id": "W14_dimensions_two_nodes",
+      "immutable_seed_unchanged": true,
+      "independent_mutable_runs": true,
+      "initial_cohort_sha256": "6511ab880f4cdcd4c73786e50245625fbd1dcf5896472aa7a1f6b174bfe1c86c",
+      "matrix": {
+        "buffers": {
+          "data": {
+            "bytes_C_sha256": "eafc3058ae72653052953e1c8d29c331871f628f921e924dc132ad9392d49d81",
+            "dtype": "<f8",
+            "nbytes": 80000,
+            "shape": [
+              10000
+            ],
+            "strides": [
+              8
+            ]
+          },
+          "indices": {
+            "bytes_C_sha256": "fcda26592ad0283e75df156682e40bd44aa8b220d24af06cda02ae422dc77e86",
+            "dtype": "<i4",
+            "nbytes": 40000,
+            "shape": [
+              10000
+            ],
+            "strides": [
+              4
+            ]
+          },
+          "indptr": {
+            "bytes_C_sha256": "070870ed1afc50c9930f3358573439af0fc177a73ac780a664a6aeb1f131e69f",
+            "dtype": "<i4",
+            "nbytes": 404,
+            "shape": [
+              101
+            ],
+            "strides": [
+              4
+            ]
+          }
+        },
+        "canonical": true,
+        "shape": [
+          100,
+          100
+        ],
+        "signed_zero_counts": {
+          "negative_real_zero_count": 0,
+          "whole_numeric_zero_count": 0
+        },
+        "stored": 10000
+      },
+      "post_cohort_exact_equal": true,
+      "post_cohort_sha256": "339d1e457b51bee3628af80f1d905d1b406a3080d9b7d15a36eb0b900bac2ad0",
+      "seed_sha256": "8b9411bfa8e21bba6bba92722fcfc6b1cf669cd49c58ca7b65764b98b151cfdc",
+      "spec": {
+        "dtype": "float64",
+        "expected_data_dtype": "float64",
+        "id": "W14_dimensions_two_nodes",
+        "k": 14,
+        "m": 2,
+        "n": 43,
+        "require_mid_change": true
+      }
+    }
+  ],
+  "counts": {
+    "bvp_dn_rk_calls": 0,
+    "linear_solve_calls": 0,
+    "new_construct_attempts": 15,
+    "new_construct_completed": 15,
+    "original_construct_attempts": 15,
+    "original_construct_completed": 15,
+    "superlu_calls": 0
+  },
+  "external_tool_exit_observation": "must be recorded independently by the actual launcher",
+  "factory_provenance": {
+    "actual_sparse_byte_replay": "pending",
+    "foundation": {
+      "bytes": 17550,
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+      "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+    },
+    "new_functions": {
+      "construct_global_jac": {
+        "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee",
+        "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+        "firstlineno": 278,
+        "module": "_db6f_direct_csc_small_byte_test",
+        "qualname": "make_functions.<locals>.construct_global_jac"
+      },
+      "prepare_sys": {
+        "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f",
+        "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+        "firstlineno": 318,
+        "module": "_db6f_direct_csc_small_byte_test",
+        "qualname": "make_functions.<locals>.prepare_sys"
+      }
+    },
+    "newton_selection": "not read, installed, or validated by this foundation",
+    "numpy_version": "2.3.5",
+    "original_callbacks": {
+      "collocation_fun": {
+        "code_sha256": "499064a2fe0e6d0ce5ee257f410fef80b4d57389e638571a6575c9dc3e73049b",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "firstlineno": 277,
+        "module": "scipy.integrate._bvp",
+        "qualname": "collocation_fun"
+      },
+      "csc_check_format": {
+        "code_sha256": "b7c44adf485be0ac60005bd83c2ad35d14083c056f4c74671ef0cb909b819236",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+        "firstlineno": 166,
+        "module": "scipy.sparse._compressed",
+        "qualname": "_cs_matrix.check_format"
+      },
+      "csc_get_index_dtype": {
+        "code_sha256": "56d27be50454e45cd67324213601829a636ba1cd289dc9471572fa963639d53e",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+        "firstlineno": 1525,
+        "module": "scipy.sparse._base",
+        "qualname": "_spbase._get_index_dtype"
+      },
+      "csc_init": {
+        "code_sha256": "0376ad1e79610bdcf31acd268417945ebbf48c020149b5106670165bf1a7bc44",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+        "firstlineno": 30,
+        "module": "scipy.sparse._compressed",
+        "qualname": "_cs_matrix.__init__"
+      },
+      "csc_prune": {
+        "code_sha256": "5b2a07d204f90c0e684f4c9c917bec823677f3152a0e6bed7f5fe983469c867a",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+        "firstlineno": 1118,
+        "module": "scipy.sparse._compressed",
+        "qualname": "_cs_matrix.prune"
+      },
+      "csc_swap": {
+        "code_sha256": "0ad7c621c67ed851c11123fd3aee9e6e07626bbf979cbeb1fd1eaf61155f375c",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+        "firstlineno": 145,
+        "module": "scipy.sparse._csc",
+        "qualname": "_csc_base._swap"
+      },
+      "estimate_bc_jac": {
+        "code_sha256": "94cc5ec172c44306e4831b5bb4a9a58f3764d8b9e01e579e279076b74eead4a4",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "firstlineno": 59,
+        "module": "scipy.integrate._bvp",
+        "qualname": "estimate_bc_jac"
+      },
+      "estimate_fun_jac": {
+        "code_sha256": "be8d2f147652b9ad6d0f5f7ced11a4482c5821b019c2c9605da69d896692f061",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "firstlineno": 16,
+        "module": "scipy.integrate._bvp",
+        "qualname": "estimate_fun_jac"
+      },
+      "get_index_dtype": {
+        "code_sha256": "22fec024501e4addab7c348b82d69f1ccbea1ab8e7cc4bc8eafa27348cee5f97",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+        "firstlineno": 264,
+        "module": "scipy.sparse._sputils",
+        "qualname": "get_index_dtype"
+      },
+      "stacked_matmul": {
+        "code_sha256": "f87ef3dd5e8613b629594ddb227407aeb2b146f6019240c396a38359a331fe5f",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "firstlineno": 144,
+        "module": "scipy.integrate._bvp",
+        "qualname": "stacked_matmul"
+      }
+    },
+    "schema": "db6f-direct-canonical-csc-functions-v2",
+    "scipy_version": "1.17.0",
+    "scope": "functions-only; no installation and no matrix/solver call by factory",
+    "sources": [
+      {
+        "bytes": 41294,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "module": "scipy.integrate._bvp",
+        "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+      },
+      {
+        "bytes": 58343,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+        "module": "scipy.sparse._base",
+        "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+      },
+      {
+        "bytes": 52058,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+        "module": "scipy.sparse._compressed",
+        "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+      },
+      {
+        "bytes": 74635,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+        "module": "scipy.sparse._coo",
+        "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+      },
+      {
+        "bytes": 11162,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+        "module": "scipy.sparse._csc",
+        "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+      },
+      {
+        "bytes": 21095,
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+        "module": "scipy.sparse._sputils",
+        "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+      }
+    ]
+  },
+  "factory_provenance_is_precomparison_snapshot": true,
+  "foundation": {
+    "bytes": 17550,
+    "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+  },
+  "future_complete_entry_approved": false,
+  "np_intc_itemsize": 4,
+  "numpy_version": "2.3.5",
+  "original_function_bindings_unchanged": true,
+  "original_source": {
+    "bytes": 41294,
+    "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+    "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+  },
+  "research_data_read": false,
+  "schema": "db6f-direct-csc-small-byte-test-v1",
+  "scipy_version": "1.17.0",
+  "scope": "small synthetic matrices only; no research input, installation, SuperLU or solver",
+  "script": {
+    "bytes": 26045,
+    "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+    "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc"
+  },
+  "script_return_code": 0,
+  "stage": "completed",
+  "status": "PASS_SMALL_SYNTHETIC_CSC_BYTES_AND_ALIAS_EFFECTS"
+}

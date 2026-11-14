@@ -1,0 +1,162 @@
+{
+  "status": "CLOSED_READ_ONLY_SOURCE_AND_METADATA_REVIEW",
+  "reviewer": "/root/independent_geometry",
+  "scope": "Installed Git 2.43 fetch-only compatibility and absence of the newer local-link repack path; not a performed fetch or full repository validation.",
+  "observed_execution_receipts": [
+    {
+      "chunk_id": "a9d2ec",
+      "actual_exit_code": 0,
+      "observed": "Installed versions, selected safe config values, and rev-parse format/worktree checks."
+    },
+    {
+      "chunk_id": "29ce17",
+      "actual_exit_code": 0,
+      "observed": "Effective exec paths and equal read-only ref listings."
+    },
+    {
+      "chunk_id": "888a17",
+      "actual_exit_code": 0,
+      "observed": "Byte hashes of installed Git/helper binaries and helper git --version."
+    }
+  ],
+  "programs": {
+    "/usr/local/bin/git": {
+      "version": "2.51.1",
+      "exec_path": "/usr/local/libexec/git-core"
+    },
+    "/usr/bin/git": {
+      "version": "2.43.0",
+      "exec_path": "/usr/lib/git-core"
+    }
+  },
+  "git243_identical_program_files": {
+    "files": [
+      "/usr/bin/git",
+      "/usr/lib/git-core/git",
+      "/usr/lib/git-core/git-index-pack"
+    ],
+    "each_bytes": 4066232,
+    "each_sha256": "2a8c18fbf43da9f692d75474c72bea9dfd796c260b0f3dfe456376abc3bbd668"
+  },
+  "safe_repository_metadata": {
+    "core.repositoryformatversion": "1",
+    "extension_names": [
+      "extensions.worktreeconfig"
+    ],
+    "extensions.worktreeconfig": "true",
+    "extensions.objectformat": null,
+    "extensions.compatobjectformat": null,
+    "extensions.refstorage": null,
+    "extensions.partialclone": null,
+    "core.bare": "false",
+    "core.sparseCheckout": "true",
+    "core.multiPackIndex": null,
+    "index.version": null,
+    "index.sparse": null,
+    "fetch.writeCommitGraph": null,
+    "maintenance.auto": null,
+    "gc.auto": null,
+    "gc.autoPackLimit": null
+  },
+  "both_versions_actual_rev_parse": [
+    "sha1",
+    "true",
+    "false"
+  ],
+  "both_versions_ref_listing": {
+    "ref_count": 11,
+    "sha256": "2ecc86bdfd85d6a581aef3780b91abead107fdc8839813c4f93226039a7e3f7c",
+    "format": "%(refname) %(objectname)",
+    "same_bytes": true,
+    "time_scope": "Observed snapshot during this review, not a claim about future moving refs."
+  },
+  "exact_release_source_gap_closed": true,
+  "conditional_recommendation": {
+    "fetch_only": true,
+    "binary": "/usr/bin/git",
+    "required_operational_boundary": "Keep existing authentication, remote, refspec and partial-clone filter; add --no-auto-maintenance; retain complete-OID and promisor/ordinary partition-preserving maintenance. Do not use this as a general GC/repack replacement.",
+    "optional_flag": "--no-write-commit-graph",
+    "performed": false
+  },
+  "limitations": [
+    "Absence of this specific new local repack path is source-proven; reduction of actual new pack bytes has not been tested.",
+    "No claim that Git 2.43 lacks delta-base caching or the general OI_DBCACHED enum.",
+    "The omitted 2024 path also protects local objects referenced only by fetched promisor objects against later garbage collection. Fetch-only use requires avoiding reachability-only GC or ordinary repacking that could discard such objects.",
+    "Format/extensions and refs were actually parsed by both binaries. Full object decoding, MIDX compatibility under all operations, fetching and all newer Git features were not exercised.",
+    "An unset extensions.partialclone does not establish absence of a partial clone; remote promisor/filter configuration was not read.",
+    "No new causal proof that every observed repeated pack arose from the diagnosed cache classification path."
+  ],
+  "actions": {
+    "fetch_calls": 0,
+    "config_mutations": 0,
+    "shell_function_mutations": 0,
+    "object_writes_or_deletions": 0,
+    "pack_content_reads": 0,
+    "fsck_or_verify_pack_calls": 0,
+    "solver_or_backend_calls": 0,
+    "credential_or_environment_reads": 0
+  },
+  "sources": [
+    {
+      "id": "git243-index-pack",
+      "url": "https://code.googlesource.com/git/+/refs/tags/v2.43.0/builtin/index-pack.c",
+      "ref_ids": [
+        "turn49view0",
+        "turn50view0",
+        "turn50view1",
+        "turn50view2"
+      ],
+      "exact_tag": "v2.43.0",
+      "blob": "dda94a9f46d9a9401c298ee304f57e55db25f217",
+      "observed": "No repack_local_links function or call. --promisor argument is already parsed; finish writes the marker for the received pack. End of main has no local-link repack step."
+    },
+    {
+      "id": "git243-pack-objects",
+      "url": "https://code.googlesource.com/git/+/refs/tags/v2.43.0/builtin/pack-objects.c",
+      "ref_ids": [
+        "turn49view1",
+        "turn50view3"
+      ],
+      "exact_tag": "v2.43.0",
+      "observed": "No is_not_in_promisor_pack_obj predicate from the later local-link-repacking change."
+    },
+    {
+      "id": "git243-tag-tree",
+      "url": "https://code.googlesource.com/git/+/refs/tags/v2.43.0/",
+      "ref_ids": [
+        "turn47view2",
+        "turn48view0"
+      ],
+      "tree": "203ad4fd3f91e9990c72a65d820068d4ccbdac4f",
+      "builtin_tree": "c6fb469640c2c25c475e0363e2fc92d584fbce11",
+      "observed": "Exact release-tag navigation succeeded; these are not merely release-candidate sources."
+    },
+    {
+      "id": "original-local-link-patch",
+      "url": "https://marc.info/?l=git&m=173049178601320&w=2",
+      "ref_ids": [
+        "turn46view3"
+      ],
+      "author": "Jonathan Tan",
+      "date": "2024-11-01",
+      "subject": "[PATCH v2 4/4] index-pack: repack local links into promisor packs",
+      "observed": "Original author explains preservation of locally created objects referenced by fetched promisor objects, including later GC; patch adds both the index-pack local-link repack path and the pack-objects predicate."
+    },
+    {
+      "id": "git243-fetch-options",
+      "url": "https://git-scm.com/docs/git-fetch/2.43.0.html",
+      "ref_ids": [
+        "turn44search0"
+      ],
+      "observed": "Versioned official documentation provides --no-auto-maintenance/--no-auto-gc and --no-write-commit-graph."
+    },
+    {
+      "id": "git243-fetch-options-shared",
+      "url": "https://git-scm.com/docs/fetch-options/2.43.0.html",
+      "ref_ids": [
+        "turn44search1"
+      ],
+      "observed": "Confirms automatic maintenance defaults on and optional commit-graph writing can be disabled."
+    }
+  ]
+}

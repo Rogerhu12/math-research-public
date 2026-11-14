@@ -1,0 +1,86 @@
+{
+  "status": "CONTINUOUS_ACTUAL_TAIL_INDUCED_DIFFERENCE",
+  "comparison": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-m12-m8-full.json",
+    "bytes": 7591,
+    "sha256": "3d87654f9228b9ef6fda549b6b79dedb458682288d85a46f4c63e38a9d9496c6"
+  },
+  "old_reference_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-lowmetric-final-packet.json",
+    "bytes": 2024,
+    "sha256": "4a54d53a7108cf8eb7095b3780c53cd829d9a79b3e97fd41d233ca65d66813f6"
+  },
+  "packet_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-lowmetric-final-packet.npz",
+    "bytes": 673075,
+    "sha256": "6053cdc8088d0e9ee75069b070eee84f9657beda5249af0090c794e2edc83993"
+  },
+  "packet_manifest": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "bytes": 54855,
+    "sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da"
+  },
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-tail-induced-difference.py",
+    "bytes": 10341,
+    "sha256": "ede1e6911b995252d6e29a9c0ef5db27ceed3090128a52116dc8177ee9d690e7"
+  },
+  "complete_tail_and_own_collars": true,
+  "covered_spans": 23189,
+  "exact_domain": [
+    "2702159776422297/18014398509481984",
+    "5404319552844595/9007199254740992"
+  ],
+  "reference_actual_metric_lower_factor_exact": "99999997/100000000",
+  "background_identity_reference": "R21 fixed source/exact bridge and original background packet suppliers",
+  "maxima": {
+    "eta": {
+      "upper": 7.226853305606884e-05,
+      "index": 21641,
+      "left_exact": "588778548101970030898032808062613275336119/1247347073977141182794646048914448905666560",
+      "right_exact": "589152518521399918824964799240159550561719/1247347073977141182794646048914448905666560",
+      "background_E_lower": 1.000052705266972,
+      "background_wr_absolute_upper": 0.00114705802121185
+    },
+    "beta": {
+      "upper": 0.11411038952043248,
+      "index": 21472,
+      "left_exact": "542915298776017525917862743102276037565879/1247347073977141182794646048914448905666560",
+      "right_exact": "542937104255410856035090185207083916910007/1247347073977141182794646048914448905666560",
+      "background_E_lower": 1.0000541716233593,
+      "background_wr_absolute_upper": 1.0506731694735651
+    },
+    "Qu": {
+      "upper": 0.11384160933395915,
+      "index": 21472,
+      "left_exact": "542915298776017525917862743102276037565879/1247347073977141182794646048914448905666560",
+      "right_exact": "542937104255410856035090185207083916910007/1247347073977141182794646048914448905666560",
+      "background_E_lower": 1.0000541716233593,
+      "background_wr_absolute_upper": 1.0506731694735651
+    },
+    "QX": {
+      "upper": 24.166921673888275,
+      "index": 22228,
+      "left_exact": "4742351761554519/9007199254740992",
+      "right_exact": "656742966622876609204016175516420002379191/1247347073977141182794646048914448905666560",
+      "background_E_lower": 1.0003999999999966,
+      "background_wr_absolute_upper": 24.00000000000014
+    }
+  },
+  "eta_upper": 7.226853305606884e-05,
+  "beta_upper": 0.11411038952043248,
+  "coordinate_formula": "D=diag(1/sqrt(E),1/r); Q=lambda_max([[Urr/E,Urtheta/(r sqrt(E))],[same,Uthetatheta/r^2]])",
+  "connection_formula": "dX Gamma_h=P_TX D2X; beta <= (Qu+eta QX)/(1-e0)",
+  "prefix_mean_gauge_included": false,
+  "whole_closed_surface_transfer": false,
+  "new_metric_certificate": false,
+  "nonlinear_solver_calls": 0,
+  "tail_integrations": 0,
+  "seconds": 412.80802878299437,
+  "row_storage": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-m12-m8-full-rows-manifest.json",
+    "bytes": 2082,
+    "sha256": "a9be967da297219bd673e4ec8b63bcb187062e420c7e2078175e552f0395e57e"
+  }
+}

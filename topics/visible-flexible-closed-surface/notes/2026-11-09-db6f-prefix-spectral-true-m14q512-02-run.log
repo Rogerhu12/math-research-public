@@ -1,0 +1,4 @@
+{"event": "start_coupled", "q": 0.1, "M": 14, "nodes": 2633, "fixed": true}
+{"event": "failure", "error": "MemoryError((27280600,), dtype('float64'))"}
+{"event": "spectral_true_program_failure", "error": "FileNotFoundError(2, 'No such file or directory')"}
+{"status": "ORIGINAL_FINITE_M14_COUPLED_PROGRAM_FAILURE", "mathematical_success": false, "requested_process_exit_code": 2, "spectral_BVP_calls": 1}

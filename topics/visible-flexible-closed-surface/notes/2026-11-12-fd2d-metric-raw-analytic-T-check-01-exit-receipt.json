@@ -1,0 +1,15 @@
+{
+  "schema": "fd2d-actual-exit-receipt-v1",
+  "session_id": 7275,
+  "chunk_id": "bbe451",
+  "exit_code": 0,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-raw-analytic-T-check-01.json",
+    "sha256": "f2bc6e91ef0e0ef523b72f50fbc195820caa5034870d697f9f286b11a9ef0b27"
+  },
+  "executed_source_snapshot": {
+    "path": "repro/fd2d-metric-analytic-T-version01/fd2d_gc_raw_analytic_T.py",
+    "sha256": "54b2d5dcd01266364db44154036344362fafe0c00d843919e3fddfc1a162cace"
+  },
+  "next_revision": "Only add direct data fields_T and K_T aliases; analytic formulas unchanged; new check run binds new source."
+}

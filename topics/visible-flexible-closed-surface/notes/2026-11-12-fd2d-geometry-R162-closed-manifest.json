@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-closed-research-group-v1",
+  "result": "R162",
+  "status": "closed complete proof plus real local finite check; no new solved core",
+  "created_utc": "2026-11-12T16:02:52.415605+00:00",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R162-existing-current-radius-tail-reference-and-raw-zero-initializer.md",
+      "bytes": 14388,
+      "sha256": "1f2c7562674eda367ad1a75c3576b4e7f51a096c4bbf25ea8464851d4c5e9d1d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_existing_tail_reference.py",
+      "bytes": 7341,
+      "sha256": "4b7ce10e568521ec7fe92ed23d0f8b1d947671aa9278fc63f631d007241bd2cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-existing-tail-zero-initializer-check.py",
+      "bytes": 11480,
+      "sha256": "957506f3c241415ab687dc5d0e045cac516d3107caf31720033d363823df88b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-existing-tail-zero-18b3-01-report.json",
+      "bytes": 9158,
+      "sha256": "f1a70d02475ef3853388050fbedfe7b187e10dbaf04d7f8831b7e8b90cf7385b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-existing-tail-zero-18b3-01-field.npz",
+      "bytes": 59623,
+      "sha256": "282196613cc8e16232164bd5c858fc1c7564d2a4d0bd21527c793f42977abb69"
+    }
+  ],
+  "total_bytes": 101990,
+  "execution": {
+    "session_id": 33360,
+    "initial_chunk_id": "4e8927",
+    "final_chunk_id": "16944b",
+    "natural_exit_code": 0,
+    "wall_seconds": 0.20265322199702496,
+    "peak_rss_kib": 63880
+  },
+  "scope": [
+    "Existing eta-weighted current-radius tail function, not a new lifting or metric",
+    "Strict full-angle formal eigenvalue cap 33/5 only on the protected positive-K trace plateau",
+    "Uniform matching of value/material radial and angular one-jets to the actual flat tail, with all Codazzi defects retained",
+    "Actual18b3 raw fade: parameter/mesh/atlas/windows and all other original arrays byte-identical; exact zero raw corrections on whole P1 cells119-121",
+    "No wholeF/J/BVP by this group; numerical agent separately found same-p 19b3 full-objective worsening, recorded in proof and its own closed group"
+  ],
+  "publication_owner": "root; no shared index/log/handoff or git mutation by geometry"
+}

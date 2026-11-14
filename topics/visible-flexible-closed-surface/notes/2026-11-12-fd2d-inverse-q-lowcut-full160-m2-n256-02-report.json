@@ -1,0 +1,5517 @@
+{
+  "schema": "fd2d-inverse-q-full-tail-m2-momentum-audit-v1",
+  "source_sha256": "7d4741a65070544c17bc956ca59879921ed188492fb08021953a73b07f0e6666",
+  "config_file": "2026-11-12-fd2d-inverse-q-lowcut-full160-02-config.json",
+  "config_sha256": "13a59a2d805ea70a95c910e79f15d36e5c2b1d67abc7d36b540298f8858aaa5c",
+  "scope": "Actual fixed-g finite split-RK4 on all changed cells. Exact source m2 bounded inlet pi=0 is used at the unchanged deep port. No interior momentum is reset. Maxima are samples; no interval enclosure, nonlinear solution or strong-target completion is asserted.",
+  "base_constructor_sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+  "weighted_constructor_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+  "cache_sha256": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07",
+  "inverse_q_source_files": {
+    "fd2d-inverse-q-tail.mjs": "2657588d607c31e23bb3bce534e2484f4a7695e3c7a1c3199b6f4e8ba03ffeb9",
+    "fd2d-metric-inverse-q-bridge.mjs": "a6b1492410ae82d62c66e794c273847d16ee8310a65b59369b79385d53e6b006",
+    "fd2d-metric-inverse-q-buffer.mjs": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "fd2d-bounded-tail-point-cache.mjs": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07"
+  },
+  "physical_definition_sha256": "1b02eee742789de96381c9751fc1a1949ae47af9c141a1d419c18d064aad1f4a",
+  "steps": 256,
+  "far": 160,
+  "stats": {
+    "rCut": 0.65,
+    "rCuff": 0.32,
+    "oldCut": 0.3236028857837205,
+    "wCut": 0.001,
+    "width": 0.33,
+    "curvatureBound": 7,
+    "alpha": 13.155976171232949,
+    "actualWidth": 0.33,
+    "minimumWarpWidth": null,
+    "meridianLength": 0.33235258742514445,
+    "heightSpan": 0.022303126042379575,
+    "cutRadiusError": 0,
+    "cutSlopeError": 2.168404344971009e-19,
+    "cutSecondError": -8.673617379884035e-18,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [],
+    "baseMinimumWarpWidth": 0.1334398790833955,
+    "alphaScope": "Only the unchanged original finite physical cells; the inverse-Q bridge uses affine radius",
+    "inverseQ": {
+      "definitionSHA": "1b02eee742789de96381c9751fc1a1949ae47af9c141a1d419c18d064aad1f4a",
+      "replaceOuterCells": 1,
+      "metadata": {
+        "kind": "finite_inverse_q_buffer",
+        "degree": 32,
+        "left": 0.3808860058501116,
+        "right": 0.65,
+        "innerW": 0.003991159062404631,
+        "outerWTarget": 0.001,
+        "innerLogarithmicDerivative": -0.02625418374556657,
+        "outerLogarithmicDerivative": -10.769230769230768,
+        "gamma": 0.0016856938465964475,
+        "rawLogRatio": -1.3840816806659524,
+        "endpointCalibration": 1.1802825383711024e-10,
+        "quadratureGrid": 1024,
+        "exactDefinition": "positive-k weighted moment; rational log derivative primitive; S5 endpoint calibration",
+        "numericalOnly": true,
+        "originalPolynomialSolvesCalibratedEquation": false
+      },
+      "actualInnerPort": {
+        "r": 0.3808860058501116,
+        "w": 0.003991159062404631,
+        "wr": -0.00010478462338215439
+      },
+      "joinError": {
+        "r": 0,
+        "w": 0,
+        "wr": 2.1873778829895052e-17
+      },
+      "criticalPoints": [
+        0.000005574476561723621,
+        0.27997102676600505,
+        0.8115441491418496,
+        0.9562907085464771
+      ],
+      "criticalPointScope": "Sign-change roots of the smooth bridge log derivative, isolated numerically; not an interval root count",
+      "replacedMeridianLength": 0.12061717115216096,
+      "replacedHeightSpan": 0.014925240764741228,
+      "bridgeMeridianLength": 0.2714168105958039,
+      "bridgeHeightSpan": 0.020664168252998077,
+      "quadratureScope": "Floating 16-point composite Gauss; no continuous enclosure asserted"
+    },
+    "originalBaseStats": {
+      "rCut": 0.5,
+      "rCuff": 0.32,
+      "oldCut": 0.3236028857837205,
+      "wCut": 0.1,
+      "width": 0.18,
+      "curvatureBound": 7,
+      "alpha": 13.155976171232949,
+      "actualWidth": 0.1800000000000001,
+      "minimumWarpWidth": 0.1334398790833955,
+      "meridianLength": 0.1815529479815015,
+      "heightSpan": 0.016564198554122726,
+      "cutRadiusError": 1.1102230246251565e-16,
+      "cutSlopeError": -1.1102230246251565e-16,
+      "cutSecondError": 1.9984014443252818e-15,
+      "deepRadiusError": 0,
+      "deepSlopeError": 0,
+      "deepSecondError": 0,
+      "positiveWarpWeights": []
+    }
+  },
+  "next_cell": -1,
+  "y": [
+    1,
+    -2.1366185898883017e-11
+  ],
+  "lognorm": 670.4749631850416,
+  "last_mu": 0.000005524006906476501,
+  "spool_bytes": 5117139,
+  "cells": [
+    {
+      "cell": 159,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.154183747488989e-12,
+      "log_abs_Q": 4.158883083453255
+    },
+    {
+      "cell": 158,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1522186305431052e-12,
+      "log_abs_Q": 8.317766166906665
+    },
+    {
+      "cell": 157,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1534358646369793e-12,
+      "log_abs_Q": 12.476649250360094
+    },
+    {
+      "cell": 156,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.154029031798964e-12,
+      "log_abs_Q": 16.63553233381358
+    },
+    {
+      "cell": 155,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151939556831735e-12,
+      "log_abs_Q": 20.794415417266986
+    },
+    {
+      "cell": 154,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1531846549286513e-12,
+      "log_abs_Q": 24.953298500720415
+    },
+    {
+      "cell": 153,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.15376286009679e-12,
+      "log_abs_Q": 29.112181584173893
+    },
+    {
+      "cell": 152,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1523479758957605e-12,
+      "log_abs_Q": 33.27106466762731
+    },
+    {
+      "cell": 151,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1555832360152304e-12,
+      "log_abs_Q": 37.42994775108087
+    },
+    {
+      "cell": 150,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1508396334433115e-12,
+      "log_abs_Q": 41.58883083453425
+    },
+    {
+      "cell": 149,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1547447138381945e-12,
+      "log_abs_Q": 45.74771391798776
+    },
+    {
+      "cell": 148,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152662177766694e-12,
+      "log_abs_Q": 49.90659700144119
+    },
+    {
+      "cell": 147,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151245125160798e-12,
+      "log_abs_Q": 54.06548008489457
+    },
+    {
+      "cell": 146,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151826582936354e-12,
+      "log_abs_Q": 58.22436316834799
+    },
+    {
+      "cell": 145,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1524094501751254e-12,
+      "log_abs_Q": 62.38324625180141
+    },
+    {
+      "cell": 144,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1536467420145074e-12,
+      "log_abs_Q": 66.5421293352548
+    },
+    {
+      "cell": 143,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151570927998367e-12,
+      "log_abs_Q": 70.70101241870809
+    },
+    {
+      "cell": 142,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1521488079060255e-12,
+      "log_abs_Q": 74.85989550216148
+    },
+    {
+      "cell": 141,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1507213469569062e-12,
+      "log_abs_Q": 79.01877858561474
+    },
+    {
+      "cell": 140,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1513056236593013e-12,
+      "log_abs_Q": 83.17766166906803
+    },
+    {
+      "cell": 139,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152532832416488e-12,
+      "log_abs_Q": 87.33654475252139
+    },
+    {
+      "cell": 138,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153125565898546e-12,
+      "log_abs_Q": 91.4954278359748
+    },
+    {
+      "cell": 137,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1510360909328127e-12,
+      "log_abs_Q": 95.65431091942804
+    },
+    {
+      "cell": 136,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1522762017005654e-12,
+      "log_abs_Q": 99.81319400288139
+    },
+    {
+      "cell": 135,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1528574426385747e-12,
+      "log_abs_Q": 103.97207708633478
+    },
+    {
+      "cell": 134,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1540957102643003e-12,
+      "log_abs_Q": 108.13096016978822
+    },
+    {
+      "cell": 133,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1520330151037002e-12,
+      "log_abs_Q": 112.28984325324161
+    },
+    {
+      "cell": 132,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1525913793755106e-12,
+      "log_abs_Q": 116.44872633669496
+    },
+    {
+      "cell": 131,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.15382802070543e-12,
+      "log_abs_Q": 120.6076094201484
+    },
+    {
+      "cell": 130,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.154418477378481e-12,
+      "log_abs_Q": 124.76649250360192
+    },
+    {
+      "cell": 129,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1523445065306986e-12,
+      "log_abs_Q": 128.92537558705533
+    },
+    {
+      "cell": 128,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1535697637572563e-12,
+      "log_abs_Q": 133.0842586705089
+    },
+    {
+      "cell": 127,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1515059844370864e-12,
+      "log_abs_Q": 137.2431417539624
+    },
+    {
+      "cell": 126,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152733952204562e-12,
+      "log_abs_Q": 141.40202483741592
+    },
+    {
+      "cell": 125,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153314434296049e-12,
+      "log_abs_Q": 145.56090792086948
+    },
+    {
+      "cell": 124,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153907059495919e-12,
+      "log_abs_Q": 149.7197910043231
+    },
+    {
+      "cell": 123,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1524733103692646e-12,
+      "log_abs_Q": 153.87867408777657
+    },
+    {
+      "cell": 122,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1530553105251207e-12,
+      "log_abs_Q": 158.0375571712301
+    },
+    {
+      "cell": 121,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1542913017168126e-12,
+      "log_abs_Q": 162.19644025468372
+    },
+    {
+      "cell": 120,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1548775305431263e-12,
+      "log_abs_Q": 166.35532333813737
+    },
+    {
+      "cell": 119,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152792176338446e-12,
+      "log_abs_Q": 170.51420642159093
+    },
+    {
+      "cell": 118,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1540266503748707e-12,
+      "log_abs_Q": 174.6730895050445
+    },
+    {
+      "cell": 117,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151959945250617e-12,
+      "log_abs_Q": 178.83197258849796
+    },
+    {
+      "cell": 116,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1525442242068562e-12,
+      "log_abs_Q": 182.9908556719515
+    },
+    {
+      "cell": 115,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1537663404054145e-12,
+      "log_abs_Q": 187.14973875540505
+    },
+    {
+      "cell": 114,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1516992045493518e-12,
+      "log_abs_Q": 191.30862183885853
+    },
+    {
+      "cell": 113,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1529302144840374e-12,
+      "log_abs_Q": 195.46750492231203
+    },
+    {
+      "cell": 112,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1508487718046485e-12,
+      "log_abs_Q": 199.62638800576548
+    },
+    {
+      "cell": 111,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1514340373422805e-12,
+      "log_abs_Q": 203.78527108921898
+    },
+    {
+      "cell": 110,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152673190867838e-12,
+      "log_abs_Q": 207.9441541726725
+    },
+    {
+      "cell": 109,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153255650763915e-12,
+      "log_abs_Q": 212.10303725612607
+    },
+    {
+      "cell": 108,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151819336766452e-12,
+      "log_abs_Q": 216.26192033957955
+    },
+    {
+      "cell": 107,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152411581286899e-12,
+      "log_abs_Q": 220.4208034230331
+    },
+    {
+      "cell": 106,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152997559772092e-12,
+      "log_abs_Q": 224.57968650648664
+    },
+    {
+      "cell": 105,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.154218912621006e-12,
+      "log_abs_Q": 228.73856958994023
+    },
+    {
+      "cell": 104,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152151273965296e-12,
+      "log_abs_Q": 232.89745267339376
+    },
+    {
+      "cell": 103,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152727743816235e-12,
+      "log_abs_Q": 237.0563357568473
+    },
+    {
+      "cell": 102,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1539545007391678e-12,
+      "log_abs_Q": 241.21521884030085
+    },
+    {
+      "cell": 101,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1518988553368323e-12,
+      "log_abs_Q": 245.37410192375435
+    },
+    {
+      "cell": 100,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153128960248651e-12,
+      "log_abs_Q": 249.53298500720788
+    },
+    {
+      "cell": 99,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1536955765416384e-12,
+      "log_abs_Q": 253.69186809066144
+    },
+    {
+      "cell": 98,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1516474658481304e-12,
+      "log_abs_Q": 257.8507511741149
+    },
+    {
+      "cell": 97,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152877315117665e-12,
+      "log_abs_Q": 262.0096342575684
+    },
+    {
+      "cell": 96,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.153458796844499e-12,
+      "log_abs_Q": 266.1685173410219
+    },
+    {
+      "cell": 95,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1543706077727248e-12,
+      "log_abs_Q": 270.32740042447546
+    },
+    {
+      "cell": 94,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.151973632233088e-12,
+      "log_abs_Q": 274.4862835079289
+    },
+    {
+      "cell": 93,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152878448530206e-12,
+      "log_abs_Q": 278.6451665913823
+    },
+    {
+      "cell": 92,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1534635216218736e-12,
+      "log_abs_Q": 282.8040496748358
+    },
+    {
+      "cell": 91,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1523970933109793e-12,
+      "log_abs_Q": 286.96293275828924
+    },
+    {
+      "cell": 90,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.15332876370644e-12,
+      "log_abs_Q": 291.1218158417428
+    },
+    {
+      "cell": 89,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152930310948872e-12,
+      "log_abs_Q": 295.2806989251962
+    },
+    {
+      "cell": 88,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152264955180304e-12,
+      "log_abs_Q": 299.4395820086496
+    },
+    {
+      "cell": 87,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1525653822947307e-12,
+      "log_abs_Q": 303.598465092103
+    },
+    {
+      "cell": 86,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1535683976670865e-12,
+      "log_abs_Q": 307.75734817555656
+    },
+    {
+      "cell": 85,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1532923793426487e-12,
+      "log_abs_Q": 311.9162312590101
+    },
+    {
+      "cell": 84,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1530600493967028e-12,
+      "log_abs_Q": 316.07511434246356
+    },
+    {
+      "cell": 83,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152607837669148e-12,
+      "log_abs_Q": 320.23399742591704
+    },
+    {
+      "cell": 82,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.152596668342069e-12,
+      "log_abs_Q": 324.3928805093705
+    },
+    {
+      "cell": 81,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1540677904478615e-12,
+      "log_abs_Q": 328.5517635928241
+    },
+    {
+      "cell": 80,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1557783635954276e-12,
+      "log_abs_Q": 332.71064667627763
+    },
+    {
+      "cell": 79,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1561862277969725e-12,
+      "log_abs_Q": 336.8695297597312
+    },
+    {
+      "cell": 78,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.157416442795852e-12,
+      "log_abs_Q": 341.0284128431849
+    },
+    {
+      "cell": 77,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1606546722195713e-12,
+      "log_abs_Q": 345.1872959266388
+    },
+    {
+      "cell": 76,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1635371029063074e-12,
+      "log_abs_Q": 349.34617901009267
+    },
+    {
+      "cell": 75,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1687920369856048e-12,
+      "log_abs_Q": 353.5050620935467
+    },
+    {
+      "cell": 74,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.175014434219215e-12,
+      "log_abs_Q": 357.663945177001
+    },
+    {
+      "cell": 73,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1853964115377966e-12,
+      "log_abs_Q": 361.8228282604557
+    },
+    {
+      "cell": 72,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.1983820343867674e-12,
+      "log_abs_Q": 365.9817113439109
+    },
+    {
+      "cell": 71,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.2170325468962323e-12,
+      "log_abs_Q": 370.1405944273671
+    },
+    {
+      "cell": 70,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.244744115969655e-12,
+      "log_abs_Q": 374.2994775108246
+    },
+    {
+      "cell": 69,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.282920562076388e-12,
+      "log_abs_Q": 378.45836059428393
+    },
+    {
+      "cell": 68,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.3377247756846493e-12,
+      "log_abs_Q": 382.61724367774593
+    },
+    {
+      "cell": 67,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.417426415953338e-12,
+      "log_abs_Q": 386.77612676121237
+    },
+    {
+      "cell": 66,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.4740533485232224e-12,
+      "log_abs_Q": 390.93500984468255
+    },
+    {
+      "cell": 65,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.611775280985904e-12,
+      "log_abs_Q": 395.0938929281614
+    },
+    {
+      "cell": 64,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.8092717286337043e-12,
+      "log_abs_Q": 399.25277601165334
+    },
+    {
+      "cell": 63,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -3.0911985834790136e-12,
+      "log_abs_Q": 403.41165909516627
+    },
+    {
+      "cell": 62,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -3.496627059033532e-12,
+      "log_abs_Q": 407.5705421787119
+    },
+    {
+      "cell": 61,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -4.0774578491620384e-12,
+      "log_abs_Q": 411.7294252623094
+    },
+    {
+      "cell": 60,
+      "steps": 32,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -4.9127806746339984e-12,
+      "log_abs_Q": 415.88830834598923
+    },
+    {
+      "cell": 59,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -6.121631177389171e-12,
+      "log_abs_Q": 420.04719142980287
+    },
+    {
+      "cell": 58,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -7.854361788599228e-12,
+      "log_abs_Q": 424.20607451382455
+    },
+    {
+      "cell": 57,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.0355721740079606e-11,
+      "log_abs_Q": 428.36495759817836
+    },
+    {
+      "cell": 56,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.3979538678984982e-11,
+      "log_abs_Q": 432.5238406830668
+    },
+    {
+      "cell": 55,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.9241508059078588e-11,
+      "log_abs_Q": 436.68272376881566
+    },
+    {
+      "cell": 54,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.6907008192450932e-11,
+      "log_abs_Q": 440.8416068559545
+    },
+    {
+      "cell": 53,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -3.810972485915492e-11,
+      "log_abs_Q": 445.0004899453414
+    },
+    {
+      "cell": 52,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -5.454966126649884e-11,
+      "log_abs_Q": 449.1593730383769
+    },
+    {
+      "cell": 51,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -7.876787897371144e-11,
+      "log_abs_Q": 453.3182561373427
+    },
+    {
+      "cell": 50,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.1460983892248758e-10,
+      "log_abs_Q": 457.4771392459619
+    },
+    {
+      "cell": 49,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.679005227512428e-10,
+      "log_abs_Q": 461.63602237031165
+    },
+    {
+      "cell": 48,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.475465744908573e-10,
+      "log_abs_Q": 465.794905520315
+    },
+    {
+      "cell": 47,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -3.6721321502809055e-10,
+      "log_abs_Q": 469.9537887121712
+    },
+    {
+      "cell": 46,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -5.480131583839185e-10,
+      "log_abs_Q": 474.11267197234594
+    },
+    {
+      "cell": 45,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -8.227223234375002e-10,
+      "log_abs_Q": 478.2715553440464
+    },
+    {
+      "cell": 44,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.24249826166353e-9,
+      "log_abs_Q": 482.43043889781205
+    },
+    {
+      "cell": 43,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.8876743710281712e-9,
+      "log_abs_Q": 486.58932274866606
+    },
+    {
+      "cell": 42,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -2.884849058787405e-9,
+      "log_abs_Q": 490.74820708403354
+    },
+    {
+      "cell": 41,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -4.4346471298337475e-9,
+      "log_abs_Q": 494.9070922091573
+    },
+    {
+      "cell": 40,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -6.855738888921982e-9,
+      "log_abs_Q": 499.0659786206137
+    },
+    {
+      "cell": 39,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.0657192380318449e-8,
+      "log_abs_Q": 503.2248671250007
+    },
+    {
+      "cell": 38,
+      "steps": 128,
+      "beta": -1.1947323735434907,
+      "samples": 153,
+      "exit_momentum_ratio": -1.665367188630542e-8,
+      "log_abs_Q": 507.38375903011405
+    },
+    {
+      "cell": 37,
+      "steps": 128,
+      "beta": -1.1947312241762915,
+      "samples": 153,
+      "exit_momentum_ratio": 7.131290791095829e-10,
+      "log_abs_Q": 511.5426552873883
+    },
+    {
+      "cell": 36,
+      "steps": 128,
+      "beta": -1.1947312241762915,
+      "samples": 153,
+      "exit_momentum_ratio": -1.4392044344084596e-8,
+      "log_abs_Q": 515.7015604872502
+    },
+    {
+      "cell": 35,
+      "steps": 128,
+      "beta": -1.19472954611184,
+      "samples": 153,
+      "exit_momentum_ratio": 7.265493466467001e-10,
+      "log_abs_Q": 519.8604784516533
+    },
+    {
+      "cell": 34,
+      "steps": 128,
+      "beta": -1.1947278943679656,
+      "samples": 153,
+      "exit_momentum_ratio": 7.538605673863106e-10,
+      "log_abs_Q": 524.0194180968019
+    },
+    {
+      "cell": 33,
+      "steps": 128,
+      "beta": -1.1947252383339586,
+      "samples": 153,
+      "exit_momentum_ratio": 9.296395176368574e-10,
+      "log_abs_Q": 528.1783926856423
+    },
+    {
+      "cell": 32,
+      "steps": 128,
+      "beta": -1.1947209584598284,
+      "samples": 153,
+      "exit_momentum_ratio": 1.4111377798053964e-9,
+      "log_abs_Q": 532.3374234291992
+    },
+    {
+      "cell": 31,
+      "steps": 128,
+      "beta": -1.194714076885648,
+      "samples": 153,
+      "exit_momentum_ratio": 1.8936070853141994e-9,
+      "log_abs_Q": 536.496544181155
+    },
+    {
+      "cell": 30,
+      "steps": 128,
+      "beta": -1.1947029967160276,
+      "samples": 153,
+      "exit_momentum_ratio": 2.213184691922026e-9,
+      "log_abs_Q": 540.6558087456831
+    },
+    {
+      "cell": 29,
+      "steps": 128,
+      "beta": -1.1946851106977572,
+      "samples": 153,
+      "exit_momentum_ratio": 2.657381689957867e-9,
+      "log_abs_Q": 544.8153022070599
+    },
+    {
+      "cell": 28,
+      "steps": 128,
+      "beta": -1.1946561837332648,
+      "samples": 153,
+      "exit_momentum_ratio": 4.306804779480623e-9,
+      "log_abs_Q": 548.9751585288768
+    },
+    {
+      "cell": 27,
+      "steps": 128,
+      "beta": -1.1946093602725023,
+      "samples": 153,
+      "exit_momentum_ratio": 9.110561965734088e-9,
+      "log_abs_Q": 553.1355874807438
+    },
+    {
+      "cell": 26,
+      "steps": 128,
+      "beta": -1.1945339486593312,
+      "samples": 153,
+      "exit_momentum_ratio": 1.2221308978038244e-8,
+      "log_abs_Q": 557.2969157947681
+    },
+    {
+      "cell": 25,
+      "steps": 128,
+      "beta": -1.1944122343886907,
+      "samples": 153,
+      "exit_momentum_ratio": 1.759718598973327e-8,
+      "log_abs_Q": 561.4596483094192
+    },
+    {
+      "cell": 24,
+      "steps": 128,
+      "beta": -1.194216974296633,
+      "samples": 153,
+      "exit_momentum_ratio": 4.881704259958557e-9,
+      "log_abs_Q": 565.6245591961796
+    },
+    {
+      "cell": 23,
+      "steps": 256,
+      "beta": -1.1939020639607238,
+      "samples": 153,
+      "exit_momentum_ratio": 1.980095948528007e-9,
+      "log_abs_Q": 569.7928205609779
+    },
+    {
+      "cell": 22,
+      "steps": 256,
+      "beta": -1.1933961974240817,
+      "samples": 153,
+      "exit_momentum_ratio": 2.296067121797001e-9,
+      "log_abs_Q": 573.9661890028127
+    },
+    {
+      "cell": 21,
+      "steps": 256,
+      "beta": -1.192586295267121,
+      "samples": 153,
+      "exit_momentum_ratio": 3.3658337171406663e-9,
+      "log_abs_Q": 578.1472531172972
+    },
+    {
+      "cell": 20,
+      "steps": 256,
+      "beta": -1.1912943337951596,
+      "samples": 153,
+      "exit_momentum_ratio": 4.745822908444134e-9,
+      "log_abs_Q": 582.3397517985939
+    },
+    {
+      "cell": 19,
+      "steps": 256,
+      "beta": -1.1892425459069946,
+      "samples": 153,
+      "exit_momentum_ratio": 6.158153245690588e-9,
+      "log_abs_Q": 586.5489452984433
+    },
+    {
+      "cell": 18,
+      "steps": 256,
+      "beta": -1.1860016240546496,
+      "samples": 153,
+      "exit_momentum_ratio": 8.789553190610022e-9,
+      "log_abs_Q": 590.7819814049554
+    },
+    {
+      "cell": 17,
+      "steps": 256,
+      "beta": -1.1809158557624042,
+      "samples": 153,
+      "exit_momentum_ratio": 1.2227999417216722e-8,
+      "log_abs_Q": 595.0481287676593
+    },
+    {
+      "cell": 16,
+      "steps": 256,
+      "beta": -1.172997514164669,
+      "samples": 153,
+      "exit_momentum_ratio": 1.7709590271967452e-8,
+      "log_abs_Q": 599.3586558359859
+    },
+    {
+      "cell": 15,
+      "steps": 256,
+      "beta": -1.1607856734935182,
+      "samples": 153,
+      "exit_momentum_ratio": 2.5424322140338053e-8,
+      "log_abs_Q": 603.7260514904431
+    },
+    {
+      "cell": 14,
+      "steps": 256,
+      "beta": -1.1421734621161408,
+      "samples": 153,
+      "exit_momentum_ratio": 3.5095935699723655e-8,
+      "log_abs_Q": 608.1622860060943
+    },
+    {
+      "cell": 13,
+      "steps": 256,
+      "beta": -1.1142366152719674,
+      "samples": 153,
+      "exit_momentum_ratio": 4.696915551102652e-8,
+      "log_abs_Q": 612.6759827404494
+    },
+    {
+      "cell": 12,
+      "steps": 256,
+      "beta": -1.0731557080814063,
+      "samples": 153,
+      "exit_momentum_ratio": 6.714779880093417e-8,
+      "log_abs_Q": 617.2687353925907
+    },
+    {
+      "cell": 11,
+      "steps": 256,
+      "beta": -1.01441585542224,
+      "samples": 297,
+      "exit_momentum_ratio": 6.217270508949496e-8,
+      "log_abs_Q": 621.9312481172544
+    },
+    {
+      "cell": 10,
+      "steps": 256,
+      "beta": -0.9335270828298159,
+      "samples": 297,
+      "exit_momentum_ratio": 7.773423145501628e-8,
+      "log_abs_Q": 626.6402752453988
+    },
+    {
+      "cell": 9,
+      "steps": 256,
+      "beta": -0.8274685048479773,
+      "samples": 297,
+      "exit_momentum_ratio": 9.149067804925338e-8,
+      "log_abs_Q": 631.3573350077497
+    },
+    {
+      "cell": 8,
+      "steps": 256,
+      "beta": -0.6967293884747571,
+      "samples": 297,
+      "exit_momentum_ratio": 9.943368084046208e-8,
+      "log_abs_Q": 636.0297279984835
+    },
+    {
+      "cell": 7,
+      "steps": 256,
+      "beta": -0.547465469896572,
+      "samples": 297,
+      "exit_momentum_ratio": 1.0242520479745439e-7,
+      "log_abs_Q": 640.5937354024321
+    },
+    {
+      "cell": 6,
+      "steps": 256,
+      "beta": -0.3932590619690246,
+      "samples": 297,
+      "exit_momentum_ratio": 9.446219663118829e-8,
+      "log_abs_Q": 644.9796466397942
+    },
+    {
+      "cell": 5,
+      "steps": 256,
+      "beta": -0.2567087267176622,
+      "samples": 297,
+      "exit_momentum_ratio": 7.653518644301425e-8,
+      "log_abs_Q": 649.1200193940927
+    },
+    {
+      "cell": 4,
+      "steps": 256,
+      "beta": -0.17261818004153132,
+      "samples": 297,
+      "exit_momentum_ratio": 4.475114927960913e-8,
+      "log_abs_Q": 652.969934958362
+    },
+    {
+      "cell": 3,
+      "steps": 256,
+      "beta": -0.19822715860022538,
+      "samples": 297,
+      "exit_momentum_ratio": 1.8114509477091982e-8,
+      "log_abs_Q": 656.8506717367561
+    },
+    {
+      "cell": 2,
+      "steps": 256,
+      "beta": -0.5288268016428498,
+      "samples": 297,
+      "exit_momentum_ratio": 3.8485288861322085e-9,
+      "log_abs_Q": 661.257986494784
+    },
+    {
+      "cell": 1,
+      "steps": 256,
+      "beta": -1.066122974010933,
+      "samples": 297,
+      "exit_momentum_ratio": 2.659683695107384e-9,
+      "log_abs_Q": 666.2272740826484
+    },
+    {
+      "cell": 0,
+      "steps": 256,
+      "beta": null,
+      "samples": 297,
+      "exit_momentum_ratio": -2.1366185898883017e-11,
+      "log_abs_Q": 670.4749631850416
+    }
+  ],
+  "completed": true,
+  "memory": {
+    "rss": 93241344,
+    "heapTotal": 33869824,
+    "heapUsed": 9454808,
+    "external": 10768155,
+    "arrayBuffers": 6828978,
+    "heap_size_limit": 100663296
+  },
+  "cut": {
+    "r": 0.65,
+    "w": 0.0010000000000000002,
+    "wr": -0.010769230769230777
+  },
+  "linear_slopes": {
+    "2": 6.153846153833322
+  },
+  "cut_log_height_gain": 668.7518315206718,
+  "unit_cut_height": "real cosine Hcut=1 in H(r)cos(2u)",
+  "samples": 26208,
+  "maxima": {
+    "H": {
+      "cell": 0,
+      "segment": 8,
+      "x": 1,
+      "r": 0.65,
+      "w": 0.0010000000000000002,
+      "wr": -0.010769230769230777,
+      "H": 0.9999999999999996,
+      "Hr": 6.153846153833319,
+      "P": -3076.923076923076,
+      "L": -1.2831132374584188e-8,
+      "eta": 1.2831145205716562e-8,
+      "zeta": -9230.77384612703,
+      "delta_n": 1.9740213523305806e-11,
+      "delta_m": -14.201183431913185,
+      "delta_l": 1.3818135648178425e-10,
+      "Gamma": -0.006153858984978527,
+      "slope_remainder": -1.2831132374584191e-11,
+      "reference_n": 0.0015384607692313465,
+      "reference_l": -0.010769214615404818,
+      "linear_shape_operator_row_bound": 14.201183432051366
+    },
+    "Hr": {
+      "cell": 0,
+      "segment": 7,
+      "x": 0.3125,
+      "r": 0.5995411260968959,
+      "w": 0.00008450459933174343,
+      "wr": 0.00007066708418695945,
+      "H": 0.48745767331194023,
+      "Hr": 18.089268871789006,
+      "P": -19242.769631430023,
+      "L": 175576.99715335516,
+      "eta": -175576.9984071553,
+      "zeta": -408882.3046609202,
+      "delta_n": -24.74736628308123,
+      "delta_m": -57.63146797081727,
+      "delta_l": 12.40751439482849,
+      "Gamma": 175576.99687852888,
+      "slope_remainder": 14.837063796314942,
+      "reference_n": 0.00014094879458921596,
+      "reference_l": 0.00007066708343000609,
+      "linear_shape_operator_row_bound": 82.3788342538985
+    },
+    "P": {
+      "cell": 0,
+      "segment": 7,
+      "x": 0.53125,
+      "r": 0.6060820912324836,
+      "w": 0.00009157962952975555,
+      "wr": 0.0022536799072711148,
+      "H": 0.6032587764043207,
+      "Hr": 16.980989978180908,
+      "P": -21737.185458901768,
+      "L": 141948.8510953795,
+      "eta": -141948.8522858802,
+      "zeta": -349109.26003142406,
+      "delta_n": -21.448617997550507,
+      "delta_m": -52.75076928935742,
+      "delta_l": 319.90727223237246,
+      "Gamma": 141948.85073076742,
+      "slope_remainder": 12.999623195489287,
+      "reference_n": 0.00015110103147825186,
+      "reference_l": 0.002253679878919275,
+      "linear_shape_operator_row_bound": 372.6580415217299
+    },
+    "L": {
+      "cell": 1,
+      "segment": 3,
+      "x": 1,
+      "r": 0.37260255018215527,
+      "w": 0.0000024506390408555296,
+      "wr": -0.000004059907239627493,
+      "H": -0.0000011104060615434617,
+      "Hr": -0.43320368257047104,
+      "P": 2.4321292377135846,
+      "L": -176766.85746323408,
+      "eta": 176766.85746429567,
+      "zeta": 353541.0113152429,
+      "delta_n": 1.162610835106392,
+      "delta_m": 2.3252696591757602,
+      "delta_l": 0.7176570443390301,
+      "Gamma": -176766.85746323405,
+      "slope_remainder": -0.4331917620287463,
+      "reference_n": 0.000006577086065702234,
+      "reference_l": -0.000004059907239590919,
+      "linear_shape_operator_row_bound": 3.487880494282152
+    },
+    "eta": {
+      "cell": 1,
+      "segment": 3,
+      "x": 1,
+      "r": 0.37260255018215527,
+      "w": 0.0000024506390408555296,
+      "wr": -0.000004059907239627493,
+      "H": -0.0000011104060615434617,
+      "Hr": -0.43320368257047104,
+      "P": 2.4321292377135846,
+      "L": -176766.85746323408,
+      "eta": 176766.85746429567,
+      "zeta": 353541.0113152429,
+      "delta_n": 1.162610835106392,
+      "delta_m": 2.3252696591757602,
+      "delta_l": 0.7176570443390301,
+      "Gamma": -176766.85746323405,
+      "slope_remainder": -0.4331917620287463,
+      "reference_n": 0.000006577086065702234,
+      "reference_l": -0.000004059907239590919,
+      "linear_shape_operator_row_bound": 3.487880494282152
+    },
+    "zeta": {
+      "cell": 0,
+      "segment": 7,
+      "x": 0.28125,
+      "r": 0.5986067025060977,
+      "w": 0.00008455785928211197,
+      "wr": -0.00018354849189418826,
+      "H": 0.4705557654666611,
+      "Hr": 18.079864335501423,
+      "P": -18592.831770972458,
+      "L": 176630.8224594474,
+      "eta": -176630.82372236333,
+      "zeta": -409040.14169413707,
+      "delta_n": -24.950479540700186,
+      "delta_m": -57.780105825167574,
+      "delta_l": -32.42032096855853,
+      "Gamma": 176630.82219356875,
+      "slope_remainder": 14.935524230409682,
+      "reference_n": 0.00014125778850422238,
+      "reference_l": -0.00018354848992562203,
+      "linear_shape_operator_row_bound": 90.20042679372611
+    },
+    "delta_n": {
+      "cell": 0,
+      "segment": 7,
+      "x": 0.1875,
+      "r": 0.5958034317337031,
+      "w": 0.00008611244823375378,
+      "wr": -0.0009224470428168724,
+      "H": 0.420171962517768,
+      "Hr": 17.80666249175234,
+      "P": -16379.028092950653,
+      "L": 174025.78119166172,
+      "eta": -174025.78248212443,
+      "zeta": -397188.64813482255,
+      "delta_n": -25.15223198054009,
+      "delta_m": -57.406327243208004,
+      "delta_l": -160.5295666389527,
+      "Gamma": 174025.78094874913,
+      "slope_remainder": 14.985786074205517,
+      "reference_n": 0.0001445316413567839,
+      "reference_l": -0.0009224470325564659,
+      "linear_shape_operator_row_bound": 217.9358938821607
+    },
+    "delta_m": {
+      "cell": 0,
+      "segment": 7,
+      "x": 0.25,
+      "r": 0.5976722789152995,
+      "w": 0.00008484592102190084,
+      "wr": -0.00043229202290641274,
+      "H": 0.4536821026484944,
+      "Hr": 18.028948490385815,
+      "P": -17893.18125892995,
+      "L": 176704.09398543008,
+      "eta": -176704.09525749288,
+      "zeta": -407087.73321292776,
+      "delta_n": -25.08502098124535,
+      "delta_m": -57.7904225364629,
+      "delta_l": -76.38776996985516,
+      "Gamma": 176704.09372781013,
+      "slope_remainder": 14.99262160253436,
+      "reference_n": 0.00014196060903224402,
+      "reference_l": -0.00043229201823841737,
+      "linear_shape_operator_row_bound": 134.17819250631806
+    },
+    "delta_l": {
+      "cell": 1,
+      "segment": 3,
+      "x": 0.84375,
+      "r": 0.37258210796634167,
+      "w": 0.000004043787360716737,
+      "wr": -0.26388316754536983,
+      "H": 0.000006716698376945686,
+      "Hr": -0.2625108441449442,
+      "P": -8.916112421786886,
+      "L": -64934.906424911176,
+      "eta": 64934.90642597301,
+      "zeta": 129843.0645136186,
+      "delta_n": 0.7047653342931003,
+      "delta_m": 1.4092403578328527,
+      "delta_l": 17135.22879152765,
+      "Gamma": -64934.90642491147,
+      "slope_remainder": -0.2625829538703801,
+      "reference_n": 0.00001085341264172831,
+      "reference_l": -0.26388316753889723,
+      "linear_shape_operator_row_bound": 17136.638031885483
+    },
+    "Gamma": {
+      "cell": 1,
+      "segment": 3,
+      "x": 1,
+      "r": 0.37260255018215527,
+      "w": 0.0000024506390408555296,
+      "wr": -0.000004059907239627493,
+      "H": -0.0000011104060615434617,
+      "Hr": -0.43320368257047104,
+      "P": 2.4321292377135846,
+      "L": -176766.85746323408,
+      "eta": 176766.85746429567,
+      "zeta": 353541.0113152429,
+      "delta_n": 1.162610835106392,
+      "delta_m": 2.3252696591757602,
+      "delta_l": 0.7176570443390301,
+      "Gamma": -176766.85746323405,
+      "slope_remainder": -0.4331917620287463,
+      "reference_n": 0.000006577086065702234,
+      "reference_l": -0.000004059907239590919,
+      "linear_shape_operator_row_bound": 3.487880494282152
+    },
+    "linear_shape_operator_row_bound": {
+      "cell": 1,
+      "segment": 3,
+      "x": 0.84375,
+      "r": 0.37258210796634167,
+      "w": 0.000004043787360716737,
+      "wr": -0.26388316754536983,
+      "H": 0.000006716698376945686,
+      "Hr": -0.2625108441449442,
+      "P": -8.916112421786886,
+      "L": -64934.906424911176,
+      "eta": 64934.90642597301,
+      "zeta": 129843.0645136186,
+      "delta_n": 0.7047653342931003,
+      "delta_m": 1.4092403578328527,
+      "delta_l": 17135.22879152765,
+      "Gamma": -64934.90642491147,
+      "slope_remainder": -0.2625829538703801,
+      "reference_n": 0.00001085341264172831,
+      "reference_l": -0.26388316753889723,
+      "linear_shape_operator_row_bound": 17136.638031885483
+    }
+  },
+  "cell_maxima": [
+    {
+      "cell": 0,
+      "II": 584.8299136788092,
+      "Gamma": 176704.09372781013,
+      "L": 176704.09398543008,
+      "H": 0.9999999999999996,
+      "Hr": 18.089268871789006,
+      "IIWhere": {
+        "segment": 7,
+        "x": 0.84375,
+        "r": 0.6154263271404657,
+        "w": 0.00014077545037026627,
+        "H": 0.7432909161181332,
+        "Hr": 12.629550840442175
+      },
+      "GammaWhere": {
+        "segment": 7,
+        "x": 0.25,
+        "r": 0.5976722789152995,
+        "w": 0.00008484592102190084,
+        "H": 0.4536821026484944,
+        "Hr": 18.028948490385815
+      }
+    },
+    {
+      "cell": 1,
+      "II": 17136.638031885483,
+      "Gamma": 176766.85746323405,
+      "L": 176766.85746323408,
+      "H": 0.0016856938466734707,
+      "Hr": 0.4357862764347448,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.37258210796634167,
+        "w": 0.000004043787360716737,
+        "H": 0.000006716698376945686,
+        "Hr": -0.2625108441449442
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.37260255018215527,
+        "w": 0.0000024506390408555296,
+        "H": -0.0000011104060615434617,
+        "Hr": -0.43320368257047104
+      }
+    },
+    {
+      "cell": 2,
+      "II": 484.91313292331193,
+      "Gamma": 13213.023979406475,
+      "L": 13213.023979406475,
+      "H": 0.000007748869523185854,
+      "Hr": 0.004137443190449948,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.33927517314394845,
+        "w": 5.285853920274614e-7,
+        "H": -8.018546868925317e-8,
+        "Hr": 0.0024363768170509986
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3392823377542485,
+        "w": 3.122443575475567e-7,
+        "H": -5.4190873008229753e-8,
+        "Hr": 0.00412505329548084
+      }
+    },
+    {
+      "cell": 3,
+      "II": 30.29570586359454,
+      "Gamma": 2719.2586198283407,
+      "L": 2719.2586198283407,
+      "H": 8.023846991948091e-8,
+      "Hr": 0.0000878638712788517,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.32763749799589575,
+        "w": 5.6382759963719996e-8,
+        "H": 1.5547567959396141e-9,
+        "Hr": -0.000050202834300781053
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3276400212934011,
+        "w": 3.226914254251583e-8,
+        "H": 1.361333853346401e-9,
+        "Hr": -0.00008773152414060305
+      }
+    },
+    {
+      "cell": 4,
+      "II": 3.4656466295890067,
+      "Gamma": 1396.7729346530798,
+      "L": 1396.7729346530798,
+      "H": 1.550667296362028e-9,
+      "Hr": 0.0000034332777495935654,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.32338235499565654,
+        "w": 4.470031175219685e-9,
+        "H": -3.1889957795289323e-11,
+        "Hr": 0.000001885083530975091
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3233832457864274,
+        "w": 2.456409176780297e-9,
+        "H": -2.9243039987176094e-11,
+        "Hr": 0.0000034306841408304905
+      }
+    },
+    {
+      "cell": 5,
+      "II": 0.41695233670386833,
+      "Gamma": 846.9436380787517,
+      "L": 846.9436380787517,
+      "H": 3.20539838560775e-11,
+      "Hr": 1.4196493756737533e-7,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.3215750265426288,
+        "w": 3.1859476615427813e-10,
+        "H": 4.98086037164075e-13,
+        "Hr": -7.463474504619096e-8
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32157534133473314,
+        "w": 1.675636319240774e-10,
+        "H": 4.597572244735847e-13,
+        "Hr": -1.419112332195386e-7
+      }
+    },
+    {
+      "cell": 6,
+      "II": 0.03787709743538294,
+      "Gamma": 410.50608938161577,
+      "L": 410.50608938161577,
+      "H": 5.031634081871324e-13,
+      "Hr": 4.45440022209864e-9,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.3207204042372809,
+        "w": 2.1585745542784912e-11,
+        "H": -6.156838751928802e-15,
+        "Hr": 2.238345049681642e-9
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3207205155147421,
+        "w": 1.0849116939542477e-11,
+        "H": -5.735724314572903e-15,
+        "Hr": 4.453557032611574e-9
+      }
+    },
+    {
+      "cell": 7,
+      "II": 0.0026999533003992005,
+      "Gamma": 159.55580101518504,
+      "L": 159.55580101518504,
+      "H": 6.224801911173717e-15,
+      "Hr": 1.1016136884984148e-10,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.3203282111171473,
+        "w": 1.4380840125305376e-12,
+        "H": 6.405939610656184e-17,
+        "Hr": -5.28785012844913e-11
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3203282504570795,
+        "w": 6.90364700074103e-13,
+        "H": 6.041253691163899e-17,
+        "Hr": -1.1015093833005299e-10
+      }
+    },
+    {
+      "cell": 8,
+      "II": 0.00016101112220269837,
+      "Gamma": 51.82089615247973,
+      "L": 51.82089615247973,
+      "H": 6.467071213081064e-17,
+      "Hr": 2.2885251456244038e-12,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.84375,
+        "r": 0.32015050915880416,
+        "w": 9.629423263133574e-14,
+        "H": -5.9948452078275955e-19,
+        "Hr": 1.049457232234361e-12
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3201505230671605,
+        "w": 4.416025405319983e-14,
+        "H": -5.729511059807172e-19,
+        "Hr": 2.288416780836423e-12
+      }
+    },
+    {
+      "cell": 9,
+      "II": 0.000008656227483971225,
+      "Gamma": 14.849043425325986,
+      "L": 14.849043425325986,
+      "H": 6.038288988654007e-19,
+      "Hr": 4.274012678340895e-14,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32006989561826066,
+        "w": 4.4905330379596194e-15,
+        "H": 5.345872855344302e-21,
+        "Hr": -2.7393968614349092e-14
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200698995520824,
+        "w": 2.8782446437798522e-15,
+        "H": 5.194960142921888e-21,
+        "Hr": -4.273911478137871e-14
+      }
+    },
+    {
+      "cell": 10,
+      "II": 4.5038613770314785e-7,
+      "Gamma": 3.9731559981766202,
+      "L": 3.9731559981766202,
+      "H": 5.395611223333661e-21,
+      "Hr": 7.641122820897005e-16,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32003294312197633,
+        "w": 3.073223075352418e-16,
+        "H": -4.832030174875859e-23,
+        "Hr": 4.781613914176286e-16
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32003294451278286,
+        "w": 1.9231659359385345e-16,
+        "H": -4.737153211703346e-23,
+        "Hr": 7.641032353031198e-16
+      }
+    },
+    {
+      "cell": 11,
+      "II": 2.3564537268168445e-8,
+      "Gamma": 1.045501002423634,
+      "L": 1.045501002423634,
+      "H": 4.8618708058599927e-23,
+      "Hr": 1.3779021298956885e-17,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32001575026418544,
+        "w": 2.156251817912953e-17,
+        "H": 4.572214980364487e-25,
+        "Hr": -8.42185446452423e-18
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32001575075590816,
+        "w": 1.3179275137652341e-17,
+        "H": 4.5120433778085935e-25,
+        "Hr": -1.377893972785573e-17
+      }
+    },
+    {
+      "cell": 12,
+      "II": 1.2886604416704965e-9,
+      "Gamma": 0.2819696575308952,
+      "L": 0.2819696575308952,
+      "H": 4.590248294190109e-25,
+      "Hr": 2.603924420862211e-19,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.320007623106121,
+        "w": 1.546351660746739e-18,
+        "H": -4.63584921327444e-27,
+        "Hr": 1.5550471693187333e-19
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000762327997095,
+        "w": 9.234742881514866e-19,
+        "H": -4.595852710111228e-27,
+        "Hr": 2.603916713218716e-19
+      }
+    },
+    {
+      "cell": 13,
+      "II": 7.540600477990196e-11,
+      "Gamma": 0.08012308880845681,
+      "L": 0.08012308880845681,
+      "H": 4.647272561135502e-27,
+      "Hr": 5.277321709857111e-21,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200037254810504,
+        "w": 1.1284716611139945e-19,
+        "H": 5.08447972340842e-29,
+        "Hr": -3.0801901552981258e-21
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000372554251555,
+        "w": 6.586509094711048e-20,
+        "H": 5.055964882123781e-29,
+        "Hr": -5.277313899344173e-21
+      }
+    },
+    {
+      "cell": 14,
+      "II": 4.766198873802469e-12,
+      "Gamma": 0.02431885061322387,
+      "L": 0.02431885061322387,
+      "H": 5.09224668692126e-29,
+      "Hr": 1.1575967534465644e-22,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000183387347597,
+        "w": 8.342750526225708e-21,
+        "H": -6.023619044559904e-31,
+        "Hr": 6.604830280801805e-23
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200018338952072,
+        "w": 4.760076823713315e-21,
+        "H": -6.001614405061764e-31,
+        "Hr": 1.1575958968137807e-22
+      }
+    },
+    {
+      "cell": 15,
+      "II": 3.2494103653790405e-13,
+      "Gamma": 0.007901129642468991,
+      "L": 0.007901129642468991,
+      "H": 6.0293404932134285e-31,
+      "Hr": 2.7436296932045176e-24,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000090739597464,
+        "w": 6.224810726005848e-22,
+        "H": 7.643131745348476e-33,
+        "Hr": -1.5305070417428458e-24
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000090740365783,
+        "w": 3.4724512791236712e-22,
+        "H": 7.624782779838785e-33,
+        "Hr": -2.743628678041816e-24
+      }
+    },
+    {
+      "cell": 16,
+      "II": 2.369245589724657e-14,
+      "Gamma": 0.0027321032198990808,
+      "L": 0.0027321032198990808,
+      "H": 7.647690202227656e-33,
+      "Hr": 6.965381463215296e-26,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200004505822538,
+        "w": 4.673988437157632e-23,
+        "H": -1.0264211914097397e-34,
+        "Hr": 3.799311615962893e-26
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000045058497023,
+        "w": 2.5494572283972558e-23,
+        "H": -1.0247821689234274e-34,
+        "Hr": 6.965380174601524e-26
+      }
+    },
+    {
+      "cell": 17,
+      "II": 1.825747052751176e-15,
+      "Gamma": 0.0009955717270242193,
+      "L": 0.0009955717270242193,
+      "H": 1.026810577337675e-34,
+      "Hr": 1.8715581438232423e-27,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000022428365166,
+        "w": 3.524443128047996e-24,
+        "H": 1.4408506911945059e-36,
+        "Hr": -9.982596251234774e-28
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000022428461206,
+        "w": 1.8798826221063837e-24,
+        "H": 1.4393010948438844e-36,
+        "Hr": -1.871557970702014e-27
+      }
+    },
+    {
+      "cell": 18,
+      "II": 1.4686666087324212e-16,
+      "Gamma": 0.0003781175810187231,
+      "L": 0.0003781175810187231,
+      "H": 1.4412030161899937e-36,
+      "Hr": 5.256244169120929e-29,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000011181873844,
+        "w": 2.665069029762758e-25,
+        "H": -2.0906013050253354e-38,
+        "Hr": 2.7416732164248737e-29
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.320000111819078,
+        "w": 1.3901083197383828e-25,
+        "H": -2.0890699179348067e-38,
+        "Hr": 5.256243926021434e-29
+      }
+    },
+    {
+      "cell": 19,
+      "II": 1.2195910654525649e-17,
+      "Gamma": 0.00014815049574425836,
+      "L": 0.00014815049574425836,
+      "H": 2.0909347695827393e-38,
+      "Hr": 1.5257176714637979e-30,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000558064741,
+        "w": 2.0189148833319723e-26,
+        "H": 3.106455334953496e-40,
+        "Hr": -7.782644879131244e-31
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000558065942,
+        "w": 1.0298430878664083e-26,
+        "H": 3.104891124797488e-40,
+        "Hr": -1.525717636180957e-30
+      }
+    },
+    {
+      "cell": 20,
+      "II": 1.0359422593989304e-18,
+      "Gamma": 0.000059370632200409653,
+      "L": 0.000059370632200409653,
+      "H": 3.10678176198343e-40,
+      "Hr": 4.535068854618431e-32,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000278706584,
+        "w": 1.531221303353775e-27,
+        "H": -4.693548336785283e-42,
+        "Hr": 2.2623413022100533e-32
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000278707008,
+        "w": 7.638572539932399e-28,
+        "H": -4.691912151638483e-42,
+        "Hr": 4.5350688021798816e-32
+      }
+    },
+    {
+      "cell": 21,
+      "II": 8.937697968059479e-20,
+      "Gamma": 0.000024172734757906764,
+      "L": 0.000024172734757906764,
+      "H": 4.693875766440075e-42,
+      "Hr": 1.3706000223785402e-33,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000139250649,
+        "w": 1.1622088611192398e-28,
+        "H": 7.172957043736242e-44,
+        "Hr": -6.686694706267887e-34
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000139250799,
+        "w": 5.67002463344705e-29,
+        "H": 7.171216831075903e-44,
+        "Hr": -1.3706000144547262e-33
+      }
+    },
+    {
+      "cell": 22,
+      "II": 7.791800085906753e-21,
+      "Gamma": 0.000009949725772877363,
+      "L": 0.000009949725772877363,
+      "H": 7.173291189814421e-44,
+      "Hr": 4.1896646990482043e-35,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000695931186,
+        "w": 8.825462918478119e-30,
+        "H": -1.1046736117948052e-45,
+        "Hr": 1.9989868023824567e-35
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000069593172,
+        "w": 4.2108343324780286e-30,
+        "H": -1.104486401922756e-45,
+        "Hr": 4.189664686936748e-35
+      }
+    },
+    {
+      "cell": 23,
+      "II": 6.838816485505249e-22,
+      "Gamma": 0.000004125615067701817,
+      "L": 0.000004125615067701817,
+      "H": 1.1047081224514771e-45,
+      "Hr": 1.2905442142347198e-36,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000347864893,
+        "w": 6.70380684961055e-31,
+        "H": 1.709958207291448e-47,
+        "Hr": -6.021928262098215e-37
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000034786508,
+        "w": 3.128125604071273e-31,
+        "H": 1.709755254635727e-47,
+        "Hr": -1.2905442123683075e-36
+      }
+    },
+    {
+      "cell": 24,
+      "II": 6.027807605693088e-23,
+      "Gamma": 0.0000017190521842198563,
+      "L": 0.0000017190521842198563,
+      "H": 1.7099941442235928e-47,
+      "Hr": 3.9955148081350064e-38,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000173901055,
+        "w": 5.093163573099333e-32,
+        "H": -2.655771134786593e-49,
+        "Hr": 1.8233448038715235e-38
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000017390112,
+        "w": 2.3242545178420563e-32,
+        "H": -2.6555499877129773e-49,
+        "Hr": 3.9955148052472836e-38
+      }
+    },
+    {
+      "cell": 25,
+      "II": 5.326415748212494e-24,
+      "Gamma": 7.185951339074436e-7,
+      "L": 7.185951339074436e-7,
+      "H": 2.655808767948628e-49,
+      "Hr": 1.2411372148804729e-39,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000086940766,
+        "w": 3.869949133503287e-33,
+        "H": 4.1337183209515625e-51,
+        "Hr": -5.53923852674767e-40
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000008694079,
+        "w": 1.7271717493195978e-33,
+        "H": 4.133476536249969e-51,
+        "Hr": -1.241137214431795e-39
+      }
+    },
+    {
+      "cell": 26,
+      "II": 4.713253414185872e-25,
+      "Gamma": 3.0101496512627634e-7,
+      "L": 3.0101496512627634e-7,
+      "H": 4.13375788255281e-51,
+      "Hr": 3.863737911080869e-41,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000043467347,
+        "w": 2.9407261009318995e-34,
+        "H": -6.443180522527584e-53,
+        "Hr": 1.6864468354549817e-41
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000004346735,
+        "w": 1.2835700407267734e-34,
+        "H": -6.442915592577945e-53,
+        "Hr": 3.8637379103844914e-41
+      }
+    },
+    {
+      "cell": 27,
+      "II": 4.1734937202051004e-26,
+      "Gamma": 1.26263553843259e-7,
+      "L": 1.26263553843259e-7,
+      "H": 6.443222222394854e-53,
+      "Hr": 1.2044864528600388e-42,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000002173273,
+        "w": 2.2347238442289304e-35,
+        "H": 1.0051939603985849e-54,
+        "Hr": -5.141643576060658e-43
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000000021732733,
+        "w": 9.539462624812804e-36,
+        "H": 1.005164889841346e-54,
+        "Hr": -1.2044864527512373e-42
+      }
+    },
+    {
+      "cell": 28,
+      "II": 3.696324985023087e-27,
+      "Gamma": 5.3008283488667735e-8,
+      "L": 5.3008283488667735e-8,
+      "H": 1.0051983640183498e-54,
+      "Hr": 3.7582402113107526e-44,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000001086607,
+        "w": 1.6982651292085782e-36,
+        "H": -1.5690899389764146e-56,
+        "Hr": 1.5689887749246619e-44
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000001086607,
+        "w": 7.089911168250158e-37,
+        "H": -1.5690580105470717e-56,
+        "Hr": 3.7582402111411446e-44
+      }
+    },
+    {
+      "cell": 29,
+      "II": 3.273450700747505e-28,
+      "Gamma": 2.2266341342983478e-8,
+      "L": 2.2266341342983478e-8,
+      "H": 1.569094595616175e-56,
+      "Hr": 1.1733144015619082e-45,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000005432944,
+        "w": 1.2906094995553189e-37,
+        "H": 2.4502093617711282e-58,
+        "Hr": -4.7905467502533805e-46
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000000005432944,
+        "w": 5.269453043339365e-38,
+        "H": 2.450174273463999e-58,
+        "Hr": -1.1733144015351157e-45
+      }
+    },
+    {
+      "cell": 30,
+      "II": 2.8982110259734275e-29,
+      "Gamma": 9.356335629295398e-9,
+      "L": 9.356335629295398e-9,
+      "H": 2.4502142909407196e-58,
+      "Hr": 3.6643836261449543e-47,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000000271644,
+        "w": 9.808192982320697e-39,
+        "H": -3.826994400095407e-60,
+        "Hr": 1.4632113898916932e-47
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000000271644,
+        "w": 3.916473041683107e-39,
+        "H": -3.826955824092372e-60,
+        "Hr": 3.664383626102648e-47
+      }
+    },
+    {
+      "cell": 31,
+      "II": 2.5650613353881823e-30,
+      "Gamma": 3.9324077518642295e-9,
+      "L": 3.9324077518642295e-9,
+      "H": 3.82699962182946e-60,
+      "Hr": 1.1446857786392253e-48,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000001358203,
+        "w": 7.45394353394889e-40,
+        "H": 5.9782603582703936e-62,
+        "Hr": -4.470210069084365e-49
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000000001358203,
+        "w": 2.910903067187913e-40,
+        "H": 5.978217936963946e-62,
+        "Hr": -1.144685778632772e-48
+      }
+    },
+    {
+      "cell": 32,
+      "II": 2.2692600373922467e-31,
+      "Gamma": 1.6529949414366752e-9,
+      "L": 1.6529949414366752e-9,
+      "H": 5.978265893426963e-62,
+      "Hr": 3.5762982031139265e-50,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000000679096,
+        "w": 5.664805708455023e-41,
+        "H": -9.339655389339635e-64,
+        "Hr": 1.365874840678571e-50
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000000000679096,
+        "w": 2.1635264049850035e-41,
+        "H": -9.339608731348946e-64,
+        "Hr": 3.576298203103744e-50
+      }
+    },
+    {
+      "cell": 33,
+      "II": 2.0066768163780453e-32,
+      "Gamma": 6.948998349412844e-10,
+      "L": 6.948998349412844e-10,
+      "H": 9.339661259836802e-64,
+      "Hr": 1.117429200371548e-51,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.32000000000339546,
+        "w": 4.3051181261995763e-42,
+        "H": 1.4591879190391034e-65,
+        "Hr": -4.173810729972563e-52
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32000000000339546,
+        "w": 1.6080435541680617e-42,
+        "H": 1.4591827866467914e-65,
+        "Hr": -1.1174292003696e-51
+      }
+    },
+    {
+      "cell": 34,
+      "II": 1.773670826287438e-33,
+      "Gamma": 2.9214362344840124e-10,
+      "L": 2.9214362344840124e-10,
+      "H": 1.4591885419448503e-65,
+      "Hr": 3.491648736794947e-53,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000000016977,
+        "w": 3.2717931164136243e-43,
+        "H": -2.279852479314918e-67,
+        "Hr": 1.2754952561907312e-53
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000000016977,
+        "w": 1.1951822516535881e-43,
+        "H": -2.2798468331863435e-67,
+        "Hr": 3.491648736792697e-53
+      }
+    },
+    {
+      "cell": 35,
+      "II": 1.5670093035281325e-34,
+      "Gamma": 1.2282456942144314e-10,
+      "L": 1.2282456942144314e-10,
+      "H": 2.2798531405334076e-67,
+      "Hr": 1.0910789071302044e-54,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.875,
+        "r": 0.3200000000008488,
+        "w": 2.486491825553024e-44,
+        "H": 3.56214557634873e-69,
+        "Hr": -3.897983836299754e-55
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000000008488,
+        "w": 8.883230059498447e-45,
+        "H": 3.562139364662523e-69,
+        "Hr": -1.0910789071294808e-54
+      }
+    },
+    {
+      "cell": 36,
+      "II": 1.385426608608319e-35,
+      "Gamma": 5.163966856077319e-11,
+      "L": 5.163966856077319e-11,
+      "H": 3.562146278508869e-69,
+      "Hr": 3.409503386719543e-56,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000005305,
+        "w": 1.767644750425349e-45,
+        "H": 3.562146270105051e-69,
+        "Hr": 1.2735142778616208e-56
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32000000000046425,
+        "w": 6.6024889038610476e-46,
+        "H": 1.3010190573096173e-69,
+        "Hr": 3.409503386717298e-56
+      }
+    },
+    {
+      "cell": 37,
+      "II": 1.2246417587919524e-36,
+      "Gamma": 2.1711329768149114e-11,
+      "L": 2.1711329768149114e-11,
+      "H": 5.5657304642967336e-71,
+      "Hr": 1.0654464042012025e-57,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32000000000026524,
+        "w": 1.3433739034047897e-46,
+        "H": -5.56573045537701e-71,
+        "Hr": -3.892063209649592e-58
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000000002122,
+        "w": 4.907329102264851e-47,
+        "H": 8.696330972746966e-73,
+        "Hr": -1.0654464042010473e-57
+      }
+    },
+    {
+      "cell": 38,
+      "II": 1.0819976962748835e-37,
+      "Gamma": 9.128380790402767e-12,
+      "L": 9.128380790402767e-12,
+      "H": 8.696339284861318e-73,
+      "Hr": 3.3294764030710495e-59,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000001326,
+        "w": 1.0209355797975448e-47,
+        "H": 8.696339275390455e-73,
+        "Hr": 1.1894872598690917e-59
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32000000000010775,
+        "w": 3.647389914508635e-48,
+        "H": 4.1613462622731684e-74,
+        "Hr": 3.329476403071006e-59
+      }
+    },
+    {
+      "cell": 39,
+      "II": 9.555258627958444e-39,
+      "Gamma": 3.837977760965985e-12,
+      "L": 3.837977760965985e-12,
+      "H": 1.3587910262856413e-74,
+      "Hr": 1.0404522582166646e-60,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000000663,
+        "w": 7.75890197193539e-49,
+        "H": -1.3587910252796508e-74,
+        "Hr": -3.635311208362864e-61
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5,
+        "r": 0.3200000000000596,
+        "w": 2.710938736535829e-49,
+        "H": -6.687800156854892e-75,
+        "Hr": -1.0404522582166646e-60
+      }
+    },
+    {
+      "cell": 40,
+      "II": 8.434619286992251e-40,
+      "Gamma": 1.6136621971916411e-12,
+      "L": 1.6136621971916411e-12,
+      "H": 2.1230994691592856e-76,
+      "Hr": 3.2513957998608926e-62,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32000000000003315,
+        "w": 5.896607116291697e-50,
+        "H": 2.1230994680884543e-76,
+        "Hr": 1.1110276402504831e-62
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.625,
+        "r": 0.32000000000003065,
+        "w": 2.014917251900276e-50,
+        "H": 1.3144971707802443e-76,
+        "Hr": 3.251395799860884e-62
+      }
+    },
+    {
+      "cell": 41,
+      "II": 7.442226231911162e-41,
+      "Gamma": 6.784591405923844e-13,
+      "L": 6.784591405923844e-13,
+      "H": 3.317331880140055e-78,
+      "Hr": 1.0160578291331476e-63,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32000000000001655,
+        "w": 4.4813010535804693e-51,
+        "H": -3.317331879000913e-78,
+        "Hr": -3.395541435826033e-64
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.3200000000000133,
+        "w": 1.4975961975336762e-51,
+        "H": 5.183319275839867e-80,
+        "Hr": -1.0160578291331344e-63
+      }
+    },
+    {
+      "cell": 42,
+      "II": 6.563896851550248e-42,
+      "Gamma": 2.852563526032455e-13,
+      "L": 2.852563526032455e-13,
+      "H": 5.183320479590419e-80,
+      "Hr": 3.175174278488723e-65,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000000083,
+        "w": 3.405697340227958e-52,
+        "H": 5.183320478381669e-80,
+        "Hr": 1.0377524336496168e-65
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.3125,
+        "r": 0.3200000000000071,
+        "w": 1.1130950282130936e-52,
+        "H": 1.564107523986925e-80,
+        "Hr": 3.175174278488723e-65
+      }
+    },
+    {
+      "cell": 43,
+      "II": 5.786939831305069e-43,
+      "Gamma": 1.1993537347647303e-13,
+      "L": 1.1993537347647303e-13,
+      "H": 8.098928109432495e-82,
+      "Hr": 9.922407286277489e-67,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000000041,
+        "w": 2.5882604740350326e-53,
+        "H": -8.098928108143688e-82,
+        "Hr": -3.171603052671203e-67
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.3200000000000041,
+        "w": 8.273128267886453e-54,
+        "H": -8.098928094633416e-82,
+        "Hr": -9.922407286277489e-67
+      }
+    },
+    {
+      "cell": 44,
+      "II": 5.100010158275529e-44,
+      "Gamma": 5.042657450769326e-14,
+      "L": 5.042657450769326e-14,
+      "H": 1.2654565458674319e-83,
+      "Hr": 3.1007499146121353e-68,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32000000000000206,
+        "w": 1.9670251401390713e-54,
+        "H": 1.2654565457307953e-83,
+        "Hr": 9.693131461737468e-69
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.320000000000002,
+        "w": 6.1490393604647264e-55,
+        "H": 1.2654565442439429e-83,
+        "Hr": 3.1007499146121353e-68
+      }
+    },
+    {
+      "cell": 45,
+      "II": 4.4929766239762924e-45,
+      "Gamma": 2.1201753004692435e-14,
+      "L": 2.1201753004692435e-14,
+      "H": 1.977274922796575e-85,
+      "Hr": 9.689838959364885e-70,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.320000000000001,
+        "w": 1.4948989653009693e-55,
+        "H": -1.9772749226513604e-85,
+        "Hr": -2.962439614692425e-70
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.3200000000000009,
+        "w": 4.570300841265399e-56,
+        "H": -7.221687766225035e-86,
+        "Hr": -9.689838959364885e-70
+      }
+    },
+    {
+      "cell": 46,
+      "II": 3.956800834011633e-46,
+      "Gamma": 8.914236509132896e-15,
+      "L": 8.914236509132896e-15,
+      "H": 3.089491176041898e-87,
+      "Hr": 3.0280738084582547e-71,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000000005,
+        "w": 1.1360927076732751e-56,
+        "H": 3.0894911758845453e-87,
+        "Hr": 9.053885312230677e-72
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.3200000000000004,
+        "w": 3.396896419963621e-57,
+        "H": 5.400575476885696e-88,
+        "Hr": 3.0280738084582547e-71
+      }
+    },
+    {
+      "cell": 47,
+      "II": 3.4834268928460434e-47,
+      "Gamma": 3.7479741082419644e-15,
+      "L": 3.7479741082419644e-15,
+      "H": 4.8273291090209684e-89,
+      "Hr": 9.462728991697355e-73,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32000000000000023,
+        "w": 8.634072742164648e-58,
+        "H": -4.827329108853035e-89,
+        "Hr": -2.7670723789912926e-73
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32000000000000023,
+        "w": 2.524758367697466e-58,
+        "H": -3.908062335512815e-89,
+        "Hr": -9.462728991697354e-73
+      }
+    },
+    {
+      "cell": 48,
+      "II": 3.0656810115189555e-48,
+      "Gamma": 1.575828827377495e-15,
+      "L": 1.575828827377495e-15,
+      "H": 7.542700914488105e-91,
+      "Hr": 2.9571024917384147e-74,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.3200000000000001,
+        "w": 6.561719094838967e-59,
+        "H": 7.542700914308671e-91,
+        "Hr": 8.456800374310832e-75
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32000000000000006,
+        "w": 1.876537883026054e-59,
+        "H": 2.7548536597856733e-91,
+        "Hr": 2.9571024917384147e-74
+      }
+    },
+    {
+      "cell": 49,
+      "II": 2.6971803309611493e-49,
+      "Gamma": 6.625543624853682e-16,
+      "L": 6.625543624853682e-16,
+      "H": 1.1785469393460466e-92,
+      "Hr": 9.240944676151732e-76,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 4.986772612696925e-60,
+        "H": -1.1785469393270206e-92,
+        "Hr": -2.5845899834077105e-76
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.32,
+        "w": 1.3947451257414175e-60,
+        "H": -1.1785469390870531e-92,
+        "Hr": -9.240944676151732e-76
+      }
+    },
+    {
+      "cell": 50,
+      "II": 2.372250283428144e-50,
+      "Gamma": 2.785697829238707e-16,
+      "L": 2.785697829238707e-16,
+      "H": 1.8414795172460565e-94,
+      "Hr": 2.8877950939937708e-77,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 3.789845425290781e-61,
+        "H": 1.8414795172259062e-94,
+        "Hr": 7.899093341053611e-78
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 1.0366505166796806e-61,
+        "H": -2.8773116451133634e-96,
+        "Hr": 2.8877950939937708e-77
+      }
+    },
+    {
+      "cell": 51,
+      "II": 2.0858498394949483e-51,
+      "Gamma": 1.1712416302153772e-16,
+      "L": 1.1712416302153772e-16,
+      "H": 2.877311673017529e-96,
+      "Hr": 9.024359442928916e-79,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 2.8802051876584e-62,
+        "H": -2.8773116729962667e-96,
+        "Hr": -2.4141421650872633e-79
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 7.704951062292228e-63,
+        "H": -5.029675686026301e-97,
+        "Hr": -9.024359442928916e-79
+      }
+    },
+    {
+      "cell": 52,
+      "II": 1.8335040142977094e-52,
+      "Gamma": 4.9244643658009607e-17,
+      "L": 4.9244643658009607e-17,
+      "H": 4.495799418927921e-98,
+      "Hr": 2.820112282338878e-80,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 2.1888971692954708e-63,
+        "H": 4.495799418905176e-98,
+        "Hr": 7.378166325418017e-81
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32,
+        "w": 5.726739139232716e-64,
+        "H": 3.639665740431572e-98,
+        "Hr": 2.820112282338878e-80
+      }
+    },
+    {
+      "cell": 53,
+      "II": 1.611243034698347e-53,
+      "Gamma": 2.0704821964962018e-17,
+      "L": 2.0704821964962018e-17,
+      "H": 7.024686524106124e-100,
+      "Hr": 8.812850797921446e-82,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.6635171822036615e-64,
+        "H": -7.024686524081567e-100,
+        "Hr": -2.2549350834731986e-82
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.32,
+        "w": 4.256424330928822e-65,
+        "H": -7.024686523729577e-100,
+        "Hr": -8.812850797921446e-82
+      }
+    },
+    {
+      "cell": 54,
+      "II": 1.415547599724096e-54,
+      "Gamma": 8.705305233092175e-18,
+      "L": 8.705305233092175e-18,
+      "H": 1.0976072627760787e-101,
+      "Hr": 2.7540158579321755e-83,
+      "IIWhere": {
+        "segment": 5,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.2642391129114623e-65,
+        "H": 1.0976072627734583e-101,
+        "Hr": 6.891593418732337e-84
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.625,
+        "r": 0.32,
+        "w": 3.163606311543327e-66,
+        "H": 6.795732466934055e-102,
+        "Hr": 2.7540158579321755e-83
+      }
+    },
+    {
+      "cell": 55,
+      "II": 1.2456456509373405e-55,
+      "Gamma": 3.660129968599032e-18,
+      "L": 3.660129968599032e-18,
+      "H": 1.715011341606271e-103,
+      "Hr": 8.606299523887969e-85,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.8827241460747908e-67,
+        "H": 2.679705213117005e-105,
+        "Hr": -7.019938710570429e-85
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 2.351364459110253e-67,
+        "H": -7.352441201246918e-104,
+        "Hr": -8.606299523887969e-85
+      }
+    },
+    {
+      "cell": 56,
+      "II": 1.1141920265212804e-56,
+      "Gamma": 1.5388950813970102e-18,
+      "L": 1.5388950813970102e-18,
+      "H": 2.679705214857531e-105,
+      "Hr": 2.689468594865535e-86,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.149196474632835e-68,
+        "H": -4.187039389912852e-107,
+        "Hr": 2.1869951686847846e-86
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 1.7476620904032218e-68,
+        "H": 1.999311312638614e-105,
+        "Hr": 2.689468594865535e-86
+      }
+    },
+    {
+      "cell": 57,
+      "II": 9.963904322318634e-58,
+      "Gamma": 6.470256777377097e-19,
+      "L": 6.470256777377097e-19,
+      "H": 4.187039391813922e-107,
+      "Hr": 8.404589346268901e-88,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.6023196298227845e-69,
+        "H": 6.542249041129448e-109,
+        "Hr": -6.813375542326952e-88
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.2989576202995765e-69,
+        "H": -2.0035637725562044e-108,
+        "Hr": -8.404589346268901e-88
+      }
+    },
+    {
+      "cell": 58,
+      "II": 8.908525278404998e-59,
+      "Gamma": 2.7204078623080175e-19,
+      "L": 2.7204078623080175e-19,
+      "H": 6.542249043205304e-109,
+      "Hr": 2.6264341681306738e-89,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.1945991101497553e-70,
+        "H": -1.0222264120977498e-110,
+        "Hr": 2.1226423802840717e-89
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 9.654560275761015e-71,
+        "H": 1.1436157996367788e-109,
+        "Hr": 2.6264341681306738e-89
+      }
+    },
+    {
+      "cell": 59,
+      "II": 7.963271515869825e-60,
+      "Gamma": 1.1437906089871201e-19,
+      "L": 1.1437906089871201e-19,
+      "H": 1.0222264123240469e-110,
+      "Hr": 8.207606770044372e-91,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 8.906256950339647e-72,
+        "H": 1.5972287682841506e-112,
+        "Hr": -6.612890553392533e-91
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 7.175794857515565e-72,
+        "H": -1.138025498207516e-111,
+        "Hr": -8.207606770044372e-91
+      }
+    },
+    {
+      "cell": 60,
+      "II": 7.116873224508799e-61,
+      "Gamma": 4.8090471123725336e-20,
+      "L": 4.8090471123725336e-20,
+      "H": 1.5972287685307418e-112,
+      "Hr": 2.56487711448829e-92,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.640002674688461e-73,
+        "H": -2.49566994976089e-114,
+        "Hr": 2.0601831889487085e-92
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32,
+        "w": 5.3334414376799374e-73,
+        "H": 1.2930689932703658e-112,
+        "Hr": 2.56487711448829e-92
+      }
+    },
+    {
+      "cell": 61,
+      "II": 6.359183944572251e-62,
+      "Gamma": 2.0219552381622086e-20,
+      "L": 2.0219552381622086e-20,
+      "H": 2.4956699500302866e-114,
+      "Hr": 8.015240980240797e-94,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.950411353031285e-74,
+        "H": 3.899484295700268e-116,
+        "Hr": -6.418304882440525e-94
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 3.964104065689347e-74,
+        "H": -9.115044544132698e-115,
+        "Hr": -8.015240980240797e-94
+      }
+    },
+    {
+      "cell": 62,
+      "II": 5.68107272732594e-63,
+      "Gamma": 8.501274555904997e-21,
+      "L": 8.501274555904997e-21,
+      "H": 3.8994842959948536e-116,
+      "Hr": 2.5047628057360602e-95,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.6907473934733975e-75,
+        "H": -6.092944211036554e-118,
+        "Hr": 1.9995618733460203e-95
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.3125,
+        "r": 0.32,
+        "w": 2.9463379746937464e-75,
+        "H": 1.1766998510484756e-116,
+        "Hr": 2.5047628057360602e-95
+      }
+    },
+    {
+      "cell": 63,
+      "II": 5.074326062594381e-64,
+      "Gamma": 3.574345648926043e-21,
+      "L": 3.574345648926043e-21,
+      "H": 6.092944211359001e-118,
+      "Hr": 7.827383766484193e-97,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.7516130177962693e-76,
+        "H": 9.520225328437063e-120,
+        "Hr": -6.229444937215664e-97
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.32,
+        "w": 2.189878801686673e-76,
+        "H": -6.092944211348957e-118,
+        "Hr": -7.827383766484193e-97
+      }
+    },
+    {
+      "cell": 64,
+      "II": 4.531558774562652e-65,
+      "Gamma": 1.502827221304561e-21,
+      "L": 1.502827221304561e-21,
+      "H": 9.520225328789358e-120,
+      "Hr": 2.4460574266547664e-98,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.051447414987246e-77,
+        "H": -1.4875352073880843e-121,
+        "Hr": 1.940724352886529e-98
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.6276371574713674e-77,
+        "H": 1.05986883545683e-120,
+        "Hr": 2.4460574266547664e-98
+      }
+    },
+    {
+      "cell": 65,
+      "II": 4.046133139349826e-66,
+      "Gamma": 6.318610114880698e-22,
+      "L": 6.318610114880698e-22,
+      "H": 1.4875352074265575e-121,
+      "Hr": 7.643929457289973e-100,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.529443446168476e-78,
+        "H": 2.3242737612850333e-123,
+        "Hr": -6.046142235661673e-100
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5,
+        "r": 0.32,
+        "w": 1.2097485551906706e-78,
+        "H": -7.321462349066049e-122,
+        "Hr": -7.643929457289973e-100
+      }
+    },
+    {
+      "cell": 66,
+      "II": 3.612085528561431e-67,
+      "Gamma": 2.656648297182276e-22,
+      "L": 2.656648297182276e-22,
+      "H": 2.3242737613270472e-123,
+      "Hr": 2.3887279551200535e-101,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.1402667394442136e-79,
+        "H": -3.631677751626328e-125,
+        "Hr": 1.8836181387615832e-101
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 8.991509932472416e-80,
+        "H": 1.7341261266153808e-123,
+        "Hr": 2.3887279551200535e-101
+      }
+    },
+    {
+      "cell": 67,
+      "II": 3.2240599322716443e-68,
+      "Gamma": 1.1169830147248606e-22,
+      "L": 1.1169830147248606e-22,
+      "H": 3.6316777516721575e-125,
+      "Hr": 7.464774858927971e-103,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 8.501185449766729e-81,
+        "H": 5.674496486332568e-127,
+        "Hr": -5.868233254212901e-103
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.875,
+        "r": 0.32,
+        "w": 6.682979741430239e-81,
+        "H": -3.1706249121040354e-125,
+        "Hr": -7.464774858927971e-103
+      }
+    },
+    {
+      "cell": 68,
+      "II": 2.8772477623198017e-69,
+      "Gamma": 4.696335064406726e-23,
+      "L": 4.696335064406726e-23,
+      "H": 5.674496486381919e-127,
+      "Hr": 2.332742143166475e-104,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.338004218795852e-82,
+        "H": -8.866400759008511e-129,
+        "Hr": 1.828192286819718e-104
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 4.9671544112051053e-82,
+        "H": 2.0725211776493055e-127,
+        "Hr": 2.332742143166475e-104
+      }
+    },
+    {
+      "cell": 69,
+      "II": 2.5673333820476962e-70,
+      "Gamma": 1.9745656600435482e-23,
+      "L": 1.9745656600435482e-23,
+      "H": 8.866400759064455e-129,
+      "Hr": 7.289819196651565e-106,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.7252583436556216e-83,
+        "H": 1.3853751184598515e-130,
+        "Hr": -5.695559281326191e-106
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 3.691859604451336e-83,
+        "H": -4.242711300868419e-130,
+        "Hr": -7.289819196651565e-106
+      }
+    },
+    {
+      "cell": 70,
+      "II": 2.290444851487966e-71,
+      "Gamma": 8.302025925241883e-24,
+      "L": 8.302025925241883e-24,
+      "H": 1.3853751184657577e-130,
+      "Hr": 2.2780684987267208e-107,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.5228860132455305e-84,
+        "H": -2.1646486223844386e-132,
+        "Hr": 1.7743973520207923e-107
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 2.7439910682528544e-84,
+        "H": -2.16464862237238e-132,
+        "Hr": 2.2780684987267208e-107
+      }
+    },
+    {
+      "cell": 71,
+      "II": 2.0431094177217922e-72,
+      "Gamma": 3.4905719195982685e-24,
+      "L": 3.4905719195982685e-24,
+      "H": 2.16464862239096e-132,
+      "Hr": 7.118964057825112e-109,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.6264650437544696e-85,
+        "H": 3.382263472152075e-134,
+        "Hr": -5.527966275739561e-109
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 2.039483563668955e-85,
+        "H": -3.7839072598711684e-133,
+        "Hr": -7.118964057825112e-109
+      }
+    },
+    {
+      "cell": 72,
+      "II": 1.8222133181264103e-73,
+      "Gamma": 1.467604707046376e-24,
+      "L": 1.467604707046376e-24,
+      "H": 3.3822634721593806e-134,
+      "Hr": 2.2246762678559802e-110,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.9581441466250994e-86,
+        "H": -5.284786674735581e-136,
+        "Hr": 1.7221853442777595e-110
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5625,
+        "r": 0.32,
+        "w": 1.5158552280288594e-86,
+        "H": 1.8794022613876507e-134,
+        "Hr": 2.2246762678559802e-110
+      }
+    },
+    {
+      "cell": 73,
+      "II": 1.6249655000335336e-74,
+      "Gamma": 6.17051768523451e-25,
+      "L": 6.17051768523451e-25,
+      "H": 5.2847866747442926e-136,
+      "Hr": 6.952113336385968e-112,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.4598817936221858e-87,
+        "H": 8.257479178494138e-138,
+        "Hr": -5.365304728909101e-112
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.126666139053721e-87,
+        "H": -2.528852998732691e-137,
+        "Hr": -6.952113336385968e-112
+      }
+    },
+    {
+      "cell": 74,
+      "II": 1.4488648936203598e-75,
+      "Gamma": 2.5943831006400184e-25,
+      "L": 2.5943831006400184e-25,
+      "H": 8.257479178503056e-138,
+      "Hr": 2.172535417414112e-113,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.088405496103374e-88,
+        "H": -1.290231121517875e-139,
+        "Hr": 1.6715096856281195e-113
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 8.37399617997111e-89,
+        "H": 6.160853605839007e-138,
+        "Hr": 2.172535417414112e-113
+      }
+    },
+    {
+      "cell": 75,
+      "II": 1.2916709058732456e-76,
+      "Gamma": 1.090803724458395e-25,
+      "L": 1.090803724458395e-25,
+      "H": 1.2902311215190484e-139,
+      "Hr": 6.789173178776867e-115,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 8.11453728050723e-90,
+        "H": 2.0159861271820013e-141,
+        "Hr": -5.207429531626335e-115
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 6.224009898891901e-90,
+        "H": -9.626333758212811e-140,
+        "Hr": -6.789173178776867e-115
+      }
+    },
+    {
+      "cell": 76,
+      "II": 1.1513768322275791e-77,
+      "Gamma": 4.5862647077792606e-26,
+      "L": 4.5862647077792606e-26,
+      "H": 2.015986127183262e-141,
+      "Hr": 2.121616618167555e-116,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.049741159198247e-91,
+        "H": -3.149978323425863e-143,
+        "Hr": 1.6223251686795723e-116
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 4.6260230347561743e-91,
+        "H": 1.5041146495788064e-141,
+        "Hr": 2.121616618167555e-116
+      }
+    },
+    {
+      "cell": 77,
+      "II": 1.0261859091140843e-78,
+      "Gamma": 1.9282867759065147e-26,
+      "L": 1.9282867759065147e-26,
+      "H": 3.1499783234271164e-143,
+      "Hr": 6.630051931149443e-118,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.5103456707527204e-92,
+        "H": 4.92184112988983e-145,
+        "Hr": -5.054199844562024e-118
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 3.438312191936503e-92,
+        "H": -2.3501791397454964e-143,
+        "Hr": -6.630051931149066e-118
+      }
+    },
+    {
+      "cell": 78,
+      "II": 9.144897552162896e-80,
+      "Gamma": 8.107447186440653e-27,
+      "L": 8.107447186440653e-27,
+      "H": 4.921841129891229e-145,
+      "Hr": 2.071891228289031e-119,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.3626592500982035e-93,
+        "H": -7.690376764730168e-147,
+        "Hr": 1.5745879162785223e-119
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 2.5555408264072734e-93,
+        "H": 3.359733349410109e-145,
+        "Hr": 2.071891228289031e-119
+      }
+    },
+    {
+      "cell": 79,
+      "II": 8.148489718884515e-81,
+      "Gamma": 3.408761637647956e-27,
+      "L": 3.408761637647956e-27,
+      "H": 7.690376764731917e-147,
+      "Hr": 6.4746600877944206e-121,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.5070090094411616e-94,
+        "H": 1.201621369376305e-148,
+        "Hr": -4.905478972618168e-121
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 1.8994170834021242e-94,
+        "H": -5.737742039314258e-147,
+        "Hr": -6.4746600877944206e-121
+      }
+    },
+    {
+      "cell": 80,
+      "II": 7.259756940116653e-82,
+      "Gamma": 1.433207720641705e-27,
+      "L": 1.433207720641705e-27,
+      "H": 1.2016213693765098e-148,
+      "Hr": 2.0233312772457362e-122,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.8690844673706525e-95,
+        "H": -1.877533389474252e-150,
+        "Hr": 1.5282553423675476e-122
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 1.4117501937121718e-95,
+        "H": 8.965221935586545e-149,
+        "Hr": 2.023331277245621e-122
+      }
+    },
+    {
+      "cell": 81,
+      "II": 6.467179016798141e-83,
+      "Gamma": 6.025896172441991e-28,
+      "L": 6.025896172441991e-28,
+      "H": 1.8775333894745722e-150,
+      "Hr": 6.32291024079947e-124,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.3934839216813049e-96,
+        "H": 2.933645920778001e-152,
+        "Hr": -4.761134242979212e-124
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 1.0492896093556527e-96,
+        "H": -1.2816365617612131e-150,
+        "Hr": -6.32291024079947e-124
+      }
+    },
+    {
+      "cell": 82,
+      "II": 5.760453206293183e-84,
+      "Gamma": 2.5335772448107626e-28,
+      "L": 2.5335772448107626e-28,
+      "H": 2.9336459207785013e-152,
+      "Hr": 1.9759094500642678e-125,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.0389029890746171e-97,
+        "H": -4.583821750785911e-154,
+        "Hr": 1.4832861139916316e-125
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 7.798891682151328e-98,
+        "H": 2.188774886206809e-152,
+        "Hr": 1.9759094500641555e-125
+      }
+    },
+    {
+      "cell": 83,
+      "II": 5.130367553581367e-85,
+      "Gamma": 1.0652380113650167e-28,
+      "L": 1.0652380113650167e-28,
+      "H": 4.5838217507864324e-154,
+      "Hr": 6.174717030871642e-127,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.745474518327145e-99,
+        "H": 7.16222148493115e-156,
+        "Hr": -4.6210368867562444e-127
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32,
+        "w": 5.796560923468564e-99,
+        "H": -3.71092600722961e-154,
+        "Hr": -6.174717030871642e-127
+      }
+    },
+    {
+      "cell": 84,
+      "II": 4.568687135374133e-86,
+      "Gamma": 4.478774125324109e-29,
+      "L": 4.478774125324109e-29,
+      "H": 7.162221484931965e-156,
+      "Hr": 1.9295990719664996e-128,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.774588786917976e-100,
+        "H": -1.1190971069155178e-157,
+        "Hr": 1.439640114427871e-128
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 4.308319682959633e-100,
+        "H": 5.343688686025837e-156,
+        "Hr": 1.9295990719664996e-128
+      }
+    },
+    {
+      "cell": 85,
+      "II": 4.068051936896004e-87,
+      "Gamma": 1.8830925531814175e-29,
+      "L": 1.8830925531814175e-29,
+      "H": 1.1190971069156449e-157,
+      "Hr": 6.029997099329007e-130,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.305207586584483e-101,
+        "H": 1.7485892293913745e-159,
+        "Hr": -4.485061924109638e-130
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 3.202177762926097e-101,
+        "H": -4.797691698602248e-158,
+        "Hr": -6.029997099329007e-130
+      }
+    },
+    {
+      "cell": 86,
+      "II": 3.6218852030187286e-88,
+      "Gamma": 7.917428887063487e-30,
+      "L": 7.917428887063487e-30,
+      "H": 1.748589229391573e-159,
+      "Hr": 1.8843740933636656e-131,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.209719868810948e-102,
+        "H": -2.732170670667582e-161,
+        "Hr": 1.3972784073952102e-131
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32,
+        "w": 2.3800328619844562e-102,
+        "H": 1.4156059288731055e-159,
+        "Hr": 1.8843740933636656e-131
+      }
+    },
+    {
+      "cell": 87,
+      "II": 3.224311216440615e-89,
+      "Gamma": 3.328868784266198e-30,
+      "L": 3.328868784266198e-30,
+      "H": 2.7321706706678926e-161,
+      "Hr": 5.8886690412084224e-133,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.392986035875134e-103,
+        "H": 4.269016672518136e-163,
+        "Hr": -4.353088052759667e-133
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 1.768970008382691e-103,
+        "H": 4.2690166725178936e-163,
+        "Hr": -5.8886690412084224e-133
+      }
+    },
+    {
+      "cell": 88,
+      "II": 2.870081556629894e-90,
+      "Gamma": 1.3996169136385423e-30,
+      "L": 1.3996169136385423e-30,
+      "H": 4.269016672518379e-163,
+      "Hr": 1.8402090752051232e-134,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.7840753716662848e-104,
+        "H": -6.67033855018427e-165,
+        "Hr": 1.356163202321664e-134
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 1.314794825121959e-104,
+        "H": -6.67033855018427e-165,
+        "Hr": 1.8402090752051232e-134
+      }
+    },
+    {
+      "cell": 89,
+      "II": 2.554508985004616e-91,
+      "Gamma": 5.884664226484313e-31,
+      "L": 5.884664226484313e-31,
+      "H": 6.670338550184649e-165,
+      "Hr": 5.750653359477247e-136,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.3301059362938234e-105,
+        "H": 1.0422403983685864e-166,
+        "Hr": -4.224997539770398e-136
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 9.772271005023492e-106,
+        "H": -4.976697902679044e-165,
+        "Hr": -5.750653359477247e-136
+      }
+    },
+    {
+      "cell": 90,
+      "II": 2.273408185165339e-92,
+      "Gamma": 2.474196526279151e-31,
+      "L": 2.474196526279151e-31,
+      "H": 1.0422403983686457e-166,
+      "Hr": 1.7970791746679699e-137,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 9.91651939072448e-107,
+        "H": -1.6285006222980657e-168,
+        "Hr": 1.3162578206299065e-137
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 7.263283880567802e-107,
+        "H": 7.114512094336945e-167,
+        "Hr": 1.7970791746679699e-137
+      }
+    },
+    {
+      "cell": 91,
+      "II": 2.023042662591492e-93,
+      "Gamma": 1.0402714946930205e-31,
+      "L": 1.0402714946930205e-31,
+      "H": 1.6285006222981584e-168,
+      "Hr": 5.6158724203106314e-139,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.39319734942463e-108,
+        "H": 2.544532222102188e-170,
+        "Hr": -4.100676116520398e-139
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 5.3984680431600705e-108,
+        "H": -1.1116425146358093e-168,
+        "Hr": -5.6158724203106314e-139
+      }
+    },
+    {
+      "cell": 92,
+      "II": 1.800077176721749e-94,
+      "Gamma": 4.373802853480183e-32,
+      "L": 4.373802853480183e-32,
+      "H": 2.5445322221023325e-170,
+      "Hr": 1.7549601311826548e-140,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.511950805911511e-109,
+        "H": -3.9758315966612725e-172,
+        "Hr": 1.2775266630174804e-140
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.8125,
+        "r": 0.32,
+        "w": 4.0124353794002835e-109,
+        "H": 2.059977746214338e-170,
+        "Hr": 1.7549601311826548e-140
+      }
+    },
+    {
+      "cell": 93,
+      "II": 1.6015351404027194e-95,
+      "Gamma": 1.8389575700862323e-32,
+      "L": 1.8389575700862323e-32,
+      "H": 3.975831596661725e-172,
+      "Hr": 5.484250409430745e-142,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.1093995264647435e-110,
+        "H": 6.212236869201219e-174,
+        "Hr": -3.98001287676881e-142
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 2.982260438544769e-110,
+        "H": 6.212236869201219e-174,
+        "Hr": -5.484250409430745e-142
+      }
+    },
+    {
+      "cell": 94,
+      "II": 1.4247604778442749e-96,
+      "Gamma": 7.731864141720878e-33,
+      "L": 7.731864141720878e-33,
+      "H": 6.212236869201573e-174,
+      "Hr": 1.7138282527864464e-143,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.0637364270376406e-111,
+        "H": -9.706620107216948e-176,
+        "Hr": 1.239935177699457e-143
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 2.2165783326929378e-111,
+        "H": -9.706620107216948e-176,
+        "Hr": 1.7138282527864464e-143
+      }
+    },
+    {
+      "cell": 95,
+      "II": 1.2673834830219497e-97,
+      "Gamma": 3.250848419696696e-33,
+      "L": 3.250848419696696e-33,
+      "H": 9.7066201072175e-176,
+      "Hr": 5.355713289455579e-145,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.284149018343584e-112,
+        "H": 1.516659391610295e-177,
+        "Hr": -3.862900177711668e-145
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 1.6474817026243934e-112,
+        "H": -7.24204859562253e-176,
+        "Hr": -5.355713289455579e-145
+      }
+    },
+    {
+      "cell": 96,
+      "II": 1.1272902663636209e-98,
+      "Gamma": 1.3668133911996453e-33,
+      "L": 1.3668133911996453e-33,
+      "H": 1.5166593916103813e-177,
+      "Hr": 1.673660402797687e-146,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.7029326321797226e-113,
+        "H": -2.3697802991686594e-179,
+        "Hr": 1.2034498295831535e-146
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 1.2244981016236223e-113,
+        "H": 1.0352977682971363e-177,
+        "Hr": 1.673660402797687e-146
+      }
+    },
+    {
+      "cell": 97,
+      "II": 1.0025954190295346e-99,
+      "Gamma": 5.746742404363273e-34,
+      "L": 5.746742404363273e-34,
+      "H": 2.369780299168794e-179,
+      "Hr": 5.230188758251878e-148,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.2696104879557688e-114,
+        "H": 3.7027817171036986e-181,
+        "Hr": -3.7492335439573937e-148
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 9.101136592238678e-115,
+        "H": -1.0159507337275494e-179,
+        "Hr": -5.230188758251878e-148
+      }
+    },
+    {
+      "cell": 98,
+      "II": 8.916175615246505e-101,
+      "Gamma": 2.4162075433810658e-34,
+      "L": 2.4162075433810658e-34,
+      "H": 3.702781717103909e-181,
+      "Hr": 1.6344339868004004e-149,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 9.465499460562252e-116,
+        "H": -5.785596432432481e-183,
+        "Hr": 1.1680380703537466e-149
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 6.7644602438139e-116,
+        "H": 1.5874230213003913e-181,
+        "Hr": 1.6344339868004004e-149
+      }
+    },
+    {
+      "cell": 99,
+      "II": 7.928574771454495e-102,
+      "Gamma": 1.01589013077382e-34,
+      "L": 1.01589013077382e-34,
+      "H": 5.785596432431823e-183,
+      "Hr": 5.1076062082721526e-151,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.056942336870932e-117,
+        "H": 9.039994424826747e-185,
+        "Hr": -3.6389115743249556e-151
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.25,
+        "r": 0.32,
+        "w": 5.027715156934939e-117,
+        "H": -1.3785991499217066e-183,
+        "Hr": -5.1076062082721526e-151
+      }
+    },
+    {
+      "cell": 100,
+      "II": 7.049785612218476e-103,
+      "Gamma": 4.2712918458956774e-35,
+      "L": 4.2712918458956774e-35,
+      "H": 9.039994424826234e-185,
+      "Hr": 1.5961269399352389e-152,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.261258040679122e-118,
+        "H": -1.4124991287466025e-186,
+        "Hr": 1.1336683094366794e-152
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 3.736871648021416e-118,
+        "H": 3.875544484869364e-185,
+        "Hr": 1.5961269399352389e-152
+      }
+    },
+    {
+      "cell": 101,
+      "II": 6.267893445463621e-104,
+      "Gamma": 1.795857000689429e-35,
+      "L": 1.795857000689429e-35,
+      "H": 1.412499128746442e-186,
+      "Hr": 4.987896686829468e-154,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.9224971452553103e-119,
+        "H": 2.2070298884594153e-188,
+        "Hr": -3.5318358513825086e-154
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.3125,
+        "r": 0.32,
+        "w": 2.7774464697994815e-119,
+        "H": -4.262326472501346e-187,
+        "Hr": -4.987896686829468e-154
+      }
+    },
+    {
+      "cell": 102,
+      "II": 5.572278741097127e-105,
+      "Gamma": 7.55064857023215e-36,
+      "L": 7.55064857023215e-36,
+      "H": 2.20702988845929e-188,
+      "Hr": 1.558717714487911e-155,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.9243925569843437e-120,
+        "H": -3.448484200394163e-190,
+        "Hr": 1.1003098858172781e-155
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 2.064349439640297e-120,
+        "H": 1.0560982865000932e-189,
+        "Hr": 1.558717714487911e-155
+      }
+    },
+    {
+      "cell": 103,
+      "II": 4.953477565146381e-106,
+      "Gamma": 3.174656657476231e-36,
+      "L": 3.174656657476231e-36,
+      "H": 3.448484200393771e-190,
+      "Hr": 4.8709928573175416e-157,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.1802620908701153e-121,
+        "H": 5.38825656261014e-192,
+        "Hr": -3.427910853652272e-157
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 1.5343369009201307e-121,
+        "H": -1.2595049716313556e-190,
+        "Hr": -4.8709928573175416e-157
+      }
+    },
+    {
+      "cell": 104,
+      "II": 4.4030568946773966e-107,
+      "Gamma": 1.3347787013411861e-36,
+      "L": 1.3347787013411861e-36,
+      "H": 5.388256562609834e-192,
+      "Hr": 1.522185267768776e-158,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.6254804005475984e-122,
+        "H": -8.419150878288603e-194,
+        "Hr": 1.067933040686903e-158
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.1404027246159436e-122,
+        "H": 2.5783649567914626e-193,
+        "Hr": 1.522185267768776e-158
+      }
+    },
+    {
+      "cell": 105,
+      "II": 3.913503247688133e-108,
+      "Gamma": 5.612053125047762e-37,
+      "L": 5.612053125047762e-37,
+      "H": 8.419150878287167e-194,
+      "Hr": 4.75682896133096e-160,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.2118664740482263e-123,
+        "H": 1.315492324608973e-195,
+        "Hr": -3.3270438703963884e-160
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 8.476093963010394e-124,
+        "H": -3.074963309069634e-194,
+        "Hr": -4.75682896133096e-160
+      }
+    },
+    {
+      "cell": 106,
+      "II": 3.478123224158656e-109,
+      "Gamma": 2.3595776773113853e-37,
+      "L": 2.3595776773113853e-37,
+      "H": 1.3154923246088236e-195,
+      "Hr": 1.4865090502764045e-161,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 9.0349926731055e-125,
+        "H": -2.0554567570085958e-197,
+        "Hr": 1.0365088908963665e-161
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 6.299894530152457e-125,
+        "H": 6.294836319109636e-197,
+        "Hr": 1.4865090502764045e-161
+      }
+    },
+    {
+      "cell": 107,
+      "II": 3.090954700072487e-110,
+      "Gamma": 9.92080205088765e-38,
+      "L": 9.92080205088765e-38,
+      "H": 2.055456757008479e-197,
+      "Hr": 4.6453407816777624e-163,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.73598076612954e-126,
+        "H": 3.2116511825244863e-199,
+        "Hr": -3.229144918908029e-163
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.25,
+        "r": 0.32,
+        "w": 4.6824246243901826e-126,
+        "H": -4.897768053831688e-198,
+        "Hr": -4.6453407816777624e-163
+      }
+    },
+    {
+      "cell": 108,
+      "II": 2.7466875470259828e-111,
+      "Gamma": 4.1711834401248564e-38,
+      "L": 4.1711834401248564e-38,
+      "H": 3.2116511825241215e-199,
+      "Hr": 1.451668994137968e-164,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.02196720277766e-127,
+        "H": -5.0182049722237884e-201,
+        "Hr": 1.0060094031890867e-164
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 3.4802329242430923e-127,
+        "H": 5.614116813239735e-200,
+        "Hr": 1.451668994137968e-164
+      }
+    },
+    {
+      "cell": 109,
+      "II": 2.440592867585047e-112,
+      "Gamma": 1.7537666009189562e-38,
+      "L": 1.7537666009189562e-38,
+      "H": 5.018204972223218e-201,
+      "Hr": 4.5364656062558826e-166,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.744095397746062e-128,
+        "H": 7.840945268363721e-203,
+        "Hr": -3.13412666424155e-166
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.3125,
+        "r": 0.32,
+        "w": 2.58669859711018e-128,
+        "H": -1.5142825550997752e-201,
+        "Hr": -4.5364656062558826e-166
+      }
+    },
+    {
+      "cell": 110,
+      "II": 2.168459842005391e-113,
+      "Gamma": 7.373680238829347e-39,
+      "L": 7.373680238829347e-39,
+      "H": 7.840945268362384e-203,
+      "Hr": 1.417645501821745e-167,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.791386279797151e-129,
+        "H": -1.2251476980667698e-204,
+        "Hr": 9.764073691924903e-168
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.922575235031933e-129,
+        "H": 8.72917734964445e-204,
+        "Hr": 1.417645501821745e-167
+      }
+    },
+    {
+      "cell": 111,
+      "II": 1.9265393766505046e-114,
+      "Gamma": 3.1002506397382824e-39,
+      "L": 3.1002506397382824e-39,
+      "H": 1.2251476980667002e-204,
+      "Hr": 4.4301421927771497e-169,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.0811001150583832e-130,
+        "H": 1.9142932780497618e-206,
+        "Hr": -3.041904341298631e-169
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.4289625928925532e-130,
+        "H": -5.862523164744936e-206,
+        "Hr": -4.4301421927771497e-169
+      }
+    },
+    {
+      "cell": 112,
+      "II": 1.7114938293642738e-115,
+      "Gamma": 1.3034948245496999e-39,
+      "L": 1.3034948245496999e-39,
+      "H": 1.914293278049544e-206,
+      "Hr": 1.384419435113078e-170,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.551550826283615e-131,
+        "H": -2.9910832466721805e-208,
+        "Hr": 9.476763811466407e-171
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.0620828015878884e-131,
+        "H": 2.131146813478103e-207,
+        "Hr": 1.384419435113078e-170
+      }
+    },
+    {
+      "cell": 113,
+      "II": 1.5203521632766266e-116,
+      "Gamma": 5.480520625814489e-40,
+      "L": 5.480520625814489e-40,
+      "H": 2.9910832466720106e-208,
+      "Hr": 4.326310734322557e-172,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.1567487547201001e-132,
+        "H": 4.6735675724868885e-210,
+        "Hr": -2.952395679213178e-172
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 7.89397765231401e-133,
+        "H": 4.6735675724868885e-210,
+        "Hr": -4.326310734322557e-172
+      }
+    },
+    {
+      "cell": 114,
+      "II": 1.3504699488234827e-117,
+      "Gamma": 2.3042750737694003e-40,
+      "L": 2.3042750737694003e-40,
+      "H": 4.673567572486357e-210,
+      "Hr": 1.351972104348906e-173,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 8.624066056227017e-134,
+        "H": -7.302449331325772e-212,
+        "Hr": 9.19790808344399e-174
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 5.867233993627894e-134,
+        "H": 1.706947531361607e-210,
+        "Hr": 1.351972104348906e-173
+      }
+    },
+    {
+      "cell": 115,
+      "II": 1.1994936950054633e-118,
+      "Gamma": 9.688283245547597e-41,
+      "L": 9.688283245547597e-41,
+      "H": 7.302449331324942e-212,
+      "Hr": 4.22491282569403e-175,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.429617065821997e-135,
+        "H": 1.1410077079124925e-213,
+        "Hr": -2.86552082795424e-175
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 4.3608477566297366e-135,
+        "H": -3.13063989888449e-212,
+        "Hr": -4.22491282569403e-175
+      }
+    },
+    {
+      "cell": 116,
+      "II": 1.0653290457990765e-119,
+      "Gamma": 4.0734213251891577e-41,
+      "L": 4.0734213251891577e-41,
+      "H": 1.1410077079124277e-213,
+      "Hr": 1.3202852579053903e-176,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.793559713432923e-136,
+        "H": -1.782824543445934e-215,
+        "Hr": 8.92725774268122e-177
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 3.241219487267451e-136,
+        "H": -1.782824543445934e-215,
+        "Hr": 1.3202852579053903e-176
+      }
+    },
+    {
+      "cell": 117,
+      "II": 9.461124267867992e-121,
+      "Gamma": 1.7126626949239912e-41,
+      "L": 1.7126626949239912e-41,
+      "H": 1.7828245434457316e-215,
+      "Hr": 4.1258914305670973e-178,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.5738076608621257e-137,
+        "H": 2.785663348872969e-217,
+        "Hr": -2.781202287095836e-178
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 2.4090507972150386e-137,
+        "H": 2.785663348872969e-217,
+        "Hr": -4.1258914305670973e-178
+      }
+    },
+    {
+      "cell": 118,
+      "II": 8.401857711139244e-122,
+      "Gamma": 7.20085960282707e-42,
+      "L": 7.20085960282707e-42,
+      "H": 2.7856633488726523e-217,
+      "Hr": 1.2893410719312766e-179,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.664429351124122e-138,
+        "H": -4.3525989822054806e-219,
+        "Hr": 8.664571343969134e-180
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 1.7905377177817987e-138,
+        "H": 4.869470111832173e-218,
+        "Hr": 1.2893410719312766e-179
+      }
+    },
+    {
+      "cell": 119,
+      "II": 7.460739933060178e-123,
+      "Gamma": 3.027588513096929e-42,
+      "L": 3.027588513096929e-42,
+      "H": 4.352598982204986e-219,
+      "Hr": 4.0291908494070683e-181,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.9864481921838932e-139,
+        "H": 6.800935909057343e-221,
+        "Hr": -2.699364836677345e-181
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 1.3308251210418281e-139,
+        "H": -1.589718768895265e-219,
+        "Hr": -4.0291908494070683e-181
+      }
+    },
+    {
+      "cell": 120,
+      "II": 6.624649147726569e-124,
+      "Gamma": 1.2729441636438349e-42,
+      "L": 1.2729441636438349e-42,
+      "H": 6.800935909056957e-221,
+      "Hr": 1.2591221403214588e-182,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.4809836930243255e-140,
+        "H": -1.0626462356903494e-222,
+        "Hr": 8.409614546669796e-183
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.25,
+        "r": 0.32,
+        "w": 9.89141689229485e-141,
+        "H": 1.6205355095873967e-221,
+        "Hr": 1.2591221403214588e-182
+      }
+    },
+    {
+      "cell": 121,
+      "II": 5.881913764138492e-125,
+      "Gamma": 5.352070919628136e-43,
+      "L": 5.352070919628136e-43,
+      "H": 1.0626462356902287e-222,
+      "Hr": 3.9347566881348037e-184,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.1041378816895547e-141,
+        "H": 1.6603847431102337e-224,
+        "Hr": -2.6199354701016133e-184
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 7.351839591109724e-142,
+        "H": -3.881149337394197e-223,
+        "Hr": -3.9347566881348037e-184
+      }
+    },
+    {
+      "cell": 122,
+      "II": 5.2221530200521755e-126,
+      "Gamma": 2.2502686250379658e-43,
+      "L": 2.2502686250379658e-43,
+      "H": 1.6603847431100448e-224,
+      "Hr": 1.2296114649266476e-185,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 8.23182907093544e-143,
+        "H": -2.5943511608660873e-226,
+        "Hr": 8.162159905669786e-186
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.3125,
+        "r": 0.32,
+        "w": 5.464287468816682e-143,
+        "H": 5.0103406799088335e-225,
+        "Hr": 1.2296114649266476e-185
+      }
+    },
+    {
+      "cell": 123,
+      "II": 4.6361350132027e-127,
+      "Gamma": 9.461214099872904e-44,
+      "L": 9.461214099872904e-44,
+      "H": 2.5943511608660873e-226,
+      "Hr": 3.8425358275349037e-187,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.137187300322891e-144,
+        "H": 4.0536736884730157e-228,
+        "Hr": -2.5428433290053343e-187
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 4.0613559602107744e-144,
+        "H": 4.0536736884730157e-228,
+        "Hr": -3.8425358275349037e-187
+      }
+    },
+    {
+      "cell": 124,
+      "II": 4.115650245580472e-128,
+      "Gamma": 3.9779505098930263e-44,
+      "L": 3.9779505098930263e-44,
+      "H": 4.0536736884730157e-228,
+      "Hr": 1.2007924459920901e-188,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.5755405797025554e-145,
+        "H": -6.333865137644233e-230,
+        "Hr": 7.92198666847403e-189
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 3.018620877775615e-145,
+        "H": 1.737854247307639e-228,
+        "Hr": 1.2007924459920901e-188
+      }
+    },
+    {
+      "cell": 125,
+      "II": 3.653398998610025e-129,
+      "Gamma": 1.6725221617556607e-44,
+      "L": 1.6725221617556607e-44,
+      "H": 6.333865137644233e-230,
+      "Hr": 3.752476393372869e-190,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.411264895794481e-146,
+        "H": 9.896664276639653e-232,
+        "Hr": -2.4680196400471447e-190
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 2.2436033908416554e-146,
+        "H": -2.313345274887456e-230,
+        "Hr": -3.752476393372869e-190
+      }
+    },
+    {
+      "cell": 126,
+      "II": 3.2428910378067162e-130,
+      "Gamma": 7.032089450602875e-45,
+      "L": 7.032089450602875e-45,
+      "H": 9.896664276639653e-232,
+      "Hr": 1.172648872818826e-191,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.543246636452054e-147,
+        "H": -1.5463537930797175e-233,
+        "Hr": 7.688880578275117e-192
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 1.667568197270764e-147,
+        "H": 4.2428082201689764e-232,
+        "Hr": 1.172648872818826e-191
+      }
+    },
+    {
+      "cell": 127,
+      "II": 2.8783563070152546e-131,
+      "Gamma": 2.9566294051000604e-45,
+      "L": 2.9566294051000604e-45,
+      "H": 1.5463537930797175e-233,
+      "Hr": 3.6645277272148866e-193,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.8961011974764884e-148,
+        "H": 2.4161778014604144e-235,
+        "Hr": -2.395397653555423e-193
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 1.2394274780917028e-148,
+        "H": -2.703098915655881e-234,
+        "Hr": -3.6645277272148866e-193
+      }
+    },
+    {
+      "cell": 128,
+      "II": 2.5546654166735568e-132,
+      "Gamma": 1.2431095338746737e-45,
+      "L": 1.2431095338746737e-45,
+      "H": 2.4161778014604144e-235,
+      "Hr": 1.1451649146472346e-194,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.4136260713142727e-149,
+        "H": -3.7752778144273367e-237,
+        "Hr": 7.462633682817188e-195
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 9.212099846727607e-150,
+        "H": 4.223592055316129e-236,
+        "Hr": 1.1451649146472346e-194
+      }
+    },
+    {
+      "cell": 129,
+      "II": 2.2672588595024338e-133,
+      "Gamma": 5.2266317535239e-46,
+      "L": 5.2266317535239e-46,
+      "H": 3.7752778144273367e-237,
+      "Hr": 3.5786403579367247e-196,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.0539198393838146e-150,
+        "H": 5.898871584489382e-239,
+        "Hr": -2.324912583981654e-196
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.1875,
+        "r": 0.32,
+        "w": 6.84693417615271e-151,
+        "H": -6.599362585811662e-238,
+        "Hr": -3.5786403579367247e-196
+      }
+    },
+    {
+      "cell": 130,
+      "II": 2.01208400221566e-134,
+      "Gamma": 2.197527952489064e-46,
+      "L": 2.197527952489064e-46,
+      "H": 5.898871584490053e-239,
+      "Hr": 1.1183251117504536e-197,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.85743168144882e-152,
+        "H": -9.216986849900081e-241,
+        "Hr": 7.243044148880646e-198
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 1,
+        "r": 0.32,
+        "w": 5.089014273897163e-152,
+        "H": 5.898871584490053e-239,
+        "Hr": 1.1183251117504536e-197
+      }
+    },
+    {
+      "cell": 131,
+      "II": 1.785539004711072e-135,
+      "Gamma": 9.239466887472181e-47,
+      "L": 9.239466887472181e-47,
+      "H": 9.216986849901129e-241,
+      "Hr": 3.4947659738923555e-199,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.858057730912356e-153,
+        "H": 1.4401541951619608e-242,
+        "Hr": -2.2565015521054145e-199
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 3.7824324892932053e-153,
+        "H": 1.4401541951619608e-242,
+        "Hr": -3.4947659738923555e-199
+      }
+    },
+    {
+      "cell": 132,
+      "II": 1.5844229100757782e-136,
+      "Gamma": 3.884717291900848e-47,
+      "L": 3.884717291900848e-47,
+      "H": 1.4401541951619608e-242,
+      "Hr": 1.0921143667389195e-200,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.3674373217547965e-154,
+        "H": -2.250240929729485e-244,
+        "Hr": 7.029916082232445e-201
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 2.8113097676781838e-154,
+        "H": 1.6032966626011815e-243,
+        "Hr": 1.0921143667389195e-200
+      }
+    },
+    {
+      "cell": 133,
+      "II": 1.405891230742222e-137,
+      "Gamma": 1.6333224223636907e-47,
+      "L": 1.6333224223636907e-47,
+      "H": 2.2502409297297406e-244,
+      "Hr": 3.4128573957393825e-202,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.256114848237958e-155,
+        "H": 3.516001452372909e-246,
+        "Hr": -2.1901035289392825e-202
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 2.0895184863747887e-155,
+        "H": -2.5051510350796403e-245,
+        "Hr": -3.4128573957393825e-202
+      }
+    },
+    {
+      "cell": 134,
+      "II": 1.2474164293355174e-138,
+      "Gamma": 6.867274848952474e-48,
+      "L": 6.867274848952474e-48,
+      "H": 3.516001452373309e-246,
+      "Hr": 1.0665179360685772e-203,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.427575514845532e-156,
+        "H": -5.493752268817965e-248,
+        "Hr": 6.82305935286447e-204
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 1.553043906829013e-156,
+        "H": -5.493752268817965e-248,
+        "Hr": 1.0665179360685772e-203
+      }
+    },
+    {
+      "cell": 135,
+      "II": 1.106752758090378e-139,
+      "Gamma": 2.887333401252414e-48,
+      "L": 2.887333401252414e-48,
+      "H": 5.493752268817965e-248,
+      "Hr": 3.3328685499020564e-205,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.809863335584516e-157,
+        "H": 8.583987919222869e-250,
+        "Hr": -2.1256592812874e-205
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.1543067899454695e-157,
+        "H": -6.116091393090685e-249,
+        "Hr": -3.3328685499020564e-205
+      }
+    },
+    {
+      "cell": 136,
+      "II": 9.81904979015113e-141,
+      "Gamma": 1.213974153263889e-48,
+      "L": 1.213974153263889e-48,
+      "H": 8.583987919223844e-250,
+      "Hr": 1.0415214217467562e-206,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.3493319871868813e-158,
+        "H": -1.3412481122529128e-251,
+        "Hr": 6.622289425384922e-207
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5,
+        "r": 0.32,
+        "w": 8.579436546869705e-159,
+        "H": 4.2249315539993137e-250,
+        "Hr": 1.0415214217467562e-206
+      }
+    },
+    {
+      "cell": 137,
+      "II": 8.71100538986501e-142,
+      "Gamma": 5.104132567972964e-49,
+      "L": 5.104132567972964e-49,
+      "H": 1.3412481122530652e-251,
+      "Hr": 3.254754442653684e-208,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.0059857978491454e-159,
+        "H": 2.0957001751993086e-253,
+        "Hr": -2.0631113189033513e-208
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 6.376704365157621e-160,
+        "H": 2.0957001751993086e-253,
+        "Hr": -3.254754442653684e-208
+      }
+    },
+    {
+      "cell": 138,
+      "II": 7.727648203731731e-143,
+      "Gamma": 2.1460233894934573e-49,
+      "L": 2.1460233894934573e-49,
+      "H": 2.0957001751993086e-253,
+      "Hr": 1.0171107632341015e-209,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.500062513035121e-161,
+        "H": -3.274531523441759e-255,
+        "Hr": 6.427427194395395e-210
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 4.7395138758211e-161,
+        "H": 2.333103710698069e-254,
+        "Hr": 1.0171107632341015e-209
+      }
+    },
+    {
+      "cell": 139,
+      "II": 6.854991291545368e-144,
+      "Gamma": 9.022916875532204e-50,
+      "L": 9.022916875532204e-50,
+      "H": 3.2745315234421315e-255,
+      "Hr": 3.178471134808604e-211,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.591623442370178e-162,
+        "H": 5.116455504898392e-257,
+        "Hr": -2.0024038432014125e-211
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 3.522664764237985e-162,
+        "H": -1.5669144985670925e-256,
+        "Hr": -3.178471134808604e-211
+      }
+    },
+    {
+      "cell": 140,
+      "II": 6.0806111942257736e-145,
+      "Gamma": 3.7936692275282467e-50,
+      "L": 3.7936692275282467e-50,
+      "H": 5.116455504898974e-257,
+      "Hr": 9.932722295346882e-213,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 4.168798948931341e-163,
+        "H": -7.994461725654744e-259,
+        "Hr": 6.23829882470706e-213
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5625,
+        "r": 0.32,
+        "w": 2.61823625087584e-163,
+        "H": 2.8430304514560007e-257,
+        "Hr": 9.932722295346882e-213
+      }
+    },
+    {
+      "cell": 141,
+      "II": 5.39347386051873e-146,
+      "Gamma": 1.595041426894037e-50,
+      "L": 1.595041426894037e-50,
+      "H": 7.994461725656562e-259,
+      "Hr": 3.1039757170052745e-214,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.1080212850038535e-164,
+        "H": 1.2491346445166653e-260,
+        "Hr": -1.9434826974821506e-214
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.9460157364373185e-164,
+        "H": -8.900084343117943e-260,
+        "Hr": -3.1039757170052745e-214
+      }
+    },
+    {
+      "cell": 142,
+      "II": 4.7837798667209466e-147,
+      "Gamma": 6.70632308965472e-51,
+      "L": 6.70632308965472e-51,
+      "H": 1.2491346445168074e-260,
+      "Hr": 9.699924114733826e-216,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.317165309809955e-165,
+        "H": -1.9517728818744295e-262,
+        "Hr": 6.054735596269603e-216
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.4463848497989614e-165,
+        "H": 1.3906381784820488e-261,
+        "Hr": 9.699924114733826e-216
+      }
+    },
+    {
+      "cell": 143,
+      "II": 4.2428268022399285e-148,
+      "Gamma": 2.8196615225473874e-51,
+      "L": 2.8196615225473874e-51,
+      "H": 1.9517728818746515e-262,
+      "Hr": 3.0312262855699885e-217,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.7275477162572324e-166,
+        "H": 3.049645127643078e-264,
+        "Hr": -1.886295318617062e-217
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.0750319715082052e-166,
+        "H": -9.339538204551095e-264,
+        "Hr": -3.0312262855699885e-217
+      }
+    },
+    {
+      "cell": 144,
+      "II": 3.7628869269499612e-149,
+      "Gamma": 1.1855216331586066e-51,
+      "L": 1.1855216331586066e-51,
+      "H": 3.049645127643771e-264,
+      "Hr": 9.472582141519831e-219,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.2879621058154069e-167,
+        "H": -4.765070511495874e-266,
+        "Hr": 5.876573753656292e-219
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 7.990222933580377e-168,
+        "H": 1.4593028443245538e-265,
+        "Hr": 9.472582141519831e-219
+      }
+    },
+    {
+      "cell": 145,
+      "II": 3.337098414048009e-150,
+      "Gamma": 4.9845044571762786e-52,
+      "L": 4.9845044571762786e-52,
+      "H": 4.7650705114964156e-266,
+      "Hr": 2.9601819189472793e-220,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 9.602318769002701e-169,
+        "H": 7.445422673514747e-268,
+        "Hr": -1.8307906901598365e-220
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 5.938768726920024e-169,
+        "H": -2.2801606940432295e-267,
+        "Hr": -2.960181918947111e-220
+      }
+    },
+    {
+      "cell": 146,
+      "II": 2.9593686772233892e-151,
+      "Gamma": 2.09572596473143e-52,
+      "L": 2.09572596473143e-52,
+      "H": 7.445422673515594e-268,
+      "Hr": 9.250568495843587e-222,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 7.158947093647408e-170,
+        "H": -1.163347292627554e-269,
+        "Hr": 5.703654359974206e-222
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 4.414016265255747e-170,
+        "H": 8.288849460844635e-269,
+        "Hr": 9.250568495843061e-222
+      }
+    },
+    {
+      "cell": 147,
+      "II": 2.6242884459015907e-152,
+      "Gamma": 8.8114422546575e-53,
+      "L": 8.8114422546575e-53,
+      "H": 1.1633472926276864e-269,
+      "Hr": 2.8908026546799608e-223,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.337307032034694e-171,
+        "H": 1.8177301445602516e-271,
+        "Hr": -1.7769192968325445e-223
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5625,
+        "r": 0.32,
+        "w": 3.2807372177375374e-171,
+        "H": -6.464302827206377e-270,
+        "Hr": -2.8908026546799608e-223
+      }
+    },
+    {
+      "cell": 148,
+      "II": 2.3270553992399072e-153,
+      "Gamma": 3.7047551022315007e-53,
+      "L": 3.7047551022315007e-53,
+      "H": 1.8177301445604583e-271,
+      "Hr": 9.033758295029042e-225,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.979194982385775e-172,
+        "H": -2.840203350609297e-273,
+        "Hr": 5.535823155085831e-225
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 2.438422526117129e-172,
+        "H": 8.698122762306563e-273,
+        "Hr": 9.033758295029042e-225
+      }
+    },
+    {
+      "cell": 149,
+      "II": 2.0634063004667346e-154,
+      "Gamma": 1.5576576422836342e-53,
+      "L": 1.5576576422836342e-53,
+      "H": 2.840203350609297e-273,
+      "Hr": 2.823049466931611e-226,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.9666632653523546e-173,
+        "H": 4.4378177349107467e-275,
+        "Hr": -1.7246330803549398e-226
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 1.8123683859007325e-173,
+        "H": -1.3590816814829148e-274,
+        "Hr": -2.823049466931611e-226
+      }
+    },
+    {
+      "cell": 150,
+      "II": 1.8295566896875589e-155,
+      "Gamma": 6.549143637328825e-54,
+      "L": 6.549143637328825e-54,
+      "H": 4.4378177349107467e-275,
+      "Hr": 8.822029583333267e-228,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.211776746038038e-174,
+        "H": -6.934090210147604e-277,
+        "Hr": 5.372930417984267e-228
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.25,
+        "r": 0.32,
+        "w": 1.3470508621996688e-174,
+        "H": 1.0574487571516023e-275,
+        "Hr": 8.822029583333267e-228
+      }
+    },
+    {
+      "cell": 151,
+      "II": 1.6221472971243303e-156,
+      "Gamma": 2.7535757035482154e-54,
+      "L": 2.7535757035482154e-54,
+      "H": 6.934090210148392e-277,
+      "Hr": 2.7568842445332043e-229,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.6489759493255038e-175,
+        "H": 1.0834515952338091e-278,
+        "Hr": -1.673885396571957e-229
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 1.0012015434988056e-175,
+        "H": -2.9727203147079166e-277,
+        "Hr": -2.7568842445332043e-229
+      }
+    },
+    {
+      "cell": 152,
+      "II": 1.438196431179733e-157,
+      "Gamma": 1.1577359690128906e-54,
+      "L": 1.1577359690128906e-54,
+      "H": 1.0834515952339323e-278,
+      "Hr": 8.615263263357655e-231,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.229383429555286e-176,
+        "H": -1.6928931173944135e-280,
+        "Hr": 5.2148308332397e-231
+      },
+      "GammaWhere": {
+        "segment": 3,
+        "x": 1,
+        "r": 0.32,
+        "w": 7.441474994254149e-177,
+        "H": -1.6928931173944135e-280,
+        "Hr": 8.615263263357655e-231
+      }
+    },
+    {
+      "cell": 153,
+      "II": 1.275057678025214e-158,
+      "Gamma": 4.867680130310397e-55,
+      "L": 4.867680130310397e-55,
+      "H": 1.6928931173944135e-280,
+      "Hr": 2.6922697695471886e-232,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 9.165589209974936e-178,
+        "H": 2.6451454956803484e-282,
+        "Hr": -1.624630973841447e-232
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.75,
+        "r": 0.32,
+        "w": 5.530909380800735e-178,
+        "H": -1.2630569743066223e-280,
+        "Hr": -2.6922697695471886e-232
+      }
+    },
+    {
+      "cell": 154,
+      "II": 1.1303823226830994e-159,
+      "Gamma": 2.046607385897798e-55,
+      "L": 2.046607385897798e-55,
+      "H": 2.6451454956806492e-282,
+      "Hr": 8.413343029045306e-234,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 6.833346175522873e-179,
+        "H": -4.133039836612853e-284,
+        "Hr": 5.061383361355696e-234
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.375,
+        "r": 0.32,
+        "w": 4.1108729925523516e-179,
+        "H": 9.660980619013573e-283,
+        "Hr": 8.413343029045306e-234
+      }
+    },
+    {
+      "cell": 155,
+      "II": 1.0020859668020536e-160,
+      "Gamma": 8.60492407035859e-56,
+      "L": 8.60492407035859e-56,
+      "H": 4.133039836613323e-284,
+      "Hr": 2.629169696330189e-235,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 5.094557358484917e-180,
+        "H": 6.457874744102551e-286,
+        "Hr": -1.5768258726497854e-235
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.5,
+        "r": 0.32,
+        "w": 3.0554246322599743e-180,
+        "H": -2.0342305445861666e-284,
+        "Hr": -2.629169696330189e-235
+      }
+    },
+    {
+      "cell": 156,
+      "II": 8.883188763698393e-162,
+      "Gamma": 3.617924901808696e-56,
+      "L": 3.617924901808696e-56,
+      "H": 6.457874744103286e-286,
+      "Hr": 8.216155300261624e-237,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 3.7982145221714577e-181,
+        "H": -1.0090429286713724e-287,
+        "Hr": 4.9124511129532304e-237
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.4375,
+        "r": 0.32,
+        "w": 2.2709579450236565e-181,
+        "H": 2.7685615358073325e-286,
+        "Hr": 8.216155300261624e-237
+      }
+    },
+    {
+      "cell": 157,
+      "II": 7.874396442893739e-163,
+      "Gamma": 1.521150040151257e-56,
+      "L": 1.521150040151257e-56,
+      "H": 1.0090429286714872e-287,
+      "Hr": 2.5675485310907732e-238,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.831734445467668e-182,
+        "H": 1.5766295759011272e-289,
+        "Hr": -1.530427446412021e-238
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.125,
+        "r": 0.32,
+        "w": 1.6878995913088666e-182,
+        "H": -1.1233485729479091e-288,
+        "Hr": -2.5675485310907732e-238
+      }
+    },
+    {
+      "cell": 158,
+      "II": 6.979917987092336e-164,
+      "Gamma": 6.395648078531761e-57,
+      "L": 6.395648078531761e-57,
+      "H": 1.5766295759013063e-289,
+      "Hr": 8.023589158906502e-240,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 2.111181430864693e-183,
+        "H": -2.4634837121147096e-291,
+        "Hr": 4.7679012266492546e-240
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.6875,
+        "r": 0.32,
+        "w": 1.2545388771217255e-183,
+        "H": 1.076234446831749e-289,
+        "Hr": 8.023589158906502e-240
+      }
+    },
+    {
+      "cell": 159,
+      "II": 6.186830289239477e-165,
+      "Gamma": 2.689038770978961e-57,
+      "L": 2.689038770978961e-57,
+      "H": 2.4634837121149897e-291,
+      "Hr": 2.5073716119235154e-241,
+      "IIWhere": {
+        "segment": 3,
+        "x": 0.9375,
+        "r": 0.32,
+        "w": 1.5739777581055224e-184,
+        "H": 3.849193299819044e-293,
+        "Hr": -1.4853943034272454e-241
+      },
+      "GammaWhere": {
+        "segment": 4,
+        "x": 0.0625,
+        "r": 0.32,
+        "w": 9.324415992003524e-185,
+        "H": -1.1788154482137287e-292,
+        "Hr": -2.5073716119235154e-241
+      }
+    }
+  ],
+  "minimum_sampled_w": 9.324415992003524e-185,
+  "maximum_sampled_background_curvature": 6.996583737280851,
+  "maximum_sampled_relative_II": 409040.14169413707,
+  "trajectory": {
+    "file": "2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-trajectory.jsonl.gz",
+    "bytes": 2513210,
+    "sha256": "abfdbb17d67fa7ab6fd0a752f1dee1709edfb1aa7146e56f34039883d794ac87"
+  },
+  "raw_momentum": {
+    "file": "2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-raw-momentum.jsonl.gz",
+    "bytes": 742995,
+    "sha256": "23460fbe5e093b79ebe5daac3304b9c804891a6ec820ce57b627395b678ed432"
+  },
+  "seconds": 28.671,
+  "nonlinear_solution": false
+}

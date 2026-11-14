@@ -1,0 +1,61 @@
+{
+  "scope": "Time and compare the two Jacobian assemblies on an actual saved curve.\n\nNo BVP, true DN, or curve evolution is run. Only scalar errors and timings\nare saved. This assesses a numerical Jacobian backend, not surface accuracy.\n",
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian-research.py",
+    "bytes": 4258,
+    "sha256": "399dcbeb9976eb2d53eaae9f3fb03d04d0d494d84845104b2d96a52753039689"
+  },
+  "backend": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py",
+    "bytes": 4594,
+    "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+  },
+  "checkpoint": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "bytes": 27524,
+    "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+  },
+  "source_modes": 15,
+  "saved_curve_was_successful": false,
+  "diagnostics": [
+    {
+      "M": 15,
+      "N": 512,
+      "radial_points": 32,
+      "original_seconds": 0.12936041899956763,
+      "table_build_seconds": 0.06154128499838407,
+      "new_seconds": 0.029157897999539273,
+      "speedup_excluding_one_time_tables": 4.436548169611255,
+      "maximum_original_entry": 11192.311046459236,
+      "maximum_absolute_entry_difference": 1.546140993013978e-11,
+      "relative_maximum_entry_difference": 1.3814314010716405e-15,
+      "relative_frobenius_difference": 1.9660064404188875e-15,
+      "parameter_derivatives_equal": true,
+      "projected_imaginary_roundoff_max": 2.105528473943043e-13,
+      "first_assembly_nonzeros": 58902,
+      "second_assembly_nonzeros": 58925,
+      "centred_RHS_direction_difference_relative": 5.774370536364186e-07
+    },
+    {
+      "M": 22,
+      "N": 1024,
+      "radial_points": 32,
+      "original_seconds": 0.40455109600225114,
+      "table_build_seconds": 0.11918865699772141,
+      "new_seconds": 0.05834024099749513,
+      "speedup_excluding_one_time_tables": 6.934340501260884,
+      "maximum_original_entry": 24082.270579946864,
+      "maximum_absolute_entry_difference": 4.648985233395696e-11,
+      "relative_maximum_entry_difference": 1.930459679024981e-15,
+      "relative_frobenius_difference": 2.586850008714619e-15,
+      "parameter_derivatives_equal": true,
+      "projected_imaginary_roundoff_max": 3.4899802920768133e-13,
+      "first_assembly_nonzeros": 126426,
+      "second_assembly_nonzeros": 126450,
+      "centred_RHS_direction_difference_relative": 1.3361033129310414e-06
+    }
+  ],
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "new_surface_created": false
+}

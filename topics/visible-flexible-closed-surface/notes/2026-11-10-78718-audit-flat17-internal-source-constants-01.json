@@ -1,0 +1,200 @@
+{
+  "scope": "Independent exact rational arithmetic for the frozen full internal-source proof. No ODE/PDE, no candidate arrays, not a substitute for Green/weak-source/full-angle proof. Powers of k use separately proved k>=1 and |j|<=k.",
+  "proof": "notes/2026-11-10-78718-root-flat17-internal-source-provider-v1.md",
+  "proof_sha256": "ccf4a97acd751570769e07931997c9cd8a40ef62f9610b1b2cf985f2bebc76cb",
+  "checks": [
+    {
+      "name": "sqrt_R_L_bound_squared",
+      "lhs": "3/2",
+      "relation": "<",
+      "rhs": "25/16",
+      "passed": true
+    },
+    {
+      "name": "L_three_halves_over_four_squared",
+      "lhs": "27/128",
+      "relation": "<",
+      "rhs": "1/4",
+      "passed": true
+    },
+    {
+      "name": "endpoint_sqrt_two_bound_squared",
+      "lhs": "2",
+      "relation": "<",
+      "rhs": "9/4",
+      "passed": true
+    },
+    {
+      "name": "outer_source_coefficient",
+      "lhs": "15/2",
+      "relation": "=",
+      "rhs": "15/2",
+      "passed": true
+    },
+    {
+      "name": "Y_source_sum",
+      "lhs": "37/4",
+      "relation": "=",
+      "rhs": "37/4",
+      "passed": true
+    },
+    {
+      "name": "central_coefficient",
+      "lhs": "243/160",
+      "relation": "=",
+      "rhs": "243/160",
+      "passed": true
+    },
+    {
+      "name": "X_endpoint_coefficient",
+      "lhs": "1209/80",
+      "relation": "=",
+      "rhs": "1209/80",
+      "passed": true
+    },
+    {
+      "name": "X_source_coefficient",
+      "lhs": "14591/640",
+      "relation": "=",
+      "rhs": "14591/640",
+      "passed": true
+    },
+    {
+      "name": "central_vector_endpoint_sum",
+      "lhs": "1689/80",
+      "relation": "=",
+      "rhs": "1689/80",
+      "passed": true
+    },
+    {
+      "name": "central_vector_source_sum",
+      "lhs": "20511/640",
+      "relation": "=",
+      "rhs": "20511/640",
+      "passed": true
+    },
+    {
+      "name": "central_endpoint_to_33",
+      "lhs": "1689/80",
+      "relation": "<",
+      "rhs": "33",
+      "passed": true
+    },
+    {
+      "name": "central_source_to_33",
+      "lhs": "20511/640",
+      "relation": "<",
+      "rhs": "33",
+      "passed": true
+    },
+    {
+      "name": "sup_to_L2",
+      "lhs": "165/4",
+      "relation": "<",
+      "rhs": "50",
+      "passed": true
+    },
+    {
+      "name": "endpoint_to_75",
+      "lhs": "75",
+      "relation": "=",
+      "rhs": "75",
+      "passed": true
+    },
+    {
+      "name": "flux_factor_150",
+      "lhs": "150",
+      "relation": "=",
+      "rhs": "150",
+      "passed": true
+    },
+    {
+      "name": "flux_dichotomy_to_400",
+      "lhs": "300",
+      "relation": "<",
+      "rhs": "400",
+      "passed": true
+    },
+    {
+      "name": "L2_final_endpoint",
+      "lhs": "150",
+      "relation": "=",
+      "rhs": "150",
+      "passed": true
+    },
+    {
+      "name": "L2_final_source",
+      "lhs": "30075",
+      "relation": "=",
+      "rhs": "30075",
+      "passed": true
+    },
+    {
+      "name": "sup_endpoint_factor",
+      "lhs": "60",
+      "relation": "=",
+      "rhs": "60",
+      "passed": true
+    },
+    {
+      "name": "sup_final_endpoint",
+      "lhs": "120",
+      "relation": "=",
+      "rhs": "120",
+      "passed": true
+    },
+    {
+      "name": "sup_final_source",
+      "lhs": "24060",
+      "relation": "=",
+      "rhs": "24060",
+      "passed": true
+    },
+    {
+      "name": "common_endpoint_200",
+      "lhs": "150",
+      "relation": "<",
+      "rhs": "200",
+      "passed": true
+    },
+    {
+      "name": "common_source_40100",
+      "lhs": "30075",
+      "relation": "<",
+      "rhs": "40100",
+      "passed": true
+    },
+    {
+      "name": "physical_pointwise_P3",
+      "lhs": "132651/125000",
+      "relation": "<",
+      "rhs": "6/5",
+      "passed": true
+    },
+    {
+      "name": "physical_endpoint_250",
+      "lhs": "240",
+      "relation": "<",
+      "rhs": "250",
+      "passed": true
+    },
+    {
+      "name": "physical_source_61000",
+      "lhs": "60150",
+      "relation": "<",
+      "rhs": "61000",
+      "passed": true
+    },
+    {
+      "name": "physical_outgoing_500",
+      "lhs": "500",
+      "relation": "=",
+      "rhs": "500",
+      "passed": true
+    }
+  ],
+  "check_count": 27,
+  "pde_runs": 0,
+  "candidate_arrays_read": 0,
+  "passed": true
+}

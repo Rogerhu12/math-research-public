@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-R189-environment-loss-actual-check-summary-v1",
+  "status": "real original execution observed; this is a recovered summary, not the unseen full report bytes",
+  "actualExecution": {
+    "command": [
+      "node",
+      "scripts/fd2d_r187_prolongation_check.cjs"
+    ],
+    "toolChunk": "43f923",
+    "exitCode": 0,
+    "internalSeconds": 0.118908591,
+    "OSProcessCreated": true
+  },
+  "sourceSHA256": "c845fd4838f247b501cbdee9f39a4c0581ca979bdef21935bd53160b8eb5d6be",
+  "sourceReconstructedFromAppliedPatch": true,
+  "sourceExactSHA256Compared": true,
+  "historicalInput": {
+    "path": "notes/2026-11-12-fd2d-direct-position-R187-LM-01.json",
+    "iteration": 6,
+    "dimension": 181,
+    "options": {
+      "radialBasisCount": 12,
+      "modes": 7,
+      "angles": 64,
+      "gap": 0.05
+    },
+    "fullInputSHA256": "stored in original full report; not visible in recovered tool stdout"
+  },
+  "observed": {
+    "passed": true,
+    "newDimension": 838,
+    "sampledCorrectionPoints": 78,
+    "correctionJetScaledMaximum": 6.826565993946913e-14,
+    "sameAngularRuleActualMetricMaximumDifference": 6.661338147750939e-16,
+    "changedAngularRuleMaximumDifference": 1.9984014443252818e-15,
+    "endpointMaximum": 0,
+    "radialAngularOrderDifference": 0,
+    "originalArraysUnchanged": true
+  },
+  "originalLocalClosedManifest": {
+    "path": "notes/2026-11-12-fd2d-R189-prolongation-closed-manifest.json",
+    "sha256": "b0d1e94951af6c3362e84440a34d9f82aa46ad33adbd01b5b4e305769bd461a7",
+    "files": 6,
+    "totalBytes": 41967,
+    "contentsCurrentlyUnavailable": true
+  },
+  "wholeObjectiveEvaluated": false,
+  "wholeNormalEvaluated": false,
+  "wholeJvpEvaluated": false,
+  "acceptedNonlinearState": false,
+  "subsequent36RescueStarted": false,
+  "lossObservation": "subsequent five independent readonly exec calls failed to create a process with exec-server transport disconnected; environment subsequently explicitly unavailable"
+}

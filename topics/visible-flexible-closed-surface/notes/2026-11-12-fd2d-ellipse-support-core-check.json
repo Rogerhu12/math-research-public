@@ -1,0 +1,134 @@
+{
+  "scope": "Exact fixed-perimeter support-function family around the B=.5 ellipse.\n\nh(phi)=sqrt(A^2*cos(phi)^2+B^2*sin(phi)^2)+sum p_j*cos(2*j*phi).\nZero-mean corrections preserve perimeter 2*pi*a0 exactly. Parameters are\nextrinsic core freedoms for a frozen-g BVP. No complete surface is asserted.\n",
+  "source_sha256": "db016e7a216676238bea05a34adff6d78fa75174b7646cfcc27f915765f55539",
+  "example": {
+    "A": 1.4,
+    "B": 0.5,
+    "a0": 1.0040828380214688,
+    "coefficients": [
+      0.005,
+      0.0001,
+      -5e-05,
+      1e-05
+    ],
+    "frequencies": [
+      2.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "perimeter_definition": "2*pi*a0, independent of p",
+    "rho_lower": 0.15969142857142857,
+    "rho_upper": 3.9388799999999993,
+    "curvature_upper": 6.262076862520575,
+    "long_axis_support": 1.40506,
+    "short_axis_support": 0.49516,
+    "axis_gap": 0.9098999999999999,
+    "correction_weighted_l1": 0.00388,
+    "inside_uniform_strong_core_window": true,
+    "full_held_protection_verified": false,
+    "full_slab_verified": false,
+    "whole_surface_reach_verified": false
+  },
+  "exact_ellipse": {
+    "A": 1.4,
+    "B": 0.5,
+    "a0": 1.0040828380214688,
+    "coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frequencies": [
+      2.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "perimeter_definition": "2*pi*a0, independent of p",
+    "rho_lower": 0.17857142857142858,
+    "rho_upper": 3.9199999999999995,
+    "curvature_upper": 5.6,
+    "long_axis_support": 1.4,
+    "short_axis_support": 0.5,
+    "axis_gap": 0.8999999999999999,
+    "correction_weighted_l1": 0.015,
+    "inside_uniform_strong_core_window": false,
+    "full_held_protection_verified": false,
+    "full_slab_verified": false,
+    "whole_surface_reach_verified": false
+  },
+  "baseline": {
+    "A": 1.4,
+    "B": 0.5,
+    "a0": 1.0040828380214688,
+    "coefficients": [
+      0.005,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frequencies": [
+      2.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "perimeter_definition": "2*pi*a0, independent of p",
+    "rho_lower": 0.1635714285714286,
+    "rho_upper": 3.9349999999999996,
+    "curvature_upper": 6.113537117903929,
+    "long_axis_support": 1.4049999999999998,
+    "short_axis_support": 0.495,
+    "axis_gap": 0.9099999999999999,
+    "correction_weighted_l1": 0.0,
+    "inside_uniform_strong_core_window": true,
+    "full_held_protection_verified": false,
+    "full_slab_verified": false,
+    "whole_surface_reach_verified": false
+  },
+  "finite_checks": {
+    "arclength_speed_error": 2.220446049250313e-16,
+    "arc_residual": 1.7763568394002505e-14,
+    "rho_min_sample": 0.1631914285714286,
+    "parameter_difference_step": 1e-06,
+    "parameter_jet_checks": [
+      {
+        "parameter": 1,
+        "F_jacobian_difference": 6.80193537634772e-09,
+        "Ft_jacobian_difference": 3.203416254051221e-09,
+        "Ftt_jacobian_difference": 4.0825846866978973e-08
+      },
+      {
+        "parameter": 2,
+        "F_jacobian_difference": 5.438477324273019e-09,
+        "Ft_jacobian_difference": 5.890990719406949e-08,
+        "Ftt_jacobian_difference": 4.7975730694815866e-06
+      },
+      {
+        "parameter": 3,
+        "F_jacobian_difference": 1.2425104907359197e-08,
+        "Ft_jacobian_difference": 6.280046058810644e-07,
+        "Ftt_jacobian_difference": 6.24947632328462e-05
+      },
+      {
+        "parameter": 4,
+        "F_jacobian_difference": 2.6487103951336817e-08,
+        "Ft_jacobian_difference": 3.0907579910537814e-06,
+        "Ftt_jacobian_difference": 0.00037699668741581144
+      }
+    ]
+  },
+  "uniform_parameter_window": {
+    "reference_first_coefficient": 0.005,
+    "weighted_l1_radius": 0.012,
+    "rho_lower_exact": "1061/7000",
+    "curvature_upper_exact": "7000/1061",
+    "long_support_lower": 1.401,
+    "short_support_upper": 0.499,
+    "axis_gap_lower": 0.902
+  },
+  "nonlinear_prefix_solved": false,
+  "closed_surface": false
+}

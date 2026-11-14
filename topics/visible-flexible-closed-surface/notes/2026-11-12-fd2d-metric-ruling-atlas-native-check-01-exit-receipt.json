@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-observed-unified-exec-completion-v1",
+  "session_id": 62999,
+  "completion_chunk_id": "ff5ed7",
+  "exit_code": 0,
+  "actual_process_observation": true,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01-report.json",
+    "bytes": 9315,
+    "sha256": "e82e39a64c4ef1db6675665074b867ab464b6e57cc78ca7230ccfa5da64b7198"
+  },
+  "seconds_reported": 3.6741030930006673,
+  "maximum_rss_kib": 76172,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-ruling-atlas-native-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-ruling-atlas-warm01-warm.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--inlet",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "--cache",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-ruling-atlas-native-check-01"
+  ]
+}

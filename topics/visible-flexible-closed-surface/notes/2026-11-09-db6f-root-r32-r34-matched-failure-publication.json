@@ -1,0 +1,548 @@
+{
+  "status": "CLOSED_REVIEWED_PROOFS_AND_HONEST_NUMERICAL_FAILURE_SUCCESS_RECORDS",
+  "recorded_utc": "2026-11-09T18:33:50.285618+00:00",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-exact-diameter.md",
+      "bytes": 5053,
+      "sha256": "eb62542a4bd61d88acb467324618d5ac1c287259785e16c2cba2a5273edfc7ed"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-bounds.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-observed-execution.json",
+      "bytes": 953,
+      "sha256": "66f7bf63f0a76b2d736472a605c12c64256040605430d1d3eb75b60100f22261"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-publication.json",
+      "bytes": 1154,
+      "sha256": "66249d2b129aeea2cc4db56066839e7b4d6957c4abae78735f4e8388199ac9ee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model-v2.md",
+      "bytes": 12748,
+      "sha256": "3c47ec456ce527d344e103aeb5f88aae4dbe618cfefc1341f64c37bd1f8d9a97"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model.md",
+      "bytes": 10540,
+      "sha256": "ed256356fd822783f1af4a3fae41dbeeca9d46ad87619c839fdf88ab780c10eb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-marker-connected-envelope-correction.json",
+      "bytes": 1885,
+      "sha256": "f28b0a10536e86ef3f1a826296a811818f36ac4caf1d736829305f913c760fb3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-marker-models-publication-v2.json",
+      "bytes": 675,
+      "sha256": "e597ec5b98d700d55af75c5ee2c20421eb93ec825310bfcf659165b0c6e6ed0b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model.md",
+      "bytes": 10831,
+      "sha256": "bc635aa9f6a76ac6564d734c4f77fda78b34079e777fd5ecf1b86c5ef46d1c5e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-observed-execution.json",
+      "bytes": 870,
+      "sha256": "f820bc0cb87a4579dfc212c68121770fb22d7dff0e05df5bf858fe16d978c445"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-publication.json",
+      "bytes": 883,
+      "sha256": "4200d61df1457c41c0a337813c00044c25042d5088cb66c1e52492b0d7d7aeb2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json",
+      "bytes": 39604,
+      "sha256": "5b184918f4c5a86f10189c5433cd447af4a822856a2fe569df4439e03efdeb21"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-reproduction.json",
+      "bytes": 40419,
+      "sha256": "ef9a3c058074fb17481dca0b933eee8a69f8f50089c1c8fd6919947e79ad2c3a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-run.log",
+      "bytes": 418,
+      "sha256": "04560403ec060730ca7b572edd5e9e6fa2454269478b55a610f02aeba2abea8a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-summary.json",
+      "bytes": 936,
+      "sha256": "9240a92a79ecdd2f3090597a9084f1723bd95129e4be9f71cd26b42aa753a613"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-config.json",
+      "bytes": 3213,
+      "sha256": "811278d87f3a0f3f489c2141aae867787ea0d791488ba3ccf223bbaaaa80ca1b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-iteration.json.gz",
+      "bytes": 262521,
+      "sha256": "fb1cb3a81f65ae97daf00a2d11ae58a495131bae6e054daa19ce932a16efff4c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-trace.jsonl",
+      "bytes": 3301,
+      "sha256": "6d4be873c89a4636cddbcc38dd0a2be7bc4ec16feec54036cfb3a5919a6e8477"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-trials.jsonl",
+      "bytes": 20277,
+      "sha256": "8f97397cc10be65da720ff20f0befe92ac957b4d270d0ecb50596e49c7d870e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+      "bytes": 272279,
+      "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0002.json.gz",
+      "bytes": 266623,
+      "sha256": "44088a6fce132438771fb83267754f32e8d12043379b8f83c1977eccaad0d1de"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "bytes": 29001,
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "bytes": 2907,
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call004-trace.jsonl",
+      "bytes": 3893,
+      "sha256": "614634fa95c28e655b40684cd0df0191a9b8604c0d289b377ee3f88d57695325"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call004-trials.jsonl",
+      "bytes": 24916,
+      "sha256": "be408b59aa56093a030bbd60b73e5e5061813aff9cd987d211418d070cfec0b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call005-trace.jsonl",
+      "bytes": 2887,
+      "sha256": "a2f033c6a0536e0301fb7452eff227be65fd4cd64b1b0e8fe0b28fc9618112e4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call005-trials.jsonl",
+      "bytes": 25537,
+      "sha256": "6620bfa6e0ecb3e2bafeeeeaa2daee57a9e8cd2254d6ba5b94652cab4922dfbc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "bytes": 3107,
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "bytes": 3800,
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0004.json.gz",
+      "bytes": 266816,
+      "sha256": "f468593571136436165e74e30761a67949eb54a5a393d6dee9911d70ec2a3b30"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0005.json.gz",
+      "bytes": 267382,
+      "sha256": "e87911ee9e703ec76e5fd1328b06a5531f9a869a392077b515d5883547cf00ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-auditor-path-erratum-publication.json",
+      "bytes": 1272,
+      "sha256": "b1f22361ced25c9a699bbec42e8f1883cea88b53934df306e56d032ad657f23f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-auditor-path-erratum.md",
+      "bytes": 2094,
+      "sha256": "675663aee5fa715eaca0b454b8dc0f5c5322691bcd79ee8ea56b010e6c8f6216"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-method.md",
+      "bytes": 8332,
+      "sha256": "58b6bb3265fdec134f2aadee204d7de16adb0ee52fef398cb11fa2911c3fbd71"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-observed-checks.json",
+      "bytes": 1250,
+      "sha256": "9a15c1c199d3cb5e30c6a19a453e85be7e5d9e30f152c556d5e7ec4432244c3e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-publication.json",
+      "bytes": 1376,
+      "sha256": "068d73510a703128bcda8db692bfcdbd6ee069dbd44a21fcebb6cb37fd85d919"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-sources.json",
+      "bytes": 3794,
+      "sha256": "b002023d368e877f179056bb94e2ad52ab954e2adf844539111e47ec2ca45446"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-v2-observed-checks.json",
+      "bytes": 1392,
+      "sha256": "385eec82b997d58a5ab1eae275df765ea114b1fceba97d23eeb2e48c18cb181a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-v2-publication.json",
+      "bytes": 1555,
+      "sha256": "4aacac4f4a17785534918b460fdc6d522ecb87a9fa66edf1820367123b2748a2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-v2-sources.json",
+      "bytes": 2102,
+      "sha256": "35efa713b19ae4a24ccec22584a9f2c9b0105fc02bef7e8c6af34a0ae1de6c95"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-closed-auditor-v2.md",
+      "bytes": 2468,
+      "sha256": "994c6864ca88642a0f2159f7883765f985d7f63f15e4da5db7caae70ebf3e988"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-diagnosis.json",
+      "bytes": 11433,
+      "sha256": "c15fe8ad4b26adea9638acca728bcf170d7cae744b10e1b66b2e923cbacdd702"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-observed-execution.json",
+      "bytes": 1672,
+      "sha256": "867b1bba535fe69f1e488e76e2a87b1c9b04f7b43d9b1f4e555a7cfc527d6c3e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-plan.md",
+      "bytes": 18649,
+      "sha256": "62e59c6b5c4ed63b492db830320497c4e36e0369f5b414c637b117adfbddf7d1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-publication.json",
+      "bytes": 1669,
+      "sha256": "d8f1e74d8245f74ac6d86d1d82c899c26d6a6c3d2331585213fb9a9ac654391b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-sources.json",
+      "bytes": 10118,
+      "sha256": "f0be47e98594c8e46ff6597257dd034fffe88c23becfcb6432fcdbbc2d02c922"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-author-replay.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-independent.json",
+      "bytes": 7473,
+      "sha256": "ff6d27568b755c5262329b5fc6341fd71069021aa622a52378eeb76beb3746f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-observed-execution.json",
+      "bytes": 2932,
+      "sha256": "126498dd00fe485c780833137f2a0ffe67123561029cf9870a0baa57884c4590"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker-publication.json",
+      "bytes": 2218,
+      "sha256": "5a6622505708324dc2253009b0cadb7a8f72b9a3af56016ba4e38d70af1a2894"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-c3-marker.md",
+      "bytes": 12346,
+      "sha256": "fab33d0bca894f10957e8e40d4ea3520d4ce639da69e0d5840741e82edea0214"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-r32-r33-adoption-publication.json",
+      "bytes": 1198,
+      "sha256": "37483f23a04c871fbc0c3d22f3c6e60ee9a4308585fec3092d9cf558fef01efc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-r32-r33-adoption.json",
+      "bytes": 10196,
+      "sha256": "98fd0e30ed1f9780a28eb08fd1ef977c67251bed43036ba464acfb0983071432"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-r32-r33-adoption.md",
+      "bytes": 4208,
+      "sha256": "98dcaa80a171cf0ef724491a02e01438319fc185eb2a5854d4e1c59cbc169859"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-call004-failure-audit.json",
+      "bytes": 3519,
+      "sha256": "ddb6e7f0966d3205d97b49b91365eb2df4f4a0350a4b3078f312161afab678a5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-call005-observed-check.json",
+      "bytes": 482,
+      "sha256": "0420081a60b1293803de9ac266e2391344c80857cad2078cfa808f30c65efcd2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-call005-success-audit.json",
+      "bytes": 2779,
+      "sha256": "4d3b43bf3dac39431769a76fda2a2ab35a9a91e07b93cfb65cc74771da9f10d4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-and-call004-audit-executions.json",
+      "bytes": 2656,
+      "sha256": "2100b8e5a3b602fadbca7aa17037328529f487109bc117a6f2aade1273734b15"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-child-execution-01.json",
+      "bytes": 1331,
+      "sha256": "b6b32393f21b761c47caa09d93b069e02090e7e82fd0c5447218a8a8e2dcdd1a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-failure-and-next-interface.md",
+      "bytes": 2830,
+      "sha256": "7be6b53b4413545954cdf002a21e012645a120b7fad091435367991863e53308"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-final-failure-audit-v2.json",
+      "bytes": 42232,
+      "sha256": "fa3861adbf609c61301f958cda6a921ddbdf57ca6f654328ad60037f35795988"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-first-dn-full-audit-v2.json",
+      "bytes": 38292,
+      "sha256": "d068833a3e632771612b0060a9cd9e72d560736dd4d063386e9729d1a28b4ed5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-guarded-launch-01.json",
+      "bytes": 40542,
+      "sha256": "eeb885a6382575888ed095a455aa2a99bf06b582d6758fd1d1c2a8d0de5b45c4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-input-adoption.json",
+      "bytes": 39765,
+      "sha256": "4fb2c524edf09abdfc6bd3532d0dc55bd12cb56b72fed4fedbbff7b176a2c19d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-observed-execution-01.json",
+      "bytes": 6034,
+      "sha256": "1f7a7290c5c65a9f73531cd0edddf8f15b0290477be7d0b74eff9a3d5ba57334"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-started-01.json",
+      "bytes": 1076,
+      "sha256": "1a3513776a36bdcfa2522b821490f999b873209e66a1836b8798ff4031f57600"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-publication-sparse-observed.json",
+      "bytes": 1872,
+      "sha256": "93384a66730a9fd707dcdab89df98b8027f975e2e1e34d96ec21b2cca939c1ee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-publication-sparse-postcheck.json",
+      "bytes": 12079,
+      "sha256": "9c2a62e1a730787d6be6ca324f26fa772c5881f8f439af6a5b585e972f8ec812"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-publication-sparse-reapply-preflight.json",
+      "bytes": 1014,
+      "sha256": "0735d04d8699f89f5dab45dc8ee8f1e2487a78b3ace73b00e6fbf17ceddb3c03"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-publication-sparse-scope.md",
+      "bytes": 1774,
+      "sha256": "4b2033227e177ba5723f12b36a7d6bb82ed51378c3958139e52d4240555ad690"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r32-r34-adoption-check.json",
+      "bytes": 10608,
+      "sha256": "9ce110720e14ee318ca6054a26f9c52595129fc031173bad8084dee51e3112f7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-27.json",
+      "bytes": 1726,
+      "sha256": "8a252fb22843b2134d85132d9be53255136a4b0849264f1d27f67fac5f63c1fd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-28.json",
+      "bytes": 1666,
+      "sha256": "9226c80b8c2f7226d684fc09d13fa07b6337c7224a1002ee2b4fb91d4f9fc83b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-29.json",
+      "bytes": 1534,
+      "sha256": "7ad71b49db558cc5ca31263023725aa42e56a157b7f448f87ea22040d97903df"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-30.json",
+      "bytes": 535,
+      "sha256": "1a7176f4a54759c6db623378a2affede976d92face3b0c5779ed88c36b8027a2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-readonly-pack-coverage.json",
+      "bytes": 35539,
+      "sha256": "3e4fbf47dcad70ef3bd8a80e9350fe002f013b8bd7bd00379f742c21e353474d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-readonly-publication-exception.json",
+      "bytes": 985,
+      "sha256": "c744af3cc8101eed54ff93677d1158cfab728db2a8d6c08be33dbaaea2c8956c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-readonly-publication-sparse-preflight.json",
+      "bytes": 11151,
+      "sha256": "df9aecaa0a19fcb3fdfb61d389d99b75fdaa7254eb26d8039e7d9621ef712abd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-readonly-space-observed.json",
+      "bytes": 2313,
+      "sha256": "0ed8a42f0a09d90ecba0bd8d6f2ecd2c96e0025e61c522814132a68dd8e3c7d2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-readonly-space-review.md",
+      "bytes": 8992,
+      "sha256": "df487de36ec220eca827077c0ea1e34e5fb9801f2e3001dbcb4739f0b5ca1be0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-auditor-check.json",
+      "bytes": 42387,
+      "sha256": "668039b7c1ead7a246fdf401f33b098042ed33ca2e6a0911bb0f92c3ccae5001"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-auditor-observed.json",
+      "bytes": 2117,
+      "sha256": "4bc176bba13f6ee84dda7e47f023b6506bcebf04e49db46f7fd4eafccdd1d783"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-auditor.md",
+      "bytes": 11910,
+      "sha256": "3faef801dfea02f658936942f48c5717a3608dab074cf8eb3586fc512e200f8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-check.json",
+      "bytes": 5439,
+      "sha256": "e56a82d3f663792bff6fdf869806684a72859ec77dc5e2539693325f16f87377"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-observed.json",
+      "bytes": 2860,
+      "sha256": "da125ca663ec71ed042000b772f191b58241c34d15835a9131a57a09edeebdfc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker.md",
+      "bytes": 14976,
+      "sha256": "40da27583d791aab3227e33b94a3f6017695d1b1d264922d6a3dcdb77f19e027"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-r34-adoption-check.json",
+      "bytes": 1578,
+      "sha256": "bfcefcfd549022ed7663bbd5856f506d223cb18076e98e0f8c7aae9cc7b194fa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-r34-adoption.md",
+      "bytes": 2719,
+      "sha256": "37fb1ad642c93a2058e3abdb51a6f67625b4c7871e793c658d403b4b766196d9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R32-c3-n7-exact-global-diameter.md",
+      "bytes": 6089,
+      "sha256": "3fdc8b16d5e54bbc56d054328695142838fb4f5f28b2205ecb015f8ec5fc3e16"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R33-fixed-marker-diameter-gap-and-one-sided-transfer.md",
+      "bytes": 13942,
+      "sha256": "9868f6e4d2a95613154776e37ff51f936411e192d3c3b2fea64902ec5ba471a9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R34-poisson-twin-caps-conditional-strong-ratios.md",
+      "bytes": 14623,
+      "sha256": "b6549b3388cce38e826bd29bf65041d019ddd91a9a54031ca4a77119d76314ae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-c3-marker-bounds.py",
+      "bytes": 9646,
+      "sha256": "b0064c43b8a20d45aff26b89f52484793a098c99a4560d8d542fd8545321e24e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-matched-cut-closed-v2.py",
+      "bytes": 29240,
+      "sha256": "00c048161cde786c830199d092b76e4a6027e081eab180e2fc449133515050a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-matched-cut-closed.py",
+      "bytes": 29238,
+      "sha256": "af5349d6ea2d7f5f3331aee245bd04b605e0cf6d006d2fb25979fd2adf312b31"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-matched-cut-dn-request-compare.py",
+      "bytes": 9507,
+      "sha256": "90797d13186e2fe53c8fed1e7fe9d58e6799c9a1b70d33921b46ba3a44e7d45b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-c3-marker.py",
+      "bytes": 12678,
+      "sha256": "d297fc34d50224a0db2b34500c191590f5b1b02b88310c6e0f56aad83b5cccca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-r32-r33-adoption.py",
+      "bytes": 4635,
+      "sha256": "52aa28d0977f31d0b320602e48adcc354d5cc9a1908a4148fb7fe54ae0f1e021"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-continuation03-call004.py",
+      "bytes": 4810,
+      "sha256": "ddab07c62198543377b7175b7a3313824004358a1b4eec57bdf9c9a8c1eeeb8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+      "bytes": 6899,
+      "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-readonly-pack-coverage.py",
+      "bytes": 12425,
+      "sha256": "2cef59cbccf8c96a7692fdaaf57e399d0d3ddae7b69e8fffbbb5a129f1deebe5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-readonly-worktree-duplicates.py",
+      "bytes": 9321,
+      "sha256": "a3b293b2a388b77b65b02e67ba936bb3ff20fd9e24a9aba7453b8871f554cd29"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-matched-cut-auditor.py",
+      "bytes": 9754,
+      "sha256": "5fcde178c893498ab31824b98bce6caff8a6cad0838b64f1c441629c4bc9058c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-poisson-twin-marker.py",
+      "bytes": 10486,
+      "sha256": "aaf4e4561c7eecfc3b21649f7a3ca31d607c42d741bd07f6fa4f09ae613e2a6c"
+    }
+  ],
+  "total_bytes": 2345516,
+  "scope": "R32-R34 full proofs and independent reviews; matched first DN success but closed second-DN failure; original03 closed call004 failure/call005 warm success; static new adapter proposal only; reversible publication checkout observations. No active progress/logs, final solver success or G5 completion."
+}

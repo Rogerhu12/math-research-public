@@ -1,0 +1,9 @@
+{
+  "scope": "Read-only first-packet/final-close audit for the new true M14 W14 run.\n\nOnly source hashes, JSON, saved polynomial arrays and polynomial evaluation\nare used. No BVP, DN, original flow or candidate initializer is called.\nFinal CLI mode additionally requires root's real tool-exit observation.\n",
+  "mode": "final",
+  "ready": false,
+  "solver_calls": 0,
+  "active_trace_read": false,
+  "status": "NOT_READY_OR_REJECTED",
+  "reason": "ValueError('Root observed a nonzero tool exit')"
+}

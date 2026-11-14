@@ -1,0 +1,43 @@
+{
+  "status": "observed-process-started-not-completed",
+  "observer": "/root/independent_audit",
+  "stem": "2026-11-10-78718-independent-m14-seed8000-01",
+  "session_id": 23125,
+  "tool_receipt": "7d2471",
+  "actual_exit_code": null,
+  "observed_at_utc": "2026-11-10 08:21:04 UTC",
+  "observation_scope": "Actual /root/independent_audit orchestration tool return; timestamp is the recording time, not exact process wall-end. Guard metadata is not used to infer an exit.",
+  "tool_return_metadata": {
+    "chunk_id": "7d2471",
+    "wall_time_seconds": 1.001014241,
+    "session_id": 23125,
+    "original_token_count": 96
+  },
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-independent-tool-observation-v1.py",
+    "bytes": 3825,
+    "sha256": "65daca0b3bc7b8512bab1fff4edf672c2d158a0b21198b2d0f5a23815a7f0a6b"
+  },
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+      "bytes": 100701,
+      "sha256": "a00359ad76c53e92890f5cd098878929838b6505923deaef92d5603bec421019"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-preparation.json",
+      "bytes": 6749,
+      "sha256": "846d3f2e8fb85b595d1a93460348714043af1a58f0f43ac14df102645faab3e5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-guard-launch.json",
+      "bytes": 49374,
+      "sha256": "5dad81b17ce9e382933f10bf4e52c0c4cd6fee6bb86c8e54c93e4cc839a26e4b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-tail-config.json",
+      "bytes": 2682,
+      "sha256": "9b6540d8769c60873ab7e61892beed116bd45bb01b10fe0a34f99c92b402992e"
+    }
+  ]
+}

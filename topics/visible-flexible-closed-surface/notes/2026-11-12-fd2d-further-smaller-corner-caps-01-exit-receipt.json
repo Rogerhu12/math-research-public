@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-observed-exit-receipt-v1",
+  "command": "python scripts/fd2d_further_smaller_corner_caps.py --out notes/2026-11-12-fd2d-further-smaller-corner-caps-01-report.json",
+  "execution_chunk": "c8aa0d",
+  "observed_exit_code": 0,
+  "observed_tool_wall_seconds": 0.040407439,
+  "reported_internal_seconds": 0.0014194249961292371,
+  "preceding_paper_parameter_check": {
+    "chunk": "e963bf",
+    "exit": 0,
+    "scope": "Exact Fractions for the same four finite parameter/domain pairs; no persistent report at that time"
+  },
+  "preceding_floor_comparison": {
+    "chunk": "0f5ec0",
+    "exit": 0,
+    "scope": "Four exact rational inequalities; no nonlinear solve"
+  },
+  "scope": "Only complete-cap sufficient scalar inequalities and a restricted proof-budget lower bound; no actual whole core claim or source mutation."
+}

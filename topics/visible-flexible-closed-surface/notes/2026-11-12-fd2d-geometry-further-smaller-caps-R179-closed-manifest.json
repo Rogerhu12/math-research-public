@@ -1,0 +1,44 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "theorem": "R179",
+  "scope": "Two complete R168 cap variants with strict strong-ratio budgets, conditional on actual full-core geometry; D<=3.05 excluded only within the explicitly stated sufficient budget.",
+  "files": [
+    {
+      "path": "results/R179-complete-caps-for-diameter-three-point-five-and-three-point-two.md",
+      "bytes": 12179,
+      "sha256": "7da8f092adfde27ee2c59e93fb9fb979b9863355c9310c599767e2a76cbe62fc"
+    },
+    {
+      "path": "scripts/fd2d_further_smaller_corner_caps.py",
+      "bytes": 9087,
+      "sha256": "9c7d022b765218a1b71a9d7f8c5062b3ae07b36f60bcac504cf27d09cc318dc9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-further-smaller-corner-caps-01-report.json",
+      "bytes": 34073,
+      "sha256": "f128a9c65589234c62a61f32ca8d7b7d7c57070ab42e7672e8dce9978d74cc02"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-further-smaller-corner-caps-01-exit-receipt.json",
+      "bytes": 837,
+      "sha256": "2eb6186d7b4644f202c49b991bd485fa37998ac1495bde10b16470fd07ac84db"
+    }
+  ],
+  "file_count": 4,
+  "total_bytes": 56176,
+  "actual_rational_budget_exit": 0,
+  "new_main_candidate_installed": false,
+  "whole_surface_certified": false,
+  "strong_target_completed": false,
+  "prose_corrections": [
+    {
+      "scope": "R179 section7 equation19 and its preceding sentence",
+      "original_proof_sha256": "5506ce2bca069b996b20d6136d1d46ca29fd1beda60e525bb36526d635ae9a76",
+      "new_proof_sha256": "7da8f092adfde27ee2c59e93fb9fb979b9863355c9310c599767e2a76cbe62fc",
+      "description": "R/D_upper and (b-epsilon-W)/D_upper sufficient lower bounds allow equality; replace R>R0 and b>b0 with >=. The strict cap-ball/marker inequalities and negative F(3.05) still exclude the same sufficient budget.",
+      "no_computation_rerun": true,
+      "numeric_source_and_report_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-compressed-piecewise-offline-reader-source-probe-v1",
+  "passed": true,
+  "source": {
+    "name": "fd2d-gc-compressed-piecewise-normal-reduce.py",
+    "bytes": 23369,
+    "sha256": "5416025f947fc02a7fafb84291b9a4272ba7839717618a20e491ea2c92579021"
+  },
+  "original_reducer_source": {
+    "name": "fd2d-gc-piecewise-normal-reduce.py",
+    "bytes": 16064,
+    "sha256": "870447554f40d4c4ea0a45fd3d9ad2cd4002c8a27de0cea291e0d16f559237d2"
+  },
+  "frozen_io_sources": {
+    "helper": {
+      "name": "fd2d_gc_compressed_normal_tile.py",
+      "bytes": 10561,
+      "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+    },
+    "normal_transport": {
+      "name": "fd2d_gc_normal_checkpoint.py",
+      "bytes": 16976,
+      "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+    },
+    "capsule_transport": {
+      "name": "fd2d_gc_normal_capsule.py",
+      "bytes": 12264,
+      "sha256": "da1f00e2936472b0a7824ebd6ea4f460eb1f5086a810e8b4c4128c9c14e73d34"
+    }
+  },
+  "compressed_read_functions_AST_equal_except_explicit_schema_constant": {
+    "_read": true,
+    "read_logical_manifest": true,
+    "read_logical_piece": true
+  },
+  "scipy_or_original_normal_imported": false,
+  "normal_reduced_or_loaded": false,
+  "F_J_BVP_or_body": false,
+  "runtime_scope": "AST/formula identity and source bindings only; first complete compressed consumption belongs to later actual solve",
+  "prior_probe_attempts": [
+    {
+      "chunk": "9bde44",
+      "exit_code": 1,
+      "reason": "old /tmp synthetic capsule not retained after environment recovery"
+    },
+    {
+      "chunk": "4ce2df",
+      "exit_code": 1,
+      "reason": "31 raw tiles already archived into normal-tiles-gzip-closed; source/input-index retained"
+    }
+  ]
+}

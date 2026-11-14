@@ -1,0 +1,89 @@
+{
+  "status": "PASS-fixed-target-and-exact-actual-error-decrease-comparison",
+  "script_sha256": "93e78bc39ad401ff42c53c7c3dfd537d92908b7542374df449dbbd388ad0db0e",
+  "inputs": {
+    "old_geometry": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m8s32.json",
+      "sha256": "4f00d33a2add41b5711d805866228ff082786f597ab2362d6bd3a0c10a704524"
+    },
+    "new_geometry": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "old_bridge": {
+      "file": "notes/2026-11-09-db6f-root-exact-bridge.json",
+      "sha256": "ed4d391fbdfff3bd5f807cdeea80095c9c6ee38a82f7a0f252977fbde6049448"
+    },
+    "new_bridge": {
+      "file": "notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    "old_witness": {
+      "file": "notes/2026-11-09-db6f-root-tail-m8-point-metric-witness.json",
+      "sha256": "ff72e2e79b9595deb560237c14149708d4b42fbee1f2a1e2762923682dc6c7c6"
+    },
+    "new_whole": {
+      "file": "notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+      "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5"
+    },
+    "independent_new_whole": {
+      "file": "notes/2026-11-09-db6f-audit-whole-metric-reach-m12-critical-lowmetric.json",
+      "sha256": "8fad34b4b7512455d135568a65079aa5549c6d2d5f0a3c4446d5d5da868cae7c"
+    },
+    "new_packet": {
+      "file": "notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+      "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+    }
+  },
+  "unchanged_prefix_definition_fields": [
+    "frozen_profile",
+    "chart",
+    "warp_reference_q",
+    "ell",
+    "profile_loader_sha256",
+    "profile_implementation_sha256"
+  ],
+  "unchanged_exact_bridge_definition_and_unique_root_fields": [
+    "script_sha256",
+    "physical_cut_radius_exact",
+    "physical_cut_slope_exact",
+    "physical_cut_second_derivative_exact",
+    "exact_pt",
+    "exact_ps",
+    "exact_L",
+    "gap_at_left",
+    "gap_at_right",
+    "gap_derivative_lower_exact",
+    "unique_root_in_box",
+    "arclength_rescale",
+    "phase_upper"
+  ],
+  "same_nonempty_tail_background_definition_hashes": true,
+  "independent_whole_exact_scalar_fields_equal": [
+    "original_full_certificate_tail_metric_upper",
+    "prefix_metric_upper",
+    "tail_metric_upper",
+    "whole_metric_operator_upper",
+    "prefix_curvature_upper",
+    "tail_curvature_upper",
+    "cap_curvature_upper",
+    "whole_principal_curvature_upper",
+    "whole_support_lower",
+    "diameter_upper",
+    "whole_reach_lower_by_R10",
+    "whole_reach_over_diameter_lower",
+    "held_region_diameter_over_diameter_lower",
+    "hold_over_diameter_lower"
+  ],
+  "cap_metric_reason": "R16 uses the same radius and bump functions; vertical translation of each cap does not change its intrinsic metric.",
+  "old_whole_error_lower_exact": "3822257938076237/18889465931478580854784",
+  "new_whole_error_upper_exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+  "ratio_old_lower_over_new_upper_exact": "302830473089341020022835152028772777309765632/38493756262750339563330485335957988971213899",
+  "ratio_display_approx": 7.867002404812964,
+  "new_actual_error_strictly_less_than_old_actual_error_divided_by": "393/50",
+  "old_error_exceeds_decimal": "2.02348e-7",
+  "new_error_below_decimal": "2.57212e-8",
+  "fixed_g_convergence_gate_5_paid": false,
+  "README_complete": false,
+  "proof_scope": "Composes reviewed old-point lower and new-whole upper certificates. The exact finite maps differ and both target the same fixed metric. One strict refinement improvement is not an infinite convergence theorem."
+}

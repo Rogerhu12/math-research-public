@@ -1,0 +1,59 @@
+{
+  "README_complete": false,
+  "active_writers": false,
+  "author_inventory_reference_only": {
+    "bytes": 1820,
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-core-closed-inventory.json",
+    "sha256": "bb7fd9a08e9a833073f22a0fcc5aea8f55adaa5f2faf3b0f21da5d2393d6b527"
+  },
+  "closed": true,
+  "date": "2026-11-09",
+  "file_count": 8,
+  "files": [
+    {
+      "bytes": 7615,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-poisson-check.py",
+      "sha256": "32555fe71af3907dd41ff53e0c1b85bafc72854666ae283048a7da3fbd74c2d7"
+    },
+    {
+      "bytes": 6827,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-c3-finite-check.py",
+      "sha256": "05814efba32df9423b8ae86d5cad918ae4abd2884290d154913a4018f36c219f"
+    },
+    {
+      "bytes": 28270,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-replay.json",
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "bytes": 15306,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-poisson-check.json",
+      "sha256": "954f6c8eb2cea48ad0852265bef36f9a391d3ee0c5710f234077373ed4aeab58"
+    },
+    {
+      "bytes": 23434,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-replay.json",
+      "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+    },
+    {
+      "bytes": 4806,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-check.json",
+      "sha256": "b9bdf72324d06a49402365b2882fb061774720ea9d8d7d2b3c0034bcaa6bf240"
+    },
+    {
+      "bytes": 13216,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-core-proofs.md",
+      "sha256": "f6fdf3ec47e9019338fd0e5f4d6e5de3e0e866c8118c8d889ff35f6076c76779"
+    },
+    {
+      "bytes": 5666,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-core-observed-execution.json",
+      "sha256": "a1f337d654141b696b4808dab3b8714a695702487f5d1f4464c6584767c951bd"
+    }
+  ],
+  "purpose": "Independent full review and two separate exact reconstructions for Poisson and finite positive trigonometric unclosed cores.",
+  "reviewer": "/root/tail_theory",
+  "schema": "db6f-tail-closed-publication-v1",
+  "solver_calls": 0,
+  "total_bytes": 105140
+}

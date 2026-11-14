@@ -1,0 +1,673 @@
+{
+  "schema": "fd2d-positive-coast-clock-actual-check-v1",
+  "candidate": "2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+  "candidate_sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147",
+  "reader_sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47",
+  "check_source_sha256": "071d4496e93ebf56d09a451fa2d014cbc84049488c4899df46bd538c156cb3a3",
+  "point_count": 713,
+  "parameter_checks": [
+    {
+      "T": 0.001,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.001,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.3271694830878116,
+        "minimum_s_x": 0.0025000000000000005,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 0.05,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 1.0926360917728688,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 1.1102230246251565e-16,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.0025000000000000005,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 3.0369330661361715e-10,
+          "max_scaled": 2.9193205356452446e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 1.6160047466851069e-09,
+          "max_scaled": 1.5610533093977856e-09
+        },
+        "radial_scale": {
+          "max_absolute": 1.0105354874667682e-05,
+          "max_scaled": 2.480594564518886e-08
+        },
+        "K": {
+          "max_absolute": 6.644387262610962e-10,
+          "max_scaled": 4.3476530824674327e-10
+        },
+        "c": {
+          "max_absolute": 3.5489233773944306e-10,
+          "max_scaled": 3.3592857393839315e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": false,
+      "old_quintic_chart_message": "The radial design chart needs recentering at another T; no physical nonexistence assertion"
+    },
+    {
+      "T": 0.02,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.02,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.344258724456249,
+        "minimum_s_x": 1.0,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 1.0,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 1.0,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 0.0,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.9999999999999998,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 4.710590411662052e-10,
+          "max_scaled": 4.707558590835177e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 3.6618068126326175e-10,
+          "max_scaled": 3.6617827238234584e-10
+        },
+        "radial_scale": {
+          "max_absolute": 1.1335730576433889e-08,
+          "max_scaled": 1.054372050142661e-09
+        },
+        "K": {
+          "max_absolute": 2.0442183501501177e-09,
+          "max_scaled": 1.245959363007899e-09
+        },
+        "c": {
+          "max_absolute": 4.822518079317106e-10,
+          "max_scaled": 4.2936154844021714e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": true
+    },
+    {
+      "T": 0.129,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.129,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.4422970038857035,
+        "minimum_s_x": 0.2195497558166541,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 6.45,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 0.46856136825036493,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 1.1102230246251565e-16,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.2195497558166541,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 2.8509455907155257e-10,
+          "max_scaled": 2.649453093318752e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 8.579739141367781e-10,
+          "max_scaled": 4.289883306868574e-10
+        },
+        "radial_scale": {
+          "max_absolute": 4.130697561777197e-08,
+          "max_scaled": 9.869600916387396e-10
+        },
+        "K": {
+          "max_absolute": 9.18474296618399e-10,
+          "max_scaled": 5.953883228736964e-10
+        },
+        "c": {
+          "max_absolute": 5.824452196587226e-10,
+          "max_scaled": 5.788873188676804e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": true
+    },
+    {
+      "T": 0.15,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.15,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.4611851127666076,
+        "minimum_s_x": 0.13408347804515192,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 7.5,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 0.3661741089224522,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 2.220446049250313e-16,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.13408347804515192,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 4.73274227943205e-10,
+          "max_scaled": 4.73273414524837e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 4.0067693607426236e-10,
+          "max_scaled": 3.438255893232665e-10
+        },
+        "radial_scale": {
+          "max_absolute": 1.2403489790813182e-08,
+          "max_scaled": 1.5023340759547864e-09
+        },
+        "K": {
+          "max_absolute": 2.3000182869381547e-09,
+          "max_scaled": 1.3873251208362998e-09
+        },
+        "c": {
+          "max_absolute": 5.014303416928101e-10,
+          "max_scaled": 4.4397449694138993e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": false,
+      "old_quintic_chart_message": "The radial design chart needs recentering at another T; no physical nonexistence assertion"
+    },
+    {
+      "T": 0.2,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.2,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.5061568005782842,
+        "minimum_s_x": 0.014980516453182453,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 10.0,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 0.12239492004647273,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 1.1102230246251565e-16,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.014980516453182453,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 2.626217666184537e-10,
+          "max_scaled": 2.6262157600945545e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 5.086858712033404e-10,
+          "max_scaled": 2.5434293643924145e-10
+        },
+        "radial_scale": {
+          "max_absolute": 3.319655661471188e-08,
+          "max_scaled": 1.4778676382175732e-09
+        },
+        "K": {
+          "max_absolute": 1.3501555429229484e-09,
+          "max_scaled": 8.110597628266149e-10
+        },
+        "c": {
+          "max_absolute": 5.183399820474222e-10,
+          "max_scaled": 4.548207321635959e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": false,
+      "old_quintic_chart_message": "The radial design chart needs recentering at another T; no physical nonexistence assertion"
+    },
+    {
+      "T": 0.22,
+      "step": 2e-07,
+      "definition": {
+        "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+        "reference_T": 0.02,
+        "actual_T": 0.22,
+        "physical_T_domain": [
+          0.0,
+          0.22510364412376974
+        ],
+        "computational_endpoint": 1.344258724456249,
+        "actual_physical_endpoint": 1.5241454757029547,
+        "minimum_s_x": 0.0006191758566517973,
+        "changing_coasts": [
+          85,
+          87
+        ],
+        "coast_ratio": "q=L(T)/L_ref",
+        "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+        "coast_map": "s=s0(T)+L(T)*theta/pi",
+        "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+        "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+        "clocks": {
+          "85": {
+            "ratio": 11.0,
+            "ratio_T": 50.0,
+            "length_T": 1.0
+          },
+          "87": {
+            "ratio": 0.024883244496082042,
+            "ratio_T": -4.875583777519576,
+            "length_T": -0.10056624376647048
+          }
+        },
+        "other_piece_map": "s=s0(T)+L*tau",
+        "exact_clock_positive_for_every_positive_physical_coast": true,
+        "physical_metric_changes_with_T": true,
+        "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+        "source_of_endpoint_values": "analytic exact endpoint overrides",
+        "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+      },
+      "physical_scalar_composition_error": {
+        "a": 1.1102230246251565e-16,
+        "a_s": 0.0,
+        "a_ss": 0.0
+      },
+      "actual_minimum_radial_scale_sample": 0.0006191758566517973,
+      "JVP_errors": {
+        "a": {
+          "max_absolute": 2.555169785429819e-10,
+          "max_scaled": 2.555168391792175e-10
+        },
+        "a_s": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "a_ss": {
+          "max_absolute": 0.0,
+          "max_scaled": 0.0
+        },
+        "s": {
+          "max_absolute": 4.395384715916162e-10,
+          "max_scaled": 4.3953607027775e-10
+        },
+        "radial_scale": {
+          "max_absolute": 1.275946033274522e-07,
+          "max_scaled": 1.3586923569877967e-09
+        },
+        "K": {
+          "max_absolute": 2.6856111778883474e-09,
+          "max_scaled": 1.7290503186564638e-09
+        },
+        "c": {
+          "max_absolute": 3.823355521070937e-10,
+          "max_scaled": 3.75381413371021e-10
+        }
+      },
+      "cut_jet": [
+        0.8,
+        -1.0,
+        0.0
+      ],
+      "old_quintic_chart_accepted": false,
+      "old_quintic_chart_message": "The radial design chart needs recentering at another T; no physical nonexistence assertion"
+    }
+  ],
+  "same_reference_chart_errors": {
+    "a": 0.0,
+    "a_s": 0.0,
+    "a_ss": 0.0,
+    "s": 0.0,
+    "radial_scale": 2.220446049250313e-16
+  },
+  "analytic_endpoint_evaluations": [
+    {
+      "ratio": 0.0001,
+      "J": [
+        0.0,
+        5e-05,
+        0.0001
+      ],
+      "J_q": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1e-08,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        0.0002,
+        0.0
+      ]
+    },
+    {
+      "ratio": 0.01,
+      "J": [
+        0.0,
+        0.005,
+        0.01
+      ],
+      "J_q": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        0.0001,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        0.02,
+        0.0
+      ]
+    },
+    {
+      "ratio": 0.2,
+      "J": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "J_q": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        0.04000000000000001,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        0.4,
+        0.0
+      ]
+    },
+    {
+      "ratio": 1.0,
+      "J": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "J_q": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "ratio": 5.0,
+      "J": [
+        0.0,
+        2.4999999999999996,
+        5.0
+      ],
+      "J_q": [
+        0.0,
+        0.49999999999999983,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        25.0,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "ratio": 10000.0,
+      "J": [
+        0.0,
+        4999.999999998051,
+        10000.0
+      ],
+      "J_q": [
+        0.0,
+        0.49999999999961026,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        100000000.0,
+        1.0
+      ],
+      "scale_q": [
+        0.0,
+        20000.0,
+        0.0
+      ]
+    }
+  ],
+  "scope": "Exact definition/proof is R131; these are actual finite composition and centered-JVP checks, not an interval surface certificate.",
+  "seconds": 1.4866225669993582
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "fd2d-prefix-linear-progress-v1",
+  "complete_prefix_domain": false,
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+    "bytes": 7139,
+    "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+  },
+  "start": 0,
+  "next_cell": 20,
+  "total_radial_cells": 3604,
+  "angular": 1024,
+  "radial_subdivisions": 1,
+  "completed_cells": 20,
+  "maximum": 5.049856522137292e-10,
+  "worst_interval": {
+    "cell": 14,
+    "subdivision": 0,
+    "left_exact": "7251841043884375/9223372036854775808",
+    "right_exact": "1942457422469029/2305843009213693952",
+    "linear_operator_upper": 5.049856522137292e-10,
+    "all_angle_attempts": [
+      {
+        "angular": 1024,
+        "bound": 5.049856522137292e-10
+      }
+    ],
+    "exact_nonzero_geometry_modes": 24,
+    "prior_upper_if_refined": null
+  },
+  "peak_rss_bytes": 430440448,
+  "seconds": 41.06886890799797,
+  "reused_intervals": 0,
+  "newly_computed_intervals": 20,
+  "prior_checkpoint": null
+}

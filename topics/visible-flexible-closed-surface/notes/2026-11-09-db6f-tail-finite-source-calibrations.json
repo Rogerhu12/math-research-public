@@ -1,0 +1,902 @@
+{
+  "status": "frozen-finite-source-geometry-constants",
+  "scope": "Freeze the finitely many source calibration outputs as geometry constants.\n\nThese constants need not solve a hidden exact calibration equation. The\ninfinite source from n=160 onward keeps its separate reviewed definition.\nThe global radial-width multiplier remains an exact integral-defined value.\n",
+  "scriptSHA256": "dee241344a517ce92d461e1da483da1034daacb38aa56af536b78b49917e2361",
+  "bookkeepingSHA256": "66c4d9cf819925840ad85cbec66de6c4d1b51f89b71eeb69385e70a5294fb1f7",
+  "sourceHashes": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575"
+  },
+  "calibrationParameters": {
+    "delta0": 0.006,
+    "R": 64,
+    "a": 2.75,
+    "etaPower": 1.5,
+    "etaRatioAtN0": 0.05,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "prefixRByCell": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3.0844216508158815,
+      4.756828460010883,
+      7.33603234563737,
+      11.31370849898476,
+      17.448123722644116,
+      26.908685288118864,
+      41.4988657488323,
+      63.99999999999998
+    ],
+    "calibrationSteps": 512,
+    "rejoinR20At": null,
+    "rejoinIndexOffset": 4
+  },
+  "candidateParameterEqualityVerified": true,
+  "checkedCandidates": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-coupled-v2-m8-q0p02_tail_0024.json.gz",
+      "sha256": "78487aa61d9c15f13022c78a6d22865143936154613d4950cb08531ddfc05936",
+      "modes": 8,
+      "steps": 32,
+      "shootingParts": 2,
+      "physicalDepth": 10
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-q02-m8-native64.json.gz",
+      "sha256": "234a222d7e74863f6d966086ec88cceccf7b478d49e23bbcf83193a88f0fd3ba",
+      "modes": 8,
+      "steps": 64,
+      "shootingParts": 2,
+      "physicalDepth": 10
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-q02-m8-native128.json.gz",
+      "sha256": "fc9abfa2650081cf541104b91f06ba9b77e50f78019ec8d1ace94211b4869eba",
+      "modes": 8,
+      "steps": 128,
+      "shootingParts": 2,
+      "physicalDepth": 10
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0",
+      "modes": 8,
+      "steps": 32,
+      "shootingParts": 2,
+      "physicalDepth": 10
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64_tail_0018.json.gz",
+      "sha256": "eb95371195e5a7c6ba2d87fcea0bc63cb80278d437e084012edcc3a66a5492a5",
+      "modes": 8,
+      "steps": 64,
+      "shootingParts": 2,
+      "physicalDepth": 10
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0001.json.gz",
+      "sha256": "79b07c7c1a8c96393c7f3a0ab5d543d968bb0deb6f81f00e41208b0b0cc8f12c",
+      "modes": 12,
+      "steps": 64,
+      "shootingParts": 4,
+      "physicalDepth": 12
+    }
+  ],
+  "minimumExact": "571647791199689/562949953421312",
+  "maximumExact": "6733419536648591/4503599627370496",
+  "allAtLeastOneHalf": true,
+  "allAtMostTwo": true,
+  "constants": [
+    {
+      "n": 0,
+      "value": 1.426600691200502,
+      "hex": "0x1.6d35b3f1283b1p+0"
+    },
+    {
+      "n": 1,
+      "value": 1.4511892307290415,
+      "hex": "0x1.7381232e49e3cp+0"
+    },
+    {
+      "n": 2,
+      "value": 1.4671824055755691,
+      "hex": "0x1.7799442136b39p+0"
+    },
+    {
+      "n": 3,
+      "value": 1.4777685800718818,
+      "hex": "0x1.7a4f0aaa77102p+0"
+    },
+    {
+      "n": 4,
+      "value": 1.484859635571786,
+      "hex": "0x1.7c1fc2d5ee69ap+0"
+    },
+    {
+      "n": 5,
+      "value": 1.489648331334028,
+      "hex": "0x1.7d5997d19ee12p+0"
+    },
+    {
+      "n": 6,
+      "value": 1.4929008752766033,
+      "hex": "0x1.7e2ec0737b97ep+0"
+    },
+    {
+      "n": 7,
+      "value": 1.4951194808096238,
+      "hex": "0x1.7ec02679b098fp+0"
+    },
+    {
+      "n": 8,
+      "value": 1.3212372822395673,
+      "hex": "0x1.523c9b457990ap+0"
+    },
+    {
+      "n": 9,
+      "value": 1.2083471511239083,
+      "hex": "0x1.35563d284abdap+0"
+    },
+    {
+      "n": 10,
+      "value": 1.1350946408417388,
+      "hex": "0x1.22958ff847b6ep+0"
+    },
+    {
+      "n": 11,
+      "value": 1.0875802497625087,
+      "hex": "0x1.166ba8c481679p+0"
+    },
+    {
+      "n": 12,
+      "value": 1.0567689044175594,
+      "hex": "0x1.0e88682be7360p+0"
+    },
+    {
+      "n": 13,
+      "value": 1.0367928368227133,
+      "hex": "0x1.096b415ee1703p+0"
+    },
+    {
+      "n": 14,
+      "value": 1.023843615045911,
+      "hex": "0x1.061a9d7ad731ap+0"
+    },
+    {
+      "n": 15,
+      "value": 1.0154504636256139,
+      "hex": "0x1.03f48fc3fae48p+0"
+    },
+    {
+      "n": 16,
+      "value": 1.0155036195865008,
+      "hex": "0x1.03f80b9317f93p+0"
+    },
+    {
+      "n": 17,
+      "value": 1.0155405231626,
+      "hex": "0x1.03fa76b6bf004p+0"
+    },
+    {
+      "n": 18,
+      "value": 1.015566166416774,
+      "hex": "0x1.03fc24efaf23bp+0"
+    },
+    {
+      "n": 19,
+      "value": 1.0155839996901659,
+      "hex": "0x1.03fd502102985p+0"
+    },
+    {
+      "n": 20,
+      "value": 1.0155964108299032,
+      "hex": "0x1.03fe205a730cdp+0"
+    },
+    {
+      "n": 21,
+      "value": 1.0156050542980388,
+      "hex": "0x1.03feb15ddcc50p+0"
+    },
+    {
+      "n": 22,
+      "value": 1.015611077624665,
+      "hex": "0x1.03ff166bda6edp+0"
+    },
+    {
+      "n": 23,
+      "value": 1.0156152774933689,
+      "hex": "0x1.03ff5ce226e87p+0"
+    },
+    {
+      "n": 24,
+      "value": 1.015618207490192,
+      "hex": "0x1.03ff8e0a647c0p+0"
+    },
+    {
+      "n": 25,
+      "value": 1.0156202525872369,
+      "hex": "0x1.03ffb05a04771p+0"
+    },
+    {
+      "n": 26,
+      "value": 1.0156216806949419,
+      "hex": "0x1.03ffc84fb17e1p+0"
+    },
+    {
+      "n": 27,
+      "value": 1.0156226783828315,
+      "hex": "0x1.03ffd90cbaed9p+0"
+    },
+    {
+      "n": 28,
+      "value": 1.0156233756558917,
+      "hex": "0x1.03ffe4bf7ec3fp+0"
+    },
+    {
+      "n": 29,
+      "value": 1.01562386315566,
+      "hex": "0x1.03ffeced4a6dep+0"
+    },
+    {
+      "n": 30,
+      "value": 1.0156242041123549,
+      "hex": "0x1.03fff2a5b047ap+0"
+    },
+    {
+      "n": 31,
+      "value": 1.0156244426561245,
+      "hex": "0x1.03fff6a639edap+0"
+    },
+    {
+      "n": 32,
+      "value": 1.0156246096008363,
+      "hex": "0x1.03fff9733f948p+0"
+    },
+    {
+      "n": 33,
+      "value": 1.0156247264714173,
+      "hex": "0x1.03fffb6934249p+0"
+    },
+    {
+      "n": 34,
+      "value": 1.015624808310128,
+      "hex": "0x1.03fffcc8b2c1cp+0"
+    },
+    {
+      "n": 35,
+      "value": 1.0156248656328388,
+      "hex": "0x1.03fffdbee5be7p+0"
+    },
+    {
+      "n": 36,
+      "value": 1.0156249057937186,
+      "hex": "0x1.03fffe6b63192p+0"
+    },
+    {
+      "n": 37,
+      "value": 1.0156249339375185,
+      "hex": "0x1.03fffee443889p+0"
+    },
+    {
+      "n": 38,
+      "value": 1.0156249536644644,
+      "hex": "0x1.03ffff38fd8a3p+0"
+    },
+    {
+      "n": 39,
+      "value": 1.0156249674947175,
+      "hex": "0x1.03ffff7464106p+0"
+    },
+    {
+      "n": 40,
+      "value": 1.0156249771928905,
+      "hex": "0x1.03ffff9e0b516p+0"
+    },
+    {
+      "n": 41,
+      "value": 1.015624983994826,
+      "hex": "0x1.03ffffbb42200p+0"
+    },
+    {
+      "n": 42,
+      "value": 1.0156249887663515,
+      "hex": "0x1.03ffffcfc0791p+0"
+    },
+    {
+      "n": 43,
+      "value": 1.0156249921141436,
+      "hex": "0x1.03ffffde2168cp+0"
+    },
+    {
+      "n": 44,
+      "value": 1.0156249944634343,
+      "hex": "0x1.03ffffe8387b5p+0"
+    },
+    {
+      "n": 45,
+      "value": 1.0156249961122759,
+      "hex": "0x1.03ffffef4d66fp+0"
+    },
+    {
+      "n": 46,
+      "value": 1.0156249972697045,
+      "hex": "0x1.03fffff446022p+0"
+    },
+    {
+      "n": 47,
+      "value": 1.0156249980822927,
+      "hex": "0x1.03fffff7c3756p+0"
+    },
+    {
+      "n": 48,
+      "value": 1.0156249986528825,
+      "hex": "0x1.03fffffa36d42p+0"
+    },
+    {
+      "n": 49,
+      "value": 1.015624999053574,
+      "hex": "0x1.03fffffbef64cp+0"
+    },
+    {
+      "n": 50,
+      "value": 1.0156249993350046,
+      "hex": "0x1.03fffffd24d47p+0"
+    },
+    {
+      "n": 51,
+      "value": 1.0156249995326905,
+      "hex": "0x1.03fffffdfe301p+0"
+    },
+    {
+      "n": 52,
+      "value": 1.0156249996715874,
+      "hex": "0x1.03fffffe96e81p+0"
+    },
+    {
+      "n": 53,
+      "value": 1.0156249997691689,
+      "hex": "0x1.03ffffff0232dp+0"
+    },
+    {
+      "n": 54,
+      "value": 1.015624999837735,
+      "hex": "0x1.03ffffff4d967p+0"
+    },
+    {
+      "n": 55,
+      "value": 1.0156249998859235,
+      "hex": "0x1.03ffffff82925p+0"
+    },
+    {
+      "n": 56,
+      "value": 1.0156249999198037,
+      "hex": "0x1.03ffffffa7d2cp+0"
+    },
+    {
+      "n": 57,
+      "value": 1.0156249999436093,
+      "hex": "0x1.03ffffffc1ff7p+0"
+    },
+    {
+      "n": 58,
+      "value": 1.015624999960344,
+      "hex": "0x1.03ffffffd465dp+0"
+    },
+    {
+      "n": 59,
+      "value": 1.0156249999721192,
+      "hex": "0x1.03ffffffe1584p+0"
+    },
+    {
+      "n": 60,
+      "value": 1.01562499998039,
+      "hex": "0x1.03ffffffea704p+0"
+    },
+    {
+      "n": 61,
+      "value": 1.0156249999862057,
+      "hex": "0x1.03fffffff0d54p+0"
+    },
+    {
+      "n": 62,
+      "value": 1.015624999990292,
+      "hex": "0x1.03fffffff5537p+0"
+    },
+    {
+      "n": 63,
+      "value": 1.0156249999931792,
+      "hex": "0x1.03fffffff8802p+0"
+    },
+    {
+      "n": 64,
+      "value": 1.015624999995203,
+      "hex": "0x1.03fffffffab9cp+0"
+    },
+    {
+      "n": 65,
+      "value": 1.0156249999966211,
+      "hex": "0x1.03fffffffc48fp+0"
+    },
+    {
+      "n": 66,
+      "value": 1.015624999997619,
+      "hex": "0x1.03fffffffd61dp+0"
+    },
+    {
+      "n": 67,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 68,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 69,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 70,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 71,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 72,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 73,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 74,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 75,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 76,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 77,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 78,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 79,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 80,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 81,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 82,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 83,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 84,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 85,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 86,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 87,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 88,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 89,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 90,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 91,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 92,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 93,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 94,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 95,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 96,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 97,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 98,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 99,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 100,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 101,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 102,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 103,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 104,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 105,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 106,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 107,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 108,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 109,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 110,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 111,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 112,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 113,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 114,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 115,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 116,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 117,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 118,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 119,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 120,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 121,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 122,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 123,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 124,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 125,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 126,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 127,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 128,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 129,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 130,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 131,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 132,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 133,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 134,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 135,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 136,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 137,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 138,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 139,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 140,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 141,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 142,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 143,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 144,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 145,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 146,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 147,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 148,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 149,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 150,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 151,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 152,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 153,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 154,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 155,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 156,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 157,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 158,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    },
+    {
+      "n": 159,
+      "value": 1.015625,
+      "hex": "0x1.0400000000000p+0"
+    }
+  ],
+  "infiniteSourceBeginsAt": 160,
+  "globalRadialAlphaIsNotThisTable": true
+}

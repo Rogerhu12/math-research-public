@@ -1,0 +1,37 @@
+{
+  "status": "PASS_EXACT_SIX_COLUMN_RANK_ONLY",
+  "arithmetic": "Python fractions.Fraction; exact elimination",
+  "script_sha256": "752636eab24bfea1fa0f2bcbaa4fbf408a27218af3ab365ba497d59471b7670d",
+  "epsilon": "1/10",
+  "eta": "1",
+  "column_order": "W then gamma cross W",
+  "sample_cos_sin": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ],
+    [
+      "-1",
+      "0"
+    ],
+    [
+      "3/5",
+      "4/5"
+    ],
+    [
+      "5/13",
+      "12/13"
+    ],
+    [
+      "-3/5",
+      "4/5"
+    ]
+  ],
+  "determinant": "15838112388562926448768487424/9876209658570587635040283203125",
+  "rank": 6,
+  "scope": "Closed seed endpoint derivative only; no nonlinear solver or closed surface."
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "fd2d-R170-complete-field-interval-closed-group-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T20:32:36.087447+00:00",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_complete_arb.py",
+      "bytes": 13835,
+      "sha256": "fa39d247e561812a50dba36a91b9754cbb32ce27549ad78336e7e5b151fd667b"
+    },
+    {
+      "path": "scripts/fd2d-metric-dyadic-tail-complete-arb-check.py",
+      "bytes": 9248,
+      "sha256": "231c8c11668b8a89b02f417213ee5e4ff0480f339990894b3f486d2deeec4fe7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic-tail-complete-Arb.md",
+      "bytes": 6812,
+      "sha256": "f870609ef5c88a350b340f9c8aa884e308f4303e7b23709b62e7790a4b785adc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-report.json",
+      "bytes": 62381,
+      "sha256": "1a773ac1ce0b508c9dd5773ae317be7d6d6c8a414239b363554e182795e38a6d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-definition.json.gz",
+      "bytes": 23433,
+      "sha256": "71ac289a491b92336e7e085cc50f117fc8decf5085f38ea9a2bafd7b96ef009f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-primitive.json",
+      "bytes": 6469,
+      "sha256": "57cf89ff083a7dae1ac7ad1c97b4d55efc2108da391481d32cd6aa448ba3ff27"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-01-completion-receipt.json",
+      "bytes": 766,
+      "sha256": "24a22e03f144df61a8b811893c49865b7878a9d5ddb25f3aea1395b587ba9e6b"
+    }
+  ],
+  "artifact_count": 7,
+  "artifact_bytes": 122944,
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-native-definition.json",
+    "bytes": 59298,
+    "sha256": "5853eda23c948549b871777ac3aabbb298c8f76808267ab45c114432b9f6d8db"
+  },
+  "accurate_profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+    "bytes": 381917,
+    "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+  },
+  "full_field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "dependencies": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-R173-closed-manifest.json",
+      "bytes": 8377,
+      "sha256": "59ff0ea6c23a98e4910804773fa43810225c36f07ff2b6b3d8c8053376bd9807"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-initial-and-rebind-closed-manifest-01.json",
+      "bytes": 4686,
+      "sha256": "57a5e6dc2586cd3bedbcf12a36b3d09c86b215590590e9f7f8befb5e4dca5528"
+    },
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_archive_native.py",
+      "bytes": 27927,
+      "sha256": "e4a5c9c30aff8bb008dda528da07f6a92b2d6a8f5d1c14487245c63b2e6230e8"
+    },
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_accurate_last_cell.py",
+      "bytes": 8240,
+      "sha256": "30401b51b3346405ba36544d17aadee8c1d389a26da4e506e799305ec37cb19f"
+    }
+  ],
+  "old_sources_or_arrays_changed": false,
+  "legacy_positive_global_control_guard_invoked": false,
+  "whole_surface_certificate": false
+}

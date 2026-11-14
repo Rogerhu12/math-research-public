@@ -1,0 +1,235 @@
+{
+  "schema": "fd2d-R205-fixed-amplitude-complete-goal-four-accepted-closed-v1",
+  "scope": "Frozen A=1/4 R205 reference; full R203 metric/curvature/geometry objective; 961 real coefficients. Four actual nonlinear Armijo accepted steps, not a completed surface.",
+  "runtime": {
+    "kind": "pure V8 JavaScript",
+    "OSProcessStarted": false,
+    "OSExitCode": null,
+    "batches": [
+      {
+        "toolCell": "g2:93",
+        "state": "completed",
+        "runtime": "pure V8",
+        "completed": true,
+        "iteration": 2,
+        "acceptedThisBatch": 2,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      },
+      {
+        "toolCell": "g2:95",
+        "state": "completed",
+        "runtime": "pure V8",
+        "completed": true,
+        "iteration": 4,
+        "acceptedThisBatch": 2,
+        "OSProcessStarted": false,
+        "OSExitCode": null
+      }
+    ]
+  },
+  "files": [
+    {
+      "kind": "runner",
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-run-fixed-bent-annulus-R205.cjs",
+      "bytes": 5440,
+      "sha256": "2912d01f31cb29439aa2cce39b69488b80fff9914c8dd76e854ccbce9b40ebba",
+      "commit": "303607305c13c166e4d3c3de6d8d257166749719"
+    },
+    {
+      "kind": "initial",
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-initial.json",
+      "bytes": 48139,
+      "sha256": "11f624c7738f4424869a723e5e78ba8173c4b279acb9a652e5f1265812d2f088",
+      "commit": "86841a8cb998d01818d64364f3c9354507a3fced"
+    },
+    {
+      "kind": "two",
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-two-accepted-01.json",
+      "bytes": 64887,
+      "sha256": "f422b68f291c74498f02c51466bb97d7376af216031117c50b903d6b28b3bc10",
+      "commit": "6508168b3fd88860304f5655b754ddbc673741b7"
+    },
+    {
+      "kind": "four",
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-fixed-A025-geometry-four-accepted-02.json",
+      "bytes": 78855,
+      "sha256": "42f192695e729ea87bb3ffd9de9471deffebe7cef7703436f0aed0178c3f094e",
+      "commit": "14c42da0ba12f1640fa9c3ebf6ea0cf9cfb2e045"
+    }
+  ],
+  "sourceBindings": {
+    "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+    "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+    "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f",
+    "guideSHA256": "ef23317ebbb3ed121b09a79cd677293f70ab49f01eb2e88a9c89cf9078914b8e",
+    "kernelSHA256": "50012d8815d08553698ede9de96f09653bce03522a99dcbb11881ab58fd99bdd",
+    "adapterSHA256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1",
+    "runnerSHA256": "2912d01f31cb29439aa2cce39b69488b80fff9914c8dd76e854ccbce9b40ebba"
+  },
+  "dependencyGitBlobs": {
+    "engine": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+    "splines": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+    "algebra": "7abcea6d968125aee8bc807e2f797b2227746828",
+    "candidate": "bb87f4c2bc73c53dd32b50582d3bec4243568562",
+    "R203Guide": "6648f5466b9b80178ba3c94a0c713aa7db232958",
+    "R203Kernel": "c601eb03b26403807ce16ca70309b9abe65b17e4",
+    "adapter": "3c358ed9e75bc05c62eb8dd40870b1e594fd37ba"
+  },
+  "parent": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+    "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3",
+    "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+    "injection": "Explicit new A=.25 reference, unchanged initial parameter vector. This is a new baseline, not a preserved full position field or an accepted step."
+  },
+  "actualBaseline": {
+    "squaredNorm": 0.03797777526723008,
+    "norm": 0.19487887332194342,
+    "maxRelativeMetric": 0.36600167457814026,
+    "minImmersion": 0.7007926329515,
+    "worst": {
+      "s": 0.14399171959121762,
+      "u": 0,
+      "rE": 0.36600167457814026,
+      "rF": 0
+    },
+    "rowCount": 39567,
+    "radialPoints": 184,
+    "quarterNodes": 33,
+    "fullEquivalentAngles": 128,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.02786278423074034,
+    "conservativeRadiusLowerBound": 0.7721372157692598,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.021181554657521858,
+    "curvaturePenaltySquaredNorm": 0.01679622060970822,
+    "curvature": {
+      "squaredNorm": 0.01679622060970822,
+      "norm": 0.12960023383353989,
+      "maxCurvature": 17.131408724961595,
+      "minImmersion": 0.7007926329515001,
+      "maxRelativeMetric": 0.36600167457814026,
+      "worst": {
+        "s": 0.24531626580981009,
+        "u": 1.2762720155208536,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.1983702482970333,
+          -17.131408724961595
+        ],
+        "relativeMetric": 0.1746956295962676
+      },
+      "activePoints": 4325,
+      "thresholdPoints": 0,
+      "rowCount": 27423,
+      "radialPoints": 277,
+      "quarterNodes": 33,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "accepted": [
+    {
+      "iteration": 1,
+      "accepted": true,
+      "alpha": 0.5,
+      "lambda": 0.01,
+      "nextLambda": 0.01,
+      "baselineSquaredNorm": 0.0396113680373919,
+      "squaredNorm": 0.03525474297553851,
+      "metricSquaredNorm": 0.014418945535237768,
+      "curvaturePenaltySquaredNorm": 0.019401220870357748,
+      "geometryPenaltySquaredNorm": 0.0014345765699429974,
+      "sampleMetric": 0.3865798418640105,
+      "sampleCurvature": 24.355571912558954,
+      "normalSeconds": 50.247,
+      "elapsedSeconds": 61.879,
+      "actualValueEvaluations": 2,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0
+    },
+    {
+      "iteration": 2,
+      "accepted": true,
+      "alpha": 1,
+      "lambda": 0.01,
+      "nextLambda": 0.0033333333333333335,
+      "baselineSquaredNorm": 0.03525474297553851,
+      "squaredNorm": 0.018505915974523102,
+      "metricSquaredNorm": 0.01152717758432215,
+      "curvaturePenaltySquaredNorm": 0.005575170733143928,
+      "geometryPenaltySquaredNorm": 0.0014035676570570252,
+      "sampleMetric": 0.41621171358857634,
+      "sampleCurvature": 15.898672430360847,
+      "normalSeconds": 49.684,
+      "elapsedSeconds": 56.292,
+      "actualValueEvaluations": 1,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0
+    },
+    {
+      "iteration": 3,
+      "accepted": true,
+      "alpha": 1,
+      "lambda": 0.0033333333333333335,
+      "nextLambda": 0.0033333333333333335,
+      "baselineSquaredNorm": 0.018505915974523102,
+      "squaredNorm": 0.016095634021135344,
+      "metricSquaredNorm": 0.010378878750115164,
+      "curvaturePenaltySquaredNorm": 0.004249900234276481,
+      "geometryPenaltySquaredNorm": 0.0014668550367436999,
+      "sampleMetric": 0.42034537168398334,
+      "sampleCurvature": 26.749428786032748,
+      "normalSeconds": 50.024,
+      "elapsedSeconds": 56.858,
+      "actualValueEvaluations": 1,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0
+    },
+    {
+      "iteration": 4,
+      "accepted": true,
+      "alpha": 1,
+      "lambda": 0.0033333333333333335,
+      "nextLambda": 0.0011111111111111111,
+      "baselineSquaredNorm": 0.016095634021135344,
+      "squaredNorm": 0.013231498001989112,
+      "metricSquaredNorm": 0.010154334396565249,
+      "curvaturePenaltySquaredNorm": 0.001595949349887937,
+      "geometryPenaltySquaredNorm": 0.0014812142555359247,
+      "sampleMetric": 0.4205821798633429,
+      "sampleCurvature": 14.85888283256783,
+      "normalSeconds": 48.838,
+      "elapsedSeconds": 55.356,
+      "actualValueEvaluations": 1,
+      "offBandNonzeroCount": 0,
+      "hiddenDiagonalShift": 0
+    }
+  ],
+  "final": {
+    "iteration": 4,
+    "lambda": 0.0011111111111111111,
+    "cuffHeight": 0.5643984091057976,
+    "outerCutMeanHeight": 0.5450508772983418,
+    "squaredNorm": 0.013231498001989112,
+    "metricMaximum": 0.4205821798633429,
+    "curvatureMaximum": 14.85888283256783,
+    "maximumAbsoluteY": 0.8987975935829495,
+    "minimumHeldDistance": 0.5754757091426854,
+    "maximumHeightExcess": 0.014816221801503549
+  },
+  "metadataSemantics": "The checkpoint lastEvaluation/localAcceptedSteps are explicitly refreshed from the actual accepted history. Inherited parent-preservation fields refer only to the initial injection, never to later accepted coefficient changes; parentBaseline/newObjectiveBaseline identify history, not a fresh baseline each step. All z values and original history remain unaltered.",
+  "limitations": [
+    "All extrema are finite sampling diagnostics, not continuous bounds.",
+    "rho remains a physical metric design variable. A is fixed during this branch.",
+    "Metric, curvature and geometric constraints remain substantially unsatisfied; no reach certificate or completion claim.",
+    "Finite row semantics and original Armijo/damping policy were retained; off-band entries were not discarded."
+  ],
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

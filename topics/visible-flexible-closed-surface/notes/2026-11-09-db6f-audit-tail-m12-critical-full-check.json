@@ -1,0 +1,18 @@
+{
+  "status": "PASS-full-critical-tail-row-coverage-and-aggregation",
+  "report_sha256": "9c6a7f1b5e9a440a0a51581d76f657cb4df0784b99a2284b167062dec2db8015",
+  "manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "packet_sha256": "c3dbdbe79e42528b58b033f48e3694e70776666b8b890fbcb0d5b378539d2108",
+  "data_sha256": "47509eb91f8b714dc78bd02a17f5386737582a88fb50c72fcee604a8b9a6ff69",
+  "row_data_sha256": "cb88576c24f831803b5fc2cf99bbb3dfa9a5be57e6337821c5d3bf7dc43fbaab",
+  "rows": 29023,
+  "total_finite_spans": 18552,
+  "all_rows_match_input_packet_order": true,
+  "all_rows_curvature_resolved": true,
+  "maxima_exactly_match_global_report": true,
+  "all_implementation_hashes_match": true,
+  "completed_process_exit_code": 0,
+  "metric_operator_upper": 9.93630067500459e-07,
+  "principal_curvature_upper": 8.462559071292288,
+  "scope": "Audit of the completed full run and its exact scalar aggregation. Background packet validity and reviewed algorithms remain separate bound inputs."
+}

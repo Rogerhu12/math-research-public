@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-lossless-publication-compression-v1",
+  "entries": [
+    {
+      "original": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-work/accepted-values/manifest.json",
+        "bytes": 2242171,
+        "sha256": "b14f0b6fca6b2f2812f93b40af54b01e40ddfbf461a9fa2449679528b489cba0"
+      },
+      "gzip": {
+        "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-work/accepted-values/manifest.json.gz",
+        "bytes": 75924,
+        "sha256": "67dc82d399d97e38b417474be598d709c6b46ae32388e809d61cc07ddc6ca214"
+      },
+      "restore_original_path_before_original_loader": true
+    }
+  ],
+  "originals_retained_locally": true
+}

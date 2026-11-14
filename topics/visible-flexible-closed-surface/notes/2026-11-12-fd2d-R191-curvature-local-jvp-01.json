@@ -1,0 +1,1008 @@
+{
+  "schema": "fd2d-R191-actual-step16-local-complete-curvature-JVP-v1",
+  "runtime": {
+    "engine": "pure JavaScript/V8",
+    "completed": true,
+    "milliseconds": 261,
+    "OS_child_created": false,
+    "OS_exit_code": null
+  },
+  "input": {
+    "kind": "R187-actual-Node-LM-checkpoint-v1",
+    "iteration": 16,
+    "original_dimension": 181,
+    "original_options": {
+      "radialBasisCount": 12,
+      "modes": 7,
+      "angles": 64,
+      "gap": 0.05
+    },
+    "source_identity": {
+      "source": "a2215efbbea214593d22228441e3d8e128f8ca0c904413ad9c890cff12e7fa45",
+      "engine": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+      "provider": "e5e9d19793cd30d9c0a1378b7d5e9f4c55d039eed461e9f9964bef76dfd4570f",
+      "lm": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4",
+      "input": "531a87b1b4e82d4818eefadaf81c3d7c8827c6b85f096ba041944a9247691155",
+      "bundle": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+    },
+    "appended_radius": [
+      181,
+      193
+    ],
+    "appended_radius_values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "designed_state_is_explicit_zero_embedding_not_a_new_accepted_state": true
+  },
+  "definition": {
+    "schema": "fd2d-R191-complete-true-curvature-hinge-finite-provider-v1",
+    "metricProvider": {
+      "schema": "fd2d-R190-C2-direct-position-designed-radius-finite-provider-v1",
+      "radialBasisCount": 12,
+      "angularModes": 7,
+      "fullEquivalentAngles": 64,
+      "dimension": 193,
+      "angularPrimitive": "complete quarter-cell Gauss8 with actual first moment; no Fourier projection",
+      "angularMetric": "exactly a^2 in mathematical complete definition",
+      "radialMetric": "R181 B32 plus complete C2 radius B-spline design; changing rho changes g",
+      "radiusCoefficientBound": 0.4,
+      "oldDimension": 181,
+      "boundary": "complete central ellipse cylinder and zero-tail round flat cut two jets",
+      "stateLayout": {
+        "theta": [
+          0,
+          84
+        ],
+        "phi": [
+          84,
+          168
+        ],
+        "height": [
+          168,
+          180
+        ],
+        "cutHeight": 180,
+        "radius": [
+          181,
+          193
+        ]
+      },
+      "centralGap": 0.050000000000000024,
+      "centralA": 1.0289271932119122,
+      "centralB": 0.9789271932119121,
+      "radiusGrid": "C2 centered cardinal cubic B-splines with supports inside [c,S]",
+      "residual": "rE=|Xs|^2-1 and rF=Xs dot T, weighted squared rE^2+2*rF^2",
+      "radialQuadrature": "Gauss2 on union of original phase/Hermite breaks and spline knots",
+      "derivative": "complete state and primitive first-moment derivatives, fixed physical s and u",
+      "continuousMetricOrGeometryCertified": false,
+      "strongTargetComplete": false
+    },
+    "dimension": 193,
+    "guide": 9.5,
+    "weight": 0.0001,
+    "nodeShare": 0.5,
+    "stateLayout": {
+      "theta": [
+        0,
+        84
+      ],
+      "phi": [
+        84,
+        168
+      ],
+      "height": [
+        168,
+        180
+      ],
+      "cutHeight": 180,
+      "radius": [
+        181,
+        193
+      ]
+    },
+    "physicalMetricChangesWithRadius": true,
+    "residual": "sqrt(weight*radialWeight*angularWeight)*(Q11,sqrt(2)Q12,Q22), Q=S-clip(S,[-guide,guide]); S is actual orthonormal II",
+    "radialSampling": "physical profile and B3 knots plus actual cell G2; shares declared and fixed",
+    "curvatureRadialPoints": 223,
+    "quarterNodes": 17,
+    "derivatives": "All actual theta/phi/height/cut-height/radius columns via complete T/Ts/Tss/Tu and quarter primitives, actual Gram and normal; no DFT",
+    "angularThirdTensorsAreParameterDerivativesNotRadialC3Requirement": true,
+    "thresholdConvention": "inactive slope zero at exact guide; generalized derivative, not claimed smooth there",
+    "completeSquaredPenaltyEqualsSumPrincipalCurvatureHingesSquared": true,
+    "continuousMetricOrReachCertificate": false,
+    "strongTargetComplete": false
+  },
+  "points": [
+    {
+      "s": 0.36293298329056384,
+      "u": 1.5707963267948966,
+      "fixed_radius_zero_injection_position_jet_difference": 0,
+      "curvature": 11.836252554473024,
+      "eigenvalues": [
+        -0.5334625414735594,
+        -11.836252554473024
+      ],
+      "residual": [
+        -2.336252554473024,
+        -1.6436250103175452e-16,
+        0
+      ],
+      "active_parameter_columns": 65,
+      "group_column_maximum": {
+        "theta": 487.0296413418754,
+        "phi": 182.27272691874833,
+        "height": 354.89576229642756,
+        "cutHeight": 44.4901191523181,
+        "radius": 669.988883358003
+      },
+      "trials": [
+        {
+          "direction": "all_parameters",
+          "h": 0.000002,
+          "analytic": [
+            -16.873208305358226,
+            -1.1537019671172268e-15,
+            5.863299019196125e-17
+          ],
+          "finite_difference": [
+            -16.87320830701111,
+            -1.1525099644492641e-15,
+            0
+          ],
+          "maximum_absolute": 1.6528858282072179e-9,
+          "maximum_scaled": 9.795919058750258e-11,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.906171484018394e-11,
+              "scaled": 2.906171484018394e-11
+            },
+            "Xs": {
+              "absolute": 5.1455409377787475e-11,
+              "scaled": 5.1455409377787475e-11
+            },
+            "Xu": {
+              "absolute": 4.161187366902297e-11,
+              "scaled": 4.161187366902297e-11
+            },
+            "Xss": {
+              "absolute": 5.207567710385774e-10,
+              "scaled": 4.03462479841095e-11
+            },
+            "Xsu": {
+              "absolute": 4.926559160622901e-12,
+              "scaled": 4.926559160622901e-12
+            },
+            "Xuu": {
+              "absolute": 3.224333300355653e-11,
+              "scaled": 3.224333300355653e-11
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 0.000001,
+          "analytic": [
+            -16.873208305358226,
+            -1.1537019671172268e-15,
+            5.863299019196125e-17
+          ],
+          "finite_difference": [
+            -16.87320830878747,
+            -1.1525099645848496e-15,
+            0
+          ],
+          "maximum_absolute": 3.4292426676074683e-9,
+          "maximum_scaled": 2.032359587784194e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.484940413161052e-10,
+              "scaled": 2.484940413161052e-10
+            },
+            "Xs": {
+              "absolute": 3.757762156997302e-11,
+              "scaled": 3.757762156997302e-11
+            },
+            "Xu": {
+              "absolute": 1.8043273125600834e-10,
+              "scaled": 1.8043273125600834e-10
+            },
+            "Xss": {
+              "absolute": 3.185292030138953e-9,
+              "scaled": 2.467842749187672e-10
+            },
+            "Xsu": {
+              "absolute": 2.2829016455006013e-11,
+              "scaled": 2.2829016455006013e-11
+            },
+            "Xuu": {
+              "absolute": 1.0653454507458804e-10,
+              "scaled": 1.0653454507458804e-10
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 5e-7,
+          "analytic": [
+            -16.873208305358226,
+            -1.1537019671172268e-15,
+            5.863299019196125e-17
+          ],
+          "finite_difference": [
+            -16.873208306122933,
+            -1.1525099643383306e-15,
+            0
+          ],
+          "maximum_absolute": 7.647074085070926e-10,
+          "maximum_scaled": 4.5320806492044166e-11,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.5110631976521525e-10,
+              "scaled": 2.5110631976521525e-10
+            },
+            "Xs": {
+              "absolute": 2.041110752637465e-10,
+              "scaled": 2.041110752637465e-10
+            },
+            "Xu": {
+              "absolute": 2.636564785940543e-10,
+              "scaled": 2.636564785940543e-10
+            },
+            "Xss": {
+              "absolute": 3.0939268924612406e-9,
+              "scaled": 2.397056526005291e-10
+            },
+            "Xsu": {
+              "absolute": 2.2829016455006013e-11,
+              "scaled": 2.2829016455006013e-11
+            },
+            "Xuu": {
+              "absolute": 2.016212474753587e-10,
+              "scaled": 2.016212474753587e-10
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000002,
+          "analytic": [
+            0.7027723021453884,
+            3.349848702503057e-17,
+            6.894197673660319e-17
+          ],
+          "finite_difference": [
+            0.7027723030184063,
+            3.3498487101733443e-17,
+            0
+          ],
+          "maximum_absolute": 8.730178802096589e-10,
+          "maximum_scaled": 8.730178802096589e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 4.2933673977119113e-11,
+              "scaled": 4.2933673977119113e-11
+            },
+            "Xs": {
+              "absolute": 6.00571654039983e-12,
+              "scaled": 6.00571654039983e-12
+            },
+            "Xu": {
+              "absolute": 4.161187366902297e-11,
+              "scaled": 4.161187366902297e-11
+            },
+            "Xss": {
+              "absolute": 2.4698310063797635e-10,
+              "scaled": 2.4698310063797635e-10
+            },
+            "Xsu": {
+              "absolute": 4.926559160622901e-12,
+              "scaled": 4.926559160622901e-12
+            },
+            "Xuu": {
+              "absolute": 1.0020676996513878e-11,
+              "scaled": 1.0020676996513878e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000001,
+          "analytic": [
+            0.7027723021453884,
+            3.349848702503057e-17,
+            6.894197673660319e-17
+          ],
+          "finite_difference": [
+            0.7027723007979603,
+            3.349848691684417e-17,
+            0
+          ],
+          "maximum_absolute": 1.3474281690406542e-9,
+          "maximum_scaled": 1.3474281690406542e-9,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.791109309479122e-10,
+              "scaled": 1.791109309479122e-10
+            },
+            "Xs": {
+              "absolute": 3.3761292156028744e-11,
+              "scaled": 3.3761292156028744e-11
+            },
+            "Xu": {
+              "absolute": 1.8043273125600834e-10,
+              "scaled": 1.8043273125600834e-10
+            },
+            "Xss": {
+              "absolute": 2.4175521584623993e-9,
+              "scaled": 2.4175521584623993e-9
+            },
+            "Xsu": {
+              "absolute": 2.2829016455006013e-11,
+              "scaled": 2.2829016455006013e-11
+            },
+            "Xuu": {
+              "absolute": 7.324604985037286e-11,
+              "scaled": 7.324604985037286e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 5e-7,
+          "analytic": [
+            0.7027723021453884,
+            3.349848702503057e-17,
+            6.894197673660319e-17
+          ],
+          "finite_difference": [
+            0.702772304350674,
+            3.3498487126385347e-17,
+            0
+          ],
+          "maximum_absolute": 2.2052855097598467e-9,
+          "maximum_scaled": 2.2052855097598467e-9,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.094671276708926e-10,
+              "scaled": 2.094671276708926e-10
+            },
+            "Xs": {
+              "absolute": 8.927244338728657e-11,
+              "scaled": 8.927244338728657e-11
+            },
+            "Xu": {
+              "absolute": 2.636564785940543e-10,
+              "scaled": 2.636564785940543e-10
+            },
+            "Xss": {
+              "absolute": 2.023339940038227e-9,
+              "scaled": 2.023339940038227e-9
+            },
+            "Xsu": {
+              "absolute": 2.2829016455006013e-11,
+              "scaled": 2.2829016455006013e-11
+            },
+            "Xuu": {
+              "absolute": 9.328740384340062e-11,
+              "scaled": 9.328740384340062e-11
+            }
+          }
+        }
+      ]
+    },
+    {
+      "s": 0.36293298329056384,
+      "u": 1.55,
+      "fixed_radius_zero_injection_position_jet_difference": 0,
+      "curvature": 11.613774962192803,
+      "eigenvalues": [
+        -0.49773481154341503,
+        -11.613774962192803
+      ],
+      "residual": [
+        -2.1137744037594275,
+        -0.0015364909210379089,
+        -5.584333755415116e-7
+      ],
+      "active_parameter_columns": 65,
+      "group_column_maximum": {
+        "theta": 486.25676417413223,
+        "phi": 179.96416143473553,
+        "height": 350.73211956765704,
+        "cutHeight": 43.68664691806019,
+        "radius": 669.4332570699164
+      },
+      "trials": [
+        {
+          "direction": "all_parameters",
+          "h": 0.000002,
+          "analytic": [
+            -16.88855405650806,
+            -0.03350596625816403,
+            -0.000019893551854050905
+          ],
+          "finite_difference": [
+            -16.888554056793126,
+            -0.033505966299813686,
+            -0.0000198935867778971
+          ],
+          "maximum_absolute": 2.850661928732734e-10,
+          "maximum_scaled": 1.6879253956227366e-11,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.061222845710752e-10,
+              "scaled": 1.061222845710752e-10
+            },
+            "Xs": {
+              "absolute": 3.684923199909207e-11,
+              "scaled": 3.684923199909207e-11
+            },
+            "Xu": {
+              "absolute": 8.135265106967021e-11,
+              "scaled": 8.135265106967021e-11
+            },
+            "Xss": {
+              "absolute": 2.2386111020455957e-10,
+              "scaled": 1.7295480522395915e-11
+            },
+            "Xsu": {
+              "absolute": 4.85871325811571e-11,
+              "scaled": 4.85871325811571e-11
+            },
+            "Xuu": {
+              "absolute": 3.195712856667032e-11,
+              "scaled": 3.195712856667032e-11
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 0.000001,
+          "analytic": [
+            -16.88855405650806,
+            -0.03350596625816403,
+            -0.000019893551854050905
+          ],
+          "finite_difference": [
+            -16.888554058347438,
+            -0.03350596615360902,
+            -0.000019893420244443405
+          ],
+          "maximum_absolute": 1.8393784273484926e-9,
+          "maximum_scaled": 1.0891272403747804e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.9918904720084285e-10,
+              "scaled": 1.9918904720084285e-10
+            },
+            "Xs": {
+              "absolute": 2.781697788778459e-11,
+              "scaled": 2.781697788778459e-11
+            },
+            "Xu": {
+              "absolute": 2.1589762963514225e-10,
+              "scaled": 2.1589762963514225e-10
+            },
+            "Xss": {
+              "absolute": 2.4723014746541594e-9,
+              "scaled": 1.9100969329285845e-10
+            },
+            "Xsu": {
+              "absolute": 4.161848816963687e-11,
+              "scaled": 4.161848816963687e-11
+            },
+            "Xuu": {
+              "absolute": 2.4660458744496516e-10,
+              "scaled": 2.4660458744496516e-10
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 5e-7,
+          "analytic": [
+            -16.88855405650806,
+            -0.03350596625816403,
+            -0.000019893551854050905
+          ],
+          "finite_difference": [
+            -16.888554053462457,
+            -0.03350596636687159,
+            -0.00001989364228904833
+          ],
+          "maximum_absolute": 3.0456028810021962e-9,
+          "maximum_scaled": 1.8033532478930979e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 5.224559188055089e-10,
+              "scaled": 5.224559188055089e-10
+            },
+            "Xs": {
+              "absolute": 2.588938369241234e-10,
+              "scaled": 2.588938369241234e-10
+            },
+            "Xu": {
+              "absolute": 2.2819158021492036e-10,
+              "scaled": 2.2819158021492036e-10
+            },
+            "Xss": {
+              "absolute": 3.744947463246717e-9,
+              "scaled": 2.89334158348422e-10
+            },
+            "Xsu": {
+              "absolute": 1.0059908635284831e-10,
+              "scaled": 1.0059908635284831e-10
+            },
+            "Xuu": {
+              "absolute": 2.6497133653879956e-10,
+              "scaled": 2.6497133653879956e-10
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000002,
+          "analytic": [
+            0.6761512231618478,
+            -0.012361697009992477,
+            -0.000009164280067159357
+          ],
+          "finite_difference": [
+            0.6761512238995238,
+            -0.012361697007332289,
+            -0.000009164224934465892
+          ],
+          "maximum_absolute": 7.376759203481242e-10,
+          "maximum_scaled": 7.376759203481242e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.559698633608498e-11,
+              "scaled": 2.559698633608498e-11
+            },
+            "Xs": {
+              "absolute": 9.182910508387376e-12,
+              "scaled": 9.182910508387376e-12
+            },
+            "Xu": {
+              "absolute": 4.8024983295702484e-11,
+              "scaled": 4.8024983295702484e-11
+            },
+            "Xss": {
+              "absolute": 4.5832693196246055e-10,
+              "scaled": 4.5832693196246055e-10
+            },
+            "Xsu": {
+              "absolute": 1.3668011167311533e-11,
+              "scaled": 1.3668011167311533e-11
+            },
+            "Xuu": {
+              "absolute": 1.6592059323694563e-11,
+              "scaled": 1.6592059323694563e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000001,
+          "analytic": [
+            0.6761512231618478,
+            -0.012361697009992477,
+            -0.000009164280067159357
+          ],
+          "finite_difference": [
+            0.6761512187924978,
+            -0.012361697013891712,
+            -0.000009164335956768355
+          ],
+          "maximum_absolute": 4.369349992927596e-9,
+          "maximum_scaled": 4.369349992927596e-9,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.9644761858894633e-10,
+              "scaled": 1.9644761858894633e-10
+            },
+            "Xs": {
+              "absolute": 1.8572665107241537e-11,
+              "scaled": 1.8572665107241537e-11
+            },
+            "Xu": {
+              "absolute": 1.18508470398071e-10,
+              "scaled": 1.18508470398071e-10
+            },
+            "Xss": {
+              "absolute": 2.206208327137915e-9,
+              "scaled": 2.206208327137915e-9
+            },
+            "Xsu": {
+              "absolute": 1.408756444831738e-11,
+              "scaled": 1.408756444831738e-11
+            },
+            "Xuu": {
+              "absolute": 8.112448907082737e-11,
+              "scaled": 8.112448907082737e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 5e-7,
+          "analytic": [
+            0.6761512231618478,
+            -0.012361697009992477,
+            -0.000009164280067159357
+          ],
+          "finite_difference": [
+            0.6761512225672561,
+            -0.012361697013458031,
+            -0.000009164446979070817
+          ],
+          "maximum_absolute": 5.945917092020636e-10,
+          "maximum_scaled": 5.945917092020636e-10,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 3.5866389372363194e-10,
+              "scaled": 3.5866389372363194e-10
+            },
+            "Xs": {
+              "absolute": 7.408381633849936e-11,
+              "scaled": 7.408381633849936e-11
+            },
+            "Xu": {
+              "absolute": 2.1455843698947596e-10,
+              "scaled": 2.1455843698947596e-10
+            },
+            "Xss": {
+              "absolute": 2.234683771362711e-9,
+              "scaled": 2.234683771362711e-9
+            },
+            "Xsu": {
+              "absolute": 1.3668011167311533e-11,
+              "scaled": 1.3668011167311533e-11
+            },
+            "Xuu": {
+              "absolute": 1.1373657397839576e-10,
+              "scaled": 1.1373657397839576e-10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "s": 0.36293298329056384,
+      "u": 1.47,
+      "fixed_radius_zero_injection_position_jet_difference": 0,
+      "curvature": 7.328882700999676,
+      "eigenvalues": [
+        0.2268786920740653,
+        -7.328882700999676
+      ],
+      "residual": [
+        0,
+        0,
+        0
+      ],
+      "active_parameter_columns": 65,
+      "group_column_maximum": {
+        "theta": 0,
+        "phi": 0,
+        "height": 0,
+        "cutHeight": 0,
+        "radius": 0
+      },
+      "trials": [
+        {
+          "direction": "all_parameters",
+          "h": 0.000002,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.4791989161322405e-10,
+              "scaled": 1.4791989161322405e-10
+            },
+            "Xs": {
+              "absolute": 5.505082500967262e-11,
+              "scaled": 5.505082500967262e-11
+            },
+            "Xu": {
+              "absolute": 5.15525018507379e-11,
+              "scaled": 5.15525018507379e-11
+            },
+            "Xss": {
+              "absolute": 3.340794307860051e-10,
+              "scaled": 2.455262612075924e-11
+            },
+            "Xsu": {
+              "absolute": 2.8623159398222242e-11,
+              "scaled": 2.8623159398222242e-11
+            },
+            "Xuu": {
+              "absolute": 9.361760065079716e-11,
+              "scaled": 9.361760065079716e-11
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 0.000001,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 7.412471331180726e-11,
+              "scaled": 7.412471331180726e-11
+            },
+            "Xs": {
+              "absolute": 1.3417461586229251e-11,
+              "scaled": 1.3417461586229251e-11
+            },
+            "Xu": {
+              "absolute": 4.046297027906348e-10,
+              "scaled": 4.046297027906348e-10
+            },
+            "Xss": {
+              "absolute": 1.0450633552983035e-9,
+              "scaled": 7.680523693055904e-11
+            },
+            "Xsu": {
+              "absolute": 2.64545552131068e-10,
+              "scaled": 2.64545552131068e-10
+            },
+            "Xuu": {
+              "absolute": 1.2649494071561435e-10,
+              "scaled": 1.2649494071561435e-10
+            }
+          }
+        },
+        {
+          "direction": "all_parameters",
+          "h": 5e-7,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 4.254756477695132e-10,
+              "scaled": 4.254756477695132e-10
+            },
+            "Xs": {
+              "absolute": 2.0770649089563165e-10,
+              "scaled": 2.0770649089563165e-10
+            },
+            "Xu": {
+              "absolute": 3.9854726658662687e-10,
+              "scaled": 3.9854726658662687e-10
+            },
+            "Xss": {
+              "absolute": 3.792865341245566e-9,
+              "scaled": 2.7875048886095436e-10
+            },
+            "Xsu": {
+              "absolute": 4.6056886082723736e-10,
+              "scaled": 4.6056886082723736e-10
+            },
+            "Xuu": {
+              "absolute": 1.2579890482176254e-10,
+              "scaled": 1.2579890482176254e-10
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000002,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.0883419993289465e-11,
+              "scaled": 2.0883419993289465e-11
+            },
+            "Xs": {
+              "absolute": 1.4160391826126273e-11,
+              "scaled": 1.4160391826126273e-11
+            },
+            "Xu": {
+              "absolute": 4.208424927987231e-11,
+              "scaled": 4.208424927987231e-11
+            },
+            "Xss": {
+              "absolute": 3.2357339030397725e-10,
+              "scaled": 3.2357339030397725e-10
+            },
+            "Xsu": {
+              "absolute": 3.3391345244382364e-12,
+              "scaled": 3.3391345244382364e-12
+            },
+            "Xuu": {
+              "absolute": 2.1964385171768797e-11,
+              "scaled": 2.1964385171768797e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 0.000001,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 1.7340560931611293e-10,
+              "scaled": 1.7340560931611293e-10
+            },
+            "Xs": {
+              "absolute": 2.258576659031064e-11,
+              "scaled": 2.258576659031064e-11
+            },
+            "Xu": {
+              "absolute": 1.79960355645159e-10,
+              "scaled": 1.79960355645159e-10
+            },
+            "Xss": {
+              "absolute": 1.0086942392462106e-9,
+              "scaled": 1.0086942392462106e-9
+            },
+            "Xsu": {
+              "absolute": 3.4066457987869114e-11,
+              "scaled": 3.4066457987869114e-11
+            },
+            "Xuu": {
+              "absolute": 6.130234167511794e-11,
+              "scaled": 6.130234167511794e-11
+            }
+          }
+        },
+        {
+          "direction": "radius_only",
+          "h": 5e-7,
+          "analytic": [
+            0,
+            0,
+            0
+          ],
+          "finite_difference": [
+            0,
+            0,
+            0
+          ],
+          "maximum_absolute": 0,
+          "maximum_scaled": 0,
+          "position_parameter_jet_errors": {
+            "X": {
+              "absolute": 2.1517244930269186e-10,
+              "scaled": 2.1517244930269186e-10
+            },
+            "Xs": {
+              "absolute": 1.0585249343719738e-10,
+              "scaled": 1.0585249343719738e-10
+            },
+            "Xu": {
+              "absolute": 2.641288542049036e-10,
+              "scaled": 2.641288542049036e-10
+            },
+            "Xss": {
+              "absolute": 7.676626001540399e-10,
+              "scaled": 7.676626001540399e-10
+            },
+            "Xsu": {
+              "absolute": 3.532248105120317e-11,
+              "scaled": 3.532248105120317e-11
+            },
+            "Xuu": {
+              "absolute": 7.747553640302662e-11,
+              "scaled": 7.747553640302662e-11
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "finite_difference_diagnostic_not_a_continuous_bound": true,
+  "no_whole_normal_or_BVP_run": true,
+  "bindings": {
+    "actual_input": {
+      "path": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+      "sha256": "b30236a681fdd4329386583a98e740ff2d281f853d9873835f093228129bafab",
+      "git_blob_sha": "416afb489caf4816fd634ecfac3d91a6ae93c3d2"
+    },
+    "exact_main_source_readback": [
+      {
+        "path": "scripts/fd2d-position-curvature-chain-R191.cjs",
+        "git_blob_sha": "7abcea6d968125aee8bc807e2f797b2227746828",
+        "exact_readback": true,
+        "characters": 3222
+      },
+      {
+        "path": "scripts/fd2d-position-curvature-provider-R191.cjs",
+        "git_blob_sha": "9322c7d1cc804d6529ab397d030af0e6c23ca2c7",
+        "exact_readback": true,
+        "characters": 15579
+      },
+      {
+        "path": "scripts/fd2d-check-position-curvature-R191.cjs",
+        "git_blob_sha": "6f0590f59b7a6278439a890b9e33f7acd9d6fe5b",
+        "exact_readback": true,
+        "characters": 3838
+      }
+    ],
+    "actual_parent_sources": {
+      "engine": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+      "R187_provider": "e5e9d19793cd30d9c0a1378b7d5e9f4c55d039eed461e9f9964bef76dfd4570f",
+      "R190_provider": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb",
+      "candidate": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+    },
+    "no_unavailable_OS_execution_claimed": true
+  },
+  "implementation_history": [
+    {
+      "event": "initial V8 fixture setup failed before field evaluation",
+      "cause": "Old transient stored scalar-source key was absent; createR187 was undefined",
+      "action": "Read the same published engine/candidate/source blobs again, then actually evaluated the displayed fixture",
+      "not_a_geometry_or_JVP_failure": true
+    },
+    {
+      "event": "expanded one local check to a nearby active nonaxis point",
+      "cause": "The first nonaxis point u=1.47 is genuinely inactive, so it did not exercise mixed spectral derivatives",
+      "action": "Final single check includes u=1.55, alongside the active axis and inactive comparison point; no whole normal or BVP was run"
+    }
+  ]
+}

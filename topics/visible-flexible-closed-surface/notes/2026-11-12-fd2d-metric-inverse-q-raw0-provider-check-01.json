@@ -1,0 +1,92 @@
+{
+  "scope": "Floating evaluation of one inverse-Q buffer; no continuous/full-tail certificate",
+  "source": {
+    "path": "scripts/fd2d-metric-inverse-q-buffer.mjs",
+    "sha256": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632"
+  },
+  "candidate": {
+    "path": "notes/2026-11-12-fd2d-metric-inverse-q-raw0-candidate-01.json",
+    "sha256": "3fe9d09500459bb3aa6d9b50e9d6c38523730a1a4fa98b6ee67eab5ad7e558af"
+  },
+  "metadata": {
+    "kind": "finite_inverse_q_buffer",
+    "degree": 32,
+    "left": 0.3808860058501116,
+    "right": 0.65,
+    "innerW": 0.003991159062404631,
+    "outerWTarget": 0.1,
+    "innerLogarithmicDerivative": -0.026254183745567077,
+    "outerLogarithmicDerivative": -10.769230769230768,
+    "gamma": 0.09595427342001057,
+    "rawLogRatio": 3.2210885054401746,
+    "endpointCalibration": -7.549516567451064e-15,
+    "quadratureGrid": 1024,
+    "exactDefinition": "positive-k weighted moment; rational log derivative primitive; S5 endpoint calibration",
+    "numericalOnly": true,
+    "originalPolynomialSolvesCalibratedEquation": false
+  },
+  "ports": [
+    {
+      "r": 0.3808860058501116,
+      "drdx": 0.2691139941498884,
+      "d2rdx2": 0,
+      "w": 0.003991159062404631,
+      "wx": -0.000028199008523857464,
+      "wxx": 5.059256977506403,
+      "wr": -0.0001047846233821325,
+      "wrr": 69.85768270478246,
+      "E": 1.0000159293506614,
+      "logw": -5.523673598434213,
+      "logwx": -0.007065368250913022,
+      "logwxx": 1267.6159228847862,
+      "logwr": -0.02625418374556109,
+      "referenceH": -0.09595427342001053,
+      "referenceHr": -1.0076954463669217,
+      "referenceHrr": 0,
+      "referenceJ": 0,
+      "referenceLinearEquationDefect": 0,
+      "referenceGamma": 0.004021872812911219,
+      "referenceIIRow": 3.968492268905289,
+      "backgroundMeridionalCurvature": -0.00010478211970547032,
+      "backgroundCircularCurvature": 0.010478534819336173
+    },
+    {
+      "r": 0.65,
+      "drdx": 0.2691139941498884,
+      "d2rdx2": 0,
+      "w": 0.09999999999999998,
+      "wx": -0.2898150706229552,
+      "wxx": 165.31322869657856,
+      "wr": -1.076923076923071,
+      "wrr": 2282.627494221627,
+      "E": 1.01,
+      "logw": -2.302585092994046,
+      "logwx": -2.898150706229553,
+      "logwxx": 1644.7330094497672,
+      "logwr": -10.769230769230715,
+      "referenceH": 0.9999999999999999,
+      "referenceHr": 6.153846153846153,
+      "referenceHrr": 0,
+      "referenceJ": 0,
+      "referenceLinearEquationDefect": 0,
+      "referenceGamma": -0.6153846153846152,
+      "referenceIIRow": 14.20118343195266,
+      "backgroundMeridionalCurvature": -1.0609688242909197,
+      "backgroundCircularCurvature": 0.1530826446476906
+    }
+  ],
+  "sampled": {
+    "nodes": 4097,
+    "maxBackgroundMeridionalCurvature": 6.9523130715755075,
+    "maxReferenceGamma": 972.0276845873278,
+    "maxReferenceIIRow": 329.2636284594819,
+    "maxReferenceEquationDefect": 4.917992229070451e-13,
+    "where": {
+      "bg": 0.232421875,
+      "Gamma": 0.66162109375,
+      "II": 0.5654296875
+    },
+    "maxLogwDifference512vs1024": 7.993605777301127e-15
+  },
+  "seconds": 3.698644701
+}

@@ -1,0 +1,58 @@
+{
+  "status": "continuous-finite-tail-metric-only-conditional-on-background-packet",
+  "scope": "Continuous metric-only bounds for an exact finite tail and its R6 collar.\n\nUse the reviewed low-memory geometry adapter and the frozen coefficient\nmetric_residuals function. The complete background partition is validated\neven for a selected-range run. Only value and first-radial fields are\nrestricted and expanded; no curvature formula is evaluated. The shared\nspan cache may construct its unused second-derivative polynomial, but this\nwrapper neither expands that polynomial nor makes a curvature claim.\n\nAnalytic validity of the supplied w packets is a separate proof input.\nThis program does not certify source ODE convergence or README completion.\n",
+  "script_sha256": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6",
+  "source_sha256": {
+    "db6f-audit-tail-metric-only.py": "178d7b7b62deeff93d8e198f271736ac41f258c07b3d8b7a9bc111c909d5ebd6",
+    "db6f-audit-tail-stream.py": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f-audit-metric-polynomial.py": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "manifest": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "packet": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+  "packet_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "packet_data_sha256": "275138aba6a789c4283b560668e5c8a45f8292e0d2bd188f7433a0bdda3f022c",
+  "supplier_definition": "Same exact background; use fine packet on the listed complete spans and coarse packet elsewhere.",
+  "supplier_independently_verified": false,
+  "total_finite_spans": 4637,
+  "packet_intervals": 5237,
+  "checked_packet_intervals": 5237,
+  "selected_span_interval": [
+    -1,
+    4637
+  ],
+  "collar_included": true,
+  "radial_subdivisions": 1,
+  "block_size": 128,
+  "complete_packet_partition_validated": true,
+  "entire_finite_tail_and_collar_covered": true,
+  "metric_operator_upper": 9.968938237875866e-07,
+  "coordinate_residual_upper": [
+    9.863848337303918e-07,
+    1.3937290108148216e-07,
+    2.120800323393934e-11
+  ],
+  "worst_metric_packet": {
+    "row": 5163,
+    "span": 4570,
+    "child": 0
+  },
+  "curvature_evaluated": false,
+  "curvature_certified": false,
+  "complete_closed_surface": false,
+  "not_certified": [
+    "analytic validity of supplier packets",
+    "principal curvature or reach",
+    "source ODE or nonlinear infinite-tail solution",
+    "complete closed-surface metric",
+    "README completion"
+  ],
+  "metric_immersion_certified_on_checked_intervals": true,
+  "seconds": 132.4823327289996,
+  "peak_process_rss_bytes": 75988992,
+  "row_data_file": "2026-11-09-db6f-root-metric-only-m8-replay.rows.json.gz",
+  "row_data_sha256": "31f473311a3db22d41b3d3bc8108d46fa84cbbe299cfe56f497fed500ee7cd37"
+}

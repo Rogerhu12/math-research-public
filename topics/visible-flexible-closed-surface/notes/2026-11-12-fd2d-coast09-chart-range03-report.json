@@ -1,0 +1,431 @@
+{
+  "schema": "fd2d-local-coast-chart-and-quadrature-range-inverse-recovery-v2",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-coast-chart-range-compare-v2.py",
+    "bytes": 13198,
+    "sha256": "88cb289dc5e3e0a5ffc0feaab1821d2293e8ff18a61519793a5bd49e1a02bac9"
+  },
+  "inputs": {
+    "candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "field": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+      "bytes": 49734,
+      "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+    },
+    "radius_packet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    },
+    "reference_inlet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+      "bytes": 68907,
+      "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+    },
+    "reference_cache": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    }
+  },
+  "dependencies": {
+    "fd2d_gc_native_inverse_recovery.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_native_inverse_recovery.py",
+      "bytes": 5186,
+      "sha256": "f2cc0bf7ea859a45f92a1904c86ef11c94747cfceb96cce07bc6aacf7a3b977f"
+    },
+    "fd2d_gc_raw_bump_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+      "bytes": 7490,
+      "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+    },
+    "fd2d_gc_frozen_coast_reference.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    },
+    "fd2d_k0_ruling_chart.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_chart.py",
+      "bytes": 8525,
+      "sha256": "dc6a6f2b8f3adc886365fad29202bbadde4373154112233767d034f2aa1a5098"
+    },
+    "fd2d_gc_gauss_cell_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_d2.py",
+      "bytes": 11040,
+      "sha256": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756"
+    }
+  },
+  "started_utc": "2026-11-12T13:40:35.398015+00:00",
+  "completed": true,
+  "exception": null,
+  "physical_parameters_changed": false,
+  "global_atlas_constructed": false,
+  "nonlinear_BVP_performed": false,
+  "original_field_preserved": false,
+  "origin": "Zero local correction, same fixed physical p; affine range is independent of this origin",
+  "no_certified_lower_bound_or_geometry_claim": true,
+  "comparisons": [
+    {
+      "chart": "original_mixed",
+      "quadrature": "original_Gauss2",
+      "cell": 71,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "split_points": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "order_per_subspan": 2,
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "U_xi_node_minimum": 0.35700066051850227,
+      "actual_weight_derivative_integral": -0.6918342208807572,
+      "exact_weight_derivative_integral": -1.0,
+      "original_zero_origin_l2": 45.98625425796893,
+      "cases": [
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-10,
+          "rank": 60,
+          "minimum_scaled_singular_value": 2.5578926013311462e-17,
+          "maximum_coefficient": 21317775.4000666,
+          "actual_l2": 2.0109147530727425,
+          "predicted_l2": 2.0109147512032317,
+          "backsubstitution_maximum": 3.634388745510364e-08,
+          "full_mean_maximum": 6.095137171447277,
+          "high_l2": 2.0109147530727127,
+          "formal_kappa": 48030319.71113938,
+          "point_Gauss_maximum": 170001653654658.34
+        },
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-12,
+          "rank": 66,
+          "minimum_scaled_singular_value": 2.5578926013311462e-17,
+          "maximum_coefficient": 2926570995.010214,
+          "actual_l2": 1.879335594113794,
+          "predicted_l2": 1.879335917196338,
+          "backsubstitution_maximum": 7.720850398573731e-06,
+          "full_mean_maximum": 5.472019076347351,
+          "high_l2": 1.8793355933091502,
+          "formal_kappa": 6504465576.977646,
+          "point_Gauss_maximum": 3.898822898929306e+18
+        }
+      ],
+      "necessary_component_coefficient_box": {
+        "cap": 7.352941176470588,
+        "status": 1,
+        "optimality": 1.212839846457571e-12,
+        "iterations": 144,
+        "actual_l2": 2.2583644399396263,
+        "predicted_l2": 2.258364439939616,
+        "full_mean_maximum": 7.929739233452199,
+        "high_l2": 2.2583644373600342,
+        "formal_kappa": 81.59293319841035,
+        "point_Gauss_maximum": 2393.2154539250637,
+        "maximum_coefficient": 10.31546924520441,
+        "box_is_not_sufficient_for_curvature_cap": true
+      }
+    },
+    {
+      "chart": "original_mixed",
+      "quadrature": "rim_split_Gauss3",
+      "cell": 71,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "split_points": [
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8675434451024153
+      ],
+      "order_per_subspan": 3,
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "U_xi_node_minimum": 0.35700066051850227,
+      "actual_weight_derivative_integral": -0.999999999999998,
+      "exact_weight_derivative_integral": -1.0,
+      "original_zero_origin_l2": 67.08855234984063,
+      "cases": [
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-10,
+          "rank": 60,
+          "minimum_scaled_singular_value": 3.294096309642903e-17,
+          "maximum_coefficient": 27120627.082258213,
+          "actual_l2": 2.5281850764199776,
+          "predicted_l2": 2.528185077904302,
+          "backsubstitution_maximum": 4.199119096881532e-08,
+          "full_mean_maximum": 7.842813800205477,
+          "high_l2": 2.528185076419936,
+          "formal_kappa": 57499152.27804372,
+          "point_Gauss_maximum": 399029954679071.5
+        },
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-12,
+          "rank": 67,
+          "minimum_scaled_singular_value": 3.294096309642903e-17,
+          "maximum_coefficient": 3837727070.421653,
+          "actual_l2": 2.3315276753920573,
+          "predicted_l2": 2.3315275191164835,
+          "backsubstitution_maximum": 2.298333035710698e-05,
+          "full_mean_maximum": 6.93363618850708,
+          "high_l2": 2.331527667375022,
+          "formal_kappa": 9191276444.42218,
+          "point_Gauss_maximum": 2.291974690025943e+19
+        }
+      ],
+      "necessary_component_coefficient_box": {
+        "cap": 7.352941176470588,
+        "status": 1,
+        "optimality": 1.1353776534391014e-12,
+        "iterations": 120,
+        "actual_l2": 2.8882012531967596,
+        "predicted_l2": 2.888201253196755,
+        "full_mean_maximum": 10.413799643596859,
+        "high_l2": 2.888201249670319,
+        "formal_kappa": 98.2095551913797,
+        "point_Gauss_maximum": 2591.5035745934974,
+        "maximum_coefficient": 10.315469245204408,
+        "box_is_not_sufficient_for_curvature_cap": true
+      }
+    },
+    {
+      "chart": "natural_ruling",
+      "quadrature": "original_Gauss2",
+      "cell": 71,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "split_points": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "order_per_subspan": 2,
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "U_xi_node_minimum": 0.22828161516130438,
+      "actual_weight_derivative_integral": -0.6918342208807572,
+      "exact_weight_derivative_integral": -1.0,
+      "original_zero_origin_l2": 55.89950787507372,
+      "cases": [
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-10,
+          "rank": 83,
+          "minimum_scaled_singular_value": 1.9266426964656907e-16,
+          "maximum_coefficient": 161635.08854339196,
+          "actual_l2": 0.006970179594641703,
+          "predicted_l2": 0.006970179595735922,
+          "backsubstitution_maximum": 1.1909424557643433e-09,
+          "full_mean_maximum": 0.01477074236026965,
+          "high_l2": 0.0069701795938187745,
+          "formal_kappa": 593464.4929132916,
+          "point_Gauss_maximum": 109614350630.13411
+        },
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-12,
+          "rank": 88,
+          "minimum_scaled_singular_value": 1.9266426964656907e-16,
+          "maximum_coefficient": 55748462.63805117,
+          "actual_l2": 0.004786957949407,
+          "predicted_l2": 0.004786956929038582,
+          "backsubstitution_maximum": 4.010152565570024e-08,
+          "full_mean_maximum": 0.00978104118257761,
+          "high_l2": 0.004786957935946072,
+          "formal_kappa": 65947406.52137299,
+          "point_Gauss_maximum": 291504906361051.56
+        }
+      ],
+      "necessary_component_coefficient_box": {
+        "cap": 7.352941176470588,
+        "status": 1,
+        "optimality": 1.2971536957626442e-12,
+        "iterations": 148,
+        "actual_l2": 0.023664399939834973,
+        "predicted_l2": 0.02366439993982959,
+        "full_mean_maximum": 0.04709210625190963,
+        "high_l2": 0.02366439978040635,
+        "formal_kappa": 45.0354261433147,
+        "point_Gauss_maximum": 1101.1866149523855,
+        "maximum_coefficient": 10.821260491657853,
+        "box_is_not_sufficient_for_curvature_cap": true
+      }
+    },
+    {
+      "chart": "natural_ruling",
+      "quadrature": "rim_split_Gauss3",
+      "cell": 71,
+      "endpoints": [
+        0.8281800958020702,
+        0.8675434451024153
+      ],
+      "split_points": [
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8675434451024153
+      ],
+      "order_per_subspan": 3,
+      "matrix_shape": [
+        128,
+        94
+      ],
+      "U_xi_node_minimum": 0.22828161516130438,
+      "actual_weight_derivative_integral": -0.999999999999998,
+      "exact_weight_derivative_integral": -1.0,
+      "original_zero_origin_l2": 80.86585878013751,
+      "cases": [
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-10,
+          "rank": 83,
+          "minimum_scaled_singular_value": 1.926643036402826e-16,
+          "maximum_coefficient": 1221883.20608397,
+          "actual_l2": 0.007695387561242287,
+          "predicted_l2": 0.007695387562436438,
+          "backsubstitution_maximum": 6.873914770721967e-10,
+          "full_mean_maximum": 0.016380049419240095,
+          "high_l2": 0.007695387561217584,
+          "formal_kappa": 1120713.0303013828,
+          "point_Gauss_maximum": 308102225825.05615
+        },
+        {
+          "kind": "unbounded_SVD",
+          "relative_cutoff": 1e-12,
+          "rank": 88,
+          "minimum_scaled_singular_value": 1.926643036402826e-16,
+          "maximum_coefficient": 24713721.42541527,
+          "actual_l2": 0.00655950986155437,
+          "predicted_l2": 0.006559510144108399,
+          "backsubstitution_maximum": 3.7230915239661044e-08,
+          "full_mean_maximum": 0.012606139469426125,
+          "high_l2": 0.006559509852798897,
+          "formal_kappa": 50135822.04649216,
+          "point_Gauss_maximum": 504617933734828.2
+        }
+      ],
+      "necessary_component_coefficient_box": {
+        "cap": 7.352941176470588,
+        "status": 1,
+        "optimality": 9.161795671078221e-13,
+        "iterations": 181,
+        "actual_l2": 0.02867655910761364,
+        "predicted_l2": 0.028676559107617072,
+        "full_mean_maximum": 0.06084862031164562,
+        "high_l2": 0.028676558561397135,
+        "formal_kappa": 54.378077405943884,
+        "point_Gauss_maximum": 1681.8818416226404,
+        "maximum_coefficient": 10.960942738493852,
+        "box_is_not_sufficient_for_curvature_cap": true
+      }
+    }
+  ],
+  "seconds": 148.26567662699927,
+  "peak_RSS_KiB": 81580,
+  "inverse_recovery_observations": [
+    {
+      "event": "inverse_newton_limit",
+      "sigma": 0.25901083839627115,
+      "sigma_hex": "0x1.093a2320e2d7ap-2",
+      "iteration": 60,
+      "unfinished_indices": [
+        58
+      ],
+      "target_u": [
+        "1.1786420997669633248e+00"
+      ],
+      "inlet_label_t": [
+        "7.631008760127952461e-01"
+      ],
+      "residual": [
+        "-4.2089911590770245908e-10"
+      ],
+      "bracket_lower": [
+        "7.630756912965834212e-01"
+      ],
+      "bracket_upper": [
+        "1.1776510490669244709e+00"
+      ],
+      "U_t": [
+        "1.0339910427820628488e+00"
+      ],
+      "material_residual_maximum": 4.2089911590770246e-10,
+      "tolerance": 2e-13,
+      "bracket_width_maximum": 12.14152159010688
+    },
+    {
+      "event": "inverse_recovery_completed",
+      "sigma": 0.25901083839627115,
+      "method": "original safeguarded Newton, then retained-bracket bisection",
+      "bisection_used": true,
+      "newton_iterations": 60,
+      "allocated_bisection_iterations": 120,
+      "actual_iterations": 98,
+      "material_residual_maximum": 1.3550272015550036e-13,
+      "tolerance": 2e-13,
+      "failed_newton_state": {
+        "sigma": 0.25901083839627115,
+        "sigma_hex": "0x1.093a2320e2d7ap-2",
+        "iteration": 60,
+        "unfinished_indices": [
+          58
+        ],
+        "target_u": [
+          "1.1786420997669633248e+00"
+        ],
+        "inlet_label_t": [
+          "7.631008760127952461e-01"
+        ],
+        "residual": [
+          "-4.2089911590770245908e-10"
+        ],
+        "bracket_lower": [
+          "7.630756912965834212e-01"
+        ],
+        "bracket_upper": [
+          "1.1776510490669244709e+00"
+        ],
+        "U_t": [
+          "1.0339910427820628488e+00"
+        ],
+        "material_residual_maximum": 4.2089911590770246e-10,
+        "tolerance": 2e-13,
+        "bracket_width_maximum": 12.14152159010688
+      }
+    }
+  ],
+  "reference_evaluation_scope": "Loaded old26 cache unchanged; new local points use same native formula and 2e-13 tolerance, with explicit retained-bracket bisection after old60 iterations. No enlarged cache published as the original cache.",
+  "local_states": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-coast09-chart-range03-local-states.npz",
+    "bytes": 9915,
+    "sha256": "4750fae4dbd26707d130c0bd3add8905d5f2df9b13e309d18db3f3e64154e021"
+  },
+  "reference_cache_final_statistics": {
+    "entries": 41,
+    "hits": 115,
+    "misses": 15,
+    "loaded_cache": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    },
+    "maximum_material_inverse_residual": 1.9866877240537484e-13,
+    "maximum_numerical_native_GC_residual": 1.411301055133287e-14
+  }
+}

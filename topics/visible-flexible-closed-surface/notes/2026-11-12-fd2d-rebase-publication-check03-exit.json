@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-actual-integration-check-exit-v1",
+  "session": 62791,
+  "launch_chunk": "4ecf39",
+  "final_chunk": "207d15",
+  "exit_code": 0,
+  "internal_seconds": 8.184688118999475,
+  "checks": [
+    "Real local push race: rejection, immediate literal pull --rebase, success on attempt 2",
+    "Concurrent README change: immediate diff after pull and exit78 before remote payload publication"
+  ],
+  "foreign_work_preserved": true,
+  "root_LOG_blob_unchanged": true,
+  "no_external_remote_used": true,
+  "source_sha256": "92d37b88c05a7b146d879773282987496148c3f231c1fee15df8ff770bd45325"
+}

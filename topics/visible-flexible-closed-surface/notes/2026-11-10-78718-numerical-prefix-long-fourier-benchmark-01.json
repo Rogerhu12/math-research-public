@@ -1,0 +1,240 @@
+{
+  "scope": "Compare original and long-precision Fourier transforms on a saved curve.\n\nOnly RHS, values/project and velocity evaluation are performed. No BVP, DN,\ncurve integration, or candidate output is produced. Reports contain scalars.\n",
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-long-fourier-research.py",
+    "bytes": 7202,
+    "sha256": "5187ae70cb3306c60fd96bcc6b679e703788eda214a90a9dddc558616591b6d8"
+  },
+  "backend": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-long-fourier-transforms.py",
+    "bytes": 6430,
+    "sha256": "d3b1b13bf8bb7806ce1358cc4314e14e9e5801701c5857deb2b3c38fe2c1385b"
+  },
+  "checkpoint": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "bytes": 27524,
+    "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+  },
+  "source_was_successful": false,
+  "fft_dtype": {
+    "longdouble_bits": 128,
+    "mantissa_bits_without_implicit_leading_bit": 63,
+    "rfft": "complex256",
+    "irfft": "float128"
+  },
+  "rows": [
+    {
+      "M": 15,
+      "N": 512,
+      "radial_points": 32,
+      "repetitions": 5,
+      "table_setup_seconds": 0.0002995490031025838,
+      "original_RHS_median_seconds": 0.05361184799767216,
+      "new_RHS_median_seconds": 0.014541006999934325,
+      "RHS_speedup": 3.686941901473144,
+      "original_velocity_median_seconds": 0.0952657050002017,
+      "new_velocity_median_seconds": 0.02923939100219286,
+      "velocity_speedup": 3.2581289053885247,
+      "RHS_difference": {
+        "max_absolute": 1.0506710443200708e-14,
+        "relative_l2": 1.6512531772149274e-14
+      },
+      "long_RHS_difference": {
+        "max_absolute": 1.0506710443200822e-14,
+        "relative_l2": 1.6512155727663737e-14
+      },
+      "long_RHS_dtype": "float128",
+      "complex_RHS_dtype": "complex256",
+      "complex_step_direction_difference": {
+        "max_absolute": 1.828287521377092e-12,
+        "relative_l2": 1.805900085728765e-15
+      },
+      "velocity_difference": {
+        "max_absolute": 6.820715867106308e-16,
+        "relative_l2": 5.908623373405511e-17
+      },
+      "F_s_psi_difference": {
+        "max_absolute": 1.7852472972146316e-15,
+        "relative_l2": 2.6739738086234157e-16
+      },
+      "velocity_s_difference": {
+        "max_absolute": 3.171379445946615e-15,
+        "relative_l2": 1.2979662449900965e-16
+      },
+      "basis_transforms": [
+        {
+          "order": 0,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 3.728557718650494e-15,
+            "relative_l2": 9.458661274460546e-16
+          },
+          "project_difference": {
+            "max_absolute": 1.0502339609609255e-15,
+            "relative_l2": 1.651186287537971e-14
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 1.8009682287156714e-14,
+            "relative_l2": 1.7212882181532687e-15
+          }
+        },
+        {
+          "order": 1,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 1.13390200007224e-14,
+            "relative_l2": 9.838615457800636e-16
+          },
+          "project_difference": {
+            "max_absolute": 1.9913899985508018e-17,
+            "relative_l2": 1.0203202826866975
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 4.567223335638637e-13,
+            "relative_l2": 8.753454622812914e-15
+          }
+        },
+        {
+          "order": 2,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 5.374108276445799e-14,
+            "relative_l2": 1.291423507614007e-15
+          },
+          "project_difference": {
+            "max_absolute": 1.0259166689691309e-17,
+            "relative_l2": 6.246527503082659e-16
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 1.983459230192608e-11,
+            "relative_l2": 1.0512685864351033e-14
+          }
+        }
+      ],
+      "unknown_basis_fallback_exact": true,
+      "transform_statistics": {
+        "values_calls": 40,
+        "project_calls": 10,
+        "fallback_values": 1,
+        "fallback_project": 0,
+        "registered_angular_counts": [
+          512
+        ]
+      }
+    },
+    {
+      "M": 22,
+      "N": 1024,
+      "radial_points": 32,
+      "repetitions": 5,
+      "table_setup_seconds": 0.0005015120004827622,
+      "original_RHS_median_seconds": 0.13303372600057628,
+      "new_RHS_median_seconds": 0.02711744699990959,
+      "RHS_speedup": 4.905835199051733,
+      "original_velocity_median_seconds": 0.1732966720010154,
+      "new_velocity_median_seconds": 0.05410309600119945,
+      "velocity_speedup": 3.2030823522035314,
+      "RHS_difference": {
+        "max_absolute": 9.855526463310293e-15,
+        "relative_l2": 1.7518222732332072e-14
+      },
+      "long_RHS_difference": {
+        "max_absolute": 9.855526463310295e-15,
+        "relative_l2": 1.7518226038818562e-14
+      },
+      "long_RHS_dtype": "float128",
+      "complex_RHS_dtype": "complex256",
+      "complex_step_direction_difference": {
+        "max_absolute": 4.595657188133373e-12,
+        "relative_l2": 2.368838094584265e-15
+      },
+      "velocity_difference": {
+        "max_absolute": 6.820715867106308e-16,
+        "relative_l2": 5.742878347680899e-17
+      },
+      "F_s_psi_difference": {
+        "max_absolute": 1.7852472972146316e-15,
+        "relative_l2": 2.615966211542966e-16
+      },
+      "velocity_s_difference": {
+        "max_absolute": 3.1713252358379906e-15,
+        "relative_l2": 1.2657070316187027e-16
+      },
+      "basis_transforms": [
+        {
+          "order": 0,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 3.728578047441228e-15,
+            "relative_l2": 9.205760110317143e-16
+          },
+          "project_difference": {
+            "max_absolute": 9.85552480283535e-16,
+            "relative_l2": 1.7519407672310427e-14
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 2.3540197569005272e-14,
+            "relative_l2": 2.6068758709516655e-15
+          }
+        },
+        {
+          "order": 1,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 1.1339128420939648e-14,
+            "relative_l2": 9.645489464769141e-16
+          },
+          "project_difference": {
+            "max_absolute": 1.410395429083056e-17,
+            "relative_l2": 1.0299106341124424
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 9.7660291312196e-13,
+            "relative_l2": 1.2481722235278567e-14
+          }
+        },
+        {
+          "order": 2,
+          "values_dtype": "float128",
+          "project_dtype": "float128",
+          "complex_values_dtype": "complex256",
+          "values_difference": {
+            "max_absolute": 5.374108276445799e-14,
+            "relative_l2": 1.2592939315021687e-15
+          },
+          "project_difference": {
+            "max_absolute": 6.742168739692456e-18,
+            "relative_l2": 4.3716085121003456e-16
+          },
+          "complex_values_direction_difference": {
+            "max_absolute": 6.47069620107743e-11,
+            "relative_l2": 1.540632523572154e-14
+          }
+        }
+      ],
+      "unknown_basis_fallback_exact": true,
+      "transform_statistics": {
+        "values_calls": 40,
+        "project_calls": 10,
+        "fallback_values": 1,
+        "fallback_project": 0,
+        "registered_angular_counts": [
+          1024
+        ]
+      }
+    }
+  ],
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "new_surface_created": false
+}

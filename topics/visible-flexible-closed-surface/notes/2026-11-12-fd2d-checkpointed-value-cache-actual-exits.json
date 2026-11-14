@@ -1,0 +1,24 @@
+{
+  "schema": "fd2d-observed-local-value-cache-exits-v1",
+  "observations": [
+    {
+      "observed_identifier": "393925",
+      "exit_code": 1,
+      "cwd": "repository root",
+      "failure": "FileNotFoundError for a topic-relative candidate path; numerical consumers not yet evaluated",
+      "cause": "incorrect working directory"
+    },
+    {
+      "session_id": 71172,
+      "initial_chunk": "1086a5",
+      "completion_chunk": "ba5b94",
+      "exit_code": 0,
+      "cwd": "topic root",
+      "seconds": 1.8486275170034787,
+      "peak_rss_kib": 105520,
+      "natural_completion": true
+    }
+  ],
+  "whole_F_outcomes_closed_group": "notes/2026-11-12-fd2d-raw-bump-grouped29-dyadic30-closed-manifest.json",
+  "no_exit_inferred_from_elapsed_time": true
+}

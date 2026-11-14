@@ -1,0 +1,119 @@
+{
+  "schema": "fd2d-physical-bump-native-reader-check-v1",
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-native-check.py",
+      "bytes": 8555,
+      "sha256": "c98e93ab293f39cff5680c650ea45969e4b5acf65e58f928067f62f6c6babf6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-body-screen.py",
+      "bytes": 12179,
+      "sha256": "0352ecedf49c4e83c211e16689aef0e6cc4a2bdcbdaec71c335c901838025acb"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-body-screen.py",
+      "bytes": 28076,
+      "sha256": "27abc54c5c170ac2074428c2726e4077a3d57e25d15ea0e0a5f1606c56185827"
+    }
+  ],
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "bytes": 38553,
+    "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "fixture": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-native-check-02-fixture.npz",
+    "bytes": 39345,
+    "sha256": "d9ac60e7c824cbb6af1a8b6880be9617e66294fb0b966514d7e16e364572c7b4"
+  },
+  "actual_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-native-check-02-definition.json",
+    "bytes": 12691,
+    "sha256": "4d44da3988a5f67d981c8ae63cb1b5f3d20185186e70d0b2f7a1b60892b7e9c3"
+  },
+  "modes": 15,
+  "nodes": 100,
+  "actual_test_delta": [
+    0.00022945265618534654,
+    -0.00012484405096414272,
+    -0.00029624393097265944,
+    -3.364575808051619e-05,
+    0.00027824352922321073,
+    0.00018250539435967636,
+    -0.00018060357080544706
+  ],
+  "provider_node_fields_maximum_difference": 2.042810365310288e-14,
+  "provider_full_angular_first_jets_maximum_difference": 3.2862601528904634e-13,
+  "shared_node_continuity": {
+    "": 0.0,
+    "_xi": 0.0,
+    "_xixi": 0.0
+  },
+  "physical_radial_chain_rule": {
+    "n": {
+      "absolute_maximum": 3.2347355904960295e-09,
+      "relative_l2": 8.402181158984252e-10
+    },
+    "m": {
+      "absolute_maximum": 1.950021921715006e-09,
+      "relative_l2": 8.253001335233633e-10
+    },
+    "l": {
+      "absolute_maximum": 1.1120505405415315e-08,
+      "relative_l2": 2.7045151567819898e-11
+    }
+  },
+  "angular_inverse_error": 4.440892098500626e-16,
+  "definition_roundtrip_difference": 0.0,
+  "cut_full_II_difference": 4.440892098500626e-16,
+  "nonzero_profile_effect_at_test_points": 0.00020388473794175077,
+  "checks": {
+    "saved_mesh_unchanged": true,
+    "all_saved_delta_parameters_retained": true,
+    "physical_clock_exactly_one": true,
+    "physical_coordinate_equals_saved_s": true,
+    "actual_nonzero_metric_change": true,
+    "node_fields_match_actual_provider": true,
+    "full_angular_first_jets_match": true,
+    "shared_node_values_and_angular_jets": true,
+    "fixed_material_angle_inverse": true,
+    "fixed_material_radial_chain_rule": true,
+    "definition_roundtrip_identical": true,
+    "actual_cut_II_keeps_full_tail": true,
+    "body_RHS_24_columns_finite": true,
+    "initial_actual_twojet_finite": true,
+    "source_bytes_unchanged": true
+  },
+  "implementation_checks_passed": true,
+  "actual_body_integration_run": false,
+  "BVP_run": false,
+  "continuous_certificate": false,
+  "seconds": 16.727166126000157,
+  "scope": "Actual archived field binding, spatial jets, fixed-material body RHS only; no ODE, geometry success, or same-g refinement claim"
+}

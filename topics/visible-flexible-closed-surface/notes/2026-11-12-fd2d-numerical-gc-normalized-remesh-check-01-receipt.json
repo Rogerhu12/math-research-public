@@ -1,0 +1,44 @@
+{
+  "session_id": 41341,
+  "launch_chunk": "286f62",
+  "completion_chunk": "638bc4",
+  "tool_exit_code": 0,
+  "seconds_in_report": 11.044,
+  "initial_bad_env_launch_chunk": "b2900d",
+  "initial_bad_env_exit": 1,
+  "scope": "Actual entire 2881-node M4/N64 to M8/N128 Q/L conversion; no new ODE or shooting solve. The initial bad launch did not reach a numerical fixture.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-initial.json.gz",
+      "bytes": 185270,
+      "sha256": "142d7a05673cb7d5836de8d5b87c5cef8f9c93713c0fac0fb887bdbeed03239b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-normalized-remesh-check-01-report.json",
+      "bytes": 7125,
+      "sha256": "457da348c18a8a2ccd8369f836ee42e16fe3effccc463b741b260e6ecfbad17b"
+    }
+  ],
+  "sources": [
+    {
+      "path": "scripts/fd2d-gc-tail-normalized-remesh-check.mjs",
+      "bytes": 4089,
+      "sha256": "f462154ebbfefcfe138229db0621f6f23fbf25364e701656437deae40dfc09e4"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-normalized-warm-remesh.mjs",
+      "bytes": 5495,
+      "sha256": "3bf870ae8ffc1f0cd31b2dfde78c437e5c559e68c318312ea72b2013eae75c15"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-normalized-mean.mjs",
+      "bytes": 1576,
+      "sha256": "f117328df6b705ccca12fb41990ae641e5d1b7cd2ed973bde57fc5710fb3951b"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-partition-worker-v9.mjs",
+      "bytes": 19944,
+      "sha256": "cab58f7d72ba963dafa7606997b48ef18ec1f5ad9082115363557f841f551841"
+    }
+  ]
+}

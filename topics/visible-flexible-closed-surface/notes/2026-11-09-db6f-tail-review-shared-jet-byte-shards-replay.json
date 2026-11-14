@@ -1,0 +1,300 @@
+{
+  "status": "PASS_PURE_OLD_CONTAINER_BYTE_ROUNDTRIP_ONLY",
+  "scope": "Existing reviewed M12 logical container; in-memory storage only. No new geometry, no consumer adaptation, no solver, no mathematical certificate.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+      "bytes": 9031,
+      "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+      "bytes": 3112330,
+      "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-shared-jet-byte-shards.py",
+      "bytes": 10864,
+      "sha256": "a9414f8080cd417cbaccd81393f9e4b2bd000721ff624af59fa39fc8d07c9e41"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-shared-jet-byte-shards.py",
+      "bytes": 9238,
+      "sha256": "b8613a6988e659be8d23bda1aa1e92abf0c9c98c9f67641030f9aa9763558c43"
+    }
+  ],
+  "logical_bytes": 3112330,
+  "logical_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+  "nodes": 2570,
+  "base_representation_modes": 24,
+  "descriptor_sha256": "7cfc9c48ad91814bf15050c2d6e2e89787206d1df6df6309656057c8c524f58f",
+  "memory_only_parts": [
+    {
+      "file": "old-m12-storage-only.part-00000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "raw_bytes": 1000000,
+      "raw_sha256": "733aacca41d4b5ee5625884261d472804d97b28b44dd3fc03f871b7ce755fe31",
+      "stored_bytes": 999972,
+      "stored_sha256": "98d4f8933f335c3b5b31a5dfc9e1281abb3bf7a8894afd539ddb09d63dd344b2"
+    },
+    {
+      "file": "old-m12-storage-only.part-00001.bin.gz",
+      "index": 1,
+      "offset": 1000000,
+      "raw_bytes": 1000000,
+      "raw_sha256": "5683ecdda70dcfd7244a84303a84ad84fb7e661da064f945c69d16b8c4f00d7c",
+      "stored_bytes": 1000300,
+      "stored_sha256": "9bc469f100541c1e7c9819967a67ab6387f7b3b5be116b07fef3c9d41db2c65f"
+    },
+    {
+      "file": "old-m12-storage-only.part-00002.bin.gz",
+      "index": 2,
+      "offset": 2000000,
+      "raw_bytes": 1000000,
+      "raw_sha256": "8e02c6ae10ba8dd9c8255e3a0a3823086d65f0d293c7d81cfbb8c77565d157cd",
+      "stored_bytes": 1000323,
+      "stored_sha256": "4b495e2d9cf68203e45a9ad36c4c1b0d4e816b6d92353a165afa55c3902ee660"
+    },
+    {
+      "file": "old-m12-storage-only.part-00003.bin.gz",
+      "index": 3,
+      "offset": 3000000,
+      "raw_bytes": 112330,
+      "raw_sha256": "7f656cda04fa9ffd3330215ad2fa45b97d45a37e65344b767bde8ec6c2af0fe5",
+      "stored_bytes": 112383,
+      "stored_sha256": "90abc96deb258096b3732d1cabe0418871483dfb62b97a454ffb799dee10e3f7"
+    }
+  ],
+  "stored_total_bytes": 3112978,
+  "largest_part_bytes": 1000323,
+  "strict_file_limit": 5000000,
+  "exact_logical_bytes_equal": true,
+  "exact_c_order_array_bytes_equal": true,
+  "mapping_enumeration_order_irrelevant": true,
+  "array_ledger": {
+    "mesh": {
+      "dtype": "<f8",
+      "shape": [
+        2570
+      ],
+      "c_order_bytes": 20560,
+      "c_order_sha256": "b4f0ca4bb556ff2838b0bebefa6ff76a6259d1b1547bc25b0227fa6b37ce17f6"
+    },
+    "jets": {
+      "dtype": "<f8",
+      "shape": [
+        3,
+        2570,
+        74
+      ],
+      "c_order_bytes": 4564320,
+      "c_order_sha256": "2f8df1a6d93ef6e9011df90d1d123fb8377186775e58a54dcf60dbce00b533a4"
+    },
+    "mean_increments": {
+      "dtype": "<f8",
+      "shape": [
+        2569
+      ],
+      "c_order_bytes": 20552,
+      "c_order_sha256": "5f7785746dd0575e9eb3cafc0aa0cffba12b42da67b93849f7398153213e0654"
+    }
+  },
+  "negative_cases": [
+    {
+      "case": "missing_part",
+      "rejected": true,
+      "reason": "Missing/extra storage part"
+    },
+    {
+      "case": "extra_part",
+      "rejected": true,
+      "reason": "Missing/extra storage part"
+    },
+    {
+      "case": "descriptor_parts_reversed",
+      "rejected": true,
+      "reason": "Noncanonical part order/index"
+    },
+    {
+      "case": "index_boolean",
+      "rejected": true,
+      "reason": "Invalid integer: index"
+    },
+    {
+      "case": "index_wrong",
+      "rejected": true,
+      "reason": "Noncanonical part order/index"
+    },
+    {
+      "case": "offset_gap",
+      "rejected": true,
+      "reason": "Gap/overlap in logical bytes"
+    },
+    {
+      "case": "offset_overlap",
+      "rejected": true,
+      "reason": "Gap/overlap in logical bytes"
+    },
+    {
+      "case": "raw_length_zero",
+      "rejected": true,
+      "reason": "Invalid integer: raw_bytes"
+    },
+    {
+      "case": "raw_length_too_large",
+      "rejected": true,
+      "reason": "Raw part exceeds its bounded storage contract"
+    },
+    {
+      "case": "stored_length_limit",
+      "rejected": true,
+      "reason": "Stored part violates the strict repository file limit"
+    },
+    {
+      "case": "stored_length_boolean",
+      "rejected": true,
+      "reason": "Invalid integer: stored_bytes"
+    },
+    {
+      "case": "raw_digest_wrong",
+      "rejected": true,
+      "reason": "Raw part size/SHA256 mismatch"
+    },
+    {
+      "case": "stored_digest_wrong",
+      "rejected": true,
+      "reason": "Stored part size/SHA256 mismatch"
+    },
+    {
+      "case": "stored_digest_not_canonical",
+      "rejected": true,
+      "reason": "Invalid SHA256: stored_sha256"
+    },
+    {
+      "case": "escaping_part_filename",
+      "rejected": true,
+      "reason": "Part name must be a simple gzip basename"
+    },
+    {
+      "case": "duplicate_part_filename",
+      "rejected": true,
+      "reason": "Duplicate part filename"
+    },
+    {
+      "case": "logical_trailing_gap",
+      "rejected": true,
+      "reason": "Parts do not cover all logical bytes"
+    },
+    {
+      "case": "logical_length_boolean",
+      "rejected": true,
+      "reason": "Invalid integer: logical_bytes"
+    },
+    {
+      "case": "logical_digest_wrong",
+      "rejected": true,
+      "reason": "Wrong expected logical identity"
+    },
+    {
+      "case": "unknown_descriptor_field",
+      "rejected": true,
+      "reason": "Unexpected fields: descriptor"
+    },
+    {
+      "case": "wrong_storage_schema",
+      "rejected": true,
+      "reason": "Unsupported storage schema/format"
+    },
+    {
+      "case": "nodes_boolean",
+      "rejected": true,
+      "reason": "Invalid integer: nodes"
+    },
+    {
+      "case": "wrong_nodes",
+      "rejected": true,
+      "reason": "Storage shape differs from the defining base metadata"
+    },
+    {
+      "case": "modes_boolean",
+      "rejected": true,
+      "reason": "Invalid integer: modes"
+    },
+    {
+      "case": "wrong_modes",
+      "rejected": true,
+      "reason": "Storage shape differs from the defining base metadata"
+    },
+    {
+      "case": "array_missing",
+      "rejected": true,
+      "reason": "Unexpected fields: array ledger"
+    },
+    {
+      "case": "array_extra",
+      "rejected": true,
+      "reason": "Unexpected fields: array ledger"
+    },
+    {
+      "case": "array_dimension_boolean",
+      "rejected": true,
+      "reason": "Wrong array dimensions jets"
+    },
+    {
+      "case": "array_wrong_dtype",
+      "rejected": true,
+      "reason": "Wrong array dtype jets"
+    },
+    {
+      "case": "array_byte_count_wrong",
+      "rejected": true,
+      "reason": "Wrong array byte count jets"
+    },
+    {
+      "case": "array_digest_wrong",
+      "rejected": true,
+      "reason": "Reconstructed array ledger mismatch"
+    },
+    {
+      "case": "truncated_gzip_with_updated_storage_hash",
+      "rejected": true,
+      "reason": "Invalid gzip part"
+    },
+    {
+      "case": "changed_logical_byte_with_updated_part_hashes",
+      "rejected": true,
+      "reason": "Reconstructed logical container identity mismatch"
+    },
+    {
+      "case": "duplicate_json_field",
+      "rejected": true,
+      "reason": "Duplicate JSON field"
+    },
+    {
+      "case": "nonfinite_json_token",
+      "rejected": true,
+      "reason": "Nonfinite JSON token: NaN"
+    },
+    {
+      "case": "original_npz_wrong_expected_nodes",
+      "rejected": true,
+      "reason": "Unexpected original shape: mesh"
+    },
+    {
+      "case": "original_npz_wrong_expected_modes",
+      "rejected": true,
+      "reason": "Unexpected original shape: jets"
+    }
+  ],
+  "negative_case_count": 37,
+  "files_written": [
+    "this small report only"
+  ],
+  "logical_data_or_parts_written": 0,
+  "geometry_reader_calls": 0,
+  "geometry_backend_calls": 0,
+  "solver_calls": 0,
+  "source_root_calls": 0,
+  "future_geometry_manifests": 0
+}

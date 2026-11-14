@@ -1,0 +1,114 @@
+{
+  "status": "CLOSED_CALLS_007_008_AUDITED",
+  "calls": [
+    {
+      "call": 7,
+      "scale": 0.98583984375,
+      "status": "ORIGINAL_LINE_SEARCH_FAILURE",
+      "last_iteration": {
+        "iteration": 6,
+        "norm": 0.020004151516050995,
+        "minA": 0.06934535170057886,
+        "minD": 0.9916202785210807,
+        "chartCondition": 57768.01048012387
+      },
+      "exact_request_and_checkpoint_height": true,
+      "source_count": 8,
+      "finite_state_shape": [
+        865,
+        30
+      ],
+      "finite_raw_shape": [
+        13,
+        30
+      ],
+      "packet": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0007.json.gz",
+        "bytes": 266598,
+        "sha256": "352afd42a85af071b369b4987558854b0ed37ccc5173e26faca504251e4740aa"
+      }
+    },
+    {
+      "call": 8,
+      "scale": 0.985595703125,
+      "status": "ACTUAL_FINITE_TAIL_WARM_SUCCESS",
+      "residual": 1.251822050474137e-09,
+      "history_length": 5,
+      "minLeading": 0.9877514386798938,
+      "minD": 0.9916295412280283,
+      "exact_request_and_checkpoint_height": true,
+      "source_count": 8,
+      "finite_state_shape": [
+        865,
+        30
+      ],
+      "finite_raw_shape": [
+        13,
+        30
+      ],
+      "packet": {
+        "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0008.json.gz",
+        "bytes": 267635,
+        "sha256": "396cdd758e7b38cfd7d06ae7595210685bf2d9d9ef90e2fa157bafff087f93cf"
+      }
+    }
+  ],
+  "source_bindings_verified": 83,
+  "original_config_unchanged": true,
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "bytes": 3800,
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "bytes": 3107,
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0007.json.gz",
+      "bytes": 266598,
+      "sha256": "352afd42a85af071b369b4987558854b0ed37ccc5173e26faca504251e4740aa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call007-trace.jsonl",
+      "bytes": 3498,
+      "sha256": "9bbcbda29309cdc6b0b302dbe6e76f6e24d7393a16a0c9fada18d61742011fba"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call007-trials.jsonl",
+      "bytes": 37834,
+      "sha256": "29f140e1bb0c2084ed79e49da1d37f9465e74e00a704d217fd78f7fe52ff2201"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0008.json.gz",
+      "bytes": 267635,
+      "sha256": "396cdd758e7b38cfd7d06ae7595210685bf2d9d9ef90e2fa157bafff087f93cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call008-trace.jsonl",
+      "bytes": 2461,
+      "sha256": "77c696135dc7524da53eeee237edb222d21ff7da8a5416f8e3cd5981543f2694"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call008-trials.jsonl",
+      "bytes": 647,
+      "sha256": "12b39803903c75be490022c8c4a3c22ab6831b78ad0c0f83a808692b7d03904b"
+    }
+  ],
+  "source_script": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-continuation03-calls007008.py",
+    "bytes": 6127,
+    "sha256": "80945fb80f7dc47dfab01c1877f0e255675288b6a0e8893dcab2fc4011256cdd"
+  },
+  "solver_calls": 0,
+  "active_progress_or_journal_read": false,
+  "controller_exit_observed": false,
+  "scope": "One closed failure and one true intermediate warm success; no s=1, final Jacobian/audit, prefix, geometry or G5 completion."
+}

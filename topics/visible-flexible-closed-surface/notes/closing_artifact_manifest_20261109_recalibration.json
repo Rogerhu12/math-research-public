@@ -1,0 +1,238 @@
+{
+  "scope": "Reviewable checkpoint of closing_geometry finite tail recalibration research; overall problem remains open. Files are confined to the assigned topic.",
+  "batch": "2026-11-09 physical-recalibration snapshot 1",
+  "status": "Research continues; no complete closed isometric family.",
+  "summary": [
+    "A verified R28 input plus new exact-rational constants prove the unchanged default n>=160 rotational background has meridian curvature <.02 and closes C2 to a flat disk; awaiting independent review of new constants.",
+    "Full finite M10=0 recalibration converges but chooses shallow compression branches and worsens the m2 gate; retained as a failed route.",
+    "Removing shallow valleys for a constant-slope sleeve merely moves the gate to the next deep valley and worsens it.",
+    "Direct m3 asymmetric-pulse optimization yields K9 gate .0006854580991, DN11.5412877431, height .0403638053; K8 gate .0005485434906, DN11.2490970642, height .0274171722. These are same-metric refined linear diagnostics.",
+    "At cut height .001, formal linear-height max curvatures are about13.1869 and12.1649 and min linear A negative; neither candidate qualifies.",
+    "Erratum: old r*w/(m|f|) angular threshold was a normalized smallness condition, not a necessary projection bound. The correct angular projection bound is r/(m|f|). T-gates and DNs are unchanged."
+  ],
+  "required_existing_parent_file": "topics/visible-flexible-closed-surface/notes/root_cut_tail_cap0.02_config.json",
+  "source_dependency": "Full repository adjacent-topic scripts, verified by the included nine-blob manifest; no copied old arrays required.",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs",
+      "bytes": 1515,
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_cell_scan.mjs",
+      "bytes": 1253,
+      "sha256": "b96d7e02f1301e71fccba69f4eb9ff9fd72fea04707610a15644cbdb130a6410"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_calibrate_tail.mjs",
+      "bytes": 2648,
+      "sha256": "0fa1526f37416d0499ae2244fb6c18650e05d506897089b4e9eca2957b8981ed"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_recal_diagnostic.mjs",
+      "bytes": 1416,
+      "sha256": "661b872ad98d5f9939d8f2872075da5e5c9c39fbfcf238c6695669973769db6d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_modes_diagnostic.mjs",
+      "bytes": 1173,
+      "sha256": "dbbbb026be5cf5eff1dd2042ff13562712d9506c0ff962cdb43bacc5832637c5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_optimize_gate.mjs",
+      "bytes": 3278,
+      "sha256": "d469960b5145b0e87b87919b591b6157c6d76fd856ae9e6e7fa60af63a6e4de6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_pulse_cap_scan.mjs",
+      "bytes": 1908,
+      "sha256": "c0fc90b1260e25a9c03f66eef3be9fd48f4f49d3b8b152beae8db96649c299af"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_cap_gate_scan.mjs",
+      "bytes": 1297,
+      "sha256": "4ba4151f1494e35c4595edb3730fe21f7f3b20a82c79d4500825d47973ddfef8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_flat_sleeve_scan.mjs",
+      "bytes": 1926,
+      "sha256": "1cc35917cb226f0fb6fc794047f05571dc0ced588dc485c59c0d15379eae567d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_asymmetric_gate_scan.mjs",
+      "bytes": 2389,
+      "sha256": "9795248905f3dfbf60621274716099e431580113563dff8425daa1421f5faa87"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_deep_background_rational.py",
+      "bytes": 3400,
+      "sha256": "3258e3758e4d610bb85d35a7ed977d3f3caaf3cbdde763e5d2c57f1c688fa45d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-closing-physical-cell-recalibration.md",
+      "bytes": 9605,
+      "sha256": "8932b3b93f00aa6e064f9490b0f8ef5954ca85dc00d4bd0b08a1bd7a385f2033"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-closing-deep-background-n160.md",
+      "bytes": 2540,
+      "sha256": "99f709e7f66bb2bf47dbf5f1741114b94a8e00c2cce083b8670325d1060db828"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-closing-real-tail-progress.md",
+      "bytes": 6419,
+      "sha256": "4cd54e0710010cb257d4bee43b3934206cba5d179b9eabc3cf2bc1a3ce249d05"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-closing-radial-reach.md",
+      "bytes": 6134,
+      "sha256": "803d6f7e6d172cf637298cdf433e412fcc057ce243a75726136ea091fc8273b3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_tail_dependency_blobs.json",
+      "bytes": 719,
+      "sha256": "71d6aa7ced8ee553901a7c2748d569359dace927fc6573eaccd5032714c3fa60"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_deep_background_n160_rational.json",
+      "bytes": 1824,
+      "sha256": "f62cd0a053c74a25d100632860f0cd73c95e313c7fa87139fbcd40d0c9a79e8a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_config.json",
+      "bytes": 358,
+      "sha256": "ddc84850e37a0a709eae3e21fa79c52e8e7818ce8b268039f00daf95ca5ca79b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_cell0_scan.json",
+      "bytes": 11591,
+      "sha256": "399955fe8b6ca9072a8bd5b08af933bcb187533a227ee40451a06f5ce4cf4032"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_w01_cell0_scan.json",
+      "bytes": 11643,
+      "sha256": "0ae9b10614977c27a950b007fe974b055b7bb6600925807ef7503a028af92e3b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_recal_s128.json",
+      "bytes": 132556,
+      "sha256": "70c02d18e20368077a317ad123452806af0962cb71391c84192dc54c1eed3d04"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_warm_config.json",
+      "bytes": 4074,
+      "sha256": "3e2e362bb802a8003a441588e357c585890a266e5f7704200f8c94fc9fd84b96"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_beta0_diag_s256.json",
+      "bytes": 572201,
+      "sha256": "2eb6fd93d2d1cc0b428c6a11c123ba73fcc597b52f89c24d2fd9d0b6966cd8c8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_pulse0_scan_s128.json",
+      "bytes": 55464,
+      "sha256": "ac9537ea77c3f296a6d3cdfa711dbf6ee4fc378e983d34f9c3d5f771efce5c59"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_baseline_s128.json",
+      "bytes": 64164,
+      "sha256": "d6557da82f3ecc7866fed857285f39d0ae8a761449d3bf630c0a33334e129a90"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_p160_modes_s256_far48.json",
+      "bytes": 58682,
+      "sha256": "99d6ec74c9f0ea197b2b35511dcb70a801a624c02bef5b7e3c06c92ff48decc9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_w01_recal_partial_config.json",
+      "bytes": 3475,
+      "sha256": "f0bc9c0d63979e6f8d82e5a3d710a5d968dbb1382ba4554e5238ec8ca22a114b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_w01_recal_partial_modes_s256_far48.json",
+      "bytes": 63592,
+      "sha256": "cdeb25b139d7223618dd5f9b890264bb723bd9bd5ef3031c33f3ccd5f041a209"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_m3_opt_s128.json",
+      "bytes": 172845,
+      "sha256": "8d6d80430be2a970b5229c4e078c317fbea89cc9d25034f59ad6742bd2d80375"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_m3_opt_s128_config.json",
+      "bytes": 1522,
+      "sha256": "5037ff9f0895d0600a3dce834c104641eb54718161069ca62d996734cac2bd0f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_m3_opt_refine_s512_far64.json",
+      "bytes": 70086,
+      "sha256": "81d9b510a39c4955078403e75cc91c21abad3e468f408ca8ecb3f9e7d1e55e66"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_root_cap002_m3_outercap_scan_s96.json",
+      "bytes": 81106,
+      "sha256": "3814b13b81671b2676259bf0455c30c9f0f172aff9ee6db887147097c9480b61"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_flat_sleeve_m3_scan_s96.json",
+      "bytes": 76063,
+      "sha256": "a6041616dd3ee33fd08d9320ba773aacebde1ff1739912f49cbbdef09820cd43"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_asymmetric_k89_scan_s96.json",
+      "bytes": 417771,
+      "sha256": "4467f68e4b5bad708112c7da42c74a015572077a64352a8ce1ea4f6c74b1d703"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_asymmetric_k89_scan_s96_best_config.json",
+      "bytes": 1629,
+      "sha256": "726f3964b472d4106ad8121185f2c99c9395ce289b66365af47a6b06c24477ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_asym_k8_p02_start.json",
+      "bytes": 1629,
+      "sha256": "994df08132f728968ae2deba63dd99038ce37832b8fb2a470f8b2e36d224af4c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k9_asym_opt_s128.json",
+      "bytes": 296559,
+      "sha256": "ad35e4d8b74e8c68174142a4387b4b9820d348a3425a22e6a32797aede119e76"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k9_asym_opt_s128_config.json",
+      "bytes": 1636,
+      "sha256": "dc24dd78f1a16325b620308f4db2c0f90a6b98757c6e5434a56cfe60af3e1553"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k8_asym_opt_s128.json",
+      "bytes": 290552,
+      "sha256": "87837aa0491b4777021f40c93dff7db396e26f5b6178cc2d97a1b9c0e4b0c9bc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k8_asym_opt_s128_config.json",
+      "bytes": 1640,
+      "sha256": "a9112d560a43c6e3c359fc73ddd080bee999cacaa9cec9d039991cf4c48ab89a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_asym_k9_refine_s512_far64_a0003.json",
+      "bytes": 37497,
+      "sha256": "2c293212be7ede1bbbab449e68526a70df43705b4db09e93279b9ed1cae7bbb0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k9_opt_refine_s512_far64_a001.json",
+      "bytes": 37830,
+      "sha256": "c1ac157a7361617c678b7a5e56c5ba542b92823275dc6b8caa9fc01e8e08a139"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_m3_k8_opt_refine_s512_far64_a001.json",
+      "bytes": 37515,
+      "sha256": "72d9d9a298ae6b0b466d069938f7a2de20630a3699514e89f332661fa680ac64"
+    }
+  ],
+  "total_bytes": 2570936
+}

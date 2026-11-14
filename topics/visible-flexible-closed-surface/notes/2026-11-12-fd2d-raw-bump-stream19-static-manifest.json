@@ -1,0 +1,31 @@
+{
+  "schema": "fd2d-static-active-run-inputs-v1",
+  "active_outputs_excluded": true,
+  "session_id": 8055,
+  "launch_chunk": "58d54b",
+  "out_prefix": "notes/2026-11-12-fd2d-raw-bump-stream19",
+  "whole_J_stored": false,
+  "same_finite_objective_as": "interior18",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_interior_stream_normal.py",
+      "bytes": 2241,
+      "sha256": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-positive-trace-stream-run.py",
+      "bytes": 28833,
+      "sha256": "5e7038c29cfe922f2ff4003ca5768c4194012aa537861d0601011c4065e1be9f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace19-stream-source-compile-receipt.json",
+      "bytes": 841,
+      "sha256": "6021e935ba3fd745c0e8477f789ed281f83f98a618909aa60e83778ac636ddcd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+      "bytes": 58507,
+      "sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "runtime": "functions.exec V8",
+  "OSProcessCreated": false,
+  "actualNormalProducedAndStored": true,
+  "normalRecomputeRequired": false,
+  "error": "Dimension mismatch in final comparison: stored prior Float64Array direction had become a numeric-key plain object without .length",
+  "stage": "after new actual normal and local point evaluation; before report storage",
+  "newProviderSourceChanged": false,
+  "correctiveAction": "restore explicitly named numeric arrays from saved numeric-key objects and finish report; do not reassemble actual normal"
+}

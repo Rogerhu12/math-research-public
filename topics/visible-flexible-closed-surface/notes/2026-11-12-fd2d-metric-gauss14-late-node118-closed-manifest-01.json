@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-closed-actual-Gauss14-late-two-cell-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-positive-gauss-late-screen.py",
+      "bytes": 12636,
+      "sha256": "500a0fa89766af419ba0ad7eeca64bb03a6f9bdd2a1ab64786ac1f88de01938f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss14-late-node118.md",
+      "bytes": 9963,
+      "sha256": "86b2c04afc63cbf6637c198f669bcaf3f50e5a3115845f40a5b2521561426060"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-report.json",
+      "bytes": 88147,
+      "sha256": "6fd1157abaa19f65e3b72beae8995059fc5ab020229230d9c269aa289d11135f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-definition.json",
+      "bytes": 40830,
+      "sha256": "b6e73f11520b7fa1611b12a1eb6cdc0d01503825e8a34619fab7701e13ae8e19"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-samples.npz",
+      "bytes": 256229,
+      "sha256": "e1bacda26eb5b5fd6547278cae293a054e5b1024b7cc5be66381da0756c4c6e7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss14-late-node118-01-exit-receipt.json",
+      "bytes": 568,
+      "sha256": "f0ca55fcc22d42d3fead5ddd42e100305fe64fa6ae772e5bbd50bdbb57803d80"
+    }
+  ],
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss14-b0003-accepted-0002.npz",
+    "bytes": 56014,
+    "sha256": "9bebfd806d5bb014f0aca395c3424baeadba9907b92e7692099631f3d2d7d786"
+  },
+  "actual_session": 59024,
+  "actual_completion_chunk": "7aede7",
+  "actual_exit_code": 0,
+  "actual_scope": "node118 and cells117/118 only; 9 radial queries x 1024 angles",
+  "exact_result": "Throughout both actual P1 cells: n(s,0)<-1/16 and n(s,pi/6)>1/40 by exact coefficient sums and nonnegative tail. Every angle circle therefore has n=0; fixed positive K implies a nonzero Gauss defect.",
+  "spectral_result_scope": "Finite whole-circle DFT; no infinite-angle or alias certificate",
+  "input_unchanged": true,
+  "BVP_run": false,
+  "body_run": false,
+  "Jacobian_assembled": false,
+  "actual_field_changed": false,
+  "continuous_residual_certificate": false,
+  "closed_surface_certificate": false
+}

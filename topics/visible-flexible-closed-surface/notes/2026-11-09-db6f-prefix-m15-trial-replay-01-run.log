@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py", line 99, in <module>
+    main()
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py", line 38, in main
+    raise FileExistsError('Diagnostic output prefix already used')
+FileExistsError: Diagnostic output prefix already used

@@ -1,0 +1,79 @@
+{
+  "status": "PASS finite fixed-geometry replay and stage mapping; no global or infinite certificate",
+  "parameters_different": [
+    "initialCheckpoint",
+    "modes",
+    "traceFile"
+  ],
+  "cut_height_zero_extension_equal": true,
+  "physical_source_hashes_match": true,
+  "numerics": {
+    "M8": {
+      "metric": 1.086211306006678e-10,
+      "fullTensor": 2.1043457748875928e-07,
+      "actualCurvature": 6.1290019088502925,
+      "formalCurvature": 6.129001908850357,
+      "fullDarboux": 2.104157716691883e-07,
+      "normalizedFullDefect": 1.2365712679466083e-05,
+      "normalizedFullDefectRawProfile": 2.4731425358932166e-05,
+      "translationPeriod": 4.351536528878439e-19,
+      "angularHolonomy": 5.116608397008008e-19,
+      "radialGaugeMean": 6.009698760769261e-19,
+      "relativeNodeReplayError": 2.46099001610843e-11,
+      "minArea": 0.9999999999458848,
+      "minProjectionD": 0.9968092681740518,
+      "minLeading": 0.8205583763391947,
+      "minNormalZ": 0.8928906843855041,
+      "minSupportAtCutZ": 0.021744247784789724,
+      "minSupportAffineConstant": 0.021744247784789724,
+      "seamPosition": 1.1102231569740467e-16,
+      "seamR": 1.110223031432009e-16,
+      "seamThetaNormalized": 2.5812924602575e-16,
+      "seamRR": 1.2696666999585066e-09,
+      "seamRThetaNormalized": 3.067959942958778e-16,
+      "seamThetaThetaNormalized": 1.6974976800966081e-15
+    },
+    "M12": {
+      "metric": 5.386184660226463e-13,
+      "fullTensor": 6.566216223435535e-09,
+      "actualCurvature": 6.129001866628142,
+      "formalCurvature": 6.12900186662807,
+      "fullDarboux": 1.602896445997051e-09,
+      "normalizedFullDefect": 3.099007392648456e-07,
+      "normalizedFullDefectRawProfile": 6.198014785296913e-07,
+      "translationPeriod": 4.656478160289215e-19,
+      "angularHolonomy": 5.124019935296483e-19,
+      "radialGaugeMean": 7.318364664277155e-19,
+      "relativeNodeReplayError": 5.004197560561788e-10,
+      "minArea": 0.9999999999997333,
+      "minProjectionD": 0.9968092681740551,
+      "minLeading": 0.820559119417021,
+      "minNormalZ": 0.8928906843855057,
+      "minSupportAtCutZ": 0.021744258440253992,
+      "minSupportAffineConstant": 0.021744258440253992,
+      "seamPosition": 7.850462514586082e-17,
+      "seamR": 1.6653345369377348e-16,
+      "seamThetaNormalized": 2.5812924602575e-16,
+      "seamRR": 3.3026337478990995e-09,
+      "seamRThetaNormalized": 3.300348279677889e-16,
+      "seamThetaThetaNormalized": 1.6974976800966081e-15
+    }
+  },
+  "ratios": {
+    "metric": 201.6661838625132,
+    "physical_full_Darboux": 131.27221798679778,
+    "actual_curvature_difference": 4.222215022053888e-08
+  },
+  "source_sha256": {
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m8-stage2-result-state-004.json.gz": "d56e265a148d80f37a46fec299fc09bad5ba7b27ac13bd8a3ecd389fe0169366",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m12-stage2-result-state-001.json.gz": "6627975cae116585952bec2b4551542e0034949d2449bf5afc20fabc0edb5261",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-audit-cartesian-k6-m8-stage2-a0003-seams.json": "bf0fe5d0918cb75ccbc343a65935f4f79c7678530ddc99e1bf8015d9eef95e59",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-audit-cartesian-k6-m12-stage2-a0003-seams.json": "733d5f181f63f00fec105a52d51793b6c1c5a8ede6d12c2ca38cf2913d92d775",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port.mjs": "f4b9dd7d391865e2e98094de61950796dc79c17c9031a599aefed9c7c42300e8",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-audit-cartesian-stage.mjs": "6095a28525ac182d19f63fa971f3161ec81255a154e3c2d26c9385786bdacad6",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-audit-cartesian-stage-seams.mjs": "012236dbf12171b448b695eea4c69623ad90804057e8afc2ae25220567ffbe26"
+  }
+}

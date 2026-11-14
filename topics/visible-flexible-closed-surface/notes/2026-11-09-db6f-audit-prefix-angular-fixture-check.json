@@ -1,0 +1,36 @@
+{
+  "status": "PASS-two-local-fixtures-and-inherited-complete-partition",
+  "scope": "Check the two local M12 fixtures and inherited full-coverage assembly.\n\nNo metric geometry or interval backend is imported. This independently reads\nthe new proof records and checks exact partitions, transferred maxima and\nagreement with the already-run two-interval M12 diagnostic.\n",
+  "script_sha256": "0f4b1e146d137564fac1924f13c8b877691803036a284ca754a4feb706bf7643",
+  "inputs": {
+    "local": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-prefix-angular-local-fixture.json",
+      "sha256": "0216cdec15ac334a765ac260d755cb82534b2a1009bd0076e89cd9995091e021"
+    },
+    "inherited": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-prefix-angular-inherited-fixture.json",
+      "sha256": "c6d0ebb5b1b0f739ee2c0e9ed93b8a588ba847291e378808cfcb3dbf4d701886"
+    },
+    "old_local": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-m12-prefix-metric-budget.json",
+      "sha256": "487fa3781de18a58bea2268bfd8fd85ceab5e29a3bc3cb8305d450362a9d1a3b"
+    },
+    "old_global": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    "closed_budget": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7"
+    }
+  },
+  "old_two_local_arithmetic_exactly_reproduced": true,
+  "local_rows": 268,
+  "local_exact_partition_and_positive_denominators": true,
+  "local_exact_target_budget_met": true,
+  "inherited_full_intervals": 2575,
+  "inherited_geometric_backend_evaluations": 0,
+  "inherited_bridge_transfer_equal_reviewed_closed_budget": true,
+  "new_full_domain_M12_refinement_performed": false,
+  "new_M15_map_certified": false
+}

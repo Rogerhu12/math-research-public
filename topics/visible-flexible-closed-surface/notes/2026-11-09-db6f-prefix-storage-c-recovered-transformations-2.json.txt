@@ -1,0 +1,44 @@
+{
+  "scope": "Only explicit new prefix producer/backend/storage identity gates; no mathematical thresholds or old tail gates changed.",
+  "old": "db6f-prefix-terminal-error-storage.py",
+  "old_sha256": "809cc7ab61903f11847653fda018506f7c2bed38a7501007909200eb0bf69584",
+  "new": "db6f-prefix-terminal-error-storage-v2.py",
+  "new_sha256": "a00f8210d561983e9d137a848cb7b582e33de8450c0b70497e3933080c297aa1",
+  "replacements": [
+    {
+      "old": "def prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref):",
+      "new": "def prefix_storage_ledger(files, reported, actual, parent, role):\n    \"\"\"Verify every report storage binding against the actual logical-byte closure.\n\n    Paths may be relocated to an independent checkout; exact basenames,\n    byte counts, multiplicities and SHA256s remain part of the identity.\n    \"\"\"\n    check(type(reported) is list and type(actual) is list and len(reported) == len(actual),\n          'Incomplete prefix storage ledger: '+role)\n    def key(item):\n        check(type(item) is dict and set(item) == {'file', 'bytes', 'sha256'} and\n              type(item['file']) is str and type(item['bytes']) is int and\n              0 < item['bytes'] < 5_000_000, 'Invalid storage item: '+role)\n        path = files.file(item['file'], item['sha256'], parent, role)\n        check(path.stat().st_size == item['bytes'], 'Changed storage item size: '+role)\n        return (Path(item['file']).name, item['bytes'], item['sha256'])\n    expected = sorted(key(item) for item in actual)\n    received = sorted(key(item) for item in reported)\n    check(len(set(expected)) == len(expected) and received == expected,\n          'Different prefix storage closure: '+role)\n\n\ndef prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref, storage_bindings):",
+      "count": 1
+    },
+    {
+      "old": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', baseline['script_sha256'])",
+      "new": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', baseline['script_sha256'])\n        files.prefix_source('db6f-prefix-continuous-hermite-storage.py', baseline['backend_sha256'])\n        prefix_storage_ledger(files, baseline['storage_bindings'], storage_bindings, baseline_path.parent,\n                              'candidate:angular-baseline-storage')\n        prefix_storage_ledger(files, metric['geometry_storage_bindings'], storage_bindings, path.parent,\n                              'candidate:angular-storage')",
+      "count": 1
+    },
+    {
+      "old": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', metric['script_sha256'])",
+      "new": "        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', metric['script_sha256'])\n        files.prefix_source('db6f-prefix-continuous-hermite-storage.py', metric['backend_sha256'])\n        prefix_storage_ledger(files, metric['storage_bindings'], storage_bindings, path.parent,\n                              'candidate:prefix-metric-storage')",
+      "count": 1
+    },
+    {
+      "old": "    files.prefix_source('db6f-prefix-metric-polynomial-storage.py', target['arithmetic_backend_sha256'])",
+      "new": "    files.prefix_source('db6f-prefix-metric-polynomial-storage.py', target['arithmetic_backend_sha256'])\n    prefix_storage_ledger(files, target['geometry_storage_bindings'], storage_bindings, target_path.parent,\n                          'candidate:prefix-target-storage')",
+      "count": 1
+    },
+    {
+      "old": "    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', base['script_sha256'])\n    storage_bindings = prefix_storage(files, base_path, base, geom)",
+      "new": "    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', base['script_sha256'])\n    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', geom['script_sha256'])\n    files.prefix_source('db6f-prefix-mirror-hermite-storage.py', base['wrapper_sha256'])\n    storage_bindings = prefix_storage(files, base_path, base, geom)\n    prefix_storage_ledger(files, budget['prefix_storage_bindings'], storage_bindings, budget_path.parent,\n                          'candidate:closed-budget-storage')",
+      "count": 1
+    },
+    {
+      "old": "    files.prefix_source('db6f-prefix-volume-moment-storage.py', moment['script_sha256'])",
+      "new": "    files.prefix_source('db6f-prefix-volume-moment-storage.py', moment['script_sha256'])\n    files.prefix_source('db6f-prefix-continuous-hermite-storage.py', moment['interval_backend_sha256'])\n    prefix_storage_ledger(files, geom_cert['storage_bindings'], storage_bindings,\n                          bound['geometry_certificate'][0].parent, 'candidate:geometry-storage')\n    prefix_storage_ledger(files, moment['storage_bindings'], storage_bindings,\n                          bound['moment_certificate'][0].parent, 'candidate:moment-storage')",
+      "count": 1
+    },
+    {
+      "old": "    pref_upper = prefix_metric(files, metric_path, metric, geom_path, geom, base_path, bridge, explicit_target, ref)",
+      "new": "    pref_upper = prefix_metric(files, metric_path, metric, geom_path, geom, base_path, bridge, explicit_target, ref, storage_bindings)",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "schema": "fd2d-R144-actual-native-small-jet-check-v1",
+  "passed": true,
+  "actual_execution": true,
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0001-initial.npz",
+    "bytes": 47125,
+    "sha256": "897ecba1f6eaf69252c12236cffae324058b3aeec5fdee817000245224ba3b56"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "cache": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "bytes": 401936,
+    "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+  },
+  "previous_prefill": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-report.json",
+    "bytes": 20648,
+    "sha256": "fb4e3d5d6cf6816dbd6b7330c0121c38673013bc9f3c379ed2cecf33b76dbd58"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-coast-native-jet-check.py",
+      "bytes": 8920,
+      "sha256": "a83827f7ca2ce5ee69916fda7c0a85fb734e7027b74c8ae7ca1c625e3dada073"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_coast_native_field.py",
+      "bytes": 10818,
+      "sha256": "c334fd316429127409459568a95174314da620ddd7861c485e0a9eafd0042284"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_second_jets.py",
+      "bytes": 9546,
+      "sha256": "a96464af81f147129ecc170ccf2e3c7489fe2914ff28a64109bb2981f65823b1"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    }
+  ],
+  "actual_saved_mesh_node_count": 122,
+  "actual_saved_parameters_unchanged": true,
+  "reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+  "finite_angular_indices": [
+    5,
+    17,
+    31,
+    53,
+    71,
+    89,
+    107,
+    123
+  ],
+  "finite_angular_work": 256,
+  "rows": [
+    {
+      "physical_s": 0.600318454492792,
+      "actual_saved_cell": 63,
+      "weight": 0.1051860914737172,
+      "weight_s": 32.16522171432301,
+      "query_kind": "previously evaluated actual Gauss2 point",
+      "original_first_jet_cache_formula_comparisons": {
+        "values": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        },
+        "x": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        },
+        "xi": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        }
+      },
+      "derivative_checks": [
+        {
+          "step": 2e-05,
+          "comparisons": {
+            "x": {
+              "absolute_maximum": 6.198880726770994e-05,
+              "scaled_maximum": 1.092848169796967e-06,
+              "relative_l2": 1.2015532511810793e-06
+            },
+            "xi": {
+              "absolute_maximum": 1.2653579872790033e-07,
+              "scaled_maximum": 1.246496550975929e-08,
+              "relative_l2": 1.2694717371267228e-08
+            },
+            "xixi": {
+              "absolute_maximum": 3.573928012201577e-06,
+              "scaled_maximum": 2.3545338373759745e-08,
+              "relative_l2": 2.6562293713027098e-08
+            },
+            "x_xi": {
+              "absolute_maximum": 0.00016638567421978223,
+              "scaled_maximum": 2.667144072467507e-07,
+              "relative_l2": 3.50279642418224e-07
+            }
+          }
+        },
+        {
+          "step": 1e-05,
+          "comparisons": {
+            "x": {
+              "absolute_maximum": 1.549748536433526e-05,
+              "scaled_maximum": 2.732170413237047e-07,
+              "relative_l2": 3.003936822610028e-07
+            },
+            "xi": {
+              "absolute_maximum": 3.157703609701912e-08,
+              "scaled_maximum": 3.110634854379591e-09,
+              "relative_l2": 3.1690467429957482e-09
+            },
+            "xixi": {
+              "absolute_maximum": 8.920732739170489e-07,
+              "scaled_maximum": 5.877053767410887e-09,
+              "relative_l2": 6.634257887560287e-09
+            },
+            "x_xi": {
+              "absolute_maximum": 4.159944842285768e-05,
+              "scaled_maximum": 6.668345865665347e-08,
+              "relative_l2": 8.757342331560994e-08
+            }
+          }
+        }
+      ]
+    },
+    {
+      "physical_s": 0.6396818037931371,
+      "actual_saved_cell": 64,
+      "weight": 1.0,
+      "weight_s": 0.0,
+      "query_kind": "previously evaluated actual Gauss2 point",
+      "original_first_jet_cache_formula_comparisons": {
+        "values": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        },
+        "x": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        },
+        "xi": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0,
+          "relative_l2": 0.0
+        }
+      },
+      "derivative_checks": [
+        {
+          "step": 2e-05,
+          "comparisons": {
+            "x": {
+              "absolute_maximum": 1.4210205101505835e-07,
+              "scaled_maximum": 1.0985622587440009e-08,
+              "relative_l2": 1.50560891919098e-08
+            },
+            "xi": {
+              "absolute_maximum": 1.192247243153588e-07,
+              "scaled_maximum": 9.326166115081708e-09,
+              "relative_l2": 9.459755095890252e-09
+            },
+            "xixi": {
+              "absolute_maximum": 9.150589860951186e-06,
+              "scaled_maximum": 7.503085945050269e-08,
+              "relative_l2": 6.481743329025577e-08
+            },
+            "x_xi": {
+              "absolute_maximum": 5.406642102911974e-06,
+              "scaled_maximum": 5.7576881081760185e-08,
+              "relative_l2": 5.185231976848311e-08
+            }
+          }
+        },
+        {
+          "step": 1e-05,
+          "comparisons": {
+            "x": {
+              "absolute_maximum": 3.5243084894887033e-08,
+              "scaled_maximum": 2.7245717194561056e-09,
+              "relative_l2": 3.756580956953521e-09
+            },
+            "xi": {
+              "absolute_maximum": 2.9896179754018704e-08,
+              "scaled_maximum": 2.3385815332634256e-09,
+              "relative_l2": 2.3675387969063366e-09
+            },
+            "xixi": {
+              "absolute_maximum": 2.286613806745663e-06,
+              "scaled_maximum": 1.874923931228175e-08,
+              "relative_l2": 1.6198058506836844e-08
+            },
+            "x_xi": {
+              "absolute_maximum": 1.3524184794277971e-06,
+              "scaled_maximum": 1.4402291936588537e-08,
+              "relative_l2": 1.2968708266594576e-08
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "outside_and_endpoint_comparisons": [
+    {
+      "physical_s": 0.0,
+      "differences": {
+        "value": 0.0,
+        "_x": 0.0,
+        "_xi": 0.0,
+        "_xixi": 1.4210854715202004e-14,
+        "_x_xi": 0.0
+      }
+    },
+    {
+      "physical_s": 0.5919999999999992,
+      "differences": {
+        "value": 0.0,
+        "_x": 0.0,
+        "_xi": 0.0,
+        "_xixi": 1.4210854715202004e-14,
+        "_x_xi": 0.0
+      }
+    },
+    {
+      "physical_s": 0.8675434451024153,
+      "differences": {
+        "value": 0.0,
+        "_x": 0.0,
+        "_xi": 0.0,
+        "_xixi": 1.4210854715202004e-14,
+        "_x_xi": 0.0
+      }
+    },
+    {
+      "physical_s": 1.4889731783581288,
+      "differences": {
+        "value": 0.0,
+        "_x": 0.0,
+        "_xi": 0.0,
+        "_xixi": 0.0,
+        "_x_xi": 0.0
+      }
+    }
+  ],
+  "maximum_first_jet_comparison": 0.0,
+  "maximum_fine_fd_scaled_error": 2.732170413237047e-07,
+  "maximum_outside_and_endpoint_difference": 1.4210854715202004e-14,
+  "exact_definition_reload_difference": 0.0,
+  "reference_second_jets": {
+    "schema": "fd2d-frozen-R139-analytic-second-jets-v1",
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_second_jets.py",
+      "bytes": 9546,
+      "sha256": "a96464af81f147129ecc170ccf2e3c7489fe2914ff28a64109bb2981f65823b1"
+    },
+    "reference_binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+    "component_order": [
+      "n",
+      "m",
+      "l"
+    ],
+    "physical_derivatives": [
+      "s",
+      "u",
+      "uu",
+      "su"
+    ],
+    "inlet_derivatives": "Finite Fourier through phi order three, converted analytically by dt/dphi=rho/a0",
+    "second_u": "(f_tt*U_t-f_t*U_tt)/U_t^3 with U_t=D/(v*Q)",
+    "mixed_su": "Differentiate the exact base Codazzi identities; differentiate frozen l=m*m/n",
+    "reference_parameters_frozen": true,
+    "unknown_raw_n_never_divided": true,
+    "numerical_inversion_tolerance": 2e-13,
+    "finite_differences_define_derivatives": false,
+    "continuous_numeric_certificate": false,
+    "cache": {
+      "maximum_points": 4,
+      "entries": 4,
+      "hits": 0,
+      "misses": 18
+    },
+    "diagnostics": {
+      "maximum_material_inverse_residual": 5.1993565702845856e-14,
+      "maximum_first_u_formula_discrepancy": 6.303985111699717e-15,
+      "maximum_value_formula_discrepancy": 8.803721640582296e-17
+    }
+  },
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-definition.json",
+    "bytes": 25671,
+    "sha256": "98aba5f4371868c7fe23f910af24a75ee990451f8a093ba47c4c71d2b66ce0a4"
+  },
+  "samples": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-coast-native-jet-check-01-samples.npz",
+    "bytes": 5207,
+    "sha256": "27477b1fe25061fec7f4cec953ca84f67316454ca784698d0402f38d98e4239c"
+  },
+  "source_bytes_unchanged": true,
+  "fixed_material_body_interface_inherited": true,
+  "body_integration_run": false,
+  "large_matrix_assembled": false,
+  "nonlinear_solve_performed": false,
+  "complete_residual_or_geometry_certified": false,
+  "seconds": 3.747769462999713,
+  "maximum_rss_kib": 76024
+}

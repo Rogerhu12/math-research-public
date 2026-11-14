@@ -1,0 +1,16 @@
+{
+  "scope": "Independent formula/representation checks for the new planar mode3 flow.\nNo comparison of altered physical metrics is treated as convergence.\n",
+  "flow_cartesian_local_max_abs": 4.797357715073669e-13,
+  "state_jvp_max_abs": 8.526512829121202e-14,
+  "state_jvp_relative": 4.846753392066664e-16,
+  "background_flow_nonmean": 6.342144670991481e-31,
+  "background_flow_mean": 6.776263578034403e-18,
+  "core_parameter_fixed_theta_fd_errors": [
+    1.562557983003643e-08,
+    1.784360742496105e-08,
+    1.589904367882422e-08,
+    2.627938949784081e-08
+  ],
+  "core_fd_step": 2e-07,
+  "note": "FD check independently reinverts the arc map at each perturbed coefficient; no normal-angle coordinate is held fixed."
+}

@@ -1,0 +1,131 @@
+{
+  "status": "PASS-independent-fixed-target-whole-map-and-actual-decrease-arithmetic",
+  "scope": "Independent finite-file/Fraction audit of the M12 whole-map descent claim.\n\nThis rederives scalar closure and checks the actual fixed target identities.\nIt uses the independently reviewed geometric, interval and point certificates\nas inputs; it neither solves the BVP nor claims fixed-g convergence to zero.\n",
+  "script_sha256": "95f469d3a047fbbc42e8b6bc7027a7a79ac279d206c5d61d067e6a95fc6633ff",
+  "proof": "notes/2026-11-09-db6f-root-m12-whole-and-actual-decrease.md",
+  "proof_sha256": "6db4c9267311fa5a40c2b99dff55ff0921664cf15a2585f71054338c0467cfb0",
+  "inputs": {
+    "old_geometry": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m8s32.json",
+      "sha256": "4f00d33a2add41b5711d805866228ff082786f597ab2362d6bd3a0c10a704524"
+    },
+    "new_geometry": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "old_bridge": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge.json",
+      "sha256": "ed4d391fbdfff3bd5f807cdeea80095c9c6ee38a82f7a0f252977fbde6049448"
+    },
+    "new_bridge": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    "witness": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m8-point-metric-witness.json",
+      "sha256": "ff72e2e79b9595deb560237c14149708d4b42fbee1f2a1e2762923682dc6c7c6"
+    },
+    "new_metric": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-lowmetric-full.json",
+      "sha256": "83cf92351c83ce3275af9ac2fd975ecf87dc81e74379e2f1ccb2436374147056"
+    },
+    "old_curvature": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-tight-full.json",
+      "sha256": "9c6a7f1b5e9a440a0a51581d76f657cb4df0784b99a2284b167062dec2db8015"
+    },
+    "new_budget": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7"
+    },
+    "root_whole": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01-lowmetric.json",
+      "sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5"
+    },
+    "peer_whole": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-whole-metric-reach-m12-critical-lowmetric.json",
+      "sha256": "8fad34b4b7512455d135568a65079aa5549c6d2d5f0a3c4446d5d5da868cae7c"
+    },
+    "author_comparison": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-actual-metric-decrease.json",
+      "sha256": "5b136ebabedf0377aa9adc1e5ef6d7aa780b71272b5ecdc8e67524b1548fbb71"
+    }
+  },
+  "unchanged_prefix_fields": [
+    "frozen_profile",
+    "chart",
+    "warp_reference_q",
+    "ell",
+    "profile_loader_sha256",
+    "profile_implementation_sha256"
+  ],
+  "unchanged_bridge_fields": [
+    "script_sha256",
+    "physical_cut_radius_exact",
+    "physical_cut_slope_exact",
+    "physical_cut_second_derivative_exact",
+    "exact_pt",
+    "exact_ps",
+    "exact_L",
+    "gap_at_left",
+    "gap_at_right",
+    "phase_upper",
+    "gap_derivative_lower_exact",
+    "unique_root_in_box",
+    "arclength_rescale",
+    "uniform_radius_difference_upper",
+    "relative_target_metric_difference_upper"
+  ],
+  "actual_changed_tail_parameters": [
+    "auditSteps",
+    "depth",
+    "farPadding",
+    "initialCheckpoint",
+    "maxIterations",
+    "modes",
+    "physicalDepth",
+    "quadrature",
+    "shootingParts",
+    "steps",
+    "traceFile"
+  ],
+  "same_nonempty_background_definitions": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "recomputed_exact": {
+    "whole_metric_operator_upper": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "whole_principal_curvature_upper": "4763997235009095/562949953421312",
+    "whole_reach_over_diameter_lower": "1407374883553280/46687172903089131"
+  },
+  "old_point_radial_diagonal_lower_exact": "3822257938076237/18889465931478580854784",
+  "new_tail_metric_upper_exact": "7055251261315967/302231454903657293676544",
+  "strict_actual_error_ratio_exact": "302830473089341020022835152028772777309765632/38493756262750339563330485335957988971213899",
+  "safe_improvement_factor_exact": "393/50",
+  "all_printed_strict_decimal_thresholds_verified": true,
+  "old_curvature_certificate_retained_without_modification": true,
+  "full_Fourier_Bernstein_recomputed_here": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "final_independent_end_to_end_completed": false
+}

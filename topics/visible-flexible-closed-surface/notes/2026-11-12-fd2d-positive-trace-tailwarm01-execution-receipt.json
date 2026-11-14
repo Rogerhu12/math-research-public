@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 58410,
+  "launch_chunk": "ce7a8d",
+  "completion_chunk": "7bf799",
+  "actual_exit_code": 0,
+  "completed": true,
+  "seconds": 34.50247528299951,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-positive-trace-tailwarm01-report.json",
+    "bytes": 6343,
+    "sha256": "4a78c3660d8167c25c67965fbe95619d12e4a8251d566d3dc2c9726f461440d5"
+  },
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-tailwarm01-warm.npz",
+    "bytes": 58965,
+    "sha256": "d671d84b4442547045b4072fde277a961bc42720e6dca07125bfa317cff0ce5b"
+  },
+  "scope": "Explicit R157 projected late initialization, unchanged physical g/p, real residuals paid; no BVP/body."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS-three-serialized-closed-meshes-and-fixed-caps",
+  "scope": "Read the three serialized PLYs and check their common material indexing.\n\nThe separate interval PLY reports certify PL embedding. This check binds\nthose reports and verifies identical faces and exact fixed-cap vertices.\nThe phase comparison is a floating-point diagnostic, not an error bound\nfor the underlying continuous maps.\n",
+  "script_sha256": "cac3abcbafd8666b9cc5f902d476dfd60bb481f73c90162dec72d95d17f8b8b7",
+  "manifest": "notes/2026-11-09-db6f-visible-m8-manifest.json",
+  "manifest_sha256": "6a49b75c5a0c112fc798c4167356b9b8f57e0f489e33b6ed9aedcc2c1eff3282",
+  "plan_sha256": "38eca5974570fbf3a9686780b136759efd2369fe14cb168db0d0457fa3d2a8b8",
+  "fixed_mask_sha256": "796c0342a2c6f6f08fd926e91ff17328b55a0b09ef31bbe91ebc0e6924c7e793",
+  "mesh_reader_sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+  "fixed_vertices": 4610,
+  "common_face_connectivity": true,
+  "serialized_fixed_cap_coordinates_bitwise_identical": true,
+  "files": [
+    {
+      "mesh": "notes/2026-11-09-db6f-visible-m8-t0.ply.gz",
+      "mesh_sha256": "863e4f172874523160cbe03fb4862f9b8a55dbb6bbaa424fa51c2c7794cfd6a4",
+      "PL_report": "notes/2026-11-09-db6f-visible-m8-t0-audit.json",
+      "PL_report_sha256": "3c4904036bc64d127c7a8cf619cbd2d05e85819271b40dd7c4b75d111f545b24",
+      "time_exact": "0",
+      "phase_discrepancy_diagnostic": 0.0
+    },
+    {
+      "mesh": "notes/2026-11-09-db6f-visible-m8-t1of4.ply.gz",
+      "mesh_sha256": "2e0907dbf70b30db766cfac640a31b0f78a89acf1ae6c446bbce9f780d48cee6",
+      "PL_report": "notes/2026-11-09-db6f-visible-m8-t1of4-audit.json",
+      "PL_report_sha256": "1a1799a3564b84b0a3ae3dbc146604a71417f4e8595a47c69592cfff7de233c5",
+      "time_exact": "1/4",
+      "phase_discrepancy_diagnostic": 0.0
+    },
+    {
+      "mesh": "notes/2026-11-09-db6f-visible-m8-t1of2.ply.gz",
+      "mesh_sha256": "74fcd07e07fe5be9ca4d5bb612e000e6b94e19dc73bb9d9d03a4652f4bef10f8",
+      "PL_report": "notes/2026-11-09-db6f-visible-m8-t1of2-audit.json",
+      "PL_report_sha256": "5ea21aaa3819e366354f57a2a0764fe7ae739adf92a3346699e1051fb77d9683",
+      "time_exact": "1/2",
+      "phase_discrepancy_diagnostic": 0.0
+    }
+  ],
+  "fixed_g_convergence_gate_5_paid": false,
+  "continuous_vertex_error_certified": false
+}

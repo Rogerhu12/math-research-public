@@ -1,0 +1,138 @@
+{
+  "scope": "Local prototype comparisons only. Original root and split RHS unchanged; no flow, DN, BVP, or production worker uses the prototype.",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+  },
+  "modes": 22,
+  "quadrature": 512,
+  "repeat": 20,
+  "prototype": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-jacobian.mjs",
+    "sha256": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+  },
+  "rows": [
+    {
+      "node": 0,
+      "rawCell": 0,
+      "r": 0.6,
+      "originalMilliseconds": 3.821442249999973,
+      "fourierProductMilliseconds": 2.220762250000007,
+      "speedup": 1.7207795431500876,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 3.851710062008351e-10,
+      "maxScaledShapeRowDifference": 2.597503813766168e-13,
+      "maxScaledMeanRowDifference": 2.1775478852910882e-14
+    },
+    {
+      "node": 16,
+      "rawCell": 0,
+      "r": 0.5277876988744847,
+      "originalMilliseconds": 3.1323549000000184,
+      "fourierProductMilliseconds": 1.8402118500000142,
+      "speedup": 1.7021708125616049,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 1.1118572729174048e-10,
+      "maxScaledShapeRowDifference": 1.2048191397096977e-12,
+      "maxScaledMeanRowDifference": 6.882166782930212e-14
+    },
+    {
+      "node": 31,
+      "rawCell": 0,
+      "r": 0.5128424779733312,
+      "originalMilliseconds": 4.799665399999958,
+      "fourierProductMilliseconds": 3.402654900000016,
+      "speedup": 1.4105648504054689,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 8.440110832452774e-9,
+      "maxScaledShapeRowDifference": 1.586253413529974e-12,
+      "maxScaledMeanRowDifference": 2.97633818971549e-14
+    },
+    {
+      "node": 34,
+      "rawCell": 0,
+      "r": 0.49301641611400593,
+      "originalMilliseconds": 3.6660155999999917,
+      "fourierProductMilliseconds": 3.335814649999975,
+      "speedup": 1.0989865998699955,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 4.563480615615845e-8,
+      "maxScaledShapeRowDifference": 2.247728414844081e-13,
+      "maxScaledMeanRowDifference": 4.93086961826529e-15
+    },
+    {
+      "node": 40,
+      "rawCell": 0,
+      "r": 0.43546269697083567,
+      "originalMilliseconds": 5.875148900000022,
+      "fourierProductMilliseconds": 2.6020458999999847,
+      "speedup": 2.257895950259777,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 4.307366907596588e-8,
+      "maxScaledShapeRowDifference": 4.667358113844885e-13,
+      "maxScaledMeanRowDifference": 1.9582650397915207e-14
+    },
+    {
+      "node": 72,
+      "rawCell": 0,
+      "r": 0.3011238599642435,
+      "originalMilliseconds": 4.380478650000032,
+      "fourierProductMilliseconds": 1.5648032999999941,
+      "speedup": 2.7993797367375493,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 9.094947017729282e-13,
+      "maxScaledShapeRowDifference": 2.3469900169967074e-14,
+      "maxScaledMeanRowDifference": 7.831954682035013e-15
+    },
+    {
+      "node": 144,
+      "rawCell": 1,
+      "r": 0.25215123757256336,
+      "originalMilliseconds": 2.84693299999999,
+      "fourierProductMilliseconds": 1.4136292499999854,
+      "speedup": 2.0139177227692615,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 3.9745984281580604e-14,
+      "maxScaledShapeRowDifference": 2.4552730953928227e-15,
+      "maxScaledMeanRowDifference": 1.7135098480028155e-14
+    },
+    {
+      "node": 288,
+      "rawCell": 3,
+      "r": 0.19809212907081442,
+      "originalMilliseconds": 2.5394532499999967,
+      "fourierProductMilliseconds": 1.3265210500000193,
+      "speedup": 1.9143708650533362,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 2.041902952051849e-16,
+      "maxScaledShapeRowDifference": 2.0073980123139096e-16,
+      "maxScaledMeanRowDifference": 7.690061674034289e-16
+    },
+    {
+      "node": 576,
+      "rawCell": 7,
+      "r": 0.1525361819534748,
+      "originalMilliseconds": 2.795090500000015,
+      "fourierProductMilliseconds": 0.8494408499999736,
+      "speedup": 3.2905063371982894,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 9.353141017798504e-33,
+      "maxScaledShapeRowDifference": 6.236172800276434e-31,
+      "maxScaledMeanRowDifference": 8.327300647045672e-16
+    },
+    {
+      "node": 864,
+      "rawCell": 11,
+      "r": 0.1501073350790043,
+      "originalMilliseconds": 2.102059300000019,
+      "fourierProductMilliseconds": 0.7871869499999775,
+      "speedup": 2.6703431757857254,
+      "maxDerivativeAbsoluteDifference": 0,
+      "maxJacobianAbsoluteDifference": 1.0617024176790705e-56,
+      "maxScaledShapeRowDifference": 8.428980379916046e-53,
+      "maxScaledMeanRowDifference": 1.2093300934131478e-15
+    }
+  ],
+  "aggregateSpeedup": 1.8589934267909058,
+  "elapsedSeconds": 7.248
+}

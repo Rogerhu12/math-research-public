@@ -1,0 +1,23 @@
+{
+  "status": "REJECTED_ORIGINAL_RUNTIME_DIGEST_AUDIT",
+  "observer": "/root/numerical_recovery",
+  "tool_start_receipt": "187c04",
+  "tool_completion_receipt": "469e8d",
+  "session_id": 50191,
+  "actual_exit_code": 1,
+  "error_type": "ValueError",
+  "error": "Runtime function code digest differs from pinned source",
+  "failed_function": "check_csc_runtime_record -> _compiled_runtime_record",
+  "source": "scripts/db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+  "comparison": "row[code_sha256] vs sha256(marshal.dumps(recompiled source code))",
+  "completed_before_error": [
+    "validate_inputs",
+    "failed_CP_fixed_physical_fields",
+    "polynomial_endpoint",
+    "last_check_packet_audit_true",
+    "first_packet"
+  ],
+  "full_audit_report_written": false,
+  "main_solver_failure_is_separate": "run02 failed max_nodes; this is a later read-only auditor rejection",
+  "solver_calls": 0
+}

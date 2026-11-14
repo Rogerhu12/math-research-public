@@ -1,0 +1,213 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "closed",
+  "scope": "Only the newest completed expensive staged25 normal, lossless streamed gzip transport and actual restoration. No tiles, F/J, BVP or source normal mutations.",
+  "original_manifest_sha256": "e022f588dd0731aca74896ea8ef7fcbf649bd89c4a8d336e50b57a55c730a732",
+  "capsule_index_sha256": "6c0135760056dcc714e048b42ea748b4901548cf5ce468df258b62465c6e697b",
+  "actual_exit_codes": [
+    0,
+    0
+  ],
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_normal_capsule.py",
+      "bytes": 12264,
+      "sha256": "da1f00e2936472b0a7824ebd6ea4f460eb1f5086a810e8b4c4128c9c14e73d34"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-normal25-capsule.md",
+      "bytes": 3341,
+      "sha256": "c6144c5738397afa54dd8ac3be2aa2a87dcbe7ba225c25b4996f6e37da7b971f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-exits.json",
+      "bytes": 550,
+      "sha256": "a58012703ba6af0a469a8ee833ee2348d55320b9c1abd98b7d9a3015364b8db1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/global.npz.gz",
+      "bytes": 8522,
+      "sha256": "019fb834e42f831cfa905058a37b300e40b7da0f671e5cd715eb6c6246bf6ad2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/index.json",
+      "bytes": 16703,
+      "sha256": "6c0135760056dcc714e048b42ea748b4901548cf5ce468df258b62465c6e697b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/mapping.npz.gz",
+      "bytes": 20275,
+      "sha256": "95f931a0aaf8403d0943356c10c5eb9f3eb91619985a2276a403767661ea9ba0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000000-000004.npz.gz",
+      "bytes": 499,
+      "sha256": "69a45eb468e1262fd0996326afa3bac390a728f7a1a95fd09ab8dc25713136b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000004-000008.npz.gz",
+      "bytes": 500,
+      "sha256": "3ce2d46e33d7b91df768b3ab0a31e4ba8493390e39ecbe4eed1291df05187bdb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000008-000012.npz.gz",
+      "bytes": 303053,
+      "sha256": "1a7e253b65de13b69da01a752433111c2a8ccec52d1bdbe6d353c75b3946219f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000012-000016.npz.gz",
+      "bytes": 397057,
+      "sha256": "0549702642cddc6b6ed157da7043a8531438158ca1b3709f29078bf6d764d5ba"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000016-000020.npz.gz",
+      "bytes": 396083,
+      "sha256": "290517d1c1eb6f8cf62d83c793cf3ff0f94b2f28328a4ad9db03fe2ad92c3da5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000020-000024.npz.gz",
+      "bytes": 396033,
+      "sha256": "4854f7ec96c5469c447c2a94956dc44a8cd94ddd5a64fca2a2179f8fbd1749b2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000024-000028.npz.gz",
+      "bytes": 396316,
+      "sha256": "c1f58f7f16752424e4461c224294737a0ff1ab90319a655ccbba27fe19079a07"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000028-000032.npz.gz",
+      "bytes": 397345,
+      "sha256": "7f25055de347b729a52a842c3c6798733cd828270161fa0c279853dd59d7db46"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000032-000036.npz.gz",
+      "bytes": 400183,
+      "sha256": "604a78531c93d1969c30bffa932dbdfae8239c08cf0c07cc2b991abba6305bb3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000036-000040.npz.gz",
+      "bytes": 399462,
+      "sha256": "aef99ea7894af2360dcad7a38501ab7da9c49ec33b9e1429b928cc48969fafc8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000040-000044.npz.gz",
+      "bytes": 399396,
+      "sha256": "0cb5cc4316c4765affb0d426337a4a6e30cfe88d589b6d61d47e5f9a43ad7b2b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000044-000048.npz.gz",
+      "bytes": 422369,
+      "sha256": "f5d0e0cbfc28680a11df905bbab4b39a0712f3a763f6b52c11aa22fc9e1471d9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000048-000052.npz.gz",
+      "bytes": 492629,
+      "sha256": "6c9d60f8b37663efa9e02c727515df6a71eb87cebd8c46c49310951fde037011"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000052-000056.npz.gz",
+      "bytes": 494663,
+      "sha256": "0e64c28d9852755f8a8f770615ed56e2946718c7c0f45740b440dd4c7369243e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000056-000060.npz.gz",
+      "bytes": 500040,
+      "sha256": "1a31fa4ce3bad89f920dcaf5fd8c7282021ab0714d492e45dc4ad0e08c9ded62"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000060-000064.npz.gz",
+      "bytes": 503319,
+      "sha256": "1ba076c831027767152aa67ba73c92d4578863eccecbf5a954fa79f7c217f88e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000064-000068.npz.gz",
+      "bytes": 340262,
+      "sha256": "5b9ba81307c6bfd05e9cd64432e7ffde2ff596c1dc4f8f6cb8c3dce5fbe73212"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000068-000072.npz.gz",
+      "bytes": 218504,
+      "sha256": "9663472e9ef77d989f4cd10e0d1493b68897419108d63ddefd7c3beb132d40f7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000072-000076.npz.gz",
+      "bytes": 488075,
+      "sha256": "2d7b73d67ea0454d9f7d1647fa434ccc1d54d8e5878d0feefc7eb64eb91cb904"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000076-000080.npz.gz",
+      "bytes": 553328,
+      "sha256": "fcf3d2accfaba2e4ffc45b6b6edbd2ce1d8a0d8af274bae36336fd0b93462999"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000080-000084.npz.gz",
+      "bytes": 554372,
+      "sha256": "d15e74975f58f3cb14fc222f0db503ab896d089a1cb8e83eedc0bef99c668da6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000084-000088.npz.gz",
+      "bytes": 553311,
+      "sha256": "a4a2f3f0140c03193fd3c979492a915357425a380b581797096d523d10136584"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000088-000092.npz.gz",
+      "bytes": 552871,
+      "sha256": "26d980f2f0ad2b8f179677ad4c04a5938ae870eeef07a5552422ae41ec0210ce"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000092-000096.npz.gz",
+      "bytes": 553766,
+      "sha256": "1f46959bf2998ff51d4d11d2ed5eafdfef1bdf95cf7930f3f5680464a8e76218"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000096-000100.npz.gz",
+      "bytes": 554078,
+      "sha256": "d82c2f84a357554e542ec8cfba7f2933f7018bcf06ea340a09ee373d77b73a66"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000100-000104.npz.gz",
+      "bytes": 552134,
+      "sha256": "5cc01e878bcfcbc516178563175b823d746af1f7011aebe153dc8df5035fc3fd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000104-000108.npz.gz",
+      "bytes": 549917,
+      "sha256": "84f887a4c6aee1581a8f92b4f03c23011661fd7293d0aeca55c97f9b25108d8c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000108-000112.npz.gz",
+      "bytes": 546902,
+      "sha256": "057452c463ffc4a86e12a67166ce066032e0814b46370e624b62580647218cb6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000112-000116.npz.gz",
+      "bytes": 480949,
+      "sha256": "4af0c5d43e1b241109816b42b32044ba0c9a232af7119942e1843700bb540f15"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000116-000120.npz.gz",
+      "bytes": 458161,
+      "sha256": "50739e475b0ebd02fadb2c2f963562623fd783ca5d32128a2b6f776e6c0917df"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000120-000124.npz.gz",
+      "bytes": 521831,
+      "sha256": "372a6cbc7625d8e58e9fe05714f6cbfe8dc1adabe8f92952a4dd9f7519b91aa7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000124-000128.npz.gz",
+      "bytes": 210947,
+      "sha256": "88dbb7494c93da57d1ec62f2ae48137cd462787d551079bf2fc2e789b5eb962e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/nodes-000128-000129.npz.gz",
+      "bytes": 283,
+      "sha256": "dd78d46d18db479d4b3485465c666ca50a3a229ed95407a9f778d4b26f4cb206"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-normal25-capsule-01/original-manifest.json",
+      "bytes": 435510,
+      "sha256": "e022f588dd0731aca74896ea8ef7fcbf649bd89c4a8d336e50b57a55c730a732"
+    }
+  ]
+}

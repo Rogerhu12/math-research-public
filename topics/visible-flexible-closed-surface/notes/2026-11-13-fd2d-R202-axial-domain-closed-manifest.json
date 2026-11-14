@@ -1,0 +1,70 @@
+{
+  "schema": "fd2d-R202-closed-text-manifest-v1",
+  "result": "R202",
+  "publication": {
+    "mode": "Repository README section 8 small UTF-8 GitHub fallback during executor outage",
+    "branch": "main",
+    "serializedWithRoot": true,
+    "noPATInAPI": true,
+    "conflict": {
+      "httpStatus": 409,
+      "currentRefInMessage": "557960a3977603dbec58f1e4b8ed0c627b05b46b",
+      "expectedRefInMessage": "d3b84e23aad07573db4c50b131708b874a1017cd",
+      "literalPullAttempt": "git pull --rebase origin main",
+      "literalPullOutcome": "No usable execution environment is available; no subprocess was created and no pull occurred.",
+      "READMEReadback": {
+        "rootBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+        "topicBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+        "comparison": "Both blobs match previously read rules; no new rules."
+      },
+      "retry": "Same new manifest path; preserves concurrent main commits."
+    }
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-axial-meridian-length-bound-R202.cjs",
+      "role": "Exact rational domain consumer; no floating square roots in certificate",
+      "bytes": 4251,
+      "sha256": "744cf976d1a24b9eba85cdc27a329860b1d98af06f67b1134373422e2bb38cf5",
+      "commit": "dbd2ac6601d0383bd2f83a2cab9ed56834c3756c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R202-d2-axial-meridian-length-necessary-condition.md",
+      "role": "Complete calibrated length proof and limited strict domain exclusion",
+      "bytes": 11874,
+      "sha256": "a42184e129b5c58c1414096d5d324086e0a071edf18f1411a1afe1da31305285",
+      "commit": "9e5e135c074446a5f0271de3a5a5484ea71e2d49"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R202-axial-domain-exact-01.json",
+      "role": "Actually completed pure V8 rational diagnostic; not an OS subprocess",
+      "bytes": 15741,
+      "sha256": "bf66187991b7a116aaa9cb4bd99c86988d57267a971823f8f30badd7be670847",
+      "commit": "d1a1a003673b9f4ec02d5d740e726ea52135c173"
+    }
+  ],
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "elapsedMilliseconds": 10,
+    "completed": true,
+    "OSSubprocessStarted": false,
+    "OSExitCode": null
+  },
+  "rigorousClaim": "The stated D2 planar-axis domain with A>=1.36203, S<=.88568, Z>=.62499, curvature<=9.5, and axial metric error<=1e-6 is impossible; exact rational certificate.",
+  "exclusionsOfScope": [
+    "No whole-field certificate for the saved .625 state",
+    "No actual .605 process or accepted state",
+    "No exclusion of R201 reflection-relaxed fields",
+    "No general strong-target impossibility",
+    "No existence from a non-excluding necessary test"
+  ],
+  "knownActualSources": {
+    "normalizedEllipseReportSHA256": "2f8e8dd37de88688e703d5213cc46ada4b575d576b7a15a8b29b3da1ce186550",
+    "accurateB32PacketSHA256": "10fa877f5b1a5595416858d24878d0ba597001cb5eb8094ca9b4b8135cb71243"
+  },
+  "sourceTransport": {
+    "priorHashingAttempt": "An unavailable TextEncoder caused a pure-V8 packaging attempt to fail before any API write; replaced only packaging UTF-8 encoder. It did not execute mathematical tests or change the exact consumer.",
+    "mathematicalExecutionUnchanged": true
+  },
+  "indexesNotModified": true
+}

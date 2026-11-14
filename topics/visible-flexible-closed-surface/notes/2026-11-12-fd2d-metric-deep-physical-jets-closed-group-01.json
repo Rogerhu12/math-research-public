@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-closed-artifact-group-v1",
+  "created_utc": "2026-11-12T08:27:31.280036+00:00",
+  "scope": "Same finite momentum equations, deep-range twojet arithmetic regrouping and normalized Darboux; point checks only, not a solved DN or continuous certificate.",
+  "observed_new_point_run": {
+    "exec_chunk_id": "0aa977",
+    "exit_code": 0,
+    "natural_exit": true
+  },
+  "files": [
+    {
+      "file": "scripts/fd2d-metric-deep-momentum-physical-jets.mjs",
+      "bytes": 8776,
+      "sha256": "c1edc34d514d661b9282a9715b603ed4d436acf3708244a11c455be999b6a5d3"
+    },
+    {
+      "file": "scripts/fd2d-metric-deep-physical-jet-point-check.mjs",
+      "bytes": 4361,
+      "sha256": "8efe2c1a2c593bff8684a84aa7b3fc3f275a05328110d3383858b00c2aea6a1c"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-deep-physical-jet-point-check-01.json",
+      "bytes": 1925,
+      "sha256": "cb0316e8af9063fe22689f06d0c0693f10ca43e961a9752a79321d6060748e14"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-deep-physical-jet-point-check-02.json",
+      "bytes": 2783,
+      "sha256": "3943b77d004a326a6bd21c7bae85891d162a92907b0c808f198fae403b8c5052"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-deep-momentum-twojet-arithmetic.md",
+      "bytes": 10595,
+      "sha256": "527d22877690a3dbeb46dbbc8151f8f95ebf0c7dcb2be2aa830f4bc00a5091e4"
+    }
+  ],
+  "separately_owned_closed_evidence": [
+    {
+      "file": "notes/2026-11-12-fd2d-numerical-gc-deep-arithmetic-check-02.json",
+      "bytes": 2783,
+      "sha256": "967562a2c22467b60eb52993e5bdbb6d994070d351c51149be04196443204974"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-numerical-gc-deep-arithmetic-check-02-completion-receipt.json",
+      "bytes": 431,
+      "sha256": "ba2bdc5ef58290f7a88ae4962c271a6626805d9b18704f04070979e1523072d7"
+    },
+    {
+      "file": "scripts/fd2d-gc-tail-deep-arithmetic-check-v2.mjs",
+      "bytes": 6064,
+      "sha256": "e6c18aeb677942d8f6fec570bb28d92a79777e23577b9e2feb4a3d11a4cd9e37"
+    }
+  ]
+}

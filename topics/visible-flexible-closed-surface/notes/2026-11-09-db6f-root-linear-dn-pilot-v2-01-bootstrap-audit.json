@@ -1,0 +1,67 @@
+{
+  "status": "ACTUAL_NEW_PROCESS_BOOTSTRAP_FINITE_DN_ONLY",
+  "actual_physical_call": 1,
+  "source_bindings_rehashed": 161,
+  "actual_response_source_count": 9,
+  "exact_seed_request": true,
+  "original_config_and_tolerance_preserved": true,
+  "residual": 1.2533744091676813e-09,
+  "history_length": 1,
+  "last_iteration": {
+    "iteration": 0,
+    "norm": 1.2533744091676813e-09,
+    "minA": 0.10551506989602055,
+    "minD": 0.9916325655575039
+  },
+  "state_shape": [
+    865,
+    30
+  ],
+  "raw_shape": [
+    13,
+    30
+  ],
+  "finite_state_and_full_original_schema_valid": true,
+  "requested_jacobian": false,
+  "requested_audit": false,
+  "target_goal_success_not_inferred": true,
+  "pilot_tool_exit_not_observed": true,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01-launch.json",
+      "bytes": 45173,
+      "sha256": "5d4224ea9138bd6fc6f017c6aade288e003532fb45e77252d4d45c4fdc988cb5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail-continuation-policy.json",
+      "bytes": 44867,
+      "sha256": "1feff0e39f7b9cb5030163c5d62f5c8becf714f23fa0cf46515aea54f3b874ea"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+      "bytes": 272279,
+      "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail_0001.json.gz",
+      "bytes": 267350,
+      "sha256": "de47db235f5c94d4848b745c2b9f36bde6e99b47d24af376b0818386f84a47f0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client-v2.py",
+      "bytes": 34350,
+      "sha256": "6d278d78e275df2e0e66db3eb0edb592321fecc22c1c229eacd53f5869166d15"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-audit-linear-dn-pilot-bootstrap.py",
+      "bytes": 4306,
+      "sha256": "ef9fa44553ce13f4d0f0c6ba8c92bb4cdf3069779bd32f5aa056dfaa3fe37aca"
+    }
+  ],
+  "scope": "Closed bootstrap H0 response only. The active H1 pilot, prefix, final seam, geometry and G5 remain separate."
+}

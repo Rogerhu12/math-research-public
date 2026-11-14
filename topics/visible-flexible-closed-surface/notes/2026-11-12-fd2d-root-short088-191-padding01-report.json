@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-exact-native-mode-padding-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_pad_native_modes.py",
+    "bytes": 2988,
+    "sha256": "0da4727ca6dca53abb70a91583961f0d749f1361544825eb736d8915cb92534c"
+  },
+  "source_field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/outputs/2026-11-12-fd2d-root-short088-04-field.npz.gz",
+    "bytes": 3127104,
+    "sha256": "eebc5debe13f4070114cc137d479d48790427041a3c301d174dda8351b814282"
+  },
+  "old_port": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-layered64-wc01-linear47-01.json",
+    "bytes": 33067,
+    "sha256": "46f6eae7edf2d9a4a37b0e741f6b00540fe7bb24faaf5707fa1c25855291a345"
+  },
+  "new_port": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-layered64-wc01-linear95-01.json",
+    "bytes": 38099,
+    "sha256": "f300a3e186174d8c26dc8d4f6f6e1853dc6abe5e39d997a8ce09fa40a1d5dc60"
+  },
+  "old_dimension": 95,
+  "new_dimension": 191,
+  "radial_nodes": 844,
+  "original_T": 0.3477340963905257,
+  "all_old_coefficients_copied_without_arithmetic": true,
+  "all_added_coefficients_exactly_zero": true,
+  "retained_port_columns_bitwise_identical": true,
+  "same_exact_native_Hermite_Fourier_field": true,
+  "new_solution": false,
+  "output": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/outputs/2026-11-12-fd2d-root-short088-191-padding01-field.npz.gz",
+    "bytes": 1261356,
+    "sha256": "1f494b48d720c9fb6b719b1e2b20454a698fd5d3aa94d8763b542240f24c858a"
+  }
+}

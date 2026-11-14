@@ -1,0 +1,56 @@
+{
+  "schema": "fd2d-closed-actual-interrupted-finite-branch-v1",
+  "closed": true,
+  "actual_tool_exit": 137,
+  "actual_child_exit": -9,
+  "termination_cause": "Unknown",
+  "accepted": 0,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-static-manifest.json",
+      "bytes": 724,
+      "sha256": "db5df1c0831a29dcb844f47fc87363bd2003370bb0575ff89d5405634b193fbd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-chain-report.json",
+      "bytes": 22300,
+      "sha256": "f2212b338d0e31bc33f8c9f815d956a508395ed494cbd32cc1d208c48fa74936"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-execution-receipt.json",
+      "bytes": 372,
+      "sha256": "76b2da35c30450c547ac92348125a256a01eb0c4ca380a3ab226b0249259d905"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-refined21-exit-and-lowmem22.md",
+      "bytes": 2143,
+      "sha256": "1d027957c44b7931c11317fb262fbe5e65ee8010b1ff3da2b762b733c2d8c6d4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-initial.npz",
+      "bytes": 84844,
+      "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+      "bytes": 260072,
+      "sha256": "f73915e5da735e21a50e82163d9e888d616c94f73c0c6a8cff7e0e561a2f916f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-progress.jsonl",
+      "bytes": 43050,
+      "sha256": "200088b985ed8f9b1b90ae7fdeff4c3e7fa3fbee6bfe41f9084e9e31dfc8e465"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-process-receipt.json",
+      "bytes": 3963,
+      "sha256": "dae15bb8d40374c2604104a68a3274bef3f741804503ee64caf3e28d9a910af5"
+    }
+  ],
+  "no_accepted_state_created": true,
+  "source_and_initialization_group": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-initializer-closed-group.json",
+    "bytes": 3145,
+    "sha256": "b590f3e5bdf78bfe4ff19e6a2f7841a90bad55e4ece552bf1895727eb99f03bf"
+  }
+}

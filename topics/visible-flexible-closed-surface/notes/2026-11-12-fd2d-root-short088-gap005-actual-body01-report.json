@@ -1,0 +1,151 @@
+{
+  "schema": "fd2d-actual-native-fixed-u-body-geometry-screen-v1",
+  "scope": "Actual fixed-material geometry from a saved native finite Codazzi field.\n\nThis performs only linear frame/body postprocessing of the already defined\nfield. It does not solve a new Codazzi BVP. Angular variations give the real\nposition-map metric and curvature, not the eigenvalues of its input II.\nAll reported extrema are finite diagnostics, without a continuous certificate.\n",
+  "source": {
+    "file": "fd2d-gc-body-actual-prefix.py",
+    "bytes": 11590,
+    "sha256": "5a6f3cfd282a880a3cbd7de0f5694c6d8d339bee82df5492497747fbb626fd4b"
+  },
+  "field": {
+    "file": "2026-11-12-fd2d-root-short088-gap005-actual-body01-native-field.json",
+    "bytes": 15320,
+    "sha256": "5d6c34af2b1b3765f03db622db422a7ff18a0824acd62e510ef2475597f6a57b"
+  },
+  "physical_provider": {
+    "file": "fd2d_gc_native_log_physical.py",
+    "bytes": 6049,
+    "sha256": "86351ac3da7edd2c2aa98a31e9cbbf9e1f3b911e3d8b724e811b7c02390da619"
+  },
+  "body_provider": {
+    "file": "fd2d_gc_body_geometry.py",
+    "bytes": 2197,
+    "sha256": "48ab4bdbb55eb62963e9a438c7822d879b8fa44d5b5e4b129f65eda303226fb8"
+  },
+  "central_provider": {
+    "file": "fd2d_balanced_curvature_core.py",
+    "bytes": 21826,
+    "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+  },
+  "nodes": {
+    "file": "2026-11-12-fd2d-root-short088-gap005-actual-body01-nodes.npz",
+    "bytes": 2852754,
+    "sha256": "fa2926a1ee63fb32d137cd4d60728333505db54d00131ac48881e61442980736"
+  },
+  "angles": 32,
+  "completed_spans": 843,
+  "state_order": [
+    "q_origin",
+    "q_witness",
+    "h_y",
+    "h_z",
+    "r=vee(F.T F_u)",
+    "z=F.T X_u",
+    "w=r_u",
+    "p=z_u"
+  ],
+  "exact_map": "Original physical-s R119 skew frame and X_s=e1 at FIXED material u, parameterized by x with multiplier S_x",
+  "actual_T": 0.3477340963905257,
+  "fixed_material_u": true,
+  "initial_axes": {
+    "A": 1.029955543786568,
+    "B": 0.979955543786568,
+    "gap": 0.05
+  },
+  "witness": [
+    0.0,
+    1.029955543786568,
+    0.0
+  ],
+  "extrema": {
+    "metric_error": {
+      "minimum": 0.0,
+      "maximum": 0.000897105083804529,
+      "minimum_x": 0.0,
+      "minimum_u": 0.0,
+      "maximum_x": 1.6225999687277561,
+      "maximum_u": 4.516039439535327
+    },
+    "actual_curvature_abs": {
+      "minimum": 0.12517949117208235,
+      "maximum": 12.648306505793393,
+      "minimum_x": 1.6109407482142437,
+      "minimum_u": 0.0,
+      "maximum_x": 0.7828514805563891,
+      "maximum_u": 1.3744467859455345
+    },
+    "radius": {
+      "minimum": 0.979955543786568,
+      "maximum": 1.4714289687766748,
+      "minimum_x": 0.0,
+      "minimum_u": 1.5707963267948966,
+      "maximum_x": 1.4338457254276356,
+      "maximum_u": 0.0
+    },
+    "actual_outward_support": {
+      "minimum": 0.7833534218049236,
+      "maximum": 1.4714274689438311,
+      "minimum_x": 0.9271560437191426,
+      "minimum_u": 1.5707963267948966,
+      "maximum_x": 1.4338457254276356,
+      "maximum_u": 0.0
+    },
+    "witness_distance": {
+      "minimum": 0.04999999999999992,
+      "maximum": 2.1488337786588643,
+      "minimum_x": 0.0,
+      "minimum_u": 1.5707963267948966,
+      "maximum_x": 1.380350665063005,
+      "maximum_u": 4.71238898038469
+    },
+    "y": {
+      "minimum": -1.0260618053825914,
+      "maximum": 1.0260618053825914,
+      "minimum_x": 0.40002777777777776,
+      "minimum_u": 4.71238898038469,
+      "maximum_x": 0.40002777777777776,
+      "maximum_u": 1.5707963267948966
+    },
+    "z": {
+      "minimum": 0.0,
+      "maximum": 1.3266769680829793,
+      "minimum_x": 0.0,
+      "minimum_u": 0.0,
+      "maximum_x": 1.6225999687277561,
+      "maximum_u": 0.0
+    },
+    "frame_compatibility": {
+      "minimum": 1.1438197989667841e-12,
+      "maximum": 0.0007950429824765786,
+      "minimum_x": 0.110375,
+      "minimum_u": 0.0,
+      "maximum_x": 0.9181031569148304,
+      "maximum_u": 1.3744467859455345
+    },
+    "position_compatibility": {
+      "minimum": 0.0,
+      "maximum": 0.0005445235428240907,
+      "minimum_x": 0.0,
+      "minimum_u": 0.0,
+      "maximum_x": 1.6225999687277561,
+      "maximum_u": 1.3744467859455345
+    },
+    "direction_norm_error": {
+      "minimum": 0.0,
+      "maximum": 1.7763568394002505e-14,
+      "minimum_x": 0.0,
+      "minimum_u": 0.0,
+      "maximum_x": 1.4906689377844768,
+      "maximum_u": 4.908738521234052
+    }
+  },
+  "calls": 27723,
+  "maximum_inverse_material_error": 4.206704429243757e-17,
+  "relative_ODE_tolerance": 2e-10,
+  "absolute_ODE_tolerance": 2e-12,
+  "elapsed_seconds": 802.6370425169998,
+  "Codazzi_BVP_reintegrated": false,
+  "finite_evaluation_only": true,
+  "continuous_certificate": false,
+  "nonlinear_tail_solved": false,
+  "closed_surface": false
+}

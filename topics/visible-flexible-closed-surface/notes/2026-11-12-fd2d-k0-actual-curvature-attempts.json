@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-actual-ruled-curvature-attempts-v1",
+  "final_success": {
+    "session": 63760,
+    "final_chunk": "b5a130",
+    "exit_code": 0,
+    "report": "notes/2026-11-12-fd2d-k0-ruling-actual-curvature-certificate-05.json.gz",
+    "report_sha256": "49757e19101aeed2167b27432cab93725c4c84dd29c92a53ef7f1354494ae6fe"
+  },
+  "metric_success": {
+    "session": 19051,
+    "final_chunk": "0d1440",
+    "exit_code": 0,
+    "report": "notes/2026-11-12-fd2d-k0-ruling-metric-convolution-01.json",
+    "report_sha256": "1db13655fe83e9a9430dc16a647765477438024e574d66f04c4c58d90d5671ec"
+  },
+  "earlier_attempts": [
+    {
+      "version": 1,
+      "receipt": "notes/2026-11-12-fd2d-k0-actual-curvature-v1-owner-stop.json"
+    },
+    {
+      "version": 2,
+      "session": 27676,
+      "final_chunk": "887b17",
+      "exit_code": 1,
+      "source_snapshot": "scripts/fd2d_k0_ruling_actual_curvature_certificate_v2.py",
+      "source_sha256": "dbd9b86e4bca8dcb3b2edc9341633021ab955ec9a0707ddb2989cbb380881635",
+      "passed": false,
+      "accepted_angle_boxes": 8732,
+      "unresolved_angle_boxes": 3752,
+      "seconds": 298.14332060999914,
+      "raw_report_not_in_publish_manifest": true,
+      "raw_report_sha256": "29d0aca7c6577c51106646553065791300c376c0f353aac7ec6b077de8e9f1a0",
+      "raw_report_compressed_bytes": 2298785,
+      "reproduction": "python scripts/fd2d_k0_ruling_actual_curvature_certificate_v2.py --maximum-angle-depth 6 --out /tmp/new-curvature-v2.json.gz",
+      "reason": "Loose angular dependency and generic Arb powers on zero-containing intervals caused unresolved boxes; no geometry failure inferred."
+    },
+    {
+      "version": 3,
+      "receipt": "notes/2026-11-12-fd2d-k0-actual-curvature-v3-owner-stop.json"
+    },
+    {
+      "version": 4,
+      "receipt": "notes/2026-11-12-fd2d-k0-actual-curvature-v4-evaluation-exit1.json"
+    }
+  ],
+  "historical_Taylor_helper_replay": "For the interrupted v3 or failed v4 source snapshot, install its recorded helper snapshot under the original fd2d_k0_ruling_actual_curvature_certificate.py basename in an isolated copy before replay; do not substitute the newer helper.",
+  "large_intermediate_policy": "The 2.30 MB failed v2 gzip is reproducible and not needed to check R145; its source, exact inputs, command, hash, actual failure, and counts are persisted instead."
+}

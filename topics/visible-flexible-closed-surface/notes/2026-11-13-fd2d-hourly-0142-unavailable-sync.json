@@ -1,0 +1,31 @@
+{
+  "schema": "fd2d-actual-hourly-sync-unavailable-v1",
+  "utc": "2026-11-13T01:42:15Z",
+  "lastSuccessfulTerminalPullRead": "390299b08b597fbc8fda81e5303b1435203fe295",
+  "lastSuccessfulReadUTC": "2026-11-13T00:42Z",
+  "attempt": {
+    "literalCommand": "git pull --rebase --no-stat origin main",
+    "workdir": "/tmp/fd2d-math-research-publish-isolated-25",
+    "requestedDiff": "git diff 390299b08b597fbc8fda81e5303b1435203fe295 origin/main -- README.md topics/visible-flexible-closed-surface/README.md",
+    "toolResult": "No usable execution environment is available",
+    "processCreated": false,
+    "exitCode": null,
+    "successfulPull": false,
+    "hourlyDeadlineMet": false
+  },
+  "APIReadback": {
+    "rootBlob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topicBlob": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "notEquivalentToGitPull": true
+  },
+  "continuation": "Original real read SHA retained; recover terminal and immediately actual pull/rebase/read; while unavailable only README section8 small UTF8 fallback. No time-based stop.",
+  "newActualMath": {
+    "R203Accepted": 8,
+    "stateCommit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+    "R201Accepted": 1,
+    "groupCommit": "d6c1a2ec49b5721baee503e150775fd855581a7f",
+    "R202Complete": true,
+    "R204Complete": true,
+    "R205InProgress": true
+  }
+}

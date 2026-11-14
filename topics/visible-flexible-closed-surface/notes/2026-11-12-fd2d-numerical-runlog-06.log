@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-snapshot.py", line 653, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-snapshot.py", line 379, in main
+    'additional_sources': [identity(HERE/name) for name in
+                           ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-run-prefix-snapshot.py", line 54, in identity
+    return {'path':str(path),'bytes':path.stat().st_size,
+                                     ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 840, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-bounded-tail-stage-core.mjs'

@@ -1,0 +1,66 @@
+{
+  "schema": "fd2d-R186-exact-scalar-design-closed-manifest-v1",
+  "status": "proved and actual exact rational consumer completed",
+  "result": "results/R186-delta7-only-removal-of-the-late-positive-K-island.md",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-metric-delta7-island-removal-rational.mjs",
+      "bytes": 8335,
+      "sha256": "394af7bde86078a6fd5d63a810a233795d6c0c179ebb801af2b01d1aedfe515a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-delta7-island-removal-R186-01-report.json",
+      "bytes": 9268,
+      "sha256": "baf198106aad071c85d4afc027169eacfb4a2b3a62cd3438734e8c201412ed75"
+    },
+    {
+      "path": "results/R186-delta7-only-removal-of-the-late-positive-K-island.md",
+      "bytes": 8748,
+      "sha256": "cbbab39508842f0bccaabe96fc567e04c6a3537d22796b0b0ca881655e3804ec"
+    }
+  ],
+  "input_origin_sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f",
+  "certificate_sha256": "44d3d9318ffa7b70f7bcc59cebf81df09e72b9c37562c05e1410cdb65b627a68",
+  "original_continuous_rows_sha256": "d7f990bcef75ec30311e23d3cf92dadf5736f871f141dd3f7fa62071f7793095",
+  "input_scalar_source": "R182 original dyadic endpoints, supports, actual delta7, global radius and K bounds; row0 a upper actually read before disconnect",
+  "base_lipschitz_source": "R136 and R166 exact-round-prefix proof, sections1-2; same base candidate7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "execution": {
+    "kind": "actual functions.exec V8 BigInt",
+    "completed": true,
+    "exact_checks": 20,
+    "all_passed": true,
+    "OS_child_started": false,
+    "OS_exit_code": null,
+    "standalone_source_matches_executed_text": true,
+    "number_rounding_decides_assertions": false
+  },
+  "proved_parameter_interval": {
+    "lower_exact": [
+      "7782220156096217",
+      "288230376151711744"
+    ],
+    "upper_exact": [
+      "5764607523034235",
+      "72057594037927936"
+    ],
+    "display": [
+      0.027,
+      0.08
+    ]
+  },
+  "whole_target_strict_a_ss_lower": [
+    "11",
+    "10000"
+  ],
+  "whole_target_strict_K_upper": [
+    "-11",
+    "10000"
+  ],
+  "global_radius_retained": true,
+  "coast_middle_and_protected_terminal_metric_unchanged": true,
+  "entire_new_closed_surface_solution_proved": false,
+  "original_89_row_ratio_max_computed": false,
+  "new_F_J_BVP_body_ODE_or_Arb_run": false,
+  "original_small_threshold_consumer_status": "Separate pure Fraction89-box max script exists; remains unexecuted. R186 is a distinct rigorous conservative witness and is not reported as that max.",
+  "save_method": "Authorized small UTF-8 GitHub text only while executor unavailable; no PAT, binary archives or binary encoding transported."
+}

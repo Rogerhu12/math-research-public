@@ -1,0 +1,172 @@
+{
+  "schema": "fd2d-closed-numerical-publish-list-v1",
+  "utc": "2026-11-12T08:03:21.424672+00:00",
+  "scope": "All listed inputs/sources/checks and full160-01 OOM outputs are closed. No active numerical outputs included. Historical lost07 has no exit code or available checkpoint.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-executor-change-recovery-01.json",
+      "bytes": 1535,
+      "sha256": "4b58644b6c4aba61bbd727c492baff36f3499791289ca3497df0fb69ff5e1057"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-actual-worker-trace.jsonl",
+      "bytes": 1956,
+      "sha256": "0a64e51a6db33b8cff5b50c5e2bd6a13ae5d0ff58671ebff4d970a47eccc050a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-completion-receipt.json",
+      "bytes": 618,
+      "sha256": "b8dd437c80b6bdc9628a8043c2a4881fb1f8979c6546e1f3507e7b2aecc59315"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-config.json",
+      "bytes": 22373,
+      "sha256": "d499a1f463ec82f857ff79bcbace04ad15fa603f62160514e45d36504953f9eb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-heartbeat.jsonl",
+      "bytes": 2200,
+      "sha256": "9a34d23daff551e9f19e9848e3acab8f21e9282165b77422fcdc608a671b720a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-input-physical-config.json",
+      "bytes": 21376,
+      "sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-report.json",
+      "bytes": 1882,
+      "sha256": "963091cc054abc1bf4ee26ed4595bf9e16016ecc1ee7de010f474f9de24cec84"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-request.json",
+      "bytes": 91,
+      "sha256": "596d4d8f7a54b2ce1cd2bce37e082d31b4b275467fa4310b22d5780dee519aa1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-runtime-source-snapshot.tar.gz",
+      "bytes": 154014,
+      "sha256": "08a800151b9f5f27c4f410a3e0d537114ea091ff35091464a68cd2f940056a6c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-runtime.json",
+      "bytes": 197,
+      "sha256": "cdaa577b2da8944e6da223dae7fc2082281bee5086d36f3096b20b36e0e6f79f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-source-input-manifest.json",
+      "bytes": 18057,
+      "sha256": "034f872d68fd728ec3390d4c9781c5dcbbc039c1aa68ec52fb57ba53304d0301"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-01-stderr.txt",
+      "bytes": 860,
+      "sha256": "4063befa67a988b9fd2c973b318aaef1219af0e8c9736045271c5166a3f1f7f0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-tail-complete-source-recovery-check-01-completion-receipt.json",
+      "bytes": 209,
+      "sha256": "a011c24f49a4a9b618b0c7bd52684bd297b78ea4f6e91371c645e15ae1d3d72e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-tail-complete-source-recovery-check-01.json",
+      "bytes": 4907,
+      "sha256": "a0ccdef005f30497fa0a99373a303f7b62611810b4bdd44dbcb524644ed76a93"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-tail-stage-cache-recovery-check-01-completion-receipt.json",
+      "bytes": 209,
+      "sha256": "42bd6c236e1f248e064864736f0edc0b9469ac60fa9d7349c00f6f7e60e8ce1a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-tail-stage-cache-recovery-check-01.json",
+      "bytes": 9126,
+      "sha256": "62c2454eb4457fb5eac2498690d203c5a183d0ac7060f79ea7a37eabb5b6e4ea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-warm-recovery-initializer-check-01.json",
+      "bytes": 5269,
+      "sha256": "5098633d6bd125e6c4b96dbf02c556df44ea4d995ada247ab81626f1592ecb8a"
+    },
+    {
+      "path": "scripts/fd2d-gc-bvp-design-warm.py",
+      "bytes": 17364,
+      "sha256": "6b7c716fb4c098c2ad88924beb0ca75a8b57d19b41c50d8c13cf6563262310a8"
+    },
+    {
+      "path": "scripts/fd2d-gc-prepare-design-warm-runtime.py",
+      "bytes": 2182,
+      "sha256": "18eb39ac263e8201dbeca2dc7b4b1eab9e23c87373b3a4413c86b4634bc924db"
+    },
+    {
+      "path": "scripts/fd2d-gc-rebuild-full160-sources.py",
+      "bytes": 9027,
+      "sha256": "8645ff7c1e8e75949b890ee54437e3709a46ee686afb3084ead19841578393ac"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-complete-source-check.mjs",
+      "bytes": 3640,
+      "sha256": "cc28b7783df066a55ab9f15b1060ab69684b6b5066340453048e50950fe60aec"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-deep-extension.mjs",
+      "bytes": 2531,
+      "sha256": "97d7d069839ac41884051fc73562032fccec5a3e29941d06018904916b2e3370"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-full160-cached-core.mjs",
+      "bytes": 19029,
+      "sha256": "b94c1165aa361b9c47f73727b26ce509f934b511314b8f019258b008561fd4ea"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-full160-cached-split.mjs",
+      "bytes": 2032,
+      "sha256": "3b9e30bcdaadba6ca61a2367280dac58c75023dea1f7fb6abfd71ed953f88e37"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-full160-core.mjs",
+      "bytes": 18641,
+      "sha256": "1caa710554e3afbca3ac1a2be28d5d143a1d305fd16a27f80595cecff076eecb"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-full160-split.mjs",
+      "bytes": 2025,
+      "sha256": "2532f38107734fb7b05894356290f152c7d2430e9f48290d6d1dc17bc35e64cf"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-partition-worker-v3.mjs",
+      "bytes": 17136,
+      "sha256": "bf9ffb0c3964a97e10c7e2202559880c694de6e4b4d873d450724090ad83b7af"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-partition-worker-v4.mjs",
+      "bytes": 17759,
+      "sha256": "96f308994558b086a69706e02535a5a5d19640612d2ddc07066f0e54be546743"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-partition-worker-v5.mjs",
+      "bytes": 20264,
+      "sha256": "8865178e86462c4adb1e6b650bbccf59e3f1041bd281e649a3ee55c54827c7f9"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-query-bounded.py",
+      "bytes": 6117,
+      "sha256": "99f2c0f9068b4c862958142c0e2f675cd047dc0c27fb7854080987df5b62a65b"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-sequential-stage-cache.mjs",
+      "bytes": 2618,
+      "sha256": "3309335b0b40316674c22765315a1dc024f5da344e28d19dff973c4113807fe9"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-stage-cache-check.mjs",
+      "bytes": 5145,
+      "sha256": "f199826bc53f2c03efe4e6ace82f980a2073d1da93b34901f1efbab6f3f792cc"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-stage-graphs.mjs",
+      "bytes": 3331,
+      "sha256": "3b11ee2d3e37260f86c57906cbed3f1ec83cf592f5c1f06c9e9b128adb171f9b"
+    }
+  ]
+}

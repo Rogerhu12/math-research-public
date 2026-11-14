@@ -1,0 +1,237 @@
+{
+  "schema": "fd2d-gap-row-retarget-small-independent-check-v1",
+  "complete": true,
+  "cases": [
+    {
+      "target": 0.8,
+      "relative_to_independent_original_row_assembly": {
+        "Hpp": 0.0,
+        "gp": 1.8518445499218924e-16,
+        "parameter_norm_squared": 0.0,
+        "residual_squared": 0.0
+      },
+      "all_field_buffers_bitwise_unchanged": true,
+      "rows": 33,
+      "proof": {
+        "schema": "fd2d-single-gap-row-retargeted-unscaled-normal-v1",
+        "old_target": 0.9,
+        "new_target": 0.8,
+        "actual_gap": 0.9000098655,
+        "unnormalized_parameter_gradient": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "471e0228839ddde967967b9e7d3b1676598c0bbbb7bc79b6246227c51a4e5eef"
+        },
+        "old_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "7271cfc30dd2492ca1c0c504145fe4973570db941b8ea9b2457eb2d3d063a93e"
+        },
+        "new_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "ba86fd19a8bb9bdf186888a6b0634fabcf5aaad4e4e4465e0f803dbd25adf04d"
+        },
+        "old_gap_residual": 1.0961666666586822e-05,
+        "new_gap_residual": 0.12501233187499988,
+        "parameter_normal_update": {
+          "shape": [
+            5,
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "f528776e111fd7fcbd7e538b1f24b3cf1d715cb05d6123667c4ab89c3e1a4038"
+        },
+        "parameter_gradient_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "73ea71fd3d9cf67043f0c267f96803dd714f9e38d0732d2b33067dd834f09915"
+        },
+        "parameter_column_squares_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "e5ebc882b8a6ce21ae25b58d88c52eeb364e457b5ac4f3bc5103877938cbe607"
+        },
+        "old_residual_squared": 45.03228629649682,
+        "residual_squared_update": 0.015628083000666974,
+        "new_residual_squared": 45.047914379497485,
+        "same_state": true,
+        "same_physical_metric_and_field": true,
+        "finite_goal_changed": true,
+        "whole_F_or_J_recomputed": false,
+        "original_scaled_Schur_reused": false,
+        "unchanged_field_blocks_and_arrow": true,
+        "floating_bit_identity_with_reassembly_claimed": false,
+        "source_sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+      }
+    },
+    {
+      "target": 0.75,
+      "relative_to_independent_original_row_assembly": {
+        "Hpp": 0.0,
+        "gp": 0.0,
+        "parameter_norm_squared": 0.0,
+        "residual_squared": 1.5422344140692365e-16
+      },
+      "all_field_buffers_bitwise_unchanged": true,
+      "rows": 33,
+      "proof": {
+        "schema": "fd2d-single-gap-row-retargeted-unscaled-normal-v1",
+        "old_target": 0.9,
+        "new_target": 0.75,
+        "actual_gap": 0.9000098655,
+        "unnormalized_parameter_gradient": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "471e0228839ddde967967b9e7d3b1676598c0bbbb7bc79b6246227c51a4e5eef"
+        },
+        "old_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "7271cfc30dd2492ca1c0c504145fe4973570db941b8ea9b2457eb2d3d063a93e"
+        },
+        "new_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "3ec1b3699af7f6a4bb2aba3c00b3bb18d8bccf40cd4dc4128678b79819e058cc"
+        },
+        "old_gap_residual": 1.0961666666586822e-05,
+        "new_gap_residual": 0.20001315399999994,
+        "parameter_normal_update": {
+          "shape": [
+            5,
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "14c14fede22ec4a6f9eb51f72e56785e5c9af9e13ccb809fcd8bc79656f362c5"
+        },
+        "parameter_gradient_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "42e20a83441bf3a14ae315b4413ad2f14de6e935e35d3eb416b4a1a90c3bdbee"
+        },
+        "parameter_column_squares_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "339f969f989ffb55747091e1deb86018fd505d67b65a813c95e5929797566a57"
+        },
+        "old_residual_squared": 45.03228629649682,
+        "residual_squared_update": 0.04000526165286956,
+        "new_residual_squared": 45.07229155814969,
+        "same_state": true,
+        "same_physical_metric_and_field": true,
+        "finite_goal_changed": true,
+        "whole_F_or_J_recomputed": false,
+        "original_scaled_Schur_reused": false,
+        "unchanged_field_blocks_and_arrow": true,
+        "floating_bit_identity_with_reassembly_claimed": false,
+        "source_sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+      }
+    },
+    {
+      "target": 0.9,
+      "relative_to_independent_original_row_assembly": {
+        "Hpp": 0.0,
+        "gp": 0.0,
+        "parameter_norm_squared": 0.0,
+        "residual_squared": 0.0
+      },
+      "all_field_buffers_bitwise_unchanged": true,
+      "rows": 33,
+      "proof": {
+        "schema": "fd2d-single-gap-row-retargeted-unscaled-normal-v1",
+        "old_target": 0.9,
+        "new_target": 0.9,
+        "actual_gap": 0.9000098655,
+        "unnormalized_parameter_gradient": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "471e0228839ddde967967b9e7d3b1676598c0bbbb7bc79b6246227c51a4e5eef"
+        },
+        "old_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "7271cfc30dd2492ca1c0c504145fe4973570db941b8ea9b2457eb2d3d063a93e"
+        },
+        "new_gap_row": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "7271cfc30dd2492ca1c0c504145fe4973570db941b8ea9b2457eb2d3d063a93e"
+        },
+        "old_gap_residual": 1.0961666666586822e-05,
+        "new_gap_residual": 1.0961666666586822e-05,
+        "parameter_normal_update": {
+          "shape": [
+            5,
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a"
+        },
+        "parameter_gradient_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb"
+        },
+        "parameter_column_squares_update": {
+          "shape": [
+            5
+          ],
+          "dtype": "<f8",
+          "sha256": "2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb"
+        },
+        "old_residual_squared": 45.03228629649682,
+        "residual_squared_update": 0.0,
+        "new_residual_squared": 45.03228629649682,
+        "same_state": true,
+        "same_physical_metric_and_field": true,
+        "finite_goal_changed": false,
+        "whole_F_or_J_recomputed": false,
+        "original_scaled_Schur_reused": false,
+        "unchanged_field_blocks_and_arrow": true,
+        "floating_bit_identity_with_reassembly_claimed": false,
+        "source_sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+      }
+    }
+  ],
+  "changed_unrelated_goal_rejected_before_mutation": true,
+  "actual_physical_field_or_large_matrix_computed": false,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gap_row_retarget.py",
+    "bytes": 6071,
+    "sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+  },
+  "checker": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gap-row-retarget-check-v3.py",
+    "bytes": 4221,
+    "sha256": "28ec48f8881790a92048b6357c44c35be1787513386498cb0ededd355d6aec80"
+  }
+}

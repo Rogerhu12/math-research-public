@@ -1,0 +1,63 @@
+--- scripts/db6f-tail-background-packet.py	2026-11-09 14:51:59.217636943 +0800
++++ scripts/db6f-tail-background-packet-totalwidth.py	2026-11-09 16:02:25.818964173 +0800
+@@ -250,6 +250,18 @@
+         return poly,float((taylor+phase).hi)
+ 
+ 
++def polynomial_uncertainty(poly, remainder):
++    """Conservative bound using full coefficient widths, not half widths.
++
++    This only chooses an audit subdivision. Every retained interval and
++    remainder is unchanged and must still be consumed by the verifier.
++    """
++    total = I(remainder)
++    for value in poly:
++        total = total + (I(value.hi) - I(value.lo))
++    return float(total.hi)
++
++
+ def main():
+     ap=argparse.ArgumentParser(description=__doc__)
+     ap.add_argument('--manifest',type=Path,required=True)
+@@ -296,7 +308,8 @@
+             'coefficient_degree':degree,'span_count':len(nodes)-1,'span_selection':[args.span_start,stop],
+             'files':[],'finished':False,'rows':0,'unmet_tolerance_rows':0,
+             'maximum_radial_residual':0.,'maximum_w_remainder':0.,'maximum_outer_wr_uncertainty':0.,
+-            'maximum_wr_remainder':0.,
++            'maximum_wr_remainder':0.,'maximum_w_total_uncertainty':0.,
++            'w_working_tolerance_criterion':'remainder plus outward sum of full coefficient widths; coarse dispatch rows are exempt and require the actual metric verifier',
+             'exact_radial_anchor_invariant':True,'background_curvature_bound':6,
+             'global_background_wr_absolute_bound':24,
+             'notes':['No source inverse is assumed exact.','The independent backend must include w_remainder and wr_remainder.',
+@@ -330,6 +343,7 @@
+         report['rows']+=1;report['unmet_tolerance_rows']+=int(unmet)
+         report['maximum_radial_residual']=max(report['maximum_radial_residual'],residual)
+         report['maximum_w_remainder']=max(report['maximum_w_remainder'],rem)
++        report['maximum_w_total_uncertainty']=max(report['maximum_w_total_uncertainty'],polynomial_uncertainty(poly,rem))
+         report['maximum_wr_remainder']=max(report['maximum_wr_remainder'],wrrem)
+         if profile is not None and profile.n==0:
+             report['maximum_outer_wr_uncertainty']=max(report['maximum_outer_wr_uncertainty'],float(np.sum(wrhi-wrlo))+2*wrrem)
+@@ -361,10 +375,11 @@
+             wrpoly,wrrem=bg.derivative_polynomial(profile,xpoly,x0,x1,rl,rr,residual,args.order)
+             poly,remainder=truncate_polynomial(poly,remainder,degree)
+             wrpoly,wrrem=truncate_polynomial(wrpoly,wrrem,degree)
+-            # A degree-zero range at a cap crossing must itself be narrow.
+-            range_width=float(poly[0].hi-poly[0].lo) if len(poly)==1 else 0.
++            # Include interval coefficient widths at every degree. This is a
++            # working subdivision criterion, never an error certificate.
++            w_uncertainty=polynomial_uncertainty(poly,remainder)
+             wr_width=sum(float(v.hi-v.lo) for v in wrpoly)+2*wrrem if profile.n==0 else 0.
+-            okay=(residual<=args.radial_residual and remainder+range_width<=args.w_width and wr_width<=args.wr_width)
++            okay=(residual<=args.radial_residual and w_uncertainty<=args.w_width and wr_width<=args.wr_width)
+             if okay or level>=args.max_depth:
+                 record(index,ul,ur,poly,remainder,wrpoly,wrrem,profile,residual,not okay)
+             else:
+@@ -390,7 +405,7 @@
+     for item in loaded:item.close()
+     report['finished']=True;report['seconds']=time.time()-started
+     Path(str(args.out_prefix)+'.json').write_text(json.dumps(report,indent=2)+'\n')
+-    print(json.dumps({k:report[k] for k in ['finished','rows','seconds','unmet_tolerance_rows','maximum_radial_residual','maximum_w_remainder','maximum_wr_remainder','maximum_outer_wr_uncertainty']}))
++    print(json.dumps({k:report[k] for k in ['finished','rows','seconds','unmet_tolerance_rows','maximum_radial_residual','maximum_w_remainder','maximum_w_total_uncertainty','maximum_wr_remainder','maximum_outer_wr_uncertainty']}))
+ 
+ 
+ if __name__=='__main__':main()

@@ -1,0 +1,28 @@
+{
+  "status": "OBSERVED_INPUT_BUILDER_EXIT_0_NO_SOLVER",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/db6f-tail-prepare-harmonic-s1-warm.py",
+    "--out-prefix",
+    "notes/2026-11-09-db6f-tail-harmonic-s1-from-call9",
+    "--pilot-prefix",
+    "notes/2026-11-09-db6f-tail-harmonic-s1-original-pilot"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "script_sha256_before": "66094a71fd7669faf15e78584c55159e9cd244479b1dada6cffe476181ae75f6",
+  "script_sha256_after": "66094a71fd7669faf15e78584c55159e9cd244479b1dada6cffe476181ae75f6",
+  "observed_exec_exit_code": 0,
+  "observed_wall_time_seconds": 0.325794877,
+  "observed_stdout_summary": {
+    "prepared_only": true,
+    "warm_input": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-s1-from-call9-input.json.gz",
+    "warm_sha256": "c6a4c0e504802885f358c340c1a23a34355476ee4d241e3ea6b14069b2b4f927",
+    "config_sha256": "6f1398220b3317c3e481b43950eea7b81d6de301a7047069e26821d83db22ac3",
+    "interface_sha256": "4cf0ddc2b6cfa0b742e5f8bfb04d57d25226388453ac8d613d24ce0ebbffa1ea",
+    "preparation_sha256": "e1b3616a857a4d294066e257e67252bb57a3e5138a229b84fe2dc656f0ac4190",
+    "definition_bindings_count": 77,
+    "actual_solver_runs": 0
+  },
+  "root_flow_solver_backend_calls": 0,
+  "scope": "An actual pure-input builder execution only. No worker/client was imported or started; the produced warm is explicitly UNSOLVED. The active continuation was not changed."
+}

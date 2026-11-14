@@ -1,0 +1,123 @@
+{
+  "scope": "Independent nonsubtractive linear coordinates for the same frozen metric.\nV=f/r^4, pi=sigma*r^4*w*(f_r-m^2*f/r)/(sqrt(12)*mu).\nNo author linear propagation code is invoked. No nonlinear claim.\n",
+  "input_sha256": "b8679ae334a6eaa1fe8a11754e08f119c8dc576feafd738302711bed0b8d725b",
+  "audited_scripts_sha256": {
+    "root_cut_preserving_tail.mjs": "c76f81a14c71ca6ca360c774b0b6e65c4082ada29519620949eb6ef436f3c8e1",
+    "root_cut_tail_linear.mjs": "29bc8232abd880516b5044325285d01cff05ef0c83140c3c8b2919439be0869d"
+  },
+  "stats": {
+    "alpha": 71.92861702899884,
+    "minimumWarpWidth": 0.14866993535892076,
+    "heightSpan": 0.021628808248546225,
+    "meridianLength": 0.3529172290121697,
+    "cutRadius": 0.6000000000000001,
+    "rootStatDifferences": {
+      "alpha": -7.247535904753022e-13,
+      "minimumWarpWidth": 1.6930901125533637e-15,
+      "heightSpan": 2.42861286636753e-17,
+      "meridianLength": 1.1102230246251565e-16
+    }
+  },
+  "rows": [
+    {
+      "mode": 2,
+      "far": 24,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-12,
+      "cutSlope": 5.67691701359825,
+      "logHeightGain": 263.545205289192,
+      "radialODESegmentError": 4.412137322162835e-12,
+      "nfev": 101286,
+      "linearTThresholdSample": 4.107734457930408e-06,
+      "linearTThresholdOptimizedEstimate": 4.107730814921813e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500027757104,
+        "r": 0.38333562272512,
+        "w": 2.407823099242052e-05,
+        "f": 0.002849387412810623,
+        "fr": -5.831954116795033,
+        "baseT": 9.230043666247584e-06,
+        "linearT": -2.246993311421082
+      },
+      "normalizedHeightMaxSample": 1.0000000000000333,
+      "normalizedDerivativeMaxSample": 19.224670836887334
+    },
+    {
+      "mode": 2,
+      "far": 32,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-12,
+      "cutSlope": 5.67691701359825,
+      "logHeightGain": 365.4117268103709,
+      "radialODESegmentError": 4.412137322162835e-12,
+      "nfev": 126516,
+      "linearTThresholdSample": 4.107734457930408e-06,
+      "linearTThresholdOptimizedEstimate": 4.107730814921813e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500027757104,
+        "r": 0.38333562272512,
+        "w": 2.407823099242052e-05,
+        "f": 0.002849387412810623,
+        "fr": -5.831954116795033,
+        "baseT": 9.230043666247584e-06,
+        "linearT": -2.246993311421082
+      },
+      "normalizedHeightMaxSample": 1.0000000000000333,
+      "normalizedDerivativeMaxSample": 19.224670836887334
+    },
+    {
+      "mode": 2,
+      "far": 48,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-12,
+      "cutSlope": 5.67691701359825,
+      "logHeightGain": 569.0612342876766,
+      "radialODESegmentError": 4.412137322162835e-12,
+      "nfev": 162321,
+      "linearTThresholdSample": 4.107734457932042e-06,
+      "linearTThresholdOptimizedEstimate": 4.107730814923523e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500721328994,
+        "r": 0.38333562276344796,
+        "w": 2.4078230987624118e-05,
+        "f": 0.0028493871892825194,
+        "fr": -5.831954117960366,
+        "baseT": 9.230043665331821e-06,
+        "linearT": -2.24699331119721
+      },
+      "normalizedHeightMaxSample": 0.9999999999999764,
+      "normalizedDerivativeMaxSample": 19.224670836884055
+    },
+    {
+      "mode": 2,
+      "far": 80,
+      "solver": "DOP853 in independently derived momentum variables",
+      "rtol": 2e-12,
+      "cutSlope": 5.67691701359825,
+      "logHeightGain": 976.3589059150203,
+      "radialODESegmentError": 4.412137322162835e-12,
+      "nfev": 214701,
+      "linearTThresholdSample": 4.107734457932042e-06,
+      "linearTThresholdOptimizedEstimate": 4.107730814923523e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500721328994,
+        "r": 0.38333562276344796,
+        "w": 2.4078230987624118e-05,
+        "f": 0.0028493871892825194,
+        "fr": -5.831954117960366,
+        "baseT": 9.230043665331821e-06,
+        "linearT": -2.24699331119721
+      },
+      "normalizedHeightMaxSample": 0.9999999999999764,
+      "normalizedDerivativeMaxSample": 19.224670836884055
+    }
+  ]
+}

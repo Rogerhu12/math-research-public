@@ -1,0 +1,71 @@
+{
+  "scope": "Actual first use of lossless split archive; verifies the stored per-array binary hashes while restoring all arrays. No numerical re-solve.",
+  "restored_arrays": {
+    "mesh": {
+      "shape": [
+        844
+      ],
+      "dtype": "<f8"
+    },
+    "values": {
+      "shape": [
+        191,
+        844
+      ],
+      "dtype": "<f8"
+    },
+    "first": {
+      "shape": [
+        191,
+        844
+      ],
+      "dtype": "<f8"
+    },
+    "parameters": {
+      "shape": [
+        191
+      ],
+      "dtype": "<f8"
+    },
+    "physical_s": {
+      "shape": [
+        844
+      ],
+      "dtype": "<f8"
+    },
+    "radial_scale": {
+      "shape": [
+        844
+      ],
+      "dtype": "<f8"
+    },
+    "midpoint": {
+      "shape": [
+        843
+      ],
+      "dtype": "<f8"
+    },
+    "midpoint_first": {
+      "shape": [
+        191,
+        843
+      ],
+      "dtype": "<f8"
+    },
+    "midpoint_values": {
+      "shape": [
+        191,
+        843
+      ],
+      "dtype": "<f8"
+    },
+    "rhs": {
+      "shape": [
+        191,
+        844
+      ],
+      "dtype": "<f8"
+    }
+  },
+  "all_recorded_binary_hashes_verified": true
+}

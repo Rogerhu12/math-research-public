@@ -1,0 +1,4 @@
+{"event": "start_coupled", "q": 0.1, "M": 14, "nodes": 6344, "fixed": true}
+{"event": "actual_outer_check", "outer": 0, "inner_success": true, "actual_boundary_residual": 2.5976382909921256e-15, "actual_tail_residual": 1.233790464730497e-09, "tail_calls": 2}
+{"event": "result", "success": true, "delta": 0.07254443456654512, "q": 0.09999976413887013, "metric": 8.006151376570554e-08, "darboux": 0.0005483794593247208, "first_mean_mismatch": 4.180544799226027e-13, "second_mean_mismatch": -5.282885240376345e-12, "tail_calls": 3}
+{"status": "RESTART8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS", "mathematical_success": true, "requested_process_exit_code": 0, "spectral_BVP_calls": 1}

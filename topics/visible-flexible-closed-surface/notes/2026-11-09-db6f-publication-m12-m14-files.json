@@ -1,0 +1,1135 @@
+{
+  "scope": "Completed M12/M14 numerical states, exact finite geometries, independent component certificates and source recovery. Active M16 and second-critical data excluded.",
+  "source_lists": [
+    "prefix-m12-completed-files",
+    "prefix-m14-completed-files",
+    "tail-m12-complete-publication",
+    "tail-m12-critical-first-publication"
+  ],
+  "historical_source_resolutions": [
+    {
+      "original": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "old_sha256": "199a1ea691c16d0380cb3dae2d9bbac437cb146fbac2ab1c9cd34b20a1e0185a",
+      "frozen_copy": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-before-iteration.py",
+      "current_sha256": "2a96852d34ed7f9991105fb007ae466cbd58589b185a4951ddbbe45c5f66bd4e",
+      "reason": "Optional iteration checkpoint I/O added after the original publication list; default false, old bytes preserved."
+    }
+  ],
+  "files": [
+    {
+      "path": "LOG.md",
+      "bytes": 45893,
+      "sha256": "bac911d17b6d051a77916061b99ba1cd964eb112409a63e85a09fbae3846e5e8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/HANDOFF.md",
+      "bytes": 9828,
+      "sha256": "4ec91acd7e625b04e1f6381937767d6c5bbf18575ad3dd6d07f4ec954e0f9620"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 5937,
+      "sha256": "f76e51a64665867200fd69afae38c6ee5c1fc93247757cb84a4f932efd63d1df"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m12-interrupted.json",
+      "bytes": 797,
+      "sha256": "681ea96f99daa36f89a93962bf20ab94ad5c63c186b9e4a93a1c7b3058d3a42c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m12.json",
+      "bytes": 6326,
+      "sha256": "5d413748a47ff8b894abc0769149557288490e17198879b4b7c84133277fde47"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m12.log",
+      "bytes": 4574,
+      "sha256": "98a4437b56041f1a4862e83014533bbd0e1be706523742919b181b8ce712e8a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m12.rows.json.gz",
+      "bytes": 1865700,
+      "sha256": "f3bddef11a611bf4d51093e987ae9e11e27c4810904fd2ebe2b6738da83f3c07"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m8.json",
+      "bytes": 5261,
+      "sha256": "1b970ff3b296661e0719db02f5add07a89463bd32579734c0c8f5b94392ead63"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m8.log",
+      "bytes": 3554,
+      "sha256": "37c4ceabc7bc520d54ee08e5c77761fb783dd6afbcde88dc0f4b90795a772341"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget-m8.rows.json.gz",
+      "bytes": 470449,
+      "sha256": "d451eb67d5eb1eff57240c4a46ccaafe18f959ae67f770b5be7b401f7d4f4b18"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-metric-budget.md",
+      "bytes": 5097,
+      "sha256": "3e549bdc56d5d301e0bfdf2baccaea92f4755e2d66ef9bda2ae50c2373fecd9e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-refinement-plan-m8.json",
+      "bytes": 3989,
+      "sha256": "6382dcf7677b9afa6b8e058bef7c249d99bdd5f857e51c392982da4701bc4a30"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-transfer.json",
+      "bytes": 714,
+      "sha256": "fc0141ce979ef9328705afd5d38ad2eb9bcb571baea727d1ce0c2c4e2c23414a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-background-transfer.md",
+      "bytes": 6192,
+      "sha256": "25e55d46539910d36f363aabf29144a5946644fe00ba2477030c41bf119ecce4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-closed-budget-v2-m12.json",
+      "bytes": 2361,
+      "sha256": "65171176f1bf1fc587325d1f1a89fa73f69c2649a563ae652b22fa1b82eee32f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-closed-budget-v2-m12.md",
+      "bytes": 5004,
+      "sha256": "fc62704e93a73259c9602ae10ec78eaa978c9c3a7d456b6d0257d49786fee8ea"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-critical-exporter.json",
+      "bytes": 873,
+      "sha256": "585e83739e5b1f8428e3b4b84e6816dd53dbc65d2b74214febecf5c02499c353"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-critical-exporter.md",
+      "bytes": 7474,
+      "sha256": "31b0f0c5a4f5e9914ba44d93cc6cf7e2443d3d911c81c8f9ffcce8617dafcb79"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-coarse-m8s64.json",
+      "bytes": 3860,
+      "sha256": "31672724a9036a504678157e9051bd262c6d3ca9740e3dc6c4cc73f7b10ab1af"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-coarse-m8s64.log",
+      "bytes": 149,
+      "sha256": "d7ff5d8e4bb0f454905cc30b426065facac0bf77386e877f2f06b96fd2c0c596"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-coarse-m8s64.npz",
+      "bytes": 100703,
+      "sha256": "42415e6dd02eb93f7d785bfd1c01a17ee9a5b67b12dddf4e6fc5adf50842cc01"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12-critical-r01.json",
+      "bytes": 3964,
+      "sha256": "c3dbdbe79e42528b58b033f48e3694e70776666b8b890fbcb0d5b378539d2108"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12-critical-r01.log",
+      "bytes": 147,
+      "sha256": "15629291ba0cb660c99e5baacb93d619e1bd385b7f07c15b9956f0ae9a10f6b8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12-critical-r01.npz.gz",
+      "bytes": 1279605,
+      "sha256": "47509eb91f8b714dc78bd02a17f5386737582a88fb50c72fcee604a8b9a6ff69"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12-rational.json",
+      "bytes": 1674,
+      "sha256": "aa15be73f482bb171607a42c5a88450967b6261f322387c7bd913e6c77c83792"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12-rational.log",
+      "bytes": 172,
+      "sha256": "fe2e8d8b2baa834f58a5c3111f6cf6fefa13170e984c2bb64e4f24e3b9d33ced"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12.json",
+      "bytes": 3955,
+      "sha256": "3378c623ca0f396a0e4545a6ca21da7137f25f0ec874583fba13609bce2636aa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12.log",
+      "bytes": 149,
+      "sha256": "e09e58810b021a598307f436afa2665b80b61171490b4ac3fbbdc9dc1b617bbd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-tight-m12.npz.gz",
+      "bytes": 1251639,
+      "sha256": "a9b4330542317d55e6fffe193a6d8040555b0857c341a60a007cc6d3ad9643f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-before-iteration-source-snapshots.json",
+      "bytes": 946,
+      "sha256": "daeff8179fd1e2056d070a43162f0cd5ee75d0290ee4877937bc1bc0f8dd808f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-collocation-spectrum-m14.json",
+      "bytes": 22686,
+      "sha256": "04b8c5ab9c9d468c4be221b88be58661f90d0912f61b07080920c79e65fcb4a8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-fixed-g-convergence.md",
+      "bytes": 13039,
+      "sha256": "0b1e7160d727529e08d5c24b0019d6c970a84d75201a14c90782c8c17e8b3812"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-reproduction.json",
+      "bytes": 4717,
+      "sha256": "c73595213370ec65ca3ca0ce7d08c6be24e2054cbe13ac1e79271ca44adea103"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-reschedule.json",
+      "bytes": 769,
+      "sha256": "2c601d64e87682002d3d96bff4a5fb14f29a39376aff803ec5ea169f2bd119d1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-run.log",
+      "bytes": 480,
+      "sha256": "04ac1b7d3e6d1a28ebebb44594eb33e86e0f6f402819437d9f4530fe2af0847f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-summary.json",
+      "bytes": 16086,
+      "sha256": "918c8e8bb0bcd56f484d65de43fb39c6c76444dc6de1b1d329ffd762a57cb489"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-tail-config.json",
+      "bytes": 2458,
+      "sha256": "4c5a07697c22ee2d77510783cd8171d64310224ff08857d6bc51335cfff2957e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64-tail-trace.jsonl",
+      "bytes": 19601,
+      "sha256": "f0ca746947db8ce8993227e6693d701996ee705b119089e0d02cc77270278ee7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64.json.gz",
+      "bytes": 28724,
+      "sha256": "2ab86890b3ddf84a6a23ddc1621b11ef05f90bb8e3c9899aeb06922d24b4e37e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_coeff_00.npy.gz",
+      "bytes": 4178369,
+      "sha256": "b444144b353a264bbc072bbd575b572984cc69cc731977b221c2f3f3352c9636"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_coeff_01.npy.gz",
+      "bytes": 227383,
+      "sha256": "0ab71cf29a4ef5b921111cb6fdcfac162136ae45d18b957d99d07473b85af51b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0001.json.gz",
+      "bytes": 112697,
+      "sha256": "79b07c7c1a8c96393c7f3a0ab5d543d968bb0deb6f81f00e41208b0b0cc8f12c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0002.json.gz",
+      "bytes": 115535,
+      "sha256": "64692d223b5ca07677f9d22691904c2d03ac09c9f6d13b0f74a6fb06cac75f8f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0003.json.gz",
+      "bytes": 112511,
+      "sha256": "c614b8c33aeb3c0921bc9a1833085a084d70ef77c8ea94eda387696c1aa7c846"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0004.json.gz",
+      "bytes": 112485,
+      "sha256": "8322a70c248624f88892c57f810d09db23325417a3fa1062759ae28765d7260a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0005.json.gz",
+      "bytes": 112445,
+      "sha256": "57052af0da52be7b57bc324649c90918f32c2f113489a2fa35c1c9f4bd934c89"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0006.json.gz",
+      "bytes": 115524,
+      "sha256": "2b6cdbd567e40bb2570a130f15a46018361822e476d3719bbe665520be681273"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0007.json.gz",
+      "bytes": 112519,
+      "sha256": "439a4e507eedfb5e5ab1110043a87dbd053fb7159d5233ea859fad5541e3e7bb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0008.json.gz",
+      "bytes": 112327,
+      "sha256": "c27c2655c35c8e0934e3fba9261d9cdee4640f19483c24ce240e9f4fe78a07a8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0009.json.gz",
+      "bytes": 112248,
+      "sha256": "6e4f11814374229aca5301b5c31b47749df870510c7020b7c5ae7538af61726c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0010.json.gz",
+      "bytes": 115392,
+      "sha256": "bd332cbe8db911a48df7de600c288580a6b7e52eaabd550df614db92d3137b40"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0011.json.gz",
+      "bytes": 112452,
+      "sha256": "822eb133200af9a983b3a6642b5e9d8a88a13d479bf7dc947d5ff9517dae730f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0012.json.gz",
+      "bytes": 112396,
+      "sha256": "a8f6f532ec5f7825a665debdb0f54252f25df38e5d923840c453f9814a35775f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0013.json.gz",
+      "bytes": 115524,
+      "sha256": "92048cad7f5caa3ac3eeb14fd3823c138a849cd4d5d5081d6f4966ac7b670067"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0014.json.gz",
+      "bytes": 112629,
+      "sha256": "af8f26102f791fd558f4a80dd94a03f556af536023f5d4ba07196bc03ed881d3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0015.json.gz",
+      "bytes": 112529,
+      "sha256": "13367bbc7c06c4af7f39c66f2d92f8e151c34ed842b6f341dcd3f18eb7d8051c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0016.json.gz",
+      "bytes": 115559,
+      "sha256": "c6ae58f248faeaea1ac3b1a50b9430c7e376cbbd4e2c054bda952e1dc905d07c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0017.json.gz",
+      "bytes": 112446,
+      "sha256": "60e1b064bd0667f449db186d633303327e85c720496ab60f39e516b6e67205a6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+      "bytes": 115582,
+      "sha256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-raw-lift-warm.json.gz",
+      "bytes": 228881,
+      "sha256": "53c9bcfe4c9f9e2517615eb7a2f6cc249e33a5aec0d7d7626d917c6771bfef92"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-reproduction.json",
+      "bytes": 6374,
+      "sha256": "7a61eef442892f5ba77f49a8aca385118206d14ca4a3f13dc0430c400c74ddea"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-run.log",
+      "bytes": 659,
+      "sha256": "971fdeb09245f7c0bc51c282abae399dec0c1d544b801dfba97d0d86b01d98fb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-summary.json",
+      "bytes": 16855,
+      "sha256": "6c4b87aa8055219fc2900ec2f3ee9ccc6f441c79bd125f2eb0dd57cc1f18135b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-tail-config.json",
+      "bytes": 2510,
+      "sha256": "b47a2d07d40c5c26416cfed577bb0319416b440c1b6729e79ee4b306bf39e956"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer-tail-trace.jsonl",
+      "bytes": 6269,
+      "sha256": "c2a77c77059b87779395c96e0a344e8c7449c66a8f4c2131b30cc5431c902b6c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+      "bytes": 29484,
+      "sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_coeff_00.npy.gz",
+      "bytes": 4170630,
+      "sha256": "f91f0d8605c2face98e782ccd7a1de5681ec5a3f46d71f7275da2b438065d002"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_coeff_01.npy.gz",
+      "bytes": 1064468,
+      "sha256": "ad1157a6b8c10d7d11d823f6a55f6683deffd548c40c2ac9c715b84deb0bc3bd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_tail_0001.json.gz",
+      "bytes": 249992,
+      "sha256": "45102b65b95ce1453207f16639387b82a851d6032ba0cda953fac7c6653ddaf2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_tail_0002.json.gz",
+      "bytes": 254014,
+      "sha256": "bf27d766d60a4114aa0b065e0248dc88b743f66ef6d29171756a2b1ab9d85763"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_tail_0003.json.gz",
+      "bytes": 254216,
+      "sha256": "cd401cf67d04db2a30b40c7f76340f4d9a3209ce663b6a114be0a8a726edcfd3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_tail_0004.json.gz",
+      "bytes": 254241,
+      "sha256": "61331bbcad27dca1594b8239d67d97b2efa9da9399f0ce105dba3f2714d908ab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-completed-files.json",
+      "bytes": 7533,
+      "sha256": "03764f0f17fe32d96f7b61479d918c6d85061a24f42098723ce2fa62d1453114"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-m14-source-availability-draft.json",
+      "bytes": 35841,
+      "sha256": "814bedf0c7c71853fd677532f7b7645218eaf5a6d484d06251e806ce104b1282"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m12-m14-source-availability.json",
+      "bytes": 41935,
+      "sha256": "3c8450bcec0aae82a50a129067784f737d2f2af76bdbc99e658fb03f03136cd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m14-completed-files.json",
+      "bytes": 5836,
+      "sha256": "b706c999e548a5f401db1b41dcf829534436a1fe98eaf7f6c943de3f9abb3944"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m14-error-localization.md",
+      "bytes": 5317,
+      "sha256": "52728f6ade1457a176aeafb23afdd1c5c22fcd09a333715d09ff62222898da26"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-metric-localize-m12.json",
+      "bytes": 7382,
+      "sha256": "de8957457a4e5a6d7ee8fa25a4ce42c230e59f0d956e3ef79a9b2865c3e20fae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-metric-localize-m14.json",
+      "bytes": 7417,
+      "sha256": "604ee9fd1f5ebfb6731cd2abe2e13146caf057fc21a65af620dbe0a94c0da6a8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-preserve-restart-check-m14.json",
+      "bytes": 4129,
+      "sha256": "2e5276782b41c5c73ea5ebfb83bf6fa96e2b10300b54d93d34eacca6564d2957"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-progress.md",
+      "bytes": 16607,
+      "sha256": "76e8c9e6bf87a207857466990c1e55a43fbe194a47a3c35b786a230e7760af82"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-common-cut-v2-m12-fraction.json",
+      "bytes": 1694,
+      "sha256": "c54a2c76dee4a3c15d6c8b959094c4d75f54434353f7a50e7852ba782223d6df"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-common-cut-v2-m12.md",
+      "bytes": 3725,
+      "sha256": "3ec0346a79792f0a2dcf13f61e1cc21c3a181015d65ea6a9fc454a439d5de10b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-integrated-fr-convergence.md",
+      "bytes": 3017,
+      "sha256": "f274bc5559c72fba8a2cce9f791ca1970a5ddd9b9f9350131e1e0a4165be975d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-v2-source-snapshots.json",
+      "bytes": 1003,
+      "sha256": "dd13220c909940bca2e6745e52392aaf0cb1ac4642cc04b5a8647a673f3b3484"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-coarse-m8s64.json",
+      "bytes": 3986,
+      "sha256": "04c140f23c34215abd3c118e2d389dfe8c893822039d1a1375390908574f648e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-coarse-m8s64.log",
+      "bytes": 148,
+      "sha256": "503747fed57af2d437739c0bda7e56fe993ffa935b200f263b073e9acdbf19e7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-coarse-m8s64.npz",
+      "bytes": 100703,
+      "sha256": "42415e6dd02eb93f7d785bfd1c01a17ee9a5b67b12dddf4e6fc5adf50842cc01"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-tight-m12.json",
+      "bytes": 3964,
+      "sha256": "e5ff36012f66910e6a3b4de08902bfe113837c98fbf7cf42bd9084557dea385a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-tight-m12.log",
+      "bytes": 148,
+      "sha256": "e54a2b9bdab1888ac28397b55f2d6123b5b85a161979e26319e13f4a009dd14d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-background-transfer-tight-m12.npz.gz",
+      "bytes": 1251639,
+      "sha256": "a9b4330542317d55e6fffe193a6d8040555b0857c341a60a007cc6d3ad9643f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12.json",
+      "bytes": 5961,
+      "sha256": "008831251b2f84c297f7cac1c8813683918cd57bbb1f42d387bafa8420cdf866"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12.log",
+      "bytes": 439,
+      "sha256": "2ec885d7230a18f1da51a8d6bc2e69d61452f7df2fcf5598a147d69f67aeb2ac"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "bytes": 3887,
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.log",
+      "bytes": 261,
+      "sha256": "284f7b26bcac396d7b81415e569641b79392ed5f0f35ecc475430ba37d5eae94"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-geometry.json",
+      "bytes": 3230,
+      "sha256": "fab0e0360546d077752e6ead98fef5babe7dd1407bc3f40f0934ced4111619b7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-geometry.log",
+      "bytes": 2541,
+      "sha256": "0ff209d60eed7d70a2d910a41cc1e03dd60e036ce57c82ca3109d61776bcfb0f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-metric.json",
+      "bytes": 2133,
+      "sha256": "da314e0fb117452395bb7d43c64682e43eae03503afbd5804103b3bc69f3aa9f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-metric.log",
+      "bytes": 1123,
+      "sha256": "449f2c233987030b2357a04244e85921f8119749584406bdf59ad1532d28f03d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-moment-angular256-rejected.json",
+      "bytes": 354,
+      "sha256": "0ea5efd4015061c25e6a717b69c79d75489b4ab80db5199285d43021578e0c83"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-moment-angular512.log",
+      "bytes": 1302,
+      "sha256": "023bd1b100b7e649c5fd4b3a46fd563c57038a1c89db6214d6713a8e8985d9cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-moment.json",
+      "bytes": 1302,
+      "sha256": "023bd1b100b7e649c5fd4b3a46fd563c57038a1c89db6214d6713a8e8985d9cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64-moment.log",
+      "bytes": 781,
+      "sha256": "d001876b838061fc9fe01979b86c1142b8cf0aa106a161d8f42929d5ac7e0cac"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64.json",
+      "bytes": 10097,
+      "sha256": "1fa6c8de825be71b90308e72be166dcc7ee6ae7983456d244d2c5609e3d19858"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64.log",
+      "bytes": 307,
+      "sha256": "93fc7d1a16c5c101022c9009f15c0567c9685d3bb33ef205890de7d25325cf4f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+      "bytes": 3112330,
+      "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+      "bytes": 9031,
+      "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.log",
+      "bytes": 1371,
+      "sha256": "4315fae3d85e0ac75586104b9c2dfd81d8e7207d1b8f0df0a51b37086adb17f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-geometry.json",
+      "bytes": 3267,
+      "sha256": "20262efff59964dbc6ffb681aa58f934734a1150eaf7e9d42b3654b2e7831d18"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-geometry.log",
+      "bytes": 2578,
+      "sha256": "16c8aa60409ab89a60b3f93236d1142aecdde5af52404d42fb97d0037b92a3c4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-metric.json",
+      "bytes": 2131,
+      "sha256": "b00c0e09c9eb86a4b143c769100cc15587572223bec984ef4788873d33f193ff"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-metric.log",
+      "bytes": 1121,
+      "sha256": "723a2204432c0b6578e4825a489a9181e77c9211538284f70225f837cb071ca3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target-data.npz.gz",
+      "bytes": 550495,
+      "sha256": "bebad72e13a3b8494f234deb1399ee6ba7d771a982127a4b3c912277c56770af"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "bytes": 3668,
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.log",
+      "bytes": 2327,
+      "sha256": "ef0f9f517fdba6bbd79191f7e22ed78d6182da3fc3d08f4e6ad6fd9bbfe57ef9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth4.json.gz",
+      "bytes": 1724766,
+      "sha256": "098a32bbe63c1a71cd3aff94692d60270f1a3ca156916c4d5df315179f98e680"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-background-primitive-stable-depth4.log",
+      "bytes": 3170,
+      "sha256": "c1f50dbb82e6ff2df9db44f43ed8282971d9c90f3dd9fb425c48bb55d6b0edf7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-depth4-primitive.json",
+      "bytes": 930,
+      "sha256": "93b823711847e2ed0d297d9dde57495cf7ea497451ac15e113a8b4abd966e400"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-totalwidth-producer.md",
+      "bytes": 2479,
+      "sha256": "87dac939c919830d2a8e22958f17f2216ed9290bc3f532b9fd7718f5f2403180"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-transfer-full-interrupted.json",
+      "bytes": 1024,
+      "sha256": "2f2b3eb6b26c4388a0d77b317dc06db3492a10ec1aac9650802a5c96a5e9b3bc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-tail-m12-transfer-full.log",
+      "bytes": 1499,
+      "sha256": "5e9beaab25fc131988c2d8fe2211ec253c9469712472a56b0a019c818a8efa3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-depth4-prefix-identity.json",
+      "bytes": 1058,
+      "sha256": "cab32dddec7c130e26f3b3cfd6bce08f88eaac853765a8727a03284681909303"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+      "bytes": 1724765,
+      "sha256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.log",
+      "bytes": 3174,
+      "sha256": "4c768f330c3d56f9bf99113ae52753068a04761d05c99c37f117685b9557070d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-totalwidth.diff",
+      "bytes": 4068,
+      "sha256": "66d7ceec1be6f99e97f42c8784026ff3d9ab295b89b91a84907b5fe38fd53c74"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-collar-flat17-m12-depth6-12-exact.json",
+      "bytes": 8117,
+      "sha256": "c1b0807bcd79a0afc04a19ea8b8bb9cb51bc22c711d6af43d02b71505e6fb2fa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-collar-flat17-m12-depth6-12-exact.log",
+      "bytes": 733,
+      "sha256": "802efb05ef1bdab4a5f4e1c8946426e3ab7e0845349ee7c7d1f80bd6899b215c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-collar-flat17-m12-depth6-12-q512.json",
+      "bytes": 255217,
+      "sha256": "ed0acd7e61c21909882456fbd4ed2dc922e575609e9f618feefc0d1e2445ec3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-collar-flat17-m12-depth6-12-q512.log",
+      "bytes": 665,
+      "sha256": "551e6d8594993c5359a7ada8c9e576aafbb5a524beb74e21fe54ff263e0304f8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-height-grid-native128.json",
+      "bytes": 4318,
+      "sha256": "1027b1cb36ec7c2ee8c2add48614cd672c7f66907f0843134274dd48b226641f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-height-grid-native128.log",
+      "bytes": 1925,
+      "sha256": "b8fda02e1824c37f9119d85655c79fb39aa76b3d45de5f2d956470ed5dd99a51"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-m12-at-cusp.json",
+      "bytes": 4590,
+      "sha256": "c2bb1fc5a2d58ea5cdaef41ad86cd77b9c7b1a82bb4351955b22ed75e0c78c7a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-m12-at-cusp.log",
+      "bytes": 2194,
+      "sha256": "4de1b53d015412906eb28789662658110ef6137f04d488c483f239b524f11bce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-m12-one-sided.json",
+      "bytes": 5487,
+      "sha256": "88506585b45595bcf7453ddc291dd1304a4f0bc4e8e84383f5205f34b25d41d6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-m12-one-sided.log",
+      "bytes": 2579,
+      "sha256": "e707b219df7afdf3fdbc484ea720b76cf4a52fa294fb952e94d4e0f90c63b910"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-native64-128.json",
+      "bytes": 7105,
+      "sha256": "8e56516f4158de4436a3a12a43685e670d51327f0d54763823b11ef3fb1aa523"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-critical-source-native64-128.log",
+      "bytes": 3543,
+      "sha256": "934cfc3ab87ed2aa9c359d3d7fda82c7b91caf7fec96796b62801716f546f133"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-first-flat17-m12-uniform.json",
+      "bytes": 3304,
+      "sha256": "29cc0ab7debb35242e7ee41746d158667aa7866cd06f27608808cb868c19c821"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-first-flat17-m12-uniform.log",
+      "bytes": 212,
+      "sha256": "8b9b04c0998466507a3f22d57ef398e30c7fe1df65a6352f5b3c524289e202ed"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-collar.json",
+      "bytes": 48599,
+      "sha256": "444b2f342f5baf082b412b82cd7ae708996fffb1aa33cda334a53fb3e5f67c6e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "bytes": 138611,
+      "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part00.f64.gz",
+      "bytes": 4418763,
+      "sha256": "b130ce387316349117e350d56c839da1e2613ae57362449f5ac7dc457b233c70"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part01.f64.gz",
+      "bytes": 4418227,
+      "sha256": "9d641224842d713104276e3eea7c4a8fa2320ebad99f1963120d6e830de5bb42"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw000-part02.f64.gz",
+      "bytes": 1787305,
+      "sha256": "89fe80d3453aa25978c343f7d58d51a31dd1d3fe37e6fffcdd48cfc31b551249"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part00.f64.gz",
+      "bytes": 4396895,
+      "sha256": "dd164b09f0d3693ab8e99fcf14872543947ca51748768ee1ee7b6b24a850bd35"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part01.f64.gz",
+      "bytes": 4418707,
+      "sha256": "c63c27e0cf6b106d23d552a847e46968d23d29d0b5f715569ff10bacbea948a9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw001-part02.f64.gz",
+      "bytes": 1362800,
+      "sha256": "389886533c38204fc183844402e12a0c0e4aefd8611c1f30d3a54ef867fdae3a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part00.f64.gz",
+      "bytes": 4357998,
+      "sha256": "5977fe4c1dd86df8c1d124b8c56b119fd43f96d44384ec33e033d5f16e7c49d6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part01.f64.gz",
+      "bytes": 4400049,
+      "sha256": "c9d6e0ae5591e713755356c4212ec457d56c329ecf08092d80da5062c65a3d08"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw002-part02.f64.gz",
+      "bytes": 1355643,
+      "sha256": "66bdbf13257abed545cc031fa86faf4a42c4cb4557692eb29b4c3c738daf8725"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part00.f64.gz",
+      "bytes": 4364750,
+      "sha256": "dea6d37f4adecc136eda96c4ed67cad0d29a14b0c1e66ad839421cd1ede7e823"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part01.f64.gz",
+      "bytes": 4377950,
+      "sha256": "ebb5788d5bfdc4c06e05730a1191ef3febc8fb7f5822305be72413bd0342373e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw003-part02.f64.gz",
+      "bytes": 1330742,
+      "sha256": "b2d578d970aa66276c3e736711de7a0d461ea4735c649233cd5c383e336588d6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part00.f64.gz",
+      "bytes": 4296739,
+      "sha256": "4d829c46b12bab139efb42dacabf69ffa63d74465a0b80938582702623e60278"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part01.f64.gz",
+      "bytes": 4383310,
+      "sha256": "896b80ffea12fb2c067b35286cbde6f95ed5982465516eb15b342acbad3ead8f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw004-part02.f64.gz",
+      "bytes": 1340630,
+      "sha256": "0c5964e530dce6ec244fffcf29ed2d7bd76124733d715889546140eebef5c584"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part00.f64.gz",
+      "bytes": 4305526,
+      "sha256": "ce21f02fbd659003f6aaa6c6ba2983c77ea14718c0a88d47694bbb23cea711c2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part01.f64.gz",
+      "bytes": 4371380,
+      "sha256": "8aedb2a14b1da32ec1d276fb7aff7f298e46bf0c2025452e9786636b74b55fb4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw005-part02.f64.gz",
+      "bytes": 1306183,
+      "sha256": "b12208ac83254b63059207090ab017b79f80b5d02fba1dec5ca8433814db1631"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part00.f64.gz",
+      "bytes": 4269694,
+      "sha256": "589d79408d39ef937f49702f57fc2a29cc7e3022a1b3ae85c4c76b9c071898f7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part01.f64.gz",
+      "bytes": 4329062,
+      "sha256": "2f5de0fb3ae6063b59a191ff899d42f2e39d5acbf9fa79ac62c6184fcbbc4ca2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw006-part02.f64.gz",
+      "bytes": 1292584,
+      "sha256": "00dcc411c768cfe7baee12fddce1289a1e289c54bad1874c223577b4f7429a6a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part00.f64.gz",
+      "bytes": 4271510,
+      "sha256": "a507e1135e03c4053e3a5a6fc99e702ab77ee956fa84e2dd0cf5cd7285b9b605"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part01.f64.gz",
+      "bytes": 4299571,
+      "sha256": "ae1f8fc7df62e1203438779c1abd51d47d9033d0e86072d93fc0e4a860ab34fb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-raw007-part02.f64.gz",
+      "bytes": 1274262,
+      "sha256": "cc715f97eeadb204ab6e51fbdf2ef9fc9cf4db9db849885102162717baaea768"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512.log",
+      "bytes": 2624,
+      "sha256": "ed874caccd303c55ab37b5c8f9d41b3957d0bf3a4e0132673b8a2a79560400c6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-collar.json",
+      "bytes": 48392,
+      "sha256": "bf0940af966bfad5fb0d5b725a880087f6c257740554d8efc2a8c91bad3bfa05"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+      "bytes": 104385,
+      "sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part00.f64.gz",
+      "bytes": 4418760,
+      "sha256": "89d97fd07d12e3f926e5cdacb2e8801ca72a79d0232f67806b5a3792b2ee8f5e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part01.f64.gz",
+      "bytes": 4418921,
+      "sha256": "0a6924fb0baf22c5e1fd4b24f0c3a8f76b0484cee393973da733d61aa98b2832"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part02.f64.gz",
+      "bytes": 1368270,
+      "sha256": "47efcf993e35f88876d9a9583f6676dddea05d97bcc9bf5f8874ff092bf43d44"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part00.f64.gz",
+      "bytes": 4396874,
+      "sha256": "71a56afcf748aee9f699136f2d9fc2a55bb7e2c7d745e01be783c15d1d3093fa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part01.f64.gz",
+      "bytes": 4418718,
+      "sha256": "8e857cc1dc12b6981f2b7fd4c7de05b6bf30f4fe63bdeae688f875e79409ca2d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part02.f64.gz",
+      "bytes": 1362766,
+      "sha256": "182f7ae495b899b70d1e10b66c73ed28d1a31e495700db79dd6d92d9ff2b829d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part00.f64.gz",
+      "bytes": 4358050,
+      "sha256": "7cf5b4a5444ba5264c736c2f2f42a4c7c58d8be874a5172a8df035018ffe74b0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part01.f64.gz",
+      "bytes": 4400099,
+      "sha256": "97e111abeba66c01b0cc49fb0add63b76c8da24b0bea566e19c05aa8cb884bc1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part02.f64.gz",
+      "bytes": 1355591,
+      "sha256": "7fa2fc413eda21e9d3dc9c5bae451eabcf64f65c767deae48b0099ed0b4c0690"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part00.f64.gz",
+      "bytes": 4364747,
+      "sha256": "233b79a879c7c3d20f12eb780b5f9907d34b70db059dc8c67f0c691fe064a32a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part01.f64.gz",
+      "bytes": 4377941,
+      "sha256": "ec295bb61278ff711ec79b59c440442ef99cbf2df3069cb4fe9f24aac7f1147c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part02.f64.gz",
+      "bytes": 1330738,
+      "sha256": "131548db36bfdf165fbc1ebd9a80f15148746f393bcec76953200f68d8e84e01"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part00.f64.gz",
+      "bytes": 4296740,
+      "sha256": "73310911e5744196e28510cb2343fd175c0325efb6eefbaf0be2dd529a5b921c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part01.f64.gz",
+      "bytes": 4383273,
+      "sha256": "ecd099dd27e372ef03dbb7a8d0371bab6057d8466b716017184dbed200554cc1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part02.f64.gz",
+      "bytes": 1340615,
+      "sha256": "7263e155b0e0d200d7f0b496003ecbdfec97ea9aeafd28a9f4d2e2eebb81b7f4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part00.f64.gz",
+      "bytes": 4305531,
+      "sha256": "388992cabccb3e5c36751351ace82bd5dd57a66e096bb6c838999bc0226931c6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part01.f64.gz",
+      "bytes": 4371424,
+      "sha256": "ee119ed071834036673c0dc68926f75cd3cd4648006cf5298896a7a9eec4744b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part02.f64.gz",
+      "bytes": 1306192,
+      "sha256": "1c6c5841f38ed47eeb8d60a27e82d80ecfff5a518cca8d8343bafa8aed9d81c3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part00.f64.gz",
+      "bytes": 4269700,
+      "sha256": "d6005487e8795fc79b37afb0e9ea3690c9d8cb68833c2f625f0c14354c62ce06"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part01.f64.gz",
+      "bytes": 4329069,
+      "sha256": "7123cf4df46d503e203d1c5f00d2f0ae8df527a2dc67bf07db24cc94a53e0a9e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part02.f64.gz",
+      "bytes": 1292567,
+      "sha256": "e1af24e78a46731a5f8950c5d2854141511866c08846f8b0d7fa5a332825aaae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part00.f64.gz",
+      "bytes": 4271490,
+      "sha256": "b025aebc4dfddd4cc462152ab7cf61e22a09e718a60563c3b23912c91742eb74"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part01.f64.gz",
+      "bytes": 4299583,
+      "sha256": "77b64da3688a8be9c81512b60737f848cda325141b33dd7b7eafd9f1cd0e838b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part02.f64.gz",
+      "bytes": 1274266,
+      "sha256": "383c9b214385a207224523db996853d9db3c03643e025a3cff969d66cbcab2cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512.log",
+      "bytes": 2249,
+      "sha256": "e1fead1c12fdfe838d23b51ed27f53f39074f8b54c97146e2a04dfe660393aaf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-radial-invariant.json",
+      "bytes": 1001,
+      "sha256": "143c615dc412b3fd4a6aa48cc3d91fb31f1edfa042198e5dd79a8ecb757140ca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-m12-complete-publication.json",
+      "bytes": 8053,
+      "sha256": "1e717984e4d823a06f7c74a34c228ae2e160ca11819f192c70f810e8c4845ab8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-m12-critical-first-publication.json",
+      "bytes": 9396,
+      "sha256": "65df2a11b39df482474fcf494232f13b0bd99eec50479fd6542297699f22d18a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-m12-depth-collar.md",
+      "bytes": 3140,
+      "sha256": "708aa56dad7fb07d4494497e22bf84b6e4d5ad8fcf7d814968fb8f791d956777"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-source-critical-interpolation.md",
+      "bytes": 8306,
+      "sha256": "38c106da5394d25c19ea94da1f04dd2add87362569e72a4cec13df8ab52e6bca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 3465,
+      "sha256": "a3fcf86ea6457b0328a9f4741d282863d0eb8ff38d29d5ea749f03898d8611d9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-collocation-spectrum.py",
+      "bytes": 3941,
+      "sha256": "78a89288412f4dca01aaa3e49bf489f08137f13cd88a2a0eb067d80d6f2eea70"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled-frozen-5f187f209ad1.py",
+      "bytes": 12477,
+      "sha256": "5f187f209ad1c95829908dfa64a1f5b42fa6c50c74ceb8d533208f7f2272fc73"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-before-iteration.py",
+      "bytes": 5468,
+      "sha256": "199a1ea691c16d0380cb3dae2d9bbac437cb146fbac2ab1c9cd34b20a1e0185a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-frozen-1484a0442745.py",
+      "bytes": 5341,
+      "sha256": "1484a0442745c0c16c62b1771320c5df106a754b0cf6cf4bf75c23a4eb6e7ac2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "bytes": 5819,
+      "sha256": "2a96852d34ed7f9991105fb007ae466cbd58589b185a4951ddbbe45c5f66bd4e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-metric-localize.py",
+      "bytes": 4066,
+      "sha256": "a339ace5985307a780eb0ffe0360ceb6accfa3d9970714cd6de35310b1c51451"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart-check.py",
+      "bytes": 4523,
+      "sha256": "1a761b7be72c7b48bfa3216c0607f07825b253f68972cf0633f6f2e710b830a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-common-cut-v2.py",
+      "bytes": 7233,
+      "sha256": "238fb0d49f2ccf720c86ed2276c11525e4bd6c2a448ad4cf49056fe54f9820d6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-source-availability.py",
+      "bytes": 4551,
+      "sha256": "ee343a6bd21880272fca5e66ce438fd05f5967cce9ba29e0b4dd0cd205c722a2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker-before-iteration.mjs",
+      "bytes": 7055,
+      "sha256": "ab5767dcd1660a8a2729de45c852e9abd2484e8f9c95678de6e6f9da2bfad42a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "bytes": 8062,
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-closed-budget-v2.py",
+      "bytes": 10356,
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "bytes": 13021,
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-transfer-background.py",
+      "bytes": 10948,
+      "sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-background-packet-totalwidth.py",
+      "bytes": 22346,
+      "sha256": "fcc283c7c7e8d35e82c250b5025921d717bdc8c6130912c2e0d1b9429da09676"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-height-grid.mjs",
+      "bytes": 6757,
+      "sha256": "77bcd4170d403d7957a30967ecc0a9a58f97889aa2b02dc3268ebad08779243a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-increment-export.mjs",
+      "bytes": 25539,
+      "sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-one-sided-probe.mjs",
+      "bytes": 5538,
+      "sha256": "3fa9f70d223c47db5f8ab77e3cba059e5400c4d54fc2abbde3cfa6993e595ee4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-source-probe.mjs",
+      "bytes": 4949,
+      "sha256": "7feea756c32c31b42733e8d5569eaaa88aa77207c0de0d6271ee831170b6a442"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-radial-invariant.py",
+      "bytes": 2520,
+      "sha256": "6c2318e1d2fc40bf9598c2c1dbbe110a0d86d98376e73b6ee64d3acfd054ac3b"
+    }
+  ]
+}

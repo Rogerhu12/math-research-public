@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py", line 389, in <module>
+    run(ap.parse_args())
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py", line 248, in run
+    meta, raw, baseline, eta, old_upper, old_a, old_rho = validate_inputs(args)
+                                                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py", line 157, in validate_inputs
+    extractor = locate(original['source_root'])/'topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py'
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py", line 67, in locate
+    raise FileNotFoundError(name)
+FileNotFoundError: topics/visible-flexible-closed-surface/repro/source-root

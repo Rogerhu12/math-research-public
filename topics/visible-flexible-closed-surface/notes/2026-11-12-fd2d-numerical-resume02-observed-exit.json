@@ -1,0 +1,30 @@
+{
+  "status": "OBSERVED_NATURAL_EXIT_2_WITH_MISSING_WORKER_RESPONSE",
+  "actual_tool_exit": {
+    "tool": "13756d",
+    "session": 42321,
+    "exit_code": 2
+  },
+  "producer_end_utc": "2026-11-12T02:54:59Z",
+  "unexpected_worker_returncode_not_recorded_by_old_client": true,
+  "cause_not_established": "Old client reported EOF and controller then reported missing response file; no nonlinear failure packet or native failure diagnostic was written.",
+  "last_complete_iteration": {
+    "iteration": 1,
+    "norm": 0.027350999413424816,
+    "minA": 0.40449209888917953,
+    "minD": 0.9932495875797576
+  },
+  "last_complete_iteration_file": {
+    "file": "2026-11-12-fd2d-numerical-m15-w22-resume-02_tail-iteration.json.gz",
+    "bytes": 754912,
+    "sha256": "12d4aeb41efd1b04c51476f32de56650cbb2dde5b2af63a75b68015a986b3849"
+  },
+  "later_accepted_scalar_only": {
+    "time_utc": "2026-11-12T02:50:57.196Z",
+    "norm": 0.0074002192307086635,
+    "state_serialized": false
+  },
+  "final_original_height_solved": false,
+  "prefix_inner_produced": false,
+  "new_recovery_stem": "2026-11-12-fd2d-numerical-m15-w22-resume-03"
+}

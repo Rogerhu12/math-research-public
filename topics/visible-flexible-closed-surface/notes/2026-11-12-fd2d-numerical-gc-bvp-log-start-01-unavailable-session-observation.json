@@ -1,0 +1,79 @@
+{
+  "schema": "fd2d-numerical-session-unavailable-observation-v1",
+  "observed_at_utc": "2026-11-12 06:05:33 UTC",
+  "owner_session": 76194,
+  "launch_tool": "2ec542",
+  "actual_poll_result": "write_stdin failed: Unknown process id 76194",
+  "natural_exit_code": null,
+  "no_claimed_exit_signal": true,
+  "no_inferred_termination_cause": true,
+  "last_actual_progress": {
+    "event": "accepted",
+    "seconds": 83.33501049800543,
+    "nodes": 137,
+    "residual_maximum": 125.65341163662289,
+    "statistics": {
+      "iteration": 5,
+      "alpha": 0.00048828125,
+      "calls": 1,
+      "rejected_domain_trials": 55,
+      "rejected_merit_trials": 11,
+      "accepted_steps": 6,
+      "no_step": 0,
+      "minimum_alpha": 0.0001220703125,
+      "factorizations": 6
+    },
+    "boundary_maximum": 0.01316376027060924,
+    "omitted_constant_n_cut_difference": 0.005766417735582435,
+    "omitted_constant_eta_cut_difference": 0.023297080451724624,
+    "all_cut_coefficients_maximum_difference": 0.005766417735582435,
+    "core_parameter_l1": 2.8818986893990437,
+    "core_parameter_maximum": 0.43560562469142133,
+    "maximum_worker_height": 3.605356793019513e-05,
+    "minimum_n_grid": 1.595703504407313e-05,
+    "maximum_abs_native_eta": 4.766925124985934,
+    "maximum_abs_native_zeta": 6.932461148479463,
+    "tail": {
+      "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+      "minimum_n": 0.14538407074188553,
+      "minimum_vertical_normal_squared": 0.9893476617185023,
+      "gauss_defect": 0.2237789987174579,
+      "Fourier_projection_maximum_difference": 6.774240331789785e-05
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-accepted-current.npz",
+      "bytes": 201915,
+      "sha256": "fa4ca642f1ce514a9e8eb30fa92d1dd73f54c7033b2a9d62e2f274badb5641ec"
+    }
+  },
+  "last_progress_mtime_utc": "2026-11-12T05:51:32Z",
+  "original_report_has_final_result": false,
+  "recovery": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-accepted6-recovery.npz",
+    "bytes": 201915,
+    "sha256": "fa4ca642f1ce514a9e8eb30fa92d1dd73f54c7033b2a9d62e2f274badb5641ec"
+  },
+  "central_parameters": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-accepted6-central-d.json",
+    "bytes": 7174,
+    "sha256": "c536409940559e0ad87182db2e6c7073d5118a026f4474dde28c302cfc4c959e"
+  },
+  "observed_copies": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-progress.jsonl",
+      "bytes": 15008,
+      "sha256": "6f7ea4401de3e96bae7d2f8fd4c04918042b15a549b82e54eabedf891b03da66"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-report.json",
+      "bytes": 4922,
+      "sha256": "57a8d5035309e523a2985d659f88e558bd3ee868dd9b24613d502714c29aa900"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-source-manifest.json",
+      "bytes": 1985,
+      "sha256": "4788bcc0d8739ed62c31e4e84df653faf3be58b6dffc3db84c01419dc70773e5"
+    }
+  ],
+  "status": "Owner tool session no longer retrievable; latest actual accepted state is immutable and the original finite BVP remains unconverged."
+}

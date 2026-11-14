@@ -1,0 +1,27 @@
+{
+  "status": "PASS-independent-exact-rational-transfer-samples",
+  "scope": "Independent exact-rational coefficient checks for a transferred packet.\n\nThis complements a full independent replay. It reconstructs physical\nintervals, finds every positive-length old owner of selected rows, and\nchecks all coefficient endpoints using exact Fraction arithmetic. Both\nordinary rows and multiple-owner boundary rows are sampled reproducibly.\n",
+  "hashes": {
+    "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+    "notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+    "notes/2026-11-09-db6f-audit-tail-tight-final-packet.json": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+    "notes/2026-11-09-db6f-audit-transfer-tight-m12.json": "3378c623ca0f396a0e4545a6ca21da7137f25f0ec874583fba13609bce2636aa"
+  },
+  "script_sha256": "38df34a7b497d9f253e2c3bbd8282f478a57c8468711a9600da0ada40157d21d",
+  "seed": 56175,
+  "requested_samples_per_class": 256,
+  "complete_old_and_new_physical_partition_checked": true,
+  "total_new_rows": 28928,
+  "sampled_rows": 511,
+  "sampled_multiple_owner_rows": 295,
+  "positive_length_owners_checked": 806,
+  "exact_coefficient_endpoint_checks": 14508,
+  "exact_remainder_checks": 1612,
+  "all_transferred_coefficients_checked": false,
+  "independent_full_replay_is_separate": true,
+  "not_certified": [
+    "analytic validity of the original supplier",
+    "new perturbation metric/curvature"
+  ],
+  "seconds": 2.9492756620020373
+}

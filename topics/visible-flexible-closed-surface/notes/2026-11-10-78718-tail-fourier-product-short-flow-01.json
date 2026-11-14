@@ -1,0 +1,31 @@
+{
+  "scope": "One actual short-stage RK/variational comparison, no multiple shooting or BVP.",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+  },
+  "modes": 22,
+  "quadrature": 512,
+  "stage": 31,
+  "rawCell": 0,
+  "rawSegment": 5,
+  "steps": 32,
+  "originalMilliseconds": 570.3088399999997,
+  "fourierProductMilliseconds": 407.77080300000034,
+  "speedup": 1.3986014589671325,
+  "stateMaxAbsoluteDifference": 0,
+  "tangentMaxAbsoluteDifference": 2.514570951461792e-8,
+  "tangentMaxMagnitude": 4334792.3960513435,
+  "tangentMaxScaledRowRelativeDifference": 3.405138300708898e-13,
+  "originalGuards": {
+    "minA": 0.9074023013164033,
+    "minD": 0.9999189739088554,
+    "maxRootRelative": 2.6044361841223694e-15
+  },
+  "fourierProductGuards": {
+    "minA": 0.9074023013164033,
+    "minD": 0.9999189739088554,
+    "maxRootRelative": 2.6044361841223694e-15
+  },
+  "elapsedSeconds": 6.601
+}

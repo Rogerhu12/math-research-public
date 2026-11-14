@@ -1,0 +1,19 @@
+{
+  "status": "PASS-own-Git-duplicate-storage-maintenance",
+  "utc": "2026-11-09T13:12:28.330193+00:00",
+  "packed_unique_objects_before_and_after": 107995,
+  "pack_bytes_before": 7517533824,
+  "pack_bytes_after": 7519420505,
+  "freed_bytes": -1886681,
+  "available_bytes_before": 1776218112,
+  "available_bytes_after": 1774379008,
+  "protected_refs": {
+    "primary_head": "0ba8486c387ba02eb9af2d1ce4ef91f706e25657",
+    "publication_head": "0ba8486c387ba02eb9af2d1ce4ef91f706e25657",
+    "recovery_ref": "f718528cd6706443fbe9bafee20d622f02d2f249"
+  },
+  "midx_verify_exit": 0,
+  "research_files_removed": false,
+  "other_workspaces_changed": false,
+  "scope": "Standard Git multi-pack-index write/verify/repack/expire after new remote fetches. No history or research file deletion."
+}

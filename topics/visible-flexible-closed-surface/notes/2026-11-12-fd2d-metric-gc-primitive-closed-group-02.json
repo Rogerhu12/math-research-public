@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-closed-artifact-group-v1",
+  "created_utc": "2026-11-12T08:23:38.355326+00:00",
+  "scope": "Complete continuous calibrated small01 prefix metric proof with only native cell103 sharpened; no nonlinear tail or closed strong target claim. All listed files closed.",
+  "files": [
+    {
+      "file": "scripts/fd2d-metric-gc-primitive-joint-bernstein.py",
+      "bytes": 2460,
+      "sha256": "55e2b24bcfada67015f299c0fb876a9ffdc58c881b873bdcadd4b74c66b6d874"
+    },
+    {
+      "file": "scripts/fd2d-metric-gc-primitive-merge.py",
+      "bytes": 7694,
+      "sha256": "40776e1c98e1ff06f9172c3b438ab9ab380508083972540d9d5a7719b866872d"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-full-01.json",
+      "bytes": 8882,
+      "sha256": "83f41d703f504c6bcccb816e99e72d13276023135f4cfe28f7f65488d8060281"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-full-01.rows.jsonl.gz",
+      "bytes": 163016,
+      "sha256": "39210da00207956c0f83191257fa3c980eda77d6654548372eb97c41088fd444"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-joint103-01.json",
+      "bytes": 6331,
+      "sha256": "6fb9520d42892da11508ab8617f5a21850f329c49eae6629eb1da0771a7847de"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-joint103-01.rows.jsonl.gz",
+      "bytes": 686,
+      "sha256": "b33525f8fb7cb3447faf0757435ea0fdd5811504f78a837200b3868f95e4ab4b"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-merged-01.json",
+      "bytes": 11202,
+      "sha256": "5677eefb937edb67522085e5d476d48932559d5975f5d8018e911e0bd9056c50"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-merged-01.rows.jsonl.gz",
+      "bytes": 170020,
+      "sha256": "bffce2732fd560c0ea0f0e3df48bb6cb87c3a04ac318a8a9b7ac85546c847459"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-joint-bernstein-and-complete-prefix.md",
+      "bytes": 6014,
+      "sha256": "8143293ea876cd0f2fd8c5617946295eb2394f1dd22f7580d5d581e85d71c9c0"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-primitive-completion-receipt-01.json",
+      "bytes": 1391,
+      "sha256": "b4528137bfce91a7971d58c8761a19ca2ce7b4d1ee45e18a12f5a18b77b5b4d2"
+    }
+  ]
+}

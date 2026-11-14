@@ -1,0 +1,295 @@
+{
+  "schema": "fd2d-whole-round-reference-local-check-v1",
+  "actual_execution": true,
+  "passed": true,
+  "reference": {
+    "schema": "fd2d-fixed-whole-round-prefix-reference-v1",
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "radius_reader_sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30",
+    "source_sha256": "b98a1c32b1e28dc1158803892443f415772a78a3ce397a67038a46e71513ffa7",
+    "component_order": [
+      "n",
+      "m",
+      "l"
+    ],
+    "exact_definition": "R136 shared-jet/rational-data profile with accurate pi endpoint; n0=cos(phi)/a,m0=0,l0=-phi_s",
+    "physical_metric": "fixed base delta=0; reference has no target-parameter input",
+    "radius_numeric_evaluation": "frozen Candidate quadrature, with the defining cut radius returned at s=end",
+    "terminal_phase_evaluation": "epsilon=(pi/2+p0)*(3*(r/L)^2-2*(r/L)^3); b=sin(epsilon), l=epsilon_r",
+    "physical_end_binary64": 1.4889731783581288,
+    "derivative_convention": "interior joins use requested side; final cut ds is the prefix LEFT jet only",
+    "angular_jets": "all zero as complete functions, in every fixed angular atlas",
+    "target_parameter_jets": "all zero; target delta forcing is kept separately",
+    "interval_certificate": false,
+    "no_surface_regularities_beyond_R136_C2": true
+  },
+  "check_source_sha256": "fbfd58b54233e4d69eec06798af0d6f93af0d5aba150194e95460900fb166faf",
+  "radial_profile_source_sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+  "scalar_points": [
+    0.0,
+    0.4476874999999996,
+    0.7049728124919897,
+    0.8761434451024154,
+    1.1601790607110702,
+    1.4725931783581288,
+    1.4889731783581286,
+    1.4889731783581288
+  ],
+  "scalar_values": [
+    [
+      0.9959337637624461,
+      0.0,
+      -0.0
+    ],
+    [
+      0.9917594535010518,
+      0.0,
+      -1.0594098942712518
+    ],
+    [
+      0.9126349936278874,
+      0.0,
+      -0.0
+    ],
+    [
+      0.8774507242128728,
+      0.0,
+      1.4620000000000088
+    ],
+    [
+      0.820931134732222,
+      0.0,
+      3.4
+    ],
+    [
+      0.10206939601027147,
+      0.0,
+      6.497913179051614
+    ],
+    [
+      3.303838053674928e-29,
+      0.0,
+      2.380666212387653e-13
+    ],
+    [
+      0.0,
+      0.0,
+      -0.0
+    ]
+  ],
+  "scalar_physical_one_jets": [
+    [
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    [
+      -0.12488214803513223,
+      0.0,
+      -7.862724086943416
+    ],
+    [
+      -0.22310979533607755,
+      0.0,
+      -0.0
+    ],
+    [
+      0.13394407172597128,
+      0.0,
+      170.0
+    ],
+    [
+      -1.1462153852113977,
+      0.0,
+      0.0
+    ],
+    [
+      -7.807288175325964,
+      0.0,
+      278.7607541420741
+    ],
+    [
+      -2.975832765484565e-13,
+      0.0,
+      -1072.1567467002474
+    ],
+    [
+      0.0,
+      0.0,
+      -1072.1567467002658
+    ]
+  ],
+  "independent_gc_roundoff": {
+    "gauss": 0.0,
+    "n_codazzi": 8.881784197001252e-16,
+    "m_codazzi": 0.0
+  },
+  "old_reader_scalar_evaluation_difference": {
+    "a": 0.0,
+    "a_s": 0.0,
+    "a_ss": 6.661338147750939e-16
+  },
+  "exact_flat_cut_values_returned": true,
+  "final_l_s_prefix_left": -1072.1567467002658,
+  "flat_tail_l_s": 0.0,
+  "no_C1_second_fundamental_form_claim": true,
+  "nextafter_inside_cut": {
+    "s": 1.4889731783581286,
+    "distance_to_cut": 2.220446049250313e-16,
+    "n": 3.303838053674928e-29,
+    "l": 2.380666212387653e-13,
+    "finite": true
+  },
+  "one_jet_centered_difference": [
+    {
+      "s": 0.4476874999999996,
+      "step": 2e-07,
+      "absolute_difference": 4.2734882299555466e-10,
+      "scaled_difference": 1.984526709630785e-10
+    },
+    {
+      "s": 1.4725931783581288,
+      "step": 2e-07,
+      "absolute_difference": 1.4871733355903416e-07,
+      "scaled_difference": 6.083700908883449e-10
+    }
+  ],
+  "local_increment": {
+    "radial_points": [
+      0.64,
+      1.1
+    ],
+    "angles": [
+      0.17,
+      0.53,
+      1.1
+    ],
+    "actual_profile_delta": [
+      0.0002,
+      -0.0003,
+      0.0001,
+      0.0004,
+      -0.0002,
+      0.0001,
+      -0.00015
+    ],
+    "delta_direction": [
+      0.002,
+      -0.003,
+      0.001,
+      -0.002,
+      0.004,
+      -0.001,
+      0.003
+    ],
+    "fixed_chart": "U=xi+.03*s*sin(2*xi)",
+    "original_equation_comparison": {
+      "codazzi": {
+        "absolute": 1.691355389077387e-16,
+        "scaled": 1.691355389077387e-16
+      },
+      "gauss": {
+        "absolute": 4.440892098500626e-16,
+        "scaled": 4.440892098500626e-16
+      }
+    },
+    "nonzero_direction_jvp_comparison": {
+      "codazzi": {
+        "step": 1e-05,
+        "absolute": 1.0577282105739272e-11,
+        "scaled": 1.0577282105739272e-11
+      },
+      "gauss": {
+        "step": 1e-05,
+        "absolute": 4.011047050056504e-11,
+        "scaled": 4.011047050056504e-11
+      }
+    }
+  },
+  "zero_increment_exact_floating_residual": {
+    "gauss": 0.0,
+    "codazzi": 0.0
+  },
+  "circle_central": {
+    "core_definition": {
+      "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+      "base_kind": "circle",
+      "source": {
+        "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+        "bytes": 21826,
+        "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+      },
+      "exact_moments": {
+        "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+        "bytes": 8881,
+        "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+      },
+      "exact_weighted_means": {
+        "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+        "bytes": 203694,
+        "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+      },
+      "parameters": {
+        "r": "0.22921358484022447",
+        "D": "2.9353699772701836",
+        "c": "-0.6589229731934492",
+        "k": "6",
+        "A": "1.405",
+        "B": "0.495",
+        "reference_A": "1.4",
+        "reference_B": "0.5"
+      },
+      "coefficients_exact": [
+        "0",
+        "0"
+      ],
+      "curvature_definition": "1/a0+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+      "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+      "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+      "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+      "exact_closed_D2_curve": true,
+      "exact_central_metric": "ds^2+a0^2*du^2",
+      "conservative_curvature_lower_exact": "55213970774324510299478046898216203619608871777363092441300193790394368/55439400473518195769109542236913907054690973971803273507031944228245679",
+      "conservative_curvature_upper_exact": "27606985387162255149739023449108101809804435888681546220650096895197184/27719700236759097884554771118456953527345486985901636753515972114122835",
+      "global_convexity_proved_by_l1_bound": true,
+      "numerical_constant_error_upper": {
+        "r": 2.9269748022642264e-22,
+        "D": 1.0038328902908234e-19,
+        "c": 1.3266210789453227e-21,
+        "k": 0.0,
+        "A": 2.6020852139652108e-20,
+        "B": 4.336808689942018e-21,
+        "a0": 7.8112290784487e-21,
+        "u0": 1.3774759863653002e-19,
+        "u2": 4.682868259513475e-19,
+        "u4": 4.407648109304687e-18
+      },
+      "numerical_mean_error_upper": [
+        2.549021934066328e-19,
+        2.2026335530881244e-18
+      ],
+      "curvature_constant_error_from_mean_representatives_upper_exact": "0",
+      "raw_quarter_turn_basis_integral_numerical_defect": [
+        -3.3881317890172014e-20,
+        7.792703114739563e-20
+      ],
+      "quadrature_panels": 64,
+      "quadrature_order": 24,
+      "point_evaluation_is_interval_certified": false,
+      "whole_BVP_solved": false,
+      "closed_surface": false
+    },
+    "reference_a0": 1.0040828380214688,
+    "core_a0": 1.0040828380214688,
+    "a0_evaluation_difference": -1.087454779002961e-16,
+    "n_evaluation_difference": 1.1102230246251565e-16,
+    "actual_gap": 0.0,
+    "normalized_zero_gap": 0.0,
+    "fixed_gap_scale": 0.9,
+    "normalization_derivative_actual": 1.1111111111111112,
+    "normalization_derivative_target": -1.1111111111111112
+  },
+  "seconds": 1.5490842500003055,
+  "maximum_rss_kib": 67236,
+  "scope": "Eight scalar locations, two physical bump-profile points times three angles, one nonzero direction and zero-gap circle reuse only. No main saved field, whole objective, whole Jacobian, body integration, continuation or nonlinear existence claim."
+}

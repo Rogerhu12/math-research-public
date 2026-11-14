@@ -1,0 +1,23 @@
+{
+  "schema": "fd2d-owner-close-after-saved-signal-checkpoint-v1",
+  "session_id": 3974,
+  "launch_chunk": "58775b",
+  "signal_child_observation_chunk": "376f9e",
+  "owner_interrupt_final_chunk": "7398c1",
+  "actual_tool_exit": 130,
+  "observed_utc": "2026-11-12T16:36:48.514501+00:00",
+  "first_child_actual_exit": -9,
+  "first_child_actual_seconds": 391.0737485210011,
+  "first_child_actual_saved_accepted_steps": 1,
+  "second_child_started": true,
+  "second_child_saved_accepted_steps": 0,
+  "second_child_wait_receipt_available": false,
+  "second_child_actual_exit_unknown": true,
+  "owner_action": "Owner stop file then Ctrl-C sent to this owned session after its complete accepted1 was saved; repeated child initialization was interrupted to switch to actual-current-value reuse",
+  "signal_cause_unknown": true,
+  "last_known_complete_accepted": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  }
+}

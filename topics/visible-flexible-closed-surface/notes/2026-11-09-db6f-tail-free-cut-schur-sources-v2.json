@@ -1,0 +1,53 @@
+{
+  "status": "METHOD_ONLY_PENDING_REVIEW",
+  "scope": "Source binding for exact block elimination of a linearization, not an executed solver or a nonlinear existence certificate.",
+  "proof": {
+    "path": "notes/2026-11-09-db6f-tail-free-cut-schur-method-v2.md",
+    "sha256": "479252a0fbaa8ba4d7299acee038a4b49f22a40e8f3c6cc4b4cff50eb6f16802",
+    "bytes": 15835
+  },
+  "actual_new_root_calls": 0,
+  "actual_new_solver_calls": 0,
+  "sources": [
+    {
+      "path": "scripts/db6f-prefix-tail-trial-core.mjs",
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "bytes": 17134
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-trial-split.mjs",
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "bytes": 1952
+    },
+    {
+      "path": "scripts/950f-prefix-nonlinear-coupling-v2.py",
+      "sha256": "e2277a3ad801ce207134d4ec71fb0e3fb6687b638b9624162080d3bdb497522b",
+      "bytes": 9645
+    },
+    {
+      "path": "scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "bytes": 19011
+    },
+    {
+      "path": "scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "bytes": 19466
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+      "bytes": 13095
+    },
+    {
+      "path": "repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+      "bytes": 2892
+    }
+  ],
+  "revision": {
+    "supersedes_proof_sha256": "12b9deadc7f5271acccf19dcf770ab0600f28e34ff5cc03a9cc03cf1198bde9c",
+    "change": "Only one logical-language sentence: zero residuals imply b_n=0; converse is not claimed because nonzero forcing may cancel. All formulas and other text unchanged.",
+    "review_finding_by": "/root/independent_geometry"
+  }
+}

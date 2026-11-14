@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-ruling-label-chart-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_chart.py",
+      "sha256": "dc6a6f2b8f3adc886365fad29202bbadde4373154112233767d034f2aa1a5098",
+      "bytes": 8525,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-chart-01-report.json",
+      "sha256": "16880b16ae5881b286f530d862ed6689fd8c860db52c4de1513605044d2801f4",
+      "bytes": 6921,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-chart-01-chart.npz",
+      "sha256": "66078f5c8d7286ff20ee2ef138fd22bc84ce8982afb7c2ca761ddcf14d4bc809",
+      "bytes": 229941,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-label-chart-comparison.md",
+      "sha256": "ad77c4036b9573f92c22f4c750df70d7792034d8c9d0e548fbf5a14f57757560",
+      "bytes": 4829,
+      "closed": true
+    }
+  ],
+  "all_files_closed": true,
+  "actual_run": {
+    "session": 99731,
+    "final_chunk": "a4a6f9",
+    "exit_code": 0,
+    "seconds": 3.290532445000281
+  },
+  "scalar_map_has_full_second_jets": true,
+  "coast_endpoint_radial_jets_one_sided": true,
+  "no_global_C1_atlas_claim": true,
+  "physical_metric_unchanged": true,
+  "base_native_field_delta_zero_only": true,
+  "low_order_solution_not_claimed": true,
+  "atlas_proof_owned_by_root": true
+}

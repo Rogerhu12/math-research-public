@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-closed-single-natural-child-v1",
+  "closed": true,
+  "parent_chain_still_active": true,
+  "actual_observed_session": 77825,
+  "actual_child_exit": 0,
+  "observed_tool_chunk": "9519e5",
+  "observed_utc": "2026-11-12T16:42:19.725924+00:00",
+  "accepted_steps": 1,
+  "finite_success": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-accepted-0001.npz",
+      "bytes": 126887,
+      "sha256": "6bbf3142d5d8f0a499fb9bb610330f7965e5bc20121601b4ba0c074081d8c363"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-report.json",
+      "bytes": 359355,
+      "sha256": "ac29ce113c989865f4f927887e83ab85f79b40291e11e54bbbb1b113f613f778"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-progress.jsonl",
+      "bytes": 91451,
+      "sha256": "dfc8b2947d6f80329849a6db235d4e52e944a60957de1dc26e5f02730677a044"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-process-receipt.json",
+      "bytes": 3939,
+      "sha256": "f9d71cf2c645bdf2caa9759226b11619503005e0c6fab7ff09f9b352a2ab3000"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-physical-metric.json",
+      "bytes": 2681,
+      "sha256": "c35c15dd145ed2727deaca799f06141c1929899456a4567b748ad96196b689b9"
+    }
+  ],
+  "inherited_static_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-static-manifest.json",
+    "bytes": 913,
+    "sha256": "6ef509a42c8bd6ebec422aa6aca550a2995a1ed497bd2641e3298e596c6780be"
+  },
+  "regenerable_diagnostic_field_retained_locally": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-field.npz.gz",
+    "bytes": 1521518,
+    "sha256": "412e817c57bc72722a7d09d55c5f90992327bcd6230b93846b50d8dc07c3c264"
+  },
+  "summary": {
+    "raw": 0.6521286583374486,
+    "node_G": 1.759625154979865,
+    "all_G2_G": 2.171668436522182,
+    "high_C": 0.5988950796381975,
+    "node_formal_curvature": 7.516619240461884,
+    "objective_value_evaluations": 2,
+    "whole_continuous_or_strong_target_complete": false
+  }
+}

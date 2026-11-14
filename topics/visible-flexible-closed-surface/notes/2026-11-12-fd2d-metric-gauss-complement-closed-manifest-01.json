@@ -1,0 +1,46 @@
+{
+  "schema": "fd2d-closed-source-and-actual-output-manifest-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-gauss-complement-check.py",
+      "bytes": 6135,
+      "sha256": "35df70d5e7a8c1292a97ad8d1de23bd81051fd9a8f294a57438adddb926e6f10"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-complement-check.md",
+      "bytes": 3103,
+      "sha256": "5296853c6efa21e54887da8413072bd4a9d666b04a9f9adcf512d30d6479623c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-complement-check-01-failure.json",
+      "bytes": 631,
+      "sha256": "02b65fb29955d0415fb051b14418e28fcde0df84973a25aa0f72b0f73e71c31c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-complement-check-02-exit-receipt.json",
+      "bytes": 453,
+      "sha256": "d5dcf270d273fe94556f1b1eee91c56cfa2718181b71853578fc59aad45b7cc0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-gauss-complement-check-02.json",
+      "bytes": 5945,
+      "sha256": "64d24527e987fa9d0bca5d8a07cd7c2f948d036994714690c5d8bb1415b2bba6"
+    }
+  ],
+  "root_owned_helper_dependency": {
+    "path": "scripts/fd2d_gc_gauss_complement.py",
+    "bytes": 4190,
+    "sha256": "9feca73819ea9c36e35ff18646062b2c85a865c4f36d6d681a57ffd3a18ca6aa"
+  },
+  "successful_run": {
+    "session_id": 75915,
+    "chunk": "fe2232",
+    "exit_code": 0
+  },
+  "prior_input_failure": {
+    "session_id": 17081,
+    "chunk": "cac016",
+    "exit_code": 1
+  },
+  "continuous_certificate": false
+}

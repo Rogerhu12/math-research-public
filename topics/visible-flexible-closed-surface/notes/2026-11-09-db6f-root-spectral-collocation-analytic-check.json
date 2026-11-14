@@ -1,0 +1,62 @@
+{
+  "status": "ANALYTIC_NON_GEOMETRIC_BVP_INTERFACE_PASS",
+  "module_sha256": "b5422e43c06bde4f988bf5a2d4331ff9fa65ecef5f11722388aa5c6f57d8575c",
+  "checker_sha256": "9035714601625d617da35acf0ace91d3f788406b99c33aac19f658fd49f96624",
+  "exact_solution": "p=2; y0=x^2; yi=ai*exp(li*x)+2*bi/li*expm1(li*x)",
+  "physical_problem_solve_count": 0,
+  "nongeometric_scipy_solves": 2,
+  "candidate_or_DN_files_read": false,
+  "results": {
+    "original": {
+      "nodes": 77,
+      "p_error": 0.0,
+      "value_error": 9.922451749133643e-12,
+      "first_derivative_error": 2.210534449931245e-09,
+      "node_derivative_error": 0.0,
+      "physical_rms_max": 1.4904576944530703e-09
+    },
+    "weighted_physical_return": {
+      "nodes": 145,
+      "p_error": 0.0,
+      "value_error": 6.228906279659441e-13,
+      "first_derivative_error": 2.7977339889240227e-10,
+      "node_derivative_error": 0.0,
+      "physical_rms_max": 1.8668039807964134e-10
+    }
+  },
+  "transformed_records": [
+    {
+      "call": 1,
+      "status": "RETURNED_PHYSICAL_COORDINATES",
+      "initial_nodes": 5,
+      "state_components": 7,
+      "parameters": 1,
+      "original_tol": 2e-09,
+      "original_bc_tol": 1e-10,
+      "maximum_nodes": 1000,
+      "weights": [
+        1.0,
+        16.0,
+        64.0,
+        16.0,
+        64.0,
+        16.0,
+        64.0
+      ],
+      "scipy_bvp_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "actual_nonlinear_tail_not_inferred": true,
+      "weighted_solver_success": true,
+      "success": true,
+      "final_nodes": 145,
+      "weighted_rms_max": 8.762032184034695e-10,
+      "original_physical_rms_max": 1.8668039807964134e-10,
+      "original_physical_bc_max": 1.0640762942739478e-32,
+      "original_physical_residual_gate_passed": true,
+      "ppoly_axis": 1,
+      "coordinate_roundtrips_passed": true,
+      "scope": "Finite collocation diagnostics only; neither continuous metric nor true DN success."
+    }
+  ],
+  "unsupported_S_rejected_before_solve": "Only nonsingular prefix problems with parameters are supported",
+  "scope": "Only parameter/Jacobian/physical-PPoly-return and original-residual gate checks; no M14 or G5 claim."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "actual_exit_code": 2,
+  "session_id": 17913,
+  "tool_receipt": "e017b2",
+  "stem": "2026-11-09-db6f-prefix-spectral-true-m14q512-02",
+  "observed_utc": "2026-11-09T21:25:31.235948+00:00",
+  "guard_child_exit_code": 2,
+  "guard_seconds": 1904.819748695998,
+  "source_bindings_rehashed": 122,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-launch.json",
+      "bytes": 37224,
+      "sha256": "05e3b3916f8b95baca5c9d7915feecbe6b8ed2382822d6efc29e7be27b2f532d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-completion.json",
+      "bytes": 1302,
+      "sha256": "ad89b4de2fe793fe1db66771ea865c10ba088a8516835edd038ebbf3e8c7b969"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-reproduction.json",
+      "bytes": 45137,
+      "sha256": "7490d5822853b8d175ced94e7e4f3858b99044246cb06783408b01833d743f10"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-summary.json",
+      "bytes": 670,
+      "sha256": "da8482745146c274c4afd530da0e905895fe740322a33cbf092779401a02c4e9"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-launch.json",
+      "bytes": 63007,
+      "sha256": "5424505267c750fae5dd5cd8f70503893325a1cb9fb98e8365f191e018e0e4e1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-first-request-binding.json",
+      "bytes": 2074,
+      "sha256": "5aa0aea52029562e88a2118c1a6a6efe963414799fa1ed2e69c968bc1613e2fb"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02_tail_0001.json.gz",
+      "bytes": 254043,
+      "sha256": "c71d2d21e17d399dbb0ba0cbc725f48399c29eaaf6ad5bdc94fe00034ca500bd"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-tail-trace.jsonl",
+      "bytes": 1066,
+      "sha256": "e041d7e62f3ca262ce524deba6c6abe06fd76cdf0a11ba95b71d6774e16332a5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-tail-iteration.json.gz",
+      "bytes": 245111,
+      "sha256": "1992b90eaa5c5bc4beeb55846ae0c1fce092eb74e024fe4f8bc1aa0da3aef9ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-run.log",
+      "bytes": 405,
+      "sha256": "3a8aed0a45bc75a0926f14a528b1b16663f5bf452e120a03c280b63dc01666ea"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-first-dn-audit-v2.json",
+      "bytes": 1082,
+      "sha256": "4d325cad8d486f698b95827570c616220b20fa3b0c5ccc183503fd3a555184c3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-first-dn-observed.json",
+      "bytes": 2043,
+      "sha256": "51294a9e892c1991f95ad1440a7627317ec29834bb368ad1ddd3b6950d73ff69"
+    }
+  ],
+  "primary_failure": "MemoryError((27280600,), dtype('float64'))",
+  "failure_array_length": 27280600,
+  "node_count_inferred_from_original_Jacobian_structure_only": 6344,
+  "saved_mesh_or_refresh_index_available": false,
+  "secondary_program_close_error": "FileNotFoundError because original main caught the resource exception and saved no successful prefix checkpoint.",
+  "per_process_DATA_bytes": 4294967296,
+  "actual_successful_dn_calls": 1,
+  "first_DN_residual": 5.397833270174952e-10,
+  "new_prefix_checkpoint_exists": false,
+  "new_coefficients_exist": false,
+  "final_seam_exists": false,
+  "original_runtime_Newton_before_after_verified": true,
+  "original_runtime_identity_equal_to_attempt01": true,
+  "physical_callback_sources_verified": 14,
+  "numeric_state_inferred_success": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "78718-actual-geometric-half-height-bootstrap-start-v1",
+  "utc": "2026-11-10T12:14:20.283385+00:00",
+  "actual_tool_start": {
+    "chunk_id": "3787e9",
+    "session_id": 83728,
+    "wall_time_seconds": 1.001275132,
+    "exit_code": null
+  },
+  "latest_actual_poll": {
+    "chunk_id": "a7d9b3",
+    "session_id": 83728,
+    "exit_code": null
+  },
+  "bootstrap_height_scale": 0.5,
+  "actual_initial_warm_observation": {
+    "read_chunk": "f31c45",
+    "node_count": 865,
+    "max_Q_scaling_error": 0,
+    "max_nonconstant_ur_scaling_error_Fourier_l1": 2.2474833687489318e-17,
+    "max_mean_ur_departure_from_linear_scaling": 0.00016254311728551688,
+    "max_momentum_departure_from_linear_scaling_relative": 0.5579984806371517,
+    "node_min_A": 0.5617489478485288,
+    "node_min_D": 0.9958471654985006
+  },
+  "physical_g_and_final_H_unchanged": true,
+  "scope": "Actual initialization and startup only; sampled node guards are not whole-trajectory success."
+}

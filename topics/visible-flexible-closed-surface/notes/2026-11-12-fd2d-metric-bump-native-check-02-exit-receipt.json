@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 82243,
+  "completion_chunk_id": "595cb4",
+  "observed_exit_code": 0,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-bump-native-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-bump-native-check-02"
+  ],
+  "program_elapsed_seconds": 16.727166126000157,
+  "report": "notes/2026-11-12-fd2d-metric-bump-native-check-02-report.json",
+  "report_sha256": "73975d4ce518457f4789b8979f694c88174988900f693780c1fa0af20beaaefc",
+  "actual_body_integration_run": false
+}

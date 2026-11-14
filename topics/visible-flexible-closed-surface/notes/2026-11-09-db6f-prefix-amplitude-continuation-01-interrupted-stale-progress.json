@@ -1,0 +1,14 @@
+{
+  "scope": "Actual finite-tail boundary continuation on one fixed metric and discretization.\n\nIntermediate H_j(s)=s**(j+1)*H_target[j] solves are warm states only and do\nnot match the complete target prefix. Only s=1 is the target DN; even then\nthe original actual prefix boundary correction remains necessary.\n",
+  "status": "RUNNING_WARM_CONTINUATION",
+  "target_reached": false,
+  "target_audited": false,
+  "last_converged_scale": null,
+  "last_converged_record": null,
+  "last_converged_sha256": null,
+  "original_tail_tolerance": 2e-09,
+  "attempts": [],
+  "current_attempt": 0,
+  "current_requested_scale": 0.25,
+  "current_step": 0.125
+}

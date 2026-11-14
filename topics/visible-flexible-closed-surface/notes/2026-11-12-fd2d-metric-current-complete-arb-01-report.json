@@ -1,0 +1,156 @@
+{
+  "schema": "fd2d-current-complete-Arb-small-actual-integration-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-current-complete-arb-check.py",
+    "bytes": 12683,
+    "sha256": "362852c6b7189da196f24577ead72a0796d7ea18cde8dfa10340dff9526b6bfe"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+    "bytes": 130600,
+    "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+    "bytes": 381511,
+    "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+  },
+  "passed": false,
+  "whole_F_J_BVP_body_evaluated": false,
+  "whole_surface_certificate": false,
+  "full_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-current-complete-arb-01-definition.json",
+    "bytes": 95369,
+    "sha256": "1a594077aa007cdd155def0d2101a9526c1bbf4e4483f2959e8e83ee9f4e6068"
+  },
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-current-complete-arb-01-native-definition.json",
+    "bytes": 54399,
+    "sha256": "9b63f99189bbb46da57602ad4962784cb2639643b5853d3c1b8ad67531de92f1"
+  },
+  "full_binding_sha256": "8fef752969662dfa16fc699e68ed72859a761037870c1cdfdb5ab770828a1281",
+  "actual_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "saved_nodes": 131,
+  "global_frozen_chart_positivity": {
+    "original_complete_box_count": 209,
+    "n_lower": {
+      "lower_binary": [
+        "17312259872078265134321757394339286232034323",
+        -146
+      ],
+      "upper_binary": [
+        "17312259872078265134321757394339286232034323",
+        -146
+      ],
+      "lower_display": 0.19407714538188342,
+      "upper_display": 0.19407714538188342
+    },
+    "seed_h_lower": {
+      "lower_binary": [
+        "105732792689954695870107533410585747477858671867609313516590722219851924647599",
+        -258
+      ],
+      "upper_binary": [
+        "105732792689954695870107533410585747477858671867609313516590722219851924647599",
+        -258
+      ],
+      "lower_display": 0.2282815548678266,
+      "upper_display": 0.2282815548678266
+    },
+    "original_D_lower": {
+      "lower_binary": [
+        "10037597262093664121528120586973969748759889167",
+        -157
+      ],
+      "upper_binary": [
+        "10037597262093664121528120586973969748759889167",
+        -157
+      ],
+      "lower_display": 0.054944021987823596,
+      "upper_display": 0.054944021987823596
+    },
+    "exact_exit_extension_upper": {
+      "lower_binary": [
+        "52960195747594218567831943077151790311239856590039673325829476079366909861271",
+        -305
+      ],
+      "upper_binary": [
+        "26480097873797109283915971538575895155619928295019836662914738039683454930637",
+        -304
+      ],
+      "lower_display": 8.12457971454385e-16,
+      "upper_display": 8.12457971454385e-16
+    },
+    "D_lower": {
+      "lower_binary": [
+        "25448332388284154486068628503109858379219568355528234470661857168397887134107",
+        -258
+      ],
+      "upper_binary": [
+        "25448332388284154486068628503109858379219568355528234470661857168397887134107",
+        -258
+      ],
+      "lower_display": 0.05494402198782278,
+      "upper_display": 0.05494402198782278
+    },
+    "U_xi_lower": {
+      "lower_binary": [
+        "31935494526028905219197209725816707689637693835739196948116624673312643064265",
+        -262
+      ],
+      "upper_binary": [
+        "31935494526028905219197209725816707689637693835739196948116624673312643064265",
+        -262
+      ],
+      "lower_display": 0.0043093799002668996,
+      "upper_display": 0.0043093799002668996
+    },
+    "extension_formula": "extra_sigma*(1+sigma_max/rho0_min)*max|B|; follows from exact w_sigma=rho/Q",
+    "angular_coverage": "D2 exact reflection/pi-periodicity of the immutable finite inlet and exact seed",
+    "applies_to_reference_chart_only": true,
+    "unknown_field_n_positive_inferred": false
+  },
+  "exact_exit_alignment": {
+    "exit_sigma": [
+      "155117169585953",
+      "562949953421312"
+    ],
+    "stored_length": [
+      "4963749426750495",
+      "18014398509481984"
+    ],
+    "difference": [
+      "1",
+      "18014398509481984"
+    ]
+  },
+  "tail_weight_width_difference": [
+    "0",
+    "1"
+  ],
+  "error": {
+    "type": "ValueError",
+    "message": "Declared small radial box crosses a saved P1 cell",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-current-complete-arb-check.py\", line 83, in run\n    raise ValueError('Declared small radial box crosses a saved P1 cell')\nValueError: Declared small radial box crosses a saved P1 cell\n"
+  },
+  "seconds": 1.254089677000593,
+  "peak_rss_kib": 92324
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AUTHOR_METADATA_AND_FRACTION_BUDGET_COMPLETED",
+  "actual_execution": {
+    "receipt": "04d8a3",
+    "exit_code": 0
+  },
+  "command": [
+    "python3",
+    "-B",
+    "topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-twin-marker-bounds.py",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json"
+  ],
+  "source_script_sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c",
+  "report_sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef",
+  "source_bindings_freshly_rechecked": 4,
+  "strict_decimal_display_checks_passed": true,
+  "independent_review_status": "PENDING",
+  "new_solve_RK_integration_optimization_calls": 0,
+  "scope": "Conditional compact-piece/convex-hull model; connected closed isometric family not constructed."
+}

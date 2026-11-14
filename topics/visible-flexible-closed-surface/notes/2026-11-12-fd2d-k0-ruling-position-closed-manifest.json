@@ -1,0 +1,68 @@
+{
+  "schema": "fd2d-R137-continuous-position-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_position_certificate.py",
+      "sha256": "a301e04c9fe9d5d4f8bdd7c8cfd8bbbf24747c8420dbc53f1c0b8739524759a6",
+      "bytes": 6788,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-position-certificate-01.json",
+      "sha256": "b941b2bff3cb3f6223580632948f9095a5406369278bd7071b2c4f993900ed6e",
+      "bytes": 967541,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_segment_geometry.py",
+      "sha256": "84d475509ccd3d80953b91d074a675dfcf558b719cee476b1f10559ec3b6cb3d",
+      "bytes": 6046,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-radial-geometry-01-report.json",
+      "sha256": "bd69de7f04826ed5c4c124ea84fe428bee566b1a5703c41a4ae8bd13de7ccaac",
+      "bytes": 3658,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-radial-geometry-01-angles.npz",
+      "sha256": "2f1e836f80f96a7fe0d3c0e0e81fc38a01f0bf89631ad7a602b4588a70af4e07",
+      "bytes": 285081,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-continuous-geometry.md",
+      "sha256": "7d1da97a6efffd95208767e644473ba9ecbf4197ef9038555f7b770c4874c98d",
+      "bytes": 5642,
+      "closed": true
+    }
+  ],
+  "actual_runs": [
+    {
+      "task": "radial exact segment geometry at finite angles",
+      "session": 94918,
+      "final_chunk": "e65ef1",
+      "exit_code": 0,
+      "seconds": 6.646608168000057
+    },
+    {
+      "task": "actual F full-angle full-radial position certificate",
+      "session": 82877,
+      "final_chunk": "5ad275",
+      "exit_code": 0,
+      "seconds": 1.360505288999775
+    }
+  ],
+  "strict_claims": [
+    "|F|<9/4",
+    "|F_y|<17/20",
+    "0<F_z<9/10",
+    "|F-(0,281/200,0)|>9/10"
+  ],
+  "metric_compatibility_assumed": false,
+  "metric_certified": false,
+  "reach_certified": false,
+  "previous_angular_D_packet_manifest": "notes/2026-11-12-fd2d-k0-ruling-angular-closed-manifest.json",
+  "all_files_closed": true
+}

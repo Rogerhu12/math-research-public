@@ -1,0 +1,58 @@
+{
+  "status": "TRUE_FINITE_DN_WARM_AT_S025_PREFIX_STILL_UNSOLVED",
+  "source_response": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+  "source_response_sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5",
+  "source_summary_sha256": "7558e7ffd9c38505e9decde179b390dc46462dc884f815fdb564c972aab32110",
+  "original_tolerance": 2e-09,
+  "residual": 1.5422380425305446e-10,
+  "converged": true,
+  "audited": false,
+  "original_jacobian_requested": true,
+  "jacobian_entries": 705,
+  "all_jacobian_entries_finite": true,
+  "fixed_physical_and_discretization_parameters_identical": true,
+  "authorized_recovery_option_differences": {
+    "trialStatePrefix": {
+      "previous": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-stage-input",
+      "recovery": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-stage-input"
+    },
+    "trialDiagnosticFile": {
+      "previous": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-active-trials.jsonl",
+      "recovery": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trials.jsonl"
+    },
+    "iterationCheckpointFile": {
+      "previous": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-iteration.json.gz",
+      "recovery": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-iteration.json.gz"
+    },
+    "maxIterations": {
+      "previous": 36,
+      "recovery": 32
+    },
+    "initialCheckpoint": {
+      "previous": null,
+      "recovery": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz"
+    },
+    "traceFile": {
+      "previous": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-active-trace.jsonl",
+      "recovery": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trace.jsonl"
+    }
+  },
+  "physical_H025_bitwise_identical": true,
+  "original_completed_iterations_before_interruption": 4,
+  "original_recorded_base_evaluations_before_interruption": 5,
+  "recovery_history_count": 13,
+  "distinct_base_states_on_recovered_trajectory": 17,
+  "actual_recorded_fullJac_base_evaluations": 18,
+  "accepted_updates": 16,
+  "final_minA": 0.9039699504468596,
+  "final_minD": 0.9978542869609943,
+  "actual_worker_exit_code": 0,
+  "actual_tool_exit_code": 0,
+  "tool_exit_source": "Parent root explicitly observed write_stdin(session_id=48634) return exit_code 0.",
+  "recovery_seconds": 2820.9284336566925,
+  "planned_resume_scale": 0.25,
+  "planned_next_step": 0.0625,
+  "planned_next_requested_scale": 0.3125,
+  "resume_prepared_only": true,
+  "scope": "Only the s=.25 physical cut target has a converged finite M15 tail. No actual full-prefix coupling, no source audit, no full XYZ claim, and no infinite-tail/README completion."
+}

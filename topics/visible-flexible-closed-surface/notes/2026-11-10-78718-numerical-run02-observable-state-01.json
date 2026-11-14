@@ -1,0 +1,237 @@
+{
+  "schema": "78718-read-only-main-run-observable-state-v1",
+  "status": "FILE_AND_RECORDED_EVENT_OBSERVATION_ONLY",
+  "observed_utc": "2026-11-10T05:08:12.569607+00:00",
+  "stem": "2026-11-10-78718-numerical-m14-direct-csc-02",
+  "observation_scope": {
+    "main_run_modified": false,
+    "other_pid_namespace_processes_inspected": false,
+    "signals_sent": false,
+    "solver_calls": 0,
+    "trace_mathematical_payloads_replayed": false,
+    "natural_tool_exit_observed_by_this_agent": false
+  },
+  "file_snapshots": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-guard-live.json",
+      "bytes": 1218,
+      "sha256": "4b90c813c45fa0bb3649f640dd4f8a928605ab58bf1d961f74cef58acb392adb",
+      "mtime_utc": "2026-11-10T04:07:30.927779+00:00",
+      "seconds_since_mtime_at_observation": 3641.641828,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-guard-launch.json",
+      "bytes": 44095,
+      "sha256": "c5a9bb2d5bba1099db7b489d52b423b0fff135be339a8ea435989f235d3b8063",
+      "mtime_utc": "2026-11-10T04:07:15.484185+00:00",
+      "seconds_since_mtime_at_observation": 3657.085422,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-launch.json",
+      "bytes": 101683,
+      "sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671",
+      "mtime_utc": "2026-11-10T04:06:05.638825+00:00",
+      "seconds_since_mtime_at_observation": 3726.930782,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-reproduction.json",
+      "bytes": 113651,
+      "sha256": "ddefe76a01ad17d3e7602e2a52bad3660ba69af7e74aea589dfc25f0d6a84027",
+      "mtime_utc": "2026-11-10T04:10:11.165630+00:00",
+      "seconds_since_mtime_at_observation": 3481.403977,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-run.log",
+      "bytes": 76,
+      "sha256": "2611d9baba3423bfc96d1c7019839838090066a170b3a74747a0ae3704dfebee",
+      "mtime_utc": "2026-11-10T04:07:37.000343+00:00",
+      "seconds_since_mtime_at_observation": 3635.569264,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-tail-trace.jsonl",
+      "bytes": 1066,
+      "sha256": "f9bd1b9686575da33878ad5d1f20d7ae6bce057e2463ab695a2ded017e74f53e",
+      "mtime_utc": "2026-11-10T04:10:10.699791+00:00",
+      "seconds_since_mtime_at_observation": 3481.869816,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "d8126d5b269123bc9056831796f58c3061ad0773a54bebd3f17ea9352524c96e",
+      "mtime_utc": "2026-11-10T04:10:11.163309+00:00",
+      "seconds_since_mtime_at_observation": 3481.406298,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_tail_0001.json.gz",
+      "bytes": 254066,
+      "sha256": "123d6c95c9dfd23a1b537755e1de23009b52e26465c1a5bc4f330125e9e813c7",
+      "mtime_utc": "2026-11-10T04:10:10.859942+00:00",
+      "seconds_since_mtime_at_observation": 3481.709665,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-tail-iteration.json.gz",
+      "bytes": 245121,
+      "sha256": "cb1860fb5807b11107c346a6e49f713fdaef1a23f5b5eaca41b8c09c2e5890aa",
+      "mtime_utc": "2026-11-10T04:10:10.535787+00:00",
+      "seconds_since_mtime_at_observation": 3482.03382,
+      "stat_unchanged_during_read": true
+    }
+  ],
+  "guard_snapshot": {
+    "status": "RUNNING_BOUND_CHILD",
+    "events": [
+      {
+        "event": "started",
+        "elapsed_seconds": 0.0005570159999024327
+      }
+    ],
+    "minimum_free_bytes": 536870912,
+    "resume_free_bytes": 805306368,
+    "poll_seconds": 2.0,
+    "saved_absolute_wall_start": false,
+    "saved_latest_poll_timestamp": false,
+    "saved_current_monotonic_elapsed": false,
+    "saved_memory_or_cpu_usage": false,
+    "reported_child_pid_is_namespace_scoped": true
+  },
+  "guard_source_semantics": {
+    "record_write_events": [
+      "started",
+      "paused_own_process_group_for_space",
+      "resumed_same_process_group",
+      "exception",
+      "completion"
+    ],
+    "disk_polled_each_loop": true,
+    "routine_polls_do_not_write_record": true,
+    "start_monotonic_variable_is_not_serialized": "Only per-event elapsed_seconds and completion seconds are serialized.",
+    "no_pause_or_resume_in_current_saved_events": true
+  },
+  "configured_resources": {
+    "RLIMIT_DATA_bytes_per_process": 6442450944,
+    "Node_heap_MiB": 1536,
+    "disk_minimum_free_bytes": 536870912,
+    "disk_resume_free_bytes": 805306368
+  },
+  "current_shared_path_filesystem_measurement": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+    "observed_utc": "2026-11-10T05:08:12.569607+00:00",
+    "available_bytes": 46165999616,
+    "free_bytes": 49618747392,
+    "total_bytes": 67586535424,
+    "is_guard_latest_sample": false,
+    "proves_target_process_progress": false
+  },
+  "worker_recorded_events": [
+    {
+      "time": "2026-11-10T04:07:36.916Z",
+      "event": "warm_initial_state"
+    },
+    {
+      "time": "2026-11-10T04:07:37.003Z",
+      "event": "request",
+      "call": 1
+    },
+    {
+      "time": "2026-11-10T04:10:10.540Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 153537
+    },
+    {
+      "time": "2026-11-10T04:10:10.703Z",
+      "event": "response",
+      "call": 1,
+      "elapsed_ms": 153700
+    }
+  ],
+  "reproduction_snapshot": {
+    "status": "RUNNING_ORIGINAL_TRUE_OUTER",
+    "completed_spectral_coordinate_call_count": 0,
+    "runtime_call_audit_count": 1,
+    "audit_keys": [
+      [
+        "call",
+        "before_newton",
+        "before_csc",
+        "physical_callbacks",
+        "scope"
+      ]
+    ],
+    "mathematical_success": false
+  },
+  "expected_closed_outputs": [
+    {
+      "launch_key": "checkpoint_output",
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02.json.gz",
+      "exists": false
+    },
+    {
+      "launch_key": "original_summary_file",
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-summary.json",
+      "exists": false
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-guard-completion.json",
+      "exists": false
+    }
+  ],
+  "interpretation": [
+    "The worker trace records absolute wall times for the first actual DN request and response; its response elapsed_ms is a recorded duration of that DN call.",
+    "Guard start time can only be approximated here by the unchanged start-event file mtime. Every seconds_since_mtime field is a filesystem age, not the live process monotonic elapsed time.",
+    "The current reproduction contains only the first inner BVP before-call audit. No corresponding after-call audit or closed BVP result has been persisted.",
+    "Neither the supervisor nor this inner BVP wrapper persists a routine heartbeat, per-Newton progress, current mesh size, current RSS, or CPU activity. The affine inner BVP need not call the tail worker again before returning.",
+    "The absence of a later persisted event does not prove that the running process is live, stopped, stalled, or dead. Parent/root alone holds session 44394 and its actual tool observations.",
+    "The separate first-dn-audit file is written by our auditor and is excluded from producer activity timestamps."
+  ],
+  "inspected_sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+      "bytes": 6899,
+      "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd",
+      "mtime_utc": "2026-11-10T04:00:14.179292+00:00",
+      "seconds_since_mtime_at_observation": 4078.390315,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-direct-csc.py",
+      "bytes": 24690,
+      "sha256": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+      "mtime_utc": "2026-11-10T04:00:14.177759+00:00",
+      "seconds_since_mtime_at_observation": 4078.391848,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "bytes": 8062,
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb",
+      "mtime_utc": "2026-11-10T04:00:14.178588+00:00",
+      "seconds_since_mtime_at_observation": 4078.391019,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "bytes": 3716,
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0",
+      "mtime_utc": "2026-11-10T04:00:14.178299+00:00",
+      "seconds_since_mtime_at_observation": 4078.391308,
+      "stat_unchanged_during_read": true
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-m14-csc-resource-6g.py",
+      "bytes": 1766,
+      "sha256": "8260d9e9ac76f4816b5c40aafd3c07ec841388ea9b88316556e56f60c85a0ccc",
+      "mtime_utc": "2026-11-10T04:12:52.951442+00:00",
+      "seconds_since_mtime_at_observation": 3319.618165,
+      "stat_unchanged_during_read": true
+    }
+  ]
+}

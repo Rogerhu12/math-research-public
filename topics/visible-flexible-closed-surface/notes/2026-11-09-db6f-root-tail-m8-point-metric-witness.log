@@ -1,0 +1,23 @@
+TypeError: float() argument must be a string or a real number, not 'I'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-tail-metric-point.py", line 145, in <module>
+    main()
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-tail-metric-point.py", line 111, in main
+    result = point_metric(geom, index, local, quarter, w)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-tail-metric-point.py", line 71, in point_metric
+    Eres = 2*Rr + Rr.square() + Tr.square() + Zr.square() + 2*w*Zr
+                                                            ~~~^~~
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py", line 63, in __mul__
+    x = I.get(x)
+        ^^^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py", line 42, in get
+    return x if isinstance(x, I) else I(x)
+                                      ^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-continuous-hermite.py", line 37, in __init__
+    self.lo = np.asarray(lo, dtype=np.float64)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence.

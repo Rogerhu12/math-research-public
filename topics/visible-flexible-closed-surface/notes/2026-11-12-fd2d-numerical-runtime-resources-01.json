@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-12T12:34:37.691671+00:00",
+  "scope": "Observed current probe process only; not a diagnosis of previous SIGKILLs",
+  "python": "3.12.14",
+  "limits_text": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+  "cgroup_text": "0::/\n",
+  "cgroup_paths": [],
+  "meminfo": {
+    "MemTotal": "10206472 kB",
+    "MemAvailable": "1510376 kB",
+    "SwapTotal": "0 kB"
+  },
+  "rlimit_cpu": [
+    -1,
+    -1
+  ],
+  "rlimit_as": [
+    -1,
+    -1
+  ],
+  "rlimit_rss": [
+    -1,
+    -1
+  ]
+}

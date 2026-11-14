@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-observed-command-completion-v1",
+  "session_id": 43283,
+  "completion_chunk_id": "f9ac44",
+  "observed_exit_code": 0,
+  "command": [
+    "python3",
+    "scripts/fd2d-metric-codazzi-complement-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "--out",
+    "notes/2026-11-12-fd2d-metric-codazzi-complement-T-check-01.json"
+  ],
+  "program_elapsed_seconds": 13.726363216000209,
+  "report": "notes/2026-11-12-fd2d-metric-codazzi-complement-T-check-01.json",
+  "report_sha256": "e202ce81871a76a05a5ebc7042c4917cdb9265b8bf9667443d00135e6391b719",
+  "scope": "Actual process completion; does not assert geometric success"
+}

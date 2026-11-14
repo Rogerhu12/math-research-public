@@ -1,0 +1,250 @@
+{
+  "schema": "78718-production-stage-tool-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "recorded_utc": "2026-11-10T09:18:23.526808+00:00",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-production-stage-record-v1.py",
+    "bytes": 7156,
+    "sha256": "4c87bc4496ddeb14c66310777c3b7c98e78d19df70cfb94f5971699999ac2dc9"
+  },
+  "invocation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-common-cut-01-invocation.json",
+    "bytes": 17790,
+    "sha256": "37d04bf6f25ea85ff3376c1efa495f54e8974ac6aef6a10bdbff44c5e3060d82"
+  },
+  "plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-storage-production-plan-01.json",
+    "bytes": 297542,
+    "sha256": "232e9c3f3d748a4b9c83673d6627c576b53c80fbadcdff580da5b8c3bdd7cdf9"
+  },
+  "stage_id": "common-cut",
+  "tool_session_id": 80553,
+  "tool_return_metadata": {
+    "chunk_id": "a4bdf6",
+    "wall_time_seconds": 3.558862977,
+    "exit_code": 0,
+    "original_token_count": 0
+  },
+  "files_after": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/bridge.json",
+      "bytes": 3888,
+      "sha256": "da2c5f8cdfcba8aa68fb535ac981989cb041fab768d674f9037d570f4aa56b47"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/closed-map.json",
+      "bytes": 11225,
+      "sha256": "6cd427ec5b4642a08ac64e9a1afbc5d4692ad5b449d305ffb10725f606e1eb83"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-metric.json",
+      "bytes": 4110,
+      "sha256": "b076c6c052a00d72d201ca9c76a3a5a724e9dc70350437cb14fa90d430f0c48a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "bytes": 887,
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "bytes": 4599313,
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "bytes": 3886748,
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-63169e121eed1f472fde761ed85da3501e506232be3aeb938a5dfc62211c5423-storage.json",
+      "bytes": 887,
+      "sha256": "c63bb89fa9e12e858101f5e6d367d356f5b45ad3b13283b72a6546bde3c4feba"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-63169e121eed1f472fde761ed85da3501e506232be3aeb938a5dfc62211c5423.part-000000.bin.gz",
+      "bytes": 4599283,
+      "sha256": "a27cc72d9132e6ff08ac850478d3812fafe64bcaf2f394910fe5143cb38667f0"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-63169e121eed1f472fde761ed85da3501e506232be3aeb938a5dfc62211c5423.part-000001.bin.gz",
+      "bytes": 3886865,
+      "sha256": "3928c3209ae36c2f3f654e3287864212e87115d1c47d1446e06b23aa5e8afa1e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "bytes": 9865,
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target-data.npz.gz",
+      "bytes": 1222579,
+      "sha256": "d843a18bc7f419d1f943a7bcd22cd5930fea0cbeab632971cf31167811474a73"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+      "bytes": 5695,
+      "sha256": "dbfb5c348a6921b078c1ee25c9aa5874856de303afd11b1e6277ac1eebdbbd8c"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-collar-check.json",
+      "bytes": 4235,
+      "sha256": "93e0aaa0742a5110f936345997609460e8aa8f166a66f9418815370fc1306d85"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-collar.json",
+      "bytes": 48954,
+      "sha256": "6176a09c70f6a83d403edeb4fae593c7d372674b4ccbb94f853e45e72481d737"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-manifest.json",
+      "bytes": 554558,
+      "sha256": "207a40b90ba65e2297c24c48b8d5848d3e18e6ed62ca77024ce71d7b3f68558b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-radial.json",
+      "bytes": 1083,
+      "sha256": "de494da5a60a18f5e3735ef7a5a872ee51169923df2b678d04709622557175a3"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw000-part00.f64.gz",
+      "bytes": 4478734,
+      "sha256": "b0078d2a3fea3101118e7a4cd860293ea0b347603da7b7bad163136e42569b9f"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw000-part01.f64.gz",
+      "bytes": 4485980,
+      "sha256": "e0186fbcea063f0664a931ac474d40ea463f0673f7e73dea9c806237c4b526c7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw000-part02.f64.gz",
+      "bytes": 4494694,
+      "sha256": "a7903918ca576dee115dc9c69858f40ad288b4122c4a97f5a0aae18ef9dbc675"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw000-part03.f64.gz",
+      "bytes": 4481374,
+      "sha256": "1f8186c2c9ba1295002b9109a072a11d019530e1027547351ca0e34ddb5c75ab"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw000-part04.f64.gz",
+      "bytes": 3963806,
+      "sha256": "aead88084d295d753fc9beaf1646d60bbe1d7d1890c5c428826b570869a8ef87"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw001-part00.f64.gz",
+      "bytes": 4454184,
+      "sha256": "46d0989019119c7049c1e5231091ee4dfdddffe6b7db7a0f58221a2f8ffe4028"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw001-part01.f64.gz",
+      "bytes": 4475412,
+      "sha256": "2b8e2f00b2aaab3ec17b9104b6d6f5cedd5d2dcd38980beba7defcced344c7b9"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw001-part02.f64.gz",
+      "bytes": 1381197,
+      "sha256": "c1db8ce119b8740559d0b48688b0f786157679bb7e0b269b9cf78b9ee5918a51"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw002-part00.f64.gz",
+      "bytes": 4432382,
+      "sha256": "82017729d1a40d062dea7972c1e79e83ade6d546cea76e2c7d7d562dd9dde59a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw002-part01.f64.gz",
+      "bytes": 4458332,
+      "sha256": "02dc9d58ce704740c66ec6d9a45e9b70716090a6b2ded9b705677634a06b7335"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw002-part02.f64.gz",
+      "bytes": 1373994,
+      "sha256": "ffcc69a712a02e0ab7ac7d614308330269f941a3379162510a9f97ac90eff450"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw003-part00.f64.gz",
+      "bytes": 4427484,
+      "sha256": "74d03c6315a6d6da446449aa3c11df6daa72b6a9c2467e045020f3a2339bad31"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw003-part01.f64.gz",
+      "bytes": 4457109,
+      "sha256": "e53c5b83dfcd1448a3768cd7163dde4c8436405af13102db62a16c37ce894cdc"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw003-part02.f64.gz",
+      "bytes": 1366685,
+      "sha256": "41a40040dd55e754e360945c8fd9731be63a398a398f4a4094d32e89e72cccb8"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw004-part00.f64.gz",
+      "bytes": 4404617,
+      "sha256": "396044638a455bc8c2355afd89dc8dab990fc8187576b30cd66ef47086addf96"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw004-part01.f64.gz",
+      "bytes": 4452472,
+      "sha256": "2a1f50671912019d6ff6488bb5fbd40d25ff3fdfde5183dbb48613d598407a18"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw004-part02.f64.gz",
+      "bytes": 1365555,
+      "sha256": "070400cee78495d97233bba83410d420845e391ba264783b5d4f45f07096c614"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw005-part00.f64.gz",
+      "bytes": 4380622,
+      "sha256": "1d6d2a70f1c9ff9517f57689cfdf52568bcdc2d3d69090c3811c6d9e2fef1794"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw005-part01.f64.gz",
+      "bytes": 4448981,
+      "sha256": "2df110e6fff74ca61db86ce136bd98ddfe794e7a62365ca4f7dbbcf96829e3a1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw005-part02.f64.gz",
+      "bytes": 1353151,
+      "sha256": "20d3975bb740c157f6822826f2f1565f9c134c0331ac9bffbd2d03e90277ab35"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw006-part00.f64.gz",
+      "bytes": 4368264,
+      "sha256": "41f906af384cd65bb4415f1ab379a0b5304ad65b125b20cd60472ee41a7f6baa"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw006-part01.f64.gz",
+      "bytes": 4420350,
+      "sha256": "199f694b9beb917486f6cddc68e8c4a4be487087bd6b61e960cde5a0bf20ed09"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw006-part02.f64.gz",
+      "bytes": 1322328,
+      "sha256": "f3d659df02bfe6a973f708ecdb174eb22650930bc2e94a2267eddd1af6174d3e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw007-part00.f64.gz",
+      "bytes": 4385996,
+      "sha256": "77b69cb92b2354ebcdd3ec44bdc3dcd1e7924cfdf13b5838e3dceb93b79130ae"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw007-part01.f64.gz",
+      "bytes": 4393577,
+      "sha256": "079050e4288c54a3532ac4b0a3215b19b118c7430d4301a46b53006efccbb214"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-raw007-part02.f64.gz",
+      "bytes": 1307159,
+      "sha256": "2b51b66c3f601aeeea4f368e4a176be7de663360dd10eeed5208c4146e71a27b"
+    }
+  ],
+  "stdout_log": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-common-cut-01-stdout.log",
+    "bytes": 309,
+    "sha256": "eded2c5a3d1b6a0a21b337dcb067b225023ec9f21ceebe7cfacb996642dd0a71"
+  },
+  "status": "observed-process-completed",
+  "actual_exit_code": 0,
+  "tool_receipt": "a4bdf6",
+  "expected_outputs_present": true,
+  "all_production_files_below_5000000": true
+}

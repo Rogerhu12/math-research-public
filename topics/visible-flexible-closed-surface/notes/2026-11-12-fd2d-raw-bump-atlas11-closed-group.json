@@ -1,0 +1,74 @@
+{
+  "schema": "fd2d-closed-real-signal-run-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-ruling-endpoint-run-v2.py",
+      "bytes": 21199,
+      "sha256": "ef456ccf2ffb2d213cb9663de07d0a80fe0301445a1569fb366cdf8b12bcaded"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-atlas11-memory-phases-and-atlas12.md",
+      "bytes": 1031,
+      "sha256": "ada3de6f2127deb7e59a84acb51ef7afe6ba6367bcf85c73c1afbc1adc4b5913"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-b0001-initial.npz",
+      "bytes": 55033,
+      "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-b0001-process-receipt.json",
+      "bytes": 3926,
+      "sha256": "b51b6440177f4bf6ac520e06e169bba636fc513aa68b61ed1ff65fa9b2df3ce6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-b0001-progress.jsonl",
+      "bytes": 27674,
+      "sha256": "e60f856fc446d1df93cfcf0dec633acc59665412dd4789ef887828904e94f8cd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-b0001-report.json",
+      "bytes": 97411,
+      "sha256": "813541dad3c0ec3216559840d07f99d9d4840c2ca0f15cb10d3506bfb0fa6627"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-chain-report.json",
+      "bytes": 15603,
+      "sha256": "4146ec3d7bc65ea2b368570913c680d573d03a35a302ce0a3a26c3a69b7e6015"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-execution-receipt.json",
+      "bytes": 422,
+      "sha256": "1bf85c9485a8825ff6e03a41acfff91fae699a085418a01475e4a2dbf15f25db"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-atlas11-static-manifest.json",
+      "bytes": 837,
+      "sha256": "933f7a92c82197f111b692b95658416ff3f5a27846591dba280171e5dc9b8f6d"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas10-b0001-process-receipt-console.txt",
+      "bytes": 27467,
+      "sha256": "9f47e916ac73c61d46d397f4bc6e7d8b69d636afa3a3368f8b5fe8b4033bcfde"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas10-b0001-process-receipt-samples.jsonl",
+      "bytes": 27856,
+      "sha256": "7fe07ff0c7d0ba7fa40f96b185efef05e198dce8882ed409f924b17d06214ba6"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas11-b0001-process-receipt-console.txt",
+      "bytes": 27674,
+      "sha256": "e60f856fc446d1df93cfcf0dec633acc59665412dd4789ef887828904e94f8cd"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-atlas11-b0001-process-receipt-samples.jsonl",
+      "bytes": 19129,
+      "sha256": "475c08e3302b8c1954f67adcc33da6cc01a0e89d2edf1b39a04fcb42c4580700"
+    }
+  ],
+  "actual_exit": 137,
+  "actual_accepted_steps": 0,
+  "signal_cause_unknown": true
+}

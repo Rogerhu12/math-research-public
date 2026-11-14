@@ -1,0 +1,263 @@
+{
+  "status": "closed-frozen-exact-file-inventory",
+  "scope": "Own R22 source proof and independent reviews, M15 closed diagnostics and peer reruns, continuation formal review, earlier completed height/mesh reviews; optional static preview is separately marked. No active continuation files, no mock temporary outputs. Parent may deduplicate already published items by the supplied hashes.",
+  "parent_inventories": [
+    {
+      "file": "notes/2026-11-09-db6f-tail-theory-and-mesh-review-publication.json",
+      "sha256": "779649106e7f1fa08923b647d8e1f3d41d91761ec53cc0f2d34bc47ee7da3053"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-m15-entry-diagnostics-publication.json",
+      "sha256": "d261e7a87773ac196d2c037d82f9f141ba8c3dd3d52cc8aa4d5caf2a04010ff6"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-height-helper-publication.json",
+      "sha256": "8033ac94921c5a83cfd0142c2a7d5612747489f3deeb6db69d87b8464ff51f53"
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-entry-diagnostics.json",
+      "sha256": "18719428b3c5e299339cedeca395aa7ebb0b04e7b8f0e7aa092467a64fcbe720",
+      "bytes": 3104,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-entry-diagnostics.md",
+      "sha256": "388816006818c0aed3dd44c467a85006ce66d2a094fdf9e0e3f3b232ca0051c6",
+      "bytes": 6302,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-failed-stage-replay.json.gz",
+      "sha256": "1aee13edf8b9a3be009930d35f86c2be92d034c535ee29919024d1887814f5f5",
+      "bytes": 163021,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-positive-floor-replay.json",
+      "sha256": "a8cd4b7dedc94a1d6c564495289195e4ad014e7053b42cd00eae3bc2cf93f56e",
+      "bytes": 27257,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-config.json",
+      "sha256": "ce5d00cb72d00fb3161c7224d626ad1417e1ee92e4bc6cfbd9717c4935c2fb7b",
+      "bytes": 3013,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-iteration.json.gz",
+      "sha256": "5dc9396d142f8252597c14230c4089f4a16bf527948b68e95e60c2e57c7233af",
+      "bytes": 262740,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial0.json.gz",
+      "sha256": "cd096d24ed62adb57a8ba693685a421caa64cb3c898ce8548f9fe19fd76be0af",
+      "bytes": 1745,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial1.json.gz",
+      "sha256": "ca51aed0996e09632c9c5fd125010c5b6b73b050dc1cf09e25b297e0e3b81189",
+      "bytes": 1746,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial2.json.gz",
+      "sha256": "8e201dcbfa6af0111386eb2ea80ee2bc6320c7c0fac29551c9a6299c80007ebb",
+      "bytes": 1745,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial3.json.gz",
+      "sha256": "09d6c53fb45bb87b60a2d6fceac9a59828ca67bcec18a5da4ab31ea2e43b0f30",
+      "bytes": 1752,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input-call1-iteration0-trial4.json.gz",
+      "sha256": "a4a2928a176362e6f1fe5ae64698012225a06a33fea8a6a5f1443e1e5cc2716b",
+      "bytes": 1748,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-review-moment-existence-ball.md",
+      "sha256": "88d6ec057e8c751c4df0d26901ba271330a444ffa0d404c54aa5687b7892c1a6",
+      "bytes": 4226,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-background-height-sample-pilot.json",
+      "sha256": "de0396150cbee65bb4ee07ae97d3661c0d76d20a02b618c4c406ebbd7f866556",
+      "bytes": 6491,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-background-height-sample-pilot.log",
+      "sha256": "f45434a432f483a003e03faeacd5c8d377a21b2a83939ba3db605e6f9e5549b8",
+      "bytes": 217,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-background-height-sample-radii.json",
+      "sha256": "b23cc295a4db89ca8efc771858df57bfd37162f2a83e8c34873d7241cd496f07",
+      "bytes": 160,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-background-height-sampler.md",
+      "sha256": "1cb959745c217a69a71f7d2a0d4a0aa94ee8ce7a783b9dfc02d18c6441f4f412",
+      "bytes": 4055,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-height-alpha-transfer.json",
+      "sha256": "411af35301c3dd91f44f098a523687284c6f63a37a1aa9e8c11a5ab329245e2f",
+      "bytes": 1355,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-height-alpha-transfer.md",
+      "sha256": "5bb6b9b576d8baf11c53469fdc66c662faa36de47a94ca246e70ef706fda3700",
+      "bytes": 3876,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-m15-failed-stage-diagnostic.json.gz",
+      "sha256": "4c26f1876891aa340c8d36fab3b098ca2a302909dc201095781c818cffde29d0",
+      "bytes": 163024,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-m15-first-rk-failures.md",
+      "sha256": "1bf7a4375dd1863f6df5728a52fbbd16bba5cdeee4890ea337d49b9f4bc926e1",
+      "bytes": 5746,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-m15-positive-floor-probe.json",
+      "sha256": "06a56fdd8b5b3ee81d22d4fd1fb57adb78141e1f4cf20822fd1912b63e76b8e9",
+      "bytes": 27250,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-m15-positive-floor-probe.md",
+      "sha256": "fbe01801912b457520e2959f89e53c22646139d4fe894b77dbe798f2cd5c19eb",
+      "bytes": 3620,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-moment-root-existence-ball.md",
+      "sha256": "935f6ed963843944c79e9585f71ca29118605d921d63e6340a6d25e89aaca7e3",
+      "bytes": 8277,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-affine-lift.json",
+      "sha256": "75845ec267df38b607e71670f49cfcc2e75e43ab41110880a2c1f5e6f64f0a55",
+      "bytes": 1590,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-affine-lift.md",
+      "sha256": "579eec84b98791d1664a51a828c1b869efc841ccb0857d287f582dc78b19e99a",
+      "bytes": 4847,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-amplitude-continuation.json",
+      "sha256": "7c208e3aed06f24e6f217ec12d6068a9bba5772500815613ed82a08ec2d5e87f",
+      "bytes": 5808,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-amplitude-continuation.md",
+      "sha256": "c558e712b3d69fc550d8c556cdd3d31b85c8ccf63dcfd00b530a30f3296c3f47",
+      "bytes": 7972,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-closed-mesh.json",
+      "sha256": "4e4e4368c07794549f2a14f04b8dd38c756f94ea9aed3520a6b9a6665cb8bbdc",
+      "bytes": 2305,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-closed-mesh.md",
+      "sha256": "dfaff9d4dd974cffa393a974a0f474a292d33bb3e6118d4b722d23d261b9ddba",
+      "bytes": 6944,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-prefix-actual-metric-sample.md",
+      "sha256": "0db0c609b016ee4dfa055bdb2587bcf39f2d532c1e7a4b24b3a6c721f9a882a4",
+      "bytes": 5486,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-review-visible-m8-replay-manifest.json",
+      "sha256": "770c2c834a4eb3f3cb3315306a0a33adc08f6d865044e2cd8e29ab4617755f06",
+      "bytes": 5706,
+      "optional_visual": false
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-visible-m8-static-preview.json",
+      "sha256": "b2feb8e3958235394169bc0c3a8faa255831be52b6be39148600b610bae574be",
+      "bytes": 1094,
+      "optional_visual": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-tail-visible-m8-static-preview.png",
+      "sha256": "8d7ef725256128ce40a6d2e77d5a1ea27dbde746605de8de3e9850107004baab",
+      "bytes": 680462,
+      "optional_visual": true
+    },
+    {
+      "file": "scripts/db6f-tail-diagnose-failed-stage.mjs",
+      "sha256": "d46112eb867814128862b276a2775524840dd13ab6692bd6c593279d779fd8a2",
+      "bytes": 14474,
+      "optional_visual": false
+    },
+    {
+      "file": "scripts/db6f-tail-height-alpha-transfer.py",
+      "sha256": "e7ef728b71297917a8fce2c4dff299b7f0661ca045f7aa656e775df0c94b66ef",
+      "bytes": 3051,
+      "optional_visual": false
+    },
+    {
+      "file": "scripts/db6f-tail-moment-positive-floor-probe.mjs",
+      "sha256": "0daac9cb19aa312c55a1817adabab13f06338a6b4a8e9d306da4a000c0bb8670",
+      "bytes": 9748,
+      "optional_visual": false
+    },
+    {
+      "file": "scripts/db6f-tail-render-mesh-check.py",
+      "sha256": "38321f6a3accc99fe4090061ef2cf4104bb041162543578c41397aa3b1dc7305",
+      "bytes": 7496,
+      "optional_visual": true
+    },
+    {
+      "file": "scripts/db6f-tail-review-amplitude-continuation.py",
+      "sha256": "daf7ea24b0511ddbfc4b2ecda39156b1b5863c63c0d8b35b4310ae3c6b5cb85f",
+      "bytes": 13643,
+      "optional_visual": false
+    },
+    {
+      "file": "scripts/db6f-tail-review-closed-mesh.py",
+      "sha256": "f55e52840c165d501548650c7fc7294aa2bd0bb2dee823941029e344fdda814d",
+      "bytes": 11050,
+      "optional_visual": false
+    },
+    {
+      "file": "scripts/db6f-tail-sample-background-height.mjs",
+      "sha256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4",
+      "bytes": 9474,
+      "optional_visual": false
+    }
+  ],
+  "count": 40,
+  "totalBytes": 1493620,
+  "maxBytes": 680462
+}

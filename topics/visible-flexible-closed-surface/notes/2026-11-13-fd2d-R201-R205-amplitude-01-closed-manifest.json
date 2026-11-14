@@ -1,0 +1,217 @@
+{
+  "schema": "fd2d-R201-R205-R206-variable-amplitude-closed-manifest-v1",
+  "date": "2026-11-13",
+  "status": "All eleven small UTF8 artifacts actually committed; complete physical parameter chain plus one true nonlinear accepted step; strong goal not reached",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-R201-R205-full-half-fixed-amplitude-provider.cjs",
+      "bytes": 23398,
+      "sha256": "6183fdfaeb53554e1e61fd36424e768f5fba072a0364f0d1480de67a62d1ace1",
+      "commit": "10a98148d0c7eedb79732239e47aca57311b08b3"
+    },
+    {
+      "path": "scripts/fd2d-R201-R205-half-period-geometric-guide.cjs",
+      "bytes": 8696,
+      "sha256": "6d156bca7a4126f02b8c65226fcc0f5f82910054a40c79ecc11e58b831419bbb",
+      "commit": "c6fbd6ab306236e7759464f12e365916b8d42028"
+    },
+    {
+      "path": "scripts/fd2d-R201-R205-band-border-layout.cjs",
+      "bytes": 14456,
+      "sha256": "636bdea5b19c8334a69ae3ad5adc1cfacd5370d7321905bc1ff5ad32829be82b",
+      "commit": "b3503723c72e4b40c44a75c15154e84a0fd1d3ca"
+    },
+    {
+      "path": "scripts/fd2d-R201-R205-variable-amplitude-provider.cjs",
+      "bytes": 26557,
+      "sha256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+      "commit": "3ebb784d655cd11c458ab18553c5879dfc07b0c5"
+    },
+    {
+      "path": "scripts/fd2d-R201-R205-variable-amplitude-geometric-guide.cjs",
+      "bytes": 8936,
+      "sha256": "27c3a30cb4a454222c9185bf248491b6b1d954e0b3cd11759af10d88852060b7",
+      "commit": "19085ea2b2288c0c127b5f39713b58a896824622"
+    },
+    {
+      "path": "scripts/fd2d-run-R201-R205-variable-amplitude.cjs",
+      "bytes": 6904,
+      "sha256": "8e7eda9e24ef202e0c931efd36ace1d323aa8f37148faeed3fe4409d7716c64a",
+      "commit": "ce093dd42a554446c19c1d18d2dc58e931cca425"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-local-check.json",
+      "bytes": 7656,
+      "sha256": "1bb8d599e9c9a4fb0d0d756d4ba69700d1edfc22749e05e6022725fdabc35029",
+      "commit": "50872b8189fd6ad9757f4abdc37a0643ada1fbbc"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-initial.json",
+      "bytes": 49351,
+      "sha256": "d883e57921c7afb69e6c2b3d6dd9bacd34db3cfcb5bfb175f0d2f96753c5db27",
+      "commit": "6d68ffb92f4999476b045d42514833e3cabff59c"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-checkpoint.json",
+      "bytes": 56896,
+      "sha256": "0da3039577aa99af2f34f91e5adb05ce6d9084b27781775d94949e7285019016",
+      "commit": "d416918c223f613a55ea6302bca5e406defaba32"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-report.json",
+      "bytes": 57547,
+      "sha256": "0b5c1468dc70acfe6f3efe724c3aa582992bd6926aba1b29e26ccc504902e511",
+      "commit": "7010df22a637cbffcafe6dbbcc5f078da4c24806"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-full-half-amplitude-composition.md",
+      "bytes": 10953,
+      "sha256": "320470ede0c7495c221cdb38a9c5fe2e2a6dd2557fdbeda4bf699bfbc7c30fb3",
+      "commit": "dd862199d56df664914d9ddc77772d57f37a1d83"
+    }
+  ],
+  "actual_execution": {
+    "schema": "functions-V8-actual-completion-v1",
+    "cell_id": "g4:74",
+    "completed": true,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null,
+    "seconds": 120.294,
+    "normalSeconds": 93.346,
+    "actualValueEvaluations": 1,
+    "status": "actual_Armijo_accepted",
+    "accepted": true
+  },
+  "actual_result": {
+    "baselineSquaredNorm": 0.05326148205290277,
+    "acceptedSquaredNorm": 0.04230963749874404,
+    "amplitudeBefore": 0.25,
+    "amplitudeAfter": 0.08755616431785693,
+    "alpha": 1,
+    "lambda": 0.0011111111111111111,
+    "fullNormalColumns": 932,
+    "fullNormalRows": 103554,
+    "allOldColumnsRetained": true,
+    "actualNonzeroAmplitudeColumn": true,
+    "originalScaledEquationRelativeResidual": 6.981238897921225e-16
+  },
+  "mathematical_scope": {
+    "R201": "complete half-period phase closure and primitive, no quarter reflection",
+    "R205": "complete developed reference and all twojets; inner cuff height, not outer mean height",
+    "R206": "full fresh scaled normal with original cut-height border and actual appended amplitude column",
+    "continuousRemainderPaid": false,
+    "wholePrefixOrClosedSurfaceCertified": false,
+    "strongTargetComplete": false
+  },
+  "publication": {
+    "mode": "root README section 8 small UTF8 fallback during confirmed unavailable executor; no PAT used in API",
+    "serializedTeamWindow": true,
+    "actualAPI409Count": 3,
+    "everyObserved409FollowedByLiteralPullAttempt": true,
+    "actualPullSucceeded": false,
+    "lastREADMEAPI": {
+      "root": "f787a306d90892d8dec765dc59747d60ba39f055",
+      "topic": "71875538fe72d500277129b7f67d99f89d21c9e0",
+      "notAnActualPull": true
+    },
+    "journal": [
+      {
+        "event": "API_error",
+        "path": "scripts/fd2d-R201-R205-band-border-layout.cjs",
+        "utc": "2026-11-13T02:14:15.541Z",
+        "error": "GitHub API error 409: {\"message\":\"is at f567a4e9dcc17dcbc7274dd1b05a18286918d831 but expected c6fbd6ab306236e7759464f12e365916b8d42028\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}"
+      },
+      {
+        "event": "required_literal_pull_after_409",
+        "utc": "2026-11-13T02:14:15.542Z",
+        "result": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "event": "API_README_only_not_a_pull",
+        "utc": "2026-11-13T02:14:15.893Z",
+        "reads": [
+          {
+            "path": "root README",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topic README",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      },
+      {
+        "event": "retry_failed",
+        "path": "scripts/fd2d-R201-R205-band-border-layout.cjs",
+        "error": "GitHub API error 409: {\"message\":\"is at 8b600bfd23223f16a72d022b97e52049fbe4dbb1 but expected f567a4e9dcc17dcbc7274dd1b05a18286918d831\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}"
+      },
+      {
+        "event": "second_409_immediate_literal_pull",
+        "utc": "2026-11-13T02:14:50.707Z",
+        "result": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "event": "API_read_not_real_pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055",
+            "status": "fulfilled"
+          },
+          {
+            "path": "topicREADME",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0",
+            "status": "fulfilled"
+          }
+        ]
+      },
+      {
+        "event": "API_error",
+        "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-report.json",
+        "utc": "2026-11-13T02:15:24.343Z",
+        "error": "GitHub API error 409: {\"message\":\"is at 0a775a96371846a3064d13512ebe2ab263664acd but expected d416918c223f613a55ea6302bca5e406defaba32\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}"
+      },
+      {
+        "event": "immediate_literal_pull_after_409",
+        "utc": "2026-11-13T02:15:24.344Z",
+        "result": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "event": "API_README_not_pull",
+        "utc": "2026-11-13T02:15:24.973Z",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055",
+            "status": "fulfilled"
+          },
+          {
+            "path": "topicREADME",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0",
+            "status": "fulfilled"
+          }
+        ]
+      }
+    ]
+  },
+  "replay": {
+    "source": "scripts/fd2d-run-R201-R205-variable-amplitude.cjs",
+    "syntaxChecked": true,
+    "OSInvocationExecutedThisSession": false,
+    "actualRun": "functions pure V8 g4:74; same published factory and kernel byte strings"
+  },
+  "preservation": {
+    "fullNormalInFunctionsStore": true,
+    "fullNormalNotUploadedAsSmallText": true,
+    "completeStateAndSourceSufficientToReconstructNormal": true,
+    "unknownOSExitNotInvented": true
+  }
+}

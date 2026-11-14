@@ -1,0 +1,76 @@
+{
+  "status": "CLOSED_INDEPENDENT_SPECTRAL_REVIEW_EXECUTION",
+  "scope": "Static full review, exact arithmetic, synthetic callback interception and unsupported-input rejection only; no BVP integration, candidate, DN, root, RK or flow.",
+  "own_executions": [
+    {
+      "receipt": "47d9b8",
+      "actual_exit_code": 0,
+      "kind": "Read installed SciPy version/path/hash only",
+      "version": "1.17.0",
+      "source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    {
+      "receipt": "0ea5ea",
+      "actual_exit_code": 0,
+      "kind": "Two pure NumPy complex-to-float conversions; both accepted with ComplexWarning",
+      "solver_calls": 0
+    },
+    {
+      "receipt": "861703",
+      "actual_exit_code": 0,
+      "kind": "Pure NumPy object-dtype edge cases; object np.complex128 casts with warning despite isrealobj=True",
+      "solver_calls": 0
+    },
+    {
+      "receipt": "2efabd",
+      "actual_exit_code": 0,
+      "kind": "Pure Fraction dense chain-rule identities and 36 relative-residual inequalities",
+      "solver_calls": 0
+    },
+    {
+      "receipt": "701d6a",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.583449329,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-tail-review-spectral-conjugacy.py",
+        "--module-sha",
+        "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-conjugacy-check.json"
+      ],
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-review-spectral-conjugacy-check.json",
+        "bytes": 3475,
+        "sha256": "b154d3679ce7b44c31239218e9c4d9df008df4990e43976927f61d887417c79c"
+      },
+      "real_scipy_solve_calls": 0,
+      "synthetic_intercepted_reference_calls": 1,
+      "invalid_input_cases": 12,
+      "invalid_input_callback_calls": 0
+    },
+    {
+      "receipt": "c2e6b5",
+      "actual_exit_code": 0,
+      "kind": "Fifteen-source identity, v1-v2 mathematical body and five-function AST comparison",
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-review-spectral-conjugacy-sources.json",
+        "bytes": 4683,
+        "sha256": "27717c0b51343cf009a0b821e17666d9269a4a8c4cf9db8ebadea1796fa91c61"
+      },
+      "solver_calls": 0
+    }
+  ],
+  "author_analytic_BVP_execution": {
+    "independently_replayed_by_this_reviewer": false,
+    "root_reported_receipt": "885818",
+    "root_reported_actual_exit_code": 0,
+    "root_reported_nongeometric_scipy_solves": 2,
+    "report_file": "notes/2026-11-09-db6f-root-spectral-collocation-analytic-check-v2-observed-replay.json",
+    "report_sha256": "682e758be6032aae354a6630306963bcb181a24ffdcc4176f91a507c33cfcda2",
+    "scope": "Read report and complete checker; do not attribute author execution to reviewer."
+  },
+  "v1_preserved": true,
+  "other_agents_frozen_files_modified": false,
+  "git_operations": 0
+}

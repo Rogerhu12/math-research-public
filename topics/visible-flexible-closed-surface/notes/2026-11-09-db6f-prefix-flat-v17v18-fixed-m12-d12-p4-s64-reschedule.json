@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-11-09T05:27:18.810610+00:00",
+  "reason": "After the completed true M12 warm solve, reschedule the unfinished prefix coupling with shared engines and the optional outer true-DN algorithm. This is a computational reschedule, not a branch failure.",
+  "preserved_true_tail": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0001.json.gz",
+  "interrupted_python_pid": 141309,
+  "worker_pid": 141333,
+  "interruption_sent": false,
+  "interruption_result": "The owned process remained running in another command PID namespace. Direct signal did not reach it; opening its worker input was permission denied. No stop was delivered.",
+  "cooperative_stop_queued": false,
+  "reschedule_abandoned": true,
+  "continuing_original_solver": true
+}

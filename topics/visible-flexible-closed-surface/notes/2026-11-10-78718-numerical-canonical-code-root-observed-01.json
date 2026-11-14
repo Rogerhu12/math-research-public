@@ -1,0 +1,34 @@
+{
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "actual_exit_code": 0,
+  "tool_receipt": "fbfe98",
+  "start_tool_receipt": "c5e6d2",
+  "session_id": 86276,
+  "observed_at_utc": "2026-11-10 06:13:18 UTC",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+    "--out",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json"
+  ],
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+      "bytes": 8260,
+      "sha256": "f869c3e17f5ff58577fb43967dc3f7df825144a9a9650e0ca7c5bb4ff6b95762"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+      "bytes": 7876,
+      "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-canonical-code-root-check-01.json",
+      "bytes": 6264,
+      "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+    }
+  ],
+  "scope": "Root actually observed this small checker process exit0; this is not a coupled BVP, candidate success, or final certificate."
+}

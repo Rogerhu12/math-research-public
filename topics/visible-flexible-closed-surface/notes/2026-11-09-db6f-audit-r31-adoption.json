@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FORMAL_R31_ADOPTION_REVIEW",
+  "reviewer": "/root/independent_geometry",
+  "inputs": [
+    {
+      "path": "results/R31-finite-rational-support-certificate-completeness.md",
+      "bytes": 14552,
+      "sha256": "a1a9e6e2a4aa647de805b98de40703c31233de25d96200f80c9c2a9f5a2a3a90"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-v2.md",
+      "bytes": 12944,
+      "sha256": "7c70b4b7fed7a8b9077dfd2c372b8cbd8d2bae8c097b93923d9df54f8512a1b2"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-euclidean-support-completeness-review-v2.md",
+      "bytes": 10148,
+      "sha256": "8c81f293cea99baecd8d82395be2a1e575c4754067b8c4bc34aa6ce45ab2cc8d"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-r31-adoption-check.json",
+      "bytes": 5171,
+      "sha256": "3a3ee162e5e24e5ff1308b78a41022f50236b6297e89baefdda36d38739022b5"
+    }
+  ],
+  "formal_sections_1_7_exact_except_one_separator_LF": true,
+  "copied_body_sha256_without_trailing_LF": "d109dbf18fafd13f5d369cc1d51c8b8755ac65976b27daffe9a59e3d8f593903",
+  "author_body_bytes": 12063,
+  "formal_body_bytes": 12064,
+  "root_source_binding_count_independently_verified": 14,
+  "all_bound_files_hashes_and_byte_counts_passed": true,
+  "formal_current_review_reference_is_corrected_v2": true,
+  "historical_broken_review_not_used_as_current_review": true,
+  "identity_wording_revision": {
+    "earlier_formal_sha256": "c549774fbc89ec5eb7ed88e07ff1ca2e3d558c7ebc0773a0acad13ae7313e48a",
+    "exactly_two_prose_replacements": true,
+    "reverse_replacements_recover_earlier_full_file_sha256": true,
+    "new_label": "独立审查者",
+    "reason": "Avoid implying that the reviewer had never performed any prior independent candidate certificate computation; independence from this certificate proposal/implementation and candidate optimization remains accurately described."
+  },
+  "header_and_section8_scope_pass": {
+    "convex_hull_gap_condition_preserved": true,
+    "effective_oracle_condition_preserved": true,
+    "semidecision_not_full_decision": true,
+    "no_current_surface_lower_bound_claim": true,
+    "no_new_fixed_g_candidate_reach_G5_or_final_replay_claim": true,
+    "component_history_and_later_full_review_distinguished": true
+  },
+  "formal_control_characters_except_LF": 0,
+  "formal_tabs": 0,
+  "formal_CR": 0,
+  "mathematical_proof_changes": false,
+  "actual_candidate_files_read": false,
+  "new_solver_search_or_math_backend_runs": 0,
+  "old_frozen_files_modified": false,
+  "git_handoff_log_results_mutations_by_reviewer": false
+}

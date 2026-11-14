@@ -1,0 +1,106 @@
+{
+  "status": "SOURCE_AND_REAL_PREPARATION_COMPARISON_PASS",
+  "scope": "No object/solver/install. Old 3 sources unchanged; explicit new identity only. Not a future positive result.",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+      "bytes": 17329,
+      "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-release-lu.py",
+      "bytes": 20496,
+      "sha256": "2db1fe8b9171c3d9a7a4ac0d11311cff8daec1aa36bb8cd91130148903070ed0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14.py",
+      "bytes": 8709,
+      "sha256": "de3ce21bdc49880a7057a7e3fdd1737a18cc23f5b5a5ffce44b4b881fab5d7ff"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+      "bytes": 9757,
+      "sha256": "2018226a193294d7791492ec44d595e19ae004079ae717eb5557db249a21949c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+      "bytes": 22244,
+      "sha256": "1aa5e53985b5574dee68a032aa84ac47aa43e9aa8bd185b4af8650b618dcf0fa"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-release-lu.py",
+      "bytes": 25074,
+      "sha256": "ee0d6aeadc4cfbe25ef4788581cebf81d5a50cfdb77b9a47f83d9d6df3071989"
+    }
+  ],
+  "AST_checks": [
+    {
+      "function": "expected_config",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "expected_parser_argv",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "without_io",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "equal",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "module",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "write_json",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "runtime_callbacks",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "runtime_original_newton",
+      "status": "same_old_gate_AST_after_name_only"
+    },
+    {
+      "function": "check_packet",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "polynomial_endpoint",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "main",
+      "status": "unchanged_AST"
+    },
+    {
+      "function": "check_outputs",
+      "status": "same_AST_except_declared_identity_strings"
+    },
+    {
+      "function": "first_packet",
+      "status": "same_AST_except_declared_identity_strings"
+    }
+  ],
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+    "bytes": 71499,
+    "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+  },
+  "new_binding_count": 117,
+  "preserved_original_callback_count": 21,
+  "additional_runtime_identity_callback_count": 3,
+  "same_settings_weights_seed_own_tail_and_frozen_fields": true,
+  "diff": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-release-lu-source.diff",
+    "bytes": 23098,
+    "sha256": "e886192674b9b53cae602eb5a408ea7fbb2a69cd66656894bc637dc466f4bd47"
+  },
+  "actual_solver_calls": 0,
+  "actual_install_calls": 0
+}

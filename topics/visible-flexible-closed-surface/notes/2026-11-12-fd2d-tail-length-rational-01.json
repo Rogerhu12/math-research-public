@@ -1,0 +1,60 @@
+{
+  "schema": "fd2d-tail-length-rational-v1",
+  "source_sha256": "786dcd72e29399b78ad99ab17b9e2553cb1ee688bc2135a2cf9fd9c0827fb04b",
+  "config_file": "2026-11-12-fd2d-ellipse-cuff032-cut04-config.json",
+  "config_sha256": "1ce47e6f66d67e41d9d5f5e837f5d516766d101492648faadb6f989ef33558ee",
+  "proof_file": "2026-11-12-fd2d-geometry-tail-length-necessary-bound.md",
+  "scope": "Rational comparisons for the cuff .32 / cut .4 tail-length lemma.\n\nThe accompanying proof bounds the exact profile, including its unchanged\ninfinite source.  No quadrature value is promoted to a rigorous interval.\nThe input is the intended monotone radial construction with a positive exact\nwarp normalization and the existing deep calibration bracket [1/2, 2].\nThis calculation does not certify that normalization, a nonlinear tail map,\nor a closed surface.\n",
+  "assumptions": [
+    "Exact positive monotone radial warp with the stated source and cut/cuff endpoints.",
+    "Unchanged n>=160 source uses the existing exact calibration bracket [1/2,2].",
+    "The actual surface, if supplied, obeys the same material metric and a constant cuff height."
+  ],
+  "comparisons": {
+    "actual_binary_radial_width": {
+      "numerator": "1441151880758559",
+      "denominator": "18014398509481984",
+      "display": 0.08000000000000002
+    },
+    "cut_restore_exponent_upper": {
+      "numerator": "10903823402923138852179253429429875",
+      "denominator": "8993058158982321452614819642209206272",
+      "display": 0.001212471131639723
+    },
+    "slope_upper_from_geometric_series": {
+      "numerator": "899305815898232195182983113697394688",
+      "denominator": "8982154335579398313762640388779776397",
+      "display": 0.10012139430024858
+    },
+    "simple_global_slope_upper": {
+      "numerator": "50061",
+      "denominator": "500000",
+      "display": 0.100122
+    },
+    "unchanged_deep_slope_upper": {
+      "numerator": "5",
+      "denominator": "7588550360256754183279148073529370729071901715047420004889892225542594864082845696",
+      "display": 6.588873714519077e-82
+    },
+    "strict_length_upper": {
+      "numerator": "201",
+      "denominator": "2500",
+      "display": 0.0804
+    },
+    "pi_lower": {
+      "numerator": "708607128199708048393316197825100944557230988",
+      "denominator": "225556654326271834214309451711177825927734375",
+      "display": 3.141592653589793
+    },
+    "strict_material_cosine_coefficient_upper": {
+      "numerator": "102369",
+      "denominator": "1000000",
+      "display": 0.102369
+    }
+  },
+  "passed": true,
+  "finite_quadrature_used": false,
+  "warp_normalization_certified": false,
+  "nonlinear_tail_certified": false,
+  "full_core_geometry_certified": false
+}

@@ -1,0 +1,130 @@
+{
+  "schema": "fd2d-closed-publication-batch-v1",
+  "utc": "2026-11-12T23:04:48.920843+00:00",
+  "base_commit": "c888afab1e87be5c7a75c0688fc686fceae59aba",
+  "closed_group_manifests": [],
+  "files": [
+    {
+      "path": ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+      "bytes": 1437,
+      "sha256": "bba1794ddee07cdaf9674014168135019ef521c348ad71300aa8c541d306725c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 62404,
+      "sha256": "9cb113e79f1bcd5e5a02ed4a5dc21aed76526ba827b5c45e47912a54b225e8ad"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+      "bytes": 2722,
+      "sha256": "91e1a4c089211cc66b9c2dba085766dcf09b76e2d35ce4cb2dd01c092c236dcc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-01.json",
+      "bytes": 22872,
+      "sha256": "531a87b1b4e82d4818eefadaf81c3d7c8827c6b85f096ba041944a9247691155"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+      "bytes": 38927,
+      "sha256": "b30236a681fdd4329386583a98e740ff2d281f853d9873835f093228129bafab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-R187-LM-02-terminal-receipt.json",
+      "bytes": 536,
+      "sha256": "aee3965947adc274f569df3f4560b14e3f231a295b1c0c6caf0de5ff41df8601"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-direct-position-two-jet-local-01-report.json",
+      "bytes": 15015,
+      "sha256": "8aaae76d66a40fd27b1c97dede43d1c06a24cce403d0270bb424523ae1bd3f87"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-handoff-local-before-third-return.md",
+      "bytes": 9756,
+      "sha256": "878fa121c78f1a5c1f246b5047582d4a163edd87adc302746c75bbad98f288b3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-retired-normal25-33-metadata-compression-02.json.gz",
+      "bytes": 58850,
+      "sha256": "10c5c5addd377732b45359e0ff3d5ac1e550574a08fcffc6cb28a3c45321aec8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-third-return-duplicate35-retirement.json",
+      "bytes": 12750,
+      "sha256": "6236841ebfff1d42f10655c30b75ec24bc6b24d1b54b0797b2532e6abb636530"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-third-return-main-text-reconciliation.json",
+      "bytes": 20979,
+      "sha256": "2bd4e8560e4ca443a3bc711ce22210be82ee4e5d1b014af8820d491e80349c06"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-twentysecond-batch-main-receipt.json",
+      "bytes": 1287,
+      "sha256": "8e0dab38cd7c922693cda5f3c4b023002d42f4307eb84c8d1a47a3f320ceb2f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-twentythird-position-publication-plan.json",
+      "bytes": 1370,
+      "sha256": "24e434d13c7f9dd1941b52056fc50ea99b1ec47e1e5e43421cdf82564f474fc8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 7488,
+      "sha256": "3a955291dca25e3c2b58ee73e0ebf97e144420dad327ce5f0e62ec93309c4adc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "bytes": 71677,
+      "sha256": "c8339d963097b0d842d5af2f1134210ea2ef7588fa73421fff7dbce795ca25c3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-check-direct-position-two-jet-R187.cjs",
+      "bytes": 3880,
+      "sha256": "f4194427f7496f5ac1ad91ae633b038911f7d58b67cdb9349e5fddd0c0cd4d5b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-lm-run-R187.cjs",
+      "bytes": 3450,
+      "sha256": "a2215efbbea214593d22228441e3d8e128f8ca0c904413ad9c890cff12e7fa45"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-two-jet-geometry-R187.cjs",
+      "bytes": 10453,
+      "sha256": "f4e84afd9699c275e7e0dc1658cff4971691125f0afaad0eab602c30b93738f0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+      "bytes": 5010,
+      "sha256": "98f64d4551ec2ae0c8dd8be5916f76ad5977d8ba6469b25dc52cbd820e2d0577"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+      "bytes": 4373,
+      "sha256": "d3b04dcb67e0a5ef37b0d1e25002ec7a0f2736f83c2722266ade1f64b5b288e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_rebase_checkpoint.py",
+      "bytes": 9328,
+      "sha256": "92d37b88c05a7b146d879773282987496148c3f231c1fee15df8ff770bd45325"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py",
+      "bytes": 8154,
+      "sha256": "9b70cf65aa3bde7315b4bfe761721c81e501d9a9c8815e8861535597d8926fda"
+    }
+  ],
+  "excluded": [
+    "Unfinished legacy group 23 is being reconciled separately",
+    "Regenerable normal matrices",
+    "Intermediate progress duplicate of final report",
+    "HANDOFF hash refreshed after every literal pull"
+  ],
+  "scope": "Actual 181-parameter direct-position finite LM, complete two-jet consumer, recovered rule checkpoint; strong goal remains open"
+}

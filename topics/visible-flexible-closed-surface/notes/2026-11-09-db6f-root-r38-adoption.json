@@ -1,0 +1,74 @@
+{
+  "status": "ROOT_ADOPTED_FULLY_REVIEWED_R38",
+  "recorded_utc": "2026-11-09T19:52:34.489144+00:00",
+  "reviewed_sources": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar-publication.json",
+      "bytes": 666,
+      "sha256": "603b100deacbc2674ba658dc7483f901bd1e86cc7a15a155fc5fd2580e775b6d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+      "bytes": 19568,
+      "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-ck-local-isometric-collar-sources.json",
+      "bytes": 4062,
+      "sha256": "575fcc2c123ad7e39f06085939c59ff1a1fe67843e68c235f5f50cedb27e1e66"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-36.json",
+      "bytes": 1402,
+      "sha256": "5ef1fc80d9dfde87b1caac46d08fe68612a6e8948cc8d98c9f565977d1eb919b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-ck-local-isometric-collar.py",
+      "bytes": 9714,
+      "sha256": "a6cc998ca71dd51283914d0e9ca164897366a9b5605652d4be7d0d6693b9781d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-check.json",
+      "bytes": 5289,
+      "sha256": "d39ffb492df931010320af1e130e48e6bee4d6dd5ea222acc8c7ab5fbb3b07f1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar.md",
+      "bytes": 13405,
+      "sha256": "85582515d89de88f21dd1371b7fc54d2e7db7845da99c966ba84754481e0e142"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-sources.json",
+      "bytes": 3432,
+      "sha256": "a940dc04386a8e56c6c905f2e63b582c694f12d2cfb7aca82c24a7f2dbb847f7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-observed.json",
+      "bytes": 1188,
+      "sha256": "0633aff9e89a7a74e20129c7d2183f5df2aa14e5d75f8ec48990555da3d053c3"
+    }
+  ],
+  "formal_result": {
+    "path": "topics/visible-flexible-closed-surface/results/R38-ck-local-exact-isometric-collar.md",
+    "bytes": 20176,
+    "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1"
+  },
+  "mathematical_sections_1_to_8_byte_exact": true,
+  "section_9_only_review_status_updated": true,
+  "external_theorem_root_checked": {
+    "author": "Tsogtgerel Gantumur",
+    "title": "Math 580 Lecture Notes 2: The Cauchy-Kovalevskaya Theorem",
+    "date": "2011-10-03",
+    "theorem": "18",
+    "pages": "9-10",
+    "url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/notes2.pdf",
+    "retrieval_refs": [
+      "turn70view0",
+      "turn70view1"
+    ],
+    "pdf_saved_or_rendered": false
+  },
+  "root_is_independent_proof_reviewer": false,
+  "independent_full_reviewer": "tail_theory",
+  "scope": "Exact local common-metric collar, unquantified width only; no closed extension or G5."
+}

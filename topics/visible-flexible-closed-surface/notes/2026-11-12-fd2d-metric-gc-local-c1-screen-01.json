@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-gc-actual-local-hermite-screen-v1",
+  "scope": "Define and screen one saved actual intrinsic stage, without reintegration.\n\nThe saved DOP853 stage has two endpoint states. Their reevaluated finite RHS\nvalues are explicitly chosen as defining shared first jets of a NEW cubic\nHermite field. They are not mislabeled as the unavailable DOP853 interpolant\nderivatives. This is a local representation/residual diagnostic only.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-local-hermite-screen.py",
+    "bytes": 4857,
+    "sha256": "889fd00d97a4d75a5140c73205bc20303cd672651daf9063bd9f28d0d61fb432"
+  },
+  "field_provider": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_shared_hermite_field.py",
+    "bytes": 9726,
+    "sha256": "cc8d2802a0ebb0951c87a9ac309137ba7160749e1e31cc349c30bd124ea9df9c"
+  },
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gc-local-c1-field-01/field.json",
+    "bytes": 3641,
+    "sha256": "179501d375a1e2714424562355f2c7beec40a1753f0811bcfe0280db2dfda5db"
+  },
+  "radial_domain": [
+    0.5299999999999994,
+    0.5302999999999993
+  ],
+  "angle_count": 1024,
+  "radial_sample_count": 17,
+  "actual_endpoint_value_representation_difference": 0.0,
+  "actual_endpoint_first_jet_representation_difference": 1.3010426069826053e-18,
+  "minimum_n_sample": 0.3458020164030087,
+  "maximum_Rn_sample": 0.03433103820946874,
+  "maximum_Rm_sample": 0.4756056854130467,
+  "maximum_residual_norm_sample": 0.47560581572531413,
+  "cleared_numerator_Rn_difference": 2.298847418848171e-18,
+  "cleared_numerator_Rm_difference": 5.637851296924623e-18,
+  "initial_frame_compatibility_bound_provided": false,
+  "continuous_residual_certified": false,
+  "complete_target_prefix": false,
+  "closed_surface": false
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "fd2d-actual-accepted-packet-inventory-v1",
+  "manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-trial-recovery02-work/accepted-values/manifest.json",
+    "bytes": 156105,
+    "sha256": "9dba42bb14a8c705c7c15acdb1f28476f30614a5b192dddbba970cf18bebfd1d"
+  },
+  "parts": [
+    {
+      "name": "part-0000.npz",
+      "bytes": 441633,
+      "sha256": "931ea12543b2e1fd634123ed94fdeb7ea20adbc26313a353c6513d2fa353602a"
+    },
+    {
+      "name": "part-0001.npz",
+      "bytes": 634574,
+      "sha256": "967c45f139f993b6e49d74c6385db9668ed1e393af2e80c1b7dba6979a981130"
+    },
+    {
+      "name": "part-0002.npz",
+      "bytes": 628291,
+      "sha256": "cfcf597473a695ae86fadb201bd5dee7e493367eb34fbcaedd6f50941af778fb"
+    },
+    {
+      "name": "part-0003.npz",
+      "bytes": 573952,
+      "sha256": "d68e8ac3a6cb69ddddf67b4ab30c325270e12f52b626a41002b588ef5370d6c5"
+    },
+    {
+      "name": "part-0004.npz",
+      "bytes": 162301,
+      "sha256": "0a9f0992a96d0f86a0be059e3201fa377db8ddd8595d9621e46143c6a08cb176"
+    },
+    {
+      "name": "part-0005.npz",
+      "bytes": 643502,
+      "sha256": "35b9dd7dc6e230b8acb42d67cbaef6e028eaf07b13cd6a50c8d0f9c0b0e1e51e"
+    },
+    {
+      "name": "part-0006.npz",
+      "bytes": 297955,
+      "sha256": "ba6ebec64d04e8b64b4df2b00ce513df5c746cd1633dbe4f9db162d4752d9537"
+    }
+  ],
+  "complete_local_packet_preserved": true,
+  "full_packet_not_necessary_for_next_initializer": true
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "fd2d-fourth-environment-loss-checkpoint-v1",
+  "observedUnavailableNoLaterThan": "2026-11-12T23:20:47Z",
+  "latestActualTerminalMainPublication": {
+    "commit": "73293e2f2ff7711a327e164964ef81da2fac1a2c",
+    "files": 25,
+    "bytes": 395917,
+    "lastActualPullRead": "8173ff2707ff2aa1371dbf69045d846e90ae4965",
+    "lastActualPullReadUTC": "2026-11-12T23:05:00Z",
+    "bothReadmeDiffsEmpty": true,
+    "pushAttempts": 1,
+    "pushSeconds": 7.205567401004373
+  },
+  "source": "/workspace/scratch/fd2d-recovered-20261112/math-research",
+  "publisher": "/tmp/fd2d-math-research-publish-isolated-23",
+  "sourceDiskLost": false,
+  "sourceDiskLostComment": "Unavailability does not establish disk loss. Inspect original paths and hashes first after restoration.",
+  "unpublishedLegacyGroups": {
+    "originalFourGroupsVerifiedFiles": 104,
+    "verifiedBytes": 13564544,
+    "verificationChunk": "9ca5c0",
+    "verificationExit": 0,
+    "groups": [
+      "signed36-branch-baselines-closed-manifest.json",
+      "r181-b32-computable-entry-closed-manifest.json",
+      "profile-design-extension-R183-publication-closed-manifest.json",
+      "signed36mid-normal-transport-failure-01-closed-manifest.json"
+    ],
+    "R182TenItemGroup": "Original artifacts-schema group still awaits wrapper; original native/Arb output files were observed on disk but not published",
+    "normal36": "No rescue or new normal tile started in this return. Original first raw tile remains the checkpoint."
+  },
+  "storage": {
+    "onlyByteIdentical35DuplicatesRemoved": 35,
+    "duplicateBytes": 21624724,
+    "otherIdenticalCopiesPreserved": true,
+    "oldRetired25to33MetadataCompressed": 537,
+    "rawBytes": 311735058,
+    "gzipBytes": 21927207,
+    "allCompressedCopiesVerified": true,
+    "unique25And28CapsulesUntouched": true,
+    "active34to36Untouched": true,
+    "metadataInventoryAlreadyMain23": true
+  },
+  "actualUnpublishedNodeComputations": [
+    {
+      "report": "notes/2026-11-12-fd2d-direct-position-R187-gap064-LM-01-report.json",
+      "finalChunk": "9cdc7a",
+      "exit": 0,
+      "steps": 24,
+      "R2": 0.006648705912948612,
+      "maxSampleMetric": 0.41914154568897466,
+      "minSampleImmersion": 0.658913788270237,
+      "cutZ": 0.5020706495543763,
+      "recipe": {
+        "options": {
+          "radialBasisCount": 12,
+          "modes": 7,
+          "angles": 64,
+          "gap": 0.64
+        },
+        "initialVector": "181 exact zero coefficients",
+        "initialLambda": 0.001,
+        "driver": "scripts/fd2d-direct-position-lm-run-R187.cjs"
+      }
+    },
+    {
+      "report": "notes/2026-11-12-fd2d-direct-position-R187-J27-K15-LM-01-report.json",
+      "finalChunk": "38f448",
+      "exit": 0,
+      "steps": 16,
+      "R2": 0.00004881499024117088,
+      "maxSampleMetric": 0.04095461432757197,
+      "minSampleImmersion": 0.961530279938693,
+      "cutZ": 0.7370024466539399,
+      "recipe": {
+        "parent": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+        "prolongation": "R189 J12 to27, K7 to15, angles64 to128, unchanged physical metric and boundary seed",
+        "initialLambda": 0.001,
+        "driver": "scripts/fd2d-direct-position-lm-run-R187.cjs"
+      }
+    },
+    {
+      "reports": [
+        "notes/2026-11-12-fd2d-designed-metric-R190-gap005-LM-01-report.json",
+        "notes/2026-11-12-fd2d-designed-metric-R190-gap005-LM-02-report.json"
+      ],
+      "exit": 0,
+      "steps": [
+        24,
+        32
+      ],
+      "recipe": {
+        "parent": "notes/2026-11-12-fd2d-direct-position-R187-LM-02-report.json",
+        "injection": "Append twelve exact zero rho coefficients to saved181 vector",
+        "initialLambda": 0.001,
+        "radiusCoefficientBound": 0.4,
+        "driver": "scripts/fd2d-direct-position-designed-lm-run-R190.cjs",
+        "providerSHA256": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb"
+      },
+      "finalR2": 0.000010079175290329194,
+      "finalMaxSampleMetric": 0.009537179564065634,
+      "finalCutZ": 0.5386413105597461,
+      "finalMaxAbsRho": 0.13315031383125145
+    },
+    {
+      "report": "notes/2026-11-12-fd2d-designed-metric-R190-gap064-LM-02-report.json",
+      "exit": 0,
+      "steps": 32,
+      "recipe": {
+        "parent": "Unpublished R187 gap064 step24 report above",
+        "injection": "Append twelve exact zero rho coefficients",
+        "initialLambda": 0.001,
+        "radiusCoefficientBound": 0.4,
+        "driver": "scripts/fd2d-direct-position-designed-lm-run-R190.cjs",
+        "providerSHA256": "cc45895fcf75972ee4339e5b86da70aaa589cb6491b2dbb29da26f1409771abb"
+      },
+      "finalR2": 0.0028661517148728614,
+      "finalMaxSampleMetric": 0.2787787212457624,
+      "finalCutZ": 0.39937772174080727
+    }
+  ],
+  "recoveryPolicy": "Prefer original completed reports and states if restored. Only regenerate when original artifacts cannot be recovered; name the new runtime and artifacts honestly. Earlier true values and source SHA do not establish an unobserved report byte identity.",
+  "R190CorrectedSources": "Exact provider cc45895f and actual checker06a477 recovered to main; mathematical proof recovered as a new complete text. Actual kernel and finite runs summarized in R190-fourth-loss-execution-summary.json.",
+  "R189AndR188": "Original executed sources and complete proofs/small recovery summaries are separately preserved by their owners; original full reports remain identified as unpublished.",
+  "pendingRootWriter": {
+    "functionsCell": "35",
+    "action": "R190 local proof write then results-index insertion",
+    "outcome": "Owner terminated functions cell after repeated waits returned running during unavailable environment",
+    "localWriteCompletionUnknown": true,
+    "osExitNotInferred": true,
+    "mathematicalComputationWasNotThisWriter": true
+  },
+  "proofAndDataStatus": "Strong target remains open. No full metric certificate, finite-field convergence certificate, curvature/reach certificate or final closed meshes is claimed for the new fields."
+}

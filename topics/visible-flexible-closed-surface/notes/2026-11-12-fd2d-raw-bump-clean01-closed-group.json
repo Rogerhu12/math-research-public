@@ -1,0 +1,40 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "utc": "2026-11-12T12:16:50.492663+00:00",
+  "actual_session": 49493,
+  "completion_chunk": "5d3f29",
+  "actual_exit_code": 0,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-clean-check.py",
+      "bytes": 5944,
+      "sha256": "50bf8b3def7cf705d748b291d81c5542d1c076ecd5f1ae5952121402f3e7d498"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_residual_locations.py",
+      "bytes": 2654,
+      "sha256": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-clean01-warm.npz",
+      "bytes": 39309,
+      "sha256": "aa8046eec9da82f70fe89964d7553ab9691e1b2f0000719c2e6b19c1d043454f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-clean01-report.json",
+      "bytes": 24987,
+      "sha256": "f52ae922bb7bf36ed135a5057632acb62d991958c5bb4ae5357865e0088afc94"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-clean01-process-receipt.json",
+      "bytes": 763,
+      "sha256": "726be5c1c2cf9e9e4d6f169fa594a7b0dc0c62df78a7af3069cec22503442a07"
+    }
+  ],
+  "scope": "Explicit finite representation repair and analytic derivative check; no BVP success claim."
+}

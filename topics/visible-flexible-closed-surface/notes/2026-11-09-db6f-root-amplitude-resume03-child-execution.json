@@ -1,0 +1,50 @@
+{
+  "status": "CHILD_COMPLETED_AWAITING_ROOT_TOOL_OBSERVATION",
+  "binding": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+  "binding_sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py",
+    "--source-root",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "--config",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+    "--target-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03",
+    "--initial-scale",
+    ".25",
+    "--initial-step",
+    ".015625",
+    "--maximum-step",
+    ".2",
+    "--minimum-step",
+    ".000244140625",
+    "--max-attempts",
+    "64",
+    "--node-heap",
+    "1536",
+    "--resume-checkpoint",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0015.json.gz",
+    "--resume-scale",
+    ".96875"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "stem": "2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03",
+  "wrapper_sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd",
+  "minimum_free": 536870912,
+  "resume_free": 805306368,
+  "poll_seconds": 2.0,
+  "events": [
+    {
+      "event": "started",
+      "elapsed_seconds": 0.0006706720014335588
+    }
+  ],
+  "numerical_inputs_or_argv_changed": false,
+  "tool_exit_observed_by_root": false,
+  "child_pid_and_process_group": 5,
+  "actual_child_exit_code": 0,
+  "seconds": 13731.915735162009
+}

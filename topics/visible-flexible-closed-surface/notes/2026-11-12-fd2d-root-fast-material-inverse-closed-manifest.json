@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-closed-actual-numerical-evaluator-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_fast_material_inverse.py",
+      "bytes": 4169,
+      "sha256": "0d009496804f30e1888c9964070e9667051579710d1cadf3e45c09db6c6a27c5"
+    },
+    {
+      "path": "scripts/fd2d-root-fast-material-inverse-check.py",
+      "bytes": 5061,
+      "sha256": "378150ff5767570ec8d6eaccd78d3a212fbc9cbd8ad0005cfe9fec52129a556c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-fast-material-inverse.md",
+      "bytes": 3030,
+      "sha256": "670498e46187f6d3dc3682361c917f41eb6b9f810d3dbd0dbbda6cea2c8244af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-fast-material-inverse01-exit.json",
+      "bytes": 866,
+      "sha256": "b1074e035fc75f72686023ce95ae78a0dc9799e6976b1f4cafa37061af6a12ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-fast-material-inverse02-exit.json",
+      "bytes": 871,
+      "sha256": "703c97ec2ba41d8f387e31a16209eb560cf33ac7d8b62f9dd046bcb63c50d7a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-fast-material-inverse02-report.json",
+      "bytes": 9144,
+      "sha256": "c662a7f75910b5957d0de52d3c27f3d0b7b58745dad8ec6f91f01e038f34ce0c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-fast-material-inverse02-samples.npz",
+      "bytes": 33640,
+      "sha256": "9e8e4478ea1c3cda7e869283bfc50c144d8fcdb8bc78b038c395205f5fbb5798"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-root-fast-material-inverse01-console.txt",
+      "bytes": 2549,
+      "sha256": "66ab0aeba6501c353c5185c2aba245e030f0f2291cd9b972ec9c62c47e7a100e"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-root-fast-material-inverse02-console.txt",
+      "bytes": 1094,
+      "sha256": "7c86016c821395d9d993a91ac9f5eba4e4ade4b3d5092b082ec7268720a44010"
+    }
+  ],
+  "actual_exit_codes": [
+    1,
+    0
+  ],
+  "physical_field_changed": false,
+  "full_chart_and_original_tolerance_preserved": true,
+  "input_field_sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc",
+  "scope": "Finite numerical inverse comparison, not a BVP or continuous geometry certificate"
+}

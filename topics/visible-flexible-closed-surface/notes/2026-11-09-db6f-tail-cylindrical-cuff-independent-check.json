@@ -1,0 +1,178 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_SCALAR_AND_CARTESIAN_IDENTITY_AUDIT",
+  "script_sha256": "dff12114ea3ba21c6cf6b4f14268694bc02eb3b968931f05051400502600fae7",
+  "source_file_count": 16,
+  "sources": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 19628,
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+    },
+    {
+      "path": "scripts/db6f-audit-cylindrical-cuff-interface.py",
+      "bytes": 5544,
+      "sha256": "b2a1d8bd026740805147d2748dc901237dbfaa8b318b69ab91fd7c3f3bee80db"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-sources.json",
+      "bytes": 2302,
+      "sha256": "8727f6a9b9e4954e1abbefa1bff46050b0c81cd72523bbfbd081fb58e458add7"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-publication.json",
+      "bytes": 1532,
+      "sha256": "f2b15f65007c88d864625bd44dcbe49458da0ce5434797caac43fde09667b547"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-cylindrical-cuff-interface-replay.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface-observed-replay.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-observed-execution.json",
+      "bytes": 1536,
+      "sha256": "496935951cb781dd9dc61cf9aa69cfccd558530e6ce474142a4ba158ba1e3c52"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+      "bytes": 19568,
+      "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar.md",
+      "bytes": 13405,
+      "sha256": "85582515d89de88f21dd1371b7fc54d2e7db7845da99c966ba84754481e0e142"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.md",
+      "bytes": 4616,
+      "sha256": "0b3ad1fcdf31af4653547ae5d9d2bba520096210887f5ff24adf4f1ed7a2531f"
+    }
+  ],
+  "source_bytes_unchanged_at_completion": true,
+  "original_script_replay_byte_identical": true,
+  "independently_rebuilt_exact_report_fields": 26,
+  "cartesian_all_angle_identities": [
+    {
+      "cap_vertical_sign": 1,
+      "identity": "cross_product_squared",
+      "zero_difference": true,
+      "monomials": 5
+    },
+    {
+      "cap_vertical_sign": 1,
+      "identity": "distance_squared",
+      "zero_difference": true,
+      "monomials": 6
+    },
+    {
+      "cap_vertical_sign": 1,
+      "identity": "p_backward_ray_dot",
+      "zero_difference": true,
+      "monomials": 4
+    },
+    {
+      "cap_vertical_sign": 1,
+      "identity": "q_backward_ray_dot",
+      "zero_difference": true,
+      "monomials": 4
+    },
+    {
+      "cap_vertical_sign": -1,
+      "identity": "cross_product_squared",
+      "zero_difference": true,
+      "monomials": 5
+    },
+    {
+      "cap_vertical_sign": -1,
+      "identity": "distance_squared",
+      "zero_difference": true,
+      "monomials": 6
+    },
+    {
+      "cap_vertical_sign": -1,
+      "identity": "p_backward_ray_dot",
+      "zero_difference": true,
+      "monomials": 4
+    },
+    {
+      "cap_vertical_sign": -1,
+      "identity": "q_backward_ray_dot",
+      "zero_difference": true,
+      "monomials": 4
+    }
+  ],
+  "independent_topological_premises": {
+    "horizontal_radius_lower": {
+      "numerator": "3721468480813480792164803196098691463094688879",
+      "denominator": "2896511674831826157909136833749581250000000000"
+    },
+    "height_upper": {
+      "numerator": "499413810824001216403171985579122777529",
+      "denominator": "1590733478037657874993896930713546301000"
+    },
+    "R_lower_greater_than_one": true,
+    "V_upper_less_than_two_fifths": true,
+    "cap_latitude_V_over_R_less_than_two_fifths": true,
+    "cuff_latitude": {
+      "numerator": "1",
+      "denominator": "1"
+    }
+  },
+  "strict_margins": {
+    "same_side_squared_above_79_over_1000_squared": {
+      "numerator": "33461112478590542228175570477678335637377995736238131057382969656457365650477040125987095922404670346340244079539230000847159777291102245459837065153309121199643065631",
+      "denominator": "494157136038943199902709111657879160949524462786368471845363054416390452927450417816646001410889218213242716253395161349145984304500689462964777660390758441884379025000000"
+    },
+    "opposite_squared_above_radius_squared": {
+      "numerator": "92849902466681215078834160252972630340819451331302279262596694578595511526576754108919499535207458564634291945156041790954456638042798793488726218461989510001907634584759916",
+      "denominator": "15815932748639954781744773853643977999337798924338094699418279614558350995057219312298439805600604971929743310550786239289200152364802436373303564900855782356110274172175390625"
+    },
+    "smallest_cross_gap_above_two_tau": {
+      "numerator": "4999",
+      "denominator": "1000000"
+    }
+  },
+  "limitations": [
+    "Scalar and identity audit does not numerically prove the separate analytic CK argument.",
+    "All-pair bounds cover only specified retained pieces, not any unknown connector.",
+    "Positive-support topology obstruction additionally requires the separating-circle layout.",
+    "Analytic endpoint obstruction requires an analytic germ and connected analytic mother map.",
+    "No current candidate, solver, DN, RK, BVP, optimization, or geometry backend was used."
+  ]
+}

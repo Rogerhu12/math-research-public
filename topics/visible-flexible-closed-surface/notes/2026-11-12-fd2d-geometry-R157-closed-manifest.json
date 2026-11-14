@@ -1,0 +1,49 @@
+{
+  "schema": "fd2d-R157-low-curvature-terminal-reference-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R157-low-curvature-positive-terminal-reference.md",
+      "sha256": "100b1b3b0fcb435672f83074d6e29d8be1041313af09aa0cef5c0b976b4608ff",
+      "bytes": 7933,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_terminal_rank_one_reference.py",
+      "sha256": "edae03a13f19347c33258a089bec27738d9aaae5fd76619b28ad698e6d9abd98",
+      "bytes": 2770,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-terminal-rank-one-reference-check.py",
+      "sha256": "3137d6b62c52cc694c18a4c0d5200eb3964592ae6a4a645a0aec3fae9d388bcc",
+      "bytes": 4093,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-rank-one-reference-check-01.json",
+      "sha256": "a19b25aa342742c01cb2a73459ee5c6b24548e8300ce066ff0846ddff87b05d2",
+      "bytes": 1757,
+      "closed": true
+    }
+  ],
+  "scope": "Exact positive Gauss reference S_tail+bI for the unchanged protected terminal brake; full tail-parameter uniform formal eigenvalue bound <33/5, exact cut trace, continuous one-sided jets, complete actual Codazzi formulas. Not a Gauss-Codazzi solution or immersed surface.",
+  "executions": [
+    {
+      "initial_chunk": "4ad674",
+      "final_chunk": "4ad674",
+      "exit_code": 0,
+      "natural_exit": true,
+      "source_seconds": 0.0036072731018066406,
+      "scope": "Exact rational 633/36800 curvature margin and 561 independent finite derivative/Codazzi checks; no BVP or actual14 replay"
+    }
+  ],
+  "dependencies": [
+    "results/R132-positive-bernstein-controls-for-the-exact-flat-tail.md",
+    "results/R136-peak-spacer-prefix-continuous-radius-and-outer-design-domain.md",
+    "notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json",
+    "results/R156-terminal-brake-trace-regularity-and-round-tail-reference.md",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json"
+  ],
+  "source_inputs_unchanged": true,
+  "full_strong_target_completion_claimed": false
+}

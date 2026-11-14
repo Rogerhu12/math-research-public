@@ -1,0 +1,126 @@
+{
+  "schema": "fd2d-R201-full-half-first-actual-step-closed-manifest-v1",
+  "date": "2026-11-13",
+  "topic": "topics/visible-flexible-closed-surface",
+  "proof": {
+    "path": "results/R201-half-period-mean-phase-closure-without-reflection.md",
+    "sha256": "31e762568abe57518ba4fcfd61e7b296864d16c387897d5e262e71c50628bba9",
+    "commit": "da4ceac23c0af7b8b6168d73e9a38b4fb062d727"
+  },
+  "artifacts": [
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-full-half-phase-position-provider-R201.cjs",
+      "bytes": 21863,
+      "sha256": "39039b0eeb83e5c75779d493a7cd686e5713dd2e74d0f74fe3a2fc5d73425b4f",
+      "commit": "a20cc2be7af25bc3ec2979926152ce1519297201"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-full-half-position-geometric-guide-R201.cjs",
+      "bytes": 8608,
+      "sha256": "eb5b6db8c9503f2bc7d16729f120c7a8bb8f3ab80b332a265f64695de1ba2306",
+      "commit": "ae5c274a6a887ef08ade5cf35d1f5436ce3329a0"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-full-half-band-border-kernel-R201.cjs",
+      "bytes": 14454,
+      "sha256": "3b82eaf6f9e417e9dba11aa11bfbd2dec272a0e171e439cf70bdb21683ed893e",
+      "commit": "b8f59490cb9a743150f0e9f27c4848d25a0c9522"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-run-full-half-position-R201.cjs",
+      "bytes": 5668,
+      "sha256": "dddad54db4da8518ca962d923a2823288498ce9b2f9096697936b9c7783f148a",
+      "commit": "164b9ddc12612784dda68d9dd66d26052b03e55a"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d_R201_half_period_phase_provider_recovery_v2.cjs",
+      "bytes": 8601,
+      "sha256": "098f5a517aaf7857888f48f5e158c445414218e5e53a886aed661aa650feb375",
+      "commit": "683018d8a9f35027d07945587a17834ce79a25c6"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-recovery-v2-V8-check.json",
+      "bytes": 1135,
+      "sha256": "876c4d4780eaef64e9b4003c4795b725d8353d88b9efc4a3f2aacdcff43d3981",
+      "commit": "1e2222dfa315496d4423f652fac75a5ef4c48b9c"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-half-period-actual-01-checkpoint.json",
+      "bytes": 65074,
+      "sha256": "10df8c5f5f5f31e61373fcfe94df36943733b9f64faa13d8eced8b3ddd010fb9",
+      "commit": "92341bd4774eb7ee7cf236fea9bcef2244b46820"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-half-period-actual-01-report.json",
+      "bytes": 16023,
+      "sha256": "22f7969bb75bf35cad586d386a3146930a4f39a9acb80a79fcb5a81a280716a3",
+      "commit": "1d7249ac484d6afa24645ff94bdbdb56b2949fbe"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-half-period-warm-changes.json",
+      "bytes": 241,
+      "sha256": "d5cfeb3f4dd748db4cb091d0331220636bdbc6ada5ab069b91a43ba9efa9185a",
+      "commit": "86861f0d792fc6400b394a182506fdd48db7ee05"
+    },
+    {
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-half-period-actual-01.md",
+      "bytes": 7843,
+      "sha256": "dab111a4b5936da7f1ddac55398e9f1a0dd67ee4084f89baf5dbbb0c732dc855",
+      "commit": "1c561ec27ed5bfbf966c78fa2d123a065afeab11"
+    }
+  ],
+  "execution": {
+    "prototypeRecovery": {
+      "runtime": "functions V8",
+      "actualCompleted": true,
+      "seconds": 0.636,
+      "sourceSha256": "098f5a517aaf7857888f48f5e158c445414218e5e53a886aed661aa650feb375"
+    },
+    "actualBranch": {
+      "runtime": "functions V8",
+      "cell": "g4:48",
+      "actualCompleted": true,
+      "seconds": 170.965,
+      "osChild": false,
+      "exit_code": null,
+      "actualAcceptedSteps": 1,
+      "actualTrials": 1,
+      "alpha": 1,
+      "squaredBefore": 0.03417570003372766,
+      "squaredAfter": 0.026862372993332113
+    },
+    "standaloneNodeDriver": "Syntax checked only; no Node execution falsely reported during unavailable executor"
+  },
+  "publicationFailures": [
+    {
+      "path": "scripts/fd2d-full-half-phase-position-provider-R201.cjs",
+      "error": "409: main5daa0fb26414c469e63b46c142191cf00e2bb820 versus expected172e03b612d1ea9469d7ee5879dfc7bc4ea61be4",
+      "literalPull": {
+        "command": "git pull --rebase --no-stat origin main",
+        "workdir": "/tmp/fd2d-math-research-publish-isolated-25",
+        "process_created": false,
+        "error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+        "is_real_git_pull": false
+      }
+    },
+    {
+      "path": "scripts/fd2d-full-half-position-geometric-guide-R201.cjs",
+      "error": "409: main91ce34c9348ab29d7493198e5dc59b2f5c51798c versus expecteda20cc2be7af25bc3ec2979926152ce1519297201",
+      "literalPull": {
+        "process_created": false,
+        "error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+        "command": "git pull --rebase --no-stat origin main",
+        "workdir": "/tmp/fd2d-math-research-publish-isolated-25"
+      }
+    }
+  ],
+  "apiReadmeBlobs": {
+    "root": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic": "71875538fe72d500277129b7f67d99f89d21c9e0",
+    "apiIsNotARealGitPull": true
+  },
+  "scope": "Actual new non-reflection finite search branch, complete Cartesian twojets and all parameter columns. Continuous quadrature/profile/geometry/posterior not paid; strong target not complete.",
+  "sourceRecovery": "New executable prototype source and new actual R196 adapter have their own identities. The original unpublished e75bf1 prototype and old R197 thin sources are not falsely claimed byte-restored.",
+  "strongTargetComplete": false,
+  "continuousCertificate": false
+}

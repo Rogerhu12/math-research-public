@@ -1,0 +1,38 @@
+{
+  "schema": "closed-publish-group-v1",
+  "scope": "R128 exact flat tail, frozen provider, completed actual check and interval height enclosure",
+  "files": [
+    {
+      "path": "scripts/fd2d_flat_developable_tail.py",
+      "bytes": 8004,
+      "sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3"
+    },
+    {
+      "path": "scripts/fd2d-flat-developable-tail-check.py",
+      "bytes": 8761,
+      "sha256": "d501cf8d981ac75ac99b99c67bdd43acda62a47e2bf4da4581935a7510f726cd"
+    },
+    {
+      "path": "results/R128-exact-flat-developable-tail-with-fixed-collar.md",
+      "bytes": 12898,
+      "sha256": "39db657c6e60e86d4edf1393cd564cf92211b78d508fa4f463f0ffe010da9e47"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-developable-tail-check-01.json",
+      "bytes": 17199,
+      "sha256": "93cc9b58a8689442b94ef321b1cdd9654ee38386daab53c104992a3f1fd89779"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-developable-tail-check-01-receipt.json",
+      "bytes": 377,
+      "sha256": "4b31e1a0101c82406228093d8f682333efed21eb59bcbc697a815e0573df545d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-developable-tail-definition-01.json",
+      "bytes": 988,
+      "sha256": "5474e2a12fdb2b772fb1a7365436e75b735c9a72f0b89611448de378510df540"
+    }
+  ],
+  "total_bytes": 48227,
+  "index_change": "results.md adds the R128 entry; intentionally not content-hashed as a shared index"
+}

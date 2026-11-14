@@ -1,0 +1,51 @@
+{
+  "schema": "fd2d-dense-normal-lm-closed-v8-group-v1",
+  "execution": {
+    "runtime": "functions.exec V8",
+    "actualModuleCompilation": true,
+    "actualFiniteFixtureExecution": true,
+    "fixturePassed": true,
+    "OSProcessCreated": false,
+    "session": null,
+    "exitCode": null,
+    "sourceAndFixtureFrozen": true
+  },
+  "scope": {
+    "newBranch": "R187 finite two-angle actual-X metric",
+    "maximumFixtureDimension": 2,
+    "actualR187WholeProviderRun": false,
+    "old36Changed": false,
+    "continuousGeometryCertified": false
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_dense_normal_lm.cjs",
+      "bytes": 20013,
+      "sha256": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4"
+    },
+    {
+      "path": "scripts/fd2d_dense_normal_lm_check.cjs",
+      "bytes": 6742,
+      "sha256": "2d688a5514ca5e3b00e82db6733495dfe59f04d8a427834d60f768a90cda9fe2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dense-normal-lm-v8-check-01.json",
+      "bytes": 3841,
+      "sha256": "d6188521fd1223ec277e707e779ca5aeb564954ec9aceb2f6ffbd934cee62206"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dense-normal-lm.md",
+      "bytes": 6659,
+      "sha256": "cd5b3d46db0743412dafd5553ee157754c022ae1fbe88ce3811e4a85c7202d64"
+    }
+  ],
+  "sourceCommit": "a9a27d86b9c45ef31a04a11a0b2b8bbc253a7800",
+  "numericSummary": {
+    "linearDirectionMaximumError": 2.220446049250313e-16,
+    "rosenbrockFinalSquaredNorm": 8.184433124263162e-24,
+    "rosenbrockAccepted": 19,
+    "rosenbrockActualValueCalls": 31,
+    "rosenbrockActualRejections": 12
+  },
+  "status": "complete finite V8 fixture; ready for actual R187 provider"
+}

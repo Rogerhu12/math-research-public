@@ -1,0 +1,19 @@
+{
+  "status": "PASS-critical-export-method-and-complete-finite-data-structure",
+  "manifest": "notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+  "manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "script_sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+  "reader_sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+  "nodes": 18553,
+  "spans": 18552,
+  "coefficient_count": 141,
+  "all_saved_values_finite": true,
+  "all_exact_lengths_positive": true,
+  "exact_endpoint_anchor_equality": true,
+  "byte_identical_file_interfaces": 23,
+  "largest_compressed_file_bytes": 4418763,
+  "plan_replay_identical": true,
+  "C2_by_shared_derivatives_and_exact_integration": true,
+  "source_ODE_certified": false,
+  "complete_metric_or_reach_certified": false
+}

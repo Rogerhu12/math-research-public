@@ -1,0 +1,156 @@
+{
+  "schema": "fd2d-B32-recovery-chain-and-finite-seed-main-v1",
+  "purpose": "During the executor outage, preserve a genuinely new text-only B32 implementation and actual pure-V8 finite initializer diagnostics. This is not restoration of the inaccessible 87bde bytes.",
+  "repository": "Rogerhu12/math-research",
+  "topic": "topics/visible-flexible-closed-surface",
+  "recovery_sources": [
+    {
+      "id": "round_reference",
+      "path": "scripts/fd2d_gc_r181_b_round_reference_recovery.py",
+      "git_blob_sha": "8559e3325c70eba2d63172d646c55a28acdbf3a9",
+      "characters": 3682,
+      "exact_readback": true
+    },
+    {
+      "id": "arb_profile",
+      "path": "scripts/fd2d_gc_r181_b_arb_profile_recovery.py",
+      "git_blob_sha": "25f3164d8b1e65ec455a6e1b080ad05d90500723",
+      "characters": 14682,
+      "exact_readback": true
+    },
+    {
+      "id": "round_raw",
+      "path": "scripts/fd2d_gc_r181_b_round_raw_recovery.py",
+      "git_blob_sha": "9de404837ff94def5fe76f0c3bdb6c1c6f54141e",
+      "characters": 21210,
+      "exact_readback": true
+    },
+    {
+      "id": "point_objective",
+      "path": "scripts/fd2d_gc_r181_b_point_objective_recovery.py",
+      "git_blob_sha": "46e3bbf43c4f02de27190ddb2ce4fe5fc5396685",
+      "characters": 13340,
+      "exact_readback": true
+    },
+    {
+      "id": "prepare",
+      "path": "scripts/fd2d-prepare-r181-b32-recovery.py",
+      "git_blob_sha": "e2d8a69c2ff3da881fc2f0b43a83e0587552da51",
+      "characters": 6425,
+      "exact_readback": true
+    },
+    {
+      "id": "finite_seed",
+      "path": "scripts/fd2d_gc_r181_b_finite_seed_recovery.py",
+      "git_blob_sha": "29bfc61903de2ab07facd86089ac163d26a648f6",
+      "characters": 5099,
+      "exact_readback": true
+    },
+    {
+      "id": "solve",
+      "path": "scripts/fd2d-solve-r181-b32-small-recovery.py",
+      "git_blob_sha": "c1445cb59a3f684ab083c6290a5812085975afb7",
+      "characters": 15731,
+      "exact_readback": true
+    }
+  ],
+  "finite_diagnostic_and_optional_layer_files": [
+    {
+      "id": "source",
+      "path": "scripts/fd2d-b32-finite-seed-diagnostics.cjs",
+      "git_blob_sha": "f80b01ea6f0d680857217066c607b28d8309e368",
+      "characters": 13525,
+      "exact_readback": true
+    },
+    {
+      "id": "input",
+      "path": "notes/2026-11-12-fd2d-b32-finite-seed-diagnostics-input.json",
+      "git_blob_sha": "d53c553a169f604209a76338fe5dbf5167378ceb",
+      "characters": 2557,
+      "exact_readback": true
+    },
+    {
+      "id": "report",
+      "path": "notes/2026-11-12-fd2d-b32-finite-seed-diagnostics-actual.json",
+      "git_blob_sha": "b4d52860e682286f688a8e7c757cbd9c78fb8b3f",
+      "characters": 27487,
+      "exact_readback": true
+    },
+    {
+      "id": "helper",
+      "path": "scripts/fd2d_gc_r181_b_terminal_layer_seed.py",
+      "git_blob_sha": "2b4ee0fdfb9a7a75f5986b2c569430898486bb48",
+      "characters": 5867,
+      "exact_readback": true
+    },
+    {
+      "id": "driver",
+      "path": "scripts/fd2d-solve-r181-b32-terminal-layer.py",
+      "git_blob_sha": "58f8aace50fe916cf51151856b55aa584dc9fe9d",
+      "characters": 16193,
+      "exact_readback": true
+    }
+  ],
+  "required_candidate": {
+    "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl13over128-candidate.json",
+    "git_blob_sha": "bb87f4c2bc73c53dd32b50582d3bec4243568562",
+    "sha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+  },
+  "relevant_proofs": [
+    "R155",
+    "R166",
+    "R170",
+    "R174",
+    "R181",
+    "R185"
+  ],
+  "preparation_command": "PYTHONPATH=/workspace/scratch/fd2d-recovered-deps/python-flint-0.9.0 python scripts/fd2d-prepare-r181-b32-recovery.py --out-prefix notes/2026-11-12-fd2d-b32-recovered-01",
+  "optional_finite_trial_command": "python scripts/fd2d-solve-r181-b32-terminal-layer.py --out-prefix notes/2026-11-12-fd2d-b32-small-layer-01 --gap .05 --modes 7 --terminal-layer-width .002",
+  "original_finite_trial_command": "python scripts/fd2d-solve-r181-b32-small-recovery.py --out-prefix notes/2026-11-12-fd2d-b32-small-01 --gap .05 --modes 7",
+  "diagnostics_reproduction": "node scripts/fd2d-b32-finite-seed-diagnostics.cjs notes/2026-11-12-fd2d-b32-finite-seed-diagnostics-input.json notes/2026-11-12-fd2d-b32-finite-seed-node-reproduction.json",
+  "exact_readback_of_each_listed_file": true,
+  "actual_execution": {
+    "recovered_Python_sources_executed": false,
+    "recovered_Python_AST_or_JVP_checked": false,
+    "finite_B32_BVP_started": false,
+    "accepted_B32_fields": 0,
+    "body_run": false,
+    "JavaScript_functions": "Actual completed pure-V8 calls; finite results in the listed report. Packaged function bodies are unchanged.",
+    "optional_Node_CLI_executed": false,
+    "OS_child_during_these_diagnostics": false
+  },
+  "new_g": {
+    "candidate": "R181 family B, cylinder 13/128, cut 4/5, redeepen 9/2",
+    "central_gap_targets": [
+      0.05,
+      0.1,
+      0.64
+    ],
+    "fixed_tail_count": 16,
+    "physical_profile_count": 7,
+    "old_metric_or_coast_borrowed": false
+  },
+  "initialization_scope": {
+    "finite_first_mode_gap_005_alpha": 0.1369085031140309,
+    "finite_first_mode_gap_010_alpha": 0.2730935965826796,
+    "first_mode_point_four_bracket_only_reaches_gap": 0.14678861841978885,
+    "central_finite_root_not_a_complete_GC_solution": true,
+    "exact_analytic_layer": "q=S5(tau/.002); d=q(n0-l0)+eta*kappa*cos(2u), m=-eta*kappa*sin(u)*cos(u); use R155 positive trace. This is a reference before raw projection.",
+    "measured_terminal_integrals": {
+      "round_plus_tail": 2.6537000037193703,
+      "full_tail_isotropic": 94.29277187098792,
+      "graded_width_point002": 0.6075677988901803
+    },
+    "finite_samples_not_continuous_bounds": true,
+    "saved_P1_projection_not_tested": true,
+    "actual_cut_Z_held_ball_and_full_reach_unpaid": true
+  },
+  "limitations": [
+    "No original unavailable source SHA is claimed for any recovery file.",
+    "The optional layer driver adds recorded nodes but does not change the physical metric, atlas or lifting.",
+    "Changing physical delta is an explicit outer metric design; a final candidate must be frozen before same-g refinement.",
+    "The first central coefficient and current conservative central domain are only a small-gap initialization mechanism; .64 is not claimed reachable in this one-dimensional bracket.",
+    "R185 rules out a specified C1 first-order family from the round flat cut, not finite-amplitude or boundary-layer branches.",
+    "The original files and original expensive checkpoints remain inaccessible rather than assumed destroyed."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "SOURCE_AST_ONLY",
+  "pairs": [
+    {
+      "old": "78718-prefix-spectral-restart8000-v1.py",
+      "new": "78718-prefix-spectral-independent-seed8000-v1.py",
+      "unchanged_function_AST_after_declared_source_status_text_normalization": [
+        "module",
+        "equal",
+        "without_io",
+        "write_json",
+        "expected_config",
+        "expected_parser_argv",
+        "validate_inputs",
+        "runtime_original_newton",
+        "runtime_newton",
+        "select_runtime_newton",
+        "runtime_csc",
+        "restore_runtime_csc",
+        "select_runtime_csc",
+        "runtime_callbacks",
+        "main"
+      ],
+      "changed_functions": []
+    },
+    {
+      "old": "78718-prefix-audit-restart8000-v1.py",
+      "new": "78718-prefix-audit-independent-seed8000-v1.py",
+      "unchanged_function_AST_after_declared_source_status_text_normalization": [
+        "check_packet",
+        "first_packet",
+        "polynomial_endpoint",
+        "check_newton_lifetime_record",
+        "_compiled_runtime_record",
+        "check_csc_runtime_record",
+        "check_csc_restoration",
+        "check_runtime_records",
+        "check_outputs",
+        "main"
+      ],
+      "changed_functions": [
+        "final_audit"
+      ]
+    }
+  ],
+  "normalization": [
+    [
+      "78718-prefix-spectral-independent-seed8000-v1.py",
+      "78718-prefix-spectral-restart8000-v1.py"
+    ],
+    [
+      "78718-prefix-audit-independent-seed8000-v1.py",
+      "78718-prefix-audit-restart8000-v1.py"
+    ],
+    [
+      "INDEPENDENT_SEED8000_FINITE_M14_",
+      "RESTART8000_FINITE_M14_"
+    ],
+    [
+      "Program requested exit only; /root/independent_audit actual tool observation is separate.",
+      "Program requested exit only; root actual tool observation is separate."
+    ]
+  ],
+  "actual_solver_calls": 0
+}

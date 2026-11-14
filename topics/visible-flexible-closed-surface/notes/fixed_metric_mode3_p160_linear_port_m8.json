@@ -1,0 +1,50 @@
+{
+  "scope": "Same p160 physical metric. First four genuine DN entries are unchanged for angular refinement; m15..24 use independent adaptive momentum propagation. Finite far conditions are numerical, not exact closure.",
+  "parameters": {
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 160,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "cuspAwareQuadrature": true,
+    "quadratureTolerance": 2e-10
+  },
+  "cut": {
+    "radius": 0.6000000000000001,
+    "backgroundSlope": 0.49999999999999994,
+    "backgroundSecond": -5.833333333333331,
+    "E": 1.25,
+    "Ep": -5.83333333333333
+  },
+  "linearSlope": [
+    10.54376076408714,
+    25.54951530789281,
+    40.12563234042285,
+    54.31448367384821,
+    68.12697996900067,
+    81.56901493861068,
+    94.65060581684236,
+    107.38374486705595
+  ],
+  "modes": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24
+  ],
+  "source_file": "root_cut_tail_cap002_p160_m3_s1024_far48.json",
+  "source_sha256": "39d968ea75cf50771e2fca27b1003312b63c4343cec19aa2c798f551f2dd6107",
+  "high_modes_source_file": "fixed_metric_mode3_p160_high_DN.json"
+}

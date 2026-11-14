@@ -1,0 +1,259 @@
+{
+  "status": "READ_ONLY_HISTORICAL_BVP_TIMING_AND_INTEGER_SPARSE_SCALES",
+  "created_utc": "2026-11-10T04:41:44.395164+00:00",
+  "scope": "Closed historical records plus integer dimensions only. No new BVP/DN/RK, no matrix allocation or active solver inspection; inferred old node counts are not saved meshes. Failed-run timings do not bound the current run.",
+  "historical_runs": [
+    {
+      "stem": "2026-11-09-db6f-prefix-spectral-true-m14q512-01",
+      "kind": "original_Newton_original_COO_true_W14",
+      "actual_prior_root_exit": 2,
+      "prior_root_tool_receipt": "55ec10",
+      "prior_root_session": 7667,
+      "old_per_process_DATA_bytes": 3221225472,
+      "guard_wall_seconds": 658.363799720988,
+      "program_seconds": 655.0565297603607,
+      "failure": "MemoryError((21703500,), dtype('float64'))",
+      "failure_float64_length": 21703500,
+      "node_count_inferred_only": 5047,
+      "initial_nodes": 2633,
+      "completed_new_CP": false,
+      "closed_observation_bindings_rechecked": [
+        "2026-11-09-db6f-root-spectral-true-m14q512-01-guard-completion.json",
+        "2026-11-09-db6f-prefix-spectral-true-m14q512-01-summary.json",
+        "2026-11-09-db6f-prefix-spectral-true-m14q512-01-run.log"
+      ]
+    },
+    {
+      "stem": "2026-11-09-db6f-prefix-spectral-true-m14q512-02",
+      "kind": "original_Newton_original_COO_true_W14",
+      "actual_prior_root_exit": 2,
+      "prior_root_tool_receipt": "e017b2",
+      "prior_root_session": 17913,
+      "old_per_process_DATA_bytes": 4294967296,
+      "guard_wall_seconds": 1904.819748695998,
+      "program_seconds": 1903.4730308055878,
+      "failure": "MemoryError((27280600,), dtype('float64'))",
+      "failure_float64_length": 27280600,
+      "node_count_inferred_only": 6344,
+      "initial_nodes": 2633,
+      "completed_new_CP": false,
+      "closed_observation_bindings_rechecked": [
+        "2026-11-09-db6f-root-spectral-true-m14q512-02-guard-completion.json",
+        "2026-11-09-db6f-prefix-spectral-true-m14q512-02-summary.json",
+        "2026-11-09-db6f-prefix-spectral-true-m14q512-02-run.log"
+      ]
+    },
+    {
+      "stem": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14",
+      "kind": "unweighted_true_M14_N512",
+      "reviewed_old_driver_exit": 0,
+      "driver_wall_seconds": 983.1155817508698,
+      "program_seconds": 982.3707852363586,
+      "solver_success": true,
+      "nodes": 2633,
+      "newton_domain_audit": {
+        "calls": 1,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 21,
+        "accepted_steps": 0,
+        "no_step": 1,
+        "minimum_alpha": 1.0
+      },
+      "tail_calls": 2,
+      "comparable_as_time_upper_bound": false
+    },
+    {
+      "stem": "2026-11-09-db6f-prefix-spectral-affine-m14q512-01",
+      "kind": "affine_W14_resource_failure",
+      "guard_reported_child_exit": 2,
+      "guard_wall_seconds": 306.2556792579999,
+      "initial_nodes": 2633,
+      "first_grid_weighted_rms_log_display": 4.75e-07,
+      "first_grid_added_nodes": 2414,
+      "next_grid_nodes": 5047,
+      "root_tool_observation_read_in_this_comparison": false
+    },
+    {
+      "stem": "2026-11-09-db6f-prefix-flat-v17v18-m14-affine-tol1e11-cap6500",
+      "kind": "unweighted_affine_tight_tolerance_1e11",
+      "driver_recorded_seconds": 1355.900796844002,
+      "program_seconds": 1355.3103721070001,
+      "solver_success": false,
+      "nodes": 5890,
+      "requested_additional_nodes": 5841,
+      "newton_domain_audit": {
+        "calls": 2,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 61,
+        "accepted_steps": 2,
+        "no_step": 2,
+        "minimum_alpha": 1.9073486328125e-06
+      },
+      "message": "The maximum number of mesh nodes is exceeded."
+    }
+  ],
+  "foundation": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+    "bytes": 17550,
+    "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+  },
+  "integer_size_formula": "E=(2*n+k)*(n*m+k), n=43, k=14",
+  "index_dtype_model": "int32 because size and stored count below 2^31; actual whole-program peak includes derivatives, temporaries, LU fill, runtime and the separate Node worker",
+  "sparse_size_models": [
+    {
+      "state_dimension": 43,
+      "parameter_dimension": 14,
+      "nodes": 2633,
+      "global_square_dimension": 113233,
+      "stored_entries_including_zeros": 11323300,
+      "float64_data_bytes": 90586400,
+      "int32_indices_bytes": 45293200,
+      "int32_indptr_bytes": 452936,
+      "three_array_CSC_bytes": 136332536,
+      "old_two_int64_COO_indices_bytes": 181172800
+    },
+    {
+      "state_dimension": 43,
+      "parameter_dimension": 14,
+      "nodes": 5047,
+      "global_square_dimension": 217035,
+      "stored_entries_including_zeros": 21703500,
+      "float64_data_bytes": 173628000,
+      "int32_indices_bytes": 86814000,
+      "int32_indptr_bytes": 868144,
+      "three_array_CSC_bytes": 261310144,
+      "old_two_int64_COO_indices_bytes": 347256000
+    },
+    {
+      "state_dimension": 43,
+      "parameter_dimension": 14,
+      "nodes": 5890,
+      "global_square_dimension": 253284,
+      "stored_entries_including_zeros": 25328400,
+      "float64_data_bytes": 202627200,
+      "int32_indices_bytes": 101313600,
+      "int32_indptr_bytes": 1013140,
+      "three_array_CSC_bytes": 304953940,
+      "old_two_int64_COO_indices_bytes": 405254400
+    },
+    {
+      "state_dimension": 43,
+      "parameter_dimension": 14,
+      "nodes": 6344,
+      "global_square_dimension": 272806,
+      "stored_entries_including_zeros": 27280600,
+      "float64_data_bytes": 218244800,
+      "int32_indices_bytes": 109122400,
+      "int32_indptr_bytes": 1091228,
+      "three_array_CSC_bytes": 328458428,
+      "old_two_int64_COO_indices_bytes": 436489600
+    },
+    {
+      "state_dimension": 43,
+      "parameter_dimension": 14,
+      "nodes": 6500,
+      "global_square_dimension": 279514,
+      "stored_entries_including_zeros": 27951400,
+      "float64_data_bytes": 223611200,
+      "int32_indices_bytes": 111805600,
+      "int32_indptr_bytes": 1118060,
+      "three_array_CSC_bytes": 336534860,
+      "old_two_int64_COO_indices_bytes": 447222400
+    }
+  ],
+  "sources": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-summary.json",
+      "bytes": 12349,
+      "sha256": "db6ee7040b3092ebb06253e542f7ab00b33fd860de35f34fbbd756c960721c01"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-run.log",
+      "bytes": 683,
+      "sha256": "048a18d0401f2900639a74edb5fd8223a286acb497e91c3c1ccfb504f6d1ae36"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-completion.json",
+      "bytes": 1312,
+      "sha256": "4c6470451712d61c36c767267d9211bb1e1feafa7f791520ce49eee9719a0601"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-summary.json",
+      "bytes": 669,
+      "sha256": "5bca477480f7747f5712f82fbc3bc6e00df3be491077a539088f1d38223738e4"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-run.log",
+      "bytes": 405,
+      "sha256": "d459a802501b5026a08e77ad4f35d87861fee63adfd8c9b1715b504221edb30f"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-guard-completion.json",
+      "bytes": 1303,
+      "sha256": "34414e692ad03ee3cb141e24d1995e5fdb792639a64ea9538c740af2d7e22014"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-final-observed.json",
+      "bytes": 4534,
+      "sha256": "4e5660620a67503e4649789e7707723abadcd05ddf6e22430d7719e6892f227c"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-summary.json",
+      "bytes": 670,
+      "sha256": "da8482745146c274c4afd530da0e905895fe740322a33cbf092779401a02c4e9"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-run.log",
+      "bytes": 405,
+      "sha256": "3a8aed0a45bc75a0926f14a528b1b16663f5bf452e120a03c280b63dc01666ea"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-completion.json",
+      "bytes": 1302,
+      "sha256": "ad89b4de2fe793fe1db66771ea865c10ba088a8516835edd038ebbf3e8c7b969"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-final-observed.json",
+      "bytes": 4674,
+      "sha256": "20bb126018ffe148b7662f7bc9cd63ae723efad90bd52895877a24e287d3692e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m14-affine-tol1e11-cap6500-summary.json",
+      "bytes": 15302,
+      "sha256": "6a60844d1e49d23d936b2af41d3bdcd0600f4e16570111a8004e993f77dfa75d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m14-affine-tol1e11-cap6500-run.log",
+      "bytes": 705,
+      "sha256": "6637d0fdd100860ee95c1ced0144368f571038be3d799a51c8f87cbf8adc9786"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m14-affine-tol1e11-cap6500-reproduction.json",
+      "bytes": 2654,
+      "sha256": "280a710ed0c34a8de0572ac834e3d47efb9b09b687c0f21d90e78272a7ae45c0"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-summary.json",
+      "bytes": 18396,
+      "sha256": "70fb5707b64841eb32d587b2f925600ef7d9f11dc693e9e362d5db23fe9181be"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reproduction.json",
+      "bytes": 6566,
+      "sha256": "0f5ded3b774e81d1e9d49e8901609672c08348c15a610b2ae4eb37c0dbda8655"
+    }
+  ],
+  "current_run": {
+    "stem": "2026-11-10-78718-numerical-m14-direct-csc-02",
+    "root_session": 44394,
+    "initial_nodes": 2633,
+    "max_nodes": 6500,
+    "per_process_DATA_bytes": 6442450944,
+    "node_heap_megabytes": 1536,
+    "known_completed_first_DN_residual": 5.397833270174952e-10,
+    "current_adaptive_mesh_known": false,
+    "natural_exit_observation_owned_by": "/root",
+    "method": "direct CSC plus reviewed release-old-LU Newton"
+  },
+  "actual_new_solver_calls": 0
+}

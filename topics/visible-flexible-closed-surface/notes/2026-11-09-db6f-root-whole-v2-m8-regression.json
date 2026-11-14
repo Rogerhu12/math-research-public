@@ -1,0 +1,140 @@
+{
+  "status": "exact-scalar-whole-finite-map-threshold-closure-pending-independent-review",
+  "script_sha256": "20d9b6127625595afaf14daac4d23ccdd68d10f5d3a36d0697472f5df50d8fc3",
+  "closed_budget": "notes/2026-11-09-db6f-root-closed-budget.json",
+  "closed_budget_sha256": "15635c2ab97e388102939b9a832a3c19bfe65ba053c7ea4fa26a5a045c7ae648",
+  "tail_certificate": "notes/2026-11-09-db6f-audit-tail-tight-full.json",
+  "tail_certificate_sha256": "87b2e526a5883c46824d214e3207f3888651aef65dfb2a4714799d39974061d2",
+  "separate_tail_metric_certificate": {
+    "file": "notes/2026-11-09-db6f-root-metric-only-m8-replay.json",
+    "sha256": "41874129f64f6d69262da913155050b3cc3f3bbb9d1d211abfe2729d4260b420",
+    "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+    "packet_file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+    "packet_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+    "packet_data_sha256": "275138aba6a789c4283b560668e5c8a45f8292e0d2bd188f7433a0bdda3f022c",
+    "row_data_sha256": "31f473311a3db22d41b3d3bc8108d46fa84cbbe299cfe56f497fed500ee7cd37",
+    "complete_rows_rechecked": 5237,
+    "same_background_definition_hashes": {
+      "checkpoint": {
+        "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+        "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+      },
+      "calibrations": {
+        "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+        "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+      },
+      "alpha": {
+        "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+        "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+      },
+      "cell_zero_A": {
+        "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+        "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+      },
+      "inner_A": {
+        "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+        "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+      },
+      "outer_B": {
+        "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+        "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+      }
+    },
+    "metric_upper": {
+      "exact": "4707697980434257/4722366482869645213696",
+      "lower_display": 9.968938237875866e-07,
+      "upper_display": 9.968938237875866e-07
+    },
+    "curvature_source_is_unchanged_full_certificate": true
+  },
+  "original_full_certificate_tail_metric_upper": {
+    "exact": "4707697980434257/4722366482869645213696",
+    "lower_display": 9.968938237875866e-07,
+    "upper_display": 9.968938237875866e-07
+  },
+  "tail_metric_selection": "minimum of same-map same-background complete metric bounds",
+  "geometry_sha256": "4f00d33a2add41b5711d805866228ff082786f597ab2362d6bd3a0c10a704524",
+  "tail_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "packet_sha256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "packet_data_sha256": "275138aba6a789c4283b560668e5c8a45f8292e0d2bd188f7433a0bdda3f022c",
+  "tail_rows_sha256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83",
+  "prefix_metric_upper": {
+    "exact": "33884415582220318736833370604274390962960865/93536104789177786765035829293842113257979682750464",
+    "lower_display": 3.6226028076102625e-07,
+    "upper_display": 3.622602807610263e-07
+  },
+  "tail_metric_upper": {
+    "exact": "4707697980434257/4722366482869645213696",
+    "lower_display": 9.968938237875866e-07,
+    "upper_display": 9.968938237875866e-07
+  },
+  "whole_metric_operator_upper": {
+    "exact": "4707697980434257/4722366482869645213696",
+    "lower_display": 9.968938237875866e-07,
+    "upper_display": 9.968938237875866e-07
+  },
+  "prefix_curvature_upper": {
+    "exact": "3155940405957117/562949953421312",
+    "lower_display": 5.606076324861528,
+    "upper_display": 5.606076324861528
+  },
+  "tail_curvature_upper": {
+    "exact": "4765622078421039/562949953421312",
+    "lower_display": 8.46544537300005,
+    "upper_display": 8.46544537300005
+  },
+  "cap_curvature_upper": {
+    "exact": "10/3",
+    "lower_display": 3.333333333333333,
+    "upper_display": 3.3333333333333335
+  },
+  "whole_principal_curvature_upper": {
+    "exact": "4765622078421039/562949953421312",
+    "lower_display": 8.46544537300005,
+    "upper_display": 8.46544537300005
+  },
+  "whole_support_lower": {
+    "exact": "244170556836839709722831582455062683912003228618592893060688714750398969/331283824645946988237082319826632020516995927449337740948323297929461760",
+    "lower_display": 0.7370434010709461,
+    "upper_display": 0.7370434010709462
+  },
+  "diameter_upper": {
+    "exact": "98/25",
+    "lower_display": 3.92,
+    "upper_display": 3.9200000000000004
+  },
+  "whole_reach_lower_by_R10": {
+    "exact": "562949953421312/4765622078421039",
+    "lower_display": 0.11812727575910306,
+    "upper_display": 0.11812727575910308
+  },
+  "whole_reach_over_diameter_lower": {
+    "exact": "7036874417766400/233515481842630911",
+    "lower_display": 0.03013450912222017,
+    "upper_display": 0.030134509122220172
+  },
+  "held_region_diameter_over_diameter_lower": {
+    "exact": "199431193444253325/220676381741154304",
+    "lower_display": 0.9037269501644228,
+    "upper_display": 0.903726950164423
+  },
+  "hold_over_diameter_lower": {
+    "exact": "5626448243406825/110338190870577152",
+    "lower_display": 0.05099275417707774,
+    "upper_display": 0.05099275417707775
+  },
+  "all_phases_by_R17_rotation_and_material_action": true,
+  "README_geometric_and_metric_thresholds_1_2_3_4_6_paid_given_reviewed_inputs": true,
+  "fixed_g_convergence_gate_5_paid": false,
+  "final_mesh_delivery_paid": false,
+  "README_complete": false,
+  "proof_dependencies": [
+    "R17 actual common-cut C2 closed map, held set, embedding and moment noncongruence",
+    "R16 fixed cap curvature and metric definition",
+    "R10 positive support and actual curvature imply global reach",
+    "Reviewed exact finite-source background, alpha, primitive and polynomial suppliers",
+    "Reviewed complete packet assembly and continuous finite-tail metric/curvature formulas",
+    "Separate independent full replays of all bound certificate components",
+    "If supplied, independently reviewed metric-only backend and identical-background packet refinement"
+  ]
+}

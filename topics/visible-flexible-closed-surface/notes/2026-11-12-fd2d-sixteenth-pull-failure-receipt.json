@@ -1,0 +1,34 @@
+{
+  "schema": "fd2d-actual-local-publisher-pull-failure-v1",
+  "observed_utc": "2026-11-12T18:15:00Z",
+  "tool_session": 70530,
+  "launch_chunk": "0dc0fe",
+  "completion_chunk": "d1c3dd",
+  "actual_tool_exit_code": 137,
+  "actual_pull_exit_code": 137,
+  "source_handoff_previous_read_commit": "c576eebf0ee762032fea431d1b7395ad5c1ad2bb",
+  "origin_main_after_fetch": "19d76f60712c08f2c8dc4d000ec4c41c48e15f62",
+  "both_readme_diff_empty": true,
+  "publisher_HEAD_after_failure": "c576eebf0ee762032fea431d1b7395ad5c1ad2bb",
+  "observed_stderr": [
+    "Updating index flags: 100% (228645/228645), done.",
+    "fatal: unable to access https://github.com/Rogerhu12/math-research.git/: CONNECT tunnel failed, response 403",
+    "error: merge died of signal 9"
+  ],
+  "exit_cause_not_inferred": true,
+  "payload_commit_created": false,
+  "main_changed_by_this_attempt": false,
+  "source_computation_files_untouched": true,
+  "original_build": {
+    "session": 22479,
+    "launch_chunk": "a69de3",
+    "completion_chunk": "295228",
+    "actual_exit_code": 0,
+    "groups": 4,
+    "files": 106,
+    "bytes": 15224318,
+    "manifest_path": "notes/2026-11-12-fd2d-live-recovery-sixteenth-batch-manifest.json",
+    "manifest_sha256": "081e5b3f582c9bd762e4c339d4fc7c7190b83257afbaaacb57146943ff4b434a"
+  },
+  "recovery": "New owned no-checkout worktree at origin commit; cone sparse index includes only root files. Original publisher and source preserved. Retry is a new explicit payload build."
+}

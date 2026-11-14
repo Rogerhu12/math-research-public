@@ -1,0 +1,66 @@
+{
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T16:07:19.903271+00:00",
+  "status": "observed-process-completed",
+  "initial_tool_chunk": "090c71",
+  "actual_session_id": 10542,
+  "final_tool_chunk": "cf9688",
+  "actual_exit_code": 0,
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "node",
+    "scripts/78718-tail-call8-stage-pool-benchmark.mjs",
+    "--packet",
+    "notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0008.json.gz",
+    "--out",
+    "notes/2026-11-10-78718-numerical-stage-pool-benchmark-01.json"
+  ],
+  "report": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-stage-pool-benchmark-01.json",
+    "bytes": 20337,
+    "sha256": "8f81c82e81186fc3f82e35ac4785884d7e81f77ef86da34fee2dcfb2f5835db2"
+  },
+  "scope": "One authorized four-stage serial/parallel state and Jacobian comparison. No DN, stable graph or prefix BVP. This records real tool returns, not a guard inference.",
+  "new_route_sources": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-parallel-stage-pool.mjs",
+      "bytes": 14315,
+      "sha256": "1eef5e017720bafab946682473d9010c037e536c46b365137f7e427416a038d5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-parallel-stage-core.mjs",
+      "bytes": 19006,
+      "sha256": "24cde57c65836d95f939518e565ef32fa0ac3323b952a644805842b97d980ca4"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-parallel-stage-split.mjs",
+      "bytes": 1955,
+      "sha256": "8cecac5eca1e525320c94187301b4eb65fd21a4bb14da975f07e1afc43f33e2d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-parallel-stage-worker.mjs",
+      "bytes": 17487,
+      "sha256": "5935a276648da9bac06c8bb42ad082006b909c2442de62d998eeaa9f7dc04f47"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-parallel-client.py",
+      "bytes": 9421,
+      "sha256": "c2997c552309cc8bbe6428ea653d340a3add95a27cd0432991c5d1506a308f94"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-parallel-continuation.py",
+      "bytes": 8824,
+      "sha256": "bd90f46f84b6c3e2117fdd7ce75df149861893356a64ca586f7e510d0e18f321"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-prefix-parallel.py",
+      "bytes": 38717,
+      "sha256": "66c7a5304a6ca72c9189ee6d71db47fcc99ffc7c22208ab67e6467d22604437e"
+    }
+  ],
+  "route_validation": {
+    "syntax_and_help_tool_chunk": "6cae7d",
+    "actual_exit_code": 0,
+    "actual_solvers": 0
+  }
+}

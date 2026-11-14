@@ -1,0 +1,16 @@
+{
+  "schema": "fd2d-real-worker-exit-receipt-v1",
+  "session": 55009,
+  "launch_chunk": "653e5b",
+  "final_poll_chunk": "b1c675",
+  "actual_driver_exit": 0,
+  "actual_worker_returncode": -6,
+  "explicit_stderr": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory",
+  "seconds": 35.56460666399994,
+  "measured_v8_heap_limit": 134217728,
+  "largest_trace_max_rss_kb": 163180,
+  "completed_stage_graphs": 2880,
+  "ready_received": false,
+  "complete_nonlinear_response": false,
+  "scope": "Observed native V8 heap exhaustion before ready; no mathematical failure or solved DN inferred."
+}

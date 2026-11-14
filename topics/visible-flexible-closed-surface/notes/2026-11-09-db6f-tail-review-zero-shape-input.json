@@ -1,0 +1,30 @@
+{
+  "status": "PASS_STATIC_INPUT_BINDING_ONLY",
+  "actual_root_calls": 0,
+  "actual_solver_runs": 0,
+  "launch_sha256": "114ddc195ef4b038a4b825c508fca42c4ed0de4f38a6c554a8829c506c188a5a",
+  "preparation_sha256": "6267be3f54268b651591001172f21663b88799e6541665cac66a15cf708f520e",
+  "script_sha256": "ff8473dfcd2b9a1d02c6a14fa84c6b8972310d3d8fa29cfc5334f7669342a2f7",
+  "input_sha256": "6c723e80597dade42a1e002e832638451f9e4cb1a4aa290510adf44d0952eae6",
+  "config_sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c",
+  "checked_bound_files": 61,
+  "zero_shape_nodes": 865,
+  "shape_dimension": 30,
+  "raw_node_count": 13,
+  "cut_height_matches_source_request": true,
+  "quarter_scaling_checked_by_ldexp": true,
+  "warm_ratio": 1,
+  "correct_initial_boundary": false,
+  "changed_config_keys": [
+    "correctInitialBoundary",
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "maxIterations",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "predicted_cut_normalized_residual": 1.0,
+  "measured_full_shooting_residual": null,
+  "scope": "Pure JSON/hash/source-input audit. The full zero-shape/root/RK identity is a separate static proof. No solver or stage flow was executed."
+}

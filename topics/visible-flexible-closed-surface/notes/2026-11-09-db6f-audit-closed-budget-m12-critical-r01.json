@@ -1,0 +1,41 @@
+{
+  "status": "PASS-current-critical-map-binding-and-independent-scalar-replay",
+  "author_report_sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7",
+  "replay_report_sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7",
+  "all_json_fields_identical": true,
+  "all_declared_input_hashes_checked": true,
+  "geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "geometry_data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+  "tail_manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "common_cut_implementation_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+  "input_certificate_count": 7,
+  "whole_surface_support_lower": {
+    "exact": "1017377484176631142782199142968963805038721215955239444619399738596877/1380349269358112450987842999277633418820816364372240587284680408039424",
+    "lower_display": 0.7370435198982139,
+    "upper_display": 0.737043519898214
+  },
+  "diameter_upper": {
+    "exact": "98/25",
+    "lower_display": 3.92,
+    "upper_display": 3.9200000000000004
+  },
+  "hold_over_diameter_lower": {
+    "exact": "45011483952312925/882705526964617216",
+    "lower_display": 0.05099263862898321,
+    "upper_display": 0.05099263862898322
+  },
+  "unmarked_volume_moment_real_lower": {
+    "exact": "485614151039579925935202859823258523232542741071650348009349585158969322047042151738129701151981086060281338003670981/1103256173499045417943813122804021186542232699573032506702552215318880209601921897119599455136777637942585583728590848",
+    "lower_display": 0.4401644538270966,
+    "upper_display": 0.4401644538270967
+  },
+  "corrected_prefix_exact_target_metric_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "lower_display": 2.5721188324492386e-08,
+    "upper_display": 2.572118832449239e-08
+  },
+  "all_rational_display_directions_checked": true,
+  "whole_tail_metric_pending": true,
+  "whole_tail_curvature_pending": true,
+  "scope": "Reapplication of previously fully reviewed common-cut v2 and closed-budget v2 to the critical-r01 finite tail. Full prefix computations are newly run by root and hash-bound here; this audit replays only the scalar ledger and checks actual-object identity."
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-R194-exact-interval-curvature-consumer-closed-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-position-curvature-certificate-R194.cjs",
+      "git_blob_sha": "f091145b32c62d1944c604ff41ed33d5ac70b5d4",
+      "characters": 11336,
+      "exact_readback": true
+    },
+    {
+      "path": "scripts/fd2d-check-position-curvature-certificate-R194.cjs",
+      "git_blob_sha": "2f87fb459f8e6dc2cd88e432432d1c149ab260a4",
+      "characters": 4552,
+      "exact_readback": true
+    },
+    {
+      "path": "results/R194-exact-interval-principal-curvature-PSD-consumer.md",
+      "git_blob_sha": "d909a9c3c9ec212bf0b9e7ef5046634cd300ec69",
+      "characters": 5477,
+      "exact_readback": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R194-curvature-interval-fixture-01.json",
+      "git_blob_sha": "d83c8d3735c6225196892fd4d8dcbc88c8009dd3",
+      "exact_readback": true
+    }
+  ],
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "elapsed_ms": 7,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null,
+    "completed": true
+  },
+  "API": "createR194CurvatureCertificate(): certifyCartesianJetBox, certifyUnitTangentJetBox, certifyFormBox, fromR193Budget",
+  "scope": {
+    "complete_pointwise_PSD_equivalence_proved": true,
+    "exact_rational_interval_sufficiency_proved": true,
+    "continuous_analytic_fixtures_executed": true,
+    "R193_conditional_adapter_executed": true,
+    "repository_candidate_interval_boxes_generated": false,
+    "repository_candidate_full_curvature_bound": false,
+    "BVP_started": false,
+    "coverage_proved_here": false,
+    "local_curvature_is_not_global_reach": true
+  },
+  "R193_source": {
+    "path": "scripts/fd2d_R193_direct_position_error_budget.cjs",
+    "git_blob_sha": "64d9b9f7bfcab9657ae4665cefbcdefcc253e619"
+  },
+  "saved_sources_equal_executed_function_bodies": true,
+  "remaining_actual_inputs": [
+    "same accurate physical box and field identities",
+    "certified complete Cartesian jets or normalized unit-tangent jets",
+    "alternatively R193 budget plus certified same-box reference Q0 intervals",
+    "a complete closed cover and separate whole-surface geometric conditions"
+  ]
+}

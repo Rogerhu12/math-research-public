@@ -1,0 +1,48 @@
+{
+  "status": "PASS-frozen-exporter-static-review-and-actual-independent-byte-replay",
+  "reviewer": "/root/tail_theory",
+  "scope": "Numerical mesh sampling, material chart, exact phase grid permutation, complete Z reflection, cap formula and face orientation. Separate topology validator supplies its full edge/component checks. No continuous map, isometry, reach or rigorous vertex error claim is added.",
+  "script_sha256": "f55e52840c165d501548650c7fc7294aa2bd0bb2dee823941029e344fdda814d",
+  "exporter_sha256": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+  "manifest": {
+    "file": "notes/2026-11-09-db6f-visible-m8-manifest.json",
+    "sha256": "6a49b75c5a0c112fc798c4167356b9b8f57e0f489e33b6ed9aedcc2c1eff3282"
+  },
+  "replay_manifest": {
+    "file": "notes/2026-11-09-db6f-tail-review-visible-m8-replay-manifest.json",
+    "sha256": "770c2c834a4eb3f3cb3315306a0a33adc08f6d865044e2cd8e29ab4617755f06"
+  },
+  "plan": {
+    "file": "notes/2026-11-09-db6f-visible-m8-plan.json",
+    "sha256": "38eca5974570fbf3a9686780b136759efd2369fe14cb168db0d0457fa3d2a8b8"
+  },
+  "mesh_files": [
+    {
+      "file": "notes/2026-11-09-db6f-visible-m8-t0.ply.gz",
+      "sha256": "863e4f172874523160cbe03fb4862f9b8a55dbb6bbaa424fa51c2c7794cfd6a4",
+      "byte_identical_replay": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-visible-m8-t1of4.ply.gz",
+      "sha256": "2e0907dbf70b30db766cfac640a31b0f78a89acf1ae6c446bbce9f780d48cee6",
+      "byte_identical_replay": true
+    },
+    {
+      "file": "notes/2026-11-09-db6f-visible-m8-t1of2.ply.gz",
+      "sha256": "74fcd07e07fe5be9ca4d5bb612e000e6b94e19dc73bb9d9d03a4652f4bef10f8",
+      "byte_identical_replay": true
+    }
+  ],
+  "exact_chart_power_checks": 144,
+  "material_angle_queries": 20736,
+  "maximum_inverse_difference_against_independent_bisection": 1.865174681370263e-14,
+  "maximum_inverse_residual_approx": 7.993605777301127e-15,
+  "newton_iterations": 30,
+  "maximum_phase_coordinate_difference_approx": 2.220446049250313e-16,
+  "full_mirror_xy_difference": 0.0,
+  "full_mirror_z_difference_excluding_upper_cap_bumps": 0.0,
+  "maximum_cap_formula_difference_approx": 0.0,
+  "fixed_vertices_bitwise_identical": true,
+  "pole_and_representative_strip_orientation_checks": true,
+  "replay_diagnostics_identical": true
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "fd2d-m2-geometry-closed-manifest-v1",
+  "scope": "Closed actual finite m2 runs, complete linear formulas, and an analytic tail-length necessary bound. The p148 physical metric differs from v4; no nonlinear strong core is claimed.",
+  "closed_files": [
+    {
+      "file": "scripts/fd2d_m2_linear_trajectory.py",
+      "sha256": "db214d3ffa4138e30820f479b0ff6fc2c1fdd722f1c18dd353b373a42517b862",
+      "bytes": 11323
+    },
+    {
+      "file": "scripts/fd2d_moderate_deep_screen.py",
+      "sha256": "1be086accbc9b5fd0d7b8d9292702c99ff75b863edbf1a4f0272e3a153db125b",
+      "bytes": 8601
+    },
+    {
+      "file": "scripts/fd2d_tail_length_rational.py",
+      "sha256": "786dcd72e29399b78ad99ab17b9e2553cb1ee688bc2135a2cf9fd9c0827fb04b",
+      "bytes": 5278
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-v4-full-m2-report.json",
+      "sha256": "82280844f26a14df01249b946b959a1868300fe22d0a8743269eae6557e517ef",
+      "bytes": 269396
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-v4-full-m2-trajectory.npz",
+      "sha256": "5186a447db0d679d97cca385cd6f8d4ee039d0baa2cdd2dc6b6a8847d18ab2b2",
+      "bytes": 350176
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-p148-full-m2-report.json",
+      "sha256": "29b21f1103801d070168d336ee3b75338af2bb6141fcb299602335c34eccd3bb",
+      "bytes": 269225
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-p148-full-m2-trajectory.npz",
+      "sha256": "ee4e37363fa9ab0baf0f500524e0e6577499b86ac58d38f0ac0813aaac7a087d",
+      "bytes": 328946
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-moderate-deep-m2-01-report.json",
+      "sha256": "d4f4e46aedd8de8d5cc615222d107d220c643397d608cd5635b5720e82675933",
+      "bytes": 304799
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-moderate-deep-m2-01-selected.json",
+      "sha256": "cfa7fff5df5248873279cfa9c947768c6a0b52dd8509d7b01ca2ecb98ebbc0e0",
+      "bytes": 33600
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+      "sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a",
+      "bytes": 33873
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-geometry-m2-relative-amplification.md",
+      "sha256": "fe40c74b7f0df43c7dce98438b387dcb156f850838434c32a9ed755dc2ade914",
+      "bytes": 12391
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-geometry-tail-length-necessary-bound.md",
+      "sha256": "6cf279e2f35650db541fb043293f9f818847cfd98fe226a92b3cddb6f15e0a1e",
+      "bytes": 8114
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-tail-length-rational-01.json",
+      "sha256": "d4e2efb19ae701fe6c6886d32a3dcb6f9f0e2df1b201bf45d59d72c84c1e77d8",
+      "bytes": 2706
+    }
+  ],
+  "unchanged_inputs": [
+    {
+      "file": "notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+      "sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d",
+      "bytes": 32125
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-ellipse-cuff032-cut04-config.json",
+      "sha256": "1ce47e6f66d67e41d9d5f5e837f5d516766d101492648faadb6f989ef33558ee",
+      "bytes": 1746
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-ellipse-cuff032-cut04-port.json",
+      "sha256": "dcadf539f5a4f70d640a092b54b690646fad21085cca03e3e3a7d9cd6cbe82cf",
+      "bytes": 3801
+    },
+    {
+      "file": "scripts/fd2d_frozen_ellipse_candidate.py",
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30",
+      "bytes": 17904
+    },
+    {
+      "file": "scripts/fd2d_partial_return_parameter.py",
+      "sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca",
+      "bytes": 6682
+    },
+    {
+      "file": "scripts/closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "bytes": 17812
+    },
+    {
+      "file": "scripts/closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "bytes": 3033
+    },
+    {
+      "file": "results/R15-weighted-inner-background-and-collar-bounds.md",
+      "sha256": "268da9dd07a1009825a62636c039f6f4c847eca6b723959eb75822530cd5904a",
+      "bytes": 6027
+    },
+    {
+      "file": "results/R121-corner-fixed-caps-and-a-wider-active-window.md",
+      "sha256": "ef473b8e70f3c7f9592fe21cc42f676ee462c93f89e2a8bfa8bcbc2ee51462f9",
+      "bytes": 10344
+    }
+  ],
+  "nonlinear_strong_target_complete": false
+}

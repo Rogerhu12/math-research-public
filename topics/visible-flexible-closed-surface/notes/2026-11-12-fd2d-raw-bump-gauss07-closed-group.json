@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "session": 4056,
+  "completion_chunk": "f0cdfc",
+  "actual_exit_code": 137,
+  "actual_child_returncode": -9,
+  "accepted_steps": 0,
+  "unchanged_last_actual_state": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss06-b0005-accepted-0001.npz",
+    "bytes": 48695,
+    "sha256": "8ea89ac9d76b55f57ab7d3a97b017a636e05f806909c109d02fd35587f3103ac"
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-natural-batch-chain-v3.py",
+      "bytes": 6326,
+      "sha256": "ae4d185f81459798d8253d196cfdaf64ae28f208fb4cd469096f61fc1e64c81e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-static-inputs.json",
+      "bytes": 3004,
+      "sha256": "e5070583b9b0938292bd5cb989c1cece2f791f0dd2b9fb395d9359baf3b1c344"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-chain-report.json",
+      "bytes": 7016,
+      "sha256": "7e899c8e23d20d840de0a2e685388c6c5be4924ac991d84261f606f513324531"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-progress.jsonl",
+      "bytes": 13909,
+      "sha256": "ac09f7bff3a81bab04a7bd081205a5e8d264e50617b349cf9a27de7fcaeca45f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-initial.npz",
+      "bytes": 48695,
+      "sha256": "8ea89ac9d76b55f57ab7d3a97b017a636e05f806909c109d02fd35587f3103ac"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-process-receipt.json",
+      "bytes": 3711,
+      "sha256": "fb7ebf1d04e5fa71c3ca6b370475b92f4c41f129f20871d1ad03acb16d44e606"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss07-b0001-report.json",
+      "bytes": 55954,
+      "sha256": "0e17d98fdf8f9679caa17ff1a90c97c1a3d313da08e4cc86848c5281f9c72660"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-gauss07-b0001-process-receipt-samples.jsonl",
+      "bytes": 15900,
+      "sha256": "a5fd17f08eb8be8347c76a822762fdd1081f4bbb2a952b9c80d4d6805e91d190"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-gauss07-b0001-process-receipt-console.txt",
+      "bytes": 13909,
+      "sha256": "ac09f7bff3a81bab04a7bd081205a5e8d264e50617b349cf9a27de7fcaeca45f"
+    }
+  ],
+  "scope": "Observed signal interruption before any new accepted state; no new numerical result asserted",
+  "cause": "Unknown; monitored kernel peak421412KiB and CPU3.602s retained as evidence, not a diagnosis"
+}

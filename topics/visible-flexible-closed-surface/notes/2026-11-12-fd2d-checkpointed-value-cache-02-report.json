@@ -1,0 +1,95 @@
+{
+  "schema": "fd2d-R165-value-replay-local-actual-check-v1",
+  "passed": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-checkpointed-value-cache-check.py",
+    "bytes": 6314,
+    "sha256": "61d11b9499cbc1f1b9183561dc270afc1128730069f69ece99124ea2baed698e"
+  },
+  "engine": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_checkpointed_grouped_values.py",
+    "bytes": 12606,
+    "sha256": "985aa0b64148afaa568dffb8ce252b0b24b5dd1803c2d911b05e07ee77d0976b"
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped29-request.json",
+    "bytes": 3040,
+    "sha256": "9b833082541723a14a88458809d7a22d98d5f23bff4a2bd6efc290ab2e9090c5"
+  },
+  "actual_vector": {
+    "shape": [
+      12499
+    ],
+    "dtype": "<f8",
+    "sha256": "4c3e1f334292d3662c0e458982848414027bf77fa95981f5221c6a95311e3f7b"
+  },
+  "actual_input": null,
+  "node": 84,
+  "node_difference_from_saved_actual_packet": 0.0,
+  "original_node_evaluations": 1,
+  "cell_interval": [
+    74,
+    76
+  ],
+  "original_complete_R165_block_evaluations": 1,
+  "bitwise_replayed_arrays": 9,
+  "changed_full_vector_reuse_rejected": true,
+  "whole_F_J_BVP_or_body_run": false,
+  "mathematical_row_assembly_and_Armijo_not_changed": true,
+  "exact_closed_packets": [
+    {
+      "phase": "node",
+      "descriptor": {
+        "node": 84,
+        "physical_label": 0.9491151252450164,
+        "local_vector": {
+          "shape": [
+            149
+          ],
+          "dtype": "<f8",
+          "sha256": "e16faf450444dee00124ef49ee4d0265f479268eb6a062a3cd74ac51676016cd"
+        }
+      },
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/node-9168e1bbff479029451693c0792117b439afed1b7175200a04a44578f75478ec/manifest.json",
+        "bytes": 21323,
+        "sha256": "e03a42b0dae6e204b11c0e225f250d24153ab1166b3578deeb9b8882f5c00e3a"
+      },
+      "reused_complete_packet": false
+    },
+    {
+      "phase": "cells",
+      "descriptor": {
+        "node_start": 74,
+        "node_stop": 76,
+        "local_mesh": {
+          "shape": [
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "0d77b8f655c47358a3a2367f79651a1caed6039dfdcf4c877ff90cb7e3eb6880"
+        },
+        "local_vector": {
+          "shape": [
+            339
+          ],
+          "dtype": "<f8",
+          "sha256": "f6cee1dfdee9753c303f417ff7ad1ad3a39f6b9a2d280ef896a34f71c6ff9a04"
+        },
+        "settings": {
+          "order": 2,
+          "high_weight": 1.0,
+          "jacobian": false
+        }
+      },
+      "manifest": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-checkpointed-value-cache-02-blocks/cells-3477db830c1283c2312f51fa70520d3e323ec69713bb45702009c3a483b5ec8c/manifest.json",
+        "bytes": 170627,
+        "sha256": "6fa1a1fc44a52467835223d173c7284e64dec40babe001d2b0b7290d71c585d6"
+      },
+      "reused_complete_packet": false
+    }
+  ],
+  "seconds": 1.8486275170034787,
+  "peak_rss_kib": 105520
+}

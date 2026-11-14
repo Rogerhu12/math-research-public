@@ -1,0 +1,23 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 87585,
+  "initial_chunk_id": "4857bc",
+  "final_chunk_id": "2b9476",
+  "actual_exit_code": 0,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-report.json",
+    "bytes": 24847,
+    "sha256": "a203c6fff516fe5dbbb36abab29c2c1cca7f5e7b0233e9539b751d18f7e684dc"
+  },
+  "source": {
+    "path": "scripts/fd2d_gc_r136_rebind_profile_v2.py",
+    "bytes": 5598,
+    "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+  },
+  "seconds": 1.1114433539987658,
+  "peak_rss_kib": 86308,
+  "passed": true,
+  "receipt_written_after_environment_resume": true,
+  "original_process_repeated": false,
+  "scope": "Actual already-completed small interval computation; no whole F/J/BVP/body"
+}

@@ -1,0 +1,29 @@
+{
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "command": [
+    "python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-prefix-angular-metric.py",
+    "--geometry",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "--target",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "--baseline",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+    "--bridge",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+    "--intervals",
+    "0",
+    "74",
+    "--budget",
+    "1e-8",
+    "--initial-arcs",
+    "128",
+    "--max-depth",
+    "1",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-prefix-angular-local-fixture.json"
+  ],
+  "exit_code": 0,
+  "seconds": 8.270261980003852,
+  "maximum_rss_bytes": 468885504
+}

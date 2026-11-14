@@ -1,0 +1,51 @@
+{
+  "schema": "fd2d-closed-root-finite-diagnosis-manifest-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T17:20:01.646036+00:00",
+  "files": [
+    {
+      "path": "scripts/fd2d-root-outer-cell-quadrature23b4.py",
+      "bytes": 7351,
+      "sha256": "ea8c0c84787e06931e17a1baa909faa9b6c562c7c50d04a4bcf7c6cca4f76358"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-outer-cell-quadrature23b4.md",
+      "bytes": 2619,
+      "sha256": "e991eb340b8f6fd65c5e6229f09956dafe7cc5eee377dddaea7f45e8b58ee584"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-outer-cell-quadrature23b4-01-report.json",
+      "bytes": 16725,
+      "sha256": "7414df09d749a5fbad311710bf3275ca21f5f2f42d6ef1bb8ec0dc405e7f8d26"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-outer-cell-quadrature23b4-01-witnesses.npz",
+      "bytes": 97498,
+      "sha256": "4ea0ae75a4c9b348e0afbc9e538091fac2ebc3b1d8d3dc5c1b24370587d295a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-outer-cell-quadrature23b4-01-process-receipt.json",
+      "bytes": 3248,
+      "sha256": "5618c81362f82880a977725cbd8a82d2af2e5a36d3c2bf004cac7a2b0c03a392"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-root-outer-cell-quadrature23b4-01-process-receipt-console.txt",
+      "bytes": 2676,
+      "sha256": "ba9042f381aa827b0d7e503daf9130fdf89c2fa9401e7210b44853dddb596f9f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-field.npz.gz",
+      "bytes": 1521250,
+      "sha256": "32163a783481ccd2fc8463fbd599c10451310e0cb3bebeec164d65e519984dc2"
+    }
+  ],
+  "actual_process": {
+    "session": 12655,
+    "launch_chunk": "2d512d",
+    "final_chunk": "14c794",
+    "exit_code": 0
+  },
+  "source_not_mutated_while_active": true,
+  "no_J_or_BVP_or_body": true,
+  "continuous_certificate": false
+}

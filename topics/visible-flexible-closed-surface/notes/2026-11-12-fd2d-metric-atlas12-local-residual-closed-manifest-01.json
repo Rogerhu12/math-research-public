@@ -1,0 +1,71 @@
+{
+  "schema": "fd2d-actual-atlas12-local-residual-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-atlas-local-residual-screen.py",
+      "bytes": 12246,
+      "sha256": "8f82a80a5c8e218edba36890cdcdeed31494f9c7fd06e4d411d77d341144dc24"
+    },
+    {
+      "path": "scripts/fd2d-metric-atlas-local-residual-finalize.py",
+      "bytes": 7781,
+      "sha256": "2e3cf45f9ef129144e85b1090c4da4510229390b4e93c9c41037f48934cf3a69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual.md",
+      "bytes": 7869,
+      "sha256": "c5751cc598491fe125243bbcfdc705bc37b2789b4bbc5399baec9ab80cca6e38"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-samples.npz",
+      "bytes": 180124,
+      "sha256": "4f55fdbf9e7ae21e14bbc6e21b0e7b40bb0c8dc3bd1e9bc7b9373f08de075eea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-definition.json",
+      "bytes": 36917,
+      "sha256": "dbae09599707e7686ec52afabcf5403e11b1df561b48b2db1a18c32c621d519c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-exit-receipt.json",
+      "bytes": 1239,
+      "sha256": "67884af6b9a2388757bd616b1b4fc0f00053ea71b7c6b4de386ef1391f69ac31"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-finalized-report.json",
+      "bytes": 86499,
+      "sha256": "d8bd1174e6e62a3130b438f6dd70f2b77c9891c22b0849abbd9ecdd88a9a7b63"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-finalizer-exit-receipt.json",
+      "bytes": 557,
+      "sha256": "632dfb762f053b40c09d55b17825a48ad3227a7322bceba2b58f82928875719f"
+    }
+  ],
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0001-accepted-0002.npz",
+    "bytes": 54990,
+    "sha256": "ef6dc889f6dd647b18767cd8564dc4fd68f2c355ad77b6d6e2c9cff3b7d2bf89"
+  },
+  "producer": {
+    "session_id": 17762,
+    "completion_chunk_id": "e53da0",
+    "exit_code": 1,
+    "reason": "Final JSON longdouble serialization; complete numerical samples and definition saved"
+  },
+  "finalizer": {
+    "session_id": 62656,
+    "completion_chunk_id": "d4f225",
+    "exit_code": 0,
+    "field_reevaluated": false
+  },
+  "finite_sampling": {
+    "node": 64,
+    "cell": 71,
+    "angular_labels": 1024
+  },
+  "original_nonzero_exit_not_reinterpreted": true,
+  "BVP_or_Jacobian_matrix_assembled": false,
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

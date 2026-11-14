@@ -1,0 +1,29 @@
+{
+  "scope": "Independent metadata/scalar-transform review only; zero solver/root/flow/RK calls.",
+  "recorded_utc": "2026-11-09T14:32:42.905488+00:00",
+  "tool_receipt": {
+    "tool": "exec_command",
+    "chunk_id": "b7abb5",
+    "exit_code": 0,
+    "wall_time_seconds": 0.206917985
+  },
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "python",
+    "scripts/db6f-prefix-review-harmonic-s1-input.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-review-harmonic-s1-input.json"
+  ],
+  "source": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-harmonic-s1-input.py",
+    "bytes": 9560,
+    "sha256": "6941322488d781f42d25b81ede3f904cae79664f53f5cc2c666154bc5cf5c4b1"
+  },
+  "report": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-harmonic-s1-input.json",
+    "bytes": 22353,
+    "sha256": "52df8f0993142253e89f0de8335f4fc1133054777fde6f418db7cd0227b34f2d"
+  },
+  "new_candidate_file_written": false,
+  "solver_calls": 0
+}

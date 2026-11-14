@@ -1,0 +1,149 @@
+{
+  "status": "numerical-critical-grid-design-not-a-certificate",
+  "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128_tail_0004.json.gz",
+  "inputSHA256": "9f039cf6d13ff9938a9523716ef4a34f22477bc7c2fed5c7d6dbb7547b565745",
+  "scriptSHA256": "77bcd4170d403d7957a30967ecc0a9a58f97889aa2b02dc3268ebad08779243a",
+  "radius": 0.5209378646005576,
+  "stage": 7,
+  "rawCell": 0,
+  "rawSegment": 5,
+  "angularNodes": 512,
+  "flowSteps": 256,
+  "nativeCheckpointSteps": 128,
+  "physicalStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "layers": [
+    {
+      "x": 0.8507581159419271,
+      "r": 0.52093744282803,
+      "widthScale": 0.0019334422863150134,
+      "radialSpeed": 0.00043472596539006076,
+      "sourceWxDerivative": -1.3547049212782603
+    }
+  ],
+  "rows": [
+    {
+      "steps": 64,
+      "ratio": 0,
+      "nodes": 67,
+      "maxFirstSampleError": 1.7210870918542287e-8,
+      "maxSecondSampleError": 0.006048491606418294,
+      "worst": {
+        "x": 0.8563826452299808,
+        "r": 0.5209433701844453,
+        "sourceSecond": 0.05289267296380107,
+        "interpolatedSecond": 0.05894116457021936,
+        "span": [
+          0.8507581159419271,
+          0.859375
+        ],
+        "radialSpan": 0.000011854712830565795
+      },
+      "stageEndpointFirstDefect": 9.495503341949707e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0,
+      "nodes": 131,
+      "maxFirstSampleError": 1.0134697975804074e-8,
+      "maxSecondSampleError": 0.00498428709513752,
+      "worst": {
+        "x": 0.8462072955997543,
+        "r": 0.5209330951516062,
+        "sourceSecond": -0.04979521948747401,
+        "interpolatedSecond": -0.05477950658261153,
+        "span": [
+          0.84375,
+          0.8507581159419271
+        ],
+        "radialSpan": 0.00000869535284742974
+      },
+      "stageEndpointFirstDefect": 9.46344825419887e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.2,
+      "nodes": 182,
+      "maxFirstSampleError": 2.6251899959417457e-12,
+      "maxSecondSampleError": 0.00000557471269084682,
+      "worst": {
+        "x": 0.8505333584573591,
+        "r": 0.520937339397644,
+        "sourceSecond": -0.007390041902996192,
+        "interpolatedSecond": -0.0073956166156870385,
+        "span": [
+          0.8503300464869934,
+          0.8507581159419271
+        ],
+        "radialSpan": 2.0686077187794174e-7
+      },
+      "stageEndpointFirstDefect": 9.813134679848012e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.1,
+      "nodes": 234,
+      "maxFirstSampleError": 1.8588602879177074e-13,
+      "maxSecondSampleError": 3.7065330312337566e-7,
+      "worst": {
+        "x": 0.8506538880436572,
+        "r": 0.5209373962871886,
+        "sourceSecond": -0.003629085404900756,
+        "interpolatedSecond": -0.0036294560582038793,
+        "span": [
+          0.850554774041629,
+          0.8507581159419271
+        ],
+        "radialSpan": 9.308168281937949e-8
+      },
+      "stageEndpointFirstDefect": 9.958101183926704e-12
+    },
+    {
+      "steps": 128,
+      "ratio": 0.05,
+      "nodes": 339,
+      "maxFirstSampleError": 1.831521045936313e-13,
+      "maxSecondSampleError": 2.6332040197179357e-8,
+      "worst": {
+        "x": 0.011721804940834524,
+        "r": 0.5122401193789579,
+        "sourceSecond": -0.002358998953495112,
+        "interpolatedSecond": -0.002359025285535309,
+        "span": [
+          0.0078125,
+          0.015625
+        ],
+        "radialSpan": 0.000015035311741724829
+      },
+      "stageEndpointFirstDefect": 1.0029659394672485e-11
+    }
+  ],
+  "scope": "One-stage theta=0 height two-jet interpolation diagnostic. The initial CP is fixed; altered local integration grids are not a re-shot boundary solve.",
+  "finished": true
+}

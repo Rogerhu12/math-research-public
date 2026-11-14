@@ -1,0 +1,21 @@
+{
+  "status": "ORDINARY_TERMINAL_GIT_PUSH_SUCCEEDED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T20:30:17.665296+00:00",
+  "terminal_session": 95066,
+  "actual_receipt": "96047e",
+  "actual_git_push_exit_code": 0,
+  "evidence": "Shell conditional following actual gita push entered its success branch and returned the prompt.",
+  "published_commit": "af206baee1e2bf97aad313b8d4f417e8645f4ac7",
+  "latest_parent": "531c5a63ad02ba1f78715f2ea2323e6121d61896",
+  "closed_source_commit": "382f1aa79513f197500e5548f030ee747e7fdcec",
+  "preparation": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-382-prepared-attempt1.json",
+    "bytes": 60208,
+    "sha256": "3ec332df5b26c7efabd26b9b97c0924d96d3b69e4b8a1838cc0c29e9ee1f8ccf"
+  },
+  "force_push": false,
+  "unrelated_paths_preserved": true,
+  "data_transfer": "terminal git only",
+  "scope": "The source worktree HEAD remains the equivalent local closed commit; later publication compares own-topic changes against that exact source base."
+}

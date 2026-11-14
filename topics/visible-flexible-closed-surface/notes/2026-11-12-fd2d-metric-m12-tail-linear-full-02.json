@@ -1,0 +1,254 @@
+{
+  "schema": "fd2d-continuous-tail-linear-material-residual-v1",
+  "scope": "Resume proved exact tail cells and continue with normal-range intervals.\n\nThe unchanged continuous consumer defines the geometry and linear strain.\nEach row covers its full exact radial box and all angular modes. Old bounds\nare reused only for the identical reconstructed box and defining inputs.\nEvery new row is a closed gzip member; a stop file is checked at box edges.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-tail-linear-resume.py",
+    "bytes": 13404,
+    "sha256": "986f15192a64d89c171e71167fdd77ef399168aa50c77ad9808e114329b54cc3"
+  },
+  "mathematical_engine": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-tail-linear-continuous.py",
+    "bytes": 11128,
+    "sha256": "757950545e81a500be6e48327c86bf0af1cda064b4190bf8f985d592efc3194b"
+  },
+  "interval_arithmetic_adapter": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-normal-interval-arithmetic.py",
+    "bytes": 3384,
+    "sha256": "fe197e7fe8923de3aa5f7ed45130aa63c632162cc017a12a734a4836f6a32032"
+  },
+  "interval_arithmetic_policy": {
+    "input_normal_range_floor": 3.8725919148493183e-121,
+    "input_normal_range_floor_exact": "1/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+    "exact_zero_midpoint_radii_preserved": true,
+    "underflow_budget_only_increased": true,
+    "floating_point_modes_changed": false,
+    "actual_fourier_modes_discarded": false
+  },
+  "prior_checkpoint": {
+    "checkpoints": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-tail-linear-full-01.checkpoints.jsonl.gz",
+      "bytes": 277131,
+      "sha256": "8e25bce655e52a634e491fff746e19e131521127a4f476c87ab2eeb6058eea88"
+    },
+    "original_engine_sha256": "757950545e81a500be6e48327c86bf0af1cda064b4190bf8f985d592efc3194b",
+    "defining_inputs_observed_at_resume": {
+      "manifest": {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+        "bytes": 138611,
+        "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+      },
+      "packet": {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+        "bytes": 3979,
+        "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+      },
+      "field": {
+        "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+        "bytes": 7350,
+        "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df"
+      }
+    },
+    "identity_scope": "The original header records paths and engine SHA. These immutable saved inputs are hashed here; the old header did not contain their hashes.",
+    "completed_exact_intervals": 1043,
+    "exact_endpoints_and_packet_spans_reconstructed": true,
+    "all_prior_complete_gzip_members_verified": true
+  },
+  "reused_intervals": 1043,
+  "newly_computed_intervals": 764,
+  "stopped_at_complete_cell": true,
+  "manifest": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+    "bytes": 138611,
+    "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+  },
+  "packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+    "bytes": 3979,
+    "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+  },
+  "low_memory_defining_reader": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-light-tail-definition-reader.py",
+    "bytes": 5089,
+    "sha256": "2060f2b536a3c25f2c2f984bbd10011f206cb57edf861902d0eeb83cd4aae354"
+  },
+  "packet_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.npz.gz",
+    "bytes": 2377155,
+    "sha256": "a9173083636377a323ff9438481fd8a90c84772f9791b78c8542b7e209301cc8"
+  },
+  "field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+    "bytes": 7350,
+    "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df"
+  },
+  "field_bindings": [
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000000-000064.npz.gz",
+      "bytes": 963554,
+      "sha256": "14f45a76238b645569491c564a67f30cec83bf2e7cd096ec8f1f38572a9a40d0"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000064-000128.npz.gz",
+      "bytes": 1161712,
+      "sha256": "18d3ac6c8e38ddbed24b36c1544df0524c7ddde77215c9dd775188c1c655b2c8"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000128-000192.npz.gz",
+      "bytes": 1163093,
+      "sha256": "3029c1bd694fbe1e08674e327abb022838cc1146020a860a34cf88306b9c9649"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000192-000256.npz.gz",
+      "bytes": 1164080,
+      "sha256": "1e5437b2342fbc66c42e4118c90f082113942d01bcef97e27c0b41c62adfef7a"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000256-000320.npz.gz",
+      "bytes": 1163899,
+      "sha256": "05d06e4c79d394792d61312567b0ccf9a54a5c30ac889f5e77a0e29c1c676ff0"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000320-000384.npz.gz",
+      "bytes": 1163947,
+      "sha256": "9cd8d053094530f2aad4476202a47aca40595207d693cb2d11b8c35abb7507c4"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000384-000448.npz.gz",
+      "bytes": 1163939,
+      "sha256": "f9c45f8a707e58bf14990f27a05d0dcc684cff812cb804c6c89659286c3ad3c6"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000448-000512.npz.gz",
+      "bytes": 1163952,
+      "sha256": "ee2696a6d9f956646dadf58c13dc1b845cc037bf7b8a5bdde00c5bfaea9e2ead"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000512-000576.npz.gz",
+      "bytes": 1164093,
+      "sha256": "d6e8da6bc989df0f722d3a3ce5038065868a0ce2cce0df06821ac6876f7c2370"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000576-000640.npz.gz",
+      "bytes": 1162230,
+      "sha256": "81671827d2bae4dbc28f05c8a837af2f78a3654c43b791f129ec13a96b5b2538"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000640-000704.npz.gz",
+      "bytes": 1161654,
+      "sha256": "f966306a3eeb19d5ae7dc6ea09df5637b9d733f231f2ebd0789d9da81b369c6d"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000704-000768.npz.gz",
+      "bytes": 1161225,
+      "sha256": "6f1b894ac996e1472a0b8ab367c228229679d24b8605537959fc1b5cd42002b4"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000768-000832.npz.gz",
+      "bytes": 1161753,
+      "sha256": "1c4446138d879ab3987b6725690ed3feb45d1a6acfebd00d65e343ea1f3e0288"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000832-000896.npz.gz",
+      "bytes": 1162002,
+      "sha256": "62a428da8a859d1bc7a874da36153952eddfd3c53235e012fbf608ec58a09ffc"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000896-000960.npz.gz",
+      "bytes": 1162448,
+      "sha256": "ece52e9d1170b3ddb5fadbd3d0a23f44846b6d4894c73d4b14cecf53b56b344e"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-000960-001024.npz.gz",
+      "bytes": 239744,
+      "sha256": "a0b018a7feca59602b0142a80c5cfe5e3a7d3abd0d4e563fb08f6987c37e3784"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-nodes-001024-001025.npz.gz",
+      "bytes": 324,
+      "sha256": "94e07e613e993d01da9142db3d25f5d0d44c0025e0f7e6ff9d0aa4bb93064f4c"
+    }
+  ],
+  "exact_domain": [
+    "3602879701896397/9007199254740992",
+    "5404319552844595/9007199254740992"
+  ],
+  "total_radial_cells": 5030,
+  "selected_cell_range": [
+    0,
+    1807
+  ],
+  "selected_exact_domain": [
+    "3602879701896397/9007199254740992",
+    "133/256"
+  ],
+  "selected_radial_cells": 1807,
+  "radial_subdivisions": 1,
+  "angular_arcs_covering_one_threefold_period": 1024,
+  "maximum_angular_arcs": 4096,
+  "angular_refinement": "Each attempted partition covers all angles; take the minimum of valid whole-period bounds.",
+  "all_finite_angular_modes_covered": true,
+  "complete_tail_activity_domain": false,
+  "linear_operator_upper": 1.2566186391203421e-09,
+  "worst_interval": {
+    "cell": 1317,
+    "subdivision": 0,
+    "left_exact": "4498321971557171/9007199254740992",
+    "right_exact": "4500081190161613/9007199254740992",
+    "packet_row": 27772,
+    "tail_span": 17387,
+    "linear_operator_upper": 1.2566186391203421e-09,
+    "all_angle_attempts": [
+      {
+        "angular": 1024,
+        "upper": 1.2566186391203421e-09
+      }
+    ],
+    "reused_closed_interval": false,
+    "prior_upper_if_refined": null
+  },
+  "threshold": 1.9e-09,
+  "threshold_met": false,
+  "field_coordinates": "p is meridian sigma displacement; stored two jets use physical r and u",
+  "target_kind": "original common rotational tail metric, same frozen background packet",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "nonlinear_pullback_certified": false,
+  "deep_tail_included": false,
+  "whole_surface_certified": false,
+  "row_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-tail-linear-full-02.rows.jsonl.gz",
+    "bytes": 500949,
+    "sha256": "60a768d88ec03aa20b44ccfc3d466b39282dcd3d40b916e8dd3cb7bc3b7cf63b"
+  },
+  "row_format": "Concatenated closed gzip members, one JSON line per exact interval",
+  "completed_cell_checkpoints": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-tail-linear-full-02.checkpoints.jsonl.gz",
+    "bytes": 623609,
+    "sha256": "329c38f86db61f4fe60325b0b78f5db939507d70e257b5f3b5f0c126e78b2a5a"
+  },
+  "seconds": 529.5769272909965
+}

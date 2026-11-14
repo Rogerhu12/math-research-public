@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-closed-research-group-v1",
+  "status": "one finite native branch diagnostic; no new theorem number or continuous positivity claim",
+  "created_utc": "2026-11-12T16:28:46.894271+00:00",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-terminal-branch20-probe.py",
+      "bytes": 5601,
+      "sha256": "9f328a195c59f03a7aed8e8051b2f625be13415bc1424f4c5e0fc87db4eaedc3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-terminal-branch20-probe-01.json",
+      "bytes": 17346,
+      "sha256": "7ade172c1b65d190f86795b6c0175a68c0f80a32743c2d4e5585056d6208cc5e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-terminal-branch20.md",
+      "bytes": 4605,
+      "sha256": "22a46604140b0105b843ddb6fba47f55beb6307634ce6c9f1ec0d38e95464331"
+    }
+  ],
+  "total_bytes": 27552,
+  "execution": {
+    "session_id": 94825,
+    "initial_chunk_id": "8e8f12",
+    "final_chunk_id": "a759c3",
+    "natural_exit_code": 0,
+    "wall_seconds": 2.4367437190012424,
+    "peak_rss_kib": 80600
+  },
+  "scope": [
+    "Actual closed20 SHA5f4f4096... input unchanged",
+    "One 21x128 native physical-late-grid evaluation, exact U=xi, no angle inverse",
+    "Protected trace ramp samples positive definite, not a whole-domain certificate",
+    "Left oldcell115 includes positive-K indefinite samples; no positive-K negative-definite sampled matrix",
+    "No BVP, wholeF/J, body, reset or source mutation; existing R155/R156 theorem not duplicated"
+  ]
+}

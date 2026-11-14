@@ -1,0 +1,62 @@
+{
+  "schema": "fd2d-actual-normal-relative-to-unnormalized-frame-cross-v1",
+  "actual_execution": true,
+  "source_sha256": "402d3f3ede62e22f22fb6ff020b37884664e55d705f78eede4b090730c239737",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "metric_sha256": "1db13655fe83e9a9430dc16a647765477438024e574d66f04c4c58d90d5671ec",
+  "normal_variation_sha256": "d0346166838ec246cbf48ff91c5445abe1c7024d9d1b3e5cbb69d550a087c7f8",
+  "reference_vector": "E(phi)=e1(phi) cross e2(phi), from the complete finite Cartesian Fourier fields",
+  "reference_is_assumed_unit": false,
+  "exact_frame_or_developability_assumed": false,
+  "whole_ruling_normal_variation_upper": {
+    "lower_binary": [
+      "4329769781256845867497834025889835647671296232094987605683",
+      -210
+    ],
+    "upper_binary": [
+      "4329769781256845867497834025889835647671296232094987605683",
+      -210
+    ],
+    "lower_display": 2.6312718260139496e-06,
+    "upper_display": 2.6312718260139496e-06
+  },
+  "inlet_normalized_reference_error_upper": {
+    "lower_binary": [
+      "4766973846143365729514583243045770211326496948956034975591",
+      -216
+    ],
+    "upper_binary": [
+      "4766973846143365729514583243045770211326496948956034975591",
+      -216
+    ],
+    "lower_display": 4.526512309831948e-08,
+    "upper_display": 4.526512309831948e-08
+  },
+  "reference_length_error_upper": {
+    "lower_binary": [
+      "5766951467066603590273057747233233781745645261053049871561",
+      -237
+    ],
+    "upper_binary": [
+      "5766951467066603590273057747233233781745645261053049871561",
+      -237
+    ],
+    "lower_display": 2.611183087446203e-14,
+    "upper_display": 2.611183087446203e-14
+  },
+  "actual_normal_to_frame_cross_global_upper": {
+    "lower_binary": [
+      "4404253790569972660949341099160943845266904224171431543955",
+      -210
+    ],
+    "upper_binary": [
+      "4404253790569972660949341099160943845266904224171431543955",
+      -210
+    ],
+    "lower_display": 2.6765369752241e-06,
+    "upper_display": 2.6765369752241e-06
+  },
+  "all_angles_and_all_original_rulings_covered": true,
+  "passed": true,
+  "seconds": 0.10587129399937112
+}

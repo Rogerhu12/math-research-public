@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 55489,
+  "launch_chunk": "371ea5",
+  "completion_chunk": "01d1b2",
+  "actual_exit_code": 0,
+  "completed": true,
+  "seconds": 46.382934917000966,
+  "peak_rss_kib": 207316,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-positive-trace-warm04-report.json",
+    "bytes": 20387,
+    "sha256": "dbea5aa9ff35496b398300d48d87ecde1a8a6889539ad7691b43cb0064ec47ce"
+  },
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "scope": "Actual R153+R155 new field and complete nonzero local JVP. The original d,m positive-trace warm has large actual Codazzi residual; no BVP/body or good-solution claim."
+}

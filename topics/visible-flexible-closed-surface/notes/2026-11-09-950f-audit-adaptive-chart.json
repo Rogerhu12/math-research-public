@@ -1,0 +1,34 @@
+{
+  "status": "PASS: exact chart is C2 and globally orientation preserving",
+  "chart_path": "notes/2026-11-09-950f-prefix-adaptive-chart.json",
+  "chart_sha256": "c8c456a1ebc6b0ef1ac4af1a7540443a70229a1b9eda14d89294c610844a0035",
+  "source_sha256": {
+    "scripts/950f-prefix-adaptive-chart-bvp.py": "1a555e16fe3fad23bd65dbd1f09b903c5e40302846ada6fb0dbe3d30b790d02e",
+    "scripts/950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+    "scripts/950f-prefix-chart-twojet-check.py": "3bbe4d2e58215faacc6c1b8295a832f868d3f55f1362ccc723b39eb524775716"
+  },
+  "interpretation": "Exact clamped C2 cubic spline through the recorded binary64 data, multiplied by the exact quintic cutoff; e0=16/25.",
+  "spline_second_derivative_upper": {
+    "numerator": "351466444304979650083582032572416",
+    "denominator": "3380401600608609485524728195755",
+    "decimal_diagnostic": 103.97180152846379
+  },
+  "spline_abs_value_upper": {
+    "numerator": "26867280109499509888333365999550705231160801184200401225963",
+    "denominator": "26782300737649820085103209381190171085545907255610460602368",
+    "decimal_diagnostic": 1.003172967575942
+  },
+  "rho_global_lower": {
+    "numerator": "14980064793078333994640398658558937090004678902690943465237",
+    "denominator": "41847344902577843882973764658109642321165480086891344691200",
+    "decimal_diagnostic": 0.35796930075139716
+  },
+  "strict_rho_lower": "357/1000",
+  "cut_chart_jets": "e=e_s=e_ss=0 exactly",
+  "unpaid": [
+    "floating spline coefficient error",
+    "surface existence",
+    "nonlinear tail matching",
+    "global geometric bounds"
+  ]
+}

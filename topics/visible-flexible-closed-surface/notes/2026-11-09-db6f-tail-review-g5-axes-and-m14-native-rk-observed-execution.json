@@ -1,0 +1,37 @@
+{
+  "status": "OBSERVED_ACTUAL_READ_ONLY_CHECK_EXIT_ZERO",
+  "observer": "/root/tail_review_continued_2",
+  "recorded_at_utc": "2026-11-09T21:03:59.969700+00:00",
+  "actual_tool_receipt": "10ff5c",
+  "actual_tool_exit_code": 0,
+  "command": [
+    "python",
+    "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-g5-axes-and-m14-native-rk.py",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-g5-axes-and-m14-native-rk-check.json"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-g5-axes-and-m14-native-rk.py",
+    "bytes": 17738,
+    "sha256": "0f9ab65f47f2daeb6cbc029e4083a5d32cdbc9e898f072000e189c68f191c0a3"
+  },
+  "report": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-g5-axes-and-m14-native-rk-check.json",
+    "bytes": 11166,
+    "sha256": "6ca212ab3885dc8ef2ba048eb41c16a6eb85ccf082513e6ed9adadebd487a341"
+  },
+  "earlier_unsealed_checker_error": {
+    "actual_receipt": "4f9aa6",
+    "actual_tool_exit_code": 1,
+    "reason": "Reviewer static source anchor used wrong local variable spelling; author sources unchanged. Corrected in checker before successful report generation."
+  },
+  "solver_calls": 0,
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "RK_calls": 0,
+  "flow_calls": 0,
+  "active_outputs_read": false,
+  "future_candidate_created": false,
+  "G5_complete": false
+}

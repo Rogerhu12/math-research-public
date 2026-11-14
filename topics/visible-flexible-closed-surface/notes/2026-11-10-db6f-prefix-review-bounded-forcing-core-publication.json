@@ -1,0 +1,41 @@
+{
+  "schema": "db6f-prefix-bounded-forcing-review-publication-v1",
+  "reviewer": "/root/coupled_prefix",
+  "status": "PASS_COMPLETE_FOURTEEN_SECTION_PROOF",
+  "subject": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-bounded-forcing-strong-support-core-v1.md",
+    "commit": "fb9c9d106be35e52fc17bc91ddaf4895c0817dc4",
+    "blob": "32a23264bab0138aba1d67dc24d9310aeb3e6d0b",
+    "bytes": 21223,
+    "sha256": "2052d22f434067cc97875c100fd9183e8213a3357b06f6fa28bc88acc3af6b98"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-prefix-review-bounded-forcing-core-receipt.json",
+      "commit": "ea1f169ca0d590fdd9ea0903394252ff0bb85ff2",
+      "blob": "fabe43bdce75822cc5e112ce3cffcc6e2aa9b655",
+      "bytes": 8200,
+      "sha256": "ce5efb84572c404008707b77060883efff7a669c543021bec2fb517b05fa6fe0",
+      "fixed_readback_equal": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-prefix-review-bounded-forcing-core.md",
+      "commit": "8e03f06cb5b68bcdc85a06e8ee9b941345b99bfa",
+      "blob": "f73344ddce8d7e2cecb42135a98882f3ddbcbd92",
+      "bytes": 20193,
+      "sha256": "51a474a5a37855bcac6bdf6fa3f2bdef5ea0f29b8b2e63940b5c49b6c49233b3",
+      "fixed_readback_equal": true
+    }
+  ],
+  "independent_execution": {
+    "started_utc": "2026-11-10 00:51:31 UTC",
+    "finished_utc": "2026-11-10 00:51:31 UTC",
+    "unique_appendix_bytes": 2853,
+    "appendix_sha256": "b215925f779f522ba32c4d6174b5b5e738fa90d3db13881f679d497abb2c15d1",
+    "v8_checks_passed": 28,
+    "terminal": false,
+    "python": false,
+    "pde_solver": false
+  },
+  "scope": "Exact common-metric embedded annulus with two boundary circles, effective held/D>53/204, full E(3) quotient/D>7/136 and reach/D>25/544; not a closed-surface completion, not numerical G5."
+}

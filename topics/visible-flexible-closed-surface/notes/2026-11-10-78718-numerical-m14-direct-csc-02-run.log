@@ -1,0 +1,4 @@
+{"event": "start_coupled", "q": 0.1, "M": 14, "nodes": 2633, "fixed": true}
+{"event": "result", "success": false, "delta": 0.07254443456654512, "q": 0.0999997641388736, "metric": 8.006115267815534e-08, "darboux": 0.0005483769822027767, "first_mean_mismatch": 4.1810999107383395e-13, "second_mean_mismatch": -5.283329329586195e-12, "tail_calls": 3}
+{"event": "spectral_true_program_failure", "error": "ValueError('Original coupled program did not close a successful prefix')"}
+{"status": "DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_FAILURE", "mathematical_success": false, "requested_process_exit_code": 2, "spectral_BVP_calls": 1}

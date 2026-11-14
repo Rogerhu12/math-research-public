@@ -1,0 +1,59 @@
+{
+  "status": "PROVED_CONDITIONAL_NONCIRCLE_PULLBACK_BOX",
+  "geometry": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+    "bytes": 9031,
+    "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+  },
+  "target": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "bytes": 3668,
+    "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+  },
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-noncircle-pullback-budget.py",
+    "bytes": 7363,
+    "sha256": "014d29adc7504cd888a80bfb4b0197d9b9208da1c3b7a6e47559b73aa387a935"
+  },
+  "prefix_first_derivative_upper_exact": "3242591731706757/18014398509481984",
+  "prefix_second_derivative_upper_exact": "20203798634462399698175496240424443948897528944/28649989519171623325122774272837171647656016749",
+  "bridge_phase_bernstein_exact": [
+    "0",
+    "0",
+    "20241826232752955193537178959289/10141204801825835211973625643008",
+    "2493077276450591/2251799813685248"
+  ],
+  "bridge_second_derivative_upper_exact": "269943927811608129892621498899927/6478690645495999387224720277504",
+  "metric_G2_analytic_upper_exact": "3034170112382649422691083690674237/32393453227479996936123601387520",
+  "target_bounds_exact": {
+    "fmin_on_activity": "2/5",
+    "G0": "121/100",
+    "G1": "11/5",
+    "G2": "1000"
+  },
+  "required_field_box_exact": {
+    "p": "1/10000000000",
+    "q": "1/10000000000",
+    "Dv_operator": "1/1000000",
+    "D2v_bilinear": "1/100",
+    "old_relative_error": "3/100000000",
+    "continuous_linear_relative_error": "19/10000000000",
+    "fixed_target_transfer": "1/1000000000000"
+  },
+  "coordinate_displacement_upper": 1.4142135623730956e-10,
+  "nonlinear_coordinate_remainder_upper": 4.705312984226618e-12,
+  "target_frame_factor_upper": 1.0000000013750001,
+  "frozen_target_metric_upper": 1.9294082087639175e-09,
+  "original_fixed_target_metric_upper": 1.930408208765848e-09,
+  "below_original_2e9_tolerance": true,
+  "actual_field_verified": false,
+  "actual_continuous_linear_error_verified": false,
+  "new_complete_surface": false,
+  "additional_hypotheses": [
+    "Actual C2 periodic field with interface two jets",
+    "Global diffeomorphism; zero deep-tail field and f>=.4 on activity/image",
+    "Own complete continuous field and linear residual certificates",
+    "R21 same-background curvature and exact-bridge transfer evidence"
+  ],
+  "proof": "R112 section 4.1; exact rational flat-ramp derivatives, frozen bridge phi Bernstein bound, analytic tail curvature <=6"
+}

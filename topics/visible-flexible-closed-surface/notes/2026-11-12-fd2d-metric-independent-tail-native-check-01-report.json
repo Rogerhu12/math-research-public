@@ -1,0 +1,448 @@
+{
+  "schema": "fd2d-R158-independent-tail-native-small-check-v1",
+  "source": {
+    "fd2d_gc_independent_tail_native_field.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_independent_tail_native_field.py",
+      "bytes": 23627,
+      "sha256": "d030b81e792e252be1d44d795d1c393a7a8c8fbf4336319de5bcabe0b2a4bbfd"
+    },
+    "fd2d-metric-independent-tail-native-check.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-independent-tail-native-check.py",
+      "bytes": 10765,
+      "sha256": "969932f55e7b0d83ac9e048acb23ab4a131b1d33214df7df714c3e402f327d21"
+    },
+    "fd2d_gc_nested_angular_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_nested_angular_positive_trace.py",
+      "bytes": 8686,
+      "sha256": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c"
+    },
+    "fd2d_gc_positive_trace_native_field_v2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    }
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-field.npz",
+    "bytes": 61242,
+    "sha256": "19cffa6028804219373ed20be8e29d3d11938b3ebdae16ed8caee2aeb79554c9"
+  },
+  "original_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "reference_inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "reference_cache": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "bytes": 401936,
+    "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+  },
+  "status": "completed",
+  "passed": true,
+  "no_BVP": true,
+  "no_body_integration": true,
+  "finite_samples_only": true,
+  "continuous_certificate": false,
+  "layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "counts": {
+    "raw_and_central": 31,
+    "tail": 16,
+    "profile": 7,
+    "parameters": 54
+  },
+  "exact_byte_injection_checks": {
+    "mesh": true,
+    "supports": true,
+    "raw_n": true,
+    "raw_m": true,
+    "raw_l": true,
+    "central": true,
+    "tail": true,
+    "profile": true,
+    "new_coefficients_positive_binary_zero": true,
+    "all_original_complete_definition_packets": true
+  },
+  "original_packets": [
+    "seed_weight_definition",
+    "coast_reference_definition",
+    "angular_atlas_definition",
+    "reference_evaluation_definition",
+    "gauss_l_definition",
+    "positive_trace_definition"
+  ],
+  "original_legacy_reader_rejected": true,
+  "original_legacy_rejection_message": "Expected [central K, tail K+1, physical delta J]",
+  "physical_point_count": 42,
+  "common_physical_point_checks": [
+    {
+      "label": "central",
+      "physical_s": 0.0,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_u": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_uu": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 4.440892098500626e-16,
+      "new_inverse_error": 4.440892098500626e-16
+    },
+    {
+      "label": "coast_rim",
+      "physical_s": 0.6085326067061442,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 4.930380657631324e-32,
+          "scaled_maximum": 8.84889293289864e-34
+        },
+        "_u": {
+          "absolute_maximum": 8.881784197001252e-16,
+          "scaled_maximum": 1.3161003414159113e-17
+        },
+        "_uu": {
+          "absolute_maximum": 7.105427357601002e-15,
+          "scaled_maximum": 6.562847114678307e-18
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 2.842170943040401e-14,
+      "new_inverse_error": 2.842170943040401e-14
+    },
+    {
+      "label": "coast_plateau",
+      "physical_s": 0.7297717225512073,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_u": {
+          "absolute_maximum": 5.551115123125783e-16,
+          "scaled_maximum": 1.961044537038508e-17
+        },
+        "_uu": {
+          "absolute_maximum": 2.842170943040401e-14,
+          "scaled_maximum": 2.3423905015624317e-17
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 1.5987211554602254e-14,
+      "new_inverse_error": 1.5987211554602254e-14
+    },
+    {
+      "label": "between_windows",
+      "physical_s": 1.168258311730272,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 2.465190328815662e-32,
+          "scaled_maximum": 3.608536840075181e-33
+        },
+        "_u": {
+          "absolute_maximum": 4.440892098500626e-16,
+          "scaled_maximum": 1.8225172618703494e-16
+        },
+        "_uu": {
+          "absolute_maximum": 3.552713678800501e-15,
+          "scaled_maximum": 6.705652217591137e-17
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 4.440892098500626e-15,
+      "new_inverse_error": 4.440892098500626e-15
+    },
+    {
+      "label": "terminal_rim",
+      "physical_s": 1.4724731783581286,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_u": {
+          "absolute_maximum": 2.220446049250313e-16,
+          "scaled_maximum": 1.3605196679522138e-17
+        },
+        "_uu": {
+          "absolute_maximum": 3.552713678800501e-15,
+          "scaled_maximum": 1.4420233232766165e-17
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 0.0,
+      "new_inverse_error": 0.0
+    },
+    {
+      "label": "terminal_plateau",
+      "physical_s": 1.4824731783581289,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 1.3877787807814457e-17,
+          "scaled_maximum": 2.500379390074218e-18
+        },
+        "_u": {
+          "absolute_maximum": 4.440892098500626e-16,
+          "scaled_maximum": 6.357626530389988e-17
+        },
+        "_uu": {
+          "absolute_maximum": 3.7865323450608567e-29,
+          "scaled_maximum": 1.7089830955771439e-31
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 0.0,
+      "new_inverse_error": 0.0
+    },
+    {
+      "label": "exact_cut",
+      "physical_s": 1.4889731783581288,
+      "physical_angular_jets": {
+        "value": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_u": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_uu": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "metric": {
+        "a": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_s": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "a_ss": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "J": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        }
+      },
+      "old_inverse_error": 0.0,
+      "new_inverse_error": 0.0
+    }
+  ],
+  "additional_two_native_interior_checks": [
+    {
+      "label": "coast_plateau",
+      "physical_s": 0.7297717225512073,
+      "native_jet_differences": {
+        "value": {
+          "absolute_maximum": 0.0,
+          "scaled_maximum": 0.0
+        },
+        "_x": {
+          "absolute_maximum": 2.220446049250313e-16,
+          "scaled_maximum": 1.204214766645114e-17
+        },
+        "_xi": {
+          "absolute_maximum": 2.220446049250313e-16,
+          "scaled_maximum": 3.58504258423145e-17
+        },
+        "_xixi": {
+          "absolute_maximum": 3.552713678800501e-15,
+          "scaled_maximum": 5.618592438755146e-17
+        },
+        "_x_xi": {
+          "absolute_maximum": 1.7763568394002505e-15,
+          "scaled_maximum": 5.059931196499601e-17
+        }
+      }
+    },
+    {
+      "label": "terminal_rim",
+      "physical_s": 1.4724731783581286,
+      "native_jet_differences": {
+        "value": {
+          "absolute_maximum": 2.7755575615628914e-17,
+          "scaled_maximum": 7.700961528989207e-18
+        },
+        "_x": {
+          "absolute_maximum": 1.7763568394002505e-15,
+          "scaled_maximum": 9.077258936382998e-19
+        },
+        "_xi": {
+          "absolute_maximum": 2.220446049250313e-16,
+          "scaled_maximum": 1.3605196679522138e-17
+        },
+        "_xixi": {
+          "absolute_maximum": 3.552713678800501e-15,
+          "scaled_maximum": 1.4420233232766165e-17
+        },
+        "_x_xi": {
+          "absolute_maximum": 1.4210854715202004e-14,
+          "scaled_maximum": 3.3500893789380256e-18
+        }
+      }
+    }
+  ],
+  "maximum_same_field_scaled_difference": 1.8225172618703494e-16,
+  "maximum_same_field_absolute_difference": 2.842170943040401e-14,
+  "accurate_tail_value_comparison": {
+    "absolute_maximum": 0.0,
+    "scaled_maximum": 0.0
+  },
+  "accurate_cut_zero_II_sample_count": 4,
+  "exact_cut_radial_jet_rejected": true,
+  "definition_reload_difference": 0.0,
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-definition.json",
+    "bytes": 51755,
+    "sha256": "c3d3455b4fff807c2e16cb4cb1e242f1c1559c93d850173aec7aa0e7dae9bb17"
+  },
+  "samples": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-samples.npz",
+    "bytes": 12740,
+    "sha256": "fc8f043c527bd8e419d1717a07271c6848dfd50977a3ea7032ff18d1b66c4bee"
+  },
+  "sources_unchanged": true,
+  "inherited_spatial_evaluation_source_unchanged": true,
+  "mathematical_same_function_reason": "Exact copied old coefficients plus positive zero high coefficients, unchanged tail Bernstein degree and parameters, same profile/atlas/full lifting and pointwise nonlinear maps (R158)",
+  "future_nonzero_high_coefficients_supported": true,
+  "current_embedding_provenance_not_a_future_solution_certificate": true,
+  "seconds": 7.491418421999697,
+  "peak_rss_kib": 81292,
+  "new_sources_unchanged": true
+}

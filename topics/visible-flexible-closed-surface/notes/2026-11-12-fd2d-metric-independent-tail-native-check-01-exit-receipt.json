@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T15:53:04.494773+00:00",
+  "finished_utc": "2026-11-12T15:53:17.601167+00:00",
+  "command": [
+    "python",
+    "scripts/fd2d-metric-independent-tail-native-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-nested-angular-k31-tail16-01-field.npz",
+    "--old-field",
+    "notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "--candidate",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "--inlet",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "--cache",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-independent-tail-native-check-01"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 13.106432464002864,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-independent-tail-native-check-01-console.txt",
+  "console_sha256": "ca921ea74e1267018b8fd8446d2f797b9cd7678e66cd42a48982fb05e310e2a4"
+}

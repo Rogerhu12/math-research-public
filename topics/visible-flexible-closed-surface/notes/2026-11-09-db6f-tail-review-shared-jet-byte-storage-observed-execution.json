@@ -1,0 +1,58 @@
+{
+  "schema": "db6f-independent-readonly-tool-observations-v1",
+  "observer": "/root/tail_review_continued_2",
+  "scope": "Actual old-container memory-only replay plus independent standard-library gzip/ZIP/NPY byte/source checks. No shard or descriptor saved; no numerical or geometry backend called.",
+  "executions": [
+    {
+      "tool_receipt": "dd5b69",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "command": [
+        "python",
+        "scripts/db6f-prefix-check-shared-jet-byte-shards.py",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-shared-jet-byte-shards-replay.json"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "observed_status": "PASS_PURE_OLD_CONTAINER_BYTE_ROUNDTRIP_ONLY",
+      "negative_cases": 37,
+      "parts_in_memory_only": 4,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-shards-replay.json",
+        "bytes": 8806,
+        "sha256": "342c315ecf640bd1ee68176bc00359bc5192441807e39473e74d2cb971061eec"
+      }
+    },
+    {
+      "tool_receipt": "6813e3",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-shared-jet-byte-storage.py"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "observed_status": "PASS_INDEPENDENT_OLD_BYTES_AND_STORAGE_SOURCE_CHECK",
+      "source_count": 32,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-storage-check.json",
+        "bytes": 3085,
+        "sha256": "c268ba9bd2f0837de8786dc12b205ba8a8eb8f8b06e30c7e581e8f7ed640462c"
+      }
+    }
+  ],
+  "actual_solver_root_RK_flow_calls": 0,
+  "actual_geometry_reader_or_backend_calls": 0,
+  "actual_codec_disk_read_entry_calls": 0,
+  "new_shards_descriptors_or_geometry_manifests": 0,
+  "actual_whole_container_byte_equality": true,
+  "old_files_unchanged": true,
+  "G5": false,
+  "README_completed": false
+}

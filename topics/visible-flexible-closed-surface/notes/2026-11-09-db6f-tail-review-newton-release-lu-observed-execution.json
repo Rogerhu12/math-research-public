@@ -1,0 +1,59 @@
+{
+  "status": "OBSERVED_INDEPENDENT_PURE_REVIEW_RUNS",
+  "reviewer": "/root/tail_review_continued_2",
+  "recorded_at_utc": "2026-11-09T21:12:46.652557+00:00",
+  "runs": [
+    {
+      "tool_receipt": "9f213a",
+      "actual_exit_code": 0,
+      "kind": "independently_written_exact_source_and_nine_fake_refresh_protocols",
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-newton-release-lu-lifetime-check.json",
+        "bytes": 11229,
+        "sha256": "53ca99e44b658a0758aa871a787e931fa1ef8ad350b57ff7bcfc304fe95a42a7"
+      }
+    },
+    {
+      "tool_receipt": "c4c2dd",
+      "actual_exit_code": 0,
+      "kind": "independent_original_author_protocol_replay",
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-newton-release-lu-protocol-replay.json",
+        "bytes": 14261,
+        "sha256": "1cfe353071f1c823e507285e81e41559d84094f8af2a03aa2afe0d2f6715c40e"
+      },
+      "byte_identical_to_author": true
+    },
+    {
+      "tool_receipt": "662898",
+      "actual_exit_code": 2,
+      "kind": "fresh_process_readonly_normal_runtime_negative_gate",
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-newton-release-lu-negative-gate.json",
+        "bytes": 1882,
+        "sha256": "303d36428b070382fb5a386b5ba3fe5f2f33af5f6d0ad1534317308029b7db09"
+      }
+    },
+    {
+      "tool_receipt": "ed576a",
+      "actual_exit_code": 0,
+      "kind": "source_and_review_closure",
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-newton-release-lu-closure-check.json",
+        "bytes": 8659,
+        "sha256": "d57bd729e7157a87f6f54d2bf4d734b4a684c4d5736abad2b31b016a40805090"
+      }
+    }
+  ],
+  "pre_freeze_checker_correction": {
+    "tool_receipt": "abd7cf",
+    "actual_exit_code": 1,
+    "reason": "Reviewer AST position check initially treated docstring as first executable statement; only unsealed reviewer checker corrected; no success report written on failed run."
+  },
+  "complete_Newton_calls": 0,
+  "real_splu_calls": 0,
+  "actual_BVP_DN_RK_root_flow_calls": 0,
+  "install_or_select_newton_calls": 0,
+  "active_attempt02_outputs_read": false,
+  "future_candidate_created": false
+}

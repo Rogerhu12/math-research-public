@@ -1,0 +1,72 @@
+{
+  "owner": "Astra-visible-flex-db6f0b0e / root",
+  "scope": "Observed actual child process exit; root still must observe and bind the outer tool receipt",
+  "launch_path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-harmonic-s1-launch.json",
+  "launch_sha256": "08e2ffc4aa3d73240962cc71315e3be3d941f3cde2c350d050106dd02b66c707",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-single-audited-target-v2.py",
+    "--source-root",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "--config",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-s1-from-call9-config.json",
+    "--target-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+    "--checkpoint",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-s1-from-call9-input.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01",
+    "--node-heap",
+    "1536"
+  ],
+  "started_utc": "2026-11-09T14:37:16.439541+00:00",
+  "ended_utc": "2026-11-09T14:37:32.468385+00:00",
+  "elapsed_seconds": 16.028842021005403,
+  "actual_child_pid": 6,
+  "actual_child_exit_code": 2,
+  "child_exit_inferred_from_file_existence": false,
+  "root_outer_tool_exit_observed": true,
+  "closed_output_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-config.json",
+      "bytes": 3020,
+      "sha256": "742855f57567de83d3116c9c2770e3e0d28df7768c9996d0fe3ce5bc211d951a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-reproduction.json",
+      "bytes": 27445,
+      "sha256": "891cd833f7ae664e448dac7b678fbd9f97d4f97507697fc0c99ddafc239d8343"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-run.log",
+      "bytes": 462,
+      "sha256": "28cd2c5bfc7f99b0c43c2922aa2bb704735650937ed48b89ccd3bd559d1c8dc6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-summary.json",
+      "bytes": 2171,
+      "sha256": "916af523a0e382f0531d5646ad01166f8f16670f46b530192f0a34bab210a4cf"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01-trace.jsonl",
+      "bytes": 833,
+      "sha256": "10bfb44eea8fc3dddda49c0c03f3f472d5abe18ff447d079b350652742e161c2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-harmonic-s1-audited-target-01_tail_0001.json.gz",
+      "bytes": 1433,
+      "sha256": "8205dcefb590623700d14dd111bbf0ef6f9cd6defb8e9802de2e12dbad090c8e"
+    }
+  ],
+  "root_tool_observation": {
+    "observer": "Astra-visible-flex-db6f0b0e / root",
+    "session_id": 28395,
+    "tool_result_chunk": "75bf61",
+    "actual_tool_exit_code": 2,
+    "observed_utc": "2026-11-09T14:39:31.539544+00:00",
+    "observed_from": "write_stdin final completion result",
+    "source_bindings_reverified": 98,
+    "closed_output_file_hashes_reverified": 6
+  }
+}

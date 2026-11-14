@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-bump-cell-local-finite-query-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_bump_cell_probe.py",
+      "bytes": 7911,
+      "sha256": "643511d3411665d8c3e3f45499bb22709dd34cfd22b9aa772d1f12408bb8a190"
+    },
+    {
+      "path": "scripts/fd2d-metric-bump-cell-local.py",
+      "bytes": 5445,
+      "sha256": "a9cf50830be7b48aecc3f2778b27d6fa7a4dd6ce969f703b171dec17e059ea88"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-cell-local.md",
+      "bytes": 5224,
+      "sha256": "ab1661f0e37067e380b2331ef5fc721fe6cc2637e1b86aaa3a6e9e848065b9f5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-definition.json",
+      "bytes": 14312,
+      "sha256": "a8ede8759d083aa704e0ea04213dcf665471558b3045bbd6a686030c8aae713c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-report.json",
+      "bytes": 8331,
+      "sha256": "1f2eabbc9aec0f97b2bb24a69f07008a5d7738d3db65b38b1514ce7e86e912c5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-progress.jsonl",
+      "bytes": 296,
+      "sha256": "65b15a5bf11e948c02fdd460e7973794521caa533f147b5e69dd55b5755a1803"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-exit-receipt.json",
+      "bytes": 430,
+      "sha256": "d56e743e1098e10d64af0efc995bd91664ec943eb1caf69cee0d15f145a0b117"
+    }
+  ],
+  "actual_success": {
+    "session_id": 47541,
+    "chunk_id": "3753e7",
+    "exit_code": 0
+  },
+  "new_saved_node_count": 122,
+  "actual_cells_queried": 1,
+  "continuous_certificate": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false
+}

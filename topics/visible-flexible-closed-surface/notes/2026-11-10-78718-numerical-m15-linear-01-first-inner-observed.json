@@ -1,0 +1,30 @@
+{
+  "schema": "78718-m15-first-inner-actual-observation-v1",
+  "observed_utc": "2026-11-10T11:23:43.131455+00:00",
+  "root_metadata_tool_chunk": "9a49f8",
+  "root_actual_poll_tool_chunk": "733fdb",
+  "active_session_id": 61908,
+  "actual_poll_exit_code": null,
+  "source_reproduction_sha256": "d9bc45dc2750ec19b3a76b8d39ee13e113c76b19ffead6b5df66525a6a36d232",
+  "first_inner": {
+    "status": "RETURNED_PHYSICAL_COORDINATES",
+    "initial_nodes": 2633,
+    "final_nodes": 5345,
+    "state_components": 46,
+    "parameters": 15,
+    "weighted_solver_success": true,
+    "success": true,
+    "weighted_rms_max": 1.999704917192326e-09,
+    "original_physical_rms_max": 6.265089919191649e-10,
+    "original_physical_bc_max": 6.661338147750939e-16,
+    "original_physical_residual_gate_passed": true,
+    "original_tol": 2e-09,
+    "original_bc_tol": 1e-08,
+    "maximum_nodes": 8000
+  },
+  "current_outer_request": 2,
+  "current_tracking_fraction": "1/8",
+  "latest_read_tail_iteration_utc": "2026-11-10T11:17:00.709Z",
+  "latest_read_tail_iteration_norm": 0.10399033755270158,
+  "scope": "First finite inner collocation success only. Actual nonlinear tail at changed H, complete coupled solve, continuous metric and all geometric completion conditions remain unproved."
+}

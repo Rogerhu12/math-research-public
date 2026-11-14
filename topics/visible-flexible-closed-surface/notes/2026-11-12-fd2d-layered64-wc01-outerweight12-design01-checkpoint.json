@@ -1,0 +1,24 @@
+{
+  "schema": "fd2d-outer-valley-width-retarget-v1",
+  "source_sha256": "691352d0ac5ff2a4832c9d45bcfa335d3bc0200d2181e7e9a8ceb7f3b822b0bb",
+  "base_config_file": "2026-11-12-fd2d-layered64-wc01-recovery02-config.json",
+  "base_config_sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994",
+  "base_port_file": "2026-11-12-fd2d-layered64-wc01-recovery02-m2-n512-report.json",
+  "base_port_sha256": "e0d052b3bb4ff2314e54c989a3dff800bd83f958735465620c691f34271effe5",
+  "valley_weight": 12,
+  "steps": 256,
+  "target_inner_lambda": 13.155976171232949,
+  "inner_cell0_radius": 0.3808860058501116,
+  "rows": [],
+  "completed": false,
+  "scope": "New physical g; only outer log-slope beta0 and outer free-warp weights are redesigned. Cut radius is chosen to retain the old free radial scale; actual assembled g and all linear/nonlinear ports need reevaluation. No exact finite T21 or nonlinear certificate.",
+  "memory": {
+    "rss": 73781248,
+    "heapTotal": 33607680,
+    "heapUsed": 21933136,
+    "external": 4165461,
+    "arrayBuffers": 247122,
+    "heap_size_limit": 100663296
+  },
+  "failure": "Error: physical calibration lacks sign bracket {\"n\":0,\"alpha\":13.155976171232949,\"rStart\":0.3808860058501116,\"trace\":[{\"beta\":3.9772256296995208,\"residual\":9.579212030924682,\"gain\":-4.543585113222815},{\"beta\":2.9772256296995208,\"residual\":14.465358002686921,\"gain\":-9.661030607207033},{\"beta\":4.977225629699521,\"residual\":6.83586580499187,\"gain\":-3.536807680407337},{\"beta\":2.177225629699521,\"residual\":16.733586198691288,\"gain\":-21.475105218458125},{\"beta\":5.777225629699521,\"residual\":6.675504662973403,\"gain\":-3.4920997288910756},{\"beta\":0.7372256296995205,\"residual\":18.103050409970397,\"gain\":-91.63938854075712},{\"beta\":7.217225629699521,\"residual\":6.675492981904287,\"gain\":-3.492096390914084},{\"beta\":-1.85477437030048,\"residual\":18.472755158678225,\"gain\":-1225.2834121037215},{\"beta\":9.809225629699522,\"residual\":6.675492981904287,\"gain\":-3.492096390914084},{\"beta\":-6.520374370300481,\"residual\":18.492005865597434,\"gain\":-129918.29186212952},{\"beta\":14.474825629699524,\"residual\":6.675492981904287,\"gain\":-3.492096390914084},{\"beta\":-14.918454370300484,\"residual\":18.48546715285076,\"gain\":-575288718.1582935},{\"beta\":22.872905629699527,\"residual\":6.675492981904287,\"gain\":-3.492096390914084},{\"beta\":-30.03499837030049,\"residual\":18.48130231285437,\"gain\":-2107700839998011.2},{\"beta\":37.98944962969953,\"residual\":6.675492981904287,\"gain\":-3.492096390914084},{\"beta\":-57.2447775703005,\"residual\":18.478614492610866,\"gain\":-1.3796908477615008e+27},{\"beta\":65.19922882969954,\"residual\":6.675492981904287,\"gain\":-3.492096390914084}]}"
+}

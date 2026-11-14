@@ -1,0 +1,154 @@
+{
+  "schema": "fd2d-intrinsic-gc-local-comparison-v1",
+  "scope": "Actual intrinsic-flow/JVP check and fixed-coordinate parameter layout.\n\nUses the previously saved, genuinely integrated v2 M63 state.  It compares\nthe smaller equations with that original implementation, computes one new\nlocal stage and its analytic tangent, and measures the central parameter\nprojection conditioning in the balanced-oval coordinate.  No full BVP,\ntail solve, complete new profile, or closed surface is claimed.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-intrinsic-local-check.py",
+    "bytes": 7449,
+    "sha256": "5c7d7cab82b62e4a13ec6733b82b215b87469aad4212f94468949cef5009b65a"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_intrinsic.py",
+    "bytes": 15291,
+    "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+  },
+  "original_flow": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-ellipse-flow.py",
+    "bytes": 12645,
+    "sha256": "4a463d4f60283a8058b9eeb26da7ab9c1ba579975e3b66606bc428a6ae643531"
+  },
+  "original_adapter": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-ellipse-hybrid-flow.py",
+    "bytes": 2981,
+    "sha256": "907c007d2d434bfea7c77a428657f8f9bf834e8eac4d727745572d80986b875c"
+  },
+  "central_provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_oval_core.py",
+    "bytes": 10964,
+    "sha256": "1df75241ec76ae9a28042b72cbb721de61e7283378d82e7dea5ff05c3f84b692"
+  },
+  "common_coordinate_provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_metric_curvature_core.py",
+    "bytes": 17837,
+    "sha256": "7aa0d7173cc25891a7d422056d64b81e1daa2e40552043a1881627933eae2ad0"
+  },
+  "input_candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v2.json",
+    "bytes": 31566,
+    "sha256": "064a7a3bcb7beaaa45bf59e30e0c64be58106a566edfa55d6b3c4bf6480b2ba0"
+  },
+  "input_state": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-v2-codazzi-hybrid-m63-state.npz",
+    "bytes": 15512,
+    "sha256": "fd56283cb1ba73f3b7bf316a886bc5b29cdff1d71023f19671060e2686f4e3bd"
+  },
+  "intrinsic_dimension": 63,
+  "original_hybrid_dimension": 4671,
+  "original_state_conversion_error": 4.336808689942018e-19,
+  "original_projected_rhs_maximum_difference": 8.881784197001252e-16,
+  "rhs_directional_checks": [
+    {
+      "epsilon": 0.001,
+      "absolute_maximum_difference": 0.0005153506170696431,
+      "relative_l2_difference": 3.0652684313225955e-05
+    },
+    {
+      "epsilon": 0.0001,
+      "absolute_maximum_difference": 5.153392988788141e-06,
+      "relative_l2_difference": 3.0652025271362905e-07
+    },
+    {
+      "epsilon": 1e-05,
+      "absolute_maximum_difference": 5.1520174793040496e-08,
+      "relative_l2_difference": 3.0650476787842508e-09
+    },
+    {
+      "epsilon": 1e-06,
+      "absolute_maximum_difference": 1.7470704882782684e-09,
+      "relative_l2_difference": 8.310636135238055e-11
+    }
+  ],
+  "local_stage": {
+    "left": 0.5299999999999994,
+    "right": 0.5302999999999993,
+    "rhs_calls": 38,
+    "seconds": 0.049888838999322616,
+    "segments": [
+      {
+        "left": 0.5299999999999994,
+        "right": 0.5302999999999993,
+        "success": true,
+        "rhs_calls": 38,
+        "message": "The solver successfully reached the end of the integration interval."
+      }
+    ],
+    "finite_difference_epsilon": 1e-05,
+    "tangent_maximum_difference": 1.9557244712586908e-11,
+    "tangent_relative_l2_difference": 5.6343105554415555e-11
+  },
+  "central_layout": [
+    {
+      "basis": "material_u_cosines_projected_to_fixed_phi",
+      "parameters": 95,
+      "largest_singular_value": 2.0929776337746198,
+      "smallest_singular_value": 7.440980286036736e-18,
+      "condition": 2.8127713732855424e+17,
+      "rank_at_relative_1e_minus12": 62,
+      "rank_at_relative_1e_minus8": 57
+    },
+    {
+      "basis": "fixed_phi_cosines_minus_material_mean",
+      "parameters": 95,
+      "largest_singular_value": 1.2913738908345416,
+      "smallest_singular_value": 0.9999999999999992,
+      "condition": 1.2913738908345427,
+      "rank_at_relative_1e_minus12": 95,
+      "rank_at_relative_1e_minus8": 95
+    }
+  ],
+  "central_projection": {
+    "maximum_n_projection_difference": 4.035130302809664e-12,
+    "maximum_m_projection_difference": 0.0,
+    "material_total_turn_projection_difference": 2.1423494215832773e-16
+  },
+  "fixed_reference_basis_material_mean_defect": 3.5823811489502405e-17,
+  "central_angular_monodromy": {
+    "success": true,
+    "frame": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9999999999999993,
+        -2.47198095326695e-16
+      ],
+      [
+        0.0,
+        2.47198095326695e-16,
+        0.9999999999999993
+      ]
+    ],
+    "translation": [
+      0.0,
+      9.313947182953974e-15,
+      -1.6627083112847729e-15
+    ],
+    "frame_error": 7.105217502089328e-16,
+    "translation_error": 9.46119501200941e-15,
+    "orthogonality_error": 1.3322676295501878e-15,
+    "rhs_calls": 18434,
+    "message": "The solver successfully reached the end of the integration interval."
+  },
+  "output_state": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-intrinsic-local-02-state.npz",
+    "bytes": 5736,
+    "sha256": "6f9caaaff8c35d1ea18bb835c142d909e456ce7e0afcd3eaae908f0614343406"
+  },
+  "seconds": 3.0781628269978683,
+  "full_BVP_solved": false,
+  "new_tail_DN_solved": false,
+  "whole_profile_integrated": false,
+  "closed_surface": false
+}

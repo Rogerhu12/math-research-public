@@ -1,0 +1,52 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+    "--launch",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+    "--observation",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-child-execution.json",
+    "--backup-observation",
+    "/dev/shm/db6f-root-amplitude-resume03-child-execution.json",
+    "--minimum-free",
+    "536870912",
+    "--resume-free",
+    "805306368",
+    "--poll-seconds",
+    "2"
+  ],
+  "available_bytes_at_preflight": 2608586752,
+  "backup_is_explicit_dev_shm_path": true,
+  "checker_sha256": "116ad65a237aa081db9d13fc0301fb5df744304bda7a72e923a2da2734fbaed9",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "heartbeat_test_repeated_by_this_checker": false,
+  "mathematical_command_is_launch_command_unchanged": true,
+  "minimum_free": 536870912,
+  "new_child_processes": 0,
+  "no_guarantee_against_arbitrary_shared_disk_bursts": true,
+  "observation_and_temporary_paths_fresh_at_check": true,
+  "observation_paths_distinct_from_inputs_log_and_reproduction": true,
+  "poll_seconds": 2,
+  "resume_free": 805306368,
+  "root_actual_tool_exit_observation_still_required": true,
+  "solver_calls": 0,
+  "sources": [
+    {
+      "bytes": 6899,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-run-space-guarded.py",
+      "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd"
+    },
+    {
+      "bytes": 27839,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "bytes": 1783,
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-space-guard-directed-check.json",
+      "sha256": "dd55296087499e29723bffa178ae08939acfca32eddcbaccf2492b09d3b6556a"
+    }
+  ],
+  "status": "PASS-explicit-space-guard-production-paths-only",
+  "verified_binding_count": 83
+}

@@ -1,0 +1,74 @@
+{
+  "session_id": 87432,
+  "launch_chunk": "02a9e7",
+  "actual_tool_exit_code": null,
+  "tool_exit_status": "Unknown: final tool output was not observed before context compaction; subsequent poll returned Unknown process id. Do not infer exit 0 from files.",
+  "actual_solver_report": {
+    "success": true,
+    "status": 0,
+    "accepted_steps": 5,
+    "final_nodes": 393,
+    "seconds": 56.362081835000026,
+    "final": {
+      "T": 0.3587663037499098,
+      "A": 1.0142082058810316,
+      "B": 0.9942082058810315,
+      "gap": 0.02,
+      "gap_target": 0.02,
+      "boundary_maximum": 1.5959455978986625e-16,
+      "omitted_eta_mean": 0.0026631084853195037,
+      "omitted_n_mean": 0.0005306847187389665,
+      "all_cut_curvature_coefficients_maximum": 0.0005306847187389665,
+      "core_parameter_l1": 0.050699781258730404,
+      "maximum_worker_height": 0.0014840892047180445,
+      "minimum_n_grid": 0.13719636394438786,
+      "maximum_eta": 0.23274085856849425,
+      "maximum_zeta": 0.2869369652534259,
+      "minimum_radial_scale": 0.9906617738714915,
+      "tail": {
+        "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+        "minimum_n": 0.19895226703697047,
+        "maximum_m": 0.03565144431564863,
+        "nonlinear_tail_solved": false,
+        "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+      }
+    }
+  },
+  "observed_closed_runtime_phase": "body_completed",
+  "observed_wrapper_final_event": {
+    "event": "wrapper_exit",
+    "utc": "2026-11-12T08:45:44Z",
+    "seconds": 56.37447571599978,
+    "pid": 2,
+    "resources": {
+      "VmSize": "513300 kB",
+      "VmHWM": "265936 kB",
+      "VmRSS": "112396 kB",
+      "Threads": "1"
+    },
+    "maximum_rss_kib": 265936,
+    "streaming": {
+      "phase": "assembled",
+      "assembled": 2,
+      "nodes": 393,
+      "dimension": 95,
+      "interval": 392,
+      "intervals": 392,
+      "seconds": 26.82519464699999,
+      "entries": 7094384,
+      "bytes": 85282332
+    },
+    "newton": {
+      "calls": 2,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0,
+      "accepted_steps": 5,
+      "no_step": 0,
+      "minimum_alpha": 1.0,
+      "factorizations": 2
+    }
+  },
+  "continuous_certificate": false,
+  "nonlinear_tail_solved": false,
+  "scope": "Finite 95-dimensional new physical short-cylinder prefix with full160 finite linear tail initializer only"
+}

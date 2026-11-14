@@ -1,0 +1,1189 @@
+{
+  "status": "CLOSED_CALL10_FAILURE_AND_CALL8_9_METADATA_DIAGNOSIS",
+  "scope": "Original closed records preserved. No new solver/root/flow/evaluation or geometric assertion.",
+  "producer": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-continuation-call10-diagnosis.py",
+    "bytes": 12282,
+    "sha256": "5487c2a374f459f5553a25f6267662c59a1e40c067f7d6e1ee6c696fc4ec62a9"
+  },
+  "launch_source_bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+      "bytes": 263157,
+      "sha256": "8266c8b9e66ffd57e3fce0c9e806a0c14533cd9b7795cca6bcfdb2fc205cd20a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted.json",
+      "bytes": 5304,
+      "sha256": "88057d75d05a6f609b07dc3f0bdbb13f287514d9fec8c3655f6dafaa8cfae1a5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-recovery-launch.json",
+      "bytes": 19579,
+      "sha256": "3aee913db17e97ef9624d7f41cdaa6e24867b5391c9c491c2e07315c303957f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-config.json",
+      "bytes": 3073,
+      "sha256": "f933a3e7ac102f589276cca3e34db5c4999ce21b3efe2ddc3fa0731fecce5eb6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-summary.json",
+      "bytes": 570,
+      "sha256": "7558e7ffd9c38505e9decde179b390dc46462dc884f815fdb564c972aab32110"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+      "bytes": 273159,
+      "sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-s025-recovery-result.json",
+      "bytes": 3693,
+      "sha256": "0b2c42a87b706584761d51c26ef4f6af7aaa23c0b2b93f8fcfac7093b53f7347"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "bytes": 29001,
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "bytes": 2907,
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-input-bindings.json",
+      "bytes": 3171,
+      "sha256": "6ec973d0e3a33b7847a909666be88148916500326b500492e7f9edb9d33808fa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-trial-diagnostic-source-map.json",
+      "bytes": 1909,
+      "sha256": "17dbd71341f82bf7605e743288f3a42526fd0f14a94d8eff9350c336ba1135b9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "bytes": 13127,
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "bytes": 6579,
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "bytes": 8737,
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "bytes": 10432,
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "bytes": 36488,
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "bytes": 5123,
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_bvp.py",
+      "bytes": 10323,
+      "sha256": "ed8dc340bdb575ee7fa1df7ea33bc26d7f3bd8739a0e3bb4d315b83e3e17c269"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "bytes": 3834,
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_compact_tail_port.mjs",
+      "bytes": 3900,
+      "sha256": "81834ad36f6cc9767cc4cef850ad0fb6762b8206f54f5f81cff25b76a37fa233"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_compact_tail_port.py",
+      "bytes": 2559,
+      "sha256": "cae6388b64142b5ff621609faa89a7a85c021b1f64bec8cdec5a61a7080b5427"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_core_variation.py",
+      "bytes": 8457,
+      "sha256": "0f83a781b1b6f046cb76cda5fac6417cbc2331aa8870144189c904dd5ad73e2c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bridge_bvp.py",
+      "bytes": 8678,
+      "sha256": "612246dc9556f4c48a7966a7df437e3fe71d51455bdf2e026f3740836ac37e86"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "bytes": 10959,
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "bytes": 5012,
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_mixed_tail_port.py",
+      "bytes": 6112,
+      "sha256": "cb70c45d3c62126267d7c7099e8b80ca59c00a37a91580238546078c10213a8c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_bvp.py",
+      "bytes": 11758,
+      "sha256": "c90a001dd81404b2040bab6a9c48c6f6473525bd7142f45f5bd9243e45fd0528"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "bytes": 6349,
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "bytes": 10353,
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_sparse_run.py",
+      "bytes": 3571,
+      "sha256": "ecc9162234dfe505fdb9e47a923489478865bc64d333e9e9276ccbb18177ac1d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs",
+      "bytes": 1414,
+      "sha256": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6direct_sparse_core.py",
+      "bytes": 6784,
+      "sha256": "f0c2d66da86bab73ce3bfe7eb64a15f2d2e4f7d7187544ebd0df533a5792deec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs",
+      "bytes": 4133,
+      "sha256": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs",
+      "bytes": 7447,
+      "sha256": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_dn.mjs",
+      "bytes": 14727,
+      "sha256": "aa3641a70fc7f6d378270f19bd22c14aac48507dbc8393cc6afe9fc7eabafe9a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_dn_split_flux.mjs",
+      "bytes": 1528,
+      "sha256": "0e6f48dfe76fc596c8350f0d102b44059905fefe57c3c6572e5363d61c4afa93"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+      "bytes": 1805,
+      "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs",
+      "bytes": 5715,
+      "sha256": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "bytes": 2892,
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs",
+      "bytes": 3245,
+      "sha256": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs",
+      "bytes": 4129,
+      "sha256": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "bytes": 2420,
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs",
+      "bytes": 3560,
+      "sha256": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs",
+      "bytes": 5394,
+      "sha256": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs",
+      "bytes": 2464,
+      "sha256": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs",
+      "bytes": 10389,
+      "sha256": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs",
+      "bytes": 6514,
+      "sha256": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs",
+      "bytes": 12799,
+      "sha256": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs",
+      "bytes": 9657,
+      "sha256": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "bytes": 13095,
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs",
+      "bytes": 7047,
+      "sha256": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs",
+      "bytes": 6520,
+      "sha256": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "bytes": 3312,
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs",
+      "bytes": 1515,
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-amplitude-resume02.py",
+      "bytes": 9118,
+      "sha256": "f56b296611c8dec74dccef9d0864922df8e884e1534e65ce37ce9d9a240f0f52"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py",
+      "bytes": 11026,
+      "sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-continuation-client.py",
+      "bytes": 3945,
+      "sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py",
+      "bytes": 3711,
+      "sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs",
+      "bytes": 17134,
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py",
+      "bytes": 5157,
+      "sha256": "acf6d249aa07cb093b41406506b3df80e04ff7a6a81ef3b753755c0bb536c320"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-split.mjs",
+      "bytes": 1952,
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs",
+      "bytes": 9280,
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837"
+    }
+  ],
+  "launch_source_binding_count": 66,
+  "response_source_count_each": 8,
+  "equation_configuration_unchanged": true,
+  "changed_io_keys": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "tolerance": 2e-09,
+  "projection_floor": 0.05,
+  "max_iterations": 36,
+  "calls": [
+    {
+      "call": 8,
+      "scale": 0.75,
+      "closed_row": {
+        "attempt": 7,
+        "call": 8,
+        "scale": 0.75,
+        "step": 0.0625,
+        "converged": true,
+        "residual": 7.209443218770205e-10,
+        "error": null,
+        "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0008.json.gz",
+        "response_sha256": "32746c2ab6e53ae4ff800c8936edcb585b2d50fa2a72894a0dff252740e95bb4",
+        "intermediate_scope": "WARM ONLY: does not match the complete target prefix",
+        "last_iteration": null,
+        "logs": [
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call008-trace.jsonl",
+            "sha256": "5dcca77912c99a91cfc5d645d0dfd96697541fa8d9565b515899feb7f5f76442",
+            "bytes": 2449
+          },
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call008-trials.jsonl",
+            "sha256": "266ae47aa20c2a805dbc43745f47800941874d2784f13d9566e4ec030ace06a2",
+            "bytes": 3187
+          }
+        ],
+        "iterations": 5
+      },
+      "actual_response_keys": [
+        "converged",
+        "residual",
+        "jets",
+        "heightJetJacobian",
+        "history",
+        "audit",
+        "checkpoint"
+      ],
+      "response_converged_key_present": true,
+      "response_residual_key_present": true,
+      "original_failed_text": null,
+      "original_last_iteration": null,
+      "finite_checkpoint_shape": [
+        865,
+        30
+      ],
+      "base_evaluation_count": 5,
+      "iterations": [
+        {
+          "base": {
+            "time": "2026-11-09T13:23:33.245Z",
+            "event": "iteration",
+            "call": 8,
+            "elapsed_ms": 127472,
+            "iteration": 0,
+            "norm": 8871.203241371955,
+            "minA": 0.46034336518408236,
+            "minD": 0.9936008569641841
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 117.7722871834553
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:26:37.153Z",
+            "event": "iteration",
+            "call": 8,
+            "elapsed_ms": 311380,
+            "iteration": 1,
+            "norm": 117.7722871834553,
+            "minA": 0.4540368227984404,
+            "minD": 0.9936048838671881
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 1.9292419973126433
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:29:21.254Z",
+            "event": "iteration",
+            "call": 8,
+            "elapsed_ms": 475481,
+            "iteration": 2,
+            "norm": 1.9292419973126433,
+            "minA": 0.45212134016771977,
+            "minD": 0.9936048828983517
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 0.0018718648486833413
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:32:12.304Z",
+            "event": "iteration",
+            "call": 8,
+            "elapsed_ms": 646531,
+            "iteration": 3,
+            "norm": 0.0018718648486833413,
+            "minA": 0.4521271199779848,
+            "minD": 0.993604882925531
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 7.209443218770205e-10
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:34:58.016Z",
+            "event": "iteration",
+            "call": 8,
+            "elapsed_ms": 812243,
+            "iteration": 4,
+            "norm": 7.209443218770205e-10,
+            "minA": 0.45212710553520025,
+            "minD": 0.9936048829255224
+          },
+          "trial_count": 0,
+          "kind_counts": {},
+          "accepted": [],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        }
+      ],
+      "warm_comparison": {
+        "all_higher_requested_modes_nonzero": true,
+        "harmonic_predictor_flag": true,
+        "actual_uniform_state_ratio": 1.0909090909090908,
+        "maximum_physical_cut_linear_addition": 4.0544895334507993e-07,
+        "addition_max_harmonic_number": 2,
+        "mode15_height_growth": 3.688318469415149,
+        "mode15_relative_boundary_addition": 0.7042258959047877,
+        "full_warm_state_or_flow_not_recomputed": true
+      },
+      "closed_failure_trace_time": null
+    },
+    {
+      "call": 9,
+      "scale": 0.8125,
+      "closed_row": {
+        "attempt": 8,
+        "call": 9,
+        "scale": 0.8125,
+        "step": 0.0625,
+        "converged": true,
+        "residual": 3.796278258536727e-10,
+        "error": null,
+        "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0009.json.gz",
+        "response_sha256": "78d7e112d4823a717d0f46549b9f88d11872dbe390f40f70d295278ed50320e8",
+        "intermediate_scope": "WARM ONLY: does not match the complete target prefix",
+        "last_iteration": null,
+        "logs": [
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call009-trace.jsonl",
+            "sha256": "e29b4cc31ca2c3afff78bb6f6af2a95092b500d2c9aac7477f7650c5dd0db981",
+            "bytes": 2872
+          },
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call009-trials.jsonl",
+            "sha256": "13f785a868fa6cd19510cd52474c8f8a44249b45e5f20e7853d35fd6154ab0ed",
+            "bytes": 3984
+          }
+        ],
+        "iterations": 6
+      },
+      "actual_response_keys": [
+        "converged",
+        "residual",
+        "jets",
+        "heightJetJacobian",
+        "history",
+        "audit",
+        "checkpoint"
+      ],
+      "response_converged_key_present": true,
+      "response_residual_key_present": true,
+      "original_failed_text": null,
+      "original_last_iteration": null,
+      "finite_checkpoint_shape": [
+        865,
+        30
+      ],
+      "base_evaluation_count": 6,
+      "iterations": [
+        {
+          "base": {
+            "time": "2026-11-09T13:37:06.664Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 128493,
+            "iteration": 0,
+            "norm": 9427.830575192946,
+            "minA": 0.38890093642567036,
+            "minD": 0.9930733596717695
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 123.01491995358343
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:39:55.590Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 297419,
+            "iteration": 1,
+            "norm": 123.01491995358343,
+            "minA": 0.3498945750482026,
+            "minD": 0.9930776970079264
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 6.838724027727057
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:42:33.874Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 455703,
+            "iteration": 2,
+            "norm": 6.838724027727057,
+            "minA": 0.38694349250348287,
+            "minD": 0.9930776954098685
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 0.22523649696210943
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:45:36.222Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 638050,
+            "iteration": 3,
+            "norm": 0.22523649696210943,
+            "minA": 0.3874035503617395,
+            "minD": 0.9930776954449857
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 1.5439811316806878e-05
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:48:21.310Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 803139,
+            "iteration": 4,
+            "norm": 1.5439811316806878e-05,
+            "minA": 0.38740997105125374,
+            "minD": 0.9930776954462738
+          },
+          "trial_count": 1,
+          "kind_counts": {
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 0,
+              "step": 1,
+              "trialNorm": 3.796278258536727e-10
+            }
+          ],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:51:19.590Z",
+            "event": "iteration",
+            "call": 9,
+            "elapsed_ms": 981418,
+            "iteration": 5,
+            "norm": 3.796278258536727e-10,
+            "minA": 0.38740997076639305,
+            "minD": 0.9930776954462723
+          },
+          "trial_count": 0,
+          "kind_counts": {},
+          "accepted": [],
+          "rejected_stages": [],
+          "rejected_raw_locations": []
+        }
+      ],
+      "warm_comparison": {
+        "all_higher_requested_modes_nonzero": true,
+        "harmonic_predictor_flag": true,
+        "actual_uniform_state_ratio": 1.0833333333333333,
+        "maximum_physical_cut_linear_addition": 4.392363661238353e-07,
+        "addition_max_harmonic_number": 2,
+        "mode15_height_growth": 3.3222445211942238,
+        "mode15_relative_boundary_addition": 0.6739152321804671,
+        "full_warm_state_or_flow_not_recomputed": true
+      },
+      "closed_failure_trace_time": null
+    },
+    {
+      "call": 10,
+      "scale": 0.875,
+      "closed_row": {
+        "attempt": 9,
+        "call": 10,
+        "scale": 0.875,
+        "step": 0.0625,
+        "converged": false,
+        "residual": null,
+        "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 4892.887571107566', 'residual': None, 'lastIteration': {'iteration': 3, 'norm': 4892.887571107566, 'minA': 0.05038380907076433, 'minD': 0.992549099744137, 'chartCondition': 39850.69351187304}}\")",
+        "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0010.json.gz",
+        "response_sha256": "2f6d0b4ba5ac9adf4a0a4c182b4587d7f230a0d57e103a69dbbf543174d37995",
+        "intermediate_scope": "WARM ONLY: does not match the complete target prefix",
+        "last_iteration": {
+          "iteration": 3,
+          "norm": 4892.887571107566,
+          "minA": 0.05038380907076433,
+          "minD": 0.992549099744137,
+          "chartCondition": 39850.69351187304
+        },
+        "logs": [
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call010-trace.jsonl",
+            "sha256": "630fd4899ddae8c00a52cbe9aa27c93c808c5bfa098f56f7e814f48d4004ffff",
+            "bytes": 2238
+          },
+          {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call010-trials.jsonl",
+            "sha256": "9f46f86d1c33ee44f54a05b36dc44894de1dfe194fcc089522dd118e31909f29",
+            "bytes": 20430
+          }
+        ]
+      },
+      "actual_response_keys": [
+        "failed",
+        "lastIteration",
+        "checkpoint"
+      ],
+      "response_converged_key_present": false,
+      "response_residual_key_present": false,
+      "original_failed_text": "Error: multiple-shooting line search failed at 4892.887571107566",
+      "original_last_iteration": {
+        "iteration": 3,
+        "norm": 4892.887571107566,
+        "minA": 0.05038380907076433,
+        "minD": 0.992549099744137,
+        "chartCondition": 39850.69351187304
+      },
+      "finite_checkpoint_shape": [
+        865,
+        30
+      ],
+      "base_evaluation_count": 4,
+      "iterations": [
+        {
+          "base": {
+            "time": "2026-11-09T13:53:19.931Z",
+            "event": "iteration",
+            "call": 10,
+            "elapsed_ms": 120177,
+            "iteration": 0,
+            "norm": 9818.05219825015,
+            "minA": 0.3158778749041165,
+            "minD": 0.9925467636970519
+          },
+          "trial_count": 2,
+          "kind_counts": {
+            "momentum-root-solver-rejection": 1,
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 1,
+              "step": 0.5,
+              "trialNorm": 4921.669876762903
+            }
+          ],
+          "rejected_stages": [
+            35
+          ],
+          "rejected_raw_locations": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:56:18.073Z",
+            "event": "iteration",
+            "call": 10,
+            "elapsed_ms": 298319,
+            "iteration": 1,
+            "norm": 4921.669876762903,
+            "minA": 0.08645701583418021,
+            "minD": 0.9925490861526846
+          },
+          "trial_count": 9,
+          "kind_counts": {
+            "momentum-guard-rejection": 2,
+            "momentum-root-solver-rejection": 6,
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 8,
+              "step": 0.00390625,
+              "trialNorm": 4902.462377719126
+            }
+          ],
+          "rejected_stages": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "rejected_raw_locations": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "base": {
+            "time": "2026-11-09T13:59:28.250Z",
+            "event": "iteration",
+            "call": 10,
+            "elapsed_ms": 488496,
+            "iteration": 2,
+            "norm": 4902.462377719126,
+            "minA": 0.05474470933552822,
+            "minD": 0.9925490952283462
+          },
+          "trial_count": 10,
+          "kind_counts": {
+            "momentum-root-solver-rejection": 7,
+            "momentum-guard-rejection": 2,
+            "accepted": 1
+          },
+          "accepted": [
+            {
+              "trial": 9,
+              "step": 0.001953125,
+              "trialNorm": 4892.887571107566
+            }
+          ],
+          "rejected_stages": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "rejected_raw_locations": [
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "base": {
+            "time": "2026-11-09T14:02:49.904Z",
+            "event": "iteration",
+            "call": 10,
+            "elapsed_ms": 690150,
+            "iteration": 3,
+            "norm": 4892.887571107566,
+            "minA": 0.05038380907076433,
+            "minD": 0.992549099744137
+          },
+          "trial_count": 10,
+          "kind_counts": {
+            "momentum-root-solver-rejection": 9,
+            "momentum-guard-rejection": 1
+          },
+          "accepted": [],
+          "rejected_stages": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "rejected_raw_locations": [
+            [
+              0,
+              4
+            ]
+          ]
+        }
+      ],
+      "warm_comparison": {
+        "all_higher_requested_modes_nonzero": true,
+        "harmonic_predictor_flag": true,
+        "actual_uniform_state_ratio": 1.076923076923077,
+        "maximum_physical_cut_linear_addition": 4.730237789025907e-07,
+        "addition_max_harmonic_number": 2,
+        "mode15_height_growth": 3.039276769382269,
+        "mode15_relative_boundary_addition": 0.645664689780141,
+        "full_warm_state_or_flow_not_recomputed": true
+      },
+      "closed_failure_trace_time": "2026-11-09T14:03:29.877Z"
+    }
+  ],
+  "controller_observation": {
+    "status": "RUNNING_WARM_CONTINUATION",
+    "current_attempt": 11,
+    "current_requested_scale": 0.875,
+    "current_step": 0.03125,
+    "last_converged_scale": 0.84375,
+    "target_reached": false,
+    "target_audited": false,
+    "source_file_is_mutable": true,
+    "observed_utc": "2026-11-09T14:19:21.459206+00:00",
+    "worker_exit_key_present": false,
+    "recorded_worker_exit_code": null,
+    "process_exit_inferred": false,
+    "original_failure_rule_next_scale": 0.84375,
+    "original_failure_rule_next_step": 0.03125
+  },
+  "closed_inputs": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-launch.json",
+      "bytes": 22355,
+      "sha256": "b2e7371a89906a5f1048077eb2040fef8f2c0a58a136ef3812ab6cbc36b5310e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-input-bindings.json",
+      "bytes": 3779,
+      "sha256": "aa692dcd64d4b7c56235180babf074a3efe92c95ddbedc3e880d9657fd4996a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-config.json",
+      "bytes": 3100,
+      "sha256": "1e5fc1ae3e6ecd2200891ce6b9d6694d1bb93d05061cde1d2397ff8b85f76614"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "bytes": 2907,
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "bytes": 29001,
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0007.json.gz",
+      "bytes": 267911,
+      "sha256": "fd29b43e9648edd5ec675006f8e989af13b93389342e530844734865eba08fcd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0008.json.gz",
+      "bytes": 267753,
+      "sha256": "32746c2ab6e53ae4ff800c8936edcb585b2d50fa2a72894a0dff252740e95bb4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call008-trace.jsonl",
+      "bytes": 2449,
+      "sha256": "5dcca77912c99a91cfc5d645d0dfd96697541fa8d9565b515899feb7f5f76442"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call008-trials.jsonl",
+      "bytes": 3187,
+      "sha256": "266ae47aa20c2a805dbc43745f47800941874d2784f13d9566e4ec030ace06a2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0009.json.gz",
+      "bytes": 267896,
+      "sha256": "78d7e112d4823a717d0f46549b9f88d11872dbe390f40f70d295278ed50320e8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call009-trace.jsonl",
+      "bytes": 2872,
+      "sha256": "e29b4cc31ca2c3afff78bb6f6af2a95092b500d2c9aac7477f7650c5dd0db981"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call009-trials.jsonl",
+      "bytes": 3984,
+      "sha256": "13f785a868fa6cd19510cd52474c8f8a44249b45e5f20e7853d35fd6154ab0ed"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0010.json.gz",
+      "bytes": 266720,
+      "sha256": "2f6d0b4ba5ac9adf4a0a4c182b4587d7f230a0d57e103a69dbbf543174d37995"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call010-trace.jsonl",
+      "bytes": 2238,
+      "sha256": "630fd4899ddae8c00a52cbe9aa27c93c808c5bfa098f56f7e814f48d4004ffff"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call010-trials.jsonl",
+      "bytes": 20430,
+      "sha256": "9f46f86d1c33ee44f54a05b36dc44894de1dfe194fcc089522dd118e31909f29"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration0-trial0.json.gz",
+      "bytes": 1780,
+      "sha256": "94c210b3f9c73d6a0230d15428a23213123e82d99f6a6f9f2ee973f12dca481a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial0.json.gz",
+      "bytes": 1775,
+      "sha256": "66cdc2e6352e1b9dda640001298c5ac8e0930f35c599f581767b2cc01f7b4e21"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial1.json.gz",
+      "bytes": 1769,
+      "sha256": "3cb1091acd27def8a6ef94900d11a24279bd8f89a12d7434ac8977de74ae1cfa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial2.json.gz",
+      "bytes": 1775,
+      "sha256": "e87ffc9a3cd1ded7f76819dca5980b1ea7a547ebd1cf92bf5429528ccdd65692"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial3.json.gz",
+      "bytes": 1778,
+      "sha256": "de0fba03a48d5f161145d1fd3765b9611aa62c9c340c333598f3566a24dd2f5d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial4.json.gz",
+      "bytes": 1782,
+      "sha256": "bbceaadc97213f839ef5e33fe5d40d9a2f321b4e09f34a19c066c1e57577441a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial5.json.gz",
+      "bytes": 1781,
+      "sha256": "057751c2615e5cd36aaa21b7826ad72c04072cdb831992c462ed82ea695cd95b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial6.json.gz",
+      "bytes": 1778,
+      "sha256": "c31689032d629d4e184c478f7407dfa2f217ba55113a87ee471c7434dcba125a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration1-trial7.json.gz",
+      "bytes": 1783,
+      "sha256": "ecc919ebd30dda9b28676ea7df8b400144b10a9a6170b11ad8f01d9fafea3d7e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial0.json.gz",
+      "bytes": 1779,
+      "sha256": "f4c18c51d0987a19461f70ab13a966cd981860129da5ca1c1e2cfa0408500fde"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial1.json.gz",
+      "bytes": 1773,
+      "sha256": "6847acaa53c9f89d2a27772cf10521d18584e68548e685baf99b89165444c1b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial2.json.gz",
+      "bytes": 1766,
+      "sha256": "8a582b8c9749e907667d50744f137eab60a5b1e7b22e392ed44dca8f4d7ac68d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial3.json.gz",
+      "bytes": 1780,
+      "sha256": "6fff150faf8fc3a92029198eb8f4ac0a558c97053c4c4235f208dc7a7454982f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial4.json.gz",
+      "bytes": 1776,
+      "sha256": "65ffbcc4d0f247395785351da366001203bd02610b0dd3a3c91154571c082b2b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial5.json.gz",
+      "bytes": 1780,
+      "sha256": "a4a473f164d3818b9319cd05f3ac0334cb6e39c6b1754cd62a8a4ee17af6918a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial6.json.gz",
+      "bytes": 1782,
+      "sha256": "0e6bc83dafd6c59ec478259f220b1a52310a3e2f70f2dbd0312e6c5d09f7b7b8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial7.json.gz",
+      "bytes": 1786,
+      "sha256": "d57e804c863b166010ff9b39a8efb8fe5c6c19b8662a6a1541372445b552c788"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration2-trial8.json.gz",
+      "bytes": 1785,
+      "sha256": "3379bef4d7f74f1e585e08d14231c4d8d16300696736dd2658dd2d1e0c4a55c7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial0.json.gz",
+      "bytes": 1774,
+      "sha256": "a75b87aa3afa46f37e96992140e5fd46e3277de1ed43e347fc21feb3f9491a48"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial1.json.gz",
+      "bytes": 1780,
+      "sha256": "03907c7917ee708f28154b692539d0c8e596dc15281ed6f2a8111038a2aa0648"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial2.json.gz",
+      "bytes": 1767,
+      "sha256": "0154b10cdee02b3ae2b3d743fa7a16a6e97b00661051f2375dbd2b83eb8a4a8d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial3.json.gz",
+      "bytes": 1780,
+      "sha256": "59c6386df5435f085d65cea486cdd0c44bc723721a8657e7f4345e3974ea63b8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial4.json.gz",
+      "bytes": 1779,
+      "sha256": "517c89fa57dc99566fed7cd4335f4fb8f593217a248dc1d531ae790db8beb981"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial5.json.gz",
+      "bytes": 1785,
+      "sha256": "3200fc895650106522dec1dba9b0df81e97dabe9acac44f80556b2d3cf7bbce9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial6.json.gz",
+      "bytes": 1776,
+      "sha256": "7e0c385a04bbc16a97b6f2e55ec15ca5e37f1d06a98d3da52ec0eabbf2cba255"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial7.json.gz",
+      "bytes": 1784,
+      "sha256": "c0ad4b212cf7188fecb2b15f921411d74750f83e556f654cf23c1c72c299bead"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial8.json.gz",
+      "bytes": 1781,
+      "sha256": "6fd32ac0fbb869a998771fe8cdbaf5a1b1b60668d272e8ab454f759c90565af8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-stage-input-call10-iteration3-trial9.json.gz",
+      "bytes": 1783,
+      "sha256": "858c611204842f910e3a50b9ffa6dbca9076fed1d99d5990db4a2dc2f7dcf63d"
+    }
+  ],
+  "original_response_schema_modified": false,
+  "solver_calls": 0,
+  "angular_root_calls": 0,
+  "rk_calls": 0,
+  "backend_calls": 0,
+  "unconverged_state_promoted_to_success": false,
+  "mathematical_nonexistence_asserted": false
+}

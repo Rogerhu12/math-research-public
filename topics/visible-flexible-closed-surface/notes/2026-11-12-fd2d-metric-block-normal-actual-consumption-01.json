@@ -1,0 +1,91 @@
+{
+  "schema": "fd2d-block-normal-actual-consumption-thin-record-v1",
+  "source": {
+    "path": "scripts/fd2d_gc_block_normal_solve.py",
+    "bytes": 10816,
+    "sha256": "d992719316f0375ef3fe52b0feb75d970d3a560703edd9072ec1dacdd7457e26"
+  },
+  "actual_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-block-schur-a01-report.json",
+    "bytes": 105928,
+    "sha256": "52118e0f145f34781693c585609378d6a8bb39c8ca19f387c3a75c5d05f47941"
+  },
+  "actual_process_receipt": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-block-schur-a01-process-receipt.json",
+    "bytes": 3538,
+    "sha256": "52aaeb20d81293fe6ec4bf0ea078aaf07f66b11df45829a68d8a221af3041a7b"
+  },
+  "actual_factor_summary": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/reduced-factors/lambda1e7-block-a01/summary.json",
+    "bytes": 49572,
+    "sha256": "795f9e2adc6ea039e533f0d914518b9105bf8c7972a32b0bd90c23820dcfc497"
+  },
+  "original_complete_normal_manifest": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/normal-partitioned/manifest.json",
+    "bytes": 435510,
+    "sha256": "e022f588dd0731aca74896ea8ef7fcbf649bd89c4a8d336e50b57a55c730a732"
+  },
+  "actual_closed_packet_manifest": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/reduced-factors/lambda1e7-block-a01/packet/manifest.json",
+    "bytes": 262794,
+    "sha256": "03412f96a6803bd1cde7c5e09b1b8ea749c215ff5418a3a47a5415182149fc28"
+  },
+  "session_id": 62475,
+  "final_chunk": "3ea4a1",
+  "actual_child_returncode": 0,
+  "wrapper_returncode": 0,
+  "whole_child_seconds": 19.148610127998836,
+  "kernel_peak_rss_kib": 137308,
+  "field_solve_scalar_information": {
+    "schema": "fd2d-R159-scaled-SPD-block-normal-solve-v1",
+    "field_unknowns": 10953,
+    "parameter_unknowns": 54,
+    "right_hand_sides": 55,
+    "total_nodes": 129,
+    "factorized_nonempty_nodes": 119,
+    "damping": 1e-07,
+    "column_scale_floor": 1e-12,
+    "original_global_column_norm_squares_used": true,
+    "whole_Hff_constructed": false,
+    "whole_sparse_matrix_constructed": false,
+    "sparse_LU_called": false,
+    "normal_scaled_method_called": false,
+    "normal_modified": false,
+    "new_F_or_J_computed": false,
+    "numerical_symmetrization": "(D + D.T)/2 evaluated as .5*D + .5*D.T before local Cholesky",
+    "maximum_scaled_diagonal_asymmetry": 2.220446049250313e-16,
+    "maximum_forward_Schur_asymmetry": 2.7330568364014596e-15,
+    "maximum_local_symmetrization_change": 1.3665284182007298e-15,
+    "maximum_opposite_orientation_scaling_rounding": 2.220446049250313e-16,
+    "minimum_Cholesky_diagonal": 0.0029634345968963466,
+    "eigenvalue_clipping_or_added_damping": false,
+    "coupling_workspace_bytes": 8082608,
+    "solution_array_bytes": 4819320,
+    "largest_local_dense_entry_estimate": 50350,
+    "factor_and_substitution_seconds": 1.2259924009995302,
+    "seconds": 1.610877900999185,
+    "residual_definition": "Original unaveraged diagonal and independently left/right-scaled lower/upper blocks applied to returned solution, minus original scaled [gf,hfp]",
+    "residual_evaluation_is_interval_certificate": false,
+    "absolute_residual_maximum": 4.255946723513704e-13,
+    "relative_residual_l2_maximum": 5.153930306637943e-12,
+    "componentwise_backward_maximum": 4.130340689588938e-14
+  },
+  "empty_nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    128
+  ],
+  "full_normal_rows": 50355,
+  "schur_minimum_eigenvalue": 1.0000849472642645e-07,
+  "schur_shift": 0.0,
+  "no_repeat_actual_matrix_solve_performed_by_metric_agent": true,
+  "packet_arrays_owned_by_numerical_group": true,
+  "nonlinear_acceptance_or_strong_solution_claimed": false
+}

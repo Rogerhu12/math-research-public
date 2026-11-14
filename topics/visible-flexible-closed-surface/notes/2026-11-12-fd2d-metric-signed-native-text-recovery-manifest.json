@@ -1,0 +1,107 @@
+{
+  "schema": "fd2d-R182-signed-native-text-recovery-manifest-v1",
+  "reason": "executor unavailable after actual signed local checker v2 completed; preserve small UTF-8 sources and mathematical proof, without transmitting binary archives",
+  "original_actual_execution": {
+    "session_id": 33385,
+    "initial_chunk": "b7acc9",
+    "final_chunk": "7d3ea2",
+    "actual_exit_code": 0,
+    "seconds": 0.36810716199397575,
+    "peak_rss_kib": 97300,
+    "scope": "two signed native points; one continuous complete box; exact cut angular trace; no F/J/BVP/body"
+  },
+  "preserved_failure": {
+    "session_id": 76915,
+    "initial_chunk": "aedefa",
+    "final_chunk": "e0850d",
+    "actual_exit_code": 1,
+    "reason": "checker v1 requested U_s; native key is U_x",
+    "source_sha256": "0e691832c951d6776aea662519fbc416ddb74e6224cbcf4bea6ed3c91b7982c9",
+    "mathematical_failure_inferred": false
+  },
+  "available_small_text": [
+    {
+      "path": "scripts/fd2d_gc_signed_trace_archive_native.py",
+      "bytes": 13900,
+      "sha256": "2e889c83edf4cd72a7089b80ccf64c53d00fe9ff7b3c30d86e44cc0799803ac5",
+      "saved_commit": "7610fc7be20a0f91ed5e937a06e55348a1bc5b89"
+    },
+    {
+      "path": "scripts/fd2d_gc_signed_trace_complete_arb.py",
+      "bytes": 14833,
+      "sha256": "0bc513970a7be8eaf27b59b8d3f90525e87d0555c3006aa50658e84a5d0c1c32",
+      "saved_commit": "f63c618c3e735029ead670e6217b29ee0bbaf89b"
+    },
+    {
+      "path": "scripts/fd2d-metric-signed-trace-native-arb-check.py",
+      "bytes": 8170,
+      "sha256": "0e691832c951d6776aea662519fbc416ddb74e6224cbcf4bea6ed3c91b7982c9",
+      "saved_commit": "5014e58f91a2d77d76f208de88ba9c018fa05c31"
+    },
+    {
+      "path": "scripts/fd2d-metric-signed-trace-native-arb-check-v2.py",
+      "bytes": 8170,
+      "sha256": "e1ce2a06ddb15c2946ca6cf425f6ef9a6ceb7d366e667e340a98aec979eb1ce5",
+      "saved_commit": "480a37c9c6be62ed621456108860130571696c15"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-signed-trace-native-and-complete-Arb.md",
+      "bytes": 8306,
+      "sha256": "c2fb98fe0e4f8aa33038b5a0a57d60595c4bb385fe29a370d7a7e2e40e997ada",
+      "saved_commit": "5babe929631c24ab9c8b3e7421780ba09c9f0762"
+    },
+    {
+      "path": "scripts/fd2d-metric-delta7-island-removal-threshold.py",
+      "bytes": 7485,
+      "sha256": "089fd43eec70bdaa081f85853285348b5fcf228d21b9b622b3980d283d63a837",
+      "saved_commit": "7ea50c720e700b25441cbad9f135f15feb606354"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-delta7-island-removal-proof.md",
+      "bytes": 4124,
+      "sha256": "25f53e0dd3afe0a22652716b5629b568127639511924aafac6f7015e34031636",
+      "saved_commit": "0cbd8ddea9b53da0c22f45b373662229e944f7ed"
+    }
+  ],
+  "restored_original_sources_match_actual_pre_loss_sha256": true,
+  "original_sources_reexecuted_after_restoration": false,
+  "new_threshold_source_executed": false,
+  "new_threshold_result_asserted": false,
+  "input_bindings": {
+    "signed_archive": {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-01-warm.npz",
+      "bytes": 137021,
+      "sha256": "b7d2ae3350926666cb25d634bbb14aa49a3eb6b04a5a07f9657a0fca90095626"
+    },
+    "structural_origin": {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+      "bytes": 133721,
+      "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+    },
+    "accurate_profile": {
+      "path": "notes/2026-11-12-fd2d-metric-signed-warm-accurate-profile-rebind-01-packet.json.gz",
+      "sha256": "a8df9aef4da79c535510d9b8b140a6d553640bac4c92a474737b16a6db055d8b"
+    }
+  },
+  "pre_loss_completed_outputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-native-definition.json",
+      "bytes": 71692,
+      "sha256": "484a05f949b19e6eec8195caa7520dbafbdcd3e32dc80100741b751ffb4c7ebc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-interval-definition.json.gz",
+      "bytes": 30541,
+      "sha256": "25964d645aef31b5d3b657c91f190460f65a55291a204f55495df432b66c0630"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-signed-warm-native-arb-R182-02-report.json",
+      "bytes": 78247,
+      "sha256": "bb710280f62807b382d16177debdfd1c5ff9c7da2c93f3b6610c0774b938fdf3"
+    }
+  ],
+  "pre_loss_outputs_claimed_present_after_disconnect": false,
+  "binary_archives_reconstructed_or_transmitted": false,
+  "recovery_next_action": "On terminal recovery inspect hashes of original files first. Reuse surviving byte-identical outputs; if missing, regenerate from preserved actual inputs and the exact restored sources under a new output stem. The delta7-only script reads already-pushed R182 rows and does not need the signed warm.",
+  "note": "This is a text-only recovery ledger, not a new closed numerical certificate. Exact source hash matches were computed from full tool-output text using SHA256, including known-vector checks. Main files were created sequentially with the authorized GitHub integration during executor unavailability."
+}

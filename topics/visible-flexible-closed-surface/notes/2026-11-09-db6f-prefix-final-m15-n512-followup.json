@@ -1,0 +1,215 @@
+{
+  "status": "READ-ONLY-CONDITIONAL-N512-FOLLOWUP-NO-SOLVER",
+  "scope": "Closed M14/N512 metadata and frozen source review only. Future M15/N512 config/launch/solution were not created. Selected direct dependencies are bound here; the source snapshot manifest retains external dependencies.",
+  "root_calls": 0,
+  "RK_calls": 0,
+  "solver_calls": 0,
+  "future_config_created": false,
+  "future_launch_executed": false,
+  "author_note": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-n512-followup.md",
+    "bytes": 12157,
+    "sha256": "c6e97843feeabc2512fddf8c801d621bdfe7626902eac82dffb8939b49ed5672"
+  },
+  "actual_M14_checks": {
+    "frozen_profile_same": true,
+    "physical_tail_parameters_same": true,
+    "chart_same": true,
+    "tail_config_matches_final_response": true,
+    "tail_seam_jets_match_final_response": true,
+    "tail_seam_residual_matches_final_response": true,
+    "last_request_jacobian_true": true,
+    "last_request_audit_true": true,
+    "last_request_height_matches_checkpoint": true,
+    "eight_shared_sources_match_current": true
+  },
+  "M14_config_changed_keys": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "quadrature",
+    "traceFile"
+  ],
+  "M14_reference": {
+    "prefix_modes": 14,
+    "tail_quadrature": 512,
+    "prefix_angular": 512,
+    "solver_success": true,
+    "collocation_residual": 1.9978998186646144e-09,
+    "last_actual_boundary_residual": 2.0843158108768282e-14,
+    "last_tail_residual": 5.397833270174952e-10,
+    "last_audit_keys": [
+      "fullD",
+      "normalizedFullDefect",
+      "minLeading",
+      "minD",
+      "formalCurvature",
+      "maxPhysicalPV",
+      "actualMetric",
+      "holonomy"
+    ],
+    "raw_lift_was_used": true,
+    "driver_hash_matches_current": true
+  },
+  "future_minimal_change": {
+    "quadrature": [
+      256,
+      512
+    ],
+    "modes": 15,
+    "spacing": 3,
+    "physicalDepth": 12,
+    "shootingParts": 8,
+    "steps": 32,
+    "prefix_angular": 512,
+    "prefix_audit_angular": 1024,
+    "seam_angular_samples": 960,
+    "solveTolerance": 2e-09,
+    "maxIterations": 36,
+    "projectionFloor": 0.05,
+    "initialCheckpoint": "baseline.parent / baseline.tail_seam.tail_record",
+    "raw_lift_warm": false,
+    "warmup_scales": [],
+    "config_path_rewrites": [
+      "initialCheckpoint",
+      "traceFile",
+      "iterationCheckpointFile",
+      "trialDiagnosticFile if present",
+      "trialStatePrefix if present"
+    ],
+    "active_driver": "scripts/db6f-prefix-flat-coupled.py",
+    "why_direct_driver": "Unmodified freeze-refine CLI cannot override the two inherited trial-only paths; prepare future copied profile/config only after true baseline closure, then run its identical original coupled subcommand.",
+    "unused_trial_path_keys_consumed_by_shared_sources": false
+  },
+  "bound_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-adaptive-chart.json",
+      "bytes": 3010,
+      "sha256": "c8c456a1ebc6b0ef1ac4af1a7540443a70229a1b9eda14d89294c610844a0035"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "bytes": 5581,
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+      "bytes": 29484,
+      "sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reproduction.json",
+      "bytes": 6566,
+      "sha256": "0f5ded3b774e81d1e9d49e8901609672c08348c15a610b2ae4eb37c0dbda8655"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-summary.json",
+      "bytes": 18396,
+      "sha256": "70fb5707b64841eb32d587b2f925600ef7d9f11dc693e9e362d5db23fe9181be"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-config.json",
+      "bytes": 2744,
+      "sha256": "7b6f64680beb5ccc04d819b638a27499ab00b6742c964d41352339bec14da2c4"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+      "bytes": 30149,
+      "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_00.npy.gz",
+      "bytes": 4170219,
+      "sha256": "233c33e9c194e66b45403d7044fe3e28fa4bcf9a1451ba9177b584b047d34db6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_01.npy.gz",
+      "bytes": 1064379,
+      "sha256": "630dc63fead1d2ad46b24c6d71bb71a78c5874b192bc4aa19780374d71494028"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+      "bytes": 254154,
+      "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "bytes": 36488,
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-snapshot-manifest.json",
+      "bytes": 9148,
+      "sha256": "80f3238945dab534bdeb6382b49f9c0fec6fd4668bbf7a4cc2db15052739b1e1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "bytes": 3312,
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "bytes": 507,
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "bytes": 2008,
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "bytes": 6143,
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "bytes": 3716,
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "bytes": 16010,
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "bytes": 1953,
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "bytes": 8062,
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+    }
+  ]
+}

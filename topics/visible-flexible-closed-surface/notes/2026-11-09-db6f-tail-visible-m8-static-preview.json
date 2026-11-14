@@ -1,0 +1,26 @@
+{
+  "status": "static-preview-from-frozen-PLY-vertices-no-new-continuous-map",
+  "manifest": {
+    "file": "notes/2026-11-09-db6f-visible-m8-manifest.json",
+    "sha256": "6a49b75c5a0c112fc798c4167356b9b8f57e0f489e33b6ed9aedcc2c1eff3282"
+  },
+  "script_sha256": "38321f6a3accc99fe4090061ef2cf4104bb041162543578c41397aa3b1dc7305",
+  "reader_sha256": "f55e52840c165d501548650c7fc7294aa2bd0bb2dee823941029e344fdda814d",
+  "inputs": [
+    {
+      "file": "notes/2026-11-09-db6f-visible-m8-t0.ply.gz",
+      "sha256": "863e4f172874523160cbe03fb4862f9b8a55dbb6bbaa424fa51c2c7794cfd6a4"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-visible-m8-t1of2.ply.gz",
+      "sha256": "74fcd07e07fe5be9ca4d5bb612e000e6b94e19dc73bb9d9d03a4652f4bef10f8"
+    }
+  ],
+  "preview_file": "notes/2026-11-09-db6f-tail-visible-m8-static-preview.png",
+  "preview_sha256": "8d7ef725256128ce40a6d2e77d5a1ea27dbde746605de8de3e9850107004baab",
+  "preview_bytes": 680462,
+  "preview_faces_per_view": 15360,
+  "original_vertices_per_mesh": 67250,
+  "fixed_vertices_bitwise_identical": true,
+  "new_geometric_claim": false
+}

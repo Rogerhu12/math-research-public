@@ -1,0 +1,76 @@
+{
+  "schema": "fd2d-R197-strong-gap08-central-normalization-closed-manifest-v1",
+  "files": [
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/fd2d-R197-strong-gap08-normalization-check.cjs",
+      "repository_path": "topics/visible-flexible-closed-surface/scripts/fd2d-R197-strong-gap08-normalization-check.cjs",
+      "bytes": 3916,
+      "sha256": "22ecc57172b4619a43e5a25f5acb9cfab0e252458300afdafeccb02bb1665a44"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-input.json",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-input.json",
+      "bytes": 3153,
+      "sha256": "97b88016327b8ddc05ed5c1cb91b646ae4b21fc5a99bcf76d40de86f832cc9c0"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-report.json",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-report.json",
+      "bytes": 23121,
+      "sha256": "2f8e8dd37de88688e703d5213cc46ada4b575d576b7a15a8b29b3da1ce186550"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-process-receipt.json",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-process-receipt.json",
+      "bytes": 857,
+      "sha256": "3c938698a1e3024b067fc55487047173511c7856e7c7055cb38c17823c1f3d83"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stdout.txt",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stdout.txt",
+      "bytes": 715,
+      "sha256": "bf4e38d028e9b4ecdf14a254f774d72cccd1b74134fb40142aa62db3da385e73"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stderr.txt",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-printable-bounds.json",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization-01-printable-bounds.json",
+      "bytes": 691,
+      "sha256": "b540c5f07415d0135b4f3eee17683edb3dc3831dd303d479c828c37613aee71a"
+    },
+    {
+      "local_path": "/tmp/fd2d-metric-store-recovery-20261113/2026-11-13-fd2d-metric-R197-strong-gap08-normalization.md",
+      "repository_path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-metric-R197-strong-gap08-normalization.md",
+      "bytes": 5175,
+      "sha256": "674b8a19012ca97298e18d33742facb5c463309f62aacf72e27837dad126e34f"
+    }
+  ],
+  "scope": "Actual saved-axis central seed only; no main surface certificate or material chart recomputation.",
+  "execution": {
+    "exit_code": 0,
+    "session_id": 61832,
+    "final_chunk": "e5fe67",
+    "seconds": 1.936046838760376,
+    "arithmetic_seconds": 1.811531629
+  },
+  "dependencies": [
+    {
+      "path": "scripts/fd2d_R187_saved_ellipse_normalization_exact.cjs",
+      "sha256": "efdd34fd43db8da8b11e3cd0a319b04e11d068a36931b99cf0d8adb124a3ed45"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-branch-00.json",
+      "sha256": "835c4e56d56aba1c41b571de05e9d0b4c7328189075fff23330fbaccb79f89a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    }
+  ],
+  "all_files_closed": true
+}

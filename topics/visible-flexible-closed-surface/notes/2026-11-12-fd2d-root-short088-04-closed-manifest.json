@@ -1,0 +1,88 @@
+{
+  "schema": "fd2d-closed-actual-short-prefix-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-candidate.json",
+      "bytes": 35029,
+      "sha256": "3d7b33a5082470b9abba94694f1417ae0074745c67fabaca07b68d9d52e28bdb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-field.npz.gz",
+      "bytes": 3127104,
+      "sha256": "eebc5debe13f4070114cc137d479d48790427041a3c301d174dda8351b814282"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-polynomial.npz.gz",
+      "bytes": 2487680,
+      "sha256": "56f4c3e7764113d1826f21d410b1e2c5cc0735276378cef307de5087d6bbd0fe"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-progress.jsonl",
+      "bytes": 5123,
+      "sha256": "a5484d6f0421691ea4b8533961bb1ed901cefebb49981d49ecad7b9d41374c90"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-report.json",
+      "bytes": 23037,
+      "sha256": "d22265d105c2ec4ea0798e326c33bd95c58bd3c759f2b32ad1863044c179a9a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-runtime.json",
+      "bytes": 555,
+      "sha256": "6a1f6f58fc0f7d7514fe382766cc7eef604b292c52c1e88c3c4b07785b6b3a43"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-resources.jsonl",
+      "bytes": 20419,
+      "sha256": "60acd09f862ba2e1017a1b2f173c0240425ce2f83ff86dcf61d32587dd9edaa6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-completion-receipt.json",
+      "bytes": 690,
+      "sha256": "424d2d2246d3d6a550c1a57efe8d54071ed3449dd067efdb3bb616c881636229"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-tool-receipt.json",
+      "bytes": 130,
+      "sha256": "e9d14628376b8d59814b4690a8a7b157cd12cf86d8c5d5de71626d2e376ed2b2"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-accepted-0001.npz.gz",
+      "bytes": 1872585,
+      "sha256": "fbe8b3847ba4ecb32511bc88b22ae0779b28d98ee654b646595d596605aa6334",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-accepted-0002.npz.gz",
+      "bytes": 1879162,
+      "sha256": "0ce5862b99bed34f1a6b36ae59a313b3d20f0d462d96cabfaf7470b1f2436d19",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-04-initial.npz",
+      "bytes": 515372,
+      "sha256": "20f4d2ef64872d4a0a6c95f5e9ac4c4ee2ec7e2a13dd0c19d31ae970f8352203",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "actual_tool_result": {
+      "session_id": 60439,
+      "actual_exit_code": 0,
+      "completion_chunk": "a70c7b",
+      "source": "Actual tools.write_stdin result"
+    },
+    "solver_success": true,
+    "solver_status": 0,
+    "message": "The algorithm converged to the desired accuracy.",
+    "seconds": 170.70097725300002,
+    "accepted_steps": 2,
+    "final_nodes": 844,
+    "maximum_rms_residual": 1.9954915758142774e-05,
+    "collocation_tolerance": 2e-05,
+    "maximum_rss_kib": 478276,
+    "scope": "Actual finite gap .05 state with linear tail. Capacity increased from700 to1400, same equations/tolerances; mesh adapted to844. Body reconstruction and larger gap continuation active, not certified here."
+  }
+}

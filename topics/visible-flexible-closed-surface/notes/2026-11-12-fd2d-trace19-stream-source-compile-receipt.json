@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-static-source-compile-receipt-v1",
+  "recorded_utc": "2026-11-12T15:48:03.985581+00:00",
+  "compile_actual_exit": 0,
+  "compile_chunk": "fcd527",
+  "numerical_run_performed": false,
+  "description": "Thin R159 assembly of exactly the already-run v18 finite objective, including the three actual interior point blocks; no new field or constraints here. First live assembly records both complete objective squares.",
+  "sources": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_interior_stream_normal.py",
+      "bytes": 2241,
+      "sha256": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-positive-trace-stream-run.py",
+      "bytes": 28833,
+      "sha256": "5e7038c29cfe922f2ff4003ca5768c4194012aa537861d0601011c4065e1be9f"
+    }
+  ]
+}

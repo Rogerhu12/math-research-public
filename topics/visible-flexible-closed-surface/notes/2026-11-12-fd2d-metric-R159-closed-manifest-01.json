@@ -1,0 +1,90 @@
+{
+  "schema": "fd2d-R159-local-normal-system-closed-manifest-v1",
+  "closed_utc": "2026-11-12T15:45:23.066693+00:00",
+  "result": "results/R159-local-normal-equations-with-exact-field-elimination.md",
+  "actual_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace16-b0004-accepted-0002.npz",
+    "bytes": 57893,
+    "sha256": "520a3e333c54bcc18da5071d8534cf91f9e6f0de60a567a5cbb56abb5e697e28"
+  },
+  "source_run": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trace16-b0004-report.json",
+    "bytes": 148083,
+    "sha256": "161e2671445ed3b0254cecbd170638360515ebd5e64ac3cd572ac6008566cb1c"
+  },
+  "actual_check": {
+    "returncode": 0,
+    "executor_session": 10665,
+    "initial_chunk": "6038c4",
+    "final_chunk": "a9d9e9",
+    "internal_seconds": 3.427246887000365,
+    "peak_rss_kib": 108784
+  },
+  "preserved_initial_failure": {
+    "returncode": 1,
+    "executor_session": 57154,
+    "reason": "External console created in the fresh output stem; refused before field/matrix construction; code unchanged on retry"
+  },
+  "mathematical_scope": "Exact finite row-local normal and constrained Schur equivalence after the original field elimination; no new surface existence or continuous metric certificate",
+  "full_BVP_or_body_run": false,
+  "whole_finite_fixture": false,
+  "actual_check_nodes": 17,
+  "actual_check_cells": 11,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_local_normal_system.py",
+      "bytes": 13329,
+      "sha256": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_stream_normal.py",
+      "bytes": 10262,
+      "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+    },
+    {
+      "path": "scripts/fd2d-metric-local-normal-check.py",
+      "bytes": 12568,
+      "sha256": "105d23335203a16c159486548ccba442587881ed1040fcf90fef3318ec9d7467"
+    },
+    {
+      "path": "results/R159-local-normal-equations-with-exact-field-elimination.md",
+      "bytes": 15400,
+      "sha256": "f4e0bf81701af244d7dde77e9f03ef1c2dae677a3f7f724a7d1717ca1c3320aa"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-system.md",
+      "bytes": 7552,
+      "sha256": "b2d34d02244f14714970b6f27b064279b92bb17eee5f4592ec029a009867cb13"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-check-01-console.txt",
+      "bytes": 539,
+      "sha256": "4ce3b898a35d73991d9b663c592f77561db06bb446616af8e63673ae1e0ad9b1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-check-01-exit-receipt.json",
+      "bytes": 745,
+      "sha256": "b1b1220eff32953abd070174d99eb90f9367384abf1bcb1560e84c4ad79e832a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-check-02-report.json",
+      "bytes": 63619,
+      "sha256": "3ec70afb286eb25cd321e799656b8a4b219613717f1fda2cc5a4ca3dfa35064c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-check-02-witnesses.npz",
+      "bytes": 31691,
+      "sha256": "2c3ed205b5a3df6bcd1ecdadf30c62f1bdb0c99b829f9f1c16a271af612bcfb7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-local-normal-check-02-exit-receipt.json",
+      "bytes": 766,
+      "sha256": "9db3fb1abfaa104615e2112bea0a47d092b82381b3931e564d36b28ea5861b27"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-local-normal-check-02-console.txt",
+      "bytes": 350,
+      "sha256": "91f52d63d1019bbb838e3e01b1f26f410f227fc91c8e33e83f1285647d3bc1e4"
+    }
+  ]
+}

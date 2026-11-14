@@ -1,0 +1,121 @@
+{
+  "status": "CLOSED_READONLY_CONTINUATION03_FAILURE_FULL_REVIEW_SOURCES",
+  "reviewer": "/root/tail_theory",
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-review-continuation03-closed.md",
+    "bytes": 11868,
+    "sha256": "d0d3f40712b93cce7f7fc2426c0ac4db64cd6fa50aa6f5d69a497c4c3b716a80"
+  },
+  "effective_checker": {
+    "path": "scripts/db6f-tail-review-continuation03-closed-v2.py",
+    "bytes": 22682,
+    "sha256": "31ff410d759f11aac6f3e19ce8baca6c8ce371ed9581e1edc8cc14f09c8d2983"
+  },
+  "historical_checker_with_extra_path_absence_assumption": {
+    "path": "scripts/db6f-tail-review-continuation03-closed.py",
+    "bytes": 22115,
+    "sha256": "78056595a77bdeeb2cd35b34168e9cb6df1ab6f0dca9d9ccf251179b78777415"
+  },
+  "complete_132_file_hash_table_in": {
+    "path": "notes/2026-11-09-db6f-tail-review-continuation03-closed-check.json",
+    "bytes": 52807,
+    "sha256": "a92f7d6f21dfc91e0ea3123c220e3329c0aaaf797e13b6b9acd746b8bbc57b8b"
+  },
+  "key_code_and_closure_sources": [
+    {
+      "path": "notes/2026-11-09-db6f-root-continuation03-final-observed.json",
+      "bytes": 3715,
+      "sha256": "c355b99501948e34a290cbb5fb0d54250c28c5b1b9e6491c0892c2636dc8c68f"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-amplitude-resume03-guarded-launch.json",
+      "bytes": 29066,
+      "sha256": "9d2495ea6b48872b40a3c813f0c3076819f48a88f1f5bd9dc1b1ec33bfa49594"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-amplitude-resume03-child-execution.json",
+      "bytes": 2306,
+      "sha256": "2b8655432bf73a597c7e6f4b5ee9221230835212bf48628dcc3460d18abda545"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-progress.json",
+      "bytes": 15510,
+      "sha256": "25e939c4774c0d834ffe135ad1e6a34cf3eac635a9d03edd3b74655b8811a791"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-reproduction.json",
+      "bytes": 19885,
+      "sha256": "3edfe30bed2fed4cf2218368ef229093b187377171ad0e2707a69f147c03d0d3"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "bytes": 3800,
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "bytes": 3107,
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae"
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-amplitude-continuation.py",
+      "bytes": 11026,
+      "sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9"
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-continuation-client.py",
+      "bytes": 3945,
+      "sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564"
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-trial-worker.mjs",
+      "bytes": 9280,
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837"
+    },
+    {
+      "path": "scripts/db6f-prefix-tail-trial-core.mjs",
+      "bytes": 17134,
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5"
+    },
+    {
+      "path": "scripts/db6f-root-run-space-guarded.py",
+      "bytes": 6899,
+      "sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd"
+    },
+    {
+      "path": "scripts/db6f-prefix-prepare-final-m15-coupling-v3.py",
+      "bytes": 19107,
+      "sha256": "273bb318dfaa2839be8fa6c532152cf708880c13591ac0fcbae5f4e97bdacdb5"
+    },
+    {
+      "path": "scripts/db6f-root-audit-continuation03-calls007008.py",
+      "bytes": 6127,
+      "sha256": "80945fb80f7dc47dfab01c1877f0e255675288b6a0e8893dcab2fc4011256cdd"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-continuation03-calls007008-audit.json",
+      "bytes": 4513,
+      "sha256": "389a3fd19350a3fd19257dc01fb33e8f245f4ae55023ac9d2a175d880c44d525"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-continuation03-calls007008-observed.json",
+      "bytes": 659,
+      "sha256": "af86f0334e25dd7bc16fc88ea1b0c117b63256436948891714149c071995df1b"
+    }
+  ],
+  "reviewed_source_paths": [
+    "controller loop and finally",
+    "client atomic response/cache/exception",
+    "worker last-good/update/diagnostic schema",
+    "shooting core iteration and ten-step trial groups",
+    "space guard return/observation",
+    "original final-preparer target gate"
+  ],
+  "scope": "Closed finite failed attempt, not a new solution; no nonexistence claim.",
+  "new_solver_calls": 0
+}

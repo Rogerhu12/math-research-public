@@ -1,0 +1,53 @@
+--- scripts/db6f-tail-background-packet-totalwidth.py	2026-11-09 16:02:25.818964173 +0800
++++ scripts/db6f-tail-background-packet-c4.py	2026-11-09 16:36:50.535631057 +0800
+@@ -5,7 +5,9 @@
+ is enclosed by the validated source primitive, then multiplied by the
+ reviewed global bound |w_r|<24. A direct forward-bracketed inverse box
+ encloses w_r on outer profiles. Inner profiles may use the independent
+-global cap and curvature bounds. No floating inverse is trusted as exact.
++global cap and curvature bounds. No floating inverse is trusted as exact. Across cap boundaries w is C4;
++only its order-four Taylor remainder is used there, even though the
++individual branch expressions are not analytic across the boundary.
+ """
+ import argparse
+ from fractions import Fraction as Q
+@@ -98,6 +100,7 @@
+ class Background:
+     def __init__(self, primitive, calibrations):
+         self.data=read(primitive)
++        self.cap_crossing_w_taylor_calls=0
+         if not self.data.get('finished'):raise ValueError('partial radial primitive')
+         if sha(calibrations)!=self.data['inputs']['calibrations']['sha256']:
+             raise ValueError('primitive calibration table hash mismatch')
+@@ -177,8 +180,12 @@
+         rr=self.source.evaluate(profile.n,profile.j,Jet.variable(I(x0,x1),order))
+         pp=self.source.evaluate(profile.n,profile.j,Jet.variable(I(center),order))
+         if not bool(rr['validB']) or not bool(pp['validB']):
+-            # A range is a valid degree-zero polynomial enclosure.
+-            return [rr['w'].c[0]],0.
++            # The cap log branches agree through derivative order four.
++            # The source hull encloses each branch's pointwise w jets;
++            # Taylor's theorem therefore remains valid through order four.
++            # This statement is about w only, never the |w_x| warp A.
++            order=min(order,4)
++            self.cap_crossing_w_taylor_calls+=1
+         shifted=list(xpoly);shifted[0]=shifted[0]-I(center)
+         poly=compose_poly(pp['w'].c[:order],shifted)
+         radius=max(abs(Q(x0)-Q(center)),abs(Q(x1)-Q(center)))
+@@ -311,7 +318,7 @@
+             'maximum_wr_remainder':0.,'maximum_w_total_uncertainty':0.,
+             'w_working_tolerance_criterion':'remainder plus outward sum of full coefficient widths; coarse dispatch rows are exempt and require the actual metric verifier',
+             'exact_radial_anchor_invariant':True,'background_curvature_bound':6,
+-            'global_background_wr_absolute_bound':24,
++            'global_background_wr_absolute_bound':24,'cap_crossing_w_taylor_order':4,
+             'notes':['No source inverse is assumed exact.','The independent backend must include w_remainder and wr_remainder.',
+                      'Coarse inner w/wr boxes use separately reviewed cap/curvature proofs; they are not tight inverse results.']}
+     buffer=[];started=time.time()
+@@ -403,6 +410,7 @@
+     except ValueError:
+         report['requires_shard_consumer']=True
+     for item in loaded:item.close()
++    report['cap_crossing_w_taylor_calls']=bg.cap_crossing_w_taylor_calls
+     report['finished']=True;report['seconds']=time.time()-started
+     Path(str(args.out_prefix)+'.json').write_text(json.dumps(report,indent=2)+'\n')
+     print(json.dumps({k:report[k] for k in ['finished','rows','seconds','unmet_tolerance_rows','maximum_radial_residual','maximum_w_remainder','maximum_w_total_uncertainty','maximum_wr_remainder','maximum_outer_wr_uncertainty']}))

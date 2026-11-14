@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+    "--old-manifest",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "--packet",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-tight-final-packet.json",
+    "--check-parameters-only",
+    "--new-checkpoint",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-v3-quarter-replay"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "exit_code": 0,
+  "elapsed_seconds": 0.17085981369018555,
+  "peak_child_rss_bytes": 27918336,
+  "log_file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-v3-quarter-replay.log",
+  "log_sha256": "c87c1cd686716bc2ada29a615c8e08cfa0723d1638c6a025dd86f36186086221",
+  "actual_new_root_flow_solver_calls": 0,
+  "geometric_transfer_performed": false
+}

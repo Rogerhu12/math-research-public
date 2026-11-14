@@ -1,0 +1,135 @@
+{
+  "schema": "fd2d-closed-actual-short-prefix-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-candidate.json",
+      "bytes": 35032,
+      "sha256": "ab68e225d43897b9a79d589c7eee52e19438774fbd2c584ab0d2c731d21c7b37"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-field.npz.gz",
+      "bytes": 1133683,
+      "sha256": "77f7a6b46011e350f9b2e8403b3fc477138d0ca446b98de49735d7da3b6f8eda"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-polynomial.npz",
+      "bytes": 899035,
+      "sha256": "afd23cc4158edba9296838f199205a3003687c460ba7e4c45ca9d6885d2239af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-progress.jsonl",
+      "bytes": 25225,
+      "sha256": "45cbb4a01740c6acaf8519e743e70c87b01136957c5ac01ff3073e674cd74d81"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-report.json",
+      "bytes": 22763,
+      "sha256": "fe79c752b50f8f2eebd83dc29ec4f1aff9b5d54a4b4cb860ec138d212d9f98de"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-runtime.json",
+      "bytes": 549,
+      "sha256": "1f6c15f6a80699c56bfffe9ddc65b72a63362650b8549ee2710c48b2698dd6a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-resources.jsonl",
+      "bytes": 42920,
+      "sha256": "b298435d4ab5d4a87f08844357163639ab4d118b35b95dd2f60268284a9fae55"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-completion-receipt.json",
+      "bytes": 338,
+      "sha256": "b4639fc30549d54f7836bf0e81ec5c296b5b44f2a1646b8ce5e8e033fbea5d30"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0001.npz",
+      "bytes": 312664,
+      "sha256": "a772a1b1ac34af722a51e028f93d83ed7bf72ca55504e3d8c4c4d0f734e9b381",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0002.npz",
+      "bytes": 312709,
+      "sha256": "acf6d8a4d3c5c73deb0240eef855d394cab39862ea18b695df11d4885c0c99a4",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0003.npz",
+      "bytes": 312722,
+      "sha256": "c5289470983f83f269e425871f07ca4ede70bf38c76f94e3f566db72b51f78db",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0004.npz",
+      "bytes": 312703,
+      "sha256": "e7e61f80d548fa26c9f5e21336fc652931be4babca75e04d0bb62701b310e791",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0005.npz",
+      "bytes": 401957,
+      "sha256": "da4c055e7ae053f143b462d6558db4b6260336e2af01cbf2bd37c214a4e16417",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0006.npz",
+      "bytes": 402265,
+      "sha256": "d6caa0f5c5654754b77c1522f36c46b01f761c8445552b75d8ff348ddb95a056",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0007.npz",
+      "bytes": 402169,
+      "sha256": "9bf8134ee88687e8add226762d87728bb778b3b97e198365f319ac4e8a5211b7",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0008.npz",
+      "bytes": 503260,
+      "sha256": "a1a6957af308e0280fbf9c91fab44dc6ffd04aec531a3e9a8c71ef83015c0cd4",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0009.npz",
+      "bytes": 599403,
+      "sha256": "8e4a078c20ffe239bfbeca282703b58fe0a80565706dcbb6c7144a2cb448f523",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0010.npz",
+      "bytes": 666514,
+      "sha256": "3c4012f85ded676b5c564da240b0888a37eae083bd3231c1dbba1b20ab067cb6",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0011.npz",
+      "bytes": 679778,
+      "sha256": "6bca35ecb869417001eb9f3e199bef39aae9d8dcdce332c4a032a0de300a270b",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-accepted-0012.npz",
+      "bytes": 682024,
+      "sha256": "72243d6eb34c0742d46ce09a42ac1a56582a94c6c492bc82d557b584993f6c3e",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-01-initial.npz",
+      "bytes": 104217,
+      "sha256": "b64b230c85cc82b9e5b14fc53c704d2c18fd2cbab3945d8f3f171815419e0af9",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 88994,
+    "completion_chunk": "7c8d9f",
+    "actual_exit_code": 0,
+    "solver_success": true,
+    "accepted_steps": 12,
+    "seconds": 368.9432980249999,
+    "maximum_rss_kib": 237124,
+    "scope": "New short-cylinder vmid.88 physical design at gap .005; 95-dimensional actual finite prefix; full160 linear tail initializer only"
+  }
+}

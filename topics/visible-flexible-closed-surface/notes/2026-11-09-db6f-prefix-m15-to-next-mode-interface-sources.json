@@ -1,0 +1,116 @@
+{
+  "status": "STATIC_CONDITIONAL_MODE_REFINEMENT_INTERFACE_ONLY",
+  "scope": "Existing generic code reviewed; no candidate, configuration, solver, root, RK or geometry execution.",
+  "future_M15_baseline_not_asserted": true,
+  "solver_launches": 0,
+  "source_bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "bytes": 6143,
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "bytes": 3312,
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs",
+      "bytes": 4927,
+      "sha256": "9badcd123d543800f212d52a50345926450c68cac6063a3262caa6fa8dfc8441"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-affine-lift.py",
+      "bytes": 9146,
+      "sha256": "7d0267b0097e7da5e7fe1696715283f4806ddef4494269a084295eadf9171a2a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "bytes": 507,
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-trial-coupled.py",
+      "bytes": 952,
+      "sha256": "4c5bff2e3ac0d64e9c56d78219b97f9a12b49daee37e175a258d728e1d751a95"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "bytes": 3716,
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "bytes": 8062,
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "bytes": 16010,
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "bytes": 1953,
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "bytes": 13095,
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "bytes": 5581,
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-high-mode-refinement.md",
+      "bytes": 6155,
+      "sha256": "aa3c4b7ef93855634432542746100d745c36beb41b6345764c9107f5d7d17439"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-final-m15-n512-followup.md",
+      "bytes": 12157,
+      "sha256": "c6e97843feeabc2512fddf8c801d621bdfe7626902eac82dffb8939b49ed5672"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-affine-lift-method.md",
+      "bytes": 2890,
+      "sha256": "4880cd103868a32b0b92f82de79196488f78f94abda376ebb402b405cb55dd6f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-affine-lift.md",
+      "bytes": 4847,
+      "sha256": "579eec84b98791d1664a51a828c1b869efc841ccb0857d287f582dc78b19e99a"
+    }
+  ],
+  "derived_expected_M16_schema": {
+    "prefix_slots": 49,
+    "tail_shape": [
+      865,
+      32
+    ],
+    "raw_shape": [
+      13,
+      32
+    ],
+    "height_jet_jacobian_entries": 800
+  },
+  "tail_theory_narrow_review": "Same-grid mode copy indices confirmed read-only; not a new numerical result."
+}

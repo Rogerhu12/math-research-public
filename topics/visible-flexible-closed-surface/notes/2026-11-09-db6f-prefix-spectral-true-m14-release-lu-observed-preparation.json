@@ -1,0 +1,82 @@
+{
+  "status": "OBSERVED_PURE_PREPARATION_AND_NEGATIVE_GATE_COMPLETED",
+  "observer": "/root/coupled_prefix",
+  "scope": "No candidate initialization, original or new Newton installation, weighted solver construction, BVP/DN/RK or future positive response.",
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-release-lu.py",
+      "bytes": 20496,
+      "sha256": "2db1fe8b9171c3d9a7a4ac0d11311cff8daec1aa36bb8cd91130148903070ed0"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+      "bytes": 9757,
+      "sha256": "2018226a193294d7791492ec44d595e19ae004079ae717eb5557db249a21949c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-release-lu.py",
+      "bytes": 25074,
+      "sha256": "ee0d6aeadc4cfbe25ef4788581cebf81d5a50cfdb77b9a47f83d9d6df3071989"
+    }
+  ],
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+    "bytes": 71499,
+    "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+  },
+  "runs": [
+    {
+      "tool_receipt": "c70b65",
+      "actual_exit_code": 0,
+      "kind": "pure_preparation",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01"
+      ],
+      "bindings": 117,
+      "callbacks": 24,
+      "outputs": [
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+          "bytes": 71499,
+          "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-tail-config.json",
+          "bytes": 2710,
+          "sha256": "ecfc1f0f1a3aeee4875d8bc56be5c2088194c8af6e30fbd7c1d9742ce9a94de8"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-preparation.json",
+          "bytes": 3266,
+          "sha256": "c36cccb7a7e380f820c1f632583900282dcb35ece36b4f76a8e1276815dc310e"
+        }
+      ]
+    },
+    {
+      "tool_receipt": "7b2611",
+      "actual_exit_code": 2,
+      "kind": "final_read_only_negative_gate",
+      "reason": "NOT_READY: root actual tool-exit observation is required",
+      "output_files_written": 0,
+      "active_trace_read": false
+    },
+    {
+      "tool_receipt": "8be7c0",
+      "actual_exit_code": 0,
+      "kind": "actual_source_and_real_preparation_comparison",
+      "AST_checks": 13,
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-release-lu-source-comparison.json",
+        "bytes": 3791,
+        "sha256": "6dd861ebd3b38c27845254942af23a40478f769c19ce2e824244718f74c4ee0c"
+      }
+    }
+  ],
+  "actual_candidate_objects": 0,
+  "actual_solver_calls": 0,
+  "actual_Newton_install_calls": 0,
+  "old_three_sources_unchanged": true
+}

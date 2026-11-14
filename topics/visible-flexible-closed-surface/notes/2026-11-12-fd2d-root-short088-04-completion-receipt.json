@@ -1,0 +1,18 @@
+{
+  "actual_tool_result": {
+    "session_id": 60439,
+    "actual_exit_code": 0,
+    "completion_chunk": "a70c7b",
+    "source": "Actual tools.write_stdin result"
+  },
+  "solver_success": true,
+  "solver_status": 0,
+  "message": "The algorithm converged to the desired accuracy.",
+  "seconds": 170.70097725300002,
+  "accepted_steps": 2,
+  "final_nodes": 844,
+  "maximum_rms_residual": 1.9954915758142774e-05,
+  "collocation_tolerance": 2e-05,
+  "maximum_rss_kib": 478276,
+  "scope": "Actual finite gap .05 state with linear tail. Capacity increased from700 to1400, same equations/tolerances; mesh adapted to844. Body reconstruction and larger gap continuation active, not certified here."
+}

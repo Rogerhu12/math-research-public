@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-owned-actual-tile-launch-v1",
+  "observed_utc": "2026-11-12T17:47:14.322890+00:00",
+  "plan_session": 75934,
+  "plan_launch_chunk": "f162fd",
+  "plan_final_chunk": "74659e",
+  "plan_actual_tool_exit": 0,
+  "controller_session": 69212,
+  "controller_launch_chunk": "7ea619",
+  "controller_actual_exit": null,
+  "controller_observed_running": true,
+  "argv": [
+    "python",
+    "-u",
+    "scripts/fd2d-gc-run-normal-tiles.py",
+    "--request",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-request.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-tiles-controller-a01"
+  ],
+  "finite_target_changed": false,
+  "accepted": 0,
+  "plan": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/normal-partition-plan.json",
+    "bytes": 44037,
+    "sha256": "76f86d08455ab74fc8efa32697beeaa3cf4425e30b68f343afdc6fa629751e31"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS-all-mathematical-and-hash-fields-identical",
+  "root_report_sha256": "f329aaea39722b02b48ce98fe11e4232ae2c60b57a94789b071dfb5c915f49c5",
+  "audit_report_sha256": "8fad34b4b7512455d135568a65079aa5549c6d2d5f0a3c4446d5d5da868cae7c",
+  "different_keys": [
+    "closed_budget"
+  ],
+  "reason": "The two budget filenames are independent exact replay outputs with identical SHA256. All other fields are identical.",
+  "geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "finite_tail_manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "whole_metric_operator_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "lower_display": 2.5721188324492386e-08,
+    "upper_display": 2.572118832449239e-08
+  },
+  "whole_reach_over_diameter_lower": {
+    "exact": "1407374883553280/46687172903089131",
+    "lower_display": 0.030144787016224722,
+    "upper_display": 0.030144787016224726
+  },
+  "fixed_g_convergence_gate_5_paid": false
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Actual observed exit only; no numerical response inferred",
+  "run": "resume-04",
+  "poll_tool": "0eb406",
+  "session": 72611,
+  "driver_exit_code": 2,
+  "worker_exception": {
+    "scope": "Actual client exception and own worker state; not a fabricated DN response.",
+    "unix_time": 1794453685.8531582,
+    "worker_pid": 6,
+    "worker_returncode": -9,
+    "exception": "RuntimeError('Weighted tail worker stopped')",
+    "call": 1,
+    "expected_response_exists": false
+  },
+  "last_runtime": {
+    "scope": "Observed own worker process and global available memory; no solver or geometry claim.",
+    "system_memory": {
+      "MemFree": "875836 kB",
+      "MemAvailable": "1311360 kB",
+      "SwapFree": "0 kB"
+    },
+    "unix_time": 1794453683.1219325,
+    "worker_pid": 6,
+    "worker_returncode": null,
+    "status_file_available": true,
+    "last_live_memory": {
+      "unix_time": 1794453683.1219325,
+      "State": "S (sleeping)",
+      "VmHWM": "540676 kB",
+      "VmRSS": "540676 kB",
+      "VmData": "2717416 kB",
+      "Threads": "14"
+    }
+  },
+  "driver_seconds": 300.64083643699996,
+  "parent_python_last_rss_kB": 102308,
+  "new_completed_iterations": 0,
+  "new_response_packet_exists": false,
+  "specific_kill_cause": "not established; effective independent heap bounds did not prevent SIGKILL"
+}

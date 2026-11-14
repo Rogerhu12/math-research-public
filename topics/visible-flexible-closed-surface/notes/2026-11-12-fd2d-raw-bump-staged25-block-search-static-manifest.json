@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-same-normal-saved-block-Schur-and-QP-static-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_saved_schur_search.py",
+      "bytes": 7222,
+      "sha256": "9e0b241009c9137a9457635fb2244492e4a924e847c10d271fbae71084f3a99a"
+    },
+    {
+      "path": "scripts/fd2d_gc_schur_stage_io.py",
+      "bytes": 896,
+      "sha256": "6d21b5b0e70282649de2ada60f48bc11fcb858ad69c501f3481d6e98254a4739"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-schur-block.py",
+      "bytes": 4844,
+      "sha256": "034fd57f36d640fe73da1a96a2412ac530f98692fb60441d574a9b16847d37eb"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-qp-from-schur.py",
+      "bytes": 6577,
+      "sha256": "26e580231a19e52ae5050a7ee8883dfaa45bdcdf2a2530bd47ede1d8b2b78769"
+    }
+  ],
+  "field_solver": {
+    "path": "scripts/fd2d_gc_block_normal_solve.py",
+    "bytes": 10816,
+    "sha256": "d992719316f0375ef3fe52b0feb75d970d3a560703edd9072ec1dacdd7457e26"
+  },
+  "normal_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/normal-partitioned/manifest.json",
+    "bytes": 435510,
+    "sha256": "e022f588dd0731aca74896ea8ef7fcbf649bd89c4a8d336e50b57a55c730a732"
+  },
+  "actual_factor_launch": {
+    "session_id": 62475,
+    "launch_chunk": "5bb9aa",
+    "final_chunk": "3ea4a1",
+    "actual_tool_exit": 0,
+    "actual_child_exit": 0
+  },
+  "finite_equations_changed": false,
+  "global_column_scales_changed": false,
+  "damping": 1e-07,
+  "original_bounded_QP_constraints_and_options_preserved": true,
+  "incomplete_QP_iterate_observations_are_not_physical_accepted_states": true,
+  "future_QP_and_trials_not_yet_executed": true,
+  "created_utc": "2026-11-12T18:14:11.126208+00:00"
+}

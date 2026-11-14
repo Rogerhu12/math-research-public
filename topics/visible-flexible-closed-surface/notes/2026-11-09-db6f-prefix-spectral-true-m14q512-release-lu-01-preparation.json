@@ -1,0 +1,79 @@
+{
+  "status": "PREPARED_ONLY_NO_CANDIDATE_INITIALIZATION_NO_SOLVER",
+  "scope": "Pure preparation of the explicit LU-lifetime true M14/N512 W14 variant.\n\nNo candidate class, saved-mesh restart, flow, RHS, Newton installation,\nweighted solver factory, BVP or DN is constructed/called by this script.\n",
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+    "bytes": 71499,
+    "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+  },
+  "tail_config": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-tail-config.json",
+    "bytes": 2710,
+    "sha256": "ecfc1f0f1a3aeee4875d8bc56be5c2088194c8af6e30fbd7c1d9742ce9a94de8"
+  },
+  "source_checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "own_actual_tail_warm": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+    "bytes": 254154,
+    "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+  },
+  "original_warm_residual": 5.397833270174952e-10,
+  "bindings": 117,
+  "old_actual_tail_metadata_check": {
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+      "bytes": 254154,
+      "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+    },
+    "residual": 5.397833270174952e-10,
+    "history_rows": 1,
+    "last_history_norm": 5.397833270174952e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 8,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "original_reference_bindings": 97,
+  "callback_definitions": 24,
+  "visited_python_sources": 58,
+  "included_actual_coupled_main": true,
+  "new_state_components": 43,
+  "new_free_parameters": 14,
+  "new_central_scales": 13,
+  "new_tail_Jacobian_entries": 616,
+  "original_settings": {
+    "modes": 14,
+    "angular": 512,
+    "audit_angular": 1024,
+    "nodes": 1601,
+    "max_nodes": 6500,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "node_heap": 1536
+  },
+  "operations": {
+    "candidate_objects": 0,
+    "restart_calls": 0,
+    "flow_calls": 0,
+    "RHS_calls": 0,
+    "Newton_install_calls": 0,
+    "weighted_solver_factory_calls": 0,
+    "BVP_calls": 0,
+    "DN_calls": 0
+  },
+  "runtime_identity_status": "NOT_RUN; remains a gate in the future actual selector",
+  "future_tool_exit_status": "NOT_STARTED; only root may provide an actual tool observation"
+}

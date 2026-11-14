@@ -1,0 +1,79 @@
+{
+  "schema": "fd2d-R180-full-connection-endpoint-primitive-closed-group-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T20:56:41.491007+00:00",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_connection_endpoint_primitive.py",
+      "bytes": 8040,
+      "sha256": "2a5f3e966751f787ce53bb7ee420cfc3480be78e925fe16ab203965a15f3931b"
+    },
+    {
+      "path": "scripts/fd2d_gc_connection_primitive_gauss_reduction.py",
+      "bytes": 2112,
+      "sha256": "6d941988f5873d031cbb8e16539eba1b8f9ad0e4f5bae0cca68c69c7a8b5bd0f"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-endpoint-primitive-check.py",
+      "bytes": 6477,
+      "sha256": "8839a2173e40f40811c2f7fa62734e6467ecb65262b580777ca18f9bd4123df0"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-primitive-reduced-check.py",
+      "bytes": 3669,
+      "sha256": "3c9d5e1155392b9ac9d7e6b34bba042f060302750d1d794a8e1e1820d7f14caf"
+    },
+    {
+      "path": "results/R180-full-function-endpoint-primitive-and-material-drift.md",
+      "bytes": 11330,
+      "sha256": "2f9134bda3b60fdf036a26d68afc1c65eb2ae3d6bfc9918dca5d31be731cfe39"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-primitive.json",
+      "bytes": 1720,
+      "sha256": "aa1da36cc27432d1abfa4ef982d5ad00a20e9557f78df2da6209f0336d639308"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-report.json",
+      "bytes": 9465,
+      "sha256": "20dccf758b3f110355a63d40cc45952112419a681bf77f0dc3b196ddc41e4718"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-completion-receipt.json",
+      "bytes": 784,
+      "sha256": "3e2d2b2f1025e271db9ce0be92c33e4aeef8dea11981d3fe325ece39126c64e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-reduced-R180-01-report.json",
+      "bytes": 3911,
+      "sha256": "6073f7341879b058f9e1e149b248119ccb09a24afb91b9175ba7315e2c568380"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-reduced-R180-01-completion-receipt.json",
+      "bytes": 791,
+      "sha256": "5ad299d40faae8526260c6d6d7572cb749b92a61a6409ebad0fcb31fb463d003"
+    }
+  ],
+  "artifact_count": 10,
+  "artifact_bytes": 48299,
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "complete_field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "dependencies": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-complete-arb-closed-manifest-01.json",
+      "bytes": 3590,
+      "sha256": "80eeaaf71620778e2a292e8c4423726c7b014a99aff2056af23e9f166f8f1943"
+    }
+  ],
+  "full_native_endpoint_functions_retained": true,
+  "drift_sign_proved": "minus (U_s/U_xi)*(L_v)_xi",
+  "all_Gauss_effects_retained": true,
+  "actual_primitive_nonzero": true,
+  "actual_one_box_E_not_claimed_better_than_H": true,
+  "source_or_array_mutations": false,
+  "whole_surface_certificate": false
+}

@@ -1,0 +1,164 @@
+{
+  "status": "numerical-background-height-samples-for-mesh-not-a-certificate",
+  "finished": true,
+  "scope": "Numerical samples of the same frozen source and an enclosed alpha representative. All finite calibration binaries are checked. Adaptive Gauss quadrature, bisection and binary64 arithmetic are not rigorous interval error bounds; mesh positions remain visual approximations to the proved map.",
+  "inputs": {
+    "manifest": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+      "sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da"
+    },
+    "calibrations": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "radii": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-sample-radii.json",
+      "sha256": "b23cc295a4db89ca8efc771858df57bfd37162f2a83e8c34873d7241cd496f07"
+    }
+  },
+  "backgroundCheckpoint": {
+    "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+    "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+  },
+  "scriptSHA256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4",
+  "sourceSHA256": {
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575"
+  },
+  "exactGeometryKeysMatched": [
+    "rCut",
+    "rCuff",
+    "wCut",
+    "width",
+    "curvatureBound",
+    "delta0",
+    "R",
+    "a",
+    "etaPower",
+    "etaRatioAtN0",
+    "orientation",
+    "prefixR",
+    "prefixEnd",
+    "prefixReturnStart",
+    "protectCell",
+    "slopeCap",
+    "capTransition",
+    "capMode",
+    "valleyControls",
+    "pulseCaps",
+    "valleyCaps",
+    "warpWeightLevels",
+    "prefixRByCell",
+    "flatOuterThroughCell",
+    "flatOuterStartSegment",
+    "flatSlope",
+    "rejoinR20At",
+    "rejoinIndexOffset"
+  ],
+  "finiteCalibrationBinaryEqualityCount": 160,
+  "alphaRepresentative": 97.64534740777785,
+  "alphaEnclosure": [
+    97.64534740775791,
+    97.64534740780157
+  ],
+  "parameters": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "protectCell": 160,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "quadratureTolerance": 2e-10
+  },
+  "gauge": "heightFromRToCut is positive integral_r^cut w(s) ds. Upper-tail closed z = prefix_cut_mean + tail_Vmean_at_cut - tail_Vz(r,theta) + heightFromRToCut; the lower tail is its full z reflection.",
+  "finiteHeightToCutApprox": 0.04928110416972474,
+  "finiteRadialWidthApprox": 0.4499999999999999,
+  "finiteInnerRadiusApprox": 0.15000000000000008,
+  "radialTotalMinusCuffApprox": 1.1102230246251565e-16,
+  "maximumInverseRadiusResidualApprox": 4.705437428587089e-16,
+  "maximumSplitHeightDifferenceApprox": 1.3877787807814457e-17,
+  "deepOmission": {
+    "beginsAtCell": 160,
+    "exactHeightUpperExpression": "640 * 2^(-280)",
+    "heightUpper": 3.2944368572595385e-82,
+    "reason": "R15 gives w <= 1280*2^(-7*n/4) on the unchanged source n>=160; its physical width is less than 1/2. This bounds only the omitted exact deep height, not finite quadrature, inverse, alpha or rounding errors."
+  },
+  "heightIntervalCertificate": false,
+  "rows": [
+    {
+      "r": 0.14999999999999997,
+      "heightFromRToCut": 0.04928110416972474,
+      "location": "cuff-finite-sum-with-tiny-deep-omission",
+      "radialResidualApprox": 1.1102230246251565e-16,
+      "splitHeightDifferenceApprox": 0
+    },
+    {
+      "r": 0.1525361819534748,
+      "heightFromRToCut": 0.04927922000989918,
+      "location": "finite-source-profile",
+      "cell": 7,
+      "segment": 0,
+      "sourceXApprox": 2.842170943040401e-14,
+      "sourceInverseBracketWidth": 5.684341886080802e-14,
+      "radialResidualApprox": -3.0299956710062425e-17,
+      "splitHeightDifferenceApprox": 3.7865323450608567e-29
+    },
+    {
+      "r": 0.2,
+      "heightFromRToCut": 0.04885570035726349,
+      "location": "finite-source-profile",
+      "cell": 3,
+      "segment": 1,
+      "sourceXApprox": 0.4933628329727924,
+      "sourceInverseBracketWidth": 5.684341886080802e-14,
+      "radialResidualApprox": -4.705437428587089e-16,
+      "splitHeightDifferenceApprox": 0
+    },
+    {
+      "r": 0.43461205014186477,
+      "heightFromRToCut": 0.01906652743576684,
+      "location": "finite-source-profile",
+      "cell": 0,
+      "segment": 3,
+      "sourceXApprox": 0.8512899964553924,
+      "sourceInverseBracketWidth": 5.684341886080802e-14,
+      "radialResidualApprox": -1.3227266504323154e-16,
+      "splitHeightDifferenceApprox": 1.1858461261560205e-20
+    },
+    {
+      "r": 0.5209378646005576,
+      "heightFromRToCut": 0.01825928174946789,
+      "location": "finite-source-profile",
+      "cell": 0,
+      "segment": 5,
+      "sourceXApprox": 0.4257812499993463,
+      "sourceInverseBracketWidth": 5.684341886080802e-14,
+      "radialResidualApprox": -2.7755575615628914e-17,
+      "splitHeightDifferenceApprox": 0
+    },
+    {
+      "r": 0.5277881139390467,
+      "heightFromRToCut": 0.018030865604844605,
+      "location": "finite-source-profile",
+      "cell": 0,
+      "segment": 7,
+      "sourceXApprox": 0.005821671660072525,
+      "sourceInverseBracketWidth": 5.684341886080802e-14,
+      "radialResidualApprox": 1.3877787807814457e-17,
+      "splitHeightDifferenceApprox": 1.3877787807814457e-17
+    },
+    {
+      "r": 0.6,
+      "heightFromRToCut": 0,
+      "location": "exact-cut-by-definition",
+      "radialResidualApprox": 0,
+      "splitHeightDifferenceApprox": 0
+    }
+  ],
+  "seconds": 3.054724861
+}

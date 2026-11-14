@@ -1,0 +1,249 @@
+{
+  "schema": "fd2d-bump-added-tail-derivative-columns-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-tail-columns-check.py",
+    "bytes": 3605,
+    "sha256": "33572b9dd817ac2cadb844e7a4e628307c965da2d213d707672fc62408bf889a"
+  },
+  "current_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+    "bytes": 16064,
+    "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+  },
+  "prior_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae_check01_snapshot.py",
+    "bytes": 15102,
+    "sha256": "f16e2753052756ff02251058f2fec265cbf98e38a7db9aa57b19619525cd674f"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "bytes": 38553,
+    "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+  },
+  "unchanged_original": {
+    "raw_F": 0.0,
+    "raw_J": 0.0,
+    "fields": 0.0
+  },
+  "tail_derivative_checks": [
+    {
+      "step": 1e-05,
+      "field": "values",
+      "absolute_maximum": 7.334011176141075e-11,
+      "relative_l2": 9.180937401958802e-11
+    },
+    {
+      "step": 1e-05,
+      "field": "x",
+      "absolute_maximum": 4.874656234221675e-10,
+      "relative_l2": 6.807352217627769e-11
+    },
+    {
+      "step": 1e-05,
+      "field": "xi",
+      "absolute_maximum": 4.944084031066609e-10,
+      "relative_l2": 7.395479599536946e-11
+    },
+    {
+      "step": 1e-06,
+      "field": "values",
+      "absolute_maximum": 5.441620487545151e-10,
+      "relative_l2": 9.47684139573211e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "x",
+      "absolute_maximum": 5.118594603725768e-09,
+      "relative_l2": 7.040562125450079e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "xi",
+      "absolute_maximum": 5.37135380618281e-09,
+      "relative_l2": 7.635689715083058e-10
+    }
+  ],
+  "positive_domain_bound": {
+    "sampled_screen": {
+      "points": 577,
+      "minimum_a": 0.8,
+      "minimum_at_s": 1.4889731783581288,
+      "maximum_abs_a_s": 1.0,
+      "maximum_abs_a_ss": 3.3998346124373815,
+      "passed": true,
+      "continuous_certificate": false
+    },
+    "continuous_sufficient_bound": {
+      "base_lower_fraction": "4/5",
+      "base_lower_provenance": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+        "bytes": 136549,
+        "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695",
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+      },
+      "lower_fraction": "4/5",
+      "lower_numeric": 0.8,
+      "strict_positive_above_floor": true,
+      "rows": [
+        {
+          "interval": [
+            0.0,
+            0.34
+          ],
+          "active": [],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.34,
+            0.4528973178358129
+          ],
+          "active": [
+            0
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.4528973178358129,
+            0.5657946356716258
+          ],
+          "active": [
+            0,
+            1
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.5657946356716258,
+            0.6786919535074387
+          ],
+          "active": [
+            0,
+            1,
+            2
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.6786919535074387,
+            0.7915892713432515
+          ],
+          "active": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.7915892713432515,
+            0.9044865891790643
+          ],
+          "active": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            0.9044865891790643,
+            1.0173839070148774
+          ],
+          "active": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            1.0173839070148774,
+            1.1302812248506902
+          ],
+          "active": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            1.1302812248506902,
+            1.243178542686503
+          ],
+          "active": [
+            4,
+            5,
+            6
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            1.243178542686503,
+            1.356075860522316
+          ],
+          "active": [
+            5,
+            6
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            1.356075860522316,
+            1.4689731783581288
+          ],
+          "active": [
+            6
+          ],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        },
+        {
+          "interval": [
+            1.4689731783581288,
+            1.4889731783581288
+          ],
+          "active": [],
+          "lower_fraction": "4/5",
+          "lower_numeric": 0.8
+        }
+      ],
+      "scope": "Exact sufficient inequality conditional on the identified base bound; not necessary for all deltas"
+    },
+    "target_positive_metric": "a_delta(s)>0",
+    "abs_a_s_le_one_not_imposed": true,
+    "embedding_or_reach_certified": false
+  },
+  "seconds": 11.754637338000066,
+  "scope": "Only exposed derivative fields and the identified scalar positivity domain; no BVP or geometry certificate",
+  "passed": true
+}

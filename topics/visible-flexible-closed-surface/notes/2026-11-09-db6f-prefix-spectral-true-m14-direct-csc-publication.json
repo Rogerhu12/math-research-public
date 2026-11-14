@@ -1,0 +1,97 @@
+{
+  "schema": "db6f-direct-csc-full-entry-source-publication-v1",
+  "status": "FROZEN_SOURCE_ONLY_PENDING_INDEPENDENT_FULL_ENTRY_REVIEW_AND_ACTUAL_CHECKS",
+  "created_date": "2026-11-10",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+      "commit": "a804d0121309ac33ed4f1c3ee88c0a7586d7a47b",
+      "bytes": 20547,
+      "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b",
+      "blob": "25d9e33b56c27c10fce0b33e3259dc4d4b272504",
+      "readback_exact": true,
+      "role": "unexecuted standard-library actual-report prerequisite gate"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-direct-csc.py",
+      "commit": "9af49bff30bae6307ff15167f918e3b40e2406db",
+      "bytes": 14009,
+      "sha256": "e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49",
+      "blob": "b80d31ec94d295cadd2d00a4839aa3a1afa1a231",
+      "readback_exact": true,
+      "role": "unexecuted explicit runtime CSC selector; no installation occurred"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-direct-csc.py",
+      "commit": "4682653bd3f69028709959d5667ffa47f0003204",
+      "bytes": 24690,
+      "sha256": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+      "blob": "05424747517e97e7f6b4a5368d9f809312ad6f65",
+      "readback_exact": true,
+      "role": "unexecuted new direct-CSC runner source"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-direct-csc.py",
+      "commit": "d01c9ae6e672ca7ad04755ea087a3564177d1bb3",
+      "bytes": 13103,
+      "sha256": "2e843363c57aee7d96b3359fc0735604f9c0fdbafce8ad4adb2feb421d4f3116",
+      "blob": "fcc88cd81da8d0e1d9b87b1842878457315f7dc7",
+      "readback_exact": true,
+      "role": "unexecuted new direct-CSC preparer source"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+      "commit": "82ddbdffef930266a5aadb52bcbc24a513a01897",
+      "bytes": 31225,
+      "sha256": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0",
+      "blob": "024b3f6cb4889c6f06d63fc33e05f9b931ef9f3d",
+      "readback_exact": true,
+      "role": "unexecuted new direct-CSC auditor source"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-direct-csc-source-transforms.json",
+      "commit": "9b7640066e07bb0935c6a9907332e08f0b9eac41",
+      "bytes": 29639,
+      "sha256": "1a3b90585de2cf352641e922b054413267a6906f6e061887a129dae3f7882e23",
+      "blob": "8e49eb79e40f851279e2fea0e60de9d13d2b87e6",
+      "readback_exact": true,
+      "role": "complete V8-only source transformation ledger"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-direct-csc-method.md",
+      "commit": "fc77e15562addd75b2e065aaac7768a6dccd21c7",
+      "bytes": 16153,
+      "sha256": "5e6cd1ddfe08d07f77ee32cccd9596529ef616189f75e2a3a316e52298d36f36",
+      "blob": "71bbfd25052bef1c85d53bb3a5b79a10091aa161",
+      "readback_exact": true,
+      "role": "complete scope, evidence contracts and unexecuted running instructions"
+    }
+  ],
+  "total_bytes": 149366,
+  "scope": "Small source/method/metadata text only. No actual data, array, prefix/tail response, prerequisite report, launch or candidate was created or transmitted.",
+  "checks_performed": {
+    "new_path_absence": true,
+    "fixed_commit_readback": true,
+    "v8_complete_text_replay": true
+  },
+  "unpaid": {
+    "python_ast": true,
+    "actual_stdlib_checker": true,
+    "actual_byte_replay": true,
+    "pure_preparation": true,
+    "factory": true,
+    "installation": true,
+    "bvp": true,
+    "dn": true,
+    "full_coupled_close": true,
+    "continuous_geometry_metric": true
+  },
+  "old_frozen_sources_unchanged": true,
+  "independent_byte_test_static_review": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direct-csc-byte-test.md",
+    "commit": "e4a15f7f830690c13d947ae764c648d445327ec8",
+    "sha256": "f8c0f68ad9d5a0fc64a7b9962bad754dc8f5dfa315af81bd00bb6350d216cce4",
+    "scope": "The test source only; no matrix execution and not this full-entry review."
+  },
+  "parent_runtime_permission": "No new actual solver launch; root must independently review complete sources and real prerequisites and own any later run."
+}

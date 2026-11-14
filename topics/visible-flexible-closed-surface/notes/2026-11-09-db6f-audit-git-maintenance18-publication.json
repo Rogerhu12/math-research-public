@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_PREFLIGHT_ONLY",
+  "actual_execution_receipts": [
+    {
+      "chunk_id": "4fd03c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "8d31bf",
+      "exit_code": 0
+    }
+  ],
+  "removal_scope": [
+    "pack-d44586219587f80e0b96f6485973557d6a009d35"
+  ],
+  "files": [
+    {
+      "path": "scripts/db6f-audit-git-maintenance18-preflight.py",
+      "bytes": 8039,
+      "sha256": "19ea86f9d811f67701c31c2444dce0705c7f70ce1e256552a6ef06ee95d43219"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance18-preflight.json",
+      "bytes": 35198,
+      "sha256": "ddb7a2e82f55f7b86f11cef2eb7cd4e6d7314e198ae3fee2580ef9fc1977068d"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance18-rescue-oids.txt",
+      "bytes": 1107,
+      "sha256": "167dc0a63cea1652cd8561b09b67bd00d6d1e412c2edf91de46cc64e319f4802"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance18-target-and-loose.json.gz",
+      "bytes": 77726,
+      "sha256": "8bdea818a0156aa955a10218e92ac0b3853804ca807d1efe3f5b545c657cdc7a"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance18-payload-binding.json",
+      "bytes": 3394,
+      "sha256": "fbb5ae06d13ce7dec28b6771fd1c425ac4b76ab681c0fc6991630cebafcf7a70"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-git-maintenance18-review.md",
+      "bytes": 3625,
+      "sha256": "81deb70799d0a17ba2ec2553a8fd0aabd91c47bd99bbfc228eaf060ed7dd3a9c"
+    }
+  ]
+}

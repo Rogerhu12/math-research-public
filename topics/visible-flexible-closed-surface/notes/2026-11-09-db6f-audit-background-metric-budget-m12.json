@@ -1,0 +1,242 @@
+{
+  "status": "certified-w-uncertainty-upper-budget-not-an-error-floor",
+  "scope": "Local metric budget spent by uncertainty in a certified background w packet.\n\nFor the exact finite map, the only w-dependent residual numerators are\nEres = ... + 2*w*Zr and Fres = ... + w*Ztheta. Around the exact midpoint of\neach interval power coefficient, a pointwise uncertainty delta_w contributes\nat most delta_w*(2*||Zr|| + ||Ztheta||/r_min) to a relative row-sum bound,\nusing 1+w^2 >= 1. This is an upper-bound budget, NOT a lower bound on the\nactual error, a necessity theorem, or a complete metric certificate.\n\nThe coefficient uncertainty and explicit remainder are both included. In\nparticular a coarse interval constant may have zero remainder yet be wide.\nNo source ODE or source radius evaluator is used.\n",
+  "manifest": "notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-manifest.json",
+  "manifest_sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+  "packet": "notes/2026-11-09-db6f-audit-transfer-tight-m12.json",
+  "packet_sha256": "3378c623ca0f396a0e4545a6ca21da7137f25f0ec874583fba13609bce2636aa",
+  "packet_data_sha256": "a9b4330542317d55e6fffe193a6d8040555b0857c341a60a007cc6d3ad9643f9",
+  "script_sha256": "ef5a9d04d0fe9687a5704683a2dbef65f8870c2fda503933ad05e4738519f0d3",
+  "finite_tail_backend_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "requested_background_budget": 2e-10,
+  "cells": {
+    "-1": {
+      "rows": 1,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 9.681497109835556e-27,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 9.681497109835554e-27,
+      "span_ranges_above_budget": []
+    },
+    "0": {
+      "rows": 4302,
+      "rows_above_budget": 1031,
+      "maximum_budget_upper": 1.2152432248254314e-06,
+      "maximum_remainder_budget_upper": 1.2152432243794804e-06,
+      "maximum_coefficient_budget_upper": 1.1154510527086938e-08,
+      "span_ranges_above_budget": [
+        [
+          16618,
+          16620
+        ],
+        [
+          16648,
+          16653
+        ],
+        [
+          16655,
+          16657
+        ],
+        [
+          16944,
+          16947
+        ],
+        [
+          16948,
+          16951
+        ],
+        [
+          16952,
+          16957
+        ],
+        [
+          16958,
+          16961
+        ],
+        [
+          17048,
+          17055
+        ],
+        [
+          17056,
+          17061
+        ],
+        [
+          17063,
+          17068
+        ],
+        [
+          17076,
+          17079
+        ],
+        [
+          17080,
+          17083
+        ],
+        [
+          17084,
+          17087
+        ],
+        [
+          17088,
+          17091
+        ],
+        [
+          17094,
+          17096
+        ],
+        [
+          17098,
+          17112
+        ],
+        [
+          17113,
+          17123
+        ],
+        [
+          17126,
+          17151
+        ],
+        [
+          17154,
+          17171
+        ],
+        [
+          17430,
+          17432
+        ],
+        [
+          17435,
+          17452
+        ],
+        [
+          17459,
+          17484
+        ],
+        [
+          17485,
+          17486
+        ],
+        [
+          17487,
+          17490
+        ],
+        [
+          17491,
+          17521
+        ],
+        [
+          17522,
+          17540
+        ],
+        [
+          17541,
+          17554
+        ],
+        [
+          17561,
+          17562
+        ],
+        [
+          17564,
+          17689
+        ],
+        [
+          17944,
+          18181
+        ],
+        [
+          18187,
+          18194
+        ]
+      ]
+    },
+    "1": {
+      "rows": 3810,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 2.6477870382191907e-11,
+      "maximum_remainder_budget_upper": 2.6477817010479967e-11,
+      "maximum_coefficient_budget_upper": 1.042749863687102e-11,
+      "span_ranges_above_budget": []
+    },
+    "2": {
+      "rows": 3482,
+      "rows_above_budget": 3479,
+      "maximum_budget_upper": 2.416395761761735e-07,
+      "maximum_remainder_budget_upper": 6.436480742168158e-13,
+      "maximum_coefficient_budget_upper": 2.4163957617617347e-07,
+      "span_ranges_above_budget": [
+        [
+          11537,
+          13843
+        ]
+      ]
+    },
+    "3": {
+      "rows": 3464,
+      "rows_above_budget": 2585,
+      "maximum_budget_upper": 1.6770550339424257e-08,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 1.6770550339424254e-08,
+      "span_ranges_above_budget": [
+        [
+          9231,
+          9556
+        ],
+        [
+          10141,
+          11537
+        ]
+      ]
+    },
+    "4": {
+      "rows": 3465,
+      "rows_above_budget": 1073,
+      "maximum_budget_upper": 5.730585973854084e-10,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.730585973854083e-10,
+      "span_ranges_above_budget": [
+        [
+          7889,
+          8272
+        ],
+        [
+          8899,
+          9231
+        ]
+      ]
+    },
+    "5": {
+      "rows": 3468,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 1.3256593912028623e-11,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 1.3256593912028621e-11,
+      "span_ranges_above_budget": []
+    },
+    "6": {
+      "rows": 3468,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 5.8105468857062635e-15,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.810546885706263e-15,
+      "span_ranges_above_budget": []
+    },
+    "7": {
+      "rows": 3468,
+      "rows_above_budget": 0,
+      "maximum_budget_upper": 5.078378972988463e-21,
+      "maximum_remainder_budget_upper": 5e-324,
+      "maximum_coefficient_budget_upper": 5.078378972988462e-21,
+      "span_ranges_above_budget": []
+    }
+  },
+  "whole_span_height_bounds": true,
+  "checked_rows": 28928,
+  "rows_above_budget": 8168,
+  "row_file": "2026-11-09-db6f-audit-background-metric-budget-m12.rows.json.gz",
+  "row_sha256": "f3bddef11a611bf4d51093e987ae9e11e27c4810904fd2ebe2b6738da83f3c07",
+  "seconds": 343.26283074899766,
+  "complete_metric_certified": false,
+  "actual_error_lower_bound": false
+}

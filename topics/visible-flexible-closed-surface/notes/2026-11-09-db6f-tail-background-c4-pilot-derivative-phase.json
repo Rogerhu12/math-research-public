@@ -1,0 +1,95 @@
+{
+  "status": "diagnostic-formula-pending-proof-and-audit",
+  "rows": [
+    {
+      "row": 37,
+      "span": 4569,
+      "u_left": 0.99609375,
+      "u_right": 0.9970703125,
+      "old": 6.758650629499867e-09,
+      "derivative_phase_bound": 9.705410381374094e-12,
+      "endpoint_error": 7.771561172376097e-16,
+      "derivative_bound": 1.9409266450513704e-11
+    },
+    {
+      "row": 38,
+      "span": 4569,
+      "u_left": 0.9970703125,
+      "u_right": 0.998046875,
+      "old": 6.758650558701465e-09,
+      "derivative_phase_bound": 9.704167391008086e-12,
+      "endpoint_error": 7.771561172376097e-16,
+      "derivative_bound": 1.9406780469781687e-11
+    },
+    {
+      "row": 39,
+      "span": 4569,
+      "u_left": 0.998046875,
+      "u_right": 0.9990234375,
+      "old": 6.758650598925366e-09,
+      "derivative_phase_bound": 9.702924647325948e-12,
+      "endpoint_error": 7.771561172376097e-16,
+      "derivative_bound": 1.940429498241741e-11
+    },
+    {
+      "row": 40,
+      "span": 4569,
+      "u_left": 0.9990234375,
+      "u_right": 1.0,
+      "old": 6.758650639149266e-09,
+      "derivative_phase_bound": 9.701681307775983e-12,
+      "endpoint_error": 7.771561172376097e-16,
+      "derivative_bound": 1.940180830331748e-11
+    },
+    {
+      "row": 41,
+      "span": 4570,
+      "u_left": 0.0,
+      "u_right": 0.0009765625,
+      "old": 9.01127639835967e-09,
+      "derivative_phase_bound": 1.7247907297535308e-11,
+      "endpoint_error": 7.771561172376097e-16,
+      "derivative_bound": 3.449426028283612e-11
+    },
+    {
+      "row": 42,
+      "span": 4570,
+      "u_left": 0.0009765625,
+      "u_right": 0.001953125,
+      "old": 9.011276293951001e-09,
+      "derivative_phase_bound": 1.7243594029018417e-11,
+      "endpoint_error": 8.881784197001254e-16,
+      "derivative_bound": 3.4485411701197415e-11
+    },
+    {
+      "row": 43,
+      "span": 4570,
+      "u_left": 0.001953125,
+      "u_right": 0.0029296875,
+      "old": 9.011276411586937e-09,
+      "derivative_phase_bound": 1.72391713820187e-11,
+      "endpoint_error": 8.881784197001254e-16,
+      "derivative_bound": 3.447656640719798e-11
+    },
+    {
+      "row": 44,
+      "span": 4570,
+      "u_left": 0.0029296875,
+      "u_right": 0.00390625,
+      "old": 9.01127641820057e-09,
+      "derivative_phase_bound": 1.7234749631371746e-11,
+      "endpoint_error": 8.881784197001254e-16,
+      "derivative_bound": 3.446772290590407e-11
+    },
+    {
+      "row": 45,
+      "span": 4570,
+      "u_left": 0.00390625,
+      "u_right": 0.0048828125,
+      "old": 9.011276424814203e-09,
+      "derivative_phase_bound": 1.7230328095913347e-11,
+      "endpoint_error": 8.881784197001254e-16,
+      "derivative_bound": 3.4458879834987274e-11
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Adapter consistency checks; samples, not a continuous geometry proof.",
+  "identityError": 0,
+  "maxRadiusJoin": 5.551115123125783e-17,
+  "maxLogwJoin": 5.684341886080802e-14,
+  "maxRelativeSlopeJoin": 7.771561172376096e-16,
+  "maxRadialDerivativeDifference": 1.209511726885104e-10,
+  "stats": {
+    "rCut": 0.6,
+    "rCuff": 0.25,
+    "oldCut": 0.25281475451853164,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 9,
+    "alpha": 59.24899019038069,
+    "actualWidth": 0.35,
+    "minimumWarpWidth": 0.18282403412065806,
+    "meridianLength": 0.3557607568379193,
+    "heightSpan": 0.039735059514395495,
+    "cutRadiusError": 0,
+    "cutSlopeError": -5.551115123125783e-17,
+    "cutSecondError": 2.6645352591003757e-15,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        1,
+        2,
+        0.2,
+        1
+      ]
+    ]
+  }
+}

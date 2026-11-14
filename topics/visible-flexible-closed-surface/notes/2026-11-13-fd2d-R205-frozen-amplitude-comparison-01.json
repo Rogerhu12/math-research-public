@@ -1,0 +1,1287 @@
+{
+  "schema": "fd2d-R205-actual-frozen-amplitude-comparison-v1",
+  "commonParent": {
+    "path": "notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+    "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+    "gitBlob": "5095f23e2fca586c3b3ad2bd3106e307d01a4c19",
+    "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3"
+  },
+  "objectiveScope": "R205 actual metric plus curvature guide only; R203 extra geometry rows are excluded from every row.",
+  "amplitudeZero": {
+    "options": {
+      "radialBasisCount": 30,
+      "modes": 15,
+      "angles": 128,
+      "gap": 0.8,
+      "radiusCoefficientBound": 0.4,
+      "radialKnots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "bentAnnulus": {
+        "amplitude": 0
+      }
+    },
+    "lastEvaluation": {
+      "squaredNorm": 0.012430886577978806,
+      "norm": 0.11149388583226798,
+      "maxRelativeMetric": 0.36616708137991605,
+      "minImmersion": 0.8521765318738119,
+      "worst": {
+        "s": 0.14399171959121762,
+        "u": 0,
+        "rE": 0.36616708137991605,
+        "rF": 0
+      },
+      "rowCount": 39567,
+      "radialPoints": 184,
+      "quarterNodes": 33,
+      "fullEquivalentAngles": 128,
+      "fixedPhysicalMetric": false,
+      "physicalMetricIsDesignVariable": true,
+      "maxRadiusCoefficient": 0.02786278423074034,
+      "conservativeRadiusLowerBound": 0.7721372157692598,
+      "newNonlinearAcceptedState": false,
+      "metricSquaredNorm": 0.011643820744270056,
+      "curvaturePenaltySquaredNorm": 0.0007870658337087499,
+      "curvature": {
+        "squaredNorm": 0.0007870658337087499,
+        "norm": 0.02805469361281192,
+        "maxCurvature": 14.375875567961895,
+        "minImmersion": 0.852176531873812,
+        "maxRelativeMetric": 0.36616708137991605,
+        "worst": {
+          "s": 0.24531626580981009,
+          "u": 1.2762720155208536,
+          "kind": "physical_knot",
+          "principalCurvatures": [
+            0.19834769083795667,
+            -14.375875567961895
+          ],
+          "relativeMetric": 0.02825383655807551
+        },
+        "activePoints": 4057,
+        "thresholdPoints": 0,
+        "rowCount": 27423,
+        "radialPoints": 277,
+        "quarterNodes": 33,
+        "guide": 9.5,
+        "weight": 0.01,
+        "nodeShare": 0.5
+      },
+      "curvatureIsNumericalGuide": true,
+      "continuousCertificate": false,
+      "strongTargetComplete": false
+    },
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "completed": true,
+      "elapsedMilliseconds": 7469,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "sourceSHA256": {
+      "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+      "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+      "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f"
+    },
+    "parent": {
+      "path": "notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+      "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+      "gitBlob": "5095f23e2fca586c3b3ad2bd3106e307d01a4c19",
+      "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3"
+    },
+    "objectiveScope": "Only R205 metric plus actual curvature guide; no R203 position penalties in this baseline.",
+    "cut": 0.524551678714407,
+    "retainedAsComparisonOnly": true
+  },
+  "amplitudeQuarter": {
+    "schema": "fd2d-R205-fixed-annulus-reference-new-baseline-v1",
+    "options": {
+      "radialBasisCount": 30,
+      "modes": 15,
+      "angles": 128,
+      "gap": 0.8,
+      "radiusCoefficientBound": 0.4,
+      "radialKnots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "bentAnnulus": {
+        "amplitude": 0.25
+      }
+    },
+    "curvatureOptions": {
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "lambda": 0.01,
+    "localAcceptedSteps": 0,
+    "parent": {
+      "path": "notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+      "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+      "gitBlob": "5095f23e2fca586c3b3ad2bd3106e307d01a4c19",
+      "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3"
+    },
+    "sourceSHA256": {
+      "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+      "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+      "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f"
+    },
+    "centralSeed": {
+      "schema": "fd2d-complete-material-ellipse-numeric-seed-identity-v1",
+      "rawA": 1.3620341722637315,
+      "rawB": 0.5620341722637314,
+      "rawArcA0": 1.004082838021469,
+      "rawQuarter": 1.5772096337619188,
+      "baseA0": 1.004082838021469,
+      "normalization": 1,
+      "actualCentralA": 1.3620341722637315,
+      "actualCentralB": 0.5620341722637314,
+      "actualCentralGap": 0.8,
+      "binary64": {
+        "rawA": "3ff5cae4581e83b7",
+        "rawB": "3fe1fc2f16a36dd4",
+        "rawArcA0": "3ff010b92a7c6ee6",
+        "rawQuarter": "3ff93c402b3f18e6",
+        "baseA0": "3ff010b92a7c6ee6",
+        "normalization": "3ff0000000000000",
+        "actualCentralA": "3ff5cae4581e83b7",
+        "actualCentralB": "3fe1fc2f16a36dd4",
+        "actualCentralGap": "3fe999999999999a"
+      },
+      "normalizationSemantics": "same R187 material ellipse definition: Xcentral=baseA0*gammaRaw/rawArcA0; accurate-target errors remain explicit",
+      "accurateEllipticIntegralOrInverseCertificate": false
+    },
+    "physicalMetricIsDesignVariable": true,
+    "cuffPlaneHeight": 0.524551678714407,
+    "outerCutMeanHeight": 0.5052041469069511,
+    "newReferenceBaseline": true,
+    "parentPhysicalFieldPreserved": false,
+    "parentParameterBytesPreserved": true,
+    "R203GeometryRowsIncluded": false,
+    "objectiveScope": "Only R205 metric plus actual curvature guide; no R203 position penalties in this baseline.",
+    "lastEvaluation": {
+      "squaredNorm": 0.03797777526723008,
+      "norm": 0.19487887332194342,
+      "maxRelativeMetric": 0.36600167457814026,
+      "minImmersion": 0.7007926329515,
+      "worst": {
+        "s": 0.14399171959121762,
+        "u": 0,
+        "rE": 0.36600167457814026,
+        "rF": 0
+      },
+      "rowCount": 39567,
+      "radialPoints": 184,
+      "quarterNodes": 33,
+      "fullEquivalentAngles": 128,
+      "fixedPhysicalMetric": false,
+      "physicalMetricIsDesignVariable": true,
+      "maxRadiusCoefficient": 0.02786278423074034,
+      "conservativeRadiusLowerBound": 0.7721372157692598,
+      "newNonlinearAcceptedState": false,
+      "metricSquaredNorm": 0.021181554657521858,
+      "curvaturePenaltySquaredNorm": 0.01679622060970822,
+      "curvature": {
+        "squaredNorm": 0.01679622060970822,
+        "norm": 0.12960023383353989,
+        "maxCurvature": 17.131408724961595,
+        "minImmersion": 0.7007926329515001,
+        "maxRelativeMetric": 0.36600167457814026,
+        "worst": {
+          "s": 0.24531626580981009,
+          "u": 1.2762720155208536,
+          "kind": "physical_knot",
+          "principalCurvatures": [
+            0.1983702482970333,
+            -17.131408724961595
+          ],
+          "relativeMetric": 0.1746956295962676
+        },
+        "activePoints": 4325,
+        "thresholdPoints": 0,
+        "rowCount": 27423,
+        "radialPoints": 277,
+        "quarterNodes": 33,
+        "guide": 9.5,
+        "weight": 0.01,
+        "nodeShare": 0.5
+      },
+      "curvatureIsNumericalGuide": true,
+      "continuousCertificate": false,
+      "strongTargetComplete": false
+    },
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "completed": true,
+      "elapsedMilliseconds": 7295,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "continuousCertificate": false,
+    "strongTargetComplete": false,
+    "parameterVector": "Use the complete immutable parent z unchanged, as explicitly bound above; omitted here to avoid duplicate data.",
+    "definitionReference": "R205 current three source definitions at the recorded SHA256."
+  },
+  "amplitudeOne": {
+    "schema": "fd2d-R205-fixed-annulus-reference-new-baseline-v1",
+    "options": {
+      "radialBasisCount": 30,
+      "modes": 15,
+      "angles": 128,
+      "gap": 0.8,
+      "radiusCoefficientBound": 0.4,
+      "radialKnots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "bentAnnulus": {
+        "amplitude": 1
+      }
+    },
+    "curvatureOptions": {
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "lambda": 0.01,
+    "localAcceptedSteps": 0,
+    "parent": {
+      "path": "notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+      "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+      "gitBlob": "5095f23e2fca586c3b3ad2bd3106e307d01a4c19",
+      "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3"
+    },
+    "sourceSHA256": {
+      "reference": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+      "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+      "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f"
+    },
+    "centralSeed": {
+      "schema": "fd2d-complete-material-ellipse-numeric-seed-identity-v1",
+      "rawA": 1.3620341722637315,
+      "rawB": 0.5620341722637314,
+      "rawArcA0": 1.004082838021469,
+      "rawQuarter": 1.5772096337619188,
+      "baseA0": 1.004082838021469,
+      "normalization": 1,
+      "actualCentralA": 1.3620341722637315,
+      "actualCentralB": 0.5620341722637314,
+      "actualCentralGap": 0.8,
+      "binary64": {
+        "rawA": "3ff5cae4581e83b7",
+        "rawB": "3fe1fc2f16a36dd4",
+        "rawArcA0": "3ff010b92a7c6ee6",
+        "rawQuarter": "3ff93c402b3f18e6",
+        "baseA0": "3ff010b92a7c6ee6",
+        "normalization": "3ff0000000000000",
+        "actualCentralA": "3ff5cae4581e83b7",
+        "actualCentralB": "3fe1fc2f16a36dd4",
+        "actualCentralGap": "3fe999999999999a"
+      },
+      "normalizationSemantics": "same R187 material ellipse definition: Xcentral=baseA0*gammaRaw/rawArcA0; accurate-target errors remain explicit",
+      "accurateEllipticIntegralOrInverseCertificate": false
+    },
+    "physicalMetricIsDesignVariable": true,
+    "cuffPlaneHeight": 0.524551678714407,
+    "outerCutMeanHeight": 0.4545692436247929,
+    "newReferenceBaseline": true,
+    "parentPhysicalFieldPreserved": false,
+    "parentParameterBytesPreserved": true,
+    "R203GeometryRowsIncluded": false,
+    "objectiveScope": "Only R205 metric plus actual curvature guide; no R203 position penalties in this baseline.",
+    "lastEvaluation": {
+      "squaredNorm": 1.2013040150423469,
+      "norm": 1.0960401521122969,
+      "maxRelativeMetric": 1.1913773121992839,
+      "minImmersion": 0.13085045559548447,
+      "worst": {
+        "s": 0.48202343407040116,
+        "u": 1.521708941582556,
+        "rE": 1.1900583257735446,
+        "rF": -0.039641020455139314
+      },
+      "rowCount": 39567,
+      "radialPoints": 184,
+      "quarterNodes": 33,
+      "fullEquivalentAngles": 128,
+      "fixedPhysicalMetric": false,
+      "physicalMetricIsDesignVariable": true,
+      "maxRadiusCoefficient": 0.02786278423074034,
+      "conservativeRadiusLowerBound": 0.7721372157692598,
+      "newNonlinearAcceptedState": false,
+      "metricSquaredNorm": 0.18047127111693298,
+      "curvaturePenaltySquaredNorm": 1.020832743925414,
+      "curvature": {
+        "squaredNorm": 1.020832743925414,
+        "norm": 1.0103626794005278,
+        "maxCurvature": 87.79176689459898,
+        "minImmersion": 0.13085045559548453,
+        "maxRelativeMetric": 1.1913773121992839,
+        "worst": {
+          "s": 0.3203124999999999,
+          "u": 1.5707963267948966,
+          "kind": "physical_knot",
+          "principalCurvatures": [
+            -0.31099476476444465,
+            -87.79176689459898
+          ],
+          "relativeMetric": 0.868843856107138
+        },
+        "activePoints": 4494,
+        "thresholdPoints": 0,
+        "rowCount": 27423,
+        "radialPoints": 277,
+        "quarterNodes": 33,
+        "guide": 9.5,
+        "weight": 0.01,
+        "nodeShare": 0.5
+      },
+      "curvatureIsNumericalGuide": true,
+      "continuousCertificate": false,
+      "strongTargetComplete": false
+    },
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "completed": true,
+      "elapsedMilliseconds": 7509,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "continuousCertificate": false,
+    "strongTargetComplete": false,
+    "parameterVector": "Use the complete immutable parent z unchanged, as explicitly bound above; omitted here to avoid duplicate data.",
+    "definitionReference": "R205 current three source definitions at the recorded SHA256."
+  },
+  "exactAmplitudeOneHeldBound": {
+    "schema": "R205-developable-tail-held-coordinate-bound-preliminary-v1",
+    "amplitude": 1,
+    "flatRadius": [
+      "17",
+      "50"
+    ],
+    "cutRadius": [
+      "4",
+      "5"
+    ],
+    "S2Integral": [
+      "38251",
+      "92378"
+    ],
+    "S4Integral": [
+      "376009639",
+      "1094020070"
+    ],
+    "XcutUpper": [
+      "13114910942657",
+      "18436616484000"
+    ],
+    "centralMajorLower": [
+      "136203",
+      "100000"
+    ],
+    "heldCoordinateGapLower": [
+      "149953922588069",
+      "230457706050000"
+    ],
+    "marginOverPoint64": [
+      "2460990716069",
+      "230457706050000"
+    ],
+    "strictMarginPositive": true,
+    "finiteApprox": {
+      "XcutUpper": 0.7113512912761742,
+      "gapLower": 0.6506787087238257,
+      "margin": 0.010678708723825727
+    },
+    "basis": "cos t <= 1-t^2/2+t^4/24 for 0<=t<=1; exact polynomial moments"
+  },
+  "preliminaryUnsplitCutDiagnostic": {
+    "dimension": 481,
+    "cutTwoJetError": 9.58191082034432e-10,
+    "cutPoint": {
+      "X": [
+        0.3999999999999999,
+        0.6526163678644261,
+        0.42686157172448336
+      ],
+      "Xs": [
+        -0.4999999999999999,
+        -0.4944536278741791,
+        0.710996209453605
+      ],
+      "Xu": [
+        -0.6928203230275508,
+        0.22837834812395552,
+        -0.32839508234468673
+      ],
+      "Xss": [
+        -1.5187509298304165e-17,
+        -0.8601657177637853,
+        -0.5981917391043482
+      ],
+      "Xsu": [
+        0.8660254037844385,
+        0.11182059180394316,
+        0.686786782652554
+      ],
+      "Xuu": [
+        -0.4000000000000002,
+        -0.5790649220889511,
+        0.4411827296967529
+      ]
+    },
+    "cutCurvature": 1.3969607768610328,
+    "cuffHeight": 0.5398516720542774
+  },
+  "splitCutDiagnostic": {
+    "angles": [
+      {
+        "u": 0,
+        "max": 3.3306690738754696e-16
+      },
+      {
+        "u": 0.2,
+        "max": 3.3306690738754696e-16
+      },
+      {
+        "u": 0.47,
+        "max": 3.3306690738754696e-16
+      },
+      {
+        "u": 1.0471975511965976,
+        "max": 1.9984014443252818e-15
+      },
+      {
+        "u": 1.4,
+        "max": 1.454392162258955e-14
+      },
+      {
+        "u": 1.5707963267948966,
+        "max": 2.220446049250313e-15
+      },
+      {
+        "u": 2,
+        "max": 1.199040866595169e-14
+      },
+      {
+        "u": 3.8,
+        "max": 1.4210854715202004e-14
+      },
+      {
+        "u": 5.2,
+        "max": 6.716849298982197e-15
+      }
+    ],
+    "maximum": 1.454392162258955e-14,
+    "precedingUnsplitMaximum": 9.58191082034432e-10,
+    "interpretation": "Finite implementation check; not a continuous certificate"
+  },
+  "precedingMain24ParentAmplitudeOneObservation": {
+    "schema": "fd2d-R205-fixed-bent-annulus-direct-position-initial-baseline-v1",
+    "execution": {
+      "runtime": "pure V8 JavaScript",
+      "completed": true,
+      "elapsedMilliseconds": 6424,
+      "OSProcessStarted": false,
+      "OSExitCode": null
+    },
+    "parent": {
+      "path": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-04.json",
+      "commit": "38deca30e2a307fa73211d7c5054bdc694d443a8",
+      "sha256": "145f72e8facb8b1f7d9f962d0d7e1f63f952625ab423a76bcf76cc156d408f16",
+      "acceptedSteps": 8
+    },
+    "options": {
+      "radialBasisCount": 30,
+      "modes": 7,
+      "angles": 128,
+      "gap": 0.8,
+      "radiusCoefficientBound": 0.4,
+      "radialKnots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "bentAnnulus": {
+        "amplitude": 1
+      }
+    },
+    "curvatureOptions": {
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "lambda": 0.01,
+    "localAcceptedSteps": 0,
+    "centralSeed": {
+      "schema": "fd2d-complete-material-ellipse-numeric-seed-identity-v1",
+      "rawA": 1.3620341722637315,
+      "rawB": 0.5620341722637314,
+      "rawArcA0": 1.004082838021469,
+      "rawQuarter": 1.5772096337619188,
+      "baseA0": 1.004082838021469,
+      "normalization": 1,
+      "actualCentralA": 1.3620341722637315,
+      "actualCentralB": 0.5620341722637314,
+      "actualCentralGap": 0.8,
+      "binary64": {
+        "rawA": "3ff5cae4581e83b7",
+        "rawB": "3fe1fc2f16a36dd4",
+        "rawArcA0": "3ff010b92a7c6ee6",
+        "rawQuarter": "3ff93c402b3f18e6",
+        "baseA0": "3ff010b92a7c6ee6",
+        "normalization": "3ff0000000000000",
+        "actualCentralA": "3ff5cae4581e83b7",
+        "actualCentralB": "3fe1fc2f16a36dd4",
+        "actualCentralGap": "3fe999999999999a"
+      },
+      "normalizationSemantics": "same R187 material ellipse definition: Xcentral=baseA0*gammaRaw/rawArcA0; accurate-target errors remain explicit",
+      "accurateEllipticIntegralOrInverseCertificate": false
+    },
+    "sourceSHA256": {
+      "reference": "1f8cf740da9dd89cb8bcab750e26864f1a2c25cc27c82e73f4555cfafd83a75d",
+      "metric": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+      "curvature": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f"
+    },
+    "newReferenceBaseline": true,
+    "parentFieldPreserved": false,
+    "physicalMetricPreservedAtThisInjection": true,
+    "scope": "A frozen nonzero tail-reference change on the same current radius coefficients; no accepted nonlinear step. Future rho updates design a new metric.",
+    "cuffPlaneHeight": 0.5398516720542774,
+    "outerCutMeanHeight": 0.4698692369646633,
+    "lastEvaluation": {
+      "squaredNorm": 1.7988003583404446,
+      "norm": 1.3411936319340487,
+      "maxRelativeMetric": 1.18126948651317,
+      "minImmersion": 0.06465898135933323,
+      "worst": {
+        "s": 0.48202343407040116,
+        "u": 1.5707963267948966,
+        "rE": 1.18126948651317,
+        "rF": -1.1929870814596733e-17
+      },
+      "rowCount": 39567,
+      "radialPoints": 184,
+      "quarterNodes": 33,
+      "fullEquivalentAngles": 128,
+      "fixedPhysicalMetric": false,
+      "physicalMetricIsDesignVariable": true,
+      "maxRadiusCoefficient": 0.01820516343090281,
+      "conservativeRadiusLowerBound": 0.7817948365690972,
+      "newNonlinearAcceptedState": false,
+      "metricSquaredNorm": 0.1573750240237644,
+      "curvaturePenaltySquaredNorm": 1.6414253343166803,
+      "curvature": {
+        "squaredNorm": 1.6414253343166803,
+        "norm": 1.2811812261802311,
+        "maxCurvature": 175.120795024247,
+        "minImmersion": 0.0646589813593332,
+        "maxRelativeMetric": 1.18126948651317,
+        "worst": {
+          "s": 0.3390624999999998,
+          "u": 1.5707963267948966,
+          "kind": "physical_knot",
+          "principalCurvatures": [
+            -0.05437973854131428,
+            -175.120795024247
+          ],
+          "relativeMetric": 0.9351817485790013
+        },
+        "activePoints": 3993,
+        "thresholdPoints": 0,
+        "rowCount": 27423,
+        "radialPoints": 277,
+        "quarterNodes": 33,
+        "guide": 9.5,
+        "weight": 0.01,
+        "nodeShare": 0.5
+      },
+      "curvatureIsNumericalGuide": true,
+      "continuousCertificate": false,
+      "strongTargetComplete": false
+    },
+    "continuousCertificate": false,
+    "strongTargetComplete": false,
+    "parameterVector": "Use the complete immutable parent z unchanged, as explicitly bound above; omitted here to avoid duplicate data.",
+    "definitionReference": "R205 current three source definitions at the recorded SHA256."
+  },
+  "previousOldColumnDiagnostic": {
+    "schema": "R205-actual-full-two-jet-old-column-direction-check-v1",
+    "stateSHA256": "145f72e8facb8b1f7d9f962d0d7e1f63f952625ab423a76bcf76cc156d408f16",
+    "amplitude": 1,
+    "angles": 128,
+    "epsilon": 0.000002,
+    "direction": "d_i=.02*(sin(.23*(i+1))+.3*cos(.71*(i+1)))",
+    "rows": [
+      {
+        "s": 0.27,
+        "u": 0.7,
+        "curvature": 9.867583733781807,
+        "relativeMetric": 0.16492940972166273,
+        "immersion": 0.840141442417067,
+        "indices": 65,
+        "maxAbs": 8.383800320643786e-10,
+        "maxScaled": 8.304193856035772e-10,
+        "penaltyAbs": 1.7169483612633485e-9,
+        "penaltyScaled": 6.17901567392224e-11,
+        "byJet": {
+          "X": 5.0328093363812e-11,
+          "Xs": 1.1243178610342852e-10,
+          "Xu": 9.90024609601875e-11,
+          "Xss": 8.383800320643786e-10,
+          "Xsu": 6.371631000590128e-11,
+          "Xuu": 6.123897916543442e-11
+        }
+      },
+      {
+        "s": 0.44,
+        "u": 1.1,
+        "curvature": 1.5673550812507717,
+        "relativeMetric": 0.2730104997822067,
+        "immersion": 1.2729239233791558,
+        "indices": 65,
+        "maxAbs": 8.653682215253866e-9,
+        "maxScaled": 4.074220363129836e-10,
+        "penaltyAbs": 0,
+        "penaltyScaled": 0,
+        "byJet": {
+          "X": 7.238943445326759e-11,
+          "Xs": 9.955236635050824e-11,
+          "Xu": 1.433370618378338e-10,
+          "Xss": 8.653682215253866e-9,
+          "Xsu": 3.625386102434902e-10,
+          "Xuu": 6.658346790588965e-11
+        }
+      },
+      {
+        "s": 0.76,
+        "u": 1.35,
+        "curvature": 4.8312273895769335,
+        "relativeMetric": 0.5772213103684896,
+        "immersion": 1.556339819840339,
+        "indices": 65,
+        "maxAbs": 1.364231394518356e-9,
+        "maxScaled": 3.1896937868758357e-10,
+        "penaltyAbs": 0,
+        "penaltyScaled": 0,
+        "byJet": {
+          "X": 2.8632535578609897e-11,
+          "Xs": 3.1896937868758357e-10,
+          "Xu": 6.585257404483069e-11,
+          "Xss": 1.364231394518356e-9,
+          "Xsu": 7.7453918279069e-11,
+          "Xuu": 9.877342693753732e-11
+        }
+      },
+      {
+        "s": 0.867,
+        "u": 0.83,
+        "curvature": 7.493754979080917,
+        "relativeMetric": 0.06974448835686647,
+        "immersion": 1.0447343293839044,
+        "indices": 17,
+        "maxAbs": 1.888158962515263e-9,
+        "maxScaled": 1.946774269567797e-10,
+        "penaltyAbs": 0,
+        "penaltyScaled": 0,
+        "byJet": {
+          "X": 1.1215712961230168e-10,
+          "Xs": 1.1916728714922442e-10,
+          "Xu": 1.2366486415622824e-11,
+          "Xss": 1.888158962515263e-9,
+          "Xsu": 1.946774269567797e-10,
+          "Xuu": 6.087136003585236e-11
+        }
+      }
+    ],
+    "finiteDiagnosticOnly": true
+  },
+  "previousExternalAmplitudeDiagnostic": {
+    "schema": "R205-fixed-external-amplitude-reference-jet-check-v1",
+    "epsilon": 0.000002,
+    "amplitude": 1,
+    "rows": [
+      {
+        "s": 0.27,
+        "u": 0.7,
+        "angleAbs": 3.2301361585496124e-10,
+        "angleScaled": 5.768373178603687e-11,
+        "heightAbs": 9.732437078469047e-11,
+        "tailAbs": 3.937693899754306e-11,
+        "tailScaled": 3.937693899754306e-11
+      },
+      {
+        "s": 0.44,
+        "u": 1.1,
+        "angleAbs": 5.861022778219649e-11,
+        "angleScaled": 5.861022778219649e-11,
+        "heightAbs": 5.6026017158927743e-11,
+        "tailAbs": 1.7435652921449218e-10,
+        "tailScaled": 5.902122937508929e-11
+      },
+      {
+        "s": 0.76,
+        "u": 1.35,
+        "angleAbs": 4.300670930490469e-11,
+        "angleScaled": 4.002971765280913e-11,
+        "heightAbs": 1.1989453874150513e-10,
+        "tailAbs": 2.013313959992047e-10,
+        "tailScaled": 3.8161451562694864e-11
+      },
+      {
+        "s": 0.8856739498716915,
+        "u": 0.83,
+        "angleAbs": 5.127134272697731e-10,
+        "angleScaled": 4.7901238531267154e-11,
+        "heightAbs": 9.679704260356914e-11,
+        "tailAbs": 7.775913246632626e-11,
+        "tailScaled": 5.811500744786637e-11
+      }
+    ],
+    "scope": "Reference s0-s2/u1 jets, center-height s0-s2 jets and exact-form tail Cartesian two-jets. This external amplitude is not added to the finite state.",
+    "finiteDiagnosticOnly": true
+  },
+  "authoritativeFinalExecutableCheck": "notes/2026-11-13-fd2d-R205-A025-complete-baseline-and-check-01.json",
+  "newAcceptedSteps": 0,
+  "observation": "Abrupt A=1 replacement worsens the warm field. A=.25 is a legal new baseline with smaller defects than A=1, not an accepted improvement over A=0.",
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-owner-stop-receipt.json",
+      "bytes": 3773,
+      "sha256": "0dad9f65371ed7826ca4ade9e91214dbd38401b15f9bc7c348ccb16dfa243d03"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0004.npz.gz",
+      "bytes": 2599105,
+      "sha256": "d105e6d31459d2f30c785a8615ad210a47b669c8a7aabaca6a2ad826a3c56432"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0005.npz.gz",
+      "bytes": 2606195,
+      "sha256": "cb499af19dae92e2de88bcbbf0b2d3af5aa1b2241bf0242fd7d0cc2d49acc9af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-progress.jsonl",
+      "bytes": 13137,
+      "sha256": "e0a58bf6049f8efb6c70d8d1617e4863bd920a12393c300df12b0efdf1b8318b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-report.json",
+      "bytes": 8217,
+      "sha256": "2075d681702a4d14ddc6f3946b205dfb0b7fcb35f817db70fd8ac92412b51832"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-runtime.json",
+      "bytes": 592,
+      "sha256": "5b7ffad645eb23c27042fa6adaba349f390d9c9c607000cb5eec946636e3c84f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-localturn34-g005-m191-01-resources.jsonl",
+      "bytes": 1094,
+      "sha256": "2918f918d0ae586a6eb860aef27cadd6736a5094df9f2f5d9a74e7eec5c0ee7a"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0001.npz.gz",
+      "bytes": 2598824,
+      "sha256": "620d6c9fe348a44d747bb7e394aae6a7c752d663cde5c8e4f43f175100c03ced",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0002.npz.gz",
+      "bytes": 2597443,
+      "sha256": "84c641c30abe298315351919b9f329c3261b5f5abe0f24381c5826f579edc516",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0003.npz.gz",
+      "bytes": 2598950,
+      "sha256": "89e003fba6a112f5ac5e7ae5e95180f6f555f07e247e8d3849686fecceb077a2",
+      "runtime_only": true
+    },
+    {
+      "name": "2026-11-12-fd2d-root-localturn34-g005-m191-01-initial.npz",
+      "bytes": 748179,
+      "sha256": "51841a978d7d7fab3a3b6fdd70cc252807027776ee7a49b3a931847a4c016bb6",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 5821,
+    "completion_chunk": "9decef",
+    "actual_exit_code": 130,
+    "owner_stop": true,
+    "reason": "The .035 to .05 predictor produced five accepted damped steps; residual maximum stagnated near .0023 then increased to .0237. Preserve actual states and continue with a smaller physical gap step .04. This is neither convergence nor a nonexistence conclusion.",
+    "accepted_steps": 5,
+    "solver_success": false
+  }
+}

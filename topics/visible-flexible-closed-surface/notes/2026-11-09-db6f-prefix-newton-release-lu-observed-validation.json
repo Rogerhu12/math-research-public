@@ -1,0 +1,39 @@
+{
+  "status": "OBSERVED_PURE_CHECKS_COMPLETED",
+  "observer": "/root/coupled_prefix",
+  "source_bindings": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-sources.json",
+    "bytes": 3711,
+    "sha256": "ca2ab35bd194483457815dfd5f893276258ef22dbdb59b74dd5921334df9d113"
+  },
+  "runs": [
+    {
+      "tool_receipt": "25e397",
+      "actual_exit_code": 0,
+      "kind": "isolated_actual_refresh_AST_protocol",
+      "cases": 10,
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-newton-release-lu-protocol.json",
+        "bytes": 14261,
+        "sha256": "1cfe353071f1c823e507285e81e41559d84094f8af2a03aa2afe0d2f6715c40e"
+      }
+    },
+    {
+      "tool_receipt": "26c6c3",
+      "actual_exit_code": 0,
+      "kind": "read_only_definition_gate"
+    },
+    {
+      "tool_receipt": "991163",
+      "actual_exit_code": 2,
+      "kind": "read_only_fresh_process_runtime_negative_gate",
+      "reason": "Original domain-aware Newton is not installed; refusing selection",
+      "runtime_unchanged": true
+    }
+  ],
+  "actual_full_Newton_calls": 0,
+  "actual_BVP_DN_RK_calls": 0,
+  "actual_sparse_LU_calls": 0,
+  "actual_install_calls": 0,
+  "scope": "No future launch and no actual solver success. The refresh excerpt is executed only with fake protocol callbacks."
+}

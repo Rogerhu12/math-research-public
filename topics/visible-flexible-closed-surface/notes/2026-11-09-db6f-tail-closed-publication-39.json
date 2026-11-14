@@ -1,0 +1,55 @@
+{
+  "status": "CLOSED_INDEPENDENT_FULL_REVIEW_PASS_WITH_SCOPE",
+  "reviewer": "/root/tail_theory",
+  "assignment": "cylindrical-cuff-and-analytic-endpoint",
+  "files": [
+    {
+      "path": "scripts/db6f-tail-review-cylindrical-cuff.py",
+      "bytes": 12388,
+      "sha256": "dff12114ea3ba21c6cf6b4f14268694bc02eb3b968931f05051400502600fae7"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-cylindrical-cuff-interface-replay.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-cylindrical-cuff-independent-check.json",
+      "bytes": 6756,
+      "sha256": "d29381e6e34ae9bfa00377f8d3498955fd7751d15dac00dc338c042006f952fc"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 13409,
+      "sha256": "832002ddbdbc9e0cc92cda5d5dc0f7668fc003f063cf55ded8014429e8080272"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-cylindrical-cuff-sources.json",
+      "bytes": 4538,
+      "sha256": "e2e18949934daee880980259d44c14c391902993a1d5f90a906973416f622dce"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-cylindrical-cuff-observed.json",
+      "bytes": 1864,
+      "sha256": "7450670e4e8a7610f9bf10bd5d01832313bba463715c84530bc085a1b7c3b72b"
+    }
+  ],
+  "total_bytes": 44885,
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-review-cylindrical-cuff-and-analytic-endpoint.md",
+    "bytes": 13409,
+    "sha256": "832002ddbdbc9e0cc92cda5d5dc0f7668fc003f063cf55ded8014429e8080272"
+  },
+  "author_publication": {
+    "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-publication.json",
+    "bytes": 1532,
+    "sha256": "f2b15f65007c88d864625bd44dcbe49458da0ce5434797caac43fde09667b547"
+  },
+  "scope": "Exact local interface and retained-pair scalar bounds; conditional positive-support topology and analytic-endpoint obstruction. No closed connection or current numerical candidate certified.",
+  "source_files_unchanged": true,
+  "actual_independent_exits": [
+    0,
+    0
+  ],
+  "solver_calls": 0
+}

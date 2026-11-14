@@ -1,0 +1,189 @@
+{
+  "status": "OBSERVED_SUCCESSFUL_NECESSARY_FETCH243_PUBLICATION",
+  "recorded_utc": "2026-11-09T16:10:05.781206+00:00",
+  "older_git_version": "git version 2.43.0",
+  "default_git_version": "git version 2.51.1",
+  "only_network_fetch_executable_changed": true,
+  "fetch_flags_preserved": [
+    "--no-tags",
+    "--filter=blob:limit=102400",
+    "--no-auto-maintenance"
+  ],
+  "merge_and_push_remain_default_git": true,
+  "old_loop_sha256": "e6bef68b14407181c8b42470c70a37cda6672ac70e6a2b682c8e6e76a79f326b",
+  "new_loop_sha256": "b5db6548193b15d7efdfb5aaac9846e9a044fd046ba333e6ac2706c78854f44d",
+  "new_loop_diff": "Exactly one gita fetch invocation changed to gita243; all merge/push/ordinary race handling unchanged.",
+  "packs_before": [
+    {
+      "name": "pack-01c7b521e18b1dab97595e67b90754354a10c1c9",
+      "idx_sha256": "572d7ed7154e3d28de7118228c35686b48ea653a9416a20c430f35562b78e264",
+      "objects": 18,
+      "pack_bytes": 118052,
+      "promisor": true
+    },
+    {
+      "name": "pack-086b47066f41671e835ae463c8037acbabedb415",
+      "idx_sha256": "9ede549320ffaabb96a9df559aabdc8fd8b2a74b5d900e8587bcfa980a903bbc",
+      "objects": 2950,
+      "pack_bytes": 14276423,
+      "promisor": true
+    },
+    {
+      "name": "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5",
+      "idx_sha256": "c9f8feb1f8820adb848729948869bfd1614bd9669d5723b2c023b9c88368e03a",
+      "objects": 1671,
+      "pack_bytes": 43924544,
+      "promisor": false
+    },
+    {
+      "name": "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0",
+      "idx_sha256": "cebc48b574eff91c393f4d44cc3843d05c3c3a60334f380f39b9769d335fb8ef",
+      "objects": 66,
+      "pack_bytes": 845485,
+      "promisor": true
+    },
+    {
+      "name": "pack-1ad8b802354908880c6c208e7517fae033ff2a16",
+      "idx_sha256": "76a315089e7eda12f00951b2dc9dcc360b23d69987cb8b0fde7d58980816c9b2",
+      "objects": 1940,
+      "pack_bytes": 9253890,
+      "promisor": true
+    },
+    {
+      "name": "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb",
+      "idx_sha256": "c7d7c328440f80a7c485539d917cdaffbf8396c0e4b3aa98e19151759b00f864",
+      "objects": 2,
+      "pack_bytes": 13047,
+      "promisor": true
+    },
+    {
+      "name": "pack-272fb272986d6212ef30c01377e464af3d3bb318",
+      "idx_sha256": "8cf7b400743a300b0508e05c06a4140fa4887cd03680a49cf4e6999854883655",
+      "objects": 40,
+      "pack_bytes": 278950,
+      "promisor": true
+    },
+    {
+      "name": "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd",
+      "idx_sha256": "e81f0e5a1e25f7fcab2619f6f374864bf94897998ddff0092b51a6ce8cf91894",
+      "objects": 90283,
+      "pack_bytes": 4061484070,
+      "promisor": true
+    },
+    {
+      "name": "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+      "idx_sha256": "46f54983d1ce1ee665bafa2bd8b9d551e5868e443c1782d2ef09e98c8d9c59cc",
+      "objects": 16860,
+      "pack_bytes": 1108181319,
+      "promisor": true
+    },
+    {
+      "name": "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463",
+      "idx_sha256": "21f899c8a22248d576f5f9844e0a70a841ac7df5c0b70b1aaeb53e6b7d26fccc",
+      "objects": 1230,
+      "pack_bytes": 5878719,
+      "promisor": true
+    },
+    {
+      "name": "pack-55f54db9ee6a47173994f1e99594ef609a535a75",
+      "idx_sha256": "bef550f06615580951eb3f0ee2cfced7c1c4979f277fabbd7c87296d0a10d701",
+      "objects": 1,
+      "pack_bytes": 14288,
+      "promisor": true
+    },
+    {
+      "name": "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2",
+      "idx_sha256": "4b54c3ab3190e0adca769076926c8b54970965171f370a6f630592f177be2ffc",
+      "objects": 823,
+      "pack_bytes": 17778778,
+      "promisor": true
+    },
+    {
+      "name": "pack-76b715dc869afd97aee5bdc32807aa6364a875ed",
+      "idx_sha256": "dfbcbfebcebca35673ccac02fd0935c1caea6664dfa537c428dc17db3bd76340",
+      "objects": 4,
+      "pack_bytes": 88183,
+      "promisor": true
+    },
+    {
+      "name": "pack-7eda0e69e2f2aab843873328cf12250e36478139",
+      "idx_sha256": "573aabf4d23c9039cdef523d16a08d53046a9654d83bb3f5d45148cd1f34f3c3",
+      "objects": 43,
+      "pack_bytes": 372243,
+      "promisor": true
+    },
+    {
+      "name": "pack-998c0282ec4b827b60ca8d9fa82eb35eab1d9355",
+      "idx_sha256": "21e9f73e2ab02d7be556d8ce48678225a0f65d58ddddb1aef50677b24a52724e",
+      "objects": 28,
+      "pack_bytes": 259879,
+      "promisor": true
+    },
+    {
+      "name": "pack-9d5ff02d81fbebba0921f7d00bed317375405e74",
+      "idx_sha256": "cfef357f80c1bae8c724b133d2ab47566aed1bba924158f1424c7c4cdc605609",
+      "objects": 1,
+      "pack_bytes": 24113,
+      "promisor": true
+    },
+    {
+      "name": "pack-d44586219587f80e0b96f6485973557d6a009d35",
+      "idx_sha256": "7626193a5bf6756a351a4c660479dcf40a700fb259196b4afc5e97823de89a48",
+      "objects": 2493,
+      "pack_bytes": 665351595,
+      "promisor": true
+    },
+    {
+      "name": "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2",
+      "idx_sha256": "ad67b0cff135db4704b37e0abb1208079a22cb0b1946e2135a7f9e5635f40f4c",
+      "objects": 37,
+      "pack_bytes": 108776,
+      "promisor": false
+    },
+    {
+      "name": "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4",
+      "idx_sha256": "2a2e6456d119a4f572ce6cc411388e2cd57096405d253a5c7b958a9cc3a406ad",
+      "objects": 1672,
+      "pack_bytes": 8708598,
+      "promisor": true
+    }
+  ],
+  "packed_oid_count_before": 117057,
+  "packed_oid_raw_sha256_before": "82b69389459c16bd8a1da6206f5b7ea87e6620de3c37660c581e4ddfd774a4bf",
+  "temporary_oid_checkpoint": "/dev/shm/db6f-fetch243-observation/before-oid-set.bin",
+  "no_gc_or_repack_planned": true,
+  "completed_observation_utc": "2026-11-09T16:12:49.408687+00:00",
+  "published_main": "00249c495af7efa3c8ec8370fd6779c3b1dbb81c",
+  "author_commit": "94a7330dc820de65677d169dfe113d5588813611",
+  "terminal_session_id": 35338,
+  "terminal_start_receipt": "dcc0bb",
+  "terminal_completion_receipt": "b22978",
+  "shell_loop_publish_success": 1,
+  "auth_terminal_not_closed": true,
+  "old_pack_metadata_all_unchanged": true,
+  "all_prior_packed_oids_still_present": true,
+  "packed_oid_count_after": 117740,
+  "new_pack_records": [
+    {
+      "name": "pack-5392032bc3c5631d8f52217ec406bf597a281b0c",
+      "idx_sha256": "ad71646192b26e5c5829e9ecdb6f69a90a535b814056bc2078d62efef89d9cf8",
+      "objects": 805,
+      "pack_bytes": 7525795,
+      "promisor": true
+    },
+    {
+      "name": "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5",
+      "idx_sha256": "724d06695c54d697aa7979363a44533d15cf9f6e1b48b623572238db68c040ff",
+      "objects": 1,
+      "pack_bytes": 24196,
+      "promisor": true
+    }
+  ],
+  "new_pack_bytes_total": 7549991,
+  "largest_new_pack_bytes": 7525795,
+  "new_packed_oid_count": 683,
+  "no_gc_or_repack_performed": true,
+  "interpretation": "This one necessary publication succeeded with only fetch using installed Git 2.43. The observed new-pack size is empirical for this fetch, not a universal no-duplication guarantee or proof of all prior runtime causes.",
+  "fetch_log_sha256": "311307c9ab34142ef9249773f53f366afad9d6e226ce92ff6905a81908aa89f8",
+  "available_bytes_after": 1521147904
+}

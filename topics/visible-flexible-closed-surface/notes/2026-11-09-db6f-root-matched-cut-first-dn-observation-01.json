@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_FIRST_ORIGINAL_FINITE_DN_RESPONSE_REVIEWED",
+  "observer": "/root",
+  "call": 1,
+  "actual_source_binding_count": 121,
+  "response_source_hashes_matched": 8,
+  "request_height_exactly_matches_actual_restart": true,
+  "jacobian_requested": true,
+  "audit_requested": false,
+  "converged": true,
+  "residual": 1.2533744091676813e-09,
+  "original_tolerance": 2e-09,
+  "heightJetJacobian_entries": 705,
+  "jet_field_count": 17,
+  "checkpoint_shape": [
+    865,
+    30
+  ],
+  "raw_shape": [
+    13,
+    30
+  ],
+  "all_numbers_finite": true,
+  "history_entries": 1,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json",
+      "bytes": 39604,
+      "sha256": "5b184918f4c5a86f10189c5433cd447af4a822856a2fe569df4439e03efdeb21"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01-preparation.json",
+      "bytes": 50218,
+      "sha256": "31bc073433407e02edb11ec7ea41478195b46d95de1bb73d04b864e56c40a358"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-tail-config.json",
+      "bytes": 3213,
+      "sha256": "811278d87f3a0f3f489c2141aae867787ea0d791488ba3ccf223bbaaaa80ca1b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+      "bytes": 272279,
+      "sha256": "6f4de10c22fc05cedc87994c274c3643b5390add7bfe0ca71001e02a440a7a86"
+    }
+  ],
+  "scope": "Only the atomic first true DN/J response. Main coupled process session5817 has not been observed complete; no outer BC or final seam acceptance, no full solver replay, no geometry/G5 claim."
+}

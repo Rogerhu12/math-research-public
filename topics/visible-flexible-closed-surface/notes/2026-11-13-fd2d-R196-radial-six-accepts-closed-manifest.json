@@ -1,0 +1,363 @@
+{
+  "schema": "fd2d-R196-nonuniform-radial-six-accepts-closed-v1",
+  "checkpoints": [
+    {
+      "path": "notes/2026-11-13-fd2d-R196-radial-refined-branch-00.json",
+      "git_blob_sha": "fd903a3be291a625d58361b25760be601d9bd0f1",
+      "characters": 37589,
+      "localAcceptedSteps": 0,
+      "actualSquaredNorm": 0.00002419897992376904
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-radial-refined-branch-01.json",
+      "git_blob_sha": "82d398bf7ff50220bd0f4cde920d8bcbbc54127b",
+      "characters": 52435,
+      "localAcceptedSteps": 2,
+      "actualSquaredNorm": 0.000022811867764289786
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-radial-refined-branch-02.json",
+      "git_blob_sha": "f9b7dd55ce95706743737eeaace8253fc93c1c72",
+      "characters": 67984,
+      "localAcceptedSteps": 4,
+      "actualSquaredNorm": 0.000022646987457751383
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-radial-refined-branch-03.json",
+      "git_blob_sha": "8ae0c6663bb716b7813a171d3fbadb4189d5af2f",
+      "characters": 78477,
+      "localAcceptedSteps": 6,
+      "actualSquaredNorm": 0.000022452428343645175
+    }
+  ],
+  "driver": {
+    "path": "scripts/fd2d-nonuniform-refined-branch-R196.cjs",
+    "git_blob_sha": "b8c224375c9ebb8a404d33b309d8f93834c4f7fd"
+  },
+  "input": {
+    "parentCommit": "c8e64ceaad3e06eb358243bb2d6301a5813c2eca",
+    "parentPath": "notes/2026-11-12-fd2d-direct-position-R191-J27-curvature-weight02-02.json",
+    "parentGitBlob": "5809cd469b644b939d0a0e54a2d50044da3dcf10",
+    "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+    "sourceGitBlobs": {
+      "engine": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+      "metric": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+      "curvature": "4512b251cd28727b714015b88e68ca8e8411cf08",
+      "curvatureAlgebra": "7abcea6d968125aee8bc807e2f797b2227746828",
+      "splineBasis": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+      "bandKernel": "501b52f91e557a7008bfa0ee6294f55546c4fdc2",
+      "bandAdapter": "3c358ed9e75bc05c62eb8dd40870b1e594fd37ba",
+      "densePolicyAncestor": "a07f371c4471f1cdb8365da2327d67a07242599c",
+      "driver": "b8c224375c9ebb8a404d33b309d8f93834c4f7fd"
+    }
+  },
+  "options": {
+    "radialBasisCount": 30,
+    "modes": 7,
+    "angles": 64,
+    "gap": 0.05,
+    "radiusCoefficientBound": 0.4,
+    "radialKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "30"
+      ],
+      [
+        "1",
+        "15"
+      ],
+      [
+        "1",
+        "10"
+      ],
+      [
+        "7",
+        "60"
+      ],
+      [
+        "2",
+        "15"
+      ],
+      [
+        "3",
+        "20"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "11",
+        "60"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "7",
+        "30"
+      ],
+      [
+        "4",
+        "15"
+      ],
+      [
+        "3",
+        "10"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "11",
+        "30"
+      ],
+      [
+        "2",
+        "5"
+      ],
+      [
+        "13",
+        "30"
+      ],
+      [
+        "7",
+        "15"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "8",
+        "15"
+      ],
+      [
+        "17",
+        "30"
+      ],
+      [
+        "3",
+        "5"
+      ],
+      [
+        "19",
+        "30"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "11",
+        "15"
+      ],
+      [
+        "23",
+        "30"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "13",
+        "15"
+      ],
+      [
+        "9",
+        "10"
+      ],
+      [
+        "14",
+        "15"
+      ],
+      [
+        "29",
+        "30"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ]
+  },
+  "curvatureOptions": {
+    "guide": 9.5,
+    "weight": 0.01,
+    "nodeShare": 0.5
+  },
+  "newQuadratureBaseline": {
+    "squaredNorm": 0.00002419897992376904,
+    "norm": 0.004919245869416271,
+    "maxRelativeMetric": 0.011734682336314299,
+    "minImmersion": 0.9921672709373063,
+    "worst": {
+      "s": 0.24663625040934126,
+      "u": 0.39269908169872414,
+      "rE": 0.0056389131079874755,
+      "rF": 0.008457654254572896
+    },
+    "rowCount": 20383,
+    "radialPoints": 184,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.10849531403436531,
+    "conservativeRadiusLowerBound": 0.6915046859656347,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.00002411474820185807,
+    "curvaturePenaltySquaredNorm": 8.423172191096726e-8,
+    "curvature": {
+      "squaredNorm": 8.423172191096726e-8,
+      "norm": 0.0002902270178859426,
+      "maxCurvature": 9.595760629338546,
+      "minImmersion": 0.991283751081475,
+      "maxRelativeMetric": 0.011734682336314204,
+      "worst": {
+        "s": 0.20611069331622553,
+        "u": 1.2762720155208536,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.7241497230912364,
+          -9.595760629338546
+        ],
+        "relativeMetric": 0.0025039813207011355
+      },
+      "activePoints": 78,
+      "thresholdPoints": 0,
+      "rowCount": 14127,
+      "radialPoints": 277,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "finalFiniteEvaluation": {
+    "squaredNorm": 0.000022452428343645175,
+    "norm": 0.004738399344044904,
+    "maxRelativeMetric": 0.011118329097289542,
+    "minImmersion": 0.992026577517143,
+    "worst": {
+      "s": 0.23774171959121765,
+      "u": 0.9817477042468103,
+      "rE": -0.004525010601960977,
+      "rF": 0.008561932309607972
+    },
+    "rowCount": 20383,
+    "radialPoints": 184,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.1090609502492598,
+    "conservativeRadiusLowerBound": 0.6909390497507403,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.000022449617867569094,
+    "curvaturePenaltySquaredNorm": 2.8104760760810585e-9,
+    "curvature": {
+      "squaredNorm": 2.8104760760810585e-9,
+      "norm": 0.00005301392341716522,
+      "maxCurvature": 9.532544917746,
+      "minImmersion": 0.9911957369806342,
+      "maxRelativeMetric": 0.011118329097289536,
+      "worst": {
+        "s": 0.15383659665811278,
+        "u": 1.5707963267948966,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.8053528953074043,
+          -9.532544917746
+        ],
+        "relativeMetric": 0.006236373938942608
+      },
+      "activePoints": 90,
+      "thresholdPoints": 0,
+      "rowCount": 14127,
+      "radialPoints": 277,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "localAcceptedSteps": 6,
+  "actualValueEvaluations": 19,
+  "stepMilliseconds": 36934,
+  "initialBaselineMilliseconds": 731,
+  "acceptanceAlphas": [
+    0.25,
+    0.5,
+    0.25,
+    0.25,
+    1,
+    1
+  ],
+  "explicitDamping": [
+    {
+      "lambda": 0.00037037037037037035,
+      "nextLambda": 0.00037037037037037035
+    },
+    {
+      "lambda": 0.0037037037037037034,
+      "nextLambda": 0.0037037037037037034
+    },
+    {
+      "lambda": 0.0037037037037037034,
+      "nextLambda": 0.0037037037037037034
+    },
+    {
+      "lambda": 0.037037037037037035,
+      "nextLambda": 0.037037037037037035
+    },
+    {
+      "lambda": 0.037037037037037035,
+      "nextLambda": 0.012345679012345678
+    },
+    {
+      "lambda": 0.012345679012345678,
+      "nextLambda": 0.004115226337448559
+    }
+  ],
+  "allActualNormalsScannedAtWidth4": true,
+  "offBandNonzeroCounts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "physicalMetricStillDesignVariable": true,
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "completed": true,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null
+  },
+  "result_note": "R2 decreased 7.2174595% on the new finite target. Maximum sampled metric was smallest at step4 and rose slightly afterward; retained in full trace. This does not prove the strong target or continuous curvature."
+}

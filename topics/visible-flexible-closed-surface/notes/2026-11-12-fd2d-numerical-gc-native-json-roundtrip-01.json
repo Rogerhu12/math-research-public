@@ -1,0 +1,11 @@
+{
+  "schema": "fd2d-actual-native-json-roundtrip-v1",
+  "response_sha256": "8d25507e0b65de103afaee0109f97aef2eeb8313fd2eded486a3561447036502",
+  "verified_mask_sha256": "8ff35840f7d909508d25ae5366067dea9d25e5139f896ddbf8dadeba6c3b5361",
+  "restored_native_input_sha256": "aea57a9e0dd527663051693eb3ed68dc8741a67370cb04ac3bfcd5b9643e7366",
+  "negative_zero_count": 706,
+  "coordinate_count": 46096,
+  "source_sha256": "7aaf0147e044cdd6a419f378caa1c066b1346d9aff628d4665a35fdfe50a1d53",
+  "result": "actual native identity exactly preserved through JSON plus metadata",
+  "scope": "Storage-only check using the closed M8 payload and its exact cached-replay mask; no numerical root, ODE or DN was called."
+}

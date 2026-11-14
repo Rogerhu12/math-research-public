@@ -1,0 +1,69 @@
+{
+  "schema": "fd2d-flat-cut-prefix-physical-candidate-v1",
+  "source_sha256": "135303639c5eb1970b6b76aad47a53b7627bcc7176243713c56c63ae8260547a",
+  "candidate_file": "2026-11-12-fd2d-flat-cut-prefix-v1-candidate.json",
+  "candidate_sha256": "fa7d242002223063a3da9bbbb6dbec2be1a034b0e93e64d7294e304705fb70fc",
+  "scalar_metric": {
+    "end": 1.344258724456249,
+    "minimum_radius_sample": 0.8,
+    "maximum_abs_a_prime_sample": 1.0,
+    "maximum_abs_a_second_sample": 6.7991916203029525,
+    "background_height": 1.202982473751077,
+    "maximum_jet_join_roundoff": 8.881784197001252e-16,
+    "cut_jet": [
+      0.8,
+      -1.0,
+      0.0
+    ]
+  },
+  "background_cut_height": 1.202982473751077,
+  "positive_coasts": [
+    {
+      "label": "central_cylinder",
+      "length": 0.5
+    },
+    {
+      "label": "partial_return_matching_coast",
+      "length": 0.02
+    },
+    {
+      "label": "final_deep_coast",
+      "length": 0.02062650307234244
+    }
+  ],
+  "meridian_length": 1.344258724456249,
+  "central_a0": 1.0040828380214688,
+  "sampled_minimum_radius": 0.8,
+  "sampled_maximum_radius": 1.0453757683826863,
+  "sampled_maximum_meridian_curvature": 6.8000000000000025,
+  "sampled_minimum_outward_support": 0.7949285497253653,
+  "cut_scalar": {
+    "a": 0.8,
+    "ap": -1.0,
+    "app": 0.0,
+    "b": 0.0,
+    "l": -0.0,
+    "n": 0.0
+  },
+  "actual_A0_complete_cut_jet_errors": {
+    "X": 0.0,
+    "X_s": 0.0,
+    "X_u": 0.0,
+    "X_ss": 0.0,
+    "X_su": 0.0,
+    "X_uu": 0.0
+  },
+  "meridian_file": "2026-11-12-fd2d-flat-cut-prefix-v1-meridian.npz",
+  "meridian_sha256": "25d7917c7faef5aad5818d6e644ebc6e9ea190b45c5f4ef6c44fc309314771c9",
+  "raw_gc_layout": [
+    "l",
+    "m",
+    "n",
+    "X[3]",
+    "e1[3]",
+    "e2[3]",
+    "N[3]"
+  ],
+  "scope": "One explicit new physical metric and its regular rotational initialization. No nonlinear central deformation, nonzero-A seam solution or strong-target certificate.",
+  "seconds": 0.9935598569991271
+}

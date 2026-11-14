@@ -1,0 +1,252 @@
+{
+  "status": "PASS_READ_ONLY_G5_AXES_AND_CONDITIONAL_M14_INTERFACE",
+  "scope": "Exact frozen-file identity, independent JSON field extraction, source call-path review, and rational stage indices only. No historical solver rerun or future candidate.",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-g5-axes-and-m14-native-rk.py",
+    "bytes": 17738,
+    "sha256": "0f9ab65f47f2daeb6cbc029e4083a5d32cdbc9e898f072000e189c68f191c0a3"
+  },
+  "reviewed_note": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk.md",
+    "bytes": 14556,
+    "sha256": "2b24b749be6351e6906e268bacc03d3412dccb7d58d192880495e40c976f54c8"
+  },
+  "author_publication": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk-publication.json",
+    "bytes": 1167,
+    "sha256": "c0c54cf74f0946dae82a75a09080a59b201a14b38a915aacf085051c9e1afbdc"
+  },
+  "author_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk.md",
+      "bytes": 14556,
+      "sha256": "2b24b749be6351e6906e268bacc03d3412dccb7d58d192880495e40c976f54c8"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk-metadata.json",
+      "bytes": 8928,
+      "sha256": "57c0217174cc812a5918b83cc210aa469166fb4965bd7045ca7148bd0817101e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk-sources.json",
+      "bytes": 8706,
+      "sha256": "27750220f45de361bee6f88eb2cd9699c386d7977f8d4fcbb01c7c4594894056"
+    }
+  ],
+  "source_ledger": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-g5-axes-and-m14-native-rk-sources.json",
+    "bytes": 8706,
+    "sha256": "27750220f45de361bee6f88eb2cd9699c386d7977f8d4fcbb01c7c4594894056"
+  },
+  "source_bindings_rechecked": 30,
+  "current_launch_bindings_rechecked": 106,
+  "original_G5_sequence": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-g5-closed-sequence-inputs.json",
+    "bytes": 7494,
+    "sha256": "a446076163d0bee674b1bc75656121a81bd907fefa808a30b2bfb1503e0db3e8"
+  },
+  "physical_definition_sha256": "811e8cdccbad6edd4c487afc8ec07c16d519995cd9c5b182bc79ab327f414071",
+  "historical_rows": [
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine.json.gz",
+        "bytes": 12234,
+        "sha256": "23e08cc3c25dfa46a1c3f79868eb36ff28bec1c72d7f36b5eb254bbaacfce5f1"
+      },
+      "own_final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+        "bytes": 36672,
+        "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+      },
+      "native_steps": 32,
+      "parts": 2,
+      "tail_angular": 256,
+      "base_intervals": 64,
+      "prefix_nodes": 778,
+      "prefix_tol": 2e-07,
+      "fixed_from_start": false,
+      "final_residual": 1.3505653752886372e-10
+    },
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64.json.gz",
+        "bytes": 28387,
+        "sha256": "d5ccd049f47417b182e765e0ca9814f16d12519f9cb0c4a5a41d7c0676200c80"
+      },
+      "own_final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64_tail_0018.json.gz",
+        "bytes": 36685,
+        "sha256": "eb95371195e5a7c6ba2d87fcea0bc63cb80278d437e084012edcc3a66a5492a5"
+      },
+      "native_steps": 64,
+      "parts": 2,
+      "tail_angular": 256,
+      "base_intervals": 128,
+      "prefix_nodes": 2570,
+      "prefix_tol": 2e-09,
+      "fixed_from_start": true,
+      "final_residual": 1.872382418274325e-10
+    },
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128.json.gz",
+        "bytes": 28520,
+        "sha256": "73ac9823f809e6e9da18cd7c1b199cc3a73f8de8917141018e68b42659394298"
+      },
+      "own_final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128_tail_0004.json.gz",
+        "bytes": 36690,
+        "sha256": "9f039cf6d13ff9938a9523716ef4a34f22477bc7c2fed5c7d6dbb7547b565745"
+      },
+      "native_steps": 128,
+      "parts": 2,
+      "tail_angular": 256,
+      "base_intervals": 256,
+      "prefix_nodes": 2570,
+      "prefix_tol": 2e-09,
+      "fixed_from_start": true,
+      "final_residual": 8.191673022591901e-11
+    }
+  ],
+  "current_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+    "bytes": 63007,
+    "sha256": "710fbd942be28cc67bddcc511d3e01a1bcc9de77adc5e7fea91f69adb5562666"
+  },
+  "current_config": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-config.json",
+    "bytes": 2688,
+    "sha256": "6517f02126a992376639c4e89fcb55b0793633967568fba837ec84e790eb8c5f"
+  },
+  "current_seed": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "current_own_final_warm": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+    "bytes": 254154,
+    "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+  },
+  "same_stage_copies_checked": 865,
+  "rational_RK_grid_checks": [
+    {
+      "small_steps": 32,
+      "large_steps": 64,
+      "small_base_intervals": 256,
+      "large_base_intervals": 512,
+      "exact_uniform_grid_inclusion": true,
+      "same_breakpoint_union_preserves_inclusion": true
+    },
+    {
+      "small_steps": 64,
+      "large_steps": 128,
+      "small_base_intervals": 512,
+      "large_base_intervals": 1024,
+      "exact_uniform_grid_inclusion": true,
+      "same_breakpoint_union_preserves_inclusion": true
+    }
+  ],
+  "source_semantic_anchors": [
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+        "bytes": 5118,
+        "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+      },
+      "fragment_count": 4
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+        "bytes": 1805,
+        "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f"
+      },
+      "fragment_count": 3
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+        "bytes": 2892,
+        "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6"
+      },
+      "fragment_count": 2
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+        "bytes": 16010,
+        "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+      },
+      "fragment_count": 4
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+        "bytes": 3312,
+        "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+      },
+      "fragment_count": 2
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+        "bytes": 17812,
+        "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+      },
+      "fragment_count": 2
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+        "bytes": 3716,
+        "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+      },
+      "fragment_count": 2
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+        "bytes": 8062,
+        "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+      },
+      "fragment_count": 3
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+        "bytes": 17329,
+        "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99"
+      },
+      "fragment_count": 3
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+        "bytes": 22244,
+        "sha256": "1aa5e53985b5574dee68a032aa84ac47aa43e9aa8bd185b4af8650b618dcf0fa"
+      },
+      "fragment_count": 2
+    },
+    {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+        "bytes": 12811,
+        "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+      },
+      "fragment_count": 2
+    }
+  ],
+  "old_G5_notes_require_erratum": false,
+  "new_G5_gate_created": false,
+  "current_run_result_inferred": false,
+  "future_candidate_created": false,
+  "historical_solvers_rerun": false,
+  "solver_calls": 0,
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "flow_calls": 0,
+  "RK_calls": 0,
+  "active_result_files_read": false,
+  "git_mutations": 0
+}

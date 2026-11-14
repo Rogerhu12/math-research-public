@@ -1,0 +1,26 @@
+{
+  "scope": "Coefficient-first metric residual bounds for a shared-jet Fourier map.\n\nInput target packets enclose the SAME analytic a(s), e(s), e'(s), on each\nlisted interval, in the local variable u=(s-left)/(right-left). Interval\npower coefficients and uniform remainder bounds are allowed. This backend\ndoes not establish the supplier's analytic enclosures. It never imports\nthe nonlinear solver, and subtracts coefficients before taking norms.\n",
+  "geometry_sha256": "abf316d733c777fa07a555872c24bb1e2cf061153953874a095d77e6e5bf2a70",
+  "geometry_data_sha256": "a98f676d5fb9b035db464a6db987df46b8e733daf127c6d794c10a3c471fac12",
+  "target_sha256": "b5bd8a4e8905693e74a3ce98ab8abb07dec095cc3352c017c421c1d56e7622a5",
+  "target_data_sha256": "4674eef190bb613fc3953e37fc6f643636c15ecbf45bf97ac2d4f3d1cadf62d2",
+  "script_sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+  "backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "supplier_claim": "Flat-ramp a(s): exact rational formulas in the saved binary main parameters; Tu,Td recomputed by Fraction. The clamped angular spline is solved exactly over Fraction and multiplied by the prescribed quintic cutoff. The bridge has frozen binary L,pt,ps but uses the true sine integral. Every bridge span uses a fifth-order Taylor enclosure around its exact midpoint phase, followed by integration and an explicitly bounded degree-eight truncation. The radius endpoint is not asserted to satisfy the exact bridge matching equation.",
+  "residual_norm": "Bernstein convex-hull bound for each Fourier coefficient, then Fourier l1",
+  "target_supplier_independently_verified": false,
+  "complete_closed_surface": false,
+  "intervals": 846,
+  "metric_operator_upper": 3.622549868552692e-07,
+  "coordinate_residual_upper": [
+    1.0031728064731949e-07,
+    2.543046623345324e-08,
+    3.765118019091139e-08
+  ],
+  "minimum_a_lower": 0.5999796655027092,
+  "minimum_chart_rho_lower": 0.1999999999999957,
+  "worst_interval": 141,
+  "intervals_checked": 846,
+  "entire_prefix_covered": true,
+  "seconds": 9.177093186001002
+}

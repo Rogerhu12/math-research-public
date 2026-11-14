@@ -1,0 +1,43 @@
+{
+  "scope": "Independent finite coefficient identity check only; floating arithmetic has no interval enclosure.",
+  "port_file": "notes/2026-11-09-950f-prefix-weighted-k6-port64.json",
+  "port_sha256": "5ebd66d6640f0f737cf6edcf2fe88dfd909d7cee58154fb5351398373eb264ea",
+  "parameters": {
+    "psi_modes": 8,
+    "physical_modes": 64,
+    "e": 0.64,
+    "nodes": 8192
+  },
+  "max_to_matrix_difference": 2.220446049250313e-15,
+  "max_from_matrix_difference": 1.0818440327603485e-15,
+  "max_dn_matrix_difference": 1.5631940186722204e-13,
+  "max_output_mean_row_difference": 2.7394753132625738e-14,
+  "max_input_physical_mean_difference": 5.724587470723463e-17,
+  "linear_output_psi_mean_row": [
+    4.770703931961166,
+    4.820961610697526,
+    2.5859139832325084,
+    1.1904205741264564,
+    0.5006646561048018,
+    0.19816568036122525,
+    0.0751685273087904,
+    0.027515539711393543
+  ],
+  "physical_input_mean": [
+    -0.32,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "linear_mean_is_not_zero": true,
+  "dn_max_abs_entry": 136.33300976636048,
+  "unpaid": [
+    "infinite physical-frequency DN cutoff",
+    "nonlinear mean response",
+    "Cartesian two-jet seam"
+  ]
+}

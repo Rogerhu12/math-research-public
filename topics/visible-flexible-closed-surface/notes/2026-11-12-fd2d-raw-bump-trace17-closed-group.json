@@ -1,0 +1,138 @@
+{
+  "schema": "fd2d-closed-actual-finite-branch-v1",
+  "closed": true,
+  "actual_exit": 130,
+  "owner_stop": true,
+  "actual_accepted_steps": 4,
+  "finite_success": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-static-manifest.json",
+      "bytes": 1238,
+      "sha256": "53ead2c4e6514f54c99468dfc986397d8482243e5f4ea46e9d9cd22c4df5b427"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-chain-report.json",
+      "bytes": 46752,
+      "sha256": "eb9bfdd13fc6165eaa44a446055b6196a4a9e1d7424e78530ee77ee713f2afd6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-execution-receipt.json",
+      "bytes": 639,
+      "sha256": "b92718a1b1b49473e7dcff06c631d690cb5ebd403cf65796a605efa35e0cec0a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-positive-trace17-owner-boundary.md",
+      "bytes": 1033,
+      "sha256": "88fcc3763433e9b2b72d24d56f10c2d557ee8853cba8893dd432e8f98a7c7dca"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-initial.npz",
+      "bytes": 57893,
+      "sha256": "520a3e333c54bcc18da5071d8534cf91f9e6f0de60a567a5cbb56abb5e697e28"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-accepted-0002.npz",
+      "bytes": 57887,
+      "sha256": "f36d789495c002b3b233dd28d0de210978e7aed76dbd24e9fe49bb648b7ddd1e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-field.npz",
+      "bytes": 739027,
+      "sha256": "3fc79b544ba69ab9ddc5c05cd60b707f5c46ea034d6ab9547d36b9b2dd1ad823"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-physical-metric.json",
+      "bytes": 2682,
+      "sha256": "54fec0f060107e6de5f34e9c659c4067e9a826a5cf8387740dd39cb89e0d2ca1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-report.json",
+      "bytes": 147871,
+      "sha256": "7b04bc34c791cc1b4382d43f1972295ae09a222274abaea445f9dff15c90dbe7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-progress.jsonl",
+      "bytes": 82061,
+      "sha256": "e1a29dec049b3fa5d7df63ab02a5665f6884b76af7d9612a939f7ae15fd411e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-process-receipt.json",
+      "bytes": 3936,
+      "sha256": "feab091da36ae9e72f87159b370878582f15c6f67dbc696dc14c9ca5b85f35cd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-report.json",
+      "bytes": 148147,
+      "sha256": "b0eb098e8100fa89c74c3a48d6053b102704b629fd18b886027d87242b34c342"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-progress.jsonl",
+      "bytes": 82142,
+      "sha256": "8d90ddc63f848487498d5463030a242ec2094acc2375c541a7a4862f432b8194"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-process-receipt.json",
+      "bytes": 4033,
+      "sha256": "d49076ca8fe1b37aaa63f30bf3ba1b2724c3aed640b01224523dde044d58c8b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0003-report.json",
+      "bytes": 136410,
+      "sha256": "da7c383726686270617d8f1263dae33e9cc3ef9069b7ff6b71e2c15e7e63f106"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0003-progress.jsonl",
+      "bytes": 41120,
+      "sha256": "a142589ce95b5bf9974898bb71fe84e7953f21d93bc9f27e46e96df1a0043ae6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0003-process-receipt.json",
+      "bytes": 4044,
+      "sha256": "9815325d98139cd8179bc51b0a641fadee3338f75c7346506ae1c37d52480cea"
+    }
+  ],
+  "regenerable_intermediate_states_retained_locally": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-accepted-0001.npz",
+      "bytes": 57877,
+      "sha256": "22bc3b7f066c6d191daac3bf7395ecdf52c67a08a50ad76257fe23449106f20a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-accepted-0002.npz",
+      "bytes": 57908,
+      "sha256": "6ffb3f9b5edbf3f6b09a7ac623c8aa0482253a3090492d9a5480f503a3f9ad3a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0001-field.npz",
+      "bytes": 739187,
+      "sha256": "3cf3895142467c999b137da8520d838b79e398045e8ba9add6301b5b72538064"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-accepted-0001.npz",
+      "bytes": 57875,
+      "sha256": "271291cde7f7e8babe5e18e87ae80bd66fb8ca14ae1b7b5c4eb9ab17e83a7eb3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0002-initial.npz",
+      "bytes": 57908,
+      "sha256": "6ffb3f9b5edbf3f6b09a7ac623c8aa0482253a3090492d9a5480f503a3f9ad3a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0003-field.npz",
+      "bytes": 739027,
+      "sha256": "3fc79b544ba69ab9ddc5c05cd60b707f5c46ea034d6ab9547d36b9b2dd1ad823"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-trace17-b0003-initial.npz",
+      "bytes": 57887,
+      "sha256": "f36d789495c002b3b233dd28d0de210978e7aed76dbd24e9fe49bb648b7ddd1e"
+    }
+  ],
+  "actual_final": {
+    "residual_maximum": 0.3260019185336076,
+    "full_gauss_node_maximum": 0.5074993607801043,
+    "formal_curvature_node_maximum": 7.394542603754428,
+    "gap": 0.8999999452078082
+  }
+}

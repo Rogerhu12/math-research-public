@@ -1,0 +1,35 @@
+{
+  "scope": "Physical-mode cutoff test of the conjugated linear DN on the same weighted metric; no nonlinear interface.",
+  "rows": [
+    {
+      "K": 16,
+      "half_cutoff_difference": 54.88135107053615,
+      "difference_from_K64": 49.49100152365614
+    },
+    {
+      "K": 24,
+      "half_cutoff_difference": 69.20584925965119,
+      "difference_from_K64": 3.774839816500787
+    },
+    {
+      "K": 32,
+      "half_cutoff_difference": 49.37201592496362,
+      "difference_from_K64": 0.11898559869257497
+    },
+    {
+      "K": 40,
+      "half_cutoff_difference": 16.49254672107145,
+      "difference_from_K64": 0.002779137807152665
+    },
+    {
+      "K": 48,
+      "half_cutoff_difference": 3.7747828809094983,
+      "difference_from_K64": 5.693559123187697e-05
+    },
+    {
+      "K": 64,
+      "half_cutoff_difference": 0.11898559869240444,
+      "difference_from_K64": 0.0
+    }
+  ]
+}

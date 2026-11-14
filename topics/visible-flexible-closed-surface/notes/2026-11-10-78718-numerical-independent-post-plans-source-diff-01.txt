@@ -1,0 +1,156 @@
+--- 78718-plan-post-restart8000-v1.py
++++ 78718-plan-post-independent-seed8000-v1.py
+@@ -1,12 +1,12 @@
+ #!/usr/bin/env python3
+-"""Read-only, success-only command plan for the original post-restart8000 chain.
++"""Read-only, success-only original-family plan after independent published-M14 seed8000.
+ 
+ This program never executes a producer, solver, numerical callback or command.
+ It replays the frozen complete final audit, requires its separately saved report
+-and root's actual successful tool-exit observation, hashes pre-existing inputs,
++and /root/independent_audit's actual successful tool-exit observation, hashes pre-existing inputs,
+ and writes argv records for future work. A plan is not a certificate or a run.
+ The original single-container prefix family is the only executable family here.
+-The separately named byte-storage family remains outside this frozen v1 plan.
++The separately named independent byte-storage plan remains outside this frozen v1 plan.
+ """
+ import argparse
+ import gzip
+@@ -24,10 +24,10 @@
+ OLD_TOPIC = Path('/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface')
+ PYTHON = '/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python'
+ NODE = '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node'
+-AUDITOR = HERE / '78718-prefix-audit-restart8000-v1.py'
+-AUDITOR_SHA = 'cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f'
+-LAUNCH_SCHEMA = '78718-true-m14-w14-restart8000-launch-v1'
+-SUCCESS = 'PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE'
++AUDITOR = HERE / '78718-prefix-audit-independent-seed8000-v1.py'
++AUDITOR_SHA = '067f8944cb0d75ceffc846119b1ca2511f0e6e886799258e4659b023d8828578'
++LAUNCH_SCHEMA = '78718-true-m14-w14-independent-seed8000-launch-v1'
++SUCCESS = 'PASS_INDEPENDENT_OBSERVED_SEED8000_M14_W14_FINITE_COUPLED_CLOSE'
+ LINEAR_PORT = OLD_TOPIC / 'notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json'
+ LINEAR_PORT_SHA = '500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702'
+ TERMINAL_BOUND_EXACT = '1/500000000'
+@@ -242,9 +242,9 @@
+     """The complete original new-identity audit is the sole success predicate."""
+     require(sys.executable == PYTHON, 'Use the frozen absolute primary Python interpreter')
+     pinned(AUDITOR, AUDITOR_SHA)
+-    audit = module('post_restart8000_full_close_audit', AUDITOR)
++    audit = module('post_independent_seed8000_full_close_audit', AUDITOR)
+     launch = read_json(launch_path)
+-    require(launch.get('schema') == LAUNCH_SCHEMA, 'Not the restart8000 launch schema')
++    require(launch.get('schema') == LAUNCH_SCHEMA, 'Not the independent seed8000 launch schema')
+     context = audit.c.validate_inputs(launch)
+     require(Path(launch_path).resolve() == Path(context['launch']['launch_path']), 'Wrong launch file')
+     actual = {'scope': audit.__doc__, 'mode': 'final', 'ready': False,
+@@ -438,8 +438,8 @@
+ 
+ def build(args):
+     run, out = args.run_directory.resolve(), args.out.resolve()
+-    require(run.parent == NOTES.resolve() and run.name.startswith('2026-11-10-78718-'),
+-            'Use a separately named immediate notes subdirectory')
++    require(run.parent == NOTES.resolve() and run.name.startswith('2026-11-10-78718-independent-post-seed8000-'),
++            'Use the separately named independent-post-seed8000 immediate notes subdirectory')
+     require(not run.exists(), 'Production directory must be entirely new')
+     require(out.parent == NOTES.resolve() and not out.exists(), 'Plan output must be a new notes file')
+     require(not out.is_relative_to(run), 'The plan must not precreate the future production directory')
+@@ -454,8 +454,8 @@
+     for row in final['required_closed_files']:
+         bindings.bound(row, 'actual-success-closed-output')
+     bindings.bound(final['reproduction'], 'actual-success-reproduction')
+-    bindings.bound(final['root_observation'], 'actual-success-root-observation')
+-    for path, role in [(args.launch, 'actual-success-launch'), (args.observed_execution, 'actual-root-success-observation'),
++    bindings.bound(final['independent_observation'], 'actual-success-independent-observation')
++    for path, role in [(args.launch, 'actual-success-launch'), (args.observed_execution, 'actual-independent-success-observation'),
+                        (args.final_audit, 'saved-complete-final-audit'), (AUDITOR, 'complete-final-auditor'),
+                        (Path(__file__), 'this-plan-source'), (Path(PYTHON), 'primary-python-binary'),
+                        (Path(NODE), 'primary-node-binary')]:
+@@ -466,13 +466,13 @@
+         require(entry['source']['path'] in source_paths, 'Unbound command source')
+         for row in entry.get('additional_sources', []):
+             require(row['path'] in source_paths, 'Unbound additional command source')
+-    return {'schema': '78718-post-restart8000-success-only-original-plan-v1',
+-            'status': 'ACTUAL_MAIN_SUCCESS_BOUND_FUTURE_PRODUCTION_PLAN_ONLY',
++    return {'schema': '78718-post-independent-seed8000-success-only-original-plan-v1',
++            'status': 'ACTUAL_INDEPENDENT_MAIN_SUCCESS_BOUND_FUTURE_PRODUCTION_PLAN_ONLY',
+             'plan_ready': True, 'mathematical_completion_claimed': False,
+             'actual_solver_calls': 0, 'actual_production_calls': 0,
+             'complete_final_audit_replayed': True,
+             'full_final_status': final['status'], 'full_final_report': identity(args.final_audit),
+-            'root_actual_exit_observation': identity(args.observed_execution),
++            'independent_actual_exit_observation': identity(args.observed_execution),
+             'own_successful_checkpoint': identity(cp), 'own_final_audited_tail': identity(tail),
+             'production_directory': str(run), 'production_directory_created': False,
+             'directory_preparation': ['mkdir', '--', str(run)],
+@@ -496,7 +496,7 @@
+                 'The normal terminal gate must pass exact 1/500000000 with the real original M12 lower-bound files.',
+                 'G5 refinement record and all README geometry/time conditions remain separate obligations.',
+                 'An uninvolved auditor must perform the actual frozen-seed solver-to-mesh workflow in fresh processes; metadata replay and same-plan mesh comparison do not replace it.',
+-                'The restart8000 ancestor failed CP is a declared true input, not an independent final rerun performed here.',
++                'The published M14 seed and its own tail are the declared solver inputs; this plan does not execute or fabricate the independently observed solver run.',
+                 'Finite numerical certificates do not prove the strict infinite-tail exact existence theorem.',
+                 'Continue the stronger amplitude/reach objectives after all basic completion conditions are actually paid.'],
+             **plan}
+
+--- 78718-plan-post-restart8000-storage-v2.py
++++ 78718-plan-post-independent-seed8000-storage-v2.py
+@@ -1,8 +1,8 @@
+ #!/usr/bin/env python3
+-"""Success-only conditional storage plan, separate from frozen original plan-v1.
+-
+-The original complete main exit audit runs unchanged through the pinned parent
+-planner. This file only substitutes the fully reviewed prefix storage family in
++"""Success-only conditional storage plan after independent published-M14 seed8000.
++
++The complete independent-actor main exit audit runs unchanged through the pinned
++independent original-family planner. This file only substitutes the fully reviewed prefix storage family in
+ the resulting future argv/source records. It executes no command, producer,
+ solver, physical callback or storage writer. It does not select the storage
+ branch: the original single-container route remains the first actual route.
+@@ -18,8 +18,8 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ NOTES = HERE.parent / 'notes'
+-BASE_NAME = '78718-plan-post-restart8000-v1.py'
+-BASE_SHA = 'c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456'
++BASE_NAME = '78718-plan-post-independent-seed8000-v1.py'
++BASE_SHA = 'b3526176d56179a3edce6a71a159591a1e9f5ceecd9d253a4eeec95887e07053'
+ FAMILY = {
+     '78718-prefix-byte-shards-v1.py': 'e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39',
+     '78718-prefix-storage-v1.py': '83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329',
+@@ -97,8 +97,8 @@
+ def load_base():
+     path = HERE / BASE_NAME
+     require(hashlib.sha256(path.read_bytes()).hexdigest() == BASE_SHA,
+-            'Changed frozen original success-only planner')
+-    spec = importlib.util.spec_from_file_location('storage_v2_original_plan', path)
++            'Changed frozen independent success-only planner')
++    spec = importlib.util.spec_from_file_location('independent_storage_v2_original_plan', path)
+     base = importlib.util.module_from_spec(spec)
+     sys.modules[spec.name] = base
+     spec.loader.exec_module(base)
+@@ -262,10 +262,10 @@
+ 
+ def build(args):
+     base = load_base()
+-    require(args.run_directory.name.startswith('2026-11-10-78718-post-restart8000-storage-v2-'),
+-            'Use the distinct post-restart8000-storage-v2 production namespace')
++    require(args.run_directory.name.startswith('2026-11-10-78718-independent-post-seed8000-storage-v2-'),
++            'Use the distinct independent-post-seed8000-storage-v2 production namespace')
+     # No monkeypatch, synthetic CP, alternate status or substituted audit. This
+-    # exact frozen call demands the genuine root exit and complete final report.
++    # exact frozen call demands the genuine independent exit and complete final report.
+     original = base.build(args)
+     storage = verify_storage_inputs(base)
+     result, changes, counts = replace_command_records(base, original, storage)
+@@ -280,8 +280,8 @@
+             bindings.bound(row, role)
+     bindings.add(Path(__file__), 'this-plan-source')
+     result['preexisting_bindings'] = bindings.output()
+-    result['schema'] = '78718-post-restart8000-success-only-conditional-storage-plan-v2'
+-    result['status'] = 'ACTUAL_MAIN_SUCCESS_BOUND_CONDITIONAL_STORAGE_PLAN_ONLY'
++    result['schema'] = '78718-post-independent-seed8000-success-only-conditional-storage-plan-v2'
++    result['status'] = 'ACTUAL_INDEPENDENT_MAIN_SUCCESS_BOUND_CONDITIONAL_STORAGE_PLAN_ONLY'
+     result['branch_policy']['storage'] = STORAGE_POLICY
+     result['storage_branch_selected_or_activated'] = False
+     result['storage_branch_policy'] = STORAGE_POLICY

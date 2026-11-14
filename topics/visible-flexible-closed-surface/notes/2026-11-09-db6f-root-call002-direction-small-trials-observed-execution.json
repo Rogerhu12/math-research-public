@@ -1,0 +1,210 @@
+{
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "actual_exit_code": 0,
+  "root_tool_receipt": "fd8dd6",
+  "root_exec_session": 53140,
+  "child_started_utc": "2026-11-09T17:11:57.827809+00:00",
+  "child_completed_utc": "2026-11-09T17:14:21.884052+00:00",
+  "seconds": 144.05624751099822,
+  "input_binding_count": 98,
+  "all_input_bindings_rehashed": true,
+  "state_only_and_variational_reproduce_base": true,
+  "base_norm": 2.604516507642326,
+  "linearized_residual_maximum": 2.6750088488675713e-10,
+  "trial_count": 3,
+  "successful_evaluations": 3,
+  "rows": [
+    {
+      "lambda_exponent": 12,
+      "lambda": 0.000244140625,
+      "norm": 2.6045054803760928,
+      "strict_float_descent": true,
+      "absolute_decrease": 1.1027266233032407e-05,
+      "relative_decrease": 4.2339014556734625e-06,
+      "linear_prediction": 2.603880639354327,
+      "linearized_residual_error_budget": 6.530783322430594e-14,
+      "observed_minus_linear_prediction": 0.000624841021765743,
+      "end_norm": 1.1938705400617661e-23,
+      "worst": [
+        {
+          "stage": 38,
+          "norm": 2.6045054803760928,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 35,
+          "norm": 2.552863105216203,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 36,
+          "norm": 2.269470274190709,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 37,
+          "norm": 1.548456403722138,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 39,
+          "norm": 0.628150608378663,
+          "rawCell": 0,
+          "rawSegment": 4
+        }
+      ]
+    },
+    {
+      "lambda_exponent": 13,
+      "lambda": 0.0001220703125,
+      "norm": 2.6043545894151783,
+      "strict_float_descent": true,
+      "absolute_decrease": 0.00016191822714750614,
+      "relative_decrease": 6.216824760848938e-05,
+      "linear_prediction": 2.6041985734983264,
+      "linearized_residual_error_budget": 3.265391661215297e-14,
+      "observed_minus_linear_prediction": 0.00015601591685188154,
+      "end_norm": 1.2819087313057858e-14,
+      "worst": [
+        {
+          "stage": 38,
+          "norm": 2.6043545894151783,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 35,
+          "norm": 2.5528444165063253,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 36,
+          "norm": 2.269467250362721,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 37,
+          "norm": 1.5485053875343833,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 39,
+          "norm": 0.6281534497122909,
+          "rawCell": 0,
+          "rawSegment": 4
+        }
+      ]
+    },
+    {
+      "lambda_exponent": 14,
+      "lambda": 6.103515625e-05,
+      "norm": 2.6043965202892587,
+      "strict_float_descent": true,
+      "absolute_decrease": 0.00011998735306706365,
+      "relative_decrease": 4.606895472345431e-05,
+      "linear_prediction": 2.604357540570326,
+      "linearized_residual_error_budget": 1.6326958306076485e-14,
+      "observed_minus_linear_prediction": 3.897971893263019e-05,
+      "end_norm": 1.1938705400617661e-23,
+      "worst": [
+        {
+          "stage": 38,
+          "norm": 2.6043965202892587,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 35,
+          "norm": 2.5529177430209327,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 36,
+          "norm": 2.269535846872718,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 37,
+          "norm": 1.548564863165234,
+          "rawCell": 0,
+          "rawSegment": 4
+        },
+        {
+          "stage": 39,
+          "norm": 0.62817334987098,
+          "rawCell": 0,
+          "rawSegment": 4
+        }
+      ]
+    }
+  ],
+  "all_three_float_norms_strictly_decrease": true,
+  "scope": "Floating-point readonly diagnostic. No interval error bound, accepted Newton step, converged solve, or change to active continuation03.",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-launch.json",
+      "bytes": 5714,
+      "sha256": "4f3bb8268e74c9a57e095649bb97c5689f7a666831f0d0e01c21a82a715ad03f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-bindings.json",
+      "bytes": 31346,
+      "sha256": "4f161641ccf73a79388f674dfcc48eea5f599237ab3bdd2e867507640e8b87fe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-call002-direction-base-observed-execution.json",
+      "bytes": 2776,
+      "sha256": "153d56847cc32cbfec60ff207dad5dad01341d6e7516e4890ce87b94dd9d6b75"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.json",
+      "bytes": 87662,
+      "sha256": "796a4fa8f03f47497748c8388cc74151000d21dcd3fd9c65b52e6a37b6cc3fca"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01-direction.json.gz",
+      "bytes": 257357,
+      "sha256": "0e6e295ba814f35061e90cb8f90c7978a95914ad08cedd9d6a906ecf844b69e3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.json",
+      "bytes": 89230,
+      "sha256": "11a47af94f4ecc73c5a3569bd3acd2fc13ea8c4ba6a11b38f7d1523591d8385b"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.run.log",
+      "bytes": 429,
+      "sha256": "4ae1176107b5bff258c77fb275ff5a3ee348090851f3972c47040d557149f3d5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-call002-direction-small-trials-child-execution.json",
+      "bytes": 3983,
+      "sha256": "b928e21b32150361f47e9630cdd10ddd018eacb2e7a442e2f95e993ab7327b15"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direction03-input.md",
+      "bytes": 5807,
+      "sha256": "548f341d82c26ad7fc5c0d9d85691b830ed21fb592a3064f75590d791a588e47"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-direction03-input-check.json",
+      "bytes": 4858,
+      "sha256": "b81c9a2013e592b14f491d87843b3ad315fa2342408f60cc8c52b8a10694800d"
+    }
+  ],
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-audit-direction03-small-trials.py",
+    "bytes": 5134,
+    "sha256": "641ba0e2d2b9121eda24468f30c3e22368c4729ac16208e207da30feaf7d3343"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "fd2d-prefix-radial-room-v1",
+  "source_sha256": "95da777bdda9e2a003d2cbd7d1db428dbbe65a89238d1cd88276498f9c7d424b",
+  "original_candidate_sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a",
+  "cut": 0.65,
+  "wcut": 0.001,
+  "pdeep": 1.5697973271282297,
+  "scope": "Actual finite radial geometry from shared candidate formulas; no linear root, nonlinear solve or continuous interval certificate.",
+  "rows": [
+    {
+      "vmid": 0.88,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.5533464208422813,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.5531607063707442,
+      "radial_room": -0.09683929362925581,
+      "maximum_positive_matching_coast": -0.9700088094934746,
+      "feasible_radial_room": false
+    },
+    {
+      "vmid": 0.85,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.5806716346601674,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.5804859201886303,
+      "radial_room": -0.0695140798113697,
+      "maximum_positive_matching_coast": -0.6963007191998999,
+      "feasible_radial_room": false
+    },
+    {
+      "vmid": 0.8,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.6213190735836673,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.6211333591121303,
+      "radial_room": -0.02886664088786972,
+      "maximum_positive_matching_coast": -0.28914808144840604,
+      "feasible_radial_room": false
+    },
+    {
+      "vmid": 0.75,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.6572836386448322,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.6570979241732952,
+      "radial_room": 0.007097924173295134,
+      "maximum_positive_matching_coast": 0.0710976786300406,
+      "feasible_radial_room": true
+    },
+    {
+      "vmid": 0.7,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.6895098440656425,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.6893241295941055,
+      "radial_room": 0.03932412959410547,
+      "maximum_positive_matching_coast": 0.393897463543885,
+      "feasible_radial_room": true
+    },
+    {
+      "vmid": 0.65,
+      "early_turn_curvature": 3.4,
+      "radius_before_deep": 0.7185622372986118,
+      "brake_length": 0.00018571456427050577,
+      "brake_radial_change": -0.0001857144715370534,
+      "maximum_cut_at_zero_matching_coast": 0.7183765228270748,
+      "radial_room": 0.06837652282707474,
+      "maximum_positive_matching_coast": 0.6849061679313683,
+      "feasible_radial_room": true
+    }
+  ]
+}

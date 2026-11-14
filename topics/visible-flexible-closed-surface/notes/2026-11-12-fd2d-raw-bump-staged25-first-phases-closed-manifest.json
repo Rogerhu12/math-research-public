@@ -1,0 +1,161 @@
+{
+  "schema": "fd2d-closed-actual-recovery-phases-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T17:45:45.033955+00:00",
+  "actual_baseline_exit": 0,
+  "actual_normal_a01_child_exit": -9,
+  "actual_normal_a01_tool_exit": 137,
+  "accepted": 0,
+  "value_packet_saved": true,
+  "normal_matrix_saved": false,
+  "same_finite_objective_as24": true,
+  "finite_success": false,
+  "strong_target_complete": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-request.json",
+      "bytes": 1765,
+      "sha256": "4ece1ac5d7a5af9339d608619af230b73aee7ff20e479c8f409db094e47bb525"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-actual-tool-exits.json",
+      "bytes": 970,
+      "sha256": "1bb25c803ba0f96ef231a1f71a10339fb102e5b394f013c86d102e4209f94966"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-staged25-first-phases.md",
+      "bytes": 3062,
+      "sha256": "c5255b67b4fdb93aabc3a7a8dcdb0a6516b30c5641f5f62582a38cbd0f1a7618"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-report.json",
+      "bytes": 102254,
+      "sha256": "fe478804343a83b38ca06afba080caefbd7d80a63b9989e405c0a5f1238838c8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-progress.jsonl",
+      "bytes": 2367,
+      "sha256": "d50a160338707af116ca6a2084e0b95acf30ec15e17b89e0c8987749c7764dfb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt.json",
+      "bytes": 3328,
+      "sha256": "bd0a5dcd746d0a02ad98b19067723c62689fc53c7d5cfa02987e1c65a7e88424"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt-samples.jsonl",
+      "bytes": 71751,
+      "sha256": "52351cd391f430b59bc001a20538cc66c205eccee6cca14925b76b3611ac1e69"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt-console.txt",
+      "bytes": 2367,
+      "sha256": "d50a160338707af116ca6a2084e0b95acf30ec15e17b89e0c8987749c7764dfb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-report.json",
+      "bytes": 84872,
+      "sha256": "ca997cbfafd0528370d8bf8eee0735bf46902021adb9e1508759ab02ecdd4e2c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-progress.jsonl",
+      "bytes": 5775,
+      "sha256": "3ba9dd610b24939192ded0326dcde6a8089b81bb098f68f7c24548c05ce4d809"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt.json",
+      "bytes": 3322,
+      "sha256": "787deaaabcb78ae01342772f168cdd8ee63e28819706e7d579233ba7f6d0360a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt-samples.jsonl",
+      "bytes": 65404,
+      "sha256": "a3ec4ff13eff1752b1a023f6122658c8f934fce86fbfa7f5f17f9a15c1a9818c"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt-console.txt",
+      "bytes": 5775,
+      "sha256": "3ba9dd610b24939192ded0326dcde6a8089b81bb098f68f7c24548c05ce4d809"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-actual-current.npz",
+      "bytes": 126906,
+      "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-summary.json",
+      "bytes": 34539,
+      "sha256": "9ee032cf2e0351ea0b641a5b21486b7d05d8a8dde9095e174ca0cf45f1457d01"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/manifest.json",
+      "bytes": 155082,
+      "sha256": "116a7b8326f5546cdb487575f44c027a2d480df77c1460fa539cedc555998763"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0000.npz",
+      "bytes": 441246,
+      "sha256": "a5ec5e535b307e934e53264f4a0145b9cdf748fadab95d0fae9b0cb5b66c7a8c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0001.npz",
+      "bytes": 634785,
+      "sha256": "cf8dbdabb7b7ad637dfb287c4d322d0e9cda9ba99e0d37590571cd619a34a2ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0002.npz",
+      "bytes": 628487,
+      "sha256": "8262b0b2f15223888ec3c5825f71598a3c79cab0f3adb4886f760f6a8a8fd1c9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0003.npz",
+      "bytes": 574120,
+      "sha256": "a27dfd6cbcb47622d134c4b34db17ce73fe5a6114ef92081d71cc6179e5450d4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0004.npz",
+      "bytes": 162550,
+      "sha256": "65d76f420023f4983ee9adeb2153ff4bb7a0ae975261f879116d339393cf6eab"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0005.npz",
+      "bytes": 643821,
+      "sha256": "c2c27eb062d5c9a8ca39b0e785a60ac2ef29deb5230739b51bd2a9ced445e7ea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0006.npz",
+      "bytes": 298043,
+      "sha256": "2ab0fc7e16ff4d53ecd43194a07bb202eac93f664eeb1a34e75a3487c85d3903"
+    },
+    {
+      "path": "scripts/fd2d_gc_staged_search_context.py",
+      "bytes": 20890,
+      "sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf"
+    },
+    {
+      "path": "scripts/fd2d_gc_packet_checkpoint.py",
+      "bytes": 8340,
+      "sha256": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd"
+    },
+    {
+      "path": "scripts/fd2d_gc_stage_io.py",
+      "bytes": 1359,
+      "sha256": "bb7a60533c7696c9fd6f398fe48c97e06a7a7668579f2827fb43dc09953c41b2"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-baseline.py",
+      "bytes": 3837,
+      "sha256": "da43690772daf68ea218a191c264a35a2b7709a3fb15024db7af4e027b6df09d"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-normal.py",
+      "bytes": 4290,
+      "sha256": "e3bf8c619ed8465da971e8af8686222c9e10c8e62a050897dfa1f6dda9003fce"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-packet-transport-check01-report.json",
+      "bytes": 686,
+      "sha256": "9bb5b625b1696d1d53f1a8011ffb3c0941d249fd3a4d00752d3e7dc958d0e73d"
+    }
+  ]
+}

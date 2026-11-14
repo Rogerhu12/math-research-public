@@ -1,0 +1,23 @@
+{
+  "schema": "fd2d-observed-tool-process-exit-v1",
+  "session_id": 82889,
+  "initial_tool_chunk": "86687f",
+  "final_tool_chunk": "e1ac92",
+  "actual_exit_code": 0,
+  "command": "python scripts/fd2d-metric-current-native-interval-check-v3.py --definition notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json --out-prefix notes/2026-11-12-fd2d-metric-current-native-interval-03 --precision 256",
+  "script": {
+    "path": "scripts/fd2d-metric-current-native-interval-check-v3.py",
+    "bytes": 14471,
+    "sha256": "aed3cb230729df66bf700d51dde739c5d899c681eb63d578a151d57e6ac581c6"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-current-native-interval-03-report.json",
+    "bytes": 46650,
+    "sha256": "968c5e1a54da1430039251fb8e77ab04f15adf7dac63df4b79dba5fca05d9868"
+  },
+  "reported_inner_seconds": 1.6119230900003458,
+  "reported_process_peak_rss_kib": 86132,
+  "process_completed_naturally": true,
+  "whole_F_J_BVP_body_evaluated": false,
+  "continuous_global_certificate": false
+}

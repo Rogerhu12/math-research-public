@@ -1,0 +1,49 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "result": "R174",
+  "scope": "accurate terminal angular integrability; conditional actual-body cut limits; exact finite-coefficient constants",
+  "files": [
+    {
+      "path": "results/R174-integrable-terminal-angular-jets-and-actual-body-cut-limits.md",
+      "bytes": 13131,
+      "sha256": "856bdd8e6925ba9ec853fe3d074dd1f98b8303d65410e471cc5bc53519d3a371"
+    },
+    {
+      "path": "scripts/fd2d_gc_terminal_angular_majorant.py",
+      "bytes": 10688,
+      "sha256": "0b24400ff37d224963fd45b1290c0801bcbd896b5b70cd1a245e1613326dd6a7"
+    },
+    {
+      "path": "scripts/fd2d-terminal-angular-majorant-check.py",
+      "bytes": 8298,
+      "sha256": "b13599aeea8cc6bd477ea4920f0db39f2733c2d381bfbcf0142fe73675c859f5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-terminal-angular-majorant-01-packet.json",
+      "bytes": 102681,
+      "sha256": "63f539ad407a9fe11a4b06d18a9851776734fb87e0f210dfc94181a2fd9b4d3b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-terminal-angular-majorant-01-report.json",
+      "bytes": 23951,
+      "sha256": "7e7b2ccd9d92d868490fec453e0f18b4ad8d927d8b6e7eedf7df722029c8d880"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-terminal-angular-majorant-01-exit-receipt.json",
+      "bytes": 639,
+      "sha256": "962dcef0ccef14c487c704db4bcf3bffcdc48d7c3efcc560af7417e85bd0b40c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-terminal-angular-integrability.md",
+      "bytes": 3543,
+      "sha256": "f41d38b850e490a24a648d6fd66277f0a17518f9a3e719eabd6e4ceaabbb2dd1"
+    }
+  ],
+  "file_count": 7,
+  "total_bytes": 162931,
+  "largest_file_bytes": 102681,
+  "actual_consumer_exit": 0,
+  "body_or_F_J_BVP_evaluated": false,
+  "whole_geometry_or_seam_certified": false
+}

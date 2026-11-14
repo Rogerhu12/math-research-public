@@ -1,0 +1,102 @@
+{
+  "status": "actual arithmetic checks completed",
+  "started_ms": 1794471493675,
+  "elapsed_seconds": 4.34,
+  "config": {
+    "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-config.json",
+    "sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994"
+  },
+  "normal": {
+    "state": {
+      "count": 10,
+      "nonidentical": 0,
+      "maximum_absolute": 0,
+      "maximum_relative": 0
+    },
+    "root": {
+      "count": 5,
+      "nonidentical": 0,
+      "maximum_absolute": 0,
+      "maximum_relative": 0
+    },
+    "rhs": {
+      "count": 10,
+      "nonidentical": 0,
+      "maximum_absolute": 0,
+      "maximum_relative": 0
+    },
+    "jacobian": {
+      "count": 80,
+      "nonidentical": 0,
+      "maximum_absolute": 0,
+      "maximum_relative": 0
+    },
+    "Ldot": {
+      "count": 5,
+      "nonidentical": 0,
+      "maximum_absolute": 0,
+      "maximum_relative": 0
+    }
+  },
+  "actualDeep": {
+    "rawCell": 159,
+    "rawSegment": 3,
+    "x": 1,
+    "geometry": {
+      "r": 0.32,
+      "drdx": 5.836462807474886e-76,
+      "logw": -423.7456058685332,
+      "dlogwdx": -9.704534445165987e-76,
+      "oldR": 0.32,
+      "oldDrdx": 4.436358603504452e-77,
+      "chi": 1
+    },
+    "mu": 1.3088461770207387e-137,
+    "w": 9.324415992003524e-185,
+    "w2": 0,
+    "rootResidual": 8.470329472543003e-22,
+    "rootRelativeResidual": 4.2351605011131177e-19,
+    "minA": 0.9971725728747538,
+    "minD": 1,
+    "normalizedDarboux": 3.6148474078500437e-88,
+    "physicalDarbouxUnderflowCount": 64,
+    "allRootRhsJacobianAndPhysicalJetsFinite": true
+  },
+  "lifted": {
+    "shift": 223.74560586853318,
+    "scale": 1.4841642928882044e+97,
+    "mu": 2.8830526030136773e+57,
+    "root": {
+      "count": 5,
+      "nonidentical": 5,
+      "maximum_absolute": 1.1362438767648086e-16,
+      "maximum_relative": 0.9978829174930903
+    },
+    "rhs": {
+      "count": 10,
+      "nonidentical": 6,
+      "maximum_absolute": 8.339998016495513e-274,
+      "maximum_relative": 0.9978829174930903
+    },
+    "jacobian": {
+      "count": 80,
+      "nonidentical": 68,
+      "maximum_absolute": 2.204051907791789e-38,
+      "maximum_relative": 8.449753946377504e-9
+    },
+    "Ldot": {
+      "count": 5,
+      "nonidentical": 5,
+      "maximum_absolute": 6.519889758598543e-91,
+      "maximum_relative": 6.057547697381073e-10
+    }
+  },
+  "cache": {
+    "schema": "fd2d-fixed-tail-bounded-point-cache-v1",
+    "entries": 1440,
+    "pointsPerEntry": 8,
+    "maximum_retained_point_values": 11520,
+    "scope": "Memoization only. The configured fixed physical source, point arithmetic, and subsequent nonlinear equations are unchanged."
+  },
+  "scope": "Actual local arithmetic only. No complete nonlinear DN response, radial convergence, or infinite-tail assertion."
+}

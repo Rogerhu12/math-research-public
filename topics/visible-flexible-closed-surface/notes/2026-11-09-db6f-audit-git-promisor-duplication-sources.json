@@ -1,0 +1,138 @@
+{
+  "status": "READ_ONLY_SOURCE_SUPPORTED_DIAGNOSIS_NOT_RUNTIME_REPRODUCED",
+  "date": "2026-11-09",
+  "author": "db6f/independent_geometry",
+  "observed_git_version": "2.51.1",
+  "safe_config_keys_explicitly_unset": [
+    "core.multiPackIndex",
+    "core.deltaBaseCacheLimit",
+    "fetch.writeCommitGraph",
+    "fetch.unpackLimit",
+    "transfer.unpackLimit",
+    "maintenance.auto"
+  ],
+  "source_note": {
+    "path": "notes/2026-11-09-db6f-audit-git-promisor-duplication.md",
+    "sha256": "dee741ccfe50d34bb3717155819045ad4cbe3012fad24719a68915c059cdcf6c",
+    "bytes": 8298
+  },
+  "local_index_observation": {
+    "path": "notes/2026-11-09-db6f-audit-git-promisor-index-observation.json",
+    "sha256": "7f50b1d30363d2dcbf86b1d8a33af012ba307f8d8cbafabaaa9b095b4d5f8db3",
+    "bytes": 4930
+  },
+  "primary_sources": [
+    {
+      "id": "S1",
+      "url": "https://chromium.googlesource.com/external/github.com/git/git/+/refs/tags/v2.51.1",
+      "tag": "v2.51.1",
+      "tag_object": "2932bfe29fa1c966e0230ee81b0aaccf5c78af1f",
+      "commit": "81f86aacc4eb74cdb9c2c8082d36d2070c666045",
+      "web_ref": "turn42view0",
+      "read": true,
+      "scope": "Exact tag identity and 2025-10-15 release date."
+    },
+    {
+      "id": "S2",
+      "url": "https://chromium.googlesource.com/external/github.com/git/git/+/refs/tags/v2.51.1/builtin/index-pack.c",
+      "blob": "f91c301bba9fbd9171aba65d708d27f9e58c8012",
+      "web_refs": [
+        "turn33view0",
+        "turn34view1",
+        "turn41view2",
+        "turn42view2"
+      ],
+      "read": true,
+      "scope": "Exact-tag --promisor recording, repack_local_links predicate, local child pack-objects and empty marker; separate index-pack cache config."
+    },
+    {
+      "id": "S3",
+      "url": "https://chromium.googlesource.com/external/github.com/git/git/+/refs/tags/v2.51.1/builtin/pack-objects.c",
+      "blob": "ff6900b6545a248f98bce88fa2fb1f11846fc2dc",
+      "web_refs": [
+        "turn34view2",
+        "turn41view5",
+        "turn43view0"
+      ],
+      "read": true,
+      "scope": "Exact-tag is_not_in_promisor_pack_obj and best-effort object traversal."
+    },
+    {
+      "id": "S4",
+      "url": "https://code.googlesource.com/git/+/7a4bd1b836c7437dfb8ff3650096750b98a6b3e4",
+      "diff_url": "https://code.googlesource.com/git/+/7a4bd1b836c7437dfb8ff3650096750b98a6b3e4%5E!/",
+      "commit": "7a4bd1b836c7437dfb8ff3650096750b98a6b3e4",
+      "parent": "123e8186a72cd71863668b6acb23a2faa30e6968",
+      "commit_date": "2026-01-12",
+      "web_refs": [
+        "turn25view2",
+        "turn32view1"
+      ],
+      "read": true,
+      "scope": "Upstream OI_DBCACHED promisor classification explanation and exact fix. Later streaming segfault is explicitly not attributed to local v2.51.1."
+    },
+    {
+      "id": "S5",
+      "url": "https://kernel.googlesource.com/pub/scm/git/git/+/refs/tags/v2.51.0-rc0/packfile.c",
+      "tag": "v2.51.0-rc0",
+      "blob": "5d73932f50ce6854d695e92d049c6a6c0a1421a7",
+      "web_refs": [
+        "turn38view3",
+        "turn40view3",
+        "turn41view3",
+        "turn41view4"
+      ],
+      "read": true,
+      "scope": "Cache insertion remains unconditional after eviction; no positive-limit caller guard; OI_DBCACHED branch; pack marker and MIDX lookup paths. Not substituted for exact v2.51.1 packfile.c."
+    },
+    {
+      "id": "S6",
+      "url": "https://code.googlesource.com/git/+/123e8186a72cd71863668b6acb23a2faa30e6968/packfile.c",
+      "commit": "123e8186a72cd71863668b6acb23a2faa30e6968",
+      "blob": "08a0863fc3374c982029d50116f6018e4fcdde92",
+      "web_refs": [
+        "turn34view3",
+        "turn43view1"
+      ],
+      "read": true,
+      "scope": "Same cache insertion and unconditional caller before upstream fix. Not substituted for exact v2.51.1 packfile.c."
+    },
+    {
+      "id": "S7",
+      "url": "https://git-scm.com/docs/git-config/2.51.1",
+      "web_ref": "turn42view1",
+      "read": true,
+      "scope": "Default 96 MiB and cache-size semantics; no stated zero-disable guarantee."
+    }
+  ],
+  "access_limitations": {
+    "exact_v2_51_1_packfile_c_retrieved": false,
+    "attempted_exact_tag_file_range_diff_unavailable": true,
+    "actual_binary_correspondence_proved": false,
+    "runtime_whence_trace_observed": false
+  },
+  "conclusions": {
+    "upstream_bug_matches_exact_tag_caller_predicates": true,
+    "current_midx_covered_duplicates_all_have_promisor_selected_owner": true,
+    "zero_is_verified_cache_disable": false,
+    "zero_in_read_source_still_inserts_new_base": true,
+    "at_most_one_cache_entry_requires_all_base_sizes_positive": true,
+    "one_entry_does_not_prevent_OI_DBCACHED": true,
+    "zero_fetch_trial_run": false,
+    "core_multiPackIndex_false_trial_run": false,
+    "no_proved_single_fetch_parameter_fix_identified": true
+  },
+  "operations_not_run": [
+    "fetch",
+    "git config mutation",
+    "git ref mutation",
+    "pack mutation",
+    "git fsck",
+    "git verify-pack",
+    "Git compilation or installation",
+    "solver",
+    "flow",
+    "numeric backend"
+  ],
+  "credentials_or_environment_read": false
+}

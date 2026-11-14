@@ -1,0 +1,34 @@
+{
+  "status": "conditional-shared-interface-position-budget-only",
+  "dependencies": {
+    "2026-11-09-db6f-audit-geometry-flat17-coupled-m8f16.json": "1aeb19c1edc113da6f1cc44650681289c8c81214a32d83f726431e7522ed5add",
+    "2026-11-09-db6f-audit-flat17-coupled-moment-v2-rerun.json": "391cacb8b75c73e5d42315707e26d97f2afc81997e118a0e9f1c5a3d8978cc06",
+    "2026-11-09-db6f-audit-tail-first-flat17-m8-q10-n8-s32-rerun.json": "92c71e7d9153b3f7176ce4e6524f7fa21bcbe0979273b16f3e8b5eb3de05eb23",
+    "2026-11-09-db6f-audit-tail-background-height-rerun.json": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+  },
+  "assumptions": [
+    "The final tail has the same proved perturbation bounds after all shared-jet corrections.",
+    "The prefix, tail and caps have exact common C2 interfaces and the stated mirror placement.",
+    "The background is the same exact normalized analytic profile and positive alpha has been paid."
+  ],
+  "tailPlanarUpperExact": "30007/50000",
+  "tailHeightUpperExact": "418148745406789931039/225179981368524800000",
+  "tailHeightLowerExact": "12446751549714249323/7036874417766400000",
+  "bumpedCapHeightUpperExact": "418072184213124632607/225179981368524800000",
+  "radiusBudgetExact": "49/25",
+  "tailRadiusSquaredLessThanBudget": true,
+  "capRadiusSquaredLessThanBudget": true,
+  "prefixNormLessThanBudget": true,
+  "heldPrefixWitnessExceedsFivePercentDiameterBudget": true,
+  "tailHeightExceedsFivePercentDiameterBudget": true,
+  "floatingDiagnostics": {
+    "tailPlanarUpper": 0.60014,
+    "tailHeightUpper": 1.8569534594749635,
+    "tailHeightLower": 1.768789779492046,
+    "bumpedCapHeightUpper": 1.8566134594749635,
+    "sphereRadius": 1.96,
+    "diameterBudget": 3.92,
+    "heldThreshold": 0.196
+  },
+  "completeClosedSurfaceCertified": false
+}

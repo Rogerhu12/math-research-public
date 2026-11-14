@@ -1,0 +1,19 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 25263,
+  "launch_chunk": "6daa1b",
+  "completion_chunk": "18362c",
+  "actual_exit_code": 0,
+  "actual_accepted_steps": 4,
+  "body_completed": true,
+  "child_codes": [
+    0,
+    0
+  ],
+  "final_state": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-accepted-0002.npz",
+    "bytes": 56022,
+    "sha256": "f89d52770f858b4ff5b5fe1e7ea084c92816c117777133377008f7058d84ebdc"
+  },
+  "scope": "Same R153 actual field, explicitly changed affine known coast quadrature; persistent finite residual, no completion claim."
+}

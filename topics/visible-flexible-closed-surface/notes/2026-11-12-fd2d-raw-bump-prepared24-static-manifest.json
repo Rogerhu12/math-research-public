@@ -1,0 +1,48 @@
+{
+  "schema": "fd2d-closed-static-numerical-source-group-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T16:59:54.258473+00:00",
+  "mathematical_run_started": false,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_stream_normal_consumer.py",
+      "bytes": 10776,
+      "sha256": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_interior_stream_normal_consumer.py",
+      "bytes": 2483,
+      "sha256": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py",
+      "bytes": 35656,
+      "sha256": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-prepared24-source.md",
+      "bytes": 1821,
+      "sha256": "4ae28d32286bf9a8c65f22da8d0e0a5b00d8c5fc362170469f70ed059981b7ca"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/fd2d_gc_prepared_geometry_cache.py",
+      "bytes": 13991,
+      "sha256": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03"
+    },
+    {
+      "path": "scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+      "bytes": 4592,
+      "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+    }
+  ],
+  "planned_input": "Latest actually accepted and naturally closed reuse23 boundary; exact input SHA recorded by actual launch",
+  "finite_equations_changed": false,
+  "old_sources_unchanged": true
+}

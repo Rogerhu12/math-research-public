@@ -1,0 +1,220 @@
+{
+  "schema": "fd2d-serial-stage-cache-actual-equality-v1",
+  "completed": true,
+  "source_sha256": "f199826bc53f2c03efe4e6ace82f980a2073d1da93b34901f1efbab6f3f792cc",
+  "input_sha256": "a40599d672a47e2e116cf48db6dc9bbc0f5e654d73f50ac4b8736c629f8a850e",
+  "fixture": {
+    "protectCell": 20,
+    "physicalDepth": 2,
+    "modes": 2,
+    "spacing": 2,
+    "quadrature": 32,
+    "parts": 2,
+    "steps": 8,
+    "linearFar": 8,
+    "linearSteps": 16,
+    "height": [
+      1e-12,
+      0
+    ]
+  },
+  "scope": "Actual small derived fixture only. Original and cached equations/flows are compared; no nonlinear BVP convergence or full160 result is asserted.",
+  "checks": [
+    {
+      "withJac": true,
+      "first": {
+        "count": 977,
+        "bitwise_identical": 977,
+        "maximum_absolute_difference": 0
+      },
+      "replayed_from_disk": {
+        "count": 977,
+        "bitwise_identical": 977,
+        "maximum_absolute_difference": 0
+      }
+    },
+    {
+      "withJac": false,
+      "first": {
+        "count": 437,
+        "bitwise_identical": 437,
+        "maximum_absolute_difference": 0
+      },
+      "replayed_from_disk": {
+        "count": 437,
+        "bitwise_identical": 437,
+        "maximum_absolute_difference": 0
+      }
+    }
+  ],
+  "cache_metadata": {
+    "schema": "visible-flex-actual-stage-output-cache-v1",
+    "root": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache",
+    "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+    "blockSize": 32,
+    "sourceCount": 30
+  },
+  "events": [
+    {
+      "event": "stage_cache_evaluation_start",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": true,
+      "count": 36,
+      "loadedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a"
+    },
+    {
+      "event": "stage_cache_block_saved",
+      "time": "2026-11-12T07:56:12.499Z",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "withJac": true,
+      "start": 0,
+      "end": 32,
+      "bytes": 5633,
+      "sha256": "870be9f2850e42219be78946576fe9ec9565983f0eb454f9fbabff2213fc3143",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a/block-00000.v8.gz"
+    },
+    {
+      "event": "stage_cache_block_saved",
+      "time": "2026-11-12T07:56:12.518Z",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "withJac": true,
+      "start": 32,
+      "end": 36,
+      "bytes": 917,
+      "sha256": "4454b8b8d609537a3b1db4ede081edac8061415a361f797e9cf81a94943028a2",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a/block-00032.v8.gz"
+    },
+    {
+      "event": "stage_cache_evaluation_complete",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": true,
+      "count": 36,
+      "loadedStages": 0,
+      "newlySavedStages": 36,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a"
+    },
+    {
+      "event": "stage_cache_evaluation_start",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": true,
+      "count": 36,
+      "loadedStages": 36,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a"
+    },
+    {
+      "event": "stage_cache_evaluation_complete",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": true,
+      "count": 36,
+      "loadedStages": 36,
+      "newlySavedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ec625e71d64b6ca56453d37a04e1a0b648d9d6094e23e01576708e40a495e37a"
+    },
+    {
+      "event": "stage_cache_evaluation_start",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": false,
+      "count": 36,
+      "loadedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1"
+    },
+    {
+      "event": "stage_cache_block_saved",
+      "time": "2026-11-12T07:56:12.648Z",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "withJac": false,
+      "start": 0,
+      "end": 32,
+      "bytes": 1546,
+      "sha256": "9340ab17712124469a3fd858cec1da16f16c38ceb757bbaab690dda482d08490",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1/block-00000.v8.gz"
+    },
+    {
+      "event": "stage_cache_block_saved",
+      "time": "2026-11-12T07:56:12.658Z",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "withJac": false,
+      "start": 32,
+      "end": 36,
+      "bytes": 379,
+      "sha256": "94ee566669c7703ca3d2b751eebdc2180e35dc13d3758b7ce79ba7f4c5c3da97",
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1/block-00032.v8.gz"
+    },
+    {
+      "event": "stage_cache_evaluation_complete",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": false,
+      "count": 36,
+      "loadedStages": 0,
+      "newlySavedStages": 36,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1"
+    },
+    {
+      "event": "stage_cache_evaluation_start",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": false,
+      "count": 36,
+      "loadedStages": 36,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1"
+    },
+    {
+      "event": "stage_cache_evaluation_complete",
+      "context": "f3da7c344e2bd44a439c798af8546d2a74b875877e4822e73799925e11c140c0",
+      "key": "ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1",
+      "inputHash": "60bba4e74303a15c855bf6d1f8fc674fb39ce15708bec30681c6f1c4d43ca21d",
+      "withJac": false,
+      "count": 36,
+      "loadedStages": 36,
+      "newlySavedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/cache/ce13e3e7f51c14ba39151e1ee3599cb7602069bc24f34873478f45e0988d9eb1"
+    }
+  ],
+  "runtime": {
+    "seconds": 1.157,
+    "heap_size_limit": 134217728,
+    "resources": {
+      "userCPUTime": 758263,
+      "systemCPUTime": 101353,
+      "maxRSS": 71400,
+      "sharedMemorySize": 0,
+      "unsharedDataSize": 0,
+      "unsharedStackSize": 0,
+      "minorPageFault": 23411,
+      "majorPageFault": 0,
+      "swappedOut": 0,
+      "fsRead": 0,
+      "fsWrite": 104,
+      "ipcSent": 0,
+      "ipcReceived": 0,
+      "signalsCount": 0,
+      "voluntaryContextSwitches": 1098,
+      "involuntaryContextSwitches": 470
+    },
+    "memory": {
+      "rss": 72396800,
+      "heapTotal": 31772672,
+      "heapUsed": 22250080,
+      "external": 4689392,
+      "arrayBuffers": 754942
+    }
+  }
+}

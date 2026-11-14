@@ -1,0 +1,21 @@
+{
+  "schema": "78718-prefix-metadata-comparison-tool-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "status": "observed-process-completed",
+  "recorded_utc": "2026-11-10 09:06:03 UTC",
+  "actual_exit_code": 0,
+  "tool_receipt": "32ede6",
+  "actual_tool_return": {
+    "chunk_id": "32ede6",
+    "wall_time_seconds": 0.000021682,
+    "exit_code": 0,
+    "original_token_count": 156,
+    "output": "{\"RHS_calls\": 0, \"all_fixed_fields_equal\": true, \"highest_support_coefficient\": [2.4233142751359304e-10, 1.189214893276175e-08, 1.198214487194138e-08], \"modes\": [12, 14, 14], \"output\": {\"bytes\": 5674, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-branch-metadata-01.json\", \"sha256\": \"fc5917b60f848439223ecfe29633a35199a458838f5e87f00e94a2be47fedbd8\"}, \"q\": [0.09999976505231697, 0.09999976437833741, 0.09999976413887013], \"sampled_metric_saved\": [8.951344414076039e-09, 7.946154956992427e-08, 8.006151376570554e-08], \"solver_calls\": 0}\n"
+  },
+  "output_identity": {
+    "bytes": 5674,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-branch-metadata-01.json",
+    "sha256": "fc5917b60f848439223ecfe29633a35199a458838f5e87f00e94a2be47fedbd8"
+  },
+  "scope": "Saved scalar metadata comparison only, no branch uniqueness claim or new mathematical evaluation."
+}

@@ -1,0 +1,100 @@
+{
+  "status": "exact-row-overlay-analytic-suppliers-remain-dependencies",
+  "finished": true,
+  "finite_tail_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "data_file": "2026-11-09-db6f-audit-tail-lowmetric-r230-12-packet.npz",
+  "data_sha256": "2b27e461e056b9aca1e7aa10a2123dcad246eaec04698b68da87f4d171d98a91",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "sources": {
+    "notes/2026-11-09-db6f-audit-tail-lowmetric-r230-11-packet.json": "84c57fd373c9b9edb13eff765536df4dc8fc24840f45db70f2ddaad0dadaa0ca",
+    "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r11.json": "252976548a9eb332666be802a5c369bcaa34f5aa1c7303bbb16b537096d7dfe6"
+  },
+  "script_sha256": "87218edf0b73b6e67dae3c58a618841601dc64b093b24519820bcfd63efca839",
+  "overlaid_spans": [
+    4508,
+    4509,
+    4510,
+    4511,
+    4512,
+    4513,
+    4514,
+    4515,
+    4516,
+    4517,
+    4518,
+    4519,
+    4520,
+    4521,
+    4522,
+    4523,
+    4524,
+    4525,
+    4526,
+    4527,
+    4528,
+    4529,
+    4530,
+    4531,
+    4532,
+    4533,
+    4534,
+    4535,
+    4536,
+    4537,
+    4538,
+    4539,
+    4540,
+    4541,
+    4542,
+    4543,
+    4544,
+    4545,
+    4546,
+    4547,
+    4548,
+    4549,
+    4550,
+    4551,
+    4552,
+    4553,
+    4554,
+    4555,
+    4556,
+    4557,
+    4558,
+    4559,
+    4560,
+    4561,
+    4562,
+    4563,
+    4564,
+    4565,
+    4566
+  ],
+  "analytic_definition": "Same exact background; use fine packet on the listed complete spans and coarse packet elsewhere."
+}

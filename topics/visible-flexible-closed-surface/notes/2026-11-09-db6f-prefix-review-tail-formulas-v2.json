@@ -1,0 +1,54 @@
+{
+  "status": "PASS formula/component review diagnostics",
+  "scope": "Independent Cartesian-jet checks of three finite-tail audit formulas.\n\nThis exercises algebra and conservative bounds on explicit analytic maps.\nIt is not a certificate for any supplied physical-background packet.\n",
+  "audited_script": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-curvature.py",
+  "audited_script_sha256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "reviewer_script_sha256": "360ce83fc271acf82b83d65713f35e07849e7cfe4f8e39a59f5befc2004514f5",
+  "radial_samples_per_case": 11,
+  "angular_samples_per_case": 97,
+  "cases": [
+    {
+      "name": "round cone, zero perturbation",
+      "metric_upper": 8.626e-321,
+      "direct_curvature_upper": 2.5155764746873137,
+      "perturbative_curvature_upper": 2.0000000000000018,
+      "covariant_hessian_upper": 9.940479322862122e-162,
+      "sampled_cartesian_metric": 4.501432006685809e-16,
+      "sampled_cartesian_curvature": 1.1180339887498951,
+      "coordinate_metric_formula_difference": 2.220446049250313e-16,
+      "direct_area_lower": 0.4472135954999568,
+      "sampled_cartesian_area_lower": 0.44721359549995787
+    },
+    {
+      "name": "independent threefold Cartesian polynomial map",
+      "metric_upper": 0.00450620965193622,
+      "direct_curvature_upper": 3.688109464112784,
+      "perturbative_curvature_upper": 2.0320328369304894,
+      "covariant_hessian_upper": 0.02287607094766023,
+      "sampled_cartesian_metric": 0.0015354101759996741,
+      "sampled_cartesian_curvature": 1.4877669187932139,
+      "coordinate_metric_formula_difference": 6.441821089140515e-16,
+      "direct_area_lower": 0.49694072088794805,
+      "sampled_cartesian_area_lower": 0.49735652364258365
+    },
+    {
+      "name": "large radial second jets cancel to an exact cone",
+      "metric_upper": 0.725609756097567,
+      "direct_curvature_upper": 0.9887058639643517,
+      "perturbative_curvature_upper": 112.96174863388252,
+      "covariant_hessian_upper": 10.995601759296344,
+      "sampled_cartesian_metric": 0.4877049180327866,
+      "sampled_cartesian_curvature": 0.9126808071427717,
+      "coordinate_metric_formula_difference": 2.220446049250313e-15,
+      "direct_area_lower": 0.5478366544874462,
+      "sampled_cartesian_area_lower": 0.5478366544874483
+    }
+  ],
+  "failures": [],
+  "does_not_certify": [
+    "physical background packet validity",
+    "all-tail interval coverage",
+    "complete closed-surface metric or reach",
+    "README completion"
+  ]
+}

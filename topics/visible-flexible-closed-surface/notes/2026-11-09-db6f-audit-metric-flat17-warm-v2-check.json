@@ -1,0 +1,25 @@
+{
+  "scope": "Coefficient-first metric residual bounds for a shared-jet Fourier map.\n\nInput target packets enclose the SAME analytic a(s), e(s), e'(s), on each\nlisted interval, in the local variable u=(s-left)/(right-left). Interval\npower coefficients and uniform remainder bounds are allowed. This backend\ndoes not establish the supplier's analytic enclosures. It never imports\nthe nonlinear solver, and subtracts coefficients before taking norms.\n",
+  "geometry_sha256": "a4a838b714ae515e54ac6c0a5d2f4cc49ca68fec42c6d8230d2974f8759a8ec1",
+  "geometry_data_sha256": "031ed4615cd0d66ea847d92f54365087127d5d4a728eaa77b73609afc21f745a",
+  "target_sha256": "f9353a3f4879636eafa4db72d801a5182afd858bc1447190f6b40edec93d1381",
+  "target_data_sha256": "54f3f26523e7412db3e1e1ac302dfafc4873b5a76655049be01f2d6e25a5aa8e",
+  "script_sha256": "12fff53fb7764dc911fd97b935b77a85b1ee0a370d742dc507a760453ccbf2d0",
+  "backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "supplier_claim": "Flat-ramp a(s): exact rational formulas in the saved binary main parameters; Tu,Td recomputed by Fraction. The clamped angular spline is solved exactly over Fraction and multiplied by the prescribed quintic cutoff. The bridge has frozen binary L,pt,ps but uses the true sine integral. Every bridge span uses a fifth-order Taylor enclosure around its exact midpoint phase, followed by integration and an explicitly bounded degree-eight truncation. The radius endpoint is not asserted to satisfy the exact bridge matching equation.",
+  "target_supplier_independently_verified": false,
+  "complete_closed_surface": false,
+  "intervals": 856,
+  "metric_operator_upper": 3.144025980385021e-06,
+  "coordinate_residual_upper": [
+    2.7241674812581746e-06,
+    4.826446135375034e-07,
+    5.2026981568739224e-08
+  ],
+  "minimum_a_lower": 0.5999796654962116,
+  "minimum_chart_rho_lower": 0.1999999964152772,
+  "worst_interval": 523,
+  "intervals_checked": 856,
+  "entire_prefix_covered": true,
+  "seconds": 8.315638542999295
+}

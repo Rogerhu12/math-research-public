@@ -1,0 +1,132 @@
+{
+  "all_present": {
+    "count": 120763,
+    "sorted_hex_lf_sha256": "a31910ca8b73835745e659fb6d35bd32322330014e811ee6ea00fe4acda6f9a1",
+    "sorted_raw_sha256": "1cb5f16dc39e10acd26b8859a7537c079df609c16a444a1251b2093f23b2c000"
+  },
+  "all_reconstructed_old_sets_equal_current_sets": true,
+  "all_retained_idx_and_metadata_exactly_unchanged": true,
+  "credential_or_environment_reads": false,
+  "current_midx": {
+    "all_owners_have_matching_oid_and_exact_idx_offset": true,
+    "bytes": 3365656,
+    "checksum_passed": true,
+    "exact_union_of_named_pack_indices": true,
+    "oid_set": {
+      "count": 120121,
+      "sorted_hex_lf_sha256": "824bc895a46912459aa1a42ed5030f24458c86161e07b21b7884e34663a1b3fe",
+      "sorted_raw_sha256": "61e809f1d8b4d335ee3cc3a5033d8e5bb927121253bd5889100d0cd88b70b06f"
+    },
+    "pack_names": [
+      "pack-01c7b521e18b1dab97595e67b90754354a10c1c9",
+      "pack-0468344a65599a6c7b7618c31ec7f36f64836345",
+      "pack-086b47066f41671e835ae463c8037acbabedb415",
+      "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5",
+      "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0",
+      "pack-1ad8b802354908880c6c208e7517fae033ff2a16",
+      "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb",
+      "pack-272fb272986d6212ef30c01377e464af3d3bb318",
+      "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd",
+      "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+      "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463",
+      "pack-5392032bc3c5631d8f52217ec406bf597a281b0c",
+      "pack-54c9604895d20ebd3d60fe9d9246d0fb7832fd4b",
+      "pack-55f54db9ee6a47173994f1e99594ef609a535a75",
+      "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2",
+      "pack-76b715dc869afd97aee5bdc32807aa6364a875ed",
+      "pack-7eda0e69e2f2aab843873328cf12250e36478139",
+      "pack-998c0282ec4b827b60ca8d9fa82eb35eab1d9355",
+      "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5",
+      "pack-9d5ff02d81fbebba0921f7d00bed317375405e74",
+      "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2",
+      "pack-ed0f40e1ce8e8145d498703f89ed2407fa08a537",
+      "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4"
+    ],
+    "selected_owner_counts": {
+      "pack-01c7b521e18b1dab97595e67b90754354a10c1c9": 18,
+      "pack-0468344a65599a6c7b7618c31ec7f36f64836345": 815,
+      "pack-086b47066f41671e835ae463c8037acbabedb415": 2950,
+      "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5": 1671,
+      "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0": 66,
+      "pack-1ad8b802354908880c6c208e7517fae033ff2a16": 1821,
+      "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb": 2,
+      "pack-272fb272986d6212ef30c01377e464af3d3bb318": 40,
+      "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd": 90283,
+      "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de": 16858,
+      "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463": 927,
+      "pack-5392032bc3c5631d8f52217ec406bf597a281b0c": 586,
+      "pack-54c9604895d20ebd3d60fe9d9246d0fb7832fd4b": 27,
+      "pack-55f54db9ee6a47173994f1e99594ef609a535a75": 1,
+      "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2": 769,
+      "pack-76b715dc869afd97aee5bdc32807aa6364a875ed": 4,
+      "pack-7eda0e69e2f2aab843873328cf12250e36478139": 40,
+      "pack-998c0282ec4b827b60ca8d9fa82eb35eab1d9355": 18,
+      "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5": 1,
+      "pack-9d5ff02d81fbebba0921f7d00bed317375405e74": 1,
+      "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2": 37,
+      "pack-ed0f40e1ce8e8145d498703f89ed2407fa08a537": 1770,
+      "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4": 1416
+    },
+    "sha256": "0721d93b81b0bc0993fedbf0e99e1d76ccdd4914dda7b122ccb06b4a2d06afa7"
+  },
+  "current_midx_all_owner_oid_offsets_independently_checked": true,
+  "current_selected_owner_counts_equal_root_preexpire_counts": true,
+  "frozen_reader_sha256": "db3b33fd4426aef7c5c158fb3c1f494a367f4b70f45d9b15f80c266f623817be",
+  "git_mutations": false,
+  "git_subprocess_calls": 0,
+  "indexed": {
+    "count": 120121,
+    "sorted_hex_lf_sha256": "824bc895a46912459aa1a42ed5030f24458c86161e07b21b7884e34663a1b3fe",
+    "sorted_raw_sha256": "61e809f1d8b4d335ee3cc3a5033d8e5bb927121253bd5889100d0cd88b70b06f"
+  },
+  "input_sha256": {
+    "binding": "fbb5ae06d13ce7dec28b6771fd1c425ac4b76ab681c0fc6991630cebafcf7a70",
+    "payload": "8bdea818a0156aa955a10218e92ac0b3853804ca807d1efe3f5b545c657cdc7a",
+    "preflight": "ddb7a2e82f55f7b86f11cef2eb7cd4e6d7314e198ae3fee2580ef9fc1977068d",
+    "root_observed": "c3e96e17f5b9ec807b573105f5ff76a88b72b6f948bfa09f6a7a5116b72c4b1e",
+    "root_report": "300bb6762758c9ff03ef872540aa1a59aafd4af529b84c14f553eb8f06062bb0",
+    "root_script": "1f82bf0328f46b570831c8a0046d6cacc8e1fc3ec4df680ef203f857b96be34f"
+  },
+  "limitations": [
+    "Historical pre-expiry zero-owner and subprocess execution are bound to the reviewed root source and root execution report; the past MIDX was not independently observed by this postcheck.",
+    "Index checksums, OID sets and offsets, metadata and current MIDX were checked; pack payloads were not decoded or hashed.",
+    "Original pack mtime_ns is independently checked against the preflight. Original atime was not frozen by this reviewer and is not certified here."
+  ],
+  "loose_payload_reads": false,
+  "network_calls": 0,
+  "new_full_oid_snapshot_created": false,
+  "new_pack_name_exact": "pack-54c9604895d20ebd3d60fe9d9246d0fb7832fd4b",
+  "ordinary": {
+    "count": 1708,
+    "sorted_hex_lf_sha256": "daf51bae5f61fbf6cd26a9a0016f403bf839f67ebabc33bbb63abda43a871d45",
+    "sorted_raw_sha256": "0f35460491d65996020f0ac42d071ff09bbb22cdfd42277d18d128f4542d47cd"
+  },
+  "ordinary_promisor_intersection": 0,
+  "original_loose_oid_set_exactly_unchanged": true,
+  "original_retained_pack_inodes_sizes_and_mtimes_unchanged": true,
+  "original_target_files_all_absent": true,
+  "pack_byte_reduction": 664937148,
+  "pack_bytes": 5290124822,
+  "pack_count": 23,
+  "pack_payload_reads": false,
+  "promisor": {
+    "count": 118413,
+    "sorted_hex_lf_sha256": "ce6673707592384ffbfb345bb51881648308cbffdccb9d50712e46054927fe23",
+    "sorted_raw_sha256": "5ef09161ea4f1cdf43f28508aa9d11c729ef7379a7181f37c62709359add4087"
+  },
+  "read_interval_stable": true,
+  "reconstruction": "Unchanged retained indices plus frozen removed-target OIDs and frozen loose filenames; actual set equality, not only copied root summaries.",
+  "refs_and_heads_raw_files_exactly_unchanged": true,
+  "refs_and_heads_sha256": "a2f8092c9ccf6a2ebfa53fd0cc38c818571ca8f21c50752ef4cc71f6da723dcf",
+  "removed_pack_names_exact": [
+    "pack-d44586219587f80e0b96f6485973557d6a009d35"
+  ],
+  "rescue_exactly_equals_frozen_same_partition_missing": true,
+  "rescue_idx_sha256": "76c3bd6faac36c72b3567565d6850f0d27de133c1a517dca904eb6a0af8fbaee",
+  "rescue_oid_count": 27,
+  "rescue_pack_bytes": 414447,
+  "retained_original_pack_mtime_ns_exactly_restored_count": 22,
+  "reviewer": "/root/independent_geometry",
+  "script_sha256": "4cce82eb43600ca1b5484f9aa58eeb91a2a85f543a9aaf278e103e2a05857975",
+  "status": "PASS_INDEPENDENT_READ_ONLY_MAINTENANCE18_POSTCHECK"
+}

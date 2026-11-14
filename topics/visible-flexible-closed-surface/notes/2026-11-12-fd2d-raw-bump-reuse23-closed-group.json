@@ -1,0 +1,77 @@
+{
+  "schema": "fd2d-closed-numerical-chain-v1",
+  "closed": true,
+  "actual_tool_returncode": 130,
+  "owner_stop_only_after_complete_accepted": true,
+  "child_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "accepted_steps": 4,
+  "finite_success": false,
+  "strong_target_complete": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-actual-tool-exit.json",
+      "bytes": 828,
+      "sha256": "7899de415d14904ba37309d0655efbd719c76ef399963e4c85d1ebc7047178b2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-cache-switch-owner-request.json",
+      "bytes": 743,
+      "sha256": "4faaaabd63ec72f016a6a03e93d40b7912f4a761d52ca6fbac92bcae244e1563"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-chain-report.json",
+      "bytes": 82719,
+      "sha256": "3f35d3acb1da2da1941718be8bd1ad498ea5cb42ab0bcbd45a00320152b89185"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-closed-group.json",
+      "bytes": 1744,
+      "sha256": "3994f502564aad00df4fcedaa6acf33f4e9cdadfea07f076f7946b7fbb16073f"
+    }
+  ],
+  "closed_child_manifests": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-closed-group.json",
+      "bytes": 2151,
+      "sha256": "31f063bdde1b1159942417a6f1bf8ce0b8a0230da0edc6ebd6f9a95d9433a8b1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-closed-group.json",
+      "bytes": 2145,
+      "sha256": "d7fa958d82928eb64a63a2ef2b94671caa42373cc092c2335317fc310022de99"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-closed-group.json",
+      "bytes": 2144,
+      "sha256": "3a317d76b59766d4f82ff4a640f2522d269dc022f20d5924cfebd50ca9b19f1c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-closed-group.json",
+      "bytes": 1744,
+      "sha256": "3994f502564aad00df4fcedaa6acf33f4e9cdadfea07f076f7946b7fbb16073f"
+    }
+  ],
+  "inherited_static_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-static-manifest.json",
+    "bytes": 913,
+    "sha256": "6ef509a42c8bd6ebec422aa6aca550a2995a1ed497bd2641e3298e596c6780be"
+  },
+  "latest_complete_accepted": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "summary": {
+    "residual_maximum": 0.6477790815996668,
+    "full_gauss_node_maximum": 1.7152215043339183,
+    "formal_curvature_node_maximum": 7.2138910505657545,
+    "gap": 0.8999995792468163,
+    "all_G2_G": 2.109997713562084,
+    "high_C": 0.7063658659287105
+  }
+}

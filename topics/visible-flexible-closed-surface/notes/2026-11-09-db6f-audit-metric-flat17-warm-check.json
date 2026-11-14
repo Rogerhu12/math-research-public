@@ -1,0 +1,25 @@
+{
+  "scope": "Coefficient-first metric residual bounds for a shared-jet Fourier map.\n\nInput target packets enclose the SAME analytic a(s), e(s), e'(s), on each\nlisted interval, in the local variable u=(s-left)/(right-left). Interval\npower coefficients and uniform remainder bounds are allowed. This backend\ndoes not establish the supplier's analytic enclosures. It never imports\nthe nonlinear solver, and subtracts coefficients before taking norms.\n",
+  "geometry_sha256": "94385c7a283ac51f4f4229df0107b2b632c3d4d68e2778f7efa9d255d310b54b",
+  "geometry_data_sha256": "9bf21bb5aa0a2d5623ed1dbf4a0136707bc8f76dad7b1fc6c208befc447dafdf",
+  "target_sha256": "94c3503da9d4dc69ef06d22d68e5ac091446947358c5d59bf1628d51666f4d1d",
+  "target_data_sha256": "54f3f26523e7412db3e1e1ac302dfafc4873b5a76655049be01f2d6e25a5aa8e",
+  "script_sha256": "12fff53fb7764dc911fd97b935b77a85b1ee0a370d742dc507a760453ccbf2d0",
+  "backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "supplier_claim": "Flat-ramp a(s): exact rational formulas in the saved binary main parameters; Tu,Td recomputed by Fraction. The clamped angular spline is solved exactly over Fraction and multiplied by the prescribed quintic cutoff. The bridge has frozen binary L,pt,ps but uses the true sine integral. Every bridge span uses a fifth-order Taylor enclosure around its exact midpoint phase, followed by integration and an explicitly bounded degree-eight truncation. The radius endpoint is not asserted to satisfy the exact bridge matching equation.",
+  "target_supplier_independently_verified": false,
+  "complete_closed_surface": false,
+  "intervals": 856,
+  "metric_operator_upper": 680.1162396223835,
+  "coordinate_residual_upper": [
+    678.7445874576083,
+    1.1954093274382898,
+    5.2026981568739224e-08
+  ],
+  "minimum_a_lower": 0.5999796654962116,
+  "minimum_chart_rho_lower": 0.1999999964152772,
+  "worst_interval": 684,
+  "intervals_checked": 856,
+  "entire_prefix_covered": true,
+  "seconds": 7.847258350999255
+}

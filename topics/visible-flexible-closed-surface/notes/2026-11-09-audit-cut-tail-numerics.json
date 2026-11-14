@@ -1,0 +1,155 @@
+{
+  "scope": "Independent cap/warp reconstruction and adaptive physical-height linear audit.\nConsumes exported raw source coefficients, not the author's warped functions or\nRK propagator. Numerical estimates only; no interval or nonlinear certificate.\n",
+  "input_sha256": "b8679ae334a6eaa1fe8a11754e08f119c8dc576feafd738302711bed0b8d725b",
+  "audited_scripts_sha256": {
+    "root_cut_preserving_tail.mjs": "c76f81a14c71ca6ca360c774b0b6e65c4082ada29519620949eb6ef436f3c8e1",
+    "root_cut_tail_linear.mjs": "29bc8232abd880516b5044325285d01cff05ef0c83140c3c8b2919439be0869d"
+  },
+  "stats": {
+    "alpha": 71.92861702899884,
+    "minimumWarpWidth": 0.14866993535892076,
+    "heightSpan": 0.021628808248546225,
+    "meridianLength": 0.3529172290121697,
+    "cutRadius": 0.6000000000000001,
+    "rootStatDifferences": {
+      "alpha": -7.247535904753022e-13,
+      "minimumWarpWidth": 1.6930901125533637e-15,
+      "heightSpan": 2.42861286636753e-17,
+      "meridianLength": 1.1102230246251565e-16
+    }
+  },
+  "geometry": {
+    "reconstructionMaxAbsoluteDifferences": {
+      "r": 7.771561172376096e-16,
+      "drdx": 3.2612801348363973e-16,
+      "logw": 2.842170943040401e-14,
+      "dlogwdx": 2.4868995751603507e-14
+    },
+    "maximumInterfaceJump": {
+      "r": 0.0,
+      "w": 4.440892098500626e-16,
+      "w_r": 3.3306690738754696e-16
+    },
+    "cut": {
+      "r": 0.6000000000000001,
+      "w": 0.5000000000000004,
+      "w_r": -5.833333333333338,
+      "expected_w_r": -5.833333333333334
+    },
+    "deep": {
+      "r": 0.25,
+      "w": 3.20928148794184e-67,
+      "drdx": 4.606978168062024e-41
+    },
+    "meridianCurvatureOptimizedEstimate": 5.999877714096588,
+    "meridianCurvatureWhere": [
+      15,
+      3,
+      0.12858495095147895
+    ],
+    "slopeSampleMax": 0.5003118384551579,
+    "azimuthalCurvatureUpperFromSampleW": 1.7897467487432113
+  },
+  "rows": [
+    {
+      "mode": 2,
+      "far": 24,
+      "solver": "DOP853",
+      "rtol": 2e-11,
+      "cutSlope": 5.676917017083451,
+      "logHeightGain": 263.54519144471664,
+      "radialODESegmentError": 1.0839074082724665e-10,
+      "nfev": 110991,
+      "linearTThresholdSample": 4.107734467100478e-06,
+      "linearTThresholdOptimizedEstimate": 4.10773082409189e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500909182749,
+        "r": 0.3833356227630546,
+        "w": 2.4078230986324634e-05,
+        "f": 0.002849387133927503,
+        "fr": -5.83195410513844,
+        "baseT": 9.230043664824211e-06,
+        "linearT": -2.246993306058395
+      },
+      "normalizedHeightMaxSample": 0.9999999999999711,
+      "normalizedDerivativeMaxSample": 19.224670835988853
+    },
+    {
+      "mode": 2,
+      "far": 32,
+      "solver": "DOP853",
+      "rtol": 2e-11,
+      "cutSlope": 5.676917017083451,
+      "logHeightGain": 367.1575629044831,
+      "radialODESegmentError": 1.0839074082724665e-10,
+      "nfev": 156630,
+      "linearTThresholdSample": 4.107734467100478e-06,
+      "linearTThresholdOptimizedEstimate": 4.10773082409189e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500909182749,
+        "r": 0.3833356227630546,
+        "w": 2.4078230986324634e-05,
+        "f": 0.002849387133927503,
+        "fr": -5.83195410513844,
+        "baseT": 9.230043664824211e-06,
+        "linearT": -2.246993306058395
+      },
+      "normalizedHeightMaxSample": 0.9999999999999711,
+      "normalizedDerivativeMaxSample": 19.224670835988853
+    },
+    {
+      "mode": 2,
+      "far": 48,
+      "solver": "DOP853",
+      "rtol": 2e-11,
+      "cutSlope": 5.676917017083451,
+      "logHeightGain": 781.5930314333673,
+      "radialODESegmentError": 1.0839074082724665e-10,
+      "nfev": 283581,
+      "linearTThresholdSample": 4.107734467100242e-06,
+      "linearTThresholdOptimizedEstimate": 4.10773082409166e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500390579366,
+        "r": 0.3833356227343957,
+        "w": 2.4078230989911242e-05,
+        "f": 0.0028493873010651226,
+        "fr": -5.831954104265648,
+        "baseT": 9.23004366550903e-06,
+        "linearT": -2.2469933062252356
+      },
+      "normalizedHeightMaxSample": 1.0000000000000282,
+      "normalizedDerivativeMaxSample": 19.224670835991038
+    },
+    {
+      "mode": 2,
+      "far": 80,
+      "solver": "DOP853",
+      "rtol": 2e-11,
+      "cutSlope": 5.676917017083451,
+      "logHeightGain": 943.9069970004366,
+      "radialODESegmentError": 1.0839074082724665e-10,
+      "nfev": 375228,
+      "linearTThresholdSample": 4.107734467100242e-06,
+      "linearTThresholdOptimizedEstimate": 4.10773082409166e-06,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9973500390579366,
+        "r": 0.3833356227343957,
+        "w": 2.4078230989911242e-05,
+        "f": 0.0028493873010651226,
+        "fr": -5.831954104265648,
+        "baseT": 9.23004366550903e-06,
+        "linearT": -2.2469933062252356
+      },
+      "normalizedHeightMaxSample": 1.0000000000000282,
+      "normalizedDerivativeMaxSample": 19.224670835991038
+    }
+  ]
+}

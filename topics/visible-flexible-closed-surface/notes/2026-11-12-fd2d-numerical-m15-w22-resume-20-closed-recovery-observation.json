@@ -1,0 +1,153 @@
+{
+  "scope": "Owner closed old route after root actual Phi route met the basic requirements; no new height or successful DN is claimed",
+  "base": {
+    "file": "notes/2026-11-12-fd2d-numerical-m15-w22-resume-20-complete-J-recovery.json.gz",
+    "bytes": 754957,
+    "sha256": "e202654d8fa8cd701dcbf68e2fe3326da2e0b940d1df936e0e4ca661f4a893fb"
+  },
+  "trial": {
+    "file": "notes/2026-11-12-fd2d-numerical-m15-w22-resume-20-complete-unaccepted-trial.json.gz",
+    "bytes": 755533,
+    "sha256": "c5970d02e554b4308e4e09806dac4fa62e4823c3d4ec0ca501248f6cb6acad86",
+    "accepted": false
+  },
+  "selectedActualTrace": [
+    {
+      "time": "2026-11-12T05:08:00.079Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_start",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "9d35bcdd6555a5437a5bb454e53da45f72e26aedccc32e6ef3a7a63208244962",
+      "inputHash": "42e7edeab838b09d945b758b84915f0faf7a2259e276d0b36d574f2dea42ee14",
+      "withJac": true,
+      "count": 1728,
+      "loadedStages": 1056,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/9d35bcdd6555a5437a5bb454e53da45f72e26aedccc32e6ef3a7a63208244962"
+    },
+    {
+      "time": "2026-11-12T05:11:51.069Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_complete",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "9d35bcdd6555a5437a5bb454e53da45f72e26aedccc32e6ef3a7a63208244962",
+      "inputHash": "42e7edeab838b09d945b758b84915f0faf7a2259e276d0b36d574f2dea42ee14",
+      "withJac": true,
+      "count": 1728,
+      "loadedStages": 1056,
+      "newlySavedStages": 672,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/9d35bcdd6555a5437a5bb454e53da45f72e26aedccc32e6ef3a7a63208244962"
+    },
+    {
+      "time": "2026-11-12T05:11:52.363Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 236350,
+      "iteration": 0,
+      "norm": 0.000007565301707732489,
+      "minA": 0.404314682807461,
+      "minD": 0.9932495875768007,
+      "worst": {
+        "stage": 84,
+        "component": 43,
+        "absolute": 8.66973897187262e-12,
+        "scale": 0.0000011459872066980867,
+        "normalized": 0.000007565301707732489,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      },
+      "rhsRootStatistics": {
+        "evaluations": 44,
+        "roundoffFallbacks": 0,
+        "maximumRootRelativeResidual": 6.193461147236695e-17,
+        "parallel": {
+          "evaluations": 43088,
+          "roundoffFallbacks": 0,
+          "maximumRootRelativeResidual": 7.904392144795954e-14,
+          "scope": "Actual cumulative work in this request pool, including already dispatched later stages after an earlier failure."
+        },
+        "scope": "Existing parent-engine counters and actual request-pool counters; no extra root or flow."
+      },
+      "hostMemory": {
+        "rss": 471515136,
+        "heapTotal": 112513024,
+        "heapUsed": 106228264,
+        "external": 59093216,
+        "arrayBuffers": 81720783
+      }
+    },
+    {
+      "time": "2026-11-12T05:11:54.455Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 238442,
+      "iteration": 0,
+      "norm": 0.000007565301707732489,
+      "minA": 0.404314682807461,
+      "minD": 0.9932495875768007,
+      "chartCondition": 240614.33305249247,
+      "phase": "correction",
+      "worst": {
+        "stage": 84,
+        "component": 43,
+        "absolute": 8.66973897187262e-12,
+        "scale": 0.0000011459872066980867,
+        "normalized": 0.000007565301707732489,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      },
+      "rhsRootStatistics": {
+        "evaluations": 44,
+        "roundoffFallbacks": 0,
+        "maximumRootRelativeResidual": 6.193461147236695e-17,
+        "parallel": {
+          "evaluations": 43088,
+          "roundoffFallbacks": 0,
+          "maximumRootRelativeResidual": 7.904392144795954e-14,
+          "scope": "Actual cumulative work in this request pool, including already dispatched later stages after an earlier failure."
+        },
+        "scope": "Existing parent-engine counters and actual request-pool counters; no extra root or flow."
+      },
+      "hostMemory": {
+        "rss": 471601152,
+        "heapTotal": 126144512,
+        "heapUsed": 111239720,
+        "external": 79012925,
+        "arrayBuffers": 101640639
+      }
+    },
+    {
+      "time": "2026-11-12T05:12:10.418Z",
+      "event": "geometric_trial_cache_saved",
+      "context": "feb7575a924b544c77a52f0b14954f1cb2e2ba6dbe570509b2da522ba855f55c",
+      "key": "345ebcc4c872e3f4aa18edbe0f9a2c80fba84c96ad0828e639fd2b4c5bbacef5",
+      "stateHash": "2a6bf2438f5d654142d78de5be6cfb1885d1289a9f60f5ba25e32bb751608b77",
+      "deltaHash": "e08848ef49fda6af77599fb0af2b62a7a6b91fd85946ee9aaca8f0e218649900",
+      "lambda": 1,
+      "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/geometric-trials/345ebcc4c872e3f4aa18edbe0f9a2c80fba84c96ad0828e639fd2b4c5bbacef5.v8.gz",
+      "bytes": 598578,
+      "sha256": "13ad76aa4119fb71279b040c917a9fe5013955013423fc2d3f1fc7b23327ac73",
+      "scope": "Complete construction only; not accepted.",
+      "hostMemory": {
+        "rss": 564371456,
+        "heapTotal": 208719872,
+        "heapUsed": 195891704,
+        "external": 68244312,
+        "arrayBuffers": 90262857
+      }
+    },
+    {
+      "time": "2026-11-12T05:12:10.433Z",
+      "call": 1,
+      "event": "stage_cache_evaluation_start",
+      "context": "365129aaa13944659ed3b55a21ac4726ccbe2a28d94fc003e6b0af63f6aa0e04",
+      "key": "dad25832b1b69e9a1239c3d8e2ddf93afb9a6cbc18409c46df7bf2c33cd5fe09",
+      "inputHash": "ea464a4987e9b0f3d4b8d0f37f94fa44fb12160a130f7b7591f8fa9955e9437f",
+      "withJac": false,
+      "count": 1728,
+      "loadedStages": 0,
+      "directory": "/workspace/scratch/fd2dbfd2c83e/visible-flex-stage-cache/dad25832b1b69e9a1239c3d8e2ddf93afb9a6cbc18409c46df7bf2c33cd5fe09"
+    }
+  ]
+}

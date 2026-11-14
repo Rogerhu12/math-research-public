@@ -1,0 +1,47 @@
+{
+  "status": "PASS_CLOSED_CALL15_RESUME03_SOURCE_INTERFACE_ONLY",
+  "resume_response": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0015.json.gz",
+  "resume_response_sha256": "e6ef3389c839be9f793a11d875d99c616c207acc58b680efc0bda2c005e55c1f",
+  "resume_scale": 0.96875,
+  "next_requested_scale": 0.984375,
+  "initial_step": 0.015625,
+  "original_tolerance": 2e-09,
+  "original_maxIterations": 36,
+  "residual": 6.367950627222893e-10,
+  "converged": true,
+  "audited": false,
+  "jacobian_requested": false,
+  "checkpoint_shape": [
+    865,
+    30
+  ],
+  "raw_checkpoint_shape": [
+    13,
+    30
+  ],
+  "history_base_evaluations": 7,
+  "physical_H_matches_original_NumPy_rule": true,
+  "typed_configuration_identical_except_five_IO": true,
+  "prior_launch_bindings_verified": 66,
+  "closed_call15_bindings_verified": 8,
+  "interruption_bindings_verified": 9,
+  "actual_response_sources_verified": 8,
+  "interruption_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume02-observed-execution.json",
+  "interruption_sha256": "5cda4dd0fd47dd002b4c57fc648152a6307de27b9a67d5ae00090c9eab8e496e",
+  "old_actual_tool_exit_code": 1,
+  "old_child_exit_code": null,
+  "old_worker_exit_code": null,
+  "call16_numerical_failure_asserted": false,
+  "interrupted_iteration_used_as_warm": false,
+  "changed_argv_options": [
+    "--out-prefix",
+    "--initial-step",
+    "--resume-checkpoint",
+    "--resume-scale"
+  ],
+  "unchanged_controller": true,
+  "unchanged_client": true,
+  "future_target_and_final_audit_not_asserted": true,
+  "solver_launches": 0,
+  "scope": "Only an original converged s=31/32 finite warm is accepted. Resume03 has its own identity. Exact s=1 plus original Jacobian/source audit and real exit must occur later; prefix remains unsolved."
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "Replay a saved actual DN state with diagnostic-only line-search recording.\n\nThis performs no prefix BVP. Output remains a failed/unconverged response\nunless the unchanged shooting equations actually meet their original tol.\nThe max-iteration budget, recovery input and recording paths are the only\nconfiguration changes from the input config.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-run.py",
+    "--source-root",
+    "topics/visible-flexible-closed-surface/repro/source-root",
+    "--config",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-config.json",
+    "--checkpoint",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz",
+    "--out-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02",
+    "--max-iterations",
+    "2",
+    "--node-heap",
+    "1536"
+  ],
+  "script_sha256": "acf6d249aa07cb093b41406506b3df80e04ff7a6a81ef3b753755c0bb536c320",
+  "client_sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+  "input_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-config.json",
+  "input_config_sha256": "297ab20791f4d5972e92a113dd783ec6f997d62f7fabe1c8f0b93569e92def94",
+  "input_checkpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz",
+  "input_checkpoint_sha256": "917997970cf389d1ec682eb6a51caea494c3f651ef4bb6bee05366f51386ad10",
+  "input_checkpoint_scope": "FAILED Newton state; retained only for diagnosis and possible initial guesses.",
+  "source_map": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-trial-diagnostic-source-map.json",
+  "source_map_sha256": "17dbd71341f82bf7605e743288f3a42526fd0f14a94d8eff9350c336ba1135b9",
+  "diagnostic_config": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-config.json",
+  "diagnostic_config_sha256": "ce5d00cb72d00fb3161c7224d626ad1417e1ee92e4bc6cfbd9717c4935c2fb7b",
+  "overrides": {
+    "initialCheckpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz",
+    "maxIterations": 2,
+    "traceFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-trace.jsonl",
+    "iterationCheckpointFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-iteration.json.gz",
+    "trialDiagnosticFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-trials.jsonl",
+    "trialStatePrefix": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-trial-replay-02-stage-input"
+  },
+  "original_projection_floor": 0.05,
+  "request": {
+    "jacobian": true,
+    "audit": false
+  },
+  "independent_static_review": "Root read all four shared-to-trial source diffs and found no change to RK/Jacobian/evaluation, trial steps, guard or strict norm-decrease acceptance. This is a source review, not a numerical result."
+}

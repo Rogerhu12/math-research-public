@@ -1,0 +1,975 @@
+{
+  "scope": "Decompose the saved collocation residual by Fourier unknown.\n\nReconstructs the original cubic collocation interpolant from saved nodes\nand the original RHS, then evaluates the same five-point Lobatto norm.\nAn optional m-squared scaling is evaluated diagnostically; no BVP is solved\nand no conclusion about the effect of such scaling is assumed.\n",
+  "checkpoint": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+  "checkpoint_sha256": "dbe7272d4768a0630020aecaea3787367272f91dc64e43748cb073070d956e3b",
+  "script_sha256": "78a89288412f4dca01aaa3e49bf489f08137f13cd88a2a0eb067d80d6f2eea70",
+  "saved_reported_rms": 1.997899817185576e-09,
+  "nodes": 2633,
+  "modes": 14,
+  "angular": 512,
+  "hypothetical_weights": "1+(3j)^2 on each nonmean cylindrical mode, R0 weight 1",
+  "totals": {
+    "original": {
+      "maximum": 1.9978998171855266e-09,
+      "physical_interval": [
+        0.0707621563286909,
+        0.07202576626313181
+      ]
+    },
+    "m_squared_unknown_scaling": {
+      "maximum": 4.012117116596492e-07,
+      "physical_interval": [
+        0.2122864689860727,
+        0.2135500789205136
+      ]
+    }
+  },
+  "component_rows": [
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 14,
+      "axis": "R",
+      "frequency": 42,
+      "maximum_rms": 3.792589760419936e-07,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 13,
+      "axis": "R",
+      "frequency": 39,
+      "maximum_rms": 1.2370098471228533e-07,
+      "physical_interval": [
+        0.2122864689860727,
+        0.2135500789205136
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 42,
+      "axis": "Z",
+      "frequency": 42,
+      "maximum_rms": 5.721748119921606e-08,
+      "physical_interval": [
+        0.29821194452805444,
+        0.2994755544624954
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 2,
+      "axis": "R",
+      "frequency": 6,
+      "maximum_rms": 4.414903586529567e-08,
+      "physical_interval": [
+        0.9477074508306815,
+        0.9489710607651225
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 12,
+      "axis": "R",
+      "frequency": 36,
+      "maximum_rms": 3.887227165969585e-08,
+      "physical_interval": [
+        0.21102285905163176,
+        0.2122864689860727
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 1,
+      "axis": "R",
+      "frequency": 3,
+      "maximum_rms": 1.8918997116748756e-08,
+      "physical_interval": [
+        0.0,
+        5.265041393503788e-05
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 30,
+      "axis": "Z",
+      "frequency": 6,
+      "maximum_rms": 1.6491273397752927e-08,
+      "physical_interval": [
+        1.9143690506779771,
+        1.9156326606124179
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 3,
+      "axis": "R",
+      "frequency": 9,
+      "maximum_rms": 1.5055198783500485e-08,
+      "physical_interval": [
+        0.05812605698428181,
+        0.059389666918722724
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 29,
+      "axis": "Z",
+      "frequency": 3,
+      "maximum_rms": 1.4394272035910593e-08,
+      "physical_interval": [
+        1.3738599012208783,
+        1.3741758037044884
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 4,
+      "axis": "R",
+      "frequency": 12,
+      "maximum_rms": 1.3739576697013512e-08,
+      "physical_interval": [
+        0.05812605698428181,
+        0.059389666918722724
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 11,
+      "axis": "R",
+      "frequency": 33,
+      "maximum_rms": 1.1924534521987865e-08,
+      "physical_interval": [
+        0.2097592491171909,
+        0.21102285905163176
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 5,
+      "axis": "R",
+      "frequency": 15,
+      "maximum_rms": 1.0253305575557608e-08,
+      "physical_interval": [
+        0.055598837115399986,
+        0.0568624470498409
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 28,
+      "axis": "T",
+      "frequency": 42,
+      "maximum_rms": 9.111906880655348e-09,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 17,
+      "axis": "T",
+      "frequency": 9,
+      "maximum_rms": 7.966199723950135e-09,
+      "physical_interval": [
+        0.0707621563286909,
+        0.07202576626313181
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 6,
+      "axis": "R",
+      "frequency": 18,
+      "maximum_rms": 7.565297872583379e-09,
+      "physical_interval": [
+        0.05433522718095908,
+        0.055598837115399986
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 41,
+      "axis": "Z",
+      "frequency": 39,
+      "maximum_rms": 7.210876736244011e-09,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 15,
+      "axis": "T",
+      "frequency": 3,
+      "maximum_rms": 6.2463388007402636e-09,
+      "physical_interval": [
+        0.000421203311480303,
+        0.0005265041393503787
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 7,
+      "axis": "R",
+      "frequency": 21,
+      "maximum_rms": 5.287526124365564e-09,
+      "physical_interval": [
+        0.05433522718095908,
+        0.055598837115399986
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 31,
+      "axis": "Z",
+      "frequency": 9,
+      "maximum_rms": 3.9875448665106735e-09,
+      "physical_interval": [
+        1.1043950827013544,
+        1.1056586926357952
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 10,
+      "axis": "R",
+      "frequency": 30,
+      "maximum_rms": 3.882696019330995e-09,
+      "physical_interval": [
+        0.1579512418051136,
+        0.15921485173955452
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 8,
+      "axis": "R",
+      "frequency": 24,
+      "maximum_rms": 3.524810301869719e-09,
+      "physical_interval": [
+        0.053071617246518175,
+        0.05433522718095908
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 27,
+      "axis": "T",
+      "frequency": 39,
+      "maximum_rms": 3.3994561459839965e-09,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 9,
+      "axis": "R",
+      "frequency": 27,
+      "maximum_rms": 2.187256162398573e-09,
+      "physical_interval": [
+        0.05054439737763635,
+        0.05180800731207727
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 40,
+      "axis": "Z",
+      "frequency": 36,
+      "maximum_rms": 2.126234985797841e-09,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 0,
+      "axis": "R0",
+      "frequency": 0,
+      "maximum_rms": 1.4109020268318494e-09,
+      "physical_interval": [
+        0.7986014785666544,
+        0.7998650885010953
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 26,
+      "axis": "T",
+      "frequency": 36,
+      "maximum_rms": 1.3899765196904632e-09,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 16,
+      "axis": "T",
+      "frequency": 6,
+      "maximum_rms": 8.3005980917609e-10,
+      "physical_interval": [
+        1.9143690506779771,
+        1.9156326606124179
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 39,
+      "axis": "Z",
+      "frequency": 33,
+      "maximum_rms": 6.39752524016002e-10,
+      "physical_interval": [
+        0.3007391643969363,
+        0.30200277433137723
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 32,
+      "axis": "Z",
+      "frequency": 12,
+      "maximum_rms": 5.400449499086475e-10,
+      "physical_interval": [
+        1.1031314727669135,
+        1.1043950827013544
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 25,
+      "axis": "T",
+      "frequency": 33,
+      "maximum_rms": 5.337857376812811e-10,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 19,
+      "axis": "T",
+      "frequency": 15,
+      "maximum_rms": 2.9312437780234964e-10,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 18,
+      "axis": "T",
+      "frequency": 12,
+      "maximum_rms": 2.0215261189292248e-10,
+      "physical_interval": [
+        1.0753320542092133,
+        1.0765956641436543
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 38,
+      "axis": "Z",
+      "frequency": 30,
+      "maximum_rms": 1.9462061865982823e-10,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 24,
+      "axis": "T",
+      "frequency": 30,
+      "maximum_rms": 1.9243477393659573e-10,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 33,
+      "axis": "Z",
+      "frequency": 15,
+      "maximum_rms": 1.3577559326589912e-10,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 34,
+      "axis": "Z",
+      "frequency": 18,
+      "maximum_rms": 9.962192331553151e-11,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 37,
+      "axis": "Z",
+      "frequency": 27,
+      "maximum_rms": 6.37684774257816e-11,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 23,
+      "axis": "T",
+      "frequency": 27,
+      "maximum_rms": 6.205210256372595e-11,
+      "physical_interval": [
+        0.18954149016613636,
+        0.19080510010057722
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 20,
+      "axis": "T",
+      "frequency": 18,
+      "maximum_rms": 5.821439912188566e-11,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 35,
+      "axis": "Z",
+      "frequency": 21,
+      "maximum_rms": 5.813320491735895e-11,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 36,
+      "axis": "Z",
+      "frequency": 24,
+      "maximum_rms": 4.7424925590154304e-11,
+      "physical_interval": [
+        0.2148136888549545,
+        0.2160772987893954
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 21,
+      "axis": "T",
+      "frequency": 21,
+      "maximum_rms": 3.9888293304544916e-11,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "m_squared_unknown_scaling",
+      "component": 22,
+      "axis": "T",
+      "frequency": 24,
+      "maximum_rms": 3.049833756730747e-11,
+      "physical_interval": [
+        0.1604784616739954,
+        0.16174207160843634
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 29,
+      "axis": "Z",
+      "frequency": 3,
+      "maximum_rms": 1.897437088258141e-09,
+      "physical_interval": [
+        1.8132802559227041,
+        1.814543865857145
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 1,
+      "axis": "R",
+      "frequency": 3,
+      "maximum_rms": 1.8918997439084327e-09,
+      "physical_interval": [
+        0.0,
+        5.265041393503788e-05
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 0,
+      "axis": "R0",
+      "frequency": 0,
+      "maximum_rms": 1.4109020268318494e-09,
+      "physical_interval": [
+        0.7986014785666544,
+        0.7998650885010953
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 2,
+      "axis": "R",
+      "frequency": 6,
+      "maximum_rms": 1.3890899854230678e-09,
+      "physical_interval": [
+        0.7986014785666544,
+        0.7998650885010953
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 15,
+      "axis": "T",
+      "frequency": 3,
+      "maximum_rms": 8.282010618663843e-10,
+      "physical_interval": [
+        0.7213106709100189,
+        0.7215212725657589
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 30,
+      "axis": "Z",
+      "frequency": 6,
+      "maximum_rms": 4.784531712856252e-10,
+      "physical_interval": [
+        1.9143690506779771,
+        1.9156326606124179
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 17,
+      "axis": "T",
+      "frequency": 9,
+      "maximum_rms": 3.535048506927268e-10,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 14,
+      "axis": "R",
+      "frequency": 42,
+      "maximum_rms": 2.1506110065680229e-10,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 3,
+      "axis": "R",
+      "frequency": 9,
+      "maximum_rms": 1.9648949338520782e-10,
+      "physical_interval": [
+        0.05812605698428181,
+        0.059389666918722724
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 4,
+      "axis": "R",
+      "frequency": 12,
+      "maximum_rms": 9.884829005423686e-11,
+      "physical_interval": [
+        0.05812605698428181,
+        0.059389666918722724
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 13,
+      "axis": "R",
+      "frequency": 39,
+      "maximum_rms": 8.132402665131219e-11,
+      "physical_interval": [
+        0.2122864689860727,
+        0.2135500789205136
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 31,
+      "axis": "Z",
+      "frequency": 9,
+      "maximum_rms": 4.949024198302102e-11,
+      "physical_interval": [
+        1.1043950827013544,
+        1.1056586926357952
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 5,
+      "axis": "R",
+      "frequency": 15,
+      "maximum_rms": 4.5559162248536364e-11,
+      "physical_interval": [
+        0.055598837115399986,
+        0.0568624470498409
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 42,
+      "axis": "Z",
+      "frequency": 42,
+      "maximum_rms": 3.2425727363262395e-11,
+      "physical_interval": [
+        0.29821194452805444,
+        0.2994755544624954
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 12,
+      "axis": "R",
+      "frequency": 36,
+      "maximum_rms": 2.99799374881803e-11,
+      "physical_interval": [
+        0.21102285905163176,
+        0.2122864689860727
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 6,
+      "axis": "R",
+      "frequency": 18,
+      "maximum_rms": 2.3357434949794738e-11,
+      "physical_interval": [
+        0.05433522718095908,
+        0.055598837115399986
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 16,
+      "axis": "T",
+      "frequency": 6,
+      "maximum_rms": 2.2522461959306756e-11,
+      "physical_interval": [
+        1.9143690506779771,
+        1.9156326606124179
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 7,
+      "axis": "R",
+      "frequency": 21,
+      "maximum_rms": 1.1991740130802314e-11,
+      "physical_interval": [
+        0.05433522718095908,
+        0.055598837115399986
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 11,
+      "axis": "R",
+      "frequency": 33,
+      "maximum_rms": 1.0945012847846587e-11,
+      "physical_interval": [
+        0.2097592491171909,
+        0.21102285905163176
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 8,
+      "axis": "R",
+      "frequency": 24,
+      "maximum_rms": 6.119401614616059e-12,
+      "physical_interval": [
+        0.053071617246518175,
+        0.05433522718095908
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 28,
+      "axis": "T",
+      "frequency": 42,
+      "maximum_rms": 5.162774016405581e-12,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 41,
+      "axis": "Z",
+      "frequency": 39,
+      "maximum_rms": 4.737828367018265e-12,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 10,
+      "axis": "R",
+      "frequency": 30,
+      "maximum_rms": 4.312755268254578e-12,
+      "physical_interval": [
+        0.1579512418051136,
+        0.15921485173955452
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 32,
+      "axis": "Z",
+      "frequency": 12,
+      "maximum_rms": 3.737134442078392e-12,
+      "physical_interval": [
+        1.1031314727669135,
+        1.1043950827013544
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 9,
+      "axis": "R",
+      "frequency": 27,
+      "maximum_rms": 3.000107790024973e-12,
+      "physical_interval": [
+        0.05054439737763635,
+        0.05180800731207727
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 27,
+      "axis": "T",
+      "frequency": 39,
+      "maximum_rms": 2.233595865752728e-12,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 40,
+      "axis": "Z",
+      "frequency": 36,
+      "maximum_rms": 1.6393591031540242e-12,
+      "physical_interval": [
+        0.30200277433137723,
+        0.30326638426581815
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 18,
+      "axis": "T",
+      "frequency": 12,
+      "maximum_rms": 1.3944997348212398e-12,
+      "physical_interval": [
+        1.0753320542092133,
+        1.0765956641436543
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 19,
+      "axis": "T",
+      "frequency": 15,
+      "maximum_rms": 1.312725758220997e-12,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 26,
+      "axis": "T",
+      "frequency": 36,
+      "maximum_rms": 1.0716992462080259e-12,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 33,
+      "axis": "Z",
+      "frequency": 15,
+      "maximum_rms": 6.008356869874926e-13,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 39,
+      "axis": "Z",
+      "frequency": 33,
+      "maximum_rms": 5.869378072176628e-13,
+      "physical_interval": [
+        0.3007391643969363,
+        0.30200277433137723
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 25,
+      "axis": "T",
+      "frequency": 33,
+      "maximum_rms": 4.897126443332401e-13,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 34,
+      "axis": "Z",
+      "frequency": 18,
+      "maximum_rms": 3.066020486289793e-13,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 38,
+      "axis": "Z",
+      "frequency": 30,
+      "maximum_rms": 2.160515426936118e-13,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 24,
+      "axis": "T",
+      "frequency": 30,
+      "maximum_rms": 2.1359141695633466e-13,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 20,
+      "axis": "T",
+      "frequency": 18,
+      "maximum_rms": 1.7913264171217458e-13,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 35,
+      "axis": "Z",
+      "frequency": 21,
+      "maximum_rms": 1.3153901449076885e-13,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 21,
+      "axis": "T",
+      "frequency": 21,
+      "maximum_rms": 9.024851246326284e-14,
+      "physical_interval": [
+        0.21986812859271815,
+        0.22113173852715903
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 37,
+      "axis": "Z",
+      "frequency": 27,
+      "maximum_rms": 8.735774424481243e-14,
+      "physical_interval": [
+        0.2135500789205136,
+        0.2148136888549545
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 23,
+      "axis": "T",
+      "frequency": 27,
+      "maximum_rms": 8.500338825344604e-14,
+      "physical_interval": [
+        0.18954149016613636,
+        0.19080510010057722
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 36,
+      "axis": "Z",
+      "frequency": 24,
+      "maximum_rms": 8.219693162934444e-14,
+      "physical_interval": [
+        0.2148136888549545,
+        0.2160772987893954
+      ]
+    },
+    {
+      "norm": "original",
+      "component": 22,
+      "axis": "T",
+      "frequency": 24,
+      "maximum_rms": 5.285675891139406e-14,
+      "physical_interval": [
+        0.1604784616739954,
+        0.16174207160843634
+      ]
+    }
+  ]
+}

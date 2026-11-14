@@ -1,0 +1,22 @@
+{
+  "status": "independent-proof-review-and-bound-pilot-rerun-pass",
+  "scope": "Frozen background polynomial supplier method and complete spans4509:4512 only; full output and consumer remain separate",
+  "reviewer": "Astra-visible-flex-db6f0b0e/root",
+  "sourceHashes": {
+    "db6f-tail-background-packet.py": "75ef3b0426f31926d2e529d18f3b57beda8bc40fdca0cf7f9c26bf33442db1b7",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "db6f_tail_interval_source_stable.py": "8d485eb6f9cead594ed22ce491d363a3916a418404f905645c7f0eec0bafdcac",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "authorReportSHA256": "70055d92005aeab8247a0b72ad648e72fc873371d3627fee6f8f89d0bb1188e6",
+  "rerunReportSHA256": "f04f0145f04b5f08eaa40d19a82e4184bc93bc5b0292d19a1d9a3890dc598fc3",
+  "reviewSHA256": "155dcb73972361a7f23c2e2ab08f903f35076c1f7fa6fc43f0cc907d40a9480c",
+  "arraysIdentical": true,
+  "rows": 9,
+  "unmetToleranceRows": 0,
+  "maximumWRem": 1.0323344027246213e-07,
+  "maximumWrRem": 0.03716911512416868,
+  "earlyVersionNotApproved": "b2470bf48321a5a87ce40e370660fa8d719197a565d67850da09964c12014e0e; inner-only derivative bound was not justified on a crossing physical box"
+}

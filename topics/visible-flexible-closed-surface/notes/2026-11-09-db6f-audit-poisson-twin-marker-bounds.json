@@ -1,0 +1,215 @@
+{
+  "status": "EXACT_CONDITIONAL_TWIN_MARKER_STRONG_GEOMETRIC_BUDGET",
+  "scope": "Disconnected compact-piece model/convex hull; not a connected closed isometric family.",
+  "source_script_sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c",
+  "sources": [
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-c3-poisson-bounds.json",
+      "bytes": 28270,
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "path": "scripts/db6f-prefix-c3-poisson-bounds.py",
+      "bytes": 5362,
+      "sha256": "6f804847b44a8395c4abb5b325ed2b83f855c056b8bbc51ed1b7768e7f46c7b9"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    }
+  ],
+  "core_parameters": {
+    "q": {
+      "numerator": "99",
+      "denominator": "100"
+    },
+    "r": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "orientation": "R27 core rotated by pi/3"
+  },
+  "source_bounds": {
+    "hmin_lower": {
+      "numerator": "327844003649",
+      "denominator": "500000000000"
+    },
+    "hmin_upper": {
+      "numerator": "40981930303",
+      "denominator": "62500000000"
+    },
+    "Delta_lower": {
+      "numerator": "53096666977",
+      "denominator": "100000000000"
+    },
+    "Delta_upper": {
+      "numerator": "530967110151",
+      "denominator": "1000000000000"
+    },
+    "diameter_lower": {
+      "numerator": "260440120871",
+      "denominator": "125000000000"
+    },
+    "diameter_upper": {
+      "numerator": "520880243903",
+      "denominator": "250000000000"
+    },
+    "H_lower": {
+      "numerator": "296663669267",
+      "denominator": "250000000000"
+    },
+    "H_upper": {
+      "numerator": "1186677994999",
+      "denominator": "1000000000000"
+    },
+    "origin_radius_equals_H_by_support_extremum": true,
+    "rho_min": {
+      "numerator": "104",
+      "denominator": "995"
+    }
+  },
+  "model_parameters": {
+    "z": {
+      "numerator": "3",
+      "denominator": "10"
+    },
+    "core_halfheight": {
+      "numerator": "1",
+      "denominator": "100"
+    },
+    "marker_radius": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "epsilon0": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "epsilon1": {
+      "numerator": "1",
+      "denominator": "200"
+    },
+    "Dstar": {
+      "numerator": "251",
+      "denominator": "100"
+    }
+  },
+  "witness_and_enclosures": {
+    "L0_lower": {
+      "numerator": "1590733478037657874993896930713546301",
+      "denominator": "664613997892457936451903530140172288"
+    },
+    "L0_upper": {
+      "numerator": "3181528423635277851847395898190540045",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "U1_lower": {
+      "numerator": "2799961151549864655672277587809377051",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "U1_upper": {
+      "numerator": "2799961162914606817790870207023825157",
+      "denominator": "1329227995784915872903807060280344576"
+    },
+    "initial_unperturbed_diameter_equals_L0_plus_a": true,
+    "final_diameter_cases": {
+      "core_core_upper": {
+        "numerator": "2769602002044847237426835746005292979",
+        "denominator": "1329227995784915872903807060280344576"
+      },
+      "all_marker_pairs_upper": {
+        "numerator": "4",
+        "denominator": "5"
+      },
+      "core_marker_upper": {
+        "numerator": "14664419812465492025406254565259298073",
+        "denominator": "6646139978924579364519035301401722880"
+      }
+    },
+    "all_final_cases_bounded_by_U1_plus_a": true,
+    "D0_after_error_lower": {
+      "numerator": "41263718446199477231864206210654045173",
+      "denominator": "16615349947311448411297588253504307200"
+    },
+    "D0_after_error_upper": {
+      "numerator": "83193587579290464946670366870534448709",
+      "denominator": "33230699894622896822595176507008614400"
+    },
+    "D1_after_error_upper": {
+      "numerator": "73654406061273689095257224591366576509",
+      "denominator": "33230699894622896822595176507008614400"
+    },
+    "strict_rigid_thickness_margin": {
+      "numerator": "775358927356712402622933234763381003",
+      "denominator": "4153837486827862102824397063376076800"
+    },
+    "rigid_quotient_ratio_lower": {
+      "numerator": "8873030831125265368471187829941513837",
+      "denominator": "165054873784797908927456824842616180692"
+    },
+    "held_model_equals_Delta": true,
+    "held_after_error_lower": {
+      "numerator": "52096666977",
+      "denominator": "100000000000"
+    },
+    "held_ratio_after_error_lower": {
+      "numerator": "33812670035601524389956491393987536930996224",
+      "denominator": "162487475740801689348965560294012595134765625"
+    },
+    "marker_support_upper_in_unshadowed_min_directions": {
+      "numerator": "-246663669267",
+      "denominator": "500000000000"
+    },
+    "strict_marker_nonshadowing_margin": {
+      "numerator": "143626918229",
+      "denominator": "125000000000"
+    },
+    "fixed_cap_pair_diameter_lower": {
+      "numerator": "3",
+      "denominator": "5"
+    }
+  },
+  "local_compatibility_only": {
+    "README_reach_target_at_Dstar": {
+      "numerator": "753",
+      "denominator": "10000"
+    },
+    "core_curvature_radius_lower": {
+      "numerator": "104",
+      "denominator": "995"
+    },
+    "fixed_marker_curvature_radius": {
+      "numerator": "1",
+      "denominator": "10"
+    },
+    "marker_core_vertical_separation_lower": {
+      "numerator": "19",
+      "denominator": "100"
+    },
+    "marker_marker_vertical_separation_lower": {
+      "numerator": "2",
+      "denominator": "5"
+    },
+    "global_closed_surface_reach_claimed": false,
+    "Hausdorff_error_preserves_curvature_claimed": false,
+    "fixed_material_H_requires_actual_retention_of_both_caps": true
+  },
+  "safe_displays": {
+    "H_lower": "1.18665467706800",
+    "H_upper": "1.18667799499900",
+    "D0_after_error_upper": "2.50351596093684",
+    "rigid_ratio_lower": "0.05375806619739",
+    "held_ratio_lower": "0.20809400774702",
+    "fixed_cap_diameter_ratio_lower": "0.23966294178347"
+  },
+  "all_exact_strict_gates_passed": true,
+  "current_M15_candidate_data_read": false,
+  "new_solver_root_RK_integration_optimization_calls": 0,
+  "connected_closed_family_or_common_metric_extension_constructed": false
+}

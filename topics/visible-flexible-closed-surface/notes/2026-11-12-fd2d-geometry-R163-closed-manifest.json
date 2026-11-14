@@ -1,0 +1,108 @@
+{
+  "schema": "fd2d-closed-research-group-v1",
+  "result": "R163",
+  "status": "complete real-arithmetic proof and bounded actual same-g warm checks",
+  "created_utc": "2026-11-12T16:21:32.947211+00:00",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R163-radial-P1-subdivision-with-fixed-complete-field-definitions.md",
+      "bytes": 12227,
+      "sha256": "45e616ed947d7efe369ae14cfff6c0beb7bace42cbdc5cbad2cabe749de36af1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace.py",
+      "bytes": 15938,
+      "sha256": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v2.py",
+      "bytes": 13937,
+      "sha256": "497eacc23a27fb12549346c8f427b3ad4db1830feeff33e187a3cf4132151238"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-midpoint-refined-positive-trace-check.py",
+      "bytes": 8822,
+      "sha256": "43e3560b9dfb854ea3b39dbcf0f8e1636eda7422a45f941081cf5757c36898f6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-midpoint-refinement-layout-check.py",
+      "bytes": 3191,
+      "sha256": "10ed4157cf0e4c31e84027a64d062e86ab4e26ad550deb35047468142a318cf4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-midpoint-refinement-restart-check.py",
+      "bytes": 2622,
+      "sha256": "ec2cd966a9b1ab8d536ecc47a65890f75d76320e6f6f4ab2d2e605a6f0636775"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-midpoint-refinement-19final-01-report.json",
+      "bytes": 134062,
+      "sha256": "f8c801c0b7ac2fdc25ed6fda903d5de5bced40b380286a05c5b606fc7fcedf10"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-midpoint-refinement-19final-01-field.npz",
+      "bytes": 70626,
+      "sha256": "d93a16d60f6379c5cf24bfca91ab60390e65880ca781ad800a9c271a2d1890e1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-midpoint-refinement-layout-01.json",
+      "bytes": 2344,
+      "sha256": "92e61211233181837b8fea8cbd7a1dccf65cce56a9c6a43d076e2c165a921ac9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-midpoint-refinement-restart-01.json",
+      "bytes": 2739,
+      "sha256": "ad3a6dc85eaa59722a4ec732091017c2bcd221077dda977ac5eb4a6159c12a4a"
+    }
+  ],
+  "total_bytes": 283260,
+  "executions": [
+    {
+      "scope": "19 final 123 to129 same-function finite check and original native-reader compatibility",
+      "session_id": 12132,
+      "initial_chunk_id": "2ced88",
+      "final_chunk_id": "d4092a",
+      "natural_exit_code": 0,
+      "wall_seconds": 5.6990295329997025,
+      "peak_rss_kib": 88972
+    },
+    {
+      "scope": "only actual-array radial/angular commutation and explicit layout; no K31 field evaluation",
+      "session_id": 82764,
+      "initial_chunk_id": "7f9b3c",
+      "final_chunk_id": "80fdc2",
+      "natural_exit_code": 0,
+      "wall_seconds": 0.3922078869982215
+    },
+    {
+      "scope": "v3 empty-split restoration of actual129-node archive; original arrays byte-identical; no F/J/native/BVP",
+      "session_id": 53923,
+      "initial_chunk_id": "b0515d",
+      "final_chunk_id": "bdf9c6",
+      "natural_exit_code": 0,
+      "wall_seconds": 0.9467279730015434
+    }
+  ],
+  "current_consumer": {
+    "module": "scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+    "factory": "create_midpoint_refined_problem(candidate,saved_field=...,split_cells=...,**common)",
+    "injection": "problem.inject_saved_field(canonicalize_redundant=True)",
+    "restart": "split_cells=(): no further interpolation or gauge reset",
+    "checkpoint": "checkpoint_arrays(problem,vector,candidate_sha256,refinement_definition=...)",
+    "independent_tail_K31_supported": true,
+    "independent_tail_full_constructor_or_BVP_test_performed": false
+  },
+  "scope": [
+    "Original exact field schema/provider and physical full-function definitions retained",
+    "Real-arithmetic P1 nesting plus entire-hat gauge proof, not claiming saved binary64 coefficients exactly equal real interpolants",
+    "Strict rational pre-gauge interpolation bound2^-52 in the closed19 sample",
+    "Exact physical p/g/atlas/lifting/windows and original knot bytes preserved",
+    "New finite quadrature/target rows explicitly changed and old physical selected-cell intervals remapped",
+    "No wholeF/J, body or BVP; no active20 source mutation; main solver can consume capability without a new gate"
+  ]
+}

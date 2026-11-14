@@ -1,0 +1,1649 @@
+{
+  "schema": "fd2d-R159-exact-row-partition-v1",
+  "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+  "dimensions": {
+    "nodes": 129,
+    "q": 95,
+    "parameters": 54,
+    "modes": 31,
+    "work": 512
+  },
+  "mesh_identity": {
+    "shape": [
+      129
+    ],
+    "dtype": "<f8",
+    "bytes": 1032,
+    "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+  },
+  "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+  "node_block": 16,
+  "cell_block": 4,
+  "interior_block": 1,
+  "interior_cells": [
+    63,
+    64,
+    73,
+    74,
+    121,
+    122
+  ],
+  "row_order": [
+    "nodes",
+    "cells",
+    "boundary",
+    "interior"
+  ],
+  "tiles": [
+    {
+      "id": "0000-nodes",
+      "ordinal": 0,
+      "kind": "nodes",
+      "node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0001-nodes",
+      "ordinal": 1,
+      "kind": "nodes",
+      "node_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0002-nodes",
+      "ordinal": 2,
+      "kind": "nodes",
+      "node_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0003-nodes",
+      "ordinal": 3,
+      "kind": "nodes",
+      "node_indices": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0004-nodes",
+      "ordinal": 4,
+      "kind": "nodes",
+      "node_indices": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0005-nodes",
+      "ordinal": 5,
+      "kind": "nodes",
+      "node_indices": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0006-nodes",
+      "ordinal": 6,
+      "kind": "nodes",
+      "node_indices": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0007-nodes",
+      "ordinal": 7,
+      "kind": "nodes",
+      "node_indices": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0008-nodes",
+      "ordinal": 8,
+      "kind": "nodes",
+      "node_indices": [
+        128
+      ],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0009-cells",
+      "ordinal": 9,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0010-cells",
+      "ordinal": 10,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0011-cells",
+      "ordinal": 11,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0012-cells",
+      "ordinal": 12,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0013-cells",
+      "ordinal": 13,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0014-cells",
+      "ordinal": 14,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0015-cells",
+      "ordinal": 15,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0016-cells",
+      "ordinal": 16,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0017-cells",
+      "ordinal": 17,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0018-cells",
+      "ordinal": 18,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0019-cells",
+      "ordinal": 19,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0020-cells",
+      "ordinal": 20,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0021-cells",
+      "ordinal": 21,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0022-cells",
+      "ordinal": 22,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0023-cells",
+      "ordinal": 23,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0024-cells",
+      "ordinal": 24,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0025-cells",
+      "ordinal": 25,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0026-cells",
+      "ordinal": 26,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0027-cells",
+      "ordinal": 27,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0028-cells",
+      "ordinal": 28,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0029-cells",
+      "ordinal": 29,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0030-cells",
+      "ordinal": 30,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0031-cells",
+      "ordinal": 31,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0032-cells",
+      "ordinal": 32,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        92,
+        93,
+        94,
+        95
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0033-cells",
+      "ordinal": 33,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0034-cells",
+      "ordinal": 34,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0035-cells",
+      "ordinal": 35,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0036-cells",
+      "ordinal": 36,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        108,
+        109,
+        110,
+        111
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0037-cells",
+      "ordinal": 37,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0038-cells",
+      "ordinal": 38,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        116,
+        117,
+        118,
+        119
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0039-cells",
+      "ordinal": 39,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0040-cells",
+      "ordinal": 40,
+      "kind": "cells",
+      "node_indices": [],
+      "cell_indices": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "include_boundary": false,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0041-boundary",
+      "ordinal": 41,
+      "kind": "boundary",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": true,
+      "interior_cells": [],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0042-interior",
+      "ordinal": 42,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        63
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0043-interior",
+      "ordinal": 43,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        64
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0044-interior",
+      "ordinal": 44,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        73
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0045-interior",
+      "ordinal": 45,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        74
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0046-interior",
+      "ordinal": 46,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        121
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    },
+    {
+      "id": "0047-interior",
+      "ordinal": 47,
+      "kind": "interior",
+      "node_indices": [],
+      "cell_indices": [],
+      "include_boundary": false,
+      "interior_cells": [
+        122
+      ],
+      "mapping_sha256": "cf9860dfa7e6adcd2fab6b3f9ed9a0c658f32224357501a79433f31c0c138e36",
+      "mesh_identity": {
+        "shape": [
+          129
+        ],
+        "dtype": "<f8",
+        "bytes": 1032,
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+      },
+      "dimensions": {
+        "nodes": 129,
+        "q": 95,
+        "parameters": 54,
+        "modes": 31,
+        "work": 512
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+    }
+  ],
+  "finite_objective_changed": false,
+  "scaling_or_damping_applied": false,
+  "floating_bit_identity_of_regrouped_sum_claimed": false,
+  "plan_sha256": "fcb379202d20ca1e5bc4010a2eb1d4578e1e9368554842217282427ea5d84c39"
+}

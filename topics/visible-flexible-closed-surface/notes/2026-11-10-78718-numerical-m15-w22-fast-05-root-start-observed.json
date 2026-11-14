@@ -1,0 +1,21 @@
+{
+  "status": "RUNNING_UNSOLVED",
+  "actual_start_chunk": "b8c003",
+  "actual_session_id": 42458,
+  "actual_poll_chunk": "7fbba0",
+  "poll_session_still_running": true,
+  "prefix_modes": 15,
+  "tail_modes": 22,
+  "angular": 512,
+  "cold_start": true,
+  "bootstrap_height_scale": 0.125,
+  "projection_floor": 0.05,
+  "original_tolerance": 2e-09,
+  "trial": "same-direction-Q-L-Newton-retraction-mean-seeded-v2",
+  "last_observed_iteration": 2,
+  "shooting_norm": 0.014188095427452679,
+  "minA": 0.960587656993942,
+  "minD": 0.9989651369830821,
+  "observation_time_utc": "2026-11-10T12:47:52Z",
+  "scope": "Actual finite nonlinear bootstrap only. No converged response, inner BVP, metric bound or full surface is asserted."
+}

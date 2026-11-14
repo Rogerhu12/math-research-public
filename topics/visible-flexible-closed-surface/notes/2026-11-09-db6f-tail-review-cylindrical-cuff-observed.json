@@ -1,0 +1,48 @@
+{
+  "status": "OBSERVED_INDEPENDENT_READ_ONLY_ARITHMETIC_REVIEW",
+  "executions": [
+    {
+      "tool_receipt": "012758",
+      "actual_exit_code": 0,
+      "command": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-audit-cylindrical-cuff-interface.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylindrical-cuff-interface-replay.json"
+      ],
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-cylindrical-cuff-interface-replay.json",
+        "bytes": 5930,
+        "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+      },
+      "scope": "Independent replay of the author scalar script; output is byte-identical to the frozen author output."
+    },
+    {
+      "tool_receipt": "159831",
+      "actual_exit_code": 0,
+      "command": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-cylindrical-cuff.py",
+        "--out",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylindrical-cuff-independent-check.json"
+      ],
+      "output": {
+        "path": "notes/2026-11-09-db6f-tail-cylindrical-cuff-independent-check.json",
+        "bytes": 6756,
+        "sha256": "d29381e6e34ae9bfa00377f8d3498955fd7751d15dac00dc338c042006f952fc"
+      },
+      "exact_report_fields": 26,
+      "independent_all_angle_polynomial_identities": 8,
+      "different_source_files": 16
+    }
+  ],
+  "mathematical_full_review": {
+    "path": "notes/2026-11-09-db6f-tail-review-cylindrical-cuff-and-analytic-endpoint.md",
+    "bytes": 13409,
+    "sha256": "832002ddbdbc9e0cc92cda5d5dc0f7668fc003f063cf55ded8014429e8080272"
+  },
+  "solver_root_RK_DN_BVP_geometry_backend_calls": 0,
+  "author_files_modified": false,
+  "git_or_index_operations": 0,
+  "current_optimization_state_read": false
+}

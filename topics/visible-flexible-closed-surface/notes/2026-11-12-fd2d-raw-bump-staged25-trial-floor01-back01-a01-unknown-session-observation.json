@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-session-observation-v1",
+  "observed_utc": "2026-11-12T18:33:28.890244+00:00",
+  "session_id": 95357,
+  "launch_chunk": "947286",
+  "poll_result": "write_stdin failed: Unknown process id 95357",
+  "actual_child_exit": null,
+  "actual_tool_exit": null,
+  "completed_report": false,
+  "final_process_receipt_exists": false,
+  "immutable_trial_result_exists": false,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-trial-floor01-back01-a01-report.json",
+    "sha256": "fa4a0149e6f75b71bb9be23670af8d6cb7933cafa38086aa5d4e50eafaaee47a",
+    "bytes": 84878
+  },
+  "process_listing_scope": "Only this executor namespace was visible; absence there is not a global process-exit proof",
+  "parent_authorized_independent_recovery": true,
+  "recovery_request": "notes/2026-11-12-fd2d-raw-bump-staged25-trial-recovery02-request.json",
+  "original_sources_and_outputs_modified": false
+}

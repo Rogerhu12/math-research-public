@@ -1,0 +1,235 @@
+{
+  "schema": "fd2d-actual-material-inverse-comparison-v1",
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+    "bytes": 58507,
+    "sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc"
+  },
+  "input_run_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-report.json",
+    "bytes": 155739,
+    "sha256": "53f88e2e4e79a94467b2e0884ec295af36f81ef07531fbede639ff3097868a30"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-root-fast-material-inverse-check.py",
+      "bytes": 5061,
+      "sha256": "378150ff5767570ec8d6eaccd78d3a212fbc9cbd8ad0005cfe9fec52129a556c"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_fast_material_inverse.py",
+      "bytes": 4169,
+      "sha256": "0d009496804f30e1888c9964070e9667051579710d1cadf3e45c09db6c6a27c5"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    }
+  ],
+  "completed": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_Jacobian": true,
+  "physical_field_changed": false,
+  "angle_count": 67,
+  "physical_sections": 6,
+  "fields": [
+    "n",
+    "n_u",
+    "n_uu",
+    "m",
+    "m_u",
+    "m_uu",
+    "l",
+    "l_u",
+    "l_uu"
+  ],
+  "rows": [
+    {
+      "s": 0.57,
+      "old_seconds": 0.20907051799804321,
+      "new_seconds": 0.21948121400055243,
+      "old_chart_calls": 1,
+      "new_chart_calls": 1,
+      "old_inverse_error": 1.7763568394002505e-15,
+      "new_inverse_error": 1.7763568394002505e-15,
+      "maximum_field_absolute_difference": 0.0,
+      "maximum_field_scaled_difference": 0.0,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 1,
+        "maximum_value_residual": 1.7763568394002505e-15,
+        "maximum_residual_to_original_tolerance": 0.048796289635062565,
+        "newton_point_steps": 0,
+        "bisection_point_steps": 0,
+        "periodic_bisection_point_steps": 0,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": false
+    },
+    {
+      "s": 0.6116816746501718,
+      "old_seconds": 2.66093084500244,
+      "new_seconds": 1.3728254939996987,
+      "old_chart_calls": 51,
+      "new_chart_calls": 31,
+      "old_inverse_error": 2.7533531010703882e-14,
+      "new_inverse_error": 2.3092638912203256e-14,
+      "maximum_field_absolute_difference": 6.110667527536862e-12,
+      "maximum_field_scaled_difference": 1.5835111000228608e-12,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 31,
+        "maximum_value_residual": 2.3092638912203256e-14,
+        "maximum_residual_to_original_tolerance": 0.9352421902342094,
+        "newton_point_steps": 208,
+        "bisection_point_steps": 248,
+        "periodic_bisection_point_steps": 74,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": false
+    },
+    {
+      "s": 0.8478617704522428,
+      "old_seconds": 2.4794598199987377,
+      "new_seconds": 1.02481866800008,
+      "old_chart_calls": 51,
+      "new_chart_calls": 23,
+      "old_inverse_error": 3.6415315207705135e-14,
+      "new_inverse_error": 1.9539925233402755e-14,
+      "maximum_field_absolute_difference": 1.588773557159584e-11,
+      "maximum_field_scaled_difference": 1.0227688650142097e-12,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 23,
+        "maximum_value_residual": 1.9539925233402755e-14,
+        "maximum_residual_to_original_tolerance": 0.9112903401860232,
+        "newton_point_steps": 281,
+        "bisection_point_steps": 396,
+        "periodic_bisection_point_steps": 130,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": false
+    },
+    {
+      "s": 1.1,
+      "old_seconds": 2.2782839499996044,
+      "new_seconds": 1.2487871520024783,
+      "old_chart_calls": 48,
+      "new_chart_calls": 31,
+      "old_inverse_error": 6.217248937900877e-15,
+      "new_inverse_error": 2.930988785010413e-14,
+      "maximum_field_absolute_difference": 5.3439475067307285e-12,
+      "maximum_field_scaled_difference": 4.159566506433471e-12,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 31,
+        "maximum_value_residual": 2.930988785010413e-14,
+        "maximum_residual_to_original_tolerance": 0.8587630646381724,
+        "newton_point_steps": 338,
+        "bisection_point_steps": 584,
+        "periodic_bisection_point_steps": 192,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": false
+    },
+    {
+      "s": 1.4824731783581289,
+      "old_seconds": 0.18948149999778252,
+      "new_seconds": 0.17633455399845843,
+      "old_chart_calls": 1,
+      "new_chart_calls": 1,
+      "old_inverse_error": 0.0,
+      "new_inverse_error": 0.0,
+      "maximum_field_absolute_difference": 0.0,
+      "maximum_field_scaled_difference": 0.0,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 1,
+        "maximum_value_residual": 0.0,
+        "maximum_residual_to_original_tolerance": 0.0,
+        "newton_point_steps": 0,
+        "bisection_point_steps": 0,
+        "periodic_bisection_point_steps": 0,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": false
+    },
+    {
+      "s": 1.4889731783581288,
+      "old_seconds": 0.039966424999875017,
+      "new_seconds": 0.04559128700202564,
+      "old_chart_calls": 1,
+      "new_chart_calls": 1,
+      "old_inverse_error": 0.0,
+      "new_inverse_error": 0.0,
+      "maximum_field_absolute_difference": 0.0,
+      "maximum_field_scaled_difference": 0.0,
+      "new_inverse_info": {
+        "schema": "fd2d-safeguarded-full-material-inverse-v1",
+        "chart_calls": 1,
+        "maximum_value_residual": 0.0,
+        "maximum_residual_to_original_tolerance": 0.0,
+        "newton_point_steps": 0,
+        "bisection_point_steps": 0,
+        "periodic_bisection_point_steps": 0,
+        "bisection_period": 4,
+        "max_iterations": 256,
+        "original_chart_used": true,
+        "physical_field_changed": false,
+        "stopping_tolerance": "32*binary64_epsilon*(1+abs(reduced physical u))",
+        "iteration_limit_is_evaluation_guard": true,
+        "continuous_inverse_certificate": false
+      },
+      "exact_cut": true
+    }
+  ],
+  "old_seconds": 7.857193057996483,
+  "new_seconds": 4.087838369003293,
+  "maximum_scaled_field_difference": 4.159566506433471e-12,
+  "original_inverse_stopping_tolerance_preserved": true,
+  "finite_check_only": true,
+  "seconds": 13.447571533000882,
+  "peak_rss_kib": 75956
+}

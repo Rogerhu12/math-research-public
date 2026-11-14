@@ -1,0 +1,51 @@
+{
+  "schema": "fd2d-R175-exact-bump-range-closed-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_r136_bernstein_bumps.py",
+      "bytes": 2895,
+      "sha256": "6daa895c0707712bedc3cf83eabdfb6dd6ee9f142a07f841c5ac695d1837d647"
+    },
+    {
+      "path": "scripts/fd2d-bernstein-bump-range-check.py",
+      "bytes": 4028,
+      "sha256": "238dac42dd157cb63cab2f2b35eedb7c59679af1e31def185aa7cfe5e0632d58"
+    },
+    {
+      "path": "results/R175-exact-bump-polynomial-ranges-and-current-curvature-bands.md",
+      "bytes": 7091,
+      "sha256": "006a5d845adacd72bc2db6b6d84e0345d8604e0e183da1b06f9102579a9ad8f9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-bernstein-bump-range-01-report.json",
+      "bytes": 71951,
+      "sha256": "964eed0406c730a104b838ea56e037bfde1d2093e289003945be75b5551471d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-accurate-current-late-K-window-01.json",
+      "bytes": 28393,
+      "sha256": "66f85ff025e1ca7577febcc37e1874aa37858bedd9928a0b34e324a534542a12"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-bernstein-bump-range-01-completion-receipt.json",
+      "bytes": 525,
+      "sha256": "c70d0aebcf93c8d57f39babe92caea1390c401b3d13c328d5de3c37e132b4b7a"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01.json",
+      "bytes": 5246,
+      "sha256": "5e2ac101ddc8780dc666ffed46889d78c931ce84a6f52a86c1aef3a0945ad3ec"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    }
+  ],
+  "actual_exit": 0,
+  "physical_target_and_all_parameters_unchanged": true,
+  "scope": "Exact polynomial enclosure backend and continuous sign bands of current 2b physical metric only; no new BVP or surface certificate"
+}

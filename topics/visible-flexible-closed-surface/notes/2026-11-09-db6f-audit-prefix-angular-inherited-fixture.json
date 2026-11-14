@@ -1,0 +1,172 @@
+{
+  "status": "complete-prefix-refinement",
+  "scope": "First-tier angular refinement for one fixed common-cut prefix and target.\n\nRequires a complete, reviewed certificate from the original coefficient-first\nprefix backend and its reviewed analytic target/unique bridge certificate.\nAn inherited strict bound is reused whenever it already meets the budget.\nOtherwise the original interval bound is computed, then only failing angular\narcs are bisected. No radial refinement, Taylor-angle method, ODE solve or new\nmap is performed. A local selection never emits a whole-prefix metric field.\n",
+  "finished": true,
+  "script_sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb",
+  "mathematical_source_sha256": {
+    "db6f-audit-prefix-metric-budget.py": "dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f",
+    "db6f-audit-metric-polynomial.py": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f-audit-metric-supplier.py": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0",
+    "db6f-root-common-cut-v2.py": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+    "db6f-root-exact-bridge.py": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "inputs": {
+    "geometry": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "target": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+    },
+    "baseline": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    "bridge": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa"
+    }
+  },
+  "geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "geometry_data_sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0",
+  "target_sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b",
+  "target_data_sha256": "bebad72e13a3b8494f234deb1399ee6ba7d771a982127a4b3c912277c56770af",
+  "bridge_transfer_eta": {
+    "exact": "1643648383685965/4951760157141521099596496896",
+    "upper_display": 3.319321476658082e-13
+  },
+  "exact_target_transfer_formula": "epsilon*(1+eta)+eta",
+  "requested_budget": {
+    "exact": "1/1000000",
+    "upper_display": 1.0000000000000002e-06
+  },
+  "target_intervals": 2575,
+  "processed_intervals": 2575,
+  "requested_intervals": null,
+  "initial_arcs": 128,
+  "maximum_bisection_depth": 1,
+  "row_files": [
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part000.json.gz",
+      "sha256": "ddaeb10f2a108c787be3ac2b505afc75ca28f4ab5b6a391cb46bb807c75db912",
+      "bytes": 11009,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part001.json.gz",
+      "sha256": "50e998f71fa06b115538b1d766c6bad735c9f92321e61faf0e3de421ed3ebebd",
+      "bytes": 11337,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part002.json.gz",
+      "sha256": "18d3b43f6843fae61b56cfe89b588671d6bbc14acb79828958ee71bbf17fb91a",
+      "bytes": 11355,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part003.json.gz",
+      "sha256": "9ce74e91c10c2d1ed4ac633b60d094f6842164121fb6a9538d64c5e124bf0711",
+      "bytes": 11266,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part004.json.gz",
+      "sha256": "60819cc7d423ef31c7f062889be16c2431bbb140ce387dc25e5f075a55ac5b7e",
+      "bytes": 11391,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.rows.part005.json.gz",
+      "sha256": "03b6ae9e099f7b83cdf6dece30dfd92df863976e01214d8979e3cb40751c054b",
+      "bytes": 769,
+      "rows": 15
+    }
+  ],
+  "interval_summary_files": [
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part000.json.gz",
+      "sha256": "bf37f8eb430c8d54230507375baad9d965e4d1aa7a1dd5c3557a2c216bdc6599",
+      "bytes": 1550,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part001.json.gz",
+      "sha256": "cbbf41363ceb5338706e7bf608d607bd7ff5d77e264a6428818847d8c1061022",
+      "bytes": 1492,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part002.json.gz",
+      "sha256": "26cbb2c663725a8666d1f6f104565c91296a625acb162fe1cc694cfcb5012e16",
+      "bytes": 1501,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part003.json.gz",
+      "sha256": "52c2fd073fd2a321d9d17c38b744fe762cd1c7f2b9c3e63c512e1572be87114c",
+      "bytes": 1488,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part004.json.gz",
+      "sha256": "843ac2b80f165c79a313e9903e87ee5f599fbfe5e305e0e33682ed8e91578333",
+      "bytes": 1503,
+      "rows": 512
+    },
+    {
+      "file": "2026-11-09-db6f-audit-prefix-angular-inherited-fixture.intervals.part005.json.gz",
+      "sha256": "10f53de5f471487415d5e6a512122c92c6fd7e58a7e24f5afb504d6254c90d61",
+      "bytes": 142,
+      "rows": 15
+    }
+  ],
+  "exact_partition_reread_verified": true,
+  "requested_domain_covered": true,
+  "entire_prefix_covered": true,
+  "selected_source_metric_upper": {
+    "exact": "7773651848823799/302231454903657293676544",
+    "upper_display": 2.5720856392336185e-08
+  },
+  "selected_exact_target_metric_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "upper_display": 2.572118832449239e-08
+  },
+  "target_met_on_requested_domain": true,
+  "entire_prefix_target_met": true,
+  "minimum_a_lower": 0.5999981161273888,
+  "minimum_chart_rho_lower": 0.1999999999999957,
+  "proof_leaf_counts": {
+    "inherited_global": 2575,
+    "original_interval": 0,
+    "angular": 0,
+    "original_fallback": 0
+  },
+  "leaves": 2575,
+  "worst_leaf": {
+    "interval": 0,
+    "angle_pi_left": "0",
+    "angle_pi_right": "2"
+  },
+  "original_interval_evaluations": 0,
+  "angular_evaluations": 0,
+  "full_geometry_constructed": false,
+  "angular_Taylor_implemented": false,
+  "radial_refinement_performed": false,
+  "target_supplier_independently_reproved_here": false,
+  "exact_bridge_root_recomputed_here": false,
+  "conditional_on_reviewed_target_bridge_and_baseline": true,
+  "complete_closed_surface": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "seconds": 0.4088002209973638,
+  "peak_process_rss_bytes": 41766912,
+  "metric_operator_upper": 2.5720856392336185e-08,
+  "exact_target_metric_operator_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "upper_display": 2.572118832449239e-08
+  }
+}

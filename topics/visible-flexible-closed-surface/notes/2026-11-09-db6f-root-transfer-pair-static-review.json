@@ -1,0 +1,46 @@
+{
+  "status": "PASS-static-mathematics-preservation-and-interface-review",
+  "producer_functions_ast_identical": [
+    "check",
+    "sha",
+    "grid",
+    "fraction_vectors",
+    "affine_coefficients",
+    "write_npz"
+  ],
+  "producer_complete_transfer_block_byte_identical": true,
+  "consumer_complete_scalar_tail_byte_identical_except_explicit_base_identity": true,
+  "actual_new_root_flow_solver_or_geometry_calls": 0,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-transfer-background.py",
+      "sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+      "bytes": 10948
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+      "sha256": "bdf6307fd93328b1ae70923caac2687fa19b0187ca9c723fe5d7072d7799a47b",
+      "bytes": 19033
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-closed-budget-v2.py",
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641",
+      "bytes": 10356
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-budget-transfer-v3.py",
+      "sha256": "5ef8d229e0a19bc83381a2cdcaef8b24309e00a1fdc6b9409b20d7ca34092e49",
+      "bytes": 24545
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-v3-review.md",
+      "sha256": "a816f436f6e95a3175544be43339c5ec41e418b8adaa38daa141c6ca39f86496",
+      "bytes": 8835
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-closed-budget-transfer-v3.md",
+      "sha256": "be9d4e9253fe719033c8d1a18bd6b85ea777171249b780bfe604802a5be13c51",
+      "bytes": 4911
+    }
+  ]
+}

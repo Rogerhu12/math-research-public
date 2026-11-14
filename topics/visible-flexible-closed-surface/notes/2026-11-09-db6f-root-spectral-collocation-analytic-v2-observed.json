@@ -1,0 +1,67 @@
+{
+  "schema": "root-actual-tool-observation-v1",
+  "observed_utc": "2026-11-09T18:57:52.552599+00:00",
+  "scope": "Non-geometric analytic BVP interface check only",
+  "actual_execution": {
+    "receipt": "885818",
+    "tool_exit_code": 0,
+    "wall_time_seconds": 0.719164222,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "scripts/db6f-root-check-spectral-collocation-analytic-v2.py",
+      "--out",
+      "notes/2026-11-09-db6f-root-spectral-collocation-analytic-check-v2-observed-replay.json"
+    ]
+  },
+  "earlier_v2_execution": {
+    "tool_exit_observed": false,
+    "reason": "Tool return was omitted by context-output truncation; existing artifact does not establish its exit"
+  },
+  "replay_byte_equal_to_earlier_v2": true,
+  "nongeometric_scipy_solves": 2,
+  "actual_geometry_solves": 0,
+  "actual_DN_requests": 0,
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation.py",
+      "bytes": 8035,
+      "sha256": "b5422e43c06bde4f988bf5a2d4331ff9fa65ecef5f11722388aa5c6f57d8575c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+      "bytes": 8906,
+      "sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-check-spectral-collocation-analytic.py",
+      "bytes": 5410,
+      "sha256": "9035714601625d617da35acf0ace91d3f788406b99c33aac19f658fd49f96624"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-check-spectral-collocation-analytic-v2.py",
+      "bytes": 7069,
+      "sha256": "d320a57fbb18a1c41bdd9ae2a89302b94102338f1fdea50e6f4b95f0219b764a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-conjugacy.md",
+      "bytes": 7427,
+      "sha256": "a413fcdfe3d5fac0bbef4fc0466707fd5ddaf88d87e00924b03ea23c463067fe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-analytic-check.json",
+      "bytes": 2198,
+      "sha256": "d0780e5644a3772fb9e3d19fdb7b7e974573d76f140009d55e517d0f625683a5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-analytic-check-v2.json",
+      "bytes": 2429,
+      "sha256": "682e758be6032aae354a6630306963bcb181a24ffdcc4176f91a507c33cfcda2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-collocation-analytic-check-v2-observed-replay.json",
+      "bytes": 2429,
+      "sha256": "682e758be6032aae354a6630306963bcb181a24ffdcc4176f91a507c33cfcda2"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS-same-background-grid-transfer",
+  "reviewedScriptSHA256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+  "m12ReplayAllArraysEqual": true,
+  "m12Rows": 28928,
+  "m12BoundaryHullRows": 5235,
+  "sampledRows": 511,
+  "exactRationalCoefficientChecks": 14508,
+  "physicalDepthIsNumericalTruncationVerifiedFromSource": true,
+  "allOtherPhysicalFieldsComparedExactly": true,
+  "newPacketSHA256": "3378c623ca0f396a0e4545a6ca21da7137f25f0ec874583fba13609bce2636aa",
+  "sourcePacketSHA256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "scope": "w and wr values only; old analytic supplier remains a dependency; no new finite-geometry bound transferred."
+}

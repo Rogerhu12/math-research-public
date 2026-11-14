@@ -1,0 +1,83 @@
+{
+  "schema": "fd2d-lowmem-tail-c2-field-production-v1",
+  "status": "ACTUAL_FIELDS_DEFINED__METRIC_UNVERIFIED",
+  "scope": "Streaming-reader one-step tail fit with immediate actual-field checkpoint.\n\nThe exact existing prefix is retained. After the tail sample table is made,\nthe defining raw-tail arrays are released. Unfitted floating Fourier terms\nare charged by their full coefficient sum in the sampled diagnostic. Each\ninvocation performs ONE linear fit, saves its actual C2 field immediately,\nand saves the next radial weights for a later invocation if needed.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-tail-field-streamfit.py",
+    "bytes": 10297,
+    "sha256": "dc305dbddb4d29009fa9905088187826eb312860718076ba85a6ca1ae76f465a"
+  },
+  "shared_producer": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-c2-material-field-candidate.py",
+    "bytes": 17916,
+    "sha256": "aef93d450a93b575de9eaee7ef7149e909d4ee836d41080b8df400b2b73bad70"
+  },
+  "geometry": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "bytes": 10095,
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "target": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "bytes": 3668,
+    "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+  },
+  "tail": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+    "bytes": 138611,
+    "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+  },
+  "tail_packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+    "bytes": 3979,
+    "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+  },
+  "fields": [
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+      "bytes": 7139,
+      "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+      "bytes": 7350,
+      "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df"
+    }
+  ],
+  "old_tail_sampled_metric": 1.9645670307486198e-08,
+  "fit_sampled": {
+    "metric": 1.2020292570699681e-09,
+    "E": 9.643107113868547e-10,
+    "F": 5.458636107202242e-10,
+    "G": 6.503739461061294e-10,
+    "worst_cell": 505,
+    "worst_quadrature": 1,
+    "worst_angle": 55,
+    "worst_coordinate": 0.49866589752085294
+  },
+  "actual_saved_tail_sampled_linear_residual": {
+    "metric": 1.2020292570699756e-09,
+    "E": 9.643107113868527e-10,
+    "F": 5.458636107202242e-10,
+    "G": 6.503739461061293e-10,
+    "metric_plus_unfitted_fourier_bound": 1.2020292570733358e-09
+  },
+  "unfitted_sampled_fourier_metric_bound": 3.3601170000778274e-21,
+  "next_weights": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/weights-next.npz.gz",
+    "bytes": 6450,
+    "sha256": "7385532dae0363b329670b2a9a65df5e9556d9e493bb03d068482892ee4d63e7"
+  },
+  "prior_weights": null,
+  "prefix_recomputed": false,
+  "continuous_linear_residual_certified": false,
+  "nonlinear_pullback_certified": false,
+  "README_complete": false,
+  "seconds": 125.48354331100563,
+  "streaming_sampler_original_reader": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+    "bytes": 8064,
+    "sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "peak_rss_bytes": 396296192
+}

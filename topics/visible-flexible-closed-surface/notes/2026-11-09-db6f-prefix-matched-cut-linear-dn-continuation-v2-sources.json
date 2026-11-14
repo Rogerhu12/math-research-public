@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_STATIC_PLAN_V2",
+  "scope": "Four explicit textual replacements only; no adapter/worker implementation or solver. Full v1 closed sources remain frozen.",
+  "v1": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-plan.md",
+    "bytes": 18649,
+    "sha256": "62e59c6b5c4ed63b492db830320497c4e36e0369f5b414c637b117adfbddf7d1"
+  },
+  "v1_sources": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-sources.json",
+    "bytes": 10118,
+    "sha256": "f0be47e98594c8e46ff6597257dd034fffe88c23becfcb6432fcdbbc2d02c922"
+  },
+  "v1_publication": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-publication.json",
+    "bytes": 1669,
+    "sha256": "d8f1e74d8245f74ac6d86d1d82c899c26d6a6c3d2331585213fb9a9ac654391b"
+  },
+  "v2": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-linear-dn-continuation-plan-v2.md",
+    "bytes": 21084,
+    "sha256": "a65890daff2c55ff8e0593445c0f7689e06d445024e87988444160762da04fe6"
+  },
+  "replacements": [
+    {
+      "before": "## 1. 已关闭事实及所能推出的结论",
+      "after": "v2 仅补足三个已静态定位的接口：完全相同的浮点 H 可作有界逻辑推进；原 ratio 保护之外仍是原 linear 初猜；自动步半必须排除 cutRaw/cutJets 后处理同名异常。原 v1 及其五件闭清单保持字节不变。仍没有实现或运行新 adapter。\n\n## 1. 已关闭事实及所能推出的结论"
+    },
+    {
+      "before": "原 worker 从 `last.states.map` 新建初猜；core.solve 又对 `opts.initial` 逐数组复制。",
+      "after": "原 worker 仅在 `req.height[0]/last.jets.height[0]` 有限且严格位于 $(.25,4)$ 时，从 `last.states.map` 新建初猜；否则仍沿原代码回退到 `tail.initial(target)` 的线性初猜，不能无条件声称每个子请求都复制 last.states。core.solve 对存在的 `opts.initial` 再逐数组复制。"
+    },
+    {
+      "before": "已知 momentum 错误前缀仍须结合绑定源检查产生位置；不能从文本相似便认定任何任意外部错误都来自原 root。所有 `converged=true` 但 residual 非有限/未过原 tol、参数/请求不符、或成功 schema 不完整的响应属于协议/验收异常，停止而不二分。保存失败并不等于允许拿该失败作连续分支证据。",
+      "after": "已知 momentum 错误前缀仍须结合绑定源检查产生位置；不能从文本相似便认定任何任意外部错误都来自原 root。初版实现只允许以下三类自动步半：\n\n1. 正常完整响应明确 `converged=false`，其余原请求/参数/字段及数值有限性均有效。\n2. 原汇总 `multiple-shooting line search failed`，且本 call 的**所有**已闭 trial 行均无 unknown/other/I/O 异常；最后对应失败基点有完整原十档，种类仅为已核 momentum guard/root 拒绝或正常有限残差不降。不能只查最后十行而忽略本 call 早期未知错误。\n3. 中间请求 flags 严格为 false/false；实际 failed 包精确含 `failed/lastIteration/checkpoint` 三键，后两者**明确为 JSON null**，不能用 missing 的 get 值代替；源/参数全同且原 `maxIterations=36>0`；错误严格匹配已绑定引擎的 known momentum 白名单。这时原请求 trace、warm 复制、线性 initial 和 profile 步没有该 momentum root，第一次 progress 之前唯一该类来源是原 evaluate/flow；末 cutRaw/cutJets 必须在至少一次 progress 之后，故此分支不是末后处理失败。\n\n仍带 history 的非汇总同名 momentum 错误可能来自 cutRaw/cutJets；原响应未给足阶段标签时一律终止，不从前缀猜它可二分。所有 `converged=true` 但 residual 非有限/未过原 tol、参数/请求不符、或成功 schema 不完整的响应也属于验收异常，停止而不二分。保存失败并不等于允许拿该失败作连续分支证据。"
+    },
+    {
+      "before": "这个分支不得直接采用外层 affine slope、旧 Jacobian 插值或前一次 FAILED state 代替真实响应。若非终点的浮点插值 H 与 last-good H 逐值相同，明确停止并记录路径分辨率不足，不借 cache 命中推进虚假子步。若 origin 已与 goal 逐值相同，则无需插值，直接走最后原 flags 门。",
+      "after": "这个分支不得直接采用外层 affine slope、旧 Jacobian 插值或前一次 FAILED state 代替真实响应。若非终点的浮点插值 H 与 last-good H 逐值相同，可按原 `np.array_equal` 身份跨过该逻辑节点：只推进同一物理问题对应的 $\\tau$，不增加物理请求数或新数学成功次数，不替换 last-good 包、不改 `.calls`。该事件单列 journal，不能说又完成了一次 DN。\n\n逻辑进度仍在最低间隔 $1/1024$ 的 dyadic 格上，总共最多1024次推进。若插值 H 已逐值等于原 goal，直接进入精确 `goal.copy()` 的终点处理；不必为了逻辑参数尚小于1而多求同一个物理目标。origin 已与 goal 相同时同理直接走最后原 flags 门。若此前失败导致 `.calls` 领先 cache 的成功包号，跨过同 H 逻辑节点不能消除此差异：正常返回之前仍须后续真实成功刷新包号，或终止。v1 的一律停止是保守但不必要的限制，可能阻断原 seam 中只有一个 ULP 的高度重请求；此处不引入近似缓存或更松容差。"
+    }
+  ],
+  "original_math_and_policy_budget_changed": false
+}

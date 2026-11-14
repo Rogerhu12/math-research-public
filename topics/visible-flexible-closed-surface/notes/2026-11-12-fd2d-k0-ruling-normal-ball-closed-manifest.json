@@ -1,0 +1,80 @@
+{
+  "schema": "fd2d-ruling-normal-ball-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_normal_ball_screen_v1.py",
+      "sha256": "a530564ba2472afdb2b3dd47efd4877ac2596916c82eed25607644672ae6bb96",
+      "bytes": 7640,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_normal_ball_screen.py",
+      "sha256": "b533d2b8c009a7717717a5ae474eb23c9bb673f3a17876129b9aa0c96dc1299f",
+      "bytes": 8834,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_coast_vertical_separation.py",
+      "sha256": "3995da6b7d6f3703edf2cb61e2844b0e20f899ed4c4c8dc5dad3c6e6cb610939",
+      "bytes": 2923,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-normal-ball-01-report.json",
+      "sha256": "1fff2c125a04a970d60a81379c89118a8f6aa55105a3817975b8c489ebc12997",
+      "bytes": 2280,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-normal-ball-02-report.json",
+      "sha256": "1b6ea064d629c06d3a02ee3b4543c8395362d822edbfa4a0805d92612e0b46b7",
+      "bytes": 2535,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-vertical-separation-01.json",
+      "sha256": "5f22cecc2236ecc76fc1b75a3a0db085899429c9fcc4adf7359f1008105136e0",
+      "bytes": 1404,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-normal-ball-reduction.md",
+      "sha256": "d527059bc458d03166d1168866e5299794ddd8556245324451571fbddaf251f0",
+      "bytes": 10219,
+      "closed": true
+    }
+  ],
+  "all_files_closed": true,
+  "actual_runs": [
+    {
+      "source": "scripts/fd2d_k0_ruling_normal_ball_screen_v1.py",
+      "report": "notes/2026-11-12-fd2d-k0-ruling-normal-ball-01-report.json",
+      "session": 36571,
+      "final_chunk": "be409e",
+      "exit_code": 0,
+      "seconds": 4.925862611000412
+    },
+    {
+      "source": "scripts/fd2d_k0_ruling_normal_ball_screen.py",
+      "report": "notes/2026-11-12-fd2d-k0-ruling-normal-ball-02-report.json",
+      "session": 65520,
+      "final_chunk": "0656c8",
+      "exit_code": 0,
+      "seconds": 2.9395142069997746
+    },
+    {
+      "source": "scripts/fd2d_k0_coast_vertical_separation.py",
+      "report": "notes/2026-11-12-fd2d-k0-ruling-vertical-separation-01.json",
+      "direct_chunk": "b51855",
+      "exit_code": 0,
+      "seconds": 0.07938190100048814
+    }
+  ],
+  "scope": {
+    "whole_radial_normal_ball_finite_angles_only": true,
+    "continuous_vertical_separation_proved": true,
+    "full_reach_certificate": false,
+    "physical_g_or_input_changed": false,
+    "heavy_solver_started": false
+  }
+}

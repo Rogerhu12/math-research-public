@@ -1,0 +1,102 @@
+{
+  "status": "EXACT_FIXED_SPHERICAL_PATCH_SUPPORT_CONES_ONLY",
+  "script_sha256": "4de1c310ca2075295370bec5e8dc5bccc8ab3722199f69d21d9362ddc5a02df3",
+  "sources": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    }
+  ],
+  "normal_cone_chord_radius": {
+    "numerator": "1",
+    "denominator": "100"
+  },
+  "ambient_origin_radius_bounds": {
+    "active_band": {
+      "numerator": "6",
+      "denominator": "5"
+    },
+    "each_marker_ball": {
+      "numerator": "4",
+      "denominator": "3"
+    }
+  },
+  "axis_cones": {
+    "v_z_lower": {
+      "numerator": "31",
+      "denominator": "250"
+    },
+    "support_margin_over_active": {
+      "numerator": "8297",
+      "denominator": "75000"
+    },
+    "support_margin_over_other_marker": {
+      "numerator": "171",
+      "denominator": "2500"
+    },
+    "sphere_point_cap_membership_dot_lower": {
+      "numerator": "99",
+      "denominator": "100"
+    }
+  },
+  "rational_cones": {
+    "normal_x": {
+      "numerator": "-24",
+      "denominator": "25"
+    },
+    "normal_z_abs": {
+      "numerator": "7",
+      "denominator": "25"
+    },
+    "support_margin_over_active": {
+      "numerator": "1169",
+      "denominator": "7500"
+    },
+    "support_margin_over_other_marker": {
+      "numerator": "81",
+      "denominator": "500"
+    },
+    "sphere_point_cap_membership_dot_lower": {
+      "numerator": "379",
+      "denominator": "500"
+    },
+    "fixed_point_pair_span": {
+      "numerator": "82",
+      "denominator": "125"
+    },
+    "fixed_span_over_Dstar": {
+      "numerator": "328",
+      "denominator": "1255"
+    }
+  },
+  "Poisson_initial_angular_curve": {
+    "rho_max": {
+      "numerator": "896",
+      "denominator": "5"
+    },
+    "kappa_min": {
+      "numerator": "5",
+      "denominator": "896"
+    },
+    "homothetic_branch_speed_condition_only": "abs(a_prime)<5/896; not a global obstruction for evolving sections"
+  },
+  "solver_RK_integration_optimization_calls": 0,
+  "current_candidate_data_read": false,
+  "whole_closed_family_or_common_metric_proved": false
+}

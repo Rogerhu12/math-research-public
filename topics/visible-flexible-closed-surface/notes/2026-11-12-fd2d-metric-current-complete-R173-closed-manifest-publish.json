@@ -1,0 +1,122 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-current-complete-R173-closed-manifest.json",
+    "bytes": 8377,
+    "sha256": "59ff0ea6c23a98e4910804773fa43810225c36f07ff2b6b3d8c8053376bd9807"
+  },
+  "only_key_adaptation": "artifacts to files; original unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_current_frozen_atlas_arb.py",
+      "bytes": 21031,
+      "sha256": "b8d9724797473f15c365a74fcffee91551e8bb0227d5a76146fc364ccaeeb8cd"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_complete_field_arb.py",
+      "bytes": 13493,
+      "sha256": "c3dd41f4cf712f234dbde04456d31f8ef723f79bb76d807cb61ee6144d37a2fe"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_accurate_domain_arb.py",
+      "bytes": 15180,
+      "sha256": "01600097f6bece6e8ba7ce56bb56bced28e832c0b8b58d5cf30cc0939ffc6c2c"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-complete-arb-check.py",
+      "bytes": 12683,
+      "sha256": "362852c6b7189da196f24577ead72a0796d7ea18cde8dfa10340dff9526b6bfe"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-complete-arb-check-v2.py",
+      "bytes": 12812,
+      "sha256": "8911af4d748e9c04126c6483011743ddf2505fe70f93cc94aee2f0bf289e92ad"
+    },
+    {
+      "path": "scripts/fd2d-metric-current-accurate-domain-check.py",
+      "bytes": 9413,
+      "sha256": "b4a2070d1a33b9c4d4363351b084898aa0527fc89ce8a19e43c3add290d6b5b1"
+    },
+    {
+      "path": "results/R173-complete-current-field-intervals-and-zero-end-posterior-interface.md",
+      "bytes": 21271,
+      "sha256": "e8a6929c59393843ad6012375deac83a9e47b33bc8a8789b4b5fdf78ba988871"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-Arb-R173.md",
+      "bytes": 6194,
+      "sha256": "c375e831663511e0f7ad4f9a03aaccca93dcf8ef905a769e14890e3c04af04b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-01-completion-receipt.json",
+      "bytes": 941,
+      "sha256": "bb3fef314e2f63433d67cb6d7d2d8443072041c94a84df755babad3c8c0952af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-01-definition.json",
+      "bytes": 95369,
+      "sha256": "1a594077aa007cdd155def0d2101a9526c1bbf4e4483f2959e8e83ee9f4e6068"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-01-native-definition.json",
+      "bytes": 54399,
+      "sha256": "9b63f99189bbb46da57602ad4962784cb2639643b5853d3c1b8ad67531de92f1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-01-report.json",
+      "bytes": 5701,
+      "sha256": "f1a4f1c4167ef68264d452b77f8363f50ec26d6fec42730c1fe25535ace04fa4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-completion-receipt.json",
+      "bytes": 761,
+      "sha256": "64bd282edd24aba1ba7ba727ea09fd03941f1f6e436f75b6029d76a1c885713c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-definition.json",
+      "bytes": 95369,
+      "sha256": "13bff138dedb4e19ed7dfaabb71463c96970804ac5c77048eba8a6d98f1239ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-native-definition.json",
+      "bytes": 54399,
+      "sha256": "9b63f99189bbb46da57602ad4962784cb2639643b5853d3c1b8ad67531de92f1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-primitive.json",
+      "bytes": 4683,
+      "sha256": "4d1e7e77774dfae02dedc5b607472e7b52495233edb5b80ac567e85cb1786aed"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-arb-02-report.json",
+      "bytes": 211112,
+      "sha256": "e1d89f5abac667a9caea12150baed45063b3718dfa994bdf16b624b2ae35054b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-accurate-domain-01-completion-receipt.json",
+      "bytes": 753,
+      "sha256": "ee0b3662a5c9bd05d8b6210dda0cebae00c89ff20ac1f6cdfa8e96a20db8ac68"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-accurate-domain-01-definition.json",
+      "bytes": 133110,
+      "sha256": "6a4b75bbc829e356aa4ad436e37f70e5053a649fc516f72e518f2b0d46ef558c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-accurate-domain-01-primitive.json",
+      "bytes": 7255,
+      "sha256": "8f243b463bc590a78834f8fc8b6d61aff498a4dfa37a80f597c8d35b5b3fd592"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-accurate-domain-01-report.json",
+      "bytes": 63879,
+      "sha256": "353098cedb957d6f1afb973c01d363c6d8fb0b152c54fc584703a4d83c10129e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-complete-R173-closed-manifest.json",
+      "bytes": 8377,
+      "sha256": "59ff0ea6c23a98e4910804773fa43810225c36f07ff2b6b3d8c8053376bd9807"
+    }
+  ]
+}

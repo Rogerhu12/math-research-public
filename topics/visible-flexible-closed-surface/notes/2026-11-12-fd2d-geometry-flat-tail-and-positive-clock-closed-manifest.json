@@ -1,0 +1,120 @@
+{
+  "schema": "fd2d-geometry-flat-tail-and-positive-clock-closed-v1",
+  "files": [
+    {
+      "path": "results/R130-global-normal-balls-for-the-exact-flat-tail.md",
+      "bytes": 9540,
+      "sha256": "e5384b0798cf7ac188b4bede3a9ec4bf46d2c6c2a082eaa8d733e59c674dccff"
+    },
+    {
+      "path": "results/R131-positive-radial-clock-for-all-physical-coasts.md",
+      "bytes": 7512,
+      "sha256": "6073d1ad324d6a2b8fe17468966875c70b080f236993b44126e1285aa126a7ef"
+    },
+    {
+      "path": "scripts/fd2d_flat_cut_prefix_candidate.py",
+      "bytes": 11220,
+      "sha256": "135303639c5eb1970b6b76aad47a53b7627bcc7176243713c56c63ae8260547a"
+    },
+    {
+      "path": "scripts/fd2d_flat_cut_coast_compatibility.py",
+      "bytes": 4253,
+      "sha256": "4c7a53dfb631981b984a573ce5f52613222063a8af273f9775020c36e92a5392"
+    },
+    {
+      "path": "scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    },
+    {
+      "path": "scripts/fd2d_gc_design_profile_positive_check.py",
+      "bytes": 4220,
+      "sha256": "071d4496e93ebf56d09a451fa2d014cbc84049488c4899df46bd538c156cb3a3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-flat-cut-prefix-and-tail.md",
+      "bytes": 5247,
+      "sha256": "757c9f21a20582be756a9e4f9f2d1a3abf92a47dc96650e0f3d674b00b26708e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-candidate.json",
+      "bytes": 33621,
+      "sha256": "fa7d242002223063a3da9bbbb6dbec2be1a034b0e93e64d7294e304705fb70fc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+      "bytes": 34237,
+      "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-report.json",
+      "bytes": 2492,
+      "sha256": "b8ac2fde895414daaf9eeff8584d4381fbc1721a7ecaf8ea4b6f0ed2897e8ae9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-meridian.npz",
+      "bytes": 163652,
+      "sha256": "25d7917c7faef5aad5818d6e644ebc6e9ea190b45c5f4ef6c44fc309314771c9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-report.json",
+      "bytes": 1957,
+      "sha256": "efcff460cae2fd1f99b3b83d7d34f253a3fe5fb30f911c107329a90837b59515"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-cut-positive-clock-check-01.json",
+      "bytes": 18924,
+      "sha256": "638e7401b07d02bcac37535dad07cd714233df75da9d02088a38c74e11108eef"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    },
+    {
+      "path": "scripts/fd2d-wider-cut-prefix-screen.py",
+      "bytes": 11445,
+      "sha256": "8e0712e0d3c8c8b58f5b2e02186bf97bd06232267bc55978068abc309017acca"
+    },
+    {
+      "path": "scripts/fd2d_partial_return_parameter.py",
+      "bytes": 6682,
+      "sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca"
+    },
+    {
+      "path": "scripts/fd2d_gc_design_profile.py",
+      "bytes": 5719,
+      "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+      "bytes": 33873,
+      "sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a"
+    }
+  ],
+  "executions": [
+    {
+      "name": "flat-cut-v1 generation",
+      "state": "complete report retained; original tool exit not retained after compaction",
+      "no_exit_fabricated": true
+    },
+    {
+      "name": "coast interface compatibility",
+      "session": 97448,
+      "chunk": "46d2ef",
+      "exit_code": 0,
+      "report": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-report.json"
+    },
+    {
+      "name": "R131 positive clock JVP/composition check",
+      "session": 84434,
+      "chunk": "7415ff",
+      "exit_code": 0,
+      "report": "notes/2026-11-12-fd2d-flat-cut-positive-clock-check-01.json"
+    }
+  ],
+  "index_status": "Only own R130 and R131 rows appended to results.md under explicit parent authorization; index intentionally not SHA-bound because other agents append independently.",
+  "scope": "Complete conditional tail geometry and exact coordinate proof; physical flat-cut prefix input. No solved nonround strong core or final target claim."
+}

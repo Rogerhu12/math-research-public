@@ -1,0 +1,19 @@
+{
+  "status": "PASS-curvature-budget-only-on-raw1-saved-spans",
+  "rowsEqualOldFrozenRun": true,
+  "sourceReportSHA256": "34601df554baa418752326dd980bd766b34bf9c6c8771ae6d047797e1a2461c7",
+  "metricOperatorUpper": 0.0001581695590167392,
+  "curvatureUpper": 6.515786200598575,
+  "curvatureBelowReachBudget": true,
+  "metricBelowOnePartPerMillion": false,
+  "spanInterval": [
+    3477,
+    4057
+  ],
+  "backendSHA256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "notCertified": [
+    "metric on this interval",
+    "complete outer-tail curvature",
+    "complete surface reach"
+  ]
+}

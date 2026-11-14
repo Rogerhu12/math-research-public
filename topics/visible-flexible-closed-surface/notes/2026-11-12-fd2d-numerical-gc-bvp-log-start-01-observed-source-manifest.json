@@ -1,0 +1,60 @@
+{
+  "scope": "Actual numerical entry and local providers at log-start-01 launch; originals retained unchanged during this run.",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    {
+      "path": "scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "scripts/fd2d_gc_bvp_ports.py",
+      "bytes": 5066,
+      "sha256": "9e283fd9aa0cf0f29c4ef1c3060fef4ecf2ab2b0bcc74638636fcb490cbf613c"
+    },
+    {
+      "path": "scripts/fd2d_gc_bvp_newton.py",
+      "bytes": 3509,
+      "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+    },
+    {
+      "path": "scripts/fd2d_gc_logshape.py",
+      "bytes": 5005,
+      "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+    },
+    {
+      "path": "scripts/fd2d_gc_logshape_stable.py",
+      "bytes": 1192,
+      "sha256": "c2107c094f673d38006111f1ab9b802267ff6a4974e656e8615543b3d959e580"
+    },
+    {
+      "path": "scripts/fd2d-gc-bvp-linear-start.py",
+      "bytes": 13869,
+      "sha256": "424cec79891267d9c3959484fd0bc0c389855b56c4a5a7d1c9154f6c9ae2bcd2"
+    },
+    {
+      "path": "scripts/fd2d-gc-bvp-log-start.py",
+      "bytes": 11264,
+      "sha256": "0f1d3e63eb91a65dad0506db3d8092b4b51e66ed6f2d40bfa7bde62ac6c9c966"
+    },
+    {
+      "path": "scripts/fd2d_metric_tail_gc_port.py",
+      "bytes": 8404,
+      "sha256": "2c9476d79db0260ddc423774b1f29b9176019851f35252b511b3c3c4d725fc95"
+    },
+    {
+      "path": "scripts/fd2d_balanced_oval_core.py",
+      "bytes": 10964,
+      "sha256": "1df75241ec76ae9a28042b72cbb721de61e7283378d82e7dea5ff05c3f84b692"
+    },
+    {
+      "path": "scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    }
+  ]
+}

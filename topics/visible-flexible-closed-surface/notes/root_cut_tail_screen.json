@@ -1,0 +1,123 @@
+{
+  "scope": "Background geometry only. No true DN, nonlinear matching, C2 closed flex or global reach certificate.",
+  "rows": [
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.5,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 80,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "success": true,
+      "stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.5,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 71.92861702899957,
+        "meridianLength": 0.3529172290121696,
+        "heightSpan": 0.0216288082485462,
+        "minimumWarpWidth": 0.14866993535891906,
+        "bufferMaxCurvature": 9.90930980273585,
+        "cutRadiusError": 1.1102230246251565e-16,
+        "cutSlopeError": -5.551115123125783e-17,
+        "cutSecondError": 2.6645352591003757e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "samples": {
+        "curvatureMax": 5.999877477439225,
+        "azimuthalCurvatureMax": 0.7466528533977597,
+        "slopeMax": 0.500311302239184,
+        "minRadialDerivative": 4.606978168062024e-41
+      },
+      "seconds": 5.174
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.5,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 80,
+        "slopeCap": 0.05,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "success": true,
+      "stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.5,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 36.16181834914474,
+        "meridianLength": 0.3539434010582503,
+        "heightSpan": 0.029125850293191407,
+        "minimumWarpWidth": 0.24893744145607608,
+        "bufferMaxCurvature": 9.90930980273585,
+        "cutRadiusError": 1.1102230246251565e-16,
+        "cutSlopeError": -5.551115123125783e-17,
+        "cutSecondError": 2.6645352591003757e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "samples": {
+        "curvatureMax": 5.999938401657653,
+        "azimuthalCurvatureMax": 0.7902548111616511,
+        "slopeMax": 0.5334527404121007,
+        "minRadialDerivative": 4.606978168062024e-41
+      },
+      "seconds": 4.093
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.5,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 80,
+        "slopeCap": 0.1,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "success": false,
+      "error": "Error: curvature redistribution exceeds requested width: {\"minimumWidth\":0.40524553731182544,\"requested\":0.35}",
+      "seconds": 2.706
+    }
+  ]
+}

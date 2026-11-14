@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "scope": "explicit actual30 R170 accurate last cell, native binding and R174 finite constants; no whole field or body claim",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_accurate_last_cell.py",
+      "bytes": 8240,
+      "sha256": "30401b51b3346405ba36544d17aadee8c1d389a26da4e506e799305ec37cb19f"
+    },
+    {
+      "path": "scripts/fd2d-dyadic-tail-accurate-last-cell-check.py",
+      "bytes": 6122,
+      "sha256": "76cc448f8454ff50fd274093f1c168351d6b2ca1e57d962d2edb313a8fc59454"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-definition.json",
+      "bytes": 8726,
+      "sha256": "1763e85e4fd36708e22b3cf5e63606f5d1051c6b1cf743009304aeddf136a7a6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-native-definition.json",
+      "bytes": 59298,
+      "sha256": "5853eda23c948549b871777ac3aabbb298c8f76808267ab45c114432b9f6d8db"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-majorant.json",
+      "bytes": 60725,
+      "sha256": "b664ec19130ed38e8893b826d0985d1cc54457ed0304a39880a58993aa239f69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-report.json",
+      "bytes": 22489,
+      "sha256": "dd7ee0340fa4381f04adcac19c2fa718eb68d0f7fd7559d8968882604c73ac58"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-exit-receipt.json",
+      "bytes": 828,
+      "sha256": "8769a9d8c4f59dd18e863f050581dc98da04ed3055cef09af3a18cd3bb675949"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-dyadic-tail-accurate-last-cell.md",
+      "bytes": 3294,
+      "sha256": "68a1e2537e6081ce396da36aea48ad00d2751bef4b309726790f2f59942fb7c6"
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 169722,
+  "actual_small_consumer_exit": 0,
+  "original_old_domain_constructor_invoked": false,
+  "whole_surface_certified": false
+}

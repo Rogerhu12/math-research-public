@@ -1,0 +1,12 @@
+{"time":"2026-11-09T03:02:14.759Z","event":"warm_initial_state","source":"/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m8-prefix-fine-result-state_0003.json.gz","sourceModes":8,"targetModes":12,"depth":10}
+{"time":"2026-11-09T03:02:14.783Z","event":"request","call":1,"height":[-0.0007749794756962077,-0.00001110262247431917,-3.002273976932951e-7,-1.3264097808492834e-8,-9.364915075002892e-10,-6.606894340330458e-11,-5.16258399463651e-12,-3.9904383802155e-13,0,0,0,0],"jacobian":false,"audit":true}
+{"time":"2026-11-09T03:02:30.802Z","event":"iteration","call":1,"elapsed_ms":16019,"iteration":0,"norm":1326.2266998632701,"minA":0.22782551275856247,"minD":0.991977480484104}
+{"time":"2026-11-09T03:02:30.841Z","event":"iteration","call":1,"elapsed_ms":16058,"iteration":0,"norm":1326.2266998632701,"minA":0.22782551275856247,"minD":0.991977480484104,"chartCondition":67862.63890071593,"phase":"correction"}
+{"time":"2026-11-09T03:02:54.502Z","event":"iteration","call":1,"elapsed_ms":39719,"iteration":1,"norm":1.953625215104038,"minA":0.24656981544253376,"minD":0.9919774810725263}
+{"time":"2026-11-09T03:02:54.529Z","event":"iteration","call":1,"elapsed_ms":39746,"iteration":1,"norm":1.953625215104038,"minA":0.24656981544253376,"minD":0.9919774810725263,"chartCondition":67862.49620600697,"phase":"correction"}
+{"time":"2026-11-09T03:03:16.023Z","event":"iteration","call":1,"elapsed_ms":61240,"iteration":2,"norm":0.03926078999325343,"minA":0.2458408096505567,"minD":0.9919774808809145}
+{"time":"2026-11-09T03:03:16.065Z","event":"iteration","call":1,"elapsed_ms":61282,"iteration":2,"norm":0.03926078999325343,"minA":0.2458408096505567,"minD":0.9919774808809145,"chartCondition":67862.62707999286,"phase":"correction"}
+{"time":"2026-11-09T03:03:39.098Z","event":"iteration","call":1,"elapsed_ms":84315,"iteration":3,"norm":0.000001344563335641957,"minA":0.2458426729228368,"minD":0.9919774808806554}
+{"time":"2026-11-09T03:03:39.126Z","event":"iteration","call":1,"elapsed_ms":84343,"iteration":3,"norm":0.000001344563335641957,"minA":0.2458426729228368,"minD":0.9919774808806554,"chartCondition":67862.62700191287,"phase":"correction"}
+{"time":"2026-11-09T03:04:03.170Z","event":"iteration","call":1,"elapsed_ms":108387,"iteration":4,"norm":1.0120089148119117e-9,"minA":0.24584267302283955,"minD":0.9919774808806555}
+{"time":"2026-11-09T03:04:14.178Z","event":"response","call":1,"elapsed_ms":119395,"converged":true,"residual":1.0120089148119117e-9,"maxChartCondition":67862.63890071593}

@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "complete_proof_and_read_only_entity_audit",
+  "scope": "Original full C3 phase cycle: a material-open rigid patch is pointwise fixed. Short-phase corollary only under proved full-angle analyticity; generic repaired gauge region not excluded. No strong-goal nonexistence claim.",
+  "no_bvp_or_main_source_mutation": true,
+  "finite_budget_arithmetic": "Exact Fractions displayed in audit note; no ODE or body calculation.",
+  "inputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-m12-repaired-closed-map-v2.json",
+      "sha256": "7cc24cf74d61da9415e3b63b460c5ed1af4681974c6ee84b31771e4facf519bc"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-m12-gauge-c2-01/prefix-field.json",
+      "sha256": "780a70825130ce322ac19f5626673e8308531bc4c03bbbe6cbd6fd403332c5a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-m12-gauge-tail-c2-streamfit-01/tail-field.json",
+      "sha256": "936b99bc5153bd9605741f1497cbc52161f3a30df0f8affe77ca7a3ffcb316df"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/R167-full-phase-C3-rigid-patches-are-pointwise-fixed.md",
+      "bytes": 6916,
+      "sha256": "f3682b382d16cc4b6badaf0e211b22e67e4ef6b9180b0c7332c896708d1bebff"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-R114-rigid-patch-amplification-audit.md",
+      "bytes": 9281,
+      "sha256": "ede43a1b32eda26a2387c67a6788db165749b52a21656b51c290079d2c8f507a"
+    }
+  ]
+}

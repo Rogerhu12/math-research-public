@@ -1,0 +1,41 @@
+{
+  "schema": "fd2d-closed-deliverable-manifest-v1",
+  "scope": "Lossless bounded-piece original LocalNormalSystem persistence and exact rebuilt mapping verification; opaque caller JSON mathematical binding",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_normal_checkpoint.py",
+      "bytes": 16976,
+      "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-normal-checkpoint-check.py",
+      "bytes": 7327,
+      "sha256": "abea53eff40e49079d558748edd198b2f4ce3f65a69b0c84f5186acb9446adf6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-normal-checkpoint-check-01.json",
+      "bytes": 30662,
+      "sha256": "b123572d01419aae2013001483ca272b50095cf6f815daab5b0e99aeb402e169"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-normal-checkpoint-check-01-process-receipt.json",
+      "bytes": 1016,
+      "sha256": "a5b18c4401720d716a42f573b042d7fd9644577fa8dc9419f47b93488355103c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-normal-checkpoint.md",
+      "bytes": 6741,
+      "sha256": "58bad913b260e00d0b508fcc1dd5898748fc5dabdf866640e43fac3c23bdfe8d"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 62722,
+  "actual_exit_code": 0,
+  "actual_process_receipt": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-normal-checkpoint-check-01-process-receipt.json",
+  "source_class_unchanged": true,
+  "no_new_R_number": true,
+  "no_active_source_modified": true,
+  "no_actual_normal_F_J_QP_BVP_computed": true,
+  "synthetic_fixture_values_not_published": true,
+  "synthetic_fixture_complete_definition_in_report": true
+}

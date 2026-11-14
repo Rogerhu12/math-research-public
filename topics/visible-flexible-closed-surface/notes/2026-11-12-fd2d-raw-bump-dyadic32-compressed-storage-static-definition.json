@@ -1,0 +1,48 @@
+{
+  "schema": "fd2d-compressed-normal-driver-static-definition-v1",
+  "actual_input": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-trial-back01-a01-accepted.npz",
+    "bytes": 133772,
+    "sha256": "dba5cbd01da65cd7ae156b7d33e5ecd80a971451335a34b5e72d2dcc797e2eda"
+  },
+  "new_sources": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_compressed_normal_tile_io.py",
+      "bytes": 2555,
+      "sha256": "3d324a341a03b796ee5e670314410d2cab83e7fbd7f1c2788ea78c0e5b315833"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-stage-normal-plan.py",
+      "bytes": 1506,
+      "sha256": "c30da55d8ea8dc13ee03071fb599f15217b44b4efd71b4f11b1bc0f4e1389667"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-stage-normal-tile-batch.py",
+      "bytes": 4549,
+      "sha256": "eff854721b0dd1bd8387c0c64309cf9e6c58a82eed79b4004e9fac59b419c92f"
+    },
+    {
+      "path": "scripts/fd2d-gc-dyadic-compressed-run-normal-tile-batches.py",
+      "bytes": 4705,
+      "sha256": "a6ec82c692d0d8c01b0f8d5353a5f161939e544116a6490694432683b7ac7f24"
+    }
+  ],
+  "compressed_tile_helper": {
+    "path": "scripts/fd2d_gc_compressed_normal_tile.py",
+    "bytes": 10561,
+    "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+  },
+  "reducer": {
+    "path": "scripts/fd2d-gc-compressed-piecewise-normal-reduce.py",
+    "bytes": 23369,
+    "sha256": "5416025f947fc02a7fafb84291b9a4272ba7839717618a20e491ea2c92579021"
+  },
+  "actual_normal_assembler_call_AST_identical": true,
+  "actual_context_constructor_call_AST_identical": true,
+  "finite_equations_changed": false,
+  "row_partition_changed": false,
+  "p_or_g_changed_by_storage": false,
+  "storage_binding_schema_changed_explicitly": true,
+  "complete_normal_not_yet_observed_when_static_definition_written": true,
+  "no_new_full_F_evaluation_in_adoption": true
+}

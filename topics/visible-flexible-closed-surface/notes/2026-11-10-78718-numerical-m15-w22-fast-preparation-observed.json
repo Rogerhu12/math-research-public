@@ -1,0 +1,27 @@
+{
+  "scope": "Actual pure preparation of the selected M15/N512 plus W22/N512 route; no DN/BVP or warm prediction was executed.",
+  "observer": "/root/numerical_recovery",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python topics/visible-flexible-closed-surface/scripts/78718-run-prefix-mode.py --modes 15 --angular 512 --tail-modes 22 --tail-angular 512 --jacobian fourier --transforms fourier --tail-jacobian fourier-root --tail-predictor tangent --restart topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz --tail-seed topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz --prepare-only --out-prefix topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-prepare-01",
+  "actual_tool_return": {
+    "chunk_id": "fbc9ee",
+    "wall_time_seconds": 0.540206029,
+    "exit_code": 0,
+    "original_token_count": 125,
+    "output": "{\"status\": \"PREPARED_WITHOUT_SOLVER\", \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-prepare-01-mode-run.json\", \"bytes\": 13709, \"sha256\": \"bd6cbdcac175b826203b623bf555addc7a5ae42c5ba0963ae7cab12fd21401c3\"}, \"modes\": 15, \"angular\": 512, \"tail_modes\": 22, \"tail_angular\": 512, \"initial_nodes\": 2633, \"height_difference_from_padded_tail_seed_max\": 0.0, \"maximum_weight\": 2048.0, \"solver_calls\": 0}\n"
+  },
+  "node_syntax_return": {
+    "chunk_id": "8247f1",
+    "wall_time_seconds": 0.003624188,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "python_syntax_return": {
+    "chunk_id": "510e68",
+    "wall_time_seconds": 0.000023375,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  }
+}

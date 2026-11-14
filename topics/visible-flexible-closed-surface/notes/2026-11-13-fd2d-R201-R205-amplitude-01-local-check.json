@@ -1,0 +1,266 @@
+{
+  "schema": "fd2d-R201-R205-actual-variable-amplitude-column-check-v1",
+  "source_sha256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+  "dimension": 932,
+  "amplitudeIndex": 931,
+  "amplitude": 0.25,
+  "step": 0.000002,
+  "completeMixedTwojetRelative": 1.3254882908771875e-11,
+  "completeMixedTwojetMaxAbs": 6.123791251866351e-9,
+  "curvatureHingeRelative": 1.3337026494701578e-9,
+  "pureAmplitudeTwojetRelative": 7.681354688669203e-10,
+  "pureAmplitudeColumnNorm": 10.353724051921544,
+  "cutTwojetDifference": 4.9682480351975755e-15,
+  "cutAmplitudeTwojetDifference": 1.9317880628477724e-14,
+  "rows": [
+    {
+      "s": 0.2,
+      "u": 0.371,
+      "relative": 1.2612366025522828e-9,
+      "maxAbs": 8.637692505697459e-10,
+      "curvature": 9.305182729698247,
+      "phase": {
+        "C": 3.1412741312739434,
+        "S": -2.208897667999466e-8,
+        "R": 3.1412741312739434
+      }
+    },
+    {
+      "s": 0.2,
+      "u": 2.13,
+      "relative": 1.976694280574266e-9,
+      "maxAbs": 1.870107258286624e-9,
+      "curvature": 9.54763153078512,
+      "phase": {
+        "C": 3.1412741312739434,
+        "S": -2.208897667999466e-8,
+        "R": 3.1412741312739434
+      }
+    },
+    {
+      "s": 0.45,
+      "u": 0.371,
+      "relative": 4.06835092032158e-12,
+      "maxAbs": 1.250043624168029e-9,
+      "curvature": 10.50650742221837,
+      "phase": {
+        "C": 3.1041536450885308,
+        "S": 0.00003375225519849413,
+        "R": 3.1041536452720293
+      }
+    },
+    {
+      "s": 0.45,
+      "u": 2.13,
+      "relative": 1.4930198387912912e-11,
+      "maxAbs": 6.123791251866351e-9,
+      "curvature": 7.172585600568704,
+      "phase": {
+        "C": 3.1041536450885308,
+        "S": 0.00003375225519849413,
+        "R": 3.1041536452720293
+      }
+    },
+    {
+      "s": 0.7,
+      "u": 0.371,
+      "relative": 2.1804549333708063e-11,
+      "maxAbs": 1.4375469703509225e-9,
+      "curvature": 8.489710674076644,
+      "phase": {
+        "C": 3.034356653917792,
+        "S": 0.000024527566971433985,
+        "R": 3.0343566540169236
+      }
+    },
+    {
+      "s": 0.7,
+      "u": 2.13,
+      "relative": 1.1627373041557215e-11,
+      "maxAbs": 4.396731867473136e-10,
+      "curvature": 7.302599508152259,
+      "phase": {
+        "C": 3.034356653917792,
+        "S": 0.000024527566971433985,
+        "R": 3.0343566540169236
+      }
+    },
+    {
+      "s": 0.82,
+      "u": 0.371,
+      "relative": 1.0185488935683093e-9,
+      "maxAbs": 7.370544452545147e-10,
+      "curvature": 12.548334937514948,
+      "phase": {
+        "C": 3.1218505482263152,
+        "S": -0.000004840179701958867,
+        "R": 3.1218505482300674
+      }
+    },
+    {
+      "s": 0.82,
+      "u": 2.13,
+      "relative": 1.37123144375582e-9,
+      "maxAbs": 1.317900788500026e-9,
+      "curvature": 1.6479980313347382,
+      "phase": {
+        "C": 3.1218505482263152,
+        "S": -0.000004840179701958867,
+        "R": 3.1218505482300674
+      }
+    }
+  ],
+  "cutRows": [
+    {
+      "u": 0.13,
+      "twojet": 1.4565303087093504e-16,
+      "amplitudeTwojet": 1.7763568394002505e-15
+    },
+    {
+      "u": 0.731,
+      "twojet": 2.220446049250313e-16,
+      "amplitudeTwojet": 5.551115123125783e-16
+    },
+    {
+      "u": 1.37,
+      "twojet": 4.9682480351975755e-15,
+      "amplitudeTwojet": 1.9317880628477724e-14
+    },
+    {
+      "u": 2.37,
+      "twojet": 1.887379141862766e-15,
+      "amplitudeTwojet": 6.217248937900877e-15
+    },
+    {
+      "u": 4.2,
+      "twojet": 2.2065682614424986e-15,
+      "amplitudeTwojet": 8.881784197001252e-15
+    }
+  ],
+  "continuousCertificate": false,
+  "actualAccepted": false,
+  "input": {
+    "parent": {
+      "path": "notes/2026-11-13-fd2d-R201-half-period-actual-01-checkpoint.json",
+      "bytes": 65074,
+      "sha256": "10df8c5f5f5f31e61373fcfe94df36943733b9f64faa13d8eced8b3ddd010fb9"
+    },
+    "initialAmplitude": 0.25,
+    "all931ParentCoefficientsCopied": true
+  },
+  "direction": {
+    "entries": [
+      {
+        "index": 434,
+        "value": 0.019
+      },
+      {
+        "index": 450,
+        "value": 0.007
+      },
+      {
+        "index": 474,
+        "value": -0.011
+      },
+      {
+        "index": 692,
+        "value": 0.43
+      },
+      {
+        "index": 706,
+        "value": 0.17
+      },
+      {
+        "index": 835,
+        "value": -0.31
+      },
+      {
+        "index": 931,
+        "value": 0.37
+      }
+    ],
+    "basis": "same saved actual nonreflection field; theta cos2, psi cos4, theta constant, height, rho, cut height, A"
+  },
+  "query": {
+    "s": [
+      0.2,
+      0.45,
+      0.7,
+      0.82
+    ],
+    "u": [
+      0.371,
+      2.13
+    ],
+    "cutAngles": [
+      0.13,
+      0.731,
+      1.37,
+      2.37,
+      4.2
+    ]
+  },
+  "sourceBindings": {
+    "scripts/fd2d-R201-R205-full-half-fixed-amplitude-provider.cjs": {
+      "bytes": 23398,
+      "sha256": "6183fdfaeb53554e1e61fd36424e768f5fba072a0364f0d1480de67a62d1ace1",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-half-period-geometric-guide.cjs": {
+      "bytes": 8696,
+      "sha256": "6d156bca7a4126f02b8c65226fcc0f5f82910054a40c79ecc11e58b831419bbb",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-band-border-layout.cjs": {
+      "bytes": 14456,
+      "sha256": "636bdea5b19c8334a69ae3ad5adc1cfacd5370d7321905bc1ff5ad32829be82b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-provider.cjs": {
+      "bytes": 26557,
+      "sha256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-geometric-guide.cjs": {
+      "bytes": 8936,
+      "sha256": "27c3a30cb4a454222c9185bf248491b6b1d954e0b3cd11759af10d88852060b7",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-run-R201-R205-variable-amplitude.cjs": {
+      "bytes": 6904,
+      "sha256": "8e7eda9e24ef202e0c931efd36ace1d323aa8f37148faeed3fe4409d7716c64a",
+      "usage": "replay entry, syntax checked; not the actual functions invocation"
+    }
+  },
+  "dependencyBindings": {
+    "scripts/fd2d-direct-position-tangent-lift-baseline-R187.cjs": {
+      "bytes": 12898,
+      "sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf"
+    },
+    "scripts/fd2d-cubic-spline-refinement-R196.cjs": {
+      "bytes": 10459,
+      "sha256": "ecef2af139d2fe92387c2984ca75edf26e7fd0b6f44e909cf91ac3b2530a5f77"
+    },
+    "scripts/fd2d-nonuniform-metric-provider-R196.cjs": {
+      "bytes": 12736,
+      "sha256": "a941529bfa24849758bb3539bf23871919cbc9c3f4778703080ecabc5d5cac3e"
+    },
+    "scripts/fd2d-position-curvature-chain-R191.cjs": {
+      "bytes": 3222,
+      "sha256": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812"
+    },
+    "scripts/fd2d-bent-annulus-reference-R205.cjs": {
+      "bytes": 12398,
+      "sha256": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7"
+    },
+    "scripts/fd2d_appended_global_schur_R206.cjs": {
+      "bytes": 6626,
+      "sha256": "b28febaee12d2bad62457ba6b2371a34cd273b2cee9eebc006fc9e961e1c36ba"
+    },
+    "scripts/fd2d_band_border_lm_adapter_v2_R195.cjs": {
+      "bytes": 12143,
+      "sha256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1"
+    }
+  },
+  "explanation": "All reported JVPs are finite centered-difference implementation checks, not interval enclosures. The amplitude-only column is nonzero. At cut, compare the complete Cartesian twojet and its amplitude derivative to the independent R205 tailPoint formula."
+}

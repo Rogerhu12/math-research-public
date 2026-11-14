@@ -1,0 +1,90 @@
+{
+  "scope": "Closed successful s=.25 recovery, root observed actual exit, exact verification and immutable resume02 launch only. No active resume02 or zero-pilot output.",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-config.json",
+      "bytes": 3073,
+      "sha256": "f933a3e7ac102f589276cca3e34db5c4999ce21b3efe2ddc3fa0731fecce5eb6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-iteration.json.gz",
+      "bytes": 263135,
+      "sha256": "6e0a4b8e22d4a1e998a93a3ce04742d071f24b524c70c1154590fa30b74beac4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-reproduction.json",
+      "bytes": 3974,
+      "sha256": "41ccf599d554389c8bb7d1c9ade57c3fcdb50037fed05645e1d5ed98b7c7ca93"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-run.log",
+      "bytes": 548,
+      "sha256": "2dd32f51d6ee5e3ff80eccb4c78f7defd2417661f40dda60e93d96c9f82106f0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-summary.json",
+      "bytes": 570,
+      "sha256": "7558e7ffd9c38505e9decde179b390dc46462dc884f815fdb564c972aab32110"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trace.jsonl",
+      "bytes": 6038,
+      "sha256": "79bbbaefcdc7876ad345a6ee14e0964ac406341441df969d88b37226bc12ff90"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01-trials.jsonl",
+      "bytes": 6425,
+      "sha256": "2bc940724b85d170e9d3fb27ce92f26de354b6ffba4a5334fac3d8a71f6d4b3d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+      "bytes": 273159,
+      "sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-recovery-s025-observed-execution.json",
+      "bytes": 2514,
+      "sha256": "5a5b0b79316b55f2f5e726ab211f640efeb252578c9983372fd260224f0661f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-s025-recovery-result.json",
+      "bytes": 3693,
+      "sha256": "0b2c42a87b706584761d51c26ef4f6af7aaa23c0b2b93f8fcfac7093b53f7347"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-s025-recovery-result.md",
+      "bytes": 4281,
+      "sha256": "0c5f5b0e75e95b4c3c69b6cccc07b45f0d33b7f280b5fd0e6a984c9262377c04"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-launch.json",
+      "bytes": 22355,
+      "sha256": "b2e7371a89906a5f1048077eb2040fef8f2c0a58a136ef3812ab6cbc36b5310e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-setup-rejection.json",
+      "bytes": 657,
+      "sha256": "43a410225ad33107cd6972a54e497f95f4f3296203ab33185ef87fe981ef0fb1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-amplitude-resume02.py",
+      "bytes": 9118,
+      "sha256": "f56b296611c8dec74dccef9d0864922df8e884e1534e65ce37ce9d9a240f0f52"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-amplitude-resume02-pre-options-fix.py",
+      "bytes": 8624,
+      "sha256": "24416af28e90b0bbbb8820f853bd1ccaaac93a49c0e603f35e1d6ac534b220de"
+    }
+  ],
+  "total_bytes": 608164,
+  "maximum_file_bytes": 273159,
+  "actual_root_tool_session": 48634,
+  "actual_tool_exit_code": 0,
+  "mathematical_status": "True finite DN warm at s=.25; full prefix unresolved",
+  "exclude": [
+    "continuation-02 active files",
+    "zero-initial pilot active files",
+    "unrun paused LS draft"
+  ]
+}

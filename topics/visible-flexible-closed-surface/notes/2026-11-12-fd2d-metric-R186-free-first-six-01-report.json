@@ -1,0 +1,35 @@
+{
+  "schema": "fd2d-R186-free-first-six-corollary-exact-arithmetic-v1",
+  "actual_execution": "functions.exec V8 BigInt; no OS subprocess",
+  "passed": true,
+  "delta_absolute_bound": [
+    "5764607523034235",
+    "72057594037927936"
+  ],
+  "delta7_lower": [
+    "7782220156096217",
+    "288230376151711744"
+  ],
+  "all_profile_radius_lower": [
+    "57646075230342347",
+    "180143985094819840"
+  ],
+  "all_profile_radius_above_319_over_1000": [
+    "4503599627370451",
+    "4503599627370496000"
+  ],
+  "support6_right_before_target_left": true,
+  "bump7_left_after_middle_support_right": true,
+  "local_a_ss_strict_lower": [
+    "11",
+    "10000"
+  ],
+  "local_K_strict_upper": [
+    "-11",
+    "10000"
+  ],
+  "local_bounds_inherited_from_R186": true,
+  "no_new_profile_or_field_evaluation": true,
+  "original_R186_proof_sha256": "cbbab39508842f0bccaabe96fc567e04c6a3537d22796b0b0ca881655e3804ec",
+  "exact_radius_display": 0.31999999999999995
+}

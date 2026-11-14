@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-actual-publisher-initialization-recovery-v1",
+  "observed_utc": "2026-11-12T18:23:50Z",
+  "failed_publisher": {
+    "session": 64500,
+    "launch_chunk": "f9814f",
+    "completion_chunk": "70d075",
+    "actual_exit_code": 1,
+    "pull_exit_code": 1,
+    "HEAD": "19d76f60712c08f2c8dc4d000ec4c41c48e15f62",
+    "origin_main_after_fetch": "44c5ba276a819b20202850ade7dc651d5f9883ea",
+    "both_readme_diff_empty": true,
+    "diagnostic": "New --no-checkout worktree had an empty index, observed by git ls-files --sparse --stage returning zero entries. Pull reported staged deletions of .github/ and topics/; there were no user-authored files in this new owned worktree."
+  },
+  "recovery": {
+    "command": "git read-tree --reset -u HEAD",
+    "scope": "New owned math-research-publish-sparse worktree only; existing publisher and computation source unchanged",
+    "session": 90043,
+    "launch_chunk": "4c92b2",
+    "completion_chunk": "ca5906",
+    "actual_exit_code": 0,
+    "result": "8 sparse index entries: four top-level files and four directory tree entries. HEAD remains the same; no commit or main push performed."
+  },
+  "computation_source_untouched": true
+}

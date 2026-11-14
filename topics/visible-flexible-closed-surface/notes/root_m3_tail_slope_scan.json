@@ -1,0 +1,888 @@
+{
+  "scope": "Explore genuinely recomputed m3 tail ports at several physical cut slopes.\nDesign changes only; not a convergence study or a nonlinear tail assertion.\n",
+  "rows": [
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.05,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 10.563922380684176,
+        "unitDirection": [
+          0.8175917292789918,
+          0.5757983711461746
+        ],
+        "logHeightGain": 440.10148779915585,
+        "linearTPositivityAmplitudeThreshold": 3.1906486199385725e-06,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.9921875,
+          "r": 0.49143136955081484,
+          "w": 3.208724228073999e-05,
+          "f": 0.0030290998188998905,
+          "fr": 10.112126306808024,
+          "baseT": 1.5768677402897575e-05,
+          "linearT": 4.942154176538925
+        },
+        "normalizedHeightMax": 0.999999999999986,
+        "normalizedDerivativeMax": 11.880063882982578,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.05,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 98.88102995340913,
+        "meridianLength": 0.3500616027355294,
+        "heightSpan": 0.004859173617918835,
+        "minimumWarpWidth": 0.07283291008597709,
+        "bufferMaxCurvature": 1.3801868147801495,
+        "cutRadiusError": 0,
+        "cutSlopeError": 2.7755575615628914e-17,
+        "cutSecondError": -2.220446049250313e-16,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.05,
+            "delta": 0.07163519289734983
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.7214180976316882e-14
+          ],
+          "gain": 0.005898115211644921,
+          "terminal_height_first_order": 0.0005898115211644922,
+          "background_height": 1.1495830651854044,
+          "background_kappa": 5.375974862244215,
+          "length": 1.4295901695441424,
+          "radius_min": 0.5999999999999998,
+          "radius_max": 1.0716351928973498,
+          "comparison_D": 3.619932849643466,
+          "comparison_hold_ratio": 0.05524964365559941,
+          "comparison_background_kappaD": 19.460668002695343,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 184.8563071090691
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.05,
+            "delta": 0.0679099312995062
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -7.584799638373517e-16
+          ],
+          "gain": 0.007230798292283606,
+          "terminal_height_first_order": 0.0007230798292283606,
+          "background_height": 1.0002795344959354,
+          "background_kappa": 7.221507762039145,
+          "length": 1.2823379066701321,
+          "radius_min": 0.5999999999999999,
+          "radius_max": 1.0679099312995062,
+          "comparison_D": 3.3926988316840343,
+          "comparison_hold_ratio": 0.058950119041579055,
+          "comparison_background_kappaD": 24.50040094726739,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 226.62471345474626
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.1,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 11.38057194993289,
+        "unitDirection": [
+          0.7966590064180004,
+          0.6044290094734734
+        ],
+        "logHeightGain": 436.6969827148428,
+        "linearTPositivityAmplitudeThreshold": 6.557289630575897e-06,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.9921875,
+          "r": 0.4884796997787363,
+          "w": 6.41744845614801e-05,
+          "f": 0.001268756664744497,
+          "fr": 9.810115588204372,
+          "baseT": 3.134793282294473e-05,
+          "linearT": 4.780623487602695
+        },
+        "normalizedHeightMax": 0.9999999999999847,
+        "normalizedDerivativeMax": 11.948034532694791,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.1,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 94.43292096893808,
+        "meridianLength": 0.35012170243070656,
+        "heightSpan": 0.005831603182139603,
+        "minimumWarpWidth": 0.08531980305400527,
+        "bufferMaxCurvature": 2.7296472621342804,
+        "cutRadiusError": 2.220446049250313e-16,
+        "cutSlopeError": -1.1102230246251565e-16,
+        "cutSecondError": 1.5543122344752192e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.1,
+            "delta": 0.07191774166079314
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.1544064051838397e-14
+          ],
+          "gain": 0.006702631085685262,
+          "terminal_height_first_order": 0.0006702631085685263,
+          "background_height": 1.1472339286860467,
+          "background_kappa": 5.354853856292807,
+          "length": 1.4262535297966923,
+          "radius_min": 0.6,
+          "radius_max": 1.0719177416607932,
+          "comparison_D": 3.6167192246804762,
+          "comparison_hold_ratio": 0.05529873555989663,
+          "comparison_background_kappaD": 19.367002887408578,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 102.2164867391499
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.1,
+            "delta": 0.06825939217273175
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.01498604087254e-15
+          ],
+          "gain": 0.008218483187843148,
+          "terminal_height_first_order": 0.0008218483187843148,
+          "background_height": 0.9980706922318852,
+          "background_kappa": 7.184536521478709,
+          "length": 1.279176070811542,
+          "radius_min": 0.5999999999999998,
+          "radius_max": 1.0682593921727317,
+          "comparison_D": 3.389977954216636,
+          "comparison_hold_ratio": 0.058997433818479356,
+          "comparison_background_kappaD": 24.3554204190771,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 125.33353947828223
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.2,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 11.443349562452557,
+        "unitDirection": [
+          0.7950539661089007,
+          0.6065386970132305
+        ],
+        "logHeightGain": 432.6367895414438,
+        "linearTPositivityAmplitudeThreshold": 1.3939666011986041e-05,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.9921875,
+          "r": 0.4815374561014674,
+          "w": 0.00012834896912296046,
+          "f": -0.001954299308307798,
+          "fr": 9.170937605239939,
+          "baseT": 6.180483506657682e-05,
+          "linearT": 4.433738585518035
+        },
+        "normalizedHeightMax": 1.000000000000022,
+        "normalizedDerivativeMax": 11.64507611486295,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.2,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 87.93688782485943,
+        "meridianLength": 0.3503759243781596,
+        "heightSpan": 0.008331910808557037,
+        "minimumWarpWidth": 0.10358235177412264,
+        "bufferMaxCurvature": 5.224515391233358,
+        "cutRadiusError": -2.220446049250313e-16,
+        "cutSlopeError": 1.3877787807814457e-16,
+        "cutSecondError": -1.3322676295501878e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.2,
+            "delta": 0.0723401858982623
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.953536218184046e-14
+          ],
+          "gain": 0.008650130542181457,
+          "terminal_height_first_order": 0.0008650130542181457,
+          "background_height": 1.1454439750659926,
+          "background_kappa": 5.32358317145849,
+          "length": 1.4215677434402498,
+          "radius_min": 0.6000000000000003,
+          "radius_max": 1.0723401858982622,
+          "comparison_D": 3.6145415421695244,
+          "comparison_hold_ratio": 0.05533205184299964,
+          "comparison_background_kappaD": 19.2423125264313,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 62.05407313735946
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.2,
+            "delta": 0.06878226463827387
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.7379490560122262e-15
+          ],
+          "gain": 0.010608480205207748,
+          "terminal_height_first_order": 0.0010608480205207748,
+          "background_height": 0.9964939498648429,
+          "background_kappa": 7.129920751781114,
+          "length": 1.274755216933833,
+          "radius_min": 0.6000000000000003,
+          "radius_max": 1.0687822646382739,
+          "comparison_D": 3.388415199581088,
+          "comparison_hold_ratio": 0.059024643740450154,
+          "comparison_background_kappaD": 24.159131847143744,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 76.10282912148708
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.3,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 11.182265552335991,
+        "unitDirection": [
+          0.8017344058330051,
+          0.5976804685645986
+        ],
+        "logHeightGain": 429.43724156178627,
+        "linearTPositivityAmplitudeThreshold": 2.2163448744083384e-05,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.9921875,
+          "r": 0.4740983400242318,
+          "w": 0.00019252345368443987,
+          "f": -0.004868776717351977,
+          "fr": 8.594103650399527,
+          "baseT": 9.127504642438984e-05,
+          "linearT": 4.118269114086139
+        },
+        "normalizedHeightMax": 1.0000000000000258,
+        "normalizedDerivativeMax": 11.254660677014927,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.3,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 82.24010015718156,
+        "meridianLength": 0.3508711682152108,
+        "heightSpan": 0.011765354035503049,
+        "minimumWarpWidth": 0.11961962296475233,
+        "bufferMaxCurvature": 7.303191518634374,
+        "cutRadiusError": -1.1102230246251565e-16,
+        "cutSlopeError": 5.551115123125783e-17,
+        "cutSecondError": 4.440892098500626e-16,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.3,
+            "delta": 0.07257351207318179
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -3.492506205900168e-14
+          ],
+          "gain": 0.010977049881344136,
+          "terminal_height_first_order": 0.0010977049881344136,
+          "background_height": 1.1482384903288427,
+          "background_kappa": 5.30646768038222,
+          "length": 1.4197251120817482,
+          "radius_min": 0.600000000000001,
+          "radius_max": 1.0725735120731819,
+          "comparison_D": 3.6190993230026525,
+          "comparison_hold_ratio": 0.05526236838232622,
+          "comparison_background_kappaD": 19.20463358960675,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 49.52771569124368
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.3,
+            "delta": 0.06907122489281133
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.7582107563724044e-15
+          ],
+          "gain": 0.013463235577944509,
+          "terminal_height_first_order": 0.001346323557794451,
+          "background_height": 0.9994077024653081,
+          "background_kappa": 7.100092647263439,
+          "length": 1.2730604432594208,
+          "radius_min": 0.600000000000001,
+          "radius_max": 1.0690712248928114,
+          "comparison_D": 3.393034528414591,
+          "comparison_hold_ratio": 0.05894428669237587,
+          "comparison_background_kappaD": 24.090859507107407,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 60.74521945299046
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.1,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.05,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 8.65114945208323,
+        "unitDirection": [
+          0.8662529884618088,
+          0.49960560443312246
+        ],
+        "logHeightGain": 418.96100990895917,
+        "linearTPositivityAmplitudeThreshold": 4.34549339215562e-06,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.99609375,
+          "r": 0.503931899021815,
+          "w": 6.417135005876525e-05,
+          "f": 0.002668685877880394,
+          "fr": 14.814995025617062,
+          "baseT": 3.233799016474061e-05,
+          "linearT": 7.441730373613355
+        },
+        "normalizedHeightMax": 1.0000000000000033,
+        "normalizedDerivativeMax": 14.952142218336343,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.1,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 63.346183791952924,
+        "meridianLength": 0.350404830207682,
+        "heightSpan": 0.012311222289038786,
+        "minimumWarpWidth": 0.17268174307084067,
+        "bufferMaxCurvature": 2.7296472621342804,
+        "cutRadiusError": 0,
+        "cutSlopeError": -1.1102230246251565e-16,
+        "cutSecondError": 1.5543122344752192e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.1,
+            "delta": 0.07191671559173293
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.1590469618435525e-14
+          ],
+          "gain": 0.008165711445147905,
+          "terminal_height_first_order": 0.0008165711445147906,
+          "background_height": 1.1472230984605976,
+          "background_kappa": 5.354930256470689,
+          "length": 1.4262424140485401,
+          "radius_min": 0.5999999999999998,
+          "radius_max": 1.0719167155917328,
+          "comparison_D": 3.6167013983555365,
+          "comparison_hold_ratio": 0.055299008121305566,
+          "comparison_background_kappaD": 19.367183746673913,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 187.91218184541373
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.1,
+            "delta": 0.06825812271054439
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -9.262582267966827e-16
+          ],
+          "gain": 0.010012444966921974,
+          "terminal_height_first_order": 0.0010012444966921974,
+          "background_height": 0.9980593489266534,
+          "background_kappa": 7.184670139238551,
+          "length": 1.2791643165320297,
+          "radius_min": 0.5999999999999998,
+          "radius_max": 1.0682581227105443,
+          "comparison_D": 3.3899597671744255,
+          "comparison_hold_ratio": 0.0589977503381117,
+          "comparison_background_kappaD": 24.355742712438165,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 230.40985368879396
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.2,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.05,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 9.513326796368757,
+        "unitDirection": [
+          0.8444797623278466,
+          0.5355874634629748
+        ],
+        "logHeightGain": 411.502434698932,
+        "linearTPositivityAmplitudeThreshold": 8.307618904128549e-06,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.99609375,
+          "r": 0.499478195509801,
+          "w": 0.0001283427001175303,
+          "f": -9.897347868739959e-05,
+          "fr": 15.447011463269876,
+          "baseT": 6.410437920564191e-05,
+          "linearT": 7.716336045913787
+        },
+        "normalizedHeightMax": 1.000000000000012,
+        "normalizedDerivativeMax": 15.59708535705256,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.2,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 53.47923534516465,
+        "meridianLength": 0.35089211134614806,
+        "heightSpan": 0.015906663540753645,
+        "minimumWarpWidth": 0.2003462440719533,
+        "bufferMaxCurvature": 5.224515391233358,
+        "cutRadiusError": 1.1102230246251565e-16,
+        "cutSlopeError": 1.3877787807814457e-16,
+        "cutSecondError": -1.3322676295501878e-15,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.2,
+            "delta": 0.07233778071951083
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.9415885240328625e-14
+          ],
+          "gain": 0.010498436825430097,
+          "terminal_height_first_order": 0.0010498436825430097,
+          "background_height": 1.1454185882483467,
+          "background_kappa": 5.3237601767384195,
+          "length": 1.421541687337109,
+          "radius_min": 0.6000000000000003,
+          "radius_max": 1.072337780719511,
+          "comparison_D": 3.614499780053347,
+          "comparison_hold_ratio": 0.05533269115236968,
+          "comparison_background_kappaD": 19.242729987877787,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 126.37118946576618
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.2,
+            "delta": 0.06877928652706783
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.5849387084521517e-15
+          ],
+          "gain": 0.012875222879984782,
+          "terminal_height_first_order": 0.0012875222879984783,
+          "background_height": 0.996467338891502,
+          "background_kappa": 7.130229474042732,
+          "length": 1.2747276418300733,
+          "radius_min": 0.6000000000000003,
+          "radius_max": 1.0687792865270678,
+          "comparison_D": 3.388372561559501,
+          "comparison_hold_ratio": 0.059025386484640244,
+          "comparison_background_kappaD": 24.159873907469226,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 154.98090401795298
+        }
+      ]
+    },
+    {
+      "config": {
+        "rCut": 0.6,
+        "wCut": 0.3,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.05,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10
+      },
+      "tail": {
+        "mode": 3,
+        "far": 32,
+        "steps": 256,
+        "cutSlope": 9.71348562036652,
+        "unitDirection": [
+          0.8393760492618905,
+          0.5435511456390288
+        ],
+        "logHeightGain": 406.01589169101953,
+        "linearTPositivityAmplitudeThreshold": 1.2055150142321584e-05,
+        "thresholdLocation": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.99609375,
+          "r": 0.4942895850102626,
+          "w": 0.00019251405017629532,
+          "f": -0.0032469193841851065,
+          "fr": 15.910324672641956,
+          "baseT": 9.515768644358411e-05,
+          "linearT": 7.893529762812114
+        },
+        "normalizedHeightMax": 0.9999999999999727,
+        "normalizedDerivativeMax": 16.07014328413087,
+        "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+      },
+      "tail_stats": {
+        "rCut": 0.6,
+        "rCuff": 0.25,
+        "oldCut": 0.25281475451853164,
+        "wCut": 0.3,
+        "width": 0.35,
+        "curvatureBound": 6,
+        "alpha": 46.67334583661145,
+        "meridianLength": 0.351651471981257,
+        "heightSpan": 0.01994215523426843,
+        "minimumWarpWidth": 0.21944119304773244,
+        "bufferMaxCurvature": 7.303191518634374,
+        "cutRadiusError": 1.1102230246251565e-16,
+        "cutSlopeError": 5.551115123125783e-17,
+        "cutSecondError": 4.440892098500626e-16,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "deepDerivativeRatio": 1,
+        "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.3,
+            "delta": 0.07256912153964856
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -3.511619508813767e-14
+          ],
+          "gain": 0.013237944616732156,
+          "terminal_height_first_order": 0.0013237944616732158,
+          "background_height": 1.1481921479627681,
+          "background_kappa": 5.3067887291120295,
+          "length": 1.4196775479684718,
+          "radius_min": 0.600000000000001,
+          "radius_max": 1.0725691215396487,
+          "comparison_D": 3.6190230402662498,
+          "comparison_hold_ratio": 0.055263533217319916,
+          "comparison_background_kappaD": 19.205390680481685,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 109.81152835465882
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.3,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.3,
+            "delta": 0.06906578655311033
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.8702558417397864e-15
+          ],
+          "gain": 0.016236178880434302,
+          "terminal_height_first_order": 0.0016236178880434304,
+          "background_height": 0.9993591080701397,
+          "background_kappa": 7.1006517188045235,
+          "length": 1.2730100882621893,
+          "radius_min": 0.600000000000001,
+          "radius_max": 1.0690657865531104,
+          "comparison_D": 3.3929566044286816,
+          "comparison_hold_ratio": 0.05894564043022199,
+          "comparison_background_kappaD": 24.092203145065678,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 134.68251070083758
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 70.87752747535706
+}

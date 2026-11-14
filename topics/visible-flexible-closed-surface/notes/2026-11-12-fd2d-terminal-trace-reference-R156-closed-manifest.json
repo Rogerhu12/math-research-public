@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-terminal-trace-R156-closed-group-v1",
+  "files": [
+    {
+      "path": "results/R156-terminal-brake-trace-regularity-and-round-tail-reference.md",
+      "bytes": 9752,
+      "sha256": "bc80e47b22c5e2d4023bc08fbf7586c808334cdece01d848729f980ae654b4ec"
+    },
+    {
+      "path": "scripts/fd2d_terminal_trace_reference_probe.py",
+      "bytes": 6049,
+      "sha256": "4fb0e11a713e5f0ba53d455e3fa7c1710e1c4af83901ff89545a8e0fbb2d42c2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-terminal-trace-reference-comparison-01.json",
+      "bytes": 5229,
+      "sha256": "4c4d2824982638210c79f0c46caf00757a41fdf90489a3ca38f9236841784e26"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-terminal-trace-reference-comparison-01-exit.json",
+      "bytes": 258,
+      "sha256": "1938bb2d24e2b372b4dc971cbdbb36d9d6d068bd7ca97e08004f9f70117f9cdb"
+    }
+  ],
+  "actual_execution": {
+    "session_id": 27970,
+    "final_chunk": "a791dd",
+    "exit_code": 0,
+    "seconds": 0.5028734860006807,
+    "peak_rss_kib": 66228,
+    "radial_samples": 87,
+    "angular_samples": 1024,
+    "scope": "Natural small pointwise reference comparison, not a BVP or body"
+  },
+  "continuous_proof_scope": "Actual cubic brake; positive-trace endpoint continuity; explicit round-tail reference with exact zero-arc GC and angular two-jet trace. Other angular Codazzi remain nonzero.",
+  "strong_target_completed": false
+}

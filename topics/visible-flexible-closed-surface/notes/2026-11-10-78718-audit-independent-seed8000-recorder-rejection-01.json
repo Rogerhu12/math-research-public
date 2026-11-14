@@ -1,0 +1,19 @@
+{
+  "status": "PASS_GENUINE_GUARD_METADATA_CANNOT_BE_RELABELED_AS_TOOL_COMPLETION",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-independent-tool-observation-v1.py",
+    "bytes": 3825,
+    "sha256": "65daca0b3bc7b8512bab1fff4edf672c2d158a0b21198b2d0f5a23815a7f0a6b"
+  },
+  "actual_old_guard_metadata": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-guard-completion.json",
+    "bytes": 1305,
+    "sha256": "b49df9783672134346088e6dbcf137196a9196f68147d2ee20b82106fac0072a"
+  },
+  "subprocess_exit_code": 1,
+  "error_last_line": "ValueError: Natural tool exit code and receipt are required",
+  "observation_files_created": 0,
+  "positive_observation_created": false,
+  "solver_calls": 0,
+  "scope": "Only one actual ineligible guard object was supplied as a negative case. No tool result or session id was invented, and no root or independent success observation was created."
+}

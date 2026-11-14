@@ -1,0 +1,18 @@
+{
+  "tool_exit_code": 1,
+  "chunk": "aa4799",
+  "error": "Physical or radial finite identity differs",
+  "phase": "Before any profile/root or jet evaluation",
+  "source_sha256": "94028838654a249dcc32384c98809ceea506aaaaeebf4cd95730079d168d0865",
+  "actual_parameter_differences": [
+    "modes",
+    "quadrature",
+    "traceFile",
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "stageCacheRoot",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "correction": "V2 excludes the explicit runtime path fields in addition to the two intended spectral changes. Every physical/radial value remains compared exactly."
+}

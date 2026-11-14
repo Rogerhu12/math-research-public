@@ -1,0 +1,93 @@
+{
+  "purpose": "exploration only; not an exact-isometry or reach certificate",
+  "arguments": {
+    "cells": 18,
+    "modes": 4,
+    "amplitude": 0.06,
+    "height": 0.0,
+    "ripple": 0.0,
+    "vary_mean": true,
+    "hessian_limit": 0.0,
+    "hessian_weight": 10.0,
+    "max_nfev": 240,
+    "out": "math-research/topics/visible-flexible-closed-surface/notes/direct-band-flat-free-m4n18"
+  },
+  "unknowns": 237,
+  "residuals": 8640,
+  "jacobian_directional_checks": {
+    "0.0001": 4.981528154734312e-13,
+    "1e-05": 5.14454081333462e-12,
+    "1e-06": 5.2075275296624055e-11
+  },
+  "initial": {
+    "max_relative_metric_spectral_defect": 0.057653357719305985,
+    "max_E_nonmean_relative": 0.057653357719305985,
+    "max_F_relative": 0.025697770365382858,
+    "max_G_relative": 0.04144076540710081,
+    "max_abs_principal_curvature_sampled": 4.8349864677896015,
+    "minimum_curvature_radius_sampled": 0.20682581154299848,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      -0.06,
+      0.06
+    ],
+    "max_cartesian_domain_hessian_components_sampled": [
+      4.834986467789601,
+      1.2145725928228002,
+      0.8657157132061841
+    ],
+    "dense_grid": [
+      145,
+      40
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "final": {
+    "max_relative_metric_spectral_defect": 0.005662025522010329,
+    "max_E_nonmean_relative": 0.0053160551031336675,
+    "max_F_relative": 0.003323279649005551,
+    "max_G_relative": 0.00527382166519961,
+    "max_abs_principal_curvature_sampled": 16.16274121879685,
+    "minimum_curvature_radius_sampled": 0.061870693000827474,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      -0.06172868457178655,
+      0.0543565394956061
+    ],
+    "max_cartesian_domain_hessian_components_sampled": [
+      15.778072449872512,
+      1.3741420604832983,
+      1.0005702616016687
+    ],
+    "dense_grid": [
+      289,
+      80
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "solver": {
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 179,
+    "cost": 0.0067664322750047075,
+    "optimality": 5.023815169717919e-07
+  },
+  "elapsed_seconds": 146.0219122999988,
+  "numpy": "2.3.5"
+}

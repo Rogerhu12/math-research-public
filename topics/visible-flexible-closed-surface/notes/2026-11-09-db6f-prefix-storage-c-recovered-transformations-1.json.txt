@@ -1,0 +1,207 @@
+{
+  "status": "source-transformations-only-no-runtime",
+  "transformations": [
+    {
+      "old": "db6f-audit-prefix-angular-metric.py",
+      "new": "db6f-prefix-angular-metric-storage.py",
+      "replacements": [
+        {
+          "old": "SOURCES = {\n    'db6f-audit-prefix-metric-budget.py': 'dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f',\n    'db6f-audit-metric-polynomial.py': '02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4',\n    'db6f-audit-continuous-hermite.py': 'e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d',\n    'db6f-audit-tail-metric-curvature.py': 'ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670',\n    'db6f-audit-metric-supplier.py': 'de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0',\n    'db6f-root-common-cut-v2.py': '317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d',\n    'db6f-root-exact-bridge.py': 'f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1',\n    'db6f_tail_integrated.py': '4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae',\n}",
+          "new": "SOURCES = {\n    'db6f-prefix-metric-budget-storage.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n    'db6f-prefix-metric-polynomial-storage.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n    'db6f-prefix-continuous-hermite-storage.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n    'db6f-audit-tail-metric-curvature.py': 'ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670',\n    'db6f-prefix-metric-supplier-storage.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n    'db6f-prefix-common-cut-storage.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n    'db6f-root-exact-bridge.py': 'f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1',\n    'db6f_tail_integrated.py': '4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae',\n    'db6f-prefix-angular-arithmetic-storage.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n    'db6f-prefix-shared-jet-storage.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n    'db6f-prefix-shared-jet-byte-shards-v2.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n}",
+          "count": 1
+        },
+        {
+          "old": "db6f-audit-prefix-metric-budget.py",
+          "new": "db6f-prefix-metric-budget-storage.py",
+          "count": 1
+        },
+        {
+          "old": "db6f-audit-metric-polynomial.py",
+          "new": "db6f-prefix-metric-polynomial-storage.py",
+          "count": 2
+        },
+        {
+          "old": "db6f-audit-continuous-hermite.py",
+          "new": "db6f-prefix-continuous-hermite-storage.py",
+          "count": 1
+        },
+        {
+          "old": "db6f-audit-metric-supplier.py",
+          "new": "db6f-prefix-metric-supplier-storage.py",
+          "count": 1
+        },
+        {
+          "old": "db6f-root-common-cut-v2.py",
+          "new": "db6f-prefix-common-cut-storage.py",
+          "count": 2
+        },
+        {
+          "old": "This first implementation requires the reviewed common-cut v2 definition",
+          "new": "This storage implementation requires the reviewed common-cut storage definition",
+          "count": 1
+        },
+        {
+          "old": "    geometry_data = locate(original['data_file'], base_path.parent)\n    check(sha(geometry_data) == original['data_sha256'] == meta['data_sha256'], 'Changed exact geometry arrays')",
+          "new": "    storage = module('prefix_angular_jet_storage', HERE/'db6f-prefix-shared-jet-storage.py')\n    loaded_base, geometry_payload, storage_bindings = storage.read_payload(base_path, verify_arrays=True)\n    check(json.dumps(loaded_base, sort_keys=True, allow_nan=False) ==\n          json.dumps(original, sort_keys=True, allow_nan=False), 'Base metadata changed during storage read')\n    check(hashlib.sha256(geometry_payload).hexdigest() == original['data_sha256'] == meta['data_sha256'],\n          'Changed exact geometry arrays')\n    check(json.dumps(original.get('data_storage'), sort_keys=True, allow_nan=False) ==\n          json.dumps(meta.get('data_storage'), sort_keys=True, allow_nan=False),\n          'Common-cut storage reference differs from its defining base')",
+          "count": 1
+        },
+        {
+          "old": "gzip.decompress(geometry_data.read_bytes())",
+          "new": "gzip.decompress(geometry_payload)",
+          "count": 1
+        },
+        {
+          "old": "baseline['geometry_data_sha256'] == sha(geometry_data)",
+          "new": "baseline['geometry_data_sha256'] == hashlib.sha256(geometry_payload).hexdigest()",
+          "count": 1
+        },
+        {
+          "old": "    return meta, raw, baseline, eta, old_upper, a_lower, rho_lower",
+          "new": "    return meta, raw, baseline, eta, old_upper, a_lower, rho_lower, storage_bindings",
+          "count": 1
+        },
+        {
+          "old": "    meta, raw, baseline, eta, old_upper, old_a, old_rho = validate_inputs(args)",
+          "new": "    meta, raw, baseline, eta, old_upper, old_a, old_rho, storage_bindings = validate_inputs(args)",
+          "count": 1
+        },
+        {
+          "old": "        geometry_sha256=sha(args.geometry), geometry_data_sha256=meta['data_sha256'],",
+          "new": "        geometry_sha256=sha(args.geometry), geometry_data_sha256=meta['data_sha256'],\n        geometry_storage_bindings=storage_bindings,",
+          "count": 1
+        }
+      ],
+      "old_sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb",
+      "new_sha256": "2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c"
+    },
+    {
+      "old": "db6f-export-closed-mesh.py",
+      "new": "db6f-prefix-export-closed-mesh-storage.py",
+      "replacements": [
+        {
+          "old": "['db6f-root-common-cut.py', 'db6f-root-common-cut-v2.py']",
+          "new": "['db6f-prefix-common-cut-storage.py']",
+          "count": 1
+        },
+        {
+          "old": "db6f-audit-continuous-hermite.py",
+          "new": "db6f-prefix-continuous-hermite-storage.py",
+          "count": 2
+        },
+        {
+          "old": "db6f-audit-metric-supplier.py",
+          "new": "db6f-prefix-metric-supplier-storage.py",
+          "count": 2
+        },
+        {
+          "old": "'db6f-audit-tail-metric-curvature.py', 'db6f_tail_integrated.py', 'db6f-prefix-metric-supplier-storage.py']}",
+          "new": "'db6f-audit-tail-metric-curvature.py', 'db6f_tail_integrated.py', 'db6f-prefix-metric-supplier-storage.py',\n        'db6f-prefix-metric-polynomial-storage.py', 'db6f-prefix-shared-jet-storage.py',\n        'db6f-prefix-shared-jet-byte-shards-v2.py']}",
+          "count": 1
+        },
+        {
+          "old": "        finite_tail_manifest_sha256=prefix.meta['tail_manifest_sha256'], source_sha256=sources,",
+          "new": "        finite_tail_manifest_sha256=prefix.meta['tail_manifest_sha256'], source_sha256=sources,\n        prefix_storage_bindings=prefix.storage_bindings,",
+          "count": 2
+        }
+      ],
+      "old_sha256": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+      "new_sha256": "d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1"
+    },
+    {
+      "old": "db6f-tail-review-closed-mesh.py",
+      "new": "db6f-prefix-review-closed-mesh-storage.py",
+      "replacements": [
+        {
+          "old": "db6f-export-closed-mesh.py",
+          "new": "db6f-prefix-export-closed-mesh-storage.py",
+          "count": 1
+        },
+        {
+          "old": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+          "new": "d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1",
+          "count": 1
+        },
+        {
+          "old": "db6f-audit-metric-supplier.py",
+          "new": "db6f-prefix-metric-supplier-storage.py",
+          "count": 1
+        },
+        {
+          "old": "\"reviewer\": \"/root/tail_theory\"",
+          "new": "\"reviewer\": \"/root/coupled_prefix explicit storage-interface adaptation\"",
+          "count": 1
+        }
+      ],
+      "old_sha256": "f55e52840c165d501548650c7fc7294aa2bd0bb2dee823941029e344fdda814d",
+      "new_sha256": "698e8b0528ffa7b1bbe1bc84c574079f60261156f1d3a6ddae048af0f9c0c479"
+    },
+    {
+      "old": "db6f-audit-terminal-error-gate.py",
+      "new": "db6f-prefix-terminal-error-storage.py",
+      "replacements": [
+        {
+          "old": "import hashlib\nimport json",
+          "new": "import hashlib\nimport importlib.util\nimport json",
+          "count": 1
+        },
+        {
+          "old": "\nREFERENCE = {",
+          "new": "\n# Prefix identities are separate: SOURCES below retains the original tail,\n# background and fixed M12 reference family without adding or replacing keys.\nPREFIX_SOURCES = {\n    'db6f-prefix-shared-jet-byte-shards-v2.py': 'b894107ca47773b259f589d0231244e3dbdf86d2285f3c3789f07e318d868c50',\n    'db6f-prefix-shared-jet-storage.py': 'c9d6f89b0dd3e8bca744b679ed92ef3176899c8ae30be46f8080b9e6a4b7b9c2',\n    'db6f-prefix-fullxyz-hermite-storage.py': 'f7b3659a98d70941377a6e054fd9900a1de45518e65899da862987aae75f9ccc',\n    'db6f-prefix-mirror-hermite-storage.py': '163d3ce9b11036c4ff9effce52d02dece2f09e57f582e24ce26e9ae4162eee94',\n    'db6f-prefix-continuous-hermite-storage.py': '511b107519652feeda8f2beb3f1935a6f3078d297c3639824c0dabe75bff150c',\n    'db6f-prefix-metric-polynomial-storage.py': '70bf1b39e23074069cd11cb5cbe180f40fb7df77b59a1c1622c274665444233d',\n    'db6f-prefix-metric-supplier-storage.py': 'cf0981bcb2426c9db4dc35523e46ced805da4a90c37e47eae8a1247ccbd4aa2f',\n    'db6f-prefix-volume-moment-storage.py': 'fd81fd2b1ebee77bd95ce9065e4898d5ef03b8bf72e99e3d0858f401b16818c1',\n    'db6f-prefix-common-cut-storage.py': 'b994ce2e777eb24f744489ea2a6be96a74764fc75a0b3cea2e6d2d387efc4d3b',\n    'db6f-prefix-angular-arithmetic-storage.py': 'd27282a9820d35023b74171bad3cc208429e5b0451d47d3175b7b001caa591c9',\n    'db6f-prefix-metric-budget-storage.py': '0009368a049809d3d5864a6ca1adc8e52fbbade1f7b3e184b024b1093408f0c1',\n    'db6f-prefix-closed-budget-storage.py': 'dc07d80f74a1cb880132e91ef0296f972e7e550a278eac057975fb8b032a09e9',\n    'db6f-prefix-angular-metric-storage.py': '2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c',\n}\n\nREFERENCE = {",
+          "count": 1
+        },
+        {
+          "old": "    def output(self):\n        return [self.records[key] for key in sorted(self.records)]",
+          "new": "    def prefix_source(self, name, declared=None):\n        expected = PREFIX_SOURCES[name]\n        if declared is not None:\n            check(declared == expected, 'Unexpected prefix implementation for '+name)\n        return self.file(HERE/name, expected, HERE, 'prefix-source:'+name)\n\n    def output(self):\n        return [self.records[key] for key in sorted(self.records)]",
+          "count": 1
+        },
+        {
+          "old": "def prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref):",
+          "new": "def prefix_storage(files, base_path, base, geom):\n    \"\"\"Hash-only reconstruction; defining base shape precedes common-cut padding.\n\n    This imports only the standard-library storage reader/byte verifier, not\n    an ExactHermite class, NumPy, SciPy, or any numerical certificate backend.\n    \"\"\"\n    path = files.prefix_source('db6f-prefix-shared-jet-storage.py')\n    files.prefix_source('db6f-prefix-shared-jet-byte-shards-v2.py')\n    check('data_storage' in base and 'data_file' not in base and\n          'data_storage' in geom and 'data_file' not in geom,\n          'This candidate entry requires explicit sharded prefix storage')\n    same(base['data_storage'], geom['data_storage'], 'Common-cut/base storage reference differs')\n    spec = importlib.util.spec_from_file_location('terminal_prefix_jet_storage', path)\n    storage = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(storage)\n    loaded, payload, records = storage.read_payload(base_path, verify_arrays=False)\n    same(loaded, base, 'Base metadata changed during storage verification')\n    check(hashlib.sha256(payload).hexdigest() == base['data_sha256'] == geom['data_sha256'],\n          'Logical prefix bytes do not match the candidate')\n    for item in records:\n        bound = files.file(item['file'], item['sha256'], base_path.parent, 'candidate:prefix-storage')\n        check(bound.stat().st_size == item['bytes'], 'Changed prefix storage size')\n    return records\n\n\ndef prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref):",
+          "count": 1
+        },
+        {
+          "old": "def prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref):\n    geometry_sha = hashlib.sha256(geom_path.read_bytes()).hexdigest()\n    check(metric['geometry_sha256'] == geometry_sha and metric['geometry_data_sha256'] == geom['data_sha256'] and\n          metric.get('entire_prefix_covered') is True, 'Prefix metric is partial or belongs to another final common-cut map')\n    angular = metric['script_sha256'] == SOURCES['db6f-audit-prefix-angular-metric.py']\n    if angular:\n        files.source('db6f-audit-prefix-angular-metric.py', metric['script_sha256'])\n        check(metric.get('finished') is True and metric['requested_intervals'] is None and\n              metric['processed_intervals'] == metric['target_intervals'] and\n              metric.get('exact_partition_reread_verified') is True, 'Incomplete angular certificate')\n        target_path, target = files.item(metric['inputs']['target'], path.parent, 'candidate:prefix-target')\n        check(metric['inputs']['geometry']['sha256'] == geometry_sha and\n              metric['inputs']['bridge']['sha256'] == geom['bridge_parameter_certificate_sha256'], 'Angular inputs do not identify this map/bridge')\n        baseline_path, baseline = files.item(metric['inputs']['baseline'], path.parent, 'candidate:angular-baseline')\n        files.source('db6f-audit-metric-polynomial.py', baseline['script_sha256'])\n        check(baseline['geometry_sha256'] == geometry_sha and baseline['target_sha256'] == metric['target_sha256'] and\n              baseline['geometry_data_sha256'] == geom['data_sha256'] and baseline.get('entire_prefix_covered') is True and\n              baseline['intervals_checked'] == baseline['intervals'], 'Angular baseline belongs to another map/target or is partial')\n        for category in ('row_files', 'interval_summary_files'):\n            for item in metric[category]:\n                files.file(item['file'], item['sha256'], path.parent, 'candidate:angular:'+category)\n        check(binary(metric['metric_operator_upper']) == exact(metric['selected_source_metric_upper']),\n              'Angular source metric float is not its exact saved bound')\n    else:\n        files.source('db6f-audit-metric-polynomial.py', metric['script_sha256'])\n        check(metric['intervals_checked'] == metric['intervals'] and explicit_target is not None,\n              'Original prefix certificate needs complete coverage and explicit --prefix-target')\n        target_path, target = files.json(explicit_target, metric['target_sha256'], path.parent, 'candidate:prefix-target')\n    if explicit_target is not None:\n        files.file(explicit_target, metric['target_sha256'], path.parent, 'candidate:explicit-prefix-target')\n    check(hashlib.sha256(target_path.read_bytes()).hexdigest() == metric['target_sha256'] == bridge['target_sha256'] and\n          target['geometry_sha256'] == hashlib.sha256(base_path.read_bytes()).hexdigest(), 'Target/base/bridge identity mismatch')\n    same(target['frozen_profile'], geom['frozen_profile'], 'Target supplier changed the physical profile')\n    same(target['bridge_constants'], ref['target']['bridge_constants'], 'Source bridge constants changed')\n    files.source('db6f-audit-metric-supplier.py', target['script_sha256'])\n    files.source('db6f-audit-metric-polynomial.py', target['arithmetic_backend_sha256'])\n    check(target.get('prefix_bridge_extension_guard_passed') is True and\n          target['data_sha256'] == metric['target_data_sha256'], 'Analytic target enclosure guard/data mismatch')\n    files.file(target['data_file'], target['data_sha256'], target_path.parent, 'candidate:prefix-target-data')\n    epsilon = binary(metric['metric_operator_upper'])\n    eta = binary(bridge['relative_target_metric_difference_upper'])\n    check(0 <= epsilon < 1 and 0 <= eta < 1, 'Invalid prefix/bridge error bound')\n    result = epsilon*(1+eta)+eta\n    if angular:\n        check(result == exact(metric['exact_target_metric_operator_upper']) ==\n              exact(metric['selected_exact_target_metric_upper']), 'Angular exact-target transfer was not applied once')\n    return result\n",
+          "new": "def prefix_metric(files, path, metric, geom_path, geom, base_path, bridge, explicit_target, ref):\n    geometry_sha = hashlib.sha256(geom_path.read_bytes()).hexdigest()\n    check(metric['geometry_sha256'] == geometry_sha and metric['geometry_data_sha256'] == geom['data_sha256'] and\n          metric.get('entire_prefix_covered') is True, 'Prefix metric is partial or belongs to another final common-cut map')\n    angular = metric['script_sha256'] == PREFIX_SOURCES['db6f-prefix-angular-metric-storage.py']\n    if angular:\n        files.prefix_source('db6f-prefix-angular-metric-storage.py', metric['script_sha256'])\n        check(metric.get('finished') is True and metric['requested_intervals'] is None and\n              metric['processed_intervals'] == metric['target_intervals'] and\n              metric.get('exact_partition_reread_verified') is True, 'Incomplete angular certificate')\n        target_path, target = files.item(metric['inputs']['target'], path.parent, 'candidate:prefix-target')\n        check(metric['inputs']['geometry']['sha256'] == geometry_sha and\n              metric['inputs']['bridge']['sha256'] == geom['bridge_parameter_certificate_sha256'], 'Angular inputs do not identify this map/bridge')\n        baseline_path, baseline = files.item(metric['inputs']['baseline'], path.parent, 'candidate:angular-baseline')\n        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', baseline['script_sha256'])\n        check(baseline['geometry_sha256'] == geometry_sha and baseline['target_sha256'] == metric['target_sha256'] and\n              baseline['geometry_data_sha256'] == geom['data_sha256'] and baseline.get('entire_prefix_covered') is True and\n              baseline['intervals_checked'] == baseline['intervals'], 'Angular baseline belongs to another map/target or is partial')\n        for category in ('row_files', 'interval_summary_files'):\n            for item in metric[category]:\n                files.file(item['file'], item['sha256'], path.parent, 'candidate:angular:'+category)\n        check(binary(metric['metric_operator_upper']) == exact(metric['selected_source_metric_upper']),\n              'Angular source metric float is not its exact saved bound')\n    else:\n        files.prefix_source('db6f-prefix-metric-polynomial-storage.py', metric['script_sha256'])\n        check(metric['intervals_checked'] == metric['intervals'] and explicit_target is not None,\n              'Original prefix certificate needs complete coverage and explicit --prefix-target')\n        target_path, target = files.json(explicit_target, metric['target_sha256'], path.parent, 'candidate:prefix-target')\n    if explicit_target is not None:\n        files.file(explicit_target, metric['target_sha256'], path.parent, 'candidate:explicit-prefix-target')\n    check(hashlib.sha256(target_path.read_bytes()).hexdigest() == metric['target_sha256'] == bridge['target_sha256'] and\n          target['geometry_sha256'] == hashlib.sha256(base_path.read_bytes()).hexdigest(), 'Target/base/bridge identity mismatch')\n    same(target['frozen_profile'], geom['frozen_profile'], 'Target supplier changed the physical profile')\n    same(target['bridge_constants'], ref['target']['bridge_constants'], 'Source bridge constants changed')\n    files.prefix_source('db6f-prefix-metric-supplier-storage.py', target['script_sha256'])\n    files.prefix_source('db6f-prefix-metric-polynomial-storage.py', target['arithmetic_backend_sha256'])\n    check(target.get('prefix_bridge_extension_guard_passed') is True and\n          target['data_sha256'] == metric['target_data_sha256'], 'Analytic target enclosure guard/data mismatch')\n    files.file(target['data_file'], target['data_sha256'], target_path.parent, 'candidate:prefix-target-data')\n    epsilon = binary(metric['metric_operator_upper'])\n    eta = binary(bridge['relative_target_metric_difference_upper'])\n    check(0 <= epsilon < 1 and 0 <= eta < 1, 'Invalid prefix/bridge error bound')\n    result = epsilon*(1+eta)+eta\n    if angular:\n        check(result == exact(metric['exact_target_metric_operator_upper']) ==\n              exact(metric['selected_exact_target_metric_upper']), 'Angular exact-target transfer was not applied once')\n    return result\n",
+          "count": 1
+        },
+        {
+          "old": "def candidate(files, whole_path, explicit_target, explicit_bridge_tail, ref):\n    whole_raw = whole_path.read_bytes()",
+          "new": "def candidate(files, whole_path, explicit_target, explicit_bridge_tail, ref):\n    for name in PREFIX_SOURCES:\n        files.prefix_source(name)\n    whole_raw = whole_path.read_bytes()",
+          "count": 1
+        },
+        {
+          "old": "    files.source('db6f-audit-closed-budget-transfer-v3.py', budget['script_sha256'])",
+          "new": "    files.prefix_source('db6f-prefix-closed-budget-storage.py', budget['script_sha256'])",
+          "count": 1
+        },
+        {
+          "old": "    for key, source in [('common_cut_implementation_sha256', 'db6f-root-common-cut-v2.py'),\n                        ('wrapper_sha256', 'db6f-root-mirror-hermite.py'),\n                        ('profile_loader_sha256', 'db6f-prefix-flat-geometry-source.py'),",
+          "new": "    for key, source in [('common_cut_implementation_sha256', 'db6f-prefix-common-cut-storage.py'),\n                        ('wrapper_sha256', 'db6f-prefix-mirror-hermite-storage.py')]:\n        files.prefix_source(source, geom[key])\n    for key, source in [('profile_loader_sha256', 'db6f-prefix-flat-geometry-source.py'),",
+          "count": 1
+        },
+        {
+          "old": "    files.file(base['data_file'], base['data_sha256'], base_path.parent, 'candidate:prefix-data')",
+          "new": "    files.prefix_source('db6f-prefix-fullxyz-hermite-storage.py', base['script_sha256'])\n    storage_bindings = prefix_storage(files, base_path, base, geom)",
+          "count": 1
+        },
+        {
+          "old": "    files.source('db6f-audit-continuous-hermite.py', geom_cert['script_sha256'])",
+          "new": "    files.prefix_source('db6f-prefix-continuous-hermite-storage.py', geom_cert['script_sha256'])",
+          "count": 1
+        },
+        {
+          "old": "    files.source('db6f-root-volume-moment.py', moment['script_sha256'])",
+          "new": "    files.prefix_source('db6f-prefix-volume-moment-storage.py', moment['script_sha256'])",
+          "count": 1
+        },
+        {
+          "old": "                   'prefix_upper_exact': str(pref_upper), 'full_tail_metric_upper_exact': str(original_tail_upper),",
+          "new": "                   'prefix_upper_exact': str(pref_upper), 'full_tail_metric_upper_exact': str(original_tail_upper),\n                   'prefix_storage_bindings': storage_bindings,",
+          "count": 1
+        }
+      ],
+      "old_sha256": "1be7add52ec2c06653a2a64baa8653e675559a55551cf22603d14a80f9cfb234",
+      "new_sha256": "809cc7ab61903f11847653fda018506f7c2bed38a7501007909200eb0bf69584"
+    }
+  ]
+}

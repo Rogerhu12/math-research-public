@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-real-nonlinear-tail-query-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-query-bounded.py",
+    "bytes": 6117,
+    "sha256": "99f2c0f9068b4c862958142c0e2f675cd047dc0c27fb7854080987df5b62a65b"
+  },
+  "worker": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v9.mjs",
+    "bytes": 19944,
+    "sha256": "cab58f7d72ba963dafa7606997b48ef18ec1f5ad9082115363557f841f551841"
+  },
+  "config": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/config.json",
+    "bytes": 22504,
+    "sha256": "11232c31ffec4582c518f3c5535bda509cc3ce9e03280085017966893cf082b7"
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/request.json",
+    "bytes": 119,
+    "sha256": "5323984dcf818b0e3bf0c8fe882119b0b53afe3cf34971330a30d65c9b2860e3"
+  },
+  "request_value": {
+    "height": [
+      -8e-09,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "scope": "Actual finite Fourier/depth nonlinear worker response; no infinite-tail or full-surface assertion.",
+  "actual_worker_command": [
+    "node",
+    "--max-heap-size=256",
+    "--max-semi-space-size=8",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v9.mjs",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/config.json"
+  ],
+  "response": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-05/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-05-response.json",
+    "bytes": 1486592,
+    "sha256": "8d25507e0b65de103afaee0109f97aef2eeb8313fd2eded486a3561447036502"
+  },
+  "converged": true,
+  "residual": 1.6067532721703842e-14,
+  "history_count": 2,
+  "has_actual_height_jet_jacobian": true,
+  "has_actual_audit": true,
+  "worker_returncode": 0,
+  "maximum_observed_worker_rss_kb": 279652,
+  "seconds": 992.5926557120001
+}

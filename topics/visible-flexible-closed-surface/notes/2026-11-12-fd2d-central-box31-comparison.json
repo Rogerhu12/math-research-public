@@ -1,0 +1,205 @@
+{
+  "schema": "fd2d-fixed-complete-normal-central-box-comparison-v1",
+  "actual_base_sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981",
+  "normal_sha256": "a4658bd058d5efa8035a624c6221cfb20e7b4234397563ad1337b4711daac50b",
+  "original_direction": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-dyadic31-work/directions/lambda1e7-dyadic-floor01-a01/summary.json",
+    "bytes": 81297,
+    "sha256": "730e629164888cda9471194fff4ed567927949db87ec68b7840837989b1eccf6"
+  },
+  "original_linear_norm": 3.3881061480825,
+  "new_cases": [
+    {
+      "case": "capD4",
+      "search": {
+        "central_floor": 0.1,
+        "central_cap": 8.264462809917354,
+        "profile_box": 0.08,
+        "preserve_gap": true,
+        "tail_search_domain": {
+          "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+          "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+          "control_box": {
+            "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+            "degree": 15,
+            "parts": 8,
+            "interval_endpoints_exact": [
+              "0",
+              "1/8",
+              "1/4",
+              "3/8",
+              "1/2",
+              "5/8",
+              "3/4",
+              "7/8",
+              "1"
+            ],
+            "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+            "shape": [
+              128,
+              16
+            ],
+            "numerator_denominator": "35184372088832",
+            "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+            "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+            "exact_lower": "0",
+            "exact_upper": "6/5",
+            "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+            "matrix_entries_exact_in_binary64": true,
+            "floating_matrix_vector_product_claimed_exact": false,
+            "selected_sufficient_domain_not_necessary_function_range": true
+          },
+          "tail_parameter_count": 16,
+          "inherited_polynomial_basis_tag": "positive_bernstein",
+          "basis_tag_is_not_global_control_box": true,
+          "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+          "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+          "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+          "old_parameter_domain_global_tail_min_max_replaced": true,
+          "central_and_profile_domain_predicates_unchanged": true,
+          "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+          "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+          "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+          "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+        }
+      },
+      "linear_norm": 3.38003806319161,
+      "actual_merit_slope": -1.768814539698081,
+      "projection_change": 8.881784197001252e-16,
+      "optimizer_success": true,
+      "iterations": 356,
+      "seconds": 1.098244874003285,
+      "central_min": 0.0999999999999999,
+      "central_max": 7.84223006439422
+    },
+    {
+      "case": "floor001",
+      "search": {
+        "central_floor": 0.01,
+        "central_cap": 7.352941176470588,
+        "profile_box": 0.08,
+        "preserve_gap": true,
+        "tail_search_domain": {
+          "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+          "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+          "control_box": {
+            "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+            "degree": 15,
+            "parts": 8,
+            "interval_endpoints_exact": [
+              "0",
+              "1/8",
+              "1/4",
+              "3/8",
+              "1/2",
+              "5/8",
+              "3/4",
+              "7/8",
+              "1"
+            ],
+            "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+            "shape": [
+              128,
+              16
+            ],
+            "numerator_denominator": "35184372088832",
+            "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+            "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+            "exact_lower": "0",
+            "exact_upper": "6/5",
+            "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+            "matrix_entries_exact_in_binary64": true,
+            "floating_matrix_vector_product_claimed_exact": false,
+            "selected_sufficient_domain_not_necessary_function_range": true
+          },
+          "tail_parameter_count": 16,
+          "inherited_polynomial_basis_tag": "positive_bernstein",
+          "basis_tag_is_not_global_control_box": true,
+          "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+          "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+          "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+          "old_parameter_domain_global_tail_min_max_replaced": true,
+          "central_and_profile_domain_predicates_unchanged": true,
+          "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+          "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+          "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+          "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+        }
+      },
+      "linear_norm": 3.373326198601295,
+      "actual_merit_slope": -1.8092289762386558,
+      "projection_change": 4.996003610813204e-16,
+      "optimizer_success": true,
+      "iterations": 489,
+      "seconds": 1.8871084220008925,
+      "central_min": 0.010000000000000023,
+      "central_max": 7.352941176470588
+    },
+    {
+      "case": "both",
+      "search": {
+        "central_floor": 0.01,
+        "central_cap": 8.264462809917354,
+        "profile_box": 0.08,
+        "preserve_gap": true,
+        "tail_search_domain": {
+          "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+          "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+          "control_box": {
+            "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+            "degree": 15,
+            "parts": 8,
+            "interval_endpoints_exact": [
+              "0",
+              "1/8",
+              "1/4",
+              "3/8",
+              "1/2",
+              "5/8",
+              "3/4",
+              "7/8",
+              "1"
+            ],
+            "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+            "shape": [
+              128,
+              16
+            ],
+            "numerator_denominator": "35184372088832",
+            "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+            "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+            "exact_lower": "0",
+            "exact_upper": "6/5",
+            "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+            "matrix_entries_exact_in_binary64": true,
+            "floating_matrix_vector_product_claimed_exact": false,
+            "selected_sufficient_domain_not_necessary_function_range": true
+          },
+          "tail_parameter_count": 16,
+          "inherited_polynomial_basis_tag": "positive_bernstein",
+          "basis_tag_is_not_global_control_box": true,
+          "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+          "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+          "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+          "old_parameter_domain_global_tail_min_max_replaced": true,
+          "central_and_profile_domain_predicates_unchanged": true,
+          "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+          "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+          "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+          "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+        }
+      },
+      "linear_norm": 3.366692706349371,
+      "actual_merit_slope": -1.8345169899931038,
+      "projection_change": 3.95516952522712e-16,
+      "optimizer_success": true,
+      "iterations": 375,
+      "seconds": 1.2416798880003626,
+      "central_min": 0.010000000000000037,
+      "central_max": 7.799280621792391
+    }
+  ],
+  "actual_F_or_J_recomputed": false,
+  "original_state_or_constraints_changed": false,
+  "geometry_or_actual_acceptance_claimed": false
+}

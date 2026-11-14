@@ -1,0 +1,88 @@
+{
+  "status": "independent-common-cut-closed-map-and-budget-review-PASS",
+  "reviewedFilesSHA256": {
+    "scripts/db6f-root-common-cut.py": "ea40a4c562e91b403c364a3df4bd32f916ad230134c4a49fd6aa2f8b676bf5d1",
+    "scripts/db6f-root-closed-budget.py": "cb7ab59d8c2958be86a9df0d3031e27361adb504dad3d02c4b4968c1628b2b17",
+    "notes/2026-11-09-db6f-common-cut-and-closed-map.md": "235a94fcfe959bd17a983dca904812a1656c8756f526b1e48735df9551a36028",
+    "notes/2026-11-09-db6f-closed-geometric-budget.md": "602818fc583963f669e54961c1040f21827a96986ad8094fb2a75d21e8b02742"
+  },
+  "replays": {
+    "closedBudget": {
+      "originalSHA256": "15635c2ab97e388102939b9a832a3c19bfe65ba053c7ea4fa26a5a045c7ae648",
+      "rerunSHA256": "15635c2ab97e388102939b9a832a3c19bfe65ba053c7ea4fa26a5a045c7ae648",
+      "differentFields": [],
+      "allMathematicalFieldsIdentical": true
+    },
+    "geometry": {
+      "originalSHA256": "31fd7a6fc6b4a7e439b0fe300d21b2916edd3b1907af6c7f1f88f61c223af5f3",
+      "rerunSHA256": "45bdc3b6b5b3d1c4884dcf0b6176bed5cdf1c36df8b389cbb09011c1102e0f87",
+      "differentFields": [
+        "time_seconds"
+      ],
+      "allMathematicalFieldsIdentical": true
+    },
+    "metric": {
+      "originalSHA256": "e092eb9583f171e1329e7f51a7119876c74b2b9399e8b4c3ea1915b28cd03ee7",
+      "rerunSHA256": "f8eba44b375a23bb40f8af954e01e5051fadfbcdcf9623effa6a09f04ab8794b",
+      "differentFields": [
+        "seconds"
+      ],
+      "allMathematicalFieldsIdentical": true
+    },
+    "moment": {
+      "originalSHA256": "dabc846cf95ffd28289e60b8078fea6ceeac3567f85bcbe573da53d06909b86b",
+      "rerunSHA256": "dabc846cf95ffd28289e60b8078fea6ceeac3567f85bcbe573da53d06909b86b",
+      "differentFields": [],
+      "allMathematicalFieldsIdentical": true
+    }
+  },
+  "implementationObservation": "Y=I(old) aliases endpoints when the mean slot is assigned. Its sole affected intermediate component is discarded by the exact delta[0,-1]=0 identity before any use; background-cut height is computed independently. Thus the frozen final enclosure is valid; copying both endpoint arrays would make that intermediate interval valid too.",
+  "provedForThisDefinedFiniteMap": [
+    "Exact global C2 assembly",
+    "All-phase positive support and radial embeddedness",
+    "Diameter <= 98/25",
+    "Fixed closed holding caps with nonempty interior and diameter >= .2D",
+    "Held Hausdorff displacement ratio > .05",
+    "Nonzero complete horizontal third volume moment",
+    "Strict Euclidean noncongruence from fixed cap moment"
+  ],
+  "notProved": [
+    "Continuous whole-tail metric bound against the exact target",
+    "Actual nonaxisymmetric whole-tail curvature",
+    "Quantitative reach >= .03D",
+    "Fixed-g convergence to solver/machine tolerance in full Cartesian C2 data",
+    "README completion"
+  ],
+  "numericalBudget": {
+    "whole_surface_support_lower": {
+      "exact": "244170556836839709722831582455062683912003228618592893060688714750398969/331283824645946988237082319826632020516995927449337740948323297929461760",
+      "lower_display": 0.7370434010709461,
+      "upper_display": 0.7370434010709462
+    },
+    "diameter_upper": {
+      "exact": "98/25",
+      "lower_display": 3.92,
+      "upper_display": 3.9200000000000004
+    },
+    "hold_over_diameter_lower": {
+      "exact": "5626448243406825/110338190870577152",
+      "lower_display": 0.05099275417707774,
+      "upper_display": 0.05099275417707775
+    },
+    "unmarked_volume_moment_real_lower": {
+      "exact": "33368427995356271698413787470492543965874783852861520092708738077733305287817200374220956497846389816609318150597/76957043352332967211482500195592995713046365762627825523336510555167425334955489475418488779072100860950445293568",
+      "lower_display": 0.4335981028089315,
+      "upper_display": 0.4335981028089316
+    },
+    "centered_third_tensor_norm_squared_change_lower": {
+      "exact": "2702842667623858007571516785109896061235857492081783127509407784296397728313193230311897476325557575145354770198357/12024538023802026126794140655561405580163494650410597738021329774244910208586795230534138871730015759523507077120000000000000",
+      "lower_display": 2.247772564961501e-10,
+      "upper_display": 2.2477725649615013e-10
+    },
+    "corrected_prefix_exact_target_metric_upper": {
+      "exact": "33884415582220318736833370604274390962960865/93536104789177786765035829293842113257979682750464",
+      "lower_display": 3.6226028076102625e-07,
+      "upper_display": 3.622602807610263e-07
+    }
+  }
+}

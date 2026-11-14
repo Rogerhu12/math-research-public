@@ -1,0 +1,26 @@
+{
+  "schema": "fd2d-actual-same-Schur-diagnostic-exits-v1",
+  "failed_v1": {
+    "session": 89523,
+    "initial_chunk": "1d4cd2",
+    "completion_chunk": "a935d0",
+    "exit_code": 1,
+    "QP_not_reached": true
+  },
+  "completed_v2": {
+    "session": 21253,
+    "initial_chunk": "620021",
+    "completion_chunk": "50032d",
+    "exit_code": 0,
+    "natural_completion": true
+  },
+  "same_actual_field_normal_and_Schur": true,
+  "new_F_J_line_search_or_accepted_state": false,
+  "read_only_field_localization": {
+    "first_chunk": "75e17b",
+    "first_exit": 1,
+    "second_chunk": "2344a2",
+    "second_exit": 0,
+    "actual_F_or_J_recomputed": false
+  }
+}

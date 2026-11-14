@@ -1,0 +1,437 @@
+{
+  "schema": "fd2d-recovered-raw-bounded-curvature-merit-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-lifted-design-recovery.py",
+    "bytes": 12661,
+    "sha256": "0c2c113bbe0fe2e996d128e9083bb61008ac57a629c854e895875a987bbdd705"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "parameters": {
+    "candidate": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "out_prefix": "notes/2026-11-12-fd2d-local-k15-curvature01",
+    "warm_start": "notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "prefix_initializer": null,
+    "modes": 15,
+    "mesh_step": 0.04,
+    "gap": 0.9,
+    "amplitude": 1.0,
+    "base_kind": "balanced_seed",
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "central_curvature_floor": 0.1,
+    "central_curvature_cap": 7.352941176470588,
+    "curvature_merit_cap": 7.2,
+    "curvature_merit_weight": 1.0,
+    "direction_damping": 1e-05,
+    "max_iterations": 80,
+    "finite_tolerance": 2e-07
+  },
+  "providers": {
+    "fd2d_gc_raw_lifted_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    "fd2d_gc_bounded_direction_recovery.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bounded_direction_recovery.py",
+      "bytes": 4036,
+      "sha256": "b5346fc9b366c475f8ec7dfb0b681c2814097692592455dbed1e50878d9594bc"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    },
+    "fd2d_positive_flat_developable_family.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    "fd2d_gc_design_profile_positive.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    }
+  },
+  "finite_scheme": "Trapezoidal Codazzi and projected Gauss; exact functional tail lifting",
+  "explicit_boundary_definition": "cut correction=0; central n=C*c, m=l=0, followed by full residual evaluation",
+  "curvature_merit_scope": "Optional node formal-eigenvalue search objective only",
+  "line_search": "Armijo for half squared combined residual norm using the actual directional derivative",
+  "original_gauss_codazzi_equations_changed": false,
+  "missing": [
+    "full angular/radial residual",
+    "actual Cartesian map and cut alignment",
+    "continuous full metric and all-time geometry",
+    "caps and complete meshes",
+    "same-g refinement"
+  ],
+  "completed": true,
+  "success": false,
+  "accepted_steps": 80,
+  "exception": null,
+  "seconds": 529.133370212,
+  "maximum_rss_kib": 275888,
+  "warm_start_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "bytes": 23429,
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+  },
+  "initial_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-k15-curvature01-initial.npz",
+    "bytes": 22353,
+    "sha256": "8533486c05e0aa48d83d4e1d6e092fbeee2d6f60c531b7ed266a6dcd442d2e5e"
+  },
+  "initial": {
+    "residual_maximum": 4.642718907538312,
+    "residual_rms": 0.4884462399718338,
+    "full_gauss_node_maximum": 7.0131911976655426,
+    "formal_curvature_node_maximum": 7.123311908510938,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.02,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "minimum_n": -0.049907557741054334,
+    "maximum_n": 4.3652573528581815,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 0,
+      "upper_active_rows": 0,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 0,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 7.123311908510938,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.0,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    }
+  },
+  "dimensions": {
+    "nodes": 113,
+    "frequencies": 15,
+    "correction": 47,
+    "parameters": 32,
+    "unknowns": 5343
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.263603200988874
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+    "reference_T": 0.02,
+    "actual_T": 0.02,
+    "physical_T_domain": [
+      0.0,
+      0.22510364412376974
+    ],
+    "computational_endpoint": 1.344258724456249,
+    "actual_physical_endpoint": 1.344258724456249,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_ratio": "q=L(T)/L_ref",
+    "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+    "coast_map": "s=s0(T)+L(T)*theta/pi",
+    "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+    "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+    "clocks": {
+      "85": {
+        "ratio": 1.0,
+        "ratio_T": 50.0,
+        "length_T": 1.0
+      },
+      "87": {
+        "ratio": 1.0,
+        "ratio_T": -4.875583777519576,
+        "length_T": -0.10056624376647048
+      }
+    },
+    "other_piece_map": "s=s0(T)+L*tau",
+    "exact_clock_positive_for_every_positive_physical_coast": true,
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "source_of_endpoint_values": "analytic exact endpoint overrides",
+    "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+  },
+  "latest": {
+    "residual_maximum": 0.4056112454928557,
+    "residual_rms": 0.028761166249424076,
+    "full_gauss_node_maximum": 5.285940813317039,
+    "formal_curvature_node_maximum": 7.208647704710865,
+    "A": 1.3682588660183128,
+    "B": 0.4682588659968155,
+    "gap": 0.9000000000214973,
+    "T": 0.22510364412354464,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      1.14272340453438,
+      1.4997457391647946e-18,
+      0.0,
+      8.238680211662922e-19,
+      1.2833562282425298e-19,
+      0.0,
+      6.001424558474222e-20,
+      0.347278414517174,
+      0.0,
+      2.0938519365263852e-19,
+      4.0108750520746253e-19,
+      0.970191814006519,
+      1.2
+    ],
+    "minimum_n": -3.4475960953209746,
+    "maximum_n": 7.201097911996784,
+    "minimum_central_curvature": 0.09999999999999964,
+    "maximum_lifting_alpha": 0.15444591598383856,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 398,
+      "upper_active_rows": 366,
+      "lower_active_rows": 32,
+      "active_rows_before_zero_weight": 398,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 7.208647704710865,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.04982546410820574,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    }
+  },
+  "latest_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-k15-curvature01-accepted-0080.npz",
+    "bytes": 42631,
+    "sha256": "edf14e760771f7f49282c8629f62bce4614cf3a1f44bc85682baffb4c1a789b9"
+  },
+  "stop_reason": "Recorded finite iteration allocation ended without convergence",
+  "final": {
+    "residual_maximum": 0.4056112454928557,
+    "residual_rms": 0.028761166249424076,
+    "full_gauss_node_maximum": 5.285940813317039,
+    "formal_curvature_node_maximum": 7.208647704710865,
+    "A": 1.3682588660183128,
+    "B": 0.4682588659968155,
+    "gap": 0.9000000000214973,
+    "T": 0.22510364412354464,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      1.14272340453438,
+      1.4997457391647946e-18,
+      0.0,
+      8.238680211662922e-19,
+      1.2833562282425298e-19,
+      0.0,
+      6.001424558474222e-20,
+      0.347278414517174,
+      0.0,
+      2.0938519365263852e-19,
+      4.0108750520746253e-19,
+      0.970191814006519,
+      1.2
+    ],
+    "minimum_n": -3.4475960953209746,
+    "maximum_n": 7.201097911996784,
+    "minimum_central_curvature": 0.09999999999999964,
+    "maximum_lifting_alpha": 0.15444591598383856,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 398,
+      "upper_active_rows": 366,
+      "lower_active_rows": 32,
+      "active_rows_before_zero_weight": 398,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 7.208647704710865,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.04982546410820574,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    }
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-k15-curvature01-field.npz",
+    "bytes": 257865,
+    "sha256": "d464627a19ca101ef64a6193c30518f70f0826d56a8f9e36de665ecda2cf61b4"
+  },
+  "actual_candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-k15-curvature01-candidate.json",
+    "bytes": 34745,
+    "sha256": "5b42bd92c9acac84c22d7b92913e26d0e98479811d32fff7ad0362b05a7c8a11"
+  },
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "7686891585855263/144115188075855872",
+      "1530427840762669/562949953421312",
+      "3394443473913121/2251799813685248",
+      "-5212187686895293/9007199254740992",
+      "420869243476107/562949953421312",
+      "6402090520782909/18014398509481984",
+      "-1361046675723193/2251799813685248",
+      "8076736088219811/144115188075855872",
+      "-2218267164031597/4503599627370496",
+      "-8895723378564691/18014398509481984",
+      "2685260586267377/18014398509481984",
+      "3670393942710915/144115188075855872",
+      "5867210828794553/36028797018963968",
+      "7076450034447499/36028797018963968",
+      "1202498786568569/288230376151711744"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "-24255515455249506232193799726946553893499677860051628019047782566353795124685198939429648458983/2582961617992128357388389132903091508213261923168407165806626089781355488099910943440547872768",
+    "conservative_curvature_upper_exact": "6544950175734007026337742679361073410267415136248037650005943630828975040273306474159647919643/464444202604262827669205616957338220719734793755833465145040022452798936346040769009814601728",
+    "global_convexity_proved_by_l1_bound": false,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "48918843902960910616231248080555988528650691251988188937886268377829146835/8148143905337944345073782753637512644205873574663745002544561797417525199053346824733589504",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  }
+}

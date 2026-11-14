@@ -1,0 +1,23 @@
+{
+  "status": "PASS_READ_ONLY_EXCEPTION_BLOB_AND_CONFIG_ORIGINS",
+  "target": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-quadrature-cost.md",
+  "publication_bytes": 3867,
+  "publication_sha256": "1eac6bf5b86c4c13e36a166348086c07ee7e8b4f682f7a71c65519df56b64d34",
+  "publication_index_blob": "efd69834bc999c988bb427f9fd8b277be4769847",
+  "raw_git_blob_matches_index": true,
+  "containing_packs": [
+    {
+      "pack": "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd",
+      "idx_sha256": "e81f0e5a1e25f7fcab2619f6f374864bf94897998ddff0092b51a6ce8cf91894",
+      "promisor": true
+    }
+  ],
+  "actual_pack_payload_decode_performed": false,
+  "worktree_sparse_config_origins": {
+    "publication": "file:/workspace/scratch/db6f0b0e7462/math-research/.git/worktrees/math-publication/config.worktree\ttrue",
+    "primary": "file:.git/config.worktree\ttrue"
+  },
+  "git_state_modified": false,
+  "primary_bytes_written": 0,
+  "no_space_action_executed": true
+}

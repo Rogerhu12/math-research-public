@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-same-finite-goal-next-state-static-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-grouped-advance-accepted.py",
+      "bytes": 6712,
+      "sha256": "93e29006d8de86ba381ae93ad74ec7ae3c775634d5677d48df12c23ec3440c83"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-request.json",
+      "bytes": 2544,
+      "sha256": "40a3fed1a98f93b80f15a1ba6e1014ba4da400a726001e4dd888de8ded6eec29"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-baseline-adoption-report.json",
+      "bytes": 130315,
+      "sha256": "3b7bb04c5ca133ba8d4e442830a639c4cb5b606ba94bc4742d33ab485eea0d01"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-baseline-adoption-progress.jsonl",
+      "bytes": 302,
+      "sha256": "be6e0e321abff36a273fafdf6ac63d36ae0840318d6730b7f8e5ca340ec399ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-adoption-process-receipt.json",
+      "bytes": 3413,
+      "sha256": "5dd62847ad6b8718c09b625111ed3373444c25ba5db1a1163c1f04f7e769cbd1"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-adoption-process-receipt-console.txt",
+      "bytes": 302,
+      "sha256": "be6e0e321abff36a273fafdf6ac63d36ae0840318d6730b7f8e5ca340ec399ee"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-adoption-process-receipt-samples.jsonl",
+      "bytes": 3199,
+      "sha256": "05fdf626464e8313a93088d8d769da07d9a5534ae8b745e1dedef13b6fbf6b52"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-adoption-actual-tool-exit.json",
+      "bytes": 343,
+      "sha256": "b7c1e229e5e598b780a68ab6972bdd69725801deca8cb28d1636ce73bcc2d635"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-work/baseline-summary.json",
+      "bytes": 74292,
+      "sha256": "df3dd66216c8287db025ec7493e080ca95e1042c675225a0b70adcd0828f61de"
+    }
+  ],
+  "input_npz_sha256": "4c6f9980ca6d03cdfc2b3442cf2eac4e548f3c1e83ae66a74590a2950c40e1a0",
+  "actual_F_evaluations_during_adoption": 0,
+  "all_actual_field_and_finite_goal_bindings_checked": true,
+  "adoption_does_not_reuse_old_state_normal": true,
+  "active_normal_QP_outputs_excluded": true,
+  "strong_target_complete": false
+}

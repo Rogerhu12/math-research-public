@@ -1,0 +1,220 @@
+{
+  "schema": "fd2d-complete-amplitude-exact-slice-reuse-check-v1",
+  "runtime": "actual pure V8; no OS subprocess or exit code",
+  "options": {
+    "radialBasisCount": 3,
+    "radialKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "modes": 2,
+    "angles": 32,
+    "gap": 0.8,
+    "radiusCoefficientBound": 0.4
+  },
+  "curvatureOptions": {
+    "guide": 9.5,
+    "weight": 0.01,
+    "nodeShare": 0.5
+  },
+  "geometryOptions": {
+    "radius": 1.59,
+    "width": 0.84,
+    "held": 0.65,
+    "weight": 10,
+    "nodeShare": 0.5,
+    "cutWindow": [
+      0.41,
+      0.62
+    ]
+  },
+  "dimension": 35,
+  "z": [
+    0.00019555013130646097,
+    0.0002965955288555159,
+    0.0002543033520400709,
+    0.00008911240539204972,
+    -0.00011914445018578794,
+    -0.00026982162290555326,
+    -0.0002901004140731298,
+    -0.00017018056557869057,
+    0.00003198350813436679,
+    0.00021869071203776277,
+    0.0002997098891509487,
+    0.00023588639554107874,
+    0.00005806460973539405,
+    -0.00014781842280589807,
+    -0.0002822643225854722,
+    -0.18353698925620798,
+    -0.00014287119073480656,
+    0.00006360245113502775,
+    0.00023933853905551517,
+    0.00029940799581490847,
+    0.00021478067972998893,
+    0.000026354962598193645,
+    -0.0001748074819747373,
+    -0.0002914896225332714,
+    -0.000267301751977456,
+    -0.00011393329363707441,
+    0.00009449641937667676,
+    0.0002572582573828401,
+    0.00029569328998912216,
+    0.00019122677884507244,
+    -0.0000056550924999802,
+    -0.00019980399195944213,
+    -0.0002973923678455295,
+    -0.0002512580760097475,
+    0.25
+  ],
+  "direction": [
+    0.09323273456060345,
+    0.07384685587295879,
+    0.0444661516741707,
+    0.009067162446430969,
+    -0.027559024682451295,
+    -0.06045522710579293,
+    -0.08516909814865657,
+    -0.09835573130340064,
+    -0.09823037763382318,
+    -0.08481000317104082,
+    -0.059910992640768504,
+    -0.026903310311739995,
+    0.009745608858848573,
+    0.04507550558910988,
+    0.07430464409664099,
+    0.0934769976045349,
+    0.09999767800707432,
+    0.09298414180167014,
+    0.07338563821173814,
+    0.043854732757439036,
+    0.008388294956272229,
+    -0.028213459215955656,
+    -0.06099665403862416,
+    -0.0855242378854045,
+    -0.09847651734673236,
+    -0.09810046215940665,
+    -0.08444696962887725,
+    -0.05936397591772248,
+    -0.02624634655510413,
+    0.010423602686569687,
+    0.045682766203947185,
+    0.07475898162316444,
+    0.09371691958992327,
+    0.09999071213613027,
+    0.09273123087234758
+  ],
+  "sourceParentSHA256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+  "rowCount": 37740,
+  "squaredNorm": 1618.5248942178941,
+  "scalarComparisons": 84769,
+  "allNumbersComparedByObjectIs": true,
+  "fullHGradientDiagonalResidualAndJVPCompared": true,
+  "normalStats": {
+    "calls": 631,
+    "hits": 233,
+    "builds": 398,
+    "invalidations": 0,
+    "uncachedBuildMilliseconds": 5606,
+    "valueHits": 195,
+    "derivativeHits": 38,
+    "valueEntries": 197,
+    "derivativeEntries": 96,
+    "valueLimit": 512,
+    "derivativeLimit": 96,
+    "key": "Every complete parameter via Object.is, exact physical s, separate derivative flag",
+    "eviction": "Clear all on state change; retain first entries at each explicit limit",
+    "cachedNodePackets": 0,
+    "approximationIntroduced": false
+  },
+  "invalidations": [
+    {
+      "name": "legacy_theta",
+      "index": 0,
+      "increment": 0.000001,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "name": "new_theta_constant",
+      "index": 19,
+      "increment": 0.000001,
+      "before": 1,
+      "after": 2
+    },
+    {
+      "name": "radius",
+      "index": 16,
+      "increment": 0.000001,
+      "before": 2,
+      "after": 3
+    },
+    {
+      "name": "cut_height",
+      "index": 15,
+      "increment": 0.000001,
+      "before": 3,
+      "after": 4
+    },
+    {
+      "name": "amplitude",
+      "index": 34,
+      "increment": 0.000001,
+      "before": 4,
+      "after": 5
+    }
+  ],
+  "limitedStats": {
+    "calls": 6,
+    "hits": 0,
+    "builds": 6,
+    "invalidations": 0,
+    "uncachedBuildMilliseconds": 110,
+    "valueHits": 0,
+    "derivativeHits": 0,
+    "valueEntries": 2,
+    "derivativeEntries": 1,
+    "valueLimit": 2,
+    "derivativeLimit": 1,
+    "key": "Every complete parameter via Object.is, exact physical s, separate derivative flag",
+    "eviction": "Clear all on state change; retain first entries at each explicit limit",
+    "cachedNodePackets": 0,
+    "approximationIntroduced": false
+  },
+  "publicWrapperAndPacketMutationDoesNotPoisonReuse": true,
+  "actualTiming": {
+    "uncachedSeconds": 8.971,
+    "cachedSeconds": 6.765,
+    "totalSeconds": 16.336,
+    "causalSpeedupClaimed": false
+  },
+  "physicalDefinitionChanged": false,
+  "approximationIntroduced": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

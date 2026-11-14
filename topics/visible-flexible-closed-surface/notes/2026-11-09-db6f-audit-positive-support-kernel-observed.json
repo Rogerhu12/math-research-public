@@ -1,0 +1,34 @@
+{
+  "status": "INDEPENDENT_REVIEW_WITH_TWO_OBSERVED_SUCCESSFUL_EXECUTIONS",
+  "author_program_replay": {
+    "tool_chunk": "6ea210",
+    "exit_code": 0,
+    "output": {
+      "path": "notes/2026-11-09-db6f-audit-positive-support-kernel-replay.json",
+      "bytes": 2054,
+      "sha256": "eb163aacdf57abb4511838753a3effec7b582ddc8ee27f9f3120d65483bc38c4"
+    }
+  },
+  "independent_reconstruction": {
+    "tool_chunk": "2acc6e",
+    "exit_code": 0,
+    "output": {
+      "path": "notes/2026-11-09-db6f-audit-positive-support-kernel-independent.json",
+      "bytes": 3670,
+      "sha256": "ff5094f0d1102570fb407c8cae08c177ec5113ed6acfa65ba83bb7012124459d"
+    },
+    "script": {
+      "path": "scripts/db6f-audit-positive-support-kernel-check.py",
+      "bytes": 5991,
+      "sha256": "873cb4589717bdd5863f2a678ca4b8109bb8c71ad5f8a79389800c7010e8a1bf"
+    }
+  },
+  "proof_review": {
+    "path": "notes/2026-11-09-db6f-audit-review-positive-support-kernel.md",
+    "bytes": 5530,
+    "sha256": "ac5f95bb39ec5e15aebf4f548744bd26a7396274674cd6630b8519ffcff5852a"
+  },
+  "current_M15_candidate_read": false,
+  "new_solver_or_geometry_backend_calls": 0,
+  "control_characters_tabs_CR": 0
+}

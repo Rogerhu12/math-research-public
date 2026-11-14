@@ -1,0 +1,8 @@
+{
+  "status": "METADATA_PREPARATION_REJECTION_NO_SOLVER",
+  "actual_exit_code": 1,
+  "source_snapshot": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-amplitude-resume02-pre-options-fix.py",
+  "source_sha256": "24416af28e90b0bbbb8820f853bd1ccaaac93a49c0e603f35e1d6ac534b220de",
+  "reason": "Whole parameters dictionary also carries the six authorized recovery options: initialCheckpoint, maxIterations, traceFile, iterationCheckpointFile, trialDiagnosticFile, trialStatePrefix. Physical/discretization comparison must exclude exactly those recorded overrides.",
+  "actual_solver_runs": 0
+}

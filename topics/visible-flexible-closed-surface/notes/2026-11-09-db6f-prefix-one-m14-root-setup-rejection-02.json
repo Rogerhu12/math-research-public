@@ -1,0 +1,9 @@
+{
+  "status": "SETUP_GUARD_REJECTION_BEFORE_ROOT",
+  "actual_tool_exit_code": 1,
+  "source_snapshot": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-one-m14-root-packet-pre-dn-metadata-fix.mjs",
+  "source_sha256": "f9025688af47d81fe60238ad05e590f0492532ec10f32d6a52cf6f8afc796878",
+  "error": "Physical parameter mismatch: linearMethod",
+  "original_root_calls": 0,
+  "reason": "The original DN return parameters replace numerical metadata on top of physical.parameters; compare only fields not explicitly replaced by that original return expression, and validate the selected numerical discretization separately."
+}

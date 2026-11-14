@@ -1,0 +1,87 @@
+{
+  "schema": "db6f-prefix-closed-proof-review-publication-v1",
+  "reviewer": "/root/coupled_prefix",
+  "status": "PASS_COMPLETE_V2_PROOF_WITH_SCOPE",
+  "subject": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v2.md",
+    "commit": "5eefd7fdec025686fd60a80d9d541228855f48dc",
+    "blob": "2821bcdff72884b94018b807a81c1608ae004f93",
+    "bytes": 23285,
+    "sha256": "8bea37845fe8b28ab2b5ac5c8f15474c5a96984ad13df2cdcc5951b0582c43db"
+  },
+  "initial_subject": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v1.md",
+    "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+    "blob": "823c3b7ecb90201ba9718dc1865a12ce83fb0046",
+    "bytes": 23092,
+    "sha256": "b4b5c9d5154c9bcb09f4c077ca14d6ac05064ffb61e6b75f6017ce28c6f475fc"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-prefix-review-explicit-support-core-receipt.json",
+      "commit": "a41f34466b97722ec7d14365be3483d78d82a837",
+      "blob": "14021eb129b1268755a244b4c2231c2a8a205b9a",
+      "bytes": 7625,
+      "sha256": "22928cf0aea6579137e0e8b0dc4d8517181f79311835b79a6aa8fc8520590039",
+      "fixed_readback_equal": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-prefix-review-explicit-support-core.md",
+      "commit": "25cc8a1965556181e23bbfad9f140a1493ab0197",
+      "blob": "d511057f785520143c0588bf8be80c3e59c54d8e",
+      "bytes": 20060,
+      "sha256": "04596cdfe694afdbcfe253c9bcc3c8c63508f5e5e03806837b1a9d20cf409068",
+      "fixed_readback_equal": true
+    }
+  ],
+  "v2_text_check": {
+    "reviewer": "/root/coupled_prefix",
+    "completed_utc": "2026-11-10 00:24:36 UTC",
+    "v1": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v1.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "823c3b7ecb90201ba9718dc1865a12ce83fb0046",
+      "bytes": 23092,
+      "sha256": "b4b5c9d5154c9bcb09f4c077ca14d6ac05064ffb61e6b75f6017ce28c6f475fc"
+    },
+    "v2": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v2.md",
+      "commit": "5eefd7fdec025686fd60a80d9d541228855f48dc",
+      "blob": "2821bcdff72884b94018b807a81c1608ae004f93",
+      "bytes": 23285,
+      "sha256": "8bea37845fe8b28ab2b5ac5c8f15474c5a96984ad13df2cdcc5951b0582c43db"
+    },
+    "whole_text_reconstruction_equal": true,
+    "changes": [
+      {
+        "label": "header revision statement",
+        "from": "本稿不进入 results，直到完整证明独审通过。\n",
+        "to": "本稿不进入 results，直到完整证明独审通过。\n本v2仅修正(23)在d_u=0时的严格号，并补明d_u>0时仍严格；\n其余正文和18项有理检查源与固定v1逐字相同。\n"
+      },
+      {
+        "label": "weak zero-chord comparison",
+        "from": "\\ge\\frac{2}{7\\pi}d_u>\\frac1{11}d_u.",
+        "to": "\\ge\\frac{2}{7\\pi}d_u\\ge\\frac1{11}d_u."
+      },
+      {
+        "label": "explicit positive-distance strictness",
+        "from": "最后使用π<22/7。无需假定最短法向角弧也是最短弧长弧。",
+        "to": "最后使用π<22/7；当d_u>0时最后比较严格，d_u=0时只取弱界。无需假定最短法向角弧也是最短弧长弧。"
+      }
+    ],
+    "unique_appendix_identical": true,
+    "appendix_reexecuted_for_v2": false,
+    "scope": "Full fixed-commit v2 read and exact three-replacement text check; original independent appendix execution remains the v1 run."
+  },
+  "execution_scope": {
+    "independent_appendix18": "actual V8 completed 2026-11-10 00:13:58 UTC, source v1; exact same appendix in v2",
+    "v2_appendix_new_execution": false,
+    "complete_proof_read_and_rederived": true,
+    "terminal": false,
+    "python": false,
+    "solver": false,
+    "candidate_data": false,
+    "old_source_modified": false
+  },
+  "mathematical_scope": "Exact common-metric embedded annulus with two boundary circles; quantitative held/grip/reach and nonquantitative positive full-E(3) quotient; not a closed-surface completion."
+}

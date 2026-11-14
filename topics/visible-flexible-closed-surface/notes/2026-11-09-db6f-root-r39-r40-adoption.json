@@ -1,0 +1,45 @@
+{
+  "status": "FORMAL_ADOPTION_AFTER_FULL_PROOF_AND_INDEPENDENT_REVIEW",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T20:36:36.801086+00:00",
+  "results": [
+    {
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R39-cylindrical-cuff-and-analytic-endpoint.md",
+        "bytes": 19703,
+        "sha256": "4628e3a948f87146630d56ba526b3d87089df024d8e12db00ee4863140543f3a"
+      },
+      "proof": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+        "bytes": 19628,
+        "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+      },
+      "review": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylindrical-cuff-and-analytic-endpoint.md",
+        "bytes": 13409,
+        "sha256": "832002ddbdbc9e0cc92cda5d5dc0f7668fc003f063cf55ded8014429e8080272"
+      },
+      "full_mathematical_body_byte_identical": true
+    },
+    {
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R40-cylinder058-conditional-local-template.md",
+        "bytes": 11816,
+        "sha256": "54f0571a8afbb0c4cc6d82689e27e24678b4716d2d5873958d8d135e345a4a2c"
+      },
+      "proof": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template.md",
+        "bytes": 11433,
+        "sha256": "d2ce64be1c667f8582efb6addd7aa528757a1266b6d6da98c44e7275dd8a31a3"
+      },
+      "review": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylinder058-local-template.md",
+        "bytes": 10493,
+        "sha256": "fc400e9d9e3ffd33438a987888afde796dc97a26efe908fe4b8964002f152b7b"
+      },
+      "full_mathematical_body_byte_identical": true
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Proved conditional local geometry and analytic obstruction only. No closed connector or G5 claim."
+}

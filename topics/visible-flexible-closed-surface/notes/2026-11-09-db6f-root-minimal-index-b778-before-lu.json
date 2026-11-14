@@ -1,0 +1,22 @@
+{
+  "status": "REPRODUCIBLE_TEMPORARY_PUBLISHER_INDEX_REMOVED",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T21:30:30.660144+00:00",
+  "temporary_index": {
+    "path": "/tmp/db6f-minimal-publish-index",
+    "bytes": 22586140,
+    "sha256": "1d0c20ec26e49ab3a0d8aa961bd0419768c9254f802b467d2f4b8b5e03bd0231"
+  },
+  "published_commit": "b77800583068ef38332c690f03a629784373ff82",
+  "verified_tree": "4acf86cd22e5a7829e772e1000edc8ff47d0e328",
+  "actual_publication_observation": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-e6ee-push-observed.json",
+    "bytes": 1100,
+    "sha256": "3c22c1faf7accce7dcbfcecbb4e0ce22dc60bf38b05bc88bbaa1ae549ab7d1f0"
+  },
+  "source_and_published_git_objects_removed": false,
+  "primary_repository_index_changed": false,
+  "free_bytes_before": 780455936,
+  "scope": "Only /tmp publishing index residency. The existing helper recreates it using read-tree on each new latest-main parent.",
+  "free_bytes_after": 803045376
+}

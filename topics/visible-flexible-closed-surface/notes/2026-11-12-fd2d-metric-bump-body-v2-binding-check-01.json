@@ -1,0 +1,85 @@
+{
+  "schema": "fd2d-actual-bump-body-v2-binding-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-body-screen-v2.py",
+    "bytes": 12358,
+    "sha256": "d5aedcebcb759f86b22808b98d702db11daf0b45ce32cd03d07700c712460571"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-clean01-warm.npz",
+    "bytes": 39309,
+    "sha256": "aa8046eec9da82f70fe89964d7553ab9691e1b2f0000719c2e6b19c1d043454f"
+  },
+  "producer_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-clean01-report.json",
+    "bytes": 24987,
+    "sha256": "f52ae922bb7bf36ed135a5057632acb62d991958c5bb4ae5357865e0088afc94"
+  },
+  "settings": {
+    "candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "geometry_binding": "Published reader default exact packets, explicitly identified in this output; absent producer binding is not inferred",
+    "mesh_is_saved_actual_P1_definition": true,
+    "mesh_rebuilt_or_cleaned": false,
+    "profile_supports": [
+      [
+        0.34,
+        0.7915892713432515
+      ],
+      [
+        0.4528973178358129,
+        0.9044865891790643
+      ],
+      [
+        0.5657946356716258,
+        1.0173839070148774
+      ],
+      [
+        0.6786919535074387,
+        1.1302812248506902
+      ],
+      [
+        0.7915892713432515,
+        1.243178542686503
+      ],
+      [
+        0.9044865891790643,
+        1.356075860522316
+      ],
+      [
+        1.0173839070148774,
+        1.4689731783581288
+      ]
+    ],
+    "fixed_base_T": 0.02,
+    "physical_deltas": [
+      -0.008435437835262894,
+      -0.014197699984176679,
+      -0.020805825529445984,
+      -0.02759109454805253,
+      -6.093489670630416e-06,
+      0.019811200648759568,
+      0.012295216222182876
+    ],
+    "seed_weight_definition": {
+      "kind": "central_plateau",
+      "start": 0.32,
+      "end": 0.55,
+      "step": 5
+    },
+    "representation_kind": "coalesced_mesh_central_seed_plateau_v1",
+    "blend_interval": [
+      0.58,
+      1.399634787656641
+    ],
+    "profile_kind": "physical_bumps",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "body_integration_run": false,
+  "reader_class": "RawBumpSeedNativeField",
+  "field_sha_found_in_producer_report": true
+}

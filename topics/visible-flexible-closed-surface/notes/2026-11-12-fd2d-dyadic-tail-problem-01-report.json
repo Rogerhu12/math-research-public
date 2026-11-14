@@ -1,0 +1,149 @@
+{
+  "schema": "fd2d-R170-provider-archive-bounded-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-dyadic-tail-problem-check.py",
+    "bytes": 8506,
+    "sha256": "25c109f3b64a3c6a168d47a082536281b2d6ffb6d09c6948a44401a0de8512be"
+  },
+  "input_foundation": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json",
+    "bytes": 54778,
+    "sha256": "6b6020f50c8f0e1541ea6a6f75d8919f0ce38a750a8dd73dd3cb5260298fa566"
+  },
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "radius_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "bytes": 136549,
+    "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+  },
+  "actual_layout": {
+    "modes": 31,
+    "nodes": 129,
+    "raw_columns": 95,
+    "tail_count": 16,
+    "parameter_count": 54,
+    "tail_slice": [
+      31,
+      47
+    ]
+  },
+  "initial_field_mesh_and_parameter_bytes_preserved": true,
+  "actual_new_tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+  "old_global_box_rejected_witness": true,
+  "new_exact_domain_permitted_witness_at_one_operator_point": true,
+  "operator_point": 0.04,
+  "central_cap_screen_invoked": false,
+  "actual_domain_certificate": {
+    "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+    "passed": true,
+    "exact_arithmetic": true,
+    "controls_interpreted_as_exact_values": true,
+    "degree": 15,
+    "parts": 8,
+    "rows": 128,
+    "local_lower_exact": "590295810358705655359/75557863725914323419136",
+    "local_upper_exact": "33/128",
+    "minimum_lower_slack_exact": "590295810358705655359/75557863725914323419136",
+    "minimum_upper_slack_exact": "603/640",
+    "global_lower_exact": "-2552039788843281/288230376151711744",
+    "global_upper_exact": "33/128",
+    "global_control_box_passed": false,
+    "global_negative_indices": [
+      7,
+      8
+    ],
+    "violated_rows": []
+  },
+  "full_parameter_matrix_shape": [
+    128,
+    54
+  ],
+  "all_non_tail_matrix_columns_exactly_zero": true,
+  "scaled_tail_row_identity_maximum_error": 5.551115123125783e-17,
+  "saved_fixture": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-tail-problem-01-fixture.npz",
+    "bytes": 130359,
+    "sha256": "aa528cb83e06bc21252fd00521a414c6aee733a0c6952a10f99b3413fe74e5d4"
+  },
+  "restarted_complete_vector_bytewise_equal": true,
+  "archive_native_defining_arrays_bytewise_equal": true,
+  "new_archive_native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-tail-problem-01-native-definition.json",
+    "bytes": 58917,
+    "sha256": "2880bb939fb55fd42591f829b5debaa4094ed4e016684c6e8b97f02a5da1591a"
+  },
+  "cut_trace_small_comparison": {
+    "n": 0.0,
+    "m": 0.0,
+    "l": 0.0,
+    "n_u": 1.1102230246251565e-16,
+    "m_u": 5.551115123125783e-17,
+    "l_u": 1.1102230246251565e-16
+  },
+  "provider_definition": {
+    "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+    "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+    "control_box": {
+      "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+      "degree": 15,
+      "parts": 8,
+      "interval_endpoints_exact": [
+        "0",
+        "1/8",
+        "1/4",
+        "3/8",
+        "1/2",
+        "5/8",
+        "3/4",
+        "7/8",
+        "1"
+      ],
+      "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+      "shape": [
+        128,
+        16
+      ],
+      "numerator_denominator": "35184372088832",
+      "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+      "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+      "exact_lower": "0",
+      "exact_upper": "6/5",
+      "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+      "matrix_entries_exact_in_binary64": true,
+      "floating_matrix_vector_product_claimed_exact": false,
+      "selected_sufficient_domain_not_necessary_function_range": true
+    },
+    "tail_parameter_count": 16,
+    "inherited_polynomial_basis_tag": "positive_bernstein",
+    "basis_tag_is_not_global_control_box": true,
+    "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+    "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+    "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+    "old_parameter_domain_global_tail_min_max_replaced": true,
+    "central_and_profile_domain_predicates_unchanged": true,
+    "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+    "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+    "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+    "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+  },
+  "provider_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_problem.py",
+    "bytes": 8554,
+    "sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533"
+  },
+  "native_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_archive_native.py",
+    "bytes": 27927,
+    "sha256": "e4a5c9c30aff8bb008dda528da07f6a92b2d6a8f5d1c14487245c63b2e6230e8"
+  },
+  "existing_sources_or_live_state_modified": false,
+  "whole_F_J_normal_BVP_or_body_evaluated": false,
+  "actual_nonlinear_acceptance_or_geometry_claimed": false,
+  "elapsed_seconds": 3.712353521001205,
+  "internal_check_passed": true,
+  "process_exit_recorded_separately": true
+}

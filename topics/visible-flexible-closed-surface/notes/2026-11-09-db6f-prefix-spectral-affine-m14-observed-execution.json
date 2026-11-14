@@ -1,0 +1,117 @@
+{
+  "status": "CLOSED_PREPARATION_AND_DEFINITION_CHECK_ONLY",
+  "observer": "/root/coupled_prefix",
+  "utc": "2026-11-09T19:39:30.850583+00:00",
+  "actual_nonlinear_tail": false,
+  "frozen_affine_dn": true,
+  "actual_BVP_DN_calls": 0,
+  "actual_prefix_flow_bridge_constructors": 0,
+  "actual_domain_newton_install_calls": 0,
+  "actual_weighted_solver_factory_calls": 0,
+  "future_runner_main_executed": false,
+  "events": [
+    {
+      "tool_receipt": "1141ac",
+      "actual_exit_code": 1,
+      "wall_time_seconds": 0.705365241,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+        "--out-prefix",
+        "notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01"
+      ],
+      "source_sha256_at_execution": "f4215d26fd7b2ca297c559ca69bb6f9ee1467317a097b0479042460b7a56c0ea",
+      "exact_source_snapshot": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14-pre-closure-scope.py",
+        "bytes": 12669,
+        "sha256": "f4215d26fd7b2ca297c559ca69bb6f9ee1467317a097b0479042460b7a56c0ea"
+      },
+      "error": "Unbound local Python import: f6root_gentle_inner_cycle_scan, f6root_recording_split_tail_port",
+      "output_files_created": 0,
+      "meaning": "Overbroad scan of unused dependency CLI main bodies; no candidate initialized or mathematical failure asserted."
+    },
+    {
+      "tool_receipt": "9e16d0",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 1.6427707059999999,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+        "--out-prefix",
+        "notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01"
+      ],
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+        "bytes": 13600,
+        "sha256": "915c3701e8b2de3857e10e7462e09630a5d5f4f955fc77882723788f1344fc99"
+      },
+      "meaning": "Pure preparation; only existing true M14 data and sources were read, and launch/preparation metadata written."
+    },
+    {
+      "tool_receipt": "d0a6a9",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.800948412,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-prefix-check-spectral-affine-definitions.py",
+        "--launch",
+        "notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+        "--out",
+        "notes/2026-11-09-db6f-prefix-spectral-affine-definition-check-01.json"
+      ],
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-spectral-affine-definitions.py",
+        "bytes": 3392,
+        "sha256": "0f59d90c2359433bb9af1ea30451395488b5fbccd2085d22def55a149dbd4321"
+      },
+      "meaning": "Only real module/class definitions checked; 15 callback identities agree. No objects, original numerical callbacks, original installer, restart, solver factory or solver invoked."
+    }
+  ],
+  "future_run_outputs_still_absent": true,
+  "runtime_installed_newton_gate": "NOT_PAID_BY_PREPARATION; must execute in actual runner after original install()",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-affine-replay.py",
+      "bytes": 18828,
+      "sha256": "ad219dbab80278670665ac3cb5401cb55daf33834cea8495dd16bf1c1396e4bd"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14.py",
+      "bytes": 13600,
+      "sha256": "915c3701e8b2de3857e10e7462e09630a5d5f4f955fc77882723788f1344fc99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-affine-m14-pre-closure-scope.py",
+      "bytes": 12669,
+      "sha256": "f4215d26fd7b2ca297c559ca69bb6f9ee1467317a097b0479042460b7a56c0ea"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-spectral-affine-definitions.py",
+      "bytes": 3392,
+      "sha256": "0f59d90c2359433bb9af1ea30451395488b5fbccd2085d22def55a149dbd4321"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14-method.md",
+      "bytes": 8927,
+      "sha256": "07ef29867fe40fe46f5b2048c3e220711e9f7d725afea47cb36cfed306422500"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+      "bytes": 55594,
+      "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-preparation.json",
+      "bytes": 2630,
+      "sha256": "c65a5873d10449f75818ebc282794f0bb8996e33384bbd777a2f815563d91abb"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-definition-check-01.json",
+      "bytes": 10096,
+      "sha256": "638c1bb5d925c2d381ae9a608d65b8f4e8bd34ac6250fb366432e2a5f13f8ff8"
+    }
+  ]
+}

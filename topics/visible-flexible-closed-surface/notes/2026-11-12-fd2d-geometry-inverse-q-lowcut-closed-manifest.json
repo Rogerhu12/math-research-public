@@ -1,0 +1,115 @@
+{
+  "schema": "fd2d-geometry-closed-files-v1",
+  "scope": "Actual lowcut full160 fixed-g response and two unsuccessful finite prefix matches. Current new warp and wide inverse runs excluded.",
+  "observed_processes": [
+    {
+      "session": 43659,
+      "exit_code": 0,
+      "seconds": 7.709,
+      "role": "lowcut actual provider/source identity extension"
+    },
+    {
+      "session": 83433,
+      "exit_code": 0,
+      "seconds": 28.671,
+      "role": "full160 canonical-momentum m2"
+    },
+    {
+      "session": 71350,
+      "exit_code": 1,
+      "role": "vmid .88 actual negative-coast rejection at initialization"
+    },
+    {
+      "session": 88516,
+      "exit_code": 0,
+      "role": "finite radial-room formulas"
+    },
+    {
+      "session": 67334,
+      "exit_code": 1,
+      "role": "vmid .65 finite positive-coast samples did not bracket a root"
+    }
+  ],
+  "files": [
+    {
+      "path": "scripts/fd2d_tail_coupled_prefix_design.py",
+      "bytes": 8108,
+      "sha256": "05417298c7ec7ede5add20edd9312559321adb5a6d2cf90c48929124730d462f"
+    },
+    {
+      "path": "scripts/fd2d_prefix_radial_room.py",
+      "bytes": 2951,
+      "sha256": "95da777bdda9e2a003d2cbd7d1db428dbbe65a89238d1cd88276498f9c7d424b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-02-config.json",
+      "bytes": 49714,
+      "sha256": "13a59a2d805ea70a95c910e79f15d36e5c2b1d67abc7d36b540298f8858aaa5c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-02-provider-report.json",
+      "bytes": 5635,
+      "sha256": "26a96017598f7d8ac9407dac3cf64c1479051fcde0c666b3200a077951a0eaad"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-short088-k34-prefix-01-initial.json",
+      "bytes": 33374,
+      "sha256": "54e24ac23883ab56ee7d7e1e523d28ae95e2941220362e4e7811e23efc5f5ce0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-short088-k34-prefix-01-failure.json",
+      "bytes": 883,
+      "sha256": "3a4386fa8ded8c66248501851f01937345b905d1711107fde73f261a549d4653"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-prefix-radial-room-01.json",
+      "bytes": 2963,
+      "sha256": "ae9862002b80df086a6a85904efbcb9ae56d7bb228f5a768a5c5772fd916058a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-short065-k34-prefix-02-initial.json",
+      "bytes": 33441,
+      "sha256": "6818b74d989524d747d3cf07efaa249d747e6640691c83852a9337590161abb5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-short065-k34-prefix-02-report.json",
+      "bytes": 1438,
+      "sha256": "cf992fa6eb26b0299a75c392e2c681543228769de85a602322c6156b1bbd8055"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-short065-k34-prefix-02-exit-receipt.json",
+      "bytes": 592,
+      "sha256": "1ab6b7a0f9bfb979d713be7ae1bdf293af546c6e74159ec3a0ceafc28ca11c29"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-checkpoint.json",
+      "bytes": 37013,
+      "sha256": "a81e3ad6ae78adcb8ee2343a8d3110ac18d791a6db47b16f412e6e0e539f9ee7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-report.json",
+      "bytes": 145108,
+      "sha256": "695c71fcf5fbd4fa04eb6d6506cae1eb0d41396e5756d3a515a1fd12229263dc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-raw-momentum.jsonl.gz",
+      "bytes": 742995,
+      "sha256": "23460fbe5e093b79ebe5daac3304b9c804891a6ec820ce57b627395b678ed432"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-inverse-q-lowcut-full160-m2-n256-02-trajectory.jsonl.gz",
+      "bytes": 2513210,
+      "sha256": "abfdbb17d67fa7ab6fd0a752f1dee1709edfb1aa7146e56f34039883d794ac87"
+    }
+  ],
+  "total_bytes": 3577425,
+  "dependencies_closed_by_metric": [
+    "notes/2026-11-12-fd2d-metric-inverse-q-raw0-lowcut-candidate-02.json",
+    "notes/2026-11-12-fd2d-metric-inverse-q-raw0-lowcut-provider-check-02.json"
+  ],
+  "dependencies_previous_manifest": [
+    "scripts/fd2d-inverse-q-tail.mjs",
+    "scripts/fd2d-inverse-q-tail-config.mjs",
+    "scripts/fd2d-inverse-q-tail-m2-audit.mjs"
+  ]
+}

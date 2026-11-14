@@ -1,0 +1,63 @@
+{
+  "status": "CLOSED_ACTUAL_REPLAY_AND_INDEPENDENT_CHECK_EXIT0",
+  "record_written_utc": "2026-11-09T17:22:21.821157+00:00",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "scripts/db6f-prefix-euclidean-support-toy-certificate.py",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-euclidean-support-toy-replay.json"
+      ],
+      "receipt": "b9baa3",
+      "actual_exit_code": 0,
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-euclidean-support-toy-certificate.py",
+        "bytes": 5962,
+        "sha256": "8c0207a9974829fee227eada20ac4977824d52e50ef2779ec8470e10cd1e3305"
+      },
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-euclidean-support-toy-replay.json",
+        "bytes": 8959,
+        "sha256": "5b5b3b8a6de37bde6c7132ea58791777c6275446884382f516b780b65c9e5793"
+      },
+      "byte_identical_to_author": true
+    },
+    {
+      "command": [
+        "python",
+        "scripts/db6f-tail-review-euclidean-support.py",
+        "--replay",
+        "notes/2026-11-09-db6f-tail-review-euclidean-support-toy-replay.json",
+        "--out",
+        "notes/2026-11-09-db6f-tail-review-euclidean-support-check.json"
+      ],
+      "receipt": "4fe3f4",
+      "actual_exit_code": 0,
+      "source": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-euclidean-support.py",
+        "bytes": 11449,
+        "sha256": "8e2f4187d4ac45a472c1682528fee5934f0f8fd30f44fe4c57e6d3d033f54274"
+      },
+      "output": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-euclidean-support-check.json",
+        "bytes": 5595,
+        "sha256": "dcc0f21c27f3b0226b9e8a851b30670f46a598cc7966194549638c6db2ce0a7f"
+      },
+      "row_count": 8,
+      "integer_polynomial_identities": 40,
+      "bound_file_count": 10
+    }
+  ],
+  "full_review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-euclidean-support.md",
+    "bytes": 11780,
+    "sha256": "d2a188e222cb0333ecd0bbcf622501ea173c53cc79a3a1a52a1c66b25aca54ac"
+  },
+  "all_bound_files_rehashed_at_closure": true,
+  "actual_surface_files_read": false,
+  "support_optimizer_or_solver_calls": 0,
+  "current_sources_or_active_job_changed": false,
+  "scope": "General conditional theorem, fixed-cap information limit, and finite non-surface toy only. No actual candidate bound."
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Launch configuration error before any numerical fixture. No DN or ODE was attempted.",
+  "chunk_id": "b2900d",
+  "tool_exit_code": 1,
+  "error": "ERR_MODULE_NOT_FOUND: VISIBLE_FLEX_SOURCE_ROOT was supplied as the archive scripts directory; the module appends topics/large-amplitude-twist-flex/scripts itself.",
+  "correction": "Use the independent runtime root as VISIBLE_FLEX_SOURCE_ROOT. The actual check source is unchanged."
+}

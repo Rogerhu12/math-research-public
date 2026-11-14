@@ -1,0 +1,390 @@
+#!/usr/bin/env python3
+"""Explicit v3 entry: four reviewed bookkeeping keys plus source-binding guards.
+
+Transfer a proved background value packet to another grid of the same g.
+
+The packet is a pointwise interval-polynomial enclosure for w and wr; no
+derivative of a packet polynomial is asserted. Exact physical intersections
+are converted to binary local partitions using both outward neighbours.
+Every old piece with positive-length intersection is affinely composed, then
+coefficient hulls cover the possibly different pieces on a boundary sliver.
+The analytic validity of the input packet remains a separate proof input.
+"""
+import argparse
+from bisect import bisect_left, bisect_right
+from fractions import Fraction as Q
+import gzip
+import hashlib
+import importlib.util
+import io
+import json
+import math
+from pathlib import Path
+from types import SimpleNamespace
+import time
+
+import numpy as np
+from db6f_tail_integrated import IntegratedTail
+from db6f_tail_interval_elementary import I, qbounds
+
+HERE = Path(__file__).resolve().parent
+spec = importlib.util.spec_from_file_location(
+    'background_transfer_consumer', HERE/'db6f-audit-tail-metric-curvature.py')
+consumer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(consumer)
+
+# These fields control numerical solution/evaluation only. Every other
+# supplied parameter must agree exactly; an unknown changing field rejects.
+NUMERICAL_KEYS = set('''modes spacing depth physicalDepth steps quadrature linearFar
+linearSteps linearMethod fastJacobian cuspAwareFlow actualCuspGrid
+solveTolerance auditSteps maxIterations traceFile initialCheckpoint
+harmonicAmplitudePredictor shootingParts warpSteps quadratureTolerance
+cuspAwareQuadrature maxCachedBetas nodeIndex rhsEvaluation projectionFloor
+farPadding'''.split())
+
+BASE_TRANSFER_FILE = 'db6f-root-transfer-background.py'
+BASE_TRANSFER_SHA256 = '35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705'
+ADDITIONAL_NUMERICAL_KEYS = frozenset({
+    'iterationCheckpointFile', 'sharedEngines',
+    'trialDiagnosticFile', 'trialStatePrefix'})
+BASE_NUMERICAL_KEYS = frozenset(NUMERICAL_KEYS)
+NUMERICAL_KEYS = BASE_NUMERICAL_KEYS | ADDITIONAL_NUMERICAL_KEYS
+PARAMETER_POLICY = {
+    'id': 'visible-flat17-bookkeeping-keys-v2',
+    'additional_numerical_keys': sorted(ADDITIONAL_NUMERICAL_KEYS),
+    'base_file': BASE_TRANSFER_FILE,
+    'base_sha256': BASE_TRANSFER_SHA256,
+    'difference_semantics': 'Key presence and canonical JSON value including JSON types; an unknown added null key rejects.'}
+BACKGROUND_DEFINITION_KEYS = frozenset({
+    'checkpoint', 'calibrations', 'alpha',
+    'cell_zero_A', 'inner_A', 'outer_B'})
+
+
+def parameter_policy_sha256():
+    value = json.dumps(PARAMETER_POLICY, sort_keys=True,
+                       separators=(',', ':'), ensure_ascii=True).encode('utf-8')
+    return hashlib.sha256(value).hexdigest()
+
+
+def changed_parameters(old, new):
+    """Presence and JSON-type sensitive; unknown changes cannot alias None/0."""
+    canonical = lambda value: json.dumps(value, sort_keys=True,
+        separators=(',', ':'), ensure_ascii=True, allow_nan=False)
+    return [key for key in sorted(set(old) | set(new))
+            if (key in old) != (key in new)
+            or canonical(old[key]) != canonical(new[key])]
+
+
+def check_parameters(old, new):
+    for params in (old, new):
+        for key in ADDITIONAL_NUMERICAL_KEYS:
+            if key not in params or params[key] is None:
+                continue
+            value = params[key]
+            if key == 'sharedEngines':
+                check(type(value) is bool, 'sharedEngines must be boolean or null')
+            else:
+                check(isinstance(value, str), key+' must be a path string or null')
+    different = changed_parameters(old, new)
+    check(all(key in NUMERICAL_KEYS for key in different),
+          'changing an unapproved physical parameter: '+', '.join(
+              key for key in different if key not in NUMERICAL_KEYS))
+    return different
+
+
+def bound_file(name, expected, parent):
+    check(isinstance(expected, str) and len(expected) == 64
+          and all(c in '0123456789abcdef' for c in expected), 'Invalid SHA256 binding')
+    name = Path(name)
+    candidates = [name, HERE.parent/name, parent/name, parent/name.name]
+    found = next((p for p in candidates if p.is_file()), None)
+    check(found is not None, 'Missing bound file '+str(name))
+    check(sha(found) == expected, 'Changed bound file '+str(found))
+    return found.resolve()
+
+
+def source_preflight(old_manifest, packet_path):
+    """Hash only: no finite-tail data arrays, geometry construction or flow."""
+    check(sha(HERE/BASE_TRANSFER_FILE) == BASE_TRANSFER_SHA256,
+          'Frozen base transfer source changed')
+    old = json.loads(old_manifest.read_text())
+    packet = json.loads(packet_path.read_text())
+    check(old.get('finished') is True, 'Old finite map is not complete')
+    check(packet.get('finished') is True, 'Input background packet is not complete')
+    check(packet['finite_tail_manifest_sha256'] == sha(old_manifest),
+          'Input packet is bound to a different old manifest')
+    data_path = bound_file(packet['data_file'], packet['data_sha256'], packet_path.parent)
+    definitions = packet.get('background_definition_hashes')
+    check(isinstance(definitions, dict)
+          and set(definitions) == BACKGROUND_DEFINITION_KEYS,
+          'Exactly the six reviewed background definition bindings are required')
+    resolved = {}
+    for key in sorted(BACKGROUND_DEFINITION_KEYS):
+        item = definitions[key]
+        check(isinstance(item, dict) and isinstance(item.get('file'), str),
+              'Invalid background definition binding '+key)
+        file = bound_file(item['file'], item.get('sha256'), packet_path.parent)
+        resolved[key] = {'file': str(file), 'sha256': item['sha256']}
+    check(definitions['checkpoint']['sha256'] == old['inputSHA256'],
+          'Old manifest is not bound to the reviewed background checkpoint')
+    return old, packet, resolved, data_path
+
+
+def read_checkpoint(path):
+    payload = path.read_bytes()
+    if payload[:2] == b'\x1f\x8b':
+        payload = gzip.decompress(payload)
+    record = json.loads(payload)
+    response = record.get('response', record)
+    cp = response.get('checkpoint', response.get('tail_checkpoint', response))
+    check(isinstance(cp, dict) and isinstance(cp.get('parameters'), dict),
+          'Checkpoint has no readable parameter dictionary')
+    return cp
+
+
+
+def check(ok, text):
+    if not ok:
+        raise ValueError(text)
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def grid(path):
+    t = IntegratedTail(path)
+    if t.unscaled_lengths is None:
+        nodes = [Q(float(x)) for x in t.r_display]
+    else:
+        radial = t.meta['radialGeometry']
+        nodes = [Q(radial['innerAnchor'])]
+        for length in t.unscaled_lengths:
+            check(length > 0, 'nonpositive radial increment')
+            nodes.append(nodes[-1]+t.radial_scale*Q(float(length)))
+        check(nodes[-1] == Q(radial['outerAnchor']), 'outer anchor mismatch')
+    cuff = Q(t.meta['parameters']['rCuff'])
+    check(cuff > 0 and cuff < nodes[0], 'invalid cuff or collar')
+    check(all(a < b for a, b in zip(nodes[:-1], nodes[1:])),
+          'radial grid is not strictly increasing')
+    check(nodes[-1] == Q(t.meta['parameters']['rCut']),
+          'finite grid does not reach the same cut')
+    return t.meta, [cuff]+nodes
+
+
+def fraction_vectors(values):
+    pairs = [(float(qbounds(q).lo), float(qbounds(q).hi)) for q in values]
+    return I(np.array([x[0] for x in pairs]), np.array([x[1] for x in pairs]))
+
+
+def affine_coefficients(low, high, alpha, beta):
+    """Vectorized outward power-basis substitution x=alpha+beta*tau."""
+    n, size = low.shape
+    degree = size-1
+    one = I(np.ones(n))
+    apow, bpow = [one], [one]
+    for _ in range(degree):
+        apow.append(apow[-1]*alpha)
+        bpow.append(bpow[-1]*beta)
+    out_lo, out_hi = np.empty_like(low), np.empty_like(high)
+    for j in range(size):
+        value = I(np.zeros(n))
+        for k in range(j, size):
+            value = value+I(low[:, k], high[:, k])*qbounds(Q(math.comb(k, j)))*apow[k-j]
+        value = value*bpow[j]
+        out_lo[:, j], out_hi[:, j] = value.lo, value.hi
+    return out_lo, out_hi
+
+
+def write_npz(prefix, arrays):
+    stream = io.BytesIO()
+    np.savez_compressed(stream, **arrays)
+    payload = stream.getvalue()
+    if len(payload) > 1_000_000:
+        payload = gzip.compress(payload, mtime=0)
+        path = Path(str(prefix)+'.npz.gz')
+    else:
+        path = Path(str(prefix)+'.npz')
+    check(len(payload) < 5_000_000, 'transfer output exceeds the per-file limit')
+    path.write_bytes(payload)
+    return path
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    for key in ['old-manifest', 'packet', 'out-prefix']:
+        parser.add_argument('--'+key, type=Path, required=True)
+    parser.add_argument('--new-manifest', type=Path)
+    parser.add_argument('--new-checkpoint', type=Path)
+    parser.add_argument('--check-parameters-only', action='store_true')
+    args = parser.parse_args()
+    started = time.time()
+    old_preflight, packet_preflight, verified_definitions, verified_data = source_preflight(
+        args.old_manifest, args.packet)
+    if args.check_parameters_only:
+        check(args.new_checkpoint is not None and args.new_manifest is None,
+              'Parameter-only check requires a real checkpoint and no new manifest')
+        cp = read_checkpoint(args.new_checkpoint)
+        changed = check_parameters(old_preflight['parameters'], cp['parameters'])
+        report = {
+            'status': 'read-only-parameter-and-background-source-preflight',
+            'mode': 'parameter-only-preflight',
+            'scope': 'Only parameter dictionaries and frozen source/data hashes were checked. The checkpoint is not converted to a geometric manifest; no radial partition or new-map metric/curvature was checked.',
+            'new_parameter_checkpoint': str(args.new_checkpoint),
+            'new_parameter_checkpoint_sha256': sha(args.new_checkpoint),
+            'old_manifest': str(args.old_manifest),
+            'old_manifest_sha256': sha(args.old_manifest),
+            'input_packet': str(args.packet), 'input_packet_sha256': sha(args.packet),
+            'input_data_file': str(verified_data), 'input_data_sha256': sha(verified_data),
+            'script_sha256': sha(__file__),
+            'base_transfer_script_sha256': BASE_TRANSFER_SHA256,
+            'parameter_policy': PARAMETER_POLICY,
+            'parameter_policy_sha256': parameter_policy_sha256(),
+            'different_numerical_parameter_keys': changed,
+            'all_other_parameters_identical': True,
+            'background_definition_hashes': packet_preflight['background_definition_hashes'],
+            'background_definition_hashes_verified': True,
+            'verified_background_definition_files': verified_definitions,
+            'geometric_transfer_performed': False,
+            'finite_map_was_created': False,
+            'actual_new_root_flow_solver_calls': 0}
+        out = Path(str(args.out_prefix)+'-preflight.json')
+        check(not out.exists(), 'Refusing to overwrite a previous preflight')
+        out.write_text(json.dumps(report, indent=2)+'\n')
+        print(json.dumps({'status': report['status'], 'changed_keys': changed,
+                          'definitions_checked': len(verified_definitions),
+                          'geometric_transfer_performed': False}))
+        return
+    check(args.new_manifest is not None and args.new_checkpoint is None,
+          'A real transfer requires a new manifest and no parameter-only checkpoint')
+    check(not Path(str(args.out_prefix)+'.json').exists()
+          and not Path(str(args.out_prefix)+'.npz').exists()
+          and not Path(str(args.out_prefix)+'.npz.gz').exists(),
+          'Refusing to overwrite a previous transfer')
+    new_preflight = json.loads(args.new_manifest.read_text())
+    check(new_preflight.get('finished') is True, 'New finite map is not complete')
+    check_parameters(old_preflight['parameters'], new_preflight['parameters'])
+    old_meta, old_nodes = grid(args.old_manifest)
+    new_meta, new_nodes = grid(args.new_manifest)
+    old_p, new_p = old_meta['parameters'], new_meta['parameters']
+    different = check_parameters(old_p, new_p)
+    check(old_nodes[0] == new_nodes[0] and old_nodes[-1] == new_nodes[-1],
+          'physical background domains differ')
+    old_info = SimpleNamespace(path=args.old_manifest, N=len(old_nodes)-2)
+    packet, source, source_path = consumer.load_packet(args.packet, old_info)
+    check(packet.get('finished') is True, 'input packet is not complete')
+
+    left, right = [], []
+    for index, a, b in zip(source['span_index'], source['u_left'], source['u_right']):
+        k = int(index)+1
+        r0, length = old_nodes[k], old_nodes[k+1]-old_nodes[k]
+        left.append(r0+length*Q(float(a)))
+        right.append(r0+length*Q(float(b)))
+    check(left[0] == old_nodes[0] and right[-1] == old_nodes[-1],
+          'old packet physical endpoints differ')
+    check(all(a < b for a, b in zip(left, right)) and
+          all(b == a for b, a in zip(right[:-1], left[1:])),
+          'old physical packet has gaps or overlaps')
+    boundaries = right[:-1]
+
+    indices, local_left, local_right = [], [], []
+    owners, destinations, aq, bq = [], [], [], []
+    slivers = 0
+    for k, (r0, r1) in enumerate(zip(new_nodes[:-1], new_nodes[1:])):
+        length = r1-r0
+        partition = {0., 1.}
+        for boundary in boundaries[bisect_right(boundaries, r0):bisect_left(boundaries, r1)]:
+            u = (boundary-r0)/length
+            box = qbounds(u)
+            lo, hi = max(0., float(box.lo)), min(1., float(box.hi))
+            check(0 <= lo <= hi <= 1, 'invalid rounded partition boundary')
+            partition.update((lo, hi))
+            slivers += int(lo != hi)
+        partition = sorted(partition)
+        for a, b in zip(partition[:-1], partition[1:]):
+            check(a < b, 'duplicate local partition interval')
+            lo, hi = r0+length*Q(a), r0+length*Q(b)
+            first = bisect_right(right, lo)
+            stop = bisect_left(left, hi)
+            check(first < stop, 'new physical box has no old owner')
+            check(left[first] <= lo and right[stop-1] >= hi,
+                  'old pieces do not cover a new physical box')
+            row = len(indices)
+            indices.append(k-1)
+            local_left.append(a)
+            local_right.append(b)
+            for owner in range(first, stop):
+                check(left[owner] < hi and right[owner] > lo,
+                      'an old owner has no positive-length intersection')
+                width = right[owner]-left[owner]
+                owners.append(owner)
+                destinations.append(row)
+                aq.append((lo-left[owner])/width)
+                bq.append((hi-lo)/width)
+    owner = np.array(owners, dtype=np.int64)
+    destination = np.array(destinations, dtype=np.int64)
+    alpha, beta = fraction_vectors(aq), fraction_vectors(bq)
+    n = len(indices)
+    arrays = {'span_index': np.array(indices, dtype=np.int64),
+              'u_left': np.array(local_left), 'u_right': np.array(local_right)}
+    for field in ['w', 'wr']:
+        old_low, old_high = source[field+'_lo'], source[field+'_hi']
+        transformed_low, transformed_high = affine_coefficients(
+            old_low[owner], old_high[owner], alpha, beta)
+        low = np.full((n, old_low.shape[1]), np.inf)
+        high = np.full((n, old_low.shape[1]), -np.inf)
+        np.minimum.at(low, destination, transformed_low)
+        np.maximum.at(high, destination, transformed_high)
+        remainder = np.zeros(n)
+        np.maximum.at(remainder, destination, source[field+'_remainder'][owner])
+        check(np.isfinite(low).all() and np.isfinite(high).all() and
+              np.all(low <= high), 'invalid transferred coefficients')
+        arrays[field+'_lo'], arrays[field+'_hi'] = low, high
+        arrays[field+'_remainder'] = remainder
+    counts = np.bincount(destination, minlength=n)
+    arrays['old_piece_count'] = counts
+    data = write_npz(args.out_prefix, arrays)
+    report = {
+        'status': 'same-background-grid-transfer-conditional-on-reviewed-input-packet',
+        'mode': 'finite-background-grid-transfer',
+        'scope': __doc__, 'finished': True,
+        'finite_tail_manifest_sha256': sha(args.new_manifest),
+        'data_file': data.name, 'data_sha256': sha(data),
+        'background_definition_hashes': packet.get('background_definition_hashes', {}),
+        'input_packet': str(args.packet), 'input_packet_sha256': sha(args.packet),
+        'input_data_file': str(source_path), 'input_data_sha256': sha(source_path),
+        'old_manifest': str(args.old_manifest), 'old_manifest_sha256': sha(args.old_manifest),
+        'new_manifest': str(args.new_manifest), 'new_manifest_sha256': sha(args.new_manifest),
+        'script_sha256': sha(__file__),
+        'base_transfer_script_sha256': BASE_TRANSFER_SHA256,
+        'parameter_policy': PARAMETER_POLICY,
+        'parameter_policy_sha256': parameter_policy_sha256(),
+        'background_definition_hashes_verified': True,
+        'verified_background_definition_files': verified_definitions,
+        'reader_sha256': sha(HERE/'db6f_tail_integrated.py'),
+        'interval_backend_sha256': sha(HERE/'db6f-audit-continuous-hermite.py'),
+        'packet_validator_sha256': sha(HERE/'db6f-audit-tail-metric-curvature.py'),
+        'different_numerical_parameter_keys': different,
+        'all_other_parameters_identical': True,
+        'old_rows': len(left), 'rows': n,
+        'old_finite_spans': len(old_nodes)-2, 'new_finite_spans': len(new_nodes)-2,
+        'rounded_boundary_pairs': slivers,
+        'multiple_old_piece_rows': int(np.count_nonzero(counts > 1)),
+        'maximum_old_pieces_per_row': int(counts.max()),
+        'coefficient_basis': 'Power coefficients in each new local tau; pointwise interval-polynomial enclosure.',
+        'background_curvature_bound': packet.get('background_curvature_bound', 6),
+        'mathematical_scope': 'Values of w and wr only. Do not differentiate these packet polynomials.',
+        'not_certified': ['analytic validity of original background packet',
+                          'metric or curvature of the new finite perturbation',
+                          'README completion'],
+        'seconds': time.time()-started}
+    out = Path(str(args.out_prefix)+'.json')
+    out.write_text(json.dumps(report, indent=2)+'\n')
+    # Independently authored consumer performs its complete new-grid checks.
+    consumer.load_packet(out, SimpleNamespace(path=args.new_manifest, N=len(new_nodes)-2))
+    print(json.dumps({k: report[k] for k in ['finished', 'old_rows', 'rows',
+                     'multiple_old_piece_rows', 'maximum_old_pieces_per_row', 'seconds']}))
+
+
+if __name__ == '__main__':
+    main()

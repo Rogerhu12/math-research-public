@@ -1,0 +1,57 @@
+{
+  "status": "INPUTS_PREPARED_NO_SOLVER_EXECUTED",
+  "generator_sha256": "19856c6c6992cbcdeddc197174992d2294f34a8bf14e6f70bf9942811fa8f4de",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-zero-initial.py",
+    "--config",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+    "--checkpoint",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+    "--target-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+    "--previous-launch",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-recovery-launch.json",
+    "--out-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025",
+    "--pilot-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-original-pilot01"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+      "sha256": "8266c8b9e66ffd57e3fce0c9e806a0c14533cd9b7795cca6bcfdb2fc205cd20a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-recovery-launch.json",
+      "sha256": "3aee913db17e97ef9624d7f41cdaa6e24867b5391c9c491c2e07315c303957f5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-input.json.gz",
+      "sha256": "6c723e80597dade42a1e002e832638451f9e4cb1a4aa290510adf44d0952eae6",
+      "bytes": 2621
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-config.json",
+      "sha256": "449d75b395eeec4b9c6e77221868b6389876dbbbd92b78259d37caa3656f9e0c",
+      "bytes": 3071
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-zero-initial-s025-launch.json",
+      "sha256": "114ddc195ef4b038a4b825c508fca42c4ed0de4f38a6c554a8829c506c188a5a",
+      "bytes": 20569
+    }
+  ],
+  "original_worker_or_controller_modified": false,
+  "actual_solver_runs": 0
+}

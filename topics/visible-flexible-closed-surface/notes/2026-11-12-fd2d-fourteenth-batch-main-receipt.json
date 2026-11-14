@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-actual-ci-main-publication-receipt-v1",
+  "commit": "d2af94f275195259c5eeaa1485d3090cee74620e",
+  "rules_read_sha": "4796bca703875e9db76afe66faf72cd22ba1fee9",
+  "attempt": 1,
+  "utc": "2026-11-12T17:38:48.471276+00:00",
+  "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched",
+  "workflow_run_id": 43271594000,
+  "workflow_job_id": 131369258959,
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "checkpoint_commit": "4daed018f676edbd30e49be4bc16cdb159d1fa83",
+  "checkpoint_branch": "visible-flex-fd2d-ci-publish-20261112t173721",
+  "local_checkpoint_process": {
+    "session": 95023,
+    "launch_chunk": "8a582e",
+    "final_chunk": "653a09",
+    "exit_code": 0
+  },
+  "readme_pull_checks": [
+    {
+      "attempt": 1,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "277fbd40c625843a99f1c973bd52a6542619f3a1",
+      "readme_current": "4796bca703875e9db76afe66faf72cd22ba1fee9",
+      "readme_diff_empty": true
+    }
+  ],
+  "push_attempts": [
+    {
+      "attempt": 1,
+      "push_exit": 0,
+      "seconds": 1.937816931999997
+    }
+  ],
+  "closed_batch": {
+    "groups": 2,
+    "files": 33,
+    "bytes": 404283
+  },
+  "no_strong_completion_claim": true
+}

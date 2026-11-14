@@ -1,0 +1,57 @@
+{
+  "status": "ACTUAL_FIRST_DN_CLOSED_BEFORE_INNER_BVP",
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+    "bytes": 71499,
+    "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+  },
+  "selector": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14-release-lu.py",
+    "bytes": 20496,
+    "sha256": "2db1fe8b9171c3d9a7a4ac0d11311cff8daec1aa36bb8cd91130148903070ed0"
+  },
+  "request_height": [
+    -0.000813433307403143,
+    -8.649577280902668e-06,
+    -1.5587020594075268e-07,
+    -5.283357144214641e-09,
+    -2.916406234093107e-10,
+    -1.480094809551926e-11,
+    -8.406995361976707e-13,
+    -7.339783082504132e-14,
+    3.229458116687707e-16,
+    4.244253056862489e-15,
+    -2.283818746877973e-14,
+    -1.2430393869423977e-14,
+    -1.1398768077866499e-14,
+    6.511303043843176e-14
+  ],
+  "packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01_tail_0001.json.gz",
+    "bytes": 254065,
+    "sha256": "a7b7c5bc8f4926e7020efcde7569181c4948ef948625f1c18be81ba0ec1d2cb3"
+  },
+  "packet_checks": {
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "a7b7c5bc8f4926e7020efcde7569181c4948ef948625f1c18be81ba0ec1d2cb3"
+    },
+    "residual": 5.397833270174952e-10,
+    "history_rows": 1,
+    "last_history_norm": 5.397833270174952e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 0,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "scope": "One actual DN only; outer remains unresolved."
+}

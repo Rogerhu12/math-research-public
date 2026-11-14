@@ -1,0 +1,74 @@
+{
+  "status": "PASS_STATIC_INPUT_AND_OUTPUT_ISOLATION_ONLY",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-direction03-input.mjs",
+    "bytes": 8406,
+    "sha256": "4fac999242e1489594cf6850e9463d478b8f3724684b8615bc1623a2bb2fee81"
+  },
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-launch.json",
+    "bytes": 5714,
+    "sha256": "4f3bb8268e74c9a57e095649bb97c5689f7a666831f0d0e01c21a82a715ad03f"
+  },
+  "ledger": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-bindings.json",
+    "bytes": 31346,
+    "sha256": "4f161641ccf73a79388f674dfcc48eea5f599237ab3bdd2e867507640e8b87fe"
+  },
+  "method": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-interface.md",
+    "bytes": 7152,
+    "sha256": "c51ba48eff5dfe6d1bc013582007c468f51b4aeaf4e96d307307ce5b864c15a3"
+  },
+  "verified_bound_files": 98,
+  "closed_checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0002.json.gz",
+    "bytes": 266620,
+    "sha256": "eb7518a7955764f7563f365b9e1b08ea1e9346148c12b66a007650e9cca47460"
+  },
+  "closed_cut_radius_control": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0001.json.gz",
+    "bytes": 267637,
+    "sha256": "3a258afc492f4204f85c0ef4535c00d041983c27d8ebd8c9b907df0961a32a0b"
+  },
+  "state_shape": [
+    865,
+    30
+  ],
+  "raw_state_shape": [
+    13,
+    30
+  ],
+  "same_grid_remesh_copy_checks": 865,
+  "javascript_boundary_delta_max": 0,
+  "exact_three_lambdas": [
+    0.000244140625,
+    0.0001220703125,
+    0.00006103515625
+  ],
+  "protected_config_paths": {
+    "traceFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-active-trace.jsonl",
+    "iterationCheckpointFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-iteration.json.gz",
+    "trialDiagnosticFile": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-active-trials.jsonl",
+    "trialStatePrefix": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-stage-input",
+    "initialCheckpoint": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0015.json.gz"
+  },
+  "independent_output_paths": [
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.json",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01-direction.json.gz",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.json",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.run.log",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-small-trials-01.run.log"
+  ],
+  "all_outputs_disjoint_from_inputs_and_old_IO": true,
+  "core_source_diff": "Only exposes correction and scaleFor",
+  "split_source_diff": "Only changes core import",
+  "worker_imported": false,
+  "numerical_modules_imported": false,
+  "root_RK_flow_solver_calls": 0,
+  "base_result_or_direction_read": false,
+  "output_absence_now_asserted": false,
+  "stage2_authorized_by_this_static_report": false,
+  "remaining_runtime_gate": "Root must observe actual base exit0 and completed output; exact two norms/stage residual agreement/chart, saved direction hash and its CP/config identity, finite linear residual. No stage2 until all pass.",
+  "scope": "Prepared diagnostic input only. Existing base execution belongs to root; no runtime gate result is inferred here."
+}

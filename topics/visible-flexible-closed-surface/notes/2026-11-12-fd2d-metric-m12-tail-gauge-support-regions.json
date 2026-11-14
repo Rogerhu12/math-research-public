@@ -1,0 +1,88 @@
+{
+  "schema": "fd2d-existing-tail-metric-regions-v1",
+  "scope": "Regroup an existing complete actual-tail metric certificate by exact radius.\n\nNo metric inequality is recomputed or tightened. Every reused row is kept\nwith its original bound, and any row touching the requested inner radial\ndomain is included in that domain's maximum. Exact defining increments,\nnot displayed absolute radii, determine which rows touch each domain.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-tail-certificate-regions.py",
+    "bytes": 5652,
+    "sha256": "9f5466c150a4a17b8fda2a1139b4be7ef9a50a756c31ba8f8788f096f1984f25"
+  },
+  "manifest": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+    "bytes": 138611,
+    "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+  },
+  "certificate": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-lowmetric-full.json",
+    "bytes": 3413,
+    "sha256": "83cf92351c83ce3275af9ac2fd975ecf87dc81e74379e2f1ccb2436374147056"
+  },
+  "packet": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.json",
+    "bytes": 3979,
+    "sha256": "791e3bfda7bac4f356f34718a9731e5db7cfe5dd402525261e4b123914523d59"
+  },
+  "packet_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-transfer-lowmetric-final-m12-critical-r01.npz.gz",
+    "bytes": 2377155,
+    "sha256": "a9173083636377a323ff9438481fd8a90c84772f9791b78c8542b7e209301cc8"
+  },
+  "original_row_data": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-lowmetric-full.rows.json.gz",
+    "bytes": 1244383,
+    "sha256": "06706fee1a59c4f0ce15ebde39af24e323bd077cf1819020ab660c8221c41f7d"
+  },
+  "whole_tail_row_count": 30971,
+  "exact_partition_verified": true,
+  "cuff_exact": "2702159776422297/18014398509481984",
+  "outer_exact": "5404319552844595/9007199254740992",
+  "inner_domains": [
+    {
+      "cut_exact": "3602879701896397/9007199254740992",
+      "metric_upper": 1.1313778765583975e-09,
+      "included_rows": 26965,
+      "worst_packet_row": 13482,
+      "worst_span": 8973,
+      "worst_row_r_left_exact": "247064704050937585270199672560986509117879/1247347073977141182794646048914448905666560",
+      "worst_row_r_right_exact": "247064802033247024390414326965990497055159/1247347073977141182794646048914448905666560"
+    },
+    {
+      "cut_exact": "41/100",
+      "metric_upper": 1.1313778765583975e-09,
+      "included_rows": 27038,
+      "worst_packet_row": 13482,
+      "worst_span": 8973,
+      "worst_row_r_left_exact": "247064704050937585270199672560986509117879/1247347073977141182794646048914448905666560",
+      "worst_row_r_right_exact": "247064802033247024390414326965990497055159/1247347073977141182794646048914448905666560"
+    },
+    {
+      "cut_exact": "21/50",
+      "metric_upper": 1.1313778765583975e-09,
+      "included_rows": 27100,
+      "worst_packet_row": 13482,
+      "worst_span": 8973,
+      "worst_row_r_left_exact": "247064704050937585270199672560986509117879/1247347073977141182794646048914448905666560",
+      "worst_row_r_right_exact": "247064802033247024390414326965990497055159/1247347073977141182794646048914448905666560"
+    },
+    {
+      "cut_exact": "43/100",
+      "metric_upper": 1.1313778765583975e-09,
+      "included_rows": 27198,
+      "worst_packet_row": 13482,
+      "worst_span": 8973,
+      "worst_row_r_left_exact": "247064704050937585270199672560986509117879/1247347073977141182794646048914448905666560",
+      "worst_row_r_right_exact": "247064802033247024390414326965990497055159/1247347073977141182794646048914448905666560"
+    },
+    {
+      "cut_exact": "5404319552844595/9007199254740992",
+      "metric_upper": 2.334386824020345e-08,
+      "included_rows": 30971,
+      "worst_packet_row": 27397,
+      "worst_span": 17148,
+      "worst_row_r_left_exact": "542574480566711478051484948728462832098743/1247347073977141182794646048914448905666560",
+      "worst_row_r_right_exact": "542605388781672258504849031586666214120887/1247347073977141182794646048914448905666560"
+    }
+  ],
+  "new_map_created": false,
+  "new_metric_estimate_computed": false,
+  "seconds": 11.7415510849969
+}

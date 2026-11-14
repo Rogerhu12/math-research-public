@@ -1,0 +1,32 @@
+[
+  {
+    "case": "normal",
+    "path": "/tmp/fd2d-ci-fixture-1-j91ja8xr",
+    "run_code": 0,
+    "publish_code": 0,
+    "phase": "published",
+    "report_process_exit": 0,
+    "remote_head": "5b0b587667882966201a09fc6bd2f803dd6bac03",
+    "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+  },
+  {
+    "case": "conflict",
+    "path": "/tmp/fd2d-ci-fixture-2-ezoxmjec",
+    "run_code": 0,
+    "publish_code": 0,
+    "phase": "published",
+    "report_process_exit": 0,
+    "remote_head": "fbbe0eeda18c004f165002edce781c7e73bbd2e4",
+    "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+  },
+  {
+    "case": "rules",
+    "path": "/tmp/fd2d-ci-fixture-3-rlhegul8",
+    "run_code": 7,
+    "publish_code": 78,
+    "phase": "stopped_for_changed_or_unreadable_README",
+    "report_process_exit": 7,
+    "remote_head": "4f6ea9b5765af416314652a0873b82b1d02d3944",
+    "source_blob_run": "117b5139ce79b3880ba3de97e5a237db5cebe5d2"
+  }
+]

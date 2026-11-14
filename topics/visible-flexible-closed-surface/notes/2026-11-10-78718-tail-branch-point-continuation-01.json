@@ -1,0 +1,351 @@
+{
+  "scope": "Three fixed failure points: seed from actual accepted iterate and 32 local state homotopy roots, without DN/BVP. The 1e-10 floor is diagnostic only.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+      "bytes": 272525,
+      "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-branch-call2-iteration5-input.json.gz",
+      "bytes": 262748,
+      "sha256": "21e0fe2c2da4d0826968e501c75ea00d032ab725af39468c3d13a464ad2cd4c7"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial0.json.gz",
+      "bytes": 1785,
+      "sha256": "d508df8ee187a1583a7436556a1cde113ad09030d6d2a3082b1051eacf6e7be1"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial1.json.gz",
+      "bytes": 1794,
+      "sha256": "8db5fe665f046a906d82e5c81ae593368bf562c5df82b43a645bf74cf1392ed5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01-tail-stage-input-call2-iteration5-trial2.json.gz",
+      "bytes": 1791,
+      "sha256": "70568716e8e7b0411cdee033cd83c47b15232d9a1c96509b6af4d8409082919b"
+    }
+  ],
+  "modes": 15,
+  "quadrature": 512,
+  "originalFloor": 0.05,
+  "looseFloor": 1e-10,
+  "iteration": {
+    "iteration": 5,
+    "norm": 0.08048699963143999,
+    "minA": 0.07195411518767784,
+    "minD": 0.9916161884250875
+  },
+  "trials": [
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 0,
+        "step": 1,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 36,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 36,
+      "originalLocalReplay": {
+        "stage": 36,
+        "minA": null,
+        "minD": null,
+        "fields": 0,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0,
+          "step": 0,
+          "phase": "a"
+        }
+      },
+      "actualAcceptedStateSeed": {
+        "x": 0,
+        "r": 0.46423021837963524,
+        "originalFloor": {
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseFloor": {
+          "floor": 1e-10,
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "normalContinuation": {
+          "ok": false,
+          "steps": 32,
+          "stepsCompleted": 12,
+          "lastAlpha": 0.375,
+          "lastRoot": {
+            "iterations": 3,
+            "relativeResidual": 1.213125496985175e-16,
+            "minA": 0.0530030399584375,
+            "minD": 0.9999277190577358,
+            "minS": 0.9999992888728684,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.053038355698311834,
+              "WPt": -0.00003531573987433702,
+              "P": 0.08623802526760117,
+              "Pt": -0.6682861407602899,
+              "K": -0.27867550354139825,
+              "D": 1.0000249563526713,
+              "S": 0.9999996069901266
+            }
+          },
+          "failureAlpha": 0.40625,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseContinuation": {
+          "ok": false,
+          "steps": 32,
+          "stepsCompleted": 29,
+          "lastAlpha": 0.90625,
+          "lastRoot": {
+            "iterations": 3,
+            "relativeResidual": 2.274828098819039e-16,
+            "minA": 0.0014022141534855038,
+            "minD": 0.999927720397474,
+            "minS": 0.9999992771658701,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.0014401941811670316,
+              "WPt": -0.00003798002768152773,
+              "P": 0.08624023469137,
+              "Pt": -0.7187029413958621,
+              "K": -0.27985686442297086,
+              "D": 1.0000250463223421,
+              "S": 0.9999996069699885
+            }
+          },
+          "failureAlpha": 0.9375,
+          "error": "Error: momentum Newton line search failed"
+        }
+      }
+    },
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 1,
+        "step": 0.5,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 36,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 36,
+      "originalLocalReplay": {
+        "stage": 36,
+        "minA": null,
+        "minD": null,
+        "fields": 0,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0,
+          "step": 0,
+          "phase": "a"
+        }
+      },
+      "actualAcceptedStateSeed": {
+        "x": 0,
+        "r": 0.46423021837963524,
+        "originalFloor": {
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseFloor": {
+          "floor": 1e-10,
+          "ok": true,
+          "iterations": 4,
+          "relativeResidual": 2.389356928813565e-16,
+          "minA": 0.04090314132677327,
+          "minD": 0.9999277194805898,
+          "minS": 0.9999992863749535,
+          "theta": 4.565126824747668,
+          "r": 0.46423021837963524,
+          "w": 0.007269472991330078,
+          "atMinimumA": {
+            "onePlusL": 0.04093908395789636,
+            "WPt": -0.00003594263112308777,
+            "P": 0.08623854513201733,
+            "Pt": -0.6801489173804244,
+            "K": -0.27891199866167926,
+            "D": 1.000024974374686,
+            "S": 0.9999996069853883
+          }
+        },
+        "normalContinuation": {
+          "ok": false,
+          "steps": 32,
+          "stepsCompleted": 25,
+          "lastAlpha": 0.78125,
+          "lastRoot": {
+            "iterations": 3,
+            "relativeResidual": 1.2107959027131519e-16,
+            "minA": 0.05149169881488732,
+            "minD": 0.9999277191139183,
+            "minS": 0.9999992885608685,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.05152709291616775,
+              "WPt": -0.00003539410128043085,
+              "P": 0.0862380902506532,
+              "Pt": -0.6697689878378065,
+              "K": -0.2787039192460258,
+              "D": 1.000024958518368,
+              "S": 0.9999996069895343
+            }
+          },
+          "failureAlpha": 0.8125,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseContinuation": {
+          "ok": true,
+          "steps": 32,
+          "stepsCompleted": 32,
+          "lastAlpha": 1,
+          "root": {
+            "iterations": 3,
+            "relativeResidual": 1.1946784644067827e-16,
+            "minA": 0.04090314132677338,
+            "minD": 0.9999277194805898,
+            "minS": 0.9999992863749535,
+            "theta": 4.565126824747668,
+            "r": 0.46423021837963524,
+            "w": 0.007269472991330078,
+            "atMinimumA": {
+              "onePlusL": 0.04093908395789647,
+              "WPt": -0.00003594263112308777,
+              "P": 0.08623854513201733,
+              "Pt": -0.6801489173804244,
+              "K": -0.27891199866167915,
+              "D": 1.000024974374686,
+              "S": 0.9999996069853883
+            }
+          }
+        }
+      }
+    },
+    {
+      "trial": {
+        "iteration": 5,
+        "trial": 2,
+        "step": 0.25,
+        "baseNorm": 0.08048699963143999,
+        "kind": "momentum-root-solver-rejection",
+        "error": "Error: momentum Newton line search failed",
+        "stage": 37,
+        "rawCell": 0,
+        "rawSegment": 4
+      },
+      "stage": 37,
+      "originalLocalReplay": {
+        "stage": 37,
+        "minA": 0.050054360267958835,
+        "minD": 0.9999277100248545,
+        "fields": 21,
+        "error": "Error: momentum Newton line search failed",
+        "failure": {
+          "x": 0.171875,
+          "step": 5,
+          "phase": "b"
+        }
+      },
+      "actualAcceptedStateSeed": {
+        "x": 0.171875,
+        "r": 0.45628731817685403,
+        "originalFloor": {
+          "ok": false,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseFloor": {
+          "floor": 1e-10,
+          "ok": true,
+          "iterations": 4,
+          "relativeResidual": 3.5777598278532463e-16,
+          "minA": 0.04990593384506928,
+          "minD": 0.9999277152767967,
+          "minS": 0.9999993829015446,
+          "theta": 3.792000507653305,
+          "r": 0.45628731817685403,
+          "w": 0.007278602345689318,
+          "atMinimumA": {
+            "onePlusL": 0.049941996481283946,
+            "WPt": -0.000036062636214669944,
+            "P": -0.07185604984593941,
+            "Pt": -0.680708987602186,
+            "K": -0.26934901591653004,
+            "D": 1.0000244221177608,
+            "S": 0.9999997264588527
+          }
+        },
+        "normalContinuation": {
+          "ok": false,
+          "steps": 32,
+          "stepsCompleted": 31,
+          "lastAlpha": 0.96875,
+          "lastRoot": {
+            "iterations": 3,
+            "relativeResidual": 5.962970011973021e-16,
+            "minA": 0.050628523467460156,
+            "minD": 0.9999277150949311,
+            "minS": 0.9999993829281625,
+            "theta": 2.4911847995262812,
+            "r": 0.45628731817685403,
+            "w": 0.007278602345689318,
+            "atMinimumA": {
+              "onePlusL": 0.05066454753695959,
+              "WPt": -0.000036024069499434114,
+              "P": 0.07185658403266977,
+              "Pt": -0.6799810122670761,
+              "K": -0.26935444019596433,
+              "D": 1.000024422533623,
+              "S": 0.9999997264547856
+            }
+          },
+          "failureAlpha": 1,
+          "error": "Error: momentum Newton line search failed"
+        },
+        "looseContinuation": {
+          "ok": true,
+          "steps": 32,
+          "stepsCompleted": 32,
+          "lastAlpha": 1,
+          "root": {
+            "iterations": 3,
+            "relativeResidual": 3.5777598278532463e-16,
+            "minA": 0.04990593384506939,
+            "minD": 0.9999277152767967,
+            "minS": 0.9999993829015446,
+            "theta": 3.792000507653305,
+            "r": 0.45628731817685403,
+            "w": 0.007278602345689318,
+            "atMinimumA": {
+              "onePlusL": 0.04994199648128406,
+              "WPt": -0.000036062636214669944,
+              "P": -0.07185604984593941,
+              "Pt": -0.680708987602186,
+              "K": -0.26934901591652993,
+              "D": 1.0000244221177608,
+              "S": 0.9999997264588527
+            }
+          }
+        }
+      }
+    }
+  ],
+  "scriptSHA256": "bfbdde9b58b905589c0ff0f4fc03a1084e4c99bb592b292d1e6347b6f5df6493",
+  "elapsedSeconds": 3.453
+}

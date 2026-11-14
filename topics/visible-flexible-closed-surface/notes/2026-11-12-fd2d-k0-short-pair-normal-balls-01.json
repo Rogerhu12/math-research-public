@@ -1,0 +1,105 @@
+{
+  "schema": "fd2d-R147-short-developed-pair-consumer-v1",
+  "actual_execution": true,
+  "source_sha256": "66148cbcb9527608aea1b0a57b5d35205d5219e40a38bc32f4fc05fbf60a9733",
+  "extension_sha256": "25e6664304ea2c5a528252ba5ad62d0b899fb254f616d1f2353597f3259facc5",
+  "exact_rational_constants": {
+    "eps": [
+      "1",
+      "1000000"
+    ],
+    "rho": [
+      "17",
+      "125"
+    ],
+    "K": [
+      "73",
+      "10"
+    ],
+    "ellipse_semiminor_squared_upper": [
+      "1",
+      "199999800"
+    ],
+    "inner_radial_loss_upper": [
+      "389",
+      "546000"
+    ],
+    "normal_ball_gap": [
+      "9",
+      "1250"
+    ],
+    "quadratic_margin_coefficient": [
+      "3248996751",
+      "500000000000"
+    ],
+    "advertised_margin_coefficient": [
+      "1",
+      "160"
+    ]
+  },
+  "conditional_exact_example": {
+    "applies": true,
+    "normal_ball_squared_margin_lower": [
+      "1",
+      "64000"
+    ],
+    "distinct_actual_images_proved_conditionally": true,
+    "supplied_distance_interval_not_verified_here": true,
+    "scope": "Original base-delta-zero R145 coast, radius17/125, actual normal at either endpoint"
+  },
+  "outside_region_example": {
+    "applies": false,
+    "reason": "The interval is not contained in developed d<=1/10"
+  },
+  "floating_examples": [
+    {
+      "sigma_p": 0.0,
+      "u_p": 0.0,
+      "sigma_q": 0.0,
+      "u_q": 0.0,
+      "developed_distance_squared": 0.0,
+      "floating_near_screen": true,
+      "finite_screen_only": true
+    },
+    {
+      "sigma_p": 0.0,
+      "u_p": 0.0,
+      "sigma_q": 0.02,
+      "u_q": 0.0,
+      "developed_distance_squared": 0.0004000000000000007,
+      "floating_near_screen": true,
+      "finite_screen_only": true
+    },
+    {
+      "sigma_p": 0.1,
+      "u_p": 0.3,
+      "sigma_q": 0.11,
+      "u_q": 0.32,
+      "developed_distance_squared": 0.0005463486530647339,
+      "floating_near_screen": true,
+      "finite_screen_only": true
+    },
+    {
+      "sigma_p": 0.2,
+      "u_p": 6.2731853071795864,
+      "sigma_q": 0.2,
+      "u_q": 0.01,
+      "developed_distance_squared": 0.0004673639216991479,
+      "floating_near_screen": true,
+      "finite_screen_only": true
+    },
+    {
+      "sigma_p": 0.1,
+      "u_p": 0.0,
+      "sigma_q": 0.1,
+      "u_q": 1.0,
+      "developed_distance_squared": 1.1069475712504222,
+      "floating_near_screen": false,
+      "finite_screen_only": true
+    }
+  ],
+  "material_period_shift_discrepancy": 1.9949319973733282e-17,
+  "floating_examples_are_not_distance_certificates": true,
+  "full_global_reach_not_claimed": true,
+  "seconds": 0.3912455410008988
+}

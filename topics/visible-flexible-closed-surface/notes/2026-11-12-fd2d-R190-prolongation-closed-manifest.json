@@ -1,0 +1,39 @@
+{
+  "schema": "fd2d-R189-R190-radius-prolongation-closed-group-v1",
+  "status": "complete proof and one actual nonzero V8 common-point check",
+  "files": [
+    {
+      "path": "scripts/fd2d_r190_prolongation.cjs",
+      "sha256": "38d90cadd9c6f085278ff33f2829c0968a30c60455b0feee6410b501e2f992c2"
+    },
+    {
+      "path": "scripts/fd2d_r190_prolongation_check.cjs",
+      "sha256": "9c3d03087c0f5eabaf436d46a9c088a7d7fe98997d4cf58730050e7a1853804b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R190-prolongation-v8-check-01.json",
+      "sha256": "bed5c7f6e0593c8bc229bb92c9343c4cadad01a1de35931ae3110ceb687fa99b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R189-R190-radius-prolongation.md",
+      "sha256": "e26483c8b061156d445ab1a5aaf00bc747f6e9c33bf8d12b59d39530c75d4638"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R190-prolongation-first-loader-failure.json",
+      "sha256": "c10f6f98bbd1d38974c0bb761119d8b249976f7d8cd3c8d53594b3088f1db9bd"
+    }
+  ],
+  "actualExecution": {
+    "runtime": "functions.exec V8",
+    "elapsedMilliseconds": 158,
+    "passed": true,
+    "OSProcessCreated": false,
+    "processExitCode": null,
+    "wholeNormalRun": false,
+    "wholeJvpRun": false,
+    "wholeObjectiveRun": false
+  },
+  "originalProviderModified": false,
+  "physicalMetricPreservedByExactInjection": true,
+  "continuousGeometryCertificate": false
+}

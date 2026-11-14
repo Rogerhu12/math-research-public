@@ -1,0 +1,177 @@
+{
+  "scope": "Floating one-cut local diagnostic; no shooting, BVP, radial integration or geometric export. XYZ second derivatives and a new full tail endpoint remain unevaluated.",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "bytes": 272525,
+    "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+  },
+  "program": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-tail-cut-high-jet-diagnostic-v1.mjs",
+    "bytes": 6923,
+    "sha256": "5329ebb9abf1bfc2940657deb081f12d4ac097a508de8b880ba48c72a06d993a"
+  },
+  "port": {
+    "node": 0,
+    "rawCell": 0,
+    "rawSegment": 8,
+    "part": 7,
+    "x": 1,
+    "momentumToPhysicalProfileMultiplier": 6.727171322029716
+  },
+  "original": {
+    "modes": 15,
+    "quadrature": 512,
+    "r": 0.6,
+    "w": 0.5000000000000018,
+    "E": 1.2500000000000018,
+    "rootRelativeResidual": 1.0826187178398292e-17,
+    "minA": 0.987765600930497,
+    "minD": 0.9916397718768296,
+    "heightL1": 0.000809258742069503,
+    "slopeL1": 0.008708401856312399,
+    "secondL1": 0.04361403180577567,
+    "meanSlope": 0.5000544500174807,
+    "meanSecond": -5.831669684764928,
+    "localMetric": 1.2331186444261203e-15,
+    "rr": 1.1102230246251565e-15,
+    "rt": 4.022804366818007e-16,
+    "tt": 7.771561172376096e-16,
+    "radialCurlCorrection": 3.6045074330072935e-16,
+    "secondCoefficientReconstructionGap": 3.552713678800501e-15
+  },
+  "rows": [
+    {
+      "modes": 22,
+      "quadrature": 512,
+      "r": 0.6,
+      "w": 0.5000000000000018,
+      "E": 1.2500000000000018,
+      "rootRelativeResidual": 1.0826187178398293e-17,
+      "minA": 0.987765600930497,
+      "minD": 0.9916397718768296,
+      "heightL1": 0.000809258742069503,
+      "slopeL1": 0.008708401856312399,
+      "secondL1": 0.04361403180677643,
+      "meanSlope": 0.5000544500174807,
+      "meanSecond": -5.831669684764928,
+      "localMetric": 1.0400755682444125e-15,
+      "rr": 8.881784197001252e-16,
+      "rt": 4.022804366818007e-16,
+      "tt": 7.771561172376096e-16,
+      "radialCurlCorrection": 2.4240063106218503e-16,
+      "secondCoefficientReconstructionGap": 3.552713678800501e-15,
+      "newHighHeightL1": 0,
+      "newHighSlopeL1": 6.6631773923474425e-21,
+      "newHighSecondL1": 1.0003340897463032e-12,
+      "newHighSecondMax": 9.487228660903815e-13,
+      "allHeightChangeL1": 0,
+      "allSlopeChangeL1": 3.2639660888723654e-20,
+      "allSecondChangeL1": 1.000789900312629e-12,
+      "meanSlopeChange": 0,
+      "meanSecondChange": 0,
+      "commonAngleHeightGap": 0,
+      "commonAngleSlopeGap": 5.551115123125783e-17,
+      "commonAngleSecondGap": 1.000088900582341e-12,
+      "commonAnglePeriodicDevelopmentPositionGap": 1.3552527156068805e-20,
+      "commonAnglePeriodicDevelopmentRadialDerivativeGap": 3.477763656540197e-16,
+      "highHeightSecondCoefficients": [
+        {
+          "frequency": 48,
+          "value": 9.487228660903815e-13
+        },
+        {
+          "frequency": 51,
+          "value": 4.961985189089299e-14
+        },
+        {
+          "frequency": 54,
+          "value": 1.8343741406532122e-15
+        },
+        {
+          "frequency": 57,
+          "value": 1.2295577607325007e-16
+        },
+        {
+          "frequency": 60,
+          "value": 1.42795611940834e-17
+        },
+        {
+          "frequency": 63,
+          "value": -1.6956481527279454e-17
+        },
+        {
+          "frequency": 66,
+          "value": 2.805805581059133e-18
+        }
+      ],
+      "scope": "Geometric prolongation of the SAME saved cut Q/L, then local high-mode root and ODE second jet. Not a high-mode DN endpoint."
+    },
+    {
+      "modes": 22,
+      "quadrature": 1024,
+      "r": 0.6,
+      "w": 0.5000000000000018,
+      "E": 1.2500000000000018,
+      "rootRelativeResidual": 1.0826187178398293e-17,
+      "minA": 0.987765600930497,
+      "minD": 0.9916397718768296,
+      "heightL1": 0.000809258742069503,
+      "slopeL1": 0.008708401856312399,
+      "secondL1": 0.04361403180677592,
+      "meanSlope": 0.5000544500174807,
+      "meanSecond": -5.831669684764928,
+      "localMetric": 1.463387613417548e-15,
+      "rr": 1.4432899320127035e-15,
+      "rt": 4.0567452634444343e-16,
+      "tt": 1.2212453270876722e-15,
+      "radialCurlCorrection": 4.839085151636409e-16,
+      "secondCoefficientReconstructionGap": 4.440892098500626e-15,
+      "newHighHeightL1": 0,
+      "newHighSlopeL1": 4.530380215102944e-21,
+      "newHighSecondL1": 1.0003061301611728e-12,
+      "newHighSecondMax": 9.487244232957651e-13,
+      "allHeightChangeL1": 0,
+      "allSlopeChangeL1": 7.850686339991458e-20,
+      "allSecondChangeL1": 1.0013196930017481e-12,
+      "meanSlopeChange": 0,
+      "meanSecondChange": 0,
+      "commonAngleHeightGap": 0,
+      "commonAngleSlopeGap": 5.551115123125783e-17,
+      "commonAngleSecondGap": 9.992007221626409e-13,
+      "commonAnglePeriodicDevelopmentPositionGap": 1.0329690282817905e-14,
+      "commonAnglePeriodicDevelopmentRadialDerivativeGap": 1.1438025228256184e-15,
+      "highHeightSecondCoefficients": [
+        {
+          "frequency": 48,
+          "value": 9.487244232957651e-13
+        },
+        {
+          "frequency": 51,
+          "value": 4.961306002056261e-14
+        },
+        {
+          "frequency": 54,
+          "value": 1.8334816483462486e-15
+        },
+        {
+          "frequency": 57,
+          "value": 1.1732635524885415e-16
+        },
+        {
+          "frequency": 60,
+          "value": 2.168499945232289e-18
+        },
+        {
+          "frequency": 63,
+          "value": -1.4633555273746457e-17
+        },
+        {
+          "frequency": 66,
+          "value": 1.0367860308956205e-18
+        }
+      ],
+      "scope": "Geometric prolongation of the SAME saved cut Q/L, then local high-mode root and ODE second jet. Not a high-mode DN endpoint."
+    }
+  ],
+  "elapsedSeconds": 6.236
+}

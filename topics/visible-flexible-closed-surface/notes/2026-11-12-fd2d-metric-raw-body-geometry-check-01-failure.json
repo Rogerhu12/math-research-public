@@ -1,0 +1,11 @@
+{
+  "schema": "fd2d-actual-exit-receipt-v1",
+  "source": {
+    "path": "repro/fd2d-metric-raw-body-check-01/geometry-check-before-syntax-fix.py",
+    "sha256": "a39a0470af4b4fb24ae179297fb38bf0e861b1db5e35de5a63319c7e2c4c00a4"
+  },
+  "exit_code": 1,
+  "chunk_id": "0e90f8",
+  "failure": "SyntaxError before any numerical evaluation: c,s=np.cos,.sin",
+  "no_numerical_result_produced": true
+}

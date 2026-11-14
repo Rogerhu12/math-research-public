@@ -1,0 +1,39 @@
+{
+  "status": "PASS-static-fixture-checker-and-exact-periodic-trig-comparison",
+  "scope": "Independent supplementary check only; trigonometric helpers are imported, but no geometric surface is evaluated and no complete prefix scan is performed. Static fixture check does not independently rebind each physical leaf endpoint; frozen wrapper verify_rows performs that binding.",
+  "source_sha256": {
+    "db6f-audit-prefix-angular-fixtures.py": "0f4b1e146d137564fac1924f13c8b877691803036a284ca754a4feb706bf7643",
+    "db6f-audit-prefix-angular-metric.py": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+  },
+  "trig_range_pairs": 96,
+  "arcs_pi": [
+    [
+      "-5/3",
+      "7/6"
+    ],
+    [
+      "-1",
+      "-1/2"
+    ],
+    [
+      "3/2",
+      "5/2"
+    ],
+    [
+      "0",
+      "1/64"
+    ],
+    [
+      "63/32",
+      "2"
+    ],
+    [
+      "37/64",
+      "75/128"
+    ]
+  ],
+  "modes_per_arc": 8,
+  "all_interval_endpoints_byte_equal": true,
+  "seconds": 0.4982378580025397
+}

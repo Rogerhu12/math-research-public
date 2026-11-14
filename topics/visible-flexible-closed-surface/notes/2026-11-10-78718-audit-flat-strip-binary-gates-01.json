@@ -1,0 +1,21 @@
+{
+  "all_pass": true,
+  "checks": {
+    "delta_binary_range": true,
+    "epsilon_binary_inside": true,
+    "h_squared_lower": true,
+    "jacobian_margin": true,
+    "qepsilon_lower": true,
+    "qepsilon_upper": true,
+    "radius_upper": true,
+    "vd_binary_lower": true,
+    "vu_binary_lower": true,
+    "width_upper": true
+  },
+  "not_claimed": "No actual incoming PDE data, embedding/reach, or nonlinear closure validation.",
+  "pde_runs": 0,
+  "proof_name": "2026-11-10-78718-geometry-flat-strip-provider-v2.md",
+  "proof_sha256": "cc26cf6685ec4a26f4c8b612c64d1af598cc4f8e223d6cd2c1b0a87e99af23d4",
+  "scope": "Exact finite binary-parameter and rational full-width gates only.",
+  "source_sha256": "904a48bab818343dd288ace9607542659a2788d999f24923bbd38397031ed50e"
+}

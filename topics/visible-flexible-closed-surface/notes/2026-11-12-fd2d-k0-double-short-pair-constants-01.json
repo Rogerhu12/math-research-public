@@ -1,0 +1,68 @@
+{
+  "schema": "fd2d-double-short-chord-exact-rational-constants-v1",
+  "actual_execution": true,
+  "source_sha256": "95d2536ff4dd533eaf8abf43b7d1e424c9286197a7eee09846abf7a5cd0f19dd",
+  "extension_sha256": "0148e396f0474b47afde17a39028c85f63ba42fe0fc03dcaa603a4b7218df919",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "rational_values": {
+    "epsilon": [
+      "1",
+      "1000000"
+    ],
+    "development_distance_cutoff": [
+      "1",
+      "5"
+    ],
+    "auxiliary_extension": [
+      "3",
+      "1000"
+    ],
+    "curvature_cap": [
+      "73",
+      "10"
+    ],
+    "normal_radius": [
+      "17",
+      "125"
+    ],
+    "ellipse_semiminor_square": [
+      "1",
+      "49999950"
+    ],
+    "segment_radial_loss": [
+      "1",
+      "390"
+    ],
+    "strict_geodesic_length_upper": [
+      "201",
+      "1000"
+    ],
+    "derived_normal_ball_coefficient": [
+      "728999271",
+      "125000000000"
+    ],
+    "advertised_normal_ball_coefficient": [
+      "1",
+      "200"
+    ]
+  },
+  "checks": {
+    "radial_segment_loss_is_1_over_390": true,
+    "ellipse_semiminor_square_is_1_over_49999950": true,
+    "ellipse_semiminor_below_1_over_7000": true,
+    "curve_cannot_reach_inner_auxiliary_boundary": true,
+    "curve_cannot_reach_outer_auxiliary_boundary": true,
+    "R_times_d_below_point201": true,
+    "geodesic_length_below_pi_over_2K_using_pi_gt3": true,
+    "angular_boundary_distance_lower_above_curve_diameter": true,
+    "half_material_angle_forces_distance_over_short_cutoff": true,
+    "sine_argument_below_three_quarters": true,
+    "sine_Taylor_factor_above_nine_tenths": true,
+    "normal_ball_coefficient_above_1_over_200": true
+  },
+  "passed": true,
+  "scope": "Conditional on the certified actual extension and a genuine shortest material lift, d<=1/5 implies both endpoint, both sign normal-ball margins at least d^2/200.",
+  "full_pair_coverage_not_claimed": true,
+  "seconds": 0.27692321599897696
+}

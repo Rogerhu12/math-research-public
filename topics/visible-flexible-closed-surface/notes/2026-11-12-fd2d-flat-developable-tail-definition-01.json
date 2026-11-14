@@ -1,0 +1,52 @@
+{
+  "schema": "r128-exact-flat-tail-definition-v1",
+  "exact_metric": "dr^2+r^2 du^2",
+  "r_cuff": [
+    8,
+    25
+  ],
+  "r_flat": [
+    17,
+    50
+  ],
+  "r_cut": [
+    4,
+    5
+  ],
+  "plane_height": [
+    5,
+    4
+  ],
+  "amplitude_range": [
+    [
+      0,
+      1
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "default_amplitude": [
+    1,
+    1
+  ],
+  "smoothstep_polynomial_coefficients_ascending": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    126,
+    -420,
+    540,
+    -315,
+    70
+  ],
+  "material_coordinate": "the original u; s=a-r",
+  "phase_family": "F_At(r,u)=R_z(theta(t))F_A(r,u-theta(t)), theta(t)=pi*t/2",
+  "source": "scripts/fd2d_flat_developable_tail.py",
+  "source_sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3",
+  "mathematical_definition": "results/R128-exact-flat-developable-tail-with-fixed-collar.md",
+  "remaining_scope": "actual nonflat prefix and complete closed core still required; old log-positive-n chart is not applied at n=0"
+}

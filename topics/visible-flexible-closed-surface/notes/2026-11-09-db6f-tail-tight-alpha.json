@@ -1,0 +1,97 @@
+{
+  "status": "tight-exact-radial-alpha-interval-pending-independent-combination-review",
+  "scope": "Combine reviewed finite source integrals into a tight radial alpha box.\n\nThe finite geometry coefficients are fixed binary reals. The leftover B\nintegral uses the exact old-radius width, a uniform raw-slope bound, and\nthe protected-port loss. Positive expm1 is evaluated by exact Fraction\nseries so subtracting two radii near the cuff cannot lose the tiny width.\nOnly the contribution of alpha normalization is transferred to geometry;\nother source evaluation/quadrature errors are deliberately not included.\n",
+  "inputs": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    },
+    "numerical_bookkeeping": {
+      "file": "notes/2026-11-09-db6f-tail-background-split.json",
+      "sha256": "66c4d9cf819925840ad85cbec66de6c4d1b51f89b71eeb69385e70a5294fb1f7"
+    }
+  },
+  "scriptSHA256": "3460ed8ee96c610b00c236f6ea2334b6031695cd15eae9c7181c1c880a757533",
+  "elementarySHA256": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+  "intervalBackendSHA256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "finiteSourceDefinition": "Frozen binary cell coefficients; exact analytic lengths, raw normalization, cap, and warp integrals.",
+  "cellZeroA": [
+    0.20356892342054078,
+    0.20356892342060912
+  ],
+  "innerA": [
+    0.0706548168707253,
+    0.07065481687073313
+  ],
+  "outerBCells0Through15": [
+    0.0018001260794424448,
+    0.0018001260794424686
+  ],
+  "oldRadiusExcessAtCell16": [
+    2.3793286565652055e-08,
+    2.379328656565211e-08
+  ],
+  "oldRadiusExcessAtCell160": [
+    1.0666055288578818e-51,
+    1.0666055288578839e-51
+  ],
+  "oldRadiusWidthCells16Through159": [
+    2.3793286565652055e-08,
+    2.379328656565211e-08
+  ],
+  "tailSlopeUpperExact": "5/1048576",
+  "protectedBDeficitUpperExact": "1/21202164777340611954999570008915022189929806762507427497459274415511437312000",
+  "remainingBCells16Through159": [
+    2.379328656511106e-08,
+    2.379328656565211e-08
+  ],
+  "totalA": [
+    0.27422374029126606,
+    0.2742237402913423
+  ],
+  "totalB": [
+    0.0018001498727290097,
+    0.0018001498727290345
+  ],
+  "targetWarpWidth": [
+    0.44999999999999996,
+    0.45
+  ],
+  "exactRadialAlpha": [
+    97.64534740775791,
+    97.64534740780157
+  ],
+  "alphaIntervalWidthUpper": 4.363148429003174e-11,
+  "savedNumericalAlpha": 97.64534740777785,
+  "savedNumericalAlphaInsideInterval": true,
+  "normalizationContributionOnly": {
+    "alphaDifferenceUpper": 2.3705023078665895e-11,
+    "sameSourceCoordinateRadiusDifferenceUpper": 4.267259427809923e-14,
+    "slopeDifferenceAtCommonPhysicalRadiusUpper": 1.0241422626743816e-12,
+    "relativeMetricOperatorDifferenceUpper": 2.1848368270397296e-12,
+    "conditions": "Both backgrounds use the same exact source functions and inner anchor; common physical radius lies in both domains; reviewed |w_r|<24 and |w|<=16/15. Other numerical source, quadrature, interpolation and interface errors are not included."
+  },
+  "notCertified": [
+    "numeric source evaluator versus exact elementary functions",
+    "stored background radial primitives",
+    "nonlinear infinite-tail existence",
+    "complete surface metric or reach",
+    "README completion"
+  ]
+}

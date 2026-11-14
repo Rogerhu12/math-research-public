@@ -1,0 +1,181 @@
+{
+  "status": "Intermediate proved scalar consequences only; task incomplete.",
+  "current_R35_without_height_estimate": {
+    "amplitude_upper": {
+      "exact": "2116691824864133/45035996273704960000",
+      "decimal": 4.7e-05
+    },
+    "diameter_lower": {
+      "exact": "7746191359077253/4503599627370496",
+      "decimal": 1.72
+    },
+    "diameter_lower_reason": "Two opposite points of the cap boundary circle.",
+    "delta_over_D_upper": {
+      "exact": "2116691824864133/77461913590772530000",
+      "decimal": 2.7325581395348836e-05
+    },
+    "strictly_fails_0_05_threshold": true,
+    "proof_scope": "Conditional exact theorem for the stated union/rotation and graph-cap architecture."
+  },
+  "current_R35_conditional_H_ge_4": {
+    "amplitude_upper": {
+      "exact": "2116691824864133/45035996273704960000",
+      "decimal": 4.7e-05
+    },
+    "diameter_lower": {
+      "exact": "8",
+      "decimal": 8.0
+    },
+    "diameter_lower_reason": "Cap planes at +H and -H with H at least the supplied lower bound.",
+    "delta_over_D_upper": {
+      "exact": "2116691824864133/360287970189639680000",
+      "decimal": 5.875e-06
+    },
+    "strictly_fails_0_05_threshold": true,
+    "proof_scope": "Conditional exact theorem for the stated union/rotation and graph-cap architecture."
+  },
+  "broad_cap_dimensionless_budget": {
+    "a": {
+      "exact": "1/20",
+      "decimal": 0.05
+    },
+    "support_radius_b": {
+      "exact": "1/10",
+      "decimal": 0.1
+    },
+    "center_offset_c": {
+      "exact": "1/10",
+      "decimal": 0.1
+    },
+    "disk_radius": {
+      "exact": "3/10",
+      "decimal": 0.3
+    },
+    "requested_rho": {
+      "exact": "3/100",
+      "decimal": 0.03
+    },
+    "hessian_upper": {
+      "exact": "30",
+      "decimal": 30.0
+    },
+    "within_cap_tangent_chord_lower": {
+      "exact": "1/30",
+      "decimal": 0.03333333333333333
+    },
+    "support_band_radial_separation_lower": {
+      "exact": "1/10",
+      "decimal": 0.1
+    },
+    "within_cap_pass": true,
+    "support_band_pair_pass_if_annulus_radius_ge_disk_radius": true,
+    "half_turn_cap_Hausdorff_equals_a_if_conditions_hold": true,
+    "scope": "Only a cap design budget; no complete surface, flex, global reach, or optimal-rigid Hausdorff lower bound is claimed."
+  },
+  "two_module_ellipse_budget": {
+    "R": {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    "r": {
+      "exact": "3/10",
+      "decimal": 0.3
+    },
+    "h_squared": {
+      "exact": "91/150",
+      "decimal": 0.6066666666666667
+    },
+    "D0_upper_squared": {
+      "exact": "482/75",
+      "decimal": 6.426666666666667
+    },
+    "D1_upper_squared": {
+      "exact": "691/150",
+      "decimal": 4.6066666666666665
+    },
+    "D1_upper_over_D0_upper_squared": {
+      "exact": "691/964",
+      "decimal": 0.716804979253112
+    },
+    "initial_actual_point_pair_fraction_required": {
+      "exact": "24/25",
+      "decimal": 0.96
+    },
+    "delta_over_D0_lower_if_envelopes_and_witness_hold_approx": 0.056678319934735655,
+    "delta_over_D0_verified_rational_lower": "566783/10000000",
+    "passes_0_05_by_exact_squared_comparison": true,
+    "not_excluded_by_cylinder_reach_003_necessary_condition": true,
+    "scope": "Conditional geometric lower bound only. All envelopes, actual witness points, exact flexibility, and global reach still need construction/verification."
+  },
+  "two_module_aspect_two_budget": {
+    "R": {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    "r": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "h_squared": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "D0_upper_squared": {
+      "exact": "6",
+      "decimal": 6.0
+    },
+    "D1_upper_squared": {
+      "exact": "9/2",
+      "decimal": 4.5
+    },
+    "D1_upper_over_D0_upper_squared": {
+      "exact": "3/4",
+      "decimal": 0.75
+    },
+    "initial_actual_point_pair_fraction_required": {
+      "exact": "97/100",
+      "decimal": 0.97
+    },
+    "delta_over_D0_lower_if_envelopes_and_witness_hold_approx": 0.05198729810778069,
+    "delta_over_D0_verified_rational_lower": "8123/156250",
+    "passes_0_05_by_exact_squared_comparison": true,
+    "not_excluded_by_cylinder_reach_003_necessary_condition": true,
+    "scope": "Conditional geometric lower bound only. All envelopes, actual witness points, exact flexibility, and global reach still need construction/verification."
+  },
+  "old_098_witness_jointly_excluded": {
+    "R": {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    "r": {
+      "exact": "3/10",
+      "decimal": 0.3
+    },
+    "h_squared": {
+      "exact": "91/150",
+      "decimal": 0.6066666666666667
+    },
+    "D0_upper_squared": {
+      "exact": "482/75",
+      "decimal": 6.426666666666667
+    },
+    "D1_upper_squared": {
+      "exact": "691/150",
+      "decimal": 4.6066666666666665
+    },
+    "D1_upper_over_D0_upper_squared": {
+      "exact": "691/964",
+      "decimal": 0.716804979253112
+    },
+    "initial_actual_point_pair_fraction_required": {
+      "exact": "49/50",
+      "decimal": 0.98
+    },
+    "delta_over_D0_lower_if_envelopes_and_witness_hold_approx": 0.06667831993473566,
+    "delta_over_D0_verified_rational_lower": "666783/10000000",
+    "passes_0_05_by_exact_squared_comparison": true,
+    "not_excluded_by_cylinder_reach_003_necessary_condition": false,
+    "scope": "Conditional geometric lower bound only. All envelopes, actual witness points, exact flexibility, and global reach still need construction/verification."
+  },
+  "certification_kernel_scope": "Floating point reference formulas; no outward interval arithmetic or global covering engine implemented."
+}

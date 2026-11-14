@@ -1,0 +1,44 @@
+{
+  "status": "ROOT_READONLY_FIRST_TRUE_M14_LU_RELEASE_DN_AUDIT_COMPLETED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T21:41:38.061917+00:00",
+  "actual_audit_receipt": "b94a62",
+  "actual_audit_exit_code": 0,
+  "guard_source_bindings_rehashed": 142,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-release-lu-01-guard-launch.json",
+    "bytes": 43018,
+    "sha256": "16a99e7b5d2b5e9ca8e064e459285bd79d2423b12faed95163f3272897cd5384"
+  },
+  "audit": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-release-lu-01-first-dn-audit.json",
+    "bytes": 1104,
+    "sha256": "9d02e3876be236afee3fa81ba663642d8bbd8939720944fc680debac1b4a7aab"
+  },
+  "first_request_binding": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-first-request-binding.json",
+    "bytes": 2118,
+    "sha256": "eb24c839c59da90a66cfcf32236fb38697db83dcac8fe82180dd3ea1e274f97c"
+  },
+  "packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01_tail_0001.json.gz",
+    "bytes": 254065,
+    "sha256": "a7b7c5bc8f4926e7020efcde7569181c4948ef948625f1c18be81ba0ec1d2cb3"
+  },
+  "residual": 5.397833270174952e-10,
+  "Jacobian_entries": 616,
+  "jets_fields": 17,
+  "states": [
+    865,
+    28
+  ],
+  "raw_states": [
+    13,
+    28
+  ],
+  "real_solver_session_still_unclosed": 48113,
+  "latest_actual_solver_poll_receipt": "30e11b",
+  "latest_actual_solver_poll_returned_session": 48113,
+  "whole_prefix_success_not_inferred": true,
+  "scope": "One closed actual DN/J response only; new weighted BVP, nonlinear outer correction, own final seam and solver actual exit remain unobserved."
+}

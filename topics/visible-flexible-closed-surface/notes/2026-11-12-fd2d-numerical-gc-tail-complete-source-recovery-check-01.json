@@ -1,0 +1,137 @@
+{
+  "schema": "fd2d-complete-tail-source-equality-fixture-v1",
+  "input": {
+    "path": "fixture-config.json",
+    "sha256": "a40599d672a47e2e116cf48db6dc9bbc0f5e654d73f50ac4b8736c629f8a850e"
+  },
+  "source": [
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-complete-source-check.mjs",
+      "sha256": "cc28b7783df066a55ab9f15b1060ab69684b6b5066340453048e50950fe60aec"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-deep-extension.mjs",
+      "sha256": "97d7d069839ac41884051fc73562032fccec5a3e29941d06018904916b2e3370"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-stage-graphs.mjs",
+      "sha256": "3b11ee2d3e37260f86c57906cbed3f1ec83cf592f5c1f06c9e9b128adb171f9b"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "file:///workspace/scratch/fd2dbfd2c83e/visible-flex-gc-restored-inputs-01/topics/visible-flexible-closed-surface/scripts/fd2d-bounded-tail-point-cache.mjs",
+      "sha256": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07"
+    }
+  ],
+  "fixture_overrides": {
+    "protectCell": 20,
+    "extensionEnd": 24,
+    "rawDepth": 2,
+    "parts": 2,
+    "modes": 4,
+    "spacing": 2,
+    "linearFar": 8,
+    "linearSteps": 16
+  },
+  "scope": "Explicit small derived fixture only. It changes protectCell for this implementation equality check; it is not the original input candidate or a nonlinear DN solve. The actual full-tail entry keeps protectCell160.",
+  "differences": {
+    "graphs": 0,
+    "gains": 0
+  },
+  "counts": {
+    "graphs": {
+      "entries": 148,
+      "bitwise_identical": 148
+    },
+    "gains": {
+      "entries": 144,
+      "bitwise_identical": 144
+    }
+  },
+  "first_modified_cells_retained_by_identity": true,
+  "extension": {
+    "first": 20,
+    "count": 4,
+    "linearFar": 24,
+    "left": {
+      "r": 0.32000000317171934,
+      "logw": -40.34730734347067,
+      "w": 3.0018366872694494e-18,
+      "logw_r": -21.87499978318325,
+      "w_r": -6.566517688317072e-17
+    },
+    "right": {
+      "r": 0.32000000317171934,
+      "logw": -40.347307343470675,
+      "w": 3.001836687269428e-18,
+      "logw_r": -21.874999783183252,
+      "w_r": -6.566517688317027e-17
+    },
+    "difference": {
+      "r": 0,
+      "logw": 7.105427357601002e-15,
+      "w": 2.1570415377137042e-32,
+      "logw_r": 3.552713678800501e-15,
+      "w_r": -4.5606021083089745e-31
+    },
+    "scope": "Only the existing unchanged source is appended. The far Robin condition is still finite; this is not an infinite-tail certificate."
+  },
+  "point_cache": {
+    "schema": "fd2d-fixed-tail-bounded-point-cache-v1",
+    "entries": 180,
+    "pointsPerEntry": 64,
+    "maximum_retained_point_values": 11520,
+    "scope": "Memoization only. The configured fixed physical source, point arithmetic, and subsequent nonlinear equations are unchanged."
+  },
+  "graph_cache": {
+    "modes": 4,
+    "raw_depth": 2,
+    "linear_far": 8,
+    "stages": 36,
+    "point_cache_hits": 16472,
+    "point_evaluations": 2456,
+    "maximum_temporary_point_values": 305,
+    "scope": "Storage and traversal only; each independent scalar RK column retains its original operations."
+  },
+  "runtime": {
+    "seconds": 0.376,
+    "heap_size_limit": 134217728,
+    "memory": {
+      "rss": 65437696,
+      "heapTotal": 30199808,
+      "heapUsed": 16130112,
+      "external": 4257900,
+      "arrayBuffers": 339622
+    },
+    "resources": {
+      "userCPUTime": 586238,
+      "systemCPUTime": 85419,
+      "maxRSS": 66008,
+      "sharedMemorySize": 0,
+      "unsharedDataSize": 0,
+      "unsharedStackSize": 0,
+      "minorPageFault": 19000,
+      "majorPageFault": 0,
+      "swappedOut": 0,
+      "fsRead": 0,
+      "fsWrite": 0,
+      "ipcSent": 0,
+      "ipcReceived": 0,
+      "signalsCount": 0,
+      "voluntaryContextSwitches": 594,
+      "involuntaryContextSwitches": 141
+    }
+  },
+  "completed": true
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "fd2d-frozen-R139-reference-cache-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_frozen_coast_reference.py",
+      "bytes": 14378,
+      "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+    },
+    {
+      "path": "scripts/fd2d-metric-frozen-coast-cache-prepare.py",
+      "bytes": 7446,
+      "sha256": "f866171514dcdf8b7744f2a3e684001db872d300356de317073cfdd4c304ed5a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference.md",
+      "bytes": 7534,
+      "sha256": "b909e3fbc337dbc91ba00e71233c22f4e3d24da6bb92e800df764c180cab4761"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-report.json",
+      "bytes": 20648,
+      "sha256": "fb4e3d5d6cf6816dbd6b7330c0121c38673013bc9f3c379ed2cecf33b76dbd58"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-progress.jsonl",
+      "bytes": 7584,
+      "sha256": "f061068af9b5fd48c440706653f799abbdbf03320545c4984a2f2a7472ced3e8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-exit-receipt.json",
+      "bytes": 475,
+      "sha256": "2c1fddd5606e28dce8126dbf0ab5061d9c2ec04fa5afe52f57c8b6fdde278b49"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0004.npz",
+      "bytes": 65063,
+      "sha256": "e3040f99208c81ab7245ae2988b3a1e73863642d27d3653bfc7866d7e253b909"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0008.npz",
+      "bytes": 126745,
+      "sha256": "db2ad9444e53292f283dc666c388707a665415a23ed415b0acb8f0fd8516a3a0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0012.npz",
+      "bytes": 188194,
+      "sha256": "3f7d03c0601169eb5a93d5d81f69c59df8957b95efe47537cfa2f525ff5847ea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0016.npz",
+      "bytes": 249424,
+      "sha256": "e996f88b4dc6a36ebbe41a92b34f2b16c86e7f0aaf08549ccdb9eb067aedf4e0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0020.npz",
+      "bytes": 310549,
+      "sha256": "8383dcb217e1d57961f07a6671c03cb72a048d462cca47b8d1c37289b7955a76"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache-partial-0024.npz",
+      "bytes": 371559,
+      "sha256": "7d49ee1214f9d8e61c68cdffa54efa8daded10799e16b18d02e5a4894f568462"
+    }
+  ],
+  "actual_success": {
+    "session_id": 96475,
+    "chunk_id": "cd4421",
+    "exit_code": 0
+  },
+  "binding_sha256": "5a0fbc11024e0b73e2956e29520334418c4da357bfc854fa9969deb7cd15cfce",
+  "current_original_grid_fully_prefilled": true,
+  "active_radial_points": 26,
+  "large_matrix_assembled": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "continuous_numeric_certificate": false
+}

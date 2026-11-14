@@ -1,0 +1,597 @@
+{
+  "schema": "fd2d-R201-complete-field-discrete-F-harmonics-v1",
+  "fullAngles": 64,
+  "halfPeriodSamples": 32,
+  "rows": [
+    {
+      "s": 0.3857929045873372,
+      "values": [
+        -0.00036885031959079566,
+        0.10373709169830855,
+        0.15780710210233126,
+        0.18653710675512117,
+        0.19443263074926598,
+        0.16527686842207628,
+        0.11324798707455141,
+        0.0754103420888063,
+        0.051884804618370195,
+        0.019607936690258617,
+        -0.011300798015501747,
+        -0.025288410575911364,
+        -0.03309893869774339,
+        -0.038650367515974435,
+        -0.033866685357803746,
+        -0.018292433619173903,
+        0.003065714776736218,
+        0.02476068773325821,
+        0.03946772536980778,
+        0.04138746099635965,
+        0.033068606615567396,
+        0.024341507328156573,
+        0.010443120373395638,
+        -0.02030175046035223,
+        -0.05230287723692974,
+        -0.07691975498490125,
+        -0.11540212301539515,
+        -0.16569742778475816,
+        -0.19365802673326668,
+        -0.18665783412313064,
+        -0.15877694428509906,
+        -0.10457223085734943
+      ],
+      "mean": 0.00029128874404653685,
+      "variance": 0.010188153699480604,
+      "modes": [
+        {
+          "index": 1,
+          "physicalWaveNumber": 2,
+          "cosine": -0.001177385769889256,
+          "sine": 0.07710313757572126,
+          "energy": 0.0029731400306358693,
+          "varianceFraction": 0.2918232408279668
+        },
+        {
+          "index": 2,
+          "physicalWaveNumber": 4,
+          "cosine": 0.001080233947323211,
+          "sine": 0.11353788106783479,
+          "energy": 0.006446008671377373,
+          "varianceFraction": 0.6326964493778685
+        },
+        {
+          "index": 3,
+          "physicalWaveNumber": 6,
+          "cosine": -0.0006811663410574691,
+          "sine": 0.03396135970038971,
+          "energy": 0.0005769189701417219,
+          "varianceFraction": 0.05662644941949918
+        },
+        {
+          "index": 4,
+          "physicalWaveNumber": 8,
+          "cosine": 0.00019229431482849398,
+          "sine": 0.018070464187805287,
+          "energy": 0.00016328932653313438,
+          "varianceFraction": 0.01602737172501225
+        },
+        {
+          "index": 5,
+          "physicalWaveNumber": 10,
+          "cosine": -0.00028231531101714563,
+          "sine": 0.0029730847518979397,
+          "energy": 0.000004459467438401371,
+          "varianceFraction": 0.0004377110485316605
+        },
+        {
+          "index": 6,
+          "physicalWaveNumber": 12,
+          "cosine": -0.0001857017394860101,
+          "sine": 0.0009691894937426931,
+          "energy": 4.869067054146738e-7,
+          "varianceFraction": 0.000047791456605086013
+        },
+        {
+          "index": 7,
+          "physicalWaveNumber": 14,
+          "cosine": 0.0003188695482402243,
+          "sine": -0.0006528523034922511,
+          "energy": 2.639469594850315e-7,
+          "varianceFraction": 0.000025907241613216696
+        },
+        {
+          "index": 8,
+          "physicalWaveNumber": 16,
+          "cosine": 0.0000877299703827391,
+          "sine": 0.004144592419081855,
+          "energy": 0.00000859267143400707,
+          "varianceFraction": 0.0008433982925135031
+        },
+        {
+          "index": 9,
+          "physicalWaveNumber": 18,
+          "cosine": 0.00014381137164547393,
+          "sine": 0.005294359738072878,
+          "energy": 0.000014025463373370834,
+          "varianceFraction": 0.0013766442661819931
+        },
+        {
+          "index": 10,
+          "physicalWaveNumber": 20,
+          "cosine": -0.00010048427583120995,
+          "sine": 0.001155302262991825,
+          "energy": 6.724102042816772e-7,
+          "varianceFraction": 0.00006599922067488606
+        },
+        {
+          "index": 11,
+          "physicalWaveNumber": 22,
+          "cosine": -0.00005355273957845328,
+          "sine": 0.00020965296702878371,
+          "energy": 2.3411131250164953e-8,
+          "varianceFraction": 0.000002297877705884871
+        },
+        {
+          "index": 12,
+          "physicalWaveNumber": 24,
+          "cosine": -4.793267330636258e-7,
+          "sine": 0.0006299106082806186,
+          "energy": 1.9839380208928799e-7,
+          "varianceFraction": 0.00001947298872212756
+        },
+        {
+          "index": 13,
+          "physicalWaveNumber": 26,
+          "cosine": 0.000016099174210976695,
+          "sine": 0.00033634447046208783,
+          "energy": 5.6693393110348825e-8,
+          "varianceFraction": 0.000005564638577570642
+        },
+        {
+          "index": 14,
+          "physicalWaveNumber": 28,
+          "cosine": -0.000015313663079744196,
+          "sine": 0.00015944313812302647,
+          "energy": 1.2828311285719207e-8,
+          "varianceFraction": 0.0000012591399446960836
+        },
+        {
+          "index": 15,
+          "physicalWaveNumber": 30,
+          "cosine": -0.0000016424807178653036,
+          "sine": 0.0000949252445777149,
+          "energy": 4.506749900523776e-9,
+          "varianceFraction": 4.4235197401404847e-7
+        },
+        {
+          "index": 16,
+          "physicalWaveNumber": 32,
+          "cosine": -0.0000011357428780752257,
+          "sine": -1.1978480169057202e-18,
+          "energy": 1.2899118850985971e-12,
+          "varianceFraction": 1.266089934591738e-10
+        }
+      ],
+      "lowK7Fraction": 0.9976849210970966,
+      "parsevalDifference": 5.204170427930421e-18
+    },
+    {
+      "s": 0.4207304881689033,
+      "values": [
+        -0.0008899189555210827,
+        0.06947773849028005,
+        0.12626284976343322,
+        0.1712701750752785,
+        0.19293021407443592,
+        0.18058693707411824,
+        0.13597987227580619,
+        0.09053616903039613,
+        0.06369737096275692,
+        0.035600226963068624,
+        -0.00398312307071289,
+        -0.028551522477526348,
+        -0.02874461891046069,
+        -0.026944458903033135,
+        -0.026818775604730356,
+        -0.01605198086008121,
+        0.006175668332371747,
+        0.02615861475185186,
+        0.03170877935562627,
+        0.02827151245456374,
+        0.02971562001344635,
+        0.02876836255493108,
+        0.0030939055942328965,
+        -0.035384556660425566,
+        -0.06289160517409009,
+        -0.0923667792477974,
+        -0.13884870806440525,
+        -0.1805378665113533,
+        -0.1915184938337855,
+        -0.17205780267125137,
+        -0.12879819276601032,
+        -0.0716968791535846
+      ],
+      "mean": 0.0004421479344321436,
+      "variance": 0.009786730398244115,
+      "modes": [
+        {
+          "index": 1,
+          "physicalWaveNumber": 2,
+          "cosine": -0.0017944558409885162,
+          "sine": 0.08504157542208095,
+          "energy": 0.00361764481101737,
+          "varianceFraction": 0.369647948171376
+        },
+        {
+          "index": 2,
+          "physicalWaveNumber": 4,
+          "cosine": 0.0011053811492681758,
+          "sine": 0.10823710808346844,
+          "energy": 0.005858246716878793,
+          "varianceFraction": 0.5985907937067368
+        },
+        {
+          "index": 3,
+          "physicalWaveNumber": 6,
+          "cosine": -0.001057775366806768,
+          "sine": 0.023047238112813746,
+          "energy": 0.00026614703667767885,
+          "varianceFraction": 0.027194683601934062
+        },
+        {
+          "index": 4,
+          "physicalWaveNumber": 8,
+          "cosine": 0.000473418739836392,
+          "sine": 0.00425911720756446,
+          "energy": 0.00000918210234549998,
+          "varianceFraction": 0.0009382196067388743
+        },
+        {
+          "index": 5,
+          "physicalWaveNumber": 10,
+          "cosine": -0.0008045331260098441,
+          "sine": -0.0027019988620093686,
+          "energy": 0.000003974035700573547,
+          "varianceFraction": 0.0004060636738584878
+        },
+        {
+          "index": 6,
+          "physicalWaveNumber": 12,
+          "cosine": 0.00022133566170061316,
+          "sine": -0.0038533890385026946,
+          "energy": 0.000007448798278596585,
+          "varianceFraction": 0.0007611120338957136
+        },
+        {
+          "index": 7,
+          "physicalWaveNumber": 14,
+          "cosine": 0.00009383889699437391,
+          "sine": -0.003609833580555037,
+          "energy": 0.00000651985210894596,
+          "varianceFraction": 0.0006661930842721199
+        },
+        {
+          "index": 8,
+          "physicalWaveNumber": 16,
+          "cosine": 0.00061735181411968,
+          "sine": 0.005710486757181288,
+          "energy": 0.000016495391133169863,
+          "varianceFraction": 0.0016854853931737386
+        },
+        {
+          "index": 9,
+          "physicalWaveNumber": 18,
+          "cosine": 0.000014128755597537742,
+          "sine": 0.000704834563912478,
+          "energy": 2.48495692110214e-7,
+          "varianceFraction": 0.000025391083844998715
+        },
+        {
+          "index": 10,
+          "physicalWaveNumber": 20,
+          "cosine": -0.0002016304044685723,
+          "sine": -0.0011245196307224916,
+          "energy": 6.525996099432045e-7,
+          "varianceFraction": 0.0000666820872127315
+        },
+        {
+          "index": 11,
+          "physicalWaveNumber": 22,
+          "cosine": 0.000008958821339128103,
+          "sine": 0.00039931327156695956,
+          "energy": 7.97656746646474e-8,
+          "varianceFraction": 0.000008150390520511175
+        },
+        {
+          "index": 12,
+          "physicalWaveNumber": 24,
+          "cosine": -0.000009819512101124847,
+          "sine": 0.0002987436469841756,
+          "energy": 4.4672094715654936e-8,
+          "varianceFraction": 0.000004564557609931686
+        },
+        {
+          "index": 13,
+          "physicalWaveNumber": 26,
+          "cosine": 0.000009043976793954994,
+          "sine": 0.00016863002874466237,
+          "energy": 1.4258940055337627e-8,
+          "varianceFraction": 0.0000014569666758058332
+        },
+        {
+          "index": 14,
+          "physicalWaveNumber": 28,
+          "cosine": -0.000005090509454274035,
+          "sine": 0.00023874078321653837,
+          "energy": 2.851153742867511e-8,
+          "varianceFraction": 0.000002913285261622258
+        },
+        {
+          "index": 15,
+          "physicalWaveNumber": 30,
+          "cosine": -0.000001999760866345547,
+          "sine": 0.00008183528047935376,
+          "energy": 3.3505060873285334e-9,
+          "varianceFraction": 3.4235193481263813e-7
+        },
+        {
+          "index": 16,
+          "physicalWaveNumber": 32,
+          "cosine": -2.2018490756104542e-7,
+          "sine": -1.2955070269884442e-17,
+          "energy": 4.8481393517666114e-14,
+          "varianceFraction": 4.9537886040433275e-12
+        }
+      ],
+      "lowK7Fraction": 0.9982050138788121,
+      "parsevalDifference": 0
+    },
+    {
+      "s": 0.5926430100318445,
+      "values": [
+        0.002567037257853821,
+        0.05358222132495692,
+        0.025004454685739405,
+        0.00946716276159764,
+        0.10041833099116454,
+        0.16477074660074936,
+        0.1117291389657227,
+        0.09217467619757802,
+        0.1432570433039035,
+        0.16451249860358147,
+        0.11979377859060863,
+        0.07685208615993344,
+        0.0674445942358334,
+        0.04947984395869531,
+        0.010542812534720399,
+        -0.010716821008345562,
+        0.0018803054714758112,
+        0.011947712289741851,
+        -0.014242236232974166,
+        -0.055072985034758645,
+        -0.07075265818184964,
+        -0.07810546029657811,
+        -0.12103134938686477,
+        -0.1651731557354913,
+        -0.14254934646764206,
+        -0.09043872018032684,
+        -0.10941994270527647,
+        -0.16101981809113294,
+        -0.0964264219400893,
+        -0.008045883690383754,
+        -0.02427901161320154,
+        -0.050121458527464705
+      ],
+      "mean": 0.00025091171379614256,
+      "variance": 0.00850479313996484,
+      "modes": [
+        {
+          "index": 1,
+          "physicalWaveNumber": 2,
+          "cosine": 0.0014100640630403264,
+          "sine": 0.12272994424474755,
+          "energy": 0.007532313747490359,
+          "varianceFraction": 0.8856551386412085
+        },
+        {
+          "index": 2,
+          "physicalWaveNumber": 4,
+          "cosine": 0.00010423573669740387,
+          "sine": 0.008221824524781818,
+          "energy": 0.00003380463180255431,
+          "varianceFraction": 0.003974774135740362
+        },
+        {
+          "index": 3,
+          "physicalWaveNumber": 6,
+          "cosine": -0.0007382874555750588,
+          "sine": -0.020292740300283444,
+          "energy": 0.00020617018863090363,
+          "varianceFraction": 0.024241646473691418
+        },
+        {
+          "index": 4,
+          "physicalWaveNumber": 8,
+          "cosine": 0.0006083100180385328,
+          "sine": 0.0034489043186723863,
+          "energy": 0.000006132491038701538,
+          "varianceFraction": 0.0007210629274314002
+        },
+        {
+          "index": 5,
+          "physicalWaveNumber": 10,
+          "cosine": -0.0003477158817619347,
+          "sine": -0.009697542789415139,
+          "energy": 0.00004708162124348352,
+          "varianceFraction": 0.005535892580648724
+        },
+        {
+          "index": 6,
+          "physicalWaveNumber": 12,
+          "cosine": 0.0008841236185395684,
+          "sine": -0.0066519934627635975,
+          "energy": 0.000022515345800754568,
+          "varianceFraction": 0.002647371362267801
+        },
+        {
+          "index": 7,
+          "physicalWaveNumber": 14,
+          "cosine": -0.00007802216509744013,
+          "sine": 0.004848070999283014,
+          "energy": 0.000011754939936167749,
+          "varianceFraction": 0.00138215471472553
+        },
+        {
+          "index": 8,
+          "physicalWaveNumber": 16,
+          "cosine": 0.0004838274895110782,
+          "sine": 0.03320707949303251,
+          "energy": 0.0005514721087480934,
+          "varianceFraction": 0.06484250700427657
+        },
+        {
+          "index": 9,
+          "physicalWaveNumber": 18,
+          "cosine": 0.00012842958514971308,
+          "sine": 0.013293515164024342,
+          "energy": 0.00008836701978724342,
+          "varianceFraction": 0.010390260919104347
+        },
+        {
+          "index": 10,
+          "physicalWaveNumber": 20,
+          "cosine": -0.000059083444383245184,
+          "sine": 0.000252702677128255,
+          "energy": 3.367474821398756e-8,
+          "varianceFraction": 0.0000039595023253119095
+        },
+        {
+          "index": 11,
+          "physicalWaveNumber": 22,
+          "cosine": -0.000013742410197597641,
+          "sine": -0.0022645958729294495,
+          "energy": 0.000002564291660763567,
+          "varianceFraction": 0.00030151134996026115
+        },
+        {
+          "index": 12,
+          "physicalWaveNumber": 24,
+          "cosine": -0.00004941071047201038,
+          "sine": -0.002072903661042688,
+          "energy": 0.000002149685503136764,
+          "varianceFraction": 0.00025276164484650253
+        },
+        {
+          "index": 13,
+          "physicalWaveNumber": 26,
+          "cosine": -0.000019036408051391774,
+          "sine": -0.0006358144320544516,
+          "energy": 2.02311188420112e-7,
+          "varianceFraction": 0.00002378790231468797
+        },
+        {
+          "index": 14,
+          "physicalWaveNumber": 28,
+          "cosine": 0.000005635562413323306,
+          "sine": 0.00046464553628110445,
+          "energy": 1.0796361697483481e-7,
+          "varianceFraction": 0.000012694443615271888
+        },
+        {
+          "index": 15,
+          "physicalWaveNumber": 30,
+          "cosine": 0.0000016765656823953916,
+          "sine": 0.0004961724754593412,
+          "energy": 1.2309496813796896e-7,
+          "varianceFraction": 0.000014473599311843798
+        },
+        {
+          "index": 16,
+          "physicalWaveNumber": 32,
+          "cosine": -0.0000048786194758721185,
+          "sine": -2.2640094830574092e-17,
+          "energy": 2.3800927990358745e-11,
+          "varianceFraction": 2.7985310869603515e-9
+        }
+      ],
+      "lowK7Fraction": 0.9241580408357138,
+      "parsevalDifference": -1.734723475976807e-18
+    }
+  ],
+  "scope": "Values from the actual complete position source. Discrete Fourier diagnosis only; no new geometry, solver, or continuum spectrum claim.",
+  "continuousCertificate": false,
+  "execution": {
+    "runtime": "pure V8 JavaScript",
+    "elapsedMilliseconds": 162,
+    "completed": true,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "sourceSHA256": "4ee7053218f3a44947893d5d373d611e64d5863fd44f89373549bad764f8031b",
+  "input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+    "commit": "fd49361f31e6aa8e4ab1c8aca20d5916b901d59f",
+    "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5"
+  },
+  "sourceBindings": {
+    "scripts/fd2d-R201-R205-full-half-fixed-amplitude-provider.cjs": {
+      "bytes": 23398,
+      "sha256": "6183fdfaeb53554e1e61fd36424e768f5fba072a0364f0d1480de67a62d1ace1",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-half-period-geometric-guide.cjs": {
+      "bytes": 8696,
+      "sha256": "6d156bca7a4126f02b8c65226fcc0f5f82910054a40c79ecc11e58b831419bbb",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-band-border-layout.cjs": {
+      "bytes": 14456,
+      "sha256": "636bdea5b19c8334a69ae3ad5adc1cfacd5370d7321905bc1ff5ad32829be82b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-provider.cjs": {
+      "bytes": 26557,
+      "sha256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-geometric-guide.cjs": {
+      "bytes": 8936,
+      "sha256": "27c3a30cb4a454222c9185bf248491b6b1d954e0b3cd11759af10d88852060b7",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-run-R201-R205-variable-amplitude.cjs": {
+      "bytes": 6904,
+      "sha256": "8e7eda9e24ef202e0c931efd36ace1d323aa8f37148faeed3fe4409d7716c64a",
+      "usage": "replay entry, syntax checked; not the actual functions invocation"
+    }
+  },
+  "dependencyBindings": {
+    "scripts/fd2d-direct-position-tangent-lift-baseline-R187.cjs": {
+      "bytes": 12898,
+      "sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf"
+    },
+    "scripts/fd2d-cubic-spline-refinement-R196.cjs": {
+      "bytes": 10459,
+      "sha256": "ecef2af139d2fe92387c2984ca75edf26e7fd0b6f44e909cf91ac3b2530a5f77"
+    },
+    "scripts/fd2d-nonuniform-metric-provider-R196.cjs": {
+      "bytes": 12736,
+      "sha256": "a941529bfa24849758bb3539bf23871919cbc9c3f4778703080ecabc5d5cac3e"
+    },
+    "scripts/fd2d-position-curvature-chain-R191.cjs": {
+      "bytes": 3222,
+      "sha256": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812"
+    },
+    "scripts/fd2d-bent-annulus-reference-R205.cjs": {
+      "bytes": 12398,
+      "sha256": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7"
+    },
+    "scripts/fd2d_appended_global_schur_R206.cjs": {
+      "bytes": 6626,
+      "sha256": "b28febaee12d2bad62457ba6b2371a34cd273b2cee9eebc006fc9e961e1c36ba"
+    },
+    "scripts/fd2d_band_border_lm_adapter_v2_R195.cjs": {
+      "bytes": 12143,
+      "sha256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1"
+    }
+  }
+}

@@ -1,0 +1,4613 @@
+{
+  "schema": "fd2d-actual-value-packet-no-pickle-v1",
+  "binding": {
+    "actual_saved_definition_arrays": {
+      "angular_atlas_definition": {
+        "dtype": "<U2325",
+        "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6",
+        "shape": []
+      },
+      "angular_embedding_definition": {
+        "dtype": "<U1482",
+        "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f",
+        "shape": []
+      },
+      "atlas_mesh_definition": {
+        "dtype": "<U5071",
+        "sha256": "704e7499a1c15d9e3796462475f48ea2cec8ccdf44483bcac3f7d2ef39657cdc",
+        "shape": []
+      },
+      "base_kind": {
+        "dtype": "<U13",
+        "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032",
+        "shape": []
+      },
+      "blend": {
+        "dtype": "<f8",
+        "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239",
+        "shape": [
+          2
+        ]
+      },
+      "candidate_sha256": {
+        "dtype": "<U64",
+        "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4",
+        "shape": []
+      },
+      "central_field_definition": {
+        "dtype": "<U275",
+        "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9",
+        "shape": []
+      },
+      "central_parameter_count": {
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+        "shape": []
+      },
+      "coast_reference_definition": {
+        "dtype": "<U929",
+        "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50",
+        "shape": []
+      },
+      "finite_interior_rows_definition": {
+        "dtype": "<U663",
+        "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e",
+        "shape": []
+      },
+      "finite_radial_scheme": {
+        "dtype": "<U133",
+        "sha256": "e66639134025bc4c4e4481d79e8cf08c4baae3d7139e0ebc9157e591fb612688",
+        "shape": []
+      },
+      "fixed_base_T": {
+        "dtype": "<f8",
+        "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454",
+        "shape": []
+      },
+      "gauss_l_definition": {
+        "dtype": "<U1481",
+        "sha256": "7da2c5ab39ea79462b76cc8bae47f4cd2f04e0b88a014ad728b02a5e503688cf",
+        "shape": []
+      },
+      "inactive_l_raw_nodes": {
+        "dtype": "<i8",
+        "sha256": "7e02a3b7464e44881ffeb3332f6347ab791126109c1e532c95e766ee8807236f",
+        "shape": [
+          7
+        ]
+      },
+      "inactive_raw_trace_nodes": {
+        "dtype": "<i8",
+        "sha256": "fed3a90ad9bd7df3817ca07b804167687e6ba51d40e8d13eddfb5c54af8a1b2d",
+        "shape": [
+          4
+        ]
+      },
+      "mesh": {
+        "dtype": "<f8",
+        "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785",
+        "shape": [
+          129
+        ]
+      },
+      "modes": {
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+        "shape": []
+      },
+      "nested_angular_definition": {
+        "dtype": "<U650",
+        "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a",
+        "shape": []
+      },
+      "parent_finite_interior_rows_definition": {
+        "dtype": "<U426",
+        "sha256": "70831ffb39f59cef143552419a883e438949212e5ed79bb7f0a8d709f11715c0",
+        "shape": []
+      },
+      "positive_trace_definition": {
+        "dtype": "<U1389",
+        "sha256": "6fa7e6feda186c58f4556193256088dc86436d6a2d5d917e84623c2a05a66a22",
+        "shape": []
+      },
+      "profile_count": {
+        "dtype": "<i8",
+        "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534",
+        "shape": []
+      },
+      "profile_kind": {
+        "dtype": "<U14",
+        "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767",
+        "shape": []
+      },
+      "profile_supports": {
+        "dtype": "<f8",
+        "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d",
+        "shape": [
+          7,
+          2
+        ]
+      },
+      "radial_mesh_rebind_definition": {
+        "dtype": "<U25329",
+        "sha256": "ed3c328beb20c0ac57b68271c1324255c0fb31347299c8d3971f45d8e60695bc",
+        "shape": []
+      },
+      "radial_refinement_definition": {
+        "dtype": "<U26367",
+        "sha256": "0cd966ba5a0e2663a310b55bc03a85a48c245c9323682faa20f1f80df493c1ff",
+        "shape": []
+      },
+      "reference_evaluation_definition": {
+        "dtype": "<U904",
+        "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94",
+        "shape": []
+      },
+      "representation_kind": {
+        "dtype": "<U71",
+        "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d",
+        "shape": []
+      },
+      "search_domain_restore_definition": {
+        "dtype": "<U1390",
+        "sha256": "ef6bd3fb1643722e609d024ce9e61469b22da2d083d14a71a872f26b7dfaa38d",
+        "shape": []
+      },
+      "seed_weight_definition": {
+        "dtype": "<U66",
+        "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d",
+        "shape": []
+      },
+      "tail_kind": {
+        "dtype": "<U18",
+        "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1",
+        "shape": []
+      },
+      "tail_parameter_count": {
+        "dtype": "<i8",
+        "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d",
+        "shape": []
+      },
+      "targeted_mesh_definition": {
+        "dtype": "<U12785",
+        "sha256": "51df660a28ee4448608f1ef7c2a09e59067885e24fecefb58dccd0a7cbf6d6e5",
+        "shape": []
+      },
+      "trace_gauge_pairs": {
+        "dtype": "<i8",
+        "sha256": "e83f5f5c30562a4f2503407ca3d4546c5e57ba035a7d00115146f67fe748a290",
+        "shape": [
+          128,
+          2
+        ]
+      }
+    },
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+    "damping_and_search_floor_not_part_of_normal_identity": true,
+    "finite_rule": "Original R152 split G8 affine coast lifting + original R153/R155 complete nonlinear G2; original actual n/m endpoint differences",
+    "implementation_sources": {
+      "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+      "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+      "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+      "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+      "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+      "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+      "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+      "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+      "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+      "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+      "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+      "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+      "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+      "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+      "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+      "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+      "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+      "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+      "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+      "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+      "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+      "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+      "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+      "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+      "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+      "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+      "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+      "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+      "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+      "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+      "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+      "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+      "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+      "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+      "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+      "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+      "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+      "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+      "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+      "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+      "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+      "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+      "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+      "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+      "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+      "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+      "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+      "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+      "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+    },
+    "input_npz_bytes": 126906,
+    "input_npz_sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82",
+    "mathematical_settings": {
+      "curvature_cap": 7.2,
+      "curvature_weight": 1.0,
+      "gap": 0.9,
+      "high_codazzi_weight": 1.0,
+      "high_gauss_weight": 1.0,
+      "interior_cells": [
+        63,
+        64,
+        73,
+        74,
+        121,
+        122
+      ],
+      "interior_gauss_weight": 1.0,
+      "minimum_active_n": 0.05,
+      "modes": 31,
+      "radius_floor": 0.1,
+      "reference_rim_fraction": 0.12
+    },
+    "packed_vector": {
+      "dtype": "<f8",
+      "sha256": "75e4cb588bb0579dcc743035ad9658da7dc12b6c2e2c3126593c39954dffbed6",
+      "shape": [
+        12309
+      ]
+    },
+    "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+    "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+    "schema": "fd2d-same-state-finite-value-and-normal-binding-v1"
+  },
+  "binding_sha256": "3ea27f44963770d10948dca7919afaccab943feba1d2808c1d419c02f6f27644",
+  "arrays": [
+    {
+      "shape": [
+        12309
+      ],
+      "dtype": "<f8",
+      "bytes": 98472,
+      "sha256": "75e4cb588bb0579dcc743035ad9658da7dc12b6c2e2c3126593c39954dffbed6",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000000_at_000000000",
+          "start": 0,
+          "count": 12309
+        }
+      ]
+    },
+    {
+      "shape": [
+        50355
+      ],
+      "dtype": "<f8",
+      "bytes": 402840,
+      "sha256": "c8656c317b0caa5027dfacded07f6f28cc70313440efdcd9df49008c08ecd187",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000001_at_000000000",
+          "start": 0,
+          "count": 50355
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        129,
+        3
+      ],
+      "dtype": "<f8",
+      "bytes": 1585152,
+      "sha256": "0960b8bd82ead407cad14c0f6db67e4b9fcfc6c7ad9487718512baaf4e10b3df",
+      "parts": [
+        {
+          "file": "part-0001.npz",
+          "key": "array_000002_at_000000000",
+          "start": 0,
+          "count": 89600
+        },
+        {
+          "file": "part-0002.npz",
+          "key": "array_000002_at_000089600",
+          "start": 89600,
+          "count": 89600
+        },
+        {
+          "file": "part-0003.npz",
+          "key": "array_000002_at_000179200",
+          "start": 179200,
+          "count": 18944
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 528384,
+      "sha256": "54454818b51c0300e19cdd0165c68295ddcefee1c761d856c6edffdceb7895b4",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000003_at_000000000",
+          "start": 0,
+          "count": 66048
+        }
+      ]
+    },
+    {
+      "shape": [
+        114,
+        32
+      ],
+      "dtype": "<f8",
+      "bytes": 29184,
+      "sha256": "31d2474b2f8a8ad17929b0b72e0a98d92d7506bf80d1ffaceffaa0e6cc08626b",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000004_at_000000000",
+          "start": 0,
+          "count": 3648
+        }
+      ]
+    },
+    {
+      "shape": [],
+      "dtype": "<f16",
+      "bytes": 16,
+      "sha256": "aabd3865cf8e36795f0680797b2e77a66dc65373494b3a32b9a4ba477fc98fd3",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000005_at_000000000",
+          "start": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "shape": [],
+      "dtype": "<f16",
+      "bytes": 16,
+      "sha256": "e4dedc3649338537c84f33031a3025fc8f66be8f624d9dffe0cc21cf4c596acc",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000006_at_000000000",
+          "start": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "shape": [],
+      "dtype": "<f16",
+      "bytes": 16,
+      "sha256": "d12542941099184bd6c80c875cc94295e34aa612576921ae11fec11a242699d1",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000007_at_000000000",
+          "start": 0,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "shape": [
+        31
+      ],
+      "dtype": "<f16",
+      "bytes": 496,
+      "sha256": "4bf697e43a743be4f2ce717e63d28c42a93b964f39fb9d23b5c78501ebda36b1",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000008_at_000000000",
+          "start": 0,
+          "count": 31
+        }
+      ]
+    },
+    {
+      "shape": [
+        31
+      ],
+      "dtype": "<f16",
+      "bytes": 496,
+      "sha256": "3b0667d33b46a6e643164949cab26643eaf4f7892c23a157b2b84ed6c4ca30a6",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000009_at_000000000",
+          "start": 0,
+          "count": 31
+        }
+      ]
+    },
+    {
+      "shape": [
+        31
+      ],
+      "dtype": "<f16",
+      "bytes": 496,
+      "sha256": "06350ab3b1c30fa1a6a62ac14acc7b17cada96605b66757efbb9d7ac5b9dc60e",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000010_at_000000000",
+          "start": 0,
+          "count": 31
+        }
+      ]
+    },
+    {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "bytes": 432,
+      "sha256": "72035f45309f83ab494af8c53a18f4d3af46e28cc3e1acb3e9163e7d52e91563",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000011_at_000000000",
+          "start": 0,
+          "count": 54
+        }
+      ]
+    },
+    {
+      "shape": [
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 56,
+      "sha256": "114dd4b09547fe3ad2e10d9103742deef214e4f51074fcb248577af9a8cde1be",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000012_at_000000000",
+          "start": 0,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "f6ccbb7105ee63cd0a82867fb094edc6eb363d86cc141245e322054f7a1e0949",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000013_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "c9a51527ea491789202610589428b85160f534686ac153bcabec385fe4a742ca",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000014_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "26d002412ff10fc86577d1351b8c0fd9d4d5eb92c89e2e0a482178364c5ccfe9",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000015_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "4b45e0330c905798c0c2ba57e498006ac7756e62d672af585b98704631869eaf",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000016_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "1aab326b9da9d0033b612fcff385cb883fb5021415adb4c6772c19dc5f503d6b",
+      "parts": [
+        {
+          "file": "part-0003.npz",
+          "key": "array_000017_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "63ad7aad858842be8e8a41dfd63d0c5da29e74211c600dc3a48b34b71cc97c1a",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000018_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "9c7966a866b02b1ffe5212c42bd1d43023936e8a0ca9754e511c07434836f4c2",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000019_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "b2a0137200c1853cc43e4bb431f1093754245f7062e1374e29f9061185e7de70",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000020_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "5e3b1d1c2aa280b32a92c2a393c80d096c4fb63339133fffe67c4419620751b9",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000021_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "39191ed9e27dc4eb68d8a97d6e0e6b77d1274487d2f9450808a29ac63fbe66a2",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000022_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "dc49087ea1a5c57c7bdd2bdcfe74f904d440a9eaff4fd165b9d043947659bbf2",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000023_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000024_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "b3c59d87a8b284479477b9198c579b270cfc7397ca0c25ae6f8527ece1891544",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000025_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "bytes": 1032,
+      "sha256": "dfc06bd397987edc3d629dce17ea4f16f3a8d9cf39ae9c2ffe94c40e50e97ccc",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000026_at_000000000",
+          "start": 0,
+          "count": 129
+        }
+      ]
+    },
+    {
+      "shape": [
+        129,
+        7
+      ],
+      "dtype": "<f8",
+      "bytes": 7224,
+      "sha256": "b3c59d87a8b284479477b9198c579b270cfc7397ca0c25ae6f8527ece1891544",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000027_at_000000000",
+          "start": 0,
+          "count": 903
+        }
+      ]
+    },
+    {
+      "shape": [
+        12255
+      ],
+      "dtype": "<f8",
+      "bytes": 98040,
+      "sha256": "f3b34736fc991cde2809b266c3ba9f19a41c6712506baaf45f629018b58c0b8f",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000028_at_000000000",
+          "start": 0,
+          "count": 12255
+        }
+      ]
+    },
+    {
+      "shape": [
+        128,
+        63
+      ],
+      "dtype": "<f8",
+      "bytes": 64512,
+      "sha256": "0b5e69df309824754a688fe21e422def11996edd1599b658ed8a3fcb992ea641",
+      "parts": [
+        {
+          "file": "part-0004.npz",
+          "key": "array_000029_at_000000000",
+          "start": 0,
+          "count": 8064
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        128,
+        2
+      ],
+      "dtype": "<f8",
+      "bytes": 1048576,
+      "sha256": "19c58833a26783cda4f1d36505c166fbf1b97fa518664c4d5d1a04765105ce01",
+      "parts": [
+        {
+          "file": "part-0005.npz",
+          "key": "array_000030_at_000000000",
+          "start": 0,
+          "count": 89600
+        },
+        {
+          "file": "part-0006.npz",
+          "key": "array_000030_at_000089600",
+          "start": 89600,
+          "count": 41472
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "part-0000.npz",
+      "bytes": 441246,
+      "sha256": "a5ec5e535b307e934e53264f4a0145b9cdf748fadab95d0fae9b0cb5b66c7a8c"
+    },
+    {
+      "name": "part-0001.npz",
+      "bytes": 634785,
+      "sha256": "cf8dbdabb7b7ad637dfb287c4d322d0e9cda9ba99e0d37590571cd619a34a2ee"
+    },
+    {
+      "name": "part-0002.npz",
+      "bytes": 628487,
+      "sha256": "8262b0b2f15223888ec3c5825f71598a3c79cab0f3adb4886f760f6a8a8fd1c9"
+    },
+    {
+      "name": "part-0003.npz",
+      "bytes": 574120,
+      "sha256": "a27dfd6cbcb47622d134c4b34db17ce73fe5a6114ef92081d71cc6179e5450d4"
+    },
+    {
+      "name": "part-0004.npz",
+      "bytes": 162550,
+      "sha256": "65d76f420023f4983ee9adeb2153ff4bb7a0ae975261f879116d339393cf6eab"
+    },
+    {
+      "name": "part-0005.npz",
+      "bytes": 643821,
+      "sha256": "c2c27eb062d5c9a8ca39b0e785a60ac2ef29deb5230739b51bd2a9ced445e7ea"
+    },
+    {
+      "name": "part-0006.npz",
+      "bytes": 298043,
+      "sha256": "2ab0fc7e16ff4d53ecd43194a07bb202eac93f664eeb1a34e75a3487c85d3903"
+    }
+  ],
+  "tree": {
+    "kind": "dict",
+    "items": [
+      [
+        {
+          "kind": "native",
+          "value": "vector"
+        },
+        {
+          "kind": "array",
+          "index": 0
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "residual"
+        },
+        {
+          "kind": "array",
+          "index": 1
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "data"
+        },
+        {
+          "kind": "dict",
+          "items": [
+            [
+              {
+                "kind": "native",
+                "value": "fields"
+              },
+              {
+                "kind": "array",
+                "index": 2
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "full_gauss"
+              },
+              {
+                "kind": "array",
+                "index": 3
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "projected_gauss"
+              },
+              {
+                "kind": "array",
+                "index": 4
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "axes"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "A"
+                    },
+                    {
+                      "kind": "numpy_scalar",
+                      "index": 5
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "B"
+                    },
+                    {
+                      "kind": "numpy_scalar",
+                      "index": 6
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "gap"
+                    },
+                    {
+                      "kind": "numpy_scalar",
+                      "index": 7
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "A_jacobian"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 8
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "B_jacobian"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 9
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "gap_jacobian"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 10
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "interpretation"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "axis intercepts; they equal axis supports if the actual curve is convex"
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "parameters"
+              },
+              {
+                "kind": "array",
+                "index": 11
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "physical_profile_parameters"
+              },
+              {
+                "kind": "array",
+                "index": 12
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "profile_jet"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 13
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a_s"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 14
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a_ss"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 15
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "c"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 16
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "K"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 17
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 18
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a_s_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 19
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "a_ss_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 20
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "c_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 21
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "K_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 22
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "inverse_a_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 23
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "s"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 24
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "s_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 25
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "radial_scale"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 26
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "radial_scale_parameters"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 27
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "gauss_l_delta"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_minimum_active_n"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.3425147542745431
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "positive_trace_delta"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "minimum_active_h"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.1324114284481968
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "affine_node_gauss_rows_removed"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "native",
+                    "value": 65
+                  },
+                  {
+                    "kind": "native",
+                    "value": 66
+                  },
+                  {
+                    "kind": "native",
+                    "value": 67
+                  },
+                  {
+                    "kind": "native",
+                    "value": 68
+                  },
+                  {
+                    "kind": "native",
+                    "value": 69
+                  },
+                  {
+                    "kind": "native",
+                    "value": 70
+                  },
+                  {
+                    "kind": "native",
+                    "value": 71
+                  },
+                  {
+                    "kind": "native",
+                    "value": 72
+                  },
+                  {
+                    "kind": "native",
+                    "value": 73
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "removed_actual_positive_trace_gauss_nodes"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "native",
+                    "value": 123
+                  },
+                  {
+                    "kind": "native",
+                    "value": 124
+                  },
+                  {
+                    "kind": "native",
+                    "value": 125
+                  },
+                  {
+                    "kind": "native",
+                    "value": 126
+                  },
+                  {
+                    "kind": "native",
+                    "value": 127
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "value_only_node_assembly"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "one_radial_packet_at_a_time"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "whole_parameter_packet_retained"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "full_field_definition_unchanged"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_rows_unchanged"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "legacy_trapezoid_diagnostic_not_assembled"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "previous_node_cell_residual_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 0.6477790815996668
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "interior_actual_constraints"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "schema"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "fd2d-actual-selected-interior-Gauss-curvature-v1"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "selected_cells"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 63
+                        },
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 73
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 121
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "points"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.5961592272463956
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6075224474037754
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6158409018965681
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6272041220539479
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8323393230484666
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8437025432058464
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8520209976986391
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8633842178560189
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4701599841706956
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4720363725455619
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4734099841706956
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4752863725455618
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sample_cell_indices"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 63
+                        },
+                        {
+                          "kind": "native",
+                          "value": 63
+                        },
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 73
+                        },
+                        {
+                          "kind": "native",
+                          "value": 73
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 121
+                        },
+                        {
+                          "kind": "native",
+                          "value": 121
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "fractions"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "quadrature_mean_weights"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "row_weight"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "sqrt(Gauss average weight) times specified guidance weight"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "physical_field_unchanged"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "physical_g_unchanged_by_extra_rows"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "unknown_mesh_unchanged"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_Gauss_equations_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "complete_actual_Gauss"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "full_parameter_chain_rule"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "full_Gauss_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2.109997713562084
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "high_Gauss_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.04593617562647401
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "retained_residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1.3424442303630018
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "high_residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.014440972730247604
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "curvature_residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.08427836359008221
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "curvature"
+                    },
+                    {
+                      "kind": "dict",
+                      "items": [
+                        [
+                          {
+                            "kind": "native",
+                            "value": "cap"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 7.2
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "weight"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 1.0
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "active_rows"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 16
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "repeated_eigenvalue_rows"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 0
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "residual_l2"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 0.11918760480370509
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "sampled_formal_curvature_maximum"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 7.259572690339913
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "actual_field"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "R153 coast plus R155 terminal n/l positive trace"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "complete_chain_derivative"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "actual_geometry_certified"
+                          },
+                          {
+                            "kind": "native",
+                            "value": false
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "maximum_location"
+                    },
+                    {
+                      "kind": "dict",
+                      "items": [
+                        [
+                          {
+                            "kind": "native",
+                            "value": "cell"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 64
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "s"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 0.6158409018965681
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "xi"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 4.331961744989051
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "material_u"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 3.632389276471935
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "G"
+                          },
+                          {
+                            "kind": "native",
+                            "value": -2.109997713562084
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "n_m_l"
+                          },
+                          {
+                            "kind": "list",
+                            "items": [
+                              {
+                                "kind": "native",
+                                "value": 1.2161700460021203
+                              },
+                              {
+                                "kind": "native",
+                                "value": -0.7117756973943375
+                              },
+                              {
+                                "kind": "native",
+                                "value": -0.8408629114372816
+                              }
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "K"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 0.5807407844767325
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "continuous_certificate"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "original_residual"
+              },
+              {
+                "kind": "array",
+                "index": 28
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "codazzi_cells"
+              },
+              {
+                "kind": "array",
+                "index": 29
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "curvature_merit"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "cap"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 7.2
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "weight"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1.0
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "active_rows"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1158
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "repeated_eigenvalue_rows"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.06091968043501224
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_formal_curvature_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 7.2138910505657545
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "actual_field"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "R153 coast plus R155 terminal n/l positive trace"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "complete_chain_derivative"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "actual_geometry_certified"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "high_gauss_merit"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "weight"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1.0
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "rows"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 11058
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "retained_radial_node_indices"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1
+                        },
+                        {
+                          "kind": "native",
+                          "value": 2
+                        },
+                        {
+                          "kind": "native",
+                          "value": 3
+                        },
+                        {
+                          "kind": "native",
+                          "value": 4
+                        },
+                        {
+                          "kind": "native",
+                          "value": 5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 6
+                        },
+                        {
+                          "kind": "native",
+                          "value": 7
+                        },
+                        {
+                          "kind": "native",
+                          "value": 8
+                        },
+                        {
+                          "kind": "native",
+                          "value": 9
+                        },
+                        {
+                          "kind": "native",
+                          "value": 10
+                        },
+                        {
+                          "kind": "native",
+                          "value": 11
+                        },
+                        {
+                          "kind": "native",
+                          "value": 12
+                        },
+                        {
+                          "kind": "native",
+                          "value": 13
+                        },
+                        {
+                          "kind": "native",
+                          "value": 14
+                        },
+                        {
+                          "kind": "native",
+                          "value": 15
+                        },
+                        {
+                          "kind": "native",
+                          "value": 16
+                        },
+                        {
+                          "kind": "native",
+                          "value": 17
+                        },
+                        {
+                          "kind": "native",
+                          "value": 18
+                        },
+                        {
+                          "kind": "native",
+                          "value": 19
+                        },
+                        {
+                          "kind": "native",
+                          "value": 20
+                        },
+                        {
+                          "kind": "native",
+                          "value": 21
+                        },
+                        {
+                          "kind": "native",
+                          "value": 22
+                        },
+                        {
+                          "kind": "native",
+                          "value": 23
+                        },
+                        {
+                          "kind": "native",
+                          "value": 24
+                        },
+                        {
+                          "kind": "native",
+                          "value": 25
+                        },
+                        {
+                          "kind": "native",
+                          "value": 26
+                        },
+                        {
+                          "kind": "native",
+                          "value": 27
+                        },
+                        {
+                          "kind": "native",
+                          "value": 28
+                        },
+                        {
+                          "kind": "native",
+                          "value": 29
+                        },
+                        {
+                          "kind": "native",
+                          "value": 30
+                        },
+                        {
+                          "kind": "native",
+                          "value": 31
+                        },
+                        {
+                          "kind": "native",
+                          "value": 32
+                        },
+                        {
+                          "kind": "native",
+                          "value": 33
+                        },
+                        {
+                          "kind": "native",
+                          "value": 34
+                        },
+                        {
+                          "kind": "native",
+                          "value": 35
+                        },
+                        {
+                          "kind": "native",
+                          "value": 36
+                        },
+                        {
+                          "kind": "native",
+                          "value": 37
+                        },
+                        {
+                          "kind": "native",
+                          "value": 38
+                        },
+                        {
+                          "kind": "native",
+                          "value": 39
+                        },
+                        {
+                          "kind": "native",
+                          "value": 40
+                        },
+                        {
+                          "kind": "native",
+                          "value": 41
+                        },
+                        {
+                          "kind": "native",
+                          "value": 42
+                        },
+                        {
+                          "kind": "native",
+                          "value": 43
+                        },
+                        {
+                          "kind": "native",
+                          "value": 44
+                        },
+                        {
+                          "kind": "native",
+                          "value": 45
+                        },
+                        {
+                          "kind": "native",
+                          "value": 46
+                        },
+                        {
+                          "kind": "native",
+                          "value": 47
+                        },
+                        {
+                          "kind": "native",
+                          "value": 48
+                        },
+                        {
+                          "kind": "native",
+                          "value": 49
+                        },
+                        {
+                          "kind": "native",
+                          "value": 50
+                        },
+                        {
+                          "kind": "native",
+                          "value": 51
+                        },
+                        {
+                          "kind": "native",
+                          "value": 52
+                        },
+                        {
+                          "kind": "native",
+                          "value": 53
+                        },
+                        {
+                          "kind": "native",
+                          "value": 54
+                        },
+                        {
+                          "kind": "native",
+                          "value": 55
+                        },
+                        {
+                          "kind": "native",
+                          "value": 56
+                        },
+                        {
+                          "kind": "native",
+                          "value": 57
+                        },
+                        {
+                          "kind": "native",
+                          "value": 58
+                        },
+                        {
+                          "kind": "native",
+                          "value": 59
+                        },
+                        {
+                          "kind": "native",
+                          "value": 60
+                        },
+                        {
+                          "kind": "native",
+                          "value": 61
+                        },
+                        {
+                          "kind": "native",
+                          "value": 62
+                        },
+                        {
+                          "kind": "native",
+                          "value": 63
+                        },
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 75
+                        },
+                        {
+                          "kind": "native",
+                          "value": 76
+                        },
+                        {
+                          "kind": "native",
+                          "value": 77
+                        },
+                        {
+                          "kind": "native",
+                          "value": 78
+                        },
+                        {
+                          "kind": "native",
+                          "value": 79
+                        },
+                        {
+                          "kind": "native",
+                          "value": 80
+                        },
+                        {
+                          "kind": "native",
+                          "value": 81
+                        },
+                        {
+                          "kind": "native",
+                          "value": 82
+                        },
+                        {
+                          "kind": "native",
+                          "value": 83
+                        },
+                        {
+                          "kind": "native",
+                          "value": 84
+                        },
+                        {
+                          "kind": "native",
+                          "value": 85
+                        },
+                        {
+                          "kind": "native",
+                          "value": 86
+                        },
+                        {
+                          "kind": "native",
+                          "value": 87
+                        },
+                        {
+                          "kind": "native",
+                          "value": 88
+                        },
+                        {
+                          "kind": "native",
+                          "value": 89
+                        },
+                        {
+                          "kind": "native",
+                          "value": 90
+                        },
+                        {
+                          "kind": "native",
+                          "value": 91
+                        },
+                        {
+                          "kind": "native",
+                          "value": 92
+                        },
+                        {
+                          "kind": "native",
+                          "value": 93
+                        },
+                        {
+                          "kind": "native",
+                          "value": 94
+                        },
+                        {
+                          "kind": "native",
+                          "value": 95
+                        },
+                        {
+                          "kind": "native",
+                          "value": 96
+                        },
+                        {
+                          "kind": "native",
+                          "value": 97
+                        },
+                        {
+                          "kind": "native",
+                          "value": 98
+                        },
+                        {
+                          "kind": "native",
+                          "value": 99
+                        },
+                        {
+                          "kind": "native",
+                          "value": 100
+                        },
+                        {
+                          "kind": "native",
+                          "value": 101
+                        },
+                        {
+                          "kind": "native",
+                          "value": 102
+                        },
+                        {
+                          "kind": "native",
+                          "value": 103
+                        },
+                        {
+                          "kind": "native",
+                          "value": 104
+                        },
+                        {
+                          "kind": "native",
+                          "value": 105
+                        },
+                        {
+                          "kind": "native",
+                          "value": 106
+                        },
+                        {
+                          "kind": "native",
+                          "value": 107
+                        },
+                        {
+                          "kind": "native",
+                          "value": 108
+                        },
+                        {
+                          "kind": "native",
+                          "value": 109
+                        },
+                        {
+                          "kind": "native",
+                          "value": 110
+                        },
+                        {
+                          "kind": "native",
+                          "value": 111
+                        },
+                        {
+                          "kind": "native",
+                          "value": 112
+                        },
+                        {
+                          "kind": "native",
+                          "value": 113
+                        },
+                        {
+                          "kind": "native",
+                          "value": 114
+                        },
+                        {
+                          "kind": "native",
+                          "value": 115
+                        },
+                        {
+                          "kind": "native",
+                          "value": 116
+                        },
+                        {
+                          "kind": "native",
+                          "value": 117
+                        },
+                        {
+                          "kind": "native",
+                          "value": 118
+                        },
+                        {
+                          "kind": "native",
+                          "value": 119
+                        },
+                        {
+                          "kind": "native",
+                          "value": 120
+                        },
+                        {
+                          "kind": "native",
+                          "value": 121
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "exact_zero_plateau_nodes_removed"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 65
+                        },
+                        {
+                          "kind": "native",
+                          "value": 66
+                        },
+                        {
+                          "kind": "native",
+                          "value": 67
+                        },
+                        {
+                          "kind": "native",
+                          "value": 68
+                        },
+                        {
+                          "kind": "native",
+                          "value": 69
+                        },
+                        {
+                          "kind": "native",
+                          "value": 70
+                        },
+                        {
+                          "kind": "native",
+                          "value": 71
+                        },
+                        {
+                          "kind": "native",
+                          "value": 72
+                        },
+                        {
+                          "kind": "native",
+                          "value": 73
+                        },
+                        {
+                          "kind": "native",
+                          "value": 123
+                        },
+                        {
+                          "kind": "native",
+                          "value": 124
+                        },
+                        {
+                          "kind": "native",
+                          "value": 125
+                        },
+                        {
+                          "kind": "native",
+                          "value": 126
+                        },
+                        {
+                          "kind": "native",
+                          "value": 127
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_full_gauss_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1.7152215043339183
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_omitted_gauss_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.026880414223968918
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.02359994672137039
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "actual_field"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Complete R153 plus R155 actual Gauss, not scaled old G"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "normalization"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "D2 isometric Fourier rows, same complete nonzero high-Gauss objective"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "continuous_certificate"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "high_codazzi_merit"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "schema"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "fd2d-R153-nonlinear-G2-plus-R152-known-coast-cells-v1"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "order"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "quadrature_fraction_nodes"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.21132486540518713
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7886751345948129
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "quadrature_average_weights"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "physical_g_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "unknown_mesh_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "original_trapezoid_rows_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "original_whole_correction_RHS_Gauss_rows_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_lifting_derivative_integral"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Exact full endpoint function difference divided by actual cell width"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_equations_changed_by_exact_lifting_integration"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "node_Gauss_boundary_gap_rows_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "parameter_columns"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "analytic full tail and physical-profile lifting/operator derivatives"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "retained_cell_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.4914049798948409
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_full_average_codazzi_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 1.1267285907712743
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_omitted_average_codazzi_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.7063658659287105
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_interior_Gauss_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2.109997713562084
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "normalization"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "row_definition"
+                    },
+                    {
+                      "kind": "dict",
+                      "items": [
+                        [
+                          {
+                            "kind": "native",
+                            "value": "schema"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "fd2d-D2-high-angular-isometric-rows-v1"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "work"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 512
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "retained_maximum_frequency"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 62
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "even_frequencies"
+                          },
+                          {
+                            "kind": "list",
+                            "items": [
+                              {
+                                "kind": "native",
+                                "value": 64
+                              },
+                              {
+                                "kind": "native",
+                                "value": 66
+                              },
+                              {
+                                "kind": "native",
+                                "value": 68
+                              },
+                              {
+                                "kind": "native",
+                                "value": 70
+                              },
+                              {
+                                "kind": "native",
+                                "value": 72
+                              },
+                              {
+                                "kind": "native",
+                                "value": 74
+                              },
+                              {
+                                "kind": "native",
+                                "value": 76
+                              },
+                              {
+                                "kind": "native",
+                                "value": 78
+                              },
+                              {
+                                "kind": "native",
+                                "value": 80
+                              },
+                              {
+                                "kind": "native",
+                                "value": 82
+                              },
+                              {
+                                "kind": "native",
+                                "value": 84
+                              },
+                              {
+                                "kind": "native",
+                                "value": 86
+                              },
+                              {
+                                "kind": "native",
+                                "value": 88
+                              },
+                              {
+                                "kind": "native",
+                                "value": 90
+                              },
+                              {
+                                "kind": "native",
+                                "value": 92
+                              },
+                              {
+                                "kind": "native",
+                                "value": 94
+                              },
+                              {
+                                "kind": "native",
+                                "value": 96
+                              },
+                              {
+                                "kind": "native",
+                                "value": 98
+                              },
+                              {
+                                "kind": "native",
+                                "value": 100
+                              },
+                              {
+                                "kind": "native",
+                                "value": 102
+                              },
+                              {
+                                "kind": "native",
+                                "value": 104
+                              },
+                              {
+                                "kind": "native",
+                                "value": 106
+                              },
+                              {
+                                "kind": "native",
+                                "value": 108
+                              },
+                              {
+                                "kind": "native",
+                                "value": 110
+                              },
+                              {
+                                "kind": "native",
+                                "value": 112
+                              },
+                              {
+                                "kind": "native",
+                                "value": 114
+                              },
+                              {
+                                "kind": "native",
+                                "value": 116
+                              },
+                              {
+                                "kind": "native",
+                                "value": 118
+                              },
+                              {
+                                "kind": "native",
+                                "value": 120
+                              },
+                              {
+                                "kind": "native",
+                                "value": 122
+                              },
+                              {
+                                "kind": "native",
+                                "value": 124
+                              },
+                              {
+                                "kind": "native",
+                                "value": 126
+                              },
+                              {
+                                "kind": "native",
+                                "value": 128
+                              },
+                              {
+                                "kind": "native",
+                                "value": 130
+                              },
+                              {
+                                "kind": "native",
+                                "value": 132
+                              },
+                              {
+                                "kind": "native",
+                                "value": 134
+                              },
+                              {
+                                "kind": "native",
+                                "value": 136
+                              },
+                              {
+                                "kind": "native",
+                                "value": 138
+                              },
+                              {
+                                "kind": "native",
+                                "value": 140
+                              },
+                              {
+                                "kind": "native",
+                                "value": 142
+                              },
+                              {
+                                "kind": "native",
+                                "value": 144
+                              },
+                              {
+                                "kind": "native",
+                                "value": 146
+                              },
+                              {
+                                "kind": "native",
+                                "value": 148
+                              },
+                              {
+                                "kind": "native",
+                                "value": 150
+                              },
+                              {
+                                "kind": "native",
+                                "value": 152
+                              },
+                              {
+                                "kind": "native",
+                                "value": 154
+                              },
+                              {
+                                "kind": "native",
+                                "value": 156
+                              },
+                              {
+                                "kind": "native",
+                                "value": 158
+                              },
+                              {
+                                "kind": "native",
+                                "value": 160
+                              },
+                              {
+                                "kind": "native",
+                                "value": 162
+                              },
+                              {
+                                "kind": "native",
+                                "value": 164
+                              },
+                              {
+                                "kind": "native",
+                                "value": 166
+                              },
+                              {
+                                "kind": "native",
+                                "value": 168
+                              },
+                              {
+                                "kind": "native",
+                                "value": 170
+                              },
+                              {
+                                "kind": "native",
+                                "value": 172
+                              },
+                              {
+                                "kind": "native",
+                                "value": 174
+                              },
+                              {
+                                "kind": "native",
+                                "value": 176
+                              },
+                              {
+                                "kind": "native",
+                                "value": 178
+                              },
+                              {
+                                "kind": "native",
+                                "value": 180
+                              },
+                              {
+                                "kind": "native",
+                                "value": 182
+                              },
+                              {
+                                "kind": "native",
+                                "value": 184
+                              },
+                              {
+                                "kind": "native",
+                                "value": 186
+                              },
+                              {
+                                "kind": "native",
+                                "value": 188
+                              },
+                              {
+                                "kind": "native",
+                                "value": 190
+                              },
+                              {
+                                "kind": "native",
+                                "value": 192
+                              },
+                              {
+                                "kind": "native",
+                                "value": 194
+                              },
+                              {
+                                "kind": "native",
+                                "value": 196
+                              },
+                              {
+                                "kind": "native",
+                                "value": 198
+                              },
+                              {
+                                "kind": "native",
+                                "value": 200
+                              },
+                              {
+                                "kind": "native",
+                                "value": 202
+                              },
+                              {
+                                "kind": "native",
+                                "value": 204
+                              },
+                              {
+                                "kind": "native",
+                                "value": 206
+                              },
+                              {
+                                "kind": "native",
+                                "value": 208
+                              },
+                              {
+                                "kind": "native",
+                                "value": 210
+                              },
+                              {
+                                "kind": "native",
+                                "value": 212
+                              },
+                              {
+                                "kind": "native",
+                                "value": 214
+                              },
+                              {
+                                "kind": "native",
+                                "value": 216
+                              },
+                              {
+                                "kind": "native",
+                                "value": 218
+                              },
+                              {
+                                "kind": "native",
+                                "value": 220
+                              },
+                              {
+                                "kind": "native",
+                                "value": 222
+                              },
+                              {
+                                "kind": "native",
+                                "value": 224
+                              },
+                              {
+                                "kind": "native",
+                                "value": 226
+                              },
+                              {
+                                "kind": "native",
+                                "value": 228
+                              },
+                              {
+                                "kind": "native",
+                                "value": 230
+                              },
+                              {
+                                "kind": "native",
+                                "value": 232
+                              },
+                              {
+                                "kind": "native",
+                                "value": 234
+                              },
+                              {
+                                "kind": "native",
+                                "value": 236
+                              },
+                              {
+                                "kind": "native",
+                                "value": 238
+                              },
+                              {
+                                "kind": "native",
+                                "value": 240
+                              },
+                              {
+                                "kind": "native",
+                                "value": 242
+                              },
+                              {
+                                "kind": "native",
+                                "value": 244
+                              },
+                              {
+                                "kind": "native",
+                                "value": 246
+                              },
+                              {
+                                "kind": "native",
+                                "value": 248
+                              },
+                              {
+                                "kind": "native",
+                                "value": 250
+                              },
+                              {
+                                "kind": "native",
+                                "value": 252
+                              },
+                              {
+                                "kind": "native",
+                                "value": 254
+                              },
+                              {
+                                "kind": "native",
+                                "value": 256
+                              }
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "odd_frequencies"
+                          },
+                          {
+                            "kind": "list",
+                            "items": [
+                              {
+                                "kind": "native",
+                                "value": 64
+                              },
+                              {
+                                "kind": "native",
+                                "value": 66
+                              },
+                              {
+                                "kind": "native",
+                                "value": 68
+                              },
+                              {
+                                "kind": "native",
+                                "value": 70
+                              },
+                              {
+                                "kind": "native",
+                                "value": 72
+                              },
+                              {
+                                "kind": "native",
+                                "value": 74
+                              },
+                              {
+                                "kind": "native",
+                                "value": 76
+                              },
+                              {
+                                "kind": "native",
+                                "value": 78
+                              },
+                              {
+                                "kind": "native",
+                                "value": 80
+                              },
+                              {
+                                "kind": "native",
+                                "value": 82
+                              },
+                              {
+                                "kind": "native",
+                                "value": 84
+                              },
+                              {
+                                "kind": "native",
+                                "value": 86
+                              },
+                              {
+                                "kind": "native",
+                                "value": 88
+                              },
+                              {
+                                "kind": "native",
+                                "value": 90
+                              },
+                              {
+                                "kind": "native",
+                                "value": 92
+                              },
+                              {
+                                "kind": "native",
+                                "value": 94
+                              },
+                              {
+                                "kind": "native",
+                                "value": 96
+                              },
+                              {
+                                "kind": "native",
+                                "value": 98
+                              },
+                              {
+                                "kind": "native",
+                                "value": 100
+                              },
+                              {
+                                "kind": "native",
+                                "value": 102
+                              },
+                              {
+                                "kind": "native",
+                                "value": 104
+                              },
+                              {
+                                "kind": "native",
+                                "value": 106
+                              },
+                              {
+                                "kind": "native",
+                                "value": 108
+                              },
+                              {
+                                "kind": "native",
+                                "value": 110
+                              },
+                              {
+                                "kind": "native",
+                                "value": 112
+                              },
+                              {
+                                "kind": "native",
+                                "value": 114
+                              },
+                              {
+                                "kind": "native",
+                                "value": 116
+                              },
+                              {
+                                "kind": "native",
+                                "value": 118
+                              },
+                              {
+                                "kind": "native",
+                                "value": 120
+                              },
+                              {
+                                "kind": "native",
+                                "value": 122
+                              },
+                              {
+                                "kind": "native",
+                                "value": 124
+                              },
+                              {
+                                "kind": "native",
+                                "value": 126
+                              },
+                              {
+                                "kind": "native",
+                                "value": 128
+                              },
+                              {
+                                "kind": "native",
+                                "value": 130
+                              },
+                              {
+                                "kind": "native",
+                                "value": 132
+                              },
+                              {
+                                "kind": "native",
+                                "value": 134
+                              },
+                              {
+                                "kind": "native",
+                                "value": 136
+                              },
+                              {
+                                "kind": "native",
+                                "value": 138
+                              },
+                              {
+                                "kind": "native",
+                                "value": 140
+                              },
+                              {
+                                "kind": "native",
+                                "value": 142
+                              },
+                              {
+                                "kind": "native",
+                                "value": 144
+                              },
+                              {
+                                "kind": "native",
+                                "value": 146
+                              },
+                              {
+                                "kind": "native",
+                                "value": 148
+                              },
+                              {
+                                "kind": "native",
+                                "value": 150
+                              },
+                              {
+                                "kind": "native",
+                                "value": 152
+                              },
+                              {
+                                "kind": "native",
+                                "value": 154
+                              },
+                              {
+                                "kind": "native",
+                                "value": 156
+                              },
+                              {
+                                "kind": "native",
+                                "value": 158
+                              },
+                              {
+                                "kind": "native",
+                                "value": 160
+                              },
+                              {
+                                "kind": "native",
+                                "value": 162
+                              },
+                              {
+                                "kind": "native",
+                                "value": 164
+                              },
+                              {
+                                "kind": "native",
+                                "value": 166
+                              },
+                              {
+                                "kind": "native",
+                                "value": 168
+                              },
+                              {
+                                "kind": "native",
+                                "value": 170
+                              },
+                              {
+                                "kind": "native",
+                                "value": 172
+                              },
+                              {
+                                "kind": "native",
+                                "value": 174
+                              },
+                              {
+                                "kind": "native",
+                                "value": 176
+                              },
+                              {
+                                "kind": "native",
+                                "value": 178
+                              },
+                              {
+                                "kind": "native",
+                                "value": 180
+                              },
+                              {
+                                "kind": "native",
+                                "value": 182
+                              },
+                              {
+                                "kind": "native",
+                                "value": 184
+                              },
+                              {
+                                "kind": "native",
+                                "value": 186
+                              },
+                              {
+                                "kind": "native",
+                                "value": 188
+                              },
+                              {
+                                "kind": "native",
+                                "value": 190
+                              },
+                              {
+                                "kind": "native",
+                                "value": 192
+                              },
+                              {
+                                "kind": "native",
+                                "value": 194
+                              },
+                              {
+                                "kind": "native",
+                                "value": 196
+                              },
+                              {
+                                "kind": "native",
+                                "value": 198
+                              },
+                              {
+                                "kind": "native",
+                                "value": 200
+                              },
+                              {
+                                "kind": "native",
+                                "value": 202
+                              },
+                              {
+                                "kind": "native",
+                                "value": 204
+                              },
+                              {
+                                "kind": "native",
+                                "value": 206
+                              },
+                              {
+                                "kind": "native",
+                                "value": 208
+                              },
+                              {
+                                "kind": "native",
+                                "value": 210
+                              },
+                              {
+                                "kind": "native",
+                                "value": 212
+                              },
+                              {
+                                "kind": "native",
+                                "value": 214
+                              },
+                              {
+                                "kind": "native",
+                                "value": 216
+                              },
+                              {
+                                "kind": "native",
+                                "value": 218
+                              },
+                              {
+                                "kind": "native",
+                                "value": 220
+                              },
+                              {
+                                "kind": "native",
+                                "value": 222
+                              },
+                              {
+                                "kind": "native",
+                                "value": 224
+                              },
+                              {
+                                "kind": "native",
+                                "value": 226
+                              },
+                              {
+                                "kind": "native",
+                                "value": 228
+                              },
+                              {
+                                "kind": "native",
+                                "value": 230
+                              },
+                              {
+                                "kind": "native",
+                                "value": 232
+                              },
+                              {
+                                "kind": "native",
+                                "value": 234
+                              },
+                              {
+                                "kind": "native",
+                                "value": 236
+                              },
+                              {
+                                "kind": "native",
+                                "value": 238
+                              },
+                              {
+                                "kind": "native",
+                                "value": 240
+                              },
+                              {
+                                "kind": "native",
+                                "value": 242
+                              },
+                              {
+                                "kind": "native",
+                                "value": 244
+                              },
+                              {
+                                "kind": "native",
+                                "value": 246
+                              },
+                              {
+                                "kind": "native",
+                                "value": 248
+                              },
+                              {
+                                "kind": "native",
+                                "value": 250
+                              },
+                              {
+                                "kind": "native",
+                                "value": 252
+                              },
+                              {
+                                "kind": "native",
+                                "value": 254
+                              }
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "ordinary_projection_weight"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "2/W"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "even_Nyquist_projection_weight"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "sqrt(2)/W"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "old_point_normalization"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "sqrt(2/W)"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "grid_roundoff_maximum"
+                          },
+                          {
+                            "kind": "native",
+                            "value": 8.881784197001252e-16
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "analytic_symmetry_premise"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "arbitrary_sampled_fields_supported"
+                          },
+                          {
+                            "kind": "native",
+                            "value": false
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "floating_point_symmetry_defects_are_reported"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "finite_angular_objective_unchanged_in_exact_arithmetic"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "continuous_angular_certificate"
+                          },
+                          {
+                            "kind": "native",
+                            "value": false
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "old_high_point_rows"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2048
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "old_large_high_point_jacobian_constructed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_symmetry_and_compression"
+                    },
+                    {
+                      "kind": "dict",
+                      "items": [
+                        [
+                          {
+                            "kind": "native",
+                            "value": "n"
+                          },
+                          {
+                            "kind": "dict",
+                            "items": [
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "parity"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": "even"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_rows"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 512
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "compressed_rows"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 97
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "normalized_point_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 6.863171391821831e-16
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "compressed_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 3.1105275152841824e-16
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_reconstruction_error_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 6.117821518333273e-16
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_reconstruction_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 5.20417042793042e-16
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_reflection_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 1.1102230246251565e-14
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_half_period_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 1.1102230246251565e-14
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_row_gram_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 1.4022809130894021e-14
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "m"
+                          },
+                          {
+                            "kind": "dict",
+                            "items": [
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "parity"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": "odd"
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_rows"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 512
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "compressed_rows"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 96
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "normalized_point_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "compressed_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_reconstruction_error_l2"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "point_reconstruction_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_reflection_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_half_period_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 0.0
+                                }
+                              ],
+                              [
+                                {
+                                  "kind": "native",
+                                  "value": "sampled_row_gram_error_maximum"
+                                },
+                                {
+                                  "kind": "native",
+                                  "value": 1.3037676136825957e-14
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "continuous_certificate"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "scope"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "actual_field"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "full_nonlinear_delta_l_and_angular_delta_included"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_affine_endpoint_primitive_preserved"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_field_representation_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_active_n_minimum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": null
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "actual_field_representation_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "physical_metric_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_quadrature_rule_changed"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "formula"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "nonlinear_Gauss_l_correction"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "nonlinear_field_treated_as_affine"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "new_field_at_zero_state_used_for_lifting_correction"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "state_jacobian"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "parameter_jacobian"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Complete R153 columns plus derivative of the original known-affine-lifting average difference"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_lifting_quadrature_order"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 8
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "nonlinear_correction_quadrature_order"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "selected_coast_local_cells"
+                    },
+                    {
+                      "kind": "list",
+                      "items": []
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "fine_known_physical_support"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 0.5919999999999992
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8675434451024153
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "all_other_cells_keep_original_G2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "selection_independent_of_chunk_size_and_parameters"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_lifting_fixed_boundaries"
+                    },
+                    {
+                      "kind": "list",
+                      "items": []
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_lifting_cell_rules"
+                    },
+                    {
+                      "kind": "list",
+                      "items": []
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_lifting_full_change_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.0
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "point_gauss_scope"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Original R153 actual-field Gauss2 points; not fine known-lifting points"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "terminal_trace_change_identically_zero_on_block"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "runtime_operator_cache_compatibility"
+                    },
+                    {
+                      "kind": "dict",
+                      "items": [
+                        [
+                          {
+                            "kind": "native",
+                            "value": "actual_R153_background_class"
+                          },
+                          {
+                            "kind": "native",
+                            "value": "fd2d_gc_raw_bump_positive_gauss.PositiveGaussRawBumpDAE"
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "old_strict_identity_check_unchanged"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "original_complete_cell_formula_and_Jacobian_called"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "mathematical_fields_or_finite_equations_changed"
+                          },
+                          {
+                            "kind": "native",
+                            "value": false
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "operator_projection_cache_used_in_R152_R153_background"
+                          },
+                          {
+                            "kind": "native",
+                            "value": false
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "prepared_geometry_reference_cache_still_shared"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "node_and_separate_terminal_operator_cache_left_enabled"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ],
+                        [
+                          {
+                            "kind": "native",
+                            "value": "no_process_global_class_patch"
+                          },
+                          {
+                            "kind": "native",
+                            "value": true
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "assembly"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "bounded radial-cell blocks of the unchanged original formula"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "block_cells"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 2
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "block_count"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 64
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "cell_consumer"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "fd2d_gc_staged_search_context.actual_cell_consumer"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_equations_changed_by_chunking"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "independent_unknown_columns_preserved"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "whole_known_lifting_change_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.06142691948695811
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "whole_fine_known_cell_count"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 12
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "known_rule_diagnostic_scope"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Fine physical support is global; nested cell rules and symmetry are first block only. Whole maxima/count explicitly aggregated."
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "nested_symmetry_diagnostic_scope"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "First block; full point maxima and matrices aggregated over all blocks"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "residual_l2"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.39977495262988905
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "sampled_omitted_codazzi_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 0.7063658659287105
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "codazzi_complement_result"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "omitted_codazzi_cells"
+                    },
+                    {
+                      "kind": "array",
+                      "index": 30
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "raw_array_bytes": 3922200,
+  "compressed_part_bytes": 3383052,
+  "native_container_types_preserved": true,
+  "pickle_used": false,
+  "complete": true
+}

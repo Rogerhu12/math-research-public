@@ -1,0 +1,132 @@
+{
+  "schema": "fd2d-R205-closed-source-proof-baseline-manifest-v1",
+  "result": "R205",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-bent-annulus-reference-R205.cjs",
+      "bytes": 12398,
+      "sha256": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7",
+      "commit": "18a96d5187fd5f4252b191a642d3ba01c18c3715"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-bent-annulus-metric-R205.cjs",
+      "bytes": 14509,
+      "sha256": "f63c6bf0f1ff3e4b844fb1a4cde8de7659c4ce89520f4ff9fad41b5e23d89541",
+      "commit": "5d7904fee477585e737e73596d5af4888ef2f7fe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-direct-position-bent-annulus-curvature-R205.cjs",
+      "bytes": 17843,
+      "sha256": "c0a4ba4e20e6daeca2865b39d6d5bc0e428dbfe6fe18fa57468d263a80b8797f",
+      "commit": "9c30c28edc7726e67e5bea93741a7a504679d850"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-check-bent-annulus-R205.cjs",
+      "bytes": 7622,
+      "sha256": "8e2f7accde4b9d0bfffb21375d5aa00590b39d09f14d88f10403ed098be15fb3",
+      "commit": "581efba01969aca0eceaa192d2aeb0812566a109",
+      "role": "Bounded reproducible actual cut and all-column diagnostic"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R205-complete-bent-annulus-cut-lifting-and-fixed-collar.md",
+      "bytes": 14445,
+      "sha256": "76336f59f677f7c4113db3edfeec938caa0ed7df5fa0f612db579226e26396bc",
+      "commit": "63f974580a6a1cf586cf897c0efa04a1bdc52d88",
+      "role": "Complete proof"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-A025-complete-baseline-and-check-01.json",
+      "bytes": 49926,
+      "sha256": "4a36860c9a22aab3c24d412f480f5859372456a26f8daea424d162bdfcb7005b",
+      "commit": "6e798645f705d489a859fd04a2f4a290a6c46656",
+      "role": "Actual final source check and full961 new baseline; zero accepted steps"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R205-frozen-amplitude-comparison-01.json",
+      "bytes": 31669,
+      "sha256": "90330e2f1d58ed0b929f2f2c69e462dd43ed7bd7b8a419ee158d6111facb95fe",
+      "commit": "2ba9e2aa29b651fa994fa6b188a8c1951ba76d4f",
+      "role": "Actual comparisons and bad warm observations; rational held witness"
+    }
+  ],
+  "publication": {
+    "method": "Repository README section 8 small UTF-8 GitHub fallback during executor outage; serialized team window",
+    "branch": "main",
+    "noBinaryTransport": true
+  },
+  "API": {
+    "referenceFactory": "createR205BentAnnulusReference(engine,base,{amplitude,angles})",
+    "metricFactory": "createR205MetricProvider(engine,bundle,options,splines,bentFactory)",
+    "curvatureFactory": "createR205CurvatureProvider(engine,metric,curvatureOptions,algebra)",
+    "check": "runR205BentAnnulusCheck(deps,settings)"
+  },
+  "finalCheckExecution": {
+    "runtime": "pure V8 JavaScript",
+    "completed": true,
+    "elapsedMilliseconds": 7557,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "finalCheck": {
+    "maximumCutTwoJetError": 4.385380947269368e-15,
+    "fullParameterDirection": {
+      "s": 0.27,
+      "u": 0.7,
+      "epsilon": 0.000002,
+      "direction": "d_i=.02*(sin(.23*(i+1))+.3*cos(.71*(i+1)))",
+      "curvature": 9.960159351696106,
+      "activeCurvaturePenalty": true,
+      "jetAbsolute": 1.6417736059537447e-9,
+      "jetScaled": 1.6417736059537447e-9,
+      "hingeAbsolute": 3.0961597730083668e-9,
+      "hingeScaled": 1.02305361698284e-9,
+      "jetErrors": {
+        "X": 3.1382055634687767e-10,
+        "Xs": 2.257061620936085e-10,
+        "Xu": 2.2391718080411183e-10,
+        "Xss": 1.6417736059537447e-9,
+        "Xsu": 2.3001395232924438e-10,
+        "Xuu": 1.907723198163458e-10
+      },
+      "metricJVPError": 2.414693445196292e-10
+    }
+  },
+  "mathematicalScope": {
+    "fixedAmplitude": true,
+    "fullOldParameterJacobian": true,
+    "fullExactCutTwoJetProved": true,
+    "fixedInnerCollarOrbitProved": true,
+    "globalClosedKernelReachNotYetPaid": true,
+    "R203GeometryRowsIncluded": false,
+    "newAcceptedSteps": 0
+  },
+  "identities": {
+    "actualR203Parent": {
+      "path": "notes/2026-11-13-fd2d-R203-freecut-geometry-02-eight-accepted.json",
+      "commit": "71b4a3137416ff1e0da1cc95a6750fcc9cac672b",
+      "gitBlob": "5095f23e2fca586c3b3ad2bd3106e307d01a4c19",
+      "sha256": "9adf29fd5111277a17da3723c3d82c350eeccc4726fe6a5c3f30de43287f59f3"
+    },
+    "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+    "parentSourceGitBlobs": {
+      "engine": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+      "oldMetric": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+      "oldCurvature": "4512b251cd28727b714015b88e68ca8e8411cf08",
+      "curvatureAlgebra": "7abcea6d968125aee8bc807e2f797b2227746828",
+      "splineBasis": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+      "candidate": "bb87f4c2bc73c53dd32b50582d3bec4243568562"
+    }
+  },
+  "operationalFailures": [
+    {
+      "kind": "Pure V8 proof-text packaging SyntaxError before evaluation",
+      "effect": "No artifact write or mathematical process; corrected only text quoting and reran publication."
+    }
+  ],
+  "proposedConsumerNotes": [
+    "notes/2026-11-13-fd2d-R205-bent-annulus-thin-cuff-grafting.md (numerical_recovery owns this complete supplemental proof; main publication follows this group)"
+  ],
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "indexesOwnedByRoot": true
+}

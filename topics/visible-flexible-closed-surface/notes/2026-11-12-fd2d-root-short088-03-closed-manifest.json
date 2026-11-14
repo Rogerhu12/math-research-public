@@ -1,0 +1,141 @@
+{
+  "schema": "fd2d-closed-actual-short-prefix-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-candidate.json",
+      "bytes": 35028,
+      "sha256": "072344da6e9e27924dced2196698fce76862ca00c09bfb82fcf320755dee3c97"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-field.npz.gz",
+      "bytes": 2555738,
+      "sha256": "e0e8125c19cdd50e883fb754a538ee13b60eab4a0ff88d7a34e1d5570292095e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-polynomial.npz.gz",
+      "bytes": 2032291,
+      "sha256": "b2a5e8b8e7e5096599e6c682cc2dd153c7a5a04577743f1985227494cbeff079"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-progress.jsonl",
+      "bytes": 21348,
+      "sha256": "3bc5b478685d0ffb796e16814d91e0be579e759057fc5ddd08a5335a8f8041d3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-report.json",
+      "bytes": 23042,
+      "sha256": "09ae64238d2b95b9faa2e50cd902bfa96a745d8c57730052e8f401c9583a0b25"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-runtime.json",
+      "bytes": 559,
+      "sha256": "355de5c7ddaa3bccd1340dc34f21ff6daf669601f6c0cb45c07977bded8a7408"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-resources.jsonl",
+      "bytes": 31712,
+      "sha256": "b3e68a89d4d70ee7b3f6ebc7d19c18678c51791548a407bbd8264387bfdcaf0e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-completion-receipt.json",
+      "bytes": 699,
+      "sha256": "fa9df0ae114e1aea6db3f62d3e57402f6477e9e67371067c1f5a2c150da9315d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-tool-receipt.json",
+      "bytes": 130,
+      "sha256": "c9535a9738362f0ae4366ad9bb7a9bc65399b7b2132ea099e335f5c0495ebc8e"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0001.npz",
+      "bytes": 879601,
+      "sha256": "eca1e9fc98c7431510302fd574b965b8ab06bc649ce4f08b744f635562ba1622",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0002.npz",
+      "bytes": 879530,
+      "sha256": "9814a7d9b85b4d58e2b88ad11073ee28cba0a06493e3b5fa9b899d8eb16e0b6f",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0003.npz",
+      "bytes": 879766,
+      "sha256": "c34626ca9cbe5d1350c6e99acdeb5b8e89e5bc382044bdc831d610d595908e6b",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0004.npz",
+      "bytes": 879685,
+      "sha256": "a0d5e70ed9a7f9b23962f94910615b4246c30e06de638db3ca82fb0e8cb67b71",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0005.npz",
+      "bytes": 879813,
+      "sha256": "edb89ca239ca49db323159f72bb3a91758201e8a5620a80e0fcf8cfc2c6ae33c",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0006.npz",
+      "bytes": 879421,
+      "sha256": "4b0e7d73ee4f12be7537f1eea26be8f679339fef0c0704e4335ca020d410f5b6",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0007.npz",
+      "bytes": 879846,
+      "sha256": "4b7aa7132a63adc53927367086fce0ee51e79900dc61d32cab6db5c71e62513a",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0008.npz.gz",
+      "bytes": 1274661,
+      "sha256": "67dd285332c18716ea0dba4f120724b6e83e6b52ae29f2b34ce968361a882ea2",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0009.npz.gz",
+      "bytes": 1274588,
+      "sha256": "0de8b1e3494b20abba9cbd2ae76a7553363a25331bc56a52faa51a6ff9acf2e2",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0010.npz.gz",
+      "bytes": 1536094,
+      "sha256": "b5f81aaee970b2b13eb2b1cdab32588472573548b61c9b40855c54dfbc17514c",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-accepted-0011.npz.gz",
+      "bytes": 1536027,
+      "sha256": "238e122b2274ae1beaa45fc42882cf62f75bc205e0ff92e91a7c4a520b2cffe7",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-03-initial.npz",
+      "bytes": 293899,
+      "sha256": "436d8d8c78a9c682a4917e164a9e26eb3a402b44ab95ba7e5c0bd19fcaa69842",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "actual_tool_result": {
+      "session_id": 34484,
+      "actual_exit_code": 0,
+      "completion_chunk": "549850",
+      "source": "Actual tools.write_stdin result"
+    },
+    "solver_success": false,
+    "solver_status": 1,
+    "message": "The maximum number of mesh nodes is exceeded.",
+    "seconds": 269.22691917200063,
+    "accepted_steps": 11,
+    "final_nodes": 689,
+    "maximum_rms_residual": 9.188286805017972e-05,
+    "collocation_tolerance": 2e-05,
+    "scope": "Actual finite gap .05 state with linear tail. Mesh capacity 700 reached; not solver convergence. Continuation at the identical gap and equations with capacity 1400 is active as short088-04, session60439. No geometrical nonexistence conclusion."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "metadata-default-correction-only",
+  "old_file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-c2-stream.py",
+  "old_sha256": "8da5bb581fbe45bbec10dde3cabce9d755cfdc43fb4d5a334aff90713828c4ea",
+  "new_file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-c2-stream-v2.py",
+  "new_sha256": "eebc6b4e1c204840f3339cdddc56c88bde7a8894c230f9caa432359d3d47cf6e",
+  "change": "Default --batch now agrees with the unmodified backend default 128. Explicit --batch values and every numerical formula are unchanged.",
+  "existing_comparison_affected": false,
+  "existing_actual_command_batch": 64
+}

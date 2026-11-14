@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-closed-actual-field-local-diagnostic-v1",
+  "closed": true,
+  "actual_exit": 0,
+  "prior_failure_exit": 1,
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-positive-trace-interior-gauss-screen.py",
+      "bytes": 5146,
+      "sha256": "153fc35037cce3c0d46ac9911856d891d5b2f168653bb18405ab9ad94a618a76"
+    },
+    {
+      "path": "scripts/fd2d-gc-positive-trace-interior-gauss-screen-failed01.py",
+      "bytes": 5137,
+      "sha256": "88e2e92f8c4b7323eb723400b0e2a9a4ff5205e1386a9b0f4ed1b6588d21ef24"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-trace16-interior-gauss-location.md",
+      "bytes": 1474,
+      "sha256": "1594f4c7fbd701cc42cb16f4580cfd35ef2b390ed5b97c9f911659549b40966b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace16-interior-gauss-02-receipt.json",
+      "bytes": 382,
+      "sha256": "43ea651434ae0af5e69d9e4c9d020fb5f1be35a9636871120e53b9f004ec5ea6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace16-interior-gauss-02-report.json",
+      "bytes": 8650,
+      "sha256": "0af92c6fa8a535295195ac3925841836f9111020904824d3e3ca04e63913b601"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace16-interior-gauss-01-report.json",
+      "bytes": 2117,
+      "sha256": "e3d0864a5726ea356930998ab39a724a33049c89a7873c740ee397f79ddf9859"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-trace16-interior-gauss-01-receipt.json",
+      "bytes": 501,
+      "sha256": "43802823c3135bc1e29bb01eecdda9a9b6d7d3292ea0b26ec36d775564212ded"
+    }
+  ]
+}

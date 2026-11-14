@@ -1,0 +1,82 @@
+{
+  "coefficient_convention": "h(phi)=1+sum c_j cos(3j phi); each saved float is an exact binary rational",
+  "coefficients_exact": [
+    "2882303649649007/36028797018963968",
+    "8996837677042041/36893488147419103232",
+    "-7246184990841849/295147905179352825856",
+    "-5462515601646091/151115727451828646838272",
+    "8056373144202305/302231454903657293676544",
+    "-6875711739996539/2417851639229258349412352",
+    "-2129808962815229/9671406556917033397649408",
+    "1423828762562293/154742504910672534362390528",
+    "-502649114790605/1237940039285380274899124224",
+    "-5993454782860639/309485009821345068724781056",
+    "8328754069010247/77371252455336267181195264",
+    "-1808708435241607/77371252455336267181195264"
+  ],
+  "support_lower": {
+    "numerator": "1138572481766689022420862639",
+    "denominator": "1237940039285380274899124224",
+    "decimal_display": 0.9197315262732332
+  },
+  "curvature_radius_lower": {
+    "numerator": "108161459408633580760405739",
+    "denominator": "309485009821345068724781056",
+    "decimal_display": 0.3494885244072772
+  },
+  "curvature_radius_upper": {
+    "numerator": "510808560234056556689156373",
+    "denominator": "309485009821345068724781056",
+    "decimal_display": 1.6505114755927228
+  },
+  "curvature_absolute_upper": {
+    "numerator": "309485009821345068724781056",
+    "denominator": "108161459408633580760405739",
+    "decimal_display": 2.8613242786611437
+  },
+  "monotonicity_margin": {
+    "numerator": "97552425357083141731360835",
+    "denominator": "1237940039285380274899124224",
+    "decimal_display": 0.07880222164346244
+  },
+  "exact_maximum_radius": {
+    "numerator": "1337246714208040731489222367",
+    "denominator": "1237940039285380274899124224",
+    "decimal_display": 1.0802192931573542
+  },
+  "exact_minimum_radius": {
+    "numerator": "1139237035297189021445146777",
+    "denominator": "1237940039285380274899124224",
+    "decimal_display": 0.9202683483400625
+  },
+  "phase_pi_over_3_support_gap": {
+    "numerator": "99004839455425855022037795",
+    "denominator": "618970019642690137449562112",
+    "decimal_display": 0.15995094481729163
+  },
+  "central_half_length": {
+    "numerator": "4",
+    "denominator": "25",
+    "decimal_display": 0.16
+  },
+  "conditional_held_lower": {
+    "numerator": "99004839455425855022037795",
+    "denominator": "618970019642690137449562112",
+    "decimal_display": 0.15995094481729163
+  },
+  "maximum_full_diameter_for_5percent": {
+    "numerator": "495024197277129275110188975",
+    "denominator": "154742504910672534362390528",
+    "decimal_display": 3.199018896345833
+  },
+  "conditional_held_ratio_if_full_D_le_31_over_10": {
+    "numerator": "495024197277129275110188975",
+    "denominator": "9594035304461697130468212736",
+    "decimal_display": 0.05159707897331989
+  },
+  "proof_scope": "Exact core geometry only. A complete phase family with all noncentral points at |z|>=ell and an independent global diameter bound is still required.",
+  "source": {
+    "path": "notes/2026-11-09-950f-prefix-adaptive-fixed-m12-summary.json",
+    "sha256": "a96eda8b9aa7d35714b02aeb74ba273ea35c5530a00b7fb2781ebc0de44a9a42"
+  }
+}

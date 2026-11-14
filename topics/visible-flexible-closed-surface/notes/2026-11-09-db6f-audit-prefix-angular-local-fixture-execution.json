@@ -1,0 +1,28 @@
+{
+  "command": [
+    "python",
+    "scripts/db6f-audit-prefix-angular-metric.py",
+    "--geometry",
+    "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "--target",
+    "notes/2026-11-09-db6f-root-flat17-m12-target.json",
+    "--baseline",
+    "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+    "--bridge",
+    "notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+    "--intervals",
+    "0",
+    "74",
+    "--budget",
+    "1e-8",
+    "--initial-arcs",
+    "128",
+    "--max-depth",
+    "1",
+    "--out",
+    "notes/2026-11-09-db6f-audit-prefix-angular-local-fixture.json"
+  ],
+  "exit_code": 1,
+  "seconds": 0.26393985399772646,
+  "maximum_rss_bytes": 33325056
+}

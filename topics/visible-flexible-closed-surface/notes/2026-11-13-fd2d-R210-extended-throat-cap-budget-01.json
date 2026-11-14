@@ -1,0 +1,925 @@
+{
+  "schema": "fd2d-R210-extended-throat-cap-exact-budget-v1",
+  "parameters": {
+    "Delta": {
+      "numerator": "1",
+      "denominator": "50",
+      "fraction": "1/50",
+      "decimal": 0.02
+    },
+    "Zmin": {
+      "numerator": "2",
+      "denominator": "5",
+      "fraction": "2/5",
+      "decimal": 0.4
+    },
+    "Zmax": {
+      "numerator": "61",
+      "denominator": "100",
+      "fraction": "61/100",
+      "decimal": 0.61
+    },
+    "effectiveZmin": {
+      "numerator": "21",
+      "denominator": "50",
+      "fraction": "21/50",
+      "decimal": 0.42
+    },
+    "effectiveZmax": {
+      "numerator": "63",
+      "denominator": "100",
+      "fraction": "63/100",
+      "decimal": 0.63
+    },
+    "farRadius": {
+      "numerator": "257",
+      "denominator": "500",
+      "fraction": "257/500",
+      "decimal": 0.514
+    },
+    "R": {
+      "numerator": "97",
+      "denominator": "1000",
+      "fraction": "97/1000",
+      "decimal": 0.097
+    },
+    "a": {
+      "numerator": "3",
+      "denominator": "10",
+      "fraction": "3/10",
+      "decimal": 0.3
+    },
+    "ac": {
+      "numerator": "8",
+      "denominator": "25",
+      "fraction": "8/25",
+      "decimal": 0.32
+    }
+  },
+  "analytic_definitions": {
+    "theta_interval": "[0,pi]",
+    "L": "8 Delta/(3 pi)",
+    "q": "R(1+lambda/sqrt(sin(theta)))+L sin(theta)^3",
+    "r": "a-R sin(theta)-2 lambda R sqrt(sin(theta))-L sin(theta)^4/4",
+    "z": "Z+R(1-cos(theta))+lambda R integral_0^theta sqrt(sin(v)) dv+L integral_0^theta sin(v)^4 dv",
+    "height_added": "L*3*pi/8=Delta",
+    "radius_both_ends": "a"
+  },
+  "strict_bound_lemmas": [
+    "pi>8/3 implies L/4<Delta/4",
+    "2<integral_0^pi sqrt(sin(theta)) dtheta<22/7",
+    "R111/R113 rolling-ball argument with q>=R and rmin>R",
+    "R204 exact polar-vertex budget inherited because all marker heights increase"
+  ],
+  "scalar_bounds": {
+    "rmin_strict_lower": {
+      "numerator": "9803",
+      "denominator": "50000",
+      "fraction": "9803/50000",
+      "decimal": 0.19606
+    },
+    "zc_strict_lower": {
+      "numerator": "110399",
+      "denominator": "175000",
+      "fraction": "110399/175000",
+      "decimal": 0.6308514285714286
+    },
+    "d0_strict_lower": {
+      "numerator": "9797",
+      "denominator": "50000",
+      "fraction": "9797/50000",
+      "decimal": 0.19594
+    },
+    "corner_marker_height_strict_lower": {
+      "numerator": "8913",
+      "denominator": "12500",
+      "fraction": "8913/12500",
+      "decimal": 0.71304
+    },
+    "axis_marker_height_strict_lower": {
+      "numerator": "33451",
+      "denominator": "25000",
+      "fraction": "33451/25000",
+      "decimal": 1.33804
+    }
+  },
+  "checks": {
+    "fixed_Delta_positive": {
+      "numerator": "1",
+      "denominator": "50",
+      "fraction": "1/50",
+      "decimal": 0.02,
+      "passed": true
+    },
+    "true_Z_lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "fraction": "0",
+      "decimal": 0,
+      "passed": true
+    },
+    "effective_height_upper": {
+      "numerator": "149",
+      "denominator": "175000",
+      "fraction": "149/175000",
+      "decimal": 0.0008514285714285714,
+      "passed": true
+    },
+    "effective_height_in_old_window": {
+      "numerator": "0",
+      "denominator": "1",
+      "fraction": "0",
+      "decimal": 0,
+      "passed": true
+    },
+    "extended_throat_radius_over_R": {
+      "numerator": "4953",
+      "denominator": "50000",
+      "fraction": "4953/50000",
+      "decimal": 0.09906,
+      "passed": true
+    },
+    "planar_base_room": {
+      "numerator": "352999",
+      "denominator": "1000000",
+      "fraction": "352999/1000000",
+      "decimal": 0.352999,
+      "passed": true
+    },
+    "cuff_annulus_width": {
+      "numerator": "1",
+      "denominator": "50",
+      "fraction": "1/50",
+      "decimal": 0.02,
+      "passed": true
+    },
+    "complete_throat_sphere": {
+      "numerator": "177218159",
+      "denominator": "100000000",
+      "fraction": "177218159/100000000",
+      "decimal": 1.77218159,
+      "passed": true
+    },
+    "reference_corner_sphere": {
+      "numerator": "518741",
+      "denominator": "100000000",
+      "fraction": "518741/100000000",
+      "decimal": 0.00518741,
+      "passed": true
+    },
+    "reference_tip_sphere": {
+      "numerator": "499",
+      "denominator": "10000",
+      "fraction": "499/10000",
+      "decimal": 0.0499,
+      "passed": true
+    },
+    "cap_slab": {
+      "numerator": "29",
+      "denominator": "10000",
+      "fraction": "29/10000",
+      "decimal": 0.0029,
+      "passed": true
+    },
+    "protrusion_to_throat_distance_over_2R": {
+      "numerator": "0",
+      "denominator": "1",
+      "fraction": "0",
+      "decimal": 0,
+      "passed": true
+    },
+    "protrusion_to_convex_distance_over_2R": {
+      "numerator": "97",
+      "denominator": "50000",
+      "fraction": "97/50000",
+      "decimal": 0.00194,
+      "passed": true
+    },
+    "opposite_caps_distance_over_2R": {
+      "numerator": "303",
+      "denominator": "500",
+      "fraction": "303/500",
+      "decimal": 0.606,
+      "passed": true
+    },
+    "throat_held_squared": {
+      "numerator": "1377",
+      "denominator": "2500",
+      "fraction": "1377/2500",
+      "decimal": 0.5508,
+      "passed": true
+    },
+    "convex_cap_held_squared": {
+      "numerator": "5085921",
+      "denominator": "100000000",
+      "fraction": "5085921/100000000",
+      "decimal": 0.05085921,
+      "passed": true
+    },
+    "corner_marker_height_over_old_bound": {
+      "numerator": "1",
+      "denominator": "50",
+      "fraction": "1/50",
+      "decimal": 0.02,
+      "passed": true
+    },
+    "axis_marker_height_over_old_bound": {
+      "numerator": "1",
+      "denominator": "50",
+      "fraction": "1/50",
+      "decimal": 0.02,
+      "passed": true
+    },
+    "fixed_set_diameter_over_held": {
+      "numerator": "50897",
+      "denominator": "25000",
+      "fraction": "50897/25000",
+      "decimal": 2.03588,
+      "passed": true
+    },
+    "support_gap_over_one_twentieth_D": {
+      "numerator": "9",
+      "denominator": "10000",
+      "fraction": "9/10000",
+      "decimal": 0.0009,
+      "passed": true
+    },
+    "reach_over_three_percent_D": {
+      "numerator": "1",
+      "denominator": "1000",
+      "fraction": "1/1000",
+      "decimal": 0.001,
+      "passed": true
+    },
+    "held_over_one_fifth_D": {
+      "numerator": "0",
+      "denominator": "1",
+      "fraction": "0",
+      "decimal": 0,
+      "passed": true
+    }
+  },
+  "ratios": {
+    "diameter_upper": {
+      "numerator": "16",
+      "denominator": "5",
+      "fraction": "16/5",
+      "decimal": 3.2
+    },
+    "held_lower": {
+      "numerator": "1",
+      "denominator": "5",
+      "fraction": "1/5",
+      "decimal": 0.2
+    },
+    "E3_quotient_lower": {
+      "numerator": "1609",
+      "denominator": "32000",
+      "fraction": "1609/32000",
+      "decimal": 0.05028125
+    },
+    "reach_lower": {
+      "numerator": "97",
+      "denominator": "3200",
+      "fraction": "97/3200",
+      "decimal": 0.0303125
+    }
+  },
+  "R204_parent_budget": {
+    "schema": "fd2d-R199-exact-cap-budget-recovery-v1",
+    "design": "lower_window",
+    "parameters": {
+      "B": {
+        "numerator": "8",
+        "denominator": "5",
+        "fraction": "8/5",
+        "decimal": 1.6
+      },
+      "R": {
+        "numerator": "97",
+        "denominator": "1000",
+        "fraction": "97/1000",
+        "decimal": 0.097
+      },
+      "a": {
+        "numerator": "3",
+        "denominator": "10",
+        "fraction": "3/10",
+        "decimal": 0.3
+      },
+      "ac": {
+        "numerator": "8",
+        "denominator": "25",
+        "fraction": "8/25",
+        "decimal": 0.32
+      },
+      "lambda": {
+        "numerator": "1",
+        "denominator": "100",
+        "fraction": "1/100",
+        "decimal": 0.01
+      },
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "10000",
+        "fraction": "1/10000",
+        "decimal": 0.0001
+      },
+      "delta": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "fraction": "1/1000000",
+        "decimal": 0.000001
+      },
+      "W": {
+        "numerator": "17",
+        "denominator": "20",
+        "fraction": "17/20",
+        "decimal": 0.85
+      },
+      "A": {
+        "numerator": "13",
+        "denominator": "10",
+        "fraction": "13/10",
+        "decimal": 1.3
+      },
+      "b": {
+        "numerator": "1011",
+        "denominator": "1000",
+        "fraction": "1011/1000",
+        "decimal": 1.011
+      },
+      "g": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "c": {
+        "numerator": "3",
+        "denominator": "4",
+        "fraction": "3/4",
+        "decimal": 0.75
+      },
+      "h": {
+        "numerator": "37",
+        "denominator": "40",
+        "fraction": "37/40",
+        "decimal": 0.925
+      },
+      "H": {
+        "numerator": "31",
+        "denominator": "20",
+        "fraction": "31/20",
+        "decimal": 1.55
+      },
+      "Zmin": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "Zmax": {
+        "numerator": "63",
+        "denominator": "100",
+        "fraction": "63/100",
+        "decimal": 0.63
+      }
+    },
+    "zc_open_bounds": [
+      {
+        "numerator": "110399",
+        "denominator": "175000",
+        "fraction": "110399/175000",
+        "decimal": 0.6308514285714286
+      },
+      {
+        "numerator": "15799",
+        "denominator": "25000",
+        "fraction": "15799/25000",
+        "decimal": 0.63196
+      }
+    ],
+    "minimum_corner_height": {
+      "numerator": "8663",
+      "denominator": "12500",
+      "fraction": "8663/12500",
+      "decimal": 0.69304
+    },
+    "minimum_axial_height": {
+      "numerator": "32951",
+      "denominator": "25000",
+      "fraction": "32951/25000",
+      "decimal": 1.31804
+    },
+    "checks": {
+      "pyramid_height": {
+        "numerator": "66",
+        "denominator": "125",
+        "fraction": "66/125",
+        "decimal": 0.528,
+        "passed": true
+      },
+      "planar_base_room": {
+        "numerator": "352999",
+        "denominator": "1000000",
+        "fraction": "352999/1000000",
+        "decimal": 0.352999,
+        "passed": true
+      },
+      "throat_normal_ball": {
+        "numerator": "5203",
+        "denominator": "50000",
+        "fraction": "5203/50000",
+        "decimal": 0.10406,
+        "passed": true
+      },
+      "cuff_annulus_width": {
+        "numerator": "1",
+        "denominator": "50",
+        "fraction": "1/50",
+        "decimal": 0.02,
+        "passed": true
+      },
+      "reference_corner_sphere": {
+        "numerator": "518741",
+        "denominator": "100000000",
+        "fraction": "518741/100000000",
+        "decimal": 0.00518741,
+        "passed": true
+      },
+      "reference_tip_sphere": {
+        "numerator": "499",
+        "denominator": "10000",
+        "fraction": "499/10000",
+        "decimal": 0.0499,
+        "passed": true
+      },
+      "complete_throat_sphere": {
+        "numerator": "177218159",
+        "denominator": "100000000",
+        "fraction": "177218159/100000000",
+        "decimal": 1.77218159,
+        "passed": true
+      },
+      "cap_slab": {
+        "numerator": "29",
+        "denominator": "10000",
+        "fraction": "29/10000",
+        "decimal": 0.0029,
+        "passed": true
+      },
+      "allowed_height_upper": {
+        "numerator": "149",
+        "denominator": "175000",
+        "fraction": "149/175000",
+        "decimal": 0.0008514285714285714,
+        "passed": true
+      },
+      "positive_height": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4,
+        "passed": true
+      },
+      "opposite_caps_separation": {
+        "numerator": "303",
+        "denominator": "500",
+        "fraction": "303/500",
+        "decimal": 0.606,
+        "passed": true
+      },
+      "throat_and_annulus_held_squared": {
+        "numerator": "1377",
+        "denominator": "2500",
+        "fraction": "1377/2500",
+        "decimal": 0.5508,
+        "passed": true
+      },
+      "convex_cap_held_squared": {
+        "numerator": "2669921",
+        "denominator": "100000000",
+        "fraction": "2669921/100000000",
+        "decimal": 0.02669921,
+        "passed": true
+      },
+      "remaining_flat_disk_held_squared": {
+        "numerator": "1",
+        "denominator": "2500",
+        "fraction": "1/2500",
+        "decimal": 0.0004,
+        "passed": true
+      },
+      "support_gap": {
+        "numerator": "9",
+        "denominator": "10000",
+        "fraction": "9/10000",
+        "decimal": 0.0009,
+        "passed": true
+      },
+      "reach_ratio": {
+        "numerator": "1",
+        "denominator": "1000",
+        "fraction": "1/1000",
+        "decimal": 0.001,
+        "passed": true
+      },
+      "held_ratio": {
+        "numerator": "0",
+        "denominator": "1",
+        "fraction": "0",
+        "decimal": 0,
+        "passed": true
+      },
+      "fixed_set_diameter": {
+        "numerator": "49897",
+        "denominator": "25000",
+        "fraction": "49897/25000",
+        "decimal": 1.99588,
+        "passed": true
+      }
+    },
+    "positive_octant_polar_vertices": [
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "z>=0"
+        ],
+        "squared_norm": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        "unit_ball_margin": {
+          "numerator": "1",
+          "denominator": "1",
+          "fraction": "1",
+          "decimal": 1
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "Hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "625000000",
+          "denominator": "1085768401",
+          "fraction": "625000000/1085768401",
+          "decimal": 0.5756292036352971
+        },
+        "unit_ball_margin": {
+          "numerator": "446942776",
+          "denominator": "1085768401",
+          "fraction": "446942776/1085768401",
+          "decimal": 0.4116373027510864
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "1000",
+            "denominator": "1011",
+            "fraction": "1000/1011",
+            "decimal": 0.9891196834817013
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "z>=0",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "1000000",
+          "denominator": "1022121",
+          "fraction": "1000000/1022121",
+          "decimal": 0.9783577482509409
+        },
+        "unit_ball_margin": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "15625000",
+            "denominator": "33313461",
+            "fraction": "15625000/33313461",
+            "decimal": 0.4690296213893837
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "x>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "882966250000000",
+          "denominator": "1109786683798521",
+          "fraction": "882966250000000/1109786683798521",
+          "decimal": 0.7956179893759658
+        },
+        "unit_ball_margin": {
+          "numerator": "202802151",
+          "denominator": "1085768401",
+          "fraction": "202802151/1085768401",
+          "decimal": 0.18678214508104846
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "y>=0",
+          "z>=0",
+          "Ax<=1"
+        ],
+        "squared_norm": {
+          "numerator": "100",
+          "denominator": "169",
+          "fraction": "100/169",
+          "decimal": 0.591715976331361
+        },
+        "unit_ball_margin": {
+          "numerator": "667879",
+          "denominator": "1690000",
+          "fraction": "667879/1690000",
+          "decimal": 0.39519467455621304
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "68750",
+            "denominator": "112619",
+            "fraction": "68750/112619",
+            "decimal": 0.6104653744039638
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "12231319400",
+          "denominator": "12683039161",
+          "fraction": "12231319400/12683039161",
+          "decimal": 0.9643839496775326
+        },
+        "unit_ball_margin": {
+          "numerator": "905753722763",
+          "denominator": "63415195805000",
+          "fraction": "905753722763/63415195805000",
+          "decimal": 0.014282912971650644
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "62500",
+            "denominator": "98853",
+            "fraction": "62500/98853",
+            "decimal": 0.6322519296328892
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "9531250000",
+          "denominator": "9771915609",
+          "fraction": "9531250000/9771915609",
+          "decimal": 0.9753717061598091
+        },
+        "unit_ball_margin": {
+          "numerator": "13255479",
+          "denominator": "4343073604",
+          "fraction": "13255479/4343073604",
+          "decimal": 0.003052096328229762
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "5500",
+            "denominator": "13143",
+            "fraction": "5500/13143",
+            "decimal": 0.4184737122422582
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "z>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "132462100",
+          "denominator": "172738449",
+          "fraction": "132462100/172738449",
+          "decimal": 0.7668362241691773
+        },
+        "unit_ball_margin": {
+          "numerator": "365379",
+          "denominator": "1690000",
+          "fraction": "365379/1690000",
+          "decimal": 0.21620059171597633
+        }
+      }
+    ],
+    "all_cap_and_marked_support_checks_passed": true,
+    "held_flat_disk_bound_is_separate_conditional": true,
+    "ratios": {
+      "diameter_upper": {
+        "numerator": "16",
+        "denominator": "5",
+        "fraction": "16/5",
+        "decimal": 3.2
+      },
+      "held_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "fraction": "1/5",
+        "decimal": 0.2
+      },
+      "E3_quotient_lower": {
+        "numerator": "1609",
+        "denominator": "32000",
+        "fraction": "1609/32000",
+        "decimal": 0.05028125
+      },
+      "reach_lower": {
+        "numerator": "97",
+        "denominator": "3200",
+        "fraction": "97/3200",
+        "decimal": 0.0303125
+      }
+    },
+    "still_required": [
+      "actual entire flat-disk-closed core is C2 embedded",
+      "core global reach >=R, with all point pairs",
+      "whole core ball B_B and |z|<=Z",
+      "phase-zero whole active core slab |y|<=W",
+      "core excludes open held ball centered (0,Aactual,0) radius g",
+      "central Aactual>=A and true circular planar cuff twojet",
+      "one fixed actual metric and exact-solution approximation requirement"
+    ]
+  },
+  "parent_core_hypotheses_not_inherited": "The embedded parent report is a scalar cap/marker budget only. Its old |z|<=Z hypothesis is replaced by the R210 whole-core conditions listed below and proved separately.",
+  "all_cap_and_marked_support_checks_passed": true,
+  "whole_core_still_required": [
+    "C2 closed embedded core with two exact radius .32 planar disks and open common-twojet collars",
+    "whole closed-core reach >=.097",
+    "whole core in B_1.6 and |z|<=Z+.02",
+    "every whole-core point with |z|>Z has cylindrical radius >=.514",
+    "phase-zero whole activity in |y|<=.85",
+    "whole phase-zero core excludes open radius .64 ball about (0,Aactual,0)",
+    "actual central Aactual>=1.30 and all metric/common-g requirements"
+  ],
+  "not_claimed": [
+    "no current fitted field is certified here",
+    "no global reach follows from curvature samples",
+    "no change to the running numerical guide or main field"
+  ],
+  "scope": "Exact rational budgets plus the named analytic proof; not sampled cap geometry.",
+  "execution": {
+    "runtime": "pure V8 JavaScript with BigInt rational arithmetic",
+    "completed": true,
+    "elapsedMilliseconds": 2,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "sourceSHA256": "14c06a3c480423eb364fde5530071e7ec3e92811dee55487d37c9ec7df3c4399",
+  "dependency": {
+    "path": "topics/visible-flexible-closed-surface/scripts/fd2d_corner_cap_rational_R199_R204_recovery.cjs",
+    "gitBlob": "bc82064bcc968da690efeddb14c74e24f1992391",
+    "sha256": "c6002a13d2ebcd50e73c53c182f2b37f48e99f2aec7a3e33028356af37648401"
+  }
+}

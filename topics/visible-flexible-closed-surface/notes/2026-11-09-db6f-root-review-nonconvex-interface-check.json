@@ -1,0 +1,90 @@
+{
+  "status": "INDEPENDENT_RATIONAL_INTERFACE_CHECK_PASS",
+  "reviewed_note": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-interface.md",
+    "bytes": 13770,
+    "sha256": "78b5d369810d4c37898a4f7d80def5d5a169a3921bdde823edded0c22840ed6e"
+  },
+  "exact_field_comparisons": 12,
+  "independent_formulas": true,
+  "original_replays_byte_identical": true,
+  "bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-cones.json",
+      "bytes": 2769,
+      "sha256": "872fa1456032e41f5b87a88c1706755b66563c05121e5cbd4888c6d35842a535"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-interface.md",
+      "bytes": 13770,
+      "sha256": "78b5d369810d4c37898a4f7d80def5d5a169a3921bdde823edded0c22840ed6e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-observed-execution.json",
+      "bytes": 863,
+      "sha256": "163f973af882445df38d32443df4033f209df787d1e8c89a0b2c0a7875aee13b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-publication.json",
+      "bytes": 1438,
+      "sha256": "e2bd96fe707470720d24f0c92754b22939f0285cbe7b7a9c4f88ffce3f84b34a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-nonconvex-connector-sources.json",
+      "bytes": 2559,
+      "sha256": "29dba83dd1b546d27cf8102e7e1a81b09ea9a0252cd65799642894061a4325a3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-cuff-budget.json",
+      "bytes": 1754,
+      "sha256": "88df09518665ba8c96b8f53b24d0ebbded2ebaddf4c98449ab4e50b86d010c91"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cones-replay.json",
+      "bytes": 2769,
+      "sha256": "872fa1456032e41f5b87a88c1706755b66563c05121e5cbd4888c6d35842a535"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-review-nonconvex-cuff-replay.json",
+      "bytes": 1754,
+      "sha256": "88df09518665ba8c96b8f53b24d0ebbded2ebaddf4c98449ab4e50b86d010c91"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-nonconvex-connector-cones.py",
+      "bytes": 4431,
+      "sha256": "4de1c310ca2075295370bec5e8dc5bccc8ab3722199f69d21d9362ddc5a02df3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-cuff-budget.py",
+      "bytes": 2888,
+      "sha256": "d28dc276030c6d3ba0a1af05756415854f2f3a66b4289ca9f9930cac50f5d0bf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-review-nonconvex-interface.py",
+      "bytes": 6663,
+      "sha256": "80c555e97f4b0f413fc8ca5aa7e3f38cc88fb5b9d0d6571b4dfaa193b75037c8"
+    }
+  ],
+  "actual_candidate_solver_or_optimization_calls": 0,
+  "scope": "Conditional support/cuff inequalities only. No closed common-metric family, entire reach lower bound or G5 result."
+}

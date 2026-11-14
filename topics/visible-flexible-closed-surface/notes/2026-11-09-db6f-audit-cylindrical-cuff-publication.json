@@ -1,0 +1,40 @@
+{
+  "status": "CLOSED_AUTHOR_ARTIFACTS_PENDING_INDEPENDENT_REVIEW",
+  "files": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "bytes": 19628,
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff"
+    },
+    {
+      "path": "scripts/db6f-audit-cylindrical-cuff-interface.py",
+      "bytes": 5544,
+      "sha256": "b2a1d8bd026740805147d2748dc901237dbfaa8b318b69ab91fd7c3f3bee80db"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface-observed-replay.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-sources.json",
+      "bytes": 2302,
+      "sha256": "8727f6a9b9e4954e1abbefa1bff46050b0c81cd72523bbfbd081fb58e458add7"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-observed-execution.json",
+      "bytes": 1536,
+      "sha256": "496935951cb781dd9dc61cf9aa69cfccd558530e6ce474142a4ba158ba1e3c52"
+    }
+  ],
+  "local_geometry_only": true,
+  "positive_support_excluded_for_separating_c01_cuff_layout": true,
+  "finite_analytic_nonround_to_cylinder_connection_excluded": true,
+  "closed_common_metric_surface_constructed": false,
+  "current_M15_candidate_read": false
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "fd2d-R199-recovery-R204-closed-manifest-v1",
+  "date_UTC": "2026-11-13",
+  "closed": true,
+  "repository": "Rogerhu12/math-research",
+  "topic": "topics/visible-flexible-closed-surface",
+  "publication_mode": "root-README-section-8-small-UTF8-fallback-during-confirmed-unavailable-executor",
+  "scope": {
+    "R199": "Complete recovered proof and newly reconstructed source for the original conditional A>=1.28, cut height [0.60,0.73] cap/orientation result; new identities are explicitly distinct from unavailable original local files.",
+    "R204": "New complete conditional A>=1.30, cut height [0.40,0.63] fixed-cap result, with all exact rational support/ball/slab/held/reach/gluing budgets.",
+    "mathematical_target": "Unlabelled image Hausdorff quotient by all E(3), including reflections; fixed non-axisymmetric caps and the original whole-core hypotheses are retained.",
+    "old_36mid": "No changes to its source, baseline, accepted state or mathematical binding. Its 51 normal tiles had actual completion, but the final reducer exit remains unknown in the fifth-loss ledger.",
+    "metadata_ownership": "Root HANDOFF/open/log/results indexes were not changed."
+  },
+  "actual_execution": {
+    "exact_cap_check": {
+      "runtime": "functions pure V8",
+      "executed": true,
+      "elapsed_ms": 2,
+      "arithmetic": "BigInt exact rationals",
+      "designs": 2,
+      "polar_vertices_per_design": 8,
+      "OS_process_created": false,
+      "OS_exit_code": null
+    },
+    "orbit_check": {
+      "runtime": "functions pure V8",
+      "executed": true,
+      "fixture": "Five analytic elliptic-tube twojets and flat-collar transport points; not the historical 193-dimensional state",
+      "maximum": {
+        "gram": 2.220446049250313e-16,
+        "kappa": 4.440892098500626e-16,
+        "timeScaledFD": 9.670846531423501e-11,
+        "cutTwojet": 1.1102230246251565e-16
+      },
+      "OS_process_created": false,
+      "OS_exit_code": null
+    },
+    "no_new_candidate_F_J_normal_LM_BVP_or_body": true
+  },
+  "recoverability": {
+    "sources_are_complete_UTF8_CJS": true,
+    "reports_are_actual_new_V8_results": true,
+    "unavailable_original_report_was_not_reconstructed_as_original_bytes": true,
+    "original_observation_ledger": "notes/2026-11-13-fd2d-fifth-loss-numerical-recovery-ledger.json",
+    "original_ledger_commit": "eca7be3df1b169221fc12d658cee80a86a4823f6"
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_corner_cap_rational_R199_R204_recovery.cjs",
+      "bytes": 6872,
+      "sha256": "c6002a13d2ebcd50e73c53c182f2b37f48e99f2aec7a3e33028356af37648401",
+      "publication_commit": "7024aaed0e2a285aba699bb17ef653914f80e761"
+    },
+    {
+      "path": "scripts/fd2d_orientation_orbit_R199_recovery.cjs",
+      "bytes": 3056,
+      "sha256": "e5a6041d4e31b0201023f1c1ae7c28ce3ebc8c024cd3cae1078a6dc09aac45b4",
+      "publication_commit": "d8aeecd5b713be45cc71c09be78f7f36a077707f"
+    },
+    {
+      "path": "results/R199-orientation-orbit-and-low-height-complete-caps-recovered.md",
+      "bytes": 13007,
+      "sha256": "7bd42cb436b233c4a7ed5803c7c3f7e44e48b38958b5f180f2af0ba71d8dcbfd",
+      "publication_commit": "ded376a17b6c441e8305814c9f6f637be210fcc5"
+    },
+    {
+      "path": "results/R204-complete-fixed-caps-for-cuff-height-point-four-to-point-six-three.md",
+      "bytes": 10899,
+      "sha256": "c84547ebe35d85b4cb4d2272a97c168c7334cf8f29d43d445ae48e4267230562",
+      "publication_commit": "aa711b02526af1ed3a7471d7f3bfa2c2ea4d165a"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R199-recovery-R204-exact-cap-V8-report.json",
+      "bytes": 32246,
+      "sha256": "35a54df142038e0a92183d5b8081abdd8afe8bb545ac76bbbac853d2a0ff9d0d",
+      "publication_commit": "e141c8b3f80bc86a684321f72d7c6ac85297546a"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R199-reconstructed-orbit-analytic-V8-report.json",
+      "bytes": 1880,
+      "sha256": "2e0c83c471c6c71894a240fb7d0db18e7dd198196eae5fd447db0d0322da2af5",
+      "publication_commit": "65cbff895e350c9e545981b57045ba13186a2ff5"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R199-recovery-R204-execution.md",
+      "bytes": 3376,
+      "sha256": "1941b184a2bdbb2fe86e6362cced9ebd76cc1347b3d9491b2b4025c8ad3721a0",
+      "publication_commit": "97db3e80ffc79e69507a914d5ae482b843f6445f"
+    }
+  ],
+  "file_count": 7,
+  "total_artifact_bytes": 71336,
+  "artifact_hashes_rechecked_from_exact_retained_contents": true,
+  "self_not_in_files": true
+}

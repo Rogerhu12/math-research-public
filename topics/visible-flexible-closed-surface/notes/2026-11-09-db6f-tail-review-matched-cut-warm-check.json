@@ -1,0 +1,125 @@
+{
+  "status": "PASS-independent-stored-coefficients-input-identity-and-pure-replay",
+  "reviewer": "/root/tail_theory",
+  "scope": "Independent exact coefficient arithmetic and stored-data checks. Original preparer replay is a separate observed process. No BVP/IVP, tail root, RK, DN, or actual-geometry evaluation by this checker.",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-matched-cut-warm.py",
+    "bytes": 15696,
+    "sha256": "02dd8e6ad710f55d682b8509b66daf6d11ee36eb455d3729ba254e0117d6be47"
+  },
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-hermite-warm-interface.md",
+      "bytes": 11876,
+      "sha256": "9c26c977f6bc173b8e8710672c4258dfcaa55ea1a4abbedabb5215204c77ef2f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-hermite-warm-interface-sources.json",
+      "bytes": 11813,
+      "sha256": "bcdbb73657f477e7db770640ead238ed1365436122817a662933d26a520a7f18"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-matched-cut-warm.py",
+      "bytes": 25609,
+      "sha256": "246e36312e7dc80b7f8c16dc8759423752c6370ad923eeba14a5545e5a3ecf48"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "bytes": 27524,
+      "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay.json.gz",
+      "bytes": 27524,
+      "sha256": "baeaef0c972800ff39b380770b99400f4e73f253575148022670618e7e6b3d59"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01-preparation.json",
+      "bytes": 50218,
+      "sha256": "31bc073433407e02edb11ec7ea41478195b46d95de1bb73d04b864e56c40a358"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay-preparation.json",
+      "bytes": 50144,
+      "sha256": "38ac47331826053026709467a3c6adfb0a16414f11b3c84d85921c74ebcd0b7a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json",
+      "bytes": 39604,
+      "sha256": "5b184918f4c5a86f10189c5433cd447af4a822856a2fe569df4439e03efdeb21"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-run-replay-input-bindings.json",
+      "bytes": 39415,
+      "sha256": "18de314363f082ff6f1581df1963367cf8b6044a1d0fce4fd3864e5a6d5170b2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-publication.json",
+      "bytes": 3238,
+      "sha256": "bd8151805eaf1cb5eb26b0c8ccbfeaee26643fbb5554c8caf9812414a4b0f08d"
+    }
+  ],
+  "binding_counts": {
+    "static_ledger": 34,
+    "author_launch": 121,
+    "replay_launch": 121,
+    "author_publication": 9,
+    "distinct_files_rehashed": 129
+  },
+  "full_array_shape": [
+    6,
+    2632,
+    46
+  ],
+  "total_stored_scalars": 726432,
+  "independently_recomputed_Z_coefficients": 236880,
+  "bitwise_preserved_R_T_coefficients": 489552,
+  "coefficient_blocks_byte_equal": [
+    true,
+    true
+  ],
+  "whole_replay_array_byte_equal": true,
+  "method": "Independent exact power-sum endpoint plus Horner polynomial shift, rather than the author binomial formula.",
+  "maximum_coefficient_rounding_error": {
+    "numerator": "4051877821444025941556126306177530256302136696482498789827510245091120830063361228450788695",
+    "denominator": "775995104741311999452633927163311250190168880701392041393137305237488344450441537764064818002716000256",
+    "display": 5.2215249770097094e-12
+  },
+  "central_46_slot_two_jet_coefficients_equal": true,
+  "original_restart_math_fields_identical": true,
+  "actual_request_different_modes": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    14,
+    15
+  ],
+  "normalization_nonrepresentable_modes": [
+    1,
+    6,
+    8,
+    11
+  ],
+  "actual_height_max_difference": 1.0842021724855044e-19,
+  "source_success_only_unaudited_warm": true,
+  "changed_argv_values": [
+    "--out-prefix",
+    "--restart",
+    "--tail-config"
+  ],
+  "changed_configuration_fields": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "output_paths_independent_from_old_active_IO": true,
+  "old_success_fields_not_inherited": true,
+  "original_initial_boundary_correction_retained": true,
+  "future_actual_coupled_launch_executed": false
+}

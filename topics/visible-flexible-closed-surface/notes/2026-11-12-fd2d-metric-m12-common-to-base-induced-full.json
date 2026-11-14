@@ -1,0 +1,114 @@
+{
+  "ODE_calls": 0,
+  "area_certificate_coordinate": "original saved radial coordinate and psi; normalized area multiplied by S_ref exactly",
+  "area_raw_lower_exact": "3602332297248713/18014398509481984",
+  "budgets": {
+    "beta": 0.1,
+    "epsilon": 0.0001,
+    "eta": 0.001
+  },
+  "candidate": {
+    "bytes": 9031,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+    "sha256": "da43f85ee6715254cca3daddd609c80e23bdf97916acb9ba2034282c3c237c7d"
+  },
+  "caps_covered": false,
+  "comparison_is_global_C2_verified": false,
+  "complete_prefix_domain": true,
+  "coordinate_source": {
+    "bytes": 16619,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-prefix-c2-difference.py",
+    "sha256": "fc5d483550bafc8adc4ddf89e07b6d89bc25523a5e1e83fcdf86ae2b76ed77db"
+  },
+  "difference_report": {
+    "bytes": 6915,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-common-to-base-c2-full.json",
+    "sha256": "09779b7f2868f5255a95ec2cfb90a69a7489b85c860dcf51b2d54c6ea503fc9d"
+  },
+  "each_prefix_budget_met": {
+    "beta": true,
+    "epsilon": true,
+    "eta": true
+  },
+  "formulas": {
+    "gradient": "eta <= sqrt(U_x^2+U_psi^2)/sqrt(m)",
+    "gram_minimum": "m=area_lower^2/(|X_x|_upper^2+|X_psi|_upper^2)",
+    "old_connection": "dX(Gamma(v,v))=projection_to_tangent(D_coordinate^2 X(v,v)); its norm is <= C_X/m for h-unit v",
+    "second": "beta <= (C_u+eta*C_X)/m",
+    "tensor_majorant": "C_V=lambda_max([[|V_xx|,|V_xpsi|],[|V_xpsi|,|V_psipsi|]])"
+  },
+  "maxima": {
+    "beta": 5.820922699604874e-06,
+    "epsilon": 1.7243295709225254e-11,
+    "eta": 6.432237538694632e-09
+  },
+  "maximum_locations": {
+    "beta": {
+      "cell": 2490,
+      "left_exact": "4451338464419750/4552634583911787",
+      "right_exact": "4452476623065728/4552634583911787",
+      "subdivision": 0
+    },
+    "epsilon": {
+      "cell": 2476,
+      "left_exact": "8870808486752117/9105269167823574",
+      "right_exact": "4436542402022036/4552634583911787",
+      "subdivision": 0
+    },
+    "eta": {
+      "cell": 2469,
+      "left_exact": "77674335664109/79870782173891",
+      "right_exact": "1476191763833397/1517544861303929",
+      "subdivision": 0
+    }
+  },
+  "minimum_old_gram_eigenvalue_lower": 0.020612515956856124,
+  "new_metric_certificate": false,
+  "normalized_area_lower_exact": "16400102599196886314353191280131/40564819207303340847894502572032",
+  "old_metric": "h=X*e for the actual reference geometry",
+  "radial_cells_checked": 2569,
+  "reference": {
+    "bytes": 10095,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+    "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+  },
+  "reference_bindings": [
+    {
+      "bytes": 10095,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    {
+      "bytes": 13021,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-common-cut-v2.py",
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "bytes": 3112330,
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m12f24-data.npz.gz",
+      "sha256": "359d491cd592962d467fdd538013977ee9a92070346de41c227d9ca3e1ef3bd0"
+    }
+  ],
+  "reference_certificate": {
+    "bytes": 3239,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-geometry.json",
+    "sha256": "fc00c975f1ec9b0413d2d1c77e0dbf3dd27d35016c0b335ff439aba4aeeca462"
+  },
+  "row_data": {
+    "bytes": 321489,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-m12-common-to-base-induced-full-rows.json.gz",
+    "sha256": "d27b29ff075d2cd497e4823b28a7621e335a75ea1e291b0e61b5891550b3abde"
+  },
+  "schema": "fd2d-prefix-old-induced-tensor-difference-v1",
+  "scope": "Convert a continuous coordinate difference to the OLD induced C2 norm.\n\nThe reference area-element lower bound is taken from that same reference\nmap's existing complete continuous geometry certificate. All reference\ncoordinate jets are recomputed as continuous polynomial/Fourier bounds on\nthe difference report's exact subintervals. The old Levi-Civita connection\nis controlled through its actual Gauss tangential projection, not replaced\nby the target metric's connection.\n\nThis still covers a prefix only: whole-surface C2 matching and tails/caps\nremain UNVERIFIED_GLOBALLY.\n",
+  "script": {
+    "bytes": 8599,
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-prefix-tensor-difference.py",
+    "sha256": "ef1b79067ae112de85413a032f87783ef0000abf8660a98ff0060bd688790471"
+  },
+  "seconds": 93.90095752799971,
+  "solver_calls": 0,
+  "status": "PREFIX_ONLY__UNVERIFIED_GLOBALLY",
+  "tail_covered": false,
+  "whole_surface_transfer": false
+}

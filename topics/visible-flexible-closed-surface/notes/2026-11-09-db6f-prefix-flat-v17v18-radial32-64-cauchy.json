@@ -1,0 +1,54 @@
+{
+  "scope": "Compare saved coupled prefixes on one frozen metric in physical coordinates.\n\nThese are sampled C2 Cauchy diagnostics, not an interval existence proof.\nThe actual nonlinear tail must be compared independently. No checkpoint or\nphysical parameter is modified, and no large numerical array is printed.\n",
+  "same_frozen_metric_checked": true,
+  "radial_nodes": 4416,
+  "angular": 1024,
+  "records": [
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine.json.gz",
+      "sha256": "23e08cc3c25dfa46a1c3f79868eb36ff28bec1c72d7f36b5eb254bbaacfce5f1",
+      "modes": 8,
+      "nodes": 841,
+      "amplitude": 0.1,
+      "prefix_metric": 1.1186585603770491e-07,
+      "tail_parameters": {
+        "depth": 10,
+        "steps": 32,
+        "shootingParts": 2,
+        "quadrature": 256
+      },
+      "tail_shooting_residual": 1.3505653752886372e-10
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64.json.gz",
+      "sha256": "d5ccd049f47417b182e765e0ca9814f16d12519f9cb0c4a5a41d7c0676200c80",
+      "modes": 8,
+      "nodes": 2570,
+      "amplitude": 0.09999992988510656,
+      "prefix_metric": 1.1183768047986612e-07,
+      "tail_parameters": {
+        "depth": 10,
+        "steps": 64,
+        "shootingParts": 2,
+        "quadrature": 256
+      },
+      "tail_shooting_residual": 1.872382418274325e-10
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine.json.gz",
+      "right": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64.json.gz",
+      "amplitude_difference": -7.011489344677102e-08,
+      "sampled_physical_jet_sup_difference": {
+        "F": 7.030730286849973e-08,
+        "Fs": 9.996752327057817e-08,
+        "Ft": 3.167660420065222e-07,
+        "Fss": 0.0001364927328275061,
+        "Fst": 9.74325860902121e-07,
+        "Ftt": 1.4664858960067306e-05
+      },
+      "mean_cut_height_difference": 5.6155622374376435e-09
+    }
+  ]
+}

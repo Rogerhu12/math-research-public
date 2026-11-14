@@ -1,0 +1,64 @@
+{
+  "schema": "fd2d-R139-native-GC-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R139-native-gauss-codazzi-propagation-on-a-flat-coast.md",
+      "sha256": "03837541b4bf1d62ea71c1c03497e030c1b9bcf0703a81890dc35377d8b5f989",
+      "bytes": 9672,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_native_gc.py",
+      "sha256": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+      "bytes": 9495,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-native-gc-01-field.npz",
+      "sha256": "5f260eff2719cb48174dd51c85c3b3eca1e9c33e6806695ad165e776e01070ae",
+      "bytes": 118658,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-native-gc-01-report.json",
+      "sha256": "23fc2ce14bcf861df247ad106435de366206a3a627809fa2da86b978a37294c7",
+      "bytes": 7056,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_native_coast_chart_audit.py",
+      "sha256": "e3cb59f6460eaa76749bea3661cc062bd6e2eb353a9d5baaf41107d86de35c6d",
+      "bytes": 3507,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-native-coast-chart-audit-01.json",
+      "sha256": "4e39ef51099ba53e2dbd09a7529b2f37fea01fd2b92bad80890f2ec3c9942db2",
+      "bytes": 4020,
+      "closed": true
+    }
+  ],
+  "all_files_closed": true,
+  "actual_runs": [
+    {
+      "task": "native GC formula and full fixed-material table",
+      "session": 41355,
+      "final_chunk": "88d891",
+      "exit_code": 0,
+      "seconds": 100.49913619299969
+    },
+    {
+      "task": "finite saved-chart and frequency-convention audit",
+      "session": 12425,
+      "final_chunk": "7e6cfb",
+      "exit_code": 0,
+      "seconds": 0.11176195699954405
+    }
+  ],
+  "frequency_convention": "Largest integer Fourier wave in fixed seed normal phi; in D2 cos(2k phi), k_max=floor(M/2).",
+  "physical_metric_scope": "Frozen new34 base candidate, delta=0 only; no reuse as an exact solution on modified radial-bump metrics.",
+  "position_monodromy_not_inferred": true,
+  "accurate_formula_does_not_imply_good_low_order_Fourier_warm": true,
+  "angular_certificate_manifest": "notes/2026-11-12-fd2d-k0-ruling-angular-closed-manifest.json",
+  "global_indexes_and_git_untouched": true
+}

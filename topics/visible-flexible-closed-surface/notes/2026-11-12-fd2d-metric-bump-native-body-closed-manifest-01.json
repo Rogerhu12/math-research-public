@@ -1,0 +1,92 @@
+{
+  "schema": "fd2d-explicit-bump-native-body-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "scripts/fd2d-metric-bump-body-screen.py",
+      "bytes": 12179,
+      "sha256": "0352ecedf49c4e83c211e16689aef0e6cc4a2bdcbdaec71c335c901838025acb"
+    },
+    {
+      "path": "scripts/fd2d-metric-bump-native-check.py",
+      "bytes": 8555,
+      "sha256": "c98e93ab293f39cff5680c650ea45969e4b5acf65e58f928067f62f6c6babf6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-body.md",
+      "bytes": 7518,
+      "sha256": "339801fc60040c89acaad6161c1514a90dd3fce5891fb9a26123b82d9368f2d5"
+    },
+    {
+      "path": "repro/fd2d-metric-bump-native-check01/fd2d-metric-bump-native-check.py",
+      "bytes": 8490,
+      "sha256": "5dabf62703bc9f75425cc25085fadf137cde2be68b7e56321226546c308d445d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-body-help-exit-receipt.json",
+      "bytes": 311,
+      "sha256": "86ea6a257b9b7ae5b3d50ae4fe6fda73e814593cfcf24ec9331ac26bf5874abd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-01-definition.json",
+      "bytes": 12691,
+      "sha256": "39a126d7892c74994e03f5926cf31667d97022eab8a1fb425a87b87db08561e4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-01-failure.json",
+      "bytes": 1096,
+      "sha256": "2c680a479bc4481b4d01fe1f923e26d5274db95e1f40a621fbe7e279aa8333f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-01-fixture.npz",
+      "bytes": 39345,
+      "sha256": "d9ac60e7c824cbb6af1a8b6880be9617e66294fb0b966514d7e16e364572c7b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-02-definition.json",
+      "bytes": 12691,
+      "sha256": "4d44da3988a5f67d981c8ae63cb1b5f3d20185186e70d0b2f7a1b60892b7e9c3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-02-exit-receipt.json",
+      "bytes": 714,
+      "sha256": "c237711c68207693798fffec6133ee51c3ba710786b7f361bdef7c8a834055a3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-02-fixture.npz",
+      "bytes": 39345,
+      "sha256": "d9ac60e7c824cbb6af1a8b6880be9617e66294fb0b966514d7e16e364572c7b4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-native-check-02-report.json",
+      "bytes": 5189,
+      "sha256": "73975d4ce518457f4789b8979f694c88174988900f693780c1fa0af20beaaefc"
+    }
+  ],
+  "actual_executions": [
+    {
+      "session_id": 84705,
+      "chunk_id": "7bdae5",
+      "exit_code": 1,
+      "scope": "final report JSON boolean failure"
+    },
+    {
+      "session_id": 82243,
+      "chunk_id": "595cb4",
+      "exit_code": 0,
+      "scope": "actual saved input field/jet/RHS checks"
+    },
+    {
+      "session_id": 38015,
+      "chunk_id": "2183ab",
+      "exit_code": 0,
+      "scope": "body CLI help/import"
+    }
+  ],
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

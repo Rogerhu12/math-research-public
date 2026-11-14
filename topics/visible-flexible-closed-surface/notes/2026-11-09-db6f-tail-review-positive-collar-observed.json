@@ -1,0 +1,88 @@
+{
+  "status": "CLOSED_INDEPENDENT_FULL_REVIEW_PASS_LOCAL_AND_CONDITIONAL_SCOPE",
+  "observer": "tail_theory",
+  "executions": [
+    {
+      "receipt": "7b3780",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.122704769,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-audit-positive-collar-budget.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-positive-collar-budget-replay.json"
+      ],
+      "result": "Byte-identical to frozen author budget."
+    },
+    {
+      "receipt": "4f7ba3",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.094144768,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-audit-positive-collar-radial-interface.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-positive-collar-radial-replay.json"
+      ],
+      "result": "Byte-identical to frozen author radial budget."
+    },
+    {
+      "receipt": "1c0056",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 2.4917e-05,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-tail-review-positive-collar.py",
+        "--out",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-positive-collar-check.json"
+      ],
+      "result": "17 source entries; six root endpoint enclosures; 19 independent exact formula comparisons; 0 solver."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "scripts/db6f-tail-review-positive-collar.py",
+      "bytes": 10669,
+      "sha256": "7c4e7560b10eac067b1250fb3598569e1fa408b1daa1e9aa2c19552ea14785d7"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-positive-collar.md",
+      "bytes": 14951,
+      "sha256": "17ae3b7070ae6fd8c6bdbca18f2b284bfa887672e696bcb206a16bd255c06070"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-positive-collar-check.json",
+      "bytes": 6137,
+      "sha256": "9c2304ecf7d89074443f98527e37a12684fa1cc3e0c1ef6ae6c9719b701f6842"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-positive-collar-budget-replay.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-positive-collar-radial-replay.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    }
+  ],
+  "primary_source_text_check": {
+    "author": "Herbert Federer",
+    "title": "Curvature measures",
+    "year": 1959,
+    "theorem": "4.18",
+    "page": 449,
+    "url": "https://static1.squarespace.com/static/5cb91b1c70468025fd21e98b/t/5d37d6d2e6603300016d83dc/1563940577696/federer-curvature-measures-transAMS-1959.pdf",
+    "observed": "Direct text open had no readable lines; search retrieval of this original PDF supplied the theorem text. No PDF saved or rendered.",
+    "use": "Only reach implies curvature bound in support-plane necessary condition. Full-template sufficient reach proved directly."
+  },
+  "current_M15_candidate_data_read": false,
+  "new_solver_root_RK_DN_BVP_optimization_calls": 0,
+  "author_frozen_files_changed": false,
+  "scope_limits": [
+    "Only full noncompact template has certified reach here.",
+    "Retained-piece pair bound is not reach of a future connected surface.",
+    "c=.35 removes demonstrated duplicate rays only; global positive-support feasibility is not claimed.",
+    "Common metric and closed geometric connectors remain unconstructed."
+  ]
+}

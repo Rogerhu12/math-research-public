@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-external-observed-run-termination-v1",
+  "session": 66986,
+  "completion_chunk": "356c28",
+  "wrapper_exit_code": 137,
+  "actual_child_returncode": -9,
+  "receipt": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-joint02-process-receipt.json",
+    "bytes": 979,
+    "sha256": "af2bfbc2b3b7a26cdf22dca42df52d14d6e8f1bb994e9d90d01d7332ecacbdbc"
+  },
+  "actual_accepted_steps": 20,
+  "last_accepted": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "bytes": 39331,
+    "sha256": "2bf2d98aaa6c57752a78aeabf96a4d5541528c998b669b59fc139556203f1a22"
+  },
+  "last_recorded_event": "assembled iteration 20",
+  "last_recorded_peak_rss_kib": 669036,
+  "reason_for_signal": "Unknown; no unobserved OOM/time cause asserted",
+  "original_report_preserved": true,
+  "owner_stop_used": false,
+  "closed_state_consumer_actual_session": 90782,
+  "consumer_completion_chunk": "0d308d",
+  "consumer_exit_code": 0,
+  "consumer_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-joint02-closed-state-report.json",
+    "bytes": 15513,
+    "sha256": "fc24eb8682efe8f7136179469e89151e7180c2e11ffd196fd2d533d4202a890c"
+  },
+  "finite_success": false
+}

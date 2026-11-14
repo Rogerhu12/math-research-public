@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T16:07:09.911330+00:00",
+  "finished_utc": "2026-11-12T16:18:08.193886+00:00",
+  "command": [
+    "python",
+    "scripts/fd2d-metric-physical-differential-screen.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-report.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-physical-differential18-01",
+    "--angles",
+    "128"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 658.2825874070004,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-physical-differential18-01-console.txt",
+  "console_sha256": "d62e10ee5cc1abc2b41c41a12fde2886c63400e9ff4374a35e57dbb25540821d"
+}

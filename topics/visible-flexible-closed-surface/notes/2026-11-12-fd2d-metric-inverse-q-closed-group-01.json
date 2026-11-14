@@ -1,0 +1,60 @@
+{
+  "scope": "Closed inverse-Q definition, raw0 numerical candidate, evaluator and actual local check; no complete-tail claim",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-inverse-q-buffer.mjs",
+      "bytes": 6723,
+      "sha256": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632"
+    },
+    {
+      "path": "scripts/fd2d-metric-inverse-q-bridge.mjs",
+      "bytes": 850,
+      "sha256": "a6b1492410ae82d62c66e794c273847d16ee8310a65b59369b79385d53e6b006"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-raw0-candidate-01.json",
+      "bytes": 3616,
+      "sha256": "3fe9d09500459bb3aa6d9b50e9d6c38523730a1a4fa98b6ee67eab5ad7e558af"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-raw0-provider-check-01.json",
+      "bytes": 3135,
+      "sha256": "3f05cce736fe3d4bd234e95677db7ea3503eefb235b42e70ced338b0effb6e0e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-buffer-design.md",
+      "bytes": 12029,
+      "sha256": "39497c7efb6f44f13b3c41a716efa996e5f246c827d2c52b9a9874ea2e28a654"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-hardbg-screen-04.json",
+      "bytes": 13557,
+      "sha256": "04a8a50206631b448df45c4d8c67644f1f219bb09ff8a7aa03e624f111d5bf20"
+    }
+  ],
+  "provenance_aliases": {
+    "positive-q-hardbg-04.json": "notes/2026-11-12-fd2d-metric-inverse-q-hardbg-screen-04.json"
+  },
+  "observed_executions": [
+    {
+      "session": 97765,
+      "exit_code": 0,
+      "operation": "four finite single-cell constrained optimizer trials",
+      "details": "rCut=.65/.7/.75 solver success; .6 reached iteration limit, all preserved"
+    },
+    {
+      "session": 19135,
+      "exit_code": 0,
+      "seconds": 3.698644701,
+      "operation": "4097-point local provider check with two fixed quadrature grids"
+    }
+  ],
+  "unchanged_original_source": true,
+  "full_tail_recomputation_owner": "constructive_geometry",
+  "limitations": [
+    "Provider uses floating Gauss quadrature, not interval integration.",
+    "Exact port uses the original source reference; candidate port decimals are numerical evaluations.",
+    "S5 calibration defines a new exact positive background; the stored polynomial H is only its reference unless c=0.",
+    "Local gain gamma is larger than original raw0; the actual whole-tail normalization must be recomputed."
+  ]
+}

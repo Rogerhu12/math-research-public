@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-run-static-input-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_value_nodes.py",
+      "bytes": 2637,
+      "sha256": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-refined-angular-lowmem-run.py",
+      "bytes": 31912,
+      "sha256": "9e8259d3234db057d78c4c822c56d99b05cd821d26adaacfd11f5e12dbc13c31"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-lowmem22-launch-receipt.json",
+      "bytes": 894,
+      "sha256": "4deba6123f70e8a1b2b882c51601deb7ba90032b7698f2a74b97835f40b467ae"
+    }
+  ],
+  "input": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "bytes": 84844,
+    "sha256": "eac2a27ebecd31424bc5880a3870749cb10b8a130b2a61430d94fa83cf604d73"
+  },
+  "inherited_input_definition": {
+    "path": "notes/2026-11-12-fd2d-refined-angular21-initializer-closed-group.json",
+    "bytes": 3145,
+    "sha256": "b590f3e5bdf78bfe4ff19e6a2f7841a90bad55e4ece552bf1895727eb99f03bf"
+  },
+  "active_outputs_excluded": true
+}

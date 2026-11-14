@@ -1,0 +1,145 @@
+{
+  "schema": "fd2d-smooth-coast-T-Codazzi-JVP-check-v1",
+  "scope": "Small actual check of the smooth T chart and its Codazzi parameter JVP.",
+  "candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-moderate-deep-p148-frozen-01.json",
+    "bytes": 33873,
+    "sha256": "4b35ff865ac94f0d58754cdb287117a7f422e28385b4dd7983581453fef4cf0a"
+  },
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-design-jvp-check.py",
+    "bytes": 2820,
+    "sha256": "2486435ee03f61127aec507dbb204ccaf87a08e77d2ef2e1f7683593c0d058b2"
+  },
+  "profile_source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile.py",
+    "bytes": 5719,
+    "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+  },
+  "flow_source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_flow.py",
+    "bytes": 4581,
+    "sha256": "97beebb06c46d81848713c3f461f6c892f94adf755dc84fe0736f807eb4f4aa0"
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.013443229317710758,
+    "actual_T": 0.013443229317710758,
+    "physical_T_domain": [
+      0.0,
+      1.573661595158579
+    ],
+    "computational_endpoint": 1.6139766557368653,
+    "actual_physical_endpoint": 1.6139766557368653,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "exact_rotational_rhs_maximum": 0.0,
+  "rows": [
+    {
+      "piece": 85,
+      "x": 1.2182207169582828,
+      "checks": [
+        {
+          "step": 0.0001,
+          "state_jvp_relative_l2": 1.2630458257617464e-08,
+          "parameter_jvp_absolute_maximum": 9.421019520061691e-12,
+          "parameter_jvp_relative_l2": 1.4105437753054733e-11
+        },
+        {
+          "step": 1e-05,
+          "state_jvp_relative_l2": 1.2630466794810065e-10,
+          "parameter_jvp_absolute_maximum": 5.3512749786932545e-14,
+          "parameter_jvp_relative_l2": 9.29174379490288e-14
+        },
+        {
+          "step": 1e-06,
+          "state_jvp_relative_l2": 1.316860463790899e-12,
+          "parameter_jvp_absolute_maximum": 1.199040866595169e-13,
+          "parameter_jvp_relative_l2": 2.6999083363404466e-13
+        }
+      ]
+    },
+    {
+      "piece": 86,
+      "x": 1.308307598487264,
+      "checks": [
+        {
+          "step": 0.0001,
+          "state_jvp_relative_l2": 1.016761128230688e-08,
+          "parameter_jvp_absolute_maximum": 1.8235033708707826e-13,
+          "parameter_jvp_relative_l2": 2.1835269542513923e-10
+        },
+        {
+          "step": 1e-05,
+          "state_jvp_relative_l2": 1.0167506785380813e-10,
+          "parameter_jvp_absolute_maximum": 2.3946143798159713e-13,
+          "parameter_jvp_relative_l2": 2.959755768718258e-10
+        },
+        {
+          "step": 1e-06,
+          "state_jvp_relative_l2": 1.0100602143771791e-12,
+          "parameter_jvp_absolute_maximum": 3.531892470544709e-12,
+          "parameter_jvp_relative_l2": 4.699638643504084e-09
+        }
+      ]
+    },
+    {
+      "piece": 87,
+      "x": 1.5051484776128865,
+      "checks": [
+        {
+          "step": 0.0001,
+          "state_jvp_relative_l2": 1.130746254327703e-08,
+          "parameter_jvp_absolute_maximum": 1.47586283472112e-12,
+          "parameter_jvp_relative_l2": 2.0855400262544182e-10
+        },
+        {
+          "step": 1e-05,
+          "state_jvp_relative_l2": 1.1307499075430675e-10,
+          "parameter_jvp_absolute_maximum": 1.461044826789326e-13,
+          "parameter_jvp_relative_l2": 1.924340404858854e-11
+        },
+        {
+          "step": 1e-06,
+          "state_jvp_relative_l2": 1.182270459482211e-12,
+          "parameter_jvp_absolute_maximum": 2.1628445562305032e-13,
+          "parameter_jvp_relative_l2": 3.730617040484887e-11
+        }
+      ]
+    },
+    {
+      "piece": 88,
+      "x": 1.6074925209630055,
+      "checks": [
+        {
+          "step": 0.0001,
+          "state_jvp_relative_l2": 9.934388037410862e-09,
+          "parameter_jvp_absolute_maximum": 0.0,
+          "parameter_jvp_relative_l2": 0.0
+        },
+        {
+          "step": 1e-05,
+          "state_jvp_relative_l2": 9.934304134608671e-11,
+          "parameter_jvp_absolute_maximum": 0.0,
+          "parameter_jvp_relative_l2": 0.0
+        },
+        {
+          "step": 1e-06,
+          "state_jvp_relative_l2": 9.727769089735657e-13,
+          "parameter_jvp_absolute_maximum": 0.0,
+          "parameter_jvp_relative_l2": 0.0
+        }
+      ]
+    }
+  ],
+  "BVP_solved": false
+}

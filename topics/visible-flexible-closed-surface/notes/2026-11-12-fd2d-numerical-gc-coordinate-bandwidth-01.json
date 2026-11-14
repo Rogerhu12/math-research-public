@@ -1,0 +1,1449 @@
+{
+  "schema": "fd2d-actual-native-coordinate-bandwidth-v1",
+  "source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-coordinate-bandwidth-01/fd2d_gc_native_coordinate_bandwidth.py",
+    "bytes": 5780,
+    "sha256": "73f2e20fddac1bbd0a8eb938a5a63774c854f44871a990b0f2e09c2378029a1e"
+  },
+  "actual_field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/outputs/2026-11-12-fd2d-root-short088-gap005-actual-body01-native-field.json",
+    "bytes": 15320,
+    "sha256": "5d6c34af2b1b3765f03db622db422a7ff18a0824acd62e510ef2475597f6a57b"
+  },
+  "defining_arrays": {
+    "file": "2026-11-12-fd2d-root-short088-04-field.npz.gz",
+    "bytes": 3127104,
+    "sha256": "eebc5debe13f4070114cc137d479d48790427041a3c301d174dda8351b814282"
+  },
+  "physical_evaluator": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/topic/scripts/fd2d_gc_native_log_physical.py",
+    "bytes": 6049,
+    "sha256": "86351ac3da7edd2c2aa98a31e9cbbf9e1f3b911e3d8b724e811b7c02390da619"
+  },
+  "native_evaluator": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/topic/scripts/fd2d_gc_native_log_field.py",
+    "bytes": 6391,
+    "sha256": "33c7fb7bf9a28aa1819adba9bd2fb6ceeb233b701e3706da4321f584d12f46d6"
+  },
+  "gzip_reader": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-coordinate-bandwidth-01/fd2d_gc_native_spectral_residual_screen.py",
+    "bytes": 3561,
+    "sha256": "da9f3b474385fdfc6205ed67f8967d5ba130e3611545ef8b46dc760a8641355c"
+  },
+  "angular_points": 2048,
+  "maximum_native_frequency": 94,
+  "retained_frequencies": [
+    16,
+    32,
+    64,
+    94,
+    190
+  ],
+  "same_actual_field": true,
+  "new_solve": false,
+  "physical_metric_changed": false,
+  "continuous_certificate": false,
+  "coordinate_rhs_note": "Original xi RHS includes U_x/U_xi transport. Material u RHS is J times the physical fixed-u shape RHS; actual x derivative is transported by the same chain rule.",
+  "interpretation_note": "Native eta,zeta are finite degree94 in xi by definition, so xi tails above94 are rounding. Material tails measure re-expression of that same field. RHS and residual spectra are also reported to distinguish this representation fact from genuine resolved-velocity content.",
+  "rows": [
+    {
+      "x": 0.78,
+      "nearest_native_node": 240,
+      "charts": {
+        "original_xi": {
+          "beta": 0.09718944607893722,
+          "material_inverse_maximum": null,
+          "q_minimum": 0.3032844430791216,
+          "q_maximum": 2.8992637545460993,
+          "fields": {
+            "eta": {
+              "maximum": 0.7206647969873092,
+              "weighted_coefficient_l1": 1.2516064256512858,
+              "odd_coefficient_l1": 3.922035369372119e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.1071240626844343,
+                  "sampled_coefficient_tail_l1": 0.11448357519649295,
+                  "sampled_tail_coefficient_maximum": 0.008540899992174836
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.055044102121112104,
+                  "sampled_coefficient_tail_l1": 0.05959268875801482,
+                  "sampled_tail_coefficient_maximum": 0.008540899992174836
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0035370167184622936,
+                  "sampled_coefficient_tail_l1": 0.003749973375034472,
+                  "sampled_tail_coefficient_maximum": 0.0003901785064668549
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 2.0539125955565396e-15,
+                  "sampled_coefficient_tail_l1": 7.209107652091833e-15,
+                  "sampled_tail_coefficient_maximum": 3.96132724590328e-17
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 1.887379141862766e-15,
+                  "sampled_coefficient_tail_l1": 6.562228020743841e-15,
+                  "sampled_tail_coefficient_maximum": 3.96132724590328e-17
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.7308226364562325,
+              "weighted_coefficient_l1": 1.1454249100537426,
+              "odd_coefficient_l1": 4.3452815720550245e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.0672713908607509,
+                  "sampled_coefficient_tail_l1": 0.11961046645313284,
+                  "sampled_tail_coefficient_maximum": 0.01060941019627032
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.037010186264746836,
+                  "sampled_coefficient_tail_l1": 0.05666019115468007,
+                  "sampled_tail_coefficient_maximum": 0.004827145320242808
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0033046109104023502,
+                  "sampled_coefficient_tail_l1": 0.004166227181298301,
+                  "sampled_tail_coefficient_maximum": 0.0004578529225711825
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 1.942890293094024e-15,
+                  "sampled_coefficient_tail_l1": 7.88683112141834e-15,
+                  "sampled_tail_coefficient_maximum": 5.551388782488932e-17
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 1.7208456881689926e-15,
+                  "sampled_coefficient_tail_l1": 7.122400965121287e-15,
+                  "sampled_tail_coefficient_maximum": 5.551388782488932e-17
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 28.8633487329899,
+              "weighted_coefficient_l1": 36.310243302859334,
+              "odd_coefficient_l1": 2.0679663925725733e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 6.345752716635388,
+                  "sampled_coefficient_tail_l1": 7.444020816738119,
+                  "sampled_tail_coefficient_maximum": 0.3869018441789839
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 4.8141145214681735,
+                  "sampled_coefficient_tail_l1": 5.194012597361292,
+                  "sampled_tail_coefficient_maximum": 0.3869018441789839
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.12239871432508309,
+                  "sampled_coefficient_tail_l1": 0.19505565743951975,
+                  "sampled_tail_coefficient_maximum": 0.026119842299065527
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.009025800286412533,
+                  "sampled_coefficient_tail_l1": 0.011596188118947717,
+                  "sampled_tail_coefficient_maximum": 0.0007073064349230161
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.5346524807901005e-06,
+                  "sampled_coefficient_tail_l1": 2.7783544599154944e-06,
+                  "sampled_tail_coefficient_maximum": 2.0325631924284649e-07
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 38.603597954336905,
+              "weighted_coefficient_l1": 62.83212872965129,
+              "odd_coefficient_l1": 5.538872060969187e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 23.095645851243233,
+                  "sampled_coefficient_tail_l1": 26.183318299261135,
+                  "sampled_tail_coefficient_maximum": 1.8280393265245416
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 14.993130863976733,
+                  "sampled_coefficient_tail_l1": 16.68873941971212,
+                  "sampled_tail_coefficient_maximum": 1.8280393265245416
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 1.117709452048505,
+                  "sampled_coefficient_tail_l1": 1.3077567342670138,
+                  "sampled_tail_coefficient_maximum": 0.11590522527225257
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.07327248629180971,
+                  "sampled_coefficient_tail_l1": 0.10081379713878677,
+                  "sampled_tail_coefficient_maximum": 0.007260221600483458
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.9761186555177233e-05,
+                  "sampled_coefficient_tail_l1": 3.078871531319546e-05,
+                  "sampled_tail_coefficient_maximum": 2.9939140481295033e-06
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.009024561250979687,
+              "weighted_coefficient_l1": 0.011605558027179105,
+              "odd_coefficient_l1": 6.606532983620034e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.009025351575238387,
+                  "sampled_coefficient_tail_l1": 0.011601362523337816,
+                  "sampled_tail_coefficient_maximum": 0.0007073064349230229
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.009026426031246973,
+                  "sampled_coefficient_tail_l1": 0.01160028806732923,
+                  "sampled_tail_coefficient_maximum": 0.0007073064349230229
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.009025019476994788,
+                  "sampled_coefficient_tail_l1": 0.011598564102981528,
+                  "sampled_tail_coefficient_maximum": 0.0007073064349230229
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.009025800286416896,
+                  "sampled_coefficient_tail_l1": 0.011596188118657983,
+                  "sampled_tail_coefficient_maximum": 0.0007073064349230229
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.5346524713254492e-06,
+                  "sampled_coefficient_tail_l1": 2.7783541795603054e-06,
+                  "sampled_tail_coefficient_maximum": 2.0325631968965507e-07
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.07327427980676654,
+              "weighted_coefficient_l1": 0.10084609405945423,
+              "odd_coefficient_l1": 5.651474788322894e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.0732744425337839,
+                  "sampled_coefficient_tail_l1": 0.1008353547479304,
+                  "sampled_tail_coefficient_maximum": 0.007260221600483504
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.07327504453142855,
+                  "sampled_coefficient_tail_l1": 0.10083271920514118,
+                  "sampled_tail_coefficient_maximum": 0.007260221600483504
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.07327033734623568,
+                  "sampled_coefficient_tail_l1": 0.10082329476364046,
+                  "sampled_tail_coefficient_maximum": 0.007260221600483504
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.07327248629172538,
+                  "sampled_coefficient_tail_l1": 0.10081379713798827,
+                  "sampled_tail_coefficient_maximum": 0.007260221600483504
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.9761186534447287e-05,
+                  "sampled_coefficient_tail_l1": 3.078871451440301e-05,
+                  "sampled_tail_coefficient_maximum": 2.9939140489445556e-06
+                }
+              ]
+            }
+          }
+        },
+        "material_u": {
+          "beta": 0.09718944607893722,
+          "material_inverse_maximum": 3.469446951953614e-17,
+          "q_minimum": 0.3032844430791216,
+          "q_maximum": 2.8992637545460993,
+          "fields": {
+            "eta": {
+              "maximum": 0.7207038805022014,
+              "weighted_coefficient_l1": 0.884307711323654,
+              "odd_coefficient_l1": 2.4047709659750483e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.0236453105903921,
+                  "sampled_coefficient_tail_l1": 0.028960959084858576,
+                  "sampled_tail_coefficient_maximum": 0.008244420753209391
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0018673737302941085,
+                  "sampled_coefficient_tail_l1": 0.0024359378435656284,
+                  "sampled_tail_coefficient_maximum": 0.0005021603599485669
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00024541738430650106,
+                  "sampled_coefficient_tail_l1": 0.0006318980922588059,
+                  "sampled_tail_coefficient_maximum": 1.4175618700566723e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.00023368854494759672,
+                  "sampled_coefficient_tail_l1": 0.00048136706275774926,
+                  "sampled_tail_coefficient_maximum": 7.66392952617716e-06
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.0001149655194547794,
+                  "sampled_coefficient_tail_l1": 0.00021927281486925216,
+                  "sampled_tail_coefficient_maximum": 3.5383854929553835e-06
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.730831069206482,
+              "weighted_coefficient_l1": 0.9112365993125422,
+              "odd_coefficient_l1": 2.867789320721208e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.036984374492447486,
+                  "sampled_coefficient_tail_l1": 0.04640301956844621,
+                  "sampled_tail_coefficient_maximum": 0.009338739968384305
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0041883874993990655,
+                  "sampled_coefficient_tail_l1": 0.005847897402258543,
+                  "sampled_tail_coefficient_maximum": 0.000664100270698886
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0012075286589597611,
+                  "sampled_coefficient_tail_l1": 0.002130785595283167,
+                  "sampled_tail_coefficient_maximum": 2.3135198634425952e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.0011482425415025588,
+                  "sampled_coefficient_tail_l1": 0.001983216217470632,
+                  "sampled_tail_coefficient_maximum": 2.3135198634425952e-05
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.0005052992483816077,
+                  "sampled_coefficient_tail_l1": 0.0007980124824602204,
+                  "sampled_tail_coefficient_maximum": 1.9007748608816338e-05
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 28.857210672875482,
+              "weighted_coefficient_l1": 35.01626109632928,
+              "odd_coefficient_l1": 1.074396863643912e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.4346793953049364,
+                  "sampled_coefficient_tail_l1": 1.0428607806282373,
+                  "sampled_tail_coefficient_maximum": 0.12933747153368247
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.2130993378981958,
+                  "sampled_coefficient_tail_l1": 0.3665562421286225,
+                  "sampled_tail_coefficient_maximum": 0.01203410923666371
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.17058322561391925,
+                  "sampled_coefficient_tail_l1": 0.2830161025250007,
+                  "sampled_tail_coefficient_maximum": 0.003265264079820533
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.16610682476532146,
+                  "sampled_coefficient_tail_l1": 0.27254131603180026,
+                  "sampled_tail_coefficient_maximum": 0.003265264079820533
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.08688937338177238,
+                  "sampled_coefficient_tail_l1": 0.13975374537292737,
+                  "sampled_tail_coefficient_maximum": 0.0030096697549828032
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 37.98915421543158,
+              "weighted_coefficient_l1": 59.71634812518668,
+              "odd_coefficient_l1": 2.9541544600044605e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 3.3424548278342083,
+                  "sampled_coefficient_tail_l1": 5.415498723404542,
+                  "sampled_tail_coefficient_maximum": 1.2565162321619496
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.4668710856991336,
+                  "sampled_coefficient_tail_l1": 1.1774819457278605,
+                  "sampled_tail_coefficient_maximum": 0.0923999396090924
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.29035381688751016,
+                  "sampled_coefficient_tail_l1": 0.782051746090615,
+                  "sampled_tail_coefficient_maximum": 0.008614520629817737
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.26334282186161007,
+                  "sampled_coefficient_tail_l1": 0.6897270513016189,
+                  "sampled_tail_coefficient_maximum": 0.006892269472100798
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.23866052939222304,
+                  "sampled_coefficient_tail_l1": 0.4338130769265741,
+                  "sampled_tail_coefficient_maximum": 0.006892269472100798
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.009024561250979687,
+              "weighted_coefficient_l1": 0.025813077780510844,
+              "odd_coefficient_l1": 7.931794759141907e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.009025542740844243,
+                  "sampled_coefficient_tail_l1": 0.025808350658717994,
+                  "sampled_tail_coefficient_maximum": 0.0013453398317195369
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.008621578749981944,
+                  "sampled_coefficient_tail_l1": 0.02536864128404144,
+                  "sampled_tail_coefficient_maximum": 0.0013453398317195369
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.004433744553216361,
+                  "sampled_coefficient_tail_l1": 0.013329320675557442,
+                  "sampled_tail_coefficient_maximum": 0.0001483710621314575
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.004449058790896164,
+                  "sampled_coefficient_tail_l1": 0.011242580459849584,
+                  "sampled_tail_coefficient_maximum": 0.0001483710621314575
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.004203867493071424,
+                  "sampled_coefficient_tail_l1": 0.00724338533732487,
+                  "sampled_tail_coefficient_maximum": 0.0001483710621314575
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.0742982294456626,
+              "weighted_coefficient_l1": 0.21980572125311848,
+              "odd_coefficient_l1": 6.464474970710498e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.07429538012090683,
+                  "sampled_coefficient_tail_l1": 0.2197907063647309,
+                  "sampled_tail_coefficient_maximum": 0.01476138363532589
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.07486067512112494,
+                  "sampled_coefficient_tail_l1": 0.21885343799694632,
+                  "sampled_tail_coefficient_maximum": 0.01476138363532589
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.036255641449071396,
+                  "sampled_coefficient_tail_l1": 0.10802688357693578,
+                  "sampled_tail_coefficient_maximum": 0.0015451883085547647
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.03485678767836574,
+                  "sampled_coefficient_tail_l1": 0.0855285398721519,
+                  "sampled_tail_coefficient_maximum": 0.0012847577533914526
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.027049214187050277,
+                  "sampled_coefficient_tail_l1": 0.05063820410244453,
+                  "sampled_tail_coefficient_maximum": 0.0012847577533914526
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 0.84,
+      "nearest_native_node": 436,
+      "charts": {
+        "original_xi": {
+          "beta": 0.18638892708038998,
+          "material_inverse_maximum": null,
+          "q_minimum": 0.3721213278641596,
+          "q_maximum": 2.7116127125256098,
+          "fields": {
+            "eta": {
+              "maximum": 0.28148400965199205,
+              "weighted_coefficient_l1": 0.47831880641460023,
+              "odd_coefficient_l1": 1.4389255093773694e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.03208961924968096,
+                  "sampled_coefficient_tail_l1": 0.044204933905328814,
+                  "sampled_tail_coefficient_maximum": 0.003748765455634434
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.009069437761130051,
+                  "sampled_coefficient_tail_l1": 0.012785456728191475,
+                  "sampled_tail_coefficient_maximum": 0.0015334178977104344
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0003994535110832184,
+                  "sampled_coefficient_tail_l1": 0.00058740672485191,
+                  "sampled_tail_coefficient_maximum": 6.0765053709562986e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 7.355227538141662e-16,
+                  "sampled_coefficient_tail_l1": 2.6493088603169295e-15,
+                  "sampled_tail_coefficient_maximum": 1.50611783672593e-17
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 6.661338147750939e-16,
+                  "sampled_coefficient_tail_l1": 2.4107798345113473e-15,
+                  "sampled_tail_coefficient_maximum": 1.50611783672593e-17
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.20854404956199302,
+              "weighted_coefficient_l1": 0.3003486559908259,
+              "odd_coefficient_l1": 1.583358450379624e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.02269993506005473,
+                  "sampled_coefficient_tail_l1": 0.04083854348503462,
+                  "sampled_tail_coefficient_maximum": 0.002989999717063093
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.01964276193227715,
+                  "sampled_coefficient_tail_l1": 0.025993582373698067,
+                  "sampled_tail_coefficient_maximum": 0.0024116876574490588
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0014165130445916866,
+                  "sampled_coefficient_tail_l1": 0.0018845825048602971,
+                  "sampled_tail_coefficient_maximum": 0.0001703274510408446
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 5.273559366969494e-16,
+                  "sampled_coefficient_tail_l1": 2.7268076664098832e-15,
+                  "sampled_tail_coefficient_maximum": 1.291489967554647e-17
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 4.718447854656915e-16,
+                  "sampled_coefficient_tail_l1": 2.4821343048919607e-15,
+                  "sampled_tail_coefficient_maximum": 1.291489967554647e-17
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 2.7606972363601456,
+              "weighted_coefficient_l1": 6.1827123021772445,
+              "odd_coefficient_l1": 3.5979474725679756e-14,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.6963610760921682,
+                  "sampled_coefficient_tail_l1": 1.178479446825309,
+                  "sampled_tail_coefficient_maximum": 0.08323559418038265
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.5359801733100813,
+                  "sampled_coefficient_tail_l1": 0.712817111400045,
+                  "sampled_tail_coefficient_maximum": 0.08323559418038265
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.061083778601322525,
+                  "sampled_coefficient_tail_l1": 0.1128380251196776,
+                  "sampled_tail_coefficient_maximum": 0.01069704781487736
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.004466846959218063,
+                  "sampled_coefficient_tail_l1": 0.0050336276697361265,
+                  "sampled_tail_coefficient_maximum": 0.0014820463171254538
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.348952027331208e-08,
+                  "sampled_coefficient_tail_l1": 3.088853576929101e-08,
+                  "sampled_tail_coefficient_maximum": 4.673373412879568e-09
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 8.630915428463235,
+              "weighted_coefficient_l1": 17.25962503699821,
+              "odd_coefficient_l1": 1.442305864629369e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 4.368420050658125,
+                  "sampled_coefficient_tail_l1": 6.016322283167433,
+                  "sampled_tail_coefficient_maximum": 0.47332193125369865
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 1.4046462779021203,
+                  "sampled_coefficient_tail_l1": 2.1941605207513213,
+                  "sampled_tail_coefficient_maximum": 0.20185839138199502
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.1581299344567717,
+                  "sampled_coefficient_tail_l1": 0.3284253566736802,
+                  "sampled_tail_coefficient_maximum": 0.030307870110881284
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.013331581167776996,
+                  "sampled_coefficient_tail_l1": 0.019342610852878535,
+                  "sampled_tail_coefficient_maximum": 0.0026582358605876854
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 4.4267322429902833e-07,
+                  "sampled_coefficient_tail_l1": 6.355703157637714e-07,
+                  "sampled_tail_coefficient_maximum": 6.276393066237418e-08
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.004471821710378796,
+              "weighted_coefficient_l1": 0.005054881824328711,
+              "odd_coefficient_l1": 4.178975727464133e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.004471176582363472,
+                  "sampled_coefficient_tail_l1": 0.005054002765873625,
+                  "sampled_tail_coefficient_maximum": 0.0014820463171254464
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.004470833781622312,
+                  "sampled_coefficient_tail_l1": 0.005053476077880749,
+                  "sampled_tail_coefficient_maximum": 0.0014820463171254464
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0044705985158254,
+                  "sampled_coefficient_tail_l1": 0.005050221942088179,
+                  "sampled_tail_coefficient_maximum": 0.0014820463171254464
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.004466846959218509,
+                  "sampled_coefficient_tail_l1": 0.005033627669682789,
+                  "sampled_tail_coefficient_maximum": 0.0014820463171254464
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.348952063760401e-08,
+                  "sampled_coefficient_tail_l1": 3.088848499399051e-08,
+                  "sampled_tail_coefficient_maximum": 4.673373439943109e-09
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.013332233594191119,
+              "weighted_coefficient_l1": 0.019397674451679968,
+              "odd_coefficient_l1": 1.4062296971099896e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.01333286264047436,
+                  "sampled_coefficient_tail_l1": 0.01939530613565632,
+                  "sampled_tail_coefficient_maximum": 0.0026582358605876295
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.013332031038820242,
+                  "sampled_coefficient_tail_l1": 0.01939349504648622,
+                  "sampled_tail_coefficient_maximum": 0.0026582358605876295
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.013327250130386286,
+                  "sampled_coefficient_tail_l1": 0.019383046155683023,
+                  "sampled_tail_coefficient_maximum": 0.0026582358605876295
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.013331581167757444,
+                  "sampled_coefficient_tail_l1": 0.019342610852675714,
+                  "sampled_tail_coefficient_maximum": 0.0026582358605876295
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 4.4267321757524014e-07,
+                  "sampled_coefficient_tail_l1": 6.355701149240118e-07,
+                  "sampled_tail_coefficient_maximum": 6.276393068767267e-08
+                }
+              ]
+            }
+          }
+        },
+        "material_u": {
+          "beta": 0.18638892708038998,
+          "material_inverse_maximum": 4.119968255444917e-17,
+          "q_minimum": 0.3721213278641596,
+          "q_maximum": 2.7116127125256098,
+          "fields": {
+            "eta": {
+              "maximum": 0.28148400965199205,
+              "weighted_coefficient_l1": 0.3362262489964853,
+              "odd_coefficient_l1": 1.0497916661151065e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.021414096139051597,
+                  "sampled_coefficient_tail_l1": 0.023120254154872653,
+                  "sampled_tail_coefficient_maximum": 0.005748575345918982
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0013837579861289973,
+                  "sampled_coefficient_tail_l1": 0.0019263688663868446,
+                  "sampled_tail_coefficient_maximum": 0.0003169035755264863
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00020424469895446995,
+                  "sampled_coefficient_tail_l1": 0.0004023026757748303,
+                  "sampled_tail_coefficient_maximum": 7.617993923507906e-06
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.0001949138025027497,
+                  "sampled_coefficient_tail_l1": 0.00035298871959774905,
+                  "sampled_tail_coefficient_maximum": 7.617993923507906e-06
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 9.098663026246845e-05,
+                  "sampled_coefficient_tail_l1": 0.00012171605596808756,
+                  "sampled_tail_coefficient_maximum": 3.963188916914208e-06
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.20854411161023423,
+              "weighted_coefficient_l1": 0.30222920423529126,
+              "odd_coefficient_l1": 1.5229966943919755e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.04957162231543727,
+                  "sampled_coefficient_tail_l1": 0.056225209968328624,
+                  "sampled_tail_coefficient_maximum": 0.00997224221933411
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.006235651501322624,
+                  "sampled_coefficient_tail_l1": 0.007354299895506192,
+                  "sampled_tail_coefficient_maximum": 0.0008959867250903975
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00047529310368146435,
+                  "sampled_coefficient_tail_l1": 0.0010927204376083093,
+                  "sampled_tail_coefficient_maximum": 2.7826988887186094e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.0004200308217878271,
+                  "sampled_coefficient_tail_l1": 0.0007915381395515725,
+                  "sampled_tail_coefficient_maximum": 1.2950846630130453e-05
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.0002635940405798006,
+                  "sampled_coefficient_tail_l1": 0.00032317660830570745,
+                  "sampled_tail_coefficient_maximum": 1.1313910806140808e-05
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 2.7545797790129667,
+              "weighted_coefficient_l1": 4.863526126920135,
+              "odd_coefficient_l1": 2.530494204995944e-14,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 1.0189201802788017,
+                  "sampled_coefficient_tail_l1": 1.2271408990118502,
+                  "sampled_tail_coefficient_maximum": 0.14405611878104013
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.21846678674939768,
+                  "sampled_coefficient_tail_l1": 0.36533120839743677,
+                  "sampled_tail_coefficient_maximum": 0.026759001234473133
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.06637647918958911,
+                  "sampled_coefficient_tail_l1": 0.16073636676927022,
+                  "sampled_tail_coefficient_maximum": 0.002224984518977617
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.066600915053936,
+                  "sampled_coefficient_tail_l1": 0.13783369589258707,
+                  "sampled_tail_coefficient_maximum": 0.002224984518977617
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.05575722968542951,
+                  "sampled_coefficient_tail_l1": 0.06959242388775715,
+                  "sampled_tail_coefficient_maximum": 0.002224984518977617
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 8.356811822539159,
+              "weighted_coefficient_l1": 14.57074006456885,
+              "odd_coefficient_l1": 1.1216862054738711e-13,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 2.6981851085256428,
+                  "sampled_coefficient_tail_l1": 3.597377146153281,
+                  "sampled_tail_coefficient_maximum": 0.7451485243381312
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.3735580938886587,
+                  "sampled_coefficient_tail_l1": 0.7597083201840067,
+                  "sampled_tail_coefficient_maximum": 0.0640101684194744
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.19837060877041068,
+                  "sampled_coefficient_tail_l1": 0.42879583357630097,
+                  "sampled_tail_coefficient_maximum": 0.00672243491721183
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.19585718227077287,
+                  "sampled_coefficient_tail_l1": 0.39693558383392535,
+                  "sampled_tail_coefficient_maximum": 0.00672243491721183
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.13919819159040792,
+                  "sampled_coefficient_tail_l1": 0.18722829356386841,
+                  "sampled_tail_coefficient_maximum": 0.00672243491721183
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.0044868735646985715,
+              "weighted_coefficient_l1": 0.022309412183261008,
+              "odd_coefficient_l1": 9.635901333593037e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.00448664837362115,
+                  "sampled_coefficient_tail_l1": 0.02230906939073508,
+                  "sampled_tail_coefficient_maximum": 0.000619883587732803
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.004517003555585653,
+                  "sampled_coefficient_tail_l1": 0.02217548516854105,
+                  "sampled_tail_coefficient_maximum": 0.000619883587732803
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00497389132799112,
+                  "sampled_coefficient_tail_l1": 0.015693653010062564,
+                  "sampled_tail_coefficient_maximum": 0.00036668694297096473
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.005157995341605288,
+                  "sampled_coefficient_tail_l1": 0.013169469254320124,
+                  "sampled_tail_coefficient_maximum": 0.00036668694297096473
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.004609647691030516,
+                  "sampled_coefficient_tail_l1": 0.008207952031764023,
+                  "sampled_tail_coefficient_maximum": 0.00036668694297096473
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.013285639565842949,
+              "weighted_coefficient_l1": 0.06780683850244112,
+              "odd_coefficient_l1": 2.370205434770393e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.013285715103909102,
+                  "sampled_coefficient_tail_l1": 0.06780578777126924,
+                  "sampled_tail_coefficient_maximum": 0.0019155963614265572
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.013479498769585666,
+                  "sampled_coefficient_tail_l1": 0.0675239200813933,
+                  "sampled_tail_coefficient_maximum": 0.0019155963614265572
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.01601002435815063,
+                  "sampled_coefficient_tail_l1": 0.04346560799942247,
+                  "sampled_tail_coefficient_maximum": 0.0005811978321640827
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.015152512218699885,
+                  "sampled_coefficient_tail_l1": 0.03422931662500341,
+                  "sampled_tail_coefficient_maximum": 0.0005765897831163926
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.010923819559568603,
+                  "sampled_coefficient_tail_l1": 0.018302549989312085,
+                  "sampled_tail_coefficient_maximum": 0.0005765897831163926
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 0.92,
+      "nearest_native_node": 606,
+      "charts": {
+        "original_xi": {
+          "beta": 0.34302226947697023,
+          "material_inverse_maximum": null,
+          "q_minimum": 0.49299816731430374,
+          "q_maximum": 2.3820994733690766,
+          "fields": {
+            "eta": {
+              "maximum": 0.18670560329801542,
+              "weighted_coefficient_l1": 0.30720535123875337,
+              "odd_coefficient_l1": 1.038616708493637e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.025033435251198895,
+                  "sampled_coefficient_tail_l1": 0.03482706846505336,
+                  "sampled_tail_coefficient_maximum": 0.003096734792353977
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0056589687633120805,
+                  "sampled_coefficient_tail_l1": 0.007045425779598897,
+                  "sampled_tail_coefficient_maximum": 0.0008063120313113088
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00024674924164740444,
+                  "sampled_coefficient_tail_l1": 0.0003552788809188527,
+                  "sampled_tail_coefficient_maximum": 3.4093642713705526e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 4.198030811863873e-16,
+                  "sampled_coefficient_tail_l1": 1.828511832508373e-15,
+                  "sampled_tail_coefficient_maximum": 8.778002764088538e-18
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 3.5128150388530344e-16,
+                  "sampled_coefficient_tail_l1": 1.664238519738334e-15,
+                  "sampled_tail_coefficient_maximum": 8.778002764088538e-18
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.10672042115574008,
+              "weighted_coefficient_l1": 0.13428026291388068,
+              "odd_coefficient_l1": 3.172893087857753e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.001979416155035052,
+                  "sampled_coefficient_tail_l1": 0.0029029249131080504,
+                  "sampled_tail_coefficient_maximum": 0.00024888175158829784
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0005896397386467855,
+                  "sampled_coefficient_tail_l1": 0.0010772950975376434,
+                  "sampled_tail_coefficient_maximum": 5.981082351058225e-05
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.0001741637781044747,
+                  "sampled_coefficient_tail_l1": 0.0003182256393147285,
+                  "sampled_tail_coefficient_maximum": 2.0423112524858108e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 1.3877787807814457e-16,
+                  "sampled_coefficient_tail_l1": 6.988147557839123e-16,
+                  "sampled_tail_coefficient_maximum": 6.062095758331067e-18
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 1.1796119636642288e-16,
+                  "sampled_coefficient_tail_l1": 6.280931795504871e-16,
+                  "sampled_tail_coefficient_maximum": 6.062095758331067e-18
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 1.093658802473084,
+              "weighted_coefficient_l1": 2.313572768299748,
+              "odd_coefficient_l1": 1.553967087988487e-14,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.4425451241845123,
+                  "sampled_coefficient_tail_l1": 0.6716402029831396,
+                  "sampled_tail_coefficient_maximum": 0.06953542777016693
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.06321948389907658,
+                  "sampled_coefficient_tail_l1": 0.14586036369229605,
+                  "sampled_tail_coefficient_maximum": 0.007871058193733701
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.032667978469429704,
+                  "sampled_coefficient_tail_l1": 0.056969679952713174,
+                  "sampled_tail_coefficient_maximum": 0.004420091411455635
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.007629574895014257,
+                  "sampled_coefficient_tail_l1": 0.008854480177188609,
+                  "sampled_tail_coefficient_maximum": 0.0024260252234678988
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 4.496763661432368e-08,
+                  "sampled_coefficient_tail_l1": 6.002088907771547e-08,
+                  "sampled_tail_coefficient_maximum": 9.407385241658235e-09
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 2.908128591544238,
+              "weighted_coefficient_l1": 6.856323550675438,
+              "odd_coefficient_l1": 4.987120058829422e-14,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 1.3718755395560995,
+                  "sampled_coefficient_tail_l1": 2.1976579227258277,
+                  "sampled_tail_coefficient_maximum": 0.1809549769037626
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.4103799710595599,
+                  "sampled_coefficient_tail_l1": 0.5687280774391099,
+                  "sampled_tail_coefficient_maximum": 0.04884472468091499
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.05418495231575937,
+                  "sampled_coefficient_tail_l1": 0.09744661611176644,
+                  "sampled_tail_coefficient_maximum": 0.006736465437398933
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.006997178048595787,
+                  "sampled_coefficient_tail_l1": 0.008942194971975077,
+                  "sampled_tail_coefficient_maximum": 0.0014150697260740972
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.0980346604471123e-07,
+                  "sampled_coefficient_tail_l1": 2.97156340677816e-07,
+                  "sampled_tail_coefficient_maximum": 4.100193929925064e-08
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.0076288336258819546,
+              "weighted_coefficient_l1": 0.008859499266891141,
+              "odd_coefficient_l1": 6.695386434809327e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.007628812642719851,
+                  "sampled_coefficient_tail_l1": 0.008858333192132865,
+                  "sampled_tail_coefficient_maximum": 0.0024260252234679126
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.007629014559154208,
+                  "sampled_coefficient_tail_l1": 0.008857926197173113,
+                  "sampled_tail_coefficient_maximum": 0.0024260252234679126
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.007629096557896075,
+                  "sampled_coefficient_tail_l1": 0.008857185764088804,
+                  "sampled_tail_coefficient_maximum": 0.0024260252234679126
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.007629574895012558,
+                  "sampled_coefficient_tail_l1": 0.008854480177166016,
+                  "sampled_tail_coefficient_maximum": 0.0024260252234679126
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 4.496763601063991e-08,
+                  "sampled_coefficient_tail_l1": 6.002086784891974e-08,
+                  "sampled_tail_coefficient_maximum": 9.407385233872215e-09
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.007005710426044743,
+              "weighted_coefficient_l1": 0.008992220988027223,
+              "odd_coefficient_l1": 6.472751338020304e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.006995359241416989,
+                  "sampled_coefficient_tail_l1": 0.008963668919234084,
+                  "sampled_tail_coefficient_maximum": 0.0014150697260741202
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0069940620052702665,
+                  "sampled_coefficient_tail_l1": 0.008952466403020436,
+                  "sampled_tail_coefficient_maximum": 0.0014150697260741202
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.006994758943262004,
+                  "sampled_coefficient_tail_l1": 0.008948231448015603,
+                  "sampled_tail_coefficient_maximum": 0.0014150697260741202
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.006997178048595132,
+                  "sampled_coefficient_tail_l1": 0.00894219497190235,
+                  "sampled_tail_coefficient_maximum": 0.0014150697260741202
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 2.0980346320843835e-07,
+                  "sampled_coefficient_tail_l1": 2.971562717514451e-07,
+                  "sampled_tail_coefficient_maximum": 4.1001939327126635e-08
+                }
+              ]
+            }
+          }
+        },
+        "material_u": {
+          "beta": 0.34302226947697023,
+          "material_inverse_maximum": 3.903127820947816e-17,
+          "q_minimum": 0.49299816731430374,
+          "q_maximum": 2.3820994733690766,
+          "fields": {
+            "eta": {
+              "maximum": 0.18671061089784285,
+              "weighted_coefficient_l1": 0.24867134002011634,
+              "odd_coefficient_l1": 8.615175930825891e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.024458997584001385,
+                  "sampled_coefficient_tail_l1": 0.02753926248153671,
+                  "sampled_tail_coefficient_maximum": 0.005534475244942206
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0026366440432123994,
+                  "sampled_coefficient_tail_l1": 0.0032608526691169527,
+                  "sampled_tail_coefficient_maximum": 0.000399194151153055
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00016645497056222425,
+                  "sampled_coefficient_tail_l1": 0.00040281128875770876,
+                  "sampled_tail_coefficient_maximum": 1.2604624063744803e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.00014324039526089627,
+                  "sampled_coefficient_tail_l1": 0.00025594944773669765,
+                  "sampled_tail_coefficient_maximum": 6.840691396946377e-06
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 1.451791331048835e-05,
+                  "sampled_coefficient_tail_l1": 1.8527916907972177e-05,
+                  "sampled_tail_coefficient_maximum": 2.9028588633746733e-06
+                }
+              ]
+            },
+            "zeta": {
+              "maximum": 0.10672017202334047,
+              "weighted_coefficient_l1": 0.13115619082040125,
+              "odd_coefficient_l1": 3.51338436422442e-16,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.0011227875767462342,
+                  "sampled_coefficient_tail_l1": 0.0020457392743901274,
+                  "sampled_tail_coefficient_maximum": 0.000126937548770229
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.0005158607031395812,
+                  "sampled_coefficient_tail_l1": 0.001082404840264955,
+                  "sampled_tail_coefficient_maximum": 7.741585499264713e-05
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.00025050586549571485,
+                  "sampled_coefficient_tail_l1": 0.0005666125427566414,
+                  "sampled_tail_coefficient_maximum": 1.0647208125211853e-05
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.00025526591473001847,
+                  "sampled_coefficient_tail_l1": 0.0004341549846734262,
+                  "sampled_tail_coefficient_maximum": 1.0647208125211853e-05
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 1.9416717963322006e-05,
+                  "sampled_coefficient_tail_l1": 2.504170308265803e-05,
+                  "sampled_tail_coefficient_maximum": 3.872200112419305e-06
+                }
+              ]
+            },
+            "eta_rhs_at_fixed_coordinate": {
+              "maximum": 0.48073934221797,
+              "weighted_coefficient_l1": 0.7317209784809776,
+              "odd_coefficient_l1": 4.6964010027289035e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.04878847866074065,
+                  "sampled_coefficient_tail_l1": 0.13888027494651553,
+                  "sampled_tail_coefficient_maximum": 0.003955016756422949
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.04634639700503551,
+                  "sampled_coefficient_tail_l1": 0.10284056683663668,
+                  "sampled_tail_coefficient_maximum": 0.002726216428504071
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.039429312373956804,
+                  "sampled_coefficient_tail_l1": 0.08075403180215464,
+                  "sampled_tail_coefficient_maximum": 0.0018283374702696223
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.038908349530528186,
+                  "sampled_coefficient_tail_l1": 0.06857051393548001,
+                  "sampled_tail_coefficient_maximum": 0.0018283374702696223
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.00445408047157847,
+                  "sampled_coefficient_tail_l1": 0.005728461452168763,
+                  "sampled_tail_coefficient_maximum": 0.0008370001511374134
+                }
+              ]
+            },
+            "zeta_rhs_at_fixed_coordinate": {
+              "maximum": 2.850188264299968,
+              "weighted_coefficient_l1": 6.348125010861643,
+              "odd_coefficient_l1": 5.039953464806231e-14,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 1.670326591115058,
+                  "sampled_coefficient_tail_l1": 2.2581914241710077,
+                  "sampled_tail_coefficient_maximum": 0.36457610636534277
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.333999293752681,
+                  "sampled_coefficient_tail_l1": 0.524382690938413,
+                  "sampled_tail_coefficient_maximum": 0.04431095907962207
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.07457669097304986,
+                  "sampled_coefficient_tail_l1": 0.17796445216171,
+                  "sampled_tail_coefficient_maximum": 0.0032829233617689387
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.0741501029515752,
+                  "sampled_coefficient_tail_l1": 0.13409352622178966,
+                  "sampled_tail_coefficient_maximum": 0.0032829233617689387
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.01083050687192072,
+                  "sampled_coefficient_tail_l1": 0.014205612398888592,
+                  "sampled_tail_coefficient_maximum": 0.002052993717270428
+                }
+              ]
+            },
+            "eta_velocity_residual": {
+              "maximum": 0.0076402960778116326,
+              "weighted_coefficient_l1": 0.034114968477814395,
+              "odd_coefficient_l1": 1.3404350360148343e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.007640224095986198,
+                  "sampled_coefficient_tail_l1": 0.034114168734207154,
+                  "sampled_tail_coefficient_maximum": 0.001000357353014107
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.007637826812777172,
+                  "sampled_coefficient_tail_l1": 0.034095607615869744,
+                  "sampled_tail_coefficient_maximum": 0.001000357353014107
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.008920383564114983,
+                  "sampled_coefficient_tail_l1": 0.023672066356529273,
+                  "sampled_tail_coefficient_maximum": 0.0007475202942285559
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.008740596757125334,
+                  "sampled_coefficient_tail_l1": 0.01897988874401594,
+                  "sampled_tail_coefficient_maximum": 0.0007475202942285559
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.004332153727402614,
+                  "sampled_coefficient_tail_l1": 0.006055900886271295,
+                  "sampled_tail_coefficient_maximum": 0.0007475202942285559
+                }
+              ]
+            },
+            "zeta_velocity_residual": {
+              "maximum": 0.006964754284183249,
+              "weighted_coefficient_l1": 0.030140197141810484,
+              "odd_coefficient_l1": 1.0382196798666827e-15,
+              "bands": [
+                {
+                  "retained_maximum_frequency": 16,
+                  "sampled_reconstruction_maximum": 0.00695853543469458,
+                  "sampled_coefficient_tail_l1": 0.0301144327317072,
+                  "sampled_tail_coefficient_maximum": 0.0010192632608307939
+                },
+                {
+                  "retained_maximum_frequency": 32,
+                  "sampled_reconstruction_maximum": 0.006966211118912323,
+                  "sampled_coefficient_tail_l1": 0.03008786929121287,
+                  "sampled_tail_coefficient_maximum": 0.0010192632608307939
+                },
+                {
+                  "retained_maximum_frequency": 64,
+                  "sampled_reconstruction_maximum": 0.008351465849811952,
+                  "sampled_coefficient_tail_l1": 0.019299904167539576,
+                  "sampled_tail_coefficient_maximum": 0.00029621020669846844
+                },
+                {
+                  "retained_maximum_frequency": 94,
+                  "sampled_reconstruction_maximum": 0.007803917217342263,
+                  "sampled_coefficient_tail_l1": 0.014401767539795616,
+                  "sampled_tail_coefficient_maximum": 0.0002949965059657844
+                },
+                {
+                  "retained_maximum_frequency": 190,
+                  "sampled_reconstruction_maximum": 0.002286550750651356,
+                  "sampled_coefficient_tail_l1": 0.0030493905260339576,
+                  "sampled_tail_coefficient_maximum": 0.0002729715864625852
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seconds": 8.416256227999838
+}

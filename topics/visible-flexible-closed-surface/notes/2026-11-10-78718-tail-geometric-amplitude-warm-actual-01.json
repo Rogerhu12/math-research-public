@@ -1,0 +1,25 @@
+{
+  "scope": "Actual scalar warm event extracted from the ongoing root-owned fast04 trace; no extra DN execution. This event does not assert shooting convergence.",
+  "trace": "notes/2026-11-10-78718-numerical-m15-w22-fast-04_tail-trace.jsonl",
+  "trace_bytes_observed": 3381,
+  "trace_prefix_sha256": "d4064eaa3959c070746261951c7b95cfc461576da01dcc90d9a1bae4b7651368",
+  "helper_sha256": "61c401abf66ca792f1c085f6a4b5b5911a62c3f966adb2dc11bd911b196148af",
+  "event": {
+    "time": "2026-11-10T12:10:53.077Z",
+    "event": "geometric_amplitude_warm",
+    "call": 1,
+    "method": "physical-Q-L-amplitude-v1",
+    "scope": "Warm guess only: nonconstant height and radial-height coefficients scale geometrically; the mean is recalibrated, not held fixed. The caller must apply its boundary correction and true DN solve.",
+    "scale": 0.5,
+    "modes": 22,
+    "quadrature": 512,
+    "nodeCount": 865,
+    "maxQScalingError": 0,
+    "maxNonconstantURScalingErrorFourierL1": 2.2474833687489318e-17,
+    "maxMeanURDepartureFromLinearScaling": 0.00016254311728551688,
+    "maxMomentumDepartureFromLinearScalingRelative": 0.5579984806371517,
+    "maxRootRelativeResidual": 5.033841719200836e-14,
+    "minLeading": 0.5617489478485288,
+    "minD": 0.9958471654985006
+  }
+}

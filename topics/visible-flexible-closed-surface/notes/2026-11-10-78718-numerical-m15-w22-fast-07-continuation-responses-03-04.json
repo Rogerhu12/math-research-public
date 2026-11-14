@@ -1,0 +1,60 @@
+{
+  "status": "ACTUAL_INTERMEDIATE_CONTINUATION_RESPONSES_ONLY",
+  "observer": "/root/numerical_recovery",
+  "file_observation_tools": [
+    "1703c2",
+    "67228b"
+  ],
+  "responses": [
+    {
+      "call": 3,
+      "packet": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0003.json.gz",
+        "bytes": 763972,
+        "sha256": "ef79cbc8d49823752a2fedde72efb40e92122b9de7cee4cabb966559440089bb"
+      },
+      "converged": true,
+      "residual": 1.1394312810614165e-10,
+      "history_iterations": 4,
+      "height_scale_from_first_component": 0.34375,
+      "maximum_height_deviation_from_that_multiple": 2.0679515313825692e-25,
+      "request_equals_checkpoint_height": true,
+      "tail_modes": 22,
+      "quadrature": 512,
+      "shooting_parts": 16,
+      "steps_per_stage": 16,
+      "node_count": 1729,
+      "requested_jacobian": false,
+      "requested_audit": false,
+      "last_history_min_A": 0.8459483585108203,
+      "last_history_min_D": 0.9971464522332605
+    },
+    {
+      "call": 4,
+      "packet": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0004.json.gz",
+        "bytes": 764504,
+        "sha256": "39e70f7ae9788d429c4f476c72e3aef147ead8760c778d8c035d3f93e701d7fc"
+      },
+      "converged": true,
+      "residual": 1.037275373104187e-09,
+      "history_iterations": 4,
+      "height_scale_from_first_component": 0.45312500000000006,
+      "maximum_height_deviation_from_that_multiple": 8.470329472543003e-22,
+      "request_equals_checkpoint_height": true,
+      "tail_modes": 22,
+      "quadrature": 512,
+      "shooting_parts": 16,
+      "steps_per_stage": 16,
+      "node_count": 1729,
+      "requested_jacobian": false,
+      "requested_audit": false,
+      "last_history_min_A": 0.75682501746811,
+      "last_history_min_D": 0.9962334500142981
+    }
+  ],
+  "original_full_height_solved": false,
+  "prefix_inner_or_closed_success_asserted": false,
+  "process_session_consumed": false,
+  "scope": "Own closed finite packets on successive actual intermediate physical heights. The original target, final derivative/audit, prefix BVP and whole continuous graph remain outstanding."
+}

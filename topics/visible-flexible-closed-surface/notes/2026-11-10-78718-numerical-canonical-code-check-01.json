@@ -1,0 +1,202 @@
+{
+  "schema": "78718-canonical-runtime-code-check-v1",
+  "status": "PASS_TYPED_CODE_SOURCE_IDENTITY_ONLY",
+  "checker": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+    "bytes": 8260,
+    "sha256": "f869c3e17f5ff58577fb43967dc3f7df825144a9a9650e0ca7c5bb4ff6b95762"
+  },
+  "core": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+    "bytes": 7876,
+    "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+  },
+  "environment": {
+    "implementation": "cpython",
+    "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "optimization": 0,
+    "marshal_version_for_raw_record_only": 4,
+    "compiler_dont_inherit": true
+  },
+  "actual_scipy_functions": [
+    {
+      "name": "prepare_sys",
+      "canonical_code_sha256": "28d838ece09767ab4ab6fc767bc2310af34d7bef255be8be0867a46f45f7e4a7",
+      "source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "live_matches_compiled": true
+    },
+    {
+      "name": "construct_global_jac",
+      "canonical_code_sha256": "2fb1dd63fdb85e620de21de1a431357f767094b419757ea0be0b922655a15014",
+      "source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "live_matches_compiled": true
+    },
+    {
+      "name": "compute_jac_indices",
+      "canonical_code_sha256": "c6de7579d7cd0745ca6539821d972e2432323bfdb9c186efdd448dbe981498f9",
+      "source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "live_matches_compiled": true
+    },
+    {
+      "name": "solve_bvp",
+      "canonical_code_sha256": "c204272895209701259de8c7be650e3b856c7105afee62522ebf7aaf27b9cee2",
+      "source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "live_matches_compiled": true
+    }
+  ],
+  "public_code_data_fields": [
+    "co_argcount",
+    "co_posonlyargcount",
+    "co_kwonlyargcount",
+    "co_nlocals",
+    "co_stacksize",
+    "co_flags",
+    "co_code",
+    "co_consts",
+    "co_names",
+    "co_varnames",
+    "co_filename",
+    "co_name",
+    "co_qualname",
+    "co_firstlineno",
+    "co_linetable",
+    "co_exceptiontable",
+    "co_freevars",
+    "co_cellvars",
+    "co_lnotab"
+  ],
+  "rejections": [
+    {
+      "case": "co_argcount",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_posonlyargcount",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_kwonlyargcount",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_stacksize",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_flags",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_code",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_consts",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_names",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_varnames",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_filename",
+      "error_type": "ValueError",
+      "reason": "Runtime source/module/name/line identity differs"
+    },
+    {
+      "case": "co_name",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_qualname",
+      "error_type": "ValueError",
+      "reason": "Runtime source/module/name/line identity differs"
+    },
+    {
+      "case": "co_firstlineno",
+      "error_type": "ValueError",
+      "reason": "Runtime first line differs"
+    },
+    {
+      "case": "co_linetable",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_exceptiontable",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_freevars",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_cellvars",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "co_nlocals",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "nested_code",
+      "error_type": "ValueError",
+      "reason": "Typed runtime code differs from pinned source"
+    },
+    {
+      "case": "unknown_constant_type",
+      "error_type": "ValueError",
+      "reason": "Unreviewed code-constant type: object"
+    },
+    {
+      "case": "detached_raw_runtime",
+      "error_type": "ValueError",
+      "reason": "Canonical record is detached from original raw identity"
+    },
+    {
+      "case": "changed_environment",
+      "error_type": "ValueError",
+      "reason": "Runtime/compiler environment differs"
+    },
+    {
+      "case": "source_bytes_only",
+      "error_type": "ValueError",
+      "reason": "Canonical source byte binding differs"
+    },
+    {
+      "case": "source_body",
+      "error_type": "ValueError",
+      "reason": "Live function differs from selector raw record"
+    }
+  ],
+  "negative_cases_rejected": 24,
+  "float_bit_cases": 6,
+  "typed_constants_distinct": true,
+  "frozenset_order_independent": true,
+  "nested_code_change_rejected": true,
+  "code_objects_executed_as_functions": 0,
+  "math_callbacks": 0,
+  "matrices_or_factories": 0,
+  "BVP_Newton_DN_calls": 0,
+  "original_solver_or_gate_modified": false,
+  "coupled_success_claimed": false
+}

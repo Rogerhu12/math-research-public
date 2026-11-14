@@ -1,0 +1,33 @@
+{
+  "status": "OBSERVED_AUTHOR_EXACT_SCALAR_EXECUTION_EXIT_ZERO",
+  "script": {
+    "path": "scripts/db6f-audit-positive-collar-budget.py",
+    "bytes": 15340,
+    "sha256": "e80831d9950975ed673b93df4c82ead661a4e8887f422dd49162c2bbc2ba6297"
+  },
+  "report": {
+    "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+    "bytes": 11706,
+    "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+  },
+  "command_from_repo_root": "python topics/visible-flexible-closed-surface/scripts/db6f-audit-positive-collar-budget.py --out topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+  "tool_receipt": {
+    "chunk_id": "ee3c4c",
+    "exit_code": 0
+  },
+  "format_and_strict_display_check": {
+    "chunk_id": "95840c",
+    "exit_code": 0,
+    "strict_decimal_comparisons": 7,
+    "exact_common_host_decimal_comparison": true,
+    "AST_parse": true,
+    "forbidden_control_bytes": 0,
+    "tabs": 0,
+    "CR": 0
+  },
+  "failed_write_before_creation": {
+    "scope": "The first add-file patch for the proof was rejected for a missing patch-line prefix; it created no file. The subsequent complete add-file succeeded."
+  },
+  "not_an_independent_replay": true,
+  "no_geometry_backend_or_solver_calls": true
+}

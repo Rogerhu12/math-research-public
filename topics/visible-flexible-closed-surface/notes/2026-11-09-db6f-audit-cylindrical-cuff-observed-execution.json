@@ -1,0 +1,36 @@
+{
+  "status": "OBSERVED_AUTHOR_EXACT_SCALAR_REPLAY",
+  "tool": "exec_command",
+  "chunk_id": "af8615",
+  "actual_exit_code": 0,
+  "command": "python topics/visible-flexible-closed-surface/scripts/db6f-audit-cylindrical-cuff-interface.py --out topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-interface-observed-replay.json",
+  "script": {
+    "path": "scripts/db6f-audit-cylindrical-cuff-interface.py",
+    "bytes": 5544,
+    "sha256": "b2a1d8bd026740805147d2748dc901237dbfaa8b318b69ab91fd7c3f3bee80db"
+  },
+  "original_report": {
+    "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface.json",
+    "bytes": 5930,
+    "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+  },
+  "observed_replay": {
+    "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface-observed-replay.json",
+    "bytes": 5930,
+    "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+  },
+  "byte_identical": true,
+  "additional_exact_radial_side_checks": {
+    "source_report": {
+      "path": "notes/2026-11-09-db6f-audit-cylindrical-cuff-interface.json",
+      "bytes": 5930,
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c"
+    },
+    "horizontal_radius_lower_strictly_above_one": true,
+    "height_upper_strictly_below_two_fifths": true
+  },
+  "no_unseen_original_execution_claimed": true,
+  "independent_review_claimed": false,
+  "no_control_characters_in_proof": true,
+  "root_RK_solver_or_geometry_backend_calls": 0
+}

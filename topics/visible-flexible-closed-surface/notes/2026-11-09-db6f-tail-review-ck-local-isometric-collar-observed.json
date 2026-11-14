@@ -1,0 +1,27 @@
+{
+  "status": "OBSERVED_INDEPENDENT_EXACT_COMPONENT_CHECK_EXIT_ZERO",
+  "tool": "exec_command",
+  "chunk_id": "0c9eb1",
+  "actual_exit_code": 0,
+  "wall_time_seconds": 0.079934722,
+  "argv": [
+    "python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-ck-local-isometric-collar.py",
+    "--out",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-check.json"
+  ],
+  "script": {
+    "path": "scripts/db6f-tail-review-ck-local-isometric-collar.py",
+    "bytes": 9714,
+    "sha256": "a6cc998ca71dd51283914d0e9ca164897366a9b5605652d4be7d0d6693b9781d"
+  },
+  "output": {
+    "path": "notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-check.json",
+    "bytes": 5289,
+    "sha256": "d39ffb492df931010320af1e130e48e6bee4d6dd5ea222acc8c7ab5fbb3b07f1"
+  },
+  "what_ran": "stdlib-only source hash, exact Fraction and sparse Laurent-polynomial arithmetic; no geometric integration or solver.",
+  "author_solver_runs_reproduced": 0,
+  "new_geometry_solver_root_RK_flow_DN_BVP_calls": 0,
+  "PDF_saved_or_rendered": false
+}

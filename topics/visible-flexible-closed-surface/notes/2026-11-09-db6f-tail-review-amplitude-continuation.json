@@ -1,0 +1,166 @@
+{
+  "status": "PASS: actual input binding, source delta and mock controller cases",
+  "scope": "Independent storage/controller review; mock runs do not solve a tail.\n\nThe frozen actual continuation controller is executed with a deterministic\nfake worker interface. This checks its bookkeeping, request heights, failure\nrollback and final target/audit separation, not numerical ODE correctness.\n",
+  "actual_finite_tail_solve_executed": false,
+  "sources": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-continuation-client.py": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-tail-amplitude-continuation-method.md": "3fae1b9c9c28a5942e527cacf2710d5de1edd29b0418657441bb339d9334b77d",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-amplitude-continuation.py": "daf7ea24b0511ddbfc4b2ecda39156b1b5863c63c0d8b35b4310ae3c6b5cb85f"
+  },
+  "inputs": {
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from-affine-tail-config.json": "c10cc42bca5a30922ce29f2cb8a7f9f65cdab66d3f525b96fdf4b6a0396414df",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190"
+  },
+  "physical_parameter_keys_checked": 21,
+  "original_numerical_settings": {
+    "modes": 15,
+    "quadrature": 256,
+    "depth": 12,
+    "shootingParts": 8,
+    "steps": 32,
+    "tolerance": 2e-09,
+    "projectionFloor": 0.05,
+    "projectionFloor_origin": "unchanged core default; absent from config"
+  },
+  "client_delta_only_atomic_publish_and_self_hash": true,
+  "cases": [
+    {
+      "mode": "mixed",
+      "calls": 11,
+      "status": "TARGET_DN_CONVERGED_AND_AUDITED_PREFIX_STILL_UNSOLVED",
+      "target_reached": true,
+      "target_audited": true,
+      "requested_scales": [
+        0.25,
+        0.125,
+        0.25,
+        0.375,
+        0.3125,
+        0.40625,
+        0.546875,
+        0.746875,
+        0.9468749999999999,
+        1,
+        1.0
+      ],
+      "failures": [
+        1,
+        4
+      ],
+      "original_config_preserved": true,
+      "closed_log_rotation": true,
+      "exact_final_target": true,
+      "scope": "MOCK bookkeeping only; no actual tail solve or existence claim"
+    },
+    {
+      "mode": "all_fail",
+      "calls": 11,
+      "status": "UNCONVERGED_CONTINUATION_STEP_LIMIT",
+      "target_reached": false,
+      "target_audited": false,
+      "requested_scales": [
+        0.25,
+        0.125,
+        0.0625,
+        0.03125,
+        0.015625,
+        0.0078125,
+        0.00390625,
+        0.001953125,
+        0.0009765625,
+        0.00048828125,
+        0.000244140625
+      ],
+      "failures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "original_config_preserved": true,
+      "closed_log_rotation": true,
+      "exact_final_target": "not reached",
+      "scope": "MOCK bookkeeping only; no actual tail solve or existence claim"
+    },
+    {
+      "mode": "attempt_limit",
+      "calls": 2,
+      "status": "UNCONVERGED_CONTINUATION_ATTEMPT_LIMIT",
+      "target_reached": false,
+      "target_audited": false,
+      "requested_scales": [
+        0.25,
+        0.125
+      ],
+      "failures": [
+        1,
+        2
+      ],
+      "original_config_preserved": true,
+      "closed_log_rotation": true,
+      "exact_final_target": "not reached",
+      "scope": "MOCK bookkeeping only; no actual tail solve or existence claim"
+    },
+    {
+      "mode": "final_audit_fail",
+      "calls": 8,
+      "status": "UNCONVERGED_CONTINUATION_EXCEPTION",
+      "target_reached": true,
+      "target_audited": false,
+      "requested_scales": [
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1,
+        1.0
+      ],
+      "failures": [
+        8
+      ],
+      "original_config_preserved": true,
+      "closed_log_rotation": true,
+      "exact_final_target": true,
+      "scope": "MOCK bookkeeping only; no actual tail solve or existence claim"
+    },
+    {
+      "mode": "resume",
+      "calls": 10,
+      "status": "TARGET_DN_CONVERGED_AND_AUDITED_PREFIX_STILL_UNSOLVED",
+      "target_reached": true,
+      "target_audited": true,
+      "requested_scales": [
+        0.625,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1,
+        1.0
+      ],
+      "failures": [
+        1
+      ],
+      "original_config_preserved": true,
+      "closed_log_rotation": true,
+      "exact_final_target": true,
+      "scope": "MOCK bookkeeping only; no actual tail solve or existence claim"
+    }
+  ]
+}

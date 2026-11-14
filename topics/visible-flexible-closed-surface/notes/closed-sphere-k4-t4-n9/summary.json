@@ -1,0 +1,88 @@
+{
+  "status": "exploratory closed-sphere search; not an isometric solution",
+  "arguments": {
+    "degree": 4,
+    "time_degree": 4,
+    "grid": 9,
+    "kappa": 16.0,
+    "dent": 1.2,
+    "max_nfev": 100,
+    "out": "math-research/topics/visible-flexible-closed-surface/notes/closed-sphere-k4-t4-n9"
+  },
+  "unknowns": 210,
+  "residuals": 5427,
+  "jacobian_directional_checks": {
+    "1e-05": 1.6180648534207787e-10,
+    "1e-06": 1.671518262643147e-09,
+    "1e-07": 1.5973856390124243e-08
+  },
+  "initial": {
+    "max_relative_metric_defect_sampled": 0.19000000018000007,
+    "worst_metric_sample": {
+      "t": 1.0,
+      "unit_sphere_point": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "min_radial_jacobian_sampled": 0.11655931149500207,
+    "max_abs_principal_curvature_sampled": 7.275548608764847,
+    "min_gram_eigenvalue_sampled": 0.20746013998369772,
+    "radial_norm_range_sampled": [
+      0.49023741947550104,
+      1.0
+    ],
+    "initial_diameter_exact_if_regular": "2",
+    "final_diameter_exact_if_regular": "8106479329266893/4503599627370496",
+    "rigid_quotient_delta_over_D_lower_if_embedded": "900719925474099/18014398509481984",
+    "closed_parameter_domain": "S2",
+    "C2_automatic": "polynomial restrictions",
+    "embedded_certified": false,
+    "reach_certified": false,
+    "fixed_metric_refinement": false,
+    "grid": [
+      256,
+      9
+    ]
+  },
+  "final": {
+    "max_relative_metric_defect_sampled": 0.1684872811189107,
+    "worst_metric_sample": {
+      "t": 1.0,
+      "unit_sphere_point": [
+        0.8831986183703753,
+        0.38362729671114965,
+        0.26979677115702444
+      ]
+    },
+    "min_radial_jacobian_sampled": 0.06547113678866623,
+    "max_abs_principal_curvature_sampled": 17.809941347792808,
+    "min_gram_eigenvalue_sampled": 0.09559813935071299,
+    "radial_norm_range_sampled": [
+      0.37137122104866743,
+      1.0
+    ],
+    "initial_diameter_exact_if_regular": "2",
+    "final_diameter_exact_if_regular": "8106479329266893/4503599627370496",
+    "rigid_quotient_delta_over_D_lower_if_embedded": "900719925474099/18014398509481984",
+    "closed_parameter_domain": "S2",
+    "C2_automatic": "polynomial restrictions",
+    "embedded_certified": false,
+    "reach_certified": false,
+    "fixed_metric_refinement": false,
+    "grid": [
+      576,
+      17
+    ]
+  },
+  "solver": {
+    "success": false,
+    "message": "The maximum number of function evaluations is exceeded.",
+    "nfev": 100,
+    "cost": 0.04578289515985892,
+    "optimality": 0.0014032843131256247
+  },
+  "elapsed_seconds": 25.22498071299924,
+  "post_run_correction": "Exact diameter labels corrected to binary64(.9); numerical solve unchanged. The ansatz also cannot provide a nontrivial exact fixed open holding region."
+}

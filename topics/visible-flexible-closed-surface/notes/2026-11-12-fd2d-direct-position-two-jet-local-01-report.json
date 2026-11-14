@@ -1,0 +1,479 @@
+{
+  "schema": "fd2d-R187-actual-position-two-jet-local-check-v1",
+  "runtime": {
+    "engine": "pure JavaScript/V8",
+    "completed": true,
+    "milliseconds": 311,
+    "OS_child_created": false,
+    "OS_exit_code": null
+  },
+  "provider_definition": {
+    "schema": "fd2d-R187-C2-direct-position-two-angle-finite-provider-v1",
+    "radialBasisCount": 12,
+    "angularModes": 7,
+    "fullEquivalentAngles": 64,
+    "dimension": 181,
+    "angularPrimitive": "complete quarter-cell Gauss8 with actual first moment; no Fourier projection",
+    "angularMetric": "exactly a^2 in mathematical complete definition",
+    "radialMetric": "fixed original R181 B32 physical metric; no design delta in this branch",
+    "boundary": "complete central ellipse cylinder and zero-tail round flat cut two jets",
+    "stateLayout": {
+      "theta": [
+        0,
+        84
+      ],
+      "phi": [
+        84,
+        168
+      ],
+      "height": [
+        168,
+        180
+      ],
+      "cutHeight": 180
+    },
+    "centralGap": 0.050000000000000024,
+    "centralA": 1.0289271932119122,
+    "centralB": 0.9789271932119121,
+    "radiusGrid": "C2 centered cardinal cubic B-splines with supports inside [c,S]",
+    "residual": "rE=|Xs|^2-1 and rF=Xs dot T, weighted squared rE^2+2*rF^2",
+    "radialQuadrature": "Gauss2 on union of original phase/Hermite breaks and spline knots",
+    "derivative": "complete state and primitive first-moment derivatives, fixed physical s and u",
+    "continuousMetricOrGeometryCertified": false,
+    "strongTargetComplete": false
+  },
+  "geometry_definition": {
+    "schema": "fd2d-R187-quarter-primitive-actual-position-two-jet-consumer-v1",
+    "provider_schema": "fd2d-R187-C2-direct-position-two-angle-finite-provider-v1",
+    "parameter_layout": {
+      "theta": [
+        0,
+        84
+      ],
+      "phi": [
+        84,
+        168
+      ],
+      "height": [
+        168,
+        180
+      ],
+      "cutHeight": 180
+    },
+    "dimension": 181,
+    "radialBasisCount": 12,
+    "angularModes": 7,
+    "fullEquivalentAngles": 64,
+    "centralLength": 0.1015625,
+    "end": 0.8856739498716915,
+    "radialSplineStep": 0.052274096658112765,
+    "centralGap": 0.050000000000000024,
+    "primitive": "Same quarter Gauss8 cells/first moment for T,Ts,Tss; exact D2 symmetry extension",
+    "angular_derivatives": "Complete analytic theta_u and phi_u, no DFT or finite angular projection",
+    "physical_two_jet": "X=aY+Zez; Xss=assY+2asYs+aYss+Zssez; Xsu=asT+aTs; Xuu=aTu",
+    "center": "Full original background Z plus all C2 B-splines and the declared cut-height quintic",
+    "local_curvature": "Actual Gram matrix and orthonormalized second fundamental form of X",
+    "numerical_primitive_derivative_error_still_unbounded": true,
+    "continuous_certificate": false
+  },
+  "nonzero_parameter_entries": [
+    [
+      15,
+      0.018
+    ],
+    [
+      37,
+      -0.011
+    ],
+    [
+      105,
+      0.014
+    ],
+    [
+      136,
+      -0.009
+    ],
+    [
+      172,
+      0.006
+    ],
+    [
+      180,
+      0.02
+    ]
+  ],
+  "zero_parameter_overlap": [
+    {
+      "s": 0,
+      "u": 0,
+      "positionMaximumDifference": 6.661338147750939e-16,
+      "metricMaximumDifference": 0,
+      "curvatureDifference": 0
+    },
+    {
+      "s": 0.1015625,
+      "u": 0.4908738521234052,
+      "positionMaximumDifference": 5.551115123125783e-16,
+      "metricMaximumDifference": 4.440892098500626e-16,
+      "curvatureDifference": 2.220446049250313e-16
+    },
+    {
+      "s": 0.31,
+      "u": 0.6872233929727672,
+      "positionMaximumDifference": 4.440892098500626e-16,
+      "metricMaximumDifference": 5.551115123125783e-16,
+      "curvatureDifference": 4.884981308350689e-15
+    },
+    {
+      "s": 0.55,
+      "u": 1.8653206380689396,
+      "positionMaximumDifference": 3.885780586188048e-16,
+      "metricMaximumDifference": 3.608224830031759e-15,
+      "curvatureDifference": 1.3322676295501878e-15
+    },
+    {
+      "s": 0.83,
+      "u": 4.221515128261284,
+      "positionMaximumDifference": 2.220446049250313e-16,
+      "metricMaximumDifference": 7.771561172376096e-16,
+      "curvatureDifference": 3.552713678800501e-15
+    },
+    {
+      "s": 0.8856739498716915,
+      "u": 1.5707963267948966,
+      "positionMaximumDifference": 2.220446049250313e-16,
+      "metricMaximumDifference": 4.440892098500626e-16,
+      "curvatureDifference": 0
+    }
+  ],
+  "local_differential_checks": [
+    {
+      "s": 0.3211137059640736,
+      "u": 0.37,
+      "tangent_identities": {
+        "unit": 0,
+        "firstRadial": -6.288372600415926e-18,
+        "secondRadial": -5.204170427930421e-16,
+        "angular": 6.659711844492211e-17
+      },
+      "geometry": {
+        "E": 0.8736777074430014,
+        "F": 0.017828259067636736,
+        "G": 1.0350158356265222,
+        "rE": -0.12632229255699856,
+        "rF": 0.017524088551955207,
+        "rG": 0,
+        "relativeMetric": 0.12870825970686278,
+        "immersion": 0.8733706137634246,
+        "squaredRadius": 1.1731793474119558,
+        "height": 0.3186885799868932,
+        "normal": [
+          -0.9035862184499526,
+          -0.3901253142238387,
+          0.17701464636878445
+        ],
+        "principalCurvatures": [
+          1.033619899410791,
+          -1.288628811385355
+        ],
+        "curvature": 1.288628811385355,
+        "secondFundamental": [
+          -1.1225229865363373,
+          -0.11219128756158965,
+          1.0613900141406662
+        ],
+        "orthonormalSecondFundamental": [
+          -1.2848250298403894,
+          -0.09390877506870403,
+          1.0298161178658254
+        ],
+        "inwardSupport": 0.9613417610026347
+      },
+      "finite_differences": [
+        {
+          "h": 0.000002,
+          "maximum_absolute": {
+            "Xs": 1.1107159636480901e-10,
+            "Xu": 1.209179423256046e-10,
+            "Xss": 6.764788729185511e-11,
+            "Xuu": 1.2069178989548845e-10,
+            "Xsu_from_Xs": 3.237954349089023e-11,
+            "Xsu_from_Xu": 2.0772940312330235e-10,
+            "Tss": 5.62276891713509e-11
+          },
+          "maximum_scaled": {
+            "Xs": 1.1107159636480901e-10,
+            "Xu": 1.209179423256046e-10,
+            "Xss": 6.009774181799189e-11,
+            "Xuu": 1.2069178989548845e-10,
+            "Xsu_from_Xs": 3.237954349089023e-11,
+            "Xsu_from_Xu": 2.0772940312330235e-10,
+            "Tss": 6.3488447549689795e-12
+          }
+        },
+        {
+          "h": 0.000001,
+          "maximum_absolute": {
+            "Xs": 1.5434775679779023e-10,
+            "Xu": 1.486735179412335e-10,
+            "Xss": 5.031330907456777e-11,
+            "Xuu": 9.293621427985954e-11,
+            "Xsu_from_Xs": 3.143174609476773e-11,
+            "Xsu_from_Xu": 8.282931285297224e-11,
+            "Tss": 2.4448176816349587e-10
+          },
+          "maximum_scaled": {
+            "Xs": 1.5434775679779023e-10,
+            "Xu": 1.486735179412335e-10,
+            "Xss": 4.469786684877387e-11,
+            "Xuu": 9.293621427985954e-11,
+            "Xsu_from_Xs": 3.143174609476773e-11,
+            "Xsu_from_Xu": 8.282931285297224e-11,
+            "Tss": 2.760520331469032e-11
+          }
+        }
+      ]
+    },
+    {
+      "s": 0.5406649119281473,
+      "u": 2.31,
+      "tangent_identities": {
+        "unit": -1.1102230246251565e-16,
+        "firstRadial": -8.023096076392733e-18,
+        "secondRadial": 1.249000902703301e-16,
+        "angular": 6.982261990806649e-17
+      },
+      "geometry": {
+        "E": 1.1175461172400598,
+        "F": -0.06552798947729906,
+        "G": 1.0710608852815333,
+        "rE": 0.11754611724005981,
+        "rF": -0.06331691747957605,
+        "rG": 0,
+        "relativeMetric": 0.14516347740978294,
+        "immersion": 1.1135370852009443,
+        "squaredRadius": 1.3722202499254401,
+        "height": 0.5506201876636553,
+        "normal": [
+          0.6629552150275292,
+          -0.7437178297944135,
+          -0.08587300223987934
+        ],
+        "principalCurvatures": [
+          1.2754455910641909,
+          0.8279744396403109
+        ],
+        "curvature": 1.2754455910641909,
+        "secondFundamental": [
+          1.2481065840842156,
+          0.16057860612509176,
+          1.0297871752293908
+        ],
+        "orthonormalSecondFundamental": [
+          1.1168278112464778,
+          0.2140497150127303,
+          0.9865922194580241
+        ],
+        "inwardSupport": 1.0772870035629365
+      },
+      "finite_differences": [
+        {
+          "h": 0.000002,
+          "maximum_absolute": {
+            "Xs": 5.807310188288284e-11,
+            "Xu": 1.513021929966385e-10,
+            "Xss": 7.046008443367668e-9,
+            "Xuu": 1.5692458443794521e-10,
+            "Xsu_from_Xs": 2.6847746248392923e-11,
+            "Xsu_from_Xu": 2.0725898774998086e-10,
+            "Tss": 1.1587353299091774e-10
+          },
+          "maximum_scaled": {
+            "Xs": 5.51908308197671e-11,
+            "Xu": 1.513021929966385e-10,
+            "Xss": 6.592397635028933e-9,
+            "Xuu": 1.5692458443794521e-10,
+            "Xsu_from_Xs": 2.6847746248392923e-11,
+            "Xsu_from_Xu": 2.0725898774998086e-10,
+            "Tss": 5.4598995966550276e-11
+          }
+        },
+        {
+          "h": 0.000001,
+          "maximum_absolute": {
+            "Xs": 2.496804499263483e-10,
+            "Xu": 1.513021929966385e-10,
+            "Xss": 1.7776531358038028e-9,
+            "Xuu": 1.6746326547689705e-10,
+            "Xsu_from_Xs": 2.8794897022343946e-11,
+            "Xsu_from_Xu": 7.400013934955041e-11,
+            "Tss": 3.169076112641278e-11
+          },
+          "maximum_scaled": {
+            "Xs": 2.372883662849448e-10,
+            "Xu": 1.513021929966385e-10,
+            "Xss": 1.6632106564399196e-9,
+            "Xuu": 1.6746326547689705e-10,
+            "Xsu_from_Xs": 2.8794897022343946e-11,
+            "Xsu_from_Xu": 7.400013934955041e-11,
+            "Tss": 1.4932519051210258e-11
+          }
+        }
+      ]
+    },
+    {
+      "s": 0.6399856955785616,
+      "u": 5.12,
+      "tangent_identities": {
+        "unit": -1.1102230246251565e-16,
+        "firstRadial": 5.421010862427522e-20,
+        "secondRadial": 1.9081958235744878e-17,
+        "angular": 4.1348760353165925e-17
+      },
+      "geometry": {
+        "E": 0.9891665753418817,
+        "F": -0.021301341191547262,
+        "G": 1.0110503966664595,
+        "rE": -0.010833424658118318,
+        "rF": -0.02118461358549051,
+        "rG": 0,
+        "relativeMetric": 0.02728286483063864,
+        "immersion": 0.9887177874891152,
+        "squaredRadius": 1.431840772576301,
+        "height": 0.6508192176807948,
+        "normal": [
+          -0.3497685460205726,
+          0.8061602975636016,
+          -0.4772499752192971
+        ],
+        "principalCurvatures": [
+          5.073007066454162,
+          0.8748469538714669
+        ],
+        "curvature": 5.073007066454162,
+        "secondFundamental": [
+          5.0148924920913025,
+          0.0076859150770291415,
+          0.8846813216511412
+        ],
+        "orthonormalSecondFundamental": [
+          5.069815961338994,
+          0.11570041943614123,
+          0.8780380589866341
+        ],
+        "inwardSupport": 1.192999029879601
+      },
+      "finite_differences": [
+        {
+          "h": 0.000002,
+          "maximum_absolute": {
+            "Xs": 9.63004398446543e-11,
+            "Xu": 1.7837520349672786e-10,
+            "Xss": 2.0018608992700138e-10,
+            "Xuu": 1.1725054260836032e-10,
+            "Xsu_from_Xs": 8.884726288016509e-11,
+            "Xsu_from_Xu": 1.119078441025323e-11,
+            "Tss": 5.0506931970062396e-11
+          },
+          "maximum_scaled": {
+            "Xs": 9.63004398446543e-11,
+            "Xu": 1.7837520349672786e-10,
+            "Xss": 5.022287272043072e-11,
+            "Xuu": 1.1725054260836032e-10,
+            "Xsu_from_Xs": 8.884726288016509e-11,
+            "Xsu_from_Xu": 1.119078441025323e-11,
+            "Tss": 5.0506931970062396e-11
+          }
+        },
+        {
+          "h": 0.000001,
+          "maximum_absolute": {
+            "Xs": 1.4101192435944654e-10,
+            "Xu": 5.537653668952203e-11,
+            "Xss": 1.4441869922166006e-10,
+            "Xuu": 1.1725054260836032e-10,
+            "Xsu_from_Xs": 2.6397217745000034e-11,
+            "Xsu_from_Xu": 4.935796216187782e-11,
+            "Tss": 2.1016632878456676e-11
+          },
+          "maximum_scaled": {
+            "Xs": 1.4101192435944654e-10,
+            "Xu": 5.537653668952203e-11,
+            "Xss": 3.623189779122255e-11,
+            "Xuu": 1.1725054260836032e-10,
+            "Xsu_from_Xs": 2.6397217745000034e-11,
+            "Xsu_from_Xu": 4.935796216187782e-11,
+            "Tss": 2.1016632878456676e-11
+          }
+        }
+      ]
+    }
+  ],
+  "exact_boundary_fixture": [
+    {
+      "s": 0,
+      "positionDifferenceFromDeclaredBoundary": 0,
+      "maximumJetDifference": 0
+    },
+    {
+      "s": 0.1015625,
+      "positionDifferenceFromDeclaredBoundary": 0,
+      "maximumJetDifference": 0
+    },
+    {
+      "s": 0.8856739498716915,
+      "positionDifferenceFromDeclaredBoundary": 0,
+      "maximumJetDifference": 0
+    }
+  ],
+  "nonzero_finite_sample": {
+    "count": 18,
+    "maxRelativeMetric": 0.34436908564774904,
+    "minImmersion": 0.8009213619994117,
+    "maxCurvature": 5.20200452230272,
+    "minHeight": 0.3170803870509199,
+    "maxHeight": 0.6524814112782858,
+    "maxSquaredRadius": 1.4327934072668382,
+    "maxAbsCoordinate": [
+      1.0444527257246752,
+      1.0264696860420437,
+      0.6524814112782858
+    ],
+    "minInwardSupport": 0.9215735376657327,
+    "worstMetric": {
+      "s": 0.3211137059640736,
+      "u": 1.5707963267948966
+    },
+    "worstCurvature": {
+      "s": 0.6399856955785616,
+      "u": 1.5707963267948966
+    }
+  },
+  "assertion_scope": "Finite local overlap and differential consistency; not a continuous certificate or a nonlinear solve",
+  "no_whole_BVP_or_body": true,
+  "input_binding": {
+    "scalar_reader": {
+      "path": "scripts/fd2d-direct-position-tangent-lift-baseline-R187.cjs",
+      "git_blob_sha": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+      "sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf"
+    },
+    "provider": {
+      "path": "scripts/fd2d-direct-position-metric-provider-R187.cjs",
+      "git_blob_sha": "53f28f7a9bb74c7fd10873f24af1e7a59025dd9d"
+    },
+    "candidate": {
+      "path": "notes/2026-11-12-fd2d-r136-shorter-phase-design-01-B_standard_cut-cyl13over128-candidate.json",
+      "sha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+      "git_blob_sha": "bb87f4c2bc73c53dd32b50582d3bec4243568562"
+    },
+    "geometry_source": "scripts/fd2d-direct-position-two-jet-geometry-R187.cjs",
+    "check_source": "scripts/fd2d-check-direct-position-two-jet-R187.cjs",
+    "provider_options": {
+      "radialBasisCount": 12,
+      "modes": 7,
+      "angles": 64,
+      "gap": 0.05
+    },
+    "packaged_source_bodies_identical_to_executed_V8_strings": true
+  }
+}

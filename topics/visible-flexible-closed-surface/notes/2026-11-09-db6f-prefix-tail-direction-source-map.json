@@ -1,0 +1,17 @@
+{
+  "scope": "Only expose the existing correction and scaleFor functions and select that module. No formula changes. For readonly Newton-direction diagnosis; not a new solve.",
+  "files": [
+    {
+      "original": "scripts/db6f-prefix-tail-trial-core.mjs",
+      "original_sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "derived": "scripts/db6f-prefix-tail-direction-core.mjs",
+      "derived_sha256": "100901d24af223ce0dc46ce823eaea98a7606f238b1a2d4ce167bedd79686c55"
+    },
+    {
+      "original": "scripts/db6f-prefix-tail-trial-split.mjs",
+      "original_sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "derived": "scripts/db6f-prefix-tail-direction-split.mjs",
+      "derived_sha256": "bcecd4e7dc7d99bbb49359ee90a8c718504923957efbca1a519c2c47ef1fe1c7"
+    }
+  ]
+}

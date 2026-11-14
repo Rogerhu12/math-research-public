@@ -1,0 +1,64 @@
+{
+  "status": "PASS_FULL_TEXT_DIFF_AND_ALL_FROZEN_IDENTITIES",
+  "frozen_sources": 9,
+  "diff_bytes": 27907,
+  "diff_sha256": "75cf3b5019db0acd2fa79ad71ae95a5457a5d64a928285240897814985736854",
+  "exact_saved_unified_diff": true,
+  "generator_executed": false,
+  "mathematical_calls": 0,
+  "source_comparisons": [
+    {
+      "old": "db6f-prefix-spectral-true-m14-direct-csc.py",
+      "new": "78718-prefix-spectral-restart8000-v1.py",
+      "old_hash": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+      "new_hash": "200792dbe56a84c2cf1b3954f3a4c73a060bab8579029612d16ffe2f162c9b30",
+      "old_mirror_exact": true,
+      "unchanged_ast_functions": [
+        "equal",
+        "module",
+        "runtime_callbacks",
+        "runtime_newton",
+        "runtime_original_newton",
+        "select_runtime_csc",
+        "select_runtime_newton",
+        "without_io",
+        "write_json"
+      ],
+      "changed_ast_functions": [
+        "expected_config",
+        "expected_parser_argv",
+        "main",
+        "runtime_csc",
+        "validate_inputs"
+      ],
+      "added_functions": [
+        "restore_runtime_csc"
+      ],
+      "deleted_functions": []
+    },
+    {
+      "old": "db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+      "new": "78718-prefix-audit-restart8000-v1.py",
+      "old_hash": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0",
+      "new_hash": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f",
+      "old_mirror_exact": true,
+      "unchanged_ast_functions": [
+        "check_newton_lifetime_record",
+        "check_packet",
+        "main"
+      ],
+      "changed_ast_functions": [
+        "_compiled_runtime_record",
+        "check_csc_restoration",
+        "check_csc_runtime_record",
+        "check_outputs",
+        "check_runtime_records",
+        "final_audit",
+        "first_packet",
+        "polynomial_endpoint"
+      ],
+      "added_functions": [],
+      "deleted_functions": []
+    }
+  ]
+}

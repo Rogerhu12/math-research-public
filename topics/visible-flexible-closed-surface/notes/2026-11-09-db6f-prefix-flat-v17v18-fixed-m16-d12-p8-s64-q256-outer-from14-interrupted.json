@@ -1,0 +1,153 @@
+{
+  "status": "interrupted-without-successful-M16-tail-response",
+  "time_utc": "2026-11-09T09:00:22.227180+00:00",
+  "session_id": 67747,
+  "first_tail_response_present": false,
+  "last_three_correction_iterations": [
+    {
+      "time": "2026-11-09T08:33:06.223Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 3344671,
+      "iteration": 7,
+      "norm": 10.69543288432175,
+      "minA": 0.16831786980735997,
+      "minD": 0.9915015281018638,
+      "chartCondition": 39849.96204773875,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-09T08:39:25.438Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 3723886,
+      "iteration": 8,
+      "norm": 10.122768536092874,
+      "minA": 0.10520971795276168,
+      "minD": 0.9915015282969408,
+      "chartCondition": 39849.96204773875,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-09T08:57:25.616Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 4804064,
+      "iteration": 9,
+      "norm": 10.104461387631748,
+      "minA": 0.11283488490473395,
+      "minD": 0.991501528283399,
+      "chartCondition": 39849.96204773875,
+      "phase": "correction"
+    }
+  ],
+  "last_completed_iteration_state_saved": false,
+  "limitation": "The running worker predates the optional atomic iteration writer. Trace and original warm data survive; its current internal Newton iterate cannot be recovered after interruption.",
+  "reason": "Consecutive accepted Newton residuals 10.6954328843, 10.1227685361, 10.1044613876 show strong damping. Continue the same fixed physical problem through M15 from the complete M14 solution. This is an interrupted numerical path, not a mathematical nonexistence claim.",
+  "loaded_source_snapshots": [
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-before-iteration.py",
+      "sha256": "199a1ea691c16d0380cb3dae2d9bbac437cb146fbac2ab1c9cd34b20a1e0185a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker-before-iteration.mjs",
+      "sha256": "ab5767dcd1660a8a2729de45c852e9abd2484e8f9c95678de6e6f9da2bfad42a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs",
+      "sha256": "9badcd123d543800f212d52a50345926450c68cac6063a3262caa6fa8dfc8441"
+    }
+  ],
+  "inputs_before_interruption": [
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-raw-lift-warm.json.gz",
+      "bytes": 263644,
+      "sha256": "c891f095bd8a73359b50f71b1d597e92ea5d1b5344ea9f6291da16184f18199a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-reproduction.json",
+      "bytes": 6307,
+      "sha256": "508add8dc5f90e094600f6e337e01cfb852af62f627bbb4294e99b68bf5a1399"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-tail-config.json",
+      "bytes": 2524,
+      "sha256": "81689724f10239861cc3b67664353ea74b1654384ea0ebc706315dd7f630ae8a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-tail-trace.jsonl",
+      "bytes": 4855,
+      "sha256": "4890a38b27c7cddca2115a99e1de9d664f4f671720d639655fec60131d681295"
+    }
+  ],
+  "interruption": "TTY Ctrl-C",
+  "actual_tool_exit_code": 1,
+  "finished_time_utc": "2026-11-09T09:00:41.672310+00:00",
+  "first_tail_response_present_after": false,
+  "final_file_hashes": [
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-raw-lift-warm.json.gz",
+      "bytes": 263644,
+      "sha256": "c891f095bd8a73359b50f71b1d597e92ea5d1b5344ea9f6291da16184f18199a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-reproduction.json",
+      "bytes": 6307,
+      "sha256": "508add8dc5f90e094600f6e337e01cfb852af62f627bbb4294e99b68bf5a1399"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-tail-config.json",
+      "bytes": 2524,
+      "sha256": "81689724f10239861cc3b67664353ea74b1654384ea0ebc706315dd7f630ae8a"
+    },
+    {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m16-d12-p8-s64-q256-outer-from14-tail-trace.jsonl",
+      "bytes": 4855,
+      "sha256": "4890a38b27c7cddca2115a99e1de9d664f4f671720d639655fec60131d681295"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "exact-serialized-prefix-and-source-identity-pass",
+  "original": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth2.json.gz",
+  "originalSHA256": "6a828623f4727a11e4ef46e0522fd651b910a54b3fbe4df873bcbc896faf34c5",
+  "extension": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+  "extensionSHA256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9",
+  "finished": true,
+  "profileCount": 36,
+  "all36CellSegmentPairsPresent": true,
+  "first18ProfilesExactlyEqual": true,
+  "allSourcesInputsParametersAlphaExactlyEqual": true,
+  "newCells": [
+    2,
+    3
+  ],
+  "inputStrongAnchorCoverageChecked": {
+    "cellZeroAProfiles": 9,
+    "innerARequiredCells": [
+      1,
+      2,
+      3
+    ],
+    "outerBRequiredProfiles": 36
+  },
+  "bytes": 1724765,
+  "scope": "The newly constructed cells 2 and 3 use the already audited primitive algorithm and frozen A/B/alpha inputs. Their independent numerical replay remains separate; this check does not certify a complete w packet or a map metric."
+}

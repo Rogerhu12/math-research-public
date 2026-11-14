@@ -1,0 +1,23 @@
+{
+  "schema": "fd2d-actual-curvature-Taylor-v3-owner-stop",
+  "session": 24669,
+  "final_chunk": "ee5e90",
+  "exit_code": 130,
+  "owner_interrupt": true,
+  "source_snapshot": "scripts/fd2d_k0_ruling_actual_curvature_taylor_v3.py",
+  "source_sha256": "f6cb62672b7c7e9f0db9360f6dd695115c9db5c8153dcc8ae3fd86e31477b100",
+  "algebra_helper_snapshot": "scripts/fd2d_k0_ruling_actual_curvature_certificate_v2.py",
+  "algebra_helper_sha256": "dbd9b86e4bca8dcb3b2edc9341633021ab955ec9a0707ddb2989cbb380881635",
+  "completed_certificate": false,
+  "reason": "In this flint 0.9 runtime generic arb power on an interval containing zero returns NaN: the symmetric Taylor remainder delta**2 was NaN. Rejected boxes are not evidence of impossible curvature.",
+  "diagnostic": {
+    "session": 30088,
+    "final_chunk": "f019d1",
+    "exit_code": 0
+  },
+  "operator_check": {
+    "direct_chunk": "dc8e9a",
+    "exit_code": 0,
+    "observed": "arb(0,0.01)**2 = nan; multiplication a*a gives an inclusion interval"
+  }
+}

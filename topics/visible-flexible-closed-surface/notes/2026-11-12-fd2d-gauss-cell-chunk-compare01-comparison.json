@@ -1,0 +1,118 @@
+{
+  "schema": "fd2d-actual-cell-chunk-equivalence-v1",
+  "utc": "2026-11-12T12:56:03.320878+00:00",
+  "passed": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_chunked.py",
+    "bytes": 4903,
+    "sha256": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09"
+  },
+  "runs": [
+    {
+      "mode": "whole",
+      "actual_session": 12316,
+      "completion_chunk": "2c9435",
+      "actual_exit_code": 0,
+      "run_report": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gauss-cell-chunk-compare01-whole-report.json",
+        "bytes": 3100,
+        "sha256": "873bbbdf8148884b5f1e9ffa65134857890e178c66df7f16c8c586c8d28dd5e0"
+      }
+    },
+    {
+      "mode": "chunk",
+      "actual_session": 30964,
+      "completion_chunk": "e14914",
+      "actual_exit_code": 0,
+      "run_report": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gauss-cell-chunk-compare01-chunk-report.json",
+        "bytes": 3397,
+        "sha256": "ed185e8ee608a6a8d87e88437a0017c5eac4cba15748e5721fa532345e963edb"
+      }
+    }
+  ],
+  "array_differences": {
+    "retained_residual": {
+      "shape": [
+        3751
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "high_residual": {
+      "shape": [
+        61952
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "retained_cells": {
+      "shape": [
+        121,
+        31
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "omitted_codazzi_cells": {
+      "shape": [
+        256,
+        121,
+        2
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "full_codazzi_cells": {
+      "shape": [
+        256,
+        121,
+        2
+      ],
+      "absolute_maximum": 1.7763568394002505e-15,
+      "relative_l2": 1.0295807002970693e-17
+    },
+    "point_gauss": {
+      "shape": [
+        256,
+        242
+      ],
+      "absolute_maximum": 1.1102230246251565e-16,
+      "relative_l2": 3.6551291477371974e-18
+    },
+    "quadrature_points": {
+      "shape": [
+        242
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "retained_Jd": {
+      "shape": [
+        3751
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    },
+    "high_Jd": {
+      "shape": [
+        61952
+      ],
+      "absolute_maximum": 0.0,
+      "relative_l2": 0.0
+    }
+  },
+  "helper_peak_rss_kib": {
+    "whole": 375312,
+    "chunk": 217196
+  },
+  "peak_ratio": 0.5787078484034617,
+  "run_seconds": {
+    "whole": 12.25430508699992,
+    "chunk": 8.777685220999956
+  },
+  "largest_absolute_difference": 1.7763568394002505e-15,
+  "defining_field_changed": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "fd2d-reference-lifting-small-actual-grid-JVP-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_coast_reference_lifting_jvp_check.py",
+    "bytes": 4526,
+    "sha256": "ac0479143f0189fd2b7725c49e64a259ea182d54d0501c40ec9c76b82d0388c7"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_coast_reference.py",
+    "bytes": 7490,
+    "sha256": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d"
+  },
+  "reference_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_coast_reference.py",
+    "bytes": 14378,
+    "sha256": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss08-b0008-accepted-0002.npz",
+    "bytes": 48713,
+    "sha256": "9ceb403f33b3f5a6c6baa757ecf83ec04cccb1f9060ae9b986f79336098b96f5"
+  },
+  "reference_cache": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "bytes": 401936,
+    "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+  },
+  "radial_points": [
+    0.600318454492792,
+    0.741134942708587,
+    0.8592249906096225
+  ],
+  "weights": [
+    0.1051860914737172,
+    1.0,
+    0.1051860914737172
+  ],
+  "weight_first": [
+    32.16522171432301,
+    0.0,
+    -32.16522171432301
+  ],
+  "tail_test_parameters": [
+    0.8999999999999999,
+    0.8999999999999999,
+    0.7368187406270666,
+    0.3,
+    0.5948220236460449,
+    0.6663726707908918,
+    0.3,
+    0.40957724286755604,
+    0.6094169717065847,
+    0.3,
+    0.31147455494359266,
+    0.5183936616568793,
+    0.3637187698714669,
+    0.3,
+    0.48944162184774964,
+    0.8999999999999999
+  ],
+  "profile_parameters": [
+    -0.0023671744455213903,
+    -0.011840983306443318,
+    -0.016325633049062118,
+    -0.024508186553440652,
+    0.005244299475301122,
+    0.02460733841863325,
+    0.01269842313072356
+  ],
+  "directions_seed": 1440001,
+  "scope": "Three actual cached physical points; tail moved into the interior for centered differences; no BVP/body/whole-domain certificate",
+  "cases": [
+    {
+      "parameter_block": "tail",
+      "jet": "values",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.23568376512777006,
+      "absolute_maximum": 4.279902127146684e-11,
+      "relative_l2": 4.743820605329679e-10
+    },
+    {
+      "parameter_block": "tail",
+      "jet": "x",
+      "step": 1e-06,
+      "analytic_direction_norm": 13.183981078830566,
+      "absolute_maximum": 1.6369983962122303e-09,
+      "relative_l2": 6.877600427887129e-10
+    },
+    {
+      "parameter_block": "tail",
+      "jet": "xi",
+      "step": 1e-06,
+      "analytic_direction_norm": 6.153361163925082,
+      "absolute_maximum": 3.4974112494978726e-10,
+      "relative_l2": 1.7366564523851654e-10
+    },
+    {
+      "parameter_block": "profile",
+      "jet": "values",
+      "step": 1e-06,
+      "analytic_direction_norm": 3.6707107399638472,
+      "absolute_maximum": 2.4347856716899763e-10,
+      "relative_l2": 1.6646032156741125e-10
+    },
+    {
+      "parameter_block": "profile",
+      "jet": "x",
+      "step": 1e-06,
+      "analytic_direction_norm": 208.7169347254697,
+      "absolute_maximum": 1.24458523487192e-08,
+      "relative_l2": 1.6909874141386706e-10
+    },
+    {
+      "parameter_block": "profile",
+      "jet": "xi",
+      "step": 1e-06,
+      "analytic_direction_norm": 75.11324906519121,
+      "absolute_maximum": 2.668619103474157e-09,
+      "relative_l2": 9.559009924667772e-11
+    }
+  ],
+  "checks": {
+    "six_nonzero_directions": true,
+    "all_relative_errors_small": true,
+    "no_reference_cache_misses": true
+  },
+  "passed": true,
+  "cache_statistics": {
+    "entries": 26,
+    "hits": 15,
+    "misses": 0,
+    "loaded_cache": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+      "bytes": 401936,
+      "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+    },
+    "maximum_material_inverse_residual": 1.9539231344012364e-13,
+    "maximum_numerical_native_GC_residual": 1.275290984265238e-14
+  },
+  "seconds": 1.8290721749999648,
+  "peak_rss_kib": 79596
+}

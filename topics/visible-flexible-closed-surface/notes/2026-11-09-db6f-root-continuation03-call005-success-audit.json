@@ -1,0 +1,77 @@
+{
+  "status": "CLOSED_ORIGINAL_FINITE_TAIL_WARM_SUCCESS_ONLY",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T18:32:14.313379+00:00",
+  "call": 5,
+  "scale": 0.9853515625,
+  "residual": 6.260661072552149e-10,
+  "history_length": 6,
+  "last_history": {
+    "iteration": 5,
+    "norm": 6.260661072552149e-10,
+    "minA": 0.08992276823619809,
+    "minD": 0.9916243741211902
+  },
+  "source_bindings_verified": 83,
+  "response_sources_verified": 8,
+  "actual_height_exactly_matches_frozen_path": true,
+  "unchanged_original_config": true,
+  "finite_state_shape": [
+    865,
+    30
+  ],
+  "finite_raw_shape": [
+    13,
+    30
+  ],
+  "jacobian_requested": false,
+  "audit_requested": false,
+  "target_s1_reached": false,
+  "full_prefix_success": false,
+  "controller_tool_exit_observed": false,
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "bytes": 27839,
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "bytes": 3800,
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "bytes": 3107,
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0005.json.gz",
+      "bytes": 267382,
+      "sha256": "e87911ee9e703ec76e5fd1328b06a5531f9a869a392077b515d5883547cf00ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call005-trace.jsonl",
+      "bytes": 2887,
+      "sha256": "a2f033c6a0536e0301fb7452eff227be65fd4cd64b1b0e8fe0b28fc9618112e4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call005-trials.jsonl",
+      "bytes": 25537,
+      "sha256": "6620bfa6e0ecb3e2bafeeeeaa2daee57a9e8cd2254d6ba5b94652cab4922dfbc"
+    }
+  ],
+  "closed_log_metadata": [
+    {
+      "kind": "trace",
+      "rows": 13,
+      "scope": "Closed cumulative log; no per-call count inferred"
+    },
+    {
+      "kind": "trials",
+      "rows": 84,
+      "scope": "Closed cumulative log; no per-call count inferred"
+    }
+  ],
+  "scope": "Read-only actual closed warm response. No new solve, independent numerical replay, full target or process completion claim."
+}

@@ -1,0 +1,308 @@
+{
+  "schema": "fd2d-fifth-environment-loss-actual-observations-v1",
+  "utc": "2026-11-13T01:13:01Z",
+  "environment": "explicitly unavailable; no claim that persistent disk is lost",
+  "lastSuccessfulOrdinaryPush": {
+    "commit": "38deca30e2a307fa73211d7c5054bdc694d443a8",
+    "readSHA": "390299b08b597fbc8fda81e5303b1435203fe295",
+    "readUTC": "2026-11-13T00:42Z",
+    "files": 50,
+    "bytes": 2356622,
+    "pushExit": 0,
+    "receiptPath": "/tmp/fd2d-twentyfourth-return-main-receipt.json"
+  },
+  "readmeBlobs": {
+    "root": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic": "71875538fe72d500277129b7f67d99f89d21c9e0"
+  },
+  "actualPullDeadline": "2026-11-13T01:42Z",
+  "preparation25": {
+    "functionCell": "24",
+    "action": "apply_patch /tmp/fd2d-prepare-publish25.py then prepare snapshot; never reached any root Git push invocation",
+    "observed": "no tool result returned before explicit environment unavailable; owner terminated disconnected orchestration cell",
+    "unknown": "whether patch/preparation ever ran or wrote a partial file; no OS exit inferred",
+    "publisher": "/tmp/fd2d-math-research-publish-isolated-25",
+    "stage": "/tmp/fd2d-publish25-payload",
+    "snapshot": "/tmp/fd2d-twentyfifth-snapshot.json",
+    "important": "Nothing in batch25 is claimed pushed by this preparation"
+  },
+  "source": {
+    "directory": "/workspace/scratch/fd2d-recovered-20261112/math-research",
+    "HEAD": "4514e9633b19cf83dc300a1404a53a2f5808ffe4",
+    "doNotResetOrPull": true
+  },
+  "legacy25": {
+    "path": "/tmp/fd2d-legacy25-payload",
+    "manifest": "notes/2026-11-13-fd2d-legacy25-payload-closed-manifest.json",
+    "manifestSHA256": "05eaa17c9f54218a1b5fdee0e18c938ef30f5a062dc6ac8b949401eb94583d97",
+    "originalVerifiedFiles": 147,
+    "originalVerifiedBytes": 16373378,
+    "missing": 0,
+    "mismatch": 0,
+    "fullPayloadFiles": 153,
+    "fullPayloadBytes": 16545057,
+    "collision": "Original signed_grouped_cells.py b002... restored only after backing main cda8... exact bytes under notes/fourth-return-main-texts/scripts. R183 original proof maps to existing separate notes path; main recovered proof unchanged."
+  },
+  "rootJ33": {
+    "directory": "/tmp/fd2d-r196-root-mixed-20261113",
+    "sourceMain24State": "notes/2026-11-13-fd2d-R196-J30K15-mixed-03-report.json",
+    "exactInsertedKnots": [
+      [
+        "31",
+        "60"
+      ],
+      [
+        "19",
+        "60"
+      ],
+      [
+        "7",
+        "20"
+      ]
+    ],
+    "J": 33,
+    "K": 15,
+    "N": 128,
+    "dimension": 1057,
+    "initial": "notes/2026-11-13-fd2d-R196-J33K15-adaptive-initial.json",
+    "freshInitialSquaredNorm": 0.000005717102488616041,
+    "interrupted": {
+      "requestedSteps": 80,
+      "accepted": 49,
+      "actualChildExit": -9,
+      "actualOuterExit": 137,
+      "seconds": 153.415258185,
+      "cause": "unknown; not owner stop; not inferred OOM",
+      "tool": "f4768e",
+      "canonicalPartial": "notes/2026-11-13-fd2d-R196-J33K15-adaptive-interrupted49.json",
+      "bytes": 310191,
+      "SHA256": "7d09b5fb965c90aa3329371cf231f122d46157d3a58eaf7701d02139bd994f1f"
+    },
+    "resumed": {
+      "steps": [
+        8,
+        8,
+        8,
+        7
+      ],
+      "childExits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "childSeconds": [
+        31.018,
+        39.339,
+        37.941,
+        16.515
+      ],
+      "controllerExit": 0,
+      "tool": "8ceaec",
+      "session": 1624,
+      "stems": "notes/2026-11-13-fd2d-R196-J33K15-adaptive-{02,03,04,05}",
+      "finalIteration": 80
+    },
+    "final": {
+      "squaredNorm": 0.000003858439800767527,
+      "maxRelativeMetric": 0.006707383914013265,
+      "maxCurvature": 9.555160608006112,
+      "cutHeight": 0.5582154986142651,
+      "maxRadiusCoefficient": 0.13046039689209638
+    },
+    "reproduction": "First inspect exact saved files. If inaccessible, use main24 J30 final state, exact Boehm insertions listed above for every theta/phi/height/rho channel, preserve cut coefficient, N128/K15. Record fresh quadrature baseline. Recreate full LM with saved R195 width4 and same guide9.5 weight.01 nodeShare.5. Actual new computation gets new identity; never claim exact old bytes without hash."
+  },
+  "strong": {
+    "directory": "/tmp/fd2d-r196-stronggap-20261113",
+    "main24Restart": "notes/2026-11-13-fd2d-R196-strong-gap08-zero-04.json",
+    "node24": {
+      "manifest": "notes/2026-11-13-fd2d-R196-strong-gap08-N128-node24-closed-manifest.json",
+      "SHA256": "f9778c8f2dc9e489c25fb900d361a11ab7b57aef9b8f68d370f8bd4409e8085a",
+      "accepted": 24,
+      "allChildExit": 0,
+      "finalReportSHA256": "5a3d10f12fcff453f9b1848a309bcbc5f4c7ccfbb918a0f0fe8e4e0c951336d8",
+      "R2": 0.008129793506931191,
+      "metric": 0.271754,
+      "curvature": 12.155192,
+      "cutZ": 0.4172747764
+    },
+    "fixed625": {
+      "K": 15,
+      "J": 30,
+      "fixedCoefficientBits": "bfbe5870ac38c270",
+      "initialR2": 0.228176431413,
+      "accepted": 24,
+      "childExits": [
+        0,
+        0,
+        0
+      ],
+      "finalR2": 0.0134504202485,
+      "maxMetric": 0.3964634,
+      "curvature": 12.99103,
+      "stateSHA256": "73c5bece14e58ef39a902663e7e407df092cf1ba6190aec4f8a7acfbb3672c2c",
+      "manifest": "notes/2026-11-13-fd2d-R200-fixed625-twenty-four-closed-manifest.json",
+      "manifestSHA256": "09db9687297df7264aa492e76a4c04057e271d211de2e1f5ac18b73010f000ab"
+    },
+    "fixed625J32": {
+      "insertedKnots": [
+        [
+          "1",
+          "20"
+        ],
+        [
+          "59",
+          "60"
+        ]
+      ],
+      "cutIndex": 992,
+      "dimension": 1025,
+      "accepted": 8,
+      "childExit": 0,
+      "seconds": 56.8985,
+      "tool": "4ce47a",
+      "session": 54351,
+      "report": "notes/2026-11-13-fd2d-R200-fixed625-J32-01-report.json",
+      "reportSHA256": "ba2cd716bdb0aa89887aad8ff67f5472cc2a04f8c03f6fe1df427a3156aab8d2",
+      "R2": 0.01303166624835847,
+      "metric": 0.49044664600360455,
+      "curvature": 13.141104233265056
+    },
+    "fixed600": {
+      "onlyNewBaselineComputed": true,
+      "LMStarted": false,
+      "childExit": 0,
+      "seconds": 0.863,
+      "tool": "43bb95",
+      "inputSHA256": "ec87fa934eed2e3f2bcf195dbd97e103a952446bbbbf6314ca5a1c1b6adc1c22",
+      "R2": 0.0142628941,
+      "metric": 0.486936,
+      "curvature": 13.17306,
+      "coefficientBits": "bfc25f6b894f946c"
+    },
+    "fixed605": {
+      "requested": true,
+      "processCreated": false,
+      "exitCode": null,
+      "reason": "exec transport disconnected; environment unavailable"
+    }
+  },
+  "actualGeometryScreen": {
+    "script": "scripts/fd2d-scan-complete-core-geometry-R199.cjs",
+    "directory": "/tmp/fd2d-r196-root-mixed-20261113",
+    "input": "notes/2026-11-13-fd2d-R200-fixed625-J32-01-report.json",
+    "report": "notes/2026-11-13-fd2d-R199-strong-fixed625-geometric-screen-report.json",
+    "childExit": 0,
+    "tool": "25a6e0",
+    "childSeconds": 0.8032618319994071,
+    "internalSeconds": 0.600980414,
+    "angularPoints": 256,
+    "radialPoints": 377,
+    "quarterSamples": 24505,
+    "cutZ": 0.625,
+    "centralA": 1.362034172263731,
+    "maxRadius": {
+      "value": 1.3665899226341065,
+      "s": 0.11718750000000001,
+      "u": 0,
+      "X": [
+        1.361534064119309,
+        0,
+        0.11744364132574739
+      ]
+    },
+    "maxAbsY": {
+      "value": 0.9038592680515408,
+      "s": 0.6896460874037686,
+      "u": 1.4480778637640452,
+      "X": [
+        0.11948603973805305,
+        0.9038592680515408,
+        0.4815059261635633
+      ]
+    },
+    "maxAbsZ": {
+      "value": 0.6323869123493537,
+      "s": 0.8137970669667864,
+      "u": 0.4663301595172349,
+      "X": [
+        0.7812206538271664,
+        0.39149401626984803,
+        0.6323869123493537
+      ]
+    },
+    "minHeld": {
+      "value": 0.596393475124935,
+      "s": 0.46094691452452524,
+      "u": 1.5707963267948966,
+      "X": [
+        0,
+        0.8267894840212611,
+        0.2630556991966104
+      ]
+    },
+    "ballGridPass": true,
+    "widthGridPass": false,
+    "heightGridPass": false,
+    "heldGridPass": false,
+    "continuousCertificate": false,
+    "nonlocalReachChecked": false
+  },
+  "groupsNotConfirmedPublished": {
+    "R199": {
+      "directory": "/tmp/fd2d-R199-20261113",
+      "manifestSHA256": "077247983000fedab6ca1e78293b9ccdfc3c965bb00d023953be8260bbcd6d90",
+      "proofSHA256": "192f37547b272d941d84c8bb3c18ac3712a2aecfa8b5e0a6fdb73a78a7605a52"
+    },
+    "R197thin": {
+      "directory": "/tmp/fd2d-metric-store-recovery-20261113",
+      "manifestSHA256": "4553ee18fab632f877d1d30a8a1f6be4e12ad3b9cb3ba1eeb82c3f3539b9d373"
+    },
+    "R201": {
+      "directory": "/tmp/fd2d-metric-store-recovery-20261113",
+      "manifestSHA256": "c437d0df3ab998a15b39c8fdf3e13b8765135463d27a71f5520c9c7cacee9ed4",
+      "proofSHA256": "ee7d5f59a40b29413895e33d4afe1fd17f0373a074f8554faa54b80dc3fe5f34",
+      "actualSmallKernelExit": 0,
+      "tool": "e87705",
+      "seconds": 1.6821,
+      "fullR196BVPStarted": false
+    }
+  },
+  "signed36mid": {
+    "directory": "/tmp/fd2d-signed36mid-resume-20261113",
+    "originalBaselineSquaredNorm": 326.4977342867842,
+    "rescue": {
+      "childExit": 0,
+      "seconds": 2.008658,
+      "tool": "c91cf1",
+      "session": 22991,
+      "mathematicalReassembly": 0
+    },
+    "remaining50": {
+      "childExit": 0,
+      "seconds": 73.931668,
+      "tool": "f3faee",
+      "session": 79460,
+      "peakRSSKiB": 162572
+    },
+    "allTilesClosed": 51,
+    "tiles": "work/normal-tiles",
+    "merge": {
+      "session": 29151,
+      "launchTool": "3a3bfb",
+      "lastPoll": "58bc30 still running",
+      "finalExit": "unknown; lookup disconnected; do not impute exit0 or signal9"
+    },
+    "QPStarted": false,
+    "newAccepted": false,
+    "helperSHA256": "9efdf01c0c5b31f65a592769c0539aa1c3573e48f282b2c345f2d4034e25ae52",
+    "reducerSHA256": "1d8498cbdafb7cacf6d7e6f414f4675d48d6765e22996aa043d69c2e7ed13dd0"
+  },
+  "continuation": "Use root README §8 small UTF8 GitHub fallback only while no terminal. No binary, no encoded data chunks, no PAT in tools. Restore terminal real pull/rebase immediately on recovery, read both README diffs and record real SHA. Continue R202 axial necessary condition, R203 full true-position guard, R201 reflection-relaxed actual provider, and original 36mid direction; no final strong success claimed.",
+  "apiRace": {
+    "error": "409 is at eca7be3df1b169221fc12d658cee80a86a4823f6 but expected fca9d7f21dcb7dc73cc738305fda41d9a77bdeeb",
+    "immediateLiteralPullAttempt": "git pull --rebase --no-stat origin main",
+    "result": "No usable execution environment available; command process not created; not successful pull; no exit code",
+    "READMEReadback": "API blobs unchanged; does not replace actual terminal pull"
+  }
+}

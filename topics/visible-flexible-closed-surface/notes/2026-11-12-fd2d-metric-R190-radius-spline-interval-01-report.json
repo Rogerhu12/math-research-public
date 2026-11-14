@@ -1,0 +1,1351 @@
+{
+  "schema": "fd2d-R190-radius-spline-interval-actual-fixture-v1",
+  "passed": true,
+  "runtime": "pure JavaScript BigInt exact rational arithmetic",
+  "OS_process_started": false,
+  "independent_truncated_power_point_checks": 1209,
+  "independent_points_inside_continuous_boxes": 180,
+  "accurate_endpoint_two_jets_zero": true,
+  "definition": {
+    "schema": "fd2d-R190-accurate-radius-spline-interval-definition-v1",
+    "base_definition_binding": {
+      "kind": "conditional base bound fixture; no B32 integral consumed",
+      "lower": "4/5"
+    },
+    "cut_exact_definition_binding": {
+      "kind": "independent rational arithmetic fixture",
+      "S": "177/200",
+      "not_actual_B32": true
+    },
+    "cut_length_enclosure": {
+      "lower": [
+        "177",
+        "200"
+      ],
+      "upper": [
+        "177",
+        "200"
+      ],
+      "lower_display": 0.885,
+      "upper_display": 0.885
+    },
+    "central_length": [
+      "13",
+      "128"
+    ],
+    "radial_basis_count": 12,
+    "spacing_enclosure": {
+      "lower": [
+        "2507",
+        "48000"
+      ],
+      "upper": [
+        "2507",
+        "48000"
+      ],
+      "lower_display": 0.05222916666666667,
+      "upper_display": 0.05222916666666667
+    },
+    "radius_coefficients": [
+      [
+        "-3602879701896397",
+        "9007199254740992"
+      ],
+      [
+        "3602879701896397",
+        "18014398509481984"
+      ],
+      [
+        "3602879701896397",
+        "36028797018963968"
+      ],
+      [
+        "-3602879701896397",
+        "9007199254740992"
+      ],
+      [
+        "3602879701896397",
+        "18014398509481984"
+      ],
+      [
+        "3602879701896397",
+        "36028797018963968"
+      ],
+      [
+        "-3602879701896397",
+        "9007199254740992"
+      ],
+      [
+        "3602879701896397",
+        "18014398509481984"
+      ],
+      [
+        "3602879701896397",
+        "36028797018963968"
+      ],
+      [
+        "-3602879701896397",
+        "9007199254740992"
+      ],
+      [
+        "3602879701896397",
+        "18014398509481984"
+      ],
+      [
+        "3602879701896397",
+        "36028797018963968"
+      ]
+    ],
+    "parameter_binding": {
+      "kind": "explicit finite binary64 fixture",
+      "coefficients": [
+        -0.4,
+        0.2,
+        0.1,
+        -0.4,
+        0.2,
+        0.1,
+        -0.4,
+        0.2,
+        0.1,
+        -0.4,
+        0.2,
+        0.1
+      ]
+    },
+    "accurate_grid": "h=(S-c)/(J+3); centers=c+(j+2)h; S is the accurate B32 cut, not its binary64 evaluator",
+    "endpoint_two_jets": "all radius additions are exactly zero at the accurate c and S",
+    "base_radius_lower_bound": [
+      "4",
+      "5"
+    ],
+    "maximum_actual_coefficient": [
+      "3602879701896397",
+      "9007199254740992"
+    ],
+    "certified_total_radius_lower_bound": [
+      "18014398509481983",
+      "45035996273704960"
+    ],
+    "full_B32_integrals_or_base_jets_recomputed": false,
+    "base_bound_and_cut_enclosure_are_explicit_caller_certificates": true
+  },
+  "example_nonzero_box": {
+    "schema": "fd2d-R190-complete-radius-increment-jet-box-v1",
+    "query": {
+      "kind": "accurate normalized t=(s-c)/(S-c)",
+      "lower": [
+        "7",
+        "30"
+      ],
+      "upper": [
+        "1",
+        "4"
+      ]
+    },
+    "derivatives": "fixed physical s",
+    "jet_order": [
+      "value",
+      "first",
+      "second"
+    ],
+    "jets": [
+      {
+        "lower": [
+          "515211797371184771",
+          "6917529027641081856"
+        ],
+        "upper": [
+          "680944263658419033",
+          "4611686018427387904"
+        ],
+        "lower_display": 0.07447916666666667,
+        "upper_display": 0.14765625000000002
+      },
+      {
+        "lower": [
+          "-780899384929379625",
+          "207165582859042816"
+        ],
+        "upper": [
+          "-61976141661061875",
+          "51791395714760704"
+        ],
+        "lower_display": -3.7694455524531314,
+        "upper_display": -1.1966493817311528
+      },
+      {
+        "lower": [
+          "-134798108112809578125",
+          "507191519753535488"
+        ],
+        "upper": [
+          "-13944631873738921875",
+          "126797879938383872"
+        ],
+        "lower_display": -265.7735842632253,
+        "upper_display": -109.97527624685186
+      }
+    ],
+    "radius_parameter_columns": [
+      {
+        "parameter_index": 0,
+        "jets": [
+          {
+            "lower": [
+              "1",
+              "384"
+            ],
+            "upper": [
+              "1",
+              "48"
+            ],
+            "lower_display": 0.0026041666666666665,
+            "upper_display": 0.020833333333333332
+          },
+          {
+            "lower": [
+              "-6000",
+              "2507"
+            ],
+            "upper": [
+              "-1500",
+              "2507"
+            ],
+            "lower_display": -2.3932987634623055,
+            "upper_display": -0.5983246908655764
+          },
+          {
+            "lower": [
+              "576000000",
+              "6285049"
+            ],
+            "upper": [
+              "1152000000",
+              "6285049"
+            ],
+            "lower_display": 91.64606353904321,
+            "upper_display": 183.29212707808642
+          }
+        ]
+      },
+      {
+        "parameter_index": 1,
+        "jets": [
+          {
+            "lower": [
+              "121",
+              "384"
+            ],
+            "upper": [
+              "23",
+              "48"
+            ],
+            "lower_display": 0.3151041666666667,
+            "upper_display": 0.4791666666666667
+          },
+          {
+            "lower": [
+              "-33000",
+              "2507"
+            ],
+            "upper": [
+              "-30000",
+              "2507"
+            ],
+            "lower_display": -13.16314319904268,
+            "upper_display": -11.966493817311529
+          },
+          {
+            "lower": [
+              "-1152000000",
+              "6285049"
+            ],
+            "upper": [
+              "576000000",
+              "6285049"
+            ],
+            "lower_display": -183.29212707808642,
+            "upper_display": 91.64606353904321
+          }
+        ]
+      },
+      {
+        "parameter_index": 2,
+        "jets": [
+          {
+            "lower": [
+              "23",
+              "48"
+            ],
+            "upper": [
+              "235",
+              "384"
+            ],
+            "lower_display": 0.4791666666666667,
+            "upper_display": 0.6119791666666666
+          },
+          {
+            "lower": [
+              "19500",
+              "2507"
+            ],
+            "upper": [
+              "30000",
+              "2507"
+            ],
+            "lower_display": 7.778220981252493,
+            "upper_display": 11.966493817311529
+          },
+          {
+            "lower": [
+              "-2880000000",
+              "6285049"
+            ],
+            "upper": [
+              "-1152000000",
+              "6285049"
+            ],
+            "lower_display": -458.23031769521606,
+            "upper_display": -183.29212707808642
+          }
+        ]
+      },
+      {
+        "parameter_index": 3,
+        "jets": [
+          {
+            "lower": [
+              "1",
+              "48"
+            ],
+            "upper": [
+              "9",
+              "128"
+            ],
+            "lower_display": 0.020833333333333332,
+            "upper_display": 0.0703125
+          },
+          {
+            "lower": [
+              "6000",
+              "2507"
+            ],
+            "upper": [
+              "13500",
+              "2507"
+            ],
+            "lower_display": 2.3932987634623055,
+            "upper_display": 5.384922217790187
+          },
+          {
+            "lower": [
+              "1152000000",
+              "6285049"
+            ],
+            "upper": [
+              "1728000000",
+              "6285049"
+            ],
+            "lower_display": 183.29212707808642,
+            "upper_display": 274.93819061712964
+          }
+        ]
+      },
+      {
+        "parameter_index": 4,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 5,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 6,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 7,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 8,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 9,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 10,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      },
+      {
+        "parameter_index": 11,
+        "jets": [
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          },
+          {
+            "lower": [
+              "0",
+              "1"
+            ],
+            "upper": [
+              "0",
+              "1"
+            ],
+            "lower_display": 0,
+            "upper_display": 0
+          }
+        ]
+      }
+    ],
+    "definition": {
+      "schema": "fd2d-R190-accurate-radius-spline-interval-definition-v1",
+      "base_definition_binding": {
+        "kind": "conditional base bound fixture; no B32 integral consumed",
+        "lower": "4/5"
+      },
+      "cut_exact_definition_binding": {
+        "kind": "independent rational arithmetic fixture",
+        "S": "177/200",
+        "not_actual_B32": true
+      },
+      "cut_length_enclosure": {
+        "lower": [
+          "177",
+          "200"
+        ],
+        "upper": [
+          "177",
+          "200"
+        ],
+        "lower_display": 0.885,
+        "upper_display": 0.885
+      },
+      "central_length": [
+        "13",
+        "128"
+      ],
+      "radial_basis_count": 12,
+      "spacing_enclosure": {
+        "lower": [
+          "2507",
+          "48000"
+        ],
+        "upper": [
+          "2507",
+          "48000"
+        ],
+        "lower_display": 0.05222916666666667,
+        "upper_display": 0.05222916666666667
+      },
+      "radius_coefficients": [
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ]
+      ],
+      "parameter_binding": {
+        "kind": "explicit finite binary64 fixture",
+        "coefficients": [
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1
+        ]
+      },
+      "accurate_grid": "h=(S-c)/(J+3); centers=c+(j+2)h; S is the accurate B32 cut, not its binary64 evaluator",
+      "endpoint_two_jets": "all radius additions are exactly zero at the accurate c and S",
+      "base_radius_lower_bound": [
+        "4",
+        "5"
+      ],
+      "maximum_actual_coefficient": [
+        "3602879701896397",
+        "9007199254740992"
+      ],
+      "certified_total_radius_lower_bound": [
+        "18014398509481983",
+        "45035996273704960"
+      ],
+      "full_B32_integrals_or_base_jets_recomputed": false,
+      "base_bound_and_cut_enclosure_are_explicit_caller_certificates": true
+    },
+    "exact_base_jet_included": false,
+    "all_complete_spline_terms_included": true
+  },
+  "rounded_grid_sensitivity": {
+    "schema": "fd2d-R190-rounded-grid-vs-accurate-grid-jet-bound-v1",
+    "query": {
+      "kind": "fixed physical s",
+      "lower": [
+        "13",
+        "128"
+      ],
+      "upper": [
+        "177",
+        "200"
+      ]
+    },
+    "finite_grid_binding": {
+      "kind": "actual JavaScript binary64 grid computation in this fixture",
+      "central": 0.1015625,
+      "end": 0.885
+    },
+    "finite_spacing": [
+      "7527016177211889",
+      "144115188075855872"
+    ],
+    "finite_centers": [
+      [
+        "927835348230559",
+        "4503599627370496"
+      ],
+      [
+        "2326109207536861",
+        "9007199254740992"
+      ],
+      [
+        "699136929653151",
+        "2251799813685248"
+      ],
+      [
+        "6533972459376695",
+        "18014398509481984"
+      ],
+      [
+        "7474849481528181",
+        "18014398509481984"
+      ],
+      [
+        "8415726503679667",
+        "18014398509481984"
+      ],
+      [
+        "584787720364447",
+        "1125899906842624"
+      ],
+      [
+        "643592534248915",
+        "1125899906842624"
+      ],
+      [
+        "5619178785067063",
+        "9007199254740992"
+      ],
+      [
+        "3044808648071403",
+        "4503599627370496"
+      ],
+      [
+        "6560055807218549",
+        "9007199254740992"
+      ],
+      [
+        "1757623579573573",
+        "2251799813685248"
+      ]
+    ],
+    "accurate_definition": {
+      "schema": "fd2d-R190-accurate-radius-spline-interval-definition-v1",
+      "base_definition_binding": {
+        "kind": "conditional base bound fixture; no B32 integral consumed",
+        "lower": "4/5"
+      },
+      "cut_exact_definition_binding": {
+        "kind": "independent rational arithmetic fixture",
+        "S": "177/200",
+        "not_actual_B32": true
+      },
+      "cut_length_enclosure": {
+        "lower": [
+          "177",
+          "200"
+        ],
+        "upper": [
+          "177",
+          "200"
+        ],
+        "lower_display": 0.885,
+        "upper_display": 0.885
+      },
+      "central_length": [
+        "13",
+        "128"
+      ],
+      "radial_basis_count": 12,
+      "spacing_enclosure": {
+        "lower": [
+          "2507",
+          "48000"
+        ],
+        "upper": [
+          "2507",
+          "48000"
+        ],
+        "lower_display": 0.05222916666666667,
+        "upper_display": 0.05222916666666667
+      },
+      "radius_coefficients": [
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ],
+        [
+          "-3602879701896397",
+          "9007199254740992"
+        ],
+        [
+          "3602879701896397",
+          "18014398509481984"
+        ],
+        [
+          "3602879701896397",
+          "36028797018963968"
+        ]
+      ],
+      "parameter_binding": {
+        "kind": "explicit finite binary64 fixture",
+        "coefficients": [
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1,
+          -0.4,
+          0.2,
+          0.1
+        ]
+      },
+      "accurate_grid": "h=(S-c)/(J+3); centers=c+(j+2)h; S is the accurate B32 cut, not its binary64 evaluator",
+      "endpoint_two_jets": "all radius additions are exactly zero at the accurate c and S",
+      "base_radius_lower_bound": [
+        "4",
+        "5"
+      ],
+      "maximum_actual_coefficient": [
+        "3602879701896397",
+        "9007199254740992"
+      ],
+      "certified_total_radius_lower_bound": [
+        "18014398509481983",
+        "45035996273704960"
+      ],
+      "full_B32_integrals_or_base_jets_recomputed": false,
+      "base_bound_and_cut_enclosure_are_explicit_caller_certificates": true
+    },
+    "per_basis": [
+      {
+        "parameter_index": 0,
+        "argument_error_upper": [
+          "2",
+          "7527016177211889"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "4",
+            "22581048531635667"
+          ],
+          [
+            "1449683243687870586112",
+            "142036523137747764330587518591440747"
+          ],
+          [
+            "264319601516375230385615323960999640662016",
+            "893420598994594934390272170473828228045964840218265027"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 1,
+        "argument_error_upper": [
+          "1",
+          "2509005392403963"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "2",
+            "7527016177211889"
+          ],
+          [
+            "724092265566737309440",
+            "47345507712582588110195839530480249"
+          ],
+          [
+            "43872773581125007754787465961652597915648",
+            "99268955443843881598919130052647580893996093357585003"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 2,
+        "argument_error_upper": [
+          "4",
+          "7527016177211889"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "8",
+            "22581048531635667"
+          ],
+          [
+            "2894870349712553270528",
+            "142036523137747764330587518591440747"
+          ],
+          [
+            "525390322943874909200559063348747121819648",
+            "893420598994594934390272170473828228045964840218265027"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 3,
+        "argument_error_upper": [
+          "82",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "164",
+            "564526213290891675"
+          ],
+          [
+            "59365074788591687603456",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "10785121580749375620679482929228950715072512",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 4,
+        "argument_error_upper": [
+          "19",
+          "62725134810099075"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "38",
+            "188175404430297225"
+          ],
+          [
+            "13766745321094384682752",
+            "1183637692814564702754895988262006225"
+          ],
+          [
+            "278582872700208505018247636551189155577856",
+            "827241295365365679990992750438729840783300777979875025"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 5,
+        "argument_error_upper": [
+          "32",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "64",
+            "564526213290891675"
+          ],
+          [
+            "23235397137974620493056",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "4258353545061883650305889444535263686131712",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 6,
+        "argument_error_upper": [
+          "8",
+          "7527016177211889"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "16",
+            "22581048531635667"
+          ],
+          [
+            "5785244561761918639360",
+            "142036523137747764330587518591440747"
+          ],
+          [
+            "1047531765798874266830446542124242084134912",
+            "893420598994594934390272170473828228045964840218265027"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 7,
+        "argument_error_upper": [
+          "182",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "364",
+            "564526213290891675"
+          ],
+          [
+            "131624430089825821824256",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "23838657652124359561426669898616324772954112",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 8,
+        "argument_error_upper": [
+          "157",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "314",
+            "564526213290891675"
+          ],
+          [
+            "113559591264517288269056",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "20575273634280613576239873156269481258483712",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 9,
+        "argument_error_upper": [
+          "44",
+          "62725134810099075"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "88",
+            "188175404430297225"
+          ],
+          [
+            "10610528048800972745984",
+            "394545897604854900918298662754002075"
+          ],
+          [
+            "5770629872145622530351025471307545914671104",
+            "7445171658288291119918934753948568567049707001818875225"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 10,
+        "argument_error_upper": [
+          "107",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "214",
+            "564526213290891675"
+          ],
+          [
+            "77429913613900221158656",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "14048505598593121605866279671575794229542912",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      },
+      {
+        "parameter_index": 11,
+        "argument_error_upper": [
+          "82",
+          "188175404430297225"
+        ],
+        "basis_jet_error_upper": [
+          [
+            "164",
+            "564526213290891675"
+          ],
+          [
+            "59365074788591687603456",
+            "3550913078443694108264687964786018675"
+          ],
+          [
+            "10785121580749375620679482929228950715072512",
+            "22335514974864873359756804261845705701149121005456625675"
+          ]
+        ]
+      }
+    ],
+    "total_increment_jet_error_upper": [
+      [
+        "1228581978346671377",
+        "1129955575030105286198589967564800"
+      ],
+      [
+        "23895104890250550378363415488759953",
+        "382069256902332798604597219701293402899139788800"
+      ],
+      [
+        "33866911541704413401848069019782210443799122887719927",
+        "18775350479532798649411545799261304285646722806132422227892633600"
+      ]
+    ],
+    "full_C2_knots_covered": true,
+    "coefficient_rounding_error": 0,
+    "scope": "Exact real spline functions on saved rounded constants versus the accurate grid, with the same exact dyadic rho.",
+    "floating_arithmetic_operation_roundoff_included": false,
+    "base_evaluator_error_included": false
+  },
+  "independent_grid_comparisons": [
+    {
+      "normalized_point": [
+        "1",
+        "7"
+      ],
+      "exact_real_grid_error": [
+        [
+          "1770653790568897492462098187251511531697591833039434667",
+          "23526884017826508302792843684885428513635184049349137224427372544000000"
+        ],
+        [
+          "410323344961058260517215338245755205604388741015873",
+          "99411804161156983201836310396892426479572536951614887595868160000"
+        ],
+        [
+          "82521838817975321308288358364098170812759138553105337",
+          "450608411508787167585877099182271302855521347347178133469423206400"
+        ]
+      ]
+    },
+    {
+      "normalized_point": [
+        "1",
+        "2"
+      ],
+      "exact_real_grid_error": [
+        [
+          "618114966157958041015221792547252566937609258562588383",
+          "2304674352766678364355217340560205242152018029323997115862273228800000"
+        ],
+        [
+          "4963834032012425996952215993452865194003891627891123",
+          "2760807818418416790633854105879412529661271597627704878376681472000"
+        ],
+        [
+          "212705145595765876408296415965141516151424472070643933",
+          "540730093810544601103052519018725563426625616816613760163307847680"
+        ]
+      ]
+    },
+    {
+      "normalized_point": [
+        "6",
+        "7"
+      ],
+      "exact_real_grid_error": [
+        [
+          "79444586097082122400424932072043304020869155037937761",
+          "1440421470479173977722010837850128276345011268327498197413920768000000"
+        ],
+        [
+          "2859383763312027175194412912806665721456976878444413",
+          "3451009773023020988292317632349265662076589497034631097970851840000"
+        ],
+        [
+          "241245143010665674078686045639151796410642609685508839",
+          "1351825234526361502757631297546813908566564042041534400408269619200"
+        ]
+      ]
+    }
+  ],
+  "actual_B32_base_or_main_candidate_certified": false,
+  "source_meaning": "complete C2 spline increments and exact rounded-grid sensitivity; all nonrational base inputs remain explicit dependencies",
+  "actual_host": {
+    "kind": "functions.exec JavaScript isolate",
+    "elapsed_seconds": 0.111,
+    "Node_subprocess": false
+  },
+  "source_sha256": "c7fdbc32b297dd196b6277f673c8fe879fe5f99da33c5c7d955fe9d4422c3c27"
+}

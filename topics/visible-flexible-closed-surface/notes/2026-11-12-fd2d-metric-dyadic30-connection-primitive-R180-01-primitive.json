@@ -1,0 +1,44 @@
+{
+  "schema": "fd2d-R180-exact-full-function-connection-endpoint-primitive-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_connection_endpoint_primitive.py",
+    "bytes": 8040,
+    "sha256": "2a5f3e966751f787ce53bb7ee420cfc3480be78e925fe16ab203965a15f3931b"
+  },
+  "field_schema": "fd2d-R170-current-complete-accurate-domain-Arb-v1",
+  "field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "cell_definition": {
+    "cell": 69,
+    "left_exact": [
+      "3056556828915455",
+      "4503599627370496"
+    ],
+    "right_exact": [
+      "6395922550253195",
+      "9007199254740992"
+    ],
+    "length_exact": [
+      "282808892422285",
+      "9007199254740992"
+    ],
+    "normalized_label": "s=left+(right-left)*t; 0<=t<=1"
+  },
+  "v": "(-a*n,a*m,0), using the complete actual physical target and fields",
+  "endpoints": "same fixed native xi, full exact angular functions at normalized t=0 and t=1",
+  "L_v": "(1-t)*v_left+t*v_right, t normalized by the true physical cell length",
+  "q": "v-L_v",
+  "exact_identities": {
+    "q_left_zero": true,
+    "q_right_zero": true,
+    "q_xi_left_zero": true,
+    "q_xi_right_zero": true
+  },
+  "physical_radial_operator": "partial_s_at_fixed_xi-(U_s/U_xi)*partial_xi",
+  "E": "(v_right-v_left)/L + (m_u+a_s*l,-l_u+a_s*m,-a*G) - (U_s/U_xi)*(L_v)_xi + q cross alpha",
+  "alpha": "(m,-l,0)",
+  "all_endpoint_angular_modes_retained": true,
+  "finite_fit_or_sampled_integral_used": false,
+  "n_s_or_m_s_needed_by_E": false,
+  "whole_surface_certificate": false,
+  "packet_sha256": "ae37508e664fe38a00134803e4c4f92abff46c2f9078c25ac5cfb9695bcaf192"
+}

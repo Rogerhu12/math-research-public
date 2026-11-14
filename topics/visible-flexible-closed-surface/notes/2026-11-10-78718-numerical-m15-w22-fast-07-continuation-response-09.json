@@ -1,0 +1,45 @@
+{
+  "status": "ACTUAL_CONTINUATION_RESPONSE_ONLY",
+  "observer": "/root/numerical_recovery",
+  "observed_utc": "2026-11-10T15:59:00.082567+00:00",
+  "call": 9,
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0009.json.gz",
+    "bytes": 764073,
+    "sha256": "2cc67a7a0cd1652df817aff62770ca20c6b3804bd3e38af581032f787bb2ad52"
+  },
+  "converged": true,
+  "residual": 1.0528345037007498e-09,
+  "request_equals_checkpoint_height": true,
+  "height_scale_from_original_first_component": 0.78125,
+  "max_height_difference_from_that_multiple": 1.6155871338926322e-27,
+  "history_iterations": 5,
+  "last_history_min_A": 0.4325342675608981,
+  "last_history_min_D": 0.9934800056993556,
+  "requested_jacobian": false,
+  "requested_audit": false,
+  "response_events": [
+    {
+      "time": "2026-11-10T15:50:53.449Z",
+      "event": "tangent_predictor_ready",
+      "call": 9,
+      "maxChartCondition": 238087.5557632501
+    },
+    {
+      "time": "2026-11-10T15:50:53.450Z",
+      "event": "response",
+      "call": 9,
+      "elapsed_ms": 978667,
+      "converged": true,
+      "residual": 1.0528345037007498e-09,
+      "maxChartCondition": 238157.20958359254
+    }
+  ],
+  "continuation_step": "1/16",
+  "continuation_tau": "3/4",
+  "warm_from_actual_good_call": 8,
+  "original_full_height_solved": false,
+  "prefix_inner_or_closed_surface_asserted": false,
+  "process_tool_consumed": false,
+  "scope": "Own finite response at 25/32 of original height. Prior failed call7 had the same target but a different warm path; this actual success does not establish full-height or whole-surface criteria."
+}

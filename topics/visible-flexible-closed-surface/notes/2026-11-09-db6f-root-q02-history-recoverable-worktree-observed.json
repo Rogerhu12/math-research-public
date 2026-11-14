@@ -1,0 +1,388 @@
+{
+  "status": "RECOVERABLE_Q02_WORKTREE_COPIES_EVICTED",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T21:22:39.460561+00:00",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-recover-q02-history-worktree.py",
+    "bytes": 8010,
+    "sha256": "2869a197754243018e8a240892e1aabdcb3443b4f360b48c12f90bfb7376b856"
+  },
+  "current_source_head": "e6ee007fa3ecd0cee753a962c4bb7910e85a95cf",
+  "actually_published_anchor": "b77800583068ef38332c690f03a629784373ff82",
+  "published_anchor_repository": "/workspace/scratch/db6f0b0e7462/math-publication-minimal",
+  "protected_launch_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-launch.json",
+      "bytes": 37224,
+      "sha256": "05e3b3916f8b95baca5c9d7915feecbe6b8ed2382822d6efc29e7be27b2f532d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-release-lu-01-launch.json",
+      "bytes": 71499,
+      "sha256": "d2f0994af5636f9bdda2b36e089928704a9386c862ab2fa1ac2dfc4dd0685cfe"
+    }
+  ],
+  "protected_unique_sources_rehashed": 220,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "d2e7ade6ab5be10cbed6d78d277628e667210cd9",
+      "bytes": 2293691,
+      "sha256": "2a705b9563402b9b5954ee7736c84e4dc8d270543a1d41406d29e5080d899a10",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "f9618e4c891200b4f3aab0ade99150a2ebabd76f39d9c2969b3c225aa433eeca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "4e97bb9d0dafab429024891148cd8767e62e4fc1",
+      "bytes": 373691,
+      "sha256": "7d3c086696f5720699f2866489851882bae7d256b6cf3f78527cbed888f27ad0",
+      "decoded_bytes": 387040,
+      "decoded_sha256": "0e0c4d0cc83e13caf8af55db0653d57d58b1cfd874eb207c893e6e52546d29f6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "d90fccabdf6559f3b2e0ffc403ab1a5ba54a2709",
+      "bytes": 2297417,
+      "sha256": "dbd6f2db607c81f3306ede8056552f4ef352495688a43c57455f8b35ec0115d9",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "4091ad032ed273e3a2f643a18be450949b7a9a00477a2ebfe989b559be4cdb9f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "6518c5fd6f705546d6c8c5f41551d02e642128ed",
+      "bytes": 2299925,
+      "sha256": "9c63f8103408fa13fcafd36a90057e77eb6a41d60fec2fa503883e9af8b029b7",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "4c74be0471df42f1efc7de0e1e4591df1013c41b51b4e707bb3d83cbe2b6986f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "7b670fda5a5a1db00f6954751f842e699f06fa0f",
+      "bytes": 709339,
+      "sha256": "96a5986d60f3006dbf8fe6cd9326e520bddf922b7aca328539d045c976523065",
+      "decoded_bytes": 733960,
+      "decoded_sha256": "e04d64642090eecf5c8dea5bb958743c30665dfebce8c89cc71578c604bef995"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "95633fa3e644f4bdc82af20ac74de66688ff5ca3",
+      "bytes": 2277766,
+      "sha256": "c1c9e5f9009ea3fa6ed4fd3c70b3e2520a26aaa124feba57f4348725d4334f34",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "30a78708f340c27254c9306c16b9d3ba72911e8b81689a257c67645f291450d0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "fbf6c2cca9307ffd7646ab799e54b0b2a72bac31",
+      "bytes": 2301820,
+      "sha256": "66f0fd7d161bf48b90b1995ef2b0f556eb00eab5bedc2b3d7c59bbae4e41817d",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "4c3c5752ab8b8f9e469ccefff6cbaa2c469c69ae70e0a84f9cf68fa61225bd97"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "a2be092cefe39f28c47a22b2774cf1f2ab1a6110",
+      "bytes": 707314,
+      "sha256": "6c952a718398419ea2671d82279386bea8e0cd6c44fa11003660790f796fd51b",
+      "decoded_bytes": 729240,
+      "decoded_sha256": "8b9ccbcb0101cadb5a8d378d604c53164814d69287d4327d536a043f47195237"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "2449c4838d0df68d75b97183b099b41d65227183",
+      "bytes": 2260487,
+      "sha256": "8869990bc2447083e75f407bdb46849a2dfa3746a945be4283d3c17e811be2fd",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "51eb6c1ee900bb95d519d5ae2b1375f1bc96155520b81cc12fcef82da4761cec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "932fe7154a189b0c26a75e498076a68f04e81c02",
+      "bytes": 2286269,
+      "sha256": "7240808f03aebe5d1821b48716fad2fd02f28d5b9ac73d6314c055b40d57226b",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "074949aff95e4cdb051870cef976f8a3c668c0f76b2e28eaf7b822f9eb4af8b4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "8f93291f13f4f904e5a44fa08d46d0df053f5bae",
+      "bytes": 702200,
+      "sha256": "d2c469faa6b7138fc3763868a1df7e3d89820f36f8d3c8ea44703bf59217c6bd",
+      "decoded_bytes": 729240,
+      "decoded_sha256": "abc37ce25e37b3dd73c2ee512963ff8f4811e350c6b8a7ee7ca19b1e9e3aa908"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "e1556d71988f2aa1871cdd2106d758723e2d5dff",
+      "bytes": 2248664,
+      "sha256": "b3d33e318d53f8db91c3eb848f0998600d6b87871d332f9a3a4f297e5e7fb1e1",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "909a9342e17c0b78aae286b3c393f3ef108a747a460277643da92ef6fd2bb897"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "788ae56b7e0cc8d131ad6e6548768989e37b3341",
+      "bytes": 2278059,
+      "sha256": "5aa96589074dcdf6e5ebc3b9fa04bba9276399d3470470cf97873941b07d47fe",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "e2d63d9c6682a205cd7c69acaf4bb438720923fcd4be06965aec474017a2e190"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "924ac51389df6b4e03ae8de99a314ab85d722561",
+      "bytes": 690911,
+      "sha256": "f43e379851ebc3e973d9feb3e13ff9799289ca33db1f053051712d627a82f318",
+      "decoded_bytes": 729240,
+      "decoded_sha256": "fe46f70ff45cc001a52b43b7310026138ffcc11d27582a68efdfc1ec6debc3cb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "50d007c95480e815ddec4f7c469bf2aaefd81f0a",
+      "bytes": 2223083,
+      "sha256": "4deef3024b9d00481c9a1915e5b2b3ad655c3a3b1ab7cbce691dafc9f3cdbfad",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "ee49a47d56e2e68ab78b802bc7e3eb0a0db08517432f667bacd004f2b3172732"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "ad3bcadfd805b92463e9b2ed9fc1bc23654dc2d0",
+      "bytes": 2273981,
+      "sha256": "f7c6af2c3a1d565669475d0bfc3cec107e166c82877314f0585ac6c6f99ec7ca",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "f50529540ed4ae6c23853164614e336e01bcbdcf15efa9e2919525d75c8a1314"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "94b2f09d0e9c6670b9a63553ad29a4a0fcc160b1",
+      "bytes": 683703,
+      "sha256": "dac330d151b5ebd3b6f6dd7708c396c6a9104528174c3c9e54f3e84bd1a072f6",
+      "decoded_bytes": 731600,
+      "decoded_sha256": "bea20a701f8f349e11cdc8b962cf8810f8ef74be68b68d52b4be9ef088ab4abb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "60718b516de4ecf9a50470b7ada608e0da6bd2de",
+      "bytes": 2231710,
+      "sha256": "f8bccba978ab3a473328bef2769dd7f4c955d5eaf22d7b5798c72466bc39f545",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "a82d8bd9c1b7fa9fda92485989a4b02c9b631cc03bd2fc03ebd74c1ffd34dd50"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "d1388e8f05e4b5b6026797beddf2b2df21096c0f",
+      "bytes": 2268908,
+      "sha256": "3b02d5a60644320dc35fbfa408f22e3ba26a559e8145dad46a12c5890e193874",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "70750e63bb325b716cd65133f4604dc4ef19b89aba9b68bf3745682dd6a9f408"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "19f0a199b73163b54ef236d7d2673dd709a21287",
+      "bytes": 673441,
+      "sha256": "f7324292e08a72c334b0db9a9d5999e81346044c515d2d8ccf05c1ab32d7b1b9",
+      "decoded_bytes": 733960,
+      "decoded_sha256": "88b4b8cf9e50d3a238e761b8f7964f13396d9542bdff0ee1de49636cfde94f3b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "e52c4b28d39a6f966204919af86e5a8266556b48",
+      "bytes": 2219099,
+      "sha256": "5840e3255b729b07056a1de4d1dcb2d210464551f10059136ba9b3892bfa2bf6",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "f854c165a1a4f8556cb983b913767d1d0362b7b474edbc7f51e635f4ed9e50d3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "b14f64c0d6d6513f577e170e13faccfc3610768a",
+      "bytes": 2253246,
+      "sha256": "48ec4a21cab3051e07e0f0c6b6870e7582d58bcb2e673db4a8f68b9888288450",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "904001957f411f545e4cb5c5ddff7c14b523d9a01db8474e6ed276b241e19186"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "048743ab7dd6b2a4b25ea44d891c24fd5fbcc50a",
+      "bytes": 665616,
+      "sha256": "e6458ec549a7ed96c4bcb25a587019329c250fe8090fafd041d6219978b60be2",
+      "decoded_bytes": 733960,
+      "decoded_sha256": "e6acb37c46b5079980eb591cfbf3525292cca7d4d2e1bd6687c6accbc0a44556"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part00.f64.gz",
+      "mode": "100644",
+      "git_blob": "c0965d520716e97de1082a341636f56706f1fa13",
+      "bytes": 2256643,
+      "sha256": "047e9c52343e69b90562a7d923892be913ecf2dd70528a7f05a37f140788b502",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "b6e80d474d68c5f75d3b53c9f425a9307eaba8a8d60d26a819203072462f063b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part01.f64.gz",
+      "mode": "100644",
+      "git_blob": "1fcfb0a5903c7ff825d471442b690d1a1c65bc67",
+      "bytes": 2244391,
+      "sha256": "d09fc478cee911b0a4bf6cdcd10366e788e311336f2a7f0206cab96a3269dd52",
+      "decoded_bytes": 2360000,
+      "decoded_sha256": "f4b80ede90fa8221fd309b4953132cf6c635c2ccc0be3a2ea99bafe4c818fc93"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part02.f64.gz",
+      "mode": "100644",
+      "git_blob": "6fa6263898e18e5b7d7fd5e316343a136034b0c0",
+      "bytes": 655927,
+      "sha256": "e2d7be18e134afb4936955cb2d284ca5e4a549592ea549975dd7bb9298ed9640",
+      "decoded_bytes": 733960,
+      "decoded_sha256": "65e22c6bbdc809172b8dfe040a5307d8b314238a6cf655d0873888764b1fc001"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw000.f64.gz",
+      "mode": "100644",
+      "git_blob": "f26c179edd38342d515ab2beb9a1d050da8e3820",
+      "bytes": 4169915,
+      "sha256": "13b4111d06feb7596957f8137640df97a12de1c1fc88f959c20dc97b3b150d0e",
+      "decoded_bytes": 5430768,
+      "decoded_sha256": "2271cb0e506d3d643b9db2972920809637a92079becc36e29887f588c3a9c3ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw001.f64.gz",
+      "mode": "100644",
+      "git_blob": "4408c6bc80d41a370b7c75957afea687c2e0bcce",
+      "bytes": 4072022,
+      "sha256": "fa1931b3f6186a043289c0176829e38e79c16bda8db93137166dec0b13f0e007",
+      "decoded_bytes": 5426064,
+      "decoded_sha256": "139dbb2e51c8df980e6be2b8283ef4be44e593b81626d8233ae31b7c359fe162"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw002.f64.gz",
+      "mode": "100644",
+      "git_blob": "3de86e6213e0d768a01b7db020ca37266200930a",
+      "bytes": 3990629,
+      "sha256": "301cc36b4d6654b154b98a0d4ac527a2025c0696db0e0beeb313b361a09fc1c4",
+      "decoded_bytes": 5426064,
+      "decoded_sha256": "69c81307ee80ac3de46626491a9fd07fb6301502f8b7752293c18bacc6b94a07"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw003.f64.gz",
+      "mode": "100644",
+      "git_blob": "5d3653f7f519ef3bf7b26be4c0989afcedb290e3",
+      "bytes": 3887002,
+      "sha256": "c35292b273b01562523dd611f738ddabb64ef7a6fd5eb96f1986d19b65c008ce",
+      "decoded_bytes": 5426064,
+      "decoded_sha256": "e6b424c6800af070b76873f5b100994e70c9fa93280d905ed01310314f7ce89b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw004.f64.gz",
+      "mode": "100644",
+      "git_blob": "8c1a3346236500287bc79f79329aafed2caa6a1d",
+      "bytes": 3809586,
+      "sha256": "d5620817e112dbb158626d59b7f7e5f089a905acb076628bb9a6977d259926a9",
+      "decoded_bytes": 5428416,
+      "decoded_sha256": "bf6ba1b98e0fe61e361fb54b46e97be0682f828cbf758b042f879abae1195c33"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw005.f64.gz",
+      "mode": "100644",
+      "git_blob": "ff812d7c9f524f1c3add86e87baac43d5733b299",
+      "bytes": 3763296,
+      "sha256": "dcf0f9ea30cd3b0c57864dc183abafc1e7f67a8b1be6e88f4f5ed2ca1cf4d3af",
+      "decoded_bytes": 5430768,
+      "decoded_sha256": "09934d0a423abb83b5f4cb311548e50b02f8a707b13c1b269beb3caed423d5f4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw006.f64.gz",
+      "mode": "100644",
+      "git_blob": "d58a8ae26f95181e4390b819823728c48b365b1b",
+      "bytes": 3737929,
+      "sha256": "353ee5355b06bf7b53c6ba70be3e4d4e77d0b6e312d3c61cd4aab01e69ed2dc0",
+      "decoded_bytes": 5430768,
+      "decoded_sha256": "9a9a3fe26ef5e7cd678f4e315a1ac1ef5110b89bb1328593e842e8f0c26defd9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw007.f64.gz",
+      "mode": "100644",
+      "git_blob": "7325600007c5e546ad063c5f94096616a73e92dc",
+      "bytes": 3698108,
+      "sha256": "49d75ff7eba2413b82534e0d3da8cf48f7cfc5d8aeac0fac7ee0f2a9b7d487d9",
+      "decoded_bytes": 5430768,
+      "decoded_sha256": "9109b60d0b62dcf4ce77ef57e2ff7c5da652e95c104ed0d02e043ac14030775a"
+    }
+  ],
+  "file_count": 34,
+  "total_historical_worktree_bytes": 75505788,
+  "old_sparse_rules": "/*\n!/*/\n/topics/\n!/topics/*/\n/topics/visible-flexible-closed-surface/\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part03.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part04.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part02.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part01.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part00.f64.gz\n!/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part01.f64.gz\n",
+  "new_sparse_rules_sha256": "63614ad34efe8417c02c7ae751d12807e26278cb46a5a226274c970336faea7a",
+  "free_bytes_before": 710664192,
+  "removed_worktree_paths": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n1-cheb64-raw000-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw000-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw001-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw002-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw003-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw004-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw005-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw006-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part00.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part01.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-raw007-part02.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw000.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw001.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw002.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw003.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw004.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw005.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw006.f64.gz",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int-q02-m8-n8-s128-raw007.f64.gz"
+  ],
+  "network_calls": 0,
+  "Git_objects_or_refs_removed": false,
+  "solver_calls": 0,
+  "restore": "All blobs remain local and in the published tree. Restore selected paths from the recorded source head with git restore --worktree --ignore-skip-worktree-bits after adjusting their recorded sparse exclusions.",
+  "scope": "Historical q02 data residency only; neither active inputs nor current flat17 geometry is evicted.",
+  "free_bytes_after": 786182144,
+  "current_and_published_blobs_preserved": true,
+  "selected_paths_git_status_clean": true
+}

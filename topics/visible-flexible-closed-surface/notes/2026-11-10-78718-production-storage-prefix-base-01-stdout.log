@@ -1,0 +1,42 @@
+{"resource_only": "RLIMIT_FSIZE", "effective_bytes": [4999999, 4999999], "original_argv_and_environment_preserved": true}
+{
+  "modes": 24,
+  "nodes": 6599,
+  "minimum_span": 2.6325206967516696e-05,
+  "inlet_jet_changes": [
+    2.4606637166594123e-30,
+    1.0352184689040257e-15,
+    0.0
+  ],
+  "continuous_bounds_certified": false
+}
+{"logical_data_bytes": 8485667, "storage_descriptor": "prefix-base-payload-63169e121eed1f472fde761ed85da3501e506232be3aeb938a5dfc62211c5423-storage.json"}
+{
+  "mirror_inlet_C2_exact": true,
+  "mirror_second_height_adjustment_max": 1.0713230031236141e-31,
+  "exact_inlet_witness": {
+    "radius_at_psi_0": {
+      "numerator": "1767876850585932662267958999985076438316674519714686184686107",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 1.1001524650573298
+    },
+    "radius_at_psi_pi_over_3": {
+      "numerator": "1446556586870225740047625385813722699738761598182422480912923",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 0.9001943740384083
+    },
+    "radial_gap": {
+      "numerator": "30216812384203290578923",
+      "denominator": "151115727451828646838272",
+      "display": 0.19995809101892154
+    },
+    "tangent_at_psi_pi_over_3": {
+      "numerator": "2892488479739764481825384045139436088697282297274172266937755",
+      "denominator": "1606938044258990275541962092341162602522202993782792835301376",
+      "display": 1.80000000004579
+    },
+    "radial_normal_points_outward": true,
+    "positive_radii_and_gap": true
+  },
+  "complete_closed_surface": false
+}

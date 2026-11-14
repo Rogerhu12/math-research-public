@@ -1,0 +1,163 @@
+{
+  "status": "validated-frozen-source-high-order-integrals-pending-independent-review",
+  "scope": "Validated Taylor/range integration of the frozen finite source A and B.\n\nOn a verified single analytic branch, normalized interval derivatives give\nthe integral Taylor remainder. Cap or abs crossings are subdivided and\neventually integrated by a plain interval range. Acceptance tolerances only\ncontrol work; the returned interval remains the actual certificate.\n",
+  "checkpointSHA256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0",
+  "calibrationsSHA256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4",
+  "sourceHashes": {
+    "db6f-tail-integrate-high-order.py": "ea442cd8d7d65e041e729ccb4bc6d3872f0e5fa4bd694d7fbf42e6674b113ef1",
+    "db6f_tail_interval_source.py": "82359f0f48c836b9703a1bbe16d2c3d67a375c3e9408c4af3b13612692c4ba3e",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+  },
+  "settings": {
+    "checkpoint": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+    "calibrations": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+    "out": "notes/2026-11-09-db6f-audit-high-order-A0-rerun.json",
+    "integrands": "A",
+    "a_cells": "0",
+    "b_cells": "0:16",
+    "segments": "0:9",
+    "order": 12,
+    "initial": 16,
+    "a_tolerance": 1e-16,
+    "b_tolerance": 1e-20,
+    "minimum_width": 5.684341886080802e-14,
+    "batch": 128
+  },
+  "rows": [
+    {
+      "cell": 0,
+      "segment": 0,
+      "integrand": "A",
+      "interval": [
+        3.20451436793724e-08,
+        3.2045143679913455e-08
+      ],
+      "width": 5.410555299484852e-19,
+      "analyticLeaves": 16,
+      "rangeLeaves": 0,
+      "evaluatedBoxes": 16,
+      "maximumExtraDepth": 0
+    },
+    {
+      "cell": 0,
+      "segment": 1,
+      "integrand": "A",
+      "interval": [
+        0.058573174290975555,
+        0.05857317429098324
+      ],
+      "width": 7.688294445529209e-15,
+      "analyticLeaves": 288,
+      "rangeLeaves": 5,
+      "evaluatedBoxes": 570,
+      "maximumExtraDepth": 40
+    },
+    {
+      "cell": 0,
+      "segment": 2,
+      "integrand": "A",
+      "interval": [
+        -1.18e-321,
+        1.18e-321
+      ],
+      "width": 2.36e-321,
+      "analyticLeaves": 16,
+      "rangeLeaves": 0,
+      "evaluatedBoxes": 16,
+      "maximumExtraDepth": 0
+    },
+    {
+      "cell": 0,
+      "segment": 3,
+      "integrand": "A",
+      "interval": [
+        0.060681378531989884,
+        0.060681378532035375
+      ],
+      "width": 4.549138843401579e-14,
+      "analyticLeaves": 320,
+      "rangeLeaves": 3,
+      "evaluatedBoxes": 630,
+      "maximumExtraDepth": 40
+    },
+    {
+      "cell": 0,
+      "segment": 4,
+      "integrand": "A",
+      "interval": [
+        1.4666297478258101e-05,
+        1.4666297478258586e-05
+      ],
+      "width": 4.845028458294598e-19,
+      "analyticLeaves": 16,
+      "rangeLeaves": 0,
+      "evaluatedBoxes": 16,
+      "maximumExtraDepth": 0
+    },
+    {
+      "cell": 0,
+      "segment": 5,
+      "integrand": "A",
+      "interval": [
+        0.013018672676535229,
+        0.01301867267654562
+      ],
+      "width": 1.0390993621101074e-14,
+      "analyticLeaves": 787,
+      "rangeLeaves": 20,
+      "evaluatedBoxes": 1598,
+      "maximumExtraDepth": 40
+    },
+    {
+      "cell": 0,
+      "segment": 6,
+      "integrand": "A",
+      "interval": [
+        -1.18e-321,
+        1.18e-321
+      ],
+      "width": 2.36e-321,
+      "analyticLeaves": 16,
+      "rangeLeaves": 0,
+      "evaluatedBoxes": 16,
+      "maximumExtraDepth": 0
+    },
+    {
+      "cell": 0,
+      "segment": 7,
+      "integrand": "A",
+      "interval": [
+        0.07124114405318649,
+        0.07124114405319104
+      ],
+      "width": 4.551914400963142e-15,
+      "analyticLeaves": 11360,
+      "rangeLeaves": 359,
+      "evaluatedBoxes": 23422,
+      "maximumExtraDepth": 40
+    },
+    {
+      "cell": 0,
+      "segment": 8,
+      "integrand": "A",
+      "interval": [
+        3.9855525231780097e-05,
+        3.985552523178112e-05
+      ],
+      "width": 1.0232158002831948e-18,
+      "analyticLeaves": 16,
+      "rangeLeaves": 0,
+      "evaluatedBoxes": 16,
+      "maximumExtraDepth": 0
+    }
+  ],
+  "totals": {
+    "A": [
+      0.20356892342054078,
+      0.20356892342060912
+    ]
+  },
+  "finished": true,
+  "seconds": 90.5640344619751
+}

@@ -1,0 +1,162 @@
+{
+  "status": "AUTHOR_METADATA_GUARDS_PASS_NOT_INDEPENDENT_REVIEW",
+  "script": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-check-transfer-v3-policy.py",
+  "script_sha256": "52dd111e4931aed6c362de1f5c77bcc64c90bd6f73c624c7074b1bf97307e827",
+  "transfer_script": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v3.py",
+  "transfer_script_sha256": "bdf6307fd93328b1ae70923caac2687fa19b0187ca9c723fe5d7072d7799a47b",
+  "frozen_base_sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+  "parameter_policy": {
+    "id": "visible-flat17-bookkeeping-keys-v2",
+    "additional_numerical_keys": [
+      "iterationCheckpointFile",
+      "sharedEngines",
+      "trialDiagnosticFile",
+      "trialStatePrefix"
+    ],
+    "base_file": "db6f-root-transfer-background.py",
+    "base_sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+    "difference_semantics": "Key presence and canonical JSON value including JSON types; an unknown added null key rejects."
+  },
+  "parameter_policy_sha256": "2b4fd1d141d9116157037d05748ab2a019c9033441453ee8e6ab917eb355eae3",
+  "unchanged_functions": {
+    "grid": true,
+    "fraction_vectors": true,
+    "affine_coefficients": true,
+    "write_npz": true,
+    "check": true,
+    "sha": true
+  },
+  "exact_transfer_geometry_block_unchanged": true,
+  "checks": [
+    {
+      "name": "same dictionary",
+      "expected_accept": true,
+      "accepted": true,
+      "different": [],
+      "error": null
+    },
+    {
+      "name": "four reviewed keys",
+      "expected_accept": true,
+      "accepted": true,
+      "different": [
+        "iterationCheckpointFile",
+        "sharedEngines",
+        "trialDiagnosticFile",
+        "trialStatePrefix"
+      ],
+      "error": null
+    },
+    {
+      "name": "unknown added null",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "unknown removed null",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "unknown changed",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "physical value changed",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: rCut"
+    },
+    {
+      "name": "physical added null",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: rCut"
+    },
+    {
+      "name": "sharedEngines string rejected",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "sharedEngines must be boolean or null"
+    },
+    {
+      "name": "path boolean rejected",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "iterationCheckpointFile must be a path string or null"
+    },
+    {
+      "name": "approved null is explicit numerical metadata",
+      "expected_accept": true,
+      "accepted": true,
+      "different": [
+        "iterationCheckpointFile"
+      ],
+      "error": null
+    },
+    {
+      "name": "unknown false to zero",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: x"
+    },
+    {
+      "name": "unknown true to one",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: x"
+    },
+    {
+      "name": "nested false to zero",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: x"
+    },
+    {
+      "name": "nested true to one",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: x"
+    },
+    {
+      "name": "int to float conservative rejection",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "changing an unapproved physical parameter: x"
+    },
+    {
+      "name": "nonfinite unchanged rejection",
+      "expected_accept": false,
+      "accepted": false,
+      "different": null,
+      "error": "Out of range float values are not JSON compliant: nan"
+    },
+    {
+      "name": "dictionary order harmless",
+      "expected_accept": true,
+      "accepted": true,
+      "different": [],
+      "error": null
+    }
+  ],
+  "preflight": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-transfer-v3-quarter-policy-preflight.json",
+  "preflight_sha256": "1e5a70147345f2acb83c6d491df70e4843daeff685077b96dce59be28fd7a519",
+  "actual_new_root_flow_solver_calls": 0,
+  "geometric_transfer_performed": false
+}

@@ -1,0 +1,48 @@
+{
+  "README_complete": false,
+  "author": "/root/tail_theory",
+  "files": [
+    {
+      "bytes": 14495,
+      "file": "scripts/db6f-tail-phase-marker-obstructions.py",
+      "role": "exact scalar and source-hash checker",
+      "sha256": "e904ab1b2aa23745c1eb64db562fb52c5fd31a0fc35b6dc3e90f3232b0b593d7"
+    },
+    {
+      "bytes": 17008,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.md",
+      "role": "frozen v1 history; three table decimal displays superseded by v2",
+      "sha256": "bd3a3b8dd611def263826a5ba9559404d77db2b928648d4f327a896ecf17d1fb"
+    },
+    {
+      "bytes": 17349,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-v2.md",
+      "role": "final proof draft reviewed in full; exact thresholds and all scope conditions",
+      "sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486"
+    },
+    {
+      "bytes": 11251,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.json",
+      "role": "actual exit-0 Fraction arithmetic report",
+      "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96"
+    },
+    {
+      "bytes": 5854,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-sources.json",
+      "role": "complete source ledger",
+      "sha256": "807a61dbda8b48a0245f91bf1539875b7df7460a1c0d2249173acde53da270f6"
+    },
+    {
+      "bytes": 1585,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-observed-execution.json",
+      "role": "actual tool exit record; independent review pending at execution time",
+      "sha256": "cc8482252899583e5399baac6cde5da185cb60853d2d822e379e5f39a4d9832b"
+    }
+  ],
+  "formal_independent_review_files": "supplied separately by /root/independent_geometry; complete proof and replay PASS already reported",
+  "largest_file_bytes": 17349,
+  "scope": "Conditional upper bounds and necessary conditions only. No current map/g/source changed; no new solver, flow, export or geometric certification. R21-specific numerical bounds do not certify a future M15 map.",
+  "status": "CLOSED-author-obstruction-proof-v2-and-exact-ledger",
+  "total_bytes": 67542,
+  "total_files": 6
+}

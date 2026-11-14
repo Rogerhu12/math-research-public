@@ -1,0 +1,116 @@
+{
+  "status": "exact-scalar-budget-for-defined-finite-closed-map-pending-independent-assembly-review",
+  "script_sha256": "cb7ab59d8c2958be86a9df0d3031e27361adb504dad3d02c4b4968c1628b2b17",
+  "inputs": {
+    "geometry": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m8s32.json",
+      "sha256": "4f00d33a2add41b5711d805866228ff082786f597ab2362d6bd3a0c10a704524"
+    },
+    "geometry_certificate": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-geometry.json",
+      "sha256": "31fd7a6fc6b4a7e439b0fe300d21b2916edd3b1907af6c7f1f88f61c223af5f3"
+    },
+    "metric_certificate": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-metric.json",
+      "sha256": "e092eb9583f171e1329e7f51a7119876c74b2b9399e8b4c3ea1915b28cd03ee7"
+    },
+    "moment_certificate": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-moment.json",
+      "sha256": "dabc846cf95ffd28289e60b8078fea6ceeac3567f85bcbe573da53d06909b86b"
+    },
+    "tail_first": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-first-flat17-m8-q10-n8-s32.json",
+      "sha256": "92c71e7d9153b3f7176ce4e6524f7fa21bcbe0979273b16f3e8b5eb3de05eb23"
+    },
+    "height": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+      "sha256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+    },
+    "positive_alpha": {
+      "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+      "sha256": "35811ec9035d77e60f5809b6d1e19d8a27f4755f95eb5498eaa8fcc0f4808a19"
+    }
+  },
+  "tail_support_lower": {
+    "exact": "244170556836839709722831582455062683912003228618592893060688714750398969/331283824645946988237082319826632020516995927449337740948323297929461760",
+    "lower_display": 0.7370434010709461,
+    "upper_display": 0.7370434010709462
+  },
+  "whole_surface_support_lower": {
+    "exact": "244170556836839709722831582455062683912003228618592893060688714750398969/331283824645946988237082319826632020516995927449337740948323297929461760",
+    "lower_display": 0.7370434010709461,
+    "upper_display": 0.7370434010709462
+  },
+  "tail_height_lower": {
+    "exact": "8164850725993605349/4611686018427387904",
+    "lower_display": 1.770469779028423,
+    "upper_display": 1.7704697790284232
+  },
+  "tail_height_upper": {
+    "exact": "8556056704522264539/4611686018427387904",
+    "lower_display": 1.8552990533904408,
+    "upper_display": 1.855299053390441
+  },
+  "ball_radius_upper": {
+    "exact": "49/25",
+    "lower_display": 1.96,
+    "upper_display": 1.9600000000000002
+  },
+  "diameter_upper": {
+    "exact": "98/25",
+    "lower_display": 3.92,
+    "upper_display": 3.9200000000000004
+  },
+  "hausdorff_hold_lower": {
+    "exact": "225057929736273/1125899906842624",
+    "lower_display": 0.19989159637414478,
+    "upper_display": 0.19989159637414478
+  },
+  "hold_over_diameter_lower": {
+    "exact": "5626448243406825/110338190870577152",
+    "lower_display": 0.05099275417707774,
+    "upper_display": 0.05099275417707775
+  },
+  "held_region_diameter_lower": {
+    "exact": "7977247737770133/2251799813685248",
+    "lower_display": 3.542609644644538,
+    "upper_display": 3.542609644644538
+  },
+  "two_tail_moment_absolute_upper": {
+    "exact": "96175740008438494333371828885864160938794975557776818931149004548664554573636064964583138352506703620095565371/76957043352332967211482500195592995713046365762627825523336510555167425334955489475418488779072100860950445293568",
+    "lower_display": 0.001249732783627308,
+    "upper_display": 0.0012497327836273082
+  },
+  "unmarked_volume_moment_real_lower": {
+    "exact": "33368427995356271698413787470492543965874783852861520092708738077733305287817200374220956497846389816609318150597/76957043352332967211482500195592995713046365762627825523336510555167425334955489475418488779072100860950445293568",
+    "lower_display": 0.4335981028089315,
+    "upper_display": 0.4335981028089316
+  },
+  "unmarked_volume_moment_real_upper": {
+    "exact": "37109151496869588682683342184708585259824753575370004565196032157418245165625923190692205597098412110223777160763/76957043352332967211482500195592995713046365762627825523336510555167425334955489475418488779072100860950445293568",
+    "lower_display": 0.48220604483169266,
+    "upper_display": 0.4822060448316927
+  },
+  "centered_third_tensor_norm_squared_change_lower": {
+    "exact": "2702842667623858007571516785109896061235857492081783127509407784296397728313193230311897476325557575145354770198357/12024538023802026126794140655561405580163494650410597738021329774244910208586795230534138871730015759523507077120000000000000",
+    "lower_display": 2.247772564961501e-10,
+    "upper_display": 2.2477725649615013e-10
+  },
+  "corrected_prefix_exact_target_metric_upper": {
+    "exact": "33884415582220318736833370604274390962960865/93536104789177786765035829293842113257979682750464",
+    "lower_display": 3.6226028076102625e-07,
+    "upper_display": 3.622602807610263e-07
+  },
+  "embedding_all_phases_follows_from_support_given_reviewed_assembly": true,
+  "rigid_noncongruence_follows_from_moment_given_reviewed_assembly": true,
+  "whole_tail_metric_certified": false,
+  "whole_tail_curvature_certified": false,
+  "quantitative_reach_certified": false,
+  "README_complete": false,
+  "remaining": [
+    "independent common-cut/closed-map implementation review",
+    "tight exact background parameter enclosure and whole-tail metric",
+    "actual whole-tail curvature and reach >= .03D",
+    "fixed-g high-frequency/full-XYZ convergence and final independent replay"
+  ]
+}

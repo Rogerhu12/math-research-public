@@ -1,0 +1,1607 @@
+{
+  "schema": "fd2d-R205-amplitude-cap-inputs-actual-BigInt-V8-check-v1",
+  "actual_V8_execution": true,
+  "OS_process_created": false,
+  "OS_exit_code": null,
+  "source": {
+    "path": "scripts/fd2d_R205_amplitude_cap_budget.cjs",
+    "bytes": 7673,
+    "sha256": "ff80d1fb0407a363efb6dc17f8ecf9ee50b5db5be9737df136714a40f61541f0"
+  },
+  "constants": {
+    "flat_radius": {
+      "numerator": "17",
+      "denominator": "50",
+      "fraction": "17/50",
+      "decimal": 0.34
+    },
+    "cuff_radius": {
+      "numerator": "8",
+      "denominator": "25",
+      "fraction": "8/25",
+      "decimal": 0.32
+    },
+    "outer_cut_radius": {
+      "numerator": "4",
+      "denominator": "5",
+      "fraction": "4/5",
+      "decimal": 0.8
+    },
+    "L": {
+      "numerator": "23",
+      "denominator": "50",
+      "fraction": "23/50",
+      "decimal": 0.46
+    },
+    "amplitude_max": {
+      "numerator": "6",
+      "denominator": "5",
+      "fraction": "6/5",
+      "decimal": 1.2
+    },
+    "c2": {
+      "numerator": "879773",
+      "denominator": "9237800",
+      "fraction": "879773/9237800",
+      "decimal": 0.09523620342505791
+    },
+    "c4": {
+      "numerator": "376009639",
+      "denominator": "57079308000",
+      "fraction": "376009639/57079308000",
+      "decimal": 0.006587494701232187
+    },
+    "h1": {
+      "numerator": "23",
+      "denominator": "100",
+      "fraction": "23/100",
+      "decimal": 0.23
+    },
+    "moments": {
+      "S1": {
+        "numerator": "1",
+        "denominator": "2",
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "S2": {
+        "numerator": "38251",
+        "denominator": "92378",
+        "fraction": "38251/92378",
+        "decimal": 0.41407044967416484
+      },
+      "S4": {
+        "numerator": "376009639",
+        "denominator": "1094020070",
+        "fraction": "376009639/1094020070",
+        "decimal": 0.34369537571646197
+      }
+    }
+  },
+  "common": {
+    "schema": "fd2d-R205-common-cap-tail-budget-v1",
+    "amplitude_interval": [
+      "0",
+      "6/5"
+    ],
+    "true_height_interval": [
+      ".40",
+      ".63"
+    ],
+    "minimum_cylinder_reach": {
+      "numerator": "736",
+      "denominator": "4725",
+      "fraction": "736/4725",
+      "decimal": 0.15576719576719578
+    },
+    "margins": {
+      "whole_cylinder_reach": {
+        "numerator": "11107",
+        "denominator": "189000",
+        "fraction": "11107/189000",
+        "decimal": 0.058767195767195766,
+        "passed": true
+      },
+      "minimum_positive_height": {
+        "numerator": "31",
+        "denominator": "250",
+        "fraction": "31/250",
+        "decimal": 0.124,
+        "passed": true
+      },
+      "opposite_tail_half_separation": {
+        "numerator": "27",
+        "denominator": "1000",
+        "fraction": "27/1000",
+        "decimal": 0.027,
+        "passed": true
+      },
+      "support": {
+        "numerator": "3",
+        "denominator": "200",
+        "fraction": "3/200",
+        "decimal": 0.015,
+        "passed": true
+      },
+      "ball": {
+        "numerator": "15231",
+        "denominator": "10000",
+        "fraction": "15231/10000",
+        "decimal": 1.5231,
+        "passed": true
+      },
+      "slab": {
+        "numerator": "1",
+        "denominator": "20",
+        "fraction": "1/20",
+        "decimal": 0.05,
+        "passed": true
+      },
+      "flat_collar": {
+        "numerator": "1",
+        "denominator": "50",
+        "fraction": "1/50",
+        "decimal": 0.02,
+        "passed": true
+      }
+    },
+    "passed": true,
+    "held_not_included_in_this_common_geometric_packet": true
+  },
+  "uniform_cases": [
+    {
+      "schema": "fd2d-R205-continuous-amplitude-held-certificate-v1",
+      "central_lower": {
+        "numerator": "34",
+        "denominator": "25",
+        "fraction": "34/25",
+        "decimal": 1.36
+      },
+      "cuff_height_lower": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "amplitude_upper": {
+        "numerator": "1",
+        "denominator": "1",
+        "fraction": "1",
+        "decimal": 1
+      },
+      "held_radius": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "power_coefficients": [
+        {
+          "numerator": "8",
+          "denominator": "125",
+          "fraction": "8/125",
+          "decimal": 0.064
+        },
+        {
+          "numerator": "-23",
+          "denominator": "125",
+          "fraction": "-23/125",
+          "decimal": -0.184
+        },
+        {
+          "numerator": "73701269",
+          "denominator": "461890000",
+          "fraction": "73701269/461890000",
+          "decimal": 0.15956454783606486
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "72040188508871057",
+          "denominator": "42578443938973800000",
+          "fraction": "72040188508871057/42578443938973800000",
+          "decimal": 0.001691940377438963
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "-600368653597",
+          "denominator": "478482061200000",
+          "fraction": "-600368653597/478482061200000",
+          "decimal": -0.0012547359708560794
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "141383248620910321",
+          "denominator": "3258047401758864000000",
+          "fraction": "141383248620910321/3258047401758864000000",
+          "decimal": 0.00004339508643876215
+        }
+      ],
+      "boxes": [
+        {
+          "interval": [
+            {
+              "numerator": "0",
+              "denominator": "1",
+              "fraction": "0",
+              "decimal": 0
+            },
+            {
+              "numerator": "1",
+              "denominator": "1",
+              "fraction": "1",
+              "decimal": 1
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "8",
+              "denominator": "125",
+              "fraction": "8/125",
+              "decimal": 0.064
+            },
+            {
+              "numerator": "41",
+              "denominator": "1000",
+              "fraction": "41/1000",
+              "decimal": 0.041
+            },
+            {
+              "numerator": "306493829",
+              "denominator": "12932920000",
+              "fraction": "306493829/12932920000",
+              "decimal": 0.02369873385128803
+            },
+            {
+              "numerator": "156439207",
+              "denominator": "12932920000",
+              "fraction": "156439207/12932920000",
+              "decimal": 0.012096201553864093
+            },
+            {
+              "numerator": "18528442388404087757",
+              "denominator": "2980491075728166000000",
+              "fraction": "18528442388404087757/2980491075728166000000",
+              "decimal": 0.006216573684548742
+            },
+            {
+              "numerator": "520154569929933251",
+              "denominator": "85156887877947600000",
+              "fraction": "520154569929933251/85156887877947600000",
+              "decimal": 0.006108191396983091
+            },
+            {
+              "numerator": "28132865809180136003",
+              "denominator": "2384392860582532800000",
+              "fraction": "28132865809180136003/2384392860582532800000",
+              "decimal": 0.011798754422669666
+            },
+            {
+              "numerator": "7904499775118742427",
+              "denominator": "340627551511790400000",
+              "fraction": "7904499775118742427/340627551511790400000",
+              "decimal": 0.02320569707305411
+            },
+            {
+              "numerator": "13611699070813069598330689",
+              "denominator": "339908827378100522256000000",
+              "fraction": "13611699070813069598330689/339908827378100522256000000",
+              "decimal": 0.04004514732908651
+            }
+          ],
+          "minimum": {
+            "numerator": "520154569929933251",
+            "denominator": "85156887877947600000",
+            "fraction": "520154569929933251/85156887877947600000",
+            "decimal": 0.006108191396983091
+          },
+          "passed": true
+        }
+      ],
+      "uniform_squared_margin": {
+        "numerator": "520154569929933251",
+        "denominator": "85156887877947600000",
+        "fraction": "520154569929933251/85156887877947600000",
+        "decimal": 0.006108191396983091
+      },
+      "passed": true,
+      "source_of_continuity": "Exact Bernstein convex-combination identity on every complete amplitude interval; no amplitude sampling"
+    },
+    {
+      "schema": "fd2d-R205-continuous-amplitude-held-certificate-v1",
+      "central_lower": {
+        "numerator": "34",
+        "denominator": "25",
+        "fraction": "34/25",
+        "decimal": 1.36
+      },
+      "cuff_height_lower": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "amplitude_upper": {
+        "numerator": "6",
+        "denominator": "5",
+        "fraction": "6/5",
+        "decimal": 1.2
+      },
+      "held_radius": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "power_coefficients": [
+        {
+          "numerator": "8",
+          "denominator": "125",
+          "fraction": "8/125",
+          "decimal": 0.064
+        },
+        {
+          "numerator": "-23",
+          "denominator": "125",
+          "fraction": "-23/125",
+          "decimal": -0.184
+        },
+        {
+          "numerator": "73701269",
+          "denominator": "461890000",
+          "fraction": "73701269/461890000",
+          "decimal": 0.15956454783606486
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "72040188508871057",
+          "denominator": "42578443938973800000",
+          "fraction": "72040188508871057/42578443938973800000",
+          "decimal": 0.001691940377438963
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "-600368653597",
+          "denominator": "478482061200000",
+          "fraction": "-600368653597/478482061200000",
+          "decimal": -0.0012547359708560794
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "141383248620910321",
+          "denominator": "3258047401758864000000",
+          "fraction": "141383248620910321/3258047401758864000000",
+          "decimal": 0.00004339508643876215
+        }
+      ],
+      "boxes": [
+        {
+          "interval": [
+            {
+              "numerator": "0",
+              "denominator": "1",
+              "fraction": "0",
+              "decimal": 0
+            },
+            {
+              "numerator": "6",
+              "denominator": "5",
+              "fraction": "6/5",
+              "decimal": 1.2
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "8",
+              "denominator": "125",
+              "fraction": "8/125",
+              "decimal": 0.064
+            },
+            {
+              "numerator": "91",
+              "denominator": "2500",
+              "fraction": "91/2500",
+              "decimal": 0.0364
+            },
+            {
+              "numerator": "1374622021",
+              "denominator": "80830750000",
+              "fraction": "1374622021/80830750000",
+              "decimal": 0.017006176745854765
+            },
+            {
+              "numerator": "470316163",
+              "denominator": "80830750000",
+              "fraction": "470316163/80830750000",
+              "decimal": 0.0058185302375642935
+            },
+            {
+              "numerator": "14005885355328544583",
+              "denominator": "4851059693567978515625",
+              "fraction": "14005885355328544583/4851059693567978515625",
+              "decimal": 0.0028871805832236925
+            },
+            {
+              "numerator": "8064758671633127083",
+              "denominator": "970211938713595703125",
+              "fraction": "8064758671633127083/970211938713595703125",
+              "decimal": 0.008312367999023176
+            },
+            {
+              "numerator": "8580804660825563207809",
+              "denominator": "388084775485438281250000",
+              "fraction": "8580804660825563207809/388084775485438281250000",
+              "decimal": 0.022110644897348035
+            },
+            {
+              "numerator": "2436466079248744903909",
+              "denominator": "55440682212205468750000",
+              "fraction": "2436466079248744903909/55440682212205468750000",
+              "decimal": 0.043947260062978596
+            },
+            {
+              "numerator": "4202372633053909208738283961",
+              "denominator": "57628856638268453344726562500",
+              "fraction": "4202372633053909208738283961/57628856638268453344726562500",
+              "decimal": 0.07292132584604018
+            }
+          ],
+          "minimum": {
+            "numerator": "14005885355328544583",
+            "denominator": "4851059693567978515625",
+            "fraction": "14005885355328544583/4851059693567978515625",
+            "decimal": 0.0028871805832236925
+          },
+          "passed": true
+        }
+      ],
+      "uniform_squared_margin": {
+        "numerator": "14005885355328544583",
+        "denominator": "4851059693567978515625",
+        "fraction": "14005885355328544583/4851059693567978515625",
+        "decimal": 0.0028871805832236925
+      },
+      "passed": true,
+      "source_of_continuity": "Exact Bernstein convex-combination identity on every complete amplitude interval; no amplitude sampling"
+    },
+    {
+      "schema": "fd2d-R205-continuous-amplitude-held-certificate-v1",
+      "central_lower": {
+        "numerator": "13",
+        "denominator": "10",
+        "fraction": "13/10",
+        "decimal": 1.3
+      },
+      "cuff_height_lower": {
+        "numerator": "1",
+        "denominator": "2",
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "amplitude_upper": {
+        "numerator": "6",
+        "denominator": "5",
+        "fraction": "6/5",
+        "decimal": 1.2
+      },
+      "held_radius": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "power_coefficients": [
+        {
+          "numerator": "113",
+          "denominator": "1250",
+          "fraction": "113/1250",
+          "decimal": 0.0904
+        },
+        {
+          "numerator": "-23",
+          "denominator": "100",
+          "fraction": "-23/100",
+          "decimal": -0.23
+        },
+        {
+          "numerator": "68422631",
+          "denominator": "461890000",
+          "fraction": "68422631/461890000",
+          "decimal": 0.14813620342505793
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "21139684273807051",
+          "denominator": "8515688787794760000",
+          "fraction": "21139684273807051/8515688787794760000",
+          "decimal": 0.0024824397415868257
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "-600368653597",
+          "denominator": "478482061200000",
+          "fraction": "-600368653597/478482061200000",
+          "decimal": -0.0012547359708560794
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "141383248620910321",
+          "denominator": "3258047401758864000000",
+          "fraction": "141383248620910321/3258047401758864000000",
+          "decimal": 0.00004339508643876215
+        }
+      ],
+      "boxes": [
+        {
+          "interval": [
+            {
+              "numerator": "0",
+              "denominator": "1",
+              "fraction": "0",
+              "decimal": 0
+            },
+            {
+              "numerator": "3",
+              "denominator": "10",
+              "fraction": "3/10",
+              "decimal": 0.3
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "113",
+              "denominator": "1250",
+              "fraction": "113/1250",
+              "decimal": 0.0904
+            },
+            {
+              "numerator": "3271",
+              "denominator": "40000",
+              "fraction": "3271/40000",
+              "decimal": 0.081775
+            },
+            {
+              "numerator": "95220113479",
+              "denominator": "1293292000000",
+              "fraction": "95220113479/1293292000000",
+              "decimal": 0.07362615208243768
+            },
+            {
+              "numerator": "85297077337",
+              "denominator": "1293292000000",
+              "fraction": "85297077337/1293292000000",
+              "decimal": 0.06595345624731305
+            },
+            {
+              "numerator": "116750206323191334708377",
+              "denominator": "1986994050485444000000000",
+              "fraction": "116750206323191334708377/1986994050485444000000000",
+              "decimal": 0.05875719974836765
+            },
+            {
+              "numerator": "20679822228675139916377",
+              "denominator": "397398810097088800000000",
+              "fraction": "20679822228675139916377/397398810097088800000000",
+              "decimal": 0.05203795709308449
+            },
+            {
+              "numerator": "36398994814530219351873917",
+              "denominator": "794797620194177600000000000",
+              "fraction": "36398994814530219351873917/794797620194177600000000000",
+              "decimal": 0.04579655737474095
+            },
+            {
+              "numerator": "4545563282507155015965917",
+              "denominator": "113542517170596800000000000",
+              "fraction": "4545563282507155015965917/113542517170596800000000000",
+              "decimal": 0.04003401893651415
+            },
+            {
+              "numerator": "131248067242592610919796433918961",
+              "denominator": "3776764748645561358400000000000000",
+              "fraction": "131248067242592610919796433918961/3776764748645561358400000000000000",
+              "decimal": 0.034751454214790936
+            }
+          ],
+          "minimum": {
+            "numerator": "131248067242592610919796433918961",
+            "denominator": "3776764748645561358400000000000000",
+            "fraction": "131248067242592610919796433918961/3776764748645561358400000000000000",
+            "decimal": 0.034751454214790936
+          },
+          "passed": true
+        },
+        {
+          "interval": [
+            {
+              "numerator": "3",
+              "denominator": "10",
+              "fraction": "3/10",
+              "decimal": 0.3
+            },
+            {
+              "numerator": "3",
+              "denominator": "5",
+              "fraction": "3/5",
+              "decimal": 0.6
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "131248067242592610919796433918961",
+              "denominator": "3776764748645561358400000000000000",
+              "fraction": "131248067242592610919796433918961/3776764748645561358400000000000000",
+              "decimal": 0.034751454214790936
+            },
+            {
+              "numerator": "55648531509574862271759285333461",
+              "denominator": "1888382374322780679200000000000000",
+              "fraction": "55648531509574862271759285333461/1888382374322780679200000000000000",
+              "decimal": 0.02946888949306772
+            },
+            {
+              "numerator": "163027911564829466941400482528477",
+              "denominator": "6609338310129732377200000000000000",
+              "fraction": "163027911564829466941400482528477/6609338310129732377200000000000000",
+              "decimal": 0.02466629848784809
+            },
+            {
+              "numerator": "67232811993459274796219455265477",
+              "denominator": "3304669155064866188600000000000000",
+              "fraction": "67232811993459274796219455265477/3304669155064866188600000000000000",
+              "decimal": 0.02034479363551889
+            },
+            {
+              "numerator": "2479340270728727169752589233657",
+              "denominator": "150212234321130281300000000000000",
+              "fraction": "2479340270728727169752589233657/150212234321130281300000000000000",
+              "decimal": 0.01650558146567666
+            },
+            {
+              "numerator": "10863990334206096403076268742727",
+              "denominator": "826167288766216547150000000000000",
+              "fraction": "10863990334206096403076268742727/826167288766216547150000000000000",
+              "decimal": 0.013149867444437536
+            },
+            {
+              "numerator": "55142541037069636379228202701",
+              "denominator": "5364722654326081475000000000000",
+              "fraction": "55142541037069636379228202701/5364722654326081475000000000000",
+              "decimal": 0.01027873099695154
+            },
+            {
+              "numerator": "17914605943102674580776428747",
+              "denominator": "2269690353753342162500000000000",
+              "fraction": "17914605943102674580776428747/2269690353753342162500000000000",
+              "decimal": 0.007892973556272838
+            },
+            {
+              "numerator": "523158854331919624499154769",
+              "denominator": "87295782836667006250000000000",
+              "fraction": "523158854331919624499154769/87295782836667006250000000000",
+              "decimal": 0.00599294533288928
+            }
+          ],
+          "minimum": {
+            "numerator": "523158854331919624499154769",
+            "denominator": "87295782836667006250000000000",
+            "fraction": "523158854331919624499154769/87295782836667006250000000000",
+            "decimal": 0.00599294533288928
+          },
+          "passed": true
+        },
+        {
+          "interval": [
+            {
+              "numerator": "3",
+              "denominator": "5",
+              "fraction": "3/5",
+              "decimal": 0.6
+            },
+            {
+              "numerator": "9",
+              "denominator": "10",
+              "fraction": "9/10",
+              "decimal": 0.9
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "523158854331919624499154769",
+              "denominator": "87295782836667006250000000000",
+              "fraction": "523158854331919624499154769/87295782836667006250000000000",
+              "decimal": 0.00599294533288928
+            },
+            {
+              "numerator": "9289654482157145893179619241",
+              "denominator": "2269690353753342162500000000000",
+              "fraction": "9289654482157145893179619241/2269690353753342162500000000000",
+              "decimal": 0.004092917109505721
+            },
+            {
+              "numerator": "158070475438598508416476135399",
+              "denominator": "59011949197586896225000000000000",
+              "fraction": "158070475438598508416476135399/59011949197586896225000000000000",
+              "decimal": 0.0026786181034173045
+            },
+            {
+              "numerator": "1446122003752063652579155656629",
+              "denominator": "826167288766216547150000000000000",
+              "fraction": "1446122003752063652579155656629/826167288766216547150000000000000",
+              "decimal": 0.001750398525111877
+            },
+            {
+              "numerator": "8751067380285408663422653621",
+              "denominator": "6689613674220376900000000000000",
+              "fraction": "8751067380285408663422653621/6689613674220376900000000000000",
+              "decimal": 0.001308157362510964
+            },
+            {
+              "numerator": "4465167014930201417954679885911",
+              "denominator": "3304669155064866188600000000000000",
+              "fraction": "4465167014930201417954679885911/3304669155064866188600000000000000",
+              "decimal": 0.0013511691504992898
+            },
+            {
+              "numerator": "12411606757526630886236074503733",
+              "denominator": "6609338310129732377200000000000000",
+              "fraction": "12411606757526630886236074503733/6609338310129732377200000000000000",
+              "decimal": 0.001877889461113545
+            },
+            {
+              "numerator": "5449389633530532611883581348207",
+              "denominator": "1888382374322780679200000000000000",
+              "fraction": "5449389633530532611883581348207/1888382374322780679200000000000000",
+              "decimal": 0.0028857448086936394
+            },
+            {
+              "numerator": "16507919622957368630035273215121",
+              "denominator": "3776764748645561358400000000000000",
+              "fraction": "16507919622957368630035273215121/3776764748645561358400000000000000",
+              "decimal": 0.004370915511451304
+            }
+          ],
+          "minimum": {
+            "numerator": "8751067380285408663422653621",
+            "denominator": "6689613674220376900000000000000",
+            "fraction": "8751067380285408663422653621/6689613674220376900000000000000",
+            "decimal": 0.001308157362510964
+          },
+          "passed": true
+        },
+        {
+          "interval": [
+            {
+              "numerator": "9",
+              "denominator": "10",
+              "fraction": "9/10",
+              "decimal": 0.9
+            },
+            {
+              "numerator": "6",
+              "denominator": "5",
+              "fraction": "6/5",
+              "decimal": 1.2
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "16507919622957368630035273215121",
+              "denominator": "3776764748645561358400000000000000",
+              "fraction": "16507919622957368630035273215121/3776764748645561358400000000000000",
+              "decimal": 0.004370915511451304
+            },
+            {
+              "numerator": "5529264994713418009075845933457",
+              "denominator": "944191187161390339600000000000000",
+              "fraction": "5529264994713418009075845933457/944191187161390339600000000000000",
+              "decimal": 0.005856086214208969
+            },
+            {
+              "numerator": "1359883927600019861318759161439",
+              "denominator": "173929955529729799400000000000000",
+              "fraction": "1359883927600019861318759161439/173929955529729799400000000000000",
+              "decimal": 0.007818572272144204
+            },
+            {
+              "numerator": "498351592856030688256547762041",
+              "denominator": "48598075809777443950000000000000",
+              "fraction": "498351592856030688256547762041/48598075809777443950000000000000",
+              "decimal": 0.010254554003468742
+            },
+            {
+              "numerator": "209067439905924450605478439223",
+              "denominator": "15887832476273395137500000000000",
+              "fraction": "209067439905924450605478439223/15887832476273395137500000000000",
+              "decimal": 0.013158965530266135
+            },
+            {
+              "numerator": "50193543470579594573100489199",
+              "denominator": "3037379738111090246875000000000",
+              "fraction": "50193543470579594573100489199/3037379738111090246875000000000",
+              "decimal": 0.01652527764006036
+            },
+            {
+              "numerator": "27645722915229909167780744713",
+              "denominator": "1358827777576014057812500000000",
+              "fraction": "27645722915229909167780744713/1358827777576014057812500000000",
+              "decimal": 0.020345273603801776
+            },
+            {
+              "numerator": "11345428271421270619977125141",
+              "denominator": "461030853106147626757812500000",
+              "fraction": "11345428271421270619977125141/461030853106147626757812500000",
+              "decimal": 0.02460882649172528
+            },
+            {
+              "numerator": "1688738114003826537520308961",
+              "denominator": "57628856638268453344726562500",
+              "fraction": "1688738114003826537520308961/57628856638268453344726562500",
+              "decimal": 0.029303689375687177
+            }
+          ],
+          "minimum": {
+            "numerator": "16507919622957368630035273215121",
+            "denominator": "3776764748645561358400000000000000",
+            "fraction": "16507919622957368630035273215121/3776764748645561358400000000000000",
+            "decimal": 0.004370915511451304
+          },
+          "passed": true
+        }
+      ],
+      "uniform_squared_margin": {
+        "numerator": "8751067380285408663422653621",
+        "denominator": "6689613674220376900000000000000",
+        "fraction": "8751067380285408663422653621/6689613674220376900000000000000",
+        "decimal": 0.001308157362510964
+      },
+      "passed": true,
+      "source_of_continuity": "Exact Bernstein convex-combination identity on every complete amplitude interval; no amplitude sampling"
+    },
+    {
+      "schema": "fd2d-R205-continuous-amplitude-held-certificate-v1",
+      "central_lower": {
+        "numerator": "32",
+        "denominator": "25",
+        "fraction": "32/25",
+        "decimal": 1.28
+      },
+      "cuff_height_lower": {
+        "numerator": "3",
+        "denominator": "5",
+        "fraction": "3/5",
+        "decimal": 0.6
+      },
+      "amplitude_upper": {
+        "numerator": "6",
+        "denominator": "5",
+        "fraction": "6/5",
+        "decimal": 1.2
+      },
+      "held_radius": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "power_coefficients": [
+        {
+          "numerator": "113",
+          "denominator": "625",
+          "fraction": "113/625",
+          "decimal": 0.1808
+        },
+        {
+          "numerator": "-69",
+          "denominator": "250",
+          "fraction": "-69/250",
+          "decimal": -0.276
+        },
+        {
+          "numerator": "13332617",
+          "denominator": "92378000",
+          "fraction": "13332617/92378000",
+          "decimal": 0.1443267552880556
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "38972610774141107",
+          "denominator": "14192814646324600000",
+          "fraction": "38972610774141107/14192814646324600000",
+          "decimal": 0.0027459395296361125
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "-600368653597",
+          "denominator": "478482061200000",
+          "fraction": "-600368653597/478482061200000",
+          "decimal": -0.0012547359708560794
+        },
+        {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        {
+          "numerator": "141383248620910321",
+          "denominator": "3258047401758864000000",
+          "fraction": "141383248620910321/3258047401758864000000",
+          "decimal": 0.00004339508643876215
+        }
+      ],
+      "boxes": [
+        {
+          "interval": [
+            {
+              "numerator": "0",
+              "denominator": "1",
+              "fraction": "0",
+              "decimal": 0
+            },
+            {
+              "numerator": "6",
+              "denominator": "5",
+              "fraction": "6/5",
+              "decimal": 1.2
+            }
+          ],
+          "bernstein_coefficients": [
+            {
+              "numerator": "113",
+              "denominator": "625",
+              "fraction": "113/625",
+              "decimal": 0.1808
+            },
+            {
+              "numerator": "697",
+              "denominator": "5000",
+              "fraction": "697/5000",
+              "decimal": 0.1394
+            },
+            {
+              "numerator": "1704276253",
+              "denominator": "16166150000",
+              "fraction": "1704276253/16166150000",
+              "decimal": 0.10542251884338572
+            },
+            {
+              "numerator": "1274984749",
+              "denominator": "16166150000",
+              "fraction": "1274984749/16166150000",
+              "decimal": 0.07886755653015715
+            },
+            {
+              "numerator": "580346393883410023823",
+              "denominator": "9702119387135957031250",
+              "fraction": "580346393883410023823/9702119387135957031250",
+              "decimal": 0.059816455634723625
+            },
+            {
+              "numerator": "375913670892691929667",
+              "denominator": "7761695509708765625000",
+              "fraction": "375913670892691929667/7761695509708765625000",
+              "decimal": 0.048431901305903836
+            },
+            {
+              "numerator": "17395555967719001814509",
+              "denominator": "388084775485438281250000",
+              "fraction": "17395555967719001814509/388084775485438281250000",
+              "decimal": 0.044824113355025744
+            },
+            {
+              "numerator": "2704575575672321004059",
+              "denominator": "55440682212205468750000",
+              "fraction": "2704575575672321004059/55440682212205468750000",
+              "decimal": 0.048783230432126595
+            },
+            {
+              "numerator": "3432632718381559023624733961",
+              "denominator": "57628856638268453344726562500",
+              "fraction": "3432632718381559023624733961/57628856638268453344726562500",
+              "decimal": 0.059564477218902845
+            }
+          ],
+          "minimum": {
+            "numerator": "17395555967719001814509",
+            "denominator": "388084775485438281250000",
+            "fraction": "17395555967719001814509/388084775485438281250000",
+            "decimal": 0.044824113355025744
+          },
+          "passed": true
+        }
+      ],
+      "uniform_squared_margin": {
+        "numerator": "17395555967719001814509",
+        "denominator": "388084775485438281250000",
+        "fraction": "17395555967719001814509/388084775485438281250000",
+        "decimal": 0.044824113355025744
+      },
+      "passed": true,
+      "source_of_continuity": "Exact Bernstein convex-combination identity on every complete amplitude interval; no amplitude sampling"
+    }
+  ],
+  "selected_exact_inputs": [
+    {
+      "schema": "fd2d-R205-rational-amplitude-tail-bounds-v1",
+      "inputs": {
+        "amplitude": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        "central_support_lower": {
+          "numerator": "34",
+          "denominator": "25",
+          "fraction": "34/25",
+          "decimal": 1.36
+        },
+        "true_inner_cuff_height": {
+          "numerator": "2",
+          "denominator": "5",
+          "fraction": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "input_number_interpretation": "JS numbers are their exact IEEE binary64 rational values; decimal strings are exact decimals",
+      "cut_horizontal_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "descent_upper": {
+        "numerator": "0",
+        "denominator": "1",
+        "fraction": "0",
+        "decimal": 0
+      },
+      "minimum_height_lower": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "held_squared_lower": {
+        "numerator": "296",
+        "denominator": "625",
+        "fraction": "296/625",
+        "decimal": 0.4736
+      },
+      "held_squared_margin": {
+        "numerator": "8",
+        "denominator": "125",
+        "fraction": "8/125",
+        "decimal": 0.064
+      },
+      "held_passed": true,
+      "kappa_maximum": {
+        "numerator": "0",
+        "denominator": "1",
+        "fraction": "0",
+        "decimal": 0
+      },
+      "whole_cylinder_reach_lower": null,
+      "amplitude_zero_reach_is_infinite": true,
+      "support_lower": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "support_margin": {
+        "numerator": "303",
+        "denominator": "1000",
+        "fraction": "303/1000",
+        "decimal": 0.303
+      },
+      "sphere_squared_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "sphere_margin": {
+        "numerator": "44",
+        "denominator": "25",
+        "fraction": "44/25",
+        "decimal": 1.76
+      },
+      "phase_zero_slab_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "slab_margin": {
+        "numerator": "1",
+        "denominator": "20",
+        "fraction": "1/20",
+        "decimal": 0.05
+      },
+      "opposite_tail_half_separation_margin": {
+        "numerator": "303",
+        "denominator": "1000",
+        "fraction": "303/1000",
+        "decimal": 0.303
+      },
+      "same_side_tail_and_filling_disk_normal_ball_source": "R130 complete no-boundary cylinder; subset surface-normal point-pair inequality only",
+      "still_required": [
+        "accurate complete prefix and full twojet match",
+        "whole prefix-core and prefix-tail/disk normal-ball comparisons",
+        "whole prefix sphere/slab/height/held conditions",
+        "fixed-g exact-solution approximation and full-surface certification"
+      ],
+      "qualification": "This computes sufficient tail bounds, not an evaluated finite LM state or a completed core."
+    },
+    {
+      "schema": "fd2d-R205-rational-amplitude-tail-bounds-v1",
+      "inputs": {
+        "amplitude": {
+          "numerator": "1",
+          "denominator": "4",
+          "fraction": "1/4",
+          "decimal": 0.25
+        },
+        "central_support_lower": {
+          "numerator": "34",
+          "denominator": "25",
+          "fraction": "34/25",
+          "decimal": 1.36
+        },
+        "true_inner_cuff_height": {
+          "numerator": "2",
+          "denominator": "5",
+          "fraction": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "input_number_interpretation": "JS numbers are their exact IEEE binary64 rational values; decimal strings are exact decimals",
+      "cut_horizontal_upper": {
+        "numerator": "3747847173309557",
+        "denominator": "4719773819904000",
+        "fraction": "3747847173309557/4719773819904000",
+        "decimal": 0.7940734696871106
+      },
+      "descent_upper": {
+        "numerator": "23",
+        "denominator": "400",
+        "fraction": "23/400",
+        "decimal": 0.0575
+      },
+      "minimum_height_lower": {
+        "numerator": "137",
+        "denominator": "400",
+        "fraction": "137/400",
+        "decimal": 0.3425
+      },
+      "held_squared_lower": {
+        "numerator": "9747627677408301893346193268089",
+        "denominator": "22276264911051195826569216000000",
+        "fraction": "9747627677408301893346193268089/22276264911051195826569216000000",
+        "decimal": 0.43757908771198584
+      },
+      "held_squared_margin": {
+        "numerator": "623269569841732082783442394489",
+        "denominator": "22276264911051195826569216000000",
+        "fraction": "623269569841732082783442394489/22276264911051195826569216000000",
+        "decimal": 0.02797908771198576
+      },
+      "held_passed": true,
+      "kappa_maximum": {
+        "numerator": "7875",
+        "denominator": "5888",
+        "fraction": "7875/5888",
+        "decimal": 1.3374660326086956
+      },
+      "whole_cylinder_reach_lower": {
+        "numerator": "5888",
+        "denominator": "7875",
+        "fraction": "5888/7875",
+        "decimal": 0.7476825396825397
+      },
+      "amplitude_zero_reach_is_infinite": false,
+      "support_lower": {
+        "numerator": "31",
+        "denominator": "80",
+        "fraction": "31/80",
+        "decimal": 0.3875
+      },
+      "support_margin": {
+        "numerator": "581",
+        "denominator": "2000",
+        "fraction": "581/2000",
+        "decimal": 0.2905
+      },
+      "sphere_squared_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "sphere_margin": {
+        "numerator": "44",
+        "denominator": "25",
+        "fraction": "44/25",
+        "decimal": 1.76
+      },
+      "phase_zero_slab_upper": {
+        "numerator": "3747847173309557",
+        "denominator": "4719773819904000",
+        "fraction": "3747847173309557/4719773819904000",
+        "decimal": 0.7940734696871106
+      },
+      "slab_margin": {
+        "numerator": "263960573608843",
+        "denominator": "4719773819904000",
+        "fraction": "263960573608843/4719773819904000",
+        "decimal": 0.05592653031288943
+      },
+      "opposite_tail_half_separation_margin": {
+        "numerator": "491",
+        "denominator": "2000",
+        "fraction": "491/2000",
+        "decimal": 0.2455
+      },
+      "same_side_tail_and_filling_disk_normal_ball_source": "R130 complete no-boundary cylinder; subset surface-normal point-pair inequality only",
+      "still_required": [
+        "accurate complete prefix and full twojet match",
+        "whole prefix-core and prefix-tail/disk normal-ball comparisons",
+        "whole prefix sphere/slab/height/held conditions",
+        "fixed-g exact-solution approximation and full-surface certification"
+      ],
+      "qualification": "This computes sufficient tail bounds, not an evaluated finite LM state or a completed core."
+    },
+    {
+      "schema": "fd2d-R205-rational-amplitude-tail-bounds-v1",
+      "inputs": {
+        "amplitude": {
+          "numerator": "1",
+          "denominator": "1",
+          "fraction": "1",
+          "decimal": 1
+        },
+        "central_support_lower": {
+          "numerator": "34",
+          "denominator": "25",
+          "fraction": "34/25",
+          "decimal": 1.36
+        },
+        "true_inner_cuff_height": {
+          "numerator": "2",
+          "denominator": "5",
+          "fraction": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "input_number_interpretation": "JS numbers are their exact IEEE binary64 rational values; decimal strings are exact decimals",
+      "cut_horizontal_upper": {
+        "numerator": "13114910942657",
+        "denominator": "18436616484000",
+        "fraction": "13114910942657/18436616484000",
+        "decimal": 0.7113512912761742
+      },
+      "descent_upper": {
+        "numerator": "23",
+        "denominator": "100",
+        "fraction": "23/100",
+        "decimal": 0.23
+      },
+      "minimum_height_lower": {
+        "numerator": "17",
+        "denominator": "100",
+        "fraction": "17/100",
+        "decimal": 0.17
+      },
+      "held_squared_lower": {
+        "numerator": "152838354764883043514388289",
+        "denominator": "339908827378100522256000000",
+        "fraction": "152838354764883043514388289/339908827378100522256000000",
+        "decimal": 0.44964514732908656
+      },
+      "held_squared_margin": {
+        "numerator": "13611699070813069598330689",
+        "denominator": "339908827378100522256000000",
+        "fraction": "13611699070813069598330689/339908827378100522256000000",
+        "decimal": 0.04004514732908651
+      },
+      "held_passed": true,
+      "kappa_maximum": {
+        "numerator": "7875",
+        "denominator": "1472",
+        "fraction": "7875/1472",
+        "decimal": 5.349864130434782
+      },
+      "whole_cylinder_reach_lower": {
+        "numerator": "1472",
+        "denominator": "7875",
+        "fraction": "1472/7875",
+        "decimal": 0.18692063492063493
+      },
+      "amplitude_zero_reach_is_infinite": false,
+      "support_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "fraction": "1/5",
+        "decimal": 0.2
+      },
+      "support_margin": {
+        "numerator": "103",
+        "denominator": "1000",
+        "fraction": "103/1000",
+        "decimal": 0.103
+      },
+      "sphere_squared_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "sphere_margin": {
+        "numerator": "44",
+        "denominator": "25",
+        "fraction": "44/25",
+        "decimal": 1.76
+      },
+      "phase_zero_slab_upper": {
+        "numerator": "13114910942657",
+        "denominator": "18436616484000",
+        "fraction": "13114910942657/18436616484000",
+        "decimal": 0.7113512912761742
+      },
+      "slab_margin": {
+        "numerator": "2556213068743",
+        "denominator": "18436616484000",
+        "fraction": "2556213068743/18436616484000",
+        "decimal": 0.13864870872382573
+      },
+      "opposite_tail_half_separation_margin": {
+        "numerator": "73",
+        "denominator": "1000",
+        "fraction": "73/1000",
+        "decimal": 0.073
+      },
+      "same_side_tail_and_filling_disk_normal_ball_source": "R130 complete no-boundary cylinder; subset surface-normal point-pair inequality only",
+      "still_required": [
+        "accurate complete prefix and full twojet match",
+        "whole prefix-core and prefix-tail/disk normal-ball comparisons",
+        "whole prefix sphere/slab/height/held conditions",
+        "fixed-g exact-solution approximation and full-surface certification"
+      ],
+      "qualification": "This computes sufficient tail bounds, not an evaluated finite LM state or a completed core."
+    },
+    {
+      "schema": "fd2d-R205-rational-amplitude-tail-bounds-v1",
+      "inputs": {
+        "amplitude": {
+          "numerator": "6",
+          "denominator": "5",
+          "fraction": "6/5",
+          "decimal": 1.2
+        },
+        "central_support_lower": {
+          "numerator": "34",
+          "denominator": "25",
+          "fraction": "34/25",
+          "decimal": 1.36
+        },
+        "true_inner_cuff_height": {
+          "numerator": "2",
+          "denominator": "5",
+          "fraction": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "input_number_interpretation": "JS numbers are their exact IEEE binary64 rational values; decimal strings are exact decimals",
+      "cut_horizontal_upper": {
+        "numerator": "81202696487672",
+        "denominator": "120030055234375",
+        "fraction": "81202696487672/120030055234375",
+        "decimal": 0.6765196960803916
+      },
+      "descent_upper": {
+        "numerator": "69",
+        "denominator": "250",
+        "fraction": "69/250",
+        "decimal": 0.276
+      },
+      "minimum_height_lower": {
+        "numerator": "31",
+        "denominator": "250",
+        "fraction": "31/250",
+        "decimal": 0.124
+      },
+      "held_squared_lower": {
+        "numerator": "27807152312088667698738283961",
+        "denominator": "57628856638268453344726562500",
+        "fraction": "27807152312088667698738283961/57628856638268453344726562500",
+        "decimal": 0.48252132584604024
+      },
+      "held_squared_margin": {
+        "numerator": "4202372633053909208738283961",
+        "denominator": "57628856638268453344726562500",
+        "fraction": "4202372633053909208738283961/57628856638268453344726562500",
+        "decimal": 0.07292132584604018
+      },
+      "held_passed": true,
+      "kappa_maximum": {
+        "numerator": "4725",
+        "denominator": "736",
+        "fraction": "4725/736",
+        "decimal": 6.419836956521739
+      },
+      "whole_cylinder_reach_lower": {
+        "numerator": "736",
+        "denominator": "4725",
+        "fraction": "736/4725",
+        "decimal": 0.15576719576719578
+      },
+      "amplitude_zero_reach_is_infinite": false,
+      "support_lower": {
+        "numerator": "14",
+        "denominator": "125",
+        "fraction": "14/125",
+        "decimal": 0.112
+      },
+      "support_margin": {
+        "numerator": "3",
+        "denominator": "200",
+        "fraction": "3/200",
+        "decimal": 0.015
+      },
+      "sphere_squared_upper": {
+        "numerator": "4",
+        "denominator": "5",
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "sphere_margin": {
+        "numerator": "44",
+        "denominator": "25",
+        "fraction": "44/25",
+        "decimal": 1.76
+      },
+      "phase_zero_slab_upper": {
+        "numerator": "81202696487672",
+        "denominator": "120030055234375",
+        "fraction": "81202696487672/120030055234375",
+        "decimal": 0.6765196960803916
+      },
+      "slab_margin": {
+        "numerator": "83291401846187",
+        "denominator": "480120220937500",
+        "fraction": "83291401846187/480120220937500",
+        "decimal": 0.17348030391960834
+      },
+      "opposite_tail_half_separation_margin": {
+        "numerator": "27",
+        "denominator": "1000",
+        "fraction": "27/1000",
+        "decimal": 0.027
+      },
+      "same_side_tail_and_filling_disk_normal_ball_source": "R130 complete no-boundary cylinder; subset surface-normal point-pair inequality only",
+      "still_required": [
+        "accurate complete prefix and full twojet match",
+        "whole prefix-core and prefix-tail/disk normal-ball comparisons",
+        "whole prefix sphere/slab/height/held conditions",
+        "fixed-g exact-solution approximation and full-surface certification"
+      ],
+      "qualification": "This computes sufficient tail bounds, not an evaluated finite LM state or a completed core."
+    }
+  ],
+  "binary64_interpretation_01": {
+    "numerator": "3602879701896397",
+    "denominator": "36028797018963968",
+    "fraction": "3602879701896397/36028797018963968",
+    "decimal": 0.1
+  },
+  "elapsed_ms": 4,
+  "no_new_F_J_normal_LM_body_or_candidate_evaluation": true,
+  "low_central_low_height_witness": {
+    "schema": "fd2d-R205-low-central-low-height-not-uniform-held-witness-v1",
+    "actual_V8_rational_arithmetic": true,
+    "source_of_inequality": "cos(x)>=1-x^2/2, integral S^2<=1; sin(x)>=x-x^3/6 and S^3<=S; exact outer point x=0,y=4/5",
+    "inputs": {
+      "amplitude": {
+        "numerator": "1",
+        "denominator": "4",
+        "fraction": "1/4",
+        "decimal": 0.25
+      },
+      "central_A": {
+        "numerator": "13",
+        "denominator": "10",
+        "fraction": "13/10",
+        "decimal": 1.3
+      },
+      "cuff_Z": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      }
+    },
+    "X_lower": {
+      "numerator": "1257",
+      "denominator": "1600",
+      "fraction": "1257/1600",
+      "decimal": 0.785625
+    },
+    "H_lower": {
+      "numerator": "437",
+      "denominator": "7680",
+      "fraction": "437/7680",
+      "decimal": 0.056901041666666666
+    },
+    "squared_distance_upper": {
+      "numerator": "563722129",
+      "denominator": "1474560000",
+      "fraction": "563722129/1474560000",
+      "decimal": 0.3822985358344184
+    },
+    "strict_failure_margin": {
+      "numerator": "40257647",
+      "denominator": "1474560000",
+      "fraction": "40257647/1474560000",
+      "decimal": 0.027301464165581598
+    },
+    "claim": "Only these exact parameters fail the tail held ball; no statement about all surfaces, and not the current Aq>1.36203 branch.",
+    "OS_process_created": false,
+    "OS_exit_code": null
+  }
+}

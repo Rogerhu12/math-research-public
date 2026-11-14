@@ -1,0 +1,33 @@
+{
+  "schema": "fd2d-observed-tool-execution-receipt-v1",
+  "session_id": 5245,
+  "launch_chunk_id": "38a419",
+  "completion_chunk_id": "db6945",
+  "actual_exit_code": 130,
+  "owner_stop": true,
+  "signal_cause_claimed": false,
+  "actual_accepted_steps": 8,
+  "closed_children": [
+    0,
+    0,
+    0,
+    0,
+    130
+  ],
+  "latest_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0004-accepted-0002.npz",
+    "bytes": 55004,
+    "sha256": "b54dcf3a071b1e9d5b5033f57916ef4b0382985435d4a4ce26c7cf367442c263"
+  },
+  "final_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-atlas12-b0005-field.npz",
+    "bytes": 749632,
+    "sha256": "93b25838bbecb4ebdbb4739548b50ed006561c7792bc9a535dfa44b6afced783"
+  },
+  "owner_stop_text": {
+    "owner": "numerical_recovery",
+    "requested_utc": "2026-11-12T14:16:38.369708+00:00",
+    "reason": "Six or more actual accepted iterations leave Gauss/high Codazzi on the old negative-l compromise; finish the current complete state and make one explicitly recorded coast-correction reset under the same atlas/p/g/lifting, as authorized by root and the actual node64 decomposition."
+  },
+  "scope": "Four naturally completed children, then explicit owner130 with complete final report; not a mathematical success or unknown signal exit"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "CLOSED_READ_ONLY_DIAGNOSTICS",
+  "reviewer": "/root/tail_theory",
+  "date": "2026-11-09",
+  "actual_executions": [
+    {
+      "kind": "independent_idx_coverage_and_initial_workspace_metadata",
+      "initial_receipt": "2bc3da",
+      "session_id": 96248,
+      "completion_receipt": "ca9709",
+      "actual_exit_code": 0,
+      "report": {
+        "path": "notes/2026-11-09-db6f-tail-readonly-pack-coverage.json",
+        "bytes": 35539,
+        "sha256": "3e4fbf47dcad70ef3bd8a80e9350fe002f013b8bd7bd00379f742c21e353474d"
+      }
+    },
+    {
+      "kind": "first_limited_copy_preflight_metadata_guard",
+      "receipt": "e40fcf",
+      "actual_exit_code": 1,
+      "pre_fix_source_sha256": "24afb0b8e2aafeb92bc60d663bdbd06fefda31efe0bc4fd28f4516c03ca7b6de",
+      "report_written": false,
+      "reason": "Known zero-byte tracked placeholder rejected by initial hidden-path guard; no per-file hash phase entered."
+    },
+    {
+      "kind": "limited_tracked_notes_repro_copy_preflight",
+      "initial_receipt": "8b63ed",
+      "session_id": 71746,
+      "completion_receipt": "5e0be6",
+      "actual_exit_code": 0,
+      "report": {
+        "path": "notes/2026-11-09-db6f-tail-readonly-publication-sparse-preflight.json",
+        "bytes": 11151,
+        "sha256": "df9aecaa0a19fcb3fdfb61d389d99b75fdaa7254eb26d8039e7d9621ef712abd"
+      }
+    },
+    {
+      "kind": "one_different_text_index_identity_and_safe_config_origins",
+      "receipt": "54f3b2",
+      "actual_exit_code": 0,
+      "report": {
+        "path": "notes/2026-11-09-db6f-tail-readonly-publication-exception.json",
+        "bytes": 985,
+        "sha256": "c744af3cc8101eed54ff93677d1158cfab728db2a8d6c08be33dbaaea2c8956c"
+      }
+    }
+  ],
+  "git_mutations_deletion_repack_sparse_changes_by_reviewer": false,
+  "solver_calls": 0,
+  "post_root_sparse_action_verified_by_this_reviewer": false,
+  "root_pause_obeyed": "No further space/index/worktree scans after parent reported its separate sparse action; only own small artifacts are closed here.",
+  "worktree_active_writer_absence_claimed": false,
+  "actual_freed_bytes_claimed": false,
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-readonly-space-review.md",
+    "bytes": 8992,
+    "sha256": "df487de36ec220eca827077c0ea1e34e5fb9801f2e3001dbcb4739f0b5ca1be0"
+  }
+}

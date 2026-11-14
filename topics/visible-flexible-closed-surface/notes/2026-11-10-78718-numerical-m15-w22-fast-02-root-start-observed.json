@@ -1,0 +1,24 @@
+{
+  "schema": "78718-actual-fast-m15-w22-start-v1",
+  "utc": "2026-11-10T11:48:59.504269+00:00",
+  "actual_tool_start": {
+    "chunk_id": "6d8e52",
+    "session_id": 81745,
+    "wall_time_seconds": 1.001694287,
+    "exit_code": null
+  },
+  "owner": "root, direct polling only",
+  "prefix_modes": 15,
+  "tail_modes": 22,
+  "prefix_angular": 512,
+  "tail_angular": 512,
+  "backends": {
+    "jacobian": "fourier",
+    "transforms": "fourier",
+    "tail_jacobian": "fourier-root",
+    "tail_predictor": "tangent"
+  },
+  "physical_metric_unchanged": true,
+  "startup_does_not_establish_numerical_success": true,
+  "old_session_intentionally_stopped_actual_exit": 130
+}

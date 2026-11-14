@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-positive-clock-mass-closed-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_positive_clock_trapezoid_mass.py",
+      "bytes": 5196,
+      "sha256": "f946fd52f5c83c164f0b12f7338138b4b8182d77c203cfb7aa9da77c77214ad9",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-clock-trapezoid-mass-01.json",
+      "bytes": 7622,
+      "sha256": "64b0931fbdf0ec3bf9c86cffb76e65331d4b15ba3840881fd4b048eb07951d7e",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-clock-trapezoid-mass.md",
+      "bytes": 3958,
+      "sha256": "3287f50294ea9ff70f7a84f2b1de69e4620cadf548e995681bba697338f72f82",
+      "closed": true
+    }
+  ],
+  "actual_run": {
+    "session": 97130,
+    "final_chunk": "b418bb",
+    "exit_code": 0,
+    "seconds": 0.3479770330000065
+  },
+  "read_only_actual_saved_mesh": true,
+  "ODE_or_BVP_solved": false,
+  "active_sources_edited": false
+}

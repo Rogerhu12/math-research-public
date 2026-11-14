@@ -1,0 +1,151 @@
+{
+  "status": "SUCCESS_ONLY_PLAN_SOURCES_FROZEN_NO_CANDIDATE_ARGV",
+  "builder": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-build-post-m15-linear-plans-v1.py",
+    "bytes": 4862,
+    "sha256": "86f40f2185730c6b6d47242473a111a5c09f9254a8ba92bb97669a7bcd4b2e61"
+  },
+  "files": [
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+        "bytes": 32491,
+        "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-m15-linear-v1.py",
+        "bytes": 32544,
+        "sha256": "8de9aa493d4bebeeeb2acf392935b720456ce11b0b377b2a82679e8e01f8f58b"
+      },
+      "literal_changes": [
+        {
+          "before": "original post-restart8000 chain",
+          "after": "new M15/N512/W15 post-coupled chain",
+          "count": 1
+        },
+        {
+          "before": "78718-prefix-audit-restart8000-v1.py",
+          "after": "78718-prefix-audit-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f",
+          "after": "fd41b9ef4c2eea648cbb1ab1c3b638e61bc41d97d99d9213ad0370c042ff147e",
+          "count": 1
+        },
+        {
+          "before": "78718-true-m14-w14-restart8000-launch-v1",
+          "after": "78718-true-m15-w15-n512-linear-dn-launch-v1",
+          "count": 1
+        },
+        {
+          "before": "PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE",
+          "after": "PASS_ROOT_OBSERVED_M15_N512_W15_LINEAR_DN_FINITE_COUPLED_CLOSE",
+          "count": 1
+        },
+        {
+          "before": "post_restart8000_full_close_audit",
+          "after": "post_m15_linear_full_close_audit",
+          "count": 1
+        },
+        {
+          "before": "Not the restart8000 launch schema",
+          "after": "Not the M15/N512 linear-DN launch schema",
+          "count": 1
+        },
+        {
+          "before": "78718-post-restart8000-success-only-original-plan-v1",
+          "after": "78718-post-m15-linear-success-only-original-plan-v1",
+          "count": 1
+        },
+        {
+          "before": "The restart8000 ancestor failed CP is a declared true input, not an independent final rerun performed here.",
+          "after": "The old matched M15 prefix remains UNSOLVED and its old local N256 DN is only a declared warm input; no independent final rerun is performed here.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-storage-v2.py",
+        "bytes": 20326,
+        "sha256": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-m15-linear-storage-v1.py",
+        "bytes": 20322,
+        "sha256": "4cd5386249e57e2f033638acf8e92f931aa6a3d1fe559496ba16d82b920211df"
+      },
+      "literal_changes": [
+        {
+          "before": "78718-plan-post-restart8000-v1.py",
+          "after": "78718-plan-post-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456",
+          "after": "8de9aa493d4bebeeeb2acf392935b720456ce11b0b377b2a82679e8e01f8f58b",
+          "count": 1
+        },
+        {
+          "before": "2026-11-10-78718-post-restart8000-storage-v2-",
+          "after": "2026-11-10-78718-post-m15-linear-storage-v1-",
+          "count": 1
+        },
+        {
+          "before": "Use the distinct post-restart8000-storage-v2 production namespace",
+          "after": "Use the distinct post-m15-linear-storage-v1 production namespace",
+          "count": 1
+        },
+        {
+          "before": "78718-post-restart8000-success-only-conditional-storage-plan-v2",
+          "after": "78718-post-m15-linear-success-only-conditional-storage-plan-v1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-post-restart8000-storage-v2.py",
+        "bytes": 4988,
+        "sha256": "c0a25ca74795429f6cd68cca0ae473957cc92dc4760c5fbc6170c33ebd4a0841"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-post-m15-linear-plans-v1.py",
+        "bytes": 4986,
+        "sha256": "33ebdc392a0819549f1f1eb986a8e7ad688ab74385a7a70de0cac9fd4d372206"
+      },
+      "literal_changes": [
+        {
+          "before": "78718-plan-post-restart8000-storage-v2.py",
+          "after": "78718-plan-post-m15-linear-storage-v1.py",
+          "count": 1
+        },
+        {
+          "before": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc",
+          "after": "4cd5386249e57e2f033638acf8e92f931aa6a3d1fe559496ba16d82b920211df",
+          "count": 1
+        },
+        {
+          "before": "78718-post-restart8000-storage-v2-static-input-check-v1",
+          "after": "78718-post-m15-linear-storage-v1-static-input-check-v1",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "complete_diff": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-m15-linear-plans-v1.diff",
+    "bytes": 6816,
+    "sha256": "802015c2f511373e1bee068e94d032153bbec673d84ead3dafc7c48452202b98"
+  },
+  "main_auditor": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-m15-linear-v1.py",
+    "bytes": 32584,
+    "sha256": "fd41b9ef4c2eea648cbb1ab1c3b638e61bc41d97d99d9213ad0370c042ff147e"
+  },
+  "original_terminal_bound_exact": "1/500000000",
+  "solver_calls": 0,
+  "producer_calls": 0,
+  "candidate_success_claimed": false
+}

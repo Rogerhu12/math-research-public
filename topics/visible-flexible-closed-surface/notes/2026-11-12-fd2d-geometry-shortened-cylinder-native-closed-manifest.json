@@ -1,0 +1,49 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "closed",
+  "theorem_consumed": "R168 section8",
+  "scope": "Explicit parent-native cylinder restriction/translation and small mapped-value/endpoint/definition check; no body integration or new geometric certificate.",
+  "parent_field_sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82",
+  "Delta_exact": "7/50",
+  "actual_exit_code": 0,
+  "parent_nodes": 129,
+  "child_integration_nodes": 126,
+  "old_sources_or_active_solver_changed": false,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_shortened_cylinder_native.py",
+      "bytes": 17223,
+      "sha256": "aedc4bd774268a11da437c399d83e81ddd76418912a2d5d5af49dc6a21fbac3f"
+    },
+    {
+      "path": "scripts/fd2d-shortened-cylinder-body-screen.py",
+      "bytes": 4780,
+      "sha256": "3e61190af6b5b5795ca1d9c12953f2b42d894074d45b66dfb9a59ce0d927bfd5"
+    },
+    {
+      "path": "scripts/fd2d-shortened-cylinder-native-check.py",
+      "bytes": 6364,
+      "sha256": "7fa14bd65b99341bfcbbab21a1893973002245da5dc93deac4fafa512ee2beb7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-shortened-cylinder-native.md",
+      "bytes": 8310,
+      "sha256": "9ee6c93f7926bad56d22d31a9da46af4892f9a74e15aa5ba9aa0f4f5a7a5bc82"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-shortened-cylinder-d014-01-exit-receipt.json",
+      "bytes": 599,
+      "sha256": "38ef0943ea34f70d2e884dfb7f3e62c61bca29302afed0aebf7ec59726684f83"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-shortened-cylinder-d014-01-definition.json",
+      "bytes": 90247,
+      "sha256": "4f653f8ce250fd6a2d1c8da960927fb0272d184ffa3a50c0cfa4ed4ef0973770"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-shortened-cylinder-d014-01-report.json",
+      "bytes": 12770,
+      "sha256": "b7951a9f8c90642a3d568de4160257f29278321db31371fbee6b953078841f8d"
+    }
+  ]
+}

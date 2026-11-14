@@ -1,0 +1,188 @@
+{
+  "schema": "fd2d-raw-three-field-piecewise-linear-exact-lifting-v1",
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-root-flat-dae-jac01-initial.npz",
+    "bytes": 9241,
+    "sha256": "f11dc9ce9b41fa2334b0003baaa3b1974f3fdcb54f73015e2982585f49199c05"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile.py",
+      "bytes": 5719,
+      "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_flat_developable_family.py",
+      "bytes": 12827,
+      "sha256": "c2d2afb3ed558f50aef20629b323c7bc1475561e5d2c2d8e105260d2b0ebb2eb"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    }
+  ],
+  "moments": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "means": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+    "bytes": 203694,
+    "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+  },
+  "profile_kind": "legacy_coast",
+  "tail_kind": "signed_bubble",
+  "base_kind": "balanced_seed",
+  "node_count": 104,
+  "mode_count": 3,
+  "correction_order": "[n_0,n_2,...,n_2K,m_2,...,m_2K,l_0,l_2,...,l_2K]",
+  "parameters_order": "[central K, tail K+1, physical T]",
+  "radial_interpolation": "Exact continuous piecewise-linear binary node corrections in x",
+  "node_derivative": "One-sided actual cell slope; side affects no value or angular derivative",
+  "independent_l_saved": true,
+  "no_shape_denominator": true,
+  "cut_correction_exactly_zero": true,
+  "cut_correction_absolute_max": 0.0,
+  "central_l_correction_exactly_zero": true,
+  "central_m_correction_exactly_zero": true,
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.02,
+    "actual_T": 0.02,
+    "physical_T_domain": [
+      0.0,
+      0.22510364412376974
+    ],
+    "computational_endpoint": 1.344258724456249,
+    "actual_physical_endpoint": 1.344258724456249,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "blend_interval": [
+    0.58,
+    1.263603200988874
+  ],
+  "angular_chart": "Fixed seed normal-to-material angle; beta quintic on the recorded x interval",
+  "angular_chart_formula": "u=(1-beta(x))*U_seed(xi)+beta(x)*xi",
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "0",
+      "0",
+      "0"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "100/317",
+    "conservative_curvature_upper_exact": "250/57",
+    "global_convexity_proved_by_l1_bound": true,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "0",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  },
+  "lifting": {
+    "component_order": [
+      "n",
+      "m",
+      "l"
+    ],
+    "tail_start_fraction": 0.42,
+    "tail_end": "profile computational end",
+    "seed_end": "min(.55,.4*profile.end)",
+    "seed_n": "1/rho_seed(xi) for balanced_seed; 1/a0 for circle",
+    "radial_weights": "quintic step; no angular truncation of either lifting"
+  },
+  "actual_map": "R119 fixed physical u, F_x=J*F*A, X_x=J*F*e1",
+  "full_residual_certified": false,
+  "closed_surface": false
+}

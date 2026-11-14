@@ -1,0 +1,33 @@
+{
+  "status": "PASS-full-finite-tail-metric-and-curvature-with-bound-supplier-dependencies",
+  "fullReportSHA256": "87b2e526a5883c46824d214e3207f3888651aef65dfb2a4714799d39974061d2",
+  "rowsSHA256": "46702bb0f50d99a0dfc728b669e726c942cdd6791751587a83ccb2d263baba83",
+  "packetSHA256": "6655b639db57bd2635aa012d460dcfa5f77b4ebdea750568d23f6dac5e7a3c5f",
+  "backendSHA256": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+  "entireFiniteTailAndCollarCovered": true,
+  "metricOperatorUpper": 9.968938237875866e-07,
+  "principalCurvatureUpper": 8.46544537300005,
+  "metricThresholdSatisfiedExactFraction": true,
+  "reachCurvatureThresholdSatisfiedExactFraction": true,
+  "inverseCurvatureLower": 0.11812727575910306,
+  "inverseCurvatureOverDiameter392Lower": 0.03013450912222017,
+  "worstMetricPacket": {
+    "row": 5163,
+    "span": 4570,
+    "child": 0
+  },
+  "worstCurvaturePacket": {
+    "row": 4767,
+    "span": 4301,
+    "child": 0
+  },
+  "needsForGlobalReach": [
+    "whole-closed-surface support bound",
+    "prefix and marked-cap curvature bounds",
+    "R10 normal-offset theorem"
+  ],
+  "notCertified": [
+    "fixed-g refinement convergence",
+    "README completion"
+  ]
+}

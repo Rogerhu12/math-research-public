@@ -1,0 +1,35 @@
+{
+  "schema": "closed-process-receipt-v1",
+  "session_id": 80564,
+  "launch_chunk": "7065a6",
+  "completion_chunk": "7cd1b3",
+  "tool_exit_code": 0,
+  "completed": true,
+  "seconds": 42.962107453999124,
+  "last_saved_accepted_s": 0.8090484941089444,
+  "saved_nodes": 355,
+  "first_guard_state_separate": true,
+  "outputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-guard-state.npz",
+      "bytes": 35286,
+      "sha256": "293db6435dbae5bc4d817977cbbdac8e8171308aa7969a3fdc3cc79a90b0e5ef",
+      "runtime_original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-flat-prefix-initializer-01/outputs/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-guard-state.npz",
+      "runtime_sha256": "293db6435dbae5bc4d817977cbbdac8e8171308aa7969a3fdc3cc79a90b0e5ef"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-report.json",
+      "bytes": 319464,
+      "sha256": "d965e5671451235344951f96f8e28c414aa90433fe27788a91f6c4db60934f26",
+      "runtime_original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-flat-prefix-initializer-01/outputs/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-report.json",
+      "runtime_sha256": "d965e5671451235344951f96f8e28c414aa90433fe27788a91f6c4db60934f26"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-trajectory.npz.gz",
+      "bytes": 1374989,
+      "sha256": "db7614138c5f55b77e23f04849af02c75db36a277064b64f684a8da574c68c51",
+      "runtime_original": "/workspace/scratch/fd2dbfd2c83e/visible-flex-flat-prefix-initializer-01/outputs/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-trajectory.npz",
+      "runtime_sha256": "997fec454fa423731d30d1cf878227670d8f87128cbef2418f6bc121b13cb286"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-fourth-return-actual-sync-ledger-v1",
+  "fourth_loss_hour_deadline_missed": "2026-11-13 00:05 UTC",
+  "probes_before_return": [
+    "2026-11-12 23:59:49 UTC: No usable execution environment",
+    "2026-11-13 00:06 UTC: No usable execution environment"
+  ],
+  "actual_return": "2026-11-13 00:17:49 UTC",
+  "original_workspace_source_exists": true,
+  "old_tmp_publisher23_exists": false,
+  "failed_pulls": [
+    {
+      "publisher": "isolated-24",
+      "exit": 1,
+      "observed": "Invalid username or token",
+      "reason": "operator command token transcription error; corrected, no credential written to a file"
+    },
+    {
+      "publisher": "isolated-24",
+      "exit": 1,
+      "observed": "pack has 56 unresolved deltas; fetch-pack invalid index-pack output",
+      "cause_not_proved": true
+    }
+  ],
+  "both_failed_head": "c888afab1e87be5c7a75c0688fc686fceae59aba",
+  "failed_head_readme_blobs": [
+    "f787a306d90892d8dec765dc59747d60ba39f055",
+    "71875538fe72d500277129b7f67d99f89d21c9e0"
+  ],
+  "recovery_clone": {
+    "path": "/tmp/fd2d-math-research-publish-isolated-25",
+    "filter": "blob:none",
+    "depth": 1,
+    "old_alternates": false,
+    "actual_clone_exit": 0
+  },
+  "successful_pull": {
+    "command": "git pull --rebase --no-stat origin main",
+    "exit": 0,
+    "observedUTC": "2026-11-13 00:28 UTC",
+    "previous_read": "8173ff2707ff2aa1371dbf69045d846e90ae4965",
+    "read_commit": "aa02034222ebf126e63a90f346ea399e4cbbb3a7",
+    "both_README_diff_empty": true,
+    "tool_chunk": "b63b7e"
+  },
+  "root_LOG_modified": false,
+  "API_writes_stopped_after_actual_return": true,
+  "notes": [
+    "Large initial local command creation hit Argument list too long before an OS child began; same payload written in three smaller actual exit0 commands.",
+    "Source math and original closed files were retained; missing temporary publisher is not evidence that source results were lost."
+  ]
+}

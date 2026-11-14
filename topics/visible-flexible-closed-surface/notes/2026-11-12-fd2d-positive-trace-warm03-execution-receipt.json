@@ -1,0 +1,17 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 59304,
+  "launch_chunk": "19ef6a",
+  "completion_chunk": "8a1fa2",
+  "actual_exit_code": 1,
+  "source_snapshot": "scripts/fd2d_gc_raw_bump_positive_trace_empty_local_snapshot.py",
+  "source_sha256": "847e95ae5b11d947cf6278f46ca5edf6fb42283160f3e8d0295a6bd31655a812",
+  "actual_value_evaluation_completed": true,
+  "local_derivative_check_completed": false,
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm03-warm.npz",
+    "bytes": 58784,
+    "sha256": "1fb9b121d087c68417683103a2d668ab3f1d0f9274612706116070b57eaf7081"
+  },
+  "reason": "A local late view has identically inactive old coast Gauss-l; frozen old provider attempted concatenate of its empty zero-Jacobian list. New complete value was already evaluated; no BVP had run."
+}

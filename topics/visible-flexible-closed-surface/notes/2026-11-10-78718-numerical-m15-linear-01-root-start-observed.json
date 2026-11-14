@@ -1,0 +1,15 @@
+{
+  "schema": "78718-root-m15-start-observed-v1",
+  "actor": "/root",
+  "scope": "Actual startup only; no numerical success or exit inferred",
+  "actual_start": {
+    "chunk_id": "a7ced8",
+    "wall_time_seconds": 1.001643614,
+    "session_id": 61908,
+    "original_token_count": 96,
+    "output": "{\"event\": \"new_environment_direct_CSC_M14_per_process_DATA_budget\", \"requested_bytes\": 6442450944, \"effective_limits\": [6442450944, 6442450944], \"prior_limits\": [-1, -1], \"original_Node_heap_MiB\": 1536, \"mathematical_arguments_unchanged\": true, \"scope\": \"Per process only; no aggregate-memory or convergence guarantee.\"}\n{\"event\": \"started\", \"elapsed_seconds\": 0.000594180997723015}\n"
+  },
+  "guard_launch": "notes/2026-11-10-78718-numerical-m15-linear-01-guard-launch.json",
+  "owner": "/root; direct write_stdin only",
+  "new_rule_13_applied": true
+}

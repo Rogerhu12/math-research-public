@@ -1,0 +1,423 @@
+{
+  "schema": "fd2d-closed-publication-batch-v1",
+  "utc": "2026-11-12T16:03:59.599247+00:00",
+  "base_commit": "67a2d059d94aceb856e34a9e31b1203fdc2f0abb",
+  "closed_group_manifests": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R162-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-closed-manifest-01.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-closed-group.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-static-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trial20-static-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-closed-group.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+      "bytes": 1437,
+      "sha256": "bba1794ddee07cdaf9674014168135019ef521c348ad71300aa8c541d306725c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 53791,
+      "sha256": "388c5b1b7434a5c5d9deb055f9fe0bb6139a532bcac72389ac58e1cf04e14c56"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+      "bytes": 9092,
+      "sha256": "08082e660ea7be5d7970cbd380fc30a852785e41defbabc25325c49aee73c4db"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-existing-tail-zero-18b3-01-field.npz",
+      "bytes": 59623,
+      "sha256": "282196613cc8e16232164bd5c858fc1c7564d2a4d0bd21527c793f42977abb69"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-existing-tail-zero-18b3-01-report.json",
+      "bytes": 9158,
+      "sha256": "f1a70d02475ef3853388050fbedfe7b187e10dbaf04d7f8831b7e8b90cf7385b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-R162-closed-manifest.json",
+      "bytes": 2348,
+      "sha256": "03dac3d95535c65298af6ef54713291c5dab53fb3887ed9cbf147c964e264bdf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-definition.json",
+      "bytes": 51755,
+      "sha256": "c3d3455b4fff807c2e16cb4cb1e242f1c1559c93d850173aec7aa0e7dae9bb17"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-exit-receipt.json",
+      "bytes": 1030,
+      "sha256": "e84720a4fa5f299b2acf13ef057deaba16be7d1eb6e5d655291dea313943a035"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-report.json",
+      "bytes": 13856,
+      "sha256": "a571cd1b72c7c598b58e218929ef42421041f2a062d3aac5ce753a0e0feafebc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-samples.npz",
+      "bytes": 12740,
+      "sha256": "fc8f043c527bd8e419d1717a07271c6848dfd50977a3ea7032ff18d1b66c4bee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-closed-manifest-01.json",
+      "bytes": 3405,
+      "sha256": "b01071f8cdc8f1fd1aaedd9d3aa041daa3fbe6d5cae4f04f3493c9b5ec9211ac"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native.md",
+      "bytes": 9804,
+      "sha256": "c05bce7753555897a290e3b8e537789905a5e460ef2c28b633668c23f00041f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-interior18-actual-run.md",
+      "bytes": 1703,
+      "sha256": "55517fdc94e85eab395dc484028611adfea03912b56e1c4a6c6cefc684139673"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-stream19-actual-run.md",
+      "bytes": 1511,
+      "sha256": "b7b84d815e0707131e555fb4d99c411eb0b0adfe6431a0a323845f0254216de1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-tail-fade-whole-choice.md",
+      "bytes": 992,
+      "sha256": "e2726c3cf0253f26dabaa67ab30d11c15be9020b27544b650e96fbb7d9a37d66"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-publication-plan-eleventh.json",
+      "bytes": 1332,
+      "sha256": "cf4d0c26e6ecacad73842c19bf6c711afec21d2c39122324a5ea61835feefc06"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0001-initial.npz",
+      "bytes": 58514,
+      "sha256": "9646fb8d662c893d5ccb00c509ad75a93b21e42d46384bfea700d06656dfe01a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0001-process-receipt.json",
+      "bytes": 3956,
+      "sha256": "04979f1322db9e0883b3d18d60e6f604a5192846498a228a1d20ef993ed3e60a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0001-progress.jsonl",
+      "bytes": 92180,
+      "sha256": "8ef9b801c662d5284a716f0498b002c78c56a307fe87aea41e87b9fc8b41befe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0001-report.json",
+      "bytes": 155811,
+      "sha256": "77c80d760e0e0fd8d596c3a9cbf7bddf95a056d9ae05da964c9c36141aad0a08"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0002-process-receipt.json",
+      "bytes": 4053,
+      "sha256": "ddf135c849f392495d3b4e2e75e4a797f20db4425ef367bd6325b41761d5381d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0002-progress.jsonl",
+      "bytes": 92292,
+      "sha256": "31d7dfde4104df73c30734c09e7fa06e8130b18536cd84ea76f47ee25a1552c9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0002-report.json",
+      "bytes": 155962,
+      "sha256": "e5b82d8f7949db626f3142976f5056b2d7e2076f143b24eb131f2124bab98352"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0003-process-receipt.json",
+      "bytes": 4067,
+      "sha256": "cb45e3178ce99ee26516e9c57de8053e8f94f088ab784fe9284381b8c1283491"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0003-progress.jsonl",
+      "bytes": 92343,
+      "sha256": "7393ced9a05f90365557a19ad6881c50ba872bcf449e96f825b17d22c731eaf7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0003-report.json",
+      "bytes": 155986,
+      "sha256": "b4aef53d3958089ffd9f06369bf3f2601dd220f6387f75d7e3a37c476a3c4065"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+      "bytes": 58507,
+      "sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-field.npz",
+      "bytes": 740559,
+      "sha256": "aa2780766a667a6b3dd04b43e8aeeaf1c79ade9c9716a21aeb1102924244ebab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-physical-metric.json",
+      "bytes": 2680,
+      "sha256": "0856f06173d2f852bf0ac533551bb3128ebe934516f69b3fe52e2c9683976822"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-process-receipt.json",
+      "bytes": 4067,
+      "sha256": "d254ab1e6afca8b023a231396c1b831e55da7ba08473d12341c9c41f3677921a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-progress.jsonl",
+      "bytes": 92094,
+      "sha256": "60bb10e3fc0899e66ce40c3bf0e6725f08c3880b2e8b2de529e93cb535f88e7a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-b0004-report.json",
+      "bytes": 155739,
+      "sha256": "53f88e2e4e79a94467b2e0884ec295af36f81ef07531fbede639ff3097868a30"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-chain-report.json",
+      "bytes": 71979,
+      "sha256": "91aad95cd76dec50dcc51ea4563a1ab9ee86550694009aaf53e8d209b475fc8a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-closed-group.json",
+      "bytes": 9345,
+      "sha256": "25aadeb3c86b435dbd88e0b937c35bbc7f68314d6356373c52668f1b0b59add5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-execution-receipt.json",
+      "bytes": 284,
+      "sha256": "b76df1e6e111a5772821bcbd0a5b8317136183ef0666bcb2492c40772a032757"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-interior18-static-manifest.json",
+      "bytes": 969,
+      "sha256": "13ca1ef3494dcb9a494270ce4975f66b03974ba49b41e63db47f3101f889270b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0001-initial.npz",
+      "bytes": 58507,
+      "sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0001-process-receipt.json",
+      "bytes": 3951,
+      "sha256": "964a9ebf70adc03469693a4c2916b93ce99e0cf7d40cc53c4c566503951a7488"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0001-progress.jsonl",
+      "bytes": 96113,
+      "sha256": "199d415b2b065d03ce19eb94a2124c1f55425e9765d536f4bde243d78d227ea3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0001-report.json",
+      "bytes": 207995,
+      "sha256": "24c1c68976288b40420421d92daec12c698d5f16effc02710a98064e981cc7a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0002-process-receipt.json",
+      "bytes": 4044,
+      "sha256": "b5d8c8debbe7e3bf9f5eebfa8aad0ee5c35eda29adcf70d37a3ab22dddafcaad"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0002-progress.jsonl",
+      "bytes": 96268,
+      "sha256": "4296066776a7f62eb23277a5724bde1d7480c2c16fcd1a24fe56949e34a417e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0002-report.json",
+      "bytes": 208252,
+      "sha256": "b3c900de290862c72d14bb1a067ea205a89e8e76c7184269728bf920e5e91fe2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0003-process-receipt.json",
+      "bytes": 4045,
+      "sha256": "a3299d0edc03622a840a18b11335a24394466610bc9ccdc792221c030564e04e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0003-progress.jsonl",
+      "bytes": 96588,
+      "sha256": "df8d8d035cd73ec0443140cc832c8f73cc85110117631bf6228888397bc282e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0003-report.json",
+      "bytes": 208359,
+      "sha256": "601be382060c255214649d287c2c659d9eee5823f3615f0dbf187f8205ff502f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-accepted-0002.npz",
+      "bytes": 58515,
+      "sha256": "c56c1046d2c605d9d6c31bd816766c34ed0ca8eba2292e340332f4022eeba901"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-field.npz",
+      "bytes": 741306,
+      "sha256": "934785dcfdea888a0f06cfd4e632a66cdeb39ebdb324ef410bfcc6f67f0af26c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-physical-metric.json",
+      "bytes": 2682,
+      "sha256": "2578a67810fc8b9ff9b3b5eca5d18172a4979f580f9ea6debfc3efdb19ec4786"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-process-receipt.json",
+      "bytes": 4045,
+      "sha256": "4325b5f52545b3e57268aae386b5181e4b13929f5dcedf4e8a15f0acd814c12b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-progress.jsonl",
+      "bytes": 96708,
+      "sha256": "9555c95edb3211ac5395539c19fd48d61013461c575a2297581e9c77bad40b6a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-b0004-report.json",
+      "bytes": 208471,
+      "sha256": "62060c6e2d2c5a7ecbe21129d52cbdd086d93c19fada9057d0bcf4eb25a80081"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-chain-report.json",
+      "bytes": 72004,
+      "sha256": "bfd77a1faa71571bb9c4d3c2df3917d56ffbcb9cfad629be756afd27d22c0850"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-closed-group.json",
+      "bytes": 9664,
+      "sha256": "b758ff45f37dca53a9a0cf9c3ce96286ca29a98e5ff077cae5fae4ceabd4499b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-execution-receipt.json",
+      "bytes": 290,
+      "sha256": "5c42bb36bdce7fce478d6bc45adff0518f913ba19591201471002cf1c7a2395c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-stream19-static-manifest.json",
+      "bytes": 1068,
+      "sha256": "38967eef79273f8c5c3b2c400e93a25c0a924b1d3f8b0359a0a43a5d9896a01b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-trial20-static-manifest.json",
+      "bytes": 738,
+      "sha256": "ca51cb253d2297e71bc3b7a498dcb14cd64625df81b5e0bedd5edac18eb1c6be"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-closed-group.json",
+      "bytes": 1296,
+      "sha256": "e6a22c08ad9deb584a49c7607b912bc127f4f0abf498693fce6486b5fa9d0648"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-field.npz",
+      "bytes": 59081,
+      "sha256": "9eb3a54551f38b2578f480153c1cc3fb52bb094ac05252de090eade99d360942"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-receipt.json",
+      "bytes": 226,
+      "sha256": "ca5c60dc35b8c98bb569d2e955074bc654daa388cc54b270afe240c3b88ee50d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tail-fade-whole-choice01-report.json",
+      "bytes": 12232,
+      "sha256": "332ba0f0b4986aaab69f9cc87f25dee493316e57436729af2b4ec66e4f832eef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-tenth-batch-main-receipt.json",
+      "bytes": 1142,
+      "sha256": "32f75f4deaf9414b62821b835363d523eef875571f8e27db9353b32e1f6afb9f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-trace19-stream-source-compile-receipt.json",
+      "bytes": 841,
+      "sha256": "6021e935ba3fd745c0e8477f789ed281f83f98a618909aa60e83778ac636ddcd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-metric-independent-tail-native-check-01-console.txt",
+      "bytes": 202,
+      "sha256": "ca921ea74e1267018b8fd8446d2f797b9cd7678e66cd42a48982fb05e310e2a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 20947,
+      "sha256": "b653484edb86a2941d0d4e86ec94c21d84dfe6ade8d9668082b02c05becb1bb6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "bytes": 57646,
+      "sha256": "e8adaccae7ecd3659e82f14be6e1bb7c2f288bc5b2fb096be24724f3593efe6c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R162-existing-current-radius-tail-reference-and-raw-zero-initializer.md",
+      "bytes": 14388,
+      "sha256": "1f2c7562674eda367ad1a75c3576b4e7f51a096c4bbf25ea8464851d4c5e9d1d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-existing-tail-zero-initializer-check.py",
+      "bytes": 11480,
+      "sha256": "957506f3c241415ab687dc5d0e045cac516d3107caf31720033d363823df88b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-existing-tail-fade-objective-choice.py",
+      "bytes": 4972,
+      "sha256": "a5731fc1ee1f89507da584e96649264886a926dbe4cde34ceffa42348b4609bd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-positive-trace-stream-run.py",
+      "bytes": 28833,
+      "sha256": "5e7038c29cfe922f2ff4003ca5768c4194012aa537861d0601011c4065e1be9f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-positive-trace-stream-trial-run.py",
+      "bytes": 30702,
+      "sha256": "20e51d425ab3e29dd3c6dbc5af1c43cdcc2f004886e993aa66a0417aaf0e679c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-independent-tail-native-check.py",
+      "bytes": 10765,
+      "sha256": "969932f55e7b0d83ac9e048acb23ab4a131b1d33214df7df714c3e402f327d21"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+      "bytes": 5041,
+      "sha256": "4d6a56fe259317439726ed905503151693066f60804faaeb05fbae03a7074130"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+      "bytes": 4466,
+      "sha256": "db6bd9d12100a9eea751f12f155081c930cb06a6883c0e967733b23cb414d37a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_existing_tail_reference.py",
+      "bytes": 7341,
+      "sha256": "4b7ce10e568521ec7fe92ed23d0f8b1d947671aa9278fc63f631d007241bd2cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_independent_tail_native_field.py",
+      "bytes": 23627,
+      "sha256": "d030b81e792e252be1d44d795d1c393a7a8c8fbf4336319de5bcabe0b2a4bbfd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_stream_normal.py",
+      "bytes": 2241,
+      "sha256": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_value_objective.py",
+      "bytes": 2960,
+      "sha256": "0dd7a78c34fae46b0be1397c35f2ddfcb636a6619b5ac5dab9a5a99c3ff4f365"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py",
+      "bytes": 8154,
+      "sha256": "9b70cf65aa3bde7315b4bfe761721c81e501d9a9c8815e8861535597d8926fda"
+    }
+  ],
+  "excluded": [
+    "active trial20 output",
+    "active native differential Codazzi diagnosis",
+    "regenerable intermediate arrays",
+    "HANDOFF hash refreshed after every literal pull"
+  ],
+  "scope": "Actual closed 18/19 improvement and 20 static continuation; R162 full proof and truthful whole-objective rejection; no strong completion claim"
+}

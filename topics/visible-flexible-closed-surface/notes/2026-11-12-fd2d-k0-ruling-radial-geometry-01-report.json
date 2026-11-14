@@ -1,0 +1,116 @@
+{
+  "schema": "fd2d-r137-complete-radial-segment-geometry-v1",
+  "actual_execution": true,
+  "source_sha256": "84d475509ccd3d80953b91d074a675dfcf558b719cee476b1f10559ec3b6cb3d",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "dependencies": {
+    "fd2d_k0_ruling_coast.py": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+    "fd2d_peak_spacer_ruling_consumer.py": "955bf2495b0f6395838ef6303822f94dd3907e4152862cb033c38199a6243529",
+    "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+  },
+  "a": 1.029181699754392,
+  "v": 0.2587478542495509,
+  "coast_length": 0.2755434451024161,
+  "held_point": [
+    0.0,
+    1.405,
+    0.0
+  ],
+  "angles": 3072,
+  "radial_grid_used": false,
+  "radial_extrema_method": "Endpoints for convex norm/slab, clipped quadratic vertex for held and area, endpoints plus the unique possible critical point for own-normal support",
+  "summary": {
+    "sphere_radius_upper": 1.66971588694323,
+    "abs_y_upper": 0.790439737666351,
+    "z_upper": 0.8669528307352111,
+    "D_end": 0.21691280214784736,
+    "z_lower": 0.5694493272901577,
+    "held_distance_lower": 0.9603513518153031,
+    "own_support_lower": -0.10045924307261947,
+    "own_ruling_area_lower": 0.21691280217286488
+  },
+  "locations": {
+    "held_distance_lower": {
+      "index": 768,
+      "phi": 1.5707963267948966,
+      "material_inlet": 1.5707963267948966,
+      "value": 0.9603513518153031,
+      "W": 0.2755434451024161,
+      "held_minimizer_w": 0.2755434451024161,
+      "own_support_minimizer_w": 0.2755434451024161,
+      "X_start": [
+        4.796583072994355e-19,
+        0.5724326258323011,
+        0.5694493272901577
+      ],
+      "X_end": [
+        3.402602102992645e-19,
+        0.790439737666351,
+        0.7379636867040794
+      ]
+    },
+    "own_support_lower": {
+      "index": 768,
+      "phi": 1.5707963267948966,
+      "material_inlet": 1.5707963267948966,
+      "value": -0.10045924307261947,
+      "W": 0.2755434451024161,
+      "held_minimizer_w": 0.2755434451024161,
+      "own_support_minimizer_w": 0.2755434451024161,
+      "X_start": [
+        4.796583072994355e-19,
+        0.5724326258323011,
+        0.5694493272901577
+      ],
+      "X_end": [
+        3.402602102992645e-19,
+        0.790439737666351,
+        0.7379636867040794
+      ]
+    },
+    "sphere_radius_upper": {
+      "index": 0,
+      "phi": 0.0,
+      "material_inlet": 0.0,
+      "value": 1.66971588694323,
+      "W": 0.2755434451024161,
+      "held_minimizer_w": 0.0,
+      "own_support_minimizer_w": 0.0,
+      "X_start": [
+        1.4107296072321753,
+        -2.482644068936671e-35,
+        0.5918904847577222
+      ],
+      "X_end": [
+        1.4270052320824973,
+        -2.219647925171588e-34,
+        0.8669528307352111
+      ]
+    },
+    "abs_y_upper": {
+      "index": 768,
+      "phi": 1.5707963267948966,
+      "material_inlet": 1.5707963267948966,
+      "value": 0.790439737666351,
+      "W": 0.2755434451024161,
+      "held_minimizer_w": 0.2755434451024161,
+      "own_support_minimizer_w": 0.2755434451024161,
+      "X_start": [
+        4.796583072994355e-19,
+        0.5724326258323011,
+        0.5694493272901577
+      ],
+      "X_end": [
+        3.402602102992645e-19,
+        0.790439737666351,
+        0.7379636867040794
+      ]
+    }
+  },
+  "arrays_file": "2026-11-12-fd2d-k0-ruling-radial-geometry-01-angles.npz",
+  "arrays_sha256": "2f1e836f80f96a7fe0d3c0e0e81fc38a01f0bf89631ad7a602b4588a70af4e07",
+  "continuous_angular_bounds": false,
+  "rounding_enclosures": false,
+  "reach_certificate": false,
+  "seconds": 6.646608168000057
+}

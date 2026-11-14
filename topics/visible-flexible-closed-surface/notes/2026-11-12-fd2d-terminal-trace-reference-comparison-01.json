@@ -1,0 +1,165 @@
+{
+  "schema": "fd2d-terminal-positive-trace-reference-comparison-v1",
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss14-b0004-accepted-0002.npz",
+    "bytes": 56027,
+    "sha256": "bcbfb6e2227ffd88cc90caf5cbd515a8b2490b2b8ee84bec232810aa60166258"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_terminal_trace_reference_probe.py",
+    "bytes": 6049,
+    "sha256": "4fb0e11a713e5f0ba53d455e3fa7c1710e1c4af83901ff89545a8e0fbb2d42c2"
+  },
+  "radial_samples": 87,
+  "angular_samples": 1024,
+  "tail_controls": [
+    1.2,
+    1.2,
+    1.2,
+    1.3877787807814457e-17,
+    0.02130611146940848,
+    0.7755698799891872,
+    1.4538435880718165e-18,
+    8.503974104101164e-19,
+    0.33371831429025683,
+    0.13044112952192033,
+    2.47403106362697e-17,
+    0.4422730647599975,
+    8.385338978518871e-19,
+    0.04487062781817966,
+    1.2,
+    1.2
+  ],
+  "constants": {
+    "L": 0.026,
+    "D": 0.1207963267948966,
+    "a_cut": 0.8,
+    "leading_K_over_r3": 718450.0559343111
+  },
+  "results": {
+    "tail_plus_isotropic": {
+      "sampled_maxima": {
+        "Gauss": 1.1102230246251565e-16,
+        "Codazzi_n": 66.38409360426112,
+        "Codazzi_m": 2.4042062159453357,
+        "principal_curvature": 1.4998978418409106,
+        "flat_arc_Codazzi_n": 66.24274624575199,
+        "flat_arc_Codazzi_m": 0.0,
+        "trace_endpoint_bound_excess": 0.0
+      },
+      "min_sampled_h_over_k_plus_round_trace": 1.5811388309000976e-05,
+      "witnesses": {
+        "Gauss": {
+          "r": 0.008867366865435107,
+          "u": 0.6135923151542565,
+          "n": 0.7566670228981334,
+          "m": -0.3566737807769191,
+          "l": 0.5014271840884057,
+          "K": 0.2521972286906664,
+          "k_tail": 0.7576358748702591
+        },
+        "Codazzi_n": {
+          "r": 0.006,
+          "u": 1.2640001692177683,
+          "n": 0.3031308331911332,
+          "m": -0.009827839983263678,
+          "l": 0.33103975437759653,
+          "K": 0.10025177012513228,
+          "k_tail": 0.034135811646110924
+        },
+        "Codazzi_m": {
+          "r": 1e-10,
+          "u": 3.706097583531709,
+          "n": 0.33245998997240045,
+          "m": -0.21052796680848712,
+          "l": 0.13331536469153749,
+          "K": 7.184500512390557e-25,
+          "k_tail": 0.46577535466393793
+        },
+        "principal_curvature": {
+          "r": 0.0175,
+          "u": 2.4175537217077703,
+          "n": 1.0401539722107125,
+          "m": 0.5199315543962066,
+          "l": 0.9118990905485912,
+          "K": 0.6781866400325978,
+          "k_tail": 1.0477426209225178
+        }
+      }
+    },
+    "round_anisotropy_plus_tail": {
+      "sampled_maxima": {
+        "Gauss": 2.220446049250313e-16,
+        "Codazzi_n": 870.4888021715974,
+        "Codazzi_m": 3.468009879026248,
+        "principal_curvature": 7.173540750909309,
+        "flat_arc_Codazzi_n": 1.3677947663381929e-13,
+        "flat_arc_Codazzi_m": 0.0,
+        "trace_endpoint_bound_excess": 8.881784197001252e-16
+      },
+      "min_sampled_h_over_k_plus_round_trace": 0.43241730549621826,
+      "witnesses": {
+        "Gauss": {
+          "r": 0.015000000000000001,
+          "u": 2.4175537217077703,
+          "n": 0.13241298388080588,
+          "m": 0.5199315543962066,
+          "l": 6.717237102848574,
+          "K": 0.619120586966184,
+          "k_tail": 1.0477426209225178
+        },
+        "Codazzi_n": {
+          "r": 1e-10,
+          "u": 0.4479223900626072,
+          "n": 4.9387345788085224e-05,
+          "m": -2.3772223721885173e-05,
+          "l": 1.1442579301754998e-05,
+          "K": 7.184500512390557e-25,
+          "k_tail": 6.0896862226904845e-05
+        },
+        "Codazzi_m": {
+          "r": 0.009000000000000001,
+          "u": 2.60776733940559,
+          "n": 0.04414358274110192,
+          "m": 0.11275388217954364,
+          "l": 6.187975385929178,
+          "K": 0.2604459655021083,
+          "k_tail": 0.2574083579079323
+        },
+        "principal_curvature": {
+          "r": 0.013000000000000001,
+          "u": 0.9510680884890975,
+          "n": 0.08243722959885069,
+          "m": -0.2703635077595613,
+          "l": 7.163232563176837,
+          "K": 0.5174206211525183,
+          "k_tail": 0.5718304004270789
+        },
+        "trace_endpoint_bound_excess": {
+          "r": 0.0045000000000000005,
+          "u": 0.0,
+          "n": 0.011936447787930902,
+          "m": -0.0,
+          "l": 3.9896602016634897,
+          "K": 0.047622370688742116,
+          "k_tail": 0.0
+        }
+      }
+    }
+  },
+  "seconds": 0.5028734860006807,
+  "peak_rss_kib": 66228,
+  "pointwise_finite_comparison_only": true,
+  "nonlinear_solve": false,
+  "body_integration": false,
+  "input_modified": false,
+  "proof_references": [
+    "R156",
+    "R157"
+  ]
+}

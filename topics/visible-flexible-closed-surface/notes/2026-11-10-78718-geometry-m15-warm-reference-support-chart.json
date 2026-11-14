@@ -1,0 +1,73 @@
+{
+  "scope": "Exact positivity bounds for a support reference read from a saved warm.\n\nOnly the reference-coordinate data are constructed; no new geometric map or\nsolver is produced. The physical metric is not changed.\n",
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "bytes": 27524,
+    "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+  },
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-reference-support-chart.py",
+    "bytes": 4845,
+    "sha256": "9e5773c1527f42e0545ff9e228d3894558e0c1809e5d068ab54d0b51d98ef229"
+  },
+  "supplier": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-metric-supplier-storage-v1.py",
+    "bytes": 17622,
+    "sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3"
+  },
+  "status": "UNSOLVED_Z_ONLY_HERMITE_INITIAL_GUESS",
+  "solver_success": false,
+  "reference_definition": "c1=stored actual_primary_amplitude; cj>=2=binary64 product of stored parameter and its stored scale, then treated as exact dyadics",
+  "M": 15,
+  "m": 3,
+  "reference_coefficients_exact": [
+    "3602871293456979/36028797018963968",
+    "3198782674268653/18446744073709551616",
+    "-6117244743327991/295147905179352825856",
+    "6608478717276099/2417851639229258349412352",
+    "6648126309770201/4835703278458516698824704",
+    "-6600362057125029/9671406556917033397649408",
+    "7816647673577227/618970019642690137449562112",
+    "6155977764200961/2475880078570760549798248448",
+    "-8601789123961739/19807040628566084398385987584",
+    "2984237970102965/154742504910672534362390528",
+    "-1662996620742363/618970019642690137449562112",
+    "-2590120779045639/618970019642690137449562112",
+    "-1895924635133595/309485009821345068724781056",
+    "-1753135587332761/154742504910672534362390528",
+    "-2223526907582291/154742504910672534362390528"
+  ],
+  "reference_rho_triangle_lower": {
+    "exact": "119011563937235029261371869/618970019642690137449562112",
+    "display": 0.1922735514814373
+  },
+  "high_support_l1": {
+    "exact": "3845284430124573886374003/19807040628566084398385987584",
+    "display": 0.00019413725160834135
+  },
+  "chart_chi_lower": {
+    "exact": "0",
+    "display": 0.0
+  },
+  "chart_chi_upper": {
+    "exact": "1",
+    "display": 1.0
+  },
+  "chart_chi_abs_upper": {
+    "exact": "1",
+    "display": 1.0
+  },
+  "full_chart_rho_lower": {
+    "exact": "119011563937235029261371869/618970019642690137449562112",
+    "display": 0.1922735514814373
+  },
+  "exact_bernstein_panels": 520,
+  "simple_reference_rho_lower_exact": "192273551481/1000000000000",
+  "simple_chi_abs_upper_exact": "1",
+  "simple_full_chart_rho_lower_exact": "192273551481/1000000000000",
+  "simple_change_from_original_angle_upper_exact": "1196458679/1000000000000",
+  "simple_change_from_original_rho_upper_exact": "966272827/125000000000",
+  "BVP_calls": 0,
+  "tail_calls": 0,
+  "new_surface": false
+}

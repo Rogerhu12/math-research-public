@@ -1,0 +1,53 @@
+{
+  "status": "PASS_INDEPENDENT_READ_ONLY_FETCH243_POSTCHECK",
+  "reviewer": "/root/independent_geometry",
+  "script_sha256": "98784e96bff8de0159cd5474caa6c72959a3eaf04b585e5b48ad00b6f1b2d57a",
+  "frozen_reader_sha256": "db3b33fd4426aef7c5c158fb3c1f494a367f4b70f45d9b15f80c266f623817be",
+  "root_report_sha256": "a82e8c2757dc22e24c6670ffcb8dc3307d756b86d15494f22e2cd76e40a4e53e",
+  "before_metadata_sha256": "1666643fb66c4106af7835838009740f6625bfe2e283caa5135e0acf10b2a436",
+  "before_raw_oid_sha256": "82b69389459c16bd8a1da6206f5b7ea87e6620de3c37660c581e4ddfd774a4bf",
+  "old_pack_count": 19,
+  "current_pack_count": 21,
+  "old_pack_idx_hash_bytes_count_promisor_all_unchanged": true,
+  "old_indices_union_exactly_equals_frozen_raw_set": true,
+  "all_old_packed_oids_retained": true,
+  "packed_oid_count_before": 117057,
+  "packed_oid_count_after": 117740,
+  "new_distinct_packed_oids": 683,
+  "current_sorted_raw_oid_sha256": "d6afde42e5bccac9929e57a74835b362b1c8e9c33a13cf5939799a3e2983b233",
+  "new_pack_records": [
+    {
+      "name": "pack-5392032bc3c5631d8f52217ec406bf597a281b0c",
+      "idx_sha256": "ad71646192b26e5c5829e9ecdb6f69a90a535b814056bc2078d62efef89d9cf8",
+      "objects": 805,
+      "pack_bytes": 7525795,
+      "promisor": true
+    },
+    {
+      "name": "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5",
+      "idx_sha256": "724d06695c54d697aa7979363a44533d15cf9f6e1b48b623572238db68c040ff",
+      "objects": 1,
+      "pack_bytes": 24196,
+      "promisor": true
+    }
+  ],
+  "new_pack_bytes_total": 7549991,
+  "largest_new_pack_bytes": 7525795,
+  "new_pack_index_oid_occurrences": 806,
+  "new_pack_distinct_oids": 805,
+  "new_pack_distinct_oids_already_in_old_packs": 122,
+  "read_interval_metadata_stable": true,
+  "git_subprocess_calls": 0,
+  "network_calls": 0,
+  "pack_body_reads": 0,
+  "credential_or_auth_log_reads": 0,
+  "solver_or_backend_calls": 0,
+  "git_mutations": false,
+  "new_full_oid_snapshot_created": false,
+  "limitations": [
+    "Indices/checksums and pack sizes/markers were read; pack object bodies were not decoded or rehashed.",
+    "The actual fetch executable, flags, merge/push execution and absence of intervening GC are historical execution claims in the bound root record; this postcheck did not inspect authentication loops or logs.",
+    "This one observed publication does not prove a universal size bound, absence of all duplicate objects or the cause of every prior repeated pack.",
+    "The raw before-set remains a temporary checkpoint; the bound unchanged old indices independently reconstruct exactly the same set."
+  ]
+}

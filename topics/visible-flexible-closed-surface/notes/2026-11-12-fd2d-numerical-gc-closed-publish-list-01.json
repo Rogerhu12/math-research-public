@@ -1,0 +1,141 @@
+{
+  "schema": "fd2d-closed-numerical-gc-source-data-list-v1",
+  "scope": "Closed sources and genuine immutable observations as of 2026-11-12 06:05 UTC; root owns git publication. The original unfinalized log-start-01 dynamic outputs are excluded.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-linear-start-02-accepted-current.npz",
+      "bytes": 574660,
+      "sha256": "06cb520567c0e880bdffc13fbc01363c93c1648d7a4ad50ce883337d91d1e2b6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-linear-start-02-initial.npz",
+      "bytes": 95249,
+      "sha256": "d77f30c1fee57aa9e6dcd0f67d85b3eb4265e29fcc63473ca20beed8416853c3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-linear-start-02-progress.jsonl",
+      "bytes": 26578,
+      "sha256": "330c6c861ba23a0ca70b8c176a71d31319575686c6d8e7ccd97750df75df3b0f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-linear-start-02-report.json",
+      "bytes": 7605,
+      "sha256": "daad796bb53489911c17d2509e111891bf6673f77ac65cb70eb4ac82d7c6c999"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-accepted6-central-d.json",
+      "bytes": 7174,
+      "sha256": "c536409940559e0ad87182db2e6c7073d5118a026f4474dde28c302cfc4c959e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-accepted6-recovery.npz",
+      "bytes": 201915,
+      "sha256": "fa4ca642f1ce514a9e8eb30fa92d1dd73f54c7033b2a9d62e2f274badb5641ec"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-progress.jsonl",
+      "bytes": 15008,
+      "sha256": "6f7ea4401de3e96bae7d2f8fd4c04918042b15a549b82e54eabedf891b03da66"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-report.json",
+      "bytes": 4922,
+      "sha256": "57a8d5035309e523a2985d659f88e558bd3ee868dd9b24613d502714c29aa900"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-observed-source-manifest.json",
+      "bytes": 1985,
+      "sha256": "4788bcc0d8739ed62c31e4e84df653faf3be58b6dffc3db84c01419dc70773e5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-bvp-log-start-01-unavailable-session-observation.json",
+      "bytes": 3720,
+      "sha256": "93f1b9569d789d62d1c060ffe1fb53646367572ab5b717508654f30fe87f8536"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-intrinsic-local-02-state.npz",
+      "bytes": 5736,
+      "sha256": "6f9caaaff8c35d1ea18bb835c142d909e456ce7e0afcd3eaae908f0614343406"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-intrinsic-local-02.json",
+      "bytes": 6118,
+      "sha256": "ec77ea2dfd9e508d12c67a2a0ce08fe5a602ddf6ca1c675dd62d069c2d1e1f68"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-linear-tail95-01.json",
+      "bytes": 22011,
+      "sha256": "6e1c7f63ce9fe2be3e45825bf7e7b782560938be9c747de53faa28d73a3c6944"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-logshape-jvp-01.json",
+      "bytes": 4224,
+      "sha256": "4fe341e8054eabca78d91a6497dcadba56f0491314e8cefef60481ffabff6b97"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gc-tail-layout-01.json",
+      "bytes": 4483,
+      "sha256": "94f0d3332318096ffb973d582cda3913c785e3ff89365b37de3be6a96a58ceee"
+    },
+    {
+      "path": "scripts/fd2d-gc-bvp-linear-start.py",
+      "bytes": 13869,
+      "sha256": "424cec79891267d9c3959484fd0bc0c389855b56c4a5a7d1c9154f6c9ae2bcd2"
+    },
+    {
+      "path": "scripts/fd2d-gc-bvp-log-start.py",
+      "bytes": 11264,
+      "sha256": "0f1d3e63eb91a65dad0506db3d8092b4b51e66ed6f2d40bfa7bde62ac6c9c966"
+    },
+    {
+      "path": "scripts/fd2d-gc-intrinsic-local-check.py",
+      "bytes": 7449,
+      "sha256": "5c7d7cab82b62e4a13ec6733b82b215b87469aad4212f94468949cef5009b65a"
+    },
+    {
+      "path": "scripts/fd2d-gc-linear-tail-batch.mjs",
+      "bytes": 4406,
+      "sha256": "f351189068261ed87070d96807df94001470b110b8e5466439c7d6eb80888935"
+    },
+    {
+      "path": "scripts/fd2d-gc-logshape-check.py",
+      "bytes": 2824,
+      "sha256": "c196499aee6bb2808b221e7bed78f0174b99056dd70e56e298aafa26f9737b66"
+    },
+    {
+      "path": "scripts/fd2d-gc-tail-layout-check.py",
+      "bytes": 3279,
+      "sha256": "10b169a2c07a066156ae5efe5ce0f7447abe6fd7aec004a2f21768a341494cd4"
+    },
+    {
+      "path": "scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "scripts/fd2d_gc_bvp_newton.py",
+      "bytes": 3509,
+      "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+    },
+    {
+      "path": "scripts/fd2d_gc_bvp_ports.py",
+      "bytes": 5066,
+      "sha256": "9e283fd9aa0cf0f29c4ef1c3060fef4ecf2ab2b0bcc74638636fcb490cbf613c"
+    },
+    {
+      "path": "scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    {
+      "path": "scripts/fd2d_gc_logshape.py",
+      "bytes": 5005,
+      "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+    },
+    {
+      "path": "scripts/fd2d_gc_logshape_stable.py",
+      "bytes": 1192,
+      "sha256": "c2107c094f673d38006111f1ab9b802267ff6a4974e656e8615543b3d959e580"
+    }
+  ]
+}

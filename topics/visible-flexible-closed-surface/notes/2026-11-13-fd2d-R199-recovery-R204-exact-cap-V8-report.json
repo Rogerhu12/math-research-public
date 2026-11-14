@@ -1,0 +1,1263 @@
+{
+  "schema": "fd2d-R199-recovery-R204-new-exact-cap-actual-V8-check-v1",
+  "scope": "pure BigInt rational cap/support budgets; no body/F/J/normal/LM",
+  "R199": {
+    "schema": "fd2d-R199-exact-cap-budget-recovery-v1",
+    "design": "recovered_original",
+    "parameters": {
+      "B": {
+        "numerator": "8",
+        "denominator": "5",
+        "fraction": "8/5",
+        "decimal": 1.6
+      },
+      "R": {
+        "numerator": "97",
+        "denominator": "1000",
+        "fraction": "97/1000",
+        "decimal": 0.097
+      },
+      "a": {
+        "numerator": "3",
+        "denominator": "10",
+        "fraction": "3/10",
+        "decimal": 0.3
+      },
+      "ac": {
+        "numerator": "8",
+        "denominator": "25",
+        "fraction": "8/25",
+        "decimal": 0.32
+      },
+      "lambda": {
+        "numerator": "1",
+        "denominator": "100",
+        "fraction": "1/100",
+        "decimal": 0.01
+      },
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "10000",
+        "fraction": "1/10000",
+        "decimal": 0.0001
+      },
+      "delta": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "fraction": "1/1000000",
+        "decimal": 0.000001
+      },
+      "W": {
+        "numerator": "17",
+        "denominator": "20",
+        "fraction": "17/20",
+        "decimal": 0.85
+      },
+      "A": {
+        "numerator": "32",
+        "denominator": "25",
+        "fraction": "32/25",
+        "decimal": 1.28
+      },
+      "b": {
+        "numerator": "1011",
+        "denominator": "1000",
+        "fraction": "1011/1000",
+        "decimal": 1.011
+      },
+      "g": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "c": {
+        "numerator": "3",
+        "denominator": "5",
+        "fraction": "3/5",
+        "decimal": 0.6
+      },
+      "h": {
+        "numerator": "103",
+        "denominator": "100",
+        "fraction": "103/100",
+        "decimal": 1.03
+      },
+      "H": {
+        "numerator": "31",
+        "denominator": "20",
+        "fraction": "31/20",
+        "decimal": 1.55
+      },
+      "Zmin": {
+        "numerator": "3",
+        "denominator": "5",
+        "fraction": "3/5",
+        "decimal": 0.6
+      },
+      "Zmax": {
+        "numerator": "73",
+        "denominator": "100",
+        "fraction": "73/100",
+        "decimal": 0.73
+      }
+    },
+    "zc_open_bounds": [
+      {
+        "numerator": "64387",
+        "denominator": "87500",
+        "fraction": "64387/87500",
+        "decimal": 0.7358514285714286
+      },
+      {
+        "numerator": "2303",
+        "denominator": "3125",
+        "fraction": "2303/3125",
+        "decimal": 0.73696
+      }
+    ],
+    "minimum_corner_height": {
+      "numerator": "11163",
+      "denominator": "12500",
+      "fraction": "11163/12500",
+      "decimal": 0.89304
+    },
+    "minimum_axial_height": {
+      "numerator": "17663",
+      "denominator": "12500",
+      "fraction": "17663/12500",
+      "decimal": 1.41304
+    },
+    "checks": {
+      "pyramid_height": {
+        "numerator": "423",
+        "denominator": "1000",
+        "fraction": "423/1000",
+        "decimal": 0.423,
+        "passed": true
+      },
+      "planar_base_room": {
+        "numerator": "202999",
+        "denominator": "1000000",
+        "fraction": "202999/1000000",
+        "decimal": 0.202999,
+        "passed": true
+      },
+      "throat_normal_ball": {
+        "numerator": "5203",
+        "denominator": "50000",
+        "fraction": "5203/50000",
+        "decimal": 0.10406,
+        "passed": true
+      },
+      "cuff_annulus_width": {
+        "numerator": "1",
+        "denominator": "50",
+        "fraction": "1/50",
+        "decimal": 0.02,
+        "passed": true
+      },
+      "reference_corner_sphere": {
+        "numerator": "241241",
+        "denominator": "100000000",
+        "fraction": "241241/100000000",
+        "decimal": 0.00241241,
+        "passed": true
+      },
+      "reference_tip_sphere": {
+        "numerator": "499",
+        "denominator": "10000",
+        "fraction": "499/10000",
+        "decimal": 0.0499,
+        "passed": true
+      },
+      "complete_throat_sphere": {
+        "numerator": "158729759",
+        "denominator": "100000000",
+        "fraction": "158729759/100000000",
+        "decimal": 1.58729759,
+        "passed": true
+      },
+      "cap_slab": {
+        "numerator": "1529",
+        "denominator": "10000",
+        "fraction": "1529/10000",
+        "decimal": 0.1529,
+        "passed": true
+      },
+      "allowed_height_upper": {
+        "numerator": "128",
+        "denominator": "21875",
+        "fraction": "128/21875",
+        "decimal": 0.005851428571428572,
+        "passed": true
+      },
+      "positive_height": {
+        "numerator": "3",
+        "denominator": "5",
+        "fraction": "3/5",
+        "decimal": 0.6,
+        "passed": true
+      },
+      "opposite_caps_separation": {
+        "numerator": "503",
+        "denominator": "500",
+        "fraction": "503/500",
+        "decimal": 1.006,
+        "passed": true
+      },
+      "throat_and_annulus_held_squared": {
+        "numerator": "64",
+        "denominator": "125",
+        "fraction": "64/125",
+        "decimal": 0.512,
+        "passed": true
+      },
+      "convex_cap_held_squared": {
+        "numerator": "29314321",
+        "denominator": "100000000",
+        "fraction": "29314321/100000000",
+        "decimal": 0.29314321,
+        "passed": true
+      },
+      "remaining_flat_disk_held_squared": {
+        "numerator": "113",
+        "denominator": "625",
+        "fraction": "113/625",
+        "decimal": 0.1808,
+        "passed": true
+      },
+      "support_gap": {
+        "numerator": "9",
+        "denominator": "10000",
+        "fraction": "9/10000",
+        "decimal": 0.0009,
+        "passed": true
+      },
+      "reach_ratio": {
+        "numerator": "1",
+        "denominator": "1000",
+        "fraction": "1/1000",
+        "decimal": 0.001,
+        "passed": true
+      },
+      "held_ratio": {
+        "numerator": "0",
+        "denominator": "1",
+        "fraction": "0",
+        "decimal": 0,
+        "passed": true
+      },
+      "fixed_set_diameter": {
+        "numerator": "54647",
+        "denominator": "25000",
+        "fraction": "54647/25000",
+        "decimal": 2.18588,
+        "passed": true
+      }
+    },
+    "positive_octant_polar_vertices": [
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "z>=0"
+        ],
+        "squared_norm": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        "unit_ball_margin": {
+          "numerator": "1",
+          "denominator": "1",
+          "fraction": "1",
+          "decimal": 1
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "12500",
+            "denominator": "17663",
+            "fraction": "12500/17663",
+            "decimal": 0.7076940497084301
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "Hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "156250000",
+          "denominator": "311981569",
+          "fraction": "156250000/311981569",
+          "decimal": 0.5008308679927178
+        },
+        "unit_ball_margin": {
+          "numerator": "609100651",
+          "denominator": "1247926276",
+          "fraction": "609100651/1247926276",
+          "decimal": 0.48809025237641523
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "1000",
+            "denominator": "1011",
+            "fraction": "1000/1011",
+            "decimal": 0.9891196834817013
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "z>=0",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "1000000",
+          "denominator": "1022121",
+          "fraction": "1000000/1022121",
+          "decimal": 0.9783577482509409
+        },
+        "unit_ball_margin": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "6500000",
+            "denominator": "17857293",
+            "fraction": "6500000/17857293",
+            "decimal": 0.3639969395137326
+          },
+          {
+            "numerator": "12500",
+            "denominator": "17663",
+            "fraction": "12500/17663",
+            "decimal": 0.7076940497084301
+          }
+        ],
+        "active": [
+          "x>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "201956406250000",
+          "denominator": "318882913287849",
+          "fraction": "201956406250000/318882913287849",
+          "decimal": 0.6333246399680817
+        },
+        "unit_ball_margin": {
+          "numerator": "440100651",
+          "denominator": "1247926276",
+          "fraction": "440100651/1247926276",
+          "decimal": 0.35266558567118433
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "25",
+            "denominator": "32",
+            "fraction": "25/32",
+            "decimal": 0.78125
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "y>=0",
+          "z>=0",
+          "Ax<=1"
+        ],
+        "squared_norm": {
+          "numerator": "625",
+          "denominator": "1024",
+          "fraction": "625/1024",
+          "decimal": 0.6103515625
+        },
+        "unit_ball_margin": {
+          "numerator": "616279",
+          "denominator": "1638400",
+          "fraction": "616279/1638400",
+          "decimal": 0.3761468505859375
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "25",
+            "denominator": "32",
+            "fraction": "25/32",
+            "decimal": 0.78125
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "53125",
+            "denominator": "89304",
+            "fraction": "53125/89304",
+            "decimal": 0.5948781689509989
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "123039105625",
+          "denominator": "127603270656",
+          "fraction": "123039105625/127603270656",
+          "decimal": 0.9642315983944931
+        },
+        "unit_ball_margin": {
+          "numerator": "327540795639",
+          "denominator": "22685025894400",
+          "fraction": "327540795639/22685025894400",
+          "decimal": 0.014438634417422302
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "32500",
+            "denominator": "52989",
+            "fraction": "32500/52989",
+            "decimal": 0.6133348430806393
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "12500",
+            "denominator": "17663",
+            "fraction": "12500/17663",
+            "decimal": 0.7076940497084301
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "2462500000",
+          "denominator": "2807834121",
+          "fraction": "2462500000/2807834121",
+          "decimal": 0.8770104977294704
+        },
+        "unit_ball_margin": {
+          "numerator": "64635813",
+          "denominator": "623963138",
+          "fraction": "64635813/623963138",
+          "decimal": 0.103589153050256
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "25",
+            "denominator": "32",
+            "fraction": "25/32",
+            "decimal": 0.78125
+          },
+          {
+            "numerator": "2125",
+            "denominator": "4044",
+            "fraction": "2125/4044",
+            "decimal": 0.5254698318496538
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "z>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "927825625",
+          "denominator": "1046651904",
+          "fraction": "927825625/1046651904",
+          "decimal": 0.8864701066841034
+        },
+        "unit_ball_margin": {
+          "numerator": "153879",
+          "denominator": "1638400",
+          "fraction": "153879/1638400",
+          "decimal": 0.0939202880859375
+        }
+      }
+    ],
+    "all_cap_and_marked_support_checks_passed": true,
+    "held_flat_disk_bound_is_separate_conditional": true,
+    "ratios": {
+      "diameter_upper": {
+        "numerator": "16",
+        "denominator": "5",
+        "fraction": "16/5",
+        "decimal": 3.2
+      },
+      "held_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "fraction": "1/5",
+        "decimal": 0.2
+      },
+      "E3_quotient_lower": {
+        "numerator": "1609",
+        "denominator": "32000",
+        "fraction": "1609/32000",
+        "decimal": 0.05028125
+      },
+      "reach_lower": {
+        "numerator": "97",
+        "denominator": "3200",
+        "fraction": "97/3200",
+        "decimal": 0.0303125
+      }
+    },
+    "still_required": [
+      "actual entire flat-disk-closed core is C2 embedded",
+      "core global reach >=R, with all point pairs",
+      "whole core ball B_B and |z|<=Z",
+      "phase-zero whole active core slab |y|<=W",
+      "core excludes open held ball centered (0,Aactual,0) radius g",
+      "central Aactual>=A and true circular planar cuff twojet",
+      "one fixed actual metric and exact-solution approximation requirement"
+    ]
+  },
+  "R204": {
+    "schema": "fd2d-R199-exact-cap-budget-recovery-v1",
+    "design": "lower_window",
+    "parameters": {
+      "B": {
+        "numerator": "8",
+        "denominator": "5",
+        "fraction": "8/5",
+        "decimal": 1.6
+      },
+      "R": {
+        "numerator": "97",
+        "denominator": "1000",
+        "fraction": "97/1000",
+        "decimal": 0.097
+      },
+      "a": {
+        "numerator": "3",
+        "denominator": "10",
+        "fraction": "3/10",
+        "decimal": 0.3
+      },
+      "ac": {
+        "numerator": "8",
+        "denominator": "25",
+        "fraction": "8/25",
+        "decimal": 0.32
+      },
+      "lambda": {
+        "numerator": "1",
+        "denominator": "100",
+        "fraction": "1/100",
+        "decimal": 0.01
+      },
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "10000",
+        "fraction": "1/10000",
+        "decimal": 0.0001
+      },
+      "delta": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "fraction": "1/1000000",
+        "decimal": 0.000001
+      },
+      "W": {
+        "numerator": "17",
+        "denominator": "20",
+        "fraction": "17/20",
+        "decimal": 0.85
+      },
+      "A": {
+        "numerator": "13",
+        "denominator": "10",
+        "fraction": "13/10",
+        "decimal": 1.3
+      },
+      "b": {
+        "numerator": "1011",
+        "denominator": "1000",
+        "fraction": "1011/1000",
+        "decimal": 1.011
+      },
+      "g": {
+        "numerator": "16",
+        "denominator": "25",
+        "fraction": "16/25",
+        "decimal": 0.64
+      },
+      "c": {
+        "numerator": "3",
+        "denominator": "4",
+        "fraction": "3/4",
+        "decimal": 0.75
+      },
+      "h": {
+        "numerator": "37",
+        "denominator": "40",
+        "fraction": "37/40",
+        "decimal": 0.925
+      },
+      "H": {
+        "numerator": "31",
+        "denominator": "20",
+        "fraction": "31/20",
+        "decimal": 1.55
+      },
+      "Zmin": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "Zmax": {
+        "numerator": "63",
+        "denominator": "100",
+        "fraction": "63/100",
+        "decimal": 0.63
+      }
+    },
+    "zc_open_bounds": [
+      {
+        "numerator": "110399",
+        "denominator": "175000",
+        "fraction": "110399/175000",
+        "decimal": 0.6308514285714286
+      },
+      {
+        "numerator": "15799",
+        "denominator": "25000",
+        "fraction": "15799/25000",
+        "decimal": 0.63196
+      }
+    ],
+    "minimum_corner_height": {
+      "numerator": "8663",
+      "denominator": "12500",
+      "fraction": "8663/12500",
+      "decimal": 0.69304
+    },
+    "minimum_axial_height": {
+      "numerator": "32951",
+      "denominator": "25000",
+      "fraction": "32951/25000",
+      "decimal": 1.31804
+    },
+    "checks": {
+      "pyramid_height": {
+        "numerator": "66",
+        "denominator": "125",
+        "fraction": "66/125",
+        "decimal": 0.528,
+        "passed": true
+      },
+      "planar_base_room": {
+        "numerator": "352999",
+        "denominator": "1000000",
+        "fraction": "352999/1000000",
+        "decimal": 0.352999,
+        "passed": true
+      },
+      "throat_normal_ball": {
+        "numerator": "5203",
+        "denominator": "50000",
+        "fraction": "5203/50000",
+        "decimal": 0.10406,
+        "passed": true
+      },
+      "cuff_annulus_width": {
+        "numerator": "1",
+        "denominator": "50",
+        "fraction": "1/50",
+        "decimal": 0.02,
+        "passed": true
+      },
+      "reference_corner_sphere": {
+        "numerator": "518741",
+        "denominator": "100000000",
+        "fraction": "518741/100000000",
+        "decimal": 0.00518741,
+        "passed": true
+      },
+      "reference_tip_sphere": {
+        "numerator": "499",
+        "denominator": "10000",
+        "fraction": "499/10000",
+        "decimal": 0.0499,
+        "passed": true
+      },
+      "complete_throat_sphere": {
+        "numerator": "177218159",
+        "denominator": "100000000",
+        "fraction": "177218159/100000000",
+        "decimal": 1.77218159,
+        "passed": true
+      },
+      "cap_slab": {
+        "numerator": "29",
+        "denominator": "10000",
+        "fraction": "29/10000",
+        "decimal": 0.0029,
+        "passed": true
+      },
+      "allowed_height_upper": {
+        "numerator": "149",
+        "denominator": "175000",
+        "fraction": "149/175000",
+        "decimal": 0.0008514285714285714,
+        "passed": true
+      },
+      "positive_height": {
+        "numerator": "2",
+        "denominator": "5",
+        "fraction": "2/5",
+        "decimal": 0.4,
+        "passed": true
+      },
+      "opposite_caps_separation": {
+        "numerator": "303",
+        "denominator": "500",
+        "fraction": "303/500",
+        "decimal": 0.606,
+        "passed": true
+      },
+      "throat_and_annulus_held_squared": {
+        "numerator": "1377",
+        "denominator": "2500",
+        "fraction": "1377/2500",
+        "decimal": 0.5508,
+        "passed": true
+      },
+      "convex_cap_held_squared": {
+        "numerator": "2669921",
+        "denominator": "100000000",
+        "fraction": "2669921/100000000",
+        "decimal": 0.02669921,
+        "passed": true
+      },
+      "remaining_flat_disk_held_squared": {
+        "numerator": "1",
+        "denominator": "2500",
+        "fraction": "1/2500",
+        "decimal": 0.0004,
+        "passed": true
+      },
+      "support_gap": {
+        "numerator": "9",
+        "denominator": "10000",
+        "fraction": "9/10000",
+        "decimal": 0.0009,
+        "passed": true
+      },
+      "reach_ratio": {
+        "numerator": "1",
+        "denominator": "1000",
+        "fraction": "1/1000",
+        "decimal": 0.001,
+        "passed": true
+      },
+      "held_ratio": {
+        "numerator": "0",
+        "denominator": "1",
+        "fraction": "0",
+        "decimal": 0,
+        "passed": true
+      },
+      "fixed_set_diameter": {
+        "numerator": "49897",
+        "denominator": "25000",
+        "fraction": "49897/25000",
+        "decimal": 1.99588,
+        "passed": true
+      }
+    },
+    "positive_octant_polar_vertices": [
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "z>=0"
+        ],
+        "squared_norm": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        },
+        "unit_ball_margin": {
+          "numerator": "1",
+          "denominator": "1",
+          "fraction": "1",
+          "decimal": 1
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "x>=0",
+          "y>=0",
+          "Hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "625000000",
+          "denominator": "1085768401",
+          "fraction": "625000000/1085768401",
+          "decimal": 0.5756292036352971
+        },
+        "unit_ball_margin": {
+          "numerator": "446942776",
+          "denominator": "1085768401",
+          "fraction": "446942776/1085768401",
+          "decimal": 0.4116373027510864
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "1000",
+            "denominator": "1011",
+            "fraction": "1000/1011",
+            "decimal": 0.9891196834817013
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "x>=0",
+          "z>=0",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "1000000",
+          "denominator": "1022121",
+          "fraction": "1000000/1022121",
+          "decimal": 0.9783577482509409
+        },
+        "unit_ball_margin": {
+          "numerator": "0",
+          "denominator": "1",
+          "fraction": "0",
+          "decimal": 0
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "15625000",
+            "denominator": "33313461",
+            "fraction": "15625000/33313461",
+            "decimal": 0.4690296213893837
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "x>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "882966250000000",
+          "denominator": "1109786683798521",
+          "fraction": "882966250000000/1109786683798521",
+          "decimal": 0.7956179893759658
+        },
+        "unit_ball_margin": {
+          "numerator": "202802151",
+          "denominator": "1085768401",
+          "fraction": "202802151/1085768401",
+          "decimal": 0.18678214508104846
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "y>=0",
+          "z>=0",
+          "Ax<=1"
+        ],
+        "squared_norm": {
+          "numerator": "100",
+          "denominator": "169",
+          "fraction": "100/169",
+          "decimal": 0.591715976331361
+        },
+        "unit_ball_margin": {
+          "numerator": "667879",
+          "denominator": "1690000",
+          "fraction": "667879/1690000",
+          "decimal": 0.39519467455621304
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "68750",
+            "denominator": "112619",
+            "fraction": "68750/112619",
+            "decimal": 0.6104653744039638
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "12231319400",
+          "denominator": "12683039161",
+          "fraction": "12231319400/12683039161",
+          "decimal": 0.9643839496775326
+        },
+        "unit_ball_margin": {
+          "numerator": "905753722763",
+          "denominator": "63415195805000",
+          "fraction": "905753722763/63415195805000",
+          "decimal": 0.014282912971650644
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "62500",
+            "denominator": "98853",
+            "fraction": "62500/98853",
+            "decimal": 0.6322519296328892
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          },
+          {
+            "numerator": "25000",
+            "denominator": "32951",
+            "fraction": "25000/32951",
+            "decimal": 0.7587023155594671
+          }
+        ],
+        "active": [
+          "y>=0",
+          "Hz<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "9531250000",
+          "denominator": "9771915609",
+          "fraction": "9531250000/9771915609",
+          "decimal": 0.9753717061598091
+        },
+        "unit_ball_margin": {
+          "numerator": "13255479",
+          "denominator": "4343073604",
+          "fraction": "13255479/4343073604",
+          "decimal": 0.003052096328229762
+        }
+      },
+      {
+        "point": [
+          {
+            "numerator": "10",
+            "denominator": "13",
+            "fraction": "10/13",
+            "decimal": 0.7692307692307693
+          },
+          {
+            "numerator": "5500",
+            "denominator": "13143",
+            "fraction": "5500/13143",
+            "decimal": 0.4184737122422582
+          },
+          {
+            "numerator": "0",
+            "denominator": "1",
+            "fraction": "0",
+            "decimal": 0
+          }
+        ],
+        "active": [
+          "z>=0",
+          "Ax<=1",
+          "cx+by+hz<=1"
+        ],
+        "squared_norm": {
+          "numerator": "132462100",
+          "denominator": "172738449",
+          "fraction": "132462100/172738449",
+          "decimal": 0.7668362241691773
+        },
+        "unit_ball_margin": {
+          "numerator": "365379",
+          "denominator": "1690000",
+          "fraction": "365379/1690000",
+          "decimal": 0.21620059171597633
+        }
+      }
+    ],
+    "all_cap_and_marked_support_checks_passed": true,
+    "held_flat_disk_bound_is_separate_conditional": true,
+    "ratios": {
+      "diameter_upper": {
+        "numerator": "16",
+        "denominator": "5",
+        "fraction": "16/5",
+        "decimal": 3.2
+      },
+      "held_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "fraction": "1/5",
+        "decimal": 0.2
+      },
+      "E3_quotient_lower": {
+        "numerator": "1609",
+        "denominator": "32000",
+        "fraction": "1609/32000",
+        "decimal": 0.05028125
+      },
+      "reach_lower": {
+        "numerator": "97",
+        "denominator": "3200",
+        "fraction": "97/3200",
+        "decimal": 0.0303125
+      }
+    },
+    "still_required": [
+      "actual entire flat-disk-closed core is C2 embedded",
+      "core global reach >=R, with all point pairs",
+      "whole core ball B_B and |z|<=Z",
+      "phase-zero whole active core slab |y|<=W",
+      "core excludes open held ball centered (0,Aactual,0) radius g",
+      "central Aactual>=A and true circular planar cuff twojet",
+      "one fixed actual metric and exact-solution approximation requirement"
+    ]
+  },
+  "central_R199": {
+    "schema": "fd2d-R199-central-threshold-rationals-v1",
+    "base_a0_lower": {
+      "numerator": "305",
+      "denominator": "304",
+      "fraction": "305/304",
+      "decimal": 1.0032894736842106
+    },
+    "base_a0_upper": {
+      "numerator": "6838561",
+      "denominator": "6809600",
+      "fraction": "6838561/6809600",
+      "decimal": 1.0042529664003759
+    },
+    "gap_06_A128_trial_upper": {
+      "numerator": "342257089",
+      "denominator": "341196800",
+      "fraction": "342257089/341196800",
+      "decimal": 1.0031075584530686
+    },
+    "strict_A_threshold_margin": {
+      "numerator": "1179309",
+      "denominator": "6482739200",
+      "fraction": "1179309/6482739200",
+      "decimal": 0.0001819152311417988
+    },
+    "central_B_upper_at_gap_064": {
+      "numerator": "4659489",
+      "denominator": "6809600",
+      "fraction": "4659489/6809600",
+      "decimal": 0.6842529664003759
+    },
+    "passed": true,
+    "qualification": "Exact normalized ellipse gap>=.60 implies A>1.28; gap>=.64 gives central ellipse held distance>=.64. This is not a whole-core certificate."
+  },
+  "elapsed_ms": 2,
+  "actual_V8_execution": true,
+  "OS_process_created": false,
+  "OS_exit_code": null,
+  "source_binding": {
+    "path": "scripts/fd2d_corner_cap_rational_R199_R204_recovery.cjs",
+    "sha256": "c6002a13d2ebcd50e73c53c182f2b37f48e99f2aec7a3e33028356af37648401",
+    "bytes": 6872
+  },
+  "identity_note": "New reconstruction and real V8 rational execution after fifth loss; not the unavailable original R199 source or receipt."
+}

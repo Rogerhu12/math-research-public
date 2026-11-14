@@ -1,0 +1,49 @@
+{
+  "schema": "fd2d-closed-root-actual-state-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-native-field.json",
+      "bytes": 21056,
+      "sha256": "b8cf3e919c1ed475d685da281578408d5e8b8102bf3bd9672f51eb23bd67675e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-nodes.npz.gz",
+      "bytes": 2910814,
+      "sha256": "d0c90121ab251763dc4de51878da847e2d9e408105b78b587a3a532345d5e8d3",
+      "lossless_original": {
+        "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-nodes.npz",
+        "bytes": 2942375,
+        "sha256": "31743be5baa10b9b44a5e2345de4648510c28a52740f0ef8b70526ee16a34827"
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-progress.jsonl",
+      "bytes": 237328,
+      "sha256": "baf85fc6d63b5a77bfbe3abc0d7727ccbc8edc3a785073435b3076dec7242595"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-report.json",
+      "bytes": 4784,
+      "sha256": "7449c55c1ea73f12e3b34b716e5f4869de8f33c12d86f4404831c9b619c2d2b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-runtime.json",
+      "bytes": 318,
+      "sha256": "c546bdbe24c8ef6a83f83028cdbd4b796e592dd41e6365c90f0d6d3a0c96a7eb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-short088-fixed191-actual-body01-completion-receipt.json",
+      "bytes": 508,
+      "sha256": "80455a7349b2197e43ece693b78320596a32bfd4986fbd5aa5009bde0422e9c2"
+    }
+  ],
+  "completion": {
+    "session_id": 59307,
+    "completion_chunk": "e87460",
+    "actual_exit_code": 0,
+    "seconds": 717.3844629390005,
+    "actual_metric_sample_maximum": 3.1923985067363876e-06,
+    "actual_curvature_sample_maximum": 12.647714253503336,
+    "scope": "Complete actual fixed-material body through the same frozen metric prefix, 32 angles. Finite diagnostics; metric is reduced from the actual95 field but still above 1e-6, and curvature remains above the current budget. Not a continuous certificate or a tail solve."
+  }
+}

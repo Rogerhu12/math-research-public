@@ -1,0 +1,833 @@
+{
+  "schema": "fd2d-R171-actual-profile-exact-base-transport-v2",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile_v2.py",
+    "bytes": 5598,
+    "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+  },
+  "rebind_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile.py",
+    "bytes": 7103,
+    "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+  },
+  "passed": true,
+  "whole_F_J_BVP_body_evaluated": false,
+  "new_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-packet.json.gz",
+    "bytes": 381937,
+    "sha256": "2ad6ebdc6ce4a8bc13959610161638881bad3da235b4379f69bdbbec13318a30",
+    "uncompressed_bytes": 1394564,
+    "uncompressed_sha256": "f277564e8e6e2b33d9be9de279ac43addc8beeb040071f78a0fa8bc251db5e89",
+    "unchanged_encoded_base_sha256": "43dff49bbf7ebe82574c0a9644f895cc1e5d6ceacb362f1d1f4cb7aafb1d0b64",
+    "encoded_analytic_base_identical": true
+  },
+  "rebind": {
+    "schema": "fd2d-R171-exact-base-reuse-with-actual-physical-bumps-v1",
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile.py",
+      "bytes": 7103,
+      "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+    },
+    "parent_packet": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+      "bytes": 381917,
+      "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+    },
+    "actual_field": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+      "bytes": 133721,
+      "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+    },
+    "parent_input_binding": "5994cdb58d4d09a98e01dbd313b34480ed2eb89ced9a293c7d593d45ed276f7b",
+    "new_input_binding": "d05316e7b1d6d9983b940646fad07f16a45a3b07b502e41f610143804e30ca1a",
+    "unchanged_exact_base_payload_sha256": "e6eafa3b88db5c5fc0c16a28840de713bf6282ccdb45dc89704a958823e8ae80",
+    "analytic_base_and_all_Taylor_remainders_unchanged": true,
+    "base_integrals_recomputed": false,
+    "new_exact_delta": [
+      [
+        "2806759606808541",
+        "9223372036854775808"
+      ],
+      [
+        "-3294750363681323",
+        "576460752303423488"
+      ],
+      [
+        "-588108399571333",
+        "72057594037927936"
+      ],
+      [
+        "-4727597591298225",
+        "4611686018427387904"
+      ],
+      [
+        "8312791648994889",
+        "288230376151711744"
+      ],
+      [
+        "652726990879837",
+        "18014398509481984"
+      ],
+      [
+        "1836789295023669",
+        "144115188075855872"
+      ]
+    ],
+    "new_exact_supports": [
+      [
+        [
+          "6124895493223875",
+          "18014398509481984"
+        ],
+        [
+          "1782500573725975",
+          "2251799813685248"
+        ]
+      ],
+      [
+        [
+          "63739630995077",
+          "140737488355328"
+        ],
+        [
+          "4073445465988445",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "5096225020757919",
+          "9007199254740992"
+        ],
+        [
+          "4581889784524941",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "3056556828915455",
+          "4503599627370496"
+        ],
+        [
+          "1272583525765359",
+          "1125899906842624"
+        ]
+      ],
+      [
+        [
+          "1782500573725975",
+          "2251799813685248"
+        ],
+        [
+          "5598778421597931",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "4073445465988445",
+          "4503599627370496"
+        ],
+        [
+          "6107222740134427",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "4581889784524941",
+          "4503599627370496"
+        ],
+        [
+          "3307833529335461",
+          "2251799813685248"
+        ]
+      ]
+    ],
+    "exact_global_radius_lower": [
+      "18103121383342981011",
+      "23058430092136939520"
+    ],
+    "physical_target_equal_to_parent_claimed": false,
+    "parent_saved_field_residual_or_body_bounds_transferred": false,
+    "tail_domain_decoded_by_scalar_profile": false,
+    "scope": "Actual physical target only; complete angular-tail domain is independently bound by its proper archive reader",
+    "exact_base_transport_source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile_v2.py",
+      "bytes": 5598,
+      "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+    }
+  },
+  "profile_definition": {
+    "schema": "fd2d-R136-accurate-physical-profile-Arb-v1",
+    "input_binding_sha256": "d05316e7b1d6d9983b940646fad07f16a45a3b07b502e41f610143804e30ca1a",
+    "inputs": {
+      "actual_bump_rebind_source": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile.py",
+        "bytes": 7103,
+        "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+      },
+      "candidate": {
+        "bytes": 25453,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+        "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+      },
+      "exact_base_transport_source": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_rebind_profile_v2.py",
+        "bytes": 5598,
+        "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+      },
+      "field_arrays": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz",
+        "bytes": 133721,
+        "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"
+      },
+      "moments": {
+        "bytes": 8881,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+        "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+      },
+      "radius_certificate": {
+        "bytes": 136549,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+        "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+      },
+      "reused_accurate_base_packet": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+        "bytes": 381917,
+        "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+      }
+    },
+    "source": {
+      "bytes": 32315,
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_arb_profile.py",
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    "precision_bits": 256,
+    "taylor_order": 24,
+    "target_definition": "R136 shared raw two-jets and accurate phase integrals, not numerical resolved coefficients",
+    "exact_geometry": {
+      "ellipse_A": "7/5",
+      "ellipse_B": "1/2",
+      "cut_radius": "4/5",
+      "terminal_phase": "-pi/2",
+      "ramp": "2/25",
+      "ramp_integral": "23/25"
+    },
+    "raw_input_semantics": "Other raw numerical data are their binary64 dyadic rationals; derived phase/length/integral values remain accurate analytic quantities.",
+    "a0": {
+      "lower_binary": [
+        "29066212395459907823394903680307118501889821361728794660454763975538465832959",
+        -254
+      ],
+      "upper_binary": [
+        "29066212395459907823394903680307118501889821361728794660454763975538470551553",
+        -254
+      ],
+      "lower_display": 1.0040828380214688,
+      "upper_display": 1.0040828380214688
+    },
+    "accurate_physical_endpoint": {
+      "lower_binary": [
+        "2693926799068983009599668889973212808561885364892825513989211860043082510757",
+        -250
+      ],
+      "upper_binary": [
+        "2693926799068983009599668889973686279431756556377767851663376363331056841125",
+        -250
+      ],
+      "lower_display": 1.48897317835813,
+      "upper_display": 1.48897317835813
+    },
+    "central_cylinder_length": [
+      "5764607523034235",
+      "18014398509481984"
+    ],
+    "piece_count": 61,
+    "analytic_phase_branch_count": 14,
+    "join_identities": [
+      {
+        "exact_shared_two_jet": true,
+        "identity": "constant cylinder and exact zero initial shared jet",
+        "left": 0,
+        "right": 1
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 1,
+        "right": 2
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 2,
+        "right": 3
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 3,
+        "right": 4
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 4,
+        "right": 5
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 5,
+        "right": 6
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 6,
+        "right": 7
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 7,
+        "right": 8
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 8,
+        "right": 9
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 9,
+        "right": 10
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 10,
+        "right": 11
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 11,
+        "right": 12
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 12,
+        "right": 13
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 13,
+        "right": 14
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 14,
+        "right": 15
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 15,
+        "right": 16
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 16,
+        "right": 17
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 17,
+        "right": 18
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 18,
+        "right": 19
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 19,
+        "right": 20
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 20,
+        "right": 21
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 21,
+        "right": 22
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 22,
+        "right": 23
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 23,
+        "right": 24
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 24,
+        "right": 25
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 25,
+        "right": 26
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 26,
+        "right": 27
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 27,
+        "right": 28
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 28,
+        "right": 29
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 29,
+        "right": 30
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 30,
+        "right": 31
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 31,
+        "right": 32
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 32,
+        "right": 33
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 33,
+        "right": 34
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 34,
+        "right": 35
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 35,
+        "right": 36
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 36,
+        "right": 37
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 37,
+        "right": 38
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 38,
+        "right": 39
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 39,
+        "right": 40
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 40,
+        "right": 41
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 41,
+        "right": 42
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 42,
+        "right": 43
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 43,
+        "right": 44
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 44,
+        "right": 45
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 45,
+        "right": 46
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 46,
+        "right": 47
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 47,
+        "right": 48
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 48,
+        "right": 49
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 49,
+        "right": 50
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "identical shared Hermite endpoint jets",
+        "left": 50,
+        "right": 51
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "asin of shared Hermite speed, zero terminal acceleration and common radius",
+        "left": 51,
+        "right": 52
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and inherited exact second radial jet",
+        "left": 52,
+        "right": 53
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 53,
+        "right": 54
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 54,
+        "right": 55
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 55,
+        "right": 56
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 56,
+        "right": 57
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 57,
+        "right": 58
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 58,
+        "right": 59
+      },
+      {
+        "exact_shared_two_jet": true,
+        "identity": "shared phase and matching phase derivative; radius inherited by integration",
+        "left": 59,
+        "right": 60
+      }
+    ],
+    "field_binding": {
+      "layout": {
+        "central": [
+          0,
+          31
+        ],
+        "tail": [
+          31,
+          47
+        ],
+        "profile": [
+          47,
+          54
+        ]
+      },
+      "saved_mesh_sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8",
+      "native_profile_kind": "physical_bumps",
+      "computational_coordinate": "physical s",
+      "field_representation_kind": "ruling_atlas_coast_Gauss_l_terminal_positive_trace_fixed_tail_degree_v1"
+    },
+    "physical_delta_exact": [
+      [
+        "2806759606808541",
+        "9223372036854775808"
+      ],
+      [
+        "-3294750363681323",
+        "576460752303423488"
+      ],
+      [
+        "-588108399571333",
+        "72057594037927936"
+      ],
+      [
+        "-4727597591298225",
+        "4611686018427387904"
+      ],
+      [
+        "8312791648994889",
+        "288230376151711744"
+      ],
+      [
+        "652726990879837",
+        "18014398509481984"
+      ],
+      [
+        "1836789295023669",
+        "144115188075855872"
+      ]
+    ],
+    "bump_supports_exact": [
+      [
+        [
+          "6124895493223875",
+          "18014398509481984"
+        ],
+        [
+          "1782500573725975",
+          "2251799813685248"
+        ]
+      ],
+      [
+        [
+          "63739630995077",
+          "140737488355328"
+        ],
+        [
+          "4073445465988445",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "5096225020757919",
+          "9007199254740992"
+        ],
+        [
+          "4581889784524941",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "3056556828915455",
+          "4503599627370496"
+        ],
+        [
+          "1272583525765359",
+          "1125899906842624"
+        ]
+      ],
+      [
+        [
+          "1782500573725975",
+          "2251799813685248"
+        ],
+        [
+          "5598778421597931",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "4073445465988445",
+          "4503599627370496"
+        ],
+        [
+          "6107222740134427",
+          "4503599627370496"
+        ]
+      ],
+      [
+        [
+          "4581889784524941",
+          "4503599627370496"
+        ],
+        [
+          "3307833529335461",
+          "2251799813685248"
+        ]
+      ]
+    ],
+    "continuous_global_radius_lower_exact": [
+      "18103121383342981011",
+      "23058430092136939520"
+    ],
+    "target_metric_positive_by_R136_bound": true,
+    "derivative_semantics": "True derivatives of the accurate analytic target; one-sided a_sss and K_s, no extra global C3 requirement.",
+    "runtime_radius_evaluator": "Candidate.phase_integral: 40-point floating Gauss per explicit phase branch; no profile ODE/dense interpolation in this bound chain.",
+    "numerical_Gauss_evaluator_derivative_substituted": false,
+    "prior_floating_body_results_transferred": false,
+    "whole_embedding_certificate": false
+  },
+  "exact_target_transport": {
+    "binding": true,
+    "decoded_base": true,
+    "exact_delta_values": true,
+    "exact_support_values": true
+  },
+  "one_actual_new_target_query": {
+    "s_exact": [
+      "7",
+      "10"
+    ],
+    "jets": {
+      "a": {
+        "lower_binary": [
+          "60696656183879905302588617210646523938522388405567124153579085373232893120893",
+          -255
+        ],
+        "upper_binary": [
+          "60696656183879905302588617210646523938522388405567124153579085373232902558089",
+          -255
+        ],
+        "lower_display": 1.0483731070692048,
+        "upper_display": 1.0483731070692048
+      },
+      "a_s": {
+        "lower_binary": [
+          "48381940653225666668958858446032517779276888250579927021888306654625979959487",
+          -257
+        ],
+        "upper_binary": [
+          "24190970326612833334479429223016258889638444125289963510944153327312989979771",
+          -256
+        ],
+        "lower_display": 0.20891729725191654,
+        "upper_display": 0.20891729725191654
+      },
+      "a_ss": {
+        "lower_binary": [
+          "16869399793773132538327981300114684369710397063472308377551345518438361420039",
+          -254
+        ],
+        "upper_binary": [
+          "8434699896886566269163990650057342184855198531736154188775672759219180710131",
+          -253
+        ],
+        "lower_display": 0.582747920169201,
+        "upper_display": 0.582747920169201
+      },
+      "a_sss": {
+        "lower_binary": [
+          "91455246450207643300574092781980102155379140302521004935603689770870420213081",
+          -252
+        ],
+        "upper_binary": [
+          "91455246450207643300574092781980102155379140302521004935603689770870420214887",
+          -252
+        ],
+        "lower_display": 12.637166777467137,
+        "upper_display": 12.637166777467137
+      },
+      "K": {
+        "lower_binary": [
+          "-64364107320275074374949637267893830899176839449619857275913417648767173215633",
+          -256
+        ],
+        "upper_binary": [
+          "-64364107320275074374949637267893830899176839449619857275913417648767163207215",
+          -256
+        ],
+        "lower_display": -0.5558592797160837,
+        "upper_display": -0.5558592797160837
+      },
+      "K_s": {
+        "lower_binary": [
+          "-43216876883026293037981146639038935542410650782819517150361515351131972969471",
+          -251
+        ],
+        "upper_binary": [
+          "-43216876883026293037981146639038935542410650782819517150361515351131966062119",
+          -251
+        ],
+        "lower_display": -11.94330346197055,
+        "upper_display": -11.94330346197055
+      }
+    }
+  },
+  "actual_field_unchanged": true,
+  "seconds": 0.46694858399860095,
+  "peak_rss_kib": 86280
+}

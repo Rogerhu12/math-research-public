@@ -1,0 +1,272 @@
+{
+  "scope": "Finite fit of an analytic two-lobe radius under the same three moments.\n\nA positive analytic bump near the long-axis normal supplies the small moment\ncompensation seen in the finite LP. This file fits inputs only: exact moment\ncorrection, continuous bounds and a shared-material provider are not supplied\nby merely reporting a small quadrature residual.\n",
+  "source_sha256": "7d35695c943b63a49cbcdc8c247c992f4fc12b25b8336a3b6f38f0711d8d6cc4",
+  "rows": [
+    {
+      "r": 0.2,
+      "k": 6.0,
+      "lam": 25.0,
+      "D": 2.895392600327483,
+      "c": -0.6353326904021673,
+      "C": 0.11326592166445275,
+      "solver_success": true,
+      "maximum_moment_residual": 8.881784197001252e-16,
+      "rho_min_sample": 0.20000331377862374,
+      "rho_max_sample": 3.059433894133153,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.095392600329056,
+      "curvature_min_sample": 0.32685785495075576,
+      "curvature_max_sample": 4.999917156907025,
+      "finite_n_fourier_tail_l1": {
+        "95": 5.70906405582171e-06,
+        "127": 6.530709269479554e-08,
+        "191": 8.374421982086347e-12,
+        "255": 7.741893997709558e-14
+      }
+    },
+    {
+      "r": 0.2,
+      "k": 6.0,
+      "lam": 50.0,
+      "D": 2.8918962391304577,
+      "c": -0.6343379328524141,
+      "C": 0.1551012315751955,
+      "solver_success": true,
+      "maximum_moment_residual": 3.9968028886505635e-15,
+      "rho_min_sample": 0.20000036289909529,
+      "rho_max_sample": 3.056401899774768,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.091896239130458,
+      "curvature_min_sample": 0.32718210261343306,
+      "curvature_max_sample": 4.99999092753908,
+      "finite_n_fourier_tail_l1": {
+        "95": 1.5346523527802054e-05,
+        "127": 1.525709071453236e-07,
+        "191": 3.4493113853049706e-11,
+        "255": 9.740750155161345e-14
+      }
+    },
+    {
+      "r": 0.2,
+      "k": 6.0,
+      "lam": 100.0,
+      "D": 2.8894625675308405,
+      "c": -0.6336496803616837,
+      "C": 0.21441200629849824,
+      "solver_success": true,
+      "maximum_moment_residual": 1.3322676295501878e-15,
+      "rho_min_sample": 0.20000007692648739,
+      "rho_max_sample": 3.0542862431747775,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.0894625675308407,
+      "curvature_min_sample": 0.3274087365696773,
+      "curvature_max_sample": 4.999998076838555,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.0008013638485562409,
+        "127": 5.1576551768678384e-05,
+        "191": 1.806830213542639e-07,
+        "255": 4.76687976253719e-10
+      }
+    },
+    {
+      "r": 0.2,
+      "k": 8.0,
+      "lam": 25.0,
+      "D": 2.815482088169124,
+      "c": -0.6244934595924917,
+      "C": 0.1220960960463995,
+      "solver_success": true,
+      "maximum_moment_residual": 4.440892098500626e-16,
+      "rho_min_sample": 0.20000021143613086,
+      "rho_max_sample": 3.0085765176320987,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.0154820881708195,
+      "curvature_min_sample": 0.3323831034841189,
+      "curvature_max_sample": 4.999994714102317,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.00010803984294262964,
+        "127": 3.757029919891822e-06,
+        "191": 3.2636246282403607e-09,
+        "255": 3.499544194276069e-12
+      }
+    },
+    {
+      "r": 0.2,
+      "k": 8.0,
+      "lam": 50.0,
+      "D": 2.812360098853427,
+      "c": -0.6234743354292956,
+      "C": 0.16719973440227212,
+      "solver_success": true,
+      "maximum_moment_residual": 6.661338147750939e-16,
+      "rho_min_sample": 0.20000000701752058,
+      "rho_max_sample": 3.005573481656611,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.0123600988534274,
+      "curvature_min_sample": 0.3327152059675548,
+      "curvature_max_sample": 4.999999824561992,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.00010326542490034217,
+        "127": 3.75073417916294e-06,
+        "191": 3.2252638533350306e-09,
+        "255": 3.5848518583151235e-12
+      }
+    },
+    {
+      "r": 0.2,
+      "k": 8.0,
+      "lam": 100.0,
+      "D": 2.8101819165692614,
+      "c": -0.6227689603849612,
+      "C": 0.23114319865994432,
+      "solver_success": true,
+      "maximum_moment_residual": 2.220446049250313e-16,
+      "rho_min_sample": 0.2000000005656233,
+      "rho_max_sample": 3.003476478216865,
+      "elementary_raw_lower_bound": 0.2,
+      "elementary_raw_upper_bound": 3.0101819165692616,
+      "curvature_min_sample": 0.332947505083739,
+      "curvature_max_sample": 4.999999985859417,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.0008749951826856699,
+        "127": 5.675458995085961e-05,
+        "191": 2.311390536212366e-07,
+        "255": 7.712108155828427e-10
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 6.0,
+      "lam": 25.0,
+      "D": 2.9159710754491703,
+      "c": -0.6481655554401442,
+      "C": 0.05135356086371695,
+      "solver_success": true,
+      "maximum_moment_residual": 2.220446049250313e-16,
+      "rho_min_sample": 0.2160023217312199,
+      "rho_max_sample": 3.0898148526420917,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.1319710754498837,
+      "curvature_min_sample": 0.32364398764699537,
+      "curvature_max_sample": 4.629579867406884,
+      "finite_n_fourier_tail_l1": {
+        "95": 5.206333241577033e-06,
+        "127": 5.869675816867819e-08,
+        "191": 5.8518869903781785e-12,
+        "255": 6.58440893935175e-14
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 6.0,
+      "lam": 50.0,
+      "D": 2.9142776629842535,
+      "c": -0.6477112317872161,
+      "C": 0.07033575741219589,
+      "solver_success": true,
+      "maximum_moment_residual": 1.3322676295501878e-15,
+      "rho_min_sample": 0.216000275297098,
+      "rho_max_sample": 3.0883717002567557,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.1302776629842537,
+      "curvature_min_sample": 0.3237952219018403,
+      "curvature_max_sample": 4.629623729064919,
+      "finite_n_fourier_tail_l1": {
+        "95": 5.230082213051833e-06,
+        "127": 6.133103167804719e-08,
+        "191": 5.8063119992189566e-12,
+        "255": 7.247006429136254e-14
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 6.0,
+      "lam": 100.0,
+      "D": 2.9130967769375777,
+      "c": -0.6473968619046578,
+      "C": 0.09724655401500461,
+      "solver_success": true,
+      "maximum_moment_residual": 2.220446049250313e-16,
+      "rho_min_sample": 0.21600006143915965,
+      "rho_max_sample": 3.0873632611162365,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.129096776937578,
+      "curvature_min_sample": 0.3239009845697425,
+      "curvature_max_sample": 4.629628312775588,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.00015845135057560735,
+        "127": 3.915871389269968e-06,
+        "191": 1.2999741927549566e-08,
+        "255": 1.4665920305446693e-11
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 8.0,
+      "lam": 25.0,
+      "D": 2.8285755241917085,
+      "c": -0.636660714060237,
+      "C": 0.060043158349938945,
+      "solver_success": true,
+      "maximum_moment_residual": 4.440892098500626e-16,
+      "rho_min_sample": 0.2160001427488698,
+      "rho_max_sample": 3.036151250848031,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.0445755241925427,
+      "curvature_min_sample": 0.32936435552105275,
+      "curvature_max_sample": 4.629626570027961,
+      "finite_n_fourier_tail_l1": {
+        "95": 9.85988710797861e-05,
+        "127": 3.0970379666396132e-06,
+        "191": 2.91710558453487e-09,
+        "255": 2.7155612847250487e-12
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 8.0,
+      "lam": 50.0,
+      "D": 2.8269554777383084,
+      "c": -0.636158116923139,
+      "C": 0.08224091334204162,
+      "solver_success": true,
+      "maximum_moment_residual": 4.440892098500626e-16,
+      "rho_min_sample": 0.21600000508707304,
+      "rho_max_sample": 3.034603264054435,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.0429554777383085,
+      "curvature_min_sample": 0.32953236815013914,
+      "curvature_max_sample": 4.629629520596002,
+      "finite_n_fourier_tail_l1": {
+        "95": 9.921968080923866e-05,
+        "127": 3.114812955587952e-06,
+        "191": 2.9628635837069087e-09,
+        "255": 2.7114832846659544e-12
+      }
+    },
+    {
+      "r": 0.216,
+      "k": 8.0,
+      "lam": 100.0,
+      "D": 2.825823518639246,
+      "c": -0.6358102608119154,
+      "C": 0.11370992120252005,
+      "solver_success": true,
+      "maximum_moment_residual": 1.1102230246251565e-15,
+      "rho_min_sample": 0.2160000004305136,
+      "rho_max_sample": 3.0335208513814056,
+      "elementary_raw_lower_bound": 0.216,
+      "elementary_raw_upper_bound": 3.041823518639246,
+      "curvature_min_sample": 0.32964995099493705,
+      "curvature_max_sample": 4.62962962040223,
+      "finite_n_fourier_tail_l1": {
+        "95": 0.00026067367936530045,
+        "127": 7.242194411478769e-06,
+        "191": 1.7376127925363474e-08,
+        "255": 3.940475678330052e-11
+      }
+    }
+  ],
+  "exact_provider_constructed": false,
+  "interval_bounds_verified": false
+}

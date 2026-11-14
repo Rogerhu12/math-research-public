@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-closed-owned-artifact-manifest-v1",
+  "result": "R170 explicit provider/archive integration",
+  "closed": true,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_problem.py",
+      "bytes": 8554,
+      "sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533"
+    },
+    {
+      "path": "scripts/fd2d_gc_dyadic_tail_archive_native.py",
+      "bytes": 27927,
+      "sha256": "e4a5c9c30aff8bb008dda528da07f6a92b2d6a8f5d1c14487245c63b2e6230e8"
+    },
+    {
+      "path": "scripts/fd2d-dyadic-tail-problem-check.py",
+      "bytes": 8506,
+      "sha256": "25c109f3b64a3c6a168d47a082536281b2d6ffb6d09c6948a44401a0de8512be"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-problem-01-fixture.npz",
+      "bytes": 130359,
+      "sha256": "aa528cb83e06bc21252fd00521a414c6aee733a0c6952a10f99b3413fe74e5d4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-problem-01-native-definition.json",
+      "bytes": 58917,
+      "sha256": "2880bb939fb55fd42591f829b5debaa4094ed4e016684c6e8b97f02a5da1591a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-problem-01-report.json",
+      "bytes": 6492,
+      "sha256": "70dc6800fd194ee0997717e1115192575c82570ab8143e5d9799e2d22fb8ef77"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-dyadic-tail-problem-01-exit-receipt.json",
+      "bytes": 642,
+      "sha256": "3530b72f424d2692093a3d047de241bbfb05f4ac05503aa33fc019c27af25636"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-dyadic-tail-provider.md",
+      "bytes": 4968,
+      "sha256": "6a64e257ddeb71307fa9401fc157f44875d605ff7de87d9fe72a858faf5ae25e"
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 246365,
+  "maximum_file_bytes": 130359,
+  "observed_process_exit": 0,
+  "session_id": 73984,
+  "scope": "A genuine selected-domain provider, explicit scaled tail QP rows, and complete new archive-native decoder; one finite transport/domain/cut check; fixture not solved; current Context/QP/live state unchanged."
+}

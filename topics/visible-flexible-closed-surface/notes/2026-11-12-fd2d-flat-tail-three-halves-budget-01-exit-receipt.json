@@ -1,0 +1,9 @@
+{
+  "schema": "fd2d-observed-exit-receipt-v1",
+  "command": "python scripts/fd2d_flat_tail_three_halves_budget.py --out notes/2026-11-12-fd2d-flat-tail-three-halves-budget-01-report.json",
+  "execution_chunk": "a09026",
+  "observed_exit_code": 0,
+  "reported_internal_seconds": 0.0020484409978962503,
+  "scope": "One exact rational budget evaluation; no F/J, body, BVP, mesh or parameter mutation.",
+  "preceding_transport_interruption": "Four initial read-only CreateProcess calls rejected with exec-server transport disconnected; subsequent pwd and all required reads succeeded. No file loss or process execution inferred from the rejected calls."
+}

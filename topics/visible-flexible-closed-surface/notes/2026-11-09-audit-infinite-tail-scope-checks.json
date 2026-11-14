@@ -1,0 +1,117 @@
+{
+  "status": "PASS; only ideal algebra and one failed sufficient depth gate",
+  "r20_blob": "6c4a7c974386a864749b2c72b2e9cc7a922947d8",
+  "source": {
+    "delta0": "3/500",
+    "n": 160
+  },
+  "M160_strict_lower": 102563840,
+  "delta160_to_minus_one_sixteenth_strict_upper": 1536,
+  "ideal_mode3_blocks": [
+    {
+      "j": 1,
+      "m": 3,
+      "nu": "6",
+      "large_eigenvalue_lower_squared": "18",
+      "large_eigenvalue_upper_squared": "160655625/8388608",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 2,
+      "m": 6,
+      "nu": "105",
+      "large_eigenvalue_lower_squared": "11025/16",
+      "large_eigenvalue_upper_squared": "196803140625/268435456",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 3,
+      "m": 9,
+      "nu": "540",
+      "large_eigenvalue_lower_squared": "18225/8",
+      "large_eigenvalue_upper_squared": "325327640625/134217728",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 4,
+      "m": 12,
+      "nu": "1716",
+      "large_eigenvalue_lower_squared": "184041/64",
+      "large_eigenvalue_upper_squared": "3285246875625/1073741824",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 5,
+      "m": 15,
+      "nu": "4200",
+      "large_eigenvalue_lower_squared": "275625/128",
+      "large_eigenvalue_upper_squared": "4920078515625/2147483648",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 6,
+      "m": 18,
+      "nu": "8721",
+      "large_eigenvalue_lower_squared": "76055841/65536",
+      "large_eigenvalue_upper_squared": "1357644296750625/1099511627776",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 7,
+      "m": 21,
+      "nu": "16170",
+      "large_eigenvalue_lower_squared": "65367225/131072",
+      "large_eigenvalue_upper_squared": "1166845820765625/2199023255552",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 8,
+      "m": 24,
+      "nu": "27600",
+      "large_eigenvalue_lower_squared": "2975625/16384",
+      "large_eigenvalue_upper_squared": "53116766015625/274877906944",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 9,
+      "m": 27,
+      "nu": "44226",
+      "large_eigenvalue_lower_squared": "488984769/8388608",
+      "large_eigenvalue_upper_squared": "8728683742130625/140737488355328",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 10,
+      "m": 30,
+      "nu": "67425",
+      "large_eigenvalue_lower_squared": "4546130625/268435456",
+      "large_eigenvalue_upper_squared": "81151272987890625/4503599627370496",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 11,
+      "m": 33,
+      "nu": "98736",
+      "large_eigenvalue_lower_squared": "38081241/8388608",
+      "large_eigenvalue_upper_squared": "679773952625625/140737488355328",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 12,
+      "m": 36,
+      "nu": "139860",
+      "large_eigenvalue_lower_squared": "1222551225/1073741824",
+      "large_eigenvalue_upper_squared": "21823303460765625/18014398509481984",
+      "ideal_type": "one unstable direction"
+    },
+    {
+      "j": 13,
+      "m": 39,
+      "nu": "192660",
+      "large_eigenvalue_lower_squared": "2319867225/8589934592",
+      "large_eigenvalue_upper_squared": "41411079883265625/144115188075855872",
+      "ideal_type": "both stable"
+    }
+  ],
+  "not_claimed": "An exact nonlinear threefold tail, a sufficient start N, or a finite-cut DN."
+}

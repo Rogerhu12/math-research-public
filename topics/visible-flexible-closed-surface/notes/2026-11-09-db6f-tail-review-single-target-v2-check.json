@@ -1,0 +1,79 @@
+{
+  "status": "PASS_STATIC_RUNNER_V2_AND_REAL_PREPARED_INPUT_METADATA",
+  "checker": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-single-target-v2-check.py",
+    "sha256": "16c33f69ebced52aad5bab4b889f60f285a833e808fb39b14b8db845408f07ee",
+    "bytes": 8917
+  },
+  "inputs": {
+    "runner_v1": {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-single-audited-target.py",
+      "sha256": "e0c4792dc081bcd4c2082064f853d1b8a06e7ca03dba68742d3f066631cd43c7",
+      "bytes": 16669
+    },
+    "runner_v2": {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-single-audited-target-v2.py",
+      "sha256": "173d03b8c02107349275ad58509cd24d09963c6e26a09e17458507db1e20c7c5",
+      "bytes": 17265
+    },
+    "method_v2": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-single-audited-target-method-v2.md",
+      "sha256": "6d52c8841c7d55ccc5fc12a5f746ec727c9f4c390eabf1f6bed355c309418197",
+      "bytes": 9255
+    },
+    "authority": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-launch.json",
+      "sha256": "b2e7371a89906a5f1048077eb2040fef8f2c0a58a136ef3812ab6cbc36b5310e",
+      "bytes": 22355
+    },
+    "authority_bindings": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-input-bindings.json",
+      "sha256": "aa692dcd64d4b7c56235180babf074a3efe92c95ddbedc3e880d9657fd4996a4",
+      "bytes": 3779
+    },
+    "warm": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-s1-from-call9-input.json.gz",
+      "sha256": "c6a4c0e504802885f358c340c1a23a34355476ee4d241e3ea6b14069b2b4f927",
+      "bytes": 270624
+    },
+    "config": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-harmonic-s1-from-call9-config.json",
+      "sha256": "6f1398220b3317c3e481b43950eea7b81d6de301a7047069e26821d83db22ac3",
+      "bytes": 3000
+    }
+  },
+  "v1_v2_main_ast_identical": true,
+  "single_port_solve_call_count": 1,
+  "single_call_goal_copy_jacobian_true_audit_true": true,
+  "authority_bindings_rehashed": 66,
+  "prepared_seed_bindings_rehashed": 77,
+  "typed_nonio_configuration_equal": true,
+  "typed_nonrun_parameter_signature_equal": true,
+  "exact_parameter_differences": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "maxIterations",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "reference_maxIterations": 32,
+  "actual_configuration_maxIterations": 36,
+  "actual_warm_state_shape": [
+    865,
+    30
+  ],
+  "actual_warm_raw_shape": [
+    13,
+    30
+  ],
+  "typed_raw_state_extraction_equal": true,
+  "typed_goal_equal": true,
+  "wrapper_or_prepare_function_called": false,
+  "solver_client_module_imported": false,
+  "root_flow_solver_backend_calls": 0,
+  "new_candidate_or_positive_response_created": false,
+  "actual_future_response_validated": false,
+  "independence_scope": "The reviewer authored the prepared warm. This checker supplies independent review of the other author's wrapper and actual interface compatibility only; the warm construction itself has a separate peer review.",
+  "README_complete": false
+}

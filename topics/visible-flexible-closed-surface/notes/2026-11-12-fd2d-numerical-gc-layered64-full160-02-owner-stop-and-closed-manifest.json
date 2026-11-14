@@ -1,0 +1,58 @@
+{
+  "session_id": 78644,
+  "launch_chunk": "de6b10",
+  "owner_stop_chunk": "744a0f",
+  "actual_tool_exit_code": 130,
+  "observed_utc": "2026-11-12T08:27:47.986538+00:00",
+  "reason": "Owner interruption after retaining full accepted2 and iteration3; actual local stage shows geometric raw physical slope conversion loses a ~1e-278 canonical correction. Continue same Q/L curve directly in normalized L.",
+  "worker_natural_exit_not_inferred": true,
+  "latest_accepted_norm": 0.0016237283781452912,
+  "converged": false,
+  "closed_output_files": {
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-heartbeat.jsonl": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-02-heartbeat.jsonl",
+      "bytes": 25785,
+      "sha256": "c59326983a2257b296d3188c8458af6f2e2a0f5683d54c65e46fd63d14396d6b"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-ready.json": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-02-ready.json",
+      "bytes": 26983,
+      "sha256": "75e223dc98ed0b8024388682113475d2904ea71b05335b9b28738075407e83d8"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-runtime.json": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-02-runtime.json",
+      "bytes": 331,
+      "sha256": "187bc9f2335d6476cf39dfa40d8f53df97aea739b995423792d19831c1d0963f"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-stderr.txt": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-02-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-actual-last-iteration-accepted.json.gz": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/actual-last-iteration-accepted.json.gz",
+      "bytes": 120577,
+      "sha256": "d5a6f1157ddf1c4ad5ae60e6f9ef0d8f530a9d31effd08de58c8f6218a68c854"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-actual-last-iteration-request-0001-initial.json.gz": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/actual-last-iteration-request-0001-initial.json.gz",
+      "bytes": 32881,
+      "sha256": "c1bc7769e12354d40af1b0192f8e4f6ca830100f42c2e67e7fdb01597f9babc1"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-actual-last-iteration.json.gz": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/actual-last-iteration.json.gz",
+      "bytes": 120811,
+      "sha256": "3b5f5c9e4042b9b418fca8f2741e121e5e130fd8a5f8760b95a3883e544a1336"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-actual-trial-diagnostics.jsonl": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/actual-trial-diagnostics.jsonl",
+      "bytes": 845,
+      "sha256": "8e3478c53130dc4e3b8a6b1c7bfe8877d13177da072809c2780dd25afd4f9946"
+    },
+    "2026-11-12-fd2d-numerical-gc-layered64-full160-02-actual-worker-trace.jsonl": {
+      "source": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-02/outputs/actual-worker-trace.jsonl",
+      "bytes": 581857,
+      "sha256": "8511cbb052bb315751ce589ce8daef4d8902173afa3a9797694f73f3a61505b5"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "fd2d-actual-bump-cell-full-residual-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-bump-cell-residual-screen.py",
+      "bytes": 11099,
+      "sha256": "6a57ec440f903f736d7f81bd521d995c8a45eacfb0e211715ac4124e796a791f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-cell-residual-screen.md",
+      "bytes": 6419,
+      "sha256": "03433db02d28a8b5bfb3c109ad0e4c8362b111927f1274fe8c4f984d9ce62a81"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-cell-statistics.npz",
+      "bytes": 89981,
+      "sha256": "ee293ed80af474ac95f697263b09e8cfa034c2a79149c708a8acc5016c0ecc21"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-definition.json",
+      "bytes": 14317,
+      "sha256": "ae70ae8b602b985905969b8a5f21b4ac0334c5df9288b9b1a74d2d28421e26f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-exit-receipt.json",
+      "bytes": 789,
+      "sha256": "9d5f4e9a19bfec8a95fb749a59a9434557607acfea5aa4b8d790c58cc2941adb"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-localized-analysis.json",
+      "bytes": 9228,
+      "sha256": "b8829257dda4af753d3fb5f6bcae80d092c9c664bd2cd278a60be031e5186d0a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-progress.jsonl",
+      "bytes": 15732,
+      "sha256": "8101bd49faa39fe9956be4651dc20c98d05f7a5c85272aaf556872a257e5ef6c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-report.json",
+      "bytes": 9432,
+      "sha256": "59ec738e29ce8c0009bb040c38b7b9d69f135948d8b338124bc116d68df5064a"
+    }
+  ],
+  "actual_execution": {
+    "session_id": 45799,
+    "chunk_id": "6546da",
+    "exit_code": 0
+  },
+  "field_sha256": "2bf2d98aaa6c57752a78aeabf96a4d5541528c998b669b59fc139556203f1a22",
+  "scope": "Finite P1 radial/angle diagnostic only; original failed state unchanged",
+  "body_integration_run": false,
+  "continuous_certificate": false
+}

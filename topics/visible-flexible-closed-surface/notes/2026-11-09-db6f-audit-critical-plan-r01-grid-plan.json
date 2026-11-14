@@ -1,0 +1,2071 @@
+{
+  "status": "numerical-grid-proposal-only",
+  "input": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+  "inputSHA256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2",
+  "scriptSHA256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+  "physicalStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "settings": {
+    "depth": 8,
+    "steps": 64,
+    "grid": "critical",
+    "criticalRatio": 0.1,
+    "criticalBaseSteps": 64,
+    "criticalCells": [
+      0
+    ]
+  },
+  "gridPlan": [
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 1,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 2,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 3,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 4,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 5,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 6,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 8,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 9,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 10,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 11,
+      "rawCell": 0,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 12,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 13,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 14,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 161,
+      "layers": [
+        {
+          "x": 0.7015162318838541,
+          "r": 0.52093744282803,
+          "widthScale": 0.0038668845638663045,
+          "radialSpeed": 0.00021736298269503038,
+          "sourceWxDerivative": -0.3386762310871247,
+          "differenceStep": 0.00001
+        }
+      ]
+    },
+    {
+      "stage": 15,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 16,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 17,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 18,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 19,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 20,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 21,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 22,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 23,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 24,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 25,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 26,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 27,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 28,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 29,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 30,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 31,
+      "rawCell": 0,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 32,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 33,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 34,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 35,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 36,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 37,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 38,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 39,
+      "rawCell": 1,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 40,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 41,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 42,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 43,
+      "rawCell": 1,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 44,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 45,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 46,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 47,
+      "rawCell": 1,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 48,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 49,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 50,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 51,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 52,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 53,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 54,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 55,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 56,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 57,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 58,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 59,
+      "rawCell": 1,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 60,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 61,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 62,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 63,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 64,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 65,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 66,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 67,
+      "rawCell": 1,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 68,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 69,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 70,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 71,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 72,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 73,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 74,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 75,
+      "rawCell": 2,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 76,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 77,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 78,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 79,
+      "rawCell": 2,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 80,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 81,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 82,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 83,
+      "rawCell": 2,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 84,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 85,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 86,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 87,
+      "rawCell": 2,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 88,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 89,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 90,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 91,
+      "rawCell": 2,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 92,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 93,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 94,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 95,
+      "rawCell": 2,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 96,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 97,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 98,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 99,
+      "rawCell": 2,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 100,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 101,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 102,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 103,
+      "rawCell": 2,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 104,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 105,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 106,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 107,
+      "rawCell": 2,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 108,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 109,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 110,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 111,
+      "rawCell": 3,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 112,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 113,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 114,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 115,
+      "rawCell": 3,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 116,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 117,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 118,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 119,
+      "rawCell": 3,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 120,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 121,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 122,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 123,
+      "rawCell": 3,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 124,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 125,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 126,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 127,
+      "rawCell": 3,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 128,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 129,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 130,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 131,
+      "rawCell": 3,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 132,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 133,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 134,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 135,
+      "rawCell": 3,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 136,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 137,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 138,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 139,
+      "rawCell": 3,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 140,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 141,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 142,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 143,
+      "rawCell": 3,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 144,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 145,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 146,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 147,
+      "rawCell": 4,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 148,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 149,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 150,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 151,
+      "rawCell": 4,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 152,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 153,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 154,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 155,
+      "rawCell": 4,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 156,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 157,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 158,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 159,
+      "rawCell": 4,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 160,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 161,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 162,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 163,
+      "rawCell": 4,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 164,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 165,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 166,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 167,
+      "rawCell": 4,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 168,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 169,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 170,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 171,
+      "rawCell": 4,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 172,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 173,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 174,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 175,
+      "rawCell": 4,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 176,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 177,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 178,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 179,
+      "rawCell": 4,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 180,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 181,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 182,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 183,
+      "rawCell": 5,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 184,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 185,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 186,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 187,
+      "rawCell": 5,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 188,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 189,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 190,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 191,
+      "rawCell": 5,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 192,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 193,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 194,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 195,
+      "rawCell": 5,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 196,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 197,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 198,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 199,
+      "rawCell": 5,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 200,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 201,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 202,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 203,
+      "rawCell": 5,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 204,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 205,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 206,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 207,
+      "rawCell": 5,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 208,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 209,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 210,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 211,
+      "rawCell": 5,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 212,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 213,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 214,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 215,
+      "rawCell": 5,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 216,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 217,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 218,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 219,
+      "rawCell": 6,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 220,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 221,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 222,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 223,
+      "rawCell": 6,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 224,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 225,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 226,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 227,
+      "rawCell": 6,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 228,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 229,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 230,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 231,
+      "rawCell": 6,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 232,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 233,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 234,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 235,
+      "rawCell": 6,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 236,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 237,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 238,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 239,
+      "rawCell": 6,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 240,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 241,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 242,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 243,
+      "rawCell": 6,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 244,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 245,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 246,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 247,
+      "rawCell": 6,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 248,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 249,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 250,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 251,
+      "rawCell": 6,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 252,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 253,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 254,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 255,
+      "rawCell": 7,
+      "rawSegment": 8,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 256,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 257,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 258,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 259,
+      "rawCell": 7,
+      "rawSegment": 7,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 260,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 261,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 262,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 263,
+      "rawCell": 7,
+      "rawSegment": 6,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 264,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 265,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 266,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 267,
+      "rawCell": 7,
+      "rawSegment": 5,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 268,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 269,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 270,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 271,
+      "rawCell": 7,
+      "rawSegment": 4,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 272,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 273,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 274,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 275,
+      "rawCell": 7,
+      "rawSegment": 3,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 276,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 277,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 278,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 279,
+      "rawCell": 7,
+      "rawSegment": 2,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 280,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 281,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 282,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 283,
+      "rawCell": 7,
+      "rawSegment": 1,
+      "nodes": 66,
+      "layers": []
+    },
+    {
+      "stage": 284,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 285,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 286,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    },
+    {
+      "stage": 287,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "nodes": 65,
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{"event": "checkpointed_value_nodes_complete", "seconds": 3.335975378002331, "node_count": 131, "reused": 0, "evaluated": 131}
+{"event": "checkpointed_value_cell_prefix", "seconds": 4.340728207003849, "block_count": 8, "completed_cells": 16, "reused": 0, "evaluated": 139}
+{"event": "checkpointed_value_cell_prefix", "seconds": 5.034527080999396, "block_count": 16, "completed_cells": 32, "reused": 0, "evaluated": 147}
+{"event": "checkpointed_value_cell_prefix", "seconds": 5.705886903000646, "block_count": 24, "completed_cells": 48, "reused": 0, "evaluated": 155}
+{"event": "checkpointed_value_cell_prefix", "seconds": 6.611843878003128, "block_count": 32, "completed_cells": 64, "reused": 0, "evaluated": 163}
+{"event": "checkpointed_value_cell_prefix", "seconds": 8.869791049000924, "block_count": 40, "completed_cells": 80, "reused": 0, "evaluated": 171}
+{"event": "checkpointed_value_cell_prefix", "seconds": 9.614793205000751, "block_count": 48, "completed_cells": 96, "reused": 0, "evaluated": 179}
+{"event": "checkpointed_value_cell_prefix", "seconds": 10.334994128999824, "block_count": 56, "completed_cells": 112, "reused": 0, "evaluated": 187}
+{"event": "checkpointed_value_cell_prefix", "seconds": 11.211824160003744, "block_count": 64, "completed_cells": 128, "reused": 0, "evaluated": 195}
+{"event": "checkpointed_actual_grouped_value_evaluation_complete", "seconds": 11.577747931005433, "number": 1, "evaluation_seconds": 10.917828616999032, "reused": 0, "evaluated": 197, "grouped_coast_cells": 14, "actual_fine_diagnostic_Gauss": 1.0316658978119506}
+{"event": "actual_accepted_state_saved", "seconds": 11.617469642005744, "checkpoint": {"path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic34-trial-damped-back01-a01-accepted.npz", "bytes": 133721, "sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f"}, "alpha": 0.5, "objective_norm": 3.3585306931843513}
+{"event": "actual_trial_durably_closed", "seconds": 11.950757186001283, "direction_id": "lambda1e3-dyadic-floor01-a01", "backtracking_index": 1, "alpha": 0.5, "accepted": true, "actual_full_residual_evaluated": true, "actual_cost": 5.63986420853068, "baseline_cost": 5.7576693117837845, "armijo_threshold": 5.757654539864932, "result": "notes/2026-11-12-fd2d-raw-bump-dyadic34-work/trials/lambda1e3-dyadic-floor01-a01/back-01.json"}

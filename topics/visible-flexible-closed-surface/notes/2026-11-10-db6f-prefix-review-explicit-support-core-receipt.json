@@ -1,0 +1,224 @@
+{
+  "schema": "db6f-prefix-independent-support-core-review-execution-v1",
+  "reviewer": "/root/coupled_prefix",
+  "review_status": "PASS_FULL_PROOF_WITH_NONBLOCKING_ZERO_CHORD_CLARIFICATION",
+  "scope": "Exact bordered annulus only. No closed-surface/G5 conclusion, new solve or optimized research data.",
+  "sources": [
+    {
+      "role": "author full draft; all 13 sections reviewed",
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v1.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "823c3b7ecb90201ba9718dc1865a12ce83fb0046",
+      "bytes": 23092,
+      "sha256": "b4b5c9d5154c9bcb09f4c077ca14d6ac05064ffb61e6b75f6017ce28c6f475fc"
+    },
+    {
+      "role": "reviewed increasing-Q theorem; complete text read for application",
+      "path": "topics/visible-flexible-closed-surface/results/R50-increasing-q-smooth-flat-entry.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "778a8536fc07f73eb96f25336da0a80fc5f6fa40",
+      "bytes": 16151,
+      "sha256": "0742d61fac71e010ed60ef5e95486c668bdd8da82cacae02d3eea9abc0e3bb6a"
+    },
+    {
+      "role": "reviewed decreasing-Q theorem; complete text read for application",
+      "path": "topics/visible-flexible-closed-surface/results/R48-monotone-flat-collar-smooth-data.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "b3195ce6a2fe0108638c1f4ccc4be8a84d009f6c",
+      "bytes": 18887,
+      "sha256": "a625a205ea831a802f78566b09cdd6a13acd06b76a4659b6391382ad9f886f3a"
+    },
+    {
+      "role": "original goal and exact whole-image delta definitions",
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "099f451b142e184c223d2d0764887d99bd492db5",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    }
+  ],
+  "appendix_replay": {
+    "scope": "Independent exact BigInt replay of the frozen appendix only; full geometric proof reviewed separately.",
+    "source": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-v1.md",
+      "commit": "747186528fa80bb233d837b1685c84174dc02db3",
+      "blob": "823c3b7ecb90201ba9718dc1865a12ce83fb0046",
+      "bytes": 23092,
+      "sha256": "b4b5c9d5154c9bcb09f4c077ca14d6ac05064ffb61e6b75f6017ce28c6f475fc"
+    },
+    "expression": {
+      "bytes": 2577,
+      "sha256": "89177bfdeeff086902af009e32144960d121f2fee52358ded2753e9bd01369b0",
+      "unique_javascript_fence": true
+    },
+    "started_utc": "2026-11-10 00:13:58 UTC",
+    "finished_utc": "2026-11-10 00:13:58 UTC",
+    "result": {
+      "kind": "exact BigInt rational gates only",
+      "count": 18,
+      "rows": [
+        {
+          "name": "support derivative bound",
+          "left": "75/16",
+          "right": "75/16",
+          "result": "PASS"
+        },
+        {
+          "name": "curvature radius margin",
+          "left": "3/4",
+          "right": "3/4",
+          "result": "PASS"
+        },
+        {
+          "name": "fixed grip inside zero window",
+          "left": "3/10",
+          "right": "48/125",
+          "result": "PASS"
+        },
+        {
+          "name": "periodic saturation before pi",
+          "left": "252/125",
+          "right": "3/1",
+          "result": "PASS"
+        },
+        {
+          "name": "positive support witness",
+          "left": "4/5",
+          "right": "4126248288053/5120000000000",
+          "result": "PASS"
+        },
+        {
+          "name": "positive C margin",
+          "left": "1/2",
+          "right": "399993/700000",
+          "result": "PASS"
+        },
+        {
+          "name": "upper C margin",
+          "left": "400001/100000",
+          "right": "5/1",
+          "result": "PASS"
+        },
+        {
+          "name": "normal radial Hessian",
+          "left": "100001/5000000000",
+          "right": "1/20000",
+          "result": "PASS"
+        },
+        {
+          "name": "mixed Hessian error",
+          "left": "1001/100000000",
+          "right": "1/50000",
+          "result": "PASS"
+        },
+        {
+          "name": "angular Hessian error",
+          "left": "513/50000000",
+          "right": "1/50000",
+          "result": "PASS"
+        },
+        {
+          "name": "full derivative error",
+          "left": "12001/200000000000",
+          "right": "1/1000",
+          "result": "PASS"
+        },
+        {
+          "name": "full directional Hessian",
+          "left": "7/100000",
+          "right": "1/1000",
+          "result": "PASS"
+        },
+        {
+          "name": "perturbed reach",
+          "left": "1/8",
+          "right": "978121/6561000",
+          "result": "PASS"
+        },
+        {
+          "name": "whole initial diameter",
+          "left": "1011/500",
+          "right": "51/25",
+          "result": "PASS"
+        },
+        {
+          "name": "held support lower bound",
+          "left": "127/1000",
+          "right": "127/1000",
+          "result": "PASS"
+        },
+        {
+          "name": "held ratio",
+          "left": "3/50",
+          "right": "127/2040",
+          "result": "PASS"
+        },
+        {
+          "name": "grip ratio",
+          "left": "1/4",
+          "right": "197/680",
+          "result": "PASS"
+        },
+        {
+          "name": "reach ratio",
+          "left": "3/100",
+          "right": "25/408",
+          "result": "PASS"
+        }
+      ],
+      "geometry_arrays": false,
+      "pde_solver": false,
+      "terminal_execution": false
+    },
+    "executed_v8": true,
+    "python": false,
+    "terminal_calls": 0,
+    "geometry_arrays": false,
+    "pde_bvp_dn_rk": false,
+    "author_receipt_used_as_independent_evidence": false
+  },
+  "paper_reasoning_completed": [
+    "all sections 1 through 13",
+    "smooth mollified cutoff and rational support witness",
+    "support convexity and common unit-speed material coordinate",
+    "rolling balls and complete one-sided boundary normal cones",
+    "global chord and Hessian bounds",
+    "C2 perturbative reach with fixed-point linear map A",
+    "uniform R50 to R48 data and noncircular common delta choice",
+    "Gauss-Codazzi/frame compatibility and actual periodic position",
+    "explicit C2 derivative budget on whole fixed annulus",
+    "fixed H, entire initial diameter and actual image distance",
+    "all O(3) branches, boundary length identification and positive rigid quotient"
+  ],
+  "clarification": {
+    "equation": "(23)",
+    "statement": "The final strict inequality is for positive material distance. At zero material distance use the weak inequality; all downstream uses require only the weak 1/11 global chord estimate. No constant or conclusion changes.",
+    "blocking": false
+  },
+  "performed": {
+    "terminal_calls": 0,
+    "python": false,
+    "curve_or_mesh_arrays": false,
+    "pde": false,
+    "bvp": false,
+    "dn": false,
+    "rk": false,
+    "actual_v8_exact_rational_execution": true
+  },
+  "parent_author_receipt": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-db6f-root-explicit-support-core-visible-reach-receipt.md",
+    "commit": "4fb6974b0f22167897165cc9f04e9a8d4f725245",
+    "blob": "7c3d7c3ded74520c20731bf333329266ea8254f4",
+    "sha256": "5cd5bd35efba00e462fff3e0a999985307d85eb31543157e42968a3c22e0aee7",
+    "used_as_independent_execution": false
+  },
+  "untouched": [
+    "author draft",
+    "all prior source files",
+    "HANDOFF",
+    "open",
+    "results",
+    "LOG",
+    "QUEUE"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "closed",
+  "scope": "R136/R156 whole round base-delta-zero corollary: exact curvature algebra, full increment/forcing/JVP and fixed positive gap normalization. No new BVP or proof of a noncircular branch.",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "inherited_certificate_sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695",
+  "actual_exit_codes": [
+    0
+  ],
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_round_prefix_curvature_bound.py",
+      "bytes": 8219,
+      "sha256": "46897a520cbbe296118f250bf49d88a6c9fd2b69f040de92ec20fa5ec4c7a46e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-round-prefix-curvature-bound-01.json",
+      "bytes": 9146,
+      "sha256": "4f5e955dd839676af7354c91a136cc8bfe189b83cbae84bb830f55a9ec5ace9c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-round-prefix-curvature-bound-01-exit.json",
+      "bytes": 432,
+      "sha256": "b71e2c524fb5f936491cc920e794bdb6d6981170c70f32720c927253c009f6dd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-and-gap-continuation.md",
+      "bytes": 15246,
+      "sha256": "4cc2c91b80555f5ebaaa1a5b794c94f487ffd41374e477826e28550ab4e66981"
+    }
+  ]
+}

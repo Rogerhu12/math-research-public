@@ -1,0 +1,46 @@
+{
+  "status": "CLOSED",
+  "author": "/root/tail_theory",
+  "date": "2026-11-09",
+  "scope": "Independent full review of frozen Poisson twin-marker v2 and Fraction-only replay; no actual candidate or solver.",
+  "files": [
+    {
+      "path": "scripts/db6f-tail-review-poisson-twin-marker.py",
+      "bytes": 10486,
+      "sha256": "aaf4e4561c7eecfc3b21649f7a3ca31d607c42d741bd07f6fa4f09ae613e2a6c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-check.json",
+      "bytes": 5439,
+      "sha256": "e56a82d3f663792bff6fdf869806684a72859ec77dc5e2539693325f16f87377"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-observed.json",
+      "bytes": 2860,
+      "sha256": "da125ca663ec71ed042000b772f191b58241c34d15835a9131a57a09edeebdfc"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker.md",
+      "bytes": 14976,
+      "sha256": "40da27583d791aab3227e33b94a3f6017695d1b1d264922d6a3dcdb77f19e027"
+    }
+  ],
+  "total_bytes": 40348,
+  "author_dependencies_not_duplicated": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-publication.json",
+      "bytes": 883,
+      "sha256": "4200d61df1457c41c0a337813c00044c25042d5088cb66c1e52492b0d7d7aeb2"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    }
+  ]
+}

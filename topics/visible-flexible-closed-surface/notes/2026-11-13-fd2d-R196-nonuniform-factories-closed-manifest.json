@@ -1,0 +1,68 @@
+{
+  "schema": "fd2d-R196-nonuniform-position-factories-closed-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d-nonuniform-metric-provider-R196.cjs",
+      "git_blob_sha": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+      "exact_readback": true
+    },
+    {
+      "path": "scripts/fd2d-nonuniform-curvature-provider-R196.cjs",
+      "git_blob_sha": "4512b251cd28727b714015b88e68ca8e8411cf08",
+      "exact_readback": true
+    },
+    {
+      "path": "scripts/fd2d-check-nonuniform-position-factories-R196.cjs",
+      "git_blob_sha": "18861d5e039341eb9fee5bc95ae1ed7d2fb59f56",
+      "exact_readback": true
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-nonuniform-factories-check-01.json",
+      "git_blob_sha": "4f57e0bc8bbeba42c936fa317e1338ab8625756e",
+      "exact_readback": true
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R196-nonuniform-factories.md",
+      "git_blob_sha": "43f304aa38b910b01638314b3eb6ebd7e7a1b352",
+      "exact_readback": true
+    }
+  ],
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "elapsed_ms": 684,
+    "completed": true,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null
+  },
+  "input": {
+    "input_path": "notes/2026-11-12-fd2d-direct-position-R191-J27-curvature-weight02-01.json",
+    "input_git_blob_sha": "52f36eb8accb540972bf4c8766db19f41c891008",
+    "old_metric_git_blob": "8c017c1efeca08ed7f2a1cd66f03c6f007488c14",
+    "old_curvature_git_blob": "9322c7d1cc804d6529ab397d030af0e6c23ca2c7",
+    "old_metric_observation_hook": "The local test exposes frozen makeSlice/sliceValues only. No numerical expression or active source is modified."
+  },
+  "API": {
+    "metric": "createR196MetricProvider(engine,bundle,{...options,radialKnots,radialBasisCount},createR196CubicSplines())",
+    "curvature": "createR196CurvatureProvider(engine,metric,curvatureOptions,createR191Algebra())"
+  },
+  "scope": {
+    "complete_geometry_and_parameter_formulas_from_frozen_R190_R191": true,
+    "explicit_nonuniform_knots_required": true,
+    "shared_actual_basis_and_cuts": true,
+    "old_state_layout_preserved": true,
+    "actual_common_point_metric_and_curvature_JVP_check": true,
+    "actual_complete_position_twojet_check": true,
+    "dense_output_only": true,
+    "whole_normal_or_BVP_started": false,
+    "new_accepted_state": false,
+    "continuous_certificate": false
+  },
+  "basis": {
+    "path": "scripts/fd2d-cubic-spline-refinement-R196.cjs",
+    "git_blob_sha": "4afea695a78f2dce85bcbc30242a12bc1b07a687"
+  },
+  "proof": {
+    "path": "results/R196-nonuniform-cubic-basis-and-exact-knot-insertion.md",
+    "git_blob_sha": "42c0470b05643d085fc254a29b8d8d2ef177d1b2"
+  }
+}

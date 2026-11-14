@@ -1,0 +1,24 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-receipt-v1",
+  "utc_start": "2026-11-12T17:45:29.620674+00:00",
+  "utc_end": "2026-11-12T17:45:41.505762+00:00",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/fd2d-metric-partitioned-normal-check-v2.py",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-partitioned-normal-02"
+  ],
+  "returncode": 0,
+  "natural_process_exit_observed": true,
+  "seconds": 11.885113392003404,
+  "console": {
+    "path": "notes/process-observations/2026-11-12-fd2d-metric-partitioned-normal-02-console.txt",
+    "bytes": 237,
+    "sha256": "4e0f2971adab27590f9ddd64438a320f7410c25ba8f1c19cce81b56451a7a564"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

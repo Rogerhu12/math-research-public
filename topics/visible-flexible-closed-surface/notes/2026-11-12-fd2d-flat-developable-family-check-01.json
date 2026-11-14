@@ -1,0 +1,299 @@
+{
+  "schema": "r128-flat-developable-family-check-v1",
+  "source_sha256": "c2d2afb3ed558f50aef20629b323c7bc1475561e5d2c2d8e105260d2b0ebb2eb",
+  "single_parameter_source_sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3",
+  "check_sha256": "7579788c20852f802182fc28b26114232e77e78748df8a419e8bf805c32b8a62",
+  "coefficient_convention": "[A,b0,...,b(K-1)], last Jacobian axis in the same order",
+  "actual_coefficients": [
+    0.8,
+    0.003,
+    -0.0001875,
+    3.7037037037037037e-05,
+    -1.171875e-05,
+    4.8e-06,
+    -2.3148148148148148e-06,
+    1.2494793835901708e-06,
+    -7.32421875e-07,
+    4.5724737082761777e-07,
+    -3e-07,
+    2.0490403660952122e-07,
+    -1.4467592592592592e-07,
+    1.0503833899373271e-07,
+    -7.809246147438567e-08,
+    5.9259259259259263e-08,
+    -4.57763671875e-08,
+    3.5919110163910875e-08,
+    -2.857796067672611e-08,
+    2.3020081184152976e-08,
+    -1.875e-08,
+    1.5425671402347786e-08,
+    -1.2806502288095076e-08,
+    1.0720373354869372e-08,
+    -9.04224537037037e-09,
+    7.68e-09,
+    -6.5648961871082946e-09,
+    5.645029269476762e-09,
+    -4.8807788421491045e-09,
+    4.241595631722046e-09,
+    -3.703703703703704e-09,
+    3.2484372309887917e-09,
+    -2.86102294921875e-09,
+    2.5296794643150766e-09,
+    -2.2449443852444297e-09,
+    1.999167013744273e-09,
+    -1.786122542295382e-09,
+    1.6007162671723507e-09,
+    -1.438755074009561e-09,
+    1.2967696172065768e-09,
+    -1.171875e-09,
+    1.0616609118747128e-09,
+    -9.641044626467367e-10,
+    8.775006208316893e-10,
+    -8.004063930059423e-10,
+    7.315957933241885e-10,
+    -6.700233346793358e-10,
+    6.147942867576795e-10
+  ],
+  "sufficient_bounds": {
+    "absolute_angle_upper": 0.8,
+    "crude_absolute_angle_upper": 0.8032469603723942,
+    "absolute_curvature_upper": 4.3132150710269155,
+    "curvature_nonnegative_sufficient": true,
+    "curvature_nonnegative_sufficient_slack": 0.7728744035083179,
+    "positive_projection_sufficient": true,
+    "projection_lower": 0.6967067093471654,
+    "scope": "analytic sufficient bounds; no condition is enforced by modifying coefficients; support/held budgets require their own actual assumptions"
+  },
+  "independent_chebyshev_check": {
+    "value": 1.3010426069826053e-18,
+    "first": 5.773376568485311e-18,
+    "second": 4.9195673576529764e-17
+  },
+  "zero_bubbles_vs_frozen_single_parameter": {
+    "X": 0.0,
+    "X_r": 0.0,
+    "X_u": 0.0,
+    "X_rr": 0.0,
+    "X_ru": 0.0,
+    "X_uu": 0.0,
+    "X_s": 0.0,
+    "X_ss": 0.0,
+    "X_su": 0.0,
+    "e1": 0.0,
+    "e2": 0.0,
+    "N": 0.0,
+    "l": 4.440892098500626e-16,
+    "m": 0.0,
+    "n": 4.440892098500626e-16,
+    "gc_values": 4.440892098500626e-16
+  },
+  "first_parameter_jacobian_vs_frozen_single_parameter": {
+    "X": 5.551115123125783e-17,
+    "X_r": 0.0,
+    "X_u": 0.0,
+    "X_rr": 0.0,
+    "X_ru": 0.0,
+    "X_uu": 0.0,
+    "X_s": 0.0,
+    "X_ss": 0.0,
+    "X_su": 0.0,
+    "e1": 0.0,
+    "e2": 0.0,
+    "N": 0.0,
+    "l": 4.440892098500626e-16,
+    "m": 4.440892098500626e-16,
+    "n": 4.440892098500626e-16,
+    "gc_values": 4.440892098500626e-16
+  },
+  "physical_GC_checks": {
+    "radial_points": 19,
+    "angular_points": 256,
+    "Rm": 4.440892098500626e-15,
+    "Rn": 4.551914400963142e-15,
+    "Gauss": 1.7763568394002505e-15,
+    "all_columns_Rm": 4.675371201301459e-12,
+    "all_columns_Rn": 6.395772800260602e-12,
+    "all_columns_Gauss": 1.7053025658242404e-13
+  },
+  "actual_twojet_checks": {
+    "metric": 6.661338147750939e-16,
+    "second_form": 4.440892098500626e-16
+  },
+  "fixed_collar": {
+    "X": 1.3877787807814457e-16,
+    "X_s": 3.677613769070831e-16,
+    "X_u": 1.3877787807814457e-16,
+    "X_ss": 0.0,
+    "X_su": 3.677613769070831e-16,
+    "X_uu": 1.3877787807814457e-16
+  },
+  "fixed_collar_parameter_jacobians": {
+    "X": 0.0,
+    "X_s": 0.0,
+    "X_u": 0.0,
+    "X_ss": 0.0,
+    "X_su": 0.0,
+    "X_uu": 0.0
+  },
+  "directional_parameter_checks": [
+    {
+      "step": 0.001,
+      "max_errors": {
+        "X": 1.0124845281622719e-08,
+        "X_r": 1.0052018839523669e-07,
+        "X_u": 3.7164271216028055e-08,
+        "X_rr": 1.112340192843675e-06,
+        "X_ru": 4.2402174571520845e-07,
+        "X_uu": 2.7053528661724613e-07,
+        "X_s": 1.0052018839523669e-07,
+        "X_ss": 1.112340192843675e-06,
+        "X_su": 4.2402174571520845e-07,
+        "e1": 1.0052018839523669e-07,
+        "e2": 5.112882484059611e-08,
+        "N": 9.95508635526221e-08,
+        "l": 5.138112157965224e-13,
+        "m": 4.46753745109163e-13,
+        "n": 4.383160501220118e-13,
+        "gc_values": 1.0052018839523669e-07,
+        "kappa_y": 7.503331289626658e-12,
+        "height_jet": 1.1123404144441906e-06
+      }
+    },
+    {
+      "step": 0.0005,
+      "max_errors": {
+        "X": 2.5312528600940354e-09,
+        "X_r": 2.5130160841158045e-08,
+        "X_u": 9.291011959788875e-09,
+        "X_rr": 2.7808530544959353e-07,
+        "X_ru": 1.0600546573868996e-07,
+        "X_uu": 6.763392423891901e-08,
+        "X_s": 2.5130160841158045e-08,
+        "X_ss": 2.7808530544959353e-07,
+        "X_su": 1.0600546573868996e-07,
+        "e1": 2.5130160841158045e-08,
+        "e2": 1.2782110148101822e-08,
+        "N": 2.488758799046309e-08,
+        "l": 1.5081269566508126e-12,
+        "m": 4.5208281562736374e-13,
+        "n": 2.220446049250313e-13,
+        "gc_values": 2.5130160841158045e-08,
+        "kappa_y": 2.4158453015843406e-11,
+        "height_jet": 2.780848609162945e-07
+      }
+    },
+    {
+      "step": 0.00025,
+      "max_errors": {
+        "X": 6.327714879850177e-10,
+        "X_r": 6.282570685911537e-09,
+        "X_u": 2.323002457060852e-09,
+        "X_rr": 6.952413711402983e-08,
+        "X_ru": 2.6500618588443103e-08,
+        "X_uu": 1.6908167310702993e-08,
+        "X_s": 6.282570685911537e-09,
+        "X_ss": 6.952413711402983e-08,
+        "X_su": 2.6500618588443103e-08,
+        "e1": 6.282570685911537e-09,
+        "e2": 3.1958339308246764e-09,
+        "N": 6.22174134434772e-09,
+        "l": 3.19033688356285e-12,
+        "m": 1.3085088568232095e-12,
+        "n": 1.0049738818906917e-12,
+        "gc_values": 6.282570685911537e-09,
+        "kappa_y": 2.6147972675971687e-11,
+        "height_jet": 6.952413666994062e-08
+      }
+    }
+  ],
+  "kappa_y_spatial_derivative_check": [
+    {
+      "step": 0.0001,
+      "kappa_y": 1.8635126721733286e-05,
+      "kappa_y_jacobian": 2.613529915928666
+    },
+    {
+      "step": 5e-05,
+      "kappa_y": 4.6588021760385345e-06,
+      "kappa_y_jacobian": 0.6533926275005797
+    },
+    {
+      "step": 2.5e-05,
+      "kappa_y": 1.1647127138303404e-06,
+      "kappa_y_jacobian": 0.1633486910504871
+    }
+  ],
+  "nonconvex_case": {
+    "coefficients": [
+      0.5,
+      0.2
+    ],
+    "bounds": {
+      "absolute_angle_upper": 0.7,
+      "crude_absolute_angle_upper": 0.7,
+      "absolute_curvature_upper": 4.484483012956447,
+      "curvature_nonnegative_sufficient": false,
+      "curvature_nonnegative_sufficient_slack": -1.1253968253968254,
+      "positive_projection_sufficient": true,
+      "projection_lower": 0.7648421872844885,
+      "scope": "analytic sufficient bounds; no condition is enforced by modifying coefficients; support/held budgets require their own actual assumptions"
+    },
+    "sampled_kappa_min": -0.5294119335761328,
+    "sampled_kappa_max": 3.7624606448337974,
+    "metric": 2.220446049250313e-16
+  },
+  "quadrature_refinement": [
+    {
+      "order": 48,
+      "reference_order": 192,
+      "errors": {
+        "X": 2.220446049250313e-16,
+        "Z": 2.498001805406602e-16,
+        "X_jacobian": 1.832458426594095e-12,
+        "Z_jacobian": 5.801031389531864e-13
+      }
+    },
+    {
+      "order": 64,
+      "reference_order": 192,
+      "errors": {
+        "X": 3.3306690738754696e-16,
+        "Z": 4.0245584642661925e-16,
+        "X_jacobian": 8.326672684688674e-16,
+        "Z_jacobian": 1.970645868709653e-15
+      }
+    },
+    {
+      "order": 96,
+      "reference_order": 192,
+      "errors": {
+        "X": 4.440892098500626e-16,
+        "Z": 4.996003610813204e-16,
+        "X_jacobian": 9.298117831235686e-16,
+        "Z_jacobian": 2.248201624865942e-15
+      }
+    },
+    {
+      "order": 128,
+      "reference_order": 192,
+      "errors": {
+        "X": 3.3306690738754696e-16,
+        "Z": 3.3306690738754696e-16,
+        "X_jacobian": 8.326672684688674e-16,
+        "Z_jacobian": 8.049116928532385e-16
+      }
+    }
+  ],
+  "shape_only_boundary_timing": {
+    "points": 128,
+    "parameters": 48,
+    "repeats": 20,
+    "median_seconds": 0.0014987965005275328,
+    "maximum_seconds": 0.025506494999717688,
+    "persistent_point_cache": false
+  },
+  "max_rss_KiB": 103768,
+  "elapsed_seconds": 3.544872898999529,
+  "scope": "Actual finite implementation/derivative checks; exact common g and collar follow from R128 and the displayed analytic basis. No new prefix BVP or completed surface is asserted.",
+  "body_completed": true
+}

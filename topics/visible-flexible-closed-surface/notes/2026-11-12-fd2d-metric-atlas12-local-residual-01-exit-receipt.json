@@ -1,0 +1,36 @@
+{
+  "schema": "fd2d-observed-unified-exec-completion-v1",
+  "session_id": 17762,
+  "completion_chunk_id": "e53da0",
+  "exit_code": 1,
+  "actual_process_observation": true,
+  "failed_stage": "Final report JSON encoding after sample NPZ and definition JSON were written",
+  "exception_type": "TypeError",
+  "exception_message": "Object of type longdouble is not JSON serializable",
+  "source": {
+    "path": "scripts/fd2d-metric-atlas-local-residual-screen.py",
+    "bytes": 12246,
+    "sha256": "8f82a80a5c8e218edba36890cdcdeed31494f9c7fd06e4d411d77d341144dc24"
+  },
+  "retained_outputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-samples.npz",
+      "bytes": 180124,
+      "sha256": "4f55fdbf9e7ae21e14bbc6e21b0e7b40bb0c8dc3bd1e9bc7b9373f08de075eea"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-atlas12-local-residual-01-definition.json",
+      "bytes": 36917,
+      "sha256": "dbae09599707e7686ec52afabcf5403e11b1df561b48b2db1a18c32c621d519c"
+    }
+  ],
+  "actual_console_stage": {
+    "name": "whole_Gauss2",
+    "maxima": [
+      2.6030059073655316,
+      1.0891443037435966
+    ]
+  },
+  "original_exit_reinterpreted_as_success": false,
+  "original_elapsed_and_RSS_not_recovered": true
+}

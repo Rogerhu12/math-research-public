@@ -1,0 +1,284 @@
+{
+  "status": "SPARSE_CHECKOUT_PAYLOAD_REMOVED_AND_LOGICAL_PACK_IDENTITIES_PRESERVED",
+  "observer": "/root",
+  "recorded_utc": "2026-11-09T18:27:38.511713+00:00",
+  "actual_tool_observations": [
+    {
+      "receipt": "1a53a7",
+      "tool_exit_code": 1,
+      "git_child_exit_code": 0,
+      "scope": "sparse set succeeded; assertion that all outside-cone files were absent failed before observer write"
+    },
+    {
+      "receipt": "f1556e",
+      "tool_exit_code": 1,
+      "git_child_exit_code": 0,
+      "scope": "reapply succeeded and removed remaining notes/repro; final pack metadata tuple assertion failed; report was written first"
+    }
+  ],
+  "reapply_report_sha256": "93384a66730a9fd707dcdab89df98b8027f975e2e1e34d96ec21b2cca939c1ee",
+  "pack_reference_report_sha256": "3e4fbf47dcad70ef3bd8a80e9350fe002f013b8bd7bd00379f742c21e353474d",
+  "same_pack_names_and_count": 36,
+  "same_idx_bytes_and_sha256_imply_same_indexed_object_sets": true,
+  "same_pack_lengths_and_promisor_partitions": true,
+  "pack_mtime_unchanged_claim": false,
+  "pack_full_payload_rehash_performed": false,
+  "pack_rows": [
+    {
+      "name": "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd",
+      "same_idx_sha256": "e81f0e5a1e25f7fcab2619f6f374864bf94897998ddff0092b51a6ce8cf91894",
+      "same_pack_bytes": 4061484070,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+      "same_idx_sha256": "46f54983d1ce1ee665bafa2bd8b9d551e5868e443c1782d2ef09e98c8d9c59cc",
+      "same_pack_bytes": 1108181319,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5",
+      "same_idx_sha256": "c9f8feb1f8820adb848729948869bfd1614bd9669d5723b2c023b9c88368e03a",
+      "same_pack_bytes": 43924544,
+      "same_partition": "ordinary",
+      "current_pack_mtime_ns": 1794232447634136680
+    },
+    {
+      "name": "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2",
+      "same_idx_sha256": "4b54c3ab3190e0adca769076926c8b54970965171f370a6f630592f177be2ffc",
+      "same_pack_bytes": 17778778,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784683790636
+    },
+    {
+      "name": "pack-086b47066f41671e835ae463c8037acbabedb415",
+      "same_idx_sha256": "9ede549320ffaabb96a9df559aabdc8fd8b2a74b5d900e8587bcfa980a903bbc",
+      "same_pack_bytes": 14276423,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-1ad8b802354908880c6c208e7517fae033ff2a16",
+      "same_idx_sha256": "76a315089e7eda12f00951b2dc9dcc360b23d69987cb8b0fde7d58980816c9b2",
+      "same_pack_bytes": 9253890,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784683790636
+    },
+    {
+      "name": "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4",
+      "same_idx_sha256": "2a2e6456d119a4f572ce6cc411388e2cd57096405d253a5c7b958a9cc3a406ad",
+      "same_pack_bytes": 8708598,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-ca00fd89b7fdb85464c4ccfe4e72b5c8d7435c69",
+      "same_idx_sha256": "79d3919675284dc9988dfc71a092ce1b1752071acc77a612f48b62d34694c440",
+      "same_pack_bytes": 8629706,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784667790847
+    },
+    {
+      "name": "pack-b6acbadd5837c685db5cbd3d301f13ebea56178a",
+      "same_idx_sha256": "ff663a7a58cdcb331f3eada162b30b6de6b664034fe1df9d23b9547aa4987ec2",
+      "same_pack_bytes": 7790592,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-5392032bc3c5631d8f52217ec406bf597a281b0c",
+      "same_idx_sha256": "ad71646192b26e5c5829e9ecdb6f69a90a535b814056bc2078d62efef89d9cf8",
+      "same_pack_bytes": 7525795,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784711790266
+    },
+    {
+      "name": "pack-ed0f40e1ce8e8145d498703f89ed2407fa08a537",
+      "same_idx_sha256": "a438d89149772f3970d2d743395b5248d304dc9ffe87e2ddaf01a36efbc08d11",
+      "same_pack_bytes": 6347282,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784671790794
+    },
+    {
+      "name": "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463",
+      "same_idx_sha256": "21f899c8a22248d576f5f9844e0a70a841ac7df5c0b70b1aaeb53e6b7d26fccc",
+      "same_pack_bytes": 5878719,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784667790847
+    },
+    {
+      "name": "pack-38ca9486ec06789ddfda1072608600aeb79a99ee",
+      "same_idx_sha256": "876392c20ecbdd1ccedf19f9dde5b3410ec86ca1f0da8d9ff07db2d167770134",
+      "same_pack_bytes": 5199269,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784675790741
+    },
+    {
+      "name": "pack-0468344a65599a6c7b7618c31ec7f36f64836345",
+      "same_idx_sha256": "6a17343846c3e33985f66fa45b9c306ac74c00357fc94d7f826be1954caf89ee",
+      "same_pack_bytes": 4203745,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784683790636
+    },
+    {
+      "name": "pack-72360fc142328599fa1559e5b9f3dfcdcb188247",
+      "same_idx_sha256": "f584f169ace33fbf92ed1a5e2ccee7cc6d0d2b983e79577eeac57cb28453f96c",
+      "same_pack_bytes": 2635149,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784679790689
+    },
+    {
+      "name": "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0",
+      "same_idx_sha256": "cebc48b574eff91c393f4d44cc3843d05c3c3a60334f380f39b9769d335fb8ef",
+      "same_pack_bytes": 845485,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794238965200024989
+    },
+    {
+      "name": "pack-54c9604895d20ebd3d60fe9d9246d0fb7832fd4b",
+      "same_idx_sha256": "76c3bd6faac36c72b3567565d6850f0d27de133c1a517dca904eb6a0af8fbaee",
+      "same_pack_bytes": 414447,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794242821598453965
+    },
+    {
+      "name": "pack-3a9e79ab9de92f2b883e7c2d3d2d0fc8505c7aa4",
+      "same_idx_sha256": "69401b9c729b26996f6a5a26348e938f4274f673ff51b5bf3110a4d8b1813c7a",
+      "same_pack_bytes": 409945,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784691790531
+    },
+    {
+      "name": "pack-7eda0e69e2f2aab843873328cf12250e36478139",
+      "same_idx_sha256": "573aabf4d23c9039cdef523d16a08d53046a9654d83bb3f5d45148cd1f34f3c3",
+      "same_pack_bytes": 372243,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794240055713708539
+    },
+    {
+      "name": "pack-272fb272986d6212ef30c01377e464af3d3bb318",
+      "same_idx_sha256": "8cf7b400743a300b0508e05c06a4140fa4887cd03680a49cf4e6999854883655",
+      "same_pack_bytes": 278950,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794237227762870950
+    },
+    {
+      "name": "pack-998c0282ec4b827b60ca8d9fa82eb35eab1d9355",
+      "same_idx_sha256": "21e9f73e2ab02d7be556d8ce48678225a0f65d58ddddb1aef50677b24a52724e",
+      "same_pack_bytes": 259879,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794240067613502937
+    },
+    {
+      "name": "pack-f414c10d61acc2e6542e3acfb6c8c48c86ff98eb",
+      "same_idx_sha256": "24986500c9c34f4275c46e8d9587b7a7718879f07c4498d8295395408d6e102c",
+      "same_pack_bytes": 227105,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794243192656972668
+    },
+    {
+      "name": "pack-10703f1f0055ba6c6792ebf13eeb89c8ec0b83f4",
+      "same_idx_sha256": "b790d230c50ad439202c6f9447dab866f6a72819bd88679dc0ef264690a4f419",
+      "same_pack_bytes": 221864,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784691790531
+    },
+    {
+      "name": "pack-14efc614ecb4a7af7a869bcd80d23880858581fc",
+      "same_idx_sha256": "fb2d58e8d97a8d4c89eef08ea586e8b595999e1c0dfe178d8e3f31b754be74ba",
+      "same_pack_bytes": 181234,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794245364628515415
+    },
+    {
+      "name": "pack-01c7b521e18b1dab97595e67b90754354a10c1c9",
+      "same_idx_sha256": "572d7ed7154e3d28de7118228c35686b48ea653a9416a20c430f35562b78e264",
+      "same_pack_bytes": 118052,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794236942422668325
+    },
+    {
+      "name": "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2",
+      "same_idx_sha256": "ad67b0cff135db4704b37e0abb1208079a22cb0b1946e2135a7f9e5635f40f4c",
+      "same_pack_bytes": 108776,
+      "same_partition": "ordinary",
+      "current_pack_mtime_ns": 1794211848306648811
+    },
+    {
+      "name": "pack-9485b890c8d05aa10e8c0805a9acd91522b8d77a",
+      "same_idx_sha256": "f05b6c7e92d392b6486e9228188be62018f6cfd7fcd035e84699b215cdc4023d",
+      "same_pack_bytes": 108648,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784679790689
+    },
+    {
+      "name": "pack-b5a8f02b9140d4f47e82d935b37cfc24cda3a145",
+      "same_idx_sha256": "1644643ffb668d66a1c31c795e14a0d09f695f8e848f5ac3a4c7403b7eeecc7b",
+      "same_pack_bytes": 103483,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784707790320
+    },
+    {
+      "name": "pack-f42af98f64ef1722e4dd8c1aa59ab803ffb4e039",
+      "same_idx_sha256": "c13a138f16c25625a4be3d641392c735d6cb22fd33de6d7aa65e0ddf5eaab30c",
+      "same_pack_bytes": 94027,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794245353124672475
+    },
+    {
+      "name": "pack-76b715dc869afd97aee5bdc32807aa6364a875ed",
+      "same_idx_sha256": "dfbcbfebcebca35673ccac02fd0935c1caea6664dfa537c428dc17db3bd76340",
+      "same_pack_bytes": 88183,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794236930398826622
+    },
+    {
+      "name": "pack-089c67471bcc7529909e40277a1630cff7888d9d",
+      "same_idx_sha256": "06a2ed38b6d7f64fc3f6bb170ba64a18209c312838a5953f0d04de94602719e5",
+      "same_pack_bytes": 80864,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794245377616340441
+    },
+    {
+      "name": "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5",
+      "same_idx_sha256": "724d06695c54d697aa7979363a44533d15cf9f6e1b48b623572238db68c040ff",
+      "same_pack_bytes": 24196,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794240656853757977
+    },
+    {
+      "name": "pack-9d5ff02d81fbebba0921f7d00bed317375405e74",
+      "same_idx_sha256": "cfef357f80c1bae8c724b133d2ab47566aed1bba924158f1424c7c4cdc605609",
+      "same_pack_bytes": 24113,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794238394239535585
+    },
+    {
+      "name": "pack-82c16ff51d09dcf2bde57da289dd45ec77508bac",
+      "same_idx_sha256": "df6729a3bb788fd78fa64dc372cc477c96ebb6210107bd28d59daa70ce5388bd",
+      "same_pack_bytes": 14604,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794248784695790478
+    },
+    {
+      "name": "pack-55f54db9ee6a47173994f1e99594ef609a535a75",
+      "same_idx_sha256": "bef550f06615580951eb3f0ee2cfced7c1c4979f277fabbd7c87296d0a10d701",
+      "same_pack_bytes": 14288,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794240036489950280
+    },
+    {
+      "name": "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb",
+      "same_idx_sha256": "c7d7c328440f80a7c485539d917cdaffbf8396c0e4b3aa98e19151759b00f864",
+      "same_pack_bytes": 13047,
+      "same_partition": "promisor",
+      "current_pack_mtime_ns": 1794237207587185728
+    }
+  ],
+  "available_bytes_now": 935788544,
+  "publication_notes_and_repro_absent": false,
+  "primary_and_refs_after_reapply": "Previous actual reapply observer confirms 83 frozen source bindings plus protected primary files, sparse scope, refs and both HEADs unchanged.",
+  "scope": "No Git object removal or repack was performed. File metadata freshness was not preserved; do not present failed metadata assertion as byte corruption or successful full metadata identity. Exact indexed identities, pack names/lengths/partitions are rechecked here."
+}

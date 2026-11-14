@@ -1,0 +1,76 @@
+{
+  "schema": "fd2d-gauss-cell-assembly-actual-input-run-v1",
+  "utc": "2026-11-12T12:54:13.798809+00:00",
+  "mode": "chunk",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gauss_cell_chunk_compare.py",
+    "bytes": 3296,
+    "sha256": "a9be8b7dd391a2b445434c67a90055b622568c8ccf07da40acbd042b01daae00"
+  },
+  "helpers": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_chunked.py",
+      "bytes": 4903,
+      "sha256": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09"
+    }
+  ],
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+    "bytes": 48129,
+    "sha256": "6edb4f22059f365c6351a32ea86fcc1f5b7c3460902dc1ca075c67432c7fb122"
+  },
+  "unknowns": 5772,
+  "nodes": 122,
+  "info": {
+    "schema": "fd2d-fixed-physical-s-gauss-cell-codazzi-v1",
+    "order": 2,
+    "quadrature_fraction_nodes": [
+      0.21132486540518713,
+      0.7886751345948129
+    ],
+    "quadrature_average_weights": [
+      0.5,
+      0.5
+    ],
+    "physical_g_changed": false,
+    "unknown_mesh_changed": false,
+    "original_trapezoid_rows_changed": true,
+    "node_Gauss_boundary_gap_rows_changed": false,
+    "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+    "retained_cell_maximum": 17.480261558705617,
+    "sampled_full_average_codazzi_maximum": 60.75877323660648,
+    "sampled_omitted_average_codazzi_maximum": 0.19764507506806683,
+    "sampled_interior_Gauss_maximum": 3.2102460530125168,
+    "normalization": "high_weight*sqrt(2/angular_work)",
+    "continuous_certificate": false,
+    "scope": "Finite Gauss-Legendre averages of the actual P1 correction RHS; no pointwise or continuous bound",
+    "retained_jacobian_nonzeros": 205251,
+    "high_jacobian_nonzeros": 3067533,
+    "assembly": "bounded radial-cell blocks of the unchanged original formula",
+    "block_cells": 16,
+    "block_count": 8,
+    "cell_consumer": "fd2d_gc_gauss_cell_codazzi.gauss_cell_codazzi",
+    "finite_equations_changed_by_chunking": false,
+    "independent_unknown_columns_preserved": true
+  },
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gauss-cell-chunk-compare01-chunk-values.npz.gz",
+    "bytes": 1904277,
+    "sha256": "154031ccff4c0e2a27f78128afacc1ccfab140e04ad1f56b41e334d358e9426d"
+  },
+  "helper_peak_rss_kib": 217196,
+  "whole_process_peak_rss_kib": 217196,
+  "seconds": 8.777685220999956,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false
+}

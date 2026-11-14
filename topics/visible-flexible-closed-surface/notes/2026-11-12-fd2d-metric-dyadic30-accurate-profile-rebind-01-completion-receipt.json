@@ -1,0 +1,27 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 19435,
+  "initial_chunk_id": "90fbd9",
+  "final_chunk_id": "7d243d",
+  "actual_exit_code": 1,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-01-report.json",
+    "bytes": 21628,
+    "sha256": "505976a9411758b3f184ba64d8a86774d41dad467d9a81e3d554c852421b7a7d"
+  },
+  "source": {
+    "path": "scripts/fd2d_gc_r136_rebind_profile.py",
+    "bytes": 7103,
+    "sha256": "07725d653c1258a975925a113e95b88df47fafedbe20847ad2659f24823f5595"
+  },
+  "seconds": 1.572090000998287,
+  "peak_rss_kib": 86504,
+  "passed": false,
+  "receipt_written_after_environment_resume": true,
+  "original_process_repeated": false,
+  "scope": "Actual already-completed small interval computation; no whole F/J/BVP/body",
+  "actual_error": {
+    "type": "AssertionError",
+    "message": "Saved new profile did not retain the full exact target identity"
+  }
+}

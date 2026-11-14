@@ -1,0 +1,55 @@
+{
+  "full_library_oid_snapshot_created": false,
+  "git_mutations": false,
+  "loose_oid_set": {
+    "count": 678,
+    "sorted_hex_lf_sha256": "cfa33e2259aa8014b7afdc194af823af76fc653fd0b9321a76056eb0abd3d36b",
+    "sorted_raw_sha256": "d3f5790bbf035f83a10db5cc6168b1618e3c41a6f8d0874be208cee60d6e806b"
+  },
+  "original_pack_file_mtime_ns": {
+    "pack-01c7b521e18b1dab97595e67b90754354a10c1c9.pack": 1794236942422668325,
+    "pack-0468344a65599a6c7b7618c31ec7f36f64836345.pack": 1794242251472838629,
+    "pack-086b47066f41671e835ae463c8037acbabedb415.pack": 1794236457793048043,
+    "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5.pack": 1794232447634136680,
+    "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0.pack": 1794238965200024989,
+    "pack-1ad8b802354908880c6c208e7517fae033ff2a16.pack": 1794240037025944010,
+    "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb.pack": 1794237207587185728,
+    "pack-272fb272986d6212ef30c01377e464af3d3bb318.pack": 1794237227762870950,
+    "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack": 1794212147446774627,
+    "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack": 1794232447242142538,
+    "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463.pack": 1794236930732221030,
+    "pack-5392032bc3c5631d8f52217ec406bf597a281b0c.pack": 1794240657113754666,
+    "pack-55f54db9ee6a47173994f1e99594ef609a535a75.pack": 1794240036489950280,
+    "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2.pack": 1794237207811182835,
+    "pack-76b715dc869afd97aee5bdc32807aa6364a875ed.pack": 1794236930398826622,
+    "pack-7eda0e69e2f2aab843873328cf12250e36478139.pack": 1794240055713708539,
+    "pack-998c0282ec4b827b60ca8d9fa82eb35eab1d9355.pack": 1794240067613502937,
+    "pack-9a49d349381dc9bd8a4c9b4ecb2ea5316b280ed5.pack": 1794240656853757977,
+    "pack-9d5ff02d81fbebba0921f7d00bed317375405e74.pack": 1794238394239535585,
+    "pack-d44586219587f80e0b96f6485973557d6a009d35.pack": 1794240043929857131,
+    "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2.pack": 1794211848306648811,
+    "pack-ed0f40e1ce8e8145d498703f89ed2407fa08a537.pack": 1794241858662216849,
+    "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4.pack": 1794238394623527876
+  },
+  "pack_payloads_read": false,
+  "payload_bytes": 77726,
+  "payload_file": "notes/2026-11-09-db6f-audit-git-maintenance18-target-and-loose.json.gz",
+  "payload_sha256": "8bdea818a0156aa955a10218e92ac0b3853804ca807d1efe3f5b545c657cdc7a",
+  "payload_uncompressed_bytes": 152418,
+  "preflight_file": "notes/2026-11-09-db6f-audit-git-maintenance18-preflight.json",
+  "preflight_sha256": "ddb7a2e82f55f7b86f11cef2eb7cd4e6d7314e198ae3fee2580ef9fc1977068d",
+  "read_interval_stable": true,
+  "reconstruction_rule": "Preserve each retained idx SHA exactly; combine its OIDs with the frozen target OIDs to reconstruct the preflight indexed set. Add these frozen loose names for the preflight all-present set. After rescue/expire independently compare the same partition and total sets, with original retained pack mtime_ns from this binding.",
+  "source_inventory_stats_schema": [
+    "bytes",
+    "mtime_ns",
+    "inode"
+  ],
+  "status": "CLOSED_SMALL_RECONSTRUCTION_PAYLOAD",
+  "target_oid_count": 2493,
+  "target_oid_set": {
+    "count": 2493,
+    "sorted_hex_lf_sha256": "2210487a26bedda322d29b47e0fb27d339bd4d1407fbf6a9f5fc057e39febb11",
+    "sorted_raw_sha256": "542abb65ae4a43e6bcfd3267db916fdb117f6622314439b1e3bb61aea771fb58"
+  }
+}

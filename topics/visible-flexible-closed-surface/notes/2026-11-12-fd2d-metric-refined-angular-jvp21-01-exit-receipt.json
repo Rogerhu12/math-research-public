@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-subprocess-exit-v1",
+  "started_utc": "2026-11-12T16:28:18.725286+00:00",
+  "finished_utc": "2026-11-12T16:30:27.997216+00:00",
+  "command": [
+    "python",
+    "-u",
+    "scripts/fd2d-metric-refined-angular-local-jvp-check.py",
+    "--field",
+    "notes/2026-11-12-fd2d-refined-angular21-central-restore-field.npz",
+    "--run-report",
+    "notes/2026-11-12-fd2d-raw-bump-refined21-b0001-report.json",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-refined-angular-jvp21-01"
+  ],
+  "pid": 4,
+  "returncode": 0,
+  "seconds": 129.2719601739991,
+  "console": "notes/process-observations/2026-11-12-fd2d-metric-refined-angular-jvp21-01-console.txt",
+  "console_sha256": "b3b98c7d2e17b6fc68bf0ba3489b77a60aa53e957d6cd1adc5a3bd393e6133fa"
+}

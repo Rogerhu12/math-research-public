@@ -1,0 +1,22 @@
+{
+  "status": "ROOT_OBSERVED_ACTUAL_AFFINE_DIAGNOSTIC_START_ONLY",
+  "recorded_utc": "2026-11-09T20:07:09.467917+00:00",
+  "tool_receipt": "a676ae",
+  "tool_session_id": 10369,
+  "tool_exit_observed": false,
+  "resource_event_observed": {
+    "RLIMIT_DATA_soft": 1610612736,
+    "RLIMIT_DATA_hard": 1610612736,
+    "prior_limits": [
+      -1,
+      -1
+    ]
+  },
+  "child_started_event_observed": true,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-launch.json",
+    "bytes": 34121,
+    "sha256": "ce1d05787e40c3b9cd3ff42443ef3de66f275c9be3135ff5c6b430e6cabc2b92"
+  },
+  "scope": "Real start only; no BVP return, actual nonlinear tail, closed surface or G5 result inferred."
+}

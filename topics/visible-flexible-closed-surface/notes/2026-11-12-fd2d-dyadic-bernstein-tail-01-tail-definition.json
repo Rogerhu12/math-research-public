@@ -1,0 +1,106 @@
+{
+  "schema": "fd2d-dyadic-Bernstein-curvature-flat-tail-v1",
+  "class_name": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+  "polynomial_formula": "P(q)=sum_{i=0}^{15} b_i B_i^15(q)",
+  "angle_formula": "sign(y)*630*integral_0^q t^4*(1-t)^4*P(t)dt, with clipped q",
+  "polynomial_basis_kind": "bernstein_curvature_integral",
+  "legacy_evaluator_basis_tag": "positive_bernstein",
+  "legacy_basis_tag_is_not_a_domain_or_class_identity": true,
+  "controls_hex": [
+    "0x1.0800000000000p-2",
+    "0x1.8777777777777p-3",
+    "0x1.1270270270270p-3",
+    "0x1.61d41d41d41d4p-4",
+    "0x1.8b94b94b94b95p-5",
+    "0x1.430c30c30c30cp-6",
+    "0x1.5f15f15f15f16p-11",
+    "-0x1.2222222222222p-7",
+    "-0x1.2222222222222p-7",
+    "0x1.5f15f15f15f16p-11",
+    "0x1.430c30c30c30cp-6",
+    "0x1.8b94b94b94b95p-5",
+    "0x1.61d41d41d41d4p-4",
+    "0x1.1270270270270p-3",
+    "0x1.8777777777777p-3",
+    "0x1.0800000000000p-2"
+  ],
+  "geometry_hex": {
+    "cut_radius": "0x1.999999999999ap-1",
+    "flat_radius": "0x1.5c28f5c28f5c3p-2",
+    "cuff_radius": "0x1.47ae147ae147bp-2",
+    "plane_height": "0x1.4000000000000p+0"
+  },
+  "quadrature_order": 96,
+  "quadrature_chunk": 32,
+  "position_integral_is_mathematical_definition_not_GL_rule": true,
+  "control_box": {
+    "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+    "degree": 15,
+    "parts": 8,
+    "interval_endpoints_exact": [
+      "0",
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8",
+      "3/4",
+      "7/8",
+      "1"
+    ],
+    "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+    "shape": [
+      128,
+      16
+    ],
+    "numerator_denominator": "35184372088832",
+    "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+    "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+    "exact_lower": "0",
+    "exact_upper": "6/5",
+    "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+    "matrix_entries_exact_in_binary64": true,
+    "floating_matrix_vector_product_claimed_exact": false,
+    "selected_sufficient_domain_not_necessary_function_range": true
+  },
+  "exact_certificate": {
+    "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+    "passed": true,
+    "exact_arithmetic": true,
+    "controls_interpreted_as_exact_values": true,
+    "degree": 15,
+    "parts": 8,
+    "rows": 128,
+    "local_lower_exact": "590295810358705655359/75557863725914323419136",
+    "local_upper_exact": "33/128",
+    "minimum_lower_slack_exact": "590295810358705655359/75557863725914323419136",
+    "minimum_upper_slack_exact": "603/640",
+    "global_lower_exact": "-2552039788843281/288230376151711744",
+    "global_upper_exact": "33/128",
+    "global_control_box_passed": false,
+    "global_negative_indices": [
+      7,
+      8
+    ],
+    "violated_rows": []
+  },
+  "parameter_dimension": 16,
+  "parameter_columns_changed": false,
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_dyadic_bernstein_tail.py",
+      "bytes": 14784,
+      "sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_flat_developable_family.py",
+      "bytes": 12827,
+      "sha256": "c2d2afb3ed558f50aef20629b323c7bc1475561e5d2c2d8e105260d2b0ebb2eb"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS-independent-M12-point-lower-fixed-g-and-Fraction-audit",
+  "scope": "Independent fixed-g identity and exact rational radial witness audit.\n\nThe selected Fr values are reconstructed directly from saved first/second\nendpoint data and the midpoint data. No point_metric, interval polynomial\nconstructor or floating Horner is used for this extra radial-diagonal check.\nThe independently reviewed background point interval remains an input.\n",
+  "script_sha256": "9241d028664af723e8314a9d88ea87e8f3d77dc97d7308fc9025349641b50dc6",
+  "inputs": {
+    "author": {
+      "file": "notes/2026-11-09-db6f-root-tail-m12-point-metric-witness.json",
+      "sha256": "13311ea4ecb781d0607ff6b58880c5f70bd79db2df2527aa9de3b6d9ad2e1b5e"
+    },
+    "replay": {
+      "file": "notes/2026-11-09-db6f-audit-tail-m12-point-replay.json",
+      "sha256": "4b66a167f34802d4b1017382e7b634f3b0ab11ffa64ed5f6d03f78d4758142d5"
+    },
+    "proof": {
+      "file": "notes/2026-11-09-db6f-root-tail-m12-point-lower-proof.md",
+      "sha256": "955a6550b43efb88f25767eaa0636fdb2be6eb397175507319c96fdddb2b8f92"
+    },
+    "wrapper": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-tail-m12-point.py",
+      "sha256": "5d950fa6caa3aff062ba5a62e743abac5b00d7ef0721930f299135d1dbdc1bb1"
+    }
+  },
+  "all_replay_mathematical_fields_equal": true,
+  "ignored_replay_fields": [
+    "seconds"
+  ],
+  "same_exact_background_files_verified": 6,
+  "changed_numerical_parameters": [
+    "auditSteps",
+    "depth",
+    "farPadding",
+    "initialCheckpoint",
+    "maxIterations",
+    "modes",
+    "physicalDepth",
+    "quadrature",
+    "shootingParts",
+    "steps",
+    "traceFile"
+  ],
+  "all_other_physical_parameters_equal": true,
+  "primitive_parameters_exactly_equal_old_manifest": true,
+  "mathematical_source_sha256": {
+    "db6f-audit-tail-stream.py": "adfcfbfe03643cf8a4284c078edb13d5caa49ad5eb7f94ce822ba8c27354a456",
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f-tail-background-point-lipschitz.py": "ccd59bc42f6685e38229b5425e52c18d08437a43ddbd5073e55e93561a6a0bef",
+    "db6f-tail-background-packet-totalwidth.py": "fcc283c7c7e8d35e82c250b5025921d717bdc8c6130912c2e0d1b9429da09676",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "db6f-tail-build-background-primitive-stable.py": "5843f0b9898ac101a516e6eacadd9cb3ab529b94cda3f0bb4164a5e6ac6da465",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "db6f_tail_interval_source_stable.py": "8d485eb6f9cead594ed22ce491d363a3916a418404f905645c7f0eec0bafdcac",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f-audit-metric-polynomial.py": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4"
+  },
+  "exact_radius": "542597661727932063391508010872115368615351/1247347073977141182794646048914448905666560",
+  "exact_radial_scale": "138483344122825409921286144/138483344122824057231229805",
+  "radial_scale_is_dyadic": false,
+  "direct_fraction_radial_diagonal_interval": [
+    "583857892982016368480083995425355648839423017233667504159445606625478011989957928933196969216499343069206698350753309321313878757/29806456553308782753178704022672920529686411688141760235134588307664706387446022516228047062155581981135166166645096749953886789555978240",
+    "583881073509195186822673547632128931850187612542228936847934050992942176810605238583957859294384594256219790970953242510819820261/29806456553260015397446894604529932004007449545397623094017712776186705443061674801549611750305498341620378575291992882442722707767296000"
+  ],
+  "root_interval_contains_independent_exact_fraction_interval": true,
+  "strict_whole_error_lower_exact": "370012576184137/18889465931478580854784",
+  "safe_decimal_lower_exact": "1.95883e-8",
+  "conditional_future_improvement_factor_exact": "195883/20000",
+  "future_same_g_whole_error_assumption_exact": "1/500000000",
+  "future_error_assumption_already_certified": false,
+  "whole_surface_upper_computed": false,
+  "fixed_g_convergence_gate_5_paid": false,
+  "seconds": 1.397535064999829
+}

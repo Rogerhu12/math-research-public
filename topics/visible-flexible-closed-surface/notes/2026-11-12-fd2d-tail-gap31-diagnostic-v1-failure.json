@@ -1,0 +1,13 @@
+{
+  "schema": "fd2d-observed-hypothetical-QP-consumer-failure-v1",
+  "session": 89523,
+  "initial_chunk": "1d4cd2",
+  "completion_chunk": "a935d0",
+  "exit_code": 1,
+  "source_sha256": "ed4e1336ab9ed44dddb1eec0f173a5bc7b471b0244e7c9f533dc91e901aa652c",
+  "error_type": "ValueError",
+  "error": "Require an explicitly transported same-function normal",
+  "cause": "The v1 selector only supports the domain-transported parent normal; round31 has a newly assembled original R170 normal. v2 explicitly uses the existing corresponding original-normal selector.",
+  "actual_F_J_or_QP_evaluated": false,
+  "old_file_or_guard_modified": false
+}

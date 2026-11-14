@@ -1,0 +1,62 @@
+{
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.25,
+    "vd": 0.4,
+    "ramp": 0.4,
+    "cycles": 1,
+    "delta": 0.07252770232246168,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5
+  },
+  "rows": [
+    {
+      "mode": 3,
+      "rho": -1.593566015091506e-06,
+      "core_transversality": 1.5935660150894826e-06,
+      "terminal_height_gain": 0.015970320998911675
+    },
+    {
+      "mode": 6,
+      "rho": -0.21741532699930688,
+      "core_transversality": 0.21245205921800014,
+      "terminal_height_gain": 0.00033304127167210545
+    },
+    {
+      "mode": 9,
+      "rho": 1.5003832306824114,
+      "core_transversality": 0.832115685644519,
+      "terminal_height_gain": -1.760966210694421e-06
+    },
+    {
+      "mode": 12,
+      "rho": 0.12721121629555057,
+      "core_transversality": 0.12619423286701145,
+      "terminal_height_gain": -1.9526784103267083e-09
+    },
+    {
+      "mode": 15,
+      "rho": 0.04195132998805677,
+      "core_transversality": 0.04191446327428978,
+      "terminal_height_gain": 3.1488557373945414e-11
+    },
+    {
+      "mode": 18,
+      "rho": 0.003120630954380369,
+      "core_transversality": 0.003120615759612541,
+      "terminal_height_gain": 2.428794897624379e-13
+    },
+    {
+      "mode": 21,
+      "rho": -0.04839297214969645,
+      "core_transversality": 0.04833640622243549,
+      "terminal_height_gain": -7.029218561644902e-15
+    },
+    {
+      "mode": 24,
+      "rho": 0.20084693750243102,
+      "core_transversality": 0.19691448842761608,
+      "terminal_height_gain": -2.4151017501820373e-16
+    }
+  ]
+}

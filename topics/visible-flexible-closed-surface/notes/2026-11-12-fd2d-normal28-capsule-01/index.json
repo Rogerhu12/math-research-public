@@ -1,0 +1,485 @@
+{
+  "complete": true,
+  "compressed_numerical_bytes": 13692750,
+  "largest_compressed_piece_bytes": 554615,
+  "mathematical_binding_validation": "fd2d_gc_piecewise_normal_transport.load_piecewise_normal(problem, restored_manifest, expected_binding=...)",
+  "numerical_operations_performed": false,
+  "original_binding_sha256": "46d85d55d2dbba3b7ae0e06e7d80d6c3e028760dc3ed24abc912b677a18a1d14",
+  "original_loader_source": {
+    "bytes": 3468,
+    "name": "fd2d_gc_piecewise_normal_transport.py",
+    "sha256": "eb004a7d7f39e50e707e9210039475d7f3af0733f7c10221369be04d62d72b4e"
+  },
+  "original_manifest": {
+    "bytes": 453850,
+    "file": "original-manifest.json",
+    "sha256": "bb50e4ccc1ba7f98f36303631592738815249785ecc9f45a202d465199be4c31"
+  },
+  "original_manifest_preserved_byte_for_byte": true,
+  "original_mapping_sha256": "ea405850349a36c7df2341980bed392c84fc906d1457aac87bc3cef2b028facc",
+  "original_metadata_sha256": "39d9bb98a237b822730fe90490392b5581f587482f6b8d613c93e25a7bcc7f71",
+  "original_normal_schema": "fd2d-offline-piecewise-ordered-normal-v1",
+  "original_numerical_bytes": 21624724,
+  "piece_count": 35,
+  "pieces": [
+    {
+      "compressed": {
+        "bytes": 20577,
+        "sha256": "a4b15cae52c7dc4691db4996d683e41a20f83198fc389f401e9b579e2136f308"
+      },
+      "compressed_file": "mapping.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 108848,
+        "sha256": "f1ad37a12c134a12b4e314f99beafa796adc8eec217fe80a71ef86b8ab42dd98"
+      },
+      "original_file": "mapping.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 8529,
+        "sha256": "e914d5eab53517680440ccd452040d103185e511270f95030a0828017a56e3b1"
+      },
+      "compressed_file": "global.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 24964,
+        "sha256": "300a04c5e117d2053c8fa61090032e438d73f67fa1a1b541e06a775d8b716358"
+      },
+      "original_file": "global.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 499,
+        "sha256": "69a45eb468e1262fd0996326afa3bac390a728f7a1a95fd09ab8dc25713136b4"
+      },
+      "compressed_file": "nodes-000000-000004.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 5230,
+        "sha256": "4d8ea32e0ee88b15956126c7ccda6ddc0cb1cb2fc64db721e9bacf9ee10950d9"
+      },
+      "original_file": "nodes-000000-000004.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 500,
+        "sha256": "3ce2d46e33d7b91df768b3ab0a31e4ba8493390e39ecbe4eed1291df05187bdb"
+      },
+      "compressed_file": "nodes-000004-000008.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 5230,
+        "sha256": "c3f3fc7747327f46d038a1f9036ea1e43dd57ae27c150df264af8fecd7383e3a"
+      },
+      "original_file": "nodes-000004-000008.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 303070,
+        "sha256": "f203a10dfac28b0f1ef65a0d17cd97b518f9873a662faa7a540128ecc134b577"
+      },
+      "compressed_file": "nodes-000008-000012.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 566110,
+        "sha256": "9538d453f35181b0da3c9b35a57704c5fb2615b46a19d2576329b835f17bfa8e"
+      },
+      "original_file": "nodes-000008-000012.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 397195,
+        "sha256": "c09fef66d1fc35740a2a06b4a94ff703a37fc3b2773727e9ab2de7e377e80196"
+      },
+      "compressed_file": "nodes-000012-000016.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "6812144ba4193be8c0c1045027255dc2fa5bf20447be75398f5f78a1622155af"
+      },
+      "original_file": "nodes-000012-000016.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 396087,
+        "sha256": "09287cf7376730e29fa164ab6b710637e85f8413d9280662ff7f6db9fa5f6e1d"
+      },
+      "compressed_file": "nodes-000016-000020.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "286f600154866e378dc011f2ee4c93378871eaf7f665f64d3f746e679f9cb9bc"
+      },
+      "original_file": "nodes-000016-000020.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 396106,
+        "sha256": "3310957e90392eddc5408db174f73a7f1e1b0a281f3284f0b3a9f2e98d215493"
+      },
+      "compressed_file": "nodes-000020-000024.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "5bf8a801d8264cc1659407394e6a8ba65202fdcd78a36db7279f0cb497d80e9a"
+      },
+      "original_file": "nodes-000020-000024.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 396414,
+        "sha256": "9bc1446caf54fe33eee98aff4be595c377e2cb40b6ef02d06596626e82bcc6ff"
+      },
+      "compressed_file": "nodes-000024-000028.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "6f2a6ecbe9b68e2aa218e311688bd2a30b1ff0c020a4370f9437862fff71e70b"
+      },
+      "original_file": "nodes-000024-000028.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 397289,
+        "sha256": "571ba6d9b58f460aaf5c49ff7d98b494ee9844d1ab724a0e475cccb7156591b4"
+      },
+      "compressed_file": "nodes-000028-000032.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "ffa7eff05ce755b49784fe0c887cc7cad056aea9850c11cd28063c8181aa7558"
+      },
+      "original_file": "nodes-000028-000032.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 400128,
+        "sha256": "fd50f6d307d38231dbf5a42ab847699eede26771c25f97b1b4067bfd2cd11093"
+      },
+      "compressed_file": "nodes-000032-000036.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "91c44bfbf492ee59c934d10c59186a0443707e265fd4f33cb26844fc74bf5a65"
+      },
+      "original_file": "nodes-000032-000036.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 399629,
+        "sha256": "b2fde621a61b62066bd66c2ed28bb80e0eb9d5315e4644c0fe9d26cf640ec37e"
+      },
+      "compressed_file": "nodes-000036-000040.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "40d1e2fcf789ec69de460422035b76e697b4564f85ee01bb1deb80fcd0b5140e"
+      },
+      "original_file": "nodes-000036-000040.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 399710,
+        "sha256": "60c988e9794a14db7052aafefa33803dddb7cbca4d6eff74ef2fa38ddedc21e1"
+      },
+      "compressed_file": "nodes-000040-000044.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "5a13f04f5d3ff8e70a8540ab7ca88ae7475e7aa1a5a954674bb75939b7b3684a"
+      },
+      "original_file": "nodes-000040-000044.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 422689,
+        "sha256": "ea447909c214499b423a8c15ffa5344b8146768f205134a4df7859a9047f726d"
+      },
+      "compressed_file": "nodes-000044-000048.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "74b468badbb372a29ddeda909625aa9cb151a6e9302c33da3c3fe1d225de67a3"
+      },
+      "original_file": "nodes-000044-000048.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 492740,
+        "sha256": "167cd737101ea27c67f6948d9c49e96ecd89c453bb938e46fc05895f67def126"
+      },
+      "compressed_file": "nodes-000048-000052.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "a7496452840b6ada433fd0f27a06c89887b3385c9255934fc3c4b6ea807c12b2"
+      },
+      "original_file": "nodes-000048-000052.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 494697,
+        "sha256": "5c3a9dd3e4a30e519c71d96b6d873e941a0abff5674e5309ca9a3116c2dbad37"
+      },
+      "compressed_file": "nodes-000052-000056.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "e65ddab31516991f1f3b942372c808d8d3bb2847bcdc1168688d62d55525a10d"
+      },
+      "original_file": "nodes-000052-000056.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 500142,
+        "sha256": "caecdea857c89375faad46c0e195dbe8602a7d84e7486b40dc86de45ed97ea28"
+      },
+      "compressed_file": "nodes-000056-000060.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "6011b201bb8a9f63d354f79d4df3ac844634576c1ec113ce0c418479d8d13d2a"
+      },
+      "original_file": "nodes-000056-000060.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 503338,
+        "sha256": "dd4e1ce97f36e5ab2b8005add064c36f852291c3e64617bb2fd2d26adec51b8f"
+      },
+      "compressed_file": "nodes-000060-000064.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "fc0145bab05d483982253da4ebb8aebf462c7d89e083dfe1e71f39f5a4eb34a5"
+      },
+      "original_file": "nodes-000060-000064.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 323809,
+        "sha256": "50b03e037c193971e51c65431c08603cf4d1b7207daed75549408f65ab99c305"
+      },
+      "compressed_file": "nodes-000064-000068.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 538286,
+        "sha256": "565fb8b5803006b220b64568bc9d10a9ef42b3df55058f02fc4586fa88ed2623"
+      },
+      "original_file": "nodes-000064-000068.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 217695,
+        "sha256": "1b84ab8b604ce23e0a0d7d9fd309843f6454e06245fc2f20126622e484a4535a"
+      },
+      "compressed_file": "nodes-000068-000072.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 372142,
+        "sha256": "33265d44a049e61544595b1e0f7b01c29e22edfdac363fa82b2117104e39daf8"
+      },
+      "original_file": "nodes-000068-000072.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 303194,
+        "sha256": "0b2b1dee9e0e551e412567953f24f2ee383402531f3972eba7b5a55d595ac176"
+      },
+      "compressed_file": "nodes-000072-000076.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 483502,
+        "sha256": "bd1e7d4a6b07156e86df8953955c6658c101c6731529ce8c11271ff3555e50fc"
+      },
+      "original_file": "nodes-000072-000076.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 553621,
+        "sha256": "b6cc8770831e2202d83efe536695e4e64d9a7b888d419782700a80d36fe70f1e"
+      },
+      "compressed_file": "nodes-000076-000080.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "78465b654c37154513503d478b25a38dbef9f4d6db77899d6089f18ee5acd144"
+      },
+      "original_file": "nodes-000076-000080.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 554186,
+        "sha256": "ed513e3accbfd86149a04635687fd685ac38f94f30221b3fc1a9a470ea77a922"
+      },
+      "compressed_file": "nodes-000080-000084.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "32e43029a8699384450e7897f84d0cd0c7e3973d84c7cdba9f565dbb8b8e2c36"
+      },
+      "original_file": "nodes-000080-000084.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 553659,
+        "sha256": "62983ec0e8dee49cabb29bdc9df43d592308a31d74de1b2b026ccb5a893a4dda"
+      },
+      "compressed_file": "nodes-000084-000088.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "7d2618849ab1c6720043caaab2e5c11a031fab50b6b789f17e0f158d4aca3628"
+      },
+      "original_file": "nodes-000084-000088.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 553254,
+        "sha256": "033001832eb76d9ad3be1e688212516515ede48b58a376d66c47e9f08823558e"
+      },
+      "compressed_file": "nodes-000088-000092.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "6b6b2ac9d5d3240f7b86566d80afac96cb9c428831fd2d9f1b901195f6ca4200"
+      },
+      "original_file": "nodes-000088-000092.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 553164,
+        "sha256": "f1630077c4604416111cb0fbd46a7ff7d12ccead867d8da398b625c8967e2125"
+      },
+      "compressed_file": "nodes-000092-000096.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "5c89cd135e4996c81068c992dd23c91073d00e1b18bbfc7f780b9953e177decc"
+      },
+      "original_file": "nodes-000092-000096.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 554615,
+        "sha256": "47dc83df480af0e3d3bab98bb8f536ee27dbec7f41f64c592af117dd049499d7"
+      },
+      "compressed_file": "nodes-000096-000100.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "e5327feec43e5f2eb7f7a8869aa72675011ad2c632fd922360c60237200ea163"
+      },
+      "original_file": "nodes-000096-000100.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 553529,
+        "sha256": "0b0adfaeff81a0111be462b50a2ffb1458e70d6abe9c89b462132141c4e5b737"
+      },
+      "compressed_file": "nodes-000100-000104.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "460daa115101ac8905166f07c3b63823e1771becd94d5d98413a930e7ce31ac0"
+      },
+      "original_file": "nodes-000100-000104.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 551395,
+        "sha256": "2f629bf9c7858119dd758afb03105c3e27cd33d130bf000b72fd23078ae27b1b"
+      },
+      "compressed_file": "nodes-000104-000108.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "10e3454a4f6ac337505adb5533e86dbe882a962eeaf91e393d7ac2d93493520f"
+      },
+      "original_file": "nodes-000104-000108.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 548586,
+        "sha256": "fa765d18b83bb4f3daba561116e688a335d171acefb8fe22203b66f36408bda7"
+      },
+      "compressed_file": "nodes-000108-000112.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "c39f80c6016b264756626d62c1914966985d8aaa4fade6b6f223aad0c679557d"
+      },
+      "original_file": "nodes-000108-000112.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 524803,
+        "sha256": "04e57046bed6509cce4fc93c7bfbb98d7261be61e5f475d9ffc6bb743a3d9ce0"
+      },
+      "compressed_file": "nodes-000112-000116.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "3a84e32dbe02d97e0ced7c3df9df9b476ce1e937c1b3902727e6690a7f453a5b"
+      },
+      "original_file": "nodes-000112-000116.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 458383,
+        "sha256": "5f59f32c47a826e3cac60ed222ece0353209cdcbb9c7e4705732122a3fff88ab"
+      },
+      "compressed_file": "nodes-000116-000120.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "7c64510b588864f24fb1b3c38db5f0940eb2cd906d956ea2cec0ce9eefbbbb4f"
+      },
+      "original_file": "nodes-000116-000120.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 503182,
+        "sha256": "d2daa116526bb2a4219739552dca22c80d743608e7c097bdc88f9b13208b0c16"
+      },
+      "compressed_file": "nodes-000120-000124.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 753070,
+        "sha256": "e3649804ed6493effb5c9861f71cd6c412986f7657d27e31f881e97c82c7cfb7"
+      },
+      "original_file": "nodes-000120-000124.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 366259,
+        "sha256": "22a61a0c11bf6fc5042ba3bdd4fcfa3acaddb94baa18b45dde45484ac260af3c"
+      },
+      "compressed_file": "nodes-000124-000128.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 538286,
+        "sha256": "d5ae131688e5b945336143d814830507898082deae9494c2cdace7017b5d7875"
+      },
+      "original_file": "nodes-000124-000128.npz"
+    },
+    {
+      "compressed": {
+        "bytes": 90077,
+        "sha256": "dd4e40af8c4f304b1bc513701b174893b0d5f57043f79e4219d55107d99b5da8"
+      },
+      "compressed_file": "nodes-000128-000131.npz.gz",
+      "decompressed_byte_identity_verified": true,
+      "original": {
+        "bytes": 155376,
+        "sha256": "3a197ca8b7a1ebfb156322a926c755b5ab4e7203738cd5d98f4a3dc781c0a9c5"
+      },
+      "original_file": "nodes-000128-000131.npz"
+    }
+  ],
+  "restored_directory_name": "normal-partitioned",
+  "schema": "fd2d-lossless-piecewise-normal-gzip-capsule-v1",
+  "seconds": 1.0945275459998811,
+  "source_sha256": "85b6b53a8c5c862d86f7ed7723aa8a95f3a021156582134334492bb4512924f3"
+}

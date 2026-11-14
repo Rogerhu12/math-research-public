@@ -1,0 +1,181 @@
+{
+  "schema": "fd2d-fixed-g-curvature-core-finite-check-v1",
+  "scope": "Finite checks of the actual R116 same-g curvature inlet and its JVP.\n\nThese discover evaluation/coordinate mistakes. The exact common metric,\nclosure, convexity window and parameter identities are proved in R116;\nfinite differences and quadrature comparisons are not interval certificates.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-curvature-core-check.py",
+    "bytes": 7686,
+    "sha256": "72ee6d339eea860fc1c4bf5ca56aed240155d063df2f7ad6451119357179a21a"
+  },
+  "provider": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_metric_curvature_core.py",
+    "bytes": 17837,
+    "sha256": "7aa0d7173cc25891a7d422056d64b81e1daa2e40552043a1881627933eae2ad0"
+  },
+  "old_R115_provider": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_ellipse_support_core.py",
+    "bytes": 9858,
+    "sha256": "db016e7a216676238bea05a34adff6d78fa75174b7646cfcc27f915765f55539"
+  },
+  "proofs": [
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R115-fixed-perimeter-elliptic-support-core-family.md",
+      "bytes": 10145,
+      "sha256": "2fb482718166669b6436ebdb895b776decc31f9aacb7982dada5a49e5926e538"
+    },
+    {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/results/R116-first-order-codazzi-evolution-and-positive-curvature-symbol.md",
+      "bytes": 11080,
+      "sha256": "01b67d1f88781c1808f6e5284b2e778b0b70b4018d45fde5f49f18eece9672a5"
+    }
+  ],
+  "parameters": {
+    "seed": {
+      "A_exact": "7/5",
+      "B_exact": "1/2",
+      "support_p1_exact": "1/200"
+    },
+    "a0_numeric": 1.0040828380214688,
+    "a0_definition": "2*(7/5)*E(1-(5/14)^2)/pi",
+    "coefficients_exact": [
+      "3/5000",
+      "-1/2500",
+      "1/5000",
+      "-1/10000"
+    ],
+    "frequencies": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "T0_exact": "13/10000",
+    "S0_numeric": 0.00044765359861790487,
+    "S0_rational_upper": "7169/16000000",
+    "shape_displacement_rational_upper": "15850659/22400000000",
+    "curvature_lower_exact": "1989769/7870000",
+    "curvature_upper_exact": "14002977/2290000",
+    "central_window_proved_by_rational_bounds": true,
+    "quadrature_panels": 64,
+    "quadrature_order": 20,
+    "seed_quarter_arc_quadrature_discrepancy": -2.168404344971009e-19,
+    "numeric_precision_mantissa_bits": 63,
+    "fixed_material_metric": "ds^2+a0^2*du^2 on the central cylinder, independent of d",
+    "reference_coordinate": "ONE original-ellipse eccentric theta; u_theta=ell_E(theta)/a0",
+    "gc_column_order": [
+      "n",
+      "m",
+      "X_x",
+      "X_y",
+      "X_z",
+      "e1_x",
+      "e1_y",
+      "e1_z",
+      "e2_x",
+      "e2_y",
+      "e2_z",
+      "N_x",
+      "N_y",
+      "N_z"
+    ],
+    "exact_analytic_central_family": true,
+    "numerical_values_are_interval_certified": false,
+    "complete_BVP_solved": false,
+    "closed_surface": false,
+    "full_reach_or_held_proved": false
+  },
+  "finite_checks": {
+    "angular_count": 257,
+    "d0_position_direct_seed_identity": true,
+    "gc_shape": [
+      257,
+      14
+    ],
+    "jvp_gc_shape": [
+      257,
+      14
+    ],
+    "material_metric_relative_error": 2.168404344971009e-19,
+    "reference_metric_relative_error": 2.710505431213761e-19,
+    "orthonormal_frame_error": 1.0842021724855044e-19,
+    "oriented_frame_error": 0.0,
+    "antipodal_position_error": 4.975826540806505e-19,
+    "reflection_position_error": 5.528368034183277e-19,
+    "seed_arc_inversion_residual": 2.2768245622195593e-18,
+    "minimum_curvature_sample": 0.2528363471092642,
+    "maximum_curvature_sample": 6.11383711790393,
+    "parameter_direction_exact": [
+      "1/5",
+      "-1/10",
+      "1/20",
+      "3/100"
+    ],
+    "centered_parameter_difference_checks": [
+      {
+        "step": 0.001,
+        "X_directional_derivative_difference": 1.2577933085935718e-10,
+        "X_u_directional_derivative_difference": 2.3559639679221244e-10,
+        "X_uu_directional_derivative_difference": 8.030423097472196e-10,
+        "gc_values_directional_derivative_difference": 3.3980897661316176e-10,
+        "reference_X_theta_directional_derivative_difference": 3.0683192577625437e-10,
+        "reference_X_theta_theta_directional_derivative_difference": 1.4518562223703827e-09,
+        "reference_gc_values_directional_derivative_difference": 3.3962151451135085e-10
+      },
+      {
+        "step": 0.0003,
+        "X_directional_derivative_difference": 1.132013914166086e-11,
+        "X_u_directional_derivative_difference": 2.1203680656490016e-11,
+        "X_uu_directional_derivative_difference": 7.227378217406628e-11,
+        "gc_values_directional_derivative_difference": 3.058282381898734e-11,
+        "reference_X_theta_directional_derivative_difference": 2.761489460188385e-11,
+        "reference_X_theta_theta_directional_derivative_difference": 1.3066717908430023e-10,
+        "reference_gc_values_directional_derivative_difference": 3.056598180574609e-11
+      }
+    ],
+    "position_angular_difference_check": {
+      "step": 0.0002,
+      "scheme": "five-point centered",
+      "first_jet_difference": 1.0484020493948134e-12,
+      "second_jet_difference": 8.335204678875422e-11
+    },
+    "quadrature_refinement": {
+      "seed_normal_panels": 128,
+      "seed_order": 32,
+      "panels": 128,
+      "order": 28,
+      "position_difference": 2.7601943339676196e-18,
+      "first_jet_difference": 8.378049082183503e-18,
+      "second_jet_difference": 6.403157042478017e-17,
+      "position_jvp_difference": 2.0328790734103208e-20
+    },
+    "independent_incomplete_elliptic_seed_checks": [
+      {
+        "material_u": "0.1",
+        "independent_decimal_precision": 70,
+        "position_difference": 1.3969625239630852e-19,
+        "curvature_difference": 1.3010426069826053e-18
+      },
+      {
+        "material_u": "0.7",
+        "independent_decimal_precision": 70,
+        "position_difference": 1.7142741545784674e-19,
+        "curvature_difference": 8.131516293641283e-20
+      },
+      {
+        "material_u": "1.2",
+        "independent_decimal_precision": 70,
+        "position_difference": 4.074783148262593e-19,
+        "curvature_difference": 5.421010862427522e-20
+      }
+    ],
+    "existing_R115_binary64_provider_comparison": {
+      "position_difference": 1.5644123955229385e-14,
+      "first_jet_difference": 9.277736559268983e-14,
+      "second_jet_difference": 6.093772833934681e-13
+    }
+  },
+  "seconds": 11.952484887005994,
+  "exact_family_defined": true,
+  "numerical_checks_are_continuous_certificates": false,
+  "complete_BVP_solved": false,
+  "closed_surface": false
+}

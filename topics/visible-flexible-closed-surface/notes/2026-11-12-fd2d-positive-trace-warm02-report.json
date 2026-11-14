@@ -1,0 +1,172 @@
+{
+  "schema": "fd2d-R153-R155-complete-field-initializer-targeted-JVP-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-initializer-check.py",
+    "bytes": 10629,
+    "sha256": "27fecd9391b4f9f4afecc0045bd339dcd27b3b03df5e6ffe2907aac24778ae38"
+  },
+  "sources": {
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 10856,
+      "sha256": "dcee8eb51577ee7927e755e588a278ccb5f5748296ce05240a2f3841d87d81bb"
+    },
+    "fd2d_gc_positive_trace_branch.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    "fd2d_gc_gauss_cell_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    "fd2d_gc_positive_trace_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_merit.py",
+      "bytes": 4386,
+      "sha256": "8d761d7b3c5928be982918a3341100cc58fe155826e640e2ca88a87c1c604fd4"
+    },
+    "fd2d_gc_positive_trace_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_bounded_schur.py",
+      "bytes": 6319,
+      "sha256": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57"
+    },
+    "fd2d_gc_raw_bump_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_gauss.py",
+      "bytes": 8930,
+      "sha256": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb"
+    },
+    "fd2d_gc_positive_gauss_l.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l.py",
+      "bytes": 3324,
+      "sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be"
+    },
+    "fd2d_gc_gauss_cell_positive_gauss.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_gauss.py",
+      "bytes": 6590,
+      "sha256": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e"
+    },
+    "fd2d_gc_positive_gauss_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_merit.py",
+      "bytes": 4093,
+      "sha256": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a"
+    },
+    "fd2d_gc_positive_gauss_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_bounded_schur.py",
+      "bytes": 5655,
+      "sha256": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20"
+    }
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss15-b0002-accepted-0002.npz",
+    "bytes": 56022,
+    "sha256": "f89d52770f858b4ff5b5fe1e7ea084c92816c117777133377008f7058d84ebdc"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "started_utc": "2026-11-12T15:13:02.535113+00:00",
+  "completed": false,
+  "nonlinear_BVP_performed": false,
+  "continuous_certificate": false,
+  "exception": {
+    "type": "ValueError",
+    "message": "Use a fixed radial window in [0,1]",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-positive-trace-initializer-check.py\", line 75, in main\n    raw,data=problem.evaluate(vector);del data['lift']\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py\", line 97, in evaluate\n    T=positive_trace_delta(fields,angular,jet['K'][None,:],self.trace_window()[None,:],exact_tail_mask=self.trace_mask()[None,:])\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py\", line 39, in positive_trace_delta\n    raise ValueError('Use a fixed radial window in [0,1]')\nValueError: Use a fixed radial window in [0,1]\n"
+  },
+  "seconds": 6.494337878999431,
+  "peak_rss_kib": 205568,
+  "new_field_definition": {
+    "schema": "fd2d-terminal-positive-trace-Gauss-field-v1",
+    "provider_source_sha256": "dcee8eb51577ee7927e755e588a278ccb5f5748296ce05240a2f3841d87d81bb",
+    "algebra_source_sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+    "composition_order": "R153 coast positive-n Gauss-l first, then disjoint R155 terminal positive trace",
+    "start": 1.4689731783581288,
+    "ramp_stop": 1.475973178358129,
+    "cut": 1.4889731783581288,
+    "step": 5,
+    "weight": "S5((s-start)/(ramp_stop-start)), clipped, then exactly one up to cut",
+    "invariant_fields": "d=n-l and m from the actual R153 background",
+    "h": "sqrt((n-l)^2+4*m^2+4*K)",
+    "E": "w*(h-n-l)/2",
+    "actual_fields": "n_new=n+E,m_new=m,l_new=l+E",
+    "exact_tail_bypass": "At s=cut take E=E_xi=all E parameter/state partials=0 along the accurate analytic nonnegative tail family",
+    "tail_contract": "All correction coefficients at cut are exactly zero; existing positive tail parameters define the complete true trace",
+    "positive_K_domain": "K>=0 at active non-cut points; h>0 when its general derivative is used; no n floor added",
+    "mathematical_field_changed": true,
+    "physical_metric_changed_by_representation": false,
+    "inactive_raw_trace_nodes": [
+      121
+    ],
+    "exact_trace_gauge": "At entire-hat plateau nodes set raw n correction=(old n-old l)/2, raw l correction=negative of it; d unchanged",
+    "no_continuous_geometry_claim": true
+  },
+  "coast_field_definition": {
+    "schema": "fd2d-positive-n-local-Gauss-l-field-v1",
+    "provider_source_sha256": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+    "algebra_source_sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+    "support": [
+      0.5919999999999992,
+      0.8675434451024153
+    ],
+    "rim_fraction": 0.12,
+    "weight": "same S5 coast-window function as the declared frozen reference",
+    "l": "(1-w)*l_raw+w*(K+m^2)/n; evaluate quotient only where w>0",
+    "n_and_m": "unchanged complete affine P1 correction plus exact declared lifting",
+    "true_gauss_identity": "G_actual=(1-w)*G_raw",
+    "exact_pointwise_domain": "n>0 at every point with w>0; no positivity condition imposed at the flat n=0 tail",
+    "regularity_sufficient_domain": "uniform n>=nu>0 on a neighborhood of the closed coast support, as in R153",
+    "actual_continuous_positive_certificate_paid": false,
+    "selected_finite_evaluation_floor": 0.05,
+    "finite_floor_is_not_continuous_certificate_or_nonexistence_condition": true,
+    "gauss_plateau": [
+      0.6250652134122892,
+      0.8344782316901254
+    ],
+    "inactive_l_raw_nodes": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "exact_elimination_reason": "entire nodal P1 hat support lies in w=1, so (1-w)*hat is identically zero",
+    "rim_adjacent_l_nodes_not_removed": true,
+    "known_lifting_unchanged": true,
+    "physical_metric_changed_by_representation": false,
+    "active_profile_K_s": "base K0 coast: -sum(delta_j*psi_j_third)/a + a_ss*a_s/a^2",
+    "old_field_preserved": false,
+    "full_actual_G_C_curvature_required": true
+  },
+  "conversion": {
+    "kind": "explicit nonlinear actual-field replacement then exact inert-hat gauge",
+    "physical_parameters_unchanged": true,
+    "physical_g_changed": false,
+    "mesh_unchanged": true,
+    "angular_atlas_unchanged": true,
+    "known_lifting_unchanged": true,
+    "old_actual_field_preserved": false,
+    "inactive_l_raw_nodes": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "inactive_trace_nodes": [
+      121
+    ],
+    "trace_gauge": "preserve d=n-l and set raw coefficient trace to zero only on entire-hat terminal platform",
+    "inactive_l_columns": 112,
+    "coefficient_gauge_change": 1.7814432753471625
+  },
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm02-warm.npz",
+    "bytes": 58800,
+    "sha256": "97e1fb37e69df5f6870ad3371477c1c349e18d2048c1b970e1da1efdbe3893e8"
+  }
+}

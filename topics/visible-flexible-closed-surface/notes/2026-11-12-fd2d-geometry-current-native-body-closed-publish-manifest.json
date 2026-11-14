@@ -1,0 +1,53 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-geometry-current-native-body-closed-manifest.json",
+    "bytes": 1866,
+    "sha256": "005d27bcd362cc2993ea59f5fc965f1c1425440b834b068062885c70deec06fa"
+  },
+  "original_status": "closed",
+  "only_key_adaptation": "Expose the original immutable artifacts as files without changing their content.",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_actual_body_reader_factory.py",
+      "bytes": 9478,
+      "sha256": "2f996bef1890ee85c4cb5cc07eea05e886381e7d33766e3172382711c16f2361"
+    },
+    {
+      "path": "scripts/fd2d-native-actual-body-screen.py",
+      "bytes": 4153,
+      "sha256": "950a6a6f43ffd540981d3ad43e46821506cefec520dc309e4d2526d15880d576"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-current-native-body-dispatch.md",
+      "bytes": 8042,
+      "sha256": "034e90cf34a319512975c08d2828fb810634152aa824f251c0a7edcd438613c8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-actual-body-native-binding-01-exit-receipt.json",
+      "bytes": 764,
+      "sha256": "18c092bdb2c6360535ab86bcf9d7cda6e8a4593d842d9fb606cf4a3b49b6f660"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json",
+      "bytes": 54778,
+      "sha256": "6b6020f50c8f0e1541ea6a6f75d8919f0ce38a750a8dd73dd3cb5260298fa566"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-actual-body-native-binding-01-adapter.json",
+      "bytes": 2990,
+      "sha256": "ea53332c1a6703775f9ed07a47ba4a7bbfdb7744684ae7c745c35c741978b4a9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-actual-body-native-binding-01-report.json",
+      "bytes": 3520,
+      "sha256": "dcfef56054406fab0ac08eadcddfc3cbb08f4b05294f5d1646eb0e8862094da9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-current-native-body-closed-manifest.json",
+      "bytes": 1866,
+      "sha256": "005d27bcd362cc2993ea59f5fc965f1c1425440b834b068062885c70deec06fa"
+    }
+  ]
+}

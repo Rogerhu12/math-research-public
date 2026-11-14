@@ -1,0 +1,12 @@
+{
+  "status": "observed-safe-not-ready-gate",
+  "actual_exit_code": 0,
+  "script_sha256": "22e43581c929145483b704673eb767cabfc1961eb41400595f1a289caf59855e",
+  "stdout": {
+    "ready": false,
+    "reason": "Continuation is not closed: missing 2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-reproduction.json",
+    "files_written": 0,
+    "solver_launches": 0
+  },
+  "scope": "Readiness false while continuation is active; no mathematical failure or new solver result."
+}

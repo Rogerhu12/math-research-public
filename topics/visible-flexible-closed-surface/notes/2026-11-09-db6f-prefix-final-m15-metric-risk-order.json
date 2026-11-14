@@ -1,0 +1,112 @@
+{
+  "status": "CLOSED_STATIC_ANALYSIS_ONLY_NOT_A_CANDIDATE_CERTIFICATE",
+  "author": "/root/coupled_prefix",
+  "scope": "Conditional prefix metric risk and minimal diagnostic order; no new solver, root, RK, export, or geometry/metric backend invocation.",
+  "exact_target_budget": "1/500000000",
+  "final_m15_true_joint_input_available_here": false,
+  "affine_sample_used_as_final_metric": false,
+  "existing_pipeline_sufficient_to_start_certification": true,
+  "new_algorithm_or_test_needed_now": false,
+  "common_cut_metric_cli_uses_angular_option": false,
+  "common_cut_metric_cli_uses_radial_option": false,
+  "source_metric_transfer": "epsilon*(1+eta)+eta exactly once",
+  "proposed_future_commands_executed": false,
+  "solver_calls": 0,
+  "angular_root_calls": 0,
+  "rk_calls": 0,
+  "geometry_export_calls": 0,
+  "continuous_backend_calls": 0,
+  "mutations": "Only this new note and its companion binding record; no previously closed source or output modified.",
+  "note": {
+    "file": "notes/2026-11-09-db6f-prefix-final-m15-metric-risk-order.md",
+    "bytes": 12424,
+    "sha256": "b374a7adfd336518f9b3bca9128048cce507ac906757ef18fdd44278ee3b359a"
+  },
+  "read_source_bindings": [
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-certification-readiness.md",
+      "bytes": 14377,
+      "sha256": "d9aa1056e26fc21ae9af4479ce2bf5233200ef8cff15c8233f3488e866cfe12e"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-angular-metric-refinement-method.md",
+      "bytes": 9974,
+      "sha256": "95264af6db3c1d125414c9aca414480364ecca04454692ccefbf6e15dc223265"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-angular-metric-implementation.md",
+      "bytes": 9054,
+      "sha256": "c105af65dbafc4e3bc4fc7ccec745c995ec0d599c628ab60325be552a165b67d"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-angular-fixture-completion.md",
+      "bytes": 5326,
+      "sha256": "5d8b2be0a92efa3c85655187429222d6ff042a560817262c9aa8acaa327f1409"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-prefix-sampling-and-m12-budget.md",
+      "bytes": 10113,
+      "sha256": "a444fda50d5f313c30ad4fb6a28e4680e08955f9b8390ac2e12a12acb1133b27"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-final-m15-coupling-plan.md",
+      "bytes": 8421,
+      "sha256": "8879a3a0311dc0093d23b934af3d0cfef813fa4fd0729240b054a3555e1dcb36"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-final-m15-n512-followup.md",
+      "bytes": 12157,
+      "sha256": "c6e97843feeabc2512fddf8c801d621bdfe7626902eac82dffb8939b49ed5672"
+    },
+    {
+      "file": "scripts/db6f-root-common-cut-v2.py",
+      "bytes": 13021,
+      "sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+    },
+    {
+      "file": "scripts/db6f-audit-prefix-angular-metric.py",
+      "bytes": 23157,
+      "sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb"
+    },
+    {
+      "file": "scripts/db6f-audit-metric-polynomial.py",
+      "bytes": 10966,
+      "sha256": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4"
+    },
+    {
+      "file": "scripts/db6f-audit-metric-supplier.py",
+      "bytes": 17450,
+      "sha256": "de2cafcb235a843b2f930decb54cf065c6cbc441884b050f09edb900ac196bd0"
+    },
+    {
+      "file": "scripts/db6f-root-exact-bridge.py",
+      "bytes": 9408,
+      "sha256": "f5d10784f58fa5008220354665de710ab4991b795f1b902e26a70ca44f382fd1"
+    },
+    {
+      "file": "scripts/db6f-root-mirror-hermite.py",
+      "bytes": 4602,
+      "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+    },
+    {
+      "file": "scripts/db6f-prefix-flat-geometry-source.py",
+      "bytes": 2740,
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "file": "scripts/db6f-audit-prefix-actual-metric-sample.py",
+      "bytes": 13852,
+      "sha256": "3b5435d2caef6655421acead3b6bbaa90d482890dc98d1842a34c04aa07c4aa4"
+    },
+    {
+      "file": "scripts/db6f-audit-prefix-metric-budget.py",
+      "bytes": 9504,
+      "sha256": "dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-affine-actual-metric-sample.json",
+      "bytes": 6097,
+      "sha256": "aa9845c1d849d754d08333beec1b8752c5f225725184d7978cf6cea62953e81c"
+    }
+  ]
+}

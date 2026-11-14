@@ -1,0 +1,17 @@
+{
+  "scope": "Exact prior source bytes reconstructed by reversing only the retained optional-I/O patch; every snapshot hash matches its existing historical binding.",
+  "files": [
+    {
+      "original": "scripts/db6f-prefix-freeze-refine.py",
+      "snapshot": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-before-iteration.py",
+      "sha256": "199a1ea691c16d0380cb3dae2d9bbac437cb146fbac2ab1c9cd34b20a1e0185a",
+      "source_binding": "notes/2026-11-09-db6f-prefix-m14-completed-files.json"
+    },
+    {
+      "original": "scripts/db6f-prefix-tail-shared-worker.mjs",
+      "snapshot": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker-before-iteration.mjs",
+      "sha256": "ab5767dcd1660a8a2729de45c852e9abd2484e8f9c95678de6e6f9da2bfad42a",
+      "source_binding": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer_tail_0004.json.gz:source_sha256"
+    }
+  ]
+}

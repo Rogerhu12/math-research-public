@@ -1,0 +1,27 @@
+{
+  "status": "CHILD_COMPLETED_AWAITING_ROOT_TOOL_OBSERVATION",
+  "binding": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-matched-cut-guarded-launch-01.json",
+  "binding_sha256": "eeb885a6382575888ed095a455aa2a99bf06b582d6758fd1d1c2a8d0de5b45c4",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-run-bound-command.py",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01-input-bindings.json"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "stem": "2026-11-09-db6f-root-matched-cut-s63of64-guard-01",
+  "wrapper_sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd",
+  "minimum_free": 536870912,
+  "resume_free": 805306368,
+  "poll_seconds": 2,
+  "events": [
+    {
+      "event": "started",
+      "elapsed_seconds": 0.0006751230030204169
+    }
+  ],
+  "numerical_inputs_or_argv_changed": false,
+  "tool_exit_observed_by_root": false,
+  "child_pid_and_process_group": 5,
+  "actual_child_exit_code": 0,
+  "seconds": 1196.7282122920005
+}

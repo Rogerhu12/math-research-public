@@ -1,0 +1,122 @@
+{
+  "schema": "78718-read-only-failed-cp-last-dn-evidence-v1",
+  "status": "PASS_FAILED_CP_STORAGE_AND_LAST_FINITE_DN_ONLY",
+  "observed_utc": "2026-11-10T05:51:57.677493+00:00",
+  "scope": "Original validate_inputs, polynomial_endpoint, check_packet and first_packet only. No source RHS/BVP/DN called. This is not final_audit and does not pass the rejected runtime marshal gate.",
+  "auditor": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-direct-csc.py",
+    "bytes": 31225,
+    "sha256": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0"
+  },
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-launch.json",
+    "bytes": 101683,
+    "sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671"
+  },
+  "failed_CP": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02.json.gz",
+    "bytes": 62486,
+    "sha256": "b04af907d3f3552a484115bfd79cba4ef0848874ba1859f1335aae8b91411b03"
+  },
+  "solver_success": false,
+  "fixed_physical_fields_identical_to_seed": [
+    "angular_chart",
+    "chart",
+    "frozen_profile",
+    "gauge_amplitude",
+    "meridian_length",
+    "physical_port_sha256",
+    "physical_tail_cut",
+    "physical_tail_parameters",
+    "warp_reference_q"
+  ],
+  "coefficient_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_00.npy.gz",
+      "bytes": 4119049,
+      "sha256": "ed70de68c1ddd04c22968bfe7a3790051603e0777580f68243b3fcfaf8a79099"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_01.npy.gz",
+      "bytes": 4116636,
+      "sha256": "f6c1ecd63133158b80efaf86278944bbeb46b90c82eb84c181fe5a5bee6f72b6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_02.npy.gz",
+      "bytes": 4048612,
+      "sha256": "505d66331db1fc1ebbd6909e7a72364a06c1778f67deb32d8b4286cb80b8c338"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_coeff_03.npy.gz",
+      "bytes": 286585,
+      "sha256": "244b5e061cc1fa81beb49e15a77c7cfc9fb1067ac57653957f0160e3e526790e"
+    }
+  ],
+  "polynomial": {
+    "shape": [
+      6,
+      6343,
+      43
+    ],
+    "all_coefficients_finite": true,
+    "minimum_span": 2.6325206967516696e-05
+  },
+  "last_DN": {
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_tail_0003.json.gz",
+      "bytes": 254263,
+      "sha256": "b26fff3dc70e052ef68a25f3008c36e180c3037311c30fe8e5a9a29b2775fe79"
+    },
+    "residual": 6.168952323652266e-10,
+    "history_rows": 1,
+    "last_history_norm": 6.168952323652266e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 8,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "first_DN": {
+    "status": "PASS_FIRST_ACTUAL_M14_DN_ONLY",
+    "first_request_binding": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "d8126d5b269123bc9056831796f58c3061ad0773a54bebd3f17ea9352524c96e"
+    },
+    "packet": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02_tail_0001.json.gz",
+      "bytes": 254066,
+      "sha256": "123d6c95c9dfd23a1b537755e1de23009b52e26465c1a5bc4f330125e9e813c7"
+    },
+    "residual": 5.397833270174952e-10,
+    "history_rows": 1,
+    "last_history_norm": 5.397833270174952e-10,
+    "Jacobian_entries": 616,
+    "jets_fields": 17,
+    "audit_fields": 0,
+    "states": [
+      865,
+      28
+    ],
+    "raw_states": [
+      13,
+      28
+    ],
+    "scope": "Original finite DN only; last history base norm need not equal final residual."
+  },
+  "runtime_audit_rejection": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-run02-runtime-audit-rejection-01.json",
+    "bytes": 901,
+    "sha256": "f8fe0851ffc75d529fcb08c45c153aaf0da9266cff7ab9fc50ce4d22fedac6c7"
+  },
+  "runtime_identity_gate_passed": false,
+  "BVP_DN_ODE_calls_in_this_audit": 0,
+  "README_G5_completed": false
+}

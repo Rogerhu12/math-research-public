@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-actual-completion-receipt-v1",
+  "actual_exit_code": 0,
+  "session_id": null,
+  "initial_chunk_id": "66ef2b",
+  "final_chunk_id": "66ef2b",
+  "source": {
+    "path": "scripts/fd2d_gc_r136_rebind_profile_v2.py",
+    "bytes": 5598,
+    "sha256": "7c232ffe0ea353bbe7d58509686937e7ecc40e2d3c98bcd2084094e4b7319847"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic34-accurate-profile-rebind-01-report.json",
+    "bytes": 24888,
+    "sha256": "2b0f46004e28b8a8b17faf7d6187aaf03064e44607d91ae123fcd1fcee1e6894"
+  },
+  "seconds": 0.46694858399860095,
+  "peak_rss_kib": 86280,
+  "passed": true,
+  "receipt_written_after_observed_completion": true,
+  "mathematical_computation_repeated": false
+}

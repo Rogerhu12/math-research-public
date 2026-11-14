@@ -1,0 +1,101 @@
+{
+  "all_four_sets_exactly_equal_frozen_original_sets": true,
+  "allpresent_by_idx_and_loose_names": {
+    "count": 115682,
+    "sorted_hex_lf_sha256": "860956c481ac8393d0effa70a667c620e5fc370d75f324e8c687f4ff2a92da47",
+    "sorted_raw_sha256": "c1e10c30d3976e78dcee158c6dc2d4a64571af6f703abe197090d1743a9cfb62"
+  },
+  "current_owners_equal_root_reported_pre_expiry_owners": true,
+  "current_pack_bytes": 5261709057,
+  "current_pack_count": 14,
+  "frozen_oid_sets_sha256": "c7701e26f4f56ff5e52050696f19064262bd497df77471d9fa2667dc9940ddf5",
+  "frozen_preflight_sha256": "f6be4675466dd82f9589fc10cb16021cd09d38bc56bca07b5e5eaf9f40b839bf",
+  "git_mutations_performed": false,
+  "git_subprocess_calls": 0,
+  "indexed": {
+    "count": 115207,
+    "sorted_hex_lf_sha256": "70e62550e0fc27ee235cb3025f3a745ae1c177fd678979e5cbe963d17b69880a",
+    "sorted_raw_sha256": "8367a38277a5a96001422d7e23383b5d444be3740520eb49b0b6205daa72bf82"
+  },
+  "limitations": [
+    "Original timestamps were not saved in this reviewer's frozen preflight; root's restoration statement is not independently certified here.",
+    "Object-set comparison reads indices and loose filenames, not decompressed object contents."
+  ],
+  "loose_contents_read": false,
+  "midx": {
+    "all_owners_have_matching_oid_and_exact_idx_offset": true,
+    "bytes": 3227612,
+    "checksum_passed": true,
+    "exact_union_of_named_pack_indices": true,
+    "oid_set": {
+      "count": 115207,
+      "sorted_hex_lf_sha256": "70e62550e0fc27ee235cb3025f3a745ae1c177fd678979e5cbe963d17b69880a",
+      "sorted_raw_sha256": "8367a38277a5a96001422d7e23383b5d444be3740520eb49b0b6205daa72bf82"
+    },
+    "pack_names": [
+      "pack-01c7b521e18b1dab97595e67b90754354a10c1c9",
+      "pack-086b47066f41671e835ae463c8037acbabedb415",
+      "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5",
+      "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0",
+      "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb",
+      "pack-272fb272986d6212ef30c01377e464af3d3bb318",
+      "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd",
+      "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+      "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463",
+      "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2",
+      "pack-76b715dc869afd97aee5bdc32807aa6364a875ed",
+      "pack-9d5ff02d81fbebba0921f7d00bed317375405e74",
+      "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2",
+      "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4"
+    ],
+    "selected_owner_counts": {
+      "pack-01c7b521e18b1dab97595e67b90754354a10c1c9": 18,
+      "pack-086b47066f41671e835ae463c8037acbabedb415": 2950,
+      "pack-0f524eb7958f201e4f000b748b34dbf1323ba5b5": 1671,
+      "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0": 66,
+      "pack-25c766784fd2468a7cf20f3bf4623a2584f34adb": 2,
+      "pack-272fb272986d6212ef30c01377e464af3d3bb318": 40,
+      "pack-2bb64ed7669d57870b10e387d4548e2513f95bfd": 90283,
+      "pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de": 16860,
+      "pack-4ab1ab0edbf48f65e3f9e9135aecf389d71ff463": 935,
+      "pack-76934ee0fd29cb872d3e46ceface34936b10b7f2": 782,
+      "pack-76b715dc869afd97aee5bdc32807aa6364a875ed": 4,
+      "pack-9d5ff02d81fbebba0921f7d00bed317375405e74": 1,
+      "pack-e07605da004ea53b3f0615dd32b445802bb1bcd2": 37,
+      "pack-f0e5ebb750c3ab0ffc78b148296f87f8c1324eb4": 1558
+    },
+    "sha256": "ac82e3db8b789f4091175ae146ec7c1a873b0a38f91d4684638e6fd5ccf2e594"
+  },
+  "midx_owners_respect_preserved_partition_by_membership_and_disjointness": true,
+  "new_full_oid_snapshot_created": false,
+  "new_pack_name_exact": "pack-181ee1706f018d61bf0f1640334ebaf1a4d8ecf0",
+  "ordinary": {
+    "count": 1708,
+    "sorted_hex_lf_sha256": "daf51bae5f61fbf6cd26a9a0016f403bf839f67ebabc33bbb63abda43a871d45",
+    "sorted_raw_sha256": "0f35460491d65996020f0ac42d071ff09bbb22cdfd42277d18d128f4542d47cd"
+  },
+  "ordinary_promisor_intersection": 0,
+  "original_mtime_restore_independently_checked": false,
+  "pack_contents_read": false,
+  "promisor": {
+    "count": 113499,
+    "sorted_hex_lf_sha256": "2f14072c5cd934c1e2c034b866a8bc7b120cecad4aa5a95a9dea129f485edebc",
+    "sorted_raw_sha256": "564e8cc1115c6441b341d98ace3b2f058c6d9864f387e2fcd44f5501b4433ea2"
+  },
+  "read_interval_stable": true,
+  "reader_script_sha256": "db3b33fd4426aef7c5c158fb3c1f494a367f4b70f45d9b15f80c266f623817be",
+  "refs_and_heads_raw_files_exactly_unchanged": true,
+  "refs_and_heads_sha256": "91809fb7ef239baaaf5b8039da30f44680cf6d19b64015119df9cb58910b3e6e",
+  "removed_pack_names_exact": [
+    "pack-46684770d20796511bfae2110567a4142002db43",
+    "pack-b3912fcc6bb924c11f068dafb20f865248f1fa61"
+  ],
+  "rescue_exactly_equals_joint_missing_66": true,
+  "rescue_idx_sha256": "cebc48b574eff91c393f4d44cc3843d05c3c3a60334f380f39b9769d335fb8ef",
+  "rescue_sorted_hex_lf_sha256": "4c75c24571f764148c47a710ebc08a7a3c986cbaf5017cec0a4fc1a2469d59b8",
+  "root_report_sha256": "7c1e20145df61c3ef1563f93eb3f9063ba61b3b34d61c32415ca41773688ef24",
+  "source_script_sha256": "ce6db9088ee53b5c86e0591d928dcb697570a50bb87df143638b80e92c6a7070",
+  "status": "PASS_INDEPENDENT_READ_ONLY_POST_MAINTENANCE_CHECK",
+  "unchanged_retained_idx_hashes": true,
+  "unchanged_retained_pack_sizes": true
+}

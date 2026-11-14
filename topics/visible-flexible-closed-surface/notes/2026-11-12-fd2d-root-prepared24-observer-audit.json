@@ -1,0 +1,29 @@
+{
+  "schema": "fd2d-executed-launch-and-owned-observer-static-audit-v1",
+  "observed_utc": "2026-11-12T17:13:54.107749+00:00",
+  "input_receipt": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-process-receipt.json",
+    "sha256": "905d6fc8ea37707e134f8137e0e2e8fe5daf65ed07d9f0e36b5db0a72ffb13ab"
+  },
+  "observer_source": {
+    "path": "scripts/fd2d-run-monitored-command-v2.py",
+    "sha256": "86527392fc0e200065f76f49dbf4e4e195ac92293ee48ef1fc7cd01dd7172d44"
+  },
+  "actual_argv_contains_timeout_command": false,
+  "observer_static_semantics": {
+    "Popen": true,
+    "poll_and_wait": true,
+    "telemetry_sampling_sleep": true,
+    "sends_termination_signal": false,
+    "sets_deadline_or_resource_limit": false
+  },
+  "receipt_observed_limits": {
+    "cpu_seconds": "unlimited",
+    "resident_set_bytes": "unlimited",
+    "address_space_bytes": "unlimited"
+  },
+  "actual_child_returncode": -9,
+  "actual_child_seconds": 297.8925487730012,
+  "termination_cause": "Unknown; this audit only excludes an explicit timeout/signal in the observed local argv and owned observer source",
+  "no_inference_from_peak_rss_host_memory_or_wall_duration": true
+}

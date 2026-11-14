@@ -1,0 +1,148 @@
+{
+  "schema": "fd2d-three-field-interface-check-v1",
+  "scope": "Floating formula and genuine two-jet interface check. No continuous certificate or solved nonround prefix.",
+  "sources": [
+    {
+      "path": "scripts/fd2d-metric-three-field-interface-check.py",
+      "bytes": 8561,
+      "sha256": "95efb1837f8868d76aa79719cd427a7bdec6e837d15c096fbf528151f00b794d"
+    },
+    {
+      "path": "scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "scripts/fd2d_flat_developable_tail.py",
+      "bytes": 8004,
+      "sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3"
+    }
+  ],
+  "flat": {
+    "amplitude": 1.0,
+    "radii": [
+      0.32,
+      0.34,
+      0.4,
+      0.58,
+      0.8
+    ],
+    "angles": 1024,
+    "zero_n_samples": 3408,
+    "zero_entire_shape_samples": 3408,
+    "residual_max": {
+      "G": 1.7763568394002505e-15,
+      "Rm": 7.105427357601002e-15,
+      "Rn": 6.217248937900877e-15,
+      "connection_operator_norm": 6.61081645103266e-15
+    },
+    "actual_twojet_errors": {
+      "X_s": 0.0,
+      "X_u": 0.0,
+      "X_ss": 1.7763568394002505e-15,
+      "X_su": 4.440892098500626e-16,
+      "X_uu": 6.661338147750939e-16
+    },
+    "rotated_actual_twojet_max": {
+      "0.0": 1.7763568394002505e-15,
+      "0.37": 1.7763568394002505e-15,
+      "1.2": 8.881784197001252e-16
+    }
+  },
+  "moving_chart": {
+    "x": [
+      0.0,
+      0.05,
+      0.15,
+      0.25
+    ],
+    "angles": 512,
+    "S": "x + 0.1*x^2",
+    "U": "xi + 0.07*x*(1-x)*sin(2*xi)",
+    "minimum_J": 1.0,
+    "minimum_U_xi": 0.97375,
+    "residual_max": {
+      "G": 2.6645352591003757e-15,
+      "Rm": 7.993605777301127e-15,
+      "Rn": 5.773159728050814e-15,
+      "connection_operator_norm": 6.61081645103266e-15
+    },
+    "angular_residual_max": {
+      "G_u": 2.1316282072803006e-14,
+      "Rm_u": 8.348877145181177e-14,
+      "Rn_u": 8.171241461241152e-14,
+      "connection_u_operator_norm": 7.169712337461737e-14
+    }
+  },
+  "native_jvp": {
+    "seed": 129,
+    "direction_scale": 0.1,
+    "finite_difference": [
+      {
+        "step": 0.02,
+        "errors": {
+          "G": 1.0732946058578108e-06,
+          "Rm": 0.0003466187231122575,
+          "Rn": 0.00040432851871319286,
+          "connection_vector": 0.0003193219630039934
+        }
+      },
+      {
+        "step": 0.01,
+        "errors": {
+          "G": 2.6831961674744775e-07,
+          "Rm": 8.66511391635072e-05,
+          "Rn": 0.00010107770398715132,
+          "connection_vector": 7.98269959449982e-05
+        }
+      },
+      {
+        "step": 0.005,
+        "errors": {
+          "G": 6.70799382707088e-08,
+          "Rm": 2.166256273206102e-05,
+          "Rn": 2.5269149403150948e-05,
+          "connection_vector": 1.995653057029756e-05
+        }
+      },
+      {
+        "step": 0.0025,
+        "errors": {
+          "G": 1.677059369153966e-08,
+          "Rm": 5.415627734706163e-06,
+          "Rn": 6.317269926725544e-06,
+          "connection_vector": 4.989118881582044e-06
+        }
+      }
+    ]
+  },
+  "fourier": {
+    "input_order": 7,
+    "output_order": 14,
+    "full_product_error": 1.9451107391432743e-13,
+    "full_product_jvp_error": 2.384759056894836e-13,
+    "exact_dyadic_high_mode_witness": {
+      "epsilon": 0.125,
+      "cosine_coefficients": [
+        0.0,
+        0.0,
+        -0.0078125
+      ],
+      "low_projected_coefficients": [
+        0.0,
+        0.0
+      ],
+      "nonzero_omitted_mode": -0.0078125
+    },
+    "rank_one_projection_counterexample": {
+      "projected_l": 0.5,
+      "projected_m": 0.0,
+      "projected_n": 0.5,
+      "projected_G": [
+        0.25
+      ]
+    }
+  },
+  "implementation_checks_passed": true,
+  "seconds": 2.922935855000105
+}

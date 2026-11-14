@@ -1,0 +1,50 @@
+{
+  "scope": "Physical coast-length parameter and exact piece-chart JVP for frozen v4.\n\nT changes one shallow coast. The final deep coast compensates its radial\ndrop so every candidate has the SAME cut radius and first/second jets.\nThe parameter is for outer nonlinear design, not for a claimed isometric\nfamily: a(s) changes with T and must be frozen after a solution is selected.\n",
+  "source_sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca",
+  "summary": {
+    "source_file": "2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+    "source_sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d",
+    "T0": 0.016570820467696108,
+    "vm": -0.09983341664682815,
+    "vd": -0.9999995000000417,
+    "deep_length_at_T0": 0.0374855869469202,
+    "full_radial_feasible_interval": [
+      0.0,
+      0.3920519916344375
+    ],
+    "suggested_outer_design_interval": [
+      0.0,
+      0.08
+    ],
+    "deep_length_T": -0.09983346656355728,
+    "total_length_T": 0.9001665334364427,
+    "background_height_T": 0.9949043318281012,
+    "background_height_with_tail_at_T0": 1.2150918501962928,
+    "background_height_with_tail_at_0": 1.1986054691310362,
+    "background_height_with_tail_at_008": 1.2781978156772844,
+    "variable_indices": {
+      "shallow": 85,
+      "down": 86,
+      "deep": 87,
+      "brake": 88
+    },
+    "cut_jets_fixed": true,
+    "core_a0_fixed": true,
+    "whole_metric_fixed_across_T": false,
+    "actual_nonlinear_height_or_curvature_bound": false
+  },
+  "finite_jvp_check": {
+    "step": 1e-06,
+    "piece_samples": 17,
+    "max_absolute_errors": {
+      "a": 1.1102230246251565e-10,
+      "a_s": 2.7755575615628914e-10,
+      "a_ss": 4.884981308350689e-09,
+      "length": 3.967146056105264e-12,
+      "s0": 2.8755664516211255e-11,
+      "K": 6.99449853591716e-09,
+      "c": 6.740291103035645e-10
+    }
+  },
+  "source_dependency_sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "78718-author-observed-readonly-tool-exit-v1",
+  "observer": "/root/numerical_recovery",
+  "status": "observed-process-completed",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v1.py",
+    "--common-map",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/closed-map.json",
+    "--geometry",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+    "--target",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+    "--metric-certificate",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-metric.json",
+    "--tail-manifest",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-manifest.json",
+    "--bridge",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/bridge.json",
+    "--point-report",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json",
+    "--common-observation",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-common-cut-01-observed-exit.json",
+    "--out",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-common-axis-lower-01.json"
+  ],
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "initial_tool": {
+    "chunk_id": "1414fc",
+    "wall_time_seconds": 1.000721508,
+    "session_id": 51190,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "actual_tool": {
+    "chunk_id": "263567",
+    "wall_time_seconds": 0.000016214,
+    "exit_code": 1,
+    "original_token_count": 220,
+    "output": "Traceback (most recent call last):\n  File \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v1.py\", line 222, in <module>\n    main()\n  File \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v1.py\", line 218, in main\n    run(p.parse_args())\n  File \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v1.py\", line 132, in run\n    require(b.enc(left) == bridge['gap_at_left'] and b.enc(right) == bridge['gap_at_right'] and\n  File \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v1.py\", line 34, in require\n    raise ValueError(message)\nValueError: Bridge root proof record changed\n"
+  },
+  "scope": "First exact-common-axis checker failed a metadata identity assertion: serialized length endpoints are outward dyadic hulls, not the original Decimal-seed interval endpoints. No report or mathematical success was produced. Frozen v1 retained."
+}

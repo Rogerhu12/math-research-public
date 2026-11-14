@@ -1,0 +1,87 @@
+{
+  "schema": "fd2d-metric-recovered-closed-source-group-v1",
+  "files": [
+    {
+      "file": "scripts/fd2d_gc_exact_profile.py",
+      "bytes": 20375,
+      "sha256": "f5d291617078cbe71109c30c5b24a973e85d0cb2bbf39068eb41f659b8fdb041"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-exact-profile-02.json",
+      "bytes": 7744,
+      "sha256": "389ec0c828cbb88e25d0062cea7e95ee4836fd02f9c33d99150269c10537d88a"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-exact-profile-02.packet.json.gz",
+      "bytes": 242960,
+      "sha256": "4ce4afa2e4595e19f5644be649e32c52821a0e2db8b10b0e2ac7f7ec763d1ca0"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-exact-profile-and-clock.md",
+      "bytes": 7596,
+      "sha256": "b29762438c3551063910ce7a1f34979dd95fb3a6aec60f18cb0df78692e211c0"
+    },
+    {
+      "file": "scripts/fd2d_gc_interval_models.py",
+      "bytes": 11260,
+      "sha256": "aa0942e1e3acf08d631d7b2c394bb50e63eedebde9a55ef9d3c390fb88c6f82d"
+    },
+    {
+      "file": "scripts/fd2d-metric-gc-primitive-continuous.py",
+      "bytes": 29608,
+      "sha256": "f2af57b123fac83fa0025197954950361f1ebe3865ed801db9e0b10f0d8939b6"
+    },
+    {
+      "file": "scripts/fd2d-metric-gc-primitive-continuous-resume.py",
+      "bytes": 4089,
+      "sha256": "4600ca9a5e393d0d8a4b1147c294d7a0449a9adfccd389cda6d246dda0a67f7a"
+    },
+    {
+      "file": "scripts/fd2d-metric-gc-primitive-continuous-preclamp.py",
+      "bytes": 29413,
+      "sha256": "c28ba65343ebcfe052a20b35a3fe8720577e65efdae0ac993369f0257b30bd23"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-diagnostic-01-failure.json",
+      "bytes": 810,
+      "sha256": "69f5b3bddd72f3d3105c308ca5eb0d126cf24f330e4652468198b7818974f707"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-diagnostic-02.json",
+      "bytes": 5800,
+      "sha256": "5df06a2deaec2b053474d48379d59731ba8d681491d2c6a20b93810652760553"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-diagnostic-02.rows.jsonl.gz",
+      "bytes": 1129,
+      "sha256": "62751b32571cadc75882f61bfb8d52eafd6e89c19ce68a908fa81aa79ef6e919"
+    },
+    {
+      "file": "notes/2026-11-12-fd2d-metric-gc-continuous-primitive-proof.md",
+      "bytes": 11581,
+      "sha256": "0e1643019365cd59432c5c01de51f671be96fe2321e2be2b3a7400a7541a1a65"
+    }
+  ],
+  "active_excluded": [
+    "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-full-01.rows.jsonl.gz",
+    "notes/2026-11-12-fd2d-metric-gc-p148-small01-primitive-continuous-full-01.json"
+  ],
+  "actual_runs": [
+    {
+      "session": 34485,
+      "exit_code": 0,
+      "scope": "exact physical profile, every 89 piece"
+    },
+    {
+      "session": 41851,
+      "exit_code": 1,
+      "scope": "failed preclamp square-root enclosure; archived source"
+    },
+    {
+      "session": 9547,
+      "exit_code": 0,
+      "scope": "continuous cell189, all angles"
+    }
+  ],
+  "active_session": 44235
+}

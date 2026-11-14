@@ -1,0 +1,299 @@
+{
+  "schema": "fd2d-R180-one-actual-cell-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-connection-endpoint-primitive-check.py",
+    "bytes": 6477,
+    "sha256": "8839a2173e40f40811c2f7fa62734e6467ecb65262b580777ca18f9bd4123df0"
+  },
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-tail-accurate-last-cell-30-01-native-definition.json",
+    "bytes": 59298,
+    "sha256": "5853eda23c948549b871777ac3aabbb298c8f76808267ab45c114432b9f6d8db"
+  },
+  "profile_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-accurate-profile-rebind-02-packet.json.gz",
+    "bytes": 381917,
+    "sha256": "a6215af63b98cc8409faf9dbb46c039f86c1ef9e9bc6fedacdd62514ba3dcb5a"
+  },
+  "passed": true,
+  "whole_F_J_BVP_body_evaluated": false,
+  "whole_surface_certificate": false,
+  "actual_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic30-trial-back01-a01-accepted.npz",
+    "bytes": 133735,
+    "sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "complete_field_binding_sha256": "c6194df9c29463973465784e4657672a706330bad3cb99eb7255196fe09cb791",
+  "actual_cell_definition": {
+    "cell": 69,
+    "left_exact": [
+      "3056556828915455",
+      "4503599627370496"
+    ],
+    "right_exact": [
+      "6395922550253195",
+      "9007199254740992"
+    ],
+    "length_exact": [
+      "282808892422285",
+      "9007199254740992"
+    ],
+    "normalized_label": "s=left+(right-left)*t; 0<=t<=1"
+  },
+  "primitive": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-primitive.json",
+    "bytes": 1720,
+    "sha256": "aa1da36cc27432d1abfa4ef982d5ad00a20e9557f78df2da6209f0336d639308"
+  },
+  "primitive_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_connection_endpoint_primitive.py",
+    "bytes": 8040,
+    "sha256": "2a5f3e966751f787ce53bb7ee420cfc3480be78e925fe16ab203965a15f3931b"
+  },
+  "exact_endpoint_zero": [
+    true,
+    true
+  ],
+  "nonzero_actual_q": [
+    {
+      "lower_binary": [
+        "386673198230181041293673414069314844952029112987606349651136668629612715097",
+        -255
+      ],
+      "upper_binary": [
+        "386673198230184433379986798259579229681317772381260731502462672633322101849",
+        -255
+      ],
+      "lower_display": 0.00667874983130658,
+      "upper_display": 0.006678749831306639
+    },
+    {
+      "lower_binary": [
+        "7444665480030639363994812055463234118103963492568177240453105000947135601",
+        -253
+      ],
+      "upper_binary": [
+        "7444665480030705472905215884106380814015200811686687406213154177760638065",
+        -253
+      ],
+      "lower_display": 0.0005143470873747016,
+      "upper_display": 0.0005143470873747062
+    },
+    {
+      "lower_binary": [
+        "0",
+        0
+      ],
+      "upper_binary": [
+        "0",
+        0
+      ],
+      "lower_display": 0.0,
+      "upper_display": 0.0
+    }
+  ],
+  "physical_drift": {
+    "lower_binary": [
+      "16267360615840532105080475",
+      -86
+    ],
+    "upper_binary": [
+      "2033420076980066621449097",
+      -83
+    ],
+    "lower_display": 0.2102507081067495,
+    "upper_display": 0.21025070810674953
+  },
+  "actual_point_H_norm_upper": {
+    "lower_binary": [
+      "83809872821720226471504613117603087112286015912401670473184145098451960139749",
+      -257
+    ],
+    "upper_binary": [
+      "83809872821720226471504613117603087112286015912401670473184145098451960139749",
+      -257
+    ],
+    "lower_display": 0.36189809413470236,
+    "upper_display": 0.36189809413470236
+  },
+  "actual_point_E": [
+    {
+      "lower_binary": [
+        "73219964753029990522142111038320925876694925737201291814545628545236289153899",
+        -257
+      ],
+      "upper_binary": [
+        "73219964753030537274456504470961352973527136825753314325024897446353501383531",
+        -257
+      ],
+      "lower_display": 0.3161699786026206,
+      "upper_display": 0.31616997860262297
+    },
+    {
+      "lower_binary": [
+        "-25109592649031059619884778717932963611862106011851805452068349854275635827935",
+        -256
+      ],
+      "upper_binary": [
+        "-25109592649030966927861292874243040510153823320073404831271397073879148844255",
+        -256
+      ],
+      "lower_display": -0.21685067446679265,
+      "upper_display": -0.21685067446679185
+    },
+    {
+      "lower_binary": [
+        "85352619324573416082376717324279444823044925748458066588279255500362931370861",
+        -265
+      ],
+      "upper_binary": [
+        "85352619324574169112059714962310146384281109764580929018165386317395616725869",
+        -265
+      ],
+      "lower_display": 0.001439686732628569,
+      "upper_display": 0.0014396867326285819
+    }
+  ],
+  "actual_point_E_norm_upper": {
+    "lower_binary": [
+      "88787617220966431698326347922511851553677045474422638115945395626327101872489",
+      -257
+    ],
+    "upper_binary": [
+      "88787617220966431698326347922511851553677045474422638115945395626327101872489",
+      -257
+    ],
+    "lower_display": 0.38339241396273616,
+    "upper_display": 0.38339241396273616
+  },
+  "direct_derivative_formula_minus_reduced_formula": [
+    {
+      "lower_binary": [
+        "-707665621212513497538627394237117343396063607122013728659812001",
+        -257
+      ],
+      "upper_binary": [
+        "707665621228768444409879454176077867323374108656244276238668127",
+        -257
+      ],
+      "lower_display": -3.0557597927184425e-15,
+      "upper_display": 3.055759792788633e-15
+    },
+    {
+      "lower_binary": [
+        "-399634225862256146145173077812474970199503065887289023273110459",
+        -258
+      ],
+      "upper_binary": [
+        "399634225989725590265047739156687333589299467070202140813161541",
+        -258
+      ],
+      "lower_display": -8.628271337327819e-16,
+      "upper_display": 8.628271340079938e-16
+    },
+    {
+      "lower_binary": [
+        "-1214302437605113705730231762760545541112403753464374001387390791",
+        -265
+      ],
+      "upper_binary": [
+        "1214302437112830772201506003960126075710120223639835586370255033",
+        -265
+      ],
+      "lower_display": -2.0482266656288706e-17,
+      "upper_display": 2.0482266647985113e-17
+    }
+  ],
+  "continuous_rectangle": {
+    "t": [
+      "32767/65536",
+      "32769/65536"
+    ],
+    "xi": [
+      "3512806635607163/4503599627370496",
+      "3512808783090811/4503599627370496"
+    ],
+    "angle_unit": "radians",
+    "E": [
+      {
+        "lower_binary": [
+          "72936314722467305906573770092034351783004548143327201361163739427980518440979",
+          -257
+        ],
+        "upper_binary": [
+          "73503615340211354838236389178867159100592050996794793475628025070452840153107",
+          -257
+        ],
+        "lower_display": 0.31494515386532207,
+        "upper_display": 0.3173948057434455
+      },
+      {
+        "lower_binary": [
+          "-100791142031792946908781463491034568910701121767014092158400092619451834114225",
+          -258
+        ],
+        "upper_binary": [
+          "-100085594844791762902060101202221034208208901014110089263703436708887167574193",
+          -258
+        ],
+        "lower_display": -0.21761232286175705,
+        "upper_display": -0.2160890167541283
+      },
+      {
+        "lower_binary": [
+          "83523361558186280613777157888459134237082897271750910225933704031956725662529",
+          -265
+        ],
+        "upper_binary": [
+          "87181817686995702278921077593656116501458734537594164593001126869344154551105",
+          -265
+        ],
+        "lower_display": 0.0014088316966886572,
+        "upper_display": 0.0014705407665711113
+      }
+    ],
+    "E_norm_upper": {
+      "lower_binary": [
+        "44560663771734085553580075429523811735643051307499018815642244672299191194271",
+        -256
+      ],
+      "upper_binary": [
+        "44560663771734085553580075429523811735643051307499018815642244672299191194271",
+        -256
+      ],
+      "lower_display": 0.38483340325958615,
+      "upper_display": 0.38483340325958615
+    },
+    "Q_norm_upper": {
+      "lower_binary": [
+        "100485205094894174111504488396929515427579668077309216261100384205544825088571",
+        -263
+      ],
+      "upper_binary": [
+        "100485205094894174111504488396929515427579668077309216261100384205544825088571",
+        -263
+      ],
+      "lower_display": 0.006779743503849541,
+      "upper_display": 0.006779743503849541
+    },
+    "physical_drift": {
+      "lower_binary": [
+        "903012297",
+        -32
+      ],
+      "upper_binary": [
+        "903027531",
+        -32
+      ],
+      "lower_display": 0.2102489343378693,
+      "upper_display": 0.2102524812798947
+    },
+    "exact_G_scope": "complete R153 weight identically one; terminal weight zero"
+  },
+  "actual_q_is_full_function_not_fitted": true,
+  "actual_E_does_not_consume_n_s_m_s": true,
+  "whole_cell_or_global_budget_asserted": false,
+  "actual_field_unchanged": true,
+  "seconds": 0.47681855800328776,
+  "peak_rss_kib": 95196
+}

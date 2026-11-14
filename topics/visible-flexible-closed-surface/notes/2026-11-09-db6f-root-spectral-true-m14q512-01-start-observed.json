@@ -1,0 +1,26 @@
+{
+  "status": "ACTUAL_TRUE_M14_CHILD_STARTED_NO_COMPLETION_CLAIM",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T20:33:57.909830+00:00",
+  "session_id": 7667,
+  "actual_start_receipt": "c0e142",
+  "actual_child_and_cap_receipt": "3daa39",
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-guard-launch.json",
+    "bytes": 35932,
+    "sha256": "e47b15876602732ffaadc15322cc7120b0ad560a1cd1abe659397e9383ca58a2"
+  },
+  "recoverable_worktree_preflight": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-true-m14-66-worktree-start-observed.json",
+    "bytes": 19372,
+    "sha256": "25c80cb2253be8f51c6a8125dfd10d593fd899e494033c23cb7b57dffb90d391"
+  },
+  "effective_per_process_DATA_limits": [
+    3221225472,
+    3221225472
+  ],
+  "original_Node_heap_MiB": 1536,
+  "mathematical_argv_unchanged": true,
+  "actual_final_tool_exit_observed": false,
+  "scope": "Actual start only; no successful DN, BVP, prefix or G5 inferred."
+}

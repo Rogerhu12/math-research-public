@@ -1,0 +1,150 @@
+{
+  "schema": "fd2d-inverse-q-tail-provider-report-v1",
+  "scope": "Actual floating constructor and exact-source identity check. This is not a nonlinear solution or a continuous metric/reach certificate.",
+  "generator_sha256": "d659f9ed1ce34888ea6195d594cbb12f6127da5a80b55d9a4d9f4c23b49a6592",
+  "config_file": "2026-11-12-fd2d-inverse-q-lowcut-full160-02-config.json",
+  "config_sha256": "13a59a2d805ea70a95c910e79f15d36e5c2b1d67abc7d36b540298f8858aaa5c",
+  "physical_definition_sha256": "1b02eee742789de96381c9751fc1a1949ae47af9c141a1d419c18d064aad1f4a",
+  "source_files": {
+    "fd2d-inverse-q-tail.mjs": "2657588d607c31e23bb3bce534e2484f4a7695e3c7a1c3199b6f4e8ba03ffeb9",
+    "fd2d-metric-inverse-q-bridge.mjs": "a6b1492410ae82d62c66e794c273847d16ee8310a65b59369b79385d53e6b006",
+    "fd2d-metric-inverse-q-buffer.mjs": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "fd2d-bounded-tail-point-cache.mjs": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07"
+  },
+  "original_source_object_preserved": true,
+  "cells": 160,
+  "replace_outer_cells": 1,
+  "source_cells": 160,
+  "old_inner_port": {
+    "r": 0.3808860058501116,
+    "w": 0.003991159062404631,
+    "wr": -0.00010478462338215439
+  },
+  "new_inner_port": {
+    "r": 0.3808860058501116,
+    "w": 0.003991159062404631,
+    "wr": -0.00010478462338213251
+  },
+  "cut": {
+    "r": 0.65,
+    "w": 0.0010000000000000002,
+    "wr": -0.010769230769230777
+  },
+  "stats": {
+    "rCut": 0.65,
+    "rCuff": 0.32,
+    "oldCut": 0.3236028857837205,
+    "wCut": 0.001,
+    "width": 0.33,
+    "curvatureBound": 7,
+    "alpha": 13.155976171232949,
+    "actualWidth": 0.33,
+    "minimumWarpWidth": null,
+    "meridianLength": 0.33235258742514445,
+    "heightSpan": 0.022303126042379575,
+    "cutRadiusError": 0,
+    "cutSlopeError": 2.168404344971009e-19,
+    "cutSecondError": -8.673617379884035e-18,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [],
+    "baseMinimumWarpWidth": 0.1334398790833955,
+    "alphaScope": "Only the unchanged original finite physical cells; the inverse-Q bridge uses affine radius",
+    "inverseQ": {
+      "definitionSHA": "1b02eee742789de96381c9751fc1a1949ae47af9c141a1d419c18d064aad1f4a",
+      "replaceOuterCells": 1,
+      "metadata": {
+        "kind": "finite_inverse_q_buffer",
+        "degree": 32,
+        "left": 0.3808860058501116,
+        "right": 0.65,
+        "innerW": 0.003991159062404631,
+        "outerWTarget": 0.001,
+        "innerLogarithmicDerivative": -0.02625418374556657,
+        "outerLogarithmicDerivative": -10.769230769230768,
+        "gamma": 0.0016856938465964475,
+        "rawLogRatio": -1.3840816806659524,
+        "endpointCalibration": 1.1802825383711024e-10,
+        "quadratureGrid": 1024,
+        "exactDefinition": "positive-k weighted moment; rational log derivative primitive; S5 endpoint calibration",
+        "numericalOnly": true,
+        "originalPolynomialSolvesCalibratedEquation": false
+      },
+      "actualInnerPort": {
+        "r": 0.3808860058501116,
+        "w": 0.003991159062404631,
+        "wr": -0.00010478462338215439
+      },
+      "joinError": {
+        "r": 0,
+        "w": 0,
+        "wr": 2.1873778829895052e-17
+      },
+      "criticalPoints": [
+        0.000005574476561723621,
+        0.27997102676600505,
+        0.8115441491418496,
+        0.9562907085464771
+      ],
+      "criticalPointScope": "Sign-change roots of the smooth bridge log derivative, isolated numerically; not an interval root count",
+      "replacedMeridianLength": 0.12061717115216096,
+      "replacedHeightSpan": 0.014925240764741228,
+      "bridgeMeridianLength": 0.2714168105958039,
+      "bridgeHeightSpan": 0.020664168252998077,
+      "quadratureScope": "Floating 16-point composite Gauss; no continuous enclosure asserted"
+    },
+    "originalBaseStats": {
+      "rCut": 0.5,
+      "rCuff": 0.32,
+      "oldCut": 0.3236028857837205,
+      "wCut": 0.1,
+      "width": 0.18,
+      "curvatureBound": 7,
+      "alpha": 13.155976171232949,
+      "actualWidth": 0.1800000000000001,
+      "minimumWarpWidth": 0.1334398790833955,
+      "meridianLength": 0.1815529479815015,
+      "heightSpan": 0.016564198554122726,
+      "cutRadiusError": 1.1102230246251565e-16,
+      "cutSlopeError": -1.1102230246251565e-16,
+      "cutSecondError": 1.9984014443252818e-15,
+      "deepRadiusError": 0,
+      "deepSlopeError": 0,
+      "deepSecondError": 0,
+      "positiveWarpWeights": []
+    }
+  },
+  "actual_deep_extension": {
+    "first": 160,
+    "count": 36,
+    "linearFar": 196,
+    "left": {
+      "r": 0.32,
+      "logw": -307.2089717896682,
+      "w": 3.8092437229956733e-134,
+      "logw_r": -21.874999999999996,
+      "w_r": -8.332720644053033e-133
+    },
+    "right": {
+      "r": 0.32,
+      "logw": -307.2089717896682,
+      "w": 3.8092437229956733e-134,
+      "logw_r": -21.874999999999996,
+      "w_r": -8.332720644053035e-133
+    },
+    "difference": {
+      "r": 0,
+      "logw": 0,
+      "w": 0,
+      "logw_r": 0,
+      "w_r": 1.5641274181117976e-148
+    },
+    "scope": "Only the existing unchanged source is appended. The far Robin condition is still finite; this is not an infinite-tail certificate."
+  },
+  "physical_identity_embedded_in_parameters": true,
+  "caveat": "w and w_r agree at the physical join; w_rr is not constrained and is a third derivative of the meridian immersion.",
+  "seconds": 7.709
+}

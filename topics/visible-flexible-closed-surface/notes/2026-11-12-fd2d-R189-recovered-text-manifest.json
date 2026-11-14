@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-R189-main-recovered-text-group-v1",
+  "status": "exact tested primary source plus complete proof, checker and honest observed-exit summary",
+  "files": [
+    {
+      "path": "scripts/fd2d_r187_prolongation.cjs",
+      "sha256": "c845fd4838f247b501cbdee9f39a4c0581ca979bdef21935bd53160b8eb5d6be"
+    },
+    {
+      "path": "scripts/fd2d_r187_prolongation_check.cjs",
+      "sha256": "258d893c1ec3434171c3ec0d89c8555ed625c36470d497852332a55e90eb872d"
+    },
+    {
+      "path": "results/R189-cardinal-cubic-and-angular-exact-nesting.md",
+      "sha256": "3c0bac1bc37754020051a02461b7bd22b015f9e3a05490b305c792ce8f53a863"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R189-actual-check-recovered-summary.json",
+      "sha256": "0ef47f54f9084668f4a82dcbc310cda9548150939203c06ca93bb7afb9772660"
+    }
+  ],
+  "primarySourceMatchedOriginalSHA256": true,
+  "fullOriginalLocalReportBytesRecreated": false,
+  "originalClosedManifestSHA256": "b0d1e94951af6c3362e84440a34d9f82aa46ad33adbd01b5b4e305769bd461a7",
+  "originalCheck": {
+    "actualExitCode": 0,
+    "toolChunk": "43f923",
+    "passed": true
+  },
+  "APIReason": "only connector available after explicit environment unavailable; root README section 8",
+  "HOrIndexModified": false
+}

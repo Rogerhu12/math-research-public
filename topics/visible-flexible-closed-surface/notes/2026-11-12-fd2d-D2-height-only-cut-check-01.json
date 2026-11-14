@@ -1,0 +1,410 @@
+{
+  "schema": "fd2d-r135-finite-registration-check-v1",
+  "passed": true,
+  "actual_execution": true,
+  "cases": [
+    {
+      "actual_Z_candidate": 1.1,
+      "axis_average_Z_error_upper": 0.0,
+      "actual_Z_conditional_interval": [
+        1.1,
+        1.1
+      ],
+      "tail_axis_y_intercept": 0.7111571096230281,
+      "tail_axis_y_intercept_is_numerical": true,
+      "ordered_axis_sign_lower": [
+        0.8,
+        0.7111571096230281
+      ],
+      "ordered_axis_signs_positive_given_error_bounds": true,
+      "axis_mirror_defects": {
+        "x_pair": 9.797174393178826e-17,
+        "y_pair": 1.9594348786357652e-16,
+        "u0_fixed_y": 0.0,
+        "uhalfpi_fixed_x": 9.797174393178826e-17
+      },
+      "height_only_full_sample_vector_errors": {
+        "X": 1.1102230246251565e-16,
+        "e1": 0.0,
+        "e2": 0.0,
+        "N": 0.0,
+        "X_s": 0.0,
+        "X_u": 0.0,
+        "X_ss": 0.0,
+        "X_su": 0.0,
+        "X_uu": 0.0
+      },
+      "height_only_full_sample_II_errors": {
+        "l": 0.0,
+        "m": 0.0,
+        "n": 0.0
+      },
+      "unconstrained_proper_registration": {
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          -0.1499999999999999
+        ],
+        "raw_anchor_rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "polar_correction_norm": 0.0,
+        "raw_rotation_singular_values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "core_frame_gram_defect": 3.3306690738754696e-16,
+        "tail_frame_gram_defect": 3.3306690738754696e-16,
+        "full_sample_vector_errors": {
+          "X": 1.1102230246251565e-16,
+          "e1": 0.0,
+          "e2": 0.0,
+          "N": 0.0,
+          "X_s": 0.0,
+          "X_u": 0.0,
+          "X_ss": 0.0,
+          "X_su": 0.0,
+          "X_uu": 0.0
+        },
+        "full_sample_II_errors": {
+          "l": 0.0,
+          "m": 0.0,
+          "n": 0.0
+        },
+        "template_plane_height": 1.25,
+        "actual_plane_origin": [
+          0.0,
+          0.0,
+          1.1
+        ],
+        "actual_plane_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "actual_plane_height": 1.1,
+        "tilt_from_horizontal": 0.0,
+        "horizontal_axis_offset": 0.0,
+        "height_is_uniform_world_z_only_if_plane_exactly_horizontal": true,
+        "alignment_is_interval_certified": false,
+        "scope": "One anchor defines a rigid candidate; all-angle complete cut compatibility remains to be proved."
+      },
+      "errors_are_certified_by_caller": false,
+      "certificate": false,
+      "exact_theorem_requires": [
+        "same fixed material-u origin, orientation and mirror labels",
+        "exact D2 central data and exact l/n-even,m-odd radial fields",
+        "actual common cut metric and actual all-angle m,n equality",
+        "proper same-oriented frame congruence",
+        "strict positive ordered actual cut axis signs"
+      ],
+      "full_two_jet_seam_also_requires": "actual l equality, including n=0 arcs",
+      "scope": "Finite diagnostics only. Under the listed exact hypotheses the proof forces R=I and horizontal t=0; otherwise retain the full R133 registration and its errors.",
+      "name": "vertical",
+      "known_rotation_max_error": 0.0
+    },
+    {
+      "actual_Z_candidate": 1.25,
+      "axis_average_Z_error_upper": 0.0,
+      "actual_Z_conditional_interval": [
+        1.25,
+        1.25
+      ],
+      "tail_axis_y_intercept": 0.7111571096230281,
+      "tail_axis_y_intercept_is_numerical": true,
+      "ordered_axis_sign_lower": [
+        0.8,
+        -0.7111571096230281
+      ],
+      "ordered_axis_signs_positive_given_error_bounds": false,
+      "axis_mirror_defects": {
+        "x_pair": 9.797174393178826e-17,
+        "y_pair": 1.9594348786357652e-16,
+        "u0_fixed_y": 0.0,
+        "uhalfpi_fixed_x": 9.797174393178826e-17
+      },
+      "height_only_full_sample_vector_errors": {
+        "X": 1.4223142192460563,
+        "e1": 1.682941969615793,
+        "e2": 2.0,
+        "N": 2.0,
+        "X_s": 1.682941969615793,
+        "X_u": 1.6,
+        "X_ss": 4.746181462691774,
+        "X_su": 4.446143498511659,
+        "X_uu": 2.92985766474254
+      },
+      "height_only_full_sample_II_errors": {
+        "l": 0.0,
+        "m": 0.0,
+        "n": 0.0
+      },
+      "unconstrained_proper_registration": {
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          2.5
+        ],
+        "raw_anchor_rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "polar_correction_norm": 0.0,
+        "raw_rotation_singular_values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "core_frame_gram_defect": 3.3306690738754696e-16,
+        "tail_frame_gram_defect": 3.3306690738754696e-16,
+        "full_sample_vector_errors": {
+          "X": 0.0,
+          "e1": 0.0,
+          "e2": 0.0,
+          "N": 0.0,
+          "X_s": 0.0,
+          "X_u": 0.0,
+          "X_ss": 0.0,
+          "X_su": 0.0,
+          "X_uu": 0.0
+        },
+        "full_sample_II_errors": {
+          "l": 0.0,
+          "m": 0.0,
+          "n": 0.0
+        },
+        "template_plane_height": 1.25,
+        "actual_plane_origin": [
+          0.0,
+          0.0,
+          1.25
+        ],
+        "actual_plane_normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "actual_plane_height": 1.25,
+        "tilt_from_horizontal": 0.0,
+        "horizontal_axis_offset": 0.0,
+        "height_is_uniform_world_z_only_if_plane_exactly_horizontal": true,
+        "alignment_is_interval_certified": false,
+        "scope": "One anchor defines a rigid candidate; all-angle complete cut compatibility remains to be proved."
+      },
+      "errors_are_certified_by_caller": false,
+      "certificate": false,
+      "exact_theorem_requires": [
+        "same fixed material-u origin, orientation and mirror labels",
+        "exact D2 central data and exact l/n-even,m-odd radial fields",
+        "actual common cut metric and actual all-angle m,n equality",
+        "proper same-oriented frame congruence",
+        "strict positive ordered actual cut axis signs"
+      ],
+      "full_two_jet_seam_also_requires": "actual l equality, including n=0 arcs",
+      "scope": "Finite diagnostics only. Under the listed exact hypotheses the proof forces R=I and horizontal t=0; otherwise retain the full R133 registration and its errors.",
+      "name": "x_halfturn",
+      "known_rotation_max_error": 0.0
+    },
+    {
+      "actual_Z_candidate": 1.231980958636951,
+      "axis_average_Z_error_upper": 0.0,
+      "actual_Z_conditional_interval": [
+        1.231980958636951,
+        1.231980958636951
+      ],
+      "tail_axis_y_intercept": 0.7111571096230281,
+      "tail_axis_y_intercept_is_numerical": true,
+      "ordered_axis_sign_lower": [
+        0.9999457498613936,
+        0.7111571096230281
+      ],
+      "ordered_axis_signs_positive_given_error_bounds": true,
+      "axis_mirror_defects": {
+        "x_pair": 0.5021610283043029,
+        "y_pair": 1.942890293094024e-16,
+        "u0_fixed_y": 0.0,
+        "uhalfpi_fixed_x": 0.35434767504440384
+      },
+      "height_only_full_sample_vector_errors": {
+        "X": 0.22301012280609644,
+        "e1": 0.16918234906699603,
+        "e2": 0.16957375242670622,
+        "N": 0.16918234906699603,
+        "X_s": 0.16918234906699603,
+        "X_u": 0.135659001941365,
+        "X_ss": 0.40148506447821275,
+        "X_su": 0.3862976097542115,
+        "X_uu": 0.25638488762103506
+      },
+      "height_only_full_sample_II_errors": {
+        "l": 0.0,
+        "m": 0.0,
+        "n": 0.0
+      },
+      "unconstrained_proper_registration": {
+        "rotation": [
+          [
+            0.9855847669095605,
+            0.0,
+            0.169182349066996
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.169182349066996,
+            0.0,
+            0.9855847669095608
+          ]
+        ],
+        "translation": [
+          1.1102230246251565e-16,
+          0.0,
+          0.0
+        ],
+        "raw_anchor_rotation": [
+          [
+            0.9855847669095608,
+            0.0,
+            0.16918234906699603
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.16918234906699603,
+            0.0,
+            0.9855847669095608
+          ]
+        ],
+        "polar_correction_norm": 2.2546147242557157e-16,
+        "raw_rotation_singular_values": [
+          1.0000000000000002,
+          1.0,
+          1.0
+        ],
+        "core_frame_gram_defect": 4.440892098500626e-16,
+        "tail_frame_gram_defect": 3.3306690738754696e-16,
+        "full_sample_vector_errors": {
+          "X": 3.3306690738754696e-16,
+          "e1": 2.220446049250313e-16,
+          "e2": 3.3306690738754696e-16,
+          "N": 2.7755575615628914e-17,
+          "X_s": 2.220446049250313e-16,
+          "X_u": 3.3306690738754696e-16,
+          "X_ss": 1.1102230246251565e-16,
+          "X_su": 4.440892098500626e-16,
+          "X_uu": 2.220446049250313e-16
+        },
+        "full_sample_II_errors": {
+          "l": 0.0,
+          "m": 0.0,
+          "n": 0.0
+        },
+        "template_plane_height": 1.25,
+        "actual_plane_origin": [
+          0.21147793633374512,
+          0.0,
+          1.231980958636951
+        ],
+        "actual_plane_normal": [
+          0.169182349066996,
+          0.0,
+          0.9855847669095608
+        ],
+        "actual_plane_height": 1.231980958636951,
+        "tilt_from_horizontal": 0.169182349066996,
+        "horizontal_axis_offset": 0.21147793633374512,
+        "height_is_uniform_world_z_only_if_plane_exactly_horizontal": true,
+        "alignment_is_interval_certified": false,
+        "scope": "One anchor defines a rigid candidate; all-angle complete cut compatibility remains to be proved."
+      },
+      "errors_are_certified_by_caller": false,
+      "certificate": false,
+      "exact_theorem_requires": [
+        "same fixed material-u origin, orientation and mirror labels",
+        "exact D2 central data and exact l/n-even,m-odd radial fields",
+        "actual common cut metric and actual all-angle m,n equality",
+        "proper same-oriented frame congruence",
+        "strict positive ordered actual cut axis signs"
+      ],
+      "full_two_jet_seam_also_requires": "actual l equality, including n=0 arcs",
+      "scope": "Finite diagnostics only. Under the listed exact hypotheses the proof forces R=I and horizontal t=0; otherwise retain the full R133 registration and its errors.",
+      "name": "tilt",
+      "known_rotation_max_error": 2.220446049250313e-16
+    }
+  ],
+  "seconds": 1.02790660200003,
+  "source_sha256": {
+    "fd2d_D2_height_only_cut_check.py": "0524a666b80d043ad5125b94a866167814221f7c78c9d3655d5a9b927611a8ca",
+    "fd2d_D2_height_only_cut.py": "f1a2270d0e90f3ee81f867b91f7ad048f2a081be9844ce666ce5a31624c65d2d",
+    "fd2d_flat_core_geometry_recovery.py": "cd6e2ad7fc80467b4e08130e31a195dd99ffe04702eaf7c238a48eb7c34fcd47"
+  },
+  "scope": "Three rigidly transformed exact-tail fixtures; not an actual solved nonround prefix or continuous certificate."
+}

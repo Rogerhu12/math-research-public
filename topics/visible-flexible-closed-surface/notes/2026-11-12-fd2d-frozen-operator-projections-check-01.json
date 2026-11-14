@@ -1,0 +1,716 @@
+{
+  "schema": "fd2d-frozen-operator-projections-two-node-check-v1",
+  "passed": true,
+  "actual_execution": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-frozen-operator-projections-check.py",
+    "bytes": 11193,
+    "sha256": "3739f854a1e8badb7d374c196c807e9f57912f4f8d38789a46429f84dc4bd8c4"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "adapter": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+    "bytes": 13877,
+    "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+  },
+  "original_operator_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+    "bytes": 16064,
+    "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+  },
+  "radial_view_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+    "bytes": 10262,
+    "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+  },
+  "bound_cache_definition": {
+    "schema": "fd2d-frozen-angular-operator-projection-cache-v1",
+    "chart": {
+      "a_c": 1.029181699754392,
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "coast": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "coast_formula": "Frozen R139 ruling map, label xi is fixed inlet seed-normal angle",
+      "coordinate_metric": "(1+a_delta^2 U_s^2) ds^2+2 a_delta^2 U_s U_xi ds dxi+a_delta^2 U_xi^2 dxi^2",
+      "dependencies": {
+        "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4",
+        "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+        "fd2d_k0_ruling_chart.py": "dc6a6f2b8f3adc886365fad29202bbadde4373154112233767d034f2aa1a5098",
+        "fd2d_k0_ruling_coast.py": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c"
+      },
+      "elsewhere": "original chart on open central and cut neighborhoods",
+      "entry_formula": "(1-S5)*U_old(s,xi)+S5*U_seed(xi)",
+      "entry_transition": [
+        0.55,
+        0.5919999999999992
+      ],
+      "exit_formula": "(1-S5)*U_exit(xi)+S5*U_old(s,xi)",
+      "exit_transition": [
+        0.8675434451024153,
+        1.4
+      ],
+      "field_interface": "shared P1 coefficient value and common full physical lifting trace; U_s continuity is not assumed",
+      "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "interface_radial_jets": "one-sided; coordinates side=coast default, or left/right explicitly",
+      "interface_values_and_angular_jets": "same whole functions on both sides",
+      "original_chart": {
+        "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+        "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+        "blend_interval": [
+          0.58,
+          1.399634787656641
+        ],
+        "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE.",
+        "kind": "fixed-seed-normal-to-material-quintic",
+        "material_metric_changed": false,
+        "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2"
+      },
+      "parameters_frozen": true,
+      "physical_g_changed": false,
+      "physical_metric": "ds^2+a_delta(s)^2 du^2",
+      "positive_U_xi": "positive convex combinations of original/seed/frozen-exit derivatives, and R139 D>0 within coast",
+      "schema": "fd2d-global-positive-frozen-ruling-atlas-v1",
+      "selected_actual_reconstruction": "fixed physical material u",
+      "smoothstep_degree": 5,
+      "source_sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "v": 0.2587478542495509
+    },
+    "layout": {
+      "K": 31,
+      "e": 32,
+      "d": 63,
+      "q": 95,
+      "work": 512
+    },
+    "bases": {
+      "PE": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "<f8",
+        "sha256": "f15b56a08743bd9f38e864319e09a1ed35f7c163cd3ca5a61ce2a66efaab7021"
+      },
+      "PO": {
+        "shape": [
+          31,
+          512
+        ],
+        "dtype": "<f8",
+        "sha256": "25ec64afc1eb78b2bb816fc00a9963f90e0d3750612ec21fa260ef83d1e9e7cd"
+      },
+      "Ex": {
+        "shape": [
+          512,
+          32
+        ],
+        "dtype": "<f8",
+        "sha256": "43d874725467c6023565780ba9c50bd78f6e61404f74b3c62a60d03a42c2ec59"
+      },
+      "Ox": {
+        "shape": [
+          512,
+          31
+        ],
+        "dtype": "<f8",
+        "sha256": "72fcbe78e25aa68e59dedc9e3e4fd4b43d47949d5561ce1e013279292819ac15"
+      }
+    },
+    "theta_sha256": "098a41661229a460138ce79a2780e1b3efdead06306b89a26a563fc490c3b463",
+    "original_operator_source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "adapter_source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    "formulas": [
+      "PE@(adv*Ex)",
+      "PE@((1/U_xi)*Ox)",
+      "PO@(adv*Ox)",
+      "PO@((1/U_xi)*Ex)"
+    ]
+  },
+  "selected_input_nodes": [
+    64,
+    65
+  ],
+  "physical_s": [
+    0.6116816746501718,
+    0.6313633493003443
+  ],
+  "actual_delta": [
+    0.004098749185942515,
+    -0.006859321543477936,
+    -0.013643634941596748,
+    -0.018909746143280184,
+    0.012624341500535777,
+    0.029315141679180114,
+    0.012539370047772731
+  ],
+  "nonzero_direction": [
+    0.1,
+    -0.2,
+    0.3,
+    -0.4,
+    0.5,
+    -0.6,
+    0.7
+  ],
+  "changed_delta": [
+    0.004098849185942516,
+    -0.006859521543477936,
+    -0.013643334941596749,
+    -0.018910146143280186,
+    0.012624841500535777,
+    0.029314541679180114,
+    0.01254007004777273
+  ],
+  "point_operator_comparisons": [
+    {
+      "delta_number": 0,
+      "operator": {
+        "shape": [
+          2,
+          63,
+          95
+        ],
+        "maximum_absolute": 2.2737367544323206e-13,
+        "maximum_scaled": 4.72535832003322e-15,
+        "bitwise_equal": false
+      },
+      "inverse": {
+        "shape": [
+          512,
+          2
+        ],
+        "maximum_absolute": 0.0,
+        "maximum_scaled": 0.0,
+        "bitwise_equal": true
+      },
+      "advection": {
+        "shape": [
+          512,
+          2
+        ],
+        "maximum_absolute": 0.0,
+        "maximum_scaled": 0.0,
+        "bitwise_equal": true
+      },
+      "scalar_and_parameter_jets": {
+        "a": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_s": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_ss": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "c": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "K": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_s_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_ss_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "c_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "K_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "inverse_a_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "s": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "s_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "radial_scale": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "radial_scale_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        }
+      }
+    },
+    {
+      "delta_number": 1,
+      "operator": {
+        "shape": [
+          2,
+          63,
+          95
+        ],
+        "maximum_absolute": 3.410605131648481e-13,
+        "maximum_scaled": 5.430881496646543e-15,
+        "bitwise_equal": false
+      },
+      "inverse": {
+        "shape": [
+          512,
+          2
+        ],
+        "maximum_absolute": 0.0,
+        "maximum_scaled": 0.0,
+        "bitwise_equal": true
+      },
+      "advection": {
+        "shape": [
+          512,
+          2
+        ],
+        "maximum_absolute": 0.0,
+        "maximum_scaled": 0.0,
+        "bitwise_equal": true
+      },
+      "scalar_and_parameter_jets": {
+        "a": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_s": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_ss": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "c": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "K": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_s_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "a_ss_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "c_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "K_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "inverse_a_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "s": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "s_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "radial_scale": {
+          "shape": [
+            2
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        },
+        "radial_scale_parameters": {
+          "shape": [
+            2,
+            7
+          ],
+          "maximum_absolute": 0.0,
+          "maximum_scaled": 0.0,
+          "bitwise_equal": true
+        }
+      }
+    }
+  ],
+  "parameter_JVP": {
+    "op": {
+      "shape": [
+        2,
+        63,
+        95
+      ],
+      "maximum_absolute": 2.1316282072803006e-14,
+      "maximum_scaled": 2.3761844728116926e-15,
+      "bitwise_equal": false
+    },
+    "inv": {
+      "shape": [
+        512,
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "a": {
+      "shape": [
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "c": {
+      "shape": [
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    }
+  },
+  "mixed_state_parameter_rhs_JVP": {
+    "shape": [
+      2,
+      63
+    ],
+    "maximum_absolute": 3.2862601528904634e-14,
+    "maximum_scaled": 1.8328242397070647e-14,
+    "bitwise_equal": false
+  },
+  "copy_scope": {
+    "original_problem_nodes": 129,
+    "two_node_view_nodes": 2,
+    "single_view_nodes": 1,
+    "single_operator_shape": [
+      1,
+      63,
+      95
+    ],
+    "methods_bound_to_actual_views": true,
+    "cache_identity_shared": true,
+    "single_matches_same_two_node_slice": {
+      "shape": [
+        63,
+        95
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    }
+  },
+  "explicit_background_scope": {
+    "background_class": "FrozenAngularProjection_PositiveGaussRawBumpDAE",
+    "affine_class": "FrozenAngularProjection_PositiveGaussRawBumpDAE",
+    "background_cache_shared": true,
+    "affine_cache_shared": true,
+    "methods_bound_to_actual_views": true
+  },
+  "actual_two_node_value_chain": {
+    "actual_input_nodes": [
+      64,
+      65
+    ],
+    "residual": {
+      "shape": [
+        254
+      ],
+      "maximum_absolute": 1.4566126083082054e-13,
+      "maximum_scaled": 9.734995879266294e-14,
+      "bitwise_equal": false
+    },
+    "fields": {
+      "shape": [
+        512,
+        2,
+        3
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "Gauss": {
+      "shape": [
+        512,
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "Codazzi": {
+      "shape": [
+        1,
+        63
+      ],
+      "maximum_absolute": 1.4566126083082054e-13,
+      "maximum_scaled": 9.734995879266294e-14,
+      "bitwise_equal": false
+    },
+    "lifting_forcing": {
+      "shape": [
+        2,
+        63
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "scope": "Only the original two-node local R153/R155 value chain, not the global finite objective"
+  },
+  "original_field_definitions_unchanged": {
+    "seed_weight_definition": true,
+    "angular_atlas_definition": true,
+    "coast_reference_definition": true,
+    "reference_evaluation_definition": true,
+    "gauss_l_definition": true,
+    "positive_trace_definition": true,
+    "nested_angular_definition": true
+  },
+  "cache_after_first_two_points": {
+    "schema": "fd2d-frozen-angular-operator-projection-cache-v1",
+    "binding_sha256": "4d1bb63b66bf2354bc596aaa8394e0ec82b695d7748de277f7e3cbf048ece6cc",
+    "entries": 2,
+    "maximum_entries": 1024,
+    "fixed_basis_key_bytes": 520192,
+    "entry_payload_bytes": 96288,
+    "total_counted_bytes": 616480,
+    "byte_limit": 33554432,
+    "payload_limit_excludes_Python_object_overhead": true,
+    "hits": 0,
+    "misses": 2,
+    "evictions": 0,
+    "uncached_oversize": 0,
+    "operator_calls": 1,
+    "original_local_delta_packet_hits": 0,
+    "explicit_background_view_wraps": 0,
+    "shared_delta_dependent_values_cached": false,
+    "original_per_view_delta_cache_retained": true,
+    "no_global_base_class_patch": true
+  },
+  "cache_after_different_delta": {
+    "schema": "fd2d-frozen-angular-operator-projection-cache-v1",
+    "binding_sha256": "4d1bb63b66bf2354bc596aaa8394e0ec82b695d7748de277f7e3cbf048ece6cc",
+    "entries": 2,
+    "maximum_entries": 1024,
+    "fixed_basis_key_bytes": 520192,
+    "entry_payload_bytes": 96288,
+    "total_counted_bytes": 616480,
+    "byte_limit": 33554432,
+    "payload_limit_excludes_Python_object_overhead": true,
+    "hits": 2,
+    "misses": 2,
+    "evictions": 0,
+    "uncached_oversize": 0,
+    "operator_calls": 2,
+    "original_local_delta_packet_hits": 0,
+    "explicit_background_view_wraps": 0,
+    "shared_delta_dependent_values_cached": false,
+    "original_per_view_delta_cache_retained": true,
+    "no_global_base_class_patch": true
+  },
+  "cache_final": {
+    "schema": "fd2d-frozen-angular-operator-projection-cache-v1",
+    "binding_sha256": "4d1bb63b66bf2354bc596aaa8394e0ec82b695d7748de277f7e3cbf048ece6cc",
+    "entries": 2,
+    "maximum_entries": 1024,
+    "fixed_basis_key_bytes": 520192,
+    "entry_payload_bytes": 96288,
+    "total_counted_bytes": 616480,
+    "byte_limit": 33554432,
+    "payload_limit_excludes_Python_object_overhead": true,
+    "hits": 5,
+    "misses": 2,
+    "evictions": 0,
+    "uncached_oversize": 0,
+    "operator_calls": 10,
+    "original_local_delta_packet_hits": 7,
+    "explicit_background_view_wraps": 2,
+    "shared_delta_dependent_values_cached": false,
+    "original_per_view_delta_cache_retained": true,
+    "no_global_base_class_patch": true
+  },
+  "first_miss_seconds": 0.0010680060004233383,
+  "changed_delta_hit_seconds": 0.0004465429992706049,
+  "timing_scope": "Two points only; not a complete-run speed measurement or a diagnosis of process exit -9.",
+  "floating_refactor": "old PE@((1/(U_xi*a))*Ox) vs new (PE@((1/U_xi)*Ox))/a, and corresponding PO/Ex block; real arithmetic identical.",
+  "no_BVP": true,
+  "no_whole_residual": true,
+  "no_whole_Jacobian": true,
+  "no_body": true,
+  "no_active_process_or_original_source_mutation": true,
+  "seconds": 6.247511153000232,
+  "peak_rss_kib": 92760
+}

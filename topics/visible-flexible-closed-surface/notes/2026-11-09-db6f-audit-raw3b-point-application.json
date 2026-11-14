@@ -1,0 +1,48 @@
+{
+  "status": "PASS-frozen-point-method-application-replay",
+  "method_review": "2026-11-09-db6f-audit-point-lipschitz-review.md",
+  "method_script_sha256": "ccd59bc42f6685e38229b5425e52c18d08437a43ddbd5073e55e93561a6a0bef",
+  "input_sha256": "42d9c97749b44107b292874083e15418af58773744c03ed8dcfbbee06150608e",
+  "output_sha256": "9443a20e89cefb97c31d07240cee5efdc46cf0e9fad9513b319ddc9e7586534c",
+  "replay_sha256": "58c7127c7fcaef9be832ef945e7684fe3bbd3167f7cc88c4708a5fc513e54046",
+  "rows": 423,
+  "changed_rows": [
+    {
+      "row": 189,
+      "span": 2690,
+      "u_left": 0.984375,
+      "u_right": 0.98828125,
+      "old_total_width_upper": 4.829807711306454e-05,
+      "new_total_width_upper": 2.0740777297023616e-08,
+      "source_cell": 3,
+      "source_segment": 5,
+      "source_x": 0.7654096965194412,
+      "physical_distance_upper": 1.7255222372475343e-09,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    },
+    {
+      "row": 293,
+      "span": 2789,
+      "u_left": 0.1640625,
+      "u_right": 0.16796875,
+      "old_total_width_upper": 0.0001278058380913923,
+      "new_total_width_upper": 2.0597724935400574e-08,
+      "source_cell": 3,
+      "source_segment": 7,
+      "source_x": 0.2994708152924659,
+      "physical_distance_upper": 1.713620244401387e-09,
+      "derivative_bound_rational": [
+        601,
+        100
+      ]
+    }
+  ],
+  "all_arrays_same_on_independent_replay": true,
+  "all_non_w_arrays_bitwise_unchanged": true,
+  "all_other_w_rows_bitwise_unchanged": true,
+  "maximum_w_total_uncertainty": 6.8255113042725935e-06,
+  "scope": "Application of previously audited universal point-Lipschitz method to raw3b. No complete metric or curvature claim."
+}

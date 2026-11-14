@@ -1,0 +1,109 @@
+{
+  "schema": "fd2d-local-git-rebase-publication-check-v1",
+  "completed": true,
+  "source_sha256": "92d37b88c05a7b146d879773282987496148c3f231c1fee15df8ff770bd45325",
+  "checker_sha256": "2f777b163c7895c859700a84bfc65de2f1aa795b647b726068bb83edb18a3195",
+  "no_external_remote_used": true,
+  "no_credentials_used": true,
+  "seconds": 8.184688118999475,
+  "cases": [
+    {
+      "case": "foreign_race",
+      "exit_code": 0,
+      "root_log_unchanged": true,
+      "foreign_work_preserved": true,
+      "actual_pull_commands": [
+        "git pull --rebase --no-stat origin main",
+        "git pull --rebase --no-stat origin main"
+      ],
+      "push_exit_codes": [
+        1,
+        0
+      ],
+      "changed_rules_stop_before_remote_payload": false,
+      "receipt": {
+        "commit": "94cc38c4ab16c3203f71cada13ef82a4c8a52b93",
+        "rules_read_sha": "b8bc714ea29af3397db2af6a3edede47edb9c1e6",
+        "attempt": 2,
+        "utc": "2026-11-12T16:50:37.293912+00:00",
+        "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched"
+      },
+      "history": [
+        {
+          "attempt": 1,
+          "pull_command": "git pull --rebase --no-stat origin main",
+          "pull_exit": 0,
+          "readme_previous": "fe1f99361972f22da755e56625559fd26f82d181",
+          "readme_current": "fe1f99361972f22da755e56625559fd26f82d181",
+          "readme_diff_empty": true
+        },
+        {
+          "attempt": 1,
+          "push_exit": 1,
+          "commit": "1561631ed4bcd0abe8b1a1aa292a529d3dc9088f",
+          "seconds": 0.7613592349989631,
+          "message": "To /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\n   fe1f993..b8bc714  main -> main\nTo /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\n ! [remote rejected] HEAD -> main (incorrect old value provided)\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git'\n"
+        },
+        {
+          "attempt": 2,
+          "pull_command": "git pull --rebase --no-stat origin main",
+          "pull_exit": 0,
+          "readme_previous": "fe1f99361972f22da755e56625559fd26f82d181",
+          "readme_current": "b8bc714ea29af3397db2af6a3edede47edb9c1e6",
+          "readme_diff_empty": true
+        },
+        {
+          "attempt": 2,
+          "push_exit": 0,
+          "commit": "94cc38c4ab16c3203f71cada13ef82a4c8a52b93",
+          "seconds": 0.28725292300077854,
+          "message": "To /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\n   b8bc714..94cc38c  HEAD -> main\n"
+        }
+      ],
+      "stdout": "{\"attempt\": 1, \"pull_command\": \"git pull --rebase --no-stat origin main\", \"pull_exit\": 0, \"readme_previous\": \"fe1f99361972f22da755e56625559fd26f82d181\", \"readme_current\": \"fe1f99361972f22da755e56625559fd26f82d181\", \"readme_diff_empty\": true}\n{\"attempt\": 1, \"push_exit\": 1, \"commit\": \"1561631ed4bcd0abe8b1a1aa292a529d3dc9088f\", \"seconds\": 0.7613592349989631, \"message\": \"To /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\\n   fe1f993..b8bc714  main -> main\\nTo /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\\n ! [remote rejected] HEAD -> main (incorrect old value provided)\\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git'\\n\"}\n{\"attempt\": 2, \"pull_command\": \"git pull --rebase --no-stat origin main\", \"pull_exit\": 0, \"readme_previous\": \"fe1f99361972f22da755e56625559fd26f82d181\", \"readme_current\": \"b8bc714ea29af3397db2af6a3edede47edb9c1e6\", \"readme_diff_empty\": true}\n{\"attempt\": 2, \"push_exit\": 0, \"commit\": \"94cc38c4ab16c3203f71cada13ef82a4c8a52b93\", \"seconds\": 0.28725292300077854, \"message\": \"To /tmp/fd2d-rebase-publication-tqi50j1b/foreign_race/remote.git\\n   b8bc714..94cc38c  HEAD -> main\\n\"}\n",
+      "stderr": ""
+    },
+    {
+      "case": "rules_changed",
+      "exit_code": 78,
+      "root_log_unchanged": true,
+      "foreign_work_preserved": true,
+      "actual_pull_commands": [
+        "git pull --rebase --no-stat origin main",
+        "git pull --rebase --no-stat origin main"
+      ],
+      "push_exit_codes": [
+        1
+      ],
+      "changed_rules_stop_before_remote_payload": true,
+      "receipt": null,
+      "history": [
+        {
+          "attempt": 1,
+          "pull_command": "git pull --rebase --no-stat origin main",
+          "pull_exit": 0,
+          "readme_previous": "eb84c141418ab7685e75af6afd4003a592b7f5e8",
+          "readme_current": "eb84c141418ab7685e75af6afd4003a592b7f5e8",
+          "readme_diff_empty": true
+        },
+        {
+          "attempt": 1,
+          "push_exit": 1,
+          "commit": "45561887474ee4c98ef3c44c2575f70d036f8685",
+          "seconds": 0.5941331249996438,
+          "message": "To /tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git\n   eb84c14..f851fe0  main -> main\nTo /tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git\n ! [remote rejected] HEAD -> main (incorrect old value provided)\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git'\n"
+        },
+        {
+          "attempt": 2,
+          "pull_command": "git pull --rebase --no-stat origin main",
+          "pull_exit": 0,
+          "readme_previous": "eb84c141418ab7685e75af6afd4003a592b7f5e8",
+          "readme_current": "f851fe041a6788c197bdec7a727365ef43638f00",
+          "readme_diff_empty": false
+        }
+      ],
+      "stdout": "{\"attempt\": 1, \"pull_command\": \"git pull --rebase --no-stat origin main\", \"pull_exit\": 0, \"readme_previous\": \"eb84c141418ab7685e75af6afd4003a592b7f5e8\", \"readme_current\": \"eb84c141418ab7685e75af6afd4003a592b7f5e8\", \"readme_diff_empty\": true}\n{\"attempt\": 1, \"push_exit\": 1, \"commit\": \"45561887474ee4c98ef3c44c2575f70d036f8685\", \"seconds\": 0.5941331249996438, \"message\": \"To /tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git\\n   eb84c14..f851fe0  main -> main\\nTo /tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git\\n ! [remote rejected] HEAD -> main (incorrect old value provided)\\nerror: failed to push some refs to '/tmp/fd2d-rebase-publication-tqi50j1b/rules_changed/remote.git'\\n\"}\n{\"attempt\": 2, \"pull_command\": \"git pull --rebase --no-stat origin main\", \"pull_exit\": 0, \"readme_previous\": \"eb84c141418ab7685e75af6afd4003a592b7f5e8\", \"readme_current\": \"f851fe041a6788c197bdec7a727365ef43638f00\", \"readme_diff_empty\": false}\ndiff --git a/README.md b/README.md\nindex 8f9fe6a..e6a62a0 100644\n--- a/README.md\n+++ b/README.md\n@@ -1 +1 @@\n-Original rules\n+Changed repository rules\n\n",
+      "stderr": ""
+    }
+  ]
+}

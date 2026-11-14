@@ -1,0 +1,162 @@
+{
+  "schema": "fd2d-finite-gauss-complement-JVP-check-v1",
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "bytes": 23429,
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-gauss-complement-check.py",
+      "bytes": 6135,
+      "sha256": "35df70d5e7a8c1292a97ad8d1de23bd81051fd9a8f294a57438adddb926e6f10"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_complement.py",
+      "bytes": 4190,
+      "sha256": "9feca73819ea9c36e35ff18646062b2c85a865c4f36d6d681a57ffd3a18ca6aa"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    }
+  ],
+  "modes": 15,
+  "choices": {
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "weight": 0.3,
+  "helper": {
+    "weight": 0.3,
+    "normalization": "weight*sqrt(2/angular_work)",
+    "rows": 28672,
+    "sampled_full_gauss_maximum": 7.0131911976655426,
+    "sampled_omitted_gauss_maximum": 0.5040907613159462,
+    "residual_l2": 0.22592029674850736,
+    "original_equations_changed": false,
+    "continuous_certificate": false,
+    "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid",
+    "jacobian_nonzeros": 1699413,
+    "T_column": "analytic provider fields_T; angular-constant K_T annihilated"
+  },
+  "sparse_shape": [
+    28672,
+    5343
+  ],
+  "sparse_nnz": 1699413,
+  "original_F_maximum_change": 0.0,
+  "original_fields_maximum_change": 0.0,
+  "retained_projection_of_omitted_roundoff_max": 3.184925823714328e-15,
+  "omitting_angular_constant_KT_changes_floating_projection_by": 6.217248937900877e-15,
+  "directional_checks": [
+    {
+      "direction": "all_independent_state_fields",
+      "step": 8e-06,
+      "analytic_direction_norm": 0.05282242259524883,
+      "absolute_maximum": 1.6273194190829024e-11,
+      "relative_l2": 3.1526991464504964e-10
+    },
+    {
+      "direction": "all_independent_state_fields",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.05282242259524883,
+      "absolute_maximum": 4.019925039545902e-11,
+      "relative_l2": 6.575351150928315e-10
+    },
+    {
+      "direction": "all_independent_state_fields",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.05282242259524883,
+      "absolute_maximum": 8.175892520509778e-11,
+      "relative_l2": 1.2778476737062583e-09
+    },
+    {
+      "direction": "all_independent_state_fields",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.05282242259524883,
+      "absolute_maximum": 1.5661906029083936e-10,
+      "relative_l2": 2.6084369017967285e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 8e-06,
+      "analytic_direction_norm": 0.04980595512101713,
+      "absolute_maximum": 1.309014341691582e-11,
+      "relative_l2": 1.4658821724061144e-10
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.04980595512101713,
+      "absolute_maximum": 3.1755153221584356e-11,
+      "relative_l2": 2.909763692682151e-10
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.04980595512101713,
+      "absolute_maximum": 5.003902500688717e-11,
+      "relative_l2": 5.869680288095351e-10
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.04980595512101713,
+      "absolute_maximum": 8.873591835281691e-11,
+      "relative_l2": 1.1967660328608514e-09
+    },
+    {
+      "direction": "physical_T",
+      "step": 8e-06,
+      "analytic_direction_norm": 0.09373212636325423,
+      "absolute_maximum": 6.070332344426665e-11,
+      "relative_l2": 2.5658560001253187e-10
+    },
+    {
+      "direction": "physical_T",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.09373212636325423,
+      "absolute_maximum": 1.1124710484408662e-10,
+      "relative_l2": 4.526799210483891e-10
+    },
+    {
+      "direction": "physical_T",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.09373212636325423,
+      "absolute_maximum": 1.8522946425379022e-10,
+      "relative_l2": 9.954947370299206e-10
+    },
+    {
+      "direction": "physical_T",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.09373212636325423,
+      "absolute_maximum": 4.890580492661334e-10,
+      "relative_l2": 2.127566897790412e-09
+    }
+  ],
+  "checks": {
+    "raw_F_unchanged": true,
+    "fields_unchanged": true,
+    "source_bytes_unchanged": true,
+    "low_projection_roundoff_only": true,
+    "all_three_nonzero_directions": true,
+    "all_three_JVP": true
+  },
+  "implementation_checks_passed": true,
+  "elapsed_seconds": 22.134412267999778,
+  "continuous_certificate": false,
+  "scope": "Finite implementation JVPs on the same recorded angular grid; no missing continuous angular modes are certified"
+}

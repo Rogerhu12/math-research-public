@@ -1,0 +1,139 @@
+{
+  "accepted_dependencies": {
+    "R16": {
+      "bytes": 4869,
+      "file": "results/R16-fixed-cap-volume-moment-noncongruence.md",
+      "sha256": "278753736f651a82e64bc9d6de61b290395eb3d48390c7b8aef73f939dd565f1"
+    },
+    "R17": {
+      "bytes": 15067,
+      "file": "results/R17-exact-finite-visible-closed-geometry.md",
+      "sha256": "d7ad70cfb98d552ce0832555c230b644e49a21cd5cef2ae16a291013ad66e725"
+    },
+    "R21": {
+      "bytes": 14695,
+      "file": "results/R21-m12-whole-map-and-actual-metric-decrease.md",
+      "sha256": "3d8e20c610ac322e2f4a7093c44b4b37cde314724136cee489dae73c44497c0c"
+    },
+    "R24": {
+      "bytes": 6066,
+      "file": "results/R24-cap-marking-quotient-upper-bound.md",
+      "sha256": "611401f48cd15594ee663b92950d1828e101005de6e4be1d762ef35245940d5e"
+    },
+    "R25_context_only": {
+      "bytes": 10100,
+      "file": "results/R25-m12-sharper-enclosing-ball.md",
+      "sha256": "faf9c254abad7376249277b336468db19d6598ac9520f999265be139b4dc845b"
+    },
+    "background_height_proof": {
+      "bytes": 5530,
+      "file": "notes/2026-11-09-db6f-tail-background-height-interval-proof.md",
+      "sha256": "46e06ce3740b14c2c68fd33dbfc397d42d05452e83769fdfb956a87be6635e1c"
+    },
+    "budget": {
+      "bytes": 6006,
+      "file": "notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+      "sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7"
+    },
+    "budget_source": {
+      "bytes": 10356,
+      "file": "scripts/db6f-root-closed-budget-v2.py",
+      "sha256": "0d68b718a43a69b24a865b1932e2700a47190724a3be4ea3f1202b56d1a59641"
+    },
+    "first": {
+      "bytes": 3775,
+      "file": "notes/2026-11-09-db6f-tail-first-flat17-m12-critical-r01.json",
+      "sha256": "5c2ddbfc230416cf7805bf84ea5686ed9db1427c2df2b8f1b3a8379b453e848d"
+    },
+    "geometry": {
+      "bytes": 10095,
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "manifest": {
+      "bytes": 138611,
+      "file": "notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104"
+    },
+    "problem": {
+      "bytes": 4418,
+      "file": "README.md",
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    }
+  },
+  "arithmetic_report": {
+    "bytes": 11251,
+    "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-replay.json",
+    "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96"
+  },
+  "linked_dependencies": {
+    "background_transfer": {
+      "bytes": 3964,
+      "file": "notes/2026-11-09-db6f-audit-transfer-tight-m12-critical-r01.json",
+      "sha256": "c3dbdbe79e42528b58b033f48e3694e70776666b8b890fbcb0d5b378539d2108"
+    },
+    "budget_geometry": {
+      "bytes": 10095,
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "budget_geometry_certificate": {
+      "bytes": 3239,
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-geometry.json",
+      "sha256": "fc00c975f1ec9b0413d2d1c77e0dbf3dd27d35016c0b335ff439aba4aeeca462"
+    },
+    "budget_height": {
+      "bytes": 5464,
+      "file": "notes/2026-11-09-db6f-tail-background-height-rigorous.json",
+      "sha256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01"
+    },
+    "budget_metric_certificate": {
+      "bytes": 2130,
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    },
+    "budget_moment_certificate": {
+      "bytes": 1311,
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-moment.json",
+      "sha256": "1d7836c03c90e0db4d479a234f2994787043d4ffa29374dbe37202915c5c3444"
+    },
+    "budget_positive_alpha": {
+      "bytes": 3264,
+      "file": "notes/2026-11-09-db6f-audit-positive-radial-alpha.json",
+      "sha256": "35811ec9035d77e60f5809b6d1e19d8a27f4755f95eb5498eaa8fcc0f4808a19"
+    },
+    "budget_tail_first": {
+      "bytes": 3775,
+      "file": "notes/2026-11-09-db6f-tail-first-flat17-m12-critical-r01.json",
+      "sha256": "5c2ddbfc230416cf7805bf84ea5686ed9db1427c2df2b8f1b3a8379b453e848d"
+    }
+  },
+  "logical_inputs": [
+    "The proved R17/R21 image-set phase mechanism and exact C3 symmetry.",
+    "The actual R6 seam has V and both jets zero; mirror seam heights are plus/minus Zc.",
+    "The accepted exact background has w>=0.",
+    "The accepted first-jet and closed-budget reports are valid for this actual manifest.",
+    "README reach condition entails the local principal-curvature bound used only as a necessary condition."
+  ],
+  "not_inferred": [
+    "No stronger-goal lower bound, sharpness, candidate existence or new full reach certificate.",
+    "No reuse of the numerical R21 seam-height bound for a future M15 map without its own identity.",
+    "No new D lower bound from old marked-cap points or old D upper bounds."
+  ],
+  "proof": {
+    "bytes": 17349,
+    "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-v2.md",
+    "sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486"
+  },
+  "script": {
+    "bytes": 14495,
+    "file": "scripts/db6f-tail-phase-marker-obstructions.py",
+    "sha256": "e904ab1b2aa23745c1eb64db562fb52c5fd31a0fc35b6dc3e90f3232b0b593d7"
+  },
+  "status": "closed-source-ledger-for-obstruction-proof-v2",
+  "superseded_display_only_v1": {
+    "bytes": 17008,
+    "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.md",
+    "sha256": "bd3a3b8dd611def263826a5ba9559404d77db2b928648d4f327a896ecf17d1fb"
+  }
+}

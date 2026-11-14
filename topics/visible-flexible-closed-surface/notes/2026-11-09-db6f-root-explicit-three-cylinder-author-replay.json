@@ -1,0 +1,321 @@
+{
+  "schema": "explicit-three-cylinder-flat-disk-v1",
+  "scope": "Exact C-infinity embedded disk with boundary, not a closed surface",
+  "main_candidate_data_read": false,
+  "BVP_tail_RK_optimization_run": false,
+  "proof_status": "author proof pending independent full-text review",
+  "symbolic": {
+    "all_zero": true,
+    "identity_count": 18,
+    "residuals": {
+      "metric_ss_minus_1": "0",
+      "metric_sv": "0",
+      "metric_vv_minus_1": "0",
+      "normal_unit_minus_1": "0",
+      "normal_tangent": "0",
+      "normal_ruling": "0",
+      "II_ss_minus_k": "0",
+      "gauss_AC_minus_J2": "0",
+      "codazzi_Jr_minus_Au_plus_J_over_r": "0",
+      "codazzi_Cr_minus_Ju_minus_C_over_r_minus_rA": "0",
+      "C3_direction_0": "0",
+      "C3_direction_1": "0",
+      "C3_direction_2": "0",
+      "separation_norm_squared_0_1_minus_1": "0",
+      "separation_norm_squared_0_2_minus_1": "0",
+      "separation_norm_squared_1_2_minus_1": "0",
+      "log_derivative_for_exact_curvature_maximum": "0",
+      "curvature_shape_at_half_minus_4_over_e": "0"
+    }
+  },
+  "rational": {
+    "all_passed": true,
+    "gate_count": 10,
+    "parameters": {
+      "R": {
+        "numerator": 1,
+        "denominator": 1,
+        "display_only": 1.0
+      },
+      "a": {
+        "numerator": 579,
+        "denominator": 1000,
+        "display_only": 0.579
+      },
+      "ell": {
+        "numerator": 421,
+        "denominator": 1000,
+        "display_only": 0.421
+      },
+      "B_strong": {
+        "numerator": 1,
+        "denominator": 1,
+        "display_only": 1.0
+      },
+      "B_weak": {
+        "numerator": 1,
+        "denominator": 4,
+        "display_only": 0.25
+      },
+      "z0": {
+        "numerator": 47,
+        "denominator": 500,
+        "display_only": 0.094
+      }
+    },
+    "initial_diameter_exact": {
+      "numerator": 2,
+      "denominator": 1,
+      "display_only": 2.0
+    },
+    "held_strict_lower": {
+      "numerator": 1760201,
+      "denominator": 17424000,
+      "display_only": 0.10102163682277318
+    },
+    "reach_strict_lower": {
+      "numerator": 421,
+      "denominator": 6000,
+      "display_only": 0.07016666666666667
+    },
+    "euclidean_quotient_strict_lower": {
+      "numerator": 1,
+      "denominator": 40,
+      "display_only": 0.025
+    },
+    "weak_branch_height_lower": {
+      "numerator": 331,
+      "denominator": 8000,
+      "display_only": 0.041375
+    },
+    "gates": [
+      {
+        "name": "disjoint_caps_2a_gt_R",
+        "relation": ">",
+        "left": {
+          "numerator": 579,
+          "denominator": 500,
+          "display_only": 1.158
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 1,
+          "display_only": 1.0
+        },
+        "passed": true
+      },
+      {
+        "name": "nonempty_caps_R_gt_a",
+        "relation": ">",
+        "left": {
+          "numerator": 1,
+          "denominator": 1,
+          "display_only": 1.0
+        },
+        "right": {
+          "numerator": 579,
+          "denominator": 1000,
+          "display_only": 0.579
+        },
+        "passed": true
+      },
+      {
+        "name": "exp_series_upper_lt_11_over_4",
+        "relation": ">",
+        "left": {
+          "numerator": 11,
+          "denominator": 4,
+          "display_only": 2.75
+        },
+        "right": {
+          "numerator": 87,
+          "denominator": 32,
+          "display_only": 2.71875
+        },
+        "passed": true
+      },
+      {
+        "name": "cube_10_over_7_gt_exp_upper",
+        "relation": ">",
+        "left": {
+          "numerator": 1000,
+          "denominator": 343,
+          "display_only": 2.9154518950437316
+        },
+        "right": {
+          "numerator": 11,
+          "denominator": 4,
+          "display_only": 2.75
+        },
+        "passed": true
+      },
+      {
+        "name": "actual_Hausdorff_witness_height_gt_1_over_10",
+        "relation": ">",
+        "left": {
+          "numerator": 1760201,
+          "denominator": 17424000,
+          "display_only": 0.10102163682277318
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 10,
+          "display_only": 0.1
+        },
+        "passed": true
+      },
+      {
+        "name": "held_over_initial_diameter_gt_1_over_20",
+        "relation": ">",
+        "left": {
+          "numerator": 1760201,
+          "denominator": 34848000,
+          "display_only": 0.05051081841138659
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 20,
+          "display_only": 0.05
+        },
+        "passed": true
+      },
+      {
+        "name": "fixed_disk_diameter_gt_one_fifth_D",
+        "relation": ">",
+        "left": {
+          "numerator": 579,
+          "denominator": 500,
+          "display_only": 1.158
+        },
+        "right": {
+          "numerator": 2,
+          "denominator": 5,
+          "display_only": 0.4
+        },
+        "passed": true
+      },
+      {
+        "name": "disk_reach_lower_gt_3_over_100_D",
+        "relation": ">",
+        "left": {
+          "numerator": 421,
+          "denominator": 6000,
+          "display_only": 0.07016666666666667
+        },
+        "right": {
+          "numerator": 3,
+          "denominator": 50,
+          "display_only": 0.06
+        },
+        "passed": true
+      },
+      {
+        "name": "all_E3_distance_lower_gt_1_over_40_squared",
+        "relation": ">",
+        "left": {
+          "numerator": 335241,
+          "denominator": 466696400,
+          "display_only": 0.0007183278036856508
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 1600,
+          "display_only": 0.000625
+        },
+        "passed": true
+      },
+      {
+        "name": "weak_branch_entire_height_gt_core_top",
+        "relation": ">",
+        "left": {
+          "numerator": 331,
+          "denominator": 8000,
+          "display_only": 0.041375
+        },
+        "right": {
+          "numerator": 1,
+          "denominator": 100,
+          "display_only": 0.01
+        },
+        "passed": true
+      }
+    ]
+  },
+  "floating_diagnostics": {
+    "certified": false,
+    "purpose": "display-only numerical evaluation of the exact integral formulas",
+    "quadrature": "adaptive Simpson, complex paired integrands",
+    "requested_tolerance_not_a_proof_bound": 1e-13,
+    "strong_samples": [
+      {
+        "amplitude": 0.0,
+        "outer_apex_horizontal_radius": 1.0,
+        "outer_apex_height_drop": 0.0,
+        "quadrature_evaluations": 0
+      },
+      {
+        "amplitude": 0.25,
+        "outer_apex_horizontal_radius": 0.9963631560763846,
+        "outer_apex_height_drop": 0.042250601856341115,
+        "quadrature_evaluations": 1097
+      },
+      {
+        "amplitude": 0.5,
+        "outer_apex_horizontal_radius": 0.9855951105368476,
+        "outer_apex_height_drop": 0.08311026532964408,
+        "quadrature_evaluations": 1437
+      },
+      {
+        "amplitude": 0.75,
+        "outer_apex_horizontal_radius": 0.9681168049133753,
+        "outer_apex_height_drop": 0.12124788901107883,
+        "quadrature_evaluations": 1741
+      },
+      {
+        "amplitude": 1.0,
+        "outer_apex_horizontal_radius": 0.9446084058146467,
+        "outer_apex_height_drop": 0.15544918976127595,
+        "quadrature_evaluations": 1881
+      }
+    ],
+    "weak_B_quarter": {
+      "outer_apex_horizontal_radius": 0.9963631560763846,
+      "outer_apex_height_drop": 0.042250601856341115,
+      "minimum_height": 0.051749398143658885,
+      "quadrature_evaluations": 1097
+    },
+    "exact_formula_constants_display": {
+      "co_lipschitz_cos_1": 0.5403023058681398,
+      "Hessian_bound_4_over_e_ell": 3.495291602579025,
+      "reach_bound_e_ell_cos_squared_1_over_4": 0.08351995052745495
+    }
+  },
+  "optional_meshes": [],
+  "sources": [
+    {
+      "path": "scripts/db6f-audit-explicit-three-cylinder-flat-branch.py",
+      "sha256": "0288ff3d7e6d1c0fddfb68d910e5ecd073caf8448f2b0dd8433a063386234c32",
+      "bytes": 13497
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch.md",
+      "sha256": "ec4c52b1abafb44b300ae20956bc1308c9b522b62a9cff1a70208a65326117ee",
+      "bytes": 18689
+    },
+    {
+      "path": "results/R38-ck-local-exact-isometric-collar.md",
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1",
+      "bytes": 20176
+    },
+    {
+      "path": "results/R41-flat-annulus-conditional-local-geometry.md",
+      "sha256": "00b859c437945ea9c10a879b5622fe98c0d4572248b1e78cce6717648adecb13",
+      "bytes": 10603
+    },
+    {
+      "path": "results/R42-degenerate-flat-endpoint-and-finite-mode-uniqueness.md",
+      "sha256": "7251b31003e6545492c722eaaaf88efc7ee089e42e6a62104456b5609a908db8",
+      "bytes": 16723
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "FROZEN_LOCAL_ANALYTIC_EXISTENCE_PROOF_AWAITING_NONPARTICIPANT_REVIEW",
+  "authors": {
+    "system_proposal_and_initial_derivation": "/root",
+    "complete_proof_and_source_verification": "/root/independent_geometry"
+  },
+  "proof": {
+    "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+    "bytes": 19568,
+    "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87"
+  },
+  "repository_inputs": [
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R28-finite-positive-c3-core-and-conditional-held-transfer.md",
+      "bytes": 10414,
+      "sha256": "663d67283aaffe49169af3eb5b74c67e0c70e6c4bbd6d7894b7fa863654bca00"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    }
+  ],
+  "external_primary_theorem": {
+    "author": "Tsogtgerel Gantumur",
+    "title": "Math 580 Lecture Notes 2: The Cauchy-Kovalevskaya Theorem",
+    "date_printed": "2011-10-03",
+    "official_author_url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/notes2.pdf",
+    "location": "Section 4, Theorem 18, printed pages 9-10",
+    "what_was_actually_read": "First-order normal-form analytic-system theorem and its proof, via text retrieval.",
+    "retrieval_refs": [
+      "turn64view0",
+      "turn65view0"
+    ],
+    "application": "U=(M,N-kappa(theta)); highest normal derivative has identity coefficient; RHS depends at most on first tangential derivatives; denominators are nonzero at initial data.",
+    "not_applied_directly_to_second_theta_derivative_Frenet_equation": true,
+    "PDF_saved_or_rendered": false
+  },
+  "historical_bibliography_only": {
+    "title": "Zur Theorie der partiellen Differentialgleichungen",
+    "year": 1875,
+    "volume": 80,
+    "pages": "1-32",
+    "official_url": "https://www.degruyterbrill.com/document/doi/10.1515/9783112342428-001/html",
+    "retrieval_ref": "turn64view1",
+    "original_1875_full_proof_read": false
+  },
+  "paper_checks": {
+    "coordinate_II_not_orthonormal_II": true,
+    "normal_initially_points_inward": true,
+    "Gauss_and_two_Codazzi_flatness_entries_explicit": true,
+    "frame_theta_compatibility_propagated_by_homogeneous_ODE": true,
+    "position_periodicity_from_s_integral_not_unchecked_theta_monodromy": true,
+    "compactness_embedding_and_all_pairs_arguments_written": true
+  },
+  "format_validation_receipt": {
+    "chunk_id": "bf3c41",
+    "exit_code": 0,
+    "equation_tags": 28,
+    "forbidden_control_bytes": 0,
+    "tabs": 0,
+    "CR": 0
+  },
+  "scope": {
+    "uniform_positive_width_exists": true,
+    "usable_numerical_width_lower_bound_computed": false,
+    "exact_common_metric_on_local_moving_collar": true,
+    "local_negative_Gaussian_curvature": true,
+    "connected_closed_surface_constructed": false,
+    "whole_closed_surface_reach_claimed": false,
+    "G5_or_final_completion_claimed": false
+  },
+  "new_solver_root_RK_source_integration_or_geometry_backend_calls": 0,
+  "current_M15_candidate_data_read": false
+}

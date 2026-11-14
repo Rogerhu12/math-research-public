@@ -1,0 +1,73 @@
+{
+  "status": "continuous-outward-rounded-finite-C2-comparison",
+  "scope": "Outward-rounded C2 difference of two finite integrated-Fr perturbations.\n\nExact rational radial partitions are merged, so nearly coincident nodes do\nnot create artificial inverse-radius cancellation. This proves a finite\ncomparison only. Two comparisons are not an infinite Cauchy proof.\n",
+  "bounds": {
+    "r0theta0": {
+      "bound": 2.73638730045049e-10,
+      "planar": 3.816104286814792e-11,
+      "height": 2.7066556980285305e-10,
+      "worstInterval": [
+        0.4349572189588346,
+        0.43498276613318476
+      ]
+    },
+    "r0theta1": {
+      "bound": 1.6714953840676122e-09,
+      "planar": 2.2636766663367996e-10,
+      "height": 1.6552000629449833e-09,
+      "worstInterval": [
+        0.4349308699259621,
+        0.4349572189588346
+      ]
+    },
+    "r0theta2": {
+      "bound": 1.0534458077381897e-08,
+      "planar": 1.4212574335811143e-09,
+      "height": 1.0421973339718103e-08,
+      "worstInterval": [
+        0.43490368381351946,
+        0.4349308699259618
+      ]
+    },
+    "r1theta0": {
+      "bound": 1.7891248754222076e-08,
+      "planar": 5.890754489880375e-09,
+      "height": 1.659208835824614e-08,
+      "worstInterval": [
+        0.5209378646005576,
+        0.5209492975408601
+      ]
+    },
+    "r1theta1": {
+      "bound": 1.0755263475445293e-07,
+      "planar": 1.592834062496516e-08,
+      "height": 1.0362703630163581e-07,
+      "worstInterval": [
+        0.42827788110391246,
+        0.42861391240016317
+      ]
+    },
+    "r2theta0": {
+      "bound": 0.011094572092159838,
+      "planar": 0.0036636889232606693,
+      "height": 0.0074308831688991665,
+      "worstInterval": [
+        0.5209378646005576,
+        0.5209492975408601
+      ]
+    }
+  },
+  "maximumC2CoordinateDerivativeDifference": 0.011094572092159838,
+  "first": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native64-n8-s64-manifest.json",
+  "second": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-q02-m8-native128-n8-s128-manifest.json",
+  "firstSHA256": "200b690582b1885a784d65ff2cd82ae5fb534a3864078aabd47c9730a0612db4",
+  "secondSHA256": "9687f8c5b2e42c94accb91341421f9645a612b77aecff0339b538c30f40fc6c9",
+  "scriptSHA256": "673eb497bbb232932af779178d973e1fedeb333143086718931741af18302099",
+  "certificateModuleSHA256": "ba3af5e44b9c727a9b7ca7b25b4e6abf19c504106b0810f4278928b82a084821",
+  "domain": [
+    0.1525361819534748,
+    0.6
+  ],
+  "exactCommonSpans": 27697,
+  "interpretation": "Bounds are Euclidean upper bounds on each displayed derivative of the perturbation difference in physical (r,theta) coordinates. Identical fixed rotation backgrounds cancel. A finite comparison is not an infinite Cauchy or source-equation proof."
+}

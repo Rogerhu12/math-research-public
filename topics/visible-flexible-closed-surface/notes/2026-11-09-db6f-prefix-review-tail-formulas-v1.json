@@ -1,0 +1,41 @@
+{
+  "status": "Component review found a safe rejection",
+  "scope": "Independent Cartesian-jet checks of three finite-tail audit formulas.\n\nThis exercises algebra and conservative bounds on explicit analytic maps.\nIt is not a certificate for any supplied physical-background packet.\n",
+  "audited_script": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-tail-metric-curvature.py",
+  "audited_script_sha256": "87bcf9d395e3d83df11e1d8d3ba5c0ca77dcc10645feff390c45271421373e9d",
+  "reviewer_script_sha256": "360ce83fc271acf82b83d65713f35e07849e7cfe4f8e39a59f5befc2004514f5",
+  "radial_samples_per_case": 11,
+  "angular_samples_per_case": 97,
+  "cases": [
+    {
+      "name": "independent threefold Cartesian polynomial map",
+      "metric_upper": 0.00450620965193622,
+      "direct_curvature_upper": 3.688109464112784,
+      "perturbative_curvature_upper": 2.0320328369304894,
+      "covariant_hessian_upper": 0.02287607094766023,
+      "sampled_cartesian_metric": 0.0015354101759996741,
+      "sampled_cartesian_curvature": 1.4877669187932139,
+      "coordinate_metric_formula_difference": 6.441821089140515e-16,
+      "direct_area_lower": 0.49694072088794805,
+      "sampled_cartesian_area_lower": 0.49735652364258365
+    }
+  ],
+  "failures": [
+    {
+      "name": "round cone, zero perturbation",
+      "exception": "ArithmeticError",
+      "message": "Square-root interval has negative input"
+    },
+    {
+      "name": "large radial second jets cancel to an exact cone",
+      "exception": "ArithmeticError",
+      "message": "Square-root interval has negative input"
+    }
+  ],
+  "does_not_certify": [
+    "physical background packet validity",
+    "all-tail interval coverage",
+    "complete closed-surface metric or reach",
+    "README completion"
+  ]
+}

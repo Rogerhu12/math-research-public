@@ -1,0 +1,22 @@
+{
+  "status": "TWO_PURE_FRACTION_AUTHOR_RUNS_COMPLETED_PENDING_INDEPENDENT_REVIEW",
+  "runs": [
+    {
+      "script": "scripts/db6f-audit-nonconvex-connector-cones.py",
+      "output": "notes/2026-11-09-db6f-audit-nonconvex-connector-cones.json",
+      "actual_receipt": "50cf92",
+      "exit_code": 0
+    },
+    {
+      "script": "scripts/db6f-audit-poisson-cuff-budget.py",
+      "output": "notes/2026-11-09-db6f-audit-poisson-cuff-budget.json",
+      "actual_receipt": "8c8a4f",
+      "exit_code": 0
+    }
+  ],
+  "actual_candidate_data_read": false,
+  "new_solver_RK_integration_backend_calls": 0,
+  "scope": "Conditional support-cone and round-cuff facts; no new connected closed common-metric surface or new reach lower bound.",
+  "current_M15_or_frozen_target_modified": false,
+  "note_control_character_scan": "No controls other than LF; no tabs or CR."
+}

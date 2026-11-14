@@ -1,0 +1,97 @@
+{
+  "session_id": 5821,
+  "completion_chunk": "9decef",
+  "actual_exit_code": 130,
+  "owner_stop": true,
+  "reason": "The .035 to .05 predictor produced five accepted damped steps; residual maximum stagnated near .0023 then increased to .0237. Preserve actual states and continue with a smaller physical gap step .04. This is neither convergence nor a nonexistence conclusion.",
+  "accepted_steps": 5,
+  "latest": {
+    "event": "accepted",
+    "seconds": 984.6072974320005,
+    "nodes": 584,
+    "residual_maximum": 0.02373712617904234,
+    "statistics": {
+      "iteration": 4,
+      "alpha": 0.0625,
+      "calls": 1,
+      "rejected_domain_trials": 1,
+      "rejected_merit_trials": 20,
+      "accepted_steps": 5,
+      "no_step": 0,
+      "minimum_alpha": 0.0078125,
+      "factorizations": 5
+    },
+    "T": 0.20121718994250304,
+    "A": 1.0286011829108872,
+    "B": 0.9786033931898641,
+    "gap": 0.04999778972102311,
+    "gap_target": 0.05,
+    "boundary_maximum": 4.4205579537822315e-05,
+    "omitted_eta_mean": -0.01273682817900367,
+    "omitted_n_mean": -0.002518649691717657,
+    "all_cut_curvature_coefficients_maximum": 0.002518649691717657,
+    "core_parameter_l1": 0.12430973845037334,
+    "maximum_worker_height": 0.005804289101353714,
+    "minimum_n_grid": 0.13842587743997442,
+    "maximum_eta": 1.3742842893670808,
+    "maximum_zeta": 1.337731281293641,
+    "minimum_radial_scale": 0.9163101662918077,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.19868567918961924,
+      "maximum_m": 0.1394709434614307,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/outputs/2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0005.npz.gz",
+      "bytes": 2606195,
+      "sha256": "cb499af19dae92e2de88bcbbf0b2d3af5aa1b2241bf0242fd7d0cc2d49acc9af"
+    }
+  },
+  "best_residual_state": {
+    "event": "accepted",
+    "seconds": 772.5180153830006,
+    "nodes": 584,
+    "residual_maximum": 0.0023062407823295577,
+    "statistics": {
+      "iteration": 3,
+      "alpha": 0.0078125,
+      "calls": 1,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 17,
+      "accepted_steps": 4,
+      "no_step": 0,
+      "minimum_alpha": 0.0078125,
+      "factorizations": 4
+    },
+    "T": 0.20141354615797485,
+    "A": 1.0286159431270054,
+    "B": 0.9786183007754226,
+    "gap": 0.04999764235158275,
+    "gap_target": 0.05,
+    "boundary_maximum": 4.715296834501828e-05,
+    "omitted_eta_mean": -0.005431487600884498,
+    "omitted_n_mean": -0.0010779762752140226,
+    "all_cut_curvature_coefficients_maximum": 0.0010779762752140226,
+    "core_parameter_l1": 0.12433882411544192,
+    "maximum_worker_height": 0.005804427343554061,
+    "minimum_n_grid": 0.1421089542587015,
+    "maximum_eta": 1.1063852385077817,
+    "maximum_zeta": 1.0681710462675744,
+    "minimum_radial_scale": 0.9180582022577697,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.19869314450332468,
+      "maximum_m": 0.13945877552826086,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/outputs/2026-11-12-fd2d-root-localturn34-g005-m191-01-accepted-0004.npz.gz",
+      "bytes": 2599105,
+      "sha256": "d105e6d31459d2f30c785a8615ad210a47b669c8a7aabaca6a2ad826a3c56432"
+    }
+  },
+  "solver_success": false
+}

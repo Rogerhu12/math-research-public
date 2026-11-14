@@ -1,0 +1,25 @@
+{"attempt": 0, "call": 1, "scale": 0.3125, "converged": true, "residual": 2.467580868048873e-10, "iterations": 5, "error": null}
+{"attempt": 1, "call": 2, "scale": 0.375, "converged": true, "residual": 6.168952170122179e-10, "iterations": 5, "error": null}
+{"attempt": 2, "call": 3, "scale": 0.4375, "converged": true, "residual": 3.5251155257841015e-10, "iterations": 5, "error": null}
+{"attempt": 3, "call": 4, "scale": 0.5, "converged": true, "residual": 7.711190212652723e-10, "iterations": 5, "error": null}
+{"attempt": 4, "call": 5, "scale": 0.5625, "converged": true, "residual": 1.3708782600271512e-09, "iterations": 5, "error": null}
+{"attempt": 5, "call": 6, "scale": 0.625, "converged": true, "residual": 4.935161736097746e-10, "iterations": 5, "error": null}
+{"attempt": 6, "call": 7, "scale": 0.6875, "converged": true, "residual": 8.973021338359537e-10, "iterations": 5, "error": null}
+{"attempt": 7, "call": 8, "scale": 0.75, "converged": true, "residual": 7.209443218770205e-10, "iterations": 5, "error": null}
+{"attempt": 8, "call": 9, "scale": 0.8125, "converged": true, "residual": 3.796278258536727e-10, "iterations": 6, "error": null}
+{"attempt": 9, "call": 10, "scale": 0.875, "converged": false, "residual": null, "iterations": null, "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 4892.887571107566', 'residual': None, 'lastIteration': {'iteration': 3, 'norm': 4892.887571107566, 'minA': 0.05038380907076433, 'minD': 0.992549099744137, 'chartCondition': 39850.69351187304}}\")"}
+{"attempt": 10, "call": 11, "scale": 0.84375, "converged": true, "residual": 5.483513040108606e-10, "iterations": 5, "error": null}
+{"attempt": 11, "call": 12, "scale": 0.875, "converged": true, "residual": 1.2486146808339158e-09, "iterations": 5, "error": null}
+{"attempt": 12, "call": 13, "scale": 0.90625, "converged": true, "residual": 5.105339726997668e-10, "iterations": 6, "error": null}
+{"attempt": 13, "call": 14, "scale": 0.9375, "converged": true, "residual": 9.870323472195488e-10, "iterations": 6, "error": null}
+{"attempt": 14, "call": 15, "scale": 0.96875, "converged": true, "residual": 6.367950627222893e-10, "iterations": 7, "error": null}
+Traceback (most recent call last):
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py", line 182, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py", line 177, in main
+    atomic_json(progress,state)
+  File "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-amplitude-continuation.py", line 35, in atomic_json
+    with temp.open('wb') as f:f.write(raw);f.flush();os.fsync(f.fileno())
+                              ^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device

@@ -1,0 +1,300 @@
+{
+  "schema": "fd2d-raw-analytic-T-full-angular-Gauss-v2",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-full-angle-design.py",
+    "bytes": 13938,
+    "sha256": "8221a92873b863339a76bfc76233b1bc70973a7128a88424354ac04b28b6673e"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json",
+    "bytes": 35378,
+    "sha256": "4ac49af76c08e9a89a0b8ddb3949082fad9f29ab4e2cbc9cc31daa1417d445e1"
+  },
+  "parameters": {
+    "candidate": "notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json",
+    "out_prefix": "notes/2026-11-12-fd2d-redeep45-k15-full-angle01",
+    "warm_start": "notes/2026-11-12-fd2d-redeep45-cyl040-k15-bridge01-amount075.npz",
+    "prefix_initializer": null,
+    "modes": 15,
+    "mesh_step": 0.04,
+    "gap": 0.9,
+    "amplitude": 1.0,
+    "base_kind": "balanced_seed",
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "central_curvature_floor": 0.1,
+    "central_curvature_cap": 7.352941176470588,
+    "curvature_merit_cap": 7.2,
+    "curvature_merit_weight": 1.0,
+    "gauss_complement_weight": 1.0,
+    "owner_stop_file": "notes/2026-11-12-fd2d-stop-redeep45-full-angle01.txt",
+    "direction_damping": 1e-05,
+    "max_iterations": 32,
+    "finite_tolerance": 2e-07
+  },
+  "providers": {
+    "fd2d_gc_raw_lifted_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    "fd2d_gc_raw_analytic_T.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    "fd2d_gc_gauss_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_complement.py",
+      "bytes": 4190,
+      "sha256": "9feca73819ea9c36e35ff18646062b2c85a865c4f36d6d681a57ffd3a18ca6aa"
+    },
+    "fd2d_gc_bounded_direction_recovery.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bounded_direction_recovery.py",
+      "bytes": 4036,
+      "sha256": "b5346fc9b366c475f8ec7dfb0b681c2814097692592455dbed1e50878d9594bc"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    },
+    "fd2d_positive_flat_developable_family.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    "fd2d_gc_design_profile_positive.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    }
+  },
+  "finite_scheme": "Trapezoidal Codazzi and projected Gauss; exact functional tail lifting",
+  "explicit_boundary_definition": "cut correction=0; central n=C*c, m=l=0, followed by full residual evaluation",
+  "curvature_merit_scope": "Optional node formal-eigenvalue search objective only",
+  "line_search": "Armijo for half squared combined residual norm using the actual directional derivative",
+  "original_gauss_codazzi_equations_changed": false,
+  "missing": [
+    "full angular/radial residual",
+    "actual Cartesian map and cut alignment",
+    "continuous full metric and all-time geometry",
+    "caps and complete meshes",
+    "same-g refinement"
+  ],
+  "completed": false,
+  "success": false,
+  "accepted_steps": 0,
+  "exception": {
+    "type": "FileNotFoundError",
+    "message": "[Errno 2] No such file or directory: 'notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json'",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-full-angle-design.py\", line 182, in main\n    try:rr,dd=objective(trial)\n              ^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-full-angle-design.py\", line 92, in objective\n    raw,data=problem.evaluate(v)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py\", line 120, in evaluate\n    residual,data=super().evaluate(vector,jacobian=False)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py\", line 232, in evaluate\n    ops = self.operators(T)\n          ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py\", line 149, in operators\n    self.profile.set_parameter(T)\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py\", line 43, in set_parameter\n    candidate=self.model.candidate(T)\n              ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_partial_return_parameter.py\", line 53, in candidate\n    def candidate(self,T):return fm.Candidate(self.bundle(T))\n                                              ^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_partial_return_parameter.py\", line 46, in bundle\n    source_file=self.source.name,source_sha256=fm.digest(self.source),generator=Path(__file__).name,\n                                               ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_frozen_ellipse_candidate.py\", line 30, in digest\n    return hashlib.sha256(Path(path).read_bytes()).hexdigest()\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py\", line 1019, in read_bytes\n    with self.open(mode='rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json'\n"
+  },
+  "seconds": 7.333257862999744,
+  "maximum_rss_kib": 215284,
+  "warm_start_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-redeep45-cyl040-k15-bridge01-amount075.npz",
+    "bytes": 43892,
+    "sha256": "2f341322e6c1a2874ba82dca2252ee5f94c2221f30c1875f20c554cfbfea8f88"
+  },
+  "initial_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-redeep45-k15-full-angle01-initial.npz",
+    "bytes": 41154,
+    "sha256": "8e933959adbf77d12f11905e174c5a4951ddc6b02f5b08a609eb068db61199a2"
+  },
+  "initial": {
+    "residual_maximum": 3.2893916880654146,
+    "residual_rms": 0.4532516793908085,
+    "full_gauss_node_maximum": 7.649421832230395,
+    "formal_curvature_node_maximum": 8.255065978679923,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.04,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "minimum_n": -0.015695659406817344,
+    "maximum_n": 4.36678735136013,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 138,
+      "upper_active_rows": 138,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 138,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 8.255065978679923,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 7.9320874394026415,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    },
+    "gauss_complement": {
+      "weight": 1.0,
+      "normalization": "weight*sqrt(2/angular_work)",
+      "rows": 27904,
+      "sampled_full_gauss_maximum": 7.649421832230395,
+      "sampled_omitted_gauss_maximum": 1.0985271085825588,
+      "residual_l2": 1.1004776698962064,
+      "original_equations_changed": false,
+      "continuous_certificate": false,
+      "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid"
+    }
+  },
+  "dimensions": {
+    "nodes": 110,
+    "frequencies": 15,
+    "correction": 47,
+    "parameters": 32,
+    "unknowns": 5202
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.118961654684911
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+    "reference_T": 0.04,
+    "actual_T": 0.04,
+    "physical_T_domain": [
+      0.0,
+      0.07275795779517606
+    ],
+    "computational_endpoint": 1.1903847390265012,
+    "actual_physical_endpoint": 1.1903847390265012,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_ratio": "q=L(T)/L_ref",
+    "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+    "coast_map": "s=s0(T)+L(T)*theta/pi",
+    "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+    "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+    "clocks": {
+      "85": {
+        "ratio": 1.0,
+        "ratio_T": 25.0,
+        "length_T": 1.0
+      },
+      "87": {
+        "ratio": 1.0,
+        "ratio_T": -30.526933524142336,
+        "length_T": -0.10056624376647048
+      }
+    },
+    "other_piece_map": "s=s0(T)+L*tau",
+    "exact_clock_positive_for_every_positive_physical_coast": true,
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "source_of_endpoint_values": "analytic exact endpoint overrides",
+    "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+  },
+  "latest": {
+    "residual_maximum": 3.2893916880654146,
+    "residual_rms": 0.4532516793908085,
+    "full_gauss_node_maximum": 7.649421832230395,
+    "formal_curvature_node_maximum": 8.255065978679923,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.04,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "minimum_n": -0.015695659406817344,
+    "maximum_n": 4.36678735136013,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 138,
+      "upper_active_rows": 138,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 138,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 8.255065978679923,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 7.9320874394026415,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate.",
+      "T_column": "caller-supplied actual field T derivative",
+      "jacobian_nonzeros": 7606
+    },
+    "gauss_complement": {
+      "weight": 1.0,
+      "normalization": "weight*sqrt(2/angular_work)",
+      "rows": 27904,
+      "sampled_full_gauss_maximum": 7.649421832230395,
+      "sampled_omitted_gauss_maximum": 1.0985271085825588,
+      "residual_l2": 1.1004776698962064,
+      "original_equations_changed": false,
+      "continuous_certificate": false,
+      "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid",
+      "jacobian_nonzeros": 1646372,
+      "T_column": "analytic provider fields_T; angular-constant K_T annihilated"
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "schema": "fd2d-closed-publication-batch-v1",
+  "utc": "2026-11-12T17:53:51.517310+00:00",
+  "base_commit": "d2af94f275195259c5eeaa1485d3090cee74620e",
+  "closed_group_manifests": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-publish-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-publish-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-closed-manifest-01.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-small-batches-static-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-tiles-static-manifest.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+      "bytes": 1437,
+      "sha256": "bba1794ddee07cdaf9674014168135019ef521c348ad71300aa8c541d306725c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 56673,
+      "sha256": "7af9160aeb123891f741a01e874fba1df2318330f6af59e6e827fe27e07c4562"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+      "bytes": 10307,
+      "sha256": "85d59dd63d68771d12cd300c3092df987bb6ad11494b0a1895550668d231d1ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-fifteenth-batch-schema-adaptation.json",
+      "bytes": 776,
+      "sha256": "ce11b4984e890e9bf3e27cd747c67af0af59b4b3ff89970f4aaefdca24e991b8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-fourteenth-batch-main-receipt.json",
+      "bytes": 1317,
+      "sha256": "bebbab957bab9eeba41e166edeebf4995b33cc7200985b112af3fefea15bb104"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-manifest.json",
+      "bytes": 1420,
+      "sha256": "03f85b5d157495dcbd75a9ec2849610114a84d0cdc5cd8b44e23f1aae8e43db6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-jet-closed-publish-manifest.json",
+      "bytes": 1616,
+      "sha256": "7085202d89ffb77c0dede8368c472d2b8dcb5b4db0eaa082ec87172c39e0be28"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-reference-and-gap-continuation.md",
+      "bytes": 15246,
+      "sha256": "4cc2c91b80555f5ebaaa1a5b794c94f487ffd41374e477826e28550ab4e66981"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-manifest.json",
+      "bytes": 1310,
+      "sha256": "373b31e90b5a833b814b923223e52e0a99974b4f3174553fbd52f30811cbec4b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-publish-manifest.json",
+      "bytes": 1470,
+      "sha256": "570620b3c5f5cd36b9e0d46b0b4d4f7111e776b58570da2b8fe64242cb97e35f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-whole-round-reference-packet.md",
+      "bytes": 7765,
+      "sha256": "e0646611f9fcdb4b82d43e3d11644c7acb50a2d77e0daceca0140aa4362757cb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-01-exit-receipt.json",
+      "bytes": 816,
+      "sha256": "ca0ac0438edffcf918d6f3c13b42a7cf46efb5b70058a700a34dea5f6b3b7069"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-01-plan.json",
+      "bytes": 8455,
+      "sha256": "45dc1d832bcb2c7e3daca8a6528f7ba49ca2a2415a2000cc2c1261a13cdd62f0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-exit-receipt.json",
+      "bytes": 819,
+      "sha256": "8023d58e9528aa5aa24eb0634b62df57a89af82e74ed96648ff52b03bef36010"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-plan.json",
+      "bytes": 8455,
+      "sha256": "45dc1d832bcb2c7e3daca8a6528f7ba49ca2a2415a2000cc2c1261a13cdd62f0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-report.json",
+      "bytes": 16764,
+      "sha256": "01c570510c3063e8f05fc3afc9332dc339a6a3f4728c97f27a74ab03277df5ee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-closed-manifest-01.json",
+      "bytes": 5163,
+      "sha256": "eabfe7f98241379d44e05334167b6590c1d52452a230afbb0629b4f412114fb2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-generated-file-inventory.json",
+      "bytes": 20208,
+      "sha256": "56ce144c94e01270c745b041454533c8816f647063ab86e30d74911e7caafef0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal.md",
+      "bytes": 11775,
+      "sha256": "eb82b306944a27cec17c5c514294c0ddfe9789c2e54421c098b20a6fb5faa148"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-staged25-first-phases.md",
+      "bytes": 3062,
+      "sha256": "c5255b67b4fdb93aabc3a7a8dcdb0a6516b30c5641f5f62582a38cbd0f1a7618"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-staged25-partition-protocol.md",
+      "bytes": 2920,
+      "sha256": "f9b7c74d28ba244867179274cd7d88b80cfa0801466541d3695cea06bd9cc2f2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-packet-transport-check01-report.json",
+      "bytes": 686,
+      "sha256": "9bb5b625b1696d1d53f1a8011ffb3c0941d249fd3a4d00752d3e7dc958d0e73d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-publication-plan-fifteenth.json",
+      "bytes": 1200,
+      "sha256": "9858300769eba14f1f421f5393e61f8c11c6f179808d403163462a0d93b507b9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-actual-current.npz",
+      "bytes": 126906,
+      "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt.json",
+      "bytes": 3328,
+      "sha256": "bd0a5dcd746d0a02ad98b19067723c62689fc53c7d5cfa02987e1c65a7e88424"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-progress.jsonl",
+      "bytes": 2367,
+      "sha256": "d50a160338707af116ca6a2084e0b95acf30ec15e17b89e0c8987749c7764dfb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-report.json",
+      "bytes": 102254,
+      "sha256": "fe478804343a83b38ca06afba080caefbd7d80a63b9989e405c0a5f1238838c8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-actual-tool-exits.json",
+      "bytes": 970,
+      "sha256": "1bb25c803ba0f96ef231a1f71a10339fb102e5b394f013c86d102e4209f94966"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-first-phases-closed-manifest.json",
+      "bytes": 6309,
+      "sha256": "619a7c6ce83d529a0bfa6ed5a978ecd2491cc632f7fd25d53c78b7481f2d0b7b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt.json",
+      "bytes": 3322,
+      "sha256": "787deaaabcb78ae01342772f168cdd8ee63e28819706e7d579233ba7f6d0360a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-progress.jsonl",
+      "bytes": 5775,
+      "sha256": "3ba9dd610b24939192ded0326dcde6a8089b81bb098f68f7c24548c05ce4d809"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-normal-a01-report.json",
+      "bytes": 84872,
+      "sha256": "ca997cbfafd0528370d8bf8eee0735bf46902021adb9e1508759ab02ecdd4e2c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt.json",
+      "bytes": 3309,
+      "sha256": "0aff296508e83d42cd5017550c1af085bdabc97d83d385072a1258da632fa278"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-progress.jsonl",
+      "bytes": 232,
+      "sha256": "0a65d564c22b233733819f90face9bb9e00b2f60859ab0098599301276967621"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-plan-a01-report.json",
+      "bytes": 87179,
+      "sha256": "a9dfd75b71d80b4223b54c7888e999dce35abb1972503f76ffd5c633dc79eec8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-request.json",
+      "bytes": 1765,
+      "sha256": "4ece1ac5d7a5af9339d608619af230b73aee7ff20e479c8f409db094e47bb525"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-small-batches-static-manifest.json",
+      "bytes": 1632,
+      "sha256": "10628c8f4660b2ab948dce744701e8ea910a392345047fe3a114d1e672fb3c77"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-tiles-actual-launch.json",
+      "bytes": 872,
+      "sha256": "8b3b1442b2401e1a871f2e0f170b6c0da7fd3fe485ed249d57662b221d09d0ba"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-tiles-controller-a01-actual-tool-exit.json",
+      "bytes": 722,
+      "sha256": "db6efe0d4c07e8492708a700245f7cc93524350c222436205da2f3a5889beb03"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-tiles-controller-a01-report.json",
+      "bytes": 11910,
+      "sha256": "e28ff6857ad2aeb843b72ae767508a518333d4f623ec59fc19b6271a1e592df3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-tiles-static-manifest.json",
+      "bytes": 3685,
+      "sha256": "90683c53d9b680a446709745b4b58216fb5034d3ad1fa9147fe6b1e67773117f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-summary.json",
+      "bytes": 34539,
+      "sha256": "9ee032cf2e0351ea0b641a5b21486b7d05d8a8dde9095e174ca0cf45f1457d01"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/manifest.json",
+      "bytes": 155082,
+      "sha256": "116a7b8326f5546cdb487575f44c027a2d480df77c1460fa539cedc555998763"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0000.npz",
+      "bytes": 441246,
+      "sha256": "a5ec5e535b307e934e53264f4a0145b9cdf748fadab95d0fae9b0cb5b66c7a8c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0001.npz",
+      "bytes": 634785,
+      "sha256": "cf8dbdabb7b7ad637dfb287c4d322d0e9cda9ba99e0d37590571cd619a34a2ee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0002.npz",
+      "bytes": 628487,
+      "sha256": "8262b0b2f15223888ec3c5825f71598a3c79cab0f3adb4886f760f6a8a8fd1c9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0003.npz",
+      "bytes": 574120,
+      "sha256": "a27dfd6cbcb47622d134c4b34db17ce73fe5a6114ef92081d71cc6179e5450d4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0004.npz",
+      "bytes": 162550,
+      "sha256": "65d76f420023f4983ee9adeb2153ff4bb7a0ae975261f879116d339393cf6eab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0005.npz",
+      "bytes": 643821,
+      "sha256": "c2c27eb062d5c9a8ca39b0e785a60ac2ef29deb5230739b51bd2a9ced445e7ea"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/baseline-values/part-0006.npz",
+      "bytes": 298043,
+      "sha256": "2ab0fc7e16ff4d53ecd43194a07bb202eac93f664eeb1a34e75a3487c85d3903"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-staged25-work/normal-partition-plan.json",
+      "bytes": 44037,
+      "sha256": "76f86d08455ab74fc8efa32697beeaa3cf4425e30b68f343afdc6fa629751e31"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-round-prefix-curvature-bound-01-exit.json",
+      "bytes": 432,
+      "sha256": "b71e2c524fb5f936491cc920e794bdb6d6981170c70f32720c927253c009f6dd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-round-prefix-curvature-bound-01.json",
+      "bytes": 9146,
+      "sha256": "4f5e955dd839676af7354c91a136cc8bfe189b83cbae84bb830f55a9ec5ace9c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-whole-round-reference-check-01-exit.json",
+      "bytes": 424,
+      "sha256": "03afbfb1ed3458e00c46633e074cbc8145b4d4195cca1e002b7e6db18f2c09bc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-whole-round-reference-check-01.json",
+      "bytes": 8891,
+      "sha256": "0a9304e17bfdbbf3d463b2c78e3bd5e19758936515aeee6b7a5715cdef98a642"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-metric-partitioned-normal-01-console.txt",
+      "bytes": 2288,
+      "sha256": "ff70ef8640e4ef69df5046f5193a54c416a4515f2cf6273a419d2c8b3d481d48"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-metric-partitioned-normal-02-console.txt",
+      "bytes": 237,
+      "sha256": "4e0f2971adab27590f9ddd64438a320f7410c25ba8f1c19cce81b56451a7a564"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt-console.txt",
+      "bytes": 2367,
+      "sha256": "d50a160338707af116ca6a2084e0b95acf30ec15e17b89e0c8987749c7764dfb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-baseline-a01-process-receipt-samples.jsonl",
+      "bytes": 71751,
+      "sha256": "52351cd391f430b59bc001a20538cc66c205eccee6cca14925b76b3611ac1e69"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt-console.txt",
+      "bytes": 5775,
+      "sha256": "3ba9dd610b24939192ded0326dcde6a8089b81bb098f68f7c24548c05ce4d809"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-normal-a01-process-receipt-samples.jsonl",
+      "bytes": 65404,
+      "sha256": "a3ec4ff13eff1752b1a023f6122658c8f934fce86fbfa7f5f17f9a15c1a9818c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt-console.txt",
+      "bytes": 232,
+      "sha256": "0a65d564c22b233733819f90face9bb9e00b2f60859ab0098599301276967621"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-staged25-plan-a01-process-receipt-samples.jsonl",
+      "bytes": 7871,
+      "sha256": "bbad2bed2f5395384e23b984c5d5af173a5585a5db95271613718d9374f9309c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 25023,
+      "sha256": "d5c5257192d0d057246dcf010612da584dc321016a451872e2925e1d47f26f5a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "bytes": 59955,
+      "sha256": "f8c08d0cd190a1f07b0ac21ddb655a93e2157598b243f718125fb5b5036287e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R166-exact-round-prefix-and-complete-increment-equations.md",
+      "bytes": 7791,
+      "sha256": "f4ab14abd55945461dbebb9b0bf3af9726ff5b56c40a58c54d8f6ccba6657f35"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-run-normal-tile-batches.py",
+      "bytes": 4447,
+      "sha256": "af0fd3dec7a306d0d2ffc97177ddab82fad299104c122bc977dba63ff6b913b8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-run-normal-tiles.py",
+      "bytes": 4851,
+      "sha256": "3f03b7ba95cf8362c5f5a3bd7838b9b0ad5f1ebe9714ae6fdf6314b7f15f9890"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-baseline.py",
+      "bytes": 3837,
+      "sha256": "da43690772daf68ea218a191c264a35a2b7709a3fb15024db7af4e027b6df09d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-direction-v2.py",
+      "bytes": 4526,
+      "sha256": "c221d6d1dde22f7a51a13a90b1cd0140ae4dfa4f7b26e59228ee6977d6d5f86c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal-merge-v2.py",
+      "bytes": 4189,
+      "sha256": "34c58dd2ed0049808348254781319c7cd4f0e48fae689b76dc70f5c460217527"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal-merge.py",
+      "bytes": 4134,
+      "sha256": "1458c7edb96a98eae4a6db4d29f1a19d6dd35895dc42316f1bf1b72c79e9f301"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal-plan.py",
+      "bytes": 1323,
+      "sha256": "4a2cdc67aea579a07a0704f8d5d513d87f8c7f30bb9fba152ca57a8bd82e4106"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal-tile-batch.py",
+      "bytes": 4165,
+      "sha256": "5ad712814d66081be8f49cae28c6895592c76ea7d0c4deeb32fa85d040d44498"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal-tile.py",
+      "bytes": 3268,
+      "sha256": "f2395f5dbf42af1ec8781dea633b4f24de0b75eefcebaa110ae8583badedce9d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-normal.py",
+      "bytes": 4290,
+      "sha256": "e3bf8c619ed8465da971e8af8686222c9e10c8e62a050897dfa1f6dda9003fce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-stage-trial.py",
+      "bytes": 7789,
+      "sha256": "366ed28451895de639ebc3a7c915be28ea4980c2ec091881fe7e0c4751513893"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-partitioned-normal-check-v2.py",
+      "bytes": 12830,
+      "sha256": "20c070bb36355edd0e27241b64f3c272efdc5215128e16c5b0b2ebf179485f19"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-partitioned-normal-check.py",
+      "bytes": 12824,
+      "sha256": "4608ab6c09b8481b9412f32636befa22eed383bb3f7437775c6053498683397a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-whole-round-reference-check.py",
+      "bytes": 9607,
+      "sha256": "fbfd58b54233e4d69eec06798af0d6f93af0d5aba150194e95460900fb166faf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+      "bytes": 5010,
+      "sha256": "98f64d4551ec2ae0c8dd8be5916f76ad5977d8ba6469b25dc52cbd820e2d0577"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+      "bytes": 4373,
+      "sha256": "d3b04dcb67e0a5ef37b0d1e25002ec7a0f2736f83c2722266ade1f64b5b288e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_normal_tile_io.py",
+      "bytes": 2255,
+      "sha256": "2d0803b50f8b386bdc3c811aead20abab86a94aa08bcc5c3eb0bcbfd80e47c0b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_packet_checkpoint.py",
+      "bytes": 8340,
+      "sha256": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_partitioned_normal.py",
+      "bytes": 19548,
+      "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_stage_io.py",
+      "bytes": 1359,
+      "sha256": "bb7a60533c7696c9fd6f398fe48c97e06a7a7668579f2827fb43dc09953c41b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_staged_search_context.py",
+      "bytes": 20890,
+      "sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_whole_round_reference.py",
+      "bytes": 12299,
+      "sha256": "b98a1c32b1e28dc1158803892443f415772a78a3ce397a67038a46e71513ffa7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_rebase_checkpoint.py",
+      "bytes": 9328,
+      "sha256": "92d37b88c05a7b146d879773282987496148c3f231c1fee15df8ff770bd45325"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py",
+      "bytes": 8154,
+      "sha256": "9b70cf65aa3bde7315b4bfe761721c81e501d9a9c8815e8861535597d8926fda"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_round_prefix_curvature_bound.py",
+      "bytes": 8219,
+      "sha256": "46897a520cbbe296118f250bf49d88a6c9fd2b69f040de92ec20fa5ec4c7a46e"
+    }
+  ],
+  "excluded": [
+    "active numerical tiles or trials",
+    "regenerable intermediate matrices",
+    "HANDOFF hash refreshed after every literal pull"
+  ],
+  "scope": "R166 and round jets, true baseline and failed full assembly, frozen partitioned recovery source; active tile matrices and outcomes excluded"
+}

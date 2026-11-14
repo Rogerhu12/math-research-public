@@ -1,0 +1,293 @@
+{
+  "scope": "Direct same-g Fourier refinement using the original true-tail BVP.\n\nSelect M on the command line. Keep flat17 geometry, original physical BC,\ntrue nonlinear DN, original power2_weights(M), release-LU and direct CSC.\nNo registration, frozen launch, independent replay or approval prerequisite.\nAll resulting arrays remain on disk. Finite success is not a closed-surface\nor all-time metric/reach certificate.\n",
+  "argv": [
+    "topics/visible-flexible-closed-surface/scripts/78718-run-prefix-mode.py",
+    "--modes",
+    "15",
+    "--angular",
+    "512",
+    "--tail-modes",
+    "22",
+    "--tail-angular",
+    "512",
+    "--jacobian",
+    "fourier",
+    "--transforms",
+    "fourier",
+    "--tail-jacobian",
+    "fourier-root",
+    "--tail-predictor",
+    "tangent",
+    "--restart",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "--tail-seed",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "--prepare-only",
+    "--out-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-prepare-01"
+  ],
+  "delegated_original_argv": [
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+    "--source-root",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "--profile",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-frozen-profile.json",
+    "--chart",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-adaptive-chart.json",
+    "--linear-port",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+    "--tail-config",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-prepare-01-tail-config.json",
+    "--out-prefix",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-prepare-01",
+    "--restart",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "--amplitude",
+    "0.1",
+    "--warp-reference",
+    "0.1",
+    "--modes",
+    "15",
+    "--angular",
+    "512",
+    "--audit-angular",
+    "1024",
+    "--nodes",
+    "1601",
+    "--max-nodes",
+    "8000",
+    "--tol",
+    "2e-9",
+    "--bc-tol",
+    "1e-8",
+    "--physical-bc-tol",
+    "2e-11",
+    "--node-heap",
+    "1536",
+    "--fixed",
+    "--warmup-scales",
+    "--lagged-tail",
+    "--preserve-restart-mesh"
+  ],
+  "preparation": {
+    "status": "ACTUAL_INITIAL_GUESS_PREPARED_ONLY",
+    "modes": 15,
+    "angular": 512,
+    "tail_modes": 22,
+    "tail_angular": 512,
+    "state_components": 46,
+    "maximum_weight": 2048.0,
+    "initial_nodes": 2633,
+    "maximum_nodes": 8000,
+    "initial_height_max": 0.0008007234299714863,
+    "height_difference_from_padded_tail_seed_max": 0.0,
+    "restart_diagnostics": {
+      "method": "saved-adaptive-mesh-and-exact-signed-mode-padding",
+      "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "source_sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc",
+      "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+      "fixed_inputs_checked": [
+        "angular_chart",
+        "chart",
+        "frozen_profile",
+        "physical_tail_parameters",
+        "physical_tail_cut",
+        "warp_reference_q"
+      ],
+      "old_modes": 15,
+      "new_modes": 15,
+      "old_nodes": 2633,
+      "new_nodes": 2633,
+      "numerical_merge_tolerance": 2e-13,
+      "minimum_numerical_span": 2.1515810365135835e-05,
+      "physical_gauge_ratio": 1.0,
+      "inlet_correction_coefficient_l1": 8.256254571477156e-15,
+      "inlet_correction_physical_l1": 8.256254571477156e-16,
+      "scope": "Fixed-metric warm restart on the saved adaptive radial mesh.\n\nThis only constructs an initial guess. Mode padding and gauge rescaling\npreserve the old represented nonmean Fourier profile before the explicit\ninlet correction; the mean height is recomputed by the solver.\nThe nonlinear BVP and actual-DN acceptance tests remain unchanged.\n"
+    },
+    "source_prefix_was_successful": false,
+    "scope": "Mode padding, original inlet correction and initial guess only; no new DN or BVP."
+  },
+  "fixed_inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-adaptive-chart.json",
+      "bytes": 3010,
+      "sha256": "c8c456a1ebc6b0ef1ac4af1a7540443a70229a1b9eda14d89294c610844a0035"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "bytes": 5581,
+      "sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+      "bytes": 27524,
+      "sha256": "cbffc43255e1ba4b70dd4f6cf3622a6af249b9efd6bc9fc6e82f6d150e69defc"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+      "bytes": 272525,
+      "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+    }
+  ],
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-prefix-mode.py",
+    "bytes": 26515,
+    "sha256": "62625d2ca59a7d2cfd9d9b72b6b5ac4b2d3ebc327eef20f9716c4470b0d334de"
+  },
+  "source_files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-mode-continuation.py",
+      "bytes": 5301,
+      "sha256": "8373cb779bf57e7d6d04f73cb61e14476fb9cfa476902c159ae9bde61c9b432b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+      "bytes": 34790,
+      "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-client.py",
+      "bytes": 4693,
+      "sha256": "a9b34044719a51d2469ba0917fe4b2df0b69cefa09f7e31f6c476332a79fb8fa"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-worker.mjs",
+      "bytes": 9643,
+      "sha256": "756f42d7047d224652aee078d2d0bc7b0b84cc93a44827a513de4d11c6cb1a11"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-warm-remesh.mjs",
+      "bytes": 5122,
+      "sha256": "365c51f6dffcbc9e63ca80744c05badc6fe35b7f70100a779ea5636118134c15"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-projected-tail.py",
+      "bytes": 9367,
+      "sha256": "77279b7b6991494abe71be82a45b8f5946fa6fbdef608cefe6746e24d08eeb72"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-inner-snapshot.py",
+      "bytes": 7811,
+      "sha256": "c6a9385b9d5db8e9fb8dfc739758459f10f17c5f95949f70e97fff6b25dfb702"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "bytes": 507,
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-spectral-collocation-v2.py",
+      "bytes": 8906,
+      "sha256": "47e1128c8cabb7c77797ebea6534cf77d63964add54f78a2cab827d1f0101854"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+      "bytes": 2320,
+      "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+      "bytes": 17550,
+      "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+    }
+  ],
+  "settings": {
+    "M": 15,
+    "N": 512,
+    "tail_modes": 22,
+    "tail_angular": 512,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "max_nodes": 8000,
+    "data_bytes_per_process": 6442450944,
+    "node_heap_mib": 1536
+  },
+  "jacobian_backend": {
+    "name": "fourier",
+    "source": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py",
+      "bytes": 4594,
+      "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+    },
+    "scope": "Prefix Jacobian assembly only; the original RHS, BC, physical metric and tolerances remain."
+  },
+  "transform_backend": {
+    "name": "fourier",
+    "source": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-long-fourier-transforms.py",
+      "bytes": 6430,
+      "sha256": "d3b1b13bf8bb7806ce1358cc4314e14e9e5801701c5857deb2b3c38fe2c1385b"
+    },
+    "scope": "Same finite cylindrical synthesis/projection; long precision and separate complex parts."
+  },
+  "tail_jacobian_backend": {
+    "name": "fourier-root",
+    "worker": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "bytes": 12156,
+      "sha256": "70f2c6f6648dcf0f616a328f22cc3d362529fde3248f6cbd9392e1a0334dfc00"
+    },
+    "additional_sources": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-core.mjs",
+        "bytes": 17250,
+        "sha256": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-split.mjs",
+        "bytes": 1948,
+        "sha256": "bacb4f2d57d75fa648ae880ef029152263052d6a15030154082732b8a89e1089"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-predictor.mjs",
+        "bytes": 4250,
+        "sha256": "8d39830939a52fc40f7de06cf5a2a9de9959f94058594051a7989b8b40744459"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-flow.mjs",
+        "bytes": 2400,
+        "sha256": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-jacobian.mjs",
+        "bytes": 3948,
+        "sha256": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-momentum.mjs",
+        "bytes": 13809,
+        "sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88"
+      },
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-split-engine.mjs",
+        "bytes": 2045,
+        "sha256": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372"
+      }
+    ]
+  },
+  "tail_predictor": {
+    "name": "tangent",
+    "expected_ready_label": "full-shooting-tangent-v1",
+    "scope": "Warm initial guess only; no changed shooting residual, guard or tolerance."
+  },
+  "finite_success": false,
+  "closed_surface_success": false,
+  "status": "PREPARED_WITHOUT_SOLVER"
+}

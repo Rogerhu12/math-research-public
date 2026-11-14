@@ -1,0 +1,69 @@
+{
+  "kind": "finite-exact-arithmetic-only",
+  "success": true,
+  "gate_count": 36,
+  "gates": [
+    "sqrt_bridge_length",
+    "green_source_sum",
+    "negative_length_potential",
+    "outer_source_coefficient",
+    "y_source_coefficient",
+    "xplusy_endpoint_exact",
+    "xplusy_source_exact",
+    "xplusy_endpoint_upper",
+    "xplusy_source_upper",
+    "bridge_L2_coefficient",
+    "endpoint_ports_sqrt2",
+    "bridge_port_coefficient",
+    "bridge_flux_outgoing",
+    "bridge_internal_incoming",
+    "bridge_internal_source_exact",
+    "bridge_internal_source_upper",
+    "feedback_transmission",
+    "feedback_band",
+    "combined_module_source",
+    "interface_incoming_exact",
+    "interface_source_exact",
+    "module_incoming_upper",
+    "module_source_upper",
+    "full_incoming_exact",
+    "full_incoming_upper",
+    "full_source_exact",
+    "full_source_upper",
+    "full_outgoing_exact",
+    "full_outgoing_upper",
+    "full_length",
+    "source_units",
+    "pointwise_U_first",
+    "L2_U_bound",
+    "physical_incoming",
+    "physical_source",
+    "physical_outgoing"
+  ],
+  "script_sha256": "29cd7113eaf633d565b171ff9f21f0fe6c1629bbd2ba12cc4dc7d25d98a92fe4",
+  "sources": [
+    {
+      "path": "notes/2026-11-10-78718-geometry-full-prefix-analytic-source-v1.md",
+      "bytes": 14624,
+      "sha256": "60e587e72b27eb75951ba6ed9a46d380c187520fde77098363dc2fb1f359e216"
+    },
+    {
+      "path": "notes/2026-11-10-78718-geometry-bridge-two-barrier-feedback-v1.md",
+      "bytes": 9860,
+      "sha256": "9336712dd04a7fc8ecd29b72997a3284074a11b4f4b65bea2da8ef3de075fbaa"
+    },
+    {
+      "path": "results/R75-flat17-sturm-frequency-propagator.md",
+      "bytes": 15486,
+      "sha256": "84d148a9535d3ecfcd4651acf8e47be5a68d3ef39a10df5b1cf97df1c5d761da"
+    },
+    {
+      "path": "results/R76-flat17-internal-ordinary-source-provider.md",
+      "bytes": 15823,
+      "sha256": "915fc07bf265d7077df4354ece3951add8049fa6afa3dd0433dcfe24114c48e5"
+    }
+  ],
+  "pde_runs": 0,
+  "tail_calls": 0,
+  "candidate_arrays_read": 0
+}

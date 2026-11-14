@@ -1,0 +1,39 @@
+{
+  "schema": "fd2d-owned-piecewise-normal-reduction-controller-v1",
+  "source": {
+    "name": "fd2d-gc-piecewise-normal-reduce.py",
+    "bytes": 16064,
+    "sha256": "870447554f40d4c4ea0a45fd3d9ad2cd4002c8a27de0cea291e0d16f559237d2"
+  },
+  "started_utc": "2026-11-12T19:29:04.206247+00:00",
+  "complete": false,
+  "children": [
+    {
+      "piece": 14,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "scripts/fd2d-run-monitored-command-v2.py",
+        "--receipt",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-piecewise-controller-a02-p0014-process-receipt.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-piecewise-normal-reduce.py",
+        "--request",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-request.json",
+        "--out-prefix",
+        "notes/2026-11-12-fd2d-raw-bump-grouped28-piecewise-controller-a02-p0014",
+        "--piece",
+        "14"
+      ],
+      "receipt": "notes/2026-11-12-fd2d-raw-bump-grouped28-piecewise-controller-a02-p0014-process-receipt.json",
+      "monitor_returncode": 1,
+      "child_returncode": 1,
+      "seconds": 2.530561941999622,
+      "peak_rss_kib": 28692
+    }
+  ],
+  "returncode": 1,
+  "ended_utc": "2026-11-12T19:29:06.848518+00:00"
+}

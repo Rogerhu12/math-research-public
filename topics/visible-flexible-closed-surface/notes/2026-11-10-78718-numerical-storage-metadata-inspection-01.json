@@ -1,0 +1,165 @@
+{
+  "schema": "78718-storage-existing-metadata-inquiry-v1",
+  "observed_utc": "2026-11-10T05:14:53.079849+00:00",
+  "fetch_observation": {
+    "actor": "parent/root",
+    "receipt_as_reported_by_parent": "e25d39",
+    "result": "completed terminal sparse add for five paths",
+    "observed_directly_by_this_agent": false
+  },
+  "metadata": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-shared-jet-byte-storage-publication.json",
+      "bytes": 1937,
+      "sha256": "4b7fbcbf61da527ee73f3aa2f85567242321058b9d51b9fec88dcc0fbec023f6",
+      "reported_status": "CLOSED_PURE_STORAGE_PREPARATION_ONLY",
+      "top_keys": [
+        "status",
+        "scope",
+        "files",
+        "file_count",
+        "total_bytes"
+      ],
+      "referenced_code_basenames": [
+        "db6f-prefix-check-shared-jet-byte-shards.py",
+        "db6f-prefix-shared-jet-byte-shards.py"
+      ],
+      "standalone_40_hex_object_ids": [],
+      "longest_string_characters": 162,
+      "has_replacements_patch_or_source_text_key": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-shared-jet-byte-storage-sources.json",
+      "bytes": 7480,
+      "sha256": "93d2fb1bb3753ab1ebf57d01535354d8a33f46ef06d8f104755f7b6002b65cee",
+      "reported_status": "FROZEN_SOURCE_AND_OLD_FIXTURE_LEDGER",
+      "top_keys": [
+        "status",
+        "scope",
+        "files",
+        "software",
+        "source_file_count",
+        "all_old_files_unchanged"
+      ],
+      "referenced_code_basenames": [
+        "950f-root-fullxyz-hermite.py",
+        "__init__.py",
+        "_npyio_impl.py",
+        "db6f-audit-closed-budget-transfer-v3.py",
+        "db6f-audit-continuous-hermite.py",
+        "db6f-audit-metric-polynomial.py",
+        "db6f-audit-metric-supplier.py",
+        "db6f-audit-prefix-angular-metric.py",
+        "db6f-audit-terminal-error-gate.py",
+        "db6f-export-closed-mesh.py",
+        "db6f-prefix-check-shared-jet-byte-shards.py",
+        "db6f-prefix-shared-jet-byte-shards.py",
+        "db6f-root-common-cut-v2.py",
+        "db6f-root-exact-bridge.py",
+        "db6f-root-mirror-hermite.py",
+        "db6f-root-volume-moment.py",
+        "db6f-root-whole-metric-reach-v2.py",
+        "format.py",
+        "gzip.py"
+      ],
+      "standalone_40_hex_object_ids": [],
+      "longest_string_characters": 151,
+      "has_replacements_patch_or_source_text_key": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-shared-jet-byte-storage-adoption.json",
+      "bytes": 1264,
+      "sha256": "349418321b5850677ac81cbcdc63b2bb17892e4787c2845b8fa17d54f28c3959",
+      "reported_status": "ROOT_ACCEPTS_INDEPENDENTLY_REVIEWED_PURE_BYTE_CODEC_ONLY",
+      "top_keys": [
+        "status",
+        "observer",
+        "observed_utc",
+        "full_author_method_read_receipt",
+        "full_codec_read_receipt",
+        "full_review_read_receipt",
+        "all_read_exit_codes",
+        "author_publication",
+        "review_publication",
+        "frozen_files_rehashed",
+        "geometry_solver_calls",
+        "G5_completed",
+        "scope"
+      ],
+      "referenced_code_basenames": [],
+      "standalone_40_hex_object_ids": [],
+      "longest_string_characters": 250,
+      "has_replacements_patch_or_source_text_key": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-storage-publication.json",
+      "bytes": 2565,
+      "sha256": "6517ae9c066cc360e64f9bf1e6d1e77c66504b2fdd51e5a217308b1a0d26f7c6",
+      "reported_status": "PASS_FULL_PURE_STORAGE_CODEC_AND_OLD_BYTE_REPLAY_REVIEW",
+      "top_keys": [
+        "schema",
+        "reviewer",
+        "status",
+        "scope",
+        "reviewed_author_publication",
+        "files",
+        "file_count",
+        "total_bytes",
+        "independent_actual_receipts",
+        "G5",
+        "README_completed"
+      ],
+      "referenced_code_basenames": [
+        "db6f-tail-review-shared-jet-byte-storage.py"
+      ],
+      "standalone_40_hex_object_ids": [],
+      "longest_string_characters": 182,
+      "has_replacements_patch_or_source_text_key": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-storage-sources.json",
+      "bytes": 8659,
+      "sha256": "63064a66243ddff60d37d7c49b9a83598fd050544ba41b1c8e63e2a4d717754e",
+      "reported_status": "FROZEN_PURE_STORAGE_REVIEW_SOURCES",
+      "top_keys": [
+        "status",
+        "reviewer",
+        "files",
+        "count",
+        "scope"
+      ],
+      "referenced_code_basenames": [
+        "950f-root-fullxyz-hermite.py",
+        "__init__.py",
+        "_npyio_impl.py",
+        "db6f-audit-closed-budget-transfer-v3.py",
+        "db6f-audit-continuous-hermite.py",
+        "db6f-audit-metric-polynomial.py",
+        "db6f-audit-metric-supplier.py",
+        "db6f-audit-prefix-angular-metric.py",
+        "db6f-audit-terminal-error-gate.py",
+        "db6f-export-closed-mesh.py",
+        "db6f-prefix-check-shared-jet-byte-shards.py",
+        "db6f-prefix-shared-jet-byte-shards.py",
+        "db6f-root-common-cut-v2.py",
+        "db6f-root-exact-bridge.py",
+        "db6f-root-mirror-hermite.py",
+        "db6f-root-volume-moment.py",
+        "db6f-root-whole-metric-reach-v2.py",
+        "db6f-tail-review-shared-jet-byte-storage.py",
+        "format.py",
+        "gzip.py"
+      ],
+      "standalone_40_hex_object_ids": [],
+      "longest_string_characters": 162,
+      "has_replacements_patch_or_source_text_key": false
+    }
+  ],
+  "conclusions": [
+    "All five metadata files refer to the earlier v1 byte codec and original consumers. None contains a complete A/B source text, an A/B forward transformation ledger, or an explicit Git commit/blob object ID.",
+    "The publication and review status strings are old reported scope, not new independent numerical evidence.",
+    "Together with the fixed current-tree inquiry and local-small-object SHA search, the currently available inspected materials do not provide a byte-exact A/B restoration route. This is not a proof of absence from every remote historical object."
+  ],
+  "restored_AB_sources": 0,
+  "mathematical_calls": 0
+}

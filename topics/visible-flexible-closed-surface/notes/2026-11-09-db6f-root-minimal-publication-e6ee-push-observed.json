@@ -1,0 +1,22 @@
+{
+  "status": "OBSERVED_SUCCESSFUL_ORDINARY_FAST_FORWARD_PUSH",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T21:04:02.868799+00:00",
+  "terminal_session": 84576,
+  "actual_tool_output_receipt": "441b4f",
+  "conditional_git_push_exit_code": 0,
+  "shell_session_continues": true,
+  "candidate_commit": "b77800583068ef38332c690f03a629784373ff82",
+  "latest_parent": "ec197ff2bd2f0ceaf0ef07aac4a5a8cf5ce4dbbc",
+  "source_commit": "e6ee007fa3ecd0cee753a962c4bb7910e85a95cf",
+  "source_base": "02338b87725b7bff9599d797f28f6061e704c880",
+  "prepared_report": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-e6ee-prepared-attempt1.json",
+    "bytes": 23844,
+    "sha256": "09ccd5f6e4ad2a0a7ad380a92d4df789497ae404170502dd3af9482ba23c4a4e"
+  },
+  "changed_path_count": 66,
+  "root_log_bytes": 49197,
+  "force_push": false,
+  "scope": "Actual success line was emitted only after terminal git push returned zero; source artifacts were rebound onto freshly fetched main with unrelated trees unchanged."
+}

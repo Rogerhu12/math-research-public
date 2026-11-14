@@ -1,0 +1,72 @@
+{
+  "schema": "fd2d-R210-conservative-height-guide-closed-group-v1",
+  "utc": "2026-11-13T03:17:08.898Z",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-R210-amplitude-height-allowance-geometric-guide.cjs",
+      "bytes": 11073,
+      "sha256": "893c90adb8a5c22087a621347851f0d0863a65828026bd0de30eaf078775fe94",
+      "commit": "41602c71b1761e18b7472222f6182cdc302db755"
+    },
+    {
+      "path": "scripts/fd2d-check-R210-height-allowance-guide.cjs",
+      "bytes": 4877,
+      "sha256": "ba264ad16cad7b1798b1fd1f1f0895b1f7787ac0e277a09c61a98de853ea73bf",
+      "commit": "77b5ac160e40607547f633092d3df7f010d50862"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R210-height-allowance-guide-check.json",
+      "bytes": 6224,
+      "sha256": "9d530af22143d2b50df6a1e4380423b81ad974f834fcd42ba8cec1bb2aaad4fa",
+      "commit": "aac36a61d3631ca820097e72092e99c72e1de22a"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R210-conservative-height-guide.md",
+      "bytes": 3142,
+      "sha256": "b35a3bcf3442fba3c0a05c3f1694d3cc82464beb12a9ec10c40314f6f2ab4dbc",
+      "commit": "7f9efdcdcb5200a9cef463b4a47f84caed4a2301"
+    }
+  ],
+  "parentCompleteCapProof": {
+    "path": "results/R210-extended-throat-caps-for-far-radius-core-protrusions.md",
+    "commit": "43072f193b29f4b99401277da811f1dec06c2547",
+    "sha256": "ba013947335df013a70ac10f9eeb71fa3b7702218d117dc579cefd42307f2f82"
+  },
+  "actualChainCheck": {
+    "runtime": "pure V8, no OS child/exit",
+    "seconds": 6.861,
+    "dimension": 35,
+    "geometryRows": 23324,
+    "mixedJVPRelative": 1.428243765918592e-8,
+    "gradientDirectionalRelative": 0,
+    "normalQuadraticRelative": 2.09097561303178e-16,
+    "transitionBothSignMaxJVPError": 4.936523412268912e-12
+  },
+  "heightAllowance": {
+    "maximum": 0.0195,
+    "radialStart": 0.52,
+    "radialEnd": 0.54,
+    "exactCapOffset": [
+      "1",
+      "50"
+    ],
+    "exactFarRadius": [
+      "257",
+      "500"
+    ],
+    "cutWindow": [
+      0.41,
+      0.6
+    ]
+  },
+  "changedNumericalTarget": true,
+  "newCapsRequired": true,
+  "oldPhysicalCoreUnchangedBeforeOptimization": true,
+  "actualLargeNormalOrLMStep": false,
+  "publication": {
+    "mode": "README section 8 small UTF8 during terminal unavailable",
+    "journal": []
+  },
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

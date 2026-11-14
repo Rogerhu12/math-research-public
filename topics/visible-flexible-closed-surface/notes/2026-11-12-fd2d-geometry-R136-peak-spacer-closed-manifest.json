@@ -1,0 +1,123 @@
+{
+  "schema": "fd2d-geometry-R136-peak-spacer-closed-manifest-v1",
+  "all_listed_files_closed": true,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_flatcut_peak_spacer_design.py",
+      "bytes": 12406,
+      "sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_peak_spacer_radius_certificate.py",
+      "bytes": 10436,
+      "sha256": "1b81859e1abe299371ed12087336da5c9dee6bd16969848de18d69217575bbb9",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_peak_spacer_radius_certificate_v2.py",
+      "bytes": 11462,
+      "sha256": "a33c214dffc98dd2b5c09a5d3d1d130726d1ff8abb997162a9d70b59cacbe5ae",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl038-candidate.json",
+      "bytes": 25453,
+      "sha256": "e9a7096dbb358b102ab0c04c0356af2ba49a115040784e210cc905941e5828fd",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-meridian.npz",
+      "bytes": 242684,
+      "sha256": "1615306d5c05fc44ae0e53d360fb7bd31c99869316b8ecdc9c77c0d286e495dc",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl038-meridian.npz",
+      "bytes": 242499,
+      "sha256": "b5e689f91ce1efd93cc19d07976cb6ec9a78765b0ce5404120b5f1ad6088a4d2",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-report.json",
+      "bytes": 16237,
+      "sha256": "bc369b4ef9aecc3dc9e200782f06d0d053fbac32e3c4c2892e1bba30adb31822",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-01.json",
+      "bytes": 134789,
+      "sha256": "6b4d6b21da29af5e507779bf88406ea92414626d6d749942f7408be4835eed6c",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695",
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R136-peak-spacer-prefix-continuous-radius-and-outer-design-domain.md",
+      "bytes": 11652,
+      "sha256": "31ab42b05f581aa204b469b7f74d209f2b5e9cd13d4366d4e0c6deebbcded8ad",
+      "closed": true
+    }
+  ],
+  "file_count": 11,
+  "total_bytes": 869620,
+  "actual_executions": [
+    {
+      "task": "candidate generation and finite reference diagnostics",
+      "session": 3037,
+      "final_chunk": "4e141e",
+      "exit_code": 0,
+      "seconds": 4.93894748799994
+    },
+    {
+      "task": "exact rational radius certificate v2",
+      "session": 48450,
+      "final_chunk": "8e33ec",
+      "exit_code": 0,
+      "seconds": 22.886747468000067
+    }
+  ],
+  "diagnostic_history": {
+    "v1_source": "scripts/fd2d_peak_spacer_radius_certificate.py",
+    "v1_report": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-01.json",
+    "v1_exit_code": null,
+    "v1_issue": "Endpoint sine monotonicity for an enclosure straddling exact -pi/2 is not used as a rigorous certificate; v2 replaces it with a global Lipschitz enclosure."
+  },
+  "exact_rational_consequences_verified": [
+    {
+      "encoding": "exact binary64 numerical data",
+      "deep_exact_outer": [
+        "439/100000",
+        "2803/500000"
+      ],
+      "Tmax_strict_rational_lower": "1592/25000",
+      "safe_T_upper_inclusive": "3/50",
+      "radius_lower": "4/5"
+    },
+    {
+      "encoding": "exact written decimal numerical data",
+      "deep_exact_outer": [
+        "439/100000",
+        "2803/500000"
+      ],
+      "Tmax_strict_rational_lower": "1592/25000",
+      "safe_T_upper_inclusive": "3/50",
+      "radius_lower": "4/5"
+    }
+  ],
+  "cylinder_variants_identical_except_first_length": true,
+  "recommended_candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "latest_source_head_reported_by_root": "4514e9633b19cf83dc300a1404a53a2f5808ffe4",
+  "scope": "New physical scalar metrics, full proof a>=4/5 and protected radial-bump positivity. Finite reference diagnostics are not a nonlinear core/reach certificate. Numeric-owned IVP/bridge files are not listed here.",
+  "no_git_or_global_indexes_modified": true
+}

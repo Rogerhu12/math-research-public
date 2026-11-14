@@ -1,0 +1,39 @@
+{
+  "schema": "R206-complete-appended-global-Schur-closed-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_appended_global_schur_R206.cjs",
+      "bytes": 6626,
+      "commit": "a7d791f5d12851f78f22ca7629bb35d175f0fcfc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-check-appended-global-R206.cjs",
+      "bytes": 4616,
+      "commit": "f68cd0f49ac08d24c17e47d196db4433d1684029"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R206-appended-global-column-and-complete-scaled-Schur.md",
+      "bytes": 6305,
+      "commit": "9585cd5db9588b48e20ffd14fe7c6b680d9af2bf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R206-actual-position-normal-check-01.json",
+      "bytes": 9650,
+      "commit": "90916bd3a297895f0f4919bd103c3cb319c1e703"
+    }
+  ],
+  "actualExecution": {
+    "runtime": "pure V8; no OS child or exit",
+    "testBeforeSchemaFix": "Missing explicit radialKnots rejected caller before normal",
+    "actualBaseNormalDimension": 19,
+    "appendedDimension": 20,
+    "actualSystemsCompared": 6,
+    "maxRelativeDirection": 3.1011303586697183e-12,
+    "maxOriginalScaledResidual": 4.611314754319703e-16,
+    "fullCheckSeconds": 0.663
+  },
+  "scope": "All old columns, true extra column and scaled damping required; original band/cut normal retained, no dropped cross terms, no hidden jitter. Test extra column is actual Jv, not yet the R205 amplitude column.",
+  "actualTailAmplitudeNormalCompleted": false,
+  "actualNewNonlinearStepCompleted": false,
+  "strongTargetComplete": false
+}

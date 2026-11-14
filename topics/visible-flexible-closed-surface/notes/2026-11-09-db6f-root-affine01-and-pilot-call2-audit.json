@@ -1,0 +1,120 @@
+{
+  "status": "CLOSED_AFFINE_RESOURCE_FAILURE_AND_ORIGINAL_PILOT_CALL2_FAILURE_VERIFIED",
+  "affine": {
+    "source_bindings_rehashed": 113,
+    "guard_child_exit_code": 2,
+    "actual_final_tool_exit_observed": false,
+    "tool_handle_lost": true,
+    "program_error": "MemoryError",
+    "per_process_data_cap_bytes": 1610612736,
+    "initial_nodes": 2633,
+    "printed_next_nodes": 5047,
+    "printed_weighted_rms": "4.75e-07",
+    "printed_bc_residual": "2.09e-14",
+    "printed_values_are_rounded_not_final_certificates": true,
+    "new_checkpoint_exists": false,
+    "new_coefficient_files_exist": false,
+    "actual_new_dn_calls": 0,
+    "original_runtime_newton_identity": true,
+    "mathematical_nonexistence_not_inferred": true
+  },
+  "pilot_call2": {
+    "source_bindings_rehashed": 161,
+    "physical_call": 2,
+    "linear_path_tau": "1/8",
+    "last_iteration": {
+      "iteration": 7,
+      "norm": 0.08024434977172676,
+      "minA": 0.07040085113594187,
+      "minD": 0.991616188427894,
+      "chartCondition": 56683.29237775912
+    },
+    "classification": {
+      "kind": "closed-known-numerical-ten-trial-rejection",
+      "trial_rows": 41,
+      "iteration_groups": 8,
+      "closed_call_trial_rows_sha256": "b8b5e3a9d355bf2fd29134043d126f1db079ea28060c31d2a97fd17694e1d8f2"
+    },
+    "trial_kind_counts": {
+      "accepted": 7,
+      "residual-not-decreasing": 22,
+      "momentum-root-solver-rejection": 12
+    },
+    "checkpoint_shape": [
+      865,
+      30
+    ],
+    "raw_shape": [
+      13,
+      30
+    ],
+    "jacobian_requested": false,
+    "audit_requested": false,
+    "no_success_or_target_goal_inferred": true,
+    "pilot_final_tool_exit_not_observed": true
+  },
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client-v2.py",
+      "bytes": 34350,
+      "sha256": "6d278d78e275df2e0e66db3eb0edb592321fecc22c1c229eacd53f5869166d15"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-audit-affine01-and-pilot-call2.py",
+      "bytes": 7194,
+      "sha256": "2c65e1115eb189d6338d5752451a5ebbcd4574c1fc39a2fbf0dc67107ced080a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-launch.json",
+      "bytes": 34121,
+      "sha256": "ce1d05787e40c3b9cd3ff42443ef3de66f275c9be3135ff5c6b430e6cabc2b92"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+      "bytes": 55594,
+      "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-completion.json",
+      "bytes": 1312,
+      "sha256": "4c6470451712d61c36c767267d9211bb1e1feafa7f791520ce49eee9719a0601"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-reproduction.json",
+      "bytes": 41354,
+      "sha256": "05f117461c7dba5c0d174d95ca963ef213a1c1ffab4f4108c8b43487e99180a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-summary.json",
+      "bytes": 12349,
+      "sha256": "db6ee7040b3092ebb06253e542f7ab00b33fd860de35f34fbbd756c960721c01"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-run.log",
+      "bytes": 683,
+      "sha256": "048a18d0401f2900639a74edb5fd8223a286acb497e91c3c1ccfb504f6d1ae36"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01-launch.json",
+      "bytes": 45173,
+      "sha256": "5d4224ea9138bd6fc6f017c6aade288e003532fb45e77252d4d45c4fdc988cb5"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail_0002.json.gz",
+      "bytes": 266810,
+      "sha256": "c6889ba47c662ac0c66898b8abc7a087c61ecc1bf3675fdc1a6110e12a490f67"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-call002-closed-trials.jsonl",
+      "bytes": 11816,
+      "sha256": "157312dd882e8de0eb5ee466a8b832d44ba0b519aefbfde6e1bce24956d5ae02"
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Closed failed calls only. No new coupled prefix, final seam, continuous metric, geometry or G5 claim."
+}

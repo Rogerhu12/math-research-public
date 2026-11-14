@@ -1,0 +1,44 @@
+{
+  "status": "CONNECTED_ENTRY_CORRECTION_WITH_ORIGINAL_EXACT_LEDGER_UNCHANGED",
+  "reason": "At epsilon=1/200 the disjoint compact-piece models cannot be approximated bidirectionally by any connected compact image.",
+  "new_entry": "One-sided complete-image convex-hull enclosures plus actual endpoint witness points; no reverse Hausdorff containment.",
+  "original_n7_proof_sha256": "ed256356fd822783f1af4a3fae41dbeeca9d46ad87619c839fdf88ab780c10eb",
+  "original_poisson_proof_sha256": "bc635aa9f6a76ac6564d734c4f77fda78b34079e777fd5ecf1b86c5ef46d1c5e",
+  "new_proofs": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-fixed-marker-diameter-model-v2.md",
+      "bytes": 12748,
+      "sha256": "3c47ec456ce527d344e103aeb5f88aae4dbe618cfefc1341f64c37bd1f8d9a97"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    }
+  ],
+  "unchanged_ledger_bindings": [
+    {
+      "path": "scripts/db6f-audit-c3-marker-bounds.py",
+      "bytes": 9646,
+      "sha256": "b0064c43b8a20d45aff26b89f52484793a098c99a4560d8d542fd8545321e24e"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-c3-marker-bounds.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    }
+  ],
+  "new_numerical_backend_or_solver_calls": 0,
+  "control_characters_except_lf": 0,
+  "actual_closed_common_metric_family_constructed": false
+}

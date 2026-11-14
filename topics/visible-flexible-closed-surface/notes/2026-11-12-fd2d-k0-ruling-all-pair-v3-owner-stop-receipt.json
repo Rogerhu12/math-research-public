@@ -1,0 +1,22 @@
+{
+  "schema": "fd2d-all-pair-v3-owner-stop-receipt-v1",
+  "session_id": 6782,
+  "initial_chunk": "d9e51c",
+  "final_chunk": "0d9604",
+  "exit_code": 130,
+  "owner_requested_stop": true,
+  "source_sha256": "c3569e27886cf1b6ff770f74e2b078bd0b423c590528a55cf32f49bedd5e6714",
+  "closed_checkpoint_sha256": "54cc1eca66804673faddc4ccb90eb20137b5650718ee0dbf96f0479d39f8bcea",
+  "closed_rows": [
+    6,
+    9
+  ],
+  "closed_products": 75,
+  "closed_recursive_boxes": 42347,
+  "closed_leaves": 21211,
+  "closed_unresolved": 0,
+  "last_closed_row_source_seconds": 504.23260958299943,
+  "stopping_reason": "Strict frame-cross reference error was completed; continue at the next completed-row boundary with an independently named verifier, same physical surface.",
+  "whole_domain_complete": false,
+  "unfinished_row9_reused": false
+}

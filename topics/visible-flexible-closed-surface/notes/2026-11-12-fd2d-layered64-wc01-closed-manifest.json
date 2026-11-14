@@ -1,0 +1,148 @@
+{
+  "schema": "fd2d-closed-research-files-v1",
+  "actual_completed_sessions": [
+    57066,
+    66813,
+    30256,
+    37123
+  ],
+  "actual_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "scope": "Recovered actual finite calibration, same-g full160 linear audits, new prefix input and conditional geometric proof. No nonlinear/strong completion.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-layered64-slope-path-budget.md",
+      "bytes": 5532,
+      "sha256": "6f2c2eedfd627162abf0639c6a5dd5d0a6ce4328b83809bbec1c6818bd2366c3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-layered64-wc01-recovered-design.md",
+      "bytes": 6430,
+      "sha256": "ff2412ca5cdc1ea2a6584eda51c3a3d94bedc8624fea3d56a656cc379f356997"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-lost-executor-output.md",
+      "bytes": 1927,
+      "sha256": "0a1149be0c813816a7852b5f36d3a0abb411e8d645fc86be02ebefa6137cf73a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-p148-prefix-01-candidate.json",
+      "bytes": 34438,
+      "sha256": "a9cc3f1f87e0338afac5dc8eb62854c803cf98532b468914acdfdd84715afc51"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-p148-prefix-01-initial.json",
+      "bytes": 32343,
+      "sha256": "69b96f301ea70237e79fb0d984412f16107f027fcfd2590d9c2fbe931950fd49"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-p148-prefix-01-report.json",
+      "bytes": 273418,
+      "sha256": "dca63c902b4a27f24d6c07c5c69cc1756c648d01387418890c8ae474d9d7f71a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-p148-prefix-01-trajectory.npz",
+      "bytes": 328851,
+      "sha256": "98161de340da7d470fa11ffa20c3fc4aa4a72e8364064b6bf296aa45f8b705fa"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-calibration-closed-manifest.json",
+      "bytes": 2029,
+      "sha256": "326f720511d3440547a6914cd46e97b4231a65bf100f8c1a0ee8fc3da059aede"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-cells.jsonl.gz",
+      "bytes": 72569,
+      "sha256": "e49c27f90dd6ded05ccc51bab4fadced26750d1886f737c3d76e834c01bd50e6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-checkpoint.json",
+      "bytes": 83520,
+      "sha256": "536d1b09f235c85bd22b2a29d6a0629406d2fb64f6a4a302b02ccf5c6dbf3fe9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-config.json",
+      "bytes": 21376,
+      "sha256": "d4d41047c5afa1df90e17e3814e896a7cd91f64c79d0e11116e071cb97e17994"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-initial-config.json",
+      "bytes": 18362,
+      "sha256": "26f55033513c19b341d035ea3ac6d1cb851d1a21e2d66d3ae658af94977e7f15"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-grid-comparison.json",
+      "bytes": 1939,
+      "sha256": "494a85a392d2e18518e71b429f30a0f39a1780a33695de425e41b92bfd64c01c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n256-checkpoint.json",
+      "bytes": 33814,
+      "sha256": "3b5154ef5ee0cd7210a57056c6d44fb4085ac59cf2dbfb0981640d1a97805a6c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n256-raw-momentum.jsonl.gz",
+      "bytes": 740877,
+      "sha256": "589ff50baa6ab1f796dcf0900dbb112aa4e828da5e3ea3499c50f0c960bef2a8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n256-report.json",
+      "bytes": 41227,
+      "sha256": "21623cb5cfeb4fd7bffb4f779b411d521a266333d5de7b6e47e1cbc716da6a83"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n256-trajectory.jsonl.gz",
+      "bytes": 2399624,
+      "sha256": "be2b95bfe62a40395c5bba70fc6ef5c165f6df4766bf341b549671a9e7834f09"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n512-checkpoint.json",
+      "bytes": 33815,
+      "sha256": "fb7502d91f4d6294000ca2307e11f8600fb88bac70427a914d23ee5e670fbc0e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n512-raw-momentum.jsonl.gz",
+      "bytes": 740425,
+      "sha256": "f2c21f6c3e5c284775641b0565a04f9762db76c9328f5f8c7ccb848937a46a11"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n512-report.json",
+      "bytes": 41222,
+      "sha256": "e0d052b3bb4ff2314e54c989a3dff800bd83f958735465620c691f34271effe5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-layered64-wc01-recovery02-m2-n512-trajectory.jsonl.gz",
+      "bytes": 2399994,
+      "sha256": "3bc8922f01834523f3e0356f7fdca829eb1caeacafb584456a88e46c740726e7"
+    },
+    {
+      "path": "scripts/fd2d-bounded-tail-point-cache.mjs",
+      "bytes": 1767,
+      "sha256": "497e22f5b9673be18b0497f03de3233529d58f3569661e4105ff95d32dd29d07"
+    },
+    {
+      "path": "scripts/fd2d-layered-tail-m2-audit.mjs",
+      "bytes": 8150,
+      "sha256": "b64d7af59951c3ef0069153455cae34794c93cb10c345e00c1eef493f83865e7"
+    },
+    {
+      "path": "scripts/fd2d-layered-tail-recovery-calibrate.mjs",
+      "bytes": 9285,
+      "sha256": "51502708e43a7f58530b80c7321373d430d821668a2327b0b0be23f8f230f4f2"
+    },
+    {
+      "path": "scripts/fd2d-layered-tail-recovery-input.py",
+      "bytes": 1429,
+      "sha256": "8e90a0a40b6c9fabfac79d61c999a370c2322875cedad6b3ed3b2822a7fbc859"
+    },
+    {
+      "path": "scripts/fd2d_retarget_p148_tail.py",
+      "bytes": 5719,
+      "sha256": "b7f186c86c5c179ab102b7914edd518e16041948f6376f5d2d48f3d23a6afc83"
+    }
+  ]
+}

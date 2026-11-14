@@ -1,0 +1,477 @@
+{
+  "scope": "Find a physical m=2 stable line with planar initial data (f,g)=(1,0).\n\nThe planar elliptic cylinder changes the linear initial condition from the\nold wavy curve's g/f<0 to g/f=0. This script adjusts a finite cycle excursion,\nwith all other controls fixed, and checks the resulting linear holonomy\nindependently by forward integration. No nonlinear elliptic collar is claimed.\n",
+  "coarse_samples": 56,
+  "roots": [
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.5,
+        "vd": 0.7,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.17569425606328523
+      },
+      "backward_core_unit": [
+        1.0,
+        -1.43022457264817e-16
+      ],
+      "rho": -1.43022457264817e-16,
+      "root_component": -1.43022457264817e-16,
+      "physical_endpoint_gain": 0.06901125307344601,
+      "logscale": 2.659353802428205,
+      "meridian_length": 1.6428153984110963,
+      "background_height": 1.3094750063019114,
+      "background_radius_min": 0.5999999999999991,
+      "background_radius_max": 1.1756942560632853,
+      "background_kappa_max": 7.096836864673985,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.5,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          0.011684524374582594,
+          0.06901125140679598
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 1.029492934408133e-08,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2042
+      },
+      "bracket": [
+        0.12,
+        0.22
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.8,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.20107369489743002
+      },
+      "backward_core_unit": [
+        1.0,
+        1.336347059004158e-16
+      ],
+      "rho": 1.336347059004158e-16,
+      "root_component": 1.336347059004158e-16,
+      "physical_endpoint_gain": 0.06298428573044934,
+      "logscale": 2.7507381193210407,
+      "meridian_length": 2.0152455371687794,
+      "background_height": 1.6683318669546807,
+      "background_radius_min": 0.5999999999999989,
+      "background_radius_max": 1.20107369489743,
+      "background_kappa_max": 8.384588646419957,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.35,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          0.010664080570844081,
+          0.06298428754094469
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 1.2586689406895324e-08,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2228
+      },
+      "bracket": [
+        0.12,
+        0.22
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.19146251660025568
+      },
+      "backward_core_unit": [
+        1.0,
+        2.9321543798597746e-17
+      ],
+      "rho": 2.9321543798597746e-17,
+      "root_component": 2.9321543798597746e-17,
+      "physical_endpoint_gain": 0.04099450530740189,
+      "logscale": 3.1801853409184107,
+      "meridian_length": 2.1887828790991555,
+      "background_height": 1.8814633295678593,
+      "background_radius_min": 0.5999999999999991,
+      "background_radius_max": 1.1914625166002557,
+      "background_kappa_max": 4.173993557999604,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.35,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          0.006940906543628328,
+          0.04099448941011228
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 1.6982535805799007e-07,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2030
+      },
+      "bracket": [
+        0.12,
+        0.22
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.8,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.2203205527654835
+      },
+      "backward_core_unit": [
+        1.0,
+        3.526137094442152e-14
+      ],
+      "rho": 3.526137094442152e-14,
+      "root_component": 3.526137094442152e-14,
+      "physical_endpoint_gain": 0.049234198910847814,
+      "logscale": 2.997034899906758,
+      "meridian_length": 2.5666530576045905,
+      "background_height": 2.2189038157770646,
+      "background_radius_min": 0.5999999999999989,
+      "background_radius_max": 1.2203205527654835,
+      "background_kappa_max": 7.652124135351326,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.25,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          0.008336004019919475,
+          0.04923419506176034
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 3.407536355187923e-08,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2390
+      },
+      "bracket": [
+        0.22,
+        0.38
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.95,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.32862661621855505
+      },
+      "backward_core_unit": [
+        -1.0,
+        1.5885552948522877e-14
+      ],
+      "rho": -1.5885552948522877e-14,
+      "root_component": 1.5885552948522877e-14,
+      "physical_endpoint_gain": -0.11278254352746785,
+      "logscale": 2.168161810623161,
+      "meridian_length": 2.7802747927568427,
+      "background_height": 2.3131508226913975,
+      "background_radius_min": 0.5999999999999991,
+      "background_radius_max": 1.3286266162185552,
+      "background_kappa_max": 7.988090581996928,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.35,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          -0.019095586894414988,
+          -0.11278254136747722
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 1.1007468729626052e-08,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2594
+      },
+      "bracket": [
+        0.22,
+        0.38
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.5,
+        "vd": 0.9,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5,
+        "delta": 0.4318936315014292
+      },
+      "backward_core_unit": [
+        -1.0,
+        -1.532444021607964e-11
+      ],
+      "rho": 1.532444021607964e-11,
+      "root_component": -1.532444021607964e-11,
+      "physical_endpoint_gain": -0.35098602257250955,
+      "logscale": 1.032876980806798,
+      "meridian_length": 2.878296680543649,
+      "background_height": 2.335258547581284,
+      "background_radius_min": 0.5999999999999991,
+      "background_radius_max": 1.4318936315014292,
+      "background_kappa_max": 5.215006473596776,
+      "bridge_length": 0.6388482209066094,
+      "initial_up_speed": 0.5,
+      "circle_initial_data_only": true,
+      "nonlinear_ellipse_verified": false,
+      "independent_linear_forward": {
+        "method": "RK45",
+        "success": true,
+        "terminal": [
+          -0.05942661400893454,
+          -0.35098602262128614
+        ],
+        "target_line": [
+          0.1693133346697265,
+          1.0
+        ],
+        "normalized_line_determinant": 2.671683441370786e-10,
+        "initial_data": [
+          1.0,
+          0.0
+        ],
+        "calls": 2564
+      },
+      "bracket": [
+        0.38,
+        0.6
+      ],
+      "port": {
+        "cut": {
+          "radius": 0.6,
+          "backgroundSlope": 0.5,
+          "backgroundSecond": -5.833333333333334,
+          "E": 1.25,
+          "Ep": -5.833333333333334
+        },
+        "linearSlope": [
+          4.973533319969402,
+          -5.240180963466712,
+          -81.55535061535863,
+          -285.4133983876462,
+          -734.7642441528201,
+          -1828.936010603657,
+          -6544.992298514126,
+          13916.548494799008,
+          4593.154823527265,
+          3084.2678379497097,
+          2428.8832547044613,
+          2028.2123147281109,
+          1726.252058479989,
+          1460.8676267024096,
+          1197.7667041530851,
+          910.006902040239
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 231.46099066734314,
+  "all_roots_in": "repo_scan_ellipse_line.json.gz",
+  "number_of_roots": 16
+}

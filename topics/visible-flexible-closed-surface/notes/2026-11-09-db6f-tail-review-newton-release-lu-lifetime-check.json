@@ -1,0 +1,449 @@
+{
+  "status": "PASS_ONE_STATEMENT_AST_AND_FAKE_REFRESH_LIFETIME_PROTOCOL",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-newton-release-lu-lifetime.py",
+    "bytes": 10519,
+    "sha256": "8cfb2e470f69157034ec59d2899aed4e2838a79ef58929f6af0d2bc5c7524683"
+  },
+  "original": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+    "bytes": 2576,
+    "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+  },
+  "derived": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+    "bytes": 2320,
+    "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+  },
+  "exact_function_source_after_removing_one_statement_matches": true,
+  "exact_AST_after_removing_one_statement_matches": true,
+  "added_statement": "factor=None",
+  "position": "inside refresh after factors>=8 break check, before original try/Jac/LU",
+  "protocol_cases": [
+    {
+      "name": "first_refresh",
+      "refresh": true,
+      "factors_before": 0,
+      "initial_old_factor": false,
+      "mode": "normal",
+      "original": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 1,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 1,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "later_refresh",
+      "refresh": true,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "normal",
+      "original": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 5,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": true
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 5,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "last_allowed_refresh",
+      "refresh": true,
+      "factors_before": 7,
+      "initial_old_factor": true,
+      "mode": "normal",
+      "original": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 8,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": true
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": {
+            "factor_tag": "new",
+            "factors": 8,
+            "step": 15,
+            "cost": 225.0
+          }
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          },
+          {
+            "event": "fake_solve",
+            "factor_tag": "new",
+            "residual": 5
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "reuse_old",
+      "refresh": false,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "normal",
+      "original": {
+        "result": {
+          "return": {
+            "factor_tag": "old",
+            "factors": 4,
+            "step": 11,
+            "cost": 121.0
+          }
+        },
+        "events": [],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": {
+            "factor_tag": "old",
+            "factors": 4,
+            "step": 11,
+            "cost": 121.0
+          }
+        },
+        "events": [],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "factor_budget_exhausted",
+      "refresh": true,
+      "factors_before": 8,
+      "initial_old_factor": true,
+      "mode": "normal",
+      "original": {
+        "result": {
+          "return": {
+            "factor_tag": "old",
+            "factors": 8,
+            "step": 11,
+            "cost": 121.0
+          }
+        },
+        "events": [],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": {
+            "factor_tag": "old",
+            "factors": 8,
+            "step": 11,
+            "cost": 121.0
+          }
+        },
+        "events": [],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "jac_runtime_refusal",
+      "refresh": true,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "jac_runtime_error",
+      "original": {
+        "result": {
+          "return": [
+            17,
+            19,
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": [
+            17,
+            19,
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "jac_memory_refusal",
+      "refresh": true,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "jac_memory_error",
+      "original": {
+        "result": {
+          "propagated_exception": "MemoryError",
+          "message": "fake allocation refusal"
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "propagated_exception": "MemoryError",
+          "message": "fake allocation refusal"
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "lu_runtime_refusal",
+      "refresh": true,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "splu_runtime_error",
+      "original": {
+        "result": {
+          "return": [
+            17,
+            19,
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": true
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "return": [
+            17,
+            19,
+            true
+          ]
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    },
+    {
+      "name": "lu_memory_refusal",
+      "refresh": true,
+      "factors_before": 4,
+      "initial_old_factor": true,
+      "mode": "splu_memory_error",
+      "original": {
+        "result": {
+          "propagated_exception": "MemoryError",
+          "message": "fake LU allocation refusal"
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": true
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": true
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "derived": {
+        "result": {
+          "propagated_exception": "MemoryError",
+          "message": "fake LU allocation refusal"
+        },
+        "events": [
+          {
+            "event": "fake_jac",
+            "old_alive": false
+          },
+          {
+            "event": "fake_splu",
+            "old_alive": false
+          }
+        ],
+        "old_dead_after_detached_frame_exit": true
+      },
+      "same_numerical_trace_and_outcome": true
+    }
+  ],
+  "protocol_case_count": 9,
+  "limitations": [
+    "Fake objects and callbacks exercise reference lifetime and exception protocol only.",
+    "No complete Newton function or true numerical factorization was called.",
+    "This gives no native allocator/RSS reduction, cap sufficiency, or convergence guarantee.",
+    "Explicit selector identity and original STATS alias require separate runtime-interface review."
+  ],
+  "original_or_derived_Newton_calls": 0,
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "root_calls": 0,
+  "RK_calls": 0,
+  "flow_calls": 0,
+  "real_splu_calls": 0,
+  "project_imports": 0,
+  "runtime_installs": 0,
+  "active_outputs_read": false
+}

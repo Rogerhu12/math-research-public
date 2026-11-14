@@ -1,0 +1,100 @@
+{
+  "action": "Terminated only observation cell g3:191, then sent Ctrl-C to the existing tool session 23125. No solver restart or source/parameter change.",
+  "actor": "/root/independent_audit",
+  "actual_interrupt_tool_return": {
+    "chunk_id": "b77c54",
+    "exit_code": 130,
+    "original_token_count": 0,
+    "wall_time_seconds": 0.039672499
+  },
+  "mathematical_conclusion": "The intentional interruption itself gives no mathematical success or failure conclusion.",
+  "mathematical_failure_claimed": false,
+  "natural_program_success_claimed": false,
+  "observed_at_utc": "2026-11-10T10:09:31.628960+00:00",
+  "original_output_bindings": [
+    {
+      "bytes": 2082,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-first-request-binding.json",
+      "sha256": "69259fc28d792349b2b8bceee11fe73c1667f71c7ec5951fc99261c0fc52029f"
+    },
+    {
+      "bytes": 49374,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-guard-launch.json",
+      "sha256": "5dad81b17ce9e382933f10bf4e52c0c4cd6fee6bb86c8e54c93e4cc839a26e4b"
+    },
+    {
+      "bytes": 1220,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-guard-live.json",
+      "sha256": "41c5792f7017c0db3a9aebb11f85c4ef11ce60be96e421a444fc2ae45abc0e6d"
+    },
+    {
+      "bytes": 2074,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-independent-observed-start.json",
+      "sha256": "9d4fdb7c7d03b65668619b9ac3ad2dd1f35c693ee7393dd0d5763aae2ef93445"
+    },
+    {
+      "bytes": 100701,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+      "sha256": "a00359ad76c53e92890f5cd098878929838b6505923deaef92d5603bec421019"
+    },
+    {
+      "bytes": 6749,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-preparation.json",
+      "sha256": "846d3f2e8fb85b595d1a93460348714043af1a58f0f43ac14df102645faab3e5"
+    },
+    {
+      "bytes": 184100,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-reproduction.json",
+      "sha256": "1adb5b2bb4e8e187c98a98bb203cbce0c0ada6ca66cc8ddf611fe17b07b88e8c"
+    },
+    {
+      "bytes": 260,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-run.log",
+      "sha256": "837f87b0a66e61439521764f094ebf459afd3ac52294f7d82bb3aa16339b4db9"
+    },
+    {
+      "bytes": 2682,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-tail-config.json",
+      "sha256": "9b6540d8769c60873ab7e61892beed116bd45bb01b10fe0a34f99c92b402992e"
+    },
+    {
+      "bytes": 245246,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-tail-iteration.json.gz",
+      "sha256": "6a710bbb9a440bbe625c610848f2a12a5a8ae5af751d3d44c4b12af27ac7caae"
+    },
+    {
+      "bytes": 2267,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-tail-trace.jsonl",
+      "sha256": "70d72c1ffe09e12675424bbd617f4d83bd6a432e069998a5ad87605d8550ce2e"
+    },
+    {
+      "bytes": 254090,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01_tail_0001.json.gz",
+      "sha256": "0b29f1928f09fec56a5b6c95685e986050f9b2d07733b9aa1aa6959c9397eb74"
+    },
+    {
+      "bytes": 254230,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01_tail_0002.json.gz",
+      "sha256": "ac3d50db636f23ac07ffdc08e5ba92a5b26cdbf5820186f54295adeb08ddd7b8"
+    }
+  ],
+  "original_outputs_preserved": true,
+  "readme_bindings": [
+    {
+      "bytes": 8264,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/README.md",
+      "sha256": "fd6f0fdbb7f1183958614d2511738485ac11aa290b45c4f69b8459519a5b4124"
+    },
+    {
+      "bytes": 4325,
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/README.md",
+      "sha256": "2b9fbc1cf4aa7cf787e125385ecbc2b9df67b2bba325b5dbf38fe10db0fbe934"
+    }
+  ],
+  "readme_full_read_receipt": "f53706",
+  "reason": "Root README rule 13 and topic README update remove mandatory independent audit/replay workflow. Parent root explicitly directed stopping this duplicate M14 run and redirecting work to actual research.",
+  "schema": "research-scheduling-intentional-stop-v1",
+  "scope": "The tool session actually returned exit 130 after an intentional interrupt. This is not a natural successful numerical exit and does not certify separately hidden process states.",
+  "session_id": 23125,
+  "status": "INTENTIONALLY_STOPPED_FOR_RESEARCH_SCHEDULE"
+}

@@ -1,0 +1,268 @@
+{
+  "schema": "fd2d-R155-actual-combined-native-small-check-v1",
+  "actual_execution": true,
+  "passed": true,
+  "checks": {
+    "actual_interior_spatial_jets": true,
+    "frozen_helper_value_and_angle": true,
+    "actual_d_invariant_all_five_jets": true,
+    "actual_m_unchanged": true,
+    "angular_only_matches": true,
+    "actual_Gauss_window_identity": true,
+    "real_K_s_used": true,
+    "physical_angular_chains": true,
+    "prior_coast_and_exterior_unchanged": true,
+    "exact_cut_angular_trace_retained": true,
+    "zero_tail_handled_without_square_root_derivative": true,
+    "cut_radial_jet_not_fabricated": true,
+    "definition_reload": true,
+    "input_unchanged": true,
+    "sources_unchanged": true
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-positive-trace-native-check-v2.py",
+      "bytes": 10785,
+      "sha256": "4d996b554f579c69d6c9317a08abd228f73ed3b28ff507092fc19b7b4eb613b6"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_native_field_v2.py",
+      "bytes": 17344,
+      "sha256": "59a7cab1702d20aa27ea299e225b5f3ba5aa1e800d349c09cc70ded5c6b7179d"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l_native_field.py",
+      "bytes": 14983,
+      "sha256": "d48399b351fa818f3b3be1359f34a504c4e7f832d201c2d528216590fb9efc7d"
+    }
+  ],
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "inlet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "bytes": 68907,
+    "sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a"
+  },
+  "cache": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "bytes": 401936,
+    "sha256": "a300860b15e993f4272dff55d9068723664d84240d643a195b2c955ab15fd6c8"
+  },
+  "angular_indices": [
+    0,
+    5,
+    17,
+    31,
+    53,
+    64,
+    89,
+    123
+  ],
+  "point_queries": [
+    {
+      "label": "terminal_rim",
+      "physical_s": 1.4724731783581286,
+      "weight": 0.49999999999997025,
+      "weight_s": 267.85714285714687,
+      "K": 0.6658018389455503,
+      "K_s": -20.445876057485904,
+      "minimum_actual_h": 2.2580216350008877,
+      "sampled_actual_n_minimum": 0.1859002950815694,
+      "sampled_actual_l_minimum": -3.5483633923543483,
+      "sampled_actual_Gauss_maximum": 13.45470723439265,
+      "nonzero_K_s_contribution": 4.527387103063929,
+      "K_s_radial_witness": {
+        "absolute_maximum": 1.9229062786507711e-13,
+        "scaled_maximum": 4.247276044386476e-14
+      },
+      "finite_difference_checks": [
+        {
+          "step": 2e-06,
+          "x": {
+            "absolute_maximum": 0.0004254842697264394,
+            "scaled_maximum": 2.174242699439104e-07
+          },
+          "xi": {
+            "absolute_maximum": 2.781920471761623e-09,
+            "scaled_maximum": 1.1710413159338383e-10
+          },
+          "xixi": {
+            "absolute_maximum": 6.236828653527482e-08,
+            "scaled_maximum": 3.060331390476756e-10
+          },
+          "x_xi_from_x": {
+            "absolute_maximum": 0.0025738121730682906,
+            "scaled_maximum": 1.9343041777496194e-07
+          },
+          "x_xi_from_xi": {
+            "absolute_maximum": 1.7607326299184933e-06,
+            "scaled_maximum": 1.323248260921583e-10
+          }
+        },
+        {
+          "step": 1e-06,
+          "x": {
+            "absolute_maximum": 0.00010654549487298937,
+            "scaled_maximum": 5.444520064975945e-08
+          },
+          "xi": {
+            "absolute_maximum": 2.2482034012227814e-09,
+            "scaled_maximum": 9.463746703685249e-11
+          },
+          "xixi": {
+            "absolute_maximum": 2.6196261160293943e-08,
+            "scaled_maximum": 1.2854167525771571e-10
+          },
+          "x_xi_from_x": {
+            "absolute_maximum": 0.0006446189436246641,
+            "scaled_maximum": 4.844522567562861e-08
+          },
+          "x_xi_from_xi": {
+            "absolute_maximum": 1.0217681847279891e-06,
+            "scaled_maximum": 7.678922685546543e-11
+          }
+        }
+      ],
+      "physical_angular_vs_full": {
+        "value": 0.0,
+        "_u": 0.0,
+        "_uu": 0.0
+      }
+    },
+    {
+      "label": "terminal_plateau",
+      "physical_s": 1.4840981783581289,
+      "weight": 1.0,
+      "weight_s": 0.0,
+      "K": 0.058817214593056576,
+      "K_s": -31.613380908026137,
+      "minimum_actual_h": 0.6983723327563283,
+      "sampled_actual_n_minimum": 0.03456491444981258,
+      "sampled_actual_l_minimum": 0.009238244366251092,
+      "sampled_actual_Gauss_maximum": 8.743006318923108e-16,
+      "nonzero_K_s_contribution": 45.26722985037908,
+      "K_s_radial_witness": {
+        "absolute_maximum": 3.552713678800501e-14,
+        "scaled_maximum": 7.848312544291352e-16
+      },
+      "finite_difference_checks": [
+        {
+          "step": 2e-06,
+          "x": {
+            "absolute_maximum": 0.0004901071689147329,
+            "scaled_maximum": 3.9921899475643536e-07
+          },
+          "xi": {
+            "absolute_maximum": 5.141291836707751e-09,
+            "scaled_maximum": 1.9067777929658863e-10
+          },
+          "xixi": {
+            "absolute_maximum": 5.339819040273142e-07,
+            "scaled_maximum": 1.142164234080681e-09
+          },
+          "x_xi_from_x": {
+            "absolute_maximum": 0.001113369015911303,
+            "scaled_maximum": 5.847698736532671e-08
+          },
+          "x_xi_from_xi": {
+            "absolute_maximum": 2.420771124889143e-06,
+            "scaled_maximum": 1.2714508888018806e-10
+          }
+        },
+        {
+          "step": 1e-06,
+          "x": {
+            "absolute_maximum": 0.0001226271624545916,
+            "scaled_maximum": 9.988650570723069e-08
+          },
+          "xi": {
+            "absolute_maximum": 3.0743585455184075e-09,
+            "scaled_maximum": 1.1402034329883975e-10
+          },
+          "xixi": {
+            "absolute_maximum": 1.2337409316387493e-07,
+            "scaled_maximum": 2.638918576849522e-10
+          },
+          "x_xi_from_x": {
+            "absolute_maximum": 0.00027823421510220214,
+            "scaled_maximum": 1.4613572363351315e-08
+          },
+          "x_xi_from_xi": {
+            "absolute_maximum": 2.493859938113019e-06,
+            "scaled_maximum": 1.309839002233805e-10
+          }
+        }
+      ],
+      "physical_angular_vs_full": {
+        "value": 0.0,
+        "_u": 0.0,
+        "_uu": 0.0
+      }
+    }
+  ],
+  "outside_queries": [
+    {
+      "label": "coast",
+      "physical_s": 0.7297717225512073,
+      "all_five_jet_difference": 0.0
+    },
+    {
+      "label": "between_windows",
+      "physical_s": 1.168258311730272,
+      "all_five_jet_difference": 0.0
+    }
+  ],
+  "maximum_fine_fd_scaled_error": 9.988650570723069e-08,
+  "helper_difference": 0.0,
+  "difference_invariant_error": 1.8189894035458565e-12,
+  "unchanged_m_error": 0.0,
+  "angular_only_error": 0.0,
+  "Gauss_identity_error": 3.552713678800501e-15,
+  "actual_K_s_contribution": 45.26722985037908,
+  "exact_cut": {
+    "s": 1.4889731783581288,
+    "angular_twojet_difference": 0.0,
+    "physical_value_difference": 0.0,
+    "zero_matrix_samples": 5,
+    "radial_jet_fabrication_rejected": true,
+    "interior_to_cut_angular_second_continuity_certified": false
+  },
+  "definition_reload_difference": 0.0,
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-definition.json",
+    "bytes": 44141,
+    "sha256": "9d1c1763351727c2e23f4c888ef61b3bde2d12442d7e45ff0f5dece746fb21ff"
+  },
+  "samples": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-positive-trace-native-check-02-samples.npz",
+    "bytes": 8969,
+    "sha256": "9ed13cc4d1ef651f240c0f95fcfc3f3042e1d98a9469904ae14fca8bf287c1e0"
+  },
+  "BVP_run": false,
+  "body_integration_run": false,
+  "Jacobian_assembled": false,
+  "continuous_residual_certificate": false,
+  "continuous_endpoint_regularity_certificate": false,
+  "closed_surface_certificate": false,
+  "additional_C3_completion_requirement": false,
+  "seconds": 8.7403158599991,
+  "maximum_rss_kib": 76636
+}

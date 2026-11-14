@@ -1,0 +1,261 @@
+{
+  "status": "FROZEN_AFFINE_DIAGNOSTIC_EXCEPTION",
+  "scope": "Frozen-affine-DN spectral collocation diagnostic only; not a new actual coupled prefix or a closed surface.",
+  "actual_nonlinear_tail": false,
+  "frozen_affine_dn": true,
+  "launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+    "bytes": 55594,
+    "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+  },
+  "settings": {
+    "modes": 14,
+    "angular": 512,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "max_nodes": 6500
+  },
+  "checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "frozen_actual_tail": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+    "bytes": 254154,
+    "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+  },
+  "actual_new_DN_calls": 0,
+  "process_exit_scope": "This file records program status only; actual tool exit requires a separate observer.",
+  "restart": {
+    "method": "saved-adaptive-mesh-and-exact-signed-mode-padding",
+    "source": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "source_sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0",
+    "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+    "fixed_inputs_checked": [
+      "angular_chart",
+      "chart",
+      "frozen_profile",
+      "physical_tail_parameters",
+      "physical_tail_cut",
+      "warp_reference_q"
+    ],
+    "old_modes": 14,
+    "new_modes": 14,
+    "old_nodes": 2633,
+    "new_nodes": 2633,
+    "numerical_merge_tolerance": 2e-13,
+    "minimum_numerical_span": 2.1515810365135835e-05,
+    "physical_gauge_ratio": 1.0,
+    "inlet_correction_coefficient_l1": 0.0,
+    "inlet_correction_physical_l1": 0.0,
+    "scope": "Fixed-metric warm restart on the saved adaptive radial mesh.\n\nThis only constructs an initial guess. Mode padding and gauge rescaling\npreserve the old represented nonmean Fourier profile before the explicit\ninlet correction; the mean height is recomputed by the solver.\nThe nonlinear BVP and actual-DN acceptance tests remain unchanged.\n"
+  },
+  "initial_nodes": 2633,
+  "initial_boundary": {
+    "original_scaled_bc_linf": 2.088476860230215e-14,
+    "original_inlet_bc_linf": 0.0,
+    "original_physical_terminal_bc_linf": 4.17695372046043e-17,
+    "scope": "Original formulas only; no new geometric threshold or true DN evaluation."
+  },
+  "runtime_callbacks": {
+    "fun": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+        "bytes": 22225,
+        "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+      },
+      "qualname": "SupportBVP.fun",
+      "first_line": 105,
+      "source_sha256_rstrip": "598fb1de93c3cd5f94c8c022b05b9089c27b27a509e0f3d15ee37e70136e3969",
+      "runtime_module": "fixed_metric_mode3_bvp",
+      "signature": "(self, t, y, p)"
+    },
+    "fun_jac": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+        "bytes": 22225,
+        "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+      },
+      "qualname": "SupportBVP.fun_jac",
+      "first_line": 109,
+      "source_sha256_rstrip": "90bc684bf2f683a69666ad69e4fce8a5566d3048440d335120139f8fd62a6820",
+      "runtime_module": "fixed_metric_mode3_bvp",
+      "signature": "(self, t, y, p)"
+    },
+    "bc": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+        "bytes": 22225,
+        "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+      },
+      "qualname": "SupportBVP.bc",
+      "first_line": 123,
+      "source_sha256_rstrip": "4e8c8172a58e80bc84e5dcce2cb2d1a156c7ac62d986c42d5c6247a97d6cfea8",
+      "runtime_module": "fixed_metric_mode3_bvp",
+      "signature": "(self, ya, yb, p)"
+    },
+    "bc_jac": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+        "bytes": 12811,
+        "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+      },
+      "qualname": "TailMixin.bc_jac",
+      "first_line": 27,
+      "source_sha256_rstrip": "b6054ee7d9a6e9644c0cadf06d6b5cb707373a0e446b052ccdd3f7c67d31b353",
+      "runtime_module": "db6f_coupled",
+      "signature": "(self, ya, yb, p)"
+    },
+    "terminal": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+        "bytes": 12811,
+        "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+      },
+      "qualname": "TailMixin.terminal",
+      "first_line": 23,
+      "source_sha256_rstrip": "403e22e1a8542fa4edd3057cc7d06ebac3a47e0458728e5f75e5cca1172c3f68",
+      "runtime_module": "db6f_coupled",
+      "signature": "(self, y, p)"
+    },
+    "initial": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+        "bytes": 19466,
+        "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+      },
+      "qualname": "build_classes.<locals>.WarpedBVP.initial",
+      "first_line": 116,
+      "source_sha256_rstrip": "886c703883d01ad3496dbc3fc8c8164e06d11e270f70740080cb5d31ebf2091a",
+      "runtime_module": "prefixwarp",
+      "signature": "(self, p)"
+    },
+    "chart": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+        "bytes": 22225,
+        "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+      },
+      "qualname": "SupportBVP.chart",
+      "first_line": 85,
+      "source_sha256_rstrip": "1e019b0d53dfe723e4742d3320fc2600ace5df2d9dbbea97164407bd155a7192",
+      "runtime_module": "fixed_metric_mode3_bvp",
+      "signature": "(self, t, p0)"
+    },
+    "physical_fun": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+        "bytes": 19011,
+        "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+      },
+      "qualname": "build_classes.<locals>.Flow.adapt_fun",
+      "first_line": 62,
+      "source_sha256_rstrip": "2babd8c6eeb896ee36caff96e5d30251b27fabadf4de0c899fff2c9b17be4a32",
+      "runtime_module": "adaptive_coupled",
+      "signature": "(self, s, y, p)"
+    },
+    "physical_fun_jac": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+        "bytes": 19011,
+        "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+      },
+      "qualname": "build_classes.<locals>.Flow.adapt_fun_jac",
+      "first_line": 68,
+      "source_sha256_rstrip": "5989eb532f3ff79803f98ca429f1a1f395c6faa3d299300ccae3251c9c117bfa",
+      "runtime_module": "adaptive_coupled",
+      "signature": "(self, s, y, p)"
+    },
+    "physical_c2_interpolant": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+        "bytes": 19011,
+        "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+      },
+      "qualname": "build_classes.<locals>.Flow.adapt_c2_interpolant",
+      "first_line": 83,
+      "source_sha256_rstrip": "acbfff64aac4db52f1488f2c07105ac59ddf97e4e363e53b9577aa9bfc797e2a",
+      "runtime_module": "adaptive_coupled",
+      "signature": "(self, sol)"
+    },
+    "affine_dn": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+        "bytes": 12811,
+        "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+      },
+      "qualname": "AffineTailForInnerBVP.solve",
+      "first_line": 51,
+      "source_sha256_rstrip": "7640d36a1454d2bf934a63e032d6685817124e609e54b16ddddb6bd2f674f277",
+      "runtime_module": "db6f_coupled",
+      "signature": "(self, height, jacobian=True, audit=False)"
+    },
+    "restart": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+        "bytes": 4154,
+        "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+      },
+      "qualname": "restart",
+      "first_line": 15,
+      "source_sha256_rstrip": "00bb781b2a258e0101516d8cb398ea137e40591245f318f3cc8bf71069ffe748",
+      "runtime_module": "spectral_affine_original_initializer",
+      "signature": "(obj, checkpoint, chart, merge_tolerance=2e-13)"
+    },
+    "save_checkpoint": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+        "bytes": 36488,
+        "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+      },
+      "qualname": "save_checkpoint",
+      "first_line": 32,
+      "source_sha256_rstrip": "5b9bf989dd29ea200152fe771cea7396c44bf9a6eb8e360cc0210a990d8a62c8",
+      "runtime_module": "curve_stable_prefix_bvp",
+      "signature": "(path, out)"
+    },
+    "domain_install": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+        "bytes": 2576,
+        "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+      },
+      "qualname": "install",
+      "first_line": 42,
+      "source_sha256_rstrip": "eb1c5b7ae0059110bc16302a3aa3b40f1806093846d0853e356196c5d760c4cd",
+      "runtime_module": "f6curve_domain_newton",
+      "signature": "()"
+    },
+    "domain_solve_newton": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+        "bytes": 2576,
+        "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+      },
+      "qualname": "solve_newton",
+      "first_line": 13,
+      "source_sha256_rstrip": "67ed0cb4b65795dd9531e6eebc21548475f92e398da8acef3f31acdbcfc1ad14",
+      "runtime_module": "f6curve_domain_newton",
+      "signature": "(n, m, h, col_fun, bc, jac, y, p, B, bvp_tol, bc_tol)"
+    }
+  },
+  "runtime_newton_after_install": {
+    "file": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    "qualname": "solve_newton",
+    "first_line": 13,
+    "source_sha256_rstrip": "67ed0cb4b65795dd9531e6eebc21548475f92e398da8acef3f31acdbcfc1ad14",
+    "runtime_module": "f6curve_domain_newton",
+    "signature": "(n, m, h, col_fun, bc, jac, y, p, B, bvp_tol, bc_tol)"
+  },
+  "runtime_newton_identity_is_original": true,
+  "success": false,
+  "error_type": "MemoryError",
+  "error": "MemoryError()",
+  "requested_process_exit_code": 2
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-closed-numerical-group-v1",
+  "closed": true,
+  "actual_exit": 0,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    {
+      "path": "scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    {
+      "path": "scripts/fd2d-gc-ruling-atlas-warm-check.py",
+      "bytes": 8546,
+      "sha256": "9311239fe1ceb16ffaba75bde5236e620b9d692dcd72e3a55ec1d47e36bff338"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-warm01-report.json",
+      "bytes": 36368,
+      "sha256": "5ee745337f723e38db4374b67e0cceda20d0b163d2e11e9be75c40f2899458e7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-warm01-warm.npz",
+      "bytes": 55033,
+      "sha256": "d705b2e328873b37f541b524800d09d7261e579c71f75b33fc6178d23d014b69"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-ruling-atlas-warm01-execution-receipt.json",
+      "bytes": 527,
+      "sha256": "daac87d219b2c001a7187553186d45af5e6b8de2df01f5e9cfc1ceecebad23b0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-global-ruling-atlas-warm01.md",
+      "bytes": 2406,
+      "sha256": "49a2d916bd22c57caad5da782d24e9a9e6af49e4918f33eecc144e109a395c30"
+    }
+  ],
+  "nonlinear_solve": false
+}

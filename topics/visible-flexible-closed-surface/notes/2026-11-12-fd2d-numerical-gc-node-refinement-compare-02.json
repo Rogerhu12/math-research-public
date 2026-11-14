@@ -1,0 +1,629 @@
+{
+  "schema": "fd2d-same-g-actual-node-mode-refinement-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-mode-refinement-compare-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-node-refinement-compare-v2.mjs",
+    "sha256": "d27b567ab21bf5b2110bc2ec326c20cfb744a910b5bcd6c1b731376f255a8797"
+  },
+  "config": {
+    "path": "config.json",
+    "sha256": "11232c31ffec4582c518f3c5535bda509cc3ce9e03280085017966893cf082b7"
+  },
+  "responses": [
+    {
+      "path": "inputs/m4-response.json",
+      "sha256": "f231ac1a2eeec94adddc2d40de49dc6e3fbcaab7c9480d3aa01935e5df9590b9",
+      "modes": 4,
+      "quadrature": 64,
+      "residual": 2.446425031638816e-14,
+      "audit": {
+        "fullD": 8.345733232966329e-16,
+        "normalizedFullDefect": 2.573505551023425e-9,
+        "minLeading": 0.9601336638163431,
+        "minD": 0.9999999871918863,
+        "formalCurvature": 6.996605030552903,
+        "maxPhysicalPV": 1.5999999999999508e-8,
+        "actualMetric": 2.00303459167708e-15,
+        "holonomy": 1.2864112553620084e-23
+      }
+    },
+    {
+      "path": "inputs/m8-response.json",
+      "sha256": "8d25507e0b65de103afaee0109f97aef2eeb8313fd2eded486a3561447036502",
+      "modes": 8,
+      "quadrature": 128,
+      "residual": 1.6067532721703842e-14,
+      "audit": {
+        "fullD": 4.7601631169175205e-19,
+        "normalizedFullDefect": 1.592476150946709e-14,
+        "minLeading": 0.9601336639368594,
+        "minD": 0.9999999871918863,
+        "formalCurvature": 6.996605030552903,
+        "maxPhysicalPV": 1.5999999999999508e-8,
+        "actualMetric": 3.1152315122737985e-15,
+        "holonomy": 1.288915415419542e-23
+      }
+    }
+  ],
+  "retainedMeans": [
+    {
+      "path": "inputs/m4-means-data.json.gz",
+      "sha256": "59cf26c151450ceda8ba5eae879e0ac8df99a3d1f40af08c49f3247670b36f36",
+      "inputHash": "854a3b2af53a59a1d7c6fd3ebb936f40c06c367deac0c838d94856c3326ada8a"
+    },
+    {
+      "path": "outputs/2026-11-12-fd2d-numerical-gc-full160-05-retained-means-data.json.gz",
+      "sha256": "38314085cc90944e4406f8334ac6f74a23daac56c379caea353f725c9d646733",
+      "inputHash": "aea57a9e0dd527663051693eb3ed68dc8741a67370cb04ac3bfcd5b9643e7366"
+    }
+  ],
+  "parameter_comparison_excluded_fields": [
+    "modes",
+    "quadrature",
+    "traceFile",
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "stageCacheRoot",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "radial_nodes": 2881,
+  "common_angles": 64,
+  "sampledPoints": 184384,
+  "maxima": {
+    "height": {
+      "absolute": 3.1768512490073756e-19,
+      "node": 27,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "angle": 16,
+      "theta": 1.5707963267948966
+    },
+    "ur": {
+      "absolute": 3.910272543857906e-16,
+      "node": 26,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "angle": 16,
+      "theta": 1.5707963267948966
+    },
+    "ut": {
+      "absolute": 3.056239733698289e-18,
+      "node": 27,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "angle": 11,
+      "theta": 1.0799224746714913
+    },
+    "urr": {
+      "absolute": 2.637831867811826e-13,
+      "node": 26,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "angle": 16,
+      "theta": 1.5707963267948966
+    },
+    "urt": {
+      "absolute": 3.7604557883040086e-15,
+      "node": 26,
+      "rawCell": 1,
+      "rawSegment": 5,
+      "angle": 11,
+      "theta": 1.0799224746714913
+    },
+    "utt": {
+      "absolute": 3.182112779447703e-17,
+      "node": 27,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "angle": 16,
+      "theta": 1.5707963267948966
+    }
+  },
+  "maximumNormalizedLChange": 1.0911439591864738e-10,
+  "maximumQChange": 3.0426192094468577e-19,
+  "maximumMeanHeightDifference": 0,
+  "cutMeanDifference": 0,
+  "minimumLeading": 0.9601336638163431,
+  "minimumProjectionD": 0.9999999871920954,
+  "selected": [
+    {
+      "node": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "r": 0.5000000000000001,
+      "logw": -2.302585092994047,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 0,
+        "ur": 0,
+        "ut": 0,
+        "urr": 0,
+        "urt": 2.6469779601696886e-23,
+        "utt": 0
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 8e-9,
+          "ur": 6.400070895473675e-8,
+          "ut": 1.6e-8,
+          "urr": 1.0008882611600711e-11,
+          "urt": 1.279999945235396e-7,
+          "utt": 3.2e-8
+        },
+        {
+          "nonmeanHeight": 8e-9,
+          "ur": 6.400070895473675e-8,
+          "ut": 1.6e-8,
+          "urr": 1.0008882611600711e-11,
+          "urt": 1.2799999452353962e-7,
+          "utt": 3.2e-8
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 8,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "r": 0.47752780756528157,
+      "logw": -7.7823434979578385,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 5.790264287871194e-24,
+        "ur": 1.0842021724855044e-19,
+        "ut": 3.143286327701505e-23,
+        "urr": 1.8865117801247777e-17,
+        "urt": 5.169018560619368e-19,
+        "utt": 2.5808035111654463e-22
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 5.865622844631652e-9,
+          "ur": 8.606189590860676e-7,
+          "ut": 1.1730772491309076e-8,
+          "urr": 0.0000013393949761024383,
+          "urt": 0.0000017202989251085872,
+          "utt": 2.3465330256962044e-8
+        },
+        {
+          "nonmeanHeight": 5.865622844631653e-9,
+          "ur": 8.606189590861218e-7,
+          "ut": 1.173077249130906e-8,
+          "urr": 0.0000013393949761213034,
+          "urt": 0.000001720298925109104,
+          "utt": 2.3465330256961812e-8
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 18,
+      "rawCell": 0,
+      "rawSegment": 0,
+      "r": 0.3808860058501116,
+      "logw": -5.523673598434213,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 6.100457017578579e-24,
+        "ur": 0,
+        "ut": 5.542110104105285e-23,
+        "urr": 0,
+        "urt": 3.841757636941282e-20,
+        "utt": 5.451120236724452e-22
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 3.7660235377822437e-10,
+          "ur": 3.954899951801039e-9,
+          "ut": 7.531836676995514e-10,
+          "urr": 1.260284736813444e-14,
+          "urt": 7.909765612453577e-9,
+          "utt": 1.5065356584412916e-9
+        },
+        {
+          "nonmeanHeight": 3.766023537782199e-10,
+          "ur": 3.954899951801039e-9,
+          "ut": 7.531836676994985e-10,
+          "urr": 1.260284736813444e-14,
+          "urt": 7.909765612491995e-9,
+          "utt": 1.5065356584407465e-9
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 28,
+      "rawCell": 1,
+      "rawSegment": 4,
+      "r": 0.37260255018215527,
+      "logw": -12.919161734416395,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 7.244450278607215e-21,
+        "ur": 2.972831534978418e-16,
+        "ut": 7.013818268219366e-20,
+        "urr": 1.166348478031081e-13,
+        "urt": 2.8610011630842216e-15,
+        "utt": 7.233159148135283e-19
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 2.574946751459936e-13,
+          "ur": 9.770026724265731e-8,
+          "ut": 5.015991868090414e-13,
+          "urr": 1.6857393974864412e-7,
+          "urt": 1.9356484658098445e-7,
+          "utt": 1.137745768307215e-12
+        },
+        {
+          "nonmeanHeight": 2.57494668350474e-13,
+          "ur": 9.770026694537415e-8,
+          "ut": 5.015991480377275e-13,
+          "urr": 1.6857405638349192e-7,
+          "urt": 1.9356484372370197e-7,
+          "utt": 1.1377450877343604e-12
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 36,
+      "rawCell": 1,
+      "rawSegment": 0,
+      "r": 0.3435132337600405,
+      "logw": -6.13713171804395,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 7.708370112585221e-25,
+        "ur": 0,
+        "ut": 7.160282177412146e-24,
+        "urr": 0,
+        "urt": 1.785023450146756e-21,
+        "utt": 7.809828984593679e-23
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 1.7313718656546825e-12,
+          "ur": 2.0190795649993598e-11,
+          "ut": 3.4609510000651347e-12,
+          "urr": 1.6354105569771349e-15,
+          "urt": 4.030065393847789e-11,
+          "utt": 6.9362442166951656e-12
+        },
+        {
+          "nonmeanHeight": 1.7313718656554533e-12,
+          "ur": 2.0190795649993598e-11,
+          "ut": 3.4609510000720692e-12,
+          "urr": 1.6354105569771349e-15,
+          "urt": 4.030065394019376e-11,
+          "utt": 6.936244216773264e-12
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 144,
+      "rawCell": 7,
+      "rawSegment": 0,
+      "r": 0.32020946118010574,
+      "logw": -17.47373585388223,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 5.877471754111438e-38,
+        "ur": 0,
+        "ut": 1.1754943508222875e-37,
+        "urr": 0,
+        "urt": 1.504632769052528e-36,
+        "utt": 2.4685381367268038e-37
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 1.4441340753773931e-23,
+          "ur": 1.819797347616661e-22,
+          "ut": 2.888267012634466e-23,
+          "urr": 4.632211430296955e-23,
+          "urt": 3.6079714915175004e-22,
+          "utt": 5.77654313023573e-23
+        },
+        {
+          "nonmeanHeight": 1.444134075377399e-23,
+          "ur": 1.819797347616661e-22,
+          "ut": 2.888267012634478e-23,
+          "urr": 4.632211430296955e-23,
+          "urt": 3.6079714915175154e-22,
+          "utt": 5.776543130235755e-23
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 216,
+      "rawCell": 11,
+      "rawSegment": 0,
+      "r": 0.32001120445116116,
+      "logw": -25.09808708352095,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 3.28429327576129e-46,
+        "ur": 0,
+        "ut": 6.130680781421075e-46,
+        "urr": 0,
+        "urt": 7.707141553786494e-45,
+        "utt": 1.226136156284215e-45
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 1.0247109550852887e-31,
+          "ur": 0,
+          "ut": 2.0494219051446514e-31,
+          "urr": 4.2005265481208437e-26,
+          "urt": 2.5616874207157922e-30,
+          "utt": 4.098843850496706e-31
+        },
+        {
+          "nonmeanHeight": 1.0247109550852917e-31,
+          "ur": 0,
+          "ut": 2.0494219051446575e-31,
+          "urr": 4.2005265481208437e-26,
+          "urt": 2.5616874207158e-30,
+          "utt": 4.098843850496718e-31
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 288,
+      "rawCell": 15,
+      "rawSegment": 0,
+      "r": 0.3200006733233928,
+      "logw": -32.7226893982832,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 8.156630584998156e-54,
+        "ur": 0,
+        "ut": 1.566073072319646e-53,
+        "urr": 0,
+        "urt": 2.088097429759528e-52,
+        "utt": 3.2626522339992623e-53
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 1.7066751884524088e-39,
+          "ur": 0,
+          "ut": 3.413350376839538e-39,
+          "urr": 3.155443620884047e-29,
+          "urt": 4.266678926253701e-38,
+          "utt": 6.826700754201317e-39
+        },
+        {
+          "nonmeanHeight": 1.7066751884524166e-39,
+          "ur": 0,
+          "ut": 3.4133503768395534e-39,
+          "urr": 3.155443620884047e-29,
+          "urt": 4.2666789262537217e-38,
+          "utt": 6.826700754201348e-39
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 432,
+      "rawCell": 23,
+      "rawSegment": 0,
+      "r": 0.32000000260828537,
+      "logw": -47.971926264584795,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 1.8546030753437107e-68,
+        "ur": 0,
+        "ut": 3.825118842896403e-68,
+        "urr": 0,
+        "urt": 4.636507688359277e-67,
+        "utt": 7.650237685792807e-68
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 3.81512283655308e-54,
+          "ur": 0,
+          "ut": 7.630245673106081e-54,
+          "urr": 8.651638422052036e-36,
+          "urt": 9.537807014494059e-53,
+          "utt": 1.5260491346212788e-53
+        },
+        {
+          "nonmeanHeight": 3.8151228365530984e-54,
+          "ur": 0,
+          "ut": 7.630245673106118e-54,
+          "urr": 8.651638422052036e-36,
+          "urt": 9.537807014494105e-53,
+          "utt": 1.5260491346212862e-53
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 576,
+      "rawCell": 31,
+      "rawSegment": 0,
+      "r": 0.32000000001018647,
+      "logw": -63.22116423258444,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 8.236092143148846e-83,
+        "ur": 0,
+        "ut": 1.6472184286297693e-82,
+        "urr": 0,
+        "urt": 2.1084395886461046e-81,
+        "utt": 3.2944368572595385e-82
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 1.3337752549936726e-68,
+          "ur": 0,
+          "ut": 2.6675505099873447e-68,
+          "urr": 2.6008099497868605e-42,
+          "urt": 3.334438137829447e-67,
+          "utt": 5.3351010199746894e-68
+        },
+        {
+          "nonmeanHeight": 1.3337752549936806e-68,
+          "ur": 0,
+          "ut": 2.6675505099873608e-68,
+          "urr": 2.6008099497868605e-42,
+          "urt": 3.3344381378294673e-67,
+          "utt": 5.3351010199747216e-68
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 1152,
+      "rawCell": 63,
+      "rawSegment": 0,
+      "r": 0.32,
+      "logw": -124.21811612184268,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 2.0337320247517554e-140,
+        "ur": 0,
+        "ut": 4.067464049503511e-140,
+        "urr": 0,
+        "urt": 5.143373894856052e-139,
+        "utt": 8.134928099007022e-140
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 2.1240004097038408e-126,
+          "ur": 0,
+          "ut": 4.248000819407682e-126,
+          "urr": 1.506864998716765e-68,
+          "urt": 5.310001024257679e-125,
+          "utt": 8.496001638815365e-126
+        },
+        {
+          "nonmeanHeight": 2.1240004097038612e-126,
+          "ur": 0,
+          "ut": 4.248000819407723e-126,
+          "urr": 1.506864998716765e-68,
+          "urt": 5.31000102425773e-125,
+          "utt": 8.496001638815446e-126
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 2304,
+      "rawCell": 127,
+      "rawSegment": 0,
+      "r": 0.32,
+      "logw": -246.21201990039307,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 9.240738526728744e-256,
+        "ur": 0,
+        "ut": 1.8814476640006272e-255,
+        "urr": 0,
+        "urt": 2.3443170893034364e-254,
+        "utt": 3.7628953280012544e-255
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 5.3905894692400395e-242,
+          "ur": 0,
+          "ut": 1.078117893848008e-241,
+          "urr": 1.210184973390412e-121,
+          "urt": 1.3476473673096363e-240,
+          "utt": 2.156235787696016e-241
+        },
+        {
+          "nonmeanHeight": 5.390589469240133e-242,
+          "ur": 0,
+          "ut": 1.0781178938480269e-241,
+          "urr": 1.210184973390412e-121,
+          "urt": 1.3476473673096598e-240,
+          "utt": 2.1562357876960538e-241
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 2640,
+      "rawCell": 146,
+      "rawSegment": 3,
+      "r": 0.32,
+      "logw": -178.30307743739195,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 7.094755994431764e-290,
+        "ur": 0,
+        "ut": 1.402917852006281e-289,
+        "urr": 0,
+        "urt": 1.7572548180558673e-288,
+        "utt": 2.805835704012562e-289
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 2.5954744145539594e-276,
+          "ur": 0,
+          "ut": 5.1909488291079196e-276,
+          "urr": 0,
+          "urt": 6.4886860363849e-275,
+          "utt": 1.0381897658215839e-275
+        },
+        {
+          "nonmeanHeight": 2.59547441455403e-276,
+          "ur": 0,
+          "ut": 5.19094882910806e-276,
+          "urr": 0,
+          "urt": 6.488686036385075e-275,
+          "utt": 1.038189765821612e-275
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    },
+    {
+      "node": 2880,
+      "rawCell": 159,
+      "rawSegment": 0,
+      "r": 0.32,
+      "logw": -307.2089717896682,
+      "meanDifference": 0,
+      "maximumDifferences": {
+        "height": 1.8832712645e-313,
+        "ur": 0,
+        "ut": 3.7400175816e-313,
+        "urr": 0,
+        "urt": 4.625950824304e-312,
+        "utt": 7.48003516315e-313
+      },
+      "absolutePerturbation": [
+        {
+          "nonmeanHeight": 8.587704453919795e-300,
+          "ur": 0,
+          "ut": 1.7175408907840077e-299,
+          "urr": 0,
+          "urt": 2.14692611348001e-298,
+          "utt": 3.4350817815680155e-299
+        },
+        {
+          "nonmeanHeight": 8.587704453919982e-300,
+          "ur": 0,
+          "ut": 1.7175408907840451e-299,
+          "urr": 0,
+          "urt": 2.1469261134800563e-298,
+          "utt": 3.4350817815680903e-299
+        }
+      ],
+      "absolutePerturbationScope": "Actual finite angular samples; nonmean height and derivatives relative to the rotational profile. Floating differences are not rigorous bounds."
+    }
+  ],
+  "pointCache": {
+    "schema": "fd2d-fixed-tail-bounded-point-cache-v1",
+    "entries": 1440,
+    "pointsPerEntry": 8,
+    "maximum_retained_point_values": 11520,
+    "scope": "Memoization only. The configured fixed physical source, point arithmetic, and subsequent nonlinear equations are unchanged."
+  },
+  "seconds": 8.292,
+  "scope": "Actual complete same-g finite responses, compared at common nodes and common angular samples; finite mean anchor at node160. No radial re-integration, continuous enclosure, infinite-tail proof, or successful strong surface is asserted."
+}

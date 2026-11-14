@@ -1,0 +1,78 @@
+{
+  "schema": "78718-production-stage-invocation-v1",
+  "observer": "/root/numerical_recovery",
+  "recorded_utc": "2026-11-10T08:27:46.114495+00:00",
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-production-stage-record-v1.py",
+    "bytes": 7156,
+    "sha256": "4c87bc4496ddeb14c66310777c3b7c98e78d19df70cfb94f5971699999ac2dc9"
+  },
+  "plan": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-production-plan-01.json",
+    "bytes": 241222,
+    "sha256": "fa888f5db4bc5dc510d2d0baabc0ee26820de4d0c085a73b8e0ba18b828f6c61"
+  },
+  "stage": {
+    "id": "prefix-base",
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+      "--",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+      "--source-root",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+      "--checkpoint",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz",
+      "--linear-port",
+      "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+      "--out-prefix",
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original/prefix-base",
+      "--modes",
+      "24",
+      "--angular",
+      "768",
+      "--quadrature",
+      "8",
+      "--subdivide",
+      "1",
+      "--ell",
+      "0"
+    ],
+    "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+    "depends_on": [],
+    "condition": "always",
+    "source": {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py",
+      "bytes": 1636,
+      "sha256": "f02862fe1e8b53ebb5cea862e64f1632d826f86ae0d9d613e0e066cef79d56ad"
+    },
+    "expected_output_paths": [
+      "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original/prefix-base.json"
+    ],
+    "executed": false,
+    "completion_requirement": "Original single container under RLIMIT_FSIZE 4,999,999; an actual size failure is not a graph.",
+    "additional_sources": [
+      {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py",
+        "bytes": 4602,
+        "sha256": "ddb785a7e5199f1488fa50937668fc5236a1dee7b24679f75b39a4f15cb7f4b6"
+      }
+    ]
+  },
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "environment_overrides": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VISIBLE_FLEX_SOURCE_ROOT": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root",
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts"
+  },
+  "production_directory": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original",
+  "files_before": [],
+  "preexisting_input_binding_count_verified": 324,
+  "stdout_log": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-stdout.log",
+  "execution_command": "exec env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 VISIBLE_FLEX_SOURCE_ROOT=/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root CLOSING_TAIL_CACHE=/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-file-cap.py -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-mirror-hermite.py --source-root /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/repro/source-root --checkpoint /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02.json.gz --linear-port /workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json --out-prefix /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original/prefix-base --modes 24 --angular 768 --quadrature 8 --subdivide 1 --ell 0 > /workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-stdout.log 2>&1",
+  "actual_command_started_by_this_program": false
+}

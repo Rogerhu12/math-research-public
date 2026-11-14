@@ -1,0 +1,213 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_N7_DIAMETER_AND_MARKER_MODEL_LEDGER",
+  "scope": "Independent rational reconstruction of the frozen N7 diameter/marker proof.\n\nNo author imports: four-index integer counts, closed-form Chebyshev powers,\nan exact seven-point Bernstein linear system, and decimal-grid bisection.\nOnly fixed compact-set model constants are read; no actual surface data.\n",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-c3-marker.py",
+    "bytes": 12678,
+    "sha256": "d297fc34d50224a0db2b34500c191590f5b1b02b88310c6e0f56aad83b5cccca"
+  },
+  "input_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-publication.json",
+      "bytes": 1154,
+      "sha256": "66249d2b129aeea2cc4db56066839e7b4d6957c4abae78735f4e8388199ac9ee"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-c3-marker-bounds.py",
+      "bytes": 9646,
+      "sha256": "b0064c43b8a20d45aff26b89f52484793a098c99a4560d8d542fd8545321e24e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-bounds.json",
+      "bytes": 23925,
+      "sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-exact-diameter.md",
+      "bytes": 5053,
+      "sha256": "eb62542a4bd61d88acb467324618d5ac1c287259785e16c2cba2a5273edfc7ed"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-fixed-marker-diameter-model.md",
+      "bytes": 10540,
+      "sha256": "ed256356fd822783f1af4a3fae41dbeeca9d46ad87619c839fdf88ab780c10eb"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-observed-execution.json",
+      "bytes": 953,
+      "sha256": "66f7bf63f0a76b2d736472a605c12c64256040605430d1d3eb75b60100f22261"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R28-finite-positive-c3-core-and-conditional-held-transfer.md",
+      "bytes": 10414,
+      "sha256": "663d67283aaffe49169af3eb5b74c67e0c70e6c4bbd6d7894b7fa863654bca00"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R31-finite-rational-support-certificate-completeness.md",
+      "bytes": 14552,
+      "sha256": "a1a9e6e2a4aa647de805b98de40703c31233de25d96200f80c9c2a9f5a2a3a90"
+    }
+  ],
+  "independent_four_index_count": 4096,
+  "polynomial_degree": 7,
+  "derivative_degree": 6,
+  "exact_unisolvent_points": 7,
+  "exact_Bernstein_coefficients_match": true,
+  "strict_Bernstein_lower": {
+    "numerator": "1",
+    "denominator": "100"
+  },
+  "minimum_Bernstein_coefficient": {
+    "numerator": "6801213644371584",
+    "denominator": "468798947718176075"
+  },
+  "exact_diameter": {
+    "numerator": "572416608462667473",
+    "denominator": "275764086893044750"
+  },
+  "H": {
+    "numerator": "41476239818748105447",
+    "denominator": "35297803122309728000"
+  },
+  "delta": {
+    "numerator": "242266589",
+    "denominator": "523402880"
+  },
+  "all_author_scalar_root_boxes_verified_by_exact_squares": true,
+  "independent_root_method": "integer bisection on the decimal 10^20 grid",
+  "marker_model_checks": [
+    {
+      "name": "coarse_point_z_1_5",
+      "all_three_diameter_cases": true,
+      "original_exact_budget_equal": true,
+      "independent_decimal_grid_ratio_lower": {
+        "numerator": "11816571113600789227",
+        "denominator": "235856987073891528364"
+      },
+      "strict_display_verified": "0.05010057688008",
+      "independent_positive_margin": {
+        "numerator": "29652199882766011",
+        "denominator": "6250000000000000000"
+      }
+    },
+    {
+      "name": "sharp_point_z_4_5",
+      "all_three_diameter_cases": true,
+      "original_exact_budget_equal": true,
+      "independent_decimal_grid_ratio_lower": {
+        "numerator": "25793560393751529013",
+        "denominator": "496501836256720547064"
+      },
+      "strict_display_verified": "0.05195058408689",
+      "independent_positive_margin": {
+        "numerator": "4842342904577508299",
+        "denominator": "50000000000000000000"
+      }
+    },
+    {
+      "name": "sharp_cap_z_3_10_a_2_25",
+      "all_three_diameter_cases": true,
+      "original_exact_budget_equal": true,
+      "independent_decimal_grid_ratio_lower": {
+        "numerator": "6295785616096229726",
+        "denominator": "121957290142453701471"
+      },
+      "strict_display_verified": "0.05162287230834",
+      "independent_positive_margin": {
+        "numerator": "3958422179470893049",
+        "denominator": "50000000000000000000"
+      }
+    },
+    {
+      "name": "sharp_cap_z_2_5_a_1_10",
+      "all_three_diameter_cases": true,
+      "original_exact_budget_equal": true,
+      "independent_decimal_grid_ratio_lower": {
+        "numerator": "2499367664692924523",
+        "denominator": "49477465684146356688"
+      },
+      "strict_display_verified": "0.05051527256162",
+      "independent_positive_margin": {
+        "numerator": "127471902428033443",
+        "denominator": "5000000000000000000"
+      }
+    },
+    {
+      "name": "positive_band_cap_z_2_5_a_1_10",
+      "all_three_diameter_cases": true,
+      "original_exact_budget_equal": true,
+      "independent_decimal_grid_ratio_lower": {
+        "numerator": "24972008774051691085",
+        "denominator": "495114319012011357156"
+      },
+      "strict_display_verified": "0.05043685430848",
+      "independent_positive_margin": {
+        "numerator": "135183014656952017",
+        "denominator": "6250000000000000000"
+      }
+    }
+  ],
+  "additional_size_compatibility_verified": true,
+  "four_vertex_squared_pairs": {
+    "initial": [
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "17",
+        "denominator": "4"
+      },
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "5",
+        "denominator": "4"
+      },
+      {
+        "numerator": "5",
+        "denominator": "4"
+      }
+    ],
+    "halfphase": [
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "13",
+        "denominator": "4"
+      },
+      {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "4"
+      },
+      {
+        "numerator": "13",
+        "denominator": "4"
+      }
+    ]
+  },
+  "new_solver_or_optimizer_calls": 0,
+  "actual_candidate_data_read": false,
+  "whole_reach_or_connected_isometric_surface_proved": false
+}

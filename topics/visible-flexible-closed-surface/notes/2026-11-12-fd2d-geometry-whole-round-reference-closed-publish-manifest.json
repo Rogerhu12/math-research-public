@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-manifest.json",
+    "bytes": 1310,
+    "sha256": "373b31e90b5a833b814b923223e52e0a99974b4f3174553fbd52f30811cbec4b"
+  },
+  "original_status": "closed",
+  "only_key_adaptation": "Exact original artifacts plus original manifest exposed as files; no source, number, proof or input changed",
+  "files": [
+    {
+      "path": "scripts/fd2d_round_prefix_curvature_bound.py",
+      "bytes": 8219,
+      "sha256": "46897a520cbbe296118f250bf49d88a6c9fd2b69f040de92ec20fa5ec4c7a46e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-round-prefix-curvature-bound-01.json",
+      "bytes": 9146,
+      "sha256": "4f5e955dd839676af7354c91a136cc8bfe189b83cbae84bb830f55a9ec5ace9c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-round-prefix-curvature-bound-01-exit.json",
+      "bytes": 432,
+      "sha256": "b71e2c524fb5f936491cc920e794bdb6d6981170c70f32720c927253c009f6dd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-and-gap-continuation.md",
+      "bytes": 15246,
+      "sha256": "4cc2c91b80555f5ebaaa1a5b794c94f487ffd41374e477826e28550ab4e66981"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-closed-manifest.json",
+      "bytes": 1310,
+      "sha256": "373b31e90b5a833b814b923223e52e0a99974b4f3174553fbd52f30811cbec4b"
+    }
+  ]
+}

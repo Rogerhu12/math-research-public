@@ -1,0 +1,35 @@
+{
+  "status": "INDEPENDENT_FULL_GEOMETRY_REVIEW_CLOSED",
+  "observer": "/root/tail_review_continued",
+  "recorded_utc": "2026-11-09T20:32:47.514669+00:00",
+  "operations": [
+    {
+      "kind": "independent_actual_author_program_replay",
+      "tool_receipt": "1a16a6",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.050107766,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylinder058-local-template-replay-v2.json",
+        "bytes": 7949,
+        "sha256": "f5737565389efc38b57a57f6366857e817bbc3a356e8fe77cd061b9f2e8b142a"
+      },
+      "byte_identical_to_original": true
+    },
+    {
+      "kind": "different_exact_Fraction_implementation",
+      "tool_receipt": "478a67",
+      "actual_exit_code": 0,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylinder058-local-template-independent.json",
+        "bytes": 7199,
+        "sha256": "64a4abf70c5822d4700a221d7cb6d2a5563773263e639f3a9340ba2cec58de28"
+      },
+      "all_fraction_fields": 40,
+      "closed_sources": 16,
+      "solver_calls": 0
+    }
+  ],
+  "historical_old_replay_file_has_no_exit_inferred": true,
+  "candidate_read": false,
+  "solver_or_backend_calls": 0
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-active-computation-static-inputs-v1",
+  "active": true,
+  "session_id": 49369,
+  "launch_chunk": "089d05",
+  "run_prefix": "notes/2026-11-12-fd2d-raw-bump-trace16",
+  "owner_stop_file": "/tmp/fd2d-raw-bump-trace16-stop",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_branch.py",
+      "bytes": 6738,
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb"
+    },
+    {
+      "path": "scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_merit.py",
+      "bytes": 4401,
+      "sha256": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a"
+    },
+    {
+      "path": "scripts/fd2d_gc_positive_trace_bounded_schur.py",
+      "bytes": 6319,
+      "sha256": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57"
+    },
+    {
+      "path": "scripts/fd2d-gc-positive-trace-initializer-check.py",
+      "bytes": 10629,
+      "sha256": "27fecd9391b4f9f4afecc0045bd339dcd27b3b03df5e6ffe2907aac24778ae38"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-positive-trace-run.py",
+      "bytes": 24651,
+      "sha256": "210b26400587df12a1940bd7e9ab77e6bdaf96a213613847add407033c310a72"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-positive-trace-tailwarm01-warm.npz",
+      "bytes": 58965,
+      "sha256": "d671d84b4442547045b4072fde277a961bc42720e6dca07125bfa317cff0ce5b"
+    }
+  ],
+  "active_outputs_excluded": true,
+  "scope": "R153 coast and R155 positive trace, exact nonlinear n primitive and all derivatives, exact coupled trace gauge, explicit R157 new warm."
+}

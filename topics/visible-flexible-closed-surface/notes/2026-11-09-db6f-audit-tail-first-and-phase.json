@@ -1,0 +1,93 @@
+{
+  "status": "independent-review-and-full-replay-PASS-finite-map-only",
+  "manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "all_report_fields_equal": true,
+  "shared_interface_rows_exactly_identical": true,
+  "radial_geometry_has_increment_normalization": false,
+  "node_count": 4638,
+  "all_radii_strictly_positive": true,
+  "all_spans_strictly_positive": true,
+  "minimum_span_float_diagnostic": 2.2945062516654957e-11,
+  "coefficient_count_matches_modes": true,
+  "all_planar_modes_one_mod_three": true,
+  "all_height_modes_zero_mod_three": true,
+  "files": [
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw007.f64.gz",
+      "bytes": 1298365,
+      "sha256": "36e4fbd78c3deae7d40d180fa7156c743ed45fad057ac72aa3cee30796644acf",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw006.f64.gz",
+      "bytes": 1296595,
+      "sha256": "68efc671f10134f1904dc854020ada32ae6d65bf7cf769dc9cd980e1cf90b23a",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw005.f64.gz",
+      "bytes": 1301678,
+      "sha256": "9bfbca2d18c1242c10f561872d79729b1b547311aa5965ee6f11ccdb30118b78",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw004.f64.gz",
+      "bytes": 1301612,
+      "sha256": "a63a06b21a95f05863f9d7e8666dd5becee6931a5c471b0666c572771d4deeb6",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw003.f64.gz",
+      "bytes": 1311397,
+      "sha256": "ff3b27b9e509c27eb27d47572aa19aa1c63404b92633ee5e0d40455994ff4bf0",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw002.f64.gz",
+      "bytes": 1319856,
+      "sha256": "8a4a6a03248d4a23aefce5894b41850a91cd289c5d6ce8a7f7648f65a140f57c",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw001.f64.gz",
+      "bytes": 1330336,
+      "sha256": "ab0a51c6164bdea5bedca0c61e467760739ea6eee46f8421a3d9f6d9b1e99cc1",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    },
+    {
+      "name": "2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-raw000.f64.gz",
+      "bytes": 1334422,
+      "sha256": "365e5a99753414b8ef7609d70e8db62194037492e85448451963e714aa9ffffc",
+      "hash_matches_manifest": true,
+      "all_entries_finite": true
+    }
+  ],
+  "entireTail": {
+    "planarDisplacementUpper": 0.00013909529395060973,
+    "heightDisplacementUpper": 0.0008350432938459332,
+    "planarJacobianPositive": true,
+    "allCrossSectionsSimple": true,
+    "planarJacobianOverRLower": 0.9949233155001174
+  },
+  "reviewed_files_sha256": {
+    "topics/visible-flexible-closed-surface/scripts/db6f-tail-first-bounds.py": "ba3af5e44b9c727a9b7ca7b25b4e6abf19c504106b0810f4278928b82a084821",
+    "topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-finite-first-certificate.md": "39672f04e48c6402c6980d316f66e3f8e871e239086e942b0b08793d11b12e1b",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-all-phase-assembly.md": "04b8a375639b88d8e4e050ce352f43766431a8b69ff02e06b9e0eca39ca08468"
+  },
+  "not_certified": [
+    "shared prefix/tail two-jet",
+    "exact rotational background matching and quadratures",
+    "complete support/curvature/reach",
+    "complete common metric",
+    "infinite nonlinear tail or exact isometric limit",
+    "README completion"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "fd2d-R182-explicit-signed-provider-and-actual-local-check-closed-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_signed_trace_windows.py",
+      "bytes": 3468,
+      "sha256": "e8afb39e521c7c8b5324d8c16cc74674f964a991c4d6aec81fac9403a2d8fdd8"
+    },
+    {
+      "path": "scripts/fd2d_gc_signed_trace_problem.py",
+      "bytes": 16588,
+      "sha256": "7298d63ef933cfe7f41878a95213db5e19a44ebd3e107429dc43c6015bfd2cd4"
+    },
+    {
+      "path": "scripts/fd2d_gc_signed_trace_cells.py",
+      "bytes": 10821,
+      "sha256": "e5db121fad0f9ad79be9e28eb98dbf0f3bf746e38564d6a7ee04ae0344ea5150"
+    },
+    {
+      "path": "scripts/fd2d_gc_signed_trace_fine_cells.py",
+      "bytes": 10627,
+      "sha256": "f7a31873b14c512a37d7bcda64531187756ebd5f2a0ec962f86479e0ca6315be"
+    },
+    {
+      "path": "scripts/fd2d-signed-trace-local-check.py",
+      "bytes": 8026,
+      "sha256": "2ffdc8fe46d4c165f0d930c3d8ca977914f691ee0f5e6dda81e839dd9098acbd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-01-report.json",
+      "bytes": 43523,
+      "sha256": "091de3c44003ac057e9ef8ad5013423cef236ec07c4d55118ed71ec029c73637"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-01-warm.npz",
+      "bytes": 137021,
+      "sha256": "b7d2ae3350926666cb25d634bbb14aa49a3eb6b04a5a07f9657a0fca90095626"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-01-process-receipt.json",
+      "bytes": 662,
+      "sha256": "58524ff424e013d68b710e32a80600840ca375d788ea5b8e688b55e98fbabd55"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-trace-local-actual-terminal-receipt.json",
+      "bytes": 451,
+      "sha256": "88821af3442e999612d07c65c91f1ba73a3ec0a901a65749e5d0094dfdbc7bec"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-signed-trace-finite-provider.md",
+      "bytes": 3364,
+      "sha256": "b8aa7ea46cb404b38c236901103185c2525c702028b93886aaee21a5c8409412"
+    }
+  ],
+  "actual_origin_sha256": "b075e4e5c3dd11b3725eaec47e4d0a5e681d12dd400a4a2e3aff0c3b2f5bd13f",
+  "whole_F_or_normal_completed": false,
+  "new_accepted_state": false,
+  "old_files_modified": false
+}

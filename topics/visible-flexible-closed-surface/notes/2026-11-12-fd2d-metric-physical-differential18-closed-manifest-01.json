@@ -1,0 +1,137 @@
+{
+  "schema": "fd2d-physical-differential18-closed-manifest-v1",
+  "closed_utc": "2026-11-12T16:22:56.989144+00:00",
+  "actual_inputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-accepted-0002.npz",
+      "bytes": 58507,
+      "sha256": "d2c538f65b10f0ea6262d5e831efd17c80116ca958fd6634a9cbb831fac57bfc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-interior18-b0004-report.json",
+      "bytes": 155739,
+      "sha256": "53f88e2e4e79a94467b2e0884ec295af36f81ef07531fbede639ff3097868a30"
+    }
+  ],
+  "field_is_older_closed_18_not_active_19_20_21": true,
+  "actual_execution": {
+    "returncode": 0,
+    "executor_session": 17979,
+    "initial_chunk": "b732b2",
+    "final_chunk": "ab3b65",
+    "internal_seconds": 652.8961461870022,
+    "wrapper_seconds": 658.2825874070004,
+    "peak_rss_kib": 77596
+  },
+  "coverage": {
+    "saved_cells": 122,
+    "radial_per_cell": "G2 plus midpoint",
+    "fixed_physical_angles": 128,
+    "requested_points": 46848,
+    "defined_points": 46848,
+    "maximum_inverse_error": 4.973799150320701e-14
+  },
+  "global_sampled_maxima": {
+    "G": {
+      "absolute_value": 16.234570270101102,
+      "signed_value": 16.234570270101102,
+      "cell": 63,
+      "radial_label": "midpoint",
+      "physical_s": 0.6116816746501718,
+      "physical_u": 0.0
+    },
+    "Rn": {
+      "absolute_value": 3710.4323284378097,
+      "signed_value": -3710.4323284378097,
+      "cell": 118,
+      "radial_label": "gauss_left",
+      "physical_s": 1.4708467899832625,
+      "physical_u": 3.2397674240144743
+    },
+    "Rm": {
+      "absolute_value": 46.08531749627602,
+      "signed_value": -46.08531749627602,
+      "cell": 118,
+      "radial_label": "midpoint",
+      "physical_s": 1.4727231783581287,
+      "physical_u": 0.19634954084936207
+    },
+    "connection_operator_norm": {
+      "absolute_value": 3035.5235117883844,
+      "signed_value": 3035.5235117883844,
+      "cell": 118,
+      "radial_label": "gauss_left",
+      "physical_s": 1.4708467899832625,
+      "physical_u": 3.2397674240144743
+    }
+  },
+  "exact_cut_scope": {
+    "exact_cut_queried_for": "actual values/angular jets and pointwise Gauss only",
+    "prefix_cut_Rn_Rm": "not assigned: exact cut radial II trace is not certified by this reader",
+    "exact_cut_G_maximum": 8.673617379884035e-19,
+    "exact_cut_zero_II_angle_count": 36,
+    "exact_cut_tail_value_difference": 1.3877787807814457e-17,
+    "zero_tail_II_angles_do_not_require_division_by_n": true,
+    "interfaces": [
+      0.55,
+      0.5919999999999992,
+      0.8675434451024153,
+      1.4,
+      1.4689731783581288,
+      1.4759731783581287,
+      1.4889731783581288
+    ],
+    "all_saved_P1_cells_sampled_in_their_interiors": true,
+    "P1_and_atlas_radial_jumps_not_replaced_by_common_traces": true,
+    "no_global_C3_requirement": true
+  },
+  "screen_source_frozen": true,
+  "old_readers_unchanged": true,
+  "no_BVP": true,
+  "no_body_integration": true,
+  "no_Jacobian_assembly": true,
+  "finite_samples_not_continuous_certificate": true,
+  "P1_resampling_without_refit_does_not_remove_same_field_residuals": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-physical-differential-screen.py",
+      "bytes": 16196,
+      "sha256": "6047b86ea656cecf5cacc00ae329aa11294a3a361386c7234d2a86a03a049ff0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18.md",
+      "bytes": 11097,
+      "sha256": "ad347a397ddf65dcbc4b3b460f0231668fea07e8ed9155b10e6d32965900b8d4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18-01-report.json",
+      "bytes": 203514,
+      "sha256": "8cf1566345892e29fe6b662a3e895a658d90d0f6dc03d432aa96cbfbbee5d790"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18-01-definition.json",
+      "bytes": 44187,
+      "sha256": "d7ffaab4d7ad6e92f7d78044154987ae876885f2a2aaae1d7dc00945124f46ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18-01-samples.npz",
+      "bytes": 617308,
+      "sha256": "9e11c3e245ea968c245d5ac752aebe3b9a44bf5b1c261281e024e977e6fc4c04"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18-01-progress.jsonl",
+      "bytes": 93969,
+      "sha256": "ec9916441255ad5be261668d3da32fd9a69c1803334e619622c6e408a004ae88"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-physical-differential18-01-exit-receipt.json",
+      "bytes": 789,
+      "sha256": "f93dbedf7d080b30ef49c68a46e8100680150b2f4aa1e99d9793075808d4aa21"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-physical-differential18-01-console.txt",
+      "bytes": 2117,
+      "sha256": "d62e10ee5cc1abc2b41c41a12fde2886c63400e9ff4374a35e57dbb25540821d"
+    }
+  ]
+}

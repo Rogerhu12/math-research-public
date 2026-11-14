@@ -1,0 +1,138 @@
+{
+  "status": "PASS_EXACT_COMPONENT_CHECKS_FOR_FROZEN_LOCAL_EXISTENCE_PROOF",
+  "reviewer": "/root/tail_theory",
+  "script_sha256": "a6cc998ca71dd51283914d0e9ca164897366a9b5605652d4be7d0d6693b9781d",
+  "author_and_repository_source_bindings": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+      "bytes": 19568,
+      "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar-sources.json",
+      "bytes": 4062,
+      "sha256": "575fcc2c123ad7e39f06085939c59ff1a1fe67843e68c235f5f50cedb27e1e66"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar-publication.json",
+      "bytes": 666,
+      "sha256": "603b100deacbc2674ba658dc7483f901bd1e86cc7a15a155fc5fd2580e775b6d"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R28-finite-positive-c3-core-and-conditional-held-transfer.md",
+      "bytes": 10414,
+      "sha256": "663d67283aaffe49169af3eb5b74c67e0c70e6c4bbd6d7894b7fa863654bca00"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    }
+  ],
+  "unique_source_files_rehashed": 10,
+  "exact_algebra": {
+    "three_upper_flatness_entries": "all coefficient dictionaries identically zero after subtracting printed expressions",
+    "full_flatness_matrix_skew": true,
+    "both_connection_matrices_skew": true,
+    "Gauss_elimination_and_intrinsic_K": true,
+    "twice_differentiated_zero_jet_Lss": "kappa0 * Lss = -24 * A4",
+    "outward_fourth_position_coefficient": "-Lss/24 = A4/kappa0",
+    "arithmetic": "exact Fraction sparse Laurent polynomials; no floating sampling"
+  },
+  "strict_scalar_gates": {
+    "m_exceeds_tau": true,
+    "curvature_bound_has_strict_margin": true,
+    "support_has_strict_margin": true,
+    "reference_band_fits_auxiliary_envelope": true,
+    "position_error_less_than_old_envelope_budget": true,
+    "tau_exceeds_old_Dstar_reach_budget": true,
+    "active_to_cap_distance_exceeds_twice_tau": true,
+    "active_to_new_annulus_distance_exceeds_twice_tau": true,
+    "annulus_cap_conservative_old_distance_exceeds_twice_tau": true,
+    "opposite_annuli_distance_exceeds_twice_tau": true,
+    "opposite_caps_distance_exceeds_twice_tau": true
+  },
+  "scalar_values": {
+    "m": {
+      "numerator": "104",
+      "denominator": "995"
+    },
+    "m0_lower": {
+      "numerator": "327844003649",
+      "denominator": "500000000000"
+    },
+    "tau": {
+      "numerator": "9",
+      "denominator": "100"
+    },
+    "active_cap_separation_lower": {
+      "numerator": "184999",
+      "denominator": "1000000"
+    },
+    "active_new_annulus_separation_lower": {
+      "numerator": "147843503649",
+      "denominator": "500000000000"
+    },
+    "conditional_D_upper": {
+      "numerator": "83581383965278872373844015774666815159",
+      "denominator": "33230699894622896822595176507008614400"
+    },
+    "conditional_rigid_ratio_lower": {
+      "numerator": "8432697907936930850093109030389869987",
+      "denominator": "165054873784797908927456824842616180692"
+    },
+    "conditional_held_ratio_lower": {
+      "numerator": "33812670035601524389956491393987536930996224",
+      "denominator": "163244890557185297605164093309896123357421875"
+    }
+  },
+  "primary_theorem_text_independently_read": {
+    "url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/notes2.pdf",
+    "location": "Theorem 18, printed pages 9-10; first-order normal form and analytic uniqueness",
+    "retrieval_refs": [
+      "turn68view0",
+      "turn69view0"
+    ],
+    "PDF_saved_or_rendered": false
+  },
+  "not_executable_proofs": [
+    "CK analytic local existence and uniform periodic patching",
+    "frame and position reconstruction/embedding",
+    "near-diagonal and separated-point compactness argument"
+  ],
+  "scope": {
+    "uniform_epsilon_exists": true,
+    "numerical_positive_epsilon_lower_bound": false,
+    "local_common_metric_exists": true,
+    "closed_connected_surface_constructed": false,
+    "whole_closed_surface_reach_proved": false,
+    "G5_paid": false
+  },
+  "current_candidate_data_read": false,
+  "new_geometry_solver_root_RK_flow_DN_BVP_integration_calls": 0
+}

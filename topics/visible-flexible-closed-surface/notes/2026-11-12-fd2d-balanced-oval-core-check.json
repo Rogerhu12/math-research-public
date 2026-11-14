@@ -1,0 +1,63 @@
+{
+  "scope": "Analytic balanced-curvature oval with the ORIGINAL fixed perimeter.\n\nThree exact moment corrections impose axis supports 1.405 and .495 and the\nsame a0 as the (1.4,.5) ellipse. Corrections are defined by integrals; numerical\nquadrature here evaluates that exact definition. The separate interval\ncertificate proves global curvature-radius bounds without relying on a root\nfinder. Optional zero-mean support modes retain a0 exactly.\n",
+  "source_sha256": "1df75241ec76ae9a28042b72cbb721de61e7283378d82e7dea5ff05c3f84b692",
+  "summary": {
+    "reference": "analytic balanced oval with exact moment correction",
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "a0": 1.0040828380214688,
+    "coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "numerical_moment_corrections": [
+      0.0,
+      -3.3306690738754696e-16,
+      -1.6653345369377348e-15
+    ],
+    "exact_moment_correction_definition": {
+      "u0": "a0-mean(raw_rho)",
+      "u2": "3/2*(B-int(raw_rho*cos)-A+int(raw_rho*sin))",
+      "u4": "-15/2*(A-int(raw_rho*sin)+B-int(raw_rho*cos)-2*u0)"
+    },
+    "rho_lower": 0.228,
+    "rho_upper": 3.17,
+    "curvature_lower": 0.31545741324921134,
+    "curvature_upper": 4.385964912280701,
+    "long_axis_support": 1.405,
+    "short_axis_support": 0.495,
+    "axis_gap": 0.91,
+    "correction_weighted_l1": 0.0,
+    "inside_uniform_strong_core_window": true,
+    "full_held_protection_verified": false,
+    "full_slab_verified": false,
+    "whole_surface_reach_verified": false
+  },
+  "finite_checks": {
+    "arc_residual": 1.687538997430238e-14,
+    "material_speed_error": 2.220446049250313e-16,
+    "reference_angle_speed_error": 4.440892098500626e-16,
+    "initial_material_first_jet_error": 0.0,
+    "initial_material_second_jet_error": 0.0,
+    "initial_reference_first_jet_error": 0.0,
+    "initial_reference_second_jet_error": 0.0,
+    "rho_min_sample": 0.22921359147963627,
+    "rho_max_sample": 3.1163954738601207,
+    "curvature_min_sample": 0.32088353624816135,
+    "curvature_max_sample": 4.3627430360683555,
+    "maximum_abs_y": 0.4949999999999984,
+    "maximum_radius": 1.405
+  },
+  "certificate_file": "2026-11-12-fd2d-balanced-oval-moment-certificate.json",
+  "closed_surface": false
+}

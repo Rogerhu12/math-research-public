@@ -1,0 +1,181 @@
+{
+  "schema": "fd2d-circle-T-gap-warm-nonlinear-prefix-linear-tail-design-v1",
+  "scope": "Original variable-T design equations with streaming CSC and lossless parts.\n\nThis changes storage only. T remains an outer physical design variable and\nthe prescribed central gap remains a boundary equation. It is not same-g\nrefinement. Every native defining coefficient and all auxiliary arrays are\nsaved losslessly, with files below the repository size limit.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d-gc-bvp-design-archive-stream.py",
+    "bytes": 2559,
+    "sha256": "c1880b74cd0cf9229ab8241eb405f62e84815eea22e2dbd84abc90eec4477ba1"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-root-localturn34-01-candidate.json",
+    "bytes": 36113,
+    "sha256": "41634c364ac309cc97a46f51498365174660eedb5a5e1cda52477db03427b43d"
+  },
+  "linear_tail": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-layered64-wc01-linear95-01.json",
+    "bytes": 38099,
+    "sha256": "f300a3e186174d8c26dc8d4f6f6e1853dc6abe5e39d997a8ce09fa40a1d5dc60"
+  },
+  "warm_field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-root-localturn34-g0035-191-padding01-field.npz",
+    "bytes": 877362,
+    "sha256": "6e2919445cd67873ab9a819a046c3702bfd7ee54f78072563239635767f3f040"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_design_profile.py",
+      "bytes": 5719,
+      "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_design_flow.py",
+      "bytes": 4581,
+      "sha256": "97beebb06c46d81848713c3f461f6c892f94adf755dc84fe0736f807eb4f4aa0"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_design_ports.py",
+      "bytes": 2597,
+      "sha256": "a4ad3433d2afe385b69b93813cb89760d312ab7d4b470a2e9b37ad74789549a2"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_bvp_newton.py",
+      "bytes": 3509,
+      "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_logshape_stable.py",
+      "bytes": 1192,
+      "sha256": "c2107c094f673d38006111f1ab9b802267ff6a4974e656e8615543b3d959e580"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_logshape.py",
+      "bytes": 5005,
+      "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_partial_return_parameter.py",
+      "bytes": 6682,
+      "sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    }
+  ],
+  "nonlinear_tail_solved": false,
+  "closed_surface": false,
+  "physical_metric_frozen_for_refinement": false,
+  "maximum_mode": 191,
+  "intrinsic_dimension": 191,
+  "angular_grid": 768,
+  "initial_nodes": 584,
+  "maximum_nodes": 1400,
+  "tolerances": {
+    "collocation": 2e-05,
+    "boundary": 2e-10
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.4
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.2106180371449604,
+    "actual_T": 0.20525813841439644,
+    "physical_T_domain": [
+      0.0,
+      0.5449506114731018
+    ],
+    "computational_endpoint": 1.5607314855666952,
+    "actual_physical_endpoint": 1.5559088971038086,
+    "minimum_s_x": 0.9522841905848238,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "initialization": {
+    "warm_field": {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-root-localturn34-g0035-191-padding01-field.npz",
+      "bytes": 877362,
+      "sha256": "6e2919445cd67873ab9a819a046c3702bfd7ee54f78072563239635767f3f040"
+    },
+    "previous_gap": 0.035,
+    "requested_gap": 0.05,
+    "predictor_ratio": 1.4285714285714286,
+    "previous_A": 1.021425278535511,
+    "previous_B": 0.9864252785355109,
+    "retained_T": 0.20525813841439644,
+    "minimum_predicted_relative_n": 0.4686273653762936,
+    "maximum_native_change": 0.22232083290855353,
+    "predictor": "eta=log1p(ratio*expm1(eta_old)); zeta=ratio*zeta_old; c and physical h scaled",
+    "fixed_original_radial_and_material_chart": true,
+    "omitted_eta_mean_retained": true,
+    "predictor_is_accepted": false,
+    "nonlinear_tail_solved": false
+  },
+  "initial": {
+    "T": 0.20525813841439644,
+    "A": 1.0287439647669274,
+    "B": 0.9787475686687821,
+    "gap": 0.049996396098145365,
+    "gap_target": 0.05,
+    "boundary_maximum": 7.207803709277801e-05,
+    "omitted_eta_mean": 0.027404941970475744,
+    "omitted_n_mean": 0.00552920501658395,
+    "all_cut_curvature_coefficients_maximum": 0.00552920501658395,
+    "core_parameter_l1": 0.12466333385195454,
+    "maximum_worker_height": 0.005748816660293648,
+    "minimum_n_grid": 0.1491148009023904,
+    "maximum_eta": 0.7579473564418041,
+    "maximum_zeta": 0.7953992997626872,
+    "minimum_radial_scale": 0.9522841905848238,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.19877559529499547,
+      "maximum_m": 0.1381162935131029,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    }
+  },
+  "central_exact_means": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+    "bytes": 203694,
+    "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+  },
+  "central_exact_moments": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn191-01/topic/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "native_state_representation": "eta=log(n/n_ref), zeta=m/n_ref; real cosine/sine amplitudes"
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "fd2d-tail-height-gc-port-check-v1",
+  "scope": "Finite checks of R117's actual height-to-GC port and algebraic JVP.\n\nAn existing solved OLD-metric nonlinear tail packet checks the real Fourier\nand full-mean conventions. It is not a new strong-target solve. An artificial\npacked jet Jacobian checks row layout only, not the old DN derivative.\n",
+  "script": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-tail-gc-port-check.py",
+    "bytes": 7527,
+    "sha256": "38cd2064ef09debadb461859043cfdf771a1a9fd6fdf79ed19aad47b382b02bb"
+  },
+  "provider": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_metric_tail_gc_port.py",
+    "bytes": 8404,
+    "sha256": "2c9476d79db0260ddc423774b1f29b9176019851f35252b511b3c3c4d725fc95"
+  },
+  "worker_jet_source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-bounded-tail-stage-core.mjs",
+    "bytes": 19375,
+    "sha256": "97635de62cf4f66581bfea9a2a769b832bb673da657eb706bf05291bc5a79fa5"
+  },
+  "worker_height_fourier_source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs",
+    "bytes": 2464,
+    "sha256": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913"
+  },
+  "angle_count": 513,
+  "exact_nonzero_m_associate_patch_check": {
+    "l_error": 5.421010862427522e-20,
+    "m_error": 1.3552527156068805e-20,
+    "n_error": 8.131516293641283e-20,
+    "N_z_error": 1.0842021724855044e-19,
+    "gauss_defect": 5.421010862427522e-20,
+    "unsigned_half_reflection_II_sign_error": 0.0,
+    "unsigned_half_reflection_Nz_error": 0.0,
+    "signed_global_mirror_parity_error": 0.0
+  },
+  "tilted_sphere_check": {
+    "l_error": 5.421010862427522e-20,
+    "n_error": 2.168404344971009e-19,
+    "m_error": 4.362130984474401e-20,
+    "gauss_defect": 1.3552527156068805e-19,
+    "translation_invariance_error": 0.0
+  },
+  "actual_old_tail_check": {
+    "source": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0009.json.gz",
+      "bytes": 764073,
+      "sha256": "2cc67a7a0cd1652df817aff62770ca20c6b3804bd3e38af581032f787bb2ad52"
+    },
+    "converged": true,
+    "worker_residual": 1.0528345037007498e-09,
+    "modes": 22,
+    "spacing": 3,
+    "target_jet": [
+      0.6,
+      -0.8944271909999152,
+      1.8666666666666747
+    ],
+    "background_jet_difference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_normal_projection_squared": 0.7947893137887561,
+    "maximum_gauss_defect": 6.297263058230307e-15,
+    "l_range": [
+      -4.200565634093756,
+      -4.142644547311401
+    ],
+    "m_range": [
+      -0.0279750393398254,
+      0.0279750393398254
+    ],
+    "n_range": [
+      0.7406409457868028,
+      0.7509963926618465
+    ],
+    "old_metric_packet_only": true,
+    "strong_target_tail_solved_here": false,
+    "complete_means_used": true,
+    "extra_sqrt2_applied": false
+  },
+  "packed_layout_check": {
+    "matrix_kind": "explicit artificial test tangent, NOT a DN solve",
+    "shape": [
+      68,
+      22
+    ],
+    "rows": [
+      "slope[M]",
+      "second[M]",
+      "meanSlopeCorrection",
+      "meanSecondCorrection",
+      "height[M]"
+    ],
+    "height_identity_block_error": 0.0,
+    "finite_difference_checks": [
+      {
+        "step": 0.001,
+        "l_jvp_difference": 7.398820596991873e-12,
+        "m_jvp_difference": 1.502584799748137e-11,
+        "n_jvp_difference": 2.8081050343093522e-11,
+        "N_z_jvp_difference": 9.731437970073476e-14
+      },
+      {
+        "step": 0.0003,
+        "l_jvp_difference": 6.659250923043633e-13,
+        "m_jvp_difference": 1.3523276194606776e-12,
+        "n_jvp_difference": 2.5272634462600307e-12,
+        "N_z_jvp_difference": 8.73506199691081e-15
+      }
+    ]
+  },
+  "new_nonlinear_tail_computed": false,
+  "continuous_certificate": false,
+  "closed_surface": false
+}

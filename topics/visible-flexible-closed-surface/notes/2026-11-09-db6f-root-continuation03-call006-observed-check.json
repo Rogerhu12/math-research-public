@@ -1,0 +1,24 @@
+{
+  "status": "CLOSED_CALL006_PROVENANCE_CHECK_PASSED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T19:01:01.717537+00:00",
+  "audit_tool_receipt": "5edb4b",
+  "audit_tool_exit_code": 0,
+  "controller_session_id": 3046,
+  "controller_tool_exit_observed": false,
+  "last_controller_poll_receipt": "7183a4",
+  "last_controller_poll_state": "RUNNING",
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-continuation03-call006.py",
+      "bytes": 4810,
+      "sha256": "f878aff419c44419b0c29dbe66775a29d299ec019e03bd98ad177823c7a64014"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation03-call006-failure-audit.json",
+      "bytes": 3524,
+      "sha256": "269d20ca1c010ae282acd9ba7bc471410bf9ab0e1f21e682c10234ecc63807f8"
+    }
+  ],
+  "scope": "Root observed only the provenance-check exit. Original continuation remains running; no s1/prefix/independent-solver claim."
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "78718-independent-original-runtime-gate-probe-v1",
+  "status": "ORIGINAL_RUNTIME_PREDICATES_ONLY_NOT_A_FINAL_AUDIT",
+  "scope": "Only _compiled_runtime_record on the four recorded original exports. No selected-function/factory audit and no mathematical success inference.",
+  "probe_sha256": "77823494569ed99ba70e8dd0e2d5ab8611fb5e9e0add8dab7a20436a2fd5ae90",
+  "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "reproduction_sha256": "1addc01f67b705da3a44cbbbd62a94f48d991969bbb1c6b8e5be4db9166e1add",
+  "launch_sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671",
+  "unchanged_source_sha256": {
+    "db6f-prefix-audit-spectral-true-m14-direct-csc.py": "b6222f3394c53eebd8409c922ed2e009de85b4bcdbfa5a6e8c8d57b2294967e0",
+    "db6f-prefix-spectral-true-m14-direct-csc.py": "b6fd772b5f44819186fc7e31af370ffa199bfa5c9b14a2722b36345bcf26cd24",
+    "db6f-prefix-direct-csc-entry-gates.py": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b",
+    "db6f-prefix-spectral-affine-replay.py": "ad219dbab80278670665ac3cb5401cb55daf33834cea8495dd16bf1c1396e4bd"
+  },
+  "scipy_source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "rows": [
+    {
+      "function": "prepare_sys",
+      "accepted": false,
+      "error_type": "ValueError",
+      "error": "Runtime function code digest differs from pinned source"
+    },
+    {
+      "function": "construct_global_jac",
+      "accepted": false,
+      "error_type": "ValueError",
+      "error": "Runtime function code digest differs from pinned source"
+    },
+    {
+      "function": "compute_jac_indices",
+      "accepted": false,
+      "error_type": "ValueError",
+      "error": "Runtime function code digest differs from pinned source"
+    },
+    {
+      "function": "solve_bvp",
+      "accepted": false,
+      "error_type": "ValueError",
+      "error": "Runtime function code digest differs from pinned source"
+    }
+  ],
+  "any_original_gate_rejects": true,
+  "original_sources_unchanged": true,
+  "full_auditor_executed": false,
+  "solver_calls": 0,
+  "callback_calls": 0,
+  "candidate_optimization": false,
+  "run02_success_inferred": false
+}

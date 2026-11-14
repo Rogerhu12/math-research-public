@@ -1,0 +1,353 @@
+{
+  "scope": "Oversampled nonlinear elliptic-core design with a projected velocity field.\n\nUnlike point-collocation Frenet stepping, the RHS is evaluated on a finer\nangular grid and then projected to the state Fourier space. Curvature bounds\nuse the ACTUAL projected velocity and its time derivative; metric diagnostics\ninclude E, F, G on the finer grid. These remain finite design diagnostics, not\nan all-angle certificate, a fixed-g refinement, a tail match, or a closed map.\n",
+  "source_sha256": "7a973ab0c0a53f0c7c5b440037d68c9b56dfd5b6f13bf9e05a0537644a36dfc7",
+  "control": [
+    {
+      "s0": 0.0,
+      "s1": 0.25,
+      "L": 0.25,
+      "u0": 0.0,
+      "u1": 0.85
+    }
+  ],
+  "nodes": 256,
+  "geometry_grid": 512,
+  "ellipse_A": 1.4,
+  "ellipse_B": 0.5,
+  "metric_a0": 1.0040828380214688,
+  "sampled_curvature_budget": 7.1,
+  "tracking": 20.0,
+  "filter_strength": 36.0,
+  "filter_order": 16,
+  "symmetry": true,
+  "initial": {
+    "s": 0.0,
+    "radius": 1.0040828380214688,
+    "radial_speed": 0.0,
+    "radial_acceleration": 0.0,
+    "control": 0.0,
+    "control_rate": 0.0,
+    "requested_control": 0.0,
+    "minimum_chart": 1.0,
+    "relative_metric_error": 2.1715962361668062e-13,
+    "metric_angular_error": 2.1715962361668062e-13,
+    "metric_E_error": 0.0,
+    "metric_F_error": 0.0,
+    "sampled_curvature_max": 5.600000000014304,
+    "sampled_support_min": 0.5,
+    "maximum_radius": 1.4,
+    "maximum_abs_z": 0.0,
+    "maximum_abs_y": 0.5,
+    "held_witness_min_distance": 0.8999999999999999,
+    "held_required_upward_shift": 1.4901161193847656e-08,
+    "curvature_rate_feasibility": 1.4999999999856954,
+    "velocity_projection_error": 4.440892098500626e-16,
+    "velocity_projection_first_derivative_error": 5.425646812434608e-14
+  },
+  "complete_control": true,
+  "closed_surface": false,
+  "metric_frozen": false,
+  "rows": [
+    {
+      "index": 0,
+      "status": 0,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "events": {
+        "chart": [],
+        "metric": [],
+        "curvature_rate": [],
+        "slab": []
+      },
+      "last": {
+        "s": 0.25,
+        "radius": 1.0237089721301869,
+        "radial_speed": 0.2330647169002747,
+        "radial_acceleration": 1.627030098965189,
+        "control": 0.6487714463013768,
+        "control_rate": 2.2374165506164747,
+        "requested_control": 0.8493471507643741,
+        "minimum_chart": 0.5784483069060962,
+        "relative_metric_error": 2.3422634520096484e-12,
+        "metric_angular_error": 6.552536291337674e-13,
+        "metric_E_error": 2.212674488077937e-12,
+        "metric_F_error": 5.678533201520535e-13,
+        "sampled_curvature_max": 5.951626192296233,
+        "sampled_support_min": 0.1849514817094189,
+        "maximum_radius": 1.4256085685756925,
+        "maximum_abs_z": 0.24995399709278537,
+        "maximum_abs_y": 0.570774249977966,
+        "held_witness_min_distance": 0.8605617769470718,
+        "held_required_upward_shift": 0.11972384627878058,
+        "curvature_rate_feasibility": 1.884431400891202,
+        "velocity_projection_error": 1.558998966091617e-11,
+        "velocity_projection_first_derivative_error": 2.2947805189478826e-09
+      },
+      "extrema": {
+        "minimum_chart": 0.5784483069060962,
+        "relative_metric_error": 2.3422634520096484e-12,
+        "metric_angular_error": 9.088285679581531e-13,
+        "metric_E_error": 2.212674488077937e-12,
+        "metric_F_error": 5.678533201520535e-13,
+        "sampled_curvature_max": 5.951626192296233,
+        "sampled_support_min": 0.1849514817094189,
+        "maximum_radius": 1.4256085685756925,
+        "maximum_abs_z": 0.24995399709278537,
+        "maximum_abs_y": 0.570774249977966,
+        "held_witness_min_distance": 0.8605617769470718,
+        "curvature_rate_feasibility": 1.4999999999856954,
+        "velocity_projection_error": 2.0981186422090538e-11,
+        "velocity_projection_first_derivative_error": 3.0838303015945807e-09
+      }
+    }
+  ],
+  "metric_knots": [
+    {
+      "s": 0.0,
+      "radius": 1.0040828380214688,
+      "radial_speed": 0.0,
+      "radial_acceleration": 0.0
+    },
+    {
+      "s": 0.00625,
+      "radius": 1.0040828636876702,
+      "radial_speed": 1.628355810669987e-05,
+      "radial_acceleration": 0.007702792776681892
+    },
+    {
+      "s": 0.0125,
+      "radius": 1.0040832346848207,
+      "radial_speed": 0.0001247375235865215,
+      "radial_acceleration": 0.02907304279723772
+    },
+    {
+      "s": 0.018750000000000003,
+      "radius": 1.0040847780325939,
+      "radial_speed": 0.00040318389945508457,
+      "radial_acceleration": 0.06172582477277802
+    },
+    {
+      "s": 0.025,
+      "radius": 1.004088762320167,
+      "radial_speed": 0.0009153740138436045,
+      "radial_acceleration": 0.10353669399172434
+    },
+    {
+      "s": 0.03125,
+      "radius": 1.0040968146122944,
+      "radial_speed": 0.0017125053291464395,
+      "radial_acceleration": 0.15260859206333985
+    },
+    {
+      "s": 0.037500000000000006,
+      "radius": 1.0041108462844823,
+      "radial_speed": 0.0028345767650094773,
+      "radial_acceleration": 0.20725289667505933
+    },
+    {
+      "s": 0.043750000000000004,
+      "radius": 1.004132987033712,
+      "radial_speed": 0.004311660229588276,
+      "radial_acceleration": 0.26598070319402367
+    },
+    {
+      "s": 0.05,
+      "radius": 1.0041655267063918,
+      "radial_speed": 0.006165135669938748,
+      "radial_acceleration": 0.3274989834825207
+    },
+    {
+      "s": 0.05625,
+      "radius": 1.0042108647778658,
+      "radial_speed": 0.008408904621855954,
+      "radial_acceleration": 0.3907068688736381
+    },
+    {
+      "s": 0.0625,
+      "radius": 1.0042714673278572,
+      "radial_speed": 0.011050572124405501,
+      "radial_acceleration": 0.4546888597506275
+    },
+    {
+      "s": 0.06875,
+      "radius": 1.004349831241948,
+      "radial_speed": 0.014092572412676056,
+      "radial_acceleration": 0.5187035216463869
+    },
+    {
+      "s": 0.07500000000000001,
+      "radius": 1.0044484551977806,
+      "radial_speed": 0.017533209651923464,
+      "radial_acceleration": 0.5821677096329944
+    },
+    {
+      "s": 0.08125,
+      "radius": 1.0045698168230917,
+      "radial_speed": 0.021367588603441377,
+      "radial_acceleration": 0.644637341305834
+    },
+    {
+      "s": 0.08750000000000001,
+      "radius": 1.0047163552795038,
+      "radial_speed": 0.025588418124854607,
+      "radial_acceleration": 0.7057861936166543
+    },
+    {
+      "s": 0.09375,
+      "radius": 1.0048904584486664,
+      "radial_speed": 0.030186679949969222,
+      "radial_acceleration": 0.765384233016588
+    },
+    {
+      "s": 0.1,
+      "radius": 1.005094453878544,
+      "radial_speed": 0.035152164011547596,
+      "radial_acceleration": 0.823276764876718
+    },
+    {
+      "s": 0.10625000000000001,
+      "radius": 1.0053306026784254,
+      "radial_speed": 0.04047387855468304,
+      "radial_acceleration": 0.8793653456982184
+    },
+    {
+      "s": 0.1125,
+      "radius": 1.0056010956190007,
+      "radial_speed": 0.04614034809512361,
+      "radial_acceleration": 0.9335910497830756
+    },
+    {
+      "s": 0.11875000000000001,
+      "radius": 1.005908050784657,
+      "radial_speed": 0.05213981495922455,
+      "radial_acceleration": 0.98592038666841
+    },
+    {
+      "s": 0.125,
+      "radius": 1.0062535122283291,
+      "radial_speed": 0.058460361371427925,
+      "radial_acceleration": 1.0363339446973117
+    },
+    {
+      "s": 0.13125,
+      "radius": 1.006639449184951,
+      "radial_speed": 0.06508996889135563,
+      "radial_acceleration": 1.084817682702352
+    },
+    {
+      "s": 0.1375,
+      "radius": 1.0070677555026493,
+      "radial_speed": 0.0720165312515398,
+      "radial_acceleration": 1.131356701287523
+    },
+    {
+      "s": 0.14375000000000002,
+      "radius": 1.0075402490480485,
+      "radial_speed": 0.07922783562062154,
+      "radial_acceleration": 1.1759313127121374
+    },
+    {
+      "s": 0.15000000000000002,
+      "radius": 1.0080586709309656,
+      "radial_speed": 0.08671152560130495,
+      "radial_acceleration": 1.2185150983860606
+    },
+    {
+      "s": 0.15625,
+      "radius": 1.0086246844718694,
+      "radial_speed": 0.09445505779007439,
+      "radial_acceleration": 1.259074738411235
+    },
+    {
+      "s": 0.1625,
+      "radius": 1.0092398739045558,
+      "radial_speed": 0.102445661986096,
+      "radial_acceleration": 1.2975713005075011
+    },
+    {
+      "s": 0.16875,
+      "radius": 1.0099057428633709,
+      "radial_speed": 0.11067031324613602,
+      "radial_acceleration": 1.3339626754897915
+    },
+    {
+      "s": 0.17500000000000002,
+      "radius": 1.0106237127486664,
+      "radial_speed": 0.11911572161526662,
+      "radial_acceleration": 1.368206733029513
+    },
+    {
+      "s": 0.18125000000000002,
+      "radius": 1.0113951210925038,
+      "radial_speed": 0.12776834280906196,
+      "radial_acceleration": 1.400264816727646
+    },
+    {
+      "s": 0.1875,
+      "radius": 1.012221220059695,
+      "radial_speed": 0.13661441069373442,
+      "radial_acceleration": 1.4301050877472585
+    },
+    {
+      "s": 0.19375,
+      "radius": 1.0131031752128037,
+      "radial_speed": 0.14563998858691798,
+      "radial_acceleration": 1.457705175595282
+    },
+    {
+      "s": 0.2,
+      "radius": 1.0140420646427606,
+      "radial_speed": 0.15483103418460767,
+      "radial_acceleration": 1.48305717130475
+    },
+    {
+      "s": 0.20625000000000002,
+      "radius": 1.0150388806463968,
+      "radial_speed": 0.16417471114095133,
+      "radial_acceleration": 1.5066965720364034
+    },
+    {
+      "s": 0.21250000000000002,
+      "radius": 1.0160945474742589,
+      "radial_speed": 0.17366186329134733,
+      "radial_acceleration": 1.5289600531026486
+    },
+    {
+      "s": 0.21875,
+      "radius": 1.0172099345385601,
+      "radial_speed": 0.18328368882476762,
+      "radial_acceleration": 1.5497843684808852
+    },
+    {
+      "s": 0.225,
+      "radius": 1.0183858550126623,
+      "radial_speed": 0.19303098565222637,
+      "radial_acceleration": 1.5690980511629755
+    },
+    {
+      "s": 0.23125,
+      "radius": 1.0196230630394003,
+      "radial_speed": 0.20289403458816113,
+      "radial_acceleration": 1.5868104917531016
+    },
+    {
+      "s": 0.23750000000000002,
+      "radius": 1.0209222499755797,
+      "radial_speed": 0.21286242128509128,
+      "radial_acceleration": 1.6027622874369802
+    },
+    {
+      "s": 0.24375000000000002,
+      "radius": 1.022284038866174,
+      "radial_speed": 0.2229246173622564,
+      "radial_acceleration": 1.6167827067070815
+    },
+    {
+      "s": 0.25,
+      "radius": 1.0237089721301869,
+      "radial_speed": 0.2330647169002747,
+      "radial_acceleration": 1.627030098965189
+    }
+  ],
+  "sampled_additional_lead_required": 0.11972384627878058,
+  "rhs_calls": 1661
+}

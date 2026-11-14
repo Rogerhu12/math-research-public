@@ -1,0 +1,2529 @@
+{
+  "schema": "fd2d-R196-actual-nonuniform-radial-branch-checkpoint-v1",
+  "bindings": {
+    "parentCommit": "c8e64ceaad3e06eb358243bb2d6301a5813c2eca",
+    "parentPath": "notes/2026-11-12-fd2d-direct-position-R191-J27-curvature-weight02-02.json",
+    "parentGitBlob": "5809cd469b644b939d0a0e54a2d50044da3dcf10",
+    "candidateSHA256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d",
+    "sourceGitBlobs": {
+      "engine": "e73ca2505a67291e61acc15a3a7fad9dcaed0054",
+      "metric": "4b42782e70e3aaacb1e1f3241cb497d4ae742486",
+      "curvature": "4512b251cd28727b714015b88e68ca8e8411cf08",
+      "curvatureAlgebra": "7abcea6d968125aee8bc807e2f797b2227746828",
+      "splineBasis": "4afea695a78f2dce85bcbc30242a12bc1b07a687",
+      "bandKernel": "501b52f91e557a7008bfa0ee6294f55546c4fdc2",
+      "bandAdapter": "3c358ed9e75bc05c62eb8dd40870b1e594fd37ba",
+      "densePolicyAncestor": "a07f371c4471f1cdb8365da2327d67a07242599c",
+      "driver": "b8c224375c9ebb8a404d33b309d8f93834c4f7fd"
+    }
+  },
+  "options": {
+    "radialBasisCount": 30,
+    "modes": 7,
+    "angles": 64,
+    "gap": 0.05,
+    "radiusCoefficientBound": 0.4,
+    "radialKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "30"
+      ],
+      [
+        "1",
+        "15"
+      ],
+      [
+        "1",
+        "10"
+      ],
+      [
+        "7",
+        "60"
+      ],
+      [
+        "2",
+        "15"
+      ],
+      [
+        "3",
+        "20"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "11",
+        "60"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "7",
+        "30"
+      ],
+      [
+        "4",
+        "15"
+      ],
+      [
+        "3",
+        "10"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "11",
+        "30"
+      ],
+      [
+        "2",
+        "5"
+      ],
+      [
+        "13",
+        "30"
+      ],
+      [
+        "7",
+        "15"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "8",
+        "15"
+      ],
+      [
+        "17",
+        "30"
+      ],
+      [
+        "3",
+        "5"
+      ],
+      [
+        "19",
+        "30"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "11",
+        "15"
+      ],
+      [
+        "23",
+        "30"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "13",
+        "15"
+      ],
+      [
+        "9",
+        "10"
+      ],
+      [
+        "14",
+        "15"
+      ],
+      [
+        "29",
+        "30"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ]
+  },
+  "curvatureOptions": {
+    "guide": 9.5,
+    "weight": 0.01,
+    "nodeShare": 0.5
+  },
+  "z": [
+    -0.0003336347609927674,
+    0.000010971527724714341,
+    -0.0005534387061305709,
+    0.0009302971539311226,
+    0.0022448836051241093,
+    -0.007156686529654089,
+    0.004185645976520721,
+    -0.0012066108998839903,
+    -0.00017546348024985217,
+    -0.00029246387681593835,
+    0.0007199613905985101,
+    0.000741225583755479,
+    -0.003938916739713084,
+    0.0017799742780141119,
+    -0.0023701918933322127,
+    -0.00043522821595165913,
+    -0.000211424303270739,
+    0.00009702608080658724,
+    -0.00007704453622907334,
+    -0.0005968226833472514,
+    0.00003639952041933007,
+    -0.0034220031050366632,
+    -0.0006608444147485832,
+    -0.00010480592099268488,
+    -0.000456594308691168,
+    -0.0006382576314782464,
+    0.0020480337753755852,
+    -0.0010837474665383604,
+    -0.004635710531044275,
+    -0.0009382066314988585,
+    0.000052111977671763164,
+    -0.0009620850143952784,
+    -0.001055829415778319,
+    0.004547545544479459,
+    -0.0020314131785925393,
+    -0.005974545108619048,
+    -0.001212439754062276,
+    0.00019346533808588988,
+    -0.0013811191526479816,
+    -0.0011593735062244708,
+    0.006841874884889503,
+    -0.003071341993928934,
+    -0.007405599602578987,
+    -0.0014007629080130218,
+    0.00017808411559710525,
+    -0.0015990141379208156,
+    -0.000663396352196828,
+    0.008500584214809972,
+    -0.004436411248315196,
+    -0.009431733136488152,
+    -0.001458372576805621,
+    0.000028776942706675377,
+    -0.0018813386186331278,
+    0.0013412213515638588,
+    0.007050940350625495,
+    -0.005079287931047581,
+    -0.011589271932719962,
+    -0.0014387071298904257,
+    -0.00010592655081811833,
+    -0.0025876828202837415,
+    0.005726564303648251,
+    0.0016150092923247015,
+    -0.0058055730040436635,
+    -0.013689610817646079,
+    -0.0016653306006996012,
+    -0.0001192293856600544,
+    -0.0016515521056423485,
+    0.006433486308013922,
+    -0.003545301167361012,
+    -0.0035998301368431367,
+    -0.015533903865220494,
+    -0.0016742056675459849,
+    -0.0002213211338689215,
+    -0.0000110501031091358,
+    0.001408993114070317,
+    -0.001404279995538333,
+    -0.001410969172044833,
+    -0.01658092210713519,
+    -0.001603796572849228,
+    -0.0001332982698066225,
+    0.00017636197903009288,
+    -0.0001739457805803205,
+    -0.00013039038304303672,
+    -0.00022203037975232075,
+    -0.016875905037195684,
+    -0.001462871653195651,
+    -0.00007173316232603392,
+    -0.000019922311695514644,
+    -0.00032793598899702757,
+    0.000657304583046229,
+    -0.00011059319838662205,
+    -0.0163661758624114,
+    -0.0013249597299736305,
+    -0.00003828715655047126,
+    -0.00003526297704708236,
+    -0.0001929696881528287,
+    0.00037940104404192865,
+    0.000013177518871015531,
+    -0.015108242553669398,
+    -0.001168960808896102,
+    -0.000018497220756710667,
+    -0.000025808510981826758,
+    -0.00016920898184604195,
+    0.00019073983528205833,
+    0.00006701306573655088,
+    -0.01329660492957447,
+    -0.000983198675418597,
+    -0.000012447023780011254,
+    0.000008761214249708464,
+    -0.00022004710146326448,
+    0.0002678494057085197,
+    -0.00002052343554466643,
+    -0.011043254738803528,
+    -0.0008981786225281277,
+    -0.00003859307322395522,
+    0.00007505137966059778,
+    -0.00024876403659872563,
+    0.0002842061479432823,
+    -0.000030540303018444425,
+    -0.008557841584755223,
+    -0.0006929398752094433,
+    -0.0000040488731711617914,
+    0.00010949630032480475,
+    -0.00034782468906657566,
+    0.00025953098148755817,
+    -0.00006416111398311664,
+    -0.006030267584129852,
+    -0.0006047516287048196,
+    -0.00002284726579503713,
+    0.00023670407548898717,
+    -0.0007775006935571747,
+    0.0008050985835103826,
+    -0.00024201285449650556,
+    -0.0036482846479020665,
+    -0.000549778469091784,
+    -0.00006765288314547382,
+    0.0005160515781460224,
+    -0.0015677629082367194,
+    0.0012208582892132896,
+    -0.00007530373236737906,
+    -0.0014945250942943059,
+    -0.0004814505910500548,
+    -0.0000725679224678189,
+    0.0007753888274333001,
+    -0.0022286323430562144,
+    0.0016855054371588127,
+    -0.000040438678924267196,
+    0.0005155701203134349,
+    -0.0006580494978296888,
+    -0.00016342854885005446,
+    0.0018376959817972618,
+    -0.0058088467080470736,
+    0.005002108075453359,
+    -0.0005303913076307496,
+    0.0016312160526757262,
+    -0.0006844942335020522,
+    -0.00012728289281173418,
+    0.001800657215583681,
+    -0.006031232582568274,
+    0.005919311121013633,
+    -0.0013875153440880417,
+    0.001876990140493204,
+    -0.000486591366341695,
+    -0.00003367669077048849,
+    0.0007659911836033566,
+    -0.0030763363265753057,
+    0.0037796655743661065,
+    -0.0012605774045581363,
+    0.0019302018184109934,
+    -0.0004076983676823292,
+    0.0000012187949031658214,
+    0.00039073105269108664,
+    -0.001648928660818847,
+    0.002176953929915852,
+    -0.0008436379510978612,
+    0.0017355498035678712,
+    -0.0003380130291839217,
+    0.00001164729446712038,
+    0.00019933917381853613,
+    -0.0008909224665737715,
+    0.0012928469404655716,
+    -0.0005822654434031857,
+    0.001386062692984225,
+    -0.00032278759693586906,
+    0.000041396480855307586,
+    0.00007148285265668185,
+    -0.0003543726192374072,
+    0.0005768280860766829,
+    -0.0003701704290555451,
+    0.0009563865113671576,
+    -0.0002213383215559196,
+    0.000012460433746627383,
+    0.00003856176234305123,
+    -0.00007379230572134355,
+    0.000030262501597135893,
+    -0.000025927451079387568,
+    0.0006022067697147096,
+    -0.000382076976956719,
+    0.00004427007085429812,
+    0.000040131074858551215,
+    -0.00006505853487520878,
+    0.000037349045299774664,
+    -0.000004306115529680123,
+    0.00028945922943619855,
+    -0.0003919436988873474,
+    0.00011733000867626548,
+    0.0000024041177679402487,
+    -0.000058958704591765026,
+    0.00007602741094956395,
+    -0.00004393330908150309,
+    -0.0002804665699350899,
+    -0.00007413588782751659,
+    -0.00003771654097959678,
+    0.000015194502793189902,
+    0.0001233903429278188,
+    -0.00037578371269891446,
+    0.0003020677217768674,
+    -0.0007675358491743765,
+    -0.0001302380830827058,
+    -0.000005685463232104173,
+    0.000029694158329512743,
+    -0.00011002463789226507,
+    -0.00004165440025561979,
+    0.000013990749863641702,
+    -0.0016848937231464054,
+    -0.0002562986593172678,
+    0.00005533776802552285,
+    -0.00021800339903755528,
+    -0.0005295173427409205,
+    0.0014196214536632162,
+    -0.0008096008841408754,
+    -0.0026826533311212143,
+    -0.00038132330136486983,
+    0.00013436269345768983,
+    -0.0005080532258363179,
+    -0.0008861802215598773,
+    0.0028912655187534773,
+    -0.0015125554593198056,
+    -0.004064998311328444,
+    -0.0005711516772420042,
+    0.0002901642845013728,
+    -0.0008648070312248103,
+    -0.0012898857961437672,
+    0.004747831317227224,
+    -0.0023130256984082572,
+    -0.005903132342786155,
+    -0.0007709219573415306,
+    0.00046595190773506955,
+    -0.0012553120806062074,
+    -0.001489431966328263,
+    0.0068269451730501455,
+    -0.0033945252627868325,
+    -0.008275008723701623,
+    -0.0008779740426576525,
+    0.0004932743547963118,
+    -0.0015235769166004967,
+    -0.0011594101450278463,
+    0.008809473220886871,
+    -0.005102245810810943,
+    -0.012066645489237348,
+    -0.0006989092488034812,
+    0.00034376920078944975,
+    -0.0020892033260240155,
+    0.0015013055913419928,
+    0.006793090252420205,
+    -0.0056666279256348895,
+    -0.016128001156314558,
+    -0.00048346095681432234,
+    0.00025173429397698933,
+    -0.0031039552277027974,
+    0.006283033989497948,
+    0.00090743354443624,
+    -0.005632701106301486,
+    -0.020875139754042638,
+    -0.0005743125159994399,
+    0.0001985996515164282,
+    -0.0022426364592253623,
+    0.007178464763648623,
+    -0.004192384330832836,
+    -0.0030184476019459636,
+    -0.026646646274597178,
+    -0.0003269425648892794,
+    -0.00008505830795056222,
+    0.00004517682436339508,
+    0.0012548756893123285,
+    -0.0014952353978369129,
+    -0.0008272131976291328,
+    -0.031169973875183412,
+    -0.00019135976288870362,
+    -0.000019924932882429902,
+    0.00016055696852838785,
+    0.00005336655775656572,
+    -0.00032358306371447804,
+    -0.00008432962869343753,
+    -0.03473938431801321,
+    -0.00009856530399817039,
+    0.000002767513186229653,
+    0.00007085853931353409,
+    -0.00000868330149951542,
+    0.000015690267843447404,
+    -0.0000838672836812661,
+    -0.03735692032297086,
+    -0.00006596916029141582,
+    0.000006715734814455906,
+    0.00006425812996433462,
+    0.000032281978054761093,
+    -0.00008747229401761268,
+    -0.000028052912530255046,
+    -0.03907423072345943,
+    -0.00004835095357789061,
+    0.0000027969999594653773,
+    0.00006217827296210256,
+    0.000025677818853951996,
+    -0.00006956476395483949,
+    -0.00003286547076637694,
+    -0.03990504798092989,
+    -0.00005264749152452895,
+    -0.000004814754921407083,
+    0.000060583242370458195,
+    0.00003099693481362505,
+    -0.00007147191055498727,
+    -0.00002304107159750749,
+    -0.039830474732249224,
+    -0.0000217054431245575,
+    0.00000539626075670825,
+    0.000041411153897568314,
+    0.000032596277735340325,
+    -0.00008493402303736852,
+    -0.00001684613888873225,
+    -0.03872480869555667,
+    -0.000052186885034580065,
+    -0.00001618522609279898,
+    0.00002104211495882053,
+    0.00008323790276214907,
+    -0.000046598682247158186,
+    -0.000008056696257632226,
+    -0.036832305018426534,
+    -0.000019375743175278224,
+    -0.000008207064803420682,
+    -0.00005615966984826292,
+    0.00036999476603569647,
+    -0.00043483745727912015,
+    0.0001177634031321883,
+    -0.03437599149436694,
+    0.00007594843935024392,
+    0.00004715856717179896,
+    -0.00034753822525419555,
+    0.0012622419436578575,
+    -0.000934549933478391,
+    -0.000049402260579022734,
+    -0.03134583149011812,
+    0.00011516168081488966,
+    0.00004835949842848842,
+    -0.0007520827634774436,
+    0.002282395397850572,
+    -0.0014737018913789464,
+    -0.00030581910836295276,
+    -0.02897755762963534,
+    0.0007334358232855279,
+    0.00024170948103614616,
+    -0.0030558727041706565,
+    0.010285145871474386,
+    -0.008889197905777423,
+    0.0007537880437184628,
+    -0.02582640410365348,
+    0.0008847269505672338,
+    0.00017216176632899052,
+    -0.002810906480752603,
+    0.010092156743039033,
+    -0.00995725546587268,
+    0.0021543093813761885,
+    -0.02247391928225488,
+    0.0007280693400253517,
+    0.00007799820210895793,
+    -0.0014566524545449311,
+    0.005992844121869983,
+    -0.0070413984295151985,
+    0.002052909453412965,
+    -0.019447674566602548,
+    0.0007130016943364849,
+    0.000029104001569805078,
+    -0.0008657203596131359,
+    0.0036381550769231967,
+    -0.004492101314791053,
+    0.0015345999857226634,
+    -0.01668736157983663,
+    0.0006811972482365911,
+    0.00002003534595324447,
+    -0.0005592677953429654,
+    0.002298839812524227,
+    -0.0029088831027071593,
+    0.0011026940339149847,
+    -0.014251073638490987,
+    0.0007465351581945905,
+    -0.00003038387766673088,
+    -0.0003328571040406201,
+    0.001288984380675061,
+    -0.0016029386579258468,
+    0.0007957545329257038,
+    -0.012032069833820764,
+    0.0005951269857230056,
+    0.000024567694535516464,
+    -0.00026938062387034097,
+    0.0006613510194419022,
+    -0.0003625406274563179,
+    0.00006876310310588188,
+    -0.009949927593172547,
+    0.0011162858266480472,
+    0.0000010842429496266208,
+    -0.00028230894119547604,
+    0.0005784809679548939,
+    -0.00026032252195214037,
+    -0.0000763896404702509,
+    -0.00761777723052696,
+    0.0018011874716325998,
+    -0.0003155081538045031,
+    -0.0001380475320346846,
+    0.0006265731852902908,
+    -0.0006016506407206133,
+    0.00013967410888012516,
+    0.0002899840603898256,
+    0.0005771315943394189,
+    0.00021440682750890132,
+    -0.0005098603382804991,
+    -0.0018166470817815752,
+    -0.003804102220140256,
+    -0.006530312692393371,
+    -0.01064900461894322,
+    -0.013635539892113857,
+    -0.015705316044538356,
+    -0.018803015250800907,
+    -0.017836271903944153,
+    -0.012993279218724394,
+    -0.005966347381570109,
+    0.0018869980054093587,
+    0.009592000517023632,
+    0.016694497198047734,
+    0.021441271064158204,
+    0.02326599411002148,
+    0.02247776321962856,
+    0.01644417873838905,
+    0.008722330377180804,
+    0.004631483227736968,
+    0.00401324484633215,
+    0.0028690910918245933,
+    0.0022393952955871077,
+    0.002683032483876614,
+    0.0034865902678283683,
+    0.0036092937410195517,
+    0.002564688670650734,
+    -0.12897335799200166,
+    0.0006506453226501541,
+    0.004788630680347323,
+    0.010681559351464576,
+    0.016334958070762306,
+    0.023112227811519125,
+    0.030867793987317396,
+    0.03940803390739696,
+    0.05117048133796479,
+    0.06387888100634945,
+    0.07759678860892448,
+    0.09223037985497257,
+    0.10271701097301286,
+    0.10766918446865797,
+    0.10899544113334779,
+    0.10716610225256404,
+    0.10300373626482555,
+    0.09737636508184067,
+    0.08722026383383769,
+    0.07243158206603936,
+    0.05670242171640022,
+    0.04054928054550013,
+    0.026452145275214632,
+    0.016388191348877992,
+    0.010497845812303914,
+    0.005911872305725055,
+    0.0029598943591651722,
+    0.0015630222734762853,
+    0.0009743027737265891,
+    0.0005452126957823329,
+    0.00016543768691710455
+  ],
+  "lambda": 0.037037037037037035,
+  "parentAcceptedIteration": 8,
+  "localAcceptedSteps": 4,
+  "centralSeed": {
+    "interpretation": "Exact binary64 raw axes; mathematical central curve subsequently scales by accurate B32 a(0)/accurate elliptic mean radius",
+    "rawA": 1.0289271932119126,
+    "rawB": 0.9789271932119126,
+    "rawABinary64": "0x3ff0767c5c4cf6bc",
+    "rawBBinary64": "0x3fef535f1f0053de",
+    "finiteMeanRadius": 1.0040828380214695,
+    "finiteB32MeanRadius": 1.004082838021469,
+    "finiteScaledCentralA": 1.0289271932119122,
+    "finiteScaledCentralB": 0.9789271932119121,
+    "finiteScaledCentralGap": 0.050000000000000024,
+    "finiteIterationDefinesChosenBinaryAxes": true,
+    "finitePerimeterIsNotAnIntervalCertificate": true
+  },
+  "history": [
+    {
+      "localIteration": 1,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.00002419897992376904,
+      "previousSavedValueSquaredNorm": 0.00002419897992376904,
+      "savedValueVersusFreshNormalDifference": 0,
+      "lambda": 0.00037037037037037035,
+      "nextLambda": 0.00037037037037037035,
+      "alpha": 0.25,
+      "squaredNorm": 0.0000232106655427269,
+      "predictedReduction": 5.300218738677318e-7,
+      "actualReduction": 4.941571905210695e-7,
+      "rho": 0.9323335788295928,
+      "evaluation": {
+        "squaredNorm": 0.0000232106655427269,
+        "norm": 0.004817744860692283,
+        "maxRelativeMetric": 0.011391274230371909,
+        "minImmersion": 0.9921758664690412,
+        "worst": {
+          "s": 0.24663625040934126,
+          "u": 0.39269908169872414,
+          "rE": 0.0053877227767782365,
+          "rF": 0.008269709847632709
+        },
+        "rowCount": 20383,
+        "radialPoints": 184,
+        "quarterNodes": 17,
+        "fullEquivalentAngles": 64,
+        "fixedPhysicalMetric": false,
+        "physicalMetricIsDesignVariable": true,
+        "maxRadiusCoefficient": 0.10889200961887652,
+        "conservativeRadiusLowerBound": 0.6911079903811235,
+        "newNonlinearAcceptedState": false,
+        "metricSquaredNorm": 0.00002311587364816553,
+        "curvaturePenaltySquaredNorm": 9.479189456136868e-8,
+        "curvature": {
+          "squaredNorm": 9.479189456136868e-8,
+          "norm": 0.00030788292346502216,
+          "maxCurvature": 9.601265865655686,
+          "minImmersion": 0.9912540745688139,
+          "maxRelativeMetric": 0.011391274230372013,
+          "worst": {
+            "s": 0.2191792174807537,
+            "u": 1.5707963267948966,
+            "kind": "physical_knot",
+            "principalCurvatures": [
+              0.7936043350060267,
+              -9.601265865655686
+            ],
+            "relativeMetric": 0.003098435592565618
+          },
+          "activePoints": 139,
+          "thresholdPoints": 0,
+          "rowCount": 14127,
+          "radialPoints": 277,
+          "quarterNodes": 17,
+          "guide": 9.5,
+          "weight": 0.01,
+          "nodeShare": 0.5
+        },
+        "curvatureIsNumericalGuide": true,
+        "continuousCertificate": false,
+        "strongTargetComplete": false
+      },
+      "trace": [
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002419897992376904,
+          "squaredNorm": 0.0004766734118758093,
+          "baselineCost": 0.00001209948996188452,
+          "actualCost": 0.00023833670593790464,
+          "armijoThreshold": 0.000012099270858560967,
+          "slope": -0.0000021910332355269953,
+          "predictedReduction": 0.0000019072502753027227,
+          "actualReduction": -0.00022623721597602012,
+          "rho": -118.61957442376632,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002419897992376904,
+          "squaredNorm": 0.000026665954427346454,
+          "baselineCost": 0.00001209948996188452,
+          "actualCost": 0.000013332977213673227,
+          "armijoThreshold": 0.000012099380410222744,
+          "slope": -0.0000021910332355269953,
+          "predictedReduction": 0.0000010245708777074295,
+          "actualReduction": -0.0000012334872517887077,
+          "rho": -1.203906219303,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 0.25,
+          "valid": true,
+          "accepted": true,
+          "baselineSquaredNorm": 0.00002419897992376904,
+          "squaredNorm": 0.0000232106655427269,
+          "baselineCost": 0.00001209948996188452,
+          "actualCost": 0.00001160533277136345,
+          "armijoThreshold": 0.000012099435186053632,
+          "slope": -0.0000021910332355269953,
+          "predictedReduction": 5.300218738677318e-7,
+          "actualReduction": 4.941571905210695e-7,
+          "rho": 0.9323335788295928,
+          "error": null,
+          "actualValueEvaluated": true
+        }
+      ],
+      "solveInfo": {
+        "dimension": 481,
+        "radialBlocks": 30,
+        "blockSize": 16,
+        "halfBandwidthBlocks": 4,
+        "scalarStorageStride": 80,
+        "oneGlobalBorderOriginalIndex": 450,
+        "offBandNonzeroCount": 0,
+        "offBandMaximum": 0,
+        "offBandTolerance": 0,
+        "storedLowerNonzeros": 26065,
+        "zeroDiagonalColumns": [],
+        "zeroDiagonalScale": 1,
+        "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+        "suppliedDiagonalDifference": 0,
+        "suppliedDiagonalRelativeDifference": 0,
+        "suppliedDiagonalUsedInsteadOfHjj": false,
+        "symmetryAdjustment": 0,
+        "scaledSymmetryAdjustment": 0,
+        "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+        "scaledGradientInfinity": 0.0002255383343377683,
+        "preparedNumericStorageBytes": 952360,
+        "fullScaledMatrixAllocated": false,
+        "inputArraysModified": false,
+        "continuousCertificate": false,
+        "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+        "fieldMinimumPivot": 0.0019982005107026524,
+        "fieldMaximumPivot": 1.0003703703703701,
+        "borderSchur": 0.005758207410550442,
+        "borderContraction": 0.9946121629598201,
+        "minimumPivot": 0.0019982005107026524,
+        "maximumPivot": 1.0003703703703701,
+        "scaledSlope": -0.0000021910332355269958,
+        "physicalAndScaledSlopeDifference": 4.235164736271502e-22,
+        "originalScaledEquationResidualMaximum": 4.594306705907325e-18,
+        "workingScaledEquationResidualMaximum": 4.357137480676121e-18,
+        "workingScaledEquationRelativeResidual": 5.1679908984114176e-15,
+        "originalUnscaledDampedEquationResidualMaximum": 4.387142596133031e-17,
+        "factorNumericStorageBytes": 307200,
+        "diagonalDampingInScaledCoordinates": 0.00037037037037037035,
+        "hiddenDiagonalShift": 0,
+        "actualTrialEvaluated": false,
+        "finiteSpaceLowerBoundClaimed": false,
+        "fullDenseFactorAllocated": false
+      },
+      "actualValueEvaluations": 3,
+      "normalMs": 3291,
+      "elapsedMs": 5825,
+      "backend": "R195 v2 explicit width4; original actual-value Armijo policy"
+    },
+    {
+      "localIteration": 2,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.0000232106655427269,
+      "previousSavedValueSquaredNorm": 0.0000232106655427269,
+      "savedValueVersusFreshNormalDifference": 0,
+      "lambda": 0.0037037037037037034,
+      "nextLambda": 0.0037037037037037034,
+      "alpha": 0.5,
+      "squaredNorm": 0.000022811867764289786,
+      "predictedReduction": 1.9960484289960535e-7,
+      "actualReduction": 1.993988892185572e-7,
+      "rho": 0.9989681929653794,
+      "evaluation": {
+        "squaredNorm": 0.000022811867764289786,
+        "norm": 0.004776177107718032,
+        "maxRelativeMetric": 0.01096707337738162,
+        "minImmersion": 0.9921811321786229,
+        "worst": {
+          "s": 0.24663625040934126,
+          "u": 0.39269908169872414,
+          "rE": 0.004747977743622567,
+          "rF": 0.008258648688277592
+        },
+        "rowCount": 20383,
+        "radialPoints": 184,
+        "quarterNodes": 17,
+        "fullEquivalentAngles": 64,
+        "fixedPhysicalMetric": false,
+        "physicalMetricIsDesignVariable": true,
+        "maxRadiusCoefficient": 0.10895869159120937,
+        "conservativeRadiusLowerBound": 0.6910413084087906,
+        "newNonlinearAcceptedState": false,
+        "metricSquaredNorm": 0.000022779860318952092,
+        "curvaturePenaltySquaredNorm": 3.2007445337694966e-8,
+        "curvature": {
+          "squaredNorm": 3.2007445337694966e-8,
+          "norm": 0.0001789062473411562,
+          "maxCurvature": 9.561612986844791,
+          "minImmersion": 0.9912236599603795,
+          "maxRelativeMetric": 0.010967073377381726,
+          "worst": {
+            "s": 0.2191792174807537,
+            "u": 1.5707963267948966,
+            "kind": "physical_knot",
+            "principalCurvatures": [
+              0.7936136751200848,
+              -9.561612986844791
+            ],
+            "relativeMetric": 0.003033626996006955
+          },
+          "activePoints": 138,
+          "thresholdPoints": 0,
+          "rowCount": 14127,
+          "radialPoints": 277,
+          "quarterNodes": 17,
+          "guide": 9.5,
+          "weight": 0.01,
+          "nodeShare": 0.5
+        },
+        "curvatureIsNumericalGuide": true,
+        "continuousCertificate": false,
+        "strongTargetComplete": false
+      },
+      "trace": [
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.0000232106655427269,
+          "squaredNorm": 0.0010262253522284742,
+          "baselineCost": 0.00001160533277136345,
+          "actualCost": 0.0005131126761142371,
+          "armijoThreshold": 0.00001160512653484405,
+          "slope": -0.0000020623651940013155,
+          "predictedReduction": 0.0000018110836641120963,
+          "actualReduction": -0.0005015073433428737,
+          "rho": -276.91009161012073,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.0000232106655427269,
+          "squaredNorm": 0.00011365583425869692,
+          "baselineCost": 0.00001160533277136345,
+          "actualCost": 0.00005682791712934846,
+          "armijoThreshold": 0.00001160522965310375,
+          "slope": -0.0000020623651940013155,
+          "predictedReduction": 9.68362214528353e-7,
+          "actualReduction": -0.00004522258435798501,
+          "rho": -46.70007119186384,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.00037037037037037035,
+          "alpha": 0.25,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.0000232106655427269,
+          "squaredNorm": 0.000023995539334349848,
+          "baselineCost": 0.00001160533277136345,
+          "actualCost": 0.000011997769667174924,
+          "armijoThreshold": 0.0000116052812122336,
+          "slope": -0.0000020623651940013155,
+          "predictedReduction": 4.998862028822527e-7,
+          "actualReduction": -3.92436895811474e-7,
+          "rho": -0.7850524650385516,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 1,
+          "lambda": 0.0037037037037037034,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.0000232106655427269,
+          "squaredNorm": 0.000024604883825233432,
+          "baselineCost": 0.00001160533277136345,
+          "actualCost": 0.000012302441912616716,
+          "armijoThreshold": 0.00001160528674879887,
+          "slope": -4.6022564581327367e-7,
+          "predictedReduction": 3.3819372578514777e-7,
+          "actualReduction": -6.971091412532659e-7,
+          "rho": -2.061271656163529,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 1,
+          "lambda": 0.0037037037037037034,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": true,
+          "baselineSquaredNorm": 0.0000232106655427269,
+          "squaredNorm": 0.000022811867764289786,
+          "baselineCost": 0.00001160533277136345,
+          "actualCost": 0.000011405933882144893,
+          "armijoThreshold": 0.00001160530976008116,
+          "slope": -4.6022564581327367e-7,
+          "predictedReduction": 1.9960484289960535e-7,
+          "actualReduction": 1.993988892185572e-7,
+          "rho": 0.9989681929653794,
+          "error": null,
+          "actualValueEvaluated": true
+        }
+      ],
+      "solveInfo": {
+        "dimension": 481,
+        "radialBlocks": 30,
+        "blockSize": 16,
+        "halfBandwidthBlocks": 4,
+        "scalarStorageStride": 80,
+        "oneGlobalBorderOriginalIndex": 450,
+        "offBandNonzeroCount": 0,
+        "offBandMaximum": 0,
+        "offBandTolerance": 0,
+        "storedLowerNonzeros": 26065,
+        "zeroDiagonalColumns": [],
+        "zeroDiagonalScale": 1,
+        "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+        "suppliedDiagonalDifference": 0,
+        "suppliedDiagonalRelativeDifference": 0,
+        "suppliedDiagonalUsedInsteadOfHjj": false,
+        "symmetryAdjustment": 0,
+        "scaledSymmetryAdjustment": 0,
+        "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+        "scaledGradientInfinity": 0.000216627037159699,
+        "preparedNumericStorageBytes": 952360,
+        "fullScaledMatrixAllocated": false,
+        "inputArraysModified": false,
+        "continuousCertificate": false,
+        "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+        "fieldMinimumPivot": 0.008638053662625045,
+        "fieldMaximumPivot": 1.003703703703704,
+        "borderSchur": 0.037145580482233154,
+        "borderContraction": 0.9665581232214704,
+        "minimumPivot": 0.008638053662625045,
+        "maximumPivot": 1.003703703703704,
+        "scaledSlope": -4.602256458132736e-7,
+        "physicalAndScaledSlopeDifference": 5.293955920339377e-23,
+        "originalScaledEquationResidualMaximum": 5.421010862427522e-19,
+        "workingScaledEquationResidualMaximum": 5.285485590866834e-19,
+        "workingScaledEquationRelativeResidual": 6.532832387085764e-16,
+        "originalUnscaledDampedEquationResidualMaximum": 5.408371712234675e-18,
+        "factorNumericStorageBytes": 307200,
+        "diagonalDampingInScaledCoordinates": 0.0037037037037037034,
+        "hiddenDiagonalShift": 0,
+        "actualTrialEvaluated": false,
+        "finiteSpaceLowerBoundClaimed": false,
+        "fullDenseFactorAllocated": false
+      },
+      "actualValueEvaluations": 5,
+      "normalMs": 3556,
+      "elapsedMs": 7635,
+      "backend": "R195 v2 explicit width4; original actual-value Armijo policy"
+    },
+    {
+      "localIteration": 3,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.000022811867764289786,
+      "previousSavedValueSquaredNorm": 0.000022811867764289786,
+      "savedValueVersusFreshNormalDifference": 0,
+      "lambda": 0.0037037037037037034,
+      "nextLambda": 0.0037037037037037034,
+      "alpha": 0.25,
+      "squaredNorm": 0.00002267278554729538,
+      "predictedReduction": 6.95222249162484e-8,
+      "actualReduction": 6.95411084972028e-8,
+      "rho": 1.0002716193415437,
+      "evaluation": {
+        "squaredNorm": 0.00002267278554729538,
+        "norm": 0.004761594853333847,
+        "maxRelativeMetric": 0.010875854808392638,
+        "minImmersion": 0.9921821121125504,
+        "worst": {
+          "s": 0.2502425154004689,
+          "u": 0.4908738521234052,
+          "rE": 0.0031440093694263815,
+          "rF": 0.00917008333632415
+        },
+        "rowCount": 20383,
+        "radialPoints": 184,
+        "quarterNodes": 17,
+        "fullEquivalentAngles": 64,
+        "fixedPhysicalMetric": false,
+        "physicalMetricIsDesignVariable": true,
+        "maxRadiusCoefficient": 0.10899375477819284,
+        "conservativeRadiusLowerBound": 0.6910062452218072,
+        "newNonlinearAcceptedState": false,
+        "metricSquaredNorm": 0.000022650938344186503,
+        "curvaturePenaltySquaredNorm": 2.1847203108878405e-8,
+        "curvature": {
+          "squaredNorm": 2.1847203108878405e-8,
+          "norm": 0.00014780799406283277,
+          "maxCurvature": 9.55177039603139,
+          "minImmersion": 0.9912155403584941,
+          "maxRelativeMetric": 0.010875854808392616,
+          "worst": {
+            "s": 0.2191792174807537,
+            "u": 1.5707963267948966,
+            "kind": "physical_knot",
+            "principalCurvatures": [
+              0.7934565741350763,
+              -9.55177039603139
+            ],
+            "relativeMetric": 0.0030107099628025047
+          },
+          "activePoints": 137,
+          "thresholdPoints": 0,
+          "rowCount": 14127,
+          "radialPoints": 277,
+          "quarterNodes": 17,
+          "guide": 9.5,
+          "weight": 0.01,
+          "nodeShare": 0.5
+        },
+        "curvatureIsNumericalGuide": true,
+        "continuousCertificate": false,
+        "strongTargetComplete": false
+      },
+      "trace": [
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.000022811867764289786,
+          "squaredNorm": 0.000042011894407931454,
+          "baselineCost": 0.000011405933882144893,
+          "actualCost": 0.000021005947203965727,
+          "armijoThreshold": 0.000011405905115768156,
+          "slope": -2.876637673762409e-7,
+          "predictedReduction": 2.493642965312518e-7,
+          "actualReduction": -0.000009600013321820834,
+          "rho": -38.497946399546834,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.000022811867764289786,
+          "squaredNorm": 0.000023840438927951787,
+          "baselineCost": 0.000011405933882144893,
+          "actualCost": 0.000011920219463975894,
+          "armijoThreshold": 0.000011405919498956524,
+          "slope": -2.876637673762409e-7,
+          "predictedReduction": 1.3425701597687316e-7,
+          "actualReduction": -5.142855818310007e-7,
+          "rho": -3.830604889353347,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 0.25,
+          "valid": true,
+          "accepted": true,
+          "baselineSquaredNorm": 0.000022811867764289786,
+          "squaredNorm": 0.00002267278554729538,
+          "baselineCost": 0.000011405933882144893,
+          "actualCost": 0.00001133639277364769,
+          "armijoThreshold": 0.000011405926690550708,
+          "slope": -2.876637673762409e-7,
+          "predictedReduction": 6.95222249162484e-8,
+          "actualReduction": 6.95411084972028e-8,
+          "rho": 1.0002716193415437,
+          "error": null,
+          "actualValueEvaluated": true
+        }
+      ],
+      "solveInfo": {
+        "dimension": 481,
+        "radialBlocks": 30,
+        "blockSize": 16,
+        "halfBandwidthBlocks": 4,
+        "scalarStorageStride": 80,
+        "oneGlobalBorderOriginalIndex": 450,
+        "offBandNonzeroCount": 0,
+        "offBandMaximum": 0,
+        "offBandTolerance": 0,
+        "storedLowerNonzeros": 26065,
+        "zeroDiagonalColumns": [],
+        "zeroDiagonalScale": 1,
+        "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+        "suppliedDiagonalDifference": 0,
+        "suppliedDiagonalRelativeDifference": 0,
+        "suppliedDiagonalUsedInsteadOfHjj": false,
+        "symmetryAdjustment": 0,
+        "scaledSymmetryAdjustment": 0,
+        "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+        "scaledGradientInfinity": 0.00009087408206879951,
+        "preparedNumericStorageBytes": 952360,
+        "fullScaledMatrixAllocated": false,
+        "inputArraysModified": false,
+        "continuousCertificate": false,
+        "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+        "fieldMinimumPivot": 0.009099103182675816,
+        "fieldMaximumPivot": 1.0037037037037038,
+        "borderSchur": 0.037054981996523906,
+        "borderContraction": 0.9666487217071796,
+        "minimumPivot": 0.009099103182675816,
+        "maximumPivot": 1.0037037037037038,
+        "scaledSlope": -2.876637673762409e-7,
+        "physicalAndScaledSlopeDifference": 0,
+        "originalScaledEquationResidualMaximum": 6.827085554869661e-19,
+        "workingScaledEquationResidualMaximum": 3.2187251995663413e-19,
+        "workingScaledEquationRelativeResidual": 1.3563081493086848e-15,
+        "originalUnscaledDampedEquationResidualMaximum": 4.866385820422865e-18,
+        "factorNumericStorageBytes": 307200,
+        "diagonalDampingInScaledCoordinates": 0.0037037037037037034,
+        "hiddenDiagonalShift": 0,
+        "actualTrialEvaluated": false,
+        "finiteSpaceLowerBoundClaimed": false,
+        "fullDenseFactorAllocated": false
+      },
+      "actualValueEvaluations": 3,
+      "normalMs": 3469,
+      "elapsedMs": 5930,
+      "backend": "R195 v2 explicit width4; original actual-value Armijo policy"
+    },
+    {
+      "localIteration": 4,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "baselineSquaredNorm": 0.00002267278554729538,
+      "previousSavedValueSquaredNorm": 0.00002267278554729538,
+      "savedValueVersusFreshNormalDifference": 0,
+      "lambda": 0.037037037037037035,
+      "nextLambda": 0.037037037037037035,
+      "alpha": 0.25,
+      "squaredNorm": 0.000022646987457751383,
+      "predictedReduction": 1.3384936485517095e-8,
+      "actualReduction": 1.2899044771998364e-8,
+      "rho": 0.9636986164226868,
+      "evaluation": {
+        "squaredNorm": 0.000022646987457751383,
+        "norm": 0.004758885106592865,
+        "maxRelativeMetric": 0.01084031929881514,
+        "minImmersion": 0.9921803631414083,
+        "worst": {
+          "s": 0.2502425154004689,
+          "u": 0.4908738521234052,
+          "rE": 0.0030596171327883503,
+          "rF": 0.009183969503908044
+        },
+        "rowCount": 20383,
+        "radialPoints": 184,
+        "quarterNodes": 17,
+        "fullEquivalentAngles": 64,
+        "fixedPhysicalMetric": false,
+        "physicalMetricIsDesignVariable": true,
+        "maxRadiusCoefficient": 0.10899544113334779,
+        "conservativeRadiusLowerBound": 0.6910045588666522,
+        "newNonlinearAcceptedState": false,
+        "metricSquaredNorm": 0.0000226298911749225,
+        "curvaturePenaltySquaredNorm": 1.7096282828884353e-8,
+        "curvature": {
+          "squaredNorm": 1.7096282828884353e-8,
+          "norm": 0.00013075275457474826,
+          "maxCurvature": 9.545613746637336,
+          "minImmersion": 0.9912085112835373,
+          "maxRelativeMetric": 0.010840319298815114,
+          "worst": {
+            "s": 0.2191792174807537,
+            "u": 1.5707963267948966,
+            "kind": "physical_knot",
+            "principalCurvatures": [
+              0.7934697899486007,
+              -9.545613746637336
+            ],
+            "relativeMetric": 0.002971815277793999
+          },
+          "activePoints": 137,
+          "thresholdPoints": 0,
+          "rowCount": 14127,
+          "radialPoints": 277,
+          "quarterNodes": 17,
+          "guide": 9.5,
+          "weight": 0.01,
+          "nodeShare": 0.5
+        },
+        "curvatureIsNumericalGuide": true,
+        "continuousCertificate": false,
+        "strongTargetComplete": false
+      },
+      "trace": [
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.0000395844842499709,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.00001979224212498545,
+          "armijoThreshold": 0.00001133636750711994,
+          "slope": -2.526652774943093e-7,
+          "predictedReduction": 2.272548648272686e-7,
+          "actualReduction": -0.000008455849351337759,
+          "rho": -37.208661551711394,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.000025313562914324992,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.000012656781457162496,
+          "armijoThreshold": 0.000011336380140383816,
+          "slope": -2.526652774943093e-7,
+          "predictedReduction": 1.1998003558039445e-7,
+          "actualReduction": -0.000001320388683514806,
+          "rho": -11.005069944574734,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 0,
+          "lambda": 0.0037037037037037034,
+          "alpha": 0.25,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.000023089167314090065,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.000011544583657045032,
+          "armijoThreshold": 0.000011336386457015753,
+          "slope": -2.526652774943093e-7,
+          "predictedReduction": 6.157816858188728e-8,
+          "actualReduction": -2.0819088339734235e-7,
+          "rho": -3.3809203519992312,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 1,
+          "lambda": 0.037037037037037035,
+          "alpha": 1,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.000023001611111679444,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.000011500805555839722,
+          "armijoThreshold": 0.000011336387029551133,
+          "slope": -5.7440965570628266e-8,
+          "predictedReduction": 4.183608705638873e-8,
+          "actualReduction": -1.6441278219203217e-7,
+          "rho": -3.9299273369048247,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 1,
+          "lambda": 0.037037037037037035,
+          "alpha": 0.5,
+          "valid": true,
+          "accepted": false,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.00002267393457174284,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.00001133696728587142,
+          "armijoThreshold": 0.000011336389901599411,
+          "slope": -5.7440965570628266e-8,
+          "predictedReduction": 2.481926315675425e-8,
+          "actualReduction": -5.745122237305381e-10,
+          "rho": -0.023147835618729552,
+          "error": null,
+          "actualValueEvaluated": true
+        },
+        {
+          "kind": "actual_trial",
+          "attempt": 1,
+          "lambda": 0.037037037037037035,
+          "alpha": 0.25,
+          "valid": true,
+          "accepted": true,
+          "baselineSquaredNorm": 0.00002267278554729538,
+          "squaredNorm": 0.000022646987457751383,
+          "baselineCost": 0.00001133639277364769,
+          "actualCost": 0.000011323493728875692,
+          "armijoThreshold": 0.00001133639133762355,
+          "slope": -5.7440965570628266e-8,
+          "predictedReduction": 1.3384936485517095e-8,
+          "actualReduction": 1.2899044771998364e-8,
+          "rho": 0.9636986164226868,
+          "error": null,
+          "actualValueEvaluated": true
+        }
+      ],
+      "solveInfo": {
+        "dimension": 481,
+        "radialBlocks": 30,
+        "blockSize": 16,
+        "halfBandwidthBlocks": 4,
+        "scalarStorageStride": 80,
+        "oneGlobalBorderOriginalIndex": 450,
+        "offBandNonzeroCount": 0,
+        "offBandMaximum": 0,
+        "offBandTolerance": 0,
+        "storedLowerNonzeros": 26065,
+        "zeroDiagonalColumns": [],
+        "zeroDiagonalScale": 1,
+        "exactPositiveDiagonalScale": "1/sqrt(Hjj)",
+        "suppliedDiagonalDifference": 0,
+        "suppliedDiagonalRelativeDifference": 0,
+        "suppliedDiagonalUsedInsteadOfHjj": false,
+        "symmetryAdjustment": 0,
+        "scaledSymmetryAdjustment": 0,
+        "scalingOrderSymmetryAdjustment": 2.220446049250313e-16,
+        "scaledGradientInfinity": 0.00006911298534332786,
+        "preparedNumericStorageBytes": 952360,
+        "fullScaledMatrixAllocated": false,
+        "inputArraysModified": false,
+        "continuousCertificate": false,
+        "linearSolver": "R195 band Cholesky with two field RHS and scalar Schur border",
+        "fieldMinimumPivot": 0.05648329805361674,
+        "fieldMaximumPivot": 1.0370370370370368,
+        "borderSchur": 0.22633747606949206,
+        "borderContraction": 0.8106995609675449,
+        "minimumPivot": 0.05648329805361674,
+        "maximumPivot": 1.0370370370370368,
+        "scaledSlope": -5.744096557062827e-8,
+        "physicalAndScaledSlopeDifference": 6.617444900424222e-24,
+        "originalScaledEquationResidualMaximum": 1.0164395367051604e-19,
+        "workingScaledEquationResidualMaximum": 9.486769009248164e-20,
+        "workingScaledEquationRelativeResidual": 2.947836276105339e-16,
+        "originalUnscaledDampedEquationResidualMaximum": 8.179159744808726e-19,
+        "factorNumericStorageBytes": 307200,
+        "diagonalDampingInScaledCoordinates": 0.037037037037037035,
+        "hiddenDiagonalShift": 0,
+        "actualTrialEvaluated": false,
+        "finiteSpaceLowerBoundClaimed": false,
+        "fullDenseFactorAllocated": false
+      },
+      "actualValueEvaluations": 6,
+      "normalMs": 3575,
+      "elapsedMs": 8491,
+      "backend": "R195 v2 explicit width4; original actual-value Armijo policy"
+    }
+  ],
+  "parentLastFiniteEvaluation": {
+    "squaredNorm": 0.000024198980389772035,
+    "norm": 0.004919245916781559,
+    "maxRelativeMetric": 0.011734592775397635,
+    "minImmersion": 0.9921672709373066,
+    "worst": {
+      "s": 0.2466332804087825,
+      "u": 0.39269908169872414,
+      "rE": 0.005638680779474825,
+      "rF": 0.008457721020867006
+    },
+    "rowCount": 19720,
+    "radialPoints": 178,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.10849531403436531,
+    "conservativeRadiusLowerBound": 0.6915046859656347,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.00002411474866786091,
+    "curvaturePenaltySquaredNorm": 8.423172191112388e-8,
+    "curvature": {
+      "squaredNorm": 8.423172191112388e-8,
+      "norm": 0.0002902270178862125,
+      "maxCurvature": 9.595760629338553,
+      "minImmersion": 0.9912837510814739,
+      "maxRelativeMetric": 0.011734592775397597,
+      "worst": {
+        "s": 0.20611069331622553,
+        "u": 1.2762720155208536,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.7241497230912364,
+          -9.595760629338553
+        ],
+        "relativeMetric": 0.002503981320701701
+      },
+      "activePoints": 78,
+      "thresholdPoints": 0,
+      "rowCount": 13668,
+      "radialPoints": 268,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "injection": {
+    "oldCount": 27,
+    "newCount": 30,
+    "insertedKnots": [
+      "7/60",
+      "9/60",
+      "11/60"
+    ],
+    "oldKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "30"
+      ],
+      [
+        "1",
+        "15"
+      ],
+      [
+        "1",
+        "10"
+      ],
+      [
+        "2",
+        "15"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "7",
+        "30"
+      ],
+      [
+        "4",
+        "15"
+      ],
+      [
+        "3",
+        "10"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "11",
+        "30"
+      ],
+      [
+        "2",
+        "5"
+      ],
+      [
+        "13",
+        "30"
+      ],
+      [
+        "7",
+        "15"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "8",
+        "15"
+      ],
+      [
+        "17",
+        "30"
+      ],
+      [
+        "3",
+        "5"
+      ],
+      [
+        "19",
+        "30"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "11",
+        "15"
+      ],
+      [
+        "23",
+        "30"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "13",
+        "15"
+      ],
+      [
+        "9",
+        "10"
+      ],
+      [
+        "14",
+        "15"
+      ],
+      [
+        "29",
+        "30"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "newKnots": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "30"
+      ],
+      [
+        "1",
+        "15"
+      ],
+      [
+        "1",
+        "10"
+      ],
+      [
+        "7",
+        "60"
+      ],
+      [
+        "2",
+        "15"
+      ],
+      [
+        "3",
+        "20"
+      ],
+      [
+        "1",
+        "6"
+      ],
+      [
+        "11",
+        "60"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "7",
+        "30"
+      ],
+      [
+        "4",
+        "15"
+      ],
+      [
+        "3",
+        "10"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "11",
+        "30"
+      ],
+      [
+        "2",
+        "5"
+      ],
+      [
+        "13",
+        "30"
+      ],
+      [
+        "7",
+        "15"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "8",
+        "15"
+      ],
+      [
+        "17",
+        "30"
+      ],
+      [
+        "3",
+        "5"
+      ],
+      [
+        "19",
+        "30"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "7",
+        "10"
+      ],
+      [
+        "11",
+        "15"
+      ],
+      [
+        "23",
+        "30"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "13",
+        "15"
+      ],
+      [
+        "9",
+        "10"
+      ],
+      [
+        "14",
+        "15"
+      ],
+      [
+        "29",
+        "30"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "coefficientRounding": {
+      "coordinate": "normalized q; numerical basis evaluation excluded",
+      "value_per_channel": [
+        [
+          "1",
+          "1152921504606846976"
+        ],
+        [
+          "1",
+          "9223372036854775808"
+        ],
+        [
+          "7",
+          "590295810358705651712"
+        ],
+        [
+          "1",
+          "9223372036854775808"
+        ],
+        [
+          "1",
+          "13835058055282163712"
+        ],
+        [
+          "7",
+          "13835058055282163712"
+        ],
+        [
+          "1",
+          "2305843009213693952"
+        ],
+        [
+          "1",
+          "1729382256910270464"
+        ],
+        [
+          "1",
+          "18446744073709551616"
+        ],
+        [
+          "1",
+          "36893488147419103232"
+        ],
+        [
+          "1",
+          "9223372036854775808"
+        ],
+        [
+          "3",
+          "36893488147419103232"
+        ],
+        [
+          "1",
+          "1152921504606846976"
+        ],
+        [
+          "1",
+          "6917529027641081856"
+        ],
+        [
+          "1",
+          "2305843009213693952"
+        ],
+        [
+          "1",
+          "576460752303423488"
+        ]
+      ],
+      "first_per_channel": [
+        [
+          "45",
+          "1152921504606846976"
+        ],
+        [
+          "165",
+          "36893488147419103232"
+        ],
+        [
+          "795",
+          "590295810358705651712"
+        ],
+        [
+          "45",
+          "9223372036854775808"
+        ],
+        [
+          "165",
+          "36893488147419103232"
+        ],
+        [
+          "225",
+          "4611686018427387904"
+        ],
+        [
+          "255",
+          "9223372036854775808"
+        ],
+        [
+          "15",
+          "576460752303423488"
+        ],
+        [
+          "15",
+          "4611686018427387904"
+        ],
+        [
+          "1155",
+          "590295810358705651712"
+        ],
+        [
+          "165",
+          "18446744073709551616"
+        ],
+        [
+          "255",
+          "36893488147419103232"
+        ],
+        [
+          "45",
+          "1152921504606846976"
+        ],
+        [
+          "435",
+          "36893488147419103232"
+        ],
+        [
+          "1425",
+          "36893488147419103232"
+        ],
+        [
+          "105",
+          "576460752303423488"
+        ]
+      ],
+      "second_per_channel": [
+        [
+          "225",
+          "72057594037927936"
+        ],
+        [
+          "1125",
+          "4611686018427387904"
+        ],
+        [
+          "8775",
+          "73786976294838206464"
+        ],
+        [
+          "1125",
+          "2305843009213693952"
+        ],
+        [
+          "4725",
+          "9223372036854775808"
+        ],
+        [
+          "2025",
+          "576460752303423488"
+        ],
+        [
+          "6525",
+          "2305843009213693952"
+        ],
+        [
+          "12825",
+          "4611686018427387904"
+        ],
+        [
+          "2925",
+          "9223372036854775808"
+        ],
+        [
+          "24525",
+          "147573952589676412928"
+        ],
+        [
+          "2925",
+          "4611686018427387904"
+        ],
+        [
+          "3375",
+          "4611686018427387904"
+        ],
+        [
+          "1575",
+          "576460752303423488"
+        ],
+        [
+          "12825",
+          "9223372036854775808"
+        ],
+        [
+          "32175",
+          "9223372036854775808"
+        ],
+        [
+          "2475",
+          "144115188075855872"
+        ]
+      ],
+      "reason": "each finite lower-degree nonnegative B-spline family has total mass <=1"
+    },
+    "cutHeightCopiedIdentically": true,
+    "exactRealFieldPreservedBeforeRounding": true,
+    "binary64FieldBitwiseEqual": false,
+    "newQuadratureBaselineRequired": true
+  },
+  "completePhysicalMetricFixedDuringDesign": false,
+  "continuousCertificate": false,
+  "strongTargetComplete": false,
+  "execution": {
+    "runtime": "pure JavaScript/V8",
+    "OS_subprocess_started": false,
+    "OS_exit_code": null,
+    "completed": true
+  },
+  "newQuadratureBaseline": {
+    "squaredNorm": 0.00002419897992376904,
+    "norm": 0.004919245869416271,
+    "maxRelativeMetric": 0.011734682336314299,
+    "minImmersion": 0.9921672709373063,
+    "worst": {
+      "s": 0.24663625040934126,
+      "u": 0.39269908169872414,
+      "rE": 0.0056389131079874755,
+      "rF": 0.008457654254572896
+    },
+    "rowCount": 20383,
+    "radialPoints": 184,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.10849531403436531,
+    "conservativeRadiusLowerBound": 0.6915046859656347,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.00002411474820185807,
+    "curvaturePenaltySquaredNorm": 8.423172191096726e-8,
+    "curvature": {
+      "squaredNorm": 8.423172191096726e-8,
+      "norm": 0.0002902270178859426,
+      "maxCurvature": 9.595760629338546,
+      "minImmersion": 0.991283751081475,
+      "maxRelativeMetric": 0.011734682336314204,
+      "worst": {
+        "s": 0.20611069331622553,
+        "u": 1.2762720155208536,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.7241497230912364,
+          -9.595760629338546
+        ],
+        "relativeMetric": 0.0025039813207011355
+      },
+      "activePoints": 78,
+      "thresholdPoints": 0,
+      "rowCount": 14127,
+      "radialPoints": 277,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "lastEvaluation": {
+    "squaredNorm": 0.000022646987457751383,
+    "norm": 0.004758885106592865,
+    "maxRelativeMetric": 0.01084031929881514,
+    "minImmersion": 0.9921803631414083,
+    "worst": {
+      "s": 0.2502425154004689,
+      "u": 0.4908738521234052,
+      "rE": 0.0030596171327883503,
+      "rF": 0.009183969503908044
+    },
+    "rowCount": 20383,
+    "radialPoints": 184,
+    "quarterNodes": 17,
+    "fullEquivalentAngles": 64,
+    "fixedPhysicalMetric": false,
+    "physicalMetricIsDesignVariable": true,
+    "maxRadiusCoefficient": 0.10899544113334779,
+    "conservativeRadiusLowerBound": 0.6910045588666522,
+    "newNonlinearAcceptedState": false,
+    "metricSquaredNorm": 0.0000226298911749225,
+    "curvaturePenaltySquaredNorm": 1.7096282828884353e-8,
+    "curvature": {
+      "squaredNorm": 1.7096282828884353e-8,
+      "norm": 0.00013075275457474826,
+      "maxCurvature": 9.545613746637336,
+      "minImmersion": 0.9912085112835373,
+      "maxRelativeMetric": 0.010840319298815114,
+      "worst": {
+        "s": 0.2191792174807537,
+        "u": 1.5707963267948966,
+        "kind": "physical_knot",
+        "principalCurvatures": [
+          0.7934697899486007,
+          -9.545613746637336
+        ],
+        "relativeMetric": 0.002971815277793999
+      },
+      "activePoints": 137,
+      "thresholdPoints": 0,
+      "rowCount": 14127,
+      "radialPoints": 277,
+      "quarterNodes": 17,
+      "guide": 9.5,
+      "weight": 0.01,
+      "nodeShare": 0.5
+    },
+    "curvatureIsNumericalGuide": true,
+    "continuousCertificate": false,
+    "strongTargetComplete": false
+  },
+  "baselineMilliseconds": 731,
+  "providerDefinition": {
+    "schema": "fd2d-R191-complete-true-curvature-hinge-finite-provider-v1",
+    "metricProvider": {
+      "schema": "fd2d-R190-C2-direct-position-designed-radius-finite-provider-v1",
+      "implementation": "R196 explicit shared nonuniform cubic basis; frozen R190 formulas",
+      "radialBasisDefinition": {
+        "schema": "fd2d-R196-shared-simple-cubic-radial-basis-v1",
+        "degree": 3,
+        "knots": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "30"
+          ],
+          [
+            "1",
+            "15"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "7",
+            "60"
+          ],
+          [
+            "2",
+            "15"
+          ],
+          [
+            "3",
+            "20"
+          ],
+          [
+            "1",
+            "6"
+          ],
+          [
+            "11",
+            "60"
+          ],
+          [
+            "1",
+            "5"
+          ],
+          [
+            "7",
+            "30"
+          ],
+          [
+            "4",
+            "15"
+          ],
+          [
+            "3",
+            "10"
+          ],
+          [
+            "1",
+            "3"
+          ],
+          [
+            "11",
+            "30"
+          ],
+          [
+            "2",
+            "5"
+          ],
+          [
+            "13",
+            "30"
+          ],
+          [
+            "7",
+            "15"
+          ],
+          [
+            "1",
+            "2"
+          ],
+          [
+            "8",
+            "15"
+          ],
+          [
+            "17",
+            "30"
+          ],
+          [
+            "3",
+            "5"
+          ],
+          [
+            "19",
+            "30"
+          ],
+          [
+            "2",
+            "3"
+          ],
+          [
+            "7",
+            "10"
+          ],
+          [
+            "11",
+            "15"
+          ],
+          [
+            "23",
+            "30"
+          ],
+          [
+            "4",
+            "5"
+          ],
+          [
+            "5",
+            "6"
+          ],
+          [
+            "13",
+            "15"
+          ],
+          [
+            "9",
+            "10"
+          ],
+          [
+            "14",
+            "15"
+          ],
+          [
+            "29",
+            "30"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "count": 30,
+        "coordinate": "q=(s-c)/(S-c)",
+        "physicalInterval": {
+          "c": 0.1015625,
+          "S": 0.8856739498716915
+        },
+        "endpointExtension": "zero C2",
+        "evaluation": "binary64; exact rational definition retained",
+        "quadratureCutMergeTolerance": 2e-14,
+        "knotsThemselvesMerged": false
+      },
+      "radialBlockLayout": {
+        "J": 30,
+        "K": 7,
+        "width": 16,
+        "channelOrder": [
+          "theta[0:K]",
+          "phi[0:K]",
+          "height",
+          "radius"
+        ],
+        "globalIndices": [
+          450
+        ]
+      },
+      "radialBasisCount": 30,
+      "angularModes": 7,
+      "fullEquivalentAngles": 64,
+      "dimension": 481,
+      "angularPrimitive": "complete quarter-cell Gauss8 with actual first moment; no Fourier projection",
+      "angularMetric": "exactly a^2 in mathematical complete definition",
+      "radialMetric": "R181 B32 plus complete C2 radius B-spline design; changing rho changes g",
+      "radiusCoefficientBound": 0.4,
+      "oldDimension": 451,
+      "boundary": "complete central ellipse cylinder and zero-tail round flat cut two jets",
+      "stateLayout": {
+        "theta": [
+          0,
+          210
+        ],
+        "phi": [
+          210,
+          420
+        ],
+        "height": [
+          420,
+          450
+        ],
+        "cutHeight": 450,
+        "radius": [
+          451,
+          481
+        ]
+      },
+      "centralGap": 0.050000000000000024,
+      "centralA": 1.0289271932119122,
+      "centralB": 0.9789271932119121,
+      "radiusGrid": "R196 explicit simple nonuniform cubic B-splines, at most four active radial blocks, C2 zero endpoint extension",
+      "residual": "rE=|Xs|^2-1 and rF=Xs dot T, weighted squared rE^2+2*rF^2",
+      "radialQuadrature": "Gauss2 on union of original phase/Hermite breaks and spline knots",
+      "derivative": "complete state and primitive first-moment derivatives, fixed physical s and u",
+      "continuousMetricOrGeometryCertified": false,
+      "strongTargetComplete": false
+    },
+    "implementation": "R196 explicit shared nonuniform cubic basis; frozen R191 geometry and parameter jets",
+    "radialBasisDefinition": {
+      "schema": "fd2d-R196-shared-simple-cubic-radial-basis-v1",
+      "degree": 3,
+      "knots": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "30"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "10"
+        ],
+        [
+          "7",
+          "60"
+        ],
+        [
+          "2",
+          "15"
+        ],
+        [
+          "3",
+          "20"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "11",
+          "60"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "7",
+          "30"
+        ],
+        [
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "10"
+        ],
+        [
+          "1",
+          "3"
+        ],
+        [
+          "11",
+          "30"
+        ],
+        [
+          "2",
+          "5"
+        ],
+        [
+          "13",
+          "30"
+        ],
+        [
+          "7",
+          "15"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "8",
+          "15"
+        ],
+        [
+          "17",
+          "30"
+        ],
+        [
+          "3",
+          "5"
+        ],
+        [
+          "19",
+          "30"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "7",
+          "10"
+        ],
+        [
+          "11",
+          "15"
+        ],
+        [
+          "23",
+          "30"
+        ],
+        [
+          "4",
+          "5"
+        ],
+        [
+          "5",
+          "6"
+        ],
+        [
+          "13",
+          "15"
+        ],
+        [
+          "9",
+          "10"
+        ],
+        [
+          "14",
+          "15"
+        ],
+        [
+          "29",
+          "30"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "count": 30,
+      "coordinate": "q=(s-c)/(S-c)",
+      "physicalInterval": {
+        "c": 0.1015625,
+        "S": 0.8856739498716915
+      },
+      "endpointExtension": "zero C2",
+      "evaluation": "binary64; exact rational definition retained",
+      "quadratureCutMergeTolerance": 2e-14,
+      "knotsThemselvesMerged": false
+    },
+    "radialBlockLayout": {
+      "J": 30,
+      "K": 7,
+      "width": 16,
+      "channelOrder": [
+        "theta[0:K]",
+        "phi[0:K]",
+        "height",
+        "radius"
+      ],
+      "globalIndices": [
+        450
+      ]
+    },
+    "dimension": 481,
+    "guide": 9.5,
+    "weight": 0.01,
+    "nodeShare": 0.5,
+    "stateLayout": {
+      "theta": [
+        0,
+        210
+      ],
+      "phi": [
+        210,
+        420
+      ],
+      "height": [
+        420,
+        450
+      ],
+      "cutHeight": 450,
+      "radius": [
+        451,
+        481
+      ]
+    },
+    "physicalMetricChangesWithRadius": true,
+    "residual": "sqrt(weight*radialWeight*angularWeight)*(Q11,sqrt(2)Q12,Q22), Q=S-clip(S,[-guide,guide]); S is actual orthonormal II",
+    "radialSampling": "physical profile and B3 knots plus actual cell G2; shares declared and fixed",
+    "curvatureRadialPoints": 277,
+    "quarterNodes": 17,
+    "derivatives": "All actual theta/phi/height/cut-height/radius columns via complete T/Ts/Tss/Tu and quarter primitives, actual Gram and normal; no DFT",
+    "angularThirdTensorsAreParameterDerivativesNotRadialC3Requirement": true,
+    "thresholdConvention": "inactive slope zero at exact guide; generalized derivative, not claimed smooth there",
+    "completeSquaredPenaltyEqualsSumPrincipalCurvatureHingesSquared": true,
+    "continuousMetricOrReachCertificate": false,
+    "strongTargetComplete": false
+  },
+  "backendDefinition": {
+    "schema": "R195-band-border-LM-backend-v2",
+    "densePolicySHA256": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4",
+    "originalKernelAncestorSHA256": "0ae8ae6d6cd58b8bbc6435189a9850861dc5948c4ba322028dc6fc3886d98013",
+    "actualKernelSourceSHA256": "3484c99bfe0a5602c16eb5ccd70288326be04eeadc2804df4c7fd16639ece02c",
+    "kernelImplementationDefinition": null,
+    "explicitHalfBandwidthBlocks": 4,
+    "actualValuePolicyChanged": false,
+    "domainChanged": false,
+    "normalRowsChanged": false
+  },
+  "status": "actual_Armijo_accepted"
+}

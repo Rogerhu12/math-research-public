@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-actual-process-receipt-v1",
+  "session_id": 53999,
+  "initial_chunk": "4d7ee1",
+  "final_chunk": "69b826",
+  "actual_exit_code": 0,
+  "terminated_by_owner": false,
+  "natural_completion": true,
+  "reported_seconds": 11.306426572999044,
+  "reported_peak_rss_kib": 93568,
+  "completed_report": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-physical-point-refinement-recovery-check.py",
+    "bytes": 11619,
+    "sha256": "3896343ee011c5c618a24ef69d9e1d2f93efdd9d22a5bc2fca4a17d94cf253c5"
+  },
+  "report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-02-report.json",
+    "bytes": 61271,
+    "sha256": "cded95026983c1e2eba9a31d9fbcca067ab298b4c30806bffa0b6341c78ec1b2"
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-01-field.npz",
+    "bytes": 119880,
+    "sha256": "2e45aeedbee3c9bdb068c1101195a2ff09f57712c4d6e28ebb2a7ea6bded1772"
+  },
+  "scope": "Read the single already injected23b3 entity, restore saved mesh without reinjection, verify frozen definitions and48 common angular points; no whole F/J or BVP."
+}

@@ -1,0 +1,275 @@
+{
+  "schema": "fd2d-flatcut-milder-redeep-physical-design-v1",
+  "actual_execution": true,
+  "source_sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147",
+  "generator_sha256": "63ed8761394db0e46ca8042eb226ad4228fc8ba10ac0a8f0e010ddae75f94fa3",
+  "published_reader_sha256": "135303639c5eb1970b6b76aad47a53b7627bcc7176243713c56c63ae8260547a",
+  "scalar_reader_sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30",
+  "positive_clock_sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47",
+  "old_candidate_unchanged": true,
+  "old_central_a0": 1.0040828380214688,
+  "original_shape_lower_K_attempts": [
+    {
+      "parameters": {
+        "redeepen_curvature": 4.5,
+        "vmid": 0.4,
+        "ramp": 0.04,
+        "brake_length": 0.04,
+        "cylinder": 0.4,
+        "coast": 0.02
+      },
+      "budget": {
+        "physical_T_lower_open": 0.0,
+        "physical_T_upper_open": -0.4818032917907107,
+        "deep_coast_at_T": -0.050464472165041935,
+        "current_radial_room": -0.050096737104091904,
+        "T": 0.02,
+        "vm": -0.09983341664682815,
+        "vd": -0.9927129910375885,
+        "positive_at_T": false,
+        "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+      },
+      "candidate_emitted": false,
+      "scope": "Original preceding shape with only redeepen K and cylinder changed."
+    },
+    {
+      "parameters": {
+        "redeepen_curvature": 3.4,
+        "vmid": 0.4,
+        "ramp": 0.04,
+        "brake_length": 0.04,
+        "cylinder": 0.4,
+        "coast": 0.02
+      },
+      "budget": {
+        "physical_T_lower_open": 0.0,
+        "physical_T_upper_open": -1.1579751435349959,
+        "deep_coast_at_T": -0.11846453543558345,
+        "current_radial_room": -0.11760128330413644,
+        "T": 0.02,
+        "vm": -0.09983341664682815,
+        "vd": -0.9927129910375885,
+        "positive_at_T": false,
+        "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+      },
+      "candidate_emitted": false,
+      "scope": "Original preceding shape with only redeepen K and cylinder changed."
+    }
+  ],
+  "candidates": [
+    {
+      "feasible": true,
+      "parameters": {
+        "redeepen_curvature": 4.5,
+        "vmid": 0.12,
+        "ramp": 0.02,
+        "brake_length": 0.026,
+        "cylinder": 0.4,
+        "coast": 0.04
+      },
+      "candidate_file": "2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json",
+      "candidate_sha256": "4ac49af76c08e9a89a0b8ddb3949082fad9f29ab4e2cbc9cc31daa1417d445e1",
+      "meridian_file": "2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-meridian.npz",
+      "meridian_sha256": "7fd46d5964ceb905dc3025ea885d7cb88a2dd776ae034de0f19c6118a38ea80c",
+      "budget": {
+        "physical_T_lower_open": 0.0,
+        "physical_T_upper_open": 0.07275795779517608,
+        "deep_coast_at_T": 0.003294344768921428,
+        "current_radial_room": 0.0032703388490650243,
+        "T": 0.04,
+        "vm": -0.09983341664682815,
+        "vd": -0.9927129910375885,
+        "positive_at_T": true,
+        "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+      },
+      "positive_clock_physical_Tmax": 0.07275795779517606,
+      "budget_vs_model_Tmax_error": 1.3877787807814457e-17,
+      "clock_trials": [
+        {
+          "T": 0.0072757957795176065,
+          "minimum_s_x": 0.033085752640778884,
+          "actual_end": 1.1609514851047198,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.03637897889758803,
+          "minimum_s_x": 0.8271438160194721,
+          "actual_end": 1.187127870414958,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.06548216201565846,
+          "minimum_s_x": 0.0493318455455104,
+          "actual_end": 1.2133042557251963,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        }
+      ],
+      "positive_coasts": [
+        {
+          "label": "central_cylinder",
+          "L": 0.4
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L": 0.04
+        },
+        {
+          "label": "final_deep_coast",
+          "L": 0.003294344768921428
+        }
+      ],
+      "background_cut_Z": 1.04594805880923,
+      "background_Z_is_not_actual_nonlinear_Z": true,
+      "central_a0": 1.0040828380214688,
+      "physical_meridian_length": 1.1903847390265012,
+      "scalar_metric": {
+        "end": 1.1903847390265012,
+        "minimum_radius_sample": 0.8,
+        "maximum_abs_a_prime_sample": 1.0,
+        "maximum_abs_a_second_sample": 6.7999995835689235,
+        "background_height": 1.04594805880923,
+        "maximum_jet_join_roundoff": 8.881784197001252e-16,
+        "cut_jet": [
+          0.8,
+          -1.0,
+          0.0
+        ]
+      },
+      "sampled_background_max_meridian_curvature": 6.969018853551727,
+      "sampled_redeep_max_abs_meridian_curvature": 4.5,
+      "sampled_redeep_max_Gauss_curvature": 4.288571825303039,
+      "sampled_background_min_outward_support": 0.8208033341459156,
+      "complete_rotational_cut_jet_errors": {
+        "X": 0.0,
+        "X_s": 0.0,
+        "X_u": 0.0,
+        "X_ss": 0.0,
+        "X_su": 0.0,
+        "X_uu": 0.0
+      },
+      "flat_endpoint_II_max": 0.0,
+      "nonlinear_prefix_solved": false,
+      "continuous_geometry_certified": false
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "redeepen_curvature": 4.5,
+        "vmid": 0.12,
+        "ramp": 0.02,
+        "brake_length": 0.026,
+        "cylinder": 0.47,
+        "coast": 0.04
+      },
+      "candidate_file": "2026-11-12-fd2d-geometry-redeep45-recovery01-cyl047-candidate.json",
+      "candidate_sha256": "3a0f7be0167257e3c88d9b033a390e2f831b46333919103ee7747e7229d94ac0",
+      "meridian_file": "2026-11-12-fd2d-geometry-redeep45-recovery01-cyl047-meridian.npz",
+      "meridian_sha256": "cdda506430d528cbee179924061821e71e4f9a1fc1cfb9f7f3999e6987f12cf2",
+      "budget": {
+        "physical_T_lower_open": 0.0,
+        "physical_T_upper_open": 0.07275795779517608,
+        "deep_coast_at_T": 0.003294344768921428,
+        "current_radial_room": 0.0032703388490650243,
+        "T": 0.04,
+        "vm": -0.09983341664682815,
+        "vd": -0.9927129910375885,
+        "positive_at_T": true,
+        "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+      },
+      "positive_clock_physical_Tmax": 0.07275795779517606,
+      "budget_vs_model_Tmax_error": 1.3877787807814457e-17,
+      "clock_trials": [
+        {
+          "T": 0.0072757957795176065,
+          "minimum_s_x": 0.033085752640778884,
+          "actual_end": 1.2309514851047199,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.03637897889758803,
+          "minimum_s_x": 0.8271438160194721,
+          "actual_end": 1.257127870414958,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.06548216201565846,
+          "minimum_s_x": 0.0493318455455104,
+          "actual_end": 1.2833042557251964,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        }
+      ],
+      "positive_coasts": [
+        {
+          "label": "central_cylinder",
+          "L": 0.47
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L": 0.04
+        },
+        {
+          "label": "final_deep_coast",
+          "L": 0.003294344768921428
+        }
+      ],
+      "background_cut_Z": 1.11594805880923,
+      "background_Z_is_not_actual_nonlinear_Z": true,
+      "central_a0": 1.0040828380214688,
+      "physical_meridian_length": 1.2603847390265013,
+      "scalar_metric": {
+        "end": 1.2603847390265013,
+        "minimum_radius_sample": 0.8,
+        "maximum_abs_a_prime_sample": 1.0,
+        "maximum_abs_a_second_sample": 6.7999995835689235,
+        "background_height": 1.11594805880923,
+        "maximum_jet_join_roundoff": 8.881784197001252e-16,
+        "cut_jet": [
+          0.8,
+          -1.0,
+          0.0
+        ]
+      },
+      "sampled_background_max_meridian_curvature": 6.969018853551727,
+      "sampled_redeep_max_abs_meridian_curvature": 4.5,
+      "sampled_redeep_max_Gauss_curvature": 4.288571825303039,
+      "sampled_background_min_outward_support": 0.8026909740347596,
+      "complete_rotational_cut_jet_errors": {
+        "X": 0.0,
+        "X_s": 0.0,
+        "X_u": 0.0,
+        "X_ss": 0.0,
+        "X_su": 0.0,
+        "X_uu": 0.0
+      },
+      "flat_endpoint_II_max": 0.0,
+      "nonlinear_prefix_solved": false,
+      "continuous_geometry_certified": false
+    }
+  ],
+  "seconds": 6.579940585000031,
+  "scope": "Outer physical design; all entries are complete scalar metrics and rotational reference checks, never a nonround same-g solution."
+}

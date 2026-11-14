@@ -1,0 +1,84 @@
+{
+  "status": "FROZEN_FULL_NONPARTICIPANT_REVIEW_SOURCE_LEDGER",
+  "reviewer": "/root/tail_theory",
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar.md",
+    "bytes": 13405,
+    "sha256": "85582515d89de88f21dd1371b7fc54d2e7db7845da99c966ba84754481e0e142"
+  },
+  "exact_checker": {
+    "path": "scripts/db6f-tail-review-ck-local-isometric-collar.py",
+    "bytes": 9714,
+    "sha256": "a6cc998ca71dd51283914d0e9ca164897366a9b5605652d4be7d0d6693b9781d"
+  },
+  "exact_report": {
+    "path": "notes/2026-11-09-db6f-tail-review-ck-local-isometric-collar-check.json",
+    "bytes": 5289,
+    "sha256": "d39ffb492df931010320af1e130e48e6bee4d6dd5ea222acc8c7ab5fbb3b07f1"
+  },
+  "author_and_repository_inputs": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar.md",
+      "bytes": 19568,
+      "sha256": "e5f3d23d677a78398ad7c92f4db751d21536fd9ed26fb8c449663cdc41c1dd87"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar-sources.json",
+      "bytes": 4062,
+      "sha256": "575fcc2c123ad7e39f06085939c59ff1a1fe67843e68c235f5f50cedb27e1e66"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-ck-local-isometric-collar-publication.json",
+      "bytes": 666,
+      "sha256": "603b100deacbc2674ba658dc7483f901bd1e86cc7a15a155fc5fd2580e775b6d"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R28-finite-positive-c3-core-and-conditional-held-transfer.md",
+      "bytes": 10414,
+      "sha256": "663d67283aaffe49169af3eb5b74c67e0c70e6c4bbd6d7894b7fa863654bca00"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    }
+  ],
+  "primary_external_theorem": {
+    "url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/notes2.pdf",
+    "location": "Theorem 18, printed pages 9-10; first-order normal form and analytic uniqueness",
+    "retrieval_refs": [
+      "turn68view0",
+      "turn69view0"
+    ],
+    "PDF_saved_or_rendered": false
+  },
+  "external_theorem_use": "First-order analytic normal form, zero analytic initial data and uniqueness; no use of a higher tangential-order position PDE.",
+  "scope": "Full mathematical review plus independent exact component checks; no effective epsilon and no closed-surface construction.",
+  "read_current_M15_candidate": false,
+  "new_solver_root_flow_RK_BVP_DN_calls": 0
+}

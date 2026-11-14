@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-closed-single-natural-child-v1",
+  "closed": true,
+  "parent_chain_still_active": false,
+  "actual_observed_session": 77825,
+  "actual_child_exit": 0,
+  "observed_tool_chunk": "0cc47b",
+  "accepted_steps": 1,
+  "finite_success": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+      "bytes": 126906,
+      "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-report.json",
+      "bytes": 360088,
+      "sha256": "cfd37b1a9597e80c5b6ddb2110ef546ff8a682d62e368b05d7392506c259dfe2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-progress.jsonl",
+      "bytes": 91494,
+      "sha256": "47dab9a84248f6d52a68cad1bc36450aacc3ae620677a2ae2dd29b68bdffafae"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-process-receipt.json",
+      "bytes": 4035,
+      "sha256": "87f348651b70a63fa03b2e3e82e0680f2f7b7ee5a75621a769f266002e2712ad"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-physical-metric.json",
+      "bytes": 2680,
+      "sha256": "b068398f605e329db8d2edeb4bb5d1f4daa8422d6a0dfd417cb3a803568b9b52"
+    }
+  ],
+  "inherited_static_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-static-manifest.json",
+    "bytes": 913,
+    "sha256": "6ef509a42c8bd6ebec422aa6aca550a2995a1ed497bd2641e3298e596c6780be"
+  },
+  "summary": {
+    "residual_maximum": 0.6477790815996668,
+    "full_gauss_node_maximum": 1.7152215043339183,
+    "formal_curvature_node_maximum": 7.2138910505657545,
+    "gap": 0.8999995792468163,
+    "all_G2_G": 2.109997713562084,
+    "high_C": 0.7063658659287105
+  }
+}

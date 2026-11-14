@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-observed-tool-exit-v1",
+  "observed_utc": "2026-11-12T17:04:22.556938+00:00",
+  "session": 77825,
+  "chunk": "0cc47b",
+  "actual_tool_returncode": 130,
+  "owned_child_b4_returncode": 0,
+  "all_four_child_receipts_returncode_0": true,
+  "owner_requested_stop_between_naturally_closed_batches": true,
+  "reason": "Continue in separately named prepared-cache implementation",
+  "last_accepted": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "watcher_session": 84368,
+  "watcher_chunk": "c34707",
+  "watcher_actual_returncode": 0,
+  "no_external_termination_claim": true
+}

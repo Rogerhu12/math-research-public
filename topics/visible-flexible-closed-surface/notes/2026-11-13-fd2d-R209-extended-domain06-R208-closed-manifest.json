@@ -1,0 +1,196 @@
+{
+  "schema": "fd2d-R209-extended-phase-domain-closed-manifest-v1",
+  "date_UTC": "2026-11-13",
+  "closed": true,
+  "theorem": {
+    "sufficient_budget": [
+      "17",
+      "16"
+    ],
+    "phase_sector": [
+      "117",
+      "80"
+    ],
+    "cosine_polynomial_lower": [
+      "2256070203359",
+      "20971520000000"
+    ],
+    "Re_half_integral_strict_lower": [
+      "3",
+      "10"
+    ],
+    "modulus_strict_lower": [
+      "3",
+      "10"
+    ],
+    "original_R209_unit_budget_and_fifth_state_unchanged": true
+  },
+  "actual_inputs": [
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-06-checkpoint.json",
+      "bytes": 59478,
+      "sha256": "f5363c0bb343c86ae0d2d11f0bb3ee9b3043bf14283c9d6c143de78d71c4aa8a",
+      "git_blob": "4b84a47febec4bc5d1b025c9f80b05f8b22a2e87",
+      "ref": "f0d16da0390bcefe7aadf7d29a0efec743d2caa0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R208-amplitude06-refined-initial-01.json",
+      "bytes": 51190,
+      "sha256": "15531ffdf1dfd5d4b376b4536b90894867ee28973d9d4d93ea18be2b078969b0",
+      "git_blob": "75e808019d5a8dffaa82b9b1c20550357f7efa1e",
+      "ref": "f0d16da0390bcefe7aadf7d29a0efec743d2caa0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R208-amplitude06-prolongation-01.json",
+      "bytes": 29475,
+      "sha256": "e8069c7da69cbdea261f8e44c189069035fb31e85dc5e667d1dd81e4129bce7f",
+      "git_blob": "ac98c15999765f5a437aa8f4da78d061d30b863b",
+      "ref": "f0d16da0390bcefe7aadf7d29a0efec743d2caa0"
+    }
+  ],
+  "actual_state_results": [
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-06-checkpoint.json",
+      "sha256": "f5363c0bb343c86ae0d2d11f0bb3ee9b3043bf14283c9d6c143de78d71c4aa8a",
+      "dimension": 932,
+      "J": 30,
+      "K": 7,
+      "original_unit_budget_passed": false,
+      "extended_budget_passed": true,
+      "amplitude_plus_M": {
+        "exact": [
+          "36903859872412997079",
+          "36893488147419103232"
+        ],
+        "display": 1.0002811261692701
+      },
+      "slack": {
+        "exact": [
+          "2295471284219800105",
+          "36893488147419103232"
+        ],
+        "display": 0.06221887383072995
+      },
+      "maximum_row": 16
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R208-amplitude06-refined-initial-01.json",
+      "sha256": "15531ffdf1dfd5d4b376b4536b90894867ee28973d9d4d93ea18be2b078969b0",
+      "dimension": 1025,
+      "J": 33,
+      "K": 7,
+      "original_unit_budget_passed": false,
+      "extended_budget_passed": true,
+      "amplitude_plus_M": {
+        "exact": [
+          "36903859872412997079",
+          "36893488147419103232"
+        ],
+        "display": 1.0002811261692701
+      },
+      "slack": {
+        "exact": [
+          "2295471284219800105",
+          "36893488147419103232"
+        ],
+        "display": 0.06221887383072995
+      },
+      "maximum_row": 19
+    }
+  ],
+  "already_paid_seed": {
+    "checkpoint_sha256": "a1bf7fecdc3e0739b03329efc8886eecbaff2dca3c9843d909c2ac1f94b4275f",
+    "row_checks_sha256": "09f4f1dd5676616a58705c4502b239e9e37e3f3bf29a2c70fdb581733f371c26",
+    "recomputed_seed_cells": 0
+  },
+  "actual_execution": {
+    "coefficient_check": {
+      "runtime": "functions.exec V8",
+      "seconds": 0.01,
+      "completed_UTC": "2026-11-13T02:53:56.329Z",
+      "os_process_created": false,
+      "seed_cells_recomputed": 0,
+      "phase_quadratures_evaluated": 0,
+      "candidate_F_J_normal_or_LM_evaluated": false
+    },
+    "roundoff_consumer": {
+      "runtime": "functions.exec V8",
+      "seconds": 0.001,
+      "completed_UTC": "2026-11-13T02:54:36.027Z",
+      "OS_process_created": false,
+      "recomputed_Boehm_or_chart": false,
+      "source": {
+        "path": "scripts/fd2d_R209_extended_phase_sector_certificate.cjs",
+        "bytes": 5676,
+        "sha256": "55ea4cc819fe4c5a30106d74b96657da73610228aab682239ee17a0e9cb4384a"
+      },
+      "state_coefficient_function_unchanged": true,
+      "preparation_error_preserved": "Previous tool call's source-string alignment assertion used an absent spelling and stopped before evaluating the roundoff consumer; no mathematical evaluation or source mutation happened in that failed call."
+    },
+    "no_OS_process": true,
+    "no_F_J_normal_LM_BVP_body_or_phase_quadrature": true
+  },
+  "roundoff": {
+    "schema": "fd2d-R209-R208-phase-roundoff-consumption-v1",
+    "phase_channel_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "phase_function_error_upper": {
+      "exact": [
+        "1705",
+        "36893488147419103232"
+      ],
+      "display": 4.6214117602194626e-17
+    },
+    "unchanged_amplitude": true,
+    "exact_real_same_field": true,
+    "bound_kind": "Sum of the supplied global per-channel value bounds; this is a function error, not a sampled twojet difference.",
+    "basis_numerical_evaluation_error_included": false,
+    "formula": "|psi_stored_refined-psi_exact_prolongation| <= sum of actual psi sine/cosine value_per_channel bounds.",
+    "additional_application": "A parent sector gamma stays below a declared larger sector when the exact error is at most the available parent sector slack.",
+    "interval_or_error_source_recomputed": false
+  },
+  "regularity": "beta and normalized phase are C2; first derivatives C1, second continuous. The original machine string is explicitly clarified in the supplement; no C4 claim.",
+  "publication": {
+    "mode": "README section 8 small UTF8 fallback",
+    "root_metadata_modified": false,
+    "API_CAS409_in_this_group": false
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_R209_extended_phase_sector_certificate.cjs",
+      "bytes": 5676,
+      "sha256": "55ea4cc819fe4c5a30106d74b96657da73610228aab682239ee17a0e9cb4384a",
+      "publication_commit": "e50495ff9ddc30acb27191e2a7d716307886e4c0"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R209-extended-phase-domain-and-R208-roundoff.md",
+      "bytes": 7920,
+      "sha256": "b7677921ab5375a6b74fcd0b7b7405dcc450d5c6fabc58fe83776183f403c67e",
+      "publication_commit": "4eb59d980efd3e6fdebefb2549145051f0549c51"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R209-extended-domain06-and-R208-report.json",
+      "bytes": 31816,
+      "sha256": "fdb9b03fc341e9d79fa54bffb1ff9804a3965a895cc2ed9ef61610e022240f0d",
+      "publication_commit": "75fa9d74be8af0c5a07c96284ebbae57f5c4f6f0"
+    }
+  ],
+  "file_count": 3,
+  "total_artifact_bytes": 45412,
+  "self_not_in_files": true,
+  "scope": "Sufficient continuous phase nonzero condition on the two bound saved states, not a new solver gate; no automatic transfer to later accepted states or claim of metric, curvature, reach or completed strong target."
+}

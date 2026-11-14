@@ -1,0 +1,207 @@
+{
+  "kind": "new_actual_recomputation_from_committed_inputs",
+  "body_completed": true,
+  "inputs": {
+    "candidate": {
+      "path": "notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+      "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+    },
+    "actual_prefix": {
+      "path": "notes/2026-11-12-fd2d-flat-prefix-balanced-ivp-01-trajectory.npz.gz",
+      "sha256": "db7614138c5f55b77e23f04849af02c75db36a277064b64f684a8da574c68c51"
+    }
+  },
+  "recipe": {
+    "handoff": 0.5,
+    "relaxation_end": 0.9,
+    "tail_start": 0.95,
+    "derivative_carry": 0.0,
+    "tail_radius": "current a(s)",
+    "true_prefix_retained_only_through": 0.5,
+    "physical_T": 0.02,
+    "source_scope": "actual shared-node cubic initializer, then explicit algebraic trial",
+    "exact_central_and_cut_retained": true
+  },
+  "finite_space": {
+    "modes": 7,
+    "angular_work": 128,
+    "radial_nodes": 113,
+    "vector_size": 2615,
+    "blend": [
+      0.58,
+      1.263603200988874
+    ],
+    "component_order": "n,m,l",
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "bridge_diagnostics": {
+    "residual_maximum": 12.253062797987699,
+    "residual_rms": 1.9481302728219494,
+    "full_gauss_node_maximum": 1.9090501731015719,
+    "formal_curvature_node_maximum": 7.277106244210154,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.02,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "minimum_n": 0.0,
+    "maximum_n": 4.507558224716842,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "exact_cut_lifting_function": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "codazzi_maximum": 12.253062797987699,
+    "projected_gauss_maximum": 0.29531992914152544,
+    "exact_endpoint_correction_maximum": 0.0
+  },
+  "linear_projection": {
+    "initial_codazzi_maximum": 12.253062797987699,
+    "full_linear_residual": 1.438849039914203e-13,
+    "correction_norm": 16.67225035195746
+  },
+  "projector": {
+    "physical_T": 0.02,
+    "l_weight": 0.5,
+    "preserve_before": null,
+    "preservation_multiplier": 10.0,
+    "number_of_free_coefficients": 2553,
+    "number_of_equations": 1680,
+    "C_nnz": 42950,
+    "normal_nnz": 74702,
+    "lu_nnz": 86955,
+    "norm": "radial L2 of real Fourier coefficients; constants sqrt(2); selected l weight",
+    "state_endpoints_fixed": true,
+    "all_parameters_fixed": true,
+    "gauss_not_solved": true
+  },
+  "outputs": [
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount025.npz",
+      "bytes": 429846,
+      "sha256": "0a590694739c9edefdecaf870f01ae59d95d1c0961dcfda394ae6593cab1d0fd",
+      "amount": 0.25,
+      "diagnostics": {
+        "residual_maximum": 9.189797098490777,
+        "residual_rms": 1.4638052772048689,
+        "full_gauss_node_maximum": 2.3382541228866325,
+        "formal_curvature_node_maximum": 7.001638467996436,
+        "A": 1.405,
+        "B": 0.495,
+        "gap": 0.91,
+        "T": 0.02,
+        "tail_coefficients": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_n": 0.0,
+        "maximum_n": 4.430495279524574,
+        "minimum_central_curvature": 0.32088353624816085,
+        "maximum_lifting_alpha": 1.0,
+        "exact_cut_lifting_function": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "actual_field_cut_exact": true,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "codazzi_maximum": 9.189797098490777,
+        "projected_gauss_maximum": 0.8307526013716509,
+        "exact_endpoint_correction_maximum": 0.0
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-local-recovery01-amount075.npz",
+      "bytes": 430344,
+      "sha256": "22446031b14e15c21f449f20bce3085c26c243a5dd091a11a4347a3ab8bd3975",
+      "amount": 0.75,
+      "diagnostics": {
+        "residual_maximum": 3.0632656994969247,
+        "residual_rms": 0.5666296197521085,
+        "full_gauss_node_maximum": 6.869729892456082,
+        "formal_curvature_node_maximum": 7.123311908510938,
+        "A": 1.405,
+        "B": 0.495,
+        "gap": 0.91,
+        "T": 0.02,
+        "tail_coefficients": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_n": -0.049907557741054334,
+        "maximum_n": 4.365231261812798,
+        "minimum_central_curvature": 0.32088353624816085,
+        "maximum_lifting_alpha": 1.0,
+        "exact_cut_lifting_function": true,
+        "cut_n_mean_omitted": false,
+        "cut_correction_maximum": 0.0,
+        "actual_field_cut_exact": true,
+        "nonlinear_finite_solution": false,
+        "continuous_certificate": false,
+        "codazzi_maximum": 3.0632656994969247,
+        "projected_gauss_maximum": 2.4714042270072354,
+        "exact_endpoint_correction_maximum": 0.0
+      }
+    }
+  ],
+  "source_sha256": {
+    "fd2d-flat-prefix-bridge-api-recovery.py": "e840356f323b42e0d1fe385bd73d9b87681bc3b9fdcdc65c821cf61852001338",
+    "fd2d_gc_raw_bridge_api_snapshot_01.py": "8118a3d1f03116a2537e6c95dbf067a71b0998c50343c5e80e4e48f7dc89b937",
+    "fd2d_flat_gc_codazzi_api_projector.py": "181ddb6d344363b5fee135828bcc39dfacaa5b618a601e9b43cc4ca63bcee62b",
+    "fd2d_flat_prefix_initializer.py": "6300cd5e5134480da94914362c0704627c11d89405123703710fe9e596ffefa9",
+    "fd2d_gc_design_profile_positive.py": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47",
+    "fd2d_gc_design_profile.py": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21",
+    "fd2d_gc_blended.py": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e",
+    "fd2d_gc_intrinsic.py": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32",
+    "fd2d_balanced_curvature_core.py": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4",
+    "fd2d_positive_flat_developable_family.py": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89",
+    "fd2d_flat_developable_family.py": "c2d2afb3ed558f50aef20629b323c7bc1475561e5d2c2d8e105260d2b0ebb2eb"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "runtime_seconds": 27.909393548965454,
+  "peak_rss_kib": 119632,
+  "historical_reference_only": {
+    "source": "in-session observed exits, not reverified old binary artifacts",
+    "previous_25_percent": {
+      "residual": 9.189797098490777,
+      "full_gauss": 2.3382541228866325,
+      "formal_curvature": 7.001638467996436
+    },
+    "previous_75_percent": {
+      "residual": 3.0632656994969247,
+      "full_gauss": 6.869729892456082,
+      "formal_curvature": 7.123311908510938
+    }
+  },
+  "nonlinear_solution": false,
+  "continuous_metric_or_geometry_certificate": false
+}

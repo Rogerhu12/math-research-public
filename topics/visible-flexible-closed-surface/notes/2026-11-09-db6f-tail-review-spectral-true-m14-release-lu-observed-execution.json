@@ -1,0 +1,115 @@
+{
+  "schema": "db6f-independent-readonly-tool-observations-v1",
+  "observer": "/root/tail_review_continued_2",
+  "scope": "Actual completed pure preparation, ordinary missing-observation gate and standard-library metadata/AST check. No solver/installation/selection performed.",
+  "executions": [
+    {
+      "tool_receipt": "659f7d",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14-release-lu.py",
+        "--out-prefix",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14q512-release-lu-pure-01"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "observed_status": "PREPARED_ONLY_NO_CANDIDATE_INITIALIZATION_NO_SOLVER",
+      "bindings": 117,
+      "callbacks": 24,
+      "created_metadata": [
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14q512-release-lu-pure-01-launch.json",
+          "bytes": 71629,
+          "sha256": "ad8472a422abd09268afe7dad2b6045f1ebf8b4e640f8f04e0dae099cea54a7d"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14q512-release-lu-pure-01-tail-config.json",
+          "bytes": 2730,
+          "sha256": "2f6b09eb4d49c5ac1d49d04f8bb635ab2d86b2324c50c28db0ac016d2972a075"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14q512-release-lu-pure-01-preparation.json",
+          "bytes": 3286,
+          "sha256": "8abbb83b01a20e6f9de4547ad1cad14f05a98c783f990b33b21eb0eb68510f63"
+        }
+      ]
+    },
+    {
+      "tool_receipt": "c8f67d",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14-release-lu.py",
+        "--launch",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14q512-release-lu-pure-01-launch.json",
+        "--mode",
+        "final",
+        "--check-current-gate"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "actual_stdout": {
+        "status": "NOT_READY_OR_REJECTED",
+        "ready": false,
+        "mode": "final",
+        "solver_calls": 0,
+        "active_trace_read": false,
+        "reason": "ValueError('NOT_READY: root actual tool-exit observation is required')"
+      },
+      "auditor_output_file_argument": null,
+      "extra_files_in_pure_stem": 0
+    },
+    {
+      "tool_receipt": "f9b97a",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+      "command": [
+        "python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-true-m14-release-lu.py"
+      ],
+      "environment": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "observed_status": "PASS_INDEPENDENT_SOURCE_CLOSURE_AND_PURE_PREPARATION",
+      "check_groups": 5,
+      "source_count": 131,
+      "report": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-release-lu-check.json",
+        "bytes": 2149,
+        "sha256": "fe47ee7a6d9fe2f24a1cc7144111a1f0ddbdbc71e267b4af0fce1ce5fbde371e"
+      }
+    }
+  ],
+  "pre_freeze_checker_failures": [
+    {
+      "tool_receipt": "dbfdaa",
+      "actual_exit_code": 1,
+      "cause": "Own AST qualname walker initially did not skip <locals> marker."
+    },
+    {
+      "tool_receipt": "c1d72c",
+      "actual_exit_code": 1,
+      "cause": "Own comparison initially retained path sorting after replacing the different config binding with the same marker."
+    }
+  ],
+  "difference_isolation": {
+    "tool_receipt": "8d9eb9",
+    "actual_exit_code": 0,
+    "result": "Only binding list order differed after verified marker normalization; sorted collections exactly equal."
+  },
+  "author_source_modified": false,
+  "actual_install_calls": 0,
+  "actual_select_newton_calls": 0,
+  "actual_BVP_DN_RK_flow_calls": 0,
+  "G5": false,
+  "README_completed": false
+}

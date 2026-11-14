@@ -1,0 +1,14 @@
+{
+  "schema": "fd2d-actual-consumer-failure-record-v1",
+  "session": 41851,
+  "exit_code": 1,
+  "source_file": "scripts/fd2d-metric-gc-primitive-continuous-preclamp.py",
+  "source_sha256": "c28ba65343ebcfe052a20b35a3fe8720577e65efdae0ac993369f0257b30bd23",
+  "requested_native_cell": 189,
+  "stage": "vector norm enclosure during auxiliary primitive bounds",
+  "error": "ArithmeticError: Square-root interval has negative input",
+  "cause": "Outward addition of nonnegative squared intervals can produce a negative minimum-subnormal lower endpoint when the exact lower sum is zero.",
+  "repair": "Intersect the sum-of-squares interval with [0,infinity) before its square root, using the exact algebraic nonnegativity.",
+  "report_or_complete_rows_produced": false,
+  "mathematical_candidate_rejected": false
+}

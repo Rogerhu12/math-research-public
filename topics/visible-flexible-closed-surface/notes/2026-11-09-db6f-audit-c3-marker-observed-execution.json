@@ -1,0 +1,23 @@
+{
+  "status": "AUTHOR_EXACT_FINITE_CALCULATION_COMPLETED",
+  "command": [
+    "python3",
+    "-B",
+    "topics/visible-flexible-closed-surface/scripts/db6f-audit-c3-marker-bounds.py",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-c3-marker-bounds.json"
+  ],
+  "working_directory": "math-research repository root",
+  "actual_execution": {
+    "receipt": "bf859a",
+    "exit_code": 0
+  },
+  "script_sha256": "b0064c43b8a20d45aff26b89f52484793a098c99a4560d8d542fd8545321e24e",
+  "output_sha256": "332d42d9f43ab9a94e5505f5ec495ae8cdba6399f506ca384bb755b2ba63321e",
+  "strict_decimal_display_comparison_checked": true,
+  "all_note_bytes_have_no_control_characters_except_lf": true,
+  "independent_review_status": "PENDING",
+  "current_M15_candidate_data_read": false,
+  "solver_optimizer_backend_calls": 0,
+  "scope": "Exact finite polynomial identity and conditional compact-set/convex-hull geometric budgets only."
+}

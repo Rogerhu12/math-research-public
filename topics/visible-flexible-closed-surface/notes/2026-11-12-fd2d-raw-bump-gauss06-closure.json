@@ -1,0 +1,24 @@
+{
+  "schema": "fd2d-true-last-accepted-chain-closure-v1",
+  "session": 29024,
+  "completion_chunk": "d641ce",
+  "actual_chain_exit": 137,
+  "actual_child_codes": [
+    0,
+    0,
+    0,
+    0,
+    137
+  ],
+  "actual_accepted_count": 5,
+  "true_latest_accepted": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-gauss06-b0005-accepted-0001.npz",
+    "bytes": 48695,
+    "sha256": "8ea89ac9d76b55f57ab7d3a97b017a636e05f806909c109d02fd35587f3103ac"
+  },
+  "old_chain_latest_field_points_to_previous_successful_child": true,
+  "new_chain_source_corrects_latest_update_order": true,
+  "finite_success": false,
+  "signal_cause": "Unknown; recorded failing child maxRSS584212KiB was below a prior successful child maxRSS618112KiB",
+  "scope": "No unobserved convergence or process completion inferred; actual accepted state retained after failed finalization"
+}

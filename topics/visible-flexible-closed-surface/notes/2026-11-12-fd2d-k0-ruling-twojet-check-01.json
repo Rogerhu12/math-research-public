@@ -1,0 +1,85 @@
+{
+  "schema": "fd2d-k0-ruling-actual-twojet-check-v1",
+  "source_sha256": "e895912d46a1429b8756167c0f678e5cc170df0cde93f90388d6b131570cc482",
+  "provider_sha256": "2c28fe83b39992dc86208f08cfcb5e5469c391f3c725479e2ba0198bf8140d5c",
+  "rows": [
+    {
+      "case": "exact generalized cylinder, nonzero ruling ratio",
+      "sigma": 0.0,
+      "errors": {
+        "X": 0.0,
+        "X_s": 2.220446049250313e-16,
+        "X_u": 0.0,
+        "X_ss": 6.453171330633722e-16,
+        "X_su": 4.440892098500626e-16,
+        "X_uu": 1.6653345369377348e-16
+      },
+      "metric": 5.937567171095967e-16,
+      "curvature_error": 2.220446049250313e-16,
+      "D_error": 0.0
+    },
+    {
+      "case": "exact round cone, zero ruling ratio",
+      "sigma": 0.0,
+      "position_error": 0.0,
+      "metric": 4.44447334989912e-16,
+      "curvature_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "exact generalized cylinder, nonzero ruling ratio",
+      "sigma": 0.1,
+      "errors": {
+        "X": 4.440892098500626e-16,
+        "X_s": 4.440892098500626e-16,
+        "X_u": 4.440892098500626e-16,
+        "X_ss": 8.326672684688674e-16,
+        "X_su": 8.881784197001252e-16,
+        "X_uu": 8.881784197001252e-16
+      },
+      "metric": 8.989052837692605e-16,
+      "curvature_error": 3.3306690738754696e-16,
+      "D_error": 0.0
+    },
+    {
+      "case": "exact round cone, zero ruling ratio",
+      "sigma": 0.1,
+      "position_error": 2.220446049250313e-16,
+      "metric": 5.561962270768506e-16,
+      "curvature_error": 4.440892098500626e-16
+    },
+    {
+      "case": "exact generalized cylinder, nonzero ruling ratio",
+      "sigma": 0.4,
+      "errors": {
+        "X": 4.440892098500626e-16,
+        "X_s": 4.440892098500626e-16,
+        "X_u": 6.661338147750939e-16,
+        "X_ss": 5.724587470723463e-16,
+        "X_su": 1.3322676295501878e-15,
+        "X_uu": 1.3322676295501878e-15
+      },
+      "metric": 9.601003403962305e-16,
+      "curvature_error": 4.440892098500626e-16,
+      "D_error": 2.220446049250313e-16
+    },
+    {
+      "case": "exact round cone, zero ruling ratio",
+      "sigma": 0.4,
+      "position_error": 2.220446049250313e-16,
+      "metric": 4.452516624840788e-16,
+      "curvature_error": 3.3306690738754696e-16
+    }
+  ],
+  "material_inverse_errors": {
+    "X": 2.440270208126094e-13,
+    "X_s": 1.5409895581797173e-13,
+    "X_u": 2.5013324744804777e-13,
+    "X_ss": 4.781591789182471e-14,
+    "X_su": 1.6669998714746725e-13,
+    "X_uu": 2.8121949213755215e-13
+  },
+  "worst_error": 2.8121949213755215e-13,
+  "passed": true,
+  "seconds": 0.031055237000146008,
+  "scope": "Finite implementation checks of exact known surfaces, not the research core certificate."
+}

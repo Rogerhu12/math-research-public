@@ -1,0 +1,25 @@
+{
+  "scope": "Independent rational audit of the common-cut v2 coefficient enclosures.\n\nAll integrated tail endpoint coefficients are recomputed over Fraction.\nAn independent rational interval for sqrt(E) and the certified lambda box\nthen checks every Cartesian Fourier two-jet correction enclosure. The\nHermite and angular-cutoff endpoint identities are checked exactly. This\ndoes not certify a whole surface or its isometry and reach.\n",
+  "geometry": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-common-cut-m12s64.json",
+  "geometry_sha256": "1fa6c8de825be71b90308e72be166dcc7ee6ae7983456d244d2c5609e3d19858",
+  "common_cut_script_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+  "audit_script_sha256": "238fb0d49f2ccf720c86ed2276c11525e4bd6c2a448ad4cf49056fe54f9820d6",
+  "tail_manifest_sha256": "b202b47177bab7491b3bd237c599b7feb7d709828275b3579acd3846a90e7540",
+  "bridge_certificate_sha256": "1389cf1a339b0a0d749beb666b6def24a31e766eff0abf63289217728ceacdaa",
+  "exact_tail_spans": 18457,
+  "tail_coefficients": 141,
+  "complete_twojet_coefficients": 582,
+  "tail_mode_congruences_and_coverage": true,
+  "mean_height_fraction_enclosed": true,
+  "rational_twojet_enclosure_pass": true,
+  "failed_enclosures": [],
+  "maximum_interval_width_by_jet_order": [
+    2.220446049250329e-16,
+    1.7763568394002536e-15,
+    1.9984014443252868e-14
+  ],
+  "hermite_basis_exact": true,
+  "angular_cutoff_exact_zero_twojet": true,
+  "interval_alias_note": "V2 uses independent copies for interval endpoints. The mean cut value and all final enclosures are independently checked over Fraction.",
+  "elapsed_seconds": 99.92643746400063
+}

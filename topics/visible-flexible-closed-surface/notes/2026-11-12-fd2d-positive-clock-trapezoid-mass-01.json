@@ -1,0 +1,222 @@
+{
+  "schema": "fd2d-positive-clock-trapezoid-mass-v1",
+  "actual_execution": true,
+  "source_sha256": "f946fd52f5c83c164f0b12f7338138b4b8182d77c203cfb7aa9da77c77214ad9",
+  "candidate": {
+    "file": "2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "saved_state": {
+    "file": "2026-11-12-fd2d-local-recovery01-k15.npz",
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5",
+    "mesh_nodes": 113,
+    "modes": 15
+  },
+  "profile_source_sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47",
+  "profile_base_source_sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21",
+  "physical_Tmax": 0.22510364412376974,
+  "requested_upper_gap": 2.25e-13,
+  "runs": [
+    {
+      "label": "reference_T",
+      "T": 0.02,
+      "actual_distance_from_Tmax": 0.20510364412376975,
+      "coasts": [
+        {
+          "label": "partial_return_matching_coast",
+          "piece_index": 85,
+          "reference_x_interval": [
+            1.047839382509226,
+            1.067839382509226
+          ],
+          "saved_mesh_indices": [
+            102,
+            103
+          ],
+          "saved_node_count": 2,
+          "saved_cell_count": 1,
+          "endpoint_x_errors": [
+            0.0,
+            0.0
+          ],
+          "reference_length": 0.02,
+          "actual_physical_length": 0.02,
+          "actual_ratio": 1.0,
+          "trapezoid_clock_mass": 0.020000000000000018,
+          "absolute_mass_error": 1.734723475976807e-17,
+          "relative_mass_error": 8.673617379884035e-16,
+          "exact_clock_map_mass_from_nodes": 0.020000000000000018,
+          "exact_map_mass_roundoff": 1.734723475976807e-17,
+          "shrinking_coast_trapezoid_limit_on_fixed_mesh": 0.020000000000000018,
+          "nodes": [
+            1.047839382509226,
+            1.067839382509226
+          ],
+          "radial_scale_nodes": [
+            1.0,
+            1.0
+          ],
+          "physical_s_nodes": [
+            1.047839382509226,
+            1.067839382509226
+          ],
+          "trapezoid_cell_masses": [
+            0.020000000000000018
+          ],
+          "exact_map_cell_masses": [
+            0.020000000000000018
+          ],
+          "note": "The exact integral is L(T), not the finite trapezoid value. The shrink-limit formula holds for fixed interior nodes as q tends to zero."
+        },
+        {
+          "label": "final_deep_coast",
+          "piece_index": 87,
+          "reference_x_interval": [
+            1.2836322213839064,
+            1.304258724456249
+          ],
+          "saved_mesh_indices": [
+            109,
+            110
+          ],
+          "saved_node_count": 2,
+          "saved_cell_count": 1,
+          "endpoint_x_errors": [
+            0.0,
+            0.0
+          ],
+          "reference_length": 0.02062650307234244,
+          "actual_physical_length": 0.02062650307234244,
+          "actual_ratio": 1.0,
+          "trapezoid_clock_mass": 0.020626503072342484,
+          "absolute_mass_error": 4.5102810375396984e-17,
+          "relative_mass_error": 2.1866435729415622e-15,
+          "exact_clock_map_mass_from_nodes": 0.020626503072342484,
+          "exact_map_mass_roundoff": 4.5102810375396984e-17,
+          "shrinking_coast_trapezoid_limit_on_fixed_mesh": 0.020626503072342484,
+          "nodes": [
+            1.2836322213839064,
+            1.304258724456249
+          ],
+          "radial_scale_nodes": [
+            1.0,
+            1.0
+          ],
+          "physical_s_nodes": [
+            1.2836322213839064,
+            1.304258724456249
+          ],
+          "trapezoid_cell_masses": [
+            0.020626503072342484
+          ],
+          "exact_map_cell_masses": [
+            0.020626503072342484
+          ],
+          "note": "The exact integral is L(T), not the finite trapezoid value. The shrink-limit formula holds for fixed interior nodes as q tends to zero."
+        }
+      ]
+    },
+    {
+      "label": "near_physical_upper",
+      "T": 0.22510364412354475,
+      "actual_distance_from_Tmax": 2.2498669594028797e-13,
+      "coasts": [
+        {
+          "label": "partial_return_matching_coast",
+          "piece_index": 85,
+          "reference_x_interval": [
+            1.047839382509226,
+            1.067839382509226
+          ],
+          "saved_mesh_indices": [
+            102,
+            103
+          ],
+          "saved_node_count": 2,
+          "saved_cell_count": 1,
+          "endpoint_x_errors": [
+            0.0,
+            0.0
+          ],
+          "reference_length": 0.02,
+          "actual_physical_length": 0.22510364412354475,
+          "actual_ratio": 11.255182206177237,
+          "trapezoid_clock_mass": 0.020000000000000018,
+          "absolute_mass_error": -0.20510364412354473,
+          "relative_mass_error": -0.9111520380850728,
+          "exact_clock_map_mass_from_nodes": 0.22510364412354478,
+          "exact_map_mass_roundoff": 2.7755575615628914e-17,
+          "shrinking_coast_trapezoid_limit_on_fixed_mesh": 0.020000000000000018,
+          "nodes": [
+            1.047839382509226,
+            1.067839382509226
+          ],
+          "radial_scale_nodes": [
+            1.0,
+            1.0
+          ],
+          "physical_s_nodes": [
+            1.047839382509226,
+            1.2729430266327708
+          ],
+          "trapezoid_cell_masses": [
+            0.020000000000000018
+          ],
+          "exact_map_cell_masses": [
+            0.22510364412354478
+          ],
+          "note": "The exact integral is L(T), not the finite trapezoid value. The shrink-limit formula holds for fixed interior nodes as q tends to zero."
+        },
+        {
+          "label": "final_deep_coast",
+          "piece_index": 87,
+          "reference_x_interval": [
+            1.2836322213839064,
+            1.304258724456249
+          ],
+          "saved_mesh_indices": [
+            109,
+            110
+          ],
+          "saved_node_count": 2,
+          "saved_cell_count": 1,
+          "endpoint_x_errors": [
+            0.0,
+            0.0
+          ],
+          "reference_length": 0.02062650307234244,
+          "actual_physical_length": 2.2591126841190896e-14,
+          "actual_ratio": 1.0952475444799352e-12,
+          "trapezoid_clock_mass": 0.020626503072342484,
+          "absolute_mass_error": 0.020626503072319894,
+          "relative_mass_error": 913035600982.5565,
+          "exact_clock_map_mass_from_nodes": 2.2648549702353193e-14,
+          "exact_map_mass_roundoff": 5.742286116229694e-17,
+          "shrinking_coast_trapezoid_limit_on_fixed_mesh": 0.020626503072342484,
+          "nodes": [
+            1.2836322213839064,
+            1.304258724456249
+          ],
+          "radial_scale_nodes": [
+            1.0,
+            1.0
+          ],
+          "physical_s_nodes": [
+            1.4887358655074512,
+            1.4887358655074738
+          ],
+          "trapezoid_cell_masses": [
+            0.020626503072342484
+          ],
+          "exact_map_cell_masses": [
+            2.2648549702353193e-14
+          ],
+          "note": "The exact integral is L(T), not the finite trapezoid value. The shrink-limit formula holds for fixed interior nodes as q tends to zero."
+        }
+      ]
+    }
+  ],
+  "exact_identity": "Integral of s_x over each reference coast equals its current physical length.",
+  "scope": "Only a finite quadrature/coordinate diagnostic on an actual saved mesh. No ODE/BVP solved, no geometry or nonexistence conclusion.",
+  "seconds": 0.3479770330000065
+}

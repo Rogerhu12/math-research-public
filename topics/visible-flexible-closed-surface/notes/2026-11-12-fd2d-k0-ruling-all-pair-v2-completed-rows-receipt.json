@@ -1,0 +1,125 @@
+{
+  "schema": "fd2d-all-pair-v2-observed-completed-rows-owner-stop-receipt-v1",
+  "actual_execution": true,
+  "source_sha256": "94b104d4b9e4fb650f316a78905336ed40e276c9a1a67499d658029155e52be2",
+  "session_id": 38901,
+  "initial_chunk": "5f9398",
+  "final_chunk": "4d2310",
+  "exit_code": 130,
+  "owner_requested_stop": true,
+  "stop_reason": "The same surface now has a certified .003 auxiliary extension, paying d<=.2 and reducing diagonal work; continue at completed row 6 with the separately named v3 consumer.",
+  "whole_run_complete": false,
+  "final_solver_report_written": false,
+  "initial_angle_boxes": 32,
+  "completed_initial_rows": [
+    0,
+    6
+  ],
+  "completed_initial_products": 177,
+  "completed_recursive_calls": 59815,
+  "completed_leaf_methods": {
+    "separation": 850,
+    "short_chord": 8267,
+    "convex_QP": 20879
+  },
+  "completed_unresolved": 0,
+  "completed_row_records": [
+    {
+      "row": 0,
+      "calls": 7076,
+      "leaves": {
+        "separation": 121,
+        "short_chord": 621,
+        "convex_QP": 2812
+      },
+      "unresolved": 0,
+      "seconds": 98.68781244599995,
+      "tool_chunk": "43464d"
+    },
+    {
+      "row": 1,
+      "calls": 12909,
+      "leaves": {
+        "separation": 244,
+        "short_chord": 1159,
+        "convex_QP": 5083
+      },
+      "unresolved": 0,
+      "seconds": 176.5592127689997,
+      "tool_chunk": "43464d"
+    },
+    {
+      "row": 2,
+      "calls": 17929,
+      "leaves": {
+        "separation": 366,
+        "short_chord": 1769,
+        "convex_QP": 6876
+      },
+      "unresolved": 0,
+      "seconds": 222.16803627599984,
+      "tool_chunk": "43464d"
+    },
+    {
+      "row": 3,
+      "calls": 22436,
+      "leaves": {
+        "separation": 499,
+        "short_chord": 2403,
+        "convex_QP": 8377
+      },
+      "unresolved": 0,
+      "seconds": 259.1448101349997,
+      "tool_chunk": "43464d"
+    },
+    {
+      "row": 4,
+      "calls": 28414,
+      "leaves": {
+        "separation": 648,
+        "short_chord": 3220,
+        "convex_QP": 10414
+      },
+      "unresolved": 0,
+      "seconds": 305.7649015139996,
+      "tool_chunk": "0be6c0"
+    },
+    {
+      "row": 5,
+      "calls": 59815,
+      "leaves": {
+        "separation": 850,
+        "short_chord": 8267,
+        "convex_QP": 20879
+      },
+      "unresolved": 0,
+      "seconds": 670.5978329219997,
+      "tool_chunk": "4d2310"
+    }
+  ],
+  "last_partial_progress": {
+    "row": 6,
+    "pair": 6,
+    "calls": 63697,
+    "leaves": {
+      "separation": 850,
+      "short_chord": 9106,
+      "convex_QP": 21977
+    },
+    "unresolved": 0,
+    "seconds": 701.7664730779998
+  },
+  "partial_row6_not_reused": true,
+  "record_origin": "Exact small scalar completion lines observed in the tool stdout, preserved by this receipt writer. The run was deliberately interrupted after row5 completed. No lost leaf hash or uniform numerical minimum is reconstructed.",
+  "leaf_hash_chain_saved": false,
+  "uniform_far_margin_saved": false,
+  "mathematical_use": "For each completed row the original stack was empty and unresolved=0; source acceptance branches prove positivity or the certified R147 short-chord inequality. Reuse only those complete initial products of the unchanged actual surface.",
+  "same_angle_owner_detail": "For identical cached angle boxes v2 checks first normal twice. Complete ordered i=i product gives the second-end statement after swapping points; distinct initial rows check both owners explicitly.",
+  "replay_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls_taylor.py --first-row 0 --last-row 6 --out NEW_OUTPUT.json",
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "moments_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+  "means_sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3",
+  "variation_sha256": "d0346166838ec246cbf48ff91c5445abe1c7024d9d1b3e5cbb69d550a087c7f8",
+  "extension_sha256": "25e6664304ea2c5a528252ba5ad62d0b899fb254f616d1f2353597f3259facc5"
+}

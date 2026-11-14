@@ -1,0 +1,41 @@
+{
+  "status": "PASS_READ_ONLY_R29_ADOPTION_REVIEW",
+  "record_written_utc": "2026-11-09T16:34:38.594351+00:00",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-current-mechanism-interface-v2.md",
+      "bytes": 21315,
+      "sha256": "7497d615d4fb46eeed1b6cc710851d9bca4aa46a040567f1879cf77acd30a356"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-mechanism.md",
+      "bytes": 15740,
+      "sha256": "a32caba0f3acd2ffaed6a4ed139e9371b5c31dfb5c77210c3ff0c99248228794"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-c3-mechanism-adoption-check.json",
+      "bytes": 13883,
+      "sha256": "e6ff71f32017ca82c8c648d63a13a1f3cf2ea24bbe300459f96cb7ebaa670915"
+    }
+  ],
+  "formal_sections_1_9_contain_verbatim_entire_v2_body": true,
+  "extra_section_separator_utf8_bytes": 1,
+  "adopted_v2_body_sha256": "12d0ddc6eca5011146fcbf8aeba6161e5b4a9b9e3b97b6f290c14d437d37871c",
+  "root_47_bindings_independently_rehashed": true,
+  "root_binding_count": 47,
+  "full_header_and_section10_read": true,
+  "header_preserves_conditional_whole_geometry_and_separate_H": true,
+  "section10_joint_one_sided_C5_recursion_matches_prior_review": true,
+  "no_C2_only_quartic_claim": true,
+  "enclosure_lemma_does_not_require_C5_ODE_existence": true,
+  "no_scope_expansion_to_all_same_metric_branches": true,
+  "solver_or_numerical_replay_calls": 0,
+  "active_job_or_source_modified": false,
+  "initial_read_receipt": "e4270d",
+  "scope": "Formal adoption and identity audit only; prior numerical replays remain in inventory21."
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-closed-artifact-manifest-v1",
+  "complete": true,
+  "scope": "explicit lossless compressed normal tile transport; original class and mathematical arrays unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_compressed_normal_tile.py",
+      "bytes": 10561,
+      "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+    },
+    {
+      "path": "scripts/fd2d-compressed-normal-tile-check.py",
+      "bytes": 7097,
+      "sha256": "a0d4e489484cf6984a69e79eb5e49176944554ad4be51ba6fc9990295ed814ca"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-compressed-normal-tile-01-report.json",
+      "bytes": 4671,
+      "sha256": "da8736151c156ab3883c2789e948d9bd192eea88f99316f604c6f19e27745f91"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-compressed-normal-tile-01-exit-receipt.json",
+      "bytes": 706,
+      "sha256": "526b824a9652cc0bf9f4d38126fbd17cfc7409ee97746629c05dc657b7153393"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-compressed-normal-tiles.md",
+      "bytes": 3490,
+      "sha256": "c3f675c8761ee413623eb88bad858fd79bc500c2143215d1eddc798604cc55fe"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 26525,
+  "largest_file_bytes": 10561,
+  "actual_small_transport_exit": 0,
+  "F_J_normal_assembly_QP_BVP_or_body": false
+}

@@ -1,0 +1,842 @@
+{
+  "schema": "fd2d-closed-publication-batch-v1",
+  "utc": "2026-11-12T19:27:43.350322+00:00",
+  "base_commit": "7e26ead9490fdc81c13239ae92b8f9cc67a532b2",
+  "closed_group_manifests": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-R169-gap-row-proof-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail-R170-closed-manifest-publish.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-shortened-cylinder-native-closed-publish-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01-publish.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-closed-manifest.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-recovery-static-and-failures-closed-manifest.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/visible-flex-fd2d-publish-checkpoint.yml",
+      "bytes": 1437,
+      "sha256": "bba1794ddee07cdaf9674014168135019ef521c348ad71300aa8c541d306725c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "bytes": 58491,
+      "sha256": "fd23fab3242cac6f8508717951f7275ce687ec2febc42c813b6ffd2288da5eb9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-R169-gap-row-proof-closed-manifest.json",
+      "bytes": 485,
+      "sha256": "32d48067eb3209fbb0a81b078bc18548e9c8777356982edd646afc1dce6de20b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ci-publication-request.json",
+      "bytes": 19531,
+      "sha256": "a36f6e23bc2273c574036518c8d7fbd10b7166f0fb714ee1023ef8fd5b0983ab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-exit-receipt.json",
+      "bytes": 563,
+      "sha256": "dc2ac24e556b0b743fcfe664f56e4e0007d6bf524e4aab4f378d97f26332492d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-native-definition.json",
+      "bytes": 67796,
+      "sha256": "4c6200d4136a632b8c6c062ec8b85a67188ff1638c674efea52f0ceaaa040693"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-report.json",
+      "bytes": 38122,
+      "sha256": "25fb092fe3a798223ced1a6ae9b30a98bc5197d72f1436f257bb3180e63fdfeb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-dyadic-bernstein-tail-01-tail-definition.json",
+      "bytes": 3809,
+      "sha256": "4c4a99b00d80148a6d4d585e9bfc93bf95b969ab64923866869f68b2ed56c1e2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget-actual-exits.json",
+      "bytes": 1190,
+      "sha256": "ab766a594a23a534a001c75513ac8293b6be5c029609f4ae2ddd8bf1bb1c3fe3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget-check-01.json",
+      "bytes": 8034,
+      "sha256": "f6ed6a1990a86660bdec71f462616a1cd583f74e09c3cba4ed7d041ad78cf137"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget-check-03.json",
+      "bytes": 7976,
+      "sha256": "44a8952c2ce4eb1e9fdc0c1acb6d7751f706737685e9a4ccd528fbbe09ddd96a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget-closed-manifest.json",
+      "bytes": 1658,
+      "sha256": "461a3d9cbc2526dcf3ae583105adeaae5f0b60239ccb763370814d0ea67f1579"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-gap-row-retarget.md",
+      "bytes": 4258,
+      "sha256": "4218f69a8772ab723699033265256d06998fa4b9b90337797d83dc7b4c9c31dd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail-R170-closed-manifest-publish.json",
+      "bytes": 2332,
+      "sha256": "803bfc728ac0adbac3470ab27e7d623742a4719bc26d1d2624e6bc74725ac438"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail-R170-closed-manifest.json",
+      "bytes": 2308,
+      "sha256": "97fb9c1ca2f032f45c1ea038b458d957e7121d07e69b869f6bdf381a5a40642b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-dyadic-bernstein-tail.md",
+      "bytes": 4176,
+      "sha256": "217fdd150b159a492a1a41abff05303f134a1ecb6b6c7a346f81a2c2057b8d3a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-shortened-cylinder-native-closed-manifest.json",
+      "bytes": 1894,
+      "sha256": "ab04201d95375a0eceb9f3ed6af951617e9a1e3d3275cad05d57b3a27e10200d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-shortened-cylinder-native-closed-publish-manifest.json",
+      "bytes": 1994,
+      "sha256": "4142ef41581843d1f4494de0b63084c2cc68441825c82a58d76ef0f5f0bc4936"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-shortened-cylinder-native.md",
+      "bytes": 8310,
+      "sha256": "9ee6c93f7926bad56d22d31a9da46af4892f9a74e15aa5ba9aa0f4f5a7a5bc82"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-completion-receipt.json",
+      "bytes": 1610,
+      "sha256": "305acb68bb66d6367aadd3bba05d013a7d6c02566a382f1dd4c8576d10f6f8d5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-queries.json.gz",
+      "bytes": 112738,
+      "sha256": "f7090bcd9a6bd321fd5589eea7900098d7f5ad544b91ef4a5b2d1f08afd8e142"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-01-report.json",
+      "bytes": 452505,
+      "sha256": "c11f79bf403aa5a1cd4ed1bb58989c51710f41f3a75481bc09576089ace7e2e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01-publish.json",
+      "bytes": 2141,
+      "sha256": "94a63f0a598218cffa711bde75f2a32ffca928500997012d7b83da81c8f5c5dc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01.json",
+      "bytes": 5246,
+      "sha256": "5e2ac101ddc8780dc666ffed46889d78c931ce84a6f52a86c1aef3a0945ad3ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-r136-arb-profile.md",
+      "bytes": 5334,
+      "sha256": "b64c0251c2b5c2bb421a091f5d2eba9588a21b800a9eeb513b38c569584d0cde"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-publication-plan-eighteenth.json",
+      "bytes": 1059,
+      "sha256": "c774d9bd0b9360fd99b78aa0db612b8145405fe61f37cf38a9d85497482da188"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-adopt-actual-tool-exit.json",
+      "bytes": 341,
+      "sha256": "3e069e8f4bfd8e75bb22d6ec31380cf859d825d8a6bc0a1bd8943c71a907b3a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-adoption-actual-tool-exit.json",
+      "bytes": 343,
+      "sha256": "b7c1e229e5e598b780a68ab6972bdd69725801deca8cb28d1636ce73bcc2d635"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-adoption-process-receipt.json",
+      "bytes": 3413,
+      "sha256": "5dd62847ad6b8718c09b625111ed3373444c25ba5db1a1163c1f04f7e769cbd1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-baseline-adoption-progress.jsonl",
+      "bytes": 302,
+      "sha256": "be6e0e321abff36a273fafdf6ac63d36ae0840318d6730b7f8e5ca340ec399ee"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-baseline-adoption-report.json",
+      "bytes": 130315,
+      "sha256": "3b7bb04c5ca133ba8d4e442830a639c4cb5b606ba94bc4742d33ab485eea0d01"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-actual-tool-exit.json",
+      "bytes": 341,
+      "sha256": "3d56d91b034257680c92ea45340bae2e1933a016053fc8d94bfae2cbdf86a743"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-process-receipt.json",
+      "bytes": 3551,
+      "sha256": "307fed08346ec8166fed590e55b62aad0b42aa5da328a2abb9ec24cddcf7e1be"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-progress.jsonl",
+      "bytes": 40994,
+      "sha256": "076cc3c3c3221e1ce1014b126a0f30a8b176cdcc71a7e42806fb52d322a7fbbf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-report.json",
+      "bytes": 109330,
+      "sha256": "552137866f739f76efbf81b1e23c4fc7a75023115649c651002458e2bfbe0e0a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-closed-manifest.json",
+      "bytes": 16400,
+      "sha256": "092c274f97beee46ef9bdfc75dd217829876c3475dc28b143f9feb5e63c56e14"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-complete-cache-inventory.json",
+      "bytes": 1052,
+      "sha256": "3e5f9d63c9d25cd6985f84b49eb963376ee3234bb354c8be61517784fae70e0f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-actual-tool-exit.json",
+      "bytes": 340,
+      "sha256": "30d3ce310a79c0270ff70600acf1d9897ab5a41b167c76028a9a1766d2dfe6b5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-process-receipt.json",
+      "bytes": 3316,
+      "sha256": "87e8c7a878bceb1a79bc0a855ecac65915a6ef3a75c327dc1d7b56f03d15c830"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-progress.jsonl",
+      "bytes": 5628,
+      "sha256": "6cfa8068053f4a88f2d51dad09e01e22580945cd0d53be9df2f4894dd5c43322"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-report.json",
+      "bytes": 109466,
+      "sha256": "24d2dc473807e3709be028cb0214021f2452e73455963b4581fc3133e7f8daba"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-normal-tiles-closed-inventory.json",
+      "bytes": 21080,
+      "sha256": "bad25ffcce5b961e5106a3d68b0ea787e605dbcfe94268513415c966ab7eb280"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-actual-tool-exit.json",
+      "bytes": 338,
+      "sha256": "eca9ac4cb063e18b727e33bf740d6931a7a86f9d38f3762d0634dfa7505f6979"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-process-receipt.json",
+      "bytes": 3155,
+      "sha256": "8f66322aa5aa94ff24ba7f67e6d231915f217dac2eea68ce345c7bb0896fa701"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-progress.jsonl",
+      "bytes": 234,
+      "sha256": "b8818045ba54b34c82ebce5a6d25fa402043a815a63e6b8f3d106f2f9dc35ea5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-report.json",
+      "bytes": 91880,
+      "sha256": "1ce578bba155041fc3b37e1ae857cf6a624bd0ece9859d9422ca551403208275"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-actual-tool-exit.json",
+      "bytes": 341,
+      "sha256": "1a54275a290cb6fa380f28bafa76224cdb38cd665f7de345c909a58abe523a38"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-process-receipt.json",
+      "bytes": 3446,
+      "sha256": "6354d2737c2ad83f48c1a642af601654d10032694a100ac546aca4a795fa5477"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-progress.jsonl",
+      "bytes": 5526,
+      "sha256": "0b7bb57bac4faf606828ddb8bafff1e814ef5adc153cb8c17bbff5049ead68ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-report.json",
+      "bytes": 124840,
+      "sha256": "5e591c1a0338d5e56900e453d627173fc15af269102bb7cba87870dfed36d8de"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-request.json",
+      "bytes": 2544,
+      "sha256": "40a3fed1a98f93b80f15a1ba6e1014ba4da400a726001e4dd888de8ded6eec29"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-static-and-adoption-manifest.json",
+      "bytes": 2284,
+      "sha256": "d8b2b8ceb6fc80e2008203942a6d1d986051da430c4069e0bc9fb1a30d423d10"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0000-0003-a01-process-receipt.json",
+      "bytes": 3406,
+      "sha256": "d4c3c369b48c5aa1e6db9eec8b647c356f4cd7d924554473ab7f2eefd19610f5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0004-0007-a01-process-receipt.json",
+      "bytes": 3572,
+      "sha256": "049094c55b9c62d8ba00c94c10aeadd0f2d99559c0bd24c6c400c0ffcac10a78"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0008-0011-a01-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "5b7e0d3f3bafab0ceed22282faa178867b3a6b45dfd44ac913f4bf15fc5af5b5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0012-0015-a01-process-receipt.json",
+      "bytes": 3574,
+      "sha256": "177e89ad43767a7b31ed8f0ee78a5124d83407d8f44ae67192ebed70fa54ab37"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0016-0019-a01-process-receipt.json",
+      "bytes": 3562,
+      "sha256": "f42ac9a4d8bfb13d3d97e02bf9b800af281f873d39894fa47de1a2e2efbfc033"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0020-0023-a01-process-receipt.json",
+      "bytes": 3574,
+      "sha256": "bb02d92e315a038a23794dee998e1f11e12c47217940905b23ff3d37eb66f0f6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0024-0027-a01-process-receipt.json",
+      "bytes": 3560,
+      "sha256": "6d7770238ee91ab0870cba40298359e31439879f23d3f09cd2207903441198a8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0028-0031-a01-process-receipt.json",
+      "bytes": 3573,
+      "sha256": "ebf8dcc42903c9792e6957ce5f4dacd415461e34e436780857e392a03663b1b1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0032-0035-a01-process-receipt.json",
+      "bytes": 3561,
+      "sha256": "8def3ffda1da21a9fa6bd6f6bc820791f5581fa5b7e8a95b827966f1035e7301"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0036-0039-a01-process-receipt.json",
+      "bytes": 3561,
+      "sha256": "b07c1e6ffcf0c10169bf63c30d302285b52a85ccd5c31d14f84c8b8698323f1e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0040-0043-a01-process-receipt.json",
+      "bytes": 3579,
+      "sha256": "5753c8801d03916d001f47d346e125f6c09400681d0ec5b9dfa1aaa7a3324d63"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0044-0047-a01-process-receipt.json",
+      "bytes": 3573,
+      "sha256": "13738544a7710e386739512deadd4d19b76ad737183c3a0ef66e7462b5dfea44"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-0048-0050-a01-process-receipt.json",
+      "bytes": 3546,
+      "sha256": "dea00dcd402668e4cabf3a08c1924cd04a937e7506daa7f84e81dd3e08fb06aa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-controller-a01-actual-tool-exit.json",
+      "bytes": 341,
+      "sha256": "5a28c21c483d053de6c2db25a167478e7826d95da72087c02ac368d5ddd3821a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-tiles-controller-a01-report.json",
+      "bytes": 20324,
+      "sha256": "4e13d8e55e809e263599755571824dc88e65fcf2021499205cbe1d6f3c90f4d9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-actual-tool-exit.json",
+      "bytes": 341,
+      "sha256": "181826b821193e3b4fecf88e35631c647477dc6e9a10a1ca1ae5b784f36e6311"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-physical-metric.json",
+      "bytes": 2682,
+      "sha256": "ffd7006fb53538b03d8823e50f2551734ded3d572d89476cd8d76525792b38fe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-process-receipt.json",
+      "bytes": 3434,
+      "sha256": "ba55ce48435ce4fdc0bf8e30d73eff6389278987cf3d2aaa0dabd4ea2596c55f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-progress.jsonl",
+      "bytes": 1108,
+      "sha256": "b798049dd41eea52ba883f16b8398e03df234e65d8817ec3a1fe7610e67618d1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-report.json",
+      "bytes": 238400,
+      "sha256": "bdb55e067bc3eb85a1a0c129a275a818810f422ff89793b1487022bab7af167a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/accepted-result.json",
+      "bytes": 90560,
+      "sha256": "cc80895232b2ca9c4a349bffd12b1d6233a79e767513a21045f67fb8bc5b680e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/baseline-summary.json",
+      "bytes": 74292,
+      "sha256": "df3dd66216c8287db025ec7493e080ca95e1042c675225a0b70adcd0828f61de"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/directions/lambda1e7-block-floor01/direction.npz",
+      "bytes": 353752,
+      "sha256": "a728f9d729c8044466e1d8af883acf6c025ace4c10c3ff5d2b0a87f207a8b24d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/directions/lambda1e7-block-floor01/summary.json",
+      "bytes": 65269,
+      "sha256": "64936f56dc94771ac020d9e96d8e48574eb369b671b2c5cbdc3037a94a02d205"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partition-plan.json",
+      "bytes": 46631,
+      "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/normal-partitioned-summary.json",
+      "bytes": 126415,
+      "sha256": "343b10ec71f114132d0228b47294f2d06d2d10aeaf5a3c23c39bb4e71696a867"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/reduced-factors/lambda1e7-block-a01/summary.json",
+      "bytes": 51522,
+      "sha256": "cebf8524ad60d702d88882bb0bce869300aea9f9511d06248439d2fab46c4694"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-work/trials/lambda1e7-block-floor01/back-00.json",
+      "bytes": 90560,
+      "sha256": "cc80895232b2ca9c4a349bffd12b1d6233a79e767513a21045f67fb8bc5b680e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "399c8240373000c663bd1c0c5c3f2704af32e914d50352fda7830c651231f32e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt.json",
+      "bytes": 3164,
+      "sha256": "9782d497792bf52b2adf210b2fdacc0f9e5b159ce3d8cee4312dba4620273466"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-report.json",
+      "bytes": 75095,
+      "sha256": "6c0d883968fcb741a41e6b2e2a5c9dade53c295a97e07c79d5b20eee81a6fb79"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "df8ec89574bd5ba363b932c4d5a9d41e30ce5c50afdd1ed7c79bb22618a68e05"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt.json",
+      "bytes": 3323,
+      "sha256": "a264df150c94918b9f8fd2576f43b13c267927fb9ab040dda4754fcba629bca3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-progress.jsonl",
+      "bytes": 1322,
+      "sha256": "abc7c8bc26c9d5369fa3356429587b06f5f8e453aacc7521f7ac1f789b32faab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-report.json",
+      "bytes": 75094,
+      "sha256": "09c410c41ec05705f8525706fd083ca5904155cfa772c79c7c1564ac4cf7f78b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-recovery-static-and-failures-closed-manifest.json",
+      "bytes": 7519,
+      "sha256": "12f9e8739ae42a971528f626d26434a41aa0cd32fcbce7d960d3d6a026cb8fc1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-resume-controller-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "a7aea572b1371422b383c6a5f1e5b6142808172081b3cb103038d0a92f682980"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-merge-resume-controller-a01-report.json",
+      "bytes": 2023,
+      "sha256": "aac32cdb450e9fd3181a3a1561a0241f5b25083af78d5eeee8f7246a03ce3055"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt.json",
+      "bytes": 3595,
+      "sha256": "dc3d81174e1395b42f7b0364f0a3783753e644e43925acd65b69ea6fdfa610e9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-progress.jsonl",
+      "bytes": 108,
+      "sha256": "54a81f3e7364c5489ee6e7ecd47c0fa6183e5c3c6377dce7c6d2bb682940c51f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-report.json",
+      "bytes": 75103,
+      "sha256": "c284f3627e472dfdb190301eb531f146771f9d551eeba2c76e01d6ad6ae65545"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-stream-merge-controller-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "cf9ee157c63424eda45e072a06f003613b20936ddf1e1779aa0a24939a0d391c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-stream-merge-controller-a01-report.json",
+      "bytes": 3261,
+      "sha256": "d222091e33b124be68ac24b04bd68a2ae1a98ef20ee71ae3941560716a0ae5b9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt.json",
+      "bytes": 3591,
+      "sha256": "4a8fda538b8373898f4a12613a39c31634fbe12306acbc9c80d67a5fe1c6f399"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-progress.jsonl",
+      "bytes": 791,
+      "sha256": "922d2c75915711ba584a022caaacf68d83f2a2d705fdcdac924dd2a5e82f5618"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-report.json",
+      "bytes": 75631,
+      "sha256": "93ae66fc58acffe57d05b262c8254d2354a79fa2d20169d955f01edafe514c23"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt.json",
+      "bytes": 3597,
+      "sha256": "4198eb74e48c6d5dae72afe10ebfc4ff9e2c6e98348191f0c664d08230a3473c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-progress.jsonl",
+      "bytes": 214,
+      "sha256": "66527ee027350ca392e029061508e815921d5fcaf2f39b02a7de9127da29b79a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-report.json",
+      "bytes": 75110,
+      "sha256": "3d255a47e250d4aa47b1f1da42c2c4b21d3502914a6f63f2e942efb3e2dba75c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-seventeenth-batch-main-receipt.json",
+      "bytes": 1803,
+      "sha256": "4ee6f01e7cc9033742f3026f39cfafb81d98b000c70a76f8bca70769b46512e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-shortened-cylinder-d014-01-definition.json",
+      "bytes": 90247,
+      "sha256": "4f653f8ce250fd6a2d1c8da960927fb0272d184ffa3a50c0cfa4ed4ef0973770"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-shortened-cylinder-d014-01-exit-receipt.json",
+      "bytes": 599,
+      "sha256": "38ef0943ea34f70d2e884dfb7f3e62c61bca29302afed0aebf7ec59726684f83"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-shortened-cylinder-d014-01-report.json",
+      "bytes": 12770,
+      "sha256": "b7951a9f8c90642a3d568de4160257f29278321db31371fbee6b953078841f8d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-process-receipt-console.txt",
+      "bytes": 40994,
+      "sha256": "076cc3c3c3221e1ce1014b126a0f30a8b176cdcc71a7e42806fb52d322a7fbbf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-block-schur-a01-process-receipt-samples.jsonl",
+      "bytes": 7029,
+      "sha256": "95a47488ffbe97663dbeffd5f84fe4896b0639e2419ab907db1895c0bdfb442e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-process-receipt-console.txt",
+      "bytes": 5628,
+      "sha256": "6cfa8068053f4a88f2d51dad09e01e22580945cd0d53be9df2f4894dd5c43322"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-merge-a01-process-receipt-samples.jsonl",
+      "bytes": 24464,
+      "sha256": "f999da043b0de4111f90e3e9be6d6237d4accf994a3e54538ff48511219cc3de"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-process-receipt-console.txt",
+      "bytes": 234,
+      "sha256": "b8818045ba54b34c82ebce5a6d25fa402043a815a63e6b8f3d106f2f9dc35ea5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-plan-a01-process-receipt-samples.jsonl",
+      "bytes": 2487,
+      "sha256": "5529730b25ed51aca3a9d79327993f5e8a604c8c71ac7b239a496ad345501915"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-process-receipt-console.txt",
+      "bytes": 5526,
+      "sha256": "0b7bb57bac4faf606828ddb8bafff1e814ef5adc153cb8c17bbff5049ead68ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-qp-floor01-a01-process-receipt-samples.jsonl",
+      "bytes": 7036,
+      "sha256": "e9c05e3c3ab0df15a0308b16417523cfd12545269037d72f9a9c3fe1e18926c5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-process-receipt-console.txt",
+      "bytes": 1108,
+      "sha256": "b798049dd41eea52ba883f16b8398e03df234e65d8817ec3a1fe7610e67618d1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-process-receipt-samples.jsonl",
+      "bytes": 19164,
+      "sha256": "0e626fa77ff58ed27280310faee11997432af27adfde2e3975640ea30ec4e29b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt-console.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt-samples.jsonl",
+      "bytes": 3075,
+      "sha256": "92b31599d90b93cb2a9aec425257be1ca220ce02c80cba87fdf6161f69915af6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt-console.txt",
+      "bytes": 1322,
+      "sha256": "abc7c8bc26c9d5369fa3356429587b06f5f8e453aacc7521f7ac1f789b32faab"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt-samples.jsonl",
+      "bytes": 12950,
+      "sha256": "d3917728adff3b885d03299cc84ca7728d63cdc47a4b2c286eec01c7e3ed8cd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt-console.txt",
+      "bytes": 108,
+      "sha256": "54a81f3e7364c5489ee6e7ecd47c0fa6183e5c3c6377dce7c6d2bb682940c51f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt-samples.jsonl",
+      "bytes": 4965,
+      "sha256": "6265c61cd49332c6b7bf07007b0357d0caf7b09688887ad7ae599546d25a966a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt-console.txt",
+      "bytes": 791,
+      "sha256": "922d2c75915711ba584a022caaacf68d83f2a2d705fdcdac924dd2a5e82f5618"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt-samples.jsonl",
+      "bytes": 9088,
+      "sha256": "31c74674c1812607041423757daa276df387b4abdece915f4f52385d61c61efd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt-console.txt",
+      "bytes": 214,
+      "sha256": "66527ee027350ca392e029061508e815921d5fcaf2f39b02a7de9127da29b79a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt-samples.jsonl",
+      "bytes": 7049,
+      "sha256": "b4bfd9825371638c8fc2de17bac5b7af67f2a1a4917b8bf53eeda515e1552771"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "bytes": 26535,
+      "sha256": "aba8a7a39905c6d723b68e6b20ab8832996817dfc1ab41a5a686c2d418ceb03e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "bytes": 63084,
+      "sha256": "bfd303c2d47fa5fad75196f0b3c17c9dbfa08ee0b98ad2999b075d647e0aa7b1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R169-exact-single-gap-target-normal-update.md",
+      "bytes": 3948,
+      "sha256": "bef61de00fdbc7b40d061d0556fe1b1ce850441048b440709848e20c4c00a273"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R170-dyadic-Bernstein-box-for-the-same-flat-tail.md",
+      "bytes": 11627,
+      "sha256": "6992810e0c159bd85ed41c256421db3d42b1d831405794f813724c7c4b639c06"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R171-accurate-radial-profile-and-one-sided-Arb-jets.md",
+      "bytes": 15393,
+      "sha256": "d31cdabbc9538592bf820f26a54ee4040b91e308050c0372212598e9d850794c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-dyadic-bernstein-tail-check.py",
+      "bytes": 10365,
+      "sha256": "501eb2ffe7250a094c137b32ab24fa95b7538414679119c37b33351bd067fa80"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gap-row-retarget-check-v2.py",
+      "bytes": 4179,
+      "sha256": "a3d7afd531a3b60fe6fb82c9f7a289705a546ca774f53165086687f16559a974"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gap-row-retarget-check-v3.py",
+      "bytes": 4221,
+      "sha256": "28ec48f8881790a92048b6357c44c35be1787513386498cb0ededd355d6aec80"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gap-row-retarget-check.py",
+      "bytes": 4162,
+      "sha256": "1cd7637bcc456340dfa4aa3860fa7c5d1aaf91c23ea31c5a84ae9285c22bd783"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-advance-accepted.py",
+      "bytes": 6712,
+      "sha256": "93e29006d8de86ba381ae93ad74ec7ae3c775634d5677d48df12c23ec3440c83"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-resume-normal-merge.py",
+      "bytes": 12808,
+      "sha256": "909f2d2321c69c99be0046c783cbc45702921dcf66d7b8ce7a32e7f2dacc4de3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-run-normal-tile-batches.py",
+      "bytes": 4524,
+      "sha256": "dcad76943d4841b316f718c72728900963b27ea372a327407a9a2d8bcc1741ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-baseline.py",
+      "bytes": 4018,
+      "sha256": "8541c8dbb3a29265c6d6ae6e66ea71264cf76a43ec95486ec953918dad8a9bd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-normal-merge.py",
+      "bytes": 4281,
+      "sha256": "959c4c4f70805dae51b28f18d08a4887aa212cada9fe25604b13f8afd0c32ae5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-normal-plan.py",
+      "bytes": 1401,
+      "sha256": "9d8cfa76d293af7724be7f8bb7ac49bd0d252dac4e5c1bf7492d53a4d32f11f9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-normal-tile-batch.py",
+      "bytes": 4215,
+      "sha256": "61602ab0653d9475ed9ff61ee7e02402d18623ea2044fdfb617a636a314aa9cf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-qp-from-schur.py",
+      "bytes": 6586,
+      "sha256": "bd5644c53a1032714dd78c3ce816b3d3c604cced5f250bb19bab7f40a2a64799"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-schur-block.py",
+      "bytes": 4853,
+      "sha256": "fbb8b7a0809b857b50b1d4fe214b68517444a86f29f6a81651ae7fa1eae5c62e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stage-trial.py",
+      "bytes": 7859,
+      "sha256": "07c3034f946240033f95e121083987b84b1ac0822e61583052fd464ae84ad1de"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-grouped-stream-resume-normal-merge.py",
+      "bytes": 12361,
+      "sha256": "f36f62850aed361eb1ef1e19186d8e9520d0c89d05eeb624a28cafb24cd424dc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-gc-prepare-grouped-field.py",
+      "bytes": 5239,
+      "sha256": "19a8dbfbb7551026ef7117bf3c7f89a1b7fa9f3e677a08b5bbe40aa45713c003"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-r136-profile-packet.py",
+      "bytes": 11619,
+      "sha256": "b4aea52fa04314064d37e6b1f556f38a4c8ab5c8ec947696281f1cdd0b7d83d5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-shortened-cylinder-body-screen.py",
+      "bytes": 4780,
+      "sha256": "3e61190af6b5b5795ca1d9c12953f2b42d894074d45b66dfb9a59ce0d927bfd5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-shortened-cylinder-native-check.py",
+      "bytes": 6364,
+      "sha256": "7fa14bd65b99341bfcbbab21a1893973002245da5dc93deac4fafa512ee2beb7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_build_closed_publication_batch.py",
+      "bytes": 5010,
+      "sha256": "98f64d4551ec2ae0c8dd8be5916f76ad5977d8ba6469b25dc52cbd820e2d0577"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py",
+      "bytes": 4373,
+      "sha256": "d3b04dcb67e0a5ef37b0d1e25002ec7a0f2736f83c2722266ade1f64b5b288e5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_dyadic_bernstein_tail.py",
+      "bytes": 14784,
+      "sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_dyadic_tail_native.py",
+      "bytes": 9508,
+      "sha256": "f3b90904861c48019b620e738ce490d2645bd968fd29dbc4946e8bfee5e77231"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_gap_row_retarget.py",
+      "bytes": 6071,
+      "sha256": "769862dfff9b60a0b3bcae324037a51f448d2ca31be6cb25e3f90214abccba73"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_normal_tile_io.py",
+      "bytes": 2360,
+      "sha256": "06230b88b77987b31aead52e109110675fc44027bac6ed06d6ac32ea4d3f16c1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_search_context.py",
+      "bytes": 8495,
+      "sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_r136_arb_profile.py",
+      "bytes": 32315,
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_shortened_cylinder_native.py",
+      "bytes": 17223,
+      "sha256": "aedc4bd774268a11da437c399d83e81ddd76418912a2d5d5af49dc6a21fbac3f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_stream_saved_normal_add.py",
+      "bytes": 5144,
+      "sha256": "6cafbc985a2193303626044dded9d24d47c1a8c6f16462772ca099438302fef3"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_rebase_checkpoint.py",
+      "bytes": 9328,
+      "sha256": "92d37b88c05a7b146d879773282987496148c3f231c1fee15df8ff770bd45325"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint.py",
+      "bytes": 7963,
+      "sha256": "6f6a117c7813bc32785527852a6c7e0717bbd7c721b6f71064fd9d52fe2fc460"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_checkpoint_only.py",
+      "bytes": 8154,
+      "sha256": "9b70cf65aa3bde7315b4bfe761721c81e501d9a9c8815e8861535597d8926fda"
+    }
+  ],
+  "excluded": [
+    "active trial or normal outputs",
+    "regenerable full intermediate normal matrices",
+    "HANDOFF hash refreshed after every literal pull"
+  ],
+  "scope": "Closed actual nonlinear outcomes, latest accepted fields and complete reusable consumers; strong target remains open"
+}

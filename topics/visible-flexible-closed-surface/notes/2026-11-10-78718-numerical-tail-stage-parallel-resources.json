@@ -1,0 +1,58 @@
+{
+  "status": "READ_ONLY_RESOURCE_OBSERVATION_NO_PARALLEL_EXECUTION",
+  "observer": "/root/numerical_recovery",
+  "actual_tool_receipts": [
+    {
+      "chunk_id": "1df111",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e260d8",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4fc1ea",
+      "exit_code": 0
+    }
+  ],
+  "observed_utc": "2026-11-10T15:40:28.901751+00:00",
+  "cpu_affinity_count": 9,
+  "os_cpu_count": 9,
+  "node_version": "v24.22.1",
+  "node_available_parallelism": 9,
+  "node_cpu_entries": 9,
+  "visible_cgroup_mounts": [],
+  "cgroup_quota_observed": false,
+  "meminfo_kib": {
+    "MemTotal": 10206472,
+    "MemAvailable": 4891952,
+    "SwapTotal": 0,
+    "SwapFree": 0
+  },
+  "actual_numeric_configuration": {
+    "modes": 22,
+    "quadrature": 512,
+    "depth": 12,
+    "protectCell": 160,
+    "linearFar": 32,
+    "linearSteps": 256,
+    "shootingParts": 16,
+    "steps": 16,
+    "warpSteps": 16,
+    "maxIterations": 36,
+    "sharedEngines": true
+  },
+  "computed_buffer_bytes": {
+    "states": 608608,
+    "outputs": 608256,
+    "stage_jacobians": 26763264,
+    "three_stage_scalars": 41472,
+    "nominal_four_scalar_profile_grid": 1824768
+  },
+  "new_worker_threads": 0,
+  "new_ode_calls": 0,
+  "new_dn_calls": 0,
+  "parallel_implementation_created": false,
+  "actual_speedup_measured": false,
+  "scope": "Current read-only tool namespace resources only; no proof of old solver-session CPU quota or aggregate threaded memory safety."
+}

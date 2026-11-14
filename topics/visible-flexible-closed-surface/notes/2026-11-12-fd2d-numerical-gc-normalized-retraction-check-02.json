@@ -1,0 +1,71 @@
+{
+  "status": "actual local retraction check completed",
+  "checkpointFile": "notes/2026-11-12-fd2d-numerical-gc-layered64-full160-02-owner-boundary-latest-accepted.json.gz",
+  "deep": {
+    "stage": 2640,
+    "rawCell": 146,
+    "rawSegment": 2,
+    "inputPi": -4.5563165267997524e-275,
+    "requestedCanonicalDirection": 1e-278,
+    "oldPhysicalRawDirection": 5e-324,
+    "oldActualCanonicalIncrement": 0,
+    "normalizedActualCanonicalIncrement": 1.0000000000000001e-278,
+    "normalizedDirectionError": 1.5657565312570102e-16,
+    "normalizedLDirection": 1.3160486395535675e-247,
+    "old": {
+      "lambda": 1,
+      "normalizedMeanResidual": 0,
+      "meanIterations": 0,
+      "minA": 1,
+      "minD": 1,
+      "minS": 1,
+      "meanL": 0,
+      "meanLChange": 0,
+      "meanLLinearPrediction": 0,
+      "meanLChangeFromConvertedAnchor": 0,
+      "canonicalLinearDifference": 1e-278
+    },
+    "normalized": {
+      "lambda": 1,
+      "normalizedMeanResidual": 0,
+      "meanIterations": 0,
+      "minA": 1,
+      "minD": 1,
+      "minS": 1,
+      "meanL": 0,
+      "meanLChange": 0,
+      "meanLLinearPrediction": 0,
+      "canonicalLinearDifference": 1.56575653125701e-294
+    },
+    "oldCanonicalRelativeDirectionError": -1
+  },
+  "normal": {
+    "maximum_state_difference": 1.0097419586828951e-28,
+    "old": {
+      "lambda": 0.5,
+      "normalizedMeanResidual": -3.877409121342317e-26,
+      "meanIterations": 1,
+      "minA": 0.9999921534712005,
+      "minD": 0.9999999805675239,
+      "minS": 0.999999999999957,
+      "meanL": 7.95806183495104e-11,
+      "meanLChange": -1.5767280964189453e-12,
+      "meanLLinearPrediction": 7.95724071207471e-11,
+      "meanLChangeFromConvertedAnchor": -1.5767280876583142e-12,
+      "canonicalLinearDifference": 5.467638361214395e-16
+    },
+    "normalized": {
+      "lambda": 0.5,
+      "normalizedMeanResidual": -3.877409121342317e-26,
+      "meanIterations": 1,
+      "minA": 0.9999921534712005,
+      "minD": 0.9999999805675239,
+      "minS": 0.999999999999957,
+      "meanL": 7.95806183495104e-11,
+      "meanLChange": -1.5767280964189453e-12,
+      "meanLLinearPrediction": 7.95724071207471e-11,
+      "canonicalLinearDifference": 5.467638361214395e-16
+    }
+  },
+  "scope": "Same exact Q/L retraction, local floating arithmetic check only. No complete DN or newly accepted state."
+}

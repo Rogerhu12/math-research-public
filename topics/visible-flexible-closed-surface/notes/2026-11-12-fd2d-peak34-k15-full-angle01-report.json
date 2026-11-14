@@ -1,0 +1,482 @@
+{
+  "schema": "fd2d-raw-analytic-T-full-angular-Gauss-v2",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-full-angle-design.py",
+    "bytes": 13938,
+    "sha256": "8221a92873b863339a76bfc76233b1bc70973a7128a88424354ac04b28b6673e"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "parameters": {
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "out_prefix": "notes/2026-11-12-fd2d-peak34-k15-full-angle01",
+    "warm_start": "notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-amount075.npz",
+    "prefix_initializer": null,
+    "modes": 15,
+    "mesh_step": 0.04,
+    "gap": 0.9,
+    "amplitude": 1.0,
+    "base_kind": "balanced_seed",
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "central_curvature_floor": 0.1,
+    "central_curvature_cap": 7.352941176470588,
+    "curvature_merit_cap": 7.2,
+    "curvature_merit_weight": 1.0,
+    "gauss_complement_weight": 1.0,
+    "owner_stop_file": "notes/2026-11-12-fd2d-stop-peak34-full-angle01.txt",
+    "direction_damping": 1e-05,
+    "max_iterations": 40,
+    "finite_tolerance": 2e-07
+  },
+  "providers": {
+    "fd2d_gc_raw_lifted_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    "fd2d_gc_raw_analytic_T.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    "fd2d_gc_gauss_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_complement.py",
+      "bytes": 4190,
+      "sha256": "9feca73819ea9c36e35ff18646062b2c85a865c4f36d6d681a57ffd3a18ca6aa"
+    },
+    "fd2d_gc_bounded_direction_recovery.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bounded_direction_recovery.py",
+      "bytes": 4036,
+      "sha256": "b5346fc9b366c475f8ec7dfb0b681c2814097692592455dbed1e50878d9594bc"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    },
+    "fd2d_positive_flat_developable_family.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    "fd2d_gc_design_profile_positive.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    }
+  },
+  "finite_scheme": "Trapezoidal Codazzi and projected Gauss; exact functional tail lifting",
+  "explicit_boundary_definition": "cut correction=0; central n=C*c, m=l=0, followed by full residual evaluation",
+  "curvature_merit_scope": "Optional node formal-eigenvalue search objective only",
+  "line_search": "Armijo for half squared combined residual norm using the actual directional derivative",
+  "original_gauss_codazzi_equations_changed": false,
+  "missing": [
+    "full angular/radial residual",
+    "actual Cartesian map and cut alignment",
+    "continuous full metric and all-time geometry",
+    "caps and complete meshes",
+    "same-g refinement"
+  ],
+  "completed": true,
+  "success": false,
+  "accepted_steps": 40,
+  "exception": null,
+  "seconds": 177.15227026399998,
+  "maximum_rss_kib": 265504,
+  "warm_start_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-cyl032-k15-bridge01-amount075.npz",
+    "bytes": 35939,
+    "sha256": "d6689a9c42ff8b69f6e83d64a1b983fbeb8232bd06f3af213cc04e8fa4c2edfb"
+  },
+  "initial_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak34-k15-full-angle01-initial.npz",
+    "bytes": 33392,
+    "sha256": "658e1af66e8630456f072410f90aac1e887651b1c364458b4f8e7e7e2f87d2d5"
+  },
+  "initial": {
+    "residual_maximum": 1.8378782607541266,
+    "residual_rms": 0.3107677253330337,
+    "full_gauss_node_maximum": 5.330150369475637,
+    "formal_curvature_node_maximum": 5.815597519349716,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "T": 0.02,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "minimum_n": -0.00037045532091340116,
+    "maximum_n": 4.36489447571063,
+    "minimum_central_curvature": 0.32088353624816085,
+    "maximum_lifting_alpha": 1.0,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 0,
+      "upper_active_rows": 0,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 0,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 5.815597519349716,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.0,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    },
+    "gauss_complement": {
+      "weight": 1.0,
+      "normalization": "weight*sqrt(2/angular_work)",
+      "rows": 22528,
+      "sampled_full_gauss_maximum": 5.330150369475637,
+      "sampled_omitted_gauss_maximum": 0.2349594246016804,
+      "residual_l2": 0.19316419829346748,
+      "original_equations_changed": false,
+      "continuous_certificate": false,
+      "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid"
+    }
+  },
+  "dimensions": {
+    "nodes": 89,
+    "frequencies": 15,
+    "correction": 47,
+    "parameters": 32,
+    "unknowns": 4215
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.399634787656641
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-positive-closed-form-clock",
+    "reference_T": 0.02,
+    "actual_T": 0.02,
+    "physical_T_domain": [
+      0.0,
+      0.06971847225009907
+    ],
+    "computational_endpoint": 1.4889731783581288,
+    "actual_physical_endpoint": 1.4889731783581288,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      57,
+      59
+    ],
+    "coast_ratio": "q=L(T)/L_ref",
+    "angle": "theta=atan2(sin(pi*tau),q*cos(pi*tau)), branch [0,pi]",
+    "coast_map": "s=s0(T)+L(T)*theta/pi",
+    "radial_scale": "q^2/(q^2*cos(pi*tau)^2+sin(pi*tau)^2)",
+    "exact_minimum_radial_scale": "min(1,q_shallow^2,q_deep^2)",
+    "clocks": {
+      "57": {
+        "ratio": 1.0,
+        "ratio_T": 50.0,
+        "length_T": 1.0
+      },
+      "59": {
+        "ratio": 1.0,
+        "ratio_T": -20.11324875329425,
+        "length_T": -0.10056624376647048
+      }
+    },
+    "other_piece_map": "s=s0(T)+L*tau",
+    "exact_clock_positive_for_every_positive_physical_coast": true,
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "source_of_endpoint_values": "analytic exact endpoint overrides",
+    "no_scalar_quadrature_or_inverse_is_used_in_the_clock": true
+  },
+  "latest": {
+    "residual_maximum": 0.50578585428192,
+    "residual_rms": 0.044448721147763236,
+    "full_gauss_node_maximum": 1.1286086329580134,
+    "formal_curvature_node_maximum": 7.203421801776907,
+    "A": 1.4024172570110878,
+    "B": 0.5024172580561734,
+    "gap": 0.8999999989549143,
+    "T": 0.06971847225002935,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      0.9160951391681476,
+      0.0,
+      0.4131384062045831,
+      2.1728399677112592e-20,
+      1.1931518844198184e-18,
+      2.5984634607459654e-19,
+      0.0,
+      2.0737235765091973e-19,
+      7.734525991778298e-19,
+      4.191093532547431e-19,
+      1.2,
+      0.714095818301507,
+      3.2102664276817435e-18
+    ],
+    "minimum_n": -0.11688958649172818,
+    "maximum_n": 7.201258603821605,
+    "minimum_central_curvature": 0.10000000000000014,
+    "maximum_lifting_alpha": 0.17596857906819657,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 44,
+      "upper_active_rows": 44,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 44,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 7.203421801776907,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.008095282061070354,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    },
+    "gauss_complement": {
+      "weight": 1.0,
+      "normalization": "weight*sqrt(2/angular_work)",
+      "rows": 22528,
+      "sampled_full_gauss_maximum": 1.1286086329580134,
+      "sampled_omitted_gauss_maximum": 0.2921018399039466,
+      "residual_l2": 0.30733140395504926,
+      "original_equations_changed": false,
+      "continuous_certificate": false,
+      "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid"
+    }
+  },
+  "latest_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak34-k15-full-angle01-accepted-0040.npz",
+    "bytes": 33745,
+    "sha256": "66dc71a66baa3e53a0401b510caf43b80cab635673aec79a419472deea92c77a"
+  },
+  "stop_reason": "Recorded finite iteration allocation ended without convergence",
+  "final": {
+    "residual_maximum": 0.50578585428192,
+    "residual_rms": 0.044448721147763236,
+    "full_gauss_node_maximum": 1.1286086329580134,
+    "formal_curvature_node_maximum": 7.203421801776907,
+    "A": 1.4024172570110878,
+    "B": 0.5024172580561734,
+    "gap": 0.8999999989549143,
+    "T": 0.06971847225002935,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      0.9160951391681476,
+      0.0,
+      0.4131384062045831,
+      2.1728399677112592e-20,
+      1.1931518844198184e-18,
+      2.5984634607459654e-19,
+      0.0,
+      2.0737235765091973e-19,
+      7.734525991778298e-19,
+      4.191093532547431e-19,
+      1.2,
+      0.714095818301507,
+      3.2102664276817435e-18
+    ],
+    "minimum_n": -0.11688958649172818,
+    "maximum_n": 7.201258603821605,
+    "minimum_central_curvature": 0.10000000000000014,
+    "maximum_lifting_alpha": 0.17596857906819657,
+    "cut_n_mean_omitted": false,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "exact_cut_lifting_function": true,
+    "cut_correction_maximum": 0.0,
+    "actual_field_cut_exact": true,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 44,
+      "upper_active_rows": 44,
+      "lower_active_rows": 0,
+      "active_rows_before_zero_weight": 44,
+      "active_repeated_eigenvalue_rows": 0,
+      "sampled_formal_curvature_maximum": 7.203421801776907,
+      "sampled_exact_cap_equalities": 0,
+      "residual_l2": 0.008095282061070354,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false,
+      "derivative_kind": "Ordinary derivative at simple active eigenvalues; valid symmetric spectral subgradient at flagged active repeated eigenvalues.",
+      "repeated_eigenvalue_subgradient": "branch*weight*(1/2,0,1/2) in (n,m,l)",
+      "central_parameter_columns": "zero before composing caller linear boundary projection",
+      "scope": "Optional sampled formal-curvature merit only; original F and actual geometry remain separate."
+    },
+    "gauss_complement": {
+      "weight": 1.0,
+      "normalization": "weight*sqrt(2/angular_work)",
+      "rows": 22528,
+      "sampled_full_gauss_maximum": 1.1286086329580134,
+      "sampled_omitted_gauss_maximum": 0.2921018399039466,
+      "residual_l2": 0.30733140395504926,
+      "original_equations_changed": false,
+      "continuous_certificate": false,
+      "scope": "Orthogonal complement of the existing finite even Fourier Gauss projection on its recorded angular grid"
+    }
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak34-k15-full-angle01-field.npz",
+    "bytes": 200647,
+    "sha256": "6bb97e22226e9fae3d992636d100f1aa2b039369ce8d92974e833171ba056052"
+  },
+  "actual_candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak34-k15-full-angle01-candidate.json",
+    "bytes": 25962,
+    "sha256": "714a7ee51c9bc9b408ba01f4badb44d8d0b0da78faf81f005d93e0c8845e1b51"
+  },
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "1584480326189353/2251799813685248",
+      "2518897194038729/1125899906842624",
+      "6984568952508173/9007199254740992",
+      "-2032773070180601/2251799813685248",
+      "-7506389806895507/18014398509481984",
+      "-7004114792051491/18014398509481984",
+      "-4672735858678595/9007199254740992",
+      "5718096146802329/72057594037927936",
+      "176413533671011/1125899906842624",
+      "-4959958796669555/18014398509481984",
+      "2600243882958185/9007199254740992",
+      "1560382938405089/144115188075855872",
+      "-3262725176218909/9007199254740992",
+      "1801778582818551/72057594037927936",
+      "1599104869620589/144115188075855872"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "-5485373109921101605348946873591114331899731513425541934279141343980493464605319308981888843979/645740404498032089347097283225772877053315480792101791451656522445338872024977735860136968192",
+    "conservative_curvature_upper_exact": "1532216004590275660988625971687918585803176455227688248408363368389724980748891652373019782959/116111050651065706917301404239334555179933698438958366286260005613199734086510192252453650432",
+    "global_convexity_proved_by_l1_bound": false,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "10406286582129853350956992901262090521459656281884281346240963961832341665/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  }
+}

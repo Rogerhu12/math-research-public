@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-observed-executor-change-recovery-v1",
+  "observed_utc": "2026-11-12T07:47:40Z",
+  "tool_error": "exec-server transport disconnected; failed to resume exec-server session: exec-server protocol error: executor key changed during session recovery",
+  "affected_session": 72683,
+  "last_successful_poll_chunk": "c8ecfc",
+  "last_observed_complete_response": {
+    "run": "old-g tail07",
+    "call": 3,
+    "factor": 1.9174604676663867e-11,
+    "normalized_residual": 1.8539400763249138e-13,
+    "seconds": 222.80478675400082,
+    "entity_now_available": false,
+    "sha256": null
+  },
+  "exit_status": "unknown; no actual process exit code was returned",
+  "observed_filesystem": "All visible-flex-gc-tail* runtime directories and unpushed notes were absent. A newly created unrelated prefix directory and new patch files remained. No deletion was performed by this agent.",
+  "last_remote_recovery_point_reported_by_root": "b45951d81; actual tail04 accepted3 and full small01 field",
+  "recovery_plan": "Rebuild new source in this independent directory while root reclones main. Rerun the unpublished N64 comparison and continuation from the actual published N25604 accepted3. Restore full160 unchanged-source and stage-cache consumers, then repeat their actual equality fixtures. New candidate calibration remains geometry owner task.",
+  "scope": "Historical values are retained as observed tool facts only. Missing binary/JSON entities are not invented or marked closed. Old session cannot be presumed resumed."
+}

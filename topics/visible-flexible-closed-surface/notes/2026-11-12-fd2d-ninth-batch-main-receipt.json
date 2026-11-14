@@ -1,0 +1,208 @@
+{
+  "schema": "fd2d-ci-main-publication-receipt-v2",
+  "commit": "9c39fa3dd69327dce7f3857fc5d7072c254b11b4",
+  "rules_read_sha": "f529bf8f25fc0471f2658d940cca73dead52a43c",
+  "attempt": 15,
+  "utc": "2026-11-12T15:33:31.964237+00:00",
+  "method": "ordinary terminal git push; fresh main parent; canonical binary tree overlay preserving all unowned entries",
+  "workflow_run_id": 43248977746,
+  "job_id": 131289276367,
+  "workflow_conclusion": "success",
+  "workflow_url": "https://github.com/Rogerhu12/math-research/actions/runs/43248977746",
+  "payload_commit": "9f0cb296c6939fb60e8b772fce0a6f5a4e5457d3",
+  "payload_branch": "visible-flex-fd2d-ci-publish-20261112t1531",
+  "local_checkpoint_process": {
+    "session_id": 56839,
+    "final_chunk": "263813",
+    "exit_code": 0
+  },
+  "payload_files": 101,
+  "owned_files": 99,
+  "owned_bytes": 2689571,
+  "readme_checks": [
+    {
+      "attempt": 1,
+      "pull_exit": 0,
+      "readme_previous": "cab803201ec4903fb9d13a179f83f4cccf8d222a",
+      "readme_current": "3106793fa488f42c80d654f40adb7fccc75f7fe6",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 2,
+      "pull_exit": 0,
+      "readme_previous": "3106793fa488f42c80d654f40adb7fccc75f7fe6",
+      "readme_current": "989003f8f4f05ee9eac2a4a500baff6c05f6d3fb",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 3,
+      "pull_exit": 0,
+      "readme_previous": "989003f8f4f05ee9eac2a4a500baff6c05f6d3fb",
+      "readme_current": "ab0b6b71b6d6ff6371295a62e4c0eee22b51549c",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 4,
+      "pull_exit": 0,
+      "readme_previous": "ab0b6b71b6d6ff6371295a62e4c0eee22b51549c",
+      "readme_current": "63087a8a010437636eeb6de274660b06a00e81fe",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 5,
+      "pull_exit": 0,
+      "readme_previous": "63087a8a010437636eeb6de274660b06a00e81fe",
+      "readme_current": "02f866c7f984c1bcb39a34f38604fc7accbcfed7",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 6,
+      "pull_exit": 0,
+      "readme_previous": "02f866c7f984c1bcb39a34f38604fc7accbcfed7",
+      "readme_current": "d2080c96773a05280386826e897bf75294fca433",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 7,
+      "pull_exit": 0,
+      "readme_previous": "d2080c96773a05280386826e897bf75294fca433",
+      "readme_current": "0749951c00625556cbb3beaf924dd544fac4f935",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 8,
+      "pull_exit": 0,
+      "readme_previous": "0749951c00625556cbb3beaf924dd544fac4f935",
+      "readme_current": "0c2998888150a75a016b6f7dc07ae98e39bfb3b8",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 9,
+      "pull_exit": 0,
+      "readme_previous": "0c2998888150a75a016b6f7dc07ae98e39bfb3b8",
+      "readme_current": "94f2ef39afb8a0c2970f48846191c376aef45c2b",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 10,
+      "pull_exit": 0,
+      "readme_previous": "94f2ef39afb8a0c2970f48846191c376aef45c2b",
+      "readme_current": "1db6e2b4429793dd049e883b63847d4e44c2e213",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 11,
+      "pull_exit": 0,
+      "readme_previous": "1db6e2b4429793dd049e883b63847d4e44c2e213",
+      "readme_current": "dfddd5df9989306806caeb18a578e393d36e00fa",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 12,
+      "pull_exit": 0,
+      "readme_previous": "dfddd5df9989306806caeb18a578e393d36e00fa",
+      "readme_current": "a338e747bf33fd772769ae92cdfbeeb7cebb3d7a",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 13,
+      "pull_exit": 0,
+      "readme_previous": "a338e747bf33fd772769ae92cdfbeeb7cebb3d7a",
+      "readme_current": "a8a2d5f10b719a9843077d93130b60be62d2b972",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 14,
+      "pull_exit": 0,
+      "readme_previous": "a8a2d5f10b719a9843077d93130b60be62d2b972",
+      "readme_current": "fa75a5db81dd472b7674b13dc53c002d6d47ab55",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 15,
+      "pull_exit": 0,
+      "readme_previous": "fa75a5db81dd472b7674b13dc53c002d6d47ab55",
+      "readme_current": "f529bf8f25fc0471f2658d940cca73dead52a43c",
+      "readme_diff_empty": true
+    }
+  ],
+  "main_push_attempts": [
+    {
+      "attempt": 1,
+      "push_exit": 1,
+      "seconds": 3.516565414000002
+    },
+    {
+      "attempt": 2,
+      "push_exit": 1,
+      "seconds": 2.2179852940000018
+    },
+    {
+      "attempt": 3,
+      "push_exit": 1,
+      "seconds": 1.4308436489999963
+    },
+    {
+      "attempt": 4,
+      "push_exit": 1,
+      "seconds": 1.4229182300000005
+    },
+    {
+      "attempt": 5,
+      "push_exit": 1,
+      "seconds": 1.4370219939999984
+    },
+    {
+      "attempt": 6,
+      "push_exit": 1,
+      "seconds": 1.5517025800000042
+    },
+    {
+      "attempt": 7,
+      "push_exit": 1,
+      "seconds": 2.3525289029999996
+    },
+    {
+      "attempt": 8,
+      "push_exit": 1,
+      "seconds": 1.3729930599999989
+    },
+    {
+      "attempt": 9,
+      "push_exit": 1,
+      "seconds": 1.3863844749999998
+    },
+    {
+      "attempt": 10,
+      "push_exit": 1,
+      "seconds": 2.188236742000001
+    },
+    {
+      "attempt": 11,
+      "push_exit": 1,
+      "seconds": 1.3555152480000032
+    },
+    {
+      "attempt": 12,
+      "push_exit": 1,
+      "seconds": 1.4206305260000036
+    },
+    {
+      "attempt": 13,
+      "push_exit": 1,
+      "seconds": 1.4008254749999978
+    },
+    {
+      "attempt": 14,
+      "push_exit": 1,
+      "seconds": 1.3549897380000004
+    },
+    {
+      "attempt": 15,
+      "push_exit": 0,
+      "seconds": 2.214714447999995
+    }
+  ],
+  "local_negotiation_warning": "Git reported expected acknowledgments, received packfile; ordinary push then completed with exit 0. The optional negotiation setting was disabled afterwards.",
+  "main_not_force_pushed": true
+}

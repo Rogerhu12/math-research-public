@@ -1,0 +1,1453 @@
+{
+  "schema": "fd2d-peak-spacer-exact-radius-lower-v2",
+  "actual_execution": true,
+  "candidate_file": "2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "source_sha256": "a33c214dffc98dd2b5c09a5d3d1d130726d1ff8abb997162a9d70b59cacbe5ae",
+  "a0_source_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+  "a0": {
+    "lower_exact": "27719700236759097884554771118456953527345486985901636753515972114122835/27606985387162255149739023449108101809804435888681546220650096895197184",
+    "upper_exact": "55439400473518195769109542236913907054690973971803273507031944228245679/55213970774324510299478046898216203619608871777363092441300193790394368",
+    "lower_display": 1.0040828380214688,
+    "upper_display": 1.0040828380214688
+  },
+  "pi_method": "Machin identity with 16 alternating rational terms for each arctangent",
+  "sin_method": "Alternating Taylor through degree 19 with degree-21 remainder, midpoint interval enlarged using global Lipschitz constant 1 and clipped to [-1,1]",
+  "radial_integral_method": "Monotone phase boxes with global Lipschitz sine enclosure and exact rational Riemann sums",
+  "cells_per_phase_piece": 512,
+  "encodings": [
+    {
+      "encoding": "exact binary64 numerical data",
+      "exact_shared_Hermite_two_jets": true,
+      "hermite_velocity_nonnegative_and_less_than_one": true,
+      "hermite_acceleration_nonnegative": true,
+      "hermite_rows": [
+        {
+          "index": 1,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4806058064058735/295147905179352825856",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "0",
+          "acceleration_control_upper_exact": "1110089429720855/144115188075855872"
+        },
+        {
+          "index": 2,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2301001173988871/18446744073709551616",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1110089429720855/144115188075855872",
+          "acceleration_control_upper_exact": "4189867030661321/144115188075855872"
+        },
+        {
+          "index": 3,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7437430207888189/18446744073709551616",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "4189867030661321/144115188075855872",
+          "acceleration_control_upper_exact": "2223907211566557/36028797018963968"
+        },
+        {
+          "index": 4,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4221417541274309/4611686018427387904",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2223907211566557/36028797018963968",
+          "acceleration_control_upper_exact": "7460605063684845/72057594037927936"
+        },
+        {
+          "index": 5,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7897536882907027/4611686018427387904",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7460605063684845/72057594037927936",
+          "acceleration_control_upper_exact": "5498303986799947/36028797018963968"
+        },
+        {
+          "index": 6,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6536089017676671/2305843009213693952",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5498303986799947/36028797018963968",
+          "acceleration_control_upper_exact": "7467072545898025/36028797018963968"
+        },
+        {
+          "index": 7,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2485502899625209/576460752303423488",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7467072545898025/36028797018963968",
+          "acceleration_control_upper_exact": "2395741191584695/9007199254740992"
+        },
+        {
+          "index": 8,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7107917492691123/1152921504606846976",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2395741191584695/9007199254740992",
+          "acceleration_control_upper_exact": "2949848599952193/9007199254740992"
+        },
+        {
+          "index": 9,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2423701742181409/288230376151711744",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2949848599952193/9007199254740992",
+          "acceleration_control_upper_exact": "7038349236281639/18014398509481984"
+        },
+        {
+          "index": 10,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1592555280054509/144115188075855872",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7038349236281639/18014398509481984",
+          "acceleration_control_upper_exact": "8190946317369767/18014398509481984"
+        },
+        {
+          "index": 11,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8123814894901711/576460752303423488",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "8190946317369767/18014398509481984",
+          "acceleration_control_upper_exact": "9125128854697/17592186044416"
+        },
+        {
+          "index": 12,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5053603613120723/288230376151711744",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "9125128854697/17592186044416",
+          "acceleration_control_upper_exact": "5243700560340577/9007199254740992"
+        },
+        {
+          "index": 13,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6158788100624937/288230376151711744",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5243700560340577/9007199254740992",
+          "acceleration_control_upper_exact": "5806376980188123/9007199254740992"
+        },
+        {
+          "index": 14,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "3687679690627061/144115188075855872",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5806376980188123/9007199254740992",
+          "acceleration_control_upper_exact": "3178578438575205/4503599627370496"
+        },
+        {
+          "index": 15,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2175179529187741/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3178578438575205/4503599627370496",
+          "acceleration_control_upper_exact": "6893968293217517/9007199254740992"
+        },
+        {
+          "index": 16,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2532980363898757/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "6893968293217517/9007199254740992",
+          "acceleration_control_upper_exact": "7415417863043149/9007199254740992"
+        },
+        {
+          "index": 17,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "729112577508437/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7415417863043149/9007199254740992",
+          "acceleration_control_upper_exact": "61879835050141/70368744177664"
+        },
+        {
+          "index": 18,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6649524943614197/144115188075855872",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "61879835050141/70368744177664",
+          "acceleration_control_upper_exact": "8409040607838979/9007199254740992"
+        },
+        {
+          "index": 19,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7514139239088969/144115188075855872",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "8409040607838979/9007199254740992",
+          "acceleration_control_upper_exact": "8880381372033653/9007199254740992"
+        },
+        {
+          "index": 20,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8425025974025835/144115188075855872",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "8880381372033653/9007199254740992",
+          "acceleration_control_upper_exact": "4667233167170209/4503599627370496"
+        },
+        {
+          "index": 21,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2345113277157331/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "4667233167170209/4503599627370496",
+          "acceleration_control_upper_exact": "4885584511583237/4503599627370496"
+        },
+        {
+          "index": 22,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5189337972943205/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "4885584511583237/4503599627370496",
+          "acceleration_control_upper_exact": "2547588809170801/2251799813685248"
+        },
+        {
+          "index": 23,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5708967215654433/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2547588809170801/2251799813685248",
+          "acceleration_control_upper_exact": "82748809714745/70368744177664"
+        },
+        {
+          "index": 24,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6248223910188227/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "82748809714745/70368744177664",
+          "acceleration_control_upper_exact": "2743852071518393/2251799813685248"
+        },
+        {
+          "index": 25,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6806204209066203/72057594037927936",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2743852071518393/2251799813685248",
+          "acceleration_control_upper_exact": "5670368522740443/4503599627370496"
+        },
+        {
+          "index": 26,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1845496980585223/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5670368522740443/4503599627370496",
+          "acceleration_control_upper_exact": "730467703181529/562949953421312"
+        },
+        {
+          "index": 27,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1993659125985097/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "730467703181529/562949953421312",
+          "acceleration_control_upper_exact": "6007633808261975/4503599627370496"
+        },
+        {
+          "index": 28,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1072899038960965/9007199254740992",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "6007633808261975/4503599627370496",
+          "acceleration_control_upper_exact": "3080927666518759/2251799813685248"
+        },
+        {
+          "index": 29,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2301669844258549/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3080927666518759/2251799813685248",
+          "acceleration_control_upper_exact": "3153116053417321/2251799813685248"
+        },
+        {
+          "index": 30,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2461026436374969/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3153116053417321/2251799813685248",
+          "acceleration_control_upper_exact": "1610155185069801/1125899906842624"
+        },
+        {
+          "index": 31,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5247233586642297/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1610155185069801/1125899906842624",
+          "acceleration_control_upper_exact": "6564920485626955/4503599627370496"
+        },
+        {
+          "index": 32,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5578375902873501/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "6564920485626955/4503599627370496",
+          "acceleration_control_upper_exact": "3339547862028607/2251799813685248"
+        },
+        {
+          "index": 33,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2957508671672189/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3339547862028607/2251799813685248",
+          "acceleration_control_upper_exact": "3392779060191775/2251799813685248"
+        },
+        {
+          "index": 34,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6256828022459023/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3392779060191775/2251799813685248",
+          "acceleration_control_upper_exact": "3442911962708731/2251799813685248"
+        },
+        {
+          "index": 35,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6603490821554507/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3442911962708731/2251799813685248",
+          "acceleration_control_upper_exact": "3489804152197567/2251799813685248"
+        },
+        {
+          "index": 36,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "3477337100217305/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3489804152197567/2251799813685248",
+          "acceleration_control_upper_exact": "1766647349631337/1125899906842624"
+        },
+        {
+          "index": 37,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "913753498566939/4503599627370496",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1766647349631337/1125899906842624",
+          "acceleration_control_upper_exact": "3573179569683431/2251799813685248"
+        },
+        {
+          "index": 38,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7669176969445749/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3573179569683431/2251799813685248",
+          "acceleration_control_upper_exact": "1804549910116167/1125899906842624"
+        },
+        {
+          "index": 39,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8031705789474947/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1804549910116167/1125899906842624",
+          "acceleration_control_upper_exact": "3640670997732537/2251799813685248"
+        },
+        {
+          "index": 40,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4198520688741149/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3640670997732537/2251799813685248",
+          "acceleration_control_upper_exact": "3663746073710103/2251799813685248"
+        },
+        {
+          "index": 41,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4257095633336879/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3652677815688957/2251799813685248",
+          "acceleration_control_upper_exact": "297385298499352045922524514831179834281751/182687704666363189294014262516406275801088"
+        },
+        {
+          "index": 42,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4315224992161271/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "225470122649767/140737488355328",
+          "acceleration_control_upper_exact": "3652677815688957/2251799813685248"
+        },
+        {
+          "index": 43,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8744656278409295/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "220196978299787/140737488355328",
+          "acceleration_control_upper_exact": "225470122649767/140737488355328"
+        },
+        {
+          "index": 44,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8855415684160929/36028797018963968",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3390082379879717/2251799813685248",
+          "acceleration_control_upper_exact": "220196978299787/140737488355328"
+        },
+        {
+          "index": 45,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "560059569484951/2251799813685248",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3194059174234103/2251799813685248",
+          "acceleration_control_upper_exact": "3390082379879717/2251799813685248"
+        },
+        {
+          "index": 46,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2264742184212793/9007199254740992",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "729215461579765/562949953421312",
+          "acceleration_control_upper_exact": "3194059174234103/2251799813685248"
+        },
+        {
+          "index": 47,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2286635851495287/9007199254740992",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5076668347124231/4503599627370496",
+          "acceleration_control_upper_exact": "729215461579765/562949953421312"
+        },
+        {
+          "index": 48,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "576261217230221/2251799813685248",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "4087561890612255/4503599627370496",
+          "acceleration_control_upper_exact": "5076668347124231/4503599627370496"
+        },
+        {
+          "index": 49,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2319026164134069/9007199254740992",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5732877710076495/9007199254740992",
+          "acceleration_control_upper_exact": "4087561890612255/4503599627370496"
+        },
+        {
+          "index": 50,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2327727562160321/9007199254740992",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2921539985975963/9007199254740992",
+          "acceleration_control_upper_exact": "5732877710076495/9007199254740992"
+        },
+        {
+          "index": 51,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4661186959924771/18014398509481984",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "0",
+          "acceleration_control_upper_exact": "2921539985975963/9007199254740992"
+        }
+      ],
+      "phase_rows": [
+        {
+          "label": "outward_peak_spacer",
+          "L_exact": "4963749426750495/18014398509481984",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "54358298357679753689979517892644021/207691874341393105141219853168803840",
+            "upper_exact": "434866386861438029523551806105751289/1661534994731144841129758825350430720",
+            "lower_display": 0.26172568633247734,
+            "upper_display": 0.26172568633247734
+          },
+          "end_phase": {
+            "lower_exact": "54358298357679753689979517892644021/207691874341393105141219853168803840",
+            "upper_exact": "434866386861438029523551806105751289/1661534994731144841129758825350430720",
+            "lower_display": 0.26172568633247734,
+            "upper_display": 0.26172568633247734
+          },
+          "radial_integral": {
+            "lower_exact": "23136964100303464561920187011645/324518553658426726783156020576256",
+            "upper_exact": "23136964100303464561920187011645/324518553658426726783156020576256",
+            "lower_display": 0.07129627517277908,
+            "upper_display": 0.07129627517277908
+          }
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "L_exact": "5764607523034235/288230376151711744",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "54358298357679753689979517892644021/207691874341393105141219853168803840",
+            "upper_exact": "434866386861438029523551806105751289/1661534994731144841129758825350430720",
+            "lower_display": 0.26172568633247734,
+            "upper_display": 0.26172568633247734
+          },
+          "end_phase": {
+            "lower_exact": "8204682528877083/36028797018963968",
+            "upper_exact": "8204682528877083/36028797018963968",
+            "lower_display": 0.22772568633247733,
+            "upper_display": 0.22772568633247733
+          },
+          "radial_integral": {
+            "lower_exact": "225307468192494368321007949513372445120119416114983787237974853208321822249591590714396110829942486596388213951198051685676444618394553365220888192463860601348972898237362997455483776103635436265541662801545218451785990536740094036846196296963598215053220734598876458132420840686574520504700348598817311693777425577870279229657296225730875648121530839770095880650497975489967862745237826757461269849473743960794347937298931718447055852110990590332594206703269229649945965326677557075092946384006471257308822646333897775620078921388063114148395182419610495697148119832534289377085136979276852440685949164919261850591219082137941092752769645040959183874143647743095053570612155012704496186974608291127691880019574341287455405241803861460673989890598856318916264494849139026261617825800664806759135019758399917320276320632918611347946783410287961485300157883112707014969852819/45472887033830061936904706433203799369885500825230319325612951847751027647681581482974000232073157885898238752775727797792174228262582134627972944212872694233071726444459648629289930235121160868270976205637048235186884538904676811210020047624595797929907251446133218153526374758953519943320857906572098379778708239305944828456724192857599668708659193348947635342803378776345615862028555204253008734403788001287885373221765435679159578099161600974056470657404384741221177242266685341499319808946651618918099367621423959262626750035094490413728663838627302149047148834427368702917729572105094899444444857931015959074292637181382266931933733599918881500145921462445979079673948449602044078203495886406471223131022663855398931814744206472765180252008605858135865564784428480318040234301841581961328127596329462294055350305460951050642642542478091142702301184000000000000000000000",
+            "upper_exact": "36210679437121646775998780721079441973391539081161119952075064374292837616204690341428848995955813765067006432382515604466868117427114977575998344450861942396293404036711194052515743159788199498401254305035739968454491966904311268946802612552032168719116984747879867573234817324392163401941214119201323196294894415880536272397327980833375508626232128116601178920595574963668058906367592477465522537804122660736402985462324908926843969460061494722622709133444698135526779494782861039872595167950725605544830683364031905451308553967319296385112813749174777972245142173444313087369531696179690100094597642815247309472998854309978769831270542115672634276525719897707987682124831968987100423369428848146581907148860632154011696330224328187279495251167650938805026968393607623434224892894943694503738472738172097556064063223727575464044476927819437880615804244155042620818078190619522070579755078665773979162638346357453503678243040159130992892618864447095715541430451/7306295235688935089664130212307865998271127717415615367766701304766029536973475262182832776994031481171857410751008335589422037102320597320665698074207622230363354209596208251676728133706405577002014246234928074542580009280812125914449434483380518559753548306435116090248653316597067022257465808376693596153543060331532125500470139968748051683910428376684314692431480638125714089168255041259874301785862721292610646086457848140724071260601121697027271519723961859828928575058376432049753149386387981890879400424475478855199694018417739433349593771611319294492855086096712791030795183401110901805424334920470928869467831509475610041524254371525972914680932836558744384889294853906428432386313141096495621234347205561194890518788444753414075426844431308908514577024828446199561523145442472755203315190075270363118306876864079202048897726441468552222446082959778363628647548579296929825718362131751303372872417476418534119985497532200170133913600000000000000000000000",
+            "lower_display": 0.004954764979511294,
+            "upper_display": 0.004956093104511294
+          }
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "L_exact": "1663765174480761/18014398509481984",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "8204682528877083/36028797018963968",
+            "upper_exact": "8204682528877083/36028797018963968",
+            "lower_display": 0.22772568633247733,
+            "upper_display": 0.22772568633247733
+          },
+          "end_phase": {
+            "lower_exact": "-6217841315184183/72057594037927936",
+            "upper_exact": "-6217841315184183/72057594037927936",
+            "lower_display": -0.08628988239478806,
+            "upper_display": -0.08628988239478806
+          },
+          "radial_integral": {
+            "lower_exact": "40165642539773761616311802846366791813879397974134454280986197470946640180365223975893593294194211189574097628108126956213865277453803235342959674775668721060298170892565448833519967477553407859752867161075562340257496914639169515434810748955849938880477351559556440940941134073873611479637674491384043654472984756937059407853189544893544832505457791113453756693772540594861206957636078235181325627190908404260302963939788413780864869597668939420504336375198262472537373143924053675498641975326340458616675008293120448733316084880737970975660404357486313904925003120719369756392982015993193868661387205294495715783608535966094331686925368450454113925686789935761509708389132200480027414512428535770436258003126834685128980388564499625219378869908123730072611258587293734118040389712012745083127857163460555185133763133073317686767084722732440405339312979124590554711/6207227191787231378100353034726015477144248381465217581004062388014834108295094106557389509649173739155006655968811345312570766255890134182585606411855935763670118191580736051397522859866391931358359397047405923551212386006536499024578604611508761370708713513524640360663489664497596703871667813855075765279354833108009125432355281944595348766645677158503216038556653288146380594772598281466440094410778528764765424653332817568272260591198907089795302740664307713754040585783227933286806660363363939465635347197975237388251829093250230399962333300608216286303309552278952437289918828862307379809713108731577276319930654816792584777947393212776255081798131468356609149031200555323619911809842564830403244030081836123019056688602209804187026501036043394173959054547136378417283782543008760963866012137512271170336057085367937970109967408547940463974225934248931491840000",
+            "upper_exact": "8103448873621559599611262265283647962721491176139239347747607329019697107199575020684936915688786181607006241456540166565367436285887523502065091861102876694644506152507073197098330376689671605051767207997536717709355145973006345000238852789983332659552633652282649198068531685598817764121909210586687736342214138742849769639279831903302090338392122963013317135621972585762366395646430138579290301644579362818898036122781770183224096038675496066446998522527618105614804034037037127500451945186647342945503145444814776450253765883222337789153785009226150417765493083979016047741996120873562773531997034770611283163899656057494855127585514253176274350312672458014735846779532443189015702010634832142560540993107140678711125566554915809961988147735660353336768216937881899335059146109297971994909938325302993829250374252421743211122892336231510625577697207982029049941/1241445438357446275620070606945203095428849676293043516200812477602966821659018821311477901929834747831001331193762269062514153251178026836517121282371187152734023638316147210279504571973278386271671879409481184710242477201307299804915720922301752274141742702704928072132697932899519340774333562771015153055870966621601825086471056388919069753329135431700643207711330657629276118954519656293288018882155705752953084930666563513654452118239781417959060548132861542750808117156645586657361332072672787893127069439595047477650365818650046079992466660121643257260661910455790487457983765772461475961942621746315455263986130963358516955589478642555251016359626293671321829806240111064723982361968512966080648806016367224603811337720441960837405300207208678834791810909427275683456756508601752192773202427502454234067211417073587594021993481709588092794845186849786298368000",
+            "lower_display": 0.006470786600644622,
+            "upper_display": 0.006527430544465341
+          }
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "L_exact": "5764607523034235/288230376151711744",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-6217841315184183/72057594037927936",
+            "upper_exact": "-6217841315184183/72057594037927936",
+            "lower_display": -0.08628988239478806,
+            "upper_display": -0.08628988239478806
+          },
+          "end_phase": {
+            "lower_exact": "-8667799512473733/72057594037927936",
+            "upper_exact": "-8667799512473733/72057594037927936",
+            "lower_display": -0.12028988239478806,
+            "upper_display": -0.12028988239478806
+          },
+          "radial_integral": {
+            "lower_exact": "-3002051816000983363907841446544122816716099058486479841922703772883350589229036029428068037096742283972745547264488629727169757273600748001906776465876200573462264151936119587602728562402236152001026830211905108754301628567973918872238688714662640383014109822720088623675992237528213622657981577181321615001479124024662182561501893159390406770936206351211017498776533176477681677019470863130390250867528558038842215476266590498454545944873351564798741900363295928768245569822847367466790113142193136696523737704264228441183909765139097104593749208422198122143139903889937475387657883695490031307906575905716942626339329932624370389130899906452617973378921860319061921178971154660868086336095410311287929736467182874456639339757815004053954956936979181831704490093869344470440788472664607467932734742174092079051811761045031185656292150615344554404218886796759886456332224063037575709734177621/1380015115268539181010162796657129482030752564256510404464869180639749786346011032531543524840616902803792578494661956867284005781653379809181812846136156650369705568958896275150973402991041536323146132094831901339647573069783444443681677339986290510204025082432455117998906471999806425379449148291277372262372621287619231828905753344617917255203106209278664291802056917865337638627624306831616737627278218737896551756290646694815507625222516074736775721617218793186021174415872797399434134805912309990019688221236564029185898460838910939594104566616082683594954003217592023991624598715429382810358679905782829058646461185714962703706597102582059767304494530349142080545038624198997620626132615189659533774368757256565484335059401981830379927769581888204522615623824982173894678874450864171164888211013020373234896518755622862145792688838852539855941126322530234149157984108547080171229806592000",
+            "upper_exact": "-4942015999424207999529356517458212703332030221346563177680475897255622220037626970785543352223074647227463689486903259995356614170646836234231760292726546802333328258076361030098944055015810392360153998083115451382157011750289754466574340373056745510050597679251562705427219225224522222438678917489917169960245373888552154153222351468375447426924681924838585350527408279727197345992236358800228552633443756368352771778226949139211364959514233227300783637683018703961047895596063859134424616249797350750083772164927343484312375133437559930373141030437267207363399193995628855146373631208001940061274067684008846125566034598730225077009290770833057445360637548752696915122982792093315054276647675511843690229378364682227065092379910530621553071408651163113958714484920203233905536541107075956850800359398765733/2273186329657972996981518067864643277129063547117632519168754130364396459423365521675983326343196315770638506079721233481638328967548878198877589018835553225414584906867998056750063422258447584730987781665633237987415124890462251943208474914593889569882043906100769441144905692852124780015493838247872527277605965271798908035914193306972935125112651948555626895738970461558366474029507650089368623942063703871187811262199741195849346702834351697752036452974614542080512396614989267614233578419906571947818670762197586274779647023609925379017693379571988353731716849644224352713031740683427312828789550411288019656400168172758174854311900354258400663812197142115700596551051184455064970174302507482454437190757694581985139661215069569511806760880324755684895311065679734543773365510695489134320640478564214374400",
+            "lower_display": -0.0021753760395709937,
+            "upper_display": -0.0021740479145709937
+          }
+        },
+        {
+          "label": "early_shallow_return",
+          "L_exact": "36551002717023475/5634903853765964448",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-8667799512473733/72057594037927936",
+            "upper_exact": "-8667799512473733/72057594037927936",
+            "lower_display": -0.12028988239478806,
+            "upper_display": -0.12028988239478806
+          },
+          "end_phase": {
+            "lower_exact": "-3602879701896397/36028797018963968",
+            "upper_exact": "-3602879701896397/36028797018963968",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "radial_integral": {
+            "lower_exact": "-3321605574380915212180317296774544871372881026567762826222352063756084110024187959751543063468151669645536038124897016399295497725003925771041653986439454939364061821578674218502540446021449864924404156867011175374723436655528777745613789320645828653704249808922550951948869888841644086687041383916657724056434881071672467117311460877639233420501026194434952605203732007549557254885651807518239267394998848217905229305193535402883372809298641335297866342311360917290986791380127648681008561944508468664643806653260321960717475185323573108129311920365059682760072470532538959846280572657551230144226354751388143289107293451609311626431189298833651976608469707/4657786132164726945256408391562984936655003516911624206214677728654515021841343494683121123047582304821018817850894448760556938108046816880450219304105236615225137839572688447298788460683573682661888560189137445904621424093373708334548751497191058329100291481960039747044195393953248356055598028226364119965016058739614313307649722553249388493556843648802562411676079080247975403054033793086110863891130658375662885875125900406919480857305333131522836799393429552584345864174666920829047557429844124345747897927306611872194358310363785115519072247603363086538701241374944741082933895511654848172986929242481997777428181187578009922696331806611198194401830502400",
+            "upper_exact": "-1029111330639181853329680887817499109205957546236448108283848100319396994627571126693342376663799289765525543789869214656042254792417040093751700561143128038405880404244087471009793638436411559051372099426559929820787905729181238436296147238838788340977663971202860287729120611589661311390175906166627815559063137311250692385634484226667487694927011306067256786960167638460024335927325901349595943932613536351756966881508740146796632246776200906961472492206883140575084754627850233739884041110862485688594405814527223061750108916770430811719432567328711591944453757987501373424044378095194782686251/1443611774181887866569966517699143992942780060670628969685161341742916662496756269938200473004496618980990725826313820213463450723639365035401050390569514727431677563233712587221766760773518146330183188119860272040334548094901276668142641099801929792780496995483548579393821273654529334616082724243900800083218295099432879778891860790454958306028342379604353739518514766645597836671286930034633457254181331048863875639884864771628419325877138169727562134279880521180451427295850203522524831718474071662608867943880573094710121488641139809837124849793030408829200299121693662463689080870096877995950080",
+            "lower_display": -0.0007131296886826326,
+            "upper_display": -0.0007128726358735829
+          }
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L_exact": "5764607523034235/288230376151711744",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-3602879701896397/36028797018963968",
+            "upper_exact": "-3602879701896397/36028797018963968",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "end_phase": {
+            "lower_exact": "-3602879701896397/36028797018963968",
+            "upper_exact": "-3602879701896397/36028797018963968",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "radial_integral": {
+            "lower_exact": "-221371254133197420898176290156953973978795572314867308477595946824975843251785960146610573004317181197540788352083949009697382141097939902282938855107559710868316361945875915497174955424387755196657208541721772460657996471333976762087150860476917148958319514240328953401414007165873139484938023968693447107312037660528056630505419909309029184841793859943378025425159905722983265263/110870318560929808328753934470742285062637049628353375821243557333899776257710985291331615806009518255958685506184347114536703794945176802049840414502755096387231924071369832711897611794398882615362132920572610110857503657104256258662456113539325778342671107390131327032542389305961565135955840438034012373328189843410520285926430384948608508427589251881327043986561641874238472192000",
+            "upper_exact": "-58006194171657355620096527681202302008423771609891298785555951165277948730421403477353298929080609336662155252668386739231242269569345993188997158397658330582530891121347489040541240810727782476025570298322436673697470422534891852144092191346953526663664637907817977900598539985518003966483473603496879777518930586605994114604239571598452971727/29051492035407710031164282684776084812109999998139842700204419839787883967219394716254429458675110068890253973194890703252866228632024608723095150482325835622339033513628848449021064777613695257131248098405205115454485990319555795543208676967688707381892837423250624007836435439783730195266256871298146708806598931849867840749911399376882971443200",
+            "lower_display": -0.0019966683329365634,
+            "upper_display": -0.0019966683329365634
+          }
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "L_exact": "135107988821114875/313050214098109136",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-3602879701896397/36028797018963968",
+            "upper_exact": "-3602879701896397/36028797018963968",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "end_phase": {
+            "lower_exact": "-6530219459687219/4503599627370496",
+            "upper_exact": "-6530219459687219/4503599627370496",
+            "lower_display": -1.45,
+            "upper_display": -1.45
+          },
+          "radial_integral": {
+            "lower_exact": "-13306786354270828536339089656551788775245296308582051423396155912235616372290079642300751188797272602067768168516038554415218607237359265227025996710080802439782597578251612540036419177022577496905113624910276208198705322697021814381361803457540821056826951987647561172114746684853473521122959152072406856168970370935244401155138976363656810727900800789437216182599457865084899804138074730187142852351744164165693268512827976901393929962765189695060459697585532913376574538374874513601999869943670905298004311567927346491531067945683794007940454500752884832513277711635951226230643075319434424013165586709031997144441031703887680896087064394478205504393470747/48086817395803346237439939884911515325027130540181284113027866006081903483097662559615878037937095802492858627872199258005313450121308382762052375381529565808006099949137729924004952722571585216958527015468968347725152590137791213500022940310642687543727203352144771843033999301781138003603010032629507255415338340266619139077716505908851375468256606354791023846896538217474834944456091619243161760402102214440368616036364515053517992058704153428724945381336461903590427065166181948925802318781312059561467044548908337920274200966536180134632854236240938256882784530968739978014662948808600844369800300301993151109135614941037079012115194112575681534036541440",
+            "upper_exact": "-558946840967897427635065795860854708211797885299382748130880998929826546729931234085593562865624410483991085199927789675886098514944681863536227995136285663356076140760131169402669667026698804832613032229565135250232483146021355654778033779190687514516359282023781826599544916478107620343859756229635885271920999940936297418957445385414009843319917557254007434904195932953062736601415466633246376965521525044704515763427774903282037656933202058676328221728140676952332829393253060206192241825797205388095437632572705933987826571446164452420462824380992791815056017766064297759368126601634512843/2028210296509920538639682277912483065794044854127720413750513652906563800779161037146315148392306670134770696311222245185918507501865916027613850250957019154935725360152791946758857601629213508798083701802026245752293500342965891227219471301255537639522702228209500841348731066396694008961004656402583155530776252717985334596834777521423561758021363229457514475451408513398997938777624853482005681960987714495776790850957537130748809341061080630038096266270837406545363231188235786998830415497225441980997963416346887672945791653026711165592018708019313027812619598376390990209364540923622457344",
+            "lower_display": -0.27672420582012036,
+            "upper_display": -0.27558623577136715
+          }
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "L_exact": "7493989779944505/288230376151711744",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-6530219459687219/4503599627370496",
+            "upper_exact": "-6530219459687219/4503599627370496",
+            "lower_display": -1.45,
+            "upper_display": -1.45
+          },
+          "end_phase": {
+            "lower_exact": "-591332279099442361561143679305882164037344308492968321816578357836417228884596299414376920664227243909675496/376453820913890074899487004189100025511481553604426544559634764263301689662404540823888964951038360595703125",
+            "upper_exact": "-1351099644577569885389361733069274345477226635677428703137434441114713607553350501258035967805349982815476877562/860136748176892598733343886651423302289653512937537946071635894779362232608248391056054462678730487823486328125",
+            "lower_display": -1.5707963267948966,
+            "upper_display": -1.5707963267948966
+          },
+          "radial_integral": {
+            "lower_exact": "-150119502543264490571622395912859033644421466312703341756754464386026394021194208416170587003574354061827082110916461356057868389518869035693114725295904986576407662573536491105193580100824119533882452430707407604301770245883617395518157936819727443862539689639508153388810062340144414651414838546495677055238029106463236766182388775932238297168826077653731793688089409738516225450736647608751894496993384308440112700878845281291967528472286118704445754791212839119837557619379603170943334812472129154703534226787439120212172904435811610210192047184273480068414692720990432967792227297405314289755344805626853974350225416756959992468886934401875636390344705475861994271299367257031376003241733828730912829471254818802028793475753744699749968083088979172027271947775550662011680781872518205399731173900135565996886331347188765305260681211381619308794267055489662081786177488545843634226467673427189444329946009546009187230948040291325346614285816774362017466116378960752152375638804202829036134010784611556461502044196654047007890655922671587556688897363747877697420913830901267444297193925486879318865930518575007560287880450025263153259564069173824977720857674329549095148018717420680178726773557419098310367186287392530634576052313523527335649616687783480878721690445924080102437623502394646633343406852112070964475953344278224127779661584223449258472041252022051680276485135019728586801359102607725163976786066034464376817528264194332671587625206999508665389790763643191028881702610890538945207556062343092783176603374906568271183964146305819392654633992121151710865112544129441954885349849706355749724823576977567309833962414228878028870093166141272821694100125601620637357073369789319568652270662917647267915306160115438457133539619478703289540308576601316620399904521663583933806882764710389751216681570146103670685301217683230079888115786868973818026022245229827526540659522949749100700896919510777584649162412530323738777860975291393862223490090955611851825597604562923918393787807445005570776331720907109937334289999917849179330509870177581086423415208354531055400216522834295560706986271312144718031319817779446078866058010418378539230256002180921065901388964703045844385728276688380979049266372535790728343597346318011236686054754252795019185407786697970923688246528504253103865707302247285474921314689753335523703030871149432432806071967542481268463597881505541390311966908188580805714022611167372039940427754539504055079646239849721235670799983605199352773696955926842644349739896914953159771372163101028686131945517171340509469452398205435593281875029954457863401656821027074051126689676313674979417514904013649301163914508761126792203877425182647315032471707644038738293289235267005199610321653053735102160503593100432966644047851318799801696714474256556534209151616351606057658330488313780444928440475790759616538031268565296874940476725503737022279045768573616720921733824381/5788872199308790127839267016268957726123391329848650349861239275471752647740404957079816263180015088671176933808449086056033722299162937720655499510733726926681702697875164551713920230100787877678327918892753805627825924608803627410045808009403826210027337524106237610536044879621637059607602287403548468189052496440027723804267437458910158146645115493156435537929155507584941437059175737837298529727979955516872011538919568707750309670007499064777452853037164038935657700519734529982070956350211131872602916238481336750547040290253791353027526225101260471517941114238670766923579293345294130446863150125414147101069901555160968827275844767309846104891123177382765656957584224579543614669166288567988290613504126323652318265521386982243288697590901224167386380372194749430198252259881381966820205435902131012639114281406137750308684631958903537684616037738041228289398039939313561682241992672879263277338451145643076048491900095625148576366432441736423370675041757541267045928248623828070732553274226706469692683313582932690489274199015478102851135101521328104419229169155267515024362644429153271167115198635197469302787023715432987118842571340464239376637502482287013937951291756804435130652970449895468114616999124792008325505678626480318148907752285107470922813088671977410602517300999714377020214512505662446314982961189266251346742928595018267938058708056732124491201296248472264482382513505215218560005451074752231197165484098178029505672029789972254594915252081248840635683777800765983308994492379565862599518929714665238031861135953721244943569058094487252719847376271106878971256839827203608617484082568751129769302042799134168288891347303343435381291077033674137213565112985468110782376064295286326369740834326199320293962923978637543425797313798258696971569903777279966416540673599608767034095782522107812535545331153246090208797460880800715722906130203938921237204661829046103578513702974660923189790749629154530796289816372053598872487383079034832391797546448880899015228157860382273036015173531226097322857469682376860454349993234544450573865267161219208974655706209023168883060124104200661979115610638839139242842717096644811229577234601904267464907974430518436592737035899128250368000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "-438785932058398694280511384795727774339000189507497016374396645727519842974916432380094846563329306640221825046356934465917987732896587991216597916681632668118459741596975110050653997429537109007698186177466882651570885846448918226458829086187317306520033631319316034383886261737005335126825980957456873887380516333362009093596964293977474045167223798094120715576981739815959816644799228644588501246533084189490901868840903401051475305560127344069201612677071283854434853519030702206533288240525531441690625814342806207913007526548831648880414418205508160684291622306451013672655713964985895976720554513726380414780453280520324292175456129525183500085611996711082648968807685140288822649580139309088585486100887214910133404477855946660464439771156862492081073518392440634676354654586624184376936073686927844978205646494845970898166169220743108202905206945177576095424993777791350545276056066399482445345980000481266474337108351281900755940915601759758803195943660438161982126322798910496859256227804986776806210623610397799080808427781156660277183384005402205103198575814438912737224724155447756992041724278238206394026707458714008173776058907547231726817685998660408332054899820852894800066631962897899528032565209029255159797392075884449449664686230145539477277341474617751608982879146653843788246031974985779862223066055971403578059159509098559352328147922353359591752613271731905989526670313792194844084544730478881412745991776254255162467052384197413221754559665149485598611708376488417718959830677652646825502830131570409635737032126143626502861450038424664884609228308885635762950081030054445104575161097169756793321199560435445248872539328745820382550579083439535410027533881772649099859712769231274550678807932393520332522166720880381354878841314301928618251874680927790303665624738063052939588850308078538129971027626699473622256734023616823521090965393615556485355557525789707158348228778541570928616175392762137835093397980775107853804434420201311679293557518241177879093088303097715264674242054888056778322396373196889873461012878153471185204300913896581520429267264534477423507281421168840393916424765441795701227217745029089814032978504493000180947450083028477655789519416136568528423351544094670731229930941643691893426251436542237541432940086371168860301217806854698088134939027815400874626596377532321474535986506747426404944773547358151980969520914678635656115407944318371538354715286323034695212716339996003233497382274707664915805643059364709391356048439258190555515927725973440631892058797416578922322764249903150148666064548270643164543069699878266805079517908952459080450514683602661643/16924201074711521622077643104416659961045989856036747561862509348371305618233259166031279124148269831203899722546674241112531874133325340029813902189951746843248723293694334468693739774986779406373293357844306825869721350203664133822100494470825335133970340117533462158090502907896818282450405957721023179057235662152193215293179923620782687282618274601866414890643110648055665600686028647492602735833105118752623071565500266724937588883857746148842798024612784284238075780317663140155805114558230232254070350740659441945453488142807740420220175270417790654157774679765072561180486854953379858064157690824532528746950136822661276376216741461115412537162198569046968679743514673697380172627523629882544649995715401388487063149163385720866049080240608192091889010899369472247470241092531630258298921337282781576613343334096683257302234250385242608016542440931466999408678357750635908577886601908333752086319785114187856601081329420554448412533877031410631632868738973723812671441730092734137520284273866757295110122869481775169063796349062307821234225962756516320149951878506578504970135796094977129228414165700273326082198598325788783795093990906871613412984312783914429974261458552575644213540248849515823184769127498660424624643396817842161652461828800949930338088593597867463067388240675574934894127839685043724481571048000336562397362541572220315435584721266581638186224027017024091014527695122918331733765995039893140722449413073974721326159304645305985078903083816312583297638335854922170542007599853195358843930914168786896699767060761093977885018982077630796242439921880313077302771194750186838258604688889162733560309832120405072659278032544938865711442796779788012147448542039671802488820982623323843503803754574677048977201875535358308930385728736989416325614744085551079820892710304580055348778383733831673277596379793215336895259702067132985737465138924078973291923315997884555560107873548089444165453452389349305871723282055929325514414206574859588378646466034777089638400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": -0.025932426451077854,
+            "upper_display": -0.025926537395850335
+          }
+        }
+      ],
+      "one_positive_to_negative_phase_crossing": true,
+      "phase_sign_pattern_proved": true,
+      "derived_deep_coast": {
+        "lower_exact": "537947684605031366563112525047728329060049225810159406895984671202641190446456075625300441191779714698589023838639237702811207057732910003006889804228994936870634280385707401605050413293294433215172453240985679963084410163808324425731938306026463094486091929008893960997634177836228009496428047925235746592159229195680114149886348869102661537278545877607204436693022312538762034685951767598188530922382861581421480865742121379014621795465584195101814328177317486240780088805692552538064366965617363873569829808164184557095557496348625639138188405359310364445582828530400926689024632515786975415201122843801419461804102256265827546503506719594567081563116037562191726346843782667153720327020671650875763951383799655950030209784232458807113223880047728857479274071443685864063029453961744958492434038754731854456144961151031325828586798141955035281118669778447699815251092521660214898434579244361882716939058389622518581565461047285981803153659152686734298208922105758648347220756707698187119928699404361473039824576100027199802483463564664390140944736064750560041359560581808108247823770946117876210718319123786681017175484678482646585374593076207665567126863748011030572673855868528276365524579153275489970890125116542593775556050977392478446182446960259264800068404973283104575707009973490347033203673044218305255180159801377750148060686639601986210521899219262764434308723318624037587528381851360088453321033954501905126341409090344149949647127855877118980572594014874704997057408531650797945577307334453967176423070342656632883066021174114284408055367040556987778427098710693406436671786584411853732223208690329573339497178010286737188268712585203035603334895615455182748791155686684896016810765249675625316753894879354982402387714672731601519139335264704283901269288936429533872395366086712554702148976110933330031357593690654776457729561188923186918324446355980083012022053130942912169390275954672484191662638606431182315058465109110311449497267687295899838170002060205220694848731623357847741304521602696546947647159338908689018565737943603750740104000570264701157267195970152402044030359923725079074067565957084870497259072469750695591538931105425573545176995310878965514379548140872471068514726569985374719686335575877111794767984474542303326714882382736879695808530854573641841796311170527855337796328522715081357776664084458345353497024458890142920572262755258199738932828315673726212603549506420855020026148879183698321540409886801142420774956836045774592888971351378774618432779793276339338010453403720206823584727153459552642092693420120344001787314115123593055626160531839137684628305615948909110698748956494151139080797013640401227510424093150074158842396502176540648254069720376658440382586287366769667825291689500534180238031580996123378513779193035255268259030277340358209982995918742785534670929026242903928358020775517659383896691971307461491159160506032576455923668153273074134538544361422662316712001739621533698322516228044359498551867700538972797198592657306129396195696978431082210890044321075647606345444047971845006606925670104350335544276382485421339009804845184918452093936170108420877349056021902256565993259546177575110111929436146488168435699553425197109932394535787227071546370645109489506030072358528744572573317300668021982856448103/122435102112779574372050268134174775744229357570170127573750689192580553169640125669249657159591729597184621254648589386652295363663605675527308631828361400637386518679511924504609701501307097277943944256278062305109709722094118120008770240220685694619145957095749859267177919226985715909315304283151649500452727610705824584449825472237941845923337007667239003877341829065216438108466496690321353111539727307656483275193476981343451137077554803154813071408120574224240048650090618012114664264648792632096606560630984136668077038125007646295369595415629693420659226311018135063134198867492720937677351390459239883729948697088046147459952092938322860837183252925252603851367707972490332460971776464655019414679122221268690147270806374170584896936599379512386635952883843339614508829843260615959229553171420921208840365736200785084059364693047108454580498282866030681528824304762206566169121430188206624324660267846569780172834849860188590386615244541059081305614114340714300222317003399495143595531979183682723025896574841855509539964660419427523496320754935733622211241734476576078674004261771820324355082539234617761553465892703760667461152346457918216113074160169328144706330289461670454259628020245930967476793851250285138149092555407056144778509032245991767581580650760485846663966753389879310053362628449359293459654618550192096457196420917335134065699698085885263022580604976125537491846615469705748364307009369013709802688426534127327673716197226873895032022263583210379561552876700620023157138149019629561177155743940645145354199458167286430273033534541850751303392129185563595780342984269979143193564023973149363526631637646636780834348472556594260333297940147918901432105664320610521175319587877240917938518280532127348941370970051151051635844586331559223352018292399251577338083309620012218166773710135560059027616379012622696025324866579255266728082028277054433364589909683005466573125940929524085285406969408097465512504829264527180436311100593370593176149143880984405544068524047058902746786079251630264596279110767770076338463222710311432610857660161598432021208522171077082926406172940554563592936807150302511419512328778912487964361219885768756778557367829189605956546165826576309705839178772304632104573171814997929901073098109683145807645702725956699335305385076583557990364886268102535876682438187743606048784824114145185637753080911365271459436099734680425633870186386126790384262077001302837142453838647858054499908671773434658268430686599312029158120509987166601938993410278997846266927046019188343184505204788520396822846832160194418954984407214182734233600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "upper_exact": "9425420072799556868583839746490599268802360499522526424044652403166066502670733928730246612912077992941112816849001018412676406216516771999508274914386713781811648179619481655728619472099702562049348418014943427403030445988602244218101825349716174707522130336403198280118844428209961931862930128769985565413875048764053199378893210979642102161700049993972730065889270885730774479645013295455258745431240622597922565282484634079294818518860971057260469547208482157950800190682345125622649130137499166937664600779467912147013310090916805261934132836521096889613418715151688502952993412158410994058884124290570347144343139387396768517509544023093894041046796656591548685264554064354917198319417988894588000705631200110617311688675100379550687287286035642679302285931104791485932273819474465877592433615263973601248471604628500581758557799912518505217910070414858160478674993216831604148035932494854943288692337092881042115292595865658407227527447196344929803646068232679241787723136237988166242520201531180840034339796688921059489794399721041877968643116880285009312325484199878703658165946628931269063033956042958321986504061680927722324327901376871217738700395575608702168138990768946192932728037160791241392181199427490250164571225268749942904083430038240562943048458572608043544342378850616361986891885884575157857451577450752125729361132342769806308887161854543655992279904266494498180945152012806131277354728823801097216762347869859886458145592307635654718241891215895586891128197941396958854840718726232573632769171603582860740113403712446260733931462730880652309155510301657239897306603982803300666653923197280867579593686039086575887852465250611287496851552573533493420318066173589192849712927249948143931853567720286740095370058042560672360469463241602646607034302184996527610555755319219801068274413617838109704268096813708371397623397004263744423621861757784309700054448337073193750989525755388697694724517242027395174019857878699305067882620021115140633834561466083616265012438988636542349441762333705799591963460982107664734478844989454428246907624061211472816069826120074789121327563206326236939670510298175474948304782437284477208560026460691777537309389920132213580236128303495590358376525871824930890443874558613180333154465536969088439047625896909533479607913125276752706594952907576928127880214903787377415918340886714894193090638260747561113094728487762140577814432181643038781829065603843955113063954581069339707561595660424692334320820434991994556483664708143731341698171460373936294853598217489346933361946596491132302762981939438836884682354051810331380877479708951322800569722283784766774542732560093590371701143092646162949934178843487094803459863727110226270431896482697077893625603464665801274526338593202668168468901300170761597719441955871141368456153239176378124553820407543047082006273781732364014489380641212083597190650212123595217313085087052195040080490399412388334942907424461107086594180702839808672236193258788459706651211147047112052183397277988314119308742779374762420797436232317807738681081199495826203665822586842684374073886804469093496742902754526043/1681313101538152936966362044839258139221676493842788299080549282323584403428146183582710150587298597628124961679444605102534904720983419119919007944873504236184095928999851024952060788125454825617901163815725022003701453072558258975632487682351109241384950535009772818811724569106584768988072772750967793183084870491988394558405126883809188129773168928264260360112202826254086092129528129520465693475496042610041239580160229840627322759621464999003723265303371798096218498394222746133553208024197561068709282156493133639557808416883105632205694299616842481502439925284411628256543179950226952978480536412174206499633487466667968895299552278548794534836430310450434217141179677364684293762369099842348998226038767361220145910156325691449824904405725999962317503750576879590711724828375432949401932987985520866089881127723035674499932063245214171881514535829960777409877848259396913468804226309564318227309076940376790567859540217376056368965179522991977544612218053025850909811742332027613720957531771979228239401252910799287398019976220005968135829285282287054838581222536887798689306417613877239780206920684484146868551851589686762953065926764325349240486380105261689877800526604102062678413604586718405731653764334494611478175888417787336494716988612482523512359745982874186973230685488438046236330068400230454842485695526506245506649001635323360805264031989066954676338284544495150225042812929822073106102405042749701482611184210061643410937160874780026338242844664637867451499841166275103765531617454177756569407559001540559776673113798478181372757586195190808412925303241806535076957428392045002282255692340165057438530062520564569716346488524520657573328069570001784666481446629661725228534587719919474343570058247063922664600705581435533721401292899097901127674090292887276493628726538260900352260106351907215130437040965695184723658995263052115356444186607096330072176791459744860982477988753007768808623551969147809761425329553510502680638985595332880735826352776031788348372460983489804007748696699035591817678840287529833913614455018150272780038334960960889932483595072478447215036748236797646614015529226108446860836227083202909467746884058602163911152475469128867303150999912053894018822965196305300915851061226797570367554753028135947669923348310834166896543263166186582645280113415926341066129683548478179595856919775018360774000324037826283585576412227334910156524608566324691549306653495462741777318927321091432244917463510199450979746828965862766437990400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "lower_display": 0.004393737378595132,
+        "upper_display": 0.005605987406020146
+      },
+      "exact_radius_lower": "4/5",
+      "radius_lower_proved": true,
+      "retained_feedback_Gauss_curvature_nonpositive": true
+    },
+    {
+      "encoding": "exact written decimal numerical data",
+      "exact_shared_Hermite_two_jets": true,
+      "hermite_velocity_nonnegative_and_less_than_one": true,
+      "hermite_acceleration_nonnegative": true,
+      "hermite_rows": [
+        {
+          "index": 1,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1628355810669987/100000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "0",
+          "acceleration_control_upper_exact": "1925698194170473/250000000000000000"
+        },
+        {
+          "index": 2,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "249475047173043/2000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1925698194170473/250000000000000000",
+          "acceleration_control_upper_exact": "726826069930943/25000000000000000"
+        },
+        {
+          "index": 3,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "40318389945508457/100000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "726826069930943/25000000000000000",
+          "acceleration_control_upper_exact": "3086291238638901/50000000000000000"
+        },
+        {
+          "index": 4,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1830748027687209/2000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3086291238638901/50000000000000000",
+          "acceleration_control_upper_exact": "5176834699586217/50000000000000000"
+        },
+        {
+          "index": 5,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "3425010658292879/2000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5176834699586217/50000000000000000",
+          "acceleration_control_upper_exact": "3052171841266797/20000000000000000"
+        },
+        {
+          "index": 6,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "28345767650094773/10000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3052171841266797/20000000000000000",
+          "acceleration_control_upper_exact": "20725289667505933/100000000000000000"
+        },
+        {
+          "index": 7,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1077915057397069/250000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "20725289667505933/100000000000000000",
+          "acceleration_control_upper_exact": "26598070319402367/100000000000000000"
+        },
+        {
+          "index": 8,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1541283917484687/250000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "26598070319402367/100000000000000000",
+          "acceleration_control_upper_exact": "3274989834825207/10000000000000000"
+        },
+        {
+          "index": 9,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4204452310927977/500000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3274989834825207/10000000000000000",
+          "acceleration_control_upper_exact": "3907068688736381/10000000000000000"
+        },
+        {
+          "index": 10,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "11050572124405501/1000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3907068688736381/10000000000000000",
+          "acceleration_control_upper_exact": "181875543900251/400000000000000"
+        },
+        {
+          "index": 11,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1761571551584507/125000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "181875543900251/400000000000000",
+          "acceleration_control_upper_exact": "5187035216463869/10000000000000000"
+        },
+        {
+          "index": 12,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2191651206490433/125000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5187035216463869/10000000000000000",
+          "acceleration_control_upper_exact": "727709637041243/1250000000000000"
+        },
+        {
+          "index": 13,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "21367588603441377/1000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "727709637041243/1250000000000000",
+          "acceleration_control_upper_exact": "322318670652917/500000000000000"
+        },
+        {
+          "index": 14,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "25588418124854607/1000000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "322318670652917/500000000000000",
+          "acceleration_control_upper_exact": "7057861936166543/10000000000000000"
+        },
+        {
+          "index": 15,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "15093339974984611/500000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7057861936166543/10000000000000000",
+          "acceleration_control_upper_exact": "191346058254147/250000000000000"
+        },
+        {
+          "index": 16,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "8788041002886899/250000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "191346058254147/250000000000000",
+          "acceleration_control_upper_exact": "411638382438359/500000000000000"
+        },
+        {
+          "index": 17,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "252961740966769/6250000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "411638382438359/500000000000000",
+          "acceleration_control_upper_exact": "1099206682122773/1250000000000000"
+        },
+        {
+          "index": 18,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "4614034809512361/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1099206682122773/1250000000000000",
+          "acceleration_control_upper_exact": "2333977624457689/2500000000000000"
+        },
+        {
+          "index": 19,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1042796299184491/20000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2333977624457689/2500000000000000",
+          "acceleration_control_upper_exact": "98592038666841/100000000000000"
+        },
+        {
+          "index": 20,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2338414454857117/40000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "98592038666841/100000000000000",
+          "acceleration_control_upper_exact": "10363339446973117/10000000000000000"
+        },
+        {
+          "index": 21,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6508996889135563/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "10363339446973117/10000000000000000",
+          "acceleration_control_upper_exact": "67801105168897/62500000000000"
+        },
+        {
+          "index": 22,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "360082656257699/5000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "67801105168897/62500000000000",
+          "acceleration_control_upper_exact": "1131356701287523/1000000000000000"
+        },
+        {
+          "index": 23,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "3961391781031077/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1131356701287523/1000000000000000",
+          "acceleration_control_upper_exact": "5879656563560687/5000000000000000"
+        },
+        {
+          "index": 24,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1734230512026099/20000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5879656563560687/5000000000000000",
+          "acceleration_control_upper_exact": "6092575491930303/5000000000000000"
+        },
+        {
+          "index": 25,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "9445505779007439/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "6092575491930303/5000000000000000",
+          "acceleration_control_upper_exact": "251814947682247/200000000000000"
+        },
+        {
+          "index": 26,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6402853874131/62500000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "251814947682247/200000000000000",
+          "acceleration_control_upper_exact": "12975713005075011/10000000000000000"
+        },
+        {
+          "index": 27,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5533515662306801/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "12975713005075011/10000000000000000",
+          "acceleration_control_upper_exact": "2667925350979583/2000000000000000"
+        },
+        {
+          "index": 28,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5955786080763331/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2667925350979583/2000000000000000",
+          "acceleration_control_upper_exact": "1368206733029513/1000000000000000"
+        },
+        {
+          "index": 29,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "3194208570226549/25000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1368206733029513/1000000000000000",
+          "acceleration_control_upper_exact": "700132408363823/500000000000000"
+        },
+        {
+          "index": 30,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "6830720534686721/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "700132408363823/500000000000000",
+          "acceleration_control_upper_exact": "2860210175494517/2000000000000000"
+        },
+        {
+          "index": 31,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "7281999429345899/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2860210175494517/2000000000000000",
+          "acceleration_control_upper_exact": "728852587797641/500000000000000"
+        },
+        {
+          "index": 32,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "15483103418460767/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "728852587797641/500000000000000",
+          "acceleration_control_upper_exact": "5932228685219/4000000000000"
+        },
+        {
+          "index": 33,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "16417471114095133/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "5932228685219/4000000000000",
+          "acceleration_control_upper_exact": "7533482860182017/5000000000000000"
+        },
+        {
+          "index": 34,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "17366186329134733/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7533482860182017/5000000000000000",
+          "acceleration_control_upper_exact": "7644800265513243/5000000000000000"
+        },
+        {
+          "index": 35,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "9164184441238381/50000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "7644800265513243/5000000000000000",
+          "acceleration_control_upper_exact": "3874460921202213/2500000000000000"
+        },
+        {
+          "index": 36,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "19303098565222637/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3874460921202213/2500000000000000",
+          "acceleration_control_upper_exact": "3138196102325951/2000000000000000"
+        },
+        {
+          "index": 37,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "20289403458816113/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3138196102325951/2000000000000000",
+          "acceleration_control_upper_exact": "1983513114691377/1250000000000000"
+        },
+        {
+          "index": 38,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2660780266063641/12500000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1983513114691377/1250000000000000",
+          "acceleration_control_upper_exact": "8013811437184901/5000000000000000"
+        },
+        {
+          "index": 39,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "557311543405641/2500000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "8013811437184901/5000000000000000",
+          "acceleration_control_upper_exact": "3233565413414163/2000000000000000"
+        },
+        {
+          "index": 40,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2330647169002747/10000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3233565413414163/2000000000000000",
+          "acceleration_control_upper_exact": "1627030098965189/1000000000000000"
+        },
+        {
+          "index": 41,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "590790698770227/2500000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1013821753128851/625000000000000",
+          "acceleration_control_upper_exact": "406958556738067843605200531537289531057932846179/250000000000000450000000000000202500000000000000"
+        },
+        {
+          "index": 42,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "23954310713676769/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "16020615777973077/10000000000000000",
+          "acceleration_control_upper_exact": "1013821753128851/625000000000000"
+        },
+        {
+          "index": 43,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2427129685680733/10000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "15645936336723807/10000000000000000",
+          "acceleration_control_upper_exact": "16020615777973077/10000000000000000"
+        },
+        {
+          "index": 44,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2457871596295549/10000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "15054990054074033/10000000000000000",
+          "acceleration_control_upper_exact": "15645936336723807/10000000000000000"
+        },
+        {
+          "index": 45,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "24871641168153813/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "14184472148999663/10000000000000000",
+          "acceleration_control_upper_exact": "15054990054074033/10000000000000000"
+        },
+        {
+          "index": 46,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "5028737835505821/20000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "12953468725736261/10000000000000000",
+          "acceleration_control_upper_exact": "14184472148999663/10000000000000000"
+        },
+        {
+          "index": 47,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "1269337885631709/5000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "2818117043681529/2500000000000000",
+          "acceleration_control_upper_exact": "12953468725736261/10000000000000000"
+        },
+        {
+          "index": 48,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "25591138862700413/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "4538105325538061/5000000000000000",
+          "acceleration_control_upper_exact": "2818117043681529/2500000000000000"
+        },
+        {
+          "index": 49,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2574636242129801/10000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "1591193207771817/2500000000000000",
+          "acceleration_control_upper_exact": "4538105325538061/5000000000000000"
+        },
+        {
+          "index": 50,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "25842967345649737/100000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "3243560959793571/10000000000000000",
+          "acceleration_control_upper_exact": "1591193207771817/2500000000000000"
+        },
+        {
+          "index": 51,
+          "velocity_nonnegative": true,
+          "velocity_upper_exact": "2587478542495509/10000000000000000",
+          "acceleration_nonnegative": true,
+          "velocity_leaf_count": 1,
+          "acceleration_leaf_count": 1,
+          "acceleration_control_lower_exact": "0",
+          "acceleration_control_upper_exact": "3243560959793571/10000000000000000"
+        }
+      ],
+      "phase_rows": [
+        {
+          "label": "outward_peak_spacer",
+          "L_exact": "2755434451024161/10000000000000000",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "24139933766455960179267185775923223/92233720368547758080000000000000000",
+            "upper_exact": "48279867532911920358946893009350937/184467440737095516160000000000000000",
+            "lower_display": 0.2617256863324774,
+            "upper_display": 0.2617256863324774
+          },
+          "end_phase": {
+            "lower_exact": "24139933766455960179267185775923223/92233720368547758080000000000000000",
+            "upper_exact": "48279867532911920358946893009350937/184467440737095516160000000000000000",
+            "lower_display": 0.2617256863324774,
+            "upper_display": 0.2617256863324774
+          },
+          "radial_integral": {
+            "lower_exact": "7129627517277909080445792992949/100000000000000000000000000000000",
+            "upper_exact": "7129627517277909080445792992949/100000000000000000000000000000000",
+            "lower_display": 0.07129627517277909,
+            "upper_display": 0.07129627517277909
+          }
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "L_exact": "1/50",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "24139933766455960179267185775923223/92233720368547758080000000000000000",
+            "upper_exact": "48279867532911920358946893009350937/184467440737095516160000000000000000",
+            "lower_display": 0.2617256863324774,
+            "upper_display": 0.2617256863324774
+          },
+          "end_phase": {
+            "lower_exact": "22772568633247733/100000000000000000",
+            "upper_exact": "22772568633247733/100000000000000000",
+            "lower_display": 0.22772568633247733,
+            "upper_display": 0.22772568633247733
+          },
+          "radial_integral": {
+            "lower_exact": "10870769510291098116846001685549670819970439614365806101062277498550312747495114074710022457101490715039555275876574877202022229391396172746668669217837784189842248782071057983604357171635625675071167281180226597962129053055414042794022198883453564041071961415524035056831892668158674251951094159206114238754506485977337884668541361549901092670330196591174198107790336249328941801599458528041191616843991276175199422896657518584699368974005260010329115218512035918647893068259404802123058679160749042437000587022302491131527570546150266810913695970050851438436371103091263155775559441546232885901912963135978148543961524992250754788893958008860848497804443379213992153267806673314883399159841815869631212835605709036677181591262282244991826348957319277282712382067726270291949609722641543761373421527080213452848487281335690706621136090407405561945663183/2194003056702665570526153959666004340995903398198662183641274064228375192394419877207637735835792468066516945921312259507484533553978390071145099263346003434328333331759295589545451871898462745888674150318156617765817973370058958749202967141188958923494618134484012019287922082657779846817034567757751446409117948212630126208805688434682039630620846856630809530693605676994278042631101623925541237033919475318459345049182908359450813951765710538129430147210295929086439628151991549139814246654175540699049472406405625936074506240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "34994129845201890006932329817794413301315054769901022016376423412547421701804469195994437455529533854136754122205711358366793480842779550783863174362406623498959250404842805626985524983234731771505115704482195015006125034016839373689381380933775758814191483368654837953404823732830167200125363464460425479721441756328811846309946937847957044813673904585169021484553655301924843431950025303282890185844279881601640849446916350964039279474533371349836180766103855538669893205261259908091245027176719737596025020973740901340511334431273195676431377195400171327279239062798541095664700243116865678843360384083728362747371222560778117950921105879642749294568801375258217130982049534593453057586552491650808888663260543798646337702381184734387422786968874223458630141308732575361098093362024932593419822495263988506101857292859283944536798870497309936271574940801156747655264296366520606852047457116482866969555599485838856323058336140931427298870583/7060829792190226279386350532365625073089829032763387415133036192377673869200481878562307182085800145285712604658627336090706322173397655651180438525458933514413424241541991615241127596175193024622096620247103645395347461431253835445583257500649521615698540516173048519899392606028030360144184321346306127992684797399955204264391853749415337406418121384902350226877641748898998102968385858029360983440704229077247031253806174097193814816373968699702848427291245147407469982612770950883972494843454310283757626212670692124340618073351525335951871307780872963463798525855518799958114304000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": 0.004954764979511294,
+            "upper_display": 0.004956093104511294
+          }
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "L_exact": "9235752021390159/100000000000000000",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "22772568633247733/100000000000000000",
+            "upper_exact": "22772568633247733/100000000000000000",
+            "lower_display": 0.22772568633247733,
+            "upper_display": 0.22772568633247733
+          },
+          "end_phase": {
+            "lower_exact": "-4314494119739403/50000000000000000",
+            "upper_exact": "-4314494119739403/50000000000000000",
+            "lower_display": -0.08628988239478806,
+            "upper_display": -0.08628988239478806
+          },
+          "radial_integral": {
+            "lower_exact": "29821932867933752641319935204856323738786315166190808103038020272931932710397341842424183019358405075981843254946158802880751741171789069749046572433013892441144332155818757964244880127715789188525366674592904973199154447062398227393528323857862484177208250170922696278094123906596648210254432066575846184189169178816071789561592213874232560050853476593120738064204586197619389584661740026093879655654684220707905831270445294229709807335734736024021298882554936906909528696447569887517897625423541351366928641607464529506612050025991232606520437269254457213/4608702883968215236103436747578649904684371064284113675822363319620647938408620936897532249190172710333557571246258824527337650984840192762486933845379757511802880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "3158713737393861639767803259388403017629978870919167184405801877408039561457990726732969659960783881817974451889266088335190919815694983942085493506032697004589082414924400736558860608172939520783034296766587668003936950512909900909017181140144037740914262337652782558803852211872833183557594707562727684094779490549113503534333986938534426261380074853643465926663354239964148927282006210241905491210079721539699735056737815344370398607858488773077568518362366612937878041550459055160516098770517816216986068898747029735181365470258490830792575143222244388283/483913802816662599790860858495758239991858961749831935961348148560168033532905198374240886164968134585023544980857176575370453353408220240061128053764874538739302400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": 0.006470786600644622,
+            "upper_display": 0.006527430544465341
+          }
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "L_exact": "1/50",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-4314494119739403/50000000000000000",
+            "upper_exact": "-4314494119739403/50000000000000000",
+            "lower_display": -0.08628988239478806,
+            "upper_display": -0.08628988239478806
+          },
+          "end_phase": {
+            "lower_exact": "-6014494119739403/50000000000000000",
+            "upper_exact": "-6014494119739403/50000000000000000",
+            "lower_display": -0.12028988239478806,
+            "upper_display": -0.12028988239478806
+          },
+          "radial_integral": {
+            "lower_exact": "-107489957818438614474989817957380366075594978822320557319219873190196969991740940025522696806156610364590173492966906770721392838473312017177442804192904685355338743535176979987015744553695089857618809978759226789992331591012617283852206093936903197036654819550977860721754686453339633309731303376038315083219464780786944136822711660922127359087545558666024765677001244026318652623131678339418303618421/49412127311853965603192077163401316401152000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "-99911023378769120560754351264785829335858597010233861049687361792580801373871075790289289826922332847516530068815053137524856015788417042206249996102804913900213160102769969637686448063200232167145814197208546324954734484418824970470501840655041404554827285886218355453575912947495582771448183650621270226670147252062856774011350484694393639011575581450401230719/45956219598078465032730726528461045760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": -0.0021753760395709937,
+            "upper_display": -0.0021740479145709937
+          }
+        },
+        {
+          "label": "early_shallow_return",
+          "L_exact": "1014494119739403/156400000000000000",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-6014494119739403/50000000000000000",
+            "upper_exact": "-6014494119739403/50000000000000000",
+            "lower_display": -0.12028988239478806,
+            "upper_display": -0.12028988239478806
+          },
+          "end_phase": {
+            "lower_exact": "-1/10",
+            "upper_exact": "-1/10",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "radial_integral": {
+            "lower_exact": "-63232225517484186126520221027498148408204708765589534905617781527427462904879822748396420668268438724770058856969663823530547730991603996889284498090100416551079418451779083194099986225546209247759539676357032394620706890628430383413091910890584911784957535383510285732656209915225946205148081550628827368277697909381261442000001708427512981597776709744028422602419196649412390853205673381666964466590784592371662063248319877273108619803527138174604421573231738167032722296580870710873091171672337821609601540719929780450283850905575286226436293862777027474116538741080740054136264438446793654724212192238846258339963899294036886652101835842366235691437946161/88668620197671666794401164628443128950309690876352765452285786071795516878356386923382452426211826660035141859689847395154419420805098356078485831058117023309262421565702559517198349390030436607555018619552552965140971918881673779532134602431500443620984715107981618652991149012642955264000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "-258862990631476571183139906796715581092249906078484177077128822269325102919529406655818763455793377732075029310059174508074187768963425957656519390183259893087503141121889200176974771979353884724096184994156556985018768389218715448840316233082417427771851453940156469113247521459101546736410975855305510736204647692586620578773489915467011843141837457758531746887744945593774739954983733352353935968108939205212476379866371610580228786878053117977280996939558957214370025980399192682135342985726477756176448890542024851965208410736300819473189433361625733233044697270075125861411826937195728643067/363126563715347881418804321661618740066313634359544974124025767339126560089282973627857485858650012233655360472795204781718346724041126911384693564712048060765676845904540612454881816011580296910773658524781566163502102740015215809876601339114313662176983777280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": -0.0007131296886826326,
+            "upper_display": -0.0007128726358735829
+          }
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L_exact": "1/50",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-1/10",
+            "upper_exact": "-1/10",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "end_phase": {
+            "lower_exact": "-1/10",
+            "upper_exact": "-1/10",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "radial_integral": {
+            "lower_exact": "-5100583316707271679188150224611356358001/2554547108585472000000000000000000000000000",
+            "upper_exact": "-190647503801572537907907237221027/95482810368000000000000000000000000",
+            "lower_display": -0.001996668332936563,
+            "upper_display": -0.001996668332936563
+          }
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "L_exact": "675/1564",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-1/10",
+            "upper_exact": "-1/10",
+            "lower_display": -0.1,
+            "upper_display": -0.1
+          },
+          "end_phase": {
+            "lower_exact": "-29/20",
+            "upper_exact": "-29/20",
+            "lower_display": -1.45,
+            "upper_display": -1.45
+          },
+          "radial_integral": {
+            "lower_exact": "-52757849539069305178075399704724234203483751346288785671272584140060205544952702743901802030332661903363136054540609944420587237705043195287133718771313924930713592971467162034856964988082503109868123965597399432398903742165298460271901123160723945400736332113539124985735449700221285974601493593711409113328971339799378887/190651372122334708918289464334482888595337682272431298839619679385106413017840007976056449687525245629143735841176401597763548642621519813910758012679233107967802925036477266706817254374012473362866626851641666788669272821021022050765644471575703157927382260747434200975184606251436078294829807278489600000000000000000000000",
+            "upper_exact": "-122256753738369511555376808749107055722692384169259345855732635703808071043046019412546629786611445687357734898065410204153102107973537011729437155268684934752862112895751706188945481178617157096505808370831967498382533757408581073705648914453322058982926320095888470653148512972476023426183/443624310177075030458780626761988797726020815887117530824208190174678333664269998029163627039767973334343021160034560638038220192126685025673315252741662173345792788612105519899741205422883991469437921684539287385856489271636577406805946751182444880934723551954530939699200000000000000000000",
+            "lower_display": -0.27672420582012036,
+            "upper_display": -0.27558623577136715
+          }
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "L_exact": "13/500",
+          "monotone_proved": true,
+          "start_phase": {
+            "lower_exact": "-29/20",
+            "upper_exact": "-29/20",
+            "lower_display": -1.45,
+            "upper_display": -1.45
+          },
+          "end_phase": {
+            "lower_exact": "-591332279099442361561143679305882164037344308492968321816578357836417228884596299414376920664227243909675496/376453820913890074899487004189100025511481553604426544559634764263301689662404540823888964951038360595703125",
+            "upper_exact": "-1351099644577569885389361733069274345477226635677428703137434441114713607553350501258035967805349982815476877562/860136748176892598733343886651423302289653512937537946071635894779362232608248391056054462678730487823486328125",
+            "lower_display": -1.5707963267948966,
+            "upper_display": -1.5707963267948966
+          },
+          "radial_integral": {
+            "lower_exact": "-74720726652554635405751721636537506635198786975696627375780652048498767453176631115722463456982605046464746736105238204886089485800498529024930048424146953960070370455242198527200212005084514496939797378912229159487586745376048248604922401114949714928142333404491085053623702670297242261620020400967185782003494368090002498259898971329812392720860084817985601759446309675627210845155462888300927804083454465244018398420991923268814522377121130146677766340706317594915563294569932104935044963171779024222822442435698716424608384562563971747858045169725361778901486607881932792246824357979402080863459402034895180099278263298381570421134528773799792948321914853648286093982232346813718319927294497866626063876605534001964372440041511698883922530523720262784839271041886808471117040377745895298310747093456355646084528633827023114255952683724900800455695367723341707208733164447120026354482183148677877776804970198188305490963306974499974219135941131046395174991330437462130278136521835819975377150593552711062928776232938051638524929710063647218957769286931178855931812166784149549101386439481985132875624934774594416327662733175610004272941959678639080531984122946404355974726986050283051257630348311083011193529793679986525262168475619784032383303956817566147669642796940718622206923074169532147082869852263158324318351728846684903970384872852645313057505771140131460297775148452882827439869992370922011817722490961975899023818236928557565516046804887605145942473673831746561567644577680945078739570026982377754234031885754481742934392675546275710912311004919386834418867551801089550188855524755503315110355663881534767000224890961582802657588977760707046075758662460726634671058213379477247024319691967135129331784236590590543977332139470360814126758933650602288727720533858939188059464010868587004990507753326700889346610004461262015054449665551988813840306933676963081239078176480606867282261329423417002300289273238128939340392628531491305499596968368330567784436914479465535527434755775908931902004245339236508997933511971414516856745481269364315933556613581353777371606156614296356268916712775411654597562729378789422359672063106219274334686351791909318529536987134593644878565099334460884897863650075991511259739577741077978734295331215399770135792806979943174721065904207674019055711527963697404247842553443060137563171126839325623330632206937790848184322980230907792699026551017284643577442156359251944830766332016461611052032106265610713438397644684581761212608257061592301943802336882529834552008156405910022973990687113025590482008923571969741085671/2881362713725114918383305907345658631052174279919818465187670167222075894868092322732804218768024622009857671115083783311686388673250092057157895939419565473117106296113165652432207077388299223067980067933230488049702056926858265549743506090866107310522496318480610847179480804547310719266990543409208927088231452892868116348936334846831932677558020893982593290065129792370037070577523435577603718986182918011633644431969883795425200972405244221954001537891529854128743166109054149823626631984723087388191060406949321597071959965482738310309596471871077160254913248850517598658514213643393821727888643743652545705153049362280006157985002637629098080538540656899042843807248322397449197446057326761374671173275473297831179828741775368739946586764222518325713942912084250972321004857077718700850393664476872725477140849429959313553467310990319685417514216249583409012378772542867840623375774197647514998290140220545912161632044660621912188271640928703689952188940387963884852365767000558528439256089402459659549501263733229576591464624506866775762434143221990520380966016692475175653290692935504513370628379384189979471894243274901405995869752115626634424503809451896562942205834812385188422052681182186337003851655158151840846591255122084184963698217467301683925586763918500958999667535365855211072516519952866210436442498894089689225589868099895620282398212962560973113184533569390425006489679127729170667983046169830408589416096915638092526106932485926604184887585802046492025469181917552425922607641682811484937896174414709800885545076840209298487334706383972249696630108415297836471037687146505685924723778870343308618209223126978889933601817259879668003619132353557221723401765368370375969706752116004113347753957882068417325561444242618586457840385168939583612639573502068325828929212136942935800086808109141692158291735753371127721994989101349257473870014583359736850426465232146832490256471714928920846432447433471679687500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper_exact": "-290306088984430957072526619626058105866922751219711392493103461340886684341009088222695107914278212573844946666214399537430586727685547144065870839530940916020592365249353113335568218154581804702779619924002175284340409047192076861976812949965379883497604118081286179775457894591243377102375848855935459095236538054822215330878810954854040845636074695063744830400450390292642855989733084067779171654429330573044476793804883216647330369637450684955747571183685100756780482583062418009785162397774653008825659908985921286754236772740806167805538279960384880969790354558663471518281758468545888452343386511405524037099130119370845019455199145537498718549517159837313397240489446768281649731992230368253279442348444179993736863215433993280152918257922218037850566063253585165382785316044864770561058910289488020129074515284343780008213044449797858185076240783511739467726341667985180188998751637311426033704063338144624511651644919419041880739302453296346022527544886751486988065159188955606405134002261602331114111190304896192616458770628136674328829996745401745467120254603516601866896970698679737532181413848831970300064413871803328404610217217837684350463569446560208846015061668796936451057708075635950416000800159359706294636702296369401384740415862807035404434212516245144809235824122620588576095992731131758760342626279704461560387367542232083145132169008005616275066119639988307269605786602699209732019298355211951965689736469618122851597849840453320925744514638329861639692183666391575285421982099585250264073671584891696161149832850310270284855917064556073675474284759057668890706742128844145842925972519465710562627409716209429312570174132518663971848827169213010619396036197109892866447274960886141955177268727530372068484273245106282210218126761976333232848583587661253038904337057487136070632555607588288788263922563190359404860805063911778320570005864570296919339469010639128880150761407655024499063184924856235052626616733318441420661660380170660131860200310537927992210612595458370532442607135917841831107619151820206048233193645075811445339557667127984463759307891357321746070253805241925452448714548672805050865696619500196685053682384765647407721985332499940268343147078443198966642345642269343792928850159491412450159942527672837679753768632300272529756016850024155878639716683482917354858317255613/11197256484812962596337939260318079469724718892975321983299098613722927854391105159423250054372301198957783261204416430306270448975477708798701611627066563585585434789447243469808936239372205813170093919305045077533120980646199714430454749780332713762406366858673751916285629231894924877072387546679610042773881715111050366584800239945260413008935495418101985712233978726351439470439858309170143095060344099373268567375042524239145766322149827920599677941880309888944672358676918941451292697315188460440930683881951119509531307241308929857011423310315515131211971770149954908367701704296413034544942862667483728550039049279178732616282079000789955425272569934404117907616644196207807153905654312974682222067585254482494046928571682892173098040013004642446936202353307004586768514263963681644865599581401064844282188167631979549624809849974003754929942531841667162680623956671993291209724818766668010847516540474056431954977941061427874992916614950109139022895868322956699808128877466346849718123613720176850850017066087228004088516743743541028425816849980024286343210664815703211994659209192134664863245946324334330647652258372064997942223670954474078042241199737549859838992430999638619711727734265115777922538771246093785432544129329416533800233049106840630884941638099334919833617784088041650101322644864745784542780974557607449593103985717966047248694096445782487219618342574073368475913109498385732079323833677077087400996247201063285665498673280614030820403315880346615574794888536292306265533190454837882828245338861811682923480310716775467523985332112600709086243676633019097163635120996846018811379955910891570836904705931392394064714845339261380467984330692785537917168960378191219475448662888987236068653180476317743341496679931879043579101562500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "lower_display": -0.025932426451077854,
+            "upper_display": -0.025926537395850335
+          }
+        }
+      ],
+      "one_positive_to_negative_phase_crossing": true,
+      "phase_sign_pattern_proved": true,
+      "derived_deep_coast": {
+        "lower_exact": "712163340146039279697475617778322415627990948487966320714886229855559314483254576249388965539846653974059713367426580821771706765529670756090840542396943808197060869097527753645643666988076240386497106909836906353020080903463108944327715519635013720465010926549913092079642298562917160147661446412874822392253920033746097412997003908001511017995194533841671049197980828019461510334348456093239725674217455046530594048790198043651867046506805581425320784468748617692289744473462817431439375442317084981867421754450328387538570576817371828082535846283167132021727625139672625701844711279917374507915722577924827875790162746388066503009248706657352302699400331461178919247051687647928117071351058563326837821341425381976436057963992597620203525027100556308344279132882671466463054024208995352061255596382109033056314125982586585255031982611775175892223874331543435596552139332890420960598635965469606395819126431239302115091670050435851272636179151637680246963493012596862268229889515947851784626942372517380475362949826268382596736353344978477931967287676456464208099293244017563674053935767491600132774364142942877703265789976281991533690387301957720351200178131723345530002073005940021383924897023912936057010741970676344928842841635879070207402578398890512862431846996222879764574649435426725309161100482813125371065793626572774024985273514123098038067109573556311549004286275630792849517196156133005421774652042033867905569863470366467252898004551516938466059948837031459919533452374280515965722276316728984170216373094810957081946161710543339638064968338364626043540544584150851831139097110985253549358335241071646548568932273435430261368730437075302778750738811695321667990323314036265581506543764025168980921005142286755796883647773041948078867367108325346123856534614443374281261967686512073481161729549794706228712298611707582089664143343632463233030777543701649347582876101094751867328948669197015668631870672603585155618811416145114597394188801193486072210662855867504554605125824985107872828779818962740045068962653571612236180843042012012436018423968254255359314383367102860704761498356764943555095716007849579757217073669775461835571337141706688476739031801397002370660898486792191392388765602182542426115407463654312489381270647163311473704891568489599166009325211809101119869754877544869432515201329324838530444793702573233559477628560749980774430816218762883550909070692397030723372119031820377177914975120052107118724235886018155562663749936050453213611497319221315156298176778803587640824519022834442208819025303499474037967527692129161211721468725455804126731018381349737250893797793911030887740236390143319517690787517009295855170823502719225246312855611893390771928380002974015408414124044317770244908508883457829725224659010854480232158276362315921817989565495900758849164286557575793472826460342669979561978423015682920354568784374379903423131567978491114352798055343591866556786492351546616220681277617062649752156447069284877427534245710852691648688882212946917/162086005325549997032728752905457030106032068210332828260671218992392468740661393188794959975725695421539461158262646297204771310027493458377708957464114649382832139577223000394869398769137358632802032618920621929637750619497800692686458067661335600334109206171406941214388698656514050621178639539103908568124003123304579501732524893588669237458340323146327264495051204167727261677160741048833380988004531936204425024049428005219102060691077695139968523608881460280809136569004969517841691075831007130300568927121549468839315977199214839865037236261623830269990684322084256704853133574403376158115317096678862842768364970659675375742166521022855901817521903664442098944236610903766704089951454693915534846757859791257993682998532319800625839043299656956348234624007758014888682862782758048918152188645522570917328438837307633165175676674641957477712333634159686578052062045884982755084314270081529833292715814155408225954036081172992060183014032174185172334792042273904077392654461291760525481431011702071721346201854198440463453525845078883287675280380503252627964264317200701696008067407369674616330864975944828324470784395857566278221917931244543210468413895113593423359000849748362221164696283121280055532906053250050773839929733916091139602348827644592611567239870214842722013451976496451641958627645126252748654054558359899154661011049218086548615645804209745580226948712074553592658887913279972502730545143436365088612079907982607134043307934779061763174106855884233899137107667753541894242910381419823756173785255209489079495886460130585451006118779304233520204815377546700998896611776843027196458563015054250714007225346309788842796632681657981499858306676909576050309542966029610227353865122727464617534582566991114605128252078830769574432861377775460472817069913242737333696333187315458143310155641187496763599095808009695956463535400113110194781124000841554200419483184409982961600908998883490306806574839585022116646390100499429620732964629642588171027848117448129431020984875987216830075825373019211744769870641213258401854074322656540219530878828562851749844690985807612005301344662225632150194395772428633770300875785825812801202003374115901329490101241151587554911037230536087825607857373381034334086841642169382017053100442840516601189556330439964293379379867527016578882580187639382872879529984000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "upper_exact": "878051697362411779707532634994609967578555717866609957340699348631661099625299238895232196575059062743567635891081109399238882221774721774071381687894313900322937521966077898640352698662425260895273953785502888801850299539099885491886475340039466329298157089675919243033566954585898788936847678981208161886029199965493786396224810877884877279680128119119125442182741229204381635821057068935121933326682632725343026396187448006365660436757714731522733248093088335035046569215046865243546555579441690763525928464864598243841408798056082468410934965752227336153809016164679602219315063595021301223865881352925902753538275604188731267706255612374128620980720453574605913653771271992019119804928063120456422100984878917753842451715357579385718564648677205887315805729022348250084129498088306807855288190172262923488869242365175617385803455613568083090803984802157627264246897325356643319055797111908629975904116642275176382658239511765005132003364897841393327909971328495338240928698259495754125239802438382825461390612945742428853957952323718346699650879353229882642749395736068517547926068810378576920103409901141313698262923650096622360823909808569577648926669865319906319816528044381631758906755382321088665250090898319095823032805767651857915035202789245663193321008747077898960701694372020751657112884395324743857787910583191363027115905928333173150034766155976682666841960837478774342376494247250605575495306330148507869151160891278920305659436772257351727221177889546455126459324749584111229115654478623693729382051332713856086419322509050390398445561978379954938414662736780520443883224527027217225041893925978101450981422629893300164609196463476055286869134915131082878863246004927780877163848501841335538579179705834670594957096171255738144997104136607988675699884082639549866476507491789012694727275161872139763764678027099829089805480034633880865212610163886486048421678642320959799702592440953435106132606368889832009303434325659113914107448992703130702663973205644477525454470493833759334077765067938522035214129819418357246278790331526169820901336129253222190423012689068197249762719597255261530798773855547784047745935025627971042255998687695858014180548874766054725792669863485502191357428260791090481025079450484605119127356494440940830707284357151587235682542170984742630500738884302978607075103497336861264879285194372463323884282990009848551246699581465315294027353144928835686909417032352574342800647940963719123296679272156691160281880387589102638152631022374825906712090931176512953484574630822826183897232182270030039609512781211992108568286344395010551089868146535603893481432598216094436000835716637177780332811651404209947598327136280983101631169157554724946059621298673337136305933218202398580907358713273927625921280121884998311079526670682271572329082602933776150402904313177216780981110104477023503/156627483040630935032601945901528163017277851440665335462768957019451788385005603665989470851348584982148080157330489091491212314588349539030746708851689212598700402053524035683026506603274315033290179511019864923800746876222655727521897216022002266638927695061481875274719897895063398254421736722256377658109053400852330126356643443718416468872433207849557598007100684111485697936121645633833259757656647509780220589532819604958418998549574425052727681228815531768039077914782186580566267176922390267877561759831125951948928464120571505949327680700672982208334782651269258891140518349955404929379652562727543231482603144328793069764744134505777088605319776335336838649029999541262697884864702183615843983823906293825698235537827986293297920746150299203998340778471622572305885800616818209117682158615464688984071017331086401309135236087367240148837304825810874004737929390458225864831060539502608203867099933970993236977316478397026499785981393064762220155842868530246956781551126664578280779228235717138253719609360835360523108958685192803706984500758274719694636702724051208537428301581704012836056186708165801917693246879393041739232664299730812652610784477931359566012549569827446736895054393493781778574274193715299380415947152535105992348126692176224088335448397250555198690846042773216864828726792490345396362294965116095961978605388990088627682206090060947787996746499367056449371740972071476267115691059138132625898220583184841846796863208219752376493157608206060432322468199397420847629859120745845268777385216911848756680271648983089032467245129358536469000635466547480208011962564527264501933257965821141795199126556103001801563777974799675863402218977107297988490062823665974532637901056091462534073175128063011787271200124560721298102788663235709027545358367471400854630850531728218513002951830910738940437335711459991120004304780153092940546912433516434470093720603738972212520861061689391480647537642512167821030208352546292680492549566489348427623722884745687480724030053959745300021404716860400079342195081393024701567599702351420346818900333038807819321697694471835432821535452045770485056757575159946448432522838794548254825517057489198489358103488169708747242897411117612738168722804890502640435200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "lower_display": 0.004393737378595136,
+        "upper_display": 0.0056059874060201504
+      },
+      "exact_radius_lower": "4/5",
+      "radius_lower_proved": true,
+      "retained_feedback_Gauss_curvature_nonpositive": true
+    }
+  ],
+  "passed": true,
+  "seconds": 22.886747468000067,
+  "scope": "Scalar continuous a>=4/5 and retained feedback K<=0 only. No nonlinear embedding, normal ball or strong-target claim."
+}

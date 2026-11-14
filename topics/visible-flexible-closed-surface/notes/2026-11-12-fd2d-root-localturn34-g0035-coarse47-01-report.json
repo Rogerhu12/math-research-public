@@ -1,0 +1,36 @@
+{
+  "schema": "fd2d-coarse-native-branch-initializer-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/scripts/fd2d_gc_truncate_native_modes.py",
+    "bytes": 2917,
+    "sha256": "1a9ed1606c30852c22b6cd2479fdd24d63aa7e5ed3b43b781058c1577c3a885c"
+  },
+  "source_field": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/outputs/2026-11-12-fd2d-root-localturn34-g0035-01-field.npz.gz",
+    "bytes": 2171184,
+    "sha256": "cd361b9362ea8c8efdf1ca3dd0fd8f48471ba9c101558003231ea42e419bec36"
+  },
+  "old_dimension": 95,
+  "new_dimension": 47,
+  "original_T": 0.20525813841439644,
+  "radial_nodes": 584,
+  "discarded_native_coefficients": {
+    "values": {
+      "eta_coefficient_l1_at_nodes": 0.00267839235734697,
+      "zeta_coefficient_l1_at_nodes": 0.0038259997195924577
+    },
+    "first": {
+      "eta_coefficient_l1_at_nodes": 0.12159872604463817,
+      "zeta_coefficient_l1_at_nodes": 0.3613263662549351
+    }
+  },
+  "retained_coefficients_copied_without_arithmetic": true,
+  "same_exact_native_field": false,
+  "new_solution": false,
+  "accuracy_claim": false,
+  "output": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn47-01/topic/notes/2026-11-12-fd2d-root-localturn34-g0035-coarse47-01-field.npz",
+    "bytes": 436295,
+    "sha256": "248669444777525137ec4e9bc56bdbf22c35aa26fa7dbdc89eaca228eb977d59"
+  }
+}

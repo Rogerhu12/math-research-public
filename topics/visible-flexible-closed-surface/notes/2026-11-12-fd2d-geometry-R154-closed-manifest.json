@@ -1,0 +1,59 @@
+{
+  "schema": "fd2d-R154-all-phase-coast-to-complete-fixed-caps-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R154-all-phase-coast-to-complete-fixed-cap-normal-balls.md",
+      "sha256": "7b0dbfb7aa5b87c1384ef709cde684cf5a81b258c77069ed75a2276c79f8f39b",
+      "bytes": 8436,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_coast_caps_cylinder_certificate.py",
+      "sha256": "e815cb5f7e4e857479f14ccf3f51c1efb254d5ce0a7ae489ddec4795b7ddc815",
+      "bytes": 8245,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_coast_caps_cross_normal_balls.py",
+      "sha256": "754e22b4bac3a212d01af833d5dda52a25bf63f4d4f88849b961e783c92ea4d0",
+      "bytes": 4642,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-coast-caps-cylinder-certificate-01.json.gz",
+      "sha256": "dab733bf7f47c55bb7ef4356e91025873a3d0479d413546e1299a8846204e3bd",
+      "bytes": 8973,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-coast-caps-cross-normal-balls-01.json",
+      "sha256": "8380d094be773d64437e328c107e35482bf6c240e8576f06d1407036ed52fdfb",
+      "bytes": 2108,
+      "closed": true
+    }
+  ],
+  "scope": "Complete actual original coast to both complete R121 caps, every point pair and arbitrary z-axis phases, for actual cap/cuff height Z>=.9; use the original R121 upper height window for its diameter/held budgets. Uniform distance>.292 and cross normal-ball margin>73/12500. Actual cutoff matching and unknown core pieces remain separate.",
+  "executions": [
+    {
+      "session": 8851,
+      "final_chunk": "d012ad",
+      "exit_code": 0,
+      "source_seconds": 9.98296885200034,
+      "scope": "128 full angular boxes times16 full radial strips, zero unresolved"
+    },
+    {
+      "session": 15776,
+      "final_chunk": "6f9909",
+      "exit_code": 0,
+      "source_seconds": 0.1653591949998372,
+      "scope": "Strict cross-cap margin consumer"
+    }
+  ],
+  "dependencies": [
+    "results/R121-corner-fixed-caps-and-a-wider-active-window.md",
+    "notes/2026-11-12-fd2d-geometry-R151-closed-manifest.json",
+    "notes/2026-11-12-fd2d-k0-ruling-position-certificate-01.json"
+  ],
+  "source_inputs_unchanged": true,
+  "full_strong_target_completion_claimed": false
+}

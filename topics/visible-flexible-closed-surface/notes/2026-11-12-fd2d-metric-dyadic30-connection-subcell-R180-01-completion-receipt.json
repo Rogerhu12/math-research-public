@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 54216,
+  "initial_chunk_id": "69f13e",
+  "final_chunk_id": "d8d1fd",
+  "actual_exit_code": 0,
+  "execution_entry": "here-document in exec_command; exact input paths, labels and calls preserved in the actual report and replay entry",
+  "source": {
+    "path": "scripts/fd2d_gc_connection_primitive_subcell.py",
+    "bytes": 5970,
+    "sha256": "f4f66fde5daf4392f40a5a97c2168a33bb61a517bee7c82341127096678f074d"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-subcell-R180-01-report.json",
+    "bytes": 6453,
+    "sha256": "dedebcd4ef24cb9a94e50fbb59b84d4a4cc21cc4acafa6f1bf80da7e4f0e6df2"
+  },
+  "seconds": 0.5006752100016456,
+  "peak_rss_kib": 95020,
+  "passed": true,
+  "later_saved_replay_entry": {
+    "path": "scripts/fd2d-metric-connection-subcell-check.py",
+    "bytes": 3970,
+    "sha256": "9ee91c196a147a050ff7b532247ef6718c915d09f583eacab659f5edcacfd148"
+  },
+  "replay_entry_execution_status": "AST syntax checked; not run under its later pathname",
+  "original_mathematical_computation_repeated": false
+}

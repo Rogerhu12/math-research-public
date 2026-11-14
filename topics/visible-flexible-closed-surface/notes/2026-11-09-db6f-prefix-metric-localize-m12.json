@@ -1,0 +1,249 @@
+{
+  "scope": "Locate prefix metric errors and split source projection from interpolation.\n\nAll output is a floating, finite-angle diagnostic on one saved state.\nThe source field uses the original solver quadrature and the same frozen g.\nNo checkpoint or nonlinear equation is modified.\n",
+  "checkpoint": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64.json.gz",
+  "checkpoint_sha256": "2ab86890b3ddf84a6a23ddc1621b11ef05f90bb8e3c9899aeb06922d24b4e37e",
+  "script_sha256": "a339ace5985307a780eb0ffe0360ceb6accfa3d9970714cd6de35310b1c51451",
+  "modes": 12,
+  "source_angular": 512,
+  "audit_angular": 1024,
+  "radial_points": 5274,
+  "maxima": {
+    "interpolant_metric": {
+      "value": 8.951344414076039e-09,
+      "s": 0.0019656154535747468,
+      "normalized_s": 0.0009722222222222221
+    },
+    "interpolant_ss": {
+      "value": 1.2950917351395978e-09,
+      "s": 0.26131453444237995,
+      "normalized_s": 0.12925
+    },
+    "interpolant_s_theta": {
+      "value": 5.862081776632214e-10,
+      "s": 0.26788530610147265,
+      "normalized_s": 0.1325
+    },
+    "interpolant_theta_theta": {
+      "value": 8.951344414076039e-09,
+      "s": 0.0019656154535747468,
+      "normalized_s": 0.0009722222222222221
+    },
+    "interpolant_velocity_defect": {
+      "value": 1.7500095498085914e-08,
+      "s": 0.20167214553676904,
+      "normalized_s": 0.09975
+    },
+    "source_metric": {
+      "value": 8.951344414076039e-09,
+      "s": 0.0019656154535747468,
+      "normalized_s": 0.0009722222222222221
+    },
+    "source_ss": {
+      "value": 1.2950436406219265e-09,
+      "s": 0.26131453444237995,
+      "normalized_s": 0.12925
+    },
+    "source_s_theta": {
+      "value": 5.862081776632214e-10,
+      "s": 0.26788530610147265,
+      "normalized_s": 0.1325
+    },
+    "source_theta_theta": {
+      "value": 8.951344414076039e-09,
+      "s": 0.0019656154535747468,
+      "normalized_s": 0.0009722222222222221
+    },
+    "source_velocity_defect": {
+      "value": 1.7500137326059485e-08,
+      "s": 0.20167214553676904,
+      "normalized_s": 0.09975
+    },
+    "interpolation_velocity": {
+      "value": 1.0028315729022969e-10,
+      "s": 0.7039149741458823,
+      "normalized_s": 0.3481666666666667
+    }
+  },
+  "worst_samples": [
+    {
+      "s": 0.0019656154535747468,
+      "source_metric": 8.951344414076039e-09,
+      "interpolant_metric": 8.951344414076039e-09
+    },
+    {
+      "s": 0.002021775895105454,
+      "source_metric": 8.951343991310717e-09,
+      "interpolant_metric": 8.951343991310717e-09
+    },
+    {
+      "s": 0.0019094550120440398,
+      "source_metric": 8.95134364401203e-09,
+      "interpolant_metric": 8.95134364401203e-09
+    },
+    {
+      "s": 0.0020779363366361615,
+      "source_metric": 8.95134227575412e-09,
+      "interpolant_metric": 8.95134227575412e-09
+    },
+    {
+      "s": 0.0018532945705133329,
+      "source_metric": 8.951342171959317e-09,
+      "interpolant_metric": 8.951342171959317e-09
+    },
+    {
+      "s": 0.0021340967781668684,
+      "source_metric": 8.951339516175726e-09,
+      "interpolant_metric": 8.951339516175726e-09
+    },
+    {
+      "s": 0.001797134128982626,
+      "source_metric": 8.951339335049907e-09,
+      "interpolant_metric": 8.951339335049907e-09
+    },
+    {
+      "s": 0.0017409736874519188,
+      "source_metric": 8.95133629963127e-09,
+      "interpolant_metric": 8.95133629963127e-09
+    },
+    {
+      "s": 0.0021902572196975754,
+      "source_metric": 8.951334413511543e-09,
+      "interpolant_metric": 8.951334413511543e-09
+    },
+    {
+      "s": 0.0016848132459212116,
+      "source_metric": 8.951331757352948e-09,
+      "interpolant_metric": 8.951331757352948e-09
+    },
+    {
+      "s": 0.0022464176612282823,
+      "source_metric": 8.951328224179296e-09,
+      "interpolant_metric": 8.951328224179296e-09
+    },
+    {
+      "s": 0.0016286528043905047,
+      "source_metric": 8.9513278541966e-09,
+      "interpolant_metric": 8.9513278541966e-09
+    },
+    {
+      "s": 0.0015724923628597975,
+      "source_metric": 8.9513229058669e-09,
+      "interpolant_metric": 8.9513229058669e-09
+    },
+    {
+      "s": 0.0023025781027589893,
+      "source_metric": 8.951320032057012e-09,
+      "interpolant_metric": 8.951320032057012e-09
+    },
+    {
+      "s": 0.001544412142094444,
+      "source_metric": 8.951319941277331e-09,
+      "interpolant_metric": 8.951319941277331e-09
+    },
+    {
+      "s": 0.0015163319213290906,
+      "source_metric": 8.951317301210548e-09,
+      "interpolant_metric": 8.951317301210548e-09
+    },
+    {
+      "s": 0.0014882517005637371,
+      "source_metric": 8.951314690193601e-09,
+      "interpolant_metric": 8.951314690193601e-09
+    },
+    {
+      "s": 0.0014601714797983837,
+      "source_metric": 8.951311498680773e-09,
+      "interpolant_metric": 8.951311498680773e-09
+    },
+    {
+      "s": 0.002358738544289696,
+      "source_metric": 8.951309755007654e-09,
+      "interpolant_metric": 8.951309755007654e-09
+    },
+    {
+      "s": 0.00143209125903303,
+      "source_metric": 8.95130812864016e-09,
+      "interpolant_metric": 8.95130812864016e-09
+    },
+    {
+      "s": 0.0014040110382676763,
+      "source_metric": 8.951305411832711e-09,
+      "interpolant_metric": 8.951305411832711e-09
+    },
+    {
+      "s": 0.0013759308175023228,
+      "source_metric": 8.95130216633456e-09,
+      "interpolant_metric": 8.95130216633456e-09
+    },
+    {
+      "s": 0.0013478505967369693,
+      "source_metric": 8.951299001781202e-09,
+      "interpolant_metric": 8.951299001781202e-09
+    },
+    {
+      "s": 0.002414898985820403,
+      "source_metric": 8.95129782731234e-09,
+      "interpolant_metric": 8.95129782731234e-09
+    },
+    {
+      "s": 0.0013197703759716159,
+      "source_metric": 8.951296270281697e-09,
+      "interpolant_metric": 8.951296270281697e-09
+    },
+    {
+      "s": 0.0012916901552062624,
+      "source_metric": 8.951293355417233e-09,
+      "interpolant_metric": 8.951293355417233e-09
+    },
+    {
+      "s": 0.001263609934440909,
+      "source_metric": 8.951290016460934e-09,
+      "interpolant_metric": 8.951290016460934e-09
+    },
+    {
+      "s": 0.0012355297136755553,
+      "source_metric": 8.951286855591906e-09,
+      "interpolant_metric": 8.951286855591906e-09
+    },
+    {
+      "s": 0.0024710594273511105,
+      "source_metric": 8.951283956222027e-09,
+      "interpolant_metric": 8.951283956222027e-09
+    },
+    {
+      "s": 0.0012074494929102016,
+      "source_metric": 8.951283289934222e-09,
+      "interpolant_metric": 8.951283289934222e-09
+    },
+    {
+      "s": 0.001179369272144848,
+      "source_metric": 8.951280363631362e-09,
+      "interpolant_metric": 8.951280363631362e-09
+    },
+    {
+      "s": 0.0011512890513794946,
+      "source_metric": 8.951277255845548e-09,
+      "interpolant_metric": 8.951277255845548e-09
+    }
+  ],
+  "saved_inlet": {
+    "position": 7.084646203026068e-10,
+    "first": 2.9436644490953524e-08,
+    "second": 1.2781301204356499e-06,
+    "metric_l1": 8.951208342629974e-09
+  },
+  "support_coefficients": [
+    0.09999976505231697,
+    0.00017340635052370438,
+    -2.0726030862500148e-05,
+    2.732239542665825e-09,
+    1.364904959536114e-09,
+    -6.697024595314116e-10,
+    2.5420195020236015e-11,
+    2.7693941053364423e-11,
+    2.279645039764186e-11,
+    7.050341026639808e-10,
+    5.749608505622311e-11,
+    2.4233142751359304e-10
+  ]
+}

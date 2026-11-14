@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-actual-process-completion-receipt-v1",
+  "session_id": 97962,
+  "initial_chunk_id": "8698bb",
+  "final_chunk_id": "65bbb7",
+  "actual_exit_code": 0,
+  "source": {
+    "path": "scripts/fd2d-metric-connection-endpoint-primitive-check.py",
+    "bytes": 6477,
+    "sha256": "8839a2173e40f40811c2f7fa62734e6467ecb65262b580777ca18f9bd4123df0"
+  },
+  "report": {
+    "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-report.json",
+    "bytes": 9465,
+    "sha256": "20dccf758b3f110355a63d40cc45952112419a681bf77f0dc3b196ddc41e4718"
+  },
+  "seconds": 0.47681855800328776,
+  "peak_rss_kib": 95196,
+  "passed": true,
+  "scope": "Actual one-cell endpoint primitive and local interval algebra; no whole F/J/BVP/body or global surface certification"
+}

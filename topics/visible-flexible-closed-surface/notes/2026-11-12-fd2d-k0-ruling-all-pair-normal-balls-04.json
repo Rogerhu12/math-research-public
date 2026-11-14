@@ -1,0 +1,319 @@
+{
+  "schema": "fd2d-actual-coast-all-pair-normal-ball-Arb-v4-frame-reference",
+  "actual_execution": true,
+  "source_sha256": "76842c8b8fd971257573bc9c1c9124ead27c860b22bf88f7391a49fd1f46f5b4",
+  "helper_sources": {
+    "fd2d_k0_ruling_actual_curvature_taylor.py": "1cee03ba2044040811d4b115fc7c954638e9cbb30bd382629e151567d7a5135c",
+    "fd2d_k0_ruling_actual_curvature_certificate.py": "85f71d57d298a3308962fdbd452465025ebecf096d831cb10dcac39cd6e47dd4",
+    "fd2d_k0_ruling_angular_certificate.py": "447ea6a33550c376db941cb0c7f3c4a2b4024a7bdc068d201f844916a5d81cb3",
+    "fd2d_k0_ruling_metric_convolution.py": "650d4d32ac5a51a8866c362171ed7f2daf1564af7dde6c3aa0b2cb4336a3a3f1"
+  },
+  "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "moments_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+  "means_sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3",
+  "normal_variation_sha256": "1cd8aa712459af3ffd5122cb37198902a5435003a7bc170c6f8be91e0304f31a",
+  "short_chord_extension_sha256": "0148e396f0474b47afde17a39028c85f63ba42fe0fc03dcaa603a4b7218df919",
+  "precision_bits": 160,
+  "flint_version": "0.9.0",
+  "radius": {
+    "lower_binary": [
+      "795056890708011187502804548997657962692827303377",
+      -162
+    ],
+    "upper_binary": [
+      "795056890708011187502804548997657962692827303379",
+      -162
+    ],
+    "lower_display": 0.136,
+    "upper_display": 0.136
+  },
+  "normal_variation_upper": {
+    "lower_binary": [
+      "1025445244873401862790189008033122831319203652483",
+      -178
+    ],
+    "upper_binary": [
+      "1025445244873401862790189008033122831319203652483",
+      -178
+    ],
+    "lower_display": 2.6765369752241e-06,
+    "upper_display": 2.6765369752241e-06
+  },
+  "initial_angle_boxes": 32,
+  "initial_rows": [
+    9,
+    32
+  ],
+  "completed_initial_products": 276,
+  "full_initial_triangle_covered": false,
+  "unordered_angle_products_with_both_endpoint_normals_and_both_signs": true,
+  "radial_cover": "tau=w/W(phi) in [0,1] for both points; every split is an exact dyadic partition",
+  "periodic_boundary": "Chosen inlet lift checked to stay inside a polar angle of pi; short-chord cells then invoke the certified material shortest-lift theorem",
+  "actual_finite_Cartesian_surface_used": true,
+  "changed_delta_target": false,
+  "exact_frame_or_developability_assumed": false,
+  "boundary_normal_cone_reach_not_claimed": true,
+  "methods": {
+    "separation": 800,
+    "short_chord": 14332,
+    "convex_QP": 34182
+  },
+  "recursive_box_calls": 98352,
+  "split_count": 49038,
+  "angle_interval_evaluations": 1511,
+  "invalid_coarse_angle_boxes": 8,
+  "angle_cache_limit": 4096,
+  "maximum_stack_size": 16,
+  "peak_rss_kib": 61996,
+  "complete_pair_function_Taylor_order": 2,
+  "reference_vector": "unnormalized E=e1 cross e2; actual normal error included separately",
+  "reference_vector_assumed_unit": false,
+  "reference_bound_source_sha256": "402d3f3ede62e22f22fb6ff020b37884664e55d705f78eede4b090730c239737",
+  "maximum_angle_denominator": 32768,
+  "maximum_radial_denominator": 32,
+  "minimum_strict_far_Phi_lower": {
+    "lower_binary": [
+      "105065985527986895153661374161889410501459207387",
+      -180
+    ],
+    "upper_binary": [
+      "105065985527986895153661374161889410501459207387",
+      -180
+    ],
+    "lower_display": 6.855875448004412e-08,
+    "upper_display": 6.855875448004412e-08
+  },
+  "maximum_short_developed_distance2_upper": {
+    "lower_binary": [
+      "467662549742945151151026587882102702972607202177",
+      -163
+    ],
+    "upper_binary": [
+      "467662549742945151151026587882102702972607202177",
+      -163
+    ],
+    "lower_display": 0.039998462693909755,
+    "upper_display": 0.039998462693909755
+  },
+  "leaf_hash_chain_sha256": "7edd7e26b2c03b5db0cda5e47f8ec563f577ca3533ea0a49064fe1285886d7d2",
+  "passed": true,
+  "unresolved": [],
+  "rows": [
+    {
+      "row": 9,
+      "calls": 19091,
+      "leaves": {
+        "separation": 129,
+        "short_chord": 2382,
+        "convex_QP": 7046
+      }
+    },
+    {
+      "row": 10,
+      "calls": 4498,
+      "leaves": {
+        "separation": 88,
+        "short_chord": 783,
+        "convex_QP": 1389
+      }
+    },
+    {
+      "row": 11,
+      "calls": 729,
+      "leaves": {
+        "separation": 63,
+        "short_chord": 110,
+        "convex_QP": 202
+      }
+    },
+    {
+      "row": 12,
+      "calls": 450,
+      "leaves": {
+        "separation": 38,
+        "short_chord": 60,
+        "convex_QP": 137
+      }
+    },
+    {
+      "row": 13,
+      "calls": 359,
+      "leaves": {
+        "separation": 34,
+        "short_chord": 44,
+        "convex_QP": 111
+      }
+    },
+    {
+      "row": 14,
+      "calls": 356,
+      "leaves": {
+        "separation": 30,
+        "short_chord": 44,
+        "convex_QP": 113
+      }
+    },
+    {
+      "row": 15,
+      "calls": 345,
+      "leaves": {
+        "separation": 27,
+        "short_chord": 44,
+        "convex_QP": 110
+      }
+    },
+    {
+      "row": 16,
+      "calls": 340,
+      "leaves": {
+        "separation": 26,
+        "short_chord": 44,
+        "convex_QP": 108
+      }
+    },
+    {
+      "row": 17,
+      "calls": 337,
+      "leaves": {
+        "separation": 24,
+        "short_chord": 44,
+        "convex_QP": 108
+      }
+    },
+    {
+      "row": 18,
+      "calls": 330,
+      "leaves": {
+        "separation": 25,
+        "short_chord": 44,
+        "convex_QP": 103
+      }
+    },
+    {
+      "row": 19,
+      "calls": 405,
+      "leaves": {
+        "separation": 24,
+        "short_chord": 50,
+        "convex_QP": 135
+      }
+    },
+    {
+      "row": 20,
+      "calls": 700,
+      "leaves": {
+        "separation": 44,
+        "short_chord": 100,
+        "convex_QP": 212
+      }
+    },
+    {
+      "row": 21,
+      "calls": 5377,
+      "leaves": {
+        "separation": 48,
+        "short_chord": 845,
+        "convex_QP": 1801
+      }
+    },
+    {
+      "row": 22,
+      "calls": 20430,
+      "leaves": {
+        "separation": 69,
+        "short_chord": 2501,
+        "convex_QP": 7650
+      }
+    },
+    {
+      "row": 23,
+      "calls": 8217,
+      "leaves": {
+        "separation": 59,
+        "short_chord": 1670,
+        "convex_QP": 2384
+      }
+    },
+    {
+      "row": 24,
+      "calls": 11640,
+      "leaves": {
+        "separation": 41,
+        "short_chord": 2145,
+        "convex_QP": 3638
+      }
+    },
+    {
+      "row": 25,
+      "calls": 19027,
+      "leaves": {
+        "separation": 29,
+        "short_chord": 2422,
+        "convex_QP": 7066
+      }
+    },
+    {
+      "row": 26,
+      "calls": 4286,
+      "leaves": {
+        "separation": 2,
+        "short_chord": 760,
+        "convex_QP": 1384
+      }
+    },
+    {
+      "row": 27,
+      "calls": 543,
+      "leaves": {
+        "separation": 0,
+        "short_chord": 90,
+        "convex_QP": 184
+      }
+    },
+    {
+      "row": 28,
+      "calls": 352,
+      "leaves": {
+        "separation": 0,
+        "short_chord": 58,
+        "convex_QP": 120
+      }
+    },
+    {
+      "row": 29,
+      "calls": 259,
+      "leaves": {
+        "separation": 0,
+        "short_chord": 44,
+        "convex_QP": 87
+      }
+    },
+    {
+      "row": 30,
+      "calls": 190,
+      "leaves": {
+        "separation": 0,
+        "short_chord": 32,
+        "convex_QP": 64
+      }
+    },
+    {
+      "row": 31,
+      "calls": 91,
+      "leaves": {
+        "separation": 0,
+        "short_chord": 16,
+        "convex_QP": 30
+      }
+    }
+  ],
+  "seconds": 1056.553203043999,
+  "short_chord_cutoff": "1/5",
+  "short_chord_normal_ball_coefficient": "1/200",
+  "normal_owner_explicit_even_for_identical_angle_cache": true,
+  "resumed_checkpoint_sha256": null,
+  "completed_row_checkpoint": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-04.json.checkpoint.json",
+  "displayed_decimals_are_not_outward_rounded": true,
+  "strict_values_are_exact_binary_endpoint_fields": true
+}

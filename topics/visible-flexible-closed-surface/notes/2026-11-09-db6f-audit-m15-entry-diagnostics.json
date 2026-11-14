@@ -1,0 +1,84 @@
+{
+  "status": "PASS-read-only-entry-diagnostics-and-independent-data-replays",
+  "scope": "Check independent reproductions of the two closed M15 entry diagnostics.\n\nNo solve is launched here. Equality of diagnostic data and literal source\nextraction is checked; finite angular samples are not rigorous positivity\ncertificates, and unsuccessful roots do not prove nonexistence.\n",
+  "script_sha256": "775565d3766eff2dd2af5ef0fd1a609244cc4990a9efe3930e57f32730a9f750",
+  "original_files": [
+    {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-m15-failed-stage-diagnostic.json.gz",
+      "sha256": "4c26f1876891aa340c8d36fab3b098ca2a302909dc201095781c818cffde29d0"
+    },
+    {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-m15-positive-floor-probe.json",
+      "sha256": "06a56fdd8b5b3ee81d22d4fd1fb57adb78141e1f4cf20822fd1912b63e76b8e9"
+    }
+  ],
+  "replay_files": [
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-failed-stage-replay.json.gz",
+      "sha256": "1aee13edf8b9a3be009930d35f86c2be92d034c535ee29919024d1887814f5f5",
+      "bytes": 163021
+    },
+    {
+      "file": "notes/2026-11-09-db6f-audit-m15-positive-floor-replay.json",
+      "sha256": "a8cd4b7dedc94a1d6c564495289195e4ad014e7053b42cd00eae3bc2cf93f56e",
+      "bytes": 27257
+    }
+  ],
+  "all_fields_identical_except_elapsed_seconds": true,
+  "extracted_original_functions_hashes_verified": true,
+  "first_failures": [
+    {
+      "stage": 32,
+      "raw_cell": 0,
+      "raw_segment": 4,
+      "step": 1,
+      "first_RK_substage": 0,
+      "default_min_A_diagnostic": -1.280703060484497,
+      "error": "Error: momentum branch D/S/A rejected"
+    },
+    {
+      "stage": 32,
+      "raw_cell": 0,
+      "raw_segment": 4,
+      "step": 0.5,
+      "first_RK_substage": 0,
+      "default_min_A_diagnostic": -0.08488067479184525,
+      "error": "Error: momentum branch D/S/A rejected"
+    },
+    {
+      "stage": 33,
+      "raw_cell": 0,
+      "raw_segment": 4,
+      "step": 0.25,
+      "first_RK_substage": 0,
+      "default_min_A_diagnostic": -0.18804984980230574,
+      "error": "Error: momentum branch D/S/A rejected"
+    },
+    {
+      "stage": 34,
+      "raw_cell": 0,
+      "raw_segment": 4,
+      "step": 0.125,
+      "first_RK_substage": 0,
+      "default_min_A_diagnostic": -0.06955480230174757,
+      "error": "Error: momentum branch D/S/A rejected"
+    },
+    {
+      "stage": 35,
+      "raw_cell": 0,
+      "raw_segment": 4,
+      "step": 0.0625,
+      "first_RK_substage": 0,
+      "default_min_A_diagnostic": 0.16233482805621374,
+      "error": "Error: momentum Newton line search failed"
+    }
+  ],
+  "original_failed_trials_successful_RK_steps": 0,
+  "separate_control_successful_RK_steps_verified": 1,
+  "positive_floor_calls": 8,
+  "positive_floor_successes": 0,
+  "dense_angular_continuations": 0,
+  "equation_or_active_worker_changed": false,
+  "nonexistence_inferred": false,
+  "finite_sample_positivity_is_a_continuous_certificate": false
+}

@@ -1,0 +1,93 @@
+{
+  "purpose": "exploration only; not an exact-isometry or reach certificate",
+  "arguments": {
+    "cells": 14,
+    "modes": 3,
+    "amplitude": 0.06,
+    "height": 0.25,
+    "ripple": 0.025,
+    "vary_mean": true,
+    "hessian_limit": 10.0,
+    "hessian_weight": 10.0,
+    "max_nfev": 140,
+    "out": "math-research/topics/visible-flexible-closed-surface/notes/direct-band-a006-m3-n14-hess10-ramp"
+  },
+  "unknowns": 142,
+  "residuals": 10752,
+  "jacobian_directional_checks": {
+    "0.0001": 3.0862771845614955e-13,
+    "1e-05": 2.298897401460987e-12,
+    "1e-06": 3.162073563437817e-11
+  },
+  "initial": {
+    "max_relative_metric_spectral_defect": 0.28113136428908114,
+    "max_E_nonmean_relative": 0.28113136428908114,
+    "max_F_relative": 0.1500910296585008,
+    "max_G_relative": 0.04143016945008082,
+    "max_abs_principal_curvature_sampled": 11.00080985534024,
+    "minimum_curvature_radius_sampled": 0.0909023983824754,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      0.0,
+      0.25
+    ],
+    "max_cartesian_domain_hessian_components_sampled": [
+      13.74283931313272,
+      1.2139996196569425,
+      2.5377733273782868
+    ],
+    "dense_grid": [
+      113,
+      32
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "final": {
+    "max_relative_metric_spectral_defect": 0.07089057304514941,
+    "max_E_nonmean_relative": 0.02599141474630853,
+    "max_F_relative": 0.06360167955119445,
+    "max_G_relative": 0.04256487224238952,
+    "max_abs_principal_curvature_sampled": 10.016837450602747,
+    "minimum_curvature_radius_sampled": 0.09983190851717641,
+    "min_gram_determinant_sampled": 0.0625,
+    "min_polar_angular_jacobian_sampled": 0.0625,
+    "radial_range_sampled": [
+      0.25,
+      0.95
+    ],
+    "height_range_sampled": [
+      0.0,
+      0.25
+    ],
+    "max_cartesian_domain_hessian_components_sampled": [
+      10.233982150988076,
+      1.3044670784044865,
+      2.340550771969298
+    ],
+    "dense_grid": [
+      225,
+      64
+    ],
+    "amplitude_fixed": 0.06,
+    "reach_certified": false,
+    "closed_surface": false,
+    "fixed_metric_refinement": false
+  },
+  "solver": {
+    "success": false,
+    "message": "The maximum number of function evaluations is exceeded.",
+    "nfev": 140,
+    "cost": 0.6135484486259186,
+    "optimality": 7.599424123822293
+  },
+  "elapsed_seconds": 14.260665633002645,
+  "numpy": "2.3.5"
+}

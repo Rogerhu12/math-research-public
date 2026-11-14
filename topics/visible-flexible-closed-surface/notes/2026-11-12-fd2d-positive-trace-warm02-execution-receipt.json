@@ -1,0 +1,17 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 71927,
+  "launch_chunk": "e34a31",
+  "completion_chunk": "144434",
+  "actual_exit_code": 1,
+  "source_snapshot": "scripts/fd2d_gc_raw_bump_positive_trace_window_snapshot.py",
+  "source_sha256": "dcee8eb51577ee7927e755e588a278ccb5f5748296ce05240a2f3841d87d81bb",
+  "report_completed": false,
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-warm02-warm.npz",
+    "bytes": 58800,
+    "sha256": "97e1fb37e69df5f6870ad3371477c1c349e18d2048c1b970e1da1efdbe3893e8"
+  },
+  "warm_scope": "Saved before actual evaluation; strict window guard rejected its floating quintic overshoot. Not a successful actual initializer.",
+  "reason": "Direct t^3*(10-15t+6t^2) produced a value just above one near the endpoint; no physical positivity failure."
+}

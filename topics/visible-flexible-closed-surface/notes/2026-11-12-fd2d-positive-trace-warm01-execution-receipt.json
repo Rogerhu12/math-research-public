@@ -1,0 +1,10 @@
+{
+  "schema": "fd2d-real-execution-receipt-v1",
+  "session_id": 3052,
+  "launch_chunk": "25a90c",
+  "completion_chunk": "587b06",
+  "actual_exit_code": 1,
+  "reason": "Initializer local variable identity shadowed imported file identity before report creation; no numerical evaluation or warm state was produced.",
+  "failed_source_sha256": "db87d23248bccb3f80e505a6ca9b2ce6822046c7d6c08afa22627c00c20a9d52",
+  "failed_source_snapshot": "scripts/fd2d-gc-positive-trace-initializer-check-unbound-snapshot.py"
+}

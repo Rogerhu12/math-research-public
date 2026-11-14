@@ -1,0 +1,45 @@
+{
+  "schema": "78718-author-observed-readonly-tool-exit-v1",
+  "observer": "/root/numerical_recovery",
+  "status": "observed-process-completed",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-common-axis-lower-v2.py",
+    "--common-map",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/closed-map.json",
+    "--geometry",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+    "--target",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+    "--metric-certificate",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-metric.json",
+    "--tail-manifest",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/tail-manifest.json",
+    "--bridge",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/bridge.json",
+    "--point-report",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-prefix-axis-lower-01.json",
+    "--common-observation",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-common-cut-01-observed-exit.json",
+    "--out",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-common-axis-lower-02.json"
+  ],
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "initial_tool": {
+    "chunk_id": "b6bc4a",
+    "wall_time_seconds": 1.000692309,
+    "session_id": 24952,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "actual_tool": {
+    "chunk_id": "90db74",
+    "wall_time_seconds": 3.489129171,
+    "exit_code": 0,
+    "original_token_count": 119,
+    "output": "{\"actual_correction_start_index\": 6124, \"exceeds_original_budget\": true, \"output\": {\"bytes\": 20806, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-common-axis-lower-02.json\", \"sha256\": \"50c1633e3d42102d0b77f50480e5c81b11c9d9f25d995ec2452a9458b7deebc7\"}, \"point_lower\": 7.741475064719386e-08, \"solver_calls\": 0, \"status\": \"ACTUAL_COMMON_PREFIX_EXCEEDS_ORIGINAL_2E_MINUS_9\", \"witness_node\": 1518}\n"
+  },
+  "actual_exit_code": 0,
+  "tool_receipt": "90db74",
+  "scope": "Actual exact-point checker v2; fresh original bridge certificate replay; no BVP, DN, exporter or new geometry."
+}

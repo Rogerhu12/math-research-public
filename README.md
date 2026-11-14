@@ -1,9 +1,54 @@
-# math-research-ci
+# math-research-public
 
-Public runner for long computations of a private repository. Jobs run on GitHub-hosted
-`ubuntu-latest` (4 CPU, 16 GB RAM, up to ~6 h per job, up to 20 jobs in parallel).
+公开的数学研究工作仓库：可弯曲闭曲面的大振幅与精确解、Serre 一致性、秩二曲线的 Ш、Hilbert 空间不变子空间问题。由 ChatGPT Pro 会话持续写入，协调员和作者审阅。2026-11-14 从私有仓库 `Rogerhu12/math-research` 迁入（只迁当时的文件，不含历史提交）。
 
-Every 5 minutes this repo claims the request files in the private repo's `ci-queue/` folder
-(removing them there) and runs each one as a separate job. Output never goes to this public
-repo: stdout/stderr, `status.json` and every file the command writes under the topic folder
-are committed back to the private repo.
+课题：
+
+| 目录 | 问题 |
+|---|---|
+| `topics/visible-flex-larger-amplitude` | 把“瘪易拉罐”的可见弯曲幅度做大 |
+| `topics/visible-flex-exact-nearby` | 证明“瘪易拉罐”附近有精确解 |
+| `topics/visible-flexible-closed-surface` | 好看的可弯曲闭曲面（上面两题的数据来源） |
+| `topics/serre-uniformity` | Serre 一致性 |
+| `topics/rank2-sha-infinitely-many-p` | 秩 $\ge2$ 的椭圆曲线对无穷多个 $p$ 有 Ш$[p^\infty]$ 有限 |
+| `topics/invariant-subspace-problem` | Hilbert 空间上的不变子空间问题 |
+
+## 授权（作者原话，2026-11-12，对所有课题有效）
+
+授权：本任务中可以随时 git commit，并把本任务产生的全部文件（研究结果、笔记、日志、状态）推送到本仓库 origin/main，不需要再问我。禁止 force push；工作需要时可以改仓库里的任何文件，范围按下面规矩第 2 条（包括 workflow、共享文件和其他课题目录）；令牌只在命令行里用，不写进文件或提交。
+如果某个操作被自动审批拒绝，不要停下来等我：记下来，继续做能做的，最后统一列出。
+**达到课题 README 的完成标准之前不要停止。** 不要停在阶段报告、中间结果或"下一步建议"上等我回复，时长到了也不是停下的理由；做完一个子问题就接着做下一个。只有真正完成才收尾，`HANDOFF.md` 随时保持最新（详见规矩第 6 条）。
+
+## 规矩
+
+1. **课题范围**：本仓库只放下面六个课题，由作者在私有仓库 `Rogerhu12/math-research` 的 `QUEUE.md` 分配；不要在这里新开课题。各课题的完成标准仍以本仓库里该课题的 `README.md` 为准。
+2. **可以改任何文件，不用请求授权（2026-11-10 起）**：工作需要时，可以直接修改仓库里的任何文件，包括 `.github/` 下的 workflow、根 README 以外的共享文件和其他课题的目录，不必等作者或协调方批准。改了自己课题以外的文件，在自己课题的 `log.md` 追加一行说明改了什么、为什么。唯一的限制：不要强推，不要删除或改写别人已经推送的提交。**CI 或其他共享设施出故障时自己修**，修不好就在 log 里记一行，继续做其他能做的事；不要因为等待授权或等待 CI 而停下。
+3. **区分可信度**：每条结论标明是"已证明"、"猜想"还是"启发式/数值证据"。只有给出完整证明的才能写进 `results/`；证明里有缺口的，写清缺口在哪，放进 `open.md`。
+4. **写法**：Markdown，公式用 `$...$` 和 `$$...$$`。引用文献写清作者、标题、年份，能给出处就给定理编号或页码。
+5. **勤提交**：每完成一个有意义的步骤（一个引理、一次计算、一条被排除的路线）就提交推送，不要攒。推送前先拉取最新 `main`。推送被拒（非快进）时立刻 `git pull --rebase` 再推，循环到成功。提交信息写清楚做了什么。失败的尝试也记进 `notes/`，它们同样有价值。
+6. **持续工作**：一个子问题做完就记录结果，接着做 `open.md` 里下一个；课题做完（或确认卡死，写明原因）就在 `QUEUE.md` 标为"完成"或"搁置"，再领下一个。不要停在阶段报告上等人回复。**时间到了不是停下的理由**：即使 prompt 里写了"至少持续若干小时"，那也只是下限，到点后继续研究；只有按完成标准真正完成才收尾。"搁置"只用于确认卡死，并在 `open.md` 写清卡在哪里；不要因为时长已满就标搁置，也不要为了结束而放宽完成标准。收尾前更新 `HANDOFF.md`。
+7. **日志**：每轮工作结束时，只在自己课题的 `log.md` 末尾追加一条（日期时间、会话名、做了什么、下一步，五行以内）。**2026-11-13 起不再写根目录 `LOG.md`，也不再归档它**：几十个会话同时往同一个文件末尾追加，会让推送反复冲突、合不进 `main`。
+8. **少读大文件（重要）**：大文件会拖慢工作。
+   - 接手或开始新一轮时，只读本 README、自己课题的 `HANDOFF.md` 和 `open.md`。
+   - 不要整篇打开超过 100 KB 的文件，包括 `results/archive-*/` 的分卷、`log/` 下的旧日志和 `notes/` 里的大文件。需要旧结论时，先查 `results/archive-*/INDEX.md`，只打开它所在的那一卷。
+   - 单个 Markdown 文件不超过 100 KB；`README.md`、`open.md` 尽量不超过 30 KB，超出就把旧内容移进 `notes/`。
+   - 新结论写成新文件 `results/R<编号>-<短名>.md`，并在 `results.md` 的"新增结论"列表加一行。不要往大文件末尾追加。
+   - 数据文件超过 1 MB 先压缩成 `.gz`；不要提交超过 5 MB 的文件。
+   - **推送用终端 git（2026-11-09 起）**：经 GitHub 集成或 API 工具传送的内容都会进入对话，大数据会拖慢工作。有终端 git 认证时一律用终端 `git push`，令牌只在终端里使用，不写进任何文件、提交、日志、HANDOFF 或笔记，也不在回复里重复。只有 GitHub 集成可用时，集成只传文本和小于 100 KB 的文件；更大的数据文件不提交，只提交生成它的脚本、参数和哈希，保证可以重新生成。不要把数据分块或编码后经工具调用传送，也不要把二进制内容读进对话。这一条优先于课题 README 中直接提交数据的要求。
+9. **交接摘要**：每轮结束时重写自己课题的 `HANDOFF.md`，不超过 10 KB：问题一句话、当前状态、已证结论的编号各一句、下一步、正在用的文件。下一个会话只靠它和 `open.md` 接手。
+10. **不要完整克隆（2026-11-10 起）**：仓库有数 GB，几乎全是 `topics/` 下的数据。完整克隆或拉取会占满沙盒磁盘、耗费大量时间。一律用部分克隆，只检出需要的目录：
+    ```
+    git clone --filter=blob:none --sparse https://github.com/Rogerhu12/math-research-public.git
+    cd math-research-public
+    git sparse-checkout set topics/<你的课题> papers/<需要的论文>
+    ```
+    需要读其他目录时用 `git sparse-checkout add <目录>`，或 `git show origin/main:<路径>` 只取单个文件。已有的完整克隆也改成这样（`git sparse-checkout set ...`）。
+    - 数据文件只提交复核真正需要的；可由脚本和参数重新生成的大中间数据不入库，只提交脚本、参数和哈希。每个课题的数据总量尽量控制在 200 MB 以内。
+11. **规矩会更新，每次拉取后检查（2026-11-10 起）**：作者和协调方会随时修改本 README 和自己课题的 README。每次 `git pull` 之后（至少每小时一次）检查这两个文件有没有变：
+    ```
+    git diff <上次读过的提交> origin/main -- README.md topics/<你的课题>/README.md
+    ```
+    有变化就只读这段差异并立即照新规矩执行，没有变化就不用重读。把读过的提交号记在 `HANDOFF.md` 里，供下次比较和接手。
+12. **不为防错设流程（2026-11-10 起）**：作者只担心做少，不担心做错或做多。新结论写出完整证明就直接登记进 `results/`，不必先冻结候选、请未参与者独立审查、逐字归档、机械核验或独立重跑；各课题 README（包括其状态段）里残留的这类要求一律作废，已经在走的这类流程可以停掉。省下来的时间用来推进问题本身。完成标准里写明“只算中间进展”的情形照旧不算完成。
+13. **CI 直接用本仓库的 GitHub Actions（2026-11-14 起）**：本仓库公开，Actions 不受私有仓库计费故障影响（`ubuntu-latest`，4 核、16 GB 内存，单任务最长约 6 小时，账号内最多 20 个任务同时运行）。workflow 放在本仓库 `.github/workflows/`，按 push 或手动触发，结果提交回本仓库。只运行本仓库这六个课题的计算。需要读取私有仓库 `Rogerhu12/math-research` 中其他课题的来源文件时，在 workflow 里用 `secrets.MR_TOKEN`。私有仓库里还没执行的 `ci-queue/` 请求不会再运行，需要的请改成本仓库的 workflow。
+14. **本仓库公开**：所有内容任何人可见。令牌照旧只在命令行或 Actions secret 里用，不写进文件、提交、日志或 workflow 明文。

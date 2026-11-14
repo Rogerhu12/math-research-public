@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-prefix-parallel.py", line 633, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-prefix-parallel.py", line 202, in main
+    require(not list(out.parent.glob(out.name+'*')), 'Output prefix has already been used')
+  File "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/78718-run-prefix-parallel.py", line 43, in require
+    raise ValueError(message)
+ValueError: Output prefix has already been used

@@ -1,0 +1,489 @@
+{
+  "scope": "Floating source/interface diagnostics only. Exact source formulas and parameter compatibility are discussed in the independent tail-extension audit. Positive radial warp persists through raw cell159; raw source starts at160. No nonlinear tail or global certificate.",
+  "sourceSHA256": {
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-audit-tail-source-map.mjs": "8ad604f75d1e610d7fe5f20df2c9f63ef6d3b69f76d791ca02439b306b3645d7",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m12-stage2-result-state-001.json.gz": "6627975cae116585952bec2b4551542e0034949d2449bf5afc20fabc0edb5261",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+    "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_infinite_profile.mjs": "563d423b907948768a8aa7afeaf1a0802135e4e5748bd0199b8897f87439e2cd"
+  },
+  "inputPhysicalParameters": {
+    "delta0": 0.006,
+    "etaRatioAtN0": 0.05,
+    "etaPower": 1.5,
+    "a": 2.75,
+    "R": 64,
+    "rCuff": 0.14999999999999997,
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.45,
+    "protectCell": 160,
+    "linearFar": 32
+  },
+  "stats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "unitCuffEpsilon": 103575.83196746318,
+  "rows": [
+    {
+      "n": 6,
+      "R": 2,
+      "mu": 1.4818978021604961e-12,
+      "rOuter": 0.1649132179539248,
+      "rInner": 0.15587918880495558,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.15587918880495558,
+          "sourceR": 0.15001226224133576,
+          "drdx": 0.000002477644633690326,
+          "sourceDrdx": 2.537391210550194e-8,
+          "radialDerivativeRatio": 97.64535414911788,
+          "w": 8.668240073175677e-7,
+          "logw": -13.958429871177707,
+          "sourceLogw": -13.958429871177707,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.16134914855757176,
+          "sourceR": 0.15001842822869488,
+          "drdx": 0.0003964394082908744,
+          "sourceDrdx": 0.000004059992808808198,
+          "radialDerivativeRatio": 97.64534740820105,
+          "w": 5.441846419506861e-11,
+          "logw": -23.634317604304485,
+          "sourceLogw": -23.634317604304485,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.16491321795392477,
+          "sourceR": 0.15002459446949598,
+          "drdx": 0.0000024778492951413092,
+          "sourceDrdx": 2.537599804746913e-8,
+          "radialDerivativeRatio": 97.64539272528975,
+          "w": 0.0000058279190595938645,
+          "logw": -12.052850557923732,
+          "sourceLogw": -12.052850557923732,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "R": 2,
+      "mu": 2.202854262545196e-13,
+      "rOuter": 0.15587918880495558,
+      "rInner": 0.1525361819534748,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.1525361819534748,
+          "sourceR": 0.15000611880203382,
+          "drdx": 8.759437355248483e-7,
+          "sourceDrdx": 8.970665267585372e-9,
+          "radialDerivativeRatio": 97.6453484102217,
+          "w": 1.288911043447677e-7,
+          "logw": -15.864297941448129,
+          "sourceLogw": -15.864297941448129,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.15466301222533704,
+          "sourceR": 0.1500091904902352,
+          "drdx": 0.0001982074982989597,
+          "sourceDrdx": 0.0000020298714025887926,
+          "radialDerivativeRatio": 97.64534740780927,
+          "w": 4.0404159263828294e-12,
+          "logw": -26.234673477179733,
+          "sourceLogw": -26.234673477179733,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.1558791888049556,
+          "sourceR": 0.15001226224133576,
+          "drdx": 8.759796609264445e-7,
+          "sourceDrdx": 8.971032657515925e-9,
+          "radialDerivativeRatio": 97.64535414911786,
+          "w": 8.668240073175647e-7,
+          "logw": -13.95842987117771,
+          "sourceLogw": -13.95842987117771,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "R": 3.0844216508158815,
+      "mu": 3.274562452916024e-14,
+      "rOuter": 0.1525361819534748,
+      "rInner": 0.15112393403101138,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.15112393403101138,
+          "sourceR": 0.15000305505891026,
+          "drdx": 3.096865497523245e-7,
+          "sourceDrdx": 3.1715443439036174e-9,
+          "radialDerivativeRatio": 97.64534755681657,
+          "w": 1.9162516768490992e-8,
+          "logw": -17.77030971768084,
+          "sourceLogw": -17.77030971768084,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.1521141151012203,
+          "sourceR": 0.15000458692265017,
+          "drdx": 0.00009910070779707985,
+          "sourceDrdx": 0.0000010149045543687973,
+          "radialDerivativeRatio": 97.64534740778049,
+          "w": 3.39900628318127e-13,
+          "logw": -28.710123089672145,
+          "sourceLogw": -28.710123089672145,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.1525361819534748,
+          "sourceR": 0.15000611880203382,
+          "drdx": 3.096928776637479e-7,
+          "sourceDrdx": 3.171609121232125e-9,
+          "radialDerivativeRatio": 97.6453484102217,
+          "w": 1.288911043447677e-7,
+          "logw": -15.864297941448129,
+          "sourceLogw": -15.864297941448129,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "R": 4.756828460010883,
+      "mu": 4.867666209410623e-15,
+      "rOuter": 0.15112393403101138,
+      "rInner": 0.15050815752311195,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.15050815752311195,
+          "sourceR": 0.15000152599755695,
+          "drdx": 1.0948961344623698e-7,
+          "sourceDrdx": 1.1212988260889896e-9,
+          "radialDerivativeRatio": 97.6453474299344,
+          "w": 2.8487284243752105e-9,
+          "logw": -19.676393109113803,
+          "sourceLogw": -19.676393109113803,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.15096825753345275,
+          "sourceR": 0.15000229052628525,
+          "drdx": 0.0000495495953400512,
+          "sourceDrdx": 5.074445086781909e-7,
+          "radialDerivativeRatio": 97.64534740777806,
+          "w": 2.762645252272605e-14,
+          "logw": -31.220002656446866,
+          "sourceLogw": -31.220002656446866,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.15112393403101138,
+          "sourceR": 0.15000305505891023,
+          "drdx": 1.0949072968606688e-7,
+          "sourceDrdx": 1.1213102562040436e-9,
+          "radialDerivativeRatio": 97.64534755681657,
+          "w": 1.916251676849106e-8,
+          "logw": -17.770309717680835,
+          "sourceLogw": -17.770309717680835,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "R": 64,
+      "mu": 7.807165272035656e-21,
+      "rOuter": 0.1500038621891517,
+      "rInner": 0.1500016190625331,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.1500016190625331,
+          "sourceR": 0.15000001189559037,
+          "drdx": 7.560553382876447e-11,
+          "sourceDrdx": 7.74287109789546e-13,
+          "radialDerivativeRatio": 97.64534740777788,
+          "w": 4.569348880074322e-15,
+          "logw": -33.01940567716319,
+          "sourceLogw": -33.01940567716319,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.15000326467532046,
+          "sourceR": 0.15000001784443834,
+          "drdx": 3.871003485552796e-7,
+          "sourceDrdx": 3.964350159344566e-9,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 4.119495588986037e-22,
+          "logw": -49.241141319860475,
+          "sourceLogw": -49.241141319860475,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.1500038621891517,
+          "sourceR": 0.15000002379328656,
+          "drdx": 7.560553982564197e-11,
+          "sourceDrdx": 7.742871712044264e-13,
+          "radialDerivativeRatio": 97.64534740777809,
+          "w": 3.0738775679419893e-14,
+          "logw": -31.113251485849098,
+          "sourceLogw": -31.113251485849098,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "R": 64,
+      "mu": 2.985424221400569e-33,
+      "rOuter": 0.15000000007089953,
+      "rInner": 0.1500000000354458,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.1500000000354458,
+          "sourceR": 0.1500000000003629,
+          "drdx": 1.2746138912676692e-17,
+          "sourceDrdx": 1.305350357293256e-19,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 1.7472990413022503e-27,
+          "logw": -61.61172632015034,
+          "sourceLogw": -61.61172632015034,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.15000000005317923,
+          "sourceR": 0.1500000000005444,
+          "drdx": 1.181336372394108e-11,
+          "sourceDrdx": 1.2098235131067901e-13,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 4.8067936534666254e-39,
+          "logw": -88.23078836503764,
+          "sourceLogw": -88.23078836503764,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.1500000000708995,
+          "sourceR": 0.15000000000072586,
+          "drdx": 1.2746138912707535e-17,
+          "sourceDrdx": 1.3053503572964147e-19,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 1.1754380001459464e-26,
+          "logw": -59.705571573627424,
+          "sourceLogw": -59.705571573627424,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "R": 64,
+      "mu": 5.483358292288117e-73,
+      "rOuter": 0.14999999999999997,
+      "rInner": 0.14999999999999997,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 2.6990999023227852e-39,
+          "sourceDrdx": 2.764186900837214e-41,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 3.20928148794184e-67,
+          "logw": -153.10715415404619,
+          "sourceLogw": -153.10715415404619,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 4.196949889453877e-26,
+          "sourceDrdx": 4.29815654393337e-28,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 3.1365774891923455e-93,
+          "logw": -212.99728141457192,
+          "sourceLogw": -212.99728141457192,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 2.6990999023227852e-39,
+          "sourceDrdx": 2.764186900837214e-41,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 2.1589386390003618e-66,
+          "logw": -151.20099940750632,
+          "sourceLogw": -151.20099940750632,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 158,
+      "R": 64,
+      "mu": 2.189172915374646e-138,
+      "rOuter": 0.14999999999999997,
+      "rInner": 0.14999999999999997,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 5.743339291933524e-75,
+          "sourceDrdx": 5.8818360980873975e-77,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 1.2812717565979204e-132,
+          "logw": -303.69337913069427,
+          "sourceLogw": -303.69337913069427,
+          "chi": 1
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 6.94327116082564e-50,
+          "sourceDrdx": 7.110703525719219e-52,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 2.0716663210424557e-182,
+          "logw": -418.34213365545565,
+          "sourceLogw": -418.34213365545565,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 5.743339291933524e-75,
+          "sourceDrdx": 5.8818360980873975e-77,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 8.619334616711846e-132,
+          "logw": -301.78722438415446,
+          "sourceLogw": -301.78722438415446,
+          "chi": 1
+        }
+      ]
+    },
+    {
+      "n": 159,
+      "R": 64,
+      "mu": 3.2542250086684734e-139,
+      "rOuter": 0.14999999999999997,
+      "rInner": 0.14999999999999997,
+      "ports": [
+        {
+          "segment": 0,
+          "x": 0,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 2.0795430953927114e-77,
+          "sourceDrdx": 2.0795430953927114e-77,
+          "radialDerivativeRatio": 1,
+          "w": 1.904621861497815e-133,
+          "logw": -305.59953387723414,
+          "sourceLogw": -305.59953387723414,
+          "chi": 0
+        },
+        {
+          "segment": 4,
+          "x": 0.5,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 3.47163558041282e-50,
+          "sourceDrdx": 3.5553517628596095e-52,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 1.5397752055594673e-183,
+          "logw": -420.94143558255547,
+          "sourceLogw": -420.94143558255547,
+          "chi": 1
+        },
+        {
+          "segment": 8,
+          "x": 1,
+          "r": 0.14999999999999997,
+          "sourceR": 0.14999999999999997,
+          "drdx": 2.03057707999067e-75,
+          "sourceDrdx": 2.0795430953927114e-77,
+          "radialDerivativeRatio": 97.64534740777785,
+          "w": 1.2812717565979204e-132,
+          "logw": -303.69337913069427,
+          "sourceLogw": -303.69337913069427,
+          "chi": 1
+        }
+      ]
+    }
+  ]
+}

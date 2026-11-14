@@ -1,0 +1,538 @@
+{
+  "status": "PREPARED_OFFLINE_AWAITING_ORDINARY_FAST_FORWARD_PUSH",
+  "source_base": "02338b87725b7bff9599d797f28f6061e704c880",
+  "source_commit": "e6ee007fa3ecd0cee753a962c4bb7910e85a95cf",
+  "latest_parent": "ec197ff2bd2f0ceaf0ef07aac4a5a8cf5ce4dbbc",
+  "candidate_commit": "b77800583068ef38332c690f03a629784373ff82",
+  "candidate_tree": "4acf86cd22e5a7829e772e1000edc8ff47d0e328",
+  "changed_path_count": 66,
+  "topic_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/HANDOFF.md",
+      "mode": "100644",
+      "git_blob": "7b96f8b2c5fbe838768d59aeac9536e6e43e4005",
+      "sha256": "8707fae44e1de6c4aeb0d1f7569a16744a3b682a7801e482ab1d67d9785d30f9",
+      "bytes": 9697,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "mode": "100644",
+      "git_blob": "c6976ddf1cfc110ad589e7a9368c493971435879",
+      "sha256": "9482fba03299507bac5818aabcc8d2741f4191ca566c821c197345d0de1367b3",
+      "bytes": 18533,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-interface-v2.md",
+      "mode": "100644",
+      "git_blob": "a2c744a9e71116c98376aadf92dbb47bd26475f3",
+      "sha256": "c289b4fda5cefbc679a6519a45fe37830cfa8229bfd09260865a20b99919beab",
+      "bytes": 16684,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-interface.md",
+      "mode": "100644",
+      "git_blob": "b8fa759e7a68f3c766f3e5dd1a688c54d9d4d058",
+      "sha256": "ecabcdc47491882a21747fb28c58914401f051ab4a5b160942e1ab68093d6772",
+      "bytes": 16276,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-observed.json",
+      "mode": "100644",
+      "git_blob": "92187fd54a685df710f6fac45e46531251d5dbd2",
+      "sha256": "37bc7bda9e26ee44eeccc428eff6280bce43759e4c42c60037bcd1ca6843d775",
+      "bytes": 681,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-publication.json",
+      "mode": "100644",
+      "git_blob": "a8e022a711a501612d95e8729b89fb7d80d5dbfc",
+      "sha256": "72ad3921430e5450d98e0a92893ab13309354c6bd37d0c9eda5468aa58a230ac",
+      "bytes": 1226,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-sources.json",
+      "mode": "100644",
+      "git_blob": "f826fa5ec1f000a0587cb7149f32a2c4604b7ca1",
+      "sha256": "cb9b871ffa00a453182e6c029910819529dab5749a5821b578956a20eeddd663",
+      "bytes": 1460,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-symbolics-v2.json",
+      "mode": "100644",
+      "git_blob": "7125c168dc0ddc01f76519d45af3903e472a0ece",
+      "sha256": "32d213fe01441ed44cd69d611c6bf7b3a89715f73430c949a0d248fb92a98a39",
+      "bytes": 2020,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-symbolics.json",
+      "mode": "100644",
+      "git_blob": "5ea789b8a368627b9ae3d419beb5b681432ea996",
+      "sha256": "4388ccb903d85d3a311b79441fede163c7c5b7e3ac2ae9c96a82fa99c072675b",
+      "bytes": 2017,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-observed.json",
+      "mode": "100644",
+      "git_blob": "3e5994372fed1d19a86c63dc06b5418c3fe183a5",
+      "sha256": "7f169c0c577d1ea4ed015d1f88b2c3f2973c2b6696f494f26e6092942d302f3e",
+      "bytes": 687,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-publication.json",
+      "mode": "100644",
+      "git_blob": "c4d1dc7eebf33738d78e67b4e6c91be44abb6a2d",
+      "sha256": "03c78b235ee3e2fff125fbecb5388c1caea4cb581d7509fc60608ed0cb0720f4",
+      "bytes": 1466,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-v2-sources.json",
+      "mode": "100644",
+      "git_blob": "578cb077ee4e71475bb3b3336a54690ca946456d",
+      "sha256": "4b9bb0cb84fd1575979a84a792ec99a7c7906b470ac5309594848a231db526a0",
+      "bytes": 2182,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-observed.json",
+      "mode": "100644",
+      "git_blob": "4dca785e274af537e36724d6941e76027e2a6979",
+      "sha256": "32dbe3ca99078e6172bdd725599cfb3cb8b4f5d8c1d21b798c97611b14799ad1",
+      "bytes": 442,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-publication.json",
+      "mode": "100644",
+      "git_blob": "3bd3ad59d9daab956618e2fcdc862676fb6019b7",
+      "sha256": "9b71b9a878f09c6e051cf3ad654771f22981a2ebe3f79098cf5001bcfad6b673",
+      "bytes": 1193,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template-sources.json",
+      "mode": "100644",
+      "git_blob": "66684e9870f4f435fbb8d50355f6415e395eadbc",
+      "sha256": "63ff67906be6f15d8423f2a5c22a27b1625bb4117ffd0a3afb17c8eee43e2f4c",
+      "bytes": 1867,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.json",
+      "mode": "100644",
+      "git_blob": "8d5a3ec122229fd40aecaee6b686ced2b1b452aa",
+      "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e",
+      "bytes": 7550,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-flat058-geometric-template.md",
+      "mode": "100644",
+      "git_blob": "3f8817c57f041e579962a9aa3ab132c975c13291",
+      "sha256": "f962bee606ba0a2cc03b08bb9e4669bf43056dfd6f983cfa24d6c3d990a7c805",
+      "bytes": 10352,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-first-request-binding.json",
+      "mode": "100644",
+      "git_blob": "e4cd8395a0eddd55675d95e40485c424dcfff994",
+      "sha256": "763db9c6c38d3ca144dc67db5a8ae8fef58cfcba2281e7f1cf3c194d7ff35861",
+      "bytes": 2074,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-reproduction.json",
+      "mode": "100644",
+      "git_blob": "07985f44cf5a327fa651af145542e3fc371ac8fc",
+      "sha256": "c9d324f2f91093ebb51e8c44a707bb395175ce1dcd3c07bcb7ac9f1360e0e785",
+      "bytes": 45136,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-run.log",
+      "mode": "100644",
+      "git_blob": "3d85d0c876450226d7fe4eb0ee2cdd785345841b",
+      "sha256": "d459a802501b5026a08e77ad4f35d87861fee63adfd8c9b1715b504221edb30f",
+      "bytes": 405,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-summary.json",
+      "mode": "100644",
+      "git_blob": "1190bd2d3c3e02b054d3de9c178b32c0c978b595",
+      "sha256": "5bca477480f7747f5712f82fbc3bc6e00df3be491077a539088f1d38223738e4",
+      "bytes": 669,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-iteration.json.gz",
+      "mode": "100644",
+      "git_blob": "ae8dbfefe9a39f0de1d609adbe24aecefac068ae",
+      "sha256": "40fe8d7e5698a2efad7d420ed59af92d03afd153ca3d7495a1f88299c9059604",
+      "bytes": 245111,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-trace.jsonl",
+      "mode": "100644",
+      "git_blob": "1c57796d6a1205a169e1d24212e6cf00eb2d6c94",
+      "sha256": "efdab6fae41a7bc31cc7be2416a535720ae1c552be633a30d78be4eba277e057",
+      "bytes": 1066,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01_tail_0001.json.gz",
+      "mode": "100644",
+      "git_blob": "eb369db85929a7c01eaca0204fa2f7fef44d91a6",
+      "sha256": "e8ff3b35b04fd3fd2ff62b69e1cecbe5f560d709980868e9c3e6bbe61ea11120",
+      "bytes": 254043,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-first-request-binding.json",
+      "mode": "100644",
+      "git_blob": "6fc5fb2c54d9fc3d9ecd6e5e85721fc0e4b29aca",
+      "sha256": "5aa0aea52029562e88a2118c1a6a6efe963414799fa1ed2e69c968bc1613e2fb",
+      "bytes": 2074,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-launch.json",
+      "mode": "100644",
+      "git_blob": "06a38c227455289eb0b2beb1aeb6fa4d6837aec0",
+      "sha256": "5424505267c750fae5dd5cd8f70503893325a1cb9fb98e8365f191e018e0e4e1",
+      "bytes": 63007,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-preparation.json",
+      "mode": "100644",
+      "git_blob": "b6f2e5385b1056f2971b9a80d4c6b6d377bf64cb",
+      "sha256": "9a060ccce6b039d9b99790c54e0347952435512f5b92abaf6ba2ae1d1b71cad4",
+      "bytes": 3250,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-tail-config.json",
+      "mode": "100644",
+      "git_blob": "e5ec759a1180eb106b21d29fa1e4c31752431df0",
+      "sha256": "140be044184070274dc51f9515485305782da3ec3992d13cd7e0c125585b9cb6",
+      "bytes": 2688,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02_tail_0001.json.gz",
+      "mode": "100644",
+      "git_blob": "7208a9a0d31ac8e9ec0811c162dbb7c11e95e0c9",
+      "sha256": "c71d2d21e17d399dbb0ba0cbc725f48399c29eaaf6ad5bdc94fe00034ca500bd",
+      "bytes": 254043,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-index-a2-before-m14-02.json",
+      "mode": "100644",
+      "git_blob": "ea2c4c8a79d90f86f030f89cee92f353217b6853",
+      "sha256": "93f8fd4f0f1f8119bb3a69bbfadf1002466a87450cf20760f15d2d67caf00320",
+      "bytes": 688,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-023-prepared-attempt1.json",
+      "mode": "100644",
+      "git_blob": "76a9f4ecfef78807109a122938f5006bf78b4d46",
+      "sha256": "017067a029becffce2d3e4765edd54748f8f67bb7ca31ad12457d9a37ea1437e",
+      "bytes": 25082,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-023-prepared-attempt2.json",
+      "mode": "100644",
+      "git_blob": "069e4d8c01be80e868e727a8985c74bd6a602f6d",
+      "sha256": "9221f441da4041df22a0c4010ecff5bda36e79ff5942bce6e42a8c6ec16c6787",
+      "bytes": 25082,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-023-push-observed.json",
+      "mode": "100644",
+      "git_blob": "5b01a878d482afe50b98c695639b87961bfcadc0",
+      "sha256": "97d02fd1e422a1e8619a6bc9633d411e4707ad53dc0da960c2177405c666b795",
+      "bytes": 1040,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r41-r42-adoption.json",
+      "mode": "100644",
+      "git_blob": "da44e4724fdf4d99fbf5bec3f6388116bc3e3ba8",
+      "sha256": "f30f28a5848fa11d9c3884f2ac2fcdb94c4b21182f9f814fd82cb115d1121c11",
+      "bytes": 2277,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r41-r42-m14-closed-publication.json",
+      "mode": "100644",
+      "git_blob": "0650793c9d4e79444b0fa9d2f9cfea69b2f711d2",
+      "sha256": "17b16428fdf54f272a14565410ccdd2907ca6e26958923e2e127db7e01acfd08",
+      "bytes": 15568,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-final-observed.json",
+      "mode": "100644",
+      "git_blob": "36bf32cb4dd7db65f61f1d1e35af8abe58daf7a8",
+      "sha256": "4e5660620a67503e4649789e7707723abadcd05ddf6e22430d7719e6892f227c",
+      "bytes": 4534,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-first-dn-audit.json",
+      "mode": "100644",
+      "git_blob": "fc2fc85ee30c1eeacddc1923452494c5f296cc73",
+      "sha256": "15b95083e6732713f75817b055772e2b822472ede11ed4c9891ce5e7bd191e1f",
+      "bytes": 1082,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-first-dn-observed.json",
+      "mode": "100644",
+      "git_blob": "1bef6e246da7ebe40918b0d62ee6e5e101ecfb8d",
+      "sha256": "e8bbdc7f730f6f40f2393865a496b2c5b591ba34364cb40aa6415710799b9a3b",
+      "bytes": 1837,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-guard-completion.json",
+      "mode": "100644",
+      "git_blob": "2f790888e8aea561f395c651bd238e7d3673dd24",
+      "sha256": "34414e692ad03ee3cb141e24d1995e5fdb792639a64ea9538c740af2d7e22014",
+      "bytes": 1303,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-first-dn-audit-v2.json",
+      "mode": "100644",
+      "git_blob": "8d41b2a68934957b9c24f17ca6f06ed4c2087064",
+      "sha256": "4d325cad8d486f698b95827570c616220b20fa3b0c5ccc183503fd3a555184c3",
+      "bytes": 1082,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-first-dn-observed.json",
+      "mode": "100644",
+      "git_blob": "bf891b227d12d2d985ecaade37b68cbcb0c08e6a",
+      "sha256": "51294a9e892c1991f95ad1440a7627317ec29834bb368ad1ddd3b6950d73ff69",
+      "bytes": 2043,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-launch.json",
+      "mode": "100644",
+      "git_blob": "53f312c84fdbd779504de513bf62451d363ffe43",
+      "sha256": "05e3b3916f8b95baca5c9d7915feecbe6b8ed2382822d6efc29e7be27b2f532d",
+      "bytes": 37224,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-start-observed.json",
+      "mode": "100644",
+      "git_blob": "c3e11e9d52baf7fbdc7d6a71a7187b31e0ff1247",
+      "sha256": "6ea2d23cc6d3d219822dc3fbb9f3e594137ced666d8751a371ba2bca1506eaa8",
+      "bytes": 1159,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-degenerate-flat-endpoint-independent.json",
+      "mode": "100644",
+      "git_blob": "a178171b6c55c60888290dbde3c042fd9b80840d",
+      "sha256": "a4163b7fb6ec240febf0bdf69898be655af6fc2589c3034021fbfe835d700ee4",
+      "bytes": 6369,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-degenerate-flat-endpoint-symbolics-v2-replay.json",
+      "mode": "100644",
+      "git_blob": "7125c168dc0ddc01f76519d45af3903e472a0ece",
+      "sha256": "32d213fe01441ed44cd69d611c6bf7b3a89715f73430c949a0d248fb92a98a39",
+      "bytes": 2020,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-independent.json",
+      "mode": "100644",
+      "git_blob": "c6792b95a909af080766a30de6463240845bf826",
+      "sha256": "4e44860c517fe9e88ead0dc280afea53301e0eef853034ddea7084252b90a142",
+      "bytes": 6125,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-flat058-geometric-template-replay.json",
+      "mode": "100644",
+      "git_blob": "8d5a3ec122229fd40aecaee6b686ced2b1b452aa",
+      "sha256": "0fb61f7bab0130cb1cee1bc28604f1fc87f8cd8508e7430f2f92d18d9455679e",
+      "bytes": 7550,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-degenerate-flat-endpoint-v2-observed.json",
+      "mode": "100644",
+      "git_blob": "7be818d30c98babab4ae859e0b4519974dd785d0",
+      "sha256": "be9edc0bc9b23a0dfcca4448cbef61cace2567e5e4502461acb62692dfe65141",
+      "bytes": 1398,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-degenerate-flat-endpoint-v2-publication.json",
+      "mode": "100644",
+      "git_blob": "6d8b4d1ccd35d1ac1b26f5b9dc0667ab6d6e9221",
+      "sha256": "be3eff03218c2947669d59334133d64af35ce75b5be5437a48f9157e281be74f",
+      "bytes": 2126,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-degenerate-flat-endpoint-v2-sources.json",
+      "mode": "100644",
+      "git_blob": "c6648c8a4bd6dbdcc03214aaa6931063a0eb8ff8",
+      "sha256": "473e0807c147c515ea7ef097f14bb5d5546cf47f26257e20217c922c5778d282",
+      "bytes": 6699,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-degenerate-flat-endpoint-v2.md",
+      "mode": "100644",
+      "git_blob": "2c8f963b28bb4f98c3a3d2212b7f196135769f1a",
+      "sha256": "68d1c25628d12c408a212e08b22bd0ad0c7e09bdcae1dd6fde10cac56924b06b",
+      "bytes": 10763,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template-observed.json",
+      "mode": "100644",
+      "git_blob": "a93c9a8ed342a6404407458e17881f6f1eba1384",
+      "sha256": "4407f6a3aa92be8dfc03a0e3a4791fdf808706d96b50fdb02aae1e8ff3d369c4",
+      "bytes": 1386,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template-publication.json",
+      "mode": "100644",
+      "git_blob": "9fc707dbf60fc58ba3cbfef25daf58510fd78be8",
+      "sha256": "c3f09e0ec3d8c1493b1c588c7aa8a9abdef05fbad341547640177f29b5fb00d2",
+      "bytes": 2049,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template-sources.json",
+      "mode": "100644",
+      "git_blob": "6ef31b75b0a818d4a254cc8f2fb849f21af8b5b1",
+      "sha256": "79aabb0941b85df6bfc11c681569f68254b89182310bbbe84e6912a0b630dced",
+      "bytes": 4698,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-flat058-geometric-template.md",
+      "mode": "100644",
+      "git_blob": "71b7e53a0731292d64610d8d4c82151c8de73dfa",
+      "sha256": "16d0eb80746246c5bf84a33326055705931f7248e55cf82342927a0c2ab2dd0e",
+      "bytes": 8222,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "mode": "100644",
+      "git_blob": "6da265c3cf561ec77dd59b080cb88fabc9d3b8e8",
+      "sha256": "c6f777dcf71d2b69fba9a1bcaf79df549d2f95d80f80abcd587762fceaefe9ae",
+      "bytes": 20988,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "mode": "100644",
+      "git_blob": "3a15e17a860b33bee32a0945d3444f6427b726ba",
+      "sha256": "25d39b3b4277bae54550623e0038068a358620aded074fed183720cec9ad3069",
+      "bytes": 12946,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R41-flat-annulus-conditional-local-geometry.md",
+      "mode": "100644",
+      "git_blob": "1c17afaf4e2d98d30165f368e33f5d1b59babc18",
+      "sha256": "00b859c437945ea9c10a879b5622fe98c0d4572248b1e78cce6717648adecb13",
+      "bytes": 10603,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R42-degenerate-flat-endpoint-and-finite-mode-uniqueness.md",
+      "mode": "100644",
+      "git_blob": "d6df161536753df7d6e8e9442c329ba8c0840080",
+      "sha256": "7251b31003e6545492c722eaaaf88efc7ee089e42e6a62104456b5609a908db8",
+      "bytes": 16723,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-degenerate-flat-endpoint-symbolics-v2.py",
+      "mode": "100644",
+      "git_blob": "ea7dccdd98753b50c47ec7ea2932e75562655266",
+      "sha256": "8166eb3d295a0f13697c3d8526df7162608a8fd03fdfbefad7186b72db0858b3",
+      "bytes": 6179,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-degenerate-flat-endpoint-symbolics.py",
+      "mode": "100644",
+      "git_blob": "0767db3fdb0c02e81c1a495c1cbb69b90a42dde9",
+      "sha256": "a0f4c06c262f9d89e4ec3240cef79cc6e582b3e9710b05dc75d1e26256f9971d",
+      "bytes": 6176,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-flat058-geometric-template.py",
+      "mode": "100644",
+      "git_blob": "8056cc3069de8eed5699fda8c91571178229a508",
+      "sha256": "47d63175450ce66d31e5af054844d1748a75dda2382817459f4ef18e392f65c2",
+      "bytes": 7818,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-true-m14-resource-limited-4g.py",
+      "mode": "100644",
+      "git_blob": "b44d6b3b7eaa606d2ce4a1956c39327044638193",
+      "sha256": "f4a475f11a962511ee315c0c9e62b7a90dc5bcda807eb439b492253f53926a0f",
+      "bytes": 1582,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-check-degenerate-flat-endpoint.py",
+      "mode": "100644",
+      "git_blob": "bbba846e840381ed241f128db7f9c15d4c503635",
+      "sha256": "2e7d6d8f70f5b8e8a0bda95495a0c273d89c3a821d804b2674d1f0b004dd0b77",
+      "bytes": 5368,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-check-flat058-geometric-template.py",
+      "mode": "100644",
+      "git_blob": "e9a5c7d6d669ded4055370728fdb889d268e5268",
+      "sha256": "8a725c5abc8226c592245eba9c3b509949919e5a9dab72d615ffe4bdf0cb34ce",
+      "bytes": 7657,
+      "already_present": false
+    }
+  ],
+  "topic_total_bytes": 1243345,
+  "root_log_bytes": 49197,
+  "root_log_sha256": "1d0bcee6f76ca2478e7b5b52794b3266d1ba1d16a8e5a57b411311723e042202",
+  "per_path_conflict_gate": true,
+  "unrelated_paths_preserved": true,
+  "network_calls": 0,
+  "remote_ref_updates": 0
+}

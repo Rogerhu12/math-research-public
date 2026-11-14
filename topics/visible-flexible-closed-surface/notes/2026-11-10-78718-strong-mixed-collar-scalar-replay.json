@@ -1,0 +1,196 @@
+{
+  "status": "PASS_FROZEN_44_SCALAR_GATES_ONLY",
+  "observer": "Astra-visible-flex-78718bd0/root",
+  "source_markdown_sha256": "0bb11a1acad3d19f2751cbaa554a0e727aaed192559e5b709281da0e78fb3955",
+  "extracted_javascript_sha256": "585984c63dc98292a81842eb5bacf85ced413fcd89fc039bdf1f9fcb522d4805",
+  "runner_sha256": "e50df21dc592d4a403c66af4513e5e4b57ad01d5525bbd483257a97404d934bd",
+  "node_exit_code": 0,
+  "result": {
+    "kind": "exact-BigInt-scalar-gates",
+    "pass": 44,
+    "fail": 0,
+    "checks": [
+      {
+        "name": "physical q",
+        "status": "PASS"
+      },
+      {
+        "name": "regularized q",
+        "status": "PASS"
+      },
+      {
+        "name": "speed upper",
+        "status": "PASS"
+      },
+      {
+        "name": "speed below cone",
+        "status": "PASS"
+      },
+      {
+        "name": "support in open buffer",
+        "status": "PASS"
+      },
+      {
+        "name": "buffer in finite propagation cone",
+        "status": "PASS"
+      },
+      {
+        "name": "C lower",
+        "status": "PASS"
+      },
+      {
+        "name": "C upper",
+        "status": "PASS"
+      },
+      {
+        "name": "slope coarse",
+        "status": "PASS"
+      },
+      {
+        "name": "radial radius coarse",
+        "status": "PASS"
+      },
+      {
+        "name": "radius below two",
+        "status": "PASS"
+      },
+      {
+        "name": "L upper",
+        "status": "PASS"
+      },
+      {
+        "name": "normal derivative",
+        "status": "PASS"
+      },
+      {
+        "name": "e1 difference",
+        "status": "PASS"
+      },
+      {
+        "name": "e2 difference",
+        "status": "PASS"
+      },
+      {
+        "name": "normal difference",
+        "status": "PASS"
+      },
+      {
+        "name": "hyp mixed Hessian",
+        "status": "PASS"
+      },
+      {
+        "name": "hyp angular Hessian",
+        "status": "PASS"
+      },
+      {
+        "name": "hyp direction Hessian",
+        "status": "PASS"
+      },
+      {
+        "name": "added direction Hessian",
+        "status": "PASS"
+      },
+      {
+        "name": "total direction Hessian",
+        "status": "PASS"
+      },
+      {
+        "name": "total Hessian budget",
+        "status": "PASS"
+      },
+      {
+        "name": "added derivative envelope",
+        "status": "PASS"
+      },
+      {
+        "name": "total derivative budget",
+        "status": "PASS"
+      },
+      {
+        "name": "positive chord factor",
+        "status": "PASS"
+      },
+      {
+        "name": "exact reach",
+        "status": "PASS"
+      },
+      {
+        "name": "absolute reach",
+        "status": "PASS"
+      },
+      {
+        "name": "new initial displacement",
+        "status": "PASS"
+      },
+      {
+        "name": "diameter envelope",
+        "status": "PASS"
+      },
+      {
+        "name": "diameter convenient bound",
+        "status": "PASS"
+      },
+      {
+        "name": "grip chord",
+        "status": "PASS"
+      },
+      {
+        "name": "grip ratio",
+        "status": "PASS"
+      },
+      {
+        "name": "grip target",
+        "status": "PASS"
+      },
+      {
+        "name": "source support integral",
+        "status": "PASS"
+      },
+      {
+        "name": "terminal north increment",
+        "status": "PASS"
+      },
+      {
+        "name": "whole image held gap",
+        "status": "PASS"
+      },
+      {
+        "name": "held ratio",
+        "status": "PASS"
+      },
+      {
+        "name": "held strong",
+        "status": "PASS"
+      },
+      {
+        "name": "terminal diameter witness",
+        "status": "PASS"
+      },
+      {
+        "name": "all E3 distance gap",
+        "status": "PASS"
+      },
+      {
+        "name": "all E3 ratio",
+        "status": "PASS"
+      },
+      {
+        "name": "all E3 strong",
+        "status": "PASS"
+      },
+      {
+        "name": "reach ratio",
+        "status": "PASS"
+      },
+      {
+        "name": "reach target",
+        "status": "PASS"
+      }
+    ],
+    "pde_runs": 0,
+    "solver_runs": 0,
+    "geometry_arrays": 0,
+    "terminal_math_runs": 0
+  },
+  "scope": "Exact rational comparisons only; no PDE, numerical cap, mesh, or G5."
+}

@@ -1,0 +1,191 @@
+{
+  "scope": "Only one actual saved W22 trial stage and its accepted neighbor; low floor is fixed-point diagnosis, not a new solution or acceptance.",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-02-tail-config.json",
+      "bytes": 2995,
+      "sha256": "cf250e28c04c72465e5de1b79415fdedb085c8c91f53086f525d88882b73cdfb"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-w22-branch-call1-iteration1-input.json.gz",
+      "bytes": 386180,
+      "sha256": "66d469c1cf73c57984c18533bebde9391fffd74b3dae18148736320b6d1f3ae3"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-02_tail-trial-call1-iteration0-trial8.json.gz",
+      "bytes": 1891,
+      "sha256": "3d1fd71cc8ac183fa588c4016602e510a192bba45b7a4cfd49471747f0d482ef"
+    }
+  ],
+  "modes": 22,
+  "quadrature": 512,
+  "stage": 35,
+  "rawCell": 0,
+  "rawSegment": 4,
+  "originalFloor": 0.05,
+  "looseFloor": 1e-10,
+  "acceptedIteration": {
+    "iteration": 1,
+    "norm": 990.9916409523771,
+    "minA": 0.08755183366711833,
+    "minD": 0.9916325656759234
+  },
+  "savedTrial": {
+    "iteration": 0,
+    "trial": 8,
+    "step": 0.00390625,
+    "baseNorm": 992.4223392245844,
+    "kind": "momentum-root-solver-rejection",
+    "error": "Error: momentum Newton line search failed",
+    "stage": 35,
+    "rawCell": 0,
+    "rawSegment": 4
+  },
+  "acceptedLocal": {
+    "fields": 128,
+    "minA": 0.10254256639761912,
+    "minD": 0.9999278739031964
+  },
+  "trialLocal": {
+    "fields": 0,
+    "error": "Error: Error: momentum Newton line search failed",
+    "failure": {
+      "x": 0,
+      "step": 0,
+      "phase": "a"
+    },
+    "minA": null
+  },
+  "fixedFailurePoint": {
+    "x": 0,
+    "step": 0,
+    "phase": "a",
+    "acceptedRoot": {
+      "minA": 0.10254256639761912,
+      "minD": 0.9999278741625434,
+      "minS": 0.999999189768591,
+      "iterations": 5,
+      "rootRelative": 5.662938956417436e-16,
+      "r": 0.4738235418774038,
+      "w": 0.0072584641261549685,
+      "theta": 0.35588354278946877,
+      "K": -0.2845131217098229,
+      "Pt": -0.6129120204379862
+    },
+    "originalFloorAcceptedSeed": {
+      "ok": false,
+      "error": "Error: momentum Newton line search failed"
+    },
+    "lowerFloorDefault": {
+      "ok": true,
+      "minA": 0.001490460305375611,
+      "minD": 0.999927880823822,
+      "minS": 0.9999991664820407,
+      "iterations": 6,
+      "rootRelative": 2.2161431108024986e-16,
+      "r": 0.4738235418774038,
+      "w": 0.0072584641261549685,
+      "theta": 0.35588354278946877,
+      "K": -0.28652573532522296,
+      "Pt": -0.7119462952642045
+    },
+    "lowerFloorAcceptedSeed": {
+      "ok": true,
+      "minA": 0.0014904603053745007,
+      "minD": 0.999927880823822,
+      "minS": 0.9999991664820407,
+      "iterations": 5,
+      "rootRelative": 2.2161431108024895e-16,
+      "r": 0.4738235418774038,
+      "w": 0.0072584641261549685,
+      "theta": 0.35588354278946877,
+      "K": -0.2865257353252241,
+      "Pt": -0.7119462952642045
+    },
+    "originalFloorPath": {
+      "ok": false,
+      "lastAlpha": 0.5,
+      "lastRoot": {
+        "minA": 0.05223924305100174,
+        "minD": 0.9999278768868467,
+        "minS": 0.9999991789569657,
+        "iterations": 3,
+        "rootRelative": 2.949311681284659e-16,
+        "r": 0.4738235418774038,
+        "w": 0.0072584641261549685,
+        "theta": 0.35588354278946877,
+        "K": -0.28529669881801867,
+        "Pt": -0.6624291578510952
+      },
+      "failureAlpha": 0.53125,
+      "error": "Error: momentum Newton line search failed"
+    },
+    "lowerFloorPath": {
+      "ok": true,
+      "lastAlpha": 1,
+      "root": {
+        "minA": 0.0014904603053736126,
+        "minD": 0.999927880823822,
+        "minS": 0.9999991664820407,
+        "iterations": 3,
+        "rootRelative": 2.2161431108024835e-16,
+        "r": 0.4738235418774038,
+        "w": 0.0072584641261549685,
+        "theta": 0.35588354278946877,
+        "K": -0.28652573532522496,
+        "Pt": -0.7119462952642045
+      }
+    }
+  },
+  "physicalLeadingDifference": {
+    "atFinalTrial": true,
+    "theta": 0.35588354278946877,
+    "referenceA": 0.10254256639761912,
+    "comparedA": 0.0014904603053745007,
+    "deltaA": -0.10105210609224462,
+    "deltaK": -0.002012613615401171,
+    "E_delta_Pt": -0.09903949247684343,
+    "resolvedM15Contribution": -0.069257405812744,
+    "newW22Contribution": -0.029782086664099688,
+    "reconstructionGap": -2.636779683484747e-16,
+    "largestTerms": [
+      {
+        "mode": 15,
+        "frequency": 45,
+        "E_delta_Pt": -0.024345905406720096
+      },
+      {
+        "mode": 18,
+        "frequency": 54,
+        "E_delta_Pt": -0.022974424293098785
+      },
+      {
+        "mode": 17,
+        "frequency": 51,
+        "E_delta_Pt": -0.014326873065094293
+      },
+      {
+        "mode": 12,
+        "frequency": 36,
+        "E_delta_Pt": -0.01335803085847328
+      },
+      {
+        "mode": 21,
+        "frequency": 63,
+        "E_delta_Pt": 0.011976999073788132
+      },
+      {
+        "mode": 14,
+        "frequency": 42,
+        "E_delta_Pt": -0.009129654500645004
+      }
+    ]
+  },
+  "sources": {
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-root-split-engine.mjs": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "78718-tail-fourier-product-jacobian.mjs": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25"
+  },
+  "elapsedSeconds": 2.905
+}

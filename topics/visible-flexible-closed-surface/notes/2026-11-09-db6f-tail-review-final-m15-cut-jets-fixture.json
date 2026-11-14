@@ -1,0 +1,403 @@
+{
+  "status": "PASS-CUT-JETS-SCHEMA-FIXTURE-ONLY",
+  "scope": "Exercise only cut-jet schema validation on a real closed s=.25 response.\n\nMalformed jets exist only as in-memory copies. No s=1 packet is constructed,\nno solver is imported, and no continuation-success gate is called.\n",
+  "actual_response_scope": "Real converged finite M15 s=.25 warm; audit=None. Not an s=1 result.",
+  "actual_quarter_jets_accepted": true,
+  "source_scalar_fields": [
+    "E",
+    "Ep",
+    "backgroundSecond",
+    "backgroundSlope",
+    "endpointFullD",
+    "endpointPhi",
+    "formalCurvature",
+    "meanSecond",
+    "meanSecondCorrection",
+    "meanSlope",
+    "meanSlopeCorrection",
+    "minD",
+    "minLeading",
+    "radius"
+  ],
+  "source_vector_fields": [
+    "height",
+    "second",
+    "slope"
+  ],
+  "modes": 15,
+  "malformed_cases_count": 86,
+  "all_malformed_cases_rejected": true,
+  "frozen_v1_null_jet_weakness_reproduced": true,
+  "cases": [
+    {
+      "case": "E:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "Ep:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "Ep:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "Ep:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "Ep:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSecond:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSecond:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSecond:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSecond:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSlope:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSlope:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSlope:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "backgroundSlope:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointFullD:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointFullD:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointFullD:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointFullD:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointPhi:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointPhi:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointPhi:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "endpointPhi:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "formalCurvature:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "formalCurvature:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "formalCurvature:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "formalCurvature:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecond:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecond:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecond:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecond:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecondCorrection:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecondCorrection:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecondCorrection:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSecondCorrection:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlope:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlope:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlope:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlope:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlopeCorrection:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlopeCorrection:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlopeCorrection:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "meanSlopeCorrection:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minD:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minD:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minD:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minD:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minLeading:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minLeading:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minLeading:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "minLeading:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "radius:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "radius:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "radius:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "radius:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height[0]:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height[0]:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height[0]:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height[0]:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height:short",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height:long",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "height:null_array",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second[0]:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second[0]:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second[0]:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second[0]:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second:short",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second:long",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "second:null_array",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:null",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:string",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:bool_true",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:bool_false",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope:short",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope:long",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope:null_array",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:positive_infinity",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:positive_infinity",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:negative_infinity",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:negative_infinity",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "E:nan",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "slope[0]:nan",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "missing_scalar_key",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "unexpected_key",
+      "accepted_by_v2": false
+    },
+    {
+      "case": "null_whole_jets",
+      "accepted_by_v2": false
+    }
+  ],
+  "source_response_unchanged": true,
+  "numerical_solver_calls": 0,
+  "complete_gate_calls": 0,
+  "s1_packets_created": 0,
+  "bound_files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-final-m15-cut-jets-fixture.py",
+      "bytes": 5555,
+      "sha256": "17fb80ec008a5ec479f85279102146039ebca6831484e16e0898e501b0fb6135"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling.py",
+      "bytes": 18599,
+      "sha256": "22e43581c929145483b704673eb767cabfc1961eb41400595f1a289caf59855e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling-v2.py",
+      "bytes": 19101,
+      "sha256": "8b235dfd97d558fc16e446b65bff2412642b041b9bbe6efb193fc88147426b81"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-recovery-s025-iter004-01_tail_0001.json.gz",
+      "bytes": 273159,
+      "sha256": "07db124d2da380171b99e6d577255b43d4f5496fbd6d982d5dea1a6df873c2e5"
+    }
+  ]
+}

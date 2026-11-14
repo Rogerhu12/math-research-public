@@ -1,0 +1,53 @@
+{
+  "scope": "Analytic target packets for a flat-ramp prefix plus a sine-integral bridge.\n\nThe main prefix parameters are exact binary rationals; Tu/Td are recomputed\nas exact rational expressions. The angular clamped cubic spline is solved\nover Fraction, not rounded PPoly coefficients. The bridge uses frozen\nbinary L,pt,ps, but its sine integral is certified by Taylor bounds. This\ndoes NOT certify that those bridge constants are the exact matching root.\nThe endpoint radius/derivative discrepancies are reported separately.\n",
+  "geometry_file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-warm-m8f16-v2.json",
+  "geometry_sha256": "a4a838b714ae515e54ac6c0a5d2f4cc49ca68fec42c6d8230d2974f8759a8ec1",
+  "data_file": "2026-11-09-db6f-audit-metric-flat17-warm-v2-target-data.npz.gz",
+  "data_sha256": "54f3f26523e7412db3e1e1ac302dfafc4873b5a76655049be01f2d6e25a5aa8e",
+  "script_sha256": "99ff79e70ba000f46da6e2e01a1a9375507aa21a6bf737487d3f50c8d1607b2f",
+  "arithmetic_backend_sha256": "52b5f81d25185e31902f5331370e4e830ccecfde0c205e25b367c90d4440582b",
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.17,
+    "vd": 0.18,
+    "ramp": 0.4,
+    "cycles": 1,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5,
+    "ramp_law": "flat",
+    "ramp_eta": 0.05,
+    "delta": 0.07254444640570741
+  },
+  "bridge_constants": {
+    "L": "5754233219242621/9007199254740992",
+    "pt": "2493077276450591/2251799813685248",
+    "ps": "-4699498958113479/1125899906842624",
+    "root_status": "Frozen numeric constants only; exact matching root not certified."
+  },
+  "bridge_parameter_extractor_sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+  "analytic_definition": "Flat-ramp a(s): exact rational formulas in the saved binary main parameters; Tu,Td recomputed by Fraction. The clamped angular spline is solved exactly over Fraction and multiplied by the prescribed quintic cutoff. The bridge has frozen binary L,pt,ps but uses the true sine integral. Every bridge span uses a fifth-order Taylor enclosure around its exact midpoint phase, followed by integration and an explicitly bounded degree-eight truncation. The radius endpoint is not asserted to satisfy the exact bridge matching equation.",
+  "endpoint_radius_gap": [
+    -4.477529458313257e-13,
+    4.450884105722253e-13
+  ],
+  "endpoint_radial_arclength_derivative_gap": [
+    -2.8865798640254074e-15,
+    2.331468351712829e-15
+  ],
+  "exact_prefix_end": "3298519068481943211358196562218778822071812096/2385170672124033557316116788458136844022364625",
+  "frozen_total_end": "4552635092125197/2251799813685248",
+  "frozen_bridge_endpoint_coordinate_gap": "-3475785592289691441397645891793561086639496857/21483707500385666039607225252879790003021328745941809758208000",
+  "maximum_prefix_piece_extension_error": 1.8015033893906648e-62,
+  "maximum_chart_piece_extension_error": 8.424386446976518e-31,
+  "maximum_remainder": {
+    "a": 3.6619759644042886e-16,
+    "e": 5.06618005929395e-47,
+    "ep": 8.424386446976518e-31
+  },
+  "intervals": 856,
+  "bytes": 181572,
+  "seconds": 1.323940443000538,
+  "exact_bridge_matching_root_certified": false,
+  "global_common_metric_assembly_certified": false,
+  "analytic_enclosure_status": "Requires independent review of the supplier implementation and definition."
+}

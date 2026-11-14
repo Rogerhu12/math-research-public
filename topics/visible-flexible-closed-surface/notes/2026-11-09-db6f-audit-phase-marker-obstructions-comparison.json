@@ -1,0 +1,83 @@
+{
+  "status": "PASS-independent-scalar-and-root-box-cross-comparison",
+  "reviewer": "/root/independent_geometry",
+  "inputs": {
+    "reviewed_proof": {
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-v2.md",
+      "sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486",
+      "bytes": 17349
+    },
+    "author_script": {
+      "file": "scripts/db6f-tail-phase-marker-obstructions.py",
+      "sha256": "e904ab1b2aa23745c1eb64db562fb52c5fd31a0fc35b6dc3e90f3232b0b593d7",
+      "bytes": 14495
+    },
+    "author_report": {
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.json",
+      "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96",
+      "bytes": 11251
+    },
+    "author_sources": {
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-sources.json",
+      "sha256": "807a61dbda8b48a0245f91bf1539875b7df7460a1c0d2249173acde53da270f6",
+      "bytes": 5854
+    },
+    "independent_script": {
+      "file": "scripts/db6f-audit-phase-marker-obstructions.py",
+      "sha256": "53921d9aceb4917b5df57608251d30ee57d705936bcbbc6e0ae02a5f3e03d75a",
+      "bytes": 8779
+    },
+    "independent_report": {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions-check.json",
+      "sha256": "95968c1e9ed2a7ac9d29ca8ac57bc687c2df865138049953306c6ebe53553197",
+      "bytes": 6112
+    },
+    "execution": {
+      "file": "notes/2026-11-09-db6f-audit-phase-marker-obstructions.execution.json",
+      "sha256": "fa38500681a01e9f2bd7d98271a822e5f9b669bcd021e4444fed2b299dd852a4",
+      "bytes": 2658
+    }
+  },
+  "author_source_records_rehashed": 22,
+  "unique_author_files_rehashed": 20,
+  "exact_scalar_comparisons": {
+    "Hc_lower": "7977247853389765/4503599627370496",
+    "actual_cuff": "2702159776422297/18014398509481984",
+    "diameter_lower_from_preserved_seam_circles": "7977247853389765/2251799813685248",
+    "cylinder_radius_over_new_D_upper": "2702159776422297/63817982827118120",
+    "balanced_1_over_25_squared_margin": "24218466148102856714953454068661/2036367466061171636096032216167200",
+    "fixed_original_support_bound": "633825300114114700748351602688/1590912082860290340700025168880625"
+  },
+  "root_box_cross_comparisons": {
+    "balanced_cylinder": {
+      "independent_box_contained_in_author_box": true,
+      "independent_lower": "21481241202688085262510474014534041959/397000000000000000000000000000000000000",
+      "independent_upper": "42962482405376170525020948029068083919/794000000000000000000000000000000000000"
+    },
+    "polynomial_support": {
+      "independent_box_contained_in_author_box": true,
+      "independent_lower": "23717082451262844989991701583245389/250000000000000000000000000000000000",
+      "independent_upper": "94868329805051379959966806332981557/1000000000000000000000000000000000000"
+    },
+    "polynomial_cuff": {
+      "independent_box_contained_in_author_box": true,
+      "independent_lower": "88513356715413148489256136876550938042795176203739857723445641475265763/433012701892219323381861585376468091750000000000000000000000000000000000",
+      "independent_upper": "177026713430826296978512273753101877904181591289392672230631050536976931/866025403784438646763723170752936183000000000000000000000000000000000000"
+    },
+    "general_radial_support": {
+      "independent_box_contained_in_author_box": true,
+      "independent_lower": "5916079783099616042567328291561617/100000000000000000000000000000000000",
+      "independent_upper": "59160797830996160425673282915616171/1000000000000000000000000000000000000"
+    },
+    "general_radial_cuff": {
+      "independent_box_contained_in_author_box": true,
+      "independent_lower": "22079110332158830468355695263644285907215293339437444182411738318137439/173205080756887729352744634150587236700000000000000000000000000000000000",
+      "independent_upper": "110395551660794152341778476318221431372521471566127787462945220885815293/866025403784438646763723170752936183000000000000000000000000000000000000"
+    }
+  },
+  "balanced_quotient_sqrt_box_independently_checked": true,
+  "author_replay_byte_identical": true,
+  "source_ledger_only_allowed_difference": "arithmetic_report.file",
+  "new_solver_root_flow_geometry_backend_calls": 0,
+  "README_complete": false
+}

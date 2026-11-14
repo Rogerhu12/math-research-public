@@ -1,0 +1,24 @@
+{
+  "status": "ACTUALLY_STARTED_UNSOLVED",
+  "start_tool_chunk": "3afd01",
+  "session_id": 27279,
+  "observation_utc": "2026-11-10T13:18:31Z",
+  "sole_poll_owner": "root",
+  "prefix_modes": 15,
+  "tail_modes": 22,
+  "angular": 512,
+  "shooting_parts": 8,
+  "steps": 32,
+  "bootstrap_height_scale": 0.125,
+  "tail_trial": "geometric-centered",
+  "tail_root_precision": "original",
+  "projection_floor": 0.05,
+  "solve_tolerance": 2e-09,
+  "warm_input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-iteration3-root-diagnostic-input.json.gz",
+    "bytes": 385541,
+    "sha256": "18996bebb3b93b2b092c31e7e16f956a3826071133d40c01ac20dfe931adf7d9"
+  },
+  "warm_scope": "Actual unconverged fast05 iteration3; no successful seed fabricated. Same grid and same height states are copied without an amplitude roundtrip.",
+  "scope": "New actual nonlinear solve; no converged DN, prefix or closed surface yet asserted."
+}

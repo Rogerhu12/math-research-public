@@ -1,0 +1,55 @@
+{
+  "status": "PASS-two-observed-light-arithmetic-runs",
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-audit-phase-marker-obstructions.py",
+        "--out",
+        "notes/2026-11-09-db6f-audit-phase-marker-obstructions-check.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "observed_exit_code": 0,
+      "seconds": 0.06686334100231761,
+      "output_text": "{\"status\": \"PASS-independent-Fraction-application-and-frozen-source-identity\", \"inputs_checked\": 12, \"strict_balanced_ratio_bound\": \"1/25\", \"strict_original_support_ratio_bound\": \"1/2500\", \"solver_root_flow_backend_calls\": 0}\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/db6f-tail-phase-marker-obstructions.py",
+        "--out",
+        "notes/2026-11-09-db6f-audit-phase-marker-obstructions-replay.json",
+        "--sources",
+        "notes/2026-11-09-db6f-audit-phase-marker-obstructions-replay-sources.json"
+      ],
+      "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+      "observed_exit_code": 0,
+      "seconds": 0.07463304100383539,
+      "output_text": "{\"new_backend_calls\": 0, \"output_sha256\": \"6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96\", \"quotient_strict_bound\": \"1/25\", \"sources_sha256\": \"74a2e4f996872b1b36b6cf24aec526266382da269de35b78f9aa9c3dc8c9a60a\", \"status\": \"PASS-exact-scalar-arithmetic-for-conditional-obstructions\"}\n"
+    }
+  ],
+  "author_report_byte_identical": true,
+  "source_ledger_equal_except_explicit_output_report_path": true,
+  "allowed_source_ledger_difference": [
+    "arithmetic_report.file"
+  ],
+  "outputs": {
+    "2026-11-09-db6f-audit-phase-marker-obstructions-check.json": {
+      "sha256": "95968c1e9ed2a7ac9d29ca8ac57bc687c2df865138049953306c6ebe53553197",
+      "bytes": 6112
+    },
+    "2026-11-09-db6f-audit-phase-marker-obstructions-replay.json": {
+      "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96",
+      "bytes": 11251
+    },
+    "2026-11-09-db6f-audit-phase-marker-obstructions-replay-sources.json": {
+      "sha256": "74a2e4f996872b1b36b6cf24aec526266382da269de35b78f9aa9c3dc8c9a60a",
+      "bytes": 5862
+    },
+    "2026-11-09-db6f-audit-phase-marker-obstructions.log": {
+      "sha256": "f841bae1d302f489b8adcf03bca88d50aebd5e71eb1948bea8c555222c0e992f",
+      "bytes": 526
+    }
+  },
+  "solver_root_flow_export_integration_backend_calls": 0
+}

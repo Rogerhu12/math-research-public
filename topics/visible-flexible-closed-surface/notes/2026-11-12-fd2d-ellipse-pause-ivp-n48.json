@@ -1,0 +1,60 @@
+{
+  "scope": "Finite nonlinear Frenet-flow diagnostic for an exact elliptic inlet.\n\nThis is an initial-value screen for a NEW metric, not a boundary-value solve,\nnot a certified continuum computation, and not a closed flexible surface.\nIts termination event reports loss of the chosen positive-binormal chart or\nloss of numerical metric accuracy; either can require a BVP or another chart.\nIt never transfers a linear tail condition to a nonlinear endpoint.\n",
+  "source_sha256": "b8a1826611ff424c330dcee4cea6c7540c3be50ee0c66e55e1d1092490471bc7",
+  "candidate_sha256": "9704650d51b602fbb11ee39f8425ccc1b7a9d03f240370caf8af09c3062de0b2",
+  "index": 0,
+  "nodes": 48,
+  "A": 1.4,
+  "B": 0.45,
+  "a0": 0.9870588543320401,
+  "complete_prefix": false,
+  "closed_surface": false,
+  "segments": [
+    {
+      "index": 0,
+      "status": 1,
+      "message": "A termination event occurred.",
+      "chart_events": [
+        0.05761454774672104
+      ],
+      "metric_events": [],
+      "last": {
+        "s": 0.05761454774672104,
+        "radius": 0.9820670419800654,
+        "radial_speed": -0.19836907833557957,
+        "minimum_chart": 9.99999998552159e-06,
+        "metric_angular_error": 1.1429602539969608e-05,
+        "sampled_curvature_max": 7555.753330351531,
+        "sampled_support_min": 0.1214086713997379,
+        "maximum_radius": 1.4004555367051401,
+        "maximum_abs_z": 0.05760751520881467,
+        "maximum_abs_y": 0.42721447590720996,
+        "held_witness_min_distance": 0.9740241036685552
+      },
+      "sampled_extrema": {
+        "minimum_chart": 9.99999998552159e-06,
+        "metric_angular_error": 1.1429602539969608e-05,
+        "sampled_curvature_max": 7555.753330351531,
+        "sampled_support_min": 0.1214086713997379,
+        "maximum_radius": 1.4004555367051401,
+        "maximum_abs_z": 0.05760751520881467,
+        "maximum_abs_y": 0.45,
+        "held_witness_min_distance": 0.95
+      }
+    }
+  ],
+  "initial": {
+    "s": 0.0,
+    "radius": 0.9870588543320401,
+    "radial_speed": 0.0,
+    "minimum_chart": 1.0,
+    "metric_angular_error": 1.3100631690576847e-14,
+    "sampled_curvature_max": 6.913580246913705,
+    "sampled_support_min": 0.45,
+    "maximum_radius": 1.4,
+    "maximum_abs_z": 0.0,
+    "maximum_abs_y": 0.45,
+    "held_witness_min_distance": 0.95
+  },
+  "rhs_calls": 611
+}

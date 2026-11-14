@@ -1,0 +1,8 @@
+{
+  "scope": "Adaptive-chart prefix coupled to the actual weighted finite-tail DN.\n\nDerived db6f continuation runner, using v3 warm remeshing.\nThis changes a finite linear port to a finite nonlinear one. Every physical\nparameter, numerical cutoff, tail response, mean jet and failure is retained.\nFinite-depth convergence and complete closed-surface reach remain separate.\n",
+  "tail_config_sha256": "5df3b72b7d8943fbb17b7388a6447c17846731d0f212afe306d56b81d400fd78",
+  "solver_success": false,
+  "error": "RuntimeError('Weighted stage-tail initialization failed')",
+  "tail_calls": 0,
+  "seconds": 0.06137585639953613
+}

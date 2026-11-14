@@ -1,0 +1,44 @@
+{
+  "status": "ROOT_READONLY_FIRST_TRUE_M14_DN_AUDIT_COMPLETED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T21:00:00.958975+00:00",
+  "actual_audit_receipt": "c95334",
+  "actual_audit_exit_code": 0,
+  "guard_source_bindings_rehashed": 122,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-guard-launch.json",
+    "bytes": 37224,
+    "sha256": "05e3b3916f8b95baca5c9d7915feecbe6b8ed2382822d6efc29e7be27b2f532d"
+  },
+  "audit": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-02-first-dn-audit-v2.json",
+    "bytes": 1082,
+    "sha256": "4d325cad8d486f698b95827570c616220b20fa3b0c5ccc183503fd3a555184c3"
+  },
+  "first_request_binding": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02-first-request-binding.json",
+    "bytes": 2074,
+    "sha256": "5aa0aea52029562e88a2118c1a6a6efe963414799fa1ed2e69c968bc1613e2fb"
+  },
+  "packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-02_tail_0001.json.gz",
+    "bytes": 254043,
+    "sha256": "c71d2d21e17d399dbb0ba0cbc725f48399c29eaaf6ad5bdc94fe00034ca500bd"
+  },
+  "residual": 5.397833270174952e-10,
+  "Jacobian_entries": 616,
+  "jets_fields": 17,
+  "states": [
+    865,
+    28
+  ],
+  "raw_states": [
+    13,
+    28
+  ],
+  "real_solver_session_still_unclosed": 17913,
+  "latest_actual_solver_poll_receipt": "86d9e4",
+  "latest_actual_solver_poll_returned_session": 17913,
+  "whole_prefix_success_not_inferred": true,
+  "scope": "One actual closed DN/J response only. Fresh read-only audit obtained a real tool exit0 after the previous audit result was unavailable. New weighted BVP, outer nonlinear BC, final seam and actual solver exit remain unobserved."
+}

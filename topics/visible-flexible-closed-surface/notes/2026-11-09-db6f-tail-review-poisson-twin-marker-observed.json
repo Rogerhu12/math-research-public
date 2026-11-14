@@ -1,0 +1,66 @@
+{
+  "status": "CLOSED_INDEPENDENT_SOURCE_PROOF_AND_FRACTION_REVIEW",
+  "reviewer": "/root/tail_theory",
+  "date": "2026-11-09",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "author_replay": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "--out",
+      "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json"
+    ],
+    "tool_receipt": "67fb99",
+    "actual_exit_code": 0,
+    "output": {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    "all_output_bytes_equal_author": true
+  },
+  "independent_arithmetic": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/db6f-tail-review-poisson-twin-marker.py",
+      "--out",
+      "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-check.json",
+      "--additional-frozen-proof",
+      "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "--additional-proof-sha256",
+      "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    ],
+    "tool_receipt": "030a2b",
+    "actual_exit_code": 0,
+    "wall_time_seconds": 0.066917144,
+    "source": {
+      "path": "scripts/db6f-tail-review-poisson-twin-marker.py",
+      "bytes": 10486,
+      "sha256": "aaf4e4561c7eecfc3b21649f7a3ca31d607c42d741bd07f6fa4f09ae613e2a6c"
+    },
+    "output": {
+      "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker-check.json",
+      "bytes": 5439,
+      "sha256": "e56a82d3f663792bff6fdf869806684a72859ec77dc5e2539693325f16f87377"
+    },
+    "fraction_fields_reconstructed": 37,
+    "strict_checks": 18,
+    "root_box_algorithm": "122 exact rational bisections of [0,4], not the author isqrt implementation"
+  },
+  "v1_v2_diff_read": {
+    "tool_receipt": "25d7a1",
+    "actual_exit_code": 0,
+    "changed_scope": "Header and replacement of original short alternative paragraph by sections 5.1 and 5.2 only; original arithmetic and remainder of proof unchanged."
+  },
+  "review": {
+    "path": "notes/2026-11-09-db6f-tail-review-poisson-twin-marker.md",
+    "bytes": 14976,
+    "sha256": "40da27583d791aab3227e33b94a3f6017695d1b1d264922d6a3dcdb77f19e027"
+  },
+  "binding_files_rehashed_at_closure": 11,
+  "solver_moment_RK_integral_optimization_calls": 0,
+  "actual_candidate_data_read": false,
+  "closed_surface_or_exact_metric_existence_certified": false,
+  "connected_two_sided_epsilon_005_route_rejected": true,
+  "effective_future_transfer": "One-sided complete convex-hull containment plus actual initial far pair and actual half-phase support point; fixed material caps separately assumed."
+}

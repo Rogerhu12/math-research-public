@@ -1,0 +1,27 @@
+{
+  "schema": "78718-generic-mode-actual-preparation-observation",
+  "observer": "/root/numerical_recovery",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flexible-closed-surface/scripts/78718-run-prefix-mode.py",
+    "--modes",
+    "16",
+    "--restart",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-matched-cut-s63of64-warm-01.json.gz",
+    "--tail-seed",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-matched-cut-s63of64-01_tail_0001.json.gz",
+    "--out-prefix",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-m16-initial-prepare-01",
+    "--prepare-only"
+  ],
+  "tool_result": {
+    "chunk_id": "a63e07",
+    "wall_time_seconds": 0.647992571,
+    "exit_code": 0,
+    "original_token_count": 117,
+    "output": "{\"status\": \"PREPARED_WITHOUT_SOLVER\", \"report\": {\"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-generic-m16-initial-prepare-01-mode-run.json\", \"bytes\": 8841, \"sha256\": \"a9f1636b37c0903d5c89c8198ff514f3ae97cfda53fb49136ca947ddaf004f7a\"}, \"modes\": 16, \"angular\": 512, \"initial_nodes\": 2633, \"height_difference_from_padded_tail_seed_max\": 0.0, \"maximum_weight\": 4096.0, \"solver_calls\": 0}\n"
+  },
+  "actual_exit_code": 0,
+  "scope": "Actual M16 initial-guess construction from the published UNSOLVED M15 warm and its old successful N256 tail. No M16 DN/BVP, no current M15 result was used."
+}

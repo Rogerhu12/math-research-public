@@ -1,0 +1,138 @@
+{
+  "schema": "fd2d-gc-shared-c1-hermite-field-v1",
+  "definition": "exact cubic Hermite of shared binary64 values and first-s jets",
+  "dtype": "little-endian float64 stored by numpy",
+  "node_count": 2,
+  "dimension": 63,
+  "n_modes": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62
+  ],
+  "m_modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62
+  ],
+  "state_order": "[n_0,n_2,...,n_(2K),m_2,...,m_(2K)] real cos/sin amplitudes; no sqrt(2)",
+  "radial_domain_exact": [
+    "298363475313295/562949953421312",
+    "2388258882394571/4503599627370496"
+  ],
+  "chart": {
+    "kind": "fixed_reference_ellipse_eccentric_angle",
+    "computational_angle": "theta",
+    "material_map": "u(theta)=original ellipse arclength/a0; independent of s and all shape parameters",
+    "provider": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_metric_curvature_core.py",
+      "bytes": 17837,
+      "sha256": "7aa0d7173cc25891a7d422056d64b81e1daa2e40552043a1881627933eae2ad0"
+    },
+    "U_s_exact": "0"
+  },
+  "target": {
+    "candidate": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v2.json",
+      "bytes": 31566,
+      "sha256": "064a7a3bcb7beaaa45bf59e30e0c64be58106a566edfa55d6b3c4bf6480b2ba0"
+    },
+    "provider": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    }
+  },
+  "provenance": {
+    "actual_state": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-intrinsic-local-02-state.npz",
+      "bytes": 5736,
+      "sha256": "6f9caaaff8c35d1ea18bb835c142d909e456ce7e0afcd3eaae908f0614343406"
+    },
+    "intrinsic_provider": {
+      "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    "stage_reintegrated": false,
+    "source_kind": "previously integrated actual local DOP853 endpoint states",
+    "finite_rhs_oversample": 3,
+    "finite_rhs_angular_grid": 384
+  },
+  "derivative_source": "reevaluated actual finite projected RHS at the two saved states, intentionally defining this new Hermite field; not DOP853 dense-output jets",
+  "source_coefficients": null,
+  "shards": [
+    {
+      "file": "nodes-000000-000002.npz.gz",
+      "sha256": "d9677dc0f5f42086900aa3e6ec83338f6a74c491d89f090d1e43cb0dddebbb1f",
+      "bytes": 2280,
+      "first_node": 0,
+      "stop_node": 2
+    }
+  ],
+  "source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_shared_hermite_field.py",
+    "bytes": 9726,
+    "sha256": "cc8d2802a0ebb0951c87a9ac309137ba7160749e1e31cc349c30bd124ea9df9c"
+  },
+  "complete_target_prefix": false,
+  "exact_C1_definition": true,
+  "continuous_residual_bounded_here": false,
+  "closed_surface": false
+}

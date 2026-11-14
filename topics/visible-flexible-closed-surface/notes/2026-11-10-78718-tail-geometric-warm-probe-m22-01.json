@@ -1,0 +1,71 @@
+{
+  "scope": "All-node numerical initial-guess conversion, no stable graph, true DN, BVP, or new tail solution.",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-01_tail_0001.json.gz",
+    "bytes": 272525,
+    "sha256": "a88f0a8eaff38a6fca9576550ef04d538c8b8d1fe55715df6d0439f27801c919"
+  },
+  "program": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-warm-probe.mjs",
+    "sha256": "a9a2dddc56c2ea9ad8592818c1372e930d201877cd2a6fbd4cfb0df7b669bc7c"
+  },
+  "converter": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-warm-remesh.mjs",
+    "sha256": "365c51f6dffcbc9e63ca80744c05badc6fe35b7f70100a779ea5636118134c15"
+  },
+  "rows": [
+    {
+      "method": "physical-Q-L-prolongation-v1",
+      "scope": "Initial guess conversion only; no new shooting solve or high-mode trajectory is asserted.",
+      "sourceModes": 15,
+      "targetModes": 22,
+      "sourceQuadrature": 512,
+      "targetQuadrature": 512,
+      "physicalDepth": 12,
+      "shootingParts": 8,
+      "nodeCount": 865,
+      "commonAngularNodes": 512,
+      "quadratureChanged": false,
+      "maxQChange": 0,
+      "maxNonconstantHeightChange": 0,
+      "maxURGapCommonAngles": 5.80938262890032e-16,
+      "maxURGapFloatingFourierL1": 5.810771279528368e-16,
+      "maxMeanSlopeChange": 2.168404344971009e-17,
+      "maxLowMomentumRelativeChange": 6.444980848875593e-14,
+      "maxNewHighMomentumRelativeSize": 0.05125358044176305,
+      "maxRootRelativeResidual": 7.771709367628796e-14,
+      "minLeading": 0.10701063263760102,
+      "minD": 0.9916327645171733,
+      "worstURNode": 16,
+      "convertedStateSHA256": "4615d84f05845afd50f5564a7f5078bbb64cf074056ea027cb0abc6f0657ea75",
+      "seconds": 2.917
+    },
+    {
+      "method": "physical-Q-L-prolongation-v1",
+      "scope": "Initial guess conversion only; no new shooting solve or high-mode trajectory is asserted.",
+      "sourceModes": 15,
+      "targetModes": 22,
+      "sourceQuadrature": 512,
+      "targetQuadrature": 1024,
+      "physicalDepth": 12,
+      "shootingParts": 8,
+      "nodeCount": 865,
+      "commonAngularNodes": 512,
+      "quadratureChanged": true,
+      "maxQChange": 0,
+      "maxNonconstantHeightChange": 0,
+      "maxURGapCommonAngles": 5.800903494634907e-16,
+      "maxURGapFloatingFourierL1": 5.80182460690962e-16,
+      "maxMeanSlopeChange": 2.0816681711721685e-17,
+      "maxLowMomentumRelativeChange": 6.444980848875593e-14,
+      "maxNewHighMomentumRelativeSize": 0.05125358044176342,
+      "maxRootRelativeResidual": 7.771709367628804e-14,
+      "minLeading": 0.10687738798778723,
+      "minD": 0.9916327645171733,
+      "worstURNode": 16,
+      "convertedStateSHA256": "ec746e50a4516fd1a8d1081fc7135c242fe094cea7d5f59a6be2fa7c9e666661",
+      "seconds": 4.476
+    }
+  ],
+  "elapsedSeconds": 13.065
+}

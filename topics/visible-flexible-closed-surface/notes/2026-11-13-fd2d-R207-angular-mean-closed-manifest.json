@@ -1,0 +1,267 @@
+{
+  "schema": "fd2d-R207-mean-shear-theory-and-actual-decomposition-closed-v1",
+  "scope": "Complete positive fixed-angle mean metric, invariant whitened residual, all parameter means chain, endpoint one-jet match and final frozen-target distinction. One actual no-normal decomposition of unchanged 932 step3 field.",
+  "artifacts": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-angular-mean-metric-decomposition-R207.cjs",
+      "bytes": 5743,
+      "sha256": "eece570777f0ce4c091530461a2e84b5b8f872ebe3529ca44e600cf117705e2b",
+      "commit": "52e9fd9cffc0d74b08e905813e45ed09273c0574"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R207-free-radial-metric-and-complete-mean-shear-chain.md",
+      "bytes": 8909,
+      "sha256": "db430b76e2d8559759bccccae38f9306b9eb7e0ef29c6c8303341ec132b6a9b0",
+      "commit": "4cbb4eed95e7da6191876315f49eb338d65aa1f4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R207-angular-mean-decomposition-01.json",
+      "bytes": 72506,
+      "sha256": "289e586f53ea3e11a19e965a1d9d73395c8a5c7ad41b39fc076288371c2738f3",
+      "commit": "bfc18aa2e5849217e1377661c333be034630d4ce"
+    }
+  ],
+  "input": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+    "commit": "fd49361f31e6aa8e4ab1c8aca20d5916b901d59f",
+    "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5"
+  },
+  "sourceBindings": {
+    "scripts/fd2d-R201-R205-full-half-fixed-amplitude-provider.cjs": {
+      "bytes": 23398,
+      "sha256": "6183fdfaeb53554e1e61fd36424e768f5fba072a0364f0d1480de67a62d1ace1",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-half-period-geometric-guide.cjs": {
+      "bytes": 8696,
+      "sha256": "6d156bca7a4126f02b8c65226fcc0f5f82910054a40c79ecc11e58b831419bbb",
+      "usage": "actual fixed-amplitude diagnostic ancestor"
+    },
+    "scripts/fd2d-R201-R205-band-border-layout.cjs": {
+      "bytes": 14456,
+      "sha256": "636bdea5b19c8334a69ae3ad5adc1cfacd5370d7321905bc1ff5ad32829be82b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-provider.cjs": {
+      "bytes": 26557,
+      "sha256": "eccfb354b52ef49a65e9b4ff74a6d9c3023bbf4fde839184845c2b5dab91ad3b",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-R201-R205-variable-amplitude-geometric-guide.cjs": {
+      "bytes": 8936,
+      "sha256": "27c3a30cb4a454222c9185bf248491b6b1d954e0b3cd11759af10d88852060b7",
+      "usage": "actual variable-amplitude run"
+    },
+    "scripts/fd2d-run-R201-R205-variable-amplitude.cjs": {
+      "bytes": 6904,
+      "sha256": "8e7eda9e24ef202e0c931efd36ace1d323aa8f37148faeed3fe4409d7716c64a",
+      "usage": "replay entry, syntax checked; not the actual functions invocation"
+    }
+  },
+  "dependencyBindings": {
+    "scripts/fd2d-direct-position-tangent-lift-baseline-R187.cjs": {
+      "bytes": 12898,
+      "sha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf"
+    },
+    "scripts/fd2d-cubic-spline-refinement-R196.cjs": {
+      "bytes": 10459,
+      "sha256": "ecef2af139d2fe92387c2984ca75edf26e7fd0b6f44e909cf91ac3b2530a5f77"
+    },
+    "scripts/fd2d-nonuniform-metric-provider-R196.cjs": {
+      "bytes": 12736,
+      "sha256": "a941529bfa24849758bb3539bf23871919cbc9c3f4778703080ecabc5d5cac3e"
+    },
+    "scripts/fd2d-position-curvature-chain-R191.cjs": {
+      "bytes": 3222,
+      "sha256": "d30e2fe21ca065a84776313d8ababba2a8eccc6693e5f60a5c7ba3628652d812"
+    },
+    "scripts/fd2d-bent-annulus-reference-R205.cjs": {
+      "bytes": 12398,
+      "sha256": "77ec2bdcdb0401319a8ca61a0230fd5041fcf5d5a1285ee0338f1973732628d7"
+    },
+    "scripts/fd2d_appended_global_schur_R206.cjs": {
+      "bytes": 6626,
+      "sha256": "b28febaee12d2bad62457ba6b2371a34cd273b2cee9eebc006fc9e961e1c36ba"
+    },
+    "scripts/fd2d_band_border_lm_adapter_v2_R195.cjs": {
+      "bytes": 12143,
+      "sha256": "e4957122c56c8fb67cf6d577b60400404eb965fb685ebfec2d00bbbf7bcd5ea1"
+    }
+  },
+  "execution": {
+    "cell": "g2:127",
+    "runtime": "pure V8 JavaScript",
+    "completed": true,
+    "elapsedMilliseconds": 7597,
+    "OSProcessStarted": false,
+    "OSExitCode": null
+  },
+  "actual": {
+    "oldMetric": 0.01282226402913633,
+    "meanE": 0.0002816076613867306,
+    "meanF": 2.2013151177521107e-7,
+    "explainedFraction": 0.021979565563312528,
+    "angularE": 0.002493927806595369,
+    "angularF": 0.010046508429642458,
+    "newMetric": 0.012291836555237332,
+    "oldMaximum": 0.44546823112025813,
+    "newMaximum": 0.41853757902207384,
+    "oldMetricRecomputeDifference": -1.734723475976807e-18,
+    "coordinateIntegral": {
+      "oldParameterLength": 0.8856739498716915,
+      "finiteOrthogonalArcLength": 0.891911829230816,
+      "finiteIntegratedShear": 0.00018275587849719423
+    },
+    "unchangedGeometry": {
+      "curvature": 19.808905321658045,
+      "geometryPenalty": 0.001327322097004679,
+      "held": 0.5822918862928483,
+      "width": 0.8981206609826936,
+      "heightExcess": 0.01559091654407374
+    }
+  },
+  "actualPeakSpans": {
+    "input": {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+      "commit": "fd49361f31e6aa8e4ab1c8aca20d5916b901d59f",
+      "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5"
+    },
+    "FpointVariance": {
+      "s": 0.3857929045873372,
+      "q": 0.3624872518235098,
+      "spans": [
+        {
+          "left": [
+            "1",
+            "3"
+          ],
+          "right": [
+            "11",
+            "30"
+          ],
+          "midpoint": [
+            "7",
+            "20"
+          ],
+          "qMinusLeft": 0.02915391849017651,
+          "rightMinusQ": 0.0041794148431568146
+        }
+      ],
+      "twiceVariance": 0.020376307398961204
+    },
+    "Fweighted": {
+      "s": 0.4207304881689033,
+      "q": 0.4070441621801729,
+      "spans": [
+        {
+          "left": [
+            "2",
+            "5"
+          ],
+          "right": [
+            "13",
+            "30"
+          ],
+          "midpoint": [
+            "5",
+            "12"
+          ],
+          "qMinusLeft": 0.007044162180172897,
+          "rightMinusQ": 0.02628917115316043
+        }
+      ],
+      "twiceVariance": 0.019573460796488234
+    },
+    "EpointVariance": {
+      "s": 0.14399171959121762,
+      "q": 0.05411121033643948,
+      "spans": [
+        {
+          "left": [
+            "1",
+            "30"
+          ],
+          "right": [
+            "1",
+            "15"
+          ],
+          "midpoint": [
+            "1",
+            "20"
+          ],
+          "qMinusLeft": 0.020777877003106147,
+          "rightMinusQ": 0.012555456330227185
+        }
+      ],
+      "variance": 0.010912262703309668
+    },
+    "maxRelativeMetric": {
+      "s": 0.14663328040878246,
+      "q": 0.05748006921230093,
+      "spans": [
+        {
+          "left": [
+            "1",
+            "30"
+          ],
+          "right": [
+            "1",
+            "15"
+          ],
+          "midpoint": [
+            "1",
+            "20"
+          ],
+          "qMinusLeft": 0.024146735878967596,
+          "rightMinusQ": 0.009186597454365737
+        }
+      ]
+    },
+    "savedCurvature": {
+      "s": 0.28452183830339467,
+      "q": 0.23333333333333334,
+      "spans": [
+        {
+          "left": [
+            "1",
+            "5"
+          ],
+          "right": [
+            "7",
+            "30"
+          ],
+          "midpoint": [
+            "13",
+            "60"
+          ],
+          "qMinusLeft": 0.033333333333333326,
+          "rightMinusQ": 0
+        },
+        {
+          "left": [
+            "7",
+            "30"
+          ],
+          "right": [
+            "4",
+            "15"
+          ],
+          "midpoint": [
+            "1",
+            "4"
+          ],
+          "qMinusLeft": 0,
+          "rightMinusQ": 0.033333333333333326
+        }
+      ]
+    }
+  },
+  "numericalMeaning": "All 184 rows retained as a plain JSON table with column names once. These are binary64 finite samples, not continuous or interval certificates. No source/definition/state parameter was modified and no new accepted step occurred.",
+  "decision": "Only about 2.2% of the old finite metric objective is radial mean content; keep the current full-half objective. R207 remains an explicit optional new-g design tool, not a claimed remedy for the current dominant angular shear.",
+  "publication": {
+    "mode": "root README section 8 small UTF8 fallback; team-serialized window; no PAT",
+    "actualPullClaimed": false
+  },
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

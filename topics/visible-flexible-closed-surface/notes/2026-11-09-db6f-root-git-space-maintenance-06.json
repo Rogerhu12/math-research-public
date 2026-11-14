@@ -1,0 +1,28 @@
+{
+  "status": "PASS-safe-Git-duplicate-storage-compaction",
+  "utc": "2026-11-09T13:36:01.160003+00:00",
+  "object_count_unchanged": 108484,
+  "sorted_object_ids_sha256_unchanged": "15ecfb1440ecde42c648bd312cc684d0fe0ecc9a0ef58e1d766f50e90ec8b6e9",
+  "steps": [
+    {
+      "batch": 200000000,
+      "pack_bytes_before": 7963657883,
+      "pack_bytes_after": 7072476520,
+      "freed_bytes": 891181363,
+      "available_before": 1114685440,
+      "available_after": 2005884928
+    },
+    {
+      "batch": 500000000,
+      "pack_bytes_before": 7072476520,
+      "pack_bytes_after": 5214356710,
+      "freed_bytes": 1858119810,
+      "available_before": 2005884928,
+      "available_after": 3862319104
+    }
+  ],
+  "midx_verify_exit": 0,
+  "research_files_removed": false,
+  "refs_changed": false,
+  "scope": "Repack estimated small referenced subsets after rebuilding MIDX preference; verified same complete sorted object-ID set after every step."
+}

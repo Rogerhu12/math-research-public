@@ -1,0 +1,11 @@
+{
+  "schema": "fd2d-actual-tool-observation-v1",
+  "session_id": 64881,
+  "launch_chunk": "c8448b",
+  "completion_chunk": "18150e",
+  "actual_tool_exit_code": 1,
+  "actual_child_returncode": 1,
+  "cause": "OSError ENOSPC on normal-tiles mkdir after the first real normal tile was computed",
+  "closed_tile_count": 0,
+  "mathematical_failure_claimed": false
+}

@@ -1,0 +1,5003 @@
+{
+  "schema": "fd2d-actual-value-packet-no-pickle-v1",
+  "binding": {
+    "common": {
+      "context_binding": {
+        "actual_saved_definition_arrays": {
+          "angular_atlas_definition": {
+            "dtype": "<U2325",
+            "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6",
+            "shape": []
+          },
+          "angular_embedding_definition": {
+            "dtype": "<U1482",
+            "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f",
+            "shape": []
+          },
+          "atlas_mesh_definition": {
+            "dtype": "<U5151",
+            "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410",
+            "shape": []
+          },
+          "base_kind": {
+            "dtype": "<U13",
+            "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032",
+            "shape": []
+          },
+          "blend": {
+            "dtype": "<f8",
+            "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239",
+            "shape": [
+              2
+            ]
+          },
+          "candidate_sha256": {
+            "dtype": "<U64",
+            "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4",
+            "shape": []
+          },
+          "central_field_definition": {
+            "dtype": "<U275",
+            "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9",
+            "shape": []
+          },
+          "central_parameter_count": {
+            "dtype": "<i8",
+            "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+            "shape": []
+          },
+          "coast_reference_definition": {
+            "dtype": "<U929",
+            "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50",
+            "shape": []
+          },
+          "finite_grouped_coast_rule_definition": {
+            "dtype": "<U775",
+            "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31",
+            "shape": []
+          },
+          "finite_interior_rows_definition": {
+            "dtype": "<U684",
+            "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef",
+            "shape": []
+          },
+          "finite_radial_scheme": {
+            "dtype": "<U256",
+            "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3",
+            "shape": []
+          },
+          "fixed_base_T": {
+            "dtype": "<f8",
+            "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454",
+            "shape": []
+          },
+          "gauss_l_definition": {
+            "dtype": "<U1489",
+            "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d",
+            "shape": []
+          },
+          "grouped_goal_preparation": {
+            "dtype": "<U919",
+            "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4",
+            "shape": []
+          },
+          "inactive_l_raw_nodes": {
+            "dtype": "<i8",
+            "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3",
+            "shape": [
+              9
+            ]
+          },
+          "inactive_raw_trace_nodes": {
+            "dtype": "<i8",
+            "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc",
+            "shape": [
+              4
+            ]
+          },
+          "mesh": {
+            "dtype": "<f8",
+            "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8",
+            "shape": [
+              131
+            ]
+          },
+          "modes": {
+            "dtype": "<i8",
+            "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae",
+            "shape": []
+          },
+          "nested_angular_definition": {
+            "dtype": "<U650",
+            "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a",
+            "shape": []
+          },
+          "parent_finite_interior_rows_definition": {
+            "dtype": "<U663",
+            "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e",
+            "shape": []
+          },
+          "positive_trace_definition": {
+            "dtype": "<U1389",
+            "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc",
+            "shape": []
+          },
+          "profile_count": {
+            "dtype": "<i8",
+            "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534",
+            "shape": []
+          },
+          "profile_kind": {
+            "dtype": "<U14",
+            "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767",
+            "shape": []
+          },
+          "profile_supports": {
+            "dtype": "<f8",
+            "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d",
+            "shape": [
+              7,
+              2
+            ]
+          },
+          "radial_mesh_rebind_definition": {
+            "dtype": "<U25689",
+            "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397",
+            "shape": []
+          },
+          "radial_refinement_definition": {
+            "dtype": "<U29230",
+            "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c",
+            "shape": []
+          },
+          "reference_evaluation_definition": {
+            "dtype": "<U904",
+            "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94",
+            "shape": []
+          },
+          "representation_kind": {
+            "dtype": "<U71",
+            "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d",
+            "shape": []
+          },
+          "seed_weight_definition": {
+            "dtype": "<U66",
+            "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d",
+            "shape": []
+          },
+          "tail_kind": {
+            "dtype": "<U18",
+            "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1",
+            "shape": []
+          },
+          "tail_parameter_count": {
+            "dtype": "<i8",
+            "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d",
+            "shape": []
+          },
+          "targeted_mesh_definition": {
+            "dtype": "<U12990",
+            "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47",
+            "shape": []
+          },
+          "trace_gauge_pairs": {
+            "dtype": "<i8",
+            "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111",
+            "shape": [
+              128,
+              2
+            ]
+          }
+        },
+        "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+        "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+        "context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+        "damping_and_search_floor_not_part_of_normal_identity": true,
+        "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+        "grouped_rule_definition": {
+          "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+          "consumer_source": {
+            "bytes": 21332,
+            "name": "fd2d_gc_grouped_coast_codazzi.py",
+            "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+          },
+          "fine_order": 8,
+          "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+          "known_lifting_change_not_separately_evaluated": true,
+          "old_point_gauss_diagnostic_order": 2,
+          "outside_coast_consumer_unchanged": true,
+          "point_batch": 2,
+          "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+          "support": [
+            0.5919999999999992,
+            0.8675434451024153
+          ]
+        },
+        "implementation_sources": {
+          "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+          "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+          "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+          "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+          "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+          "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+          "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+          "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+          "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+          "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+          "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+          "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+          "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+          "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+          "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+          "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+          "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+          "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+          "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+          "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+          "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+          "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+          "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+          "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+          "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+          "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+          "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+          "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+          "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+          "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+          "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+          "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+          "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+          "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+          "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+          "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+          "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+          "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+          "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+          "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+          "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+          "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+          "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+          "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+          "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+          "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+          "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+          "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+          "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+          "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+          "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9"
+        },
+        "input_npz_bytes": 130578,
+        "input_npz_sha256": "6668aa11544a18882a778be7ea364faf6c8874a1888fac0a3c87138fcbffe77c",
+        "mathematical_settings": {
+          "curvature_cap": 7.2,
+          "curvature_weight": 1.0,
+          "gap": 0.8,
+          "high_codazzi_weight": 1.0,
+          "high_gauss_weight": 1.0,
+          "interior_cells": [
+            63,
+            64,
+            65,
+            74,
+            75,
+            76,
+            123,
+            124
+          ],
+          "interior_gauss_weight": 1.0,
+          "minimum_active_n": 0.05,
+          "modes": 31,
+          "radius_floor": 0.1,
+          "reference_rim_fraction": 0.12
+        },
+        "packed_vector": {
+          "dtype": "<f8",
+          "sha256": "4c3e1f334292d3662c0e458982848414027bf77fa95981f5221c6a95311e3f7b",
+          "shape": [
+            12499
+          ]
+        },
+        "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+        "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+        "schema": "fd2d-grouped-actual-coast-value-and-normal-binding-v1"
+      },
+      "engine_source": {
+        "bytes": 12606,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_checkpointed_grouped_values.py",
+        "sha256": "985aa0b64148afaa568dffb8ce252b0b24b5dd1803c2d911b05e07ee77d0976b"
+      },
+      "exact_dependencies": {
+        "fd2d_gc_gauss_cell_codazzi_chunked.py": {
+          "bytes": 4903,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi_chunked.py",
+          "sha256": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09"
+        },
+        "fd2d_gc_grouped_coast_codazzi.py": {
+          "bytes": 21332,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_coast_codazzi.py",
+          "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+        },
+        "fd2d_gc_grouped_search_context.py": {
+          "bytes": 8495,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_search_context.py",
+          "sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec"
+        },
+        "fd2d_gc_packet_checkpoint.py": {
+          "bytes": 8340,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_packet_checkpoint.py",
+          "sha256": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd"
+        },
+        "fd2d_gc_positive_trace_interior_merit.py": {
+          "bytes": 8377,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_interior_merit.py",
+          "sha256": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f"
+        },
+        "fd2d_gc_positive_trace_merit.py": {
+          "bytes": 4401,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_merit.py",
+          "sha256": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a"
+        },
+        "fd2d_gc_positive_trace_stream_normal.py": {
+          "bytes": 10262,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+          "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+        },
+        "fd2d_gc_positive_trace_value_nodes.py": {
+          "bytes": 2637,
+          "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_value_nodes.py",
+          "sha256": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4"
+        }
+      },
+      "full_actual_vector": {
+        "dtype": "<f8",
+        "sha256": "4c3e1f334292d3662c0e458982848414027bf77fa95981f5221c6a95311e3f7b",
+        "shape": [
+          12499
+        ]
+      },
+      "schema": "fd2d-complete-R165-value-block-replay-v1"
+    },
+    "descriptor": {
+      "local_mesh": {
+        "dtype": "<f8",
+        "sha256": "0d77b8f655c47358a3a2367f79651a1caed6039dfdcf4c877ff90cb7e3eb6880",
+        "shape": [
+          3
+        ]
+      },
+      "local_vector": {
+        "dtype": "<f8",
+        "sha256": "f6cee1dfdee9753c303f417ff7ad1ad3a39f6b9a2d280ef896a34f71c6ff9a04",
+        "shape": [
+          339
+        ]
+      },
+      "node_start": 74,
+      "node_stop": 76,
+      "settings": {
+        "high_weight": 1.0,
+        "jacobian": false,
+        "order": 2
+      }
+    },
+    "phase": "cells"
+  },
+  "binding_sha256": "3477db830c1283c2312f51fa70520d3e323ec69713bb45702009c3a483b5ec8c",
+  "arrays": [
+    {
+      "shape": [
+        126
+      ],
+      "dtype": "<f8",
+      "bytes": 1008,
+      "sha256": "3296cdbc8502f36d8595f9d33fee67cfd70a210e8c07492d423b062f6d95e424",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000000_at_000000000",
+          "start": 0,
+          "count": 126
+        }
+      ]
+    },
+    {
+      "shape": [
+        386
+      ],
+      "dtype": "<f8",
+      "bytes": 3088,
+      "sha256": "1661100753947fdca67bd1a373d21970d8449d8b4bfb2c8a415a382149f67df5",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000001_at_000000000",
+          "start": 0,
+          "count": 386
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        63
+      ],
+      "dtype": "<f8",
+      "bytes": 1008,
+      "sha256": "3296cdbc8502f36d8595f9d33fee67cfd70a210e8c07492d423b062f6d95e424",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000002_at_000000000",
+          "start": 0,
+          "count": 126
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        2,
+        2
+      ],
+      "dtype": "<f8",
+      "bytes": 16384,
+      "sha256": "0aab36e3acae7ebed82d5a0fef81703af893bad5687354a13b5abd9eaa1f7a1d",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000003_at_000000000",
+          "start": 0,
+          "count": 2048
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        2,
+        2
+      ],
+      "dtype": "<f8",
+      "bytes": 16384,
+      "sha256": "3fe7be5ceb86117b5c3af75d1574fba227abf7350bc0bd9da6f46ebe865a0ef8",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000004_at_000000000",
+          "start": 0,
+          "count": 2048
+        }
+      ]
+    },
+    {
+      "shape": [
+        512,
+        4
+      ],
+      "dtype": "<f8",
+      "bytes": 16384,
+      "sha256": "ac99bee14e50f007c5ff6cd1c008e71cf437fdab71174077389c6e5bb5f594a9",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000005_at_000000000",
+          "start": 0,
+          "count": 2048
+        }
+      ]
+    },
+    {
+      "shape": [
+        4
+      ],
+      "dtype": "<f8",
+      "bytes": 32,
+      "sha256": "f6fa6d7cb09f9ab74fe30e5d37a028c9e00931e431c9b996af624fc3aa8071c8",
+      "parts": [
+        {
+          "file": "part-0000.npz",
+          "key": "array_000006_at_000000000",
+          "start": 0,
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "part-0000.npz",
+      "bytes": 30975,
+      "sha256": "0828dca9f1273d707045bf29075c432233d0e3a2d74f35a0d165f5ccd28eb258"
+    }
+  ],
+  "tree": {
+    "kind": "dict",
+    "items": [
+      [
+        {
+          "kind": "native",
+          "value": "retained_residual"
+        },
+        {
+          "kind": "array",
+          "index": 0
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "high_residual"
+        },
+        {
+          "kind": "array",
+          "index": 1
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "retained_cells"
+        },
+        {
+          "kind": "array",
+          "index": 2
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "omitted_codazzi_cells"
+        },
+        {
+          "kind": "array",
+          "index": 3
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "full_codazzi_cells"
+        },
+        {
+          "kind": "array",
+          "index": 4
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "point_gauss"
+        },
+        {
+          "kind": "array",
+          "index": 5
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "quadrature_points"
+        },
+        {
+          "kind": "array",
+          "index": 6
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "info"
+        },
+        {
+          "kind": "dict",
+          "items": [
+            [
+              {
+                "kind": "native",
+                "value": "schema"
+              },
+              {
+                "kind": "native",
+                "value": "fd2d-whole-actual-R153-split-fine-coast-cell-v1"
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "source_sha256"
+              },
+              {
+                "kind": "native",
+                "value": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "order"
+              },
+              {
+                "kind": "native",
+                "value": 2
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "diagnostic_Gauss_order"
+              },
+              {
+                "kind": "native",
+                "value": 2
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "selected_coast_local_cells"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "native",
+                    "value": 0
+                  },
+                  {
+                    "kind": "native",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "grouped_coast_local_cells"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "native",
+                    "value": 0
+                  },
+                  {
+                    "kind": "native",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "grouped_actual_field_order"
+              },
+              {
+                "kind": "native",
+                "value": 8
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "finite_equations_changed"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "actual_field_changed"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "physical_g_changed"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "unknown_mesh_changed"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "full_actual_field_integrated_at_common_points"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "exact_endpoint_lifting_difference_preserved"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "only_nonlinear_delta_refined"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "full_nonlinear_state_and_parameter_columns"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "parameter_fixed_quadrature"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "formula"
+              },
+              {
+                "kind": "native",
+                "value": "complete n/m endpoint difference minus split-fine average of the whole actual R153 physical PDE"
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "point_gauss_scope"
+              },
+              {
+                "kind": "native",
+                "value": "Original Gauss2 diagnostic points only; same shape and ordering as legacy chunk consumers"
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "fine_Gauss_scope"
+              },
+              {
+                "kind": "native",
+                "value": "Separate finite observations in grouped_coast_rules; not included in point_gauss or sampled_interior_Gauss_maximum"
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "grouped_coast_rules"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "local_cell"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "endpoints"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8281800958020702
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8344782316901254
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "cuts"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8281800958020702
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8344782316901254
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "points"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8283051457420265
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8288204068799931
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8296742264804827
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8307515155935906
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8319068118986049
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8329841010117128
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8338379206122024
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.834353181750169
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "average_weights"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.05061426814518853
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.11119051722668721
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.15685332293894344
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.18134189168918083
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.18134189168918083
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.15685332293894344
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.11119051722668721
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.05061426814518853
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "panels"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "dict",
+                              "items": [
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "endpoints"
+                                  },
+                                  {
+                                    "kind": "list",
+                                    "items": [
+                                      {
+                                        "kind": "native",
+                                        "value": 0.8281800958020702
+                                      },
+                                      {
+                                        "kind": "native",
+                                        "value": 0.8344782316901254
+                                      }
+                                    ]
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "requested_order"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": 8
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "actual_point_count"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": 8
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "narrow_panel_fallback"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": null
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_sampled_Gauss_maximum"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 4.440892098500626e-16
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_Gauss_location"
+                        },
+                        {
+                          "kind": "dict",
+                          "items": [
+                            [
+                              {
+                                "kind": "native",
+                                "value": "angular_index"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 207
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "xi"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 2.540272184738622
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "s"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 0.8329841010117128
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "signed_value"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 4.440892098500626e-16
+                              }
+                            ]
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_sampled_minimum_active_n"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4533565153112012
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "local_cell"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "endpoints"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8344782316901254
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8478617704522428
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "cuts"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8344782316901254
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8478617704522428
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "points"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.8347439628125326
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8358388927307117
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.837653259381752
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8399424987471062
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8423975033952619
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8446867427606162
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8465011094116565
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.8475960393298355
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "average_weights"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": 0.05061426814518853
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.11119051722668721
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.15685332293894344
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.18134189168918083
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.18134189168918083
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.15685332293894344
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.11119051722668721
+                            },
+                            {
+                              "kind": "native",
+                              "value": 0.05061426814518853
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "panels"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "dict",
+                              "items": [
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "endpoints"
+                                  },
+                                  {
+                                    "kind": "list",
+                                    "items": [
+                                      {
+                                        "kind": "native",
+                                        "value": 0.8344782316901254
+                                      },
+                                      {
+                                        "kind": "native",
+                                        "value": 0.8478617704522428
+                                      }
+                                    ]
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "requested_order"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": 8
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "actual_point_count"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": 8
+                                  }
+                                ],
+                                [
+                                  {
+                                    "kind": "native",
+                                    "value": "narrow_panel_fallback"
+                                  },
+                                  {
+                                    "kind": "native",
+                                    "value": null
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_sampled_Gauss_maximum"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8733801080927179
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_Gauss_location"
+                        },
+                        {
+                          "kind": "dict",
+                          "items": [
+                            [
+                              {
+                                "kind": "native",
+                                "value": "angular_index"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 166
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "xi"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 2.0371264863121317
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "s"
+                              },
+                              {
+                                "kind": "native",
+                                "value": 0.8446867427606162
+                              }
+                            ],
+                            [
+                              {
+                                "kind": "native",
+                                "value": "signed_value"
+                              },
+                              {
+                                "kind": "native",
+                                "value": -0.8733801080927179
+                              }
+                            ]
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "fine_sampled_minimum_active_n"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.45550187584058244
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "declared_common_piece_boundaries"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.0
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "legacy_seed_algebraic_cancellation"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.32
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "actual_seed_weight"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.32625
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.33249999999999996
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.33874999999999994
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.34
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3449999999999999
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3512499999999999
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.35749999999999993
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3637499999999999
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3699999999999999
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.37624999999999986
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.38249999999999984
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3887499999999998
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.3949999999999998
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4012499999999998
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.40749999999999975
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.41374999999999973
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4199999999999997
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4262499999999997
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.43249999999999966
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.43874999999999964
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4449999999999996
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4512499999999996
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4528973178358129
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4574999999999996
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.46374999999999955
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.46999999999999953
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4762499999999995
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.4824999999999995
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.48874999999999946
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.49499999999999944
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5012499999999994
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5074999999999994
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5137499999999994
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5199999999999994
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5262499999999993
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5324999999999993
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5387499999999993
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5449999999999993
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.55
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "actual_seed_weight"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "atlas_entry_transition"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "legacy_seed_algebraic_cancellation"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5512499999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5574999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5637499999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5657946356716258
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5699999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5719999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5739999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5759999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5779999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5799999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.58
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "original_chart_blend"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5819999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5839999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5859999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5879999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5899999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.5919999999999992
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "atlas_coast"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "atlas_entry_transition"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "frozen_reference_window"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6250652134122892
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "frozen_reference_window"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6253687349104141
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "tail_radial_lifting_weight"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.6786919535074387
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.7915892713432515
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8344782316901254
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "frozen_reference_window"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8675434451024153
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "atlas_coast"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "atlas_exit_transition"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "frozen_reference_window"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.8875434451024153
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.9044865891790643
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.9799009653163169
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 0.9999009653163169
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.000419888139713
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_turn_internal_piece"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.0058685777853722
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_turn_internal_piece"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.0063875006087684
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.0173839070148774
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.0263875006087684
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.0609143548287172
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_turn_internal_piece"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.1302812248506902
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.243178542686503
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.356075860522316
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.399634787656641
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "original_chart_blend"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "atlas_exit_transition"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.42344632413818
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_turn_internal_piece"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.457973178358129
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4629731783581288
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4689731783581288
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        {
+                          "kind": "native",
+                          "value": "s"
+                        },
+                        {
+                          "kind": "native",
+                          "value": 1.4889731783581288
+                        }
+                      ],
+                      [
+                        {
+                          "kind": "native",
+                          "value": "kinds"
+                        },
+                        {
+                          "kind": "list",
+                          "items": [
+                            {
+                              "kind": "native",
+                              "value": "physical_profile_or_bump_support"
+                            },
+                            {
+                              "kind": "native",
+                              "value": "tail_radial_lifting_weight"
+                            }
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "additional_saved_plateau_endpoints"
+              },
+              {
+                "kind": "list",
+                "items": [
+                  {
+                    "kind": "native",
+                    "value": 0.6250652134122892
+                  },
+                  {
+                    "kind": "native",
+                    "value": 0.8344782316901254
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "retained_cell_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 0.20972482039670692
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "sampled_full_average_codazzi_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 1.44919712857798
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "sampled_omitted_average_codazzi_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 1.2932882119982638
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "sampled_interior_Gauss_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 0.8792666501585504
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "fine_sampled_interior_Gauss_maximum"
+              },
+              {
+                "kind": "native",
+                "value": 0.8733801080927179
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "row_definition"
+              },
+              {
+                "kind": "dict",
+                "items": [
+                  [
+                    {
+                      "kind": "native",
+                      "value": "schema"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "fd2d-D2-high-angular-isometric-rows-v1"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "work"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 512
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "retained_maximum_frequency"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 62
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "even_frequencies"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 66
+                        },
+                        {
+                          "kind": "native",
+                          "value": 68
+                        },
+                        {
+                          "kind": "native",
+                          "value": 70
+                        },
+                        {
+                          "kind": "native",
+                          "value": 72
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 76
+                        },
+                        {
+                          "kind": "native",
+                          "value": 78
+                        },
+                        {
+                          "kind": "native",
+                          "value": 80
+                        },
+                        {
+                          "kind": "native",
+                          "value": 82
+                        },
+                        {
+                          "kind": "native",
+                          "value": 84
+                        },
+                        {
+                          "kind": "native",
+                          "value": 86
+                        },
+                        {
+                          "kind": "native",
+                          "value": 88
+                        },
+                        {
+                          "kind": "native",
+                          "value": 90
+                        },
+                        {
+                          "kind": "native",
+                          "value": 92
+                        },
+                        {
+                          "kind": "native",
+                          "value": 94
+                        },
+                        {
+                          "kind": "native",
+                          "value": 96
+                        },
+                        {
+                          "kind": "native",
+                          "value": 98
+                        },
+                        {
+                          "kind": "native",
+                          "value": 100
+                        },
+                        {
+                          "kind": "native",
+                          "value": 102
+                        },
+                        {
+                          "kind": "native",
+                          "value": 104
+                        },
+                        {
+                          "kind": "native",
+                          "value": 106
+                        },
+                        {
+                          "kind": "native",
+                          "value": 108
+                        },
+                        {
+                          "kind": "native",
+                          "value": 110
+                        },
+                        {
+                          "kind": "native",
+                          "value": 112
+                        },
+                        {
+                          "kind": "native",
+                          "value": 114
+                        },
+                        {
+                          "kind": "native",
+                          "value": 116
+                        },
+                        {
+                          "kind": "native",
+                          "value": 118
+                        },
+                        {
+                          "kind": "native",
+                          "value": 120
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        },
+                        {
+                          "kind": "native",
+                          "value": 124
+                        },
+                        {
+                          "kind": "native",
+                          "value": 126
+                        },
+                        {
+                          "kind": "native",
+                          "value": 128
+                        },
+                        {
+                          "kind": "native",
+                          "value": 130
+                        },
+                        {
+                          "kind": "native",
+                          "value": 132
+                        },
+                        {
+                          "kind": "native",
+                          "value": 134
+                        },
+                        {
+                          "kind": "native",
+                          "value": 136
+                        },
+                        {
+                          "kind": "native",
+                          "value": 138
+                        },
+                        {
+                          "kind": "native",
+                          "value": 140
+                        },
+                        {
+                          "kind": "native",
+                          "value": 142
+                        },
+                        {
+                          "kind": "native",
+                          "value": 144
+                        },
+                        {
+                          "kind": "native",
+                          "value": 146
+                        },
+                        {
+                          "kind": "native",
+                          "value": 148
+                        },
+                        {
+                          "kind": "native",
+                          "value": 150
+                        },
+                        {
+                          "kind": "native",
+                          "value": 152
+                        },
+                        {
+                          "kind": "native",
+                          "value": 154
+                        },
+                        {
+                          "kind": "native",
+                          "value": 156
+                        },
+                        {
+                          "kind": "native",
+                          "value": 158
+                        },
+                        {
+                          "kind": "native",
+                          "value": 160
+                        },
+                        {
+                          "kind": "native",
+                          "value": 162
+                        },
+                        {
+                          "kind": "native",
+                          "value": 164
+                        },
+                        {
+                          "kind": "native",
+                          "value": 166
+                        },
+                        {
+                          "kind": "native",
+                          "value": 168
+                        },
+                        {
+                          "kind": "native",
+                          "value": 170
+                        },
+                        {
+                          "kind": "native",
+                          "value": 172
+                        },
+                        {
+                          "kind": "native",
+                          "value": 174
+                        },
+                        {
+                          "kind": "native",
+                          "value": 176
+                        },
+                        {
+                          "kind": "native",
+                          "value": 178
+                        },
+                        {
+                          "kind": "native",
+                          "value": 180
+                        },
+                        {
+                          "kind": "native",
+                          "value": 182
+                        },
+                        {
+                          "kind": "native",
+                          "value": 184
+                        },
+                        {
+                          "kind": "native",
+                          "value": 186
+                        },
+                        {
+                          "kind": "native",
+                          "value": 188
+                        },
+                        {
+                          "kind": "native",
+                          "value": 190
+                        },
+                        {
+                          "kind": "native",
+                          "value": 192
+                        },
+                        {
+                          "kind": "native",
+                          "value": 194
+                        },
+                        {
+                          "kind": "native",
+                          "value": 196
+                        },
+                        {
+                          "kind": "native",
+                          "value": 198
+                        },
+                        {
+                          "kind": "native",
+                          "value": 200
+                        },
+                        {
+                          "kind": "native",
+                          "value": 202
+                        },
+                        {
+                          "kind": "native",
+                          "value": 204
+                        },
+                        {
+                          "kind": "native",
+                          "value": 206
+                        },
+                        {
+                          "kind": "native",
+                          "value": 208
+                        },
+                        {
+                          "kind": "native",
+                          "value": 210
+                        },
+                        {
+                          "kind": "native",
+                          "value": 212
+                        },
+                        {
+                          "kind": "native",
+                          "value": 214
+                        },
+                        {
+                          "kind": "native",
+                          "value": 216
+                        },
+                        {
+                          "kind": "native",
+                          "value": 218
+                        },
+                        {
+                          "kind": "native",
+                          "value": 220
+                        },
+                        {
+                          "kind": "native",
+                          "value": 222
+                        },
+                        {
+                          "kind": "native",
+                          "value": 224
+                        },
+                        {
+                          "kind": "native",
+                          "value": 226
+                        },
+                        {
+                          "kind": "native",
+                          "value": 228
+                        },
+                        {
+                          "kind": "native",
+                          "value": 230
+                        },
+                        {
+                          "kind": "native",
+                          "value": 232
+                        },
+                        {
+                          "kind": "native",
+                          "value": 234
+                        },
+                        {
+                          "kind": "native",
+                          "value": 236
+                        },
+                        {
+                          "kind": "native",
+                          "value": 238
+                        },
+                        {
+                          "kind": "native",
+                          "value": 240
+                        },
+                        {
+                          "kind": "native",
+                          "value": 242
+                        },
+                        {
+                          "kind": "native",
+                          "value": 244
+                        },
+                        {
+                          "kind": "native",
+                          "value": 246
+                        },
+                        {
+                          "kind": "native",
+                          "value": 248
+                        },
+                        {
+                          "kind": "native",
+                          "value": 250
+                        },
+                        {
+                          "kind": "native",
+                          "value": 252
+                        },
+                        {
+                          "kind": "native",
+                          "value": 254
+                        },
+                        {
+                          "kind": "native",
+                          "value": 256
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "odd_frequencies"
+                    },
+                    {
+                      "kind": "list",
+                      "items": [
+                        {
+                          "kind": "native",
+                          "value": 64
+                        },
+                        {
+                          "kind": "native",
+                          "value": 66
+                        },
+                        {
+                          "kind": "native",
+                          "value": 68
+                        },
+                        {
+                          "kind": "native",
+                          "value": 70
+                        },
+                        {
+                          "kind": "native",
+                          "value": 72
+                        },
+                        {
+                          "kind": "native",
+                          "value": 74
+                        },
+                        {
+                          "kind": "native",
+                          "value": 76
+                        },
+                        {
+                          "kind": "native",
+                          "value": 78
+                        },
+                        {
+                          "kind": "native",
+                          "value": 80
+                        },
+                        {
+                          "kind": "native",
+                          "value": 82
+                        },
+                        {
+                          "kind": "native",
+                          "value": 84
+                        },
+                        {
+                          "kind": "native",
+                          "value": 86
+                        },
+                        {
+                          "kind": "native",
+                          "value": 88
+                        },
+                        {
+                          "kind": "native",
+                          "value": 90
+                        },
+                        {
+                          "kind": "native",
+                          "value": 92
+                        },
+                        {
+                          "kind": "native",
+                          "value": 94
+                        },
+                        {
+                          "kind": "native",
+                          "value": 96
+                        },
+                        {
+                          "kind": "native",
+                          "value": 98
+                        },
+                        {
+                          "kind": "native",
+                          "value": 100
+                        },
+                        {
+                          "kind": "native",
+                          "value": 102
+                        },
+                        {
+                          "kind": "native",
+                          "value": 104
+                        },
+                        {
+                          "kind": "native",
+                          "value": 106
+                        },
+                        {
+                          "kind": "native",
+                          "value": 108
+                        },
+                        {
+                          "kind": "native",
+                          "value": 110
+                        },
+                        {
+                          "kind": "native",
+                          "value": 112
+                        },
+                        {
+                          "kind": "native",
+                          "value": 114
+                        },
+                        {
+                          "kind": "native",
+                          "value": 116
+                        },
+                        {
+                          "kind": "native",
+                          "value": 118
+                        },
+                        {
+                          "kind": "native",
+                          "value": 120
+                        },
+                        {
+                          "kind": "native",
+                          "value": 122
+                        },
+                        {
+                          "kind": "native",
+                          "value": 124
+                        },
+                        {
+                          "kind": "native",
+                          "value": 126
+                        },
+                        {
+                          "kind": "native",
+                          "value": 128
+                        },
+                        {
+                          "kind": "native",
+                          "value": 130
+                        },
+                        {
+                          "kind": "native",
+                          "value": 132
+                        },
+                        {
+                          "kind": "native",
+                          "value": 134
+                        },
+                        {
+                          "kind": "native",
+                          "value": 136
+                        },
+                        {
+                          "kind": "native",
+                          "value": 138
+                        },
+                        {
+                          "kind": "native",
+                          "value": 140
+                        },
+                        {
+                          "kind": "native",
+                          "value": 142
+                        },
+                        {
+                          "kind": "native",
+                          "value": 144
+                        },
+                        {
+                          "kind": "native",
+                          "value": 146
+                        },
+                        {
+                          "kind": "native",
+                          "value": 148
+                        },
+                        {
+                          "kind": "native",
+                          "value": 150
+                        },
+                        {
+                          "kind": "native",
+                          "value": 152
+                        },
+                        {
+                          "kind": "native",
+                          "value": 154
+                        },
+                        {
+                          "kind": "native",
+                          "value": 156
+                        },
+                        {
+                          "kind": "native",
+                          "value": 158
+                        },
+                        {
+                          "kind": "native",
+                          "value": 160
+                        },
+                        {
+                          "kind": "native",
+                          "value": 162
+                        },
+                        {
+                          "kind": "native",
+                          "value": 164
+                        },
+                        {
+                          "kind": "native",
+                          "value": 166
+                        },
+                        {
+                          "kind": "native",
+                          "value": 168
+                        },
+                        {
+                          "kind": "native",
+                          "value": 170
+                        },
+                        {
+                          "kind": "native",
+                          "value": 172
+                        },
+                        {
+                          "kind": "native",
+                          "value": 174
+                        },
+                        {
+                          "kind": "native",
+                          "value": 176
+                        },
+                        {
+                          "kind": "native",
+                          "value": 178
+                        },
+                        {
+                          "kind": "native",
+                          "value": 180
+                        },
+                        {
+                          "kind": "native",
+                          "value": 182
+                        },
+                        {
+                          "kind": "native",
+                          "value": 184
+                        },
+                        {
+                          "kind": "native",
+                          "value": 186
+                        },
+                        {
+                          "kind": "native",
+                          "value": 188
+                        },
+                        {
+                          "kind": "native",
+                          "value": 190
+                        },
+                        {
+                          "kind": "native",
+                          "value": 192
+                        },
+                        {
+                          "kind": "native",
+                          "value": 194
+                        },
+                        {
+                          "kind": "native",
+                          "value": 196
+                        },
+                        {
+                          "kind": "native",
+                          "value": 198
+                        },
+                        {
+                          "kind": "native",
+                          "value": 200
+                        },
+                        {
+                          "kind": "native",
+                          "value": 202
+                        },
+                        {
+                          "kind": "native",
+                          "value": 204
+                        },
+                        {
+                          "kind": "native",
+                          "value": 206
+                        },
+                        {
+                          "kind": "native",
+                          "value": 208
+                        },
+                        {
+                          "kind": "native",
+                          "value": 210
+                        },
+                        {
+                          "kind": "native",
+                          "value": 212
+                        },
+                        {
+                          "kind": "native",
+                          "value": 214
+                        },
+                        {
+                          "kind": "native",
+                          "value": 216
+                        },
+                        {
+                          "kind": "native",
+                          "value": 218
+                        },
+                        {
+                          "kind": "native",
+                          "value": 220
+                        },
+                        {
+                          "kind": "native",
+                          "value": 222
+                        },
+                        {
+                          "kind": "native",
+                          "value": 224
+                        },
+                        {
+                          "kind": "native",
+                          "value": 226
+                        },
+                        {
+                          "kind": "native",
+                          "value": 228
+                        },
+                        {
+                          "kind": "native",
+                          "value": 230
+                        },
+                        {
+                          "kind": "native",
+                          "value": 232
+                        },
+                        {
+                          "kind": "native",
+                          "value": 234
+                        },
+                        {
+                          "kind": "native",
+                          "value": 236
+                        },
+                        {
+                          "kind": "native",
+                          "value": 238
+                        },
+                        {
+                          "kind": "native",
+                          "value": 240
+                        },
+                        {
+                          "kind": "native",
+                          "value": 242
+                        },
+                        {
+                          "kind": "native",
+                          "value": 244
+                        },
+                        {
+                          "kind": "native",
+                          "value": 246
+                        },
+                        {
+                          "kind": "native",
+                          "value": 248
+                        },
+                        {
+                          "kind": "native",
+                          "value": 250
+                        },
+                        {
+                          "kind": "native",
+                          "value": 252
+                        },
+                        {
+                          "kind": "native",
+                          "value": 254
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "ordinary_projection_weight"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "2/W"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "even_Nyquist_projection_weight"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "sqrt(2)/W"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "old_point_normalization"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "sqrt(2/W)"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "grid_roundoff_maximum"
+                    },
+                    {
+                      "kind": "native",
+                      "value": 8.881784197001252e-16
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "analytic_symmetry_premise"
+                    },
+                    {
+                      "kind": "native",
+                      "value": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas"
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "arbitrary_sampled_fields_supported"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "floating_point_symmetry_defects_are_reported"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "finite_angular_objective_unchanged_in_exact_arithmetic"
+                    },
+                    {
+                      "kind": "native",
+                      "value": true
+                    }
+                  ],
+                  [
+                    {
+                      "kind": "native",
+                      "value": "continuous_angular_certificate"
+                    },
+                    {
+                      "kind": "native",
+                      "value": false
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "known_affine_lifting_separately_reintegrated"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "known_lifting_change_maximum_not_separately_evaluated"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "continuous_certificate"
+              },
+              {
+                "kind": "native",
+                "value": false
+              }
+            ],
+            [
+              {
+                "kind": "native",
+                "value": "finite_fine_rule_is_not_an_exact_integral"
+              },
+              {
+                "kind": "native",
+                "value": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "retained_jacobian"
+        },
+        {
+          "kind": "native",
+          "value": null
+        }
+      ],
+      [
+        {
+          "kind": "native",
+          "value": "high_jacobian"
+        },
+        {
+          "kind": "native",
+          "value": null
+        }
+      ]
+    ]
+  },
+  "raw_array_bytes": 54288,
+  "compressed_part_bytes": 30975,
+  "native_container_types_preserved": true,
+  "pickle_used": false,
+  "complete": true
+}

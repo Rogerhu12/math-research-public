@@ -1,0 +1,89 @@
+{
+  "schema": "fd2d-closed-gap-branch-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-candidate.json",
+      "bytes": 33538,
+      "sha256": "2c2859a0040e5c6a174e78676f4c1edc827b0fbec3252070b3e5bca1cac4c5a8"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-field.npz.gz",
+      "bytes": 1561143,
+      "sha256": "ffa1203b4ca2ef1671466c4539ae12e323d885f5ae704384299407baf1b7bfb3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-polynomial.npz.gz",
+      "bytes": 1239694,
+      "sha256": "daa8829ec361498697d6ad0aadd3169812f181421b44d5d6c4cb72bbdcf2b7c5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-progress.jsonl",
+      "bytes": 8038,
+      "sha256": "9f558020b4b0a90bc395af814adcb1b9c42eeaea64de23b55344ef671814141c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-report.json",
+      "bytes": 23200,
+      "sha256": "142495dc227043c983aa32bf1ab0fc10a039ae12551a946876df752e9925c57e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-runtime.json",
+      "bytes": 573,
+      "sha256": "41ae57f38a9a31eda224927376969e32ae43e99af8114e08c23ee317058ac13a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-resources.jsonl",
+      "bytes": 5059,
+      "sha256": "d4855ada618da1c5f066bcb35ac5afa29b6d7d5a163e33198ff60030d0eca2dd"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-completion-receipt.json",
+      "bytes": 414,
+      "sha256": "94f0e8fcabc8c765f24fb8afd758a3323ed083f1618e693de51d560e3b567969"
+    }
+  ],
+  "reproducible_local_intermediate_states": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-accepted-0001.npz",
+      "bytes": 939098,
+      "sha256": "64940ca7aa64d949fa0956da0b71be035aba554161b008ee6bf1b6436e23967a",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-accepted-0002.npz",
+      "bytes": 939190,
+      "sha256": "af2f0bcae7f3503ad8676deb37ad0a1e22c5f6af6326f70a32db52e3cb53282e",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-accepted-0003.npz",
+      "bytes": 939079,
+      "sha256": "23266e9efc0076334d6311c244597e3397d14dc46acc6372a67b2486253d3da0",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-accepted-0004.npz",
+      "bytes": 939225,
+      "sha256": "88308fd0c639f7af1651c9c3752d3ed75656d45f230ee3476272619d69802b0f",
+      "runtime_only": true
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap-stream05-initial.npz",
+      "bytes": 311822,
+      "sha256": "c975b32cb07a098e40452d55b567152979f172bf497fe1269cbbb85f969375b9",
+      "runtime_only": true
+    }
+  ],
+  "completion": {
+    "session_id": 23280,
+    "completion_chunk": "ec0ffe",
+    "actual_exit_code": 0,
+    "solver_success": false,
+    "solver_status": 1,
+    "accepted_steps": 4,
+    "no_accepted_step": 1,
+    "seconds": 34.76001557200016,
+    "maximum_rss_kib": 278580,
+    "scope": "Actual failed .005 finite design attempt. Chord no-step followed by requested mesh exceeding700. Last field is NOT converged; no geometric nonexistence claim."
+  }
+}

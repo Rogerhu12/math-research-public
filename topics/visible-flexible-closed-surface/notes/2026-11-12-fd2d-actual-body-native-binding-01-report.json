@@ -1,0 +1,109 @@
+{
+  "schema": "fd2d-actual-body-reader-binding-only-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_actual_body_reader_factory.py",
+    "bytes": 9478,
+    "sha256": "2f996bef1890ee85c4cb5cc07eea05e886381e7d33766e3172382711c16f2361"
+  },
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "foundation_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-independent-tail-native-check-01-definition.json",
+    "bytes": 51755,
+    "sha256": "c3d3455b4fff807c2e16cb4cb1e242f1c1559c93d850173aec7aa0e7dae9bb17"
+  },
+  "native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json",
+    "bytes": 54778,
+    "sha256": "6b6020f50c8f0e1541ea6a6f75d8919f0ce38a750a8dd73dd3cb5260298fa566"
+  },
+  "adapter_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-actual-body-native-binding-01-adapter.json",
+    "bytes": 2990,
+    "sha256": "ea53332c1a6703775f9ed07a47ba4a7bbfdb7744684ae7c745c35c741978b4a9"
+  },
+  "mode_count": 31,
+  "node_count": 129,
+  "central_parameter_count": 31,
+  "tail_parameter_count": 16,
+  "profile_count": 7,
+  "parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "actual_arrays": {
+    "mesh": {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785",
+      "bind_and_reload_bytewise_equal": true
+    },
+    "corrections": {
+      "shape": [
+        129,
+        95
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "eaff4ab3d730bc0cb4d0c7d384bf61b67594f64cbf588bf0f96571de65d60ede",
+      "bind_and_reload_bytewise_equal": true
+    },
+    "parameters": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "72035f45309f83ab494af8c53a18f4d3af46e28cc3e1acb3e9163e7d52e91563",
+      "bind_and_reload_bytewise_equal": true
+    }
+  },
+  "saved_definition_packets_unchanged": {
+    "nested_angular_definition": true,
+    "angular_atlas_definition": true,
+    "coast_reference_definition": true,
+    "gauss_l_definition": true,
+    "positive_trace_definition": true,
+    "seed_weight_definition": true,
+    "atlas_mesh_definition": true
+  },
+  "full_coast_inactive_l_nodes": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "terminal_inactive_trace_nodes": [
+    124,
+    125,
+    126,
+    127
+  ],
+  "trace_gauge_pair_count": 128,
+  "checked_future_131_node_entity": false,
+  "future_mesh_rule": "Same explicit reader consumes the saved actual mesh and validates all whole-hat packets; no fixed node count",
+  "field_evaluation_calls": 0,
+  "native_jet_comparison_repeated": false,
+  "body_ODE_runs": 0,
+  "residual_or_Jacobian_calls": 0,
+  "BVP_runs": 0,
+  "continuous_geometry_certificate": false,
+  "passed": true,
+  "seconds": 3.9702904369987664
+}

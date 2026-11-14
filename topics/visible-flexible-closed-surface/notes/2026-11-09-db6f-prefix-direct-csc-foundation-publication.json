@@ -1,0 +1,81 @@
+{
+  "schema": "db6f-closed-text-publication-v1",
+  "task": "uninstalled direct canonical CSC foundation",
+  "status": "CLOSED_SOURCE_TEXTS_ONLY_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-11-09",
+  "author": "db6f/coupled_prefix",
+  "scope": "source functions, pure checker and method only; no executable entry installed",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation.py",
+      "commit": "05ef1c42268872bb8b5ccf4094a2709f9606735a",
+      "blob": "f51f11ab750fa72ce90fac470c12feca6937d0cb",
+      "bytes": 17269,
+      "sha256": "cc837e05dbce4f8e8fe906b74b6d139dd126efea0fed04187f1395bde0a02e54",
+      "readback_exact": true,
+      "role": "historical uninstalled v1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+      "commit": "5b7a715833357675cbe5d9944ce54a165997473a",
+      "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf",
+      "blob": "71f91271133dacd85e4d8d63a7ec3b757222d453",
+      "bytes": 17550,
+      "readback_exact": true,
+      "role": "proposed uninstalled v2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+      "commit": "cbd77df636c629c3bbd5c1cf6aab6838149f3bb8",
+      "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd",
+      "blob": "aefd12d209e86017afe9550f12f3b6c08c42ce42",
+      "bytes": 19402,
+      "readback_exact": true,
+      "role": "historical uninstalled v1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-direct-csc-foundation-sources.json",
+      "commit": "f95a5bf8c5522f0ea6e5301156fa7ff912881b77",
+      "sha256": "336d21ae0809cfc3d6eb4da286e0a2e26fc5fcdf52c29255ebf57d84a98f03dc",
+      "blob": "a62a77791fa56a0a9031f82d233bbea52aabd182",
+      "bytes": 7798,
+      "readback_exact": true,
+      "role": "source and transformation ledger"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-direct-csc-foundation-method.md",
+      "commit": "df6acfbcacd8409bef103776178d2faad13517d6",
+      "sha256": "864a6bcc0c5440431f15363ab90517fb55686b28006a164714f012352013a295",
+      "blob": "9e01d1053b3e2b1d1fa40783a1c8371359444602",
+      "bytes": 11261,
+      "readback_exact": true,
+      "role": "method and limitations"
+    }
+  ],
+  "total_bytes": 73280,
+  "all_files_below_100KB": true,
+  "immutable_commit_readbacks_all_exact": true,
+  "actual_execution": {
+    "author_text_transformations": "performed in functions V8",
+    "external_process_launched": false,
+    "external_process_exit_code": null,
+    "python_checker_executed": false,
+    "foundation_imported": false,
+    "make_functions_called": false,
+    "matrix_calls": 0,
+    "solver_calls": 0,
+    "no_executed_process_exit_code_fabricated": true
+  },
+  "current_limitations": [
+    "Independent complete source review has not yet closed.",
+    "The Python source/integer-layout checker is saved but not executed.",
+    "Runtime callback identity gate has not been invoked.",
+    "No actual sparse data/indices/indptr byte replay has been performed.",
+    "No SuperLU, linear solve, BVP, DN, RK, geometric or G5 result is supplied.",
+    "No complete selector/preparer/runner/final-auditor entry exists for this foundation."
+  ],
+  "data_files_transferred": false,
+  "existing_frozen_files_overwritten": false,
+  "old_runtime_sources_modified": false,
+  "handoff_log_results_modified": false
+}

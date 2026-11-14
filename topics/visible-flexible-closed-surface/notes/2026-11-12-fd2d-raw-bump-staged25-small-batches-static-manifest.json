@@ -1,0 +1,43 @@
+{
+  "schema": "fd2d-small-batch-normal-scheduling-static-v1",
+  "closed": true,
+  "created_utc": "2026-11-12T17:51:48.989154+00:00",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-stage-normal-tile-batch.py",
+      "bytes": 4165,
+      "sha256": "5ad712814d66081be8f49cae28c6895592c76ea7d0c4deeb32fa85d040d44498"
+    },
+    {
+      "path": "scripts/fd2d-gc-run-normal-tile-batches.py",
+      "bytes": 4447,
+      "sha256": "af0fd3dec7a306d0d2ffc97177ddab82fad299104c122bc977dba63ff6b913b8"
+    },
+    {
+      "path": "scripts/fd2d-gc-stage-normal-merge-v2.py",
+      "bytes": 4189,
+      "sha256": "34c58dd2ed0049808348254781319c7cd4f0e48fae689b76dc70f5c460217527"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-tiles-controller-a01-report.json",
+      "bytes": 11910,
+      "sha256": "e28ff6857ad2aeb843b72ae767508a518333d4f623ec59fc19b6271a1e592df3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-staged25-tiles-controller-a01-actual-tool-exit.json",
+      "bytes": 722,
+      "sha256": "db6efe0d4c07e8492708a700245f7cc93524350c222436205da2f3a5889beb03"
+    }
+  ],
+  "common_partition_and_math_binding_changed": false,
+  "baseline_and_normal_not_recomputed": true,
+  "actual_prior_controller_exit": 130,
+  "actual_prior_completed_children": 9,
+  "actual_prior_children_all_exit_zero": true,
+  "actual_new_controller_session": 76567,
+  "actual_new_launch_chunk": "82cb5e",
+  "active_reports_excluded": true,
+  "each_tile_atomically_committed_before_next_tile": true,
+  "merge_generator_releases_previous_tile_before_loading_next": true,
+  "unused_merge_v2_compiled_but_not_yet_executed": true
+}

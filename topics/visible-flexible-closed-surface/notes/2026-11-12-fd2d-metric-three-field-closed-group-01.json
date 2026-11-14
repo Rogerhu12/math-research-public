@@ -1,0 +1,41 @@
+{
+  "schema": "fd2d-closed-artifact-group-v1",
+  "created_utc": "2026-11-12T10:27:43.973022+00:00",
+  "result": "R129",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "scripts/fd2d-metric-three-field-interface-check.py",
+      "bytes": 8561,
+      "sha256": "95efb1837f8868d76aa79719cd427a7bdec6e837d15c096fbf528151f00b794d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-three-field-interface-check-01.json",
+      "bytes": 3810,
+      "sha256": "f9e6b8bd4ad00761f3236c6022d109962d3f3ed05f5803a3f1dd4a276a914082"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-three-field-interface-exit-receipt-01.json",
+      "bytes": 642,
+      "sha256": "b00e088c6591f221dbef1d18cc9636418f21a09c87eebd530b90ee765f1bac9d"
+    },
+    {
+      "path": "results/R129-three-field-flat-cut-interface.md",
+      "bytes": 16535,
+      "sha256": "37128c2846be15fc31cdc7f6f83831983ce2277ec342a65adab629c6bb0f4529"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "scripts/fd2d_flat_developable_tail.py",
+      "bytes": 8004,
+      "sha256": "361df53c8ff6bc5f293098f6642f10a0866e8f12b159987b765783ec28b94cd3"
+    }
+  ],
+  "scope": "Complete proof and floating native three-field consumer, no solved nonround prefix."
+}

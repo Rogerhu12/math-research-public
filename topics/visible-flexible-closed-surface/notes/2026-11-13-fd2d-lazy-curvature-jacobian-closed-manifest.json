@@ -1,0 +1,106 @@
+{
+  "schema": "fd2d-exact-lazy-curvature-jacobian-closed-group-v1",
+  "utc": "2026-11-13T03:05:36.864Z",
+  "artifacts": [
+    {
+      "path": "scripts/fd2d-R201-R205-variable-amplitude-lazy-curvature.cjs",
+      "bytes": 29602,
+      "sha256": "a57438e8631afa6c5b0e4a10ecc7a51a5d81e96648e710fbcda11c3fc7e0f919",
+      "commit": "a08f1047dd04e48b8f7d05eff8f7f77926a6e5b9"
+    },
+    {
+      "path": "scripts/fd2d-check-lazy-curvature-jacobian.cjs",
+      "bytes": 1372,
+      "sha256": "3a95ca23955797588e32aa05222bf26601ef0b0bfc5d535b8f9270e26007726c",
+      "commit": "7b7f906e920c2c98d7425ee8c49f57a4cbf0a74a"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-lazy-curvature-jacobian-check.json",
+      "bytes": 5746,
+      "sha256": "933a1cab3c4a50a5042e43716c82502b033875c35464c5dc6c8fdf413ecd121e",
+      "commit": "77334a0205cef18b29da7ce1d2ea42e15b1ca728"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-exact-lazy-curvature-jacobian.md",
+      "bytes": 2507,
+      "sha256": "05fd900f7c0e7a276c3c32355cfd58bc5fd1191d7eadf92d82718b9644536519",
+      "commit": "b18da4ee46bbe87e04aff2ec3b56c1dde5f26e20"
+    }
+  ],
+  "actualCheck": {
+    "runtime": "pure V8; no OS process/exit",
+    "fullNormalDimensions": 35,
+    "rowCount": 37740,
+    "all84769NumericalComparisonsObjectIsEqual": true,
+    "eligiblePackets": 2857,
+    "actualJacobianBuilds": 606,
+    "actualColumnVariations": 17041,
+    "allReadColumnsRetained": true
+  },
+  "originalPhysicalSchemaPreserved": true,
+  "targetFunctionAndNormalUnchanged": true,
+  "largeNormalRepeated": false,
+  "publication": {
+    "mode": "root README section 8 small UTF8 fallback",
+    "journal": [
+      {
+        "utc": "2026-11-13T03:05:16.177Z",
+        "path": "notes/2026-11-13-fd2d-lazy-curvature-jacobian-check.json",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at bbd7b1422b5f5dbb13a37a6a961a32688a4f38ce but expected 7b7f906e920c2c98d7425ee8c49f57a4cbf0a74a\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at bbd7b1422b5f5dbb13a37a6a961a32688a4f38ce but expected 7b7f906e920c2c98d7425ee8c49f57a4cbf0a74a\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at bbd7b1422b5f5dbb13a37a6a961a32688a4f38ce but expected 7b7f906e920c2c98d7425ee8c49f57a4cbf0a74a\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T03:05:16.178Z",
+        "event": "immediate literal pull after 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T03:05:16.513Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      },
+      {
+        "utc": "2026-11-13T03:05:39.517Z",
+        "path": "notes/2026-11-13-fd2d-lazy-curvature-jacobian-closed-manifest.json",
+        "error": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 409: {\\\"message\\\":\\\"is at c97364f92789d7bafb40f18a09ecfd1418f89d4f but expected b18da4ee46bbe87e04aff2ec3b56c1dde5f26e20\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 409: {\\\"message\\\":\\\"is at c97364f92789d7bafb40f18a09ecfd1418f89d4f but expected b18da4ee46bbe87e04aff2ec3b56c1dde5f26e20\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\\\",\\\"status\\\":\\\"409\\\"}\",\"error_code\":\"CONFLICT\",\"error_data\":{\"message\":\"is at c97364f92789d7bafb40f18a09ecfd1418f89d4f but expected b18da4ee46bbe87e04aff2ec3b56c1dde5f26e20\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}},\"isError\":true}"
+      },
+      {
+        "utc": "2026-11-13T03:05:39.518Z",
+        "event": "immediate literal pull after 409",
+        "pull": {
+          "exception": "No usable execution environment is available. Wait for an environment to become available before using this tool."
+        }
+      },
+      {
+        "utc": "2026-11-13T03:05:39.791Z",
+        "event": "API readback only, not successful pull",
+        "reads": [
+          {
+            "path": "rootREADME",
+            "status": "fulfilled",
+            "sha": "f787a306d90892d8dec765dc59747d60ba39f055"
+          },
+          {
+            "path": "topicREADME",
+            "status": "fulfilled",
+            "sha": "71875538fe72d500277129b7f67d99f89d21c9e0"
+          }
+        ]
+      }
+    ]
+  },
+  "continuousCertificate": false,
+  "strongTargetComplete": false
+}

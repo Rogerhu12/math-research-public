@@ -1,0 +1,93 @@
+{
+  "schema": "fd2d-metric-utf8-source-recovery-v1",
+  "status": "BLOBS_CREATED_ONLY_PARENT_PUBLISHES_TREE_AND_REFS",
+  "authorization": "Parent confirmed connected repository push/admin permissions and root README API fallback for UTF8 text under 100KB; no user PAT used by connector.",
+  "repository": "Rogerhu12/math-research",
+  "items": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "git_blob_sha": "777179d3eeb6eefcaa86f86e36648505a6ac1893",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-curvature-penalty-check.py",
+      "git_blob_sha": "0360b84e4bb1cb666393f5c421206277f59a78d7",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "git_blob_sha": "d386d2b0cfbddb61250ba6b4754dc88d43531e79",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-raw-native-field-definition.md",
+      "git_blob_sha": "82e8c50385df28a8f5bd0fd00bf298504328eaad",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "mathematical definition/proof; historical measurements explicitly separated"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-flat-initializer-angular-screen.py",
+      "git_blob_sha": "b96c0f0b72f8e72c9f73f1a550314f032100db9e",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-flat-initializer-fixed-angle-screen.py",
+      "git_blob_sha": "52d3e9eeb7d0e5bf81f8504ff3b85d0e5049e1a2",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-flat-angular-layer-and-projection.md",
+      "git_blob_sha": "5902948c3d1d64a3759a92031c75dcd62d1696e4",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "mathematical definition/proof; historical measurements explicitly separated"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-curvature-penalty.md",
+      "git_blob_sha": "ca631351b508c41f1783390e6d6dd21a72683256",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "mathematical definition/proof; historical measurements explicitly separated"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-native-field-check.py",
+      "git_blob_sha": "e4340fda6566c24f0bb4a9bdf7829444b0ee4f61",
+      "recovery_identity": "new text reconstructed after executor loss",
+      "run_status": "NOT_EXECUTED_IN_RESTORED_ENVIRONMENT"
+    }
+  ],
+  "check_commands": [
+    {
+      "command": "python scripts/fd2d-metric-curvature-penalty-check.py --arrays <actual-K7-or-K15-initializer.npz> --out notes/2026-11-12-fd2d-metric-curvature-penalty-check-recovery01.json",
+      "precondition": "real initializer at T=.02 recommended; default positive_clock/positive_bernstein, mesh-step .04; use recorded actual mesh-step"
+    },
+    {
+      "command": "python scripts/fd2d-metric-raw-native-field-check.py",
+      "precondition": "default actual published jac01 arrays, legacy_coast/signed_bubble, mesh-step .06; not a BVP solve"
+    },
+    {
+      "command": "python scripts/fd2d-metric-flat-initializer-angular-screen.py",
+      "precondition": "published actual partial trajectory and flat candidate; produces new K7/15/31 arrays and reports"
+    },
+    {
+      "command": "python scripts/fd2d-metric-flat-initializer-fixed-angle-screen.py",
+      "precondition": "same inputs; output arrays explicitly use fixed seed normal chart and cannot be read as moving chart"
+    }
+  ],
+  "data_not_recovered": "No unpushed NPZ, numerical report, exit receipt, or old manifest has been recreated from quoted numbers. Old successful checks and angular tables in notes are historical observations until published files are found or computations genuinely rerun. Penalty check had no observed exit before environment loss.",
+  "dependencies_read_on_main": [
+    "scripts/fd2d_gc_raw_lifted_dae.py",
+    "scripts/fd2d_flat_prefix_initializer.py",
+    "scripts/fd2d_gc_three_field_residual.py",
+    "scripts/fd2d_gc_design_profile_positive.py",
+    "scripts/fd2d_gc_design_profile.py",
+    "scripts/fd2d_flat_developable_family.py",
+    "scripts/fd2d_positive_flat_developable_family.py",
+    "scripts/fd2d_flat_developable_tail.py",
+    "scripts/fd2d_balanced_curvature_core.py"
+  ],
+  "no_refs_or_indexes_updated_by_this_agent": true
+}

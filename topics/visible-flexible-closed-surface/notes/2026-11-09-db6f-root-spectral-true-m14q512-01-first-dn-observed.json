@@ -1,0 +1,42 @@
+{
+  "status": "ROOT_READONLY_FIRST_TRUE_M14_DN_AUDIT_COMPLETED",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T20:42:07.714635+00:00",
+  "actual_audit_receipt": "8e6605",
+  "actual_audit_exit_code": 0,
+  "guard_source_bindings_rehashed": 118,
+  "guard_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-guard-launch.json",
+    "bytes": 35932,
+    "sha256": "e47b15876602732ffaadc15322cc7120b0ad560a1cd1abe659397e9383ca58a2"
+  },
+  "audit": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-first-dn-audit.json",
+    "bytes": 1082,
+    "sha256": "15b95083e6732713f75817b055772e2b822472ede11ed4c9891ce5e7bd191e1f"
+  },
+  "first_request_binding": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-first-request-binding.json",
+    "bytes": 2074,
+    "sha256": "763db9c6c38d3ca144dc67db5a8ae8fef58cfcba2281e7f1cf3c194d7ff35861"
+  },
+  "packet": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01_tail_0001.json.gz",
+    "bytes": 254043,
+    "sha256": "e8ff3b35b04fd3fd2ff62b69e1cecbe5f560d709980868e9c3e6bbe61ea11120"
+  },
+  "residual": 5.397833270174952e-10,
+  "Jacobian_entries": 616,
+  "jets_fields": 17,
+  "states": [
+    865,
+    28
+  ],
+  "raw_states": [
+    13,
+    28
+  ],
+  "real_solver_session_still_unclosed": 7667,
+  "whole_prefix_success_not_inferred": true,
+  "scope": "One actual closed DN/J response only; new weighted BVP, outer nonlinear BC, final seam and actual solver exit remain unobserved."
+}

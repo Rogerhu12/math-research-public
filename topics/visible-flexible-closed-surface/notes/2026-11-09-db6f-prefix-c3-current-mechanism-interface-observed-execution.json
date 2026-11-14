@@ -1,0 +1,33 @@
+{
+  "status": "OBSERVED_EXACT_SCALAR_BUDGET_COMPLETED",
+  "observer": "/root/coupled_prefix",
+  "recorded_utc": "2026-11-09T16:11:21.847447+00:00",
+  "tool_receipt": "65e22d",
+  "actual_exit_code": 0,
+  "wall_time_seconds": 0.043475429,
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "command": [
+    "python",
+    "scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-c3-mechanism-conditional-budget.json"
+  ],
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-mechanism-conditional-budget.py",
+    "bytes": 5299,
+    "sha256": "b98272c2d92406dd3611ae680ebd754b3558268281c47500aea1e6a70b23f527"
+  },
+  "report": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-mechanism-conditional-budget.json",
+    "bytes": 5093,
+    "sha256": "47fda2e36bf60860f94c0f151542cbff465a3ebb28845db617bf80d45f5ef1a1"
+  },
+  "stdout": {
+    "status": "CONDITIONAL_POSITION_BUDGET_AND_STATIC_INPUT_LIMITS_ONLY",
+    "all_checks_passed": true,
+    "solver_calls": 0,
+    "output_bytes": 5093,
+    "output_sha256": "47fda2e36bf60860f94c0f151542cbff465a3ebb28845db617bf80d45f5ef1a1"
+  },
+  "scope": "Fraction comparisons only; no new curve solution, angular root, RK, optimizer, backend, prefix or continuation."
+}

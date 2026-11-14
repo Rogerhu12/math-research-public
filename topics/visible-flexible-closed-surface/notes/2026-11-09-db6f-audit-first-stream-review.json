@@ -1,0 +1,17 @@
+{
+  "status": "PASS-independent-first-bound-stream-method-and-M12-full-replay",
+  "hashes": {
+    "scripts/db6f-tail-first-bounds-stream.py": "98686f818270191e413fa20b9388637bf85649bfa82b4f60b3cbde40dee0ad7d",
+    "scripts/db6f-tail-first-bounds.py": "ba3af5e44b9c727a9b7ca7b25b4e6abf19c504106b0810f4278928b82a084821",
+    "notes/2026-11-09-db6f-audit-first-stream-m12.json": "7031ba9a4e88014bb79b8ac83f4382309f4b30cda6d5f7ccf553727579ec17e2",
+    "notes/2026-11-09-db6f-tail-first-flat17-m12-uniform.json": "29cc0ab7debb35242e7ee41746d158667aa7866cd06f27608808cb868c19c821"
+  },
+  "all_old_report_fields_equal_except_scriptSHA256": true,
+  "all_finite_collar_entireTail_fields_identical": true,
+  "batch": 128,
+  "checked_finite_spans": 18457,
+  "peak_process_rss_bytes": 331972608,
+  "last_partial_batch_included": true,
+  "original_node_and_radius_accumulation_order_preserved": true,
+  "scope": "Same exact finite first-jet certificate; no source ODE, metric, curvature, reach or G5 certified."
+}

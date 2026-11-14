@@ -1,0 +1,94 @@
+{
+  "schema": "fd2d-full-angular-function-three-moment-probe-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_full_function_moment_lifting_probe.py",
+    "bytes": 10027,
+    "sha256": "e6b27babfae42b275b1476551bcb2e0e776e1c1a67d22494917c4207cfcb9ada"
+  },
+  "radial_primitive_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_codazzi_moment_lifting_probe.py",
+    "bytes": 10581,
+    "sha256": "c1ec5a48c9c662167b73c8d1b5b75a3f109548eb108298ae1bd5aafd5c7dc712"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "input_state": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-coast09-b0008-accepted-0002.npz",
+    "bytes": 49734,
+    "sha256": "6dcd339e6301e7f709e290405e3276151cdc98024c6d2a2b709916c4e3fe4be9"
+  },
+  "controls": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-full-function-moment-lifting01-controls.npz",
+    "bytes": 2767,
+    "sha256": "800662c5ca998cb7362ae693e4c8c229c9d2f7affc7a17ef1701812b3f26e43a"
+  },
+  "angular_samples": 512,
+  "no_angular_Fourier_or_projection": true,
+  "full_boundary_functions": "original exact defined balanced seed and positive Bernstein tail",
+  "unchanged_parameters": true,
+  "unchanged_physical_metric": true,
+  "angular_derivative_small_check": {
+    "points": [
+      0.2,
+      0.48,
+      0.9,
+      1.1,
+      1.4,
+      1.7
+    ],
+    "step": 1e-06,
+    "scaled_errors": {
+      "Phiu": 6.915529782043762e-10,
+      "Phiuu": 4.348871948567228e-09
+    }
+  },
+  "Gram": {
+    "eigenvalues": [
+      0.02791399956952422,
+      0.35192636967182994,
+      1.6477149715499912
+    ],
+    "condition": 59.02826527764669
+  },
+  "coarse": {
+    "order": 16,
+    "nodes": 2240,
+    "sampled_full_boundary_defect": 9.043320156433407e-11,
+    "sampled_full_Gauss_maximum": 21660.27759395782,
+    "sampled_formal_curvature_maximum": 1216.4019568814851,
+    "minimum_n": -1216.4016520807927,
+    "maximum_n": 906.3766838331368,
+    "maximum_abs_l": 18.127026509553954,
+    "Gauss_maximum_location": {
+      "s": 0.9221637380727651,
+      "angular_index": 250
+    },
+    "no_angular_truncation": true,
+    "continuous_certificate": false,
+    "nonlinear_success": false
+  },
+  "independent_radial_consumption": {
+    "order": 24,
+    "nodes": 3360,
+    "sampled_full_boundary_defect": 1.7556684230836913e-07,
+    "sampled_full_Gauss_maximum": 21660.35968724936,
+    "sampled_formal_curvature_maximum": 1216.402236318963,
+    "minimum_n": -1216.4019294448744,
+    "maximum_n": 906.377409516928,
+    "maximum_abs_l": 18.127099215262124,
+    "Gauss_maximum_location": {
+      "s": 0.9223438660046109,
+      "angular_index": 250
+    },
+    "no_angular_truncation": true,
+    "continuous_certificate": false,
+    "nonlinear_success": false
+  },
+  "seconds": 1.9449631000006775,
+  "peak_rss_kib": 73420,
+  "nonlinear_success": false,
+  "continuous_surface_claim": false
+}

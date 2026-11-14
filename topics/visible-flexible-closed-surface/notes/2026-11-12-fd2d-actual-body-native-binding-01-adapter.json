@@ -1,0 +1,84 @@
+{
+  "schema": "fd2d-complete-native-angular-body-view-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_actual_body_reader_factory.py",
+    "bytes": 9478,
+    "sha256": "2f996bef1890ee85c4cb5cc07eea05e886381e7d33766e3172382711c16f2361"
+  },
+  "native_class": "fd2d_gc_independent_tail_native_field.IndependentTailPositiveTraceNativeField",
+  "native_schema": "fd2d-independent-tail-coast-Gauss-terminal-trace-native-v1",
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "mode_count": 31,
+  "node_count": 129,
+  "central_parameter_count": 31,
+  "tail_parameter_count": 16,
+  "profile_count": 7,
+  "parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "actual_arrays": {
+    "mesh": {
+      "shape": [
+        129
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "639a8e61635c559340ad31f1515a0fb48f14e847530dbf0dc74bfa4621eb9785"
+    },
+    "corrections": {
+      "shape": [
+        129,
+        95
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "eaff4ab3d730bc0cb4d0c7d384bf61b67594f64cbf588bf0f96571de65d60ede"
+    },
+    "parameters": {
+      "shape": [
+        54
+      ],
+      "dtype": "<f8",
+      "c_order_bytes_sha256": "72035f45309f83ab494af8c53a18f4d3af46e28cc3e1acb3e9163e7d52e91563"
+    }
+  },
+  "body_physical_dispatch": "native.physical_angular(x,u,side=side)",
+  "native_radial_cut_contract_extended": false,
+  "actual_saved_mesh_retained": true,
+  "field_or_metric_changed": false,
+  "full_coast_and_terminal_maps_retained": true,
+  "mesh_or_parameter_dimension_inferred_from_legacy_K_plus_one": false,
+  "auxiliary_n_substituted_into_actual_X_uu": false,
+  "geometry_sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-body-screen.py",
+      "bytes": 28076,
+      "sha256": "27abc54c5c170ac2074428c2726e4077a3d57e25d15ea0e0a5f1606c56185827"
+    }
+  ],
+  "body_ODE_run_by_factory": false,
+  "geometry_certificate": false
+}

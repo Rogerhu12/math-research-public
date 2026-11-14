@@ -1,0 +1,86 @@
+{
+  "schema": "fd2d-all-pair-completed-rows-checkpoint-v1",
+  "binding": {
+    "source_sha256": "c3569e27886cf1b6ff770f74e2b078bd0b423c590528a55cf32f49bedd5e6714",
+    "inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "moments_sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+    "means_sha256": "41bb9029e103d2a4d93ea635e77fbab5d1a42d9764eeeac6052c91d08b33b4e3",
+    "variation_sha256": "d0346166838ec246cbf48ff91c5445abe1c7024d9d1b3e5cbb69d550a087c7f8",
+    "extension_sha256": "0148e396f0474b47afde17a39028c85f63ba42fe0fc03dcaa603a4b7218df919",
+    "initial_angles": 32,
+    "first_row": 6,
+    "last_row": 32,
+    "maximum_angle_denominator": 32768,
+    "maximum_radial_denominator": 32,
+    "position_modes": 96
+  },
+  "next_row": 9,
+  "methods": {
+    "separation": 706,
+    "short_chord": 6476,
+    "convex_QP": 14029
+  },
+  "unresolved": [],
+  "recursive_box_calls": 42347,
+  "split_count": 21136,
+  "maximum_stack_size": 16,
+  "leaf_hash_chain_sha256": "dd5c66b5d62e90759732773c4c9aa5a600bf244afa1125637ac99f066a4f3c8c",
+  "completed_initial_products": 75,
+  "rows": [
+    {
+      "row": 6,
+      "calls": 21540,
+      "leaves": {
+        "separation": 225,
+        "short_chord": 2623,
+        "convex_QP": 7935
+      }
+    },
+    {
+      "row": 7,
+      "calls": 9563,
+      "leaves": {
+        "separation": 250,
+        "short_chord": 1959,
+        "convex_QP": 2585
+      }
+    },
+    {
+      "row": 8,
+      "calls": 11244,
+      "leaves": {
+        "separation": 231,
+        "short_chord": 1894,
+        "convex_QP": 3509
+      }
+    }
+  ],
+  "minimum_strict_far_Phi_lower": {
+    "lower_binary": [
+      "603879522426335738219060584574415501515451419087",
+      -178
+    ],
+    "upper_binary": [
+      "603879522426335738219060584574415501515451419087",
+      -178
+    ],
+    "lower_display": 1.5761990983285534e-06,
+    "upper_display": 1.5761990983285534e-06
+  },
+  "maximum_short_developed_distance2_upper": {
+    "lower_binary": [
+      "467605917795781251995374476419727914849754039415",
+      -163
+    ],
+    "upper_binary": [
+      "467605917795781251995374476419727914849754039415",
+      -163
+    ],
+    "lower_display": 0.039993619050074765,
+    "upper_display": 0.039993619050074765
+  },
+  "seconds": 504.21641828500105,
+  "angle_interval_evaluations": 816,
+  "invalid_coarse_angle_boxes": 26
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS-closed-converged-finite-DN-provenance-and-request-audit",
+  "scope": "No independent solver replay, no final target audit, no prefix solution or continuous geometry claim.",
+  "script": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-closed-continuation-call-v2.py",
+    "sha256": "11ce0ce2446955093a1be749534f73017d22df55fad3d2276bdf46b5df4be2e1",
+    "bytes": 9582
+  },
+  "call": 1,
+  "scale": 0.3125,
+  "original_tolerance": 2e-09,
+  "residual": 2.467580868048873e-10,
+  "history_base_evaluations": 5,
+  "last_reported_minA": 0.8636068210910816,
+  "last_reported_minD": 0.9973200408208829,
+  "all_equation_configuration_fields_unchanged": true,
+  "changed_io_configuration_keys": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "exact_numerical_path_request_equal": true,
+  "checkpoint_cut_height_equal": true,
+  "all_recorded_shape_values_finite": true,
+  "states_count": 865,
+  "raw_states_count": 13,
+  "source_bindings_verified": 66,
+  "response_source_hashes_matched": 8,
+  "controller_process_exit_inferred": false,
+  "closed_row": {
+    "attempt": 0,
+    "call": 1,
+    "scale": 0.3125,
+    "step": 0.0625,
+    "converged": true,
+    "residual": 2.467580868048873e-10,
+    "error": null,
+    "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0001.json.gz",
+    "response_sha256": "159bfe9470b77b698fbcc14d22a31f0a16a029394c8cd6c39506dfa3bb1d9cd1",
+    "intermediate_scope": "WARM ONLY: does not match the complete target prefix",
+    "last_iteration": null,
+    "logs": [
+      {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call001-trace.jsonl",
+        "sha256": "5307634771a3ac6c4bf01f50469d489d0cb3eb52e9d002a0977527a4a49b5315",
+        "bytes": 2730
+      },
+      {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call001-trials.jsonl",
+        "sha256": "387eabe40a67bb51e7369edbaf14c38c98ef37dd4be376ec77107dab6dcad1d0",
+        "bytes": 635
+      }
+    ],
+    "iterations": 5
+  },
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume02-launch.json",
+      "sha256": "b2e7371a89906a5f1048077eb2040fef8f2c0a58a136ef3812ab6cbc36b5310e",
+      "bytes": 22355
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-input-bindings.json",
+      "sha256": "aa692dcd64d4b7c56235180babf074a3efe92c95ddbedc3e880d9657fd4996a4",
+      "bytes": 3779
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-config.json",
+      "sha256": "1e5fc1ae3e6ecd2200891ce6b9d6694d1bb93d05061cde1d2397ff8b85f76614",
+      "bytes": 3100
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096",
+      "bytes": 2907
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190",
+      "bytes": 29001
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02_tail_0001.json.gz",
+      "sha256": "159bfe9470b77b698fbcc14d22a31f0a16a029394c8cd6c39506dfa3bb1d9cd1",
+      "bytes": 268010
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call001-trace.jsonl",
+      "sha256": "5307634771a3ac6c4bf01f50469d489d0cb3eb52e9d002a0977527a4a49b5315",
+      "bytes": 2730
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-02-call001-trials.jsonl",
+      "sha256": "387eabe40a67bb51e7369edbaf14c38c98ef37dd4be376ec77107dab6dcad1d0",
+      "bytes": 635
+    }
+  ]
+}

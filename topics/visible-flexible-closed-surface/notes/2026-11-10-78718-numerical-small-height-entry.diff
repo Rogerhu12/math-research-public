@@ -1,0 +1,125 @@
+--- 78718-run-prefix-mode.py
++++ 78718-run-prefix-small-height.py
+@@ -1,9 +1,10 @@
+ #!/usr/bin/env python3
+-"""Direct same-g Fourier refinement using the original true-tail BVP.
++"""Same-g true-tail BVP with explicit small-height continuation scheduling.
+ 
+ Select M on the command line. Keep flat17 geometry, original physical BC,
+ true nonlinear DN, original power2_weights(M), release-LU and direct CSC.
+-No registration, frozen launch, independent replay or approval prerequisite.
++After a real success, small external H changes first try the complete target;
++recognized failures still use the original halving and final validation.
+ All resulting arrays remain on disk. Finite success is not a closed-surface
+ or all-time metric/reach certificate.
+ """
+@@ -156,6 +157,8 @@
+                         help='Implicit root/mean accuracy only; tight uses 4e-15 with 2e-14 fallback and retains the original 2e-9 shooting target')
+     parser.add_argument('--bootstrap-height-scale', type=float, default=1.,
+                         help='First actual DN target is this times the original warm height; continue to the unchanged requested target')
++    parser.add_argument('--direct-relative-limit', type=float, default=0.01,
++                        help='After actual finite success, try the complete new H target first when its relative infinity change is at most this value')
+     parser.add_argument('--max-nodes',type=int,default=8000)
+     parser.add_argument('--source-root',type=Path,default=TOPIC/'repro/source-root')
+     parser.add_argument('--data-gib',type=float,default=6.)
+@@ -165,6 +168,8 @@
+     parser.add_argument('--tail-only',action='store_true',
+                         help='Solve the actual wider-DN bootstrap once and exit before any prefix BVP')
+     args = parser.parse_args()
++    require(args.tail_seed is not None, 'This continuation entry needs an explicit actual successful --tail-seed, also when restarting an outer-UNSOLVED inner snapshot')
++    require(0 < args.direct_relative_limit <= 1., 'direct-relative-limit must be finite in (0,1]')
+     args.restart = args.restart.resolve()
+     args.out_prefix = args.out_prefix.resolve()
+     args.source_root = args.source_root.resolve()
+@@ -300,6 +305,11 @@
+         'bootstrap_height_scale': args.bootstrap_height_scale,
+         'first_actual_bootstrap_height_max': float(np.max(np.abs(args.bootstrap_height_scale*old_target))),
+         'bootstrap_changes_final_requested_height': False,
++        'small_height_continuation': {'direct_relative_limit': args.direct_relative_limit,
++            'selection_requires_actual_successful_origin': True,
++            'bootstrap_is_actually_solved': True, 'direct_initial_step': '1',
++            'ordinary_initial_step': '1/8', 'minimum_step': '1/1024',
++            'scope': 'Only target scheduling changes; all original residual, floor, physical and final validation conditions remain.'},
+         'worker_warm_input': warm_metadata,
+         'tail_cold_start': args.tail_cold_start,
+         'tail_shooting_grid': tail_grid,
+@@ -321,7 +331,8 @@
+         'preparation':preparation,'fixed_inputs':[identity(p) for p in
+             dict.fromkeys((PROFILE,CHART,PORT,args.restart,args.tail_seed,worker_warm)) if p is not None],
+         'script':identity(__file__),'source_files':[identity(HERE/name) for name in
+-            ('78718-tail-mode-continuation.py','78718-prefix-tail-linear-m15q512-v1.py',
++            ('78718-tail-small-height-continuation.py','78718-small-height-continuation.py',
++             '78718-prefix-tail-linear-m15q512-v1.py',
+              '78718-prefix-tail-geometric-client.py','78718-prefix-tail-geometric-worker.mjs',
+              '78718-tail-geometric-warm-remesh.mjs','78718-prefix-projected-tail.py',
+              '78718-prefix-inner-snapshot.py',
+@@ -353,6 +364,11 @@
+             'fallback_relative_tolerance': 2e-14 if args.tail_root_precision == 'tight' else 5e-12,
+             'mean_relative_tolerance': 4e-15 if args.tail_root_precision == 'tight' else 8e-14,
+             'scope': 'More accurate implicit arithmetic solve only; no changed physical equation, projection floor or shooting success criterion.'},
++        'small_height_continuation': {'direct_relative_limit': args.direct_relative_limit,
++            'selection_requires_actual_successful_origin': True,
++            'bootstrap_is_actually_solved': True, 'direct_initial_step': '1',
++            'ordinary_initial_step': '1/8', 'minimum_step': '1/1024',
++            'scope': 'Only target scheduling changes; all original residual, floor, physical and final validation conditions remain.'},
+         'worker_warm_input': warm_metadata,
+         'tail_cold_start': args.tail_cold_start,
+         'tail_shooting_grid': tail_grid,
+@@ -370,7 +386,7 @@
+                  'height_difference_from_padded_tail_seed_max','maximum_weight')},
+             'solver_calls':0}),flush=True)
+         return 0
+-    adapter = module('generic_mode_actual_tail',HERE/'78718-tail-mode-continuation.py')
++    adapter = module('generic_mode_actual_tail',HERE/'78718-tail-small-height-continuation.py')
+     policy = {'record_prefix':str(out)+'_tail','journal_file':str(out)+'_tail-control.jsonl',
+               'last_good_file':str(out)+'_tail-last-good.json',
+               'bootstrap_height_scale': args.bootstrap_height_scale,
+@@ -378,6 +394,7 @@
+               'worker_warm_input': warm_metadata,
+               'tail_cold_start': args.tail_cold_start,
+               'tail_trial': args.tail_trial,
++              'small_height_continuation': dict(run['small_height_continuation']),
+               'tail_shooting_grid': tail_grid,
+               'control':dict(adapter.c.CONTROL),
+               'scope':'Actual same-g Fourier continuation; all added modes are initial guesses until solved.'}
+--- 78718-tail-mode-continuation.py
++++ 78718-tail-small-height-continuation.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Generic-M interface to the original true DN and bounded height controller.
++"""Explicit small-height scheduling of the same original true DN.
+ 
+ The initialization accepts declared numerical Fourier/quadrature and shooting
+ partition/RK/audit changes. The physical geometry and final target remain. The
+@@ -24,6 +24,8 @@
+ 
+ 
+ c = module('generic_mode_height_control', HERE/'78718-prefix-tail-linear-m15q512-v1.py')
++small_height = module('explicit_small_height_policy', HERE/'78718-small-height-continuation.py')
++SmallHeightCoordinator = small_height.coordinator_class(c.Coordinator)
+ 
+ 
+ class WeightedTailPort(c.WeightedTailPort):
+@@ -104,7 +106,8 @@
+                                            self.record_prefix, node_heap)
+             # Honest source names in each actual packet; no eight/nine-source
+             # historic label is borrowed for this generic-M interface.
+-            for name in (Path(__file__).name, '78718-prefix-tail-linear-m15q512-v1.py'):
++            for name in (Path(__file__).name, '78718-prefix-tail-linear-m15q512-v1.py',
++                         '78718-small-height-continuation.py', '78718-run-prefix-small-height.py'):
+                 self.base.sources[name] = c.identity(HERE/name)['sha256']
+             if self.policy.get('tail_trial', 'momentum') in ('geometric', 'geometric-centered'):
+                 name = '78718-tail-geometric-trial-control.py'
+@@ -120,9 +123,10 @@
+                 expected['depth'] = old_parameters['depth']*grid['shootingParts']//old_parts
+             c.require(c.canonical(c.without_io(self.parameters)) == c.canonical(expected),
+                       'Actual DN parameters changed outside the declared M/N and numerical grid refinement')
+-            self.coordinator = c.Coordinator(self.base, self.bootstrap_height,
++            self.coordinator = SmallHeightCoordinator(self.base, self.bootstrap_height,
+                 self.policy['control'], self._inspect, self._classify,
+-                self._emit, self._persist_good)
++                self._emit, self._persist_good,
++                direct_relative_limit=self.policy['small_height_continuation']['direct_relative_limit'])
+         except Exception:
+             self.close()
+             raise

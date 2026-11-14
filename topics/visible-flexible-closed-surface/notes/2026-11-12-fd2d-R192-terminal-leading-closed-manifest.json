@@ -1,0 +1,50 @@
+{
+  "schema": "fd2d-R192-closed-group-v1",
+  "status": "complete conditional mathematical proof and one actual finite V8 check",
+  "files": [
+    {
+      "path": "scripts/fd2d_terminal_leading_metric_R192.cjs",
+      "sha256": "61204ae20db46bcb79bab6a7aac957ff2edb5597ce7b378beb4d79c2c0f3b2eb"
+    },
+    {
+      "path": "scripts/fd2d_terminal_leading_metric_R192_check.cjs",
+      "sha256": "dc4fc04504513a6f709d82677f6e65a1224d26002d56c42e7f65ea757342a11e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R192-terminal-leading-v8-check-01.json",
+      "sha256": "129f2edd13218ac5e420e17232ab85e96888b7823c0661ab867520dde9c70fd4"
+    },
+    {
+      "path": "results/R192-finite-terminal-metric-necessary-coefficients.md",
+      "sha256": "d918a9b3c8a14902a060349ced969ca5a9805406207370a1e7300d43a5917735"
+    }
+  ],
+  "actualExecution": {
+    "runtime": "functions.exec V8",
+    "passed": true,
+    "elapsedMilliseconds": 31,
+    "OSProcessCreated": false,
+    "processExitCode": null,
+    "wholeObjectiveCalled": false,
+    "wholeNormalCalled": false,
+    "wholeJvpCalled": false
+  },
+  "scope": {
+    "exactFiniteAnalyticTerminalMetricAssumption": true,
+    "arbitraryC2Obstruction": false,
+    "necessaryNotSufficient": true,
+    "optionalCoordinatesOnly": true,
+    "activeSolverModified": false
+  },
+  "publication": {
+    "reportFirstCreateConflict409": true,
+    "reportReadAfterConflict404": true,
+    "reportFreshCreateSucceeded": true,
+    "terminalUnavailable": true,
+    "READMEBlobsAt233859UTC": {
+      "root": "f787a306d90892d8dec765dc59747d60ba39f055",
+      "topic": "71875538fe72d500277129b7f67d99f89d21c9e0"
+    },
+    "GitPullClaimed": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "OBSERVED_STATIC_AST_AND_REAL_NEGATIVE_GATE_ONLY",
+  "observer": "/root/coupled_prefix",
+  "script": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-matched-cut-closed.py",
+    "bytes": 29238,
+    "sha256": "af5349d6ea2d7f5f3331aee245bd04b605e0cf6d006d2fb25979fd2adf312b31"
+  },
+  "AST": {
+    "actual_exit_code": 0,
+    "tool_receipt": "f14250",
+    "result": "PASS",
+    "solver_imported": false
+  },
+  "negative_gate": {
+    "command": [
+      "python",
+      "scripts/db6f-prefix-audit-matched-cut-closed.py",
+      "--mode",
+      "final",
+      "--check-current-gate"
+    ],
+    "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+    "actual_exit_code": 2,
+    "tool_receipt": "7e744c",
+    "result": {
+      "status": "NOT_READY",
+      "ready": false,
+      "reason": "Final mode requires the root actual tool-exit observation",
+      "mode": "final",
+      "solver_calls": 0,
+      "active_trace_read": false,
+      "files_written_by_auditor": 0
+    }
+  },
+  "positive_branch_runs": 0,
+  "first_actual_packet_read": false,
+  "synthetic_success_fixtures": 0,
+  "solver_calls": 0,
+  "flow_or_RK_calls": 0
+}

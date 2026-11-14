@@ -1,0 +1,266 @@
+{
+  "status": "READ_ONLY_FROZEN_INPUTS_AND_HISTORICAL_NATIVE_RK_FIELDS_VERIFIED",
+  "scope": "No active outputs read; no solver, flow, export, or new candidate. This does not certify a future M14 result or independently rerun old solvers.",
+  "historical_rows": [
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine.json.gz",
+        "bytes": 12234,
+        "sha256": "23e08cc3c25dfa46a1c3f79868eb36ff28bec1c72d7f36b5eb254bbaacfce5f1"
+      },
+      "final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+        "bytes": 36672,
+        "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+      },
+      "prefix_config": {
+        "modes": 8,
+        "base_mode": 3,
+        "core_kind": "adaptive_warped_support",
+        "angular": 256,
+        "tol": 2e-07,
+        "bc_tol": 1e-07,
+        "physical_bc_tol": 2e-09,
+        "fixed_metric": false,
+        "actual_nonlinear_tail": true
+      },
+      "prefix_nodes": 778,
+      "tail_config": {
+        "modes": 8,
+        "spacing": 3,
+        "depth": 10,
+        "shootingParts": 2,
+        "steps": 32,
+        "auditSteps": 32,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "solveTolerance": 2e-09,
+        "maxIterations": 30,
+        "cuspAwareFlow": true,
+        "actualCuspGrid": true,
+        "calibrationSteps": 512
+      },
+      "resolved_parameters": {
+        "modes": 8,
+        "physicalDepth": 10,
+        "depth": 180,
+        "shootingParts": 2,
+        "steps": 32,
+        "auditSteps": 32,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "projectionFloor": 0.05
+      },
+      "base_RK_intervals_per_raw_profile": 64,
+      "native_cusp_splitting_adds_possible_substeps": true,
+      "tail_residual": 1.3505653752886372e-10,
+      "tail_converged": true,
+      "final_jacobian": true,
+      "final_audit": true,
+      "frozen_six_fields_canonical_sha256": "811e8cdccbad6edd4c487afc8ec07c16d519995cd9c5b182bc79ab327f414071"
+    },
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64.json.gz",
+        "bytes": 28387,
+        "sha256": "d5ccd049f47417b182e765e0ca9814f16d12519f9cb0c4a5a41d7c0676200c80"
+      },
+      "final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64_tail_0018.json.gz",
+        "bytes": 36685,
+        "sha256": "eb95371195e5a7c6ba2d87fcea0bc63cb80278d437e084012edcc3a66a5492a5"
+      },
+      "prefix_config": {
+        "modes": 8,
+        "base_mode": 3,
+        "core_kind": "adaptive_warped_support",
+        "angular": 256,
+        "tol": 2e-09,
+        "bc_tol": 1e-08,
+        "physical_bc_tol": 2e-11,
+        "fixed_metric": true,
+        "actual_nonlinear_tail": true
+      },
+      "prefix_nodes": 2570,
+      "tail_config": {
+        "modes": 8,
+        "spacing": 3,
+        "depth": 10,
+        "shootingParts": 2,
+        "steps": 64,
+        "auditSteps": 64,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "solveTolerance": 2e-09,
+        "maxIterations": 36,
+        "cuspAwareFlow": true,
+        "actualCuspGrid": true,
+        "calibrationSteps": 512
+      },
+      "resolved_parameters": {
+        "modes": 8,
+        "physicalDepth": 10,
+        "depth": 180,
+        "shootingParts": 2,
+        "steps": 64,
+        "auditSteps": 64,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "projectionFloor": 0.05
+      },
+      "base_RK_intervals_per_raw_profile": 128,
+      "native_cusp_splitting_adds_possible_substeps": true,
+      "tail_residual": 1.872382418274325e-10,
+      "tail_converged": true,
+      "final_jacobian": true,
+      "final_audit": true,
+      "frozen_six_fields_canonical_sha256": "811e8cdccbad6edd4c487afc8ec07c16d519995cd9c5b182bc79ab327f414071"
+    },
+    {
+      "checkpoint": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128.json.gz",
+        "bytes": 28520,
+        "sha256": "73ac9823f809e6e9da18cd7c1b199cc3a73f8de8917141018e68b42659394298"
+      },
+      "final_tail": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128_tail_0004.json.gz",
+        "bytes": 36690,
+        "sha256": "9f039cf6d13ff9938a9523716ef4a34f22477bc7c2fed5c7d6dbb7547b565745"
+      },
+      "prefix_config": {
+        "modes": 8,
+        "base_mode": 3,
+        "core_kind": "adaptive_warped_support",
+        "angular": 256,
+        "tol": 2e-09,
+        "bc_tol": 1e-08,
+        "physical_bc_tol": 2e-11,
+        "fixed_metric": true,
+        "actual_nonlinear_tail": true
+      },
+      "prefix_nodes": 2570,
+      "tail_config": {
+        "modes": 8,
+        "spacing": 3,
+        "depth": 10,
+        "shootingParts": 2,
+        "steps": 128,
+        "auditSteps": 128,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "solveTolerance": 2e-09,
+        "maxIterations": 36,
+        "cuspAwareFlow": true,
+        "actualCuspGrid": true,
+        "calibrationSteps": 512
+      },
+      "resolved_parameters": {
+        "modes": 8,
+        "physicalDepth": 10,
+        "depth": 180,
+        "shootingParts": 2,
+        "steps": 128,
+        "auditSteps": 128,
+        "quadrature": 256,
+        "linearFar": 32,
+        "linearSteps": 256,
+        "projectionFloor": 0.05
+      },
+      "base_RK_intervals_per_raw_profile": 256,
+      "native_cusp_splitting_adds_possible_substeps": true,
+      "tail_residual": 8.191673022591901e-11,
+      "tail_converged": true,
+      "final_jacobian": true,
+      "final_audit": true,
+      "frozen_six_fields_canonical_sha256": "811e8cdccbad6edd4c487afc8ec07c16d519995cd9c5b182bc79ab327f414071"
+    }
+  ],
+  "six_frozen_fields": [
+    "frozen_profile",
+    "chart",
+    "warp_reference_q",
+    "physical_port_sha256",
+    "physical_tail_parameters",
+    "physical_tail_cut"
+  ],
+  "three_historical_and_current_seed_six_fields_identical": true,
+  "current_launch": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+    "bytes": 63007,
+    "sha256": "710fbd942be28cc67bddcc511d3e01a1bcc9de77adc5e7fea91f69adb5562666"
+  },
+  "current_config": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-config.json",
+    "bytes": 2688,
+    "sha256": "6517f02126a992376639c4e89fcb55b0793633967568fba837ec84e790eb8c5f"
+  },
+  "current_source_checkpoint": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+    "bytes": 30149,
+    "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+  },
+  "current_input_settings": {
+    "modes": 14,
+    "angular": 512,
+    "audit_angular": 1024,
+    "nodes": 1601,
+    "max_nodes": 6500,
+    "tol": 2e-09,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 2e-11,
+    "node_heap": 1536
+  },
+  "current_tail_numerical_parameters": {
+    "modes": 14,
+    "spacing": 3,
+    "depth": 12,
+    "shootingParts": 8,
+    "steps": 32,
+    "auditSteps": 32,
+    "quadrature": 512,
+    "linearFar": 32,
+    "linearSteps": 256,
+    "solveTolerance": 2e-09,
+    "maxIterations": 36,
+    "calibrationSteps": 512,
+    "warpSteps": 16
+  },
+  "current_base_RK_intervals_per_raw_profile": 256,
+  "current_run_result_inferred": false,
+  "optional_future_radial_sequence": {
+    "modes": 14,
+    "W": "same reviewed W14",
+    "tail_quadrature": 512,
+    "shootingParts": 8,
+    "steps": [
+      32,
+      64,
+      128
+    ],
+    "auditSteps": [
+      32,
+      64,
+      128
+    ],
+    "base_raw_intervals": [
+      256,
+      512,
+      1024
+    ],
+    "last_arrow_conditional": true,
+    "files_or_candidate_created": false
+  },
+  "old_G5_and_N512_notes_misrecord_radial_axis": false,
+  "clarification_target": "Potentially ambiguous root/H wording native N256 to N512; both old full notes correctly identify angular quadrature.",
+  "original_completion_gate_changed": false,
+  "solver_calls": 0,
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "flow_calls": 0,
+  "Git_mutations": 0
+}

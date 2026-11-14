@@ -1,0 +1,897 @@
+{
+  "schema": "fd2d-R172-actual-last-cell-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-accurate-last-cell-check.py",
+    "bytes": 5955,
+    "sha256": "43499e138fbf799e02f86a333efccfb4f1be1b2e95a9fd694d338e592f13dcd3"
+  },
+  "definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-accurate-last-cell-01-definition.json",
+    "bytes": 3398,
+    "sha256": "4685a2ebaaed6545cc1ab77515eb764fea2cefcd0fc7aa6efc5610a67b4d511e"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+    "bytes": 130600,
+    "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+  },
+  "passed": true,
+  "actual_scalar_checks": [
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "0",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "1/3",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "2/3",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "s",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "3/4",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "sxi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "0",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/9",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/4",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 0,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 1,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "value",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "xi",
+      "independent_scalar_in_interval": true
+    },
+    {
+      "t": "cut",
+      "u_over_pi": "1/2",
+      "component": 2,
+      "jet": "xixi",
+      "independent_scalar_in_interval": true
+    }
+  ],
+  "check_count": 96,
+  "exact_endpoint_identities": [
+    "raw=0",
+    "eta=1",
+    "a=4/5",
+    "K=0",
+    "no radial II assigned"
+  ],
+  "uniform_change_bounds": {
+    "value_u_uu_by_n_m_l": [
+      [
+        {
+          "lower_binary": [
+            "117893198717045289105498973829018435208621035",
+            -186
+          ],
+          "upper_binary": [
+            "117893198717045315090007873507191846670969835",
+            -186
+          ],
+          "lower_display": 1.202014088023396e-12,
+          "upper_display": 1.2020140880233965e-12
+        },
+        {
+          "lower_binary": [
+            "187436016245336147323788436223742654508539659",
+            -184
+          ],
+          "upper_binary": [
+            "187436016245336188636034525270243241080758027",
+            -184
+          ],
+          "lower_display": 7.6442317141846e-12,
+          "upper_display": 7.644231714184602e-12
+        },
+        {
+          "lower_binary": [
+            "1419755590940615131902659816703880664432683829",
+            -183
+          ],
+          "upper_binary": [
+            "1419755590940615444827003384679912803276335925",
+            -183
+          ],
+          "lower_display": 1.1580421876288352e-10,
+          "upper_display": 1.1580421876288355e-10
+        }
+      ],
+      [
+        {
+          "lower_binary": [
+            "12141148499635525213758749027582997116888253",
+            -189
+          ],
+          "upper_binary": [
+            "12141148499635527889755199347175105424925885",
+            -189
+          ],
+          "lower_display": 1.547357237330181e-14,
+          "upper_display": 1.5473572373301813e-14
+        },
+        {
+          "lower_binary": [
+            "91395901405138795470552685933112750398640845",
+            -188
+          ],
+          "upper_binary": [
+            "91395901405138815614866684060619023159268045",
+            -188
+          ],
+          "lower_display": 2.329633139826972e-13,
+          "upper_display": 2.3296331398269726e-13
+        },
+        {
+          "lower_binary": [
+            "1055348141081495820639338364702621526129201439",
+            -187
+          ],
+          "upper_binary": [
+            "1055348141081496053245658920080184440848470303",
+            -187
+          ],
+          "lower_display": 5.380053078353923e-12,
+          "upper_display": 5.380053078353924e-12
+        }
+      ],
+      [
+        {
+          "lower_binary": [
+            "117893198717045289105498973829018435208621035",
+            -186
+          ],
+          "upper_binary": [
+            "117893198717045315090007873507191846670969835",
+            -186
+          ],
+          "lower_display": 1.202014088023396e-12,
+          "upper_display": 1.2020140880233965e-12
+        },
+        {
+          "lower_binary": [
+            "187436016245336147323788436223742654508539659",
+            -184
+          ],
+          "upper_binary": [
+            "187436016245336188636034525270243241080758027",
+            -184
+          ],
+          "lower_display": 7.6442317141846e-12,
+          "upper_display": 7.644231714184602e-12
+        },
+        {
+          "lower_binary": [
+            "1419755590940615131902659816703880664432683829",
+            -183
+          ],
+          "upper_binary": [
+            "1419755590940615444827003384679912803276335925",
+            -183
+          ],
+          "lower_display": 1.1580421876288352e-10,
+          "upper_display": 1.1580421876288355e-10
+        }
+      ]
+    ],
+    "exact_endpoint_shift": {
+      "lower_binary": [
+        "2148197134075819855372057145759069760076098703579405283504549",
+        -250
+      ],
+      "upper_binary": [
+        "2148197134075820328842927016950554702413772868082693257834917",
+        -250
+      ],
+      "lower_display": 1.1873403225247744e-15,
+      "upper_display": 1.1873403225247746e-15
+    },
+    "delta_sigma_bound": {
+      "lower_binary": [
+        "2148197134075819855372057145759069760076098703579405283504549",
+        -250
+      ],
+      "upper_binary": [
+        "2148197134075820328842927016950554702413772868082693257834917",
+        -250
+      ],
+      "lower_display": 1.1873403225247744e-15,
+      "upper_display": 1.1873403225247746e-15
+    },
+    "derivative_scale_change": {
+      "lower_binary": [
+        "7769826447867472666886733",
+        -123
+      ],
+      "upper_binary": [
+        "7769826447867474379412359",
+        -123
+      ],
+      "lower_display": 7.306709677070252e-13,
+      "upper_display": 7.306709677070253e-13
+    },
+    "scalar_tail_weight_difference": {
+      "lower_binary": [
+        "84019540594755763398599632317970142991239036400814141763570442442606229337333",
+        -304
+      ],
+      "upper_binary": [
+        "84019540594755781916828019991010007551729756661499434094987382657589471098101",
+        -304
+      ],
+      "lower_display": 2.5778736105689537e-15,
+      "upper_display": 2.577873610568954e-15
+    },
+    "affine_II_value_frobenius_bound": {
+      "lower_binary": [
+        "54636965114688499158715240578460687075912464232582773876299235578679035006357",
+        -294
+      ],
+      "upper_binary": [
+        "54636965114688511201275643469191896434423440030464065193917402834539161947541",
+        -294
+      ],
+      "lower_display": 1.7165949978125899e-12,
+      "upper_display": 1.7165949978125903e-12
+    },
+    "complete_positive_trace_II_value_frobenius_bound": {
+      "lower_binary": [
+        "77268337072098142081521516516136964793996929787189142881206649841514985925677",
+        -294
+      ],
+      "upper_binary": [
+        "77268337072098159112273838305748885191271663586507805444365327909716561603629",
+        -294
+      ],
+      "lower_display": 2.427631927008378e-12,
+      "upper_display": 2.4276319270083785e-12
+    },
+    "comparison": "Original raw/weight coordinate with the same accurate g and R132 tail; not the old floating program",
+    "full_field_or_body_bound": false
+  },
+  "seconds": 47.65960951899979,
+  "peak_rss_kib": 105872,
+  "whole_F_J_BVP_or_body_run": false,
+  "whole_surface_certificate": false
+}

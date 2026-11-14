@@ -1,0 +1,204 @@
+{
+  "schema": "fd2d-original-R152-background-operator-cache-compatibility-check-v1",
+  "actual_execution": true,
+  "passed": true,
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-frozen-operator-cell-compatibility-check.py",
+    "bytes": 5032,
+    "sha256": "7b73635d0afd83d53fcfa9e54b490409b6e7b750f452c4837b244f3ed441f3bd"
+  },
+  "input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-lowmem22-b0001-accepted-0001.npz",
+    "bytes": 127034,
+    "sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "compatibility_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+    "bytes": 4592,
+    "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+  },
+  "projection_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+    "bytes": 13877,
+    "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+  },
+  "original_cell_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+    "bytes": 7619,
+    "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+  },
+  "original_hybrid_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_coast_hybrid.py",
+    "bytes": 6689,
+    "sha256": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166"
+  },
+  "input_node_indices": [
+    64,
+    65
+  ],
+  "physical_interval": [
+    0.6116816746501718,
+    0.6313633493003443
+  ],
+  "comparisons": {
+    "retained_residual": {
+      "shape": [
+        63
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "high_residual": {
+      "shape": [
+        193
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "retained_cells": {
+      "shape": [
+        1,
+        63
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "omitted_codazzi_cells": {
+      "shape": [
+        512,
+        1,
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "full_codazzi_cells": {
+      "shape": [
+        512,
+        1,
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "point_gauss": {
+      "shape": [
+        512,
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    },
+    "quadrature_points": {
+      "shape": [
+        2
+      ],
+      "maximum_absolute": 0.0,
+      "maximum_scaled": 0.0,
+      "bitwise_equal": true
+    }
+  },
+  "original_info_preserved": {
+    "schema": true,
+    "order": true,
+    "quadrature_fraction_nodes": true,
+    "quadrature_average_weights": true,
+    "physical_g_changed": true,
+    "unknown_mesh_changed": true,
+    "original_trapezoid_rows_changed": true,
+    "original_whole_correction_RHS_Gauss_rows_changed": true,
+    "known_lifting_derivative_integral": true,
+    "finite_equations_changed_by_exact_lifting_integration": true,
+    "node_Gauss_boundary_gap_rows_changed": true,
+    "parameter_columns": true,
+    "retained_cell_maximum": true,
+    "sampled_full_average_codazzi_maximum": true,
+    "sampled_omitted_average_codazzi_maximum": true,
+    "sampled_interior_Gauss_maximum": true,
+    "normalization": true,
+    "row_definition": true,
+    "old_high_point_rows": true,
+    "old_large_high_point_jacobian_constructed": true,
+    "finite_symmetry_and_compression": true,
+    "continuous_certificate": true,
+    "scope": true,
+    "actual_field": true,
+    "full_nonlinear_delta_l_and_angular_delta_included": true,
+    "known_affine_endpoint_primitive_preserved": true,
+    "finite_field_representation_changed": true,
+    "sampled_active_n_minimum": true,
+    "actual_field_representation_changed": true,
+    "physical_metric_changed": true,
+    "finite_quadrature_rule_changed": true,
+    "formula": true,
+    "nonlinear_Gauss_l_correction": true,
+    "nonlinear_field_treated_as_affine": true,
+    "new_field_at_zero_state_used_for_lifting_correction": true,
+    "state_jacobian": true,
+    "parameter_jacobian": true,
+    "known_lifting_quadrature_order": true,
+    "nonlinear_correction_quadrature_order": true,
+    "selected_coast_local_cells": true,
+    "fine_known_physical_support": true,
+    "all_other_cells_keep_original_G2": true,
+    "selection_independent_of_chunk_size_and_parameters": true,
+    "known_lifting_fixed_boundaries": true,
+    "known_lifting_cell_rules": true,
+    "known_lifting_full_change_maximum": true,
+    "point_gauss_scope": true,
+    "terminal_trace_change_identically_zero_on_block": true
+  },
+  "runtime_compatibility": {
+    "actual_R153_background_class": "fd2d_gc_raw_bump_positive_gauss.PositiveGaussRawBumpDAE",
+    "old_strict_identity_check_unchanged": true,
+    "original_complete_cell_formula_and_Jacobian_called": true,
+    "mathematical_fields_or_finite_equations_changed": false,
+    "operator_projection_cache_used_in_R152_R153_background": false,
+    "prepared_geometry_reference_cache_still_shared": true,
+    "node_and_separate_terminal_operator_cache_left_enabled": true,
+    "no_process_global_class_patch": true
+  },
+  "cache_statistics": {
+    "schema": "fd2d-frozen-angular-operator-projection-cache-v1",
+    "binding_sha256": "4d1bb63b66bf2354bc596aaa8394e0ec82b695d7748de277f7e3cbf048ece6cc",
+    "entries": 0,
+    "maximum_entries": 1024,
+    "fixed_basis_key_bytes": 520192,
+    "entry_payload_bytes": 0,
+    "total_counted_bytes": 520192,
+    "byte_limit": 33554432,
+    "payload_limit_excludes_Python_object_overhead": true,
+    "hits": 0,
+    "misses": 0,
+    "evictions": 0,
+    "uncached_oversize": 0,
+    "operator_calls": 0,
+    "original_local_delta_packet_hits": 0,
+    "explicit_background_view_wraps": 0,
+    "shared_delta_dependent_values_cached": false,
+    "original_per_view_delta_cache_retained": true,
+    "no_global_base_class_patch": true
+  },
+  "known_lifting_selected_cells": [
+    0
+  ],
+  "known_lifting_order": 8,
+  "no_BVP": true,
+  "no_whole_residual": true,
+  "no_Jacobian": true,
+  "no_body": true,
+  "original_or_active_source_changed": false,
+  "seconds": 36.60553630799768,
+  "peak_rss_kib": 102732
+}

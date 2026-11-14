@@ -1,0 +1,25 @@
+{
+  "label": "sixteenth-retry",
+  "base_commit": "55900ae3c38773b96b3307d69d451f93cbaac6e7",
+  "message": "Preserve the complete recoverable normal matrix and continue the strong surface search",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-metric-grouped-normal-adapter-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-geometry-R167-rigid-patch-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-normal-closed-and-direction-failure-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-normal25-capsule-closed-publish-manifest.json",
+    "notes/2026-11-12-fd2d-metric-block-normal-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-raw-bump-staged25-block-search-static-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-current-native-body-closed-publish-manifest.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-fifteenth-batch-main-receipt.json",
+    "notes/2026-11-12-fd2d-sixteenth-pull-failure-receipt.json",
+    "notes/2026-11-12-fd2d-live-recovery-sixteenth-batch-manifest.json",
+    "notes/2026-11-12-fd2d-sixteenth-sparse-index-initialization-receipt.json"
+  ],
+  "excluded": [
+    "active directions/trials",
+    "regenerable per-tile full normal matrices"
+  ],
+  "scope": "Closed source, actual outcomes and necessary latest checkpoints only; strong target remains open"
+}

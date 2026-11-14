@@ -1,0 +1,1353 @@
+{
+  "scope": "Inventory only closed M14/N512, failed M15, and endpoint-diagnostic records.\n\nThe historical dependency snapshot is preserved as historical evidence; it\nis not relabeled as a new runtime import trace. Explicit response/driver\nhashes are separately checked against recoverable repository source files.\n",
+  "actual_tool_exits": {
+    "M14_N512": 0,
+    "M15_failed_DN": 0
+  },
+  "outcomes": [
+    {
+      "stem": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14",
+      "actual_driver_exit_code": 0,
+      "mathematical_success": true,
+      "error": null,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+        "--source-root",
+        "topics/visible-flexible-closed-surface/repro/source-root",
+        "--profile",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-frozen-profile.json",
+        "--chart",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-adaptive-chart.json",
+        "--linear-port",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+        "--tail-config",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-config.json",
+        "--out-prefix",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14",
+        "--restart",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+        "--amplitude",
+        "0.1",
+        "--warp-reference",
+        "0.1",
+        "--modes",
+        "14",
+        "--angular",
+        "512",
+        "--audit-angular",
+        "1024",
+        "--nodes",
+        "1601",
+        "--max-nodes",
+        "4000",
+        "--tol",
+        "2e-09",
+        "--bc-tol",
+        "1e-08",
+        "--physical-bc-tol",
+        "2e-11",
+        "--node-heap",
+        "1536",
+        "--fixed",
+        "--warmup-scales",
+        "--lagged-tail",
+        "--preserve-restart-mesh"
+      ]
+    },
+    {
+      "stem": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14",
+      "actual_driver_exit_code": 0,
+      "mathematical_success": false,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 6.60078222010092', 'residual': None, 'lastIteration': {'iteration': 7, 'norm': 6.60078222010092, 'minA': 0.08211879278547045, 'minD': 0.9915015285901698, 'chartCondition': 39850.69351187304}}\")",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+        "--source-root",
+        "topics/visible-flexible-closed-surface/repro/source-root",
+        "--profile",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-frozen-profile.json",
+        "--chart",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-adaptive-chart.json",
+        "--linear-port",
+        "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+        "--tail-config",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-config.json",
+        "--out-prefix",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14",
+        "--restart",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q256-outer.json.gz",
+        "--amplitude",
+        "0.1",
+        "--warp-reference",
+        "0.1",
+        "--modes",
+        "15",
+        "--angular",
+        "512",
+        "--audit-angular",
+        "1024",
+        "--nodes",
+        "1601",
+        "--max-nodes",
+        "6500",
+        "--tol",
+        "2e-09",
+        "--bc-tol",
+        "1e-08",
+        "--physical-bc-tol",
+        "2e-11",
+        "--node-heap",
+        "2048",
+        "--fixed",
+        "--warmup-scales",
+        "--lagged-tail",
+        "--preserve-restart-mesh"
+      ]
+    }
+  ],
+  "historical_and_runtime_source_bindings": [
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs",
+      "sha256": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs",
+      "sha256": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+      "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs",
+      "sha256": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs",
+      "sha256": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs",
+      "sha256": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs",
+      "sha256": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs",
+      "sha256": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs",
+      "sha256": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs",
+      "sha256": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs",
+      "sha256": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs",
+      "sha256": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/1dce210849f9/math-research/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs",
+      "sha256": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py",
+      "sha256": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs",
+      "sha256": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs",
+      "sha256": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs",
+      "sha256": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs",
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-convergence-packet.py",
+      "sha256": "60c2d5f61778df8707e098a63fd68c399747322eb09877a027d2a7e55d15690a",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-convergence-packet.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "sha256": "5f187f209ad1c95829908dfa64a1f5b42fa6c50c74ceb8d533208f7f2272fc73",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled-frozen-5f187f209ad1.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-dependency-snapshot.py",
+      "sha256": "f05bfb5bde52ed61f992653e9aae5146d66631e64e93efbfdaf82661f61e0862",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-dependency-snapshot.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-continue.py",
+      "sha256": "8ffb64c9008be894909bdbe6cc64b6c31580f78c116eae9191a97fa026844059",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-continue.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear.py",
+      "sha256": "fcff2fe578a272686f95b730e945221b3afa4bbf9b24115807cc9c7b9efb71d4",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "sha256": "1484a0442745c0c16c62b1771320c5df106a754b0cf6cf4bf75c23a4eb6e7ac2",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-frozen-1484a0442745.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-geometry-diagnostics.py",
+      "sha256": "49cd6eefd5e789c369ba137c2651103122432994fb33e51724d1f18b1f9c48ca",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-geometry-diagnostics.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-local-design-screen.py",
+      "sha256": "4bac60f048cdc4af43665be88d493e28725c10a47f8be978db497c8b2880c53c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-local-design-screen.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs",
+      "sha256": "9badcd123d543800f212d52a50345926450c68cac6063a3262caa6fa8dfc8441",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "sha256": "ab5767dcd1660a8a2729de45c852e9abd2484e8f9c95678de6e6f9da2bfad42a",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker-before-iteration.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-sharing-check.mjs",
+      "sha256": "bcc5c9841a32f24688df040a412517cbadc1f310dfc794777c6d98b5128946f4",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-sharing-check.mjs"
+      ]
+    },
+    {
+      "binding": "historical-dependency-snapshot",
+      "original": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-zero-core-screen.py",
+      "sha256": "46277042a85d56e4d76d884e2a4e937515a40fec629486f0c47657aa4064c651",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-zero-core-screen.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14:driver",
+      "original": "db6f-prefix-freeze-refine.py",
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-worker.mjs",
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz:response-source",
+      "original": "closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-worker.mjs",
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz:response-source",
+      "original": "closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14:driver",
+      "original": "db6f-prefix-freeze-refine.py",
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-client.py",
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-worker.mjs",
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs"
+      ]
+    },
+    {
+      "binding": "2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz:response-source",
+      "original": "closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "available_paths": [
+        "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs"
+      ]
+    }
+  ],
+  "additional_current_frontend_bindings": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "bytes": 507,
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "bytes": 6143,
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs",
+      "bytes": 4927,
+      "sha256": "9badcd123d543800f212d52a50345926450c68cac6063a3262caa6fa8dfc8441"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    }
+  ],
+  "all_source_hashes_recoverable": true,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-raw-lift-warm.json.gz",
+      "bytes": 245543,
+      "sha256": "1b0d06c56fde03b64e83b81c25bb58bc36ebb8e2ee0c26433770ff25fa0bb962"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-recovery-call001-iteration001.json.gz",
+      "bytes": 245076,
+      "sha256": "41f7576ba4cd659e6781a08f908a27265c425134428d534bdaa0369dabd95d5e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reproduction.json",
+      "bytes": 6566,
+      "sha256": "0f5ded3b774e81d1e9d49e8901609672c08348c15a610b2ae4eb37c0dbda8655"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-run.log",
+      "bytes": 531,
+      "sha256": "37298e2841383ee22a1772f5e0652bf29f44a2ac93abd16ae3c720b4c026968d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-summary.json",
+      "bytes": 18396,
+      "sha256": "70fb5707b64841eb32d587b2f925600ef7d9f11dc693e9e362d5db23fe9181be"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-config.json",
+      "bytes": 2744,
+      "sha256": "7b6f64680beb5ccc04d819b638a27499ab00b6742c964d41352339bec14da2c4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-iteration.json.gz",
+      "bytes": 245101,
+      "sha256": "4772044b96363aab33a2c3af2063663cd5d559af6327f05f0d9a9eb80cf6db40"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-tail-trace.jsonl",
+      "bytes": 2267,
+      "sha256": "bcb4bf809605b1a8f41c90f2cc59b264f1876d7e7997b7ac80872fb398d0beaa"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14.json.gz",
+      "bytes": 30149,
+      "sha256": "3df8eefb18c4271283c7ae2b076afcda3fb42b169c8a7296ee4bce3e3b3ad3d0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_00.npy.gz",
+      "bytes": 4170219,
+      "sha256": "233c33e9c194e66b45403d7044fe3e28fa4bcf9a1451ba9177b584b047d34db6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_coeff_01.npy.gz",
+      "bytes": 1064379,
+      "sha256": "630dc63fead1d2ad46b24c6d71bb71a78c5874b192bc4aa19780374d71494028"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0001.json.gz",
+      "bytes": 254059,
+      "sha256": "cc479ef9f2ecdde8bbe70b6728fa71fa9d4deb862328f98b9a996155d3e394ce"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14_tail_0002.json.gz",
+      "bytes": 254154,
+      "sha256": "009bf5472ca412fae7d900d4ec18d26cd217221138666c2899dfceb3ead8f762"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-frozen-profile.json",
+      "bytes": 202,
+      "sha256": "bb55971c3463c27a10fcfddafd06a65e86f42d6c6d684adf2768e8dcd7d21b8e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-raw-lift-warm.json.gz",
+      "bytes": 254614,
+      "sha256": "84460068b5a5c8286ca676dfe04c352ae5a8d920f0c9a74207c7979e7117ffbf"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-recovery-call001-iteration007.json.gz",
+      "bytes": 262687,
+      "sha256": "bd7ebfeab571198b50c909f5d614490de36ffd007846fcf754fd569284cda11c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-reproduction.json",
+      "bytes": 6844,
+      "sha256": "c6679c0ff0758cffc602c67fceb74352d43da25a03fe5e85f701db53b6b07bfd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-run.log",
+      "bytes": 416,
+      "sha256": "fbe6ff7d7f81ad3a473f6198ebee83ba36fb442a132377e1077eebfda6d1cc30"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-summary.json",
+      "bytes": 934,
+      "sha256": "e795097c970049c0c9a9ebb4eeb565f535390b57c024e7f081c573ef5001e1b7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-config.json",
+      "bytes": 2744,
+      "sha256": "297ab20791f4d5972e92a113dd783ec6f997d62f7fabe1c8f0b93569e92def94"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-iteration.json.gz",
+      "bytes": 262687,
+      "sha256": "bd7ebfeab571198b50c909f5d614490de36ffd007846fcf754fd569284cda11c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14-tail-trace.jsonl",
+      "bytes": 4156,
+      "sha256": "bdf8363548bc791de6422a0e001a36d7e4b1d97277726832a9230d150bd572c8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m15-d12-p8-s32-q256-outer-from14_tail_0001.json.gz",
+      "bytes": 266669,
+      "sha256": "917997970cf389d1ec682eb6a51caea494c3f651ef4bb6bee05366f51386ad10"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-live-recovery-snapshots-20261109T093205Z.json",
+      "bytes": 4477,
+      "sha256": "9c183229c01e9c26bd6756b0a1f0565f574ab00d593b3538b2e92d5e373dffa6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m14-q512-and-m15-failure.md",
+      "bytes": 4402,
+      "sha256": "081bff1df20c03927d2d5be292a97d0d54663649526eb2325d80b0e24ffbb402"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-root-initial-margin-v2.json",
+      "bytes": 205688,
+      "sha256": "21c695253e983e828ae96417bcefe750cb02d0fba0d263293460ee5c64e2a89f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-root-initial-margin.json",
+      "bytes": 110992,
+      "sha256": "5196708094d6ef8094ce728961c7028c36d7544a44dda2fce1567ee08c9ea07c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-root-margin-input.json.gz",
+      "bytes": 262687,
+      "sha256": "bd7ebfeab571198b50c909f5d614490de36ffd007846fcf754fd569284cda11c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-m15-root-seed-diagnostic.md",
+      "bytes": 2632,
+      "sha256": "d084726ac26892d1b6a910bfac0af05ddce09b074f884df10fbec6f00afe0fc9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-source-dependencies-v2.json",
+      "bytes": 15766,
+      "sha256": "ad00ab8aa9af9b9a1453dcad221abd3950b78ee8bcd815863efffb5140dc6bd2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-source-dependencies.json",
+      "bytes": 5758,
+      "sha256": "c15f63dcc28f13ff876afc046270f9e5a45d4781080e5d14fc85d39d21d550a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "bytes": 22225,
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "bytes": 10411,
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "bytes": 5131,
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "bytes": 18439,
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "bytes": 13127,
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "bytes": 6579,
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "bytes": 8737,
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "bytes": 10432,
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "bytes": 36488,
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "bytes": 5123,
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "bytes": 3834,
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "bytes": 2576,
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "bytes": 10959,
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "bytes": 5012,
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "bytes": 6349,
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "bytes": 10353,
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs",
+      "bytes": 4133,
+      "sha256": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs",
+      "bytes": 7447,
+      "sha256": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+      "bytes": 1805,
+      "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs",
+      "bytes": 5715,
+      "sha256": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "bytes": 2892,
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs",
+      "bytes": 3245,
+      "sha256": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs",
+      "bytes": 4129,
+      "sha256": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "bytes": 2420,
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs",
+      "bytes": 3560,
+      "sha256": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs",
+      "bytes": 10389,
+      "sha256": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs",
+      "bytes": 6514,
+      "sha256": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs",
+      "bytes": 12799,
+      "sha256": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs",
+      "bytes": 9657,
+      "sha256": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs",
+      "bytes": 6319,
+      "sha256": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "bytes": 13095,
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs",
+      "bytes": 7047,
+      "sha256": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "bytes": 19011,
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "bytes": 6004,
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "bytes": 19466,
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py",
+      "bytes": 3675,
+      "sha256": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs",
+      "bytes": 15596,
+      "sha256": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs",
+      "bytes": 6973,
+      "sha256": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs",
+      "bytes": 1770,
+      "sha256": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "bytes": 5118,
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "bytes": 3312,
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "bytes": 17812,
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs",
+      "bytes": 1515,
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-convergence-packet.py",
+      "bytes": 4410,
+      "sha256": "60c2d5f61778df8707e098a63fd68c399747322eb09877a027d2a7e55d15690a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled-frozen-5f187f209ad1.py",
+      "bytes": 12477,
+      "sha256": "5f187f209ad1c95829908dfa64a1f5b42fa6c50c74ceb8d533208f7f2272fc73"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-dependency-snapshot.py",
+      "bytes": 2640,
+      "sha256": "f05bfb5bde52ed61f992653e9aae5146d66631e64e93efbfdaf82661f61e0862"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-continue.py",
+      "bytes": 2332,
+      "sha256": "8ffb64c9008be894909bdbe6cc64b6c31580f78c116eae9191a97fa026844059"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-coupled.py",
+      "bytes": 507,
+      "sha256": "80b8bb05b8a2a4585651e64d91df95b9419ed511a70aa6a32528ce394c1d02ec"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-geometry-source.py",
+      "bytes": 2740,
+      "sha256": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear.py",
+      "bytes": 581,
+      "sha256": "fcff2fe578a272686f95b730e945221b3afa4bbf9b24115807cc9c7b9efb71d4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "bytes": 2008,
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-causal-records.py",
+      "bytes": 4992,
+      "sha256": "6a14fef3a4d7326e678f336d74801d4015700d5bb1ed668423c47d2f2af4e3a4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine-frozen-1484a0442745.py",
+      "bytes": 5341,
+      "sha256": "1484a0442745c0c16c62b1771320c5df106a754b0cf6cf4bf75c23a4eb6e7ac2"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-freeze-refine.py",
+      "bytes": 6143,
+      "sha256": "ad2bc1113795446f6be86d4f6efb8482967a05beaf986a233599733e1395cc7c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-geometry-diagnostics.py",
+      "bytes": 5033,
+      "sha256": "49cd6eefd5e789c369ba137c2651103122432994fb33e51724d1f18b1f9c48ca"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-local-design-screen.py",
+      "bytes": 3065,
+      "sha256": "4bac60f048cdc4af43665be88d493e28725c10a47f8be978db497c8b2880c53c"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py",
+      "bytes": 4154,
+      "sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-raw-lift.mjs",
+      "bytes": 4927,
+      "sha256": "9badcd123d543800f212d52a50345926450c68cac6063a3262caa6fa8dfc8441"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-root-initial-margin-v2.mjs",
+      "bytes": 7120,
+      "sha256": "6ba244cd3e57c2c29ee2d4a7449eee7315ff68debc612251cf8ac1aeb4973ff1"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-root-initial-margin.mjs",
+      "bytes": 5473,
+      "sha256": "dd2e68b42f67e05b9accc123eecd66ed6874052f452a1d0e9fcddd44d088824b"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-client.py",
+      "bytes": 3716,
+      "sha256": "a3684dae89d45f1df99fda4351e7f24c2984b701724a942754fe40a10bd6edd0"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "bytes": 16010,
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "bytes": 1953,
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker-before-iteration.mjs",
+      "bytes": 7055,
+      "sha256": "ab5767dcd1660a8a2729de45c852e9abd2484e8f9c95678de6e6f9da2bfad42a"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-worker.mjs",
+      "bytes": 8062,
+      "sha256": "e7aecd90bfddf5f76a8a0250e03f4cbed42fa45eaa9404af2d25e27824e7edeb"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-sharing-check.mjs",
+      "bytes": 2851,
+      "sha256": "bcc5c9841a32f24688df040a412517cbadc1f310dfc794777c6d98b5128946f4"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-zero-core-screen.py",
+      "bytes": 3423,
+      "sha256": "46277042a85d56e4d76d884e2a4e937515a40fec629486f0c47657aa4064c651"
+    }
+  ],
+  "total_bytes": 8723791,
+  "maximum_file_bytes": 4170219,
+  "excludes": "All new active trial diagnostic outputs; no old file is overwritten by that run."
+}

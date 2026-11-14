@@ -1,0 +1,48 @@
+{
+  "scope": "First-order m3 image ball-envelope comparison; not an enclosure of a nonlinear or closed map. Tail rho .601/height increment .022 are conditional placeholders only.",
+  "config": {
+    "direction": "outward",
+    "vu": 0.25,
+    "vd": 0.4,
+    "ramp": 0.4,
+    "cycles": 1,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5,
+    "delta": 0.0725268280429954
+  },
+  "rows": [
+    {
+      "q": 0.08,
+      "ell": 0.16,
+      "prefix_ball_D": 3.028204834854132,
+      "at_s": 1.113455691490572,
+      "cut_z_max": 1.32923635440471,
+      "cut_radial_max": 0.6002135046259862,
+      "conditional_tail_top_z": 1.3512363544047101,
+      "conditional_full_D": 3.028204834854132,
+      "cutoff_height_amplitude": 0.0012776371266387766
+    },
+    {
+      "q": 0.09,
+      "ell": 0.18,
+      "prefix_ball_D": 3.061737107115568,
+      "at_s": 1.1150207549332418,
+      "cut_z_max": 1.34939605904554,
+      "cut_radial_max": 0.6002401927042346,
+      "conditional_tail_top_z": 1.37139605904554,
+      "conditional_full_D": 3.061737107115568,
+      "cutoff_height_amplitude": 0.0014373417674686236
+    },
+    {
+      "q": 0.1,
+      "ell": 0.2,
+      "prefix_ball_D": 3.0954660772587057,
+      "at_s": 1.116759714313986,
+      "cut_z_max": 1.3695557636863698,
+      "cut_radial_max": 0.6002668807824829,
+      "conditional_tail_top_z": 1.3915557636863698,
+      "conditional_full_D": 3.0954660772587057,
+      "cutoff_height_amplitude": 0.0015970464082984707
+    }
+  ]
+}

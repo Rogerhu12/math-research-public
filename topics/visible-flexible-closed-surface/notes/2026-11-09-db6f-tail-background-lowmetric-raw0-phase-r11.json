@@ -1,0 +1,95 @@
+{
+  "status": "validated-background-packet-pending-independent-review",
+  "scope": "Certified w(r), w_r(r) polynomial packets for an exact finite-tail grid.\n\nAn approximate cubic inverse is only a proposal. Its true radial residual\nis enclosed by the validated source primitive, then multiplied by the\nreviewed global bound |w_r|<24. A direct forward-bracketed inverse box\nencloses w_r on outer profiles. Inner profiles may use the independent\nglobal cap and curvature bounds. No floating inverse is trusted as exact. Across cap boundaries w is C4;\nonly its order-four Taylor remainder is used there, even though the\nindividual branch expressions are not analytic across the boundary.\nA first-derivative residual enclosure preserves radius correlation even\nwhen the proposal crosses many tiny primitive leaves.\n",
+  "finite_tail_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "finite_tail_manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "primitive_file": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+  "primitive_sha256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "source_hashes": {
+    "db6f-tail-background-packet-phase.py": "97b8cd525586851c1e726e101db0f586518d260898fcaa6842c363ca050bc807",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "db6f_tail_interval_source_stable.py": "8d485eb6f9cead594ed22ce491d363a3916a418404f905645c7f0eec0bafdcac",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "settings": {
+    "manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "primitive": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+    "calibrations": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+    "out_prefix": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r11",
+    "order": 8,
+    "output_degree": 8,
+    "radial_residual": 1e-08,
+    "w_width": 4e-09,
+    "wr_width": 1e+300,
+    "max_depth": 10,
+    "span_start": 4508,
+    "span_stop": 4567,
+    "rows_per_shard": 5000
+  },
+  "basis": "power coefficients in tau=(u-u_left)/(u_right-u_left), all saved binaries exact enclosure endpoints",
+  "coefficient_degree": 8,
+  "span_count": 4637,
+  "span_selection": [
+    4508,
+    4567
+  ],
+  "files": [
+    {
+      "data_file": "notes/2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r11-part000.npz",
+      "sha256": "99f264fe886153aed32b6dc56ef3bf9dc30a589e68e04ba3e2e2dd67088c00f7",
+      "rows": 415,
+      "bytes": 127299
+    }
+  ],
+  "finished": true,
+  "rows": 415,
+  "unmet_tolerance_rows": 0,
+  "maximum_radial_residual": 1.6588396804569717e-10,
+  "maximum_w_remainder": 3.981215266680936e-09,
+  "maximum_outer_wr_uncertainty": 48.0,
+  "maximum_wr_remainder": 0.0009710497549968515,
+  "maximum_w_total_uncertainty": 3.981215570911766e-09,
+  "w_working_tolerance_criterion": "remainder plus outward sum of full coefficient widths; coarse dispatch rows are exempt and require the actual metric verifier",
+  "exact_radial_anchor_invariant": true,
+  "background_curvature_bound": 6,
+  "global_background_wr_absolute_bound": 24,
+  "cap_crossing_w_taylor_order": 4,
+  "radial_residual_method": "minimum of original polynomial/monotone bound and endpoint error plus half the first-derivative bound",
+  "notes": [
+    "No source inverse is assumed exact.",
+    "The independent backend must include w_remainder and wr_remainder.",
+    "Coarse inner w/wr boxes use separately reviewed cap/curvature proofs; they are not tight inverse results."
+  ],
+  "data_file": "2026-11-09-db6f-tail-background-lowmetric-raw0-phase-r11.npz",
+  "data_sha256": "99f264fe886153aed32b6dc56ef3bf9dc30a589e68e04ba3e2e2dd67088c00f7",
+  "cap_crossing_w_taylor_calls": 0,
+  "seconds": 193.3942575454712
+}

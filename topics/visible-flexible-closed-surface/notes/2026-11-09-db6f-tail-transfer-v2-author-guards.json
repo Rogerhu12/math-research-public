@@ -1,0 +1,102 @@
+{
+  "status": "AUTHOR_METADATA_GUARDS_PASS_NOT_INDEPENDENT_REVIEW",
+  "script": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-transfer-background-v2.py",
+  "script_sha256": "7e58e063788127e3f6f5ed609c4851d395436aa22da421e8e0d320eff527b184",
+  "base_sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+  "policy": {
+    "id": "visible-flat17-bookkeeping-keys-v1",
+    "additional_numerical_keys": [
+      "iterationCheckpointFile",
+      "sharedEngines",
+      "trialDiagnosticFile",
+      "trialStatePrefix"
+    ],
+    "base_file": "db6f-root-transfer-background.py",
+    "base_sha256": "35aa82514ec2be4b78cf3670e97343d0ba50085a7a6a687273108fbb6eb09705",
+    "difference_semantics": "Key presence and JSON value; an unknown added null key rejects."
+  },
+  "policy_sha256": "a4be0a75df01cb91f967f84ea0b1901594caa00e34a9dfee54b9584164868ede",
+  "preflight": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-transfer-v2-quarter-policy-preflight.json",
+  "preflight_sha256": "0e04afd3f56ea64e37ac8cb2b1f6146df9366d44a84587ae1d593ee9a732318f",
+  "checks": [
+    {
+      "name": "same dictionary",
+      "expected_accept": true,
+      "accepted": true,
+      "changed_keys": [],
+      "error": null
+    },
+    {
+      "name": "four reviewed keys",
+      "expected_accept": true,
+      "accepted": true,
+      "changed_keys": [
+        "iterationCheckpointFile",
+        "sharedEngines",
+        "trialDiagnosticFile",
+        "trialStatePrefix"
+      ],
+      "error": null
+    },
+    {
+      "name": "unknown added null",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "unknown removed null",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "unknown changed",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "changing an unapproved physical parameter: unreviewedKey"
+    },
+    {
+      "name": "physical value changed",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "changing an unapproved physical parameter: rCut"
+    },
+    {
+      "name": "physical added null",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "changing an unapproved physical parameter: rCut"
+    },
+    {
+      "name": "sharedEngines string rejected",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "sharedEngines must be boolean or null"
+    },
+    {
+      "name": "path boolean rejected",
+      "expected_accept": false,
+      "accepted": false,
+      "changed_keys": null,
+      "error": "iterationCheckpointFile must be a path string or null"
+    },
+    {
+      "name": "approved null is explicit numerical metadata",
+      "expected_accept": true,
+      "accepted": true,
+      "changed_keys": [
+        "iterationCheckpointFile"
+      ],
+      "error": null
+    }
+  ],
+  "actual_new_root_flow_solver_calls": 0,
+  "geometric_transfer_performed": false
+}

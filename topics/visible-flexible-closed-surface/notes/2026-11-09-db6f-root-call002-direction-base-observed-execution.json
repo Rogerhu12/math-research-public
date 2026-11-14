@@ -1,0 +1,61 @@
+{
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "observed_utc": "2026-11-09T17:11:24.336430+00:00",
+  "actual_tool_session": 33931,
+  "launch_receipt": "6d208a",
+  "completion_receipt": "7dac16",
+  "actual_exit_code": 0,
+  "actual_child_exit_code": 0,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-launch.json",
+      "bytes": 5714,
+      "sha256": "4f3bb8268e74c9a57e095649bb97c5689f7a666831f0d0e01c21a82a715ad03f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-bindings.json",
+      "bytes": 31346,
+      "sha256": "4f161641ccf73a79388f674dfcc48eea5f599237ab3bdd2e867507640e8b87fe"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.json",
+      "bytes": 87662,
+      "sha256": "796a4fa8f03f47497748c8388cc74151000d21dcd3fd9c65b52e6a37b6cc3fca"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01-direction.json.gz",
+      "bytes": 257357,
+      "sha256": "0e6e295ba814f35061e90cb8f90c7978a95914ad08cedd9d6a906ecf844b69e3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-call002-direction-base-child-execution.json",
+      "bytes": 3072,
+      "sha256": "b9ca44bd21f4fb09e75ffc6cd5e9630029395122538e790c8515765ad26c8ef3"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-continuation03-call002-direction-base-01.run.log",
+      "bytes": 335,
+      "sha256": "db3a38f07fac7361a9e320deae0a8011d417f8ba956578c97c5e3119a9c29c2c"
+    }
+  ],
+  "base_gate_checks": {
+    "state_only_exact": true,
+    "variational_exact": true,
+    "all_stage_residual_differences_zero": true,
+    "chart_exact": true,
+    "linearized_residual_finite": true,
+    "direction_file_hash": true,
+    "direction_cp_config_identity": true,
+    "direction_shape_finite": true
+  },
+  "base_gate_passed": true,
+  "actual_scalars": {
+    "stateOnlyNorm": 2.604516507642326,
+    "variationalNorm": 2.604516507642326,
+    "maximumNormalizedResidualDifference": 0,
+    "chartCondition": 46758.07673463052,
+    "linearizedResidualMaximum": 2.6750088488675713e-10
+  },
+  "scope": "Original failed Newton base reproduced; no accepted trial, new successful CP or coupled solution."
+}

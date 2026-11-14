@@ -1,0 +1,91 @@
+{
+  "status": "exact-scalar-whole-finite-map-threshold-closure-pending-independent-review",
+  "script_sha256": "9dbb5f084d86227b5760a1b1d333b674d7586ec3b72ee195906cc5e7c147a3f8",
+  "closed_budget": "notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+  "closed_budget_sha256": "50410a4e57b8a21937dd3a99c25942b36cebd5c5819f1e10982584412ae601a7",
+  "tail_certificate": "notes/2026-11-09-db6f-audit-tail-m12-critical-tight-full.json",
+  "tail_certificate_sha256": "9c6a7f1b5e9a440a0a51581d76f657cb4df0784b99a2284b167062dec2db8015",
+  "geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "tail_manifest_sha256": "cc23977e25a09c34db91723dd784cab4b18b89e325fc2ca2fb8dd7ee6866a104",
+  "packet_sha256": "c3dbdbe79e42528b58b033f48e3694e70776666b8b890fbcb0d5b378539d2108",
+  "packet_data_sha256": "47509eb91f8b714dc78bd02a17f5386737582a88fb50c72fcee604a8b9a6ff69",
+  "tail_rows_sha256": "cb88576c24f831803b5fc2cf99bbb3dfa9a5be57e6337821c5d3bf7dc43fbaab",
+  "prefix_metric_upper": {
+    "exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "lower_display": 2.5721188324492386e-08,
+    "upper_display": 2.572118832449239e-08
+  },
+  "tail_metric_upper": {
+    "exact": "4692285327135671/4722366482869645213696",
+    "lower_display": 9.93630067500459e-07,
+    "upper_display": 9.93630067500459e-07
+  },
+  "whole_metric_operator_upper": {
+    "exact": "4692285327135671/4722366482869645213696",
+    "lower_display": 9.93630067500459e-07,
+    "upper_display": 9.93630067500459e-07
+  },
+  "prefix_curvature_upper": {
+    "exact": "6245666113136453/1125899906842624",
+    "lower_display": 5.547265858340158,
+    "upper_display": 5.547265858340158
+  },
+  "tail_curvature_upper": {
+    "exact": "4763997235009095/562949953421312",
+    "lower_display": 8.462559071292288,
+    "upper_display": 8.462559071292288
+  },
+  "cap_curvature_upper": {
+    "exact": "10/3",
+    "lower_display": 3.333333333333333,
+    "upper_display": 3.3333333333333335
+  },
+  "whole_principal_curvature_upper": {
+    "exact": "4763997235009095/562949953421312",
+    "lower_display": 8.462559071292288,
+    "upper_display": 8.462559071292288
+  },
+  "whole_support_lower": {
+    "exact": "1017377484176631142782199142968963805038721215955239444619399738596877/1380349269358112450987842999277633418820816364372240587284680408039424",
+    "lower_display": 0.7370435198982139,
+    "upper_display": 0.737043519898214
+  },
+  "diameter_upper": {
+    "exact": "98/25",
+    "lower_display": 3.92,
+    "upper_display": 3.9200000000000004
+  },
+  "whole_reach_lower_by_R10": {
+    "exact": "562949953421312/4763997235009095",
+    "lower_display": 0.11816756510360091,
+    "upper_display": 0.11816756510360092
+  },
+  "whole_reach_over_diameter_lower": {
+    "exact": "1407374883553280/46687172903089131",
+    "lower_display": 0.030144787016224722,
+    "upper_display": 0.030144787016224726
+  },
+  "held_region_diameter_over_diameter_lower": {
+    "exact": "199431196334744125/220676381741154304",
+    "lower_display": 0.9037269632627472,
+    "upper_display": 0.9037269632627473
+  },
+  "hold_over_diameter_lower": {
+    "exact": "45011483952312925/882705526964617216",
+    "lower_display": 0.05099263862898321,
+    "upper_display": 0.05099263862898322
+  },
+  "all_phases_by_R17_rotation_and_material_action": true,
+  "README_geometric_and_metric_thresholds_1_2_3_4_6_paid_given_reviewed_inputs": true,
+  "fixed_g_convergence_gate_5_paid": false,
+  "final_mesh_delivery_paid": false,
+  "README_complete": false,
+  "proof_dependencies": [
+    "R17 actual common-cut C2 closed map, held set, embedding and moment noncongruence",
+    "R16 fixed cap curvature and metric definition",
+    "R10 positive support and actual curvature imply global reach",
+    "Reviewed exact finite-source background, alpha, primitive and polynomial suppliers",
+    "Reviewed complete packet assembly and continuous finite-tail metric/curvature formulas",
+    "Separate independent full replays of all bound certificate components"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "fd2d-closed-deliverable-manifest-v1",
+  "scope": "Strict original R152/R153 background class with unchanged original complete cell consumer; operator cache explicitly disabled in that background only",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+      "bytes": 4592,
+      "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-frozen-operator-cell-compatibility-check.py",
+      "bytes": 5032,
+      "sha256": "7b73635d0afd83d53fcfa9e54b490409b6e7b750f452c4837b244f3ed441f3bd"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-cell-compatibility-check-01.json",
+      "bytes": 7121,
+      "sha256": "06fa816b366121fc0a02190717150d8ca75cd14e470e863e7cdf27bfd75fab44"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-frozen-operator-cell-compatibility.md",
+      "bytes": 4836,
+      "sha256": "ef2782db9657d2df02b7f5c7ffc28d47996ab4d5c792cd93daf5acbf378d7928"
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-cell-compatibility-check-01-process-receipt.json",
+      "bytes": 781,
+      "sha256": "c8505282a5dbb28f2b09d5866e7305c891599a9d30fc7e0d60914281e88a4d0f"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 22362,
+  "actual_exit_code": 0,
+  "actual_process_receipt": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-frozen-operator-cell-compatibility-check-01-process-receipt.json",
+  "depends_on_closed_manifest": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-frozen-operator-projections-closed-manifest.json",
+  "no_new_R_number": true,
+  "no_active_source_modified": true
+}

@@ -1,0 +1,199 @@
+{
+  "scope": "Closed coupled inverse-Q definition and local candidates, failed wide endpoint check, and exact original exploratory snapshots",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-raw0-lowcut-candidate-02.json",
+      "bytes": 4150,
+      "sha256": "58b81c2c653aae30c450ad41a1a1e5471e0457d98be4728450ff47971e783053"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-raw0-lowcut-provider-check-02.json",
+      "bytes": 3283,
+      "sha256": "1be43c6a3a7ef9e04680ae238caf70397120ecde3eb862fe33af0bf866c6b4b5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-low-screen-09.json",
+      "bytes": 9578,
+      "sha256": "4a735a44ffb53c4ad29e0b46023bef740d284126e9f83904f2c27170d8541a9c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-wide-candidate-03.json",
+      "bytes": 5072,
+      "sha256": "4fd0cca1d592f7bd8e5ec9644091b53687c72af9f73036b800024198ff907902"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-wide-provider-check-03.json",
+      "bytes": 3280,
+      "sha256": "4c83eeb4d2c3ca410c83b25e98c018053546769917be1a4f2aa68385ad3fb8a1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-wide-screen-10.json",
+      "bytes": 4320,
+      "sha256": "2b4c1aeb7a58eb460d625f8ad1f1ffcdd4ae90c112a4b83c130a09250da620f2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-loads.md",
+      "bytes": 5790,
+      "sha256": "eb3bb88ffe7e8395508328b5c2362ac79bd3572efb25b482491b8c24f944175e"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/README.md",
+      "bytes": 1518,
+      "sha256": "85cccd91a965b24855c444f7b036595eba1d9bc6495dc649c6a46aa7b3310659"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/execution-history.json",
+      "bytes": 6063,
+      "sha256": "c211b7317ad0bc42f382308f0648dbab09522403b0e9dc6d934357cfbd5107e1"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/explore_inverse.py",
+      "bytes": 1984,
+      "sha256": "f5c01af4769b4c135bca399d13be8bdb0a7553fb8c4ab08327d46117b99384c4"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_buffer04.py",
+      "bytes": 2448,
+      "sha256": "661ece3e43225b003ce671e8f5030b9328eabe6df17cdb2147b221a6f4ce7edf"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_buffer05.py",
+      "bytes": 621,
+      "sha256": "869a1d23deab6b368239f66af5264d9ab92c3dd643351f95ae378fda3b00e121"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_buffer06.py",
+      "bytes": 624,
+      "sha256": "56a1f2907e653f70b3febfdf494ca8bdcdcf65c3b4f3f3ef6a09395799e380f1"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_buffer07.py",
+      "bytes": 922,
+      "sha256": "8b3488796b5f34f8dfb3c5a45e2bb0d1fc9b0f243667db9304665e484a588815"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_coupled08.py",
+      "bytes": 3062,
+      "sha256": "0f894eef1eb54b46eb7c046a102809bd1dc8e964f8ad226f2dd261d00bb8acde"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_coupled09.py",
+      "bytes": 501,
+      "sha256": "18835648d4f4cf99f828e2ee967931afc19a2999a89a4b45c42622d56da34b0c"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_coupled10.py",
+      "bytes": 3060,
+      "sha256": "e51ce33d69944be833292342911ea4f40f8b6906d6fc582a0ba89eac3e5fe3cf"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/optimize_coupled11.py",
+      "bytes": 2917,
+      "sha256": "116f69d37b712ab2f20fa8cee368e71441eb71cb75ccce114ab4dd8ef1582648"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-coupled-08.json",
+      "bytes": 6371,
+      "sha256": "161636e7d2a8b6bc588139e9d5a975333a1283dd51bb79a36cfa5dd110b297c1"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-coupled-height64-11.json",
+      "bytes": 4405,
+      "sha256": "3b9e7fde425e6ac0c7c30b9b4f5ecec0db3c9e527ee42c96febc6a6a8107f75e"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-coupled-low-09.json",
+      "bytes": 9578,
+      "sha256": "4a735a44ffb53c4ad29e0b46023bef740d284126e9f83904f2c27170d8541a9c"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-coupled-wide64-10.json",
+      "bytes": 4320,
+      "sha256": "2b4c1aeb7a58eb460d625f8ad1f1ffcdd4ae90c112a4b83c130a09250da620f2"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-free-03.json",
+      "bytes": 17743,
+      "sha256": "8b562b2e2e20b56012d931355875bb27c5238b6627b670608903b1eee12780a0"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-hardbg-04.json",
+      "bytes": 13557,
+      "sha256": "04a8a50206631b448df45c4d8c67644f1f219bb09ff8a7aa03e624f111d5bf20"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-inner-ports-07.json",
+      "bytes": 14412,
+      "sha256": "d99456ef73c855b4f8894e1b50c1228c5f0a26e9e64e96fcf8b3e2ff35e60aa8"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-low-outerw-06.json",
+      "bytes": 6814,
+      "sha256": "da46862714728f82b2f345671ce99b62346b3c67046bc183c337ddcf8cfc017a"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-outerw-05.json",
+      "bytes": 10167,
+      "sha256": "fba9fb4bf326e7e0278385f5c22933ddad6856be96b8193d2deb87ccc1dacd2b"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-screen-01.json",
+      "bytes": 1574,
+      "sha256": "09828c86841f10dd97099c446a78646be4cd731751ddf9401445f57cb09a40a9"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive-q-widen-02.json",
+      "bytes": 9081,
+      "sha256": "0695f177b0935ee3fbb10c364776ca74f1b813a11b86afeda92c313887ee0dc7"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive_q.py",
+      "bytes": 5231,
+      "sha256": "b004850d2c7b28c31e8e54b3d5b360ca3ff4ac3e883b62883ffce0b78d9c6b4a"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive_q_free.py",
+      "bytes": 6047,
+      "sha256": "ef9baf5171ca2a27e4ce5cf76a9ceb7ff888157ebc45a2b0783e3ec06a34cf73"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/positive_q_free04.py",
+      "bytes": 6059,
+      "sha256": "7e8d7bdd7bee978d81b830489b36f6b26ea58b54d56ae56f015394f4ebd213c3"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/root-screen-01.json",
+      "bytes": 40232,
+      "sha256": "848b5f1accc718bef831151708f9405dd381d6f4eac4287b2a955ef9d0dea367"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-01/root_inverse.py",
+      "bytes": 3050,
+      "sha256": "b4f665bf321ea4cfe556f69a6a228e27a877e72126e8a441d422a0cac21d81e5"
+    }
+  ],
+  "provider_unchanged": {
+    "path": "scripts/fd2d-metric-inverse-q-buffer.mjs",
+    "sha256": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632"
+  },
+  "provenance_aliases": {
+    "positive-q-coupled-low-09.json": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-low-screen-09.json",
+    "positive-q-coupled-wide64-10.json": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-wide-screen-10.json"
+  },
+  "candidate_status": {
+    "lowcut02": "Finite candidate passed local numerical design screen; actual full tail evaluated separately by geometry",
+    "wide03": "Rejected local screen: background curvature 7.43584565 at a narrow endpoint peak exceeds 7; no full-tail run requested"
+  },
+  "observed_checks": [
+    {
+      "session": 51836,
+      "exit_code": 0,
+      "seconds": 1.791960339
+    },
+    {
+      "session": 58742,
+      "exit_code": 0,
+      "seconds": 7.716866694
+    }
+  ]
+}

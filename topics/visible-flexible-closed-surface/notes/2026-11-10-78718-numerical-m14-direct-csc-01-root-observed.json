@@ -1,0 +1,42 @@
+{
+  "schema": "78718-actual-root-run-exit-v1",
+  "status": "observed-process-completed",
+  "observer": "/root",
+  "recorded_by": "/root/numerical_recovery",
+  "tool_receipt": "functions.exec / tools.write_stdin chunk_id 5e28f1",
+  "session_id": 67354,
+  "actual_exit_code": 2,
+  "actual_child_exit_code": 2,
+  "guard_seconds": 2.002243470999929,
+  "failure": "Missing historical dynamic CJS dependency general_root_smooth_tail_cells.cjs during Node worker initialization.",
+  "spectral_BVP_calls": 0,
+  "completed_first_DN": false,
+  "old_run_status_inferred": false,
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-guard-completion.json",
+      "bytes": 1308,
+      "sha256": "9fc80274ff7e0646afb2a4190ab802b0bf8965af95b5bcfede8591a361534787"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-guard-live.json",
+      "bytes": 1308,
+      "sha256": "9fc80274ff7e0646afb2a4190ab802b0bf8965af95b5bcfede8591a361534787"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-run.log",
+      "bytes": 1210,
+      "sha256": "ec36974e3ccd158bd3e71d42e300ddeaceb8cd9558291518544b2a7e37c6f83c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-reproduction.json",
+      "bytes": 65834,
+      "sha256": "f75cb00c2d6864c8f722f8d93a3a29078ead3e9a4937ecd2225b716137723c89"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-01-summary.json",
+      "bytes": 627,
+      "sha256": "49c8f45b96821fe54e5b62c6219730936b245d6bb5084380c17752bdfacc6aa0"
+    }
+  ]
+}

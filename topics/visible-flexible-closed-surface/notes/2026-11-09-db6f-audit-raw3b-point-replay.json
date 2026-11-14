@@ -1,0 +1,140 @@
+{
+  "status": "point-lipschitz-background-packet-pending-independent-review",
+  "scope": "Replace unnecessarily wide w rows by a certified physical point bound.\n\nFor one exact physical interval J and one binary source point x*, let\nR* enclose r(x*) and W* enclose w(x*).  If |dw/dr| <= K on the connecting\nphysical segment, then W* + [-K*d,K*d] encloses w(J), where d is the exact\nmaximum distance between endpoints of J and R*.  No inverse or source\nbranch is assumed exact.  The existing polynomial is retained unless\nthe constant point enclosure has smaller full-width working uncertainty.\n\nThe file does not change the physical partition or any wr coefficient.\nIts output still needs the actual continuous metric/curvature consumer.\n",
+  "finite_tail_manifest_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "finite_tail_manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "primitive_file": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+  "primitive_sha256": "28577da04035f91bcd5dc310094d5844347cbeb78d6213dcba0232b62acf56e9",
+  "background_definition_hashes": {
+    "checkpoint": {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-coupled-m8-q10-fine_tail_0017.json.gz",
+      "sha256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0"
+    },
+    "calibrations": {
+      "file": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+      "sha256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4"
+    },
+    "alpha": {
+      "file": "notes/2026-11-09-db6f-tail-tight-alpha.json",
+      "sha256": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+    },
+    "cell_zero_A": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-A0.json",
+      "sha256": "2f41f4a2a5879e9363f4e12aa52576aaa758a860c338f19e959e6f387c1b33de"
+    },
+    "inner_A": {
+      "file": "notes/2026-11-09-db6f-audit-inner-warp-variation.json",
+      "sha256": "23f67ca7d0bfb981b29f9bddd5bbdd3f8fbb55720c0866c67db3194c858f7bba"
+    },
+    "outer_B": {
+      "file": "notes/2026-11-09-db6f-tail-high-order-B0-15.json",
+      "sha256": "53676270742794da8af79d539aece0b7f88dc98d1c73ab1668157ebe700ba185"
+    }
+  },
+  "source_hashes": {
+    "db6f-tail-background-packet-totalwidth.py": "fcc283c7c7e8d35e82c250b5025921d717bdc8c6130912c2e0d1b9429da09676",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "db6f_tail_interval_source_stable.py": "8d485eb6f9cead594ed22ce491d363a3916a418404f905645c7f0eec0bafdcac",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "settings": {
+    "manifest": "notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+    "primitive": "notes/2026-11-09-db6f-tail-background-primitive-stable-depth4.json.gz",
+    "calibrations": "notes/2026-11-09-db6f-tail-finite-source-calibrations.json",
+    "out_prefix": "notes/2026-11-09-db6f-tail-background-lowmetric-raw3b",
+    "order": 8,
+    "output_degree": 8,
+    "radial_residual": 1e-08,
+    "w_width": 1e-05,
+    "wr_width": 1e+300,
+    "max_depth": 8,
+    "span_start": 2548,
+    "span_stop": 2898,
+    "rows_per_shard": 5000
+  },
+  "basis": "power coefficients in tau=(u-u_left)/(u_right-u_left), all saved binaries exact enclosure endpoints",
+  "coefficient_degree": 8,
+  "span_count": 4637,
+  "span_selection": [
+    2548,
+    2898
+  ],
+  "files": [
+    {
+      "data_file": "notes/2026-11-09-db6f-audit-raw3b-point-replay.npz",
+      "sha256": "66de95c19322798965bff63d3399cc28b1e6bbe59a299c1e963be382188da716",
+      "rows": 423,
+      "bytes": 53933
+    }
+  ],
+  "finished": true,
+  "rows": 423,
+  "unmet_tolerance_rows": null,
+  "maximum_radial_residual": 9.84807208986517e-09,
+  "maximum_w_remainder": 2.3637170160442296e-07,
+  "maximum_outer_wr_uncertainty": 0.0,
+  "maximum_wr_remainder": 5e-324,
+  "maximum_w_total_uncertainty": 6.8255113042725935e-06,
+  "w_working_tolerance_criterion": "remainder plus outward sum of full coefficient widths; coarse dispatch rows are exempt and require the actual metric verifier",
+  "exact_radial_anchor_invariant": true,
+  "background_curvature_bound": 6,
+  "global_background_wr_absolute_bound": 24,
+  "notes": [
+    "No source inverse is assumed exact.",
+    "The independent backend must include w_remainder and wr_remainder.",
+    "Coarse inner w/wr boxes use separately reviewed cap/curvature proofs; they are not tight inverse results."
+  ],
+  "data_file": "2026-11-09-db6f-audit-raw3b-point-replay.npz",
+  "data_sha256": "66de95c19322798965bff63d3399cc28b1e6bbe59a299c1e963be382188da716",
+  "seconds": 0.4695770740509033,
+  "parent_packet_file": "notes/2026-11-09-db6f-tail-background-lowmetric-raw3b.json",
+  "parent_packet_sha256": "42d9c97749b44107b292874083e15418af58773744c03ed8dcfbbee06150608e",
+  "parent_data_file": "notes/2026-11-09-db6f-tail-background-lowmetric-raw3b.npz",
+  "parent_data_sha256": "58f89c8aaaba756c1a62b94e773fa650c3e3ab193a1be0a3807845f5da83afa0",
+  "point_lipschitz": {
+    "script_sha256": "ccd59bc42f6685e38229b5425e52c18d08437a43ddbd5073e55e93561a6a0bef",
+    "supplier_sha256": "fcc283c7c7e8d35e82c250b5025921d717bdc8c6130912c2e0d1b9429da09676",
+    "minimum_working_width": 1e-05,
+    "changed_rows": [
+      {
+        "row": 189,
+        "span": 2690,
+        "u_left": 0.984375,
+        "u_right": 0.98828125,
+        "old_total_width_upper": 4.829807711306454e-05,
+        "new_total_width_upper": 2.0740777297023616e-08,
+        "source_cell": 3,
+        "source_segment": 5,
+        "source_x": 0.7654096965194412,
+        "physical_distance_upper": 1.7255222372475343e-09,
+        "derivative_bound_rational": [
+          601,
+          100
+        ]
+      },
+      {
+        "row": 293,
+        "span": 2789,
+        "u_left": 0.1640625,
+        "u_right": 0.16796875,
+        "old_total_width_upper": 0.0001278058380913923,
+        "new_total_width_upper": 2.0597724935400574e-08,
+        "source_cell": 3,
+        "source_segment": 7,
+        "source_x": 0.2994708152924659,
+        "physical_distance_upper": 1.713620244401387e-09,
+        "derivative_bound_rational": [
+          601,
+          100
+        ]
+      }
+    ],
+    "physical_partition_unchanged": true,
+    "all_wr_coefficients_and_remainders_unchanged": true,
+    "original_auxiliary_source_and_radial_residual_columns_unchanged": true,
+    "remaining_over_working_width": 0
+  },
+  "parent_unmet_tolerance_rows": 2
+}

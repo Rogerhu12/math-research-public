@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-environment-recovery-observations-v1",
+  "unavailable_observation_utc": "2026-11-12T20:10:00Z",
+  "unavailable_time_precision": "approximately one minute; platform status and tool return observed",
+  "failed_root_write": {
+    "exec_cell": "28",
+    "error": "Failed to create unified exec process: exec-server transport disconnected; recovery timed out after 45s",
+    "process_created": false
+  },
+  "restored_observation": {
+    "utc": "2026-11-12T20:19:15Z",
+    "exec_chunk": "6c547f",
+    "exit_code": 0,
+    "accepted_bytes": 133735,
+    "accepted_sha256": "3bceef937899fad65e512e56d3bd747a6d225b20301b64ed9d04582a4f6db981"
+  },
+  "source_observation": {
+    "exec_chunk": "a4dd40",
+    "exit_code": 0,
+    "value_engine_sha256": "985aa0b64148afaa568dffb8ce252b0b24b5dd1803c2d911b05e07ee77d0976b",
+    "group29_30_sha256": "abb701aab188ed5731219395f24cb22e6c67619cb6e6d24ce86c830c012efc09"
+  },
+  "interim_main": {
+    "commit": "f882bb2a0dc148166a36f86d698ddb2578fec4be",
+    "run_id": 43298594756,
+    "job_id": 131463393968,
+    "payload": "3e065fc72eee150c9d5755c3ac4c10c7c54dabbd",
+    "rules_read_sha": "db2e2c2d94d843f881c5178a41d60040dceabdbf",
+    "actual_pull_exit": 0,
+    "readme_diff_empty": true,
+    "ordinary_push_exit": 0,
+    "attempt": 2,
+    "utc": "2026-11-12T20:16:28.746426+00:00"
+  },
+  "original_inflight_process_exit_after_loss": "unknown",
+  "next_original_work": "31 controller a05 resumes missing tile0029; no redo of closed mathematical artifacts"
+}

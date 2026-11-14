@@ -1,0 +1,50 @@
+{
+  "scope": "Parameter 4 centered finite-difference truncation check only; exact derivatives are proved in R115.",
+  "rows": [
+    {
+      "step": 1e-06,
+      "F": {
+        "max_absolute": 2.6487103951336817e-08,
+        "max_relative_to_max_J": 2.6487103951336817e-08
+      },
+      "Ft": {
+        "max_absolute": 3.0907579910537814e-06,
+        "max_relative_to_max_J": 6.767085259464886e-08
+      },
+      "Ftt": {
+        "max_absolute": 0.00037699668741581144,
+        "max_relative_to_max_J": 1.58071139850788e-07
+      }
+    },
+    {
+      "step": 5e-07,
+      "F": {
+        "max_absolute": 1.3472498165898567e-08,
+        "max_relative_to_max_J": 1.3472498165898567e-08
+      },
+      "Ft": {
+        "max_absolute": 7.729768884588284e-07,
+        "max_relative_to_max_J": 1.692400544765186e-08
+      },
+      "Ftt": {
+        "max_absolute": 9.425894231171286e-05,
+        "max_relative_to_max_J": 3.9521881623082995e-08
+      }
+    },
+    {
+      "step": 2.5e-07,
+      "F": {
+        "max_absolute": 3.263506915335739e-08,
+        "max_relative_to_max_J": 3.263506915335739e-08
+      },
+      "Ft": {
+        "max_absolute": 1.8986104600591577e-07,
+        "max_relative_to_max_J": 4.15692813702042e-09
+      },
+      "Ftt": {
+        "max_absolute": 2.3588155681371334e-05,
+        "max_relative_to_max_J": 9.890290233292452e-09
+      }
+    }
+  ]
+}

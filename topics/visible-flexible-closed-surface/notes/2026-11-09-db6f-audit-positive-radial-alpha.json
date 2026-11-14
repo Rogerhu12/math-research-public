@@ -1,0 +1,46 @@
+{
+  "status": "exact-positive-radial-normalization-for-frozen-analytic-background",
+  "scope": "Exact rational ledger proving a positive width-normalizing radial alpha.\n\nThe 160 finite source calibration values are frozen binary-real geometry\nconstants.  The cell-zero integral enclosure is independently reviewed and\nreplayed before use.  Remaining cells are bounded analytically by variation\nand a geometric series, including the protected inner endpoint.\nThis is not a nonlinear tail or complete-surface existence certificate.\n",
+  "scriptSHA256": "33aea516fe806c2d803b9990d9c5cba838f26f128b3c9c6a82159569a69b07df",
+  "checkpointSHA256": "d23b03e4ce5cd7aaf4ac9d1134f8a23ee274be3a1d0a0192a7b294f1195e43f0",
+  "calibrationTableSHA256": "bcfaba00aec62290b5b29432836c9e76ef6cf0d582b06c046677b0f8688ca9f4",
+  "cellZeroCertificateSHA256": "dd64e00bf25124b03e725792e321e961106c6ee643f5526e0b5b95383161ff01",
+  "sourceHashesChecked": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575"
+  },
+  "finiteCalibrationCount": 160,
+  "finiteCalibrationRangeVerified": [
+    "1/2",
+    "2"
+  ],
+  "deepFiniteValleyControlsZeroFrom": 10,
+  "slopeSumUpperExact": "9741/50176",
+  "innerCurvatureWidthUpperExact": "16235/100352",
+  "protectedOldRadiusWidthUpperExact": "3/1180",
+  "cellZeroAUpperExact": "937785209290969/4503599627370496",
+  "cellZeroBLowerExact": "4501194488393491/4611686018427387904",
+  "minimumWarpWidthUpperExact": "24253029540003405023/65099532613640519680",
+  "roundedMinimumWarpWidthUpperExact": "55406977/148019200",
+  "minimumWarpWidthStrictlyBelow": "3/8",
+  "targetWidthStrictlyAbove": "43/100",
+  "positiveExactGlobalRadialAlphaProved": true,
+  "exactGlobalAlphaInterval": [
+    "2747093/376320",
+    "164512476402329088/643027784056213"
+  ],
+  "floatingDiagnostics": {
+    "minimumWarpWidthUpper": 0.3725530517084171,
+    "coarseMinimumWarpWidthUpper": 0.37432290540686614,
+    "alphaLower": 7.299885735544217,
+    "alphaUpper": 255.8403858766195
+  },
+  "remainingScope": [
+    "The finite source table is an exact geometry definition, not an assertion of hidden calibration roots.",
+    "oldCut and epsilonScale are exact analytic derived constants, not separately rounded independent inputs.",
+    "The original source beyond cell 159 retains its separate reviewed infinite definition.",
+    "Positive radial normalization does not certify a nonlinear isometric surface or README completion."
+  ]
+}

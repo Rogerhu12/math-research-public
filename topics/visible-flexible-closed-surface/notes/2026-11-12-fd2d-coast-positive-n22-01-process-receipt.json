@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-actual-process-and-exact-rational-readback-v1",
+  "session_id": 90226,
+  "initial_chunk": "3ee8d6",
+  "final_chunk": "f0fb7d",
+  "actual_exit_code": 0,
+  "natural_exit": true,
+  "reported_seconds": 18.79651432600076,
+  "reported_peak_rss_kib": 99496,
+  "actual_input_sha256": "4251d15d3c78675ba8bbaf6cc2b71eb82bf78b8b6138e481aead56d73b6a0f68",
+  "source_sha256": "812a565fc71d7d70ba2cde334bc47103b701b689c82576438274ebe8f07c4825",
+  "report_sha256": "2877d21849f6d782ce31994ea4047514dc462ba2b3f97c509392a2eebf04fefa",
+  "minimum_strict_binary": [
+    "182198770862520850903534769371811225573291029",
+    -157
+  ],
+  "chosen_lower_bound": "99/100000",
+  "exact_positive_difference": "4181072633817546174464910384910005908966802521/570899077082383952423314387779798054553098649600000",
+  "interval_run_repeated": false
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Actual small V8 resource probe; no tail flow or BVP evaluated",
+  "tool": "the 2026-11-12 runtime probe following observed resume03 SIGKILL",
+  "global_NODE_OPTIONS": "--max-old-space-size=384",
+  "nominal_worker_resourceLimits": {
+    "maxOldGenerationSizeMb": 128,
+    "maxYoungGenerationSizeMb": 16,
+    "stackSizeMb": 4
+  },
+  "worker_execArgv": [],
+  "observed": [
+    {
+      "mode": "inherit",
+      "heap_size_limit": 427819008
+    },
+    {
+      "mode": "empty-worker-NODE_OPTIONS",
+      "heap_size_limit": 427819008
+    },
+    {
+      "mode": "worker-NODE_OPTIONS-128",
+      "heap_size_limit": 427819008
+    }
+  ],
+  "meaning": "Changing worker environment did not remove the process-wide V8 heap override."
+}

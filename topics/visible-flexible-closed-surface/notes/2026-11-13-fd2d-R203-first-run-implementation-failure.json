@@ -1,0 +1,16 @@
+{
+  "schema": "R203-first-full-LM-attempt-implementation-failure-v1",
+  "runtime": "pure V8; no OS process or exit code",
+  "toolCell": "43",
+  "acceptedSteps": 0,
+  "normalAssemblyReturned": true,
+  "failure": "Unsupported actual provider schema at R195 radialPermutation; R203 new schema not yet explicitly supported",
+  "source": "fd2d-run-geometry-guided-position-R203.cjs before R203 kernel extension",
+  "baseline": 0.03369112321226578,
+  "recovery": "Explicitly extend the actual R195 kernel schema whitelist while retaining all dimensions, permutation, band checks and residual checks; do not relabel R203 as old schema.",
+  "recoveryImplemented": {
+    "source": "fd2d_scaled_band_border_lm_R203.cjs",
+    "change": "Explicit R203 wrapper unwrapping plus parent/geometry checks, then all unchanged R190 dimensions/layout/full-band checks; original R195 source preserved",
+    "sourceChars": 15268
+  }
+}

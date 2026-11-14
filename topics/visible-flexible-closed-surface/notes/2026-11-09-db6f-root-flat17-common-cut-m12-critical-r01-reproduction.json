@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "source_sha256": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d",
+  "commands": [
+    [
+      "python",
+      "scripts/db6f-root-common-cut-v2.py",
+      "make",
+      "--geometry",
+      "notes/2026-11-09-db6f-root-flat17-coupled-m12f24.json",
+      "--tail",
+      "notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r01-s64-q512-manifest.json",
+      "--bridge",
+      "notes/2026-11-09-db6f-root-exact-bridge-m12.json",
+      "--out",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json"
+    ],
+    [
+      "python",
+      "scripts/db6f-root-common-cut-v2.py",
+      "geometry",
+      "--geometry",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "--angular",
+      "256",
+      "--out",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-geometry.json"
+    ],
+    [
+      "python",
+      "scripts/db6f-root-common-cut-v2.py",
+      "metric",
+      "--geometry",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "--target",
+      "notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "--out",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json"
+    ],
+    [
+      "python",
+      "scripts/db6f-root-common-cut-v2.py",
+      "moment",
+      "--geometry",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "--angular",
+      "512",
+      "--out",
+      "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-moment.json"
+    ]
+  ],
+  "completed": [
+    {
+      "step": 1,
+      "returncode": 0,
+      "seconds": 3.4202706813812256
+    },
+    {
+      "step": 2,
+      "returncode": 0,
+      "seconds": 92.03529024124146
+    },
+    {
+      "step": 3,
+      "returncode": 0,
+      "seconds": 102.6201057434082
+    },
+    {
+      "step": 4,
+      "returncode": 0,
+      "seconds": 139.92341446876526
+    }
+  ]
+}

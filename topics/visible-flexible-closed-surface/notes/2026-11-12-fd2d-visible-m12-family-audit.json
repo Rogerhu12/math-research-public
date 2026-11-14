@@ -1,0 +1,41 @@
+{
+  "status": "PASS-three-serialized-closed-meshes-and-fixed-caps",
+  "scope": "Read the three serialized PLYs and check their common material indexing.\n\nThe separate interval PLY reports certify PL embedding. This check binds\nthose reports and verifies identical faces and exact fixed-cap vertices.\nThe phase comparison is a floating-point diagnostic, not an error bound\nfor the underlying continuous maps.\n",
+  "script_sha256": "cac3abcbafd8666b9cc5f902d476dfd60bb481f73c90162dec72d95d17f8b8b7",
+  "manifest": "notes/2026-11-12-fd2d-visible-m12-manifest.json",
+  "manifest_sha256": "54a607a46bf8cc11a2be9fc89f6e035861d4d35bc26e879a37a8e4e5adb49bcb",
+  "plan_sha256": "39a2073f7d576eebb5c5c4c923ac556b2285beddf8194ad4a875c1c54cc1c75d",
+  "fixed_mask_sha256": "60322be4ce02cfd1c2155720bd1e3572e86b906d5d58ab7e5c02b53889f1b1f3",
+  "mesh_reader_sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+  "fixed_vertices": 4610,
+  "common_face_connectivity": true,
+  "serialized_fixed_cap_coordinates_bitwise_identical": true,
+  "files": [
+    {
+      "mesh": "notes/2026-11-12-fd2d-visible-m12-t0.ply.gz",
+      "mesh_sha256": "c4162676ca39bd69fe90c763d880df71b8e301bc3c277d3125216a48ec728034",
+      "PL_report": "notes/2026-11-12-fd2d-visible-m12-t0-audit.json",
+      "PL_report_sha256": "45401060ba7eb2a7412c5543715bb68faa517167b59a6bbef4c04e1f3c6c86c3",
+      "time_exact": "0",
+      "phase_discrepancy_diagnostic": 0.0
+    },
+    {
+      "mesh": "notes/2026-11-12-fd2d-visible-m12-t1of4.ply.gz",
+      "mesh_sha256": "9b063ed740c0cc12f2b3c9758b1e573ea2ee00d29c65ce42ff13eef79a5fcd4f",
+      "PL_report": "notes/2026-11-12-fd2d-visible-m12-t1of4-audit.json",
+      "PL_report_sha256": "bbf48a1c1ae9dddd7684542691d5f4c92e44d38ec3d5592690459fc7874f31a3",
+      "time_exact": "1/4",
+      "phase_discrepancy_diagnostic": 0.0
+    },
+    {
+      "mesh": "notes/2026-11-12-fd2d-visible-m12-t1of2.ply.gz",
+      "mesh_sha256": "77c14d929c45da4b06341ca37f95d9ad40bcebc0f78a43d26a62ad20ac60cecb",
+      "PL_report": "notes/2026-11-12-fd2d-visible-m12-t1of2-audit.json",
+      "PL_report_sha256": "00a7c483ebd0fc90e222b3ced44bf215b990e0bfbe5c7ee06d240c2db46970bc",
+      "time_exact": "1/2",
+      "phase_discrepancy_diagnostic": 0.0
+    }
+  ],
+  "fixed_g_convergence_gate_5_paid": false,
+  "continuous_vertex_error_certified": false
+}

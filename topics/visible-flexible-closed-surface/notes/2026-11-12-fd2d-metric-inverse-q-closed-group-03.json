@@ -1,0 +1,73 @@
+{
+  "scope": "Closed endpoint-refined local wide04 inverse-Q candidate; actual complete new tail and prefix remain separate",
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-inverse-q-buffer-check.mjs",
+      "bytes": 2833,
+      "sha256": "b49c5301377224da3c3ff5bbf5068d3fb4b5d5ba16d88ac4d78712291199ff5c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-wide-candidate-04.json",
+      "bytes": 5177,
+      "sha256": "4c42efac6d1fc49f6d2f13ed7cd17fbdb020e862aaaa1a252206c73a3df3e885"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-wide-provider-check-04.json",
+      "bytes": 3747,
+      "sha256": "a24dce7dffd786a1adcc4219aa9e9fab625fc5c29367d7f7bfa0fbbc3b79b2bc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-nonuniform-screen-12.json",
+      "bytes": 4405,
+      "sha256": "4367d984e8e2ed35467ecbd156f1f1c067aca6643408e86bcea47bdbbe699e7e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-inverse-q-wide-endpoint-recovery.md",
+      "bytes": 3767,
+      "sha256": "5e844c7a6f6b30643f7f9e3b74a4b2169ed1f73ca305cee669de23ebc133c035"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-02/README.md",
+      "bytes": 909,
+      "sha256": "6c2af9fed3faafa036cb4ec6e251b3decbf230505d49f10ee21a02f892884e72"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-02/optimize_coupled12.py",
+      "bytes": 2927,
+      "sha256": "1d444f5801bfca6eb2498dc62230b29f87add47c0de6969d9697c545bab0efb4"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-02/positive-q-coupled-height64-11.json",
+      "bytes": 4405,
+      "sha256": "3b9e7fde425e6ac0c7c30b9b4f5ecec0db3c9e527ee42c96febc6a6a8107f75e"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-02/positive-q-coupled-nonuniform64-12.json",
+      "bytes": 4405,
+      "sha256": "4367d984e8e2ed35467ecbd156f1f1c067aca6643408e86bcea47bdbbe699e7e"
+    },
+    {
+      "path": "repro/fd2d-metric-inverse-q-search-02/positive_q_free12.py",
+      "bytes": 6606,
+      "sha256": "b42f9c50d1dad11f97e65b38c1c616f87816fa41e382b2c24f80652aa9180648"
+    }
+  ],
+  "observed_executions": [
+    {
+      "session": 36713,
+      "exit_code": 0,
+      "seconds": 100.62866096900052,
+      "solver_status": "iteration limit reached; current iterate retained"
+    },
+    {
+      "session": 47955,
+      "exit_code": 0,
+      "seconds": 7.421446109000001
+    }
+  ],
+  "provenance_aliases": {
+    "positive-q-coupled-nonuniform64-12.json": "notes/2026-11-12-fd2d-metric-inverse-q-coupled-nonuniform-screen-12.json"
+  },
+  "unchanged_provider_sha256": "2c03c642c29523cb8eda20043433d2905d1297e4f82b0be7f44b937b365fd632",
+  "continuous_certificate": false
+}

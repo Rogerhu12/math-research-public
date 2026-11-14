@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01.json",
+    "bytes": 5246,
+    "sha256": "5e2ac101ddc8780dc666ffed46889d78c931ce84a6f52a86c1aef3a0945ad3ec"
+  },
+  "only_key_adaptation": "artifacts to files; original closed manifest retained unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_r136_arb_profile.py",
+      "bytes": 32315,
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    {
+      "path": "scripts/fd2d-metric-r136-profile-packet.py",
+      "bytes": 11619,
+      "sha256": "b4aea52fa04314064d37e6b1f556f38a4c8ab5c8ec947696281f1cdd0b7d83d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-report.json",
+      "bytes": 452505,
+      "sha256": "c11f79bf403aa5a1cd4ed1bb58989c51710f41f3a75481bc09576089ace7e2e6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-queries.json.gz",
+      "bytes": 112738,
+      "sha256": "f7090bcd9a6bd321fd5589eea7900098d7f5ad544b91ef4a5b2d1f08afd8e142"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-completion-receipt.json",
+      "bytes": 1610,
+      "sha256": "305acb68bb66d6367aadd3bba05d013a7d6c02566a382f1dd4c8576d10f6f8d5"
+    },
+    {
+      "path": "results/R171-accurate-radial-profile-and-one-sided-Arb-jets.md",
+      "bytes": 15393,
+      "sha256": "d31cdabbc9538592bf820f26a54ee4040b91e308050c0372212598e9d850794c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile.md",
+      "bytes": 5334,
+      "sha256": "b64c0251c2b5c2bb421a091f5d2eba9588a21b800a9eeb513b38c569584d0cde"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-closed-manifest-01.json",
+      "bytes": 5246,
+      "sha256": "5e2ac101ddc8780dc666ffed46889d78c931ce84a6f52a86c1aef3a0945ad3ec"
+    }
+  ]
+}

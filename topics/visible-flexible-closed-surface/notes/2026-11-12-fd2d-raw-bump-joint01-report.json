@@ -1,0 +1,554 @@
+{
+  "schema": "fd2d-physical-bump-raw-joint-run-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-run.py",
+    "bytes": 11975,
+    "sha256": "81b3dee561aaf94faadb4b502f1a02de197013400ced81ae907813361bfaa7d5"
+  },
+  "providers": {
+    "fd2d_gc_raw_bump_dae.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "fd2d_gc_radial_bump_profile.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    "fd2d_gc_bump_bounded_schur.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_bounded_schur.py",
+      "bytes": 3915,
+      "sha256": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff"
+    },
+    "fd2d_gc_bump_merit.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_merit.py",
+      "bytes": 3833,
+      "sha256": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b"
+    },
+    "fd2d_gc_curvature_penalty.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_curvature_penalty.py",
+      "bytes": 8019,
+      "sha256": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b"
+    }
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "warm_input": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "bytes": 38553,
+    "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+  },
+  "settings": {
+    "candidate": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "warm_start": "notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "radius_packet": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "out_prefix": "notes/2026-11-12-fd2d-raw-bump-joint01",
+    "owner_stop_file": "notes/2026-11-12-fd2d-raw-bump-joint01-owner-stop.txt",
+    "max_iterations": 40,
+    "modes": 15,
+    "mesh_step": 0.04,
+    "gap": 0.9,
+    "central_floor": 0.1,
+    "central_cap": 7.352941176470588,
+    "profile_box": 0.08,
+    "radius_floor": 0.1,
+    "curvature_cap": 7.2,
+    "curvature_weight": 1.0,
+    "high_gauss_weight": 1.0,
+    "damping": 1e-05,
+    "finite_tolerance": 2e-07
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "started_utc": "2026-11-12T12:01:34.039502+00:00",
+  "physical_coordinates": "fixed physical s, fixed material u, recorded U(s,xi) chart",
+  "original_raw_equations_changed": false,
+  "physical_g_changes_with_profile_parameters": true,
+  "exact_boundary_projection": "central n=Cc,m=l=0; cut all corrections zero",
+  "finite_guidance": "curvature cap and angular complement of Gauss on the actual node grid",
+  "missing": [
+    "full radial and angular Codazzi residual",
+    "actual position map and cut rigid alignment",
+    "continuous metric, whole geometry and reach",
+    "same-g refinement and closed meshes"
+  ],
+  "accepted_steps": 40,
+  "completed": true,
+  "finite_success": false,
+  "owner_stop": false,
+  "exception": null,
+  "seconds": 279.90402644799997,
+  "peak_rss_kib": 476512,
+  "initial_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint01-initial.npz",
+    "bytes": 38549,
+    "sha256": "48e9a48bb65a6574b935364644632545256f8b22e2a8062335a8bc467093d235"
+  },
+  "initial": {
+    "residual_maximum": 3.025342953428584,
+    "residual_rms": 0.32423850683342514,
+    "full_gauss_node_maximum": 5.330150369475637,
+    "formal_curvature_node_maximum": 5.815597519349716,
+    "A": 1.405,
+    "B": 0.495,
+    "gap": 0.91,
+    "base_coast_T_fixed": 0.02,
+    "tail_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "profile_deltas": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_n": -0.00037045532091340116,
+    "maximum_n": 4.36489447571063,
+    "minimum_central_curvature": 0.32088353624816085,
+    "minimum_radius_at_nodes": 0.8,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 0,
+      "repeated_eigenvalue_rows": 0,
+      "residual_l2": 0.0,
+      "sampled_formal_curvature_maximum": 5.815597519349716,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false
+    },
+    "high_gauss_merit": {
+      "weight": 1.0,
+      "normalization": "sqrt(2/angular_work)",
+      "rows": 25344,
+      "sampled_full_gauss_maximum": 5.330150369475637,
+      "sampled_omitted_gauss_maximum": 0.2484280121652287,
+      "residual_l2": 0.22569724655555384,
+      "continuous_certificate": false,
+      "scope": "Angular orthogonal complement on the actual finite working grid"
+    }
+  },
+  "layout": {
+    "central": [
+      0,
+      15
+    ],
+    "tail": [
+      15,
+      31
+    ],
+    "physical_profile": [
+      31,
+      38
+    ],
+    "base_coast_T_fixed": 0.02,
+    "parameter_count": 38,
+    "raw_unknowns": 4738,
+    "raw_equations": 4732,
+    "unknowns_minus_equations": 6,
+    "physical_profile_definition": {
+      "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+      "source": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+        "bytes": 12253,
+        "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+      },
+      "base_candidate": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+        "bytes": 25453,
+        "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+      },
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameter_count": 7,
+      "supports": [
+        [
+          0.34,
+          0.7915892713432515
+        ],
+        [
+          0.4528973178358129,
+          0.9044865891790643
+        ],
+        [
+          0.5657946356716258,
+          1.0173839070148774
+        ],
+        [
+          0.6786919535074387,
+          1.1302812248506902
+        ],
+        [
+          0.7915892713432515,
+          1.243178542686503
+        ],
+        [
+          0.9044865891790643,
+          1.356075860522316
+        ],
+        [
+          1.0173839070148774,
+          1.4689731783581288
+        ]
+      ],
+      "physical_endpoint": 1.4889731783581288,
+      "protected_cylinder": [
+        0.0,
+        0.32
+      ],
+      "protected_cut_neighborhood": [
+        1.4689731783581288,
+        1.4889731783581288
+      ],
+      "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+      "q_j": "(s-support_left)/(support_right-support_left)",
+      "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+      "uniform_basis_bounds": {
+        "value": 1.0,
+        "first": [
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965766,
+          9.216266735965768,
+          9.216266735965768,
+          9.216266735965762,
+          9.216266735965768
+        ],
+        "second": [
+          196.14297587978166,
+          196.1429758797817,
+          196.1429758797816,
+          196.1429758797817,
+          196.1429758797817,
+          196.1429758797815,
+          196.1429758797817
+        ]
+      },
+      "delta_scales_for_unit_a_second": [
+        0.00509832174980822,
+        0.00509832174980822,
+        0.005098321749808222,
+        0.00509832174980822,
+        0.00509832174980822,
+        0.0050983217498082245,
+        0.00509832174980822
+      ],
+      "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+      "physical_metric_changes_with_delta": true,
+      "radial_clock": "s is physical; scale 1; no warp",
+      "base_coast_T_fixed": true,
+      "central_and_cut_all_existing_jets_unchanged": true,
+      "same_g_refinement": false
+    }
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.399634787656641
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radius_proof": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "bytes": 136549,
+    "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695",
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "profile_positive_linear_rows": 39,
+  "latest": {
+    "residual_maximum": 0.3887710558906947,
+    "residual_rms": 0.03877232840860261,
+    "full_gauss_node_maximum": 0.979472309857501,
+    "formal_curvature_node_maximum": 7.229798317173662,
+    "A": 1.4061164318394745,
+    "B": 0.5061164490635641,
+    "gap": 0.8999999827759104,
+    "base_coast_T_fixed": 0.02,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      0.8816661484315165,
+      2.685486452313286e-21,
+      0.5225027130495439,
+      0.6702229346218024,
+      9.041128237253517e-19,
+      1.9729060169141725e-19,
+      0.2819871596847052,
+      6.789128499256794e-19,
+      2.076697240739902e-20,
+      5.334141499619263e-20,
+      1.016642598294304,
+      1.2,
+      1.2
+    ],
+    "profile_deltas": [
+      -0.008435437835262894,
+      -0.014197699984176679,
+      -0.020805825529445984,
+      -0.02759109454805253,
+      -6.093489670630416e-06,
+      0.019811200648759568,
+      0.012295216222182876
+    ],
+    "minimum_n": -0.13836211982724161,
+    "maximum_n": 7.229798317173662,
+    "minimum_central_curvature": 0.10000000000000009,
+    "minimum_radius_at_nodes": 0.8,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 104,
+      "repeated_eigenvalue_rows": 0,
+      "residual_l2": 0.06746023533999262,
+      "sampled_formal_curvature_maximum": 7.229798317173662,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false
+    },
+    "high_gauss_merit": {
+      "weight": 1.0,
+      "normalization": "sqrt(2/angular_work)",
+      "rows": 25344,
+      "sampled_full_gauss_maximum": 0.979472309857501,
+      "sampled_omitted_gauss_maximum": 0.19874530444560606,
+      "residual_l2": 0.2784178969382833,
+      "continuous_certificate": false,
+      "scope": "Angular orthogonal complement on the actual finite working grid"
+    }
+  },
+  "latest_checkpoint": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint01-accepted-0040.npz",
+    "bytes": 38975,
+    "sha256": "1b029c98ec1734120fc74294a4504abd6f3b78a7e3353778307d6ca185e30fe6"
+  },
+  "stop_reason": "Allocated forty-or-requested finite iterations finished without success claim",
+  "final": {
+    "residual_maximum": 0.3887710558906947,
+    "residual_rms": 0.03877232840860261,
+    "full_gauss_node_maximum": 0.979472309857501,
+    "formal_curvature_node_maximum": 7.229798317173662,
+    "A": 1.4061164318394745,
+    "B": 0.5061164490635641,
+    "gap": 0.8999999827759104,
+    "base_coast_T_fixed": 0.02,
+    "tail_coefficients": [
+      1.2,
+      1.2,
+      1.2,
+      0.8816661484315165,
+      2.685486452313286e-21,
+      0.5225027130495439,
+      0.6702229346218024,
+      9.041128237253517e-19,
+      1.9729060169141725e-19,
+      0.2819871596847052,
+      6.789128499256794e-19,
+      2.076697240739902e-20,
+      5.334141499619263e-20,
+      1.016642598294304,
+      1.2,
+      1.2
+    ],
+    "profile_deltas": [
+      -0.008435437835262894,
+      -0.014197699984176679,
+      -0.020805825529445984,
+      -0.02759109454805253,
+      -6.093489670630416e-06,
+      0.019811200648759568,
+      0.012295216222182876
+    ],
+    "minimum_n": -0.13836211982724161,
+    "maximum_n": 7.229798317173662,
+    "minimum_central_curvature": 0.10000000000000009,
+    "minimum_radius_at_nodes": 0.8,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 104,
+      "repeated_eigenvalue_rows": 0,
+      "residual_l2": 0.06746023533999262,
+      "sampled_formal_curvature_maximum": 7.229798317173662,
+      "original_equations_changed": false,
+      "actual_geometry_certified": false
+    },
+    "high_gauss_merit": {
+      "weight": 1.0,
+      "normalization": "sqrt(2/angular_work)",
+      "rows": 25344,
+      "sampled_full_gauss_maximum": 0.979472309857501,
+      "sampled_omitted_gauss_maximum": 0.19874530444560606,
+      "residual_l2": 0.2784178969382833,
+      "continuous_certificate": false,
+      "scope": "Angular orthogonal complement on the actual finite working grid"
+    }
+  },
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint01-field.npz",
+    "bytes": 230227,
+    "sha256": "83ebe0e7f969a1b11e009495054981b6f0c82584cc3ba066acc3c9b599d0cc19"
+  },
+  "actual_physical_metric": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint01-physical-metric.json",
+    "bytes": 2684,
+    "sha256": "590afcf39a8d7e7583e3b2ab1500f878014bfbf6c9a353ee7bc85f1f0e5704b2"
+  },
+  "central_definition": {
+    "schema": "fd2d-balanced-fixed-normal-curvature-central-definition-v1",
+    "base_kind": "balanced_seed",
+    "source": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    "exact_moments": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    "exact_weighted_means": {
+      "file": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+      "bytes": 203694,
+      "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+    },
+    "parameters": {
+      "r": "0.22921358484022447",
+      "D": "2.9353699772701836",
+      "c": "-0.6589229731934492",
+      "k": "6",
+      "A": "1.405",
+      "B": "0.495",
+      "reference_A": "1.4",
+      "reference_B": "0.5"
+    },
+    "coefficients_exact": [
+      "1806521777935065/2251799813685248",
+      "4445374927167853/2251799813685248",
+      "6704133404114837/18014398509481984",
+      "-2735220453247483/2251799813685248",
+      "-5257125501807173/9007199254740992",
+      "1973584130735199/36028797018963968",
+      "7165815904323091/36028797018963968",
+      "6675006916016571/18014398509481984",
+      "3144200676012907/9007199254740992",
+      "-423675326100375/2251799813685248",
+      "-3145254764431051/144115188075855872",
+      "-1983043644549109/18014398509481984",
+      "-3187837804051059/36028797018963968",
+      "2996101553239959/72057594037927936",
+      "-948734495529717/9007199254740992"
+    ],
+    "curvature_definition": "1/rho_seed(phi)+sum d_j*(cos(2*j*phi)-exact_mu_j)",
+    "material_map": "u(phi)=integral_0^phi rho_seed/a0; same fixed map for every d and both base kinds",
+    "exact_mean_definition": "mu_j=(1/(2*pi*a0))*integral_0^(2*pi)rho_seed(phi)*cos(2*j*phi)dphi",
+    "exact_position_definition": "gamma_base + integral_0^phi rho_seed*(T_d-T_base) - (1/2)*integral_0^pi rho_seed*(T_d-T_base)",
+    "exact_closed_D2_curve": true,
+    "exact_central_metric": "ds^2+a0^2*du^2",
+    "conservative_curvature_lower_exact": "-4989935453040879791961633263325943959330839506014432607178041517227728161910836765695686837451/645740404498032089347097283225772877053315480792101791451656522445338872024977735860136968192",
+    "conservative_curvature_upper_exact": "1443131000040835145647689455015632430483217955472378369402802831718092102977328545220611220271/116111050651065706917301404239334555179933698438958366286260005613199734086510192252453650432",
+    "global_convexity_proved_by_l1_bound": false,
+    "numerical_constant_error_upper": {
+      "r": 2.9269748022642264e-22,
+      "D": 1.0038328902908234e-19,
+      "c": 1.3266210789453227e-21,
+      "k": 0.0,
+      "A": 2.6020852139652108e-20,
+      "B": 4.336808689942018e-21,
+      "a0": 7.8112290784487e-21,
+      "u0": 1.3774759863653002e-19,
+      "u2": 4.682868259513475e-19,
+      "u4": 4.407648109304687e-18
+    },
+    "numerical_mean_error_upper": [
+      2.549021934066328e-19,
+      2.2026335530881244e-18,
+      4.691998796024259e-22,
+      2.2783666696514685e-22,
+      3.9501000181787235e-22,
+      7.261670769153937e-22,
+      1.913555235871532e-22,
+      6.283236214684609e-22,
+      5.758427931419596e-22,
+      3.5481505843501774e-22,
+      6.407048030241226e-23,
+      4.0088164028586144e-22,
+      1.3409681541032236e-23,
+      5.2176882879484215e-23,
+      5.539815723615013e-23
+    ],
+    "curvature_constant_error_from_mean_representatives_upper_exact": "9276918055836953865883811826538667742026702618962602458518482543928877679/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+    "raw_quarter_turn_basis_integral_numerical_defect": [
+      -3.3881317890172014e-20,
+      7.792703114739563e-20,
+      -6.776263578034403e-20,
+      9.486769009248164e-20,
+      -6.776263578034403e-20,
+      1.4230153513872246e-19,
+      -1.1519648082658485e-19,
+      1.0842021724855044e-19,
+      -1.5585406229479126e-19,
+      1.6940658945086007e-19,
+      -9.486769009248164e-20,
+      1.6940658945086007e-19,
+      -1.4230153513872246e-19,
+      5.421010862427522e-20,
+      -1.8973538018496328e-19
+    ],
+    "quadrature_panels": 64,
+    "quadrature_order": 24,
+    "point_evaluation_is_interval_certified": false,
+    "whole_BVP_solved": false,
+    "closed_surface": false
+  }
+}

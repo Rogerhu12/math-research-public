@@ -1,0 +1,64 @@
+{
+  "schema": "fd2d-closed-local-comparison-group-v1",
+  "actual_runs": [
+    {
+      "run": "02",
+      "exit": 1,
+      "seconds": 37.39534616599849,
+      "completed": false,
+      "comparisons": 1,
+      "peak_RSS_KiB": 80804
+    },
+    {
+      "run": "03",
+      "exit": 0,
+      "seconds": 148.26567662699927,
+      "completed": true,
+      "comparisons": 4,
+      "peak_RSS_KiB": 81580
+    }
+  ],
+  "scope": "Same physical parameters, a changed local angular basis and changed finite quadrature are compared; no valid nonlinear field or global atlas claimed",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-coast-chart-range-compare.py",
+      "bytes": 12575,
+      "sha256": "9d29b02b2c8caee68aec0dac2a6527f9667a569fa8c541642416344433ee123e"
+    },
+    {
+      "path": "scripts/fd2d-gc-coast-chart-range-compare-v2.py",
+      "bytes": 13198,
+      "sha256": "88cb289dc5e3e0a5ffc0feaab1821d2293e8ff18a61519793a5bd49e1a02bac9"
+    },
+    {
+      "path": "scripts/fd2d_gc_native_inverse_recovery.py",
+      "bytes": 5186,
+      "sha256": "f2cc0bf7ea859a45f92a1904c86ef11c94747cfceb96cce07bc6aacf7a3b977f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range02-report.json",
+      "bytes": 8408,
+      "sha256": "a3102b0515af2dec59c8ed10d2008eb1e89080fe873e16abd06807652c106b75"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range02-tool-exit.json",
+      "bytes": 386,
+      "sha256": "23b757953586422bc2c9720dbd96a8d7f0a4ac155c46d67923ee5e1610a6c27a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range03-report.json",
+      "bytes": 16292,
+      "sha256": "3f6c444c3f4d2dbbc3ba1960f23e9a2458ca20aebd918d2331b6ce66155843b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range03-tool-exit.json",
+      "bytes": 386,
+      "sha256": "2f208c12242366e3a03e41590b6e29e7dedede803512367cce1342a77407c93f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-coast09-chart-range03-local-states.npz",
+      "bytes": 9915,
+      "sha256": "4750fae4dbd26707d130c0bd3add8905d5f2df9b13e309d18db3f3e64154e021"
+    }
+  ]
+}

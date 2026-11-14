@@ -1,0 +1,38 @@
+{
+  "status": "PASS-independent-three-PLY-rerun-and-file-comparison",
+  "manifest_sha256": "6a49b75c5a0c112fc798c4167356b9b8f57e0f489e33b6ed9aedcc2c1eff3282",
+  "validator_sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+  "review_script_sha256": "3ebbf655bb72a1c166e8556e9f098353d62a7aaa915e03a3b35e1213e0b3d27b",
+  "meshes": [
+    {
+      "time": "0",
+      "mesh_sha256": "863e4f172874523160cbe03fb4862f9b8a55dbb6bbaa424fa51c2c7794cfd6a4",
+      "author_report_sha256": "3c4904036bc64d127c7a8cf619cbd2d05e85819271b40dd7c4b75d111f545b24",
+      "independent_replay_file": "notes/2026-11-09-db6f-root-replay-visible-m8-t0.json",
+      "independent_replay_sha256": "71a10cc04579275f30cd81ba3a66910ffa10663a070a1b5a710f1786e4ecf6fb",
+      "mathematical_fields_identical": true
+    },
+    {
+      "time": "1/4",
+      "mesh_sha256": "2e0907dbf70b30db766cfac640a31b0f78a89acf1ae6c446bbce9f780d48cee6",
+      "author_report_sha256": "1a1799a3564b84b0a3ae3dbc146604a71417f4e8595a47c69592cfff7de233c5",
+      "independent_replay_file": "notes/2026-11-09-db6f-root-replay-visible-m8-t1of4.json",
+      "independent_replay_sha256": "e8e8c35c7c5c132142746d8bf3204828e72427184fd32ad74bd5d4a2cc5a6dba",
+      "mathematical_fields_identical": true
+    },
+    {
+      "time": "1/2",
+      "mesh_sha256": "74fcd07e07fe5be9ca4d5bb612e000e6b94e19dc73bb9d9d03a4652f4bef10f8",
+      "author_report_sha256": "5ea21aaa3819e366354f57a2a0764fe7ae739adf92a3346699e1051fb77d9683",
+      "independent_replay_file": "notes/2026-11-09-db6f-root-replay-visible-m8-t1of2.json",
+      "independent_replay_sha256": "67e58d230f1177e5ee1b68a9ea54d71f1ded54dd1f958896b5524d56761e23f7",
+      "mathematical_fields_identical": true
+    }
+  ],
+  "all_faces_identical_across_times": true,
+  "fixed_vertices_bitwise_identical_across_times": true,
+  "fixed_vertex_count": 4610,
+  "scope": "Independent full validator runs each completed with actual exit 0. This script verifies the saved mathematical reports and rereads PLY files. Export-source review and continuous approximation error remain separate.",
+  "continuous_approximation_error_certified": false,
+  "README_complete": false
+}

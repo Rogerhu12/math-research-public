@@ -1,0 +1,248 @@
+{
+  "schema": "fd2d-actual-gauss-cell-codazzi-stream-JVP-check-v2",
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "bytes": 39331,
+    "sha256": "2bf2d98aaa6c57752a78aeabf96a4d5541528c998b669b59fc139556203f1a22"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-gauss-cell-codazzi-stream-check.py",
+      "bytes": 10410,
+      "sha256": "4f121794a1c2a5aa3d06fcb3fff6a8d47757f345592eed517747da50d5336a33"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_codazzi.py",
+      "bytes": 11505,
+      "sha256": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_seed_native_field.py",
+      "bytes": 5488,
+      "sha256": "3604594821587e368954434c667455b34452d7e4107476a74fca2f754163eba5"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    }
+  ],
+  "helper": {
+    "schema": "fd2d-fixed-physical-s-gauss-cell-codazzi-v1",
+    "order": 2,
+    "quadrature_fraction_nodes": [
+      0.21132486540518713,
+      0.7886751345948129
+    ],
+    "quadrature_average_weights": [
+      0.5,
+      0.5
+    ],
+    "physical_g_changed": false,
+    "unknown_mesh_changed": false,
+    "original_trapezoid_rows_changed": true,
+    "node_Gauss_boundary_gap_rows_changed": false,
+    "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+    "retained_cell_maximum": 0.3067331407990448,
+    "sampled_full_average_codazzi_maximum": 0.9309399508442331,
+    "sampled_omitted_average_codazzi_maximum": 0.15272204808693313,
+    "sampled_interior_Gauss_maximum": 3.219868561268922,
+    "normalization": "high_weight*sqrt(2/angular_work)",
+    "continuous_certificate": false,
+    "scope": "Finite Gauss-Legendre averages of the actual P1 correction RHS; no pointwise or continuous bound",
+    "retained_jacobian_nonzeros": 155846,
+    "high_jacobian_nonzeros": 2381260
+  },
+  "progress": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-gauss-cell-codazzi-check-02-progress.jsonl",
+    "bytes": 1132,
+    "sha256": "caf88037200896717edbaf2c0c28032292d7d194b88a99912e176f1f26ffc812"
+  },
+  "original_nodal_F_change": 0.0,
+  "original_fields_change": 0.0,
+  "original_trapezoid_to_new_retained_change": 0.30461653937164357,
+  "full_projection_to_retained_difference": 4.1116470037710906e-14,
+  "full_decomposition_difference": 4.834240646678367e-14,
+  "independent_native_full_average_difference": 4.068967385251199e-14,
+  "independent_native_interior_G_difference": 3.375077994860476e-14,
+  "retained_sparse_shape": [
+    3038,
+    4691
+  ],
+  "high_sparse_shape": [
+    50176,
+    4691
+  ],
+  "directional_checks": [
+    {
+      "direction": "independent_n_m_l_nodes",
+      "step": 4e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 260.5227305014982,
+          "absolute_maximum": 4.0565041992124407e-08,
+          "absolute_l2": 1.0808845137151528e-07,
+          "scaled_l2": 4.14890674466095e-10,
+          "relative_l2": 4.14890674466095e-10
+        },
+        "high": {
+          "analytic_direction_norm": 1.5995284464180348,
+          "absolute_maximum": 1.4563728304925472e-10,
+          "absolute_l2": 3.2683849639653368e-09,
+          "scaled_l2": 2.043342818494113e-09,
+          "relative_l2": 2.043342818494113e-09
+        }
+      }
+    },
+    {
+      "direction": "independent_n_m_l_nodes",
+      "step": 1e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 260.5227305014982,
+          "absolute_maximum": 1.5864550029220936e-07,
+          "absolute_l2": 3.687013439739222e-07,
+          "scaled_l2": 1.4152367559797316e-09,
+          "relative_l2": 1.4152367559797316e-09
+        },
+        "high": {
+          "analytic_direction_norm": 1.5995284464180348,
+          "absolute_maximum": 5.981791900410571e-10,
+          "absolute_l2": 1.158762240694297e-08,
+          "scaled_l2": 7.244399080799192e-09,
+          "relative_l2": 7.244399080799192e-09
+        }
+      }
+    },
+    {
+      "direction": "complete_tail_parameters",
+      "step": 4e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 2.7293722901093864,
+          "absolute_maximum": 2.0507610670392196e-10,
+          "absolute_l2": 6.902079660323089e-10,
+          "scaled_l2": 2.5288157593358106e-10,
+          "relative_l2": 2.5288157593358106e-10
+        },
+        "high": {
+          "analytic_direction_norm": 0.16429270196249762,
+          "absolute_maximum": 1.9505708219414927e-11,
+          "absolute_l2": 3.39637286703694e-10,
+          "scaled_l2": 3.39637286703694e-10,
+          "relative_l2": 2.067269468738919e-09
+        }
+      }
+    },
+    {
+      "direction": "complete_tail_parameters",
+      "step": 1e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 2.7293722901093864,
+          "absolute_maximum": 7.148397498935033e-10,
+          "absolute_l2": 2.818263845079236e-09,
+          "scaled_l2": 1.0325684976329437e-09,
+          "relative_l2": 1.0325684976329437e-09
+        },
+        "high": {
+          "analytic_direction_norm": 0.16429270196249762,
+          "absolute_maximum": 9.26676820673343e-11,
+          "absolute_l2": 1.382392462042148e-09,
+          "scaled_l2": 1.382392462042148e-09,
+          "relative_l2": 8.4142049252906e-09
+        }
+      }
+    },
+    {
+      "direction": "physical_radial_deltas",
+      "step": 4e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 91.43827380395177,
+          "absolute_maximum": 1.5589818325167926e-09,
+          "absolute_l2": 1.3113777341931295e-08,
+          "scaled_l2": 1.4341672033363063e-10,
+          "relative_l2": 1.4341672033363063e-10
+        },
+        "high": {
+          "analytic_direction_norm": 1.0728896827802656,
+          "absolute_maximum": 8.114247468382629e-10,
+          "absolute_l2": 6.011900469089979e-09,
+          "scaled_l2": 5.603465636383841e-09,
+          "relative_l2": 5.603465636383841e-09
+        }
+      }
+    },
+    {
+      "direction": "physical_radial_deltas",
+      "step": 1e-06,
+      "blocks": {
+        "retained": {
+          "analytic_direction_norm": 91.43827380395177,
+          "absolute_maximum": 7.220789965955987e-09,
+          "absolute_l2": 3.280302641933143e-08,
+          "scaled_l2": 3.5874503153529293e-10,
+          "relative_l2": 3.5874503153529293e-10
+        },
+        "high": {
+          "analytic_direction_norm": 1.0728896827802656,
+          "absolute_maximum": 4.670336636685129e-10,
+          "absolute_l2": 1.1941702365888848e-08,
+          "scaled_l2": 1.1130410290593298e-08,
+          "relative_l2": 1.1130410290593298e-08
+        }
+      }
+    }
+  ],
+  "checks": {
+    "original_nodal_F_unchanged": true,
+    "original_fields_unchanged": true,
+    "original_unknown_mesh_unchanged": true,
+    "original_chart_values_unchanged": true,
+    "full_projection_equals_retained": true,
+    "full_equals_retained_plus_omitted": true,
+    "independent_native_actual_P1_average": true,
+    "independent_native_actual_interior_G": true,
+    "all_six_directions_nonzero": true,
+    "all_actual_JVP": true,
+    "all_source_bytes_unchanged": true
+  },
+  "implementation_checks_passed": true,
+  "seconds": 76.26218651099953,
+  "peak_rss_kib": 366380,
+  "continuous_certificate": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "scope": "Separate actual finite discretization/analytic-JVP check; original nodal F is preserved and still reported independently"
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Exact C1 Fourier-tail bound for the round background of a support chart.\n\nThis studies a frozen reference only; it creates no curve or nonlinear solve.\nAll polynomial arithmetic and the Taylor remainder are rational.\n",
+  "reference": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-geometry-m15-warm-reference-support-chart.json",
+    "bytes": 3161,
+    "sha256": "ec8cefe7111a57a9fa1152206d808b83e8b9d83969b5612f6951c24b78b4caa3"
+  },
+  "script": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-geometry-reference-round-tail.py",
+    "bytes": 3205,
+    "sha256": "f82caf6e57c3d168379428dda02d523001d42ce98b4d4d1497a7a11f334513c0"
+  },
+  "M": 15,
+  "m": 3,
+  "N": 2048,
+  "exponential_order": 16,
+  "phase_l1_exact": "716965655033862391053036851707627/2676624435341277815175890432163840",
+  "phase_derivative_l1_exact": "166652818568485036062730081/618970019642690137449562112",
+  "polynomial_derivative_tail_display": 4.413883161191681e-09,
+  "C1_remainder_display": 2.8086639180173044e-23,
+  "alias_derivative_bound_display": 2.4699391192080005e-23,
+  "full_derivative_tail_upper_display": 4.413883161191734e-09,
+  "inlet_G_upper_display": 4.591253636131027e-08,
+  "safe_G_upper_exact": "45912536361310270768003/1000000000000000000000000000000",
+  "below_2e_minus9": false,
+  "scope_binary_trig_and_rounding_excluded": true,
+  "BVP_calls": 0,
+  "tail_calls": 0,
+  "seconds": 1.2729453760002798
+}

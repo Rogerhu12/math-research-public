@@ -1,0 +1,89 @@
+{
+  "schema": "fd2d-native-spectral-residual-screen-v1",
+  "source": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_native_spectral_residual_screen.py",
+    "bytes": 3561,
+    "sha256": "da9f3b474385fdfc6205ed67f8967d5ba130e3611545ef8b46dc760a8641355c"
+  },
+  "actual_field": {
+    "file": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-short088-01/outputs/2026-11-12-fd2d-root-short088-gap005-actual-body01-native-field.json",
+    "bytes": 15320,
+    "sha256": "5d6c34af2b1b3765f03db622db422a7ff18a0824acd62e510ef2475597f6a57b"
+  },
+  "defining_arrays": {
+    "file": "2026-11-12-fd2d-root-short088-04-field.npz.gz",
+    "bytes": 3127104,
+    "sha256": "eebc5debe13f4070114cc137d479d48790427041a3c301d174dda8351b814282"
+  },
+  "maximum_frequency": 94,
+  "angular_points": 2048,
+  "same_actual_field": true,
+  "selected_native_nodes": true,
+  "continuous_certificate": false,
+  "new_solve": false,
+  "rows": [
+    {
+      "requested_x": 0.78,
+      "actual_node": 240,
+      "x": 0.7801433520251846,
+      "eta_velocity_residual": {
+        "maximum": 0.009780182470929141,
+        "resolved_maximum": 1.4074291751934625e-10,
+        "discarded_maximum": 0.009780182522111535,
+        "resolved_coefficient_maximum": 2.7075555544931903e-11,
+        "discarded_coefficient_maximum": 0.0007597465584050339
+      },
+      "zeta_velocity_residual": {
+        "maximum": 0.07499107000541497,
+        "resolved_maximum": 1.4043797106103495e-09,
+        "discarded_maximum": 0.07499106863504122,
+        "resolved_coefficient_maximum": 1.837530824319958e-10,
+        "discarded_coefficient_maximum": 0.00736126725104296
+      },
+      "physical_Rn_maximum": 0.0031831076190150303,
+      "physical_Rm_maximum": 0.042601033365448966
+    },
+    {
+      "requested_x": 0.84,
+      "actual_node": 436,
+      "x": 0.8398769299134664,
+      "eta_velocity_residual": {
+        "maximum": 0.004514509173029343,
+        "resolved_maximum": 1.9933346220490602e-13,
+        "discarded_maximum": 0.004514509173057596,
+        "resolved_coefficient_maximum": 3.5058963537135935e-14,
+        "discarded_coefficient_maximum": 0.0014943005298342063
+      },
+      "zeta_velocity_residual": {
+        "maximum": 0.012729566471531943,
+        "resolved_maximum": 8.813571738669358e-12,
+        "discarded_maximum": 0.012729566468141914,
+        "resolved_coefficient_maximum": 1.326301071580461e-12,
+        "discarded_coefficient_maximum": 0.0024384630445923343
+      },
+      "physical_Rn_maximum": 0.005161230020783782,
+      "physical_Rm_maximum": 0.012310435324076819
+    },
+    {
+      "requested_x": 0.92,
+      "actual_node": 606,
+      "x": 0.9197280340335531,
+      "eta_velocity_residual": {
+        "maximum": 0.007842578280192643,
+        "resolved_maximum": 3.002818520919358e-13,
+        "discarded_maximum": 0.007842578280173824,
+        "resolved_coefficient_maximum": 6.860724502338311e-14,
+        "discarded_coefficient_maximum": 0.0024771990787755297
+      },
+      "zeta_velocity_residual": {
+        "maximum": 0.006766615064649555,
+        "resolved_maximum": 3.460699977470781e-12,
+        "discarded_maximum": 0.006766615064173873,
+        "resolved_coefficient_maximum": 7.835229085232657e-13,
+        "discarded_coefficient_maximum": 0.001430064749729377
+      },
+      "physical_Rn_maximum": 0.010477714546426794,
+      "physical_Rm_maximum": 0.008475849777616742
+    }
+  ]
+}

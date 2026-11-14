@@ -1,0 +1,63 @@
+{
+  "schema": "fd2d-R151-complete-self-normal-balls-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R151-actual-coast-complete-self-normal-balls.md",
+      "sha256": "06351fa4e54b92733fd8627e6623d34a2569a1f041eeb5a9eeb7027b1eb56d1d",
+      "bytes": 22873,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_complete_normal_ball_coverage.py",
+      "sha256": "f0f229f84cc2803f0be33525082d72c77509f9502730c9074615c21b769c5a10",
+      "bytes": 6845,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-complete-normal-ball-coverage-01.json",
+      "sha256": "c4f204493e073e0b702cf3911e660a7ee53c60ce4b392b4192bd5b3942c26c97",
+      "bytes": 2963,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_k0_ruling_all_pair_normal_balls_frame.py",
+      "sha256": "76842c8b8fd971257573bc9c1c9124ead27c860b22bf88f7391a49fd1f46f5b4",
+      "bytes": 23625,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-k0-ruling-all-pair-normal-balls-04.json",
+      "sha256": "c0726bf023bc015a7806a7343b56d92123eb08e6ebc7250d0d8c48c84e272790",
+      "bytes": 8052,
+      "closed": true
+    }
+  ],
+  "scope": "Complete all-angle/all-radial actual delta=0 coast normal balls at rho17/125; embedded annulus and injective self normal tube. Its mirrored copies and arbitrary z-axis phases inherit the stated internal/cross-mirror bounds. Not a full closed-surface solution or a boundary-normal-cone set-reach claim.",
+  "dependencies_closed_manifests": [
+    "notes/2026-11-12-fd2d-normal-ball-closed-inputs-manifest.json",
+    "notes/2026-11-12-fd2d-normal-ball-closed-inputs-manifest-02.json",
+    "notes/2026-11-12-fd2d-geometry-R145-closed-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-R147-closed-manifest.json"
+  ],
+  "executions": [
+    {
+      "session": 63725,
+      "final_chunk": "ae1ad9",
+      "exit_code": 0,
+      "source_seconds": 1056.553203043999,
+      "scope": "Final rows9..31, complete requested suffix"
+    },
+    {
+      "session": 68353,
+      "final_chunk": "117192",
+      "exit_code": 0,
+      "source_seconds": 0.0939944750007271,
+      "scope": "Complete disjoint row assembly"
+    }
+  ],
+  "all_initial_products": 528,
+  "all_accepted_leaves": 100521,
+  "all_recursive_boxes": 200514,
+  "unresolved": 0,
+  "active_caps_module_excluded": true
+}

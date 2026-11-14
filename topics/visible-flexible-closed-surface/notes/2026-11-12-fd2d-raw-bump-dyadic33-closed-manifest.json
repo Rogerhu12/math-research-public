@@ -1,0 +1,315 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "closed": true,
+  "scope": "Frozen input, completed original actual step, necessary accepted value packet, compact execution and regenerable matrix inventory; excludes other direction diagnostics and later active runs",
+  "accepted_state_sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc",
+  "actual_final_objective_norm": 3.439832922685,
+  "strong_target_complete": false,
+  "files": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-accepted.npz",
+      "bytes": 133746,
+      "sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-work/directions/lambda1e5-dyadic-floor01-a01/direction.npz",
+      "bytes": 352669,
+      "sha256": "1c6c04d033bd388d180c976e2c0b9600428d26502673a188520154f13621999a"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-work/reduced-factors/lambda1e5-dyadic-a01/summary.json",
+      "bytes": 54886,
+      "sha256": "5a4615c54dcd577aa78d7b256d0ad4a1a9bd3202a02e5295d3c0cb361087d543"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-close-staged-dyadic-step.py",
+      "bytes": 7827,
+      "sha256": "4ac76e69ddc292b9905412b30045b3edc9b2e93b0bd187368c7b6ca544a24d36"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-baseline-adoption-progress.jsonl",
+      "bytes": 301,
+      "sha256": "13e0f51e2efad7564aa9a4b793cb4c19ed9d686d14c2d17e1aa608b4c10bba65"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-baseline-adoption-report.json",
+      "bytes": 134886,
+      "sha256": "d1733a9bdc152858a2a2a073024ddb3099d338b41d8f15e80ed294eecb7d3f84"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-closed-summary.json",
+      "bytes": 83095,
+      "sha256": "34ca81296bba022bd2c0b01fd21ac9a7305efa5143a5bb1f3c75b8d12a50e20a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-compressed-controller-a01-report.json",
+      "bytes": 35256,
+      "sha256": "46a2efbf4c1e5c58bfd1a16f4bc497a55c1bef84678feac99478bd14c5457ed3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-compressed-merge-a01-report.json",
+      "bytes": 37200,
+      "sha256": "bb20915f952d3577c5c7ae182897a65f84c0c35ad06b7a7160914ef45c1dde01"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-plan-a01-process-receipt.json",
+      "bytes": 3313,
+      "sha256": "e4b738f7c75162f12dbc7126747093eb04bc219a506982d78b7cc6ef358faa2f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-plan-a01-progress.jsonl",
+      "bytes": 233,
+      "sha256": "0fc6aa4dc16fb81d35c9476ce7d70736516051f3eff7c006b1ad3defb16a0685"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-plan-a01-report.json",
+      "bytes": 99822,
+      "sha256": "929b8706916375ad4810b2323564846c3c6559d1c381f280f60224a811ce3768"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-publication-compression.json",
+      "bytes": 653,
+      "sha256": "325fb6b80c08eb2910e8272c0ae2e07921d4cadc7670b0dfe5ff170ccb8897d2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-a01-process-receipt.json",
+      "bytes": 3448,
+      "sha256": "8cda0aeff1600afe0fcb1c51ef09b9565aad98c2288b15595d30779ecf8b55cc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-a01-progress.jsonl",
+      "bytes": 5888,
+      "sha256": "d9f084c0a834168e17b36f1a1f531892355366eb7ccd782c923ebfda906203d1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-a01-report.json",
+      "bytes": 144802,
+      "sha256": "aced4d7bf2e1d771cfcc16c6609c501fa55b50275f2aee4fca8a8b45e045158a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-damped-a01-process-receipt.json",
+      "bytes": 3458,
+      "sha256": "21775b59d2944cc7eb2eedf3fee322f32299245dd0fc92d0531440524c0469f7"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-damped-a01-progress.jsonl",
+      "bytes": 5290,
+      "sha256": "003a3f092f6bb326ab5f0b9b8b4f95ede207574a4bfe3f5301bfd4fe5322bdc1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-qp-damped-a01-report.json",
+      "bytes": 145019,
+      "sha256": "7d12b313150ece5e815bbda3f4a51feee4d1d48f678a6499edb78327aeb182d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-reproducible-cache-inventory.json",
+      "bytes": 197942,
+      "sha256": "98a1ff91b185c557501873b14a5af7d4b59e4c49c3a938daf239d7ef57dddd0a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-request.json",
+      "bytes": 3405,
+      "sha256": "ee1e3ed0475d10175a867be8eb30c8e80c0f3f108f49de6328b199a3d0cc76b2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-a01-process-receipt.json",
+      "bytes": 3454,
+      "sha256": "48fe3a8da5f25fbd1581ad516f37dc74b66defa2ebc5d8f1df7ba708f2a1e3ee"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-a01-progress.jsonl",
+      "bytes": 41112,
+      "sha256": "4426988b0c304106d08434dc47021444b581e5bc739203f149f0dd9fd2c50aa9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-a01-report.json",
+      "bytes": 114070,
+      "sha256": "272d060652337818d380845ccc2407473711972487e1dd6eb87227d7baa54b6d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-damped-a01-process-receipt.json",
+      "bytes": 3487,
+      "sha256": "6587dea55490e9e6c39e96694bd71bd95f385ec4b1e4b4fe23a5c9b056b2e773"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-damped-a01-progress.jsonl",
+      "bytes": 41116,
+      "sha256": "741564b0ebd8868bd5bbf9c7f6d3821fb73d73c224ebe8f508cd89c9fd57081e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-schur-damped-a01-report.json",
+      "bytes": 114090,
+      "sha256": "f965f135f642b15a8106a7a75ccdb3e5d95bbb8b3aff9d04dd6f5d827498d6f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-back00-a01-process-receipt.json",
+      "bytes": 3425,
+      "sha256": "ec22409008c64bbb006f5dd179dff543df19d85a48e02c723f2fda896172c80c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-back00-a01-progress.jsonl",
+      "bytes": 2004,
+      "sha256": "26a16a0a1b937d244bce295093f935891b9ff53e22d3a8fa9a7941e5125c7c08"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-back00-a01-report.json",
+      "bytes": 179624,
+      "sha256": "49364d714b8698b595e9b1fd84d619cc7b8e2277a9ca03ab60b5e396509b8a0e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back00-a01-process-receipt.json",
+      "bytes": 3456,
+      "sha256": "3e741c04cd9fd4d973b699781cd508683353f4cce614ee719ed8a5a6c447429d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back00-a01-progress.jsonl",
+      "bytes": 2001,
+      "sha256": "8b9c7f4acf69d96b4903de5a869d2846ea01d8eaad91dc2cdbaba55acf605c01"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back00-a01-report.json",
+      "bytes": 179627,
+      "sha256": "21043587a7d06128a6e91eb555840c499bd1969c6dc87a883b279fc0e5d8e3a4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back01-a01-process-receipt.json",
+      "bytes": 3447,
+      "sha256": "c048806d12977f567bcaeeaf1d329c2285b0a24df6f76d4ed1c104c52f51f562"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back01-a01-progress.jsonl",
+      "bytes": 2002,
+      "sha256": "3886e6afdb94ad8910fef03c085609524fc399ba72aa130361967ad7a55d303a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back01-a01-report.json",
+      "bytes": 179188,
+      "sha256": "1366ff2d6631bd43538b5df339790fee3eba227296344f60941c6322329b667f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-physical-metric.json",
+      "bytes": 2683,
+      "sha256": "06f3f84cc8e35b84b52d74e68af1bf554f05ade9120e7b1aae04cd3deeb0a795"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-process-receipt.json",
+      "bytes": 3303,
+      "sha256": "4ad5faf0a2b2bb1ed892ff084abf80bd623a1d85a05d6ea555289cb537a8cb4f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-progress.jsonl",
+      "bytes": 2415,
+      "sha256": "b9dd6ab80b9469c4cbf4898a6fc632df259bd794f7c13bee6e5a6804d075c836"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-report.json",
+      "bytes": 253993,
+      "sha256": "14fdb83c2f71a0c339e22d0bd251ae057a0f42670dce914b7cfc632df4d3b954"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-result.json",
+      "bytes": 100929,
+      "sha256": "4f26ca10cc0edb9a38400120af51d7a5c0c2bdf03eaefcae21f277ca8c78d7dc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/manifest.json.gz",
+      "bytes": 76013,
+      "sha256": "b493221fc61426109b69e6442f9957ae87d773752e0e56c43c8941be7d3a1905"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0000.npz",
+      "bytes": 450884,
+      "sha256": "22d0269ea55db6362b9502aadbd54d2c7c04008e2053f010d6217684cd4f5f30"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0001.npz",
+      "bytes": 635191,
+      "sha256": "80969c1630e1b29de3fcc6b146ebaf72cebe49e633d71802af44b42fbcc54437"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0002.npz",
+      "bytes": 628960,
+      "sha256": "8ff0ec32ec415d5e4c4ca2e9cc0a436b8e92a916b81ccf329bba94c5aa75d464"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0003.npz",
+      "bytes": 560745,
+      "sha256": "18fb2082092966d155e643cd43c8be37c3d0deacf154a2799ba5204c78824f0e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0004.npz",
+      "bytes": 199720,
+      "sha256": "da5983e624307d55a778351013304828bf5a6600531503a471814dd1821abdaf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0005.npz",
+      "bytes": 636081,
+      "sha256": "fa3f649353007380b4a098851071757f199a3ac952ea7bace3e7ded6dc310f84"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/part-0006.npz",
+      "bytes": 310056,
+      "sha256": "8099cee8d387c776381366ee01d2a86e48f8625778ee8d4943df77a1ece6137c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/baseline-summary.json",
+      "bytes": 77735,
+      "sha256": "61113adb4657cbec1e8b6b1c1eaf0119965ea40dcdcfcb4ac48e78c8e29b9adf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/directions/lambda1e5-dyadic-floor01-a01/summary.json",
+      "bytes": 86091,
+      "sha256": "ef992c08dd0dc12d889f615101152f3c6ee5b326fe173f7184144b0cfb305b3d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/directions/lambda1e7-dyadic-floor01-a01/direction.npz",
+      "bytes": 354295,
+      "sha256": "e637ee42baae098c38363472f147cda8f4469fb268c319ada19d120a56f3b22b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/directions/lambda1e7-dyadic-floor01-a01/summary.json",
+      "bytes": 85881,
+      "sha256": "fb38d37c79332ab2948b0af4457b947d7156b1f043b354b4f695d3ba742fde8a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/normal-partition-plan.json",
+      "bytes": 46631,
+      "sha256": "54e399ab72338967b2600a82b96298a96e35cdcc5682ab7e8b230681dc933f4b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/normal-partitioned/manifest.json",
+      "bytes": 477006,
+      "sha256": "ee45de374ad3125ce8230b7f9d31b3f1948ae5636d0d0dbb38e765393892ddde"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/normal-partitioned-summary.json",
+      "bytes": 59703,
+      "sha256": "6a91fe6cfd0e5e6557a0b6cf7b056d7e2c8413041d40ce179c8aec2ead66cbef"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/normal-reference.json",
+      "bytes": 40315,
+      "sha256": "d7d888704f815c2df532255d42533517ec628a276ca8c2a6d4000eb16aacf4f4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/trials/lambda1e5-dyadic-floor01-a01/back-00.json",
+      "bytes": 81418,
+      "sha256": "f883ee1e7c80f97218f4b332c35a8467a38e356f3dfee9c580b012e82b0b5407"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/trials/lambda1e5-dyadic-floor01-a01/back-01.json",
+      "bytes": 80999,
+      "sha256": "998cb19420abb8ba8e7a320f1f9d45223d6c582446b1ab36e52b86e623ad2a97"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/trials/lambda1e5-dyadic-floor01-a01/back-02.json",
+      "bytes": 100929,
+      "sha256": "4f26ca10cc0edb9a38400120af51d7a5c0c2bdf03eaefcae21f277ca8c78d7dc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-dyadic33-work/trials/lambda1e7-dyadic-floor01-a01/back-00.json",
+      "bytes": 81422,
+      "sha256": "093a42c59b2a4f59065b826d4ff8233bf3fd803f0f53e57677bf27b5cdd8af42"
+    }
+  ]
+}

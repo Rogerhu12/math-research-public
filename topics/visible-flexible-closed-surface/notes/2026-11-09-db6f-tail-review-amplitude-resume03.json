@@ -1,0 +1,49 @@
+{
+  "README_complete": false,
+  "actual_response_source_files": 8,
+  "candidate_or_config_created": false,
+  "changed_argv_options": [
+    "--initial-step",
+    "--out-prefix",
+    "--resume-checkpoint",
+    "--resume-scale"
+  ],
+  "closed_call15_files": 8,
+  "closed_warm_residual": 6.367950627222893e-10,
+  "finite_state_scalars_checked": 25950,
+  "first_target_exact": "63/64",
+  "interruption_files": 9,
+  "no_call16_numerical_failure_inference": true,
+  "old_child_or_worker_exit_inferred": false,
+  "old_observed_tool_exit_code": 1,
+  "original_bindings": 66,
+  "original_iterations": 36,
+  "original_tolerance": 2e-09,
+  "raw_state_scalars_checked": 390,
+  "resume03_files_present_at_review": [],
+  "resume_scale_exact": "31/32",
+  "review_inputs": [
+    {
+      "bytes": 14721,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-amplitude-resume03.py",
+      "sha256": "c45222bf707d7a91d5d3c2bbab4e48abe8bdfe0b38e94b584eb41b81a4bac3ec"
+    },
+    {
+      "bytes": 27839,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c"
+    },
+    {
+      "bytes": 1952,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-source-check.json",
+      "sha256": "ba64ac7ab6098750724e992d85c562559705a2a426e787aec965fc90312f9c84"
+    }
+  ],
+  "script_sha256": "32a7006bdac244b8e6baa5b80c05f4493cf390325d66a5f9e1ce57596979680b",
+  "solver_root_RK_calls": 0,
+  "status": "PASS-independent-static-and-real-metadata-resume03-review",
+  "step_exact": "1/64",
+  "typed_configuration_and_physical_parameters_equal": true,
+  "verified_bound_files": 83,
+  "warm_has_final_jacobian_or_audit": false
+}

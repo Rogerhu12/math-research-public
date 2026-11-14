@@ -1,0 +1,130 @@
+{
+  "schema": "fd2d-real-nonlinear-tail-continuation-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-continuation-bounded.py",
+    "bytes": 7101,
+    "sha256": "25ed204a69a567daf294f6a0766252c2d6844bc6ccd8e468f82382d8cab424aa"
+  },
+  "worker": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v8.mjs",
+    "bytes": 19843,
+    "sha256": "4b7b8b94f60d31a1042f558fb92c125c910cc8d38c107e875867453e2b94fd0a"
+  },
+  "config": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/config.json",
+    "bytes": 22506,
+    "sha256": "3a7d37e6f711519d3de3c2679eb4f1585ecc6354fca9f45647df292618752988"
+  },
+  "requests": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/requests.json",
+    "bytes": 339,
+    "sha256": "0b185eb6362874b94741a3d8b925e7a2b0d74df7626c1c451442c58031ef6f6e"
+  },
+  "request_values": [
+    {
+      "height": [
+        -2e-09,
+        0,
+        0,
+        0
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    {
+      "height": [
+        -4e-09,
+        0,
+        0,
+        0
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    {
+      "height": [
+        -8e-09,
+        0,
+        0,
+        0
+      ],
+      "jacobian": true,
+      "audit": true
+    }
+  ],
+  "responses": [
+    {
+      "call": 1,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-request-0001.json",
+        "bytes": 91,
+        "sha256": "1ed97e5f1ca12ae733965cc5a03a4cb63149fc928edc11883221832e666259ef"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-response-0001.json",
+        "bytes": 799650,
+        "sha256": "d8a78ef41bed1c7d98af6f887e30e6ddbe2b88208fe5abc9ca8d26da24f58248"
+      },
+      "converged": true,
+      "residual": 1.6067532721703842e-14,
+      "failed": null,
+      "history_count": 3,
+      "has_actual_height_jet_jacobian": true,
+      "has_actual_audit": true,
+      "seconds": 536.4817047479996
+    },
+    {
+      "call": 2,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-request-0002.json",
+        "bytes": 91,
+        "sha256": "94cbdf1bf80f5274d0982f5d0dc64db58dfc8db4ab5a2b6d9e1e38160c6267cc"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-response-0002.json",
+        "bytes": 803826,
+        "sha256": "8e6c661074140f863e00869d4ed2983df57f5cca8a0e2ddcf39998419ee46ddb"
+      },
+      "converged": true,
+      "residual": 3.581202630383721e-14,
+      "failed": null,
+      "history_count": 3,
+      "has_actual_height_jet_jacobian": true,
+      "has_actual_audit": true,
+      "seconds": 433.53373699199983
+    },
+    {
+      "call": 3,
+      "request": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-request-0003.json",
+        "bytes": 91,
+        "sha256": "79ae0cde5df3bb4ec500269c16f5302502852ae30c5aa2f407900aba6e5b9793"
+      },
+      "response": {
+        "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/outputs/2026-11-12-fd2d-numerical-gc-layered64-full160-04-response-0003.json",
+        "bytes": 805533,
+        "sha256": "f231ac1a2eeec94adddc2d40de49dc6e3fbcaab7c9480d3aa01935e5df9590b9"
+      },
+      "converged": true,
+      "residual": 2.446425031638816e-14,
+      "failed": null,
+      "history_count": 3,
+      "has_actual_height_jet_jacobian": true,
+      "has_actual_audit": true,
+      "seconds": 317.81065727999976
+    }
+  ],
+  "scope": "Actual finite Fourier/depth nonlinear worker response; no infinite-tail or full-surface assertion.",
+  "actual_worker_command": [
+    "node",
+    "--max-heap-size=160",
+    "--max-semi-space-size=8",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-partition-worker-v8.mjs",
+    "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-layered64-nonlinear-04/config.json"
+  ],
+  "converged": true,
+  "residual": 2.446425031638816e-14,
+  "worker_returncode": 0,
+  "maximum_observed_worker_rss_kb": 194448,
+  "seconds": 1359.5065706219998
+}

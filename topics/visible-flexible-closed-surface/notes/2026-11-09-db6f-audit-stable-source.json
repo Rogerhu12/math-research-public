@@ -1,0 +1,14 @@
+{
+  "status": "PASS-frozen-stable-source-algebra-change",
+  "originalSHA256": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+  "stableSHA256": "8d485eb6f9cead594ed22ce491d363a3916a418404f905645c7f0eec0bafdcac",
+  "evaluateASTIdenticalExceptFactoringAndConstantRangeIntersection": true,
+  "JetClassShared": true,
+  "constantRangeJustification": "d(0)=1, d(1)=0, dprime=-140*t^3*(1-t)^3 <=0 on [0,1]; only constant coefficient intersected with [0,1].",
+  "geometryAndAllAnalyticDerivativesUnchanged": true,
+  "doesNotRetroactivelyChangeTightAlphaCertificate": true,
+  "primitiveAndPacketOutputsRequireSeparateCoverageChecks": true,
+  "stablePilotReplayProfilesEqual": true,
+  "stablePilotReplaySHA256": "d6b20e1e183f8c77854b1de79fd2803214860adaf582a7b2db1ab5994bbcaebc",
+  "stableBuilderSHA256": "5843f0b9898ac101a516e6eacadd9cb3ab529b94cda3f0bb4164a5e6ac6da465"
+}

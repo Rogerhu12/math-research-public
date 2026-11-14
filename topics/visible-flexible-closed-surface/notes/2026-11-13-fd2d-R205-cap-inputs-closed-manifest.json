@@ -1,0 +1,69 @@
+{
+  "schema": "fd2d-R205-narrow-cuff-and-continuous-amplitude-cap-inputs-closed-manifest-v1",
+  "date_UTC": "2026-11-13",
+  "closed": true,
+  "scope": "Exact analytic consumption of R111/R113/R128/R130/R199/R204 and new exact scalar-amplitude held bounds for R205",
+  "statement": {
+    "cap_grafting": "An actual flat disk of radius .32 and the .34 open planar collar suffice; no flat .8 or .514 disk and no additional tail-cap gate.",
+    "unchanged_core_premises": "The original planar-disk-closed core remains C2 embedded, lies in |z|<=Z, and has actual whole-core reach>=.097; prefix and cross-piece conditions are not supplied by tail curvature.",
+    "uniform_strong_domain": "0<=A<=6/5, Aq>=34/25, 2/5<=true inner cuff Z<=63/100",
+    "uniform_held_squared_margin": "14005885355328544583/4851059693567978515625",
+    "weaker_support_domain": "Aq>=13/10 and 1/2<=Z<=63/100 also covers 0<=A<=6/5",
+    "range_warning": "The exact Aq=1.30,Z=.40,A=.25 tail endpoint fails the .64 held ball; this does not concern current Aq>1.36203 strong central support."
+  },
+  "execution": {
+    "runtime": "functions pure V8",
+    "BigInt_exact_arithmetic": true,
+    "final_source_actual_execution": true,
+    "final_source_elapsed_ms": 4,
+    "complete_continuous_Bernstein_domains": 4,
+    "common_geometric_budget": true,
+    "low_central_low_height_exact_witness": true,
+    "OS_process_created": false,
+    "OS_exit_code": null,
+    "new_F_J_normal_LM_BVP_body_or_candidate_evaluation": false
+  },
+  "interfaces": {
+    "source": "scripts/fd2d_R205_amplitude_cap_budget.cjs",
+    "exports": [
+      "tailBounds",
+      "uniformHeldCertificate",
+      "commonBudget",
+      "constants",
+      "binary64Rational"
+    ],
+    "number_handling": "Numbers use their exact IEEE binary64 rational value; decimal strings are exact decimals.",
+    "existing_R205_and_solver_sources_modified": false,
+    "root_metadata_or_results_index_modified": false
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-13-fd2d-R205-bent-annulus-thin-cuff-grafting.md",
+      "bytes": 9457,
+      "sha256": "b5c19ac130a1d81b514908b3d59528e984dde226cfcdacbbcdfc98fce01d64cd",
+      "publication_commit": "36e5bd160747f8158fa6a6cd4252db3be4778edc"
+    },
+    {
+      "path": "scripts/fd2d_R205_amplitude_cap_budget.cjs",
+      "bytes": 7673,
+      "sha256": "ff80d1fb0407a363efb6dc17f8ecf9ee50b5db5be9737df136714a40f61541f0",
+      "publication_commit": "4d2cb25b163affd925596f0145f3511d75d10617"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R205-continuous-amplitude-cap-inputs.md",
+      "bytes": 11308,
+      "sha256": "726a4f2631fa12973c8dbd676b7a4110c0b4f003b98e9d6f49af1efe36ae7f34",
+      "publication_commit": "f4872d9c9005ac1c8985e4acd30984fc4fe55d98"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R205-continuous-amplitude-exact-V8-report.json",
+      "bytes": 52367,
+      "sha256": "d619386b91e2bab73749292689bfaad9e037331381eb0480b3375d75a7250e27",
+      "publication_commit": "2adfdea734d67b666cef512d574e9941bf1d1dd0"
+    }
+  ],
+  "file_count": 4,
+  "total_artifact_bytes": 80805,
+  "hashes_checked_against_exact_retained_UTF8_contents": true,
+  "self_not_in_files": true
+}

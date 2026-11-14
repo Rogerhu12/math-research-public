@@ -1,0 +1,66 @@
+{
+  "schema": "78718-production-post-step-input-closure-v1",
+  "observed_utc": "2026-11-10T08:34:09.433246+00:00",
+  "scope": "Only read/hash existing inputs and closed files after actual tool exits; no mathematical program.",
+  "stages": [
+    {
+      "invocation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-invocation.json",
+        "bytes": 5699,
+        "sha256": "ffbef0729d2ab088c404d6f2819ce69ba42079aab0b96e51dbf98d64471fab8b"
+      },
+      "actual_tool_observation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-original-prefix-base-01-observed-exit.json",
+        "bytes": 2027,
+        "sha256": "614511571966ee385dd65b7c9a2cf05b4c9a16f70b7ddf1506529bd868a743a6"
+      },
+      "actual_exit_code": 1,
+      "all_preexisting_plan_bindings_currently_unchanged": true,
+      "preexisting_binding_count": 324,
+      "previous_production_files_unchanged": 0,
+      "all_after_files_rehashed": 1,
+      "expected_outputs_present": false,
+      "all_production_files_below_5000000": true
+    },
+    {
+      "invocation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-01-invocation.json",
+        "bytes": 6018,
+        "sha256": "8292fdd09ad299f5efd69633abcf83ae2665f1f3af2ae435984d751b5164e63c"
+      },
+      "actual_tool_observation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-base-01-observed-exit.json",
+        "bytes": 4301,
+        "sha256": "266d17803529d9bf820e531bc59fac3c53438de4476e193b76db691c21c31bda"
+      },
+      "actual_exit_code": 0,
+      "all_preexisting_plan_bindings_currently_unchanged": true,
+      "preexisting_binding_count": 354,
+      "previous_production_files_unchanged": 0,
+      "all_after_files_rehashed": 7,
+      "expected_outputs_present": true,
+      "all_production_files_below_5000000": true
+    },
+    {
+      "invocation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-target-01-invocation.json",
+        "bytes": 6986,
+        "sha256": "f0c18e2f0776a84751a91a833396279b595b694495387071c942b99c3275f8a4"
+      },
+      "actual_tool_observation": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-production-storage-prefix-target-01-observed-exit.json",
+        "bytes": 4908,
+        "sha256": "0f869fe7419d953ef9b68abb162a093a6ff9a415264e9be4e5f43c52a2249ee9"
+      },
+      "actual_exit_code": 0,
+      "all_preexisting_plan_bindings_currently_unchanged": true,
+      "preexisting_binding_count": 354,
+      "previous_production_files_unchanged": 7,
+      "all_after_files_rehashed": 9,
+      "expected_outputs_present": true,
+      "all_production_files_below_5000000": true
+    }
+  ],
+  "solver_calls": 0,
+  "production_calls": 0
+}

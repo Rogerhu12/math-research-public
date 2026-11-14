@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-real-tool-exit-receipt-v1",
+  "attempts": [
+    {
+      "session_id": 49627,
+      "initial_chunk": "75fb36",
+      "terminal_chunk": "ce7de1",
+      "exit_code": 1,
+      "reason": "report-only relative Path identity after mathematical queries and data writes"
+    },
+    {
+      "chunk_id": "13d875",
+      "exit_code": 1,
+      "reason": "flint unavailable in recovered primary environment; no mathematical queries"
+    },
+    {
+      "chunk_id": "49596d",
+      "exit_code": 0,
+      "internal_seconds": 0.21073503400111804,
+      "pythonpath": "/workspace/scratch/fd2d-recovered-deps/python-flint-0.9.0"
+    }
+  ],
+  "unstarted_call": {
+    "functions_cell": "g4:30",
+    "reason": "first subprocess was never created; dependent patch and rerun not executed"
+  },
+  "body_or_F_J_BVP_evaluated": false
+}

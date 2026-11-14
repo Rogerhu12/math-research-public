@@ -1,0 +1,28 @@
+{
+  "status": "CLOSED_METADATA_REVIEW_EXECUTION",
+  "tool_receipt": {
+    "tool": "exec_command",
+    "chunk_id": "ec7b4f",
+    "exit_code": 0
+  },
+  "recorded_utc": "2026-11-09T14:45:31.547876+00:00",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "argv": [
+    "python",
+    "scripts/db6f-prefix-review-single-target-closed-failure.py",
+    "--out",
+    "notes/2026-11-09-db6f-prefix-review-single-target-closed-failure.json"
+  ],
+  "source": {
+    "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-review-single-target-closed-failure.py",
+    "bytes": 8524,
+    "sha256": "717c9d04f15275bac297ff9b3043ad98da067863c1355e72a8c6a8d7f3b19f45"
+  },
+  "report": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-single-target-closed-failure.json",
+    "bytes": 33225,
+    "sha256": "dc341acadfb5ae74ad751545bedc0cb3bb07b55a41d1885f44c50b3b99a834cf"
+  },
+  "mathematical_solver_calls": 0,
+  "root_tool_session_polled_by_reviewer": false
+}

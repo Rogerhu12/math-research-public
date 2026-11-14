@@ -1,0 +1,172 @@
+{
+  "schema": "fd2d-closed-recovery-source-and-observation-manifest-v1",
+  "closed": true,
+  "scope": "Frozen merge sources and closed first failures; active streaming-controller-a02 output excluded. First four actual tile sums are durably saved, no full normal success claimed.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "399c8240373000c663bd1c0c5c3f2704af32e914d50352fda7830c651231f32e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt.json",
+      "bytes": 3164,
+      "sha256": "9782d497792bf52b2adf210b2fdacc0f9e5b159ce3d8cee4312dba4620273466"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-report.json",
+      "bytes": 75095,
+      "sha256": "6c0d883968fcb741a41e6b2e2a5c9dade53c295a97e07c79d5b20eee81a6fb79"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "df8ec89574bd5ba363b932c4d5a9d41e30ce5c50afdd1ed7c79bb22618a68e05"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt.json",
+      "bytes": 3323,
+      "sha256": "a264df150c94918b9f8fd2576f43b13c267927fb9ab040dda4754fcba629bca3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-progress.jsonl",
+      "bytes": 1322,
+      "sha256": "abc7c8bc26c9d5369fa3356429587b06f5f8e453aacc7521f7ac1f789b32faab"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-report.json",
+      "bytes": 75094,
+      "sha256": "09c410c41ec05705f8525706fd083ca5904155cfa772c79c7c1564ac4cf7f78b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-resume-controller-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "a7aea572b1371422b383c6a5f1e5b6142808172081b3cb103038d0a92f682980"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-merge-resume-controller-a01-report.json",
+      "bytes": 2023,
+      "sha256": "aac32cdb450e9fd3181a3a1561a0241f5b25083af78d5eeee8f7246a03ce3055"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt.json",
+      "bytes": 3595,
+      "sha256": "dc3d81174e1395b42f7b0364f0a3783753e644e43925acd65b69ea6fdfa610e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-progress.jsonl",
+      "bytes": 108,
+      "sha256": "54a81f3e7364c5489ee6e7ecd47c0fa6183e5c3c6377dce7c6d2bb682940c51f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-report.json",
+      "bytes": 75103,
+      "sha256": "c284f3627e472dfdb190301eb531f146771f9d551eeba2c76e01d6ad6ae65545"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-stream-merge-controller-a01-actual-tool-exit.json",
+      "bytes": 236,
+      "sha256": "cf9ee157c63424eda45e072a06f003613b20936ddf1e1779aa0a24939a0d391c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-stream-merge-controller-a01-report.json",
+      "bytes": 3261,
+      "sha256": "d222091e33b124be68ac24b04bd68a2ae1a98ef20ee71ae3941560716a0ae5b9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt.json",
+      "bytes": 3591,
+      "sha256": "4a8fda538b8373898f4a12613a39c31634fbe12306acbc9c80d67a5fe1c6f399"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-progress.jsonl",
+      "bytes": 791,
+      "sha256": "922d2c75915711ba584a022caaacf68d83f2a2d705fdcdac924dd2a5e82f5618"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-report.json",
+      "bytes": 75631,
+      "sha256": "93ae66fc58acffe57d05b262c8254d2354a79fa2d20169d955f01edafe514c23"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt.json",
+      "bytes": 3597,
+      "sha256": "4198eb74e48c6d5dae72afe10ebfc4ff9e2c6e98348191f0c664d08230a3473c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-progress.jsonl",
+      "bytes": 214,
+      "sha256": "66527ee027350ca392e029061508e815921d5fcaf2f39b02a7de9127da29b79a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-report.json",
+      "bytes": 75110,
+      "sha256": "3d255a47e250d4aa47b1f1da42c2c4b21d3502914a6f63f2e942efb3e2dba75c"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt-console.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a01-process-receipt-samples.jsonl",
+      "bytes": 3075,
+      "sha256": "92b31599d90b93cb2a9aec425257be1ca220ce02c80cba87fdf6161f69915af6"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt-console.txt",
+      "bytes": 1322,
+      "sha256": "abc7c8bc26c9d5369fa3356429587b06f5f8e453aacc7521f7ac1f789b32faab"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-merge-a02-process-receipt-samples.jsonl",
+      "bytes": 12950,
+      "sha256": "d3917728adff3b885d03299cc84ca7728d63cdc47a4b2c286eec01c7e3ed8cd6"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt-console.txt",
+      "bytes": 108,
+      "sha256": "54a81f3e7364c5489ee6e7ecd47c0fa6183e5c3c6377dce7c6d2bb682940c51f"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-mergefold-0000-0004-a01-process-receipt-samples.jsonl",
+      "bytes": 4965,
+      "sha256": "6265c61cd49332c6b7bf07007b0357d0caf7b09688887ad7ae599546d25a966a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt-console.txt",
+      "bytes": 791,
+      "sha256": "922d2c75915711ba584a022caaacf68d83f2a2d705fdcdac924dd2a5e82f5618"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0000-0004-a01-process-receipt-samples.jsonl",
+      "bytes": 9088,
+      "sha256": "31c74674c1812607041423757daa276df387b4abdece915f4f52385d61c61efd"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt-console.txt",
+      "bytes": 214,
+      "sha256": "66527ee027350ca392e029061508e815921d5fcaf2f39b02a7de9127da29b79a"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-raw-bump-grouped28-streamfold-0004-0008-a01-process-receipt-samples.jsonl",
+      "bytes": 7049,
+      "sha256": "b4bfd9825371638c8fc2de17bac5b7af67f2a1a4917b8bf53eeda515e1552771"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-resume-normal-merge.py",
+      "bytes": 12808,
+      "sha256": "909f2d2321c69c99be0046c783cbc45702921dcf66d7b8ce7a32e7f2dacc4de3"
+    },
+    {
+      "path": "scripts/fd2d-gc-grouped-stream-resume-normal-merge.py",
+      "bytes": 12361,
+      "sha256": "f36f62850aed361eb1ef1e19186d8e9520d0c89d05eeb624a28cafb24cd424dc"
+    },
+    {
+      "path": "scripts/fd2d_gc_stream_saved_normal_add.py",
+      "bytes": 5144,
+      "sha256": "6cafbc985a2193303626044dded9d24d47c1a8c6f16462772ca099438302fef3"
+    }
+  ]
+}

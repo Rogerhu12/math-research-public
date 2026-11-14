@@ -1,0 +1,151 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "utc": "2026-11-12T12:35:06.651048+00:00",
+  "runs": [
+    {
+      "stem": "2026-11-12-fd2d-raw-bump-joint03",
+      "session": 50685,
+      "completion_chunk": "e7b9c2",
+      "actual_wrapper_exit": 137,
+      "actual_child_returncode": -9,
+      "seconds": 119.10329107199959,
+      "accepted": 3,
+      "latest_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint03-accepted-0003.npz",
+        "bytes": 36985,
+        "sha256": "ce827cc29b83bd7ce0d3a78ec87f8dec9b8e13df9535a6573dc2d1b4b01b97f3"
+      },
+      "last_observed_peak_rss_kib": 628824,
+      "original_report_preserved": true,
+      "owner_stop_consumed": false,
+      "signal_reason": "Unknown; CPU/AS/RSS rlimits probe was unlimited, memory cgroup event files unavailable"
+    },
+    {
+      "stem": "2026-11-12-fd2d-raw-bump-joint04",
+      "session": 50006,
+      "completion_chunk": "870af9",
+      "actual_wrapper_exit": 137,
+      "actual_child_returncode": -9,
+      "seconds": 170.56330479200005,
+      "accepted": 11,
+      "latest_checkpoint": {
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint04-accepted-0011.npz",
+        "bytes": 37014,
+        "sha256": "1f112833b85d0cf9d151760b7120b0801949188027a6399a61885a11a774fe2f"
+      },
+      "last_observed_peak_rss_kib": 606296,
+      "original_report_preserved": true,
+      "owner_stop_consumed": false,
+      "signal_reason": "Unknown; CPU/AS/RSS rlimits probe was unlimited, memory cgroup event files unavailable"
+    }
+  ],
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_raw_bump_cylinder.py",
+      "bytes": 1749,
+      "sha256": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_cylinder_bounded_schur.py",
+      "bytes": 5095,
+      "sha256": "35d06370a674c3224f035007d109b4b29808a3d844202d4477fa411fafda2b6e"
+    },
+    {
+      "path": "scripts/fd2d_gc_bump_cylinder_bounded_schur_v2.py",
+      "bytes": 5390,
+      "sha256": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-cylinder-run.py",
+      "bytes": 14349,
+      "sha256": "8d977f4570a3a70bafc548e1c99f56a98bcf6ed3c155715c88605cb2ccb4c903"
+    },
+    {
+      "path": "scripts/fd2d-gc-raw-bump-joint-cylinder-csc-run.py",
+      "bytes": 14359,
+      "sha256": "3738d260c0ccd880b5ce25bd1fe8711829f9fe04e3a711751be51ca5d1acb971"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-initial.npz",
+      "bytes": 37016,
+      "sha256": "0e4e20a68173e586d0ba1b84b499ed6098a521f0547042e863a191da692fe22f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-report.json",
+      "bytes": 26820,
+      "sha256": "c810097e2e5003836dccab0ae9207e3b2ee3996a9cbf75bb64eb517ff752ece0"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-progress.jsonl",
+      "bytes": 25145,
+      "sha256": "429edd49100f82391211998d91349c84f1f9edf130aeb8cb994978aec4c9ddb3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-process-receipt.json",
+      "bytes": 990,
+      "sha256": "926eee9e44e5c376a1c82f28953d3ee413da5afcabd204c8ac8df23229529fb4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-termination.json",
+      "bytes": 3875,
+      "sha256": "acad6e65d685071f300bedca5c2cf1b0a9cdbfb6ef014af88c057efc7874a94e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-accepted-0003.npz",
+      "bytes": 36985,
+      "sha256": "ce827cc29b83bd7ce0d3a78ec87f8dec9b8e13df9535a6573dc2d1b4b01b97f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-owner-stop.txt",
+      "bytes": 264,
+      "sha256": "70401614ce36556e0a8ec1e3249f7f9b00b77a7c0d0a209a48e63d3631295002"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-initial.npz",
+      "bytes": 36985,
+      "sha256": "ce827cc29b83bd7ce0d3a78ec87f8dec9b8e13df9535a6573dc2d1b4b01b97f3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-report.json",
+      "bytes": 26936,
+      "sha256": "98173de8fb835de540674ea028f2cd091c194cac128402b75ba97fe055c82f4f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-progress.jsonl",
+      "bytes": 77053,
+      "sha256": "e9898366f2d22812c2a2885b7869134f4d5c375d1ab4be2a28f56bad038ab037"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-process-receipt.json",
+      "bytes": 994,
+      "sha256": "546cde9563e5c5f31dc8037372972c2c3f3283dcb069c6da98512fbb149b2317"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-termination.json",
+      "bytes": 3897,
+      "sha256": "fbc9b83e6f1d05ac6e0d9f41cc8e5cd499ee4f609734f6af4e4b809dfa2a9f31"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint04-accepted-0011.npz",
+      "bytes": 37014,
+      "sha256": "1f112833b85d0cf9d151760b7120b0801949188027a6399a61885a11a774fe2f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-joint03-static-inputs.json",
+      "bytes": 2668,
+      "sha256": "a047a6c67df8043c7b4b0ffe4b26fc8c00d5b8c1123c0cbb43625584c47d5985"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-exact-central-cylinder-elimination.md",
+      "bytes": 3697,
+      "sha256": "7bdf2e0d313d5b7276d87fd3374def8e6889a251c4e056e896ec80aa4ae250c2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-runtime-resources-01.json",
+      "bytes": 1791,
+      "sha256": "c526268d9b9d72656793a8c16bdab1e20ae004673a0dbc166c5e61cc395d121d"
+    }
+  ],
+  "scope": "Actual exact-cylinder continuation with two observed SIGKILL exits; final accepted entities retained. No mathematical failure or success certificate asserted.",
+  "active_outputs_excluded": true
+}

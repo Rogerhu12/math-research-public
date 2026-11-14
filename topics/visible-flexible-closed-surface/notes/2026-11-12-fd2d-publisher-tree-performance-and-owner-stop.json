@@ -1,0 +1,48 @@
+{
+  "schema": "actual-publication-workflow-record-v1",
+  "old_publisher_session": 67476,
+  "old_final_chunk": "ce2ee9",
+  "old_exit": 130,
+  "owner_requested_stop": true,
+  "reason": "Repeated ordinary push races; measured mktree cost and replaced it with equivalent canonical Git tree encoding",
+  "observed_old_attempts": 15,
+  "last_observed_rules_read": "490275940e1c162bb45408218947f6263aabf7c8",
+  "old_remote_publish_success_observed": false,
+  "tree_equivalence_check": {
+    "session": 92376,
+    "final_chunk": "388f11",
+    "exit": 0,
+    "entries": 5040,
+    "tree": "fdcb903b0686b0d2c06de7bcf28536ba874ef2c1",
+    "equal": true,
+    "mktree_seconds": 47.5700088729991,
+    "canonical_hash_object_seconds": 0.07396926599903964
+  },
+  "new_source": {
+    "path": "topics/visible-flexible-closed-surface/scripts/fd2d_publish_tree_overlay_binary.py",
+    "sha256": "03034612bf31b3a483b91197adb1a065316b82f32c4e475203326702f22063ed"
+  },
+  "force_push": false,
+  "second_publisher_attempts": {
+    "session_id": 48209,
+    "final_chunk": "0075d5",
+    "exit": 130,
+    "owner_stop": true,
+    "last_observed_attempt": 8,
+    "reason": "Preserve large payload on an owned branch before retrying main to avoid repeated large transfers during concurrent commits"
+  },
+  "initial_binary_retry_exit": {
+    "session_id": 14433,
+    "final_chunk": "d5f73a",
+    "exit": 1,
+    "cause": "Own interrupted pull left an empty publisher-only index.lock"
+  },
+  "lock_resolution": {
+    "stale_mtime": "2026-11-12T14:06:22.117910+00:00",
+    "bytes": 0,
+    "first_cross_filesystem_rename_exit": 1,
+    "reason": "EXDEV",
+    "same_filesystem_preservation_exit": 0,
+    "preserved_path": ".git/worktrees/math-research-publish/index.owner-stopped-20261112-140622.lock-evidence"
+  }
+}

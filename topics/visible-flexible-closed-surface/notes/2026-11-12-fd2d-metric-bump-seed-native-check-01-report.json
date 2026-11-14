@@ -1,0 +1,96 @@
+{
+  "schema": "fd2d-actual-explicit-seed-native-check-v1",
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-clean01-warm.npz",
+    "bytes": 39309,
+    "sha256": "aa8046eec9da82f70fe89964d7553ab9691e1b2f0000719c2e6b19c1d043454f"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-seed-native-check.py",
+      "bytes": 7097,
+      "sha256": "75b3de805716391e41a7da0ffcc03d42300e06b767380f694be180fd122749f1"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_seed_native_field.py",
+      "bytes": 5488,
+      "sha256": "3604594821587e368954434c667455b34452d7e4107476a74fca2f754163eba5"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_clean.py",
+      "bytes": 8205,
+      "sha256": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-body-screen-v2.py",
+      "bytes": 12358,
+      "sha256": "d5aedcebcb759f86b22808b98d702db11daf0b45ce32cd03d07700c712460571"
+    }
+  ],
+  "actual_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-seed-native-check-01-definition.json",
+    "bytes": 14311,
+    "sha256": "3beca166d95808d81dc5dedd903a977b3fdcfb24b28054ea96ecb8feaa1cd39c"
+  },
+  "seed_weight_definition": {
+    "kind": "central_plateau",
+    "start": 0.32,
+    "end": 0.55,
+    "step": 5
+  },
+  "representation_kind": "coalesced_mesh_central_seed_plateau_v1",
+  "nodes": 99,
+  "minimum_actual_cell": 0.0012500000000000844,
+  "node_field_errors": {
+    "values": 9.880984919163893e-15,
+    "full_xi": 1.8207657603852567e-13,
+    "full_s": 1.3642420526593924e-12
+  },
+  "shared_node_angular_jet_error": 0.0,
+  "definition_roundtrip_error": 0.0,
+  "changed_seed_fixed_material_radial_chain_error": 1.5355186997374662e-09,
+  "angular_inverse_error": 2.842170943040401e-14,
+  "checks": {
+    "actual_saved_mesh_preserved": true,
+    "all_actual_parameters_preserved": true,
+    "actual_plateau_metadata_preserved": true,
+    "actual_provider_values_and_jets": true,
+    "shared_angular_node_jets": true,
+    "definition_roundtrip_identical": true,
+    "changed_seed_fixed_material_radial_chain": true,
+    "physical_clock_exactly_one": true,
+    "body_rhs_24_columns_finite": true,
+    "sources_unchanged": true
+  },
+  "implementation_checks_passed": true,
+  "seconds": 18.855607593999594,
+  "physical_target_changed_by_consumer": false,
+  "actual_body_integrated": false,
+  "nonlinear_solve_performed": false,
+  "continuous_certificate": false
+}

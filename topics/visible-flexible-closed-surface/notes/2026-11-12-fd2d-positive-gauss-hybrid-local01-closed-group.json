@@ -1,0 +1,33 @@
+{
+  "schema": "fd2d-closed-targeted-finite-rule-check-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_positive_gauss_hybrid.py",
+      "bytes": 4766,
+      "sha256": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7"
+    },
+    {
+      "path": "scripts/fd2d-gc-positive-gauss-hybrid-local-check.py",
+      "bytes": 6135,
+      "sha256": "dcb4ba0365dddff6545c8c93172ca1f711e1db981b5864216a355ee424b2b2c2"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-report.json",
+      "bytes": 48996,
+      "sha256": "e05b153432e4f986edddc91c77bf80db3f69ab3999126064e65b3bc29db4f87b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-positive-gauss-hybrid-local01-execution-receipt.json",
+      "bytes": 542,
+      "sha256": "95fc11d75555d8821a456bbf52b9ad0eab7fe48fc847eed3d84aee6221d6a76f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-gauss14-known-lifting-integration.md",
+      "bytes": 2011,
+      "sha256": "b489859184999d9b8c7ae23bdc1c3490fea5a9bf229af8988b139dd229878570"
+    }
+  ],
+  "actual_exit": 0,
+  "scope": "Explicit R152 affine background plus complete R153 nonlinear correction; not a nonlinear solve."
+}

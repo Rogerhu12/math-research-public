@@ -1,0 +1,199 @@
+{
+  "schema": "fd2d-finite-codazzi-complement-JVP-check-v1",
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-jvp01-warm.npz",
+    "bytes": 38553,
+    "sha256": "70371620059412d29b2bf51bd76b7617eefc3e0b5af99c127dea74fe66fda9a2"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-codazzi-complement-check.py",
+      "bytes": 9469,
+      "sha256": "cc27dde2488e8c9888acd1431045a4ffaeabf29961f1bc23193a6b36e615a6eb"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_dae.py",
+      "bytes": 16064,
+      "sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    }
+  ],
+  "choices": {
+    "profile_kind": "physical_bumps",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "modes": 15,
+  "radial_nodes": 100,
+  "angular_work": 256,
+  "actual_delta_test": [
+    0.00022945265618534654,
+    -0.00012484405096414272,
+    -0.00029624393097265944,
+    -3.364575808051619e-05,
+    0.00027824352922321073,
+    0.00018250539435967636,
+    -0.00018060357080544706
+  ],
+  "actual_delta_test_is_an_accepted_solution": false,
+  "helper": {
+    "weight": 0.3,
+    "normalization": "weight*sqrt(2/angular_work)",
+    "row_order": "radial cell, equation n then m, angular point",
+    "rows": 50688,
+    "sampled_omitted_codazzi_maximum": 1.1680755200834683,
+    "sampled_omitted_node_rhs_maximum": 1.2267762569984813,
+    "residual_l2": 0.7786412022835077,
+    "profile_kind": "physical_bumps",
+    "original_equations_changed": false,
+    "independent_l_retained": true,
+    "finite_parameter_difference_used": false,
+    "exact_retained_terms_cancelled_before_projection": true,
+    "continuous_certificate": false,
+    "scope": "High angular complement of the two original trapezoidal correction equations on the recorded finite angular grid",
+    "jacobian_nonzeros": 2383304,
+    "parameter_columns": "analytic full tail jets and explicit analytic T or physical-bump target/lifting jets"
+  },
+  "sparse_shape": [
+    50688,
+    4738
+  ],
+  "sparse_nnz": 2383304,
+  "original_F_maximum_change": 0.0,
+  "original_fields_maximum_change": 0.0,
+  "original_projected_codazzi_maximum_difference": 1.0658141036401503e-14,
+  "cancelling_exact_retained_terms_floating_difference": 2.97609159538581e-14,
+  "retained_projection_of_omitted_roundoff_maximum": 1.8092662249471546e-14,
+  "directional_checks": [
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 4e-06,
+      "analytic_direction_norm": 1.8709530338600093,
+      "absolute_maximum": 5.197260850853258e-11,
+      "absolute_l2": 1.5273371286738378e-09,
+      "scaled_l2": 8.16341779313803e-10,
+      "relative_l2": 8.16341779313803e-10
+    },
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 2e-06,
+      "analytic_direction_norm": 1.8709530338600093,
+      "absolute_maximum": 1.3449847724271435e-10,
+      "absolute_l2": 3.3959716606035653e-09,
+      "scaled_l2": 1.8151025702645526e-09,
+      "relative_l2": 1.8151025702645526e-09
+    },
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 1e-06,
+      "analytic_direction_norm": 1.8709530338600093,
+      "absolute_maximum": 2.443008417091219e-10,
+      "absolute_l2": 7.268721122557951e-09,
+      "scaled_l2": 3.8850366583289765e-09,
+      "relative_l2": 3.8850366583289765e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.12705719869587906,
+      "absolute_maximum": 4.526385830819907e-11,
+      "absolute_l2": 7.270129358374986e-10,
+      "scaled_l2": 7.270129358374986e-10,
+      "relative_l2": 5.721934241425066e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.12705719869587906,
+      "absolute_maximum": 1.052242056508168e-10,
+      "absolute_l2": 1.4674467092028998e-09,
+      "scaled_l2": 1.4674467092028998e-09,
+      "relative_l2": 1.1549496795654558e-08
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.12705719869587906,
+      "absolute_maximum": 1.4271518754098433e-10,
+      "absolute_l2": 2.7370251994261357e-09,
+      "scaled_l2": 2.7370251994261357e-09,
+      "relative_l2": 2.154167750839062e-08
+    },
+    {
+      "direction": "physical_bumps",
+      "step": 4e-06,
+      "analytic_direction_norm": 1.3096492562571294,
+      "absolute_maximum": 1.3315710339911746e-10,
+      "absolute_l2": 1.7976286519646014e-09,
+      "scaled_l2": 1.3726031174958075e-09,
+      "relative_l2": 1.3726031174958075e-09
+    },
+    {
+      "direction": "physical_bumps",
+      "step": 2e-06,
+      "analytic_direction_norm": 1.3096492562571294,
+      "absolute_maximum": 1.901114604282994e-10,
+      "absolute_l2": 3.3600463301243895e-09,
+      "scaled_l2": 2.5656077870246935e-09,
+      "relative_l2": 2.5656077870246935e-09
+    },
+    {
+      "direction": "physical_bumps",
+      "step": 1e-06,
+      "analytic_direction_norm": 1.3096492562571294,
+      "absolute_maximum": 4.131950684382879e-10,
+      "absolute_l2": 6.441199420730433e-09,
+      "scaled_l2": 4.918262954723354e-09,
+      "relative_l2": 4.918262954723354e-09
+    }
+  ],
+  "checks": {
+    "raw_F_unchanged": true,
+    "fields_unchanged": true,
+    "sources_unchanged": true,
+    "original_projected_codazzi_reproduced": true,
+    "retained_cancellation_roundoff_only": true,
+    "low_projection_roundoff_only": true,
+    "central_raw_columns_exactly_zero": true,
+    "all_three_directions_nonzero": true,
+    "all_three_JVP": true
+  },
+  "implementation_checks_passed": true,
+  "elapsed_seconds": 30.23337798400007,
+  "continuous_certificate": false,
+  "scope": "Finite implementation checks of additional search rows; no BVP, body ODE, or continuous angular/radial certificate"
+}

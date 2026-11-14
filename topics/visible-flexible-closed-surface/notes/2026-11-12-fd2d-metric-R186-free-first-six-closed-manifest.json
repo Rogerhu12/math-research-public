@@ -1,0 +1,42 @@
+{
+  "schema": "fd2d-R186-free-first-six-corollary-closed-v1",
+  "status": "proved; small exact rational checks actually completed in functions.exec V8",
+  "original_R186_proof_sha256": "cbbab39508842f0bccaabe96fc567e04c6a3537d22796b0b0ca881655e3804ec",
+  "original_R186_source_sha256": "394af7bde86078a6fd5d63a810a233795d6c0c179ebb801af2b01d1aedfe515a",
+  "original_R186_report_sha256": "baf198106aad071c85d4afc027169eacfb4a2b3a62cd3438734e8c201412ed75",
+  "original_files_modified": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R186-free-first-six-corollary.md",
+      "bytes": 7202,
+      "sha256": "8d3915f1a39a5647f078c1af382e10ed649fc0f13e28529da560f8980e55df0c",
+      "commit_sha": "da098da085eb104919025ea36710be45e917fd76"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R186-free-first-six-01-report.json",
+      "bytes": 947,
+      "sha256": "55ed30698fb213fe30062f26d42aaac68e56e4bd1ec208aa5818e765f4dd1824",
+      "commit_sha": "3439631bf476aae56d9abcb33526da79ebe43bfa"
+    }
+  ],
+  "mathematical_scope": {
+    "base": "R136/R171/R175 same accurate base",
+    "first_six_delta": "independent within original exact binary64 ±.08",
+    "delta7": "between exact binary64 .027 and .08",
+    "global_radius_strict_lower": "319/1000",
+    "late_interval_local_a_ss_strict_lower": "11/10000",
+    "late_interval_local_K_strict_upper": "-11/10000",
+    "middle_positive_K": "requires all selected exact R182 middle rows on current delta",
+    "QP_new_row": "e7 dot delta >= exact binary64 .027",
+    "late_positive_K_rows": "excluded",
+    "new_closed_surface_claimed": false
+  },
+  "actual_execution": {
+    "runtime": "functions.exec V8 BigInt",
+    "subprocess_started": false,
+    "OS_exit_code": null,
+    "new_profile_boxes": false,
+    "new_F_J_BVP_body": false
+  },
+  "current_executor_status": "unavailable as reported by root; UTF8 only repository save authorized under root README section8"
+}

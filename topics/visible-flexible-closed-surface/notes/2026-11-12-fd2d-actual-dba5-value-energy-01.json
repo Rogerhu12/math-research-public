@@ -1,0 +1,94 @@
+{
+  "schema": "fd2d-saved-actual-value-energy-breakdown-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-value-energy-breakdown.py",
+    "bytes": 2977,
+    "sha256": "892c46e926234c4dd818736a071be7939c83ffab3c2378f142735c2bb652466c"
+  },
+  "baseline_summary": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic32-work/baseline-summary.json",
+    "bytes": 77736,
+    "sha256": "9e9f1b4a6e0f4fec4d6528309538e5e842b607674f908604d5b6befc801702ed"
+  },
+  "actual_value_manifest": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic32-work/baseline-values/manifest.json",
+    "bytes": 2240999,
+    "sha256": "6c155f0519d65c29b7397bb22702d69cb5fa1f50f5a26c16a1dc60ba73438b95"
+  },
+  "input_field_sha256": "dba5cbd01da65cd7ae156b7d33e5ecd80a971451335a34b5e72d2dcc797e2eda",
+  "mathematical_settings": {
+    "gap": 0.8,
+    "modes": 31,
+    "curvature_cap": 7.2,
+    "curvature_weight": 1.0,
+    "high_gauss_weight": 1.0,
+    "high_codazzi_weight": 1.0,
+    "minimum_active_n": 0.05,
+    "interior_gauss_weight": 1.0,
+    "reference_rim_fraction": 0.12,
+    "radius_floor": 0.1,
+    "interior_cells": [
+      63,
+      64,
+      65,
+      74,
+      75,
+      76,
+      123,
+      124
+    ]
+  },
+  "objective_norm": 3.6175020572139864,
+  "objective_squared": 13.086321133947425,
+  "components": {
+    "retained_average_Codazzi": {
+      "squared": 5.7565715516643445,
+      "l2": 2.3992856336135437,
+      "fraction": 0.4398922732173471
+    },
+    "retained_node_Gauss": {
+      "squared": 5.282866408064623,
+      "l2": 2.2984486959827106,
+      "fraction": 0.4036937771884765
+    },
+    "retained_selected_interior_Gauss": {
+      "squared": 0.5611983408351238,
+      "l2": 0.7491317246219945,
+      "fraction": 0.042884347334203085
+    },
+    "node_curvature_guidance": {
+      "squared": 1.1308586734247705,
+      "l2": 1.0634183905804764,
+      "fraction": 0.08641532343961764
+    },
+    "high_node_Gauss": {
+      "squared": 0.008854107706314309,
+      "l2": 0.09409626829111933,
+      "fraction": 0.0006765925744666111
+    },
+    "high_average_Codazzi": {
+      "squared": 0.28744084777287826,
+      "l2": 0.5361351021644435,
+      "fraction": 0.021964985027550912
+    },
+    "high_selected_interior_Gauss": {
+      "squared": 0.00019930437912903394,
+      "l2": 0.014117520289662556,
+      "fraction": 1.5229977706417077e-05
+    },
+    "selected_interior_curvature_guidance": {
+      "squared": 0.058331299372689376,
+      "l2": 0.24151873503455043,
+      "fraction": 0.004457425335633195
+    },
+    "remaining_raw_boundary_and_gap": {
+      "squared": 6.00727556587799e-07,
+      "l2": 0.0007750661627163186,
+      "fraction": 4.590499884871711e-08
+    }
+  },
+  "sum_minus_total": 3.552713678800501e-15,
+  "remaining_raw_is_difference_of_saved_squared_norms": true,
+  "actual_F_or_J_recomputed": false,
+  "continuous_certificate": false
+}

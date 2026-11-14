@@ -1,0 +1,45 @@
+{
+  "schema": "fd2d-R198-packed-normal-closed-group-v1",
+  "files": [
+    {
+      "path": "scripts/fd2d_packed_band_normal_provider_R198.cjs",
+      "sha256": "a414c691b0c9853dcf47682a36b4bbea18410997a9382e0876724d57e210e878",
+      "bytes": 39307
+    },
+    {
+      "path": "scripts/fd2d_packed_band_normal_R198_check.cjs",
+      "sha256": "120d7fb1b81a96bd062bb06875da3ab3ecc701e0cb675fa35d5fb66c6d767180",
+      "bytes": 3031
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R198-packed-normal-check-01.json",
+      "sha256": "c9fd26bcb8f7b0168ae902bd7a430eabf217b24fe721788c037ea4de4c8f385b",
+      "bytes": 5366
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R198-packed-normal-first-report-failure.json",
+      "sha256": "be3e11253e88f013d36e9bdaa1c57919ac32e1ca5ad90aa23b7650afe461612b",
+      "bytes": 559
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-R198-packed-normal-implementation.md",
+      "sha256": "6945a31b89b3d521a23671e922f1e557245630f4ffe7df01f9b56e3728e167e1",
+      "bytes": 6315
+    }
+  ],
+  "status": "complete actual engineering consistency group, no new geometric existence claim",
+  "actual": {
+    "oneNewPackedNormal": true,
+    "oldDenseNormalReused": true,
+    "dimension": 193,
+    "rows": 16405,
+    "HGradientDiagonalSquaredNormDifferences": 0,
+    "fullActivePointNumericDifference": 0,
+    "normalNotRecomputedAfterReportFailure": true,
+    "OSProcessCreated": false,
+    "OSExitCode": null
+  },
+  "newWholeJvp": false,
+  "newLMTrial": false,
+  "oldProviderSourceModified": false
+}

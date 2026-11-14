@@ -1,0 +1,37 @@
+{
+  "label": "twelfth",
+  "base_commit": "73fbe8bb8742fbaf148cbf9bd2ea5827ce8b2454",
+  "message": "Preserve K31 progress, continuous coast positivity and literal rebase publication under the new repository rules",
+  "closed_groups": [
+    "notes/2026-11-12-fd2d-raw-bump-trial20-closed-group.json",
+    "notes/2026-11-12-fd2d-geometry-R163-closed-manifest.json",
+    "notes/2026-11-12-fd2d-refined-angular21-initializer-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-refined21-static-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-refined21-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-lowmem22-static-manifest.json",
+    "notes/2026-11-12-fd2d-metric-physical-differential18-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-geometry-terminal-branch20-closed-manifest.json",
+    "notes/2026-11-12-fd2d-root-fast-material-inverse-closed-manifest.json",
+    "notes/2026-11-12-fd2d-metric-refined-angular-jvp21-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-raw-bump-lowmem22-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-static-manifest.json",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0001-closed-group.json",
+    "notes/2026-11-12-fd2d-geometry-R164-closed-manifest.json",
+    "notes/2026-11-12-fd2d-rebase-publication-policy-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0002-closed-group.json",
+    "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-closed-group.json",
+    "notes/2026-11-12-fd2d-metric-prepared-geometry-cache-closed-manifest-01.json",
+    "notes/2026-11-12-fd2d-geometry-frozen-operator-projections-closed-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-frozen-operator-cell-compatibility-closed-manifest.json"
+  ],
+  "extra_files": [
+    "notes/2026-11-12-fd2d-eleventh-batch-main-receipt.json",
+    "notes/2026-11-12-fd2d-root-runtime-after21.json"
+  ],
+  "excluded": [
+    "active reuse23 b4 and later outputs",
+    "active next-driver integration",
+    "regenerable intermediate arrays"
+  ],
+  "scope": "Closed states through 23 b3, R163–164, cache helper definitions, truthful failed runs and new literal-rebase publication; no root LOG writes and no strong completion claim"
+}

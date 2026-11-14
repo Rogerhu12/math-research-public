@@ -1,0 +1,53 @@
+{
+  "status": "PASS-independent-closed-negative-scalar-and-hash-check",
+  "script_sha256": "62e515e40792f1045940f5b8dedfa8a80c731e7c5cd40f76827c859130ac20ce",
+  "inputs": {
+    "source": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-terminal-error-gate.py",
+      "sha256": "1be7add52ec2c06653a2a64baa8653e675559a55551cf22603d14a80f9cfb234",
+      "bytes": 41802
+    },
+    "method": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-terminal-error-gate-method.md",
+      "sha256": "06dc6928cd0581ec7e0ccde947ab9de2dc9adff351d3598cd31703fad8b7fb5a",
+      "bytes": 14366
+    },
+    "author_negative": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-terminal-error-m12-negative.json",
+      "sha256": "3f75f6668aaf0c90dbca169e353a6eb9d8df38de8e01b24acf0bafcd7daaa213",
+      "bytes": 18371
+    },
+    "independent_negative": {
+      "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-terminal-error-m12-negative.json",
+      "sha256": "3f75f6668aaf0c90dbca169e353a6eb9d8df38de8e01b24acf0bafcd7daaa213",
+      "bytes": 18371
+    }
+  },
+  "independent_negative_byte_identical_to_author": true,
+  "closed_replay_dependencies_rehashed": 48,
+  "dependency_bytes_rehashed": 83667907,
+  "source_imports": [
+    "argparse",
+    "fractions",
+    "gzip",
+    "hashlib",
+    "json",
+    "pathlib"
+  ],
+  "exact_scalar_reconstruction": {
+    "threshold_exact": "1/500000000",
+    "tested_whole_upper_exact": "38493756262750339563330485335957988971213899/1496577676626844588240573268701473812127674924007424",
+    "old_M12_lower_exact": "370012576184137/18889465931478580854784",
+    "strict_decrease_factor_exact": "195883/20000",
+    "strict_decrease_margin_exact": "-6953964127651556355507666851773422195267891537817/29931553532536891764811465374029476242553498480148480000",
+    "fixed_threshold_factor_margin_exact": "61863470598928509/23058430092136939520000000000000"
+  },
+  "conditional_lemma": "If 0<=E_new<=U_new<=B and E_old>=L, then E_old>F*E_new; no division by E_new is used.",
+  "actual_old_M12_error_strictly_exceeds_B": true,
+  "new_candidate_branch_executed": false,
+  "root_flow_solver_calls": 0,
+  "new_metric_curvature_or_partition_verification": false,
+  "candidate_certificate_issued": false,
+  "README_complete": false,
+  "scope": "Pure metadata, source-import AST and exact scalar audit. It does not replace the separate full code review or any continuous input certificate."
+}

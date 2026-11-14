@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-real-tool-exit-receipt-v1",
+  "initial_attempt": {
+    "session_id": 62472,
+    "initial_chunk": "49197a",
+    "terminal_chunk": "843bf7",
+    "exit_code": 1,
+    "scope": "input JSON rational parsing before majorant calculation",
+    "exception": "TypeError: both arguments should be Rational instances",
+    "correction": "map stored numerator and denominator strings to int before Fraction"
+  },
+  "completed_attempt": {
+    "session_id": 75277,
+    "initial_chunk": "13f7a8",
+    "terminal_chunk": "73097f",
+    "exit_code": 0,
+    "internal_seconds": 0.1598192929996003
+  },
+  "body_or_F_J_BVP_evaluated": false
+}

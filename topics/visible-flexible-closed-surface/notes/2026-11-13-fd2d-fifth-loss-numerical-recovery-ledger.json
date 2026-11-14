@@ -1,0 +1,275 @@
+{
+  "schema": "fd2d-fifth-environment-loss-numerical-recovery-ledger-v1",
+  "observation_status": "execution_environment_unavailable; pending reducer exit unknown",
+  "original_source": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface",
+  "owned_root": "/tmp/fd2d-signed36mid-resume-20261113",
+  "original_request_sha256": "77ea77f915f175c98da631a30931c891161a509a7ca8217fe4c0df237bf15216",
+  "operational_request_sha256": "233202b4e216df00e290d8b54137784787759ad7b16dd321208f23c742913fc2",
+  "original_raw_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-signed36mid-work/normal-tiles/.0000-nodes.raw-wc5p23sy/normal-tile/manifest.json",
+    "bytes": 1059811,
+    "sha256": "fd44a5f36865cbcbc715702a5e343e7c5c2fc25c0d484c0ba3cd2bb0a17c0715"
+  },
+  "generated_sources": [
+    {
+      "name": "fd2d_gc_compressed_normal_tile_v2.py",
+      "bytes": 13813,
+      "sha256": "9efdf01c0c5b31f65a592769c0539aa1c3573e48f282b2c345f2d4034e25ae52"
+    },
+    {
+      "name": "fd2d-gc-compressed-piecewise-normal-reduce-v2.py",
+      "bytes": 25087,
+      "sha256": "1d8498cbdafb7cacf6d7e6f414f4675d48d6765e22996aa043d69c2e7ed13dd0"
+    }
+  ],
+  "generation": {
+    "tool_chunk": "6c6f37",
+    "exit_code": 0,
+    "source_generator_sha256": "e7f42f9d9feced8ca7c6e3032c38e4bee4ad2c2f22de424ea189fabf1e9ebd2c"
+  },
+  "rescue": {
+    "session": 22991,
+    "launch_chunk": "a055d9",
+    "final_chunk": "c91cf1",
+    "exit_code": 0,
+    "seconds": 2.008658111997647,
+    "peak_rss_kib": 103260,
+    "assembly_evaluations": 0,
+    "compressed_manifest_sha256": "98083c609169bdb5ad5fb5d2604b9b90f67532c7dae70128770521a0702486ae",
+    "compact_logical_manifest": {
+      "bytes": 302069,
+      "sha256": "957d5c120768bd719840cfd146e9482b6cdcaf714399e2374f4c67401adff0aa"
+    },
+    "logical_numerical_bytes": 21427604,
+    "compressed_numerical_bytes": 487921,
+    "complete_capsule_bytes": 875861
+  },
+  "assembly": {
+    "session": 79460,
+    "launch_chunk": "2232ac",
+    "final_chunk": "f3faee",
+    "exit_code": 0,
+    "seconds": 73.93166801099869,
+    "peak_rss_kib": 162572,
+    "original_first_tile_recomputed": false,
+    "new_tiles_completed": 50,
+    "total_closed_tiles": 51,
+    "actual_new_baseline_evaluations": 0
+  },
+  "reducer": {
+    "session": 29151,
+    "launch_chunk": "3a3bfb",
+    "last_successful_poll_chunk": "58bc30",
+    "last_successful_poll_status": "running",
+    "exit_code": null,
+    "subsequent_resume": "exec-server transport disconnected; recovery timed out after45s",
+    "subsequent_resume_is_child_exit": false
+  },
+  "baseline_squared_norm": 326.4977342867842,
+  "new_QP_or_accepted_state_created": false,
+  "preparation": {
+    "legacy25_manifest_sha256": "05eaa17c9f54218a1b5fdee0e18c938ef30f5a062dc6ac8b949401eb94583d97",
+    "payload_files": 153,
+    "payload_bytes": 16545057,
+    "R199_manifest_sha256": "077247983000fedab6ca1e78293b9ccdfc3c965bb00d023953be8260bbcd6d90"
+  },
+  "recovery_order": [
+    "Check old owned directory and actual final reducer receipt; unknown exit is not a failure code.",
+    "Do not reassemble any of the51 closed tiles or recompute the closed baseline.",
+    "Continue the existing ordered35-piece reduction only for missing pieces with original source and binding.",
+    "Then original scaled blockSPD Schur, constrained QP, actual Armijo full/half; no new accepted field is yet observed."
+  ],
+  "status": "honest observed execution ledger; unavailable scratch outputs are not claimed published",
+  "last_confirmed_main_before_fallback": "38deca30e2a307fa73211d7c5054bdc694d443a8",
+  "legacy25": {
+    "prepared_but_not_pushed": true,
+    "original_verified_files": 147,
+    "original_verified_bytes": 16373378,
+    "source_audit_tool": {
+      "chunk": "6a9198",
+      "exit_code": 0,
+      "seconds": 0.318715671,
+      "hash_or_size_mismatches": 0,
+      "missing_files": 0
+    },
+    "classifications_at_pinned_main": {
+      "new": 128,
+      "byte_identical": 18,
+      "different": 1
+    },
+    "payload": "/tmp/fd2d-legacy25-payload",
+    "final_manifest": "topics/visible-flexible-closed-surface/notes/2026-11-13-fd2d-legacy25-payload-closed-manifest.json",
+    "final_manifest_bytes": 31522,
+    "final_manifest_sha256": "05eaa17c9f54218a1b5fdee0e18c938ef30f5a062dc6ac8b949401eb94583d97",
+    "payload_files_including_manifest": 153,
+    "payload_bytes_including_manifest": 16545057,
+    "final_write_observation": {
+      "chunk": "ee4355",
+      "exit_code": 0,
+      "seconds": 0.200066339
+    },
+    "source_map": "notes/2026-11-13-fd2d-legacy25-source-map.json",
+    "source_map_retained_in_current_V8_store": false,
+    "original_source_manifests": [
+      {
+        "path": "notes/2026-11-12-fd2d-signed36-branch-baselines-closed-manifest.json",
+        "items": 68,
+        "sha256": "57ec62a835b6c31033a35dd8a938b5198e09367d3ce53a72cbd7c499cb56fe43"
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-r181-b32-computable-entry-closed-manifest.json",
+        "items": 17,
+        "full_sha256_not_preserved_in_current_message_store": true,
+        "historical_prefix": "87bde38a",
+        "original_file_was_actually_read_and_included": true
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-profile-design-extension-R183-publication-closed-manifest.json",
+        "items": 8,
+        "sha256": "c636a11a13f7b58a11f349893d84ca4dfb700f001cc2e214a247cf2329f9e9cd"
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-signed36mid-normal-transport-failure-01-closed-manifest.json",
+        "items": 11,
+        "sha256": "f5c6e64c37dc3d5db5c66cd613de0f6cf4e3efd7ec72a21178b3a42623f17bc1"
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-trace-linear-domain-R182-closed-manifest.json",
+        "items": 10,
+        "sha256": "27f8cd16cebf7acd1f622b314623e4c26f8a352674df1aba1b20fe269c1a4cfc"
+      },
+      {
+        "path": "notes/2026-11-12-fd2d-metric-signed-trace-windows-R182-closed-manifest-publish-wrapper.json",
+        "items": 9,
+        "sha256": "c5297ed770dd8ac42acdb6278413a6714639b20eae402039f625c12279fbf555"
+      }
+    ],
+    "signed_native_inventory": {
+      "path": "notes/2026-11-12-fd2d-metric-R182-original-publication-inventory.json",
+      "bytes": 11648,
+      "sha256": "c70f29a55c9da10b47c9b923f89e96568bc09ac96ae818b960e8d34750328022",
+      "commit": "401ae438d1efdb093081379dddb5a9f14b43b1a5",
+      "actual_signed_rebind_bytes": 381911,
+      "actual_signed_rebind_sha256": "a8df9aef4da79c535510d9b8b140a6d553640bac4c92a474737b16a6db055d8b",
+      "different_dyadic34_window_packet_bytes": 381937,
+      "different_dyadic34_window_packet_sha256": "2ad6ebdc6ce4a8bc13959610161638881bad3da235b4379f69bdbbec13318a30"
+    },
+    "collision": {
+      "path": "scripts/fd2d_gc_signed_grouped_cells.py",
+      "restored_original_bytes": 6813,
+      "restored_original_sha256": "b0026b32bfc02587b7f04cf7c583f275f41d91c0bdb58fb8e2f5d18b5825f242",
+      "main_blob": "ee44d7016cbfd5de48fcbbb54a645648f6b62eff",
+      "main_bytes": 5802,
+      "main_sha256": "cda8a80e05eaacd1d1f1acfd8ba05d3f34cde404b477fa28e3d45d10edbeca45",
+      "main_exact_backup": "notes/fourth-return-main-texts/scripts/fd2d_gc_signed_grouped_cells.py",
+      "local_git_blob_read_exit": 128,
+      "readonly_pinned_UTF8_recovery_verified_Git_blob": true,
+      "backup_write_observation": {
+        "chunk": "d314c0",
+        "exit_code": 0
+      }
+    },
+    "R183_proof_mapping": {
+      "original": "results/R183-exact-zero-nesting-of-the-radial-metric-design-space.md",
+      "publish": "notes/2026-11-12-fd2d-R183-original-proof-before-third-loss.md",
+      "sha256": "3e29d5bdb48a4a175884cd8ed83ba41bd4e1ca268686cb6594c2ca4e67deb2f3",
+      "main_recovery_proof_not_overwritten": true
+    },
+    "exact_preparation_source_now_saved": {
+      "path": "scripts/fd2d-prepare-legacy25-payload-fifth-loss-recovery.py",
+      "sha256": "5ebda6b349a2dd78d904020adb2f34a327e05c6ead7650f82e6023ede0c19f7c",
+      "bytes": 7563,
+      "commit": "a6831559d444a1d7fbb0ddf950d9835be64cf0a3"
+    },
+    "regeneration": [
+      "Recover original source tree and six declared manifests; read published R182 inventory into /tmp/fd2d-legacy25-publication-inventory.json.",
+      "Use the preserved preparation source, changing only explicitly recorded operational publisher/output locations if required; it hashes every original artifact and rejects mismatch.",
+      "Use a fresh pinned main tree comparison. Preserve any differing current main bytes separately before root publication. Do not guess lost 147-row records.",
+      "The source-audit counts above are actual earlier observations, not an independently available copy of all raw artifacts."
+    ]
+  },
+  "R199": {
+    "unpublished_closed_manifest": "/tmp/fd2d-R199-20261113/notes/2026-11-13-fd2d-R199-final-closed-manifest.json",
+    "manifest_sha256": "077247983000fedab6ca1e78293b9ccdfc3c965bb00d023953be8260bbcd6d90",
+    "files": 11,
+    "total_bytes": 59074,
+    "source_identities": [
+      {
+        "path": "scripts/fd2d_orientation_orbit_R199.cjs",
+        "bytes": 4991,
+        "sha256": "1169eea3b6f3f89e0d48c6cc50674a8eaccd839ca499125fb7bc92502a2a6324"
+      },
+      {
+        "path": "scripts/fd2d_low_height_corner_cap_R199.cjs",
+        "bytes": 7187,
+        "sha256": "71da1359d94b069a7859ba7195271fc26d7429f1a06b8cc08014033b4e6c8d89"
+      },
+      {
+        "path": "results/R199-orientation-orbit-and-low-height-complete-caps.md",
+        "bytes": 15165,
+        "sha256": "192f37547b272d941d84c8bb3c18ac3712a2aecfa8b5e0a6fdb73a78a7605a52"
+      },
+      {
+        "path": "scripts/fd2d_R199_recheck.cjs",
+        "sha256": "965da0a66871daf3f2dfc2bf03c0e0ab4f5aaa98b4acf1e63ff09115bdbd4a08"
+      }
+    ],
+    "actual_recheck": {
+      "chunk": "b83454",
+      "exit_code": 0,
+      "started_utc": "2026-11-13T00:55:38.956767+00:00",
+      "ended_utc": "2026-11-13T00:55:39.365389+00:00",
+      "wrapper_seconds": 0.408626888,
+      "internal_ms": 138.374899,
+      "exact_cap_all_passed": true,
+      "polar_vertices": 8,
+      "full_twojet_orbit_cases": 5,
+      "metric_Gram_max_abs": 1.1102230246251565e-16,
+      "curvature_difference": 0,
+      "cut_twojet_max_abs": 7.771561172376096e-16,
+      "cut_time_jet_max_abs": 9.739966266694384e-16,
+      "time_scaled_FD_error": 5.239091161928667e-10,
+      "time_step": 0.00001,
+      "new_normal_or_LM": false
+    },
+    "original_full_text_not_preserved_in_current_store": true,
+    "readonly_main_checks_after_loss": {
+      "original_two_sources": "404",
+      "original_proof": "404"
+    },
+    "future_reconstructed_text_must_have_new_path_and_SHA": true
+  },
+  "compact_transport_rebuild": {
+    "generator": "scripts/fd2d-build-compressed-normal-v2-recovery.py",
+    "generator_sha256": "e7f42f9d9feced8ca7c6e3032c38e4bee4ad2c2f22de424ea189fabf1e9ebd2c",
+    "generator_command": "python3 scripts/fd2d-build-compressed-normal-v2-recovery.py --scripts NEW_OWNED_SCRIPTS_DIRECTORY",
+    "required_frozen_sources": [
+      {
+        "name": "fd2d_gc_compressed_normal_tile.py",
+        "sha256": "0a893bc33f50c13a4899ec4cff18a3c93b3c5035b2f291400a0b777c1fbdb105"
+      },
+      {
+        "name": "fd2d-gc-compressed-piecewise-normal-reduce.py",
+        "sha256": "5416025f947fc02a7fafb84291b9a4272ba7839717618a20e491ea2c92579021"
+      }
+    ],
+    "first_copy_existing_sources_and_do_not_overwrite_generated_files": true,
+    "numerical_parameters_or_original_sources_changed": false,
+    "stage_rescue_source": "scripts/fd2d-gc-signed-stage-normal-rescue.py",
+    "batch_source": "scripts/fd2d-gc-signed-stage-normal-tile-batch-v2.py",
+    "batch_source_sha256": "18e0de0bf5a83f81369f9315bb83963c027290faf413d371fc68af55e79dda59",
+    "controller_source": "scripts/fd2d-gc-signed-run-normal-tile-batches-v2.py",
+    "controller_operational_copy_changes": "Only absolute executable paths to owned batch entry and original monitor; each process reuses immutable context for at most four separately saved tiles.",
+    "request_operational_copy_changes": [
+      "cache_dir",
+      "run_prefix",
+      "settings.out_prefix",
+      "settings.owner_stop_file",
+      "explicit transport_resume provenance"
+    ],
+    "exact_all_old_math_binding_checked_against_first_raw": true,
+    "later_complete_reduction_still_requires_saved_baseline_sum_match": true
+  },
+  "no_binary_or_large_data_transmitted": true,
+  "root_metadata_files_touched": false
+}

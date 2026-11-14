@@ -1,0 +1,130 @@
+{
+  "status": "PASS-scalar-difference-and-metadata-contract-only",
+  "scope": "Light independent replay and input-contract tests for scalar closure v2.\n\nNo metric or curvature backend is rerun. Synthetic metadata fixtures test\nbinding/rejection only and are never geometric certificates.\n",
+  "target_sha256": "20d9b6127625595afaf14daac4d23ccdd68d10f5d3a36d0697472f5df50d8fc3",
+  "script_sha256": "aabee6419e953251dfe0b4f397a66fc154139e863a41ace792fc0dbe12f0799b",
+  "baseline_report": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-whole-metric-reach-m12-critical-r01.json",
+  "baseline_sha256": "c60911808527d4f92e8cec7cf066fd3010d68fe38921d1671425c55a7bcb2b67",
+  "replay": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-whole-v2-baseline-replay.json",
+  "replay_sha256": "5c5ffe8c93bfd851da22c756a2c87b7c1b82e5944ccf1510cf6efc66568d1aa0",
+  "original_exact_scalar_fields_unchanged": [
+    "prefix_metric_upper",
+    "tail_metric_upper",
+    "whole_metric_operator_upper",
+    "prefix_curvature_upper",
+    "tail_curvature_upper",
+    "cap_curvature_upper",
+    "whole_principal_curvature_upper",
+    "whole_support_lower",
+    "diameter_upper",
+    "whole_reach_lower_by_R10",
+    "whole_reach_over_diameter_lower",
+    "held_region_diameter_over_diameter_lower",
+    "hold_over_diameter_lower"
+  ],
+  "original_curvature_unchanged": true,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-whole-metric-reach-v2.py",
+    "--closed-budget",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-closed-budget-m12-critical-r01.json",
+    "--tail-certificate",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-tail-m12-critical-tight-full.json",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-whole-v2-baseline-replay.json"
+  ],
+  "tests": [
+    {
+      "name": "valid complete same-map/background binding fixture",
+      "accepted": true,
+      "exact_metric": "3458764513820541/1152921504606846976"
+    },
+    {
+      "name": "different finite map",
+      "rejected": true,
+      "reason": "Separate metric belongs to another finite map"
+    },
+    {
+      "name": "different packet finite map",
+      "rejected": true,
+      "reason": "Incomplete or mismatched separate packet"
+    },
+    {
+      "name": "unfinished packet",
+      "rejected": true,
+      "reason": "Incomplete or mismatched separate packet"
+    },
+    {
+      "name": "different target background",
+      "rejected": true,
+      "reason": "Separate metric target background is not the identical frozen definition"
+    },
+    {
+      "name": "empty original background identity",
+      "rejected": true,
+      "reason": "Separate metric target background is not the identical frozen definition"
+    },
+    {
+      "name": "changed packet data binding",
+      "rejected": true,
+      "reason": "Changed separate metric packet data"
+    },
+    {
+      "name": "partition not validated",
+      "rejected": true,
+      "reason": "Separate metric does not cover the entire exact tail and collar"
+    },
+    {
+      "name": "collar omitted",
+      "rejected": true,
+      "reason": "Separate metric does not cover the entire exact tail and collar"
+    },
+    {
+      "name": "incomplete selected interval",
+      "rejected": true,
+      "reason": "Separate metric does not cover the entire exact tail and collar"
+    },
+    {
+      "name": "incomplete count",
+      "rejected": true,
+      "reason": "Separate metric does not cover the entire exact tail and collar"
+    },
+    {
+      "name": "row count mismatch",
+      "rejected": true,
+      "reason": "Separate row count differs"
+    },
+    {
+      "name": "missing span despite full flags",
+      "rejected": true,
+      "reason": "Separate rows omit a span"
+    },
+    {
+      "name": "row sequence mismatch",
+      "rejected": true,
+      "reason": "Invalid separate metric row"
+    },
+    {
+      "name": "negative row metric",
+      "rejected": true,
+      "reason": "Invalid separate metric row"
+    },
+    {
+      "name": "nonfinite row metric",
+      "rejected": true,
+      "reason": "Invalid separate metric row"
+    },
+    {
+      "name": "global value below actual row maximum",
+      "rejected": true,
+      "reason": "Separate global metric does not equal the row maximum"
+    },
+    {
+      "name": "global value above actual row maximum",
+      "rejected": true,
+      "reason": "Separate global metric does not equal the row maximum"
+    }
+  ],
+  "synthetic_fixtures_are_not_geometric_certificates": true,
+  "partition_scope": "The scalar aggregator checks hashes, reviewed backend coverage declarations, row count/order, complete span labels and the row maximum. Exact u-left/u-right packet partition validation remains a dependency of the reviewed metric-only backend."
+}

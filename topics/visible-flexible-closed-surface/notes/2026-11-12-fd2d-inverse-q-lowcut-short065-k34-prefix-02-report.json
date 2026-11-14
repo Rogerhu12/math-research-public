@@ -1,0 +1,52 @@
+{
+  "schema": "fd2d-whole-tail-coupled-prefix-design-v1",
+  "source_sha256": "05417298c7ec7ede5add20edd9312559321adb5a6d2cf90c48929124730d462f",
+  "initial_file": "2026-11-12-fd2d-inverse-q-lowcut-short065-k34-prefix-02-initial.json",
+  "initial_sha256": "6818b74d989524d747d3cf07efaa249d747e6640691c83852a9337590161abb5",
+  "tail_config_sha256": "13a59a2d805ea70a95c910e79f15d36e5c2b1d67abc7d36b540298f8858aaa5c",
+  "tail_port_sha256": "695c71fcf5fbd4fa04eb6d6506cae1eb0d41396e5756d3a515a1fd12229263dc",
+  "vmid": 0.65,
+  "pdeep": 1.5697973271282297,
+  "central_cylinder": 0.001,
+  "early_turn_curvature": 3.4,
+  "evaluations": [
+    {
+      "T": 0.0,
+      "residual": 0.00427803130191994,
+      "terminal_fg": [
+        2.3573750388347876,
+        551.0369842001578
+      ]
+    },
+    {
+      "T": 0.2,
+      "residual": 0.005377690436247364,
+      "terminal_fg": [
+        1.9699530609187161,
+        366.31423823718865
+      ]
+    },
+    {
+      "T": 0.4,
+      "residual": 0.007787177914513394,
+      "terminal_fg": [
+        1.6028283101671348,
+        205.82292187984376
+      ]
+    },
+    {
+      "T": 0.6506608595347994,
+      "residual": 0.02678311224337021,
+      "terminal_fg": [
+        1.17579129183361,
+        43.88472434849996
+      ]
+    }
+  ],
+  "completed": true,
+  "nonlinear_solution": false,
+  "continuous_certificate": false,
+  "root_found": false,
+  "Tmax": 0.6849061679313677,
+  "seconds": 31.422513787999378
+}

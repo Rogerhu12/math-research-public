@@ -1,0 +1,26 @@
+{
+  "status": "OBSERVED_METADATA_CHECK_COMPLETED_NEGATIVE_GATE",
+  "recorded_utc": "2026-11-09T16:00:11.142420+00:00",
+  "observer": "/root/coupled_prefix",
+  "tool_receipt": "08777d",
+  "actual_exit_code": 0,
+  "wall_time_seconds": 0.107434336,
+  "command": [
+    "python",
+    "scripts/db6f-prefix-prepare-final-m15-coupling-v3.py",
+    "--check-current-gate"
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface",
+  "result": {
+    "ready": false,
+    "reason": "Continuation is not closed: missing 2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-reproduction.json",
+    "files_written": 0,
+    "solver_launches": 0
+  },
+  "source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-final-m15-coupling-v3.py",
+    "bytes": 19107,
+    "sha256": "273bb318dfaa2839be8fa6c532152cf708880c13591ac0fcbae5f4e97bdacdb5"
+  },
+  "scope": "Observed only the real current negative gate. No positive fixture, success-path execution, solver, or continuation launch."
+}

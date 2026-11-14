@@ -1,0 +1,501 @@
+{
+  "schema": "fd2d-R193-actual-conditional-budget-fixture-v1",
+  "passed": true,
+  "nonzero_input": {
+    "schema": "fd2d-R193-direct-position-box-budget-input-v1",
+    "scope": "certified common continuous physical box",
+    "derivatives": "fixed physical s,u",
+    "actual_unit_tangent_definition": true,
+    "bindings": {
+      "accurate_base": {
+        "kind": "conditional arithmetic fixture; not a repository B32 state"
+      },
+      "accurate_central_curve": {
+        "kind": "conditional fixture"
+      },
+      "accurate_angle_height_grid": {
+        "kind": "conditional fixture"
+      },
+      "accurate_radius_grid": {
+        "kind": "conditional fixture"
+      },
+      "reference_fields": {
+        "kind": "explicit bounds below"
+      },
+      "error_evidence": {
+        "kind": "hypotheses of this arithmetic fixture, not measured errors of a main candidate"
+      }
+    },
+    "profile_errors": {
+      "a": "1/1000000000000000",
+      "a_s": "1/1000000000000000",
+      "a_ss": "1/1000000000000000",
+      "Z_s": "1/1000000000000000",
+      "Z_ss": "1/1000000000000000"
+    },
+    "angular_errors": {
+      "Y": "1/1000000000000000",
+      "Y_s": "1/1000000000000000",
+      "Y_ss": "1/1000000000000000",
+      "T": "1/1000000000000000",
+      "T_s": "1/1000000000000000",
+      "T_u": "1/1000000000000000"
+    },
+    "reference_bounds": {
+      "abs_a": "7/5",
+      "abs_a_s": "1",
+      "abs_a_ss": "7",
+      "a_lower": "4/5",
+      "Y": "3/2",
+      "Y_s": "2",
+      "Y_ss": "8",
+      "X_ss": "7",
+      "T_s": "2",
+      "T_u": "4"
+    },
+    "accurate_radius_lower": "399/500",
+    "reference_normal_error": "1/1000000000000000",
+    "reference_metric_residuals": {
+      "rE": {
+        "lower": "-1/2500000000",
+        "upper": "1/2500000000"
+      },
+      "rF": {
+        "lower": "-3/10000000000",
+        "upper": "3/10000000000"
+      },
+      "rG": {
+        "lower": "-1/1000000000000000",
+        "upper": "1/1000000000000000"
+      }
+    },
+    "reference_curvature_upper": "7",
+    "reference_curvature_kind": "generalized Rayleigh bound for reference H0,Q0 on the same box",
+    "requested_metric_tolerance": "1/500000000",
+    "requested_curvature_cap": "15/2"
+  },
+  "nonzero_result": {
+    "schema": "fd2d-R193-direct-position-box-budget-output-v1",
+    "scope": "certified common continuous physical box",
+    "bindings": {
+      "accurate_base": {
+        "kind": "conditional arithmetic fixture; not a repository B32 state"
+      },
+      "accurate_central_curve": {
+        "kind": "conditional fixture"
+      },
+      "accurate_angle_height_grid": {
+        "kind": "conditional fixture"
+      },
+      "accurate_radius_grid": {
+        "kind": "conditional fixture"
+      },
+      "reference_fields": {
+        "kind": "explicit bounds below"
+      },
+      "error_evidence": {
+        "kind": "hypotheses of this arithmetic fixture, not measured errors of a main candidate"
+      }
+    },
+    "derivatives": "fixed physical s,u",
+    "sqrt_precision_bits": 96,
+    "all_bounds_exact_rational_or_outward_dyadic": true,
+    "error_inputs": {
+      "profile": {
+        "a": "1/1000000000000000",
+        "a_s": "1/1000000000000000",
+        "a_ss": "1/1000000000000000",
+        "Z_s": "1/1000000000000000",
+        "Z_ss": "1/1000000000000000"
+      },
+      "angular": {
+        "Y": "1/1000000000000000",
+        "Y_s": "1/1000000000000000",
+        "Y_ss": "1/1000000000000000",
+        "T": "1/1000000000000000",
+        "T_s": "1/1000000000000000",
+        "T_u": "1/1000000000000000"
+      }
+    },
+    "vector_error": {
+      "X_s": {
+        "exact": [
+          "3450000000000001",
+          "500000000000000000000000000000"
+        ],
+        "display": 6.900000000000002e-15
+      },
+      "X_ss": {
+        "exact": [
+          "6225000000000001",
+          "250000000000000000000000000000"
+        ],
+        "display": 2.4900000000000003e-14
+      }
+    },
+    "metric_error": {
+      "rE": {
+        "exact": [
+          "254565068268105777975608720005531773241676300064310073639808909589",
+          "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "display": 1.3800000002760053e-14
+      },
+      "rF": {
+        "exact": [
+          "19101027950394716123858353895632177340329",
+          "2417851639229258349412352000000000000000000000000000000"
+        ],
+        "display": 7.900000000200001e-15
+      },
+      "Gram_operator": {
+        "exact": [
+          "648111736499118156234598832310219273241676300064310073639808909589",
+          "36893488147419103232000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "display": 1.7567103818142417e-14
+      }
+    },
+    "accurate_residuals": {
+      "rE": {
+        "lower": [
+          "-7378952194552088752177975608720005531773241676300064310073639808909589",
+          "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "upper": [
+          "7378952194552088752177975608720005531773241676300064310073639808909589",
+          "18446744073709551616000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "lower_display": -4.0001380000000276e-10,
+        "upper_display": 4.0001380000000276e-10
+      },
+      "rF": {
+        "lower": [
+          "-725374592796727899539829458353895632177340329",
+          "2417851639229258349412352000000000000000000000000000000"
+        ],
+        "upper": [
+          "725374592796727899539829458353895632177340329",
+          "2417851639229258349412352000000000000000000000000000000"
+        ],
+        "lower_display": -3.000079000000002e-10,
+        "upper_display": 3.000079000000002e-10
+      },
+      "rG": {
+        "lower": [
+          "0",
+          "1"
+        ],
+        "upper": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    "relative_metric_operator_upper": {
+      "exact": [
+        "20681472234741767335937790109528721352085741676300064310073639808909589",
+        "36893488147419103232000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "display": 5.605724281776416e-10
+    },
+    "Gram_determinant_lower": {
+      "exact": [
+        "5846006546985128377668729560743345770427015986110454671705417188715975894921192291182301071268750056789484143",
+        "5846006549323611672814739330865132078623730171904000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "display": 0.9999999995999862
+    },
+    "Gram_eigenvalue_lower": {
+      "exact": [
+        "36893488126737630997258232664062209890471278647914258323699935689926360191090411",
+        "36893488147419103232000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "display": 0.9999999994394276
+    },
+    "curvature_certified": true,
+    "main_candidate_claimed": false,
+    "reference_Gram_determinant_lower": {
+      "exact": [
+        "2499999998999997499775001",
+        "2500000000000000000000000"
+      ],
+      "display": 0.999999999599999
+    },
+    "normal_error_upper": {
+      "exact": [
+        "43037759178280790398433245279820262883783",
+        "4835703277491358150716537488555908203125000000000000000"
+      ],
+      "display": 8.900000001780032e-15
+    },
+    "second_form_error": {
+      "L": {
+        "exact": [
+          "493478269346377575961965843472637433926736111",
+          "5659154464172743710095696443750000000000000000000000000000"
+        ],
+        "display": 8.720000001246021e-14
+      },
+      "M": {
+        "exact": [
+          "90911221634052938947583028048196433970691",
+          "4835703277491358150716537488555908203125000000000000000"
+        ],
+        "display": 1.8800000003560062e-14
+      },
+      "N": {
+        "exact": [
+          "136554339310400341900712839182189318452411",
+          "2625096064923880138960406065216064453125000000000000000"
+        ],
+        "display": 5.201879700138136e-14
+      },
+      "operator": {
+        "exact": [
+          "3026155683050013384045874089287541722264197530006077257398621828207",
+          "31735464118552395975591373723918237105297712742400000000000000000000000000000000"
+        ],
+        "display": 9.535564602885191e-14
+      }
+    },
+    "reference_curvature_upper": {
+      "exact": [
+        "7",
+        "1"
+      ],
+      "display": 7
+    },
+    "accurate_curvature_upper": {
+      "exact": [
+        "4442964974106870344484070613574041665402683813235422491767976438843625145288126640000000000000000000000000000",
+        "634709282015247395906200765316868576768189915145225066698320330304204663075092901204722062770150547612974679"
+      ],
+      "display": 7.0000000000002185
+    },
+    "exact_cancellations": [
+      "G/a^2=|T|^2=1",
+      "N dot (a_s T/a+T_s)=N dot T_s",
+      "cross error uses deltaV cross T + V0 cross deltaT",
+      "reference actual residual retained before perturbation"
+    ],
+    "metric_tolerance_satisfied": true,
+    "curvature_cap_satisfied": true
+  },
+  "zero_error_identity": {
+    "schema": "fd2d-R193-direct-position-box-budget-output-v1",
+    "scope": "certified common continuous physical box",
+    "bindings": {
+      "accurate_base": {
+        "kind": "conditional arithmetic fixture; not a repository B32 state"
+      },
+      "accurate_central_curve": {
+        "kind": "conditional fixture"
+      },
+      "accurate_angle_height_grid": {
+        "kind": "conditional fixture"
+      },
+      "accurate_radius_grid": {
+        "kind": "conditional fixture"
+      },
+      "reference_fields": {
+        "kind": "explicit bounds below"
+      },
+      "error_evidence": {
+        "kind": "hypotheses of this arithmetic fixture, not measured errors of a main candidate"
+      }
+    },
+    "derivatives": "fixed physical s,u",
+    "sqrt_precision_bits": 96,
+    "all_bounds_exact_rational_or_outward_dyadic": true,
+    "error_inputs": {
+      "profile": {
+        "a": "0",
+        "a_s": "0",
+        "a_ss": "0",
+        "Z_s": "0",
+        "Z_ss": "0"
+      },
+      "angular": {
+        "Y": "0",
+        "Y_s": "0",
+        "Y_ss": "0",
+        "T": "0",
+        "T_s": "0",
+        "T_u": "0"
+      }
+    },
+    "vector_error": {
+      "X_s": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "X_ss": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      }
+    },
+    "metric_error": {
+      "rE": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "rF": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "Gram_operator": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      }
+    },
+    "accurate_residuals": {
+      "rE": {
+        "lower": [
+          "-1",
+          "2500000000"
+        ],
+        "upper": [
+          "1",
+          "2500000000"
+        ],
+        "lower_display": -4e-10,
+        "upper_display": 4e-10
+      },
+      "rF": {
+        "lower": [
+          "-3",
+          "10000000000"
+        ],
+        "upper": [
+          "3",
+          "10000000000"
+        ],
+        "lower_display": -3e-10,
+        "upper_display": 3e-10
+      },
+      "rG": {
+        "lower": [
+          "0",
+          "1"
+        ],
+        "upper": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    "relative_metric_operator_upper": {
+      "exact": [
+        "216854261442628262894085889",
+        "386856262276681335905976320000000000"
+      ],
+      "display": 5.60555127546399e-10
+    },
+    "Gram_determinant_lower": {
+      "exact": [
+        "99999999959999999991",
+        "100000000000000000000"
+      ],
+      "display": 0.9999999996000001
+    },
+    "Gram_eigenvalue_lower": {
+      "exact": [
+        "386856262059827074463348057105914111",
+        "386856262276681335905976320000000000"
+      ],
+      "display": 0.999999999439445
+    },
+    "curvature_certified": true,
+    "main_candidate_claimed": false,
+    "reference_Gram_determinant_lower": {
+      "exact": [
+        "99999999959999999991",
+        "100000000000000000000"
+      ],
+      "display": 0.9999999996000001
+    },
+    "normal_error_upper": {
+      "exact": [
+        "0",
+        "1"
+      ],
+      "display": 0
+    },
+    "second_form_error": {
+      "L": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "M": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "N": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      },
+      "operator": {
+        "exact": [
+          "0",
+          "1"
+        ],
+        "display": 0
+      }
+    },
+    "reference_curvature_upper": {
+      "exact": [
+        "7",
+        "1"
+      ],
+      "display": 7
+    },
+    "accurate_curvature_upper": {
+      "exact": [
+        "7",
+        "1"
+      ],
+      "display": 7
+    },
+    "exact_cancellations": [
+      "G/a^2=|T|^2=1",
+      "N dot (a_s T/a+T_s)=N dot T_s",
+      "cross error uses deltaV cross T + V0 cross deltaT",
+      "reference actual residual retained before perturbation"
+    ],
+    "metric_tolerance_satisfied": true,
+    "curvature_cap_satisfied": true
+  },
+  "intentionally_unresolved_input_returns_no_curvature_certificate": "The supplied continuous bounds do not establish both accurate and reference immersion. No geometric nonexistence conclusion.",
+  "OS_subprocess_started": false,
+  "main_B32_or_complete_surface_certified": false,
+  "actual_host": {
+    "kind": "functions.exec JavaScript isolate",
+    "elapsed_seconds": 0.002
+  },
+  "source_sha256": "fce702f79dcb66267ff4db1cbc204cc388904a2bb444a9fd423016314c91ea80"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_PAPER_PROOF_ONLY",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/README.md",
+      "bytes": 4418,
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-lower-bound.md",
+      "bytes": 12039,
+      "sha256": "b6df2b1b46542d20ef0198293efe6b98389dc758a52cba9ed50dd6d3ca9780e6"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-fixed-cap-scope.md",
+      "bytes": 2390,
+      "sha256": "0496aa18c4c9b9fdceb014b57628db17c38e6965504b1bfe49ae748d641e4f86"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness-v2.md",
+      "bytes": 12944,
+      "sha256": "7c70b4b7fed7a8b9077dfd2c372b8cbd8d2bae8c097b93923d9df54f8512a1b2"
+    }
+  ],
+  "scope": "Completeness of finite rational support certificates for a positive convex-hull quotient gap; effective generation separately assumes a certified arbitrarily refinable support oracle.",
+  "component_paper_check": {
+    "agent": "/root/independent_geometry",
+    "scope": "Finite-translation bound 5B epsilon; active-gradient optimality; rational at-most-four-weight witness; zero optimum; finite library equality. Checked before manuscript freeze, not an independent full-paper review.",
+    "solver_or_tool_calls_for_that_check": false
+  },
+  "new_numeric_runs": 0,
+  "actual_candidate_files_read": false,
+  "optimizer_solver_calls": 0,
+  "historical_v1": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-euclidean-support-certificate-completeness.md",
+    "bytes": 12823,
+    "sha256": "0a68b2fbbf1a40e83433f89b51ae31c28ef599695a75d32e82d441119b0c5261"
+  },
+  "only_revision": "One explicit index shift: a support interval query of width <=2^-n uses the certified Hausdorff approximant P_(n+1). No theorem, bound, or algorithmic search change.",
+  "full_review_pending": true
+}

@@ -1,0 +1,1025 @@
+{
+  "scope": "Physical linear prefix for a planar m-fold support perturbation.\n\nThe circle radius profile is reused unchanged; only the perturbation frequency\nis generalized. The inherited nonplanar-core reflection guard is not invoked\nwith mode3. This is a linear geometry screen, never a closed-surface result.\n",
+  "input_sha256": "39d968ea75cf50771e2fca27b1003312b63c4343cec19aa2c798f551f2dd6107",
+  "port": {
+    "cut": {
+      "radius": 0.6,
+      "backgroundSlope": 0.5,
+      "backgroundSecond": -5.833333333333334,
+      "E": 1.25,
+      "Ep": -5.833333333333334
+    },
+    "linearSlope": [
+      10.54376076408714,
+      25.54951530789281,
+      40.12563234042285,
+      54.31448367384821
+    ],
+    "linearModes": [
+      3,
+      6,
+      9,
+      12
+    ]
+  },
+  "tail_linear_T_threshold": 4.0607351708605476e-05,
+  "rows": [
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.4,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.0725268280429954
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -3.393078337584985e-14
+          ],
+          "gain": 0.015970464082984706,
+          "terminal_height_first_order": 0.0015970464082984707,
+          "background_height": 1.1679897099027239,
+          "background_kappa": 5.3098833446827065,
+          "length": 1.4245555247057262,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.0725268280429954,
+          "comparison_D": 3.649216020722517,
+          "comparison_hold_ratio": 0.05480629232807148,
+          "comparison_background_kappaD": 19.376911369583794,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 39.32899687127408
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.39161569707535626
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            6.549867486383458e-13
+          ],
+          "gain": -0.5939257220697469,
+          "terminal_height_first_order": 0.05939257220697469,
+          "background_height": 4.5359934085712705,
+          "background_kappa": 4.173993557999619,
+          "length": 4.881351605889636,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.3916156970753564,
+          "comparison_D": 9.98791480906929,
+          "comparison_hold_ratio": 0.02002419962757339,
+          "comparison_background_kappaD": 49.939574045346454,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 1462.6063928810277
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.4,
+        "ramp": 0.4,
+        "cycles": 2,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.03165232790537271
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.2914927983081697e-12
+          ],
+          "gain": 0.024056286530178557,
+          "terminal_height_first_order": 0.002405628653017856,
+          "background_height": 1.070649084132333,
+          "background_kappa": 12.166845908442616,
+          "length": 1.3246486588563515,
+          "radius_min": 0.5999999999999989,
+          "radius_max": 1.0316523279053726,
+          "comparison_D": 3.4480864439905945,
+          "comparison_hold_ratio": 0.05800318618709942,
+          "comparison_background_kappaD": 41.95233644302341,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 59.24121007152646
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.10223225345642159
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            1.908761125773443e-15
+          ],
+          "gain": -0.005900280533399094,
+          "terminal_height_first_order": 0.0005900280533399095,
+          "background_height": 2.5606004636871953,
+          "background_kappa": 4.173993557999604,
+          "length": 2.853880379129077,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.1022322534564215,
+          "comparison_D": 6.0771089637037425,
+          "comparison_hold_ratio": 0.032910385710462634,
+          "comparison_background_kappaD": 30.385544818518717,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 14.530079616466868
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.39040918884044645
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -5.443757117880963e-10
+          ],
+          "gain": 13.812423286064183,
+          "terminal_height_first_order": 1.3812423286064184,
+          "background_height": 8.64405293376336,
+          "background_kappa": 4.173993557999619,
+          "length": 9.097713979116282,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.3904091888404464,
+          "comparison_D": 17.996681363119603,
+          "comparison_hold_ratio": 0.01111316003015188,
+          "comparison_background_kappaD": 89.98340681559803,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 34014.58776524219
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.6782590960472793
+          },
+          "mode": 3,
+          "core_direction": [
+            -0.9999999999999998,
+            -8.73320896966404e-09
+          ],
+          "gain": -0.06640156652561625,
+          "terminal_height_first_order": 0.006640156652561626,
+          "background_height": 14.720601796617556,
+          "background_kappa": 4.173993557999619,
+          "length": 15.334461968597662,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.6782590960472792,
+          "comparison_D": 30.111971007803454,
+          "comparison_hold_ratio": 0.006641876745569741,
+          "comparison_background_kappaD": 150.5598550390173,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 163.5210466373371
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.4,
+        "ramp": 0.4,
+        "cycles": 3,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.020178398780812328
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            2.074340193372843e-15
+          ],
+          "gain": 0.026092189572665844,
+          "terminal_height_first_order": 0.0026092189572665845,
+          "background_height": 1.0414172599046148,
+          "background_kappa": 19.085210895641968,
+          "length": 1.2946461812830101,
+          "radius_min": 0.599999999999999,
+          "radius_max": 1.0201783987808124,
+          "comparison_D": 3.388983029688112,
+          "comparison_hold_ratio": 0.05901475405688473,
+          "comparison_background_kappaD": 64.67945584334929,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 64.25484173383414
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.07134010159550941
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            3.251401588931426e-16
+          ],
+          "gain": -0.016246159843968176,
+          "terminal_height_first_order": 0.0016246159843968178,
+          "background_height": 2.661462529731361,
+          "background_kappa": 5.398212052622156,
+          "length": 2.957401522760665,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.0713401015955095,
+          "comparison_D": 6.2394208687814166,
+          "comparison_hold_ratio": 0.03205425699053072,
+          "comparison_background_kappaD": 33.68171693523805,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 40.00792753132262
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.1057487397755298
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            1.1774729023320622e-15
+          ],
+          "gain": 0.002926881644587904,
+          "terminal_height_first_order": 0.00029268816445879043,
+          "background_height": 3.7510187496761893,
+          "background_kappa": 4.173993557999619,
+          "length": 4.075682263611328,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.10574873977553,
+          "comparison_D": 8.319216383468733,
+          "comparison_hold_ratio": 0.024040725806510295,
+          "comparison_background_kappaD": 41.596081917343675,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 7.20776293315292
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.25,
+            "vd": 0.4,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.3904069673452994
+          },
+          "mode": 3,
+          "core_direction": [
+            -0.9999999906669528,
+            0.00013662391530729396
+          ],
+          "gain": -322.4583918708515,
+          "terminal_height_first_order": 32.245839187085146,
+          "background_height": 12.764776887515085,
+          "background_kappa": 4.173993557999619,
+          "length": 13.32707465962884,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.3904069673452994,
+          "comparison_D": 26.159934195988157,
+          "comparison_hold_ratio": 0.007645279170108603,
+          "comparison_background_kappaD": 130.7996709799408,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 794088.7014370759
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.06552276625832873
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -9.733058550307873e-17
+          ],
+          "gain": 0.023419100605746184,
+          "terminal_height_first_order": 0.0023419100605746187,
+          "background_height": 0.9086109559134953,
+          "background_kappa": 9.304868694083005,
+          "length": 1.1692706144264133,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.0655227662583286,
+          "comparison_D": 3.2587594127782498,
+          "comparison_hold_ratio": 0.06137304865641811,
+          "comparison_background_kappaD": 30.322328441508652,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 57.67207074669494
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.3151320608340419
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            1.4858562025381004e-11
+          ],
+          "gain": -0.5161262097266563,
+          "terminal_height_first_order": 0.05161262097266564,
+          "background_height": 2.8367789414373767,
+          "background_kappa": 4.173993557999604,
+          "length": 3.189917284801234,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.315132060834042,
+          "comparison_D": 6.755066787306891,
+          "comparison_hold_ratio": 0.02960740527033871,
+          "comparison_background_kappaD": 33.77533393653446,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 1271.0166706519778
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "cycles": 2,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.02833290871276322
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.964267204428325e-12
+          ],
+          "gain": 0.032122934443374544,
+          "terminal_height_first_order": 0.0032122934443374546,
+          "background_height": 0.8401932905462612,
+          "background_kappa": 21.51846613024226,
+          "length": 1.0975715048275378,
+          "radius_min": 0.5999999999999989,
+          "radius_max": 1.0283329087127633,
+          "comparison_D": 3.1102725488384064,
+          "comparison_hold_ratio": 0.06430304639208999,
+          "comparison_background_kappaD": 66.92829449800152,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 79.1062039058486
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.10025806959727299
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            2.5714252595361673e-15
+          ],
+          "gain": -0.009187137744869225,
+          "terminal_height_first_order": 0.0009187137744869225,
+          "background_height": 1.9514002494610048,
+          "background_kappa": 6.081113859022719,
+          "length": 2.2620741096243626,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.100258069597273,
+          "comparison_D": 4.979609013559963,
+          "comparison_hold_ratio": 0.04016379588344796,
+          "comparison_background_kappaD": 30.28156938487394,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 22.624321356377187
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.313378959274969
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -2.9393822766237125e-10
+          ],
+          "gain": 9.673649045756862,
+          "terminal_height_first_order": 0.9673649045756862,
+          "background_height": 5.244009022074267,
+          "background_kappa": 4.173993557999619,
+          "length": 5.712602799644204,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.313378959274969,
+          "comparison_D": 11.307062369381654,
+          "comparison_hold_ratio": 0.017688060211074733,
+          "comparison_background_kappaD": 56.53531184690828,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 23822.4081077093
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.6477770943884382
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            -3.719300186427517e-10
+          ],
+          "gain": -0.06641635646935065,
+          "terminal_height_first_order": 0.006641635646935065,
+          "background_height": 10.410289225226741,
+          "background_kappa": 4.173993557999619,
+          "length": 11.126667844338467,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.6477770943884382,
+          "comparison_D": 21.5657580036636,
+          "comparison_hold_ratio": 0.00927396106206997,
+          "comparison_background_kappaD": 107.82879001831802,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 163.5574684750391
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "cycles": 3,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.018029392015131058
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -8.880206722995931e-13
+          ],
+          "gain": 0.03423793581718544,
+          "terminal_height_first_order": 0.0034237935817185445,
+          "background_height": 0.820281669884127,
+          "background_kappa": 33.81593433628657,
+          "length": 1.076704884131221,
+          "radius_min": 0.5999999999999989,
+          "radius_max": 1.018029392015131,
+          "comparison_D": 3.067951308286567,
+          "comparison_hold_ratio": 0.06519008286076707,
+          "comparison_background_kappaD": 103.74563998794301,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 84.31462377274352
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.06987743663508031
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            -9.796601840043666e-12
+          ],
+          "gain": -0.02218440290249835,
+          "terminal_height_first_order": 0.002218440290249835,
+          "background_height": 2.0218203375623345,
+          "background_kappa": 8.725001457777651,
+          "length": 2.335871682044274,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.0698774366350803,
+          "comparison_D": 5.075158342123805,
+          "comparison_hold_ratio": 0.03940763746029368,
+          "comparison_background_kappaD": 44.2807639334826,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 54.6314939759961
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.10455800222850388
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -1.8093536931377301e-12
+          ],
+          "gain": 0.004814412429841751,
+          "terminal_height_first_order": 0.00048144124298417514,
+          "background_height": 2.8255158459058776,
+          "background_kappa": 5.831028936211199,
+          "length": 3.178113989313132,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.104558002228504,
+          "comparison_D": 6.568755457562608,
+          "comparison_hold_ratio": 0.03044716785273838,
+          "comparison_background_kappaD": 38.302603147942804,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 11.85601184827201
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.3133740051533406
+          },
+          "mode": 3,
+          "core_direction": [
+            -0.9999999999866481,
+            -5.167574305291002e-06
+          ],
+          "gain": -183.0886543547748,
+          "terminal_height_first_order": 18.308865435477482,
+          "background_height": 7.664666556088293,
+          "background_kappa": 4.173993557999619,
+          "length": 8.249359774630594,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.3133740051533405,
+          "comparison_D": 16.040372328629058,
+          "comparison_hold_ratio": 0.012468538504124216,
+          "comparison_background_kappaD": 80.2018616431453,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 450875.6337241634
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.5,
+        "vd": 0.7,
+        "ramp": 0.4,
+        "cycles": 1,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.05307125051632161
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            1.0564997778027629e-11
+          ],
+          "gain": 0.03897613687436997,
+          "terminal_height_first_order": 0.003897613687436997,
+          "background_height": 0.6764413677006791,
+          "background_kappa": 23.49433000373579,
+          "length": 0.9421125095713043,
+          "radius_min": 0.599999999999999,
+          "radius_max": 1.0530712505163216,
+          "comparison_D": 2.9334002535258303,
+          "comparison_hold_ratio": 0.06818026273762265,
+          "comparison_background_kappaD": 68.91827358937809,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 95.98295686470532
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 1,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.19316333959631593
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            1.540996700451603e-10
+          ],
+          "gain": -0.24231399610072843,
+          "terminal_height_first_order": 0.024231399610072844,
+          "background_height": 1.399658063409478,
+          "background_kappa": 6.455021309670784,
+          "length": 1.7426387328855575,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.193163339596316,
+          "comparison_D": 4.160796474960739,
+          "comparison_hold_ratio": 0.04806772001552592,
+          "comparison_background_kappaD": 26.85802991107465,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 596.724449896538
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.5,
+        "vd": 0.7,
+        "ramp": 0.4,
+        "cycles": 2,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.022066537719935806
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            5.59074009813894e-11
+          ],
+          "gain": 0.045973949309274266,
+          "terminal_height_first_order": 0.004597394930927427,
+          "background_height": 0.6302985948509878,
+          "background_kappa": 56.50517037001765,
+          "length": 0.8910372234201616,
+          "radius_min": 0.5999999999999989,
+          "radius_max": 1.0220665377199358,
+          "comparison_D": 2.8278238894056953,
+          "comparison_hold_ratio": 0.07072576221924226,
+          "comparison_background_kappaD": 159.78667064727478,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 113.2158276146127
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.09746776108743303
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            -7.189464755856875e-16
+          ],
+          "gain": -0.01644610467991043,
+          "terminal_height_first_order": 0.001644610467991043,
+          "background_height": 1.4088068457359366,
+          "background_kappa": 12.792675849226608,
+          "length": 1.7527654904772727,
+          "radius_min": 0.5999999999999989,
+          "radius_max": 1.097467761087433,
+          "comparison_D": 4.059367889942827,
+          "comparison_hold_ratio": 0.049268754501286864,
+          "comparison_background_kappaD": 51.930177568797575,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 40.500313337166446
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.18818836426954114
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -3.5362823664355933e-09
+          ],
+          "gain": 2.082131772157463,
+          "terminal_height_first_order": 0.20821317721574628,
+          "background_height": 2.345485787379942,
+          "background_kappa": 6.625667204139696,
+          "length": 2.7895723839870796,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.1881883642695412,
+          "comparison_D": 5.7593597917947505,
+          "comparison_hold_ratio": 0.03472608193100493,
+          "comparison_background_kappaD": 38.159601289335306,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 5127.474914145212
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 2,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.5713408140629059
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            3.049082233550795e-11
+          ],
+          "gain": -0.06358887186985425,
+          "terminal_height_first_order": 0.006358887186985425,
+          "background_height": 6.301487164931817,
+          "background_kappa": 4.173993557999619,
+          "length": 7.168457524482678,
+          "radius_min": 0.5999999999999988,
+          "radius_max": 1.571340814062906,
+          "comparison_D": 13.4838725449956,
+          "comparison_hold_ratio": 0.014832534150156139,
+          "comparison_background_kappaD": 67.41936272497801,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 156.59448152679838
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.5,
+        "vd": 0.7,
+        "ramp": 0.4,
+        "cycles": 3,
+        "cut_radius": 0.6,
+        "cut_slope": 0.5
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.013972551219426933
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            -4.296235860617496e-13
+          ],
+          "gain": 0.04747163393423372,
+          "terminal_height_first_order": 0.004747163393423372,
+          "background_height": 0.6188616177096982,
+          "background_kappa": 89.2373521313549,
+          "length": 0.8783776703824997,
+          "radius_min": 0.599999999999999,
+          "radius_max": 1.0139725512194269,
+          "comparison_D": 2.801071859764433,
+          "comparison_hold_ratio": 0.0714012385304602,
+          "comparison_background_kappaD": 249.96023589502784,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 116.9040381527111
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.06557689920480023
+          },
+          "mode": 3,
+          "core_direction": [
+            -1.0,
+            -2.9891055441080506e-13
+          ],
+          "gain": -0.035143894452734956,
+          "terminal_height_first_order": 0.0035143894452734957,
+          "background_height": 1.4180743272769998,
+          "background_kappa": 19.013913260023777,
+          "length": 1.7630236358460416,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.0655768992048003,
+          "comparison_D": 4.037186394601772,
+          "comparison_hold_ratio": 0.04953945160110152,
+          "comparison_background_kappaD": 76.76271192150621,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 86.54564499779308
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.10246949325323311
+          },
+          "mode": 3,
+          "core_direction": [
+            1.0,
+            1.3164062038608768e-11
+          ],
+          "gain": 0.00822426172849739,
+          "terminal_height_first_order": 0.000822426172849739,
+          "background_height": 1.9894414930974418,
+          "background_kappa": 12.168240846668304,
+          "length": 2.3954681052477484,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.102469493253233,
+          "comparison_D": 5.048506085363189,
+          "comparison_hold_ratio": 0.039615679691829477,
+          "comparison_background_kappaD": 61.43143796256986,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 20.253134918804644
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.5,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "cycles": 3,
+            "cut_radius": 0.6,
+            "cut_slope": 0.5,
+            "delta": 0.18812437047618433
+          },
+          "mode": 3,
+          "core_direction": [
+            -0.9999999999998119,
+            -6.133889078397977e-07
+          ],
+          "gain": -19.13687802613164,
+          "terminal_height_first_order": 1.913687802613164,
+          "background_height": 3.316005420083064,
+          "background_kappa": 6.627921040667307,
+          "length": 3.863837429069769,
+          "radius_min": 0.5999999999999991,
+          "radius_max": 1.1881243704761844,
+          "comparison_D": 7.5454406983484095,
+          "comparison_hold_ratio": 0.026506072739234065,
+          "comparison_background_kappaD": 50.01058516569084,
+          "comparison_is_not_a_nonlinear_bound": true,
+          "tail_threshold_ratio": 47126.634022962324
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "elapsed_seconds": 311.2970600128174
+}

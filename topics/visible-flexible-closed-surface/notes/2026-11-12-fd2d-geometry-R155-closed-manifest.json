@@ -1,0 +1,49 @@
+{
+  "schema": "fd2d-R155-positive-II-branch-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R155-positive-II-branch-from-nonnegative-flat-tail.md",
+      "sha256": "ec2fe740d93b6d3e926e5d21541c6031de1cc52cadeef778225ea254698c7a6f",
+      "bytes": 13314,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_branch.py",
+      "sha256": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+      "bytes": 6738,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-positive-trace-branch-check.py",
+      "sha256": "cb79cb796172f3c0e836b210ae70989a349570a2a071f4d3f0350c41c33b5e88",
+      "bytes": 5175,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-trace-branch-check-01.json",
+      "sha256": "abf7a063b35e7fb157f75f28a152f957df59825b35d030999e2e56de653d5a9a",
+      "bytes": 1369,
+      "closed": true
+    }
+  ],
+  "scope": "Complete proof of positive-II branch propagation from nonzero PSD flat-tail trace on the current protected K>0 terminal brake; n-free d,m representation, exact zero-tail handling, full window Gauss/Codazzi/JVP formulas, and finite algebra implementation.",
+  "executions": [
+    {
+      "session": 30539,
+      "initial_chunk": "ee9b65",
+      "final_chunk": "c344b5",
+      "exit_code": 0,
+      "natural_exit": true,
+      "source_seconds": 0.08062934875488281,
+      "scope": "48 points and six complete parameter directions, independent rotated SPD and zero/rank-one exact tail cases; no BVP"
+    }
+  ],
+  "dependencies": [
+    "results/R128-exact-flat-developable-tail-with-fixed-collar.md",
+    "results/R153-positive-n-local-Gauss-parameterization.md",
+    "notes/2026-11-12-fd2d-metric-gauss14-late-node118.md",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json"
+  ],
+  "source_inputs_unchanged": true,
+  "full_strong_target_completion_claimed": false
+}

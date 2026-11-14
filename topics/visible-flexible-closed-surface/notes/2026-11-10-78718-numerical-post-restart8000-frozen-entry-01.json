@@ -1,0 +1,89 @@
+{
+  "status": "FROZEN_FOR_FULL_REVIEW_NOT_POSITIVE_PRODUCTION_PLAN",
+  "source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+    "bytes": 32491,
+    "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+  },
+  "documents_and_actual_reports": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-chain.md",
+      "bytes": 19010,
+      "sha256": "f3cb14844116c529463a1402ad31e29a0dd18daa663378898d6eefc9ae12a926"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-static-inputs-01.json",
+      "bytes": 65775,
+      "sha256": "34981c529934ebccf9a85ae8dd5b41b8359930d828e7faae7d6117b4d52aff4b"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-negative-missing-exit-01.json",
+      "bytes": 266,
+      "sha256": "542903ae4255fad4a58f569ada19c3aad299cc750a2a702084a079825fd805c0"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-post-restart8000-negative-wrong-run-01.json",
+      "bytes": 269,
+      "sha256": "d33813790de79a23589262f44db58aedebdd383b155b5b7f881374f5e668c393"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-original-independent-seed-scope.md",
+      "bytes": 7930,
+      "sha256": "3aeb66ddba71c8cf85a9029ff817e8823cea535d438f6872db6025d4c0a53b3f"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-original-independent-seed-bindings-01.json",
+      "bytes": 6782,
+      "sha256": "9dbda451bfb93697d09f754125b3ce7445f629645f3821efcd22b84a88b17106"
+    }
+  ],
+  "full_final_auditor": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-restart8000-v1.py",
+    "bytes": 31955,
+    "sha256": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f"
+  },
+  "actual_executions": [
+    {
+      "tool_receipt": "a0190a",
+      "exit_code": 0,
+      "scope": "source compile and hash-only fixed-input check",
+      "solver_calls": 0,
+      "producer_calls": 0,
+      "success_plan_created": false
+    },
+    {
+      "tool_receipt": "767cf2",
+      "exit_code": 2,
+      "scope": "missing future root exit rejected",
+      "production_commands_emitted": 0
+    },
+    {
+      "tool_receipt": "c67b35",
+      "exit_code": 2,
+      "scope": "wrong actual old run observation rejected",
+      "production_commands_emitted": 0
+    },
+    {
+      "tool_receipt": "fab1c9",
+      "exit_code": 0,
+      "scope": "97 original seed reference hashes checked",
+      "solver_calls": 0,
+      "producer_calls": 0
+    }
+  ],
+  "imports": [
+    "argparse",
+    "gzip",
+    "hashlib",
+    "importlib.util",
+    "json",
+    "pathlib",
+    "sys"
+  ],
+  "production_directory_absent": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-closed-restart8000-02-original",
+  "positive_path_executed": false,
+  "source_family": "original single-container only",
+  "storage_family_implicitly_switched": false,
+  "main_session_polled_here": false,
+  "future_success_checkpoint_sha256": null
+}

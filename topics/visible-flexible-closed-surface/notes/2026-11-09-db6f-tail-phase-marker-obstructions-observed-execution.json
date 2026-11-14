@@ -1,0 +1,41 @@
+{
+  "README_complete": false,
+  "argv": [
+    "python",
+    "topics/visible-flexible-closed-surface/scripts/db6f-tail-phase-marker-obstructions.py",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-phase-marker-obstructions.json",
+    "--sources",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-phase-marker-obstructions-sources.json"
+  ],
+  "closed_files": [
+    {
+      "bytes": 14495,
+      "file": "scripts/db6f-tail-phase-marker-obstructions.py",
+      "sha256": "e904ab1b2aa23745c1eb64db562fb52c5fd31a0fc35b6dc3e90f3232b0b593d7"
+    },
+    {
+      "bytes": 17349,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-v2.md",
+      "sha256": "5766e8ea650b13b8bd32244496db9d67ecd7c223d4eca6d4a67e2c1e84812486"
+    },
+    {
+      "bytes": 11251,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions.json",
+      "sha256": "6433db0e9b1469bd0586fcecc35833b3d5f21813eb8620064f1df111a9c2fc96"
+    },
+    {
+      "bytes": 5854,
+      "file": "notes/2026-11-09-db6f-tail-phase-marker-obstructions-sources.json",
+      "sha256": "807a61dbda8b48a0245f91bf1539875b7df7460a1c0d2249173acde53da270f6"
+    }
+  ],
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "independent_review_pending": true,
+  "observed_exit_code": 0,
+  "observer": "/root/tail_theory",
+  "scope": "Only exact scalar arithmetic and source identity; no new root, flow, solver, integration, export or interval backend.",
+  "status": "ACTUAL_EXIT_0",
+  "tool": "functions.exec -> exec_command",
+  "tool_chunk_id": "305bfe"
+}

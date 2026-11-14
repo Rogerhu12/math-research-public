@@ -1,0 +1,108 @@
+{
+  "status": "INTERRUPTED_EXECUTION_UNAVAILABLE_EXIT_UNKNOWN",
+  "observed_utc": "2026-11-09T10:59:10.724072+00:00",
+  "original_session_id": 11849,
+  "actual_exit_code": null,
+  "actual_signal": null,
+  "exit_reason_unknown": true,
+  "tool_observation": "Own tools.write_stdin(session_id=11849) returned Unknown process id at 2026-11-09T10:58 UTC; independent parent query also unavailable. No matching controller or trial worker appeared in own /proc scan.",
+  "scope": "No completed DN response. The last atomic iterate is UNCONVERGED and does not define a solved warm state. The old progress file says RUNNING but is stale; this record supersedes that execution label only.",
+  "original_stem": "2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01",
+  "original_scale": 0.25,
+  "max_iterations": 36,
+  "iteration": {
+    "iteration": 4,
+    "norm": 292.71994277008594,
+    "minA": 0.9145614796914862,
+    "minD": 0.9978508773278302
+  },
+  "saved_checkpoint_status": "iteration-recovery-only",
+  "saved_checkpoint_scope": "UNCONVERGED iteration checkpoint for recovery only; not a solved DN response or geometric certificate.",
+  "last_trace": {
+    "time": "2026-11-09T10:42:42.723Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 1066839,
+    "iteration": 4,
+    "norm": 292.71994277008594,
+    "minA": 0.9145614796914862,
+    "minD": 0.9978508773278302,
+    "chartCondition": 39850.69351187304,
+    "phase": "correction"
+  },
+  "last_trial": {
+    "time": "2026-11-09T10:45:09.796Z",
+    "call": 1,
+    "iteration": 4,
+    "trial": 3,
+    "step": 0.125,
+    "baseNorm": 292.71994277008594,
+    "kind": "residual-not-decreasing",
+    "trialNorm": 301.4418731558783
+  },
+  "full_iteration_intervals_seconds": [
+    243.099,
+    237.179,
+    237.156,
+    251.481
+  ],
+  "checkpoint_has_saved_residual_vector": false,
+  "checkpoint_has_saved_worst_stage": false,
+  "latest_recorded_elapsed_seconds": 1213.912,
+  "complete_response_records": [],
+  "reproduction_exists": false,
+  "memory_events_observed": {
+    "oom": 9,
+    "oom_kill": 2,
+    "oom_group_kill": 0
+  },
+  "new_oom_evidence": false,
+  "immutable_input_binding": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-input-bindings.json",
+    "sha256": "6ec973d0e3a33b7847a909666be88148916500326b500492e7f9edb9d33808fa"
+  },
+  "immutable_config": {
+    "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+    "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096"
+  },
+  "controller_sha256": "23f75c9ecc2825e4a8314468775c40b06b6b47439edd0d0ed9a69a9fb5e298a9",
+  "client_sha256": "cd9b25521427dcefebd5baddcf6a105c58c53f495cf8692fb725d49e4558a564",
+  "source_map_sha256": "6f27dc9cd2dc2e9ccb0a2a38c07671e8f0057b301c68a15fedd81c10e71c3234",
+  "files": [
+    {
+      "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-iteration.json.gz",
+      "frozen_copy": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-recovery-iteration004.json.gz",
+      "bytes": 263157,
+      "sha256": "8266c8b9e66ffd57e3fce0c9e806a0c14533cd9b7795cca6bcfdb2fc205cd20a",
+      "original_mtime_utc": "2026-11-09T10:42:42.576425+00:00"
+    },
+    {
+      "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-active-trace.jsonl",
+      "frozen_copy": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-closed-trace.jsonl",
+      "bytes": 2487,
+      "sha256": "339246226e0f56573b20f390f5f8be08cee81bcff558a1b78e19126bad171a9f",
+      "original_mtime_utc": "2026-11-09T10:42:42.720423+00:00"
+    },
+    {
+      "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-active-trials.jsonl",
+      "frozen_copy": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-closed-trials.jsonl",
+      "bytes": 3401,
+      "sha256": "3b213b00aa8702ce45cd7520ab7a2dc43a42b4efad9f4a7a3eacbc51d49e325b",
+      "original_mtime_utc": "2026-11-09T10:45:09.794448+00:00"
+    },
+    {
+      "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-run.log",
+      "frozen_copy": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-closed-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_mtime_utc": "2026-11-09T10:24:50.110878+00:00"
+    },
+    {
+      "source": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-progress.json",
+      "frozen_copy": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-continuation-01-interrupted-stale-progress.json",
+      "bytes": 653,
+      "sha256": "5f45390fa54c59a59d05a41cb3175eadab2cc75799c5178cca0c8234dc318ac5",
+      "original_mtime_utc": "2026-11-09T10:24:55.878819+00:00"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-piecewise-normal-reduce.py", line 215, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-piecewise-normal-reduce.py", line 195, in main
+    if args.piece is not None:run_piece(root,index,args.piece);return 0
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-piecewise-normal-reduce.py", line 145, in run_piece
+    dest.parent.mkdir(parents=True,exist_ok=True);tmp=Path(tempfile.mkdtemp(prefix='.piece-incomplete-',dir=dest.parent))
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/tempfile.py", line 384, in mkdtemp
+    _os.mkdir(file, 0o700)
+OSError: [Errno 28] No space left on device: 'notes/2026-11-12-fd2d-raw-bump-grouped28-work/normal-piece-reduction/.piece-incomplete-58rlqr7t'

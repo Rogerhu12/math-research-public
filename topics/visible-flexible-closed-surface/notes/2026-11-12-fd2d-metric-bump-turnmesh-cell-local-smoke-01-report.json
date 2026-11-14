@@ -1,0 +1,234 @@
+{
+  "schema": "fd2d-actual-bump-P1-cell-local-two-point-query-v1",
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-cell-local.py",
+      "bytes": 5445,
+      "sha256": "a9cf50830be7b48aecc3f2778b27d6fa7a4dd6ce969f703b171dec17e059ea88"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_cell_probe.py",
+      "bytes": 7911,
+      "sha256": "643511d3411665d8c3e3f45499bb22709dd34cfd22b9aa772d1f12408bb8a190"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_seed_native_field.py",
+      "bytes": 5488,
+      "sha256": "3604594821587e368954434c667455b34452d7e4107476a74fca2f754163eba5"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_archive_arrays.py",
+      "bytes": 4139,
+      "sha256": "a2727d5c0a7cf0fea298ac6d055025b515fcaf1feab81f69eb1c29ea2afa6eea"
+    }
+  ],
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-turnmesh01-warm.npz",
+    "bytes": 48129,
+    "sha256": "6edb4f22059f365c6351a32ea86fcc1f5b7c3460902dc1ca075c67432c7fb122"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "actual_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-definition.json",
+    "bytes": 14312,
+    "sha256": "a8ede8759d083aa704e0ea04213dcf665471558b3045bbd6a686030c8aae713c"
+  },
+  "progress": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-turnmesh-cell-local-smoke-01-progress.jsonl",
+    "bytes": 296,
+    "sha256": "65b15a5bf11e948c02fdd460e7973794521caa533f147b5e69dd55b5755a1803"
+  },
+  "node_count": 122,
+  "selected_cell_count": 1,
+  "selected_cells": [
+    86
+  ],
+  "selection_requests": [
+    {
+      "kind": "physical_interval",
+      "interval": [
+        1.001,
+        1.002
+      ],
+      "actual_cells": [
+        86
+      ]
+    }
+  ],
+  "explicit_all_cells": false,
+  "actual_saved_mesh_unchanged": true,
+  "representation_kind": "targeted_turn_mesh_exact_central_cylinder_v1",
+  "seed_weight_definition": {
+    "kind": "central_plateau",
+    "start": 0.32,
+    "end": 0.55,
+    "step": 5
+  },
+  "angular_points": 128,
+  "angular_coordinate": "xi=2*pi*j/N; material u is U(s,xi)",
+  "maximum_retained_frequency": 30,
+  "components": [
+    "G",
+    "Rn",
+    "Rm"
+  ],
+  "actual_cell_queries": [
+    {
+      "cell": 86,
+      "endpoints": [
+        1.000419888139713,
+        1.0031442329625426
+      ],
+      "length": 0.002724344822829572,
+      "sample_fractions": [
+        0.0,
+        0.21132486540518708,
+        0.7886751345948129,
+        1.0
+      ],
+      "physical_sample_s": [
+        1.000419888139713,
+        1.0009956099427149,
+        1.0025685111595408,
+        1.0031442329625426
+      ],
+      "gauss_point_indices": [
+        1,
+        2
+      ],
+      "gauss_weights": [
+        0.5,
+        0.5
+      ],
+      "sample_maxima": {
+        "G": 3.215350672701283,
+        "Rn": 0.5063660357119769,
+        "Rm": 0.40587824712303117
+      },
+      "retained_sample_maxima": {
+        "G": 3.2161290821994717,
+        "Rn": 0.5227152651736093,
+        "Rm": 0.4196592993875482
+      },
+      "omitted_sample_maxima": {
+        "G": 0.0018570617606750162,
+        "Rn": 0.1013219502780258,
+        "Rm": 0.04453641448394993
+      },
+      "peaks": {
+        "G": {
+          "absolute_value": 3.215350672701283,
+          "signed_value": 3.215350672701283,
+          "fraction": 0.0,
+          "s": 1.000419888139713,
+          "xi": 0.0,
+          "material_u": 0.0,
+          "retained_at_same_point": 3.2161290821994717,
+          "omitted_at_same_point": -0.0007784094981886369
+        },
+        "Rn": {
+          "absolute_value": 0.5063660357119769,
+          "signed_value": 0.5063660357119769,
+          "fraction": 0.0,
+          "s": 1.000419888139713,
+          "xi": 3.9269908169872414,
+          "material_u": 3.6386533105380607,
+          "retained_at_same_point": 0.5227152651736086,
+          "omitted_at_same_point": -0.016349229461631642
+        },
+        "Rm": {
+          "absolute_value": 0.40587824712303117,
+          "signed_value": 0.40587824712303117,
+          "fraction": 0.0,
+          "s": 1.000419888139713,
+          "xi": 3.5833791205008576,
+          "material_u": 3.421177200826325,
+          "retained_at_same_point": 0.4196592993875478,
+          "omitted_at_same_point": -0.013781052264516647
+        }
+      },
+      "gauss2_mean_maxima": {
+        "G": 3.2024752894422313,
+        "Rn": 0.25146774888508405,
+        "Rm": 0.18944336126110636
+      },
+      "gauss2_retained_mean_maxima": {
+        "G": 3.2034226136611923,
+        "Rn": 0.2684336038622801,
+        "Rm": 0.19329215177141584
+      },
+      "gauss2_omitted_mean_maxima": {
+        "G": 0.0013533288873246452,
+        "Rn": 0.10109970322094783,
+        "Rm": 0.04391468425491331
+      },
+      "gauss2_integral_maxima": {
+        "G": 0.008724646975031577,
+        "Rn": 0.0006850848597836856,
+        "Rm": 0.0005161090404711274
+      },
+      "sampled_n_minimum": 0.6671460243895715,
+      "sampled_formal_curvature_maximum": 2.0004179706973626,
+      "sampled_connection_operator_norm_maximum": 3.5889561841098625,
+      "a_range": [
+        1.115570472884705,
+        1.1162293744693177
+      ],
+      "a_s_range": [
+        0.23747499259076676,
+        0.24615792643629714
+      ],
+      "a_ss_range": [
+        3.0975484272432534,
+        3.2756488717718826
+      ],
+      "trapezoid_mean_maxima": {
+        "G": 3.2019026686655865,
+        "Rn": 0.2502484577662494,
+        "Rm": 0.19009170548772275
+      },
+      "gauss2_minus_trapezoid_maxima": {
+        "G": 0.0007797648601743923,
+        "Rn": 0.001923357239891621,
+        "Rm": 0.0010683510390399331
+      }
+    }
+  ],
+  "average_definition": "Two Gauss-Legendre samples with equal weights at fixed xi; arithmetic finite approximation only",
+  "interval_selection_uses_whole_saved_cells": true,
+  "endpoint_derivatives": "If present, both use the same actual cell one-sided P1 slope",
+  "seconds": 1.5837480219997815,
+  "maximum_rss_kib": 69380,
+  "input_field_bytes_unchanged": true,
+  "sources_unchanged": true,
+  "computation_completed": true,
+  "continuous_certificate": false,
+  "nonlinear_solve_performed": false,
+  "body_integration_run": false,
+  "fixed_material_primitive_estimate": false,
+  "scope": "Finite actual saved-field samples, complete sampled residual and discrete retained/high decomposition. No unsampled radial/angular bound is asserted."
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "fd2d-real-nonlinear-tail-query-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-01/topics/visible-flexible-closed-surface/scripts/fd2d-gc-tail-query.py",
+    "bytes": 4827,
+    "sha256": "34f5ae987cbfb1154aa9545974a5f5a516be8d921861623ffb52405f069315a8"
+  },
+  "worker": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-01/topics/visible-flexible-closed-surface/scripts/950f-tail-port-v3.mjs",
+    "bytes": 6189,
+    "sha256": "ca259624b63f3f22475a046dc1774ff72d360304987706211f9300d4fff4e193"
+  },
+  "config": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-01/config.json",
+    "bytes": 2197,
+    "sha256": "f80ebbc23dca108a6c4135b09d1e4039691aee95cdd0e51ce256d22f6e7051b9"
+  },
+  "request": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-01/request.json",
+    "bytes": 171,
+    "sha256": "5062c16453ec0d7195165b8ead2c4f033a803966ff26501fa45569d25de54cd2"
+  },
+  "request_value": {
+    "height": [
+      -1.3144314807763338e-05,
+      1.3153089029661174e-10,
+      -2.4006943319277254e-13,
+      4.563467345614098e-16
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "scope": "Actual finite Fourier/depth nonlinear worker response; no infinite-tail or full-surface assertion.",
+  "response": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-tail-01/outputs/2026-11-12-fd2d-numerical-gc-design-p148-nonlinear-tail-m4-01-response.json",
+    "bytes": 60,
+    "sha256": "c5b9678d35805a9f29f06d62c063569a22dad761f54ac6fc7330ac1b01b6b6f5"
+  },
+  "converged": null,
+  "residual": null,
+  "history_count": 0,
+  "has_actual_height_jet_jacobian": false,
+  "has_actual_audit": false,
+  "worker_returncode": 0,
+  "seconds": 18.359658436005702
+}

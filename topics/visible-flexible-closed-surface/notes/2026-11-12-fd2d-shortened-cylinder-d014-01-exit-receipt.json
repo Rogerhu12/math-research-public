@@ -1,0 +1,13 @@
+{
+  "schema": "fd2d-observed-exec-exit-receipt-v1",
+  "command": "python scripts/fd2d-shortened-cylinder-native-check.py --parent-definition notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json --delta 7/50 --out-prefix notes/2026-11-12-fd2d-shortened-cylinder-d014-01",
+  "session_id": 39711,
+  "initial_chunk_id": "a7ec22",
+  "final_chunk_id": "bb0ef0",
+  "observed_exit_code": 0,
+  "report_seconds": 4.984646027001872,
+  "body_ODE_runs": 0,
+  "whole_F_or_J_runs": 0,
+  "BVP_runs": 0,
+  "launcher_status": "Final explicit metadata dispatcher syntax compiled; no body main called"
+}

@@ -1,0 +1,61 @@
+{
+  "scope": "Nonlinear planar ellipse-core to finite Robin-port BVP.\n\nUnknowns: cycle excursion (one metric-design parameter) and M-1 higher\nplanar inlet coefficients.  The latter keep the two principal-axis vertices\nin the prescribed ratio.  The geometric Frenet equation is not linearized.\nAfter solving, the profile is frozen and the actual C2 polynomial map is\naudited independently in Cartesian coordinates.  A finite linear Robin port\nis NOT a circular collar or an infinite-tail closure.\n",
+  "candidate_config": {
+    "direction": "outward",
+    "delta": 0.19146251660025568,
+    "vu": 0.35,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "cycles": 1,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5
+  },
+  "rows": [
+    {
+      "aspect": 1.2,
+      "modes": 12,
+      "solver_success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "checkpoint": "repo_scan_ellipse_m12_m12_ratio1p2.json.gz",
+      "nodes": 1377,
+      "profile_delta": 0.19151068584691558,
+      "parameters": [
+        4.816924665989791e-05,
+        0.2527471812251629,
+        0.38055152554446786,
+        0.7035894368090597,
+        1.4731820168341352,
+        3.379251138580203,
+        8.287542432120384,
+        21.459831512064724,
+        22.484957355772142,
+        6.073832073433999,
+        1.871661118779413,
+        -0.7591473149167182
+      ],
+      "metric_l1": 3.5937153749886353e-08,
+      "darboux_l1": 2.966373349227179e-06,
+      "flow_defect": 5.4356839162810056e-08,
+      "kappa_sample": 4.236596375924629,
+      "kappaD": 19.040564344968132,
+      "radius": 1.2268482060853245,
+      "height": 1.8826954394569688,
+      "cylinder_diagonal": 4.494306904752655,
+      "root": 0.0459301038777028,
+      "projection_min": 0.10979799619140847,
+      "terminal_noncircle": 0.003729294341233276,
+      "central_major_radius": 1.0911568237847962,
+      "central_minor_radius": 0.9092973531539968,
+      "inlet_position_error": 4.760311292468864e-10,
+      "inlet_first_jet_error": 1.1102230246251565e-16,
+      "inlet_second_jet_error": 1.1761823519787897e-14,
+      "seconds": 8.209027528762817
+    }
+  ],
+  "source_hashes": {
+    "repo_scan_ellipse_bvp.py": "a3f3b6d6339cb56afbd8c30f3aca6053bc5e98fa96b044eec59f28f1fa87b86a",
+    "repo_scan_ellipse_core.py": "921d8d8fd90249ce5090241d39f35cb76f9e990b5fd545d26c0810f402a3962f",
+    "repo_scan_ellipse_line.py": "203ffcd1daf90d274a4b3185018f23e9b12d235e9cc4a62d39a54fac5d869e51"
+  },
+  "elapsed_seconds": 8.209055423736572
+}

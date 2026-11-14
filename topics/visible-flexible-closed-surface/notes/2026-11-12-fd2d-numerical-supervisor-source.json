@@ -1,0 +1,10 @@
+{
+  "scope": "Supervisor source copied before activation; existing finite mathematical source unchanged",
+  "original_path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-external-exit-supervisor.py",
+  "copied_path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-live-07/control/fd2d-external-exit-supervisor.py",
+  "bytes": 10618,
+  "sha256": "0963e06a3cc3fb2ebe8be8530682d210c2e6a4ade4237665b71c1d870f8bc7cf",
+  "policy": "Retry only observed external Node -9, using complete actual warm and exact same stage cache; mathematical/other failures returned for diagnosis",
+  "resource_choice": "two stage workers each old128/young16 MiB; host old256/young16 MiB",
+  "disk_policy": "After a closed attempt, if free disk below1.5GB, retain last8 exact evaluations and all indices/context/checkpoints; remove only obsolete recomputable binary stage cache blocks"
+}

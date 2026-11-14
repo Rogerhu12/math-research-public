@@ -1,0 +1,43 @@
+{
+  "status": "observed-process-started-not-completed",
+  "observer": "/root",
+  "stem": "2026-11-10-78718-numerical-m14-restart8000-02",
+  "session_id": 72917,
+  "tool_receipt": "ef2882",
+  "actual_exit_code": null,
+  "observed_at_utc": "2026-11-10 07:10:57 UTC",
+  "observation_scope": "Actual root orchestration tool return; timestamp is the recording time, not exact process wall-end. Guard metadata is not used to infer an exit.",
+  "tool_return_metadata": {
+    "chunk_id": "ef2882",
+    "wall_time_seconds": 1.000378384,
+    "session_id": 72917,
+    "original_token_count": 97
+  },
+  "recorder_source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-record-root-tool-observation-v1.py",
+    "bytes": 3721,
+    "sha256": "d7115aa54f2148ea579161e164de5c79585269dc5522f13b1b1bb228c8d4440b"
+  },
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json",
+      "bytes": 103214,
+      "sha256": "0a84349dbfbaf00c7670fe846605209fd8350722c439a0fd5c39931826de012d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-preparation.json",
+      "bytes": 5236,
+      "sha256": "ade31b80bcac09173d05da27ff87e99fba67b6a16dd8eaebca1e25b5e5defa32"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-guard-launch.json",
+      "bytes": 53915,
+      "sha256": "41eb98c8d4c1b001cecec0f8b9ed00023a4ceaa0b418f2d5a3dee09899ae908a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-tail-config.json",
+      "bytes": 2655,
+      "sha256": "52f6ec2e6adcd15196a27161a155e6133899f6ff02833bc67055c613c18e2c75"
+    }
+  ]
+}

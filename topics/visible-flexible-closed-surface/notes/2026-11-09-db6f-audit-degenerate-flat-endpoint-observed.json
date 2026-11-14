@@ -1,0 +1,20 @@
+{
+  "status": "ACTUAL_TOOL_EXIT_OBSERVED",
+  "initial_tool_chunk_id": "66a720",
+  "session_id": 70448,
+  "final_tool_chunk_id": "8b6e0a",
+  "actual_tool_exit_code": 0,
+  "script": {
+    "path": "scripts/db6f-audit-degenerate-flat-endpoint-symbolics.py",
+    "bytes": 6176,
+    "sha256": "a0f4c06c262f9d89e4ec3240cef79cc6e582b3e9710b05dc75d1e26256f9971d"
+  },
+  "report": {
+    "path": "notes/2026-11-09-db6f-audit-degenerate-flat-endpoint-symbolics.json",
+    "bytes": 2017,
+    "sha256": "4388ccb903d85d3a311b79441fede163c7c5b7e3ac2ae9c96a82fa99c072675b"
+  },
+  "exact_identity_count": 39,
+  "actual_solver_calls": 0,
+  "author_symbolic_check_only_not_independent_review": true
+}

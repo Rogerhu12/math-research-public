@@ -1,0 +1,95 @@
+{
+  "status": "proved-bounds-from-complete-coarse-packet-run-pending-backend-independent-review",
+  "sourceReportSHA256": "f988f229b4f367f7e2c58b35b179b73e78596dc525e2550c395b95c24ca752d7",
+  "sourceRowsSHA256": "f13b0a51e5ee6ef70b2ead537ce43b21fea4f0eea6fe7b8b1ec31afcd6122358",
+  "backendSHA256": "87bcf9d395e3d83df11e1d8d3ba5c0ca77dcc10645feff390c45271421373e9d",
+  "entireFiniteCoverage": true,
+  "savedRawCellSummaries": [
+    {
+      "savedRawCell": 7,
+      "spanInterval": [
+        0,
+        580
+      ],
+      "metricUpper": 1.016989585718676e-20,
+      "curvatureUpper": 6.000000000001367,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 6,
+      "spanInterval": [
+        580,
+        1160
+      ],
+      "metricUpper": 1.1630840316454225e-14,
+      "curvatureUpper": 6.000000214600479,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 5,
+      "spanInterval": [
+        1160,
+        1740
+      ],
+      "metricUpper": 2.648547602095822e-11,
+      "curvatureUpper": 6.000143850252883,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 4,
+      "spanInterval": [
+        1740,
+        2319
+      ],
+      "metricUpper": 1.1321649442005512e-09,
+      "curvatureUpper": 6.005122067742474,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 3,
+      "spanInterval": [
+        2319,
+        2898
+      ],
+      "metricUpper": 3.3511949304761e-08,
+      "curvatureUpper": 6.040582452260321,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 2,
+      "spanInterval": [
+        2898,
+        3477
+      ],
+      "metricUpper": 4.809212847603965e-07,
+      "curvatureUpper": 6.169207593957708,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 1,
+      "spanInterval": [
+        3477,
+        4057
+      ],
+      "metricUpper": 0.0001581695590167392,
+      "curvatureUpper": 6.515786200598575,
+      "allCurvatureResolved": true
+    },
+    {
+      "savedRawCell": 0,
+      "spanInterval": [
+        4057,
+        4637
+      ],
+      "metricUpper": 0.013809535602680764,
+      "curvatureUpper": 11.528895461227528,
+      "allCurvatureResolved": true
+    }
+  ],
+  "collarAndSpansBefore3477": {
+    "metricUpper": 4.809212847603965e-07,
+    "curvatureUpper": 6.169207593957708,
+    "checkedPacketRows": 3478
+  },
+  "scope": "Saved raw-cell labels group geometry spans, not asserted exact analytic-source boundary locations. The packet enclosures themselves are physical-radius certified."
+}

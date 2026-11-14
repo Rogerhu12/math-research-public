@@ -1,0 +1,18 @@
+{
+  "scope": "Post hoc reconstruction of the exact precompletion metadata bytes; reconstructed from the final metadata by the six documented driver completion additions, and verified against the SHA256 already recorded in the old recovery ledger. Not an original surviving copy; not a solver result.",
+  "reconstructed": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reconstructed-precompletion-reproduction.json",
+  "reconstructed_sha256": "f3cf229e7896ada319fee9277dd9f7684cd02acef251777ef997920f7d7db38f",
+  "bytes": 6401,
+  "current_complete": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m14-d12-p8-s32-q512-outer-from14-reproduction.json",
+  "current_complete_sha256": "0f5ded3b774e81d1e9d49e8901609672c08348c15a610b2ae4eb37c0dbda8655",
+  "removed_fields": [
+    "exit_code",
+    "wall_seconds",
+    "success",
+    "error",
+    "actual_amplitude",
+    "amplitude_difference"
+  ],
+  "prior_hash_source": "2026-11-09-db6f-prefix-live-recovery-snapshots-20261109T093205Z.json",
+  "source_ledger_sha256": "9c183229c01e9c26bd6756b0a1f0565f574ab00d593b3538b2e92d5e373dffa6"
+}

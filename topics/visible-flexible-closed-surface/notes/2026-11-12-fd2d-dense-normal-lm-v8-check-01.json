@@ -1,0 +1,144 @@
+{
+  "schema": "fd2d-dense-normal-lm-finite-v8-fixture-v1",
+  "passed": true,
+  "execution": "actual JavaScript execution",
+  "elapsedMilliseconds": 2,
+  "maximumDimension": 2,
+  "fixtures": [
+    {
+      "name": "full_rank_2d_linear_least_squares",
+      "actualValueCalls": 1,
+      "actualAccepted": true,
+      "analyticDirectionMaximumError": 2.220446049250313e-16,
+      "baselineSquaredNorm": 14.147600000000002,
+      "actualSquaredNorm": 1.2517772211702276,
+      "originalScaledEquationResidualMaximum": 4.440892098500626e-16,
+      "inputArraysUnchanged": true
+    },
+    {
+      "name": "2d_Rosenbrock_nonlinear_least_squares",
+      "status": "finite_squared_norm_target",
+      "initialSquaredNorm": 24.2,
+      "finalSquaredNorm": 8.184433124263162e-24,
+      "finalZ": [
+        0.9999999999971401,
+        0.9999999999942729
+      ],
+      "acceptedSteps": 19,
+      "actualValueCalls": 31,
+      "normalEvaluations": 19,
+      "rejectedActualTrials": 12,
+      "acceptedAlphas": [
+        0.25,
+        0.25,
+        0.25,
+        0.5,
+        1,
+        0.25,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "acceptedSquaredNorms": [
+        19.82748355330416,
+        17.728953485923928,
+        17.092519186999354,
+        15.288557319486758,
+        0.8451803522655017,
+        0.7078055733790063,
+        0.5036302199649602,
+        0.2171923658573547,
+        0.1443191487482819,
+        0.07655268326947395,
+        0.041344907576942286,
+        0.014159822441002216,
+        0.004385882801096553,
+        0.0003735027026318892,
+        0.000002756245486055856,
+        2.026380583954021e-9,
+        2.711291597316508e-13,
+        4.4543359625148524e-18,
+        8.184433124263162e-24
+      ],
+      "everyAcceptedStepHasActualStrictArmijo": true
+    },
+    {
+      "name": "2d_one_exact_zero_column",
+      "actualSquaredNorm": 9.980029960049264e-7,
+      "unobservedCoordinate": 7,
+      "zeroDiagonalColumns": [
+        1
+      ],
+      "hiddenShift": 0
+    },
+    {
+      "name": "2d_exact_rank_one_normal",
+      "actualSquaredNorm": 9.999989999688608e-13,
+      "lambda": 0.000001,
+      "scaledEquationResidual": 2.220446049250313e-16,
+      "hiddenShift": 0
+    },
+    {
+      "name": "2d_roundoff_perturbed_rank_one_factorization_stress",
+      "notExactJtJ": true,
+      "offDiagonalPerturbation": 8.881784197001252e-16,
+      "actualSquaredNorm": 3.1554436208840472e-30,
+      "initialLambda": 1e-18,
+      "acceptedLambda": 1e-15,
+      "rejectedFactors": [
+        {
+          "lambda": 1e-18,
+          "pivot": -1.7763568394002505e-15
+        },
+        {
+          "lambda": 1e-17,
+          "pivot": -1.7763568394002505e-15
+        },
+        {
+          "lambda": 1.0000000000000001e-16,
+          "pivot": -1.7763568394002505e-15
+        }
+      ],
+      "hiddenShift": 0,
+      "actualAcceptance": true
+    },
+    {
+      "name": "invalid_actual_values_rejected",
+      "accepted": false,
+      "actualValueCalls": 3,
+      "triedAlphas": [
+        1,
+        0.5,
+        0.25
+      ]
+    }
+  ],
+  "continuousGeometryCertificate": false,
+  "OSProcessCreated": false,
+  "source": {
+    "path": "scripts/fd2d_dense_normal_lm.cjs",
+    "sha256": "1e74ee24bd59b3f7a0b41fedf17e338f7ea42f113de72986396fde484de38ea4",
+    "commit": "a9a27d86b9c45ef31a04a11a0b2b8bbc253a7800"
+  },
+  "checker": {
+    "path": "scripts/fd2d_dense_normal_lm_check.cjs",
+    "sha256": "2d688a5514ca5e3b00e82db6733495dfe59f04d8a427834d60f768a90cda9fe2"
+  },
+  "runtime": "functions.exec V8 isolate",
+  "moduleCompiledAndExecuted": true,
+  "processExitCode": null,
+  "processSession": null,
+  "successfulFunctionsCompletion": true,
+  "original36SourcesChanged": false,
+  "actualR187ProviderSolvedByThisCheck": false
+}

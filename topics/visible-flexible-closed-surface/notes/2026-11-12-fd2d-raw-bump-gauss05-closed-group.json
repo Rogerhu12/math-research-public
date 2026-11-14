@@ -1,0 +1,45 @@
+{
+  "schema": "fd2d-closed-numerical-publish-group-v1",
+  "session": 16120,
+  "completion_chunk": "48763b",
+  "actual_exit_code": 1,
+  "mathematical_iterations": 0,
+  "cause": "Observed FileExistsError: the observer created same-stem telemetry files before the driver uniqueness guard. The corrected observer uses a separate observations directory; mathematical source unchanged.",
+  "files": [
+    {
+      "path": "scripts/fd2d-gc-natural-batch-chain.py",
+      "bytes": 5555,
+      "sha256": "c1772c3a031ec4d1e43dd401be52f84c2aa0e7b567b970b9150050d76fefa816"
+    },
+    {
+      "path": "scripts/fd2d-run-monitored-command.py",
+      "bytes": 3968,
+      "sha256": "ee6e733c015bf287ecca1f1c78c17c5f1f53f092f429369248b212738706996d"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss05-chain-report.json",
+      "bytes": 2845,
+      "sha256": "1d120673e003d19c88888c55bbb67b79af2bc74010bafa626328e54f65078ee4"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss05-b0001-process-receipt.json",
+      "bytes": 3645,
+      "sha256": "72e8a221246aafe4bae5cc0c51a74a81b6c179ebf5fd45d8d175941aa6095a4a"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss05-static-inputs.json",
+      "bytes": 2987,
+      "sha256": "bfb489eec3840610188f38722c62c00e3bed30fa20023155d853397e3feffa30"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss05-b0001-process-receipt-samples.jsonl",
+      "bytes": 2916,
+      "sha256": "9b45ef45c36ff03ecf9098ec36f3cab68a3d6efb71a92d389233861987dbd90f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-gauss05-b0001-process-receipt-console.txt",
+      "bytes": 577,
+      "sha256": "297d23a72c09334bf3f009bec08a60821377558f0ac56d1eb12fbd7ea0d9d249"
+    }
+  ]
+}

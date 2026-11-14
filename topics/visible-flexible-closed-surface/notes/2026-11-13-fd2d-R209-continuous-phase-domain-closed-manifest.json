@@ -1,0 +1,100 @@
+{
+  "schema": "fd2d-R209-continuous-phase-domain-closed-manifest-v1",
+  "date_UTC": "2026-11-13",
+  "closed": true,
+  "scope": {
+    "theorem": "Fixed strong accurate R197 seed; A + maximum full sine/cosine radial control L1 <= 1 implies |psi|<7/5 and Re integral_0^pi exp(i psi) > 1/2 throughout the continuous radial domain.",
+    "actual_state": "Only the saved R201+R205 amplitude-05 932-dimensional state is consumed in this report.",
+    "other_states": "No automatic transfer to changed amplitude/state. R208 exact Boehm refinement preserves the coefficient L1 bound; actual final coefficient rounding must be paid separately or the new array checked exactly.",
+    "no_new_solver_gate": true,
+    "no_metric_curvature_reach_or_strong_solution_claim": true
+  },
+  "actual_input": {
+    "state_path": "notes/2026-11-13-fd2d-R201-R205-amplitude-05-checkpoint.json",
+    "state_bytes": 58528,
+    "state_sha256": "f5708c59bbee004bb859d9205d5eb097c2638e6d682d8a27c92a63d0bf0280c8",
+    "chart_checkpoint_sha256": "a1bf7fecdc3e0739b03329efc8886eecbaff2dca3c9843d909c2ac1f94b4275f",
+    "chart_source_manifest": "notes/2026-11-13-fd2d-R197-strong-complete-material-chart-closed-manifest.json",
+    "complete_large_chart_API_published": false,
+    "large_chart_replay_sources_already_published": true
+  },
+  "actual_execution": {
+    "seed_and_state": {
+      "host": "functions.exec V8",
+      "completed_utc": "2026-11-13T02:40:51.994Z",
+      "seconds": 4.173,
+      "os_process_created": false,
+      "phase_quadrature_executed": false,
+      "inverse_cells_recomputed": 0
+    },
+    "endpoint_monotonicity_audit": {
+      "runtime": "functions.exec V8",
+      "seconds": 0.01,
+      "os_process_created": false,
+      "inverse_cells_recomputed": 0,
+      "seed_inequalities_recomputed": 0
+    },
+    "seed_cells": 64,
+    "phase_control_rows": 30,
+    "arithmetic": "BigInt exact rational comparisons",
+    "phase_quadrature_executed": false,
+    "inverse_cells_recomputed": 0,
+    "new_F_J_normal_LM_BVP_or_body": false
+  },
+  "findings": {
+    "all_seed_cell_inequalities": true,
+    "cos_delta_lower": [
+      "23",
+      "32"
+    ],
+    "seed_H_absolute_upper": [
+      "3",
+      "4"
+    ],
+    "maximum_control_L1": [
+      "7385061408773374127",
+      "9223372036854775808"
+    ],
+    "amplitude_plus_maximum_control_L1": [
+      "9160211858501382831",
+      "9223372036854775808"
+    ],
+    "exact_budget_slack": [
+      "63160178353392977",
+      "9223372036854775808"
+    ],
+    "maximum_row": 21,
+    "whole_radial_ReZ_strict_lower": [
+      "1",
+      "2"
+    ]
+  },
+  "publication": {
+    "mode": "README section 8 small UTF8 fallback; executor unavailable; every artifact below 100000 bytes",
+    "root_metadata_modified": false,
+    "API_CAS409_in_this_group": false
+  },
+  "files": [
+    {
+      "path": "scripts/fd2d_R201_strong_phase_sector_certificate.cjs",
+      "bytes": 11519,
+      "sha256": "7b92c7a478b1a4b7f6053063cdc493e1cef62e5bb808b9a6487c73f130f39f00",
+      "publication_commit": "20f70dd8f27f73635bfc0df6c9696b2cde20bf2f"
+    },
+    {
+      "path": "results/R209-strong-continuous-phase-domain-and-spline-refinement.md",
+      "bytes": 12680,
+      "sha256": "6772bdf13ab44a9688e8f75e25c973d857f61b88ab6aff445a02101251d749ec",
+      "publication_commit": "85014fd4dc8c76a4432ee8bc756a6029237dba84"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R209-continuous-phase-domain-05-report.json",
+      "bytes": 23981,
+      "sha256": "ecf2eae6c88acfa27b6063b1e4cc26b2f45543a290d0650f565c09bdeb90bccf",
+      "publication_commit": "3cda1cd8fcd5ea686334158369cf161e7c913bf9"
+    }
+  ],
+  "file_count": 3,
+  "total_artifact_bytes": 48180,
+  "self_not_in_files": true
+}

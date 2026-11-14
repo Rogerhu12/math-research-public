@@ -1,0 +1,1789 @@
+{
+  "schema": "78718-m15-linear-runtime-identity-check-v1",
+  "status": "PASS_COMPLETE_RUNTIME_IDENTITIES_AND_RESTORATION_ONLY",
+  "scope": "Exercise new identity envelopes using original selectors, without a solver.\n\nThis fresh-process check installs the original Newton then explicitly selects\nthe original reviewed release-LU/direct-CSC function objects.  One CSC function\nfactory is called; no candidate, RHS, Jacobian matrix, LU, Newton, BVP or DN is\ncalled. Original backend namespace references are restored before exit.\n",
+  "checker": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-runtime-v1.py",
+    "bytes": 4957,
+    "sha256": "d53cc1012d3a5217c236ca431d9f354101641017445c29661886d452fb77b063"
+  },
+  "driver": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-m15-linear-v1.py",
+    "bytes": 19193,
+    "sha256": "33aaef9f6abb70c9e1eab6981d977dc16d5dfdb8740c969d773d6d2cbd9b6e81"
+  },
+  "auditor": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-m15-linear-v1.py",
+    "bytes": 32584,
+    "sha256": "fd41b9ef4c2eea648cbb1ab1c3b638e61bc41d97d99d9213ad0370c042ff147e"
+  },
+  "input_gate": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-m15-linear-inputs-v1.py",
+    "bytes": 22133,
+    "sha256": "28f6c54353d9aff0184115235f728cf07fb90fab46a8bb959da58fc4c7fb06b9"
+  },
+  "typed_core": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+    "bytes": 7876,
+    "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+  },
+  "ancestor": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-direct-csc-02-launch.json",
+    "bytes": 101683,
+    "sha256": "b935a5863a88e6c4541357a558c6b3874ed3ba89174b65032b0494425681c671"
+  },
+  "candidate_initializations": 0,
+  "RHS_calls": 0,
+  "Jacobian_matrices": 0,
+  "LU_calls": 0,
+  "Newton_BVP_DN_calls": 0,
+  "CSC_function_factory_calls": 1,
+  "newton_installations": 1,
+  "new_candidate_success": false,
+  "newton_transition": {
+    "before_selection_original_runtime": {
+      "file": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+        "bytes": 2576,
+        "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+      },
+      "qualname": "solve_newton",
+      "first_line": 13,
+      "source_sha256_rstrip": "67ed0cb4b65795dd9531e6eebc21548475f92e398da8acef3f31acdbcfc1ad14",
+      "runtime_module": "f6curve_domain_newton",
+      "signature": "(n, m, h, col_fun, bc, jac, y, p, B, bvp_tol, bc_tol)"
+    },
+    "selected": {
+      "schema": "db6f-newton-lu-lifetime-runtime-v1",
+      "original_definition": {
+        "file": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+          "bytes": 2576,
+          "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+        },
+        "qualname": "solve_newton",
+        "first_line": 13,
+        "source_sha256_rstrip": "67ed0cb4b65795dd9531e6eebc21548475f92e398da8acef3f31acdbcfc1ad14"
+      },
+      "selected_runtime": {
+        "file": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "bytes": 2320,
+          "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+        },
+        "qualname": "solve_newton",
+        "first_line": 16,
+        "source_sha256_rstrip": "8e4da9ad1124cac2870a77f2059cc4c1d04e8a61c1cce20aae671c082cba8121",
+        "runtime_module": "db6f_lu_lifetime_selected_definition_v1",
+        "signature": "(n, m, h, col_fun, bc, jac, y, p, B, bvp_tol, bc_tol)"
+      },
+      "selector": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-domain-newton-release-lu.py",
+        "bytes": 9904,
+        "sha256": "bc7d376ca52a565e5b345aeef40319578ae8ea3b74dbe0333c5e26c927c68916"
+      },
+      "scipy_bvp_source": {
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "bytes": 41294,
+        "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+      },
+      "original_STATS_alias": true,
+      "changed_runtime_identity": true,
+      "scope": "Only runtime identity; no BVP success or memory guarantee."
+    },
+    "scope": "Explicit process-local change; no original function or STATS object was replaced."
+  },
+  "selected_runtime": {
+    "schema": "78718-direct-csc-typed-runtime-envelope-v1",
+    "raw": {
+      "schema": "db6f-explicit-direct-csc-runtime-v1",
+      "definitions": {
+        "schema": "db6f-explicit-direct-csc-selection-definitions-v1",
+        "selector": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-direct-csc.py",
+          "bytes": 14009,
+          "sha256": "e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49"
+        },
+        "gates": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+          "bytes": 20547,
+          "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+        },
+        "foundation_definitions": {
+          "schema": "db6f-direct-csc-entry-definitions-v1",
+          "gates": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+            "bytes": 20547,
+            "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+          },
+          "foundation": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "pure_checker": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+            "bytes": 19402,
+            "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd"
+          },
+          "byte_checker": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+            "bytes": 26045,
+            "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc"
+          },
+          "new_functions": {
+            "construct_global_jac": {
+              "file": {
+                "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                "bytes": 17550,
+                "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+              },
+              "qualname": "make_functions.<locals>.construct_global_jac",
+              "first_line": 278,
+              "source_sha256_rstrip": "0a8dce5c4d3a0fd87e2ae9127f779c7a189b81f3dbce0b435f5021fb49677399"
+            },
+            "prepare_sys": {
+              "file": {
+                "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                "bytes": 17550,
+                "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+              },
+              "qualname": "make_functions.<locals>.prepare_sys",
+              "first_line": 318,
+              "source_sha256_rstrip": "21715919895debfafbc1f2f17376032cf9570baae1166f33d9f2632b17a1fcfd"
+            }
+          },
+          "installed": false,
+          "numerical_calls": 0
+        },
+        "selected_attribute": "scipy.integrate._bvp.prepare_sys",
+        "original_exported_constructor_retained": true,
+        "newton_not_selected_or_changed_here": true
+      },
+      "prerequisite_inputs": {
+        "pure_report": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-check.json",
+          "bytes": 10669,
+          "sha256": "8cf25532c636659b63cbea1ac50c0577135778a70b46cd86ccc0b6fe5f6b65d7"
+        },
+        "pure_observed": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-observed.json",
+          "bytes": 3583,
+          "sha256": "67db4ec48e0ffe8991759373a708dda86334add9f5c90c07339e87db4a68dba9"
+        },
+        "byte_report": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json",
+          "bytes": 43707,
+          "sha256": "7bb6b7e4b35e04d22d2dc582ecef4ac5aa5849ca5541f4aa865b94190ff6f11b"
+        },
+        "byte_observed": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-observed.json",
+          "bytes": 3440,
+          "sha256": "00fcdc7e24d84dd72fc6f2c3610ea9156c0624eaa3df1992b621fa5a6f818cb4"
+        }
+      },
+      "tested_factory_normalized_sha256": "8dcb0ecb95cbb487ff3f75411da7f05e372ca7ee76d1cd8f923dc7e33edff508",
+      "factory_provenance": {
+        "schema": "db6f-direct-canonical-csc-functions-v2",
+        "scope": "functions-only; no installation and no matrix/solver call by factory",
+        "foundation": {
+          "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "numpy_version": "2.3.5",
+        "scipy_version": "1.17.0",
+        "sources": [
+          {
+            "module": "scipy.integrate._bvp",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "bytes": 41294,
+            "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+          },
+          {
+            "module": "scipy.sparse._base",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+            "bytes": 58343,
+            "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+          },
+          {
+            "module": "scipy.sparse._compressed",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+            "bytes": 52058,
+            "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+          },
+          {
+            "module": "scipy.sparse._coo",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+            "bytes": 74635,
+            "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+          },
+          {
+            "module": "scipy.sparse._csc",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+            "bytes": 11162,
+            "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+          },
+          {
+            "module": "scipy.sparse._sputils",
+            "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+            "bytes": 21095,
+            "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+          }
+        ],
+        "original_callbacks": {
+          "stacked_matmul": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "stacked_matmul",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 144,
+            "code_sha256": "f87ef3dd5e8613b629594ddb227407aeb2b146f6019240c396a38359a331fe5f"
+          },
+          "collocation_fun": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "collocation_fun",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 277,
+            "code_sha256": "499064a2fe0e6d0ce5ee257f410fef80b4d57389e638571a6575c9dc3e73049b"
+          },
+          "estimate_fun_jac": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "estimate_fun_jac",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 16,
+            "code_sha256": "be8d2f147652b9ad6d0f5f7ced11a4482c5821b019c2c9605da69d896692f061"
+          },
+          "estimate_bc_jac": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "estimate_bc_jac",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 59,
+            "code_sha256": "94cc5ec172c44306e4831b5bb4a9a58f3764d8b9e01e579e279076b74eead4a4"
+          },
+          "get_index_dtype": {
+            "module": "scipy.sparse._sputils",
+            "qualname": "get_index_dtype",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+            "firstlineno": 264,
+            "code_sha256": "22fec024501e4addab7c348b82d69f1ccbea1ab8e7cc4bc8eafa27348cee5f97"
+          },
+          "csc_init": {
+            "module": "scipy.sparse._compressed",
+            "qualname": "_cs_matrix.__init__",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+            "firstlineno": 30,
+            "code_sha256": "0376ad1e79610bdcf31acd268417945ebbf48c020149b5106670165bf1a7bc44"
+          },
+          "csc_check_format": {
+            "module": "scipy.sparse._compressed",
+            "qualname": "_cs_matrix.check_format",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+            "firstlineno": 166,
+            "code_sha256": "b7c44adf485be0ac60005bd83c2ad35d14083c056f4c74671ef0cb909b819236"
+          },
+          "csc_prune": {
+            "module": "scipy.sparse._compressed",
+            "qualname": "_cs_matrix.prune",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+            "firstlineno": 1118,
+            "code_sha256": "5b2a07d204f90c0e684f4c9c917bec823677f3152a0e6bed7f5fe983469c867a"
+          },
+          "csc_get_index_dtype": {
+            "module": "scipy.sparse._base",
+            "qualname": "_spbase._get_index_dtype",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+            "firstlineno": 1525,
+            "code_sha256": "56d27be50454e45cd67324213601829a636ba1cd289dc9471572fa963639d53e"
+          },
+          "csc_swap": {
+            "module": "scipy.sparse._csc",
+            "qualname": "_csc_base._swap",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+            "firstlineno": 145,
+            "code_sha256": "0ad7c621c67ed851c11123fd3aee9e6e07626bbf979cbeb1fd1eaf61155f375c"
+          }
+        },
+        "new_functions": {
+          "construct_global_jac": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.construct_global_jac",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 278,
+            "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+          },
+          "prepare_sys": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.prepare_sys",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 318,
+            "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+          }
+        },
+        "newton_selection": "not read, installed, or validated by this foundation",
+        "actual_sparse_byte_replay": "pending"
+      },
+      "original_runtime": {
+        "prepare_sys": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "prepare_sys",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 318,
+          "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+        },
+        "construct_global_jac": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "construct_global_jac",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 159,
+          "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+        },
+        "compute_jac_indices": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "compute_jac_indices",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 118,
+          "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+        },
+        "solve_bvp": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "solve_bvp",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 712,
+          "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+        }
+      },
+      "selected_runtime": {
+        "construct_global_jac": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.construct_global_jac",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 278,
+          "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+        },
+        "prepare_sys": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.prepare_sys",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 318,
+          "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+        }
+      },
+      "foundation_helper_runtime": {
+        "dimensions": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "dimensions",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 73,
+          "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+        },
+        "column_segments": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "column_segments",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 92,
+          "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+        },
+        "_assemble_csc": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "_assemble_csc",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 120,
+          "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+        }
+      },
+      "newton_runtime_unchanged": {
+        "module": "db6f_lu_lifetime_selected_definition_v1",
+        "qualname": "solve_newton",
+        "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+        "firstlineno": 16,
+        "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+      },
+      "only_backend_prepare_attribute_changed": true,
+      "old_exported_construct_and_indices_retained": true,
+      "no_old_global_coo_index_closure": true,
+      "scope": "Runtime identity only; no assertion of a BVP result or peak memory."
+    },
+    "canonical_functions": {
+      "foundation._assemble_csc": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "_assemble_csc",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 120,
+          "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "7f3c04f933bc25ab75a8a357fc23e68618a0646af3f2c8c6eceff95733714811",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "foundation.column_segments": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "column_segments",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 92,
+          "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "6f75c105f42bf5fb832861fd6abc10dd8e043f64bfcd05440b0d8d5bbb76c00d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "foundation.dimensions": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "dimensions",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 73,
+          "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "4f6f148bc366dd80ba59e5dc98fac46daae994850a7d2758e1e258cd9de30084",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "newton.solve_newton": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_lu_lifetime_selected_definition_v1",
+          "qualname": "solve_newton",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "firstlineno": 16,
+          "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "bytes": 2320,
+          "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+        },
+        "canonical_code_sha256": "41ceaf192947c5635a1c0fa49d891fa4e053e2f57de7a65997c12b804b63725d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.compute_jac_indices": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "compute_jac_indices",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 118,
+          "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "c6de7579d7cd0745ca6539821d972e2432323bfdb9c186efdd448dbe981498f9",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.construct_global_jac": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "construct_global_jac",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 159,
+          "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "2fb1dd63fdb85e620de21de1a431357f767094b419757ea0be0b922655a15014",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.prepare_sys": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "prepare_sys",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 318,
+          "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "28d838ece09767ab4ab6fc767bc2310af34d7bef255be8be0867a46f45f7e4a7",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.solve_bvp": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "solve_bvp",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 712,
+          "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "c204272895209701259de8c7be650e3b856c7105afee62522ebf7aaf27b9cee2",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "selected.construct_global_jac": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.construct_global_jac",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 278,
+          "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "b7a0130064d146dc08b25e21c8b771059526ef757428ac58271968ef1379c610",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "selected.prepare_sys": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.prepare_sys",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 318,
+          "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "a1be209441a228f29ae8bb0d65e51556a62a1a1fe3da31ac89f67a69199e7e3d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    }
+  },
+  "complete_live_code_functions": 10,
+  "canonical_closure_changes_rejected": [
+    "foundation._assemble_csc",
+    "foundation.column_segments",
+    "foundation.dimensions",
+    "newton.solve_newton",
+    "original.compute_jac_indices",
+    "original.construct_global_jac",
+    "original.prepare_sys",
+    "original.solve_bvp",
+    "selected.construct_global_jac",
+    "selected.prepare_sys"
+  ],
+  "restoration": {
+    "schema": "78718-direct-csc-typed-restoration-envelope-v1",
+    "raw": {
+      "schema": "db6f-explicit-direct-csc-restoration-v1",
+      "before_restore": {
+        "schema": "db6f-explicit-direct-csc-runtime-v1",
+        "definitions": {
+          "schema": "db6f-explicit-direct-csc-selection-definitions-v1",
+          "selector": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-direct-csc.py",
+            "bytes": 14009,
+            "sha256": "e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49"
+          },
+          "gates": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+            "bytes": 20547,
+            "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+          },
+          "foundation_definitions": {
+            "schema": "db6f-direct-csc-entry-definitions-v1",
+            "gates": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+              "bytes": 20547,
+              "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+            },
+            "foundation": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "bytes": 17550,
+              "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+            },
+            "pure_checker": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+              "bytes": 19402,
+              "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd"
+            },
+            "byte_checker": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+              "bytes": 26045,
+              "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc"
+            },
+            "new_functions": {
+              "construct_global_jac": {
+                "file": {
+                  "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                  "bytes": 17550,
+                  "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+                },
+                "qualname": "make_functions.<locals>.construct_global_jac",
+                "first_line": 278,
+                "source_sha256_rstrip": "0a8dce5c4d3a0fd87e2ae9127f779c7a189b81f3dbce0b435f5021fb49677399"
+              },
+              "prepare_sys": {
+                "file": {
+                  "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                  "bytes": 17550,
+                  "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+                },
+                "qualname": "make_functions.<locals>.prepare_sys",
+                "first_line": 318,
+                "source_sha256_rstrip": "21715919895debfafbc1f2f17376032cf9570baae1166f33d9f2632b17a1fcfd"
+              }
+            },
+            "installed": false,
+            "numerical_calls": 0
+          },
+          "selected_attribute": "scipy.integrate._bvp.prepare_sys",
+          "original_exported_constructor_retained": true,
+          "newton_not_selected_or_changed_here": true
+        },
+        "prerequisite_inputs": {
+          "pure_report": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-check.json",
+            "bytes": 10669,
+            "sha256": "8cf25532c636659b63cbea1ac50c0577135778a70b46cd86ccc0b6fe5f6b65d7"
+          },
+          "pure_observed": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-observed.json",
+            "bytes": 3583,
+            "sha256": "67db4ec48e0ffe8991759373a708dda86334add9f5c90c07339e87db4a68dba9"
+          },
+          "byte_report": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json",
+            "bytes": 43707,
+            "sha256": "7bb6b7e4b35e04d22d2dc582ecef4ac5aa5849ca5541f4aa865b94190ff6f11b"
+          },
+          "byte_observed": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-observed.json",
+            "bytes": 3440,
+            "sha256": "00fcdc7e24d84dd72fc6f2c3610ea9156c0624eaa3df1992b621fa5a6f818cb4"
+          }
+        },
+        "tested_factory_normalized_sha256": "8dcb0ecb95cbb487ff3f75411da7f05e372ca7ee76d1cd8f923dc7e33edff508",
+        "factory_provenance": {
+          "schema": "db6f-direct-canonical-csc-functions-v2",
+          "scope": "functions-only; no installation and no matrix/solver call by factory",
+          "foundation": {
+            "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "numpy_version": "2.3.5",
+          "scipy_version": "1.17.0",
+          "sources": [
+            {
+              "module": "scipy.integrate._bvp",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "bytes": 41294,
+              "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+            },
+            {
+              "module": "scipy.sparse._base",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+              "bytes": 58343,
+              "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+            },
+            {
+              "module": "scipy.sparse._compressed",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "bytes": 52058,
+              "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+            },
+            {
+              "module": "scipy.sparse._coo",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+              "bytes": 74635,
+              "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+            },
+            {
+              "module": "scipy.sparse._csc",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+              "bytes": 11162,
+              "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+            },
+            {
+              "module": "scipy.sparse._sputils",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+              "bytes": 21095,
+              "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+            }
+          ],
+          "original_callbacks": {
+            "stacked_matmul": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "stacked_matmul",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 144,
+              "code_sha256": "f87ef3dd5e8613b629594ddb227407aeb2b146f6019240c396a38359a331fe5f"
+            },
+            "collocation_fun": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "collocation_fun",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 277,
+              "code_sha256": "499064a2fe0e6d0ce5ee257f410fef80b4d57389e638571a6575c9dc3e73049b"
+            },
+            "estimate_fun_jac": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "estimate_fun_jac",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 16,
+              "code_sha256": "be8d2f147652b9ad6d0f5f7ced11a4482c5821b019c2c9605da69d896692f061"
+            },
+            "estimate_bc_jac": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "estimate_bc_jac",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 59,
+              "code_sha256": "94cc5ec172c44306e4831b5bb4a9a58f3764d8b9e01e579e279076b74eead4a4"
+            },
+            "get_index_dtype": {
+              "module": "scipy.sparse._sputils",
+              "qualname": "get_index_dtype",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+              "firstlineno": 264,
+              "code_sha256": "22fec024501e4addab7c348b82d69f1ccbea1ab8e7cc4bc8eafa27348cee5f97"
+            },
+            "csc_init": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.__init__",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 30,
+              "code_sha256": "0376ad1e79610bdcf31acd268417945ebbf48c020149b5106670165bf1a7bc44"
+            },
+            "csc_check_format": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.check_format",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 166,
+              "code_sha256": "b7c44adf485be0ac60005bd83c2ad35d14083c056f4c74671ef0cb909b819236"
+            },
+            "csc_prune": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.prune",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 1118,
+              "code_sha256": "5b2a07d204f90c0e684f4c9c917bec823677f3152a0e6bed7f5fe983469c867a"
+            },
+            "csc_get_index_dtype": {
+              "module": "scipy.sparse._base",
+              "qualname": "_spbase._get_index_dtype",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+              "firstlineno": 1525,
+              "code_sha256": "56d27be50454e45cd67324213601829a636ba1cd289dc9471572fa963639d53e"
+            },
+            "csc_swap": {
+              "module": "scipy.sparse._csc",
+              "qualname": "_csc_base._swap",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+              "firstlineno": 145,
+              "code_sha256": "0ad7c621c67ed851c11123fd3aee9e6e07626bbf979cbeb1fd1eaf61155f375c"
+            }
+          },
+          "new_functions": {
+            "construct_global_jac": {
+              "module": "db6f_direct_csc_selected_foundation_v2",
+              "qualname": "make_functions.<locals>.construct_global_jac",
+              "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "firstlineno": 278,
+              "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+            },
+            "prepare_sys": {
+              "module": "db6f_direct_csc_selected_foundation_v2",
+              "qualname": "make_functions.<locals>.prepare_sys",
+              "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "firstlineno": 318,
+              "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+            }
+          },
+          "newton_selection": "not read, installed, or validated by this foundation",
+          "actual_sparse_byte_replay": "pending"
+        },
+        "original_runtime": {
+          "prepare_sys": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "prepare_sys",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 318,
+            "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+          },
+          "construct_global_jac": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "construct_global_jac",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 159,
+            "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+          },
+          "compute_jac_indices": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "compute_jac_indices",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 118,
+            "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+          },
+          "solve_bvp": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "solve_bvp",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 712,
+            "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+          }
+        },
+        "selected_runtime": {
+          "construct_global_jac": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.construct_global_jac",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 278,
+            "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+          },
+          "prepare_sys": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.prepare_sys",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 318,
+            "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+          }
+        },
+        "foundation_helper_runtime": {
+          "dimensions": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "dimensions",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 73,
+            "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+          },
+          "column_segments": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "column_segments",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 92,
+            "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+          },
+          "_assemble_csc": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "_assemble_csc",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 120,
+            "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+          }
+        },
+        "newton_runtime_unchanged": {
+          "module": "db6f_lu_lifetime_selected_definition_v1",
+          "qualname": "solve_newton",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "firstlineno": 16,
+          "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+        },
+        "only_backend_prepare_attribute_changed": true,
+        "old_exported_construct_and_indices_retained": true,
+        "no_old_global_coo_index_closure": true,
+        "scope": "Runtime identity only; no assertion of a BVP result or peak memory."
+      },
+      "restored_original_prepare": {
+        "module": "scipy.integrate._bvp",
+        "qualname": "prepare_sys",
+        "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+        "firstlineno": 318,
+        "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+      },
+      "newton_runtime_unchanged": {
+        "module": "db6f_lu_lifetime_selected_definition_v1",
+        "qualname": "solve_newton",
+        "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+        "firstlineno": 16,
+        "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+      },
+      "backend_prepare_restored": true,
+      "scope": "Process-local prepare restored; original release-LU Newton identity retained."
+    },
+    "before_restore": {
+      "schema": "78718-direct-csc-typed-runtime-envelope-v1",
+      "raw": {
+        "schema": "db6f-explicit-direct-csc-runtime-v1",
+        "definitions": {
+          "schema": "db6f-explicit-direct-csc-selection-definitions-v1",
+          "selector": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-select-direct-csc.py",
+            "bytes": 14009,
+            "sha256": "e1083f63e26a5a248c9e8911308ba515f3b57c0d914b4bb8aceb6b6dc0660a49"
+          },
+          "gates": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+            "bytes": 20547,
+            "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+          },
+          "foundation_definitions": {
+            "schema": "db6f-direct-csc-entry-definitions-v1",
+            "gates": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-entry-gates.py",
+              "bytes": 20547,
+              "sha256": "d110a15669612ae75207d98b46b8ee31c41d5f98dc8a9b693a06a4cbc399606b"
+            },
+            "foundation": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "bytes": 17550,
+              "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+            },
+            "pure_checker": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-check-direct-csc-foundation.py",
+              "bytes": 19402,
+              "sha256": "e437630f9718a898b31d16b21a2616034b0984d17a6b05ac5913f6cc7ec509dd"
+            },
+            "byte_checker": {
+              "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-direct-csc-bytes.py",
+              "bytes": 26045,
+              "sha256": "197da92ec9ca8768c1b5a876aeed2b5164056fa7e3a3b3d790cd9eb626ee5bbc"
+            },
+            "new_functions": {
+              "construct_global_jac": {
+                "file": {
+                  "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                  "bytes": 17550,
+                  "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+                },
+                "qualname": "make_functions.<locals>.construct_global_jac",
+                "first_line": 278,
+                "source_sha256_rstrip": "0a8dce5c4d3a0fd87e2ae9127f779c7a189b81f3dbce0b435f5021fb49677399"
+              },
+              "prepare_sys": {
+                "file": {
+                  "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+                  "bytes": 17550,
+                  "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+                },
+                "qualname": "make_functions.<locals>.prepare_sys",
+                "first_line": 318,
+                "source_sha256_rstrip": "21715919895debfafbc1f2f17376032cf9570baae1166f33d9f2632b17a1fcfd"
+              }
+            },
+            "installed": false,
+            "numerical_calls": 0
+          },
+          "selected_attribute": "scipy.integrate._bvp.prepare_sys",
+          "original_exported_constructor_retained": true,
+          "newton_not_selected_or_changed_here": true
+        },
+        "prerequisite_inputs": {
+          "pure_report": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-check.json",
+            "bytes": 10669,
+            "sha256": "8cf25532c636659b63cbea1ac50c0577135778a70b46cd86ccc0b6fe5f6b65d7"
+          },
+          "pure_observed": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-pure-observed.json",
+            "bytes": 3583,
+            "sha256": "67db4ec48e0ffe8991759373a708dda86334add9f5c90c07339e87db4a68dba9"
+          },
+          "byte_report": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-check.json",
+            "bytes": 43707,
+            "sha256": "7bb6b7e4b35e04d22d2dc582ecef4ac5aa5849ca5541f4aa865b94190ff6f11b"
+          },
+          "byte_observed": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-restored-csc-byte-observed.json",
+            "bytes": 3440,
+            "sha256": "00fcdc7e24d84dd72fc6f2c3610ea9156c0624eaa3df1992b621fa5a6f818cb4"
+          }
+        },
+        "tested_factory_normalized_sha256": "8dcb0ecb95cbb487ff3f75411da7f05e372ca7ee76d1cd8f923dc7e33edff508",
+        "factory_provenance": {
+          "schema": "db6f-direct-canonical-csc-functions-v2",
+          "scope": "functions-only; no installation and no matrix/solver call by factory",
+          "foundation": {
+            "file": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "numpy_version": "2.3.5",
+          "scipy_version": "1.17.0",
+          "sources": [
+            {
+              "module": "scipy.integrate._bvp",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "bytes": 41294,
+              "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+            },
+            {
+              "module": "scipy.sparse._base",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+              "bytes": 58343,
+              "sha256": "e6d70fd65f0378f198cdf0c83986aa3b477f87da47137037ef6056d42481fd1b"
+            },
+            {
+              "module": "scipy.sparse._compressed",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "bytes": 52058,
+              "sha256": "d8d847ceb10469b91dc2f64e2be7ec3af04e1a099db9fbb91fb32526f860dc0f"
+            },
+            {
+              "module": "scipy.sparse._coo",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+              "bytes": 74635,
+              "sha256": "95e4bcd796900894acea3256a7b5a4cab654427bb9fcb9f0e57ec9fb40dc6898"
+            },
+            {
+              "module": "scipy.sparse._csc",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+              "bytes": 11162,
+              "sha256": "88c462e71172169295fa8e1f7ff23d4a3c0037e847a7b6037e74c812ee236552"
+            },
+            {
+              "module": "scipy.sparse._sputils",
+              "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+              "bytes": 21095,
+              "sha256": "b1cdc32d7e49fab5add7ec14f0858321275186e083362e6cc2628f6fef5a641f"
+            }
+          ],
+          "original_callbacks": {
+            "stacked_matmul": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "stacked_matmul",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 144,
+              "code_sha256": "f87ef3dd5e8613b629594ddb227407aeb2b146f6019240c396a38359a331fe5f"
+            },
+            "collocation_fun": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "collocation_fun",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 277,
+              "code_sha256": "499064a2fe0e6d0ce5ee257f410fef80b4d57389e638571a6575c9dc3e73049b"
+            },
+            "estimate_fun_jac": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "estimate_fun_jac",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 16,
+              "code_sha256": "be8d2f147652b9ad6d0f5f7ced11a4482c5821b019c2c9605da69d896692f061"
+            },
+            "estimate_bc_jac": {
+              "module": "scipy.integrate._bvp",
+              "qualname": "estimate_bc_jac",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+              "firstlineno": 59,
+              "code_sha256": "94cc5ec172c44306e4831b5bb4a9a58f3764d8b9e01e579e279076b74eead4a4"
+            },
+            "get_index_dtype": {
+              "module": "scipy.sparse._sputils",
+              "qualname": "get_index_dtype",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+              "firstlineno": 264,
+              "code_sha256": "22fec024501e4addab7c348b82d69f1ccbea1ab8e7cc4bc8eafa27348cee5f97"
+            },
+            "csc_init": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.__init__",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 30,
+              "code_sha256": "0376ad1e79610bdcf31acd268417945ebbf48c020149b5106670165bf1a7bc44"
+            },
+            "csc_check_format": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.check_format",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 166,
+              "code_sha256": "b7c44adf485be0ac60005bd83c2ad35d14083c056f4c74671ef0cb909b819236"
+            },
+            "csc_prune": {
+              "module": "scipy.sparse._compressed",
+              "qualname": "_cs_matrix.prune",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+              "firstlineno": 1118,
+              "code_sha256": "5b2a07d204f90c0e684f4c9c917bec823677f3152a0e6bed7f5fe983469c867a"
+            },
+            "csc_get_index_dtype": {
+              "module": "scipy.sparse._base",
+              "qualname": "_spbase._get_index_dtype",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py",
+              "firstlineno": 1525,
+              "code_sha256": "56d27be50454e45cd67324213601829a636ba1cd289dc9471572fa963639d53e"
+            },
+            "csc_swap": {
+              "module": "scipy.sparse._csc",
+              "qualname": "_csc_base._swap",
+              "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_csc.py",
+              "firstlineno": 145,
+              "code_sha256": "0ad7c621c67ed851c11123fd3aee9e6e07626bbf979cbeb1fd1eaf61155f375c"
+            }
+          },
+          "new_functions": {
+            "construct_global_jac": {
+              "module": "db6f_direct_csc_selected_foundation_v2",
+              "qualname": "make_functions.<locals>.construct_global_jac",
+              "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "firstlineno": 278,
+              "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+            },
+            "prepare_sys": {
+              "module": "db6f_direct_csc_selected_foundation_v2",
+              "qualname": "make_functions.<locals>.prepare_sys",
+              "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+              "firstlineno": 318,
+              "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+            }
+          },
+          "newton_selection": "not read, installed, or validated by this foundation",
+          "actual_sparse_byte_replay": "pending"
+        },
+        "original_runtime": {
+          "prepare_sys": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "prepare_sys",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 318,
+            "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+          },
+          "construct_global_jac": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "construct_global_jac",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 159,
+            "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+          },
+          "compute_jac_indices": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "compute_jac_indices",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 118,
+            "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+          },
+          "solve_bvp": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "solve_bvp",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 712,
+            "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+          }
+        },
+        "selected_runtime": {
+          "construct_global_jac": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.construct_global_jac",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 278,
+            "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+          },
+          "prepare_sys": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.prepare_sys",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 318,
+            "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+          }
+        },
+        "foundation_helper_runtime": {
+          "dimensions": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "dimensions",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 73,
+            "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+          },
+          "column_segments": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "column_segments",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 92,
+            "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+          },
+          "_assemble_csc": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "_assemble_csc",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 120,
+            "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+          }
+        },
+        "newton_runtime_unchanged": {
+          "module": "db6f_lu_lifetime_selected_definition_v1",
+          "qualname": "solve_newton",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "firstlineno": 16,
+          "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+        },
+        "only_backend_prepare_attribute_changed": true,
+        "old_exported_construct_and_indices_retained": true,
+        "no_old_global_coo_index_closure": true,
+        "scope": "Runtime identity only; no assertion of a BVP result or peak memory."
+      },
+      "canonical_functions": {
+        "foundation._assemble_csc": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "_assemble_csc",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 120,
+            "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "canonical_code_sha256": "7f3c04f933bc25ab75a8a357fc23e68618a0646af3f2c8c6eceff95733714811",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "foundation.column_segments": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "column_segments",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 92,
+            "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "canonical_code_sha256": "6f75c105f42bf5fb832861fd6abc10dd8e043f64bfcd05440b0d8d5bbb76c00d",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "foundation.dimensions": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "dimensions",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 73,
+            "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "canonical_code_sha256": "4f6f148bc366dd80ba59e5dc98fac46daae994850a7d2758e1e258cd9de30084",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "newton.solve_newton": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_lu_lifetime_selected_definition_v1",
+            "qualname": "solve_newton",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+            "firstlineno": 16,
+            "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+            "bytes": 2320,
+            "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+          },
+          "canonical_code_sha256": "41ceaf192947c5635a1c0fa49d891fa4e053e2f57de7a65997c12b804b63725d",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "original.compute_jac_indices": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "compute_jac_indices",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 118,
+            "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+          },
+          "source": {
+            "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "bytes": 41294,
+            "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+          },
+          "canonical_code_sha256": "c6de7579d7cd0745ca6539821d972e2432323bfdb9c186efdd448dbe981498f9",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "original.construct_global_jac": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "construct_global_jac",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 159,
+            "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+          },
+          "source": {
+            "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "bytes": 41294,
+            "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+          },
+          "canonical_code_sha256": "2fb1dd63fdb85e620de21de1a431357f767094b419757ea0be0b922655a15014",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "original.prepare_sys": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "prepare_sys",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 318,
+            "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+          },
+          "source": {
+            "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "bytes": 41294,
+            "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+          },
+          "canonical_code_sha256": "28d838ece09767ab4ab6fc767bc2310af34d7bef255be8be0867a46f45f7e4a7",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "original.solve_bvp": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "scipy.integrate._bvp",
+            "qualname": "solve_bvp",
+            "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "firstlineno": 712,
+            "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+          },
+          "source": {
+            "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+            "bytes": 41294,
+            "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+          },
+          "canonical_code_sha256": "c204272895209701259de8c7be650e3b856c7105afee62522ebf7aaf27b9cee2",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "selected.construct_global_jac": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.construct_global_jac",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 278,
+            "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "canonical_code_sha256": "b7a0130064d146dc08b25e21c8b771059526ef757428ac58271968ef1379c610",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        },
+        "selected.prepare_sys": {
+          "schema": "78718-typed-runtime-code-v1",
+          "runtime": {
+            "module": "db6f_direct_csc_selected_foundation_v2",
+            "qualname": "make_functions.<locals>.prepare_sys",
+            "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "firstlineno": 318,
+            "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+          },
+          "source": {
+            "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+            "bytes": 17550,
+            "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+          },
+          "canonical_code_sha256": "a1be209441a228f29ae8bb0d65e51556a62a1a1fe3da31ac89f67a69199e7e3d",
+          "environment": {
+            "implementation": "cpython",
+            "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+            "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "optimization": 0,
+            "marshal_version_for_raw_record_only": 4,
+            "compiler_dont_inherit": true
+          }
+        }
+      }
+    },
+    "canonical_after_restore": {
+      "foundation._assemble_csc": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "_assemble_csc",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 120,
+          "code_sha256": "33eea5381a982e1a182d8335df1ac689669316be03f4df37b42285cd919d1346"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "7f3c04f933bc25ab75a8a357fc23e68618a0646af3f2c8c6eceff95733714811",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "foundation.column_segments": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "column_segments",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 92,
+          "code_sha256": "0e319d669ddaf6570161f49466ce29d62942aa4892f9cf2cf0d0b4825a5d691e"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "6f75c105f42bf5fb832861fd6abc10dd8e043f64bfcd05440b0d8d5bbb76c00d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "foundation.dimensions": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "dimensions",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 73,
+          "code_sha256": "ac576e29c77bcc1ac4f96941ad738817fd58b610331c2214fea243625d7c9346"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "4f6f148bc366dd80ba59e5dc98fac46daae994850a7d2758e1e258cd9de30084",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "newton.solve_newton": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_lu_lifetime_selected_definition_v1",
+          "qualname": "solve_newton",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "firstlineno": 16,
+          "code_sha256": "a570ddb8299bbda463ed82d853a30aef0787fb2b16930efb6b3898280af44f4b"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-domain-newton-release-lu.py",
+          "bytes": 2320,
+          "sha256": "23ec0f1fe25bc8f904b771f020449c7d95e071d2fc17b6daf4caa93ccd31880b"
+        },
+        "canonical_code_sha256": "41ceaf192947c5635a1c0fa49d891fa4e053e2f57de7a65997c12b804b63725d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.compute_jac_indices": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "compute_jac_indices",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 118,
+          "code_sha256": "3c40497d44f1fa516370ff75dbf8cb80a896737db5ab8998ece2f432f82d037c"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "c6de7579d7cd0745ca6539821d972e2432323bfdb9c186efdd448dbe981498f9",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.construct_global_jac": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "construct_global_jac",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 159,
+          "code_sha256": "d36f0f6821009de34659f4f2fdeb9a1b8f2a31c01303323e8d5ef11a40006910"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "2fb1dd63fdb85e620de21de1a431357f767094b419757ea0be0b922655a15014",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.prepare_sys": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "prepare_sys",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 318,
+          "code_sha256": "e84c87d7e9279d19ab33b54a416d7c70cd199df2e52497293f965608550f7e1b"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "28d838ece09767ab4ab6fc767bc2310af34d7bef255be8be0867a46f45f7e4a7",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "original.solve_bvp": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "scipy.integrate._bvp",
+          "qualname": "solve_bvp",
+          "filename": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "firstlineno": 712,
+          "code_sha256": "55110dcd82e5871969e75f70afc46b555e2d3b56150a12b7b707961292be692c"
+        },
+        "source": {
+          "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+          "bytes": 41294,
+          "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+        },
+        "canonical_code_sha256": "c204272895209701259de8c7be650e3b856c7105afee62522ebf7aaf27b9cee2",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "selected.construct_global_jac": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.construct_global_jac",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 278,
+          "code_sha256": "b4d7bf6681200d5ed7e232d3324f4f1f456dfd277a50b2d544666653324dc8ee"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "b7a0130064d146dc08b25e21c8b771059526ef757428ac58271968ef1379c610",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      },
+      "selected.prepare_sys": {
+        "schema": "78718-typed-runtime-code-v1",
+        "runtime": {
+          "module": "db6f_direct_csc_selected_foundation_v2",
+          "qualname": "make_functions.<locals>.prepare_sys",
+          "filename": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "firstlineno": 318,
+          "code_sha256": "f0839106d60298c1a9fa88da15a16bf85cf46ab923632c12d7ac6752ed371f3f"
+        },
+        "source": {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-direct-csc-foundation-v2.py",
+          "bytes": 17550,
+          "sha256": "8e2bb061ef1fee94672601132cedb8ca7565d4006a327474f039f501e5f516cf"
+        },
+        "canonical_code_sha256": "a1be209441a228f29ae8bb0d65e51556a62a1a1fe3da31ac89f67a69199e7e3d",
+        "environment": {
+          "implementation": "cpython",
+          "sys_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "sys_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "optimization": 0,
+          "marshal_version_for_raw_record_only": 4,
+          "compiler_dont_inherit": true
+        }
+      }
+    }
+  },
+  "original_backend_references_restored": true,
+  "seconds": 1.1224377700018522
+}

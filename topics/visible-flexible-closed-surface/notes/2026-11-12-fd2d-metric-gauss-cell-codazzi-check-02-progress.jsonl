@@ -1,0 +1,8 @@
+{"stage": "starting", "seconds": 0.000196512000002258, "current_rss_kib": 65476, "peak_rss_kib": 65288}
+{"stage": "before_helper_jacobian", "seconds": 4.545469022999896, "current_rss_kib": 76208, "peak_rss_kib": 191824}
+{"stage": "after_helper_jacobian", "seconds": 12.036479041999883, "current_rss_kib": 319160, "peak_rss_kib": 319004, "high_nnz": 2381260}
+{"stage": "native_stream_complete", "seconds": 34.162251190999996, "current_rss_kib": 319180, "peak_rss_kib": 319004, "native_mean_error": 4.068967385251199e-14, "native_G_error": 3.375077994860476e-14}
+{"stage": "before_direction", "seconds": 34.18426675599949, "current_rss_kib": 319252, "peak_rss_kib": 319004, "direction": "independent_n_m_l_nodes"}
+{"stage": "before_direction", "seconds": 49.26741073799985, "current_rss_kib": 310088, "peak_rss_kib": 366372, "direction": "complete_tail_parameters"}
+{"stage": "before_direction", "seconds": 62.17027453500032, "current_rss_kib": 310088, "peak_rss_kib": 366372, "direction": "physical_radial_deltas"}
+{"stage": "all_directions_complete", "seconds": 76.23416772400014, "current_rss_kib": 310096, "peak_rss_kib": 366380}

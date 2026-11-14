@@ -1,0 +1,8 @@
+{"time":"2026-11-09T02:40:20.417Z","event":"warm_initial_state","source":"/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-tail-k6-m8-stage2-result-state-004.json.gz","sourceModes":8,"targetModes":12,"depth":10}
+{"time":"2026-11-09T02:40:20.464Z","event":"request","call":1,"height":[-0.0003,0,0,0,0,0,0,0,0,0,0,0],"jacobian":false,"audit":true}
+{"time":"2026-11-09T02:40:35.097Z","event":"iteration","call":1,"elapsed_ms":14633,"iteration":0,"norm":3.979172272775919,"minA":0.8204972919309818,"minD":0.9968091934667582}
+{"time":"2026-11-09T02:40:35.133Z","event":"iteration","call":1,"elapsed_ms":14669,"iteration":0,"norm":3.979172272775919,"minA":0.8204972919309818,"minD":0.9968091934667582,"chartCondition":3020487.386313233,"phase":"correction"}
+{"time":"2026-11-09T02:40:56.600Z","event":"iteration","call":1,"elapsed_ms":36136,"iteration":1,"norm":0.00000137053496928102,"minA":0.8204977891614844,"minD":0.9968091934666842}
+{"time":"2026-11-09T02:40:56.628Z","event":"iteration","call":1,"elapsed_ms":36164,"iteration":1,"norm":0.00000137053496928102,"minA":0.8204977891614844,"minD":0.9968091934666842,"chartCondition":3020487.383257064,"phase":"correction"}
+{"time":"2026-11-09T02:41:17.952Z","event":"iteration","call":1,"elapsed_ms":57488,"iteration":2,"norm":5.004095740840026e-10,"minA":0.8204977888331003,"minD":0.9968091934666852}
+{"time":"2026-11-09T02:41:27.695Z","event":"response","call":1,"elapsed_ms":67230,"converged":true,"residual":5.004095740840026e-10,"maxChartCondition":3020487.386313233}

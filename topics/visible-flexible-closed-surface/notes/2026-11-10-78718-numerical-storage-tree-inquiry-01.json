@@ -1,0 +1,96 @@
+{
+  "observed_utc": "2026-11-10T05:11:41.278167+00:00",
+  "tree_commit": "24a6680d4b7b885f90d9cd85af0dc89ec018b49c",
+  "tree_scope": "Current origin/main tree path metadata, not full remote history or all historical objects.",
+  "repository_path_count": 144564,
+  "topic_path_count": 3707,
+  "missing_source_or_AB_ledger_name_hits": [],
+  "outside_topic_db6f_recovery_path_hits": [],
+  "available_C_transformation_ledgers": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-gates-transformations.json",
+      "bytes": 24049,
+      "sha256": "0417ac80883dda492618f8535a06ce0eaab230decf0eec4751d2b8c41b25dd88",
+      "transforms": [
+        {
+          "old": "db6f-audit-prefix-angular-metric.py",
+          "new": "db6f-prefix-angular-metric-storage.py",
+          "old_sha256": "42e7d222c40512fec2d4fd757544d630b3e372487322e27eb3571a06519eb2fb",
+          "new_sha256": "2f24cdf9b9649a5ecd34bdbbdabaf294f1fb985288578b54217a6143c98e902c",
+          "replacement_count": 13
+        },
+        {
+          "old": "db6f-export-closed-mesh.py",
+          "new": "db6f-prefix-export-closed-mesh-storage.py",
+          "old_sha256": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+          "new_sha256": "d776e41ef75741be0d5d44a8156d2c71a70ad016ef3678605d718a32ba7684d1",
+          "replacement_count": 5
+        },
+        {
+          "old": "db6f-tail-review-closed-mesh.py",
+          "new": "db6f-prefix-review-closed-mesh-storage.py",
+          "old_sha256": "f55e52840c165d501548650c7fc7294aa2bd0bb2dee823941029e344fdda814d",
+          "new_sha256": "698e8b0528ffa7b1bbe1bc84c574079f60261156f1d3a6ddae048af0f9c0c479",
+          "replacement_count": 4
+        },
+        {
+          "old": "db6f-audit-terminal-error-gate.py",
+          "new": "db6f-prefix-terminal-error-storage.py",
+          "old_sha256": "1be7add52ec2c06653a2a64baa8653e675559a55551cf22603d14a80f9cfb234",
+          "new_sha256": "809cc7ab61903f11847653fda018506f7c2bed38a7501007909200eb0bf69584",
+          "replacement_count": 12
+        }
+      ]
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-terminal-v2-transformations.json",
+      "bytes": 5307,
+      "sha256": "82bbb53a65803c1f2531a6d2544f82d86f820d458acfeb5494f07f3d7b7f3d69",
+      "transforms": [
+        {
+          "old": "db6f-prefix-terminal-error-storage.py",
+          "new": "db6f-prefix-terminal-error-storage-v2.py",
+          "old_sha256": "809cc7ab61903f11847653fda018506f7c2bed38a7501007909200eb0bf69584",
+          "new_sha256": "a00f8210d561983e9d137a848cb7b582e33de8450c0b70497e3933080c297aa1",
+          "replacement_count": 7
+        }
+      ]
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-storage-terminal-v3-transformations.json",
+      "bytes": 3146,
+      "sha256": "4299872c6189de869d137682ace26eee965fdabc0af01a2c47a25342bab1e336",
+      "transforms": [
+        {
+          "old": "db6f-prefix-terminal-error-storage-v2.py",
+          "new": "db6f-prefix-terminal-error-storage-v3.py",
+          "old_sha256": "a00f8210d561983e9d137a848cb7b582e33de8450c0b70497e3933080c297aa1",
+          "new_sha256": "8db94c71a9035f2f977daea9c315b669bce4c20800f80e7886b77c66af6f7ed7",
+          "replacement_count": 1
+        }
+      ]
+    }
+  ],
+  "small_current_tree_metadata_requested": [
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-shared-jet-byte-storage-publication.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-shared-jet-byte-storage-sources.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-shared-jet-byte-storage-adoption.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-storage-publication.json",
+    "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-shared-jet-byte-storage-sources.json"
+  ],
+  "note": "The available ledgers transform only the C angular/mesh/review/terminal consumers. Missing A/B source names and their hashes inside new source snippets are references, not complete missing source text. Old shared-jet storage publication metadata is requested only to inspect exact source/object references; its older documentation does not certify A/B.",
+  "exact_missing_source_basenames_checked": [
+    "db6f-prefix-shared-jet-byte-shards-v2.py",
+    "db6f-prefix-shared-jet-storage.py",
+    "db6f-prefix-fullxyz-hermite-storage.py",
+    "db6f-prefix-mirror-hermite-storage.py",
+    "db6f-prefix-continuous-hermite-storage.py",
+    "db6f-prefix-metric-polynomial-storage.py",
+    "db6f-prefix-metric-supplier-storage.py",
+    "db6f-prefix-volume-moment-storage.py",
+    "db6f-prefix-common-cut-storage.py",
+    "db6f-prefix-angular-arithmetic-storage.py",
+    "db6f-prefix-metric-budget-storage.py",
+    "db6f-prefix-closed-budget-storage.py"
+  ]
+}

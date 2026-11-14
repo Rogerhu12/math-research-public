@@ -1,0 +1,96 @@
+{
+  "status": "PASS_DECLARED_LAUNCH_AND_GUARD_BINDINGS_ONLY",
+  "reviewer": "/root/independent_audit",
+  "main_launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-launch.json",
+    "bytes": 103214,
+    "sha256": "8fa55f4f50d70e363d91944624e10d394b6906350ab4a2f853b818613c0b5996"
+  },
+  "main_guard_launch": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-guard-launch.json",
+    "bytes": 53915,
+    "sha256": "cd4793d8fa58ab495e55caf2dc8dcd67c6c2625f4cf74f46820d0f1cf71380c8"
+  },
+  "main_launch_bindings": 181,
+  "guard_bound_files": 184,
+  "changed_settings": [
+    "max_nodes"
+  ],
+  "changed_argument_flags": [
+    "--tail-config",
+    "--out-prefix",
+    "--restart",
+    "--max-nodes"
+  ],
+  "changed_tail_IO_fields": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile"
+  ],
+  "frozen_physical_definitions_unchanged": true,
+  "guard_exact_original_mathematical_command": true,
+  "runtime_report_differences_from_author": [
+    "seconds"
+  ],
+  "code_report_exact_root_bytes": true,
+  "main_solver_started_by_reviewer": false,
+  "candidate_initializations_RHS_Jacobian_matrices_LU_Newton_BVP_DN": 0,
+  "one_process_local_CSC_function_factory": 1,
+  "actual_executions": {
+    "source_diff": {
+      "tool_receipt": "66446d",
+      "exit_code": 0
+    },
+    "canonical_check": {
+      "tool_receipt": "5ca670",
+      "exit_code": 0
+    },
+    "runtime_check": {
+      "initial_receipt": "e05458",
+      "session_id": 26878,
+      "completion_receipt": "075034",
+      "exit_code": 0
+    },
+    "full_pure_prepare": {
+      "tool_receipt": "e7c143",
+      "exit_code": 0
+    },
+    "negative_final": {
+      "tool_receipt": "9b9403",
+      "exit_code": 2,
+      "rejection": "root actual tool-exit observation is required"
+    }
+  },
+  "own_evidence_files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-source-check-01.json",
+      "bytes": 1989,
+      "sha256": "d8fd65da57ebb22286dd70940c12c3bc34fff65f48ce465c0dc981e09c23f70d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-code-check-01.json",
+      "bytes": 6264,
+      "sha256": "56f0ff2c6bc29f799ca724ca04f5b3305dc733b70e721808378cfdb49c4a51cf"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-runtime-check-01.json",
+      "bytes": 98323,
+      "sha256": "e90378c8d8d73f22db3b16769820075d62b1dbb7030856c9a622c2481c8de614"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-pure-01-launch.json",
+      "bytes": 103175,
+      "sha256": "4a9ab1979be0b5d2829544ca7de0229d1259129e428c3493f0c558169b2a2643"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-pure-01-preparation.json",
+      "bytes": 5230,
+      "sha256": "c804bee6cb4a3df412e53bc2df829238830997cd0c85b26504b706a456592947"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-restart8000-pure-01-tail-config.json",
+      "bytes": 2649,
+      "sha256": "7a545b528e49db94c214765f55d0fcafab7e12b04404bdfc659b8d381a189fe1"
+    }
+  ]
+}

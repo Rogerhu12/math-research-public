@@ -1,0 +1,21 @@
+{
+  "status": "independent-proof-review-and-bound-pilot-rerun-pass",
+  "scope": "Frozen mathematical primitive/inverse method and complete cell0/segment7 only; no whole-tail metric or curvature assertion",
+  "reviewer": "Astra-visible-flex-db6f0b0e/root",
+  "sources": {
+    "db6f-tail-build-background-primitive.py": "71cec2dd2fc7cf600a98186637a0e7425a89116132a946a5343a7e5b966dfaca",
+    "db6f_tail_background_primitive.py": "9eb20eb44bb202e1dec3df55493ff2ba149b5dc96b340ddf5c5781b46bd65d23",
+    "db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+  },
+  "authorReportSHA256": "c289072b5c456a0ac88e92ab8ffd53565cdeca1c4ca0ea982fc028b22db391ca",
+  "rerunReportSHA256": "896cbd50ae0a86e7892f4a4e538310e3c12193f3d86271b1ce255a2752ebc41b",
+  "reviewSHA256": "824018da9a8d986f32289272d271f55a5650daa07884329a9c7245fd7d32100f",
+  "allProfileFieldsIdentical": true,
+  "inputsIdentical": true,
+  "profiles": 1,
+  "analyticLeaves": 7460,
+  "rangeLeaves": 334,
+  "formalInputLimitation": "Verified upstream integrals, positive alpha, valid filters, binary64 source queries; inverse cover is conditional on each profile. Downstream must check complete coverage."
+}

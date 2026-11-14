@@ -1,0 +1,83 @@
+{
+  "status": "OBSERVED-INDEPENDENT-PURE-PREPARER-AND-EXACT-CHECKER-COMPLETED",
+  "observer": "/root/tail_theory",
+  "observed_at_utc": "2026-11-09 17:33:46 UTC",
+  "pure_preparer": {
+    "initial_receipt": "f55272",
+    "session_id": 75959,
+    "completion_receipt": "09b7ee",
+    "actual_tool_exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-matched-cut-warm.py",
+      "--warm-prefix",
+      "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay",
+      "--coupled-prefix",
+      "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-run-replay"
+    ],
+    "source": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-matched-cut-warm.py",
+      "bytes": 25609,
+      "sha256": "246e36312e7dc80b7f8c16dc8759423752c6370ad923eeba14a5545e5a3ecf48"
+    },
+    "preparer_reported_seconds": 4.58408178499667,
+    "report": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay-preparation.json",
+      "bytes": 50144,
+      "sha256": "38ac47331826053026709467a3c6adfb0a16414f11b3c84d85921c74ebcd0b7a"
+    },
+    "new_initial_guess_only": true,
+    "actual_solver_launched": false
+  },
+  "independent_checker": {
+    "initial_receipt": "633a60",
+    "session_id": 65342,
+    "completion_receipt": "b8ca25",
+    "actual_tool_exit_code": 0,
+    "source": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-matched-cut-warm.py",
+      "bytes": 15696,
+      "sha256": "02dd8e6ad710f55d682b8509b66daf6d11ee36eb455d3729ba254e0117d6be47"
+    },
+    "report": {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-check.json",
+      "bytes": 5305,
+      "sha256": "11403ef8c0bef61541744ab1b172ad154333ff55e18e58cd7bb42579b2a78805"
+    },
+    "exact_Z_checks": 236880,
+    "all_array_and_compressed_block_comparisons_passed": true
+  },
+  "scope": "Direct tool exits were observed. Original geometry initialization only; no BVP/IVP, momentum root, RK, true DN, or original coupled process. Local duplicate replay arrays need not be published because their compressed bytes match the separately published author blocks; the frozen preparer and two explicit stems reconstruct them.",
+  "local_replay_artifacts": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay-preparation.json",
+      "bytes": 50144,
+      "sha256": "38ac47331826053026709467a3c6adfb0a16414f11b3c84d85921c74ebcd0b7a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay.json.gz",
+      "bytes": 27524,
+      "sha256": "baeaef0c972800ff39b380770b99400f4e73f253575148022670618e7e6b3d59"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay_coeff_00.npy.gz",
+      "bytes": 4174602,
+      "sha256": "afde04de0544743ee695ce539abcc91116b142ff3aaae3d3fbd88d34fb3a789f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-warm-replay_coeff_01.npy.gz",
+      "bytes": 1467096,
+      "sha256": "f988042717251970e96fdd47eb9f4dc03475c55f9772c339f81c319b2e554f2f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-run-replay-input-bindings.json",
+      "bytes": 39415,
+      "sha256": "18de314363f082ff6f1581df1963367cf8b6044a1d0fce4fd3864e5a6d5170b2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-matched-cut-run-replay-tail-config.json",
+      "bytes": 3057,
+      "sha256": "38c9ebc4646110f186e8cabe55db67c4d0f065b0b126b97cc1262aa0611aaf17"
+    }
+  ]
+}

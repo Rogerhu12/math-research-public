@@ -1,0 +1,228 @@
+{
+  "status": "numerical-source-jet-probe-not-a-certificate",
+  "radius": 0.5209378646005576,
+  "angularNodes": 512,
+  "scriptSHA256": "7feea756c32c31b42733e8d5569eaaa88aa77207c0de0d6271ee831170b6a442",
+  "backgroundStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s64_tail_0018.json.gz",
+      "inputSHA256": "eb95371195e5a7c6ba2d87fcea0bc63cb80278d437e084012edcc3a66a5492a5",
+      "nativeSteps": 64,
+      "shootingParts": 2,
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "rawLeft": 0,
+      "rawRight": 0.5,
+      "sourceXApprox": 0.8515625000001481,
+      "sourceRadiusError": -1.1102230246251565e-16,
+      "probes": [
+        {
+          "differenceStep": 0.0001,
+          "perturbationRRAtThetaZero": [
+            -0.009199609379663798,
+            -1.1016426875912194e-13,
+            0.020857163467236026
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.009199609379663798,
+            -1.1016426875912194e-13,
+            -1.7493996445401432
+          ],
+          "sourceMetric": 8.681276828559109e-11,
+          "formalHeightDarboux": 1.2201043768316028e-7
+        },
+        {
+          "differenceStep": 0.00005,
+          "perturbationRRAtThetaZero": [
+            -0.009199609439633605,
+            7.297238797813741e-14,
+            0.020857163467236026
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.009199609439633605,
+            7.297238797813741e-14,
+            -1.7493996445401432
+          ],
+          "sourceMetric": 8.681276828559109e-11,
+          "formalHeightDarboux": 1.2201043768316028e-7
+        },
+        {
+          "differenceStep": 0.000025,
+          "perturbationRRAtThetaZero": [
+            -0.0091996095027298,
+            5.541931523738949e-13,
+            0.020857163467236026
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.0091996095027298,
+            5.541931523738949e-13,
+            -1.7493996445401432
+          ],
+          "sourceMetric": 8.681276828559109e-11,
+          "formalHeightDarboux": 1.2201043768316028e-7
+        },
+        {
+          "differenceStep": 0.0000125,
+          "perturbationRRAtThetaZero": [
+            -0.009199609619827243,
+            9.490915700220457e-13,
+            0.020857163467236026
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.009199609619827243,
+            9.490915700220457e-13,
+            -1.7493996445401432
+          ],
+          "sourceMetric": 8.681276828559109e-11,
+          "formalHeightDarboux": 1.2201043768316028e-7
+        },
+        {
+          "differenceStep": 0.00000625,
+          "perturbationRRAtThetaZero": [
+            -0.00919960917235585,
+            -4.509283559534585e-12,
+            0.020857163467236026
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.00919960917235585,
+            -4.509283559534585e-12,
+            -1.7493996445401432
+          ],
+          "sourceMetric": 8.681276828559109e-11,
+          "formalHeightDarboux": 1.2201043768316028e-7
+        }
+      ],
+      "nearestSourceBreakpointDistance": 0.0008043840582210304
+    },
+    {
+      "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m8-d10-p2-s128_tail_0004.json.gz",
+      "inputSHA256": "9f039cf6d13ff9938a9523716ef4a34f22477bc7c2fed5c7d6dbb7547b565745",
+      "nativeSteps": 128,
+      "shootingParts": 2,
+      "stage": 7,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "rawLeft": 0,
+      "rawRight": 0.5,
+      "sourceXApprox": 0.8515625000001481,
+      "sourceRadiusError": -1.1102230246251565e-16,
+      "probes": [
+        {
+          "differenceStep": 0.0001,
+          "perturbationRRAtThetaZero": [
+            -0.00919960610895032,
+            -1.352199421390872e-14,
+            0.020857117367742276
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.00919960610895032,
+            -1.352199421390872e-14,
+            -1.749399690639637
+          ],
+          "sourceMetric": 8.680863407777998e-11,
+          "formalHeightDarboux": 1.2200481437890145e-7
+        },
+        {
+          "differenceStep": 0.00005,
+          "perturbationRRAtThetaZero": [
+            -0.009199606158858842,
+            7.348487709550309e-13,
+            0.020857117367742276
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.009199606158858842,
+            7.348487709550309e-13,
+            -1.749399690639637
+          ],
+          "sourceMetric": 8.680863407777998e-11,
+          "formalHeightDarboux": 1.2200481437890145e-7
+        },
+        {
+          "differenceStep": 0.000025,
+          "perturbationRRAtThetaZero": [
+            -0.00919960626424654,
+            -1.250805700816936e-12,
+            0.020857117367742276
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.00919960626424654,
+            -1.250805700816936e-12,
+            -1.749399690639637
+          ],
+          "sourceMetric": 8.680863407777998e-11,
+          "formalHeightDarboux": 1.2200481437890145e-7
+        },
+        {
+          "differenceStep": 0.0000125,
+          "perturbationRRAtThetaZero": [
+            -0.00919960614237425,
+            -7.06085330260458e-13,
+            0.020857117367742276
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.00919960614237425,
+            -7.06085330260458e-13,
+            -1.749399690639637
+          ],
+          "sourceMetric": 8.680863407777998e-11,
+          "formalHeightDarboux": 1.2200481437890145e-7
+        },
+        {
+          "differenceStep": 0.00000625,
+          "perturbationRRAtThetaZero": [
+            -0.009199606245601899,
+            -3.0669575881771506e-12,
+            0.020857117367742276
+          ],
+          "backgroundWr": -1.7702568080073793,
+          "fullRRAtThetaZero": [
+            -0.009199606245601899,
+            -3.0669575881771506e-12,
+            -1.749399690639637
+          ],
+          "sourceMetric": 8.680863407777998e-11,
+          "formalHeightDarboux": 1.2200481437890145e-7
+        }
+      ],
+      "nearestSourceBreakpointDistance": 0.0008043840582210304
+    }
+  ]
+}

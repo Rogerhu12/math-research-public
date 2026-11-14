@@ -1,0 +1,69 @@
+{
+  "scope": "True finite-profile linear diagnostics, not nonlinear DN. Fixed selected ideal far condition must be refined.",
+  "config": {
+    "rCut": 0.6,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 80,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "cuspAwareQuadrature": true,
+    "quadratureTolerance": 2e-10
+  },
+  "stats": {
+    "rCut": 0.6,
+    "rCuff": 0.25,
+    "oldCut": 0.25281475451853164,
+    "wCut": 0.5,
+    "width": 0.35,
+    "curvatureBound": 6,
+    "alpha": 71.92861702899957,
+    "meridianLength": 0.3529172290121696,
+    "heightSpan": 0.0216288082485462,
+    "minimumWarpWidth": 0.14866993535891906,
+    "bufferMaxCurvature": 9.90930980273585,
+    "cutRadiusError": 1.1102230246251565e-16,
+    "cutSlopeError": -5.551115123125783e-17,
+    "cutSecondError": 2.6645352591003757e-15,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "deepDerivativeRatio": 1,
+    "scope": "New cut-preserving capped finite profile, exact unchanged deep source. Numerical geometry only; all physical DN and nonlinear matching must be recomputed."
+  },
+  "rows": [
+    {
+      "mode": 2,
+      "far": 32,
+      "steps": 1024,
+      "cutSlope": 5.676917011542046,
+      "unitDirection": [
+        0.7613613440826715,
+        0.6483277749230153
+      ],
+      "logHeightGain": 365.41157995531165,
+      "linearTPositivityAmplitudeThreshold": 0.000004107731473642127,
+      "thresholdLocation": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9970703125,
+        "r": 0.3833354681628829,
+        "w": 0.00002407825228604994,
+        "f": 0.0028502888387363814,
+        "fr": -5.831948942482014,
+        "baseT": 0.000009230048107265724,
+        "linearT": -2.2469940322272057
+      },
+      "normalizedHeightMax": 0.9999999999999802,
+      "normalizedDerivativeMax": 19.22466983015851,
+      "thresholdScope": "Sampled sufficient bound for positivity of linearized H_theta_theta. Not a nonlinear amplitude bound or theorem."
+    }
+  ]
+}

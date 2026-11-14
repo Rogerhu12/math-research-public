@@ -1,0 +1,28 @@
+{
+  "schema": "fd2d-tail-linear-progress-v1",
+  "complete_tail_activity_domain": false,
+  "next_cell": 1807,
+  "start": 0,
+  "total_radial_cells": 5030,
+  "maximum": 1.2566186391203421e-09,
+  "worst_interval": {
+    "cell": 1317,
+    "subdivision": 0,
+    "left_exact": "4498321971557171/9007199254740992",
+    "right_exact": "4500081190161613/9007199254740992",
+    "packet_row": 27772,
+    "tail_span": 17387,
+    "linear_operator_upper": 1.2566186391203421e-09,
+    "all_angle_attempts": [
+      {
+        "angular": 1024,
+        "upper": 1.2566186391203421e-09
+      }
+    ],
+    "reused_closed_interval": false,
+    "prior_upper_if_refined": null
+  },
+  "reused_intervals": 1043,
+  "newly_computed_intervals": 764,
+  "seconds": 529.536437828996
+}

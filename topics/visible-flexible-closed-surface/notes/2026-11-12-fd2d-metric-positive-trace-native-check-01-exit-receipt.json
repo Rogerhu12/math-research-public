@@ -1,0 +1,35 @@
+{
+  "schema": "fd2d-native-window-binding-failed-execution-v1",
+  "actual_session": 65794,
+  "initial_chunk": "261d11",
+  "completion_chunk": "1d6ba9",
+  "observed_exit_code": 1,
+  "failure": "ValueError: Changed terminal field definition: ramp_stop",
+  "failure_phase": "metadata validation before any actual field query",
+  "sources": [
+    {
+      "path": "scripts/fd2d_gc_positive_trace_native_field.py",
+      "bytes": 16847,
+      "sha256": "da21af4729036536a7114e6d0a46bd32d9b3bb3b6fb9ee028bdbe4eb3ee5d98f"
+    },
+    {
+      "path": "scripts/fd2d-metric-positive-trace-native-check.py",
+      "bytes": 10776,
+      "sha256": "d5c6306b74c18c718570470e16f36757749d598a0dc38e2923004b7173710f75"
+    }
+  ],
+  "input": {
+    "path": "notes/2026-11-12-fd2d-positive-trace-warm04-warm.npz",
+    "bytes": 58791,
+    "sha256": "a0ebb07b210d373b5a9aced7b79137f28fc5f7ffa6a797ea960113f9ee3980ac"
+  },
+  "cause": "The initial reader recomputed end-.013; the immutable provider uses last_piece.s0+.5*last_piece.L. Their binary64 results differ by one ulp.",
+  "numerical_or_geometry_failure": false,
+  "original_sources_unchanged_and_retained": true,
+  "replacement_sources": [
+    "scripts/fd2d_gc_positive_trace_native_field_v2.py",
+    "scripts/fd2d-metric-positive-trace-native-check-v2.py"
+  ],
+  "BVP_run": false,
+  "body_run": false
+}

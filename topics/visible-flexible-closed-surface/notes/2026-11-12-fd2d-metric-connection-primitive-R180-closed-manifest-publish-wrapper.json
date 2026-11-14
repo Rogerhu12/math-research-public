@@ -1,0 +1,67 @@
+{
+  "schema": "fd2d-closed-publication-schema-wrapper-v1",
+  "closed": true,
+  "original_manifest": {
+    "path": "notes/2026-11-12-fd2d-metric-connection-primitive-R180-closed-manifest.json",
+    "bytes": 3240,
+    "sha256": "10ef6cd2bb960c67eeb2ef22d0e888774101db58c415285b106dbbcde3d5b125"
+  },
+  "only_key_adaptation": "artifacts to files; original unchanged",
+  "files": [
+    {
+      "path": "scripts/fd2d_gc_connection_endpoint_primitive.py",
+      "bytes": 8040,
+      "sha256": "2a5f3e966751f787ce53bb7ee420cfc3480be78e925fe16ab203965a15f3931b"
+    },
+    {
+      "path": "scripts/fd2d_gc_connection_primitive_gauss_reduction.py",
+      "bytes": 2112,
+      "sha256": "6d941988f5873d031cbb8e16539eba1b8f9ad0e4f5bae0cca68c69c7a8b5bd0f"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-endpoint-primitive-check.py",
+      "bytes": 6477,
+      "sha256": "8839a2173e40f40811c2f7fa62734e6467ecb65262b580777ca18f9bd4123df0"
+    },
+    {
+      "path": "scripts/fd2d-metric-connection-primitive-reduced-check.py",
+      "bytes": 3669,
+      "sha256": "3c9d5e1155392b9ac9d7e6b34bba042f060302750d1d794a8e1e1820d7f14caf"
+    },
+    {
+      "path": "results/R180-full-function-endpoint-primitive-and-material-drift.md",
+      "bytes": 11330,
+      "sha256": "2f9134bda3b60fdf036a26d68afc1c65eb2ae3d6bfc9918dca5d31be731cfe39"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-primitive.json",
+      "bytes": 1720,
+      "sha256": "aa1da36cc27432d1abfa4ef982d5ad00a20e9557f78df2da6209f0336d639308"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-report.json",
+      "bytes": 9465,
+      "sha256": "20dccf758b3f110355a63d40cc45952112419a681bf77f0dc3b196ddc41e4718"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-R180-01-completion-receipt.json",
+      "bytes": 784,
+      "sha256": "3e2d2b2f1025e271db9ce0be92c33e4aeef8dea11981d3fe325ece39126c64e9"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-reduced-R180-01-report.json",
+      "bytes": 3911,
+      "sha256": "6073f7341879b058f9e1e149b248119ccb09a24afb91b9175ba7315e2c568380"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-dyadic30-connection-primitive-reduced-R180-01-completion-receipt.json",
+      "bytes": 791,
+      "sha256": "5ad299d40faae8526260c6d6d7572cb749b92a61a6409ebad0fcb31fb463d003"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-connection-primitive-R180-closed-manifest.json",
+      "bytes": 3240,
+      "sha256": "10ef6cd2bb960c67eeb2ef22d0e888774101db58c415285b106dbbcde3d5b125"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-R160-complete-cut-material-tail-lifting-closed-manifest-v1",
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R160-complete-cut-material-tail-lifting.md",
+      "sha256": "6fb46a9903797236e9de6d97f85afe52ed90281ac8edf21fb3e64dc10c935b15",
+      "bytes": 10539,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d_gc_cut_material_tail_lifting.py",
+      "sha256": "93c13091f2a398188046e35a21983200255e1f852018fe89263a7907962436e2",
+      "bytes": 9657,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/fd2d-cut-material-tail-lifting-check.py",
+      "sha256": "164b5d1d2aae1306976405ff5a5d0a4c975c57e71f057621bde2ae87e94b5b36",
+      "bytes": 8296,
+      "closed": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-cut-material-tail-lifting-check-01-report.json",
+      "sha256": "7601503679ff6f0030402df7c5ca1dec7b5637594559d3b85958a4cb014b2174",
+      "bytes": 4798,
+      "closed": true
+    }
+  ],
+  "scope": "New complete cut-material rank-one lifting with fixed physical window, exact angular two-jets and all tail/profile first variations. Accurate cut value/angle/allowed-parameter trace, but not radial II derivative. Same metric, changed actual representation; no BVP or geometry claim.",
+  "executions": [
+    {
+      "session": 30501,
+      "initial_chunk": "7fdf9f",
+      "final_chunk": "ac6d85",
+      "exit_code": 0,
+      "natural_exit": true,
+      "source_seconds": 1.5468537010019645,
+      "peak_rss_kib": 82152,
+      "scope": "Actual16-tail/7-profile parameters,8 physical positions and64 common angles, nonzero JVP of values/s/xi/full forcing including nonzero U_s; no solver"
+    }
+  ],
+  "dependencies": [
+    "notes/2026-11-12-fd2d-positive-trace-tailwarm01-warm.npz",
+    "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+    "notes/2026-11-12-fd2d-peak-spacer-ruling-consumer-01-inlet.npz",
+    "notes/2026-11-12-fd2d-metric-frozen-coast-reference-01-cache.npz",
+    "results/R132-positive-bernstein-controls-for-the-exact-flat-tail.md",
+    "notes/2026-11-12-fd2d-geometry-R155-closed-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-R157-closed-manifest.json",
+    "notes/2026-11-12-fd2d-geometry-R158-closed-manifest.json"
+  ],
+  "helper_scope": "The nonlinear_trace_reapplied_to_complete_field metadata is a required consumer composition, not an executed BVP or full-field transformation in this pure lifting helper.",
+  "source_inputs_unchanged": true,
+  "active_solver_sources_changed": false,
+  "full_strong_target_completion_claimed": false
+}

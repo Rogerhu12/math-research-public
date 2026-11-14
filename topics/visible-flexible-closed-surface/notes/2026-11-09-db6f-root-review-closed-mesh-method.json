@@ -1,0 +1,20 @@
+{
+  "status": "PASS-independent-proof-and-static-implementation-review",
+  "scope": "Conditional radial PL embedding lemma and validator source only; no actual PLY is run in this review.",
+  "validator_sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+  "proof_sha256": "07322ecdadc37c0e298a739af9297c46227d52796c7d893ed99d168256bb4e27",
+  "interval_backend_sha256": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+  "review_script_sha256": "8dd50012ad839dfc2314215982228998c67218708dca6502efd60a28efbcd3e6",
+  "review_checks": {
+    "triangulated_closed_oriented_manifold": true,
+    "halfedge_rotation_and_connectedness": true,
+    "positive_face_edge_and_vertex_local_degree": true,
+    "spherical_area_half_angle_polynomial_identity": true,
+    "rational_degree_isolation": true,
+    "exact_fraction_accumulation": true,
+    "strict_binary_input_and_size_contract": true
+  },
+  "actual_mesh_validated_here": false,
+  "continuous_metric_or_reach_certified_here": false,
+  "fixed_g_convergence_gate_5_paid": false
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 85921,
+  "launch_chunk": "37f40f",
+  "completion_chunk": "cc4395",
+  "actual_exit_code": 0,
+  "actual_accepted_steps": 8,
+  "body_completed": true,
+  "child_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "recorded_utc": "2026-11-12T14:55:14.466187+00:00",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-natural-batch-chain-v4.py",
+    "bytes": 6871,
+    "sha256": "c693e5fbf6c7204da476e327358ff7d689b5c1d4320f3a44cbbaffb2f925c52f"
+  },
+  "driver": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-raw-bump-joint-positive-gauss-run.py",
+    "bytes": 22366,
+    "sha256": "4765e5cc178cc5b5d44d891a06edf65a3f73c0909fd271a4f1ede0a60f65f324"
+  },
+  "final_state": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-gauss14-b0004-accepted-0002.npz",
+    "bytes": 56027,
+    "sha256": "bcbfb6e2227ffd88cc90caf5cbd515a8b2490b2b8ee84bec232810aa60166258"
+  },
+  "scope": "New actual R153 finite field; no finite tolerance or strong-target completion."
+}

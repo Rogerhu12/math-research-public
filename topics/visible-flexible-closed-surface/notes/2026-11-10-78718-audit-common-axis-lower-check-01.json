@@ -1,0 +1,32 @@
+{
+  "actor": "/root/independent_audit",
+  "checks": {
+    "binary_lower_outward": true,
+    "binary_upper_outward": true,
+    "complete_bridge_replay_flag": true,
+    "corrected_decimal_below_lower": true,
+    "corrected_decimal_exact_fraction": true,
+    "corrected_decimal_exceeds_budget": true,
+    "lower_by_expanded_identity": true,
+    "no_curve_solver_or_producer": true,
+    "positive_enclosure": true,
+    "positive_point_value": true,
+    "positive_scale_order": true,
+    "roundtrip_decimal_above_entire_exact_interval": true,
+    "upper_by_expanded_identity": true,
+    "witness_before_correction": true
+  },
+  "rehash_counts": {
+    "input_bindings": 48,
+    "source_bindings": 10
+  },
+  "report": {
+    "bytes": 20806,
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-common-axis-lower-02.json",
+    "sha256": "6f13b5afc20b6ed4fdfa58d73783df3ba2512ac37e7adfb0a905851844420d90"
+  },
+  "safe_exact_decimal": "7.74147506471938e-8",
+  "safe_exact_fraction": "387073753235969/5000000000000000000000",
+  "schema": "independent-common-axis-scalar-and-identity-check-v1",
+  "scope": "Only current source/input identities and exact scalar algebra; the complete checker was actually independently executed separately with final tool receipt 966f6a exit 0. No candidate arrays emitted."
+}

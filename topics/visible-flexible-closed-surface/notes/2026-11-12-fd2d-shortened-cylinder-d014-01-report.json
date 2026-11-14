@@ -1,0 +1,514 @@
+{
+  "schema": "fd2d-shortened-cylinder-small-native-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-shortened-cylinder-native-check.py",
+    "bytes": 6364,
+    "sha256": "7fa14bd65b99341bfcbbab21a1893973002245da5dc93deac4fafa512ee2beb7"
+  },
+  "wrapper_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_shortened_cylinder_native.py",
+    "bytes": 17223,
+    "sha256": "aedc4bd774268a11da437c399d83e81ddd76418912a2d5d5af49dc6a21fbac3f"
+  },
+  "parent_native_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-actual-body-native-binding-01-definition.json",
+    "bytes": 54778,
+    "sha256": "6b6020f50c8f0e1541ea6a6f75d8919f0ce38a750a8dd73dd3cb5260298fa566"
+  },
+  "parent_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0004-accepted-0001.npz",
+    "bytes": 126906,
+    "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+  },
+  "child_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-shortened-cylinder-d014-01-definition.json",
+    "bytes": 90247,
+    "sha256": "4f653f8ce250fd6a2d1c8da960927fb0272d184ffa3a50c0cfa4ed4ef0973770"
+  },
+  "Delta_exact": "7/50",
+  "parent_node_count": 129,
+  "child_integration_node_count": 126,
+  "mode_count": 31,
+  "parameter_layout": {
+    "central": [
+      0,
+      31
+    ],
+    "tail": [
+      31,
+      47
+    ],
+    "physical_profile": [
+      47,
+      54
+    ]
+  },
+  "parent_parameter_bytes_retained": true,
+  "child_P1_coefficients_created": false,
+  "mathematical_metric_changed": true,
+  "parent_full_functions_composed_without_reprojection": true,
+  "cylinder_structure": {
+    "parent_declared_definition": {
+      "additional_surface_regularity_assumed": false,
+      "fixed_node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "kind": "exact_central_cylinder",
+      "l": 0.0,
+      "m": 0.0,
+      "n": "actual central seed plus sum c_j*(cos(2j*xi)-mu_j)",
+      "s_end": 0.32,
+      "s_start": 0.0,
+      "target_metric_changed": false
+    },
+    "checks": {
+      "central_profile_coast": true,
+      "complete_m_and_l_P1_coefficients_zero": true,
+      "seed_plateau_covers_cylinder": true,
+      "tail_lifting_zero_on_cylinder": true,
+      "coast_lifting_zero_on_cylinder": true,
+      "terminal_map_zero_on_cylinder": true,
+      "profile_bumps_zero_on_cylinder": true,
+      "original_angular_chart_stationary": true,
+      "ruling_atlas_transition_after_cylinder": true
+    },
+    "half_length_binary64": 0.32,
+    "half_length_saved_coordinate_exact": "5764607523034235/18014398509481984",
+    "covered_P1_node_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "raw_n_coefficients_may_be_nonzero": true,
+    "all_central_raw_rows_identical": true,
+    "meaning": "Actual fixed-material F_s=0 and X_s=e_z throughout the cylinder; no extra equality between floating raw n and core n is imposed"
+  },
+  "material_u": [
+    0.271,
+    0.93
+  ],
+  "radial_point_count": 4,
+  "rows": [
+    {
+      "mapping": {
+        "child_binary64": 0.0,
+        "named_knot_index": 0,
+        "child_mathematical_coordinate": {
+          "exact": "0",
+          "approximate": 0.0
+        },
+        "displayed_coordinate_error": {
+          "exact": "0",
+          "approximate": 0.0
+        },
+        "parent_binary64": 0.14,
+        "mapped_coordinate_error": {
+          "exact": "3/225179981368524800",
+          "approximate": 1.3322676295501878e-17
+        },
+        "parent_cut_selected_explicitly": false
+      },
+      "value_and_angular_twojet_absolute_differences": {
+        "a": 0.0,
+        "a_s": 0.0,
+        "a_ss": 0.0,
+        "J": 0.0,
+        "n": 0.0,
+        "m": 0.0,
+        "l": 0.0,
+        "n_u": 0.0,
+        "n_uu": 0.0,
+        "m_u": 0.0,
+        "m_uu": 0.0,
+        "l_u": 0.0,
+        "l_uu": 0.0
+      },
+      "target_profile_absolute_difference": 0.0,
+      "sampled_parent_values": {
+        "a": [
+          1.0040828380214688,
+          1.0040828380214688
+        ],
+        "a_s": [
+          0.0,
+          0.0
+        ],
+        "a_ss": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          1.0,
+          1.0
+        ],
+        "n": [
+          2.0402015437409355,
+          0.25258367002927457
+        ],
+        "m": [
+          0.0,
+          0.0
+        ],
+        "l": [
+          0.0,
+          0.0
+        ],
+        "n_u": [
+          0.5065400742841857,
+          -1.7752913168037452
+        ],
+        "n_uu": [
+          14.552186077417641,
+          10.020530193997192
+        ],
+        "m_u": [
+          0.0,
+          0.0
+        ],
+        "m_uu": [
+          0.0,
+          0.0
+        ],
+        "l_u": [
+          0.0,
+          0.0
+        ],
+        "l_uu": [
+          0.0,
+          0.0
+        ]
+      },
+      "child_reported_physical_s": [
+        0.0,
+        0.0
+      ],
+      "parent_s_evaluated": [
+        0.14,
+        0.14
+      ]
+    },
+    {
+      "mapping": {
+        "child_binary64": 0.5700900479010347,
+        "named_knot_index": 66,
+        "child_mathematical_coordinate": {
+          "exact": "128372866364736403/225179981368524800",
+          "approximate": 0.5700900479010347
+        },
+        "displayed_coordinate_error": {
+          "exact": "-3/225179981368524800",
+          "approximate": -1.3322676295501878e-17
+        },
+        "parent_binary64": 0.7100900479010347,
+        "mapped_coordinate_error": {
+          "exact": "0",
+          "approximate": 0.0
+        },
+        "parent_cut_selected_explicitly": false
+      },
+      "value_and_angular_twojet_absolute_differences": {
+        "a": 0.0,
+        "a_s": 0.0,
+        "a_ss": 0.0,
+        "J": 0.0,
+        "n": 0.0,
+        "m": 0.0,
+        "l": 0.0,
+        "n_u": 0.0,
+        "n_uu": 0.0,
+        "m_u": 0.0,
+        "m_uu": 0.0,
+        "l_u": 0.0,
+        "l_uu": 0.0
+      },
+      "target_profile_absolute_difference": 0.0,
+      "sampled_parent_values": {
+        "a": [
+          1.0420317722274253,
+          1.0420317722274253
+        ],
+        "a_s": [
+          0.14827864362817847,
+          0.14827864362817847
+        ],
+        "a_ss": [
+          0.8997545675885219,
+          0.8997545675885219
+        ],
+        "J": [
+          1.0,
+          1.0
+        ],
+        "n": [
+          1.6735720846074034,
+          0.37735788657231073
+        ],
+        "m": [
+          -0.4786859972462336,
+          -0.3583285366556812
+        ],
+        "l": [
+          -0.379022488642048,
+          -1.9479184783560155
+        ],
+        "n_u": [
+          -5.0647615368912735,
+          -0.20913173736974244
+        ],
+        "n_uu": [
+          -17.144326738875254,
+          4.427648802978727
+        ],
+        "m_u": [
+          -1.0869226387884334,
+          0.16990815386093713
+        ],
+        "m_uu": [
+          31.67239094420037,
+          -2.0781295661027674
+        ],
+        "l_u": [
+          -0.5252652309514196,
+          -1.4022165025284006
+        ],
+        "l_uu": [
+          -23.768459376485772,
+          25.40094464084747
+        ]
+      },
+      "child_reported_physical_s": [
+        0.5700900479010347,
+        0.5700900479010347
+      ],
+      "parent_s_evaluated": [
+        0.7100900479010347,
+        0.7100900479010347
+      ]
+    },
+    {
+      "mapping": {
+        "child_binary64": 0.9442812248506902,
+        "named_knot_index": null,
+        "child_mathematical_coordinate": {
+          "exact": "1063166143092631/1125899906842624",
+          "approximate": 0.9442812248506902
+        },
+        "displayed_coordinate_error": {
+          "exact": "0",
+          "approximate": 0.0
+        },
+        "parent_binary64": 1.0842812248506903,
+        "mapped_coordinate_error": {
+          "exact": "7/56294995342131200",
+          "approximate": 1.2434497875801754e-16
+        },
+        "parent_cut_selected_explicitly": false
+      },
+      "value_and_angular_twojet_absolute_differences": {
+        "a": 0.0,
+        "a_s": 0.0,
+        "a_ss": 0.0,
+        "J": 0.0,
+        "n": 0.0,
+        "m": 0.0,
+        "l": 0.0,
+        "n_u": 0.0,
+        "n_uu": 0.0,
+        "m_u": 0.0,
+        "m_uu": 0.0,
+        "l_u": 0.0,
+        "l_uu": 0.0
+      },
+      "target_profile_absolute_difference": 0.0,
+      "sampled_parent_values": {
+        "a": [
+          1.1287059572894425,
+          1.1287059572894425
+        ],
+        "a_s": [
+          -0.07750893045455748,
+          -0.07750893045455748
+        ],
+        "a_ss": [
+          -6.59862681847407,
+          -6.59862681847407
+        ],
+        "J": [
+          1.0,
+          1.0
+        ],
+        "n": [
+          1.1197993303701967,
+          0.8096032809820202
+        ],
+        "m": [
+          -0.5615154261403013,
+          -0.2722019193508177
+        ],
+        "l": [
+          5.474011200329339,
+          6.970640957769023
+        ],
+        "n_u": [
+          -0.7931208873549926,
+          -0.061456700501080645
+        ],
+        "n_uu": [
+          -1.863464716663854,
+          0.47295823745495674
+        ],
+        "m_u": [
+          -1.3220004973892479,
+          0.5494825976125477
+        ],
+        "m_uu": [
+          10.182780680205603,
+          0.08938754806106226
+        ],
+        "l_u": [
+          4.486257983424679,
+          1.444386462430116
+        ],
+        "l_uu": [
+          13.315117139303393,
+          -6.064606947100347
+        ]
+      },
+      "child_reported_physical_s": [
+        0.9442812248506902,
+        0.9442812248506902
+      ],
+      "parent_s_evaluated": [
+        1.0842812248506903,
+        1.0842812248506903
+      ]
+    },
+    {
+      "mapping": {
+        "child_binary64": 1.348973178358129,
+        "named_knot_index": 125,
+        "child_mathematical_coordinate": {
+          "exact": "37970219396165391/28147497671065600",
+          "approximate": 1.348973178358129
+        },
+        "displayed_coordinate_error": {
+          "exact": "11/112589990684262400",
+          "approximate": 9.769962616701378e-17
+        },
+        "parent_binary64": 1.4889731783581288,
+        "mapped_coordinate_error": {
+          "exact": "0",
+          "approximate": 0.0
+        },
+        "parent_cut_selected_explicitly": true
+      },
+      "value_and_angular_twojet_absolute_differences": {
+        "a": 0.0,
+        "a_s": 0.0,
+        "a_ss": 0.0,
+        "J": 0.0,
+        "n": 0.0,
+        "m": 0.0,
+        "l": 0.0,
+        "n_u": 0.0,
+        "n_uu": 0.0,
+        "m_u": 0.0,
+        "m_uu": 0.0,
+        "l_u": 0.0,
+        "l_uu": 0.0
+      },
+      "target_profile_absolute_difference": 0.0,
+      "sampled_parent_values": {
+        "a": [
+          0.8,
+          0.8
+        ],
+        "a_s": [
+          -1.0,
+          -1.0
+        ],
+        "a_ss": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          1.0,
+          1.0
+        ],
+        "n": [
+          0.0,
+          0.04738122260485768
+        ],
+        "m": [
+          0.0,
+          -0.06353224137274685
+        ],
+        "l": [
+          0.0,
+          0.08518871974888946
+        ],
+        "n_u": [
+          0.0,
+          -0.29223043588034614
+        ],
+        "n_uu": [
+          0.0,
+          0.6955367852521294
+        ],
+        "m_u": [
+          0.0,
+          0.25927420112999916
+        ],
+        "m_uu": [
+          0.0,
+          0.3471417809849425
+        ],
+        "l_u": [
+          0.0,
+          -0.1698944246048757
+        ],
+        "l_uu": [
+          0.0,
+          -1.4396357065666636
+        ]
+      },
+      "child_reported_physical_s": [
+        1.348973178358129,
+        1.348973178358129
+      ],
+      "parent_s_evaluated": [
+        1.4889731783581288,
+        1.4889731783581288
+      ]
+    }
+  ],
+  "maximum_mapped_value_and_angular_jet_difference": 0.0,
+  "parent_cut_selected_exactly": true,
+  "radial_cut_II_refusal_retained": true,
+  "body_initial_bitwise_equal": true,
+  "algebraic_cylinder_state_transport_maximum_error": 0.0,
+  "child_definition_reload_passed": true,
+  "ordinary_mapping_errors_are_coordinate_evaluation_errors_not_new_mathematical_P1_knots": true,
+  "full_R158_jet_check_repeated": false,
+  "body_ODE_runs": 0,
+  "whole_F_or_J_runs": 0,
+  "BVP_runs": 0,
+  "actual_cut_Z_paid": false,
+  "whole_held_or_global_reach_paid": false,
+  "passed": true,
+  "seconds": 4.984646027001872
+}

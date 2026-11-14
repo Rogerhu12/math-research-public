@@ -1,0 +1,158 @@
+{
+  "scope": "One old stage only. An actual original-RK midpoint, then two P16/S16 variational flows at the same physical RK density. Old endpoints retained. Old full-stage J/output are read from the saved earlier experiment. No full-tail DN or BVP; old normalization scale is only a local comparison reference.",
+  "input": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-iteration3-root-diagnostic-input.json.gz",
+    "bytes": 385541,
+    "sha256": "18996bebb3b93b2b092c31e7e16f956a3826071133d40c01ac20dfe931adf7d9"
+  },
+  "config": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-05-tail-config.json",
+    "bytes": 2819,
+    "sha256": "a49e86e6ae7735ae2fb2d9f44765da459f04d10fa5c7b7245f6f468652a64f04"
+  },
+  "baseReport": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-retraction-bias-stage-flow-01.json",
+    "bytes": 7749,
+    "sha256": "1faca30bc9249f0b0f8bffc8bb904ccb5f47c510c0416a98431c79f2131998ce"
+  },
+  "stage": 12,
+  "rawCell": 0,
+  "rawSegment": 7,
+  "originalParts": 8,
+  "newParts": 16,
+  "originalSteps": 32,
+  "newSteps": 16,
+  "originalLinearSteps": 256,
+  "referenceScale": 0.0006419043268729995,
+  "modes": 22,
+  "quadrature": 512,
+  "originalInputNode": 13,
+  "originalTargetNode": 12,
+  "oldRKStepsUsedToObtainMidpoint": 16,
+  "midpointMatchesFirstFineFlowBitwise": true,
+  "midpointShapeDifference": 0,
+  "composedShapeDifferenceToOriginalFullFlow": 0,
+  "composedMeanHeightDifferenceToOriginal": -8.673617379884035e-19,
+  "composedJacobianMaximumDifference": 1.87109375,
+  "composedJacobianMaximumScaledDifference": 1.9165147333772403e-12,
+  "originalBlocks": {
+    "QQ": {
+      "maximumEntry": 722297.641630804,
+      "maximumRowSum": 725405.8490021158
+    },
+    "QPi": {
+      "maximumEntry": 0.05879028478291447,
+      "maximumRowSum": 0.059279334949014065
+    },
+    "PiQ": {
+      "maximumEntry": 24210979745932.918,
+      "maximumRowSum": 24289035536140.316
+    },
+    "PiPi": {
+      "maximumEntry": 1970607.3041735736,
+      "maximumRowSum": 1984664.4205627886
+    }
+  },
+  "halfFlows": [
+    {
+      "half": 0,
+      "direction": "increasing original-stage x",
+      "fineStage": 25,
+      "part": 6,
+      "rawLeft": 0.375,
+      "rawRight": 0.4375,
+      "steps": 16,
+      "breakpointCount": 0,
+      "milliseconds": 121.88687000000027,
+      "blocks": {
+        "QQ": {
+          "maximumEntry": 1663.625695669647,
+          "maximumRowSum": 1665.5618287916109
+        },
+        "QPi": {
+          "maximumEntry": 0.00013540651569750773,
+          "maximumRowSum": 0.00013606590049428175
+        },
+        "PiQ": {
+          "maximumEntry": 31192395577.896233,
+          "maximumRowSum": 31217245063.416634
+        },
+        "PiPi": {
+          "maximumEntry": 2538.806445891247,
+          "maximumRowSum": 2545.7321383317326
+        }
+      },
+      "sameFrequencyPiFromPi": -1855.0410546545481,
+      "sameFrequencyPiFromQ": -20853426846.83913,
+      "pi63RowPiBlockL1": 1890.3981176291304,
+      "maximumStateDifferenceToRetainedTarget": 0,
+      "residualUsingOldStageReferenceScale": 0,
+      "minimumLeading": 0.9986760917560458,
+      "minimumD": 0.9997841505449608,
+      "maximumRootRelative": 1.4944243666509156e-16,
+      "meanHeight": 0.0010758083215236646
+    },
+    {
+      "half": 1,
+      "direction": "increasing original-stage x",
+      "fineStage": 24,
+      "part": 7,
+      "rawLeft": 0.4375,
+      "rawRight": 0.5,
+      "steps": 16,
+      "breakpointCount": 0,
+      "milliseconds": 95.70092999999997,
+      "blocks": {
+        "QQ": {
+          "maximumEntry": 3203.39861990448,
+          "maximumRowSum": 3209.4281066240005
+        },
+        "QPi": {
+          "maximumEntry": 0.00014770047203143636,
+          "maximumRowSum": 0.0001483804058309702
+        },
+        "PiQ": {
+          "maximumEntry": 107374264044.77353,
+          "maximumRowSum": 107425641586.1561
+        },
+        "PiPi": {
+          "maximumEntry": 4950.733681969441,
+          "maximumRowSum": 4965.8946585769145
+        }
+      },
+      "sameFrequencyPiFromPi": -3544.25410758794,
+      "sameFrequencyPiFromQ": -70277533666.02069,
+      "pi63RowPiBlockL1": 3607.3136012404184,
+      "maximumStateDifferenceToRetainedTarget": 2.141778724366807e-12,
+      "residualUsingOldStageReferenceScale": 3.3366011642270125e-9,
+      "minimumLeading": 0.998893164335484,
+      "minimumD": 0.9996415788861829,
+      "maximumRootRelative": 1.6457031643868078e-16,
+      "meanHeight": 0.002229547337409144
+    }
+  ],
+  "data": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-tail-half-stage-gain-01-half-jacobians.f64.gz",
+    "bytes": 31329,
+    "sha256": "5bdaa2fee413b3e306cf4c0e6b4db1cc7bb4932d2b22ccaa17eac27b951f39de",
+    "dtype": "little-endian float64",
+    "layout": "First K original midpoint shape coordinates, then for each of two physical halves: K*K row-major J, K output coordinates, one mean-height scalar.",
+    "K": 44
+  },
+  "scriptSHA256": "71b5d75ec12d8e21fa9251e308c1aa36382a397bf404ebe8b9cade2a5927fe48",
+  "sourceSHA256": {
+    "78718-tail-fourier-root-split-engine.mjs": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "78718-tail-fourier-product-jacobian.mjs": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "actualFullStageReruns": 0,
+  "actualOriginalHalfStateFlows": 1,
+  "actualFineHalfVariationalFlows": 2,
+  "actualShootingSolves": 0,
+  "actualBVPCalls": 0,
+  "seconds": 4.267
+}

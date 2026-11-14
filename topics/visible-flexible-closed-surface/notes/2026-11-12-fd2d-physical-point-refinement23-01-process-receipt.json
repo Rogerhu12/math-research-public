@@ -1,0 +1,25 @@
+{
+  "schema": "fd2d-actual-process-receipt-v1",
+  "session_id": 44529,
+  "initial_chunk": "666a82",
+  "intermediate_chunks": [
+    "c3eb84"
+  ],
+  "final_chunk": "8441d3",
+  "actual_exit_code": 1,
+  "terminated_by_owner": false,
+  "actual_outcome": "Entity saved; final and exception report serialization both failed on a numpy.bool_ field after the bounded check. No completed report was emitted.",
+  "reported_exception": "TypeError: Object of type bool is not JSON serializable",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-physical-point-refinement-check.py",
+    "bytes": 10569,
+    "sha256": "30621ecd3c2364e757b3bb75fd43aef0f5c20f7288dcda19043972c74515bedb"
+  },
+  "saved_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-physical-point-refinement23-01-field.npz",
+    "bytes": 119880,
+    "sha256": "2e45aeedbee3c9bdb068c1101195a2ff09f57712c4d6e28ebb2a7ea6bded1772"
+  },
+  "completed_check_claimed": false,
+  "rerun_strategy": "Read the already saved entity in a new bounded check; do not repeat P1 injection."
+}

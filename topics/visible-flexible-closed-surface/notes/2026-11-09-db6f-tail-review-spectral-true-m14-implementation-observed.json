@@ -1,0 +1,36 @@
+{
+  "observer": "/root/tail_review_continued",
+  "recorded_utc": "2026-11-09T20:28:55.420253+00:00",
+  "status": "INDEPENDENT_STATIC_REVIEW_AND_NEGATIVE_GATE_CLOSED",
+  "operations": [
+    {
+      "kind": "metadata_AST_and_old_real_packet_polynomial_check",
+      "start_tool_receipt": "091313",
+      "session_id": 81949,
+      "final_tool_receipt": "e3dd99",
+      "actual_exit_code": 0,
+      "result": {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-check.json",
+        "bytes": 33529,
+        "sha256": "c071919195a98d4f61e58d16b0d9d95b06e66feb8f8c0a6cda7a88bec3d5a937"
+      },
+      "unique_inputs": 107,
+      "callbacks": 21,
+      "historical_corruptions_rejected": 6,
+      "new_solver_calls": 0
+    },
+    {
+      "kind": "normal_final_entry_missing_actual_root_exit",
+      "tool_receipt": "7f2be3",
+      "actual_exit_code": 2,
+      "wall_time_seconds": 0.289126912,
+      "status_result": "NOT_READY_OR_REJECTED",
+      "ready": false,
+      "reason": "NOT_READY: root actual tool-exit observation is required",
+      "files_written": 0,
+      "solver_calls": 0,
+      "active_trace_read": false
+    }
+  ],
+  "scope": "Only this reviewer actual tools recorded as observed. Author tools are separate prior records. No future successful candidate fixture or actual computation."
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Launch failed before Node, tail or BVP solve; not a mathematical rejection",
+  "run": "resume-06",
+  "launch_tool": "74e6d2",
+  "poll_tool": "3eac14",
+  "session": 82820,
+  "driver_exit_code": 1,
+  "error_type": "FileNotFoundError",
+  "missing_source": "scripts/fd2d-bounded-tail-stage-core.mjs",
+  "source_disappearance_context": "Concurrent parent git pull --rebase temporarily removed newly committed source; parent warned as this launch began",
+  "node_started": false,
+  "new_stage_maps": 0,
+  "cache_previous_stages_retained": 448,
+  "console_file": "2026-11-12-fd2d-numerical-runlog-06.log",
+  "console_sha256": "692e0039d15e965d7e8dfd39aa11ec1a6d55112d958569fff88245e9fa01879d",
+  "next_action": "Wait for parent push completion; use retained source tree/known same-source cache and unique run stem"
+}

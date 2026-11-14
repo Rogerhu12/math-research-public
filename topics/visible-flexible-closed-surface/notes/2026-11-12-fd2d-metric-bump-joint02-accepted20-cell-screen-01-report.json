@@ -1,0 +1,290 @@
+{
+  "schema": "fd2d-actual-P1-cell-full-residual-finite-screen-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-cell-residual-screen.py",
+    "bytes": 11099,
+    "sha256": "6a57ec440f903f736d7f81bd521d995c8a45eacfb0e211715ac4124e796a791f"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-bump-cell-residual-screen.py",
+      "bytes": 11099,
+      "sha256": "6a57ec440f903f736d7f81bd521d995c8a45eacfb0e211715ac4124e796a791f"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_seed_native_field.py",
+      "bytes": 5488,
+      "sha256": "3604594821587e368954434c667455b34452d7e4107476a74fca2f754163eba5"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bump_native_field.py",
+      "bytes": 10177,
+      "sha256": "4e3be8c41631803a767447863c11c55ed7c96b5108ad939ee50192ef9fd9dd74"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_three_field_residual.py",
+      "bytes": 7963,
+      "sha256": "56839e28ef149c83a7c4b2410a41263368ea67d673cbcb2d7a3b0d9a6f61a627"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    }
+  ],
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-joint02-accepted-0020.npz",
+    "bytes": 39331,
+    "sha256": "2bf2d98aaa6c57752a78aeabf96a4d5541528c998b669b59fc139556203f1a22"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "actual_definition": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-definition.json",
+    "bytes": 14317,
+    "sha256": "ae70ae8b602b985905969b8a5f21b4ac0334c5df9288b9b1a74d2d28421e26f3"
+  },
+  "statistics": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-cell-statistics.npz",
+    "bytes": 89981,
+    "sha256": "ee293ed80af474ac95f697263b09e8cfa034c2a79149c708a8acc5016c0ecc21"
+  },
+  "components": [
+    "G",
+    "Rn",
+    "Rm"
+  ],
+  "node_count": 99,
+  "angular_points": 512,
+  "maximum_retained_frequency": 30,
+  "angular_sampling": "xi=2*pi*j/N; values interpreted through actual U(s,xi)",
+  "radial_sampling": {
+    "fractions": [
+      0.0,
+      0.21132486540518708,
+      0.25,
+      0.5,
+      0.75,
+      0.7886751345948129,
+      1.0
+    ],
+    "endpoints": "One-sided slopes of the same P1 cell"
+  },
+  "maxima": {
+    "G": {
+      "maximum": 3.2198685612689175,
+      "signed_value": 3.2198685612689175,
+      "cell": 77,
+      "endpoints": [
+        0.9999009653163169,
+        1.0063875006087684
+      ],
+      "fraction": 0.21132486540518708,
+      "s": 1.00127173151394,
+      "xi": 0.0,
+      "material_u": 0.0,
+      "n_m_l": [
+        1.3216484662287442,
+        0.0,
+        -0.4167362516677983
+      ],
+      "a": 1.092250194383224,
+      "a_s": 0.25154662592046045,
+      "a_ss": 4.118490343703349,
+      "retained_at_same_point": 3.2209073862770974,
+      "omitted_at_same_point": -0.0010388250081798667,
+      "retained_max_at_same_radial_point": 3.2209073862770974,
+      "omitted_max_at_same_radial_point": 0.002076587985227807
+    },
+    "Rn": {
+      "maximum": 11.717323695136491,
+      "signed_value": -11.717323695136491,
+      "cell": 92,
+      "endpoints": [
+        1.3623100589518538,
+        1.399634787656641
+      ],
+      "fraction": 1.0,
+      "s": 1.399634787656641,
+      "xi": 3.5465635815916023,
+      "material_u": 3.5465635815916023,
+      "n_m_l": [
+        -0.025543041066044957,
+        -0.6885899833792813,
+        -5.860880726919613
+      ],
+      "a": 0.888795213010782,
+      "a_s": -0.9945719660760765,
+      "a_ss": 0.2799167540019055,
+      "retained_at_same_point": -11.717561311017498,
+      "omitted_at_same_point": 0.0002376158810069029,
+      "retained_max_at_same_radial_point": 11.717561311017498,
+      "omitted_max_at_same_radial_point": 0.0039748218547934755
+    },
+    "Rm": {
+      "maximum": 86.45294940818243,
+      "signed_value": 86.45294940818243,
+      "cell": 94,
+      "endpoints": [
+        1.428803983007385,
+        1.457973178358129
+      ],
+      "fraction": 1.0,
+      "s": 1.457973178358129,
+      "xi": 0.3313398501832985,
+      "material_u": 0.3313398501832985,
+      "n_m_l": [
+        -0.05518288836400262,
+        -0.14678524282964228,
+        0.30876253758541194
+      ],
+      "a": 0.8308932672246284,
+      "a_s": -0.9927564225474691,
+      "a_ss": 0.015196772323996443,
+      "retained_at_same_point": 86.45275878521996,
+      "omitted_at_same_point": 0.00019062296247795985,
+      "retained_max_at_same_radial_point": 86.45275878521996,
+      "omitted_max_at_same_radial_point": 0.0010134070586715893
+    }
+  },
+  "connection_norm_peak": {
+    "maximum": 74.30731126529888,
+    "cell": 94,
+    "fraction": 0.0,
+    "s": 1.428803983007385,
+    "xi": 0.3313398501832985,
+    "material_u": 0.3313398501832985,
+    "vector": [
+      2.0943860428956147,
+      -74.27762638258916,
+      0.15579971063054365
+    ]
+  },
+  "quadrature_diagnostics": {
+    "G": {
+      "trapezoid": {
+        "maximum": 0.7053409669315938,
+        "cell": 1,
+        "endpoints": [
+          0.04,
+          0.08
+        ]
+      },
+      "gauss2": {
+        "maximum": 3.2051933184495436,
+        "cell": 77,
+        "endpoints": [
+          0.9999009653163169,
+          1.0063875006087684
+        ]
+      },
+      "gauss2_minus_trapezoid": {
+        "maximum": 3.0977582846418317,
+        "cell": 77,
+        "endpoints": [
+          0.9999009653163169,
+          1.0063875006087684
+        ]
+      },
+      "interior_deviation_from_trapezoid": {
+        "maximum": 3.1110621590815604,
+        "cell": 77,
+        "endpoints": [
+          0.9999009653163169,
+          1.0063875006087684
+        ]
+      }
+    },
+    "Rn": {
+      "trapezoid": {
+        "maximum": 0.26162712891410483,
+        "cell": 81,
+        "endpoints": [
+          1.0637122293135557,
+          1.101036958018343
+        ]
+      },
+      "gauss2": {
+        "maximum": 0.7419115240474919,
+        "cell": 66,
+        "endpoints": [
+          0.7100900479010347,
+          0.7494533972013798
+        ]
+      },
+      "gauss2_minus_trapezoid": {
+        "maximum": 0.6756382841960787,
+        "cell": 63,
+        "endpoints": [
+          0.6313633493003443,
+          0.6707266986006896
+        ]
+      },
+      "interior_deviation_from_trapezoid": {
+        "maximum": 11.615119789522648,
+        "cell": 92,
+        "endpoints": [
+          1.3623100589518538,
+          1.399634787656641
+        ]
+      }
+    },
+    "Rm": {
+      "trapezoid": {
+        "maximum": 0.20916995736614785,
+        "cell": 7,
+        "endpoints": [
+          0.28,
+          0.32
+        ]
+      },
+      "gauss2": {
+        "maximum": 0.9522419070427368,
+        "cell": 94,
+        "endpoints": [
+          1.428803983007385,
+          1.457973178358129
+        ]
+      },
+      "gauss2_minus_trapezoid": {
+        "maximum": 0.986500188813455,
+        "cell": 94,
+        "endpoints": [
+          1.428803983007385,
+          1.457973178358129
+        ]
+      },
+      "interior_deviation_from_trapezoid": {
+        "maximum": 86.41869112641172,
+        "cell": 94,
+        "endpoints": [
+          1.428803983007385,
+          1.457973178358129
+        ]
+      }
+    }
+  },
+  "sampled_n_minimum": -0.15586990379833354,
+  "sampled_formal_curvature_maximum": 7.216775466790053,
+  "progress": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-bump-joint02-accepted20-cell-screen-01-progress.jsonl",
+    "bytes": 15732,
+    "sha256": "8101bd49faa39fe9956be4651dc20c98d05f7a5c85272aaf556872a257e5ef6c"
+  },
+  "seconds": 174.93983905599998,
+  "actual_field_bytes_unchanged": true,
+  "sources_unchanged": true,
+  "continuous_certificate": false,
+  "body_integration_run": false,
+  "nonlinear_solve_performed": false,
+  "quadrature_is_fixed_xi_not_fixed_material_u": true,
+  "scope": "Full finite samples of the saved P1 field. Low/high refers to the same retained parity basis. Neither sample maxima nor Gauss2/trapezoid differences are continuous error bounds."
+}

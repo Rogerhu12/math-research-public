@@ -1,0 +1,70 @@
+{
+  "schema": "fd2d-R201-R205-amplitude-continuation-02-03-closed-v1",
+  "artifacts": [
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-02-checkpoint.json",
+      "bytes": 56488,
+      "sha256": "7be029b00c765ffa6a80c6d4fd3869252953b93f5651f53f2642c059e8392811",
+      "commit": "07abde46ba430a4c5dedafd61f5d650f6028dca1"
+    },
+    {
+      "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-03-checkpoint.json",
+      "bytes": 56485,
+      "sha256": "3cf7442194a6b74fe6bccb84805fef797e71c7be4a3f75632d87db1bdef3eca5",
+      "commit": "fd49361f31e6aa8e4ab1c8aca20d5916b901d59f"
+    }
+  ],
+  "parent_group": {
+    "path": "notes/2026-11-13-fd2d-R201-R205-amplitude-01-closed-manifest.json",
+    "sha256": "772400a908aa0fa50f5ea773b34ecf1d5339113c4e8e6b13085baa26522da206",
+    "commit": "7e6f750d0592b59ce83b1db8f3e0d62b4ec36b3b"
+  },
+  "sourceUnchanged": true,
+  "all932UnknownsAndOriginalWeightsRetained": true,
+  "actual": [
+    {
+      "iteration": 2,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "seconds": 120.199,
+      "normalSeconds": 91.982,
+      "R2": 0.020643811315998902,
+      "amplitude": 0.13122051200439735,
+      "alpha": 1,
+      "lambda": 0.0011111111111111111,
+      "nextLambda": 0.00037037037037037035,
+      "maxMetric": 0.4246245752815052,
+      "maxKappa": 22.32336811847813,
+      "originalEquationRelativeResidual": 3.1338902255142523e-16
+    },
+    {
+      "iteration": 3,
+      "accepted": true,
+      "status": "actual_Armijo_accepted",
+      "seconds": 119.872,
+      "normalSeconds": 92.992,
+      "R2": 0.01956949507342286,
+      "amplitude": 0.16913583696809184,
+      "alpha": 1,
+      "lambda": 0.00037037037037037035,
+      "nextLambda": 0.0037037037037037034,
+      "maxMetric": 0.44546823112025813,
+      "maxKappa": 19.808905321658045,
+      "originalEquationRelativeResidual": 1.660900609549209e-15
+    }
+  ],
+  "execution": {
+    "runtime": "functions pure V8",
+    "cells": [
+      "g4:89",
+      "g4:91"
+    ],
+    "bothCompleted": true,
+    "OS_subprocess_started": false,
+    "OS_exit_code": null
+  },
+  "APIjournal": [],
+  "strongTargetComplete": false,
+  "continuousCertificate": false,
+  "scope": "Actual nonlinear Armijo accepted candidates; maximum sampled metric/curvature still fail the goal; all state coefficients and complete source/target definitions are saved."
+}

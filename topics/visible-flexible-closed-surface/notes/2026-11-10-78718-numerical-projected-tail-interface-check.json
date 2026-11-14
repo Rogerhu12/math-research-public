@@ -1,0 +1,30 @@
+{
+  "scope": "Check E/P boundary differentiation, including both scalar mean rows.\n\nSmall linear response with exactly representable binary data; no DN or BVP.\nThe forward view is differentiated independently of its supplied Jacobian.\n",
+  "source": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-projected-tail.py",
+  "source_sha256": "77279b7b6991494abe71be82a45b8f5946fa6fbdef608cefe6746e24d08eeb72",
+  "cases": [
+    {
+      "prefix_modes": 3,
+      "tail_modes": 5,
+      "forward_derivative_exact_difference": 0.0,
+      "both_mean_rows_preserved": true,
+      "all_high_target_modes_zero": true
+    },
+    {
+      "prefix_modes": 15,
+      "tail_modes": 22,
+      "forward_derivative_exact_difference": 0.0,
+      "both_mean_rows_preserved": true,
+      "all_high_target_modes_zero": true
+    },
+    {
+      "prefix_modes": 22,
+      "tail_modes": 22,
+      "forward_derivative_exact_difference": 0.0,
+      "both_mean_rows_preserved": true,
+      "all_high_target_modes_zero": true
+    }
+  ],
+  "solver_calls": 0,
+  "tail_calls": 0
+}

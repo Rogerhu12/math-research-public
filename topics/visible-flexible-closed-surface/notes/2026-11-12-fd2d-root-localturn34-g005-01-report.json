@@ -1,0 +1,172 @@
+{
+  "schema": "fd2d-circle-m2-T-gap-nonlinear-prefix-linear-tail-design-v1",
+  "scope": "Small noncircular branch: physical coast T + actual central gap.\n\nThe central base is the exact radius-a0 circle in the certified fixed\nbalanced chart.  An actual complete m2 trajectory supplies the initializer.\nT is an OUTER metric-design variable, so this is not same-g refinement.\nThis entry uses a labelled finite LINEAR curvature tail starter.  Genuine\nnonlinear DN responses and full cut/metric/geometry validation remain to do.\nEvery accepted finite Newton state is saved as its own immutable package.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d-gc-bvp-design-start.py",
+    "bytes": 17212,
+    "sha256": "679952f127ecf5a6ea5c694bcaf0ab03e9d2ff11ccc9d26cee91233823e8fb54"
+  },
+  "candidate_input": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/outputs/2026-11-12-fd2d-root-localturn34-01-candidate.json",
+    "bytes": 36113,
+    "sha256": "41634c364ac309cc97a46f51498365174660eedb5a5e1cda52477db03427b43d"
+  },
+  "linear_tail": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/notes/2026-11-12-fd2d-layered64-wc01-linear47-01.json",
+    "bytes": 33067,
+    "sha256": "46f6eae7edf2d9a4a37b0e741f6b00540fe7bb24faaf5707fa1c25855291a345"
+  },
+  "linear_trajectory": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/outputs/2026-11-12-fd2d-root-localturn34-01-trajectory.npz",
+    "bytes": 339333,
+    "sha256": "2f24b1610838736209c38bae5aa5d7a27034ba7aaf2caf76b69a9d4251c1cd55"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_design_profile.py",
+      "bytes": 5719,
+      "sha256": "57d855da11d49c1336c6897e355562d265e28861711fa9b59381adde283d6c21"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_design_flow.py",
+      "bytes": 4581,
+      "sha256": "97beebb06c46d81848713c3f461f6c892f94adf755dc84fe0736f807eb4f4aa0"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_design_ports.py",
+      "bytes": 2597,
+      "sha256": "a4ad3433d2afe385b69b93813cb89760d312ab7d4b470a2e9b37ad74789549a2"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_bvp_newton.py",
+      "bytes": 3509,
+      "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_logshape_stable.py",
+      "bytes": 1192,
+      "sha256": "c2107c094f673d38006111f1ab9b802267ff6a4974e656e8615543b3d959e580"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_logshape.py",
+      "bytes": 5005,
+      "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_gc_intrinsic.py",
+      "bytes": 15291,
+      "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_partial_return_parameter.py",
+      "bytes": 6682,
+      "sha256": "fe3bb8e239ab67c73ee6f217bc9dff67e6e03d1cc2553263ac4579b518b4d7ca"
+    },
+    {
+      "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    }
+  ],
+  "nonlinear_tail_solved": false,
+  "closed_surface": false,
+  "physical_metric_frozen_for_refinement": false,
+  "maximum_mode": 95,
+  "intrinsic_dimension": 95,
+  "angular_grid": 384,
+  "initial_nodes": 137,
+  "maximum_nodes": 1400,
+  "tolerances": {
+    "collocation": 2e-05,
+    "boundary": 2e-10
+  },
+  "angular_chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.4
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "radial_chart": {
+    "kind": "coast-T-outer-physical-design-with-smooth-radial-chart",
+    "reference_T": 0.2106180371449604,
+    "actual_T": 0.2106180371449604,
+    "physical_T_domain": [
+      0.0,
+      0.5449506114731018
+    ],
+    "computational_endpoint": 1.5607314855666952,
+    "actual_physical_endpoint": 1.5607314855666952,
+    "minimum_s_x": 1.0,
+    "changing_coasts": [
+      85,
+      87
+    ],
+    "coast_map": "s=s0(T)+L_ref*tau+(L(T)-L_ref)*(10*tau^3-15*tau^4+6*tau^5)",
+    "other_piece_map": "s=s0(T)+L*tau",
+    "physical_metric_changes_with_T": true,
+    "radial_chart_is_only_a_coordinate_change_at_each_fixed_T": true,
+    "future_chart_recenter_is_not_a_physical_parameter_restriction": true
+  },
+  "initialization": {
+    "epsilon": 0.025,
+    "full_linear_maximum_eta": 20.67634732207519,
+    "full_linear_maximum_zeta": 29.31092820583594,
+    "initial_relative_eta_bound": 0.5169086830518798,
+    "initial_relative_zeta_bound": 0.7327732051458985,
+    "trajectory_radial_points": 4417,
+    "trajectory_u_field_is_piece_tau_not_material_angle": true,
+    "first_worker_height": -0.0056877308122345455,
+    "central_basis_projection_difference": 2.0816681711721685e-17
+  },
+  "initial": {
+    "T": 0.2106180371449604,
+    "A": 1.0287054109102582,
+    "B": 0.9787133809581148,
+    "gap": 0.04999202995214349,
+    "gap_target": 0.05,
+    "boundary_maximum": 0.0001594009571302148,
+    "omitted_eta_mean": 0.0,
+    "omitted_n_mean": -2.117582368135751e-22,
+    "all_cut_curvature_coefficients_maximum": 6.1846430052052455e-18,
+    "core_parameter_l1": 0.12464945455895429,
+    "maximum_worker_height": 0.0056877308122345455,
+    "minimum_n_grid": 0.145957913414284,
+    "maximum_eta": 0.5082906015945112,
+    "maximum_zeta": 0.7314821598207923,
+    "minimum_radial_scale": 1.0,
+    "tail": {
+      "scope": "Finite LINEAR tail curvature graph at the actual frozen cut; nonlinear tail not solved.",
+      "minimum_n": 0.1990074380411984,
+      "maximum_m": 0.13650553949203884,
+      "nonlinear_tail_solved": false,
+      "height_to_curvature": "worker h=-g; dn=(k^2-rD)/(r^2*v)*h*cos(k*u), dm=k*(rD-1)/r^2*h*sin(k*u)"
+    }
+  },
+  "central_exact_means": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/notes/2026-11-12-fd2d-balanced-weighted-means-01.json",
+    "bytes": 203694,
+    "sha256": "bc7c9cb98a4f06dd719b9d9f95cd333cb983e1a33aed0224970e75f583a34023"
+  },
+  "central_exact_moments": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/visible-flex-gc-localturn01/topic/notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+  },
+  "native_state_representation": "eta=log(n/n_ref), zeta=m/n_ref; real cosine/sine amplitudes"
+}

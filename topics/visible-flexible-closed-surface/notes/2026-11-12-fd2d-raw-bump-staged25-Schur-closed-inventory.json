@@ -1,0 +1,58 @@
+{
+  "schema": "fd2d-reproducible-saved-Schur-inventory-v1",
+  "packet_manifest": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/reduced-factors/lambda1e7-block-a01/packet/manifest.json",
+    "bytes": 262794,
+    "sha256": "03412f96a6803bd1cde7c5e09b1b8ea749c215ff5418a3a47a5415182149fc28"
+  },
+  "packet_parts": [
+    {
+      "name": "part-0000.npz",
+      "bytes": 688999,
+      "sha256": "0b0d74f724b1a6e46c1b6d5f8a78df5196ca6da8b24100eaa2d2fabcda5c57e9"
+    },
+    {
+      "name": "part-0001.npz",
+      "bytes": 688365,
+      "sha256": "7926a7079388ba945cc89bbc8c741ba76456fb4171c1b772b47df2e5a613fe27"
+    },
+    {
+      "name": "part-0002.npz",
+      "bytes": 688657,
+      "sha256": "c9e1e141504a09502474fd5bea86294f5a33e6e165bcf0a27e0b37dcd74f677d"
+    },
+    {
+      "name": "part-0003.npz",
+      "bytes": 688168,
+      "sha256": "bd2142524b851769143adb0dd80331c7ec4938363ab201da3d2a0921d6645f8d"
+    },
+    {
+      "name": "part-0004.npz",
+      "bytes": 689102,
+      "sha256": "65b52654897c3786a821d40fef9c7bb1f66bf3d0ce0150c8da0416bc695e8da3"
+    },
+    {
+      "name": "part-0005.npz",
+      "bytes": 694116,
+      "sha256": "70eaca25eb931a812fc92db6642e51abf03e2267e0a6ab97089a3513e3df54c6"
+    },
+    {
+      "name": "part-0006.npz",
+      "bytes": 611254,
+      "sha256": "348225b5e45cefe001bb2b1a8e921341b4713e120e3fe3a93903b9408bda7d73"
+    },
+    {
+      "name": "part-0007.npz",
+      "bytes": 85716,
+      "sha256": "332eb3ab12a2d6ce4ea642d2c0f65fb996d83fc9fa4ccf09c61e4767e7eba35e"
+    }
+  ],
+  "summary": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-staged25-work/reduced-factors/lambda1e7-block-a01/summary.json",
+    "bytes": 49572,
+    "sha256": "795f9e2adc6ea039e533f0d914518b9105bf8c7972a32b0bd90c23820dcfc497"
+  },
+  "complete_local_packet_preserved": true,
+  "published_full_matrix_data": false,
+  "reason": "The full original normal is already published as an exact capsule; this factor is reproduced by the frozen block entry in the observed 19.1486 seconds. Preserve source, identity, evidence, actual direction and accepted state instead of duplicating all factor arrays."
+}

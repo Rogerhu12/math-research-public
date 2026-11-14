@@ -1,0 +1,101 @@
+{
+  "status": "INDEPENDENT_EXACT_RECONSTRUCTION_PASS",
+  "checker_sha256": "873cb4589717bdd5863f2a678ca4b8109bb8c71ad5f8a79389800c7010e8a1bf",
+  "inputs": [
+    {
+      "path": "notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.md",
+      "bytes": 4616,
+      "sha256": "0b3ad1fcdf31af4653547ae5d9d2bba520096210887f5ff24adf4f1ed7a2531f"
+    },
+    {
+      "path": "scripts/db6f-root-positive-support-kernel-obstruction.py",
+      "bytes": 3378,
+      "sha256": "56ae6c786589dfdbf9ed0acb4dcf7e1d0a9a17ee444f309e0c761e17623582cc"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-root-positive-support-kernel-obstruction.json",
+      "bytes": 2054,
+      "sha256": "eb163aacdf57abb4511838753a3effec7b582ddc8ee27f9f3120d65483bc38c4"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-support-kernel-replay.json",
+      "bytes": 2054,
+      "sha256": "eb163aacdf57abb4511838753a3effec7b582ddc8ee27f9f3120d65483bc38c4"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-prefix-c3-poisson-bounds.json",
+      "bytes": 28270,
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    }
+  ],
+  "independent_method": "Rebuild H from R27; obtain both L endpoints by 122 rational bisections; interval-evaluate vector q and affine center; no author functions imported.",
+  "H_interval": [
+    {
+      "numerator": "296663669267",
+      "denominator": "250000000000"
+    },
+    {
+      "numerator": "1186677994999",
+      "denominator": "1000000000000"
+    }
+  ],
+  "L_interval": [
+    {
+      "numerator": "1590733478037657874993896930713546301",
+      "denominator": "664613997892457936451903530140172288"
+    },
+    {
+      "numerator": "3181528423635277851847395898190540045",
+      "denominator": "1329227995784915872903807060280344576"
+    }
+  ],
+  "reconstructed_center": {
+    "x_lower": {
+      "numerator": "-330751352276244002750079234316972705655311121",
+      "denominator": "8689535024495478473727410501248743750000000000"
+    },
+    "x_upper": {
+      "numerator": "-908009468318745288726185732347058556453572868793",
+      "denominator": "23861002170564868124908453960703194515000000000000"
+    },
+    "y": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "z_lower": {
+      "numerator": "34617578467274897867345170909252322293",
+      "denominator": "1193050108528243406245422698035159725750"
+    },
+    "z_upper": {
+      "numerator": "69236693623548848281180392737590830661",
+      "denominator": "2386146317726458388885546923642905033750"
+    }
+  },
+  "center_squared_norm_upper_matches_author": {
+    "numerator": "326069427247369695381032191017544434467943483406637538195984487100051062885987268460845977971689",
+    "denominator": "142342356239988412692843621088614516625170187709590856706259354623027215976562500000000000000000000"
+  },
+  "independent_coarse_bound": {
+    "numerator": "2421",
+    "denominator": "1000000"
+  },
+  "coarse_gap_to_one_over_400": {
+    "numerator": "79",
+    "denominator": "1000000"
+  },
+  "source_endpoints_reconstructed": 4,
+  "center_fields_reconstructed": 5,
+  "author_and_replay_report_byte_hashes_equal": true,
+  "scope": "Excludes the stated global radial support threshold only; does not exclude reach by another argument.",
+  "candidate_or_solver_calls": 0
+}

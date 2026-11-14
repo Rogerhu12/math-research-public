@@ -1,0 +1,54 @@
+{
+  "schema": "db6f-closed-publication-v1",
+  "author": "/root/coupled_prefix",
+  "scope": "New true M14 W14 selector/preparer/read-only auditor and pure preparation only; no BVP/DN or future positive fixture",
+  "files": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+      "bytes": 17329,
+      "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14.py",
+      "bytes": 8709,
+      "sha256": "de3ce21bdc49880a7057a7e3fdd1737a18cc23f5b5a5ffce44b4b881fab5d7ff"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+      "bytes": 22244,
+      "sha256": "1aa5e53985b5574dee68a032aa84ac47aa43e9aa8bd185b4af8650b618dcf0fa"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-implementation.md",
+      "bytes": 11530,
+      "sha256": "0bb461fe3e07bb6cd42e663135dfb4c8ccfadedb77d3fb72020b3a6b900bf75c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+      "bytes": 63007,
+      "sha256": "710fbd942be28cc67bddcc511d3e01a1bcc9de77adc5e7fea91f69adb5562666"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-config.json",
+      "bytes": 2688,
+      "sha256": "6517f02126a992376639c4e89fcb55b0793633967568fba837ec84e790eb8c5f"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-preparation.json",
+      "bytes": 3250,
+      "sha256": "cbbc930db0b20bc810fc70d4f489814e39f70166eccc5ef1211661274fda0ebd"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-observed-preparation.json",
+      "bytes": 4340,
+      "sha256": "fd07583a9562909072adadd699a3eaf28b227c84a58d76206fd67f7cbf4107d9"
+    }
+  ],
+  "file_count": 8,
+  "total_bytes": 133097,
+  "excluded": [
+    "All continuation03 and linear-DN pilot active or closing outputs",
+    "Any future true M14 solver output",
+    "Any affine01 actual output or inferred success"
+  ]
+}

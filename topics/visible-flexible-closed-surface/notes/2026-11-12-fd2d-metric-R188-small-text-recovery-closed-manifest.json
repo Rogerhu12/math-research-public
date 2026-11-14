@@ -1,0 +1,71 @@
+{
+  "schema": "fd2d-R188-small-text-recovery-closed-manifest-v1",
+  "closed": true,
+  "kind": "Recovered exact consumer source, complete proof, and actual completion observation",
+  "reason": "Fourth execution-environment loss after a genuinely completed Node computation; small UTF8 recovery authorized under root README section 8.",
+  "files": [
+    {
+      "path": "scripts/fd2d_R188_exact_quarter_primitive.cjs",
+      "bytes": 11478,
+      "sha256": "5c04a135eed859a6d6d583877e53681cdc1dddc6102c913152adfc1913a9f97e",
+      "source_identity_preserved": true,
+      "api_commit": "8bb18c986ee0b50a5cdb98b7e7a4b1d8cc59b357"
+    },
+    {
+      "path": "results/R188-quarter-periodic-primitives-and-certified-cell-integration.md",
+      "bytes": 12664,
+      "sha256": "a2c3b7caccf362a19bc8ff11a794508cf75ce39d94a92014b8197f79a0c47434",
+      "already_persisted_commit": "84ce7d7976e2fd2433f9f35708dff37f8f3adc88"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-exact-quarter-consumer-recovery.md",
+      "bytes": 6161,
+      "sha256": "e2a4d25eb17158218d7105d12069bc7e3c2065c3dc0bb601e5a3e5486106b772",
+      "new_recovery_text": true,
+      "github_blob_sha1": "0441500d25cd7117a3eb23201316612b3f436016"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-recovered-observation-01.json",
+      "bytes": 3248,
+      "sha256": "cef6249571023c0cb434693a573bf1f129e44807cc532889f65333b0d2732bb5",
+      "new_observation_summary_not_original_report": true,
+      "api_commit": "471d720a9ddd50f939dc411d6043ec6384981b4d"
+    }
+  ],
+  "actual_completion": {
+    "session_id": 19106,
+    "final_chunk": "fd5a38",
+    "exit_code": 0,
+    "seconds": 38.02164778199949,
+    "peak_child_rss_KiB": 84964,
+    "integral_components": 21,
+    "maximum_strict_interval_width_display": 2.270317215141131e-15
+  },
+  "pending_original_files": [
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-report.json",
+      "bytes": 14492,
+      "sha256": "33493d898ce6cfb4067254e1c74b714a7cfe42ff3964e31bee025e7e9a56a043"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-process-receipt.json",
+      "bytes": 1491,
+      "sha256": "c21f0d372b5d83cf47fd11ee55034f3cb44e3abcbc1ef3f58f3940092be650e2"
+    },
+    {
+      "path": "scripts/fd2d-metric-R188-quarter-primitive-check.py",
+      "sha256": null,
+      "reason": "Original bytes not fully read before outage."
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-stdout.json",
+      "sha256": null
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R188-quarter-primitive-02-stderr.txt",
+      "sha256": null
+    }
+  ],
+  "no_reexecution_claim": true,
+  "no_main_state_certificate_claim": true
+}

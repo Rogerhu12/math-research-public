@@ -1,0 +1,140 @@
+{
+  "schema": "fd2d-R171-accurate-radial-profile-closed-manifest-v1",
+  "closed": true,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_r136_arb_profile.py",
+      "bytes": 32315,
+      "sha256": "7bcc33f75b3c3264934110c71c549e18d7ad92cb2681a317980e3844c72323c6"
+    },
+    {
+      "path": "scripts/fd2d-metric-r136-profile-packet.py",
+      "bytes": 11619,
+      "sha256": "b4aea52fa04314064d37e6b1f556f38a4c8ab5c8ec947696281f1cdd0b7d83d5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-report.json",
+      "bytes": 452505,
+      "sha256": "c11f79bf403aa5a1cd4ed1bb58989c51710f41f3a75481bc09576089ace7e2e6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-packet.json.gz",
+      "bytes": 381511,
+      "sha256": "7bedd394db9ab0fc3b1d3186c49225ae8f7765ca6d28a80560aeb8842a26ee7c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-queries.json.gz",
+      "bytes": 112738,
+      "sha256": "f7090bcd9a6bd321fd5589eea7900098d7f5ad544b91ef4a5b2d1f08afd8e142"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile-01-completion-receipt.json",
+      "bytes": 1610,
+      "sha256": "305acb68bb66d6367aadd3bba05d013a7d6c02566a382f1dd4c8576d10f6f8d5"
+    },
+    {
+      "path": "results/R171-accurate-radial-profile-and-one-sided-Arb-jets.md",
+      "bytes": 15393,
+      "sha256": "d31cdabbc9538592bf820f26a54ee4040b91e308050c0372212598e9d850794c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-r136-arb-profile.md",
+      "bytes": 5334,
+      "sha256": "b64c0251c2b5c2bb421a091f5d2eba9588a21b800a9eeb513b38c569584d0cde"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+      "bytes": 8881,
+      "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-peak-spacer34-radius-certificate-02.json",
+      "bytes": 136549,
+      "sha256": "3c9fa775b8cb94b93c1a39fc7ab68814c0efa271812271d3e5183d030b7d3695"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+      "bytes": 130600,
+      "sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f"
+    },
+    {
+      "path": "scripts/fd2d_gc_archive_arrays.py",
+      "bytes": 4139,
+      "sha256": "a2727d5c0a7cf0fea298ac6d055025b515fcaf1feab81f69eb1c29ea2afa6eea"
+    },
+    {
+      "path": "scripts/fd2d_gc_current_native_interval.py",
+      "bytes": 23311,
+      "sha256": "8f4836a3926ce9f2e25d034b1b5489a3a719db38110458ef8267edcba326d6b1"
+    },
+    {
+      "path": "scripts/fd2d_frozen_ellipse_candidate.py",
+      "bytes": 17904,
+      "sha256": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30"
+    },
+    {
+      "path": "scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-current-native-interval-closed-manifest-01.json",
+      "bytes": 4393,
+      "sha256": "95ac83b124b279fb9efa6e38b17e6a4c8104f7e1192db239591b4f349d9c754f"
+    },
+    {
+      "path": "results/R136-peak-spacer-prefix-continuous-radius-and-outer-design-domain.md",
+      "bytes": 11652,
+      "sha256": "31ab42b05f581aa204b469b7f74d209f2b5e9cd13d4366d4e0c6deebbcded8ad"
+    }
+  ],
+  "result": "results/R171-accurate-radial-profile-and-one-sided-Arb-jets.md",
+  "mathematical_target_binding_sha256": "174ce735894c493f545295fe9f32c25de8b5e8aced2b4142df8e92fa08462794",
+  "actual_input_sha256": "2b65810c5c09985d54544e6ca697ee609f066a17ecbce4b83e89adad0b52ae6f",
+  "actual_run": {
+    "session_id": 87589,
+    "initial_chunk_id": "3ee9be",
+    "completion_chunk_id": "f951e0",
+    "observed_exit_code": 0,
+    "seconds": 1.933955775002687,
+    "peak_rss_kib": 90720
+  },
+  "coverage": {
+    "raw_pieces": 61,
+    "phase_branches": 14,
+    "shared_two_jet_interfaces": 60,
+    "physical_bumps": 7,
+    "finite_runtime_same_point_queries": 130,
+    "accurate_cut_label": true,
+    "exact_rational_shift": "7/50"
+  },
+  "exact_scalar_domain": "accurate R136 phase-integral S; old saved last number remains a separate numerical endpoint label",
+  "indexed_by_parent_authorization": true,
+  "shared_index": "results.md; only the R171 entry added; the full shared file is not a frozen artifact",
+  "no_whole_F_J_BVP_frame_body_computation": true,
+  "whole_surface_certificate": false,
+  "unpaid": [
+    "complete continuous affine/reference/angular-atlas field packets",
+    "explicit finite-field coverage at the accurate physical endpoint",
+    "actual initial compatibility, primitive remainder and full surface geometry"
+  ],
+  "reproduction_command": [
+    "python",
+    "scripts/fd2d-metric-r136-profile-packet.py",
+    "--field",
+    "notes/2026-11-12-fd2d-raw-bump-grouped27-trial-back00-a01-accepted.npz",
+    "--out-prefix",
+    "notes/2026-11-12-fd2d-metric-r136-arb-profile-01",
+    "--precision",
+    "256",
+    "--order",
+    "24"
+  ]
+}

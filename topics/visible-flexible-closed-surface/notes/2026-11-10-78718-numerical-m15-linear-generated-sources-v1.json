@@ -1,0 +1,578 @@
+{
+  "schema": "78718-m15-linear-source-derivation-v1",
+  "status": "SOURCES_GENERATED_ONLY_NO_NUMERICAL_RUN",
+  "builder": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-build-m15-linear-entry-v1.py",
+    "bytes": 13490,
+    "sha256": "96030b115331c53e352764401002f302214c6dacbcad08ae7abcc60d7e3dc7dc"
+  },
+  "files": [
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-linear-continuation-client-v2.py",
+        "bytes": 34350,
+        "sha256": "6d278d78e275df2e0e66db3eb0edb592321fecc22c1c229eacd53f5869166d15"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-linear-m15q512-v1.py",
+        "bytes": 34790,
+        "sha256": "3ff7fe2810f15ee7f352d49739a38d5c42bbaf8980ec78c8c66a429faa35624e"
+      },
+      "literal_edits": [
+        {
+          "before": "Bounded physical-height continuation around the FROZEN original DN client.",
+          "after": "New M15/N512 identity for the frozen bounded physical-height DN control.",
+          "count": 1
+        },
+        {
+          "before": "'db6f-physical-height-continuation-v2'",
+          "after": "'78718-m15q512-physical-height-continuation-v1'",
+          "count": 1
+        },
+        {
+          "before": "'steps': 32, 'quadrature': 256, 'maxIterations': 36,",
+          "after": "'steps': 32, 'quadrature': 512, 'maxIterations': 36,",
+          "count": 1
+        },
+        {
+          "before": "        require(canonical(without_io(self.seed['config'])) == canonical(without_io(self.cfg)),\n                'Bootstrap config differs beyond the original five I/O keys')",
+          "after": "        require(self.seed['config']['quadrature'] == 256 and self.cfg['quadrature'] == 512,\n                'Only the declared old-N256 to new-N512 warm transition is allowed')\n        require(canonical(dict(without_io(self.seed['config']), quadrature=512)) == canonical(without_io(self.cfg)),\n                'Bootstrap differs beyond five I/O keys and declared angular quadrature')",
+          "count": 1
+        },
+        {
+          "before": "            require(canonical(without_io(self.parameters)) == canonical(without_io(seed_parameters)),\n                    'New runtime/seed physical and numerical parameter identity changed')",
+          "after": "            require(seed_parameters['quadrature'] == 256 and self.parameters['quadrature'] == 512,\n                    'Wrong old/new angular quadrature in actual runtime parameters')\n            require(canonical(without_io(self.parameters)) == canonical(dict(without_io(seed_parameters), quadrature=512)),\n                    'New runtime changed a parameter outside the declared N512 warm transition')",
+          "count": 1
+        },
+        {
+          "before": "'db6f-linear-dn-closed-request-pilot-v2'",
+          "after": "'78718-m15q512-linear-dn-closed-request-pilot-v1'",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [
+        "Coordinator.__init__",
+        "Coordinator._accept",
+        "Coordinator._budget_used",
+        "Coordinator._cache_consistent",
+        "Coordinator._call",
+        "Coordinator._return",
+        "Coordinator.emit",
+        "Coordinator.solve",
+        "NumericalSubdivision.__init__",
+        "WeightedTailPort.M",
+        "WeightedTailPort._classify",
+        "WeightedTailPort._emit",
+        "WeightedTailPort._inspect",
+        "WeightedTailPort._persist_good",
+        "WeightedTailPort.calls",
+        "WeightedTailPort.close",
+        "WeightedTailPort.cut",
+        "WeightedTailPort.linearD",
+        "WeightedTailPort.proc",
+        "WeightedTailPort.ready",
+        "WeightedTailPort.solve",
+        "canonical",
+        "classify_original_failure",
+        "complete_trial_groups",
+        "digest",
+        "identity",
+        "int_value",
+        "number",
+        "read",
+        "require",
+        "same_height",
+        "validate_checkpoint",
+        "validate_response",
+        "vector",
+        "verify",
+        "without_io"
+      ],
+      "functions_AST_changed": [
+        "WeightedTailPort.__init__",
+        "pilot_main"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-linear-continuation-coupled-v2.py",
+        "bytes": 941,
+        "sha256": "c7598d48d695570b9fb8fbd0959ca382ed16e246125e05ddba7f757b9198ae43"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-flat-linear-m15q512-v1.py",
+        "bytes": 1174,
+        "sha256": "28391db54e8b40f9df3dbd00b9f23739b78c1c07c321ed64d932bcf2eac37a8f"
+      },
+      "literal_edits": [
+        {
+          "before": "HERE = Path(__file__).resolve().parent",
+          "after": "HERE = Path(__file__).resolve().parent\nOLD_HERE = Path('/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts')",
+          "count": 1
+        },
+        {
+          "before": "HERE / 'db6f-prefix-flat-coupled.py'",
+          "after": "OLD_HERE / 'db6f-prefix-flat-coupled.py'",
+          "count": 1
+        },
+        {
+          "before": "original_module = runner.module",
+          "after": "original_module = runner.module\nselected_control_module = None",
+          "count": 1
+        },
+        {
+          "before": "    file = Path(file)\n",
+          "after": "    global selected_control_module\n    file = Path(file)\n",
+          "count": 1
+        },
+        {
+          "before": "(HERE / 'db6f-prefix-tail-shared-client.py').resolve()",
+          "after": "(OLD_HERE / 'db6f-prefix-tail-shared-client.py').resolve()",
+          "count": 1
+        },
+        {
+          "before": "        return original_module(name, HERE / 'db6f-prefix-tail-linear-continuation-client-v2.py')",
+          "after": "        selected_control_module = original_module(name, HERE / '78718-prefix-tail-linear-m15q512-v1.py')\n        return selected_control_module",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [],
+      "functions_AST_changed": [
+        "controlled_module"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-restart8000-v1.py",
+        "bytes": 18738,
+        "sha256": "200792dbe56a84c2cf1b3954f3a4c73a060bab8579029612d16ffe2f162c9b30"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-m15-linear-v1.py",
+        "bytes": 19193,
+        "sha256": "33aaef9f6abb70c9e1eab6981d977dc16d5dfdb8740c969d773d6d2cbd9b6e81"
+      },
+      "literal_edits": [
+        {
+          "before": "New restart8000 / typed-code identity of the actual-DN M14 W14 runner.",
+          "after": "New M15/N512/W15 actual-DN runner with bounded physical-height continuation.",
+          "count": 1
+        },
+        {
+          "before": "ORIGINAL = HERE / 'db6f-prefix-flat-coupled.py'",
+          "after": "ORIGINAL = NEW_HERE / '78718-prefix-flat-linear-m15q512-v1.py'",
+          "count": 1
+        },
+        {
+          "before": "M = 14",
+          "after": "M = 15",
+          "count": 1
+        },
+        {
+          "before": "SETTINGS = {'modes': 14,",
+          "after": "SETTINGS = {'modes': 15,",
+          "count": 1
+        },
+        {
+          "before": "78718-prefix-restart8000-inputs-v1.py",
+          "after": "78718-prefix-m15-linear-inputs-v1.py",
+          "count": 1
+        },
+        {
+          "before": "78718-prefix-audit-restart8000-v1.py",
+          "after": "78718-prefix-audit-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "(HERE/'db6f-prefix-tail-shared-client.py','WeightedTailPort.solve')",
+          "after": "(NEW_HERE/'78718-prefix-tail-linear-m15q512-v1.py','WeightedTailPort.solve')",
+          "count": 1
+        },
+        {
+          "before": "(HERE/'db6f-prefix-tail-shared-client.py','WeightedTailPort.close')",
+          "after": "(NEW_HERE/'78718-prefix-tail-linear-m15q512-v1.py','WeightedTailPort.close')",
+          "count": 1
+        },
+        {
+          "before": "runner = module('spectral_true_original_flat_runner', ORIGINAL).m",
+          "after": "wrapper = module('spectral_true_m15_controlled_flat_runner', ORIGINAL)\n        runner = wrapper.runner",
+          "count": 1
+        },
+        {
+          "before": "            obj, checked = runtime_callbacks(fun, bc, kwargs, context)",
+          "after": "            obj, checked = runtime_callbacks(fun, bc, kwargs, context)\n            control_runtime = i.check_actual_control_module(wrapper.selected_control_module, launch)",
+          "count": 1
+        },
+        {
+          "before": "'physical_callbacks': checked,",
+          "after": "'physical_callbacks': checked, 'control_runtime_callbacks': control_runtime,",
+          "count": 1
+        },
+        {
+          "before": "                first_packet = Path(str(out) + '_tail_0001.json.gz')",
+          "after": "                good = read(launch['continuation_policy_fields']['last_good_file'])\n                require(good['policy_sha256'] == launch['continuation_policy']['sha256'], 'Wrong actual control policy')\n                first_packet = Path(good['packet']['path'])\n                verify(good['packet'])",
+          "count": 1
+        },
+        {
+          "before": "# Original equations, main, tail client, callback/outer/final gates remain.",
+          "after": "# Original equations/main/physical gates remain; the explicit new DN control is recorded.",
+          "count": 1
+        },
+        {
+          "before": "RESTART8000_FINITE_M14_COUPLED_PROGRAM",
+          "after": "M15_LINEAR_FINITE_COUPLED_PROGRAM",
+          "count": 3
+        },
+        {
+          "before": "Runtime W14 differs",
+          "after": "Runtime W15 differs",
+          "count": 1
+        },
+        {
+          "before": "Unexpected original fixed M14 callback owner",
+          "after": "Unexpected original fixed M15 callback owner",
+          "count": 1
+        },
+        {
+          "before": "# Explicit W14, release-LU",
+          "after": "# Explicit W15, release-LU",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [
+        "equal",
+        "expected_config",
+        "expected_parser_argv",
+        "module",
+        "restore_runtime_csc",
+        "runtime_csc",
+        "runtime_newton",
+        "runtime_original_newton",
+        "select_runtime_csc",
+        "select_runtime_newton",
+        "validate_inputs",
+        "without_io",
+        "write_json"
+      ],
+      "functions_AST_changed": [
+        "main",
+        "runtime_callbacks"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-restart8000-v1.py",
+        "bytes": 31955,
+        "sha256": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-m15-linear-v1.py",
+        "bytes": 32584,
+        "sha256": "fd41b9ef4c2eea648cbb1ab1c3b638e61bc41d97d99d9213ad0370c042ff147e"
+      },
+      "literal_edits": [
+        {
+          "before": "New read-only close audit for restart8000 and complete typed runtime code.",
+          "after": "New read-only M15/N512 close audit, full control replay and typed runtime code.",
+          "count": 1
+        },
+        {
+          "before": "78718-prefix-spectral-restart8000-v1.py",
+          "after": "78718-prefix-spectral-m15-linear-v1.py",
+          "count": 2
+        },
+        {
+          "before": "M, TOL = 14, 2e-9",
+          "after": "M, TOL = 15, 2e-9",
+          "count": 1
+        },
+        {
+          "before": "context['prior']['source_sha256'], 'Original shared eight-source identity differs'",
+          "after": "context['launch']['continuation_policy_fields']['source_sha256'], 'Actual nine-source continuation identity differs'",
+          "count": 1
+        },
+        {
+          "before": "len(record['source_sha256']) == 8, 'Expected eight original shared sources'",
+          "after": "len(record['source_sha256']) == 9, 'Expected eight original trial sources plus new continuation source'",
+          "count": 1
+        },
+        {
+          "before": "c.without_io(context['prior']['response']['checkpoint']['parameters'])",
+          "after": "c.without_io(context['expected_tail_parameters'])",
+          "count": 1
+        },
+        {
+          "before": "vector(response['heightJetJacobian'], 616)",
+          "after": "vector(response['heightJetJacobian'], 705)",
+          "count": 1
+        },
+        {
+          "before": "616-entry Jacobian",
+          "after": "705-entry Jacobian",
+          "count": 1
+        },
+        {
+          "before": "'Jacobian_entries': 616",
+          "after": "'Jacobian_entries': 705",
+          "count": 1
+        },
+        {
+          "before": "vector(row, 28)",
+          "after": "vector(row, 30)",
+          "count": 2
+        },
+        {
+          "before": "865 by 28",
+          "after": "865 by 30",
+          "count": 1
+        },
+        {
+          "before": "[865,28]",
+          "after": "[865,30]",
+          "count": 1
+        },
+        {
+          "before": "[13,28]",
+          "after": "[13,30]",
+          "count": 1
+        },
+        {
+          "before": "state == 43",
+          "after": "state == 46",
+          "count": 1
+        },
+        {
+          "before": "all 43 states",
+          "after": "all 46 states",
+          "count": 1
+        },
+        {
+          "before": "value.shape == (43,1)",
+          "after": "value.shape == (46,1)",
+          "count": 1
+        },
+        {
+          "before": "('state_components',43)",
+          "after": "('state_components',46)",
+          "count": 1
+        },
+        {
+          "before": "('parameters',14)",
+          "after": "('parameters',15)",
+          "count": 1
+        },
+        {
+          "before": "dict(modes=14,",
+          "after": "dict(modes=15,",
+          "count": 1
+        },
+        {
+          "before": "vector(cp['parameters'],14) and vector(cp['central_correction_scales'],13)",
+          "after": "vector(cp['parameters'],15) and vector(cp['central_correction_scales'],14)",
+          "count": 1
+        },
+        {
+          "before": "packet = Path(str(out) + '_tail_0001.json.gz')",
+          "after": "packet = Path(first['packet']['path'])\n    require(packet.parent == out.parent and packet.name.startswith(out.name + '_tail_') and\n            packet.name.endswith('.json.gz') and packet.name[len(out.name)+6:-8].isdigit(),\n            'First actual target packet is outside this run')",
+          "count": 1
+        },
+        {
+          "before": "equal(seam['angular_samples'], 896",
+          "after": "equal(seam['angular_samples'], 960",
+          "count": 1
+        },
+        {
+          "before": "        for key, entry in call['physical_callbacks'].items():",
+          "after": "        c.i.check_control_runtime_record(call['control_runtime_callbacks'], context['launch'])\n        for key, entry in call['physical_callbacks'].items():",
+          "count": 1
+        },
+        {
+          "before": "    unique = {row['path']: row for row in required_files}",
+          "after": "    control_reader = c.module('m15_closed_control_replay', c.NEW_HERE/'78718-audit-m15-linear-control-v1.py')\n    control = control_reader.audit(context, cp['tail_calls'])\n    required_files += control['required_closed_files']\n    unique = {row['path']: row for row in required_files}",
+          "count": 1
+        },
+        {
+          "before": "'first_actual_DN':first,'coefficients':polynomial",
+          "after": "'control_replay':control,'first_actual_DN':first,'coefficients':polynomial",
+          "count": 1
+        },
+        {
+          "before": "PASS_RESTART8000_FINITE_M14_PROGRAM_OUTPUTS",
+          "after": "PASS_M15_LINEAR_FINITE_PROGRAM_OUTPUTS",
+          "count": 1
+        },
+        {
+          "before": "RESTART8000_FINITE_M14_COUPLED_PROGRAM_SUCCESS",
+          "after": "M15_LINEAR_FINITE_COUPLED_PROGRAM_SUCCESS",
+          "count": 1
+        },
+        {
+          "before": "PASS_ROOT_OBSERVED_RESTART8000_M14_W14_FINITE_COUPLED_CLOSE",
+          "after": "PASS_ROOT_OBSERVED_M15_N512_W15_LINEAR_DN_FINITE_COUPLED_CLOSE",
+          "count": 1
+        },
+        {
+          "before": "PASS_FIRST_ACTUAL_M14_DN_ONLY",
+          "after": "PASS_FIRST_ACTUAL_M15_TARGET_DN_ONLY",
+          "count": 1
+        },
+        {
+          "before": "finite M14",
+          "after": "finite M15",
+          "count": 1
+        },
+        {
+          "before": "M14 cut jets",
+          "after": "M15 cut jets",
+          "count": 1
+        },
+        {
+          "before": "M14 seam",
+          "after": "M15 seam",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [
+        "_compiled_runtime_record",
+        "check_csc_restoration",
+        "check_csc_runtime_record",
+        "check_newton_lifetime_record",
+        "main"
+      ],
+      "functions_AST_changed": [
+        "check_outputs",
+        "check_packet",
+        "check_runtime_records",
+        "final_audit",
+        "first_packet",
+        "polynomial_endpoint"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-restart8000-guard-v1.py",
+        "bytes": 2720,
+        "sha256": "124c7acf14d9e52e25a41857db443231f3287c2f88ddda524b775e35c8b59b02"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-m15-linear-guard-v1.py",
+        "bytes": 2720,
+        "sha256": "960217a1e55e08df64234bc27aed5243a8fc8fae61a816d5b16c13639aac7bb6"
+      },
+      "literal_edits": [
+        {
+          "before": "78718-prefix-spectral-restart8000-v1.py",
+          "after": "78718-prefix-spectral-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "78718-restart8000-resource-bound-command-v1",
+          "after": "78718-m15-linear-resource-bound-command-v1",
+          "count": 1
+        },
+        {
+          "before": "frozen restart8000 launch",
+          "after": "frozen M15 linear-DN launch",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [],
+      "functions_AST_changed": [
+        "main"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-restart8000-runtime-v1.py",
+        "bytes": 4960,
+        "sha256": "57b49ef7d7ab4531c0cfed567a3cc3d85b5167773425b1fb9c1e3addeeadfdd6"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-runtime-v1.py",
+        "bytes": 4957,
+        "sha256": "d53cc1012d3a5217c236ca431d9f354101641017445c29661886d452fb77b063"
+      },
+      "literal_edits": [
+        {
+          "before": "78718-prefix-spectral-restart8000-v1.py",
+          "after": "78718-prefix-spectral-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "78718-prefix-audit-restart8000-v1.py",
+          "after": "78718-prefix-audit-m15-linear-v1.py",
+          "count": 1
+        },
+        {
+          "before": "78718-restart8000-runtime-identity-check-v1",
+          "after": "78718-m15-linear-runtime-identity-check-v1",
+          "count": 1
+        }
+      ],
+      "functions_AST_unchanged": [
+        "module"
+      ],
+      "functions_AST_changed": [
+        "main"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    },
+    {
+      "ancestor": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-test-linear-dn-protocol-v2.py",
+        "bytes": 17801,
+        "sha256": "bf3d9aef7cde67bb86e5ff0e0291cf51030810f24d8c47f2b516747c00e31317"
+      },
+      "derived": {
+        "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-m15-linear-protocol-v1.py",
+        "bytes": 17779,
+        "sha256": "04679cee4f80d6a7576d9e84d935c6e8232ed474b4ae3cb303fa8153f9ce1400"
+      },
+      "literal_edits": [
+        {
+          "before": "db6f-prefix-tail-linear-continuation-client-v2.py",
+          "after": "78718-prefix-tail-linear-m15q512-v1.py",
+          "count": 2
+        }
+      ],
+      "functions_AST_unchanged": [
+        "AbstractPort.__init__",
+        "AbstractPort.solve",
+        "expect_terminal",
+        "setup",
+        "setup.<locals>.classify",
+        "setup.<locals>.inspect",
+        "setup.<locals>.journal",
+        "setup.<locals>.persist",
+        "tests"
+      ],
+      "functions_AST_changed": [
+        "main"
+      ],
+      "functions_added": [],
+      "functions_removed": []
+    }
+  ],
+  "full_diff": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-linear-generated-sources-v1.diff",
+    "bytes": 32192,
+    "sha256": "c7e6fe79bbbd6861a8751f2b611ba9635033e48b14bd81326ddbb4489a12ebf4"
+  },
+  "solver_calls": 0,
+  "handwritten_gates": [
+    "78718-prefix-m15-linear-inputs-v1.py",
+    "78718-prefix-prepare-m15-linear-v1.py",
+    "78718-audit-m15-linear-control-v1.py"
+  ]
+}

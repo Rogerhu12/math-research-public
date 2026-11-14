@@ -1,0 +1,172 @@
+{
+  "schema": "fd2d-coast-R153-delta-quadrature23b3-closed-group-v1",
+  "closed_utc": "2026-11-12T17:16:23.593937+00:00",
+  "input_field": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "bytes": 126857,
+    "sha256": "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e"
+  },
+  "input_closed_report": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "bytes": 359916,
+    "sha256": "ef14e4765f8a552da288195576368a8f70ffdeb2315ab852318b836d2e751a95"
+  },
+  "stored_complete_residual_archive": {
+    "path": "notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-field.npz.gz",
+    "bytes": 1520216,
+    "sha256": "8fde41d7574e3a95a043b652fd3bd4585811fb4c57ca69918f197cd7a1859f77"
+  },
+  "actual_execution": {
+    "session_id": 1294,
+    "initial_chunk": "208dc3",
+    "final_chunk": "ec3143",
+    "returncode": 0,
+    "internal_seconds": 18.60640485100157,
+    "wrapper_seconds": 28.5715754390003,
+    "peak_rss_kib": 92648
+  },
+  "dimensions": {
+    "raw": 31,
+    "tail": 16,
+    "parameters": 54,
+    "nodes": 129,
+    "work": 512
+  },
+  "cells": [
+    63,
+    64,
+    73,
+    74
+  ],
+  "window_boundaries": [
+    0.5919999999999992,
+    0.6250652134122892,
+    0.8344782316901254,
+    0.8675434451024153
+  ],
+  "summary": [
+    {
+      "cell": 63,
+      "endpoints": [
+        0.5919999999999992,
+        0.6116816746501718
+      ],
+      "split_boundaries": [
+        0.5919999999999992,
+        0.6116816746501718
+      ],
+      "delta_change": {
+        "n": 0.008240085091122729,
+        "m": 0.22730052327844952
+      },
+      "change_m_retained_coefficient_maximum": 0.030757167997709733,
+      "change_m_omitted_sample_maximum": 0.0033175992044867375,
+      "old_complete_m_maximum": 0.48436413010209667,
+      "only_delta_refined_complete_m_maximum": 0.4447282079081789
+    },
+    {
+      "cell": 64,
+      "endpoints": [
+        0.6116816746501718,
+        0.6313633493003443
+      ],
+      "split_boundaries": [
+        0.6116816746501718,
+        0.6250652134122892,
+        0.6313633493003443
+      ],
+      "delta_change": {
+        "n": 0.03904703258378639,
+        "m": 3.389014627085828
+      },
+      "change_m_retained_coefficient_maximum": 0.38683961686046503,
+      "change_m_omitted_sample_maximum": 0.026059825437497075,
+      "old_complete_m_maximum": 0.4601519584595064,
+      "only_delta_refined_complete_m_maximum": 3.4127802724556404
+    },
+    {
+      "cell": 73,
+      "endpoints": [
+        0.8281800958020702,
+        0.8478617704522428
+      ],
+      "split_boundaries": [
+        0.8281800958020702,
+        0.8344782316901254,
+        0.8478617704522428
+      ],
+      "delta_change": {
+        "n": 0.04867007515837951,
+        "m": 2.990300689333253
+      },
+      "change_m_retained_coefficient_maximum": 0.3534841835301295,
+      "change_m_omitted_sample_maximum": 0.37523808440487905,
+      "old_complete_m_maximum": 0.6574084859959741,
+      "only_delta_refined_complete_m_maximum": 3.6477091753292274
+    },
+    {
+      "cell": 74,
+      "endpoints": [
+        0.8478617704522428,
+        0.8675434451024153
+      ],
+      "split_boundaries": [
+        0.8478617704522428,
+        0.8675434451024153
+      ],
+      "delta_change": {
+        "n": 0.003455915999507897,
+        "m": 0.2728958536067081
+      },
+      "change_m_retained_coefficient_maximum": 0.04539893969166813,
+      "change_m_omitted_sample_maximum": 0.07776278129178635,
+      "old_complete_m_maximum": 0.3060604213476712,
+      "only_delta_refined_complete_m_maximum": 0.41502899574409186
+    }
+  ],
+  "scope": "Only R153 nonlinear increment Gauss2 versus split Gauss8; reuse closed affine and endpoint residual arrays; full sampled finite angular grid",
+  "no_Jacobian": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_whole_residual_evaluation": true,
+  "affine_R152_reintegrated": false,
+  "endpoint_terms_unchanged": true,
+  "source_frozen": true,
+  "existing_sources_unchanged": true,
+  "source_vector_bytes_unchanged": true,
+  "no_continuous_integral_or_geometry_certificate": true,
+  "only_delta_fine_is_not_recommended_as_complete_actual_field_quadrature": true,
+  "next_grouped_rule_requires_same_point_actual_field_cancellation": true,
+  "files": [
+    {
+      "path": "scripts/fd2d-metric-coast-delta-quadrature-screen.py",
+      "bytes": 16080,
+      "sha256": "bca8c30618d84d830e379c7232cec68301741a6dc3db1ca0f7b31a7ba6ded568"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3.md",
+      "bytes": 7388,
+      "sha256": "c9adeb65762f72f7382cffabe8fb5469a8700852dc52df3b8457f5f1f18dd9c3"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-report.json",
+      "bytes": 167318,
+      "sha256": "8b89e5b31512259ae2084eb1ffbf9d38546cfb1513ec91dad4e3eab7ef4fd90c"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-witnesses.npz",
+      "bytes": 500760,
+      "sha256": "a82fd282d315b4514555c9890de3785cac3d4c801c345bb087fb182c9bfa9a6b"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-exit-receipt.json",
+      "bytes": 991,
+      "sha256": "026f39d8fd68ca2411eee67c572ef47608fa37a2675ca445945f0b297f46919f"
+    },
+    {
+      "path": "notes/process-observations/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-console.txt",
+      "bytes": 1066,
+      "sha256": "4a87274299b5c7e5741b8bab247d662db576f049a9b0c7c9331191f8023ffcd1"
+    }
+  ]
+}

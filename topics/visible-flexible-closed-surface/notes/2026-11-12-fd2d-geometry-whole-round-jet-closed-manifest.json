@@ -1,0 +1,37 @@
+{
+  "schema": "fd2d-closed-research-artifact-manifest-v1",
+  "status": "closed",
+  "scope": "R166 fixed round S0 jet packet, exact flat-cut values with honest one-sided derivative, complete unprojected increment/JVP and fixed positive gap normalization; one small actual local check only.",
+  "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+  "actual_exit_codes": [
+    0
+  ],
+  "no_main_solver_sources_changed": true,
+  "artifacts": [
+    {
+      "path": "scripts/fd2d_gc_whole_round_reference.py",
+      "bytes": 12299,
+      "sha256": "b98a1c32b1e28dc1158803892443f415772a78a3ce397a67038a46e71513ffa7"
+    },
+    {
+      "path": "scripts/fd2d-whole-round-reference-check.py",
+      "bytes": 9607,
+      "sha256": "fbfd58b54233e4d69eec06798af0d6f93af0d5aba150194e95460900fb166faf"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-whole-round-reference-check-01.json",
+      "bytes": 8891,
+      "sha256": "0a9304e17bfdbbf3d463b2c78e3bd5e19758936515aeee6b7a5715cdef98a642"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-whole-round-reference-check-01-exit.json",
+      "bytes": 424,
+      "sha256": "03afbfb1ed3458e00c46633e074cbc8145b4d4195cca1e002b7e6db18f2c09bc"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-geometry-whole-round-reference-packet.md",
+      "bytes": 7765,
+      "sha256": "e0646611f9fcdb4b82d43e3d11644c7acb50a2d77e0daceca0140aa4362757cb"
+    }
+  ]
+}

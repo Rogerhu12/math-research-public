@@ -1,0 +1,74 @@
+{
+  "geometry_file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+  "geometry_sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d",
+  "geometry_storage_bindings": [
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+      "bytes": 9865,
+      "sha256": "11cd5569b3c2218591a757aea966f9aa25963fa1a3ec69fbb0b6729cb141a42d"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8-storage.json",
+      "bytes": 887,
+      "sha256": "df15dabc23aacc6774da64830dd88d09db8285d4d63e744d3f118de805ab9641"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000000.bin.gz",
+      "bytes": 4599313,
+      "sha256": "9a0f60728d13a84f0f4c40b2180cced8aa8fe27a01c8dca7fd2998c6cab22443"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base-payload-5f30b413a743403106db382ee61520d4a71100352ee9cb63e65e5c1606088ba8.part-000001.bin.gz",
+      "bytes": 3886748,
+      "sha256": "52e16841dedb206a249ecbcdc8d797a4ca7caeabbeeb01f8aa58a2e0dbd49a14"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-storage-v1.py",
+      "bytes": 5923,
+      "sha256": "83cf59cfe5ab373421e53d0c0d8d2274edfc6a6b266fc2ab6161274b474a4329"
+    },
+    {
+      "file": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-byte-shards-v1.py",
+      "bytes": 11138,
+      "sha256": "e23153ae6b364854a24acc464be97921b134f7e25024e82c8c91995ca2f96f39"
+    }
+  ],
+  "data_file": "prefix-target-data.npz.gz",
+  "data_sha256": "d843a18bc7f419d1f943a7bcd22cd5930fea0cbeab632971cf31167811474a73",
+  "script_sha256": "f2d8e79504a2a3895ec8705457eabe46321e80b68b8e7c7de11f13015d160ff3",
+  "arithmetic_backend_sha256": "d290543f75224509fef8287db838265540a74b7caec38d7b9f34cea563d8359e",
+  "bridge_constants": {
+    "L": "5754233219242621/9007199254740992",
+    "pt": "2493077276450591/2251799813685248",
+    "ps": "-4699498958113479/1125899906842624",
+    "root_status": "Frozen numeric constants only; exact matching root not certified."
+  },
+  "bridge_parameter_extractor_sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+  "endpoint_radius_gap": [
+    -3.0470070910837425e-12,
+    3.035682816232566e-12
+  ],
+  "endpoint_radial_arclength_derivative_gap": [
+    -3.1086244689504387e-15,
+    1.998401444325282e-15
+  ],
+  "exact_prefix_end": "3298518530167785459043166285224060257740783616/2385170672124033557316116788458136844022364625",
+  "frozen_total_end": "4552634583911787/2251799813685248",
+  "frozen_bridge_endpoint_coordinate_gap": "-5801196998896770424150286101550007724602529697/21483707500385666039607225252879790003021328745941809758208000",
+  "maximum_prefix_piece_extension_error": 1.2607833330918494e-16,
+  "maximum_chart_piece_extension_error": 6.031663322227582e-31,
+  "maximum_prefix_bridge_wrong_side_sliver": "677157508737665123899032131912201403732282089/10741853750192833019803612626439895001510664372970904879104000",
+  "prefix_bridge_extension_allowance": "4523682555658677631456044852944545497689738681/1346919908964160029724416257962637807803785281536",
+  "prefix_bridge_extension_guard_passed": true,
+  "maximum_remainder": {
+    "a": 1.2607833330918494e-16,
+    "e": 3.0692252695152245e-47,
+    "ep": 6.031663322227582e-31
+  },
+  "intervals": 6604,
+  "bytes": 1222579,
+  "seconds": 8.053409869000461,
+  "exact_bridge_matching_root_certified": false,
+  "global_common_metric_assembly_certified": false,
+  "analytic_enclosure_status": "Requires independent review of the supplier implementation and definition."
+}

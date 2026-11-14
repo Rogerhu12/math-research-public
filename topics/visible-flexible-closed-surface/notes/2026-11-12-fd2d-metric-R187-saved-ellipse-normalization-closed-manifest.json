@@ -1,0 +1,59 @@
+{
+  "schema": "fd2d-R187-actual-saved-axis-normalization-closed-manifest-v1",
+  "closed": true,
+  "files": [
+    {
+      "path": "scripts/fd2d_R187_saved_ellipse_normalization_exact.cjs",
+      "bytes": 8239,
+      "sha256": "efdd34fd43db8da8b11e3cd0a319b04e11d068a36931b99cf0d8adb124a3ed45"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R187-saved-ellipse-normalization-01-report.json",
+      "bytes": 11312,
+      "sha256": "8c2f37b42187712e5cb20cc24e7b862d5b71b8b4c20224738837ab84b23717c6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-metric-R187-saved-ellipse-normalization.md",
+      "bytes": 4842,
+      "sha256": "d585dbc7d5cfd1c4510ac59959b649afab84701bd9c88f37905e965e84ada2a6"
+    }
+  ],
+  "actual_execution": {
+    "host": "functions.exec JavaScript isolate",
+    "elapsed_seconds": 1.467,
+    "passed": true,
+    "OS_subprocess_started": false,
+    "actual_current_seed": true,
+    "additional_exact_circle_identity": true
+  },
+  "actual_axes": {
+    "A_bits": "0x3ff0767c5c4cf6bc",
+    "B_bits": "0x3fef535f1f0053de",
+    "evidence": "Root supplied exact bits of the current gap .05 provider; no search rerun."
+  },
+  "accurate_target": {
+    "path": "notes/2026-11-12-fd2d-balanced-moments-taylor-01.json",
+    "bytes": 8881,
+    "sha256": "0da13490030b82f536a921a97083b38f606ab604e7c7195c9053fb7975fa4b03",
+    "field": "enclosures.a0.binary_lower/binary_upper",
+    "copied_as_exact_integer_mantissas": true
+  },
+  "definition": "Saved exact dyadic axes normalized by accurate a_B32(0)/accurate a_E; this is not an implicit exact-gap replacement.",
+  "certified_scope": [
+    "accurate ellipse mean perimeter",
+    "accurate normalization and scaled axes/gap",
+    "entire central ellipse curvature extrema"
+  ],
+  "unpaid_scope": [
+    "material angle inverse",
+    "angular primitive",
+    "accurate complete B32 radius and height profile",
+    "main surface metric, curvature, reach and cap matching"
+  ],
+  "existing_result_basis": [
+    "R187 direct position",
+    "R190 accurate radius definition",
+    "closed positive rational ellipse-perimeter series in the accurate common a0 package"
+  ],
+  "new_independent_result_number_not_claimed": true
+}

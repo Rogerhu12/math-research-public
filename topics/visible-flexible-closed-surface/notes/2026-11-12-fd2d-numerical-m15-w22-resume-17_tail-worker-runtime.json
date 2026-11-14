@@ -1,0 +1,32 @@
+{
+  "scope": "Observed own Node/Python and global available memory; no solver or geometry claim.",
+  "parent_python_memory": {
+    "VmHWM": "101280 kB",
+    "VmRSS": "101280 kB",
+    "VmData": "196944 kB",
+    "Threads": "2"
+  },
+  "worker_cpu": {
+    "utime_ticks": 1253,
+    "stime_ticks": 53,
+    "clock_ticks_per_second": 100
+  },
+  "worker_inherited_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             4999999              4999999              bytes     \nMax data size             6442450944           6442450944           bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+  "system_memory": {
+    "MemFree": "952612 kB",
+    "MemAvailable": "2276304 kB",
+    "SwapFree": "0 kB"
+  },
+  "unix_time": 1794458493.516319,
+  "worker_pid": 36,
+  "worker_returncode": null,
+  "status_file_available": true,
+  "last_live_memory": {
+    "unix_time": 1794458493.516319,
+    "State": "S (sleeping)",
+    "VmHWM": "199116 kB",
+    "VmRSS": "199116 kB",
+    "VmData": "1312008 kB",
+    "Threads": "12"
+  }
+}

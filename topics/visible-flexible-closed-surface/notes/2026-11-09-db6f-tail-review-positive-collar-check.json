@@ -1,0 +1,172 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_LOCAL_COLLAR_AND_RADIAL_AUDIT",
+  "script": {
+    "path": "scripts/db6f-tail-review-positive-collar.py",
+    "bytes": 10669,
+    "sha256": "7c4e7560b10eac067b1250fb3598569e1fa408b1daa1e9aa2c19552ea14785d7"
+  },
+  "sources": [
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-publication.json",
+      "bytes": 1355,
+      "sha256": "497d47525bb33b12168fc594d84c693dc205b596661f11b0e83d0b8b4b5ef292"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-and-connection-bvp.md",
+      "bytes": 26777,
+      "sha256": "1a0775900ec1b8cff4f7629a6c4c0e0ffc5a7874bd8e17ee6269cee6099493a8"
+    },
+    {
+      "path": "scripts/db6f-audit-positive-collar-budget.py",
+      "bytes": 15340,
+      "sha256": "e80831d9950975ed673b93df4c82ead661a4e8887f422dd49162c2bbc2ba6297"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-budget.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-sources.json",
+      "bytes": 2978,
+      "sha256": "afd0f40c6b523726cda98a6a1d72a0d63fa5455ed52d09d1e09a0a266acebef9"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-observed-execution.json",
+      "bytes": 1281,
+      "sha256": "e6af9a1a9f5822a3747165e184de78ea07ed915c35d16bc6f780b99f7c3f1537"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-publication.json",
+      "bytes": 1023,
+      "sha256": "67b4e18269a9817656e38db0ce12895821c0372182a2e6feb4b75a9f26d54f82"
+    },
+    {
+      "path": "scripts/db6f-audit-positive-collar-radial-interface.py",
+      "bytes": 6028,
+      "sha256": "88f26b69f6927cbe9787fccb44ebad361d9f9def89fd8934c3bcbceb07698f70"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.md",
+      "bytes": 7319,
+      "sha256": "a2b7586db4c7317d74c6a5a0d1fae655b1311d3b4ef917da30628e6afd2dc507"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-interface.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-positive-collar-radial-observed.json",
+      "bytes": 904,
+      "sha256": "180f39d9ac6ba1f38f58d2019bd544a9323774ff99baf1857b4de4dc0ed51389"
+    },
+    {
+      "path": "results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "results/R10-positive-support-offset-reach.md",
+      "bytes": 3937,
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "author_publication_counts": [
+    5,
+    4
+  ],
+  "additional_frozen_input_count": 6,
+  "independent_bisection_rounds_per_root": 180,
+  "root_endpoints_checked": 6,
+  "exact_formula_comparisons": [
+    "D0 lower",
+    "D0 upper",
+    "D1 upper",
+    "rigid lower",
+    "held lower",
+    "polynomial",
+    "A",
+    "M",
+    "saddle",
+    "reach",
+    "support",
+    "cap A gap",
+    "cap C gap",
+    "cap support",
+    "host",
+    "ray lower/upper",
+    "cap slopes",
+    "annulus slopes",
+    "new retained pair"
+  ],
+  "safe_scalar_values": {
+    "complete_noncompact_template_reach": {
+      "numerator": "676000000000000",
+      "denominator": "7116526015802101"
+    },
+    "retained_pair_radius_only": {
+      "numerator": "37",
+      "denominator": "400"
+    },
+    "rigid_conditional_lower": {
+      "numerator": "8432697907936930850093109030389869987",
+      "denominator": "165054873784797908927456824842616180692"
+    },
+    "held_conditional_lower": {
+      "numerator": "33812670035601524389956491393987536930996224",
+      "denominator": "163244890557185297605164093309896123357421875"
+    },
+    "old_annulus_duplicate_ray_radius": [
+      {
+        "numerator": "325346112327648509531736929888032007874903220946846002433907121079020689611521259023122183",
+        "denominator": "794446511274820915142034055932937065562486702401380130695042220609078687122424201927040000"
+      },
+      {
+        "numerator": "260282392165753688035522779823810376839976556525499573194786582211615300718438071574286047",
+        "denominator": "635556624238873024294955296331946900885906892304171934243053501282713659026818563249254400"
+      }
+    ],
+    "new_cap_slope_upper": {
+      "numerator": "1446557933623972554166477372767009506020040284925849539849259451140659731250000000",
+      "denominator": "5919864499891947164650714115316072379050119539342109131030801746574734732356286579"
+    }
+  },
+  "author_replays_byte_identical": [
+    {
+      "path": "notes/2026-11-09-db6f-tail-positive-collar-budget-replay.json",
+      "bytes": 11706,
+      "sha256": "bbb8619ae88826d9a0c69a7f7ffbbf554eb4a38d560f77ed1f12939094a59f63"
+    },
+    {
+      "path": "notes/2026-11-09-db6f-tail-positive-collar-radial-replay.json",
+      "bytes": 5299,
+      "sha256": "9fb32dbfdcf3242d1fbd749fddfeddc7ee0e4fcde0e0b184acd954b39bac1948"
+    }
+  ],
+  "does_not_certify_global_R10_feasibility_for_c035": true,
+  "retained_pair_bounds_are_not_complete_surface_reach": true,
+  "common_metric_and_closed_connectors_unconstructed": true,
+  "current_M15_data_read": false,
+  "solver_calls": 0
+}

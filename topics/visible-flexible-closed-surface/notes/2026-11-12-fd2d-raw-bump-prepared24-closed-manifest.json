@@ -1,0 +1,70 @@
+{
+  "schema": "fd2d-closed-interrupted-numerical-run-v1",
+  "closed": true,
+  "actual_child_returncode": -9,
+  "actual_tool_returncode": 137,
+  "accepted": 0,
+  "complete_normal_was_observed": true,
+  "normal_entity_not_saved": true,
+  "finite_success": false,
+  "strong_target_complete": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-report.json",
+      "bytes": 278787,
+      "sha256": "72b3758e05048f8d4e9735590ec3aef463f0c6a4795b2b3f7e2e1f5af4dbfc10"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-progress.jsonl",
+      "bytes": 64845,
+      "sha256": "f1ada49fd31b333e8081b1643efca0f99fb05dfce2d5a710d7961b4ce7047f48"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-process-receipt.json",
+      "bytes": 3953,
+      "sha256": "905d6fc8ea37707e134f8137e0e2e8fe5daf65ed07d9f0e36b5db0a72ffb13ab"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-actual-tool-exit.json",
+      "bytes": 569,
+      "sha256": "784d05eded1af229141d2dd7dc2aeaf821ef01f0676a66a5ba3fc4066a4d8b91"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-assembly-observation.json",
+      "bytes": 18331,
+      "sha256": "e4d87e32425beda8c55b4563c2e5d065e879dd73666f6a52febb641a8b093681"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-numerical-prepared24-actual-exit.md",
+      "bytes": 1493,
+      "sha256": "d72dbd9afd9dbd69c8d812df8460a075bf74b27b47618fe14362096a1484449e"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-actual-launch.json",
+      "bytes": 1911,
+      "sha256": "a2e8c3cdbb9c310e5bf23287cb71427e99a337f0364c2b3b29d5c4e706bc5a3f"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-launch.json",
+      "bytes": 1269,
+      "sha256": "122ffb4f13cf245a411851244703a7475293a6c4e6f32cee43e9fbe805950908"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-prepared24-b0001-initial.npz",
+      "bytes": 126906,
+      "sha256": "41b5854938e7273a3109494442e9b96a929f576844b52faf60e96076e407fd82"
+    }
+  ],
+  "inherited_static_manifests": [
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-static-manifest.json",
+      "bytes": 1738,
+      "sha256": "32b7c2d727d8aa943e3f16bedd10db8ae99d00ec51c647eecb882500b69b2173"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-raw-bump-prepared24-damping-source-manifest.json",
+      "bytes": 796,
+      "sha256": "5bbf900b6973b55a8eb1181a95f8d6100e1e4d167752985a7c5cbb060adde688"
+    }
+  ]
+}

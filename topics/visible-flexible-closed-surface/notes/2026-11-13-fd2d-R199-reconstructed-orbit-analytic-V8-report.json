@@ -1,0 +1,72 @@
+{
+  "schema": "fd2d-R199-reconstructed-orbit-analytic-fixture-V8-v1",
+  "actual_V8_execution": true,
+  "OS_process_created": false,
+  "OS_exit_code": null,
+  "input_is_analytic_elliptic_tube_and_flat_collar": true,
+  "input_is_not_the_original_193_state": true,
+  "new_BVP_normal_or_LM": false,
+  "tests": [
+    {
+      "s": 0.1,
+      "u": 0.2,
+      "t": 0,
+      "gramMax": 0,
+      "curvatureMax": 0,
+      "timeScaledFD": 8.504541027527777e-11
+    },
+    {
+      "s": 0.35,
+      "u": 0.7,
+      "t": 0.2,
+      "gramMax": 0,
+      "curvatureMax": 4.440892098500626e-16,
+      "timeScaledFD": 9.376818677481278e-11
+    },
+    {
+      "s": 0.6,
+      "u": 1.4,
+      "t": 0.5,
+      "gramMax": 6.938893903907228e-18,
+      "curvatureMax": 0,
+      "timeScaledFD": 8.711152375955483e-11
+    },
+    {
+      "s": 0.85,
+      "u": 2.1,
+      "t": 0.75,
+      "gramMax": 6.938893903907228e-18,
+      "curvatureMax": 4.440892098500626e-16,
+      "timeScaledFD": 9.670846531423501e-11
+    },
+    {
+      "s": 1.1,
+      "u": 3.4,
+      "t": 1,
+      "gramMax": 2.220446049250313e-16,
+      "curvatureMax": 4.440892098500626e-16,
+      "timeScaledFD": 8.506751814389004e-11
+    }
+  ],
+  "maximum": {
+    "gram": 2.220446049250313e-16,
+    "kappa": 4.440892098500626e-16,
+    "timeScaledFD": 9.670846531423501e-11,
+    "cutTwojet": 1.1102230246251565e-16
+  },
+  "time_step": 0.00001,
+  "source_binding": {
+    "path": "scripts/fd2d_orientation_orbit_R199_recovery.cjs",
+    "sha256": "e5a6041d4e31b0201023f1c1ae7c28ce3ebc8c024cd3cae1078a6dc09aac45b4",
+    "bytes": 3056
+  },
+  "analytic_input": {
+    "a": "1+.1*s^2",
+    "b": ".8+.04*s^3",
+    "Z": ".5+.2*s",
+    "surface": "(a*cosu,b*sinu,Z)",
+    "flat_collar": "((.8-s)*cosu,(.8-s)*sinu,.625)",
+    "angle": "2*pi*t/3"
+  },
+  "identity_note": "New actual analytic fixture, explicitly not the original193-dimensional candidate."
+}

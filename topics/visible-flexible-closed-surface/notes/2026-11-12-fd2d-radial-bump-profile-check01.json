@@ -1,0 +1,312 @@
+{
+  "schema": "fd2d-physical-radial-bump-check-v1",
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-radial-bump-profile-check.py",
+    "bytes": 6688,
+    "sha256": "4797b6695c6ddb522aecab420cc84eedf000dd2431e7f3cecde5f135f72cb8f4"
+  },
+  "module": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+    "bytes": 12253,
+    "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+    "bytes": 25453,
+    "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+  },
+  "definition": {
+    "kind": "fixed-physical-s-compact-C4-radial-bump-outer-design",
+    "source": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_radial_bump_profile.py",
+      "bytes": 12253,
+      "sha256": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b"
+    },
+    "base_candidate": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "bytes": 25453,
+      "sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1"
+    },
+    "parameters": [
+      0.003,
+      -0.002,
+      0.0025,
+      -0.0015,
+      0.001,
+      0.002,
+      -0.001
+    ],
+    "parameter_count": 7,
+    "supports": [
+      [
+        0.34,
+        0.7915892713432515
+      ],
+      [
+        0.4528973178358129,
+        0.9044865891790643
+      ],
+      [
+        0.5657946356716258,
+        1.0173839070148774
+      ],
+      [
+        0.6786919535074387,
+        1.1302812248506902
+      ],
+      [
+        0.7915892713432515,
+        1.243178542686503
+      ],
+      [
+        0.9044865891790643,
+        1.356075860522316
+      ],
+      [
+        1.0173839070148774,
+        1.4689731783581288
+      ]
+    ],
+    "physical_endpoint": 1.4889731783581288,
+    "protected_cylinder": [
+      0.0,
+      0.32
+    ],
+    "protected_cut_neighborhood": [
+      1.4689731783581288,
+      1.4889731783581288
+    ],
+    "basis": "psi_j=1024 q_j^5(1-q_j)^5 on 0<q_j<1, zero elsewhere",
+    "q_j": "(s-support_left)/(support_right-support_left)",
+    "derivative_formula": "Leibniz factored polynomial, derivatives 0..4 vanish at support endpoints",
+    "uniform_basis_bounds": {
+      "value": 1.0,
+      "first": [
+        9.216266735965766,
+        9.216266735965768,
+        9.216266735965766,
+        9.216266735965768,
+        9.216266735965768,
+        9.216266735965762,
+        9.216266735965768
+      ],
+      "second": [
+        196.14297587978166,
+        196.1429758797817,
+        196.1429758797816,
+        196.1429758797817,
+        196.1429758797817,
+        196.1429758797815,
+        196.1429758797817
+      ]
+    },
+    "delta_scales_for_unit_a_second": [
+      0.00509832174980822,
+      0.00509832174980822,
+      0.005098321749808222,
+      0.00509832174980822,
+      0.00509832174980822,
+      0.0050983217498082245,
+      0.00509832174980822
+    ],
+    "physical_metric": "ds^2+(a_base(s)+sum(delta_j*psi_j(s)))^2 du^2",
+    "physical_metric_changes_with_delta": true,
+    "radial_clock": "s is physical; scale 1; no warp",
+    "base_coast_T_fixed": true,
+    "central_and_cut_all_existing_jets_unchanged": true,
+    "same_g_refinement": false
+  },
+  "actual_delta": [
+    0.003,
+    -0.002,
+    0.0025,
+    -0.0015,
+    0.001,
+    0.002,
+    -0.001
+  ],
+  "zero_delta_exact_base_errors": {
+    "a": 0.0,
+    "a_s": 0.0,
+    "a_ss": 0.0
+  },
+  "basis_endpoint_jets_0_to_4_maximum": 0.0,
+  "protected_cylinder_and_cut_errors": {
+    "a": 0.0,
+    "a_s": 0.0,
+    "a_ss": 0.0
+  },
+  "profile_direction_checks": [
+    {
+      "step": 1e-05,
+      "field": "a",
+      "absolute_maximum": 9.995393401851516e-12,
+      "relative_l2": 1.4736500925786824e-11
+    },
+    {
+      "step": 1e-05,
+      "field": "a_s",
+      "absolute_maximum": 4.509281836817536e-12,
+      "relative_l2": 3.182763411625754e-13
+    },
+    {
+      "step": 1e-05,
+      "field": "a_ss",
+      "absolute_maximum": 2.0392576516314875e-11,
+      "relative_l2": 7.338595404275276e-14
+    },
+    {
+      "step": 1e-05,
+      "field": "c",
+      "absolute_maximum": 1.206315047852513e-10,
+      "relative_l2": 1.312158988424634e-11
+    },
+    {
+      "step": 1e-05,
+      "field": "K",
+      "absolute_maximum": 5.057557928012102e-09,
+      "relative_l2": 2.1233806487911008e-11
+    },
+    {
+      "step": 3e-06,
+      "field": "a",
+      "absolute_maximum": 3.267566772713337e-11,
+      "relative_l2": 4.735105010647772e-11
+    },
+    {
+      "step": 3e-06,
+      "field": "a_s",
+      "absolute_maximum": 1.4657608460311167e-11,
+      "relative_l2": 9.37845414081069e-13
+    },
+    {
+      "step": 3e-06,
+      "field": "a_ss",
+      "absolute_maximum": 7.693756742810365e-11,
+      "relative_l2": 2.5084023807540616e-13
+    },
+    {
+      "step": 3e-06,
+      "field": "c",
+      "absolute_maximum": 3.7951197739971576e-11,
+      "relative_l2": 2.5094480888672073e-12
+    },
+    {
+      "step": 3e-06,
+      "field": "K",
+      "absolute_maximum": 4.791900209966116e-10,
+      "relative_l2": 1.9993187562405713e-12
+    },
+    {
+      "step": 1e-06,
+      "field": "a",
+      "absolute_maximum": 1.0044598486302903e-10,
+      "relative_l2": 1.357573298688472e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "a_s",
+      "absolute_maximum": 4.7348764015478495e-11,
+      "relative_l2": 3.104198566589815e-12
+    },
+    {
+      "step": 1e-06,
+      "field": "a_ss",
+      "absolute_maximum": 2.5494273359072395e-10,
+      "relative_l2": 8.023373947700196e-13
+    },
+    {
+      "step": 1e-06,
+      "field": "c",
+      "absolute_maximum": 1.1007852962485742e-10,
+      "relative_l2": 7.236880238798242e-12
+    },
+    {
+      "step": 1e-06,
+      "field": "K",
+      "absolute_maximum": 4.050946245115483e-10,
+      "relative_l2": 1.197867968812358e-12
+    }
+  ],
+  "actual_positive_domain_screen": {
+    "sampled_screen": {
+      "points": 577,
+      "minimum_a": 0.8,
+      "minimum_at_s": 1.4889731783581288,
+      "maximum_abs_a_s": 1.0,
+      "maximum_abs_a_ss": 3.7098554862292397,
+      "passed": true,
+      "continuous_certificate": false
+    },
+    "continuous_sufficient_bound": null,
+    "target_positive_metric": "a_delta(s)>0",
+    "abs_a_s_le_one_not_imposed": true,
+    "embedding_or_reach_certified": false
+  },
+  "conditional_positive_certificate": null,
+  "positive_tail_kappa_yy_fd_error": 1.1314127501549365e-07,
+  "tail_lifting_direction_checks": [
+    {
+      "step": 1e-05,
+      "field": "values",
+      "absolute_maximum": 1.1735652449829104e-09,
+      "relative_l2": 1.8966632266243274e-10
+    },
+    {
+      "step": 1e-05,
+      "field": "s",
+      "absolute_maximum": 5.1927996319589553e-08,
+      "relative_l2": 3.499521534729144e-10
+    },
+    {
+      "step": 1e-05,
+      "field": "xi",
+      "absolute_maximum": 4.2691664620120306e-08,
+      "relative_l2": 3.6327969610842895e-10
+    },
+    {
+      "step": 3e-06,
+      "field": "values",
+      "absolute_maximum": 1.6089025667298529e-09,
+      "relative_l2": 1.882035858437661e-10
+    },
+    {
+      "step": 3e-06,
+      "field": "s",
+      "absolute_maximum": 9.762516128830612e-09,
+      "relative_l2": 9.1524135168525e-11
+    },
+    {
+      "step": 3e-06,
+      "field": "xi",
+      "absolute_maximum": 1.2995741371923941e-08,
+      "relative_l2": 1.4426217415316374e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "values",
+      "absolute_maximum": 4.290381827587453e-09,
+      "relative_l2": 5.126142894685173e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "s",
+      "absolute_maximum": 3.110091029157047e-08,
+      "relative_l2": 2.502863804814083e-10
+    },
+    {
+      "step": 1e-06,
+      "field": "xi",
+      "absolute_maximum": 4.271567632940787e-08,
+      "relative_l2": 4.1583829710211785e-10
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "seconds": 2.9460136550001153,
+  "scope": "Actual finite implementation check of profile and lifting derivatives; no nonlinear GC solve or geometry certificate",
+  "passed": true
+}

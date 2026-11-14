@@ -1,0 +1,186 @@
+{
+  "scope": "Observed local inverse-design execution history, not solver-success certificates",
+  "executions": [
+    {
+      "session": 8847,
+      "observed_exit_code": 0,
+      "report": "root-screen-01.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 23522,
+      "observed_exit_code": 0,
+      "report": "positive-q-screen-01.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 21162,
+      "observed_exit_code": null,
+      "report": "positive-q-widen-02.json",
+      "exit_note": "Unknown process id at resume; file observed, no exit inferred"
+    },
+    {
+      "session": 70123,
+      "observed_exit_code": 0,
+      "report": "positive-q-free-03.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 97765,
+      "observed_exit_code": 0,
+      "report": "positive-q-hardbg-04.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 22678,
+      "observed_exit_code": 0,
+      "report": "positive-q-outerw-05.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 11482,
+      "observed_exit_code": 0,
+      "report": "positive-q-low-outerw-06.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 90967,
+      "observed_exit_code": 0,
+      "report": "positive-q-inner-ports-07.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 34510,
+      "observed_exit_code": 0,
+      "report": "positive-q-coupled-08.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 99541,
+      "observed_exit_code": 0,
+      "report": "positive-q-coupled-low-09.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 45733,
+      "observed_exit_code": 0,
+      "report": "positive-q-coupled-wide64-10.json",
+      "exit_note": "Actual tool completion returned exit code"
+    },
+    {
+      "session": 93583,
+      "observed_exit_code": 0,
+      "report": "positive-q-coupled-height64-11.json",
+      "exit_note": "Actual tool completion returned exit code"
+    }
+  ],
+  "transient_implementation_failure": {
+    "session": 67455,
+    "observed_exit_code": 1,
+    "message": "Initial parameter-vector dimension off by one; NumPy broadcast shapes (22,) and (21,). Corrected before the separate successful process70123; no mathematical candidate from this failed process."
+  },
+  "source_snapshots": [
+    {
+      "path": "explore_inverse.py",
+      "sha256": "f5c01af4769b4c135bca399d13be8bdb0a7553fb8c4ab08327d46117b99384c4"
+    },
+    {
+      "path": "root_inverse.py",
+      "sha256": "b4f665bf321ea4cfe556f69a6a228e27a877e72126e8a441d422a0cac21d81e5"
+    },
+    {
+      "path": "positive_q.py",
+      "sha256": "b004850d2c7b28c31e8e54b3d5b360ca3ff4ac3e883b62883ffce0b78d9c6b4a"
+    },
+    {
+      "path": "positive_q_free.py",
+      "sha256": "ef9baf5171ca2a27e4ce5cf76a9ceb7ff888157ebc45a2b0783e3ec06a34cf73"
+    },
+    {
+      "path": "positive_q_free04.py",
+      "sha256": "7e8d7bdd7bee978d81b830489b36f6b26ea58b54d56ae56f015394f4ebd213c3"
+    },
+    {
+      "path": "optimize_buffer04.py",
+      "sha256": "661ece3e43225b003ce671e8f5030b9328eabe6df17cdb2147b221a6f4ce7edf"
+    },
+    {
+      "path": "optimize_buffer05.py",
+      "sha256": "869a1d23deab6b368239f66af5264d9ab92c3dd643351f95ae378fda3b00e121"
+    },
+    {
+      "path": "optimize_buffer06.py",
+      "sha256": "56a1f2907e653f70b3febfdf494ca8bdcdcf65c3b4f3f3ef6a09395799e380f1"
+    },
+    {
+      "path": "optimize_buffer07.py",
+      "sha256": "8b3488796b5f34f8dfb3c5a45e2bb0d1fc9b0f243667db9304665e484a588815"
+    },
+    {
+      "path": "optimize_coupled08.py",
+      "sha256": "0f894eef1eb54b46eb7c046a102809bd1dc8e964f8ad226f2dd261d00bb8acde"
+    },
+    {
+      "path": "optimize_coupled09.py",
+      "sha256": "18835648d4f4cf99f828e2ee967931afc19a2999a89a4b45c42622d56da34b0c"
+    },
+    {
+      "path": "optimize_coupled10.py",
+      "sha256": "e51ce33d69944be833292342911ea4f40f8b6906d6fc582a0ba89eac3e5fe3cf"
+    },
+    {
+      "path": "optimize_coupled11.py",
+      "sha256": "116f69d37b712ab2f20fa8cee368e71441eb71cb75ccce114ab4dd8ef1582648"
+    }
+  ],
+  "report_snapshots": [
+    {
+      "path": "root-screen-01.json",
+      "sha256": "848b5f1accc718bef831151708f9405dd381d6f4eac4287b2a955ef9d0dea367"
+    },
+    {
+      "path": "positive-q-screen-01.json",
+      "sha256": "09828c86841f10dd97099c446a78646be4cd731751ddf9401445f57cb09a40a9"
+    },
+    {
+      "path": "positive-q-widen-02.json",
+      "sha256": "0695f177b0935ee3fbb10c364776ca74f1b813a11b86afeda92c313887ee0dc7"
+    },
+    {
+      "path": "positive-q-free-03.json",
+      "sha256": "8b562b2e2e20b56012d931355875bb27c5238b6627b670608903b1eee12780a0"
+    },
+    {
+      "path": "positive-q-hardbg-04.json",
+      "sha256": "04a8a50206631b448df45c4d8c67644f1f219bb09ff8a7aa03e624f111d5bf20"
+    },
+    {
+      "path": "positive-q-outerw-05.json",
+      "sha256": "fba9fb4bf326e7e0278385f5c22933ddad6856be96b8193d2deb87ccc1dacd2b"
+    },
+    {
+      "path": "positive-q-low-outerw-06.json",
+      "sha256": "da46862714728f82b2f345671ce99b62346b3c67046bc183c337ddcf8cfc017a"
+    },
+    {
+      "path": "positive-q-inner-ports-07.json",
+      "sha256": "d99456ef73c855b4f8894e1b50c1228c5f0a26e9e64e96fcf8b3e2ff35e60aa8"
+    },
+    {
+      "path": "positive-q-coupled-08.json",
+      "sha256": "161636e7d2a8b6bc588139e9d5a975333a1283dd51bb79a36cfa5dd110b297c1"
+    },
+    {
+      "path": "positive-q-coupled-low-09.json",
+      "sha256": "4a735a44ffb53c4ad29e0b46023bef740d284126e9f83904f2c27170d8541a9c"
+    },
+    {
+      "path": "positive-q-coupled-wide64-10.json",
+      "sha256": "2b4c1aeb7a58eb460d625f8ad1f1ffcdd4ae90c112a4b83c130a09250da620f2"
+    },
+    {
+      "path": "positive-q-coupled-height64-11.json",
+      "sha256": "3b9e7fde425e6ac0c7c30b9b4f5ecec0db3c9e527ee42c96febc6a6a8107f75e"
+    }
+  ]
+}

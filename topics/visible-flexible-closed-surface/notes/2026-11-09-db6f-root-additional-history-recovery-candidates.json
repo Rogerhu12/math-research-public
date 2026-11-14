@@ -1,0 +1,349 @@
+{
+  "schema": "db6f-extra-historical-data-local-recovery-v1",
+  "status": "READ_ONLY_24_ADDITIONAL_PUBLISHED_UNIFORM_M12_DATA_FILES_VERIFIED",
+  "recorded_utc": "2026-11-09T20:11:45.021610+00:00",
+  "repository": "/workspace/scratch/db6f0b0e7462/math-research",
+  "published_anchor": "fc197d3124c291d6da5e4ba496a123316fe31a83",
+  "current_head": "382f1aa79513f197500e5548f030ee747e7fdcec",
+  "current_origin_main": "6cfcc9b0ded33629b952fd0ea95f01052fce47bd",
+  "source_bindings": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-guarded-launch.json",
+      "bytes": 29066,
+      "sha256": "9d2495ea6b48872b40a3c813f0c3076819f48a88f1f5bd9dc1b1ec33bfa49594"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-launch.json",
+      "bytes": 34121,
+      "sha256": "ce1d05787e40c3b9cd3ff42443ef3de66f275c9be3135ff5c6b430e6cabc2b92"
+    }
+  ],
+  "protected_unique_binding_count": 201,
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "7454a574ae20d1d763228c9fd48be883330b7ee8",
+      "bytes": 4418760,
+      "sha256": "89d97fd07d12e3f926e5cdacb2e8801ca72a79d0232f67806b5a3792b2ee8f5e",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501034,
+        "mtime_ns": 1794208572426267108,
+        "size": 4418760
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "bd8cbb25d25bde84c8832ff716926bdd188ad857",
+      "bytes": 4418921,
+      "sha256": "0a6924fb0baf22c5e1fd4b24f0c3a8f76b0484cee393973da733d61aa98b2832",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501075,
+        "mtime_ns": 1794208572666263648,
+        "size": 4418921
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw000-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "4c68b41005bd8cc5d4c6243928ad189ad43b3a6a",
+      "bytes": 1368270,
+      "sha256": "47efcf993e35f88876d9a9583f6676dddea05d97bcc9bf5f8874ff092bf43d44",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501076,
+        "mtime_ns": 1794208572718262899,
+        "size": 1368270
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "903f656c132f7cba11e6d0a28612b2a7da335388",
+      "bytes": 4396874,
+      "sha256": "71a56afcf748aee9f699136f2d9fc2a55bb7e2c7d745e01be783c15d1d3093fa",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500395,
+        "mtime_ns": 1794208422392349256,
+        "size": 4396874
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "19cabb458ab5d59108bef546fc9dcbee0bfc0073",
+      "bytes": 4418718,
+      "sha256": "8e857cc1dc12b6981f2b7fd4c7de05b6bf30f4fe63bdeae688f875e79409ca2d",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500397,
+        "mtime_ns": 1794208422496348015,
+        "size": 4418718
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw001-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "484de7bb5c61569b689e70a124fa93451de22dfb",
+      "bytes": 1362766,
+      "sha256": "182f7ae495b899b70d1e10b66c73ed28d1a31e495700db79dd6d92d9ff2b829d",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500398,
+        "mtime_ns": 1794208422528347633,
+        "size": 1362766
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "8a9d1d7c92e40264021cc5a7f8d4a877f421bb14",
+      "bytes": 4358050,
+      "sha256": "7cf5b4a5444ba5264c736c2f2f42a4c7c58d8be874a5172a8df035018ffe74b0",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500379,
+        "mtime_ns": 1794208303777876858,
+        "size": 4358050
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "3d4abc7ab5cfb97e1e529620d9d10a00198ef9ee",
+      "bytes": 4400099,
+      "sha256": "97e111abeba66c01b0cc49fb0add63b76c8da24b0bea566e19c05aa8cb884bc1",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500380,
+        "mtime_ns": 1794208303885875354,
+        "size": 4400099
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw002-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "a3670e0235733ca4e1c6d3fe58352141b26f8979",
+      "bytes": 1355591,
+      "sha256": "7fa2fc413eda21e9d3dc9c5bae451eabcf64f65c767deae48b0099ed0b4c0690",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500381,
+        "mtime_ns": 1794208303933874687,
+        "size": 1355591
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "1fca6540a4bcbdb8bdd756e9df35ff0d2c908694",
+      "bytes": 4364747,
+      "sha256": "233b79a879c7c3d20f12eb780b5f9907d34b70db059dc8c67f0c691fe064a32a",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500368,
+        "mtime_ns": 1794208182583499576,
+        "size": 4364747
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "59355cc409af62e73e20eb90cffc850a3a023fe7",
+      "bytes": 4377941,
+      "sha256": "ec295bb61278ff711ec79b59c440442ef99cbf2df3069cb4fe9f24aac7f1147c",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500374,
+        "mtime_ns": 1794208182743497732,
+        "size": 4377941
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw003-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "9d011389ce9ccb2252fa79058b32b833bcf8a861",
+      "bytes": 1330738,
+      "sha256": "131548db36bfdf165fbc1ebd9a80f15148746f393bcec76953200f68d8e84e01",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500394,
+        "mtime_ns": 1794208182795497131,
+        "size": 1330738
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "babdad4d5ca7311f36db08d5cfc7fdbdbe08f98e",
+      "bytes": 4296740,
+      "sha256": "73310911e5744196e28510cb2343fd175c0325efb6eefbaf0be2dd529a5b921c",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500373,
+        "mtime_ns": 1794208064349087946,
+        "size": 4296740
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "578583a5524c24475edad0697acdba4fbd3c3140",
+      "bytes": 4383273,
+      "sha256": "ecd099dd27e372ef03dbb7a8d0371bab6057d8466b716017184dbed200554cc1",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500405,
+        "mtime_ns": 1794208064645083898,
+        "size": 4383273
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw004-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "f302e1e8cc9c6f2436c8f7d278e3d105ab8a1349",
+      "bytes": 1340615,
+      "sha256": "7263e155b0e0d200d7f0b496003ecbdfec97ea9aeafd28a9f4d2e2eebb81b7f4",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500640,
+        "mtime_ns": 1794208064745082531,
+        "size": 1340615
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "51aa09a699acb2604c3c7eb41286dd816ebb39f9",
+      "bytes": 4305531,
+      "sha256": "388992cabccb3e5c36751351ace82bd5dd57a66e096bb6c838999bc0226931c6",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500357,
+        "mtime_ns": 1794207888551363842,
+        "size": 4305531
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "cdb4bb2c6787fca897a137cd5f295c6f659e0473",
+      "bytes": 4371424,
+      "sha256": "ee119ed071834036673c0dc68926f75cd3cd4648006cf5298896a7a9eec4744b",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500358,
+        "mtime_ns": 1794207889111356362,
+        "size": 4371424
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw005-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "77e77892f95126bfbe491a222204e1aea760ee80",
+      "bytes": 1306192,
+      "sha256": "1c6c5841f38ed47eeb8d60a27e82d80ecfff5a518cca8d8343bafa8aed9d81c3",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500359,
+        "mtime_ns": 1794207889211355026,
+        "size": 1306192
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "4e992f0e5bdf0ea5dc50609a669824691c4620e0",
+      "bytes": 4269700,
+      "sha256": "d6005487e8795fc79b37afb0e9ea3690c9d8cb68833c2f625f0c14354c62ce06",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501542,
+        "mtime_ns": 1794207750165190542,
+        "size": 4269700
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "19ff8fc26c96bb093961098684e8bd150e9dc830",
+      "bytes": 4329069,
+      "sha256": "7123cf4df46d503e203d1c5f00d2f0ae8df527a2dc67bf07db24cc94a53e0a9e",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501547,
+        "mtime_ns": 1794207750321188303,
+        "size": 4329069
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw006-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "564f36c220644de454e43eaa8ac10ce2bca7ba77",
+      "bytes": 1292567,
+      "sha256": "e1af24e78a46731a5f8950c5d2854141511866c08846f8b0d7fa5a332825aaae",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2501551,
+        "mtime_ns": 1794207750389187326,
+        "size": 1292567
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part00.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "a357f6aed4c97691bf4a3e872dde758d232c5d1a",
+      "bytes": 4271490,
+      "sha256": "b025aebc4dfddd4cc462152ab7cf61e22a09e718a60563c3b23912c91742eb74",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500078,
+        "mtime_ns": 1794207644902640104,
+        "size": 4271490
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part01.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "39e8f021ecb494131a0bbfc07d081bbd27b6e3bb",
+      "bytes": 4299583,
+      "sha256": "77b64da3688a8be9c81512b60737f848cda325141b33dd7b7eafd9f1cd0e838b",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500266,
+        "mtime_ns": 1794207645270635302,
+        "size": 4299583
+      }
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-p4-native64-n8-s64-q512-raw007-part02.f64.gz",
+      "mode": "100644",
+      "git_blob_sha1": "a90f27c9eb209f01e619ad96ee5b758bed949584",
+      "bytes": 1274266,
+      "sha256": "383c9b214385a207224523db996853d9db3c03643e025a3cff969d66cbcab2cf",
+      "local_decoded_hash_equal": true,
+      "stat": {
+        "inode": 2500301,
+        "mtime_ns": 1794207645390633735,
+        "size": 1274266
+      }
+    }
+  ],
+  "file_count": 24,
+  "total_bytes": 80311925,
+  "network_transports_allowed": false,
+  "GIT_NO_LAZY_FETCH": "1",
+  "objects_or_refs_or_index_mutated": false,
+  "worktree_files_removed": false,
+  "scope": "Old uniform M12 raw representation only; formal critical-r01 and all live/prepared input bindings retained. Every payload decoded from local Git with transports disabled.",
+  "restore": "Use local git restore from published_anchor for listed paths after adjusting the sparse exclusions, then verify exact size and SHA256."
+}

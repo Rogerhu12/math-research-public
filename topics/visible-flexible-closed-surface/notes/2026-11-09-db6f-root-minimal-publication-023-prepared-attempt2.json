@@ -1,0 +1,570 @@
+{
+  "status": "PREPARED_OFFLINE_AWAITING_ORDINARY_FAST_FORWARD_PUSH",
+  "source_base": "382f1aa79513f197500e5548f030ee747e7fdcec",
+  "source_commit": "02338b87725b7bff9599d797f28f6061e704c880",
+  "latest_parent": "cde619403b8658b734f65e664d14e1659742f826",
+  "candidate_commit": "a2f02210be3a907b7a1b09980824db8113d48362",
+  "candidate_tree": "573a6b9631c7a6bf8aadf29596e9456f1145fb94",
+  "changed_path_count": 70,
+  "topic_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/HANDOFF.md",
+      "mode": "100644",
+      "git_blob": "9db7319841b64da9ff47db6ddc68c24e7f256f51",
+      "sha256": "cc0d1d778db40554a52255fa08e18a09dc95c494594f1c875fef7584bcb82f0a",
+      "bytes": 9866,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/log.md",
+      "mode": "100644",
+      "git_blob": "406a9c027050819ad45a6e8834a72efef35253e5",
+      "sha256": "1c15ca0d0810e4305f237dca575f3a59b8015b21dfeceb395bed64a28907f679",
+      "bytes": 18259,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template-observed.json",
+      "mode": "100644",
+      "git_blob": "dc2280dcc0365455283a9e549c785917390d621c",
+      "sha256": "d842cb78245b7bec0958bf3cbac8e69e67bb3eac163d94c1bbe3328ecf8da391",
+      "bytes": 1083,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template-publication.json",
+      "mode": "100644",
+      "git_blob": "99854bea29999271809ce253461b8fccff4cf8e1",
+      "sha256": "4b9f00c75869ccf9ef9f89967195719187b051ae4972bd35c1bb8f0d39bd7585",
+      "bytes": 1210,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template-sources.json",
+      "mode": "100644",
+      "git_blob": "e713b20b6c51eb691b0141d0ff85df4714204a94",
+      "sha256": "7e7a39aaac80bdac97edfe86c449782e77171bd5a1a3c845e559dacaf08f27f0",
+      "bytes": 2102,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template.json",
+      "mode": "100644",
+      "git_blob": "28491fb42840fd0c578d1209a91a9ddd04a99b43",
+      "sha256": "f5737565389efc38b57a57f6366857e817bbc3a356e8fe77cd061b9f2e8b142a",
+      "bytes": 7949,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylinder058-local-template.md",
+      "mode": "100644",
+      "git_blob": "7a72facf6b9045d396809f6ef04c141b7aa4622a",
+      "sha256": "d2ce64be1c667f8582efb6addd7aa528757a1266b6d6da98c44e7275dd8a31a3",
+      "bytes": 11433,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-and-analytic-endpoint.md",
+      "mode": "100644",
+      "git_blob": "4f7fb186393ece167d8aaa7d12aa3f4125e1820c",
+      "sha256": "9509ef8a4a9d72a3c7f901a024593f01be6c8b2afa6475b460c80360ad1a1aff",
+      "bytes": 19628,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-interface-observed-replay.json",
+      "mode": "100644",
+      "git_blob": "97281ce4f3aaebd60f85e91d0341af6eb1fc6f96",
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c",
+      "bytes": 5930,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-interface.json",
+      "mode": "100644",
+      "git_blob": "97281ce4f3aaebd60f85e91d0341af6eb1fc6f96",
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c",
+      "bytes": 5930,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-observed-execution.json",
+      "mode": "100644",
+      "git_blob": "3e80589869961837f9730a07e7eec19d3d717c0f",
+      "sha256": "496935951cb781dd9dc61cf9aa69cfccd558530e6ce474142a4ba158ba1e3c52",
+      "bytes": 1536,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-publication.json",
+      "mode": "100644",
+      "git_blob": "f790df34c43f32fb088c781ae5f987403ae91f5d",
+      "sha256": "f2b15f65007c88d864625bd44dcbe49458da0ce5434797caac43fde09667b547",
+      "bytes": 1532,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-cylindrical-cuff-sources.json",
+      "mode": "100644",
+      "git_blob": "63e3beafeb5bb4b1b390415d4e14e8d786de6725",
+      "sha256": "8727f6a9b9e4954e1abbefa1bff46050b0c81cd72523bbfbd081fb58e458add7",
+      "bytes": 2302,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01_tail_0002.json.gz",
+      "mode": "100644",
+      "git_blob": "33d866646afff85d7a1bfcb249b7509d32248277",
+      "sha256": "c6889ba47c662ac0c66898b8abc7a087c61ecc1bf3675fdc1a6110e12a490f67",
+      "bytes": 266810,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-reproduction.json",
+      "mode": "100644",
+      "git_blob": "039b2b3fe9e9155a2e10c107bdd288eaa2322656",
+      "sha256": "05f117461c7dba5c0d174d95ca963ef213a1c1ffab4f4108c8b43487e99180a1",
+      "bytes": 41354,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-run.log",
+      "mode": "100644",
+      "git_blob": "ba96e6bd3dfdec5fc70ddd9292bd17a70e4fc5d8",
+      "sha256": "048a18d0401f2900639a74edb5fd8223a286acb497e91c3c1ccfb504f6d1ae36",
+      "bytes": 683,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-summary.json",
+      "mode": "100644",
+      "git_blob": "5f224c8699c415355956d96758dc2394c247ff9d",
+      "sha256": "db6ee7040b3092ebb06253e542f7ab00b33fd860de35f34fbbd756c960721c01",
+      "bytes": 12349,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-implementation.md",
+      "mode": "100644",
+      "git_blob": "423bc05b01a57828aa89c4e1fa2e2cddc2ad2fb9",
+      "sha256": "0bb461fe3e07bb6cd42e663135dfb4c8ccfadedb77d3fb72020b3a6b900bf75c",
+      "bytes": 11530,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-observed-preparation.json",
+      "mode": "100644",
+      "git_blob": "7c5d9987678eb6cb832e5f260d384779c5c18a48",
+      "sha256": "fd07583a9562909072adadd699a3eaf28b227c84a58d76206fd67f7cbf4107d9",
+      "bytes": 4340,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14-publication.json",
+      "mode": "100644",
+      "git_blob": "460d154df4dc1cf98e4fc076bc4e17c68d0fc9a2",
+      "sha256": "e4c5857bed8624c30b4f4730d688ec1fc4ec42c4d14e9296c8673ffd875cc15b",
+      "bytes": 2699,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+      "mode": "100644",
+      "git_blob": "fd237bc1b8dbd0b1834075ada4d06e9f06c16b95",
+      "sha256": "710fbd942be28cc67bddcc511d3e01a1bcc9de77adc5e7fea91f69adb5562666",
+      "bytes": 63007,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-preparation.json",
+      "mode": "100644",
+      "git_blob": "b45644ba925fde0c77c4b12c40e07257d77881f5",
+      "sha256": "cbbc930db0b20bc810fc70d4f489814e39f70166eccc5ef1211661274fda0ebd",
+      "bytes": 3250,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-config.json",
+      "mode": "100644",
+      "git_blob": "bdf2f7ba924c40d50c77b194b59359d71ccfb4dd",
+      "sha256": "6517f02126a992376639c4e89fcb55b0793633967568fba837ec84e790eb8c5f",
+      "bytes": 2688,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-additional-history-recovery-candidates.json",
+      "mode": "100644",
+      "git_blob": "cb683b4a5dcffedee9c1a56183a3b9d5c78f45c0",
+      "sha256": "13e3da3d9e5361604e1ab299193513fff4fa068203e9ca35ccee0c258795c175",
+      "bytes": 14180,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-affine01-and-pilot-call2-audit.json",
+      "mode": "100644",
+      "git_blob": "88e9380090104bef579efcfb073387bf5cf0361f",
+      "sha256": "e4c24b8f6393e2b1589c1f2700b1c7f14f9587cb928406a6b439805e36542484",
+      "bytes": 5325,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-affine01-and-pilot-call2-observed.json",
+      "mode": "100644",
+      "git_blob": "97c0982d16c4bb12aaa364e65676114f17ede942",
+      "sha256": "7860c929fd659f79052cd2339877b6c5f6bd5f03f049622540838787f4b727f6",
+      "bytes": 665,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-call002-closed-trials.jsonl",
+      "mode": "100644",
+      "git_blob": "de60f9a024eacf44fe1eca720ca50754d2499861",
+      "sha256": "157312dd882e8de0eb5ee466a8b832d44ba0b519aefbfde6e1bce24956d5ae02",
+      "bytes": 11816,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-382-prepared-attempt1.json",
+      "mode": "100644",
+      "git_blob": "cc26369a80e70bd4adb9a223f19538ac9bb9734e",
+      "sha256": "3ec332df5b26c7efabd26b9b97c0924d96d3b69e4b8a1838cc0c29e9ee1f8ccf",
+      "bytes": 60208,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-382-prepared.json",
+      "mode": "100644",
+      "git_blob": "63ef59666ed6f5bca5dc8d13eca5273a209a70aa",
+      "sha256": "4b7f2d58cb98e1c1bfe2105e58f04220f2c2e24bc844286be00b7ad5e501ce44",
+      "bytes": 60208,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-minimal-publication-382-push-observed.json",
+      "mode": "100644",
+      "git_blob": "5c75854a5cd460248fc2a2cda9015508f92d4be1",
+      "sha256": "224494182685fb22c3922ddf9621e2d03922c51c0047ea10ec05830dc7a09572",
+      "bytes": 1097,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-r39-r40-adoption.json",
+      "mode": "100644",
+      "git_blob": "9536d54805fd64475399dc9915b688813c788a08",
+      "sha256": "62a87ac531e95f5b399f905065f126e37128f30263de03017656246fc1eccb2f",
+      "bytes": 2247,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-affine-m14q512-01-guard-completion.json",
+      "mode": "100644",
+      "git_blob": "4701033ad4d80ca5f03f2ee7a375e5bdcd433e9c",
+      "sha256": "4c6470451712d61c36c767267d9211bb1e1feafa7f791520ce49eee9719a0601",
+      "bytes": 1312,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-guard-launch.json",
+      "mode": "100644",
+      "git_blob": "e31c7ec42b6ac53c2e91687fb793b98ba181ff5c",
+      "sha256": "e47b15876602732ffaadc15322cc7120b0ad560a1cd1abe659397e9383ca58a2",
+      "bytes": 35932,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-spectral-true-m14q512-01-start-observed.json",
+      "mode": "100644",
+      "git_blob": "e0d0780300c6ea2dd26104317ab48d1955ede2b2",
+      "sha256": "86bf45ed08169ffefb606ab004c64207b30b012ce337e275406199815ac1d5e8",
+      "bytes": 1128,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-true-m14-66-worktree-start-observed.json",
+      "mode": "100644",
+      "git_blob": "5d2212c6e33820b3d850cc5c03c79da33e810cfc",
+      "sha256": "25c80cb2253be8f51c6a8125dfd10d593fd899e494033c23cb7b57dffb90d391",
+      "bytes": 19372,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-true-m14-start-r39-r40-publication.json",
+      "mode": "100644",
+      "git_blob": "c637a439c693c7a2ce9a160133479d9c38e6c9e1",
+      "sha256": "df21d67bb3538c5431648ca8366fee5eb163f84dfbe87c2c606450254d99b5bb",
+      "bytes": 18733,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-closed-publication-39.json",
+      "mode": "100644",
+      "git_blob": "cce124362e1d5d07624c27e412a5d7ce98a820b0",
+      "sha256": "90b554558bbf873887f53533e656cf2a9a509abc85e340350d07a097a02d3b35",
+      "bytes": 2117,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylinder058-local-template-independent.json",
+      "mode": "100644",
+      "git_blob": "d833add33c8456f0d3a55f2e0f258487a53eab9b",
+      "sha256": "64a4abf70c5822d4700a221d7cb6d2a5563773263e639f3a9340ba2cec58de28",
+      "bytes": 7199,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylinder058-local-template-replay-v2.json",
+      "mode": "100644",
+      "git_blob": "28491fb42840fd0c578d1209a91a9ddd04a99b43",
+      "sha256": "f5737565389efc38b57a57f6366857e817bbc3a356e8fe77cd061b9f2e8b142a",
+      "bytes": 7949,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylindrical-cuff-independent-check.json",
+      "mode": "100644",
+      "git_blob": "459b28813f8cd8c06eba8a998ee977b4108d14c5",
+      "sha256": "d29381e6e34ae9bfa00377f8d3498955fd7751d15dac00dc338c042006f952fc",
+      "bytes": 6756,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-cylindrical-cuff-interface-replay.json",
+      "mode": "100644",
+      "git_blob": "97281ce4f3aaebd60f85e91d0341af6eb1fc6f96",
+      "sha256": "f523c7088c7950938ef2a93f19416fe91c522265216efb4b56a303337e5bcd4c",
+      "bytes": 5930,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylinder058-local-template-observed.json",
+      "mode": "100644",
+      "git_blob": "53c201210bd00d3c01e01f54f9f7bb964a724f7e",
+      "sha256": "8ae80fa3ec898a43035f75a11053bf3d4b99a71ac62d264fecf9fcfd35c790e4",
+      "bytes": 1344,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylinder058-local-template-publication.json",
+      "mode": "100644",
+      "git_blob": "8418fb3388b477ce93b98049f7bbe70565548d67",
+      "sha256": "3b9b53f5081e6aefe3fd959f92cad61fd1287bdfdd2b25bbbbb024d23e140970",
+      "bytes": 2096,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylinder058-local-template-sources.json",
+      "mode": "100644",
+      "git_blob": "6501dd7b93ecc7df457187d28f930b49515bc831",
+      "sha256": "c8cebbcbd520d1e6e66024c7898b7f09cfb80c4f3d218116bbd91a6d9f1ec483",
+      "bytes": 5009,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylinder058-local-template.md",
+      "mode": "100644",
+      "git_blob": "075f5dae25a886c5c22b5fe7985b4ffc0abc0c85",
+      "sha256": "fc400e9d9e3ffd33438a987888afde796dc97a26efe908fe4b8964002f152b7b",
+      "bytes": 10493,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylindrical-cuff-and-analytic-endpoint.md",
+      "mode": "100644",
+      "git_blob": "1a135b7d648bc034a18d643621c4b15617d3d88f",
+      "sha256": "832002ddbdbc9e0cc92cda5d5dc0f7668fc003f063cf55ded8014429e8080272",
+      "bytes": 13409,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylindrical-cuff-observed.json",
+      "mode": "100644",
+      "git_blob": "b40af0a5ba8289ed14c8445265f61b2c2b889f7f",
+      "sha256": "7450670e4e8a7610f9bf10bd5d01832313bba463715c84530bc085a1b7c3b72b",
+      "bytes": 1864,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-cylindrical-cuff-sources.json",
+      "mode": "100644",
+      "git_blob": "93c63e38ff3ccee95d824afc48a0c507dc91426b",
+      "sha256": "e2e18949934daee880980259d44c14c391902993a1d5f90a906973416f622dce",
+      "bytes": 4538,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-check.json",
+      "mode": "100644",
+      "git_blob": "674f7de71172a6323bded7d6ed06e1283fd5bf0c",
+      "sha256": "c071919195a98d4f61e58d16b0d9d95b06e66feb8f8c0a6cda7a88bec3d5a937",
+      "bytes": 33529,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-observed.json",
+      "mode": "100644",
+      "git_blob": "61021a097080dc53d57d8d4e2b214e3c1edbebf2",
+      "sha256": "86c76dd45bf02780a70a8b409aeb10586e025aedceb97d061ba702f8dd2f344f",
+      "bytes": 1419,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-publication.json",
+      "mode": "100644",
+      "git_blob": "a41d21de7af688ef5bbb2811b6050bfd02f6ef56",
+      "sha256": "fcd24fad38fa7d2dfac65b6b2f6259253f33856c78719858118e338bfff55f00",
+      "bytes": 2005,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation-sources.json",
+      "mode": "100644",
+      "git_blob": "a2cc2128c177a424c7461f383e35e4291e76ee28",
+      "sha256": "2577d38b9fac2cb172a90523ec1a3f604d5346e7016d2f3a8badaf8e9f5dd5d2",
+      "bytes": 32219,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-implementation.md",
+      "mode": "100644",
+      "git_blob": "63078a4af26e632814ef2a98883e7beafc41f9f3",
+      "sha256": "588c4d315c01182eae04263bc0d162e70fa6e0de219392e286ac92ebc55bd4c3",
+      "bytes": 14311,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/open.md",
+      "mode": "100644",
+      "git_blob": "a92c75f01e8547a1b7f2cd242bec9cccef00af00",
+      "sha256": "2de304d896e8f7a2ecb53d88b8497ca0451d59946f91e8cbbe535f2f11cca949",
+      "bytes": 18570,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results.md",
+      "mode": "100644",
+      "git_blob": "5385c3080fd7b8a3a2be4c2475b04eecc43e44ea",
+      "sha256": "4719057284d5bd315dc1de8e5d3539fc3578245a3ba21af82814a79959bb3d16",
+      "bytes": 12241,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R39-cylindrical-cuff-and-analytic-endpoint.md",
+      "mode": "100644",
+      "git_blob": "6d4d46227c18314f44c344054411dcdee950020d",
+      "sha256": "4628e3a948f87146630d56ba526b3d87089df024d8e12db00ee4863140543f3a",
+      "bytes": 19703,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R40-cylinder058-conditional-local-template.md",
+      "mode": "100644",
+      "git_blob": "4014fca0fed9ef8f80c8592bd3cc0511fad65190",
+      "sha256": "54f0571a8afbb0c4cc6d82689e27e24678b4716d2d5873958d8d135e345a4a2c",
+      "bytes": 11816,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-cylinder058-local-template.py",
+      "mode": "100644",
+      "git_blob": "384a10b476ce1edce862abd8ce928793964e377e",
+      "sha256": "d1f3ceca9261ca3aaffbcccc046a3a5e7760481ff5205a1c299345863887a899",
+      "bytes": 7455,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-cylindrical-cuff-interface.py",
+      "mode": "100644",
+      "git_blob": "2d28534ce9b621bbedc1d732af25d77015652c9a",
+      "sha256": "b2a1d8bd026740805147d2748dc901237dbfaa8b318b69ab91fd7c3f3bee80db",
+      "bytes": 5544,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+      "mode": "100644",
+      "git_blob": "1d12a7e80984b3e60fb2c0d74ac1c95c6523ec45",
+      "sha256": "1aa5e53985b5574dee68a032aa84ac47aa43e9aa8bd185b4af8650b618dcf0fa",
+      "bytes": 22244,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14.py",
+      "mode": "100644",
+      "git_blob": "fe0b6eac22ed147aa4af1097bae90deab3c1a902",
+      "sha256": "de3ce21bdc49880a7057a7e3fdd1737a18cc23f5b5a5ffce44b4b881fab5d7ff",
+      "bytes": 8709,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+      "mode": "100644",
+      "git_blob": "b447fcc84b6fdc8a4caea98a8209eea79e866327",
+      "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99",
+      "bytes": 17329,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-audit-affine01-and-pilot-call2.py",
+      "mode": "100644",
+      "git_blob": "95959e86f64d923a5e8837b9f6a880c7c4ebb3ec",
+      "sha256": "2c65e1115eb189d6338d5752451a5ebbcd4574c1fc39a2fbf0dc67107ced080a",
+      "bytes": 7194,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-build-minimal-publication.py",
+      "mode": "100644",
+      "git_blob": "20f0e7e15785e7eef96bf0d307f37bf72f302591",
+      "sha256": "9f7f84791e24288a73cfa23a16e3d2c53aad30d609bf79b69d8c973ef4a2ab03",
+      "bytes": 6787,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-start-true-m14-recoverable-worktree.py",
+      "mode": "100644",
+      "git_blob": "ff711fd55dea0a552370dada383171e84f87865b",
+      "sha256": "3c8ccfa42eee23be4d2f77f89c580498e5d7ec98ca9bd024e29cb39646f34edc",
+      "bytes": 6185,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-root-true-m14-resource-limited.py",
+      "mode": "100644",
+      "git_blob": "c7c19cdf0bd9ad6645f7e1b44d8afbb63aa5988b",
+      "sha256": "6a79a903233ec445c8de0571beae98f8435423eda93c6810f9fd562974061158",
+      "bytes": 1582,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-check-cylinder058-local-template.py",
+      "mode": "100644",
+      "git_blob": "4cb1a91db6ec536ff99dd8757e914f873908877c",
+      "sha256": "7672389202ec4bbf8a49f7e42e56888a2aa3de4bcb3d7d192716b1ba643f5cee",
+      "bytes": 9504,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-cylindrical-cuff.py",
+      "mode": "100644",
+      "git_blob": "720576372fddaa18128a0a7ee3ceab0dd325e0a1",
+      "sha256": "dff12114ea3ba21c6cf6b4f14268694bc02eb3b968931f05051400502600fae7",
+      "bytes": 12388,
+      "already_present": false
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-review-spectral-true-m14-implementation.py",
+      "mode": "100644",
+      "git_blob": "9107e2ffd1349e19553caebd9bf3f73ef8d1855b",
+      "sha256": "89ba4bbc4e45b452526fa8fa1efc2cd96b69d6912927da6d88d953e2ba9b16b4",
+      "bytes": 12608,
+      "already_present": false
+    }
+  ],
+  "topic_total_bytes": 1061739,
+  "root_log_bytes": 35022,
+  "root_log_sha256": "c1850e664849277a0872744984f2156513a84398efa263c512ced8c1c33f42c9",
+  "per_path_conflict_gate": true,
+  "unrelated_paths_preserved": true,
+  "network_calls": 0,
+  "remote_ref_updates": 0
+}

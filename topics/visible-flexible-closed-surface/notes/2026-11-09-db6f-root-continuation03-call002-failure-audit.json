@@ -1,0 +1,105 @@
+{
+  "status": "PASS_CLOSED_FAILED_REQUEST_IDENTITY_AND_RESPONSE_AUDIT",
+  "scope": "Observed original finite-DN line-search failure; no nonexistence claim, solver replay, or successful target.",
+  "call": 2,
+  "scale": 0.9921875,
+  "closed_row": {
+    "attempt": 1,
+    "call": 2,
+    "scale": 0.9921875,
+    "step": 0.0078125,
+    "converged": false,
+    "residual": null,
+    "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 2.604516507642326', 'residual': None, 'lastIteration': {'iteration': 5, 'norm': 2.604516507642326, 'minA': 0.07763554415662655, 'minD': 0.9915670399254011, 'chartCondition': 46758.07673463052}}\")",
+    "response_record": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0002.json.gz",
+    "response_sha256": "eb7518a7955764f7563f365b9e1b08ea1e9346148c12b66a007650e9cca47460",
+    "intermediate_scope": "WARM ONLY: does not match the complete target prefix",
+    "last_iteration": {
+      "iteration": 5,
+      "norm": 2.604516507642326,
+      "minA": 0.07763554415662655,
+      "minD": 0.9915670399254011,
+      "chartCondition": 46758.07673463052
+    },
+    "logs": [
+      {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call002-trace.jsonl",
+        "sha256": "d11b11064eb1cd7d619ad2af8217c47a4fd24a05e39ee3d241dfc0eb71ee7126",
+        "bytes": 3056
+      },
+      {
+        "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call002-trials.jsonl",
+        "sha256": "34a6fdf8ccc2dfac06f63e7b4570e299d0919dcada1cf9a7d5306d0c70dfde43",
+        "bytes": 9582
+      }
+    ]
+  },
+  "source_bindings_verified": 83,
+  "response_source_hashes_matched": 8,
+  "request_matches_original_path_exactly": true,
+  "equation_configuration_unchanged": true,
+  "failed_checkpoint_shape": [
+    865,
+    30
+  ],
+  "raw_states_count": 13,
+  "last_iteration": {
+    "iteration": 5,
+    "norm": 2.604516507642326,
+    "minA": 0.07763554415662655,
+    "minD": 0.9915670399254011,
+    "chartCondition": 46758.07673463052
+  },
+  "checkpoint_not_accepted_as_warm": true,
+  "trace_event_counts": {
+    "request": 1,
+    "iteration": 12,
+    "failure": 1
+  },
+  "trial_event_counts": {
+    "null": 29
+  },
+  "closed_files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-amplitude-resume03-launch.json",
+      "sha256": "0e0f020b7c879790d9e6b3726f324cbde6a2c724f43b3dca5fff30d370a42e3c",
+      "bytes": 27839
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-input-bindings.json",
+      "sha256": "fd028f65bd1746874a66d557fef544a1fd5f2ee1552ab145c02f3dbc222d3eca",
+      "bytes": 3800
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-config.json",
+      "sha256": "43b6c3c9a3f5c7b38796fff7b8ff19bc635265a15ff6d8046305203e26fbf8ae",
+      "bytes": 3107
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-01-config.json",
+      "sha256": "d823a60b4eef4c72d8e424e3f1364fbc4671717af30b501947395356a975e096",
+      "bytes": 2907
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+      "sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190",
+      "bytes": 29001
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03_tail_0002.json.gz",
+      "sha256": "eb7518a7955764f7563f365b9e1b08ea1e9346148c12b66a007650e9cca47460",
+      "bytes": 266620
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call002-trace.jsonl",
+      "sha256": "d11b11064eb1cd7d619ad2af8217c47a4fd24a05e39ee3d241dfc0eb71ee7126",
+      "bytes": 3056
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03-call002-trials.jsonl",
+      "sha256": "34a6fdf8ccc2dfac06f63e7b4570e299d0919dcada1cf9a7d5306d0c70dfde43",
+      "bytes": 9582
+    }
+  ],
+  "parent_tool_exit_inferred": false
+}

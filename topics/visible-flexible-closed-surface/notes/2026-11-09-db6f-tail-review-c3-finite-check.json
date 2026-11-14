@@ -1,0 +1,124 @@
+{
+  "README_complete": false,
+  "author_replay_byte_identical": true,
+  "future_closed_surface_constructed": false,
+  "rows": [
+    {
+      "N": 3,
+      "c0": "11/4",
+      "coefficients_all_equal": true,
+      "delta_exact": "531/1232",
+      "diameter_upper_exact": "184802263/88913825",
+      "four_tuples_counted": 256,
+      "inradius_exact": "2120489617/2845242400",
+      "published_endpoint_budget_margins": {
+        "core_reach_target_only": "71/2000",
+        "held_target": "503246753/500000000000",
+        "unconstructed_grip_disk_diameter": "17/100",
+        "unconstructed_grip_disk_projection": "111318889473/250000000000",
+        "whole_diameter_squared": "10977228503856590477319/1000000000000000000000000"
+      },
+      "r": "1/10",
+      "rho_max": "587/110",
+      "rho_min": "1/10"
+    },
+    {
+      "N": 4,
+      "c0": "17/5",
+      "coefficients_all_equal": true,
+      "delta_exact": "6621/15400",
+      "diameter_upper_exact": "9708315928/4647768125",
+      "four_tuples_counted": 625,
+      "inradius_exact": "5006922241/6760390000",
+      "published_endpoint_budget_margins": {
+        "core_reach_target_only": "429/5000",
+        "held_target": "387012987/200000000000",
+        "unconstructed_grip_disk_diameter": "43/250",
+        "unconstructed_grip_disk_projection": "3525009937/8000000000",
+        "whole_diameter_squared": "194501812809328233431/40000000000000000000000"
+      },
+      "r": "3/20",
+      "rho_max": "32/5",
+      "rho_min": "3/20"
+    },
+    {
+      "N": 7,
+      "c0": "43/8",
+      "coefficients_all_equal": true,
+      "delta_exact": "242266589/523402880",
+      "diameter_upper_exact": "582632548035169127/275764086893044750",
+      "four_tuples_counted": 4096,
+      "inradius_exact": "25138006521989158297/35297803122309728000",
+      "published_endpoint_budget_margins": {
+        "core_reach_target_only": "81/1000",
+        "held_target": "358534567/125000000000",
+        "unconstructed_grip_disk_diameter": "7/50",
+        "unconstructed_grip_disk_projection": "412169152139/1000000000000",
+        "whole_diameter_squared": "644158713942274957431/40000000000000000000000"
+      },
+      "r": "3/20",
+      "rho_max": "8833/860",
+      "rho_min": "3/20"
+    },
+    {
+      "N": 7,
+      "c0": "43/8",
+      "coefficients_all_equal": true,
+      "delta_exact": "2180399301/4448924480",
+      "diameter_upper_exact": "4967928845423477393/2343994738590880375",
+      "four_tuples_counted": 4096,
+      "inradius_exact": "208593157136747560673/300031326539632688000",
+      "published_endpoint_budget_margins": {
+        "core_reach_target_only": "7/250",
+        "held_target": "2019164443/200000000000",
+        "unconstructed_grip_disk_diameter": "3/25",
+        "unconstructed_grip_disk_projection": "197618962897/500000000000",
+        "whole_diameter_squared": "3626473132376363760599/62500000000000000000000"
+      },
+      "r": "1/10",
+      "rho_max": "4651/430",
+      "rho_min": "1/10"
+    }
+  ],
+  "scope": "Finite normal-angle kernel and conditional whole-image scalar inequalities only.",
+  "script_sha256": "05814efba32df9423b8ae86d5cad918ae4abd2884290d154913a4018f36c219f",
+  "solver_root_RK_geometry_backend_calls": 0,
+  "sources": [
+    {
+      "bytes": 9781,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-finite-core.md",
+      "sha256": "812a4e2ec8c1d54dcf3004b1c7ff275a0a84973fb22808c7ceac4cdeb0145d08"
+    },
+    {
+      "bytes": 4639,
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-finite-bounds.py",
+      "sha256": "6ca39830537b2f63f444fb3de71f8ba69251211b2485a3f698dcc749e5063e69"
+    },
+    {
+      "bytes": 23434,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-finite-bounds.json",
+      "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+    },
+    {
+      "bytes": 23434,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-c3-finite-replay.json",
+      "sha256": "2d5e300efe5f7fd33756235ee59e9c64466c5c0b0c441327f9248a8cb5c532fa"
+    },
+    {
+      "bytes": 14980,
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-core.md",
+      "sha256": "df2f2857c8330dc9fd851d09e194ae731c46336e4dafba2a5cb9afd90cfd761f"
+    },
+    {
+      "bytes": 4418,
+      "path": "topics/visible-flexible-closed-surface/README.md",
+      "sha256": "dce2fa84bc32a898dcdb19d77f210169b7faa2e9b3b92a72bb7193121581b719"
+    },
+    {
+      "bytes": 3937,
+      "path": "topics/visible-flexible-closed-surface/results/R10-positive-support-offset-reach.md",
+      "sha256": "d82c92d42fac38e7d50f83987254dd59b805b92db8f78b917ee8aa6947702505"
+    }
+  ],
+  "status": "PASS-independent-integer-four-tuple-kernel-reconstruction"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "INDEPENDENT_FROZEN_ENDPOINT_PLAN_CHECK_PASS",
+  "script_sha256": "2bff9a031ad7445bd7549155ddfdca1d9a7a5d883a19b70e9c8cfbcefcb26275",
+  "source_sha256": "993dc6a180b917132d8284fae6c6366b45dddd883f9c09ab50b2b1dcf87f593b",
+  "frozen_base_sha256": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+  "author_plan": {
+    "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-endpoint-grid-m15-quarter-p8-r0025-grid-plan.json",
+    "sha256": "0a028f17f2d0b7e310ff94205dd8ffd540d7f67532c85d6959b37593f469259e"
+  },
+  "replay_plan": {
+    "file": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-endpoint-grid-m15-quarter-p8-r0025-grid-plan.json",
+    "sha256": "0a028f17f2d0b7e310ff94205dd8ffd540d7f67532c85d6959b37593f469259e"
+  },
+  "independent_actual_plan_run_exit_code": 0,
+  "replay_byte_identical": true,
+  "source_stages": 576,
+  "total_source_nodes": 21031,
+  "changed_source_stage": 15,
+  "unchanged_source_x_hashes": 575,
+  "selected_old_nodes": 65,
+  "selected_new_nodes": 168,
+  "selected_binary_nodes_rehashed": true,
+  "selected_exact_fraction_gaps_positive": true,
+  "selected_legacy_nodes_are_subset": true,
+  "numerical_layer_width": 0.08071321815181332,
+  "original_critical_functions_byte_identical": true,
+  "original_math_after_dyadic_byte_identical_except_metadata": true,
+  "physical_stats_exactly_equal_to_old_m8": true,
+  "common_physical_source_hashes": {
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "source_parameter_differences": [
+    "depth",
+    "farPadding",
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "maxIterations",
+    "modes",
+    "physicalDepth",
+    "sharedEngines",
+    "shootingParts",
+    "traceFile",
+    "trialDiagnosticFile",
+    "trialStatePrefix"
+  ],
+  "planning_source_hashes": {
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-endpoint-critical-increment-export.mjs": "993dc6a180b917132d8284fae6c6366b45dddd883f9c09ab50b2b1dcf87f593b",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-critical-increment-export.mjs": "89307bf2ca1b191c9a6850227d597325ec3c1923e2b8067a20bea58991f82175",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-boundary-height-grid.mjs": "8036030f4c4da3bb6c94b020c0d8a5437f49707c9f20011918d5ee66bf3008e5",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "angular_root_calls": 0,
+  "RK_calls": 0,
+  "full_map_exports": 0,
+  "normalized_physical_grid_constructed": false,
+  "scope": "One actual quarter-warm grid proposal only. The replay recomputed finite positive unscaled increments before plan-only exit. Unchanged other-stage source-x hashes do not assert unchanged normalized physical r, integrated coefficients, or a new geometry certificate."
+}

@@ -1,0 +1,71 @@
+{
+  "status": "OWN_W22_LOW_HEIGHT_TRUE_DN_RESPONSE_ONLY",
+  "observer": "/root/numerical_recovery",
+  "packet": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail_0001.json.gz",
+    "bytes": 763610,
+    "sha256": "087b54b194aaef301b600e36db29a9ddd3aae586404e09ebf8d5e85354d5154e"
+  },
+  "actual_response": {
+    "converged": true,
+    "residual": 1.5667180114594494e-10,
+    "history_iterations": 2,
+    "shooting_node_count": 1729,
+    "own_full_tail_order": 22,
+    "quadrature": 512,
+    "physical_depth": 12,
+    "shooting_stages": 1728,
+    "shooting_parts": 16,
+    "rk_steps_per_stage": 16,
+    "audit_steps_per_stage": 16,
+    "floor": 0.05,
+    "original_shooting_tolerance": 2e-09
+  },
+  "actual_height": {
+    "original_known_height_scale": 0.125,
+    "request_exactly_equals_scaled_known_seed": true,
+    "checkpoint_height_equals_actual_request": true,
+    "zero_extended_high_height_count": 7
+  },
+  "jacobian_requested": false,
+  "audit_requested": false,
+  "serialized_height_jacobian_is_null": true,
+  "serialized_audit_is_null": true,
+  "tangent_evidence": [
+    {
+      "time": "2026-11-10T13:46:27.269Z",
+      "event": "tangent_predictor_ready",
+      "call": 1,
+      "maxChartCondition": 206149.05040545473
+    },
+    {
+      "time": "2026-11-10T13:46:27.270Z",
+      "event": "response",
+      "call": 1,
+      "elapsed_ms": 320147,
+      "converged": true,
+      "residual": 1.5667180114594494e-10,
+      "maxChartCondition": 206149.05040545488
+    },
+    {
+      "time": "2026-11-10T13:46:28.113Z",
+      "event": "tangent_warm_predictor",
+      "call": 2,
+      "kind": "full-nonlinear-shooting-tangent-warm",
+      "modes": 22,
+      "stages": 1728,
+      "maxChartCondition": 206149.05040545473,
+      "maxRelativeCorrection": 1.7791950263225247,
+      "scope": "Initial guess only; original nonlinear residual and guards still decide success."
+    }
+  ],
+  "stage_jacobians_retained_in_worker_memory_not_serialized": true,
+  "recorded_source_count": 23,
+  "recorded_sources_current_byte_mismatches": [],
+  "original_full_height_solved": false,
+  "prefix_inner_solved": false,
+  "finite_coupled_success": false,
+  "closed_surface_success": false,
+  "tool_exit_not_inferred": true,
+  "scope": "The low-height packet is a genuine finite DN intermediate. Full original height, own final derivative/audit, prefix and complete continuous graph still have to be produced."
+}

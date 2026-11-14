@@ -1,0 +1,1040 @@
+{
+  "schema": "fd2d-actual-grouped-coast-single-balanced-JVP-v1",
+  "status": "completed",
+  "passed": true,
+  "sources": {
+    "fd2d-metric-grouped-coast-local-check-v2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-grouped-coast-local-check-v2.py",
+      "bytes": 9561,
+      "sha256": "d164974ade6b84d03981f2d9ab23ee6d36a0dcfe253e032398a7929010c02075"
+    },
+    "fd2d_gc_grouped_coast_codazzi.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_grouped_coast_codazzi.py",
+      "bytes": 21332,
+      "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    },
+    "fd2d_gc_midpoint_refined_positive_trace_v3.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_midpoint_refined_positive_trace_v3.py",
+      "bytes": 16752,
+      "sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356"
+    },
+    "fd2d_gc_positive_trace_stream_normal.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_trace_stream_normal.py",
+      "bytes": 10262,
+      "sha256": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36"
+    },
+    "fd2d_gc_gauss_cell_frozen_operator_compatible.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_frozen_operator_compatible.py",
+      "bytes": 4592,
+      "sha256": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46"
+    },
+    "fd2d_gc_frozen_operator_projections.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_operator_projections.py",
+      "bytes": 13877,
+      "sha256": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798"
+    },
+    "fd2d_gc_gauss_cell_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_gauss_cell_positive_trace.py",
+      "bytes": 7619,
+      "sha256": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7"
+    },
+    "fd2d_gc_hybrid_lifting_codazzi_d2.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_hybrid_lifting_codazzi_d2.py",
+      "bytes": 15889,
+      "sha256": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe"
+    },
+    "fd2d_gc_positive_gauss_l.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_positive_gauss_l.py",
+      "bytes": 3324,
+      "sha256": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be"
+    },
+    "fd2d_gc_codazzi_complement.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    "fd2d_gc_d2_complements.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_d2_complements.py",
+      "bytes": 15853,
+      "sha256": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf"
+    },
+    "fd2d_gc_raw_bump_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_ruling_atlas.py",
+      "bytes": 13604,
+      "sha256": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb"
+    },
+    "fd2d_gc_frozen_ruling_atlas.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_frozen_ruling_atlas.py",
+      "bytes": 10571,
+      "sha256": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21"
+    },
+    "fd2d_gc_raw_bump_positive_trace.py": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_bump_positive_trace.py",
+      "bytes": 11797,
+      "sha256": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61"
+    }
+  },
+  "input_field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-accepted-0001.npz",
+    "bytes": 126857,
+    "sha256": "a485ca86233a196223f16fc2f9c01b7cf3592ae5499d9a04fd94bd7f2511e81e"
+  },
+  "input_run_report": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-reuse23-b0003-report.json",
+    "bytes": 359916,
+    "sha256": "ef14e4765f8a552da288195576368a8f70ffdeb2315ab852318b836d2e751a95"
+  },
+  "old_four_cell_witness": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-coast-delta-quadrature23b3-01-witnesses.npz",
+    "bytes": 500760,
+    "sha256": "a82fd282d315b4514555c9890de3785cac3d4c801c345bb087fb182c9bfa9a6b"
+  },
+  "no_whole_J": true,
+  "no_BVP": true,
+  "no_body": true,
+  "no_continuous_certificate": true,
+  "original_affine_R152_not_rechecked": true,
+  "previous_failed_fixture": {
+    "report": {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-grouped-coast-local-01-report.json",
+      "bytes": 6244,
+      "sha256": "2507dcb2027c7ffed77e0add6f56068585ee0146d90ede2c4837c43008f1a009"
+    },
+    "reason": "Cell64 is exactly tail-independent: the tail radial lifting starts only after the left plateau begins. The first fixture stopped before finite differences; this variant uses the real exit-rim cell73."
+  },
+  "cell": 73,
+  "endpoints": [
+    0.8281800958020702,
+    0.8478617704522428
+  ],
+  "dimensions": {
+    "raw": 31,
+    "tail": 16,
+    "parameters": 54,
+    "global_nodes": 129,
+    "local_nodes": 2,
+    "work": 512
+  },
+  "nonzero_balanced_component_action_norms": {
+    "state": 0.9999999999999998,
+    "tail": 1.0,
+    "physical_profile": 1.0
+  },
+  "unscaled_component_action_norms": {
+    "state": 37.31655783865025,
+    "tail": 0.03452616091003696,
+    "physical_profile": 68.84377612687057
+  },
+  "direction_definition": {
+    "state": [
+      31,
+      62,
+      94,
+      97,
+      128,
+      162
+    ],
+    "tail": [
+      221,
+      225,
+      228,
+      232,
+      236
+    ],
+    "physical_profile": [
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243
+    ]
+  },
+  "finite_difference_step": 1e-06,
+  "analytic_action_l2": 1.6804641238634006,
+  "finite_difference_action_l2": 1.6804641249405836,
+  "relative_l2_error": 7.557115175724136e-09,
+  "relative_maximum_error": 1.1045826177143869e-08,
+  "absolute_error_maximum": 1.0640146097529168e-08,
+  "retained_projection_difference": 3.90655389981287e-14,
+  "full_low_high_decomposition_difference": 7.435718707426986e-14,
+  "old_saved_full_maxima": [
+    0.49740039950587184,
+    0.6574084859959741
+  ],
+  "isolated_delta_only_refinement_full_maxima": [
+    0.508306795106648,
+    3.6477091753292274
+  ],
+  "grouped_whole_actual_fine_full_maxima": [
+    0.5083213016780026,
+    3.664825908821722
+  ],
+  "grouped_retained_maximum": 0.44276214290358507,
+  "grouped_omitted_sampled_maximum": 1.0681686210139567,
+  "original_G2_point_gauss_shape": [
+    512,
+    2
+  ],
+  "original_G2_diagnostic_points": [
+    0.8323393230484666,
+    0.8437025432058464
+  ],
+  "info": {
+    "schema": "fd2d-whole-actual-R153-split-fine-coast-cell-v1",
+    "source_sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+    "order": 2,
+    "diagnostic_Gauss_order": 2,
+    "selected_coast_local_cells": [
+      0
+    ],
+    "grouped_coast_local_cells": [
+      0
+    ],
+    "grouped_actual_field_order": 8,
+    "finite_equations_changed": true,
+    "actual_field_changed": false,
+    "physical_g_changed": false,
+    "unknown_mesh_changed": false,
+    "full_actual_field_integrated_at_common_points": true,
+    "exact_endpoint_lifting_difference_preserved": true,
+    "only_nonlinear_delta_refined": false,
+    "full_nonlinear_state_and_parameter_columns": true,
+    "parameter_fixed_quadrature": true,
+    "formula": "complete n/m endpoint difference minus split-fine average of the whole actual R153 physical PDE",
+    "point_gauss_scope": "Original Gauss2 diagnostic points only; same shape and ordering as legacy chunk consumers",
+    "fine_Gauss_scope": "Separate finite observations in grouped_coast_rules; not included in point_gauss or sampled_interior_Gauss_maximum",
+    "grouped_coast_rules": [
+      {
+        "local_cell": 0,
+        "endpoints": [
+          0.8281800958020702,
+          0.8478617704522428
+        ],
+        "cuts": [
+          0.8281800958020702,
+          0.8344782316901254,
+          0.8478617704522428
+        ],
+        "points": [
+          0.8283051457420265,
+          0.8288204068799931,
+          0.8296742264804827,
+          0.8307515155935906,
+          0.8319068118986049,
+          0.8329841010117128,
+          0.8338379206122024,
+          0.834353181750169,
+          0.8347439628125326,
+          0.8358388927307117,
+          0.837653259381752,
+          0.8399424987471062,
+          0.8423975033952619,
+          0.8446867427606162,
+          0.8465011094116565,
+          0.8475960393298355
+        ],
+        "average_weights": [
+          0.016196565806460193,
+          0.03558096551253961,
+          0.050193063340461475,
+          0.058029405340537375,
+          0.058029405340537375,
+          0.050193063340461475,
+          0.03558096551253961,
+          0.016196565806460193,
+          0.03441770233872834,
+          0.07560955171414761,
+          0.10666025959848197,
+          0.12331248634864346,
+          0.12331248634864346,
+          0.10666025959848197,
+          0.07560955171414761,
+          0.03441770233872834
+        ],
+        "panels": [
+          {
+            "endpoints": [
+              0.8281800958020702,
+              0.8344782316901254
+            ],
+            "requested_order": 8,
+            "actual_point_count": 8,
+            "narrow_panel_fallback": null
+          },
+          {
+            "endpoints": [
+              0.8344782316901254,
+              0.8478617704522428
+            ],
+            "requested_order": 8,
+            "actual_point_count": 8,
+            "narrow_panel_fallback": null
+          }
+        ],
+        "fine_sampled_Gauss_maximum": 1.5933554179561287,
+        "fine_Gauss_location": {
+          "angular_index": 89,
+          "xi": 1.0921943209745766,
+          "s": 0.8446867427606162,
+          "signed_value": -1.5933554179561287
+        },
+        "fine_sampled_minimum_active_n": 0.4828180383693811
+      }
+    ],
+    "declared_common_piece_boundaries": [
+      {
+        "s": 0.0,
+        "kinds": [
+          "legacy_seed_algebraic_cancellation",
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.32,
+        "kinds": [
+          "actual_seed_weight",
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.32625,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.33249999999999996,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.33874999999999994,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.34,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3449999999999999,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3512499999999999,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.35749999999999993,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3637499999999999,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3699999999999999,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.37624999999999986,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.38249999999999984,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3887499999999998,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.3949999999999998,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4012499999999998,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.40749999999999975,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.41374999999999973,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4199999999999997,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4262499999999997,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.43249999999999966,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.43874999999999964,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4449999999999996,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4512499999999996,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4528973178358129,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4574999999999996,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.46374999999999955,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.46999999999999953,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4762499999999995,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.4824999999999995,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.48874999999999946,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.49499999999999944,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5012499999999994,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5074999999999994,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5137499999999994,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5199999999999994,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5262499999999993,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5324999999999993,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5387499999999993,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5449999999999993,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.55,
+        "kinds": [
+          "actual_seed_weight",
+          "atlas_entry_transition",
+          "legacy_seed_algebraic_cancellation"
+        ]
+      },
+      {
+        "s": 0.5512499999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5574999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5637499999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5657946356716258,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5699999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5719999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5739999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5759999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5779999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5799999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.58,
+        "kinds": [
+          "original_chart_blend"
+        ]
+      },
+      {
+        "s": 0.5819999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5839999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5859999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5879999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5899999999999992,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.5919999999999992,
+        "kinds": [
+          "atlas_coast",
+          "atlas_entry_transition",
+          "frozen_reference_window",
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.6250652134122892,
+        "kinds": [
+          "frozen_reference_window"
+        ]
+      },
+      {
+        "s": 0.6253687349104141,
+        "kinds": [
+          "tail_radial_lifting_weight"
+        ]
+      },
+      {
+        "s": 0.6786919535074387,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.7915892713432515,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.8344782316901254,
+        "kinds": [
+          "frozen_reference_window"
+        ]
+      },
+      {
+        "s": 0.8675434451024153,
+        "kinds": [
+          "atlas_coast",
+          "atlas_exit_transition",
+          "frozen_reference_window",
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.8875434451024153,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.9044865891790643,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.9799009653163169,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 0.9999009653163169,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.000419888139713,
+        "kinds": [
+          "physical_turn_internal_piece"
+        ]
+      },
+      {
+        "s": 1.0058685777853722,
+        "kinds": [
+          "physical_turn_internal_piece"
+        ]
+      },
+      {
+        "s": 1.0063875006087684,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.0173839070148774,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.0263875006087684,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.0609143548287172,
+        "kinds": [
+          "physical_turn_internal_piece"
+        ]
+      },
+      {
+        "s": 1.1302812248506902,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.243178542686503,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.356075860522316,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.399634787656641,
+        "kinds": [
+          "original_chart_blend"
+        ]
+      },
+      {
+        "s": 1.4,
+        "kinds": [
+          "atlas_exit_transition"
+        ]
+      },
+      {
+        "s": 1.42344632413818,
+        "kinds": [
+          "physical_turn_internal_piece"
+        ]
+      },
+      {
+        "s": 1.457973178358129,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.4629731783581288,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.4689731783581288,
+        "kinds": [
+          "physical_profile_or_bump_support"
+        ]
+      },
+      {
+        "s": 1.4889731783581288,
+        "kinds": [
+          "physical_profile_or_bump_support",
+          "tail_radial_lifting_weight"
+        ]
+      }
+    ],
+    "additional_saved_plateau_endpoints": [
+      0.6250652134122892,
+      0.8344782316901254
+    ],
+    "retained_cell_maximum": 0.44276214290358507,
+    "sampled_full_average_codazzi_maximum": 3.664825908821722,
+    "sampled_omitted_average_codazzi_maximum": 1.0681686210139567,
+    "sampled_interior_Gauss_maximum": 1.5512068652407343,
+    "fine_sampled_interior_Gauss_maximum": 1.5933554179561287,
+    "row_definition": {
+      "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+      "work": 512,
+      "retained_maximum_frequency": 62,
+      "even_frequencies": [
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238,
+        240,
+        242,
+        244,
+        246,
+        248,
+        250,
+        252,
+        254,
+        256
+      ],
+      "odd_frequencies": [
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238,
+        240,
+        242,
+        244,
+        246,
+        248,
+        250,
+        252,
+        254
+      ],
+      "ordinary_projection_weight": "2/W",
+      "even_Nyquist_projection_weight": "sqrt(2)/W",
+      "old_point_normalization": "sqrt(2/W)",
+      "grid_roundoff_maximum": 8.881784197001252e-16,
+      "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+      "arbitrary_sampled_fields_supported": false,
+      "floating_point_symmetry_defects_are_reported": true,
+      "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+      "continuous_angular_certificate": false
+    },
+    "known_affine_lifting_separately_reintegrated": false,
+    "known_lifting_change_maximum_not_separately_evaluated": true,
+    "continuous_certificate": false,
+    "finite_fine_rule_is_not_an_exact_integral": true,
+    "retained_jacobian_nonzeros": 13168,
+    "high_jacobian_nonzeros": 40144
+  },
+  "source_vector_bytes_unchanged": true,
+  "scope": "One cell crossing the saved right coast plateau endpoint, one balanced direction with nonzero raw state, independent tail and physical-profile actions; no global Jacobian or main solve",
+  "arrays": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-grouped-coast-local-02-witnesses.npz",
+    "bytes": 41857,
+    "sha256": "ec139a8e7ebae7c28efdfbf8e1144553e36f995d2186bb8a2ca1e3aaa7b440fe"
+  },
+  "seconds": 17.128621807001764,
+  "peak_rss_kib": 94024,
+  "sources_unchanged": true
+}

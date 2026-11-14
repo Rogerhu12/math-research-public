@@ -1,0 +1,34 @@
+{
+  "operation": "git prune-packed --quiet",
+  "scope": "Only duplicate loose Git objects already covered by existing pack indexes; no refs, packs, research files or active outputs removed",
+  "official_documentation": "https://git-scm.com/docs/git-prune-packed",
+  "recorded_utc": "2026-11-09T14:57:33.085436+00:00",
+  "actual_exit_code": 0,
+  "before": {
+    "all_present_oid_count": 112254,
+    "all_present_sorted_oid_sha256": "b5e4aae531f31fc7b1f4182e72c1ffb7f4cbf42380480fc574179f73d4f2eb76",
+    "packed_unique_oid_count": 111801,
+    "loose_count": 1794,
+    "loose_bytes": 337845441,
+    "covered_loose_count": 1341,
+    "available_bytes": 729845760
+  },
+  "after": {
+    "all_present_oid_count": 112254,
+    "all_present_sorted_oid_sha256": "b5e4aae531f31fc7b1f4182e72c1ffb7f4cbf42380480fc574179f73d4f2eb76",
+    "packed_unique_oid_count": 111801,
+    "loose_count": 453,
+    "loose_bytes": 3077719,
+    "covered_loose_count": 0,
+    "available_bytes": 1068126208
+  },
+  "all_present_OID_set_identical": true,
+  "partition_observation_only": {
+    "promisor_union_count": 110093,
+    "canonical_promisor_count": 107143,
+    "additional_promisor_oids": 2950,
+    "ordinary_union_count": 1708,
+    "ordinary_not_promisor_count": 1708,
+    "loose_not_in_pack_count": 453
+  }
+}

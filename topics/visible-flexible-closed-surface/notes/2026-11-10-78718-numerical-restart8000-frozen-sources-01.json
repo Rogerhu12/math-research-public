@@ -1,0 +1,71 @@
+{
+  "schema": "78718-restart8000-frozen-source-inventory-v1",
+  "status": "FROZEN_FOR_INDEPENDENT_REVIEW_NOT_SOLVER_SUCCESS",
+  "sources": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-canonical-runtime-code-v1.py",
+      "bytes": 7876,
+      "sha256": "797eb77b7d8c85087659a30a5bfbfc8b7093d434a9246a9071bd3b59ece82d28"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-canonical-runtime-code-v1.py",
+      "bytes": 8260,
+      "sha256": "f869c3e17f5ff58577fb43967dc3f7df825144a9a9650e0ca7c5bb4ff6b95762"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-restart8000-inputs-v1.py",
+      "bytes": 16162,
+      "sha256": "8730f041dd471c8b37c915589ed3be9cc32049f6f2e34e43b05df481811d0dd6"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-restart8000-v1.py",
+      "bytes": 18738,
+      "sha256": "200792dbe56a84c2cf1b3954f3a4c73a060bab8579029612d16ffe2f162c9b30"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-prepare-restart8000-v1.py",
+      "bytes": 6227,
+      "sha256": "dded46af332d471e7e6e12535295fcfb901ffc312689fdd748b6845f149b08a5"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-restart8000-v1.py",
+      "bytes": 31955,
+      "sha256": "cd090888e4552317bce183c3b5788710ced9e17eea965b9489252e96d2f3496f"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-restart8000-runtime-v1.py",
+      "bytes": 4960,
+      "sha256": "57b49ef7d7ab4531c0cfed567a3cc3d85b5167773425b1fb9c1e3addeeadfdd6"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-build-restart8000-entry-v1.py",
+      "bytes": 13721,
+      "sha256": "692dbb88beb3905af9ef30de8601be898811e747353f3e7cc03faaf23dce1d6a"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prepare-restart8000-guard-v1.py",
+      "bytes": 2720,
+      "sha256": "124c7acf14d9e52e25a41857db443231f3287c2f88ddda524b775e35c8b59b02"
+    }
+  ],
+  "old_source_mutations": false,
+  "new_solver_started": false,
+  "pure_prepare_actual_exit": {
+    "start_tool": "fcd563",
+    "session_id": 43315,
+    "completion_tool": "7a4be9",
+    "exit_code": 0
+  },
+  "runtime_identity_actual_exit": {
+    "start_tool": "35c6ee",
+    "session_id": 27297,
+    "completion_tool": "729f61",
+    "exit_code": 0
+  },
+  "resource_metadata_actual_exit": {
+    "start_tool": "affc94",
+    "session_id": 84954,
+    "completion_tool": "dc3c10",
+    "exit_code": 0
+  }
+}

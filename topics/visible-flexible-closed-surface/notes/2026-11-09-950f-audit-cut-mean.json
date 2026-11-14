@@ -1,0 +1,90 @@
+{
+  "scope": "Exact Fraction checks of the conditional regular-cut lemma's coarse domain and the stored finite Fourier trace. No existence, exact numerical isometry, C2 gluing, or infinite-tail assertion.",
+  "status": "PASS",
+  "sources": {
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/scripts/950f-audit-cut-mean.py": "63bc9101ea0565b25ca2cd6a2be20e687b9c06eab19a295b4f66d299f40534e0",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-macro-m12-geometry.json": "0cbbe56399fb57b2637fbe1147cd005bf76114308a00bc017bb4be93b42d1870",
+    "/workspace/scratch/950f9f736d2d/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-cut-mean-uniqueness.md": "e60676406c8746426a43ab62784aa373221e45100dc0ff9dac8bf6dca988f313"
+  },
+  "modes": 12,
+  "finite_fourier_size_bounds": {
+    "v": {
+      "numerator": "4975904039801930910937150767",
+      "denominator": "1267650600228229401496703205376",
+      "display": 0.003925296165131041
+    },
+    "w": {
+      "numerator": "61520310757378811278647552789",
+      "denominator": "5070602400912917605986812821504",
+      "display": 0.01213274200838595
+    },
+    "u0": {
+      "numerator": "986886698621810018502153581",
+      "denominator": "79228162514264337593543950336",
+      "display": 0.01245626135080603
+    },
+    "mean_u": {
+      "numerator": "8058494635703853",
+      "denominator": "18014398509481984",
+      "display": 0.44733631441883653
+    }
+  },
+  "coarse_domain_exact_bounds": {
+    "Q_lower": {
+      "numerator": "262631",
+      "denominator": "360000",
+      "display": 0.7295305555555556
+    },
+    "H_derivative_lower": {
+      "numerator": "22979",
+      "denominator": "75000",
+      "display": 0.30638666666666664
+    },
+    "second_jet_denominator_upper": {
+      "numerator": "-22979",
+      "denominator": "125000",
+      "display": -0.183832
+    }
+  },
+  "robust_binary_geometry_neighborhood": {
+    "radius_interval": [
+      {
+        "numerator": "599999",
+        "denominator": "1000000",
+        "display": 0.599999
+      },
+      {
+        "numerator": "600001",
+        "denominator": "1000000",
+        "display": 0.600001
+      }
+    ],
+    "E_interval": [
+      {
+        "numerator": "124999",
+        "denominator": "100000",
+        "display": 1.24999
+      },
+      {
+        "numerator": "125001",
+        "denominator": "100000",
+        "display": 1.25001
+      }
+    ],
+    "Q_lower": {
+      "numerator": "164143827800456",
+      "denominator": "224999250000625",
+      "display": 0.7295305553240735
+    },
+    "H_derivative_lower": {
+      "numerator": "4595791507",
+      "denominator": "14999975000",
+      "display": 0.3063866111110185
+    },
+    "second_jet_denominator_upper": {
+      "numerator": "-4595791507",
+      "denominator": "25000000000",
+      "display": -0.18383166028
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "fd2d-owned-tool-exit-observation-v1",
+  "session_id": 90299,
+  "launch_chunk": "2c6e91",
+  "observed_completion_chunk": "e8002b",
+  "observed_tool_exit_code": 137,
+  "observed_utc": "2026-11-12T13:32:37.921255+00:00",
+  "actual_child_exit_codes": [
+    0,
+    -9,
+    -9,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "owner_stop_requested": false,
+  "signal_scope": "Child2 and child3 SIGKILL observed by wait after complete saved accepted entities; cause unknown. Natural continuation and final child0 do not erase parent137."
+}

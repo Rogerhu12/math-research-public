@@ -1,0 +1,57 @@
+{
+  "schema": "fd2d-actual-main-publication-receipt-v1",
+  "batch": "eighteenth",
+  "payload_branch": "visible-flex-fd2d-ci-publish-20261112t192800",
+  "payload_commit": "526bc406d2aa5e921630fbc575203162eb59a31e",
+  "payload_process": {
+    "session_id": 48737,
+    "initial_chunk_id": "7c072b",
+    "completion_chunk_id": "67ba68",
+    "actual_exit": 0
+  },
+  "builder_process": {
+    "session_id": 65911,
+    "initial_chunk_id": "9b3e70",
+    "completion_chunk_id": "0466fa",
+    "actual_exit": 0
+  },
+  "run_id": 43290495522,
+  "job_id": 131435137227,
+  "workflow_conclusion": "success",
+  "closed_groups": 7,
+  "owned_files": 166,
+  "owned_bytes": 4310206,
+  "local_literal_pull": {
+    "actual_exit": 0,
+    "readme_previous": "3cd443ab3c7eddfa7a48e709c4dd10ee65be2df4",
+    "readme_current": "f3c9a9419b7e884c67cfa9db2d07deba1dd63258",
+    "readme_diff_empty": true
+  },
+  "ci_events": [
+    {
+      "attempt": 1,
+      "pull_command": "git pull --rebase --no-stat origin main",
+      "pull_exit": 0,
+      "readme_previous": "f3c9a9419b7e884c67cfa9db2d07deba1dd63258",
+      "readme_current": "17eb0cebc61bbcadcfd419cce49ca49b2051c7e3",
+      "readme_diff_empty": true
+    },
+    {
+      "attempt": 1,
+      "push_exit": 0,
+      "commit": "8c5fe6cafc5a7b767365fce146c0bc5c451f794e",
+      "seconds": 3.141323236000005,
+      "message": "To https://github.com/Rogerhu12/math-research.git\n   17eb0ce..8c5fe6c  HEAD -> main\n"
+    }
+  ],
+  "main_receipt": {
+    "commit": "8c5fe6cafc5a7b767365fce146c0bc5c451f794e",
+    "rules_read_sha": "17eb0cebc61bbcadcfd419cce49ca49b2051c7e3",
+    "attempt": 1,
+    "utc": "2026-11-12T19:28:37.104720+00:00",
+    "method": "ordinary terminal Git; literal pull --rebase after each rejected main push; root LOG untouched"
+  },
+  "scope": "27 actual accepted 2b; closed 28 merge failures; R169/R170/R171 and shortened-cylinder native consumer. Strong target remains open.",
+  "root_LOG_modified": false,
+  "force_push": false
+}

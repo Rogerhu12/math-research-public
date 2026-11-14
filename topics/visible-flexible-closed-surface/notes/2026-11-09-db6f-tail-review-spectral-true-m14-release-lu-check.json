@@ -1,0 +1,60 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_CLOSURE_AND_PURE_PREPARATION",
+  "reviewer": "/root/tail_review_continued_2",
+  "scope": "Independent metadata/AST check of the true-M14 explicit LU variant.\n\nUses only Python's standard library. Does not import candidate/solver modules,\ncall install/select_newton, or create any mathematical success fixture.\nThe separate actual pure preparation and negative-gate receipts are recorded\nby the reviewer, not inferred by this check.\n",
+  "checks": [
+    {
+      "check": "author_publication_and_previously_reviewed_function_batch",
+      "status": "PASS",
+      "files": 10,
+      "dependency_files": 7
+    },
+    {
+      "check": "complete_source_closure_and_rederived_callbacks",
+      "status": "PASS",
+      "bindings_per_launch": 117,
+      "callbacks": 24,
+      "unchanged_original_callbacks": 21,
+      "added_identity_callbacks": 3
+    },
+    {
+      "check": "independent_real_preparation_equivalence",
+      "status": "PASS",
+      "output_files": 3,
+      "no_new_CP_PPoly_tail_reproduction_or_observation": true
+    },
+    {
+      "check": "AST_original_numeric_gates",
+      "status": "PASS",
+      "unchanged_helpers": 7,
+      "original_Newton_gate_rename_only": true,
+      "unchanged_packet_polynomial_CLI": 3,
+      "identity_only_output_first_packet": 2
+    },
+    {
+      "check": "runtime_source_order_and_SciPy_global_resolution",
+      "status": "PASS",
+      "original_install_before_true_outer": true,
+      "physical_callbacks_before_selection": true,
+      "selected_identity_before_and_in_finally": true,
+      "solver_factory_execution": 0
+    }
+  ],
+  "source_ledger": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-spectral-true-m14-release-lu-sources.json",
+    "bytes": 37734,
+    "sha256": "f7dce9cba37d99447764a3217ca96a1306d29e33bc1aaf343171545877753feb"
+  },
+  "source_count": 131,
+  "actual_numerical_calls": {
+    "install": 0,
+    "select_newton": 0,
+    "BVP": 0,
+    "DN": 0,
+    "RK": 0,
+    "flow": 0,
+    "full_Newton": 0
+  },
+  "G5": false,
+  "README_completed": false
+}

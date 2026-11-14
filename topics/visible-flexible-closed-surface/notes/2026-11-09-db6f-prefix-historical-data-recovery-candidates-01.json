@@ -1,0 +1,1240 @@
+{
+  "schema": "db6f-readonly-historical-worktree-recovery-candidates-v1",
+  "status": "READONLY_CANDIDATE_PROOF_COMPLETE_NO_REMOVAL",
+  "started_utc": "2026-11-09T19:53:04.994832+00:00",
+  "completed_utc": "2026-11-09T19:53:07.308676+00:00",
+  "observer": "/root/coupled_prefix",
+  "repository": "/workspace/scratch/db6f0b0e7462/math-research",
+  "published_head": "fc197d3124c291d6da5e4ba496a123316fe31a83",
+  "origin_main": "fc197d3124c291d6da5e4ba496a123316fe31a83",
+  "head_origin_equal_before_and_after": true,
+  "source_bindings": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-amplitude-resume03-guarded-launch.json",
+      "bytes": 29066,
+      "sha256": "9d2495ea6b48872b40a3c813f0c3076819f48a88f1f5bd9dc1b1ec33bfa49594"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-linear-dn-pilot-v2-01-guard-launch.json",
+      "bytes": 48896,
+      "sha256": "ac6ecb605fdb14d5af91e7cc00520d21673bab006d00f8108556b7876871e54d"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01-launch.json",
+      "bytes": 55594,
+      "sha256": "e45c553ea6832525c6a2719a197dbcc49a7ee5dd77badfb4b363e19a4b974a83"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-readonly-pack-coverage-after-pilot-start.json",
+      "bytes": 37106,
+      "sha256": "50239a0c8dd88c11b69af91e75ea9cca64a1bea06654b7afd9bbaeeac5c38a34"
+    }
+  ],
+  "protected_input_list_counts": [
+    89,
+    161,
+    97
+  ],
+  "protected_direct_input_paths": 186,
+  "protected_paths_including_roots_and_coefficient_siblings": 189,
+  "protected_full_output_prefixes": [
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-flat-v17v18-m15-amplitude-continuation-03",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-linear-dn-matched-h0-h1-pilot-v2-01",
+    "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-affine-m14q512-01"
+  ],
+  "protected_scope": [
+    "all source code and repro/source-root excluded by candidate restriction to notes/*.f64.gz",
+    "entire continuation03 output stem retained although root has since observed process closure",
+    "entire linear-DN v2 pilot output stem and all 161 bound files retained",
+    "all 97 spectral affine future input bindings and entire future output stem retained",
+    "all dirty and untracked files excluded",
+    "formal M12 critical-r01 dataset retained; historical reports/manifests/scripts retained"
+  ],
+  "dirty_or_untracked_topic_paths_at_start": 391,
+  "dirty_or_untracked_topic_paths_at_finish": 391,
+  "datasets": [
+    {
+      "stem": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "expected_count": 26,
+      "expected_bytes": 91323717,
+      "scope": "historical second radial representation; formal M12 critical-r01 retained"
+    },
+    {
+      "stem": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "expected_count": 16,
+      "expected_bytes": 20960008,
+      "scope": "historical M8 native64 explicit tail representation"
+    }
+  ],
+  "file_count": 42,
+  "logical_bytes": 112283725,
+  "allocated_blocks_bytes": 112361472,
+  "allocation_caveat": "st_blocks is file allocation metadata, not a guarantee of free-space change on an overlay filesystem; actual free space must be observed only after any separately authorized cleanup.",
+  "git_readonly_execution": {
+    "git_version": "git version 2.43.0",
+    "optional_locks": false,
+    "protocol_allow": "never",
+    "origin_promisor_override": false,
+    "GIT_NO_LAZY_FETCH": "1",
+    "local_membership_checked_before_decode": true,
+    "cat_file_exit_code": 0,
+    "cat_file_stderr_empty": true,
+    "network_operations": 0,
+    "git_mutations": 0,
+    "pack_rewrites_or_removals": 0
+  },
+  "proof_steps": [
+    "Every path is a regular, single-link, clean tracked 100644 file in both identical HEAD and origin/main trees.",
+    "Working-file SHA-256 and Git blob SHA-1 were streamed; Git blob digest includes exact blob header.",
+    "Every object was first found in an existing local loose file or SHA-1 pack-index-v2 OID table with an existing pack file.",
+    "Local cat-file --batch decoded every selected payload; decoded SHA-256 and Git blob SHA-1 equal working bytes and published tree OID.",
+    "Refs, selected dirty status, selected stat identities and exclusion-root digests remained stable through the proof."
+  ],
+  "before_any_later_cleanup": [
+    "Recheck the same published commit/path mapping and all exclusion roots, and add any newly bound runtime dependencies.",
+    "Recheck selected worktree SHA-256/Gitblob and current status; skip every changed, dirty or newly protected path.",
+    "Recheck local object membership and decoded byte hash with network transports disabled.",
+    "Only root may decide whether to remove working copies; this report itself performs no cleanup."
+  ],
+  "local_restore_plan": {
+    "performed": false,
+    "source_commit": "fc197d3124c291d6da5e4ba496a123316fe31a83",
+    "description": "After separate authorization, restore a selected path from this local commit with git restore --source=<source_commit> --worktree -- <repo-relative path>, using protocol.allow=never and optional locks disabled; verify restored SHA-256 against this table. This is a future mutation, not part of the read-only proof."
+  },
+  "files": [
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "5f2def3c0b29a033469036901fc6ccea0baddcf2",
+      "bytes": 4419117,
+      "allocated_blocks_bytes": 4419584,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506783,
+        "size": 4419117,
+        "mtime_ns": 1794212848573405753,
+        "ctime_ns": 1794212848573405753,
+        "nlink": 1
+      },
+      "sha256": "1ec3b3e10943c65b40e1eb438d1d0733d070287771e06c393c761d2c3408a9ad",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 6304
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "9a516bd8f446ffba339af08347511940d22ad0ac",
+      "bytes": 4419547,
+      "allocated_blocks_bytes": 4419584,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506784,
+        "size": 4419547,
+        "mtime_ns": 1794212848689404278,
+        "ctime_ns": 1794212848689404278,
+        "nlink": 1
+      },
+      "sha256": "944632be1bc7444efe7992fa2662c254fa422576960c3ca01e7d7037d67332fb",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 10146
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "a8f168ee957fc8ad7ad8ddb16a90ea47713c437a",
+      "bytes": 4419822,
+      "allocated_blocks_bytes": 4423680,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506793,
+        "size": 4419822,
+        "mtime_ns": 1794212848817402651,
+        "ctime_ns": 1794212848817402651,
+        "nlink": 1
+      },
+      "sha256": "8d2567c34f937faffcdf6aeb5d8fe0a02d1cdbbd95b804d2a722c1c5c162fe34",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 11150
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part03.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "82e1e885f9dc2f27c539143acf33b41301de3625",
+      "bytes": 4404843,
+      "allocated_blocks_bytes": 4407296,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506794,
+        "size": 4404843,
+        "mtime_ns": 1794212848949400973,
+        "ctime_ns": 1794212848949400973,
+        "nlink": 1
+      },
+      "sha256": "5e5dd52801047e90fcf03fbe57d9f32cd0358f46a22219ed86350f0686b9b182",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 8616
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw000-part04.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "943baf5209890a0a531b52128067e25ede392dc6",
+      "bytes": 3554270,
+      "allocated_blocks_bytes": 3555328,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506795,
+        "size": 3554270,
+        "mtime_ns": 1794212849065399498,
+        "ctime_ns": 1794212849065399498,
+        "nlink": 1
+      },
+      "sha256": "884e0124956b50294367afb29cb5a6ca9baf908c32f1a6c34bbc6121e248bef6",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 9752
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "124652ea7447f9668f37e015a820fc8b30d7da48",
+      "bytes": 4396922,
+      "allocated_blocks_bytes": 4399104,
+      "stat_before": {
+        "device": 27,
+        "inode": 2507364,
+        "size": 4396922,
+        "mtime_ns": 1794212466546392420,
+        "ctime_ns": 1794212466546392420,
+        "nlink": 1
+      },
+      "sha256": "ef6fc206d1711c2b66f2cf6ed042406a78f40f44dcdb79a87cfb47f4a6734cb4",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 1208
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "67668fe0630c218c7d812f0d781a01cdfb9f89e7",
+      "bytes": 4418569,
+      "allocated_blocks_bytes": 4419584,
+      "stat_before": {
+        "device": 27,
+        "inode": 2507365,
+        "size": 4418569,
+        "mtime_ns": 1794212466694389959,
+        "ctime_ns": 1794212466694389959,
+        "nlink": 1
+      },
+      "sha256": "1ed526b321d2ff094fc8d2a1ea5b86a7598438db0a1683b9aa49730ce99a0d7a",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 6830
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw001-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "352f199181313aa627fc0fca90fb2f6a850253bb",
+      "bytes": 1362839,
+      "allocated_blocks_bytes": 1363968,
+      "stat_before": {
+        "device": 27,
+        "inode": 2507366,
+        "size": 1362839,
+        "mtime_ns": 1794212466742389158,
+        "ctime_ns": 1794212466742389158,
+        "nlink": 1
+      },
+      "sha256": "21dfff156e833573913c6c0cabe2eea44a1913217462589eb0c62f60a70e9951",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 3537
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "8946ae3cb4995fe805561b5f1fcb5710154b741e",
+      "bytes": 4358089,
+      "allocated_blocks_bytes": 4358144,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506755,
+        "size": 4358089,
+        "mtime_ns": 1794212299064656209,
+        "ctime_ns": 1794212299064656209,
+        "nlink": 1
+      },
+      "sha256": "7439fe53ea4daa24061284f8dca05bfe0c6b739269f1d2874657049cb38feb2b",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 9041
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "81fe1b52abce6bbb7b1d06905762d4fe3ca720c2",
+      "bytes": 4400138,
+      "allocated_blocks_bytes": 4403200,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506771,
+        "size": 4400138,
+        "mtime_ns": 1794212299204654371,
+        "ctime_ns": 1794212299204654371,
+        "nlink": 1
+      },
+      "sha256": "8583d151b5d40a6c3aa9fe8715166ea2acc79ccb944b9d9ce8219edc08268a13",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 8552
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw002-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "c31b9caa50b47f944a54008a3b91735c170e1233",
+      "bytes": 1355645,
+      "allocated_blocks_bytes": 1355776,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506787,
+        "size": 1355645,
+        "mtime_ns": 1794212299256653688,
+        "ctime_ns": 1794212299256653688,
+        "nlink": 1
+      },
+      "sha256": "441d0e4e2ba826e3231dc8a779c06a7563977acb84cfd669a4b900e6c4eb1532",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 12842
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "6ae9b45c68c8c10d0c8aed9c4de7426369e156d7",
+      "bytes": 4364709,
+      "allocated_blocks_bytes": 4366336,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506754,
+        "size": 4364709,
+        "mtime_ns": 1794212185630248691,
+        "ctime_ns": 1794212185630248691,
+        "nlink": 1
+      },
+      "sha256": "94491dfc39cbc6980d08853c0b6f89bfead12b257217f6307a2c20e0c59cae05",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 7038
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "1487f0446d6a5e748995d6fbf014e0b404aba6e4",
+      "bytes": 4377892,
+      "allocated_blocks_bytes": 4378624,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506770,
+        "size": 4377892,
+        "mtime_ns": 1794212185742247186,
+        "ctime_ns": 1794212185742247186,
+        "nlink": 1
+      },
+      "sha256": "062fc2855ade171c08d1bcec29105f4f47502f2aec10644a17e8a504244209a5",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 1368
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw003-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "6a76881d61227117bb390f6c4180bee096f2b74a",
+      "bytes": 1330700,
+      "allocated_blocks_bytes": 1331200,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506786,
+        "size": 1330700,
+        "mtime_ns": 1794212185782246649,
+        "ctime_ns": 1794212185782246649,
+        "nlink": 1
+      },
+      "sha256": "ac3f660bd8aa5c65c23715b3358e868a04338ff1e984767f6d73d333690e2cc9",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 7011
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "b61dd1e7875e544ceea655d19aaef48ab79e8766",
+      "bytes": 4296701,
+      "allocated_blocks_bytes": 4296704,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506849,
+        "size": 4296701,
+        "mtime_ns": 1794212082479668457,
+        "ctime_ns": 1794212082479668457,
+        "nlink": 1
+      },
+      "sha256": "763f1da45a18da12744ccb2f9a8c9846240e925693344d6f74f8a87358152870",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 11987
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "8da12ac6a9324a1ad1a94e6a293f4a336033f8ed",
+      "bytes": 4383296,
+      "allocated_blocks_bytes": 4386816,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506865,
+        "size": 4383296,
+        "mtime_ns": 1794212082715665567,
+        "ctime_ns": 1794212082715665567,
+        "nlink": 1
+      },
+      "sha256": "11f3370ddb138f42d26eb186f5d058592c39c483e139075df2e7b4be8ebbf992",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 9341
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw004-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "54be56ba335f498bebabf7a9841ff7fcc9c51db0",
+      "bytes": 1340671,
+      "allocated_blocks_bytes": 1343488,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506881,
+        "size": 1340671,
+        "mtime_ns": 1794212082767664931,
+        "ctime_ns": 1794212082767664931,
+        "nlink": 1
+      },
+      "sha256": "a60acec5692e88e92ff29a47c05756754cd65d870469ab7c724d9be4b3d01acb",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 5568
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "c796e4c88675a56e5863e5215648a70aadc2fa74",
+      "bytes": 4305461,
+      "allocated_blocks_bytes": 4308992,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506575,
+        "size": 4305461,
+        "mtime_ns": 1794212000216635780,
+        "ctime_ns": 1794212000216635780,
+        "nlink": 1
+      },
+      "sha256": "917b8f1f75eeea8f09b271ca0fbf8e026de4677a3d6680b5d90ac3dbd94fd053",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 13113
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "3b8dc8091164a343a848bee69d319447dbc2525a",
+      "bytes": 4371505,
+      "allocated_blocks_bytes": 4374528,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506547,
+        "size": 4371505,
+        "mtime_ns": 1794212000328634449,
+        "ctime_ns": 1794212000328634449,
+        "nlink": 1
+      },
+      "sha256": "463c538baa6d7c847e0b79c7de9295fdfd1ab1961a384cb82d987988ddd78958",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 3944
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw005-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "457209542502ab443f319066697634807a3723aa",
+      "bytes": 1306232,
+      "allocated_blocks_bytes": 1306624,
+      "stat_before": {
+        "device": 27,
+        "inode": 2506536,
+        "size": 1306232,
+        "mtime_ns": 1794212000376633879,
+        "ctime_ns": 1794212000376633879,
+        "nlink": 1
+      },
+      "sha256": "159afb578bc064cff9731ebeea707d33b51d543bc64ae033f2aa7c76a132d647",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 4638
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "c8f6dedf3331d674c62830701de5e3b983a5413a",
+      "bytes": 4269683,
+      "allocated_blocks_bytes": 4272128,
+      "stat_before": {
+        "device": 27,
+        "inode": 2493670,
+        "size": 4269683,
+        "mtime_ns": 1794211891474074388,
+        "ctime_ns": 1794211891474074388,
+        "nlink": 1
+      },
+      "sha256": "8edeb7933374c85bc1ceff4543fed04ae82aa8755b69663fcd6e356919d66f25",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 13225
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "b4e46a9b17b592244d99151c37007ed018b95167",
+      "bytes": 4329061,
+      "allocated_blocks_bytes": 4329472,
+      "stat_before": {
+        "device": 27,
+        "inode": 2493709,
+        "size": 4329061,
+        "mtime_ns": 1794211891634072265,
+        "ctime_ns": 1794211891634072265,
+        "nlink": 1
+      },
+      "sha256": "58771287cd3850dca2c919920dd8c6de9dfd18de4193b1f6d38bb665b7cb4db6",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 11899
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw006-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "ab5dfaf5e365e33578778939c063a05b257e98fc",
+      "bytes": 1292508,
+      "allocated_blocks_bytes": 1294336,
+      "stat_before": {
+        "device": 27,
+        "inode": 2498356,
+        "size": 1292508,
+        "mtime_ns": 1794211891698071416,
+        "ctime_ns": 1794211891698071416,
+        "nlink": 1
+      },
+      "sha256": "6ab59e727ba5348c0571e4505ad2c096d36012126168b2af914e47b2eddf1eae",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 11295
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "e66853b2d6be41a03d140c73166c738ecc8d8bec",
+      "bytes": 4271610,
+      "allocated_blocks_bytes": 4272128,
+      "stat_before": {
+        "device": 27,
+        "inode": 2504020,
+        "size": 4271610,
+        "mtime_ns": 1794211685436812515,
+        "ctime_ns": 1794211685436812515,
+        "nlink": 1
+      },
+      "sha256": "316df2324fa04f184ff907b56091aaeca8b39ca9ac9af4d352bb1c905e392dc6",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 15199
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "65681af0a100443442d5c81610e36556c830a083",
+      "bytes": 4299628,
+      "allocated_blocks_bytes": 4300800,
+      "stat_before": {
+        "device": 27,
+        "inode": 2503244,
+        "size": 4299628,
+        "mtime_ns": 1794211685696809048,
+        "ctime_ns": 1794211685696809048,
+        "nlink": 1
+      },
+      "sha256": "de387d32904784950f295512580deadf13cea5feb3165d764ef5bd6885045d97",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 6710
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512-raw007-part02.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m12-critical-r005-outer128-q512",
+      "mode": "100644",
+      "git_blob_sha1": "e6d908901af67ca6f3734e609dfcb4bafc1c09ec",
+      "bytes": 1274259,
+      "allocated_blocks_bytes": 1277952,
+      "stat_before": {
+        "device": 27,
+        "inode": 2504026,
+        "size": 1274259,
+        "mtime_ns": 1794211685756808248,
+        "ctime_ns": 1794211685756808248,
+        "nlink": 1
+      },
+      "sha256": "8811a2627a4c68f0219d809e43384a6fd8d66ea764431a60589e1f5cd21f0d0e",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-3eb380dfcaea0a6293aa56f6489c90a1db7a93de.pack",
+        "index_bytes": 473152,
+        "pack_checksum_hex": "3eb380dfcaea0a6293aa56f6489c90a1db7a93de",
+        "index_checksum_hex": "61176e9d0ef451a42becef9bc0f30c929bf6a823",
+        "index_position": 15231
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "f77595d9de814aeb8e3ddf6023596d50878ca608",
+      "bytes": 2306843,
+      "allocated_blocks_bytes": 2310144,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500835,
+        "size": 2306843,
+        "mtime_ns": 1794207118541642618,
+        "ctime_ns": 1794207118541642618,
+        "nlink": 1
+      },
+      "sha256": "d75a25f06c4227aa497d479f77f40df8b1eaf8ac3db4b3ca20aa0bff8721588a",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 87336
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw000-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "6b0dae2a3b21b032f5e98bc5e4a4c899f23d7dc2",
+      "bytes": 361698,
+      "allocated_blocks_bytes": 364544,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500836,
+        "size": 361698,
+        "mtime_ns": 1794207118545642584,
+        "ctime_ns": 1794207118545642584,
+        "nlink": 1
+      },
+      "sha256": "e29879c2b921f1172bad779c27bdf6a70d75698a9048c7b1a9cc05252f0c770e",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 37835
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "45d59c1fed9adca6c07669d4ea107179918ab515",
+      "bytes": 2297724,
+      "allocated_blocks_bytes": 2297856,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500837,
+        "size": 2297724,
+        "mtime_ns": 1794207118553642517,
+        "ctime_ns": 1794207118553642517,
+        "nlink": 1
+      },
+      "sha256": "1102c3baffe23158b3ce586eb622fd18b085c6d7cf0a5f15b4c62c94d46a3e27",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 24571
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw001-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "e2c3648ac84f228b6378858a1ce1a568465c3da9",
+      "bytes": 358074,
+      "allocated_blocks_bytes": 360448,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500838,
+        "size": 358074,
+        "mtime_ns": 1794207118553642517,
+        "ctime_ns": 1794207118553642517,
+        "nlink": 1
+      },
+      "sha256": "96ab00e3d9b7e53fd8a5954ad9c3318a3f755a17edf19725814f153819a4e659",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 80096
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "5afe7f78a6ffd77a1148c6e7ba1497be3ad14e0b",
+      "bytes": 2280422,
+      "allocated_blocks_bytes": 2281472,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500839,
+        "size": 2280422,
+        "mtime_ns": 1794207118561642450,
+        "ctime_ns": 1794207118561642450,
+        "nlink": 1
+      },
+      "sha256": "f6e8e78d67f78b4151036a1bd6e08384a12a046d9155f94ca350443d242df8d7",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 32136
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw002-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "9c81cb11dda29e90349324f1667d6555ccd10b31",
+      "bytes": 357266,
+      "allocated_blocks_bytes": 360448,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500840,
+        "size": 357266,
+        "mtime_ns": 1794207118561642450,
+        "ctime_ns": 1794207118561642450,
+        "nlink": 1
+      },
+      "sha256": "480a03abf308b737cc1a666f7505211b7a57bbe22ef26b4739e25659dddcca77",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 55343
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "463a7adf040f60be8414e241a9fed4e7d6b84b7b",
+      "bytes": 2266255,
+      "allocated_blocks_bytes": 2269184,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500841,
+        "size": 2266255,
+        "mtime_ns": 1794207118569642383,
+        "ctime_ns": 1794207118569642383,
+        "nlink": 1
+      },
+      "sha256": "c3bda0dbc753ab26a3d6a8ac2a189fa2b0a92bb482b0bf96aa8f48f2d8f23067",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 24709
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw003-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "156fd31d933795502a2d8c8c66e485d2da004363",
+      "bytes": 351748,
+      "allocated_blocks_bytes": 352256,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500842,
+        "size": 351748,
+        "mtime_ns": 1794207118569642383,
+        "ctime_ns": 1794207118569642383,
+        "nlink": 1
+      },
+      "sha256": "d1872633c1c57350a2bd920685cf8f89829e2d1bb3955529a7c00dffbb321cf0",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 7455
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "9751547b9354244329ddfe7aafc41444abce1c08",
+      "bytes": 2250877,
+      "allocated_blocks_bytes": 2252800,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500843,
+        "size": 2250877,
+        "mtime_ns": 1794207118577642316,
+        "ctime_ns": 1794207118577642316,
+        "nlink": 1
+      },
+      "sha256": "221a256c8f69ffb88d8c38d0cd29814bde6ac3cdf0a2206f487b8ec9e1de1cd7",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 53533
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw004-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "6f7709ddd29c03c2d95154ce87c22a01634a61c3",
+      "bytes": 348981,
+      "allocated_blocks_bytes": 352256,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500844,
+        "size": 348981,
+        "mtime_ns": 1794207118577642316,
+        "ctime_ns": 1794207118577642316,
+        "nlink": 1
+      },
+      "sha256": "1b155829a0e1ff561e7878a852e0da0e8ec8d6fe0db13c1a0f5d95da3e73b331",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 39356
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "80a02654555e38abff86cdeea6a950ca6012a95b",
+      "bytes": 2254791,
+      "allocated_blocks_bytes": 2256896,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500845,
+        "size": 2254791,
+        "mtime_ns": 1794207118585642249,
+        "ctime_ns": 1794207118585642249,
+        "nlink": 1
+      },
+      "sha256": "12a854cf9dea28de298f4d6806e0fec9820d47e53fc825e7d783e9897c5b058b",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 45396
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw005-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "40731bc07e7d7681812e7f6561b83e12af17ea6e",
+      "bytes": 344755,
+      "allocated_blocks_bytes": 348160,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500846,
+        "size": 344755,
+        "mtime_ns": 1794207118585642249,
+        "ctime_ns": 1794207118585642249,
+        "nlink": 1
+      },
+      "sha256": "1b7b378efe3c5613192621be51ff3242cdb2f7285f4ebf545d7c8717dd3444bc",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 22677
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "0ba4b6165ca5cb2e9cada3a73f9fd6041ca6caba",
+      "bytes": 2250881,
+      "allocated_blocks_bytes": 2252800,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500847,
+        "size": 2250881,
+        "mtime_ns": 1794207118593642182,
+        "ctime_ns": 1794207118593642182,
+        "nlink": 1
+      },
+      "sha256": "965346dd85bf259be9418ab4136c296c0f9ea9cb4759bcea02d4b1040c9a2886",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 4027
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw006-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "9518d73035a1744f6f5152f6f4770742e36009b0",
+      "bytes": 339358,
+      "allocated_blocks_bytes": 339968,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500848,
+        "size": 339358,
+        "mtime_ns": 1794207118597642148,
+        "ctime_ns": 1794207118597642148,
+        "nlink": 1
+      },
+      "sha256": "a639405bda7c4e183208be703d1f9a9778cddc7d46490a34165ebf27d8169cf1",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 52729
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part00.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "cf614e2f4fd1819e5dfed38a0ac38096f1197668",
+      "bytes": 2254220,
+      "allocated_blocks_bytes": 2256896,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500849,
+        "size": 2254220,
+        "mtime_ns": 1794207118605642082,
+        "ctime_ns": 1794207118605642082,
+        "nlink": 1
+      },
+      "sha256": "23d14c8342498bc45efe4985bcea00476c2f44c4a100764eb81870db1c9f978d",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 73306
+      },
+      "local_decode_matches_worktree": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64-raw007-part01.f64.gz",
+      "dataset": "2026-11-09-db6f-tail-inc-flat17-m8-native64-n8-s64",
+      "mode": "100644",
+      "git_blob_sha1": "1e61d93b82789db3acddac7757cd3d37ba3b21af",
+      "bytes": 336115,
+      "allocated_blocks_bytes": 339968,
+      "stat_before": {
+        "device": 27,
+        "inode": 2500850,
+        "size": 336115,
+        "mtime_ns": 1794207118605642082,
+        "ctime_ns": 1794207118605642082,
+        "nlink": 1
+      },
+      "sha256": "3f136d4855bc3c394e2d02a0d5a1e4719f6e0bee9dd8ef86e3e20bcd15b9bc99",
+      "local_object": {
+        "kind": "pack-index-v2",
+        "index": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.idx",
+        "pack": "/workspace/scratch/db6f0b0e7462/math-research/.git/objects/pack/pack-2bb64ed7669d57870b10e387d4548e2513f95bfd.pack",
+        "index_bytes": 2884668,
+        "pack_checksum_hex": "2bb64ed7669d57870b10e387d4548e2513f95bfd",
+        "index_checksum_hex": "e6f53f22890b626de52b23973d6b7cf88e28569f",
+        "index_position": 10562
+      },
+      "local_decode_matches_worktree": true
+    }
+  ]
+}

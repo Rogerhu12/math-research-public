@@ -1,0 +1,75 @@
+{
+  "schema": "fd2d-R187-actual-complete-provider-first-kernel-v1",
+  "method": "functions V8; no OS child",
+  "durationMilliseconds": 1759,
+  "definition": {
+    "schema": "fd2d-R187-C2-direct-position-two-angle-finite-provider-v1",
+    "radialBasisCount": 12,
+    "angularModes": 7,
+    "fullEquivalentAngles": 64,
+    "dimension": 181,
+    "angularPrimitive": "complete quarter-cell Gauss8 with actual first moment; no Fourier projection",
+    "angularMetric": "exactly a^2 in mathematical complete definition",
+    "radialMetric": "fixed original R181 B32 physical metric; no design delta in this branch",
+    "boundary": "complete central ellipse cylinder and zero-tail round flat cut two jets",
+    "stateLayout": {
+      "theta": [
+        0,
+        84
+      ],
+      "phi": [
+        84,
+        168
+      ],
+      "height": [
+        168,
+        180
+      ],
+      "cutHeight": 180
+    },
+    "centralGap": 0.050000000000000024,
+    "centralA": 1.0289271932119122,
+    "centralB": 0.9789271932119121,
+    "radiusGrid": "C2 centered cardinal cubic B-splines with supports inside [c,S]",
+    "residual": "rE=|Xs|^2-1 and rF=Xs dot T, weighted squared rE^2+2*rF^2",
+    "radialQuadrature": "Gauss2 on union of original phase/Hermite breaks and spline knots",
+    "derivative": "complete state and primitive first-moment derivatives, fixed physical s and u",
+    "continuousMetricOrGeometryCertified": false,
+    "strongTargetComplete": false
+  },
+  "dimension": 181,
+  "baseline": {
+    "squaredNorm": 0.0031606879106699276,
+    "norm": 0.05621999564807816,
+    "maxRelativeMetric": 0.132754520899111,
+    "minImmersion": 0.8785341303019152,
+    "worst": {
+      "s": 0.6132566501406742,
+      "u": 0,
+      "rE": 0.132754520899111,
+      "rF": 0
+    },
+    "rowCount": 5032,
+    "radialPoints": 148
+  },
+  "fullResidualJVP": {
+    "directionDefinition": ".007*sin((index+1)*1.37)",
+    "epsilon": 0.000001,
+    "relativeL2": 1.4447544332561025e-9,
+    "maxAbsolute": 3.7969189966603756e-11,
+    "costDerivativeFinite": -0.000030276228139142214,
+    "costDerivativeAnalytic": -0.00003027622819357881,
+    "costDerivativeAbsoluteError": 5.4436595069975655e-14
+  },
+  "actualNonlinearSteps": 0,
+  "continuousGeometryCertified": false,
+  "source": {
+    "path": "scripts/fd2d-direct-position-metric-provider-R187.cjs",
+    "sha256": "e5e9d19793cd30d9c0a1378b7d5e9f4c55d039eed461e9f9964bef76dfd4570f",
+    "bytes": 9659
+  },
+  "dependencies": {
+    "R187KernelSha256": "ca06fd0651f9479a0f66ea3090d450d695e3f2383d64874bd6ce11eb8698d3bf",
+    "candidateSha256": "9c903de99a0ca295db7d99e4dfec837db7778a7e20bc07abd6035a63e59a938d"
+  }
+}

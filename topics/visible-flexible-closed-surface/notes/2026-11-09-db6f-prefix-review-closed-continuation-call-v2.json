@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS-static-diff-and-metadata-replay",
+  "review": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-closed-continuation-call-v2.md",
+    "bytes": 2405,
+    "sha256": "7dd2053c0b9a49229c55426a8eb0f54263abedcd9ee7e48bada453717c7c12ee"
+  },
+  "source": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-audit-closed-continuation-call-v2.py",
+    "bytes": 9582,
+    "sha256": "11ce0ce2446955093a1be749534f73017d22df55fad3d2276bdf46b5df4be2e1"
+  },
+  "author_report": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-continuation02-call001-closed-audit-v2.json",
+    "bytes": 4504,
+    "sha256": "b4c59aa5b882dbeb78c5eec56528c7509023af04d1f6412f3d89629887453e33"
+  },
+  "independent_replay": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-review-continuation02-call001-metadata-replay-v2.json",
+    "bytes": 4504,
+    "sha256": "b4c59aa5b882dbeb78c5eec56528c7509023af04d1f6412f3d89629887453e33"
+  },
+  "actual_exit_code": 0,
+  "bytes_equal": true,
+  "solver_calls": 0,
+  "scope": "Specified frozen intermediate call001; source/metadata only."
+}

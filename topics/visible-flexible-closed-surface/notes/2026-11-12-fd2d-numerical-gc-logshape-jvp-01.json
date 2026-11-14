@@ -1,0 +1,126 @@
+{
+  "schema": "fd2d-positive-normal-codazzi-check-v1",
+  "scope": "Check the normalized Codazzi Jacobian and rotational invariant state.\n\nThis is a small equation/derivative computation, not a BVP or tail solve.\nIt uses the actual v4 profile, including its nearly horizontal turns.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-logshape-check.py",
+    "bytes": 2824,
+    "sha256": "c196499aee6bb2808b221e7bed78f0174b99056dd70e56e298aafa26f9737b66"
+  },
+  "provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_logshape.py",
+    "bytes": 5005,
+    "sha256": "5de476a92d6b0f8457289f2cff2a8563ae4a6445d0e06a17a03f17b9d92febd5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+    "bytes": 32125,
+    "sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d"
+  },
+  "points": 179,
+  "exact_rotational_state_rhs_maximum": 0.0,
+  "directional_checks": [
+    {
+      "s": 0.4,
+      "rows": [
+        {
+          "epsilon": 0.001,
+          "absolute_maximum_difference": 1.6161406552583912e-05,
+          "relative_l2_difference": 1.5841387381455515e-06
+        },
+        {
+          "epsilon": 0.0001,
+          "absolute_maximum_difference": 1.616140234972363e-07,
+          "relative_l2_difference": 1.584138246817476e-08
+        },
+        {
+          "epsilon": 1e-05,
+          "absolute_maximum_difference": 1.6161294524863479e-09,
+          "relative_l2_difference": 1.584191357270864e-10
+        },
+        {
+          "epsilon": 1e-06,
+          "absolute_maximum_difference": 6.902212135173613e-11,
+          "relative_l2_difference": 2.90589742318681e-12
+        }
+      ]
+    },
+    {
+      "s": 0.8,
+      "rows": [
+        {
+          "epsilon": 0.001,
+          "absolute_maximum_difference": 2.7123036538512224e-05,
+          "relative_l2_difference": 1.5581187530174545e-06
+        },
+        {
+          "epsilon": 0.0001,
+          "absolute_maximum_difference": 2.7123028445430464e-07,
+          "relative_l2_difference": 1.5581182629277073e-08
+        },
+        {
+          "epsilon": 1e-05,
+          "absolute_maximum_difference": 2.7122926127276514e-09,
+          "relative_l2_difference": 1.5581626128092376e-10
+        },
+        {
+          "epsilon": 1e-06,
+          "absolute_maximum_difference": 1.5977975886816154e-10,
+          "relative_l2_difference": 3.430201918657987e-12
+        }
+      ]
+    },
+    {
+      "s": 1.2,
+      "rows": [
+        {
+          "epsilon": 0.001,
+          "absolute_maximum_difference": 1.6974342024411726e-05,
+          "relative_l2_difference": 1.632412265114608e-06
+        },
+        {
+          "epsilon": 0.0001,
+          "absolute_maximum_difference": 1.6974337491149072e-07,
+          "relative_l2_difference": 1.6324116643628538e-08
+        },
+        {
+          "epsilon": 1e-05,
+          "absolute_maximum_difference": 1.6973906724615517e-09,
+          "relative_l2_difference": 1.6325490038249252e-10
+        },
+        {
+          "epsilon": 1e-06,
+          "absolute_maximum_difference": 2.5847896045760876e-10,
+          "relative_l2_difference": 6.1536261458819465e-12
+        }
+      ]
+    },
+    {
+      "s": 1.55,
+      "rows": [
+        {
+          "epsilon": 0.001,
+          "absolute_maximum_difference": 0.0001008270252782495,
+          "relative_l2_difference": 1.619878149649373e-06
+        },
+        {
+          "epsilon": 0.0001,
+          "absolute_maximum_difference": 1.008269975955045e-06,
+          "relative_l2_difference": 1.6198775050575017e-08
+        },
+        {
+          "epsilon": 1e-05,
+          "absolute_maximum_difference": 1.0082473522743385e-08,
+          "relative_l2_difference": 1.6201837413381505e-10
+        },
+        {
+          "epsilon": 1e-06,
+          "absolute_maximum_difference": 7.777778421313997e-10,
+          "relative_l2_difference": 3.814348562605917e-12
+        }
+      ]
+    }
+  ],
+  "seconds": 0.1594549139990704,
+  "BVP_solved": false,
+  "nonlinear_tail_solved": false
+}

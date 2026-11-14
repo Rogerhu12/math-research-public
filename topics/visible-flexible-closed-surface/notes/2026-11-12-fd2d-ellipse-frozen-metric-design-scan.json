@@ -1,0 +1,986 @@
+{
+  "scope": "Frozen C2 metric and exact arclength ellipse for a NEW strong-target BVP.\n\nThis is an input provider, not a nonlinear solution or a reach certificate.\nThe selected feedback-generated prefix is frozen as quintic Hermite data.\nAll subsequent evaluations, including angular refinement, use that same data.\nThe one-pause extension matches only a finite linear m2 tail direction.\n",
+  "rows": [
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.65,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.65,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.5409345738686695,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999974200708783,
+        "background_height": 1.199011504868743,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.2009238824088495
+      },
+      "linear": {
+        "pause": 0.30497728033651345,
+        "before_pause": [
+          1.6902163125904368,
+          0.6895455265566511
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.06915853201567791,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0021598520041896953,
+          -0.06915832499979827
+        ],
+        "backward_core": [
+          -14.459532099075567,
+          -7.877729844205525e-08
+        ],
+        "normalized_forward_direction_residual": -1.5248928326058628e-07,
+        "normalized_backward_core_residual": -5.448122242288301e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.65,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.6043898970030896,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999974200708783,
+        "background_height": 1.2310730486299566,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.232985426170063
+      },
+      "linear": {
+        "pause": 0.3953554849072853,
+        "before_pause": [
+          1.5908167700048403,
+          0.5725380836329114
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.03027006630770604,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0009453463238343286,
+          -0.030270054948883043
+        ],
+        "backward_core": [
+          -33.035936849446145,
+          1.6817132108832034e-08
+        ],
+        "normalized_forward_direction_residual": -2.3378667152836557e-08,
+        "normalized_backward_core_residual": 5.090557045641639e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.8,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.8,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.3250313058016514,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999899221606015,
+        "background_height": 0.9539626505871647,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.955875028127271
+      },
+      "linear": {
+        "pause": 0.15120297261169788,
+        "before_pause": [
+          1.5247810604420093,
+          0.969658389436296
+        ],
+        "backward_at_pause": [
+          -7.063864333882615,
+          -9.970505539393415
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.09725268047895674,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0030372441113518064,
+          -0.0972524280590252
+        ],
+        "backward_core": [
+          -10.2824928680814,
+          3.812885660376496e-08
+        ],
+        "normalized_forward_direction_residual": -1.3224397495045706e-07,
+        "normalized_backward_core_residual": 3.708133532688692e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.8,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.3835195071112882,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999899221606015,
+        "background_height": 0.9875904731142509,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.9895028506543572
+      },
+      "linear": {
+        "pause": 0.22219097843460944,
+        "before_pause": [
+          1.4715016415727409,
+          0.7932664535853894
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.0419399666784511,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0013098022989708848,
+          -0.04193994126423478
+        ],
+        "backward_core": [
+          -23.84360506505498,
+          -2.748222617547632e-08
+        ],
+        "normalized_forward_direction_residual": -3.775275308879057e-08,
+        "normalized_backward_core_residual": -1.152603647833191e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.9,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.9,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.2009935073956768,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999986449160246,
+        "background_height": 0.8075478181816044,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.8094601957217107
+      },
+      "linear": {
+        "pause": 0.04946241407960691,
+        "before_pause": [
+          1.2805872652325478,
+          1.2920628357300867
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.12958849785789375,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.004047105670838405,
+          -0.12958817564064537
+        ],
+        "backward_core": [
+          -7.716734249614888,
+          9.881641707860118e-10
+        ],
+        "normalized_forward_direction_residual": -1.2667405242900264e-07,
+        "normalized_backward_core_residual": 1.2805471055781496e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.15,
+        "lead": 0.05,
+        "vmid": 0.9,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.258563967037203,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999986449160246,
+        "background_height": 0.8465973493542428,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.8485097268943491
+      },
+      "linear": {
+        "pause": 0.11258823378996342,
+        "before_pause": [
+          1.3077645484212692,
+          1.0293772766065414
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.05442313674718621,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0016996563295832616,
+          -0.05442311893458029
+        ],
+        "backward_core": [
+          -18.374538078092293,
+          1.7696429799328905e-08
+        ],
+        "normalized_forward_direction_residual": -2.039157861760151e-08,
+        "normalized_backward_core_residual": 9.630952203597495e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.65,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.65,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.639281576923094,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999987590235955,
+        "background_height": 1.292535359511008,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.2944477370511145
+      },
+      "linear": {
+        "pause": 0.2968039140993228,
+        "before_pause": [
+          1.64097710640192,
+          0.6824612977559257
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.06844801349956496,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0021376622069668857,
+          -0.06844780785168517
+        ],
+        "backward_core": [
+          -14.60962778252764,
+          1.3464290398785694e-09
+        ],
+        "normalized_forward_direction_residual": -1.530545321295646e-07,
+        "normalized_backward_core_residual": 9.216039312711505e-11
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.65,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.6974209056923215,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999987590235955,
+        "background_height": 1.3192809089070283,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.3211932864471347
+      },
+      "linear": {
+        "pause": 0.38186612430490174,
+        "before_pause": [
+          1.5473742903727514,
+          0.5717059574394869
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.030226071828087307,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.000943972355097909,
+          -0.03022606059715364
+        ],
+        "backward_core": [
+          -33.084021179061345,
+          -9.031368885066865e-09
+        ],
+        "normalized_forward_direction_residual": -2.314885264464793e-08,
+        "normalized_backward_core_residual": -2.729828044839591e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.8,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.8,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.4219641446487796,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999714726927005,
+        "background_height": 1.044631243670017,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.0465436212101233
+      },
+      "linear": {
+        "pause": 0.14455468405931168,
+        "before_pause": [
+          1.4769630244120004,
+          0.9625026513567094
+        ],
+        "backward_at_pause": [
+          -7.063864333882615,
+          -9.970505539393415
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.09653498988129203,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0030148303248819456,
+          -0.09653473894557334
+        ],
+        "backward_core": [
+          -10.358938255820275,
+          8.455643053613418e-10
+        ],
+        "normalized_forward_direction_residual": -1.324437561211684e-07,
+        "normalized_backward_core_residual": 8.162654168599305e-11
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.8,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.4758113119602494,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999714726927005,
+        "background_height": 1.0736180321989361,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.0755304097390426
+      },
+      "linear": {
+        "pause": 0.2109016558840561,
+        "before_pause": [
+          1.427517254110112,
+          0.7953714260135438
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.04205125648920364,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0013132779190772209,
+          -0.04205123120531953
+        ],
+        "backward_core": [
+          -23.780502218939606,
+          1.8023977618606703e-08
+        ],
+        "normalized_forward_direction_residual": -3.745957060910107e-08,
+        "normalized_backward_core_residual": 7.579309071215405e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.9,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.9,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.2968646657346588,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999812026001836,
+        "background_height": 0.8957403656156236,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.89765274315573
+      },
+      "linear": {
+        "pause": 0.043146583552545185,
+        "before_pause": [
+          1.2304665908053318,
+          1.2884089823195084
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.1292220316445054,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.004035660772398807,
+          -0.12922171022521453
+        ],
+        "backward_core": [
+          -7.738618284596142,
+          7.981226322308572e-08
+        ],
+        "normalized_forward_direction_residual": -1.2671890263196e-07,
+        "normalized_backward_core_residual": 1.0313503042520324e-08
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.2,
+        "lead": 0.08,
+        "vmid": 0.9,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.3494733874545093,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.999812026001836,
+        "background_height": 0.9298281588665864,
+        "maximum_jet_join_roundoff": 1.1102230246251565e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 0.9317405364066927
+      },
+      "linear": {
+        "pause": 0.10131066534122596,
+        "before_pause": [
+          1.258333097950984,
+          1.0396909053827748
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.05496841790114664,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.001716685676310681,
+          -0.054968399968752926
+        ],
+        "backward_core": [
+          -18.19226452738721,
+          8.380873892682119e-09
+        ],
+        "normalized_forward_direction_residual": -2.0325186661898033e-08,
+        "normalized_backward_core_residual": 4.606833789199408e-10
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.65,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.65,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.7583812226256312,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.99999993660714,
+        "background_height": 1.4037572609563496,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.405669638496456
+      },
+      "linear": {
+        "pause": 0.28462226214334096,
+        "before_pause": [
+          1.5579068617977585,
+          0.6672295259471609
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.06692033050007933,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.002089952013201295,
+          -0.0669201277962699
+        ],
+        "backward_core": [
+          -14.943141914731541,
+          2.138378047238221e-08
+        ],
+        "normalized_forward_direction_residual": -1.5430717332980742e-07,
+        "normalized_backward_core_residual": 1.4310096627872638e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.65,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.8090340732711305,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.99999993660714,
+        "background_height": 1.423016332228642,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.4249287097687484
+      },
+      "linear": {
+        "pause": 0.3621979942251919,
+        "before_pause": [
+          1.4733517700543641,
+          0.566304686934917
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.029940506865697807,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0009350540248105213,
+          -0.02994049644418361
+        ],
+        "backward_core": [
+          -33.399568390826204,
+          -6.365203163999227e-08
+        ],
+        "normalized_forward_direction_residual": -2.1685411626863307e-08,
+        "normalized_backward_core_residual": -1.9057740775319558e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.8,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.8,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.5392947324216502,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999017687860166,
+        "background_height": 1.151938548793355,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.1538509263334615
+      },
+      "linear": {
+        "pause": 0.1350452910034738,
+        "before_pause": [
+          1.3991546834738382,
+          0.9452704088411864
+        ],
+        "backward_at_pause": [
+          -7.063864333882615,
+          -9.970505539393415
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.09480666803768656,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0029608540897403147,
+          -0.094806420660771
+        ],
+        "backward_core": [
+          -10.547781331612875,
+          -1.2251296769667095e-08
+        ],
+        "normalized_forward_direction_residual": -1.32946691166082e-07,
+        "normalized_backward_core_residual": -1.1615046221093526e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.8,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.586890751319842,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999017687860166,
+        "background_height": 1.1746741889089967,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.176586566449103
+      },
+      "linear": {
+        "pause": 0.1951411144149406,
+        "before_pause": [
+          1.3554271389686294,
+          0.7923117873470674
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.041889493511404516,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0013082260041271032,
+          -0.04188946803798115
+        ],
+        "backward_core": [
+          -23.87233438248712,
+          2.865870260773731e-08
+        ],
+        "normalized_forward_direction_residual": -3.788616951033806e-08,
+        "normalized_backward_core_residual": 1.2004985414732416e-09
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.9,
+        "rpause": 0.65
+      },
+      "error": "Negative coast length"
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.9,
+        "rpause": 0.7
+      },
+      "metric": {
+        "end": 1.412875275970542,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999923494499665,
+        "background_height": 0.999628187037281,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.0015405645773874
+      },
+      "linear": {
+        "pause": 0.03443148631830114,
+        "before_pause": [
+          1.1526728186228117,
+          1.273351672899767
+        ],
+        "backward_at_pause": [
+          -7.063864333903708,
+          -9.970505539364751
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.12771184649288062,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.003988497036466689,
+          -0.12771152836323088
+        ],
+        "backward_core": [
+          -7.830127175449037,
+          5.152698726736412e-10
+        ],
+        "normalized_forward_direction_residual": -1.2690546355199054e-07,
+        "normalized_backward_core_residual": 6.580606689112835e-11
+      }
+    },
+    {
+      "parameters": {
+        "prefix_length": 0.25,
+        "lead": 0.125,
+        "vmid": 0.9,
+        "rpause": 0.75
+      },
+      "metric": {
+        "end": 1.459100339070294,
+        "minimum_radius_sample": 0.39999999999999997,
+        "maximum_abs_a_prime_sample": 0.9999960902807757,
+        "maximum_abs_a_second_sample": 6.9999923494499665,
+        "background_height": 1.027332321668145,
+        "maximum_jet_join_roundoff": 2.220446049250313e-16,
+        "cut_jet": [
+          0.4,
+          -0.9950371902099892,
+          0.17155180864621067
+        ],
+        "background_height_with_tail": 1.0292446992082513
+      },
+      "linear": {
+        "pause": 0.08621190948688298,
+        "before_pause": [
+          1.181258401805083,
+          1.0455754544981892
+        ],
+        "backward_at_pause": [
+          -12.672069621469873,
+          -18.91433199428297
+        ],
+        "terminal_direction": [
+          0.031230389804939928,
+          1.0
+        ],
+        "terminal_height_gain": -0.05527953378497448,
+        "matching_definition": "T=(f0*G-g0*F)/((4/a_pause)*g0*G)",
+        "scope": "Finite m2 linear direction only; higher modes and exact ellipse nonlinear closure remain unsolved.",
+        "forward_terminal": [
+          -0.0017264019495609995,
+          -0.05527951575902937
+        ],
+        "backward_core": [
+          -18.089877522376632,
+          3.047382739540715e-08
+        ],
+        "normalized_forward_direction_residual": -2.0316437146103176e-08,
+        "normalized_backward_core_residual": 1.684578978365771e-09
+      }
+    }
+  ]
+}

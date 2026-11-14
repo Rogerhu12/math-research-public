@@ -1,0 +1,28 @@
+{
+  "status": "CHILD_COMPLETED_AWAITING_ROOT_TOOL_OBSERVATION",
+  "binding": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-guard-launch.json",
+  "binding_sha256": "41eb98c8d4c1b001cecec0f8b9ed00023a4ceaa0b418f2d5a3dee09899ae908a",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-spectral-restart8000-v1.py",
+    "--launch",
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-02-launch.json"
+  ],
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "stem": "2026-11-10-78718-numerical-m14-restart8000-02",
+  "wrapper_sha256": "cf1e2364300015c841b2070be51e948dc7ba37ef5b98eef0441819bca1e6aabd",
+  "minimum_free": 536870912,
+  "resume_free": 805306368,
+  "poll_seconds": 2,
+  "events": [
+    {
+      "event": "started",
+      "elapsed_seconds": 0.00047669599916844163
+    }
+  ],
+  "numerical_inputs_or_argv_changed": false,
+  "tool_exit_observed_by_root": false,
+  "child_pid_and_process_group": 5,
+  "actual_child_exit_code": 0,
+  "seconds": 4010.4924460699986
+}

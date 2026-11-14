@@ -1,0 +1,331 @@
+{
+  "schema": "fd2d-analytic-raw-T-column-check-v1",
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "bytes": 23429,
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-raw-analytic-T-check.py",
+      "bytes": 6338,
+      "sha256": "06a14c5182cb5bdc078c6db4498415f39b68dd316adc6e7ba9f070b9ab777fec"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    }
+  ],
+  "modes": 15,
+  "choices": {
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "unchanged_columns": {
+    "F_max": 0.0,
+    "fields_max": 0.0,
+    "non_T_Jacobian_max": 0.0
+  },
+  "cases": [
+    {
+      "name": "actual_interior",
+      "T": 0.02,
+      "Tmax": 0.22510364412376974,
+      "upper_gap": 0.20510364412376975,
+      "method": "centered",
+      "production_definition": {
+        "kind": "analytic fixed-computational-coordinate physical-coast derivative",
+        "physical_T": 0.02,
+        "profile_kind": "positive_clock",
+        "tail_kind": "positive_bernstein",
+        "finite_difference_used": false,
+        "out_of_domain_T_evaluations": 0,
+        "chart_and_lifting_weights_T_derivative_zero": true,
+        "auxiliary_l_remains_independent": true,
+        "continuous_certificate": false
+      },
+      "derivative_norms": {
+        "raw_F_T": 14.028263852069268,
+        "op_T": 30.548527417098747,
+        "forcing_T": 12.10117103443924,
+        "field_T": 39.512294357919046
+      },
+      "samples": [
+        {
+          "step": 8e-06,
+          "actual_probe_T": [
+            0.019992,
+            0.020008
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 5.459828145149004e-10,
+              "relative_l2": 9.890442523587075e-11
+            },
+            "op_T": {
+              "absolute_max": 4.40302816429039e-09,
+              "relative_l2": 4.2618447450305046e-10
+            },
+            "forcing_T": {
+              "absolute_max": 2.4428903344642094e-10,
+              "relative_l2": 6.10705659259189e-11
+            },
+            "field_T": {
+              "absolute_max": 5.579392087229351e-10,
+              "relative_l2": 1.0154831357639419e-10
+            }
+          }
+        },
+        {
+          "step": 4e-06,
+          "actual_probe_T": [
+            0.019996,
+            0.020004
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 1.32313893175251e-09,
+              "relative_l2": 2.090506226131348e-10
+            },
+            "op_T": {
+              "absolute_max": 5.0955644148587e-09,
+              "relative_l2": 7.485064697337239e-10
+            },
+            "forcing_T": {
+              "absolute_max": 3.121808367367862e-10,
+              "relative_l2": 9.441219207066615e-11
+            },
+            "field_T": {
+              "absolute_max": 1.1763610086035214e-09,
+              "relative_l2": 1.8981832438850247e-10
+            }
+          }
+        },
+        {
+          "step": 2e-06,
+          "actual_probe_T": [
+            0.019998000000000002,
+            0.020002
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 1.1750050932235467e-09,
+              "relative_l2": 3.4553331853166177e-10
+            },
+            "op_T": {
+              "absolute_max": 1.2965537532494409e-08,
+              "relative_l2": 1.4596799216672679e-09
+            },
+            "forcing_T": {
+              "absolute_max": 1.1073955086260412e-09,
+              "relative_l2": 2.522344788900863e-10
+            },
+            "field_T": {
+              "absolute_max": 2.058759107637087e-09,
+              "relative_l2": 3.664933379547921e-10
+            }
+          }
+        },
+        {
+          "step": 1e-06,
+          "actual_probe_T": [
+            0.019999,
+            0.020001
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 3.778538371079776e-09,
+              "relative_l2": 6.743831651466877e-10
+            },
+            "op_T": {
+              "absolute_max": 2.474186588941052e-08,
+              "relative_l2": 3.0774330162025172e-09
+            },
+            "forcing_T": {
+              "absolute_max": 2.159948220281649e-09,
+              "relative_l2": 3.6824197685247493e-10
+            },
+            "field_T": {
+              "absolute_max": 4.892253602228891e-09,
+              "relative_l2": 7.636774972578745e-10
+            }
+          }
+        }
+      ],
+      "synthetic_point_not_new_candidate": false
+    },
+    {
+      "name": "synthetic_near_upper",
+      "T": 0.22510364412354475,
+      "Tmax": 0.22510364412376974,
+      "upper_gap": 2.2498669594028797e-13,
+      "method": "inward_backward",
+      "production_definition": {
+        "kind": "analytic fixed-computational-coordinate physical-coast derivative",
+        "physical_T": 0.22510364412354475,
+        "profile_kind": "positive_clock",
+        "tail_kind": "positive_bernstein",
+        "finite_difference_used": false,
+        "out_of_domain_T_evaluations": 0,
+        "chart_and_lifting_weights_T_derivative_zero": true,
+        "auxiliary_l_remains_independent": true,
+        "continuous_certificate": false
+      },
+      "derivative_norms": {
+        "raw_F_T": 14.776053074296465,
+        "op_T": 31.947109684668533,
+        "forcing_T": 12.64446493001796,
+        "field_T": 41.35454419996879
+      },
+      "samples": [
+        {
+          "step": 2e-05,
+          "actual_probe_T": [
+            0.22510364412354475,
+            0.22508364412354476,
+            0.22506364412354474
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 9.757239460839173e-10,
+              "relative_l2": 3.2675878510475615e-10
+            },
+            "op_T": {
+              "absolute_max": 3.8968650528659055e-09,
+              "relative_l2": 5.740440956620175e-10
+            },
+            "forcing_T": {
+              "absolute_max": 1.0757359447666204e-09,
+              "relative_l2": 3.6758111377771764e-10
+            },
+            "field_T": {
+              "absolute_max": 1.006477345910639e-09,
+              "relative_l2": 3.2113635332401305e-10
+            }
+          }
+        },
+        {
+          "step": 1e-05,
+          "actual_probe_T": [
+            0.22510364412354475,
+            0.22509364412354474,
+            0.22508364412354476
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 1.728877624396219e-09,
+              "relative_l2": 2.7860106850240063e-10
+            },
+            "op_T": {
+              "absolute_max": 7.577604321795661e-09,
+              "relative_l2": 9.626465370997078e-10
+            },
+            "forcing_T": {
+              "absolute_max": 3.888517008387993e-10,
+              "relative_l2": 1.2320342713051e-10
+            },
+            "field_T": {
+              "absolute_max": 1.5797185781707412e-09,
+              "relative_l2": 3.049787031028584e-10
+            }
+          }
+        },
+        {
+          "step": 5e-06,
+          "actual_probe_T": [
+            0.22510364412354475,
+            0.22509864412354474,
+            0.22509364412354474
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 2.2580846081865502e-09,
+              "relative_l2": 4.2109196625021567e-10
+            },
+            "op_T": {
+              "absolute_max": 1.5334861824811696e-08,
+              "relative_l2": 2.0101474970378432e-09
+            },
+            "forcing_T": {
+              "absolute_max": 1.1296887869605143e-09,
+              "relative_l2": 2.7605297774944895e-10
+            },
+            "field_T": {
+              "absolute_max": 3.0019897678812413e-09,
+              "relative_l2": 5.397555104471165e-10
+            }
+          }
+        },
+        {
+          "step": 2.5e-06,
+          "actual_probe_T": [
+            0.22510364412354475,
+            0.22510114412354476,
+            0.22509864412354474
+          ],
+          "all_points_strictly_inside": true,
+          "errors": {
+            "raw_F_T": {
+              "absolute_max": 4.385734886369619e-09,
+              "relative_l2": 1.0441215028788218e-09
+            },
+            "op_T": {
+              "absolute_max": 2.743271698690819e-08,
+              "relative_l2": 4.068238222654128e-09
+            },
+            "forcing_T": {
+              "absolute_max": 3.399436288020752e-09,
+              "relative_l2": 6.761885005714566e-10
+            },
+            "field_T": {
+              "absolute_max": 4.39186331746555e-09,
+              "relative_l2": 8.939544220101206e-10
+            }
+          }
+        }
+      ],
+      "synthetic_point_not_new_candidate": true
+    }
+  ],
+  "checks": {
+    "original_residual_unchanged": true,
+    "original_fields_unchanged": true,
+    "all_non_T_columns_unchanged": true,
+    "all_probe_points_inside": true,
+    "actual_interior_column": true,
+    "near_upper_column": true
+  },
+  "implementation_checks_passed": true,
+  "elapsed_seconds": 27.94776177499989,
+  "production_uses_finite_difference": false,
+  "continuous_certificate": false
+}

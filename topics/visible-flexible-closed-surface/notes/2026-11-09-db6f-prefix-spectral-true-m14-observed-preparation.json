@@ -1,0 +1,102 @@
+{
+  "schema": "db6f-author-observed-pure-preparation-v1",
+  "status": "PURE_PREPARATION_AND_REAL_NEGATIVE_GATE_CLOSED",
+  "observer": "/root/coupled_prefix",
+  "recorded_utc": "2026-11-09T20:26:08.571055+00:00",
+  "cwd": "/workspace/scratch/db6f0b0e7462/math-research",
+  "operations": [
+    {
+      "kind": "final_source_AST_and_old_actual_metadata_read",
+      "tool_receipt": "9d4713",
+      "actual_exit_code": 0,
+      "scope": "Source parsing/hashes; no candidate classes instantiated."
+    },
+    {
+      "kind": "pure_preparation",
+      "tool_receipt": "ff0ed2",
+      "actual_exit_code": 0,
+      "wall_time_seconds": 0.509266777,
+      "command": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14.py",
+        "--out-prefix",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01"
+      ],
+      "original_own_tail_metadata_only": true,
+      "candidate_objects": 0,
+      "flow_calls": 0,
+      "Newton_install_calls": 0,
+      "weighted_solver_factory_calls": 0,
+      "BVP_calls": 0,
+      "DN_calls": 0,
+      "outputs": [
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+          "bytes": 63007,
+          "sha256": "710fbd942be28cc67bddcc511d3e01a1bcc9de77adc5e7fea91f69adb5562666"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-tail-config.json",
+          "bytes": 2688,
+          "sha256": "6517f02126a992376639c4e89fcb55b0793633967568fba837ec84e790eb8c5f"
+        },
+        {
+          "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-preparation.json",
+          "bytes": 3250,
+          "sha256": "cbbc930db0b20bc810fc70d4f489814e39f70166eccc5ef1211661274fda0ebd"
+        }
+      ]
+    },
+    {
+      "kind": "actual_final_gate_missing_observer_negative",
+      "tool_receipt": "ce2fb4",
+      "actual_exit_code": 2,
+      "wall_time_seconds": 0.145662029,
+      "command": [
+        "python",
+        "topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+        "--launch",
+        "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-spectral-true-m14q512-01-launch.json",
+        "--mode",
+        "final",
+        "--check-current-gate"
+      ],
+      "stdout_result": {
+        "status": "NOT_READY_OR_REJECTED",
+        "ready": false,
+        "mode": "final",
+        "solver_calls": 0,
+        "active_trace_read": false,
+        "reason": "ValueError('NOT_READY: root actual tool-exit observation is required')"
+      },
+      "files_written": 0,
+      "positive_future_fixture_created": false
+    }
+  ],
+  "source_files_unchanged_after_first_prepare": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-spectral-true-m14.py",
+      "bytes": 17329,
+      "sha256": "d0eba3d875f5691c939825ee4824e0bf009b840e5c60f21ffa2138b3f228df99"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-prepare-spectral-true-m14.py",
+      "bytes": 8709,
+      "sha256": "de3ce21bdc49880a7057a7e3fdd1737a18cc23f5b5a5ffce44b4b881fab5d7ff"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-audit-spectral-true-m14.py",
+      "bytes": 22244,
+      "sha256": "1aa5e53985b5574dee68a032aa84ac47aa43e9aa8bd185b4af8650b618dcf0fa"
+    }
+  ],
+  "source_binding_count_rechecked": 106,
+  "callback_definition_count": 21,
+  "all_declared_runtime_outputs_absent": true,
+  "first_prepare_attempt_failed": false,
+  "future_true_computation_status": "NOT_STARTED",
+  "affine01_scope": "No new affine01 CP or success is used. Root separately reported a 1.5GiB resource failure and missing final tool handle; this is not our observed solver execution and not evidence of mathematical failure.",
+  "guard_mutations": 0,
+  "solver_processes_started": 0,
+  "git_mutations": 0
+}

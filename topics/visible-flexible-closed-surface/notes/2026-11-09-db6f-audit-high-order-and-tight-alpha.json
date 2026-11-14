@@ -1,0 +1,57 @@
+{
+  "status": "PASS-for-bound-formal-inputs",
+  "auditor": "/root/independent_geometry",
+  "independentOfOptimization": true,
+  "exactRadialAlpha": [
+    97.64534740775791,
+    97.64534740780157
+  ],
+  "alphaIntervalWidthUpper": 4.363148429003174e-11,
+  "normalizationOnly": {
+    "alphaDifferenceUpper": 2.3705023078665895e-11,
+    "sameSourceCoordinateRadiusDifferenceUpper": 4.267259427809923e-14,
+    "slopeDifferenceAtCommonPhysicalRadiusUpper": 1.0241422626743816e-12,
+    "relativeMetricOperatorDifferenceUpper": 2.1848368270397296e-12,
+    "conditions": "Both backgrounds use the same exact source functions and inner anchor; common physical radius lies in both domains; reviewed |w_r|<24 and |w|<=16/15. Other numerical source, quadrature, interpolation and interface errors are not included."
+  },
+  "highOrderReplayMathematicalFieldsEqual": true,
+  "tightAlphaReplayAllFieldsEqual": true,
+  "v1InputRestrictions": [
+    "initial=16",
+    "batch=128",
+    "order=12",
+    "minimumWidth=2^-44",
+    "etaPower=1.5",
+    "capTransition=2"
+  ],
+  "v1GuardIssue": "initial zero and negative batch were not rejected; actual audited parameters are valid. Author informed for v2.",
+  "ownInnerAAlgorithmNotIndependentlyReviewedHere": true,
+  "notCertified": [
+    "full tail metric",
+    "full tail actual curvature",
+    "reach",
+    "nonlinear infinite-tail existence",
+    "README completion"
+  ],
+  "executedHighOrderSourceHashes": {
+    "db6f-tail-integrate-high-order.py": "ea442cd8d7d65e041e729ccb4bc6d3872f0e5fa4bd694d7fbf42e6674b113ef1",
+    "db6f_tail_interval_source.py": "82359f0f48c836b9703a1bbe16d2c3d67a375c3e9408c4af3b13612692c4ba3e",
+    "db6f_tail_interval_elementary.py": "88400506e7b660c328e03cb6547fe9056d2cde00963ebb16890d054169805145",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d"
+  },
+  "hashesAtReportTime": {
+    "scripts/db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618",
+    "scripts/db6f-tail-integrate-high-order.py": "87b28de23e2d7b5e7048365f6e90fda5289c2df696b440d4fce23535d84e73aa",
+    "scripts/db6f-tail-tight-alpha.py": "3460ed8ee96c610b00c236f6ea2334b6031695cd15eae9c7181c1c880a757533",
+    "notes/2026-11-09-db6f-tail-tight-alpha-proof.md": "570f532b757d3ec077a81002b13552af3cd1c8e4b029034e3a91b825806056f9",
+    "notes/2026-11-09-db6f-audit-high-order-A0-rerun.json": "bbe74d4a9909bc044a532ff23d373141db79aeaaeee6553ad01bb80016d4a79d",
+    "notes/2026-11-09-db6f-audit-high-order-B0-15-rerun.json": "bbc8e25f0798092220a1c0193b37a118b441b2d0bc5aceb401b9fad9817de393",
+    "notes/2026-11-09-db6f-audit-tight-alpha-rerun.json": "04aae85c19f78fd82808ac32b104537dbb584c39cac8a648107722c855685c62"
+  },
+  "v2GuardDiffReviewed": true,
+  "v2FormalRunsRowsAndTotalsEqual": true,
+  "v2SourceHashes": {
+    "scripts/db6f-tail-integrate-high-order.py": "87b28de23e2d7b5e7048365f6e90fda5289c2df696b440d4fce23535d84e73aa",
+    "scripts/db6f_tail_interval_source.py": "33b0b37fb99aa5af160444dfa28df42bb187f0754e30ea3a56fcd71e0c737618"
+  }
+}

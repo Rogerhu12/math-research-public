@@ -1,0 +1,20 @@
+{
+  "schema": "78718-root-actual-w22-bootstrap-failure-v1",
+  "utc": "2026-11-10T12:03:36.312796+00:00",
+  "actual_tool_exit": {
+    "chunk_id": "e4eb09",
+    "exit_code": 2
+  },
+  "run_elapsed_seconds": 560.5444420070016,
+  "finite_success": false,
+  "completed_inner_bvp_calls": 0,
+  "actual_stage": "First true W22 bootstrap, original physical cut H",
+  "last_finite_iteration": {
+    "iteration": 2,
+    "normalized_shooting_residual": 498.7556050275603,
+    "minA": 0.0545786382637322,
+    "minD": 0.9916325652237515
+  },
+  "reason": "Original multiple-shooting line search exhausted its ten trials. This numerical failure is not a nonexistence proof.",
+  "next_route": "Start a true W22 DN at half the original H, then follow actual H continuation with own nonlinear tangent back to the original target. Keep physical g, final H, BC and tolerance."
+}

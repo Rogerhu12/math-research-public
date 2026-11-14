@@ -1,0 +1,38 @@
+{
+  "schema": "78718-actual-read-only-inlet-check-observation-v1",
+  "observer": "/root/numerical_recovery",
+  "scope": "Actual tool result for the existing M14 stored prefix only. No M15 numerical computation or new geometric producer.",
+  "cwd": "/workspace/scratch/78718bd0c4a9/math-research",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flexible-closed-surface/scripts/78718-prefix-inlet-angular-lower-v1.py",
+    "--geometry",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-base.json",
+    "--target",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-post-restart8000-storage-v2-run-01/prefix-target.json",
+    "--out",
+    "topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-inlet-angular-lower-01.json"
+  ],
+  "initial_tool_result": {
+    "chunk_id": "39ef67",
+    "wall_time_seconds": 0.24736057,
+    "exit_code": 0,
+    "original_token_count": 115,
+    "output": "{\"exceeds_original_budget\": true, \"output\": {\"bytes\": 14305, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-inlet-angular-lower-01.json\", \"sha256\": \"aebc6fe0c746f1455f2166389a8b49f038ea7444d7b5d8cc2ef7f19efa114e99\"}, \"solver_calls\": 0, \"status\": \"EXACT_STORED_INLET_ANGULAR_RAYLEIGH_LOWER_COMPUTED\", \"strict_safe_decimal_lower\": \"0.000000013311420566797905\", \"witness_axis\": \"0\"}\n"
+  },
+  "final_tool_result": {
+    "chunk_id": "39ef67",
+    "wall_time_seconds": 0.24736057,
+    "exit_code": 0,
+    "original_token_count": 115,
+    "output": "{\"exceeds_original_budget\": true, \"output\": {\"bytes\": 14305, \"path\": \"/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-inlet-angular-lower-01.json\", \"sha256\": \"aebc6fe0c746f1455f2166389a8b49f038ea7444d7b5d8cc2ef7f19efa114e99\"}, \"solver_calls\": 0, \"status\": \"EXACT_STORED_INLET_ANGULAR_RAYLEIGH_LOWER_COMPUTED\", \"strict_safe_decimal_lower\": \"0.000000013311420566797905\", \"witness_axis\": \"0\"}\n"
+  },
+  "actual_exit_code": 0,
+  "fraction_display_followup_tool": {
+    "chunk_id": "d463c5",
+    "wall_time_seconds": 0.000032188,
+    "exit_code": 0,
+    "original_token_count": 91,
+    "output": "{\"correction_start_index\": 6124, \"input_count\": 9, \"safe_display\": \"0.000000013311420566797905\", \"second_axis_upper_display\": \"0.000000000050877930892846\", \"source_bytes\": 12292, \"source_count\": 13, \"source_sha256\": \"8d62095b36b383bbbbf9d7f94be4d1488b5011c1da63dace781d5012e78a3277\", \"strict_decimal_comparison\": true, \"strict_original_budget_comparison\": true}\n"
+  }
+}

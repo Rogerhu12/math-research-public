@@ -1,0 +1,237 @@
+{
+  "schema": "78718-independent-post-plans-frozen-entry-v1",
+  "created_utc": "2026-11-10T08:10:51.762360+00:00",
+  "author": "/root/numerical_recovery",
+  "scope": "Two separately named independent-actor success-only post plans; pure source/static/negative work only. New complete plan review pending.",
+  "files": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-build-independent-post-plans-v1.py",
+      "bytes": 11273,
+      "sha256": "e62c201b15355687f9645690b4e3d57e0341348cafd853e2d38d8bfb7b60f461"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-independent-seed8000-v1.py",
+      "bytes": 32715,
+      "sha256": "b3526176d56179a3edce6a71a159591a1e9f5ceecd9d253a4eeec95887e07053"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-independent-seed8000-storage-v2.py",
+      "bytes": 20428,
+      "sha256": "c94d7b8204ad8184a181fc6d8b4b9b495f3dd0d9fdf3609f6ea23168ed4fc223"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-check-independent-post-plans-v1.py",
+      "bytes": 9298,
+      "sha256": "184664829bec0f529eb8f48c997bedf15ba30497ad6659d3d142ec3775924281"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-v1.md",
+      "bytes": 14775,
+      "sha256": "38176916ac630b05e36183916486fbe90253bb91f4039d4eaf9316413fd1b14d"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-derivation-01.json",
+      "bytes": 11863,
+      "sha256": "c85e5953bfb4298c765c59e4e03fa9a1a13b938e4cebaa2b56957fc10dbf13ac"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-source-diff-01.txt",
+      "bytes": 10465,
+      "sha256": "38537c125310eadc6f15862d780034e3edc8ea27c515859732fe4d883d05b8c4"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-static-01.json",
+      "bytes": 66465,
+      "sha256": "58e9a1297373ed5c17901d417a55db62ca5a6eb8a6a83585ef10b83566b2d8bf"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-negative-original-missing-01.json",
+      "bytes": 266,
+      "sha256": "542903ae4255fad4a58f569ada19c3aad299cc750a2a702084a079825fd805c0"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-negative-original-root-01.json",
+      "bytes": 276,
+      "sha256": "c20692bf731dafc4035d1bcec9bb05a90a46676cdd33088e5c4e3a219a0eba59"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-negative-storage-missing-01.json",
+      "bytes": 315,
+      "sha256": "f18bcad1471b6214677c2a98094e5ba9bc6641f9642d4ceffa87f476f03bb5d9"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-independent-post-plans-negative-storage-root-01.json",
+      "bytes": 325,
+      "sha256": "23115909291e6d4688eb5deb5829edb0f896960beb1b30e92eb5d4c636c6be88"
+    }
+  ],
+  "ancestors": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-v1.py",
+      "bytes": 32491,
+      "sha256": "c6ef233eb40517bf1986b3ea25d0bb31d102d4b219727c6d69a97b38ee1e0456"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-plan-post-restart8000-storage-v2.py",
+      "bytes": 20326,
+      "sha256": "99c053a1563a31c94de2b2d9b99db70aad603c2bafa89f023abc69800748badc"
+    }
+  ],
+  "actual_main_entry_inputs": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+      "bytes": 100701,
+      "sha256": "a00359ad76c53e92890f5cd098878929838b6505923deaef92d5603bec421019"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/78718-prefix-audit-independent-seed8000-v1.py",
+      "bytes": 32581,
+      "sha256": "067f8944cb0d75ceffc846119b1ca2511f0e6e886799258e4659b023d8828578"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-independent-seed8000-entry-v1.md",
+      "bytes": 20752,
+      "sha256": "4bf8d07536b0df21f824bf06ba753af3905d6db252744b46b58fadf0aeeff9e3"
+    }
+  ],
+  "root_plan_complete_reviews": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-post-restart8000-plan-v1.md",
+      "bytes": 19315,
+      "sha256": "e53db48be38381a3e793fb2e2b016b0c0ba51c3ea8acf9fb0c530fadf736cdfb"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-audit-post-restart8000-storage-v2.md",
+      "bytes": 19888,
+      "sha256": "d0b677402a799510f980467564562f17ef24a305e853d1b0e4f8a01c21dd7ecd"
+    }
+  ],
+  "actual_observations": [
+    {
+      "tool_receipt": "a9dd12",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-build-independent-post-plans-v1.py",
+        "--ledger",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-derivation-01.json",
+        "--diff",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-source-diff-01.txt"
+      ],
+      "scope": "Only exact source derivation; no planner or numerical backend import"
+    },
+    {
+      "tool_receipt": "6e137f",
+      "actual_exit_code": 0,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-check-independent-post-plans-v1.py",
+        "--out",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-static-01.json"
+      ],
+      "scope": "Complete source replay plus actual static inputs; no candidate argv"
+    },
+    {
+      "tool_receipt": "2b9509",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-independent-seed8000-v1.py",
+        "--launch",
+        "notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-observation-01.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-independent-post-seed8000-original-negative-missing-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-negative-original-missing-01.json"
+      ],
+      "scope": "Actual separately named planner rejection; zero production commands",
+      "reason": "Missing independent process observation"
+    },
+    {
+      "tool_receipt": "d81ffa",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-independent-seed8000-v1.py",
+        "--launch",
+        "notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-m14-direct-csc-02-root-observed-exit.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-independent-post-seed8000-original-negative-root-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-negative-original-root-01.json"
+      ],
+      "scope": "Actual separately named planner rejection; zero production commands",
+      "reason": "Wrong actual independent observation identity"
+    },
+    {
+      "tool_receipt": "774331",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-independent-seed8000-storage-v2.py",
+        "--launch",
+        "notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-observation-01.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-independent-post-seed8000-storage-v2-negative-missing-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-negative-storage-missing-01.json"
+      ],
+      "scope": "Actual separately named planner rejection; zero production commands",
+      "reason": "Missing independent process observation"
+    },
+    {
+      "tool_receipt": "2084f5",
+      "actual_exit_code": 2,
+      "cwd": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/78718-plan-post-independent-seed8000-storage-v2.py",
+        "--launch",
+        "notes/2026-11-10-78718-independent-m14-seed8000-01-launch.json",
+        "--observed-execution",
+        "notes/2026-11-10-78718-numerical-m14-direct-csc-02-root-observed-exit.json",
+        "--final-audit",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-intentionally-absent-final-01.json",
+        "--run-directory",
+        "notes/2026-11-10-78718-independent-post-seed8000-storage-v2-negative-root-01",
+        "--out",
+        "notes/2026-11-10-78718-numerical-independent-post-plans-negative-storage-root-01.json"
+      ],
+      "scope": "Actual separately named planner rejection; zero production commands",
+      "reason": "Wrong actual independent observation identity"
+    }
+  ],
+  "expected_actor": "/root/independent_audit",
+  "expected_launch_schema": "78718-true-m14-w14-independent-seed8000-launch-v1",
+  "expected_final_status": "PASS_INDEPENDENT_OBSERVED_SEED8000_M14_W14_FINITE_COUPLED_CLOSE",
+  "expected_observation_field": "independent_observation",
+  "actual_solver_calls": 0,
+  "actual_production_calls": 0,
+  "candidate_argv_constructed": false,
+  "production_commands_emitted": 0,
+  "complete_final_audit_replayed": false,
+  "new_successful_candidate_claimed": false,
+  "new_full_independent_plan_review_completed": false,
+  "storage_branch_selected_or_activated": false,
+  "production_directory_created": false,
+  "root_main_session_consumed": false,
+  "frozen_root_plan_sources_modified": false,
+  "frozen_main_sources_modified": false
+}

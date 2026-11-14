@@ -1,0 +1,40 @@
+{
+  "schema": "78718-unavailable-tool-session-observation-v1",
+  "observer": "/root",
+  "status": "ROOT_TOOL_SESSION_UNAVAILABLE_NO_COMPLETION_OBSERVED",
+  "recorded_at_utc": "2026-11-10T07:08:29.452748+00:00",
+  "known_actual_start_receipt": "16c14e",
+  "unavailable_session_id": 2770,
+  "observed_tool_error": "write_stdin failed: Unknown process id 2770",
+  "other_unavailable_session_id": 51396,
+  "liveness": "unknown",
+  "natural_exit_code": null,
+  "closed_output_status": "No guard-completion, CP or summary exists at this observation.",
+  "scope": "The unavailable handle and initial RUNNING metadata prove neither success, failure nor current liveness. No old output is overwritten and no final gate is paid.",
+  "files_at_observation": [
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-guard-live.json",
+      "bytes": 1216,
+      "sha256": "fb2e1df0431bdb4c0a27e3c7dcd888c8c2c4e4faa105df044e49b28c8fda0d5b",
+      "mtime_utc": "2026-11-10T06:35:04.273372+00:00"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-reproduction.json",
+      "bytes": 152720,
+      "sha256": "6b4367ce1a8b1dae92c612174a79b37b2fdec02bde1ef9ed92cebb078b4d5db7",
+      "mtime_utc": "2026-11-10T06:37:37.655348+00:00"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01-first-request-binding.json",
+      "bytes": 2077,
+      "sha256": "012102b3e18f46767256e2993a71781ac6a290b222176f15d753012918d8178d",
+      "mtime_utc": "2026-11-10T06:37:37.653255+00:00"
+    },
+    {
+      "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m14-restart8000-01_tail_0001.json.gz",
+      "bytes": 254065,
+      "sha256": "ad0c3a342fba97db08c9a5ee070c552c056926d875ef4a9c07ce0fe53ddb40cb",
+      "mtime_utc": "2026-11-10T06:37:37.245280+00:00"
+    }
+  ]
+}

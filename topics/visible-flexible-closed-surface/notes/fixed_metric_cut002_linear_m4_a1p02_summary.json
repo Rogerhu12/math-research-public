@@ -1,0 +1,106 @@
+{
+  "config": {
+    "modes": 4,
+    "aspect": 1.02,
+    "angular": 128,
+    "tol": 2e-06,
+    "bc_tol": 2e-07
+  },
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.35,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "cycles": 1,
+    "cut_radius": 0.6,
+    "cut_slope": 0.5,
+    "delta": 0.19165424121675134
+  },
+  "gauge_amplitude": 0.009900489674978646,
+  "meridian_length": 2.190334935518406,
+  "parameters": [
+    5.680353471276402e-07,
+    0.2746376515664673,
+    0.4125359421018635,
+    0.7564694716348933
+  ],
+  "actual_core_aspect": 1.02,
+  "central_correction_scales": [
+    9.801969580435878e-05,
+    9.704429862556019e-07,
+    9.607860765579029e-09
+  ],
+  "nodes": 286,
+  "solver_success": true,
+  "message": "The algorithm converged to the desired accuracy.",
+  "max_rms_collocation_residual": 1.990483121342385e-06,
+  "newton_domain_audit": {
+    "calls": 3,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 1,
+    "accepted_steps": 5,
+    "no_step": 0,
+    "minimum_alpha": 0.5
+  },
+  "pp_coefficient_chunks": [
+    {
+      "file": "fixed_metric_cut002_linear_m4_a1p02_coeff_00.npy.gz",
+      "state_first": 0,
+      "state_last_exclusive": 13,
+      "bytes": 173114,
+      "sha256": "1dc71bd2f87f1358650129c8a48022734010fa3bb0c4dc0b233662427ff11b50"
+    }
+  ],
+  "array_format": "Exact float64 NumPy arrays, gzip-compressed, partitioned by state; no coefficient rounding.",
+  "summary": {
+    "metric_l1": 3.461283790573369e-09,
+    "flow_defect": 6.226294179344352e-09,
+    "darboux_l1": 6.252729043851693e-07,
+    "kappa_sample": 4.177613558188554,
+    "root_min": 0.05373260444139327,
+    "radius_max": 1.1952603828953654,
+    "height_max": 1.8832302128534135,
+    "cylindrical_projection_min": 0.11360863135404936,
+    "inlet_position_error": 2.884787964063662e-10,
+    "inlet_first_jet_error": 1.3469759194424423e-27,
+    "inlet_second_jet_error": 2.4058565544488645e-15,
+    "sample_s": 691,
+    "sample_theta": 256,
+    "reflected_prefix_cylinder_diagonal": 4.4610328030728885,
+    "terminal_height_max": 0.00035068186391583355,
+    "terminal_noncircle_coeff_max": 0.00035068186391583355,
+    "central_aspect": 1.02,
+    "central_major_radius": 1.0099037002772207,
+    "central_minor_radius": 0.9901016669384516,
+    "central_curvature_min": 0.9711921336364665,
+    "central_curvature_max": 1.030654637265153,
+    "central_corrections": [
+      2.6919899062968602e-05,
+      4.003426115911005e-07,
+      7.2680533568791894e-09
+    ],
+    "inlet_projection_diagnostics": {
+      "coordinate_projection_error": 2.884787964063662e-10,
+      "metric_projection_error": 3.4612805954736814e-09,
+      "exact_arclength_metric_error": 4.440892098500626e-16,
+      "arc_inversion_residual": 8.881784197001252e-16,
+      "radial_fundamental": 0.009900135931169035,
+      "vertical_coefficients_max": 0.0,
+      "core_aspect": 1.02,
+      "major_radius": 1.0099037002772207,
+      "minor_radius": 0.9901016669384516,
+      "minimum_sampled_curvature": 0.9711921336364665,
+      "maximum_sampled_curvature": 1.030654637265153,
+      "initial_speed_limit": 0.9711921336364665,
+      "arc_speed_omitted_l1": 4.2755507375996845e-15
+    },
+    "meridian_length": 2.190334935518406,
+    "scope": "Actual C2 finite-prefix map sampled in s, whole-angle polynomial l1 metric/Darboux diagnostics. Linear Robin port is not circular; no closed-surface assertion.",
+    "sampled_kappa_times_diagonal": 18.63647112164119
+  },
+  "seconds": 1.4575369358062744,
+  "tail_config": "math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_cut002_tail_m4.json",
+  "tail_config_sha256": "2d38ac8e6ad4c8c0943c6d66ded8f6c4bf3e277fadb9dfe6f0e626ab54b7d9c1",
+  "profile_config": "math-research/topics/visible-flexible-closed-surface/notes/fixed_metric_cut002_design_profile.json",
+  "linear_port_sha256": "384323a34b1f8d4a2cf8016b2c799f554efb6978fd74fc2f227758b045f49a8e"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "fd2d-observed-exec-receipt-v1",
+  "session_id": 74817,
+  "launch_chunk": "607114",
+  "completion_chunk": "b59c14",
+  "actual_exit_code": 0,
+  "body_completed": true,
+  "seconds": 24.127173177999794,
+  "peak_rss_kib": 204808,
+  "report": {
+    "path": "notes/2026-11-12-fd2d-positive-gauss-warm01-report.json",
+    "bytes": 17049,
+    "sha256": "58f0a5ac39cdd3d7f5b8c7703c43f1239f3ea1d324c1c455900255b31f4584d4"
+  },
+  "warm": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-positive-gauss-warm01-warm.npz",
+    "bytes": 56874,
+    "sha256": "4a3737df628b837143cf3237624656fb7e7c7721495e8df6f0199c5301e6c2a2"
+  },
+  "scope": "Actual initializer and local node/endpoint/curvature/high-G/high-C nonzero JVP; no BVP or body solve."
+}

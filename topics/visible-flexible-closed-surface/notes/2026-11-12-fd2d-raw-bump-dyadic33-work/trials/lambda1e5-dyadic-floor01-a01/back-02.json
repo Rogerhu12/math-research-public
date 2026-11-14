@@ -1,0 +1,2972 @@
+{
+  "schema": "fd2d-independent-actual-Armijo-trial-v1",
+  "binding": {
+    "schema": "fd2d-R170-grouped-same-field-new-tail-domain-v1",
+    "input_npz_sha256": "6edc6ec7fb168639c5d0b39fc3faa07d1bd1e0e3858c4f51ad86fddfb6cd9381",
+    "input_npz_bytes": 133757,
+    "packed_vector": {
+      "shape": [
+        12499
+      ],
+      "dtype": "<f8",
+      "sha256": "62412310fe5e4780af262b6d797d2afe83e21b0183df3f8d36c7b2b4b1fce299"
+    },
+    "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+    "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+    "mathematical_settings": {
+      "gap": 0.8,
+      "modes": 31,
+      "curvature_cap": 7.2,
+      "curvature_weight": 1.0,
+      "high_gauss_weight": 1.0,
+      "high_codazzi_weight": 1.0,
+      "minimum_active_n": 0.05,
+      "interior_gauss_weight": 1.0,
+      "reference_rim_fraction": 0.12,
+      "radius_floor": 0.1,
+      "interior_cells": [
+        63,
+        64,
+        65,
+        74,
+        75,
+        76,
+        123,
+        124
+      ]
+    },
+    "actual_saved_definition_arrays": {
+      "mesh": {
+        "shape": [
+          131
+        ],
+        "dtype": "<f8",
+        "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+      },
+      "modes": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+      },
+      "profile_supports": {
+        "shape": [
+          7,
+          2
+        ],
+        "dtype": "<f8",
+        "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+      },
+      "profile_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+      },
+      "fixed_base_T": {
+        "shape": [],
+        "dtype": "<f8",
+        "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+      },
+      "profile_kind": {
+        "shape": [],
+        "dtype": "<U14",
+        "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+      },
+      "tail_kind": {
+        "shape": [],
+        "dtype": "<U18",
+        "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+      },
+      "base_kind": {
+        "shape": [],
+        "dtype": "<U13",
+        "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+      },
+      "candidate_sha256": {
+        "shape": [],
+        "dtype": "<U64",
+        "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+      },
+      "blend": {
+        "shape": [
+          2
+        ],
+        "dtype": "<f8",
+        "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+      },
+      "seed_weight_definition": {
+        "shape": [],
+        "dtype": "<U66",
+        "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+      },
+      "representation_kind": {
+        "shape": [],
+        "dtype": "<U71",
+        "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+      },
+      "central_field_definition": {
+        "shape": [],
+        "dtype": "<U275",
+        "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+      },
+      "targeted_mesh_definition": {
+        "shape": [],
+        "dtype": "<U12990",
+        "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+      },
+      "coast_reference_definition": {
+        "shape": [],
+        "dtype": "<U929",
+        "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+      },
+      "angular_atlas_definition": {
+        "shape": [],
+        "dtype": "<U2325",
+        "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+      },
+      "atlas_mesh_definition": {
+        "shape": [],
+        "dtype": "<U5151",
+        "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+      },
+      "reference_evaluation_definition": {
+        "shape": [],
+        "dtype": "<U904",
+        "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+      },
+      "finite_radial_scheme": {
+        "shape": [],
+        "dtype": "<U256",
+        "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+      },
+      "gauss_l_definition": {
+        "shape": [],
+        "dtype": "<U1489",
+        "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+      },
+      "inactive_l_raw_nodes": {
+        "shape": [
+          9
+        ],
+        "dtype": "<i8",
+        "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+      },
+      "positive_trace_definition": {
+        "shape": [],
+        "dtype": "<U1389",
+        "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+      },
+      "inactive_raw_trace_nodes": {
+        "shape": [
+          4
+        ],
+        "dtype": "<i8",
+        "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+      },
+      "trace_gauge_pairs": {
+        "shape": [
+          128,
+          2
+        ],
+        "dtype": "<i8",
+        "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+      },
+      "tail_parameter_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+      },
+      "central_parameter_count": {
+        "shape": [],
+        "dtype": "<i8",
+        "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+      },
+      "nested_angular_definition": {
+        "shape": [],
+        "dtype": "<U650",
+        "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+      },
+      "angular_embedding_definition": {
+        "shape": [],
+        "dtype": "<U1482",
+        "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+      },
+      "radial_refinement_definition": {
+        "shape": [],
+        "dtype": "<U29230",
+        "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+      },
+      "finite_interior_rows_definition": {
+        "shape": [],
+        "dtype": "<U684",
+        "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+      },
+      "parent_finite_interior_rows_definition": {
+        "shape": [],
+        "dtype": "<U663",
+        "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+      },
+      "grouped_goal_preparation": {
+        "shape": [],
+        "dtype": "<U919",
+        "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+      },
+      "radial_mesh_rebind_definition": {
+        "shape": [],
+        "dtype": "<U25689",
+        "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+      },
+      "finite_grouped_coast_rule_definition": {
+        "shape": [],
+        "dtype": "<U775",
+        "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+      },
+      "tail_search_domain_kind": {
+        "shape": [],
+        "dtype": "<U35",
+        "sha256": "a4a546691375276d8dee8a9de87b60893d974e6fe405c196384437fd02a739a4"
+      },
+      "tail_search_domain_definition": {
+        "shape": [],
+        "dtype": "<U1814",
+        "sha256": "9ec41e3c4f14a4f9aeed24ce8a1152a4d6ebb7e4c017135c02d63b7ade817176"
+      },
+      "tail_search_domain_certificate": {
+        "shape": [],
+        "dtype": "<U703",
+        "sha256": "84a7891a3b358a1cfefaa392903b53df643f1bbc7e7773ba655ed00c8e9d3f0c"
+      },
+      "tail_domain_transport_diagnostics": {
+        "shape": [],
+        "dtype": "<U123",
+        "sha256": "970cfdb9a8a989bcdce53ac9d9eb1df46d90d5d146cda122a9b4804505689a38"
+      }
+    },
+    "implementation_sources": {
+      "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+      "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+      "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+      "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+      "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+      "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+      "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+      "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+      "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+      "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+      "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+      "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+      "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+      "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+      "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+      "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+      "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+      "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+      "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+      "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+      "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+      "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+      "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+      "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+      "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+      "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+      "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+      "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+      "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+      "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+      "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+      "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+      "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+      "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+      "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+      "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+      "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+      "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+      "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+      "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+      "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+      "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+      "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+      "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+      "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+      "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+      "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+      "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+      "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+      "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+      "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+    },
+    "context_source_sha256": "ad739600f698a1efeeb5bbb3e880dec4140ed06a641483d612e6a2ee08126658",
+    "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+    "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+    "damping_and_search_floor_not_part_of_normal_identity": true,
+    "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+    "grouped_rule_definition": {
+      "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+      "consumer_source": {
+        "name": "fd2d_gc_grouped_coast_codazzi.py",
+        "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+        "bytes": 21332
+      },
+      "fine_order": 8,
+      "point_batch": 2,
+      "old_point_gauss_diagnostic_order": 2,
+      "support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+      "known_lifting_change_not_separately_evaluated": true,
+      "outside_coast_consumer_unchanged": true,
+      "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+    },
+    "original_grouped_context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+    "tail_search_domain_definition": {
+      "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+      "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+      "control_box": {
+        "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+        "degree": 15,
+        "parts": 8,
+        "interval_endpoints_exact": [
+          "0",
+          "1/8",
+          "1/4",
+          "3/8",
+          "1/2",
+          "5/8",
+          "3/4",
+          "7/8",
+          "1"
+        ],
+        "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+        "shape": [
+          128,
+          16
+        ],
+        "numerator_denominator": "35184372088832",
+        "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+        "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+        "exact_lower": "0",
+        "exact_upper": "6/5",
+        "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+        "matrix_entries_exact_in_binary64": true,
+        "floating_matrix_vector_product_claimed_exact": false,
+        "selected_sufficient_domain_not_necessary_function_range": true
+      },
+      "tail_parameter_count": 16,
+      "inherited_polynomial_basis_tag": "positive_bernstein",
+      "basis_tag_is_not_global_control_box": true,
+      "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+      "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+      "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+      "old_parameter_domain_global_tail_min_max_replaced": true,
+      "central_and_profile_domain_predicates_unchanged": true,
+      "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+      "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+      "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+      "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+    },
+    "domain_provider_source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+    "finite_objective_unchanged_by_selected_domain": true
+  },
+  "direction_summary": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-work/directions/lambda1e5-dyadic-floor01-a01/summary.json",
+    "bytes": 86091,
+    "sha256": "ef992c08dd0dc12d889f615101152f3c6ee5b326fe173f7184144b0cfb305b3d"
+  },
+  "direction_id": "lambda1e5-dyadic-floor01-a01",
+  "backtracking_index": 2,
+  "alpha": 0.25,
+  "actual_trial_vector": {
+    "shape": [
+      12499
+    ],
+    "dtype": "<f8",
+    "sha256": "93628d8eac37d1f0f5596509c46145f6302ab5432417ac3fa551b35b4d40abd9"
+  },
+  "baseline_cost": 5.942059713115829,
+  "merit_directional_derivative": -0.43267525419718134,
+  "armijo_threshold": 5.942048896234474,
+  "accepted": true,
+  "actual_full_residual_evaluated": true,
+  "stage_source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-dyadic-stage-trial.py",
+    "bytes": 8275,
+    "sha256": "c0b45aece97417027add0636674b6c69b8c49bcd2f4b017876b330f0a333e4ee"
+  },
+  "strong_target_complete": false,
+  "tail_search_domain": {
+    "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+    "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+    "control_box": {
+      "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+      "degree": 15,
+      "parts": 8,
+      "interval_endpoints_exact": [
+        "0",
+        "1/8",
+        "1/4",
+        "3/8",
+        "1/2",
+        "5/8",
+        "3/4",
+        "7/8",
+        "1"
+      ],
+      "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+      "shape": [
+        128,
+        16
+      ],
+      "numerator_denominator": "35184372088832",
+      "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+      "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+      "exact_lower": "0",
+      "exact_upper": "6/5",
+      "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+      "matrix_entries_exact_in_binary64": true,
+      "floating_matrix_vector_product_claimed_exact": false,
+      "selected_sufficient_domain_not_necessary_function_range": true
+    },
+    "tail_parameter_count": 16,
+    "inherited_polynomial_basis_tag": "positive_bernstein",
+    "basis_tag_is_not_global_control_box": true,
+    "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+    "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+    "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+    "old_parameter_domain_global_tail_min_max_replaced": true,
+    "central_and_profile_domain_predicates_unchanged": true,
+    "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+    "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+    "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+    "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+  },
+  "actual_projection": {
+    "new_domain": "R170 eight dyadic Bernstein boxes",
+    "global_control_clipping_applied": false,
+    "exact_tail_certificate": {
+      "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+      "passed": true,
+      "exact_arithmetic": true,
+      "controls_interpreted_as_exact_values": true,
+      "degree": 15,
+      "parts": 8,
+      "rows": 128,
+      "local_lower_exact": "3660870203349466265149435/154742504910672534362390528",
+      "local_upper_exact": "84476090322560639/72057594037927936",
+      "minimum_lower_slack_exact": "3660870203349466265149435/154742504910672534362390528",
+      "minimum_upper_slack_exact": "9965112614764421/360287970189639680",
+      "global_lower_exact": "-6680542532863949/2251799813685248",
+      "global_upper_exact": "1563295861194331/562949953421312",
+      "global_control_box_passed": false,
+      "global_negative_indices": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13
+      ],
+      "violated_rows": []
+    },
+    "explicit_tail_repair": null,
+    "profile_clip_maximum_change": 0.0,
+    "maximum_full_vector_change": 1.1102230246251565e-16
+  },
+  "domain": {
+    "original_strict_domain": true,
+    "roundoff_admitted": false
+  },
+  "domain_diagnostics": {
+    "minimum_central": 0.10000662966607132,
+    "maximum_central": 7.208583820813969,
+    "central_floor_difference": 6.629666071317208e-06,
+    "central_cap_difference": 0.1443573556566191,
+    "illustrative_floating_sum_error_scale": 1.8556211347408186e-14,
+    "tail_minimum": -2.966756854789287,
+    "tail_maximum": 2.7769712950386545,
+    "profile_linear_minimum_margin": 0.684406618245968,
+    "tail_global_range_is_not_the_search_box": true,
+    "exact_dyadic_tail_certificate": {
+      "schema": "fd2d-exact-dyadic-Bernstein-membership-v1",
+      "passed": true,
+      "exact_arithmetic": true,
+      "controls_interpreted_as_exact_values": true,
+      "degree": 15,
+      "parts": 8,
+      "rows": 128,
+      "local_lower_exact": "3660870203349466265149435/154742504910672534362390528",
+      "local_upper_exact": "84476090322560639/72057594037927936",
+      "minimum_lower_slack_exact": "3660870203349466265149435/154742504910672534362390528",
+      "minimum_upper_slack_exact": "9965112614764421/360287970189639680",
+      "global_lower_exact": "-6680542532863949/2251799813685248",
+      "global_upper_exact": "1563295861194331/562949953421312",
+      "global_control_box_passed": false,
+      "global_negative_indices": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        13
+      ],
+      "violated_rows": []
+    }
+  },
+  "actual_cost": 5.9162252679938145,
+  "objective_norm": 3.439832922685,
+  "actual_residual": {
+    "shape": [
+      52151
+    ],
+    "dtype": "<f8",
+    "sha256": "d95f40819a0630066a611c29de920d8f564013c89da7cf0037a246518d07d374"
+  },
+  "diagnostics": {
+    "residual_maximum": 0.4146247102484101,
+    "previous_node_cell_residual_maximum": 0.4146247102484101,
+    "interior_actual_constraints": {
+      "schema": "fd2d-actual-selected-interior-Gauss-curvature-v1",
+      "selected_cells": [
+        63,
+        64,
+        65,
+        74,
+        75,
+        76,
+        123,
+        124
+      ],
+      "points": [
+        0.5961592272463956,
+        0.6075224474037754,
+        0.6145099491777213,
+        0.6222369388847396,
+        0.626396166131136,
+        0.6300323965814975,
+        0.8295110485209171,
+        0.8331472789712785,
+        0.8373065062176749,
+        0.8450334959246932,
+        0.8520209976986391,
+        0.8633842178560189,
+        1.4701599841706956,
+        1.4720363725455619,
+        1.4734099841706956,
+        1.4752863725455618
+      ],
+      "sample_cell_indices": [
+        63,
+        63,
+        64,
+        64,
+        65,
+        65,
+        74,
+        74,
+        75,
+        75,
+        76,
+        76,
+        123,
+        123,
+        124,
+        124
+      ],
+      "fractions": [
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129,
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_mean_weights": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "row_weight": "sqrt(Gauss average weight) times specified guidance weight",
+      "physical_field_unchanged": true,
+      "physical_g_unchanged_by_extra_rows": true,
+      "unknown_mesh_unchanged": true,
+      "finite_Gauss_equations_changed": true,
+      "complete_actual_Gauss": true,
+      "full_parameter_chain_rule": true,
+      "full_Gauss_maximum": 1.0312010407936176,
+      "high_Gauss_maximum": 0.02491910681550691,
+      "retained_residual_l2": 0.7528488557038319,
+      "high_residual_l2": 0.014048921997422574,
+      "curvature_residual_l2": 0.1001146690568337,
+      "curvature": {
+        "cap": 7.2,
+        "weight": 1.0,
+        "active_rows": 152,
+        "repeated_eigenvalue_rows": 0,
+        "residual_l2": 0.14158352277266822,
+        "sampled_formal_curvature_maximum": 7.229507932621131,
+        "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+        "complete_chain_derivative": true,
+        "actual_geometry_certified": false
+      },
+      "maximum_location": {
+        "cell": 64,
+        "s": 0.6145099491777213,
+        "xi": 4.368777283898306,
+        "material_u": 3.722051422960331,
+        "G": -1.0312010407936176,
+        "n_m_l": [
+          0.9247548021853165,
+          -0.2731935707901884,
+          -0.8139045705844782
+        ],
+        "K": 0.20390415350394975
+      },
+      "continuous_certificate": false
+    },
+    "residual_rms": 0.029961684694465467,
+    "legacy_trapezoid_residual_maximum": null,
+    "legacy_trapezoid_not_evaluated": true,
+    "full_gauss_node_maximum": 1.5861561484440483,
+    "formal_curvature_node_maximum": 7.346327372811174,
+    "A": 1.3588484628855673,
+    "B": 0.5590837086398454,
+    "gap": 0.799764754245722,
+    "base_coast_T_fixed": 0.02,
+    "tail_coefficients": [
+      1.1200366200450111,
+      -0.8248146145854558,
+      0.6592217158289472,
+      -0.32019954969298475,
+      0.0627013538630498,
+      0.20042325184419088,
+      -0.2514054101857955,
+      0.19130170637375726,
+      0.1399306829596006,
+      -0.09873694199366832,
+      0.6141526037941331,
+      -1.4050057817387047,
+      2.7769712950386545,
+      -2.966756854789287,
+      2.311701921649533,
+      0.9312810276904648
+    ],
+    "profile_deltas": [
+      0.0002702872665137578,
+      -0.005841600503811465,
+      -0.008401815388104404,
+      -0.0013499658621160234,
+      0.02795547580809869,
+      0.035816077613692446,
+      0.012794360938842427
+    ],
+    "minimum_n": -0.17526174299980268,
+    "maximum_n": 7.236376874675768,
+    "minimum_active_coast_n_at_nodes": 0.3223860364933408,
+    "gauss_l_field": true,
+    "continuous_positive_domain_certified": false,
+    "removed_actual_zero_Gauss_nodes": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "removed_terminal_positive_trace_Gauss_nodes": [
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "minimum_sampled_positive_trace_h": 0.129820420422493,
+    "minimum_central_curvature": 0.10000662966607132,
+    "minimum_radius_at_nodes": 0.8,
+    "exact_cut_lifting": true,
+    "cut_n_mean_omitted": false,
+    "cut_correction_maximum": 0.0,
+    "nonlinear_finite_solution": false,
+    "continuous_certificate": false,
+    "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+    "curvature_merit": {
+      "cap": 7.2,
+      "weight": 1.0,
+      "active_rows": 1790,
+      "repeated_eigenvalue_rows": 0,
+      "residual_l2": 0.5541560840229973,
+      "sampled_formal_curvature_maximum": 7.346327372811174,
+      "actual_field": "R153 coast plus R155 terminal n/l positive trace",
+      "complete_chain_derivative": true,
+      "actual_geometry_certified": false
+    },
+    "high_gauss_merit": {
+      "weight": 1.0,
+      "rows": 11058,
+      "retained_radial_node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "exact_zero_plateau_nodes_removed": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "sampled_full_gauss_maximum": 1.5861561484440483,
+      "sampled_omitted_gauss_maximum": 0.14241524097334685,
+      "residual_l2": 0.10568505232402356,
+      "actual_field": "Complete R153 plus R155 actual Gauss, not scaled old G",
+      "normalization": "D2 isometric Fourier rows, same complete nonzero high-Gauss objective",
+      "continuous_certificate": false
+    },
+    "high_codazzi_merit": {
+      "schema": "fd2d-R153-nonlinear-G2-plus-R152-known-coast-cells-v1",
+      "order": 2,
+      "quadrature_fraction_nodes": [
+        0.21132486540518713,
+        0.7886751345948129
+      ],
+      "quadrature_average_weights": [
+        0.5,
+        0.5
+      ],
+      "physical_g_changed": false,
+      "unknown_mesh_changed": false,
+      "original_trapezoid_rows_changed": true,
+      "original_whole_correction_RHS_Gauss_rows_changed": true,
+      "known_lifting_derivative_integral": "Exact full endpoint function difference divided by actual cell width",
+      "finite_equations_changed_by_exact_lifting_integration": true,
+      "node_Gauss_boundary_gap_rows_changed": false,
+      "parameter_columns": "analytic full tail and physical-profile lifting/operator derivatives",
+      "retained_cell_maximum": 0.4056510189997296,
+      "sampled_full_average_codazzi_maximum": 1.0787467173886967,
+      "sampled_omitted_average_codazzi_maximum": 0.994336119116368,
+      "sampled_interior_Gauss_maximum": 1.6074477971471435,
+      "normalization": "D2 isometric Fourier rows; ordinary c_k, sqrt(2)*Nyquist c",
+      "row_definition": {
+        "schema": "fd2d-D2-high-angular-isometric-rows-v1",
+        "work": 512,
+        "retained_maximum_frequency": 62,
+        "even_frequencies": [
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128,
+          130,
+          132,
+          134,
+          136,
+          138,
+          140,
+          142,
+          144,
+          146,
+          148,
+          150,
+          152,
+          154,
+          156,
+          158,
+          160,
+          162,
+          164,
+          166,
+          168,
+          170,
+          172,
+          174,
+          176,
+          178,
+          180,
+          182,
+          184,
+          186,
+          188,
+          190,
+          192,
+          194,
+          196,
+          198,
+          200,
+          202,
+          204,
+          206,
+          208,
+          210,
+          212,
+          214,
+          216,
+          218,
+          220,
+          222,
+          224,
+          226,
+          228,
+          230,
+          232,
+          234,
+          236,
+          238,
+          240,
+          242,
+          244,
+          246,
+          248,
+          250,
+          252,
+          254,
+          256
+        ],
+        "odd_frequencies": [
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128,
+          130,
+          132,
+          134,
+          136,
+          138,
+          140,
+          142,
+          144,
+          146,
+          148,
+          150,
+          152,
+          154,
+          156,
+          158,
+          160,
+          162,
+          164,
+          166,
+          168,
+          170,
+          172,
+          174,
+          176,
+          178,
+          180,
+          182,
+          184,
+          186,
+          188,
+          190,
+          192,
+          194,
+          196,
+          198,
+          200,
+          202,
+          204,
+          206,
+          208,
+          210,
+          212,
+          214,
+          216,
+          218,
+          220,
+          222,
+          224,
+          226,
+          228,
+          230,
+          232,
+          234,
+          236,
+          238,
+          240,
+          242,
+          244,
+          246,
+          248,
+          250,
+          252,
+          254
+        ],
+        "ordinary_projection_weight": "2/W",
+        "even_Nyquist_projection_weight": "sqrt(2)/W",
+        "old_point_normalization": "sqrt(2/W)",
+        "grid_roundoff_maximum": 8.881784197001252e-16,
+        "analytic_symmetry_premise": "Raw even n,l / odd m, pi-periodic seed/chart/positive-developable-tail formulas",
+        "arbitrary_sampled_fields_supported": false,
+        "floating_point_symmetry_defects_are_reported": true,
+        "finite_angular_objective_unchanged_in_exact_arithmetic": true,
+        "continuous_angular_certificate": false
+      },
+      "old_high_point_rows": 2048,
+      "old_large_high_point_jacobian_constructed": false,
+      "finite_symmetry_and_compression": {
+        "n": {
+          "parity": "even",
+          "point_rows": 512,
+          "compressed_rows": 97,
+          "normalized_point_l2": 6.863171391821831e-16,
+          "compressed_l2": 3.1105275152841824e-16,
+          "point_reconstruction_error_l2": 6.117821518333273e-16,
+          "point_reconstruction_error_maximum": 5.20417042793042e-16,
+          "sampled_reflection_error_maximum": 1.1102230246251565e-14,
+          "sampled_half_period_error_maximum": 1.1102230246251565e-14,
+          "sampled_row_gram_error_maximum": 1.4022809130894021e-14
+        },
+        "m": {
+          "parity": "odd",
+          "point_rows": 512,
+          "compressed_rows": 96,
+          "normalized_point_l2": 0.0,
+          "compressed_l2": 0.0,
+          "point_reconstruction_error_l2": 0.0,
+          "point_reconstruction_error_maximum": 0.0,
+          "sampled_reflection_error_maximum": 0.0,
+          "sampled_half_period_error_maximum": 0.0,
+          "sampled_row_gram_error_maximum": 1.3037676136825957e-14
+        }
+      },
+      "continuous_certificate": false,
+      "scope": "Exact complete lifting endpoint differences and finite Gauss averages of the full physical PDE; no pointwise or continuous bound",
+      "actual_field": "R153 l=(1-w)*l_raw+w*(K+m^2)/n; only active window divided",
+      "full_nonlinear_delta_l_and_angular_delta_included": true,
+      "known_affine_endpoint_primitive_preserved": true,
+      "finite_field_representation_changed": true,
+      "sampled_active_n_minimum": null,
+      "actual_field_representation_changed": false,
+      "physical_metric_changed": false,
+      "finite_quadrature_rule_changed": true,
+      "formula": "R153_G2(y,p)+Q2(F_p L_p)-Qfine(F_p L_p), where L_p is the original affine known lifting",
+      "nonlinear_Gauss_l_correction": "Complete Delta l and Delta l_xi values and state/tail/profile Jacobian remain in R153_G2",
+      "nonlinear_field_treated_as_affine": false,
+      "new_field_at_zero_state_used_for_lifting_correction": false,
+      "state_jacobian": "Exactly the complete nonlinear R153 Gauss2 state columns; no zero-field state Jacobian added",
+      "parameter_jacobian": "Complete R153 columns plus derivative of the original known-affine-lifting average difference",
+      "known_lifting_quadrature_order": 8,
+      "nonlinear_correction_quadrature_order": 2,
+      "selected_coast_local_cells": [],
+      "fine_known_physical_support": [
+        0.5919999999999992,
+        0.8675434451024153
+      ],
+      "all_other_cells_keep_original_G2": true,
+      "selection_independent_of_chunk_size_and_parameters": true,
+      "known_lifting_fixed_boundaries": [],
+      "known_lifting_cell_rules": [],
+      "known_lifting_full_change_maximum": null,
+      "point_gauss_scope": "Original R153 actual-field Gauss2 points; not fine known-lifting points",
+      "terminal_trace_change_identically_zero_on_block": true,
+      "runtime_operator_cache_compatibility": {
+        "actual_R153_background_class": "fd2d_gc_raw_bump_positive_gauss.PositiveGaussRawBumpDAE",
+        "old_strict_identity_check_unchanged": true,
+        "original_complete_cell_formula_and_Jacobian_called": true,
+        "mathematical_fields_or_finite_equations_changed": false,
+        "operator_projection_cache_used_in_R152_R153_background": false,
+        "prepared_geometry_reference_cache_still_shared": true,
+        "node_and_separate_terminal_operator_cache_left_enabled": true,
+        "no_process_global_class_patch": true
+      },
+      "grouped_coast_local_cells": [],
+      "grouped_coast_consumer_source_sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+      "grouped_coast_applied": false,
+      "all_rows_from_frozen_outside_coast_consumer": true,
+      "assembly": "bounded radial-cell blocks of the unchanged original formula",
+      "block_cells": 2,
+      "block_count": 65,
+      "cell_consumer": "fd2d_gc_checkpointed_grouped_values.consume",
+      "finite_equations_changed_by_chunking": false,
+      "independent_unknown_columns_preserved": true,
+      "legacy_first_chunk_info": {
+        "known_lifting_full_change_maximum": 0.0,
+        "selected_coast_local_cells": [],
+        "grouped_coast_local_cells": []
+      },
+      "known_lifting_change_maximum_not_separately_evaluated": true,
+      "selected_coast_local_cells_scope": "Legacy first chunk only; use whole_grouped_coast_cells",
+      "whole_grouped_coast_rules": [
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.5919999999999992,
+            0.6116816746501718
+          ],
+          "cuts": [
+            0.5919999999999992,
+            0.6116816746501718
+          ],
+          "points": [
+            0.5923907810623628,
+            0.5940009721185084,
+            0.5966691583700383,
+            0.6000356868485004,
+            0.6036459878016706,
+            0.6070125162801326,
+            0.6096807025316625,
+            0.6112908935878082
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.5919999999999992,
+                0.6116816746501718
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 1.018557483154171,
+          "fine_Gauss_location": {
+            "angular_index": 355,
+            "xi": 4.356505437595221,
+            "s": 0.6036459878016706,
+            "signed_value": -1.018557483154171
+          },
+          "fine_sampled_minimum_active_n": 0.2538251562594317,
+          "global_cell": 63
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.6116816746501718,
+            0.6250652134122892
+          ],
+          "cuts": [
+            0.6116816746501718,
+            0.6250652134122892
+          ],
+          "points": [
+            0.611947405772579,
+            0.6130423356907581,
+            0.6148567023417983,
+            0.6171459417071526,
+            0.6196009463553083,
+            0.6218901857206626,
+            0.6237045523717029,
+            0.6247994822898819
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6116816746501718,
+                0.6250652134122892
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 1.030786119983978,
+          "fine_Gauss_location": {
+            "angular_index": 356,
+            "xi": 4.368777283898306,
+            "s": 0.6148567023417983,
+            "signed_value": -1.030786119983978
+          },
+          "fine_sampled_minimum_active_n": 0.32498023963744016,
+          "global_cell": 64
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.6250652134122892,
+            0.6313633493003443
+          ],
+          "cuts": [
+            0.6250652134122892,
+            0.6253687349104141,
+            0.6313633493003443
+          ],
+          "points": [
+            0.6250712398534125,
+            0.6250960714599864,
+            0.6251372189691661,
+            0.6251891359826025,
+            0.6252448123401008,
+            0.6252967293535372,
+            0.6253378768627169,
+            0.6253627084692908,
+            0.6254877584092472,
+            0.6259781879406399,
+            0.6267908600319496,
+            0.6278162321316212,
+            0.6289158520791372,
+            0.6299412241788088,
+            0.6307538962701186,
+            0.6312443258015112
+          ],
+          "average_weights": [
+            0.0024392167407918347,
+            0.005358524008657837,
+            0.0075591185091129125,
+            0.00873927835420373,
+            0.00873927835420373,
+            0.0075591185091129125,
+            0.005358524008657837,
+            0.0024392167407918347,
+            0.0481750514043967,
+            0.10583199321802939,
+            0.14929420442983055,
+            0.1726026133349771,
+            0.1726026133349771,
+            0.14929420442983055,
+            0.10583199321802939,
+            0.0481750514043967
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6250652134122892,
+                0.6253687349104141
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            },
+            {
+              "endpoints": [
+                0.6253687349104141,
+                0.6313633493003443
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 1.5265566588595902e-16,
+          "fine_Gauss_location": {
+            "angular_index": 69,
+            "xi": 0.8467573949128739,
+            "s": 0.6312443258015112,
+            "signed_value": 1.5265566588595902e-16
+          },
+          "fine_sampled_minimum_active_n": 0.32793546827927517,
+          "global_cell": 65
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.6313633493003443,
+            0.6707266986006896
+          ],
+          "cuts": [
+            0.6313633493003443,
+            0.6707266986006896
+          ],
+          "points": [
+            0.6321449114250715,
+            0.6353652935373628,
+            0.6407016660404226,
+            0.6474347229973468,
+            0.654655324903687,
+            0.6613883818606113,
+            0.6667247543636711,
+            0.6699451364759624
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6313633493003443,
+                0.6707266986006896
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 1.6653345369377348e-16,
+          "fine_Gauss_location": {
+            "angular_index": 70,
+            "xi": 0.8590292412159591,
+            "s": 0.6353652935373628,
+            "signed_value": -1.6653345369377348e-16
+          },
+          "fine_sampled_minimum_active_n": 0.3312129097789055,
+          "global_cell": 66
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.6707266986006896,
+            0.6747093260540642
+          ],
+          "cuts": [
+            0.6707266986006896,
+            0.6747093260540642
+          ],
+          "points": [
+            0.6708057739545348,
+            0.6711315994353115,
+            0.6716715124256915,
+            0.6723527364058253,
+            0.6730832882489285,
+            0.6737645122290623,
+            0.6743044252194422,
+            0.674630250700219
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6707266986006896,
+                0.6747093260540642
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 8.326672684688674e-17,
+          "fine_Gauss_location": {
+            "angular_index": 71,
+            "xi": 0.8713010875190442,
+            "s": 0.6737645122290623,
+            "signed_value": -8.326672684688674e-17
+          },
+          "fine_sampled_minimum_active_n": 0.3440947950290527,
+          "global_cell": 67
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.6747093260540642,
+            0.6786919535074387
+          ],
+          "cuts": [
+            0.6747093260540642,
+            0.6786919535074387
+          ],
+          "points": [
+            0.6747884014079094,
+            0.6751142268886862,
+            0.6756541398790661,
+            0.6763353638591999,
+            0.677065915702303,
+            0.6777471396824368,
+            0.6782870526728167,
+            0.6786128781535935
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6747093260540642,
+                0.6786919535074387
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 8.326672684688674e-17,
+          "fine_Gauss_location": {
+            "angular_index": 76,
+            "xi": 0.9326603190344699,
+            "s": 0.6747884014079094,
+            "signed_value": 8.326672684688674e-17
+          },
+          "fine_sampled_minimum_active_n": 0.34201116520797625,
+          "global_cell": 68
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.6786919535074387,
+            0.7100900479010347
+          ],
+          "cuts": [
+            0.6786919535074387,
+            0.7100900479010347
+          ],
+          "points": [
+            0.6793153649244755,
+            0.6818840960752134,
+            0.6861406425975133,
+            0.6915112515941697,
+            0.6972707498143037,
+            0.7026413588109601,
+            0.70689790533326,
+            0.7094666364839979
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.6786919535074387,
+                0.7100900479010347
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 1.1102230246251565e-16,
+          "fine_Gauss_location": {
+            "angular_index": 125,
+            "xi": 1.5339807878856413,
+            "s": 0.6915112515941697,
+            "signed_value": -1.1102230246251565e-16
+          },
+          "fine_sampled_minimum_active_n": 0.3421021273321135,
+          "global_cell": 69
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.7100900479010347,
+            0.7494533972013798
+          ],
+          "cuts": [
+            0.7100900479010347,
+            0.7494533972013798
+          ],
+          "points": [
+            0.7108716100257618,
+            0.7140919921380532,
+            0.7194283646411129,
+            0.7261614215980372,
+            0.7333820235043773,
+            0.7401150804613016,
+            0.7454514529643613,
+            0.7486718350766527
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.7100900479010347,
+                0.7494533972013798
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+          "fine_Gauss_location": {
+            "angular_index": 49,
+            "xi": 0.6013204688511714,
+            "s": 0.7401150804613016,
+            "signed_value": -2.220446049250313e-16
+          },
+          "fine_sampled_minimum_active_n": 0.34356240395985377,
+          "global_cell": 70
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.7494533972013798,
+            0.7888167465017251
+          ],
+          "cuts": [
+            0.7494533972013798,
+            0.7888167465017251
+          ],
+          "points": [
+            0.750234959326107,
+            0.7534553414383983,
+            0.7587917139414581,
+            0.7655247708983823,
+            0.7727453728047226,
+            0.7794784297616468,
+            0.7848148022647066,
+            0.7880351843769979
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.7494533972013798,
+                0.7888167465017251
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+          "fine_Gauss_location": {
+            "angular_index": 61,
+            "xi": 0.7485826244881929,
+            "s": 0.7534553414383983,
+            "signed_value": 2.220446049250313e-16
+          },
+          "fine_sampled_minimum_active_n": 0.36505759874190075,
+          "global_cell": 71
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.7888167465017251,
+            0.7915892713432515
+          ],
+          "cuts": [
+            0.7888167465017251,
+            0.7915892713432515
+          ],
+          "points": [
+            0.7888717951813856,
+            0.7890986201229679,
+            0.7894744830917282,
+            0.7899487203709304,
+            0.7904572974740461,
+            0.7909315347532484,
+            0.7913073977220086,
+            0.791534222663591
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.7888167465017251,
+                0.7915892713432515
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+          "fine_Gauss_location": {
+            "angular_index": 459,
+            "xi": 5.632777453116074,
+            "s": 0.7890986201229679,
+            "signed_value": -2.220446049250313e-16
+          },
+          "fine_sampled_minimum_active_n": 0.3856702769340906,
+          "global_cell": 72
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.7915892713432515,
+            0.8281800958020702
+          ],
+          "cuts": [
+            0.7915892713432515,
+            0.8281800958020702
+          ],
+          "points": [
+            0.7923157847883181,
+            0.7953093419590271,
+            0.8002698514933267,
+            0.8065286711710487,
+            0.8132406959742731,
+            0.819499515651995,
+            0.8244600251862946,
+            0.8274535823570036
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.7915892713432515,
+                0.8281800958020702
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 2.220446049250313e-16,
+          "fine_Gauss_location": {
+            "angular_index": 6,
+            "xi": 0.07363107781851078,
+            "s": 0.8274535823570036,
+            "signed_value": -2.220446049250313e-16
+          },
+          "fine_sampled_minimum_active_n": 0.38677648594898856,
+          "global_cell": 73
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.8281800958020702,
+            0.8344782316901254
+          ],
+          "cuts": [
+            0.8281800958020702,
+            0.8344782316901254
+          ],
+          "points": [
+            0.8283051457420265,
+            0.8288204068799931,
+            0.8296742264804827,
+            0.8307515155935906,
+            0.8319068118986049,
+            0.8329841010117128,
+            0.8338379206122024,
+            0.834353181750169
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.8281800958020702,
+                0.8344782316901254
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 4.440892098500626e-16,
+          "fine_Gauss_location": {
+            "angular_index": 399,
+            "xi": 4.896466674930966,
+            "s": 0.8329841010117128,
+            "signed_value": -4.440892098500626e-16
+          },
+          "fine_sampled_minimum_active_n": 0.4046916334098601,
+          "global_cell": 74
+        },
+        {
+          "local_cell": 1,
+          "endpoints": [
+            0.8344782316901254,
+            0.8478617704522428
+          ],
+          "cuts": [
+            0.8344782316901254,
+            0.8478617704522428
+          ],
+          "points": [
+            0.8347439628125326,
+            0.8358388927307117,
+            0.837653259381752,
+            0.8399424987471062,
+            0.8423975033952619,
+            0.8446867427606162,
+            0.8465011094116565,
+            0.8475960393298355
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.8344782316901254,
+                0.8478617704522428
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 0.9365450004568319,
+          "fine_Gauss_location": {
+            "angular_index": 420,
+            "xi": 5.154175447295755,
+            "s": 0.8446867427606162,
+            "signed_value": -0.9365450004568319
+          },
+          "fine_sampled_minimum_active_n": 0.4055212319023978,
+          "global_cell": 75
+        },
+        {
+          "local_cell": 0,
+          "endpoints": [
+            0.8478617704522428,
+            0.8675434451024153
+          ],
+          "cuts": [
+            0.8478617704522428,
+            0.8675434451024153
+          ],
+          "points": [
+            0.8482525515146063,
+            0.849862742570752,
+            0.8525309288222819,
+            0.855897457300744,
+            0.8595077582539141,
+            0.8628742867323762,
+            0.8655424729839061,
+            0.8671526640400518
+          ],
+          "average_weights": [
+            0.05061426814518853,
+            0.11119051722668721,
+            0.15685332293894344,
+            0.18134189168918083,
+            0.18134189168918083,
+            0.15685332293894344,
+            0.11119051722668721,
+            0.05061426814518853
+          ],
+          "panels": [
+            {
+              "endpoints": [
+                0.8478617704522428,
+                0.8675434451024153
+              ],
+              "requested_order": 8,
+              "actual_point_count": 8,
+              "narrow_panel_fallback": null
+            }
+          ],
+          "fine_sampled_Gauss_maximum": 0.849264911237694,
+          "fine_Gauss_location": {
+            "angular_index": 420,
+            "xi": 5.154175447295755,
+            "s": 0.8525309288222819,
+            "signed_value": -0.849264911237694
+          },
+          "fine_sampled_minimum_active_n": 0.31140735516584683,
+          "global_cell": 76
+        }
+      ],
+      "whole_grouped_coast_cells": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "whole_grouped_coast_cell_count": 14,
+      "grouped_block_records": [
+        {
+          "node_start": 0,
+          "node_stop": 2,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 2,
+          "node_stop": 4,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 4,
+          "node_stop": 6,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 6,
+          "node_stop": 8,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 8,
+          "node_stop": 10,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 10,
+          "node_stop": 12,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 12,
+          "node_stop": 14,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 14,
+          "node_stop": 16,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 16,
+          "node_stop": 18,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 18,
+          "node_stop": 20,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 20,
+          "node_stop": 22,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 22,
+          "node_stop": 24,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 24,
+          "node_stop": 26,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 26,
+          "node_stop": 28,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 28,
+          "node_stop": 30,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 30,
+          "node_stop": 32,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 32,
+          "node_stop": 34,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 34,
+          "node_stop": 36,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 36,
+          "node_stop": 38,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 38,
+          "node_stop": 40,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 40,
+          "node_stop": 42,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 42,
+          "node_stop": 44,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 44,
+          "node_stop": 46,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 46,
+          "node_stop": 48,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 48,
+          "node_stop": 50,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 50,
+          "node_stop": 52,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 52,
+          "node_stop": 54,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 54,
+          "node_stop": 56,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 56,
+          "node_stop": 58,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 58,
+          "node_stop": 60,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 60,
+          "node_stop": 62,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 62,
+          "node_stop": 64,
+          "grouped_coast_local_cells": [
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 64,
+          "node_stop": 66,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 66,
+          "node_stop": 68,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 68,
+          "node_stop": 70,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 70,
+          "node_stop": 72,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 72,
+          "node_stop": 74,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 74,
+          "node_stop": 76,
+          "grouped_coast_local_cells": [
+            0,
+            1
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 76,
+          "node_stop": 78,
+          "grouped_coast_local_cells": [
+            0
+          ],
+          "grouped_coast_applied": true,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 78,
+          "node_stop": 80,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 80,
+          "node_stop": 82,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 82,
+          "node_stop": 84,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 84,
+          "node_stop": 86,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 86,
+          "node_stop": 88,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 88,
+          "node_stop": 90,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 90,
+          "node_stop": 92,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 92,
+          "node_stop": 94,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 94,
+          "node_stop": 96,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 96,
+          "node_stop": 98,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 98,
+          "node_stop": 100,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 100,
+          "node_stop": 102,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 102,
+          "node_stop": 104,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 104,
+          "node_stop": 106,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 106,
+          "node_stop": 108,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 108,
+          "node_stop": 110,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 110,
+          "node_stop": 112,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 112,
+          "node_stop": 114,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 114,
+          "node_stop": 116,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 116,
+          "node_stop": 118,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 118,
+          "node_stop": 120,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 120,
+          "node_stop": 122,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 122,
+          "node_stop": 124,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 124,
+          "node_stop": 126,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 126,
+          "node_stop": 128,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        },
+        {
+          "node_start": 128,
+          "node_stop": 130,
+          "grouped_coast_local_cells": [],
+          "grouped_coast_applied": false,
+          "old_G2_point_gauss_kept": true
+        }
+      ],
+      "known_lifting_change_not_separately_evaluated": true,
+      "whole_known_lifting_change_maximum": null,
+      "fine_sampled_interior_Gauss_maximum": 1.030786119983978,
+      "grouped_rule_diagnostic_scope": "All grouped coast cells with global saved-mesh indices",
+      "nested_symmetry_diagnostic_scope": "Original chunk sub-diagnostics may refer to first block only",
+      "finite_radial_scheme": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+      "residual_l2": 0.5240331349198324,
+      "sampled_omitted_codazzi_maximum": 0.994336119116368
+    },
+    "finite_objective_changed_from25": true
+  },
+  "locations": {
+    "continuous_certificate": false,
+    "raw_codazzi_n": {
+      "maximum": 0.4056510189997296,
+      "signed_value": -0.4056510189997296,
+      "cell": 104,
+      "mode": 2,
+      "coefficient": 1,
+      "endpoints": [
+        1.1756864154279174,
+        1.2130111441327047
+      ],
+      "cell_length": 0.03732472870478731
+    },
+    "raw_codazzi_m": {
+      "maximum": 0.24690708380882875,
+      "signed_value": -0.24690708380882875,
+      "cell": 66,
+      "mode": 2,
+      "coefficient": 0,
+      "endpoints": [
+        0.6313633493003443,
+        0.6707266986006896
+      ],
+      "cell_length": 0.03936334930034524
+    },
+    "full_gauss": {
+      "maximum": 1.5861561484440483,
+      "signed_value": -1.5861561484440483,
+      "angular_index": 347,
+      "node": 84,
+      "s": 0.9491151252450164,
+      "xi": 4.25833066717054,
+      "material_u": 3.753506164908234,
+      "n_m_l": [
+        0.7672598671841134,
+        -0.7798726091714059,
+        2.4273310783940016
+      ],
+      "target_K": 2.8403485827286845
+    },
+    "formal_curvature": {
+      "maximum": 7.346327372811174,
+      "signed_value": 7.346327372811174,
+      "angular_index": 0,
+      "node": 114,
+      "s": 1.399634787656641,
+      "xi": 0.0,
+      "material_u": 0.0,
+      "n_m_l": [
+        -0.04173148669468159,
+        0.0,
+        -7.346327372811174
+      ],
+      "target_K": -0.33243784582010527,
+      "cap": 7.2,
+      "active_points": 1790,
+      "active_s_range": [
+        0.0,
+        1.4759731783581287
+      ]
+    },
+    "full_angular_codazzi": {
+      "n": {
+        "maximum": 1.0787467173887497,
+        "signed_value": -1.0787467173887497,
+        "angular_index": 293,
+        "xi": 3.595650966803943,
+        "cell": 129,
+        "endpoints": [
+          1.4873481783581288,
+          1.4889731783581288
+        ],
+        "cell_length": 0.0016249999999999876,
+        "material_u_endpoints": [
+          3.595650966803943,
+          3.595650966803943
+        ]
+      },
+      "m": {
+        "maximum": 0.9844206151296152,
+        "signed_value": 0.9844206151296152,
+        "angular_index": 120,
+        "xi": 1.4726215563702156,
+        "cell": 74,
+        "endpoints": [
+          0.8281800958020702,
+          0.8344782316901254
+        ],
+        "cell_length": 0.0062981358880551674,
+        "material_u_endpoints": [
+          1.4411200320191602,
+          1.4454322768135182
+        ]
+      }
+    },
+    "omitted_angular_codazzi": {
+      "n": {
+        "maximum": 0.8444236451587273,
+        "signed_value": -0.8444236451587273,
+        "angular_index": 394,
+        "xi": 4.835107443415541,
+        "cell": 76,
+        "endpoints": [
+          0.8478617704522428,
+          0.8675434451024153
+        ],
+        "cell_length": 0.019681674650172565,
+        "material_u_endpoints": [
+          4.846884269670413,
+          4.829800172286802
+        ]
+      },
+      "m": {
+        "maximum": 0.994336119116368,
+        "signed_value": 0.994336119116368,
+        "angular_index": 120,
+        "xi": 1.4726215563702156,
+        "cell": 74,
+        "endpoints": [
+          0.8281800958020702,
+          0.8344782316901254
+        ],
+        "cell_length": 0.0062981358880551674,
+        "material_u_endpoints": [
+          1.4411200320191602,
+          1.4454322768135182
+        ]
+      }
+    }
+  },
+  "accepted_state": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-accepted.npz",
+    "bytes": 133746,
+    "sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc"
+  },
+  "accepted_value_packet": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-work/accepted-values/manifest.json",
+    "bytes": 2242214,
+    "sha256": "fb8ee5420a9b6a0d83a4d073835a4bf4430ada8753f2695946d441cad19be422"
+  },
+  "accepted_value_binding": {
+    "schema": "fd2d-actual-accepted-value-packet-binding-v1",
+    "original_context": {
+      "schema": "fd2d-R170-grouped-same-field-new-tail-domain-v1",
+      "input_npz_sha256": "6edc6ec7fb168639c5d0b39fc3faa07d1bd1e0e3858c4f51ad86fddfb6cd9381",
+      "input_npz_bytes": 133757,
+      "packed_vector": {
+        "shape": [
+          12499
+        ],
+        "dtype": "<f8",
+        "sha256": "62412310fe5e4780af262b6d797d2afe83e21b0183df3f8d36c7b2b4b1fce299"
+      },
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "reference_inlet_sha256": "ed69b9a6599ef75f36f2d5bc094d152d993baeb078f4852a392648b85f6c9c3a",
+      "mathematical_settings": {
+        "gap": 0.8,
+        "modes": 31,
+        "curvature_cap": 7.2,
+        "curvature_weight": 1.0,
+        "high_gauss_weight": 1.0,
+        "high_codazzi_weight": 1.0,
+        "minimum_active_n": 0.05,
+        "interior_gauss_weight": 1.0,
+        "reference_rim_fraction": 0.12,
+        "radius_floor": 0.1,
+        "interior_cells": [
+          63,
+          64,
+          65,
+          74,
+          75,
+          76,
+          123,
+          124
+        ]
+      },
+      "actual_saved_definition_arrays": {
+        "mesh": {
+          "shape": [
+            131
+          ],
+          "dtype": "<f8",
+          "sha256": "c59a9aefd47c66a62c4dcec6d8377faf5d8a283b4c87f4ac17f0d09c7d9042d8"
+        },
+        "modes": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "profile_supports": {
+          "shape": [
+            7,
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "03b831bb54c9ae81676a473c68e16824479b832e6c2f7ca9b133e0529544890d"
+        },
+        "profile_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "aae89fc0f03e2959ae4d701a80cc3915918c950b159f6abb6c92c1433b1a8534"
+        },
+        "fixed_base_T": {
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "d144783f1ff33776a9fe135900a60ac1eec34eddb2204ec58faab157e66df454"
+        },
+        "profile_kind": {
+          "shape": [],
+          "dtype": "<U14",
+          "sha256": "a075eadf95aac206d5e0f5affabc47efd4625f2d4cfe16775daa515ba9649767"
+        },
+        "tail_kind": {
+          "shape": [],
+          "dtype": "<U18",
+          "sha256": "41c812f9a226b1f2392a3a50832255248ba877763bd43755150e4ae85031a8a1"
+        },
+        "base_kind": {
+          "shape": [],
+          "dtype": "<U13",
+          "sha256": "18e5f6ffb9416e1b1feaca5005c81b658578ab53696d6f1057341242fc636032"
+        },
+        "candidate_sha256": {
+          "shape": [],
+          "dtype": "<U64",
+          "sha256": "f95d1311e8383a730ae590c96f370e1a2b98472719d49502584dfa86ec148dc4"
+        },
+        "blend": {
+          "shape": [
+            2
+          ],
+          "dtype": "<f8",
+          "sha256": "41ded5df502ee82fcbc88d61a44ebf86ab1f3d48c78e120f83d477270748c239"
+        },
+        "seed_weight_definition": {
+          "shape": [],
+          "dtype": "<U66",
+          "sha256": "9ea5c17f75262694a66f9eb8ddb349d2cdae57e827d1a1f81018c3d81c84be6d"
+        },
+        "representation_kind": {
+          "shape": [],
+          "dtype": "<U71",
+          "sha256": "5480b15b6e7ad4a91059fda5d6ef107d067eb7ab2134037f6ba8f215750bac1d"
+        },
+        "central_field_definition": {
+          "shape": [],
+          "dtype": "<U275",
+          "sha256": "e389f6a6299c70021b645ce633d0ec5776b77265cb8bc279572f3efec029f0b9"
+        },
+        "targeted_mesh_definition": {
+          "shape": [],
+          "dtype": "<U12990",
+          "sha256": "31253d63f13c9e5a4710dad888c5747f2e3d087cf0f27d548a690c4ad31a2f47"
+        },
+        "coast_reference_definition": {
+          "shape": [],
+          "dtype": "<U929",
+          "sha256": "36c59e285a4024c12224df8281edd53b0dc1c61ffc7e90aacea516a8ef484d50"
+        },
+        "angular_atlas_definition": {
+          "shape": [],
+          "dtype": "<U2325",
+          "sha256": "8544ca3a54eb97ef20b4fc6f2f159ce3b6a21ba6da25537c14418b63bab3a7d6"
+        },
+        "atlas_mesh_definition": {
+          "shape": [],
+          "dtype": "<U5151",
+          "sha256": "019877777018bbe7d5550cf7601d95da70211f682af2f7aa7f415c0d42c24410"
+        },
+        "reference_evaluation_definition": {
+          "shape": [],
+          "dtype": "<U904",
+          "sha256": "b2bcf7839c462b93f8fbc42fdbb5e652d14b1caeda06ae4931359e72c409dd94"
+        },
+        "finite_radial_scheme": {
+          "shape": [],
+          "dtype": "<U256",
+          "sha256": "55211cf321f518bc2d3ee43b477188c0d4db3148c9c4315812ac75793e25a8e3"
+        },
+        "gauss_l_definition": {
+          "shape": [],
+          "dtype": "<U1489",
+          "sha256": "29fa1c29c097fc1c64d7e9eb40dc310ff77b0d377887138af1d52d555472d20d"
+        },
+        "inactive_l_raw_nodes": {
+          "shape": [
+            9
+          ],
+          "dtype": "<i8",
+          "sha256": "5088ae657168f90df9364404b794b0f91bdb510d2cc3c2746b1eee00f04341d3"
+        },
+        "positive_trace_definition": {
+          "shape": [],
+          "dtype": "<U1389",
+          "sha256": "72332d4efaca534dce09eebfaecb9aee7c421014d97cc383f21d68c4de5a6bfc"
+        },
+        "inactive_raw_trace_nodes": {
+          "shape": [
+            4
+          ],
+          "dtype": "<i8",
+          "sha256": "e9935a73811ba90dac497e9b01ad97bee367c0f6972db899168eadba7b98e7bc"
+        },
+        "trace_gauge_pairs": {
+          "shape": [
+            128,
+            2
+          ],
+          "dtype": "<i8",
+          "sha256": "89362cf451e3ae0a7c791e384171c1506d2f3fd28e64c81b49297c81570c4111"
+        },
+        "tail_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "5eb6da0e0e522104c6d50b0748e6893762f7f2c00a7163a46ccbb535bfd61a0d"
+        },
+        "central_parameter_count": {
+          "shape": [],
+          "dtype": "<i8",
+          "sha256": "d5cc13b299a327f47cd6361d0441d7edb9d48568f33b460ba17f6a4e3a2ef7ae"
+        },
+        "nested_angular_definition": {
+          "shape": [],
+          "dtype": "<U650",
+          "sha256": "735108b9f2b4b7a719c6099f09b80ca69a003ee1308a6236fb32a58a345cb74a"
+        },
+        "angular_embedding_definition": {
+          "shape": [],
+          "dtype": "<U1482",
+          "sha256": "80d56aa9bcf8dc366bb6e20b10ac6ad1b03f5d7b53ee830c845da8a519d7b43f"
+        },
+        "radial_refinement_definition": {
+          "shape": [],
+          "dtype": "<U29230",
+          "sha256": "c39706631e53198b62b0f8a57b30c3452b4a6f3aca138f111aa2ee6d27d3ec5c"
+        },
+        "finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U684",
+          "sha256": "5d6191acfcc69211a18460ca26bde7f9f01c94a1fe2ca143b1927da12849e7ef"
+        },
+        "parent_finite_interior_rows_definition": {
+          "shape": [],
+          "dtype": "<U663",
+          "sha256": "0260b5518282511c0905df48a77e5de83cb64d6797a458dc47e88f329a13b65e"
+        },
+        "grouped_goal_preparation": {
+          "shape": [],
+          "dtype": "<U919",
+          "sha256": "dc076e3b065e983dc3b1c42233290638e58abe5c1c63f286077064b93723a3b4"
+        },
+        "radial_mesh_rebind_definition": {
+          "shape": [],
+          "dtype": "<U25689",
+          "sha256": "9b5ed491a1c394414bf042e8e54c4fa2934bda8e5dc795fa34a41cb3f76ee397"
+        },
+        "finite_grouped_coast_rule_definition": {
+          "shape": [],
+          "dtype": "<U775",
+          "sha256": "60652d38d57f6e648496ebe791ab7c2240e19e8e09b53d31e026867333287e31"
+        },
+        "tail_search_domain_kind": {
+          "shape": [],
+          "dtype": "<U35",
+          "sha256": "a4a546691375276d8dee8a9de87b60893d974e6fe405c196384437fd02a739a4"
+        },
+        "tail_search_domain_definition": {
+          "shape": [],
+          "dtype": "<U1814",
+          "sha256": "9ec41e3c4f14a4f9aeed24ce8a1152a4d6ebb7e4c017135c02d63b7ade817176"
+        },
+        "tail_search_domain_certificate": {
+          "shape": [],
+          "dtype": "<U703",
+          "sha256": "84a7891a3b358a1cfefaa392903b53df643f1bbc7e7773ba655ed00c8e9d3f0c"
+        },
+        "tail_domain_transport_diagnostics": {
+          "shape": [],
+          "dtype": "<U123",
+          "sha256": "970cfdb9a8a989bcdce53ac9d9eb1df46d90d5d146cda122a9b4804505689a38"
+        }
+      },
+      "implementation_sources": {
+        "fd2d_gc_prepared_geometry_cache.py": "c2c54ba42ab50200a05c68c85bc0cdba5b25ea07838a302bd61449fc72bbad03",
+        "fd2d_gc_frozen_operator_projections.py": "a91804d7bb70d35cef018c73213d61cca7918df0f3621b8c4bbbda5dd73a2798",
+        "fd2d_gc_gauss_cell_frozen_operator_compatible.py": "d5b3828bf52f2778a66541452263aecac47207ac6a2a6ad80c356726a05d9c46",
+        "fd2d_gc_positive_trace_stream_normal_consumer.py": "db7377aee77ad151083f0c0d02a84cc7585f5108b2b28defe596f990cff226c3",
+        "fd2d_gc_positive_trace_interior_stream_normal_consumer.py": "254cb3682a102292fc52ec019f87dff6aabf766452065c0402852adef513e470",
+        "fd2d-gc-raw-bump-refined-angular-prepared-cache-run.py": "993d1c41ed3691eb13a9d7d05d9099d6ad5271725110cf0c134ce9d491763a5b",
+        "fd2d_gc_positive_trace_value_nodes.py": "94d40d955a2b4dcee08effe5f378b19f5af284caae29f04f91553286d4c46ef4",
+        "fd2d_gc_midpoint_refined_positive_trace_v3.py": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+        "fd2d_gc_midpoint_refined_positive_trace.py": "10f98ab419c15a4593c28c40cd1309fc4fab9a91e85c714b787fdcb7b58f9158",
+        "fd2d_gc_nested_angular_positive_trace.py": "f61c95a57a88d2fee99c6e57241110f8c3ee453ded1060e02ba31f77912f868c",
+        "fd2d_gc_search_domain_roundoff.py": "aca4d41851241b4fede74fed78b7666cb595c7467b8613a2ec2aac9d476196a5",
+        "fd2d_gc_positive_trace_interior_stream_normal.py": "a883d32fc31588eea5b9e66cbe043a49881302e51fecd951d6a03e0478b82da6",
+        "fd2d_gc_positive_trace_stream_normal.py": "3199493acdd0818e68655f80c39cdf4a10a9f5d7f0426bb9517b758387a4ab36",
+        "fd2d_gc_local_normal_system.py": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf",
+        "fd2d_gc_positive_trace_interior_merit.py": "dedb65b7e1f0684201851bc930a56f9cb0cb15aae3bc451a046439ae79cf345f",
+        "fd2d_gc_raw_bump_positive_trace.py": "582e85efb95f3f735b6fd19e47a94182462368c1f16aeb75399fa81729cc6e61",
+        "fd2d_gc_positive_trace_branch.py": "03fed0c9e4660caf7496098c36ddde1cf06fc89a8db649e8b23c8eaebd5097bb",
+        "fd2d_gc_gauss_cell_positive_trace.py": "b3ba2e6a5a134e8279b1c2f724236fa20b7ff0b00604295fbbd8a6a646fd3dd7",
+        "fd2d_gc_positive_trace_merit.py": "960b8be1e8144913e7d2873711fb77623bab4d2ee878dfe9777bf0c04da8569a",
+        "fd2d_gc_positive_trace_bounded_schur.py": "44b869e7ba5e69c4db60a3fdd8e597b1c2003ceb3ef64f5753fdd1144042fc57",
+        "fd2d_gc_positive_gauss_coast_hybrid.py": "13778d540f0af5fb3af9346a36151ac0e260782f2f8ab0dc1d450e8ee6e6f166",
+        "fd2d_gc_positive_gauss_hybrid.py": "6b1355a3e59d84b4e062409eded38bb79a744d33e19ff00eb3e4bffcb7c9a9b7",
+        "fd2d_gc_hybrid_lifting_codazzi_d2.py": "88db104be2145b34d3b656f1a6fb199d460bb682a6d094414da81c22ca8b0bfe",
+        "fd2d_gc_raw_bump_positive_gauss.py": "7f80d5caf02e46f92bbb32cf96cedad3754aea6f6511ead1d8c5387814b2e0bb",
+        "fd2d_gc_positive_gauss_l.py": "161389ae9ab106bb2ad62ab64d91bb875eaf07996b088f20115f87259c80b6be",
+        "fd2d_gc_gauss_cell_positive_gauss.py": "3581ad8c36cc2a77922204e36332eae0158afbae2d1fc75f032277a5dd9f2a2e",
+        "fd2d_gc_positive_gauss_merit.py": "ca16a8873646de90a1222b24f8d37138741d204eebbdcd248117564b3604ed8a",
+        "fd2d_gc_positive_gauss_bounded_schur.py": "b4d720c787d3d7e0d728d6f43c62107d2fe33021b0191aa3aa627f06afd49f20",
+        "fd2d_gc_frozen_ruling_atlas.py": "daafce9b36cea58c0298ae111dc5c621fd2b498ce6f5397e4f569dc80f3a6b21",
+        "fd2d_gc_raw_bump_ruling_atlas.py": "155d97f52061c33274a53f754630d1636e37d03b86cf240026f79041440027eb",
+        "fd2d_gc_gauss_cell_codazzi_endpoint_d2.py": "41adb4217662fb1b2b2d570b73f7c3e25c3ce81f312a326365677b86643f3f5f",
+        "fd2d_gc_raw_bump_coast_reference.py": "98853e1ace2ac897cc23cabe26abef3e8b1391e7d834b85bf89dddeacec0da3d",
+        "fd2d_gc_frozen_coast_reference.py": "92963a400b4e86578a3d75cc4f5a55bc1f0c66e9cfb6c0dfd9f9cc9d7cd78de0",
+        "fd2d_k0_native_gc.py": "3308a779d619ddd3fa9e69a88fff2aca36f71ca9779cb9518ef7934ae3fc94c9",
+        "fd2d_gc_raw_bump_turn_mesh.py": "eaa12045328a7d324ba7759d402d8ab6416e0d42ce57b7e7692984faedf7d275",
+        "fd2d_gc_gauss_cell_codazzi.py": "6be627488b06bfd6f5dd3f4f291432ccff326463b1af1fcf134e5179d08dc03f",
+        "fd2d_gc_gauss_cell_codazzi_chunked.py": "f439cf6d31a4a092fbf54caeececf9c7632d3f006a245ef103f1aa7c9489dd09",
+        "fd2d_gc_gauss_cell_codazzi_d2.py": "7323bc417be30322fdf8e7c8e7e579bd5f88dc45deff1fae89f45cd2e8af7756",
+        "fd2d_gc_d2_complements.py": "91e60bb0a55460f9ec6d78cbea1c186c9105b27aa2e95809100f2aa5d5623daf",
+        "fd2d_gc_raw_bump_cylinder.py": "e74223b4a608f0c95ec6699fe061164b15363f4f060e6f7d32b6c35859f2800a",
+        "fd2d_gc_bump_cylinder_bounded_schur_v2.py": "55c79a1ae99835cb8a9121dd80e23148edc84a42b315de647ff49d1afa90bdea",
+        "fd2d_gc_raw_bump_clean.py": "78dcc09be44825472624ddf6668493d75e901960b40015e29e1146630e1dc909",
+        "fd2d_gc_raw_bump_dae.py": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e",
+        "fd2d_gc_codazzi_complement.py": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba",
+        "fd2d_gc_bump_residual_locations.py": "755e800d0f34644d84086b49ebaed95f9923afc794b846f0ccd1269f65c5e6f2",
+        "fd2d_gc_radial_bump_profile.py": "6209911217d5aee4cfe2778fc7580c48cf67b645394908b6717521d7e2607c6b",
+        "fd2d_gc_bump_bounded_schur.py": "a19c86309e6f32100d2ba76ecaf49ee942487b6802cd5d4180a3a6f0a5a9d5ff",
+        "fd2d_gc_bump_merit.py": "da6c0f712cf8ced385882124087ea665f08657602cf8f67c38c683cb19f54a1b",
+        "fd2d_gc_curvature_penalty.py": "c320584700792e2dd969784727328be47cc343df7aea570bc80697b8a0a0507b",
+        "fd2d_gc_packet_checkpoint.py": "f48c9135743338a0d88e3b01fe3612d1388c4ee9fb92ecc8896a6a589fc9d0bd",
+        "fd2d_gc_normal_checkpoint.py": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d",
+        "fd2d_gc_grouped_coast_codazzi_py": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2"
+      },
+      "context_source_sha256": "ad739600f698a1efeeb5bbb3e880dec4140ed06a641483d612e6a2ee08126658",
+      "parent_objective_source_sha256": "6405d97e09ea7a5e185defa0d77131c7fd4bd6cf6518c313d377a68bee6ee21c",
+      "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged",
+      "damping_and_search_floor_not_part_of_normal_identity": true,
+      "base_context_source_sha256": "020eac865e53564984e95e4a6445a73c77f549ed01c206508fc840d520300adf",
+      "grouped_rule_definition": {
+        "schema": "fd2d-R165-whole-actual-coast-G8-v1",
+        "consumer_source": {
+          "name": "fd2d_gc_grouped_coast_codazzi.py",
+          "sha256": "a0a8b934a600871bc3743c2d85c61b60f21005ef9c782499fa1e0cb064a5b4e2",
+          "bytes": 21332
+        },
+        "fine_order": 8,
+        "point_batch": 2,
+        "old_point_gauss_diagnostic_order": 2,
+        "support": [
+          0.5919999999999992,
+          0.8675434451024153
+        ],
+        "complete_raw_and_nonlinear_l_terms_evaluated_at_same_points": true,
+        "known_lifting_change_not_separately_evaluated": true,
+        "outside_coast_consumer_unchanged": true,
+        "finite_rule": "R165 coast: exact complete n/m endpoint difference minus window-split Gauss8 of the whole actual R153 physical PDE at common points; outside coast: frozen original R152/R153/R155 consumer; node and declared two-point interior Gauss/curvature rows unchanged"
+      },
+      "original_grouped_context_source_sha256": "14bead3a3f7783d4bfc66a35e239fbf75c2d698eab8ffe38c2c741683ef42bec",
+      "tail_search_domain_definition": {
+        "schema": "fd2d-explicit-dyadic-Bernstein-tail-search-domain-v1",
+        "domain_kind": "degree15_eight_dyadic_Bernstein_box",
+        "control_box": {
+          "schema": "fd2d-degree15-eight-dyadic-Bernstein-box-v1",
+          "degree": 15,
+          "parts": 8,
+          "interval_endpoints_exact": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ],
+          "row_order": "j*(degree+1)+k: local Bernstein coefficient k on interval j",
+          "shape": [
+            128,
+            16
+          ],
+          "numerator_denominator": "35184372088832",
+          "numerator_matrix_json_sha256": "497e12696db42a95c0a960aa1bfee14710cf695bc6903bdcf95177ad8e3582df",
+          "numerator_matrix_json_encoding": "compact JSON integer nested list, no newline",
+          "exact_lower": "0",
+          "exact_upper": "6/5",
+          "numerator_formula": "sum_{r+s=i} C(15-k,r) C(k,s) j^r (8-j)^(15-k-r) (j+1)^s (7-j)^(k-s)",
+          "matrix_entries_exact_in_binary64": true,
+          "floating_matrix_vector_product_claimed_exact": false,
+          "selected_sufficient_domain_not_necessary_function_range": true
+        },
+        "tail_parameter_count": 16,
+        "inherited_polynomial_basis_tag": "positive_bernstein",
+        "basis_tag_is_not_global_control_box": true,
+        "tail_class": "fd2d_dyadic_bernstein_tail.DyadicBernsteinFlatDevelopableFamily",
+        "exact_cut_condition": "P>=0 proves the actual PSD tail; zero raw cut correction and flat cut remain required",
+        "raw_profile_atlas_lifting_nonlinear_functions_changed": false,
+        "old_parameter_domain_global_tail_min_max_replaced": true,
+        "central_and_profile_domain_predicates_unchanged": true,
+        "source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+        "domain_source_sha256": "502b842510c8400c08f19f8f8ea3798a25a1267c0f8fb12a424b69702d16d400",
+        "inherited_restore_source_sha256": "58053fbaeb655d7fbec529783576b63d62a25abba0610884e27725fbe1790356",
+        "inherited_raw_domain_source_sha256": "a39a402f3c15f6e9662d781a9e6a4641c69fa646d23a82016afec10b4605665e"
+      },
+      "domain_provider_source_sha256": "7df1d6ac53548c85bddba93b7bad1d97815e9d80eb4dc241960e5f84262ef533",
+      "finite_objective_unchanged_by_selected_domain": true
+    },
+    "actual_vector": {
+      "shape": [
+        12499
+      ],
+      "dtype": "<f8",
+      "sha256": "93628d8eac37d1f0f5596509c46145f6302ab5432417ac3fa551b35b4d40abd9"
+    },
+    "accepted_state_sha256": "bb9b124165887dda9965a86e69816f856e2e4cca00efb160e91d0dbc4d0aa3fc",
+    "actual_direction_summary_sha256": "ef992c08dd0dc12d889f615101152f3c6ee5b326fe173f7184144b0cfb305b3d",
+    "alpha": 0.25
+  },
+  "physical_metric": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-raw-bump-dyadic33-trial-damped-back02-a01-physical-metric.json",
+    "bytes": 2683,
+    "sha256": "06f3f84cc8e35b84b52d74e68af1bf554f05ade9120e7b1aae04cd3deeb0a795"
+  }
+}

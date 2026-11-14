@@ -1,0 +1,109 @@
+{
+  "status": "SAMPLED-independent-actual-quintic-first-metric",
+  "scope": "Independent sampled first metric of the saved physical prefix interpolant.\n\nThe original quintic coefficients, their actual derivative, and the frozen\nmaterial-angle chart define the sampled map. The mean-height derivative is\nthe defining angular mean of its Frenet velocity; no nonmean derivative is\nreplaced by the source ODE. Results are finite floating diagnostics only.\nThey do not build the separate finite shared-jet/full-XYZ closed-map model.\n",
+  "checkpoint": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512.json.gz",
+  "checkpoint_sha256": "4a13e13223047c995acd855db93007ed57bf0471214229c62adb5d7543425190",
+  "checkpoint_chunks": [
+    {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512_coeff_00.npy.gz",
+      "sha256": "806f7466630787acc83ee3ab81e5a6a67142f1ce3dd859c7cf301238690c67b8"
+    },
+    {
+      "file": "notes/2026-11-09-db6f-prefix-flat-v17v18-m15-affine-cut-predictor-from14q512_coeff_01.npy.gz",
+      "sha256": "f0166d3136865e4af21d1ef2690caa1226b3d090923567c1ac4d06b3736459d4"
+    }
+  ],
+  "checkpoint_status": "UNSOLVED relative to the actual nonlinear DN",
+  "auxiliary_solver_success": true,
+  "actual_nonlinear_tail": false,
+  "frozen_affine_dn": true,
+  "script_sha256": "3b5435d2caef6655421acead3b6bbaa90d482890dc98d1842a34c04aa07c4aa4",
+  "source_sha256": {
+    "db6f-prefix-flat-geometry-source.py": "23299890cebc07c938910995058d8e2ee09fbf289d323a3cac65bc3afc117c6f",
+    "db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+  },
+  "frozen_source_closure_sha256": {
+    "topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+    "topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+    "topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+    "topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+    "topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+    "topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+  },
+  "reference_geometry": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+  "reference_geometry_sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2",
+  "unchanged_target_fields": [
+    "frozen_profile",
+    "chart",
+    "warp_reference_q"
+  ],
+  "same_physical_port_sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702",
+  "modes": 15,
+  "sampled_s": 5399,
+  "sampled_psi": 1024,
+  "source_sampled_s": 5399,
+  "source_sampled_psi": 1024,
+  "maxima": {
+    "metric_fft_l1": {
+      "value": 1.302458505758324e-09,
+      "s": 0.002000715729531439,
+      "component": 2,
+      "angular_index": null
+    },
+    "metric_operator_sample": {
+      "value": 1.3024585035167381e-09,
+      "s": 0.002000715729531439,
+      "component": null,
+      "angular_index": 0
+    },
+    "entry_absolute_sample": {
+      "value": 1.3024585035167381e-09,
+      "s": 0.002000715729531439,
+      "component": 2,
+      "angular_index": null
+    },
+    "flow_velocity_defect": {
+      "value": 2.1762127909838206e-09,
+      "s": 0.15921485173955452,
+      "component": null,
+      "angular_index": 0
+    }
+  },
+  "component_fft_l1_maxima": [
+    1.7125012982030562e-10,
+    6.195728157239492e-11,
+    1.302458505758324e-09
+  ],
+  "inlet": {
+    "component_fft_l1": [
+      6.2787657136457515e-15,
+      5.5904916644578495e-30,
+      1.3024377647436679e-09
+    ],
+    "operator_sample": 1.3024377626749684e-09,
+    "mean_height_derivative": 1.0
+  },
+  "rho_min_sample": 0.19999999999999996,
+  "root_margin_min_sample": 0.0480628089801807,
+  "saved_metric_fft_l1": 1.3024643295715905e-09,
+  "independent_minus_saved_metric_fft_l1": -5.823813266511528e-15,
+  "saved_pp_derivative_evaluated": true,
+  "nonmean_derivative_replaced_by_source_rhs": false,
+  "mean_height_definition": "h(0)=0; h_s is the angular mean of the actual-curve Frenet chart velocity; only h_s is needed here.",
+  "mean_height_computation": "Finite uniform angular quadrature at the reported sampled_psi; its continuous quadrature remainder is not certified here.",
+  "absolute_mean_height_integrated": false,
+  "shared_jet_full_xyz_geometry_constructed": false,
+  "exact_bridge_root_transferred": false,
+  "continuous_metric_bound": false,
+  "complete_closed_surface": false,
+  "seconds": 18.215371142003278
+}

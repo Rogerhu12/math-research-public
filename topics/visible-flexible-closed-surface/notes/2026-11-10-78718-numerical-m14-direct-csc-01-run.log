@@ -1,0 +1,18 @@
+node:internal/fs/promises:1345
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open '/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs'
+    at async open (node:internal/fs/promises:1345:25)
+    at async Object.readFile (node:internal/fs/promises:2003:14)
+    at async file:///workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs:13:14 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs'
+}
+
+Node.js v24.22.1
+{"event": "failure", "error": "RuntimeError('Weighted stage-tail initialization failed')"}
+{"event": "spectral_true_program_failure", "error": "FileNotFoundError(2, 'No such file or directory')"}
+{"status": "DIRECT_CSC_FINITE_M14_COUPLED_PROGRAM_FAILURE", "mathematical_success": false, "requested_process_exit_code": 2, "spectral_BVP_calls": 0}

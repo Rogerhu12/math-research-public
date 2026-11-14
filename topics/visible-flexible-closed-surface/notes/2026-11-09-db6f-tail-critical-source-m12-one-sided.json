@@ -1,0 +1,182 @@
+{
+  "status": "numerical-one-sided-source-derivative-probe-not-a-certificate",
+  "radius": 0.52093744282803,
+  "angularNodes": 512,
+  "scriptSHA256": "3fa9f70d223c47db5f8ab77e3cba059e5400c4d54fc2abbde3cfa6993e595ee4",
+  "backgroundStats": {
+    "rCut": 0.6,
+    "rCuff": 0.14999999999999997,
+    "oldCut": 0.15168885271111895,
+    "wCut": 0.5,
+    "width": 0.45,
+    "curvatureBound": 6,
+    "alpha": 97.64534740777785,
+    "actualWidth": 0.45,
+    "minimumWarpWidth": 0.27422374029130797,
+    "meridianLength": 0.456792657655592,
+    "heightSpan": 0.04928110416972474,
+    "cutRadiusError": 0,
+    "cutSlopeError": 1.7763568394002505e-15,
+    "cutSecondError": -2.220446049250313e-14,
+    "deepRadiusError": 0,
+    "deepSlopeError": 0,
+    "deepSecondError": 0,
+    "positiveWarpWeights": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "input": "notes/2026-11-09-db6f-prefix-flat-v17v18-fixed-m12-d12-p4-s64_tail_0018.json.gz",
+      "inputSHA256": "6241c30aa25355b73af2ed154e58dbc25297f7e11d97bfe040c64eb4e57458e2",
+      "nativeSteps": 64,
+      "shootingParts": 4,
+      "stage": 14,
+      "rawCell": 0,
+      "rawSegment": 5,
+      "rawLeft": 0.25,
+      "rawRight": 0.5,
+      "sourceXApprox": 0.7015162318837944,
+      "sourceRadiusError": -1.1102230246251565e-16,
+      "probes": [
+        {
+          "differenceStep": 0.0001,
+          "perturbationRRAtThetaZero": [
+            0.000001113054167944938,
+            3.5863823454077713e-13,
+            -3.222219968737234e-8
+          ],
+          "backgroundWr": 9.343785725302301e-11,
+          "fullRRAtThetaZero": [
+            0.000001113054167944938,
+            3.5863823454077713e-13,
+            -3.2128761830119317e-8
+          ],
+          "sourceMetric": 1.1443132947780353e-12,
+          "formalHeightDarboux": 3.283158645785449e-9,
+          "oneSidedPlanarRRAtThetaZero": {
+            "left": [
+              0.0000011323377293592785,
+              1.646389332981948e-12
+            ],
+            "right": [
+              0.0000011326906133035664,
+              1.868450443434366e-12
+            ]
+          }
+        },
+        {
+          "differenceStep": 0.00005,
+          "perturbationRRAtThetaZero": [
+            0.0000011227371032873634,
+            6.497931413024988e-13,
+            -3.222219968737234e-8
+          ],
+          "backgroundWr": 9.343785725302301e-11,
+          "fullRRAtThetaZero": [
+            0.0000011227371032873634,
+            6.497931413024988e-13,
+            -3.2128761830119317e-8
+          ],
+          "sourceMetric": 1.1443132947780353e-12,
+          "formalHeightDarboux": 3.283158645785449e-9,
+          "oneSidedPlanarRRAtThetaZero": {
+            "left": [
+              0.0000011321899364702404,
+              1.4834598625518102e-12
+            ],
+            "right": [
+              0.0000011325628292979673,
+              6.658634023409663e-13
+            ]
+          }
+        },
+        {
+          "differenceStep": 0.000025,
+          "perturbationRRAtThetaZero": [
+            0.0000011275737961113919,
+            -2.2466147432166554e-13,
+            -3.222219968737234e-8
+          ],
+          "backgroundWr": 9.343785725302301e-11,
+          "fullRRAtThetaZero": [
+            0.0000011275737961113919,
+            -2.2466147432166554e-13,
+            -3.2128761830119317e-8
+          ],
+          "sourceMetric": 1.1443132947780353e-12,
+          "formalHeightDarboux": 3.283158645785449e-9,
+          "oneSidedPlanarRRAtThetaZero": {
+            "left": [
+              0.0000011320098565192893,
+              -3.390838138482417e-12
+            ],
+            "right": [
+              0.0000011325246305204928,
+              -4.158169920941828e-12
+            ]
+          }
+        },
+        {
+          "differenceStep": 0.0000125,
+          "perturbationRRAtThetaZero": [
+            0.0000011303027349640615,
+            5.174662706025264e-13,
+            -3.222219968737234e-8
+          ],
+          "backgroundWr": 9.343785725302301e-11,
+          "fullRRAtThetaZero": [
+            0.0000011303027349640615,
+            5.174662706025264e-13,
+            -3.2128761830119317e-8
+          ],
+          "sourceMetric": 1.1443132947780353e-12,
+          "formalHeightDarboux": 3.283158645785449e-9,
+          "oneSidedPlanarRRAtThetaZero": {
+            "left": [
+              0.000001133925252361223,
+              2.6841805727411142e-12
+            ],
+            "right": [
+              0.0000011325282684992999,
+              2.519893716303814e-13
+            ]
+          }
+        },
+        {
+          "differenceStep": 0.00000625,
+          "perturbationRRAtThetaZero": [
+            0.00000113104579213541,
+            6.3545770166964816e-12,
+            -3.222219968737234e-8
+          ],
+          "backgroundWr": 9.343785725302301e-11,
+          "fullRRAtThetaZero": [
+            0.00000113104579213541,
+            6.3545770166964816e-12,
+            -3.2128761830119317e-8
+          ],
+          "sourceMetric": 1.1443132947780353e-12,
+          "formalHeightDarboux": 3.283158645785449e-9,
+          "oneSidedPlanarRRAtThetaZero": {
+            "left": [
+              0.000001127809809986502,
+              2.368856765381363e-11
+            ],
+            "right": [
+              0.0000011346419341862202,
+              2.571746837694869e-12
+            ]
+          }
+        }
+      ],
+      "nearestSourceBreakpointDistance": 5.972999872483342e-14
+    }
+  ]
+}

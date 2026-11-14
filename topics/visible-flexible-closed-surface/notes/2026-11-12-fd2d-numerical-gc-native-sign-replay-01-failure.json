@@ -1,0 +1,10 @@
+{
+  "session_id": 75329,
+  "launch_chunk": "e5e22b",
+  "completion_chunk": "1d0198",
+  "tool_exit_code": 1,
+  "actual_error": "TypeError: undefined is not a constructor at warm.states.map(Float64Array.from)",
+  "source_sha256": "804306f09f732e6770ecd71d6f38ee36bcb4c31a31774daa27c04701975abcf4",
+  "phase": "After bootstrap/reproduced warm, before any cached nonlinear residual or correction. No new nonlinear radial map was run.",
+  "correction": "Another named v2 uses row=>Float64Array.from(row); original source retained."
+}

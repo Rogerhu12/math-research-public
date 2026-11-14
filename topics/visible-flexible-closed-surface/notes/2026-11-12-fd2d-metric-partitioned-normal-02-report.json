@@ -1,0 +1,504 @@
+{
+  "blocks": 32,
+  "checks": {
+    "all_elimination_checks": true,
+    "exact_row_counters_and_groups": true,
+    "incomplete_or_duplicate_not_reported_complete": true,
+    "original_mapping_identical": true,
+    "sources_unchanged": true,
+    "sum_difference_within_32_machine_eps": true,
+    "transport_bit_identity": true
+  },
+  "complete_matrix_of_actual_current_field_claimed": false,
+  "dimensions": {
+    "modes": 1,
+    "nodes": 6,
+    "parameters": 4,
+    "q": 5,
+    "work": 16
+  },
+  "elimination_checks": {
+    "central_to_parameter_exact": true,
+    "fixed_cut_exact": true,
+    "inactive_coast_l_exact": true,
+    "terminal_n_minus_l_exact": true
+  },
+  "floating_bit_identity_of_regrouped_sum_claimed": false,
+  "grouped_vs_sequential": {
+    "Hfp": {
+      "bit_identity": false,
+      "maximum_absolute": 5.551115123125783e-17,
+      "scale": 0.7946052855599921,
+      "scale_normalized": 5.551115123125783e-17
+    },
+    "Hpp": {
+      "bit_identity": false,
+      "maximum_absolute": 8.881784197001252e-16,
+      "scale": 7.183039701258867,
+      "scale_normalized": 1.2364938196630977e-16
+    },
+    "diagonal_0": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    },
+    "diagonal_1": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    },
+    "diagonal_2": {
+      "bit_identity": false,
+      "maximum_absolute": 4.440892098500626e-16,
+      "scale": 2.879485259997024,
+      "scale_normalized": 1.542252068519085e-16
+    },
+    "diagonal_3": {
+      "bit_identity": false,
+      "maximum_absolute": 5.551115123125783e-17,
+      "scale": 2.0090086963322524,
+      "scale_normalized": 2.76311154514173e-17
+    },
+    "diagonal_4": {
+      "bit_identity": false,
+      "maximum_absolute": 4.440892098500626e-16,
+      "scale": 3.0236983044200105,
+      "scale_normalized": 1.46869550179956e-16
+    },
+    "diagonal_5": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    },
+    "field_norm_squared": {
+      "bit_identity": false,
+      "maximum_absolute": 4.440892098500626e-16,
+      "scale": 3.0236983044200105,
+      "scale_normalized": 1.46869550179956e-16
+    },
+    "gf": {
+      "bit_identity": false,
+      "maximum_absolute": 5.551115123125783e-17,
+      "scale": 0.41662953645523204,
+      "scale_normalized": 5.551115123125783e-17
+    },
+    "gp": {
+      "bit_identity": false,
+      "maximum_absolute": 2.220446049250313e-16,
+      "scale": 0.8647393148786754,
+      "scale_normalized": 2.220446049250313e-16
+    },
+    "parameter_norm_squared": {
+      "bit_identity": false,
+      "maximum_absolute": 8.881784197001252e-16,
+      "scale": 7.183039701258867,
+      "scale_normalized": 1.2364938196630977e-16
+    },
+    "residual_squared": {
+      "bit_identity": false,
+      "maximum_absolute": 4.440892098500626e-16,
+      "scale": 2.5652556716140347,
+      "scale_normalized": 1.7311693908882224e-16
+    },
+    "upper_0": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    },
+    "upper_1": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    },
+    "upper_2": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.2943110719060376,
+      "scale_normalized": 0.0
+    },
+    "upper_3": {
+      "bit_identity": false,
+      "maximum_absolute": 2.7755575615628914e-17,
+      "scale": 0.44269857126701817,
+      "scale_normalized": 2.7755575615628914e-17
+    },
+    "upper_4": {
+      "bit_identity": true,
+      "maximum_absolute": 0.0,
+      "scale": 0.0,
+      "scale_normalized": 0.0
+    }
+  },
+  "maximum_scale_normalized_sum_difference": 2.220446049250313e-16,
+  "merge_info": {
+    "all_planned_rows_covered_exactly_once": true,
+    "complete": true,
+    "complete_normal_created_only_after_all_tiles": true,
+    "consumed_tiles": [
+      {
+        "id": "0000-nodes",
+        "local_blocks": 6,
+        "ordinal": 0,
+        "residual_squared": 0.4037543980196404,
+        "row_groups": {
+          "node_G": 4,
+          "node_curvature": 3,
+          "node_high_G": 6
+        },
+        "rows": 13
+      },
+      {
+        "id": "0001-nodes",
+        "local_blocks": 4,
+        "ordinal": 1,
+        "residual_squared": 0.4982548694195498,
+        "row_groups": {
+          "node_G": 2,
+          "node_curvature": 6,
+          "node_high_G": 3
+        },
+        "rows": 11
+      },
+      {
+        "id": "0002-nodes",
+        "local_blocks": 2,
+        "ordinal": 2,
+        "residual_squared": 0.2588726783185374,
+        "row_groups": {
+          "node_curvature": 6
+        },
+        "rows": 6
+      },
+      {
+        "id": "0003-cells",
+        "local_blocks": 4,
+        "ordinal": 3,
+        "residual_squared": 0.34345053864452585,
+        "row_groups": {
+          "cell_C": 6,
+          "cell_high_C": 10
+        },
+        "rows": 16
+      },
+      {
+        "id": "0004-cells",
+        "local_blocks": 4,
+        "ordinal": 4,
+        "residual_squared": 0.39104263573569165,
+        "row_groups": {
+          "cell_C": 6,
+          "cell_high_C": 10
+        },
+        "rows": 16
+      },
+      {
+        "id": "0005-cells",
+        "local_blocks": 2,
+        "ordinal": 5,
+        "residual_squared": 0.1638553253264312,
+        "row_groups": {
+          "cell_C": 3,
+          "cell_high_C": 5
+        },
+        "rows": 8
+      },
+      {
+        "id": "0006-boundary",
+        "local_blocks": 4,
+        "ordinal": 6,
+        "residual_squared": 0.000225,
+        "row_groups": {
+          "central_boundary": 3,
+          "cut_l": 2,
+          "cut_nm": 3,
+          "gap": 1
+        },
+        "rows": 9
+      },
+      {
+        "id": "0007-interior",
+        "local_blocks": 3,
+        "ordinal": 7,
+        "residual_squared": 0.3161147553765815,
+        "row_groups": {
+          "interior_curvature": 3,
+          "interior_high": 6,
+          "interior_retained": 4
+        },
+        "rows": 13
+      },
+      {
+        "id": "0008-interior",
+        "local_blocks": 3,
+        "ordinal": 8,
+        "residual_squared": 0.18968547077307685,
+        "row_groups": {
+          "interior_curvature": 3,
+          "interior_high": 6,
+          "interior_retained": 4
+        },
+        "rows": 13
+      }
+    ],
+    "exact_arithmetic_finite_normal_unchanged": true,
+    "floating_bit_identity_claimed": false,
+    "floating_reduction_order_changed": true,
+    "full_finite_objective": true,
+    "iterator_consumed_in_original_group_order": true,
+    "local_blocks": 32,
+    "mapping_sha256": "ecf7226dc8187372d607a0f4c177a55674b29bb60536d5c30802e87ff4f1b9c9",
+    "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+    "plan_sha256": "0ebcf5f38c9939ca4dd46d0700a26f81e24919a6175fe6f6b231f2c7840c6ef5",
+    "residual_squared": 2.5652556716140342,
+    "row_groups": {
+      "cell_C": 15,
+      "cell_high_C": 25,
+      "central_boundary": 3,
+      "cut_l": 2,
+      "cut_nm": 3,
+      "gap": 1,
+      "interior_curvature": 6,
+      "interior_high": 12,
+      "interior_retained": 8,
+      "node_G": 6,
+      "node_curvature": 15,
+      "node_high_G": 9
+    },
+    "rows": 105,
+    "scaling_or_damping_applied": false,
+    "schema": "fd2d-R159-ordered-normal-tile-sum-v1",
+    "seconds": 0.6062018630000239,
+    "state_binding": {
+      "cell_consumer": {
+        "module": "__main__",
+        "qualified_name": "unused_cell_consumer",
+        "source_sha256": "20c070bb36355edd0e27241b64f3c272efdc5215128e16c5b0b2ebf179485f19"
+      },
+      "opaque_binding": {
+        "plan_sha256": "0ebcf5f38c9939ca4dd46d0700a26f81e24919a6175fe6f6b231f2c7840c6ef5",
+        "schema": "synthetic-partition-transport-fixture-v1",
+        "sources": {
+          "checker": {
+            "bytes": 12830,
+            "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-partitioned-normal-check-v2.py",
+            "sha256": "20c070bb36355edd0e27241b64f3c272efdc5215128e16c5b0b2ebf179485f19"
+          },
+          "original_normal": {
+            "bytes": 13329,
+            "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_local_normal_system.py",
+            "sha256": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf"
+          },
+          "partition": {
+            "bytes": 19548,
+            "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_partitioned_normal.py",
+            "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+          },
+          "transport": {
+            "bytes": 16976,
+            "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_normal_checkpoint.py",
+            "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+          }
+        },
+        "vector_identity": {
+          "bytes": 272,
+          "dtype": "<f8",
+          "sha256": "33957ab65f0b9755e074b42a0792eb86a84ffc3c4d7316fe282e8dd805dc866c",
+          "shape": [
+            34
+          ]
+        }
+      },
+      "partition_source_sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c",
+      "settings": {
+        "block_cells": 2,
+        "curvature_cap": 7.2,
+        "curvature_weight": 1.0,
+        "high_codazzi_weight": 1.0,
+        "high_gauss_weight": 1.0,
+        "interior_gauss_weight": 1.0,
+        "order": 2
+      },
+      "vector_identity": {
+        "bytes": 272,
+        "dtype": "<f8",
+        "sha256": "33957ab65f0b9755e074b42a0792eb86a84ffc3c4d7316fe282e8dd805dc866c",
+        "shape": [
+          34
+        ]
+      }
+    },
+    "state_binding_sha256": "fcb8fd8999d8d81c9a46bdda7cf099b12981f23c52d17df75d4ab014a6b5b6f5",
+    "unscaled_normal_storage_bytes": 1384,
+    "whole_tall_J_stored": false
+  },
+  "node_widths": [
+    0,
+    0,
+    5,
+    3,
+    4,
+    0
+  ],
+  "number_of_tiles": 9,
+  "passed": true,
+  "peak_rss_kib": 70140,
+  "plan": {
+    "bytes": 8455,
+    "path": "notes/2026-11-12-fd2d-metric-partitioned-normal-02-plan.json",
+    "sha256": "45dc1d832bcb2c7e3daca8a6528f7ba49ca2a2415a2000cc2c1261a13cdd62f0"
+  },
+  "rejection": {
+    "duplicate_first": {
+      "error": "Duplicate, out-of-order or wrong normal tile; iterator must follow plan ordinal",
+      "rejected": true
+    },
+    "missing_final": {
+      "error": "Missing normal tile: 0008-interior",
+      "rejected": true
+    }
+  },
+  "row_groups": {
+    "cell_C": 15,
+    "cell_high_C": 25,
+    "central_boundary": 3,
+    "cut_l": 2,
+    "cut_nm": 3,
+    "gap": 1,
+    "interior_curvature": 6,
+    "interior_high": 12,
+    "interior_retained": 8,
+    "node_G": 6,
+    "node_curvature": 15,
+    "node_high_G": 9
+  },
+  "rows": 105,
+  "schema": "fd2d-synthetic-partition-transport-sum-check-v1",
+  "scope": "One synthetic six-node local row fixture. No physical BVP, whole Jacobian, or actual v25 normal was computed.",
+  "seconds": 3.388038298999163,
+  "source_unchanged": {
+    "checker": true,
+    "original_normal": true,
+    "partition": true,
+    "transport": true
+  },
+  "sources": {
+    "checker": {
+      "bytes": 12830,
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-partitioned-normal-check-v2.py",
+      "sha256": "20c070bb36355edd0e27241b64f3c272efdc5215128e16c5b0b2ebf179485f19"
+    },
+    "original_normal": {
+      "bytes": 13329,
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_local_normal_system.py",
+      "sha256": "2773a28192620749bb227b33e7ebdbb42deacca9370b34c392ba9d3edfa95bcf"
+    },
+    "partition": {
+      "bytes": 19548,
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_partitioned_normal.py",
+      "sha256": "5802e1c2d366ff98b48127e8ca0327bb4027b97135bd2dae3032553c9741554c"
+    },
+    "transport": {
+      "bytes": 16976,
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_normal_checkpoint.py",
+      "sha256": "330fad074fcfc021279802c9b8f11e0f0f84dc6acb96e48d165360eb82dec66d"
+    }
+  },
+  "transport": [
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0000-nodes",
+      "manifest": {
+        "bytes": 42035,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0000-nodes/manifest.json",
+        "sha256": "8988cd573255d1bc8f2e14eaa3166bdea2f284abec023be7dfdb7ebe03728451"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0001-nodes",
+      "manifest": {
+        "bytes": 40548,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0001-nodes/manifest.json",
+        "sha256": "05170f8f557a746b4fd072c4aa2ae263b326872c35cf80fa549e20635b02cee7"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0002-nodes",
+      "manifest": {
+        "bytes": 38565,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0002-nodes/manifest.json",
+        "sha256": "8c8fb97aef00512da78d915a4859081caf6a2bef053f7927325773bbd7aba929"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0003-cells",
+      "manifest": {
+        "bytes": 40745,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0003-cells/manifest.json",
+        "sha256": "7d3ab25aa79787ee38330f85232a11347d99f9e4a8e1608a59084454fd720dee"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0004-cells",
+      "manifest": {
+        "bytes": 40745,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0004-cells/manifest.json",
+        "sha256": "f11f4effd53149e9dd517cd7320b43916295a50bdbbdaaf5105b39c408b1513f"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0005-cells",
+      "manifest": {
+        "bytes": 38911,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0005-cells/manifest.json",
+        "sha256": "dc42c92d05369475823c242cff41a27a3d1b0284070cf117822c49adc34b2e0c"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0006-boundary",
+      "manifest": {
+        "bytes": 40388,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0006-boundary/manifest.json",
+        "sha256": "5cf77aadccb82622046cb904199f25d1aedc67e38b6575318878f50142a17c9f"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0007-interior",
+      "manifest": {
+        "bytes": 40777,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0007-interior/manifest.json",
+        "sha256": "3219be17ed9af16bc13995b2d9cbd5f58e334c6ab500dea8596638d40c258473"
+      },
+      "storage_bytes": 1384
+    },
+    {
+      "all_array_mapping_metadata_bits_identical": true,
+      "id": "0008-interior",
+      "manifest": {
+        "bytes": 40777,
+        "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-metric-partitioned-normal-02-tiles/0008-interior/manifest.json",
+        "sha256": "2c89fed80da42f6c62b1a232cecca549f2a3ff5784313df65fdaaa7c549949e9"
+      },
+      "storage_bytes": 1384
+    }
+  ],
+  "utc": "2026-11-12T17:45:40.108344+00:00"
+}

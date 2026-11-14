@@ -1,0 +1,54 @@
+{
+  "scope": "Diagnose full Cartesian cut jets between saved prefix and explicit tail.\n\nOnly scalar summaries are printed. This is a floating diagnostic, not an\nexact seam or a continuous metric certificate. The tail's horizontal gauge\nis kept; only its constant vertical background height is aligned.\n",
+  "script_sha256": "50b18f3606c61825fd34853105249ef32fd413e5a7ace9a8fcb8aad20dd931c8",
+  "geometry": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-root-flat17-coupled-m8f16.json",
+  "geometry_sha256": "abf316d733c777fa07a555872c24bb1e2cf061153953874a095d77e6e5bf2a70",
+  "tail": "topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-int2-flat17-m8-q10-n8-s32-manifest.json",
+  "tail_sha256": "da0795deed1303dac7a38b68ea168ffd2883d8a84559df77c10ed3e91498e1da",
+  "prefix_modes": 16,
+  "common_cylindrical_modes": 32,
+  "background_cut_height": 1.7713048223222692,
+  "tail_height_gauge": "Reflect the entire exported height by z -> constant-z, including all V height jets.",
+  "cut_jet_differences": [
+    {
+      "order": 0,
+      "coefficient_max": 1.9601494889765246e-10,
+      "component_fourier_l1": [
+        4.808914458436907e-11,
+        4.377209402971277e-10,
+        4.790963593002689e-10
+      ],
+      "cartesian_sup_l1_diagnostic": 6.507269080775978e-10
+    },
+    {
+      "order": 1,
+      "coefficient_max": 2.716011419927827e-10,
+      "component_fourier_l1": [
+        6.407064437993621e-12,
+        6.452089620496833e-10,
+        1.0678410811694763e-11
+      ],
+      "cartesian_sup_l1_diagnostic": 6.453291281519884e-10
+    },
+    {
+      "order": 2,
+      "coefficient_max": 5.371249308686949e-09,
+      "component_fourier_l1": [
+        1.5168141559326953e-08,
+        5.588606292593718e-09,
+        6.981847947348415e-09
+      ],
+      "cartesian_sup_l1_diagnostic": 1.7608271903207674e-08
+    }
+  ],
+  "blend_width": 0.1,
+  "rough_power_l1_correction_derivative_diagnostics": {
+    "0": 3.0695025224650895e-08,
+    "1": 1.1885755315010312e-06,
+    "2": 3.567136703329586e-05
+  },
+  "exact_seam_certified": false,
+  "metric_certified": false,
+  "tail_curvature_certified": false,
+  "complete_closed_surface": false
+}

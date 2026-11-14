@@ -1,0 +1,117 @@
+{
+  "schema": "fd2d-fixed-g-gc-linear-tail-initializer-v1",
+  "scope": "Actual finite fixed-g GC BVP with a labelled linear-tail initializer.\n\nThis computes the nonlinear PREFIX equations.  The tail height-to-slope\noperator is only the selected finite LINEAR graph, so a returned root is\nan initializer, never a solved nonlinear tail or a closed strong surface.\nThe constant n cut equation omitted by the finite boundary count is always\nreported explicitly, together with angular monodromy and full sampled\nCodazzi residuals.  No hidden replacement of a true nonlinear boundary.\n",
+  "source": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bvp-linear-start.py",
+    "bytes": 13869,
+    "sha256": "424cec79891267d9c3959484fd0bc0c389855b56c4a5a7d1c9154f6c9ae2bcd2"
+  },
+  "intrinsic": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_intrinsic.py",
+    "bytes": 15291,
+    "sha256": "53b1d421d83ca01c1884d166f2fc9a92bb66fdd6cb95137d7d0b5024d251bd32"
+  },
+  "blended_intrinsic": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py",
+    "bytes": 5485,
+    "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+  },
+  "ports": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bvp_ports.py",
+    "bytes": 5066,
+    "sha256": "9e283fd9aa0cf0f29c4ef1c3060fef4ecf2ab2b0bcc74638636fcb490cbf613c"
+  },
+  "tail_gc_provider": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_metric_tail_gc_port.py",
+    "bytes": 8404,
+    "sha256": "2c9476d79db0260ddc423774b1f29b9176019851f35252b511b3c3c4d725fc95"
+  },
+  "newton": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_bvp_newton.py",
+    "bytes": 3509,
+    "sha256": "b2f6325b55151114383a6fe43b376d26f194193d97f210f65b8cc82e036709a6"
+  },
+  "core": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_oval_core.py",
+    "bytes": 10964,
+    "sha256": "1df75241ec76ae9a28042b72cbb721de61e7283378d82e7dea5ff05c3f84b692"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-ellipse-b05-frozen-candidate-v4.json",
+    "bytes": 32125,
+    "sha256": "1180a59ddea1a62036b04e814fbf2f4b7aa419efc71c0035a49ace722a552a9d"
+  },
+  "linear_tail": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-numerical-gc-linear-tail95-01.json",
+    "bytes": 22011,
+    "sha256": "6e1c7f63ce9fe2be3e45825bf7e7b782560938be9c747de53faa28d73a3c6944"
+  },
+  "anchor": {
+    "path": "/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-balanced-v4-gc-normal-m191-state.npz",
+    "bytes": 42206,
+    "sha256": "42ad029de4526bb5f110fbcea1b7b83b96d109262e1871e2a7bd55d10027cfd1"
+  },
+  "chart": {
+    "kind": "fixed-seed-normal-to-material-quintic",
+    "blend_interval": [
+      0.58,
+      1.4
+    ],
+    "beta": "10*t^3-15*t^4+6*t^5, t=clip((s-left)/(right-left),0,1)",
+    "U": "(1-beta)*arc_seed(xi)/a0+beta*xi",
+    "target_metric": "(1+a^2*U_s^2) ds^2+2*a^2*U_s*U_xi ds dxi+a^2*U_xi^2 dxi^2",
+    "material_metric_changed": false,
+    "intended_actual_map": "Reconstruct at fixed material u after inverting xi(s,u); use the original skew radial frame ODE."
+  },
+  "maximum_mode": 95,
+  "angular_grid": 384,
+  "intrinsic_dimension": 95,
+  "initial_nodes": 137,
+  "maximum_nodes": 400,
+  "tolerances": {
+    "collocation": 0.0001,
+    "boundary": 2e-07
+  },
+  "central_projection": {
+    "maximum_n_projection_difference": 3.3713569921211455e-06,
+    "maximum_m_projection_difference": 0.0,
+    "material_total_turn_projection_difference": 8.978698401749056e-13
+  },
+  "nonlinear_tail_solved": false,
+  "closed_surface": false,
+  "initial": {
+    "boundary_maximum": 0.0,
+    "omitted_constant_n_cut_difference": -1.942890293094024e-16,
+    "all_cut_coefficients_maximum_difference": 1.942890293094024e-16,
+    "core_parameter_l1": 0.0,
+    "core_parameter_maximum": 0.0,
+    "maximum_worker_height": 0.0,
+    "minimum_n_grid": 0.0017441188847199262,
+    "tail": {
+      "scope": "Finite linear selected graph, initializer only; no actual nonlinear tail solve.",
+      "minimum_n": 0.24875929755249696,
+      "minimum_vertical_normal_squared": 0.9900990099009901,
+      "gauss_defect": 2.2106882296979435e-16,
+      "Fourier_projection_maximum_difference": 1.0394788328704774e-17
+    }
+  },
+  "events": [],
+  "solver_success": false,
+  "exception": {
+    "type": "FloatingPointError",
+    "message": "The positive n chart has failed",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py\", line 56, in fields\n    f = super().fields(s, state)\n        ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_intrinsic.py\", line 148, in fields\n    raise ArithmeticError('The positive n chart has failed')\nArithmeticError: The positive n chart has failed\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bvp-linear-start.py\", line 230, in main\n    sol = solve_bvp(problem.fun, problem.bc, x, y, p, fun_jac=problem.fun_jac,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 1102, in solve_bvp\n    rms_res = estimate_rms_residuals(fun_wrapped, sol, x, h, p,\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 563, in estimate_rms_residuals\n    f1 = fun(x1, y1, p)\n         ^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py\", line 665, in fun_p\n    return np.asarray(fun(x, y, p), dtype)\n                      ^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-gc-bvp-linear-start.py\", line 63, in fun\n    return self.flow.rhs(s, y)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py\", line 66, in rhs\n    f = self.fields(s, state)\n        ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/fd2dbfd2c83e/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py\", line 58, in fields\n    raise FloatingPointError(str(exc)) from exc\nFloatingPointError: The positive n chart has failed\n"
+  },
+  "seconds": 340.5043876749987,
+  "rhs_calls": 41,
+  "jvp_calls": 7340,
+  "newton_statistics": {
+    "calls": 2,
+    "rejected_domain_trials": 221,
+    "rejected_merit_trials": 4,
+    "accepted_steps": 11,
+    "no_step": 1,
+    "minimum_alpha": 9.5367431640625e-07,
+    "factorizations": 12
+  }
+}

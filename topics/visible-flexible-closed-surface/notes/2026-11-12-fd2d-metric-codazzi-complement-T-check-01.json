@@ -1,0 +1,196 @@
+{
+  "schema": "fd2d-finite-codazzi-complement-JVP-check-v1",
+  "field": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-local-recovery01-k15.npz",
+    "bytes": 23429,
+    "sha256": "3826e1af2637c3a92b9020ca03fbc0d7d6011cff4a1ee6b2f24fd506fa848ab5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-flat-cut-prefix-v1-coast-compatible-candidate.json",
+    "bytes": 34237,
+    "sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-metric-codazzi-complement-check.py",
+      "bytes": 9469,
+      "sha256": "cc27dde2488e8c9888acd1431045a4ffaeabf29961f1bc23193a6b36e615a6eb"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_codazzi_complement.py",
+      "bytes": 13189,
+      "sha256": "1c4d5c67432d7dfd4fef7e8106096a5b995c54a4344490b0c09e5a3b2a70a4ba"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_lifted_dae.py",
+      "bytes": 20020,
+      "sha256": "55fc71662ae3a45edc92ddb63923cd1f59b309ba04c7f655969cde8dec4baf43"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_analytic_T.py",
+      "bytes": 8454,
+      "sha256": "177a6b00c754d1d9ed11f0cf3051e5acfa9b39adc4c576e39a8320268050f857"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_design_profile_positive.py",
+      "bytes": 6455,
+      "sha256": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_raw_native_field.py",
+      "bytes": 20527,
+      "sha256": "4121b3f3ed6710fd5e7367b11c401b9060a02cae1f89650c9ff71033769dade0"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_positive_flat_developable_family.py",
+      "bytes": 5366,
+      "sha256": "f0b28f382c981449b0fea0d3ad8b65908b5dad96c13b6af2c3b4f515ced72b89"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_gc_blended.py",
+      "bytes": 5485,
+      "sha256": "e4e6ec35febc5084c95b76bff53f2e8e5b647cd141a0635826f478a2260d3c5e"
+    },
+    {
+      "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d_balanced_curvature_core.py",
+      "bytes": 21826,
+      "sha256": "d67571b9b6ae8139626cc445cf12e417d9e549e3e410c0254b73dd122d0b8fb4"
+    }
+  ],
+  "choices": {
+    "profile_kind": "positive_clock",
+    "tail_kind": "positive_bernstein",
+    "base_kind": "balanced_seed"
+  },
+  "modes": 15,
+  "radial_nodes": 113,
+  "angular_work": 256,
+  "actual_delta_test": null,
+  "actual_delta_test_is_an_accepted_solution": false,
+  "helper": {
+    "weight": 0.3,
+    "normalization": "weight*sqrt(2/angular_work)",
+    "row_order": "radial cell, equation n then m, angular point",
+    "rows": 57344,
+    "sampled_omitted_codazzi_maximum": 1.780938841980853,
+    "sampled_omitted_node_rhs_maximum": 1.7819867845095878,
+    "residual_l2": 1.8474419404569504,
+    "profile_kind": "positive_clock",
+    "original_equations_changed": false,
+    "independent_l_retained": true,
+    "finite_parameter_difference_used": false,
+    "exact_retained_terms_cancelled_before_projection": true,
+    "continuous_certificate": false,
+    "scope": "High angular complement of the two original trapezoidal correction equations on the recorded finite angular grid",
+    "jacobian_nonzeros": 3621457,
+    "parameter_columns": "analytic full tail jets and explicit analytic T or physical-bump target/lifting jets"
+  },
+  "sparse_shape": [
+    57344,
+    5343
+  ],
+  "sparse_nnz": 3621457,
+  "original_F_maximum_change": 0.0,
+  "original_fields_maximum_change": 0.0,
+  "original_projected_codazzi_maximum_difference": 8.881784197001252e-15,
+  "cancelling_exact_retained_terms_floating_difference": 3.9909048288322424e-14,
+  "retained_projection_of_omitted_roundoff_maximum": 1.780864573580865e-14,
+  "directional_checks": [
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 4e-06,
+      "analytic_direction_norm": 2.0173836926489077,
+      "absolute_maximum": 6.665882333145665e-11,
+      "absolute_l2": 1.7025035972511007e-09,
+      "scaled_l2": 8.43916605182648e-10,
+      "relative_l2": 8.43916605182648e-10
+    },
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 2e-06,
+      "analytic_direction_norm": 2.0173836926489077,
+      "absolute_maximum": 1.412993303091803e-10,
+      "absolute_l2": 3.3615328542773974e-09,
+      "scaled_l2": 1.6662833483419144e-09,
+      "relative_l2": 1.6662833483419144e-09
+    },
+    {
+      "direction": "independent_n_m_l_node_coefficients",
+      "step": 1e-06,
+      "analytic_direction_norm": 2.0173836926489077,
+      "absolute_maximum": 3.19765701141091e-10,
+      "absolute_l2": 6.676785527143818e-09,
+      "scaled_l2": 3.3096260029627403e-09,
+      "relative_l2": 3.3096260029627403e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.4839622291278404,
+      "absolute_maximum": 5.021812609848353e-11,
+      "absolute_l2": 1.0105755372593877e-09,
+      "scaled_l2": 1.0105755372593877e-09,
+      "relative_l2": 2.088128941551016e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.4839622291278404,
+      "absolute_maximum": 1.2015991673886006e-10,
+      "absolute_l2": 1.998810551025938e-09,
+      "scaled_l2": 1.998810551025938e-09,
+      "relative_l2": 4.130096174298644e-09
+    },
+    {
+      "direction": "exact_tail_controls",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.4839622291278404,
+      "absolute_maximum": 1.935870936752189e-10,
+      "absolute_l2": 3.959965450435228e-09,
+      "scaled_l2": 3.959965450435228e-09,
+      "relative_l2": 8.18238534352479e-09
+    },
+    {
+      "direction": "physical_coast_T",
+      "step": 4e-06,
+      "analytic_direction_norm": 0.19996443964979416,
+      "absolute_maximum": 1.0262419646717147e-10,
+      "absolute_l2": 6.609236066153711e-10,
+      "scaled_l2": 6.609236066153711e-10,
+      "relative_l2": 3.3052057044386163e-09
+    },
+    {
+      "direction": "physical_coast_T",
+      "step": 2e-06,
+      "analytic_direction_norm": 0.19996443964979416,
+      "absolute_maximum": 1.735739191266461e-10,
+      "absolute_l2": 1.3668488310561984e-09,
+      "scaled_l2": 1.3668488310561984e-09,
+      "relative_l2": 6.835459511951306e-09
+    },
+    {
+      "direction": "physical_coast_T",
+      "step": 1e-06,
+      "analytic_direction_norm": 0.19996443964979416,
+      "absolute_maximum": 3.9554722865153824e-10,
+      "absolute_l2": 2.3415485697402315e-09,
+      "scaled_l2": 2.3415485697402315e-09,
+      "relative_l2": 1.1709824876068367e-08
+    }
+  ],
+  "checks": {
+    "raw_F_unchanged": true,
+    "fields_unchanged": true,
+    "sources_unchanged": true,
+    "original_projected_codazzi_reproduced": true,
+    "retained_cancellation_roundoff_only": true,
+    "low_projection_roundoff_only": true,
+    "central_raw_columns_exactly_zero": true,
+    "all_three_directions_nonzero": true,
+    "all_three_JVP": true
+  },
+  "implementation_checks_passed": true,
+  "elapsed_seconds": 13.726363216000209,
+  "continuous_certificate": false,
+  "scope": "Finite implementation checks of additional search rows; no BVP, body ODE, or continuous angular/radial certificate"
+}

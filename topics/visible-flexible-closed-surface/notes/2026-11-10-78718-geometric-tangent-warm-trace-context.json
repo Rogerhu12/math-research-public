@@ -1,0 +1,191 @@
+{
+  "scope": "Read-only scalar history context for a proposed optional warm coordinate path. No new root, flow, shooting evaluation, DN or BVP. The live trace prefix is identified only at this observation; later appends are not covered.",
+  "observedUTC": "2026-11-10T16:08:01.991477+00:00",
+  "source": {
+    "path": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-10-78718-numerical-m15-w22-fast-07_tail-trace.jsonl",
+    "prefixBytes": 62143,
+    "prefixSHA256": "d4a3870e5a0ae02977faf0cf6db452c38e2a01917457e5dab416e059092c2787",
+    "liveFile": true
+  },
+  "events": [
+    {
+      "time": "2026-11-10T15:34:34.783Z",
+      "event": "request",
+      "call": 9,
+      "firstHeightCoefficient": -0.0006255651796652237
+    },
+    {
+      "time": "2026-11-10T15:34:34.804Z",
+      "event": "tangent_warm_predictor",
+      "call": 9,
+      "maxRelativeCorrection": 0.15997467119444966,
+      "maxChartCondition": 233246.81016784578
+    },
+    {
+      "time": "2026-11-10T15:37:03.300Z",
+      "event": "iteration",
+      "call": 9,
+      "iteration": 0,
+      "norm": 913.7334260870103,
+      "minA": 0.4306465033924522,
+      "minD": 0.9934797369428496,
+      "elapsed_ms": 148517,
+      "worst": {
+        "stage": 84,
+        "component": 25,
+        "absolute": 0.0010117167310416675,
+        "scale": 1.1072340161334173e-06,
+        "normalized": 913.7334260870103,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T15:40:24.357Z",
+      "event": "iteration",
+      "call": 9,
+      "iteration": 1,
+      "norm": 0.4575456696601761,
+      "minA": 0.4327459501343023,
+      "minD": 0.9934800056829117,
+      "elapsed_ms": 349574,
+      "worst": {
+        "stage": 84,
+        "component": 40,
+        "absolute": 5.066101293822907e-07,
+        "scale": 1.1072340161334173e-06,
+        "normalized": 0.4575456696601761,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T15:43:47.884Z",
+      "event": "iteration",
+      "call": 9,
+      "iteration": 2,
+      "norm": 0.15453257318914287,
+      "minA": 0.43254187287930707,
+      "minD": 0.9934800056989013,
+      "elapsed_ms": 553101,
+      "worst": {
+        "stage": 84,
+        "component": 24,
+        "absolute": 1.711037216356459e-07,
+        "scale": 1.1072340161334173e-06,
+        "normalized": 0.15453257318914287,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T15:50:52.842Z",
+      "event": "iteration",
+      "call": 9,
+      "iteration": 4,
+      "norm": 1.0528345037007498e-09,
+      "minA": 0.4325342675608981,
+      "minD": 0.9934800056993556,
+      "elapsed_ms": 978059,
+      "worst": {
+        "stage": 84,
+        "component": 24,
+        "absolute": 1.1657341758564144e-15,
+        "scale": 1.1072340161334173e-06,
+        "normalized": 1.0528345037007498e-09,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T15:50:53.450Z",
+      "event": "response",
+      "call": 9,
+      "maxChartCondition": 238157.20958359254,
+      "elapsed_ms": 978667,
+      "residual": 1.0528345037007498e-09,
+      "converged": true
+    },
+    {
+      "time": "2026-11-10T15:50:54.544Z",
+      "event": "request",
+      "call": 10,
+      "firstHeightCoefficient": -0.0006693547422417893
+    },
+    {
+      "time": "2026-11-10T15:50:54.593Z",
+      "event": "tangent_warm_predictor",
+      "call": 10,
+      "maxRelativeCorrection": 0.1637126381156638,
+      "maxChartCondition": 238087.5557632501
+    },
+    {
+      "time": "2026-11-10T15:53:10.113Z",
+      "event": "iteration",
+      "call": 10,
+      "iteration": 0,
+      "norm": 792.6071596168548,
+      "minA": 0.37403788781533226,
+      "minD": 0.9930187520208325,
+      "elapsed_ms": 135569,
+      "worst": {
+        "stage": 84,
+        "component": 25,
+        "absolute": 0.0009390337211577782,
+        "scale": 1.1847403972627572e-06,
+        "normalized": 792.6071596168548,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T15:56:53.393Z",
+      "event": "iteration",
+      "call": 10,
+      "iteration": 1,
+      "norm": 391.5732725634072,
+      "minA": 0.08990113221671549,
+      "minD": 0.9930188851424373,
+      "elapsed_ms": 358849,
+      "worst": {
+        "stage": 84,
+        "component": 25,
+        "absolute": 0.000463912674494249,
+        "scale": 1.1847403972627572e-06,
+        "normalized": 391.5732725634072,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    },
+    {
+      "time": "2026-11-10T16:00:31.622Z",
+      "event": "iteration",
+      "call": 10,
+      "iteration": 2,
+      "norm": 195.9625196894286,
+      "minA": 0.10296984494696707,
+      "minD": 0.9930189539095777,
+      "elapsed_ms": 577078,
+      "worst": {
+        "stage": 84,
+        "component": 25,
+        "absolute": 0.00023216471342546452,
+        "scale": 1.1847403972627572e-06,
+        "normalized": 195.9625196894286,
+        "kind": "shooting",
+        "rawCell": 0,
+        "rawSegment": 3
+      }
+    }
+  ],
+  "actualNewRootCalls": 0,
+  "actualNewStageFlows": 0,
+  "actualNewDNCalls": 0,
+  "actualNewBVPCalls": 0
+}

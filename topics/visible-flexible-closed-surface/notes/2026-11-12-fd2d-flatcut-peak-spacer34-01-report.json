@@ -1,0 +1,442 @@
+{
+  "schema": "fd2d-flatcut-peak-spacer-physical-design-v1",
+  "actual_execution": true,
+  "source_sha256": "a92b552f70bcc26c97f16261fbc78fac10c1daad6d72eafc8063dcb093cdd147",
+  "generator_sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607",
+  "dependencies_sha256": {
+    "fd2d_flat_cut_prefix_candidate.py": "135303639c5eb1970b6b76aad47a53b7627bcc7176243713c56c63ae8260547a",
+    "fd2d_frozen_ellipse_candidate.py": "393848295e1d8e321c057286d722f47a6c51665aa1a35f4b3bbed3a63ddeac30",
+    "fd2d_gc_design_profile_positive.py": "bcdb757d83e4b11ba5dcb5b2489c53005e338a664aea680c0aa7623b86515a47",
+    "fd2d_flatcut_milder_redeep_design.py": "63ed8761394db0e46ca8042eb226ad4228fc8ba10ac0a8f0e010ddae75f94fa3"
+  },
+  "candidates": [
+    {
+      "candidate_file": "2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-candidate.json",
+      "candidate_sha256": "7c3f31de4b230e8d98b99c3e3914d65ae69daa3cb5c54ae22f585a36a888bfd1",
+      "meridian_file": "2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl032-meridian.npz",
+      "meridian_sha256": "1615306d5c05fc44ae0e53d360fb7bd31c99869316b8ecdc9c77c0d286e495dc",
+      "generator_sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607",
+      "parameters": {
+        "vmid": 0.12,
+        "contraction_curvature": 3.4,
+        "early_return_curvature": 3.4,
+        "redeepen_curvature": 3.4,
+        "ramp_length": 0.02,
+        "coast_length": 0.02,
+        "deep_phase": 1.45,
+        "brake_length": 0.026,
+        "cylinder_length": 0.32,
+        "contraction_plateau_length": 0.09235752021390159,
+        "physical_metric_changed": true,
+        "terminal_phase": "-pi/2 + O((s_cut-s)^2)",
+        "future_design_T": "Outer physical design; freeze after a solution is selected"
+      },
+      "design": {
+        "retained_source_feedback_raw_last_index": 51,
+        "retained_feedback_length": 0.272,
+        "removed_feedback_length": 0.057999999999999996,
+        "original_final_acceleration": -0.007312396476198968,
+        "new_exact_final_acceleration": 0.0,
+        "final_shared_position_and_velocity": [
+          0.025098861732923305,
+          0.2587478542495509
+        ],
+        "feedback_change": "The last retained quintic has the same endpoint radius/speed and a newly defined zero acceleration; the old positive-K suffix is not retained.",
+        "outward_phase": 0.26172568633247734,
+        "outward_radial_speed": 0.2587478542495509,
+        "outward_coast_length": 0.2755434451024161,
+        "zero_spacer_radial_budget_for_selection": {
+          "physical_T_lower_open": 0.0,
+          "physical_T_upper_open": -0.6444339385102935,
+          "deep_coast_at_T": -0.06681962542694224,
+          "current_radial_room": -0.06633271021759113,
+          "T": 0.02,
+          "vm": -0.09983341664682815,
+          "vd": -0.9927129910375885,
+          "positive_at_T": false,
+          "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+        },
+        "target_final_deep_coast_for_selection": 0.005,
+        "actual_final_deep_coast_from_frozen_spacer": 0.004999999999999962,
+        "selection_formula": "E=(sin(pdeep)*target_Ldeep-zero_spacer_room)/saved_peak_radial_speed",
+        "zero_spacer_used_only_to_evaluate_the_affine_design_budget": true,
+        "spacer_length_frozen_as_written_binary64": true,
+        "exact_final_radius_from_derived_coast_to": true,
+        "same_central_a0": true,
+        "background_height_is_not_actual_nonlinear_height": true
+      },
+      "full_physical_T_domain_open": [
+        0.0,
+        0.06971847225009907
+      ],
+      "positive_clock_trials": [
+        {
+          "T": 0.006971847225009907,
+          "minimum_s_x": 0.12151663432219587,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.034859236125049535,
+          "minimum_s_x": 0.4915867650741295,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.06274662502508917,
+          "minimum_s_x": 0.019663470602972705,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        }
+      ],
+      "central_a0": 1.0040828380214688,
+      "meridian_length": 1.4889731783581288,
+      "background_cut_Z": 1.2975177376030373,
+      "scalar_metric": {
+        "end": 1.4889731783581288,
+        "minimum_radius_sample": 0.8,
+        "maximum_abs_a_prime_sample": 1.0,
+        "maximum_abs_a_second_sample": 3.399999992949705,
+        "background_height": 1.2975177376030373,
+        "maximum_jet_join_roundoff": 1.7763568394002505e-15,
+        "cut_jet": [
+          0.8,
+          -1.0,
+          0.0
+        ]
+      },
+      "piece_diagnostics": [
+        {
+          "label": "central_cylinder",
+          "L": 0.32,
+          "a_start": 1.0040828380214688,
+          "a_end": 1.0040828380214688,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "outward_peak_spacer",
+          "L": 0.2755434451024161,
+          "a_start": 1.029181699754392,
+          "a_end": 1.1004779749271711,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "L": 0.02,
+          "a_start": 1.1004779749271711,
+          "a_end": 1.1054334043868401,
+          "sampled_abs_meridian_curvature": 3.346874999999995,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": 2.9489580874135832
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "L": 0.09235752021390159,
+          "a_start": 1.1054334043868401,
+          "a_end": 1.1119325128575348,
+          "sampled_abs_meridian_curvature": 3.4,
+          "sampled_K_min": 2.996308995922795,
+          "sampled_K_max": 3.054728586556844
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "L": 0.02,
+          "a_start": 1.1119325128575348,
+          "a_end": 1.1097578004512059,
+          "sampled_abs_meridian_curvature": 3.4000000000000004,
+          "sampled_K_min": 0.047523327888018475,
+          "sampled_K_max": 3.0463627142028553
+        },
+        {
+          "label": "early_shallow_return",
+          "L": 0.006486535292451425,
+          "a_start": 1.1097578004512059,
+          "a_end": 1.1090447992890764,
+          "sampled_abs_meridian_curvature": 3.4000000000000004,
+          "sampled_K_min": -3.049852958884804,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L": 0.02,
+          "a_start": 1.1090447992890764,
+          "a_end": 1.1070481309561397,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "L": 0.4315856777493606,
+          "a_start": 1.1070481309561397,
+          "a_end": 0.8308931692286847,
+          "sampled_abs_meridian_curvature": 3.4,
+          "sampled_K_min": 0.0,
+          "sampled_K_max": 3.0398140747958173
+        },
+        {
+          "label": "final_deep_coast",
+          "L": 0.004999999999999962,
+          "a_start": 0.8308931692286847,
+          "a_end": 0.8259296042734968,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "L": 0.026,
+          "a_start": 0.8259296042734968,
+          "a_end": 0.8,
+          "sampled_abs_meridian_curvature": 6.969018853551727,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": 0.678433709573799
+        }
+      ],
+      "sampled_maximum_background_meridian_curvature": 6.969018853551727,
+      "sampled_maximum_positive_Gauss_curvature": 3.054728586556844,
+      "sampled_feedback_K_max": -0.0,
+      "sampled_feedback_K_min": -1.5894396283440595,
+      "sampled_minimum_outward_support": 0.8415033018018803,
+      "complete_rotational_cut_jet_errors": {
+        "X": 0.0,
+        "X_s": 0.0,
+        "X_u": 0.0,
+        "X_ss": 0.0,
+        "X_su": 0.0,
+        "X_uu": 0.0
+      },
+      "flat_endpoint_II_max": 0.0,
+      "nonlinear_prefix_solved": false,
+      "continuous_geometry_certified": false
+    },
+    {
+      "candidate_file": "2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl038-candidate.json",
+      "candidate_sha256": "e9a7096dbb358b102ab0c04c0356af2ba49a115040784e210cc905941e5828fd",
+      "meridian_file": "2026-11-12-fd2d-flatcut-peak-spacer34-01-cyl038-meridian.npz",
+      "meridian_sha256": "b5e689f91ce1efd93cc19d07976cb6ec9a78765b0ce5404120b5f1ad6088a4d2",
+      "generator_sha256": "b861dfbcef271a6598296bf516b1f631596df4807bff8a9b40967da2f99c5607",
+      "parameters": {
+        "vmid": 0.12,
+        "contraction_curvature": 3.4,
+        "early_return_curvature": 3.4,
+        "redeepen_curvature": 3.4,
+        "ramp_length": 0.02,
+        "coast_length": 0.02,
+        "deep_phase": 1.45,
+        "brake_length": 0.026,
+        "cylinder_length": 0.38,
+        "contraction_plateau_length": 0.09235752021390159,
+        "physical_metric_changed": true,
+        "terminal_phase": "-pi/2 + O((s_cut-s)^2)",
+        "future_design_T": "Outer physical design; freeze after a solution is selected"
+      },
+      "design": {
+        "retained_source_feedback_raw_last_index": 51,
+        "retained_feedback_length": 0.272,
+        "removed_feedback_length": 0.057999999999999996,
+        "original_final_acceleration": -0.007312396476198968,
+        "new_exact_final_acceleration": 0.0,
+        "final_shared_position_and_velocity": [
+          0.025098861732923305,
+          0.2587478542495509
+        ],
+        "feedback_change": "The last retained quintic has the same endpoint radius/speed and a newly defined zero acceleration; the old positive-K suffix is not retained.",
+        "outward_phase": 0.26172568633247734,
+        "outward_radial_speed": 0.2587478542495509,
+        "outward_coast_length": 0.2755434451024161,
+        "zero_spacer_radial_budget_for_selection": {
+          "physical_T_lower_open": 0.0,
+          "physical_T_upper_open": -0.6444339385102935,
+          "deep_coast_at_T": -0.06681962542694224,
+          "current_radial_room": -0.06633271021759113,
+          "T": 0.02,
+          "vm": -0.09983341664682815,
+          "vd": -0.9927129910375885,
+          "positive_at_T": false,
+          "formula": "Ldeep(T)=(R0+vm*T)/(-vd), 0<T<R0/(-vm)"
+        },
+        "target_final_deep_coast_for_selection": 0.005,
+        "actual_final_deep_coast_from_frozen_spacer": 0.004999999999999962,
+        "selection_formula": "E=(sin(pdeep)*target_Ldeep-zero_spacer_room)/saved_peak_radial_speed",
+        "zero_spacer_used_only_to_evaluate_the_affine_design_budget": true,
+        "spacer_length_frozen_as_written_binary64": true,
+        "exact_final_radius_from_derived_coast_to": true,
+        "same_central_a0": true,
+        "background_height_is_not_actual_nonlinear_height": true
+      },
+      "full_physical_T_domain_open": [
+        0.0,
+        0.06971847225009907
+      ],
+      "positive_clock_trials": [
+        {
+          "T": 0.006971847225009907,
+          "minimum_s_x": 0.12151663432219587,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.034859236125049535,
+          "minimum_s_x": 0.4915867650741295,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "T": 0.06274662502508917,
+          "minimum_s_x": 0.019663470602972705,
+          "cut_jet": [
+            0.8,
+            -1.0,
+            0.0
+          ]
+        }
+      ],
+      "central_a0": 1.0040828380214688,
+      "meridian_length": 1.5489731783581286,
+      "background_cut_Z": 1.3575177376030372,
+      "scalar_metric": {
+        "end": 1.5489731783581286,
+        "minimum_radius_sample": 0.8,
+        "maximum_abs_a_prime_sample": 1.0,
+        "maximum_abs_a_second_sample": 3.399999992949705,
+        "background_height": 1.3575177376030372,
+        "maximum_jet_join_roundoff": 1.7763568394002505e-15,
+        "cut_jet": [
+          0.8,
+          -1.0,
+          0.0
+        ]
+      },
+      "piece_diagnostics": [
+        {
+          "label": "central_cylinder",
+          "L": 0.38,
+          "a_start": 1.0040828380214688,
+          "a_end": 1.0040828380214688,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "outward_peak_spacer",
+          "L": 0.2755434451024161,
+          "a_start": 1.029181699754392,
+          "a_end": 1.1004779749271711,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "partial_return_acceleration_entry",
+          "L": 0.02,
+          "a_start": 1.1004779749271711,
+          "a_end": 1.1054334043868401,
+          "sampled_abs_meridian_curvature": 3.346874999999995,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": 2.9489580874135832
+        },
+        {
+          "label": "partial_return_acceleration_plateau",
+          "L": 0.09235752021390159,
+          "a_start": 1.1054334043868401,
+          "a_end": 1.1119325128575348,
+          "sampled_abs_meridian_curvature": 3.4,
+          "sampled_K_min": 2.996308995922795,
+          "sampled_K_max": 3.054728586556844
+        },
+        {
+          "label": "partial_return_acceleration_exit",
+          "L": 0.02,
+          "a_start": 1.1119325128575348,
+          "a_end": 1.1097578004512059,
+          "sampled_abs_meridian_curvature": 3.4000000000000004,
+          "sampled_K_min": 0.04752332788800172,
+          "sampled_K_max": 3.0463627142028553
+        },
+        {
+          "label": "early_shallow_return",
+          "L": 0.006486535292451425,
+          "a_start": 1.1097578004512059,
+          "a_end": 1.1090447992890764,
+          "sampled_abs_meridian_curvature": 3.4000000000000004,
+          "sampled_K_min": -3.049852958884804,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "partial_return_matching_coast",
+          "L": 0.02,
+          "a_start": 1.1090447992890764,
+          "a_end": 1.1070481309561397,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "redeepen_after_partial_return",
+          "L": 0.4315856777493606,
+          "a_start": 1.1070481309561397,
+          "a_end": 0.8308931692286847,
+          "sampled_abs_meridian_curvature": 3.4,
+          "sampled_K_min": 0.0,
+          "sampled_K_max": 3.0398140747958173
+        },
+        {
+          "label": "final_deep_coast",
+          "L": 0.004999999999999962,
+          "a_start": 0.8308931692286847,
+          "a_end": 0.8259296042734968,
+          "sampled_abs_meridian_curvature": 0.0,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": -0.0
+        },
+        {
+          "label": "cut_second_jet_brake",
+          "L": 0.026,
+          "a_start": 0.8259296042734968,
+          "a_end": 0.8,
+          "sampled_abs_meridian_curvature": 6.969018853551727,
+          "sampled_K_min": -0.0,
+          "sampled_K_max": 0.678433709573799
+        }
+      ],
+      "sampled_maximum_background_meridian_curvature": 6.969018853551727,
+      "sampled_maximum_positive_Gauss_curvature": 3.054728586556844,
+      "sampled_feedback_K_max": -0.0,
+      "sampled_feedback_K_min": -1.5894396283440595,
+      "sampled_minimum_outward_support": 0.8259784305469071,
+      "complete_rotational_cut_jet_errors": {
+        "X": 0.0,
+        "X_s": 0.0,
+        "X_u": 0.0,
+        "X_ss": 0.0,
+        "X_su": 0.0,
+        "X_uu": 0.0
+      },
+      "flat_endpoint_II_max": 0.0,
+      "nonlinear_prefix_solved": false,
+      "continuous_geometry_certified": false
+    }
+  ],
+  "seconds": 4.93894748799994,
+  "scope": "Complete NEW scalar metric inputs and finite rotational checks; no transfer of an old IVP state or nonlinear success."
+}

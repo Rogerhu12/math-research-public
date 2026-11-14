@@ -1,0 +1,170 @@
+{
+  "status": "LOCAL-interval-budget-diagnosis-only",
+  "scope": "Local diagnosis of the prefix metric certificate's conservative budget.\n\nThis inspects selected already-certified intervals, without constructing a\nnew surface or claiming a new full-prefix certificate. Angular arc bounds\nuse the existing directed-rounding backend after coefficient cancellation.\nMid-coefficient sampled values are explicitly diagnostic, not enclosures.\n",
+  "script_sha256": "dc5c0a569f291fdd19e77272c4d565c43a2d976d2534dc13cc47d0fb13bb451f",
+  "inputs": {
+    "geometry": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01.json",
+      "sha256": "253179d585d4ac0e59206d4e579de5663943f126473668c45a3bbda665c9c8f2"
+    },
+    "target": {
+      "file": "notes/2026-11-09-db6f-root-flat17-m12-target.json",
+      "sha256": "7b307dd26afbe669a9b52d9f1795ed49c775288f9c9d679759b6036cc3c5c47b"
+    },
+    "certificate": {
+      "file": "notes/2026-11-09-db6f-root-flat17-common-cut-m12-critical-r01-metric.json",
+      "sha256": "933965c8f28584408b08be6880ca679756923bcc37ad86e222a1920fe73daf2a"
+    }
+  },
+  "backend_sha256": {
+    "db6f-audit-tail-metric-curvature.py": "ed175aacdb2ba3e84d7c397d121e90c2a6a1492d05f5efdb646690481d302670",
+    "db6f-audit-metric-polynomial.py": "02f9da4d86c7514bf90a3cfd185be85274c7ad0b9b34d3d20ede342d6b8adea4",
+    "db6f-audit-continuous-hermite.py": "e1870297b172a372bbf889f9714249d4997171db7f53dbb3ec6195a5de2c642d",
+    "db6f-root-common-cut-v2.py": "317e519fda8d78fb70b53f8a8c80d51599dec1ac46e92741cd9b2576a3f4fa7d"
+  },
+  "common_cut_zero_correction_region_end": 1.8721644788676506,
+  "original_whole_prefix_bound": 2.5720856392336185e-08,
+  "inspected_intervals": [
+    {
+      "interval": 0,
+      "left": 0.0,
+      "right": 5.616044153070706e-05,
+      "original": {
+        "coordinate_residual_upper": [
+          6.402161767375442e-13,
+          1.2785545449575126e-13,
+          1.0251932735791199e-09
+        ],
+        "a_lower": 0.999999999999992,
+        "rho_lower": 0.1999999999999957,
+        "chart_velocity_upper": 8.306010036747677e-07,
+        "meridional_entry_upper": 6.402163898385609e-13,
+        "mixed_entry_upper": 6.43534905288753e-13,
+        "angular_entry_upper": 2.562983183947953e-08,
+        "operator_upper": 2.563047537438482e-08
+      },
+      "coefficient_midpoint_residual_norm_diagnostic": [
+        6.7047222412404075e-15,
+        1.2785533769343314e-13,
+        1.0228288278509767e-09
+      ],
+      "radial_only_subdivision_operator_upper": {
+        "2": 2.563043260547805e-08,
+        "4": 2.563042985007668e-08,
+        "8": 2.563042847964027e-08
+      },
+      "angular_arc_operator_upper": {
+        "64": {
+          "operator_upper": 1.6881516002936517e-08,
+          "worst_arc": 1,
+          "component_abs_upper": [
+            6.390089450162097e-13,
+            1.7322074645146487e-13,
+            1.688140953347647e-08
+          ]
+        },
+        "128": {
+          "operator_upper": 1.1693316571862607e-08,
+          "worst_arc": 3,
+          "component_abs_upper": [
+            6.386730760086573e-13,
+            1.6175918839747877e-13,
+            1.1693212886073168e-08
+          ]
+        },
+        "256": {
+          "operator_upper": 9.524926031294437e-09,
+          "worst_arc": 1,
+          "component_abs_upper": [
+            6.38489624284195e-13,
+            1.5581953544431527e-13,
+            9.524897157424818e-09
+          ]
+        }
+      },
+      "midpoint_coefficient_sample_diagnostic": {
+        "radial_samples": 9,
+        "angular_samples": 4096,
+        "normalized_component_fft_l1": [
+          6.4599081393660856e-15,
+          9.536276758091227e-14,
+          8.951214157557522e-09
+        ],
+        "operator_max": 8.951214157557382e-09,
+        "continuous_bound": false
+      }
+    },
+    {
+      "interval": 74,
+      "left": 0.00707621563286909,
+      "right": 0.007413178282053332,
+      "original": {
+        "coordinate_residual_upper": [
+          2.5359424789465268e-12,
+          3.125017794298076e-11,
+          1.0218550481502665e-09
+        ],
+        "a_lower": 1.0000012639126166,
+        "rho_lower": 0.2000050006651258,
+        "chart_velocity_upper": 0.003831449775038092,
+        "meridional_entry_upper": 2.7904102930923417e-12,
+        "mixed_entry_upper": 1.7582220281744168e-10,
+        "angular_entry_upper": 2.554503418951874e-08,
+        "operator_upper": 2.5720856392336185e-08
+      },
+      "coefficient_midpoint_residual_norm_diagnostic": [
+        1.9020475760097187e-12,
+        3.124932060660359e-11,
+        1.0194854952487345e-09
+      ],
+      "radial_only_subdivision_operator_upper": {
+        "2": 2.5710268620780398e-08,
+        "4": 2.570582087341675e-08,
+        "8": 2.570353597412597e-08
+      },
+      "angular_arc_operator_upper": {
+        "64": {
+          "operator_upper": 1.6884992122981077e-08,
+          "worst_arc": 1,
+          "component_abs_upper": [
+            2.5146180314406554e-12,
+            7.903194413751049e-11,
+            1.6825545696383732e-08
+          ]
+        },
+        "128": {
+          "operator_upper": 1.1707861835267658e-08,
+          "worst_arc": 3,
+          "component_abs_upper": [
+            2.5059089984003405e-12,
+            6.314392445375407e-11,
+            1.1655803270191713e-08
+          ]
+        },
+        "256": {
+          "operator_upper": 9.536734386550046e-09,
+          "worst_arc": 1,
+          "component_abs_upper": [
+            2.503319508796842e-12,
+            5.436707276107704e-11,
+            9.498945728777192e-09
+          ]
+        }
+      },
+      "midpoint_coefficient_sample_diagnostic": {
+        "radial_samples": 9,
+        "angular_samples": 4096,
+        "normalized_component_fft_l1": [
+          1.7214511223024737e-12,
+          4.3958182948782076e-11,
+          8.921843401761786e-09
+        ],
+        "operator_max": 8.921843401761647e-09,
+        "continuous_bound": false
+      }
+    }
+  ],
+  "full_prefix_recertified": false,
+  "new_map_constructed": false,
+  "seconds": 76.68496376599796
+}

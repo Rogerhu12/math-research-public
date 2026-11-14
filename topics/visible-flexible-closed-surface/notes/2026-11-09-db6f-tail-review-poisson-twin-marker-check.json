@@ -1,0 +1,109 @@
+{
+  "status": "PASS-independent-rational-twin-marker-budget",
+  "reviewer": "/root/tail_theory",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-tail-review-poisson-twin-marker.py",
+    "bytes": 10486,
+    "sha256": "aaf4e4561c7eecfc3b21649f7a3ca31d607c42d741bd07f6fa4f09ae613e2a6c"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-bounds.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model-v2.md",
+      "bytes": 13510,
+      "sha256": "ca1033e52cab08f2258bd0ef52b0ba7140a6f73193088d56b4065d5881064149"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-model.md",
+      "bytes": 10831,
+      "sha256": "bc635aa9f6a76ac6564d734c4f77fda78b34079e777fd5ecf1b86c5ef46d1c5e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-observed-execution.json",
+      "bytes": 870,
+      "sha256": "f820bc0cb87a4579dfc212c68121770fb22d7dff0e05df5bf858fe16d978c445"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-poisson-twin-marker-publication.json",
+      "bytes": 883,
+      "sha256": "4200d61df1457c41c0a337813c00044c25042d5088cb66c1e52492b0d7d7aeb2"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-prefix-c3-poisson-bounds.json",
+      "bytes": 28270,
+      "sha256": "4d84a5f3533f367fc8acfb2501c20e16c157e0a41d02f5207e0ea05c3fc0908e"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-tail-review-poisson-twin-marker-replay.json",
+      "bytes": 6587,
+      "sha256": "9da6b3d013524995a831e5b55fe9d06b017957bbb87fd9b38fe093c7da8207ef"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R27-poisson-c3-core-and-conditional-held-transfer.md",
+      "bytes": 16547,
+      "sha256": "dd8ddca61e9609f1e0899692015938ff351d61bb9e8e9936d6ba4b236c11849a"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R29-c3-mechanism-interface-and-convex-held-envelope.md",
+      "bytes": 23205,
+      "sha256": "a4274cb2f6a931b59c7af94945d91eb1e74610fe6d511bfbadae8ae131ab82c1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-poisson-twin-marker-bounds.py",
+      "bytes": 7362,
+      "sha256": "9a48b31ee72d74660f4fb2fd584f1851b2aa34cf7091104482a8fa9f9ea5d25c"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-prefix-c3-poisson-bounds.py",
+      "bytes": 5362,
+      "sha256": "6f804847b44a8395c4abb5b325ed2b83f855c056b8bbc51ed1b7768e7f46c7b9"
+    }
+  ],
+  "independent_author_replay_byte_identical": true,
+  "root_enclosures_method": "122 exact rational bisections of [0,4], independently of author integer isqrt; all five used root endpoints agree exactly.",
+  "fraction_fields_reconstructed": 37,
+  "strict_rational_checks": {
+    "other_initial_pairs_strictly_smaller": true,
+    "core_core_below_even_lower_U": true,
+    "cap_pairs_below_even_lower_U_plus_a": true,
+    "diameter_lower_positive": true,
+    "D0_upper_below_2p51": true,
+    "gap_equivalent_formula": true,
+    "strict_tenth_diameter_drop": true,
+    "rigid_ratio_exceeds_1over20": true,
+    "held_ratio_exceeds_1over5": true,
+    "nonshadowing": true,
+    "fixed_grip_ratio_exceeds_1over5": true,
+    "core_and_cap_local_radius_above_threshold": true,
+    "both_disjoint_component_gaps_above_twice_threshold": true,
+    "connected_model_approximation_obstruction": true,
+    "display_D_upper_strict": true,
+    "display_rigid_lower_strict": true,
+    "display_held_lower_strict": true,
+    "display_fixed_grip_lower_strict": true
+  },
+  "rigid_ratio_lower": {
+    "numerator": "8873030831125265368471187829941513837",
+    "denominator": "165054873784797908927456824842616180692"
+  },
+  "held_ratio_lower": {
+    "numerator": "33812670035601524389956491393987536930996224",
+    "denominator": "162487475740801689348965560294012595134765625"
+  },
+  "fixed_grip_ratio_lower": {
+    "numerator": "19938419936773738093557105904205168640",
+    "denominator": "83193587579290464946670366870534448709"
+  },
+  "any_connected_compact_set_Hausdorff_distance_to_model_at_least": {
+    "numerator": "19",
+    "denominator": "200"
+  },
+  "two_sided_epsilon_005_is_not_a_connected_construction_route": true,
+  "scope": "Disconnected model and separately stated one-sided complete-image hypotheses only. No connected closed surface, common-metric extension, global reach, or actual solver is constructed.",
+  "actual_candidate_data_read": false,
+  "solver_RK_integration_optimization_calls": 0
+}

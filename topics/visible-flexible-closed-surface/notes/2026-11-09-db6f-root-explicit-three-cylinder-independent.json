@@ -1,0 +1,266 @@
+{
+  "status": "PASS_INDEPENDENT_CARTESIAN_AND_RATIONAL_DISK_CHECKS",
+  "scope": "Explicit embedded disk with boundary only; no closed surface or G5.",
+  "checker": {
+    "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-root-review-explicit-three-cylinder-flat-branch.py",
+    "bytes": 7550,
+    "sha256": "9bd7e14bc07ea7048d53151e74e595eb176ed73f2cbc5a9258968ef22a18bae8"
+  },
+  "source_bindings": [
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch.json",
+      "bytes": 8766,
+      "sha256": "4f69b9e47ec6cbe6e1eba678526420376519c99ef72839420b9da86613826807"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-db6f-audit-explicit-three-cylinder-flat-branch.md",
+      "bytes": 18689,
+      "sha256": "ec4c52b1abafb44b300ae20956bc1308c9b522b62a9cff1a70208a65326117ee"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R38-ck-local-exact-isometric-collar.md",
+      "bytes": 20176,
+      "sha256": "a43ee6a726406570d09912225dea0c2e102c08c3f84ed583b9701345a0a113a1"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R41-flat-annulus-conditional-local-geometry.md",
+      "bytes": 10603,
+      "sha256": "00b859c437945ea9c10a879b5622fe98c0d4572248b1e78cce6717648adecb13"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/results/R42-degenerate-flat-endpoint-and-finite-mode-uniqueness.md",
+      "bytes": 16723,
+      "sha256": "7251b31003e6545492c722eaaaf88efc7ee089e42e6a62104456b5609a908db8"
+    },
+    {
+      "path": "/workspace/scratch/db6f0b0e7462/math-research/topics/visible-flexible-closed-surface/scripts/db6f-audit-explicit-three-cylinder-flat-branch.py",
+      "bytes": 13497,
+      "sha256": "0288ff3d7e6d1c0fddfb68d910e5ecd073caf8448f2b0dd8433a063386234c32"
+    }
+  ],
+  "Cartesian_and_inverse_variable_identities": {
+    "Cartesian_metric_00": "0",
+    "Cartesian_metric_01": "0",
+    "Cartesian_metric_10": "0",
+    "Cartesian_metric_11": "0",
+    "inward_normal_unit": "0",
+    "Cartesian_normal_tangent_0": "0",
+    "Cartesian_second_form_00": "0",
+    "Cartesian_second_form_01": "0",
+    "Cartesian_normal_tangent_1": "0",
+    "Cartesian_second_form_10": "0",
+    "Cartesian_second_form_11": "0",
+    "Cartesian_Gauss_rank_one": "0",
+    "Cartesian_shape_trace_k": "0",
+    "Cartesian_Codazzi_column_0": "0",
+    "Cartesian_Codazzi_column_1": "0",
+    "inverse_variable_curvature_derivative": "0",
+    "inverse_variable_curvature_peak": "0"
+  },
+  "symbolic_identity_count": 17,
+  "independent_rational_gates": [
+    {
+      "name": "caps_are_disjoint_on_disk",
+      "left": {
+        "numerator": 579,
+        "denominator": 500
+      },
+      "right": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "activity_has_positive_width",
+      "left": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "right": {
+        "numerator": 579,
+        "denominator": 1000
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "strict_exponential_upper",
+      "left": {
+        "numerator": 11,
+        "denominator": 4
+      },
+      "right": {
+        "numerator": 87,
+        "denominator": 32
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "cube_gives_exp_minus_one_third",
+      "left": {
+        "numerator": 1000,
+        "denominator": 343
+      },
+      "right": {
+        "numerator": 11,
+        "denominator": 4
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "Hausdorff_witness_height",
+      "left": {
+        "numerator": 1760201,
+        "denominator": 17424000
+      },
+      "right": {
+        "numerator": 1,
+        "denominator": 10
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "held_ratio_uses_whole_initial_diameter",
+      "left": {
+        "numerator": 1760201,
+        "denominator": 34848000
+      },
+      "right": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "fixed_material_disk_diameter",
+      "left": {
+        "numerator": 579,
+        "denominator": 500
+      },
+      "right": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "boundary_inclusive_reach_radius",
+      "left": {
+        "numerator": 421,
+        "denominator": 6000
+      },
+      "right": {
+        "numerator": 3,
+        "denominator": 50
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "boundary_inclusive_reach_ratio",
+      "left": {
+        "numerator": 421,
+        "denominator": 12000
+      },
+      "right": {
+        "numerator": 3,
+        "denominator": 100
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "unit_plane_normal_contradiction",
+      "left": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "right": {
+        "numerator": 1166741,
+        "denominator": 1340964
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "quotient_distance_ratio_positive",
+      "left": {
+        "numerator": 1,
+        "denominator": 80
+      },
+      "right": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "weak_branch_above_original_core_top",
+      "left": {
+        "numerator": 331,
+        "denominator": 8000
+      },
+      "right": {
+        "numerator": 1,
+        "denominator": 100
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "flat_ring_has_positive_width",
+      "left": {
+        "numerator": 579,
+        "denominator": 1000
+      },
+      "right": {
+        "numerator": 577,
+        "denominator": 1000
+      },
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "flat_ring_above_zero",
+      "left": {
+        "numerator": 47,
+        "denominator": 500
+      },
+      "right": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "relation": ">",
+      "passed": true
+    }
+  ],
+  "rational_gate_count": 14,
+  "same_exact_author_held_and_reach_bounds": true,
+  "held_strict_lower": {
+    "numerator": 1760201,
+    "denominator": 17424000
+  },
+  "reach_strict_lower": {
+    "numerator": 421,
+    "denominator": 6000
+  },
+  "plane_normal_squared_upper_under_false_epsilon_assumption": {
+    "numerator": 1166741,
+    "denominator": 1340964
+  },
+  "known_proof_typography_correction": "Equation (8): insert a backslash before the one bare sin.",
+  "author_module_imports": 0,
+  "integration_mesh_BVP_tail_RK_calls": 0,
+  "main_candidate_data_read": false,
+  "global_reach_argument_requires_full_text_review": true,
+  "closed_surface_constructed": false,
+  "G5_completed": false
+}

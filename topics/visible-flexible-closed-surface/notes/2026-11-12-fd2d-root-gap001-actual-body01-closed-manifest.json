@@ -1,0 +1,48 @@
+{
+  "schema": "fd2d-closed-actual-prefix-run-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-native-field.json",
+      "bytes": 15438,
+      "sha256": "a9ae11759c6fd5e4d8c66d47ebc96546dd889e173c28fcad5571818d67671115"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-nodes.npz.gz",
+      "bytes": 1119622,
+      "sha256": "8398cf1ef1a05458b7ca9b2504c24d5657ec977561e741c81d3d84ce6dd6e759",
+      "lossless_payload": {
+        "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-nodes.npz",
+        "bytes": 1137708,
+        "sha256": "29f6cf4f850fe0e1b17233b771d220956e2d5fdaff3c28e96ff0ad2d089f0153"
+      }
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-progress.jsonl",
+      "bytes": 95378,
+      "sha256": "a3cf92a2c300c7efab4647b69c461798255bb4594f70c14b12b4780c5db0a816"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-report.json",
+      "bytes": 4754,
+      "sha256": "95113bdb3e04e373fedb69b060b7dff553adb1ac84f42b5cbac5875dc9dd6bde"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-runtime.json",
+      "bytes": 311,
+      "sha256": "4d57fcde7af43357e66fb10388e805ed01a78a0767030db268bc1c1f42fbfd02"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-root-gap001-actual-body01-completion-receipt.json",
+      "bytes": 267,
+      "sha256": "d94b893faf9504750377a8e3b1ff4ede23c8f75044994f8112765d19cc263ba0"
+    }
+  ],
+  "reproducible_local_intermediate_states": [],
+  "completion": {
+    "session_id": 75806,
+    "completion_chunk": "579fb2",
+    "actual_exit_code": 0,
+    "seconds": 190.02820109699996,
+    "scope": "Actual fixed-material position ODE geometry from completed .001 finite prefix; samples only, no continuous certificate or nonlinear tail"
+  }
+}

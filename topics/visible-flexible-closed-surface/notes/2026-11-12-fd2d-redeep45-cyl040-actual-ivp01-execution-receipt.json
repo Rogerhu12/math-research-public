@@ -1,0 +1,76 @@
+{
+  "schema": "fd2d-observed-physical-prefix-ivp-exit-v1",
+  "observed_utc": "2026-11-12T11:35:47.891772+00:00",
+  "git_head_when_receipt_written": "db44cc3e389449a315850f397cc65d32dcc1ea76",
+  "rules_read_sha": "db44cc3e389449a315850f397cc65d32dcc1ea76",
+  "session_id": 84379,
+  "launch_chunk": "b5f9f8",
+  "completion_chunk": "991ee1",
+  "actual_exit_code": 0,
+  "reported_seconds": 151.8989804590001,
+  "candidate": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-geometry-redeep45-recovery01-cyl040-candidate.json",
+    "bytes": 35378,
+    "sha256": "4ac49af76c08e9a89a0b8ddb3949082fad9f29ab4e2cbc9cc31daa1417d445e1"
+  },
+  "source": {
+    "path": "/workspace/scratch/fd2d-recovered-20261112/math-research/topics/visible-flexible-closed-surface/scripts/fd2d-flat-prefix-balanced-ivp-physical-recovery.py",
+    "bytes": 10953,
+    "sha256": "4299b1a0f7ae2819b4b10190cde4e8736082b77a147301932b0b8c116ba27824"
+  },
+  "physical_T": 0.04,
+  "physical_coordinate": "meridian s; fixed balanced normal phi / material u=U_seed(phi)",
+  "last_saved_accepted_s": 0.7090484941826793,
+  "saved_nodes": 355,
+  "guard": {
+    "segment": 70,
+    "diagnostic": {
+      "s": 0.7095571389513452,
+      "a": 1.038055815397487,
+      "ap": 0.20363434278480175,
+      "app": -1.9726498212487247,
+      "K": 1.9003311690839741,
+      "metric": 4.0873074373721005e-10,
+      "E_error": 3.2513054748495307e-15,
+      "F_error": 4.0801972092400127e-10,
+      "G_error": 3.7839665005968276e-10,
+      "actual_curvature": 7.155306920800504,
+      "minimum_n": 0.26558345995749033,
+      "orthogonality": 3.975877786721593e-15,
+      "curve_frame_defect": 3.722100641568987e-08,
+      "projection_defect": 0.011582037321937293,
+      "maximum_abs_y": 0.5997942359797027,
+      "maximum_abs_z": 0.709392664259823,
+      "maximum_radius": 1.580859191744065,
+      "held_distance": 1.0507349497928267
+    },
+    "reasons": [
+      "discarded_finite_rhs_pollution"
+    ]
+  },
+  "reached_requested_stop": false,
+  "initializer_only": true,
+  "scope": "New candidate was actually integrated. Guard state is separate and is not accepted as the closed initializer. Natural process exit zero is not BVP success.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-fd2d-redeep45-cyl040-actual-ivp01-report.json",
+      "bytes": 320067,
+      "sha256": "7f21891833b0b0016b7861ca48a087b8ce69bc3cd045ed43baaea2a2e0279fc6"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-redeep45-cyl040-actual-ivp01-trajectory.npz.gz",
+      "bytes": 1375896,
+      "sha256": "185e1fac5627f5eb1607b2309b5d4f04f3c24cd5448893a99650e7020b3b5ea5"
+    },
+    {
+      "path": "notes/2026-11-12-fd2d-redeep45-cyl040-actual-ivp01-guard-state.npz",
+      "bytes": 35204,
+      "sha256": "c0ab7edeeee656ad2280e984511472fa7e239f48d215bb6896e46d5aaf428ce3"
+    },
+    {
+      "path": "scripts/fd2d-flat-prefix-balanced-ivp-physical-recovery.py",
+      "bytes": 10953,
+      "sha256": "4299b1a0f7ae2819b4b10190cde4e8736082b77a147301932b0b8c116ba27824"
+    }
+  ]
+}
