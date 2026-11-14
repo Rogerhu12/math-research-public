@@ -1,8 +1,8 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "863c186c51f1fbd41f09b0b17e665b7bccff73a2",
-  "createdUtc": "2026-11-14 20:51:34 UTC",
-  "message": "ISP: identify the original kernel projection as the strong limit of true finite-head inverse Grams",
+  "parentCommit": "4f6291c5d7b2085c2d352370d30c409be5fca2fe",
+  "createdUtc": "2026-11-14 20:54:29 UTC",
+  "message": "ISP: recover exact ninth-first result artifacts and retry only original publication",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -14,12 +14,18 @@
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-git-sync-checks-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-api-rule-checks-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639511570-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639511570-789f.log",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639719027-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639719027-789f.log",
     "topics/invariant-subspace-problem/notes/2026-11-14-executor-recovery-pull-request-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-handoff-before-moving-head-projections-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-account-budget-789f.json",
+    ".github/workflows/invariant-subspace-r150-ninth-first-publication-recovery.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-publish-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-entry-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-ninth-first-publication-recovery.yml"
+  ]
 }

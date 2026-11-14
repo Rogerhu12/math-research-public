@@ -1,0 +1,87 @@
+{
+  "format": "r150-ninth-first-publication-only-frozen-entry-v1",
+  "files": [
+    {
+      "path": ".github/workflows/invariant-subspace-r150-ninth-first-publication-recovery.yml",
+      "blob": "d9c041fe518a4a3f5947723bd6ad090e263a6ca2",
+      "bytes": 3407,
+      "sha256": "931fa74011712929ad8cb39372138cdfc47481443cf0c487da995142917641a2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-publish-789f.py",
+      "blob": "7dacdb568554e57a51ee06f648d83a77d9307c9b",
+      "bytes": 25537,
+      "sha256": "9be617d4bf2479954cdf911fe26b811426ce1e10c5ed2af7601429359ac08fef"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-prepare-789f.py",
+      "blob": "4ea765dfbff6ca95f656f7c5b16e3a5e423b9ed3",
+      "bytes": 8773,
+      "sha256": "93eeab83ddf5d31d0ceaafd9847fb150316ff9f222c968c2064bc65fe0d3f054"
+    }
+  ],
+  "requestPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-request-789f.json",
+  "exactRequestFields": {
+    "format": "r150-ninth-first-publication-recovery-request-v1",
+    "original_run_id": 43638830039,
+    "original_run_attempt": 1,
+    "original_source_commit": "eaa240d96fda143c65a8eccede55b64b87f50ef8",
+    "new_mathematical_stages": false,
+    "original_result_directory": "topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1",
+    "source_sha256": {
+      ".github/workflows/invariant-subspace-r150-ninth-first-publication-recovery.yml": "931fa74011712929ad8cb39372138cdfc47481443cf0c487da995142917641a2",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-publish-789f.py": "9be617d4bf2479954cdf911fe26b811426ce1e10c5ed2af7601429359ac08fef",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-prepare-789f.py": "93eeab83ddf5d31d0ceaafd9847fb150316ff9f222c968c2064bc65fe0d3f054"
+    }
+  },
+  "rootMustAddCurrentTwoRulesSHA256": true,
+  "workflowDispatchBody": {
+    "ref": "main"
+  },
+  "workflowInputsRequired": false,
+  "originalMathRun": 43638830039,
+  "newMathematicalStagesExecuted": false,
+  "actualOldPushErrorNotYetRead": true,
+  "preparePrintsActualLastPushBeforeAnyGitWrite": true,
+  "originalArtifacts": [
+    {
+      "scope": "results",
+      "id": 14130438457,
+      "zipBytes": 32103220,
+      "zipSHA256": "3314b864fd4cb6bf474b4ab934f8cbe062414fd3e31c8ec63f34c00a801592b0"
+    },
+    {
+      "scope": "recovery",
+      "id": 14130842468,
+      "zipBytes": 32846922,
+      "zipSHA256": "5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855"
+    },
+    {
+      "scope": "prior-publication",
+      "id": 14131112175,
+      "zipBytes": 7763,
+      "zipSHA256": "3841572883147dff2de87086e68c6c261c5e072ab5904dbf0081e982d465ebe7"
+    }
+  ],
+  "publishedScope": "topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1",
+  "separateRecoveryRunRecorded": "publicationRecoveryRunId/Attempt/SourceCommit in original result provenance and distinct recovery artifact; mathematical run/source remain unchanged",
+  "retryClasses": [
+    "non-fast-forward",
+    "stale-main-ref",
+    "transient-transport"
+  ],
+  "explicitStaleRefPhrases": [
+    "[remote rejected] plus failed to update ref",
+    "cannot lock ref plus is at plus expected"
+  ],
+  "noRetryLimit": true,
+  "noForcePush": true,
+  "permissionOrProtectedBranchErrorsNotRetried": true,
+  "actualPullAndTwoReadmeDiffBeforeEveryRetry": true,
+  "uncertainNetworkPushChecksCompleteMainBytesBeforeRetry": true,
+  "originalAllFortyRecoveryFilesPreserved": true,
+  "rootOwnsSharedResearchIndices": true,
+  "localPythonASTExecuted": false,
+  "localWorkflowParsed": false,
+  "numericalTaskTriggered": false
+}
