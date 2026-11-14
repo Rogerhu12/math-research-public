@@ -141,3 +141,7 @@
 ### R133 补充：精确repair全频正根collar实际完成
 
 **已证明。** [实际全频结果](results/R133-supplement-actual-exact-repair-positive-root-collar.md)消费43600926806真实23门：新mean/global reference、全部193head与无穷high反馈<1e−6；普通源/真实端口→全态1/12000、1/100，两端迹1/36、9/2。只δ=0，实际负区兼容、外侧body/regular及δ96/root反射继续。
+
+### R133 补充：精确repair完整regular外图实际完成
+
+**已证明。** [实际25门结果](results/R133-supplement-actual-exact-repair-complete-regular-outer-graph.md)由43601149891给真实新外graph：全高端口反馈<.000022100488421，低96到高<.000023400517152；完整物理无限尾、Hs/Hilbert/mean及独立高度/Robin/mean列均保。与新global reference准确同一pR，主体s=1右high仍独立。
