@@ -52,6 +52,8 @@ R62/R65的理想互反bulk仍有非零纯第四漂移，不能忽略真实桥。
 
    [R113](results/R113-full-m8-tail-response-dimension-bounds-and-orbit-coupling.md)已付完整E8×W36纯m8响应的46维上界/四块22维上界；单R110方向平移四块像仅4维，其他r层被D25四查询准确耦合。新fullm8消费器必须保全部原输出，不能预删违反结构界的项；基准U4未被限制到这些响应的54/29行。[R115](results/R115-static-local-fourth-top-weight-payment-and-unresolved-next-block.md)记录local actual43645177423已导出36W及完整局部静态密度，最高仿射权+2一项原式可付，+1两项未决；主报告超过95KB而output_limit，不是数学非成员。R114已用20常态正锥、八个有理基准、真实整数圈/连接IFT补上此约束门；配平值非零才可导出实际有限成本非零，单个形式余项不够。[R117](results/R117-static-weight-one-reduction-and-reciprocal-costs.md)进一步将完整权+1约束商化为h(k³−k)G；不再重复已有206项NF。[R118](results/R118-static-G-exact-separation-and-nonzero-fourth-cost-quotient.md)的actual43647225907已给真有理7/8非零子式，证明G∉R8、U4/R8非零、dimU4≥32。k2/−1/2正整数互反圈及反号对的leading/桥/IVT已激活单个额外查询任意支付；下一支付它与旧R8查询的联调及完整商，不能从单查询直接声称31+1共同可达。后继直接读完整gzip，先按[R114](results/R114-constrained-static-costs-and-real-zero-matrix-words.md)处理M0约束的8个m0几何函数，再判断受约束积分成本。
 
+   [R119](results/R119-positive-static-cone-and-linear-multipliers.md)已给静态正锥的准确乘子门：所有正配平静态成本非负恰有固定八矩μ使λL0−μm0≥0；完整真实成本正泛函须先杀R8再满足此门。该门对完整路径仅必要，导数权2/4、全部桥成本及非零泛函存在仍未付。继续检验新增G方向在真实闭锥中的地位与中央补偿后的联合查询，不把闭锥当实际半群。
+
 4. 得完整第四后继续高阶/收敛/有限族与宏观几何；本题完成标准不接受阶数截断或只靠N压低缺陷。
 
 旧不交profile、普通双简单有限幂外尾及明确窄packet类已被R29/R34/R35/R49/R50排除；保留其准确范围，不重复同类预算。全平/退化外尾与其他真实几何仍可研究。

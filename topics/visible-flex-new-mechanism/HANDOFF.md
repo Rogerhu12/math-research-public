@@ -1,10 +1,10 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/Actions/日志，mechanism几何，literature成本商，tail_cost原式尾投影与联调。完整证据见[结果](results.md)、[open](open.md)、notes与git历史。
+**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/Actions/日志，mechanism几何，literature成本商，tail_cost原式尾投影与联调。证据见[结果](results.md)、[open](open.md)与notes。
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`8093d86a4d39b31d6eb0bdc9a064711cea4831c4`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`443da14dcb99c151c2ad385b74870ce203c653c8`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:02:43 UTC在公开Actions实际partial clone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅公开元数据；下一私有pull不晚23:01 UTC。回执在actions-43645929555-1-full_m8_tail_response_projection。
 
@@ -53,7 +53,7 @@ R110 K=B_t1τ_p1t1完整8项尾D25=−153664c7/75；R111平移d0/1/2/3的四奇�
 
 ## 6. 持续推进
 
-1. 直接登记R119静态非负锥的八矩乘子充要门（对完整真实路径仅必要），再推进R120真实成本闭锥的G lineality与R121中央补偿后的联调；未读完整证明前不提前报结论。
+1. R119已付静态非负锥的八矩乘子充要门：正配平成本非负恰∃μ使λL0−μm0≥0。对完整真实路径只必要，λ须杀R8；ambient extension差由矩阵乘子吸收，尚无非零完整正泛函。继续R120真实成本闭锥与R121中央补偿联调，未完成不提前报结论。
 2. tail_cost新静态pure m8 consumer已备，只消费local430根和R116完整尾证书，检查G投影及受约束局部尾商，不重算288列。新源码公开py_compile→toy→actual；完整残差gz/紧凑main。
 3. mechanism实现池先恢复可行的策略；保持原旧源码与失败事实，新的同g/e407/learned3866消费者单独保存并跑新人工→actual。
 4. continuation最多两并行lane。所有新输入有SHA/原run/source绑定，publisher真实pull核规则、gzip后<5MB、终端NFF循环。23:01前再次真实私有pull/QUEUE核对，不重算已成研究仅为sync。

@@ -239,3 +239,5 @@
 - [R116：完整m8纯尾秩31、四块15与真实有限查询支付](results/R116-full-m8-tail-response-rank-and-finite-query-control.md) — actual43646543691消费完整W原式与R110一列，新算287列；全部288有理多项式/257依赖给投影秩31，四块15，低degree25–30满层。C6连续光滑化把投影独立升级真实dimR8≥31，R96/R102保共同I/同合法圆和v/E基准支付31查询。四块另选15尾查询包含D25四奇行，真实桥/Brouwer/闭合同时保整个D25为零再付11行；未认基准属于响应像或完整尾已零。
 
 - [R118：G的精确有理分离与真实第四成本商非零](results/R118-static-G-exact-separation-and-nonzero-fourth-cost-quotient.md) — actual43647225907用完整两mode原式和7控制列，合法分母的模素数非零7/8子式定义真Q-Cramer分离泛函；控制秩7、加G秩8，G不属真R8。R114/R117实际正配平圈与桥成本把它升级成R8严格包含于U4，dimU4≥dimR8+1≥32；激活一个额外权一查询的真实任意支付。结束U4=R8路线；未冒31+1联合支付、完整成本锥或所有profile不可解。
+
+- [R119：正配平静态成本的线性乘子门与真实成本锥边界](results/R119-positive-static-cone-and-linear-multipliers.md) — 20态正锥E8给任意矩阵成本下包络有限次线性，Hahn–Banach推出全部正配平静态成本非负当且仅当存在固定8维μ使λL0(S)−μm0(S)≥0。无需最小值取得或像锥闭性。对全部真实MT0成本非负的λ，R102先迫其杀R8，R114使静态门必要；局部ambient extension差准确由矩阵乘子吸收。未授全部路径的充分性，几何导数权2/4及桥仍须支付，未构造非零完整正泛函。
