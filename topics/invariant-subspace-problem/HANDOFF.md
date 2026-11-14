@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 3084156728fed32eb2bb5c2f481858341489bc31（2026-11-14 22:12:12 UTC，Actions run43646791028实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43646791028-1.json。
+- **最近成功实际 pull 与已读规则提交：** 471d52a85a9d2eefa282cc435c8ebbfcd09f54d6（2026-11-14 22:20:49 UTC，Actions run43647553055实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43647553055-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -16,7 +16,7 @@
 
 ## R150：原整数来源、实际结果和正在准备的五列
 
-原primitive 11N＋6Γ、6188来源/4367输出，char0及F31(s)泛秩4354；h0度24且mod31=25h31，H0=(s−2)h0不同。原整数任意次数mod31²障碍不排31分母来源。rank_Q A87≥226091只是下界；仿射315、原1834核和射影/∞预算边界保完整H。
+原primitive 11N＋6Γ、6188来源/4367输出，char0及F31(s)泛秩4354；h0度24且mod31=25h31，H0=(s−2)h0不同。原整数任意次数mod31²障碍不排31分母来源。rank_Q A87≥226092只是下界；仿射315、原1834核和射影/∞预算边界保完整H。
 
 - F9的九个实际除列b_i=Aκ_i/p^e_i，e=(1,1,2,2,2,2,2,3,4)，p=31。U9是九维真实不变像。P9∞固定自然族九目标全部预算已排，原carry由完整β_A支付；不排图外原有理来源。若该族有解的分母门槛仍只是该族条件结论。
 - [九目标原p5](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：run43634830833的AX=p²h0 modp5全部原17成功/cost87，相关第二rank1/7004，64恢复/14cache已保。有限模不代char0。
@@ -25,7 +25,7 @@
 - **[η8实绩](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)：** run43644262244/job132598400950，源05d80c9b、数据0ab29a88；数学68.417425751秒，新q/H5 cost88，232133原整数输出坐标p5整除零失败。d8本身∈U9，相关Krylov rank0。九目标在保持当前F9模p及Λ2的全部允许修正下仍阻；没有正证书，空真验证不得冒称正结论。
 - 九raw列秩9、生成模13维且ann=(s−1)(s−2)^3；模U9后列秩和生成模均4、ann=s−2，故U9包含于原raw模。四维是实际目标商，非来源覆盖许可。η8全部37恢复16174596B=18binary+19text、8cache，逐清单对齐零缺项；artifact14132489956且全部原字节已main。
 - **[低初值第三归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)：** 三位允许核依次η1…7、再η8、再η9；原recipe连canonical carry给η3及η4−18η3在Λ2内精确F9核。新第三仅7001/7002/7005/7006/7007五列，完整必要族仍另保旧198第三；相关第二零不代全局第二零。
-- **[五列连续入口](notes/2026-11-14-r150-five-third-interface-789f.md)已启动run43646683083/job132605949988：** 源ad9a3531bd6ad5c6fe47f1eab3ffe7f0eab46a81；既有root实际pull/push后HTTP204 dispatch一次。7文件manifest/六旧包50输入锁定，AST及源码SHA已实际通过，正在恢复；编译和数学待回执。标签9301/9302/9305/9306/9307、同模p6、κ9常数补偿、25维必要商；每个正目标全315回补U9及原17乘回。RHS≤522/来源≤618，共享300秒/512MiB、六编译各30秒，全部真数组/cache保全。五列不足后继续旧198第三，不重旧η8或九余。
+- **[五列第三实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)：** run43646683083/job132605949988，源ad9a3531、数据ca194cce；数学73.661900632秒，q/H5 costs[86,87,87,88,87]，五原乘回p5整除全过。25维相关商像rank1、ann=s−2、基9305，九当前目标均不相容；仅五列不足，旧198第三未覆盖。未投影五列不全在2-primary，不能称全315像一维。新真b10=AH5_9305/p5成本87且不在U9，故rank_Q A87≥226092（B≥87公式R_B+10）；非精确秩/Smith值。37恢复31819615B、18binary/19text/8cache全main，artifact14134247079；根清单交叉零缺项，不重数学。下一只读联合秩及旧198局部q2/真实carry，仍须全原式正分支。
 
 ## 实际边界：同一原源与已付预算
 
