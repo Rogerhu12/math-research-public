@@ -167,3 +167,7 @@
 ### 全出生真实核的零占据重构：仅含原头的q无关费用
 
 [完整闭域证明](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：平方自由真核嵌入完整Fock后，集体占据递推给v=Σ_(j<d)(−A)^j(a0*)^jP0v/(S^(j/2)j!)及精确正范数和，实际零占据像Z_A闭。原N/Y物理头的真实carry四次界给C_m≤(k0+e)exp[k0T_m+3T_m^(4/3)]，logC_m=O(m logm)，不依出生/总孔。真左前缀同源Γ=Y*H_A Y及Γ/C≤Ξ≤Γ、逆序双边界均成；没有调用Jordan全条件数。未来bare商的高返回和实际Z_q^-1来源仍须接，不扩大Z_A为整个横向Fock。
+
+### 原左加bare联合图的完整一位度量、源与Schur
+
+[完整证明](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)对每个短旗给新商度量diag((I+a²R_hR_h*)⁻¹,I)，真实下降交叉为aA_h；大R桥在同一商度量内有精确抵消。接合q/q−1两切口后，可行列Khat保物理顶边与未来改坐标，完整联合Gram、上源Schur及实际边界B_a给(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔s的增量及全部高孔反馈的新left+bare能量≤a²c_s²，不把它改成旧欧氏源界。普通完整右G/flat与真实moving-source仍开，域按实际最小能量闭形式保留。

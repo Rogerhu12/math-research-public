@@ -161,7 +161,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **原连续尾与真实graph。** [宽窗相位](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)已付原偶段Q≤x的完整中央源Φ≤25exp(80Q²/x)，任意c平方根窗另有统一κ_c。原s≈q/x≈m不直接满足窗；[完整换权](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)保左/普通右/裸商及flat=L̃G̃L̃，[真primitive平移](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)排统一范数免费搬运。D,D*共同不可约不排普通不变空间。真实t_q、同源Γ/flat抵消仍开。
 
-**真head-graph加位。** [完整左Schur](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)保Γ_q/Γ_(q−1)、顶边R及旧全核Π；余项是真(A+D)一次MP费。固定低孔s的增量及全部高孔最小反馈≤a²c_s²||y||²，不依大头d/截止q。下一必须把未来bare商、普通右G/flat及真Z_q^-1后的来源共同接上，不把固定低孔界当moving birth已付。
+**真left+bare一位接合。** [完整joined Gram/Schur](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)已付所有短旗商真实度量、两切口、额外交叉A_h、可行列Khat和实际边界B_a，精确(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔的增量与反馈新left+bare能量≤a²c_s²；下一同源接普通右G/flat、实际Z_q^-1与原负图，不以旧欧氏源或任意bare类替代。
 
 **R150最新实际来源与下一完整初值。** [七关系run](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)给A+完整β秩1，七固定初值障碍；[pair实际成功](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已付j6/9的原31h0模31⁴/cost87。九raw全315最小ann(s−1)(s−2)²，商U8后剩七列为一维s−2。全部结果/来源/阶段cache均已入主线，不重已成七列或两正列。
 
