@@ -413,3 +413,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R588：原wild Kummer圆盘上的七积分独立与全非线性半径障碍](results/R588-actual-wild-kummer-disc-and-nonlinear-primitive-radius.md)：实际degree-p域包含完整sigma与基础theta来源，边界no-pole、全部积分常数及特征六投影给七塔代数独立；任何真正含塔的原多项式乘任意整数Gaussian仍准确坏半径且闭边界非Tate。允许任意次数及依p系数，不把域投影或解析限制代原饱和格/中央。
 
 - [R590：原六支carry、唯一B来源与完整七纤维矩](results/R590-original-six-carry-branches-and-sole-b-fibre.md)：完整even42/1638和全部半特征支付六支原q，完整π4/算术行保持；μ6只留B并将同一全部mixed测试化为五变量来源的七个真实同coset矩。原Dn零质量/单位首项不移给投影源，旧P3只在完整分区抵消，八条带及全部深补项继续保留。
+
+- [R591：两原惰性首forcing的同参数系数与准确首共振](results/R591-original-inert-forcing-in-one-parameter-and-exact-resonance.md)：同一个K=(σ/u)6和显示单位分母递推准确读取原c4/c1为KC、KH³的同次系数；完整留数Jacobian及b尺度保持。末两系数行列式2/7与下一Gaussian共振单位均付，但没有把自由矩阵或不同指标单位当两目标非零。

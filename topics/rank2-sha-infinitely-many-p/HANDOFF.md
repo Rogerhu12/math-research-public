@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8efadbda14ed483c3393227d62bed4d3dea89087；2026-11-14 21:29:49 UTC 实际git pull --rebase完成后比较根/课题README，无变。
+- 最近已读规则提交：822ad01b9f3be04abe1f1aaa4769d154a61150ad；2026-11-14 21:33:04 UTC 实际git pull --rebase完成后比较根/课题README，无变。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:05恢复后实际pull成功，后续均终端git。21:22实际再pull；最迟22:22重拉。
@@ -15,8 +15,8 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–590已登记；R364仍开，R561/591/592/593/594进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r588.md)、[open](notes/2026-11-14-open-before-r585.md)；
+R1–363、R365–560、R562–591已登记；R364仍开，R561/592/593/594/595进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r591.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写本编号新proof/script/data。执行环境恢复时代理中断，已明确唤醒继续。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；代理只写本编号新proof/script/data。执�
 - theta续R594原五变量W_n与原中央/负矩比较；R590六支whole42/1638、唯一B来源和七真实纤维矩已付，Dn局部量词仍保原ρ0。
 - literature续R592原p²目标中c4/c1整项及原算术关系；R589首极部读不到它们。
 - deep续R593原Dψ指定forcing/同R高延拓和真d2，R561仍开；R588非线性Kummer障碍已付。
-- root续R591惰性原c4/c1的同参数系数与真实Cartier比较，不预支非零；最新文献假设继续精确核对。
+- root续R595真正S34/T72原对角与同参数/原算术比较；R591两指定首forcing的KC/KH³准确系数已付，未赋非零。
 
 ## 固定曲线、普通规范与不可删的旧支线
 
@@ -125,15 +125,10 @@ R577/578在ell1/2、r=ν≤2给同预算Euler临界P和原三jet：
 固定Rbd、全部同R高延拓/26carry/U0和r1ν2外支保留；
 pp(α/(aB))及次值−½pp(α²/(a²B))不代真d2非零。
 
-R580同charge原塔的非中央Stokes单位行/全谱分离保前检。
-R588用原E=exp(cz^(p+1))建立每个闭S≤R≤ρ上的真实degree-p Kummer域K_R，
-S=p^-p/(p²−1)，ρ=p^-1/(2p)；E^p为Tate单位、E闭S非Tate。
-边界no-pole、μ6分组保全部积分常数、μp特征6和无新常数，
-给七积分/七塔在K_R上代数独立。
-任意真正含塔的原多项式，系数可依p、次数任意，乘任意整数Gaussian仍准确半径S且闭S非Tate。
-这是非线性限制；域上1/p投影不是整格算子，不给Smith/主成本最优/指定中央非零。
-继续原Dψ、同R高尾及全算术缺口。
+R580/588的完整非中央Stokes与实际degree-p Kummer域保前检/正文：所有闭S≤R≤ρ，七塔在包含完整sigma及S/T/S136的K_R上独立；任意真正含塔的原多项式、任意依p系数/次数和整数Gaussian仍准确半径S=p^-p/(p²−1)、闭S非Tate。边界no-pole/所有积分常数均付；域上1/p投影不变整格，不给Smith、主成本最优或中央非零。原Dψ/同R高尾继续。
 
 R590原q6=(q3+q3∘rC)/2，负三支用完整even42/1638，现ray不增条件。μ6C平均给B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42；原全部C不动测试准确回同一五变量权W_n(F,G)，仅七个B同coset矩b_n,s(F)，保所有a_kjl/u_j/log/cut/κ逆。π4*(W_nνflat)=βnπ4*νflat，不能加强全源相等；R585八条带和四单深−3共同深全在该来源，旧P3只在完整分区相消。原ρ0/Dn中q6=q1/6、零质量及v=n仍在，但B源同Dn是六个原像之和，不赋非零。
 
 [2026新文献条件核对](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：Banwait 3.8保逐p二次系数单位前提；Agboola 6.1/11.1/11.3保高度与受限秩条件，11.4负根p进导数仍期望。未新增无穷非消失输入。
+
+R591令u=x^-1/2,t=bu6,C=(1+t)^−1/2、H=ΣC_n/(6n+1)t^n、K=(σ(z(u))/u)^6，Q=1+tK′/K满足6t(1+t)Q′+(2t−1)Q+1=0。q_n=−(6n−4)/(6n−1)qprev，n k_n=Σq_j k_(n−j)。全部n<s单位分母，原c4=b^(s−1)[t^(s−1)]KC、c1=b^(s−1)[...]KH³ modp；末两k矩阵det2/7但k非自由。q_(s−1)=−h_p/3及p k_s=−6h_p是下一共振单位，不替代两目标。
