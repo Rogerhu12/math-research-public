@@ -8,7 +8,48 @@
   "workflow_commit": "02864c481444e2aeb92d7b5b60f79a951f61d2ba",
   "worker_source_sha256": "b3171bd781313d436237a492ec7ef0690eff7a9b0738850db181a2a869900f61",
   "started_utc": "2026-11-14T20:05:00.088752+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_same_Z_native_point_Hessian_cut_and_positive_profile_reweight",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-native-point-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_native_point_Hessian_cached_Green.py",
+        "--out",
+        "/__w/_temp/visible-exact-native-point-Green-output/native/complete-same-Z-native-point-Hessian-cut-and-Green.json.gz",
+        "--green-run",
+        "43616648792",
+        "--cut-run",
+        "43615251195",
+        "--hessian-run",
+        "43635264409",
+        "--quarter-run",
+        "43626024582",
+        "--same-z-green",
+        "/__w/_temp/visible-exact-native-point-Green-original/native/complete-finite193-same-Z-known-source-Green.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-native-point-Green-original/process.json",
+        "--cut-source",
+        "/__w/_temp/visible-exact-native-point-Green-cut/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--cut-process",
+        "/__w/_temp/visible-exact-native-point-Green-cut/process.json",
+        "--particular-hessian",
+        "/__w/_temp/visible-exact-native-point-Green-Hessian/native/complete-missing-native-point-Hessian.json.gz",
+        "--hessian-process",
+        "/__w/_temp/visible-exact-native-point-Green-Hessian/process.json",
+        "--quarter",
+        "/__w/_temp/visible-exact-native-point-Green-physical/visible-exact-quarter-inlet-recovery-finish-43626024582-1/native/complete1977-fixed-eta-quarter-cap-sources.json.gz",
+        "--quarter-process",
+        "/__w/_temp/visible-exact-native-point-Green-physical/visible-exact-quarter-inlet-recovery-finish-43626024582-1/process.json",
+        "--cut",
+        "/__w/_temp/visible-exact-native-point-Green-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T20:05:02.696981+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000706131000001,
+      "finished_utc": "2026-11-14T20:05:12.698069+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T20:05:00.408202+00:00",
@@ -25,9 +66,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T20:05:12.995212+00:00",
+      "before": "2cf6d3d334cf30a506cc9b2ce0f060053a0422b0",
+      "after": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T20:05:02.694764+00:00",
+      "final": false,
+      "commit": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -60,7 +115,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "2cf6d3d334cf30a506cc9b2ce0f060053a0422b0",
+  "last_read_commit": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-native-point-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -73,8 +128,8 @@
     "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T20:05:01.231563+00:00",
-  "wall_seconds": 1.1434854350000023,
+  "snapshot_utc": "2026-11-14T20:05:13.057962+00:00",
+  "wall_seconds": 12.969886321000004,
   "native_files": [
     {
       "logical_file": "evidence/original-cut-process.json",
@@ -99,6 +154,12 @@
       "file": "evidence/original-quarter-process.json",
       "bytes": 16508,
       "sha256": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a"
+    },
+    {
+      "logical_file": "native/complete-same-Z-native-point-Hessian-cut-and-Green.json.gz",
+      "file": "native/complete-same-Z-native-point-Hessian-cut-and-Green.json.gz",
+      "bytes": 3996581,
+      "sha256": "7fcd5bec6763cb8ed84f7440fee568b2ec70adf804b610dd6cd368460a84ed66"
     }
   ]
 }
