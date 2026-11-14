@@ -92,6 +92,10 @@
 
 取得本场H真实原生响应后，仍须原完整outer/inner、RMS1e−6、BC1e−11、native原容差和fresh audit全部过。非零跨进程缓存不能冒同live predictor。R257有限恒速平面Fourier只能为圆，重参数化需完整analytic lift及core响应；R259小核心共振/条件IFT备选接口已冻未调度，简单缩初猜不能消除设计核。
 
+已冻结[同live多请求合同](notes/2026-11-14-current576-live-client-multirequest-extension-contract.md)和[逐请求snapshot/QR合同](notes/2026-11-14-live-current576-per-request-adapter-interface.md)：clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82，四独立源码不改61。实际completed61的literal JSON状态只作初猜（不声称序列化前负零可见），bootstrap真求解后同一原worker继续当前H/J、原FD、完整fullDN与fresh audit。每call当前H/target/sigma全绑定、全部原32轮/十trial/容差和因子保；不把32GiB单call预算冒总fullDN预算。现仅源码/AST/Node及可逆字符串变换通过；新薄driver/workflow待实际61结果。
+
+19专用[只读原件接口](notes/2026-11-14-completed-nineteen-prefix-readback-interface.md)及readerc963f6a9已保存，typed查询明示mid480索引16/481与482为17/18，不沿旧flat行号；实际64尚在运行，不冒已读其产物。
+
 ## 2. 同一接受场的闭合、固定g和全t精化
 
 完整联解接受后保存全部physical/constant与本场真实尾，核core/球排除、完整材料cut角差/mean/九jet、唯一SE2与高度偏移，完成R249有限C²入口修补、上下尾及固定帽。新场已有z0，不加旧A mean。有限φ一般有无限θ谱，有限DFT同值不能冒连续接缝为零；R239仍需实际分支/turning number/全jet。

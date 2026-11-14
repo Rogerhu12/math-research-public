@@ -32,16 +32,15 @@ Saved row155819 b=-1.4151317154400291; recovery Az=.00025747182097217506, select
 
 ## Native: actual59 selected;61 complete original continuation
 
-59 run43640772654/source c61725631d20191bd5e02054cefa41cc1af5f245. Artifact14132106883/368592441B/ZIPe8f4862114772a627ddea61b24be3bd50cc6f9c306e71e90010e324511e36a74. Old59 /tmp cache lost at recovery; prior1154 factor/constant files464891392B had already been audited/evicted with receipt80bab25b. Public selected/trial/delta/ledger/input remain in original artifact and published bounded outputs.
-QR/trial notes + complete byte audits published5f100d24/0e10480d. New576 exact9.686175843129587936e-11 vs57restriction .041773078207401970; gradient24888563.660 diagnostic, not gate.
-Original alpha1 accepted norm .04177307820740199 -> .0001289424025918576. OnefreshnoJ/0newbaseline/J/guard/observererror;118878changed words across577nodes,31zeros/8negative. Worststage11/raw0seg7/Pi76/row2763. Still>original2e-9;finalJ/audit uncomputed; one-step native=false.
-SELECTED notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial/:
-- selected-state-checkpoint.json.gz1255992B SHA7659016c0218b8c2e9ba220ca81a0b410b7e38005ea609e417b9b534d76c3556;
-- selected-state.f64le.gz954571B SHA8ade070f746caed9a45c582c7485a060e55ee589858f5f88255d8ffd0d9112cb;
-- raw1033984B/[577,224] SHA384de298d6274ef7a6f5bdbc4e6cf6ef9dee5fb9bffd020b7b60001463940e03. Preserve every word/negativezero; no cut projection.
+59 run43640772654/sourcec61725631: alpha1 originalnorm .04177307820740199->.0001289424025918576 accepted but still>2e-9, no finalJ/audit. Complete577 selected/raw13parent pins are in request61 and actual59 formal notes; all original byte audits1183files/1170arrays/two129248-row ledgers complete. No rerun/audit gate.
 61 frozen adapter695c2a56/QRac04842b/launcher06b8c44c/hook0933ee81, all source/diffs and2interfaces read. 61 run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663 now in original complete solve.14sources/13parents/AST/Node/storage/78restore passed. Helper3b8b6dd5/32654B actually pulled/pushed H22:02:58, readc383317e;45min sync active. No native result yet. Actual61 readback source79130024 ready; original artifact pin awaits completion.
-actual59selected -> freshwithJ EACH correction -> complete576 R273eta1 -> original10noJ/guards/strictnorm -> original2e-9/32iterations/finalJ/fresh audit. Only unique nonlinear correction call replaced; finalaudit/sensitivity don't call correction. No28cache/relabel/withJnorm=oldnoJ gate. minA/D retain original bits/class without extra finite gate;norm/mathematical arrays finite.
-Bind currentJ/r/out/end/state/target/sigma/H/far/cut;spawnSync shellfalse/filelogs;all577penalties/constants. All correction snapshots/factors retained. No new evaluate observer; no claim every noJ full array or finalbreak snapshot exported. Fixed704385296B/round before data-dependent ledger/JSON;32GiB resource preflight, original32/tolerance unchanged.13actual59inputs pinned;no28/57 scientific arrays fetched.
+actual59selected -> freshwithJ EACH correction -> all576 R273eta1 -> original10noJ/guards/strictnorm -> original2e-9/32iterations/finalJ/freshaudit. Only unique nonlinear correction call replaced. No cached28,cutprojection or extra linear/finite gate; minA/D actual bits retained. Snapshot/output binds actual J/r/state/H/target/sigma/cut/far; all577penalties/constants kept.704385296 fixed bytes/correction plus ledger/JSON;32GiB single-call preflight.
+
+## Live downstream sources frozen; execution awaits actual61
+
+Four independent sources clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82 and two complete interfaces published. Pure source roundtrip3f96cd0c/AST/Node passed; original evaluate/ten-trial/core correction-only change has literal reversal. No new scientific result.
+TailClient keeps one original worker. Only completed61 actual result +7 bound files supply literal JSON-decoded577x224 initial guess; pre-JSON negativezero preservation=false. Bootstrap actually solves anchorH/J; newH/J/FD/fullDN/finalaudit use same live predictor, no imported nonzero response cache. Every call binds own H/target/sigma/J/r/raw/negativezero sidecar and keeps all577 R273eta1 factors; onlycall1/it0 locksseed. Original32/tol/ten trials/finalJ/audit unchanged.32GiB single-call budget is NOT fullDN total. Thin live driver/workflow in implementation; actual61 result SHA not invented.
+19 original readerc963f6a9/interface635fa7d5 published; typedmid480/481/482 indices16/17/18. Original18reader unchanged; no19artifact audit yet.
 
 ## Required downstream
 
