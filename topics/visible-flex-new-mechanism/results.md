@@ -15,3 +15,5 @@
 - [R5：四个偶多项式模式的完整二阶周期条件](results/R5-four-mode-periodic-obstruction.md) — 已证明当前四维 poly4 空间中的独立三矩圆通过两完整周期条件，当且仅当 11 个几何系数全零；附 36 个精确有理行列式证书。未证明基面可实现或高阶可积。
 
 - [R6：非平面中央曲线的半转镜合与相位闭族](results/R6-nonplanar-halfturn-phase-assembly.md) — 已证明完整二 jet 的半转组装及非凸投影域的 Hausdorff 见证；公开 R44 准确鞍带满足入口对称性。所需圆领连接和完整嵌入尚未取得。
+
+- [R7：九个周期几何系数与任意有限多项式 profile](results/R7-nine-coefficients-and-polynomial-profiles.md) — 已证明额外几何恒等式将实际系数降到九个；任意有限次数、双端至少三阶消失的独立多项式三矩圆通过完整周期条件 iff 九系数全零。未排除一般全平端光滑 profile。
