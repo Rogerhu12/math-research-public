@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R556：原native混合行、真实odd37交支与完整残差](results/R556-native-mixed-carry-odd37-cores-and-complete-residual.md)：实际h(Phi1−Phi2)精确是Δ=ρ0−η在u1deep/Lunit上的同一反对称行；其总行严格返回3βn(JS′−6δJT′)，完整补域保留。原q/反射q共同支恰两Jτ=(1−τ)F−2c轴，whole odd37锚付β及固定π0≡1mod37；归一后全部事件下降五伴随，所有第一权和κ^-n保。两独有支、四Mellin边界、完整37条件矩及实际r阶log残差全付，不预支首行积分单位。
+
 - [R558：原第三来源Y−W差的准确二阶与共同无限单位ray](results/R558-third-source-exact-second-order-and-common-affine-unit-ray.md)：原同一q的真实L3行约化为固定仿射式−a3+(a3+b3)barπ0；清分母后用复绝对值与固定CRT ray严格排除π0整除，得到共同无穷p的单位性。原η未归一Y−W二次项准确为d(1+λκ)(−96−158ω)L3/(343b)，故同一Dn在全部n≥1赋值恰2n。M3、C3及完整右逆来源固定可复现，所有原中央补域仍保持。
 
 - [R557：同一carry的第三来源返回与双态零质量](results/R557-third-source-common-carry-zero-mass-and-central-rows.md)：MH=2ω(c−d)使原C/F/Dj/Ej整覆盖、半特征和全部scalar β核在η/h中保持；同一R536七行q严格保持整个π4。原Dn的所有自由x测试同时零，质量比rη=−(12+8ω)/7；三原观察在η/h各有显式单位首项与精确赋值n，η未归一Y−W首项相消给≥2n，h差仍v=n。原native uj条带非π4，完整补域仍保。
