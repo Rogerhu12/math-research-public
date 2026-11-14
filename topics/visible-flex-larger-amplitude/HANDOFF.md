@@ -15,11 +15,8 @@ clone=/workspace/scratch/e959e57ee07f/math-research-public，symlink到/home/age
 ## 原真实接受输入与已失败尝试
 
 仍用真.99：notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423节点、固定前3/释放93核，RMS5.45704e−7/BC3.47e−18；两档材料C²三归一化分量metric5.77368e−7（非operator），κ6.30138，完整核rho>.1638501198935/G≈.960000980454，**不是闭面**。
-run43582043166/free3后续.996/.9975真BVP接受，但metric4.60534e−6/8.08662e−6超标；.997875真Newton RMS1.03996e−5/condition5.995e7且回溯失败。全部62件已归档，attempt03接受、06失败，不盲增网格重跑。
-完整scalar从.99以AngleConnector/coast/原finitebridge到真实r=.3，s_end=2.271004035438285；物理含z0。原690点warm在notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz（3710347B），删的仅重复alias，manifest可重构原JSON；末点H96准确0，mean1.60408100852，maxcol=.00711059。节点/中点域过，**实际RMS域后来失败**。
-首DN run43584222071：reduced condition7.153e17、linear相对残差.57657，无接受步；SciPy插值878点RMS NaN/BC.001964。原690checkpoint未改，pending不是改进。FD Richardson7.28036e−9真过原5e−5门。R244证明圆段scalar设计核；改三个支持到非轴prefix，但未证明新rank。
-v2 prefix3支持(.05,.30)/(.35,.60)/(.65,.90)×原prefix_end，完整保存p*/supports/poly/源SHA。run43585737152/source085dcb54在真RMS预检停止：原690/新696均331坏点，1027有846，超1200预算；未到QR/SVD/tail或接受。坏点taper后turn103/coast198/bridge30，首β²−.003373，非舍入。详见两份RMS-domain-failure notes。
-R247已证coast Hermite偏差h t(1−t)(1−2t)(f−u)，中点域门精确消去，真RMS两点为±sqrt(3/7)/7；collocation残差仍h(u−f)，不是求解器看不见残差。
+run43582043166/free3的.996/.9975 BVP接受，但metric4.60534e−6/8.08662e−6失败；.997875 Newton失败。62件全归档，不盲增mesh。完整scalar由.99接AngleConnector/coast/finitebridge到r=.3、s_end=2.271004035438285，含z0。原690 warm残差.00711，节点/中点过但真RMS失败；保留原compact包，不称接受。
+run43584222071首DN reduced condition7.153e17/linear残差.57657、零接受步，后878点RMS NaN；FD真过。R244证明圆段设计核，三个支持改非轴prefix(.05,.30)/(.35,.60)/(.65,.90)×L.99。v2 run43585737152在RMS域停止：696/331坏、1027/846坏超1200；坏点均圆warm段、首beta²−.003373，未到QR/tail。R247证明coast Hermite中点消去，RMS两点系数±sqrt(3/7)/7，collocation仍非零。详见各失败note，不重跑无改因分支。
 
 ## 当前M112/T112主线
 
@@ -40,12 +37,12 @@ R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;
 A仅旧小幅闭组装：Dcloud3.9774592667、像点云比.06301463338，三mesh各<5MB/Euler2/每边2面/零退化。RK24/RK48真solve/J/audit与RK48真16+源节点/共同网格/collar/闭面已完成。默认RR f8→16二jet差.0029138，旧prefixcut metric平台4.77033e−8，未机器稳定；finitecollar1.00139e−18只原H/背景。
 R241旧A完整空间预算由run43586618658/q8真全付：33712父对/2157568子对全过，uncovered=0，77.565s；D+=3.980751407764145、K8.35、Kτ=.9994116104及标记门过，停止可选加密。连续包络仍输入，interval certificate=false。整面held包给δhold/D+≥.05388898465、H/D+≥.996873，未达.2，不移植新场。q8-complete note保存全证据。
 R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真9246小段有理见证只付共享C²四角规范形，原renderer/全接缝/δE仍未齐。R246旧.984的415片连续三分量<1e−6及浸入，直接operator只<2e−6，不付新field或R241算子门。
-旧post43 GW35件已按SHA保历史。run43586618658/gwcompat真重现二jet差.0017739032174，有理shadow同值、消费端差仅1e−17；删兼容项的Q差反升.00204906，不扩全场替换。R245给P=Q+ES/六jet与ΣE=0端点条件。run43587581882/gwvelocity也真success：B点coarse v漏1.119e−8、导数对GW a漏.00105086且z分量亦有差；速度积分变化解释E粗细差。exact接原stage28/RK48原48步及cusp点局部重放，不重解BVP或全尾，见actual-GW-three-node-velocity note。
+旧post43 GW35件已按SHA保全。R245及真gwcompat/gwvelocity说明二jet差非最后求值舍入、Q替换更坏。request09/run43588929803真stage28成功：49原RK calls/六已有节点，旧A/B/C rawSHA、mean、g完全重现；96×1024局部metric f8→16→48为1.18359e−8→1.25944e−9→1.62003e−10，κmax同7.6462465。二jet差仍敏感但不是额外机器门；封存旧A局部GW分支，不扩全场/Q。详见actual-stage28-original-RK48-local-refinement note；原450二jet差.0017739032174071579复现。
 旧Aκ8.3455143峰在prefix，旧tail≈8非新尾必要界；Gauss样点仅约3.965尺度。真W/D/K窗口及单次尾帽高度见tail-curvature-and-diameter-design-window；G/旧Dproxy不冒整面门。
 
 ## 保全及接续
 
-request05/06/07成功；08准备成功/112尾运行。request09仅stage28原RK48局部回放；coupling112已接线，待真112包成功才触发，复用prepared/FD后成功自动自身tail闭包。准备/pending非接受。
+request05/06/07/09全部成功；08准备成功/112尾运行。coupling112已接线，待真112包成功触发，复用699/FD并在接受后自动自身tail闭包。准备/pending非接受；两子线同时备冻结g精化与全t相位归约。
 旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
 
 规则同步记录：2026-11-14T11:12:22.181184+00:00 实际pull --rebase成功；双README自1031b19无变化，已读提交 308f2f6315400657154b7be3ea93846e1cfcf143。
