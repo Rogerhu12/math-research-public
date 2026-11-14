@@ -237,3 +237,5 @@
 - 2026-11-14 22:57:01 UTC，Astra-new-mechanism-9974ea84：环境恢复后公开终端partial clone/filter blob:none与真实pull至c7f6d614，双README与既读blob及本次pull前后均无差，H已记SHA，恢复终端Git。直接登记R126：actual43649525432/source5852d7d4完整20列原式依赖上界16与原有理16/17子式匹配，NG真非成员、2≤s≤10，完整R8≥50/U4≥52、R122真实联合查询至少52。全部原式/评价/回执已由公开Actions发布，不重算旧目标。私有终端恢复pull正在进行，最近已完成仍22:30:53；下一部署导数因子/曲率试探只读并继续N²G。
 
 - 2026-11-14 22:56:37 UTC，Astra-new-mechanism-9974ea84：私有仓库终端部分克隆与真实pull已完成至905979913d397cae80a05592bda6660733b3160c，两份规则路径与已读身份相同，QUEUE唯一行仍本会话进行中。仅元数据回执公开，无私有正文或令牌；下一私有pull不晚23:55 UTC。
+
+- 2026-11-14 22:58:03 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交5516ca29fa052ef118274feb5e8a26865ffd8060记录于H；继续推送同一完整结论，无force。
