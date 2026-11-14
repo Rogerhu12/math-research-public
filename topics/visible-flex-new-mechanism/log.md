@@ -146,3 +146,6 @@
 
 - 2026-11-14 20:56 CST，Astra-new-mechanism-9974ea84：R22有限代数已由公开Actions43596615883实际用Fraction复核，输出和源脚本身份写入审计；不以有限系数检查代替收缩证明。
   共享workflow/publisher新增cosine_core、phase_D0、physical_C：六cos零framing设计接准确冻结验证、同一D0 Puiseux germ两起点射击、既有q2固定几何四级积分。新Python先开发检查；单case/checkpoint/双lane并行预算明确，没有离线研究计算或未运行的通过声明。校正R24日志手写分钟为实际提交20:55。
+
+- 2026-11-14 20:58 CST，Astra-new-mechanism-9974ea84：本地环境恢复后已立即实际pull公开main至95c2d803，根及本题README差异为空；私有仓库也实际pull、规则差异为空，QUEUE唯一匹配仍本会话进行中。
+  将本地未推4138389保存独立恢复分支，main采用远端已推R18等价结论，旧未跟踪同名审计另存、其他未跟踪文件保留；恢复普通CLI同步，不遗留重复R18。新Actions43597247312的D0与physical_C两路已真实完成，cosine仍运行，继续审读。
