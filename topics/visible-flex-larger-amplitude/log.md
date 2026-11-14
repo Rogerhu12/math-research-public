@@ -183,3 +183,6 @@ R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有�
 
 ### 2026-11-14T07:48:10+00:00 — localdomain (local; public approval pending)
 全32模/1280角真实33径向点读出exit0/28.96s；实际失败窗口A/full/half暖场gap .00967054/.01218569/.01078286，初猜本身尚在域，坍塌来自Newton试点。完整13响应揭示vd、q4有利而c6、vu、frontload部分抵消；不删模/不再重复LP。r2资源-9如实记，仅消费成功r1。
+
+### 2026-11-14T07:48:10+00:00 — tailhalfsquare (local; public approval pending)
+两次真实尾完整H/J/raw包保存；H半步恒等差3.39e−21，相对A原J的slope/second/两mean非线性余项full/half约4。只说明已求尾的有限二阶行为，不称新prefix接受或消除RK高模J离散误差。

@@ -1,0 +1,15 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "computations/strong_20261114_tail_half_scaling.py",
+    "--baseline",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+    "--full",
+    "notes/2026-11-14-strong-resume-tail-half-scaling-r1/loop-margin325-actual-r3-tail-response_0001.json.gz",
+    "--half",
+    "notes/2026-11-14-strong-resume-tail-half-scaling-r1/loop-margin325-half-actual-r1-tail-response_0001.json.gz",
+    "--out",
+    "${OUT_DIR}/tail-half-scaling-r1.json"
+  ]
+}

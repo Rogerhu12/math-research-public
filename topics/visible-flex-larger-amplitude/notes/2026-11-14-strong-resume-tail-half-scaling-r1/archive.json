@@ -1,0 +1,31 @@
+{
+  "full_complete_nonlinear_tail_packets_retained": true,
+  "full_H_and_jet_J_and_raw_shooting_states_retained": true,
+  "any_new_prefix_accepted": false,
+  "packets_audit_present": false,
+  "full_flow_snapshot_sidecars_not_archived_here": true,
+  "missing_optional_snapshot_files_are_not_claimed_available": true,
+  "raw_tail_start_recompute_entry": "computations/strong_20261114_raw_tail_start_actual_bvp.py",
+  "files": [
+    {
+      "file": "loop-margin325-actual-r3-tail-response_0001.json.gz",
+      "sha256": "7aa5999455ac9555aa0378b416b5eee1a2a028ae59293e918d8da3bfc314c602",
+      "bytes": 406071
+    },
+    {
+      "file": "reproduce-plan.json",
+      "sha256": "b629694723ceb48ebf7baf77c02123d4fb91706c4e83a6d0ab42fc7e5787630c",
+      "bytes": 538
+    },
+    {
+      "file": "loop-margin325-half-actual-r1-tail-response_0001.json.gz",
+      "sha256": "33930ab7849d26e4ec942a3fbb00314e64e6a0409b197bef87ccc6684983a712",
+      "bytes": 406060
+    },
+    {
+      "file": "tail-half-scaling-r1.json",
+      "sha256": "d76166cdd3a3f96af916590fab36228db4977185be459423c383d42d2a2ee3f2",
+      "bytes": 11358
+    }
+  ]
+}
