@@ -50,4 +50,4 @@ Generic原十trial e357426a…/hook31c9bda7…保原正文/严格下降，缓存
 
 10–15全部旧QR/band/bridge无接受，不盲加点。R238–R267证明见results.md；R259备用未调度。旧A幅度.063<.2，其RK24/48、三mesh、2157568空间对及旧GW精化已付封存。43提交/geometry26/strong90/GW35已恢复，strong R6失败且raw未全迁；历史notes保全，绝不读private。
 
-规则同步记录：2026-11-14T16:52:46.090778+00:00 实际pull --rebase成功；双README自9b9d7611无变化，已读提交 d164943e64f74c5e1f8e3673cea3d5ef78a3ed3e。
+规则同步记录：2026-11-14T17:09:25.831590+00:00 实际pull --rebase成功；双README自c0e6f297无变化，已读提交 6336fd5ac8b3c443b802f2dc142e74bb39de5631。
