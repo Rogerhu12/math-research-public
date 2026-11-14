@@ -148,3 +148,7 @@ machine precision.
 Only static AST checks have been performed on these new entries at the
 time this note was written.  They are ready to consume a real accepted
 parent when one exists; no numerical refinement result is asserted here.
+
+## Physical full-state reader
+
+`geometry_20261114_same_metric_saved_prefix.py` exposes `SameMetricSavedPrefix` and the same complete material nine-jet API for genuinely accepted v4 outputs. It reconstructs the original three frozen design controls while requiring zero active scalar rows and all released core rows; it does not reinterpret an empty active parameter list as a new scalar design. Its finite physical quintic, global density certificate and source acceptance gates retain the original definitions. This separately named reader also supports the independent inlet-parity consumer without modifying the v3 reader.

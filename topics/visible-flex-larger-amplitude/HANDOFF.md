@@ -20,10 +20,11 @@ run43584222071首DN reduced condition7.153e17/linear残差.57657、零接受步�
 
 ## 当前M112/T112主线
 
-run43587375529/source42558e19真circleprobe仅2.448s、16实际区间×3查询。原RHS重放exact0；M96/N1024和2048各25/26坏，纯增N不治。M112/128/160所查48点全过；M112 circle metric6.697e−11、角二阶误差9.467e−8、非均值z RHS1.069e−7，仍有未投影高谱，**不是全网格/全域证书**。实际原始report、限制和表在circle-probe-actual-and-M112-next note。
+run43587375529真circleprobe：M96增N不治域失败，M112/128/160所查48点全过；据此选最小112，代表点并非全域证书。真实细节见circle-probe-actual-and-M112-next note。
 M112/T112/N2048继续原有限Frenet方程，原M96身份保留，仅作112初猜。v3明确base_prefix_M96/field112/tail112及原三prefix controls；453=338物理+112core+3p，左341/右112；前三core固定、4..112释放。原QR/Newton/回溯/所有门不改，不采用analytic lift或ready代理QR。
 request08/run43588155190的prepare112已真success：690+6支持点+3taper RMS插点=699，全节点/中点/两RMS域过，最小beta²=.005082723249；原col=.007110595仍初猜。prepared SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714（4220043B）；scalar原RHS exact0，完整453行FD Richardson9.517693337e−10<原5e−5。FD用明确标注ready.linearD，非真DN。note为M112-complete-preflight-and-BC-response。
-同run新tailzero112仍运行：原true_tail_client --modes112 --quadrature2048 --node-heap6144，继承RK12/audit12/depth8/tol2e−9；真338×112 J和577×224state/full audit，不复用96。真锚完成后直接fullDN：lifted_modes_full_dn.py复用699/prepared及FD，保原所有门并记录实际small-SVD/linear residual；明确freeze p*供stats，不冒旧stats错误。geometry接自己的actual fullstate/完整cut谱/真实尾/闭面，metric报component及operator。
+同run tailzero112已真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、metric9.992e−16、κ7.994254694；全338×112 J、577×224 states及raw/audit。与真实prepare配置/数学源/Node及capacity完全一致，strict bundle通过。response SHA6b4ff3e5bc11e23419242ee018b668c57f08b6dbdd791cd43d81883bf6f4960e；独立J-second相对1.524e−12，真J与ready差.035157884，不能替代。详见actual-T112-zero-anchor-and-J-audit note。
+request10仅coupling112：lifted_modes_full_dn.py复用699/FD及自己的真112初锚，直接原QR/SVD/linear/Newton/全部门，新H/最终audit仍真worker；明确freeze p*供stats，不冒旧stats错误。接受后自动自己的fullstate/完整cut谱/真实tail/原finite闭面，metric报component/operator；独立inlet规范形随后读同一actual，不重解DN。
 
 ## 尾、接缝、同g身份
 
@@ -43,7 +44,7 @@ R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真
 
 ## 保全及接续
 
-request05/06/07/09全部成功；08准备成功/112尾运行。coupling112已接线，待真112包成功触发，复用699/FD并在接受后自动自身tail闭包。准备/pending非接受；两子线同时备冻结g精化与全t相位归约。closed wrapper已修原public_asset两条绝对路径阻断；反射inlet仅报残差，literal C² parity仍须实际规范化并重付metric/κ。
+request05/06/07/08/09全成功；10开始真正coupling112，复用699/FD/真112锚并在接受后自动自身tail闭包。准备/pending非接受；v4 same_metric_saved_prefix已接后续物理API。closed wrapper已修原public_asset两条绝对路径阻断；反射inlet仅报残差，literal C² parity仍须实际规范化并重付metric/κ。
 旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
 
 规则同步记录：2026-11-14T11:26:38.523367+00:00 实际pull --rebase成功；双README自6142a36无变化，已读提交 faa795a20fce3a04de6e2a7274b27f46c7ecfc1c。

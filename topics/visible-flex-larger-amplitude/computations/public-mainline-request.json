@@ -1,8 +1,10 @@
 {
-  "request": "20261114-public-large-core-mainline-09",
+  "request": "20261114-public-large-core-mainline-10",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "stage28"
+    "coupling112"
   ],
-  "scope": "Replay only the original stage28 RK48 trajectory on the unchanged 48-plus-cusp grid. Verify the original three node raw hashes, mean and metric, then read three additional existing RK48 nodes for a local f8/f16/f48 metric and curvature comparison. No BVP, tail solve, global alternative field, or extra machine-six-jet completion gate. The actual new T112 anchor from request08 remains running; coupling112 is connected but is not requested before that true bundle succeeds."
+  "modes": 112,
+  "quadrature": 2048,
+  "scope": "Continue the actual original M112/T112 finite full-DN problem from the completed 699-node preparation and its unchanged complete boundary FD. Reuse only the independently completed true T112/N2048 exact-zero initial anchor from run43588155190 after strict full config/source/capacity/J/state validation. Do not repeat preparation, the zero solve, or a ready.linearD QR proxy. All new nonzero H requests and the final audit use the native true worker. Original full Newton/line-search/QR, all scalar/core/physical rows, RMS1e-6, BC1e-11 and frozen-physical RMS gates are retained. Only actual solver success enables whole physical readout and its own actual-tail closed assembly; inlet exact parity normalization and whole-field geometry remain explicit subsequent checks."
 }

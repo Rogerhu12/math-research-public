@@ -392,3 +392,7 @@ R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实
 ### 2026-11-14 11:26 UTC — prepare genuine fixed-metric refinement and bound archived intermediates
 
 R240的四个独立入口已接：只接受真实完整parent/final-audit/config，永久冻结首v3全部p*与canonical scalar SHA，K=k=0保全部物理/core，原FD/outer/QR/所有接受门不变；仅静态通过，未在699初猜上伪造运行。命令及输入身份见same-metric-refinement-executable-interface note。按根Rule10，publisher不提交可再生actual-tail-readout/nodes大中间点数组，保完整artifact及逐件参数/哈希；publication元数据>1MB自动gz，数学计算不变。
+
+### 2026-11-14 11:31 UTC — actual T112 full zero tail passed and genuine M112 coupled solve requested
+
+公开run43588155190/tailzero112真success：1351.741789s、resid/fullD0、metric9.992e−16，全338×112 J/577×224state/raw/full audit。strict源/config/Node/capacity与实际prepare112全同；J-second相对1.524e−12，ready对真J差.035157884。request10只触发coupling112，复用真699/FD/自己新锚直接原QR，任何新H和最终audit仍真求；同时接v4完整saved_prefix物理API，原finite闭面不会冒精确反射C²。
