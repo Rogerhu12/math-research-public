@@ -386,3 +386,8 @@ actual44请求42摘要失败note已保存：七原SHA全部核对；206693B在v2
 ### 2026-11-14 18:46 UTC：request46原42目标标量只读取回
 
 v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量白名单覆盖helper stop、32工作行、末次未修复stationarity/全slack、真正内部radial和原trial/status/FD，不复制Gram/producer/field树。全部已选原标量先保large-arrays artifact，再单份小摘要；不机械分块搬大报告、不因传输上限抹去已取得数值。reuse receipts workflow仅request42=true，原41取入/field步骤跳过，0新科学。45仍独立warm计算中。
+
+
+### 2026-11-14 18:49 UTC：actual46补全42内部工作行与缩放
+
+公开43628475946/job132549570796/source e19cc023… v3真实completed，34482B摘要SHA350b9a95…、七原SHA全匹配，完整选定metadata7098B只artifact。42实际止于32工作行/34basis/33H、123.9119s；末未修复全stationarity1.11086e−8但1668负slack/min−30.72964418，内部radial .007891269496944752后才全可行；修复后r992702非QR逆错误证据。完整6968B结论note已保存，未独审全部42大阵，无科学重算。45实际完整凝聚/恢复/QP已执行且同f胜C，真实trial/新warm正在读取。

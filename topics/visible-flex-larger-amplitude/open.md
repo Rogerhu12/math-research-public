@@ -147,3 +147,6 @@ request44只读工作已接独立receipts workflow：v2摘要84623638…保错�
 
 
 request46接v3 f80608b3…显式目标标量读者，仅原42七件SHA及原producer核验；原stop/末次未修复/内部radial照字段复制，完整选定metadata只artifact，单份小摘要不搬Gram/大树。无新科学，独立于45；44真实field不重复取。
+
+
+[actual46真实补全42内部证据](notes/2026-11-14-actual-request46-request42-working-row-and-radial-readback.md)已发表：32行预算停止，未修复全stationarity1.11086e−8而1668约束负；真实内部radial .007891269496944752，其后才外层1。原QR逆、受限工作行KKT和全局可行修复三对象不能混。46仅只读；45完整局部QP已实际同f显著胜C，下一按真实原nonlinear拒绝点继续。
