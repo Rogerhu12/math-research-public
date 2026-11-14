@@ -50,3 +50,6 @@
 
 
 - [R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](../results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。
+
+
+- [R572：完整原C分离、简单极点单位行与真实arith比较](../results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。

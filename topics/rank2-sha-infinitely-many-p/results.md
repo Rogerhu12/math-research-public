@@ -364,3 +364,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [低ell真carry核与最近二分支](notes/2026-11-14-deep-low-ell-visible-kernel-and-two-nearest-branches.md)：从整个原K1(M)出发，carry可见迫1≤r≤ν≤2；T=s−13−r、U=ν−r为0/1。T>3U且H<2T−U时近二支disc阶H−U，U1还保光滑Eisenstein外支与交数2，几何δ=floor((H−U)/2)+2U。高接触例外、原k二次扭曲及无全局来源提升边界保持。
+
+
+- [R572：完整原C分离、简单极点单位行与真实arith比较](results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。

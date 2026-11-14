@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9d6c440658ab5793172de3cdeb3128a9da1966d7；2026-11-14 19:48:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：dd3156cfe7e5197029ce45fff5beb53115de3680；2026-11-14 19:53:21 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；19:48:33 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟20:48重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,14 +14,14 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–571、R573已登记；R364仍开，R561/572/574/575进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-low-ell-near-pair.md)、[open](notes/2026-11-14-open-before-low-ell-near-pair.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–573已登记；R364仍开，R561/574/575/576/577进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r572.md)、[open](notes/2026-11-14-open-before-r572.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
-- theta续R572同一个实际原arith测试与R569单位G比较；T7/T10完整边际及条件总质量已付，H̄偶深保val1补域。
+- theta续R576同一原arith测试与R572简单极点单位行的混合补偿；R572全C来源/真实五变量arith式已付。
 - literature续R575同一原D²/D⁵、Cartier-zero与指定两行非零；R573全E6 jet/两个降级商及局部交叉行已付，未延E6p。
-- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算尾带/六尾剪切/低ell最近二支已推，续ell1/2真实Schur与同一d2。
+- deep续R577同预算临界因子真整提升及全forcing/同R的d2，R561实际非零仍开；低ell最近二支/六尾剪切已付。
 - root续R574整个uunit补项与原算术总行；R571已付全部cd共同深度、双sigma首项和整尾，仍不由局部非零排中央零。
 
 ## 完成标准及旧支线
@@ -41,16 +41,14 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 
 ## 原全条带与当前首行
 
-D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。
-µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1为真实u=(ωc+(1−ω)d0)/2反射，R1µ0=µ0+ηC。
-
-R560/564/568/563/566的全十四度、正140/60、负14/42和三态两补域按[完整前检](notes/2026-11-14-frontier-before-r569-supplement.md)及各正文保持。正strip=Pdeep/Z*unit，负strip=Vdeep/K42unit，全部E/G/Y/W移动、七条件源和第六质量项不删。whole140/60只付原两态；三态D14付β，H̄ unit/deep的两完整native补域不分别赋零。u/P两步真实词回−χλ²原S/T，所有逆测试保持。
-
-R567：完整局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，两真实H/R1转置各消原σc；同一ν5、完整S7/S10条件行、mσ7和第六质量项全保前检/正文。首层C0/p+λ²C1含真实log质量。范围修正d20ab976保持：Tn=3βn(JS′−6δJT′)=Nn+Un+3In,1；残差非零不排中央零，整个uunit和cddeep补域不删。
-
-R569：完整(D4,d)_*ν5=(ω²/84)f4⊗σ；明确正权使全五/六维整卷积可逆，混合cut保全向量平移。R562四unit回同一ν5的单位G，与原arith通过同一词域仍是不同测试。T7/T10边际−F5/84、−G5/42，Λ总质量仅j5非零；不把其余总质量零当条件测度零。
+D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1是u反射，R1µ0=µ0+ηC。
+R560/563/564/566/568的全部十四度与正负条带、七条件源、三态两完整补域、140/60的两态限制和u/P真实词，完整保[前检](notes/2026-11-14-frontier-before-r572.md)。旧log质量/第七矩及S7/S10第六质量校正、浅支/所有伴随cut均未删除。
+R567局部Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，首层C0/p+λ²C1含真实log质量。纠正d20ab976保持：整个Tn=3βn(JS′−6δJT′)=Nn+Un+3In,1；残差非零不排原中央零。
+R569完整(D4,d)边际、五/六维正权整卷积逆及全向量平移、T7/T10边际和条件总质量保正文；单位G与原qℓ仍是不同测试，不把条件总质量零认测度零。
 
 R571：同一原In,m=∫c,d∈p^m qnℓρ，任意n,m≥1准确=βnλ^(2m)H(κ^min(n,m),κ^(m−n)+)/(bΩ6)。m≤n用完整D/P/Z*，m≥n用wholeD4,c,d三β；无丢κ^-n/carry。H(s,t)=st²K1+s²t²O，K1=12(p−1)Ω²∫E*,A*unit P_D(D4,E*,G*)/A*ν4，来自σcσd的精确−6Ω²P′。vIn,m≥m+(m−n)+、余项p2m；完整总首层含β(C0/p+λ²C1)+3λ4K1+(bΩ6/(pβn))Un，最后完整uunit仍待控制。β^-nUn确实不随n，不能靠增n生新零式。
+
+R572：完整(c,v,Z,Q,r,d)框架Gram(1,3,6,2,1,1)，v=δC；µ0=σc⊗(BvΛB+σv³ΛP)，ΛB=(f1ZΣQ−f3ZΘQ)σrσd/42、ΛP=(H6ZΘQ−6bf4ZΣQ)σrσd/84。g5=Z³rd对全部(c,v)测试准确抽−Ω5/7·σcBv。四unit H=δc−v,K=δc+v上φ=c(7δ²c²+5v²)/(8δ²(δ²c²−v²))积分=Ω[4−11β+βκ(1+6β)]/(8δ²)+p6尾，为unit；4−11β由偶trace/Hasse/mod8排零。原完整arith严格用ΛB五输入及全部Y/W，q的共同域另保c,c±ζ^-1F unit和三补支/域外余项；式(29)完整测试差仍未消。
 
 ## 固定负矩与 Cartier
 
