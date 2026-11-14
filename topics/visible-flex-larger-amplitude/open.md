@@ -61,6 +61,8 @@
 
 [R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；57已真实开始，实际报告待回读。55已全拒，57首次取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
 
+[当前原576迭代接R273的源码可行性](notes/2026-11-14-current-native576-R273-synchronous-interface-feasibility.md)已明确：可只接原with-J/tol后的cor调用，使用本次完整ev/J/r/cut/far/σ，原十trial/fresh audit不变；动态QR类可用但当前1372 main/context身份不可改标签。同步桥或显式两阶段需独立源，尚未实现或选作下一算法，57真实回执优先。
+
 ### 1C. 真fullDN衔接与备选
 
 取得本场H真实原生响应后，仍须原完整outer/inner、RMS1e−6、BC1e−11、native原容差和fresh audit全部过。非零跨进程缓存不能冒同live predictor。R257有限恒速平面Fourier只能为圆，重参数化需完整analytic lift及core响应；R259小核心共振/条件IFT备选接口已冻未调度，简单缩初猜不能消除设计核。

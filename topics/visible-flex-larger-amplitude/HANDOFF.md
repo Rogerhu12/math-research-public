@@ -40,7 +40,7 @@ warm-001.json.gz 5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5a
 55 run43636504089/source6b7e9846…/art14129374575，真实1request/10fresh noJ/0baseline/J/correction。九D/S/A拒+stage23一次momentum Newton失败；最小1/512仍stage28/raw0/seg5拒。无完整trialNorm/selected，不能说十个完整merit未降。完整actual55-original-ten-trial-rejection与audit核47文件/32清单/十224字现场/9546负零/完整方向限制、原十trial正文603924d1…可逆。结论已推，不重复同方向。
 **57 run43637356027/source adbdf144b14ae7adc71df09948a5c05f8a30e8b8/job132576978446，20:24:47Z创建。** R273全部原σ平方根链显式eta=1、cut/stage/far/每node罚一次与纯常数全保，原54矩阵复用，不造normal矩阵/删模。QR步骤20:27:06Z success；原十trial随后实际运行，结果尚待回读。真实resultSHA接两冻结trial源ebd3110e…/884d2d44…，1373→577含负零、cut/far不投影，原十alpha/noJ/guards/strictnorm保；不增L2/exact数学门。
 R273源9b951f95…、全因子artifact约1.1GB。exact_20261114_audit_damped_chain_bytes.py完整byte审计源已读/AST并保存，尚未运行；geometry的trial审计/tmp也未运行。root唯一下载后分别审因子/精确行与原trial。纯QR耗时不能由factor.report.elapsed_seconds直接推，该字段包括对象整个生命周期。
-若57接受仅存selected仍非native2e−9。已推R273-selected-state-original-native-continuation-contract：用完整实际bits+负零、softcut/far不投影、predicted=true原样seed，真新withJ+fresh audit。禁止28缓存改标签或强求新withJ norm等于旧noJ；原Riccati第k轮再失败须绑该轮实际state/J/r，不冒已实现完整R273迭代。
+原576当前迭代接R273的同步切点只读合同已存notes/current-native576…，未实现/未选算法。若57接受仅存selected仍非native2e−9。已推R273-selected-state-original-native-continuation-contract：用完整实际bits+负零、softcut/far不投影、predicted=true原样seed，真新withJ+fresh audit。禁止28缓存改标签或强求新withJ norm等于旧noJ；原Riccati第k轮再失败须绑该轮实际state/J/r，不冒已实现完整R273迭代。
 
 ## 后续必须完成
 
@@ -50,4 +50,4 @@ R273源9b951f95…、全因子artifact约1.1GB。exact_20261114_audit_damped_cha
 R248强C²全相位、R241全部参数对/法锥reach、R238/254/258含反射标记、R251完整metric operator待真新场；16仅解析fixture不重做。held覆盖全部活动块/两帽盘/完整D，可独立于reach，无额外jet机器门。
 旧小幅A.063/RK24/48/三mesh/2157568pair/GW封存，不能继承新场。R259备用未派。证明R238–273见results.md；数值证据不冒严格存在。
 
-规则同步记录：2026-11-14 20:40:02 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 182db1dfeb2238487c6be4ca419ac2a7e576a532。
+规则同步记录：2026-11-14 20:41:52 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 768f1f11cd6209ba43466b498dd877cc25d13e00。
