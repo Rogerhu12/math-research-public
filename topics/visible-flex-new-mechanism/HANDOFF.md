@@ -53,7 +53,7 @@ R110完整K尾D25=−153664c7/75；R111四平移/保桥基准/Brouwer已付整�
 
 ## 6. 持续推进
 
-1. R119给静态八矩乘子充要门，对完整路径只必要；R120 universal闭锥lineality含R8+G仿射轨道，R126下界≥52，不授窄I/有限逆元。R121先中央清prototype λv，再t盒/m→N→n乘积Brouwer，现据R126至少付真实52查询。R122升级到A=R8+orbitG的r+s查询：先有限H压低权、后N、最后响应n，完整N²/N³保；R126 actual43649525432/source5852d7d4完整20原列的四条真依赖给上界16，原有理16/17子式模p为775740714/172056171，ΛNG模548771152非零，故NG∉R8且2≤s≤10。30.499s/RSS124.648MiB，新8toy过，原式证书全存；dimR8≥50、U4及闭锥lineality≥52、实际联合查询≥52。下一只检N²G完整权−1，不重跑旧20列。未证U4=A/完整period。
+1. R119给静态八矩乘子充要门，对完整路径只必要；R120 universal闭锥lineality含R8+G仿射轨道，R126下界≥52，不授窄I/有限逆元。R121先中央清prototype λv，再t盒/m→N→n乘积Brouwer，现据R126至少付真实52查询。R122升级到A=R8+orbitG的r+s查询：先有限H压低权、后N、最后响应n，完整N²/N³保；R126 actual43649525432/source5852d7d4完整20原列的四条真依赖给上界16，原有理16/17子式模p为775740714/172056171，ΛNG模548771152非零，故NG∉R8且2≤s≤10。30.499s/RSS124.648MiB，新8toy过，原式证书全存；dimR8≥50、U4及闭锥lineality≥52、实际联合查询≥52。下一只检N²G完整权−1，不重跑旧20列。R127另证若C≠U4必有非零单权、平移不变正ν，末N*阶偶、最终权m+j；只缩减正性候选，不授闭锥满/有限逆元。未证U4=A/完整period。
 2. R123 actual43648433010：197原根/154非零/254分权，G九项尾=原列10/128，pure投影漏完整障碍。R124 actual43649160345/source c6956272：真实M0规范化后154静态系数全入尾响应像，raw/graded商0；原未分权商3，诱导Δ2有18系数/3非零余、rank2/even1。0.205s/RSS30.332MiB，新6toy全过，完整489034B→57845B。真实pure周期商只剩∫(L2+Δ2+L4)，固定桥bulk圈数N不改变此商。下一必须新导原N0/N2/v2/v4，保N2未证入W；不能拿Δ2代L2。
 3. 已部署curvature_feasible_exchange（库ed77abc3/driver60a3bd66），同g/e407/learned3866，原预算/门不变，先新调度及11输入人工再actual；旧源码不改。
 4. continuation最多两lane；所有输入有SHA/run/source绑定，publisher真实pull核规则、gzip后<5MB、NFF循环。本run22:30:53私有actual pull双规则无差/QUEUE正确，按23:29期限续查。

@@ -239,3 +239,5 @@
 - 2026-11-14 22:56:37 UTC，Astra-new-mechanism-9974ea84：私有仓库终端部分克隆与真实pull已完成至905979913d397cae80a05592bda6660733b3160c，两份规则路径与已读身份相同，QUEUE唯一行仍本会话进行中。仅元数据回执公开，无私有正文或令牌；下一私有pull不晚23:55 UTC。
 
 - 2026-11-14 22:58:03 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交5516ca29fa052ef118274feb5e8a26865ffd8060记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-14 22:58:57 UTC，Astra-new-mechanism-9974ea84：R126终端NFF后立即真实pull/rebase至5516ca2，双README无差，已推8a009a1。直接登记R127完整纸证：span C=U4使C* pointed，最高缩放权正极限加双向平移末项给非零正仿射字符；末N*阶j必偶，最终权m+j而非m。ν必杀已知至少52维lineality，仍未算完整商或证明实际成本可逆。下一照常部署新的缺失导数因子与曲率试探诊断，不加复核机械门。
