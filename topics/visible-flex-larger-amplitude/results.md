@@ -468,6 +468,8 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 
 - [R251. 直接相对算子度量的四正性证书](results/R251-direct-relative-operator-metric-certificate.md)：完整有限场在原φ坐标下用两个Loewner矩阵的首主元与行列式直接证明operator<η，不损三分量到算子常数；同一a²的上下包络付非多项式段，完整Bernstein/全角Taylor与精确次数带宽账闭合。K=M时行列式带宽8M，DFT须N>16M；没有新的数值通过声明。
 
-- [R252. 完整物理角测试的 DN 边界与有限投影缺项](results/R252-physical-angle-DN-Galerkin-boundary.md)：保留同一真实完整尾和高度输入，给所有物理/core/scalar/增广端点 Jacobian、正确均值及有限求积缺项；两条有限矩阵恒等式说明新旧测试不等价，并完整证明在统一正密度、同源真实尾收敛及均值条件下的连续一致性。尚未实施，不预判条件数或原 BC 门通过。
+- [R252. 完整物理角测试的 DN 边界与有限投影缺项](results/R252-physical-angle-DN-Galerkin-boundary.md)：保留同一真实完整尾和高度输入，给所有物理/core/scalar/增广端点 Jacobian、正确均值及有限求积缺项；两条有限矩阵恒等式说明新旧测试不等价，并完整证明在统一正密度、同源真实尾收敛及均值条件下的连续一致性。已实际实施；request13全真实J FD通过而联解仍失败，不冒旧材料 BC 门通过。
 
 - [R253. 固定非恒材料换角的前模投影可以超代数病态](results/R253-material-projection-superalgebraic-conditioning.md)：固定C∞正非恒密度下构造严格有限、无常数且归一化的同一源向量列，使连续投影和全部偶N≥(4+ε)M精确DFT的非均值及均值输出超代数小；全alias、源截频与维数因子均完整支付，并证明条件数超代数增长。不给实际M112或完整BVP因果结论。
+
+- [R254. 完整物理前缀的精确有理非平面开片证据](results/R254-exact-full-prefix-no-planar-germ.md)（已证明，有限对象条件定理）：保完整z0及共享二阶节点的实Hermite场，每cell四个有理仿射独立位置排除任意平面参数开片；6径向×(4M+3)有理圆点给完备有限判别。准确绑定R249规范形并在单SE2/反射/材料微分同胚/R248相位下传递；新尾、collar、全闭面及含反射δE仍未由此前缀定理支付。

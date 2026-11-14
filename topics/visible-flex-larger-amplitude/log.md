@@ -483,3 +483,8 @@ request14仅coupling112physicalqr：新Rφ×旧同Uend实测cond1.20e5，故原6
 
 request15仅coupling112bridge，源blob54522609：原699完整节点/状态逐项保，新点只原p0解析circle/完整mean；采样旋转/模态尺度择网≤原1200，不冒严格谱界。原全部域/RMS检查、实际局部L/R与旧方向比较分别记录，再重做全真实J FD及原全带LU/非线性门，未预报成功。
 共享.github/workflows/visible-larger-public-mainline.yml新增该lane、仅补读run13两件真实step/RHS、接原闭合/R249；publisher同增lane。request14/run43596465579并行原699/新Rφ/完整QR，互不取消。
+
+### 2026-11-14 12:52 UTC — R254 exact full-prefix witnesses and recovered strict operator sources
+
+完整R254直接登记：全物理/完整z0/共享节点Hermite的四有理点定理、完备6×(4M+3)网格与同对象传递全部证明。proof/consumer/interface按幸存上下文重建并使用新blob身份，未冒失联本地SHA或数值回执；新尾/δE保持未付。
+同时保全R251 strict cell及full-prefix/同源scalar descriptor两实现（新blob4b373102/84200aeb），尚未编译或数值。bridge guide的 |ap*app|/(1−ap²) 明确是 |(log w)'|，旧字段名不准但数式/网格不变，不为说明勘误重跑；request14/15实际并行。

@@ -17,7 +17,7 @@
 (2M/rho_sample_min)*sqrt(abs(app)/(a*(1-ap^2)))
 +abs(ap*app)/(1-ap^2)+abs(ap)/a
 
-作为选点参照；同时输出不含压缩因子的理想材料角尺度。依次试 reference phase budget 1/2/4/8/16，选首个落在 max_nodes−24 内的方案，max_nodes 固定1200。所有699旧端点精确保留；24点仅给原RMS域检查补点预留。该采样尺度既非连续上界，也非当前截频 Jacobian 的谱证书，不作为科学完成门。
+作为选点参照；同时输出不含压缩因子的理想材料角尺度。这里 w=sqrt(1-ap²)，|ap*app|/(1-ap²) 精确对应 |(log w)'|，不是 meridian frame 的真实角旋转率（后者为 |app|/w）。原JSON字段 sampled_meridian_frame_rotation 的名字不准，其实际定义以上述明确数式为准；本勘误不改变已提交程序或选点，不因此重跑。依次试 reference phase budget 1/2/4/8/16，选首个落在 max_nodes−24 内的方案，max_nodes 固定1200。所有699旧端点精确保留；24点仅给原RMS域检查补点预留。该采样尺度既非连续上界，也非当前截频 Jacobian 的谱证书，不作为科学完成门。
 
 同一完整原有限 RHS 重算全部节点/中点/两RMS查询。这个原域预检失败则如实失败；通过后保存完整新 prepared，仍明确 success=False、没有 coupled acceptance。所有旧状态逐项比对，原节点 RHS 的重算差单独记录，不冒逐位相同。
 
