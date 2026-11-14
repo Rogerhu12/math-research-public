@@ -1,0 +1,19 @@
+{
+  "session": "serre-public-resume-20261114",
+  "status": "new exact original model input; no numerical conclusion before the public run",
+  "job": {
+    "result": "R732-p41-original-CM-model",
+    "p": 41,
+    "core": "R732_p41_original_CM_model.py",
+    "core_sha256": "4d6f860506347ab578f1a4f0e30eb0041f8a56b6e62b29762aa958c843f17ec5",
+    "method": "notes/R732-p41-original-CM-model-input-computation.md",
+    "method_sha256": "1070bd1ebd6cabd47d5639d142cc62162cdd0d06b0eb1f403767e1a1cf81ff3e",
+    "budget_minutes": 80,
+    "dependencies": [
+      "results/R725-original-CM-elliptic-model-and-splitting-field.md",
+      "results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md",
+      "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md"
+    ],
+    "original_map_or_beta_computed": false
+  }
+}

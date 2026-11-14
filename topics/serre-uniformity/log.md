@@ -1095,3 +1095,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 完整六步U5在d=6j上归为二次式且d(d+7)单射，≤2相邻零对；CRT精确K(m)≥5，删两端仍≥3本原相邻对，单位数≥ceil((K−4)/2)。
 - 未证明同一h两个C同时单位；继续共同配对。R732实际执行选p41原b的7次多项式，不重复41分类。
 - HANDOFF全文归档后压缩；两README未变，14:53:02UTC公开实际pull凭据已存，主目标仍OPEN。
+
+
+## 2026-11-14 23:04 Asia/Taipei · serre-public-resume-20261114
+- R732首次实际原模型计算已提交：U=64/x(P)³的280维精确商代数，生成同一b=r0⁶的7次F41，核F41(b)=0、41-Eisenstein、disc赋值6及逆different；数值未出，R735保留。
+- 新增工作流serre-p41-original-CM-model.yml及专用core/driver/request，正式算术仅公开Actions；80分钟单次预算、每步保存；大可复现中间状态只进artifact，小凭据/小最终证书入git，未改共享publisher。
+- 完整原商/β/高度仍待执行；归档压缩HANDOFF。两README无差异，最近实际pull14:53UTC，下次不晚于15:53UTC。
