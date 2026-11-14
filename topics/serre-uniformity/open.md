@@ -153,6 +153,14 @@ $$
 全部T_h由同一真实Galois轨道运输，不能各自任选平方根；原p赋值等于M2赋值。
 此接口不使同h两个Cartier系数或T_h自动单位；实际signed T数值另续。
 
+[R750](results/R750-global-real-descent-of-all-original-flat-jets.md)
+把这条global line推广至每个允许flat阶：支持于2的idele$x_2=\zeta$、Norm1固定A，
+其右reciprocity矩阵为C；完整torsion-label计算给$\alpha\mapsto\zeta\alpha$，
+原全部Serre函数保持C特征$\zeta^2$，全阶原复共轭相位仍$-\zeta$。
+因此$\alpha M_{3j-1,h}/(1-\zeta^2)\in F_0$，任意非零允许jet作分母的比值全在F0，
+无需M2非零或另一个中心值平方公式。原signed Galois运输和p完全分裂给全部Qp比值。
+这不把完整p-adic Weierstrass因子的系数也自动放进F0，更不评价原高度。
+
 [R744](results/R744-original-depth-four-Abel-root-polynomials.md)
 进一步给同一$\eta\le1$原组件在整个$p^4$闭盘的完整因子：
 $Q_h(u)=I_h(V=pu)/(E_1pu)=p^\mu U_h(u)W_h(u)$，

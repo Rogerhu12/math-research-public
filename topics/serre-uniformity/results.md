@@ -208,3 +208,6 @@
 
 
 - **R749（已证明）**：[原scalar primitive与准确reference配对](results/R749-original-scalar-primitive-and-the-exact-reference-pairing.md)。复用R561相位25及原s32 Frobenius，保完整p² Kummer-zero gauge和正Norm cochain、只一次quadratic restriction，独立得$e_{c,q}=26K_0$、$\langle z_0,d_0\rangle_p=9\varepsilon$。接R746准确恢复原Ω₂=ε(22+17b)，未求J/b或混同strict-p与flat。
+
+
+- **R750（已证明）**：[原全部flat jets的全局实下降](results/R750-global-real-descent-of-all-original-flat-jets.md)。实际支持于2的Norm1 idele固定系数域，右torsion-label算得α→ζα、原Serre jet同为ζ²特征；全阶复共轭保−ζ，故$\alpha M_{3j-1,h}/(1-\zeta^2)\in F_0$，任意非零jet为分母的比值均在F0。包含M2零情形，保原全部signed conjugates，不靠局部Qp值外推global字段；实际系数和高度仍待求。

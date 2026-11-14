@@ -59,3 +59,8 @@
 - R749由R561原scalar相位25和Fr=s32、完整p² Kummer-zero及正Norm primitive独立算出e_c,q=26K0、reference配对9ε，保原1848与二次restriction。
 - 接R746准确恢复Ω₂=ε(22+17b)，未由该式倒求scalar值或宣称J/b桥。证明SHA9f151b0f1fb8b98a06454699aff72a6ea27db32628ffb70c24e0c673ed52ff84。
 - HANDOFF/open/index同步；R745公开请求source1768f05c524e2e3d2e01822c0a4f376382c5e608已推，正在取实际run。无新本地数学或共享设施修改。
+
+## 2026-11-15 00:36 Asia/Taipei · serre-public-resume-20261114
+- R750计算原支持于2的完整tame reciprocity角色，全部允许flat jets同一标度α/(1−ζ²)落F0；全阶signed conjugation/Galois与任意非零jet比值闭合，包括M2零情形。
+- 证明SHA68771157f5ce1bec39a16f82a77ebc6b18a952a29b9944d6b46fdc6ad60f8aa2；未由global Taylor系数冒推完整Weierstrass系数global，未新增高度排除。
+- HANDOFF/open/index同步；R745实际公开run43616027318成功且smallcert已读，正式记录另推。无新本地数学计算或共享设施修改。
