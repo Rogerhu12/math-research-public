@@ -54,7 +54,7 @@
 
 - [R25：偶高度外尖出口的reach与投影余量必要界](results/R25-cosine-core-outward-port-budget.md) — 已证完整闭面从向外出口转回前必须占用额外投影距离；p=w时化为两条准确线性高度约束。D下界必要排除与D上预算的保守设计严格分开，未证明封口存在。
 
-- [R26：通用D0简单根的真实局部C4相位开启](results/R26-generic-D0-simple-root-phase-opening.md) — 已将R22推广为W/C′∈(−9/4,−5/4)及显式非退化jet的开条件；两次Fuchs收缩证明实际解析基底与复分支。实际几何尚未通过该比值条件，全局外尾匹配仍缺。
+- [R26：通用D0简单根的真实局部C4相位开启](results/R26-generic-D0-simple-root-phase-opening.md) — 已将R22推广为W/C′∈(−9/4,−5/4)及显式非退化jet的开条件；两次Fuchs收缩证明实际解析基底与复分支。R31已证明真实闭合几何可实现这些局部门；全局外尾匹配仍缺。
 
 - [R27：D0方程在L简单零点的C3续解唯一性](results/R27-simple-L-zero-C3-phase-rigidity.md) — 不预设接点四阶导数，先由无log发散强制相容式，再用全负Euler谱无权收缩证明全部共享C3 jet的续解自动解析；实支不能在简单L零点启新相位。高阶/全平退化尚待处理。
 
@@ -65,3 +65,5 @@
 - [R30：闭曲面近远点对的完整reach充分证书](results/R30-closed-surface-normal-chord-reach-certificate.md) — 在真实参数chart上用m/U/M及实际K证明稳健近对角法弦界，联合离对角连续片对与全部接缝覆盖可同时支付嵌入和完整reach；不把坐标二阶导数当曲率，也不以有限点云代证。尚未有完整候选执行此证书。
 
 - [R31：真实闭合几何实现负物理根比值与非退化局部相位](results/R31-closed-geometry-negative-physical-root-and-local-phase.md) — 明确高频球面曲线给负W/C′开条件和非零det，平滑非负框架连接与Klein八边精确消空间位移；有限C∞闭正则中心曲线真实实现R26全部局部门及满秩B。未证明嵌入、厚度、全局profile或有限等距族，R29排除不变。
+
+- [R32：C3相位、C2无穷小场与一般h的二阶恢复障碍](results/R32-C3-phase-and-C2-second-correction-obstruction.md) — 3<ρ<4的真实非退化复相位可以给C2无穷小场，但同左锚自然二阶恢复的奇异主项要求逐点Gs=0。对任意h>0，此门强制一个非零二次jet进入可逆L|P2的核，矛盾；s常数profile gauge不能修复。不外推为任意有限C2族不可能。

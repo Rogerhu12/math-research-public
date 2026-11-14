@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`9469656f7cb676458dc039a388fdd5c80ed73664`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`fd3b2d1e99a18fa0393cfd06314d544c80789330`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库13:39:55 UTC实际pull至2af8e95180f2df4ccf4cdb915220d795c8b12907，根README差异为空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -41,6 +41,8 @@
 
 R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核对一致：中央矩det、−32detB、四个三角平均与Klein八边均准确通过；没有计算有限n/N或真实几何。详见literature-constant-h-exact-actual-audit。
 
+- R32：3<ρ<4非退化简单C根有真实C3相位及C2无穷小场；但一般h>0的同左锚自然二阶恢复出现−GVχ″，C2需逐点Gs=0。此门迫非零二次jet落入可逆L|P2核，矛盾；所有s常数profile gauge亦无效。不外推任意有限族。
+
 ## 最新实际计算
 
 共享 `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，每次rebase核README。成功状态不等于数学通过。
@@ -50,7 +52,7 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 3. 新cos43597247312的固定点κ/J正且framing0，但最大曲率下界16.27947给reach/D≤.019567<.03，严格排除；谷底q_ell≈35是瓶颈。两个开发检查真实通过，raw final失败完整保留。
 4. D0同germ43597247312短程差≤2.22e−11、局部O≤9.22e−14，但复终点jet约28/J约41，未匹配外尾。固定q2的C10正/C25负及根16.62628188869为稳定求积证据，连续符号/omega界未证；两物理根W/C′均正，未过R26门。
 
-端点消元43598398961准确令尖谷q_ell零，但初值全角J样本−198、局部曲率下界9688，严格排除该点；没有正J时不援用其打印的条件幅度公式。暖投影43599589025已返回：κ≥.3289/J≥.1731、framing0，但局部主曲率下界21.87057给reach/D≤.014565，tip转向必要门也失败。44nfev虽xtol成功，最大归一违反1.534，正确跳过epigraph；不作此点连接，详见cosine-warm-feasibility-actual-audit。后续验证器整核包络/幅度已挂正J门，旧输出保留并逐一核前提。
+端点消元43598398961无全角正J、局部曲率下界9688；暖投影43599589025正J/framing0通过，但局部曲率下界21.87057给reach/D≤.014565且tip必要门失败。两点均严格排除，详见各actual-audit；不作其连接。整核包络/幅度已挂正J门，旧输出保留并核前提。
 
 physical_root43600230731已完成：正半线148nfev残差2.52e−13；冻结xi/tilt/归一化三N均W/C′≈−1.75、Kjet≈.00640376非零，物理分母样本≥24.696。只算稳定局部数值候选，连续根/物理域未证；negative失败且xi非根，不能引用其负比值。详见literature-physical-root-ratio-actual-audit。R29完整类排除不变。连接主线正扩展R28至二重对称准确平面椭圆柱，旧Cartesian/GC失败不作成功依据，负K/长度/高度仍须支付。
 
@@ -58,4 +60,4 @@ physical_root43600230731已完成：正半线148nfev残差2.52e−13；冻结xi/
 
 旧失败输入均有原始输出及actual-audit notes，勿原样重跑。ellipse_cont/ellipse_phi仅接受圆t0，最小非圆步metric约.001258/.000621；inward_fixed/gc4的metric约1且曲率巨大，官方日志确认共享40min超时造成第二表示无完整输出，不是数学排除。旧Cartesian偏心/core-tail、R44 ruled-tail和文献bump/Newton均未通过完整metric/周期；局部二jet或缩ε不补全它们。
 
-warped_collar43595305950在150nfev内实际失败，fine metric=.9999665/κsample70270；R23独立以link排除已认证基线平圆领目标。R24同样排除当前sin星核。新cos首轮因严格曲率必要界被否决，下一步以尖谷q_ell零消元及出口转向空间设计新的准确零framing核心，再重新支付连续局部/全宽单射/双侧连接/完整reach。文献只在D0及真实可实现范围研究R29未覆盖的正则性/外尾、局部物理根门和零算子例外。保持本文件与open/log/notes最新；主README全部门通过前不收尾。
+warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R29/R32未排类别。主README全部门通过前不收尾。
