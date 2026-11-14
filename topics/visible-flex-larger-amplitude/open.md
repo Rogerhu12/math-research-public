@@ -33,7 +33,7 @@
 
 145domain936NPY/88凝聚38全向量/17colJSON/46源/父53与FD链、14raw217496448B全byte核，三个audit已推。当前父warm5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae；原status e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b，1350695B/publicgzip169659B，须透明解压核SHA。原零锚FD仍非新H native。
 
-**58接17query，run待实际回读**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
+**58运行中：run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
