@@ -885,3 +885,7 @@
 ### R296 附录：首低 Johnson 通道的共同 Schur 与原尾线性协方差
 
 [完整同源条件分解](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)把j=s−2的真实负行写成外部交集A的线性算子列，准确拆为条件均值平方及完整条件协方差，保全部交叉项。出生二进一步得到整个算术缺陷等于占据分布下的显式正能量减Var(u)，其中真实新层常数ell恰E(u)。对原连续z_i=i⁻⁴、任意删D，逐位删除初等和比至少[x/(x+l+|D|)]⁸；故同一线性列协方差与显式加权共同方差双侧可比，条件数至多2(1+2k/x)¹⁶。随D变化的条件均值及共同Poincaré预算仍未支付；此常数不代加强κ_s或原graph上界。
+
+### R297 附录：二阶核至多四有效位与全部固定方向的局部相位界
+
+[完整物理组链证明](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)按方向x的等值组作正交Casimir分解。若v在二阶核，中央f=e₀v满足X_sf=0及e₀d₀f=2f；压到X_s=0后跨不同组项全消，剩Σ[j_g(j_g+1)−m_g²]≥J=Σj_g，故J≤2。真实d/e、伴随、完整MP逆及源酉输运共同约化，抽去组singlet后这些块恰为至多四有效位，其完整相位由已证二/四权定理在整条正权直线上支付。J>2块二阶严格正，遂对每个固定s与任意方向x存在η_(s,x)>0使全源Φ≤I。N≥6且方向值全异时整源二阶严格正，即使中央有零和子集。未把方向依赖半径换统一邻域或全权界。
