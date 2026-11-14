@@ -1,11 +1,11 @@
 {
-  "request": 53,
-  "requested_at": "2026-11-14T19:50:37Z",
+  "request": 56,
+  "requested_at": "2026-11-14T20:15:56Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the actual51 accepted warm with the unchanged fifteen-query model and all30720 rows; raise only the demonstrated working-row budget from256 to512, retain all other budgets and original nonlinear trial/FD gates.",
+  "purpose": "Continue actual53 with only the actual failed original midpoint481 grid added; preserve full5073 support, working512 and all original trials/FD. Observe the already returned complete physical collocation argmax and original fixed model weights without extra scientific calls.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -19,11 +19,16 @@
     "geometry_20261114_fourteen_query_condensed_response.py": "a84a693172af678146eb36cd43b965b8206bf3d048dac32047fb7acc4c7e82a1",
     "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
     "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
-    "geometry_20261114_fifteen_query_condensed_response.py": "3328eb649daab9b7e2da831e0fd6fa864f10f4dd6c98c51adff0ddfbe0424487"
+    "geometry_20261114_fifteen_query_condensed_response.py": "3328eb649daab9b7e2da831e0fd6fa864f10f4dd6c98c51adff0ddfbe0424487",
+    "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+    "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+    "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
+    "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
+    "root_20261114_publish_actions.py": "4c931136519a62bcfba6d79985fe55c41e8d1582bc1f391f7749b692ec85466e"
   },
-  "actual_parent_run": 43632815810,
-  "actual_parent_warm_sha256": "b6620a0ce55be257fc58c29e88187cc602ad08b46c4424903ffddc003b5b1595",
-  "actual_parent_status_sha256": "267451f8eb91ca568ff187bfb39dbd32b22ca844788e1e88165910190ad6f685",
+  "actual_parent_run": 43634517255,
+  "actual_parent_warm_sha256": "e71a5fec344326df3b6c69ec6d298f5079034fb86eb2fa505008c35682010d32",
+  "actual_parent_status_sha256": "6170aba505c2eeb5db9411f13ad502363fe1593a7d4d63faa5f0d0a37fb34938",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -37,17 +42,25 @@
     "original_trial_count": 17
   },
   "complete_B_local_dimension": 5073,
-  "selected_query_count": 15,
-  "selected_angle_row_count": 30720,
+  "selected_query_count": 16,
+  "selected_angle_row_count": 32768,
   "scientific_thresholds_changed": false,
   "native_tail_requested": false,
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
   "complete_B_support_expanded": false,
   "original_left_RMS482_retained": true,
-  "new_queries_added": false,
-  "only_algorithm_budget_change": "local working rows256 to512",
-  "actual51_original_status_bytes": 1051960,
-  "original_midpoint481_not_yet_added": true,
-  "actual51_nonlinear_midpoint482_issue_not_claimed_resolved": true
+  "new_queries_added": true,
+  "added_query": {
+    "kind": "collocation-midpoint",
+    "interval": 481,
+    "fraction": 0.5,
+    "original_angles": 2048
+  },
+  "original_midpoint481_explicitly_added": true,
+  "actual53_original_status_bytes": 1251975,
+  "source_entry": "geometry_20261114_sixteen_query_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261114_sixteen_query_condensed_warm.py",
+  "observer_read_only": true,
+  "extra_RHS_Jacobian_or_trial_calls": 0
 }

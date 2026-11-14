@@ -29,7 +29,7 @@
 
 全部137domain/880NPY、88凝聚/38完整向量、9observer/44源/父51链与14raw217496448B已byte核，未导出fullfactor不冒审。新父warm e71a5fec344326df3b6c69ec6d298f5079034fb86eb2fa505008c35682010d32；原status6170aba505c2eeb5db9411f13ad502363fe1593a7d4d63faa5f0d0a37fb34938，公开gzip须透明还原1251975B原件。
 
-**56准备中**：只新增原mid481全2048角成16查询，完整5073支持已有所需端点；保512/dual200/600s/1200s/λ270/LSMR200/C200/17trial/全部真实门和FD。只读col observer记录完整原col最大项及原baseline权重，不增加科学调用。1/4另坏mid483，更大步已建模网格也会坏，不能预言16即可α1。旧51及更早完整结果保notes，不重跑。
+**56请求已接，run待真实回读**：只新增原mid481全2048角成16查询，完整5073支持已有所需端点；保512/dual200/600s/1200s/λ270/LSMR200/C200/17trial/全部真实门和FD。只读col observer记录完整原col最大项及原baseline权重，不增加科学调用。1/4另坏mid483，更大步已建模网格也会坏，不能预言16即可α1。旧51及更早完整结果保notes，不重跑。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -49,7 +49,7 @@
 
 **54完成868新块和1372求解，原trial入口路径错而未执行**：run43634889730/source7eb383af1ca2bb04c7eaef9c65578dbc124269d8。[完整捕获](notes/2026-11-14-actual-request54-complete868-direct-LD-capture.md)保144array/1736chunks/868完整226×224 maps/3472原field及4221文件回执；[完整solver原读回](notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md)保55输出/四轮全307552行及完整方向。新matrix76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999；exact保iter2仍2.552304460257547558335607736e22，不能声称可用方向。原trial因root将旧28真实result.json误写成.gz触发FileNotFoundError，尚无任何十档试探或数学拒绝。
 
-**55复用54，run待回读**：只修旧28一处路径，新54方向.gz保持。独立trial-only workflow完整固定取28/41/54+78公开源，直接实际完整方向的577限制跑原十alpha/noJ/全部guard/严格原σ norm下降；不增线性门、不重868capture/1372solve。详[原trial接口](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)及[路径修复记录](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)。接受后仍须继续原native最终门；全拒后据实际证据选R273。52 spec运输失败和54 gzip修复已经完成保存，不再待办。
+**55运行中：run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2**：只修旧28一处路径，新54方向.gz保持。独立trial-only workflow完整固定取28/41/54+78公开源，直接实际完整方向的577限制跑原十alpha/noJ/全部guard/严格原σ norm下降；不增线性门、不重868capture/1372solve。详[原trial接口](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)及[路径修复记录](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)。接受后仍须继续原native最终门；全拒后据实际证据选R273。52 spec运输失败和54 gzip修复已经完成保存，不再待办。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 

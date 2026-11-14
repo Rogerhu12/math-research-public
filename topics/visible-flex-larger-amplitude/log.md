@@ -478,3 +478,9 @@ R273完整原σ块链阻尼平方根定理已直接入results与索引：每节�
 [54完整capture](notes/2026-11-14-actual-request54-complete868-direct-LD-capture.md)的144arrays/1736chunks/868 maps/3472fields及4221文件回执全byte核；[solver](notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md)全55输出/四轮307552行/6checkpoint与operandbits核过，原数值未本地重算。新matrix76f30d77…，最好iter2仍2.552304460257547558335607736e22。原trial在root误写旧28文件名处I/O失败，未启动，不能冒十试步拒绝。
 
 [55修复](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)仅旧28 result.json.gz→result.json；新direction仍gz。完整固定取28/41/54后直接577限制跑原十alpha/guard/strictnorm，不重capture/solve、不增线性门。17pins/AST/Node/YAML/11bash静态通过，实际run待回读，科学仅公开Actions。
+
+## 2026-11-14 20:16:27 UTC /root — request56只补原中点481并记录原col最大项
+
+从actual53实际warm e71a5fec…/原status6170aba5…严格pair继续，原1251975B status透明从公开gzip恢复。独立四个16-query源只新增原mid481全2048角成32768行，capture端点/5073完整B与原C4059/全部outside保留；原512/dual200/600s/1200s/λ270/LSMR200/C200/17trial与FD门不变。新只读observer消费原已返回col/vector和基点W，独立ledger保执行源，不加RHS/J/试步，nonfinite时不以有限子集冒完整max。
+
+root已读四源全部差异、[16接口](notes/2026-11-14-sixteen-query-condensed-col-observer-interface.md)、原observer全文及workflow完整diff；18pins/AST/YAML/11bash/6内嵌Python静态通过，无本地科学。沿唯一condensed request触发56，不重复53；实际方向、trial、col位置和FD待回读。55已运行43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2，独立固定54方向的原十trial继续。
