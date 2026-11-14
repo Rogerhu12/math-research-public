@@ -143,3 +143,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R710：完整原Abel深盘的精确剩余零数
 
 全允许jet的平方已严格下降到未分歧域，半整数格补齐完整Tate级数边界；原粗换参全尾保留。原CM权对确定约化最低次数r，在v(a−1)>3开盘内原标量Abel零总重数恰r。137147的后两权由公开原证书精确提取得到r=3、M8赋值−7，最多两个非中心零；仍须这些实际零的进一步精度/位置及完整高度jet，进入R682归一外积时R616非消失前提保留。详见[R710](results/R710-unramified-squared-jets-and-complete-coarse-Abel-reduction.md)。
+
+### R711：实际整数赋值与例外二次因子的剩余输入
+
+同一原有理CM点/正商微分及完整有理换参给所有M_m/M_(p−3)∈Qp，非零端点使原jet赋值全为整数；原P经一个端点单位归一后为Zp整Tate级数。137147已有v(M2)≥0、v(M5)≥−3、v(M8)=−7，实际深盘余因子v²+Av+B0满足A、B0均在pZp、v(B0)=1+v(M2)。若能证明原M2单位，就得到Eisenstein余根赋值7/2并隔离实际v(a−1)≥4盘；当前单位未求，不能把Cp−3的单独高精度值当原M2。继续原完整Kronecker/Cartier求值桥接和真实高度，R616条件仅在归一外积使用时保留。详见[R711](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。
