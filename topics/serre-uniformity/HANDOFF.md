@@ -4,15 +4,15 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：21bd12e55844e16ac46fb4c924b858ab1c392bcd
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。最近公开Actions实际pull：2026-11-14 14:53:02 UTC，run43607163270，提交f7f3a3a676023388f0e6b8574689380f061acf3c，两README无差异。最近GitHub集成核查：2026-11-14 15:16:52 UTC，两README无差异。执行环境unavailable，根规8允许集成仅传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即重试。只读serre-public-rule-refresh凭据在computations/public-rule-refresh/43607163270-1/receipt.json；下次实际pull不晚于15:53UTC，可改同一request nonce触发。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。集成核查不冒称本地pull。
+已读规则提交：5526d60d0cd82eb95ab5a4cddad434c68ed47227
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。最近公开Actions实际pull：2026-11-14 15:17:10.6439663 UTC，run43609325075，两README无差异。最近GitHub集成核查：2026-11-14 15:22:44 UTC，两README无差异。执行环境unavailable，根规8允许集成仅传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即重试。只读serre-public-rule-refresh凭据在computations/public-rule-refresh/43607163270-1/receipt.json；下次实际pull不晚于16:17UTC，可改同一request nonce触发。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。集成核查不冒称本地pull。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R736](notes/2026-11-14-public-handoff-before-R736.md)，内接before-R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
 
 ## 正在执行和下一项
 
-- 新公开Actions任务R732-p41-original-CM-model已提交：scripts/R732_p41_original_CM_model.py、R732_public_original_CM_model.py；request notes/R732-public-p41-original-model-request.json；workflow serre-p41-original-CM-model.yml。首次计算原b的7次多项式，用U=64/x(P)³的280维精确商代数；每步保存，预算80分钟不是课题终点。检查F41(b)=0、41-Eisenstein、disc赋值6及原逆different。运行43608152850，source ff405af51e13bb966fecd066a14513eee0947702，job132487145409，计算中、无数值结论。完整状态在artifact，小凭据/小最终证书入git。R735留给成功的原模型结果。
+- 新公开Actions任务R732-p41-original-CM-model已提交：scripts/R732_p41_original_CM_model.py、R732_public_original_CM_model.py；request notes/R732-public-p41-original-model-request.json；workflow serre-p41-original-CM-model.yml。首次计算原b的7次多项式，用U=64/x(P)³的280维精确商代数；每步保存，预算80分钟不是课题终点。检查F41(b)=0、41-Eisenstein、disc赋值6及原逆different。run43608152850/source ff405af51e13bb966fecd066a14513eee0947702已成功，225.87秒，原F41(b)=0/全部系数v41=1/disc41=6均已过，cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574；R735正文准备。完整状态在artifact，小凭据/小最终证书入git。R735留给成功的原模型结果。
 - global继续R732原X1有限向量/周期矩阵和可执行RR输入；函数/β/高度仍未生成，不重算已成41分类。
 - cartier继续同一真本原h的原N_h、C_(h−2)、C_(p−h−2)同时单位。R734已全p存在N_h单位；该条件单独不够，旧p41的h37真实N单位而C35零。固定有限h>1均可被CRT同时排成本原，须允许h随p变。
 - R736已完成真实Γ/S/T三重Norm交换：divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时三个Norm=Aα，原q相位rμ((s−1)Y)=−4J，flat为−4(J−18)。unit继续真正T/Γ链到原b；实际J/b未知，R723仅留给真桥，勿用局部/pure-p值代入。
@@ -29,7 +29,7 @@ R732原completed torsion和给全部闭周期/Ω0，K线性核解原Hom，整数
 
 R729原weight5/7 full/primitive均值→π/√3，R726控primitive误差，原有限CM和Galois给指定M2非零；连同R726/R682，全充分大允许p共同coarse Abel阶m1。仅知高度s²整除，不是精确阶或单位。
 R730原完整Hodge下界v(M_mh/m!)≥−1−mp/(p+1)、全部jet比值∈Qp；原N_h全正整。R733全六标签fiber≤12点给ΣN_h<13mp，primitive geomeanN<5p(2+log2p)，全嵌入Norm迫p≥2^136某vM2h≤2，完整Tate得16I_h(p8u)/(p8M2h)=u+pH。真实KS仅非零不假定单位；Abel不回零不等于有理点排除。
-R737原L5/L7均方<2^25/2^27(1+logp)：signed scalar先求和、逐visible index-p线权≤4/rmin+21/√p、六线block正交。给mean 2vM2<3+δp，δp=[134log2+log(1+logp)+2log(2+log2p)]/logp；p≥2^160某v≤3/2，p≥2^512超过g/18标签满足。只知2v整数，完整Tate仍p8。p47h7原N奇偶任务已提交，request notes/R739-p47-h7-request.json、workflow serre-R739-p47-h7-norm.yml；原Weyl全纤维在未分歧二次环模47^4精确求和，结果待回。零模仅报≥4，不猜奇偶；勿偷推全h整数/p7。
+R737原L5/L7均方<2^25/2^27(1+logp)：signed scalar先求和、逐visible index-p线权≤4/rmin+21/√p、六线block正交。给mean 2vM2<3+δp，δp=[134log2+log(1+logp)+2log(2+log2p)]/logp；p≥2^160某v≤3/2，p≥2^512超过g/18标签满足。只知2v整数，完整Tate仍p8。R739首run43609325075全部成功：N7≡0mod47^4，仅v≥4、奇偶未知。47行/48字符计数已完，后续只复用checkpoint/fiber提升精度或圆分化简，勿重枚举；完整SHA在notes/R739-p47-h7-first-precision-checkpoint.md。
 R727同一真本原h的N_h、C_(h−2)、C_(p−h−2)三单位⇒vM2h−2及整个vs>3只center。R734已全p≥41,p5mod6有h>1真本原N_h单位：六步Legendre只容≤2相邻零对、CRT K≥5迫单位，数量≥ceil((K−4)/2)。两个C同h仍缺；固定有限h的CRT限制有效。
 R710/R711原h1整Tate/有理直线及R722原137147M2单位给两非center scalar根vs7/2、非Qp，p4等距。5992窗口候选Qp深盘scalar非回零已成；原137147h7也满足R727。全p Cp单位仍缺，超奇异/Cartier/移位不能替代固定参数临界单位，见critical-sigma-jet-parameter-boundary note。
 
