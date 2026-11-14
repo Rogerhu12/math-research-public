@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 23:02:40 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 23:03:10 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:44:51 UTC b7e434dfa289ea50505421c59a84ad77819499d6；impulse四次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：78d0e675e55437ff2461262146bdf76ed3052944；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：955dc654624747f4b5a1a432b730a56873c5d5a7；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9962B在 notes/2026-11-14-handoff-before-outer-joint-KAM.md；旧H/open/results/152结论档案链完整。actual报告、manifest、native保对象/身份/参数/全部失败及逐行证明，不凭摘要重构。
 
@@ -37,7 +37,7 @@ C1–15/N1–12精确H^-1HD、gd/h/qv已证。actual43642808159/8门/native0ceaf
 辅助E1–12同piece：43640181602 child1，Ra1e−4/5e−4成功，.001/.002 gap失败，native6276b4b8…432808B完整保；只在原germ交认同物理，不改邻piece。
 F1–19锚定fold/直接leading（SHA63e76681…）；43646714623 child1/nativea6f6225c…，小域13门过/大域selfmap失败，原native与actual报告及前H完整保。
 C1–7根积分交已推fc53baab；v2 actual43647998272 child0/6身份门+大域14门，native84e2bd1b…20319B。旧小case/两coeff/rootanchor逐字保、旧child1/fail另保。R=3/8000，canonical27/32000；Jac>4.30857883174、μ>18.56551547693、Fb<1335.043146479/Fa<2.089387252，原9e−6内L0w1幅度<6977483.057/19107989810.304。详R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md（SHA34e50180…）。sourcee4720dc7…/28pin7f00e2a2…，process855730f8…46443B；两真pull5137a924…空diff。尚非全IJ/mean/strong返回。
-D1–24/J1–19（443da14d，SHA2429213d…）保完整leading归一化，b1(0)=Fb。H1–12（f90bd556，SHA5db44117…）固定η0真根：F0..11→E0..10→四内蕴0..9，仅复用两aux完整误差升阶。43650466853 child1于Nyquist表示门；新点12列/native6cd2e5bf…552891B保。N1–5实际前缀/精确Nyquist合同（R133-supplement-actual-high-root-prefix-and-exact-Nyquist-consumption.md，SHAe003accb…）：逐球含零后仅消费视图置零，原点/失败不动、禁止重FFT。P1–25旧ρ Taylor（8c255826，SHAbb245386…）：J*=−Q*、真三角、leading8/forcing6/w1到6，完整|j|≤1536，尾付Cauchy/Wiener宽差；待新consumer。
+D1–24/J1–19（443da14d，SHA2429213d…）保完整leading归一化，b1(0)=Fb。H1–12（f90bd556，SHA5db44117…）固定η0真根：F0..11→E0..10→四内蕴0..9，仅复用两aux完整误差升阶。43650466853 child1于Nyquist表示门；新点12列/native6cd2e5bf…552891B保。N1–5实际前缀/精确Nyquist合同（R133-supplement-actual-high-root-prefix-and-exact-Nyquist-consumption.md，SHAe003accb…）：逐球含零后仅消费视图置零，原点/失败不动、禁止重FFT。60pin v2（旧52不变，manifest36ed4257…/sourcec3bb77f9…）已部署。P1–25旧ρ Taylor（8c255826，SHAbb245386…）：J*=−Q*、真三角、leading8/forcing6/w1到6，完整|j|≤1536，尾付Cauchy/Wiener宽差；待新consumer。
 root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md，SHA55baa5f0…）：ΠDU(w)=ΠU(gd)，原T密度rawmean可取M0(gd)；w1用真实S密度和完整z_K词，或旧g_K预算/(4J0)，两者合法取min。全evenmean/原1079seam/fullδ/外片与最终J窗口保。仅给负源窗口，正侧走原weighted合同；待公开新source积分，CE/Cs/充分cutoff/closed逆仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector

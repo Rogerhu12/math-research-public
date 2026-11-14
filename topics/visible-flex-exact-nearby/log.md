@@ -491,3 +491,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 23:02:40 UTC：高根真实失败前缀与精确Nyquist消费合同独推
 
 读回process6196B SHA0cc5b063…、worker2390B SHA431c0808…及stdout1326B，核child1、前7成功门、完整12列点/native6cd2e5bf…552891B；source秒1.686513763与child秒3.021072600分开保。N1–5证明仅有限F_N列的精确投影，全部无穷尾仍由原aux付。原52pins保持；v2 science删除target/FFT求值类和分支，严格只迁移此固定失败point，原payload同一。两runner真pull至7e66b837…README空diff（worker未存逐次时间），不捏造时间；本次只读核78d0e675e55437ff2461262146bdf76ed3052944README空diff。
+
+## 2026-11-14 23:03:10 UTC：高根v2严格前缀续算部署
+
+已逐diff核science/CI/worker/flow，原52件path/hash/bytes全不变，60件2331562B。science c3bb77f9…无target/FFT分支，只从原6cd2e5bf…完整点继续Cauchy/范数/mean/E/intrinsic；contains0门失败即保实际，不设零绕门。原point canonical JSON SHA迁移前后必须相同；后续恢复仍strict同v2源/manifest/runtime。原失败native/process/stdout/worker均为不可变输入。45/50min前后真pull及失败出版/artifact继承，实际数值待run。只读核955dc654624747f4b5a1a432b730a56873c5d5a7两README不变。
