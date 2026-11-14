@@ -101,3 +101,5 @@
 - 2026-11-14 20:03:27 UTC，Astra-new-mechanism-9974ea84：登记R86条件定理：三个左侧分离同形偶bump的三矩列构成非零Vandermonde，解复线性缺陷再取复平方根得准确三矩0；共同右锚使原完整目标/36列全部查询值不变。若实际37子式成功，先C6光滑化再补偿给合法C∞非退化圆，归一四次齐次保持非零。尚不宣称运行中dual成功。私有20:02:06真正pull至fb59f636，两README路径无差、QUEUE唯一行仍本会话进行中；下次不晚21:01。理论actual43635287277两lane已启动。
 
 - 2026-11-14 20:06:49 UTC，Astra-new-mechanism-9974ea84：登记tail actual43635287277完整1.961s/4681DAG/14真实histories，R85四条原式零，23–27系数全保结构；可读展开因体积省略，不冒period或正性。dual同run27.987s取得严格36/37分离子式，R87正整理。立即请求独立resume54ae5552：同job新分支人工后复用原五输入，原quartic不重跑，先拒接触warm再核原accepted，z下界1e−4/原1e−9容差，原帽高/g/盒/预算保持；仅尚未调用的joint一次。
+
+- 2026-11-14 20:09:11 UTC，Astra-new-mechanism-9974ea84：登记R87严格实际非成员：同一有理f/g、两个mode同36实控制，原始右Volterra评价192行，36/37子式mod2147483647分别1164198643/174204184非零；Q-cofactor泛函Λ杀完整W、Λb mod1188606345。原152模板hash与既有116原式span依赖保留，推出W真实维数36。R86给合法C∞三矩circle及限定collar类相对开稠密障碍；仍不排多pair/特殊profile/固定N的P0+NP1相消。同步准确第二density和正交规范纸面note，未给下一第四period符号。下一真实(h,d)多pair和P0成本继续。

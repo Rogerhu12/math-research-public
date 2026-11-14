@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`247a9d2ee5d557270c3e3c1ed39232693025f895`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`3669305b4533ca2b955ee4fe5c94a958ea49f718`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -43,14 +43,16 @@ A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。16
 
 ## 5. 理论当前真实边界
 
-R37/R45仅给真实零二阶桥与浸入四块闭合；R52给完整三阶圆，非有限族。R56保全部变系数与右锚，R70使全第四period=P0+NP1。R73第三=history+局部密度；R71消反对称history，R76真实loop隔离局部/权三，R77权三系数准确有限可达，R79闭C1空间与端点势。R80已证明**完整三线性**可达集恰Tend+W（71+77+79），两mode同实系数的实际函数商是P1必要充分门；共同I在有限紧路径族确定后选，不保证任意预给盒/长度。
+R37/R45给真实零二阶桥与浸入四块闭合，R52为完整三阶圆，非有限族。R56保变系数与同右锚；R70使全第四period=P0+NP1。R71/76/77/79准确实现第三history、C3与闭C1，R80证明完整三线性可达恰Tend+W；共同物理I在有限紧路径族后选，不保证任意预给盒/长度。R81有保pure而改mixed的真hook，R82含真实端点的pure P1已由18有理R71系数原式全消，只付−4。
 
-R82 pure阳性actual43632772378/source31a276f6：101端点行fresh核，18有理R71系数使原bulk+真实端点势+响应原式为0，只付−4。关系fa33f51a…、摘要622cd662…；旧齐次76/95项阴性没含端点项，不重复。R81真H=[r0,s0]−3[r0,r1]保全部pure而对三矩C∞圆mixed非零，不冒满射。
+完整phase v2 actual43633746055/source26c3f2c0完成122.312s：152→36原模板，116依赖fresh，a与log(a)两分量原式全消，有理余1374当时仅未产身份。**R87新actual43635287277/sourcef3102464已给实际函数非成员证书**：27.987s，原右Volterra直接评价同一有理f/g，192实行36列；p2147483647，36子式1164198643、37子式174204184均非零，真正Q泛函Λb mod1188606345。报告106444B SHA `cb813ad35ad00a8c4f63d514055e6a9d249aeced3bf5e64a16d9e494debb69e7`。W真实维数恰36，不再盲加该单pair同类控制。
 
-完整colored首actual43632772378：152模板逐响应141列后300s资源退出，原partial保留。修订d7513321先消完整T与基准可达项；**v2 actual43633746055/source26c3f2c0 complete122.312s**：152→36原模板，116依赖fresh；基准495→42/238→0/198→0，a及log(a)分量两个mode原式均0。有理常数分量target1202、联合余1374（SHA57a70c43…），未产完整身份，**非实际非成员定理**。完整报告157380B SHA `7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960`。下一针对原始函数的准确评价/Volterra泛函或具体遗漏身份，不盲添同类控制/扩正规化。
+R86左三bump准确补三复矩且保全部右锚查询；R87结合C6光滑化给合法C∞三矩circle仍不匹配，并在明确可缩小collar类相对开稠密。**只排单pair的P1单独匹配，不排特殊circle、多pair，亦不排固定N时P0+NP1抵消。** 下一literature推一般(h,d)多pair协变/正长度联合，repo_sources推真实第四成本。
 
-R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，切向4λK，保已付P1。**未知基准和偶成本仍欠，不能倒行减第四成本。** R84已证成本仅有限加法半群（倒行V+），frame环L∫(1+k²)≥4π²，统一有界k不能缩空词；未证V正性或排正长度V0。R86已证左三bump准确补三复矩且保右锚全部查询；actual43635287277已得非零36/37子式，可经C6光滑化升为某个合法C∞三矩圆障碍，不排所有circle。R85已证pure幂尾4m−9项是准确总导数，M0+常端芽自动消去；tail actual43635287277完整1.961s/14真实history/四条exactzero；23–27完整DAG已存，须从4m−8起研究，不能据密度项数立period正性。repo_sources续后阶原式，literature续剩余完整相位。全P0/逐s ruling、高阶/收敛及宏观嵌入厚度都欠。
+R83完整(w,u,v)传递：M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，保P1但基线/偶成本未付。R84成本只成有限加法半群，frame环L∫(1+k²)≥4π²；未证V正性/未排正长度V0。R85证明pure幂尾4m−9为总导数，M0+常端芽已消。tail actual43635287277完整1.961s，14真histories、四条exactzero；23–27完整DAG保notes，展开文本因体积省略非零。后阶须分析真实ODE与端差，不能以density项数立period正性。准确第二density/正交规范见notes/pure-tail-second-density-and-orthogonal-gauge-20261114.md。
+
+全P0/逐s ruling、更高阶/收敛及宏观嵌入厚度仍欠。实际输出与各证明的完整身份、范围在results.md/notes/git，H不重复历史清单。
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87正登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。当前request为joint_resume，同job新人工check后执行尚未调用的一次joint；driver54ae5552，五输入含旧quartic完整report，旧四次不重跑。mechanism随后接accepted旧场的局部核心B输运。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。当前request为joint_resume，同job新人工check后执行尚未调用的一次joint；driver54ae5552，五输入含旧quartic完整report，旧四次不重跑。mechanism随后接accepted旧场的局部核心B输运。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。

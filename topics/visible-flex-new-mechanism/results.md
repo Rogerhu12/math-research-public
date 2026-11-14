@@ -175,3 +175,5 @@
 - [R85：真实pure第四幂尾最低项的准确总导数](results/R85-pure-fourth-leading-tail-is-an-exact-derivative.md) — 保R56全部变系数与真实第二/第三histories，以Wtilde=W+λP给最低4m−9项的完整原函数αb³+βbu；常端芽和零二阶矩阵已使该period系数为0，无须另假设T0。不能以该自动消项证明第四成本正性；4m−8及后续完整系数仍欠。
 
 - [R86：左侧三矩补偿保持右Volterra分离障碍](results/R86-left-moment-completion-preserves-right-Volterra-obstructions.md) — 三个分离实偶bump的真实矩列为Vandermonde，任意复三矩缺陷可用复平方根系数准确支付；右锚因果性使旧查询矩阵不变。若真实36/37子式非零，C6连续光滑化再补偿给C∞合法三矩圆仍不匹配P1，统一归一保四次齐次子式非零。条件定理已证，实际子式仍待；不排所有circle或其他机制。
+
+- [R87：完整P1准确分离、真实控制维数与光滑圆障碍](results/R87-exact-complete-P1-separation-and-smooth-moment-circles.md) — actual43635287277原式有理评价给36/37非零子式，真正Q泛函杀完整控制空间而不杀目标，W真实维数恰36。R86补矩/光滑化给合法C∞三矩圆，明确collar类中此障碍相对开稠密。只排单互反pair的P1单独匹配；特殊circle、多pair、固定N的P0+NP1抵消及其他机制仍未排。
