@@ -1,0 +1,1348 @@
+{
+  "schema": "actual58-collocation-observer-JSON-byte-audit-v1",
+  "scientific_evaluations": 0,
+  "new_matrix_actions_norms_extrema_or_weights": false,
+  "full_original_col_vector_or_weight_raw_arrays_independently_exported": false,
+  "scope": "Actual saved JSON/source SHA and exact report equality; pre/post array identities and scalar maxima are the original Actions observer reports, not independently recomputed here.",
+  "entry": {
+    "schema": "original-return-collocation-location-observer-v1",
+    "execution_wrapper_file": "geometry_20261114_seventeen_query_collocation_observer_warm.py",
+    "execution_wrapper_source_sha256": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121",
+    "original_seventeen_query_entry_source_sha256": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "original_optimizer_schema": "exact-constraint-seventeen-query-condensed-complete-H-warm-v1",
+    "observed_original_sources": {
+      "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+    },
+    "actual_parent_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "actual_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "observer_source_sha256": {
+      "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121"
+    },
+    "mathematical_source_ledger_and_schema_unchanged": true,
+    "original_evaluate_called_once_per_original_request": true,
+    "original_weights_called_once_per_original_request": true,
+    "extra_RHS_calls": 0,
+    "extra_Jacobian_calls": 0,
+    "extra_profile_boundary_or_model_calls": 0,
+    "extra_trials": 0,
+    "full_physical_scope": "all intervals and all original physical components",
+    "row_order": "interval-major physical collocation, then all original right boundary rows",
+    "row_weight_scope": "the original base-state Wr returned once for this model, frozen across trials",
+    "no_trial_fmid_weight_recomputation": true,
+    "observer_exceptions_do_not_replace_original_return_or_gate": true,
+    "numerical_result_or_acceptance_claimed_by_observer": false
+  },
+  "sources": {
+    "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121"
+  },
+  "all_local_source_SHA_match": true,
+  "mathematical_source_name_set_unmodified_by_wrapper": true,
+  "original_FD_full_producer_equals_actual_warm": true,
+  "original_status_identity_and_current_observer_ledger_match": true,
+  "original_instances": [
+    {
+      "original_evaluate_calls": 11,
+      "original_weights_calls": 1,
+      "observer_errors": 0,
+      "original_weight_array_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0001.json",
+      "bytes": 6850,
+      "sha256": "19b63d269c8b06ac979624645ab14a7ad23567974f547f58c0561005986d9bed",
+      "evaluate_call": 1
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0002.json",
+      "bytes": 3678,
+      "sha256": "f27e3f0d74413628f2ce53673aa5641a979d73d3344233d4c7e5b293214e2624",
+      "evaluate_call": 2
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0003.json",
+      "bytes": 3678,
+      "sha256": "d61b4de90314270bf06c5ad691f2b288418693f401274bd629f824203a743e09",
+      "evaluate_call": 3
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0004.json",
+      "bytes": 6844,
+      "sha256": "ae82ece66b840c093913573d264fffe38f2529ea46ba87741c577ef9c5974cc6",
+      "evaluate_call": 4
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0005.json",
+      "bytes": 6843,
+      "sha256": "a022a5434d8b7e20f43e86e2b4cc13cc60719eda59915f0d27c8aefba2b9a19b",
+      "evaluate_call": 5
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0006.json",
+      "bytes": 6856,
+      "sha256": "b02620e3524846ee0ff64b2b23afd52b836a36c0f1cb0b1afd7d7bb358fc6b71",
+      "evaluate_call": 6
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0007.json",
+      "bytes": 6853,
+      "sha256": "24745617cf7353ae4116b5b5e7b95fbe58a132103ff207920ee96fc41bdf13d3",
+      "evaluate_call": 7
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0008.json",
+      "bytes": 6851,
+      "sha256": "ffb99a48e13615e6258821f4a000e6f35707499253217b45c633901d891efa19",
+      "evaluate_call": 8
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0009.json",
+      "bytes": 6851,
+      "sha256": "68c9f51ede4eca15a8e2831726c7d80d7ef9d8da0ae36e13d9346ee304752b17",
+      "evaluate_call": 9
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0010.json",
+      "bytes": 6856,
+      "sha256": "40b08ef32ebff0516ffeab23ce90ce3e89d07a326ec4d4008f1f602277c6c4ad",
+      "evaluate_call": 10
+    },
+    {
+      "file": "seventeen-condensed-warm/collocation-observer/evaluate-0011.json",
+      "bytes": 6859,
+      "sha256": "5b1bdc0e4a2db05daf70c13d6ac71b59c0e2dffa6eac2ae1eab0af00397f56d5",
+      "evaluate_call": 11
+    }
+  ],
+  "saved_observations": [
+    {
+      "evaluate_call": 1,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940451957601,
+        "absolute_value": 0.007109940451957601,
+        "original_vector_value": -0.007109940451957601,
+        "original_array_components": {
+          "y_left": 0.2135705161371024,
+          "y_right": 0.2064217009809623,
+          "f_left": -0.009802181309664114,
+          "f_right": -0.005873841768341595,
+          "f_midpoint": -0.007779785216139139,
+          "middle_state": 0.20999366098179253
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109940451957601,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940451957601,
+        "absolute_value": 0.007109940451957601,
+        "original_vector_value": -0.007109940451957601,
+        "original_array_components": {
+          "y_left": 0.2135705161371024,
+          "y_right": 0.2064217009809623,
+          "f_left": -0.009802181309664114,
+          "f_right": -0.005873841768341595,
+          "f_midpoint": -0.007779785216139139,
+          "middle_state": 0.20999366098179253
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "49972b59091d16b0f9bc3ac70bee4985e21785a25dc63d9f1a369664d0e61997",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "a0d8b7a1dd05228dbc2487e8aa2630ba6efb5b58763fec68ab2b88dfc35c7b94",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 2,
+      "original_require_rms": false,
+      "original_returned_finite": false,
+      "complete_physical_maximum_defined": false,
+      "full_physical_argmax": null,
+      "complete_residual_maximum_defined": false,
+      "complete_residual_argmax": null,
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "b28a86e02d913d6f44d42646870b0056ae9fca4670e3d36ecb5a17c212ba7cc2",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "5448b61c8c81e01a61001ca769cfd1d202ce848eea473eb115d4f1c652da9402",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 3,
+      "original_require_rms": false,
+      "original_returned_finite": false,
+      "complete_physical_maximum_defined": false,
+      "full_physical_argmax": null,
+      "complete_residual_maximum_defined": false,
+      "complete_residual_argmax": null,
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "355107be0ec296901c8a08df94ffa10d55ccfcab4ccacc53ee4cb2df5f376cf7",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "30ed4769ec9940d1b2523cf51760081b06e30627902bbe9ca4c0703be7da809d",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 4,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.00710961172228531,
+        "absolute_value": 0.00710961172228531,
+        "original_vector_value": -0.00710961172228531,
+        "original_array_components": {
+          "y_left": 0.21357039690557744,
+          "y_right": 0.20642164418735295,
+          "f_left": -0.00985808499672205,
+          "f_right": -0.005934639763494642,
+          "f_midpoint": -0.007830746523776595,
+          "middle_state": 0.2099935760186556
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.00710961172228531,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.00710961172228531,
+        "absolute_value": 0.00710961172228531,
+        "original_vector_value": -0.00710961172228531,
+        "original_array_components": {
+          "y_left": 0.21357039690557744,
+          "y_right": 0.20642164418735295,
+          "f_left": -0.00985808499672205,
+          "f_right": -0.005934639763494642,
+          "f_midpoint": -0.007830746523776595,
+          "middle_state": 0.2099935760186556
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "6016f20eceaecd6a3d7c3ea565594f20a606485c459b808eea90c61f26911328",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "db3cb0cfdc56120451a9f006ed2e68d68a5805412dc5872e28e4683d5dca4ca4",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 5,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.00710961172228531,
+        "absolute_value": 0.00710961172228531,
+        "original_vector_value": -0.00710961172228531,
+        "original_array_components": {
+          "y_left": 0.21357039690557744,
+          "y_right": 0.20642164418735295,
+          "f_left": -0.00985808499672205,
+          "f_right": -0.005934639763494642,
+          "f_midpoint": -0.007830746523776595,
+          "middle_state": 0.2099935760186556
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.00710961172228531,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.00710961172228531,
+        "absolute_value": 0.00710961172228531,
+        "original_vector_value": -0.00710961172228531,
+        "original_array_components": {
+          "y_left": 0.21357039690557744,
+          "y_right": 0.20642164418735295,
+          "f_left": -0.00985808499672205,
+          "f_right": -0.005934639763494642,
+          "f_midpoint": -0.007830746523776595,
+          "middle_state": 0.2099935760186556
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "6016f20eceaecd6a3d7c3ea565594f20a606485c459b808eea90c61f26911328",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "db3cb0cfdc56120451a9f006ed2e68d68a5805412dc5872e28e4683d5dca4ca4",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 6,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.0071099403201157945,
+        "absolute_value": 0.0071099403201157945,
+        "original_vector_value": -0.0071099403201157945,
+        "original_array_components": {
+          "y_left": 0.2135705160894098,
+          "y_right": 0.20642170095824486,
+          "f_left": -0.00980220367159723,
+          "f_right": -0.005873866088584947,
+          "f_midpoint": -0.007779805705596687,
+          "middle_state": 0.2099936609478077
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.0071099403201157945,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.0071099403201157945,
+        "absolute_value": 0.0071099403201157945,
+        "original_vector_value": -0.0071099403201157945,
+        "original_array_components": {
+          "y_left": 0.2135705160894098,
+          "y_right": 0.20642170095824486,
+          "f_left": -0.00980220367159723,
+          "f_right": -0.005873866088584947,
+          "f_midpoint": -0.007779805705596687,
+          "middle_state": 0.2099936609478077
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "773d21fa8fb00c7f01d89b77a0febecb29bef56fd0b063ce68a979a48d1a9741",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "65813a9d16b6ec246021b5fc1b549214f356977bfbb74e7e3dd373a3baa7f7ce",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 7,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940583799688,
+        "absolute_value": 0.007109940583799688,
+        "original_vector_value": -0.007109940583799688,
+        "original_array_components": {
+          "y_left": 0.213570516184795,
+          "y_right": 0.20642170100367974,
+          "f_left": -0.009802158947730809,
+          "f_right": -0.005873817448097275,
+          "f_midpoint": -0.0077797647265975475,
+          "middle_state": 0.20999366101577743
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109940583799688,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940583799688,
+        "absolute_value": 0.007109940583799688,
+        "original_vector_value": -0.007109940583799688,
+        "original_array_components": {
+          "y_left": 0.213570516184795,
+          "y_right": 0.20642170100367974,
+          "f_left": -0.009802158947730809,
+          "f_right": -0.005873817448097275,
+          "f_midpoint": -0.0077797647265975475,
+          "middle_state": 0.20999366101577743
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "b402875062bb4849033593918bd1f4e8c626e5d0310974bd32d4a8ce07918118",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "5c6b8fb8ef725e44f81d80b36ad3615b9b6b4fdc5c2049b56eb9a9dabe4001a3",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 8,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940386036649,
+        "absolute_value": 0.007109940386036649,
+        "original_vector_value": -0.007109940386036649,
+        "original_array_components": {
+          "y_left": 0.2135705161132561,
+          "y_right": 0.20642170096960358,
+          "f_left": -0.009802192490630607,
+          "f_right": -0.005873853928463401,
+          "f_midpoint": -0.007779795460878464,
+          "middle_state": 0.2099936609648001
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109940386036649,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940386036649,
+        "absolute_value": 0.007109940386036649,
+        "original_vector_value": -0.007109940386036649,
+        "original_array_components": {
+          "y_left": 0.2135705161132561,
+          "y_right": 0.20642170096960358,
+          "f_left": -0.009802192490630607,
+          "f_right": -0.005873853928463401,
+          "f_midpoint": -0.007779795460878464,
+          "middle_state": 0.2099936609648001
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "27f43910c5fe48df2c6e89956a88b1ee31909441ee3962ae3b35a41d0a6a34ac",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "42114207c88e5bd839d3661419b2f4e9e9f2b481f1a09764b41bf9b074e052a0",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 9,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940517878623,
+        "absolute_value": 0.007109940517878623,
+        "original_vector_value": -0.007109940517878623,
+        "original_array_components": {
+          "y_left": 0.21357051616094871,
+          "y_right": 0.20642170099232102,
+          "f_left": -0.009802170128697543,
+          "f_right": -0.005873829608219527,
+          "f_midpoint": -0.007779774971378799,
+          "middle_state": 0.209993660998785
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109940517878623,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940517878623,
+        "absolute_value": 0.007109940517878623,
+        "original_vector_value": -0.007109940517878623,
+        "original_array_components": {
+          "y_left": 0.21357051616094871,
+          "y_right": 0.20642170099232102,
+          "f_left": -0.009802170128697543,
+          "f_right": -0.005873829608219527,
+          "f_midpoint": -0.007779774971378799,
+          "middle_state": 0.209993660998785
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "bd8b41ee4af466fefea6812a86b3aaefce4f68e1b8773ea3800b9cacf5024524",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "ae03d5deff4d2b8ef0ebf3d8be9576606d29007044b58ef8c0c46df9db0b3590",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 10,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940418997131,
+        "absolute_value": 0.007109940418997131,
+        "original_vector_value": -0.007109940418997131,
+        "original_array_components": {
+          "y_left": 0.21357051612517924,
+          "y_right": 0.20642170097528292,
+          "f_left": -0.00980218690014743,
+          "f_right": -0.0058738478484024964,
+          "f_midpoint": -0.007779790338511243,
+          "middle_state": 0.20999366097329633
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109940418997131,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109940418997131,
+        "absolute_value": 0.007109940418997131,
+        "original_vector_value": -0.007109940418997131,
+        "original_array_components": {
+          "y_left": 0.21357051612517924,
+          "y_right": 0.20642170097528292,
+          "f_left": -0.00980218690014743,
+          "f_right": -0.0058738478484024964,
+          "f_midpoint": -0.007779790338511243,
+          "middle_state": 0.20999366097329633
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "89734ab68614a0471696b78967130694042c5977f2232c53b6114b8ab621af60",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "bf1d356e467f9f2495813b37d92734366eb3d8159835a8911197b7638fb8f96c",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "evaluate_call": 11,
+      "original_require_rms": false,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.0071099404849180895,
+        "absolute_value": 0.0071099404849180895,
+        "original_vector_value": -0.0071099404849180895,
+        "original_array_components": {
+          "y_left": 0.21357051614902556,
+          "y_right": 0.20642170098664167,
+          "f_left": -0.009802175719180807,
+          "f_right": -0.00587383568828059,
+          "f_midpoint": -0.007779780093761643,
+          "middle_state": 0.2099936609902888
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.0071099404849180895,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_maximum_defined": true,
+      "complete_residual_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.0071099404849180895,
+        "absolute_value": 0.0071099404849180895,
+        "original_vector_value": -0.0071099404849180895,
+        "original_array_components": {
+          "y_left": 0.21357051614902556,
+          "y_right": 0.20642170098664167,
+          "f_left": -0.009802175719180807,
+          "f_right": -0.00587383568828059,
+          "f_midpoint": -0.007779780093761643,
+          "middle_state": 0.2099936609902888
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.07511842631416,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "9203028f7011aec415017449ec721b274c2006268693132202f5bf5f992c08bf",
+            "bytes": 1888288,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007779785216139139,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "kind": "physical-collocation"
+      },
+      "original_complete_collocation_identity": {
+        "shape": [
+          698,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "178939965e5f37205a4eea5d1bb62eddd5351923366e249b5147414929bc1ecd",
+        "bytes": 2529552,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complete_residual_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "e4ecdb043118b6e2ac83adef90a1e8a9f65e0f3c772b9e91c26d28f4ba18469c",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "model_embedded_report_calls": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "all_embedded_observer_reports_equal_saved_original_files": true,
+  "input_files": {
+    "seventeen-condensed-warm/collocation-observer/run-summary.json": {
+      "bytes": 2736,
+      "sha256": "38fdd19f21049245bddd09d2a26f04d6fe984ec8f65c6bb42f8dbaa74a9918bb"
+    },
+    "seventeen-condensed-warm/driver-status.json": {
+      "bytes": 1276068,
+      "sha256": "64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763"
+    },
+    "seventeen-condensed-warm/warm-001.json.gz": {
+      "bytes": 4775328,
+      "sha256": "3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864"
+    },
+    "seventeen-condensed-warm/model-000.json": {
+      "bytes": 498894,
+      "sha256": "aa5ae1b548a13a707204f10256fbb3b70d850a2d2e0469759482333f32c8f435"
+    },
+    "seventeen-condensed-warm/optimization-intent.json": {
+      "bytes": 690816,
+      "sha256": "c4086d6f5e4eb5351950e07873f91e83879fc11b909e1d3950b6f4fca5a481af"
+    },
+    "physical-response/response-check.json": {
+      "bytes": 793221,
+      "sha256": "dc5494d7de15e27658fd1809105660bd84715cc3154d3e0ead04d928988c3d55"
+    }
+  }
+}
