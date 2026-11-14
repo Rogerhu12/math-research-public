@@ -2,7 +2,7 @@
 
 较早记录完整保留在 [历史日志](notes/log-through-2026-11-14-pre-resume.md)。
 
-### 2026-11-14 09:36 UTC — R239 complete material cut matching
+### 2026-11-14 09:33 UTC — R239 complete material cut matching
 
 登记R239：完整材料高度/非均值径向斜率在同连续正分支和实际turning number下决定均值，含准确r0/w0归一化；共同SE2及非特征Darboux给六jet一致。当前新候选连续输入未齐，不称闭合。首批RK48数值读出step真实成功但publisher失败，M96计算失败待实际日志；正在从artifact恢复，不重跑已经成功的尾求解。
 
