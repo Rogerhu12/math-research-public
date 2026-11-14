@@ -129,3 +129,5 @@
 - 2026-11-14 20:40 UTC，Astra-new-mechanism-9974ea84：最大metric actual43637739532人工pass/54物理eval，304.967s预算退，原δ门未合只返回81a。完整history显示54点全过物理门，第54真η=.2652827192且全态5d383918已存，δ低估.000116，峰转body s=.42。准确投影论证说明应另保物理门下真η最佳，旧辅助失败仍在。下一独立七input消费该trial作完整细网曲率/镜像审计，无optimizer，工作改善尚非fine或reach通过。
 
 - 2026-11-14 20:42 UTC，Astra-new-mechanism-9974ea84：登记R94完整分权纸证与E两条Jordan链，真W36基逐权维数明确，全响应252原列分11块、最大48。请求独立40ff1701首3最高raw权/240s/1GiB；可传A的紧凑两mode接口及真实权投影已小人工原式核，实际原式恢复仅公开Actions。块阳性fresh全函数，负需r上界与真实r+1子式且只universal；每完整块先保存再索引，后续不重算旧块。
+
+- 2026-11-14 20:45:32 UTC，Astra-new-mechanism-9974ea84：请求两个消费lane：七输入独立5d383完整物理trial只读100×192/160×384/768，旧δ失败保留、无优化；D25既有2172项action的七短系数和真实c10/c9端势fresh原DAG核，不重编forcing、不先授period符号。源码47f02c5a/f7ed0471；新trial人工主流程在同一公开job先行，compression小人工已过不重复。私有20:42:44实际pull至a0de3f9f、双规则路径无差、QUEUE唯一行仍进行中。R94run43638896281与leading43638423274已complete，随后消费结果。
