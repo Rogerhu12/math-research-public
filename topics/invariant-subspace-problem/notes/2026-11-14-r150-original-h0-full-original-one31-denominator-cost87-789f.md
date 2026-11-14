@@ -77,7 +77,7 @@
 
 ## 5. 完整来源及恢复入口
 
-[结果目录](r150-one31-h0-actions-789f/43626632693-1/)、[压缩流清单](r150-one31-h0-actions-789f/43626632693-1/certificate-manifest.json)、[全部恢复清单](r150-one31-h0-actions-789f/43626632693-1/recovery-manifest.json)和[推送文件清单](r150-one31-h0-actions-789f/43626632693-1/publication-file-manifest.json)已入主线。结果原45文件共22347668B，另加发布清单与发布前规则记录；14个生成二进制全部有无损gzip，每片至多4500000B。25个实际恢复文件共35481532B完整保存在恢复 artifact，二进制与真实VQ检查点也已入上述目录；四个小阶段缓存JSON另行补存，以便artifact到期后仍能直接继续。
+[结果目录](r150-one31-h0-actions-789f/43626632693-1/)、[压缩流清单](r150-one31-h0-actions-789f/43626632693-1/certificate-manifest.json)、[全部恢复清单](r150-one31-h0-actions-789f/43626632693-1/recovery-manifest.json)和[推送文件清单](r150-one31-h0-actions-789f/43626632693-1/publication-file-manifest.json)已入主线。结果原45文件共22347668B，另加发布清单与发布前规则记录；14个生成二进制全部有无损gzip，每片至多4500000B。25个实际恢复文件共35481532B完整保存在恢复 artifact，二进制与真实VQ检查点也已入上述目录；四个小阶段缓存JSON及全部原终端发布记录已由纯保存run43628835884补入[后续保存目录](r150-one31-h0-actions-789f/43628835884-1/)，提交4adde9dde8a36fc07a284236a2b9ac1ecfa10729；七个复制文件共20295B。全部25恢复文件现在都有主线覆盖，未重新运行数学阶段。
 
 关键未压缩来源：
 

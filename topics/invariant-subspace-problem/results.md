@@ -103,3 +103,7 @@
 ### R297 附录：固定正权区间上整个平衡star的全尺寸统一预算
 
 [完整覆盖定理](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)将六条已经付清的同一真实全源估计按无循环阈值接合，得到每个固定0<a≤b<∞下J*L⁻¹J≤κ(a,b)H，对任意Q、组数、qi及全部漂移/曲率统一。先扩倒数封闭区间[A,B]；S小用全漂移预算，S大反射至峰≤1/2。内峰按固定η、t√M大/小分别入内峰/角点/Gaussian；真端按R/√S、S/R再分Gaussian/大亮角点/小亮C/R²，阈值S0=B²max(1,S_G,B²M0,K0R1)确保无有限R或联合退化漏口。κ=max{K_bd(A,B,S0),2}有限，未直接在无限维参数空间取未证上确界。此完整star子问题已闭；权区间退化、一般出生与原无限graph两侧来源费用继续，主ISP仍开。
+
+### R297 附录：有限次数Bernoulli共同度量与完整Schur预算
+
+[完整系数空间证明](notes/2026-11-14-bounded-degree-bernoulli-comparison-and-common-schur-phase-budget-789f.md)在次数≤k的平方自由多项式空间中证明降次移位||Aδ||≤√k||δ||，与逐位方差对角共同给Bernoulli p_i(t)对参考t的维数无关双边范数比较。实际ρ上下界与任意正积分权相乘后得显式αK0≤Kz≤βK0；完整同一nuisance空间取infimum使Schur继承比较，未错误比较单独回归项。满足真实等权H0=L0=B,Q0=2B,C0=0的模型于是有κ=(2Θ²+3Θ)²。固定k中央区对任意Q统一，且|zi−1|≤η/k、kS和D有界时常数连k也无关；更高物理来源的具体识别继续。原31h0四缓存与原发布记录另已完整补存，无数学重跑。

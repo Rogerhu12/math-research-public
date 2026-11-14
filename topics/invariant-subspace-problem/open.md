@@ -110,7 +110,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
 
-**平衡主组的完整共同相位：** [任意多组Beta–binomial运输](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理q0=Σ其余q、硬源U一维/低源V维数任意。h/g/ell=c(H/G/L)，G是全部占据协方差，q=c(4G+yy*)；共同正Gram、同系数均值运输与秩二位移均准确。仍须界完整非交换J=HG⁻¹L−2G−yy*，不能以共同正块的另一交叉自动替目标；任意有硬源模块与原graph继续。
+**平衡主组的完整共同相位：** [任意多组Beta–binomial运输](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理q0=Σ其余q、硬源U一维/低源V维数任意。h/g/ell=c(H/G/L)，G是全部占据协方差，q=c(4G+yy*)；共同正Gram、同系数均值运输与秩二位移均准确。固定正权区间的完整J现已由上方全尺寸定理支付；权比退化、任意有硬源模块与原graph继续，不能用共同正块的另一交叉替目标。
 
 **实际cofactor正核：** [显式完整Gram与score jets](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)已付所有Q的严格正系数核及真实G/H/L接口；混合正权保1−z_j w_j*符号，尚须由共同jet Schur支付J。
 

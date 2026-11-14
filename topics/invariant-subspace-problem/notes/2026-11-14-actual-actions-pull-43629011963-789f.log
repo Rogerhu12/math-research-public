@@ -1,0 +1,116 @@
+﻿2026-11-14T18:52:38.4569736Z Current runner version: '2.338.2'
+2026-11-14T18:52:38.4587669Z ##[group]Runner Image Provisioner
+2026-11-14T18:52:38.4588312Z Hosted Compute Agent
+2026-11-14T18:52:38.4588796Z Version: 20261103.629
+2026-11-14T18:52:38.4589256Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+2026-11-14T18:52:38.4589778Z Build Date: 2026-11-03T17:26:59Z
+2026-11-14T18:52:38.4590275Z Worker ID: {693df995-b2c3-4a3d-b188-3714d16c2006}
+2026-11-14T18:52:38.4591110Z Region: us-west-2
+2026-11-14T18:52:38.4591518Z Cloud: AWS
+2026-11-14T18:52:38.4591933Z ##[endgroup]
+2026-11-14T18:52:38.4593087Z ##[group]Operating System
+2026-11-14T18:52:38.4593557Z Ubuntu
+2026-11-14T18:52:38.4593919Z 26.04.1
+2026-11-14T18:52:38.4594265Z LTS
+2026-11-14T18:52:38.4594658Z ##[endgroup]
+2026-11-14T18:52:38.4595039Z ##[group]Runner Image
+2026-11-14T18:52:38.4595455Z Image: ubuntu-26.04
+2026-11-14T18:52:38.4595878Z Version: 20261111.82.6
+2026-11-14T18:52:38.4596811Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.82/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-14T18:52:38.4597897Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.82
+2026-11-14T18:52:38.4598592Z ##[endgroup]
+2026-11-14T18:52:38.4599402Z ##[group]GITHUB_TOKEN Permissions
+2026-11-14T18:52:38.4601343Z Contents: read
+2026-11-14T18:52:38.4601758Z Metadata: read
+2026-11-14T18:52:38.4602152Z ##[endgroup]
+2026-11-14T18:52:38.4603912Z Secret source: Actions
+2026-11-14T18:52:38.4604546Z Cache mode: write
+2026-11-14T18:52:38.4605042Z Prepare workflow directory
+2026-11-14T18:52:38.4830205Z Prepare all required actions
+2026-11-14T18:52:38.4900543Z Complete job name: actual-pull
+2026-11-14T18:52:38.5866890Z ##[group]Run set -euo pipefail
+2026-11-14T18:52:38.5867801Z [36;1mset -euo pipefail[0m
+2026-11-14T18:52:38.5868533Z [36;1mmkdir -p "$RUNNER_TEMP/isp-789f-rule-pull"[0m
+2026-11-14T18:52:38.5869498Z [36;1mcd "$RUNNER_TEMP/isp-789f-rule-pull"[0m
+2026-11-14T18:52:38.5870220Z [36;1mgit init -q[0m
+2026-11-14T18:52:38.5871275Z [36;1mgit remote add origin https://github.com/Rogerhu12/math-research-public.git[0m
+2026-11-14T18:52:38.5872374Z [36;1mgit sparse-checkout init --no-cone[0m
+2026-11-14T18:52:38.5873591Z [36;1mgit sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'[0m
+2026-11-14T18:52:38.5874935Z [36;1mtimeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"[0m
+2026-11-14T18:52:38.5875930Z [36;1mgit checkout -b main FETCH_HEAD[0m
+2026-11-14T18:52:38.5876701Z [36;1mexport ISP_BEFORE_PULL="$(git rev-parse HEAD)"[0m
+2026-11-14T18:52:38.5877504Z [36;1mtimeout 120s git pull --rebase origin main[0m
+2026-11-14T18:52:38.5878441Z [36;1mexport ISP_AFTER_PULL="$(git rev-parse HEAD)"[0m
+2026-11-14T18:52:38.5879176Z [36;1mpython - <<'PY'[0m
+2026-11-14T18:52:38.5879906Z [36;1mimport datetime, json, os, subprocess[0m
+2026-11-14T18:52:38.5881145Z [36;1mrules = ['README.md', 'topics/invariant-subspace-problem/README.md'][0m
+2026-11-14T18:52:38.5882748Z [36;1mexpected = {'README.md': '6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09', 'topics/invariant-subspace-problem/README.md': '4d6570e9cf346431ab781a1290076a6321aaaa00'}[0m
+2026-11-14T18:52:38.5884447Z [36;1mbefore, after = os.environ['ISP_BEFORE_PULL'], os.environ['ISP_AFTER_PULL'][0m
+2026-11-14T18:52:38.5885693Z [36;1mdiff = subprocess.check_output(['git', 'diff', before, after, '--', *rules], text=True)[0m
+2026-11-14T18:52:38.5886967Z [36;1mblobs = {p: subprocess.check_output(['git', 'hash-object', p], text=True).strip() for p in rules}[0m
+2026-11-14T18:52:38.5888089Z [36;1msame = not diff and blobs == expected[0m
+2026-11-14T18:52:38.5890489Z [36;1mreceipt = {'format':'isp-789f-actual-actions-pull-v1', 'remoteCommit':after, 'beforeCommit':before, 'utc':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'), 'actualPullRebaseSucceeded':True, 'rulesUnchanged':same, 'rulesGitBlobs':blobs, 'executionEnvironment':'GitHubActions', 'runId':os.environ['ISP_RUN_ID']}[0m
+2026-11-14T18:52:38.5893363Z [36;1mif diff:[0m
+2026-11-14T18:52:38.5894196Z [36;1m    print(diff, flush=True)[0m
+2026-11-14T18:52:38.5895121Z [36;1mprint('ISP_PULL_RECEIPT ' + json.dumps(receipt, ensure_ascii=False), flush=True)[0m
+2026-11-14T18:52:38.5896047Z [36;1mif not same:[0m
+2026-11-14T18:52:38.5896923Z [36;1m    raise SystemExit('README changed: root must read the exact differences before further work')[0m
+2026-11-14T18:52:38.5898046Z [36;1mPY[0m
+2026-11-14T18:52:39.5617426Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-14T18:52:39.5618313Z env:
+2026-11-14T18:52:39.5618788Z   ISP_PIN: b23b6703f6530d2f0b5bbf9dbdb87114577fb35d
+2026-11-14T18:52:39.5619391Z   ISP_RUN_ID: 43629011963
+2026-11-14T18:52:39.5619856Z ##[endgroup]
+2026-11-14T18:52:40.2240278Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T18:52:40.2242197Z  * branch            b23b6703f6530d2f0b5bbf9dbdb87114577fb35d -> FETCH_HEAD
+2026-11-14T18:52:40.5390106Z Switched to a new branch 'main'
+2026-11-14T18:52:40.8960146Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T18:52:40.8961280Z  * branch            main       -> FETCH_HEAD
+2026-11-14T18:52:40.8961721Z  * [new branch]      main       -> origin/main
+2026-11-14T18:52:40.9761594Z Updating b23b670..b487efa
+2026-11-14T18:52:40.9762156Z Fast-forward
+2026-11-14T18:52:41.2927766Z  .../complete-original-row-cover.json               | 628 +++++++++++++++++++++
+2026-11-14T18:52:41.2928584Z  .../original-preparation-identity.json             |   7 +
+2026-11-14T18:52:41.2929175Z  .../process.json                                   | 398 +++++++++++++
+2026-11-14T18:52:41.2930316Z  .../producer.stdout.log.gz                         | Bin 0 -> 100183 bytes
+2026-11-14T18:52:41.2931138Z  .../process.json                                   | 382 +++++++++++++
+2026-11-14T18:52:41.2931746Z  .../producer.stdout.log.gz                         | Bin 0 -> 99077 bytes
+2026-11-14T18:52:41.2932358Z  .../process.json                                   | 444 +++++++++++++++
+2026-11-14T18:52:41.2932924Z  .../producer.stdout.log.gz                         | Bin 0 -> 102287 bytes
+2026-11-14T18:52:41.2933500Z  .../process.json                                   | 358 ++++++++++++
+2026-11-14T18:52:41.2934046Z  .../producer.stdout.log.gz                         | Bin 0 -> 99079 bytes
+2026-11-14T18:52:41.2934636Z  .../process.json                                   | 395 +++++++++++++
+2026-11-14T18:52:41.2935237Z  .../producer.stdout.log.gz                         | Bin 0 -> 100081 bytes
+2026-11-14T18:52:41.2935812Z  .../process.json                                   | 430 ++++++++++++++
+2026-11-14T18:52:41.2936412Z  .../producer.stdout.log.gz                         | Bin 0 -> 106544 bytes
+2026-11-14T18:52:41.2936970Z  .../process.json                                   | 358 ++++++++++++
+2026-11-14T18:52:41.2937544Z  .../producer.stdout.log.gz                         | Bin 0 -> 93940 bytes
+2026-11-14T18:52:41.2938183Z  .../process.json                                   | 444 +++++++++++++++
+2026-11-14T18:52:41.2938779Z  .../producer.stdout.log.gz                         | Bin 0 -> 94048 bytes
+2026-11-14T18:52:41.2939543Z  .../evidence/original-mixed-process.json           | 312 ++++++++++
+2026-11-14T18:52:41.2940097Z  .../evidence/original-repair-process.json          | 347 ++++++++++++
+2026-11-14T18:52:41.2940669Z  .../process.json                                   | 201 +++++++
+2026-11-14T18:52:41.2941338Z  21 files changed, 4704 insertions(+)
+2026-11-14T18:52:41.2942308Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/complete-original-row-cover.json
+2026-11-14T18:52:41.2943557Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-preparation-identity.json
+2026-11-14T18:52:41.2944813Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-1200-2133-43583838026-1/process.json
+2026-11-14T18:52:41.2946394Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-1200-2133-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2947723Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-2133-3066-43583838026-1/process.json
+2026-11-14T18:52:41.2949446Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-2133-3066-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2951554Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-257-1200-43583838026-1/process.json
+2026-11-14T18:52:41.2953106Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-257-1200-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2954611Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-3066-4000-43583838026-1/process.json
+2026-11-14T18:52:41.2955996Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-3066-4000-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2957456Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-4000-5000-43583838026-1/process.json
+2026-11-14T18:52:41.2958789Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-4000-5000-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2960139Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-5000-6000-43583838026-1/process.json
+2026-11-14T18:52:41.2961692Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-5000-6000-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2963035Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-6001-6860-43583838026-1/process.json
+2026-11-14T18:52:41.2964359Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-6001-6860-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2965691Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-6860-7721-43583838026-1/process.json
+2026-11-14T18:52:41.2967107Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-input-audit/original-processes/visible-exact-body-rows-6860-7721-43583838026-1/producer.stdout.log.gz
+2026-11-14T18:52:41.2968300Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-mixed-process.json
+2026-11-14T18:52:41.2969254Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/evidence/original-repair-process.json
+2026-11-14T18:52:41.2970190Z  create mode 100644 topics/visible-flex-exact-nearby/notes/known_high_Z_tail_source_ci/run-43628921664-1-complete-known-high-Z-tail-source/process.json
+2026-11-14T18:52:41.3167975Z ISP_PULL_RECEIPT {"format": "isp-789f-actual-actions-pull-v1", "remoteCommit": "b487efae88c185ac8f4b1f934dcf38aa5565dea1", "beforeCommit": "b23b6703f6530d2f0b5bbf9dbdb87114577fb35d", "utc": "2026-11-14 18:52:41 UTC", "actualPullRebaseSucceeded": true, "rulesUnchanged": true, "rulesGitBlobs": {"README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09", "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"}, "executionEnvironment": "GitHubActions", "runId": "43629011963"}
+2026-11-14T18:52:41.3331876Z Cleaning up orphan processes
