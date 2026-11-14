@@ -498,8 +498,15 @@ root已读四源全部差异、[16接口](notes/2026-11-14-sixteen-query-condens
 57固定同54完整1372矩阵和原H/r/σ/cut/far，以R273全链HouseholderQR显式eta=1、完整R/S/affine/常数/1373罚项/307552原exact行生成新方向，随后真实结果SHA接[独立原十trial](notes/2026-11-14-native-damped-chain-original-trial-interface.md)。全部1373→577方向含cut/far不投影；原门不变，无新增L2/gradient/exact阈值。root已全文读QR/新两trial全diff/接口/workflow，18pins/AST/Node/YAML/13bash4Python静态过，无本地科学；请求实际run待回读。56独立16query仍运行，未提前猜最大项或步长。
 
 
-## 2026-11-14 20:30 UTC：actual55完整原十试步与来源字节审计
+## 2026-11-14 20:28 UTC：actual55完整原十试步与来源字节审计
 
 [完整结论](notes/2026-11-14-actual55-original-ten-trial-rejection.md)12491B/d9e4b38baa17d227f93f04fb6aab852e785b88a431d32e84bc72065a1955dee4与[byte audit](notes/2026-11-14-actual55-original-ten-trial-rejection-byte-audit.json)36953B/24e2bc02df905f994e0023afaf41380cb32629d38d83b81b9880836aa9d7b8af已全文读取登记。47完整artifact文件、32小件清单、235579B spec、十224分量真实失败现场、1373→577限制、H/σ/far/基态及9546负零均核；两源码替换+finish观察器逆转后原函数逐字恢复，原十trial正文603924d1…相同。九guard+一root Newton失败，全在evaluate内，无完整trialNorm；不得说十个完整merit未下降。1request/10fresh noJ/0新baseline/J/correction，selected=null/native=false。
 
 57实际run43637356027/source adbdf144b14ae7adc71df09948a5c05f8a30e8b8/job132576978446已启动；56原warm步骤20:27:02Z成功，FD与完整artifact正在回读。各自真实结果未预写，本课题未完成。
+
+
+## 2026-11-14 20:34 UTC：actual56完整结果登记及17-query接线
+
+actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157f02528c767a4da8ce2。145domain936NPY、88凝聚38完整向量、17colJSON、46源/父53/当前FD，加14raw217496448B；fullfactor/colraw未导出不冒独审。六trial中alpha1/32接受，本轮merit44.10538196200878→44.084143195501056；最近1/16仅left-RMS468 β²−.009420476255991517/phi0。首次col最大项interval461/radial m1/row155819，原W199.0763850424081非零、外部完整H响应仍保。
+
+58仅加left468全2048角，B扩468..483+p=5411/C4059完整outside468/469/470/483；所有预算/科学门/FD保。root已读四源全部diff，父56公开warm及gzip169659B透明还原1350695B status字节核对；工作流与18旧源+4新源22pins、11段bash/6段inline Python均静态过；publisher单独更新5efa0d3b…，其余旧源逐字未变。HANDOFF重新压缩旧已存历史，所有原件/结论仍留notes/Git。native57原trial回执待出，未预写接受。
