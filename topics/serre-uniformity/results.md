@@ -583,3 +583,4 @@
 - **R682（已证明，保留R616前提）**：[真实CM归一Abel共同首阶与去因子QC展开](results/R682-common-CM-Abel-order-and-saturated-QC-jets.md)。补出AST共轭交下降；每个 t_i²−t_j² 都具有同一非零首阶m，且 m≤2(g(X)−dimA)+1。给任意m的真实外积首项及全尾判据，不假设m=1或p单位，不新增候选排除。
 - **R685（已证明算法）**：[两位精度的完整Kronecker系数算法](results/R685-two-digit-integral-Kronecker-algorithm.md)。在modp²中用普通导数、阶乘单位部分和完整sigma计算原Cp/C_(p−3)，只在完整角色迹后精确除p；复杂度O(p²)。p≤2000实际剩余类的公开Actions有限搜索已配置，尚不宣称全p非消失。
 - **R620（已证明）**：[SS_j0_09原前缀恢复及同分量F2/F3整盘排除](results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md)。从189位续原304位链，完整Norm/高度/全尾；F2根[6, 7]与四同标签F3均不相交。非CM SS已排48/105。
+- **R621（已证明）**：[SS_j0_11原前缀恢复及同分量F2/F3整盘排除](results/R621-SS_j0_11-public-prefix-recovery-and-complete-F2-F3-exclusion.md)。从182位续原304位链，完整Norm/高度/全尾；F2根[1, 35]与四同标签F3均不相交。非CM SS已排49/105。
