@@ -1,0 +1,293 @@
+{
+  "schema": "space-star-lift-design-v1",
+  "status": "geometry_design_then_frozen_certificate_attempt",
+  "definition": {
+    "a": ".65",
+    "b": ".12",
+    "height_modes": 6,
+    "half_width": 0.02,
+    "angles": 384,
+    "dense_angles": 3072,
+    "initial_lifts": ".10,.20,.30",
+    "higher_coefficient_bound": 0.08,
+    "j_floor": 0.15,
+    "kappa_floor": 0.04,
+    "max_iterations": 200,
+    "certificate_nodes": 4096,
+    "planar_report": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "check_only": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/star_lift/space-star-lift-design-a65-b12.json"
+  },
+  "planar_certificate_source": {
+    "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405"
+  },
+  "height_budget_from_true_planar_bounds": "0.76534490873496152625745869125958912289229486632735",
+  "diameter_budget_for_conditional_03_witness": {
+    "lower": "3.5461241269978551192206035814094201075431537073149",
+    "upper": "3.5461241269978551192206035814094201075431537073151"
+  },
+  "a0_changes_during_design_not_fixed_metric_refinement": true,
+  "free_height_coefficient_harmonics": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "optimization_objective": "min t subject to t*(1-w*abs(q_ell))-lambda0 >=0 at all collocation angles",
+  "exact_tip_and_valley_torsion_constraints_eliminated": true,
+  "optimization_trials": [
+    {
+      "initial_lift": ".10",
+      "solver_success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 22,
+      "epigraph_curvature": 4.87725463137263,
+      "minimum_collocation_constraint": -1.3014487265650132e-09,
+      "free_coefficients_exact_decimal": [
+        "0.703341982277781",
+        "-0.0041702688384089026",
+        "0.0069676657806350033",
+        "0.0025725058207240721"
+      ],
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "703341982277781",
+          "denominator": "1000000000000000"
+        },
+        {
+          "numerator": "28916704008939244657627",
+          "denominator": "305315600000000000000000"
+        },
+        {
+          "numerator": "-162782691106621883915977",
+          "denominator": "4579734000000000000000000"
+        },
+        {
+          "numerator": "-20851344192044513",
+          "denominator": "5000000000000000000"
+        },
+        {
+          "numerator": "69676657806350033",
+          "denominator": "10000000000000000000"
+        },
+        {
+          "numerator": "25725058207240721",
+          "denominator": "10000000000000000000"
+        }
+      ],
+      "dense_frozen_audit": {
+        "angles": 3072,
+        "J_min_sample": 0.5562781869040921,
+        "curvature_min_sample": 0.5326337962928704,
+        "lambda0_max_sample": 4.744897279179809,
+        "whole_width_principal_curvature_max_sample": 4.90092039992767,
+        "height_sample_max": 0.7652239422530368,
+        "height_interpolation_remainder_upper_formula": 8.168112015835969e-06,
+        "height_continuous_bound_before_roundoff_validation": 0.7652321103650527,
+        "regularization_used": false,
+        "continuous_curvature_certificate": false
+      }
+    },
+    {
+      "initial_lift": ".20",
+      "solver_success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 19,
+      "epigraph_curvature": 4.876355697539156,
+      "minimum_collocation_constraint": -9.736407236005107e-10,
+      "free_coefficients_exact_decimal": [
+        "0.69985326293450933",
+        "-0.0038973614171842748",
+        "0.0082832413068795671",
+        "0.0029020805203928456"
+      ],
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "69985326293450933",
+          "denominator": "100000000000000000"
+        },
+        {
+          "numerator": "29615217708372810792409",
+          "denominator": "381644500000000000000000"
+        },
+        {
+          "numerator": "-66635591676441838455153",
+          "denominator": "1526578000000000000000000"
+        },
+        {
+          "numerator": "-9743403542960687",
+          "denominator": "2500000000000000000"
+        },
+        {
+          "numerator": "82832413068795671",
+          "denominator": "10000000000000000000"
+        },
+        {
+          "numerator": "3627600650491057",
+          "denominator": "1250000000000000000"
+        }
+      ],
+      "dense_frozen_audit": {
+        "angles": 3072,
+        "J_min_sample": 0.55401664701761,
+        "curvature_min_sample": 0.5120257456452264,
+        "lambda0_max_sample": 4.739813342307971,
+        "whole_width_principal_curvature_max_sample": 4.956074363448307,
+        "height_sample_max": 0.7648751764279037,
+        "height_interpolation_remainder_upper_formula": 8.362980149848105e-06,
+        "height_continuous_bound_before_roundoff_validation": 0.7648835394080535,
+        "regularization_used": false,
+        "continuous_curvature_certificate": false
+      }
+    },
+    {
+      "initial_lift": ".30",
+      "solver_success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 16,
+      "epigraph_curvature": 4.877254631257388,
+      "minimum_collocation_constraint": -1.1884067063760995e-09,
+      "free_coefficients_exact_decimal": [
+        "0.70334198227611133",
+        "-0.0041702688390136758",
+        "0.0069676657807395438",
+        "0.0025725058215852205"
+      ],
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "70334198227611133",
+          "denominator": "100000000000000000"
+        },
+        {
+          "numerator": "144583520009253312801159",
+          "denominator": "1526578000000000000000000"
+        },
+        {
+          "numerator": "-16278269112059076970717",
+          "denominator": "457973400000000000000000"
+        },
+        {
+          "numerator": "-20851344195068379",
+          "denominator": "5000000000000000000"
+        },
+        {
+          "numerator": "34838328903697719",
+          "denominator": "5000000000000000000"
+        },
+        {
+          "numerator": "5145011643170441",
+          "denominator": "2000000000000000000"
+        }
+      ],
+      "dense_frozen_audit": {
+        "angles": 3072,
+        "J_min_sample": 0.5562781866968056,
+        "curvature_min_sample": 0.5326337962215525,
+        "lambda0_max_sample": 4.744897276925376,
+        "whole_width_principal_curvature_max_sample": 4.900920402201166,
+        "height_sample_max": 0.7652239422474146,
+        "height_interpolation_remainder_upper_formula": 8.168112015723981e-06,
+        "height_continuous_bound_before_roundoff_validation": 0.7652321103594304,
+        "regularization_used": false,
+        "continuous_curvature_certificate": false
+      }
+    }
+  ],
+  "selected_frozen_candidate": {
+    "initial_lift": ".10",
+    "solver_success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 22,
+    "epigraph_curvature": 4.87725463137263,
+    "minimum_collocation_constraint": -1.3014487265650132e-09,
+    "free_coefficients_exact_decimal": [
+      "0.703341982277781",
+      "-0.0041702688384089026",
+      "0.0069676657806350033",
+      "0.0025725058207240721"
+    ],
+    "height_coefficients_exact_rational": [
+      {
+        "numerator": "703341982277781",
+        "denominator": "1000000000000000"
+      },
+      {
+        "numerator": "28916704008939244657627",
+        "denominator": "305315600000000000000000"
+      },
+      {
+        "numerator": "-162782691106621883915977",
+        "denominator": "4579734000000000000000000"
+      },
+      {
+        "numerator": "-20851344192044513",
+        "denominator": "5000000000000000000"
+      },
+      {
+        "numerator": "69676657806350033",
+        "denominator": "10000000000000000000"
+      },
+      {
+        "numerator": "25725058207240721",
+        "denominator": "10000000000000000000"
+      }
+    ],
+    "dense_frozen_audit": {
+      "angles": 3072,
+      "J_min_sample": 0.5562781869040921,
+      "curvature_min_sample": 0.5326337962928704,
+      "lambda0_max_sample": 4.744897279179809,
+      "whole_width_principal_curvature_max_sample": 4.90092039992767,
+      "height_sample_max": 0.7652239422530368,
+      "height_interpolation_remainder_upper_formula": 8.168112015835969e-06,
+      "height_continuous_bound_before_roundoff_validation": 0.7652321103650527,
+      "regularization_used": false,
+      "continuous_curvature_certificate": false
+    }
+  },
+  "continuous_certificate": {
+    "nodes": 4096,
+    "unresolved_frame_cells": 0,
+    "exact_height_coefficients_used": true,
+    "whole_core_immersion_and_angular_closure_certified": false,
+    "J_lower": "-3.6641811949419250874199120688532129622688785214240",
+    "kappa_positive_lower": "0.41646519039700986663870805019592643850022332245769",
+    "central_height_absolute_upper": "0.77036181274493874147786459336817545808323452538887",
+    "perimeter": {
+      "lower": "14.544697682698158280829002346064659769043105395146",
+      "upper": "14.857216491004252072299439170879139280871382247755"
+    },
+    "a0_exact_enclosure": {
+      "lower": "2.3148605319786473445987707116230411585516485283239",
+      "upper": "2.3645994451297506493562818796251693601606495501695"
+    },
+    "whole_width_principal_curvature_upper": null,
+    "principal_curvature_max_lower_from_resolved_cells": "2.8772818885060899997510524889143006698324231350952",
+    "necessary_reach_over_D_upper_from_curvature_lower": "0.11070984394797288706901055720638805604152973085382",
+    "projection_padding_upper": "0.02",
+    "core_diameter_upper": "3.5505798120242927941068477363495594347072444571135",
+    "conditional_witness_distance_lower": "1.0638372380993565357661810744228260322629461121945",
+    "conditional_witness_over_core_D_lower": "0.29962352472590407528922396883273478237255967043823",
+    "conditional_witness_ratio_at_least_03": false,
+    "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+    "full_transition_and_caps_share_projection_height_budget_proved": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false,
+    "task_complete": false
+  },
+  "normal_chord_samples": null,
+  "elapsed_seconds": 13.649334977999999,
+  "source_sha256": {
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "claim": {
+    "exact_local_formula": true,
+    "global_closure_obtained": false,
+    "closed_surface_reach_certified": false,
+    "task_complete": false
+  }
+}
