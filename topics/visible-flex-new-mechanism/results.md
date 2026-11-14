@@ -101,3 +101,5 @@
 - [R48：六帽反射外延的角跳障碍与保二jet热平滑](results/R48-six-cap-angular-jump-and-heat-extension.md) — 准确六帽顶点的 beta 第五角导跳是两正幅度之和；原固定角反射外延保留此跳，且任意背景下 Vv 与 Vbeta 正交，不能被解析自由列抵消。乘积邻域中 (aT)t 为角 C4，故该明确有限类无准确 R=0。无限周期热时间 O(delta^6) 消此门并保完整端口二jet/tttheta；Gaussian 路径式避免小热时间除法。未给近似误差下界，也未证明热修正后存在连接。
 
 - [R49：四阶沿母线最高次与窄packet严格障碍](results/R49-fourth-ruling-leading-coefficient-and-narrow-packets.md) — 常k/h/omega段的四阶ruling为s二次多项式，最高系数由完整R的三条能量式给出，任意同collar二/三阶gauge只改低次。k0/h1/omega0上得到准确局部四次泛函T；不交支撑使T按幅度四次相加。共同缩窄到非零c时主项严格为负的lambda^-9，故足够窄的R46八packet圆不能延至四阶。未排宽/重叠profile、别的几何或其他族。
+
+- [R50：不交profile圆的四阶严格正障碍与完整平方恒等式](results/R50-disjoint-profile-circle-fourth-order-positive-obstruction.md) — 含k0/h1/omega0常段、实不交三矩profile圆时，真实非局部J尾可由总导数准确消去；完整四平方恒等式给S=E(R,R)+2T(f)+2T(g)≥∫Q³(f″⁴+g″⁴)/4608>0。旧目标和任意固定混合目标的四阶最高s²相位多项式均含−S，故全部不交类不能延四阶，二/三阶gauge无效。中点目标的四准确种子及完整二三阶仍成立；不排真正新重叠平面或其他几何。
