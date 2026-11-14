@@ -1,0 +1,60 @@
+name: Serre O6 original marked p embeddings
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R704-public-embedding-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  marked_embeddings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-o6-marked-p-embeddings.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/build_r704_marked_p_split_embeddings.py
+            /topics/serre-uniformity/scripts/R704_public_marked_embeddings.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R704-public-embedding-request.json
+            /topics/serre-uniformity/notes/r191_eta_ray_certificate.json
+            /topics/serre-uniformity/notes/r305_normal_integral_basis_certificate.json.gz
+            /topics/serre-uniformity/computations/R704-marked-p-split-embeddings/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compute the complete originally marked embedding matrix
+        continue-on-error: true
+        timeout-minutes: 12
+        run: python topics/serre-uniformity/scripts/R704_public_marked_embeddings.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-o6-R704-marked-p-split-embeddings-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-o6/R704-marked-p-split-embeddings
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish complete or failed arithmetic outputs
+        if: always()
+        continue-on-error: true
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R704_public_marked_embeddings.py publish
+      - name: Require the complete public arithmetic certificate
+        if: always()
+        run: python topics/serre-uniformity/scripts/R704_public_marked_embeddings.py verify

@@ -1,0 +1,19 @@
+{
+  "request": "R704-original-Gamma-p-split-embeddings-public-01",
+  "result": "R704-marked-p-split-embeddings",
+  "p": 43,
+  "modulus": 1849,
+  "full_certificate": true,
+  "reuse_existing_complete": true,
+  "pinned_sha256": {
+    "arithmetic_source_sha256": "1d5b97d6b46f74a79484f5bf5239a6a5e86f7f875ca6900b3466f65359034f14",
+    "R191_input_sha256": "88a61c37bd86ec63f71fac09a5ae8fb7f5fb9cb68953fd48f63fd02b66aaf3d4",
+    "R305_compressed_input_sha256": "e8cc0efb536e5a248933e95b567cb2e6efbca4a78472503518e9c387d50aa19b"
+  },
+  "development_certificate_sha256": "3c6f8982a06846a4e1fb0fe641627738add0dc153e430ea9e793723aff30895d",
+  "purpose": "Evaluate all 43 original Gamma-marked p-adic embeddings of the actual R305 normal basis, reusing the existing R191 root and R305 multiplication certificate, without enumerating q-torsion.",
+  "mathematical_certificate_format_changed": false,
+  "actual_cs_or_cq_coordinates_computed": false,
+  "actual_C_computed": false,
+  "actual_m_computed": false
+}
