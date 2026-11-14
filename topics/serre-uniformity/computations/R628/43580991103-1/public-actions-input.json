@@ -1,0 +1,33 @@
+{
+  "result": "R628",
+  "request_item": {
+    "result": "R628",
+    "disk_id": "SS_j0_18",
+    "kind": "ramified"
+  },
+  "source_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "dec7153965405e13058a74c581ce0bd2e675eb2b276b67b725fe4467ac2eaa66",
+  "wrapper_sha256": "2e9801ea2bc468e3038d60327fa7db5d7acc3db3ff7680b1b34aea49b6f87e80",
+  "mathematical_driver_sha256": "7de5aee6f70873bcd38d95532ef81267999ec010a3dc5f03386cefe8e3b8cf8e",
+  "root_readme_sha256": "3569f8887c4a9fe87c8160f2d75ece18ae1d8156348a0a7b8742219c7ac50843",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+    "-u",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_ci_recover_ramified_ss47.py",
+    "--result-id",
+    "R628",
+    "--output",
+    "/home/runner/work/_temp/serre-p41-remaining/R628/output",
+    "--budget-minutes",
+    "320",
+    "--disk-id",
+    "SS_j0_18"
+  ],
+  "budget_minutes": 320,
+  "prior_completed_repository_path": null,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43580991103",
+  "prepared_at_utc": "2026-11-14T09:55:47.861418+00:00",
+  "mathematical_completion_claimed": false
+}

@@ -640,3 +640,5 @@
 - **R698（已证明约化）**：[两个实际平方根的同一低阶系数公式](results/R698-two-actual-square-roots-at-one-low-degree.md)。原代数参数u与σ⁶给T；在N=(p−5)/6的合法整截断内，A_p=−(2/p)[w^N]TC、A_(p−3)=(2/3)(2/p)[w^N]TZ³。全p非消失精确化为两个标量系数；Newton快速版保持全部递推，2001..200000公开请求另行运行，不计已得结果。
 
 - **R666（已证明）**：[SS_j9_05原规范高度与整盘排除](results/R666-SS_j9_05-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2全部简单Hensel提升的四同标签F3差值全非零。非CM SS累计63/105。
+
+- **R628（已证明）**：[SS_j0_18原规范高度与整盘排除](results/R628-SS_j0_18-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式10非平方，四同标签全无根。非CM SS累计64/105。
