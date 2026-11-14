@@ -1,0 +1,122 @@
+{
+  "kind": "actual_moving_root_parametrix_interface_public_CI_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "input_preparation": "Five immutable original completed public process/summary texts; no prior transport, positive graph, fold or Cauchy computation is rerun.",
+  "original_runs": {
+    "positive": "43605513540",
+    "negative": "43604498718",
+    "airy": "43605453793",
+    "fold": "43602612900"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "input_paths": {
+    "positive_process": "topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/process.json",
+    "negative_process": "topics/visible-flex-exact-nearby/notes/current_negative_root_cauchy_ci/run-43604498718-1/consumers/process.json",
+    "airy_process": "topics/visible-flex-exact-nearby/notes/actual_airy_primitive_ci/run-43605453793-1/consumers/process.json",
+    "positive_summary": "topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/evidence/repaired-positive-high-root-graph-summary.json",
+    "fold_process": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/process.json"
+  },
+  "mathematical_parameters": {
+    "bits": 320,
+    "exact_affine_parameter_offset": "0",
+    "background_repair_definition": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "root_state_factor": "41/10",
+    "root_Z_to_Airy_conservative_factor": "18",
+    "negative_source_factor_inside_bracket": "3/1000",
+    "negative_cut": "76285779072683/320000000000000",
+    "positive_cutoff_start_distance": "1/500000",
+    "positive_cutoff_end_distance": "3/1000000",
+    "physical_frequency": "n=4|j|",
+    "density_input_normalization": "n^(7/6)",
+    "source_order_sufficient": "n^-4"
+  },
+  "expected_native": "actual-root-parametrix-interface.json.gz",
+  "actual_scope": "Exact interface fees and finite coefficient algebra only. Complete transported amplitudes, C_E/C_s and numerical strong-return cutoff are not evaluated.",
+  "all_seven_positive_ports_and_complete_negative_mean_retained": true,
+  "new_child_has_no_local_scientific_module_imports": true,
+  "no_compressed_input_native_is_recomputed_or_transcoded": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/process.json",
+      "sha256": "20945c0a64a2204b65e80f960f818c155c0bef3067f0ebcaab2f2df6cfc35328",
+      "bytes": 12010
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_negative_root_cauchy_ci/run-43604498718-1/consumers/process.json",
+      "sha256": "f3688651110c9748b8a88b0c1da6cc88f78c50284474d9d6a12fffa7b99cd3da",
+      "bytes": 9762
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_airy_primitive_ci/run-43605453793-1/consumers/process.json",
+      "sha256": "3d405529c83f9205baddbeb87113cc5e6c8c7735c3337cdc5fca97f2d52c9b4c",
+      "bytes": 15075
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/evidence/repaired-positive-high-root-graph-summary.json",
+      "sha256": "243dc3551c00de4acbe8d8a7d8ba24b62ad16b3e2384ebebad422c4d282754d3",
+      "bytes": 26742
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/process.json",
+      "sha256": "e04f2aafdcb8b7fd5628754523b5704a2d25ea57f389ddd2026de08d32517107",
+      "bytes": 13063
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-analytic-principal-fold.md",
+      "sha256": "c191e654a5fe2d48098195f8d6a7d2909161f0254efc047f761481194bcd224b",
+      "bytes": 13563
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+      "sha256": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+      "bytes": 12221
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+      "sha256": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e",
+      "bytes": 14772
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-repaired-positive-high-root-to-regular-graph.md",
+      "sha256": "04a8a20bb5b53579abfef08e1e38514eae7398dc084ceb465c02ec665dc298a6",
+      "bytes": 8460
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md",
+      "sha256": "f755dfe2548d3969a2273052e01003b4cd563845ea8ce17509b6013e5741b3ed",
+      "bytes": 10255
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md",
+      "sha256": "eb764eaddf385e06ffa175885396503917afba11ce79c365197488b864bf832d",
+      "bytes": 8191
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md",
+      "sha256": "f8268dc8c299fdb5813034efcd259f27d660faba0b9324cfd3865f878c8fcbe7",
+      "bytes": 35230
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_root_parametrix_interface.py",
+      "sha256": "cfda10d805d4a21811a13d95aaa5f53a3325230855af790d2e6c4fe6fdc2c44a",
+      "bytes": 15087
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_root_parametrix_interface_CI.py",
+      "sha256": "cbcfbcb21bdbe5c28170b08366bfec057fb4919dafeb17a9a3c81331e7ccc876",
+      "bytes": 6027
+    }
+  ],
+  "other_branch_first_order_cancellation_explicitly_retained": true,
+  "display_math_delimiters_preserved": true
+}

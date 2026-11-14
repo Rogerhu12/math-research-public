@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:10:27 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:11:27 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：bf35613dc77b65bb03bc3c33878cc47b6373304d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：21c00027747c5ca87b9913525893971f3ab9b1ed；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -44,7 +44,7 @@ oldI/Airy I1–21及43605453793真实11门，完整old曲线mean、真profile/fi
 Xi43591721337真实3146行/6门，δ转移43597209022真实12门/179输入，fee<1.749541157460e−5；−Xiδ*/4∈(18.478324305027005,18.478338742519616)。
 第一相位43598755503真实11门，|n|≥97/四根gap>1/(512|n|)，1502CF候选最坏1635。仅当前−Xi/4区间；完整β仍须真brootfin和接口。
 有向V−^-1V+=U_(S−∘X+)非平方；腰/Airy43592219275真实13门且腰K′=b=S=0。根Sfin=(buv/η)Swap均值0非矩阵0；(iεn)^−1单位及inverseframe方向不能漏。
-phase已给原N完整双行quasimode→真正图修正→negative Cauchy的新rootfinite/strong稿；root逐节核。基点δ0、given-head与δ*、N97数值strong/全部return分开；后者不能因有质性渐近授予。
+真root parametrix P1–37已证并推：原N双行/oldI和mean/有限头source全保，实际positive图修正接negative Cauchy。wrong-branch一阶由Id−SI准确消；density归一n7/6，完整列HS给H−4/3→L2强类。基点δ0 given-head scalar brootfin=0，规范有限cross与原重构合并不可单独删。15-input小CI仅审源接口/有限代数；C_E/C_s/数值cutoff未付，δ*正区/全return及97起强小量仍欠。
 
 ## 尾与最终闭合
 

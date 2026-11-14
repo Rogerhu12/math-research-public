@@ -237,3 +237,7 @@
 ### 2026-11-14 actual Fourier mean and radial subcells
 
 [R133-supplement-actual-Fourier-mean-and-fixed-eta-source-diagnostic](results/R133-supplement-actual-Fourier-mean-and-fixed-eta-source-diagnostic.md): public43607383671 completed seven gates and80 new target evaluations. Four subcells reduce row1524's available low193 bound to <.000149789959 and row1289's to <.000078025613; fixed eta on the original whole cell alone gives little improvement. Direct Fourier mean correction also repairs the former small-row interval decorrelation. The full new body/Green cover remains to be consumed.
+
+### 2026-11-14 actual root parametrix and scalar finite part
+
+[R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md): proved P1–37 at the repaired M32 centre, delta0, with supplied head. Finite analytic Airy amplitudes are reconstructed in both original curvature rows, corrected by the genuine positive regular graph and continued by the proved negative Cauchy bound. The first wrong-branch term cancels exactly in the inverse strict frame. After density normalization n7/6 the actual relation has a strong H−4/3→L2 remainder with an explicit norm formula, and scalar root finite part0. Numerical amplitude constants, a useful high cutoff and nonzero-delta transfer remain separate.

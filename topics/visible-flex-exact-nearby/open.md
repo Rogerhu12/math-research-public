@@ -207,3 +207,7 @@ D1–21已证并部署19-input CI，只消费原完整germ/rootbudget，不重�
 ### 2026-11-14 actual Fourier and radial-subcell diagnostic
 
 43607383671实际7门/80target，14缓存行和8组1/4子格已全存。大行1524 low193从原.03836到4子格<.000149789959，1289<.000078025613；只固定η整格仍.03813，主改进来自新radial third-jet包络。缓存Fourier直接均值运算也恢复小行。完整cover尚未成，按原Green实际贡献扩必要行并复用所有已成jet，其他行保旧界；known high/mean/repair继续支付。见 actual-Fourier-mean-and-fixed-eta-source-diagnostic。
+
+### 2026-11-14 actual repaired-centre root finite part and strong class
+
+[P1–37](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md)已证：真原N双幅有限递归、old mean、完整J重构、同对象正图误差及负Cauchy付后，基点δ0 given-head root scalar有限部分为0。P.23a明确消另一canonical graph的一阶串扰，P.33只为未合并规范项；density n7/6及全输出Hilbert–Schmidt给强4/3类。不要再把基点有限常数本身列未识别；δ* whole-positive转移、具体C_E/C_s、可用数值阈值、有限补窗及完整return继续。独立15-inputCI只审真实接口费用/有限代数，不冒充全幅数值预算。

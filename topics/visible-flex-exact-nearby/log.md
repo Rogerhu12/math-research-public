@@ -567,3 +567,7 @@ root完整读Q1–31并核：实际窗口计数、无限low真实消元、串联
 ### 2026-11-14 15:10:27 UTC — actual Fourier/fixed-eta seven-gate result
 
 实际43607383671 child0，math92.289771341s、wrapper95.002834802s；nativea73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993，6,039,443B四原字节part。亲读原process/summary全部选行，付完整均值/repair及高支集。确有4子格大幅收紧，已命newton继续按真实Green贡献构造完整混合cover，原新jets复用。报告独立推，不把选行结果当全response。
+
+### 2026-11-14 15:11:27 UTC — actual root parametrix proof and scoped interface CI
+
+root逐节核P1–37及真实global T根stable正号、完整mean源、density n7/6、全输出HS强窗；新P.23a补精确wrong-branch串扰消去，P.33不再单独冒作全非均值符号。两处新增display分隔符修为双美元，manifest对应原字节hash同步。发布新版proof/15-input manifest及源/CI/公开worker/workflow；原未发布旧稿未覆盖任何已发结论。小consumer只审5实际原process/summary的源接口/有限代数，完整C_E/C_s仍false。
