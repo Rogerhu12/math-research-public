@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：cfa1cdac0fd320a82ae5c57e5059f766cf08bcda；2026-11-14 19:45:32 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：976b1d7d8e64af3acf657e6abad2a187efcc1df4；2026-11-14 19:46:23 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -15,13 +15,13 @@
 ## 发布、归档、当前分工
 
 R1–363、R365–560、R562–571、R573已登记；R364仍开，R561/572/574/575进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r573.md)、[open](notes/2026-11-14-open-before-r573.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-low-ell-near-pair.md)、[open](notes/2026-11-14-open-before-low-ell-near-pair.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
 - theta续R572同一个实际原arith测试与R569单位G比较；T7/T10完整边际及条件总质量已付，H̄偶深保val1补域。
 - literature续R575同一原D²/D⁵、Cartier-zero与指定两行非零；R573全E6 jet/两个降级商及局部交叉行已付，未延E6p。
-- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法/S³/周期H尾带与完整六尾首Bockstein剪切已推，续ell1/2实际carry及同一d2。
+- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算尾带/六尾剪切/低ell最近二支已推，续ell1/2真实Schur与同一d2。
 - root续R574整个uunit补项与原算术总行；R571已付全部cd共同深度、双sigma首项和整尾，仍不由局部非零排中央零。
 
 ## 完成标准及旧支线
@@ -67,7 +67,8 @@ R573：全E6 canonical相位r(t)^6保留，缺type5给DR4=D⁴R1=0；a4=0迫P4�
 ## 惰性完整 forcing
 
 p=6s−1>83，Γ=O[w,ε]/(w^s−pε,ε³,w^ell ε²)；原M=c*U0m13J保P134/charge40、十三自由行/两13carry、conductor10980、22纯角/13清极及全部D/q/整性门。R479–555所有十九角、低行/高尾、预算及α/β接口完整保[前一交接](notes/2026-11-14-frontier-before-r570.md)，均未关闭。
-R552的Dξ=(cokerEq/imα)/β0(kerβ̄)须再商全部原上层共同核；b=bcar+iξ(3eξ)，须上层可解且γcar+[3eξ]=0。活f2/同R/低右逆高尾、T=s−r−13和同修正d2→G2不能删除。R555严格高接触门尚无实际F命中，不覆盖9/8临界。
-[一般二重/t除法](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：判别式H<2T保几何δ及原k扭曲；真P/t^j给末m0=max(0,min(τ,13)−(ν−ell))第三行，二重ν=ell且τ≥3全吸收三高轴。
-[原乘子低角](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)：S W_D⊂W_(D+1)、H十二周期自由帽47、源商47D−200；各自真子核S³W_(D−3)或H W_(D−12)用Q/SQ/S²Q吸收3−(ν−ell)尾，全部U0/charge/carry保。不得拆ker∩子格和；无新实际命中。
+R552的完整forcing商、上层共同核、活f2/同R/低右逆高尾与两13carry按前检保持；须实际上层可解且γcar+[3eξ]=0、同修正d2。R555高接触门无实际F命中，不覆盖9/8临界。
+[一般二重/t除法](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)与[原乘子](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)的全部真同预算尾像条件保前检；不得拆ker∩子格和，均无新实际命中。
 [完整六尾剪切](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3时全部六尾留G，βh=(γh,b)的b固定；若真三尾在K=kerb上被原首像吸收，Δγ经b(KA)因子化给整个C1剪切，K2red同源相等、G2/模p² Smith型不变。ell1/2另有2/1条真实B行；同一d2仍需原整提升，不能由剪切推出。已付单位块/来源饱和/分歧像满射不代全M。平均预算固定三块仅O(MD)、真收益须>3MDlogD；三源Stokes排同charge亚纯相消，中央p依赖/wild仍开。
+
+[低ell最近二支](notes/2026-11-14-deep-low-ell-visible-kernel-and-two-nearest-branches.md)：原K1(M)实际carry可见迫1≤r≤ν≤2，T=s−13−r,U=ν−r∈{0,1}；p>101有T>3U。H<2T−U时近二支disc阶H−U、几何δ=floor((H−U)/2)+2U；U1保光滑外支及交数2。高接触只给≥s−13−ν，不赋全局平方/立方、新预算列或实际forcing非零。

@@ -176,9 +176,9 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 
 [R563](results/R563-original-s24-three-state-and-native-unit-complement.md)已付整个S24三态、完整连续逆及真实Cunit交叉消失，把原native行准确分成D12unit·UKf和D12deep·UHf。浅环带只有指定第j项，深尾/常数质量与K侧p^r首项全部保。**待做：** 两条同域真实测试与原S/T、R562固定四unit行的合法比较，不能延旧gluing/−Rc至µ−，不能删独立原Y/W或额外伴随cut；原两零中央仅替换所显示的第一列完整补域。
 
-### 一般首核的局部二重接触和原首像尾带
+### 一般二重接触与实际首像尾带
 
-[一般二重接触及真实尾带](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：原r=ell、FYY单位允许二次Hensel奇点，判别式H<2T给几何δ=floor(H/2)，保原k扭曲。τ为原各自由系数共同t含量，ν=ordW2≥ell；h0=min(τ,13)、m0=max(0,h0−(ν−ell))时P/t^j真同预算来源单位三角覆盖原M最后m0条第三行，完整U0/carry保。二重ν=ell且τ≥3全吸收R468三高轴尾类；ell≥floor((D+1)/4)+3足够。尚无实际向量命中；τ≤2、一般K1另外三carry尾及同一d2仍开。 **待做：** 低角边界的实际尾类及全部原forcing/同一修正；源端单位块不能升级成第二障碍非零。
+同预算t除法的τ/ν/ell门、真P/t^j列及全部U0/carry按[完整前检](notes/2026-11-14-open-before-low-ell-near-pair.md)保持。**待做：** 实际向量命中、低角余边界和同修正d2；既有尾带/首剪切不能代第二障碍非零，下接低ell最近二支分类。
 
 ### R564/568：原正负两strip的完整返回
 
@@ -226,3 +226,8 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 ### R573：全六挠的两个原来源商与局部交叉值
 
 [R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。 **待做：** 将这些全因子与原D²/D⁵、规范Cartier-zero及r/N实际除子联立，保b17的b^s尺度、原两p进负矩和E6p deck边界；不能把固定degree降低、单位质量或下一Taylor项非零当原指定两项非零。
+
+
+### 低ell实际可见核的最近二支
+
+[低ell真carry核与最近二分支](notes/2026-11-14-deep-low-ell-visible-kernel-and-two-nearest-branches.md)：从整个原K1(M)出发，carry可见迫1≤r≤ν≤2；T=s−13−r、U=ν−r为0/1。T>3U且H<2T−U时近二支disc阶H−U，U1还保光滑Eisenstein外支与交数2，几何δ=floor((H−U)/2)+2U。高接触例外、原k二次扭曲及无全局来源提升边界保持。 **待做：** 同一实际向量的首forcing/低阶Schur和整修正d2；该分类不创造预算内新列，不把局部二次形代原全局立方公式，也未发现实际非零候选。

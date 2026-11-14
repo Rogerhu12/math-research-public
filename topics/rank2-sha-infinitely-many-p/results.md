@@ -361,3 +361,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。
+
+
+- [低ell真carry核与最近二分支](notes/2026-11-14-deep-low-ell-visible-kernel-and-two-nearest-branches.md)：从整个原K1(M)出发，carry可见迫1≤r≤ν≤2；T=s−13−r、U=ν−r为0/1。T>3U且H<2T−U时近二支disc阶H−U，U1还保光滑Eisenstein外支与交数2，几何δ=floor((H−U)/2)+2U。高接触例外、原k二次扭曲及无全局来源提升边界保持。
