@@ -493,3 +493,8 @@ request15仅coupling112bridge，源blob54522609：原699完整节点/状态逐�
 
 run43596465579新小块cond119589.8复现但完整QR相对残差.06731/方向352.418，原回溯无接受、966invalid、新H0；26件artifact14114552872与publisher2d1a128已保全，不补写未产出的逐trial域。完整R255直接登记：全模态/零模态/刚体核、coast精确传播/范数/非正规剪切及bridge冻结尺度，不冒现finite Jac。
 12:58终端恢复但旧tmpfs丢失，已重建公开窄clone并实际pull/核双README；未推v4按H重做。共享workflow新增operatorcheck短lane、pin flint0.9并request16跑恰三解析例和必要series API，publisher同增；解决重建源具体执行风险，不加候选门。bridge15实际原域/FD已过，完整联解继续。
+
+### 2026-11-14 13:12 UTC — actual bridge refinement failed and the next direction preserves exact constraints
+
+run43596755251/source d2d1aab1已终态失败：699旧点加374至1073，原域/FD通过；全band原相对残差2.93648e−6、方向1014.925，17trial全坏、最小alpha仍399坏node/496mid，零接受、新H0。实际局部有限Jac/传播不能套用理想circle谱；原artifact14114833371及publisher4818868已保全，完整输入/输出SHA和原数值见actual-bridge-resolution-failure。
+归档真实midpoint与域/Armijo推导，当前选原699精确入口/常数约束的正阻尼LSMR warm，全部方程/最终门保留，算法改变如实记录；不追加盲目bridge加密。H压缩旧史并同步真实终态。
