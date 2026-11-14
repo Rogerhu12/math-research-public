@@ -1,0 +1,141 @@
+{
+  "P0_or_ruling_paid": null,
+  "U4_quotient_nonzero_proved": null,
+  "all_derivative_weights_computed": null,
+  "checkpoint": null,
+  "coefficient_checkpoint": null,
+  "complete_U4_equals_R8_proved": null,
+  "complete_report_file": {
+    "filename": "G-second-translation-development-complete-report.json.gz",
+    "persisted": true,
+    "raw_bytes": 5196,
+    "raw_sha256": "fa373ba48601cad94282abbf6fd0ba20f86f834db6d4271792d62b756b85dda2",
+    "stored_bytes": 2044,
+    "stored_sha256": "76c9d08e6ed00c59c162068a83fca195fefdb9f1c241e152c6b93f2f704de4b1"
+  },
+  "complete_report_raw_exceeds_main_limit": false,
+  "completed_blocks": [],
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.0016130969999892386,
+  "error": null,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43651413950",
+  "github_sha": "ba3a19be3ef851fbeb29ff491618e18622064f12",
+  "input": null,
+  "limits": {
+    "complete_report_bytes": 2500000,
+    "main_bytes": 90000,
+    "max_degree": 256,
+    "max_operations": 10000000,
+    "memory_polling_mib": 1024,
+    "seconds": 240
+  },
+  "peak_rss_mib": 26.78125,
+  "phase": "small_artificial_order_two_and_previous_receipt_interfaces",
+  "reference_matrix": null,
+  "schema": "visible-flex-G-second-translation-original-v1",
+  "scope": "only original order-two translation; complete new weight-minus-one response block",
+  "source_hashes": {
+    "G_input_producer": {
+      "bytes": 16444,
+      "filename": "literature_static_G_rational_dual.py",
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    "completed_first_translation_producer": {
+      "bytes": 26885,
+      "filename": "literature_G_first_translation.py",
+      "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    },
+    "driver": {
+      "bytes": 24396,
+      "filename": "literature_G_second_translation.py",
+      "sha256": "3c37aeae4b39ecf68932a069878b41d890afbe2fd4ee9d8675195edc4e5d6bc1"
+    },
+    "original_producer_dependencies": {
+      "colored": {
+        "bytes": 15738,
+        "filename": "literature_colored_profile_algebra.py",
+        "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+      },
+      "driver": {
+        "bytes": 38857,
+        "filename": "literature_local_fourth_quotient.py",
+        "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+      },
+      "dual_receipt_reader": {
+        "bytes": 19492,
+        "filename": "literature_full_phase_rational_dual.py",
+        "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+      },
+      "endpoint": {
+        "bytes": 21532,
+        "filename": "literature_closed_c1_endpoint.py",
+        "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+      },
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "scaling_interfaces": {
+        "bytes": 37293,
+        "filename": "literature_total_P1_scaling_blocks.py",
+        "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+      },
+      "v2_producer": {
+        "bytes": 35368,
+        "filename": "literature_full_phase_bridge_exact.py",
+        "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+      },
+      "words": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "publication_identity_helper": {
+      "bytes": 32096,
+      "filename": "literature_full_m8_tail_response_projection.py",
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    "static_input_and_report_helper": {
+      "bytes": 24202,
+      "filename": "literature_constrained_static_fourth.py",
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "artificial_previous_completion_and_source_binding_accepted": true,
+      "artificial_second_derivative_stops_after_next_step": true,
+      "changed_frozen_NG_hash_rejected": true,
+      "incomplete_previous_research_rejected": true,
+      "independent_exact_shift_second_difference_matches_N_squared": true,
+      "old_representative_rank_without_true_minor_rejected": true,
+      "second_translation_maps_weight_one_to_minus_one": true,
+      "two_nested_original_primitives_pay_both_product_terms": true,
+      "two_original_translations_include_outer_and_inner_coordinate": true,
+      "two_translations_commute_with_the_common_right_primitive": true
+    },
+    "old_or_new_research_response_columns_compiled": false,
+    "original_G_or_NG_read": false,
+    "research_profile_evaluated": false
+  }
+}
