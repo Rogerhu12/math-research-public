@@ -404,3 +404,7 @@ T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配�
 ### 2026-11-14 11:37 UTC — R250 exact invertibility of the material-angle projection block
 
 完整R250直接登记：对完整正密度、对称单调材料换角，连续非均值方块与偶数N>4M精确均匀DFT方块均det>0；给自含行列式展开/Fubini和有限Cauchy–Binet证明。条件数、浮点逆图误差、完整DN/QR及高材料谱仍须实际核；不据此改变求解源或验收门。真实coupling112已进入full solve，继续读原QR/回溯结果。
+
+### 2026-11-14 11:42 UTC — R249 exact local inlet parity normal form
+
+完整R249与独立v3/v4入口直接登记：首节点完整z值/XY一导/z二导投影给精确共享Hermite反射C²，仅改首单元，切口九jet/mean/实际H/共同SE2不变。完整有理修补差、operator及条件曲率成本明确，不伪造新accepted；接口可复用原complete-4尾读出但新plan须新heights。coupling112已真failure，22件artifact已取回，正按真实QR/linear/回溯/trace定位后继续。
