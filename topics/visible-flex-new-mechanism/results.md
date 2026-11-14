@@ -169,3 +169,5 @@
 - [R82：真实端点类补齐纯第四P1的全函数证书](results/R82-exact-pure-P1-endpoint-and-genuine-bridge.md) — actual43632772378完整101行端点商fresh核，18个明确有理R71响应使原bulk加真实端点势的纯P1原式余0；R71/R77/R79给有限真实M0桥解释。只支付−4，完整外槽−2/P0/ruling/有限族及几何仍欠。
 
 - [R83：真实第四传递与零低阶路径的第四切向](results/R83-true-fourth-transfer-and-zero-lower-history-variations.md) — 原向量恢复给完整(w,u,v)传递，M0真实倒行T取负而V同号；有限真词Z恒M=T0，第四为未知偶成本加λtK，包含Z0的R45实际基准上ΔP0切向4λK且保全部P1。基准和偶部未付，不能用倒行把函数差当实际负成本。
+
+- [R84：第四成本半群与真实frame长度必要界](results/R84-fourth-cost-semigroup-and-frame-length-bound.md) — M=T0真环的V只成有限加法半群，倒行V同号不授负成本或任意正实缩放；周期Wirtinger给L∫(1+k²)ds≥4π²，有界k使正长度恒等frame环不能缩成空词。未证V正性，未排正长度非平凡V0；保R83未知基线。

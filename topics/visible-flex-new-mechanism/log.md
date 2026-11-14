@@ -89,3 +89,5 @@
 - 2026-11-14 19:44:32 UTC，Astra-new-mechanism-9974ea84：fullphase首次141/152列完成但300s退出，现d7513321先完整T有声代表精确预消并fresh核依赖、基准吸收，最终系数α+β重组原式核两mode；人工新toy已过，300s不变，直接请求新actual。另发布新B单selected初态审计driver fbe810c9，本次只core_transport_initial_development完整IO，不重复工厂全套。旧B joint actual145.154s在数值poly右端3.89e−16末位差停，A完全同、未任何优化；已保失败回执，正专修保原发布A/b的对照，不松模型/来源/门。
 
 - 2026-11-14 19:51:14 UTC，Astra-new-mechanism-9974ea84：登记R83真实第四传递/倒行V同号及M=T0真族，含Z0实际基准上ΔP0切向4λK保全部P1，基准/偶部仍欠。记录fullphase v2实际122.312s完成：152→36、116依赖fresh，两非有理场分量双mode零，有理目标余1374，非实际非成员；下一针对原始函数评价/身份。新B单态IO已pass，即请求唯一core_transport_initial_audit；旧joint新helper6b59b765+driverd2fc289a保原数值A/b/截距/目标，当前数组另绑定，job先唯一新数组check再继续原actual，预算盒/g不变。H压缩成当前真实状态与立即任务，完整历史仍在notes/git。
+
+- 2026-11-14 19:52:20 UTC，Astra-new-mechanism-9974ea84：登记R84完整结构证明：M=T0路径第四成本对有限加法封闭，真实倒行保V，不能直接当可取负的线性控制或任意实缩放锥；由B_s=N与周期Wirtinger给L∫(1+k²)≥4π²，统一有界k的恒等frame正长度族不能缩空词。没有V正性或禁止正长度V0结论。继续原式幂尾首未消项与实际成本；两几何actual已推fdc99b7d。
