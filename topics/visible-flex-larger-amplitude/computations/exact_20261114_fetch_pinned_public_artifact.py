@@ -11,7 +11,8 @@ never printed or placed in the receipt.
 Extraction rejects traversal, duplicate paths, symlinks and other special
 files. A fresh private staging directory is validated completely before
 an exclusively reserved directory receives the validated read-only payload.
-The receipt is moved last; the whole directory publication is not atomic.
+The receipt is moved last, then all output modes are sealed read-only.
+Consumers start only after success; whole-directory publication is not atomic.
 The temporary ZIP is removed after validation/extraction. This entry
 only downloads and preserves bytes; it imports no numerical packages.
 """
@@ -45,7 +46,7 @@ PIN = {
     "expected_size": 235561097,
     "expected_sha256": "0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee",
 }
-SCHEMA = "pinned-public-actions-artifact-fetch-v2"
+SCHEMA = "pinned-public-actions-artifact-fetch-v3"
 RECEIPT_NAME = "_pinned_public_artifact_receipt.json"
 CHUNK = 1024*1024
 MAX_METADATA = 1024*1024
@@ -518,7 +519,7 @@ def main():
             public_artifact_metadata=public_metadata(metadata),
             download=download, extraction=extraction,
             zip_verified_before_extraction=True, temporary_zip_removed=True,
-            publication="Exclusive mkdir; already-verified child renames; receipt moved last; not atomic as a whole directory",
+            publication="Exclusive mkdir; verified child renames; receipt moved last; read-only sealing after moves; not atomic as a whole directory",
             whole_directory_publication_atomic=False, existing_output_directory_replaced=False,
             files_read_only_mode="0444", directories_read_only_mode="0555",
             output_directory=str(target), runner_temp=str(runner),
@@ -533,9 +534,14 @@ def main():
             output.flush()
             os.fsync(output.fileno())
         receipt_sha = hashlib.sha256(receipt_path.read_bytes()).hexdigest()
-        state["phase"] = "publishing-validated-read-only-payload"
-        make_read_only(payload, extraction)
+        state["phase"] = "publishing-validated-payload"
+        # Directories remain writable while rename updates parent entries.
+        # Actual33 failed with EACCES after premature read-only sealing.
+        # Seal only after all validated entries and the receipt have moved;
+        # consumers are never started before this command returns success.
         publish(payload, target)
+        state["phase"] = "sealing-published-payload-read-only"
+        make_read_only(target, extraction)
         state["phase"] = "complete"
         public_event("pinned_public_artifact_ready",
             success=True, repository=REPOSITORY, run_id=PIN["run_id"],

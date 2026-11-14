@@ -93,3 +93,6 @@ request32/mixedquery已接推送，见[九query原中点接口](notes/2026-11-14
 
 
 31仅输入目录发布失败，科学计算未开始，见[实际传输失败与修复](notes/2026-11-14-actual-request31-artifact-publication-failure.md)。33同nativeband重提：独占新目录与回执最后发布，完整输入校验保持，原band源/所有科学设定不变。32实际run43614990381/source4dce4180与30独立进行。
+
+
+33仍未进入科学计算：完整输入核验后移动预先设0555的目录时报errno13，见[实际发布顺序失败](notes/2026-11-14-actual-request33-read-only-publication-order.md)。34仅把只读封存移到移动完成之后，成功后才运行同原band；科学源/输入/尺度全不变。
