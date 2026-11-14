@@ -127,3 +127,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R699 后的实际缺口
 
 保留实际d_i、第二类周期与规范全纯差；μ3相容后自由高度常数降至g(Y)，用2g(Y)−1阶jet恢复。实际外积系数满足v(e_n)≥A_E−3pn/(p+1)−4⌊log_p n⌋，完整覆盖v(z)≥3；代数微分算子给有限可能首阶。所有实际赋值/首项及R616前提仍待，不新增候选排除。 详见[R699](results/R699-actual-height-finite-jets-and-complete-exterior-tail.md)；继续实际输入求值，不以有限决定性代替完成标准。
+
+### R701 后的实际缺口
+
+原V_sc=π^41D_Sc_s−11aπ^40c_q在Γ不变局部商下降，准确等于(C/a)[P+α_F]；真实商U_Fs/(pU_Fs+E_Fs)≅k[S]。86×44证书与varpi_s^1938精度足够，L=31−2η_p；原Γ标记c_s/c_q局部值仍未求，不给C或m数值。 详见[R701](results/R701-original-C-as-a-marked-43-dimensional-p-local-scalar.md)；继续实际输入求值，不以有限决定性代替完成标准。

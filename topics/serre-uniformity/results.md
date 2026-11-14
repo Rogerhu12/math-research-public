@@ -85,3 +85,5 @@
 - **R671（已证明）**：[SS_j9_10原规范高度与整盘排除](results/R671-SS_j9_10-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2约化二次式判别式46非平方，四同标签全无根。非CM SS累计103/105。
 
 - **R699（已证明；范围见原文）**：[真实高度的有限规范输入与完整外积尾](results/R699-actual-height-finite-jets-and-complete-exterior-tail.md)。保留实际d_i、第二类周期与规范全纯差；μ3相容后自由高度常数降至g(Y)，用2g(Y)−1阶jet恢复。实际外积系数满足v(e_n)≥A_E−3pn/(p+1)−4⌊log_p n⌋，完整覆盖v(z)≥3；代数微分算子给有限可能首阶。所有实际赋值/首项及R616前提仍待，不新增候选排除。
+
+- **R701（已证明；范围见原文）**：[原C的固定标记43维p-local标量归约](results/R701-original-C-as-a-marked-43-dimensional-p-local-scalar.md)。原V_sc=π^41D_Sc_s−11aπ^40c_q在Γ不变局部商下降，准确等于(C/a)[P+α_F]；真实商U_Fs/(pU_Fs+E_Fs)≅k[S]。86×44证书与varpi_s^1938精度足够，L=31−2η_p；原Γ标记c_s/c_q局部值仍未求，不给C或m数值。
