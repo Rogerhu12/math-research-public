@@ -20,7 +20,7 @@ $$
 \boxed{
 A_k=\begin{cases}
 \displaystyle 2^{-(m-1)/2}m![z^m]\bigl(-x(z)y(z)\sigma(z)^6\bigr),
-&m\equiv1\pmod6,\$$3pt]
+&m\equiv1\pmod6,\\[3pt]
 \displaystyle 2^{-m/2}m![z^m]\bigl(x(z)\sigma(z)^6\bigr),
 &m\equiv4\pmod6.
 \end{cases}}
@@ -385,7 +385,7 @@ Since normalization by $\mathcal F_j(0)$ cancels in derivative ratios,
 
 $$
 A_k=\begin{cases}
-2^{-(m-1)/2}\,f_m/f_1,&m\equiv1\pmod6,\$$2pt]
+2^{-(m-1)/2}\,f_m/f_1,&m\equiv1\pmod6,\\[2pt]
 6\,2^{-(m-4)/2}\,f_m^+/f_4^+,&m\equiv4\pmod6.
 \end{cases}
 \tag{697.30}
