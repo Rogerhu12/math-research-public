@@ -4,10 +4,10 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `25d2dcb606fa42af4ad146eae8b2463490b3ecbc`（2026-11-14 14:03:43 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `555d4e4fa27b7fa86e22f9b4ab9c7b821d92bb10`（2026-11-14 14:05:54 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
-- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-first-padic-obstruction-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
+- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-full-four-site-phase-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
 
 ## 工作区与恢复
 
@@ -17,12 +17,12 @@
 
 ## 原模型与仍未付的主要接口
 
-H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−300·2^j+850/3]，零点权0。A非零、非紧、单射、稠密像、拟幂零，W*(A)=B(H)，A′无非零紧。归一dyadic幂N_j²=η_jN_(j+1)，N_j WOT→I/2而非SOT；每个闭A不变M均closure AM=M（R12§5）。普通线性循环性未知。
+H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−300·2^j+850/3]、零点权0。A非零非紧、单射稠密像、拟幂零，W*(A)=B(H)、A′无非零紧。N_j²=η_jN_(j+1)、N_j WOT→I/2而非SOT；闭A不变M均closure AM=M，普通循环性未知。
 
-- 原Haar慢主理想与负边界T_N/T_Y分开：后者M=kerT含e0、N=closure BM，N=M仍开。R187/200付M∩RanB^r⊂N；R239付d≈log^(1/3)q合法窗、c>K*=3(16/770)^(1/3)权核。无权λ²=〈G⁻¹r,r〉完整Schur及Σ1/[ell(1+λ²)]发散所需增长未付。
-- 原graph要M3初次/M2以后、同w、同未来、真负前缀、自然逆域及完整左右费。Keff≥e^(59d³/256)/(2^19d)已付；固定测试局部Gram O(Keff)、pure深jet、ordinary右费与跨birth合并仍缺。primitive MP Gram不能替原graph Gram；固定birth不代移动birth，全H稠密不传未知限制。
-- 一般正有限秩正常湮灭者仍开。R272单侧修复失自伴；R276同尾正完成不付全链谱/正距；R280可测因子/子格排除不代普通子空间。R289有限原秩尾熵o(m)仍容R291尾rank指数；完整下一尾理想距离m_j上界/单位锚缺，旧准确预算见归档。
-- R147/150其余mean秩/高ess、R176部分谱、R236慢核/种子和原右源、R268–290全部旧范围仍开；原紧方法与特定弱极限失败不外推所有方法。R285非Boolean，R286固定出生不付移动出生。
+- 原Haar慢主理想与负边界T_N/T_Y分开；后者M=kerT含e0、N=closure BM，N=M仍开。R187/200付M∩RanB^r⊂N；R239付合法d≈log^(1/3)q、c>K*权核；无权完整λ²=〈G⁻¹r,r〉增长/Σ1/[ell(1+λ²)]发散未付。
+- 原graph保M3初次/M2以后、同w/同未来/真负前缀/自然逆域及完整左右费。Keff≥e^(59d³/256)/(2^19d)已付；固定测试局部Gram、pure深jet、普通右费/跨birth仍缺。primitive MP不代graph Gram，固定birth不代移动birth，全H稠密不传未知限制。
+- 正常湮灭者的一般有限原秩仍开；R276同尾正完成不付全链谱/正距，R289熵o(m)仍容R291尾rank指数。完整下一尾理想距离m_j上界/单位锚未付；R272单侧修复失自伴、R280因子排除不代普通子空间。
+- R147/150其余mean秩/高ess、R176部分谱、R236慢核/原右源及R268–290全部未列范围仍保归档/open，均不视为关闭；R285形式反例非Boolean。
 
 ## 一、有限Boolean费用与原连续尾
 
@@ -32,6 +32,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 - [有限a铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)准确等价硬端界；实际四权排每个固定κ的P1逐系数正。[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给条件SOS，尚须相位与完整最高边缺陷两个预算。
 - [真实共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)：完整F/Q交换，补集连接T自伴、T²=F⁻¹Q；真V的G/L/4G+R是同一压缩，Tv=σp⁻¹D²v。压缩后矩不交换，低birth nuisance不能删。
 - [奇→偶完整相位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)为diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)。全部偶临界相位统一κ单独足以推出全部奇硬及加强高度同κ；无尺寸循环、未证反向等价，也未付任何一般相位常数。
+- [任意四权完整相位](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已证整个三维V上H0*L⁻¹H0≤I，等权取等、最优1；原完整G逆/L顶逆及物理度量均保。整数D前两主子式和行列式两乘法锥共416/3094/3849/2465正系数，完整证书已存。未外推更大偶池。
 - [完整低位相位预算](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：任意旧3权的完整下块有正平方证0<K<1且普适常数1最优；旧5权(r,r⁻¹,1,1,1)的S3标准型等价真实3位、≤25/48，结合平凡型得整个4维K<3/4 I；固定r加充分小正弱位后整个9维相位≤7/8。未付一般权/有限内部或r统一阈值。
 - [全次数Johnson分拆](notes/2026-11-14-all-degree-pair-splitting-johnson-identity-and-arithmetic-obstruction-789f-next.md)保原完整q_k/q_(k−1)及新层低阶投影，准确展开全算术缺陷；等权M24/s4给−49588但真实S1缺陷+136，只排出生一算术步骤直接延拓。所需算术λ随出生至少线性，不是最优S1下界。
 - R297 Green–Ward保整个补空间逆与A−/J+源度量；真实非实极点排共同平方权平移的Stieltjes捷径，不反S1/Pick。R299逐位Pick/全primitive能量不免费插L1；R294共同Newton与R296全残差两带、负拟合二阶差保完整nuisance，混合预算未付。
