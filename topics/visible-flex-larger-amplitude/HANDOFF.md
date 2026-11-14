@@ -50,4 +50,4 @@ R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9
 request05—09全成功；10/11实际首步失败已定位，下一诊断消费真方向。准备/pending非接受；public_asset路径和publisher新lane均已修。966点pending超5MB仅artifact，Git保SHA/复现身份。
 旧geometry26/strong90/GW35件已逐SHA保全；manifest是历史身份。strong R6磁盘SIGTERM143无接受步、raw未全迁，旧支封存。公开源78件匹配原91清单，不读private；自有transport分支只助大blob普通推送，无force。
 
-规则同步记录：2026-11-14T12:18:39.677643+00:00 实际pull --rebase成功；双README自dc197b7无变化，已读提交 b67a56c873eb025986bd234135f11691b7a0b2b1。
+规则同步记录：2026-11-14T12:20:46.566991+00:00 实际pull --rebase成功；双README自b67a56c无变化，已读提交 f3d1ebaa4323474e7d512b3a5a14da3c7cb3b8c3。
