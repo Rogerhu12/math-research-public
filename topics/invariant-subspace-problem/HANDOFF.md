@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `8b546c9ab4ebfd6a091fb2cd31c9f219600bd195`（2026-11-14 16:23:56 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `1fbad889a3a82fe14e297a02464c938b6735df3f`（2026-11-14 16:28:17 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-full-source-score-budget-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -43,6 +43,6 @@ T96完整图/DAG在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录；原2
 
 ## 当前分工与马上继续
 
-normal正在冻结四个新kerβ的δ2 runner，复用旧四列κ/NF/Q/trace和原图。准备冻结后已授权一轮共享≤300s/512MiB，VQ保实际checkpoint；若像含九r2，必须接原6188/17式mod29791全乘回与真实成本，不停在商相容。失败仅属四列，保全部恢复后接198；不盲升固定X位数、不以有限模身份代char0。
+normal四个新kerβ的δ2连续任务已冻结：[执行接口](notes/2026-11-14-r150-four-second-bockstein-runner-interface-789f.md)，固定request 2026-11-14-r150-four-second-bockstein-ci-request-789f.json 随本次推送触发本库Actions。共享300秒/512MiB、6编译各30秒，旧四κ/NF/Q/trace无损复用、两VQ保实际checkpoint。相容自动接原6188/17式mod29791全乘回/成本；completed亦可能仅four-column-insufficiency-only，须读实际outcome，不称全第二像或char0。新数学尚待运行。
 
 boundary独占star共同两端/相对Schur；literature全spin实际流及同源score/一负方向结构，尚未付普适κ。原s≈k短height图费仍缺。根持续逐结论整合推送并保持规则/H最新；主ISP未完成。文献原条件、Garayev强制零、balanced两层度量失配及全部旧失败保open/归档，不重复已排路线。

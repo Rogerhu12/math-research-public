@@ -1,0 +1,13 @@
+{
+  "baseSource": "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp",
+  "baseSHA256": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab",
+  "derivedSource": "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+  "derivedSHA256": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+  "changes": [
+    "Compile-time4/9 RHS, actual labels4001..4004 or2..10",
+    "Read original R as2195+9 regardless RHS count",
+    "Accept u16 wide normal forms for bounded later polynomial combinations",
+    "Explicit input parameter bound40..700",
+    "Retain actual array checkpoints, complete kernel normalization and independent RC identity"
+  ]
+}

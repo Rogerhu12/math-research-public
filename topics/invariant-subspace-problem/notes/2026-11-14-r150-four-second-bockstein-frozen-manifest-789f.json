@@ -1,0 +1,145 @@
+{
+  "format": "r150-four-second-bockstein-frozen-source-and-input-manifest-v1",
+  "status": "compiled-and-inputs-prepared-no-new-mathematics-executed",
+  "sharedMathematicalSecondsLimit": 300,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "sourceDirectoryInRepository": "topics/invariant-subspace-problem/notes",
+  "files": [
+    {
+      "file": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+      "bytes": 10915,
+      "sha256": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp",
+      "bytes": 6803,
+      "sha256": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+      "bytes": 21872,
+      "sha256": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-source-derivation-789f.json",
+      "bytes": 684,
+      "sha256": "e42cf4674378a327be6f9ff2314d3abef3073fd5f93b553cc99afaa4665951d9"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-original-transport-789f.cpp",
+      "bytes": 8730,
+      "sha256": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-original-combination-789f.cpp",
+      "bytes": 9446,
+      "sha256": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-normal-form-789f.cpp",
+      "bytes": 13975,
+      "sha256": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a"
+    },
+    {
+      "file": "2026-11-14-r150-four-second-bockstein-selected-inputs-789f.py",
+      "bytes": 6565,
+      "sha256": "3894bd0484bfc5687e317257f5d44337930ecb56ef8ed7af782a57aa6c031921"
+    },
+    {
+      "file": "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py",
+      "bytes": 10889,
+      "sha256": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b"
+    },
+    {
+      "file": "2026-11-14-r150-four-second-bockstein-runner-789f.py",
+      "bytes": 24511,
+      "sha256": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba"
+    },
+    {
+      "file": "2026-11-14-r150-four-second-bockstein-runner-interface-789f.md",
+      "bytes": 9129,
+      "sha256": "5590b2c478c1294e16975b035f794f67f1728d808df3e9daf3c6963c4dbcf021"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/four-beta-nf.bin.gz",
+      "bytes": 162093,
+      "sha256": "fdf5db7259f3fd5b09c8481760486b7d5d609be80c27bfc1eea2b6763726a44d"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/four-beta-quotients.bin.gz",
+      "bytes": 237277,
+      "sha256": "07b8afbc68c7a488278ff5001ff7f08f1c8473a2a75fb76ac517852b537bbbaf"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/four-beta-rem.bin.gz",
+      "bytes": 656,
+      "sha256": "c4bd09397663759dbd53be2e265ed5191f053fe6b5bfd1c00d7cfabf89975f47"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/four-beta-trace.bin.gz",
+      "bytes": 1702810,
+      "sha256": "5cb7047bd65bea2e7df9a95bea41ce6bc74118a3935c896d9cc107589c27b9fa"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/four-original-kernels.bin.gz",
+      "bytes": 841262,
+      "sha256": "e4897a26257105632eda60e9758c6e887ce7dc7d1927af94f5a21d57c3425993"
+    },
+    {
+      "file": "r150-four-second-bockstein-inputs-789f/selection-receipt.json",
+      "bytes": 4853,
+      "sha256": "202ce201ed9073d153948f2b9e2ea1b9324137a6933b6c544220ab7f98b053a2"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/certificate-manifest.json",
+      "bytes": 183,
+      "sha256": "a115b72fc30f26ee1472b10c61f9e28bf23c7f116f6669300befd1045934a1a7"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-image.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-normal.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-original.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-source4.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-source9.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/compile-transport.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/four-second-bockstein-pipeline-receipt.json",
+      "bytes": 11370,
+      "sha256": "8f7daf7371f4d759846b11b9d82f60557eb57ec82dbc8ff7ce28b00601b755bb"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/input-four-column-selection.json",
+      "bytes": 4853,
+      "sha256": "202ce201ed9073d153948f2b9e2ea1b9324137a6933b6c544220ab7f98b053a2"
+    },
+    {
+      "file": "r150-four-second-bockstein-preparation-789f/recovery-manifest.json",
+      "bytes": 1988,
+      "sha256": "124e4ec5dca36e44bf65ed51dff7e7a1ecf22451687597ed8d48c296f4943711"
+    }
+  ]
+}

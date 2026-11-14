@@ -1,0 +1,135 @@
+{
+  "format": "r150-four-second-bockstein-input-byte-selection-v1",
+  "status": "completed",
+  "sourceSHA256": "3894bd0484bfc5687e317257f5d44337930ecb56ef8ed7af782a57aa6c031921",
+  "inputSources": {
+    "old-kernels": {
+      "path": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/original/kernel-original-kernels.bin",
+      "bytes": 48275717,
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+    },
+    "old-nf": {
+      "path": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/normal/beta-normal-forms.bin",
+      "bytes": 10865128,
+      "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b"
+    },
+    "old-trace": {
+      "path": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/normal/beta-reduction.bin",
+      "bytes": 113614260,
+      "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+    },
+    "old-q": {
+      "path": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/image/image-image-quotients.bin",
+      "bytes": 16649150,
+      "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+    },
+    "old-rem": {
+      "path": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/image/image-image-remainders.bin",
+      "bytes": 2520,
+      "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de"
+    },
+    "last-kernels": {
+      "path": "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-recovery-43608688492-1/original/kernel-original-kernels.bin",
+      "bytes": 637547,
+      "sha256": "8ce833ebc809e926eb9bcc4a2e7d4fb8f28b3252c54f6f3e38cea2ca6501ae08"
+    },
+    "last-nf": {
+      "path": "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-recovery-43608688492-1/normal/beta-normal-forms.bin",
+      "bytes": 120594,
+      "sha256": "a849b427a78991fb83a2c1eeff2a82cfe95ed1805b7cac0baf13a4d69f5e4066"
+    },
+    "last-trace": {
+      "path": "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-recovery-43608688492-1/normal/beta-reduction.bin",
+      "bytes": 1284984,
+      "sha256": "60b8f00f890885c15027beed4e8692f6840c7624c6df792419d63eeac6beacd4"
+    },
+    "last-q": {
+      "path": "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-recovery-43608688492-1/image/image-image-quotients.bin",
+      "bytes": 182328,
+      "sha256": "99035d3d4945d11f5fe8da8765d2df633a08f4ebb82f0f8904dbd3d63c3ecd77"
+    },
+    "last-rem": {
+      "path": "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-recovery-43608688492-1/image/image-image-remainders.bin",
+      "bytes": 564,
+      "sha256": "eef83657cdfb946f85e617d73b441719f8c24fcc3aebb4a6c799344a1fe17199"
+    }
+  },
+  "selectedHighKernelNumbers": [
+    199,
+    200,
+    201,
+    202
+  ],
+  "actualKernelLabels": [
+    [
+      2192,
+      2275,
+      85,
+      1241,
+      3485
+    ],
+    [
+      2193,
+      2276,
+      85,
+      1242,
+      3497
+    ],
+    [
+      2194,
+      2277,
+      86,
+      1243,
+      3498
+    ],
+    [
+      2195,
+      2278,
+      86,
+      1244,
+      3499
+    ]
+  ],
+  "outputs": {
+    "four-beta-nf.bin": {
+      "bytes": 239100,
+      "sha256": "7f716fd2ed58088c1e8d8d2e4f77771d65d6b039418e884b226991b3a58afdcc",
+      "gzip": "four-beta-nf.bin.gz",
+      "gzipBytes": 162093,
+      "gzipSHA256": "fdf5db7259f3fd5b09c8481760486b7d5d609be80c27bfc1eea2b6763726a44d"
+    },
+    "four-beta-quotients.bin": {
+      "bytes": 358487,
+      "sha256": "934c42fb9979b91743af2d4e66bdcf5ed30f99555ba35aa6cec01a5e33fec667",
+      "gzip": "four-beta-quotients.bin.gz",
+      "gzipBytes": 237277,
+      "gzipSHA256": "07b8afbc68c7a488278ff5001ff7f08f1c8473a2a75fb76ac517852b537bbbaf"
+    },
+    "four-beta-rem.bin": {
+      "bytes": 1084,
+      "sha256": "eec6e8ae82e3bb3581e1817e85a479bc1951d6b819273c1df4bde7e72fbd0cdd",
+      "gzip": "four-beta-rem.bin.gz",
+      "gzipBytes": 656,
+      "gzipSHA256": "c4bd09397663759dbd53be2e265ed5191f053fe6b5bfd1c00d7cfabf89975f47"
+    },
+    "four-beta-trace.bin": {
+      "bytes": 2543800,
+      "sha256": "2705394b3744d8a1140edcbf3a269c9739ed6a39a6ceda63cb2cfb3f644922f2",
+      "gzip": "four-beta-trace.bin.gz",
+      "gzipBytes": 1702810,
+      "gzipSHA256": "5cb7047bd65bea2e7df9a95bea41ce6bc74118a3935c896d9cc107589c27b9fa"
+    },
+    "four-original-kernels.bin": {
+      "bytes": 2200126,
+      "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f",
+      "gzip": "four-original-kernels.bin.gz",
+      "gzipBytes": 841262,
+      "gzipSHA256": "e4897a26257105632eda60e9758c6e887ce7dc7d1927af94f5a21d57c3425993"
+    }
+  },
+  "originalKernelArithmeticRecomputed": false,
+  "oldBocksteinRecomputed": false,
+  "integerCoefficientValuesChanged": false,
+  "F31KernelBytesWidenedToU16": true,
+  "elapsedSeconds": 3.2485930350012495
+}
