@@ -1,0 +1,50 @@
+{
+  "kind": "actual_public_current_moving_principal_fold_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43602612900",
+  "run_attempt": "1",
+  "workflow_commit": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+  "worker_sha256": "88037ff0e20ad6bd43c0cb15b04f23b16df489f693711bad3556c5875612376c",
+  "manifest_sha256": "77e9457a7d2fed523c47e8e7f67d51fc5e14ade859c4c42abad3bdfd46f5962f",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T14:01:16.446400+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+      "after": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+      "after": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "ce0f75c53f3c6a0b26939ffbc461b8caa073f467",
+      "after": "f63e0498a9d599342ee5af0f66f3a425edfd9fd2",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-current-moving-principal-fold-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_moving_principal_fold_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-current-moving-principal-fold-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-current-moving-principal-fold-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-moving-principal-fold-CI-inputs.json",
+    "--manifest-sha",
+    "77e9457a7d2fed523c47e8e7f67d51fc5e14ade859c4c42abad3bdfd46f5962f",
+    "--out-dir",
+    "/__w/_temp/visible-exact-current-moving-principal-fold-output/consumers"
+  ],
+  "complete_original_inputs_verified": 10,
+  "actual_scientific_checkout_commit": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+  "mathematical_wall_seconds": 0.36425179500000127
+}
