@@ -567,3 +567,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 21:18 UTC：actual59完整原试探与selected逐字审计
 
 [正式原试探结论](notes/2026-11-14-actual59-original576-first-native-step-and-state-audit.md)8336B/63e9d82a…与18626B/ffa7e188…审计已全文读。34文件/26清单/全state/r/cut/far、原十/evaluate源码逆还原均PASS；selected cp/raw与实际alpha1输入全同，118878变化字覆盖577节点，31零含8负零。stage11/Pi76唯一argmax的原residual/sigma words已核，未本地再算norm/argmax/候选。noJ的minA/minD=+Infinity仅原占位，原计划STOP不冒native完成或finalJ/fresh audit。61仍直接接真selected和每轮新J，完整QR审计单独登记。
+
+
+## 2026-11-14 21:20 UTC：actual59完整QR与两份同原矩阵精确行账审计
+
+[正式QR全文](notes/2026-11-14-actual59-original576-QR-and-two-exact-readbacks.md)14819B/d32119d7…已读；summary21207B/274e62d1…与detail170985B/d9dba02c…（原1035979B/f8ebe2d3…）完整保存/CRC核。1183文件、1170阵、577因子及全部常数464891392B、两份各129248行完整integer ledger、原28全部J/input与57五件、两最坏J行operand字节全部PASS，无本地科学。新576缺陷9.686175843…e−11与57限制在同矩阵.041773078…真实可比；formed gradient24888563.660…不隐藏、不当认证。61继续真实selected上的fresh576完整循环，59一次接受不是课题完成。

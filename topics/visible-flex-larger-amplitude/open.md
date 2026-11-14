@@ -65,6 +65,8 @@
 
 [59完整原试探/状态审计](notes/2026-11-14-actual59-original576-first-native-step-and-state-audit.md)已通过：34件/26清单、实际input及全部r/cut/far、原源码精确逆还原、selected checkpoint/raw全部逐字核同；118878 changed words分布在全部577节点，31零含8负零。原argmax witness operands逐字核实，不本地重算norm/候选/最大值；QR因子审计单列。
 
+[59原576完整QR与同矩阵双exact账](notes/2026-11-14-actual59-original576-QR-and-two-exact-readbacks.md)正式保存：1183文件/1170阵/全部577因子常数464891392B及两份129248行整数账、完整原28输入/J与57五件全byte审PASS；不在本地再算残差。新方向9.686175843…e−11与旧57限制.041773078…仅在同原576目标比较，不能转移1372的小缺陷；原formed gradient24888563.660…仍大，完整保留且不增gate/认证。
+
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
 [R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；57实际线性与原试探已完成，范围分开记录。55已全拒，57首次取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
