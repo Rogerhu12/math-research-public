@@ -1,0 +1,18 @@
+{
+  "format": "isp-eighth-second-root-manifest-crossaudit-v1",
+  "runId": 43644262244,
+  "dataCommit": "0ab29a88a1fffc5710c2602cb2bb610a2f9efda8",
+  "recoveryFiles": 37,
+  "recoveryBytes": 16174596,
+  "binary": 18,
+  "texts": 19,
+  "cache": 8,
+  "publicationOriginalRecords": 62,
+  "publicationOriginalBytes": 7544880,
+  "storedFiles": 63,
+  "maxStoredBytes": 2031817,
+  "fallbackFiles": 0,
+  "issues": [],
+  "scope": "Root compared all path, original byte count and SHA256 entries across recovery, binary certificate, text and publication preservation manifests. The actual publisher separately checked stored fragments and decompressed bytes. Root did not redownload all binary files.",
+  "atUtc": "2026-11-14 21:53:43 UTC"
+}
