@@ -1,0 +1,42 @@
+{
+  "schema": "cosine-endpoint-feasibility-development-v1",
+  "development_check_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "checks": [
+    {
+      "fixed_offset": null,
+      "feasibility_jacobian_relative_error": 5.461908182226575e-09,
+      "normalized_epigraph_jacobian_relative_error": 4.6777171084034265e-08,
+      "fixed_budget_algebra_numeric_difference": 1.7763568394002505e-15,
+      "warm_free_values_preserved_exactly": true,
+      "wrong_warm_width_rejected": true
+    },
+    {
+      "fixed_offset": 0.013,
+      "feasibility_jacobian_relative_error": 7.537454017426387e-09,
+      "normalized_epigraph_jacobian_relative_error": 6.498303246019527e-08,
+      "fixed_budget_algebra_numeric_difference": 1.7763568394002505e-15,
+      "warm_free_values_preserved_exactly": true,
+      "wrong_warm_width_rejected": true
+    }
+  ],
+  "stable_positive_part_values": [
+    2.5e-17,
+    2.499999999999375e-13,
+    5e-07,
+    1.00000000000025,
+    10000.0
+  ],
+  "passed": true,
+  "source_files_sha256": {
+    "space_star_cosine_endpoint_feasible.py": "2225b715d92795505f7726c081d2c6f56d45dc0168faed6d38d3d617c2c86cac",
+    "space_star_cosine_endpoint_design.py": "7cbb074538b9a7027980dd8b3176a1da91fcf383218998d486e614a6ed39c907",
+    "space_star_cosine_design.py": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  }
+}
