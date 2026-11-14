@@ -21,3 +21,5 @@
 - [R8：全平端光滑 profile 的局部方程与双重端点根](results/R8-flat-profile-period-equation.md) — 已证明完整Volterra周期条件可化为显式四阶二次方程；真实支撑两端必须是C的至少双根，故C恒零或为两实双根的四次式。非零profile和实际几何实现仍未构造。
 
 - [R9：闭空间曲线的准确 rectifying 平度量核](results/R9-rectifying-flat-core.md) — 已直接证明隐式材料坐标、准确平度量、闭角、完整二jet/唯一非零主曲率及半转对称。中央空间曲线能给实际小嵌入环带；指定宽度的全局reach与圆领闭合尚无证书。
+
+- [R10：指数倾斜准确闭合的对称带状基底](results/R10-exponential-tilt-exact-closure.md) — 已证明唯一轴向闭合倾斜、水平/渐近周期及全角正则代数判据；闭合正则浸入不等于嵌入、九系数零或有限可弯族。

@@ -1,14 +1,14 @@
 {
-  "request": "elliptic-basis-gc-fourth-jet-and-star-geometry",
-  "created_at": "2026-11-14T19:28:51.108860+08:00",
+  "request": "exact-closure-design-ruled-fixed-metric-and-space-star-screen",
+  "created_at": "2026-11-14T19:37:05.318473+08:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "star_core",
-    "ellipse_phi",
-    "inward_gc4"
+    "closed_design",
+    "space_star",
+    "ruled_tail"
   ],
-  "star_core": "nine planar star candidates with directed continuous distance and full-diameter bounds; not a closed surface",
-  "ellipse_phi": "same L10/L11 continuation settings with eccentric-angle free fields; changing axes changes the basis; only design continuation",
-  "inward_gc4": "same fixed metric and 16 controls,12 modes,128 angles as baseline; fourth Cauchy jet and both angular bases",
+  "closed_design": "R10 unique exponential closure tilt, three radial geometry modes, nine independent period coefficients; freeze tilt and normalization for validation",
+  "space_star": "R9 exact flat core, two published planar certificates, mixed lifts and continuous curvature/width bounds; no full-surface claim",
+  "ruled_tail": "R44 exact 2-jet inlet, one fixed complete metric, 5 radial controls and 8 angular modes; no design metric variables",
   "task_complete": false
 }

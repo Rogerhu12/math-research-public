@@ -1,0 +1,280 @@
+{
+  "schema": "space-star-rectifying-flat-core-v1",
+  "status": "development_smoke_only",
+  "definition": {
+    "a": ".60",
+    "b": ".09",
+    "lifts": ".2",
+    "lift_mixes": ".20",
+    "widths": ".001",
+    "nodes": 32,
+    "samples": 64,
+    "planar_report": "topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "smoke_only": true,
+    "out": "topics/visible-flex-new-mechanism/notes/space-star-flat-mix-smoke-20261114.json"
+  },
+  "planar_star_certificate": {
+    "a": ".60",
+    "b": ".09",
+    "radial_range": {
+      "lower": "0.49",
+      "upper": "1.69"
+    },
+    "curve_is_simple_regular_radial_graph": true,
+    "tip_radius": {
+      "lower": "1.69",
+      "upper": "1.69"
+    },
+    "valley_radius": {
+      "lower": "0.49",
+      "upper": "0.49"
+    },
+    "rotation_angle": "pi/3",
+    "rotated_tip_q_enclosure": {
+      "x": {
+        "lower": "0.845",
+        "upper": "0.845"
+      },
+      "y": {
+        "lower": "1.4635829323957013130306921585724621500666704394697",
+        "upper": "1.4635829323957013130306921585724621500666704394699"
+      }
+    },
+    "q_outside_filled_domain_proved_by_radial_gap": {
+      "lower": "1.20",
+      "upper": "1.20"
+    },
+    "continuous_distance_q_to_filled_star_domain": {
+      "lower": "1.0061146909351181992995073795983809365144768565577",
+      "upper": "1.0061213623724933725392126308205295966752967030126"
+    },
+    "continuous_full_curve_diameter": {
+      "lower": "3.0045259551673064191273436881992979840992499058063",
+      "upper": "3.0045326266046824018420517982723181847575172859274"
+    },
+    "continuous_witness_distance_over_planar_diameter": {
+      "lower": "0.33486562336721679848634228838831074745324318179367",
+      "upper": "0.33486858738634784345052223143952959088787802319422"
+    },
+    "planar_ratio_lower_at_least_03": true,
+    "continuous_absolute_curvature_upper": "7.3230869190626384524723049583483987426807169714108",
+    "exact_tip_signed_curvature": {
+      "lower": "3.6168201393508630650187318371205490003851405763102",
+      "upper": "3.6168201393508630650187318371205490003851405763104"
+    },
+    "exact_valley_signed_curvature": {
+      "lower": "-6.9554352353186172428154935443565181174510620574762",
+      "upper": "-6.9554352353186172428154935443565181174510620574759"
+    },
+    "nonconvexity_certified_at_valley": true,
+    "local_curvature_radius_lower_not_global_reach": "0.13655443545220147092522101510790220725821696951977",
+    "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.047851959755100341360367953821535014744933209597883",
+    "continuous_perimeter": {
+      "lower": "9.9149437937548736464915931773902238540345422273431",
+      "upper": "10.027542130837184535445814664438872885754961143035"
+    },
+    "continuous_mean_radius": {
+      "lower": "1.5780123152543977602362859815229486068082066365919",
+      "upper": "1.5959328971849749980692713467834816996345638979178"
+    },
+    "conditional_full_surface_diameter_budget_for_03_witness": {
+      "lower": "3.3537156364503939976650245986612697883815895218589",
+      "upper": "3.3537156364503939976650245986612697883815895218591"
+    },
+    "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.4900309613695412722216447670470812752438547551482",
+    "filled_domain_contains_coaxial_disk_radius": "0.49",
+    "subdivision_certificate": {
+      "segments": 4096,
+      "gamma_second_derivative_upper": {
+        "lower": "11.340692218731623791408705640433982844675688775992",
+        "upper": "11.340692218731623791408705640433982844675688775994"
+      },
+      "curve_to_exact_chords_Hausdorff_upper": "0.0000033357186863837682426827128047446609275411793663527",
+      "vertex_midpoint_radius_error_upper": "1.3766074091106792842365510221994836855945879988568E-16",
+      "q_midpoint_radius_error_upper": "6.5990146869189454780495878880361416679734348422536E-17",
+      "distance_to_binary64_polygon": {
+        "lower": "1.006118026653804786718637842568568885326385498046875",
+        "upper": "1.0061180266538067851200821678503416478633880615234375"
+      },
+      "binary64_polygon_all_pairs_diameter": {
+        "lower": "3.004525955167306694448825510335154831409454345703125",
+        "upper": "3.004525955167309358984084610710851848125457763671875"
+      }
+    },
+    "samples": {
+      "angles": 1024,
+      "maximum_absolute_curvature_sample": 6.955435235318617,
+      "signed_curvature_sample_range": [
+        -6.955435235318617,
+        3.6168201393508617
+      ],
+      "minimum_normal_chord_radius_sample": 0.1437800442762032,
+      "normal_chord_pair_indices": [
+        853,
+        854
+      ],
+      "normal_chord_pair_phi": [
+        5.2339424482658075,
+        5.240078371417351
+      ],
+      "pair_cyclic_grid_separation": 1,
+      "reach_lower_bound": false,
+      "normal_chords_only_give_necessary_upper_obstructions": true,
+      "continuous_or_roundoff_validated_sample": false
+    },
+    "scope": {
+      "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+      "transition_projection_containment_proved": false,
+      "fixed_metric_connector_obtained": false,
+      "closed_surface_obtained": false,
+      "held_amplitude_for_a_closed_surface_certified": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    },
+    "development_derivative_check": {
+      "first_derivative_relative_error": 1.1222843068384276e-10,
+      "second_derivative_relative_error": 1.1332663159957972e-10,
+      "curvature_formula_max_difference": 2.6645352591003757e-15
+    }
+  },
+  "planar_certificate_source": {
+    "path": "topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405",
+    "nodes": 4096
+  },
+  "lifts": [
+    {
+      "lift": ".2",
+      "lift_mix_spec": ".20",
+      "lift_mix_enclosure": {
+        "lower": "0.20",
+        "upper": "0.20"
+      },
+      "actual_lift_absolute_height": {
+        "lower": "0.21373765502515471781463338735612989606557478451410",
+        "upper": "0.21373765502515471781463338735612989606557478451415"
+      },
+      "continuous_frame_bounds": {
+        "curvature_nonzero_certified": false,
+        "unresolved_cells": 28,
+        "curvature_positive_lower": "0.010849782222765795166494675861224614845793665590102",
+        "curvature_upper": "15.869837812996689463134552549394138427784079052749",
+        "torsion_absolute_upper": "5358.1446223380794195460183200078772471603450044115",
+        "q_absolute_upper": "493848.12637946171223916522882832466340702496060499",
+        "q_arclength_derivative_absolute_upper": "33386094321.012504520849496293307495593624768741312",
+        "central_principal_curvature_upper": "2646109691.1754738845116808057269102300778025828138",
+        "central_max_principal_curvature_lower": "0.32558402660647230870591445738201772992486969379805",
+        "perimeter": {
+          "lower": "3.3726368482209945498808178106731448611787726197303",
+          "upper": "18.214422388036790713207627192569440334017654243115"
+        },
+        "bounds_cover_whole_curve": false,
+        "frame_numeric_bounds_are_only_for_resolved_cells_when_unresolved_cells_positive": true
+      },
+      "frame_samples": {
+        "points": 64,
+        "curvature_range": [
+          0.7463466868794377,
+          4.517176088720583
+        ],
+        "torsion_range": [
+          -5.672248369014567,
+          -0.01454649784502836
+        ],
+        "q_absolute_max": 5.41682032965133,
+        "q_arclength_derivative_absolute_max": 32.14099971384269,
+        "central_principal_curvature_max": 30.21958215369204,
+        "central_curvature_peak_phi": 4.908738521234052,
+        "continuous_certificate": false
+      },
+      "exact_valley_geometry": {
+        "spatial_curvature": {
+          "lower": "4.5171760887205842575060860156883959967541249661887",
+          "upper": "4.5171760887205842575060860156883959967541249661890"
+        },
+        "rectifying_principal_curvature": {
+          "lower": "4.7050732900329463178610603393058974897847265964708",
+          "upper": "4.7050732900329463178610603393058974897847265964713"
+        },
+        "formula": "lambda0=(abs(c)+(r*z3-third*z1)^2/abs(c)^3)/(r^2+z1^2)",
+        "torsion_exactly_zero_by_parameter_formula": false,
+        "exact_parameter_angle": "pi/3"
+      },
+      "exact_tip_geometry": {
+        "spatial_curvature": {
+          "lower": "2.9003004183395569531403543251817952101524552882050",
+          "upper": "2.9003004183395569531403543251817952101524552882052"
+        },
+        "rectifying_principal_curvature": {
+          "lower": "2.9003733765056205064017052596985685010082711530939",
+          "upper": "2.9003733765056205064017052596985685010082711530944"
+        },
+        "formula": "lambda0=(abs(c)+(r*z3-third*z1)^2/abs(c)^3)/(r^2+z1^2)",
+        "torsion_exactly_zero_by_parameter_formula": false,
+        "exact_parameter_angle": "0"
+      },
+      "necessary_reach_over_planar_D_upper_from_exact_valley": "0.070738793307371150847579386228420434692666213921320",
+      "ruled_out_for_reach_003_by_exact_valley_curvature": false,
+      "necessary_reach_over_planar_D_upper_from_exact_extrema": "0.070738793307371150847579386228420434692666213921320",
+      "ruled_out_for_reach_003_by_exact_extrema": false,
+      "necessary_reach_over_planar_D_upper_from_continuous_core_curvature_lower": null,
+      "numeric_position_and_two_jet_check": {
+        "position_and_jet_FD_relative_errors": {
+          "xs": 1.3178223320862369e-10,
+          "xu": 3.529750970388143e-09,
+          "xss": 1.1650592754483206e-09,
+          "xsu": 4.769775836245703e-10,
+          "xuu": 4.371481080334785e-09
+        },
+        "halfturn_two_jet_errors": {
+          "x": 2.808864252301646e-14,
+          "xs": 1.6397994073713562e-13,
+          "xu": 5.6316062924111066e-14,
+          "xss": 4.139799614222284e-12,
+          "xsu": 1.5365486660812167e-12,
+          "xuu": 5.627720511824919e-13
+        },
+        "algebraic_EFG_error_max": 2.220446049250313e-16,
+        "implicit_map_residual_max": 2.4868995751603507e-14,
+        "a0_from_numerical_arclength": 1.6621538070882054,
+        "numerical_arclength_certified": false
+      },
+      "width_candidates": [
+        {
+          "half_width": ".001",
+          "continuous_material_map_J_lower": null,
+          "whole_core_immersion_and_angular_closure_certified": false,
+          "projection_padding_upper": ".001",
+          "total_z_span_upper": {
+            "lower": "0.42947531005030943562926677471225979213114956902830",
+            "upper": "0.42947531005030943562926677471225979213114956902830"
+          },
+          "core_diameter_upper": "3.0370524323398270952522430206438920107783024143530",
+          "conditional_witness_distance_lower": "1.0051146909351181992995073795983809365144768565577",
+          "conditional_witness_over_D_core_lower": "0.33095072058428399804844509725676665061137170916463",
+          "requires_same_projection_and_height_budget_for_all_future_caps": true,
+          "embedding_proved": false,
+          "reach_lower_proved": false
+        }
+      ],
+      "formula_exact_with_exact_arclength": true,
+      "numeric_quadrature_is_not_an_exact_arclength_certificate": true,
+      "central_mixed_second_fundamental_coefficient": "W=-a0*tau, generally nonzero",
+      "closed_surface_constructed": false,
+      "task_complete": false
+    }
+  ],
+  "elapsed_seconds": 0.1543470629985677,
+  "source_sha256": {
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "claim": {
+    "exact_local_formula_proved": true,
+    "closed_embedded_surface": false,
+    "fixed_hold_amplitude_for_closed_surface_certified": false,
+    "reach_lower_certified": false,
+    "task_complete": false
+  }
+}
