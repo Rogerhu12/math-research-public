@@ -145,3 +145,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **η8第二方向入口已冻。** [接口](notes/2026-11-14-r150-eighth-second-interface-789f.md)保持原p²目标，唯一新方向9101；五旧包46输入，九旧p6原余及全部来源不重算。先实核九余primary，再恢复q/H5、完整相关像与所有正列原17；未付primary保真回执而不报完整负。共享300秒/512MiB、六编译各30秒，所有实际数据/cache无损保存；入口冻结不代数学结果，较低初值/第三层另接。
 
 **真单新位carry及c20窗。** [证明](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)保原N/Y的准确右上块，K E=0及Anew^zK=0使真残量短逆只付52ηR H_p²，有限截止把母窗及同一个实际顶部推到Q≤exp(20d³)。母/低投影误差exp(−3d⁴)、top误差2exp(−3d⁴)，原两费同带/全cut/d网格与固定测试配对保持；未消旗实际族只缺O(exp(20d³)/d)角度。旧联合旗δ仍限原窗，不把最高carry重复付进真幂。
+
+**η8实绩与更低初值。** [实际第二像](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)已经完成：d8本身∈U9，所有保持当前F9模p且保持Λ2的允许修正仍排九当前p6目标。新事实是九raw生成模13维、商为4维且J=2I，U9包含于原raw模；四维是目标空间而非全来源压缩许可。run43644262244的全部37恢复/8cache已永久发布，不重原数学。下一须真实改变较低初值，保Λ2及完整carry；η8/η9进入较高位的作用、五个未消新关系和旧198第三层须分别覆盖，不能把相关第二零当成全局第二零。

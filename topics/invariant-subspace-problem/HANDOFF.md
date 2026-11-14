@@ -41,8 +41,6 @@
 
 - **[保持联合余负图的正滤波J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)：** P为真Xi投影、Q=I−P，J=Q E Q†_L/(1+2δ)为L正收缩且像在Rrem。精确JMJ≤2J(I−J)，全n总耗散≤μ(r)²，无累积δ项；Xi(J^n r)²≤μ(r)²/n，左误差平方≤n[Xi(r)²+(2+√2)δμ(r)²]。δ仅m≥8、4d≤q≤exp(d³/4)原窗；新c16母窗不迁移该旗。测试滤波可自伴移到实际r，原主左配对/移动谱隙仍开。
 
-- **[η8唯一允许第二方向入口](notes/2026-11-14-r150-eighth-second-interface-789f.md)已启动run43644262244（job132598400950，源05d80c9b4e12d47275e724fe4e992e9cb0d199b6）：** 五旧artifact、46精确输入（44包内＋2仓库），复用九原p6余/正常形/来源，不重旧数学。新9101的一q/VQ/H5、实际primary检查、完整相关像及每个正目标原17均在一次300秒/512MiB内；六编译各30秒。完整8文件manifest已存，workflow invariant-subspace-r150-eighth-second.yml；源码冻结/编译不冒称执行结果。较低初值/第三层继续。
-
-η8实际调度run43644218789已success、主线05d80c9b，HTTP204一次成功；数学run43644262244已启动，完整回执未读，不冒称结果。CLI直调403及断连前未推状态均保原诊断。
+- **[η8实际完整第二像为零](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)：** run43644262244/job132598400950完成，源05d80c9b、数据0ab29a88；数学68.417425751秒，新q/H5费用88，原p6乘回232133坐标的p5整除全过。实测d8本身∈U9，相关Krylov rank0，九当前余全受阻；范围已扩大到保持当前F9模p及Λ2的全部允许修正，仍不排更低初值/全原来源。九raw列秩9、生成模维13/ann=(s−1)(s−2)^3，商列秩及模维4/ann=s−2，故U9⊂原raw模。37恢复16174596B、18binary/19text/8cache逐清单对齐零缺项，artifact14132489956且全部字节已main；新旧数学均复用。完整先前状态保[本次H](notes/2026-11-14-handoff-before-eighth-second-result-789f.md)。下一低初值第三层仍须真实来源，四维目标商不代来源覆盖。
 
 - **[真新位块与c20全实际源](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)：** A_(p+1)=[[A_p,bI+C],[0,A_p]]，K E=0、Anew^zK=0，无[A,C]=0假设。真残量短修复只付52ηR H_p²；有限j<z给一步exp(−4z⁴)。m≥10、Q≤exp(20d³)母提升到N及实际低投影误差均exp(−3d⁴)，同一个u_Q误差2exp(−3d⁴)，全窗原负流/两费/固定测试同源预算保留。未消旗族只余实际比较O(exp(20d³)/d)；旧联合旗δ不迁移，普通ISP未闭。
