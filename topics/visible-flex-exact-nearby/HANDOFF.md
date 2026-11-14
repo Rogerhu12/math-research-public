@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:01:04 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:07:33 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：21:57:09 UTC 8ab16ca804845b340d537c5067ae1f679a5e8325，两README实际diff空。
-21:07曾恢复terminal并重做partial clone；21:48环境再次unavailable，write_stdin报No usable execution environment。按根规8暂只connector<100KB文本，绝不读binary/gzip，不把只读ref核称真pull。所有已推native/blob仍在；新105pin矩阵pilot即用公开runner真pull，恢复terminal后立即pull并核两README。根规12不增冻结/独审门。
-最近只读README核：b02530d3a5dcfc570cf4a887503fb6eafb10c5b8；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects在该目录.git/objects。相关祖先/子目录AGENTS均无文件。runner长算10min真pull；phase child45/outer50min前后真pull，均保README差异与已读提交；数学成功与出版失败分别记录。
-恢复前H完整在 notes/2026-11-14-handoff-before-terminal-restoration.md；本次旧9955B H完整在 notes/2026-11-14-handoff-before-cancelled-source-consumer.md。旧9601B/9967B H及40283B open、94540B results与更早链均见上述H档案及 notes/2026-11-14-results-before-infinite-cap-and-return.md；旧152结论入口全保。所有原身份、逐行native、失败和参数范围见actual报告/manifest，不凭摘要重构旧数学。
+21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
+最近只读README核：1d3cbd609aa058eab26a3b365d1ba4b801fe2fb3；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
+本次前H全文9747B在 notes/2026-11-14-handoff-before-common-transport.md；旧H/open/results与原152结论入口的完整档案链均保于其中。actual报告、manifest/native保存每项对象、身份、参数、失败和逐行证明，不凭摘要重构旧科学。
 
 ## 同一对象和总完成门
 
@@ -25,6 +25,7 @@ finite193 nativepoint43635487128/8门，native7fcd5bec…3996581B：负窗<.0035
 finiteL²43633074696/9门 nativeac4441cb…18075636B：6391signedGram/5970接口，ordinary→全L²<22386.327561、负窗<10488.564544、C0<181981.908213。weighted cross43637596465/13门 nativea12fd95f…20999028B/11片：新7721费用/两12361扫，旧Gram/exp0重算；G_L A_LH全L²<2884413.051957、负窗<1351427.386989。都是粗upper，不能证反馈大。
 矩阵actual43645186441/11门/child0/163.680489672s，原0/76/3300/5969四格双向全193×193已证；native4328b192…29342B，完整4数组artifact14133504273/61752830B，逐数组hash/原run保存。报告R133-supplement-actual-four-full193-cached-local-matrices.md。105pin/旧97零变，target/validator/Green0重算，4真pull至8ab16ca8…空diff。后继用同F+真inverse、完整[Q96,N97] frame及signed Gram支付endpoint patch/所有跳，再扩5970所需格；不把独立F/B或Q锚当同全Green。
 完整帽P1–19已推768f1f11，报告 R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md。全频 h1+S(HB−KB P⊥HC)h2、−m^-2Π0h2−K0P⊥HC h2；S=v·composition且奇h1系数I。全物理逆ad6efc2a…/repair共轭35db98d4…/Hessian bf42a295…保。有限97输入矩阵528e2f47…不授任意高输入；body L²不能控制独立截面迹。
+root V1–22共同输运/完整正波已证（R133-supplement-common-transport-energy-and-complete-positive-wave-splitting.md）：y=(h1/√K,h2)保κr/κ、完整primitive/mean；T=d∂φ+dφ/2的头尾交叉精确抵消。C=P[J,d]|D|在δ0高97两向零、fullδ仅HH零；非解背景mean含R*。不授cap伴随/平滑/全逆；QR需传真实metric。
 正高双输出43639514776 child0/11门/30.811262s，native54b39404…3715980B：4650旧行复用、4651新权重格/双扫。真cut even重构<.595330881947；内head→正内body<226.101680824/→cut<111.623062290，外帽独立列<69.241039838/<34.183279287。七源/true mean/root incoming齐。报告 R133-supplement-actual-positive-high-inner-body-and-cut-trace.md，c0d159a5；4真pull至a62b45b2…空diff。仍非全Schur。
 
 ## Airy根与完整源：root、phase_inverse

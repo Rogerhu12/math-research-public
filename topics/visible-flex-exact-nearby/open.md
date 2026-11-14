@@ -154,3 +154,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 四格完整矩阵actual已成，接同一生成元的方向核
 
 [实际报告](results/R133-supplement-actual-four-full193-cached-local-matrices.md)核43645186441的11门/child0与61.75MB完整artifact，4个原系数格均通过。后续复用全部4个矩阵文件；用完整[Q96,N97] frame和同一F的endpoint patch建立连续三角块，再保signed矩阵递推和source Gram cross项。真实primitive/mean、两端waist/97帽列与浮点坐标跳完整付原Green；不能直接把局部inverse或4格判为全BVP。
+
+### 共同输运的signed交叉已经可准确保留
+
+[V1–22](results/R133-supplement-common-transport-energy-and-complete-positive-wave-splitting.md)给完整正区归一化、零阶算子及two-wave+mean，最主要角导交叉T_LH=-T_HL*在同L² metric内精确抵消。固定M32的Hilbert交换子只支撑至63，全δ仍有高低项而HH为0。用此结构改进全矩阵/高频能量，勿把已有绝对upper解释成真实反馈大；κr/κ、非酉坐标metric、独立mean/weak源和帽trace全保。原非解中心mean残差不能删除，完整cap伴随或E−E0平滑仍须另证。

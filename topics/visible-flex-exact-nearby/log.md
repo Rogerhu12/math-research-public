@@ -415,3 +415,7 @@ visible-exact-astra-0df9全文核新合同及原L12–24变分/混合导公式�
 ### 2026-11-14 22:01:04 UTC — 四格全193矩阵actual独推
 
 visible-exact-astra-0df9亲核6278B报告、6991B process、20275B summary、11门/两向四格和公开artifact14133504273元数据；science163.680489672s，4真pull空diff至8ab16ca8…。native4328b192…/4数组逐文件逐数组SHA齐，0旧target/validator/Green；无binary通过connector。后继同F/真逆或完整差/跳，继续全方向核及全无限耦合。
+
+### 2026-11-14 22:07:33 UTC — V1–22共同输运与完整正区两波独推
+
+visible-exact-astra-0df9从完整raw_generator逐项导出T斜伴随、正区y/q规范矩阵、primitive及mean列，证明两波交换子支持和完整mean方程；亲核非解中心需加R*均值。正文12775B/SHA279f0d99…，无本地数值数学。旧H9747B全文归档后整理环境段；继续同metric方向核、真实帽与高频全反馈，不把主符号稳定关系当帽图全结论。

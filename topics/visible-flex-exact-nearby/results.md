@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **共同输运能量与完整正波分解（V1–22）**：[证明](results/R133-supplement-common-transport-energy-and-complete-positive-wave-splitting.md)。在同一径向度量保完整primitive/mean/κr项，T=d∂φ+dφ/2的头尾交叉精确斜伴随；完整δ=0交换子高97两向为零，全δ仅HH为零。给完整两波及真实mean行，非解中心的背景mean另保残差。未授完整帽伴随/平滑、强逆或非酉QR中的免费抵消。
+
 - **四格完整193方阵的实际连续证书**：[报告](results/R133-supplement-actual-four-full193-cached-local-matrices.md)。43645186441 child0/11门；原0/76/3300/5969四格全193输入、两方向degree24、全部新舍入/整格inverse/真实生成元差已付。完整4数组保实际公开artifact14133504273与逐数组hash，0旧target/validator/Green；后继使用同一patched F及真逆或保全部差/跳，尚非5970全Green。
 
 - **真根锚定的辅助fold与完整直接leading导数（F1–19）**：[证明](results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md)。利用原真根锚、完整δ均值和两已付复三阶域，给k/η相关缩域、A−a*的3/5径向费及完整flow/inverse门；直接支付leading全部二阶与QK完整forcing两行。只在原piece交内识别物理解，辅助零seam不删除全局原seams；新数值门待Actions。
