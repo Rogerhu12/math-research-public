@@ -50,7 +50,7 @@ R116完整m8响应288=287新+1复用，true pure像T秩31/偶15。R123静态raw�
 
 **R132 actual43652134080/source6e2f99ce已完整成功**：消费器5c7bb457仅1901新pure v根、885新N/operator响应及18个Δ2；原L2=v2−B_m0N2−B_m2N0、L4=v4−B_m2N2。所有P=A·旧原列+R准确差零。raw完整商24/even13，不是实际成本维数。全部P/A/R度≤33，结合R85/R88实际r≥25、R129不改profile次数及R130，真实商≤14/even≤5；再逐权与raw商相交，只有w−1/0/1可增≤1/5/1，故**真实pure商≤7，偶≤5**。14.66764164s/RSS315.222656MiB。完整gz1089774B/68a764d0、raw9189672B/ecdc5297，main14890B/20157415、receipt192a945b。
 
-当前公开request双lane：**derivative_m8_geometry_ibp** 源2347633b仅已发packet作真实几何IBP，完整边界/10键/P,A,R保；实际r<25只是非阻断观察，不裁剪。**g_translation_successor** 源a4583ea7只order3/新50列，额外保完整两mode目标和新列原DAG；补充导出限额不否定数学证明。两lane各240s/1024MiB，真actual结果尚待读。R131给G³，R133给IBP。R134加速度层纸证已完成待紧接登记：Abar/H只须完整v4，N2只进入四次速度块；不等fullmixed消费。
+当前公开request双lane：**derivative_m8_geometry_ibp** 源2347633b仅已发packet作真实几何IBP，完整边界/10键/P,A,R保；实际r<25只是非阻断观察，不裁剪。**g_translation_successor** 源a4583ea7只order3/新50列，额外保完整两mode目标和新列原DAG；补充导出限额不否定数学证明。两lane各240s/1024MiB，真actual结果尚待读。R131给G³，R133给IBP。R134已登记：三Abar/两H完整两mode只须已发v4和真实状态微分，N2只进入四次速度块；R130授这些系数在真实U4。literature准备最小五族原DAG消费，首测权−2的R8+RN³G，不编N/Q4或旧响应。
 
 ## 6. 未付终局
 

@@ -265,3 +265,5 @@
 - [R130：真实第四成本商恰由归一化水平正规系数张成](results/R130-true-fourth-span-from-horizontal-normal-coefficients.md) — 完整证明U4=R8+K，其中K来自静态归一项、速度二次3系数、加速度二次3系数、H两系数与速度四次5系数这14个状态函数族。先用frameI/M0的BBᴿ去T，再用R70真实同(frame,M)补偿证明局部积分的端点纤维常值，得到SO3×E8连续同态且只剩固定矩乘子μ；非I的BBᴿ再付所有开平端路径null-integral。此后才δ/ε分离与真实水平微幅路径，证明全部系数被同一湮灭子杀，有限维对偶给真span等式。未将十四族当十四维、未授正锥或实际半群逆元；若完整系数都入R8+orbitG才可升级完整period，当前未证。
 
 - [R132：完整纯尾导数成本与真实新增商至多七维](results/R132-complete-pure-derivative-costs-and-finite-tail-quotient-bound.md) — actual43652134080/source6e2f99ce完成1901个新pure根、885个新N响应和全部矩阵补项，完整packet差零；raw系数商24/even13。真实IBP不改profile次数，配R85/R88尾端势和R130真实span，真实成本投影落45维H，模31维响应先≤14；逐权再得只有w−1/0/1可增≤1/5/1，故实际新商≤7，偶≤5。完整gz1.09MB保全部原式，14.668s/RSS315.223MiB；未认上界取得、成本符号或mixed支付，直接接完整packet水平IBP。
+
+- [R134：完整第四成本的加速度层只由已发v4决定](results/R134-acceleration-layer-from-complete-local-v4.md) — m2及原N2=Pacc都是速度二次，故B_m2N2只进入速度四次，八矩规范化也不改变加速度层。R129的三Abar和两H完整两mode系数只须已发v4原根与真实X/Y状态微分；R130使这些状态值及独立Laurent/log系数都属真实U4。下一仅消费五族并检新权−2块，不重编N响应/forcing；Q2/Q4的完整N贡献仍保，不授新方向双向可达或ruling。
