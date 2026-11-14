@@ -20,8 +20,8 @@ env:
   OMP_NUM_THREADS: '1'
   MKL_NUM_THREADS: '1'
   NUMEXPR_NUM_THREADS: '1'
-  NORM_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-mean-norm-CI-pinned-inputs.json
-  NORM_MANIFEST_SHA: c3664d2d5096975a3b2d160765a2570ba7d65257dba8794e3bbac0511d5c03b2
+  NORM_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-mean-norm-CI-pinned-inputs-v2.json
+  NORM_MANIFEST_SHA: 59a666811e0ac769454a663ef00b3936ce740d34226e0736a1e158c48ed4548d
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
   REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
   REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
@@ -48,7 +48,7 @@ jobs:
             /README.md
             /topics/visible-flex-exact-nearby/README.md
             /topics/visible-flex-exact-nearby/scripts/
-            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-mean-norm-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-mean-norm-CI-pinned-inputs-v2.json
             /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
       - name: Fetch only the exact eight source and direction inputs
         run: |
@@ -77,7 +77,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: >-
-          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_mean_norms_CI_worker.py
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_mean_norms_CI_worker_v2.py
           --manifest "$NORM_MANIFEST" --manifest-sha "$NORM_MANIFEST_SHA"
           --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
           --prior-artifact "$RUNNER_TEMP/visible-exact-original-body-mean"

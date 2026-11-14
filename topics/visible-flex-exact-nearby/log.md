@@ -337,3 +337,5 @@
 - 2026-11-14T19:13:52+08:00｜visible-exact-astra-0df9：公开43588332723真实return0，8个loss全保，1/250同时过R31与物理域，s∞=93/2000且逆复合margin>.0013726400239022；显式族可选δ*，ℋ−G<2.210026409642e−7、导数差<.000224623568308。完整Wiener逆/复合费用已付，仍非PDE族或全β/strong。同步H/open到实际完整cap/body/phase状态。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:18:31+08:00｜visible-exact-astra-0df9：同一实际完整双端正片保mean/cross/全部输入输出；低trial取0但全graph不删真反射，高contact常数与真实复角隔带付低输出，unitarity/adjoint给R_++I:H^s→H^(s+4/3)<2^5700 b_*^(4/3)，|s|≤1。只改证明费用，源和所有参数列保；全网络阈值仍待strict/root graph接合。新整数门在公开Actions首跑。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:19:04+08:00｜visible-exact-astra-0df9：保43588192611真实失败fa68d99a…及前5门；原flow被再次Arb包络后residual-row应包含flow，v2修正包含方向并用两个区间union，费用只增不减。原7721主体和两mean成功native、全部原源不改，只公开重消费范数。 本条独立提交推送；继续原未完成项。
