@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R490：原degree26的显式CM差与完整H5伴随](results/R490-degree26-cm-difference-and-explicit-h5-companion.md)：C26=(Θbarγ13−Θγ13)/(336bδ)给严格非零的自身中央导数；原C26/Θ两输出保全深两态，S的degree442伴随准确为((1+δ)H5barγ−(1−δ)H5γ)/(2δ)。实际第二边际满足J_B′+J_S′=d log〈barγ/γ〉(1−λ)/(336bδ)，所有混合单位条件及卷积转置保留，辅助非零未冒认原中央。
+
 - [R491：原赋值格的因子整提升与齐次双jet障碍](results/R491-valuated-source-factor-lifts-and-homogeneous-joint-obstruction.md)：原W_D清固定d分母后准确为六角Gauss半空间，逐因子同时保有限角和无穷远次数整提升；实际cube可在同预算选真正因子化基准，故双jet仿射偏移在原余核恒零。三源规范化同样成立，固定conductor、原J forcing与M全部carry不变。
 
 - [R488：共同A绝对odd29核心、完整四态与实际D8返回](results/R488-original-shared-a-odd-core-and-actual-even-depth-dihedral-return.md)：固定mod29细分付共同四输入的odd29标量及绝对平方；十六个中心相位给原A/c/d四态，A两深与旧W核在三个独立原来源上生成D8。全三曲线/参考条件行、h/u/v整个边际和λ12词像格均付，物理补域仍完整保留。
