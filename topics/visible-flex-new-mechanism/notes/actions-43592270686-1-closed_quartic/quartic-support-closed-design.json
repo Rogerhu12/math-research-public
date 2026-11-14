@@ -1,0 +1,1491 @@
+{
+  "schema": "literature-quartic-closed-base-design-v1",
+  "arguments": {
+    "modes": 12,
+    "theta_n": 768,
+    "validation_n": [
+      768,
+      1536,
+      3072
+    ],
+    "q": [
+      3
+    ],
+    "sides": [
+      "positive",
+      "negative"
+    ],
+    "max_nfev": 150,
+    "warm_start": "/home/runner/work/_temp/visible-new-mechanism/closed_quartic/absolute-jacobian-closed-design.json",
+    "logh_bound": 0.8,
+    "speed_floor": 0.08,
+    "leading_sign": 0,
+    "leading_floor_fraction": 0.1,
+    "root_gap_bounds": [
+      0.05,
+      4.0
+    ],
+    "root_width_bounds": [
+      0.1,
+      4.0
+    ],
+    "initial_root_gap": 0.5,
+    "initial_root_width": 1.0,
+    "enforce_exponential_signs": false,
+    "exponential_rate_floor": 0.05,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/closed_quartic/quartic-support-closed-design.json",
+    "developer_check": false
+  },
+  "source_sha256": "b1e2e97753f2d3f1e3bd307399c25f58c5cc6d7b35e242ff75ab6d653df85777",
+  "closed_geometry_source_sha256": "bb990d0d968acec00555b6b840c3f6ef9b5171cb49c0d9d1b50fb82588014f15",
+  "profile_existence_is_not_assumed": true,
+  "root_and_amplitude_validation_are_frozen": true,
+  "numerical_optimization_is_not_an_existence_proof": true,
+  "task_complete": false,
+  "designs": [
+    {
+      "q": 3,
+      "side": "positive",
+      "warm_start": {
+        "path": "/home/runner/work/_temp/visible-new-mechanism/closed_quartic/absolute-jacobian-closed-design.json",
+        "sha256": "fcea183b082c193d87d7ac7d9ee0784e7db0330196a6a38f44b6bed073974230",
+        "matching_design_found": true,
+        "q": 3,
+        "source_schema": "literature-exact-closure-codesign-v1",
+        "source_design_index": 0
+      },
+      "initial_parameters": [
+        0.024631094289081126,
+        0.9323649553148995,
+        -0.11365605825930714,
+        0.1513736301681208,
+        1.4746174781805048,
+        0.13080155383466466,
+        0.1133444687024265,
+        -0.27807723594295813,
+        -0.2635098453206425,
+        0.1769177490628476,
+        0.24667390111658874,
+        0.04798459207869754,
+        -0.07846591101162091,
+        -0.07566605078534609,
+        -0.004840613784897526,
+        0.036055934913873905
+      ],
+      "final_parameters": [
+        0.02468163375949763,
+        0.9332841127830875,
+        -0.11257501846426722,
+        0.15167936735307758,
+        1.4752316912515888,
+        0.13105395081340937,
+        0.11311665897386435,
+        -0.2784920855070596,
+        -0.26296376530481985,
+        0.17784544221965745,
+        0.24668318458814456,
+        0.047779784266393545,
+        -0.079039746443002,
+        -0.07627295527756087,
+        -0.004820195861161546,
+        0.03887091681039473
+      ],
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "root_parameters_initial": [
+        -0.6931471805599453,
+        0.0
+      ],
+      "root_parameters_final": [
+        -2.4584954733313986,
+        -1.8011739799180548
+      ],
+      "root_parameter_meaning": "log gap from sampled pole half-band, log interval width; both in frozen xi units",
+      "frozen_xi_scale": 13.503227493353593,
+      "frozen_polynomial_scale": 4054.612602505084,
+      "frozen_polynomial_weights": [
+        0.00024663268677805727,
+        0.0033303372768611283,
+        0.04497030187905152,
+        0.6072442167176193,
+        8.199756802361325
+      ],
+      "frozen_independent_scales": [
+        20.147228875479907,
+        1.0,
+        1.0,
+        654.4197663547761,
+        51.85411330446459,
+        352.1240009665661,
+        1.4923150135175831,
+        4.290649712111144,
+        1.0
+      ],
+      "frozen_leading_reference_scale": 0.00012195483647905569,
+      "frozen_leading_floor": 1.219548364790557e-05,
+      "leading_sign": -1,
+      "frozen_target_roots": [
+        5.3679214712926555,
+        7.597371097310621
+      ],
+      "frozen_square_amplitude": -1.2152268860532445e-05,
+      "frozen_target_root_separation": 2.2294496260179653,
+      "frozen_square_coefficients": [
+        -0.020211398153774464,
+        0.012851066781532606,
+        -0.003033971830855033,
+        0.0003151154422982606,
+        -1.2152268860532445e-05
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.3953128487283946,
+        "normalization": 2.8286547959112567
+      },
+      "initial": {
+        "theta_n": 768,
+        "period_coefficients": {
+          "p0": -20.147228875479907,
+          "p1": -0.1830323875247224,
+          "p2": 1.752656330822333e-05,
+          "q0": 51.85411330446473,
+          "q1": 11.565929451257604,
+          "r0": 654.4197663547761,
+          "r1": 51.85411330446459,
+          "s0": -352.1240009665661,
+          "s1": 1.4923150135175831,
+          "t0": -4.290649712111144,
+          "t1": -0.009005656495887582
+        },
+        "independent_scaled_l2": 2.45633506611763,
+        "independent_scaled_max": 1.0,
+        "C_ascending_coefficients": [
+          654.4197663547761,
+          -300.2698876621015,
+          2.2384725202764155,
+          0.03675244038529302,
+          -4.381640827055833e-06
+        ],
+        "C_complex_roots": [
+          [
+            -125.3466714425861,
+            0.0
+          ],
+          [
+            2.2174282012670363,
+            0.0
+          ],
+          [
+            63.611715946804516,
+            0.0
+          ],
+          [
+            8447.343420816731,
+            0.0
+          ]
+        ],
+        "polynomial_identity_error": 1.1368683772161603e-12,
+        "additional_identity_errors": [
+          1.4210854715202004e-13,
+          6.750155989720952e-14
+        ],
+        "actual_curve_closure_vector": [
+          6.635124838008608e-16,
+          2.52839243324475e-15,
+          4.841234139163023e-16
+        ],
+        "closure_over_length": 2.421057725534664e-16,
+        "asymptotic_half_period": -3.813402891156104e-14,
+        "speed_min": 0.19469037513080426,
+        "speed_max": 3.0407808252269333,
+        "speed_contrast": 15.618547260921146,
+        "indicatrix_speed_min_sample": 0.9002663706259004,
+        "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+        "regularity_discriminant_numerator": 15671125576498384095075141104911869584678994883339152670258201681,
+        "regularity_discriminant_denominator": 14312576964700471057004044977229644619543863014852422274734096384,
+        "omega_min_sample": -4.226338979090343,
+        "omega_max_sample": 9.27688851426325,
+        "projected_centerline_diameter_sample": 1.59593644887479,
+        "projected_curve_is_diagnostic_until_closure_certified": true,
+        "formal_principal_radius_over_diameter_sample": 0.12199130815520261,
+        "reach_lower_certified": false,
+        "tilt": -0.39548251660714295,
+        "normalization": 2.828274830140297,
+        "square_target_frozen_ascending_coefficients": [
+          -0.3164784836405961,
+          0.08351194324206185,
+          -0.00786441690222064,
+          0.00031073836920664244,
+          -4.381640827055833e-06
+        ],
+        "square_residual_vs_frozen_target": [
+          654.7362448384167,
+          -300.35339960534355,
+          2.2463369371786364,
+          0.036441702016086375,
+          0.0
+        ],
+        "scaled_square_residual_vs_frozen_target": [
+          0.16147935919547465,
+          -1.000278122937642,
+          0.10101845018698727,
+          0.02212901279661526,
+          0.0
+        ],
+        "scaled_square_residual_l2": 1.01849218316066,
+        "scaled_square_residual_max": 1.000278122937642,
+        "relative_square_coefficient_residual": 2055.9028008611212,
+        "frozen_leading_floor": 1.219548364790557e-05,
+        "leading_sign": -1,
+        "nonzero_leading_guard_passed": false,
+        "square_invariants": {
+          "eligible_nonzero_leading": false,
+          "monic_linear": null,
+          "monic_constant": null,
+          "square_residuals": null,
+          "quadratic_discriminant": null,
+          "candidate_quadratic_roots": null
+        },
+        "physical_strip": {
+          "side": "positive",
+          "frozen_target_roots": [
+            10.977952725767139,
+            24.48118021912073
+          ],
+          "denominator_min": 6.751613746676796,
+          "denominator_max": 33.75806873338398,
+          "minimum_absolute_denominator": 6.751613746676796,
+          "interval_contains_a_pole_at_a_validation_angle": false,
+          "same_sign_at_all_validation_nodes": true,
+          "continuous_half_strip_certified": false,
+          "physical_u_range": [
+            0.0169259132342913,
+            0.2580319516006012
+          ],
+          "endpoint_u_ranges": [
+            [
+              0.034491633325247614,
+              0.2580319516006012
+            ],
+            [
+              0.0169259132342913,
+              0.08606498772841406
+            ]
+          ],
+          "physical_u_width_min": 0.017543356995704636,
+          "physical_u_width_max": 0.17196696387218716
+        },
+        "candidate_endpoint_rates": null
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -19.25726691384623,
+            "p1": -0.24911247360518196,
+            "p2": 4.860907544212978e-05,
+            "q0": 54.3494167154239,
+            "q1": 10.45112949734526,
+            "r0": 633.6572234045791,
+            "r1": 54.349416715424184,
+            "s0": -339.9183038792789,
+            "s1": 0.8224960404222941,
+            "t0": -4.4030687082504665,
+            "t1": -0.2553047389587477
+          },
+          "independent_scaled_l2": 2.3163959276157806,
+          "independent_scaled_max": 1.0481216098770847,
+          "C_ascending_coefficients": [
+            633.6572234045791,
+            -285.5688871638547,
+            1.2337440606333852,
+            -0.19302662055745223,
+            -1.2152268860532445e-05
+          ],
+          "C_complex_roots": [
+            [
+              -15890.480560823496,
+              0.0
+            ],
+            [
+              2.1245499470864315,
+              -38.275694381318544
+            ],
+            [
+              2.1245499470864315,
+              38.275694381318544
+            ],
+            [
+              2.232944047029251,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 2.1600499167107046e-12,
+          "additional_identity_errors": [
+            -2.8421709430404007e-13,
+            -1.4921397450962104e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.507322336574303e-15,
+            -6.778181944372243e-16,
+            -5.358964619336179e-16
+          ],
+          "closure_over_length": 1.5815434976486896e-16,
+          "asymptotic_half_period": -3.3483537580882865e-14,
+          "speed_min": 0.1935151603748981,
+          "speed_max": 3.0385521666205175,
+          "speed_contrast": 15.70188175817291,
+          "indicatrix_speed_min_sample": 0.9043599046082821,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 7872009731445921053316999176152208599178604487990422117675841721,
+          "regularity_discriminant_denominator": 7162251250869265584741019598717311326173882611634024461591642112,
+          "omega_min_sample": -4.21253689259526,
+          "omega_max_sample": 9.209120256511046,
+          "projected_centerline_diameter_sample": 1.5958744153827213,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12125964205553696,
+          "reach_lower_certified": false,
+          "tilt": -0.3953128487283946,
+          "normalization": 2.8286547959112567,
+          "square_target_frozen_ascending_coefficients": [
+            -0.020211398153774464,
+            0.012851066781532606,
+            -0.003033971830855033,
+            0.0003151154422982606,
+            -1.2152268860532445e-05
+          ],
+          "square_residual_vs_frozen_target": [
+            633.6774348027328,
+            -285.58173823063623,
+            1.2367780324642401,
+            -0.1933417359997505,
+            0.0
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.15628556829602522,
+            -0.9510835084202847,
+            0.055618281477296264,
+            -0.11740565103599322,
+            0.0
+          ],
+          "scaled_square_residual_l2": 0.9725546251889003,
+          "scaled_square_residual_max": 0.9510835084202847,
+          "relative_square_coefficient_residual": 3756.832411732459,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": false,
+          "square_invariants": {
+            "eligible_nonzero_leading": false,
+            "monic_linear": null,
+            "monic_constant": null,
+            "square_residuals": null,
+            "quadratic_discriminant": null,
+            "candidate_quadratic_roots": null
+          },
+          "physical_strip": {
+            "side": "positive",
+            "frozen_target_roots": [
+              5.3679214712926555,
+              7.597371097310621
+            ],
+            "denominator_min": 1.1553845786973955,
+            "denominator_max": 16.806491353821666,
+            "minimum_absolute_denominator": 1.1553845786973955,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              0.04661280842493499,
+              1.508187711788469
+            ],
+            "endpoint_u_ranges": [
+              [
+                0.06057561591832483,
+                1.508187711788469
+              ],
+              [
+                0.04661280842493499,
+                0.5148071422682411
+              ]
+            ],
+            "physical_u_width_min": 0.013678132071556645,
+            "physical_u_width_max": 0.9933805695202279
+          },
+          "candidate_endpoint_rates": null
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -19.257266913846255,
+            "p1": -0.2491124736052317,
+            "p2": 4.8609075516736766e-05,
+            "q0": 54.34941671542371,
+            "q1": 10.451129497345265,
+            "r0": 633.6572234045808,
+            "r1": 54.34941671542356,
+            "s0": -339.91830387928024,
+            "s1": 0.8224960404229194,
+            "t0": -4.4030687082504665,
+            "t1": -0.25530473895873884
+          },
+          "independent_scaled_l2": 2.3163959276158828,
+          "independent_scaled_max": 1.0481216098770727,
+          "C_ascending_coefficients": [
+            633.6572234045808,
+            -285.5688871638567,
+            1.2337440606340166,
+            -0.19302662055743092,
+            -1.2152268879184192e-05
+          ],
+          "C_complex_roots": [
+            [
+              -15890.480536442543,
+              0.0
+            ],
+            [
+              2.124549947157781,
+              -38.27569438130458
+            ],
+            [
+              2.124549947157781,
+              38.27569438130458
+            ],
+            [
+              2.232944047029259,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 1.3073986337985843e-12,
+          "additional_identity_errors": [
+            1.4921397450962104e-13,
+            -7.815970093361102e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.4078635864357757e-16,
+            1.2325263820141952e-15,
+            -1.843847148686855e-16
+          ],
+          "closure_over_length": 1.1416455928211334e-16,
+          "asymptotic_half_period": -8.370884395220716e-15,
+          "speed_min": 0.1929457674307073,
+          "speed_max": 3.0402990294995504,
+          "speed_contrast": 15.757272470832586,
+          "indicatrix_speed_min_sample": 0.9043599046082821,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 7872009731445921053316999176152208599178604487990422117675841721,
+          "regularity_discriminant_denominator": 7162251250869265584741019598717311326173882611634024461591642112,
+          "omega_min_sample": -4.212536892573576,
+          "omega_max_sample": 9.227349598735735,
+          "projected_centerline_diameter_sample": 1.5958744153827218,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12090285148436015,
+          "reach_lower_certified": false,
+          "tilt": -0.3953128487283946,
+          "normalization": 2.8286547959112567,
+          "square_target_frozen_ascending_coefficients": [
+            -0.020211398153774464,
+            0.012851066781532606,
+            -0.003033971830855033,
+            0.0003151154422982606,
+            -1.2152268860532445e-05
+          ],
+          "square_residual_vs_frozen_target": [
+            633.6774348027345,
+            -285.5817382306382,
+            1.2367780324648716,
+            -0.19334173599972918,
+            -1.865174681370263e-14
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.15628556829602563,
+            -0.9510835084202912,
+            0.055618281477324664,
+            -0.11740565103598027,
+            -1.5293978781157931e-13
+          ],
+          "scaled_square_residual_l2": 0.9725546251889069,
+          "scaled_square_residual_max": 0.9510835084202912,
+          "relative_square_coefficient_residual": 3756.8324117324846,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": false,
+          "square_invariants": {
+            "eligible_nonzero_leading": false,
+            "monic_linear": null,
+            "monic_constant": null,
+            "square_residuals": null,
+            "quadratic_discriminant": null,
+            "candidate_quadratic_roots": null
+          },
+          "physical_strip": {
+            "side": "positive",
+            "frozen_target_roots": [
+              5.3679214712926555,
+              7.597371097310621
+            ],
+            "denominator_min": 1.1553845787190795,
+            "denominator_max": 16.824720696046356,
+            "minimum_absolute_denominator": 1.1553845787190795,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              0.04661280842516077,
+              1.5081877117601636
+            ],
+            "endpoint_u_ranges": [
+              [
+                0.06057561591794118,
+                1.5081877117601636
+              ],
+              [
+                0.04661280842516077,
+                0.514978022391944
+              ]
+            ],
+            "physical_u_width_min": 0.013678132071436908,
+            "physical_u_width_max": 0.9933805694952206
+          },
+          "candidate_endpoint_rates": null
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -19.257266913846227,
+            "p1": -0.24911247360517663,
+            "p2": 4.86090754208135e-05,
+            "q0": 54.34941671542369,
+            "q1": 10.451129497345235,
+            "r0": 633.6572234045797,
+            "r1": 54.34941671542413,
+            "s0": -339.91830387928,
+            "s1": 0.8224960404218962,
+            "t0": -4.403068708250455,
+            "t1": -0.25530473895873307
+          },
+          "independent_scaled_l2": 2.316395927615715,
+          "independent_scaled_max": 1.0481216098770836,
+          "C_ascending_coefficients": [
+            633.6572234045797,
+            -285.5688871638559,
+            1.233744060632998,
+            -0.1930266205574389,
+            -1.2152268855203374e-05
+          ],
+          "C_complex_roots": [
+            [
+              -15890.480567787885,
+              0.0
+            ],
+            [
+              2.124549947065857,
+              -38.2756943813246
+            ],
+            [
+              2.124549947065857,
+              38.2756943813246
+            ],
+            [
+              2.232944047029242,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 1.8189894035458565e-12,
+          "additional_identity_errors": [
+            -4.334310688136611e-13,
+            2.255973186038318e-13
+          ],
+          "actual_curve_closure_vector": [
+            3.838699020757547e-16,
+            -7.705161480436111e-16,
+            2.4524075376623193e-16
+          ],
+          "closure_over_length": 8.147871453776047e-17,
+          "asymptotic_half_period": -1.3951473992034527e-14,
+          "speed_min": 0.1929457674307073,
+          "speed_max": 3.0402990294995504,
+          "speed_contrast": 15.757272470832586,
+          "indicatrix_speed_min_sample": 0.9041851647196759,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 7872009731445921053316999176152208599178604487990422117675841721,
+          "regularity_discriminant_denominator": 7162251250869265584741019598717311326173882611634024461591642112,
+          "omega_min_sample": -4.212614752470008,
+          "omega_max_sample": 9.227349598735728,
+          "projected_centerline_diameter_sample": 1.5958744153827213,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12090285148436018,
+          "reach_lower_certified": false,
+          "tilt": -0.3953128487283946,
+          "normalization": 2.8286547959112567,
+          "square_target_frozen_ascending_coefficients": [
+            -0.020211398153774464,
+            0.012851066781532606,
+            -0.003033971830855033,
+            0.0003151154422982606,
+            -1.2152268860532445e-05
+          ],
+          "square_residual_vs_frozen_target": [
+            633.6774348027334,
+            -285.5817382306374,
+            1.2367780324638529,
+            -0.19334173599973717,
+            5.329070518200751e-15
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.15628556829602536,
+            -0.9510835084202887,
+            0.05561828147727885,
+            -0.11740565103598513,
+            4.36970822318798e-14
+          ],
+          "scaled_square_residual_l2": 0.9725546251889022,
+          "scaled_square_residual_max": 0.9510835084202887,
+          "relative_square_coefficient_residual": 3756.8324117324664,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": false,
+          "square_invariants": {
+            "eligible_nonzero_leading": false,
+            "monic_linear": null,
+            "monic_constant": null,
+            "square_residuals": null,
+            "quadratic_discriminant": null,
+            "candidate_quadratic_roots": null
+          },
+          "physical_strip": {
+            "side": "positive",
+            "frozen_target_roots": [
+              5.3679214712926555,
+              7.597371097310621
+            ],
+            "denominator_min": 1.1553067188226471,
+            "denominator_max": 16.82472069604635,
+            "minimum_absolute_denominator": 1.1553067188226471,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              0.04661176410753606,
+              1.5089475928195792
+            ],
+            "endpoint_u_ranges": [
+              [
+                0.060575139431078034,
+                1.5089475928195792
+              ],
+              [
+                0.04661176410753606,
+                0.5150436589011879
+              ]
+            ],
+            "physical_u_width_min": 0.013676481104033841,
+            "physical_u_width_max": 0.9939039339183914
+          },
+          "candidate_endpoint_rates": null
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "optimality": 262.2012660231122,
+        "jacobian_method": "central absolute coordinate differences",
+        "jacobian_step": 2e-05,
+        "jacobian_coordinate_step": "2e-5 * max(1, abs(x[j]))",
+        "final_jacobian_direction_check": {
+          "column_step_floor": 2e-05,
+          "directional_step": 2e-06,
+          "relative_difference": 0.022743924694249868
+        },
+        "initial_residual_l2": 1.2032637113358406,
+        "final_residual_l2": 0.9740594134921495,
+        "elapsed_seconds": 5.428061149999991
+      },
+      "exact_closure_mechanism_proved": true,
+      "stored_tilt_is_reference_quadrature_approximation": true,
+      "target_roots_and_amplitude_are_frozen_for_validation": true,
+      "actual_quartic_has_two_exact_double_real_roots_proved": false,
+      "continuous_physical_half_strip_proved": false,
+      "full_complex_period_equation_solved": false,
+      "three_complex_total_moments_solved": false,
+      "nonzero_profile_constructed": false,
+      "finite_isometric_path_proved": false,
+      "embedding_proved": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    },
+    {
+      "q": 3,
+      "side": "negative",
+      "warm_start": {
+        "path": "/home/runner/work/_temp/visible-new-mechanism/closed_quartic/absolute-jacobian-closed-design.json",
+        "sha256": "fcea183b082c193d87d7ac7d9ee0784e7db0330196a6a38f44b6bed073974230",
+        "matching_design_found": true,
+        "q": 3,
+        "source_schema": "literature-exact-closure-codesign-v1",
+        "source_design_index": 0
+      },
+      "initial_parameters": [
+        0.024631094289081126,
+        0.9323649553148995,
+        -0.11365605825930714,
+        0.1513736301681208,
+        1.4746174781805048,
+        0.13080155383466466,
+        0.1133444687024265,
+        -0.27807723594295813,
+        -0.2635098453206425,
+        0.1769177490628476,
+        0.24667390111658874,
+        0.04798459207869754,
+        -0.07846591101162091,
+        -0.07566605078534609,
+        -0.004840613784897526,
+        0.036055934913873905
+      ],
+      "final_parameters": [
+        0.08961538541618651,
+        1.0362608161147835,
+        -0.08916157499491097,
+        0.1968275827705401,
+        1.5298357104900975,
+        0.1549263046518053,
+        0.11048485771835417,
+        -0.32575363737430646,
+        -0.23379351834053116,
+        0.23743987487671353,
+        0.21873890323944525,
+        0.007151236773741449,
+        -0.07823408308503335,
+        -0.04985034397415915,
+        0.003204631135126033,
+        0.02939054488417631
+      ],
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "root_parameters_initial": [
+        -0.6931471805599453,
+        0.0
+      ],
+      "root_parameters_final": [
+        -2.9957322735539904,
+        -2.302585092994045
+      ],
+      "root_parameter_meaning": "log gap from sampled pole half-band, log interval width; both in frozen xi units",
+      "frozen_xi_scale": 13.503227493353593,
+      "frozen_polynomial_scale": 4054.612602505084,
+      "frozen_polynomial_weights": [
+        0.00024663268677805727,
+        0.0033303372768611283,
+        0.04497030187905152,
+        0.6072442167176193,
+        8.199756802361325
+      ],
+      "frozen_independent_scales": [
+        20.147228875479907,
+        1.0,
+        1.0,
+        654.4197663547761,
+        51.85411330446459,
+        352.1240009665661,
+        1.4923150135175831,
+        4.290649712111144,
+        1.0
+      ],
+      "frozen_leading_reference_scale": 0.00012195483647905569,
+      "frozen_leading_floor": 1.219548364790557e-05,
+      "leading_sign": -1,
+      "frozen_target_roots": [
+        -9.127620803289371,
+        -7.77729805395401
+      ],
+      "frozen_square_amplitude": -0.046746820924894905,
+      "frozen_target_root_separation": 1.3503227493353611,
+      "frozen_square_coefficients": [
+        -235.5725844050137,
+        -112.1970660208492,
+        -19.99608057756668,
+        -1.5805024291388707,
+        -0.046746820924894905
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.3908575133318815,
+        "normalization": 2.7860229562793637
+      },
+      "initial": {
+        "theta_n": 768,
+        "period_coefficients": {
+          "p0": -20.147228875479907,
+          "p1": -0.1830323875247224,
+          "p2": 1.752656330822333e-05,
+          "q0": 51.85411330446473,
+          "q1": 11.565929451257604,
+          "r0": 654.4197663547761,
+          "r1": 51.85411330446459,
+          "s0": -352.1240009665661,
+          "s1": 1.4923150135175831,
+          "t0": -4.290649712111144,
+          "t1": -0.009005656495887582
+        },
+        "independent_scaled_l2": 2.45633506611763,
+        "independent_scaled_max": 1.0,
+        "C_ascending_coefficients": [
+          654.4197663547761,
+          -300.2698876621015,
+          2.2384725202764155,
+          0.03675244038529302,
+          -4.381640827055833e-06
+        ],
+        "C_complex_roots": [
+          [
+            -125.3466714425861,
+            0.0
+          ],
+          [
+            2.2174282012670363,
+            0.0
+          ],
+          [
+            63.611715946804516,
+            0.0
+          ],
+          [
+            8447.343420816731,
+            0.0
+          ]
+        ],
+        "polynomial_identity_error": 1.1368683772161603e-12,
+        "additional_identity_errors": [
+          1.4210854715202004e-13,
+          6.750155989720952e-14
+        ],
+        "actual_curve_closure_vector": [
+          6.635124838008608e-16,
+          2.52839243324475e-15,
+          4.841234139163023e-16
+        ],
+        "closure_over_length": 2.421057725534664e-16,
+        "asymptotic_half_period": -3.813402891156104e-14,
+        "speed_min": 0.19469037513080426,
+        "speed_max": 3.0407808252269333,
+        "speed_contrast": 15.618547260921146,
+        "indicatrix_speed_min_sample": 0.9002663706259004,
+        "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+        "regularity_discriminant_numerator": 15671125576498384095075141104911869584678994883339152670258201681,
+        "regularity_discriminant_denominator": 14312576964700471057004044977229644619543863014852422274734096384,
+        "omega_min_sample": -4.226338979090343,
+        "omega_max_sample": 9.27688851426325,
+        "projected_centerline_diameter_sample": 1.59593644887479,
+        "projected_curve_is_diagnostic_until_closure_certified": true,
+        "formal_principal_radius_over_diameter_sample": 0.12199130815520261,
+        "reach_lower_certified": false,
+        "tilt": -0.39548251660714295,
+        "normalization": 2.828274830140297,
+        "square_target_frozen_ascending_coefficients": [
+          -0.9817489178877163,
+          -0.18898812906611595,
+          -0.01324321817644724,
+          -0.0003992571453761684,
+          -4.381640827055833e-06
+        ],
+        "square_residual_vs_frozen_target": [
+          655.4015152726638,
+          -300.0808995330354,
+          2.2517157384528628,
+          0.03715169753066919,
+          0.0
+        ],
+        "scaled_square_residual_vs_frozen_target": [
+          0.161643436630107,
+          -0.9993706057888869,
+          0.10126033650403667,
+          0.02256015346674112,
+          0.0
+        ],
+        "scaled_square_residual_l2": 1.0176604662625899,
+        "scaled_square_residual_max": 0.9993706057888869,
+        "relative_square_coefficient_residual": 1091.3492224819572,
+        "frozen_leading_floor": 1.219548364790557e-05,
+        "leading_sign": -1,
+        "nonzero_leading_guard_passed": false,
+        "square_invariants": {
+          "eligible_nonzero_leading": false,
+          "monic_linear": null,
+          "monic_constant": null,
+          "square_residuals": null,
+          "quadratic_discriminant": null,
+          "candidate_quadratic_roots": null
+        },
+        "physical_strip": {
+          "side": "negative",
+          "frozen_target_roots": [
+            -29.531729754293643,
+            -16.028502260940048
+          ],
+          "denominator_min": -33.758068733383986,
+          "denominator_max": -6.751613746676798,
+          "minimum_absolute_denominator": 6.751613746676798,
+          "interval_contains_a_pole_at_a_validation_angle": false,
+          "same_sign_at_all_validation_nodes": true,
+          "continuous_half_strip_certified": false,
+          "physical_u_range": [
+            -0.23918191081956802,
+            -0.014624488676871642
+          ],
+          "endpoint_u_ranges": [
+            [
+              -0.0802288451544234,
+              -0.014624488676871642
+            ],
+            [
+              -0.23918191081956802,
+              -0.026364470866454617
+            ]
+          ],
+          "physical_u_width_min": 0.011648038962741214,
+          "physical_u_width_max": 0.15945460721304536
+        },
+        "candidate_endpoint_rates": null
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -9.757363590910682,
+            "p1": 0.8394024021819515,
+            "p2": 0.18698728369957962,
+            "q0": 51.49787550963426,
+            "q1": -8.410760048486793,
+            "r0": 218.04467587533173,
+            "r1": 51.49787550963447,
+            "s0": -168.76722923923617,
+            "s1": -13.289441843942058,
+            "t0": -9.084061819698704,
+            "t1": -1.3746857499616172
+          },
+          "independent_scaled_l2": 9.379598100821196,
+          "independent_scaled_max": 8.905252392132068,
+          "C_ascending_coefficients": [
+            218.04467587533173,
+            -117.2693537296017,
+            -19.93416276591309,
+            -1.584536350507105,
+            -0.046746820924894905
+          ],
+          "C_complex_roots": [
+            [
+              -19.12428027170209,
+              0.0
+            ],
+            [
+              -8.113764923123568,
+              -10.085439734634058
+            ],
+            [
+              -8.113764923123568,
+              10.085439734634058
+            ],
+            [
+              1.4556794473122423,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 2.8421709430404007e-13,
+          "additional_identity_errors": [
+            -2.0605739337042905e-13,
+            -7.638334409421077e-14
+          ],
+          "actual_curve_closure_vector": [
+            -5.747262479466046e-16,
+            1.441782880504138e-15,
+            1.1816971135180287e-15
+          ],
+          "closure_over_length": 1.6661398921753775e-16,
+          "asymptotic_half_period": -9.766031794424169e-15,
+          "speed_min": 0.20179634046469294,
+          "speed_max": 3.2189000154642446,
+          "speed_contrast": 15.951230869954431,
+          "indicatrix_speed_min_sample": 1.084900196497686,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 92223095916501936804090682322050555149980130714846300671499251959,
+          "regularity_discriminant_denominator": 61618150798193051361177127111698108602256465607095680855456088064,
+          "omega_min_sample": -3.802402310062109,
+          "omega_max_sample": 7.10213667928633,
+          "projected_centerline_diameter_sample": 1.7179805284367133,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.1174613664849384,
+          "reach_lower_certified": false,
+          "tilt": -0.3908575133318815,
+          "normalization": 2.7860229562793637,
+          "square_target_frozen_ascending_coefficients": [
+            -235.5725844050137,
+            -112.1970660208492,
+            -19.99608057756668,
+            -1.5805024291388707,
+            -0.046746820924894905
+          ],
+          "square_residual_vs_frozen_target": [
+            453.6172602803455,
+            -5.072287708752498,
+            0.061917811653589894,
+            -0.004033921368234328,
+            0.0
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.11187684367184292,
+            -0.016892428835422964,
+            0.0027844626817521917,
+            -0.0024495754215539214,
+            0.0
+          ],
+          "scaled_square_residual_l2": 0.11320572403419255,
+          "scaled_square_residual_max": 0.11187684367184292,
+          "relative_square_coefficient_residual": 0.0796580212599409,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": true,
+          "square_invariants": {
+            "eligible_nonzero_leading": true,
+            "monic_linear": 16.948065335318493,
+            "monic_constant": 69.59564137073934,
+            "square_residuals": [
+              -6.99253014080908,
+              444.46539452798595
+            ],
+            "quadratic_discriminant": 8.854353127266961,
+            "candidate_quadratic_roots": [
+              -9.961845922680434,
+              -6.986219412638059
+            ],
+            "candidate_roots_are_not_certified_roots_of_actual_quartic": true
+          },
+          "physical_strip": {
+            "side": "negative",
+            "frozen_target_roots": [
+              -9.127620803289371,
+              -7.77729805395401
+            ],
+            "denominator_min": -12.930023113351481,
+            "denominator_max": -0.6751613746676801,
+            "minimum_absolute_denominator": 0.6751613746676801,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              -2.4387801961863924,
+              -0.04757955977858663
+            ],
+            "endpoint_u_ranges": [
+              [
+                -0.8174379439153189,
+                -0.04757955977858663
+              ],
+              [
+                -2.4387801961863924,
+                -0.05521293016208942
+              ]
+            ],
+            "physical_u_width_min": 0.007480734461401323,
+            "physical_u_width_max": 1.6213422522710736
+          },
+          "candidate_endpoint_rates": {
+            "W_at_frozen_target_roots": [
+              -57.0799522994204,
+              -59.123629854109936
+            ],
+            "candidate_endpoint_quadratic_coefficient": -0.08523682226963944,
+            "candidate_exponential_rates_physical_xi": [
+              -1004.4946088942551,
+              1040.459304085927
+            ],
+            "candidate_exponential_rates_normalized_interval": [
+              -1487.784471362383,
+              1541.0527662339227
+            ],
+            "both_standard_exponential_rates_positive": false,
+            "rates_are_conditional_on_quartic_shape": true,
+            "other_flat_asymptotics_not_excluded": true
+          }
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -9.757363590910662,
+            "p1": 0.8394024021819222,
+            "p2": 0.1869872836995743,
+            "q0": 51.4978755096344,
+            "q1": -8.410760048486683,
+            "r0": 218.04467587533085,
+            "r1": 51.497875509634525,
+            "s0": -168.76722923923631,
+            "s1": -13.289441843941972,
+            "t0": -9.084061819698691,
+            "t1": -1.3746857499615746
+          },
+          "independent_scaled_l2": 9.379598100821132,
+          "independent_scaled_max": 8.905252392132011,
+          "C_ascending_coefficients": [
+            218.04467587533085,
+            -117.26935372960179,
+            -19.934162765912998,
+            -1.584536350507055,
+            -0.04674682092489357
+          ],
+          "C_complex_roots": [
+            [
+              -19.12428027170148,
+              0.0
+            ],
+            [
+              -8.113764923123824,
+              -10.085439734634335
+            ],
+            [
+              -8.113764923123824,
+              10.085439734634335
+            ],
+            [
+              1.45567944731224,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 6.821210263296962e-13,
+          "additional_identity_errors": [
+            -1.2789769243681803e-13,
+            -4.1744385725905886e-14
+          ],
+          "actual_curve_closure_vector": [
+            2.250083915805178e-15,
+            -3.5499592559789597e-16,
+            1.119024476444436e-15
+          ],
+          "closure_over_length": 2.167647417536461e-16,
+          "asymptotic_half_period": 0.0,
+          "speed_min": 0.20179634046469294,
+          "speed_max": 3.222107802830346,
+          "speed_contrast": 15.967127032187674,
+          "indicatrix_speed_min_sample": 1.0846247187579674,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 92223095916501936804090682322050555149980130714846300671499251959,
+          "regularity_discriminant_denominator": 61618150798193051361177127111698108602256465607095680855456088064,
+          "omega_min_sample": -3.8041834047295517,
+          "omega_max_sample": 7.113346857757365,
+          "projected_centerline_diameter_sample": 1.7179805284367136,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.11746136648493839,
+          "reach_lower_certified": false,
+          "tilt": -0.3908575133318815,
+          "normalization": 2.7860229562793637,
+          "square_target_frozen_ascending_coefficients": [
+            -235.5725844050137,
+            -112.1970660208492,
+            -19.99608057756668,
+            -1.5805024291388707,
+            -0.046746820924894905
+          ],
+          "square_residual_vs_frozen_target": [
+            453.61726028034457,
+            -5.072287708752583,
+            0.061917811653682264,
+            -0.004033921368184368,
+            1.3322676295501878e-15
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.1118768436718427,
+            -0.01689242883542325,
+            0.002784462681756346,
+            -0.0024495754215235837,
+            1.092427055796995e-14
+          ],
+          "scaled_square_residual_l2": 0.11320572403419181,
+          "scaled_square_residual_max": 0.1118768436718427,
+          "relative_square_coefficient_residual": 0.07965802125994038,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": true,
+          "square_invariants": {
+            "eligible_nonzero_leading": true,
+            "monic_linear": 16.948065335318443,
+            "monic_constant": 69.59564137074528,
+            "square_residuals": [
+              -6.99253014080324,
+              444.4653945280172
+            ],
+            "quadratic_discriminant": 8.854353127241495,
+            "candidate_quadratic_roots": [
+              -9.961845922678268,
+              -6.986219412640174
+            ],
+            "candidate_roots_are_not_certified_roots_of_actual_quartic": true
+          },
+          "physical_strip": {
+            "side": "negative",
+            "frozen_target_roots": [
+              -9.127620803289371,
+              -7.77729805395401
+            ],
+            "denominator_min": -12.931804208018923,
+            "denominator_max": -0.6639511961966456,
+            "minimum_absolute_denominator": 0.6639511961966456,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              -2.4818708553841624,
+              -0.04757955977858597
+            ],
+            "endpoint_u_ranges": [
+              [
+                -0.8180819331417613,
+                -0.04757955977858597
+              ],
+              [
+                -2.4818708553841624,
+                -0.05521293016208851
+              ]
+            ],
+            "physical_u_width_min": 0.007471775728279811,
+            "physical_u_width_max": 1.6637889222424012
+          },
+          "candidate_endpoint_rates": {
+            "W_at_frozen_target_roots": [
+              -57.07995229941588,
+              -59.12362985410657
+            ],
+            "candidate_endpoint_quadratic_coefficient": -0.08523682226963701,
+            "candidate_exponential_rates_physical_xi": [
+              -1004.4946088942041,
+              1040.4593040858974
+            ],
+            "candidate_exponential_rates_normalized_interval": [
+              -1487.7844713623078,
+              1541.0527662338789
+            ],
+            "both_standard_exponential_rates_positive": false,
+            "rates_are_conditional_on_quartic_shape": true,
+            "other_flat_asymptotics_not_excluded": true
+          }
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -9.757363590910693,
+            "p1": 0.8394024021819879,
+            "p2": 0.18698728369956186,
+            "q0": 51.49787550963431,
+            "q1": -8.410760048486763,
+            "r0": 218.04467587533128,
+            "r1": 51.497875509634696,
+            "s0": -168.76722923923643,
+            "s1": -13.289441843941717,
+            "t0": -9.084061819698677,
+            "t1": -1.3746857499616065
+          },
+          "independent_scaled_l2": 9.37959810082098,
+          "independent_scaled_max": 8.90525239213184,
+          "C_ascending_coefficients": [
+            218.04467587533128,
+            -117.26935372960173,
+            -19.93416276591272,
+            -1.5845363505071035,
+            -0.046746820924890464
+          ],
+          "C_complex_roots": [
+            [
+              -19.124280271705445,
+              0.0
+            ],
+            [
+              -8.113764923123473,
+              -10.085439734633427
+            ],
+            [
+              -8.113764923123473,
+              10.085439734633427
+            ],
+            [
+              1.4556794473122445,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 9.094947017729282e-13,
+          "additional_identity_errors": [
+            -3.836930773104541e-13,
+            -3.9257486150745535e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.2050290463416216e-15,
+            -2.543343887764005e-15,
+            2.1488085674906044e-15
+          ],
+          "closure_over_length": 3.024290240664626e-16,
+          "asymptotic_half_period": -3.2553439314747232e-15,
+          "speed_min": 0.20179634046469294,
+          "speed_max": 3.222107802830346,
+          "speed_contrast": 15.967127032187674,
+          "indicatrix_speed_min_sample": 1.0844466331536085,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 92223095916501936804090682322050555149980130714846300671499251959,
+          "regularity_discriminant_denominator": 61618150798193051361177127111698108602256465607095680855456088064,
+          "omega_min_sample": -3.8041834047295495,
+          "omega_max_sample": 7.113346857757362,
+          "projected_centerline_diameter_sample": 1.7179805284367136,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.11746136648493839,
+          "reach_lower_certified": false,
+          "tilt": -0.3908575133318815,
+          "normalization": 2.7860229562793637,
+          "square_target_frozen_ascending_coefficients": [
+            -235.5725844050137,
+            -112.1970660208492,
+            -19.99608057756668,
+            -1.5805024291388707,
+            -0.046746820924894905
+          ],
+          "square_residual_vs_frozen_target": [
+            453.617260280345,
+            -5.072287708752526,
+            0.06191781165396293,
+            -0.0040339213682327735,
+            4.440892098500626e-15
+          ],
+          "scaled_square_residual_vs_frozen_target": [
+            0.11187684367184281,
+            -0.016892428835423058,
+            0.0027844626817689674,
+            -0.0024495754215529777,
+            3.6414235193233164e-14
+          ],
+          "scaled_square_residual_l2": 0.11320572403419284,
+          "scaled_square_residual_max": 0.11187684367184281,
+          "relative_square_coefficient_residual": 0.0796580212599411,
+          "frozen_leading_floor": 1.219548364790557e-05,
+          "leading_sign": -1,
+          "nonzero_leading_guard_passed": true,
+          "square_invariants": {
+            "eligible_nonzero_leading": true,
+            "monic_linear": 16.948065335320088,
+            "monic_constant": 69.5956413707286,
+            "square_residuals": [
+              -6.992530140826247,
+              444.4653945278941
+            ],
+            "quadratic_discriminant": 8.854353127363993,
+            "candidate_quadratic_roots": [
+              -9.961845922689383,
+              -6.986219412630705
+            ],
+            "candidate_roots_are_not_certified_roots_of_actual_quartic": true
+          },
+          "physical_strip": {
+            "side": "negative",
+            "frozen_target_roots": [
+              -9.127620803289371,
+              -7.77729805395401
+            ],
+            "denominator_min": -12.93180420801892,
+            "denominator_max": -0.6639511961966482,
+            "minimum_absolute_denominator": 0.6639511961966482,
+            "interval_contains_a_pole_at_a_validation_angle": false,
+            "same_sign_at_all_validation_nodes": true,
+            "continuous_half_strip_certified": false,
+            "physical_u_range": [
+              -2.481870855384149,
+              -0.047568577509287835
+            ],
+            "endpoint_u_ranges": [
+              [
+                -0.8196383473956395,
+                -0.047568577509287835
+              ],
+              [
+                -2.481870855384149,
+                -0.055212930162088524
+              ]
+            ],
+            "physical_u_width_min": 0.007471068656536503,
+            "physical_u_width_max": 1.6637889222423894
+          },
+          "candidate_endpoint_rates": {
+            "W_at_frozen_target_roots": [
+              -57.07995229942999,
+              -59.123629854116714
+            ],
+            "candidate_endpoint_quadratic_coefficient": -0.08523682226963135,
+            "candidate_exponential_rates_physical_xi": [
+              -1004.4946088945193,
+              1040.4593040861453
+            ],
+            "candidate_exponential_rates_normalized_interval": [
+              -1487.7844713627746,
+              1541.0527662342458
+            ],
+            "both_standard_exponential_rates_positive": false,
+            "rates_are_conditional_on_quartic_shape": true,
+            "other_flat_asymptotics_not_excluded": true
+          }
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "optimality": 0.12282382507826102,
+        "jacobian_method": "central absolute coordinate differences",
+        "jacobian_step": 2e-05,
+        "jacobian_coordinate_step": "2e-5 * max(1, abs(x[j]))",
+        "final_jacobian_direction_check": {
+          "column_step_floor": 2e-05,
+          "directional_step": 2e-06,
+          "relative_difference": 0.0007814718796966344
+        },
+        "initial_residual_l2": 1.2025597932960033,
+        "final_residual_l2": 0.11337025261164985,
+        "elapsed_seconds": 6.074407242000007
+      },
+      "exact_closure_mechanism_proved": true,
+      "stored_tilt_is_reference_quadrature_approximation": true,
+      "target_roots_and_amplitude_are_frozen_for_validation": true,
+      "actual_quartic_has_two_exact_double_real_roots_proved": false,
+      "continuous_physical_half_strip_proved": false,
+      "full_complex_period_equation_solved": false,
+      "three_complex_total_moments_solved": false,
+      "nonzero_profile_constructed": false,
+      "finite_isometric_path_proved": false,
+      "embedding_proved": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    }
+  ]
+}
