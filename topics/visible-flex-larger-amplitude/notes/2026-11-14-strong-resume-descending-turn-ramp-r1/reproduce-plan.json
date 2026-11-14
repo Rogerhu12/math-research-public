@@ -1,0 +1,13 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "computations/strong_20261114_descending_turn_ramp_check.py",
+    "--accepted",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out",
+    "${OUT_DIR}/descending-turn-ramp-interface-check.json"
+  ]
+}

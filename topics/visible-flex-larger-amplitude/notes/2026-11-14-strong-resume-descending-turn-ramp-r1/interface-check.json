@@ -1,0 +1,1387 @@
+{
+  "scope": "Evaluate the new first-turn scalar profile interface and every scalar join.\n\nThis is a geometry/interface computation only. It starts no Flow IVP, Jacobian,\nBVP, or tail worker, and produces no new nonlinear surface. It checks complete\nsegment identity at eps=.08, all a/a'/a'' joins, both complete endpoint jets,\nand the unchanged finite bridge and physical tail interfaces.\n",
+  "source_sha256": "5bece7132eea12a1e3cb4208e975f0686156da90795c99ff8e5684fea7ea9c35",
+  "adapter_sha256": "1bc351d8d4eed33ea60e5f45ba17eca066ae026709e16cb6425b70b3c3926fe4",
+  "provider_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+  "accepted_sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+  "port_sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+  "default_A_all_segment_structure_bitwise_identical": true,
+  "checks": [
+    {
+      "eps": 0.08,
+      "new_prefix_metric": false,
+      "all_A_segments_exact_at_default": true,
+      "prefix_length": 3.1410157497651596,
+      "background_prefix_height": 1.9618856838414287,
+      "first_turn": {
+        "index": 2,
+        "length": 0.385434065796135,
+        "p0": 0.9849174481123212,
+        "p1": -1.3704614844717768,
+        "peak_K": 6.642366928961031,
+        "start_jet": [
+          1.256291684708757,
+          0.8332264476927049,
+          -0.0
+        ],
+        "end_jet": [
+          1.2006889515500536,
+          -0.9799999999999999,
+          -0.0
+        ]
+      },
+      "inlet_jet": [
+        1.0,
+        0.0,
+        0.6179514713986892
+      ],
+      "prefix_bridge_jet": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ],
+      "physical_cut_jet": [
+        0.30000000000000004,
+        -0.996815278536125,
+        0.14744006140246976
+      ],
+      "complete_scalar_endpoint_jets_identical": true,
+      "all_background_Cartesian_012_joins_checked": true,
+      "changed_prefix_height_allowed": true,
+      "max_join_jump": 5.551115123125783e-16,
+      "all_joins": [
+        {
+          "physical_s": 0.8800544084501402,
+          "left_kind": "hermite",
+          "right_kind": "boost",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.0064319844989327,
+          "left_kind": "boost",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.3918660502950677,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            1.1102230246251565e-16,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.1102230246251565e-16,
+              0.0,
+              5.551115123125783e-16
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.2452515023231907,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.2598778725555357,
+          "left_kind": "turn",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.66491381623649,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.7004468111603477,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1054827548413018,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1410157497651596,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1557368126571292,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1825913768643006,
+          "left_kind": "coast",
+          "right_kind": "brake",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "physical_tail_port_and_complete_bridge_exact": true
+    },
+    {
+      "eps": 0.07,
+      "new_prefix_metric": true,
+      "all_A_segments_exact_at_default": false,
+      "prefix_length": 3.1371958094912347,
+      "background_prefix_height": 1.96032101684016,
+      "first_turn": {
+        "index": 2,
+        "length": 0.3812896134757464,
+        "p0": 0.9849174481123212,
+        "p1": -1.3704614844717768,
+        "peak_K": 6.642366928961031,
+        "start_jet": [
+          1.256291684708757,
+          0.8332264476927049,
+          -0.0
+        ],
+        "end_jet": [
+          1.201006973355588,
+          -0.9799999999999999,
+          -0.0
+        ]
+      },
+      "inlet_jet": [
+        1.0,
+        0.0,
+        0.6179514713986892
+      ],
+      "prefix_bridge_jet": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ],
+      "physical_cut_jet": [
+        0.30000000000000004,
+        -0.996815278536125,
+        0.14744006140246976
+      ],
+      "complete_scalar_endpoint_jets_identical": true,
+      "all_background_Cartesian_012_joins_checked": true,
+      "changed_prefix_height_allowed": true,
+      "max_join_jump": 5.551115123125783e-16,
+      "all_joins": [
+        {
+          "physical_s": 0.8800544084501402,
+          "left_kind": "hermite",
+          "right_kind": "boost",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.0064319844989327,
+          "left_kind": "boost",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.387721597974679,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            1.1102230246251565e-16,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.1102230246251565e-16,
+              0.0,
+              5.551115123125783e-16
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.2414315620492657,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.256057932281611,
+          "left_kind": "turn",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.661093875962565,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.6966268708864227,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.101662814567377,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1371958094912347,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1519168723832043,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1787714365903756,
+          "left_kind": "coast",
+          "right_kind": "brake",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "physical_tail_port_and_complete_bridge_exact": true
+    },
+    {
+      "eps": 0.09,
+      "new_prefix_metric": true,
+      "all_A_segments_exact_at_default": false,
+      "prefix_length": 3.144917562357305,
+      "background_prefix_height": 1.9634947796895106,
+      "first_turn": {
+        "index": 2,
+        "length": 0.38966960498070785,
+        "p0": 0.9849174481123212,
+        "p1": -1.3704614844717768,
+        "peak_K": 6.642366928961031,
+        "start_jet": [
+          1.256291684708757,
+          0.8332264476927049,
+          -0.0
+        ],
+        "end_jet": [
+          1.200361899489475,
+          -0.9799999999999999,
+          -0.0
+        ]
+      },
+      "inlet_jet": [
+        1.0,
+        0.0,
+        0.6179514713986892
+      ],
+      "prefix_bridge_jet": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ],
+      "physical_cut_jet": [
+        0.30000000000000004,
+        -0.996815278536125,
+        0.14744006140246976
+      ],
+      "complete_scalar_endpoint_jets_identical": true,
+      "all_background_Cartesian_012_joins_checked": true,
+      "changed_prefix_height_allowed": true,
+      "max_join_jump": 5.551115123125783e-16,
+      "all_joins": [
+        {
+          "physical_s": 0.8800544084501402,
+          "left_kind": "hermite",
+          "right_kind": "boost",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.0064319844989327,
+          "left_kind": "boost",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.3961015894796405,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            1.1102230246251565e-16,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.1102230246251565e-16,
+              0.0,
+              5.551115123125783e-16
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.249153314915336,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.2637796851476812,
+          "left_kind": "turn",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.6688156288286353,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.704348623752493,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1093845674334473,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.144917562357305,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1596386252492747,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.186493189456446,
+          "left_kind": "coast",
+          "right_kind": "brake",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "physical_tail_port_and_complete_bridge_exact": true
+    },
+    {
+      "eps": 0.12,
+      "new_prefix_metric": true,
+      "all_A_segments_exact_at_default": false,
+      "prefix_length": 3.157141488085054,
+      "background_prefix_height": 1.9686069541853266,
+      "first_turn": {
+        "index": 2,
+        "length": 0.40295379605959564,
+        "p0": 0.9849174481123212,
+        "p1": -1.3704614844717768,
+        "peak_K": 6.642366928961031,
+        "start_jet": [
+          1.256291684708757,
+          0.8332264476927049,
+          -0.0
+        ],
+        "end_jet": [
+          1.1993228394453588,
+          -0.9799999999999999,
+          -0.0
+        ]
+      },
+      "inlet_jet": [
+        1.0,
+        0.0,
+        0.6179514713986892
+      ],
+      "prefix_bridge_jet": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ],
+      "physical_cut_jet": [
+        0.30000000000000004,
+        -0.996815278536125,
+        0.14744006140246976
+      ],
+      "complete_scalar_endpoint_jets_identical": true,
+      "all_background_Cartesian_012_joins_checked": true,
+      "changed_prefix_height_allowed": true,
+      "max_join_jump": 5.551115123125783e-16,
+      "all_joins": [
+        {
+          "physical_s": 0.8800544084501402,
+          "left_kind": "hermite",
+          "right_kind": "boost",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.0064319844989327,
+          "left_kind": "boost",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 1.4093857805585284,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            1.1102230246251565e-16,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.1102230246251565e-16,
+              0.0,
+              5.551115123125783e-16
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.261377240643085,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.27600361087543,
+          "left_kind": "turn",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.681039554556384,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 2.716572549480242,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.121608493161196,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.157141488085054,
+          "left_kind": "coast",
+          "right_kind": "turn",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.1718625509770235,
+          "left_kind": "turn",
+          "right_kind": "coast",
+          "difference": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0
+            ]
+          ]
+        },
+        {
+          "physical_s": 3.198717115184195,
+          "left_kind": "coast",
+          "right_kind": "brake",
+          "difference": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "background_XYZ_012_jet_difference": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "physical_tail_port_and_complete_bridge_exact": true
+    }
+  ],
+  "all_new_values_are_new_prefix_metrics": true,
+  "tail_metric_and_cut_unchanged": true,
+  "new_nonlinear_solution": false,
+  "actual_BVP_control_response_not_yet_computed": true
+}

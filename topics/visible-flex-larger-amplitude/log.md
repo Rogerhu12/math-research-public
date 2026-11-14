@@ -213,3 +213,6 @@ M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e�
 
 ### 2026-11-14T08:26:10+00:00 — halfsigkilltwo (local; public approval pending)
 无Node的半步r2仍在首J≥60/216批真实−9，218.79s/峰503680KiB，23件恢复。没有完整J或Newton试步，supervisor未收信号；原因未知，不作候选数学失败。
+
+### 2026-11-14T08:26:11+00:00 — rampinterface (local; public approval pending)
+默认ramp .08逐字复现A所有段；.07/.09/.12的scalar与轴对称XYZ零至二jet接口≤5.55e−16。非默认为新全局g，物理tail g/cut保持；没有新非轴求解或第14方向实际响应。
