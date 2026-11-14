@@ -1,0 +1,48 @@
+{
+  "format": "isp-k1-exact-seventh-source-recipe-read-v1",
+  "marker": "R150_ORIGINAL_COMBINATION_V1",
+  "nt": 9,
+  "bound": 85,
+  "divisor": 961,
+  "mode": 0,
+  "labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "families": [
+    {
+      "file": "kernel-original-kernels.bin",
+      "rows": 200,
+      "target2Nonzero": [
+        {
+          "sourceLabel": 1035,
+          "coefficients": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "file": "selected-original-primitive-source-mod31.bin",
+      "rows": 9,
+      "target2Nonzero": [
+        {
+          "sourceLabel": 2,
+          "coefficients": [
+            29760
+          ]
+        }
+      ]
+    }
+  ],
+  "allTokensParsed": true,
+  "originalBytes": 5152,
+  "originalSHA256": "f92af9882ddeba99410ded179c4495c0edf66cb06b51b8c9eeb69ddf84f1d1f1"
+}
