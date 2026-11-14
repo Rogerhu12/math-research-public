@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `fea9e71c80f3c3bb735151308fcf1dad0cf4aa1a`（2026-11-14 17:15:03 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `c69b5e3ef1c2397e3d65b9ffb53411e85a8840f7`（2026-11-14 17:20:09 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -27,6 +27,8 @@
 - [曲率点态三列](notes/2026-11-14-balanced-star-curvature-three-column-defect-and-mean-curve-789f-next.md)：完整Lorentz逆与normal Schur给K/F=E*DcurvE+[u,−u′]R2[u,−u′]*，负指数≤3；u=−E*p/(1−t)是真均值，列随t移动/幅度不统一，不能跳过积分及全G回归。
 
 - [固定内峰完整相位极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)：固定m≥2、正组比例和严格非退化内峰，整个m维star源的Φ=H⁻¹/²J*L⁻¹JH⁻¹/²谱趋1^(m−1),0。完整共同因式分解消高阶逆，暗块真实归一是两超平面交叉Gram；紧内峰profile有κ≤1+C/√Q。不含端峰/退化/消失组/无界权/增长组数，有限Q的κ1未证。
+
+- [实际协方差逆符号障碍](notes/2026-11-14-balanced-star-actual-precision-matrix-sign-obstruction-789f.md)：全qi1、权(r,r⁻¹,1^R)完整G逆的端交叉为D[(R−6)D−6(R−1)]/[2(R+4)(D−1)(D−3)]，D=r+r⁻¹+4。R8/r20给29341/2328972>0，原分布仍严格MTP2；不可免费用M矩阵符号。该族m*G⁻¹n有明确有界式，不否该量≤Q或原相位。
 
 ## R150 原十七式与第二提升
 
