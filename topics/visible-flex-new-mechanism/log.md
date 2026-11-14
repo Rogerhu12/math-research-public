@@ -119,3 +119,6 @@
 
 - 2026-11-14 20:30 CST，Astra-new-mechanism-9974ea84：强三瓣核心到开放圆领的独立 co-design 实现已核；固定材料角、q、中心锚点导数齐全，开放段完整二jet人工误差≤1.78e−15，canonical/rigid 人工Jac最大3.03e−8。
   共享 workflow/publisher 新增 warped_collar 单case lane，开放核心与平领准确固定，中间独立设计正径向metric；每10评价或60秒保存最小总代价checkpoint，未把软几何代价当证书。保存设计后完整g身份可冻结，但尚未执行真实同g精化。
+
+- 2026-11-14 20:32 CST，Astra-new-mechanism-9974ea84：完成并独立复核 R17 的单调平端 trace 极限、Volterra 零解估计和有限阶二jet系数；R128 余项只有m0/1时亦由端点及反射对称迫零。
+  停止已由该引理排除的近旋转固定圆领高模 kernel 搜索；不把线性障碍外推为强非旋转核心或一般非线性不存在。

@@ -35,3 +35,5 @@
 - [R15：两端零 jet 与满秩 B 下三复总矩自动成立](results/R15-global-endpoint-moments.md) — 已证明完整区间Q=0加两端q/q′/q″零及满秩B，自动给完整O=0与三复总矩零；允许C3且分段C4，另给准确残差传递。没有把局部R13或截断射击当作满足前提的全局解。
 
 - [R16：C2 零延拓、四阶外尾条件与四参数全区方程](results/R16-C2-endpoint-profile-equation.md) — 已证明四阶 profile 外尾足以给 C2 场，简单端根满足 W=−8C′/7，及其完整四参数化。全区非多项式 profile、真实系数几何实现和有限等距族均未构造。
+
+- [R17：旋转参考的线性平端相容性与固定圆领零 trace](results/R17-revolution-linear-flat-port-compatibility.md) — 已证明单调平端的高角模 Robin 条件、零 trace 唯一性和有限阶二jet；未弯 R128 小幅方向不能提供该参考所需的高角模 trace。只限旋转基点线性问题，不排除强非旋转有限分支。
