@@ -159,3 +159,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:30:58+00:00 — roundingextension (local; public approval pending)
 冻结延至.9875的新g，原全32核冷M128/M192误差7.84422e−6→1.08441e−7，末档κ5.32104/Dproxy3.44732。保存完整578维末态及原scalar，开放前缀非闭面。
+
+### 2026-11-14T07:30:58+00:00 — balancedturn (local; public approval pending)
+双域barrier允许负a″，M192实际到.9955、κ7.16784/Dproxy3.45877；下一试点高129..192二jet放大8.97而低模及点域仍稳定。反馈失败不证明几何不存在，继续真实两端BVP。
