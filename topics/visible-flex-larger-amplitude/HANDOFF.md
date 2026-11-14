@@ -45,4 +45,4 @@ R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真
 request05/06/07/09全部成功；08准备成功/112尾运行。coupling112已接线，待真112包成功触发，复用699/FD并在接受后自动自身tail闭包。准备/pending非接受；两子线同时备冻结g精化与全t相位归约。
 旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
 
-规则同步记录：2026-11-14T11:12:22.181184+00:00 实际pull --rebase成功；双README自1031b19无变化，已读提交 308f2f6315400657154b7be3ea93846e1cfcf143。
+规则同步记录：2026-11-14T11:20:02.688065+00:00 实际pull --rebase成功；双README自80d8e90无变化，已读提交 fd4247cec0d701791831f80803f1bda141399642。
