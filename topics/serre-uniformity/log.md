@@ -210,3 +210,8 @@
 - R770同一真本原h的原平方保1296αsB⁵、两个普通阶乘与原Norm；Legendre有限平均和Möbius本原投影给准确双线性配对，非零仍开，不任取signed平方根。
 - 证明SHA736bb87b5047372334dee6049b5692b56a3ae9cf3cea9a3eec2bfb15c781f209；R765单位残差总指标N+1与目标N−1的二阶差严格展开。根回核R697/R727/R683原常数及符号，无新增数学计算。
 - R771实际run43628998192已success，接收真实cert/manifest后单独登记；H/open完整归档并压缩，按根规矩8核最新main/两README、小文本非force继续，终端未恢复。
+
+## 2026-11-15 03:06 Asia/Taipei · serre-public-resume-20261114
+- R771实际run43628998192/source49abc04d完成301.12633604秒，M2/M6/M12=146/694/1514，原recipe minor550/206/140 mod739；正常乘积146/418/690/962/1234/1506和椭圆主部全过，真实char0 RR基已得。
+- cert9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f、manifest024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74、artifact14127715743及全部关键stage SHA存正式证明；未称K下降基、准确长q表、函数/β/高度。
+- R770首次API ref竞争返回错误后读最新main/404确认未推，重接main并核README后73f1d9b3成功；H/open/index同步。继续R774复用旧4096及R775实际K基，不重跑已成stage，终端不可用按根规矩8非force。

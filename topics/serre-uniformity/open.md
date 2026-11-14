@@ -176,7 +176,7 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 [R767](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)证明M2的146维权1 trace生成/正常乘积及八个椭圆主部给M12维1514；真实t²Δ给L(2(t)0)基，cusp常数−1/6912。原早期minor给e≤19，d1206的完整恢复只需2847行/基前缀2846/Hodge8557，真实kernel308/rank2720。[R769](results/R769-certified-original-degree-cutoff-exclusion.md)实际run43628341694穷尽完整原格degree≤693：385事件、空栈、唯一零叶子；degree为3倍故非零≥696，未排所有特殊小除子。此有界项关闭，继续d1206，无需扩可选SVP。
 
-[R771工程](notes/R771-original-quotient-RR-bases-method.md)已在实际run43628998192/source49abc04d7867c9f56911866494692c597cf642d7成功，通过146/694/1514秩和非零minor；原recipe和系数表artifact14127715743。根正在逐项接收实际cert/manifest，下一条结论单独正式登记，不把模系数升成特征零函数。
+[R771实际结果](results/R771-certified-original-quotient-RR-bases.md)已由run43628998192/source49abc04d7867c9f56911866494692c597cf642d7完成：301.12633604秒，M2/M6/M12维146/694/1514，mod739原recipe minor550/206/140；正常乘积维146/418/690/962/1234/1506。cert9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f，manifest024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74、artifact14127715743保存全recipe/模表。真实1514个F_i/Dstar的char0基已证，尚未K下降或得到完整准确长q表/函数；完成E1与basis stages直接复用，不重跑。
 
 [R772](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)的GL2 det半线性trace给K定义基，但尖点系数仍M；零平移给实际y∈L(Y)。按M/L四十坐标展开的任意准确部分矩阵达到rank2720，即已得到完整308核；只准准确特征零代回或有证明高度界的CRT。原H³=4F³/1722³是M6，由Q2460/qY820认证；候选y=A/B的W=B DτA−A DτB、Dτ=θ/82，满足W³=27B²(A²−bB²)²H³的M78恒等式准确至10660，则认证原d1206映射。实际下降基/核/函数尚待算。
 
