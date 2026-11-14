@@ -35,12 +35,12 @@ R240：材料g=ds²+a(s)²dθ²与core c无关。定型后冻结完整a(s;p*)/�
 
 ## 已完成旧基准及当前几何工具
 
-旧A点云幅度比.0630146<.2，RK24/RK48/真实tail/三闭mesh已付，不重跑。R241 run43586618658/q8付完2157568子对、uncovered0；D+3.9807514078/K8.35/marker过，但连续包络仍输入。真实held覆盖比≥.05388898465、H比≥.996873，不移植新场。旧GW35件已保全；R245和真实stage28/RK48原49步/六点重放已定位读出误差，局部metric f8→16→48为1.18e−8→1.26e−9→1.62e−10。旧A/GW分支封存，不追额外机器六jet门；详见stage28 note。
+旧A幅度比.0630146<.2；真RK24/48、tail、三mesh和R241 q8全部2157568子对已付（uncovered0），连续包络仍输入，不移植新场。旧GW/R245/真实stage28/RK48已定位读出误差，局部metric随f8/16/48下降；旧A/GW封存、不重跑或追额外机器六jet门。数据及SHA均在原note。
 R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。
 R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
 R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
 R251直接operator证书：原φ中两Loewner矩阵四正性；同g的a²上下包络、Bernstein/全角Taylor及次数账完整。K=M行列式带宽8M、DFT N>16M。完整scalar见piecewise-envelopes note：prefix415五次+bump六次；turn48/bridge64原有限Gauss和，bridge实际7.5而port旧tag8，均不换g；无新数值通过。
-full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门逐字保留。full_state_held_hausdorff已补新packet实际路径/五闭文件/五actual/SHA互锁，原整活动块+完整帽盘距离、D与.2门不变；无需reach先过才读held。两接口均未新数值，K/metric/误差封套仍条件；各interface note给CLI。
+full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门原样。full_state_held_hausdorff补新packet/SHA链，原全活动块+完整帽盘距离、D/.2门不变，reach可独立。K/metric/误差仍条件，两接口未新数值。显示静态预算：同seed699–1200点可N32/九相位、最大4656978B；2305尾节点仅显示锚点入mesh，不删物理数据，见display-byte-budget note。
 R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9246片只付共享C²规范形，不自动付全seam/δE；R246旧.984三分量<1e−6、直接operator仅<2e−6。新场均须自己的输入。
 旧Aκ8.3455143峰在prefix、tail≈8非新尾必要界；Gauss样点仅约3.965尺度。W/D/K窗口、一次尾帽高度和G不等于整面witness，见tail-curvature-and-diameter-design-window note。
 

@@ -440,3 +440,7 @@ request11已实际启动run43592195185/source4f0af15c（11:54:08Z），完整带
 ### 2026-11-14 12:07 UTC — actual band LU improved residual but all original trials still left the domain
 
 run43592195185真LU info0/共享指针，13.274s/RSS5717864KiB；残差/RHS降至3.27382e−4而方向max5832.77，校正更坏未采用。17trial均非finite，最小α仍52坏node/122mid/112右BC；零接受步、新H请求0。artifact26件已逐SHA取回，publisher漏新lane已修，25件限额内补归档、超5MB失败pending保artifact/manifest。下一次只读真方向做域/Taylor/P诊断，不重建Jac或零尾、不改门。
+
+### 2026-11-14 12:11 UTC — verify complete-field display budget from existing topology
+
+只读源码/既有元数据及整数字节计数：同prepared seed的699至1200节点，九相位可选N32；2305尾源节点只筛64锚点入显示，完整物理读出不删。P≤1251时未压缩PLY保守4656978B<5MB，N32硬容量P≤1356；48不满足九相位整除，64超预算后原循环自动选32。无新几何求值、无需改冻结表示源。
