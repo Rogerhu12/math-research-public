@@ -128,6 +128,11 @@
       "time": "2026-11-14T15:58:12.432620+00:00",
       "final": false,
       "commit": "9fcea7b209158520ae3de2fc647acea0e2656850"
+    },
+    {
+      "time": "2026-11-14T15:58:33.859916+00:00",
+      "final": false,
+      "commit": "b5b387126d2d645171a87af311424c8d5ae7b8b5"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -178,9 +183,15 @@
     "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
     "direction": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88"
   },
-  "snapshot_utc": "2026-11-14T15:58:28.475931+00:00",
-  "wall_seconds": 22.611705633,
+  "snapshot_utc": "2026-11-14T15:58:35.129080+00:00",
+  "wall_seconds": 29.264853951999996,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1165,
+      "sha256": "21f94851406fee20fdf767b6fec78599940639c7929d8b652cd33b95f19b3769"
+    },
     {
       "logical_file": "evidence/original-body-process.json",
       "file": "evidence/original-body-process.json",
@@ -314,5 +325,10 @@
       "sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
       "parts": 4
     }
-  ]
+  ],
+  "failure": {
+    "type": "TypeError",
+    "message": "unsupported operand type(s) for +: 'PosixPath' and 'str'"
+  },
+  "finished_utc": "2026-11-14T15:58:34.565829+00:00"
 }
