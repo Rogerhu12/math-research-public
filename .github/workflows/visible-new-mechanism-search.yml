@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -548,6 +548,53 @@ jobs:
         run: |
           python -u "$VISIBLE_NEW_SCRIPTS/literature_constant_h_moment_certificate.py" \
             --out "$VISIBLE_NEW_OUT/constant-h-moments-and-klein-exact.json"
+      - name: Check exact frame interfaces and screen all ellipse material ports
+        if: matrix.lane == 'ellipse_frame'
+        timeout-minutes: 5
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/ellipse_frame_port.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/ellipse-frame-port-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/cosine_connector_radial_seed.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/generic-radial-seed-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/cosine_connector_port_screen.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/continuous-port-screen-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_bvp.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/frame-collar-development-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/cosine_connector_port_screen.py" \
+            --ellipse-major 1 --ellipse-minor .28 --half-width .02 \
+            --length .9 --cut-radius .22 --height-max .45 --padding 0 \
+            --angular-nodes 1024 --direction-cells 24 \
+            --out "$VISIBLE_NEW_OUT/ellipse-port-screen.json"
+      - name: Solve one fixed metric ellipse frame collar after necessary screens
+        if: matrix.lane == 'ellipse_frame'
+        timeout-minutes: 35
+        run: |
+          python - <<'PY'
+          import json, os, subprocess, sys
+          from pathlib import Path
+          output = Path(os.environ['VISIBLE_NEW_OUT'])
+          scripts = Path(os.environ['VISIBLE_NEW_SCRIPTS'])
+          screen = json.loads((output / 'ellipse-port-screen.json').read_text())
+          excluded = (screen['chord_height_screen']['any_side_strictly_excluded'] or
+                      screen['directional_turn_screen']['strict_violation'])
+          gate = {'strict_necessary_exclusion': excluded,
+                  'unresolved_or_empty_sufficient_inner_interval_is_not_exclusion': True,
+                  'one_fixed_metric_positive_side_solve_requested': not excluded,
+                  'negative_side_is_exact_reflection_if_a_complete_embedded_candidate_is_obtained': True,
+                  'complete_surface_constructed': False, 'task_complete': False}
+          (output / 'ellipse-frame-gate.json').write_text(json.dumps(gate, indent=2) + '\n')
+          print(json.dumps(gate), flush=True)
+          if not excluded:
+              subprocess.run([sys.executable, '-u', str(scripts / 'frame_collar_bvp.py'),
+                  '--major', '1', '--minor', '.28', '--half-width', '.02', '--side', '1',
+                  '--length', '.9', '--cut-radius', '.22', '--negative-curvature-drop', '.3',
+                  '--radial-free', '4', '--angular-modes', '5', '--mode', 'fixed',
+                  '--radial-nodes', '29', '--angular-nodes', '96', '--quadrature-order', '4',
+                  '--height-limit', '.45', '--shape-weight', '2', '--max-nfev', '200',
+                  '--audit-radial-nodes', '121', '--audit-angular-nodes', '384',
+                  '--checkpoint-every', '10', '--checkpoint-seconds', '60',
+                  '--out', str(output / 'frame-ellipse-positive-fixed.json')], check=True)
+          PY
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

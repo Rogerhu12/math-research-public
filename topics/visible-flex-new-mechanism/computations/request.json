@@ -1,10 +1,39 @@
 {
-  "request": "exact-constant-h-moment-and-Klein-closure-identities-for-R31",
-  "created_at": "2026-11-14T13:46:00.072900+00:00",
+  "request": "exact-ellipse-ports-S5-S5-S11-fixed-metric-frame-collar-pilot",
+  "created_at": "2026-11-14T13:58:50.177492+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "constant_h_exact"
+    "ellipse_frame"
   ],
-  "constant_h_exact": "Exact Fraction identities, trigonometric averages, nonzero determinant leading coefficient and Klein Euler edge count; no real geometry sampled and no finite n/N certified by this script",
+  "physical_parameters_exact": {
+    "major": "1",
+    "minor": "7/25",
+    "half_width": "1/50",
+    "length": "9/10",
+    "cut_radius": "11/50",
+    "height_limit": "9/20",
+    "negative_curvature_drop": "3/10",
+    "radial_transition_orders": [
+      5,
+      5,
+      11
+    ]
+  },
+  "solver": {
+    "mode": "fixed",
+    "side": 1,
+    "radial_free": 4,
+    "angular_modes": 5,
+    "radial_nodes": 29,
+    "angular_nodes": 96,
+    "max_nfev": 200,
+    "audit_radial_nodes": 121,
+    "audit_angular_nodes": 384
+  },
+  "necessary_screen_first": true,
+  "strict_failure_skips_solver": true,
+  "unresolved_sufficient_inner_interval_is_not_rejection": true,
+  "fixed_g_only_within_this_new_mathematical_definition": true,
+  "source_is_not_a_closed_surface_solution": true,
   "task_complete": false
 }

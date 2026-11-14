@@ -67,3 +67,5 @@
 - [R31：真实闭合几何实现负物理根比值与非退化局部相位](results/R31-closed-geometry-negative-physical-root-and-local-phase.md) — 明确高频球面曲线给负W/C′开条件和非零det，平滑非负框架连接与Klein八边精确消空间位移；有限C∞闭正则中心曲线真实实现R26全部局部门及满秩B。未证明嵌入、厚度、全局profile或有限等距族，R29排除不变。
 
 - [R32：C3相位、C2无穷小场与一般h的二阶恢复障碍](results/R32-C3-phase-and-C2-second-correction-obstruction.md) — 3<ρ<4的真实非退化复相位可以给C2无穷小场，但同左锚自然二阶恢复的奇异主项要求逐点Gs=0。对任意h>0，此门强制一个非零二次jet进入可逆L|P2的核，矛盾；s常数profile gauge不能修复。不外推为任意有限C2族不可能。
+
+- [R33：椭圆柱准确reach、反射组装与严格条件预算](results/R33-elliptic-core-reach-and-reflected-phase-budget.md) — 准确核心reach=B²/A；在完整连接器投影/高度/嵌入条件下，m2相位族给真实δhold/D>.328、固定开盘直径/D>.200，整族像集为刚体旋转。S5/S5/S11固定度量保负K并移除当前标量尾端最低阶失配；完整连接器仍须求解。

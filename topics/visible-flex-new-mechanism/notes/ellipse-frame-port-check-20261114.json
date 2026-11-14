@@ -1,0 +1,34 @@
+{
+  "schema": "ellipse-frame-port-development-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "checks": [
+    {
+      "side": 1,
+      "scalar_first_error": 1.7950507746888889e-10,
+      "scalar_second_error": 1.5046641710370068e-10,
+      "entry_third_angular_error": 2.1737499159975218e-10,
+      "position_first_error": 1.7800272367196612e-10,
+      "position_second_error": 2.2195793759580482e-10,
+      "periodic_odd_error": 1.1102230246251565e-15,
+      "material_equation_residual_max": 8.881784197001252e-16,
+      "a0_numerical": 0.8125019349949745,
+      "identity_sha256": "ab63ecaf9607157f00d7d2c9d58b714e09019a5276d7a6b76205b6a98d2d0eba"
+    },
+    {
+      "side": -1,
+      "scalar_first_error": 1.7950507746888889e-10,
+      "scalar_second_error": 1.5046641710370068e-10,
+      "entry_third_angular_error": 2.1737499159975218e-10,
+      "position_first_error": 1.7800272367196612e-10,
+      "position_second_error": 2.2195793759580482e-10,
+      "periodic_odd_error": 1.1102230246251565e-15,
+      "material_equation_residual_max": 8.881784197001252e-16,
+      "a0_numerical": 0.8125019349949745,
+      "identity_sha256": "ab63ecaf9607157f00d7d2c9d58b714e09019a5276d7a6b76205b6a98d2d0eba"
+    }
+  ],
+  "passed": true,
+  "source_sha256": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b"
+}

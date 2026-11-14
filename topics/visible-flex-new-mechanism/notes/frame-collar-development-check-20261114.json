@@ -1,0 +1,141 @@
+{
+  "schema": "orthonormal-frame-collar-development-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "nonlinear_optimization_performed": false,
+  "checks": [
+    {
+      "side": 1,
+      "metric_design_variables": 1,
+      "unknowns": 15,
+      "residual_entries": 1296,
+      "directional_jacobian_relative_error": 6.239381841493129e-09,
+      "unit_frame_error": 4.440892098500626e-16,
+      "orthogonality_error": 1.5358909619383326e-16,
+      "endpoint_two_jet_errors": {
+        "core": {
+          "X": 2.7018723498128807e-14,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.742874840267547e-16
+        },
+        "tail": {
+          "X": 1.7554167342883506e-16,
+          "Xs": 7.547618311826205e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "fixed_metric_reconstruction": {
+        "exact_evaluation_match": true,
+        "mathematical_identity_match": true
+      },
+      "primitive_crosscheck": {
+        "radial_positions": [
+          0.0,
+          0.44989999999999997,
+          1.1
+        ],
+        "angles": [
+          0.0,
+          0.71,
+          2.13,
+          3.77,
+          5.41
+        ],
+        "gauss_cells": 12,
+        "gauss_order": 8,
+        "uniform_spectral_nodes": 96,
+        "primitive_finite_point_difference_max": 1.1901673676157817e-14,
+        "gauss_full_angle_T_integral_max": 4.676616086522905e-16,
+        "fixed_physical_fields": true,
+        "continuous_error_bound_proved": false
+      },
+      "entry_leading_residual_scaling": [
+        {
+          "distance_over_first_seed_segment": 0.01,
+          "integrability_residual_max": 9.83464652000557e-08,
+          "a_prime_piecewise_polynomial_difference": 4.1504614415460717e-20
+        },
+        {
+          "distance_over_first_seed_segment": 0.005,
+          "integrability_residual_max": 6.1626174983139685e-09,
+          "a_prime_piecewise_polynomial_difference": 2.329340604949326e-21
+        }
+      ],
+      "entry_residual_halving_ratio": 15.95855417393053
+    },
+    {
+      "side": -1,
+      "metric_design_variables": 0,
+      "unknowns": 14,
+      "residual_entries": 1296,
+      "directional_jacobian_relative_error": 6.112475355312327e-09,
+      "unit_frame_error": 5.551115123125783e-16,
+      "orthogonality_error": 1.3894614481271133e-16,
+      "endpoint_two_jet_errors": {
+        "core": {
+          "X": 2.7018723498128807e-14,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.742874840267547e-16
+        },
+        "tail": {
+          "X": 1.7554167342883506e-16,
+          "Xs": 7.547618311826205e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "fixed_metric_reconstruction": null,
+      "primitive_crosscheck": {
+        "radial_positions": [
+          0.0,
+          0.44989999999999997,
+          1.1
+        ],
+        "angles": [
+          0.0,
+          0.71,
+          2.13,
+          3.77,
+          5.41
+        ],
+        "gauss_cells": 12,
+        "gauss_order": 8,
+        "uniform_spectral_nodes": 96,
+        "primitive_finite_point_difference_max": 1.1901673676157817e-14,
+        "gauss_full_angle_T_integral_max": 4.676616086522905e-16,
+        "fixed_physical_fields": true,
+        "continuous_error_bound_proved": false
+      },
+      "entry_leading_residual_scaling": [
+        {
+          "distance_over_first_seed_segment": 0.01,
+          "integrability_residual_max": 9.83464652000557e-08,
+          "a_prime_piecewise_polynomial_difference": 4.1504614415460717e-20
+        },
+        {
+          "distance_over_first_seed_segment": 0.005,
+          "integrability_residual_max": 6.1626174983139685e-09,
+          "a_prime_piecewise_polynomial_difference": 2.329340604949326e-21
+        }
+      ],
+      "entry_residual_halving_ratio": 15.95855417393053
+    }
+  ],
+  "passed": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5"
+  }
+}
