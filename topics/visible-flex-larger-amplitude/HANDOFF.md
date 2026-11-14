@@ -26,7 +26,7 @@ NEW PARENT notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-war
 - warm-001.json.gz4799943B SHA6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a;
 - original driver-status.json1810333B SHA8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46; publicgzip231286B. Decode original bytes, never reserialize. Schema18, all success/fullBVP flags false.
 Current18 sources ec43c049/b9f7d915/5885daec/6ad75ce4 unchanged. Hobjective43.54719205984342 vsC43.79357494676784, final36864slack feasible/globalradial.9999999999684314; literal512 is not a proof of bad optimality. Largest col461/radial1/row155819, W199.05455376436257 nonzero; no missing-row/unique-lambda claim.
-64 trigger workflowe30102a1/requestdb723721 now written with31 source pins and exact63 parent; original same budgets/FD preserved. Actual run ID awaits push/query. 63 byte readback43647823666 completed (summary46059B/b138fdaa); formal addendum next. Full factor/wholecolraw not exported. Prior62/58/60 notes and audits retained; no reruns.
+64 trigger workflowe30102a1/requestdb723721 pushed d625bb293e07541b4bf717524e14a45392be03aa with31 source pins/exact63 parent; same budgets/FD. Actual run ID awaits query. 63 byte readback43647823666 completed: summary46059B/b138fdaa, addendum59263a53.163domain/1052NPY,93condensed/38arrays/42refs,14raw276059680B/53sourceSHA allPASS; detailed630140B/dfbeba8d artifact-only. Full factor/wholecolraw not exported. Prior62/58/60 notes and audits retained; no reruns.
 
 ## Native: actual59 selected;61 complete original continuation
 

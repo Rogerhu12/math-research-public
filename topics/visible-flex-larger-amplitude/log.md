@@ -618,3 +618,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 22:36 UTC：request64仅补实际最近mid480并保持原求解
 
 四19源94511479/63ec6bd0/6b497dde/7fee2874及接口f5af5423已核完整差异和AST不变范围。只增mid480全2048角至38912行；B5749/C4059与outside offsets不动，typed查询索引不误沿旧flat行号。真正63 warm6934054f/原status8785231f字节绑定，31源pins、原λ270/512/17trials/预算及新FD保持。workflowe30102a1/requestdb723721随本提交触发，尚不冒实际run或结果。61仍在完整原生延拓；课题未完成。
+
+
+## 2026-11-14 22:37 UTC：actual63原artifact完整byte读取完成
+
+[正式附记](notes/2026-11-14-actual63-complete-original-byte-readback.md)59263a53绑定实际run43647823666/job132609418459/sourcebffd7d3f。原ZIP完整已核；163domain/1052NPY、93condensed/38完整阵/42refs、14raw276059680B、53sources与producer/source链全部PASS，summary46059B/b138fdaa。完整factor从未导出，详细630140B账仅artifact，receipt ZIP738996B仅API元数据而未冒本地下载。64已正常推d625bb29，两次NFF均立即真pull/rebase再推，双README未变。
