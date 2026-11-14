@@ -171,3 +171,5 @@
 - 2026-11-14 21:19:43 UTC，Astra-new-mechanism-9974ea84：完成R103独立数组接口frame_curvature_psd.py（SHA146f12fb）。16个人工局部图jet/非正交坐标/双τ与真实Cholesky曲率一致，完整五jet方向Jacobian误差8.30e−10，环境反射交换PSD门差0，零面积先拒绝。没有研究几何或optimizer调用；保真实g/entry/Q二阶列与后续全reach门，供明确需要时接入。
 
 - 2026-11-14 21:21:55 UTC，Astra-new-mechanism-9974ea84：定向核对旋转内蕴度量的两个新原始来源。Engman2006出版社正文把|a′|≤1及谱障碍明确限于S1等变嵌入；Freese–Weber2017出版社摘要还要求主曲率旋转不变，当前非圆椭圆core不在该类。记录准确引用和推断边界，不据此停非轴对称连接或改g；继续现有Actions主线。
+
+- 2026-11-14 21:23:41 UTC，Astra-new-mechanism-9974ea84：登记R105完整纸证。R56逐点消移动ξ分母给全部canonical真路径共用的有限四次模板；U4真实span由M0桥的两实际成本差证端口独立、仿射不变，含R8，且BBᴿ允许M0未付T原料生成。忠实同圆查询可表示整个U4，但真商U4/R8未定，未授完整可控或ruling。同步只修R89首段曲面X=α+uB为准确X=α+uN（无穷小场B不改）。exchange/c7两个新lane源码ready，正在接入公开Actions。

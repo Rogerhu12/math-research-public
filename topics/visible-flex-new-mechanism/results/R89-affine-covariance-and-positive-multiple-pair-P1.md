@@ -16,7 +16,7 @@ $$T_s=kN,\qquad N_s=-kT-B,\qquad B_s=N,$$
 
 中心线为 $\alpha_s=h^2T$。使用全局 characteristic 坐标 $\xi$，记
 
-$$u=\frac{h}{\xi+\omega},\qquad w=h^2-ku,\qquad X=\alpha+uB.$$
+$$u=\frac{h}{\xi+\omega},\qquad w=h^2-ku,\qquad X=\alpha+uN.$$
 
 这里 $u$ 是实际 ruling 坐标。下面把新的 profile 坐标记作 $x$，避免与它混用。
 

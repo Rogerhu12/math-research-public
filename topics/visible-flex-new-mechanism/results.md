@@ -213,3 +213,5 @@
 - [R102：多个查询的真实第四成本控制与剩余锥商](results/R102-finite-query-fourth-cost-control-and-cone-quotient.md) — 真复制块串联给E(t)+n(2Σv+Kt)，先固定同I/圆/查询，再取中心立方体与小族重复，有限n及Brouwer准确吸收未知基准。B_E8(W)真维r满足15≤r≤288，故同一合法圆上至少15个独立查询可共同任意指定并包含正字符。未付全函数/ruling；秩不足时仅证明闭凸成本锥的lineality含可实现切向span，真实半群不冒向量空间。
 
 - [R106：完整pure幂尾递归的反射奇偶律](results/R106-full-pure-tail-reflection-parity.md) — 从R56整套分子/forcing/恢复递归与移动尾端锚I_c反对易逐式归纳，得D_j^σ(c)=(-1)^jD_j(-c)，全部真实s历史保留。R104真四块的D25因此为4(a7c7+a5c5+a3c3+a1c)，所有偶参数项准确消；不靠c8猜测。仅有限尾多项式身份，固定全带右锚的ruling缺陷和完整第四函数仍欠。
+
+- [R105：完整canonical第四成本的有限函数空间与真实响应商](results/R105-finite-canonical-fourth-cost-space-and-response-quotient.md) — R56完整R/eta逐点消全部移动ξ分母，固定第四阶递推先给所有真实路径共用的有限四次模板；时间非有理历史只入实系数。真实MT0成本span U4由两实际桥成本差证端口无关、全仿射不变，含R8=B_E8(W)，亦可用M0未付T原料生成。R96给同一合法圆忠实表示整个U4，但U4/R8未确定；仅未来证U4=R8才可把R102升级成整函数控制，ruling仍欠。

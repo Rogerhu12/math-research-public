@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`5f100d24a6eac8868e960e99748eed8291d8f15e`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`d46fa510e64f3008fca7f83ccd864672e5dc6ddf`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -36,22 +36,22 @@ R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另�
 
 ## 5. 理论当前真实边界
 
-R37/R45真实M0桥及四块几何闭合、R52完整三阶圆；仍不是有限等距族/闭面。R56完整变系数/共同右锚，R70第四=P0+NP1；R71/76/77/79给全部真实第三，R80为Tend+W。R87原36/37子式已证W真维36，单pair泛圆障碍；全部模板和原式证据在结果/notes，不重跑。
+R37/R45真M0桥/四块位置闭合、R52完整三阶圆仍非有限等距族。R56全变系数/同右锚，R70第四=P0+NP1；R71/76/77/79给真第三，R80为Tend+W，R87原36/37子式已证W真维36。全部原式/实际身份见results，不重跑。
 
-**R98已结束universal正多state P1路线**。R89–R94全状态仿射协变、7state/252原列和11真权块；actual43638896281/source5ba4eceb 37.240s/RSS90.832，+2=−1/4首列、+1=0，权0原16列两真依赖降14。原有理14/15子式mod2147483647为1836229422/1852863582，κmod2115674793；真Q-Cramer经Π0/κ给Λ(R*)=0、Λ(b_Hd)=1，任意正组合4Σℓ>0。R96有限仿射四次右因果V的同profile忠实评价+左补矩，给同一合法C∞三矩圆及无统一导数盒时相对开稠密障碍。原有理测试本身不冒合法圆；停止低权/同类更多states。特殊圆与固定有限N的真实P0+NP1仍开放。
+**R98结束universal正states P1路线**。actual43638896281的权2成员/权1零、权0原16列两真依赖降14；Q-Cramer/真实权零投影给Λ(R*)=0、Λ(b_Hd)=1，任意正组合4Σℓ>0。R96同profile忠实评价+左补矩给同一合法C∞圆及无统一导数盒的相对开稠密障碍。停止低权/同类更多states；特殊圆与固定N完整P0+NP1仍开放。
 
-**R99/R101/R102已支付至少15个真实第四查询**。actual43640085842的t1×W0四列两Jacobi准确0，τ_p1t1/h-shape(k)扩展字符非零。R101真M0环L复制给T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保留；固定小A(s)重复不扩scalar包络。R102有限切向基K_j在同一合法圆/固定Q满秩时，串联得E(t)+n(2Σv+Kt)，中心立方体+Brouwer以有限n准确支付任意查询向量。R96只用于有限V+B_E8(W)，真维15≤r≤288，可同时支付至少15查询并含R98正字符，保持P1。全部P0不冒有限Laurent；外分量/ruling/厚度仍欠。秩不足时只得闭凸锥lineality含切向span，不把实际半群冒向量空间。
+**R99–R102已付至少15个真第四查询**。t1×W0四列actual43640085842两Jacobi准确0、两扩展字符非零。真M0第三环L复制有T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保。固定小A(s)重复不扩scalar包络；同I/合法圆/固定Q满秩时，有限词串联E(t)+n(2Σv+Kt)，中心立方体+Brouwer支付任意查询向量。R8=B_E8(W)真维15≤r≤288，可含原正字符并保P1；这不是凭有限采样认全函数。R84倒行V同号/加法半群/长度门仍保。
 
-**R100已把m8 D25 c8缩成真实短action，符号未定**。R85/88首两尾已是零端势；R95 actual43639240317把D25压1605项5组，c10/c9准确零端使period次数≤8。R100 actual43640085842完整34差式全0，保23真histories/完整参数族/原DAG；p=B4、ell=B3−J2/2−ηp、zeta=B3−4ηp均真实零端，短action与全端势见R100。raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
+**R105刚付canonical完整成本的共同有限化**。固定目标/右锚/零传入，不增任意profile gauge；R56完整R与eta逐点消移动ξ极点，固定4阶先给全部路径同一有限四次右Volterra模板，真实非有理时间history只进实系数。U4=真MT0成本span；M0桥transport两实际成本之差证端口无关（不是负路径），全仿射不变；BBᴿ允许M0未付T原料生成同span。R8⊂U4，R96可给同一合法圆对整个U4忠实查询。**U4/R8仍未确定**，只有未来证等号才可用R102付完整period，ruling不在此结论内。下一真商与原式响应接口，不把formal模板系数当全可达。R89首段X=α+uN的旧B笔误已单点修正，无穷小场的B保留。
 
-**R104已在真实闭合词消c8**。同(h0,0,0)端芽真M0桥B:I→D，σ=(h,−k,−ω)后四块B σB Bᴿ (σB)ᴿ，真实前缀位移V,DAV,−V,−DAV相消，frame回I、M=T0。共同正I先按有限包络选；c8倒行偶/反射奇、三primitive块间真实复位，故D25 period次数≤7。完整V仍2V_B+2V_σB；只有周期正则浸入环带，不给第四ruling/无边界嵌入。R106已从完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，故四块D25=4(a7c7+a5c5+a3c3+a1c)，全偶参数项消。固定全带右锚ruling缺陷仍保，下一奇参数/完整range。
+**R100/R104/R106已消D25全部偶参数项**。R85/88首两尾是零端势，R95压缩action后c10/c9零端使次数≤8。R100 actual43640085842完整34差式全0，23真histories/原DAG保；p/ell/zeta真实零端的c8短action见R100。R104同(h0,0,0)真M0桥B:I→D，经σ=(h,−k,−ω)组成B σB Bᴿ (σB)ᴿ；前缀位移V,DAV,−V,−DAV相消，frameI、M=T0、同一正I，只得周期正则浸入环带。R106完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，四块D25=4(a7c7+a5c5+a3c3+a1c)。完整V仍2V_B+2V_σB，固定全带右锚ruling缺陷不消；不得冒全函数反号。
 
-R93/R97真实驱动约束：∫kh=0，K2=L+Elogh，∫hkω=K2，K2=−∫(F/h)kρ；平方给(S²−1)E≥L，故k换号/max|k|>1、h非恒/S>1。R100已把这些写成真正零端primitive，不能逐点置零或把p/ell/zeta独立化。k是frame参数非曲面主曲率。已核反射(h,k,ω)→(h,−k,−ω)：c8反号，但同一几何把正支映到负支；右Volterra变左锚产生真实ruling补偿。当前阶ruling付清时完整period只作ξ反射、保持同号，不能由c8反号得负V。详notes/pure-tail-c8-sign-reflection-and-right-anchor-20261114.md。
+R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，故h非恒/S>1。这些是积分/端式，不可逐点置零或独立任取primitive；k为frame参数非曲面主曲率。c7新consumer仅消费R100已验证参数族，新增零端势与μ/ν真ODE、五history余action，不重编旧forcing/34差。
 
-P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；完整证明与实际身份见results.md/notes/git。
+完整第四ruling、先前双collar、更高阶/收敛、闭嵌入与宏观厚度仍欠。
 
 ## 6. 持续推进
 
-当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R102已完成有限查询控制，literature继续完整函数商与ruling；tail_cost继续D25剩余奇参数与真实ruling。
+dense exchange与c7 consumer源码均已ready，root接入公开两lane。exchange同g/028c/160×384全网值、选行QP、内strip.38999/外.39分账，全部轮共120eval/300优化秒，初始化单列，总壁时照报；待新人工/actual。literature继续U4/R8，tail_cost继续c7与ruling。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。
