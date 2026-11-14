@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道新接口：** [共同条件Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)给j=s−2外部线性列和出生二准确Poincaré等价式。原连续尾条件协方差双侧预算已付，随D变化的条件均值及正通道支配仍缺；2(1+2k/x)¹⁶不是κ_s。
+**首低通道新接口：** [共同条件Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)给j=s−2完整线性列、出生二Poincaré等价式与原尾条件协方差界；条件均值/正通道支配仍缺，2(1+2k/x)¹⁶不是κ_s。
 
 ## 主目标与完成标准
 
@@ -114,7 +114,7 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给半线平方恒等式；相位界/完整最高缺陷联合块未付，不作循环归纳。
 
-[完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)保F/Q交换、T²=F⁻¹Q、同源压缩及Tv=σp⁻¹D²v；压缩不交换、同符号低birth不可删。[奇→偶全源极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)表明全部偶相位统一κ足所有加强高度，尚缺一般界。[四个任意权](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)全三维Φ≤1且等权取等；[全位二阶](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)正平方和已付。[全部固定方向局部界](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)进一步用核的J≤2真实组链与全MP约化支付退化方向；每个s,x有小η，**共同邻域和任意正权仍开**。[低位整块](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)付三位0<K<1、指定五位族全四维<3/4及固定r加小弱位后全九维7/8；r统一阈值未付。
+[完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)保F/Q交换、T²=F⁻¹Q、同源压缩及Tv=σp⁻¹D²v；压缩不交换、同符号低birth不可删。[奇→偶全源极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)表明全部偶相位统一κ足所有加强高度，尚缺一般界。[四权与完整等号](notes/2026-11-14-four-bit-phase-complete-equality-classification-789f.md)Φ≤1，除两对等权外严格；[全位二阶](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)正平方和已付。[全部固定方向局部界](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)进一步用核的J≤2真实组链与全MP约化支付退化方向；每个s,x有小η，**共同邻域和任意正权仍开**。[低位整块](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)付三位0<K<1、指定五位族全四维<3/4及固定r加小弱位后全九维7/8；r统一阈值未付。
 
 R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
