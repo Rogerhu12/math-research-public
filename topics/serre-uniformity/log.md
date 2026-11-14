@@ -530,3 +530,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - R700以原q-Frob本原性严格排除p分歧χ模的k挠元，完整指数k过格为O⊕RΓ。
 - 原Euler特征公式和精确Hom给全层p分歧自由模；半局部整格以Norm/socle证明，无整域p-rational假设。
 - 普通类群作为实际互反序列有限末商保留；m/C/b未算，继续原普通整除问题。
+
+## 2026-11-14 18:34 Asia/Taipei · serre-public-resume-20261114
+- R698由原σ与有限阶Lagrange/Frobenius严格给两根的同一N阶标量系数，无除p。
+- 保全直接递推、Newton快速版和原小证书；完整指数微分恒等式逐项核定，零值不跳过。
+- 新增共享workflow serre-cartier-scalar-window.yml，显式request触发公开四片2001..200000；不重跑已封存窗口。
+- 新窗口仍在请求阶段；全p非消失、实际高度首项和普通单位C均继续研究。

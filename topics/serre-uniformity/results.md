@@ -636,3 +636,5 @@
 - **R659（已证明）**：[SS_j44_08原规范高度与整盘排除](results/R659-SS_j44_08-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2全部简单Hensel提升的四同标签F3差值全非零。非CM SS累计62/105。
 
 - **R700（已证明）**：[p分歧自由整格与保留的普通有限商](results/R700-p-ramified-free-lattices-and-the-retained-ordinary-quotient.md)。原q-Frob本原性排除p分歧模的唯一可能k挠元，给实际X_L^(p)=O⊕RΓ及指数k子格O[Γ]；精确Hom/上同调给X_Mn^(p)=O[P_n]^43，U_Mn=O[P_n]^86。普通A_Mn=RΓ/π^m_n仍为完整序列末商，未计算m/C/b。
+
+- **R698（已证明约化）**：[两个实际平方根的同一低阶系数公式](results/R698-two-actual-square-roots-at-one-low-degree.md)。原代数参数u与σ⁶给T；在N=(p−5)/6的合法整截断内，A_p=−(2/p)[w^N]TC、A_(p−3)=(2/3)(2/p)[w^N]TZ³。全p非消失精确化为两个标量系数；Newton快速版保持全部递推，2001..200000公开请求另行运行，不计已得结果。
