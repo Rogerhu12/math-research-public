@@ -1,53 +1,56 @@
 {
-  "request": "fourth-G-translation-only-with-published-identical-development-reused",
-  "created_at": "2026-11-14 23:32:48 UTC",
+  "request": "fifth-G-translation-and-first-complete-mixed-acceleration-layer",
+  "created_at": "2026-11-14 23:41:12 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "g_translation_successor"
+    "g_translation_successor",
+    "acceleration_layer_mixed"
   ],
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
-    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
   },
   "jobs": {
     "g_translation_successor": {
       "research": [
         "--order",
-        "4",
+        "5",
         "--previous-report",
-        "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/G-third-translation.json",
+        "topics/visible-flex-new-mechanism/notes/actions-43653875461-1-g_translation_successor/G-fourth-translation.json",
         "--previous-publication",
-        "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/receipt.json",
+        "topics/visible-flex-new-mechanism/notes/actions-43653875461-1-g_translation_successor/receipt.json",
         "--previous-run",
-        "43653293263",
+        "43653875461",
         "--previous-commit",
-        "2f0add61f44365d713abf836beaa8b0be2806a3d",
+        "481bb84991ff27a177f9524a38f8a4324dadefae",
         "--previous-lane",
         "g_translation_successor",
         "--previous-report-sha256",
-        "b183b6815e831b989bca6a09ff3da5818462ed613acfd417a704683106992eb3",
+        "2e13936e32d8b122b3e3de2b3643b6ccad1970f238e17fdbc583d73a8a43c782",
         "--previous-publication-sha256",
-        "a7709ce89ca7ead632a13c14ac0c0a5d906ef34c03f22e499952518c807ee523",
+        "48bfd07457703cf2f16b1c11eb68c1ed6e2f3262813232c33cf8c67664c81ec7",
         "--previous-driver-filename",
         "literature_G_translation_successor.py",
         "--previous-driver-sha256",
         "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
         "--previous-report-bytes",
-        "25014",
+        "25739",
         "--previous-publication-bytes",
-        "34619",
+        "34427",
         "--previous-driver-bytes",
         "39670",
         "--previous-target-minus-four-sha256",
-        "eaf54253f599a51e3adf18a80753a47e8112c51051342c353f8710148d9645f9",
+        "ee2128666bd2894221a200b6ea0b0f21ff3cc5eab3963242532c43842bb2392d",
         "--previous-target-minus-two-sha256",
-        "da946b5f1755049e1f01b3a3326046e44736710895960fdc3ffd3a932669f165",
+        "0e5666c0b066a86c290af2582602bb09016b67e2ac6fc7250761b7e1710449c6",
         "--max-seconds",
         "240",
         "--memory-mib",
         "1024",
         "--output",
-        "@OUT@/G-fourth-translation.json"
+        "@OUT@/G-fifth-translation.json"
       ],
       "completed_development": {
         "report": "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/G-translation-successor-development.json",
@@ -58,14 +61,33 @@
         "all_19_artificial_checks_already_passed": true,
         "same_source_development_not_repeated_under_root_rule_12": true
       }
+    },
+    "acceleration_layer_mixed": {
+      "development": [
+        "--toy-only",
+        "--output",
+        "@OUT@/acceleration-layer-mixed-development.json"
+      ],
+      "research": [
+        "--response-report-sha256",
+        "b183b6815e831b989bca6a09ff3da5818462ed613acfd417a704683106992eb3",
+        "--response-publication-sha256",
+        "a7709ce89ca7ead632a13c14ac0c0a5d906ef34c03f22e499952518c807ee523",
+        "--max-seconds",
+        "240",
+        "--memory-mib",
+        "1024",
+        "--output",
+        "@OUT@/acceleration-layer-mixed.json"
+      ]
     }
   },
   "sync_private_rules": false,
   "previous_private_actual_pull_time": "2026-11-14 22:56:37 UTC",
   "previous_private_actual_pull_commit": "905979913d397cae80a05592bda6660733b3160c",
-  "goal": "Determine only N^4 G in the complete new weight -3 response block after completed original N^3 G nonmembership; retain new original target and response roots.",
+  "goal": "Only next N^5 G block, plus all five new normal acceleration families and their first full weight -2 membership question.",
   "previous_response_blocks_or_separations_recomputed": false,
-  "single_other_active_research": "curvature_feasible_steps run43653520539",
   "research_only_in_public_Actions": true,
-  "task_complete": false
+  "task_complete": false,
+  "other_active_research_runs_at_dispatch": []
 }

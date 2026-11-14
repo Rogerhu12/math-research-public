@@ -271,3 +271,5 @@
 - [R133：完整m8纯尾像恰31维，既有四块的整个幂尾周期准确为零](results/R133-complete-m8-pure-cost-range-and-exact-tail-payment.md) — actual43653293263对已发完整packet作真水平IBP，519个Q2及490个L4正规系数全属31维响应T，全部P/A/R原差零，真实r<25项自然消失。R124+R130严格给Π8(U4)=T，偶像15、额外商0。R116既有同一四块C已付15尾查询，现C∈U4且反射像在evenT，查询同构立即给整Π8V_C(c,r)≡0，无新Brouwer或几何计算。1.613s/RSS83.125MiB，完整证书483512B；不推广通用pure、mixed、ruling或闭嵌入。
 
 - [R131：N³G严格分离、权负二响应40维与至少111个真实联合查询](results/R131-third-G-translation-separation-and-111-query-control.md) — actual43653293263/source2f0add61只新50原列，10完整两mode依赖给上界40；原有理40/41子式模1476048378/64963154、Λ1591563935非零，故N³G不属完整R8，4≤s≤10。同一pure映射权1/0/−1/−2核为6/13/23/34，总核≥76，R8≥107，U4/闭成本锥lineality/真实联合查询≥111。53.468s/RSS125.309MiB；全部新102原根157782B导出供直接消费。下一单N⁴G，不授完整period/ruling。
+
+- [R135：N⁴G严格分离，响应至少146维与真实联合查询至少151维](results/R135-fourth-G-translation-separation-and-151-query-control.md) — actual43653875461/source481bb849只新权−3的56列，12原式依赖给44上界；原有理44/45子式模690440334/2122673486、Λ1823493051非零，故N⁴G非成员、5≤s≤10。该权pure像5给新核39，合旧核76得R8≥146，U4/lineality/实际联合查询≥151。36.105s/RSS125.172MiB，完整新114原根导出；同源19开发已发复用而不重跑。下一仅N⁵G与新五族完整mixed，不授主课题完成。
