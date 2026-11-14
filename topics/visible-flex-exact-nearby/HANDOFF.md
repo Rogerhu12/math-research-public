@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 20:57:36 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:59:00 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步、可恢复记录
 
 仅 Rogerhu12/math-research-public；新数学只用该仓库Actions。每结论独推；非FF立即真pull --rebase再推，禁force。root管main/H/open/results/log，代理交小文本。PAT只瞬时CLI/env，禁文件/输出/提交/connector。
 最后成功真pull：12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145。12:35终端失联；最近真pull尝试2026-11-14 20:56:00 UTC仍No usable execution environment。至少每小时重试，非FF即时重试。规则8暂用connector传<100KB文本，先核size，任何binary/gzip禁取；摘要≤60KB。API不是pull，终端恢复即回git。
-最新远端 main/两README blob 核：d2c6b992114b4d4573c183f6260afb6d74e56276；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：21b9de5a5c2e28c00272694312c1b8d50a184b8e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。失联checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 原9601B H完整存 notes/2026-11-14-handoff-before-auxiliary-root-domain.md，旧9967B H/40283B open见 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早档案链在旧H。旧94540B results逐链接平移归档 notes/2026-11-14-results-before-infinite-cap-and-return.md；现索引保152旧入口。所有原native/失败/身份见档案、actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
 
@@ -41,6 +41,6 @@ D1–24 two-region L0w1已证，同一w1无人工seam，新内域鉴定需唯一
 内部open全mean逆：全M≥4/浅129–8192/深≥8193、fractional moment/Fatou，||νRNν||<2；mean真实迹域、核<2^-860000/mixed差<2^-6000000。open不是closed，强标签不免费转授。
 E1–35/C→B、T1–35三阶根C→D、S1–24正buffer跨端平滑均齐；DN四块/mean/全源保，NCB H1→H1和NBC H−1→H−1<2^590，D⊕B波酉。X1–33真正(129,2) eX→D→B transfer±1<2^8192/源2^24576，已推02864c48。
 R1–38已推ef1b4491：真实long段只有一个高度gauge，meanflux自然荷；实际μ,d差由斜率残差r付，holonomy补mean。真Ea与自伴Es在全L²差<2^20000r，r<2^-119738000，完整源<2^22000 B_B；σ1/16残差不能送需2074宽的D0逆。报告 R119-supplement-actual-long-mean-quotient-and-unmatched-exterior-return.md。真正I−EaTa及原strong标签仍未成。
-新单根候选notes已推fc676d…（2026-11-14-R119-simple-root-fixed-stop-new-object-and-transfer-gates.md）：只改q2→−8 quintic再固定q−8 stop，ell0对参数导数0；主体R/η/参数/旧two bumps不动。新geometry/scale/Γ端口逐项重付，原X/T/R特定逆不自动转授。新根A1–28已交9b2b4c…待刊；tail续新正区DN/完整闭网络，旧路线证据全保。
+新单根候选notes已推fc676d…（2026-11-14-R119-simple-root-fixed-stop-new-object-and-transfer-gates.md）：只改q2→−8 quintic再固定q−8 stop，ell0对参数导数0；主体R/η/参数/旧two bumps不动。新geometry/scale/Γ端口逐项重付，原X/T/R特定逆不自动转授。新根A1–28已刊：完整复半盘、CK/真逆/Piola、V0<1、全混频两行K_R=2^2184、两物理mean/正逆端口2^256、ordinary/weak/原子源齐；真实参数Cauchy费q!r_p^-q明确。仍只局部根，tail续完整正区DN/联合相位/闭网络，旧路线证据全保。
 
 每子题结束接open下一项；不以有限门、阶段报告或时长结束停工。

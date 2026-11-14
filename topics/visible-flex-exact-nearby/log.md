@@ -375,3 +375,7 @@ root全文读科学source/CI、核worker相对成功G/H版本全部差异及flow
 ### 2026-11-14 20:57:36 UTC — 新单根固定stop对象与转移门逐项落盘
 
 root已全文读 fc676d548e889f83bade6a34e1dbda855c257bc4（17683B，SHA5b26a62fcbfe89ba77de83eca6159f4bbab96245b0d09b2cda79dde013ce1380），固定一次ell0、后续不再restop；q2→−8 quintic+q−8平台给真正简单终根。新几何/尺度/端口门以新常数重付；保原R/参数/two bumps。此为显式新候选，原三阶根逆/返回不直接转授；完整新DN和强闭合未成。每条结论独推，旧路线原证据保留。
+
+### 2026-11-14 20:59:00 UTC — 新固定stop简单根A1–28完成
+
+root全文核新根半盘/Airy能量/混频及源，phase亲核CK、Piola与两mean、真实t方向。以tail原稿9b2b4cd615153469d4027963553b62ea92ee9ba7为底，仅明确真实参数圆盘的Cauchy费q!r_p^-q（原句半径未显写）；最终SHA c8deba8e612c0aa9646f8113af0c214ae27ca0879931214eb05947bd772ab574。重新支付b>2^28、B0半盘、V0<1、混频差和正逆端口，没有转授旧特殊根native。完整新外DN/Γ联合选择/强闭合仍在进行。

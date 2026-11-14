@@ -118,3 +118,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 新单根固定stop候选的独立路线
 
 [对象与transfer门](notes/2026-11-14-R119-simple-root-fixed-stop-new-object-and-transfer-gates.md)已写成并独推：固定ell0，参数导数为0；新ω/H/曲率/源尺度及原Γ输入资格逐项付费。它保主体R=25/8和原η/参数，改末端外接对象。原三阶根X/T/R证据保留，不把其特定native/Poisson列转授。tail继续真正新简单根、完整正区DN、联合相位及闭网络；new candidate尚非原课题完成对象。
+
+### 新简单根A1–28已闭合局部入口，接完整正区
+
+[新根证明](results/R119-supplement-new-fixed-stop-simple-root-full-analytic-chart-and-sources.md)已独推，包含完整复盘、全Fourier CK、真逆、Liouville/Piola、两条真实mean及全源；没有借旧b>2^200或四次根。下一门仍为新根接真实长正段的完整DN/Poisson及联合相位和闭网络，局部collar不能替代它们。混合坐标下ordinary/weak源需保真实单位，不能免费把L²_t换L²_ξ。

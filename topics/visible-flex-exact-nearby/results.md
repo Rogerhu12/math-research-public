@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **新固定stop简单根的完整解析图、Airy两行与真实源（A1–28）**：[证明](results/R119-supplement-new-fixed-stop-simple-root-full-analytic-chart-and-sources.md)。重新验证b>2^28与整个复半盘，付CK/逆图/准确密度/完整混频势；两行比较K_R=2^2184和两条物理mean及端口正逆2^256。ordinary、weak、原子源按Piola与total flux保留；只关闭新局部根，未授完整外DN/闭返回。
+
 - **新单根固定stop外接候选及转移门**：[对象与证明](notes/2026-11-14-R119-simple-root-fixed-stop-new-object-and-transfer-gates.md)。主体、参数和旧两扰动保持，末连接改用q2→−8 quintic和固定q−8 stop；重付新几何、物理尺度和端口。明确区分新候选与原三阶根对象，旧特殊根逆/返回不自动转授；新根、完整正区DN和闭网络继续补。
 
 - **辅助根piece的完整复thirdjets契约（E1–12）**：[证明](results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md)。保持原scalar多项式、2549号piece两cubics和完整参数/mean/无限primitive；在原piece上以同公式及解析唯一性认同真germ。六primitive导数支付E4/A5及K/γ/β/s3；四新复域须实际Actions验证，不能借原小域成功或只凭thirdjets授fold。
