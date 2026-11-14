@@ -198,3 +198,5 @@ R133实际mean-v2结果已逐原native核：公开43589465579/10门，||q_star�
 完整连续projector验证器已接公开四格pilot：0/76/3300/5969，原5970全frame只下载到公开runner一次。先真实7个193状态代数门，再真实四格；每格新的degree3精确dyadic参考与degree24 frame定义、fullGram、normal残差、signed rates和全部接口均保存。未授全域逆；全覆盖还须真实weighted两端、正Riccati/分布源及high反馈。workflow visible-exact-cut-projector-pilot.yml。
 
 firstsymbol有限部首跑43589646508真实失败于原scalar点区间floor，2838格积分宽<4.924e−8和两步真root均已成功。独立v2公开续算只补剩余范围及必要新midpoint，保原cache六阶尾、完整拒绝和1e−3全宽门；不重算成功格或169scalar cover。见notes/2026-11-14-R133-current-first-symbol-resume-v2.md。
+
+R133两行Airy/腰端audit已证并接独立公开13门：current waist准确S=0，根finite symmetric cross项(buv/η)|root必须保留（只有角均值为0）。实际moving→regular两行标量化应从完整方程含mean/primitive/source出发，不借bareheight模型宣称完整returnβ。正文 results/R133-supplement-two-row-Airy-audit-and-exact-waist-normalizer.md。

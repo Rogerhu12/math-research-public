@@ -355,3 +355,5 @@
 - 2026-11-14T19:47:48+08:00｜visible-exact-astra-0df9：保留公开43589646508真实失败及native5167e64f…，准确复用2838个成功积分、两次成功rootNewton和全部15拒绝；新v2仅续剩余两scalar germ，以剩余cell分配width_goal/4，必要时只补新midpoint完整真jet，保原全格六阶导尾与最终1e−3总宽门。237件manifest中原233输入逐SHA不变；独立workflow/worker保存真实退出和所有前缀，不重算已成功成果。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:52:24+08:00｜visible-exact-astra-0df9：已逐原process/native核公开43589433313实际return0、46/46门通过，native3812c419…8362；完整正片R_++I的4/3斜率费用保mean/cross/两锥/全低列及源，未把API状态或零trial替代真算子。H同步归并已完成/实际运行/剩余全逆与全网范围，保所有不得重算的源身份。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:54:04+08:00｜visible-exact-astra-0df9：已证明自由Airy的完整两curvature行加cross normalizer与strict首符号一致，不能只取height的−5/48；原degree5/simple-knot及准确奇偶结构给当前腰K′=b=S=0。当前非径向根另有有限对称off-diagonal (buv/η)|root，原反射类均值0但整矩阵必须保留。独立8输入manifest和13门公开audit接入；模型不替代真moving非局部根/positive反射及strong。 本条独立提交推送；继续原未完成项。

@@ -1,6 +1,6 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 11:52 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 11:54 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：7d30637cbcd7851438504d9f76c75d80f24767df；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：4f0af15c26f3471232605b12b080357aeaa91bae；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -67,3 +67,5 @@ geometry43584188751真实26门return0、native88749e6d…6336b：条件为同一
 完整周期外帽与主体B,C准确匹配时，径向唯一性付全frame/位置周期和腰C²镜像闭合，不另加腰mean行；有限97行Robin/mean自身不授周期帽或非线性matching。
 newton_source：连续regular Green/weighted两边/全源与high反馈、真qν−Z。phase_inverse：完整Xi有限部、moving自身根scalarization、两行匹配/β/j/strong。tail_connector：graph/strict/自由Airy框架/全混频网络。root逐条审证、独立推、接全非线性及最终几何。
 完整全频全源全mean逆、真ν-Schur、非线性F=0、真实外帽/尾matching及同一精确闭族尚未完成；子问题完接open下一项，阶段报告、时长和等待作业均非停止理由。
+
+两行Airy模型与完整strict首符号一致；当前waist由原degree5/simple-knot与精确奇偶结构证K′=b=S=0。当前root仍有有限对称off-diagonal (buv/η)|root，角均值0但不能删矩阵。13门独立公开audit已接，真正非局部根/positive匹配仍欠。
