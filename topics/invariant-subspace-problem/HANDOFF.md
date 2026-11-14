@@ -3,19 +3,19 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 90fcea226c8db2150bb6b70b340eca3b3d330b24（2026-11-14 21:34:09 UTC，本地实际pull --rebase成功，两README无差异）。记录：notes/2026-11-14-local-main-pull-checkpoint-789f.json。
+- **最近成功实际 pull 与已读规则提交：** 5421884af392d1f72652920a2685865e0dc5bf6e（2026-11-14 21:42:48 UTC，Actions run43644218789实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43644218789-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
 
 ## 继续位置与执行
 
-普通ISP仍未完成。21:06本地执行器恢复；旧文件保留，原/dev/shm Git元数据已清空，根在/dev/shm/isp-789f-main-20261114-2108新建稀疏检出并实际pull。远端已推数学不重算。每次pull读两README差异并记提交，非快进立刻再pull/rebase/push；本地或Actions终端均可执行，API读取不混称实际Git。
+普通ISP仍未完成。21:39本地环境再次不可用；已推数学和η8完整入口均在main，不重算。未推调度状态按真实记录重建，继续API准备＋既有Actions终端实际pull/rebase/push；API读取不混称实际Git。本地恢复后保留旧文件并先实际pull。
 全部旧状态、条件与数据入口保[本次完整H](notes/2026-11-14-handoff-before-p2-integer-lattice-789f.md)、[完整open](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)及递归旧快照，未列条目保持原状态。
 
 原Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链正距/真实下一尾上界；R289熵与R291指数秩未矛盾。边界M=kerT含e0，N=closure BM与N=M分开；graph保同w/未来/负前缀、初M3后M2、自然域及完整左右/裸费。
 
-分工：normal接原p²整数格允许的η8第二方向；boundary接保持Rrem的正滤波，literature接扩大窗口的实际w/top与原角度；根持主线继续open。
+分工：normal接Λ2低初值/第三层；boundary接实际E/Γ角度，literature接真实块与更宽窗口；根执行η8、持主线继续open。
 
 ## 原尾、全出生与真实graph
 
@@ -45,4 +45,6 @@
 
 - **[c16窗同一实际顶部/全切口两费](notes/2026-11-14-extended-sixteen-window-actual-defect-top-and-common-two-fee-sources-789f-next.md)：** Q=floor(exp(16d³))，一个u_Q投影到V_Q⊖K_Q，||u_Q−P≤Qw||≤ε||w||，ε=exp(−8d⁴)+exp(−7d⁴)。全部4d≤p≤Q−d的r_p=A(u_Q)_p在真负流图，U_pr_p=P≤p u_Q；Xi_p²≤2||P_[p+1,p+d]u_Q||²，全cut总≤2d(τ+ε||w||)²，d网格无d。原固定测试左配对全窗一致趋<w,f>，不付κ(V)；未消旗族只缺实际比较O(exp(16d³)/d)。旧联合旗δ未迁移。
 
-- **[η8唯一允许第二方向入口](notes/2026-11-14-r150-eighth-second-interface-789f.md)已冻结待实际dispatch：** 五旧artifact、46精确输入（44包内＋2仓库），复用九原p6余/正常形/来源，不重旧数学。新9101的一q/VQ/H5、实际primary检查、完整相关像及每个正目标原17均在一次300秒/512MiB内；六编译各30秒。完整8文件manifest已存，workflow invariant-subspace-r150-eighth-second.yml；源码冻结/编译不冒称执行结果。较低初值/第三层继续。
+- **[η8唯一允许第二方向入口](notes/2026-11-14-r150-eighth-second-interface-789f.md)已冻结，CLI直调403，改由既有root发布workflow调度：** 五旧artifact、46精确输入（44包内＋2仓库），复用九原p6余/正常形/来源，不重旧数学。新9101的一q/VQ/H5、实际primary检查、完整相关像及每个正目标原17均在一次300秒/512MiB内；六编译各30秒。完整8文件manifest已存，workflow invariant-subspace-r150-eighth-second.yml；源码冻结/编译不冒称执行结果。较低初值/第三层继续。
+
+η8入口4c30342已保存；直调403未启动数学，断连前新分支远端无记录。按notes/2026-11-14-r150-eighth-second-direct-dispatch-status-789f.json重建，实际run/dispatch另核。
