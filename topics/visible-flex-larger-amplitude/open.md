@@ -52,6 +52,8 @@
 
 [actual63最大col原保存响应](notes/2026-11-14-actual63-stored-row155819-response.md)：原b=-1.4151317154400291，完整条件恢复Az=.00025747182097217506，最终选择Az=.0002574718209640469。该小响应在selector之前已存在；full center从未导出，尚不能区分中心本小或条件校正相消。下一独立Actions诊断固定63父62、原完整A/Wr/S/g/λ270与factor SHA，分中心/局部力/RHS舍入/恢复/selector；不重新优化、不增科学门。
 
+**65固定63模型诊断已接线**：[完整接口](notes/2026-11-14-actual63-fixed-model-response-decomposition-interface.md)与57KB独立源10aeaa14，workflowa5ce807b/request36596d2e/51pins。只从实际63 ZIP及其父62原state重建一次原完整A/Wr/S/b/g/λ270和QR，分中心/原局部力/精确RHS加法/重放/selector；row155819及interval461全338行保完整作用。完整原数学数组逐SHA绑定，factor摘要差异如实报告、未导出旧因子不冒审。无新QP/LSMR/native/trial/参数扫描或新科学门。fetch令牌与科学analyze分开，全部新大件large-arrays。
+
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
 [23完整seed](notes/2026-11-14-public-same-RK-candidate-v3-actual23.md) 原noJ通过全部576 stage guard，norm.04177307820740199仍高于原2e−9；全部112H、51内部下溢和9546负零保全。25的原十trial全在stage13/raw0/seg7被guard拒，不能绕到新H fullDN。原linearSteps还定义graphs/gains/far/scales，不能整体更换后冒仅换初猜。

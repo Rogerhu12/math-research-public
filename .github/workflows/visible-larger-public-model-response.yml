@@ -1,0 +1,151 @@
+name: visible-larger actual63 fixed full-model response decomposition
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-model-response-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  modelresponse:
+    name: Separate original complete center and conditional recovery responses
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: visible-larger-public-modelresponse
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: '/README.md
+
+          /topics/visible-flex-larger-amplitude/*.md
+
+          /topics/visible-flex-larger-amplitude/computations/
+
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+
+          '
+    - name: Establish independent diagnostic output with bounded maintenance
+      run: 'git config gc.auto 0
+
+        git config gc.autoPackLimit 0
+
+        git config maintenance.auto false
+
+        mkdir -p "$RUNNER_TEMP/visible-model-response/modelresponse"
+
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-model-response/modelresponse" >> "$GITHUB_ENV"
+
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+
+        '
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install the identical original numerical runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind the original model request and complete current source closure
+      run: "python - <<'PYPINS'\nimport hashlib,json,os,re,subprocess\nfrom pathlib import Path,PurePosixPath\ncomp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])\n\
+        raw=(comp/'public-model-response-request.json').read_bytes();request=json.loads(raw)\nif (request.get('schema')!='public-fixed-model-response-request-v1'\n\
+        \    or request.get('repository')!='Rogerhu12/math-research-public'\n    or request.get('request_number')!=65 or request.get('lanes')!=['modelresponse']):\n\
+        \    raise ValueError('Use the explicit actual63 fixed-model diagnostic request')\nrequired={'exact_20261114_actual63_model_response_decomposition.py','exact_20261114_fetch_pinned_public_artifact.py','exact_20261114_public_resume.py','root_20261114_publish_actions.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','exact_20261114_regularized_block_qr.py','root_20261114_complete_local_qp_condensation.py'}\n\
+        if not required.issubset(request['source_sha256']):raise ValueError('Missing current and frozen original sources')\n\
+        verified=[]\nfor name,expected in request['source_sha256'].items():\n    if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',expected):raise\
+        \ ValueError('Explicit source identity required')\n    data=(comp/name).read_bytes()\n    if hashlib.sha256(data).hexdigest()!=expected:raise\
+        \ ValueError('Source changed: '+name)\n    if name.endswith('.py'):compile(data,name,'exec')\n    verified.append(dict(file=name,bytes=len(data),sha256=expected))\n\
+        inputs=[]\nfor name,item in request['inputs'].items():\n    rel=PurePosixPath(item['file'])\n    if rel.is_absolute()\
+        \ or '..' in rel.parts or not str(rel).startswith('topics/visible-flex-larger-amplitude/'):\n        raise ValueError('Only\
+        \ explicit public topic inputs')\n    data=(Path.cwd()/str(rel)).read_bytes()\n    if hashlib.sha256(data).hexdigest()!=item['sha256']:raise\
+        \ ValueError('Original external input changed: '+name)\n    inputs.append(dict(name=name,file=str(rel),bytes=len(data),sha256=item['sha256']))\n\
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()\nif head!=os.environ['GITHUB_SHA']:raise\
+        \ ValueError('Retain the triggering source checkout')\n(out/'model-response-request-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_inputs=inputs,scientific_execution_claimed=False),indent=2)+'\\\
+        n')\nprint(json.dumps(dict(source_commit=head,verified_sources=len(verified),verified_original_inputs=len(inputs))),flush=True)\n\
+        PYPINS\n"
+    - name: Reserve original archive and complete diagnostic output storage
+      run: "python - <<'PYSPACE'\nimport json, os, shutil, subprocess\nfrom pathlib import Path\nrequest = json.loads((Path(os.environ['VISIBLE_COMPUTATIONS'])/'public-model-response-request.json').read_text())\n\
+        needed = request['minimum_free_bytes']\nif type(needed) is not int or needed <= 0:\n    raise ValueError('Declare\
+        \ the actual readback storage budget')\nroot = Path(os.environ['RUNNER_TEMP'])\nbefore = shutil.disk_usage(root).free\n\
+        removed = []\nif before < needed:\n    for name in ('/usr/local/lib/android', '/usr/share/dotnet', '/opt/ghc'):\n\
+        \        if Path(name).is_dir():\n            subprocess.run(['sudo', 'rm', '-rf', name], check=True)\n          \
+        \  removed.append(name)\n        if shutil.disk_usage(root).free >= needed:\n            break\nafter = shutil.disk_usage(root).free\n\
+        record = dict(minimum_free_bytes=needed, free_before=before, free_after=after,\n              removed_unused_runner_SDKs=removed,\
+        \ original_scientific_payload_removed=False)\n(Path(os.environ['VISIBLE_OUT'])/'model-response-storage.json').write_text(json.dumps(record,indent=2)+'\\\
+        n')\nif after < needed:\n    raise RuntimeError('Insufficient declared storage for complete original bytes')\nprint(json.dumps(record),\
+        \ flush=True)\nPYSPACE\n"
+    - name: Fetch only the exact completed actual63 public artifact
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: "python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_actual63_model_response_decomposition.py\" fetch \\\n  --out\
+        \ \"$RUNNER_TEMP/actual63-original\" 2>&1 | tee \"$VISIBLE_OUT/original-artifact-fetch.log\"\ncp \"$RUNNER_TEMP/actual63-original/_pinned_public_artifact_receipt.json\"\
+        \ \"$VISIBLE_OUT/original-artifact-fetch-receipt.json\"\n"
+    - name: Restore the identical original78 public source files
+      run: 'PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<''PYSOURCE'' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+
+        import os
+
+        from pathlib import Path
+
+        from exact_20261114_public_resume import prepare_public_source
+
+        source=prepare_public_source(Path.cwd(),Path(os.environ[''RUNNER_TEMP''])/''actual63-model-public-original-source'',Path(os.environ[''VISIBLE_OUT'']))
+
+        with open(os.environ[''GITHUB_ENV''],''a'') as stream:stream.write(''VISIBLE_SOURCE_TOPIC=''+str(source)+''\n'')
+
+        PYSOURCE
+
+        '
+    - name: Rebuild one fixed original full model and separate its saved response components
+      timeout-minutes: 35
+      run: 'python -u - <<''PYMODEL'' 2>&1 | tee "$VISIBLE_OUT/model-response.log"
+
+        import json,os,subprocess,sys
+
+        from pathlib import Path
+
+        comp=Path(os.environ[''VISIBLE_COMPUTATIONS'']);root=Path.cwd()
+
+        request=json.loads((comp/''public-model-response-request.json'').read_text())
+
+        argv=[sys.executable,''-u'',str(comp/''exact_20261114_actual63_model_response_decomposition.py''),''analyze'',''--artifact-directory'',str(Path(os.environ[''RUNNER_TEMP''])/''actual63-original''),''--out'',str(Path(os.environ[''VISIBLE_OUT''])/''actual63-model-response''),''--budget-seconds'',str(request[''diagnostic_budget_seconds'']),''--jac-workers'',str(request[''jac_workers''])]
+
+        for key in (''accepted'',''tail_anchor''):argv+=[''--''+key.replace(''_'',''-''),str(root/request[''inputs''][key][''file''])]
+
+        raise SystemExit(subprocess.call(argv))
+
+        PYMODEL
+
+        '
+    - name: Preserve the complete diagnostic and every partial failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-modelresponse-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-model-response/modelresponse/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded actual diagnostic results with ordinary rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: 'python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane modelresponse
+
+        '

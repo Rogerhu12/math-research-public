@@ -212,3 +212,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 22:47:36 UTC：actual64成功，原件读取直接接续
 
 run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布全部success。唯一artifact14134942742/510988971B/ZIP0aa58b074c86abce6db146dea32d7d28664b290dc1bc7e2cd5e132ce479de478。根开始完整原ZIP下载；同时prefix19独立reader请求钉完整实际tuple、parent63双SHA及新publisher5cc3de26，先取原trial/FD/父身份再核数组。尚不据文件名或成功step推定alpha、最近失败或全BVP。
+
+
+## 2026-11-14 22:52:21 UTC：request65固定原63完整模型响应分解
+
+[57KB独立source与完整接口](notes/2026-11-14-actual63-fixed-model-response-decomposition-interface.md)10aeaa14/ad787269全文已读，51源pins、8bash/4inlineAST及YAML通过。workflowa5ce807b/request36596d2e只取原63artifact14134662698/c90869cd及真正父62，原78源逐件核回；一次原baseline/J/QR，完整中心/原局部力/RHS精确加法损失/原恢复重放/selector分别算原A作用并读全H残差。原factor仅摘要，本次明确新重建。无重新优化/改变λ/native/新trial；token仅fetch与发布step。64原ZIP已完整核size/SHA/CRC，原model亲读确认1/32接受和1/8真实merit上升；正式64结论由原全部字段紧接发布。
