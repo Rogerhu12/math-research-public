@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, tailzero]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, cardinal]
 
 permissions:
   contents: write
@@ -22,7 +22,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        lane: ${{ fromJSON(inputs.lane == 'free3' && '["free3"]' || inputs.lane == 'geometry' && '["geometry"]' || inputs.lane == 'coupling' && '["coupling"]' || inputs.lane == 'tailzero' && '["tailzero"]' || '["free3","geometry","coupling","tailzero"]') }}
+        lane: ${{ fromJSON(inputs.lane == 'free3' && '["free3"]' || inputs.lane == 'geometry' && '["geometry"]' || inputs.lane == 'coupling' && '["coupling"]' || inputs.lane == 'tailzero' && '["tailzero"]' || inputs.lane == 'couplingcheck' && '["couplingcheck"]' || inputs.lane == 'cardinal' && '["cardinal"]' || '["free3","geometry","coupling","tailzero","cardinal"]') }}
     name: Mainline ${{ matrix.lane }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
@@ -48,6 +48,8 @@ jobs:
             /topics/visible-flex-larger-amplitude/*.md
             /topics/visible-flex-larger-amplitude/computations/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-14-public-RK48-cardinal-tail-packet/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/
             /topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
             /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json
@@ -97,12 +99,12 @@ jobs:
         if: matrix.lane == 'geometry'
         timeout-minutes: 90
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_continuous_cover_budget_v2.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_continuous_cover_budget_v3.py" \
             --directory topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed \
             --checkpoint topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz \
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
-            --out "$VISIBLE_OUT/R241-cover-v2.json" --radial-stride 1 --angular-stride 1
+            --out "$VISIBLE_OUT/R241-cover-v3.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 2
       - name: Solve and audit the actual T96 zero-height tail anchor
         if: matrix.lane == 'tailzero'
         timeout-minutes: 315
@@ -111,7 +113,7 @@ jobs:
             --source-topic "$VISIBLE_SOURCE_TOPIC" --modes 96 --quadrature 1024 \
             --node-heap 6144 --out "$VISIBLE_OUT/zero-H-T96"
       - name: Check the actual controlled scalar and complete physical RHS
-        if: matrix.lane == 'coupling'
+        if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_augmented.py" \
             --accepted "$VISIBLE_ACCEPTED" \
@@ -123,16 +125,13 @@ jobs:
           from exact_20261114_true_tail_client import prepare_config
           prepare_config(Path(os.environ['VISIBLE_OUT'])/'T96-config.json', modes=96, quadrature=1024)
           PY
-      - name: Prepare the entire material-circle warm field on the real scalar neck
-        if: matrix.lane == 'coupling'
-        timeout-minutes: 30
+      - name: Restore the complete previously prepared field without recomputation
+        if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_solve.py" \
-            --accepted "$VISIBLE_ACCEPTED" \
-            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
-            --out "$VISIBLE_OUT/preparation" --work "$RUNNER_TEMP/visible-full-preparation" --prepare-only
+          mkdir -p "$VISIBLE_OUT/preparation"
+          cp topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz "$VISIBLE_OUT/preparation/prepared.json.gz"
       - name: Check the complete material and augmented boundary derivatives
-        if: matrix.lane == 'coupling'
+        if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         timeout-minutes: 30
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_response.py" \
@@ -153,6 +152,16 @@ jobs:
             --tail-config "$VISIBLE_OUT/T96-config.json" \
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/full-DN" --work "$RUNNER_TEMP/visible-full-DN-qr"
+      - name: Check exact shared-node cardinal tail and collar nonplanarity
+        if: matrix.lane == 'cardinal'
+        timeout-minutes: 90
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_cardinal_tail_exact_check.py" \
+            --packet topics/visible-flex-larger-amplitude/notes/2026-11-14-public-RK48-cardinal-tail-packet/manifest.json \
+            --checkpoint topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --out "$VISIBLE_OUT/R238-exact-C2-normal-form.json"
       - name: Preserve actual outcomes and failure checkpoints
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

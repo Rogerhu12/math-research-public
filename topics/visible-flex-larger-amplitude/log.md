@@ -316,3 +316,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 10:02 UTC — visible-larger: pay curvature and mixed spatial coverage and refine remaining prefix blocks
 
 真实v2使D+3.9807514078/Ktau0=.9994116104，曲率/标记门已过；法向锥付392296对，余33712仅prefix-prefix。v3仅细分真实失败父块并从同PPoly/原mean评价新角点，不改变曲面或已付tail/cap。尚未全覆盖。
+
+### 2026-11-14 10:02 UTC — visible-larger: preserve cardinal tail bytes and run targeted continuation checks
+
+只读旧完整9245节点并逐哈希抽取4角原字节，保全规范化C²/非平面性消费者，不重跑原RK48读出。题外mainline workflow加入独立couplingcheck/cardinal，geometry改真实局部v3，coupling恢复已通过的compact warm；下一次只手动触发这三个必要短任务，不重复运行中free3/zeroH。zeroH代数消费者仅读实际完整响应，不重求解。
