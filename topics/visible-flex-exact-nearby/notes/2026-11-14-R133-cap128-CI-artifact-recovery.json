@@ -1,0 +1,92 @@
+{
+  "kind": "actual_existing_cap_artifact_and_original_prefix_recovery_inputs",
+  "repository": "Rogerhu12/math-research-public",
+  "prior_run_id": 43580498603,
+  "prepared_artifact_name": "visible-exact-cap128-prepared-43580498603-1",
+  "cell_artifact_pattern": "visible-exact-cap128-cells-*-43580498603-1",
+  "scientific_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-CI-pinned-inputs.json",
+  "scientific_manifest_sha256": "867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32",
+  "original_complete_prefix_cover": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-prefix768-exact-cover.json",
+  "original_complete_prefix_cover_sha256": "2e886c773caadfc6802e10c079599dd996235b629cad889c811a57dd7f1b70ee",
+  "original_whole_cap_cells": 1977,
+  "consumer_ranges": [
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      1280
+    ],
+    [
+      1280,
+      1536
+    ],
+    [
+      1536,
+      1792
+    ],
+    [
+      1792,
+      1977
+    ]
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-native.json.gz": "5e6fde38e48982919e6d95e936a264e5860f4c0b893e8a9ab969a3c1e5bcc816",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-process.json": "67bda7af77705a6f0f24c218ade7257d04912ccfe05eb884a0a732c606cff82b",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-native.json.gz": "bb9ad75528f65b5a7803603ac25a02364fca96d975289d9339dd8325c19d12ad",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-process.json": "338c7aa0b3abe427624861ab1418339534adff47b4496bfd039190712b23f4e5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-native.json.gz": "4cf5fbb4328a25489967d9c1ead0999c356eff688f1f16360ee5eea83ab0c9f2",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-process.json": "f8846208696e7cd3b63da23a61af779fc708ecb6c6d27095b6bba4d84abb81d5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-native.json.gz": "36d8846a573ad4802245981c3cf933ab9e723bab0786a95b3c3989b093463fd5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-process.json": "a3a7979837213d2d3a843869ecec972f6ddc681f1b7ffdbcff5b79c98120a35c",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-prefix768-exact-cover.json": "2e886c773caadfc6802e10c079599dd996235b629cad889c811a57dd7f1b70ee"
+  },
+  "known_infrastructure_failure": "The original children may already be complete; wrappers stopped while reading changed root README during publication. Each native and actual child return code must be inspected independently.",
+  "no_successful_row_may_be_recomputed": true,
+  "no_mathematical_gate_or_expected_array_SHA_changed": true,
+  "actually_observed_original_artifacts": [
+    {
+      "id": 14109165742,
+      "name": "visible-exact-cap128-cells-1280-1536-43580498603-1",
+      "size_in_bytes": 1461012,
+      "digest": "sha256:5b3a85ff9fa1d54990b242a20aa6df2d0b82f6a17b11c9da29fdefdb6de28e1f",
+      "expired": false
+    },
+    {
+      "id": 14108612718,
+      "name": "visible-exact-cap128-cells-768-1024-43580498603-1",
+      "size_in_bytes": 1457912,
+      "digest": "sha256:1a3adff72c485bfbb7a6792a01f7fdf07efa5f39815123bf3c0a64acba94b010",
+      "expired": false
+    },
+    {
+      "id": 14108442315,
+      "name": "visible-exact-cap128-prepare-evidence-43580498603-1",
+      "size_in_bytes": 11228,
+      "digest": "sha256:bb23babfea28631bdaf1a78846a01bd03c85b6b3e69f31a82ef67900c979c526",
+      "expired": false
+    },
+    {
+      "id": 14108088199,
+      "name": "visible-exact-cap128-cells-1536-1792-43580498603-1",
+      "size_in_bytes": 1464920,
+      "digest": "sha256:17359fd32fcb30938db547d7356dae5dd208b61798edb32c2e1224dfe70e2cfd",
+      "expired": false
+    },
+    {
+      "id": 14108082775,
+      "name": "visible-exact-cap128-prepared-43580498603-1",
+      "size_in_bytes": 767083844,
+      "digest": "sha256:023ede59e3a6efe140462212f1f849aacaee7336213ead07561110ab753d29ea",
+      "expired": false
+    },
+    {
+      "id": 14108079844,
+      "name": "visible-exact-cap128-cells-1024-1280-43580498603-1",
+      "size_in_bytes": 1461246,
+      "digest": "sha256:089731c55eaae35ec60caeb47e2f3a0fb1045df5ebc603b1794ceb3c6752fda3",
+      "expired": false
+    }
+  ]
+}

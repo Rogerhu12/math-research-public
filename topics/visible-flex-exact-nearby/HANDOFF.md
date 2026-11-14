@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：f37ef996b8154ef2e852b913c96850727b27b7d5；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：119f8468217dd0bfe0f4b57499ee757540e694cf；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -42,3 +42,5 @@ phase旧完整请求只到127germ且已正常返回，不再等待其自动覆�
 主体旧左实际只请求[1,257)并已exit0，原右4000..4058后真实−9；新visible-exact-correlated-body.yml一次从两原nodal答案重建完整Hermite原SHA，八区间补7401新行。必要新输入18.57MB，完整146MB trial只留Actions artifact；不得把全行残差当全inverse。
 
 已实际阅读ee26c0a65a2e63c15f2ccfba6714181584416542的根README差异：新增visible-flex-new-mechanism目录，第1/13条课题数量改为按表列出；本题数学目标及其它规则未变，立即遵守。旧cap/body CI因旧README哈希在发布/启动时拒绝；优先恢复真实artifact已成行，再只续缺行。phase公开run43580721166已真实成功完成169 transport。
+
+新workflow visible-exact-cap128-recover-complete.yml 与 visible-exact-correlated-body-reviewed.yml已接独立reviewed rules fdb83fd4…；driver7f8521cb…只修基础设施，原科学manifest完全不动。每个已完成原artifact先核/保存后复用，规则再变仍报告并由root读diff。
