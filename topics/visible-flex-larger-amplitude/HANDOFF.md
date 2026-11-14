@@ -38,14 +38,14 @@ request21/zerorkprobe已接push请求：新zero_rk_native_probe.py/hook锁17原�
 
 先取得实际fullDN父场：本场H/全尾响应、原outer/inner/RMS1e−6/BC1e−11/fresh audit均保。新protected warm/FD与既有physical fullDN身份兼容，但不能自动重跑已失败native。
 随后同场完整physical（含z0）、cut九jet/全材料mean/core证书/球排除、唯一SE2、有限C²修补、上下尾与固定帽；不加旧A mean，有限φ一般无限θ谱。R239连续充分条件不代有限DFT零接缝。
-新共享背景quintic定义源/表示误差账已出版：原表0/1/2输出精确成同一B，保cap高，完整cut Δ重建；几何独立B API，原A.height/w/E目标g不覆写。wrapper/new loader准备中，旧loader必须拒绝新几何身份，不能静默按旧表重建新mesh。尚无真parent，不执行旧A替代新结果。
+新共享背景quintic定义源/表示误差账已出版：原表0/1/2输出精确成同一B，保cap高，完整cut Δ重建；几何独立B API，原A.height/w/E目标g不覆写。shared_background_closed_assembly wrapper/new loader已全文读/AST并冻结，完整B三jets及全角cut重建；guard注记使旧loader拒绝，新loader核原/新双bundle，后续cover/held薄入口准备中。尚无真parent，不执行旧A替代新结果。
 R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M再精化，v4维450/514。新Rφ v4 response/fullDN/after_accept三源已按新身份重建推送（same-g-physical-DN-live-client-interface）：同一live TailClient/predictor/FrozenProfile→新H/J→原FD→fullmain→fresh audit，live scalar sidecar绑定。无parent未执行；二分预算至少2*(nodes−1)+1（699→1397），勿抄1200。
 全状态continuous cover/held均保R241空间门、完整活动块/两帽盘及全D/.2；连续包络仍须付。R251四Loewner直接operator，request16仅三个解析接口成功，实际新scalar/prefix未核，不重跑fixture。R249入口修补费用、R254完整prefix/R258同场全FFT非平面消费者均待实际场。R258共同背景变化保持四角差，帽高保持marker，但不继承旧全几何。显示N32/九相位mesh<5MB，实际2305tail nodes不删。
 
 ## 旧失败、定理和封存
 
 request10–12旧Rθ/全线性及P诊断，13新Rφ band、14新Rφ QR、15末bridge699→1073，均无接受/新H0。15仍17trial全坏、原全线相对2.936e−6；实际cell谱1.61e5/宏传播2.22e23，不能据理想circle盲加点或只抬1200。全原回执/输入SHA在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
-R248有限C²全相位归约；R250/253可逆与病态相容；R252新φ边界非旧Rθ等价预条件；R255精确circle剪切不冒有限φ谱；R256精确chart/阻尼下降；R257非圆精确单位速入口不能纯有限θ；R260标量ap/app真导偏差/角与径向强迫完整，不推实际误差超限。所有证明直接results，不增机器jet门。R259备用小核诊断已冻结未调度，直线条件不加给λ^j；不同时无据开支。
+R238–R262完整证明与假设见results.md；不增机器jet门。R259备用小核诊断已冻结未调度，直线条件不加给λ^j，不无据并开新支。
 旧A δhold/D≈.063<.2；真RK24/48/三mesh/R241 q8全部2157568对uncovered0已付，连续包络仍条件。旧GW同raw/mean/g六节点f8/16/48 metric1.18e−8/1.26e−9/1.62e−10，κ7.646封存。43提交、geometry26/strong90/GW35已保全；strong R6失败无接受/raw未全迁，公开78件匹配原91源清单；不读private。不重复历史已完成实验。
 
 规则同步记录：2026-11-14T14:14:16.115711+00:00 实际pull --rebase成功；双README自7f90068c无变化，已读提交 d2e9fdc6365f01c97d583c9bc8519f42273c5cbb。

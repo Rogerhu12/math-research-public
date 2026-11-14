@@ -594,3 +594,8 @@ root全文读独立geometry_20261114_shared_background_normal_form.py及shared-b
 ### 2026-11-14 request21：同原RK12初猜交原native无J
 
 root全文读zero_rk_native_probe.py/hook与接口，AST/哈希及原worker变量接口核对；新源SHA c5b14f0a760ec36c47206e1024e7c53b0217488b13dcbf0a7a7040ef2db0521d / 7273f97922059d7673f4354a972ffe20ca97fdccff9fb916d62d48d4f6b21ff2。公开zerorkprobe lane保17同全部H、原源/config/far/graphs/gains/scales，锁19真summary，仅新私有初猜+一次原无J；构造块在predict前保全，奇异/underflow不抹掉记录。无solve/J/audit/新接受。20实际run43603477207正在并行；H压缩历史、保全部当前检查点及后续原门。
+
+
+### 2026-11-14 同一B闭几何wrapper与严格读取身份
+
+root全文读geometry_20261114_shared_background_closed_assembly.py与接口；源码SHA ac635c11aa31925a4175876ffa2c8b959766629aebf9e3abaf97a68ca0e096cb，AST核通过，未数值。独立对象以精确B统一tail/native_cut_nine三阶径向值，旧delta cache清空后全九jet/full-angle cut重建；原metric表/帽/marker/完整prefix/唯一SE2不变。新plan/assembly增加纯身份guard使旧loader逐dict拒绝，load_shared_bundle核原父包与新descriptor/mesh/normal，返回同七元API。仅B的连续定义已明确，其余浮点表示/operator/κ/reach/held不冒认证；无接受parent不运行。
