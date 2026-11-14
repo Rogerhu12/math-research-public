@@ -78,7 +78,7 @@ root Volterra43588423040、一次expB43591004689、完整positive43589433313已�
 [完整负散射/ordered network](results/R119-supplement-complete-negative-scattering-and-network-word-in-slope-units.md)已证两个强窗H0→H4/3和H−4/3→H0；
 负片费2^9000λ^(4/3)，内行2^9020λ_i^(4/3)，λ=2^32√(j+5)δ^-9/4。
 全mean/源/Γ*和外端口保留，真实anti-J与unitarity支付所有低/中频；这还不是全网逆。
-scalar正常形和新高块draft已收，根继续读取。即使新cutoff成立，随层深增长的moving mixed middle仍须真正同方向完整构造、源单位、测度、标签及54/55收缩。
+[完整scalar正常形/新高块](results/R119-supplement-fixed-scalar-normal-form-and-slope-unit-high-network.md)已证：同一实际固定β、signed-density真换元/mean有限秩/ordered两阶/cohom全保，两窗余项<2^20000λ^(4/3)。Tnew=2^65664 J²δ^-9给无层权ℓ1/2/∞高反馈及全低输入门<2^-1024。随层深增长的moving mixed middle仍须真正同方向完整构造、源单位、测度、标签及54/55收缩；新高块不免费转授最终层权。
 五函数的旧独立方向下界不能直接抵消新δ幂；不得说“以后更小”跳过深层量词。
 
 ## 4. 全逆、非线性与同一闭族

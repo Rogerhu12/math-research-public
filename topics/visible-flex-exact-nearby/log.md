@@ -419,3 +419,7 @@
 ## 2026-11-14 13:28:21 UTC：M32精确repair到完整旧正high行的解析转授已证
 
 审证A1–23逐字段变化、主部mean、新全域Riccati/reference pR、完整source/head/mean与跳；原4650格及intrinsic输入全复用，只需新scalar sweeps与实际root/外graph门。独立结果已写；新数值消费者由newton/phase分别推进，当前不授旧χ为新χ，也不授M96带宽。
+
+## 2026-11-14 13:30:07 UTC：完整scalar正常形及新全高阈值已证
+
+Z1–41全核，原49/55首次系数与free-frame勘误逐项重对；normal shear首项不变，未借旧H17错误界。全部signed-density finite-rank/跨锥/ordering/cohom、两基础强窗、完整行预条件及全源保。新T=2^65664 J²δ^-9的无层权高反馈<2^-1024，未授移动低中频或最终标签权。结果SHA256 242771643ac356d8f252bd10c5558c46b9fae195e6cd35aaad013e7d4781b36a，独立结论即推，tail继续真正mixed middle。

@@ -121,3 +121,7 @@
 ### R133 补充：完整旧正区高模行的M32精确repair转授
 
 **已证明（解析合同）。** [完整合同](results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md)保4650旧闭行和全部mean、原source/界面身份，明确六个repair范数、反应/非局部/mean行膨胀、新a与完整global Riccati、scalar下比较/Volterra及全193head源。root与外graph须独立转授；不复制旧χ数值，不把M96参数尾塞进M32分母。
+
+### R119 补充：完整固定标量正常形及斜率尺度高网络
+
+**已证明。** [完整Z1–41](results/R119-supplement-fixed-scalar-normal-form-and-slope-unit-high-network.md)保signed-density换元和mean有限秩、真实polar/跨锥、原固定β、全部有序两阶/cohom费以及两行真预条件。两强窗余项<2^20000λ^(4/3)，新阈值Tnew=2^65664 J²δ^-9给无层权ℓ1/2/∞完整高反馈及低到高<2^-1024；所有mean/源/外口保留，移动mixed middle和最终层权继续。
