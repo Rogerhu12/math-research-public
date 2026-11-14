@@ -1,0 +1,272 @@
+name: visible-larger original stage43 local Jacobians
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-native-stage-probe-request.json
+
+permissions:
+  contents: write
+  actions: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  stage43probe:
+    name: Original stage43 four-field probe
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: visible-larger-public-stage43probe
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/initializer-v2-construction-045-000.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/summary.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-checkpoint.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-initializer-identity.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-factory-identity.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-live-identity.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/probe-spec.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/verified-launch-intent.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/instrumentation.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-states-000.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-graphs-gains-000.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43627297724-1-receipts/stage43-step11-fields.json
+      - name: Bound maintenance and establish independent probe output
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          mkdir -p "$RUNNER_TEMP/visible-native-stage/stage43probe"
+          echo "VISIBLE_OUT=$RUNNER_TEMP/visible-native-stage/stage43probe" >> "$GITHUB_ENV"
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+          echo "VISIBLE_TOPIC=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude" >> "$GITHUB_ENV"
+          echo "VISIBLE_CAPTURE28=$RUNNER_TEMP/stage47-original28-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_ENV"
+          echo "VISIBLE_CAPTURE41=$RUNNER_TEMP/stage47-original41-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_ENV"
+          echo "VISIBLE_DIRECTION43=$RUNNER_TEMP/stage47-original43-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - name: Install the unchanged native-reader Python dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Bind the single explicit lane and all requested source bytes
+        run: |
+          python - <<'PYPINS'
+          import hashlib, json, os, re, subprocess
+          from pathlib import Path
+          comp = Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request_path = comp/'public-native-stage-probe-request.json'
+          request_raw = request_path.read_bytes()
+          request = json.loads(request_raw)
+          if request.get('repository') != 'Rogerhu12/math-research-public' or request.get('lanes') != ['stage43probe']:
+              raise ValueError('Use exactly the stage43probe request for this public repository')
+          required = {
+              'geometry_20261114_native_stage43_local_j_probe.py',
+              'geometry_20261114_native_stage43_local_j_probe_hook.mjs',
+              'geometry_20261114_native_stage43_local_j_window.mjs',
+              'exact_20261114_single_step_rational_action.py',
+              'exact_20261114_new519_rational_residual_attribution.py',
+              'exact_20261114_fetch_pinned_gauge_row519.py',
+              'exact_20261114_fetch_pinned_public_artifact.py',
+              'exact_20261114_fetch_pinned_rawcell0_steps.py',
+              'exact_20261114_public_resume.py',
+          }
+          pins = request.get('source_sha256')
+          if not isinstance(pins, dict) or not required.issubset(pins):
+              raise ValueError('Pin the capture, exact action, public-source restore and all three fixed fetchers')
+          verified = []
+          for name, expected in pins.items():
+              if Path(name).name != name or not isinstance(expected, str) or not re.fullmatch(r'[0-9a-f]{64}', expected):
+                  raise ValueError('Use each source basename and its full SHA256')
+              raw = (comp/name).read_bytes()
+              actual = hashlib.sha256(raw).hexdigest()
+              if actual != expected:
+                  raise ValueError('Requested source bytes changed: '+name)
+              verified.append(dict(file=name, bytes=len(raw), sha256=actual))
+          source_commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          if source_commit != os.environ['GITHUB_SHA']:
+              raise ValueError('The checkout must be the triggering source commit')
+          readmes = {}
+          for name in ('README.md', 'topics/visible-flex-larger-amplitude/README.md'):
+              readmes[name] = subprocess.check_output(['git', 'rev-parse', 'HEAD:'+name], text=True).strip()
+          intent = dict(repository='Rogerhu12/math-research-public', lane='stage43probe',
+              source_commit=source_commit, current_run=os.environ['GITHUB_RUN_ID'],
+              request_sha256=hashlib.sha256(request_raw).hexdigest(), request=request,
+              verified_sources=verified, initial_readme_git_blobs=readmes,
+              scientific_execution_claimed=False, native_acceptance_claimed=False,
+              original_artifact_inputs_outside_output_tree=True)
+          (Path(os.environ['VISIBLE_OUT'])/'stage-probe-request-identity.json').write_text(
+              json.dumps(intent, indent=2)+'\n')
+          PYPINS
+      - name: Check syntax of the frozen capture and exact-action sources
+        run: |
+          python -m py_compile \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_local_j_probe.py" \
+            "$VISIBLE_COMPUTATIONS/exact_20261114_single_step_rational_action.py" \
+            "$VISIBLE_COMPUTATIONS/exact_20261114_new519_rational_residual_attribution.py" \
+            "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_public_artifact.py" \
+            "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py" \
+            "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_gauge_row519.py"
+          node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_local_j_probe_hook.mjs"
+          node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_local_j_window.mjs"
+          node --version
+          python --version
+      - name: Fetch the unchanged actual28 complete original capture
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_public_artifact.py" \
+            --run-id 43611175099 --artifact-id 14120548264 \
+            --artifact-name visible-mainline-nativecorrection-43611175099-1 \
+            --expected-size 235561097 \
+            --expected-sha256 0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee \
+            --out "$VISIBLE_CAPTURE28" \
+            2>&1 | tee "$VISIBLE_OUT/actual28-fetch.log"
+          cp "$VISIBLE_CAPTURE28/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual28-artifact-fetch-receipt.json"
+      - name: Fetch the unchanged actual41 complete original-step capture
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py" \
+            --run-id 43622149326 --artifact-id 14124209116 \
+            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \
+            --expected-size 349636774 \
+            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \
+            --out "$VISIBLE_CAPTURE41" \
+            2>&1 | tee "$VISIBLE_OUT/actual41-fetch.log"
+          cp "$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual41-artifact-fetch-receipt.json"
+      - name: Fetch the fixed actual43 direction and its original residual and scale arrays
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_gauge_row519.py" \
+            --out "$VISIBLE_DIRECTION43" \
+            2>&1 | tee "$VISIBLE_OUT/actual43-fetch.log"
+          cp "$VISIBLE_DIRECTION43/_pinned_gauge_row519_receipt.json" "$VISIBLE_OUT/actual43-selected-fetch-receipt.json"
+      - name: Restore all78 original source files only from the public repository
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          source = prepare_public_source(
+              Path.cwd(), Path(os.environ['RUNNER_TEMP'])/'stage47-public-original-source',
+              Path(os.environ['VISIBLE_OUT']))
+          with open(os.environ['GITHUB_ENV'], 'a') as stream:
+              stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PYSOURCE
+      - name: Capture the four original local Jacobians in the one saved RK step
+        id: capture
+        timeout-minutes: 20
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_local_j_probe.py" \
+            --failed-directory "$VISIBLE_TOPIC/notes/public-actions-43598917532-1-coupling112trust/full-DN112" \
+            --cold-probe-summary "$VISIBLE_TOPIC/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json" \
+            --first-candidate-summary "$VISIBLE_TOPIC/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json" \
+            --v2-candidate-summary "$VISIBLE_TOPIC/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json" \
+            --candidate-directory "$VISIBLE_TOPIC/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3" \
+            --capture-directory "$VISIBLE_CAPTURE28/native-correction-capture" \
+            --step-directory "$VISIBLE_CAPTURE41/native-rawcell0-step-capture" \
+            --field-receipt "$VISIBLE_TOPIC/notes/public-actions-43627297724-1-receipts/stage43-step11-fields.json" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --node-heap 6144 --out "$VISIBLE_OUT/native-stage43-local-j-probe" \
+            2>&1 | tee "$VISIBLE_OUT/stage43-local-j-probe.log"
+      - name: Record the actual new capture result hash
+        id: capture_identity
+        run: |
+          python - <<'PYRESULT'
+          import hashlib, json, os
+          from pathlib import Path
+          path = Path(os.environ['VISIBLE_OUT'])/'native-stage43-local-j-probe/result.json'
+          raw = path.read_bytes()
+          receipt = dict(file='native-stage43-local-j-probe/result.json', bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),
+              source_commit=os.environ['GITHUB_SHA'], actual_current_run=os.environ['GITHUB_RUN_ID'])
+          (Path(os.environ['VISIBLE_OUT'])/'actual-local-j-result-identity.json').write_text(
+              json.dumps(receipt, indent=2)+'\n')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+              stream.write('result_sha256='+receipt['sha256']+'\n')
+          PYRESULT
+      - name: Compare all three saved maps on both basis vectors and the actual43 direction
+        id: rational_action
+        timeout-minutes: 15
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_single_step_rational_action.py" \
+            --capture-directory "$VISIBLE_OUT/native-stage43-local-j-probe" \
+            --capture-result-sha256 "${{ steps.capture_identity.outputs.result_sha256 }}" \
+            --direction-result "$VISIBLE_DIRECTION43/rawcell0-gauge-correction/result.json.gz" \
+            --direction-result-sha256 cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e \
+            --out "$VISIBLE_OUT/native-stage43-exact-action" \
+            2>&1 | tee "$VISIBLE_OUT/stage43-rational-action.log"
+      - name: Record the actual exact-action result hash
+        id: exact_identity
+        run: |
+          python - <<'PYEXACT'
+          import hashlib, json, os
+          from pathlib import Path
+          path = Path(os.environ['VISIBLE_OUT'])/'native-stage43-exact-action/result.json.gz'
+          raw = path.read_bytes()
+          receipt = dict(file='native-stage43-exact-action/result.json.gz', bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),
+              source_commit=os.environ['GITHUB_SHA'], actual_current_run=os.environ['GITHUB_RUN_ID'])
+          (Path(os.environ['VISIBLE_OUT'])/'actual-exact-action-result-identity.json').write_text(
+              json.dumps(receipt, indent=2)+'\n')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+              stream.write('result_sha256='+receipt['sha256']+'\n')
+          PYEXACT
+      - name: Attribute all224 actual new519 rows using the same saved residual and direction
+        timeout-minutes: 10
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_new519_rational_residual_attribution.py" \
+            --exact-directory "$VISIBLE_OUT/native-stage43-exact-action" \
+            --exact-result-sha256 "${{ steps.exact_identity.outputs.result_sha256 }}" \
+            --direction-result "$VISIBLE_DIRECTION43/rawcell0-gauge-correction/result.json.gz" \
+            --direction-result-sha256 cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e \
+            --out "$VISIBLE_OUT/new519-residual-attribution" \
+            2>&1 | tee "$VISIBLE_OUT/new519-attribution.log"
+      - name: Preserve all new matrices, exact vectors and failure checkpoints
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-mainline-stage43probe-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-native-stage/stage43probe/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish bounded results with ordinary rebase and README checks
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" \
+            --results "$RUNNER_TEMP/visible-native-stage/stage43probe" --lane stage43probe

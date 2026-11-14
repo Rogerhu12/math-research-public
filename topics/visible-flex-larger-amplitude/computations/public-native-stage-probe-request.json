@@ -1,0 +1,44 @@
+{
+  "request": 47,
+  "requested_at": "2026-11-14T19:06:58Z",
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "stage43probe"
+  ],
+  "purpose": "Replay only actual41 oldstage43/step11 from its complete226 saved state, retain four original local A and the same-run shortJ, then exact rational comparisons on Q112/Pi112 and actual43 node520; attribute the actual new519 row using original saved residual and sigma.",
+  "source_sha256": {
+    "geometry_20261114_native_stage43_local_j_probe.py": "1185bbda5390c7ef3a9043ac59139b9359fececc802146f4be64aa7639730b21",
+    "geometry_20261114_native_stage43_local_j_probe_hook.mjs": "8992f3920729b0f6eabf7a1e15520290fc47942c72c0c4d6433d8ac6cb291059",
+    "geometry_20261114_native_stage43_local_j_window.mjs": "966ddc4946cc63f69260dd1871c2ac31ad0383eb5593f6c3a0b45b0cfcdef5ec",
+    "exact_20261114_single_step_rational_action.py": "9c42982291bd1a7b7cf21c472d8aae877136fb884708a8310ca6bb882c1d103e",
+    "exact_20261114_fetch_pinned_gauge_row519.py": "6498c160514520a3fbc64856d365e42af05a9ad51d88e6a46c149538d693699e",
+    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+    "exact_20261114_fetch_pinned_rawcell0_steps.py": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "exact_20261114_new519_rational_residual_attribution.py": "c76206ba6efebdaadbda2f9633722772fd7e1bd434a382ac37074bc133affa7b"
+  },
+  "original_step": {
+    "actual41_run": 43622149326,
+    "result_sha256": "6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf",
+    "original_stage": 43,
+    "flow_step": 11,
+    "new_shooting_stage": 519,
+    "new_input_node": 520,
+    "full_state_words": 226,
+    "shape_variables": 224,
+    "existing_RK_steps_replayed": 1,
+    "original_RHS_J_calls": 4
+  },
+  "actual43": {
+    "run": 43626121246,
+    "result_sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e",
+    "selected_original_files": 5,
+    "whole_ZIP_verified": true,
+    "original_saved_binary64_residual_not_recomputed": true
+  },
+  "whole_tail_J_requested": false,
+  "new_native_solve_requested": false,
+  "nonlinear_trial_requested": false,
+  "scientific_thresholds_changed": false,
+  "research_goal_completed": false
+}

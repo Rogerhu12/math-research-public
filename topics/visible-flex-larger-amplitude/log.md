@@ -402,3 +402,9 @@ v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量
 ## 2026-11-14 request48：只新增实际 midpoint482 的13-query完整局部QP
 
 从actual45完整warm/status双SHA续，保旧12完整2048角query，仅加原mid482，完整B支持470–483+p=4735且原C外部offset保470/483。动态R270库、全部g/外部条件响应/同模型C比较/600s256行200sweeps/原17试步和新FD均不变。新三源与[接口](notes/2026-11-14-thirteen-query-condensed-warm-interface.md)已冻；旧45四源逐字未改。工作流只更新既有public-condensed-qp-request.json，run与实际结果待回读，不冒已完成或native接受。root已读三源全部差异与工作流差异，代理实际AST/YAML检查；本地无科学计算。
+
+## 2026-11-14 request47：原一步四A、三精确作用与实际new519行账
+
+已接独立stage43probe workflow/唯一request trigger，完整原28/41/43 ZIP保持原pin；43只提五件result/δ/checkpoint/r/σ原件。只从原41完整226状态重放原旧43/步11四次RHS-J，保原x/h/profile/mean/port，保存新四A及同次shortJ。随后以实际捕获resultSHA比较old41/observed/rational三作用，实际43方向的new519再复用这三作用形成完整224行/有理平方范数/符号交叉项，不重复A乘法。原43 oracle直接精确累加未预缩放J/r后除原σ，口径一致。详三新接口；root读完整新源/父差异和workflow，实际静态语法已过；本地无科学计算。请求刚提交，实际run/result待回读，native/task仍未完成。
+
+48真实run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5/job132554193810；父45双SHA恢复成功，原暖步19:03:58Z开始。47/48独立，不重复调度。
