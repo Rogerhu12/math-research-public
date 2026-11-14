@@ -4,10 +4,10 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `555d4e4fa27b7fa86e22f9b4ab9c7b821d92bb10`（2026-11-14 14:05:54 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `2e7082ddc23bda84e052e7a80147cdfaa1fb17b6`（2026-11-14 14:08:57 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
-- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-full-four-site-phase-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
+- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-torsion-localization-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
 
 ## 工作区与恢复
 
@@ -26,16 +26,13 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 一、有限Boolean费用与原连续尾
 
-真实统一目标为全部正权/出生/高度的加强相邻费用。R297已同κ归约到奇硬M=2r+1首边：A_U*L1L3⁻¹L1A_U≤κI，等价互易权桥B*L2²B≤κG1；所有实际源、完整逆和压缩次序保留。未投影自然提升在真五位发散，不能删投影。
+R297把全部正权/出生/高度加强κ同常数归到奇硬M=2r+1首边，真费A_U*L1L3⁻¹L1A_U≤κI，等价倒数桥B*L2²B≤κG1；真实源、完整逆/压缩和投影不可删。
 
-- R298全独立五权整个K2≤743/782；R295出生1全部高度κ1024；R292/293分组/单异常范围仅按原量词。R300固定旧四权＋三弱位全14维极限≤743/782，充分小ε≤1525/1564；任意旧2s池三弱位的完整三族范数极限无常数放大，旧q3/h6与全Schur/交叉已付。均不把边界换成有限内部全权界。
-- [有限a铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)准确等价硬端界；实际四权排每个固定κ的P1逐系数正。[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给条件SOS，尚须相位与完整最高边缺陷两个预算。
-- [真实共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)：完整F/Q交换，补集连接T自伴、T²=F⁻¹Q；真V的G/L/4G+R是同一压缩，Tv=σp⁻¹D²v。压缩后矩不交换，低birth nuisance不能删。
-- [奇→偶完整相位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)为diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)。全部偶临界相位统一κ单独足以推出全部奇硬及加强高度同κ；无尺寸循环、未证反向等价，也未付任何一般相位常数。
-- [任意四权完整相位](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已证整个三维V上H0*L⁻¹H0≤I，等权取等、最优1；原完整G逆/L顶逆及物理度量均保。整数D前两主子式和行列式两乘法锥共416/3094/3849/2465正系数，完整证书已存。未外推更大偶池。
-- [完整低位相位预算](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：任意旧3权的完整下块有正平方证0<K<1且普适常数1最优；旧5权(r,r⁻¹,1,1,1)的S3标准型等价真实3位、≤25/48，结合平凡型得整个4维K<3/4 I；固定r加充分小正弱位后整个9维相位≤7/8。未付一般权/有限内部或r统一阈值。
-- [全次数Johnson分拆](notes/2026-11-14-all-degree-pair-splitting-johnson-identity-and-arithmetic-obstruction-789f-next.md)保原完整q_k/q_(k−1)及新层低阶投影，准确展开全算术缺陷；等权M24/s4给−49588但真实S1缺陷+136，只排出生一算术步骤直接延拓。所需算术λ随出生至少线性，不是最优S1下界。
-- R297 Green–Ward保整个补空间逆与A−/J+源度量；真实非实极点排共同平方权平移的Stieltjes捷径，不反S1/Pick。R299逐位Pick/全primitive能量不免费插L1；R294共同Newton与R296全残差两带、负拟合二阶差保完整nuisance，混合预算未付。
+- R295全正权birth1/全heightκ1024、原尾674/81；R298全独立五权K2≤743/782。R300任意旧2s＋三弱位的全三族范数极限无放大，q3/h6/全Schur与交叉已付；严格旧余量传小ε，边界不代有限内部/统一阈值。分组范围及全部原链接保归档。
+- [有限a铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)准确等价硬端；真四权排任意固定κ的P1逐系数正。[首Schur SOS](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)尚缺相位及完整最高边联合缺陷；固定池条件不当尺寸归纳。
+- [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)保F/Q交换、补集T自伴、T²=F⁻¹Q、Tv=σp⁻¹D²v；压缩矩不交换，低birth nuisance不删。[奇→偶全源极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)证明全偶相位统一κ单独足全部加强高度，未证反向或一般κ。
+- [任意四权全相位](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已付整个三维≤1，等权取等、最优1，完整整数多项式证书已存。[三/五位全源](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：任意旧3权极限0<K<1；旧5权(r,r⁻¹,1,1,1)全部4维K<3/4，固定r加小正弱位后全部9维≤7/8。未付更大任意偶池/有限内部或r统一阈值。
+- [全次数Johnson分拆](notes/2026-11-14-all-degree-pair-splitting-johnson-identity-and-arithmetic-obstruction-789f-next.md)保全部q与新层低投影；M24/s4算术缺陷−49588但真S1缺陷+136，只排出生一算术直推。R294共同Newton、R296完整两带/负拟合二阶差尚缺混合预算；Green–Ward保全补空间，真实非实极点排共同平方权Stieltjes，不反S1/Pick。原graph仍另开。
 
 ## 二、R150原十七式与特征零提升
 
@@ -46,6 +43,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 - [标准来源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)九目标最小cost=[85,85,85,84,85,85,85,85,85]，最高69次；B85为54596标准NF列＋原预基162778列，共217374个char0独立整数列，219032输出。完整canonical gzip已推81356e8a；此标准列族不是全部原列。
 - [原首轮残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)6.28131秒，h0 mod31=25h31，原primitive模31全真，x0 cost85/最高74次；r1有1874424非零系数。完整整数式/x0/r1均保存。
 - [完整像障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)轻证书1.20032秒全9 NF(r1)非零，常数项数66/64/65/67/66/64/64/65/64；原m3m6m9分量为17/27/22/26/8/6/13/16/2。全G商＋余逐项核清；单位子式严格排h0各目标在固定标准列Q像，添同标准族任意更高次数仍无效。不能排非标准来源/kernel初值或完整char0理想。
+- [余类定位及h修正障碍](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已2.036513秒核九余全在315维torsion，各最小ℓ=(s−1)(s−2)；2835×24系统rank24/增广25，25行显式dual仅用j2，排任意次数g且固定初值的h0+31g。乘ℓ或E8仅得未恢复cost的mod961存在性，不代char0。
 - [B85全已选来源β](notes/2026-11-14-r150-budget85-full-source-bockstein-and-saturation-789f.md)：258288原列→219032输出，模31核40914/coker1658；完整kernel移位给全核，mod961可解iff[r1]∈imβ。β尚未计算，有限coker不自动替无限G商。24未知g作用覆盖任意多项式次数；660未选N行仍另开，最后须有理重构及原17精确身份。
 
 ## 原文接口与持续执行

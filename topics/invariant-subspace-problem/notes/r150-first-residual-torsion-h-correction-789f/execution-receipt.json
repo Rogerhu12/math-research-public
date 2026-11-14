@@ -1,0 +1,77 @@
+{
+  "format": "r150-bounded-first-residual-torsion-h-run-v1",
+  "status": "completed",
+  "secondsLimit": 60,
+  "addressSpaceMiBLimit": 512,
+  "sourceSHA256": "678ac532ee8604b564c45674048deedb69107767b6929e78ddc94b45cd75c5c3",
+  "command": [
+    "timeout",
+    "--kill-after=10s",
+    "60s",
+    "prlimit",
+    "--as=536870912",
+    "--core=0",
+    "--",
+    "python3",
+    "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-first-residual-torsion-and-h-correction-789f.py",
+    "--state",
+    "2026-11-14-r150-torsion-state.bin-789f.gz",
+    "--state-receipt",
+    "2026-11-14-r150-native-torsion-state-receipt-789f.json",
+    "--image-quotients",
+    "/tmp/isp-first-padic-789f/image-certificate/solve-image-quotients.bin",
+    "--image-remainders",
+    "/tmp/isp-first-padic-789f/image-certificate/solve-image-remainders.bin",
+    "--image-receipt",
+    "/tmp/isp-first-padic-789f/image-certificate/first-residual-image-certificate-receipt.json",
+    "--out",
+    "/tmp/isp-first-padic-789f/torsion-h-correction"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 2.253805396001553,
+  "nativeStatistics": {
+    "status": "first-residual-torsion-and-h-correction-complete",
+    "residualsInTorsion": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "commonResidualMinimum": {
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ]
+    },
+    "coefficientRank": 24,
+    "augmentedRank": 25,
+    "hCorrectionCompatible": false,
+    "elapsedSeconds": 2.036512535996735
+  }
+}

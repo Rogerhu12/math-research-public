@@ -1,0 +1,1249 @@
+{
+  "format": "r150-first-residual-torsion-and-common-h-correction-v1",
+  "status": "completed",
+  "field": 31,
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "stateReceiptSHA256": "bc25de86f93c40743fd07bb2bacac5d60b4fc4e1e5788621a5c2037854fa5963",
+  "imageReceiptSHA256": "48fa42af9526e54e318fc039399ad9ea47b5e91f8cf031c2fbb0dda6075d0a75",
+  "sourceSHA256": "678ac532ee8604b564c45674048deedb69107767b6929e78ddc94b45cd75c5c3",
+  "stateReaderSHA256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "sameCompleteModuleStandardCoordinates": true,
+  "residualsInTorsion": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "fullTorsionReconstructionVerified": true,
+  "firstNonzeroObservations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "residualMinimumPolynomials": [
+    {
+      "target": 2,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "e6df2e19a1ae582326ca84ed0152b9db01f5979ea2b85aba114dcda28b14437a"
+    },
+    {
+      "target": 3,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "a27e9d3e20053504cb4b9a7d203e5f464faa696cdfd2eb28fac414f34c0343e3"
+    },
+    {
+      "target": 4,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "c3757f507d74fc7d2c242d336c2c942a511ebb94ff75fb57fa94f3288f337149"
+    },
+    {
+      "target": 5,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "64e5a946dc8c47cd5b586af4974c37caf74a9f38c8435cd1a59e6b98d3613443"
+    },
+    {
+      "target": 6,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "81997c888505969c9890745ca24df4f36d51fc062548fb84a4a4010f93a652f9"
+    },
+    {
+      "target": 7,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "888b7a03ed21fd4e99a8800394c2a44dcd40bdf9aecf3d7e2c8a56719c4342b5"
+    },
+    {
+      "target": 8,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "e0608e90bc6b1679be25aa021edc7611dd0821d1f9ac56d37ccdaef0ed5ef9e2"
+    },
+    {
+      "target": 9,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "a1fa0f1586c6b7c1005f27c241845c0010cb99bac30ca273519b1b819bc589b5"
+    },
+    {
+      "target": 10,
+      "inTorsion": true,
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "initialKrylovColumnsIndependent": true,
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "c035ad175445235fa4eac7417cc23878dd2547feab7e32539ac1679e7e1a39fd"
+    }
+  ],
+  "commonResidualMinimum": {
+    "degree": 2,
+    "coefficientsAscending": [
+      2,
+      28,
+      1
+    ],
+    "unit": 1,
+    "factors": [
+      {
+        "coefficientsAscending": [
+          29,
+          1
+        ],
+        "exponent": 1,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          30,
+          1
+        ],
+        "exponent": 1,
+        "degree": 1
+      }
+    ]
+  },
+  "hCorrection": {
+    "unknowns": 24,
+    "equations": 2835,
+    "coefficientRank": 24,
+    "augmentedRank": 25,
+    "compatible": false,
+    "equationSpace": "exact torsion coordinates",
+    "dualCertificate": [
+      {
+        "equationIndex": 153,
+        "target": 2,
+        "stateCoordinate": 217,
+        "normalFormComponent": 510,
+        "parameterExponent": 0,
+        "weight": 21,
+        "coefficientRow": [
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rightHandSide": 0
+      },
+      {
+        "equationIndex": 181,
+        "target": 2,
+        "stateCoordinate": 332,
+        "normalFormComponent": 905,
+        "parameterExponent": 0,
+        "weight": 5,
+        "coefficientRow": [
+          2,
+          16,
+          5,
+          10,
+          26,
+          21,
+          21,
+          15,
+          29,
+          27,
+          23,
+          6,
+          19,
+          26,
+          1,
+          6,
+          5,
+          10,
+          21,
+          20,
+          20,
+          23,
+          22,
+          10
+        ],
+        "rightHandSide": 14
+      },
+      {
+        "equationIndex": 182,
+        "target": 2,
+        "stateCoordinate": 334,
+        "normalFormComponent": 907,
+        "parameterExponent": 0,
+        "weight": 11,
+        "coefficientRow": [
+          18,
+          14,
+          28,
+          27,
+          21,
+          16,
+          21,
+          4,
+          29,
+          11,
+          4,
+          6,
+          0,
+          0,
+          13,
+          20,
+          15,
+          30,
+          15,
+          9,
+          13,
+          16,
+          7,
+          26
+        ],
+        "rightHandSide": 15
+      },
+      {
+        "equationIndex": 183,
+        "target": 2,
+        "stateCoordinate": 340,
+        "normalFormComponent": 913,
+        "parameterExponent": 0,
+        "weight": 24,
+        "coefficientRow": [
+          4,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rightHandSide": 0
+      },
+      {
+        "equationIndex": 184,
+        "target": 2,
+        "stateCoordinate": 341,
+        "normalFormComponent": 914,
+        "parameterExponent": 0,
+        "weight": 15,
+        "coefficientRow": [
+          21,
+          17,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rightHandSide": 0
+      },
+      {
+        "equationIndex": 185,
+        "target": 2,
+        "stateCoordinate": 342,
+        "normalFormComponent": 915,
+        "parameterExponent": 0,
+        "weight": 29,
+        "coefficientRow": [
+          5,
+          22,
+          24,
+          17,
+          7,
+          26,
+          8,
+          1,
+          11,
+          10,
+          19,
+          8,
+          5,
+          20,
+          24,
+          11,
+          15,
+          2,
+          1,
+          23,
+          21,
+          0,
+          23,
+          24
+        ],
+        "rightHandSide": 29
+      },
+      {
+        "equationIndex": 186,
+        "target": 2,
+        "stateCoordinate": 343,
+        "normalFormComponent": 916,
+        "parameterExponent": 0,
+        "weight": 25,
+        "coefficientRow": [
+          13,
+          25,
+          5,
+          7,
+          26,
+          5,
+          21,
+          8,
+          25,
+          21,
+          27,
+          22,
+          8,
+          4,
+          11,
+          16,
+          24,
+          23,
+          15,
+          5,
+          29,
+          15,
+          0,
+          0
+        ],
+        "rightHandSide": 8
+      },
+      {
+        "equationIndex": 187,
+        "target": 2,
+        "stateCoordinate": 344,
+        "normalFormComponent": 917,
+        "parameterExponent": 0,
+        "weight": 19,
+        "coefficientRow": [
+          22,
+          8,
+          29,
+          5,
+          29,
+          7,
+          29,
+          24,
+          10,
+          30,
+          4,
+          25,
+          12,
+          30,
+          5,
+          24,
+          27,
+          8,
+          16,
+          23,
+          22,
+          20,
+          6,
+          3
+        ],
+        "rightHandSide": 25
+      },
+      {
+        "equationIndex": 188,
+        "target": 2,
+        "stateCoordinate": 345,
+        "normalFormComponent": 918,
+        "parameterExponent": 0,
+        "weight": 5,
+        "coefficientRow": [
+          30,
+          26,
+          24,
+          28,
+          10,
+          14,
+          20,
+          5,
+          5,
+          1,
+          27,
+          15,
+          29,
+          7,
+          21,
+          19,
+          12,
+          7,
+          10,
+          13,
+          4,
+          25,
+          12,
+          23
+        ],
+        "rightHandSide": 19
+      },
+      {
+        "equationIndex": 189,
+        "target": 2,
+        "stateCoordinate": 346,
+        "normalFormComponent": 919,
+        "parameterExponent": 0,
+        "weight": 10,
+        "coefficientRow": [
+          21,
+          26,
+          20,
+          30,
+          29,
+          6,
+          5,
+          30,
+          15,
+          14,
+          6,
+          29,
+          14,
+          21,
+          29,
+          18,
+          11,
+          30,
+          10,
+          24,
+          25,
+          30,
+          27,
+          8
+        ],
+        "rightHandSide": 18
+      },
+      {
+        "equationIndex": 190,
+        "target": 2,
+        "stateCoordinate": 347,
+        "normalFormComponent": 920,
+        "parameterExponent": 0,
+        "weight": 14,
+        "coefficientRow": [
+          6,
+          24,
+          1,
+          24,
+          3,
+          26,
+          25,
+          25,
+          11,
+          4,
+          25,
+          7,
+          12,
+          30,
+          19,
+          21,
+          29,
+          19,
+          28,
+          22,
+          19,
+          29,
+          28,
+          17
+        ],
+        "rightHandSide": 13
+      },
+      {
+        "equationIndex": 191,
+        "target": 2,
+        "stateCoordinate": 348,
+        "normalFormComponent": 921,
+        "parameterExponent": 0,
+        "weight": 6,
+        "coefficientRow": [
+          1,
+          28,
+          10,
+          18,
+          0,
+          25,
+          16,
+          28,
+          22,
+          17,
+          16,
+          3,
+          22,
+          14,
+          12,
+          1,
+          20,
+          15,
+          28,
+          26,
+          15,
+          23,
+          19,
+          30
+        ],
+        "rightHandSide": 17
+      },
+      {
+        "equationIndex": 192,
+        "target": 2,
+        "stateCoordinate": 349,
+        "normalFormComponent": 922,
+        "parameterExponent": 0,
+        "weight": 20,
+        "coefficientRow": [
+          26,
+          3,
+          23,
+          7,
+          4,
+          5,
+          2,
+          28,
+          27,
+          23,
+          24,
+          6,
+          16,
+          7,
+          20,
+          26,
+          26,
+          30,
+          14,
+          22,
+          20,
+          6,
+          27,
+          8
+        ],
+        "rightHandSide": 23
+      },
+      {
+        "equationIndex": 193,
+        "target": 2,
+        "stateCoordinate": 351,
+        "normalFormComponent": 924,
+        "parameterExponent": 0,
+        "weight": 22,
+        "coefficientRow": [
+          12,
+          7,
+          30,
+          15,
+          27,
+          27,
+          12,
+          11,
+          7,
+          17,
+          19,
+          19,
+          9,
+          28,
+          24,
+          1,
+          5,
+          20,
+          9,
+          11,
+          2,
+          27,
+          23,
+          19
+        ],
+        "rightHandSide": 20
+      },
+      {
+        "equationIndex": 194,
+        "target": 2,
+        "stateCoordinate": 352,
+        "normalFormComponent": 925,
+        "parameterExponent": 0,
+        "weight": 22,
+        "coefficientRow": [
+          24,
+          4,
+          16,
+          13,
+          24,
+          13,
+          26,
+          16,
+          6,
+          13,
+          18,
+          14,
+          9,
+          12,
+          28,
+          8,
+          10,
+          26,
+          3,
+          0,
+          28,
+          8,
+          29,
+          0
+        ],
+        "rightHandSide": 18
+      },
+      {
+        "equationIndex": 195,
+        "target": 2,
+        "stateCoordinate": 353,
+        "normalFormComponent": 926,
+        "parameterExponent": 0,
+        "weight": 16,
+        "coefficientRow": [
+          19,
+          4,
+          19,
+          0,
+          13,
+          9,
+          13,
+          4,
+          6,
+          25,
+          25,
+          26,
+          12,
+          1,
+          30,
+          3,
+          7,
+          1,
+          7,
+          5,
+          2,
+          15,
+          1,
+          17
+        ],
+        "rightHandSide": 22
+      },
+      {
+        "equationIndex": 196,
+        "target": 2,
+        "stateCoordinate": 355,
+        "normalFormComponent": 928,
+        "parameterExponent": 0,
+        "weight": 10,
+        "coefficientRow": [
+          23,
+          22,
+          7,
+          25,
+          14,
+          24,
+          0,
+          0,
+          5,
+          16,
+          17,
+          8,
+          18,
+          29,
+          26,
+          19,
+          3,
+          22,
+          11,
+          23,
+          12,
+          16,
+          22,
+          25
+        ],
+        "rightHandSide": 22
+      },
+      {
+        "equationIndex": 197,
+        "target": 2,
+        "stateCoordinate": 356,
+        "normalFormComponent": 929,
+        "parameterExponent": 0,
+        "weight": 7,
+        "coefficientRow": [
+          0,
+          27,
+          16,
+          26,
+          6,
+          11,
+          25,
+          6,
+          18,
+          5,
+          15,
+          20,
+          26,
+          22,
+          9,
+          18,
+          18,
+          24,
+          11,
+          25,
+          11,
+          21,
+          1,
+          4
+        ],
+        "rightHandSide": 6
+      },
+      {
+        "equationIndex": 198,
+        "target": 2,
+        "stateCoordinate": 357,
+        "normalFormComponent": 930,
+        "parameterExponent": 0,
+        "weight": 14,
+        "coefficientRow": [
+          2,
+          27,
+          25,
+          9,
+          2,
+          3,
+          2,
+          30,
+          2,
+          24,
+          26,
+          10,
+          5,
+          11,
+          25,
+          21,
+          13,
+          9,
+          18,
+          2,
+          28,
+          1,
+          26,
+          29
+        ],
+        "rightHandSide": 6
+      },
+      {
+        "equationIndex": 199,
+        "target": 2,
+        "stateCoordinate": 361,
+        "normalFormComponent": 934,
+        "parameterExponent": 0,
+        "weight": 5,
+        "coefficientRow": [
+          3,
+          13,
+          22,
+          15,
+          28,
+          23,
+          18,
+          9,
+          22,
+          22,
+          12,
+          21,
+          9,
+          7,
+          24,
+          8,
+          14,
+          8,
+          1,
+          0,
+          2,
+          17,
+          13,
+          17
+        ],
+        "rightHandSide": 27
+      },
+      {
+        "equationIndex": 200,
+        "target": 2,
+        "stateCoordinate": 362,
+        "normalFormComponent": 935,
+        "parameterExponent": 0,
+        "weight": 4,
+        "coefficientRow": [
+          26,
+          16,
+          29,
+          1,
+          16,
+          7,
+          5,
+          14,
+          20,
+          9,
+          18,
+          30,
+          18,
+          10,
+          2,
+          28,
+          29,
+          7,
+          16,
+          2,
+          26,
+          26,
+          24,
+          23
+        ],
+        "rightHandSide": 16
+      },
+      {
+        "equationIndex": 201,
+        "target": 2,
+        "stateCoordinate": 363,
+        "normalFormComponent": 936,
+        "parameterExponent": 0,
+        "weight": 16,
+        "coefficientRow": [
+          12,
+          23,
+          18,
+          5,
+          3,
+          28,
+          1,
+          28,
+          12,
+          10,
+          28,
+          11,
+          27,
+          16,
+          30,
+          8,
+          17,
+          1,
+          9,
+          3,
+          14,
+          5,
+          22,
+          17
+        ],
+        "rightHandSide": 25
+      },
+      {
+        "equationIndex": 202,
+        "target": 2,
+        "stateCoordinate": 364,
+        "normalFormComponent": 937,
+        "parameterExponent": 0,
+        "weight": 27,
+        "coefficientRow": [
+          29,
+          24,
+          14,
+          26,
+          6,
+          16,
+          27,
+          30,
+          29,
+          1,
+          4,
+          5,
+          3,
+          18,
+          28,
+          23,
+          18,
+          15,
+          30,
+          27,
+          3,
+          8,
+          30,
+          23
+        ],
+        "rightHandSide": 5
+      },
+      {
+        "equationIndex": 203,
+        "target": 2,
+        "stateCoordinate": 365,
+        "normalFormComponent": 938,
+        "parameterExponent": 0,
+        "weight": 27,
+        "coefficientRow": [
+          7,
+          2,
+          28,
+          18,
+          7,
+          0,
+          28,
+          5,
+          29,
+          20,
+          12,
+          14,
+          28,
+          10,
+          27,
+          10,
+          17,
+          10,
+          12,
+          21,
+          25,
+          13,
+          1,
+          29
+        ],
+        "rightHandSide": 28
+      },
+      {
+        "equationIndex": 204,
+        "target": 2,
+        "stateCoordinate": 366,
+        "normalFormComponent": 939,
+        "parameterExponent": 0,
+        "weight": 30,
+        "coefficientRow": [
+          28,
+          16,
+          19,
+          5,
+          30,
+          10,
+          23,
+          16,
+          18,
+          1,
+          22,
+          30,
+          11,
+          14,
+          10,
+          21,
+          22,
+          14,
+          7,
+          1,
+          2,
+          24,
+          20,
+          5
+        ],
+        "rightHandSide": 27
+      }
+    ],
+    "dualCoefficientProductZero": true,
+    "dualRightHandSide": 1
+  },
+  "system": {
+    "file": "/tmp/isp-first-padic-789f/torsion-h-correction/complete-h-correction-system.bin.gz",
+    "compressedBytes": 6057,
+    "gzipSHA256": "c45ec0e1aa6113645b574beb613660328b6dbe22fe3c7fc262a6ebb190369a3f",
+    "uncompressedBytes": 70899,
+    "sha256": "5bfde8fc9be183ba4af92d3c80b5917d5d659125da244c55c0562a0f0457f2ff"
+  },
+  "elapsedSeconds": 2.036512535996735,
+  "sourceIdentity": "The original certified whole-state and the actual T96 image have exactly the same standard coordinates and represent the same complete original R module, hence their irreducible normal forms coincide. Membership uses the full505 observation rows and full820-coordinate K reconstruction. Minimal polynomials use full315-dimensional vectors. The common h correction retains all9 original targets and all24 coefficients; inconsistency has an explicit exact dual certificate. This does not decide a change of initial mod31 source by an original kernel element."
+}
