@@ -8,7 +8,40 @@
   "workflow_commit": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
   "worker_source_sha256": "04d4380d840504f3aedf2da2d95f2112677819885f4a1e367480f97298b332db",
   "started_utc": "2026-11-14T17:55:34.689776+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_quarter_cap_range",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_quarter_cap_sources.py",
+        "--phase",
+        "range",
+        "--workflow-run",
+        "43623547711",
+        "--out",
+        "/__w/_temp/visible-exact-quarter-output/native/new-fixed-eta-quarter-domains-0000-0256.json.gz",
+        "--first",
+        "0",
+        "--end",
+        "256",
+        "--candidate",
+        "/__w/_temp/visible-exact-quarter-prepared/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-quarter-plan/native/complete1977-fixed-eta-quarter-plan.json.gz"
+      ],
+      "started_utc": "2026-11-14T17:55:39.244431+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 20.00105516000002,
+      "finished_utc": "2026-11-14T17:55:59.246107+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:55:36.028725+00:00",
@@ -27,7 +60,13 @@
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:55:39.242618+00:00",
+      "final": false,
+      "commit": "0055b4d3b227d9dda5a7d3fbe6dbe55341b4ebe7"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -77,9 +116,15 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T17:55:37.799849+00:00",
-  "wall_seconds": 3.110601076000023,
+  "snapshot_utc": "2026-11-14T17:55:59.248647+00:00",
+  "wall_seconds": 24.559390018999977,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 750,
+      "sha256": "405fae053e74203da60a6dbc55fa3c4c5ef778ed105c0aea743a82221afcddbe"
+    },
     {
       "logical_file": "evidence/actual-plan-process.json",
       "file": "evidence/actual-plan-process.json",
@@ -91,6 +136,17 @@
       "file": "evidence/original-prepared-manifest.json",
       "bytes": 2998,
       "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "native/new-fixed-eta-quarter-domains-0000-0256.json.gz",
+      "file": "native/new-fixed-eta-quarter-domains-0000-0256.json.gz",
+      "bytes": 8946,
+      "sha256": "dff609fe852fb538f126865296e76e991c553f2b586471eb58627461dd320f63"
     }
-  ]
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_complete_quarter_cap_range returned 1"
+  },
+  "finished_utc": "2026-11-14T17:55:59.247861+00:00"
 }
