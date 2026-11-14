@@ -204,6 +204,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:51:34.620494+00:00",
+      "before": "8044e080bb047a82da571d6bfb553ceb8956727e",
+      "after": "616d321b7d46774f279f36cc4e60e890b7adc1b8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -246,6 +254,11 @@
       "time": "2026-11-14T13:42:08.418822+00:00",
       "final": false,
       "commit": "12061324e206ac50e2b78d223bb003a2cc503769"
+    },
+    {
+      "time": "2026-11-14T13:51:34.111136+00:00",
+      "final": false,
+      "commit": "616d321b7d46774f279f36cc4e60e890b7adc1b8"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -284,7 +297,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "8044e080bb047a82da571d6bfb553ceb8956727e",
+  "last_read_commit": "616d321b7d46774f279f36cc4e60e890b7adc1b8",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 14,
@@ -301,12 +314,25 @@
     "reused_pilot_indices": [],
     "new_cells": 384
   },
-  "successful_new_ranges": [],
+  "successful_new_ranges": [
+    {
+      "first": 5376,
+      "end": 5760,
+      "native_sha256": "59e47499cb93fafd44afe531ff39ea070e0fa9fae2ee47b616bda9bed07ebe1a",
+      "actual_cells": 384
+    }
+  ],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "a2e58cd39dd4f6508bca426a7ae751f012f118bcfe1831d7d00ea59232b21fed",
-  "snapshot_utc": "2026-11-14T13:51:31.689978+00:00",
-  "wall_seconds": 5433.462376769,
+  "snapshot_utc": "2026-11-14T13:51:34.660402+00:00",
+  "wall_seconds": 5436.432799683,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-range-05376-05760.json",
+      "file": "evidence/complete-range-05376-05760.json",
+      "bytes": 145,
+      "sha256": "02fc9271caa0b557a65017eda1b21cd333324335225384391f5a16704b3d85eb"
+    },
     {
       "logical_file": "native/validated-cells-05376-05760.json.gz",
       "file": "native/validated-cells-05376-05760.json.gz",
