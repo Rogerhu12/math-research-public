@@ -305,3 +305,8 @@ damping/scales解释d48d8b67…全文读：lambda270是步正则、不入实际m
 公开run43622149326/source0beffe5a/job132530011605/artifact14124209116，349636774B/ZIP356d9d81…完整取回；本地空间不足只重新提取已核ZIP，无科学重算。868原步/3472field、原72出口和[minA,minD,原mean和]全逐位同28；全226state/mean及原cusp/ordinary schedule保持。actual41 note fdcbaf40…与audit fed70c27…全文读：3999文件/289数组3545chunks354799016B、72field包71452numberword、原28全部29数组、全旧577mapping/σ均核。result6e9485dc…/layout5f2e7ea4…；D1372/N307552/AB1377832960B，单步最大已报J1.573959534e13不推出新方向改善。0新ODE步/noJ/oldlongJ/native/trial/endpoint/audit，plannedSTOP保持nativefalse。
 
 request42接真实两路：原QR入口从40 warmc62a7f12…/status30f19320…续、active32其余原预算门保持；原步动态消费者fde0e039…/30a467e8…执行全部1372stage原尺度exact读回，保完整cut/far/H/原504块/明确新σ/全577restriction，旧long只诊断。新fetch41独立32840361…及接口49edc5c2…全文读，原v3 kernel512247…不改，仅显式新PIN/schema及独立适配器身份；GITHUB_TOKEN仅两个fetch step。新增rawcell0band的3lane名单/离线skip/输入/完整命令已静态核，大阵artifact-only。已有41 J payload审计完成后本地释放348422144B，原artifact及全部state/mean/field/小报告保留。尚无42科学结果或完整任务接受。
+
+
+### 2026-11-14 18:01 UTC：节点G合同与终端失联fallback
+
+重建节点合同12471B/d24b6ee7…全文读并发表；原未推15164B/e658c7不冒用。唯一868首field0/cut末field3保原μ/port、0..868局部G/后段I、stage72接口/全耦合/边界/原σ恢复。约17:58执行环境transport disconnected/unavailable，末次G提交命令未创建进程；依根Rule8仅connector<100KB文本，API不冒真pull，PAT不进connector，恢复即回终端。42仍公开Actions；native小报告已给1.22e22→1.26e22坏方向，下一详细记录并接表示变化；大阵未本地全审，不夸核验范围。
