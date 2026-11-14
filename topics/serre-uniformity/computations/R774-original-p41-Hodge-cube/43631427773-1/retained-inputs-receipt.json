@@ -1,0 +1,84 @@
+{
+  "artifact_groups": [
+    {
+      "label": "R745",
+      "run_id": "43616027318",
+      "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+      "artifact_name": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+      "manifest_sha256": "1c9aa2d9e05ad3722ef42151c5cbfabb3183d80f2c4ac1f9a0fc132bacfbaa51",
+      "manifest_location": "published-repository-file",
+      "files": [
+        {
+          "file": "p41-original-Hodge-input-certificate.json",
+          "sha256": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be"
+        },
+        {
+          "file": "original-p41-Hodge-q-expansions.json.gz",
+          "sha256": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd"
+        }
+      ],
+      "producer_complete": true
+    },
+    {
+      "label": "R748",
+      "run_id": "43617493590",
+      "source_commit": "b401479892e81ed76c587da52305606100ed88a7",
+      "artifact_name": "serre-cartier-R748-original-signed-CM-root-p41-43617493590-1",
+      "manifest_sha256": "d21f97fc8b88ed27f5dc87cd1821692f7540b528cdfc88dfda4969013b301956",
+      "manifest_location": "published-repository-file",
+      "files": [
+        {
+          "file": "R748-extended-newform-coefficients.json.gz",
+          "sha256": "0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0"
+        }
+      ],
+      "producer_complete": true
+    },
+    {
+      "label": "R759",
+      "run_id": "43625474728",
+      "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+      "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+      "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+      "manifest_location": "producer-artifact",
+      "files": [
+        {
+          "file": "p41-original-integral-period-lattice-and-degree-certificate.json",
+          "sha256": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0"
+        },
+        {
+          "file": "R759-original-integral-maps-and-bounded-recovery-input.json.gz",
+          "sha256": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      ],
+      "producer_complete": true
+    },
+    {
+      "label": "R771",
+      "run_id": "43628998192",
+      "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+      "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+      "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+      "manifest_location": "producer-artifact",
+      "files": [
+        {
+          "file": "p41-original-quotient-RR-basis-certificate.json",
+          "sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f"
+        },
+        {
+          "file": "R771-basis-M6-complete.json.gz",
+          "sha256": "3cc9022b6ff07f5bc1cb57a9ddd5190673e3ad527958ca2439b317f5517b981e"
+        }
+      ],
+      "producer_complete": true
+    }
+  ],
+  "repository_files": [
+    {
+      "path": "computations/R732-p41-original-CM-model/43608152850-1/p41-original-CM-model-certificate.json",
+      "file": "p41-original-CM-model-certificate.json",
+      "sha256": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+    }
+  ],
+  "old_newform_finite_fibers_model_periods_lattice_or_RR_bases_recomputed": false
+}
