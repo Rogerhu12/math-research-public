@@ -1,0 +1,5957 @@
+{
+  "schema": "captured-full-angle-Hermite-domain-operator-v1",
+  "model_sha256": "abca2107697a5843179719288ce589b93b58872893a347e816f63c86c66e6c97",
+  "source_sha256": {
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+    "geometry_20261114_full_angle_domain_direction_probe.py": "794788a17db22189b80d65b7def84f3515ca587ea59ffce96fe8887a071665e8",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_fft_frenet.py": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401",
+    "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7"
+  },
+  "input_identity": {
+    "resume_sha256": "f73dfc81b6247363e449be16f142e552f857ec38846f8bff0954f0ca76b55422",
+    "source_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "source_accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "actual_tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+    "actual_zero_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51"
+  },
+  "base_identity": {
+    "mesh": {
+      "shape": [
+        699
+      ],
+      "dtype": "<f8",
+      "sha256": "7cef3604718c2d21dc4f0c866d29a08dc05b1596b49e4ea81a415cf9a9dc68bb",
+      "bytes": 5592,
+      "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+    },
+    "augmented_y": {
+      "shape": [
+        699,
+        453
+      ],
+      "dtype": "<f8",
+      "sha256": "7ca52bc7e4c966dbc8289a5ec886caf3a57bc823561152a18ad170808cd211b0",
+      "bytes": 2533176,
+      "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+    },
+    "augmented_f": {
+      "shape": [
+        699,
+        453
+      ],
+      "dtype": "<f8",
+      "sha256": "77af1451b2312d0e90ea78afcfbb4681458cdac2e2dc297ef5a77a5522538677",
+      "bytes": 2533176,
+      "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+    },
+    "coordinate_scale": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "5e95867a8c414d43ed09592d07d494aba4643a636eeb3e76b45e8284524e9430",
+      "bytes": 1888288,
+      "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+    }
+  },
+  "capture": {
+    "schema": "captured-full-angle-Hermite-domain-operator-v1",
+    "source_sha256": {
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+      "geometry_20261114_full_angle_domain_direction_probe.py": "794788a17db22189b80d65b7def84f3515ca587ea59ffce96fe8887a071665e8",
+      "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+      "geometry_20261114_fft_frenet.py": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401",
+      "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+      "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "byteorder": "little"
+    },
+    "original_functions": {
+      "original_flow_jac": {
+        "module": "geometry_20261114_full_dn_augmented",
+        "qualname": "AugmentedFlow.jac",
+        "source_file": "geometry_20261114_full_dn_augmented.py",
+        "source_sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e"
+      },
+      "original_scalar_jets": {
+        "module": "geometry_20261114_full_dn_augmented",
+        "qualname": "AugmentedFlow.scalar_jets",
+        "source_file": "geometry_20261114_full_dn_augmented.py",
+        "source_sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e"
+      },
+      "original_q_jet": {
+        "module": "geometry_fixed_profile_fft",
+        "qualname": "fft_jet",
+        "source_file": "geometry_20261114_fft_frenet.py",
+        "source_sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+      }
+    },
+    "base_identity": {
+      "mesh": {
+        "shape": [
+          699
+        ],
+        "dtype": "<f8",
+        "sha256": "7cef3604718c2d21dc4f0c866d29a08dc05b1596b49e4ea81a415cf9a9dc68bb",
+        "bytes": 5592,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "augmented_y": {
+        "shape": [
+          699,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "7ca52bc7e4c966dbc8289a5ec886caf3a57bc823561152a18ad170808cd211b0",
+        "bytes": 2533176,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "augmented_f": {
+        "shape": [
+          699,
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "77af1451b2312d0e90ea78afcfbb4681458cdac2e2dc297ef5a77a5522538677",
+        "bytes": 2533176,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "coordinate_scale": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "5e95867a8c414d43ed09592d07d494aba4643a636eeb3e76b45e8284524e9430",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    "intervals": [
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "original_jacobian_calls": 88,
+    "captured_original_calls": [
+      {
+        "call_number": 0,
+        "original_jacobian_call_number": 59,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "b703cb57a114dc4795fb14aca4ce96c482f3c6da2557063522556f332ef61747",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.1544868994920756,
+        "last_station": 1.2192847689889539,
+        "selected_intervals": [
+          472,
+          473,
+          475,
+          477,
+          479
+        ],
+        "original_return_value_unchanged": true
+      },
+      {
+        "call_number": 1,
+        "original_jacobian_call_number": 61,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "96e1a3e7fb4cbe1a0fca536e5d7d82148d56808de9ece6c1a73a25693d1952fa",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.2192847689889539,
+        "last_station": 1.2990359929851116,
+        "selected_intervals": [
+          480,
+          481
+        ],
+        "original_return_value_unchanged": true
+      }
+    ],
+    "unique_endpoint_nodes": 11,
+    "stored_endpoint_variants": 11,
+    "variants_per_node": {
+      "472": 1,
+      "473": 1,
+      "474": 1,
+      "475": 1,
+      "476": 1,
+      "477": 1,
+      "478": 1,
+      "479": 1,
+      "480": 1,
+      "481": 1,
+      "482": 1
+    },
+    "endpoint_identities": {
+      "472": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "808720e64e9b25477ea249dcdff089184a17c29293723447af058ee7b7a8567a",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "473": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "25b4b406d2c8de60750e231241a9f356300ef012e25496b3432fd33d35b6ee56",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "474": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "17e830262872172d58d652615868af210b61020b1a9e380200f6f43e98b68a4d",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "475": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "c51b039020f71133a91319065fe92f42ecd8a6be5ed828b81091f8a091858a9e",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "476": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "85bc88535d5b0dae98ac5307c930946954ee6d3c3c03a1624785b9b8f8264645",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "477": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "75f22952796c9b40b0912c471805610df09685e265dfa46c996bbc85b1e10c05",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "478": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "34e8f09e74c01f35cb91fba6f00b8562c9a58723cc44ac82427c405836a4db5d",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "479": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "21775774d65ddf84cb7d3ffd3ca75430072ed2c878597e6b4d714402467848f5",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "480": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "d2cde6fce85fb57dddf8ebd69898bc0d8a417637a30b323651383715b0eba254",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "481": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "f2a8442b96f11eabdb12246924c449f133265a19ce785442732b1c01e6c1d8e9",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ],
+      "482": [
+        {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "4a4eeef2b5b93b3c920c4dec37ec6f3573af80817a7c02b8c834af6d5211d502",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      ]
+    },
+    "interval_endpoint_identities": {
+      "472": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "808720e64e9b25477ea249dcdff089184a17c29293723447af058ee7b7a8567a",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "25b4b406d2c8de60750e231241a9f356300ef012e25496b3432fd33d35b6ee56",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "473": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "25b4b406d2c8de60750e231241a9f356300ef012e25496b3432fd33d35b6ee56",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "17e830262872172d58d652615868af210b61020b1a9e380200f6f43e98b68a4d",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "475": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "c51b039020f71133a91319065fe92f42ecd8a6be5ed828b81091f8a091858a9e",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "85bc88535d5b0dae98ac5307c930946954ee6d3c3c03a1624785b9b8f8264645",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "477": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "75f22952796c9b40b0912c471805610df09685e265dfa46c996bbc85b1e10c05",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "34e8f09e74c01f35cb91fba6f00b8562c9a58723cc44ac82427c405836a4db5d",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "479": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "21775774d65ddf84cb7d3ffd3ca75430072ed2c878597e6b4d714402467848f5",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "d2cde6fce85fb57dddf8ebd69898bc0d8a417637a30b323651383715b0eba254",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "480": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "d2cde6fce85fb57dddf8ebd69898bc0d8a417637a30b323651383715b0eba254",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "f2a8442b96f11eabdb12246924c449f133265a19ce785442732b1c01e6c1d8e9",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      },
+      "481": {
+        "left": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "f2a8442b96f11eabdb12246924c449f133265a19ce785442732b1c01e6c1d8e9",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        },
+        "right": {
+          "physical": {
+            "shape": [
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "sha256": "4a4eeef2b5b93b3c920c4dec37ec6f3573af80817a7c02b8c834af6d5211d502",
+            "bytes": 913952,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          },
+          "parameter": {
+            "shape": [
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+            "bytes": 8112,
+            "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+          }
+        }
+      }
+    },
+    "endpoint_pairs_bound_to_their_original_A_chunk": true,
+    "original_jacobian_return_values_unchanged": true,
+    "second_complete_Jacobian_constructed": false,
+    "complete": true
+  },
+  "shape": [
+    14336,
+    236036
+  ],
+  "local_shape": [
+    14336,
+    3721
+  ],
+  "physical_modes": 112,
+  "physical_rows": 338,
+  "global_controls": 3,
+  "intervals": [
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481
+  ],
+  "fraction": 0.17267316464601146,
+  "angular_grid_size": 2048,
+  "row_order": "declared interval order, then original physical phi index 0..N-1",
+  "row_scaling": "identity; beta_squared and B are both unscaled original margins",
+  "variable_scaling": "B acts on z=S*coefficient_direction; compiled rows divide by S once",
+  "original_coordinate_scale": {
+    "shape": [
+      236036
+    ],
+    "dtype": "<f8",
+    "sha256": "5e95867a8c414d43ed09592d07d494aba4643a636eeb3e76b45e8284524e9430",
+    "bytes": 1888288,
+    "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+  },
+  "local_indices": {
+    "shape": [
+      3721
+    ],
+    "dtype": "<i8",
+    "sha256": "7f7b47be7b53e0282da5891287b08e46301d284077a76e9a55d0d3c9d54af919",
+    "bytes": 29768,
+    "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+  },
+  "beta_squared": {
+    "shape": [
+      14336
+    ],
+    "dtype": "<f8",
+    "sha256": "e3a4e989bbc899bbd588683453606dcbb16cdb8f4b37114f8a78804b812680a2",
+    "bytes": 114688,
+    "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+  },
+  "original_unit_jet_sha256": "4f69ff0195a0f70806c2c52c5f2fea11a10aff69b007481942c9c3f33199b9c2",
+  "unit_jet_hash_recipe": "for coefficient 0..n-1: uint64le index, actual float64 D1 C bytes, actual float64 D2 C bytes",
+  "query_gradients": [
+    {
+      "interval": 472,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "ce05232dc9c2899fa51408cd75b345ee52231d3f279ac30bfa52b9b9945bb3cd",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 473,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "22c821a3b23accc46ef51f23c4636f6fdb0f14b7d9c43ea8585c2169b89be0c5",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 475,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "91981642d3031a833fbb0bfe585afc76d191f95264930b46a230314997a5596d",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 477,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "266e1e710eeaa3461c6bb14fd4fe88e648990d847c692053fe957744f37db534",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 479,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "de4f060a129fbeec20119fd52099cffbc313a3d83325518da70f7755de00af86",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 480,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "ee660aa1251ba84d9bd9d87c1fa7c12beb9c98772e866ddddfa87c3569cdd46a",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 481,
+      "Gamma": {
+        "shape": [
+          2048,
+          338
+        ],
+        "dtype": "<f8",
+        "sha256": "490dd10f6926cbefbb1b8e514bcc82c252f7f63a0de07819f56676ab7f5704f2",
+        "bytes": 5537792,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "Pi": {
+        "shape": [
+          2048,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "3aea1a34bacd3064d6122c6c62db1cf90e73e93421e2cb97db275d018b80a6c5",
+        "bytes": 49152,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "compiled_blocks": [
+    {
+      "interval": 472,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "ee26af3079d3cfa2eb9bbb6a15b799ab1b6a4abeba57bc0747c208285a0bda91",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 473,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "fd8d5132ec507334727e4d5c7a0db8ae851a7c0c3202841970352cd485fd6012",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 475,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "4832b0a202cdb0f5065ebea7d01577b8ce9cddaf8d6d79486d37c301c894df01",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 477,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "8ccbe4bb1bc95706f51547964f78b519cf76f69794035418195a4843e6baaf31",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 479,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "e6cdbdf8bf23b79c9b87822092a82c898fdd48996e8da8e4d82f698214db931a",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 480,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "c399cb9d486107044283f45851d5dca76e4ec0dac346a9a127d408d8ff469148",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 481,
+      "rows": {
+        "shape": [
+          2048,
+          679
+        ],
+        "dtype": "<f8",
+        "sha256": "4241510529c45e23f238bd4ad980d0d99608a2b32e147547ddc68a05324b5f08",
+        "bytes": 11124736,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "global_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "local_columns": {
+        "shape": [
+          679
+        ],
+        "dtype": "<i8",
+        "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+        "bytes": 5432,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "interval": 472,
+      "station": 1.1952231925046424,
+      "fraction": 0.17267316464601146,
+      "left": 1.1943625114901544,
+      "right": 1.1993469629899143,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.190694911067209,
+      "returned_ap": -0.1362973225238274,
+      "beta_squared_min": 0.20990492975603814,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 2.220446049250313e-16,
+      "original_spline_vs_Hermite_value_max": 4.440892098500626e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "beec150b1cdb3435453ac999be7857db80d71eb79041148e54837e1b942b6462",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 473,
+      "station": 1.2002076440044023,
+      "fraction": 0.17267316464601146,
+      "left": 1.1993469629899143,
+      "right": 1.2043314144896742,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1899847955223861,
+      "returned_ap": -0.14863126227800036,
+      "beta_squared_min": 0.0028689551401551716,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 4.440892098500626e-16,
+      "original_spline_vs_Hermite_value_max": 2.220446049250313e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "f3a2ccfdcc2b8d976116e6b4f80cbe2846c147d5043e7acfe0a5005e1f63eb58",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 475,
+      "station": 1.2059041600041278,
+      "fraction": 0.17267316464601146,
+      "left": 1.2051920955041622,
+      "right": 1.209315865989434,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1890980321325053,
+      "returned_ap": -0.16269882176348988,
+      "beta_squared_min": 0.5774031471672008,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 2.220446049250313e-16,
+      "original_spline_vs_Hermite_value_max": 2.220446049250313e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "f18f7fda98fa95fd5fbd33e65f070dd7215853b545c9bca3aca94c1bfb93b149",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 477,
+      "station": 1.2108886115038877,
+      "fraction": 0.17267316464601146,
+      "left": 1.210176547003922,
+      "right": 1.214300317489194,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1882564469807595,
+      "returned_ap": -0.17498096573779526,
+      "beta_squared_min": 0.5090915734341173,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 2.220446049250313e-16,
+      "original_spline_vs_Hermite_value_max": 5.551115123125783e-17,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "85b6c1dea3c8ea73d6933ab604a43214b3d57717e2ba58ff9ac4c06d023d5a48",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 479,
+      "station": 1.2158730630036476,
+      "fraction": 0.17267316464601146,
+      "left": 1.215160998503682,
+      "right": 1.2192847689889539,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1873537090021247,
+      "returned_ap": -0.18723593906662714,
+      "beta_squared_min": 0.5400729789850396,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 3.3306690738754696e-16,
+      "original_spline_vs_Hermite_value_max": 3.3306690738754696e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "ade6ad1dbabbd573c5de44937a37babe1e70d0bec7d8b55374459970a145f293",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 480,
+      "station": 1.2201454500034419,
+      "fraction": 0.17267316464601146,
+      "left": 1.2192847689889539,
+      "right": 1.2242692204887136,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1865313669322861,
+      "returned_ap": -0.19771713373381247,
+      "beta_squared_min": 0.005829670900736383,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 4.440892098500626e-16,
+      "original_spline_vs_Hermite_value_max": 2.220446049250313e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "1b26d15ed753c92d994f209bec839e3a9471a08a93b710d7871228acc4e734d8",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    {
+      "interval": 481,
+      "station": 1.2251299015032016,
+      "fraction": 0.17267316464601146,
+      "left": 1.2242692204887136,
+      "right": 1.2292536719884735,
+      "phi_grid": "2*pi*arange(N)/N",
+      "N": 2048,
+      "a": 1.1855154384931168,
+      "returned_ap": -0.20991660213181426,
+      "beta_squared_min": 0.093433826211479,
+      "beta_squared_min_angle_index": 0,
+      "original_normal_vs_cross_formula_max": 5.551115123125783e-16,
+      "original_spline_vs_Hermite_value_max": 4.440892098500626e-16,
+      "actual_original_spline_query": {
+        "shape": [
+          453
+        ],
+        "dtype": "<f8",
+        "sha256": "60e2a9e9d4f0c2a32bfe67d5aa0486a1fe70d0e507737b66d251c46ca6666aa0",
+        "bytes": 3624,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "scalar_control_jets": {
+        "shape": [
+          3,
+          3
+        ],
+        "dtype": "<f8",
+        "sha256": "7e0db8ef4d5e6aa40a4337f6c872f46d5cb7145ee837463e7077237385edc0ec",
+        "bytes": 72,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      }
+    }
+  ],
+  "construction_seconds": 0.42123522200000707,
+  "stored_compiled_row_bytes": 77873152,
+  "complete_query_factors_retained_until_artifact_export": true,
+  "query_physical_gradient": "complete Gamma from original q.jet unit columns",
+  "query_direct_control_gradient": "Pi=d_beta/da*control_value+d_beta/d_returned_ap*control_first",
+  "both_nodal_RHS_physical_and_parameter_chains_included": true,
+  "exact_inlet_chart_chain_included": false,
+  "other_explicit_local_core_columns_zero": true,
+  "shared_node_and_global_control_transposes_scatter_add": true,
+  "fixed_float_model": "one frozen float64 row matrix per query; forward and transpose share these same bytes",
+  "no_claim_of_bitwise_identity_to_different_BLAS_or_FFT_contraction_orders": true,
+  "source_nonlinear_domain_checks_replaced": false,
+  "continuous_angle_or_all_station_certificate": false,
+  "new_scientific_acceptance_gate": false,
+  "native_tail_called": false,
+  "files": [
+    {
+      "path": "base-and-local-layout.npz",
+      "sha256": "19474e901721722fc8c148e14cb9852ba3e7f30e933f9a61c0fd80dbe1f437e3",
+      "bytes": 3726753,
+      "arrays": {
+        "mesh": {
+          "shape": [
+            699
+          ],
+          "dtype": "<f8",
+          "sha256": "7cef3604718c2d21dc4f0c866d29a08dc05b1596b49e4ea81a415cf9a9dc68bb",
+          "bytes": 5592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "y": {
+          "shape": [
+            699,
+            453
+          ],
+          "dtype": "<f8",
+          "sha256": "7ca52bc7e4c966dbc8289a5ec886caf3a57bc823561152a18ad170808cd211b0",
+          "bytes": 2533176,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "rhs": {
+          "shape": [
+            699,
+            453
+          ],
+          "dtype": "<f8",
+          "sha256": "77af1451b2312d0e90ea78afcfbb4681458cdac2e2dc297ef5a77a5522538677",
+          "bytes": 2533176,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "coordinate_scale": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "5e95867a8c414d43ed09592d07d494aba4643a636eeb3e76b45e8284524e9430",
+          "bytes": 1888288,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_indices": {
+          "shape": [
+            3721
+          ],
+          "dtype": "<i8",
+          "sha256": "7f7b47be7b53e0282da5891287b08e46301d284077a76e9a55d0d3c9d54af919",
+          "bytes": 29768,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            14336
+          ],
+          "dtype": "<f8",
+          "sha256": "e3a4e989bbc899bbd588683453606dcbb16cdb8f4b37114f8a78804b812680a2",
+          "bytes": 114688,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "node_indices": {
+          "shape": [
+            11
+          ],
+          "dtype": "<i8",
+          "sha256": "8079e8af76f71f873d40fa2ad6e627ee8998a8d9a912a0e9a86f4456b56a1efd",
+          "bytes": 88,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-00000-00256.npz",
+      "sha256": "603d3833f78587a6a8a2b47a20637ec4b20676153515118b472882095d38f44c",
+      "bytes": 2013505,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "a79a7abc9aff0ed6776fc3de9e5535ae1ab9f0a2e26df1f77af6f844dc7e01d6",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "be87cf307995b1703c4d27d03a73ee610bb1af42cc379cd18897238aed757c92",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "c8005d289c28c5412249af00a783f595499c500c3db3f71d9763f8206a7fd143",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-00256-00512.npz",
+      "sha256": "abc54e390d58aef0cb362494d3161e822c285ecb85f014270a453068ad578a71",
+      "bytes": 2005348,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "b50ebfc933aa87e0a1538535514ec8a5fe339f1fc15f0ab4fb5fbf3c270aa885",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "234384df0827a8ce42ef8e7ab2cdbf6b2cca5252f751e44888f85971aee8c555",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "191a149a3eaac5d8dbc7f7608dd7124a4fe2dab2192e44d6d37ccc2c6d2cc167",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-00512-00768.npz",
+      "sha256": "84783b6d3c9c05d006b4b44b8bd8fe99c0c8d9a8796fe192f0acccd4cc7645fd",
+      "bytes": 2005175,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "38c57278295a839aecc48eca9a4fdf3ecc98249928cbafbc5e55bae89ea26b60",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "a0b08c22eee87bdff1828b686896d751c53f1b28984f012560dddda8577ad761",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "4e8e4a8e2825a511a484c10d887caeb9f32c781e7dc9f9caa1a1e7f2b5a5a9ed",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-00768-01024.npz",
+      "sha256": "e9a51d2870cb7d90d2d83da71d0773d26c42b56b6688675d9b9ae9eaffa49c09",
+      "bytes": 2013630,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "c82ad3725ff9f9d62e0fc69fdde9cf73cffc29b3f66c7848c9c7aeb932bf93c7",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "e938eda257e75cd0122e35b91cbc76ba83e7dde8c436c757d3ceee0849250f68",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "9d9f89155d4b5fb90d5813284b86929c64860144626f83664d868f85698026a9",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-01024-01280.npz",
+      "sha256": "5879b05673eea183b0084bc300285b95802f1a9d73bda5cb5f7b3f8f2e1ab222",
+      "bytes": 2013506,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "a79a7abc9aff0ed6776fc3de9e5535ae1ab9f0a2e26df1f77af6f844dc7e01d6",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "be87cf307995b1703c4d27d03a73ee610bb1af42cc379cd18897238aed757c92",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "c8005d289c28c5412249af00a783f595499c500c3db3f71d9763f8206a7fd143",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-01280-01536.npz",
+      "sha256": "8e7363abb0992547957ff76c7d0cc86588fc6af35f091a18ad4620de4f41db6a",
+      "bytes": 2005348,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "b50ebfc933aa87e0a1538535514ec8a5fe339f1fc15f0ab4fb5fbf3c270aa885",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "234384df0827a8ce42ef8e7ab2cdbf6b2cca5252f751e44888f85971aee8c555",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "191a149a3eaac5d8dbc7f7608dd7124a4fe2dab2192e44d6d37ccc2c6d2cc167",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-01536-01792.npz",
+      "sha256": "a8ae7f19fb2eaf4d4615526476419c899c3ef3916011e2304e6acbfacf3a6d84",
+      "bytes": 2005175,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "38c57278295a839aecc48eca9a4fdf3ecc98249928cbafbc5e55bae89ea26b60",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "a0b08c22eee87bdff1828b686896d751c53f1b28984f012560dddda8577ad761",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "4e8e4a8e2825a511a484c10d887caeb9f32c781e7dc9f9caa1a1e7f2b5a5a9ed",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-00-interval-00472-rows-01792-02048.npz",
+      "sha256": "e92cda24dbea5ed0cdd85cde8f5d5f0afa29034e14d9d3abde4dc045b8a12efe",
+      "bytes": 2013630,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "d86cdeaa6a4e514c6cd259cf56ad8d1a895ad48eb708e1fcfda8582af3cb5cf4",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "a48202775843d5790de4d995161e776d748b8563899344d01210765cbe354f21",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "8701a0efa8a4e9961de66e50865a6cfceba2a96b240ee3c002bffdea9e552614",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "e938eda257e75cd0122e35b91cbc76ba83e7dde8c436c757d3ceee0849250f68",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "9d9f89155d4b5fb90d5813284b86929c64860144626f83664d868f85698026a9",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-00000-00256.npz",
+      "sha256": "1878a3eb9af856f8e29b98fe9586ccf29a9864d89925edfea917a62dbd686f81",
+      "bytes": 2013737,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "bf282dc4a78108a1f0b2333dd64a57c7efe380fa0b15aeed93ef61054f59c0b0",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "0f17245b6490441c798be4ac1946c4fbac9c1695cbc585ef825a16d24ce122e2",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1ef3fd904d0042a2b1ed27996118d0a7ab852081ef375cafec468243e9f776cf",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-00256-00512.npz",
+      "sha256": "e1c9db6e6c8ce608034e238743332b32e6a3d88e868510562c3ba757dec81d1f",
+      "bytes": 2005546,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "acf9ff44c6664d1c75feb68a670327958f301989490bad512b06a60f318c7637",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df47e468d6ac1473db8d2ec8e46cb88509798de004b6af2a7d6969a0d9a97bc8",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "56ba7eee11fb2128d1520d12293800e83c48315e91e4e07dafdbfb5ed5369257",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-00512-00768.npz",
+      "sha256": "65dcf5d8a8ad3dea801ef57384bf6c6110f45433721ac9f723a7b9812279e120",
+      "bytes": 2005258,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "ce85c5b9d27ed1e7e2c3e9d0b16fe66a95fdca3c1c6a3ea87204b9ecd5247d48",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "14ba178899b5f366ee80e35c93ef3198b5f9a408823f3549c702ad907ffae092",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "caa7b1f6ec7cddaba0291bdfa346a99b7d3ce0bf45aea86f8a8e7517d47a61d0",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-00768-01024.npz",
+      "sha256": "b285aa6461d377d155d8327ca0494661bbc602ce42900cd15ff5a3fa57b7f9da",
+      "bytes": 2014213,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "fa3bfe27698bbc79f4d6584d641549e2c889a95291d127bf48011c4acd11f1fa",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "118e0d36a47bcc2d3b32c56ee07e0a53971a117070a904bd53705d6b9ac2118a",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "77179f0f6a029bd79483b178d8a886ba7044c5b066121c08646365d866f686fa",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-01024-01280.npz",
+      "sha256": "30846b27684f7c04bd6fb9fc0db09bb1420df163c1860060ee0cbd03f5cde457",
+      "bytes": 2013738,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "bf282dc4a78108a1f0b2333dd64a57c7efe380fa0b15aeed93ef61054f59c0b0",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "0f17245b6490441c798be4ac1946c4fbac9c1695cbc585ef825a16d24ce122e2",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1ef3fd904d0042a2b1ed27996118d0a7ab852081ef375cafec468243e9f776cf",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-01280-01536.npz",
+      "sha256": "71a2673bfbe481ab6d1a0d5f988523f44556050466b119193ca2724973221af9",
+      "bytes": 2005546,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "acf9ff44c6664d1c75feb68a670327958f301989490bad512b06a60f318c7637",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df47e468d6ac1473db8d2ec8e46cb88509798de004b6af2a7d6969a0d9a97bc8",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "56ba7eee11fb2128d1520d12293800e83c48315e91e4e07dafdbfb5ed5369257",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-01536-01792.npz",
+      "sha256": "3f65cad3851744ce4aa7431da9ad8031ff336928f2905f860bfcebcac8404127",
+      "bytes": 2005258,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "ce85c5b9d27ed1e7e2c3e9d0b16fe66a95fdca3c1c6a3ea87204b9ecd5247d48",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "14ba178899b5f366ee80e35c93ef3198b5f9a408823f3549c702ad907ffae092",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "caa7b1f6ec7cddaba0291bdfa346a99b7d3ce0bf45aea86f8a8e7517d47a61d0",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-01-interval-00473-rows-01792-02048.npz",
+      "sha256": "e3fd10bca77caca59e9f9e6696d741d53016994a3f9aa3184fe5cc0a030ae7ef",
+      "bytes": 2014213,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "03e0768019862263953504dcbe52c51d20944d649c6647c38b9eef829bee6cc3",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "16ca1192e39670b24dfe846e85a44829d5e66001483ff9b4bca422cfbbd739f0",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "5216eea822110a6e5a291b65a75197c038849c91c5fd2709f9d400e9c88299a9",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "118e0d36a47bcc2d3b32c56ee07e0a53971a117070a904bd53705d6b9ac2118a",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "77179f0f6a029bd79483b178d8a886ba7044c5b066121c08646365d866f686fa",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-00000-00256.npz",
+      "sha256": "d816759307ad179de977ecde2509e266798b5101402b59c7264336c479ca5b3e",
+      "bytes": 2013646,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "487612a7398b559c06040be76faabb64bad666207886e23352a5793b269e1968",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fb6c2be7971d70f398b3e5169f779df7ff914691629e6dbfa3332d5cf015700e",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "e5ae4eb6c716d6be43f1733e4799f2e415a697702afd6d64a55848155df936b8",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-00256-00512.npz",
+      "sha256": "7aebab4f14314d11572bf96208f1dd0d78045680e564cfba21fb0402bb0f4e75",
+      "bytes": 2005110,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "9203aea5ffe09c636ccd2c5fc91ffe6c79ea7029529181079fb7a3d309a1188c",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fb09b1114e5551f66269323769a441f51e3c37ea327aa890655df4953ba4a48a",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1406334ade1733b7acdb2c0f984deab00eb3f2e756c2e5000be9a30b02bc3367",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-00512-00768.npz",
+      "sha256": "ae168cc3f1859a556132fd85dc8b551e1aefae3e551a4e2855f1895ec5ce2c71",
+      "bytes": 2004863,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "889f7578929447ec04a59a6b32e30763cf6bbb7c20b360fe1d6845aa1981eca6",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "f5f17f5938834abdcc36983794604c93123c104bf3038da1bab905b9dd716481",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "46e81893a64c0b6b19b02f6ab21bee2cb7fe265492a0f6e7dc4e03d0f4abfd91",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-00768-01024.npz",
+      "sha256": "03e621f10af85970ca6a0ba9385fc7be53dd3a2f3e22aca8cfc666dc2e0dffe2",
+      "bytes": 2013797,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "c9d06c1328ddd20da72d2ee1da837d8d68baf9953d88cf202503b2df3b01398a",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "53a5cb876a3d03f01b1bb2d15d5883ae3bc66a0c6ecf88d1f2f4335a0f46a482",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1f644dd0933a27e4d5653cff21e78a9bc687893eab2b003f9c208c279c85d181",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-01024-01280.npz",
+      "sha256": "64b15677393c89bcf8ca8237391bb0a17724303d9fbea7874133b8a21a37a7b9",
+      "bytes": 2013647,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "487612a7398b559c06040be76faabb64bad666207886e23352a5793b269e1968",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fb6c2be7971d70f398b3e5169f779df7ff914691629e6dbfa3332d5cf015700e",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "e5ae4eb6c716d6be43f1733e4799f2e415a697702afd6d64a55848155df936b8",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-01280-01536.npz",
+      "sha256": "9d2b54dc9730aea669d2e367ea5d813976fb89ce939ddd0121e1132e0c140aae",
+      "bytes": 2005110,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "9203aea5ffe09c636ccd2c5fc91ffe6c79ea7029529181079fb7a3d309a1188c",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fb09b1114e5551f66269323769a441f51e3c37ea327aa890655df4953ba4a48a",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1406334ade1733b7acdb2c0f984deab00eb3f2e756c2e5000be9a30b02bc3367",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-01536-01792.npz",
+      "sha256": "64c65b84a6b8cbe9f19b5dc3be2c31b3b6aa7c7f9df419db3c10a66147d01ee3",
+      "bytes": 2004863,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "889f7578929447ec04a59a6b32e30763cf6bbb7c20b360fe1d6845aa1981eca6",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "f5f17f5938834abdcc36983794604c93123c104bf3038da1bab905b9dd716481",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "46e81893a64c0b6b19b02f6ab21bee2cb7fe265492a0f6e7dc4e03d0f4abfd91",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-02-interval-00475-rows-01792-02048.npz",
+      "sha256": "3ffe72d3381a6f6a818c936e4c58955a9be3dccad070b8ecc6bdd8fb63cc709f",
+      "bytes": 2013798,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "ab8d0541c0b1547481202a3d55ecec337311d8f4e8a9304d07545dcfa1a1e7fa",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "b26194e5164056387130ff662bf3bc885e3e9101d6df4403caa88070c9d9c3ba",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "e8b68a1a0240ce527fa762ced678e0be95a0a960930618ba396b44a6cb43da83",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "53a5cb876a3d03f01b1bb2d15d5883ae3bc66a0c6ecf88d1f2f4335a0f46a482",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1f644dd0933a27e4d5653cff21e78a9bc687893eab2b003f9c208c279c85d181",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-00000-00256.npz",
+      "sha256": "bf979223b265882fc6378096655d08ac8937e7b38ae16149d36487ae53fe9983",
+      "bytes": 2013684,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "69a300bae1256a8928f13dff25e851e0a37b8aeb4733fe4ede02b0a96ef2f974",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "6e3beae280b6ed14d6b69dda17a60f2ae14c435dff829403bdafec97961c5267",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "813b0ecf6f1090141060d3206ea4b8b056d5ae362910e22e94d4afdef2f4a251",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-00256-00512.npz",
+      "sha256": "904d2401081ce69cadf31a1b30bd4428bf96648ee85ae4e1637f4b9d607719d8",
+      "bytes": 2005423,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "69da25e6527836afd541dff3dac900706a518679362f58dd3530c342afb74d0d",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "a2bc721b08f4887b8953d91b281a67e80639636422eca50844a14fd30405d599",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "6d66ede7253a672c88cc85e9c164b515460a6b40a78c70159faf4d3dc3e5be19",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-00512-00768.npz",
+      "sha256": "e1d46ebe1af5386e913a61c020487960d4cf7ba8e802f1fc0985766c7a9181d0",
+      "bytes": 2005062,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "01f7c8d7da56a03111595eb8bffef17de3f1693f43bdce7123c12f9d0aa71823",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df0408fe45633c62053911091d7e8c456439edd5ee33393401370a4baaed96f6",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "c12421700454f098e1d894e96e4d556e20c4c3191a7bbff0b81b8aa2f58226ea",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-00768-01024.npz",
+      "sha256": "d889d29f58751fd79f1736018456e606416b7489859f557e83facff58fa6989b",
+      "bytes": 2013836,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "2cb8b25640a7573cdf13676a1745d67914baa57117c137973a8d9cbe353e2828",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "204562564b2cb886dbde903409602c418b3954c902c9c52fa85b2193c4165640",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "a582946a925e0f05804fde40bc02ca03a1d3d945f51ee826676226268006d6b5",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-01024-01280.npz",
+      "sha256": "edf49e38effddab6be5f7d697250ec5290e02a0fcaf27609489c6bbe39860c52",
+      "bytes": 2013685,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "69a300bae1256a8928f13dff25e851e0a37b8aeb4733fe4ede02b0a96ef2f974",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "6e3beae280b6ed14d6b69dda17a60f2ae14c435dff829403bdafec97961c5267",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "813b0ecf6f1090141060d3206ea4b8b056d5ae362910e22e94d4afdef2f4a251",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-01280-01536.npz",
+      "sha256": "fca1dc47f8bd1591c6c2f276c2947156635f7f0ea2b9c3ec273bed07264496f0",
+      "bytes": 2005423,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "69da25e6527836afd541dff3dac900706a518679362f58dd3530c342afb74d0d",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "a2bc721b08f4887b8953d91b281a67e80639636422eca50844a14fd30405d599",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "6d66ede7253a672c88cc85e9c164b515460a6b40a78c70159faf4d3dc3e5be19",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-01536-01792.npz",
+      "sha256": "be918084e44568db9dd676c0bc3ba86b5ee69494c1d12140296f7d5c39706006",
+      "bytes": 2005062,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "01f7c8d7da56a03111595eb8bffef17de3f1693f43bdce7123c12f9d0aa71823",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df0408fe45633c62053911091d7e8c456439edd5ee33393401370a4baaed96f6",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "c12421700454f098e1d894e96e4d556e20c4c3191a7bbff0b81b8aa2f58226ea",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-03-interval-00477-rows-01792-02048.npz",
+      "sha256": "22a0de8a94fa03aacf96bb85bde23922baeb8dccfa53bf3356eb5e99deea60de",
+      "bytes": 2013837,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "28d55d445e57dab1e80d618cf82b2a406d6ddc8963fdcabe3b495ce198f0812c",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "620eb2410874fbc0baeb98d01e1c0dd5ac068a551f2fb01c3a5f331a40b74f43",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "2d02614ff0aa71275997659ab0ed5a8f1662f4d03a2228bd4883f2f49902e00d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "204562564b2cb886dbde903409602c418b3954c902c9c52fa85b2193c4165640",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "a582946a925e0f05804fde40bc02ca03a1d3d945f51ee826676226268006d6b5",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-00000-00256.npz",
+      "sha256": "5bd9f921c7fc6d8c7692993447fb31240c6df7d675f841d0197cbe023a8e0e41",
+      "bytes": 2013271,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "0ea6e69c270eb8dfa0088d12cbdcadb300f9e32eec4ebf4d8a91f23b3924c1c8",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "92d0883f8d7c5f2e1e38e4d182fcc26117b3fef542ce9f47101c0d74f33ebda8",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "b6bd03686481c66e106250fa738129edbf1dd6497539091ad279b4b2a758bb31",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-00256-00512.npz",
+      "sha256": "4c31dd4702ccb5a93f7238ae5c4ae0863fcaee406e3e7a4e505ba6894bbf7ef3",
+      "bytes": 2005511,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "37855e900c1490f7792028c079ac8c0d6c35c7cb0a0596bad10dfb6e0003bd03",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "f221e13a1dd850a10f30c3b815ce4c7c8fd5cb2f0326236134bbc7e365e7186b",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1454d260ef0d1eda4afceabd825084ab2886702224cc22d63a237f20311b058a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-00512-00768.npz",
+      "sha256": "f265d648e01b3281bd46155e38f5fb63ef7652f01fca80c99d52229fdbbd59cb",
+      "bytes": 2005271,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "75037dbe14cd79d4ae8f52e20be2e2c1bb69405d21e5736b62520337d709c1b4",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "cfece4e57158ab591c1f4193943cdc5dab71c14fd4d0fd5c5377bd97f82e2b5b",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "0951a7d1a36f8fd607627a06b0c9fcca63b85dbacb7dc187f4249869f1f6b4d1",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-00768-01024.npz",
+      "sha256": "6ca7432994480f7d78c0504eb16c10039c470b280fe4bf66c870c768fa611652",
+      "bytes": 2013417,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "a732c64755a2413c95d1e25ae20d8a2b70423fd0a6192af2dd50153c73f95a46",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df3eb86fad585363f9b83ee412c2573da9de9959f567cb25ad2b09e0f3a90a08",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "dddbbe58005bb4242ec2a8bb16b51f2c4e5af0064500280efdb7b520bec4978e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-01024-01280.npz",
+      "sha256": "9b71b48c351c84b9709bd70512b0cea5f690d64d80ac3b341afecd23b93198e9",
+      "bytes": 2013272,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "0ea6e69c270eb8dfa0088d12cbdcadb300f9e32eec4ebf4d8a91f23b3924c1c8",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "92d0883f8d7c5f2e1e38e4d182fcc26117b3fef542ce9f47101c0d74f33ebda8",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "b6bd03686481c66e106250fa738129edbf1dd6497539091ad279b4b2a758bb31",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-01280-01536.npz",
+      "sha256": "22d93628dffcd3cb2c1c00ed309fd2efa7f2787efdc99777e0fd3e7e69b43b71",
+      "bytes": 2005511,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "37855e900c1490f7792028c079ac8c0d6c35c7cb0a0596bad10dfb6e0003bd03",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "f221e13a1dd850a10f30c3b815ce4c7c8fd5cb2f0326236134bbc7e365e7186b",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "1454d260ef0d1eda4afceabd825084ab2886702224cc22d63a237f20311b058a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-01536-01792.npz",
+      "sha256": "ea559af253dcb9666671520ee1491e369697be8ebe17bc8d008dac3bfcd4a848",
+      "bytes": 2005271,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "75037dbe14cd79d4ae8f52e20be2e2c1bb69405d21e5736b62520337d709c1b4",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "cfece4e57158ab591c1f4193943cdc5dab71c14fd4d0fd5c5377bd97f82e2b5b",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "0951a7d1a36f8fd607627a06b0c9fcca63b85dbacb7dc187f4249869f1f6b4d1",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-04-interval-00479-rows-01792-02048.npz",
+      "sha256": "0a844edec39a4a660664211dab45276491164f11d18bcb1b1e5f63fd82814857",
+      "bytes": 2013419,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "68a27ca6da1fd755519266c8d542804fb383299775fb5d534a8bad58d727c8fd",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4b37593c9402befc0b3ec7299115af0d94eb35f7126ece0465a139dfe42c4573",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "601045edbc4f8fd5dffa12e84273111342f92524f1299844182cf1fb95c83a2e",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "df3eb86fad585363f9b83ee412c2573da9de9959f567cb25ad2b09e0f3a90a08",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "dddbbe58005bb4242ec2a8bb16b51f2c4e5af0064500280efdb7b520bec4978e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-00000-00256.npz",
+      "sha256": "4b15ce743f6eca9882947fac7c3101809a9551435890a2aef8e966b8f0e258e8",
+      "bytes": 2012979,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "4f46368453159e4602c653f9980d97ed7f7f7f3767a8e61b1ac15953c0c1589a",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "ba28e4a81a149ff2cf617dce1e716eec16cdec473b5e30a562034c68de6d675f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "342630af9f58fa47cdd47075694cc0d355b411177a9ec8685b085d583b6aad78",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-00256-00512.npz",
+      "sha256": "a534f5b9ad9aaaabc9f0d8310bee445ee3338bf95e3068178f7351863e884a1f",
+      "bytes": 2006400,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "16712bdd060fdc9f34a47d6b123a86c15f4c063f1b25a9fb77f106c4afc0601a",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "b9d7b0c4f9e98b080b92cf3276c1d1d933c31e4eb1b1c8005d2736b280b8b009",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "46f38cf5aa16c12fe680f46f359fabc05109c393bb1ec457928d3bb086cfd655",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-00512-00768.npz",
+      "sha256": "4429591f4157a91718a6c0ef5ed9a0a0fb9b669147a66c215f322a3c7326f4ac",
+      "bytes": 2006021,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "dc0c62867264e25accc6ebb7efcd2a2a4440036cbd88b1453be850c10e22417b",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "1b0b558d4ccc6e07bd1a0d9b636633e47449172ac0983109b390d6a6bf771ea5",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "618771b7f81ce12fba65bc16c6ea8a6e85de656bb1f88d0659c20c9973ab4fda",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-00768-01024.npz",
+      "sha256": "1a2ba24462563f8a69013f7ae01de8f90b26fe1d67a38d82c37eb50e14613207",
+      "bytes": 2013285,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "532021a0740c395fd78e8d13addd7c13d51f6589210ff39c744ea0be8c18e6d8",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "dc5ca3ea0d3903ea3341b95fc0a0a2eba048a18f0796aa18bbeb0d9a5f5359db",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "5d8a06c588f3054ce7b458edd1453a8d24263e5118897ab3f1132e5221c75f99",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-01024-01280.npz",
+      "sha256": "2e3e7c288214ddf86ff99a7da4379b38438f0ba982b914205d937fc6ca214ab8",
+      "bytes": 2012980,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "4f46368453159e4602c653f9980d97ed7f7f7f3767a8e61b1ac15953c0c1589a",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "ba28e4a81a149ff2cf617dce1e716eec16cdec473b5e30a562034c68de6d675f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "342630af9f58fa47cdd47075694cc0d355b411177a9ec8685b085d583b6aad78",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-01280-01536.npz",
+      "sha256": "86d627eb5fb5c30cef583bccfa593e662c49a23029d4f3059ab6cd952586486b",
+      "bytes": 2006400,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "16712bdd060fdc9f34a47d6b123a86c15f4c063f1b25a9fb77f106c4afc0601a",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "b9d7b0c4f9e98b080b92cf3276c1d1d933c31e4eb1b1c8005d2736b280b8b009",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "46f38cf5aa16c12fe680f46f359fabc05109c393bb1ec457928d3bb086cfd655",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-01536-01792.npz",
+      "sha256": "4b55654d3203cd8c6f09e13f6e04ec3ee064398859d332cbb7ee07787157c53a",
+      "bytes": 2006021,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "dc0c62867264e25accc6ebb7efcd2a2a4440036cbd88b1453be850c10e22417b",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "1b0b558d4ccc6e07bd1a0d9b636633e47449172ac0983109b390d6a6bf771ea5",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "618771b7f81ce12fba65bc16c6ea8a6e85de656bb1f88d0659c20c9973ab4fda",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-05-interval-00480-rows-01792-02048.npz",
+      "sha256": "3fbc223f0b4180ceb73e981c616ddd51527cb87ea1501abe25f8766a48e36a0e",
+      "bytes": 2013288,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "eb3086b975df1aa64df6a7bd6e58b26a95ea341224a3303bf5bf48bd15e9cb3e",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "d329716b1cf6c35f01afa468b815e59fd1996bd52a08d76d3aa2e5d652ee8d6d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3949e0c977bef0a09b8c96dc7502c9685c250c999b71b28816ab2c175dbdef18",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "dc5ca3ea0d3903ea3341b95fc0a0a2eba048a18f0796aa18bbeb0d9a5f5359db",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "5d8a06c588f3054ce7b458edd1453a8d24263e5118897ab3f1132e5221c75f99",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-00000-00256.npz",
+      "sha256": "078d2b0b9d8b071f0a7659c0ab60910baa0d653917ceac7c9a2538d6295c54f5",
+      "bytes": 2012338,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "8cab0de02ac5d3eb7b8092909b57b01488d4f5a2a566de42444dbd99c2bcddc8",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "d3808276237b364420da5dd98a3eaf85946c9d69a66a833ad10a0f365fa5068f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "fd985a5d1ffbdece92668dd88d09e489c1177ecbddb6ffb258e2a3609c779d2f",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "9ac17d16922a923167d2c0436db9d5cd88c102dce790fdaa592e025e9e90c50a",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-00256-00512.npz",
+      "sha256": "65a4d64c0c340f2517d6c004a5c4a95ca75590e64feea446300f21b65cab7dd8",
+      "bytes": 2006347,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "815bf558b27af47d3187293efb285ff5e3a206d3527c3bb3c3d81c4138b23761",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fd28f1af18e48fd133eaefee6194ee580765f6c8ebbaa206580210d355d30d69",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "825151982352f09792ba11c07eddc8688cfc634776c13084cfeb024d3bd4e171",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "822c99fc9021d3c7b2bc86301cd40508d77ddb17b9f9f7ac944008561cc74e64",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-00512-00768.npz",
+      "sha256": "4d8d7d2f7b1cb497b072826c0164e274b9f17c009d6156671a3b6b286741dfe8",
+      "bytes": 2006122,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "e62c755045d02df50626a484aacbfe93095aced69f4efc843b3918a202e1d8d7",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "cee8cb5a082f10c4de8681892b9d10194be515fd856c71f029c627a0dd0c6a0f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "90033cc0a7c0b80f5b087451eefcd024028aed0a581e0f4a1741830f7c86dbaf",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "2a923bc5f98a6a699bd8ca6ba06c9dd35092bbb4be1b3f27ad8203928594bb53",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-00768-01024.npz",
+      "sha256": "12b5008dceb87a60b1c94bd1d547b885cf39f97ae4b513274f4ee500debbe3d8",
+      "bytes": 2012603,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "8d96094de80ef15e31cec8662c74ba1019fbb01a3bc433fb66d471e9339e6d12",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "1f815f2733a991c5b909a3f8f4fa6a2fa19b22c0b1eb887eaefd48e1eab43268",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "396e960f29244c439f4648a2253767ab1a9fa7f28ca485b54e676f6f2a139146",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "ad4eb7bd8f26d15d3ffbaee63aedd1b5bbb1f3202b898460ed907de706752092",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-01024-01280.npz",
+      "sha256": "5e3b27695b8898380e938ab77c3fbb739524231e7ef04126187e0c2b65171f28",
+      "bytes": 2012339,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "8cab0de02ac5d3eb7b8092909b57b01488d4f5a2a566de42444dbd99c2bcddc8",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "d3808276237b364420da5dd98a3eaf85946c9d69a66a833ad10a0f365fa5068f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "fd985a5d1ffbdece92668dd88d09e489c1177ecbddb6ffb258e2a3609c779d2f",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8fa3dcc3360c3b26d55fc59c6ca92b9f6421e19acb971899a52e8a12c0a87593",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-01280-01536.npz",
+      "sha256": "98c2159f43931f78a585268e697b941810f8857c2490355df8a84f502203c5c1",
+      "bytes": 2006347,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "815bf558b27af47d3187293efb285ff5e3a206d3527c3bb3c3d81c4138b23761",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "fd28f1af18e48fd133eaefee6194ee580765f6c8ebbaa206580210d355d30d69",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "825151982352f09792ba11c07eddc8688cfc634776c13084cfeb024d3bd4e171",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "8622345799ff777c2cb0a03472a0252080389d6bac7408e3b3bee00411710d2e",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-01536-01792.npz",
+      "sha256": "1e4ffa588202a4a63506b304ab5a3174b850f512b0553b946ed5d7415b4e338e",
+      "bytes": 2006122,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "e62c755045d02df50626a484aacbfe93095aced69f4efc843b3918a202e1d8d7",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "cee8cb5a082f10c4de8681892b9d10194be515fd856c71f029c627a0dd0c6a0f",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "90033cc0a7c0b80f5b087451eefcd024028aed0a581e0f4a1741830f7c86dbaf",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "931d7631b6e59cbd9da1397242ffc6644502dab07fa335043927938bfc6f54cb",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "query-06-interval-00481-rows-01792-02048.npz",
+      "sha256": "889c2d2a35fcf6949cf8503bead71a79544996b8cd63499746cef72128bba807",
+      "bytes": 2012604,
+      "arrays": {
+        "rows": {
+          "shape": [
+            256,
+            679
+          ],
+          "dtype": "<f8",
+          "sha256": "a81109655e1a7fc9520b988e5b547a412b2441586bb45e8bf336fd6595a774aa",
+          "bytes": 1390592,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "global_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "4f34094db92eca04dce65917281904c3b3995b1674dc8cd2c1bbd234d326717d",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "local_columns": {
+          "shape": [
+            679
+          ],
+          "dtype": "<i8",
+          "sha256": "3fd12ca4824dfc714b884d273bce188f42bab3fcbf7b508c7d53e92f661bd7f8",
+          "bytes": 5432,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Gamma": {
+          "shape": [
+            256,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "1f815f2733a991c5b909a3f8f4fa6a2fa19b22c0b1eb887eaefd48e1eab43268",
+          "bytes": 692224,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "Pi": {
+          "shape": [
+            256,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "481e98c4d4521a03de7ef5e0062009de1e35090008212856370bd0dc7e0dda75",
+          "bytes": 6144,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "beta_squared": {
+          "shape": [
+            256
+          ],
+          "dtype": "<f8",
+          "sha256": "396e960f29244c439f4648a2253767ab1a9fa7f28ca485b54e676f6f2a139146",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "angle_indices": {
+          "shape": [
+            256
+          ],
+          "dtype": "<i8",
+          "sha256": "23191cc34ad0a175791e7bda1fde7888c658478635cd458e34aa429fec2d6d82",
+          "bytes": 2048,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00472-variant-00.npz",
+      "sha256": "f60518e984aa3525dc7f0e268c84d268b09cb892fea5cf35b34312f39f4575fe",
+      "bytes": 886368,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "808720e64e9b25477ea249dcdff089184a17c29293723447af058ee7b7a8567a",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00473-variant-01.npz",
+      "sha256": "9240cdb974a4eac59a2f574ed85290a32d94f5dcfa556ace55fe754513d71938",
+      "bytes": 886386,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "25b4b406d2c8de60750e231241a9f356300ef012e25496b3432fd33d35b6ee56",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00474-variant-02.npz",
+      "sha256": "230700fc6c8918ca7b750ef99ebf94db556c6e37a9de3447270872bbf368bc24",
+      "bytes": 886468,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "17e830262872172d58d652615868af210b61020b1a9e380200f6f43e98b68a4d",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00475-variant-03.npz",
+      "sha256": "10b940ea4d1149a8edce464fb2e6bb4dd84adcf87870aba9cb3be4fcb317c487",
+      "bytes": 886548,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "c51b039020f71133a91319065fe92f42ecd8a6be5ed828b81091f8a091858a9e",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00476-variant-04.npz",
+      "sha256": "434d9eda7f71f13e4c48a366e12c1b2de0059da37a1615fb7dc61247378f0667",
+      "bytes": 886538,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "85bc88535d5b0dae98ac5307c930946954ee6d3c3c03a1624785b9b8f8264645",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00477-variant-05.npz",
+      "sha256": "1f237b1e2a0184297ec0a3c8e3fa747369cabe87f2f0f58a326b09a75f15a387",
+      "bytes": 886564,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "75f22952796c9b40b0912c471805610df09685e265dfa46c996bbc85b1e10c05",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00478-variant-06.npz",
+      "sha256": "40ded062054ccd0377372da8646a184a8f9bc8d66e70c43a25ba190ca0ff5e79",
+      "bytes": 886574,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "34e8f09e74c01f35cb91fba6f00b8562c9a58723cc44ac82427c405836a4db5d",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00479-variant-07.npz",
+      "sha256": "e3adb341a7fab611e6507f42aab3d40928fb9cbb0f208e3189f32ebf30c1301d",
+      "bytes": 886661,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "21775774d65ddf84cb7d3ffd3ca75430072ed2c878597e6b4d714402467848f5",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00480-variant-08.npz",
+      "sha256": "67f60a8771e50ff474108e4855bb91fb685f88bf771ff02ca24766b9af2b26fe",
+      "bytes": 886596,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "d2cde6fce85fb57dddf8ebd69898bc0d8a417637a30b323651383715b0eba254",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00481-variant-09.npz",
+      "sha256": "3601aea3994a8cf56ab4479651c3861881b5510b92ef724a8b93c6fcb03c4233",
+      "bytes": 886745,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "f2a8442b96f11eabdb12246924c449f133265a19ce785442732b1c01e6c1d8e9",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    },
+    {
+      "path": "endpoint-00482-variant-10.npz",
+      "sha256": "b4f45d0094ba24b8d3376e2931b2271196b18d5b742ae6cb5504b8ca84dd2dd1",
+      "bytes": 886647,
+      "arrays": {
+        "physical_J": {
+          "shape": [
+            338,
+            338
+          ],
+          "dtype": "<f8",
+          "sha256": "4a4eeef2b5b93b3c920c4dec37ec6f3573af80817a7c02b8c834af6d5211d502",
+          "bytes": 913952,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "parameter_P": {
+          "shape": [
+            338,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b8960ce9b7f54eb4842f266635b5c932cc9421ad87a844669bddd47dbb092393",
+          "bytes": 8112,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        }
+      }
+    }
+  ],
+  "artifact_scope": "actual fixed finite B rows, complete Gamma/Pi, source identities and original A endpoint factors"
+}

@@ -1,0 +1,740 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T15:56:41.262091+00:00",
+  "source_commit": "f4896bba5fe43c784d2af965b36336b8f9256d87",
+  "run_id": "43612331803",
+  "run_attempt": "1",
+  "lane": "observedseven",
+  "files": [
+    {
+      "source": "T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/T112-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "boundary112-response/response-check.json",
+      "bytes": 38794,
+      "sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/boundary112-response/response-check.json",
+      "published_bytes": 38794,
+      "published_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f"
+    },
+    {
+      "source": "observed-seven-warm/all-angle-linear-margins.json.gz",
+      "bytes": 191581,
+      "sha256": "00455c85ecb15e171f7a1b8fae90084bfa8f8ebf704b40104fb35c46c7b297e3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/all-angle-linear-margins.json.gz",
+      "published_bytes": 191581,
+      "published_sha256": "00455c85ecb15e171f7a1b8fae90084bfa8f8ebf704b40104fb35c46c7b297e3"
+    },
+    {
+      "source": "observed-seven-warm/all-angle-selection-candidates.json.gz",
+      "bytes": 452828,
+      "sha256": "d221f9ebfdab2e312919e28d6e9b0f674310723191701698b8439d22e1b7e32d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/all-angle-selection-candidates.json.gz",
+      "published_bytes": 452828,
+      "published_sha256": "d221f9ebfdab2e312919e28d6e9b0f674310723191701698b8439d22e1b7e32d"
+    },
+    {
+      "source": "observed-seven-warm/direction-00.json.gz",
+      "bytes": 4656362,
+      "sha256": "3913e67e55d5f36801014b05a8e785cb5789a85720422bab7ee2128ff0d7810f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/direction-00.json.gz",
+      "published_bytes": 4656362,
+      "published_sha256": "3913e67e55d5f36801014b05a8e785cb5789a85720422bab7ee2128ff0d7810f"
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/base-and-local-layout.npz",
+      "bytes": 3726753,
+      "sha256": "19474e901721722fc8c148e14cb9852ba3e7f30e933f9a61c0fd80dbe1f437e3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00472-variant-00.npz",
+      "bytes": 886368,
+      "sha256": "f60518e984aa3525dc7f0e268c84d268b09cb892fea5cf35b34312f39f4575fe",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00473-variant-01.npz",
+      "bytes": 886386,
+      "sha256": "9240cdb974a4eac59a2f574ed85290a32d94f5dcfa556ace55fe754513d71938",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00474-variant-02.npz",
+      "bytes": 886468,
+      "sha256": "230700fc6c8918ca7b750ef99ebf94db556c6e37a9de3447270872bbf368bc24",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00475-variant-03.npz",
+      "bytes": 886548,
+      "sha256": "10b940ea4d1149a8edce464fb2e6bb4dd84adcf87870aba9cb3be4fcb317c487",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00476-variant-04.npz",
+      "bytes": 886538,
+      "sha256": "434d9eda7f71f13e4c48a366e12c1b2de0059da37a1615fb7dc61247378f0667",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00477-variant-05.npz",
+      "bytes": 886564,
+      "sha256": "1f237b1e2a0184297ec0a3c8e3fa747369cabe87f2f0f58a326b09a75f15a387",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00478-variant-06.npz",
+      "bytes": 886574,
+      "sha256": "40ded062054ccd0377372da8646a184a8f9bc8d66e70c43a25ba190ca0ff5e79",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00479-variant-07.npz",
+      "bytes": 886661,
+      "sha256": "e3adb341a7fab611e6507f42aab3d40928fb9cbb0f208e3189f32ebf30c1301d",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00480-variant-08.npz",
+      "bytes": 886596,
+      "sha256": "67f60a8771e50ff474108e4855bb91fb685f88bf771ff02ca24766b9af2b26fe",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00481-variant-09.npz",
+      "bytes": 886745,
+      "sha256": "3601aea3994a8cf56ab4479651c3861881b5510b92ef724a8b93c6fcb03c4233",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/endpoint-00482-variant-10.npz",
+      "bytes": 886647,
+      "sha256": "b4f45d0094ba24b8d3376e2931b2271196b18d5b742ae6cb5504b8ca84dd2dd1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/manifest.json",
+      "bytes": 193496,
+      "sha256": "00c1439c9b6e176a3cb26c56a53dbb0c65edc4ac40e651d3f07b3377a0732668",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/domain-operator/manifest.json",
+      "published_bytes": 193496,
+      "published_sha256": "00c1439c9b6e176a3cb26c56a53dbb0c65edc4ac40e651d3f07b3377a0732668"
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-00000-00256.npz",
+      "bytes": 2013505,
+      "sha256": "603d3833f78587a6a8a2b47a20637ec4b20676153515118b472882095d38f44c",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-00256-00512.npz",
+      "bytes": 2005348,
+      "sha256": "abc54e390d58aef0cb362494d3161e822c285ecb85f014270a453068ad578a71",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-00512-00768.npz",
+      "bytes": 2005175,
+      "sha256": "84783b6d3c9c05d006b4b44b8bd8fe99c0c8d9a8796fe192f0acccd4cc7645fd",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-00768-01024.npz",
+      "bytes": 2013630,
+      "sha256": "e9a51d2870cb7d90d2d83da71d0773d26c42b56b6688675d9b9ae9eaffa49c09",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-01024-01280.npz",
+      "bytes": 2013506,
+      "sha256": "5879b05673eea183b0084bc300285b95802f1a9d73bda5cb5f7b3f8f2e1ab222",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-01280-01536.npz",
+      "bytes": 2005348,
+      "sha256": "8e7363abb0992547957ff76c7d0cc86588fc6af35f091a18ad4620de4f41db6a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-01536-01792.npz",
+      "bytes": 2005175,
+      "sha256": "a8ae7f19fb2eaf4d4615526476419c899c3ef3916011e2304e6acbfacf3a6d84",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-00-interval-00472-rows-01792-02048.npz",
+      "bytes": 2013630,
+      "sha256": "e92cda24dbea5ed0cdd85cde8f5d5f0afa29034e14d9d3abde4dc045b8a12efe",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-00000-00256.npz",
+      "bytes": 2013737,
+      "sha256": "1878a3eb9af856f8e29b98fe9586ccf29a9864d89925edfea917a62dbd686f81",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-00256-00512.npz",
+      "bytes": 2005546,
+      "sha256": "e1c9db6e6c8ce608034e238743332b32e6a3d88e868510562c3ba757dec81d1f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-00512-00768.npz",
+      "bytes": 2005258,
+      "sha256": "65dcf5d8a8ad3dea801ef57384bf6c6110f45433721ac9f723a7b9812279e120",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014213,
+      "sha256": "b285aa6461d377d155d8327ca0494661bbc602ce42900cd15ff5a3fa57b7f9da",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-01024-01280.npz",
+      "bytes": 2013738,
+      "sha256": "30846b27684f7c04bd6fb9fc0db09bb1420df163c1860060ee0cbd03f5cde457",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-01280-01536.npz",
+      "bytes": 2005546,
+      "sha256": "71a2673bfbe481ab6d1a0d5f988523f44556050466b119193ca2724973221af9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-01536-01792.npz",
+      "bytes": 2005258,
+      "sha256": "3f65cad3851744ce4aa7431da9ad8031ff336928f2905f860bfcebcac8404127",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-01-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014213,
+      "sha256": "e3fd10bca77caca59e9f9e6696d741d53016994a3f9aa3184fe5cc0a030ae7ef",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-00000-00256.npz",
+      "bytes": 2013646,
+      "sha256": "d816759307ad179de977ecde2509e266798b5101402b59c7264336c479ca5b3e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-00256-00512.npz",
+      "bytes": 2005110,
+      "sha256": "7aebab4f14314d11572bf96208f1dd0d78045680e564cfba21fb0402bb0f4e75",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-00512-00768.npz",
+      "bytes": 2004863,
+      "sha256": "ae168cc3f1859a556132fd85dc8b551e1aefae3e551a4e2855f1895ec5ce2c71",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-00768-01024.npz",
+      "bytes": 2013797,
+      "sha256": "03e621f10af85970ca6a0ba9385fc7be53dd3a2f3e22aca8cfc666dc2e0dffe2",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-01024-01280.npz",
+      "bytes": 2013647,
+      "sha256": "64b15677393c89bcf8ca8237391bb0a17724303d9fbea7874133b8a21a37a7b9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-01280-01536.npz",
+      "bytes": 2005110,
+      "sha256": "9d2b54dc9730aea669d2e367ea5d813976fb89ce939ddd0121e1132e0c140aae",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-01536-01792.npz",
+      "bytes": 2004863,
+      "sha256": "64c65b84a6b8cbe9f19b5dc3be2c31b3b6aa7c7f9df419db3c10a66147d01ee3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-02-interval-00475-rows-01792-02048.npz",
+      "bytes": 2013798,
+      "sha256": "3ffe72d3381a6f6a818c936e4c58955a9be3dccad070b8ecc6bdd8fb63cc709f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-00000-00256.npz",
+      "bytes": 2013684,
+      "sha256": "bf979223b265882fc6378096655d08ac8937e7b38ae16149d36487ae53fe9983",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-00256-00512.npz",
+      "bytes": 2005423,
+      "sha256": "904d2401081ce69cadf31a1b30bd4428bf96648ee85ae4e1637f4b9d607719d8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-00512-00768.npz",
+      "bytes": 2005062,
+      "sha256": "e1d46ebe1af5386e913a61c020487960d4cf7ba8e802f1fc0985766c7a9181d0",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-00768-01024.npz",
+      "bytes": 2013836,
+      "sha256": "d889d29f58751fd79f1736018456e606416b7489859f557e83facff58fa6989b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-01024-01280.npz",
+      "bytes": 2013685,
+      "sha256": "edf49e38effddab6be5f7d697250ec5290e02a0fcaf27609489c6bbe39860c52",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-01280-01536.npz",
+      "bytes": 2005423,
+      "sha256": "fca1dc47f8bd1591c6c2f276c2947156635f7f0ea2b9c3ec273bed07264496f0",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-01536-01792.npz",
+      "bytes": 2005062,
+      "sha256": "be918084e44568db9dd676c0bc3ba86b5ee69494c1d12140296f7d5c39706006",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-03-interval-00477-rows-01792-02048.npz",
+      "bytes": 2013837,
+      "sha256": "22a0de8a94fa03aacf96bb85bde23922baeb8dccfa53bf3356eb5e99deea60de",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-00000-00256.npz",
+      "bytes": 2013271,
+      "sha256": "5bd9f921c7fc6d8c7692993447fb31240c6df7d675f841d0197cbe023a8e0e41",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-00256-00512.npz",
+      "bytes": 2005511,
+      "sha256": "4c31dd4702ccb5a93f7238ae5c4ae0863fcaee406e3e7a4e505ba6894bbf7ef3",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-00512-00768.npz",
+      "bytes": 2005271,
+      "sha256": "f265d648e01b3281bd46155e38f5fb63ef7652f01fca80c99d52229fdbbd59cb",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-00768-01024.npz",
+      "bytes": 2013417,
+      "sha256": "6ca7432994480f7d78c0504eb16c10039c470b280fe4bf66c870c768fa611652",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-01024-01280.npz",
+      "bytes": 2013272,
+      "sha256": "9b71b48c351c84b9709bd70512b0cea5f690d64d80ac3b341afecd23b93198e9",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-01280-01536.npz",
+      "bytes": 2005511,
+      "sha256": "22d93628dffcd3cb2c1c00ed309fd2efa7f2787efdc99777e0fd3e7e69b43b71",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-01536-01792.npz",
+      "bytes": 2005271,
+      "sha256": "ea559af253dcb9666671520ee1491e369697be8ebe17bc8d008dac3bfcd4a848",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-04-interval-00479-rows-01792-02048.npz",
+      "bytes": 2013419,
+      "sha256": "0a844edec39a4a660664211dab45276491164f11d18bcb1b1e5f63fd82814857",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-00000-00256.npz",
+      "bytes": 2012979,
+      "sha256": "4b15ce743f6eca9882947fac7c3101809a9551435890a2aef8e966b8f0e258e8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-00256-00512.npz",
+      "bytes": 2006400,
+      "sha256": "a534f5b9ad9aaaabc9f0d8310bee445ee3338bf95e3068178f7351863e884a1f",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-00512-00768.npz",
+      "bytes": 2006021,
+      "sha256": "4429591f4157a91718a6c0ef5ed9a0a0fb9b669147a66c215f322a3c7326f4ac",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-00768-01024.npz",
+      "bytes": 2013285,
+      "sha256": "1a2ba24462563f8a69013f7ae01de8f90b26fe1d67a38d82c37eb50e14613207",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-01024-01280.npz",
+      "bytes": 2012980,
+      "sha256": "2e3e7c288214ddf86ff99a7da4379b38438f0ba982b914205d937fc6ca214ab8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-01280-01536.npz",
+      "bytes": 2006400,
+      "sha256": "86d627eb5fb5c30cef583bccfa593e662c49a23029d4f3059ab6cd952586486b",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-01536-01792.npz",
+      "bytes": 2006021,
+      "sha256": "4b55654d3203cd8c6f09e13f6e04ec3ee064398859d332cbb7ee07787157c53a",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-05-interval-00480-rows-01792-02048.npz",
+      "bytes": 2013288,
+      "sha256": "3fbc223f0b4180ceb73e981c616ddd51527cb87ea1501abe25f8766a48e36a0e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-00000-00256.npz",
+      "bytes": 2012338,
+      "sha256": "078d2b0b9d8b071f0a7659c0ab60910baa0d653917ceac7c9a2538d6295c54f5",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-00256-00512.npz",
+      "bytes": 2006347,
+      "sha256": "65a4d64c0c340f2517d6c004a5c4a95ca75590e64feea446300f21b65cab7dd8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-00512-00768.npz",
+      "bytes": 2006122,
+      "sha256": "4d8d7d2f7b1cb497b072826c0164e274b9f17c009d6156671a3b6b286741dfe8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-00768-01024.npz",
+      "bytes": 2012603,
+      "sha256": "12b5008dceb87a60b1c94bd1d547b885cf39f97ae4b513274f4ee500debbe3d8",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-01024-01280.npz",
+      "bytes": 2012339,
+      "sha256": "5e3b27695b8898380e938ab77c3fbb739524231e7ef04126187e0c2b65171f28",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-01280-01536.npz",
+      "bytes": 2006347,
+      "sha256": "98c2159f43931f78a585268e697b941810f8857c2490355df8a84f502203c5c1",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-01536-01792.npz",
+      "bytes": 2006122,
+      "sha256": "1e4ffa588202a4a63506b304ab5a3174b850f512b0553b946ed5d7415b4e338e",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/domain-operator/query-06-interval-00481-rows-01792-02048.npz",
+      "bytes": 2012604,
+      "sha256": "889c2d2a35fcf6949cf8503bead71a79544996b8cd63499746cef72128bba807",
+      "not_published": "Reproducible full-angle optimizer row/factor array; retained in the Actions artifact. Regenerate from the actual warm, frozen source, original model settings and domain-operator manifest."
+    },
+    {
+      "source": "observed-seven-warm/driver-status.json",
+      "bytes": 467505,
+      "sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/driver-status.json",
+      "published_bytes": 467505,
+      "published_sha256": "a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4"
+    },
+    {
+      "source": "observed-seven-warm/full-angle-operator-check.json",
+      "bytes": 5941,
+      "sha256": "14773403505aaf4dd28d0c51d18c8c5cd1c3de209de8c78bf2410741da2a5690",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/full-angle-operator-check.json",
+      "published_bytes": 5941,
+      "published_sha256": "14773403505aaf4dd28d0c51d18c8c5cd1c3de209de8c78bf2410741da2a5690"
+    },
+    {
+      "source": "observed-seven-warm/local-projection-arrays.json.gz",
+      "bytes": 227282,
+      "sha256": "52cbcc8213a5925b8fb3610edb23ca17db3c356bf134c888b137ef123222187c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/local-projection-arrays.json.gz",
+      "published_bytes": 227282,
+      "published_sha256": "52cbcc8213a5925b8fb3610edb23ca17db3c356bf134c888b137ef123222187c"
+    },
+    {
+      "source": "observed-seven-warm/lsmr-direction-00.json.gz",
+      "bytes": 2324895,
+      "sha256": "9c1c995f47d7b035ed19e773527ac3f743b1b7eb9445afc7c4cf0c83322a3eed",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/lsmr-direction-00.json.gz",
+      "published_bytes": 2324895,
+      "published_sha256": "9c1c995f47d7b035ed19e773527ac3f743b1b7eb9445afc7c4cf0c83322a3eed"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00471.npz",
+      "bytes": 9418,
+      "sha256": "b2cfd471b4d7778493a58be927105d7c46e4551a74eacc6285949ec82f296e46",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00471.npz",
+      "published_bytes": 9418,
+      "published_sha256": "b2cfd471b4d7778493a58be927105d7c46e4551a74eacc6285949ec82f296e46"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00472.npz",
+      "bytes": 9456,
+      "sha256": "28869dd2ede1b181a9a17e5b0bdb19aa75cc353a4dc851394d0d220ad90cd202",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00472.npz",
+      "published_bytes": 9456,
+      "published_sha256": "28869dd2ede1b181a9a17e5b0bdb19aa75cc353a4dc851394d0d220ad90cd202"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00473.npz",
+      "bytes": 9365,
+      "sha256": "f75521a55e8f67cc24b5416c8c3c7a05086ab888142da4fbd0513aa3260ae4f4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00473.npz",
+      "published_bytes": 9365,
+      "published_sha256": "f75521a55e8f67cc24b5416c8c3c7a05086ab888142da4fbd0513aa3260ae4f4"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00474.npz",
+      "bytes": 9480,
+      "sha256": "a8083650d9b45750e4caa960648b0e7eafeaf345713b9faafd993093fc328617",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00474.npz",
+      "published_bytes": 9480,
+      "published_sha256": "a8083650d9b45750e4caa960648b0e7eafeaf345713b9faafd993093fc328617"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00478.npz",
+      "bytes": 9569,
+      "sha256": "976ca2a2e881f1ad72e9143b9b1c9c3e3ad4e906232282a7c97214968eec48ff",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00478.npz",
+      "published_bytes": 9569,
+      "published_sha256": "976ca2a2e881f1ad72e9143b9b1c9c3e3ad4e906232282a7c97214968eec48ff"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00482.npz",
+      "bytes": 10558,
+      "sha256": "b7653c17d120ba80b9cd26d9e9314dd102a9fd6c42c93d6eeb211337bdd7b295",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0002-midpoint-00482.npz",
+      "published_bytes": 10558,
+      "published_sha256": "b7653c17d120ba80b9cd26d9e9314dd102a9fd6c42c93d6eeb211337bdd7b295"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00472.npz",
+      "bytes": 9455,
+      "sha256": "57dfbbd3a68b659a53ac5846c23e9b64afe84be40c8cf09b194b6ba556d42d4e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00472.npz",
+      "published_bytes": 9455,
+      "published_sha256": "57dfbbd3a68b659a53ac5846c23e9b64afe84be40c8cf09b194b6ba556d42d4e"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00473.npz",
+      "bytes": 9457,
+      "sha256": "b73da6d350dc20905f03825fd3e90ac8ff15452987bda98af5d01b6dc0883e7b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00473.npz",
+      "published_bytes": 9457,
+      "published_sha256": "b73da6d350dc20905f03825fd3e90ac8ff15452987bda98af5d01b6dc0883e7b"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00475.npz",
+      "bytes": 9544,
+      "sha256": "f3fb2e23dc8254248481b13c54814697f690ee52d31eaaaf86f9805cc40e53fc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00475.npz",
+      "published_bytes": 9544,
+      "published_sha256": "f3fb2e23dc8254248481b13c54814697f690ee52d31eaaaf86f9805cc40e53fc"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00477.npz",
+      "bytes": 9570,
+      "sha256": "09e9acdf71c7d15c221c895534565f9294b12f6fc71cbff32e445ee7cc5715a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0003-midpoint-00477.npz",
+      "published_bytes": 9570,
+      "published_sha256": "09e9acdf71c7d15c221c895534565f9294b12f6fc71cbff32e445ee7cc5715a2"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0004-midpoint-00473.npz",
+      "bytes": 9492,
+      "sha256": "fb603d67f114b58c030faea1dcf7060dd178b612423bda351aa14b3b87315c93",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0004-midpoint-00473.npz",
+      "published_bytes": 9492,
+      "published_sha256": "fb603d67f114b58c030faea1dcf7060dd178b612423bda351aa14b3b87315c93"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0004-midpoint-00477.npz",
+      "bytes": 9584,
+      "sha256": "1c2a0a967769ca8bd204c1791705fadc9beb5761d8d61b7bc2377ad60c2682c6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0004-midpoint-00477.npz",
+      "published_bytes": 9584,
+      "published_sha256": "1c2a0a967769ca8bd204c1791705fadc9beb5761d8d61b7bc2377ad60c2682c6"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0005-midpoint-00473.npz",
+      "bytes": 9503,
+      "sha256": "b4fc968955e306b28fc0cf9c417726a8fe7c16e2358a46d48f7ecb16fe2d1ea3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0005-midpoint-00473.npz",
+      "published_bytes": 9503,
+      "published_sha256": "b4fc968955e306b28fc0cf9c417726a8fe7c16e2358a46d48f7ecb16fe2d1ea3"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0005-midpoint-00477.npz",
+      "bytes": 9593,
+      "sha256": "1407dea497efe283896b0280fd4d41fbbf8ce9e912ef4fd2daf57a0a57ef742e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0005-midpoint-00477.npz",
+      "published_bytes": 9593,
+      "published_sha256": "1407dea497efe283896b0280fd4d41fbbf8ce9e912ef4fd2daf57a0a57ef742e"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0006-midpoint-00473.npz",
+      "bytes": 9527,
+      "sha256": "302366464d8a52d7bcc798f94eeb37f79a95b95a63fc5f8c6b6d303d2c139211",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0006-midpoint-00473.npz",
+      "published_bytes": 9527,
+      "published_sha256": "302366464d8a52d7bcc798f94eeb37f79a95b95a63fc5f8c6b6d303d2c139211"
+    },
+    {
+      "source": "observed-seven-warm/midpoint-observer/evaluate-0007-midpoint-00473.npz",
+      "bytes": 9502,
+      "sha256": "4781e08365aa9dd72342c5eda257f8674c64b97239f7a41d2a7b15a356d82914",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/midpoint-observer/evaluate-0007-midpoint-00473.npz",
+      "published_bytes": 9502,
+      "published_sha256": "4781e08365aa9dd72342c5eda257f8674c64b97239f7a41d2a7b15a356d82914"
+    },
+    {
+      "source": "observed-seven-warm/model-000-operator-check.json",
+      "bytes": 2797,
+      "sha256": "4e114ab076a0d520906d62684116dd748686019835b28e097e411a8db6541561",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/model-000-operator-check.json",
+      "published_bytes": 2797,
+      "published_sha256": "4e114ab076a0d520906d62684116dd748686019835b28e097e411a8db6541561"
+    },
+    {
+      "source": "observed-seven-warm/model-000.json",
+      "bytes": 354017,
+      "sha256": "ab89602db6a1d3447a83e21c323043f036c7fe3d78843391860e324cafe99615",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/model-000.json",
+      "published_bytes": 354017,
+      "published_sha256": "ab89602db6a1d3447a83e21c323043f036c7fe3d78843391860e324cafe99615"
+    },
+    {
+      "source": "observed-seven-warm/optimization-intent.json",
+      "bytes": 63195,
+      "sha256": "58eb3f8c8b3f5e2ccc628e7a87ea9472fb920907d88b2bb04dff1d2126c91319",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/optimization-intent.json",
+      "published_bytes": 63195,
+      "published_sha256": "58eb3f8c8b3f5e2ccc628e7a87ea9472fb920907d88b2bb04dff1d2126c91319"
+    },
+    {
+      "source": "observed-seven-warm/trial-00-all-selected-angles.json.gz",
+      "bytes": 46371,
+      "sha256": "4719e6483050cc7b14e73e7f70afd329d76938bb5d6797214fb09943f1a909ec",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-00-all-selected-angles.json.gz",
+      "published_bytes": 46371,
+      "published_sha256": "4719e6483050cc7b14e73e7f70afd329d76938bb5d6797214fb09943f1a909ec"
+    },
+    {
+      "source": "observed-seven-warm/trial-01-all-selected-angles.json.gz",
+      "bytes": 46154,
+      "sha256": "d9a0cbf9e119301eb81ef25c9fdb450af55d1de05ab842486719b2cc6e87f72f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-01-all-selected-angles.json.gz",
+      "published_bytes": 46154,
+      "published_sha256": "d9a0cbf9e119301eb81ef25c9fdb450af55d1de05ab842486719b2cc6e87f72f"
+    },
+    {
+      "source": "observed-seven-warm/trial-02-all-selected-angles.json.gz",
+      "bytes": 45932,
+      "sha256": "84d6198ba8d2ee5d9d7a67f4c4b6fad91828dcef1f2247a07a3d2cc028841bc8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-02-all-selected-angles.json.gz",
+      "published_bytes": 45932,
+      "published_sha256": "84d6198ba8d2ee5d9d7a67f4c4b6fad91828dcef1f2247a07a3d2cc028841bc8"
+    },
+    {
+      "source": "observed-seven-warm/trial-03-all-selected-angles.json.gz",
+      "bytes": 45930,
+      "sha256": "60c336693a9ebce2173cc82993f2336d6985941409fa84e1a02df508264ca58e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-03-all-selected-angles.json.gz",
+      "published_bytes": 45930,
+      "published_sha256": "60c336693a9ebce2173cc82993f2336d6985941409fa84e1a02df508264ca58e"
+    },
+    {
+      "source": "observed-seven-warm/trial-04-all-selected-angles.json.gz",
+      "bytes": 45993,
+      "sha256": "b69d17f53cad581e96dbae6c8cc9b68afc3ca3e6e8b27c7e8f5513b21eb469e0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-04-all-selected-angles.json.gz",
+      "published_bytes": 45993,
+      "published_sha256": "b69d17f53cad581e96dbae6c8cc9b68afc3ca3e6e8b27c7e8f5513b21eb469e0"
+    },
+    {
+      "source": "observed-seven-warm/trial-05-all-selected-angles.json.gz",
+      "bytes": 45943,
+      "sha256": "1be1df54e0725328ba4cd592c6df7cdf05c8d691df1d960061b57bbed5bcb440",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-05-all-selected-angles.json.gz",
+      "published_bytes": 45943,
+      "published_sha256": "1be1df54e0725328ba4cd592c6df7cdf05c8d691df1d960061b57bbed5bcb440"
+    },
+    {
+      "source": "observed-seven-warm/trial-06-all-selected-angles.json.gz",
+      "bytes": 46040,
+      "sha256": "cc2809554a5eb7bbbba9b7862c56721036444c25bc09c0371f7fe4a27dc93557",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/trial-06-all-selected-angles.json.gz",
+      "published_bytes": 46040,
+      "published_sha256": "cc2809554a5eb7bbbba9b7862c56721036444c25bc09c0371f7fe4a27dc93557"
+    },
+    {
+      "source": "observed-seven-warm/warm-001.json.gz",
+      "bytes": 4720565,
+      "sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz",
+      "published_bytes": 4720565,
+      "published_sha256": "f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9"
+    },
+    {
+      "source": "physical-response/response-check.json",
+      "bytes": 119425,
+      "sha256": "ef469778d11d21bb5b4babe2aacb07ebfd11d0f72697ba5780c98c054239197e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/physical-response/response-check.json",
+      "published_bytes": 119425,
+      "published_sha256": "ef469778d11d21bb5b4babe2aacb07ebfd11d0f72697ba5780c98c054239197e"
+    },
+    {
+      "source": "preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/preparation112/prepared.json.gz",
+      "published_bytes": 4220043,
+      "published_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "dbaa239769e771d5f7459359d26235f860c0cce78fe509ea1243dd7934544221",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43612331803-1-observedseven/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "dbaa239769e771d5f7459359d26235f860c0cce78fe509ea1243dd7934544221"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43612331803"
+}
