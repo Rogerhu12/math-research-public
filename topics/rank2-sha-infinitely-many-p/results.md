@@ -409,3 +409,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R587：惰性最小极点原函数与原Gaussian准确p曲率](results/R587-inert-minimal-log-primitive-and-exact-gaussian-p-curvature.md)：唯一type1的L(pO)第一类原函数与R356正则参数相差明确Frobenius项；原Gaussian连接全局曲率及z5p单位首项精确非零，短log下降与特征零首整商保全部修正。未以较高曲率首项替代两指定c4/c1或中央非零。
 
 - [R589：原p²目标的平方零极部与完整多项式Frobenius整性](results/R589-original-finite-euler-pole-algebra-and-polynomial-frobenius.md)：全部原九来源整多项式统一只需乘一p即落同一有限目标，首极部在显示平方零理想，完整F^p整。七实际首极部rank7并给一次格准确整性原像；最早c4/c1属整项而不可见，原同一饱和前缀在k=(p²−1)/6实改善一p，未给全局cutoff。
+
+- [R588：原wild Kummer圆盘上的七积分独立与全非线性半径障碍](results/R588-actual-wild-kummer-disc-and-nonlinear-primitive-radius.md)：实际degree-p域包含完整sigma与基础theta来源，边界no-pole、全部积分常数及特征六投影给七塔代数独立；任何真正含塔的原多项式乘任意整数Gaussian仍准确坏半径且闭边界非Tate。允许任意次数及依p系数，不把域投影或解析限制代原饱和格/中央。
