@@ -1,0 +1,69 @@
+{
+  "iteration": 0,
+  "source": "exact binary64 entry exponents, no intermediate scaled matrix",
+  "before_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 96,
+    "zero_entries": 27088,
+    "entries": 129696
+  },
+  "before_column_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 96,
+    "zero_entries": 35104,
+    "entries": 129696
+  },
+  "after_row_step_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 0,
+    "zero_entries": 129696,
+    "entries": 129696
+  },
+  "after_row_step_column_floorlog2_max": {
+    "minimum": -36,
+    "maximum": 0,
+    "zero_entries": 67526,
+    "entries": 129696
+  },
+  "row_step": {
+    "name": "equilibration-00-row-step",
+    "file": "large-arrays/equilibration-00-row-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      129696
+    ],
+    "bytes": 518784,
+    "sha256": "db01fc04d2780a8638eb54c56a1f9b85e6717871c80d2f01f566de6ead3b05b4",
+    "role": "Exact integer exponent increment"
+  },
+  "column_step": {
+    "name": "equilibration-00-column-step",
+    "file": "large-arrays/equilibration-00-column-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      129696
+    ],
+    "bytes": 518784,
+    "sha256": "45a7072986ee5677eb6b8577a44a9531c9d81a21b895e55a9c7633ac8b34baa6",
+    "role": "Exact integer exponent increment"
+  },
+  "cumulative_row_exponents": {
+    "minimum": -46,
+    "maximum": 97,
+    "zero_entries": 79,
+    "entries": 129696
+  },
+  "cumulative_column_exponents": {
+    "minimum": -97,
+    "maximum": -12,
+    "zero_entries": 0,
+    "entries": 129696
+  },
+  "matrix_scope": "explicit-new578-stage-same-schedule-linear-system",
+  "new_matrix_identity_sha256": "f7ec0dc4984940e0ff6ae57bcec9b1b91b320498bb9477e8ff0f06a24c7c3d4f",
+  "wrapper_producer_source_sha256": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+  "unqualified_original_equations_mean_unscaled_current_578_system": true,
+  "original576_long_matrix_not_claimed_solved": true
+}

@@ -1,0 +1,199 @@
+{
+  "iteration": 1,
+  "direction_float64le_sha256": "e49eabe0d908d17c831fcff6578ae8e9db275ba836dbc08c8cbbacea2916c4c1",
+  "exact_rows": 129696,
+  "completed_stages": 578,
+  "original_product_positions": 29001840,
+  "exact_global_original_sigma_norm": {
+    "kind": "stage",
+    "node": 45,
+    "row": 222,
+    "global_equation_row": 10414,
+    "component": "Pi",
+    "mode": 111,
+    "original_sigma_float64le_hex": "c8a289c84019c23c",
+    "exact_unscaled_dyadic": [
+      "0x3955d0ca35ac24604f3eca34c196198396f533c1f2328a0e91747776f62d",
+      -181
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "395713125374665414668333030457841254017615027328069758738118104353011245",
+      "denominator": "1539662419714254704918710982194510168064",
+      "decimal_display_64_significant_digits": "2.570129141997929946722054150142937318922380930602710316297626312E+32",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "395713125374665414668333030457841254017615027328069758738118104353011245",
+      "denominator": "1539662419714254704918710982194510168064",
+      "decimal_display_64_significant_digits": "2.570129141997929946722054150142937318922380930602710316297626312E+32",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "explicit-new578-stage-system",
+    "new_matrix_identity_sha256": "f7ec0dc4984940e0ff6ae57bcec9b1b91b320498bb9477e8ff0f06a24c7c3d4f",
+    "source_stage": {
+      "newStage": 45,
+      "originalStage": 44,
+      "window": [
+        0,
+        12
+      ],
+      "port": "original"
+    }
+  },
+  "exact_original_stored_base_sigma_norm": {
+    "kind": "stage",
+    "node": 10,
+    "row": 206,
+    "global_equation_row": 2558,
+    "component": "Pi",
+    "mode": 95,
+    "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+    "exact_unscaled_dyadic": [
+      "-0x3e3fb5",
+      -74
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "-11407223422976",
+      "denominator": "273075959744683",
+      "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "11407223422976",
+      "denominator": "273075959744683",
+      "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "explicit-new578-stage-system",
+    "new_matrix_identity_sha256": "f7ec0dc4984940e0ff6ae57bcec9b1b91b320498bb9477e8ff0f06a24c7c3d4f",
+    "source_stage": {
+      "newStage": 10,
+      "originalStage": 10,
+      "window": [
+        0,
+        12
+      ],
+      "port": "original"
+    }
+  },
+  "exact_witness": {
+    "file": "iteration-01-exact-global-witness.json",
+    "bytes": 10072,
+    "sha256": "fc2eb4afa660d5f5eff5f3310fcb05bd772aa202889f2f82532a5fb8429e89b3"
+  },
+  "all_exact_residual_rows": {
+    "name": "iteration-01-exact-residuals",
+    "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+    "dtype": "exact-dyadic-jsonl-gzip",
+    "shape": [
+      129696
+    ],
+    "bytes": 3869691,
+    "sha256": "4d3b674c237c163cc16bf434e6f7442bfbcb8ad4c701ea419eafb1d91bb80a59",
+    "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+  },
+  "rounded_refinement_rhs": {
+    "name": "iteration-01-refinement-rhs",
+    "file": "large-arrays/iteration-01-refinement-rhs.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      129696
+    ],
+    "bytes": 1037568,
+    "sha256": "d26861b32eb5db33e5a71a5fd313228b0f6d94214b5a8ad266d7db8ad82c46a2",
+    "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+    "finite": 129696,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "rhs_rounding": {
+    "rounded_rows": 129476,
+    "underflow_to_zero_rows": 0,
+    "exact_zero_rows": 112,
+    "examples": [
+      {
+        "row": 112,
+        "exact_residual": [
+          "0x2f54a1c95c15f60d3772df0f673a0eb446c42b19c9d04e5b6af283",
+          -254
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "fb0aaee450aa67c0"
+      },
+      {
+        "row": 113,
+        "exact_residual": [
+          "0x157ae9029be8ca8e8fe7f94ddfc519768507",
+          -253
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "cbe89b02e97ae5bb"
+      },
+      {
+        "row": 114,
+        "exact_residual": [
+          "0x363d93b96cc6d5c8d33e2bd15d6f8872a65",
+          -252
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "6b63b6dcc91ecbbb"
+      },
+      {
+        "row": 115,
+        "exact_residual": [
+          "-0x1227c1bfa581d3e5c8489f12d49c3130fd8f",
+          -253
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "d481a5bfc127e23b"
+      },
+      {
+        "row": 116,
+        "exact_residual": [
+          "0x7fc07d848aedff40ea8d949c773d7f3047d",
+          -253
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "80bb22611ff0cfbb"
+      },
+      {
+        "row": 117,
+        "exact_residual": [
+          "-0x7d04892bfa6059cbeede0d21b01285e99a9",
+          -253
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "1698fe4a2241cf3b"
+      },
+      {
+        "row": 118,
+        "exact_residual": [
+          "0x1289cfd1dcb3b23a556734242b91a9956efd",
+          -253
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "b2b3dcd1cf89e2bb"
+      },
+      {
+        "row": 119,
+        "exact_residual": [
+          "-0x101989625ec8a548092933f7024c817fae3",
+          -249
+        ],
+        "row_scale_exponent": 48,
+        "rounded_rhs_float64le_hex": "a5c85e628919e03b"
+      }
+    ]
+  },
+  "all_nonzero_finite_operands_retained": true,
+  "native_accepted": false,
+  "elapsed_seconds": 18.083485647000003,
+  "matrix_scope": "explicit-new578-stage-same-schedule-linear-system",
+  "new_matrix_identity_sha256": "f7ec0dc4984940e0ff6ae57bcec9b1b91b320498bb9477e8ff0f06a24c7c3d4f",
+  "wrapper_producer_source_sha256": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+  "unqualified_original_equations_mean_unscaled_current_578_system": true,
+  "original576_long_matrix_not_claimed_solved": true
+}
