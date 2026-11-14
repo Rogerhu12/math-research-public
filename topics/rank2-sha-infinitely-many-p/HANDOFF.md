@@ -6,17 +6,17 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：405c7413ca3658bf80d95cc4239b397d8c4f6634；2026-11-14 14:35:30 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：4b3a60ca7f8096d3add750ec3f95a2ecff68244d；2026-11-14 14:37:35 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现只在Rogerhu12/math-research-public；旧→公开迁移、全部规则差异与旧接口保完整归档链。规则11每次pull后核两README且至少每小时；12完整证明直接登记；13本库Actions；14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并基于新头追加。
 - 只写课题log，每轮≤5行，不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB、接口文本/Markdown<100KB、HANDOFF<10KB、open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–524已登记，R364仍开。R523=cea16cf6，R524=c0d07f33，R522本次登记；全部结论链接见results及分段索引。R513证书显示换基a+bδ=(a+b)+2bω修正已推795725ad；正文/δ矩阵不变。
+R1–363、R365–524、R527已登记，R364仍开。R523=cea16cf6，R524=c0d07f33，R522=4b3a60ca，R527本次登记；全部结论链接见results及分段索引。R513证书显示换基a+bδ=(a+b)+2bω修正已推795725ad；正文/δ矩阵不变。
 执行环境12:35 UTC断连，14:02再确认无可用执行环境。现连接GitHub读main、核规则、非force追加，未称实际git pull；恢复后先pull --rebase/核规，再合并遗留，不覆盖API结果。
 R501原正文/脚本/JSON已恢复；R502重建脚本公开Actions run43596695716/job132452617972实测成功，来源1dafbfa7，p239/D40/81行；原生JSON/日志已推da54025b，不跨p声称。
-root统一元数据及逐条发布，代理仅建proof/script blobs。theta续R528含c/d的共同D14三轨道正测试；deep续R526三层实际全局连接/forcing；literature的R527共同H0测试B逆已给blobs待读即发；root续R525原完整低degree非齐次行与共同测试。完整结论随到随推。
+root统一元数据及逐条发布，代理仅建proof/script blobs。theta续R528含c/d的共同D14三轨道正测试；deep续R526三层实际全局连接/forcing；literature续R529同一S/T实际混管；root续R525原完整低degree非齐次行与共同测试。完整结论随到随推。
 
 ## 完整归档与目标桥
 
@@ -38,6 +38,8 @@ q_p=H0^6/[216bΩ6(1+λκ6)]，H0unit加权推前恰等原其余五输出，四�
 原D_n五sigma深、xunit上H0/H1unit，测试质量整条0；Y首项(d/b)aY(1+λκ)/(1+λκ6)，aY=(−3221+5000ω)/(27·7^6)，NaY=1021/(3^5·7^7)，现p7mod64排1021。中央v5n；W/(6δ)同第五阶，W2/(−6δω²)与之差范数256/(3^7·7^5)unit。T D_n在h的W深管保完全同测试，但六原输入条件、第一Y权和三条实际补域未消。
 
 R523 B=103CH Norm3193、π1mod31 wholeβ，D_H=31Q0−a0B实际β。h中C独立sigma、D=31C−B五sigma，A=D+72C=103C4，A⊥B、C⊥D。wholeD2232/A7416²=I，KA h=KD h=h1至多两源互换；{A深r,C/Dunit}={A深r,Bunit}，归一λr同源，B逐次数逆抽ω²S。h原五深/Cunit小管与A^r真像v5n、旧Wdeep及四R保；自身1013 Trace88≠Nv484和固定大p门保持。R527用H0共同六次测试续完整π4返回，其B逆后局部质量不再为零，不能沿用R522零质量。
+
+R527已付E0=H0−(1−ω)CH，E*=(-1+4δ)E0/7；Π4=(Y,W,W′,D_H)与B/E0全正交。P_hat=Σ binom(6,j)η^j E0^(6−j)B^j/[216bΩ6(1+λκj)]在Bunit推前恰回Π4原联合。A偶深对h、8倍深对四态按完整逆域返回λr；Y/W′/E0均有实际A移权，旧W不动。原h小管中央v5n，1013 Trace861−Nv530=331unit并保固定p>(Nu+Nv+1)^2。局部质量不为零：−5ω²/(126b) β5nκ5n(1+λκ)Σc_j/(1+λκj)，Σc_j=0但c0≠0，亦v5n；原四R和完整补域保持。
 
 ## 惰性：原像、三层核与未付连接
 

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R527：H0/B六次整逆、完整四输出与同源carry](results/R527-original-h0-b-sixth-inverse-and-complete-joint-carry.md)：同一个六次测试经Bunit有限整逆准确返回整个(Y,W,W′,D_H)联合；偶A深保完整逆域和三处实际移权。原五深小管中央及新局部质量均v5n，同1013射线支付固定首项；七项质量与全部S/T补域保留。
+
 - [R522：三度共同伴随的完整偶张量与同一S/T正六次测试](results/R522-common-degree3-even-factor-and-same-st-positive-test.md)：原H0=ξ1−ξ3+x的整个degree3偶线准确因子化，单位正六次测试保其余五输出全部联合并同时还原S及两T；T与旧W核原样保测试。原五深网格质量整条为零、完整第五阶单位，两个T局部归一差亦为单位；三条真实补域保持。
 
 - [R523：隐藏CH绝对sigma核与原C/D同源算术carry](results/R523-original-hidden-sigma-core-and-same-source-c-carry.md)：原CH一层β与正交隐藏轴真实β完整支付，实际h中独立C-sigma/五sigma-D形成至多两源核心闭包。两单位相消域、B逐次数整逆及原S中央行全付，同1013射线保新测试原小管v5n，新增固定31 ray；旧W/四伴随和准确补域均未删。
