@@ -1,0 +1,219 @@
+{
+  "kind": "actual_public_complete_fixed_eta_quarter_cap_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43623547711",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+  "worker_source_sha256": "04d4380d840504f3aedf2da2d95f2112677819885f4a1e367480f97298b332db",
+  "started_utc": "2026-11-14T17:55:33.506131+00:00",
+  "children": [
+    {
+      "label": "actual_complete_quarter_cap_range",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_quarter_cap_sources.py",
+        "--phase",
+        "range",
+        "--workflow-run",
+        "43623547711",
+        "--out",
+        "/__w/_temp/visible-exact-quarter-output/native/new-fixed-eta-quarter-domains-0256-0512.json.gz",
+        "--first",
+        "256",
+        "--end",
+        "512",
+        "--candidate",
+        "/__w/_temp/visible-exact-quarter-prepared/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-quarter-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-quarter-plan/native/complete1977-fixed-eta-quarter-plan.json.gz"
+      ],
+      "started_utc": "2026-11-14T17:55:42.425487+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 1265.5421396259999,
+      "finished_utc": "2026-11-14T18:16:47.968241+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:55:35.548869+00:00",
+      "before": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+      "after": "941dec5f8d7a3a10fb797acf7029726e2377aa33",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:55:38.196097+00:00",
+      "before": "941dec5f8d7a3a10fb797acf7029726e2377aa33",
+      "after": "832258951a80ba363ea138ea8811221f457d2a9b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:55:40.958443+00:00",
+      "before": "832258951a80ba363ea138ea8811221f457d2a9b",
+      "after": "f9023b6307b01753998da02cac149a74adb9e3f2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:05:44.659050+00:00",
+      "before": "f9023b6307b01753998da02cac149a74adb9e3f2",
+      "after": "5b17d2ebf3b03618e9c896eb85c366e09b4d0ed2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:15:50.136531+00:00",
+      "before": "5b17d2ebf3b03618e9c896eb85c366e09b4d0ed2",
+      "after": "5d31dcfee113053f6eb877920a117081dd0da2dd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:16:49.846051+00:00",
+      "before": "5d31dcfee113053f6eb877920a117081dd0da2dd",
+      "after": "19bfcf1c6d01a48be6147ec2914e713d2908bc06",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:16:53.755375+00:00",
+      "before": "19bfcf1c6d01a48be6147ec2914e713d2908bc06",
+      "after": "22c9a61a2d3d6081e53a2bd119a948e04a0d76a5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:55:42.423355+00:00",
+      "final": false,
+      "commit": "97505754d4cbb24600860669d3e7b527f8ed0db8"
+    },
+    {
+      "time": "2026-11-14T18:05:46.953482+00:00",
+      "final": false,
+      "commit": "4b7888378dabb94af9644760438a48c84890674f"
+    },
+    {
+      "time": "2026-11-14T18:15:52.964088+00:00",
+      "final": false,
+      "commit": "466c34aabb016497758e4fb76e5e3dd0f6b5e14d"
+    },
+    {
+      "time": "2026-11-14T18:16:52.866972+00:00",
+      "final": false,
+      "commit": "22c9a61a2d3d6081e53a2bd119a948e04a0d76a5"
+    },
+    {
+      "time": "2026-11-14T18:16:55.743501+00:00",
+      "final": true,
+      "commit": "69446f88f936358ae27b4b19f4a07b1e0a15a3e5"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "range",
+  "source_range": [
+    256,
+    512
+  ],
+  "original_fixed_eta_pilot_run": 43619535345,
+  "original_fixed_eta_pilot_quarters_reused": 64,
+  "original_large_array_reconstructions_executed": 0,
+  "original_completed_domains_recomputed": 0,
+  "complete_true_cut_source_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "6dc5bf2d8030d506c74dc29ef2cb3c1991cd5f7fb8c2a051b03b0ad89cb2fb69",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "22c9a61a2d3d6081e53a2bd119a948e04a0d76a5",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-work/science",
+  "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+  "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "all_original_large_array_bytes_verified": true,
+  "large_matrix_reconstructions_executed": 0,
+  "actual_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
+  },
+  "snapshot_utc": "2026-11-14T18:16:54.245978+00:00",
+  "wall_seconds": 1280.74043218,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 776,
+      "sha256": "c9c5a40de92ee9bf97eae7f86ee5b724403da47298a88f84ccb2463463acf81c"
+    },
+    {
+      "logical_file": "evidence/actual-plan-process.json",
+      "file": "evidence/actual-plan-process.json",
+      "bytes": 11904,
+      "sha256": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43"
+    },
+    {
+      "logical_file": "evidence/complete-quarter-cap-range-summary.json",
+      "file": "evidence/complete-quarter-cap-range-summary.json",
+      "bytes": 1995,
+      "sha256": "2310944e13faf9af65003463700531e7710bdb8d08f2a40d76a2f03b3fa97c51"
+    },
+    {
+      "logical_file": "evidence/original-prepared-manifest.json",
+      "file": "evidence/original-prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "native/new-fixed-eta-quarter-domains-0256-0512.json.gz",
+      "lossless_manifest": "native-new-fixed-eta-quarter-domains-0256-0512.json.gz-04bff7029a899685-parts.json",
+      "bytes": 5722398,
+      "sha256": "04bff7029a899685af2a4ae9326041a07168242a8c892d60e505c1b5ca8a2137",
+      "parts": 3
+    }
+  ],
+  "complete_native_sha256": "04bff7029a899685af2a4ae9326041a07168242a8c892d60e505c1b5ca8a2137",
+  "actual_scientific_gates": 4,
+  "actual_new_domains_in_this_child": 1024,
+  "actual_completed_new_domains": 1024,
+  "finished_utc": "2026-11-14T18:16:53.401494+00:00"
+}
