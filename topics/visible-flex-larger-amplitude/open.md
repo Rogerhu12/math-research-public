@@ -46,9 +46,9 @@
 
 **59**在正确原576模型上接受alpha1，原norm .04177307820740199→.0001289424025918576，仍高于2e−9；全部577因子/129248exact行及selected状态字节已核。其选择状态作为61唯一真实初猜，不冒完整原生接受。
 
-**61当前实际失败而非超时/传输失败：** run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663，四轮freshwithJ/完整R273eta1 QR均返回，bridge_failure=null。原17个trial中3接受、14因residual-not-decreasing拒，0guard；最后iteration3十档全拒，freshwithJ norm7.952539043101878e−5，未到2e−9，最终endpoint J/fresh audit未完成。四轮保存矩阵上全部129248行原exact最坏约9.6856e−11，未预条件gradient仍大，不能称精确最优或保证真实DF。正式原小报告紧接登记。
+**61当前实际失败而非超时/传输失败：** run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663，四轮freshwithJ/完整R273eta1 QR均返回，bridge_failure=null。原17个trial中3接受、14因residual-not-decreasing拒，0guard；最后iteration3十档全拒，freshwithJ norm7.952539043101878e−5，未到2e−9，最终endpoint J/fresh audit未完成。四轮保存矩阵上全部129248行原exact最坏约9.6856e−11，未预条件gradient仍大，不能称精确最优或保证真实DF。已保存[完整native原结论](notes/2026-11-14-actual61-current-native-loop-and-trial-failure.md)、[四个当前QR及原exact读回](notes/2026-11-14-actual61-four-current576-QR-models-and-exact-readback.md)与完整小读数；不冒2.3GB大数组已核。
 
-实际还出现同一保存state上上一轮noJ和下一轮freshwithJ残差不一致，不能直接归因η或盲换阻尼。下一最小有因诊断：固定61最后state，同原配置只做一次原noJ，逐stage与已经保存的withJ r对照，读清路径/缓存/缓冲；不重四轮QR，不削原32轮/十trial/guard/容差。原2.335870174GB artifact14136633570/ZIP7b17d1b0由本仓Actions专用reader读取；原结果先保，完整导出字节核不改科学结论、不增验收门。
+实际还出现同一保存state上上一轮noJ和下一轮freshwithJ残差不一致，不能直接归因η或盲换阻尼。下一最小有因诊断：固定61最后state，同原配置只做一次原noJ，逐stage与已经保存的withJ r对照，读清路径/缓存/缓冲；不重四轮QR，不削原32轮/十trial/guard/容差。原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

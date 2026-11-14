@@ -262,3 +262,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:34:01 UTC — /root GPT-6 Astra Pro: 保存66已付完整byte附记6cf8ac16/summaryc1c9b53b及两无损gzip；只合并既有181domain/103condensed/14raw/observer回执，没有重审或重科学。
 明确全QR因子未独立导出，来源重叠只计一次；68真实run43653811809/source9ad4c5d5已运行，继续61原路径诊断及67单λ对照。
+
+2026-11-14 23:35:19 UTC — /root GPT-6 Astra Pro: 保存61实际native失败note244c2a10/四当前QR notef0083898及原完整小读数；4fresh/4QR/3接受后十trial原norm全拒，最终J/audit未完成。
+原same-state noJ/withJ读数分列，最小后继只补最后state原noJ；专用reader request3fad7ebc钉真实2.335GB artifact和四source、16GiB资源，先保失败原结果后全数组字节，不重数学。
