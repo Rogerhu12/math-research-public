@@ -245,3 +245,5 @@
 - [R120：真实第四成本闭凸锥的新增G直线方向](results/R120-G-lineality-of-the-closed-fourth-cost-cone.md) — R119乘子先在正/负整数互反零矩表准确消去；整路径R89真实缩放及R109商极限保势与桥，最高+2已付，H⁻¹正缩放后低权消而±κG保留。故所有真实成本非负泛函（含mixed权）杀G，有限维双极给R8+RG及G的有限仿射轨道都在成本闭锥lineality，维至少32。B Xⁿ Bᴿ的正归一极限付闭锥端口独立；严格限universal闭锥，不冒预定物理I、实际有限逆元或全函数控制。
 
 - [R121：中央基准补偿后的31+1真实查询联合支付](results/R121-central-baseline-correction-and-joint-fourth-query-control.md) — 先用R117中央MT0块逐个准确清掉第三prototype的λv，保τ及K不变；完整R101词仍为E+n(2v̂+tK)，其λ查询不再随n增长。先固定t盒/m，再取中央N，最后响应n，把中央完整N²/N³成本留在Q下，以一次乘积盒Brouwer付同一I/同合法C∞三矩圆的32个任意共同目标；一般r个响应方向给r+1。可接真实I→D基准和R45四块闭浸入，保全部连接成本；未认商恰一维、完整函数/ruling或目标闭面已成。
+
+- [R123：静态纯尾的三维分权系数商与G的准确投影遗漏](results/R123-static-pure-tail-three-dimensional-graded-quotient-and-G-blindness.md) — actual43648433010消费完整197个pure几何原根，154非零/254分权目标，全有理分解差零；模31维响应的分权系数商为3维（w−1一、w0二），均在旧45行内，四块偶商2维。完整G纯m8九项恰原列10/128，说明此投影不忠实检测完整成本商。2.596s/RSS116.625MiB，新7toy过，完整证书保存；未施加真实M0、未认未分权或可达秩。下一真实规范化须连同−Σa_i(m2)Fi补项，不能将∫m0当0；原L2/L4仍欠。
