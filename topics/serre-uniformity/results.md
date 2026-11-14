@@ -614,3 +614,5 @@
 - **R695（已证明约化）**：[原C的二次Gamma普通整除判据](results/R695-original-C-second-Gamma-ordinary-division.md)。完整P上普通H¹与原两标记cocycle给Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9；消去未知y且不假设m=43。每个κ都通过域整除，故仍须真正普通单位测试，未求原C/L。
 
 - **R694（已证明）**：[3处椭圆尾模型与原CM校准零靶](results/R694-three-adic-elliptic-tail-model-and-actual-CM-zero-orbit.md)。实际T=X(6p)/Q8在3处为一个中心加椭圆尾，边长1/4；中心及唯一CM项链尾商恒定，λ3(c1)=0、ω0=0。一般非CM尾φ_s仍未计算。实际p处Λ jet、赋值及统一全尾仍待求。
+
+- **R696（已证明）**：[同一个实际全局CM同构迫使候选坏处零靶](results/R696-actual-global-CM-isomorphism-forces-zero-bad-height-target.md)。用R317完整分解群的标量中心化子跟踪给定Φ；奇分支与偶分支四阶τ均保留唯一CM Cartan，实际候选λ2=λ3=0，Ω_actual={0}。变化d只经原局部同构运输，未换全局商。实际p处Λ jet、赋值及统一全尾仍待求。
