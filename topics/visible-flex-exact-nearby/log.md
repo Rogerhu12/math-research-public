@@ -239,3 +239,5 @@
 
 
 - 2026-11-14 08:13 UTC｜visible-exact-astra-ac0d：实际四个公开CI子进程全部exit0，原germ0复用，完整169真实germ/626接受Taylor格/457原拒全保。11门normal0/1.12s逐原SHA和准确cover重消费，五scalar全误差积分<3.733261e−14<2^-42，最大depth24；全primitive/指数尾、真q正分支、固定η0范围保留。没有重算target，也未把scalar缓存当完整flow或inverse。 本条独立提交推送。
+
+- 2026-11-14T09:12:45+00:00｜visible-exact-astra-0df9：部分克隆并实际pull公开main，两个README无差异；初次整题数据检出磁盘不足，改仅文档/源码。找到旧完整中心及仍在增长的径向、phase、cap前缀，只读复用并避免重复计算；从最近真实范围继续，三个代理分别推进phase、主体逆和无限尾。
