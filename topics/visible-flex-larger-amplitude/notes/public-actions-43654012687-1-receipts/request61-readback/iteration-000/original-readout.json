@@ -1,0 +1,296 @@
+{
+  "schema": "current576-original-child-scalars-v1",
+  "result": {
+    "file": "result.json.gz",
+    "bytes": 4471,
+    "sha256": "27ff008b4d75808a24b99807260de31dffaca184401fa8e8773c168b94ed4799",
+    "decompressed_bytes": 15970,
+    "decompressed_sha256": "d8e52fc997c0f594aa1b4ad63188d74416eca9e944dda1f458cb615135312d7d",
+    "gzip_crc_complete": true
+  },
+  "original_status": {
+    "schema": "complete-native-current576-damped-square-root-direction-v1",
+    "source_sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+    "system_source_sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+    "factor_engine_source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+    "kernel_source_sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+    "eta_cli_text": "1",
+    "model_scope": "R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates",
+    "original_native_calls_in_this_child": 0,
+    "new_RHS_calls_in_this_child": 0,
+    "new_J_calls_in_this_child": 0,
+    "new_ODE_steps_in_this_child": 0,
+    "nonlinear_trials_in_this_child": 0,
+    "snapshot_contains_one_real_fresh_current_withJ_evaluation": true,
+    "scientific_call_counts_above_describe_only_this_child_not_the_parent_native_solve": true,
+    "diagnostic_completed": true,
+    "linear_direction_computed": true,
+    "native_accepted": false,
+    "task_completed": false,
+    "target_is_complete_fresh_current576_saved_matrix": true,
+    "no_cached_baseline": true,
+    "original_cut_H_far_and_sigma_not_changed": true,
+    "current_cut_far_direction_not_projected_or_zeroed": true,
+    "no_normal_matrix_Riccati_inverse_rank_truncation_or_extra_ridge": true,
+    "damping_is_not_a_new_final_equation_or_acceptance_tolerance": true,
+    "exact_linear_defect_not_used_as_new_native_trial_gate": true,
+    "original_native_trial_convergence_finalJ_audit_remain_in_parent": true,
+    "factor_budget_seconds": null,
+    "maximum_factor_bytes": 2147483648,
+    "exact_workers": 2,
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0",
+    "native_call": 1,
+    "nonlinear_iteration": 0,
+    "snapshot_sequence": 0,
+    "current_state_sha256": "384de298d6274ef7a6f5bdbc4e6cf6ef9dee5fb9bffd020b7b60001463940e03",
+    "new_matrix_identity_sha256": "3a5bcab4442e5539bcd6d52fe809078531a5181c643999a3628ea15b4968864c",
+    "elapsed_seconds": 23.170818268999938,
+    "maximum_RSS_kib": 725212
+  },
+  "original_factor_summary": {
+    "complete": true,
+    "rows": 129248,
+    "columns": 129248,
+    "augmented_rows": 258496,
+    "stage_count": 576,
+    "node_count": 577,
+    "block_width": 224,
+    "node_penalty_blocks": 577,
+    "qr_calls": 1153,
+    "formation_calls": 1152,
+    "formation_underflow_to_binary64_zero": 0,
+    "pure_constant_rows": 129248,
+    "actual_factor_and_constant_bytes": 464891392,
+    "formed_model_identity_sha256": "bcb34407da5df0e713fdf7f87a62f1e972794b27fd4be4ad3adf868d1898bdb9",
+    "pure_constant_energy_longdouble": {
+      "decimal_display": "1.31020092630198126364e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "minimum_absolute_triangular_diagonal": {
+      "value": 1.1915065260525806,
+      "float64le_hex": "ccdca5256910f33f",
+      "classification": "finite"
+    },
+    "expected_factor_and_constant_bytes": 464891392,
+    "maximum_declared_factor_bytes": 2147483648,
+    "working_precision": {
+      "dtype": "float128",
+      "itemsize": 16,
+      "significand_bits": 64,
+      "minexp": -16382,
+      "maxexp": 16384,
+      "byteorder": "little",
+      "exact_rational_arithmetic_claimed": false
+    },
+    "elapsed_seconds": 22.40335964199994,
+    "maximum_RSS_kib": 725212
+  },
+  "original_model": {
+    "arithmetic": "Longdouble numerical actions of exactly the same formed f64 coefficients; no exact certificate",
+    "model_identity_sha256": "bcb34407da5df0e713fdf7f87a62f1e972794b27fd4be4ad3adf868d1898bdb9",
+    "scope": "Scaled z before actual sigma*z recovery; exact final delta rows are reported separately",
+    "base_objective": {
+      "decimal_display": "5.8964241258891773136e-08",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "objective": {
+      "decimal_display": "6.5510046315094011616e-21",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_drop": {
+      "decimal_display": "5.896424125888522213e-08",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_two_norm": {
+      "decimal_display": "1.1440448194968094127e-10",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_infinity_norm": {
+      "decimal_display": "9.685625012058062889e-11",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "full_unpreconditioned_model_gradient_two_norm": {
+      "decimal_display": "405733.65259936885695",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "gradient_dimension": 129248,
+    "factor_variable_square": {
+      "decimal_display": "1.2375376939104786072e-39",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "constant_square": {
+      "decimal_display": "1.31020092630198126364e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_energy_minus_factor_energy": {
+      "decimal_display": "-1.0103146193287089313e-33",
+      "finite": true,
+      "zero": false,
+      "negative": true,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "factor_triangular_residual_infinity": {
+      "decimal_display": "2.0792011877132903636e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_gradient_is_not_native_acceptance": true,
+    "no_R273_posterior_certification_from_rounded_norms": true
+  },
+  "original_exact": {
+    "full_report": {
+      "file": "current576-exact-readback.json.gz",
+      "bytes": 161630,
+      "sha256": "3d8a402c593678f78481a975fc1396add5b2b0190624b5d408c2741f6f3a941c"
+    },
+    "snapshot_result": {
+      "file": "result.json",
+      "bytes": 1301,
+      "sha256": "8414a098f9bbd87b373b50e9579c04d9c1af11f9c31a5c613c7db29452ed86d2"
+    },
+    "native_call": 1,
+    "nonlinear_iteration": 0,
+    "snapshot_sequence": 0,
+    "current_state_sha256": "384de298d6274ef7a6f5bdbc4e6cf6ef9dee5fb9bffd020b7b60001463940e03",
+    "new_matrix_identity_sha256": "3a5bcab4442e5539bcd6d52fe809078531a5181c643999a3628ea15b4968864c",
+    "direction_label": "current_damped",
+    "direction_float64le_sha256": "83a5cf02a431eb39301c45932b1e098f07a9414fd30410438ac8958c54072c0d",
+    "exact_global_original_sigma_norm": {
+      "kind": "stage",
+      "node": 9,
+      "row": 0,
+      "global_equation_row": 2128,
+      "component": "Q",
+      "mode": 1,
+      "original_sigma_float64le_hex": "14b8f8fa483ef73c",
+      "exact_unscaled_dyadic": [
+        "0x4d5a488fa6f6a60011dcd6f6390301d05e6b89e653c08fedb77947d12fd70726855cd600470d6f3e9ecf",
+        -415
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "42297420713654940315043767599639651934123711456546703931852597758629157456978484618459196569637789391",
+        "denominator": "436703059028168166080978060232708216856056042126169240291211250069987701314172085266490508997672681148778545152",
+        "decimal_display_64_significant_digits": "9.685625012058062404290715378074972870371298997949219946410926342E-11",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "42297420713654940315043767599639651934123711456546703931852597758629157456978484618459196569637789391",
+        "denominator": "436703059028168166080978060232708216856056042126169240291211250069987701314172085266490508997672681148778545152",
+        "decimal_display_64_significant_digits": "9.685625012058062404290715378074972870371298997949219946410926342E-11",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "fresh-current-native576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3a5bcab4442e5539bcd6d52fe809078531a5181c643999a3628ea15b4968864c",
+      "snapshot_result_sha256": "8414a098f9bbd87b373b50e9579c04d9c1af11f9c31a5c613c7db29452ed86d2",
+      "nonlinear_iteration": 0,
+      "snapshot_sequence": 0,
+      "source_stage": {
+        "rawCell": 0,
+        "rawSegment": 7,
+        "portRatio": 1,
+        "mu": 1.0048110027994864e-11,
+        "profiles": [
+          []
+        ]
+      }
+    },
+    "exact_stored_base_sigma_norm": {
+      "kind": "stage",
+      "node": 11,
+      "row": 187,
+      "global_equation_row": 2763,
+      "component": "Pi",
+      "mode": 76,
+      "original_sigma_float64le_hex": "3d3e5ef00550f73c",
+      "exact_unscaled_dyadic": [
+        "0x231",
+        -69
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "1204738326528",
+        "denominator": "6561910902111805",
+        "decimal_display_64_significant_digits": "1.835956544518581895024349715138330078487091138131815916463836851E-4",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "1204738326528",
+        "denominator": "6561910902111805",
+        "decimal_display_64_significant_digits": "1.835956544518581895024349715138330078487091138131815916463836851E-4",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "fresh-current-native576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3a5bcab4442e5539bcd6d52fe809078531a5181c643999a3628ea15b4968864c",
+      "snapshot_result_sha256": "8414a098f9bbd87b373b50e9579c04d9c1af11f9c31a5c613c7db29452ed86d2",
+      "nonlinear_iteration": 0,
+      "snapshot_sequence": 0,
+      "source_stage": {
+        "rawCell": 0,
+        "rawSegment": 7,
+        "portRatio": 1,
+        "mu": 1.0048110027994864e-11,
+        "profiles": [
+          [
+            0.9577179846526143
+          ]
+        ]
+      }
+    },
+    "actual_original_withJ_norm": {
+      "value": 0.00018359565445185818,
+      "float64le_hex": "6307c2a97210283f",
+      "classification": "finite"
+    },
+    "exact_rows": 129248,
+    "completed_stages": 576,
+    "original_product_positions": 28901488,
+    "all_exact_residual_rows": {
+      "name": "current576-all-exact-rows",
+      "file": "large-arrays/current576-all-exact-rows.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 5937492,
+      "sha256": "3fe78d01867f5f44111ee809fa667e489214a0be79fd4cb9e40c9d8b8d7d40d6",
+      "role": "Every actual current unscaled cut/stage/far row, then exact division by actual original sigma; no eta rows"
+    },
+    "worst_witness": {
+      "file": "current576-worst-witness.json",
+      "bytes": 11005,
+      "sha256": "51e8dde71030f16eab5035150cc122df62b3519e99e56c46489aedb09ba11ae4"
+    },
+    "used_as_new_nonlinear_acceptance_gate": false,
+    "no_float_refinement_RHS_formed": true
+  },
+  "byte_audit_not_yet_complete": true
+}

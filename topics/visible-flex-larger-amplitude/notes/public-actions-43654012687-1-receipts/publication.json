@@ -1,0 +1,224 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T23:37:58.612997+00:00",
+  "source_commit": "49dcce7493a78b158f905d6d218d51e2ae1be1a3",
+  "run_id": "43654012687",
+  "run_attempt": "1",
+  "lane": "receipts",
+  "files": [
+    {
+      "source": "completed-readback-request-identity.json",
+      "bytes": 2552,
+      "sha256": "2fb9343b9d9c972d8d79d87a27964ddd3b7b975ce053083a0ddefcd0609c3731",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/completed-readback-request-identity.json",
+      "published_bytes": 2552,
+      "published_sha256": "2fb9343b9d9c972d8d79d87a27964ddd3b7b975ce053083a0ddefcd0609c3731"
+    },
+    {
+      "source": "original-readback.log",
+      "bytes": 4533,
+      "sha256": "142c4113ca7cb5a44270c15341d4fa9f841461126d02108c6d28ea66f8b2adec",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/original-readback.log",
+      "published_bytes": 4533,
+      "published_sha256": "142c4113ca7cb5a44270c15341d4fa9f841461126d02108c6d28ea66f8b2adec"
+    },
+    {
+      "source": "readback-storage.json",
+      "bytes": 183,
+      "sha256": "95059a506219922755cdb2ca27c4c95e1490c6f6554a669c368c66ba4b4b86a0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/readback-storage.json",
+      "published_bytes": 183,
+      "published_sha256": "95059a506219922755cdb2ca27c4c95e1490c6f6554a669c368c66ba4b4b86a0"
+    },
+    {
+      "source": "request61-readback/current576-readback-summary.json",
+      "bytes": 10888,
+      "sha256": "2559f04af74d9c091c45d36fd75d21d09f6129c1679fce1ca601bb0c328bc92c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/current576-readback-summary.json",
+      "published_bytes": 10888,
+      "published_sha256": "2559f04af74d9c091c45d36fd75d21d09f6129c1679fce1ca601bb0c328bc92c"
+    },
+    {
+      "source": "request61-readback/iteration-000/byte-summary.json",
+      "bytes": 13804,
+      "sha256": "c90852c3b211fd0e5e23977c2ce97e3db60d661a39c0122b65406e20dd93210b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-000/byte-summary.json",
+      "published_bytes": 13804,
+      "published_sha256": "c90852c3b211fd0e5e23977c2ce97e3db60d661a39c0122b65406e20dd93210b"
+    },
+    {
+      "source": "request61-readback/iteration-000/large-arrays/complete-byte-detail.json.gz",
+      "bytes": 267350,
+      "sha256": "71299ac8e61cb93a159c8c955d243f565f0737c96614fb23b7230ee4268b2180",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-000/large-arrays/existing-file-inventory.json.gz",
+      "bytes": 78373,
+      "sha256": "9ee3037d42e4f5585c4668e5677f4079bf6a1847c7667d3e38e73a3bd646aa2f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-000/original-readout.json",
+      "bytes": 12077,
+      "sha256": "2794ecaa5c277f81e39a273cf263e7bae1fc7616faccba8bc3e45f86a2101f1c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-000/original-readout.json",
+      "published_bytes": 12077,
+      "published_sha256": "2794ecaa5c277f81e39a273cf263e7bae1fc7616faccba8bc3e45f86a2101f1c"
+    },
+    {
+      "source": "request61-readback/iteration-000/reader-status.json",
+      "bytes": 6563,
+      "sha256": "fbbb4f93417aafe0797435308b32745d8469c6cb731eb42b42385eb481553dae",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-000/reader-status.json",
+      "published_bytes": 6563,
+      "published_sha256": "fbbb4f93417aafe0797435308b32745d8469c6cb731eb42b42385eb481553dae"
+    },
+    {
+      "source": "request61-readback/iteration-001/byte-summary.json",
+      "bytes": 13748,
+      "sha256": "7adb58a21d50236eb64bcf4f4e7636521ac8750a26e80a53102230bf5f39aef9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-001/byte-summary.json",
+      "published_bytes": 13748,
+      "published_sha256": "7adb58a21d50236eb64bcf4f4e7636521ac8750a26e80a53102230bf5f39aef9"
+    },
+    {
+      "source": "request61-readback/iteration-001/large-arrays/complete-byte-detail.json.gz",
+      "bytes": 267483,
+      "sha256": "3f56bfc541568f1d1604fe40bb01cc2391855ccf8f47585366b93bbb8849d25e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-001/large-arrays/existing-file-inventory.json.gz",
+      "bytes": 78318,
+      "sha256": "dd2df128bef465a1b012581fc3c8167937d6845ba5fcccfe39e1b4685727aaa8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-001/original-readout.json",
+      "bytes": 12020,
+      "sha256": "334422358df754339913c969fd5e72ec0863e47e1dbf2cbefc77aa2bd1e780d2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-001/original-readout.json",
+      "published_bytes": 12020,
+      "published_sha256": "334422358df754339913c969fd5e72ec0863e47e1dbf2cbefc77aa2bd1e780d2"
+    },
+    {
+      "source": "request61-readback/iteration-001/reader-status.json",
+      "bytes": 6564,
+      "sha256": "af390e0fc27e81427cb59b61a490ab87089c52bad8c2bd44ac74ac854ebc3426",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-001/reader-status.json",
+      "published_bytes": 6564,
+      "published_sha256": "af390e0fc27e81427cb59b61a490ab87089c52bad8c2bd44ac74ac854ebc3426"
+    },
+    {
+      "source": "request61-readback/iteration-002/byte-summary.json",
+      "bytes": 13793,
+      "sha256": "fb72d0f637e0b993b02e6080ec47ab54b930a145fcfa485c9ea8ea1471cf2fd2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-002/byte-summary.json",
+      "published_bytes": 13793,
+      "published_sha256": "fb72d0f637e0b993b02e6080ec47ab54b930a145fcfa485c9ea8ea1471cf2fd2"
+    },
+    {
+      "source": "request61-readback/iteration-002/large-arrays/complete-byte-detail.json.gz",
+      "bytes": 267383,
+      "sha256": "f26e113e139bd4ebfcc1f32e0d668c5cbcff5d956f9aaa0c0a4eb38bdf266cd5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-002/large-arrays/existing-file-inventory.json.gz",
+      "bytes": 78332,
+      "sha256": "44264155e33f28cc95888c89ac9d4c9be8288630783547c2adcceba4d4c82c06",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-002/original-readout.json",
+      "bytes": 12066,
+      "sha256": "9a4e65665c6d7c717f1b8bd6440c791758853baf4e73e2361796c99f7f125ecc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-002/original-readout.json",
+      "published_bytes": 12066,
+      "published_sha256": "9a4e65665c6d7c717f1b8bd6440c791758853baf4e73e2361796c99f7f125ecc"
+    },
+    {
+      "source": "request61-readback/iteration-002/reader-status.json",
+      "bytes": 6564,
+      "sha256": "f1423058ce60d44d356179c81181c27ef4ce312b1994ff96af5cd8912f087114",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-002/reader-status.json",
+      "published_bytes": 6564,
+      "published_sha256": "f1423058ce60d44d356179c81181c27ef4ce312b1994ff96af5cd8912f087114"
+    },
+    {
+      "source": "request61-readback/iteration-003/byte-summary.json",
+      "bytes": 13800,
+      "sha256": "fe04d8dea2be1b70cc7cfc3455b3645a976f124bed90e883c4e53143805d2c5d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-003/byte-summary.json",
+      "published_bytes": 13800,
+      "published_sha256": "fe04d8dea2be1b70cc7cfc3455b3645a976f124bed90e883c4e53143805d2c5d"
+    },
+    {
+      "source": "request61-readback/iteration-003/large-arrays/complete-byte-detail.json.gz",
+      "bytes": 267334,
+      "sha256": "537e99fca869afcc08dcd05f6ef40d564bad3b702f314f04bc0cdce4135d70b7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-003/large-arrays/existing-file-inventory.json.gz",
+      "bytes": 78286,
+      "sha256": "e186078ea1662f1f4f42455b8edb3f22fc67ec708d096cb1e5804efbe23a5990",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/iteration-003/original-readout.json",
+      "bytes": 12072,
+      "sha256": "05fb2a4f7f9db89ac4b52e5e04929100018d50910884e4cc2d9cc098074a85d5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-003/original-readout.json",
+      "published_bytes": 12072,
+      "published_sha256": "05fb2a4f7f9db89ac4b52e5e04929100018d50910884e4cc2d9cc098074a85d5"
+    },
+    {
+      "source": "request61-readback/iteration-003/reader-status.json",
+      "bytes": 6562,
+      "sha256": "0b57602c5f6d08493803167bb4bf96524b1b904eba991d56b9f954523bbe48a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/iteration-003/reader-status.json",
+      "published_bytes": 6562,
+      "published_sha256": "0b57602c5f6d08493803167bb4bf96524b1b904eba991d56b9f954523bbe48a2"
+    },
+    {
+      "source": "request61-readback/large-arrays/complete-existing-file-inventory.json.gz",
+      "bytes": 318466,
+      "sha256": "5e15bd0ed889f4a5987bed0276af7e70ab77dded9c1e71fc58a120e6d256ba6b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/large-arrays/complete-original-transport-receipt.json.gz",
+      "bytes": 366958,
+      "sha256": "bb4eb4366f7f031411ece75812455bdf63c5649cc3bd7e102a2483dc74d0105a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request61-readback/original-native-outcome.json",
+      "bytes": 2593,
+      "sha256": "e2dfaa0791626bb481a3986173a4986b9724238848ff7bb6c44bfb5c3e8ae0b3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/original-native-outcome.json",
+      "published_bytes": 2593,
+      "published_sha256": "e2dfaa0791626bb481a3986173a4986b9724238848ff7bb6c44bfb5c3e8ae0b3"
+    },
+    {
+      "source": "request61-readback/original-rule-runner-result.json",
+      "bytes": 480,
+      "sha256": "3e8d337b0fd55b01b4d309d25c827036251fa387634e64d0c539a251dc310dbd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/original-rule-runner-result.json",
+      "published_bytes": 480,
+      "published_sha256": "3e8d337b0fd55b01b4d309d25c827036251fa387634e64d0c539a251dc310dbd"
+    },
+    {
+      "source": "request61-readback/source-and-loop-byte-identity.json",
+      "bytes": 4102,
+      "sha256": "a75f29cbe2cc0da098be2f87e3d6aa786d41a840c075dc6c0d7fdaf55dd2cfcf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43654012687-1-receipts/request61-readback/source-and-loop-byte-identity.json",
+      "published_bytes": 4102,
+      "published_sha256": "a75f29cbe2cc0da098be2f87e3d6aa786d41a840c075dc6c0d7fdaf55dd2cfcf"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43654012687"
+}

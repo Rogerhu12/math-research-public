@@ -1,0 +1,117 @@
+{
+  "schema": "current576-complete-loop-source-byte-audit-v1",
+  "source_files": [
+    {
+      "file": "exact_20261114_current576_damped_chain_qr.py",
+      "bytes": 21013,
+      "sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f"
+    },
+    {
+      "file": "exact_20261114_current576_damped_system.py",
+      "bytes": 22749,
+      "sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90"
+    },
+    {
+      "file": "exact_20261114_native_allrows_dyadic_residual.py",
+      "bytes": 36438,
+      "sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f"
+    },
+    {
+      "file": "exact_20261114_native_damped_chain_qr.py",
+      "bytes": 42340,
+      "sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33"
+    },
+    {
+      "file": "exact_20261114_seeded_zero_tail_client.py",
+      "bytes": 21980,
+      "sha256": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776"
+    },
+    {
+      "file": "exact_20261114_true_tail_client.py",
+      "bytes": 19526,
+      "sha256": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09"
+    },
+    {
+      "file": "geometry_20261114_native_captured_band_correction.py",
+      "bytes": 36867,
+      "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390"
+    },
+    {
+      "file": "tail_frozen_worker.mjs",
+      "bytes": 5149,
+      "sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054"
+    },
+    {
+      "file": "tail_resumable_engine.mjs",
+      "bytes": 4193,
+      "sha256": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8"
+    },
+    {
+      "file": "geometry_20261114_native_current576_damped_solve.py",
+      "bytes": 25983,
+      "sha256": "06b8c44c115fcf754e963aeeb3adc04a26500cade3817018bae50e2e50aebc3b"
+    },
+    {
+      "file": "geometry_20261114_native_current576_damped_solve_hook.mjs",
+      "bytes": 44103,
+      "sha256": "0933ee819ce56be648f17e2e876372e943059f19c79fed701bda60ec11cf66dc"
+    },
+    {
+      "file": "exact_20261114_audit_damped_chain_bytes.py",
+      "bytes": 34986,
+      "sha256": "5618d29c41d95d668c959b05cee8295ce4285b2a50961277f557f8cfb717b440"
+    },
+    {
+      "file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+    }
+  ],
+  "original_specification": {
+    "bytes": 12754,
+    "encoding": "json-gzip",
+    "file": "current-solve-spec.json.gz",
+    "raw_bytes": 139394,
+    "raw_sha256": "89d920c28a1bcc4e1edbe3e9ae037999b53dea04103275aa5cc23fbff65475e7",
+    "sha256": "545d30efe63526f8a88c9a50ebe601aa8e5183abccebde7037a47983b3b8ae3d"
+  },
+  "parent_receipts": {
+    "binary": {
+      "bytes": 954571,
+      "file": "selected-state.f64le.gz",
+      "sha256": "8ade070f746caed9a45c582c7485a060e55ee589858f5f88255d8ffd0d9112cb"
+    },
+    "checkpoint": {
+      "bytes": 1255992,
+      "file": "selected-state-checkpoint.json.gz",
+      "sha256": "7659016c0218b8c2e9ba220ca81a0b410b7e38005ea609e417b9b534d76c3556"
+    },
+    "height_float64le_sha256": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+    "public_run": "43640772654",
+    "result": {
+      "bytes": 10047,
+      "file": "result.json",
+      "sha256": "c0a9b191e843e9036e84707ffa1855d5881dce13e4b71bf94812e9526b59d00e"
+    },
+    "states_float64le_sha256": "384de298d6274ef7a6f5bdbc4e6cf6ef9dee5fb9bffd020b7b60001463940e03",
+    "summary": {
+      "bytes": 5762,
+      "file": "trial-replay-summary.json",
+      "sha256": "770b97e62eda7cbcc10b045c42298b95ef2c55a0f2dd5ac1930690175a156709"
+    }
+  },
+  "parent_payloads_not_redownloaded_by_this_reader": true,
+  "original_core_and_actual_method_sources_verified": true,
+  "original_max_iterations": 32,
+  "original_tolerance": 2e-09,
+  "original_selected_noJ_norm": {
+    "value": 0.0001289424025918576,
+    "float64le_hex": "491eedcd96e6203f",
+    "classification": "finite"
+  },
+  "original_eta": {
+    "classification": "finite",
+    "float64le_hex": "000000000000f03f",
+    "value": 1.0
+  }
+}
