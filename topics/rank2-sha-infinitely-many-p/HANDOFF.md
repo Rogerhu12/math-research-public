@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：cd8a95d4955bb6e2ac2c44455004cc266e2db393；2026-11-14 16:11:37 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：1e371bda75d38031869fc5a6b3c4269220ed12c8；2026-11-14 16:16:09 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -15,7 +15,7 @@
 ## 发布、正在用的文件与分工
 
 R1–363、R365–536及R538–539已登记；R364仍开，R537在研。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
-最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r539.md)、[本轮open](notes/2026-11-14-open-before-r533.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
+最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-negative-first-layer.md)、[本轮open](notes/2026-11-14-open-before-r533.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
 root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta已付R539混Y八度两态，续R541实际Q/R自由sigma及完整补域；literature续原A5/J近相消与混Y（R538同域收缩已付）；deep续R537原三层α/β及forcing。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
 
 ## 完成桥与全部保留分支
@@ -45,10 +45,8 @@ R479–526的原低行、高尾、十三行carry、全Γ与同一M/p³修正均�
 R525/534完整零估计及跨s双接触已付：P/VP到T≤3s仍T≤2AB+B；原Wronskian三Gauss行给2H+K≤v1+v2+v3+q(2AΣ+2q+1)，q=k(k−1)/2，AΣ=Σ(3c+degf−ordf)。同一primitive p²核的m_d只有0/1 Smith，故左端真为2s+ell。原E_N/C_N帽和临界支持liminf k/N^(1/3)≥(3/7)^(1/3)、p常数[34(2+τ)/147]^(1/6)全保正文；仍允许O(N)权，须真α/β/forcing。
 R530 Qp两端整性及所有Gauss交换子/wrap/U0高尾，只对同一B或conductor·B；裸Q保A/像稳定未付。有界代表不添独立Smith行。
 
-Fermat移位排除接口见notes/2026-11-14-fermat-shifts-and-kernel-syzygy-boundary.md：全部移位恰生成canonical j的整对角投影，混权式Cα=M Qα−F*α M在原左右核方程理想内。仅增移位不加独立Smith条件；需真候选值、未付提升或核/像稳定，root转这些实际条件。
-
-三层乘积未闭合见notes/2026-11-14-deep-three-layer-product-and-ramification-cost.md：A⊗B=C不支付K2→K3，真实normal微分有EF分母，局部修正清极升5C；k0/1镜轴Cartier改写不消全局α/β。仍按原3C预算继续。
-
-新sigma/Lubin–Tate文献入口及实际已读范围见notes/2026-11-14-deep-new-sigma-and-lubin-tate-literature-entry.md：两份2026新稿仅摘要；Ardakov–Berger精确赋值只付实际LT character，未识别原Theta/sigma/中央或αβ，不作新非零输入。
+失败路线/文献入口均在results其他索引及本轮归档：Fermat移位只生成j整对角投影且在原左右核理想内；三层normal修正清极升5C，不能付原3C连接；两份2026新sigma/LT稿仅摘要，已读LT character公式未识别原source。这些均不添原中央或forcing非零。
 
 J反射边界已付，见notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md：真实F−在S102的N7循环恰3维、N7³=ω、wholeK102=−1；原S/H3/H5三个算术投影全0，不能免费回其中央。literature转f4完整Schwartz/负二分支，root攻其真实modp对角；均不预断非零。
+
+原f4负二/f1负五矩的真实第一层见notes/2026-11-14-degree6-negative-moment-first-layer.md：p=6s+1准确读[u^(s−1)]AS/ABS，递推全部分母单位。147个p<2000仅有限证据（f4无零，f1在61首层零）；不代表当前全ray或无穷非零，继续完整算术角色及实际补域。

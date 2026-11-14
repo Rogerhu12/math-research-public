@@ -279,6 +279,8 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 ## 其他完整子结论及范围核查
 
+- [原六度固定负矩的普通第一层与有限计算](notes/2026-11-14-degree6-negative-moment-first-layer.md)：给两负矩准确的固定级数prime diagonal及无p分母递推；147个普通p<2000仅有限证据，f4首层全非零、f1在61首层为零。没有无穷非零或全ray命中结论。
+
 - [原J反射的三维CM块与算术投影边界](notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md)：保全六sigma来源及十八维精确CM矩阵，反射源循环恰三维、N7³=ω，原三算术投影全零；无法直接从原S/H3/H5中央取回这条反射源。
 
 - [新sigma与Lubin–Tate文献入口及已读范围](notes/2026-11-14-deep-new-sigma-and-lubin-tate-literature-entry.md)：保存2026新稿与官方讲座入口；未取全文的结果不作原中央或forcing输入。已读LT精确系数赋值的坐标与对象边界完整记录。
