@@ -1,0 +1,1374 @@
+{
+  "format": "r150-197-third-complete-actual-recovery-publication-v1",
+  "allActualRecoveryFilesPreserved": true,
+  "allStageCachesIncluded": true,
+  "originalFiles": 135,
+  "originalBytes": 188295295,
+  "fallbackFiles": 0,
+  "files": [
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-backward.bin",
+      "originalBytes": 3052119,
+      "originalSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-normal-ten__actual-T-normal-ten-backward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-forward.bin",
+      "originalBytes": 2378937,
+      "originalSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-normal-ten__actual-T-normal-ten-forward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-local-normal.json",
+      "originalBytes": 437,
+      "originalSHA256": "c576f427c19855f611186c5a078e298750d154207b0e880aaa4676d0940a7c9b",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "actual-T-normal-ten__actual-T-normal-ten-local-normal.json"
+      ]
+    },
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-local-prebasis-source-jets.bin",
+      "originalBytes": 4673284,
+      "originalSHA256": "e303775ac6a72911259e910d92b7eeee9d5510ea744465c76f6c9ec5013a7f3a",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-normal-ten__actual-T-normal-ten-local-prebasis-source-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-normal-checkpoint.bin",
+      "originalBytes": 6113892,
+      "originalSHA256": "30ed962c4d5b76052889afad0ef7d558753ed49e9362456d2e6849ecb36d0161",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-normal-ten__actual-T-normal-ten-normal-checkpoint.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "actual-T-normal-ten/actual-T-normal-ten-original1034-root2-ten.bin",
+      "originalBytes": 2045734,
+      "originalSHA256": "769a59a59fb6f8b825b390278c5fd674d256a884be49e2c1dc461d17d6026184",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-normal-ten__actual-T-normal-ten-original1034-root2-ten.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "actual-T-ten/actual-T-ten-T-field-root2-ten.bin",
+      "originalBytes": 8638344,
+      "originalSHA256": "2b6d09037cb4a6154c2e4653d7444a81636ebca45b29dcc90a4eed2245587ba4",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-ten__actual-T-ten-T-field-root2-ten.bin.gz.part001",
+        "certificates/actual-T-ten__actual-T-ten-T-field-root2-ten.bin.gz.part002"
+      ]
+    },
+    {
+      "originalFile": "actual-T-ten/actual-T-ten-T-mod961-root2-ten.bin",
+      "originalBytes": 17241402,
+      "originalSHA256": "057f8bc4ad8826b5021183dc7dc93a173b30e3c60d2f139235609139270a1b9d",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/actual-T-ten__actual-T-ten-T-mod961-root2-ten.bin.gz.part001",
+        "certificates/actual-T-ten__actual-T-ten-T-mod961-root2-ten.bin.gz.part002",
+        "certificates/actual-T-ten__actual-T-ten-T-mod961-root2-ten.bin.gz.part003"
+      ]
+    },
+    {
+      "originalFile": "actual-T-ten/actual-T-ten-subtraction.json",
+      "originalBytes": 201,
+      "originalSHA256": "cf9aacc1a9f659041d78008e69b5f4e4aff65c547c02327b46dd537788346a43",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "actual-T-ten__actual-T-ten-subtraction.json"
+      ]
+    },
+    {
+      "originalFile": "complete-197-third/complete-197-third-image-receipt.json",
+      "originalBytes": 21288,
+      "originalSHA256": "c1e2b8e1fcf4c31972e1cc34b253824b39cb3c6a724baac69766761d9f129739",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-197-third__complete-197-third-image-receipt.json"
+      ]
+    },
+    {
+      "originalFile": "complete-197-third/complete-197-third-image.bin.gz",
+      "originalBytes": 61947,
+      "originalSHA256": "d62a5e1705d0cbc0ce0544e65ff47f2c1c76208e5843de0ab9d812e7aebd9796",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-197-third__complete-197-third-image.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/actual1021-q-all-ten-jets.bin.gz",
+      "originalBytes": 1318215,
+      "originalSHA256": "548e1c02ca815044e0097b02bf1a2f43b83821b8a9e5ea1ff8b85a3d41b1c32e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__actual1021-q-all-ten-jets.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/complete-G-q2-root2-ten.bin",
+      "originalBytes": 2015936,
+      "originalSHA256": "1597192d3e333c4daf8af025f93ca559e1e53a00190922d1d952445bf7e945bc",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__complete-G-q2-root2-ten.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/complete-G-verification-checkpoint.json",
+      "originalBytes": 489,
+      "originalSHA256": "75df1ae4356ce1c1ac822a5ba4364b31828a71e0ac7cfcf1d97128d3c2cd2014",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__complete-G-verification-checkpoint.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/constant-prestrip.json",
+      "originalBytes": 20844,
+      "originalSHA256": "aeb38d35045cfba04c9c177e093fb9ef636934c2cca9f3201a0799e6a690b6da",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__constant-prestrip.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/local-unit-solve-receipt.json",
+      "originalBytes": 580,
+      "originalSHA256": "08368860c2617911f3b27ebb89782cb373f2ca7a3b17e76bd2093dfc548b9071",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__local-unit-solve-receipt.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-AinvB.bin.gz",
+      "originalBytes": 385896,
+      "originalSHA256": "6983454a97f11b5f5f38a974270bbebf7cdbc58c0061fe255acbcc22677a40c8",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-AinvB.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-AinvRHS.bin.gz",
+      "originalBytes": 742000,
+      "originalSHA256": "7b8e420a486028b0a237d11f0a3d1d964595c41340e789b6e472dc5d69987150",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-AinvRHS.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-Gprime.bin.gz",
+      "originalBytes": 283243,
+      "originalSHA256": "15d76137fde88713cdd4bc675ac4af55c7099654c3af0054eb89148a5c88ab5e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-Gprime.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-actualConstantC.bin",
+      "originalBytes": 264153,
+      "originalSHA256": "682213ab3f32df419e459326f6e97146c63eed90fe0317b87c39fec1ae75e2c4",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-actualConstantC.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-actualConstantInverse.bin",
+      "originalBytes": 328329,
+      "originalSHA256": "ac5ca142385f5aeafd98c4333f559c18c43c3dc288ed35d85d678089913ae8a9",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-actualConstantInverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/pre-rhsprime.bin",
+      "originalBytes": 908170,
+      "originalSHA256": "4b1d687700d2a641588f8187611c736bb450dfc7fc987c83fe76d17e1d12cf39",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__pre-rhsprime.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/Ainv_B.bin",
+      "originalBytes": 64950,
+      "originalSHA256": "58740df30c725e64c815553b75276033a8aedc0810e8177436f1a3867a059641",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/Ainv_rhs.bin",
+      "originalBytes": 853010,
+      "originalSHA256": "baa36a90276dec55f43321657f27796333c253ff8757d5fa736f5059313355eb",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/G.bin.gz",
+      "originalBytes": 283243,
+      "originalSHA256": "15d76137fde88713cdd4bc675ac4af55c7099654c3af0054eb89148a5c88ab5e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__G.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/backsubstitution-residual.bin",
+      "originalBytes": 908170,
+      "originalSHA256": "2c2aa91335f4d30b914193a3abe63778292782384045ac9e6c6363d7ee6234e1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/backsubstitution.json",
+      "originalBytes": 1006,
+      "originalSHA256": "20acb4d18814d6723af6f385f5d1ba7183bf38b6542bc7680e9b01eb82bc6e18",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-00__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/rhs.bin",
+      "originalBytes": 908170,
+      "originalSHA256": "4b1d687700d2a641588f8187611c736bb450dfc7fc987c83fe76d17e1d12cf39",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/schur.bin",
+      "originalBytes": 4200,
+      "originalSHA256": "389aab50caf10a162cf5e098b1512dbf7d1eabcd301111e24b5868eed3e35706",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/schur_rhs.bin",
+      "originalBytes": 55160,
+      "originalSHA256": "ae11b05830d670d49a6a7ae85e67d5a5fe8629ee8a7beaad45fdd2bf937b6ce1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/solution-all-jets.bin",
+      "originalBytes": 882560,
+      "originalSHA256": "cbc0ab45752c6d19e24244320de2c878f22dc158e6b99b31a1427ab88f7dfdfe",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/stage.json",
+      "originalBytes": 29390,
+      "originalSHA256": "15a2cee65c15747689d8c13540a7f47e6277c16124d60977328707c7cda11d54",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-00__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-00/unit_inverse.bin.gz",
+      "originalBytes": 1218954,
+      "originalSHA256": "49736f97fd49c8bfe6e9677ac392ee67d629e2e01965d5487042d7173b4abed6",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-00__unit_inverse.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/Ainv_B.bin",
+      "originalBytes": 504,
+      "originalSHA256": "95131d55efa6f48803d7cc57198d8c7d056db9374c51f76bd561836982f80d3d",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/Ainv_rhs.bin",
+      "originalBytes": 12411,
+      "originalSHA256": "4433cb3ecd8ebc974818c2c165e28889870e02634dc24cf56fefd1c2c547df88",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/G.bin",
+      "originalBytes": 3780,
+      "originalSHA256": "eba4656992783f787c336eb9eb3dc10f74697ef1d9738a8be14a6582fccace1f",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__G.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/backsubstitution-residual.bin",
+      "originalBytes": 49644,
+      "originalSHA256": "e679355cd7cf1dc1ee05877f8286c548878dd4d95336312c687475824a217e91",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/backsubstitution.json",
+      "originalBytes": 996,
+      "originalSHA256": "b1516a90ee543126702121cd6130c89b7b6adad68fb8dec05e4fd39b83be732d",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-01__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/rhs.bin",
+      "originalBytes": 49644,
+      "originalSHA256": "55f5ac2d292e527cee07f264278ae0e8637fc97cedd1f9f0f982957b0a436b14",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/schur.bin",
+      "originalBytes": 1512,
+      "originalSHA256": "8c92da1462ca62f0b27d720eea1545a40364bc6a1918b537c359b3f3b02c09d9",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/schur_rhs.bin",
+      "originalBytes": 37233,
+      "originalSHA256": "b77d69105c6d96fdc8587e8a0873f5fe7d5b78fbcb95a510264a0ec34d901cff",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/solution-all-jets.bin",
+      "originalBytes": 26595,
+      "originalSHA256": "1960ae2572472257cf8308841dcaf567c137e473b11861366a68f74a272979c2",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/stage.json",
+      "originalBytes": 4537,
+      "originalSHA256": "28b9d05150acaf688de143138cbdc41a6723e487758f00910f37f0e26f28e5b3",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-01__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-01/unit_inverse.bin",
+      "originalBytes": 441,
+      "originalSHA256": "ceb6de359cc616be59f64ae72d26f6db659daae7f668ac71b6158fce9c1357d9",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-01__unit_inverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/Ainv_B.bin",
+      "originalBytes": 120,
+      "originalSHA256": "0fa97f199900c89f1d7fde7f85816730cb319d28ad9b21ffe350e9287ac47ec2",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/Ainv_rhs.bin",
+      "originalBytes": 4728,
+      "originalSHA256": "c3323f248b4a4e1dcecf61b5e379e8fb92af17d927a5aa6728550c429535d3e9",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/G.bin",
+      "originalBytes": 1344,
+      "originalSHA256": "f0ce5381e20d0a277912ae2f8e067670c601a2a0d34c0faaaee79c50214062fa",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__G.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/backsubstitution-residual.bin",
+      "originalBytes": 33096,
+      "originalSHA256": "cc69fd0f3d6c1722aa6bec88e511ff02e476766cd8fb825563f7d5b5b9cc9543",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/backsubstitution.json",
+      "originalBytes": 995,
+      "originalSHA256": "719454bbc9a0bb2a309c39ccbe1c5a664f43638bc903f27d3fbbb57c62d7fcc1",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-02__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/rhs.bin",
+      "originalBytes": 33096,
+      "originalSHA256": "b01c41610011f07c91ff5ea7d48b1ecae0bc6caaa2d70e4806fd8272a7f7dc45",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/schur.bin",
+      "originalBytes": 720,
+      "originalSHA256": "5de8887c6a63df990095430d27ff7c01c3ea4315b0be5bc9038d143fba0e3e84",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/schur_rhs.bin",
+      "originalBytes": 28368,
+      "originalSHA256": "daa6d551e9c4bebd3540954f10a44b6dbbe2fe9c1d1663132744c070de3922ee",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/solution-all-jets.bin",
+      "originalBytes": 12608,
+      "originalSHA256": "c5f9e3ff86d2ef497344819293877ee652b91a74c33baeb47d1a9a4856d73d55",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/stage.json",
+      "originalBytes": 4135,
+      "originalSHA256": "eafc380e3acfa82d65149a59b48c593eebd088740d7e784b9814b1bfaa1d6a06",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-02__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-02/unit_inverse.bin",
+      "originalBytes": 72,
+      "originalSHA256": "f22f19d50f94ba0478e9d7e0636eae0044bfa0999107cf8870fd30cb44c85293",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-02__unit_inverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/Ainv_B.bin",
+      "originalBytes": 42,
+      "originalSHA256": "350497e424a8dc0e22de95a05f2e0b4c5f8eadefd865c682e8f384531d998980",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/Ainv_rhs.bin",
+      "originalBytes": 2758,
+      "originalSHA256": "1e8c79f135ed7855939c012742506319c1bfeacb9e0b0e2705491e93cb89836e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/G.bin",
+      "originalBytes": 630,
+      "originalSHA256": "801b7323e60cec6cd01abe82560a2a3d550989a7189ea36d160e3971fd422c17",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__G.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/backsubstitution-residual.bin",
+      "originalBytes": 24822,
+      "originalSHA256": "b24476ab0bbba24c7a11bfb8371b338830bd66ae683ccb3187c57bf3a15f02f0",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/backsubstitution.json",
+      "originalBytes": 993,
+      "originalSHA256": "7d61598e810f1279e9da7209b28919267a09956216c06b58bf31f9e934541ddc",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-03__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/rhs.bin",
+      "originalBytes": 24822,
+      "originalSHA256": "18922ab5972f018b648701724fb711cb48175d25c5ca35163a93f1d42e687c13",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/schur.bin",
+      "originalBytes": 336,
+      "originalSHA256": "23b282bcbd8412ae1926d7f0b99487644090e987a315225cc19bee762c30c760",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/schur_rhs.bin",
+      "originalBytes": 22064,
+      "originalSHA256": "4186aee49ddaeb845f168a3ca5af75206d4bbff50301ef11472cf65471c66207",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/solution-all-jets.bin",
+      "originalBytes": 6895,
+      "originalSHA256": "4d0e76e440f035918a6079c3dab5369c526a89ac4396c7b3e14b3e2178ffb063",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/stage.json",
+      "originalBytes": 3966,
+      "originalSHA256": "f58d6199de897737f12768b5414354f904c9ee3f94d955b7c21130be50497dfd",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-03__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-03/unit_inverse.bin",
+      "originalBytes": 28,
+      "originalSHA256": "d32572ff44faa3ceba04751197939d5eb3776d465ab9815414295fbc411960a2",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-03__unit_inverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/Ainv_B.bin",
+      "originalBytes": 12,
+      "originalSHA256": "f845172525b3752d4a5d8b3c37f4400d265944b11de4e8abaf454a1068376c49",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/Ainv_rhs.bin",
+      "originalBytes": 2364,
+      "originalSHA256": "11836da55a112f2e4d0c3d3ff1039ddf4f6c5d2fe558bc5fe72bc535426b43e4",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/G.bin",
+      "originalBytes": 288,
+      "originalSHA256": "68a2eb091f4ea8dc85d2afb62144ffa66a36ddbf21294744cb67ab63ab5af00b",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__G.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/backsubstitution-residual.bin",
+      "originalBytes": 18912,
+      "originalSHA256": "18d8d7bb69cdb396f00813c7ffda97b0ca20c1c493e64ed3edde553cc63ea327",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/backsubstitution.json",
+      "originalBytes": 993,
+      "originalSHA256": "4ee4c0b2868d412ca1bf73e7d77cd59d0c6ef96e463e9ca7c21b439bf2d647e2",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-04__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/rhs.bin",
+      "originalBytes": 18912,
+      "originalSHA256": "7e70785616cabd915c59939d898bcb4de7b3f69d9a944a893f7d2ce5ea6d8b15",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/schur.bin",
+      "originalBytes": 84,
+      "originalSHA256": "a6f33d66d2f260e0027a436012b4e33e46305c20247a116bfd4caa6185cb658c",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/schur_rhs.bin",
+      "originalBytes": 16548,
+      "originalSHA256": "12568430f6c434a7b5101ad5586051dd5997b0b531443de120d77961aa4ce5e3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/solution-all-jets.bin",
+      "originalBytes": 3546,
+      "originalSHA256": "b8840e39a3a4f771e048a6afee6dac9f4945c2b38083039108519efff5114250",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/stage.json",
+      "originalBytes": 3850,
+      "originalSHA256": "96f1bfda073ef6866e5905a5129f1101cb84c3fe6bae61c9689b599ca63522e3",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-04__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-04/unit_inverse.bin",
+      "originalBytes": 24,
+      "originalSHA256": "02383994510afc367b281af20cb3ba7ee4e42af7458b40e36d02c57b4c11937d",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-04__unit_inverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/Ainv_B.bin",
+      "originalBytes": 0,
+      "originalSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__Ainv_B.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/Ainv_rhs.bin",
+      "originalBytes": 985,
+      "originalSHA256": "aba15833a6abbbcc3a14eb0dbdd6a64afd0c28f39ca86e839c319a5aa0a62bb1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__Ainv_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/G.bin",
+      "originalBytes": 70,
+      "originalSHA256": "a6dcf7020e07e3125c1662e1acd48c806cb27420220b8b500be28f7ab534347d",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__G.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/backsubstitution-residual.bin",
+      "originalBytes": 13790,
+      "originalSHA256": "d26aaa39ec6b060f3e6f2244024877b8edaff6634052ddad71434d47d2ed41c2",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__backsubstitution-residual.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/backsubstitution.json",
+      "originalBytes": 991,
+      "originalSHA256": "715af9d64001418e5c4805a1e03905d89e2056535879e33c6454f5f9ad7e9142",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-05__backsubstitution.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/rhs.bin",
+      "originalBytes": 13790,
+      "originalSHA256": "2165d236a269b9a47854402c136a17980582d3743af7d5394704f933532fd3ae",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/schur.bin",
+      "originalBytes": 0,
+      "originalSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__schur.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/schur_rhs.bin",
+      "originalBytes": 12805,
+      "originalSHA256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__schur_rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/solution-all-jets.bin",
+      "originalBytes": 985,
+      "originalSHA256": "aba15833a6abbbcc3a14eb0dbdd6a64afd0c28f39ca86e839c319a5aa0a62bb1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__solution-all-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/stage.json",
+      "originalBytes": 3724,
+      "originalSHA256": "eaefa07c14a7e675d36583a88ca9840d6ffe331d01bd0d16e0f1dd927c97f773",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-local-unit-solve__schur-checkpoints__stage-05__stage.json"
+      ]
+    },
+    {
+      "originalFile": "complete-local-unit-solve/schur-checkpoints/stage-05/unit_inverse.bin",
+      "originalBytes": 5,
+      "originalSHA256": "4acb0b8a4271e9cc7234c52eec344b8f31b4f896ede9107cd52113a84d39fea5",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-local-unit-solve__schur-checkpoints__stage-05__unit_inverse.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "inputs/actual-integer-T.recipe",
+      "originalBytes": 207,
+      "originalSHA256": "5397e80f4ff231459183a5e6943d5c73a2db8ea314c6109f9f6abfd083a24b23",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "inputs__actual-integer-T.recipe"
+      ]
+    },
+    {
+      "originalFile": "inputs/true-seven-source-jets.recipe",
+      "originalBytes": 302,
+      "originalSHA256": "a0db32f13a4efd6e2f4c6c41eafd57256d1292146263d6cd55622912bd1a2f73",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "inputs__true-seven-source-jets.recipe"
+      ]
+    },
+    {
+      "originalFile": "prepared-197/prepared-197-third-receipt.json",
+      "originalBytes": 4938,
+      "originalSHA256": "afdc1b2495b22111ae04b25f9d0ddec7c10b803ebb029ffab0257788532b1e32",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "prepared-197__prepared-197-third-receipt.json"
+      ]
+    },
+    {
+      "originalFile": "prepared-197/prepared-197-third.bin.gz",
+      "originalBytes": 72393,
+      "originalSHA256": "9aa1b6e3fd97a3502d1929633656364277711991ae452e7a1d6c8e63a1823ece",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/prepared-197__prepared-197-third.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "prepared-197/true-seven-cancellation.bin",
+      "originalBytes": 1793,
+      "originalSHA256": "9925ed064bc7fd70753d7fc7d598e388df2885d7603428852cce3e98980ca784",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/prepared-197__true-seven-cancellation.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-original/q1-ten-original-original6188-q-jets.bin",
+      "originalBytes": 8725578,
+      "originalSHA256": "0ba0cdddb7bc5a4aafd1a44dd54a936f947837a0a61c431b6d66743cde32a6b1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-original__q1-ten-original-original6188-q-jets.bin.gz.part001",
+        "certificates/q1-ten-original__q1-ten-original-original6188-q-jets.bin.gz.part002"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-original/q1-ten-original-transport-checkpoint.bin",
+      "originalBytes": 13329902,
+      "originalSHA256": "747680bd795479e6e9cc9735ffc3f7e1005779e1a9e4e7f960801cf9487f6fa3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-original__q1-ten-original-transport-checkpoint.bin.gz.part001",
+        "certificates/q1-ten-original__q1-ten-original-transport-checkpoint.bin.gz.part002",
+        "certificates/q1-ten-original__q1-ten-original-transport-checkpoint.bin.gz.part003"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-original/q1-ten-original-transport-checkpoint.json",
+      "originalBytes": 186,
+      "originalSHA256": "1e433605b889500dab644e0da97dd53fd6451ff927873df8b8b3ea6d904bb14c",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q1-ten-original__q1-ten-original-transport-checkpoint.json"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-original/q1-ten-original-transport.json",
+      "originalBytes": 607,
+      "originalSHA256": "a7434781c7982cb7a1c324516947de05fc416c98dffefe39ef3c082832be21e8",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q1-ten-original__q1-ten-original-transport.json"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-vq/q1-ten-vq-actual-G-root2-ten.bin",
+      "originalBytes": 10561312,
+      "originalSHA256": "0966e37ebdd1a5e3f401f6400899a1115b427941ef097db31952d81e0aeca451",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-vq__q1-ten-vq-actual-G-root2-ten.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-vq/q1-ten-vq-actual-V-root2-ten.bin",
+      "originalBytes": 24755212,
+      "originalSHA256": "097e833a242d4feec39140bc9ccdf816c79d045532be89a6621f4cb836a2bd5b",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-vq__q1-ten-vq-actual-V-root2-ten.bin.gz.part001",
+        "certificates/q1-ten-vq__q1-ten-vq-actual-V-root2-ten.bin.gz.part002",
+        "certificates/q1-ten-vq__q1-ten-vq-actual-V-root2-ten.bin.gz.part003",
+        "certificates/q1-ten-vq__q1-ten-vq-actual-V-root2-ten.bin.gz.part004"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-vq/q1-ten-vq-original2195-source-jets.bin",
+      "originalBytes": 3095448,
+      "originalSHA256": "7b3fff0b2e8fb2b6e5bd139f0b22ea2751155712a327e3db040d9e0c7208f71a",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-vq__q1-ten-vq-original2195-source-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-vq/q1-ten-vq-vq-checkpoint.bin",
+      "originalBytes": 3095448,
+      "originalSHA256": "7b3fff0b2e8fb2b6e5bd139f0b22ea2751155712a327e3db040d9e0c7208f71a",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q1-ten-vq__q1-ten-vq-vq-checkpoint.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q1-ten-vq/q1-ten-vq-vq.json",
+      "originalBytes": 454,
+      "originalSHA256": "d0933985c9ab6b09dba9572723f0ac992d2e9a6b00d83faf39e984e3efafda3c",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q1-ten-vq__q1-ten-vq-vq.json"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-original/q2-ten-original-original6188-q-jets.bin",
+      "originalBytes": 8725578,
+      "originalSHA256": "d63c54ce119b32f9b400fe83128b6e49ea10ab073a0e692270892a5dcfe48531",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q2-ten-original__q2-ten-original-original6188-q-jets.bin.gz.part001",
+        "certificates/q2-ten-original__q2-ten-original-original6188-q-jets.bin.gz.part002"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-original/q2-ten-original-transport-checkpoint.bin",
+      "originalBytes": 13329902,
+      "originalSHA256": "5d41c650eb5a798d955b7524dd0537d66ce8c02d28a3cab20ac6de254c4e0281",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q2-ten-original__q2-ten-original-transport-checkpoint.bin.gz.part001",
+        "certificates/q2-ten-original__q2-ten-original-transport-checkpoint.bin.gz.part002",
+        "certificates/q2-ten-original__q2-ten-original-transport-checkpoint.bin.gz.part003"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-original/q2-ten-original-transport-checkpoint.json",
+      "originalBytes": 186,
+      "originalSHA256": "58c1824477f14db91ffd3eba7d8646cca24f757f067ac7ed8f17d20ac7723d7f",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q2-ten-original__q2-ten-original-transport-checkpoint.json"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-original/q2-ten-original-transport.json",
+      "originalBytes": 603,
+      "originalSHA256": "ec902c700605b4782dc12074302c5352182a38ea4645875d04f56f8ed15e4395",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q2-ten-original__q2-ten-original-transport.json"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-vq/q2-ten-vq-original2195-source-jets.bin",
+      "originalBytes": 3095448,
+      "originalSHA256": "3c9c149886e6f231a62901887ae082dede614e26adbc1435c1b4db173276ead3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q2-ten-vq__q2-ten-vq-original2195-source-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-vq/q2-ten-vq-vq-checkpoint.bin",
+      "originalBytes": 3095448,
+      "originalSHA256": "3c9c149886e6f231a62901887ae082dede614e26adbc1435c1b4db173276ead3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/q2-ten-vq__q2-ten-vq-vq-checkpoint.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "q2-ten-vq/q2-ten-vq-vq.json",
+      "originalBytes": 454,
+      "originalSHA256": "c1ed1ff97afc205c231bc8126c28479079651e67f45660e3e26c41cab349c1a7",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "q2-ten-vq__q2-ten-vq-vq.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/actual-T-normal-ten.json",
+      "originalBytes": 1045,
+      "originalSHA256": "198944ea55055b83684ded526aa9302ff1ad870accd3d98a03c7c69610022055",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__actual-T-normal-ten.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/actual-T-ten.json",
+      "originalBytes": 597,
+      "originalSHA256": "1ec727ab6ee838a2b099073e7f2f8c4510b61e86bacc83ba2074bbacad213e34",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__actual-T-ten.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/complete-197-third.json",
+      "originalBytes": 829,
+      "originalSHA256": "06dbe3627d51fb5af0dd1e91f4ec1bf5218c283fb83d613cda8203272ca980bc",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__complete-197-third.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/complete-local-unit-solve.json",
+      "originalBytes": 1076,
+      "originalSHA256": "c0a732031a21759e22467bc5154f366e709941efd62e9747e2a170366f237aa8",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__complete-local-unit-solve.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/q1-ten-original.json",
+      "originalBytes": 640,
+      "originalSHA256": "a3d29110e2c70abdd5805686939c59d6a346884c6b026be0038b4ea8748f18c4",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__q1-ten-original.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/q1-ten-vq.json",
+      "originalBytes": 808,
+      "originalSHA256": "c09a826b47b570916308ad3d08910957247163ee65b45ca04b0782e28f6ea6c5",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__q1-ten-vq.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/q2-ten-original.json",
+      "originalBytes": 640,
+      "originalSHA256": "e8651035bafae7489d22d2bfb2e1a319b45b8d1abfd58773317191709b0bde93",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__q2-ten-original.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/q2-ten-vq.json",
+      "originalBytes": 572,
+      "originalSHA256": "ffcbe9b0585d6779c5f007bc7b755b32e290588fc07aed16f7dd3d57f735f00d",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__q2-ten-vq.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/saved-197-preparation.json",
+      "originalBytes": 691,
+      "originalSHA256": "eddaa44737518a9275db6be42d5551d3655e09c83299791b1e893f44bbd68796",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__saved-197-preparation.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/third-projected-standard-state.json",
+      "originalBytes": 1344,
+      "originalSHA256": "de185483c9b73114c98647b0434cae894aa10f1b5a2173cbac60e94626a12acd",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__third-projected-standard-state.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/true-R2-ten.json",
+      "originalBytes": 501,
+      "originalSHA256": "fb4f8cccd5becb43c7c6737906b7314f77cfffa39f3eec56ba7b1cf6e7788f72",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__true-R2-ten.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/true-seven-b-ten.json",
+      "originalBytes": 531,
+      "originalSHA256": "a06b6a9748df9b314fd61f3a8126828514083f9d25bde36968b1f2e810f548df",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__true-seven-b-ten.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/true-third-original-five.json",
+      "originalBytes": 570,
+      "originalSHA256": "895b5e13338747b67392eef8d26afbed70516e566065cdcb7782d95a3cb79122",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__true-third-original-five.json"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-all197-standard-state.bin",
+      "originalBytes": 164418,
+      "originalSHA256": "8f7b9755536747fefc30e5f0074902fcc2c8957b58269eecb7ec6d6de65896ed",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-all197-standard-state.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-backward.bin",
+      "originalBytes": 3052119,
+      "originalSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-backward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-forward.bin",
+      "originalBytes": 2378937,
+      "originalSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-forward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-local-G-quotient-jets.bin",
+      "originalBytes": 1148026,
+      "originalSHA256": "4f11cb258a30d0e5f519b18a68d81d5af0fd2b60623f0cee2560654b0990b15e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-local-G-quotient-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-local-normal.json",
+      "originalBytes": 524,
+      "originalSHA256": "01bd946e4e4683fda6d9807dcf28a3da9a315f4d3951041b42d9f5d92abaa28b",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "third-projected-standard-state__third-projected-standard-state-local-normal.json"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-local-prebasis-source-jets.bin",
+      "originalBytes": 3740044,
+      "originalSHA256": "78cc917ada10f40e747e22ac18ed2f451733872997811a3498aa479d591bfd27",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-local-prebasis-source-jets.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "third-projected-standard-state/third-projected-standard-state-normal-checkpoint.bin",
+      "originalBytes": 4891132,
+      "originalSHA256": "8817422ed9c9370ec93850654518d95dec34143482f17377913faa0fbd83ea5d",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/third-projected-standard-state__third-projected-standard-state-normal-checkpoint.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "true-R2-ten/true-R2-ten-R2-mod961-root2-ten.bin",
+      "originalBytes": 17241402,
+      "originalSHA256": "014862e46079b74c8e825a935e870db9cfb72b97691fabedf9bb1a5ccf72d1c5",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/true-R2-ten__true-R2-ten-R2-mod961-root2-ten.bin.gz.part001",
+        "certificates/true-R2-ten__true-R2-ten-R2-mod961-root2-ten.bin.gz.part002",
+        "certificates/true-R2-ten__true-R2-ten-R2-mod961-root2-ten.bin.gz.part003"
+      ]
+    },
+    {
+      "originalFile": "true-R2-ten/true-R2-ten-original-product.json",
+      "originalBytes": 812,
+      "originalSHA256": "f430a41117f215a80a1763bff8cb69ba4d78cdec0ec7a896d887c5032307f686",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "true-R2-ten__true-R2-ten-original-product.json"
+      ]
+    },
+    {
+      "originalFile": "true-seven-b-ten/true-seven-b-ten-original-product.json",
+      "originalBytes": 808,
+      "originalSHA256": "af20e3a6a428584efce93fdcb790388c97c6f9ec0b7d9bb5ffc4d7b7acc6a87c",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "true-seven-b-ten__true-seven-b-ten-original-product.json"
+      ]
+    },
+    {
+      "originalFile": "true-seven-b-ten/true-seven-b-ten-true-seven-b-mod961-root2-ten.bin",
+      "originalBytes": 646408,
+      "originalSHA256": "39a96feacdab918fb7f1ee3e84bbd5a042e3364d3bec304ff39ddeebeab7f0d3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/true-seven-b-ten__true-seven-b-ten-true-seven-b-mod961-root2-ten.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "true-third-original-five/true-third-original-five-original-product.json",
+      "originalBytes": 810,
+      "originalSHA256": "f6a5eee65e02dc457c15f0e01560cc77051b99f45165c1b5d27fd54ffa202992",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "true-third-original-five__true-third-original-five-original-product.json"
+      ]
+    },
+    {
+      "originalFile": "true-third-original-five/true-third-original-five-third-projected-original-delta-jets.bin",
+      "originalBytes": 6917746,
+      "originalSHA256": "839e72268f59f6f93591750095ad71de5e518a427cbf993b2b47d09388c15d01",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/true-third-original-five__true-third-original-five-third-projected-original-delta-jets.bin.gz"
+      ]
+    }
+  ]
+}

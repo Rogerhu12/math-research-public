@@ -1,0 +1,171 @@
+{
+  "binding": "9be7ffc7ca6d7289ed3275cb2c6546926fe1d5b0006a70cc2314b35fbfd12649",
+  "depth": 4,
+  "format": "isp-local-unit-schur-f31-v1",
+  "incoming": {
+    "G": "68a2eb091f4ea8dc85d2afb62144ffa66a36ddbf21294744cb67ab63ab5af00b",
+    "cols": 3,
+    "column_labels": [
+      952,
+      953,
+      956
+    ],
+    "nrhs": 197,
+    "precision": 6,
+    "rhs": "7e70785616cabd915c59939d898bcb4de7b3f69d9a944a893f7d2ce5ea6d8b15",
+    "row_labels": [
+      471,
+      472,
+      801,
+      802,
+      965,
+      966,
+      967,
+      1020,
+      1021,
+      1022,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033
+    ],
+    "rows": 16
+  },
+  "matrices": {
+    "Ainv_B": {
+      "bytes": 12,
+      "cols": 1,
+      "compression": "none",
+      "decoded_bytes": 12,
+      "decoded_sha256": "f845172525b3752d4a5d8b3c37f4400d265944b11de4e8abaf454a1068376c49",
+      "file": "Ainv_B.bin",
+      "precision": 6,
+      "rows": 2,
+      "sha256": "f845172525b3752d4a5d8b3c37f4400d265944b11de4e8abaf454a1068376c49"
+    },
+    "Ainv_rhs": {
+      "bytes": 2364,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 2364,
+      "decoded_sha256": "11836da55a112f2e4d0c3d3ff1039ddf4f6c5d2fe558bc5fe72bc535426b43e4",
+      "file": "Ainv_rhs.bin",
+      "precision": 6,
+      "rows": 2,
+      "sha256": "11836da55a112f2e4d0c3d3ff1039ddf4f6c5d2fe558bc5fe72bc535426b43e4"
+    },
+    "G": {
+      "bytes": 288,
+      "cols": 3,
+      "compression": "none",
+      "decoded_bytes": 288,
+      "decoded_sha256": "68a2eb091f4ea8dc85d2afb62144ffa66a36ddbf21294744cb67ab63ab5af00b",
+      "file": "G.bin",
+      "precision": 6,
+      "rows": 16,
+      "sha256": "68a2eb091f4ea8dc85d2afb62144ffa66a36ddbf21294744cb67ab63ab5af00b"
+    },
+    "rhs": {
+      "bytes": 18912,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 18912,
+      "decoded_sha256": "7e70785616cabd915c59939d898bcb4de7b3f69d9a944a893f7d2ce5ea6d8b15",
+      "file": "rhs.bin",
+      "precision": 6,
+      "rows": 16,
+      "sha256": "7e70785616cabd915c59939d898bcb4de7b3f69d9a944a893f7d2ce5ea6d8b15"
+    },
+    "schur": {
+      "bytes": 84,
+      "cols": 1,
+      "compression": "none",
+      "decoded_bytes": 84,
+      "decoded_sha256": "a6f33d66d2f260e0027a436012b4e33e46305c20247a116bfd4caa6185cb658c",
+      "file": "schur.bin",
+      "precision": 6,
+      "rows": 14,
+      "sha256": "a6f33d66d2f260e0027a436012b4e33e46305c20247a116bfd4caa6185cb658c"
+    },
+    "schur_rhs": {
+      "bytes": 16548,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 16548,
+      "decoded_sha256": "12568430f6c434a7b5101ad5586051dd5997b0b531443de120d77961aa4ce5e3",
+      "file": "schur_rhs.bin",
+      "precision": 6,
+      "rows": 14,
+      "sha256": "12568430f6c434a7b5101ad5586051dd5997b0b531443de120d77961aa4ce5e3"
+    },
+    "unit_inverse": {
+      "bytes": 24,
+      "cols": 2,
+      "compression": "none",
+      "decoded_bytes": 24,
+      "decoded_sha256": "02383994510afc367b281af20cb3ba7ee4e42af7458b40e36d02c57b4c11937d",
+      "file": "unit_inverse.bin",
+      "precision": 6,
+      "rows": 2,
+      "sha256": "02383994510afc367b281af20cb3ba7ee4e42af7458b40e36d02c57b4c11937d"
+    }
+  },
+  "remaining_column_labels": [
+    956
+  ],
+  "remaining_columns": [
+    2
+  ],
+  "remaining_row_labels": [
+    471,
+    472,
+    801,
+    802,
+    966,
+    967,
+    1020,
+    1021,
+    1022,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033
+  ],
+  "remaining_rows": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "row_label_meaning": "retained row slots after preceding Schur eliminations",
+  "unit_column_labels": [
+    952,
+    953
+  ],
+  "unit_columns": [
+    0,
+    1
+  ],
+  "unit_rank": 2,
+  "unit_row_labels": [
+    965,
+    1028
+  ],
+  "unit_rows": [
+    4,
+    10
+  ]
+}

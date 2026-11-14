@@ -1,0 +1,52 @@
+{
+  "run_id": "43653360404",
+  "run_attempt": "1",
+  "source_commit": "4ee8d886cd88893411c91e6ef0b685a87f3e44f6",
+  "native_step_outcome": "success",
+  "pipeline_status": "completed",
+  "outcome": "complete-relevant-low-initial-third-obstruction",
+  "complete": true,
+  "completionFactsMatched": true,
+  "targetPartitionVerified": true,
+  "completed_original_target_labels": [],
+  "insufficient_target_labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "individual_target_compatible": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "full_original_all_nine_mod887503681_identity": false,
+  "original_target": "31^2*h0*T modulo887503681; every compatible original target",
+  "negative_scope": "Complete third image only for the defined relevant low-initial directions in the saved natural p2 source lattice Lambda2: the197 remaining old high kernels, exact K1, exact low1632 and four high directions, and the saved five low-initial third relations, with all allowed higher digits paid. Any obstruction applies to the saved current nine residuals in that scope. It is not a complete global third-image obstruction, not coverage of the whole original integer lattice, and not a characteristic-zero membership claim.",
+  "actual_final_source_costs_by_slot": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "mathematical_elapsed_seconds": 77.86306827399994,
+  "characteristic_zero_identity_asserted": false,
+  "partialCheckpointIsNotIdentity": true,
+  "rootOwnsSharedResearchIndices": true
+}
