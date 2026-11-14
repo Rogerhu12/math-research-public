@@ -700,3 +700,7 @@ run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/14
 ### 2026-11-14 request29：同七query继续并只读定位原坏中点
 
 两独立入口94395d54…/211e7c70…及接口全文读；仅从真实27 warm f73dfc81…续接，原26/27数值源与父producer不改。原CompleteResidual.evaluate执行一次后读middle/fm，坏midpoint保存实际indices/station/输入与非finite RHS字节、完整N2048原β²；所有附加诊断异常只记录，不改finite/vector/merit/接受。原同七query、λ270/200、Hildreth200、17回溯、全部域及新FD保留，未新增中点不等式。新observedseven lane三名单/输入/准备/FD接齐，静态AST/原SHA核通过，科学计算只Actions。
+
+### 2026-11-14 完整H有限子空间不等式修正器
+
+独立helper d5e9432e…/41612B与接口63a9f4ce…已全文读、AST与源身份核，只保存源码未运行。H始终为原完整AᵀA+λ²I，C仅预条件；实际z0原字节与0在全局基空间，近似逆只生基，原AV/λ构小Gram。≤32原工作行、34全局基，所有原行检查/径向修复与冻结同f选择器保持，保raw及所有实际证据点的R267下界，不冒完整QP最优或严格浮点界。硬H≤1200含原残差重读，独立deadline停止可选工作；已修row-PCG返回后超时仍增基的具体边界。后续薄入口保原C投影后备/29中点观察与全部回溯/FD，未预设改善。29真实run43612331803/sourcef4896bba/job132499878558正在计算。

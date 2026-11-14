@@ -76,3 +76,5 @@ R267完整证明已入results：同一固定模型可在任意证据点取Lagran
 request27已全success，见[真实七query续步](notes/2026-11-14-actual-request27-seven-query-projection-warm.md)：α1/16、同固定权重真实降.0510362901、新warm f73dfc81…/新FD7.819e−10；完整14336行修到浮点非负，仍col.0071104568/BC8.963e−8/native0。最近拒绝1/8的七query全角正而1个原midpoint失败，位置未存。下一从此新warm保同七query/所有原门，给原evaluate返回middle/fm加只读观察，记录实际坏中点及角余量，不盲加第八RMS行。28真实run43611175099/source6bd52b44/job132496373274在原校正捕获阶段。
 
 request29/observedseven已接推送，从实际27 f73dfc81…继续同一七query算法；原evaluate返回的坏middle/fm新增只读位置/原完整角余量与NPZ字节记录，所有原数值判据不变。没有盲加中点约束，须据实际新返回决定后续。新完整FD另行实算；详[同七query中点观察接口](notes/2026-11-14-observed-seven-query-warm-interface.md)。
+
+完整H候选生成helper已冻结，见[完整H修正接口](notes/2026-11-14-full-metric-inequality-correction-interface.md)。原全A/全局变量与全行B保持，近似H逆仅生成≤34维基，实际AV构子空间Gram，最多32工作行且完整原残差/互补/R267多点下界均重算。硬H≤1200，明确总时间及原trial余量，非完整QP最优；尚未实际执行。后续从29真实新warm接独立入口，保原C投影作同模型后备及29只读中点诊断，原最终判据不变。

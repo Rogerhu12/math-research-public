@@ -23,16 +23,18 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ### 前缀：27七query真实下降，下一记录原坏中点
 
-旧17/18/20/22/24完整原件和失败详actual notes，不重跑。26/run43608931469全success：五query全10240行投影径向修复、α2^-6真实drop.0136476320、新warm4e2ee245…/新FD8.659e−10；更大步五query全正而实际左RMS472/481失败，故27新增这两处，冻结26引擎7d75a44a…/operator af7966fa…不改。
+17–26完整失败/下降已保本日actual notes，不重跑。26五query实际全角正后，较大步左RMS472/481失败，27据此新增两处；26引擎7d75a44a…/operator af7966fa…冻结不改。
 27/sevenprojection run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/143121398B/ZIPd610b3d9…已取核；完整actual27 note4fc673d6…。同699/M112/T112/N2048；七query(472,473,475,477,479,480,481)完整14336行，68文件/421数组逐核，actual-LSMR B complex6.549e−13/adjoint7.371e−18。唯一88次原Jac/11node，B大阵仅artifact，manifest/source/hash进Git。
 λ270/200 LSMR80步istop2；C-Hildreth200未收敛，100负slack经factor.8216634644079532修成全非负(min1.700e−16)，同f线段τ1选投影。原gdot−.8236822441/模型Delta.4848515638；完整gradient210708/零dual E304512不冒QP最优；R267可用同模型raw完整gradient346.2107作另一证据点，未实际算新比例。
 原17trial在α1/16接受，同一固定权重merit44.43133020235467→44.380293912301596，drop.05103629005307653/ratio1.002883586；node/mid/两RMS/rho全过。col.007110456794261092/BC8.962976439976726e−8仍非解，native0。新warm `notes/public-actions-43610469627-1-sevenprojection/seven-angle-warm/warm-001.json.gz` SHA f73dfc81b6247363e449be16f142e552f857ec38846f8bff0954f0ca76b55422；新完整Rφ FD7.819442926433809e−10过原5e−5，全部112 H保留（首项1.9911248007634974e−14非零）。各轮权重刷新，merit不可跨模型相减。
-最近拒绝1/8只有1坏midpoint、七query全角已正；1/4有3坏mid，位置均未存，不造因果/不盲加第八左RMS。29/observedseven已接push，源94395d54…/FD211e7c70…/接口全文读：从f73…保同七query/λ/200sweep/17回溯/所有域与新FD，仅读原evaluate返回middle/fm记录坏indices/stations/full N2048 β²及原NPZ/哈希；不重算wholeflow/J、不改finite/vector/merit/判据，诊断异常只记录。
+最近拒绝1/8只有1坏midpoint、七query全角已正；1/4有3坏mid，位置均未存，不造因果/不盲加第八左RMS。29/observedseven真实run43612331803/sourcef4896bba/job132499878558在算，源94395d54…/FD211e7c70…/接口全文读：从f73…保同七query/λ/200sweep/17回溯/所有域与新FD，仅读原evaluate返回middle/fm记录坏indices/stations/full N2048 β²及原NPZ/哈希；不重算wholeflow/J、不改finite/vector/merit/判据，诊断异常只记录。
+
+完整H helper d5e9432e…/接口full-metric-inequality-correction已全文读并冻结，未执行：完整H仅C预条件、≤32工作行/34全局基/1200 H动作，全行修复/真实原梯度/R267多点下界。后续独立入口从29新warm并保原C后备/observer/全部原门，不冒QP最优。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 
-17/19 cold norm1.3414e7十trial全guard拒；21/22新工厂det/下溢拒、原evaluate0，完整失败均保不重跑。原linearSteps同时定义far/graphs/gains/scales，禁全局改它冒只改初猜；保全部112 H与原native门，R264有限下溢账不代接受。
-23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
+17/19冷启动失败、21/22工厂提前拒均已保。原linearSteps同时定义far/graphs/gains/scales，禁全局改它冒只改初猜；保全部112 H/原native门，R264下溢账不代接受。
+23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已核。完整577×224 candidate原noJ一次、576stage全guard过，norm **.04177307820740199**，仍大于原2e−9；cut/far112行浮点0，无solve/J/audit。原最坏stage/尺度与零线性块残差另列actual23，不互代；noJ未给minA/minD。
 23全部51真下溢/9546负零/原尺度已保，完整candidate bits SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，71chunk逐核；完整身份见public-same-RK-candidate-v3-actual23 note及28硬绑定，勿用JSON零冒原bit。
 25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；actual25已保。28/nativecorrection真实run43611175099/source6bd52b44/job132496373274在算，源0b49f142…/hookb20aee4d…全文读；同seed仅原首次withJac+correction，完整J/r/delta/原σ所有行缺陷、每stage摘要与max图矩阵保存后计划STOP，0trial不冒native接受。大二进制仅large-arrays artifact，manifest/hash进Git；按R266解释。
 
@@ -47,6 +49,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R267完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
+10–15全部旧QR/band/bridge无接受，不盲加点。R238–R267证明见results.md；R259备用未调度。旧A幅度.063<.2，其RK24/48、三mesh、2157568空间对及旧GW精化已付封存。43提交/geometry26/strong90/GW35已恢复，strong R6失败且raw未全迁；历史notes保全，绝不读private。
 
 规则同步记录：2026-11-14T15:50:22.555366+00:00 实际pull --rebase成功；双README自03fcf082无变化，已读提交 ea473fc484e19b89f5bcc2ce8195937614477b1b。
