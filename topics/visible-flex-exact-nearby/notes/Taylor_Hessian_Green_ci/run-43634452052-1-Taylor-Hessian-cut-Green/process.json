@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_Z_Taylor_Hessian_reweighted_Green_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43634452052",
   "run_attempt": "1",
@@ -82,6 +82,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:53:50.138895+00:00",
+      "before": "4f8c3fe867f167766d0aacaea900304051a93fe4",
+      "after": "8985b8416c0a2c9d4409e5b754c6ccc094d5e6e0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -89,6 +97,11 @@
       "time": "2026-11-14T19:53:33.429298+00:00",
       "final": false,
       "commit": "c06050debf6de9add5ecad03d273342d71c116cb"
+    },
+    {
+      "time": "2026-11-14T19:53:49.464172+00:00",
+      "final": false,
+      "commit": "8985b8416c0a2c9d4409e5b754c6ccc094d5e6e0"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -123,7 +136,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "4f8c3fe867f167766d0aacaea900304051a93fe4",
+  "last_read_commit": "8985b8416c0a2c9d4409e5b754c6ccc094d5e6e0",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-Taylor-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -136,9 +149,21 @@
     "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T19:53:44.766506+00:00",
-  "wall_seconds": 14.340706654000002,
+  "snapshot_utc": "2026-11-14T19:53:50.191820+00:00",
+  "wall_seconds": 19.76601724800001,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1181,
+      "sha256": "6b03ed5a280a224395545cbf9813bf6e940a19e77209909a4a0f7b3603ba35be"
+    },
+    {
+      "logical_file": "evidence/complete-Taylor-Hessian-cut-and-Green-summary.json",
+      "file": "evidence/complete-Taylor-Hessian-cut-and-Green-summary.json",
+      "bytes": 25592,
+      "sha256": "d10b544a9d5546ffbe1aa4689a7eb3403e9a7946113be745abab11270980b63b"
+    },
     {
       "logical_file": "evidence/original-cut-process.json",
       "file": "evidence/original-cut-process.json",
@@ -169,5 +194,23 @@
       "bytes": 3992869,
       "sha256": "ad04e1d968f7b4ffebc74030f26116826e0cfb62f6280e303f0a47ee23e5d7fa"
     }
-  ]
+  ],
+  "complete_native_sha256": "ad04e1d968f7b4ffebc74030f26116826e0cfb62f6280e303f0a47ee23e5d7fa",
+  "actual_scientific_gates": 8,
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[0.021467983449803887966641328338315255419211753444377847153711850472808413535826858 +/- 3.29e-82]",
+      "lower": "[0.021467983449803887966641328338315255419211753444377847153711850472808413535826858 +/- 3.29e-82]",
+      "upper": "[0.021467983449803887966641328338315255419211753444377847153711850472808413535826858 +/- 3.29e-82]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[0.010057999485368395001894567575343435275131495407770869086581689682937762725758411 +/- 2.06e-82]",
+      "lower": "[0.010057999485368395001894567575343435275131495407770869086581689682937762725758411 +/- 2.06e-82]",
+      "upper": "[0.010057999485368395001894567575343435275131495407770869086581689682937762725758411 +/- 2.06e-82]"
+    }
+  },
+  "complete_finite193_negative_error_upper_below_one_over200": false,
+  "new_profile_rescalings_in_this_child": 6391,
+  "finished_utc": "2026-11-14T19:53:49.789879+00:00"
 }
