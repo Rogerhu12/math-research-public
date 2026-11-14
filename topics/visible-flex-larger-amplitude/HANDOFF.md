@@ -51,4 +51,4 @@ full_state_continuous_cover和full_state_held_hausdorff已支持完整v3/v4、R2
 旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8的2157568子对uncovered0已付（连续包络仍输入）。旧GW原stage28/RK48六节点同raw/mean/g，局部metric f8/16/48降1.18e−8/1.26e−9/1.62e−10，κ7.646；旧A/GW封存，不重跑或追额外机器六jet门。
 旧geometry26/strong90/GW35/43提交已保全；strong R6失败无接受、raw未全迁。公开源78件匹配原91清单，不读private。R254/operator两源已小文本恢复入库；环境恢复仍核未完成Rφ v4三源，不沿用未推本地身份。
 
-规则同步记录：2026-11-14T13:00:16.399838+00:00 已恢复终端并实际pull main；双README对前次已读SHA无差异，已读提交 95c2d803f31b3e18dbad2e833dcea766c7807a8b。
+规则同步记录：2026-11-14T13:00:43.907749+00:00 实际pull --rebase成功；双README自95c2d803无变化，已读提交 481886845a359d8588f26c2ce0804ec0bec49003。
