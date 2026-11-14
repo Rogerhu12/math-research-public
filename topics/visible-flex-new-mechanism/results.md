@@ -91,3 +91,5 @@
 - [R43：弓形角点的解析Gauss符号门](results/R43-cap-corner-analytic-Gauss-sign-obstruction.md) — 桥侧K>0时单侧联合解析延拓不容尾IIθθ奇阶换号；S11五阶被排，S9偶四阶避此窄门。不是一般C2障碍。
 
 - [R44：S9六弓平帽的准确嵌入和全帽点对](results/R44-S9-six-cap-exact-embedding-and-normal-chord.md) — 二重/反射幅度3/16与1/8，有限六片准确平度量、C5及内rc盘固定；投影强单调给全帽跨片法弦>3/40。无开放平角区间，未给连接存在。
+
+- [R45：真实倒行四块与三阶周期相消](results/R45-reversal-four-block-third-period-cancellation.md) — 单P零M由8D IFT实现，P/P/Prev/Prev准确闭合；完整二阶锚给两三阶period函数恒0，每s ruling另付。
