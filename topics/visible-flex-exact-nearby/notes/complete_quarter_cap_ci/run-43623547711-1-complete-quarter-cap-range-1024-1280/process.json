@@ -37,7 +37,9 @@
         "/__w/_temp/visible-exact-quarter-plan/native/complete1977-fixed-eta-quarter-plan.json.gz"
       ],
       "started_utc": "2026-11-14T17:55:49.543129+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 1308.563519202,
+      "finished_utc": "2026-11-14T18:17:38.107326+00:00"
     }
   ],
   "readme_checks": [
@@ -112,6 +114,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:17:39.813338+00:00",
+      "before": "2cbb3f461587c9f2064326a7547793e06947ab3c",
+      "after": "e9ec39a80b26d9af36aa22ff3016a1d96482e458",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -124,6 +134,11 @@
       "time": "2026-11-14T18:05:58.974508+00:00",
       "final": false,
       "commit": "383dd722545d055ff057bb48c9a677f04f72278d"
+    },
+    {
+      "time": "2026-11-14T18:16:08.102115+00:00",
+      "final": false,
+      "commit": "cc4043fa851b921a8ac90f5c7eeb6598e4bceb9c"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -162,7 +177,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "2cbb3f461587c9f2064326a7547793e06947ab3c",
+  "last_read_commit": "e9ec39a80b26d9af36aa22ff3016a1d96482e458",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-work/science",
   "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
@@ -175,8 +190,8 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T18:16:03.063425+00:00",
-  "wall_seconds": 1224.4498843000001,
+  "snapshot_utc": "2026-11-14T18:17:40.293943+00:00",
+  "wall_seconds": 1321.680402509,
   "native_files": [
     {
       "logical_file": "evidence/actual-plan-process.json",
@@ -192,9 +207,9 @@
     },
     {
       "logical_file": "native/new-fixed-eta-quarter-domains-1024-1280.json.gz",
-      "lossless_manifest": "native-new-fixed-eta-quarter-domains-1024-1280.json.gz-c61321163ee9e0bd-parts.json",
-      "bytes": 5355024,
-      "sha256": "c61321163ee9e0bdf32e78b3c51307c529c274ae1f0844da6e364ea839c085fe",
+      "lossless_manifest": "native-new-fixed-eta-quarter-domains-1024-1280.json.gz-5afd5f617fc85b66-parts.json",
+      "bytes": 5756769,
+      "sha256": "5afd5f617fc85b669d3e8018043ed312b7e30ae10c11c011be0c939e1c29476a",
       "parts": 3
     }
   ]
