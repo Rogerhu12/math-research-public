@@ -4,16 +4,16 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：a9dc6616687171e7b1a6c9f798e24e6cdcc59d3a
-最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。18:34/18:56 UTC终端重试均environment unavailable。按根规矩8小文本API继续，核main/两README后expected_sha、force=false；API不是实际pull。终端恢复先保留旧未推R762分支，再pull/rebase；远端v2已重建，不能重推旧元数据。
-远端规则核对：2026-11-14 19:55:29 UTC，main=a9dc6616687171e7b1a6c9f798e24e6cdcc59d3a，两README blob均未变；本次为终端不可用期间的API核对。
+已读规则提交：6bed37d9abf37bc0b1e2d5467ba8686124065a02
+最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。18:34/18:56/19:56 UTC终端重试均environment unavailable。按根规矩8小文本API继续，核main/两README后expected_sha、force=false；API不是实际pull。终端恢复先保留旧未推R762分支，再pull/rebase；远端v2已重建，不能重推旧元数据。
+远端规则核对：2026-11-14 19:56:21 UTC，main=6bed37d9abf37bc0b1e2d5467ba8686124065a02，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R781](notes/2026-11-14-public-handoff-before-R781.md)、[before-R781](notes/2026-11-14-open-before-R781.md)，内接R777/R779/R774及全部较早归档。旧run/source/artifact/阶段SHA均在正式结果和此链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
-- **R775运行中**：源00295b27a3f7367028ccee84eb867b5aeadc7540，公开run43631335355；19:45 UTC仍in_progress。直接复用R771的85旧stage，40det coset双标签/odd d82/半线性权给原K定义146/694/1514基，逐coset与基批次断点；80分钟核心/110分钟workflow，若中断先读取全部产物再resume，不重跑完成阶段。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae。
+- **R775运行中**：源00295b27a3f7367028ccee84eb867b5aeadc7540，公开run43631335355；19:56 UTC仍in_progress。直接复用R771的85旧stage，40det coset双标签/odd d82/半线性权给原K定义146/694/1514基，逐coset与基批次断点；80分钟核心/110分钟workflow，若中断先读取全部产物再resume，不重跑完成阶段。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae。
 - **R777工程/9d6c4406已保存，未触发**：core scripts/R777_exact_short_K_basis.py SHA4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；method notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md SHAae8b1f3dd9fff9b38ffab566cb76dc1869add914737c4c9169adeb35e546329a。待输入请求只存 notes/R777-public-exact-short-K-basis-pending.json，SHA3bab514912ea92c843823c1a208d3b0b5686ad271a2efe800aff69faab6c6fbe；此路径不触发workflow。R775实际成功后填真实artifact/cert/manifest，producer_inputs_pending=false，写最终-request.json触发现有专用workflow。
 - R777按原R775配方准确生成qY0..142基：82E1整数有限常数和、全部126半trace/40det、block79无进位低乘、每权82^w尺度。H³只读R774前两块及14个原行尺度，694×694 Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX；原membership与R778注入给全球等式。不把模核/坐标冒作y。数千stage清单gzip仅artifact、小cert存SHA；逐原行断点。根/代理已读全源码/方法与原schema，官方flint0.9接口已核，未本地运行数学。
 - **R774已成/167165de**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e1、H³至qY820全560坐标/26块/108stage，D289bits且v739(D)=0，原模型分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、artifact14128247134；完整原尺度和输入SHA见结果。旧manifest位置失败在core前，已修，数学未重算。

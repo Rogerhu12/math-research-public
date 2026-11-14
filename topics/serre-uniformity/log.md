@@ -270,3 +270,7 @@
 - R781真实g=−diag(1,−1)T^-40给v=ξ^-10u的M+20/L下降，整数Chebyshev转换无1/2；v=κw后Rn残差/(3n+1)只含κ非负幂，原143条关系准确清为2860行/3028未知。
 - 完整证明SHA152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0，原微分/CM符号及143×20全代回保留；λb整基、primitive向量×ρ与S^nΔn分母界全证，实际递推/核未执行返回。
 - R777待输入工程已推9d6c4406，H/open完整归档并同步index；R775仍公开运行，R780原cs与R782原双线性恒等式并行。终端不可用按根规矩8核main/两README后非force继续，无本地数学运行。
+
+## 2026-11-15 03:56 Asia/Taipei · serre-public-resume-20261114
+- 19:55:58 UTC按小时再次只读尝试终端，仍返回No usable execution environment，故无法实际pull；不把GitHub API核对记为本地pull。按根规矩8继续最新main/两README核对和expected_sha非force提交。
+- R775公开run43631335355仍在原K基算术阶段，产物上传尚未开始，未预称结果/重跑；R781证明已推6bed37d9，实际inverse-free core继续。
