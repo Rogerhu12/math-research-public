@@ -555,3 +555,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ### 2026-11-14 15:00:59 UTC — true known-cut direction source refinement deployed
 
 五件独立cut-direction文件推送。源765ca6f13f2358a017062bd863c26986f59a4e37e50bee3c3f2c4c7213d7ef96，134-input manifest df834adcf45098e18c8096676466a53c9e44a823e1e098b1f2a451539688cc88。tail已对原packed-v5核完整普通/divergence/mean/端/Hessian，root另读全部新合同/源/CI与workflow。只16新一列格，完整1977混合cover与原数组保；复跑复用真实prefix。成功与否由实际公开Actions决定，不预授边界算子或响应改进。
+
+### 2026-11-14 15:05:12 UTC — full radial five-box selection and current checkpoint
+
+root完整读Q1–31并核：实际窗口计数、无限low真实消元、串联非零transmission、−1 Cayley极点用自伴关系、整弦至多d次目标谱流、立方体入流面因子及逐窗权。新proof原blob ebac05975f3493cd10bfe680287a335ddd3fc0ed立即推；不授actual非径向逆。H旧字节归档后压缩，保所有未完成范围、当前新源实际7门与下一工作。

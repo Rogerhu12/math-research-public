@@ -225,3 +225,7 @@
 ### 2026-11-14 actual full real delta96 positive root collar
 
 [R133-supplement-actual-full-real-delta96-root-collar-certificate](results/R133-supplement-actual-full-real-delta96-root-collar-certificate.md): public43606747196 passed all nineteen gates. The full band192 high remainder is <131.016384185663, complete193-head feedback is <1/500000, and the four complete source/port state/trace bounds remain 1/12000, 1/100, 1/36 and9/2. Angular orders0–4 are retained. The nonzero-delta body and actual outer reference remain separate.
+
+### 2026-11-14 complete radial five-parameter network selection
+
+[R119-supplement-five-local-parameter-cube-and-complete-radial-network-selection](results/R119-supplement-five-local-parameter-cube-and-complete-radial-network-selection.md): proved Q1–31. Each actual negative window uses five shared coordinates. The exact finite active chain retains the real infinite low-tail graph and full prefix/exterior source lines. A fixed Cayley selfadjoint relation bounds each target-circle spectral multiplicity by the true port dimension; cube-chord integration selects one profile and one outer parameter with positive product measure. The original incoming resolvent satisfies ||Wcal(I−U)^−1Wcal||≤1, with Wcal^-2<2^864000J^8330δ^-1073/16. Actual nonradial Schur comparison and final source/layer weights remain separate.
