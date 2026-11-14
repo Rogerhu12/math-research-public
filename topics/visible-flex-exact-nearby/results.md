@@ -441,3 +441,9 @@
 ### R133：完整 old-circle I/J 余项及真实 mean 源（2026-11-14）
 
 [U.1–U.29 证明](results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md) 已对原 ordered O.9/O.12/O.15 与 complete-moving N.11–N.15 回核。保留全部有限秩项、$J$ 与 $J^*$ 的 one-gain 负窗、七类 $I/J$ 非局部项及独立 mean 源；$S_V$ 中交换子余项为 $-R_{b_0,d_\phi}$。用精确相位导数将 $n^{7/6}$ 密度降为 $n^{1/6}$ 并显式计付 old mean，给出 $C_{\rm nl}$ 与 $C_{\rm mean}$ 的有限范数算法，只需原系数值/第一径向导数及有限角矩。此处为解析恒等式与可执行预算，不是 $N=97$ 小性或全强 return 结论。最终文本 SHA256 `3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9`。
+
+### R133：fullδ 正侧负阶源窗实际 18 门通过（2026-11-14）
+
+[完整实际报告](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)：公开 run **43627228225**，child0/18门，新数学0.002644765s。只消费原4个完整小文本 receipts，0旧 target/reference/kernel；全4650原行与3594接口保。新 $\chi<.788783161039$，$\lambda<.014997875526$，故真实正侧给定完整head的高频接口逆成立；$Y$根反射<3.825862632653，无旧1/2门。全七独立源列/八输出及独立outer mean给出，源$H^{-2/3}$、raw态$H^{-1}$、primitive增益$\sqrt{17}/4$；物理mixed根输出另乘9。完整head/high Schur、强return/cutoff、全PDE与非线性仍未授。
+
+native `498a5f8be6d2729a1029dbc45a7c06f832c58e2d269031f7db929c2327a0c260`；summary `0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef`；process `f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1`。均见报告，不重复原body数学。

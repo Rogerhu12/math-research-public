@@ -151,3 +151,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：U.1–U.29 已封口，接实际余项预算
 
 完整 old-circle I/J/rank-one/mean 恒等式见 [U 证明](results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md)。下一项以已成 root/forcing/seam 原 native 逐 1328 原格核 $C_{\rm nl}$、$C_{\rm mean}$ 及近根平方可积费用；必须保留 $J^*$ 负窗和原角均值，禁止由三阶 intrinsic 免费造第四/第五径向 jet。$L_0v_1$、正侧和完整强 return/实际 cutoff 尚未封口。
+
+### 2026-11-14：正侧负阶完整 given-head 源接口实际完成
+
+43627228225实际18门通过，[七列八输出与独立mean报告](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)。可接真实Airy volume/seam在$H^{-2/3}$源窗，须付实际body/collar jump frame及mixed根输出9、输入$9(17/16)$；不能用$Y$根反射小于1，也不能将给定head接口当完整Schur。继续coupled finite head/strong return/实际cutoff。

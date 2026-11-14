@@ -219,3 +219,7 @@ root新source22029B SHA16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac
 ### 2026-11-14 18:45:19 UTC — old-circle exact inverse remainder
 
 独推 U.1–U.29，root 与 tail 独立发现并核正 $S_V$ 的 $-R_{b_0,d_\phi}$，其范数预算不变；回核原 ordered scalar 与 complete-moving (N.11)–(N.15)，明确链接代替旧编号。全文 SHA256 `3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9`。纯解析/文本，无本地数值计算；继续真实余项 Actions。
+
+### 2026-11-14 18:48:24 UTC — actual negative-one positive graph
+
+亲读run43627228225原process16380B与summary41797B：child0/18门/科学0.002644765s；未读任何gzip。全部readme真pull diff空。独推完整七源八输出/outer mean报告，native498a5f8b…；原4 receipts与4650 kernel严格不重算。接口λ<.014997875526，given-head成立，完整无限逆仍false。
