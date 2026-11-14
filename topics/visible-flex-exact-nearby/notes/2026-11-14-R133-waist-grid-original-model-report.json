@@ -1,0 +1,142 @@
+{
+  "kind": "complete_moving_model_connection_checkpoint_geometry_diagnostic",
+  "complete": true,
+  "failure": null,
+  "mathematical_certificate": false,
+  "source_sha256": "d3ec0e0747fc1ab22a28647621e6e5620b2ce2b3c1b8fdd133aa52fcf82b4531",
+  "no_silent_orthogonalization_or_waist_projection": true,
+  "all_reported_geometry_values_are_floating_samples": true,
+  "physical_angle_residual_bridge_still_required": true,
+  "continuous_integrator_and_Fourier_alias_errors_not_certified": true,
+  "regular_anchor_unpaid_trace_differences": {
+    "sampled_physical_B_abs_max": 2.5269883295316893e-13,
+    "sampled_physical_C_minus_reference_abs_max": 2.528532938583794e-13,
+    "complete_physical_mean_C_minus_reference": 0.0,
+    "rotational_frame_slope_identity_error": 0.0,
+    "true_cap_world_position_and_frame_difference_not_yet_paid": true
+  },
+  "identity": {
+    "source_sha256": "d3ec0e0747fc1ab22a28647621e6e5620b2ce2b3c1b8fdd133aa52fcf82b4531",
+    "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "modules": {
+      "fourfold_codazzi_moving_regular_endpoint_system": "ee5a621f6dc3c2ac552477c71f6ba56817743428f904cd7636281ade57d7be3a",
+      "fourfold_codazzi_moving_polynomial_system": "9d5b70e81fcb6ac93a2cd802529b9a4509e278c31598c05e93ac6e1f7c4f784a",
+      "fourfold_codazzi_reciprocal_cap_cut_system": "bc23c4cdc74ed0e5b146444819d6d09bcc7ce4191f984ab5abd3f6ee6b1fc68c",
+      "fourfold_codazzi_reciprocal_polynomial_system": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+      "fourfold_codazzi_compact_metric_branch_probe": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+      "fourfold_phase_codazzi_two_end_probe": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+      "fourfold_phase_codazzi_rotational_reference_probe": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+      "fourfold_codazzi_rotational_cap_jacobi_probe": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114",
+      "fourfold_phase_symmetric_geometry": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+      "fourfold_codazzi_compact_metric_frame_probe": "06f9f06b873876c194086ccf6e6c167d7af9c186fa4a504dc3aaaf3764b898b5",
+      "fourfold_codazzi_candidate_shards": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+      "fourfold_phase_local_correction_probe": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+    },
+    "coordinates": "moving phi: u=alpha*U; v=1/Cref_nu+alpha*V; theta_phi=v/mean_phi(v); B=u/v; C=1/v",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "complete_candidate_nodes": 6145,
+    "complete_candidate_modes": 32,
+    "angles": 512,
+    "radial_grid_sha256": "8d53a8b1957711d27aeb62a98627a5d76f4870f7bc5df48b1279c5009b775572",
+    "radial_grid_count": 8967,
+    "max_requested_step": 0.001,
+    "geometry_columns": [
+      "position",
+      "frame_normal",
+      "sampled_right_normal",
+      "sampled_left_normal"
+    ],
+    "numpy_version": "2.3.5",
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "scipy_version": "1.17.0",
+    "flint_version": "0.9.0",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1"
+    },
+    "same_model_connection_as_proved": true
+  },
+  "recovered_complete_rows": 0,
+  "total_radial_rows": 8967,
+  "checkpoint_directory": "/workspace/scratch/ac0d699811ad/geometry-final-20261114/blocks",
+  "final_candidate_is_original_ac1d": true,
+  "new_complete_rows": 8967,
+  "completed_rows": 8967,
+  "complete_block_count": 141,
+  "last_complete_block_sha256": "4d87057a72944913d013636f57c1b90688a5df95264825f86241e47535e5ffa1",
+  "sampled_connection_diagnostics": {
+    "max": {
+      "frame_gram_error": 2.19824158875781e-14,
+      "frame_angular_constraint": 6.211570593090558e-12,
+      "position_angular_constraint": 9.64516561157446e-12,
+      "relative_radial_metric_error": 1.8096635301390052e-14,
+      "relative_angular_metric_error": 2.1625479185161112e-11,
+      "normalized_mixed_metric_error": 5.1093605728333584e-11,
+      "formal_candidate_principal_curvature_abs": 11.082564098168172,
+      "sampled_model_radial_speed": 1.9057229647108922,
+      "sampled_reconstructed_angular_speed": 2.0297286160194625,
+      "sampled_connection_angular_speed": 2.0297286160195163,
+      "sampled_v_upper": -0.0902318264205022
+    },
+    "min": {
+      "sampled_reconstruction_cross_norm": 2.4215670274448767e-10,
+      "negative_v_gap": 0.0902318264205022,
+      "negative_mean_gap": 1.0687328309959185,
+      "sampled_angle_derivative": 0.0844287962375199
+    },
+    "at": {
+      "max:frame_gram_error": 0.08812500000000001,
+      "max:frame_angular_constraint": 0.02298611111111111,
+      "max:position_angular_constraint": 0.004583333333333333,
+      "max:relative_radial_metric_error": 0.008984375000000001,
+      "max:relative_angular_metric_error": 0.01109375,
+      "max:normalized_mixed_metric_error": 0.0041666666666666675,
+      "max:formal_candidate_principal_curvature_abs": 0.0,
+      "max:sampled_model_radial_speed": 0.811,
+      "max:sampled_reconstructed_angular_speed": 0.0,
+      "max:sampled_connection_angular_speed": 0.0,
+      "max:sampled_v_upper": 0.0,
+      "min:sampled_reconstruction_cross_norm": 3.125,
+      "min:negative_v_gap": 0.0,
+      "min:negative_mean_gap": 0.0,
+      "min:sampled_angle_derivative": 0.0
+    }
+  },
+  "row_prefix_only": false,
+  "global_sampled_geometry": {
+    "common_world_height_translation": 0.9654154298482165,
+    "sampled_maximum_position_norm": 1.2755597406569237,
+    "twice_sampled_maximum_norm": 2.5511194813138474,
+    "sampled_one_sided_reconstructed_normal_support_min": 0.9054206003893591,
+    "sampled_frame_normal_support_min": 0.9054206003893577,
+    "reflected_fourfold_body_point_cloud_nearest_distance": 0.12970542309268251,
+    "nearest_distance_is_not_a_continuous_lower_bound": true,
+    "nearest_at": {
+      "radial_index": 0,
+      "radius": 0.0,
+      "phi_index": 256,
+      "inverse_rotation_and_reflection_target": 0
+    },
+    "phase_witness": [
+      0.8016631540146864,
+      0.8016631540146862,
+      -2.55351295663786e-14
+    ],
+    "minimum_z_where_r_at_least_quarter": 0.28114371648409464,
+    "waist_height_range": [
+      -3.1308289294429414e-14,
+      3.5083047578154947e-14
+    ],
+    "waist_frame_X_distance_to_vertical": 7.904097408523243e-13,
+    "waist_frame_Y_vertical_max": 3.83684818101698e-14,
+    "waist_frame_N_vertical_max": 7.916927204955349e-13,
+    "reflection_is_only_a_diagnostic_point_cloud_until_waist_jets_match": true,
+    "caps_beyond_R_and_fixed_markers_not_included": true
+  },
+  "sampled_geometry_path": "/workspace/scratch/ac0d699811ad/geometry-final-20261114/samples.npz.gz",
+  "sampled_geometry_sha256": "40fede3ee8509b398aeaa9e2dd6713d1a6b387ec144eea3183f6dd61286aaf9e",
+  "wall_seconds": 163.83939947699992
+}

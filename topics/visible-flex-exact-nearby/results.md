@@ -504,3 +504,6 @@
 
 
 - [实际完整记录](results/R133-supplement-complete-finite-phase-transport-and-all-frequency-residual.md)：同一修复中心η=η0的真正双leg Arb有限transport首germ已完成12个scalar/candidate交格；N64只用于选择参考，多项式全部128输出及真scalar无限尾均入未投影残差。实际完整scalar费1.828549e−16、保留有限费5.4560e−35、外输出2.7180e−42；两初始及全部phase值jump准确0。原provider pin失败保留，当前同源续算不重算primitive；未授完整169germ return或真conjugacy。
+
+
+- [实际完整记录](results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md)：完整512准确角点、33偶腰系数/mean、全部标架列和原世界平移实际normal0/4.599s，8门：真实全圆周腰对齐bF0≤径向腰eF+.000012332337、bQ0≤eQ+.000006643245。保真正四重wrap与完整角二阶operator界；所需完整径向终点仍另付，未将部分积分或浮点腰当真曲面。

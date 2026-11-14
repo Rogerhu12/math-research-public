@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-u",
+    "scripts/fourfold_codazzi_exact_waist_grid_alignment.py",
+    "--geometry-report",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/report.json",
+    "--last-block",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/blocks/block-000140.npz",
+    "--angular",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-angular-defect.json.gz",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-waist-grid-alignment.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "b4fedc7ca91f1865496f7241a131d5df9106b40e4187868e7796c70ac3da7dab",
+  "started_utc": "2026-11-14T08:08:24.020597+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "actual_returncode": 0,
+  "wall_seconds": 4.599036868003168,
+  "maximum_child_RSS_KiB": 240980,
+  "finished_utc": "2026-11-14T08:08:28.619931+00:00"
+}

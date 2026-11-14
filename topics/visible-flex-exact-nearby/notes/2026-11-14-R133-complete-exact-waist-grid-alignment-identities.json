@@ -1,0 +1,59 @@
+{
+  "kind": "actual_complete_exact_waist_grid_alignment_identities",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "complete_grid_points": 512,
+  "complete_gates": 8,
+  "files": {
+    "notes/2026-11-14-R133-complete-exact-waist-grid-alignment-native.json.gz": {
+      "sha256": "ea4e39e1f87a9fbd2503554b744ed2b3a9f2c5efe8620a713da3781c1b949a5d",
+      "bytes": 45479
+    },
+    "notes/2026-11-14-R133-complete-exact-waist-grid-alignment-process.json": {
+      "sha256": "9f6aef09224ebd391a7d9f71d2709aa69a675472c5ee1db0b9ee79747bdfbe5b",
+      "bytes": 1056
+    },
+    "notes/2026-11-14-R133-waist-grid-original-model-report.json": {
+      "sha256": "49870375c7397a53b867d67ce94aa8fcd2d86a69bfe7fc3a7f482b9232d30a2e",
+      "bytes": 7187
+    },
+    "notes/2026-11-14-R133-waist-grid-original-terminal-block.npz": {
+      "sha256": "4d87057a72944913d013636f57c1b90688a5df95264825f86241e47535e5ffa1",
+      "bytes": 199666
+    },
+    "scripts/fourfold_codazzi_exact_waist_grid_alignment.py": {
+      "sha256": "b4fedc7ca91f1865496f7241a131d5df9106b40e4187868e7796c70ac3da7dab",
+      "bytes": 9390
+    },
+    "results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md": {
+      "sha256": "fe4967a1919a0d9ae1094d1541e6f362ec38ef6a39e74f388b1ff74ad9945a78",
+      "bytes": 8369
+    }
+  },
+  "original_input_sha256": {
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/report.json": "49870375c7397a53b867d67ce94aa8fcd2d86a69bfe7fc3a7f482b9232d30a2e",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/blocks/block-000140.npz": "4d87057a72944913d013636f57c1b90688a5df95264825f86241e47535e5ffa1",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-angular-defect.json.gz": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+    "notes/2026-11-13-R133-final-waist-amplitude-chart-rational.json": "8066f501acc87d42e7d58f30377680aaa317be500471fa71bcceef336fc9357b"
+  },
+  "portable_input_copies": {
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-waist-grid-alignment.json.gz": "notes/2026-11-14-R133-complete-exact-waist-grid-alignment-native.json.gz",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-waist-grid-alignment-process.json": "notes/2026-11-14-R133-complete-exact-waist-grid-alignment-process.json",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/report.json": "notes/2026-11-14-R133-waist-grid-original-model-report.json",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/blocks/block-000140.npz": "notes/2026-11-14-R133-waist-grid-original-terminal-block.npz"
+  },
+  "reproduce_from_topic": [
+    "python3",
+    "scripts/fourfold_codazzi_exact_waist_grid_alignment.py",
+    "--geometry-report",
+    "notes/2026-11-14-R133-waist-grid-original-model-report.json",
+    "--last-block",
+    "notes/2026-11-14-R133-waist-grid-original-terminal-block.npz",
+    "--angular",
+    "/path/to/the/original/complete-angular-defect.json.gz",
+    "--out",
+    "/path/to/a/new/waist-grid-native.json.gz"
+  ],
+  "actual_process_file": "notes/2026-11-14-R133-complete-exact-waist-grid-alignment-process.json",
+  "scope": "b_F0 <= actual_radial_waist_position_error + position_alignment_additive_constant; b_Q0 <= actual_radial_waist_frame_operator_error + frame_alignment_additive_constant",
+  "missing_radial_waist_error_not_set_to_zero": true
+}
