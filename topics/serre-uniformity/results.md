@@ -616,3 +616,5 @@
 - **R694（已证明）**：[3处椭圆尾模型与原CM校准零靶](results/R694-three-adic-elliptic-tail-model-and-actual-CM-zero-orbit.md)。实际T=X(6p)/Q8在3处为一个中心加椭圆尾，边长1/4；中心及唯一CM项链尾商恒定，λ3(c1)=0、ω0=0。一般非CM尾φ_s仍未计算。实际p处Λ jet、赋值及统一全尾仍待求。
 
 - **R696（已证明）**：[同一个实际全局CM同构迫使候选坏处零靶](results/R696-actual-global-CM-isomorphism-forces-zero-bad-height-target.md)。用R317完整分解群的标量中心化子跟踪给定Φ；奇分支与偶分支四阶τ均保留唯一CM Cartan，实际候选λ2=λ3=0，Ω_actual={0}。变化d只经原局部同构运输，未换全局商。实际p处Λ jet、赋值及统一全尾仍待求。
+
+- **R626（已证明）**：[SS_j0_16原规范高度与整盘排除](results/R626-SS_j0_16-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式29非平方，四同标签全无根。非CM SS累计55/105。
