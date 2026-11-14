@@ -4,7 +4,7 @@
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
 - **最近成功实际 pull 与已读规则提交：** `d993609843d18c346c8d19c4a7d8e92e00e3aab2`（2026-11-14 19:43:06 UTC，Actions run43633594311/job132565433159实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `fdc99b7dc19ed97e996a51b8d68396c415d91bed`（2026-11-14 19:52:20 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最新规则读取（GitHub API，非实际pull）：** `c0d0ee6d127fe9e2f138b8dfc2809f9fd0769d92`（2026-11-14 19:53:54 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -30,9 +30,9 @@
 
 - T96图run43597823809，图SHA bb2b36e3…56ce，1021像/1174核；全1834核=1632真31单位低核＋202高核。完整第一β像W维2；全198第二像run43619888599连W维7。旧全部数据已入主线，不重198、旧四列、selected或图。
 - H0原17模961/cost86、模31³旧cost276及去投影cost87均已成。原h0任何次数31整数模961源已排；不排有31分母来源。
-- [原h0一31分母九列mod31³](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)：run43626632693，九cost87/87/86/87/87/87/87/87/87，原17/6188/4367、每列227766坐标失败0。数据e003517c与补存4adde9dd含全部25恢复/4cache；旧失联小证书精确重建。仍非char0。
+- [原h0九列mod31³](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)：run43626632693，全部AZ=31h0原17成功、cost≤87；数据e003517c/4adde9dd含25恢复/4cache与失联证书准确重建。非char0。
 - [七真关系完整下一像](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)：run43630666145/job132556308032，源码2b5a83b3、数据fc7b56fe。七关系原cost86/86/87/87/87/88/87，原16列mod31⁴整除p³每列232133坐标失败0。全部505自由/315原商保全，Q/U挠308/free13；A+完整第一β秩1，由7003生成，Krylov幂1稳定。j2..10仅6/9相容，其余七有湮灭全新像的对偶。负范围仅固定mod31初值(x0,0)，两正列已由下方pair完整乘回。
-- 这轮数学68.015885354秒；68结果49803475B、38恢复73831455B（19二进制＋19文本、全部7cache）均在 notes/r150-seven-saturation-actions-789f/43630666145-1/。恢复artifact14127663630，完整商压缩SHA7e10ad5a…7ea6c。不得重已成七列；继续直接复用实际原16 NF/Q/rem/trace和原来源。
+- 七关系全部68结果/38恢复含7cache已入 notes/r150-seven-saturation-actions-789f/43630666145-1/，artifact14127663630；完整时间/字节/SHA保[本次H快照](notes/2026-11-14-handoff-before-transverse-cut-budget-789f.md)。只复用实际原16 NF/Q/rem/trace与来源，不重已成七列。
 - [固定单位列族全部预算已排](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)：九raw modU全非零，其中6/9为新非零生成元30/18倍。旧全部标准来源＋七固定常数除列的P∞模31单射，单位minor与真实carry公式迫九h0目标均不在其Q像，增加B无效。只排该固定族；其余原有理源及sB调整仍开。
 - 下一：七新φ=θ1,θ2,(s−2)θ3,θ4−18θ3,θ5−22θ3,θ6−2θ3,θ7−15θ3；只新VQ7与原mod31⁵，完整相关第二像支付全部A+模31初值。正向需全315身份及原17式，目标31²h0 mod31⁵；两正列直接乘p复用，不重VQ。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745保旧证明；全部其他mean秩/高本质/自然幂和普通ISP继续。Smith层的旧条件命题只按原前提使用，不预填精确秩或目标有理像。
@@ -41,12 +41,10 @@
 
 - **原尾接线：** [准确换权](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)保全部左/右/裸商、flat=L̃G̃L̃与负图度量；[真primitive平移](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)给远移核条件数指数费、单移真二次型~c_xs²。原s≈q/x≈m不满足局部窗；未排特殊t_q或完整同源Schur抵消。
 
-
-
-- **[两正列原式已成与准确J8](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)：** run43632271378/job132561306877、源fe0c3d75、数据fc04ef7d。j6/9的AZ=31h0T mod31⁴全17通过，cost87/87、每目标232133坐标失败0；数学40.954371084秒。41结果4833805B、22恢复12298604B含全部5cache均入主线；artifact14128781519。真实c=[0,0,1,18,22,2,15]，J8末列[14,1,0,0,0,14,0,2]；九raw完整ann(s−1)(s−2)²，商U后ann s−2/rank2，商U8后剩七列ann s−2/rank1，6/9零。
-
+- **[两正列原式与J8](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)：** run43632271378、数据fc04ef7d；j6/9的AZ=31h0 mod31⁴全17成功，cost87/87。41结果/22恢复含5cache全入主线，artifact14128781519。真实c=[0,0,1,18,22,2,15]、J8末列[14,1,0,0,0,14,0,2]；九raw全315 ann=(s−1)(s−2)²，商U8后七列一维s−2、6/9零。
 
 - **[左加bare联合一位Schur](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)：** 真短旗商坐标(z,w)=(Q_hu+aR_hP_hv,Q_hv)，度量diag((I+a²R_hR_h*)⁻¹,I)，下降offdiag=A_hw=w+R_(h−1)P_(h−1)Dw。完整joint列Khat=Q(P′−PR_d)+R_bare P，保q/q−1切口、上源Γ_(q,a)、实际边界B_a；(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔s的Schur增量和反馈的新left+bare能量≤a²c_s²，不免费控旧欧氏源。普通右G/flat、实际Z_q^-1保持及原负图继续。
 
-
 - **[七φ的相关第二像完备](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)：** kerβ+=原1834⊕七φ。低1632真lift、四特殊增广精确syzygy、旧198相关δ2落U，故1/2全部第二像只需七φ；未扩旧198其它primary。pair已证真实余全在1/2，条件满足。K4=K3L−p³q−Σp^(3−e)κC，原modp5查p4整除；正向最终31²h0 modp5，负向仅A+全部初值。
+
+- **[同测试滑动切口预算](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)：** 固定真核Σ||(R_q−P_q)v||²=EN0；用正交核增量和Fourier区间mask，原k_(q+w)=P_K_(q+w)f的总平方≤k0(1+logw)²||f||²，w=d时O(m³)。QhcR_qk保完整左前缀，原方程残量总平方≤2S同预算；同窗选点已付，尚非精确普通右链。旧全环境联合gap及实际尾稳定已见R239附录，不重复登记。

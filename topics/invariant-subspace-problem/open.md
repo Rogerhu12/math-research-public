@@ -163,12 +163,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **真left+bare一位接合。** [完整joined Gram/Schur](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)已付所有短旗商真实度量、两切口、额外交叉A_h、可行列Khat和实际边界B_a，精确(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔的增量与反馈新left+bare能量≤a²c_s²；下一同源接普通右G/flat、实际Z_q^-1与原负图，不以旧欧氏源或任意bare类替代。
 
-**R150最新实际来源与下一完整初值。** [七关系run](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)给A+完整β秩1，七固定初值障碍；[pair实际成功](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已付j6/9的原31h0模31⁴/cost87。九raw全315最小ann(s−1)(s−2)²，商U8后剩七列为一维s−2。全部结果/来源/阶段cache均已入主线，不重已成七列或两正列。
-
-[固定单位列族](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)的九目标所有预算有理像已排，仅限旧全部标准来源＋七常数除列；[第八真除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)给rank_Q A87≥226090，旧226089前提已排。完整原有理像、Smith恰层和精确秩仍开。
-
-[七新核与相关第二像完备性](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)把全部A+初值自由在1/2部分缩为七φ。真实c已给，剩余目标确在该部分；只新VQ7/K4和原模31⁵计算，正向先尝试完整315无投影身份，必要才保真谱投影及其费用，最后原17式乘回31²h0。两正列直接乘p复用。负结论限A+所有初值，不扩原全部有理来源。普通ISP完成标准不变。
-
-本节此前逐条状态和所有数据入口保[本次完整open快照](notes/2026-11-14-open-before-augmented-second-interface-789f.md)。
+**R150接续。** [七关系](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)给A+完整β秩1；[两正列](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已全原17式AZ=31h0模31⁴/cost87，九raw全315 ann=(s−1)(s−2)²，商U8后剩七列一维s−2。[七φ完备性](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)覆盖全部A+初值的相关第二像；仅新VQ7/原模31⁵，正向付完整315及真实谱投影费用后乘回31²h0，两正列乘p复用。固定标准＋七常数列族已全预算排，rank_Q A87≥226090；原全部有理像/Smith恰层/精确秩仍开。全部来源、cache与前述完整状态保[本次open快照](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)。
 
 **全出生真核与物理位旋转。** [Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)给同源Γ/C≤Ξ≤Γ、logC=O(m logm)，实际零模像不可扩大。[占据矩/旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)给EN0≤k0、EN0²≤k0²及四次尾，旋转费不含总孔；旧核加真空到硬核距离为二阶。继续实际Z_q^-1、总强度变化及joined高返回，不以硬核距离替新核交集距离。
+
+[同测试滑动切口](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)已付Σ||(R_q−P_q)P_K_(q+w)f||²≤k0(1+logw)²||f||²，w=d为O(m³)。硬核投影保全部≤q前缀，真实残量总平方≤2S倍；与原两费同窗平均有效。仍须精确修复及高返回E_ret，不能用旧R239全环境联合gap代受限逆。

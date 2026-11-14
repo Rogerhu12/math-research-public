@@ -176,3 +176,8 @@
 ### 真核全出生占据矩与单物理位旋转
 
 [完整证明](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)在原物理头和连续尾给任意真核向量的集体占据 EN0≤k0、EN0²≤k0²，k0=max(2m,16)，高占据K≥k0的质量≤exp(1−770K⁴/16⁴)。单物理位完整bosonic旋转的生成元平方范数≤3||a0v||²+||v||²，旧真核加真空时≤k0||v||²；整弧误差≤|θ|·||Gv||，到硬核空间的距离≤√3·k0·θ²||v||/2。全部独立总孔数/出生。硬核投影不交换annihilation；方向旋转仍须另付实际总强度变化，尚非新真实核提升或高返回Schur上界。
+
+
+### 同一固定测试的滑动核切口：总平方预算O(m³)
+
+[完整证明](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)先给真核v的精确Σ_q||(R_q−P_q)v||²=⟨N0v,v⟩。对同一个固定测试f，正交有限核增量与Fourier区间mask严格支付滑动k_(q+w)=P_K_(q+w)f，总平方≤k0(1+logw)²||f||²；原w=d=2^m时为O(m³)，不假定有限核穷尽真核。QhcR_qk保整个左前缀、支撑至q+d−1；碰撞回流块范数≤√(2S)，故真实方程残量总平方≤2S k0(1+logw)²||f||²。固定多测试可与原费用在同一窗口平均；仍非精确右链，不删高返回Schur。
