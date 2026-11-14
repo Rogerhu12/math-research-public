@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c476a1304a862c0a50be01ddf01c072a411f7ad0；2026-11-14 12:27:58 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：4b09a14c27e618c13ad5422045a0172550a73faa；2026-11-14 12:32:50 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,8 +14,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–498、R500已登记；R364仍开。R235/R237旧丢失结果及迁移R437/R438已全部重做推送。最近旧提交见分段日志；R493=a7dc9477；R496=bee5967a；R497=ebe0b73c；R498=93264fd5；R500本次登记。
-当前只在`/workspace/scratch/4fe3fb9f2a50/math-research-public` main；旧库完整只读移至`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理仅写各自证明/脚本，root统一元数据与逐条推送。theta续R501保原五伴随的D33四态；literature续R503真实三输入浅支；deep续R502完整低ell Bockstein；root续R499新四态z的完整Y谱。各自已完成证明随到随登记，不新增独审门。
+R1–363、R365–500已登记；R364仍开。R235/R237旧丢失结果及迁移R437/R438已全部重做推送。最近旧提交见分段日志；R493=a7dc9477；R496=bee5967a；R497=ebe0b73c；R498=93264fd5；R500=14ff269f；R499本次登记。
+当前只在`/workspace/scratch/4fe3fb9f2a50/math-research-public` main；旧库完整只读移至`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理仅写各自证明/脚本，root统一元数据与逐条推送。theta续R501保原五伴随的D33四态；literature续R503真实三输入浅支；deep续R502完整低ell Bockstein；root续完整来源CM/新轴及真实补域。各自已完成证明随到随登记，不新增独审门。
 
 ## 目标桥及完整旧接口
 
@@ -42,6 +42,8 @@ R497以原Z27/ξ4构造Y=Z+barγ7 x、Tc=γ7Z−27x，Gram34/918/det−34；四R
 
 R500新纯Y轴V=(27W′−αZ)/2，α=37+3δ，degree3699=27·137；加π0≡1mod137与旧ray兼容。整个odd核心χ_Vλ、χ_V²1（未认同χ29），完整(Z,V,Q3)为p整框架；三Q共同核χ_Vλ³。V/Q缩放固定Y/Tc，原S条件行右侧χ_V^(s+t)λ^(s+3t)JS。合法删Q深度后来源L(z,v)=−1/84∏5σ(z_jz+v_jv)⊗σ(x)；V深n内Z深n⇔W′深n（排349），唯一补域为W′浅。小管中央v5n，W′物理矩阵I+(κ−1)/1944[[1396,2barα],[274α,548]]同时移动Y/Tc/V，不能删浅支。
 
+R499全部带权四纤维以σ1=iσ−1(z/i)锚定Norm1:e=−1−√3/ε−i，Norm3:e=−1+√3/ε+i。整个Z_Y=zY(2t)为显式degree21多项式，23坐标准确Z_Y=Dv_Y，D=ω⁻¹N19N7⁻²；D−八基系数全反R476，new−52/3、Href+(1+δ)/(2016b)。v+Z/v−Z轨道维9/8，两九轨道张满全部17维N7⁹+，十二外谱保持；此篇只证首边缘，R501另付同伴随联合。
+
 ## 普通：原低 degree 因子及完整两Theta核
 
 R490/492完整原C26/Θ两输入、显式H5伴随、36维三张量、双单位反对称及C3非齐次行全保`notes/2026-11-14-frontier-before-r496.md`。C26=[Θbarγ13−Θγ13]/(336bδ)，JC26′=d log〈barγ/γ〉(1+λ)/(336bδ)非零；R486 W13=7bC26。原Φ全principal=H3⊗C3+S⊗Λ+H5⊗CS，Λ质量1/coreλ，JC3′非零、JCS′=−JS′，第二B=C3+CS仍辅助来源。原混A单位、两输出同时unit及所有卷积转置未消。
@@ -58,4 +60,4 @@ R495固定19普通吹起给χ=−KC≥2b、κ=C²≥2b−2及全部H1(mC)=0；�
 ## 其他支线及继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace与conductor Euler保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价与类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p不传播。
-继续R499新z全Y谱、R501完整D身份、R502原低ell Bockstein及R503三输入浅支；主目标未完成，QUEUE不改完成，不等回复。
+继续R501完整D身份、R502原低ell Bockstein及R503三输入浅支；主目标未完成，QUEUE不改完成，不等回复。

@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R499：新四态全Y多项式、D33身份与整个十七维正块](../results/R499-four-state-z-full-y-polynomial-and-d33-identity.md)：原周期锚支付两类四挠范数绝对符号，完整带权纤维给显式degree21多项式及全部23坐标Z_Y=D33v_Y。新线/Href系数为−52/3与(1+δ)/(2016b)，全部八维D负块完整反号；v±Z的CM7循环维数9/8，两轨道合张满整个17维正块，保其余12外谱及尚须另证的联合伴随身份。
+
 - [R500：原3699纯Y轴、完整三输入及同域W深浅分拆](../results/R500-original-pure-y-axis3699-and-complete-w-depth-complement.md)：真实V=(27W′−(37+3δ)Z)/2正交Y/Tc，兼容mod137与两sigma锚给wholeodd3699核心χ_Vλ、χ_V²=1。三个Q共同核已付，可合法消去其深度并保系数；原S算术行允许任意V深度，同一域Z深恰等于W′深，完整剩余压到显示L(Z,V)⊗σ(x)的唯一W′浅支，所有移动测试保留。
 
 - [R498：原低ell完整三厚化首像及ODE转置](../results/R498-original-low-ell-triple-neighborhood-and-ODE-transpose.md)：同预算t^rQ整个3C来源与原低行给全部Jbar首像，高块准确为(t^(s−r),t^max(ell−r,0)(ζ−η)²)；真左行是K_X|3C主部再经全部原列测试。低ell时A−2ηB正则，原代数比值A/(2B)给真实ODE转置，但其长度严格低于首共振，完整forcing及M carry仍在。
