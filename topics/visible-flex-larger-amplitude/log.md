@@ -676,3 +676,7 @@ request25终态补记：原身份验证通过，原Newton iter0 norm=.0417730782
 ### 2026-11-14 actual26：全角可行投影扩大真实下降步
 
 run43608931469/source2a251065/job132489481146全success，artifact14119626920 108924237B/ZIPe0c1e49b…已取核。唯一88次原Jac捕获9node/9版本，完整B10,240行、actual-LSMR complex6.563e−13/adjoint2.273e−18，50文件/305数组逐字节核。Hildreth200未收敛的74负行经.8606834径向修复，全slack非负；τ1选投影，原17回溯在α2^-6实降.0136476320/ratio.9990257931、所有域过。新warm4e2ee245… 4711738B/new FD8.659e−10，col.007110525/BC9.449e−8仍未接受、native0。完整actual26 note全文读；更大step五query全正却出现RMS472/481新坏query，七query同参数后继在写。不同模型固定权重merit不可直接相减；完整model gradient166834及零dual E190903不冒QP最优。
+
+### 2026-11-14 R266完整原native缺陷与缩放证明
+
+按原core ac2fc999…逐符号证明全部stage/cut/far线性缺陷、原σ无穷范数模型下降和完整非线性/浮点误差身份；任意可逆行列变换精确等价而须回原方程复核，Riccati完整递推/唯一性及chart奇异但全A可逆反例明确。root全文读并明确下降判据步长0<λ≤1，直接results登记，无独审或数值审批门；没有新计算或对actual25因果的超额结论。

@@ -36,7 +36,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 21工厂12/92 det失败且未留T，不能反填。22/v2全部576stage工厂成功、41有限rounded det0；261→262第112模−5e−324/u275.882…→0被私有veto拒，candidate=false/evaluate0。原件/notes及publisher补救已推，不重算；原native无此额外门，R264已证舍入账。
 23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
 51真下溢=47除/4乘、25负零；完整operand/result/双原scale bits保全。恢复9546负零后candidate完整binary64 SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，原scale SHAecbfd55d…；71chunk SHA/顺序/维数核。summary aa93fb8a…，完整note public-same-RK-candidate-v3-actual23。
-25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；完整actual25 note已读，未保存全J/delta，接同场单次原correction捕获，不重试原十步。
+25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；actual25已保；按R266接同场单次原J/r/delta捕获，不重试十步。
 
 ## 之后的完整闭合与同g精化
 
@@ -49,6 +49,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R265完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R266完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
 
 规则同步记录：2026-11-14T15:23:02.870679+00:00 实际pull --rebase成功；双README自0b4031e7无变化，已读提交 cae69d1d38dc31841f46523458e05022444d4acb。

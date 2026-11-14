@@ -497,3 +497,6 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 
 
 - [R265. 完整角域线性不等式的正阻尼模型与后验误差](results/R265-full-angle-linear-inequality-damped-model.md)（已证明，有限实模型条件定理）：全声明角行Bz≥−(1−θ)β严格可行、正阻尼唯一解，正确KKT符号给非零方向严格下降；给完整stationarity/互补误差的dual下界、模型gap和方向后验及显式径向可行修复。完整Hermite两端RHS/p/入口chart的B/Bᵀ及旋转Fourier jet欧氏转置明确，无隐式1/N；浮点诊断不冒严格认证，五处N2048不代连续角/全部原域，未选择θ或QP算法，非新BVP门。
+
+
+- [R266. 原native块Newton缺陷、原尺度下降与可逆缩放](results/R266-native-block-Newton-defect-and-original-scaled-descent.md)（已证明，完整有限代数/条件下降定理）：全部stage/cut/far的原尺度缺陷 $e=A\delta+\widehat r$ 给模型恒等式与充分下降；分开computed J、精确参考导数、flow/root/RK、trial形成与norm舍入误差。任意可逆行列缩放保持解而须回原尺度核缺陷，完整Riccati精确等价与chart奇异不等于全系统奇异的反例明确。实际25尚无完整J/delta，不能据高condition判因，也不保证原十步必成或新增运行门。
