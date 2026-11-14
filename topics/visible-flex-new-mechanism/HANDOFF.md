@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，时间C²连续，同一固定g；固定材料H有内点、diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6并同g/状态/时间精化。D为完整F0直径；δE可0如实报；完整网格<5MB；明确数值/准确存在差距。达标后继续.5D或更强存在。现无完整合格候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`59f862f0efe9c2e00f3b062412603add2b65bb66`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`3689913753612b02021e439082eaf1c166091183`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README；变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则/再推至成功，不强推。
 - 已授权本公开main/自身Actions。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、小人工开发核、源码和公开输出分析。PAT仅瞬时CLI/env，不入文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根无差、本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。18:30 API另核根README blob未变、QUEUE本题唯一行仍进行中；此非pull。
@@ -48,7 +48,7 @@ R65仅理想无桥±pair纯漂移；R67 whole period=P0+NP1+N²P2+N³P3；R68二
 
 R69给纯Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)，28个profile无关充分矩条件；BigInt10差准确0。R70已给任意frame/scalar端及sl3目标的真实有限K桥；全桥M0后，固定K独立外N，所有phase第四period准确P0+NP1。R45闭浸入仍非嵌入/厚度。
 
-**R71已核：** 内桥第三T进入完整P1；同端I、M0的对称词W(t)接真实revW(−t)准确实现2t[P(f,Qgh)−Q(f,Pgh)]，无渐近余项；I→I倒行FR=D Frev D、scalar同值已显式核。八矩基给至多28可达方向，r0/r1对角为−2t/3∫q''³，非零q不恒零。仍须匹配整个P1及基准桥T，支付P0/ruling/收敛/有限族。R72已用B接真倒行及x-z-x有限Euler，给同scalar任意frame的准确M=T=0桥；不同scalar转接T及空间位移/P0仍欠。继续求解，不止条件结论。
+**R71已核：** 内桥第三T进入完整P1；同端I、M0的对称词W(t)接真实revW(−t)准确实现2t[P(f,Qgh)−Q(f,Pgh)]，无渐近余项；I→I倒行FR=D Frev D、scalar同值已显式核。八矩基给至多28可达方向，r0/r1对角为−2t/3∫q''³，非零q不恒零。仍须匹配整个P1及基准桥T，支付P0/ruling/收敛/有限族。R72已用B接真倒行及x-z-x有限Euler，给同scalar任意frame的准确M=T=0桥；不同scalar转接T及空间位移/P0仍欠。继续求解。p1 exact producer f7f3e3c6已三方全文审，先部署p1_bulk_development（独立Node三差与Python右IBP toy），尚无公开pass；通过后实际编译纯bulk drift与28控制响应，不含baseline桥T/P0/其它phase。
 
 ## 6. 已通过开发核与立即行动
 

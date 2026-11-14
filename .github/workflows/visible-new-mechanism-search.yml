@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit, p1_bulk_development, p1_bulk_exact]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit', 'p1_bulk_development', 'p1_bulk_exact'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -977,6 +977,64 @@ jobs:
             --height-column 4 --height-bound 1 --tau 61/1000 \
             --height-margin 1/1000 --minimum-signed-height 0 \
             --out "$VISIBLE_NEW_OUT/frame-entry-short-bounded-initial-audit.json"
+      - name: Bind reviewed exact whole-function sources
+        if: matrix.lane == 'p1_bulk_development' || matrix.lane == 'p1_bulk_exact'
+        run: |
+          python - <<'PYHASH'
+          import hashlib, json, os
+          from pathlib import Path
+          root = Path(os.environ['VISIBLE_NEW_SCRIPTS'])
+          expected = {
+              'literature_pure_bulk_exact_membership.py': 'f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70',
+              'literature_tau0_response_independent_certificate.mjs': '328b036fd9dc0e9715787113179a0d0d73f526f8fb24c3f98a5906c657f0be18',
+          }
+          for name, sha in expected.items():
+              if hashlib.sha256((root/name).read_bytes()).hexdigest() != sha:
+                  raise SystemExit('Reviewed exact producer source hash mismatch: '+name)
+          dep = root/'literature_range_profile_algebra.py'
+          data = dep.read_bytes()
+          git_blob = hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+          if git_blob != '01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74':
+              raise SystemExit('Frozen R56 compiler Git blob changed')
+          report = {
+              'schema': 'pure-bulk-exact-source-binding-v1',
+              'source_commit': os.environ['GITHUB_SHA'],
+              'source_sha256': expected,
+              'R56_dependency': {'git_blob': git_blob, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)},
+              'no_candidate_geometry_or_profile_evaluated': True,
+          }
+          (Path(os.environ['VISIBLE_NEW_OUT'])/'p1-bulk-source-binding.json').write_text(
+              json.dumps(report, indent=2, sort_keys=True)+'\n')
+          PYHASH
+      - name: Check independent exact jets and the new right-anchor algebra
+        if: matrix.lane == 'p1_bulk_development'
+        timeout-minutes: 4
+        run: |
+          node --version
+          node --input-type=module - <<'NODE'
+          import {readFile, writeFile} from 'node:fs/promises';
+          import {createHash} from 'node:crypto';
+          import {pathToFileURL} from 'node:url';
+          import {join} from 'node:path';
+          const source = join(process.env.VISIBLE_NEW_SCRIPTS, 'literature_tau0_response_independent_certificate.mjs');
+          const {certificate} = await import(pathToFileURL(source).href);
+          const report = certificate();
+          report.source_sha256 = createHash('sha256').update(await readFile(source)).digest('hex');
+          report.execution_scope = 'Node ESM wrapper and exact formal-jet core; no research profile or geometry evaluation';
+          await writeFile(join(process.env.VISIBLE_NEW_OUT, 'tau0-independent-exact-check.json'), JSON.stringify(report, null, 2)+'\n');
+          if (!report.passed) process.exitCode = 1;
+          NODE
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_pure_bulk_exact_membership.py" \
+            --toy-only --out "$VISIBLE_NEW_OUT/p1-bulk-exact-toy.json"
+      - name: Compile the reciprocal pure drift and exact third-control responses
+        if: matrix.lane == 'p1_bulk_exact'
+        timeout-minutes: 8
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_pure_bulk_exact_membership.py" \
+            --max-seconds 240 --max-coefficient-nodes 500000 \
+            --max-profile-atoms 60000 --max-terms 80000 --max-IBP-calls 250000 \
+            --max-memory-mib 2048 --max-rational-bits 8192 \
+            --out "$VISIBLE_NEW_OUT/p1-bulk-exact-membership.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

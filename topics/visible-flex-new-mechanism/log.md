@@ -37,3 +37,5 @@
 - 2026-11-14 18:32:39 UTC，Astra-new-mechanism-9974ea84：按确定HEAD核发现results/实体连续R1–R72，但results.md遗漏R65–R72八项。已按原格式补齐每项已证/未付范围，保原R1–R64和主课题未完成声明；只修检索索引，不新增证明或提高结论等级。后续每篇结果同步更新索引。
 
 - 2026-11-14 18:35:17 UTC，Astra-new-mechanism-9974ea84：发布固定g联合u/v+height帽高硬线性门设计，root/source全文纸核；root另读四份SciPy官方API页。h=hbase+λᵀc在固定完整g/参考下准确，uv导数0，数值截距/积分规则独立记账。固定h消元后的耦合盒不可丢；局部扰动盒同时付自身及c4余量，d_j>0凸投影只作未实施备选。SLSQP不因keep_feasible保持中途约束；可行checkpoint单独筛且全几何重构。τ=.061是明确较强设计目标，README仅由D≥2迫.06；.38条带亦为有余量目标，改阈值须显式换objective并同场比较。本稿不改正在运行的short actual，也不把B7/帽高可行当等距或reach进展。
+
+- 2026-11-14 18:40:09 UTC，Astra-new-mechanism-9974ea84：发布纯bulk整函数准确代数producer33718B/f7f3e3c6、设计说明与独立τ0 formal-jet证书；root/source/literature全文核，R56依赖Git blob01c7424a在当前main完全相符。新工具先保全部history导数编译，再置入段history0取真实pure drift；八矩28第三响应只用共同右collar有效IBP，不清左尾。正解从原始target及未正规化bracket另起正规化器重核；未产关系不证明函数不在span。任意系数用有限小loop分割实现，不把c/2硬放局部参数区间。当前唯一请求p1_bulk_development，只运行独立Node core/IO及小Python toy，完整研究编译尚未启动；短入口真实run43627111925继续独立运行。预算阶段/输出上限与错误回执均显式，资源退出不是数学阴性或主课题完成。
