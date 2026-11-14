@@ -28,7 +28,7 @@
 
 [actual37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) 全字节核验已完成，新warm/status为当前父。新增mid475在较近档有效，实际限制移到470。[request39十二query接口](notes/2026-11-14-twelve-query-fixed-support-RMS470-interface.md) 已接完整RMS470和同次原nodal J/P，但把局部投影可改节点固定在既有471–482+p；外部raw LSMR方向通过完整B_out z0_out进入affine offset。之后全向量radial仍会缩放外部，必须如实记录。保原λ270/LSMR200/17trial/全域/FD，无性能或QP收敛预断。原engine仅单模型iterations=1，不盲串旧十一query。
 
-[完整正则block-QR组件](notes/2026-11-14-complete-regularized-block-qr-interface.md)已静态完成，正在薄接同次完整模型；原A/AT读回和C同f比较保留，纯global余行与全部正则行不删。尚未运行，不把内解精度变成新BVP门。
+[request40完整QR入口](notes/2026-11-14-twelve-query-complete-QR-warm-interface.md) 已接同actual37父场，保十二query C baseline及完整global H候选；唯一原A/weights，300s/16active/1200H预算内以一次QR替内解，无旧PCG重试。原同f选择正文/原17trial/全域/新FD保持，失败保C；[R268](results/R268-complete-regularized-chain-border-QR.md)完整证明已发布。39前缀已success，原包正在核；不能据其α1自动优于37，也不跨轮减merit。
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 
@@ -77,3 +77,7 @@ R238/254/258给同场平面胚/非平面活动块/标记的刚性排除链，精
 R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚未消费新接受场；不重跑fixtures或加新验收门。实际完整prefix、finite48/64Gauss scalar、两尾帽和C²修补的相对metric operator需≤1e−6，不能把三分量≤1e−6直接改称operator≤1e−6。
 
 完成全部数值标准后，给数个各<5MB网格、同g精化数据、全t/完整几何证据，明确无限尾或精确等距极限仍欠的严格存在论证。完整证明直接入results及索引，无额外独审/审批。必要旧未推依赖按HANDOFF幸存源重做，已恢复的43提交/R235–237及真RK24/RK48勿重复。只有全部README标准真实完成才收尾。
+
+### 最新native39读回
+
+新578系统本身全行exact初范数1.902947232e31，修正后2.570129142e32更坏，最坏new45对应旧44；full result已读，完整数组审计中。既有逐块记录的大缺陷集中rawCell0多个segment，余504块远小。下一保原真实RK/grid（包括cusp）对首raw cell每步重置局部tangent，流式捕获全部短J/state；不机械只加44，不改g/ODE步/原门。动态depth consumer保旧边界/节点σ、实际mapping及577restriction，所有科学计算仅公开Actions。

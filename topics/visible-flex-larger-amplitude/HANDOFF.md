@@ -21,20 +21,22 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀：37已下降，39固定局部支持已接
+### 前缀：39完整步但小下降，40同父QR比较
 
-699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结，每轮独立weights。17–35完整事实在actual notes，不重跑。30同f完整H劣C，1200H/18基/17CG未达目标，最佳浮点LB来自rawLSMR μ0；全部H/B/observer核，不盲增预算。32加mid后RMS471仍拒；35加471后α1/16真降.04041681052/FD9.255e−10，最近mid475坏。
-37/elevenquery run43618014985/source6e9af389/job132517259808 success；artifact14122829001/209109318B/ZIP606a69a8…全核。22528行/12nodes/4059局部列/88J；新增mid475解决1/8与1/4中点失域，两档全node/mid/十一query过，但完整leftRMS唯一470 β²−.2501880309/−.2471392910拒。α1/16接受，同weights44.32987245937925→44.292172704126806/drop.037699755252447176；col.0071103207854/BC8.074771843e−8/FD8.381607559e−10，H1=4.7701880967848475e−14，仍非BVP/native。102 B NPZ650数组/9observer8NPZ24数组/父35原bits及24/28联集源全核，actual37 note4bb02b64…全文读。
-父37 notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz SHAdd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8；status37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0。39/twelvequery已接RMS470但局部投影只改既有471–482+p，完整外部raw方向和affine offset保留；后续全向量radial/同f/原17trial/全域/FD不变，未有39数值。
-完整block-QR源596356c0…/接口13c71ed4…全文读并发布，仅静态，正在接新薄入口；同次全L/R/P/边界/S/Wr/λ、338链+112border/纯global余行全部保留，原A/AT读回、C同f比较，无二J/新门。
+699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结，每轮独立weights。17–35全事实在actual notes，不重跑；30完整H劣C且17CG未达目标，32/35最近限制先471后mid475，原完整数组均核。
+37/run43618014985/source6e9af389/job132517259808：十一query22528行/12nodes/88J，mid475保护有效，1/8及1/4全node/mid/query过但完整RMS470拒；α1/16同weights44.32987245937925→44.292172704126806/drop.037699755252447176；col.0071103207854/BC8.074771843e−8/FD8.381607559e−10，H1=4.7701880967848475e−14，仍非BVP/native。102 B NPZ650数组/observer/全部父链核，actual37 note4bb02b64…全文读。
+父37 notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz SHAdd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8；status37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0。
+39/twelvequery run43620111146/source56e891284/job132523707261 success；artifact14123527874/226302799B/ZIP21402157…全取，amplitude审计中。原日志α1/merit44.292419650985686→44.29019103902422/FD7.528714322e−10，局部200sweeps仍大violation，不能据整步宣称方向更有效。12完整B新增470共24576/4397局部列，C修正仍S=471–482+p4059，全B_out z0_out/负offset保留，原全向量radial/备份/同f/17trial/域保持。
+40/twelvequeryqr已接同父37（非39新warm），源4b768828…/FD721f6337…/接口62e30778…全文读。唯一live A/weights及全部块，QR596356…保338链+112border/pureglobal/λ一次；原C/H choose正文AST不改。helper300s/active16/H1200/预留90s、总1200s、column=none，不存1.49GB因子；失败started=False保C/已有基，不旧PCG重试。原A/AT及额外reference逐次账，QR大阵artifact-only。尚未实际QR数值。
 
 ### Native：38保原出口，39求新578段矩阵
 
 23/v3原577×224 seed全部576stage noJ域过，norm.04177307820740199>原2e−9；全112H/51下溢/9546负零保留。25同seed withJac合法，原correction后十trial全stage13/raw0/seg7拒，无cutJ/audit。原linearSteps亦定义far/graphs/gains/σ，不能整体改它冒只换初猜。
 28/run43611175099/source6bd52b44，原withJac+correction后计划STOP，0trial/nativefalse；29数组116chunks/238972680B全核。完整J SHA394ca2cc…/base6b01b385…/σecbfd55d…/Hc35972d…/far395804bb…；capture result ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7。原σfloat e7.3718e40（43/Pi110），chart极大不等于全A奇异。完整ZIP PIN在fetch v3 51224788…，31/33传输失败已修，34/36/38成功。
-34同保存A的原σband info0但exact单行5.2938e30；36幂二均衡形成/恢复无损、行列max[1,2)，全129248原行exact初3.727905535e31→修正4.510783064e31更坏，停保初解。actual34/36 notes全文读，所有原数组/checkpoint/ledger/operand核；LU仅producer SHA。0新J/trial，不盲加同种修正或派坏δ。
-38/nativesplitprobe run43619564953/sourceceb4cd61/job132521953211 success；artifact14123093790/2551573B/ZIP46780a79…全取。result80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9；原43/58各12步保schedule分6+6，4短J+4noJ实际完成（probe3.976s/launcher28.75053s）。两段出口224值、minA/minD/mean与28逐bit同；独立noJ本次出口/mean也同，非普遍时序等价。62文件/23新数组/48步288数字字及28原29数组全核；actual38 note c619d700…全文读。4J全finite但仍巨大，不据条目小宣称全系统改善；无整J/Newton/trial/audit，计划STOP/1请求/exit0。
-39/nativesplitband消费38真实短J，adapter e88e69da…/consumer d56da0ed…全文读。574旧+4新虚拟J、不重复大J；578段/579节点/129696行，旧节点σ/far/H保原，内节点parentσ明示。复用8f5均衡及0bc exact无depth核，新far动态；最多3修正，保完整579δ及旧577 restriction独立schema/producer。旧long-J e仅诊断不门；实际原nonlinear noJ/十trial仍待新方向。generic e357426a…/hook31c9…原试步正文冻结，geometry正在接新restriction薄绑定，不能冒解旧A。
+34/36同保存A重解失败，36全exact3.7279e31→4.5108e31更坏；原数组/ledger核见actual notes，不盲加修正或派坏δ。
+38/run43619564953/sourceceb4cd61/job132521953211：原43/58保12步6+6，4短J+4noJ；两原出口/guard/mean逐bit同28，独立noJ本次亦同。62file/23arrays/48步288word及28全J核，actual38 c619d700…全文读。result80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9；源911b…/34d1…/2973…冻结，0native/trial/audit。
+39/nativesplitband run43620111146/source56e891284/job132523707163成功执行但新方向失败。artifact14123913123/33041738B/ZIP3e37d427…已取；result5b0feb50bec35070101d8f43d4759573b00d8b91e5e0b4c95ccb84edd5c4c4ac。新578/579/129696全exact初1.902947232115898e31→修正2.57012914199793e32更坏，最坏new45=旧44/Pi111；新系统本身失败，非旧long e门。最佳全δ39b28da8…/577restriction020cc235…，全45.685844s；geometry完整byte核中。
+已有逐块max显示51个>1全在rawCell0原0..71（72段），余504块已报max1.9352255763e−11；非只旧44。下一geometry写raw0全部实际RK步J捕获、exact写动态system/均衡consumer；保cusp11/28/31/63原integrationGrid/226mean连续、tangent每步reset、原旧节点σ/far/H，内σparent明示，504旧J复用，不增ODE步。全新大阵artifact-only，实际步数读原grid，不能假定每段12。source/新result尚未实算，不派39坏δtrial。
 原stage J解析implicit/Fourier/RK来源及四短块/window/新578接口均已读，见本日notes；不改ODE步/g/验收。28原cache在/workspace/scratch/visible-larger-native-capture-20261114/actions-debug；后续包在visible-larger-receipts-20261114/actions-debug，大阵原artifact保留。
 
 ## 之后的完整闭合与同g精化

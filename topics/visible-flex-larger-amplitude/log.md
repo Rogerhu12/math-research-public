@@ -259,3 +259,8 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 ### 2026-11-14 R268完整正则链与border的QR代数证明
 
 完整证明直接入results/R268-complete-regularized-chain-border-QR.md及索引，16428B/SHA927d4b6f…；root全文读并仅区分局部Y_i与global Z_i符号。完整逐步平方和不变量、所有pure-global E累计、最终全部BY/BC/BP边界给RᵀR=C⁻¹HC⁻¹；每节点λ/C和global λ/C恰一次，carry可秩亏且无需逆。丢E的Gram缺项、两次全border三角解与C恢复、原A/AT residual后验均自含；不声称浮点精度、J真导数或BVP/几何完成，无独审/审批门。相关QR代码596356…已发布但实际运行尚未发生。
+
+
+### 2026-11-14 request40同父37的完整QR与C方向比较
+
+新独立入口4b768828…/FD721f6337…/接口62e30778…全文读核，沿实际37双SHA与39同父场；唯一原CompleteLinearization/A/weights，QR596356…替全H内解，C固定S及外offset保留，H全部236036列，原choose完整AST保留。helper300s/active16/H1200/预留90s，总1200s，column=none，不存大factor；每逆读原A/AT与额外source算子，原调用/耗时/残差完整存。失败started=False保initial/C/既有基，不旧PCG重试；publisher两新QR树artifact-only，原17trial/域/FD保持。39两lane均success且全包已取，实际prefix审计中；native新578 exact初1.9029e31且修正更坏，最坏旧44，完整已报分布指出整个raw0多个segment。后继保原实际integrationGrid捕获raw0每步J，余504长J复用；尚无新数值宣称。

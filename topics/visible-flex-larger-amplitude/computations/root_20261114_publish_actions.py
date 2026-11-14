@@ -28,7 +28,7 @@ def sha(path):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
-    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband'), required=True)
+    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband', 'twelvequeryqr'), required=True)
     a = p.parse_args()
     if os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public':
         raise RuntimeError('Results belong to the explicitly designated public repository')
@@ -56,6 +56,11 @@ def main():
         # intermediates. Keep their complete bytes in the uploaded Actions
         # artifact and their input/source/array hashes in the public manifest.
         domain_arrays = 'domain-operator' in within.parts and src.suffix == '.npz'
+        if 'block-qr-inverse-arrays' in within.parts or 'block-qr-factor' in within.parts:
+            row['not_published'] = ('Complete reproducible QR inverse evidence or optional factor bytes retained in the Actions artifact. '
+                                    'The small public manifests and original-model readback reports bind every actual array and factor identity.')
+            rows.append(row)
+            continue
         if 'full-H-arrays' in within.parts:
             row['not_published'] = ('Complete reproducible full-model evidence and iteration-basis array retained in the Actions artifact. '
                                     'The public full-H manifest binds every compressed part, shape, dtype, raw-byte SHA and original model/source identity.')
