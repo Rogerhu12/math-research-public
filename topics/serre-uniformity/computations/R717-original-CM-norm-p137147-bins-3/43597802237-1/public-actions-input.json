@@ -1,0 +1,96 @@
+{
+  "result": "R717-original-CM-norm-p137147",
+  "source_commit": "ffc69b45d58ea9aaafd1e0686fc55377701a00be",
+  "source_repository": "Rogerhu12/math-research-public",
+  "execution_environment": "public-repository-github-actions",
+  "request": {
+    "result": "R717-original-CM-norm-p137147",
+    "prime": 137147,
+    "shard_count": 4,
+    "prec_bits": 384,
+    "tail_bits": 256,
+    "cutoff_multiple": 360,
+    "checkpoint_rows": 100,
+    "expect_p2_product": null,
+    "timeout_seconds": 18000,
+    "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "algorithm": "R717-original-CM-norm-integral-traces",
+    "execution_environment": "Rogerhu12/math-research-public GitHub Actions only",
+    "python_flint_version": "0.9.0",
+    "purpose": "Evaluate the complete original S2*S3/C0^2 at the exact sigma exception p=137147. First recover all integral traces with certified full tails, then evaluate at the prescribed p-adic Teichmueller embedding. Do not substitute a p-adic lift of C_(p-3).",
+    "resume_policy": "Four bins shards, at most two concurrent; reuse compatible completed shards and resume exact row prefixes. For a retry, list prior artifact names and exact checkpoint SHA256 in resume_artifacts. Same-run recover downloads the latest available successful attempt for each shard. Never repeat a compatible completed result.",
+    "mathematical_scope": "This is one finite exact original norm, including the possibility of a higher valuation or exact zero. No unit, Abel exclusion, actual height exclusion, or Serre completion is assumed.",
+    "restore_driver_sha256": "0bef6862ebe22baeac34a2f65d7e1b99de5623ff5e3f7778428158664c135e08",
+    "resume_artifacts": [],
+    "calibration_prerequisite": {
+      "public_run_id": "43597163388",
+      "core_receipt_path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+      "core_receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6",
+      "matched_p2_S2S3_mod_41_squared": 1274,
+      "matched_normalized_M2_square_over_zeta2_mod_41": 24,
+      "same_arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+      "completed_calibration_must_not_be_repeated": true
+    }
+  },
+  "request_sha256": "cdfa544b1d9b9162556e8aad56163d029cec89254a368dd850c4c3c17629460f",
+  "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "wrapper_sha256": "be783e9912137acf85c037a5096a9402df7ab6b390aef6d3fb7ea4bd8caf1c12",
+  "publisher_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "workflow_sha256": "5f246fa3deab6fc2f83332db35ed89a855710dfefced640331438172824d79c7",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "sources": [
+    {
+      "repository_path": "topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py",
+      "bytes": 22160,
+      "sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+      "archive_file": "sources/topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py.gz",
+      "archive_sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/R717_public_original_cm_norm.py",
+      "bytes": 21019,
+      "sha256": "be783e9912137acf85c037a5096a9402df7ab6b390aef6d3fb7ea4bd8caf1c12",
+      "archive_file": "sources/topics/serre-uniformity/scripts/R717_public_original_cm_norm.py.gz",
+      "archive_sha256": "b2c59ef827b063fa136d8f12c7298904ed5a9487a4c9687702b6e144bdc3838a"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "bytes": 10548,
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+      "archive_file": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/notes/R717-public-original-CM-norm-request.json",
+      "bytes": 2002,
+      "sha256": "cdfa544b1d9b9162556e8aad56163d029cec89254a368dd850c4c3c17629460f",
+      "archive_file": "sources/topics/serre-uniformity/notes/R717-public-original-CM-norm-request.json.gz",
+      "archive_sha256": "357d986d5369b06a8ff1d8d6705669da6b9cc029fd4df0ca1a7180e525c9419c"
+    },
+    {
+      "repository_path": ".github/workflows/serre-certified-original-CM-norm.yml",
+      "bytes": 5144,
+      "sha256": "5f246fa3deab6fc2f83332db35ed89a855710dfefced640331438172824d79c7",
+      "archive_file": "sources/.github/workflows/serre-certified-original-CM-norm.yml.gz",
+      "archive_sha256": "5c32710686909474cd060e737f32b4faf6db18d0490aaf314f3ace407cfdd049"
+    },
+    {
+      "repository_path": "README.md",
+      "bytes": 8842,
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "archive_file": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/README.md",
+      "bytes": 3430,
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+      "archive_file": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab"
+    }
+  ],
+  "prepared_at_utc": "2026-11-14T13:06:59.982699+00:00",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43597802237",
+  "mathematical_completion_claimed": false
+}
