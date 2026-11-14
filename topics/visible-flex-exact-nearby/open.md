@@ -255,3 +255,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 解析Airy六窗口的实际完整源界（2026-11-14 20:05:49 UTC）
 
 [实际报告](results/R133-supplement-actual-analytic-Airy-old-circle-source-budgets.md)：公开43634456797 child0/10门，6新幅度/4377积分，原1328moment和1328directed行逐字复用。R=.001负源<3.385779e10，比旧directed界更粗；R=.02负源<7.109141e11则改善。均为完整upper，不证明实际norm大；独立mean、全指数尾、正collar/body和1079旧seams全保。下一步按真实径向Abar分区和完整中央级数改profiles，六完整tensor不重算。local L0w1/positive全mean/full return/97 cutoff继续。
+
+### 原复root product与分量分离的第一幅度（2026-11-14 20:06:35 UTC）
+
+[G1–19](results/R133-supplement-old-root-product-and-separated-first-Airy-amplitude-budgets.md) 已证明：原F6a–15先在R=9e−6、σ=3/256全oldproduct给域，再由L13–17闭式控制G/a0/b0，未将canonical-only sup倒授旧域。a0(0,φ)=1先减常数后用正实部Carathéodory；b0=ρ²B保真二阶零点。第一幅度保Fb/Fa与两特征分支抵消，将交叉费用分别收R_T²/(2ΔX)、R_T²/(5ΔX)及完整R_T³项。root全文及原引用核，tail独核分支积分。actual消费者须核复系数、inverse-image正margin，不能从real窗口jets转授。

@@ -555,3 +555,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 实际解析Airy old-circle完整消费（2026-11-14 20:05:49 UTC）
 
 [报告与六窗口证据](results/R133-supplement-actual-analytic-Airy-old-circle-source-budgets.md) 已独推。43634456797真实child0/10门/20.66458s；nativee54f05c3…3445399B，process e0fa6ba5…51260B，workercc974d20…2996B，source439a29e2…/manifestee066de1…。6新幅度及4377积分，原1328moment+1328matrix零重算。最小窗变粗、较大窗改善如实保留；root已核六组原始有向界、10门、五份旧native身份和两次真pull空diff。没有宣布CE/Cs、cutoff97或真PDE。
+
+### 全oldproduct与第一Airy幅度的精确抵消（2026-11-14 20:06:35 UTC）
+
+[证明G1–19](results/R133-supplement-old-root-product-and-separated-first-Airy-amplitude-budgets.md)，SHA fca8fcdda1d284011b540535d494f8f81dbdb8fd83e03ca8540496d0274fafa3，已独推。root亲核原principal-fold13563B/closed-leading11462B的完整域、根恒等式和所有新式；tail独核G14–19。Carathéodory先减1、b0真ρ²零点、两个forcing分量/两ray先抵消再取绝对值，完整系数1/6、1/7、1/2、1/5均保。仍是有限内区配方，actual复域及L0w1/return费用未预支。
