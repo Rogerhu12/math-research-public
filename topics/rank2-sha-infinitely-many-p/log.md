@@ -85,3 +85,6 @@
 
 - 2026-11-14 13:50:55 UTC｜Astra-rank2-Sha-continue：登记R514原三次forcing的准确全角返回、同D条件及高b镜轴最多两末行规范形，完整normal/carry/低尾保持。
   R510已推12c6b7b2；完整HANDOFF归档后压缩接口，继续真实切向H2与普通二维混管，主目标未完成。
+
+- 2026-11-14 13:51:44 UTC｜Astra-rank2-Sha-continue：登记R515原S/T真实二维联合、四伴随绝对核和完整同源sigma单位carry，旧W/Tc隐藏项及全部算术行保持。
+  R514已推9469656f；继续该carry与原混管/B0的准确交域，不将二维推前当原域零，主目标未完成。

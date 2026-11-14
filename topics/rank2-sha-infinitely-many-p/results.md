@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R515：原S/T真实二维联合、四伴随与同源sigma carry](results/R515-original-two-dimensional-st-source-and-same-source-sigma-carry.md)：原B15/A3945平面以完整四伴随压成真正二维，wholeL18936绝对quarter相位、原两态全矩形及S/new/Href/T单伴随行全付。独立sigma单位近相消保任意二维测试，归一后以已付单位返回同一来源；旧W的E/K与Tc的E项显示保留，未把移动权或隐藏条件删去。
+
 - [R514：原三次forcing的固定返回与实际镜轴尾规范形](results/R514-cubic-forcing-return-and-actual-mirror-tail-normal-form.md)：原e³forcing以固定三charge乘子返回原全列格并支付十九中间角，显示同预算余量及r缓冲门；真行保两normal项和低行高尾。真实ξ提升规范化后，高b镜forcing不随三高轴变，矩阵只改至多两末行，完整同源低核像判据已付；未把FH2路线当全J必要条件。
 
 - [R510：原W2全伴随、十五度轴及S/T双中央词域](results/R510-original-w2-companion-and-fifteen-axis-central-words.md)：原W2/Q32760完整两态、所有深矩形、旧W测试及η的全五伴随算术行均付；B15与odd65绝对标量相同。rawS34反射与B15两种真实标量限制给任意正词像格上的原S/T双中央零，保显示逆矩阵观察权、全部补域及η的quarter覆盖边界。
