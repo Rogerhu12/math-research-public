@@ -55,9 +55,15 @@ def prepare_public_source(repo: Path, work: Path, out: Path) -> Path:
     manifest_path = repo / "topics/visible-flex-larger-amplitude/computations/source-dependencies.json"
     manifest = read(manifest_path)
     prefix = "topics/visible-flexible-closed-surface/"
-    entries = [row for row in manifest["files"] if row["path"].startswith(prefix)]
+    # This client starts prefix-tail nonlinear solves. The resumed work only
+    # reads two completed solves and never imports or executes that client.
+    # Its current public version has changed since the old 91-file manifest.
+    unused_client = prefix + "scripts/78718-prefix-tail-geometric-client.py"
+    public_entries = [row for row in manifest["files"] if row["path"].startswith(prefix)]
+    entries = [row for row in public_entries if row["path"] != unused_client]
     omitted = [row["path"] for row in manifest["files"] if not row["path"].startswith(prefix)]
-    if len(entries) != 79 or len(manifest["files"]) != 91 or any(not p.endswith(".md") for p in omitted):
+    if (len(entries) != 78 or len(public_entries) != 79 or len(manifest["files"]) != 91
+            or any(not p.endswith(".md") for p in omitted)):
         raise ValueError("The pinned public numerical source subset changed")
     revision = subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip()
     source_root = work / "public-source"
@@ -84,7 +90,9 @@ def prepare_public_source(repo: Path, work: Path, out: Path) -> Path:
         source_manifest_sha256=sha(manifest_path), verified_file_count=len(restored),
         full_manifest_file_count=len(manifest["files"]), full_91_file_manifest_restored=False,
         restored_files=restored, omitted_nonexecuted_markdown=omitted,
-        scope="Public numerical subset only. The twelve other-topic Markdown references are not required by the resolved RK readout/comparison pipeline.")
+        omitted_unconsumed_client=dict(path=unused_client,
+            reason="Only used to start prefix-tail solves; this completed-solve readout pipeline does not import or execute it"),
+        scope="Public numerical subset only: 78 of the original 91 files. Twelve other-topic Markdown references and one unconsumed prefix-tail solver client are omitted. Every consumed restored file retains its original SHA-256 check.")
     write(source / "source-origin.json", record)
     write(out / "public-source-preparation.json", record)
     return source
@@ -94,7 +102,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=Path(__file__).resolve().parents[3])
     parser.add_argument("--source-topic", type=Path,
-                        help="Optional prepared source; otherwise restore and hash-check the 79 public numerical files")
+                        help="Optional prepared source; otherwise restore and hash-check the 78 public files needed here")
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--comparison-processes", type=int, choices=(1, 2), default=2)
     args = parser.parse_args()
