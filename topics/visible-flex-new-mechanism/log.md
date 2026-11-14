@@ -191,3 +191,7 @@
 - 2026-11-14 21:37:46 UTC，Astra-new-mechanism-9974ea84：登记R111完整纸证。已知K的D25=κc7，四个真实仿射平移给κ(c+d)^7，四奇查询det22226400κ⁴非零；真实同germ桥2V_C+V_L全入各v_j，先固定共同I，再以R102完整E+n(2Σv+Kt)与Brouwer支付I→D基准四奇项。反射闭合消全偶项，故一个有限闭浸入环带使整个m8 pure D25(c)恒0，无新研究计算。此尾层子问题已完成，继续其他r幂/mixed/局部完整成本商，仍非完整等距族或闭嵌入厚度解。
 
 - 2026-11-14 21:44:18 UTC，Astra-new-mechanism-9974ea84：本地executor约21:39再次unavailable，明确No usable environment且executor技能不可用。已推结果/Actions输出保全，新源码由代理上下文恢复。依根8的仅GitHub集成例外，每件<100KB文本保存源码和小workflow，不传大数据/不使用PAT API；双README blob未变。公开Actions继续真实pull/规则差检查、人工及研究计算，终端恢复后复归终端git，不因设施中断收尾。
+
+- 2026-11-14 21:52 UTC，Astra-new-mechanism-9974ea84：按根8小文本例外保全曲率库/十输入driver、局部第四成本consumer、完整m8纯尾响应consumer及设计。部署独立continuation两lane：同g/e407且eta_bar167/625的实际曲率11组交换，和R109局部L4几何导数权0的仿射权2/1/0商；同job新源码py_compile→人工→真实，重建版人工未运行，绝不借旧通过。workflow先实际pull核双README，再恢复计算源SHA；原publisher再pull/rebase并保全部完整输出。W36完整原式先导出，下游完整m8只消费公开导出和R110已存一列。单文本<100KB，H<10KB，未把大文件经API分块或上传PAT；当前双README在5700403bb501dbc6aaf60e5d510711fa4d42b1ac均无差，API核不冒本地pull。预算/未决不代表数学非成员或任务完成。
+
+- 同次条件ref更新返回GraphQL错误；复查确认main因其他课题前进、未纳入临时509b2ba提交，本题H/log/publisher和两README均未变。立即以最新main重建同一改动并重试，保留他人提交、force:false；API重建不冒实际git pull。

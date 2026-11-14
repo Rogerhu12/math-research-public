@@ -1,0 +1,211 @@
+name: visible-new-mechanism continuing public research
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-continuation.json
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      lanes: ${{ steps.lanes.outputs.value }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: /topics/visible-flex-new-mechanism/computations/request-continuation.json
+      - id: lanes
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          r=json.loads(Path('topics/visible-flex-new-mechanism/computations/request-continuation.json').read_text())
+          lanes=r['lanes']
+          allowed={'local_fourth_quotient','curvature_epigraph_exchange','full_m8_tail_response_projection'}
+          if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
+              raise SystemExit('Invalid bounded continuation request')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('value='+json.dumps(lanes,separators=(',',':'))+'\n')
+          print(json.dumps({'request':r['request'],'lanes':lanes}))
+          PY
+  search:
+    needs: plan
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
+    name: Continue ${{ matrix.lane }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    concurrency:
+      group: visible-new-mechanism-${{ matrix.lane }}
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-new-mechanism-search.yml
+            /.github/workflows/visible-new-mechanism-continuation.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/
+            /topics/visible-flex-new-mechanism/computations/
+            /topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json
+            /topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/
+            /topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/
+            /topics/visible-flex-new-mechanism/notes/actions-43627111925-1-short_entry_audit/
+            /topics/visible-flex-new-mechanism/notes/actions-43630874689-1-height_polytope_audit/
+            /topics/visible-flex-new-mechanism/notes/actions-43633746055-1-full_phase_bridge_exact/
+            /topics/visible-flex-new-mechanism/notes/actions-43634358250-1-quartic_joint_audit/
+            /topics/visible-flex-new-mechanism/notes/actions-43635770962-1-joint_resume/
+            /topics/visible-flex-new-mechanism/notes/actions-43637739532-1-metric_epigraph/
+            /topics/visible-flex-new-mechanism/notes/actions-43639240317-1-metric_epigraph_saved_trial/
+            /topics/visible-flex-new-mechanism/notes/actions-43640503728-1-metric_epigraph_dense/
+            /topics/visible-flex-new-mechanism/notes/actions-43642966285-1-metric_epigraph_exchange/
+            /topics/visible-flex-new-mechanism/notes/actions-43643100132-1-c7_transverse_tail_probe/
+      - name: Prepare public output
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          mkdir -p "$RUNNER_TEMP/visible-new-mechanism/${{ matrix.lane }}"
+          echo "VISIBLE_NEW_OUT=$RUNNER_TEMP/visible-new-mechanism/${{ matrix.lane }}" >> "$GITHUB_ENV"
+          echo "VISIBLE_NEW_SCRIPTS=$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/scripts" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install pinned numerical dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Actually pull main and check both README files before research
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from pathlib import Path
+          sys.path.insert(0,os.environ['VISIBLE_NEW_SCRIPTS'])
+          import publish_actions as p
+          repo=Path.cwd(); out=Path(os.environ['VISIBLE_NEW_OUT'])
+          source=os.environ['GITHUB_SHA']; env=p.git_environment(os.environ['GITHUB_TOKEN'])
+          before=p.git(repo,env,'rev-parse','HEAD').stdout.strip()
+          if before!=source: raise SystemExit('checkout differs from computation source')
+          p.git(repo,env,'pull','--rebase','--no-autostash','origin','main')
+          after=p.git(repo,env,'rev-parse','HEAD').stdout.strip()
+          remote=p.git(repo,env,'rev-parse','origin/main').stdout.strip()
+          delta=p.git(repo,env,'diff','--no-ext-diff',source,remote,'--',*p.READMES).stdout
+          p.write_json(out/'pre-research-pull.json',{'actual_git_pull':True,'source_commit':source,
+              'head_after_pull':after,'remote_main':remote,'both_READMEs_unchanged':not bool(delta)})
+          if delta:
+              (out/'publication-README-change.diff').write_text(delta)
+              print(delta)
+              raise SystemExit('README changed: apply the new rules before research')
+          p.git(repo,env,'checkout','--detach',source)
+          print(json.dumps({'actual_pull':True,'readmes_read_commit':remote,'computation_source_restored':source}))
+          PY
+      - name: Check new interface and run the bounded requested computation
+        timeout-minutes: 30
+        env:
+          VISIBLE_NEW_LANE: ${{ matrix.lane }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          root=Path('topics/visible-flex-new-mechanism')
+          r=json.loads((root/'computations/request-continuation.json').read_text())
+          lane=os.environ['VISIBLE_NEW_LANE']; out=Path(os.environ['VISIBLE_NEW_OUT'])
+          scripts={'local_fourth_quotient':'literature_local_fourth_quotient.py',
+              'curvature_epigraph_exchange':'frame_curvature_epigraph_exchange_audit.py',
+              'full_m8_tail_response_projection':'literature_full_m8_tail_response_projection.py'}
+          flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
+              'full_m8_tail_response_projection':'--toy-only'}
+          config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
+          for path,expected in r['source_sha256'].items():
+              if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
+                  raise SystemExit('requested source bytes do not match: '+path)
+          subprocess.run([sys.executable,'-m','py_compile',str(script)],check=True)
+          for stage in ['development','research']:
+              args=config[stage]
+              if not isinstance(args,list) or len(args)>90 or any(not isinstance(v,str) for v in args):
+                  raise SystemExit('invalid bounded argument vector')
+              if (flags[lane] in args)!=(stage=='development'):
+                  raise SystemExit('development must precede the real research mode')
+              argv=[v.replace('@OUT@',str(out)) for v in args]
+              subprocess.run([sys.executable,'-u',str(script),*argv],check=True)
+          PY
+      - name: Keep a compact semantic geometry report for remote reading
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          folder=Path(os.environ['VISIBLE_NEW_OUT'])
+          for path in folder.glob('*-audit.json'):
+              raw=path.read_bytes(); source=json.loads(raw)
+              keys=['schema','status','phase','github_sha','github_run_id','artificial_inputs_only',
+                  'configuration','elapsed_seconds','prepare_elapsed_seconds','process_total_elapsed_seconds',
+                  'optimization_active_seconds','peak_rss_kib_linux','old_failed_metric_auxiliary_delta',
+                  'new_curvature_initialization','initial_current_constraints','final_full_grid_constraints',
+                  'final_doubled_constraints','selected_raw_auxiliary_zeta','selected_raw_auxiliary_lambda',
+                  'unchanged_complete_metric_and_height_reference','error','limitations']
+              brief={k:source[k] for k in keys if k in source}
+              brief['complete_report']={'filename':path.name,'raw_bytes':len(raw),
+                  'raw_sha256':hashlib.sha256(raw).hexdigest()}
+              for k in ['initial_state','final_state']:
+                  if k in source:
+                      brief[k]={a:b for a,b in source[k].items() if not isinstance(b,(dict,list))}
+              for k in ['initial_full_grid_audit','final_full_grid_audit','final_doubled_angle_audit']:
+                  if k in source:
+                      a=source[k]
+                      brief[k]={'extrema':a.get('full',{}).get('extrema',{}),
+                          'regions':{name:{m:v.get(m) for m in ['metric_operator_error','principal_curvature_absolute']}
+                              for name,v in a.get('regions',{}).get('regions',{}).items()}}
+              for k in ['curvature_exchange_stage']:
+                  if k in source:
+                      stage=source[k]
+                      brief[k]={a:b for a,b in stage.items() if not isinstance(b,(dict,list))}
+                      brief[k]['solver']={a:b for a,b in stage.get('solver',{}).items() if a!='rounds'}
+                      brief[k]['rounds']=[{a:b for a,b in row.items() if not isinstance(b,(dict,list))}
+                          for row in stage.get('solver',{}).get('rounds',[])]
+                      brief[k]['checkpoint']={a:b for a,b in stage.get('checkpoint',{}).items()
+                          if not isinstance(b,(dict,list))}
+              if 'same_parameter_Pi_refinement' in source:
+                  brief['same_parameter_Pi_refinement']={k:v for k,v in source['same_parameter_Pi_refinement'].items()
+                      if k not in ['evaluation_before','evaluation_after','same_state_objective_costs']}
+              data=(json.dumps(brief,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+              if len(data)>95000: raise SystemExit('semantic brief exceeds declared 95KB')
+              path.with_name(path.stem+'-brief.json').write_bytes(data)
+          PY
+      - name: Publish complete bounded outputs using terminal git and README checks
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/publish_actions.py" --results "$VISIBLE_NEW_OUT" --lane "${{ matrix.lane }}"
+      - name: Preserve outputs and rule-change diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-new-mechanism-continuation-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-new-mechanism/${{ matrix.lane }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: warn

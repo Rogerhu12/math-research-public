@@ -1,0 +1,104 @@
+{
+  "request": "actual-curvature-with-fixed-metric-budget-and-local-fourth-density-after-executor-loss",
+  "created_at": "2026-11-14 21:49:02 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "curvature_epigraph_exchange",
+    "local_fourth_quotient"
+  ],
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
+    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+  },
+  "jobs": {
+    "curvature_epigraph_exchange": {
+      "development": [
+        "--check-only",
+        "--out",
+        "@OUT@/curvature-exchange-development.json"
+      ],
+      "research": [
+        "--input",
+        "topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json",
+        "--expected-input-sha256",
+        "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
+        "--anchor-input",
+        "topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
+        "--expected-anchor-sha256",
+        "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+        "--short-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz",
+        "--expected-short-sha256",
+        "9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c",
+        "--height-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43630874689-1-height_polytope_audit/height-polytope-bounded-audit.json.gz",
+        "--expected-height-sha256",
+        "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3",
+        "--prior-joint-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43634358250-1-quartic_joint_audit/quartic-joint-audit.json.gz",
+        "--expected-prior-joint-sha256",
+        "e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc",
+        "--resume-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43635770962-1-joint_resume/quartic-reused-joint-resume.json.gz",
+        "--expected-resume-sha256",
+        "40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d",
+        "--epigraph-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43637739532-1-metric_epigraph/frame-metric-epigraph-audit.json.gz",
+        "--expected-epigraph-sha256",
+        "b4d34b0d37928b2f3ffeacf5de3a072068a6314e474fb72c6cd4adb3ae9c5bc5",
+        "--trial-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43639240317-1-metric_epigraph_saved_trial/metric-epigraph-saved-trial-audit.json",
+        "--expected-trial-sha256",
+        "169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f",
+        "--dense-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43640503728-1-metric_epigraph_dense/metric-epigraph-dense-mirror-audit.json.gz",
+        "--expected-dense-sha256",
+        "51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e",
+        "--exchange-audit",
+        "topics/visible-flex-new-mechanism/notes/actions-43642966285-1-metric_epigraph_exchange/metric-epigraph-exchange-audit.json.gz",
+        "--expected-exchange-sha256",
+        "c7b6b195cab755b425ccce41bf738ba05a30b65d329ed9b14b93f5211866d78e",
+        "--out",
+        "@OUT@/curvature-epigraph-exchange-audit.json"
+      ]
+    },
+    "local_fourth_quotient": {
+      "development": [
+        "--toy-only",
+        "--max-report-bytes",
+        "95000",
+        "--output",
+        "@OUT@/local-fourth-development.json"
+      ],
+      "research": [
+        "--weights",
+        "2,1,0",
+        "--max-seconds",
+        "300",
+        "--memory-mib",
+        "1024",
+        "--max-report-bytes",
+        "95000",
+        "--output",
+        "@OUT@/local-fourth-quotient.json"
+      ]
+    }
+  },
+  "new_rebuilt_sources_have_not_run_development_yet": true,
+  "old_development_not_claimed_for_new_source": true,
+  "geometry_metric_identity": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+  "geometry_initial_physical_identity": "e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4",
+  "fixed_metric_budget_exact": "167/625",
+  "curvature_scale_exact": "100",
+  "geometry_shared_limits": {
+    "rounds": 20,
+    "major_iterations": 80,
+    "physical_evaluations": 120,
+    "optimization_seconds": 300
+  },
+  "local_density_scope": "geometry derivative weight zero only; complete -4/-2 modes; affine weights 2,1,0 stop at first unresolved block",
+  "root_rule_8_small_text_fallback": true,
+  "research_only_in_public_Actions": true,
+  "task_complete": false
+}

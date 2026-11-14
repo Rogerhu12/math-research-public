@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`05d80c9b4e12d47275e724fe4e992e9cb0d199b6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`590f4ab11d058db229df7e70610c7e19a91d83ba`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
@@ -56,6 +56,8 @@ R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p
 
 ## 6. 持续推进
 
-exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108已登记；单方向probe43643100132给κ=−153664/75非零，R110/111已登记，转完整m8右尾响应投影。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
+21:52 UTC接入小型continuation workflow/request，两lane同job先py_compile与新人工入口再真实计算；重建源码人工尚未执行，不沿用旧pass。Actions研究前及publisher都实际pull/rebase核双README，先核源码字节，输出完整数据和<95KB语义简报。
 
-已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。
+curvature_epigraph_exchange：同g/e407、eta_bar167/625、scale100；11组全值筛、16径向+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，初始化与优化时钟分开，最终384/768及.061门。local_fourth_quotient：仅L4几何导数权0、完整−4/−2模式，仿射权2/1/0首次未决即停；先保W36完整原式gzip，后保局部密度原式，300秒/1GiB限制不改数学结论。预置full_m8_tail_response_projection待真实W导出后接287新列+已存R110一列，不重编W。所有新源码/设计已保全；无实际结果先验成功。
+
+子题完即接open；不重跑旧quartic/已定全state P1，不因运行预算或设施中断收尾。最新完整证据在results.md/notes/git。文献假设范围见notes/literature-20261114.md及intrinsic-rotation-literature-scope-20261114.md。
