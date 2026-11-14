@@ -1,10 +1,10 @@
 {
-  "request": "20261114-public-large-core-mainline-10",
+  "request": "20261114-public-large-core-mainline-11",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "coupling112"
+    "coupling112banded"
   ],
   "modes": 112,
   "quadrature": 2048,
-  "scope": "Continue the actual original M112/T112 finite full-DN problem from the completed 699-node preparation and its unchanged complete boundary FD. Reuse only the independently completed true T112/N2048 exact-zero initial anchor from run43588155190 after strict full config/source/capacity/J/state validation. Do not repeat preparation, the zero solve, or a ready.linearD QR proxy. All new nonzero H requests and the final audit use the native true worker. Original full Newton/line-search/QR, all scalar/core/physical rows, RMS1e-6, BC1e-11 and frozen-physical RMS gates are retained. Only actual solver success enables whole physical readout and its own actual-tail closed assembly; inlet exact parity normalization and whole-field geometry remain explicit subsequent checks."
+  "scope": "Address the actually observed original M112 first-linear-solve residual/RHS 0.913332499 in run43590496434. Use the same complete original finite collocation matrix with only its equation rows permuted into a full pivoted LAPACK band LU, not forward nullspace propagation. Retain all 338 physical, 112 core and 3 scalar rows/columns, the actual prepared699 SHA 0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714, the passed full boundary FD and the same true T112/N2048 exact-zero anchor. No failed966 interpolation is reused. Compute residuals against all original disk L/R blocks and use at most four same-matrix residual corrections; retain original 17-trial Newton, RMS1e-6, BC1e-11, maxnodes1200, frozen-physical RMS and full actual-tail gates. New nonzero H and final audit still use the native worker. Same-run genuine acceptance continues to its own physical readout and actual-tail closure, then R249 exact inlet parity audit and closure reusing the same complete-4 tail readout. All whole-field metric, geometry, reach, true image amplitude and fixed-metric refinement requirements remain."
 }

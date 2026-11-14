@@ -24,7 +24,7 @@ M112/T112/N2048继续原有限Frenet方程，原M96身份保留，仅作112初�
 request08/run43588155190的prepare112已真success：690+6支持点+3taper RMS插点=699，全节点/中点/两RMS域过，最小beta²=.005082723249；原col=.007110595仍初猜。prepared SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714（4220043B）；scalar原RHS exact0，完整453行FD Richardson9.517693337e−10<原5e−5。FD用明确标注ready.linearD，非真DN。note为M112-complete-preflight-and-BC-response。
 同run tailzero112已真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、metric9.992e−16、κ7.994254694；全338×112 J、577×224 states及raw/audit。与真实prepare配置/数学源/Node及capacity完全一致，strict bundle通过。response SHA6b4ff3e5bc11e23419242ee018b668c57f08b6dbdd791cd43d81883bf6f4960e；独立J-second相对1.524e−12，真J与ready差.035157884；trace chart condition3.856e20保留，零残差不证导数条件性。详见actual-T112-zero-anchor-and-J-audit note。
 request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
-下一条有原因路线：独立完整带状LU对同一原矩阵按[左341,interval453,右112]重排行，不变未知；kl793/ku564，699点AB5.45GB、1200点9.35GB，F-order原地分解并原L/R残差改进。正在静态接线，尚未新run；原RMS/BC/回溯/真实尾门全留。成功后自身fullstate/operator/完整cut/尾闭包，再R249读同actual、不重解DN。
+request11仅coupling112banded：完整原矩阵按[左341,interval453,右112]重排行、不换未知；kl793/ku564，699点AB5.45GB/1200点9.35GB，F-order原地LU、原L/R longdouble残差/至多4次同矩阵改进。backend SHA0780dcc4…/wrapper390387db…，原17回溯/RMS1e−6/BC1e−11/max1200/真实尾全留。已静态核、推送后取实际runID；原699 warm/FD/真112锚复用，966失败插值不复用。成功同run接自身physical/尾闭包，再R249 audit+闭面复用同complete-4，不重DN。
 
 ## 尾、接缝、同g身份
 

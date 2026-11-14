@@ -424,3 +424,7 @@ run43590496434真实首QR线性残差/RHS=.913332499，最坏interval697/z110、
 ### 2026-11-14 11:51 UTC — bind exact scalar pieces for fixed-metric envelopes
 
 完整只读源核对与同a²包络登记：原.99为415段五次，三个prefix bump为六次；AngleConnector/bridge各用原48/64有限Gauss和，明确phase分片及全部断点。实际bridge先覆盖为7.5，不能从原port旧tag8误重建；ap/app与有限和真实导数不冒相同。Taylor余项和有理分片给同一a的P±ε再平方包络，不换g、不新拟合；原prepared p0不冒未来p*，无新数值。
+
+### 2026-11-14 11:53 UTC — run the unchanged full M112 system through complete band LU
+
+request11仅coupling112banded，独立backend0780dcc4…/wrapper390387db…按完整原行置换填F-order带矩阵，LAPACK原地LU及原块longdouble残差改进；无删列/截SVD/改边界。复用真699/FD/112零锚，原17回溯/RMS/BC/max1200/frozen-physical/真实尾审计全留，只读记录trial域。诊断>5MB不阻断数学运行，artifact保全、publisher按规则过滤。真接受后同run原闭包加R249规范化并复用complete-4；未预填成功。
