@@ -166,4 +166,4 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **固定源分量再降一阶。** [完整逆块证明](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)对同一原f_a给||b′_a||²≤K_aS_m^(a+1)，a1精确预算S_m²/d0²；全零源/高返回保留。仍须支付原b=K*c′+G_U*b′的共同恢复，不由变换后小列推出N=M。
 
-**全原p²来源的下一缺口。** [完整生成证明](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)给S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，模p6再商p⁴C[p⁶]；完整S2由p²E、pKhat及β1完整源核的实际κ(c)生成。旧198未缩放Khat−p q1尚未由当前197的p²倍覆盖；先用原整数核/真实列关系削减，再付有限全来源，缺口商是否零未算。
+**全原p²来源的下一缺口。** [完整生成证明](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)给S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，模p6再商p⁴C[p⁶]；完整S2由p²E、pKhat及β1完整源核的实际κ(c)生成。[197未缩放完整包](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)已证S2=Hnat+Klow+Σκ̃_jD[s]；Bsat像恰(imA:p²)，原modp6等价其h0t模p4成员问题。下一只读真V10系数再选新进入位，未算该成员资格。
