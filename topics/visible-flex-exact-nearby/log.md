@@ -391,3 +391,5 @@
 - 2026-11-14 12:55:24 UTC｜visible-exact-astra-0df9：证明完整负散射与内部有序网络word两个真实强窗，root/graph远带、strict真实单根前缀、双向anti-J及onto通量消去低条件数，全部低中频由真实unitarity付；保mean/source/外端口。129–8192和无限深尾N#全层预算明确，λ乘角小量另付；仅这两窗和有序模型已完成，scalar正常形、新高块及moving中间网络继续。本条独立推。
 
 - 2026-11-14 12:55:53 UTC｜visible-exact-astra-0df9：新增课题外visible-exact-first-symbol-parameter-transfer.yml，仅运行已证D1–18的179输入完整消费者；原scalar normalized jets及T缓存身份已核，producer无旧50源/NPZ依赖，179件总6.35MB。复用已成功小worker的immutable副本、实际pull/README diff、非FF循环及原始输出发布，固定python3.12.14/flint0.9.0。本次新算δ导数费，原3146积分/169germ/2root/phase皆不重跑，继续实际根连接。
+
+- 2026-11-14 13:02:12 UTC｜visible-exact-astra-0df9：逐原可读数学process/worker/publication核43597209022实际十二门、child/worker0及179输入；strict/root导数总界<186751.988620238，δ*费<1.749541157460e−5，−Xi(δ*)/4∈(18.478324305027005,18.478338742519616)。原3146积分/169germ/220T/2root/R31全复用；本条只支付显式族同伦，完整root返回系数和真PDE仍继续。

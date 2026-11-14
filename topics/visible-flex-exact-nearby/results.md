@@ -101,3 +101,5 @@
 - [R133完整首符号有限部的显式参数转移](results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md)：已证逐格∂δXi全Wiener界及完整复根四系数Cauchy有限部导数界；compact bump在根准确消失，保固定root、两减项、193方向/独立mean及D第二项无η因子。给Xi(δ*)−Xi(0)的可消费条件界，实际数值与真root/完整β/PDE转移仍另付。
 
 - [R119完整负散射与有序网络的斜率强界](results/R119-supplement-complete-negative-scattering-and-network-word-in-slope-units.md)：已证真实两窗H0→H4/3和H−4/3→H0，负片与明确酉模型差<2^9000λ^(4/3)、完整内部网络每行<2^9020λ_i^(4/3)。全输入/两mean/低中高频、双向anti-J、所有源和外端口保；strict只乘单根前缀，真实全层预算含129–8192。模型尚未变为scalar正常形，不授新全网逆。
+
+- [R133选定显式参数上的实际完整首符号有限部](results/R133-supplement-actual-selected-parameter-first-symbol-finite-part.md)：公开43597209022实际十二门全过，179旧输入/3146原区间/169germ/220T/2root步复用；完整参数费<1.749541157460e−5，−Xi(δ*)/4∈(18.478324305027005,18.478338742519616)。已付显式δ*同伦，实际root finite coefficient、strong与真PDE转移仍独立保留。
