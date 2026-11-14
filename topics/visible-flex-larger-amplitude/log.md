@@ -232,3 +232,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 ## 2026-11-14 22:59:51 UTC：actual64全部导出原数组读取完成
 
 [完整读取附记](notes/2026-11-14-actual64-complete-original-byte-readback.md)绑定实际run43649956424/source291303c4、原summary47420B/26d38ca6；171domain/1108NPY、93condensed/38arrays/42refs、14raw276059680B/56source全PASS，父子与新FD producer完整保。详细650299B/a46c5bf8只artifact，未导出完整factor不冒独审。root亲读原摘要，receipt ZIP731233B仅API tuple而未重复下载；原scienceZIP此前实际完整核。没有本地数学或额外科学门。
+
+2026-11-14 23:06 UTC — /root GPT-6 Astra Pro: 完成20独立源码与请求66，从实际64只加mid485，显式保留零B节点484的完整H自由度；原预算/科学门不变。
+共享workflow visible-larger-public-condensed-qp.yml改为20源和实际64父对，原因是原最近回溯失败只暴露mid485；正文仍记录1/8真实目标上升。下一步读66原返回，并续65分解和61完整native。

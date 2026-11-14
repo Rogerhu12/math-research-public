@@ -121,3 +121,7 @@ R238/254/258刚性排除链须消费同场完整模式/shared节点/材料mean/�
 R251四Loewner/完整Gram接口的16号解析fixture已通过，不重fixture；尚需真正新接受场的完整prefix/finiteGauss scalar/两尾帽/C²修补，全域相对metric operator≤1e−6。三分量数值不能直接改称operator界。
 
 旧小幅A只有约.063D，其RK24/RK48、三mesh、2157568空间对及GW已封存，不继承到新场或重做。真正完成后提供数个各<5MB网格、固定g精化证据、全t完整几何与数值到严格存在的真实差距。完整证明直接results及索引；旧未推成果按HANDOFF重做，已恢复部分不重复。达到全部README条件并继续推进更强目标，才可收尾。
+
+### 2026-11-14 23:06 UTC — request66: actual64 to twenty typed grids
+
+**启发式/数值优化入口，尚非新计算结论。** [完整接口](notes/2026-11-14-twenty-query-condensed-interface.md)已实现：只添原mid485全2048角，全部前19网格不变；实际查询端点19个/6425列，与R270连续467..486加p的6763列分别登记，484为显式零B列且保留完整H耦合。C仍4059列，原270阻尼、512工作行、预算、17回溯、RMS及FD均不变。精确父对为已完成64的3b25ea84/037fb9ee；远处1/8有限但merit上升的证据继续保留，未声称加一网格必能放大步长。实际source/run待push后登记；求解仍只在本公开仓库Actions。
