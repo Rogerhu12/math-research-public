@@ -479,3 +479,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:04:49 UTC — 精确两phase曲线上的实际完整高振荡两态正型
 
 逐项审证O1–43：有限jet费用、固定s参数导数、三次无端项分部、det1近似frame及完整interaction；检查Wron/物理B和原两端port转换，原θ缩放保留。发布解析证明原blob，κ≥2^4000J40阈值不引入B/δ幂。只有径向full两态/混频正型；紧κ、非径向近簇与源到标签权继续。此纯解析结论没有伪称新数值运行。
+
+## 2026-11-14 14:06:51 UTC — 实际全参数principal fold与宽J的16门全部通过
+
+亲读run43602612900真实consumer process，10原输入/child0/16门；native9300be45949cba94115511bf77d025a82e39c78d491ba77de916d7a96902fffd。新矩形、非零Jac/mu、两反解contraction和movingA1/128完整J均已实证，原germ/root-budget仅复用。原primitive必须沿旧ρ闭曲线，域事实不替代tilted source norm。独立推实际结论并告知phase继续根两行匹配/finite/strong。

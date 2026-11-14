@@ -169,3 +169,7 @@
 ### 同一精确两phase曲线的完整高κ两态正型
 
 [O1–43](results/R119-supplement-exact-two-phase-curve-complete-oscillatory-generator.md)：固定光学长度及∫V消去前相位，真crossing主项C3′/(2k³)I与完整O(k^-4)余项显式比较，整个有限曲线及全部径向混频共享同一方向。保持原参数半径、物理measure/Wronskian、mean及ordinary/weak两源行；非径向whole-cluster门不随之宣称。
+
+### 实际全参数解析主部折叠预算通过
+
+[公开16门证书](results/R133-supplement-actual-full-family-principal-fold-domain-certificate.md)：run43602612900 child0，全部实际参数及完整M96方向保；Jac>4.530889644653，两个inverse行<.107/.327，新J<.825333。实际principal fold已成，root b_fin/strong和完整source变换另付。

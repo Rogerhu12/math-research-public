@@ -131,3 +131,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 实际高κ完整两态方向已证明
 
 [有限频完整振荡generator](results/R119-supplement-exact-two-phase-curve-complete-oscillatory-generator.md)把准确C1=C2=0曲线接到真实全两态矩阵；κ≥2^4000J40全盒/同一方向正型，无新增B或δ阈值。三次分部的非标量项和全interaction皆付，原物理B与canon/Wronskian转换明确。剩余1/4≤κ<阈值固定三维图、非径向近核定位/Γ*及邻区反馈/最终权另付。
+
+### 实际全δ principal fold 16门已完成
+
+[真实域证书](results/R133-supplement-actual-full-family-principal-fold-domain-certificate.md) run43602612900全成。复inverse矩形81/4000000×1/128，新movingJ在1/128可用；主部精确Airy形式与T²切向整除成立。下一支付原primitive/mean/tilted source和实际两行根连接，不能继续把principal fold本身列为未完成。
