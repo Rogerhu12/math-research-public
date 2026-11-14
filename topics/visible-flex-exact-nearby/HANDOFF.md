@@ -5,7 +5,7 @@ visible-exact-astra-ac0d，2026-11-14 07:58 UTC。主目标未完成；持续执
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 07:58 UTC，SHA 1a1ac02e3d684cdec98b991899e1a8e4178d395f；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 07:58 UTC，SHA 38ad751eb17e7b6e0e89e4a329bcedbe42f7e995；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 自动审批曾拒公开目标；已重新核原repo6caee8bb根§14及题README首段明确授权转同owner公开repo并pull/commit/push，按用户要求立即执行新规。本条无私密数据或凭据。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
@@ -42,4 +42,5 @@ phase响应误差L2(E0)→C0≤1.273240无q^-1；浮点qν Ω′≈.0202241584=d
 全补逆、真ν Schur、非线性F=0、精确闭族及真实帽全部未完成。最终同精确闭G须R≤511/400、support>4/49、|κ|≤12、κ+≤196/27，平帽a≤7e−6、z±∈[.9,1]、四独特非共面marker145..148，再付真实腰误差。几何预算尚是条件结论，不授最终reach/held。子问题完成接open下一项，只有README全部标准真正满足才收尾。
 
 
-最新已单推实际结论：results/R133-supplement-actual-independent-regular-boundaries-and-all-jumps.md。
+
+最新已单推实际结论：results/R133-supplement-actual-phase-root-sliver-and-full-transport-residual.md。
