@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：822ad01b9f3be04abe1f1aaa4769d154a61150ad；2026-11-14 21:33:04 UTC 实际git pull --rebase完成后比较根/课题README，无变。
+- 最近已读规则提交：7aa38f25e4c2faa9808db0d91364f586dbcb540f；2026-11-14 21:35:50 UTC 实际git pull --rebase完成后比较根/课题README，无变。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:05恢复后实际pull成功，后续均终端git。21:22实际再pull；最迟22:22重拉。
@@ -15,14 +15,14 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–591已登记；R364仍开，R561/592/593/594/595进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r591.md)、[open](notes/2026-11-14-open-before-r585.md)；
+R1–363、R365–560、R562–592已登记；R364仍开，R561/593/594/595/596进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r592.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写本编号新proof/script/data。执行环境恢复时代理中断，已明确唤醒继续。
 
 - theta续R594原五变量W_n与原中央/负矩比较；R590六支whole42/1638、唯一B来源和七真实纤维矩已付，Dn局部量词仍保原ρ0。
-- literature续R592原p²目标中c4/c1整项及原算术关系；R589首极部读不到它们。
+- literature续R596原五ε同态/同时零收益与原M或原S/T中央比较；R592全部整项/前缀和第六乘法修正已付，算术桥仍未付。
 - deep续R593原Dψ指定forcing/同R高延拓和真d2，R561仍开；R588非线性Kummer障碍已付。
 - root续R595真正S34/T72原对角与同参数/原算术比较；R591两指定首forcing的KC/KH³准确系数已付，未赋非零。
 
@@ -64,14 +64,7 @@ U/V深项的真实二态min(n,m)奇偶、Θ质量1和六矩−96bΩ6；m1必新�
 3βnJ=N+U5+3(Cc+Cd+CU+CV−3Icd)，首共同深−9λ4K1；
 U5域U,V,U±V,U+ω²V全unit，无Lunit，β^-n独立n不添零式。
 
-R585原A4={c,d,U,V unit}把native与五线合并：N+U5=3QA。
-全π4中性和F whole核给QA−βnJA=EF,n：
-EF,n是Funit内(qn−βn)(A4−A0)ℓ的八条first-failure strip，
-A0为F正交投影，carry外−βn保留，共同条件行仅抵消。
-完整J=JA+β^-n EF,n+β^-n(Cc+Cd+CU+CV−3Icd)。
-双S2把QA改成不交D/D−深支，精确六矩720Λ6−672bΛ0，
-全部log/unit/逆权仍在。未附q的c/d简单极点全级数已付，
-U/V Θ质量边界和全部纠正仍须联原总行。局部非零不排中央同时零。
+R585原A4={c,d,U,V unit}把native与U5合并：N+U5=3QA。QA−βnJA=EF,n是Funit内(qn−βn)(A4−A0)ℓ的八条first-failure，原F投影A0和carry外−βn保留。全J还含β^-n四深补项−3Icd，共同行抵消不赋零。双S2真实不交D/D−支与720Λ6−672bΛ0六矩、未附q的c/d全简单极点级数均保前检/正文。
 
 ## 原负矩与准确 Cartier
 
@@ -127,8 +120,10 @@ pp(α/(aB))及次值−½pp(α²/(a²B))不代真d2非零。
 
 R580/588的完整非中央Stokes与实际degree-p Kummer域保前检/正文：所有闭S≤R≤ρ，七塔在包含完整sigma及S/T/S136的K_R上独立；任意真正含塔的原多项式、任意依p系数/次数和整数Gaussian仍准确半径S=p^-p/(p²−1)、闭S非Tate。边界no-pole/所有积分常数均付；域上1/p投影不变整格，不给Smith、主成本最优或中央非零。原Dψ/同R高尾继续。
 
-R590原q6=(q3+q3∘rC)/2，负三支用完整even42/1638，现ray不增条件。μ6C平均给B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42；原全部C不动测试准确回同一五变量权W_n(F,G)，仅七个B同coset矩b_n,s(F)，保所有a_kjl/u_j/log/cut/κ逆。π4*(W_nνflat)=βnπ4*νflat，不能加强全源相等；R585八条带和四单深−3共同深全在该来源，旧P3只在完整分区相消。原ρ0/Dn中q6=q1/6、零质量及v=n仍在，但B源同Dn是六个原像之和，不赋非零。
+R590原q6=(q3+q3∘rC)/2，全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42。全部mixed测试准确回W_n(F,G)的七个B同coset矩，保全部右逆/log/cut/κ；π4中性非全源相等。原Dn零质量和v=n不移给B源同域（须六原像）；旧P3仅在R585整个分区相消。
 
 [2026新文献条件核对](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：Banwait 3.8保逐p二次系数单位前提；Agboola 6.1/11.1/11.3保高度与受限秩条件，11.4负根p进导数仍期望。未新增无穷非消失输入。
 
-R591令u=x^-1/2,t=bu6,C=(1+t)^−1/2、H=ΣC_n/(6n+1)t^n、K=(σ(z(u))/u)^6，Q=1+tK′/K满足6t(1+t)Q′+(2t−1)Q+1=0。q_n=−(6n−4)/(6n−1)qprev，n k_n=Σq_j k_(n−j)。全部n<s单位分母，原c4=b^(s−1)[t^(s−1)]KC、c1=b^(s−1)[...]KH³ modp；末两k矩阵det2/7但k非自由。q_(s−1)=−h_p/3及p k_s=−6h_p是下一共振单位，不替代两目标。
+R591原u/t中的共同K,H,C及全单位分母递推保正文：c4=b^(s−1)[t^(s−1)]KC，c1=b^(s−1)[...]KH³；末两k行列式2/7但k非自由。q_(s−1)=−h_p/3、p k_s=−6h_p的下一共振单位不替代两目标。
+
+R592从同一B_p抽r0整行Ψ5(F)=Σq0..5 bar(p^q[w^(qs)]F)εq，是真代数同态。S,T,Wℓ0像0；W41→c4ε，W1h→a^(h−1)c1 εh/h!(h1..4)。全D直接代入，非augmentation iff(c4,c1)非同时0；真K_D,qs上最后行按原前缀限制。若两c0，q1..5全部行v≥1−q。第六项完整修正ε6(ρ(F)t(G)+t(F)ρ(G))，ρ=bar(p6[w^p]F)、t=bar([w]F)，九列仅h0的ρ=a5 g_(s−2)/720可非零；全P修正Σρi tj∂ijP(0)。不能免费延同态或收益到全k/中央。

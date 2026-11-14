@@ -101,3 +101,5 @@
 - [R590：原六支carry、唯一B来源与完整七纤维矩](../results/R590-original-six-carry-branches-and-sole-b-fibre.md)：完整even42/1638和全部半特征支付六支原q，完整π4/算术行保持；μ6只留B并将同一全部mixed测试化为五变量来源的七个真实同coset矩。原Dn零质量/单位首项不移给投影源，旧P3只在完整分区抵消，八条带及全部深补项继续保留。
 
 - [R591：两原惰性首forcing的同参数系数与准确首共振](../results/R591-original-inert-forcing-in-one-parameter-and-exact-resonance.md)：同一个K=(σ/u)6和显示单位分母递推准确读取原c4/c1为KC、KH³的同次系数；完整留数Jacobian及b尺度保持。末两系数行列式2/7与下一Gaussian共振单位均付，但没有把自由矩阵或不同指标单位当两目标非零。
+
+- [R592：原整ε五阶同态、两forcing与第六乘法修正](../results/R592-original-integral-epsilon-jets-and-two-forcing-homomorphism.md)：从同一原九来源代数提取整r0行，给到k[ε]/ε6的真全D同态和九坐标显式像，准确读c4/c1。完整第六乘法缺陷由相邻首极部与原一次行承担；真前缀运输和同时零的五条条件收益保持，不预支算术桥或全层cutoff。

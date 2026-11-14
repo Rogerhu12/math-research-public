@@ -1,0 +1,244 @@
+{
+  "status": "all exact checks passed",
+  "checks": 12328,
+  "actual_analytic_frames": [
+    {
+      "p": 17,
+      "b": 1,
+      "c4": 16,
+      "c1": 3,
+      "a": 4,
+      "coordinate_epsilon_jets": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ]
+      ],
+      "first_w_rows": [
+        1,
+        1,
+        3,
+        7,
+        3,
+        7,
+        13,
+        6,
+        9
+      ],
+      "adjacent_pole_rows": [
+        0,
+        0,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_monomials_degree_at_most_3": 219,
+      "nonzero_quadratic_corrections": 17,
+      "W40_squared_sixth_integral_row": 1
+    },
+    {
+      "p": 17,
+      "b": 2,
+      "c4": 13,
+      "c1": 12,
+      "a": 15,
+      "coordinate_epsilon_jets": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ]
+      ],
+      "first_w_rows": [
+        1,
+        1,
+        3,
+        7,
+        3,
+        7,
+        13,
+        6,
+        9
+      ],
+      "adjacent_pole_rows": [
+        0,
+        0,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_monomials_degree_at_most_3": 219,
+      "nonzero_quadratic_corrections": 17,
+      "W40_squared_sixth_integral_row": 1
+    }
+  ],
+  "carry_positions_checked": 9114,
+  "theorem": "Psi5 is an actual algebra homomorphism; Psi6 has the displayed original quadratic correction",
+  "original_target": "O[w,epsilon]/(w^s-p epsilon,epsilon^p)",
+  "actual_prefix_only": true,
+  "c4_c1_nonvanishing_claim": false,
+  "original_arithmetic_zero_to_forcing_zero_claim": false,
+  "global_cutoff_claim": false,
+  "main_target_complete": false
+}
