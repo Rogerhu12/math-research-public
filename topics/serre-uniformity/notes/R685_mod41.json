@@ -1,0 +1,148 @@
+{
+  "prime": 41,
+  "modulus": 1681,
+  "exact_reductions": [
+    {
+      "k": 41,
+      "m": 40,
+      "p_times_diagonal_mod_p2": [
+        0,
+        1066,
+        0
+      ],
+      "r_coefficient_after_exact_division": 26,
+      "Ck_mod_p": 28,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            287,
+            984,
+            902
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            902,
+            820,
+            1394
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            246,
+            984,
+            492
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            779,
+            410,
+            902
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            328,
+            246,
+            82
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            1558,
+            1066,
+            1107
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            943,
+            1599,
+            164
+          ]
+        }
+      ]
+    },
+    {
+      "k": 38,
+      "m": 37,
+      "p_times_diagonal_mod_p2": [
+        164,
+        328,
+        0
+      ],
+      "r_coefficient_after_exact_division": 8,
+      "Ck_mod_p": 35,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            1558,
+            943,
+            1025
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            902,
+            1312,
+            533
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            0,
+            984,
+            656
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            0,
+            1189,
+            1599
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            1107,
+            82,
+            164
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            697,
+            738,
+            82
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            943,
+            123,
+            984
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "ordinary derivatives mod p^2; factorial unit parts; full sigma; trace then divide p",
+  "highest_derivative": 81,
+  "runtime_seconds": 0.07150952799929655,
+  "source_sha256": "ad6650677310144eae4840ca82b5042a65802be6bae2e8890ef598133a514bdc"
+}

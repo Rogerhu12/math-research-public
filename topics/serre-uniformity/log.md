@@ -339,3 +339,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - Clifford给m≤2(g(X)−dimA)+1；任意m下写全真实外积、共同CM因子及严格全尾排除接口。
 - Fuchs–Pham Theorem2.2原文已核；只保留R616实际非消失前提，不冒认m=1、p单位或新盘排除。
 - HANDOFF压缩并保全原文，继续真实Λ/Ω/赋值、Cartier非消失与原普通单位Norm。
+
+## 2026-11-14 17:22 Asia/Taipei · serre-public-resume-20261114
+- R685完整证明普通导数modp²精度、唯一阶乘p、全inverse-sigma和先迹后整除，O(p²)准确求原Cp/C_(p−3)。
+- 保存p41/101与exact k98小型归一数据；有限全窗口尚未返回，不声称全p非消失。
+- 新增共享workflow serre-cartier-exact-window.yml，公开Actions四片最多两并发检查实际p≤2000，逐p保留全部系数证书。
+- 通用公开产物发布器仅增加artifact前缀参数，原p41数学引擎不变；继续结构分析及实际高度。

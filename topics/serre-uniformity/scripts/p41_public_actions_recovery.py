@@ -119,7 +119,7 @@ def run(item, work, out, budget):
                       'process_exit_code': code, 'output': str(out)}), flush=True)
     return code
 
-def publish(item, out):
+def publish(item, out, artifact_prefix='serre-p41'):
     initial = read(out / 'public-actions-input.json')
     source = initial['source_commit']
     run_id = os.environ['GITHUB_RUN_ID'] + '-' + os.environ['GITHUB_RUN_ATTEMPT']
@@ -157,7 +157,7 @@ def publish(item, out):
             else:
                 shutil.copyfile(path, target)
     save(destination / 'files-manifest.json', {'files': rows,
-         'full_outputs_artifact': 'serre-p41-' + item['result'] + '-' + run_id,
+         'full_outputs_artifact': artifact_prefix + '-' + item['result'] + '-' + run_id,
          'source_commit': source, 'mathematical_theorem_registered': False})
     git('config', 'user.name', 'github-actions[bot]')
     git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
