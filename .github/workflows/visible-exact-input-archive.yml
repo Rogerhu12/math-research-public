@@ -1,0 +1,48 @@
+name: visible-exact scientific input archive
+on:
+  push:
+    branches: ['visible-exact-input-archive-20261112-f6a2']
+    paths:
+      - '.github/workflows/visible-exact-input-archive.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_ci_archive_missing_inputs_v1.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read existing exact topic inputs
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            topics/visible-flex-exact-nearby
+            .github/workflows
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Check and preserve only the missing original closures
+        working-directory: topics/visible-flex-exact-nearby
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -u scripts/fourfold_ci_archive_missing_inputs_v1.py
+      - name: Preserve publication evidence or actual failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-scientific-input-publication
+          path: |
+            topics/visible-flex-exact-nearby/notes/2026-11-12-missing-complete-input-archive.json
+            topics/visible-flex-exact-nearby/notes/2026-11-12-missing-complete-input-archive-files.json.gz
+            topics/visible-flex-exact-nearby/ci-output/scientific-input-archive/
+          compression-level: 1
+          if-no-files-found: warn

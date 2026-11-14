@@ -1,0 +1,59 @@
+name: visible-exact final moving Airy native recovery
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-final-moving-native-recovery.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-exact-final-moving-native-recovery
+  cancel-in-progress: false
+jobs:
+  recover-current-airy:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for the partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read only the required source and two original native inputs
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/HANDOFF.md
+            /topics/visible-flex-exact-nearby/log.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-13-R133-universal-two-port-Airy-v2-native.json.gz
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the original numerical arithmetic versions
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Actually recover all twenty-seven gates and publish with terminal Git
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ci_recover_current_Airy.py
+      - name: Keep the actual normal or failed process evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-final-centre-Airy-native-recovery
+          path: |
+            topics/visible-flex-exact-nearby/notes/2026-11-13-R133-current-moving0765-complete-fold-Airy-ports-native.json.gz
+            topics/visible-flex-exact-nearby/notes/2026-11-13-R133-current-moving0765-Airy-CI-recovery-process.json
+            topics/visible-flex-exact-nearby/notes/2026-11-13-R133-current-moving0765-Airy-CI-recovery-stdout.log.gz
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

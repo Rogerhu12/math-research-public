@@ -1,0 +1,93 @@
+name: visible-exact nearby quadratic pre-Newton
+on:
+  push:
+    branches: ['visible-exact-half-prenewton-quadratic-20261112-f6a2']
+    paths:
+      - '.github/workflows/visible-exact-half-prenewton-quadratic.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_half_return_prenewton_v2.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  correction:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read only the exact endpoint and mathematical source inputs
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_43301401638/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json
+      - name: Install the unchanged actual arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Compute the exact finite proposal and independently pay its true error
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -u scripts/fourfold_half_return_prenewton_v2.py \
+            --directory data/phase_ring_continuation/step5_half_prenewton_${GITHUB_RUN_ID}
+      - name: Preserve the original correction and proof with terminal git
+        working-directory: topics/visible-flex-exact-nearby
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from fourfold_ci_inspect_complete_flow_v2 import git
+          from fourfold_phase_beta_affine import sha
+          root = Path('data/phase_ring_continuation')/('step5_half_prenewton_'+os.environ['GITHUB_RUN_ID'])
+          report = json.loads((root/'report.json').read_text())
+          if not report['complete']:
+              raise RuntimeError('the actual finite correction did not complete')
+          script = Path('scripts/fourfold_half_return_prenewton_v2.py')
+          source = script.read_bytes()
+          workspace = Path(os.environ['GITHUB_WORKSPACE'])
+          workflow = Path('.github/workflows/visible-exact-half-prenewton-quadratic.yml')
+          workflow_source = (workspace/workflow).read_bytes()
+          files = [p for p in root.rglob('*') if p.is_file()]
+          for path in files:
+              size = path.stat().st_size
+              if size >= 5000000 or size > 1000000 and path.suffix != '.gz':
+                  raise RuntimeError('proof file exceeds repository compressed-data rules')
+          git(['fetch','--filter=blob:none','--depth=1','origin','main'])
+          branch = 'visible-exact-half-prenewton-results-'+os.environ['GITHUB_RUN_ID']
+          git(['switch','-c',branch,'FETCH_HEAD'])
+          script.write_bytes(source)
+          (workspace/workflow).write_bytes(workflow_source)
+          topic = Path('topics/visible-flex-exact-nearby')
+          git(['add','--sparse','--',*[str(topic/p) for p in files+[script]],str(workflow)])
+          git(['-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com',
+               'commit','-m','visible-flex: preserve actual signed finite half-return pre-Newton'])
+          commit = git(['rev-parse','HEAD']).strip()
+          git(['push','origin','HEAD:refs/heads/'+branch])
+          print('PRENEWTON_PUBLICATION',json.dumps(dict(branch=branch,commit_sha=commit,report_path=str(root/'report.json'),
+                report_sha256=sha(root/'report.json'),source_sha256=sha(script))),flush=True)
+          PY
+      - name: Keep actual results and failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-half-prenewton
+          path: topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_half_prenewton_${{ github.run_id }}/
+          compression-level: 1
+          if-no-files-found: warn

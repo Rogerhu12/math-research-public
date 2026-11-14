@@ -1,0 +1,104 @@
+name: visible exact true core cell flow
+on:
+  push:
+    branches:
+      - visible-exact-core-native-20261112-f6a2
+    paths:
+      - .github/workflows/visible-exact-core-cell-flow.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_radial_taylor.py
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_cell_flow.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-exact-core-cell-flow
+  cancel-in-progress: false
+jobs:
+  core-flow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.14"
+      - name: Install pinned mathematical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Execute actual true core cell flow
+        id: pilot
+        continue-on-error: true
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          mkdir -p "notes/core_remote/$GITHUB_RUN_ID"
+          python scripts/fourfold_phase_core_cell_flow.py \
+            --common-span 90 --modes 4 --primitive-nodes 512 --angles 1024 \
+            --bits 192 --native-order 32 --native-radius 1/64 \
+            --outer-radius 3 --sample-radius 5/4 --time-nodes 40 --time-terms 24 \
+            --flow-degree 32 --normalized-strip 1/16 --momentum-scale 8 \
+            --out "notes/core_remote/$GITHUB_RUN_ID/flow-span90.json" \
+            > "notes/core_remote/$GITHUB_RUN_ID/flow-span90.log" 2>&1
+          cat "notes/core_remote/$GITHUB_RUN_ID/flow-span90.log"
+      - name: Record exact provenance and outcome
+        if: always()
+        env:
+          PILOT_OUTCOME: ${{ steps.pilot.outcome }}
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,platform
+          from pathlib import Path
+          out=Path('notes/core_remote')/os.environ['GITHUB_RUN_ID']
+          out.mkdir(parents=True,exist_ok=True)
+          inputs=[Path('scripts/fourfold_phase_core_radial_taylor.py'),
+                  Path('scripts/fourfold_phase_core_cell_flow.py')]
+          outputs=sorted(out.glob('*'))
+          records=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),
+                        bytes=p.stat().st_size) for p in inputs+outputs if p.is_file()]
+          result=dict(kind='actual_remote_true_core_cell_flow_receipt',
+                      run_id=os.environ['GITHUB_RUN_ID'],triggering_commit=os.environ['GITHUB_SHA'],
+                      outcome=os.environ['PILOT_OUTCOME'],python=platform.python_version(),files=records,
+                      scope='The complete flag inside the newly executed local-flow report controls its mathematical scope. No full-core or Schur inverse is asserted.')
+          text=json.dumps(result,indent=2)+'\n'
+          (out/'receipt.json').write_text(text)
+          Path('notes/2026-11-12-core-cell-flow-latest-CI.json').write_text(text)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-exact-core-cell-flow-${{ github.run_id }}
+          retention-days: 30
+          path: |
+            topics/visible-flex-exact-nearby/notes/core_remote/${{ github.run_id }}
+      - name: Save complete or failed actual pilot without overwriting an earlier run
+        if: always()
+        env:
+          TARGET_BRANCH: visible-exact-core-native-20261112-f6a2
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "topics/visible-flex-exact-nearby/notes/core_remote/$GITHUB_RUN_ID" \
+            topics/visible-flex-exact-nearby/notes/2026-11-12-core-cell-flow-latest-CI.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Preserve actual true core cell flow $GITHUB_RUN_ID and provenance"
+          for attempt in 1 2 3 4 5 6 7 8
+          do
+            if git push origin "HEAD:$TARGET_BRANCH"; then exit 0; fi
+            git fetch origin "$TARGET_BRANCH"
+            git rebase FETCH_HEAD
+          done
+          exit 1
+      - name: Require the actual pilot to pass
+        if: always()
+        env:
+          PILOT_OUTCOME: ${{ steps.pilot.outcome }}
+        run: test "$PILOT_OUTCOME" = success

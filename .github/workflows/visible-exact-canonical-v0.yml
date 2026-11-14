@@ -1,0 +1,81 @@
+name: visible-exact actual canonical v0 moments
+on:
+  push:
+    branches: [visible-exact-mixed-r98-20261112-f6a2]
+    paths:
+      - .github/workflows/visible-exact-canonical-v0.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_v0_wiener_ci.py
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+env:
+  OPENBLAS_NUM_THREADS: "1"
+  OMP_NUM_THREADS: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  canonical-v0:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visible-exact-mixed-r98-20261112-f6a2
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-to-nominal-root-shear.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-Fourier-fit-and-H-primitive.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener.npz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-manifest.json
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+      - name: Compute actual canonical finite coefficients and complete moments
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -m py_compile scripts/fourfold_phase_canonical_v0_wiener_ci.py
+          python -u scripts/fourfold_phase_canonical_v0_wiener_ci.py --out notes/2026-11-12-ci-canonical-v0-scaled-Wiener.json
+          python - <<'PY'
+          import hashlib,json,os,platform
+          from pathlib import Path
+          import numpy,scipy,flint
+          files=[]
+          for p in sorted(Path("notes").glob("2026-11-12-ci-canonical-v0-scaled-Wiener*")):
+              files.append({"path":str(p),"bytes":p.stat().st_size,
+                  "sha256":hashlib.sha256(p.read_bytes()).hexdigest()})
+          d={"complete":True,"run_id":os.environ["GITHUB_RUN_ID"],"workflow_commit":os.environ["GITHUB_SHA"],
+              "runtime":{"python":platform.python_version(),"numpy":numpy.__version__,
+              "scipy":scipy.__version__,"flint":flint.__version__},"files":files,
+              "exact_constant_split":5050,"actual_geometry_replaced_by_polynomial":False}
+          Path("notes/2026-11-12-ci-canonical-v0-manifest.json").write_text(json.dumps(d,indent=2)+"\n")
+          print(json.dumps(d))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-canonical-v0-${{ github.run_id }}
+          path: topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0*
+          retention-days: 30
+      - name: Publish actual reports with terminal Git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "visible-exact CI"
+          git config user.email "visible-exact-ci@users.noreply.github.com"
+          git add topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0*
+          git diff --cached --check
+          git commit -m "visible-exact: compute actual canonical v0 moments with complete Fourier tails"
+          git pull --no-rebase origin main
+          test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+          test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          while ! git push origin HEAD:visible-exact-mixed-r98-20261112-f6a2; do
+            git pull --rebase origin visible-exact-mixed-r98-20261112-f6a2
+            test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+            test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          done

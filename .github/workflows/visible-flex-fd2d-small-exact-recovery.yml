@@ -1,0 +1,45 @@
+name: visible-flex small exact recovery
+
+on:
+  push:
+    branches:
+      - 'visible-flex-fd2d-small-recovery-*'
+    paths:
+      - 'topics/visible-flexible-closed-surface/notes/2026-11-12-fd2d-small-exact-recovery-request.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-flex-fd2d-small-exact-recovery
+  cancel-in-progress: false
+
+jobs:
+  exact-threshold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Pull main, inspect both README changes, compute the exact threshold
+        shell: bash
+        env:
+          VFS_CI_TOKEN: ${{ github.token }}
+          GIT_TERMINAL_PROMPT: '0'
+          GIT_CONFIG_COUNT: '1'
+          GIT_CONFIG_KEY_0: credential.helper
+          GIT_CONFIG_VALUE_0: '!f() { printf "%s\n" "username=x-access-token" "password=$VFS_CI_TOKEN"; }; f'
+        run: |
+          set -euo pipefail
+          VFS_RECOVERY_DIR="$RUNNER_TEMP/visible-flex-small-exact"
+          git clone --filter=blob:none --depth=1 --no-checkout --single-branch --branch main "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git" "$VFS_RECOVERY_DIR"
+          cd "$VFS_RECOVERY_DIR"
+          git config user.name 'Astra-visible-flex-fd2d'
+          git config user.email 'astra-visible-flex-fd2d@users.noreply.github.com'
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone --stdin <<'PATHS'
+          /README.md
+          /topics/visible-flexible-closed-surface/README.md
+          /topics/visible-flexible-closed-surface/HANDOFF.md
+          PATHS
+          git checkout -b fd2d-ci-publisher --track origin/main
+          git show origin/main:topics/visible-flexible-closed-surface/scripts/fd2d_ci_small_exact_recovery.py > "$RUNNER_TEMP/fd2d_ci_small_exact_recovery.py"
+          python3 "$RUNNER_TEMP/fd2d_ci_small_exact_recovery.py" --scratch "$RUNNER_TEMP/fd2d-small-records" --run-id "$GITHUB_RUN_ID"

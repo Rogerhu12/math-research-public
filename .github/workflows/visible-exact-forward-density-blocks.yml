@@ -1,0 +1,114 @@
+name: visible-exact actual forward density blocks
+
+on:
+  push:
+    branches: ['visible-exact-compute-density-*']
+    paths:
+      - '.github/workflows/visible-exact-forward-density-blocks.yml'
+  workflow_dispatch:
+    inputs:
+      cache_run:
+        description: Successful reference-bootstrap run containing the exact cache
+        required: true
+        type: string
+        default: '43270092696'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: visible-exact-density-${{ inputs.cache_run || '43270092696' }}
+  cancel-in-progress: false
+
+jobs:
+  block:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 9
+      matrix:
+        include:
+          - start: 55
+            stop: 110
+          - start: 110
+            stop: 165
+          - start: 165
+            stop: 220
+          - start: 220
+            stop: 275
+          - start: 275
+            stop: 330
+          - start: 330
+            stop: 385
+          - start: 385
+            stop: 440
+          - start: 440
+            stop: 495
+          - start: 495
+            stop: 550
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read only this topic at the current workflow commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-exact-nearby
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the actual arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Download the already recovered reference cache
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-forward-reference-cache
+          run-id: ${{ inputs.cache_run || '43270092696' }}
+          github-token: ${{ github.token }}
+          path: reference-cache
+      - name: Restore and check the original finite reference bytes
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, tarfile
+          cache = Path('../../reference-cache/forward-reference-cache.tar')
+          expected = '6c5d10b4f1a4c67d05059bd661c813ea06d60b4c16a967905f277a0f572ea831'
+          if hashlib.sha256(cache.read_bytes()).hexdigest() != expected:
+              raise RuntimeError('reference cache archive digest differs from successful exact recovery')
+          allowed = ('data/phase_ring_continuation/step4_shared1032_reference_forward/',
+                     'data/phase_ring_continuation/step5_retargeted_reference/Q_forward/')
+          with tarfile.open(cache) as archive:
+              for member in archive.getmembers():
+                  if not member.isfile() or not member.name.startswith(allowed):
+                      raise RuntimeError('unexpected reference cache entry')
+              archive.extractall('.', filter='data')
+          PY
+          python scripts/fourfold_ci_forward_reference_bootstrap.py --check-existing --no-archive
+      - name: Compute all actual zero, first and uniform second parameter sources in this block
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u scripts/fourfold_ci_density_block_v3.py --start ${{ matrix.start }} --stop ${{ matrix.stop }} --run-tag ci_${GITHUB_RUN_ID}
+      - name: Preserve complete leaves, partial reports and any actual failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-density-${{ matrix.start }}-${{ matrix.stop }}
+          path: |
+            topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_${{ github.run_id }}/
+            topics/visible-flex-exact-nearby/ci-output/forward-reference-cache-proof.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

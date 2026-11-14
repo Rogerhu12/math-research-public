@@ -1,0 +1,36 @@
+name: visible-flex publish closed checkpoint
+
+on:
+  push:
+    branches:
+      - 'visible-flex-fd2d-ci-publish-*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-flex-fd2d-closed-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Publish explicit completed artifacts through ordinary Git
+        shell: bash
+        env:
+          VFS_CI_TOKEN: ${{ github.token }}
+          GIT_TERMINAL_PROMPT: '0'
+          GIT_CONFIG_COUNT: '1'
+          GIT_CONFIG_KEY_0: credential.helper
+          GIT_CONFIG_VALUE_0: '!f() { printf "%s\n" "username=x-access-token" "password=$VFS_CI_TOKEN"; }; f'
+        run: |
+          set -euo pipefail
+          VFS_PUBLISH_DIR="$RUNNER_TEMP/visible-flex-closed-publication"
+          git clone --filter=blob:none --depth=1 --no-checkout --single-branch --branch "$GITHUB_REF_NAME" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git" "$VFS_PUBLISH_DIR"
+          cd "$VFS_PUBLISH_DIR"
+          git config user.name 'Astra-visible-flex-fd2d'
+          git config user.email 'astra-visible-flex-fd2d@users.noreply.github.com'
+          git show "$GITHUB_SHA:topics/visible-flexible-closed-surface/scripts/fd2d_ci_publish_checkpoint.py" > "$RUNNER_TEMP/fd2d_ci_publish_checkpoint.py"
+          python3 "$RUNNER_TEMP/fd2d_ci_publish_checkpoint.py" --payload "$GITHUB_SHA" --scratch "$RUNNER_TEMP/fd2d-publication-records"

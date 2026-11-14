@@ -1,0 +1,84 @@
+name: visible-exact R96 completed-artifact publication
+on:
+  push:
+    branches: [visible-exact-mixed-r98-20261112-f6a2]
+    paths:
+      - .github/workflows/visible-exact-r96-publish.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_direct_canonical_source_budget.py
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_publish.py
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_reassemble.py
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+env:
+  OPENBLAS_NUM_THREADS: "1"
+  OMP_NUM_THREADS: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visible-exact-mixed-r98-20261112-f6a2
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-full-weak-source-budget.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-v0-complex-strip.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-mixed-recovery-summary.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-direct-canonical-source-budget.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-direct-canonical-source-summary.json
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install --disable-pip-version-check numpy scipy python-flint==0.9.0
+      - uses: actions/download-artifact@v4
+        with:
+          name: visible-mixed-r96-complete-43300408666
+          run-id: 43300408666
+          github-token: ${{ github.token }}
+          path: topics/visible-flex-exact-nearby/ci-output/recovered
+      - name: Aggregate true canonical source and complete contact
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -m py_compile scripts/fourfold_phase_direct_canonical_source_budget.py
+          python -u scripts/fourfold_phase_direct_canonical_source_budget.py --sharp ci-output/recovered/actual-canonical-mixed-recovery-complete.json.gz --out ci-output/actual-direct-canonical-source-budget.json
+          python -u scripts/fourfold_phase_canonical_mixed_publish.py --run-id "${{ github.run_id }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-r96-preserved-${{ github.run_id }}
+          path: |
+            topics/visible-flex-exact-nearby/ci-output/actual-direct-canonical-source-budget.json
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-mixed-recovery-summary.json
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-direct-canonical-source-summary.json
+            topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/
+          retention-days: 30
+      - name: Publish actual data with terminal Git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "visible-exact CI"
+          git config user.email "visible-exact-ci@users.noreply.github.com"
+          git add topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-mixed-recovery-summary.json topics/visible-flex-exact-nearby/notes/2026-11-12-ci-direct-canonical-source-summary.json topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/
+          git add topics/visible-flex-exact-nearby/notes/2026-11-12-actual-direct-canonical-source-budget.json
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m "visible-exact: preserve all 178 actual mixed cells and complete R96 source budget"
+          fi
+          git pull --no-rebase origin main
+          test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+          test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          while ! git push origin HEAD:visible-exact-mixed-r98-20261112-f6a2; do
+            git pull --rebase origin visible-exact-mixed-r98-20261112-f6a2
+            test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+            test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          done

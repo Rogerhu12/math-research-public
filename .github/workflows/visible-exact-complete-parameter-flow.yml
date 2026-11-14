@@ -1,0 +1,94 @@
+name: visible-exact complete parameter flow
+
+on:
+  push:
+    branches: ['visible-exact-complete-parameter-flow-*']
+    paths:
+      - '.github/workflows/visible-exact-complete-parameter-flow.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_ci_complete_parameter_flow_v2.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_cover_v10.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-parameter-flow
+  cancel-in-progress: false
+
+jobs:
+  complete-flow:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 300
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for sparse checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read this exact topic and source commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-exact-nearby
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the original arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Fetch the previously recovered original reference cache
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-forward-reference-cache
+          run-id: 43270092696
+          github-token: ${{ github.token }}
+          path: reference-cache
+      - name: Restore original reference bytes and verify source syntax
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import ast, hashlib, tarfile
+          from pathlib import Path
+          cache = Path('../../reference-cache/forward-reference-cache.tar')
+          if hashlib.sha256(cache.read_bytes()).hexdigest() != '6c5d10b4f1a4c67d05059bd661c813ea06d60b4c16a967905f277a0f572ea831':
+              raise RuntimeError('the original reference cache archive changed')
+          allowed = ('data/phase_ring_continuation/step4_shared1032_reference_forward/',
+                     'data/phase_ring_continuation/step5_retargeted_reference/Q_forward/')
+          with tarfile.open(cache) as archive:
+              for member in archive.getmembers():
+                  if not member.isfile() or not member.name.startswith(allowed) or '..' in Path(member.name).parts:
+                      raise RuntimeError('unexpected reference-cache member')
+              archive.extractall('.', filter='data')
+          for name in ('fourfold_ci_complete_parameter_flow_v2.py',
+                       'fourfold_forward_density_cover_v10.py'):
+              ast.parse((Path('scripts')/name).read_text())
+          PY
+          python scripts/fourfold_ci_forward_reference_bootstrap.py --check-existing --no-archive
+      - name: Restore complete original blocks and run the true whole return
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python -u scripts/fourfold_ci_complete_parameter_flow_v2.py \
+            --out-directory data/phase_ring_continuation/step5_complete_flow_ci_${GITHUB_RUN_ID} \
+            --download-directory ci-output/complete-flow-intake
+      - name: Preserve full sums, actual gates, and any concrete failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-parameter-flow
+          path: |
+            topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_${{ github.run_id }}/
+            topics/visible-flex-exact-nearby/ci-output/complete-flow-intake/
+            topics/visible-flex-exact-nearby/ci-output/forward-reference-bootstrap.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

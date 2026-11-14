@@ -1,0 +1,90 @@
+name: visible-exact clean publication of actual v0 and root norms
+on:
+  push:
+    branches: [visible-exact-mixed-r98-20261112-f6a2]
+    paths: [.github/workflows/visible-exact-v0-root-clean-publish.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  clean-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visible-exact-mixed-r98-20261112-f6a2
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-exact-v0-root-clean-publish.yml
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-v0-root-ready-manifest.json
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Restore only hash-verified owned paths onto current main
+        env:
+          SOURCE_COMMIT: 21a4f9657c0c56e1a0e1eb3c4695154f2dcda787
+          CLEAN_BRANCH: visible-exact-v0-root-clean-20261112-f6a2
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "visible-exact CI"
+          git config user.email "visible-exact-ci@users.noreply.github.com"
+          git fetch --no-tags origin main
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          def git(*args): return subprocess.check_output(["git",*args])
+          source=os.environ["SOURCE_COMMIT"]
+          base=git("rev-parse","FETCH_HEAD").decode().strip()
+          manifest_path="topics/visible-flex-exact-nearby/notes/2026-11-12-actual-v0-root-ready-manifest.json"
+          raw=git("show",source+":"+manifest_path)
+          if hashlib.sha256(raw).hexdigest()!="3a556dc4df9f42bb2ca6f33f4de0dce6e2ecd9ec4d584da654c33c1b7391230a":
+              raise ValueError("ready manifest changed")
+          manifest=json.loads(raw)
+          expected={"README.md":"f787a306d90892d8dec765dc59747d60ba39f055",
+                    "topics/visible-flex-exact-nearby/README.md":"84b6d9fc74ed90ab725aa230cdf348f325505396"}
+          for path,sha in expected.items():
+              if git("rev-parse",base+":"+path).decode().strip()!=sha:
+                  raise ValueError("README changed; read its exact diff before publishing")
+          paths=[row["path"] for row in manifest["files"]]+[manifest_path]
+          if len(paths)!=len(set(paths)) or len(paths)!=12:
+              raise ValueError("unexpected or duplicate publication paths")
+          if any(not(p.startswith("topics/visible-flex-exact-nearby/") or
+                     p in (".github/workflows/visible-exact-canonical-v0.yml",
+                           ".github/workflows/visible-exact-common-root-budget.yml")) for p in paths):
+              raise ValueError("publication outside owned whitelist")
+          r98="topics/visible-flex-exact-nearby/results/R98-common-positive-root-amplitude-and-symplectic-frame.md"
+          old=git("show",base+":"+r98)
+          if hashlib.sha256(old).hexdigest() not in (
+              "2554057ad6b0414c1cd6217f16dea6e71273c1c39cd48aa01b64bf92cc4f5327",
+              "047e1fee040c7e8669f19dd49721cf49e2f8aa45ee41df72cd9cc3f7a98d5896"):
+              raise ValueError("R98 changed outside this publication")
+          subprocess.check_call(["git","checkout","-b",os.environ["CLEAN_BRANCH"],base])
+          subprocess.check_call(["git","restore","--ignore-skip-worktree-bits",
+              "--source",source,"--worktree","--staged","--",*paths])
+          wf=".github/workflows/visible-exact-v0-root-clean-publish.yml"
+          subprocess.check_call(["git","restore","--ignore-skip-worktree-bits",
+              "--source",os.environ["GITHUB_SHA"],"--worktree","--staged","--",wf])
+          for row in manifest["files"]:
+              p=Path(row["path"]); b=p.read_bytes()
+              if len(b)!=row["bytes"] or hashlib.sha256(b).hexdigest()!=row["sha256"]:
+                  raise ValueError("actual file does not match ready manifest: "+str(p))
+              if len(b)>5000000: raise ValueError("oversize file")
+          staged=set(git("diff","--cached","--name-only").decode().splitlines())
+          if not staged<=set(paths+[wf]): raise ValueError("unowned staged file")
+          subprocess.check_call(["git","diff","--cached","--check"])
+          subprocess.check_call(["git","commit","-m",
+              "visible-exact: publish only actual v0 moments and common-root comparison"])
+          print(json.dumps({"verified":True,"base":base,"source":source,
+              "branch":os.environ["CLEAN_BRANCH"],"staged_paths":sorted(staged)}))
+          PY
+          git pull --rebase origin main
+          test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+          test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          git push origin HEAD:visible-exact-v0-root-clean-20261112-f6a2
+          git rev-parse HEAD

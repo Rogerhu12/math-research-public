@@ -1,0 +1,134 @@
+name: visible-exact R99 canonical v1 replay
+on:
+  push:
+    branches: ['visible-exact-root-r99-*']
+    paths: ['.github/workflows/visible-exact-root-r99.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-exact-root-r99-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  canonical-v1:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Check out exact root inputs and proof scripts
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/root_finite_grid/grid4096_h1e9/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-complex-potential-variation.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-to-nominal-root-shear.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-Fourier-fit-and-H-primitive.json.gz
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install exact arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Restore successful arithmetic reports from the original artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-root-r99-canonical-v1
+          run-id: '43299719198'
+          github-token: ${{ github.token }}
+          path: topics/visible-flex-exact-nearby/notes
+      - name: Check every original computed byte and proof status
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('notes/2026-11-12-ci-root-r99-manifest.json')
+          d=json.loads(p.read_text())
+          if not d['complete'] or d['run_id']!='43299719198' or d['workflow_commit']!='52bd20a64252af1547726241878e9d5657aa192c':
+              raise ValueError('wrong actual arithmetic artifact')
+          for row in d['files']:
+              f=Path(row['path'])
+              if f.stat().st_size!=row['bytes'] or hashlib.sha256(f.read_bytes()).hexdigest()!=row['sha256']:
+                  raise ValueError('original computed file changed: '+str(f))
+          for name in ('notes/2026-11-12-ci-physical-v1.json','notes/2026-11-12-ci-canonical-v1-scaled-Wiener.json'):
+              report=json.loads(Path(name).read_text())
+              if not report['proved']:raise ValueError('incomplete actual report')
+              if hashlib.sha256(Path(report['source_path']).read_bytes()).hexdigest()!=report['source_sha256']:
+                  raise ValueError('arithmetic source changed')
+          print('VERIFIED_COMPLETE_ORIGINAL_ARTIFACT',len(d['files']))
+          PY
+      - name: Preserve actual reports even if publication fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-root-r99-canonical-v1
+          path: |
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-*v1*
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-root-r99-manifest.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish actual proof bytes with terminal Git
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u - <<'PY'
+          import os,subprocess
+          from pathlib import Path
+          os.chdir(os.environ['GITHUB_WORKSPACE'])
+          env=dict(os.environ,GIT_TERMINAL_PROMPT='0')
+          credential='!f() { printf "%s\\n" "username=x-access-token" "password=$GITHUB_TOKEN"; }; f'
+          base=['git','-c','safe.directory='+os.environ['GITHUB_WORKSPACE'],'-c','gc.auto=0','-c','maintenance.auto=false','-c','credential.helper=','-c','credential.helper='+credential]
+          def run(args,check=True):
+              p=subprocess.run(base+args,env=env,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+              if check and p.returncode:
+                  print(p.stdout);raise RuntimeError('Git action failed: '+args[0])
+              return p
+          run(['config','user.name','github-actions[bot]'])
+          run(['config','user.email','41898282+github-actions[bot]@users.noreply.github.com'])
+          paths=sorted(str(p) for p in Path('topics/visible-flex-exact-nearby/notes').glob('2026-11-12-ci-*v1*') if p.is_file())
+          paths.append('topics/visible-flex-exact-nearby/notes/2026-11-12-ci-root-r99-manifest.json')
+          run(['add','--sparse','--',*paths])
+          run(['commit','-m','visible-exact: recompute full actual canonical v1 Wiener bounds'])
+          branch=os.environ['GITHUB_REF_NAME']
+          for attempt in range(12):
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['fetch','--no-tags','--deepen=2000','origin','main'])
+              run(['pull','--no-rebase','--no-tags','origin','main'])
+              read=run(['rev-parse','FETCH_HEAD']).stdout.strip()
+              diff=run(['diff',before,read,'--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during remote replay')
+              print('REVIEWED_BOTH_READMES',read,'unchanged',flush=True)
+              result=run(['push','origin','HEAD:refs/heads/'+branch],check=False)
+              print(result.stdout,flush=True)
+              if not result.returncode:
+                  print('PUBLISHED_REPORTS',run(['rev-parse','HEAD']).stdout.strip(),flush=True);break
+              if not any(x in result.stdout for x in ('fetch first','non-fast-forward','failed to update ref')):
+                  raise RuntimeError('unexpected branch push error')
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['pull','--rebase','--no-tags','origin',branch])
+              diff=run(['diff',before,'HEAD','--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during branch retry')
+          else:raise RuntimeError('branch kept advancing; reports remain in artifact')
+          PY

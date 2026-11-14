@@ -1,0 +1,136 @@
+name: visible-exact R99 actual Cauchy frame replay
+on:
+  push:
+    branches: ['visible-exact-root-frame-*']
+    paths: ['.github/workflows/visible-exact-root-frame-r99.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-exact-root-frame-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  full-frame:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partial checkout of exact scalar inputs and original root evidence
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/root_finite_grid/grid4096_h1e9/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-complex-potential-variation.json.gz
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install actual arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Recompute full complex and pointwise actual Cauchy frames
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u scripts/fourfold_phase_root_cauchy_frame_ci_v1.py --mode strip --out notes/2026-11-12-ci-actual-root-Cauchy-frame-complex.json.gz
+          python -u scripts/fourfold_phase_root_cauchy_frame_ci_grid_cover.py
+          python -u scripts/fourfold_phase_root_frame_fourier_ci_v1.py --out notes/2026-11-12-ci-actual-root-Cauchy-frame-Fourier.json.gz
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,gzip,os,platform
+          import numpy,scipy,flint,sympy
+          out=Path('data/root_finite_grid/ci_cauchy_frame_grid4096_h1e9')
+          paths=sorted(p for p in out.rglob('*') if p.is_file())
+          paths+=sorted(p for p in Path('notes').glob('2026-11-12-ci-actual-root-Cauchy-frame-*') if p.is_file())
+          rows=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),bytes=p.stat().st_size) for p in paths]
+          for r in rows:
+              if r['bytes']>5_000_000:raise ValueError('oversized proof file')
+              if r['bytes']>1_000_000 and not r['path'].endswith('.gz'):raise ValueError('large proof file needs gzip')
+          for p in (Path('notes/2026-11-12-ci-actual-root-Cauchy-frame-complex.json.gz'),Path('notes/2026-11-12-ci-actual-root-Cauchy-frame-Fourier.json.gz')):
+              d=json.load(gzip.open(p,'rt'))
+              if not d['proved']:raise ValueError('incomplete actual frame proof')
+          Path('notes/2026-11-12-ci-root-frame-r99-manifest.json').write_text(json.dumps(dict(
+              complete=True,run_id=os.environ['GITHUB_RUN_ID'],workflow_commit=os.environ['GITHUB_SHA'],files=rows,
+              runtime=dict(python=platform.python_version(),numpy=numpy.__version__,scipy=scipy.__version__,flint=flint.__version__,sympy=sympy.__version__),
+              original_local_bytes_recovered=False,actual_fresh_computation=True),indent=2)+'\n')
+          PY
+      - name: Retain complete and partial actual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-root-r99-full-Cauchy-frame
+          path: |
+            topics/visible-flex-exact-nearby/data/root_finite_grid/ci_cauchy_frame_grid4096_h1e9/
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-actual-root-Cauchy-frame-*
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-root-frame-r99-manifest.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish actual proof bytes with terminal Git
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u - <<'PY'
+          import os,subprocess
+          from pathlib import Path
+          os.chdir(os.environ['GITHUB_WORKSPACE'])
+          env=dict(os.environ,GIT_TERMINAL_PROMPT='0')
+          credential='!f() { printf "%s\\n" "username=x-access-token" "password=$GITHUB_TOKEN"; }; f'
+          base=['git','-c','safe.directory='+os.environ['GITHUB_WORKSPACE'],'-c','gc.auto=0','-c','maintenance.auto=false','-c','credential.helper=','-c','credential.helper='+credential]
+          def run(args,check=True):
+              p=subprocess.run(base+args,env=env,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+              if check and p.returncode:
+                  print(p.stdout);raise RuntimeError('Git action failed: '+args[0])
+              return p
+          run(['config','user.name','github-actions[bot]'])
+          run(['config','user.email','41898282+github-actions[bot]@users.noreply.github.com'])
+          directory=Path('topics/visible-flex-exact-nearby')
+          paths=sorted(str(p) for p in (directory/'data/root_finite_grid/ci_cauchy_frame_grid4096_h1e9').rglob('*') if p.is_file())
+          paths+=sorted(str(p) for p in (directory/'notes').glob('2026-11-12-ci-actual-root-Cauchy-frame-*') if p.is_file())
+          paths.append(str(directory/'notes/2026-11-12-ci-root-frame-r99-manifest.json'))
+          run(['add','--sparse','--',*paths])
+          run(['commit','-m','visible-exact: recompute complete actual root Cauchy frames and tails'])
+          branch=os.environ['GITHUB_REF_NAME']
+          for attempt in range(12):
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['fetch','--no-tags','--deepen=2000','origin','main'])
+              run(['pull','--no-rebase','--no-tags','origin','main'])
+              read=run(['rev-parse','FETCH_HEAD']).stdout.strip()
+              diff=run(['diff',before,read,'--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during remote replay')
+              print('REVIEWED_BOTH_READMES',read,'unchanged',flush=True)
+              result=run(['push','origin','HEAD:refs/heads/'+branch],check=False)
+              print(result.stdout,flush=True)
+              if not result.returncode:
+                  print('PUBLISHED_REPORTS',run(['rev-parse','HEAD']).stdout.strip(),flush=True);break
+              if not any(x in result.stdout for x in ('fetch first','non-fast-forward','failed to update ref')):
+                  raise RuntimeError('unexpected branch push error')
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['pull','--rebase','--no-tags','origin',branch])
+              diff=run(['diff',before,'HEAD','--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during branch retry')
+          else:raise RuntimeError('branch kept advancing; reports remain in artifact')
+          PY

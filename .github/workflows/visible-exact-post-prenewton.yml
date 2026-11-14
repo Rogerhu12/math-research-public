@@ -1,0 +1,96 @@
+name: visible-exact post-pre-Newton R31
+on:
+  push:
+    branches: ['visible-exact-post-prenewton-20261112-f6a2']
+    paths:
+      - '.github/workflows/visible-exact-post-prenewton.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_post_prenewton_R31_v1.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  arithmetic:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 40
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read the immutable true endpoint and exact correction
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/results/R100-nearby-quadratic-and-exact-prenewton-transport.md
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_43301401638/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_half_prenewton_43308150283/
+      - name: Install the original exact arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Pay the real family change and evaluate every R31 gate
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -u scripts/fourfold_post_prenewton_R31_v1.py \
+            --out data/phase_ring_continuation/step5_post_prenewton_${GITHUB_RUN_ID}/report.json
+      - name: Preserve the original actual gates with terminal git
+        working-directory: topics/visible-flex-exact-nearby
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from fourfold_ci_inspect_complete_flow_v2 import git
+          from fourfold_phase_beta_affine import sha
+          root=Path('data/phase_ring_continuation')/('step5_post_prenewton_'+os.environ['GITHUB_RUN_ID'])
+          report=json.loads((root/'report.json').read_text())
+          if not report['complete']:
+              raise RuntimeError('the real-family change did not complete')
+          script=Path('scripts/fourfold_post_prenewton_R31_v1.py')
+          proof=Path('results/R100-nearby-quadratic-and-exact-prenewton-transport.md')
+          workspace=Path(os.environ['GITHUB_WORKSPACE'])
+          workflow=Path('.github/workflows/visible-exact-post-prenewton.yml')
+          kept={script:script.read_bytes(),proof:proof.read_bytes()}
+          workflow_source=(workspace/workflow).read_bytes()
+          files=[p for p in root.rglob('*') if p.is_file()]
+          for path in files:
+              if path.stat().st_size>=5000000 or path.stat().st_size>1000000 and path.suffix!='.gz':
+                  raise RuntimeError('a proof output exceeds repository limits')
+          git(['fetch','--filter=blob:none','--depth=1','origin','main'])
+          branch='visible-exact-post-prenewton-results-'+os.environ['GITHUB_RUN_ID']
+          git(['switch','-c',branch,'FETCH_HEAD'])
+          for path,data in kept.items():path.write_bytes(data)
+          (workspace/workflow).write_bytes(workflow_source)
+          topic=Path('topics/visible-flex-exact-nearby')
+          git(['add','--sparse','--',*[str(topic/p) for p in files+list(kept)],str(workflow)])
+          git(['-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com',
+               'commit','-m','visible-flex: preserve true post-pre-Newton R31 and R100'])
+          commit=git(['rev-parse','HEAD']).strip()
+          git(['push','origin','HEAD:refs/heads/'+branch])
+          print('POST_PRENEWTON_PUBLICATION',json.dumps(dict(branch=branch,commit_sha=commit,
+              report_path=str(root/'report.json'),report_sha256=sha(root/'report.json'),
+              source_sha256=sha(script),proof_sha256=sha(proof),
+              actual_R31_accepted=report['actual_R31_accepted'])),flush=True)
+          PY
+      - name: Preserve actual gates or concrete failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-post-prenewton-R31
+          path: topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_post_prenewton_${{ github.run_id }}/
+          compression-level: 1
+          if-no-files-found: warn

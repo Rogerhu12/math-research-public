@@ -1,0 +1,59 @@
+name: visible-exact actual common-root rational budget
+on:
+  push:
+    branches: [visible-exact-mixed-r98-20261112-f6a2]
+    paths:
+      - .github/workflows/visible-exact-common-root-budget.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_common_root_budget.py
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  root-budget:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visible-exact-mixed-r98-20261112-f6a2
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_phase_common_root_budget.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v1-scaled-Wiener-summary.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-common-root-high-remainder.json
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Assemble exact rational inequalities from actual complete moments
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -m py_compile scripts/fourfold_phase_common_root_budget.py
+          python scripts/fourfold_phase_common_root_budget.py --out notes/2026-11-12-actual-common-root-high-remainder.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-common-root-budget-${{ github.run_id }}
+          path: topics/visible-flex-exact-nearby/notes/2026-11-12-actual-common-root-high-remainder.json
+          retention-days: 30
+      - name: Publish actual exact rational report with terminal Git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "visible-exact CI"
+          git config user.email "visible-exact-ci@users.noreply.github.com"
+          git add topics/visible-flex-exact-nearby/notes/2026-11-12-actual-common-root-high-remainder.json
+          git diff --cached --check
+          git commit -m "visible-exact: pay actual common-root high-remainder norms"
+          git pull --rebase origin main
+          test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+          test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          while ! git push origin HEAD:visible-exact-mixed-r98-20261112-f6a2; do
+            git pull --rebase origin visible-exact-mixed-r98-20261112-f6a2
+            test "$(git rev-parse HEAD:README.md)" = f787a306d90892d8dec765dc59747d60ba39f055
+            test "$(git rev-parse HEAD:topics/visible-flex-exact-nearby/README.md)" = 84b6d9fc74ed90ab725aa230cdf348f325505396
+          done

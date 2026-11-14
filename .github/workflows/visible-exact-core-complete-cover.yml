@@ -1,0 +1,137 @@
+name: visible exact complete core eta cover
+on:
+  push:
+    branches:
+      - visible-exact-core-native-20261112-f6a2
+    paths:
+      - .github/workflows/visible-exact-core-complete-cover.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_flow_cover.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-exact-core-uniform-complete-cover
+  cancel-in-progress: false
+jobs:
+  cover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - first: 0
+            last: 20
+          - first: 20
+            last: 40
+          - first: 40
+            last: 60
+          - first: 60
+            last: 80
+          - first: 80
+            last: 100
+          - first: 100
+            last: 120
+          - first: 120
+            last: 140
+          - first: 140
+            last: 160
+          - first: 160
+            last: 174
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      FIRST_SPAN: ${{ matrix.first }}
+      LAST_SPAN: ${{ matrix.last }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.14"
+      - name: Install pinned mathematical runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Execute the exact parameter-uniform core piece
+        id: cover
+        continue-on-error: true
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          out="data/core_uniform_flow_ci/$GITHUB_RUN_ID/block_${FIRST_SPAN}_${LAST_SPAN}"
+          mkdir -p "$out"
+          python scripts/fourfold_phase_core_flow_cover.py \
+            --first-span "$FIRST_SPAN" --last-span "$LAST_SPAN" \
+            --parameter-half-width 1/1000000000 \
+            --modes 4 --primitive-nodes 512 --angles 1024 \
+            --bits 192 --native-order 32 --native-radius 1/64 \
+            --outer-radius 3 --sample-radius 5/4 --time-nodes 40 --time-terms 24 \
+            --flow-degree 32 --normalized-strip 1/16 --momentum-scale 8 \
+            --max-depth 4 --out-dir "$out" > "$out/worker.log" 2>&1
+          cat "$out/worker.log"
+      - name: Record exact actual execution provenance
+        if: always()
+        env:
+          COVER_OUTCOME: ${{ steps.cover.outcome }}
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,platform
+          from pathlib import Path
+          run=os.environ['GITHUB_RUN_ID']
+          first,last=int(os.environ['FIRST_SPAN']),int(os.environ['LAST_SPAN'])
+          root=Path('data/core_uniform_flow_ci')/run/f'block_{first}_{last}'
+          root.mkdir(parents=True,exist_ok=True)
+          paths=[Path('scripts/fourfold_phase_core_flow_cover.py'),root/'manifest.json',root/'worker.log']
+          files=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),
+                      bytes=p.stat().st_size) for p in paths if p.is_file()]
+          result=dict(kind='remote_actual_core_uniform_cover_piece_receipt',
+                      run_id=run,triggering_commit=os.environ['GITHUB_SHA'],
+                      first_span=first,last_span_exclusive=last,
+                      outcome=os.environ['COVER_OUTCOME'],python=platform.python_version(),
+                      files=files,scope='Only the mathematical leaf/manifest complete flags and their directed fees establish coverage. No missing leaf is assigned zero.')
+          (root/'execution_receipt.json').write_text(json.dumps(result,indent=2)+'\n')
+          if first==0:
+              index=dict(run_id=run,triggering_commit=os.environ['GITHUB_SHA'],
+                         exact_parameter_half_width='1/1000000000',
+                         root_path=str(root.parent),
+                         expected_blocks=[[0,20],[20,40],[40,60],[60,80],[80,100],
+                                          [100,120],[120,140],[140,160],[160,174]],
+                         statement='This is an execution locator, not a complete-cover certificate.')
+              Path('notes/2026-11-12-core-complete-cover-latest-CI.json').write_text(json.dumps(index,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-exact-core-cover-${{ github.run_id }}-${{ matrix.first }}-${{ matrix.last }}
+          retention-days: 30
+          path: topics/visible-flex-exact-nearby/data/core_uniform_flow_ci/${{ github.run_id }}/block_${{ matrix.first }}_${{ matrix.last }}
+      - name: Preserve each complete or partial piece through ordinary branch git
+        if: always()
+        env:
+          TARGET_BRANCH: visible-exact-core-native-20261112-f6a2
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "topics/visible-flex-exact-nearby/data/core_uniform_flow_ci/$GITHUB_RUN_ID/block_${FIRST_SPAN}_${LAST_SPAN}"
+          if test "$FIRST_SPAN" = 0; then
+            git add -- topics/visible-flex-exact-nearby/notes/2026-11-12-core-complete-cover-latest-CI.json
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Preserve actual eta core spans $FIRST_SPAN through $LAST_SPAN from run $GITHUB_RUN_ID"
+          for attempt in $(seq 1 32)
+          do
+            if git push origin "HEAD:$TARGET_BRANCH"; then exit 0; fi
+            git fetch origin "$TARGET_BRANCH"
+            git rebase FETCH_HEAD
+          done
+          exit 1
+      - name: Require the actual complete piece
+        if: always()
+        env:
+          COVER_OUTCOME: ${{ steps.cover.outcome }}
+        run: test "$COVER_OUTCOME" = success

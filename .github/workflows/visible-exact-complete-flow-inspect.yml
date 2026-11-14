@@ -1,0 +1,47 @@
+name: visible-exact inspect complete flow
+on:
+  push:
+    branches: ['visible-exact-complete-parameter-flow-*']
+    paths:
+      - '.github/workflows/visible-exact-complete-flow-inspect.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_ci_inspect_complete_flow_v2.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 40
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Install Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read small source tree
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            topics/visible-flex-exact-nearby/scripts
+            .github/workflows
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Read completed arithmetic and publish original proof outputs
+        working-directory: topics/visible-flex-exact-nearby
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -u scripts/fourfold_ci_inspect_complete_flow_v2.py
+      - name: Keep the small publication record or actual failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-flow-inspection
+          path: |
+            topics/visible-flex-exact-nearby/notes/2026-11-12-complete-flow-43301401638-arithmetic-summary.json
+            topics/visible-flex-exact-nearby/ci-output/complete-flow-inspection/publication.json
+          compression-level: 1
+          if-no-files-found: warn

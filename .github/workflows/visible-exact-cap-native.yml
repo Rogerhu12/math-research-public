@@ -1,0 +1,84 @@
+name: visible-exact actual inner cap energy
+
+on:
+  push:
+    branches: ['visible-exact-cap-native-*']
+    paths:
+      - '.github/workflows/visible-exact-cap-native.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visible-exact-cap-native-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cap:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 9
+      matrix:
+        include:
+          - first: 2
+            last: 4
+          - first: 4
+            last: 6
+          - first: 6
+            last: 8
+          - first: 8
+            last: 10
+          - first: 10
+            last: 12
+          - first: 12
+            last: 14
+          - first: 14
+            last: 16
+          - first: 16
+            last: 18
+          - first: 18
+            last: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read this topic at the triggering commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-exact-nearby
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the actual arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Check all exact inputs and compute the assigned true cap cells
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-output
+          python -u scripts/fourfold_phase_cap_native_ci.py \
+            --manifest-sha256 abb5b478edb98ff6068319bb597421677a002a9bb4066e0d85bd62d377366565 \
+            --first-element ${{ matrix.first }} --last-element ${{ matrix.last }} \
+            --out-dir data/cap_physical4_energy/native_ci_${GITHUB_RUN_ID}/block_${{ matrix.first }}_${{ matrix.last }} \
+            2>&1 | tee ci-output/cap-native.log
+      - name: Preserve the actual complete or partial cap outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cap-native-${{ matrix.first }}-${{ matrix.last }}
+          path: |
+            topics/visible-flex-exact-nearby/data/cap_physical4_energy/native_ci_${{ github.run_id }}/
+            topics/visible-flex-exact-nearby/ci-output/cap-native.log
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

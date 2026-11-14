@@ -1,0 +1,132 @@
+name: visible-exact saved local J0 symmetric correction
+on:
+  push:
+    branches: ['visible-exact-root-local-j-*']
+    paths: ['.github/workflows/visible-exact-root-local-j0.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-exact-root-local-j0-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  local-j0:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install native Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partial checkout of original complete flow and proof sources
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_complete_flow_ci_43301401638/g0/
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Pull current main and check both instruction files immediately
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u - <<'PY'
+          import os,subprocess
+          os.chdir(os.environ['GITHUB_WORKSPACE'])
+          credential='!f() { printf "%s\\n" "username=x-access-token" "password=$GITHUB_TOKEN"; }; f'
+          base=['git','-c','safe.directory='+os.environ['GITHUB_WORKSPACE'],'-c','gc.auto=0','-c','maintenance.auto=false','-c','credential.helper=','-c','credential.helper='+credential]
+          def run(args):
+              p=subprocess.run(base+args,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,env=dict(os.environ,GIT_TERMINAL_PROMPT='0'))
+              if p.returncode:print(p.stdout);raise RuntimeError('Git action failed: '+args[0])
+              return p.stdout.strip()
+          run(['config','user.name','github-actions[bot]'])
+          run(['config','user.email','41898282+github-actions[bot]@users.noreply.github.com'])
+          before=run(['rev-parse','HEAD'])
+          run(['fetch','--no-tags','--deepen=2000','origin','main'])
+          run(['pull','--no-rebase','--no-tags','origin','main'])
+          read=run(['rev-parse','FETCH_HEAD'])
+          diff=run(['diff',before,read,'--','README.md','topics/visible-flex-exact-nearby/README.md'])
+          if diff:print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True);raise RuntimeError('README changed')
+          print('REVIEWED_BOTH_READMES',read,'unchanged',flush=True)
+          PY
+      - name: Install arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Reuse exact saved integrals and compute complete retained products
+        working-directory: topics/visible-flex-exact-nearby
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -u scripts/fourfold_saved_first_local_J0_symmetric_ci.py --materialize
+      - name: Retain actual complete and partial evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-root-local-J0-symmetric
+          path: |
+            topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_local_J0_symmetric_ci/
+            topics/visible-flex-exact-nearby/notes/2026-11-12-ci-local-J0-symmetric-summary.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish actual proof bytes with terminal Git
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u - <<'PY'
+          import os,subprocess
+          from pathlib import Path
+          os.chdir(os.environ['GITHUB_WORKSPACE'])
+          env=dict(os.environ,GIT_TERMINAL_PROMPT='0')
+          credential='!f() { printf "%s\\n" "username=x-access-token" "password=$GITHUB_TOKEN"; }; f'
+          base=['git','-c','safe.directory='+os.environ['GITHUB_WORKSPACE'],'-c','gc.auto=0','-c','maintenance.auto=false','-c','credential.helper=','-c','credential.helper='+credential]
+          def run(args,check=True):
+              p=subprocess.run(base+args,env=env,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+              if check and p.returncode:
+                  print(p.stdout);raise RuntimeError('Git action failed: '+args[0])
+              return p
+          run(['config','user.name','github-actions[bot]'])
+          run(['config','user.email','41898282+github-actions[bot]@users.noreply.github.com'])
+          directory=Path('topics/visible-flex-exact-nearby')
+          paths=sorted(str(p) for p in (directory/'data/phase_ring_continuation/step5_local_J0_symmetric_ci').rglob('*') if p.is_file())
+          paths.append(str(directory/'notes/2026-11-12-ci-local-J0-symmetric-summary.json'))
+          run(['add','--sparse','--',*paths])
+          run(['commit','-m','visible-exact: preserve exact local-J0 symmetric correction and remaining fees'])
+          branch=os.environ['GITHUB_REF_NAME']
+          for attempt in range(12):
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['fetch','--no-tags','--deepen=2000','origin','main'])
+              run(['pull','--no-rebase','--no-tags','origin','main'])
+              read=run(['rev-parse','FETCH_HEAD']).stdout.strip()
+              diff=run(['diff',before,read,'--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during remote replay')
+              print('REVIEWED_BOTH_READMES',read,'unchanged',flush=True)
+              result=run(['push','origin','HEAD:refs/heads/'+branch],check=False)
+              print(result.stdout,flush=True)
+              if not result.returncode:
+                  print('PUBLISHED_REPORTS',run(['rev-parse','HEAD']).stdout.strip(),flush=True);break
+              if not any(x in result.stdout for x in ('fetch first','non-fast-forward','failed to update ref')):
+                  raise RuntimeError('unexpected branch push error')
+              before=run(['rev-parse','HEAD']).stdout.strip()
+              run(['pull','--rebase','--no-tags','origin',branch])
+              diff=run(['diff',before,'HEAD','--','README.md','topics/visible-flex-exact-nearby/README.md']).stdout
+              if diff:
+                  print('README_CHANGED_REQUIRES_RESEARCHER_REVIEW\n'+diff,flush=True)
+                  raise RuntimeError('README changed during branch retry')
+          else:raise RuntimeError('branch kept advancing; reports remain in artifact')
+          PY

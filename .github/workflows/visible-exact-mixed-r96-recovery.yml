@@ -1,0 +1,123 @@
+name: visible-exact mixed R96 recovery
+on:
+  push:
+    branches: [visible-exact-mixed-r98-20261112-f6a2]
+    paths:
+      - .github/workflows/visible-exact-mixed-r96-recovery.yml
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_collar_bivariate_recovery.py
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_recovery_run.py
+      - topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_recovery_collect.py
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: "1"
+  OMP_NUM_THREADS: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+  MALLOC_ARENA_MAX: "2"
+jobs:
+  mixed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        include:
+          - {part: 0, first: 0, last: 30}
+          - {part: 1, first: 30, last: 60}
+          - {part: 2, first: 60, last: 90}
+          - {part: 3, first: 90, last: 120}
+          - {part: 4, first: 120, last: 150}
+          - {part: 5, first: 150, last: 178}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install --disable-pip-version-check numpy scipy python-flint==0.9.0
+      - name: Recompute true mixed cells
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          python -m py_compile scripts/fourfold_phase_canonical_collar_bivariate_recovery.py scripts/fourfold_phase_canonical_mixed_recovery_run.py
+          python -u scripts/fourfold_phase_canonical_mixed_recovery_run.py --batch-cells 4 --first-index ${{ matrix.first }} --last-index ${{ matrix.last }} --out ci-output/mixed-part-${{ matrix.part }}.json.gz
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-mixed-r96-part-${{ matrix.part }}-${{ github.run_id }}
+          path: topics/visible-flex-exact-nearby/ci-output/
+          if-no-files-found: warn
+          retention-days: 30
+  collect:
+    needs: mixed
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visible-exact-mixed-r98-20261112-f6a2
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-full-weak-source-budget.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-12-actual-root-v0-complex-strip.json.gz
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install --disable-pip-version-check numpy scipy python-flint==0.9.0
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: visible-mixed-r96-part-*-${{ github.run_id }}
+          merge-multiple: true
+          path: topics/visible-flex-exact-nearby/ci-output/parts
+      - name: Verify exact complete cover
+        working-directory: topics/visible-flex-exact-nearby
+        run: python -u scripts/fourfold_phase_canonical_mixed_recovery_collect.py
+      - name: Aggregate complete R96 source if present
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          if [ -f scripts/fourfold_phase_direct_canonical_source_budget.py ]; then
+            python -u scripts/fourfold_phase_direct_canonical_source_budget.py --sharp ci-output/actual-canonical-mixed-recovery-complete.json.gz --out ci-output/actual-direct-canonical-source-budget.json
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("ci-output/actual-direct-canonical-source-budget.json")
+          d=json.loads(p.read_text())
+          if not d["proved"]:raise SystemExit("not a complete actual R96 budget")
+          summary={"proved":True,"kind":"complete_R96_source_contact_small_summary",
+            "source_sha256":d["source_sha256"],"input_sha256":d["input_sha256"],
+            "actual_cells":d["actual_cells"],
+            "constants":{k:v["upper"] for k,v in d["constants"].items()},
+            "all_root_contact":d["all_root_contact"],
+            "high_root_contact_table":d["high_root_contact_table"],
+            "complete_residual_budgets":[{k:v for k,v in r.items() if k!="all_terms"}
+                for r in d["complete_residual_budgets"]]}
+          q=Path("ci-output/actual-direct-canonical-source-summary.json")
+          q.write_text(json.dumps(summary,indent=2)+"\n")
+          print(json.dumps(summary))
+          PY
+          else
+            echo '{"actual_R96_budget_not_yet_present":true,"complete_mixed_artifact_saved":true}'
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visible-mixed-r96-complete-${{ github.run_id }}
+          path: |
+            topics/visible-flex-exact-nearby/ci-output/actual-canonical-mixed-recovery-complete*
+            topics/visible-flex-exact-nearby/ci-output/actual-direct-canonical-source*
+          retention-days: 30

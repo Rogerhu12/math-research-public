@@ -1,0 +1,132 @@
+name: visible-exact selected parameter remainder
+
+on:
+  push:
+    branches: ['visible-exact-parameter-remainder-*']
+    paths:
+      - '.github/workflows/visible-exact-parameter-remainder.yml'
+  workflow_dispatch:
+    inputs:
+      cache_run:
+        description: Successful reference-bootstrap run containing the exact cache
+        required: true
+        type: string
+        default: '43270092696'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: visible-exact-parameter-remainder-${{ inputs.cache_run || '43270092696' }}
+  cancel-in-progress: false
+
+jobs:
+  block:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include:
+          - start: 32
+            stop: 37
+          - start: 37
+            stop: 42
+          - start: 42
+            stop: 47
+          - start: 47
+            stop: 51
+          - start: 51
+            stop: 55
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read only this topic at the current workflow commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-exact-nearby
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the actual arithmetic runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Download the already recovered reference cache
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-forward-reference-cache
+          run-id: ${{ inputs.cache_run || '43270092696' }}
+          github-token: ${{ github.token }}
+          path: reference-cache
+      - name: Restore and check the original finite reference bytes
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, tarfile
+          cache = Path('../../reference-cache/forward-reference-cache.tar')
+          expected = '6c5d10b4f1a4c67d05059bd661c813ea06d60b4c16a967905f277a0f572ea831'
+          if hashlib.sha256(cache.read_bytes()).hexdigest() != expected:
+              raise RuntimeError('reference cache archive digest differs from successful exact recovery')
+          allowed = ('data/phase_ring_continuation/step4_shared1032_reference_forward/',
+                     'data/phase_ring_continuation/step5_retargeted_reference/Q_forward/')
+          with tarfile.open(cache) as archive:
+              for member in archive.getmembers():
+                  if not member.isfile() or not member.name.startswith(allowed):
+                      raise RuntimeError('unexpected reference cache entry')
+              archive.extractall('.', filter='data')
+          PY
+          python scripts/fourfold_ci_forward_reference_bootstrap.py --check-existing --no-archive
+      - name: Verify every selected original zero-order input
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PYVERIFY'
+          from pathlib import Path
+          import hashlib, json
+          source = Path('notes/2026-11-12-parameter-only-CI-selected-inputs.json')
+          expected = '05d303da37e984e003102390a1203fcc8f9512cb12d5bfb7e8165a95d44b9aa2'
+          if hashlib.sha256(source.read_bytes()).hexdigest() != expected:
+              raise RuntimeError('selected input manifest changed')
+          manifest = json.loads(source.read_text())
+          for row in manifest['files'] + manifest['required_reference_cache_files']:
+              path = Path(row['path'])
+              if hashlib.sha256(path.read_bytes()).hexdigest() != row['sha256']:
+                  raise RuntimeError('selected original input changed: '+str(path))
+          out = Path('ci-output/parameter-inputs-proof.json')
+          out.parent.mkdir(exist_ok=True)
+          out.write_text(json.dumps(dict(complete=True, input_manifest_sha256=expected,
+              verified_repo_files=len(manifest['files']),
+              verified_original_cache_shards=len(manifest['required_reference_cache_files'])), indent=2)+'\n')
+          PYVERIFY
+      - name: Compute actual parameters using the selected original zero-order reports
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u scripts/fourfold_ci_density_block_parameters_v1.py \
+            --g0-index data/phase_ring_continuation/step5_parameter_ci_seed_prefix0056/index.json \
+            --g0-index-sha256 bd8633409108f0c7128820fe4dd801c51648be7881522e505379b1f20bb89bbb \
+            --start ${{ matrix.start }} --stop ${{ matrix.stop }} --run-tag ci_parameter_${GITHUB_RUN_ID}
+      - name: Preserve complete leaves, partial reports and any actual failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-parameter-${{ matrix.start }}-${{ matrix.stop }}
+          path: |
+            topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_parameter_${{ github.run_id }}/
+            topics/visible-flex-exact-nearby/ci-output/parameter-inputs-proof.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

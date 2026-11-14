@@ -1,0 +1,69 @@
+name: visible-larger actual A tail nodes
+
+on:
+  push:
+    branches: ['main']
+    paths:
+      - 'topics/visible-flex-larger-amplitude/computations/ci-actual-a-tail-nodes-request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  actual-a-tail-nodes:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    concurrency:
+      group: visible-larger-actual-a-tail-nodes-publisher
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Check out only the current rules and readout sources
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/open.md
+            /topics/visible-flex-larger-amplitude/log.md
+            /topics/visible-flex-larger-amplitude/computations/
+          persist-credentials: false
+      - name: Use the recorded Python runtime
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+          architecture: x64
+      - name: Use the recorded Node runtime
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - name: Read all original A nodes with actual pull and normal push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u topics/visible-flex-larger-amplitude/computations/ci_actual_A_tail_nodes.py --repo "$GITHUB_WORKSPACE" --request topics/visible-flex-larger-amplitude/computations/ci-actual-a-tail-nodes-request.json --lane tail-nodes
+      - name: Preserve complete data and actual failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-larger-actual-a-tail-nodes-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            topics/visible-flex-larger-amplitude/notes/ci-actual-a-tail-nodes-${{ github.run_id }}-${{ github.run_attempt }}-tail-nodes/
+            ${{ runner.temp }}/visible-larger-new-tail-nodes-${{ github.run_id }}-${{ github.run_attempt }}-tail-nodes/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

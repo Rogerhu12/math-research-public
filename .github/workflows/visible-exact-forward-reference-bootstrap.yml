@@ -1,0 +1,66 @@
+name: visible-exact forward reference bootstrap
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-forward-reference-bootstrap.yml'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_ci_forward_reference_bootstrap.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visible-exact-forward-reference-bootstrap
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 150
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install Git for partial checkout
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Read this topic at the triggering commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-exact-nearby
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Install the actual reference runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0
+      - name: Recover only the forward reference and compare every historical SHA
+        working-directory: topics/visible-flex-exact-nearby
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-output
+          python -u scripts/fourfold_ci_forward_reference_bootstrap.py 2>&1 | tee ci-output/bootstrap.log
+      - name: Preserve the recovered finite reference cache outside Git
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-forward-reference-cache
+          path: topics/visible-flex-exact-nearby/ci-output/forward-reference-cache.tar
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve the actual recovery outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-forward-reference-recovery-report
+          path: |
+            topics/visible-flex-exact-nearby/ci-output/*.json
+            topics/visible-flex-exact-nearby/ci-output/*.log
+          retention-days: 30
+          if-no-files-found: warn
