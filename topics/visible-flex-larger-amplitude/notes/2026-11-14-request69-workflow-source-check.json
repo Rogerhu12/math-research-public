@@ -1,0 +1,95 @@
+{
+  "schema": "request69-workflow-and-transport-source-only-check-v1",
+  "yaml_roundtrip": true,
+  "trigger_exact": true,
+  "job_minutes": 80,
+  "science_step_minutes": 35,
+  "science_step_has_token_env": false,
+  "source_pin_count": 10,
+  "checks": [
+    {
+      "step": "Establish independent output and bounded Git maintenance",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Install unchanged original runtime dependencies",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Bind all sources and the precise actual61 diagnostic request",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Check hook and frozen worker syntax without numerical execution",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Reserve complete archive and selected input/output storage",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Fetch the fixed actual61 ZIP and extract only final noJ input evidence",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Restore all78 identical original public source files",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Evaluate the identical actual61 final state once through original noJ",
+      "shell_syntax": "PASS"
+    },
+    {
+      "step": "Publish bounded actual noJ evidence with ordinary rebase",
+      "shell_syntax": "PASS"
+    },
+    {
+      "sources_python_AST": "PASS",
+      "scientific_import_or_execution": false
+    }
+  ],
+  "files": [
+    {
+      "file": "geometry_20261114_fetch_actual61_noj_selected.py",
+      "bytes": 14501,
+      "sha256": "4853becf379f5db5594b62b2ec6b4266fd6853694fb19b19f56f11330db9f208"
+    },
+    {
+      "file": "public-current576-noj-probe-request.json",
+      "bytes": 2667,
+      "sha256": "c0dcd04ec91df9ba8147a591602eb0f0b56707825f36fbcd6986276329ec280f"
+    },
+    {
+      "file": "visible-larger-public-current576-noj-probe.yml",
+      "bytes": 9683,
+      "sha256": "271ca00ff2759be4cc6ea964e6fd00d42ccc667c4a0a37597ca26795e6cd55b6"
+    }
+  ],
+  "embedded_python_AST": [
+    {
+      "step": "Bind all sources and the precise actual61 diagnostic request",
+      "heredoc": "PYPINS",
+      "python_AST": "PASS"
+    },
+    {
+      "step": "Reserve complete archive and selected input/output storage",
+      "heredoc": "PYSPACE",
+      "python_AST": "PASS"
+    },
+    {
+      "step": "Fetch the fixed actual61 ZIP and extract only final noJ input evidence",
+      "heredoc": "PYFETCH",
+      "python_AST": "PASS"
+    },
+    {
+      "step": "Restore all78 identical original public source files",
+      "heredoc": "PYSOURCE",
+      "python_AST": "PASS"
+    },
+    {
+      "step": "Evaluate the identical actual61 final state once through original noJ",
+      "heredoc": "PYPROBE",
+      "python_AST": "PASS"
+    }
+  ]
+}
