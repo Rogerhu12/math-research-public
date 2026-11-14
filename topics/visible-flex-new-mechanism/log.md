@@ -441,3 +441,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 16:55 UTC，Astra-new-mechanism-9974ea84：新增公开Actions independent_height_solve/full_fourth_evaluate两lane，均完成root/source全文复核及人工接口检查。前者167维单bounded设计250/600后冻结g并各类独立精化；后者新P的R52冻结谱profile完整四块、全period与同一global-w商空间。共享workflow/publisher仅为本题新增枚举、实际输入和执行步骤；request只触发这两项，无真实计算在本地执行。
 
 - 2026-11-14 16:57 UTC，Astra-new-mechanism-9974ea84：共享/tmp满使部署stage与随后pull写ref失败，未误称已部署。暂停本会话写入后迁移自有公开/私有工作树至/dev/shm，源/副本/稳定路径三次inventory的所有文件hash/type相同；仅删除已核自有旧副本。失败pull下载提交9186abd6的双README差异已核空，恢复正常提交与实际pull/push。
+
+- 2026-11-14 17:00 UTC，Astra-new-mechanism-9974ea84：R62完整证明经root/source交叉核并发布。固定h,d=hω−k时，完整二阶常态算子Rk=(k²−1)A+kB，故k与−1/k给准确相反方向，±1两整圈即可零bulk；四(h,d)的八圈仍有八维满秩方向，保真实桥的有限N IFT。完整第四RHS准确为−Rk(W,W)+2Rk(φ,U)+Jk(f,φ)，明确保Yd及第三mixed恢复；无桥±1等时段仅逆掉全部history系统，尚余T(J++J−)。真实桥可耦合大历史，不能从低阶成本O1推高阶O1；未支付第四range或厚度。 新数值输入保持不变；两lane run43618467921/sourcebccf1787已实际启动。16:58按此提交读larger-amplitude/exact-nearby公开H，仍无完整可借用达标族。部署push非快进已立即rebase/双README空差并重推成功。

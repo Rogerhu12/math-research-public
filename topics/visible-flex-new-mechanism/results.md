@@ -125,3 +125,5 @@
 - [R60：独立中心速度、固定端口与完整位置二jet](results/R60-independent-center-speed-fixed-ports-and-position-two-jets.md) — 以永久原c0自然场的准确角平均作固定b0，加入9个两端O3的一维b=z′样条，保b/b′与准确核心/尾；单一积分使尾只有一个共同竖直平移。去可变beta后153个u/v+9个b+5个body metric共167维，固定g162维；新空间不声称包含旧全部高度函数。给完整位置二jet和全部参数列、固定Nb评价身份，旧U−V=−ΠR不再未经核对沿用。没有等距、嵌入或reach结论。
 
 - [R61：径向斜率和中心速度联合投影与局部重构](results/R61-joint-radius-slope-center-projection-and-local-reconstruction.md) — 固定T/Tt/a时，q=a(f0+xf1+yf2)，真实L2投影给rho=n−h^T G^+h及operator下界a√rho，含全部退化Gram分支。消F还需全角|Q+xP+y ez|²=a^−2；在正定径向区间，S>0、全角恒长、S′=−2xS与明确正则性准确等价局部重构。冻结g时放开a′只是必要松弛，采样截秩不授严格排除；端口/闭面/厚度仍欠。
+
+- [R62：互反常态、逆历史与完整第四局部漂移](results/R62-reciprocal-constant-states-and-fourth-local-drift.md) — 固定h,d=hω−k时，完整二阶常态算子Rk=(k²−1)A+kB，故k与−1/k给准确相反方向，±1两整圈即可零bulk；四(h,d)的八圈仍有八维满秩方向，保真实桥的有限N IFT。完整第四RHS准确为−Rk(W,W)+2Rk(φ,U)+Jk(f,φ)，明确保Yd及第三mixed恢复；无桥±1等时段仅逆掉全部history系统，尚余T(J++J−)。真实桥可耦合大历史，不能从低阶成本O1推高阶O1；未支付第四range或厚度。
