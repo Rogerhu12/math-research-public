@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 10:57 UTC。**主目标未完成，持续研究。**
+更新：2026-11-14 11:13 UTC。**主目标未完成，持续研究。**
 本次以前的完整逐项状态、原失败和旧待执行项保存在
 [10:30 前的 open 归档](notes/2026-11-14-open-history-before-complete-cap-and-K48.md)，
 再链其中的更早归档。历史“未执行”不得覆盖本页、HANDOFF 和真实原生记录中的完成状态。
@@ -40,13 +40,13 @@
 | 完整 regular q/ψ 提案 | 193 态、6145 节点、全部 Hermite、两组接口、独立原外行和有符号端式 | 连续体逆、真 ν-Schur |
 | [完整 141 块几何](results/R133-supplement-complete-141-block-continuous-model-geometry.md) | 8966 径向格和全部连续角；真实腰 eQ<.000101951532739、eF<.000220349475735 | 精确 GC 解或真闭帽 |
 | phase 公共 Actions 43580721166 | 原 127 germ 复用、余 42 完成；全部 169 germ/3095 行及准确 root 接点 | 真共轭或 PDE 分支 |
-| cap 公共恢复 43583838015 | 10:19:52 UTC 实际 success；复用旧 1792 行，只算末 185；原 complete-1977 consumer 已运行 | 其完整数值需读取后进入真帽 Green；尚未自动得到主体逆 |
-| body 公共 Actions 43583838026 | prepare 已核完整原 Hermite SHA；8 个互斥范围实际运行中 | 未完成范围与完整 mean 流不得提前授予 |
+| cap 43583838015 / cut 43587619797 | 全1977格完成；moving cut真实14门全过、97低行/mean/完整Gram已付 | 完整未知high输入、全独立源与主体逆仍欠 |
+| body 43583838026 / mean 43586413510 | 40片/7721行、两条准确mean误差流及6143跳真实全成 | 完整残差仍非解误差，signed积分跨0、非真Schur |
 | geometry 43584188751 | 26 个完整有理预算门实际 return0，native 88749e6d…6336b | 预算假设的精确闭解与状态球尚未构造 |
 
-body 完成后 `visible-exact-body-complete-mean.yml` 自动消费同一 run 的 prepare 和八行工件，
-核 40 片恰好覆盖原 [0,7721) 及 [0,25/8]，再用原 producer 完成双 mean 误差流和 signed 残差。
-不得再次运行已成功的原行，不得把原失败的 59 行右前缀重复计入覆盖。
+完整body/mean native为a4f31dccc…e5870，L2响应/伴随残差分别<.001284069680、.000182077136。
+不重跑任何已成功行。mean-norm首跑43588192611在flow记录与重新包络记录的包含方向门失败；
+独立v2消费将修正方向并以二者union增大误差界，原成功主体和两个完整mean流均保留。
 
 ## 2. 当前第一主链：全源、全 mean、全频连续逆
 
@@ -58,9 +58,12 @@ body 完成后 `visible-exact-body-complete-mean.yml` 自动消费同一 run 的
 moving96→physical128 的全部输入误差与 physical>128 尾均已单独付费，
 但端口成立不等于同坐标主体 BVP 可逆。
 
-下一项直接从真实 complete-cap native 读出 B/C 残差、gain、两边界误差和 complete identity，
-生成准确内端图误差，再与正区、root 两端口、负区接合。原全帽科学 manifest
-`867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32` 不改变。
+[实际完整帽到moving cut](results/R133-supplement-complete-physical-cap-into-actual-moving-cut.md)
+已由43587619797的14门全成：εmov<.000146553005，低97行<.000495325502，
+真mean>.0970571556485532；原完整193×96 Gram及正交补LR<10.303434596523、DL<.005103553909969。
+坐标仍是原无权物理正交规范；变换到R=diag(I96,ρI97)时须重付Gram、边界和R′/R。
+未知high输入与完整源不能由有限低核删去，接下来合并continuous body和全高反馈。
+原全帽科学manifest867699a5…5e32保持不变。
 
 ### 2.2 连续 193 态 regular 子空间与有符号残差
 
@@ -76,7 +79,7 @@ qν 约定 Dqν=+∂νF，完整未规范化状态已含 sν；伴随的非零�
 全矩阵高阶局部多项式只是提案；所有分片残差、target 尾、Gram 与真实 projector jumps 仍要严密验证。
 原从外端跑的 QR 提案在真实 ENOSPC 后停止，不再当作活跃完整进程。
 
-body 八范围与其最终 mean 消费完成后，要实际减去完整体积分，保 signed 双残差及所有接口。
+body与最终mean已全成，signed dual体积分区间为约[−.179437490855,.179437518843]，必须保它及所有接口；其包含0并不提供Schur非零。
 旧有限腰幅 Schur≈8.181474 和独立端式 [8.167929616818,8.194927720677] 都不是完整 Schur。
 193 态判据即使通过，还须保 high→head→high 全反馈、真外 DN、全部源单位及无穷尾。
 
@@ -108,7 +111,11 @@ G=K48∘H 有已付 Wiener 逆域，故可将归一化圆族以初始 lift=id �
 [真正显式族圆共轭](results/R133-supplement-actual-explicit-family-circle-conjugacy.md) 已由公开 run43586895661 的九步和 R31 全11门证明：
 同一 Qδ=Qbar+δZ、νδ=ν0+δ 中存在实 δ∞，|δ∞|<9.368259853002e−11，实现准确 Ω15。
 完整误差<5.855162408126e−13，小量门>9.158345525663e−12；全 P,Q,T,B 与域均已付。
-该存在仅属此明确族，完整 PDE 响应与 qν−Z 仍须接线；先消费现成常数核一次较宽共轭域，再推进真正 β/j 和 strong 项。
+[真实物理Wiener共轭域](results/R133-supplement-actual-physical-Wiener-conjugacy-strip.md)
+已由43588332723实算：loss1/250，normalized宽93/2000，物理moving-label A1/128的逆复合margin>.0013726400239022。
+ℋ−G<2.210026409642e−7，ℋ′−G′<.000224623568308；八个成功/失败loss都保留。
+这是同一显式族中可选δ*，不授不同loss参数唯一性、真正PDE族或另一物理θ chart。
+完整moving strict首符号与root两个减项已逐项证明，含primitive、两mean、真R0及全<u²>；实际有限部、两行Airy/positive匹配和strong继续。
 点态参数导数可变号，rotation number 一般有平台，不假设它在整参数区间可微。
 真实 β/j 与 principal gap 同阶；β、非 mean 项、root 幅度/Maslov、正区反射和 strong 余项
 必须进入同一正常型并按新 1/68 margin 比较。锁 principal rotation 本身不证明完整 return 可逆。
@@ -132,7 +139,10 @@ Tj=2^65536(j+5)^204 δ^-320 以下的移动中间块仍是真缺口，不能由�
 非 unitary density/shear 或真实外参数变化自动消去。
 任何改善旧 Tj 或扩大参数盒都须重付全空间高低泄漏、原源单位、54/55 收缩、标签与测度。
 仅扩大局部 κ 盒时，已发现 Hessian 费用仍随 κ 大幂增长，不能再以“以后够小”回避深层量词。
-新高 κ 解析路线在推导中，未授新的全网络界。
+新[完整root高输出Volterra](results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md)
+已付全输入/mean/两锥/逆向/ordinary-weak源，cut2^4200b下U高输出<2，
+二次余项H^s→H^(s+4/3)<2^4096b^(4/3)。公开43588423040真实55/55门return0。
+一次root首符号、graph、strict/positive与整个网络仍分别付；未授新全网络阈值。
 
 ## 5. 全逆到完整非线性解与闭合
 
@@ -170,15 +180,7 @@ four distinct noncoplanar curvature peaks 145..148 使含反射 δE>0。
 保真实失败、原生输入身份及成功前缀；>1MB gzip、单件≤5MB，大可重建矩阵留 Actions 工件。
 
 root 管 Git/HANDOFF/open/results/log，并接实际完成结果；
-newton_source 先消费全帽并推进 body/mean/连续 regular Green；
-phase_inverse 关闭真实 R31 门再接全 ν-Schur、β/j 和 strong 项；
+newton_source 推进连续 regular Green、全high反馈和真qν−Z；
+phase_inverse 推进实际全mode有限部、两行root匹配、β/j 和 strong 项；
 tail_connector 关闭实际混合近簇与中间频率整个网络。
 子问题完成立即接下一缺口。阶段报告、进程等待或时长都不是收尾理由；只有 README 全部完成标准达到才结束。
-
-主体全7721行及两条准确mean误差流已真实完成（43583838026/43586413510，native a4f31dccc…e5870）。完整响应/伴随L2残差分别<.001284069680、.000182077136；signed dual积分跨0，不能据此称Schur非零。新增visible-exact-body-mean-norm.yml只消费原完整误差流，计算q_star到Z和1/200剩余预算，不重跑主体，不将残差当作解误差。
-
-新增真实根完整高输出Volterra强界：高cut2^4200 b，U高输出<2，二次余项H^s→H^(s+4/3)<2^4096 b^(4/3)，|s|≤1。低输入/mean/两锥/逆向及ordinary-weak源均保；一次首符号、root graph、正型和完整网络仍欠，尚不将δ^-320自动改小。
-
-完整cap→true moving cut的公开43587619797已真实14门return0，native36f498e3…27104。全1977格、97输入、全部mean/普通/散度/Robin/端点齐；低97行误差<.000495325502，真mean>.0970571556485532，原193×96完整Gram与正交补逆LR<10.303434596523/DL<.005103553909969。连续权重变换须重付Gram/边界/R′/R；全未知高输入和独立源尚未吸收。
-
-当前完整moving Jacobi首符号及真实root有限部两减项已在R133-supplement-complete-moving-first-symbol-and-root-subtractions.md逐项证明，保primitive、两mean与R0。已启动独立10条符号恒等门；实际β仍须全两ray运输、两行Airy根有限部匹配、真实positive/端口和强余项，不以本局部首符号冒充全返回。

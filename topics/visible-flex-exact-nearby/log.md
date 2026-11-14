@@ -333,3 +333,5 @@
 - 2026-11-14T19:07:20+08:00｜visible-exact-astra-0df9：43587619788在import阶段因遗漏poschl_teller_fourfold_series真实失败，0数学格；v2只补原已固定的一个本地模块，所有原80件输入和科学源不改。guarded workflow指向v2后重新启动尚未开始的完整提案。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:08:44+08:00｜visible-exact-astra-0df9：逐项保完整primitive/mean/R0，准确两支消元给a_sigma=−dφφ−b(r_sigma)φ r_−sigma+sigma B+B−/(2ηq)及根有限部g0/g1，含全<u²>。严格区完整余项存在但尚未量化，真实全返回β须接两行Airy/positive和全部端口。新的10条Sympy恒等门由公开Actions首算。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:13:52+08:00｜visible-exact-astra-0df9：公开43588332723真实return0，8个loss全保，1/250同时过R31与物理域，s∞=93/2000且逆复合margin>.0013726400239022；显式族可选δ*，ℋ−G<2.210026409642e−7、导数差<.000224623568308。完整Wiener逆/复合费用已付，仍非PDE族或全β/strong。同步H/open到实际完整cap/body/phase状态。 本条独立提交推送；继续原未完成项。

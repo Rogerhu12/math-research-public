@@ -65,3 +65,5 @@
 - [完整物理帽到真实moving cut的实际14门](results/R133-supplement-complete-physical-cap-into-actual-moving-cut.md)：43587619797真实return0、14门全成，1977格和全部97输入列进入真实moving坐标：εmov<.000146553005，全低误差<.000495325502，真mean>.0970571556485532；全193×96 Gram、97行正交补LR<10.303434596523/DL<.005103553909969。完整未知高输入和主体Green仍分别待证。
 
 - [完整moving算子的严格区首符号与真实根减项](results/R133-supplement-complete-moving-first-symbol-and-root-subtractions.md)：逐项保完整primitive/mean/R0，准确两支消元给a_sigma=−dφφ−b(r_sigma)φ r_−sigma+sigma B+B−/(2ηq)及根有限部g0/g1，含全<u²>。严格区完整余项存在但尚未量化，真实全返回β须接两行Airy/positive和全部端口。新的10条Sympy恒等门由公开Actions首算。
+
+- [真正物理A1/128圆共轭与完整逆域](results/R133-supplement-actual-physical-Wiener-conjugacy-strip.md)：公开43588332723真实return0，8个loss全保，1/250同时过R31与物理域，s∞=93/2000且逆复合margin>.0013726400239022；显式族可选δ*，ℋ−G<2.210026409642e−7、导数差<.000224623568308。完整Wiener逆/复合费用已付，仍非PDE族或全β/strong。同步H/open到实际完整cap/body/phase状态。
