@@ -668,3 +668,7 @@ run43606770409/job132483017505全success，artifact14119155118/ZIPc4c59d92…已
 本次并将R263–R265及两新接口的公式分隔符改为根规则4规定的$与$$；只改Markdown排版，不改证明内容或数值源。
 
 request25终态补记：原身份验证通过，原Newton iter0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59；原线搜索失败，fresh calls1且完整cut J/audit未返回。artifact14118968502/ZIP480f69d0…取回后读全部trial，不以23初猜进步冒原solver接受。
+
+### 2026-11-14 actual25：原校正十个试步同段出域
+
+完整artifact14118968502/ZIP480f69d0…已取并逐15输出SHA核，actual25 note bdb13075…全文读。原withJac基态合法且norm与23原noJ相同；随后原correction十步1..1/512全stage13/raw0/seg7 D/S/A拒，既无trialNorm也无接受更新。普通JSON失去9546负零位，全部129248实数仍同初猜；注入原字节身份另保。原Node exit0只是正常回失败，Python2，切口J/audit未返回。原chartCondition不能当严格奇异证明/定位至13；下一捕获同场全J/residual/delta检查线性缺陷，不改原方程/域/容差。26投影真run43608931469/source2a251065/job132489481146已在算。

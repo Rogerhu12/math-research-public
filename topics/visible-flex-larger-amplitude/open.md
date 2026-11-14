@@ -60,3 +60,5 @@ request25/nativeseed独立原完整尾求解已接推送：精确恢复23完整5
 request26/angleprojection已接公开Actions：从最新22 warm新建唯一原完整模型和全10240角约束，C度量局部Hildreth、全行径向修复、可行原射线后备与同f线段选择；原A/gdot/merit/17trial/全部域和新FD保持。只是可行优化方向构造，非R265完整QP最优，仍非true native/BVP接受。见[全角算子](notes/2026-11-14-full-angle-domain-operator-interface.md)及[可行投影warm](notes/2026-11-14-full-angle-feasible-projection-warm-interface.md)。
 
 request25原完整solve已真实失败：run43607404925/job132484959081，iter0 norm=.04177307820740199，chartCondition8.810946110232247e59，原multiple-shooting line search failed，完整cut J/fresh audit未返回。先读取全部原试步定位，不直接接fullDN新H。
+
+actual25完整失败点已保：[原生全部试步实录](notes/2026-11-14-public-native-seeded-full-actual25.md)。十步1..1/512均stage13/raw0/seg7动量D/S/A拒，无trialNorm；同seed完整withJ基态合法，原correction图表报告8.8109e59，尚无全J/delta可辨线性缺陷。下一单次原withJ/correction捕获完整有限模型，不盲增试步、不新H。26已真实运行43608931469/job132489481146，待实际投影与新FD。

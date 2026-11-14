@@ -24,8 +24,8 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 ### 前缀RMS域：24已定位全角一阶限制，接完整不等式投影warm
 
 17/18/20/22均只warm实降，原BVP未接受，实际notes/原件保全。22/trustmultiline run43604874829/sourcefb32e240/job132477286177：原699/M112/T112/N2048；三行(473,0)/(480,0)/(473,11)完整梯度≤1.062e−12、rank3、原行leak≤1.400e−17。λ270/200在80步istop2，预条件normal2.60323e−5但KKT340.3776。α2^-9，同merit44.44622147747905→44.44413160763212、ratio1.0003776，原全域过；col=.007110543370/BC9.57847e−8仍非解。新warm03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8、新完整Rφ FD8.17330e−10/原5e−5门，112项H保留/native0。
-24/angledomain run43606770409/sourceae319f75/job132483017505已全success，artifact14119155118/ZIPc4c59d92…，完整包已取。锁同base20 warm0036063f…和22保存方向，699接受态精确重建、原坏点重放差0。5处×原N2048完整方向complex相对差2.65–5.52e−13。480最早linear exit=.00237428794，夹在接受2^-9与拒绝2^-8；2^-8四个实际负角与linear负角完全同集，最坏余项+.00299206。但2^-6在475/477/479实际负且linear正6/10/2角，仍须原真实回溯。R263此次Actions实算E=.79462908、Delta=.53502717、E/Delta1.48521，不冒高精度QP。
-26/angleprojection已接push：从最新22warm03ca9477…建同原A/λ270 LSMR200，唯一fullJac捕获端点J/P，原q.jet全Γ/Π编5×2048行B、/S一次。C对角度量Hildreth≤200sweep，β/2是算法余量；全行径向修复并保可行原射线backup，与投影方向在同阻尼模型线上选步，实测全A z/gdot/Δ及10240slack，非R265最优。原17回溯/全域/新FD保持，不native。三源operator af7966fa…、warm7d75a44a…、response90e7adde…及两接口已全文读；大B/J/Γ NPZ仅artifact，manifest/input/source/hash入Git。R262–265提供链/伴随/下降/后验工具。
+24/angledomain run43606770409实际success，包/完整note已保。base20+22方向重建差0，五处×N2048 complete complex差≤5.52e−13。480 first-exit=.00237428794夹接受2^-9/拒绝2^-8，四负角同集；但2^-6在475/477/479出现linear正而实际负，故保真实回溯。R263实算E=.79462908/Delta=.53502717=1.48521，不冒高精度QP。
+26/angleprojection真run43608931469/source2a251065/job132489481146在算：从最新22warm03ca9477…建同原A/λ270 LSMR200，唯一fullJac捕获端点J/P，原q.jet全Γ/Π编5×2048行B、/S一次。C对角度量Hildreth≤200sweep，β/2是算法余量；全行径向修复并保可行原射线backup，与投影方向在同阻尼模型线上选步，实测全A z/gdot/Δ及10240slack，非R265最优。原17回溯/全域/新FD保持，不native。三源operator af7966fa…、warm7d75a44a…、response90e7adde…及两接口已全文读；大B/J/Γ NPZ仅artifact，manifest/input/source/hash入Git。R262–265提供链/伴随/下降/后验工具。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 
@@ -34,7 +34,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 21工厂12/92 det失败且未留T，不能反填。22/v2全部576stage工厂成功、41有限rounded det0；261→262第112模−5e−324/u275.882…→0被私有veto拒，candidate=false/evaluate0。原件/notes及publisher补救已推，不重算；原native无此额外门，R264已证舍入账。
 23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
 51真下溢=47除/4乘、25负零；完整operand/result/双原scale bits保全。恢复9546负零后candidate完整binary64 SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，原scale SHAecbfd55d…；71chunk SHA/顺序/维数核。summary aa93fb8a…，完整note public-same-RK-candidate-v3-actual23。
-25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…正取回，geometry读全部原trial查guard或norm，不由初猜改善冒求解成功。
+25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；完整actual25 note已读，未保存全J/delta，接同场单次原correction捕获，不重试原十步。
 
 ## 之后的完整闭合与同g精化
 
