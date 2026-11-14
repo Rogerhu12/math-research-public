@@ -19,7 +19,7 @@ candidate `ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，�
 
 [同w0 Hessian实际10门](results/R133-supplement-actual-particular-w0-cap-Hessian.md)给1341local/1977交格完整方向加性<1.033484771e−5，旧HS×norm<1.372740655e−5。未知$e_Z-w_0$继续由原完整moving误差算子支付。下一项：
 
-1. 在原fullcut与已成Green profiles上只替换同w0 Hessian费用，右端单位通道重新缩放；不重算body传播、Riccati或已成帽格。
+1. 已发230input公开Hessian→cachedGreen消费者，原218pin零变；只替换同w0桥后，用新负荷上端/旧正数值负荷下端缩放原右通道，另外3通道保。待实际结果，不重算body传播、Riccati或已成帽格。
 2. 对已知$t=Tw_0$使用原真实ordinary分解与准确$t_\theta$，争取收紧目前主导的divergence模块费；所有mean/ZCC及未知完整feedback保。
 3. 看实际物理帽残差各通道与真实有向边界，按支配项继续改进，不能因某一预算下降就授响应门。
 4. 合未知high、完整有限head及low/high反馈，才得到真正$q_\nu$。

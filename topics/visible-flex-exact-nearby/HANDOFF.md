@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:51:36 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:55:40 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件、输出、提交或connector。
 本地最后真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍失败。根规则8暂只用connector处理<100KB文本，禁二进制/大文件，先查size，新摘要≤60KB；API不冒称pull。runner长算≤10min真pull或短child前后pull；亲核43617150971于16:44:18拉到ada07519b8addf6a07ac45ab12fd2f15b86f7657，两README无差。恢复终端即回git。
-最新远端 main/两README blob 核：6770e7df9bc427ba5e890ee14101793fcaabb120；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：9345afdfcb8cd7bf91feaeb56e157bb251e06fe2；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H完整字节：notes/2026-11-14-handoff-before-piecewise-root-resume-v2.md，前档链保全；open/log旧档2026-11-14-{open,log}-before-closed-leading-amplitudes.md。所有完整SHA、失败、源端口与复用合同查results/manifest，禁止重算已成数学。
 
@@ -24,7 +24,7 @@ exactbump43610523058/10门：14原格/40子格，旧80jets复用，nativec37a…
 完整Z v1计划43612904296数学7门成，native26a488…，后wrapper Path+str错/0range。v2 43613560173原计划原字节复用；四range仅新1147格，旧14/40不重算；finish实际6门，native365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e。全body low<2.723698e−6；固定负窗full<3.125876e−7、low<2.931414e−7、high<2.308005e−7。均是源，0新target，mean/knownhigh160保。
 完整cut43615251195实际plan/4range/finish全成，finish11门/3.278554s，native8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5。旧16格及14Green/6端点复用，仅新1961格；true97<5.460100249e−5、knownhigh<5.231670385e−5、腰<1.121483071e−15。physical误差<2.418183102e−6（dB<2.230834978e−6主导），旧桥moving<1.615491167e−5。sameZ全193/mean/未知high合同保，非全逆。
 同Z Green43616648792已实际9门/13.443183s，nativeeb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18/4片。全6391ports/5970接口原字节复用；负区总<.184275419462，body<.003051713268、真右端<.181223706169主导；内段<.393327977489。1/200门false，只finite193。旧rawjump仅非负surplus，未知high仍欠。43615632713仅eligibility0数学。
-同w0 particular Hessian43616252389报告10门/1341local/1977交格成功：native9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650，数学82.080329s。加性<1.033484771e−5，旧HS×||w0||<1.372740655e−5；仅部分收紧。Tw0准确后积分/逐槽Bernstein，divergence无径向length，旧mean/4Green/resolvent保；0原physical residual重算。未知eZ−w0仍付旧完整erroroperator。newton正在接已成fullcut与Green单通道，严禁重复body传播。
+同w0 particular Hessian43616252389报告10门/1341local/1977交格成功：native9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650，数学82.080329s。加性<1.033484771e−5，旧HS×||w0||<1.372740655e−5；仅部分收紧。Tw0准确后积分/逐槽Bernstein，divergence无径向length，旧mean/4Green/resolvent保；0原physical residual重算。未知eZ−w0仍付旧完整erroroperator。230input同向Hessian→旧6391profiles重权CI已推，原218pin零变；仅新完整gR/旧正数值load下端缩放右通道，余3源保，不重复传播；待actual。newton继续ordinary-only及物理dB。
 
 ## fullδ正区与根接口
 

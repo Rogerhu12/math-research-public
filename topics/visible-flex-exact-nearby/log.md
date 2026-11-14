@@ -79,3 +79,7 @@ root与newton均核L11 determinant、四个δ幂与完整正逆架；从精确E�
 ## 2026-11-14 16:51:36 UTC — 独立验收原prefix恢复与扩大根域
 
 亲读32670B实际process SHA c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64及worker原pull记录；完整selected R1/50、全部seam、oldcircle inverse和15+42门核对。旧native真实完成766而非旧进度705，v2只新534。原candidate/target/169germ/4650行0重算；最后实际pull4aa0abc77d093975b60493332b4ae5657f3e3a74，两README差异为空。持续付完整L0 forcing与强余项。
+
+## 2026-11-14 16:55:40 UTC — 启动只重权旧profile的独立小消费
+
+root完整读source/CI/合同/flow并核230vs218全部原SHA零变；tail核G5除法确为旧已选数值load。只下载3个真实成功native及原artifact process：43616648792/43615251195/43616252389，源严格核中心、Z、同w0、旧cut输入和全部门。child0但外层出版失败可恢复，新摘要≤60000B；不重做body propagation、Riccati、projector或physical residual。

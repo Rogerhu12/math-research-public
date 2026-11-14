@@ -349,3 +349,7 @@
 ## 2026-11-14 16:51:36 UTC — 真逐片根域扩到1/50并保全部seam
 
 [实际完整证书](results/R133-supplement-actual-piecewise-root-radius-one-over-fifty-and-full-seams.md)：43616813816 child0/36.750470s，15全局与6半径各7门均真；旧766行原字节复用、新534行，1300行/1079seam。完整复δ1e−8，真Jac>1.506157、μ>2.321309、实canonical|T|<.05120020790294；全J/mean保。原2/3阶seam非小，真实重构源和负Cauchy/strong仍须付；native dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212按原字节留本次artifact。
+
+## 2026-11-14 16:55:40 UTC — 同方向Hessian与已成Green的准确重权合同
+
+[完整G1–8](notes/2026-11-14-R133-particular-Hessian-cached-Green-contract.md)只替换同w0桥、保原未知输入误差operator，重算完整97/mean/high负荷。旧6391正Green右通道乘新负荷上端/旧已选正数值load下端；分母不是实际defect下界，另3通道和全部界面/真实dr/固定phase cut保。230input公开CI已发，原218pin不变；新数值待actual，有限193之外义务仍在。

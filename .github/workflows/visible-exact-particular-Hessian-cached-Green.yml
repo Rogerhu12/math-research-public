@@ -1,0 +1,146 @@
+name: visible-exact refined particular Hessian same Z Green
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-particular-Hessian-cached-Green.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-refined-particular-Hessian-same-Z-Green
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  REWEIGHT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-particular-Hessian-cached-Green-CI-inputs.json
+  REWEIGHT_MANIFEST_SHA: f0d4dc0c687f2825540f473f3946d37d48b6da93ef3789c27c95b83ed5404373
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  reweight:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 50
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out frozen definitions and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-particular-Hessian-cached-Green-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Verify frozen dependency closure and parse only the new sources
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$REWEIGHT_MANIFEST" --manifest-sha "$REWEIGHT_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/refined_Hessian_Green_ci/
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_particular_Hessian_cached_Green.py','fourfold_codazzi_particular_Hessian_Green_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('Both new exact reweighting sources parsed; no mathematical calculation executed.')
+          PY_AST
+      - name: Install the original pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set artifact paths inside the actual container
+        id: paths
+        run: |
+          python - <<'PY_PATHS'
+          import os,pathlib
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+              for name in ('green','cut','hessian','output'):
+                  stream.write(f'{name}={root}/visible-exact-refined-Hessian-Green-{name}\n')
+          PY_PATHS
+      - name: Receive the actual successful6391 same-Z Green profiles and original process
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43616648792
+          name: visible-exact-complete-same-Z-known-source-Green-43616648792-1
+          path: ${{ steps.paths.outputs.green }}
+      - name: Receive the exact1977 cut native used by that Green run
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43615251195
+          name: visible-exact-complete-cut-Z-finish-43615251195-1
+          path: ${{ steps.paths.outputs.cut }}
+      - name: Receive the actual complete same-w0 particular Hessian
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43616252389
+          name: visible-exact-particular-cap-Hessian-43616252389-1
+          path: ${{ steps.paths.outputs.hessian }}
+      - name: Reweight only the old positive right-boundary channel and retain all other profiles
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_particular_Hessian_Green_CI.py
+          --manifest "$REWEIGHT_MANIFEST" --manifest-sha "$REWEIGHT_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --same-z-artifact "$RUNNER_TEMP/visible-exact-refined-Hessian-Green-green"
+          --cut-artifact "$RUNNER_TEMP/visible-exact-refined-Hessian-Green-cut"
+          --hessian-artifact "$RUNNER_TEMP/visible-exact-refined-Hessian-Green-hessian"
+          --green-run 43616648792 --cut-run 43615251195
+          --work "$RUNNER_TEMP/visible-exact-refined-Hessian-Green-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-refined-Hessian-Green-output"
+          --compute-minutes 30 --checkpoint-minutes 10
+      - name: Require nonempty actual evidence and a bounded plaintext inventory
+        if: ${{ always() }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          value=os.environ.get('ACTUAL_OUTPUT','')
+          if not value:raise RuntimeError('the actual output path was never initialized')
+          root=pathlib.Path(value)
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no nonempty actual process evidence exists')
+          data=(json.dumps([dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,
+              sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files],indent=2)+'\n').encode()
+          if len(data)>60000:raise RuntimeError('inventory exceeded60000 bytes; original evidence remains intact')
+          (root/'artifact-inventory.json').write_bytes(data)
+          print(dict(actual_files=len(files),inventory_bytes=len(data),original_Green_propagations_repeated=0))
+          PY_INVENTORY
+      - name: Preserve every actual native and failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-refined-Hessian-same-Z-Green-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error
