@@ -1,0 +1,142 @@
+name: ISP R150 eighth p2-integral second direction modulo31six
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-eighth-second-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  eighth-second:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Freeze the unique integer-admissible direction, both rules and every source hash
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-eighth-second-actions-prepare-789f.py --mode source
+      - name: Restore the completed t96 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-eighth-second-t96-download
+      - name: Restore the completed all198 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-eighth-second-all198-download
+      - name: Restore the completed seven artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-eighth-second-seven-download
+      - name: Restore the completed current artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-augmented-seven-second-recovery-43634830833-1
+          run-id: 43634830833
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-eighth-second-current-download
+      - name: Restore the completed ninth artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-ninth-first-recovery-43638830039-1
+          run-id: 43638830039
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-eighth-second-ninth-download
+      - name: Require all46 exact saved inputs and retain only44 artifact inputs
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-eighth-second-actions-prepare-789f.py --mode restore
+      - name: Install the exact finite-field dependency and record the compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_EIGHTH_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_EIGHTH_OUT/results/compiler-version.txt"
+      - name: Execute the unique new direction with one shared300-second mathematical clock
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-eighth-second-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_EIGHTH_T96" \
+            --all198-recovery "$ISP_EIGHTH_ALL198" \
+            --seven-recovery "$ISP_EIGHTH_SEVEN" \
+            --current-recovery "$ISP_EIGHTH_CURRENT" \
+            --ninth-recovery "$ISP_EIGHTH_NINTH" \
+            --out "$ISP_EIGHTH_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_EIGHTH_OUT/results/actions-console.log"
+      - name: Record actual primary support, complete allowed image and every positive original identity
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-eighth-second-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        with:
+          name: isp-r150-eighth-second-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_EIGHTH_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        with:
+          name: isp-r150-eighth-second-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_EIGHTH_OUT }}/recovery
+      - name: Publish this actual result directory with real pull and immediate rebase retries
+        id: publication
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-eighth-second-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_EIGHTH_OUT/results" \
+            --recovery "$ISP_EIGHTH_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-eighth-second-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        with:
+          name: isp-r150-eighth-second-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_EIGHTH_OUT }}/results/publication
+      - name: Require complete admissible second image and every compatible target multiplied back
+        if: always() && env.ISP_EIGHTH_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_EIGHTH_OUT'])/'results/actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Eighth integral continuation incomplete; all actual outputs and checkpoints retained')
+          PYCODE

@@ -1,0 +1,107 @@
+{
+  "format": "r150-eighth-second-bounded-build-check-v1",
+  "status": "compiled",
+  "perCompilationSeconds": 30,
+  "perCompilationAddressSpaceMiB": 512,
+  "checks": [
+    {
+      "file": "2026-11-14-r150-eighth-second-original-789f.cpp",
+      "sourceSHA256": "fb2a74e2b05dc512eaac191122b855b3ab3f52042dc0c90e0d12dae861be106a",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/dev/shm/isp-789f-eighth-second-draft",
+        "-I",
+        "/dev/shm/isp-789f-main-20261114-2108/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-eighth-second-draft/2026-11-14-r150-eighth-second-original-789f.cpp",
+        "-o",
+        "/dev/shm/isp-789f-eighth-second-draft/bin/original"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 5.144674281000334,
+      "stderr": "",
+      "binaryExecuted": false
+    },
+    {
+      "file": "2026-11-14-r150-eighth-second-normal-789f.cpp",
+      "sourceSHA256": "9582c6778f62364afd80f28217bebb2e3bfcdadc78ea4670feeb2c36b21a23c4",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/dev/shm/isp-789f-eighth-second-draft",
+        "-I",
+        "/dev/shm/isp-789f-main-20261114-2108/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-eighth-second-draft/2026-11-14-r150-eighth-second-normal-789f.cpp",
+        "-o",
+        "/dev/shm/isp-789f-eighth-second-draft/bin/normal"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 5.125444917997811,
+      "stderr": "",
+      "binaryExecuted": false
+    },
+    {
+      "file": "2026-11-14-r150-eighth-second-source-one-789f.cpp",
+      "sourceSHA256": "f661197fde1b2a5da6d87c95e62503259f5f66074e7d4b1d9241f78633376d67",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/dev/shm/isp-789f-eighth-second-draft",
+        "-I",
+        "/dev/shm/isp-789f-main-20261114-2108/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-eighth-second-draft/2026-11-14-r150-eighth-second-source-one-789f.cpp",
+        "-o",
+        "/dev/shm/isp-789f-eighth-second-draft/bin/source-one"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 4.991036807994533,
+      "stderr": "",
+      "binaryExecuted": false
+    }
+  ],
+  "AST": {
+    "python": [
+      {
+        "file": "2026-11-14-r150-eighth-second-runner-789f.py",
+        "sha256": "c7edfe2a0493ccd1618b9ab1be45e310c1af4ee8defe12e1db8c3af4c6906534",
+        "astParse": true
+      },
+      {
+        "file": "2026-11-14-r150-eighth-second-matrices-789f.py",
+        "sha256": "44ec676687fba12cad4d636007a522ffb6ea90b34b38fcf5cd774b6e0d6eea43",
+        "astParse": true
+      }
+    ],
+    "runnerLiteralInputKeysBound": true,
+    "all46InputAnd13DependencyNamesConsistent": true,
+    "mathematicalExecutionPerformed": false
+  },
+  "mathematicalExecutionPerformed": false
+}
