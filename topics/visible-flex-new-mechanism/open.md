@@ -22,7 +22,7 @@
 
 ## O4：公开 tight 带的完整二阶到有限连续族
 
-公开2026-11-12文献给等距对 $X\pm\varepsilon Y$。新笔记 `notes/literature-second-order-moments-20261114.md` 已把一般二阶校正的完整range条件化为逐ruling积分与逐闭特征线周期函数；三矩连续profile路径只自动满足前者。先实际检验两个二次forcing通道的后者，再用核自由度求高阶条件和同一 $g_\varepsilon$ 的完整非线性路径。不能用减均值、缩小ε或仅有±两端替代真正有限连续族。即使带族成功还须闭面、幅度、握持与reach。
+公开2026-11-12文献给等距对 $X\pm\varepsilon Y$。新笔记 `notes/literature-second-order-moments-20261114.md` 已把一般二阶校正的完整range条件化为逐ruling积分与逐闭特征线周期函数；三矩连续profile路径只自动满足前者。实际高N已确认原bump圆的两个周期通道非零；R5把四维poly4分支进一步归结为11个基面几何积分同时为零。继续该有限基面设计，并保留固定g非线性相位切片pilot；通过二阶后才进入高阶条件。不能用减均值、缩小ε或仅有±两端替代真正有限连续族。即使带族成功还须闭面、幅度、握持与reach。
 
 ## 最终必须一并支付
 

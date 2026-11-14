@@ -44,3 +44,6 @@
 
 - 2026-11-14 19:03 CST，Astra-new-mechanism-9974ea84：R4推送一次非快进后立即rebase成功（cf20df83），规则diff为空。定位Newton失败为末尾numpy.bool_无法JSON序列化，显式转Python bool并用人工小模型完成输出类型/导数验证。
   仅重跑band_newton同一物理参数；旧计算无完整输出，不报告未保存数值。其余三个lane的原始Actions JSON与receipt已拉回，分别审计。
+
+- 2026-11-14 19:06 CST，Astra-new-mechanism-9974ea84：完成R5四模完整周期条件的有限代数定理，附36个Fraction精确行列式；仅说明该profile空间的必要充分系数条件，不声称基面存在。
+  高N原bump三公式交叉吻合而周期非零，投影截断不能作解；folded两表示实际metric约.171/.586均失败，已分别保存实际审计。继续11积分基面设计和椭圆端口延续。

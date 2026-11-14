@@ -1,0 +1,875 @@
+{
+  "status": "exact_rational_finite_certificate",
+  "arithmetic": "fractions.Fraction",
+  "profile_space": "(1-x^2)^4 span(1,x^2,x^4,x^6)",
+  "cases": 36,
+  "all_determinants_strictly_positive": true,
+  "rows": [
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "4305/323",
+          "7000/19"
+        ],
+        [
+          "407/34",
+          "6470/17"
+        ]
+      ],
+      "determinant": "3636850/5491",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "2568/161",
+          "6912/23"
+        ],
+        [
+          "12754/969",
+          "7744/19"
+        ]
+      ],
+      "determinant": "132375552/52003",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "1393/75",
+          "392/3"
+        ],
+        [
+          "1359/95",
+          "440"
+        ]
+      ],
+      "determinant": "1796368/285",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "2568/161",
+          "6912/23"
+        ],
+        [
+          "1942/133",
+          "2500/7"
+        ]
+      ],
+      "determinant": "28018272/21413",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "1393/75",
+          "392/3"
+        ],
+        [
+          "4001/253",
+          "88480/253"
+        ]
+      ],
+      "determinant": "5602856/1265",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        5
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "6",
+      "beta": "-14",
+      "matrix": [
+        [
+          "1393/75",
+          "392/3"
+        ],
+        [
+          "3963/230",
+          "1218/5"
+        ]
+      ],
+      "determinant": "6534934/2875",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "4305/323",
+          "14600/57"
+        ],
+        [
+          "407/34",
+          "14350/51"
+        ]
+      ],
+      "determinant": "11268050/16473",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "2568/161",
+          "3648/23"
+        ],
+        [
+          "12754/969",
+          "49984/171"
+        ]
+      ],
+      "determinant": "401681024/156009",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/9"
+        ],
+        [
+          "1359/95",
+          "920/3"
+        ]
+      ],
+      "determinant": "5402656/855",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "2568/161",
+          "3648/23"
+        ],
+        [
+          "1942/133",
+          "4820/21"
+        ]
+      ],
+      "determinant": "1515872/1127",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/9"
+        ],
+        [
+          "4001/253",
+          "155120/759"
+        ]
+      ],
+      "determinant": "1547224/345",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        6
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "5",
+      "beta": "-32/3",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/9"
+        ],
+        [
+          "3963/230",
+          "1274/15"
+        ]
+      ],
+      "determinant": "60236386/25875",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "4305/323",
+          "200"
+        ],
+        [
+          "407/34",
+          "3940/17"
+        ]
+      ],
+      "determinant": "3815600/5491",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "2568/161",
+          "2016/23"
+        ],
+        [
+          "12754/969",
+          "704/3"
+        ]
+      ],
+      "determinant": "134652736/52003",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/3"
+        ],
+        [
+          "1359/95",
+          "240"
+        ]
+      ],
+      "determinant": "601048/95",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "2568/161",
+          "2016/23"
+        ],
+        [
+          "1942/133",
+          "1160/7"
+        ]
+      ],
+      "determinant": "29193216/21413",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/3"
+        ],
+        [
+          "4001/253",
+          "33320/253"
+        ]
+      ],
+      "determinant": "5708304/1265",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        4,
+        7
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "9/2",
+      "beta": "-9",
+      "matrix": [
+        [
+          "1393/75",
+          "-392/3"
+        ],
+        [
+          "3963/230",
+          "28/5"
+        ]
+      ],
+      "determinant": "20315792/8625",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "4305/323",
+          "15700/19"
+        ],
+        [
+          "407/34",
+          "13320/17"
+        ]
+      ],
+      "determinant": "3028450/5491",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "2568/161",
+          "20304/23"
+        ],
+        [
+          "12754/969",
+          "49952/57"
+        ]
+      ],
+      "determinant": "17524000/7429",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "1393/75",
+          "2548/3"
+        ],
+        [
+          "1359/95",
+          "4912/5"
+        ]
+      ],
+      "determinant": "43437604/7125",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "2568/161",
+          "20304/23"
+        ],
+        [
+          "1942/133",
+          "6152/7"
+        ]
+      ],
+      "determinant": "24155808/21413",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "1393/75",
+          "2548/3"
+        ],
+        [
+          "4001/253",
+          "238980/253"
+        ]
+      ],
+      "determinant": "15607088/3795",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        6
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "10",
+      "beta": "-27",
+      "matrix": [
+        [
+          "1393/75",
+          "2548/3"
+        ],
+        [
+          "3963/230",
+          "896"
+        ]
+      ],
+      "determinant": "3462634/1725",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "4305/323",
+          "11600/19"
+        ],
+        [
+          "407/34",
+          "10050/17"
+        ]
+      ],
+      "determinant": "3135050/5491",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "2568/161",
+          "14112/23"
+        ],
+        [
+          "12754/969",
+          "12416/19"
+        ]
+      ],
+      "determinant": "122069184/52003",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "1393/75",
+          "1568/3"
+        ],
+        [
+          "1359/95",
+          "3624/5"
+        ]
+      ],
+      "determinant": "14214536/2375",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "2568/161",
+          "14112/23"
+        ],
+        [
+          "1942/133",
+          "4444/7"
+        ]
+      ],
+      "determinant": "24993120/21413",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "1393/75",
+          "1568/3"
+        ],
+        [
+          "4001/253",
+          "168840/253"
+        ]
+      ],
+      "determinant": "15670984/3795",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        5,
+        7
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "8",
+      "beta": "-20",
+      "matrix": [
+        [
+          "1393/75",
+          "1568/3"
+        ],
+        [
+          "3963/230",
+          "2982/5"
+        ]
+      ],
+      "determinant": "5955166/2875",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        10
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "4305/323",
+          "26200/19"
+        ],
+        [
+          "407/34",
+          "21650/17"
+        ]
+      ],
+      "determinant": "2564350/5491",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        12
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "2568/161",
+          "36288/23"
+        ],
+        [
+          "12754/969",
+          "27456/19"
+        ]
+      ],
+      "determinant": "118712448/52003",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        8,
+        14
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "1393/75",
+          "5096/3"
+        ],
+        [
+          "1359/95",
+          "1640"
+        ]
+      ],
+      "determinant": "1755712/285",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        12
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "2568/161",
+          "36288/23"
+        ],
+        [
+          "1942/133",
+          "10540/7"
+        ]
+      ],
+      "determinant": "20968608/21413",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        10,
+        14
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "1393/75",
+          "5096/3"
+        ],
+        [
+          "4001/253",
+          "419440/253"
+        ]
+      ],
+      "determinant": "4970168/1265",
+      "strictly_positive": true
+    },
+    {
+      "vanishing_orders": [
+        6,
+        7
+      ],
+      "degree_pivots": [
+        12,
+        14
+      ],
+      "alpha": "15",
+      "beta": "-44",
+      "matrix": [
+        [
+          "1393/75",
+          "5096/3"
+        ],
+        [
+          "3963/230",
+          "8358/5"
+        ]
+      ],
+      "determinant": "5112954/2875",
+      "strictly_positive": true
+    }
+  ],
+  "not_a_surface_existence_result": true,
+  "script_sha256": "2cff5b5967b2436ab5c3a9180d7fb0c7ea7c4287eb15cb1d10b3b731434916cf"
+}
