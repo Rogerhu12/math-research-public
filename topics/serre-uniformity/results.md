@@ -250,3 +250,6 @@
 
 
 - **R763（已证明）**：[保持原首矩与实标记的普通见证归一](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)。实际NS满射给λ=1的普通双Norm零调整，保同一Xt、ηα/J及全q相位；实Vτ覆盖允许纯虚线，清除ρ后RΓS/p为真实ordinary Γ/S共同零Norm原像。ρ不是固定首矩的不变量，T/dual下降继续。
+
+
+- **R762（已证明，v2完整重建）**：[原μ3商、单函数恢复与基点平移有限判据](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)。原21固定点独立给genus127；正等变性将映射恢复化为商上degree-d的单个y，保原字段/相位/¼/全RR界。十九原树边周期和实际degree模3唯一选原c0平移，并给全整数格的F3泛函；真实函数/β/高度尚待求。

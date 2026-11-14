@@ -291,3 +291,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R763（保原首矩/实标记的ordinary torsor归一已证明）**：[完整证明](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)在同一Xt的真实KΓS差模给λ(Vy)=1，ρ可任意改变且清零，原ηα/J及全部q相位逐代表不变。实平均与实际Vτ保全部规范并给λ=i，H0=RΓS/p ordinary、Γ/S Norm零、τH0=γH0。ρ不是原首矩或b的不变量；真实T下降/π²L、S²L及R755 dual仍须接续，未由普通见证选择求J/b。
+
+
+**R762（原μ3商及单函数/基点恢复已证明，v2重建）**：[完整证明](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)原20尖点+c0恰21固定，genus127、deg t820。原正Hodge使实际整数周期映射等变，degree-d的y与原η=h/a恢复x；M=L(ξ)=K(U)、真实b_half负号、qY=Q³、¼缩放及有限RR/原微分前缀完整。十九原树边周期的ν1对应−b_half，实际d−nν三余数恰(1,0,0)排列而唯一确定原c0平移，十二基给全格线性泛函。原稿终端断连未推，本次完整重建SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea；实际period/degree/函数/β/高度仍未完成，R764待两真producer。
