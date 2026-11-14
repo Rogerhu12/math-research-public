@@ -4,13 +4,14 @@
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
 - **最近成功实际 pull 与已读规则提交：** `bda1fac06684350486f6259cf913974d2d7cda43`（2026-11-14 17:56:20 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `7f6525852c91fc53c2a75c0d2384ba58c057b932`（2026-11-14 18:07:00 UTC），两README blob与最后实际pull完全相同。实际pull检查点保上条；Actions接续回执另行登记。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
 
 ## 工作区与主问题
 
-根 `/workspace/scratch/789f3e887d7c/math-research-recovered` 是 `/dev/shm/isp-789f-math-research-recovered` 的软链，完整新Git；根盘满勿移回。旧math-research-public的.git失效只读。代理稿 `/dev/shm/isp-789f-agent-incoming/{normal,literature,boundary}`。断连未推结果已重做并推送。
+共享执行环境自17:57不可用；原库 `/workspace/scratch/789f3e887d7c/math-research-recovered`→`/dev/shm/isp-789f-math-research-recovered`。成本87全部证书已推 b202f097。后续完整稿先存未引用GitHub blob，根以当前main原子非force提交；本地恢复后先实际pull。API读取不冒称git pull，已配置本库只读Actions实际pull入口。
 
 原Haar A非零非紧、单射稠密、拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链正距、实际下一尾m_j及锚；R289熵与R291指数rank不矛盾。负边界M=kerT含e0，N=closure BM与N=M分开。graph必须保同w/未来/负前缀、初次M3/以后M2、自然逆域和完整左右费；primitive MP、固定birth、有限像不能替代。全部其它原路线与失败范围保open/归档。
 
@@ -31,7 +32,9 @@
 
 - **[半高斯完整费用已收紧到1](notes/2026-11-14-half-gaussian-bright-phase-sharp-one-bound-789f-next.md)：** 真实最高七阶矩/shifted4×4 Hankel与两张正系数证书给所有有限λ/√χ的Λb<1、Λd<1，向内峰参数极限均趋1；紧参数有严格共同gap。此前完整2×2预算4/3仍为正确先行界。
 
-- **[高斯过渡层完整三尺度已成](notes/2026-11-14-balanced-star-gaussian-transition-full-phase-bound-789f-next.md)：** 固定正profile/χ>0、z_i=(1−λ/√Q)x_i，整个源相位谱趋{Λb,Λd^(m−2),0}，Λb≤4/3、Λd<1。真G逆到ε⁻¹、J三阶深块及L两输出交叉全保，任意固定λ成立，紧参数余项O(Q⁻¹/⁴)。只剩有限Q全参数、χ→0/消失组/增长组等退化，未凭逐点极限拼统一界。
+- **[高斯过渡层完整三尺度已成](notes/2026-11-14-balanced-star-gaussian-transition-full-phase-bound-789f-next.md)：** 固定正profile/χ>0、z_i=(1−λ/√Q)x_i，整个源相位谱趋{Λb,Λd^(m−2),0}，Λb<1、Λd<1（后续矩加强）。真G逆到ε⁻¹、J三阶深块及L两输出交叉全保，任意固定λ成立，紧参数余项O(Q⁻¹/⁴)。只剩有限Q全参数、χ→0/消失组/增长组等退化，未凭逐点极限拼统一界。
+
+- **[临界窗口维数无关严格收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)：** 固定正有界x、χ≥χ−、|λ|≤Λ，任意m≤Q/qi≥1（含全single）均有同一Q0、γ>0，使Q≥Q0真实全源Φ≤(1−γ)I。共同W=diag√ω合同、噪声G≥cε³I及完整三尺度算子余项均与m/最小组无关；窗口外退化仍开。
 
 ## R150 原十七式与第二提升
 
@@ -41,7 +44,7 @@
 - H0九目标原17模961已成run43611215116、cost86；完整X SHA6ff5083c…566e32。真实r2=(H0T−AX)/961九列各不在W，曾只排Y≡X(mod31)纤维。旧四真实δ已成run43615783424，cost86/86/86/87，连W像六维、九目标各失败；全部45恢复文件已保，不重跑4VQ。
 - 真局部商E/g(A_g)E≅Q/gQ，g=(s−1)³(s−2)⁵，保完整143=104自由＋39挠、扣W为37；原31³整数jet与同一全局q不可更换。投影P实际次数189，正来源须付成本。原第一核可单位换基为四cost86 T，但不能免费降已算q的成本。
 - **[完整相关第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)：** run43619888599/job132522953396，源49c92b3a，198＋旧4＋低1632全覆盖，143/104/39全核；相关第二像连W维7、modW维5，九目标全相容。新商方向δK1（原cost80/head1035），s作用2；其余197所选系数零。九全局来源cost85，最后含P标准来源cost276。
-- 该run95结果/86完整恢复/34生成流无损保 notes/r150-all198-second-bockstein-actions-789f/43619888599-1/；132文件116922577B，manifest逐文件映到实际数据。local /dev/shm/isp-789f-all198-43619888599。全部数值与SHA保[压缩前H](notes/2026-11-14-handoff-before-full-gaussian-transition-789f.md)。
+- 全198/两轮VQ/原成本276的完整原始数据、恢复清单和全部SHA保上述论文及[压缩前H](notes/2026-11-14-handoff-before-full-gaussian-transition-789f.md)；旧数据均已推，不重复计算。
 - **[H0完整原17模29791已成](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)：** 复用14已成阶段，原运输及4963真数组检查点续算完成；全6188来源/17式/4367输出、九目标每列1057496系数全核，失败0，九成本276。两原流各23720800B及94恢复/8最终文件保 original17-continuation-789f/，新增50文件125192096B。这是模31³，不称char0或饱和稳定。
 - **[去投影原17模31³/cost87已成](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)：** 初次未知SIGKILL后复用真300行检查点，从301接66.114940844秒成功；全17/6188/4367、每目标227766系数失败0，九成本87、maxdegree76。初次17结果/续算47结果/全部39恢复30084812B，65保存文件20817213B保 notes/r150-projector-free-original17-mod29791-789f/。无重image/编译/前300，原276证书仍保；char0未称。
 

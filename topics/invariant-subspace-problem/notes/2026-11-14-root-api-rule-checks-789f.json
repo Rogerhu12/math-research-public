@@ -1,0 +1,38 @@
+[
+  {
+    "utc": "2026-11-14 18:05:06 UTC",
+    "readCommit": "bb453c48d12a08ee28e94a6ca1959d9011ef0882",
+    "actualGitPullPerformed": false,
+    "environmentUnavailable": true,
+    "rulesUnchanged": true,
+    "rulesGitBlobs": {
+      "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "method": "GitHub API exact commit and blob read before non-force expected-head update"
+  },
+  {
+    "utc": "2026-11-14 18:06:03 UTC",
+    "readCommit": "281dac943b47ab1fe90eef509f3264be025c399d",
+    "actualGitPullPerformed": false,
+    "environmentUnavailable": true,
+    "rulesUnchanged": true,
+    "rulesGitBlobs": {
+      "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "method": "Rebased exact changed-file blobs on refreshed main after rejected expected-head update"
+  },
+  {
+    "utc": "2026-11-14 18:07:00 UTC",
+    "readCommit": "7f6525852c91fc53c2a75c0d2384ba58c057b932",
+    "actualGitPullPerformed": false,
+    "environmentUnavailable": true,
+    "rulesUnchanged": true,
+    "rulesGitBlobs": {
+      "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "method": "Immediate latest-head rebase of unchanged topic blobs, non-force expected-head update"
+  }
+]

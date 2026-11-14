@@ -1,0 +1,50 @@
+name: ISP 789f actual pull and rule checkpoint
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/invariant-subspace-problem/notes/2026-11-14-executor-recovery-pull-request-789f.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: invariant-subspace-789f-actual-pull
+  cancel-in-progress: false
+jobs:
+  actual-pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Actual main pull and exact README comparison
+        env:
+          ISP_PIN: ${{ github.sha }}
+          ISP_RUN_ID: ${{ github.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/isp-789f-rule-pull"
+          cd "$RUNNER_TEMP/isp-789f-rule-pull"
+          git init -q
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git sparse-checkout init --no-cone
+          git sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'
+          timeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"
+          git checkout -b main FETCH_HEAD
+          export ISP_BEFORE_PULL="$(git rev-parse HEAD)"
+          timeout 120s git pull --rebase origin main
+          export ISP_AFTER_PULL="$(git rev-parse HEAD)"
+          python - <<'PY'
+          import datetime, json, os, subprocess
+          rules = ['README.md', 'topics/invariant-subspace-problem/README.md']
+          expected = {'README.md': '6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09', 'topics/invariant-subspace-problem/README.md': '4d6570e9cf346431ab781a1290076a6321aaaa00'}
+          before, after = os.environ['ISP_BEFORE_PULL'], os.environ['ISP_AFTER_PULL']
+          diff = subprocess.check_output(['git', 'diff', before, after, '--', *rules], text=True)
+          blobs = {p: subprocess.check_output(['git', 'hash-object', p], text=True).strip() for p in rules}
+          same = not diff and blobs == expected
+          receipt = {'format':'isp-789f-actual-actions-pull-v1', 'remoteCommit':after, 'beforeCommit':before, 'utc':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'), 'actualPullRebaseSucceeded':True, 'rulesUnchanged':same, 'rulesGitBlobs':blobs, 'executionEnvironment':'GitHubActions', 'runId':os.environ['ISP_RUN_ID']}
+          if diff:
+              print(diff, flush=True)
+          print('ISP_PULL_RECEIPT ' + json.dumps(receipt, ensure_ascii=False), flush=True)
+          if not same:
+              raise SystemExit('README changed: root must read the exact differences before further work')
+          PY
