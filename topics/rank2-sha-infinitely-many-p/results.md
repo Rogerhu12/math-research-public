@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R475：真实cube联合接口与原首提升高轴不可见区](results/R475-actual-cubic-joint-normal-interface-and-three-axis-invisible-range.md)：同一J层联合法向必要类对三高轴逐点不变；第三块余量≥3时整个原β1M亦不变，含ell1/2且不需参考满秩。余量0/1/2仅最高三/二/一尾，保原像商与J/M不同的两13行边界。
+
 - [R477：新线完整degree612伴随与单位条件行](results/R477-original-new-line-and-complete-degree612-companion.md)：原二输出真四倍下降后完整投影分离Snew⊗Λ612；Λ质量5824/3、真实coreλ及其单位限制均为整卷积单位。新中央零控制所有独立伴随测试，反卷积对原A/D两混管的转置全部保留。
 
 - [R474：原六sigma双输出核心与完整Riemann条件域](results/R474-original-six-sigma-two-output-core-and-exact-riemann-domains.md)：六sigma与Theta平方两压缩输入的真实core及整个K136=RB2给保Q两态，任意双深均完整返回。四sigma Hadamard的两真实分支、全部八输入域与转置同时付清；不把压缩输出深度或未投影行改作新曲线中央零。
