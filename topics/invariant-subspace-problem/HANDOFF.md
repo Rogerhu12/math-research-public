@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `e0e38f13153cc30b99ff2b5936241a1c602367fe`（2026-11-14 14:54:50 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `510be4defb1e6ff6dcadd3916af4e4c8309b2b26`（2026-11-14 14:57:43 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-projective-budget-interface-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -28,6 +28,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 - [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)给F/Q交换、T²=F⁻¹Q、同源压缩和Tv=σp⁻¹D²v，低birth不可删。[奇→偶全源极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)说明所有偶相位统一κ足所有加强高度。有限弱位逐系数路线已排；首Schur SOS尚缺最高边联合缺陷。
 - [四权完整分类](notes/2026-11-14-four-bit-phase-complete-equality-classification-789f.md)：全三维Φ≤1；除两对等权外严格，两对不同权核恰二维singlet，全等三维。[低位全源](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)付任意三位0<K<1及指定五位族全四维<3/4，固定r加小弱位全九维≤7/8，阈值未称r统一。
 - [全出生二阶](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)：I−Φhat=ε²(Bx*Bx/4+Sx*Sx/2)+O(ε³)。[全部固定方向局部界](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)用核组Casimir总J≤2、真MP四有效位约化支付退化，高J严格二阶。[完整局部等号](notes/2026-11-14-even-phase-directional-local-equality-kernel-and-multiplicity-789f-next.md)恰一组spin1/余singlet，dim=Σm1(q_g)∏m0(q_h)，任一奇数组局部严格。二阶核本身可更大；方向η不代共同邻域。
+- [任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)已付全源Φ≤1：完整组模块只(p,p)/(p,p+2)，平衡真实方差＋Chebyshev根对、不平衡全p正系数通项。异权等号恰单组spin1/余singlet，双奇数组严格；三权以上仍开。
 - [倒数非微扰对称](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)：h/ell/g/q倒数为π(ell,h,g,q)，J=hg⁻¹ell+2g−q，归一T=ell⁻¹/²Jh⁻¹/²满足T(z⁻¹)=T(z)*；完整相位同谱、对数流三阶整源消失。真块[[h,J*],[J,ell]]正性仍缺。
 - [Johnson同源支付](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)最高两通道已非负；交集多项式限deg≤s−1/[-1,1]。首低j=s−2负行的[条件共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)及原尾任意删位协方差预算已付，条件均值仍缺。[原无限尾有理证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>289/100，不反驳S1/graph；转损失或真C1²。
 
@@ -43,6 +44,6 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 当前分工与马上接续
 
-normal继续已知两β的J闭包/共同g及真正有限来源；共同g小系统已算相容，待读原系数和冻结证明，不称mod961完整成功。余两cost86原核尚未恢复。literature的任意两权全位数证明已冻结待整合，随后攻三权以上/一般相位。boundary已冻原尾一致倒数交差与正通道尺度，随后攻真实负方差的同源损失。根依次整合推送已冻新结论、恢复结果，继续原源接口。
+normal继续已知两β的J闭包/共同g及真正有限来源；共同g小系统已算相容，待读原系数和冻结证明，不称mod961完整成功。余两cost86原核尚未恢复。literature两权全位数已付，继续三权以上的真实中央协方差/一般相位。boundary已冻原尾一致倒数交差与正通道尺度，随后攻真实负方差的同源损失。根依次整合推送已冻新结论、恢复结果，继续原源接口。
 
 文献原范围、Garayev强制零、balanced两层度量不匹配及所有失败保open/结果归档，不重复已排路线。主ISP未完成，不以阶段报告收尾。
