@@ -99,3 +99,5 @@
 - [R133有向返回word与实际root首系数合同](results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md)：完整density反同态准确给V−^-1V+=U_(S−∘X+)，固定4j与有向有限部符号；实际root图另保b_root^fin及finite cross gauge，当前−Xi/4不冒充完整β。失联后正文重建身份明确，完整root连接/strong和真PDE转移仍待。
 
 - [R133完整首符号有限部的显式参数转移](results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md)：已证逐格∂δXi全Wiener界及完整复根四系数Cauchy有限部导数界；compact bump在根准确消失，保固定root、两减项、193方向/独立mean及D第二项无η因子。给Xi(δ*)−Xi(0)的可消费条件界，实际数值与真root/完整β/PDE转移仍另付。
+
+- [R119完整负散射与有序网络的斜率强界](results/R119-supplement-complete-negative-scattering-and-network-word-in-slope-units.md)：已证真实两窗H0→H4/3和H−4/3→H0，负片与明确酉模型差<2^9000λ^(4/3)、完整内部网络每行<2^9020λ_i^(4/3)。全输入/两mean/低中高频、双向anti-J、所有源和外端口保；strict只乘单根前缀，真实全层预算含129–8192。模型尚未变为scalar正常形，不授新全网逆。

@@ -230,3 +230,5 @@ root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-firs
 [显式参数有限部转移定理](results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md) 已闭合解析部分：D.9逐3146原严格格的完整∂δXi与D.17四个复根Cauchy费给D.18。旧169germ、626 scalar、220 compact-T和全方向native原样复用；仅新轻量消费在公开Actions执行。数值未运行前不更新Xi(δ*)区间；完整root finite coefficient、strong及真PDE背景仍欠。
 
 Green七端口门43596517945已真实全成、child0，native60e69d61…08f3；详[原执行说明](notes/2026-11-14-R133-signed-Green-algebra-public-outcome.md)。这些显式比较系统核实现约定，不替代原5970格或未知high。后继严格按相同SHA和原退出记录复用，不再运行成功门。
+
+[完整负散射/有序网络word](results/R119-supplement-complete-negative-scattering-and-network-word-in-slope-units.md) 已关闭两个基础强窗：H0→H4/3和H−4/3→H0，负片费2^9000λ^(4/3)、内部全相邻端口行2^9020λ_i^(4/3)。完整anti-J/onto给真实酉散射，从而所有低/中频付清；全mean/源/外响应不删。原N#在j129无N128项、λ·角小量全层可和均已写清。下一项是同一unitary word的scalar正常形及首相位同调/ordering两阶费；此后仍须新的高块、移动mixed clusters和全反馈，旧Tj没有直接替换。

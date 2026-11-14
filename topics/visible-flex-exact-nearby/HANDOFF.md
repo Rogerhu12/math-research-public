@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:53:03 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:55:24 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学全部直接用该公开仓库 Actions。
 最后实际本地 pull --rebase/两README差异核：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35起共享终端返回 No usable execution environment；未推小文本按根规矩8以已连接GitHub恢复，未传二进制或大数据。
-最新远端 main/两README blob 核：e66994cbc4e3820ba667c0f4a67717d4f0cb4400；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
+最新远端 main/两README blob 核：ae827621e6632ad70227e1523247c0331edf9d8f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
 每条结论独立接最新base tree/parent，expected_sha且force=false；竞争立即重新读main和两README、保并发后续接。终端恢复即回终端git/pull。
 已亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542（新增new-mechanism课题）。PAT只瞬时CLI/env，绝不文件/输出/提交/connector参数。
 root独占branch/ref及H/open/results/log；代理仅保存<100KB新文本blob，不改branch。七件Green源已原字节恢复，不同重建稿不冒原SHA。
@@ -59,7 +59,7 @@ root一次expB同cut强费2^4098b^(4/3)；43591004689真实35门/native2ff66460�
 root graph全density二阶<2^1024b²、4/3<2^700b^(4/3)，保实际principal/两mean/图高零点/weak；不除图高。
 strict λ=2^32√(j+5)δ^-9/4，L2^4200λ，PHU<2、二阶2^2048λ²/4/3阶2^1400λ^(4/3)；完整generator Duhamel、所有低入高出及C4/BV接缝已付。
 完整自由Airy两行normal shear低频κ^-5/6；旧H17前b^1/2中间句已勘误。全频正逆同阶2^64b、g阶2^64b^g(g=4/3,2)；全ordered fee重付旧H17/H22/H1/旧高块，引用旧后继须连勘误。
-负散射同一有序word恢复稿blob de399eec65b797926c08d5c0e91aec8b32fdad35待审/推，非假称原字节。全网scalar正常形、新cutoff和移动中间块仍欠，旧Tj未替代。
+完整负散射/有序网络word已证：真实全输入两窗H0→H4/3及H−4/3→H0，负片费<2^9000λ^(4/3)、内部network每行<2^9020λ_i^(4/3)；anti-J双向传递与unitarity付全部低/中频及mean，源/外端口全保。全网scalar正常形、新cutoff和移动中间块仍欠，旧Tj未替代。
 
 ## 最终几何与持续主线
 
