@@ -1,0 +1,235 @@
+{
+  "kind": "actual_public_exact_M32_repaired_outer_and_positive_high_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43601149891",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "c04f67b114b8dae9b15cbf09f035a8e6c39e9f25",
+  "worker_source_sha256": "9b9ae2e6bc08cbfd6dfd531d324342fbed070cf0c9ed21ea1c35a75965ea0480",
+  "started_utc": "2026-11-14T13:43:48.619721+00:00",
+  "children": [
+    {
+      "label": "actual_repaired_complete_regular_Hs_and_true_outer_reference",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_regular_Hs_outer.py",
+        "--repair",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--cap-background",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+        "--old-outer",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-regular-Hs-Riccati-rational.json",
+        "--out",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-regular-Hs-outer.json.gz"
+      ],
+      "started_utc": "2026-11-14T13:43:50.979345+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000518299999996,
+      "finished_utc": "2026-11-14T13:43:55.980466+00:00"
+    },
+    {
+      "label": "actual_repaired_4650_complete_positive_rows_and_both_unbounded_high_orders",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py",
+        "--coefficients",
+        "/__w/_temp/visible-exact-repaired-positive-work/original-verified-inputs/original-complete-positive-coefficients.json.gz",
+        "--repair",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--outer",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-regular-Hs-outer.json.gz",
+        "--outer-source-sha",
+        "5d1e8a86aa268d4d98bc929264d706b418b88cb99518ca646d84258d3068ffbe",
+        "--out",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-positive-N97-high-inverse.json.gz"
+      ],
+      "started_utc": "2026-11-14T13:43:59.303117+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 15.000749307000007,
+      "finished_utc": "2026-11-14T13:44:14.304481+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T13:43:49.314192+00:00",
+      "before": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "after": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:43:49.637382+00:00",
+      "before": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "after": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:43:56.276691+00:00",
+      "before": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "after": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:43:57.927897+00:00",
+      "before": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
+      "after": "340f03f774791fa81a93ac743fbd538a5b5b52de",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:15.055665+00:00",
+      "before": "340f03f774791fa81a93ac743fbd538a5b5b52de",
+      "after": "7041fb8176d7ecd22c30284d89dea5155d4887d8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:18.495345+00:00",
+      "before": "7041fb8176d7ecd22c30284d89dea5155d4887d8",
+      "after": "95bc71aa2cdc1f348166ed89bb91d70554c76264",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:23.204603+00:00",
+      "before": "95bc71aa2cdc1f348166ed89bb91d70554c76264",
+      "after": "a6dad80c2f7bdfe8ccf083373fea1f9a8b21bcf7",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T13:43:50.976722+00:00",
+      "final": false,
+      "commit": "9a09d8ffb98240228ba29209d39b07cfbe030d27"
+    },
+    {
+      "time": "2026-11-14T13:43:57.655987+00:00",
+      "final": false,
+      "commit": "340f03f774791fa81a93ac743fbd538a5b5b52de"
+    },
+    {
+      "time": "2026-11-14T13:43:59.300672+00:00",
+      "final": false,
+      "commit": "5727b64f3343243879cde8bac5607a46dcd48c86"
+    },
+    {
+      "time": "2026-11-14T13:44:21.951430+00:00",
+      "final": false,
+      "commit": "a6dad80c2f7bdfe8ccf083373fea1f9a8b21bcf7"
+    },
+    {
+      "time": "2026-11-14T13:44:26.002265+00:00",
+      "final": true,
+      "commit": "05df14cbbfb07b3ffd72e76d0ffa575463c05c8f"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_positive_coefficients_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+  "original_4650_coefficient_rows_recomputed": 0,
+  "original_target_primitives_rerun": 0,
+  "original_endpoint_or_cap_matrix_recomputed": 0,
+  "exact_affine_parameter_offset": "0",
+  "physical_parameter": "fixed original physical eta0 and nu",
+  "root_collar_transfer_separate": true,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "a61b4053128b75672816fad256139e2cd8c231cf752321f82f276a9d0d992cd0",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "a6dad80c2f7bdfe8ccf083373fea1f9a8b21bcf7",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-repaired-positive-work/science",
+  "original_complete_positive_byte_restoration_verified": true,
+  "snapshot_utc": "2026-11-14T13:44:24.591956+00:00",
+  "wall_seconds": 35.972809784999995,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-positive-byte-restoration.json",
+      "file": "evidence/original-positive-byte-restoration.json",
+      "bytes": 1807,
+      "sha256": "46f36c35f51f3430ca867062c994a4c0b34c61a0641efd9b57ab1d3ee07171e8"
+    },
+    {
+      "logical_file": "evidence/repaired-complete-positive-N97-high-inverse-summary.json",
+      "file": "evidence/repaired-complete-positive-N97-high-inverse-summary.json",
+      "bytes": 21412,
+      "sha256": "fde40b46beb474e10a92e6f6b92bc93beecb91da33eefc073a72dbc60964a9a5"
+    },
+    {
+      "logical_file": "evidence/repaired-complete-regular-Hs-outer-summary.json",
+      "file": "evidence/repaired-complete-regular-Hs-outer-summary.json",
+      "bytes": 19738,
+      "sha256": "1f8a0eb70945c15b25f94361fcee9e39730afbcfeed39917485139687c55dba6"
+    },
+    {
+      "logical_file": "native/repaired-complete-positive-N97-high-inverse.json.gz",
+      "lossless_manifest": "native-repaired-complete-positive-N97-high-inverse.json.gz-eefb94952a409473-parts.json",
+      "bytes": 16909572,
+      "sha256": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
+      "parts": 9
+    },
+    {
+      "logical_file": "native/repaired-complete-regular-Hs-outer.json.gz",
+      "file": "native/repaired-complete-regular-Hs-outer.json.gz",
+      "bytes": 3879,
+      "sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424"
+    }
+  ],
+  "repaired_outer_reused_without_execution": false,
+  "actual_original_repaired_outer_run": "43601149891",
+  "actual_repaired_outer_complete": true,
+  "actual_repaired_outer_native_sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424",
+  "complete_native_sha256": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
+  "actual_repaired_positive_closed_rows": 4650,
+  "actual_unbounded_high_orders": [
+    0,
+    1
+  ],
+  "order_feedback": {
+    "0": {
+      "ball": "[0.30329157940298602255054441725478901204344058585989518080959194306897025261196856 +/- 4.17e-82]",
+      "lower": "[0.30329157940298602255054441725478901204344058585989518080959194306897025261196856 +/- 4.17e-82]",
+      "upper": "[0.30329157940298602255054441725478901204344058585989518080959194306897025261196856 +/- 4.17e-82]"
+    },
+    "1": {
+      "ball": "[0.78827773560972823488366005728610405749068536875427589844042735672520272654399896 +/- 2.10e-81]",
+      "lower": "[0.78827773560972823488366005728610405749068536875427589844042735672520272654399896 +/- 2.10e-81]",
+      "upper": "[0.78827773560972823488366005728610405749068536875427589844042735672520272654399896 +/- 2.10e-81]"
+    }
+  },
+  "all_finite_head_mean_and_affine_source_columns_retained": true,
+  "complete_negative_return_and_global_Schur_still_required": true,
+  "finished_utc": "2026-11-14T13:44:22.795232+00:00"
+}
