@@ -1,0 +1,739 @@
+{
+  "schema": "actual39-existing-ledger-block-maximum-readout-v1",
+  "result_sha256": "5b0feb50bec35070101d8f43d4759573b00d8b91e5e0b4c95ccb84edd5c4c4ac",
+  "scope": "Sort/count only already-computed per-block maximum records; no residual/norm/dot recomputation",
+  "iterations": [
+    {
+      "iteration": 0,
+      "ledger_file": {
+        "name": "iteration-00-exact-residuals",
+        "file": "large-arrays/iteration-00-exact-residuals.jsonl.gz",
+        "dtype": "exact-dyadic-jsonl-gzip",
+        "shape": [
+          129696
+        ],
+        "bytes": 3865338,
+        "sha256": "bcd65a92657cc86057e0e2218b301a30ee2dc42945bef5acd46f7225019b9575",
+        "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+      },
+      "counts_of_existing_reported_block_maxima": {
+        "1": 51,
+        "1e6": 47,
+        "1e12": 31,
+        "1e24": 2,
+        "1e30": 1
+      },
+      "raw0_segments": [
+        {
+          "segment": 0,
+          "blocks": 8,
+          "reported_gt1": 0,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 68,
+            "original_stage": 66,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 0,
+            "component": "Pi",
+            "mode": 2,
+            "reported_maximum": "2.056984700534458296317840208717647956885678748916538147338779946E-12"
+          }
+        },
+        {
+          "segment": 1,
+          "blocks": 9,
+          "reported_gt1": 5,
+          "reported_gt1e12": 2,
+          "largest_existing_record": {
+            "new_stage": 57,
+            "original_stage": 56,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 1,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "2.669559516065483107567248300352751197506727925068015057740966763E+20"
+          }
+        },
+        {
+          "segment": 2,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 8,
+          "largest_existing_record": {
+            "new_stage": 53,
+            "original_stage": 52,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 2,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "1.763000463917137740121304864840208202881532796527655434451144243E+17"
+          }
+        },
+        {
+          "segment": 3,
+          "blocks": 9,
+          "reported_gt1": 9,
+          "reported_gt1e12": 9,
+          "largest_existing_record": {
+            "new_stage": 45,
+            "original_stage": 44,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 3,
+            "component": "Pi",
+            "mode": 111,
+            "reported_maximum": "1.902947232115898477389421030937289104309563357546969405716643711E+31"
+          }
+        },
+        {
+          "segment": 4,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 8,
+          "largest_existing_record": {
+            "new_stage": 39,
+            "original_stage": 39,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 4,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "1.075438919586026906801433276714449180928413206053034184361309924E+23"
+          }
+        },
+        {
+          "segment": 5,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 4,
+          "largest_existing_record": {
+            "new_stage": 29,
+            "original_stage": 29,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 5,
+            "component": "Pi",
+            "mode": 111,
+            "reported_maximum": "7.292031988615464950402928422439053641962880399485573122578278327E+22"
+          }
+        },
+        {
+          "segment": 6,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 23,
+            "original_stage": 23,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 6,
+            "component": "Pi",
+            "mode": 110,
+            "reported_maximum": "1.535307494731044904915999842825066103671823527684912688935632650E+7"
+          }
+        },
+        {
+          "segment": 7,
+          "blocks": 8,
+          "reported_gt1": 4,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 13,
+            "original_stage": 13,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 7,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "3.480912431033192129639636710780386108112071520642522067572528543E+9"
+          }
+        },
+        {
+          "segment": 8,
+          "blocks": 8,
+          "reported_gt1": 1,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 0,
+            "original_stage": 0,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 8,
+            "component": "Q",
+            "mode": 1,
+            "reported_maximum": "7.032821239755601397882870565543990480563425529842599211780366173E+1"
+          }
+        }
+      ],
+      "outside_raw0_count": 504,
+      "outside_raw0_largest_existing_record": {
+        "new_stage": 91,
+        "original_stage": 89,
+        "window": [
+          0,
+          12
+        ],
+        "rawCell": 1,
+        "rawSegment": 6,
+        "component": "Pi",
+        "mode": 5,
+        "reported_maximum": "1.935225576293412828621595813630604351753264402920089170207043682E-11"
+      },
+      "top12_existing_records": [
+        {
+          "new_stage": 45,
+          "original_stage": 44,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "1.902947232115898477389421030937289104309563357546969405716643711E+31"
+        },
+        {
+          "new_stage": 44,
+          "original_stage": 43,
+          "window": [
+            0,
+            6
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "7.719070396501155507499206268377575061828920753241369281928930264E+28"
+        },
+        {
+          "new_stage": 43,
+          "original_stage": 43,
+          "window": [
+            6,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "1.619058335363691527244159789565085335597446777946889339928142387E+23"
+        },
+        {
+          "new_stage": 39,
+          "original_stage": 39,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "1.075438919586026906801433276714449180928413206053034184361309924E+23"
+        },
+        {
+          "new_stage": 37,
+          "original_stage": 37,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "8.326491237575891931619166251975653968615133705010959658763421943E+22"
+        },
+        {
+          "new_stage": 35,
+          "original_stage": 35,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "7.987101395571906262844825606313395552067818881650093001240128222E+22"
+        },
+        {
+          "new_stage": 29,
+          "original_stage": 29,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 5,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "7.292031988615464950402928422439053641962880399485573122578278327E+22"
+        },
+        {
+          "new_stage": 38,
+          "original_stage": 38,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "5.449551517031218585595533535556567242003297085521025739585060604E+22"
+        },
+        {
+          "new_stage": 34,
+          "original_stage": 34,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "4.128361664972606679926453171439971574215929469739263190048489726E+22"
+        },
+        {
+          "new_stage": 32,
+          "original_stage": 32,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "3.447548380833951127278092976871005042715831074318097009805678511E+22"
+        },
+        {
+          "new_stage": 36,
+          "original_stage": 36,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "3.133482450481767590007867910101853512818057376916409089489914750E+22"
+        },
+        {
+          "new_stage": 33,
+          "original_stage": 33,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "2.660991090309966824123999485362001720564087343101674121071495884E+22"
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "ledger_file": {
+        "name": "iteration-01-exact-residuals",
+        "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+        "dtype": "exact-dyadic-jsonl-gzip",
+        "shape": [
+          129696
+        ],
+        "bytes": 3869691,
+        "sha256": "4d3b674c237c163cc16bf434e6f7442bfbcb8ad4c701ea419eafb1d91bb80a59",
+        "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+      },
+      "counts_of_existing_reported_block_maxima": {
+        "1": 51,
+        "1e6": 48,
+        "1e12": 31,
+        "1e24": 5,
+        "1e30": 2
+      },
+      "raw0_segments": [
+        {
+          "segment": 0,
+          "blocks": 8,
+          "reported_gt1": 0,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 70,
+            "original_stage": 68,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 0,
+            "component": "Pi",
+            "mode": 5,
+            "reported_maximum": "3.507664578405382835991822262821034305846430722401510278521844145E-11"
+          }
+        },
+        {
+          "segment": 1,
+          "blocks": 9,
+          "reported_gt1": 5,
+          "reported_gt1e12": 2,
+          "largest_existing_record": {
+            "new_stage": 57,
+            "original_stage": 56,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 1,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "7.006730914519303234900487388712401027231318023563078800751167037E+21"
+          }
+        },
+        {
+          "segment": 2,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 8,
+          "largest_existing_record": {
+            "new_stage": 53,
+            "original_stage": 52,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 2,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "1.026846051435260990117540089322347538418658257105004943627377665E+18"
+          }
+        },
+        {
+          "segment": 3,
+          "blocks": 9,
+          "reported_gt1": 9,
+          "reported_gt1e12": 9,
+          "largest_existing_record": {
+            "new_stage": 45,
+            "original_stage": 44,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 3,
+            "component": "Pi",
+            "mode": 111,
+            "reported_maximum": "2.570129141997929946722054150142937318922380930602710316297626312E+32"
+          }
+        },
+        {
+          "segment": 4,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 8,
+          "largest_existing_record": {
+            "new_stage": 37,
+            "original_stage": 37,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 4,
+            "component": "Pi",
+            "mode": 111,
+            "reported_maximum": "1.307484624214129354781932655628494743022014577354442611884675290E+24"
+          }
+        },
+        {
+          "segment": 5,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 4,
+          "largest_existing_record": {
+            "new_stage": 29,
+            "original_stage": 29,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 5,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "3.210504952702452133855246927145687532412645081338265628846078763E+24"
+          }
+        },
+        {
+          "segment": 6,
+          "blocks": 8,
+          "reported_gt1": 8,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 23,
+            "original_stage": 23,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 6,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "1.999848347185726774257393367233294388739589210601934975158735423E+8"
+          }
+        },
+        {
+          "segment": 7,
+          "blocks": 8,
+          "reported_gt1": 4,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 14,
+            "original_stage": 14,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 7,
+            "component": "Pi",
+            "mode": 112,
+            "reported_maximum": "4.153156122952617859944140546849151855570050428618686867625148092E+10"
+          }
+        },
+        {
+          "segment": 8,
+          "blocks": 8,
+          "reported_gt1": 1,
+          "reported_gt1e12": 0,
+          "largest_existing_record": {
+            "new_stage": 0,
+            "original_stage": 0,
+            "window": [
+              0,
+              12
+            ],
+            "rawCell": 0,
+            "rawSegment": 8,
+            "component": "Q",
+            "mode": 1,
+            "reported_maximum": "1.304615050728711964380269685857202879647787809917030941896822078E+2"
+          }
+        }
+      ],
+      "outside_raw0_count": 504,
+      "outside_raw0_largest_existing_record": {
+        "new_stage": 87,
+        "original_stage": 85,
+        "window": [
+          0,
+          12
+        ],
+        "rawCell": 1,
+        "rawSegment": 7,
+        "component": "Pi",
+        "mode": 2,
+        "reported_maximum": "2.810262329897463142411834950856789911666419615058194834680582737E-10"
+      },
+      "top12_existing_records": [
+        {
+          "new_stage": 45,
+          "original_stage": 44,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "2.570129141997929946722054150142937318922380930602710316297626312E+32"
+        },
+        {
+          "new_stage": 44,
+          "original_stage": 43,
+          "window": [
+            0,
+            6
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "1.108899636078673815426592364964958256583505916669382800354873212E+30"
+        },
+        {
+          "new_stage": 29,
+          "original_stage": 29,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 5,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "3.210504952702452133855246927145687532412645081338265628846078763E+24"
+        },
+        {
+          "new_stage": 37,
+          "original_stage": 37,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "1.307484624214129354781932655628494743022014577354442611884675290E+24"
+        },
+        {
+          "new_stage": 43,
+          "original_stage": 43,
+          "window": [
+            6,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 3,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "1.234633975984135534876415789214691144932590380815692693527568894E+24"
+        },
+        {
+          "new_stage": 38,
+          "original_stage": 38,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "6.762474178267409831739393508697271620006272376267335704335227565E+23"
+        },
+        {
+          "new_stage": 33,
+          "original_stage": 33,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 110,
+          "reported_maximum": "6.578002958849100278365672178538558569642598644563334544124561004E+23"
+        },
+        {
+          "new_stage": 35,
+          "original_stage": 35,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "4.669226696689093827142271474384151927343432299402056832212184656E+23"
+        },
+        {
+          "new_stage": 39,
+          "original_stage": 39,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "4.499462433500882029062823994483720006056753850717211066676142425E+23"
+        },
+        {
+          "new_stage": 32,
+          "original_stage": 32,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "2.942893289859299952947861110134344703792844213773029793574837937E+23"
+        },
+        {
+          "new_stage": 34,
+          "original_stage": 34,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 111,
+          "reported_maximum": "2.650919819922939011886941559970647640687666364596481119629008865E+23"
+        },
+        {
+          "new_stage": 36,
+          "original_stage": 36,
+          "window": [
+            0,
+            12
+          ],
+          "rawCell": 0,
+          "rawSegment": 4,
+          "component": "Pi",
+          "mode": 112,
+          "reported_maximum": "1.850018978302155256746255121938746907311652170220608103617351883E+23"
+        }
+      ]
+    }
+  ]
+}

@@ -264,3 +264,8 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 ### 2026-11-14 request40同父37的完整QR与C方向比较
 
 新独立入口4b768828…/FD721f6337…/接口62e30778…全文读核，沿实际37双SHA与39同父场；唯一原CompleteLinearization/A/weights，QR596356…替全H内解，C固定S及外offset保留，H全部236036列，原choose完整AST保留。helper300s/active16/H1200/预留90s，总1200s，column=none，不存大factor；每逆读原A/AT与额外source算子，原调用/耗时/残差完整存。失败started=False保initial/C/既有基，不旧PCG重试；publisher两新QR树artifact-only，原17trial/域/FD保持。39两lane均success且全包已取，实际prefix审计中；native新578 exact初1.9029e31且修正更坏，最坏旧44，完整已报分布指出整个raw0多个segment。后继保原实际integrationGrid捕获raw0每步J，余504长J复用；尚无新数值宣称。
+
+
+### 2026-11-14 actual39 native完整失败及逐段分布保全
+
+新578矩阵f7ec0dc4…自身全部129696行exact初1.902947232115898e31→修正2.57012914199793e32更坏，new45=旧44/Pi111最坏；保iteration00完整579δ39b28da8…与577restriction020cc235…，不派该坏方向trial。原long-J单行exact−1.15152238867e37仅另存诊断，不用它作为新系统门。actual39 native note6826B/c33efb14…及审计02782b74…、已报block maxima汇总5e5c0f01…已读并发布；49项33720601B/47binary+2ledger/完整新578J/2×580块129696行/4checkpoint/16RHS例/operand全核，LU未导出仅producer SHA。首轮51块max>1全在raw0，其余504块已报max1.9352255763e−11；已拆43inner仍7.7190703965e28。后继据此处理raw0全部真实RK步，包含原cusp grid，不机械再加旧44，不本地重算范数/dot。

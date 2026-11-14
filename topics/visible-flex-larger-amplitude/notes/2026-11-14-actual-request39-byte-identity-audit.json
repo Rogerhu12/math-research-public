@@ -1,0 +1,77 @@
+{
+  "schema": "actual39-native-split-byte-identity-audit-v1",
+  "run": "43620111146",
+  "result_sha256": "5b0feb50bec35070101d8f43d4759573b00d8b91e5e0b4c95ccb84edd5c4c4ac",
+  "manifest_sha256": "45f80e87d1c9ff66c338008a1205dc8850af8adfe1e27ec5afc99f05ef5c5639",
+  "checks": {
+    "complete_actual39_array_inventory": {
+      "entries": 49,
+      "bytes": 33720601,
+      "binary_arrays": 47,
+      "exact_ledgers": 2,
+      "all_hash_shape_and_stored_finite_classification_match": true
+    },
+    "complete_old_and_new_virtual_J_identity": {
+      "original_blocks": 576,
+      "reused_blocks": 574,
+      "new_short_blocks": 4,
+      "new_blocks": 578,
+      "old_J_sha256": "394ca2cc7c28ead3ffb963502ad24df86126c32f6e4eef10079495a753320a19",
+      "new_virtual_J_sha256": "f9630f6e30c3896870a79ecfe94d13e083eac6d8a865597dda05b8e68119d4ca",
+      "every_block_and_complete_stream_match": true
+    },
+    "base_residual_boundary_and_layout_identity": {
+      "all_old577_nodes_preserved": true,
+      "two_actual_inner_midpoints_preserved": true,
+      "all579_sigma_words_match_parent_rule": true,
+      "all_576_outer_or_unsplit_residuals_match_original_bits": true,
+      "two_inner_residuals_are_stored_positive_zero": true,
+      "cut_far_H_graph_target_unchanged": true,
+      "new_matrix_identity_matches": true
+    },
+    "all_full_and_restricted_checkpoints": {
+      "files": [
+        "split-direction-checkpoint.json.gz",
+        "restricted-original-node-direction.json.gz",
+        "split-direction-iteration-00.json.gz",
+        "split-direction-iteration-01.json.gz"
+      ],
+      "complete579_bytes_match": true,
+      "complete577_bytes_match_full_oldToNew_restriction": true,
+      "selected_full_direction_equals_iteration00_bytes": true,
+      "full_direction_sha256": "39b28da8e449cbcd90216ebee7180a369a247b95c2ba7b1a13450d38ee2a9aaa",
+      "restricted_direction_sha256": "020cc235ad957ca8dd3f83ea1669069fa03741cf52de00134ec116c549a95848"
+    },
+    "all_exact_ledgers_and_witnesses": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "blocks": 580,
+          "rows": 129696,
+          "stages": 578,
+          "complete_J_record_hashes_match": true,
+          "worst_operand_bits_match_actual_raw_arrays": true,
+          "exact_values_not_recomputed": true
+        },
+        {
+          "iteration": 1,
+          "blocks": 580,
+          "rows": 129696,
+          "stages": 578,
+          "complete_J_record_hashes_match": true,
+          "worst_operand_bits_match_actual_raw_arrays": true,
+          "exact_values_not_recomputed": true
+        }
+      ],
+      "RHS_rounding_record_examples_bound": 16,
+      "rounding_not_recomputed": true
+    },
+    "old_long_matrix_diagnostic_scope": {
+      "same_original28_witness_J_r_sigma_and_restricted_direction_bits": true,
+      "distinct_from_new_matrix_result": true,
+      "not_an_acceptance_gate": true
+    }
+  },
+  "no_dot_norm_LU_RHS_or_exact_residual_recomputed": true,
+  "unexported_LU_and_band_hashes_remain_producer_metadata": true
+}

@@ -80,4 +80,4 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 
 ### 最新native39读回
 
-新578系统本身全行exact初范数1.902947232e31，修正后2.570129142e32更坏，最坏new45对应旧44；full result已读，完整数组审计中。既有逐块记录的大缺陷集中rawCell0多个segment，余504块远小。下一保原真实RK/grid（包括cusp）对首raw cell每步重置局部tangent，流式捕获全部短J/state；不机械只加44，不改g/ODE步/原门。动态depth consumer保旧边界/节点σ、实际mapping及577restriction，所有科学计算仅公开Actions。
+新578系统本身全行exact初范数1.902947232e31，修正后2.570129142e32更坏，最坏new45对应旧44；[actual39完整结论](notes/2026-11-14-actual-request39-native-split-direction-failed.md) 已全文读并全字节核：49 manifest项、全部新旧J流/完整映射/两ledger/4checkpoint/原operand均过。既有逐块记录的大缺陷集中rawCell0多个segment，余504块远小。下一保原真实RK/grid（包括cusp）对首raw cell每步重置局部tangent，流式捕获全部短J/state；不机械只加44，不改g/ODE步/原门。动态depth consumer保旧边界/节点σ、实际mapping及577restriction，所有科学计算仅公开Actions。
