@@ -1,0 +1,37 @@
+{
+  "scope": "Pure source/metadata checks; no source import, RHS/J/ODE/readout/geometry computation",
+  "files": [
+    {
+      "file": "geometry_20261114_full_dn_closed_followup.py",
+      "bytes": 28904,
+      "sha256": "54079bcdd1d8ddc2b9321d940b9b43f3448f3a5cab11444df649bf16d2365634"
+    },
+    {
+      "file": "visible-larger-public-closed-followup.yml",
+      "bytes": 11334,
+      "sha256": "998ba5ad414c453b16f448ec859b902fabeff36ca2f3987f643483ead5b1ef8f"
+    },
+    {
+      "file": "2026-11-14-accepted-full-DN-shared-closed-followup-interface.md",
+      "bytes": 17207,
+      "sha256": "12d84a2aa99effe4bc1cb97571fb528b53b846c31fb08799b30aea95e0c61b82"
+    }
+  ],
+  "driver_AST": true,
+  "workflow_YAML": true,
+  "workflow_inline_python_AST": [
+    "PYPINS",
+    "PYSPACE",
+    "PYSOURCE",
+    "PYRUN"
+  ],
+  "frozen_child_entrypoints": 16,
+  "scientific_execution_performed": false,
+  "future_accepted_input_SHA_fabricated": false,
+  "final_metadata_correction": {
+    "before": "planar_germ_shared_B_loader_adapter_available",
+    "after": "planar_germ_shared_B_loader_adapter_invoked",
+    "value": false,
+    "scientific_code_or_CLI_changed": false
+  }
+}

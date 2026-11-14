@@ -12,6 +12,7 @@ import gzip
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -28,7 +29,7 @@ def sha(path):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
-    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband', 'twelvequeryqr', 'rawcell0steps', 'rawcell0band', 'rawcell0gauge', 'receipts', 'condensedqp', 'stage43probe', 'stagecovariance', 'directld', 'directldtrial', 'dampedchain', 'original576damped', 'current576native', 'livecurrent576fulldn', 'modelresponse'), required=True)
+    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband', 'twelvequeryqr', 'rawcell0steps', 'rawcell0band', 'rawcell0gauge', 'receipts', 'condensedqp', 'stage43probe', 'stagecovariance', 'directld', 'directldtrial', 'dampedchain', 'original576damped', 'current576native', 'livecurrent576fulldn', 'modelresponse', 'fullclosedfollowup'), required=True)
     a = p.parse_args()
     if os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public':
         raise RuntimeError('Results belong to the explicitly designated public repository')
@@ -143,6 +144,27 @@ def main():
         if rule_diff:
             print(rule_diff, flush=True)
             raise RuntimeError('README rules changed during synchronization; the root worker must read this diff and publish under the new rules. Computed artifacts are preserved.')
+        # Rule 11 also applies to this publisher's real pull.  Preserve the
+        # scientific HANDOFF body and replace only its unique last-read line.
+        # This records the actual fetched commit, never a predicted revision.
+        read_commit = subprocess.check_output(
+            ['git', '-C', str(repo), 'rev-parse', 'origin/main'], env=env, text=True).strip()
+        read_blobs = [subprocess.check_output(
+            ['git', '-C', str(repo), 'rev-parse', 'origin/main:'+name], env=env, text=True).strip()
+            for name in ('README.md', 'topics/visible-flex-larger-amplitude/README.md')]
+        handoff = repo/'topics/visible-flex-larger-amplitude/HANDOFF.md'
+        body = handoff.read_text()
+        stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
+        record = ('规则同步记录：'+stamp+' Actions publisher真实 git pull --rebase origin main 后核双README；根'
+                  +read_blobs[0]+'、题'+read_blobs[1]+'未变，已读提交 '+read_commit+'。')
+        updated, count = re.subn(r'^规则同步记录：.*$', lambda _: record, body, flags=re.M)
+        if count != 1 or len(updated.encode()) >= 10000:
+            raise RuntimeError('Preserve a unique rule-read line and the original HANDOFF size bound')
+        handoff.write_text(updated)
+        git('add', '--sparse', 'topics/visible-flex-larger-amplitude/HANDOFF.md')
+        changed = subprocess.run(['git', '-C', str(repo), 'diff', '--cached', '--quiet'], env=env)
+        if changed.returncode:
+            git('commit', '-m', 'visible-larger: record actual publisher pull and unchanged rules')
         result = subprocess.run(['git', '-C', str(repo), 'push', 'origin', 'HEAD:main'],
                                 env=env, check=False, text=True, capture_output=True)
         print(result.stdout + result.stderr, flush=True)
