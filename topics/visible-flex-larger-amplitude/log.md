@@ -562,3 +562,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 21:17 UTC：actual58最大col行的原保存动作
 
 [原行见证](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)及1730B/8daefd25…回执已全文读，根直接核两原NPZ/header/word：row155819 b=-1.4154122374775011、最终complete-H Az=.00026246452261009833；非LSMR中间方向，原W199.07511842631416非零。原模型对此行本身给很小修正，不能归漏行/零权重或唯一λ原因。代数式b+alphaAz及对应行merit贡献未作本地数值运算，不新增门或重复Actions。60 warm/FD/publication均实际success，完整artifact正下载，具体接受步长/最近拒绝点待完整回读。
+
+
+## 2026-11-14 21:18 UTC：actual59完整原试探与selected逐字审计
+
+[正式原试探结论](notes/2026-11-14-actual59-original576-first-native-step-and-state-audit.md)8336B/63e9d82a…与18626B/ffa7e188…审计已全文读。34文件/26清单/全state/r/cut/far、原十/evaluate源码逆还原均PASS；selected cp/raw与实际alpha1输入全同，118878变化字覆盖577节点，31零含8负零。stage11/Pi76唯一argmax的原residual/sigma words已核，未本地再算norm/argmax/候选。noJ的minA/minD=+Infinity仅原占位，原计划STOP不冒native完成或finalJ/fresh audit。61仍直接接真selected和每轮新J，完整QR审计单独登记。
