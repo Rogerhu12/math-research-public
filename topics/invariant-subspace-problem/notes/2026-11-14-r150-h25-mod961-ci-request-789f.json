@@ -1,0 +1,38 @@
+{
+  "format": "r150-h25-mod961-original-ci-request-v1",
+  "actual_targets": 9,
+  "original_raw_rows": 6188,
+  "integer_modulus": 961,
+  "target_multiplier": "H0=(s-2)*h0",
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 512,
+  "per_compilation_seconds": 30,
+  "input_run_id": 43597823809,
+  "input_artifact_id": 14114364261,
+  "old_nf_graph_image_or_bocksteins_recomputed": false,
+  "source_checkpoint_interval_rows": 100,
+  "characteristic_zero_identity_asserted": false,
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "new_source_sha256": {
+    "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab",
+    "2026-11-14-r150-packed-image-source-checkpoint-derivation-789f.json": "86e0d94371d8ed16ec6909780b29c58508926a2958f56776b681bfb3b652b256",
+    "2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp": "1e7c872ecb311aa09b0f35d157acbd0106d97a0288a03bbb40cf729ac3d5c71a",
+    "2026-11-14-r150-h25-mod961-runner-789f.py": "23590199283b86775ed0f33f3a17b1d7aa15730e7866c14b58baacd4c6600a1e",
+    "2026-11-14-r150-h25-selected-inputs-789f.py": "e0c810925b3dc30f9d5738859740766e09784fdbf6f54c02a9c7cc352f715514",
+    "2026-11-14-r150-h25-mod961-execution-interface-789f.md": "f9fe6660fb078887c4b3235197c7d1bd28ea1dbe7b5b830ff1e3f74de0ac9e0a",
+    "r150-h25-selected-inputs-789f/cost85-selected-normal-reduction.bin.gz": "49c9c9ee115584b4fa9f4d5aba12bd9bebadf1555a7cc6bdfb7da39fe4e68bd4",
+    "r150-h25-selected-inputs-789f/cost85-selected-original-kernels.bin.gz": "723ee19280f1543896007b81ec9c1a2acd62143e1311c5ac1b68f1215885c226",
+    "r150-h25-selected-inputs-789f/selected-inputs-receipt.json": "2ff598875af4cb98fca6c26dfafc5463f58315c45a71e695e4e9b42611414228",
+    "r150-h25-mod961-preparation-789f/certificate-manifest.json": "398be7577a2b91c3c77ebd91ab335be177fddb2a278d1504a0db0791171d4110",
+    "r150-h25-mod961-preparation-789f/compile-original.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "r150-h25-mod961-preparation-789f/compile-source.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "r150-h25-mod961-preparation-789f/h25-mod961-pipeline-receipt.json": "792c546085aa4a311dc22a1e20ac9a80b46692034d5b887150546b20b53b9e28",
+    "r150-h25-mod961-preparation-789f/input-complete-image-certificate.json": "9c9601385719ada0ea91707544fe8fe0a10ef1605a961d76198e0707536c5d91",
+    "r150-h25-mod961-preparation-789f/input-selected-original-sources.json": "2ff598875af4cb98fca6c26dfafc5463f58315c45a71e695e4e9b42611414228",
+    "r150-h25-mod961-preparation-789f/recovery-manifest.json": "9fb3e6391dc9b88745c358fb2f0a1249e8e6b782b551c2d64164b11a200554e3"
+  },
+  "source_manifest_sha256": "5b1b6162552e719bb20d2ee430d0bc7d294bac7aa02f26d53fabc568325a41c0"
+}

@@ -1,0 +1,117 @@
+name: ISP R150 H0 full original seventeen mod961
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-h25-mod961-ci-request-789f.json
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: isp-r150-h25-original-mod961-789f
+  cancel-in-progress: false
+
+jobs:
+  original-seventeen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact source and bounded request
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path('topics/invariant-subspace-problem/notes')
+          rp=root/'2026-11-14-r150-h25-mod961-ci-request-789f.json'
+          request=json.loads(rp.read_text())
+          expected={'actual_targets':9,'original_raw_rows':6188,'integer_modulus':961,'target_multiplier':'H0=(s-2)*h0','shared_mathematical_seconds':300,'per_child_memory_mib':512,'per_compilation_seconds':30,'input_run_id':43597823809,'input_artifact_id':14114364261}
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded original-source request changed')
+          actual_rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in request['rules_sha256']}
+          if actual_rules!=request['rules_sha256']:raise SystemExit('README changed: root must read and apply the new rules before this request runs')
+          sources={name:hashlib.sha256((root/name).read_bytes()).hexdigest() for name in request['new_source_sha256']}
+          if sources!=request['new_source_sha256']:raise SystemExit('Frozen new source changed')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-h25-original-mod961-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          data={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':actual_rules,'request':request,'request_sha256':hashlib.sha256(rp.read_bytes()).hexdigest(),'workflow_sha256':hashlib.sha256(Path('.github/workflows/invariant-subspace-r150-h25-original-mod961.yml').read_bytes()).hexdigest()}
+          (out/'results'/'actions-source.json').write_text(json.dumps(data,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_H25_OUT='+str(out)+'\n')
+          print(json.dumps(expected))
+          PY
+      - name: Restore the existing complete graph and source DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-h25-original-mod961-input
+      - name: Restore the exact original model and record compiler
+        run: |
+          mkdir -p "$RUNNER_TEMP/isp-r150-h25-original-mod961-input/repo-original-model"
+          cp topics/invariant-subspace-problem/notes/r150-shifted-graph-actions-789f/43597823809-1/native-normal-form-input.txt "$RUNNER_TEMP/isp-r150-h25-original-mod961-input/repo-original-model/native-normal-form-input.txt"
+          g++ --version > "$ISP_H25_OUT/results/compiler-version.txt"
+      - name: Execute one shared 300-second source and original identity task
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-h25-mod961-runner-789f.py \
+            --t96-recovery-root "$RUNNER_TEMP/isp-r150-h25-original-mod961-input" \
+            --out "$ISP_H25_OUT" \
+            --seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_H25_OUT/results/actions-console.log"
+      - name: Record the actual outcome
+        if: always() && env.ISP_H25_OUT != ''
+        env:
+          ISP_EXACT_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_H25_OUT'])/'results'
+          p=out/'h25-mod961-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'step_outcome':os.environ.get('ISP_EXACT_STEP_OUTCOME'),'pipeline_status':r.get('status','not-started'),'complete':os.environ.get('ISP_EXACT_STEP_OUTCOME')=='success' and r.get('status')=='completed' and r.get('originalSeventeenConclusion',{}).get('fullOriginalSeventeenEquationIdentityMod961') is True,'characteristic_zero_identity_asserted':False,'original_2195_source':r.get('original2195NormalSourceIdentity'),'original_seventeen_conclusion':r.get('originalSeventeenConclusion'),'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),'root_will_publish_actual_results':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_H25_OUT != ''
+        with:
+          name: isp-r150-h25-original-mod961-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_H25_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_H25_OUT != ''
+        with:
+          name: isp-r150-h25-original-mod961-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_H25_OUT }}/recovery
+      - name: Require the full original seventeen equation identity
+        if: always() && env.ISP_H25_OUT != ''
+        run: |
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads((Path(os.environ['ISP_H25_OUT'])/'results'/'actions-outcome.json').read_text())
+          if r.get('complete') is not True:raise SystemExit('H0 original seventeen mod961 task did not complete; actual recovery and source checkpoint are retained')
+          PY

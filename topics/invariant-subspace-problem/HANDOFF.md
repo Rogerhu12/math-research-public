@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `5e29e639fafb283b9c554d724d4beecc3abebafe`（2026-11-14 15:35:34 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `0731adf643e9d5712e63e75a6effe74a769c8179`（2026-11-14 15:37:47 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-joint-three-slice-bound-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -43,6 +43,6 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 
 ## 当前分工与马上接续
 
-normal固定h0整数任意次数已排；H0的[实际完整GQ身份](notes/2026-11-14-r150-h25-complete-image-and-vq-budget-789f.md)已核1034分量/九余全零，Q/NF可恢复约0.92MB已存。共享60秒在VQ700/1021行终止，未保存partial数组，不能从701续；后继从已完成Q开始，不重做NF/GQ。正准备带实际来源数组checkpoint的单次本库300秒/512MiB VQ＋原6188mod961全乘回。literature主spin边界任意多权已付，继续有硬源的真三角spin区与完整Hessian/反射共同块。boundary高方差全birth κ2已付，转实际s≈k短height的同源占据相位/相对Gram；未声称高birth图费用。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
+normal固定h0整数任意次数已排；H0的[实际完整GQ身份](notes/2026-11-14-r150-h25-complete-image-and-vq-budget-789f.md)已核1034分量/九余全零，Q/NF可恢复约0.92MB已存。共享60秒在VQ700/1021行终止，未保存partial数组，不能从701续；后继从已完成Q开始，不重做NF/GQ。[新原17入口](notes/2026-11-14-r150-h25-mod961-execution-interface-789f.md)已冻且两native编译成功，固定request推后启动共享300秒/512MiB；每100行与终止边界存实际来源数组，连续接原6188mod961全乘回。literature主spin边界任意多权已付，继续有硬源的真三角spin区与完整Hessian/反射共同块。boundary高方差全birth κ2已付，转实际s≈k短height的同源占据相位/相对Gram；未声称高birth图费用。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
 
 文献原条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。

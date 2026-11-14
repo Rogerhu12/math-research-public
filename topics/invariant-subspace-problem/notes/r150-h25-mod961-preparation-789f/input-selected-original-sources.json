@@ -1,0 +1,48 @@
+{
+  "format": "r150-h25-lossless-selected-inputs-v1",
+  "status": "completed-storage-selection-only",
+  "sourceSHA256": "e0c810925b3dc30f9d5738859740766e09784fdbf6f54c02a9c7cc352f715514",
+  "originalKernelSHA256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88",
+  "originalNormalTraceSHA256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae",
+  "originalColumns": 200,
+  "selectedColumns": 2,
+  "selectedLabels": [
+    [
+      2192,
+      2275,
+      85,
+      1241,
+      3485
+    ],
+    [
+      2193,
+      2276,
+      85,
+      1242,
+      3497
+    ]
+  ],
+  "allOriginalRawRowsRetained": 6188,
+  "selectedTraceStepCounts": [
+    157334,
+    157365
+  ],
+  "mathematicalNFOrBocksteinRecomputed": false,
+  "files": [
+    {
+      "file": "cost85-selected-original-kernels.bin.gz",
+      "bytes": 360649,
+      "sha256": "723ee19280f1543896007b81ec9c1a2acd62143e1311c5ac1b68f1215885c226",
+      "uncompressedBytes": 626592,
+      "uncompressedSHA256": "5cf08a41a81647dab8522c84e64de2ea442103063f6d870a820d5dd18bb226c7"
+    },
+    {
+      "file": "cost85-selected-normal-reduction.bin.gz",
+      "bytes": 843214,
+      "sha256": "49c9c9ee115584b4fa9f4d5aba12bd9bebadf1555a7cc6bdfb7da39fe4e68bd4",
+      "uncompressedBytes": 1258828,
+      "uncompressedSHA256": "a489146317d14a3225c864e4b945c5c405b72ebbd03b1e2cbff8ff8dd71b8932"
+    }
+  ],
+  "elapsedSeconds": 1.5425000409959466
+}

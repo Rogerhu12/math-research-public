@@ -1,0 +1,15 @@
+{
+  "format": "r150-packed-source-checkpoint-derivation-v1",
+  "originalSource": "2026-11-14-r150-packed-image-source-convolution-789f.cpp",
+  "originalSourceSHA256": "673f5a1431de64e8b82c3e192d7ef071c10ccf455885c969eb7c6d47c491dcba",
+  "newSource": "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp",
+  "newSourceSHA256": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab",
+  "mathematicsExecuted": false,
+  "changes": [
+    "Same exact VQ, kernel normalization and independent original R multiplication.",
+    "Add input-bound atomic packed-source checkpoints every100 image rows and at SIGTERM/SIGINT boundaries.",
+    "Restore exact original source dictionary and all packed accumulators, skipping only already completed image rows.",
+    "Source checkpoint is not a completed identity and cannot be read as a kernel-normalized certificate.",
+    "Check the genuine structural upper bound observedDegree<=sourceWeight; do not require every source column to attain that upper bound."
+  ]
+}

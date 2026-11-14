@@ -1,0 +1,191 @@
+{
+  "format": "r150-h25-original-mod961-pipeline-v1",
+  "status": "prepared-no-mathematics-executed",
+  "prime": 31,
+  "targetModulus": 961,
+  "targetMultiplier": "H0=(s-2)*h0",
+  "oldNFImageGraphOrBocksteinRecomputed": false,
+  "characteristicZeroIdentityAsserted": false,
+  "sharedMathematicalSecondsLimit": 300,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "deadlineRule": "Input validation/decompression and separately bounded compilation precede the mathematical timer. Packed VQ plus canonical source recovery plus full original17 transport and multiplication share one deadline. Each child receives the actual remaining time with10-second forced-kill grace. Actual partial VQ arrays are saved every100 rows and at a caught termination boundary. Final lossless compression/manifests are bookkeeping outside the mathematical timer.",
+  "originalT96Artifact": {
+    "run": 43597823809,
+    "artifact": 14114364261
+  },
+  "inputs": {
+    "graph": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "model": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "originalNF": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-normal-forms.bin",
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "normalTrace": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-reduction.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "forward": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "rhs": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/rhs.bin",
+      "bytes": 542640,
+      "sha256": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4",
+      "compressedOrigin": {
+        "file": "/dev/shm/isp-789f-agent-incoming/normal/r150-h25-image-and-vq-prefix-789f/combined-rhs-normal-forms.bin.gz",
+        "bytes": 367844,
+        "sha256": "cbd65bde482a7f99fa0b124dd8282f6fbfbace93c6385d9ead5329cf8a2be77a"
+      }
+    },
+    "quotients": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/quotients.bin",
+      "bytes": 806105,
+      "sha256": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c",
+      "compressedOrigin": {
+        "file": "/dev/shm/isp-789f-agent-incoming/normal/r150-h25-image-and-vq-prefix-789f/image-image-quotients.bin.gz",
+        "bytes": 531708,
+        "sha256": "82f3e30df674d8321133644b8b1facf9ec6b8f18f3e11e4d4082863c8afd4c4c"
+      }
+    },
+    "remainders": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/remainders.bin",
+      "bytes": 110,
+      "sha256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedOrigin": {
+        "file": "/dev/shm/isp-789f-agent-incoming/normal/r150-h25-image-and-vq-prefix-789f/image-image-remainders.bin.gz",
+        "bytes": 63,
+        "sha256": "07229b1eb004a60f7f1eb6da0f56f1a8c7a376bc7ef0f97cd83ced36174bd0a4"
+      }
+    },
+    "kernels": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/kernels.bin",
+      "bytes": 626592,
+      "sha256": "5cf08a41a81647dab8522c84e64de2ea442103063f6d870a820d5dd18bb226c7",
+      "compressedOrigin": {
+        "file": "/dev/shm/isp-789f-agent-incoming/normal/r150-h25-selected-inputs-789f/cost85-selected-original-kernels.bin.gz",
+        "bytes": 360649,
+        "sha256": "723ee19280f1543896007b81ec9c1a2acd62143e1311c5ac1b68f1215885c226"
+      }
+    },
+    "betaTrace": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/betaTrace.bin",
+      "bytes": 1258828,
+      "sha256": "a489146317d14a3225c864e4b945c5c405b72ebbd03b1e2cbff8ff8dd71b8932",
+      "compressedOrigin": {
+        "file": "/dev/shm/isp-789f-agent-incoming/normal/r150-h25-selected-inputs-789f/cost85-selected-normal-reduction.bin.gz",
+        "bytes": 843214,
+        "sha256": "49c9c9ee115584b4fa9f4d5aba12bd9bebadf1555a7cc6bdfb7da39fe4e68bd4"
+      }
+    },
+    "initial": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/initial.bin",
+      "bytes": 2121242,
+      "sha256": "265b0b420afd925d72eb1ab2e2e329fe6232644d740a78aede67866da3545c96",
+      "compressedOrigin": {
+        "file": "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/initial-standard-source.bin.gz",
+        "bytes": 1366936,
+        "sha256": "1ef3cda9c6f1e6332fa0d77db4e517066f24b9717c68b72290dcb4373cff6bc6"
+      }
+    },
+    "firstTrace": {
+      "file": "/tmp/isp-h25-mod961-prepare-789f/recovery/inputs/firstTrace.bin",
+      "bytes": 5597494,
+      "sha256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be",
+      "compressedOrigin": {
+        "file": "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes/r150-first-residual-image-obstruction-789f/rhs-normal-form/reduction.bin.gz",
+        "bytes": 3755513,
+        "sha256": "cec87792ec50e687d74ee86e57280214abd44eda70f822a9396d60931c42c286"
+      }
+    },
+    "integerModel": {
+      "file": "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-integer-mod961.txt",
+      "bytes": 16152,
+      "sha256": "71630a822927659a58a7b9df4cdcdb5385b9ea71be9f246097bbbfd1fdc9a5f8"
+    }
+  },
+  "sources": {
+    "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab",
+    "2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp": "1e7c872ecb311aa09b0f35d157acbd0106d97a0288a03bbb40cf729ac3d5c71a",
+    "2026-11-14-r150-h25-mod961-runner-789f.py": "23590199283b86775ed0f33f3a17b1d7aa15730e7866c14b58baacd4c6600a1e",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+  },
+  "compilations": {
+    "source": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-packed-image-source-checkpoint-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-mod961-prepare-789f/bin/source"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 4.0547036200005095,
+      "binarySHA256": "49cf9ff2a47c4a9306532a4591e65fd8e76536d9c73ee88747ee58fae8db493a"
+    },
+    "original": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-mod961-prepare-789f/bin/original"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 3.945474471001944,
+      "binarySHA256": "0471a6f493fdbe368f612fdbb12dc57bede74a80dec54248052f28c66a95c30b"
+    }
+  },
+  "stages": {},
+  "sourceCheckpointBinding": {
+    "sha256": "5a95203b8b83072253133f7dc72aa7f9907cbe7fa0deda662200fc3167501c33",
+    "fields": {
+      "graph": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+      "originalNF": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+      "rhs": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4",
+      "quotients": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c",
+      "remainders": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "sourceCode": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab"
+    }
+  },
+  "recoveryFiles": 7,
+  "recoveryBytes": 10953011,
+  "losslessCertificateFiles": 0
+}

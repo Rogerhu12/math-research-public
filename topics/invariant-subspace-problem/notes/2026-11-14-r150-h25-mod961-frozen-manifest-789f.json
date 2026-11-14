@@ -1,0 +1,93 @@
+{
+  "format": "r150-h25-mod961-frozen-sources-v1",
+  "status": "prepared-no-mathematics-executed",
+  "files": [
+    {
+      "file": "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp",
+      "bytes": 21548,
+      "sha256": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab"
+    },
+    {
+      "file": "2026-11-14-r150-packed-image-source-checkpoint-derivation-789f.json",
+      "bytes": 1016,
+      "sha256": "86e0d94371d8ed16ec6909780b29c58508926a2958f56776b681bfb3b652b256"
+    },
+    {
+      "file": "2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp",
+      "bytes": 23934,
+      "sha256": "1e7c872ecb311aa09b0f35d157acbd0106d97a0288a03bbb40cf729ac3d5c71a"
+    },
+    {
+      "file": "2026-11-14-r150-h25-mod961-runner-789f.py",
+      "bytes": 14910,
+      "sha256": "23590199283b86775ed0f33f3a17b1d7aa15730e7866c14b58baacd4c6600a1e"
+    },
+    {
+      "file": "2026-11-14-r150-h25-selected-inputs-789f.py",
+      "bytes": 3519,
+      "sha256": "e0c810925b3dc30f9d5738859740766e09784fdbf6f54c02a9c7cc352f715514"
+    },
+    {
+      "file": "2026-11-14-r150-h25-mod961-execution-interface-789f.md",
+      "bytes": 7490,
+      "sha256": "f9fe6660fb078887c4b3235197c7d1bd28ea1dbe7b5b830ff1e3f74de0ac9e0a"
+    },
+    {
+      "file": "r150-h25-selected-inputs-789f/cost85-selected-normal-reduction.bin.gz",
+      "bytes": 843214,
+      "sha256": "49c9c9ee115584b4fa9f4d5aba12bd9bebadf1555a7cc6bdfb7da39fe4e68bd4"
+    },
+    {
+      "file": "r150-h25-selected-inputs-789f/cost85-selected-original-kernels.bin.gz",
+      "bytes": 360649,
+      "sha256": "723ee19280f1543896007b81ec9c1a2acd62143e1311c5ac1b68f1215885c226"
+    },
+    {
+      "file": "r150-h25-selected-inputs-789f/selected-inputs-receipt.json",
+      "bytes": 1415,
+      "sha256": "2ff598875af4cb98fca6c26dfafc5463f58315c45a71e695e4e9b42611414228"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/certificate-manifest.json",
+      "bytes": 178,
+      "sha256": "398be7577a2b91c3c77ebd91ab335be177fddb2a278d1504a0db0791171d4110"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/compile-original.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/compile-source.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/h25-mod961-pipeline-receipt.json",
+      "bytes": 8734,
+      "sha256": "792c546085aa4a311dc22a1e20ac9a80b46692034d5b887150546b20b53b9e28"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/input-complete-image-certificate.json",
+      "bytes": 1238,
+      "sha256": "9c9601385719ada0ea91707544fe8fe0a10ef1605a961d76198e0707536c5d91"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/input-selected-original-sources.json",
+      "bytes": 1415,
+      "sha256": "2ff598875af4cb98fca6c26dfafc5463f58315c45a71e695e4e9b42611414228"
+    },
+    {
+      "file": "r150-h25-mod961-preparation-789f/recovery-manifest.json",
+      "bytes": 1282,
+      "sha256": "9fb3e6391dc9b88745c358fb2f0a1249e8e6b782b551c2d64164b11a200554e3"
+    }
+  ],
+  "oldImageGQInputFolder": "r150-h25-image-and-vq-prefix-789f",
+  "requiresOnlyOldT96Artifact": {
+    "run": 43597823809,
+    "artifact": 14114364261
+  },
+  "sharedMathematicalSecondsLimit": 300,
+  "perChildAddressSpaceMiBLimit": 512
+}
