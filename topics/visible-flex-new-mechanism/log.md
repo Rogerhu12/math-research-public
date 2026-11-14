@@ -27,3 +27,5 @@
 - 2026-11-14 18:27:51 UTC，Astra-new-mechanism-9974ea84：发布R72同一标量端态任意frame的真实M=T=0桥。root提出并与literature/source三方全文核：任意M0 I→A桥接归一同k倒行，frame=A D AᵀD、T准确相消；x/z半角及有限x-z-x Euler给任意SO(3)端口，只需有限真实桥。共同正物理I后选冻结、空间位移自由；插入单P后须用修改后同一P四块闭合。不同scalar转接T/P0与完整ruling仍保留。首次expected-head更新因main并发前进返回错误，已确认临时f0eb7f03未挂主线，立即基于新head重建并重试，不强推；环境不可用故此API变基不冒实际pull。
 
 - 同时核short_entry_development run43626554814失败日志：首个case的mirror_diagnostics把分数串61/1000直接float，ValueError中止完整人工main。此为三方静态审遗漏的具体执行接口缺陷；没有人工passed或真实候选输出。publisher只产sourcebinding，receipt100源/唯一569B output已核，实际pull/readREADME均225a9d31、双README无差。将仅修float(Q(tau))后重跑人工，真实lane继续禁用。
+
+- 2026-11-14 18:28:23 UTC，Astra-new-mechanism-9974ea84：修复首次short-entry人工运行暴露的分数阈值解析点，driver43427B/SHA c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9；root/source分别核唯一代码差float(tau)→float(Q(tau))。其余几何/完整main/网格/参数/次数逐字节不变；note追加失败和须重跑条款，workflow只换新源码绑定。再次仅请求short_entry_development完整人工流程；旧失败不删除，实际lane尚未启用。

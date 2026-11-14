@@ -937,7 +937,7 @@ jobs:
           from pathlib import Path
           root = Path(os.environ['VISIBLE_NEW_SCRIPTS'])
           expected = {
-              'frame_entry_short_bounded_audit.py': 'b16e1df72225e1c68f7b83b028a3910233a773d3fd437d220191868d2559cc63',
+              'frame_entry_short_bounded_audit.py': 'c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9',
               'frame_height_feasible_initializer.py': 'fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2',
               'frame_entry_bounded_height.py': 'deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612',
           }

@@ -142,4 +142,9 @@ $$
       --height-margin 1/1000 --minimum-signed-height 0 \
       --out topics/visible-flex-new-mechanism/notes/frame-entry-short-bounded-initial-audit.json
 
-当前源码为 43424 字节，SHA256 为 b16e1df72225e1c68f7b83b028a3910233a773d3fd437d220191868d2559cc63。以上数值参数是这次初态比较的明确设计选择，不是从未运行的新场中挑选的最优参数。
+当前源码为 43427 字节，SHA256 为 c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9。以上数值参数是这次初态比较的明确设计选择，不是从未运行的新场中挑选的最优参数。
+
+
+## 7. 首次公开人工失败与最小修复
+
+公开人工 run 43626554814 在第一个新初态的 mirror 诊断处失败：把准确字符串 61/1000 直接传给 float。此次尚未完成全主流程，也未启动真实候选。修订仅把该处改为先用 Fraction 解析再转 float；同文件全部其他 float 调用已静态核，其他准确 CLI 数值先经 Fraction，余者来自已评价数值或准确 Fraction 对象。模型、参数、网格、候选与评价次数均未变。必须取得修订后同一完整人工主流程的成功回执，才能启动本稿的真实命令。

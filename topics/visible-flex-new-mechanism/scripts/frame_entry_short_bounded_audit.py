@@ -142,7 +142,7 @@ def mirror_diagnostics(problem,data,tau):
         'zero_normal_z_pair_gives_no_finite_bound_count':int(np.count_nonzero(regular&(denominator==0))),
         'nonregular_sample_count':int(np.count_nonzero(~regular)),
         'chosen_upper_branch_signed_height_minimum':extremum(signed,data['radial'],data['theta'],'min'),
-        'normal_chord_target_evaluated':float(tau),
+        'normal_chord_target_evaluated':float(Q(tau)),
         'formula':'abs(z)*norm(Xs cross T)/abs((Xs cross T)_z)',
         'requires_distinct_mirrored_material_points_and_a_complete_embedding':True,
         'noncentral_z_zero_points_would_be_coincident_under_this_mirror':True,

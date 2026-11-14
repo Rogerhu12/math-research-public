@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，时间C²连续，同一固定g；固定材料H有内点、diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6并同g/状态/时间精化。D为完整F0直径；δE可0如实报；完整网格<5MB；明确数值/准确存在差距。达标后继续.5D或更强存在。现无完整合格候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`25f5828e9fff774dae21a3ff18fbc7f008cadf53`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`e003517c08704e4ef855b14b0fbd34f6406097a0`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README；变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则/再推至成功，不强推。
 - 已授权本公开main/自身Actions。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、小人工开发核、源码和公开输出分析。PAT仅瞬时CLI/env，不入文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根无差、本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -30,7 +30,7 @@ run43621210198/source64d69df6，92源/3输出已核；固定公共原函数保�
 
 ell=.162新表示保持原162数值/完整g，明确新场canonical c13edeec…，不是旧场精化。121×384 cost .0048653→55.14953；768角η79.34145、κ226.7835、bmax7.5763，入口严重变差；h=.387753718来自统一外部抬高.3355229824。t≥.198五导数逐位0差，strip1.03555不变，尾patch未改善。入口mean精化metric差4e−13，GL/panel仅位置约5.5e−13；Nb/热GH/Π高jet仍未获连续界。不得把帽高升高冒充reach通过。
 
-短入口driver b16e1df7已三方全文静态核并部署short_entry_development，首次人工run43626554814因分数tau解析失败，待最小修复重跑，未actual；接着**唯一ell=.081 paired与同ell bounded对照**；各至多一次真实B7高度提案，完整几何重建，明确新field/参数/evaluation身份。先人工full-main和源码复核，再本公开Actions真实算；不重跑整个.162或旧250步。
+短入口driver c6f943ad仅修float(Q(tau))并重发short_entry_development；首run43626554814失败原证据保留，新人工未pass，未actual；接着**唯一ell=.081 paired与同ell bounded对照**；各至多一次真实B7高度提案，完整几何重建，明确新field/参数/evaluation身份。先人工full-main和源码复核，再本公开Actions真实算；不重跑整个.162或旧250步。
 
 ## 4. 高度与厚度门及已核接口
 
