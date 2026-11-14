@@ -487,3 +487,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：同一 Z 的 quarter/Hessian Green 实际合成
 
 见[完整 same-Z Green 八门](results/R133-supplement-actual-quarter-Hessian-same-Z-Green.md)。43630194680 child0、5.860261s、6391片全保；固定负窗有限193误差 $<0.010656243445033$，其中body $<0.003051713268$、right $<0.007604530152$，全内区 $<0.022744910832106$。仍未过1/200。真97切口 $<2.291173591508\times10^{-6}$，完整mean/high与14费保；0旧传播，不是全PDE响应。
+
+### R133 补充：known-high 原成功数学的零重算补发已验收
+
+见[六项原件收据](results/R133-supplement-actual-known-high-success-receipt.md)。43630093667实际6检查/0数学子进程/0新源行，逐字恢复原完整native `5ad8aaad…` 与主摘要 `74e7b40d…`，同时保原artifact发布失败过程 `085a31c2…`。原8科学门不重跑，范围仍只固定M32/$\delta=0$已知高频源。

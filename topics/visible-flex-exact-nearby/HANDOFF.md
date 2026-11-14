@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 19:21:37 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 19:22:05 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，19:05非FF后再次真pull --rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核knownhigh43628921664真pull至964fa923c5204baabecadac3e014d64a4c9bd4e9；该4次、quarter8range/finish和负窗所有README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：94ae52097e5f6956ab388fb5b69d34d2e9eff7ed；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：4c60bcd29993e23be2c93525a8be16a650b7d057；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
-此前9806B H逐字归档 notes/2026-11-14-handoff-before-actual-leading-remainder.md；全部更早H/open归档链保。历史SHA/失败/源口/零重算合同见results/manifest/H归档，禁止重算已成数学。
+此前9928B H逐字归档 notes/2026-11-14-handoff-before-three-actual-consumer-results.md；全部更早H/open归档链保。历史SHA/失败/源口/零重算合同见results/manifest/H归档，禁止重算已成数学。
 
 ## 对象、完成门与已知数值差距
 
@@ -47,4 +47,4 @@ E1–35真实C→B q≥−1两端全频逆已推4d3cfe70…，含两零平台/�
 T1–35真实C→cut128三阶quintic+上述全正区反射本次独推c7583bb8…/19101B，root全文核：全Galerkin能量、H_C∈H−1/8迹、完整DN及体comm使通量极限无损，唯一+反向onto得真正L2波酉。原B高度固定；强端荷H1/8和体measure H1/2仿射输出<2^15费用，原μ*/Piola/mean全保。atom源为BV/单侧跳，连续类仅齐次。粗输入只给B通量H−9/8，未免费升H−1。tail继续真实正区跨端平滑及eX→cut128根图/强标签/returned接线；最终闭合仍欠。
 子问题完成即接open下一项；禁止阶段报告、等待用户或时长结束。
 
-fixedM32 knownhigh147pin/sourcef9104cce…/manifestde4bd52b…旧143不改。43628921664数学child0/8门/7721行/56.609475s；native5ad8aaad…7508940B/4片、summary74e7b40d…14387B；全区L2<1.456146059e−10/负窗<1.415385110e−10。largest20诊断>60KB令workflow failure，原数学全保。receipt-only source74a00ec4…/flowb6336c13…本次推：只核原child0/native8门/原small summary六项，逐字补发，0新数学/0旧7721重跑；待actual。实际完整known-high报告已独推；low/mean原样，δ≠0/未知反馈未授。
+fixedM32 knownhigh147pin/sourcef9104cce…/manifestde4bd52b…原数学43628921664 child0/8门/7721行/56.609475s；native5ad8aaad…7508940B/4片、summary74e7b40d…14387B；全区L2<1.456146059e−10/负窗<1.415385110e−10。最后大诊断失败原样保；receipt43630093667真6门/children=[]/0新数学，逐字补发同native/summary，原artifact process085a31c2…20712B。本次processcfa6bdfd…13672B/receiptcd7aa5f5…12445B，root核2真pull至807ccab534f10a80d53163f88411031656127527，README diff空。两实际报告已独推。low/mean原样，δ≠0/未知反馈仍欠。
