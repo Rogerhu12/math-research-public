@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "finished_utc": "2026-11-14T13:01:39Z",
+  "mathematical_bound_closed": true,
+  "outputs_sha256": {
+    "R719-command.json": "08c1d4c4c9a19a745f55431f64afbc91beea1c560a2d0acecb111c65945d8dd0",
+    "compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "enumeration.log": "f98b374782ffa86b2eb52813d9bc066cf1800ca48d09baf690b2391a828b72ad",
+    "enumeration_metadata.json": "6db6d83cf87ae8e80fa5077331a9c9e6108861ce8bce6d096bfcf88c4cfba94d",
+    "independent-small-radius-audit.json": "b641f0c88b3400de3295eca73c0a29f3c33290b631644a5853fcd278469a3eb2",
+    "norm_order_counts.csv": "bb73eb2065edf9503dd47d2dc752782bde2278c3555a10cf9a3dde6d3c2fbbf4",
+    "norm_order_counts.csv.gz": "51e2d55850e7c5cc51921bda22a3e29b7b1afc8bdabb500985068248809c841f",
+    "public-actions-input.json": "378667362e8249146dd296d87ecb3f785d12b9d35ba7cbfb65279a1fe576a1e1",
+    "public-wrapper-input.json": "d0dcb77c444af3c0adaac89edbb77eb7b8cd10c51120c6df63762a49c8f7cb09",
+    "r719_p137147_primitive_certificate.json": "2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f",
+    "small_radius_points.csv": "2f96583c406f4014d8e5e61d0e2f411fc1823b171c1e156fca0ecac064748797",
+    "small_radius_points.csv.gz": "42905b4188ccb2f410bd12e4d933b52cd8154f62a6d46998e6d4f25f0549668e"
+  },
+  "repository": "Rogerhu12/math-research-public",
+  "run_attempt": "1",
+  "run_id": "43597653737",
+  "schema": "r719.public-receipt.v1",
+  "source_and_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/serre-uniformity/README.md": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+    "topics/serre-uniformity/notes/R719-p137147-original-primitive-visible-enumeration-method.md": "871bf7beb06aee81c1e89a72781836bbcad141cd0265885c23eb6dcdc936f710",
+    "topics/serre-uniformity/results/R616-original-CM-point-difference-and-explicit-height-basis.md": "dc3a7c47345858da059ae196d7739774a4840750e5e9457c45923721c289f241",
+    "topics/serre-uniformity/results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md": "89546e13ca714d5c5cfda7e57ba71beee48399dfd19c572edee288e32da716b8",
+    "topics/serre-uniformity/scripts/r719_visible_order_histogram.cpp": "6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc",
+    "topics/serre-uniformity/scripts/run_r719_p137147_primitive_certificate.py": "b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77"
+  },
+  "source_commit": "09a816c7e00c07f90727f98381bc0c76a8181425",
+  "source_sha256": {
+    "cpp": "6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc",
+    "python": "b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77"
+  }
+}

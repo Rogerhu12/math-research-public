@@ -1,0 +1,108 @@
+{
+  "result": "R719-p137147-primitive",
+  "request": {
+    "result": "R719-p137147-primitive",
+    "prime": 137147,
+    "radius_multiplier": 25,
+    "audit_norm_cutoff": 10000,
+    "precision_bits": 256,
+    "rational_upper_denominator": 1000000000000,
+    "timeout_seconds": 2700,
+    "python_flint_version": "0.9.0",
+    "cpp_sha256": "6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc",
+    "python_sha256": "b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77",
+    "proof_path": "notes/R719-p137147-original-primitive-visible-enumeration-method.md"
+  },
+  "source_commit": "09a816c7e00c07f90727f98381bc0c76a8181425",
+  "source_repository": "Rogerhu12/math-research-public",
+  "execution_environment": "public-repository-github-actions",
+  "request_sha256": "e6adf1ad5715a28156ca567eccd34e5f74f10ef1cac8e8ffe56a120368dc4d2c",
+  "workflow_sha256": "f21341069a6bee1e45834f0e204422dd4c3fc3329626946b04a7573fcd091232",
+  "wrapper_sha256": "d59808f520a22c83b3a0df30233619b88683de7f90254a2da889b885957ad4b4",
+  "publisher_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "sources": [
+    {
+      "repository_path": "topics/serre-uniformity/scripts/r719_visible_order_histogram.cpp",
+      "bytes": 7056,
+      "sha256": "6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc",
+      "archive_file": "sources/topics/serre-uniformity/scripts/r719_visible_order_histogram.cpp.gz",
+      "archive_sha256": "e073664490ce2d97b541f5e4d5ddc0ce52689f16ee8c6640dfd08043695e3af6"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/run_r719_p137147_primitive_certificate.py",
+      "bytes": 15231,
+      "sha256": "b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77",
+      "archive_file": "sources/topics/serre-uniformity/scripts/run_r719_p137147_primitive_certificate.py.gz",
+      "archive_sha256": "7871b8ce17b03aff701f8355c0e19b31ebd198b3d93ef9e04fd1ec57455681c1"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/R719_public_primitive_average.py",
+      "bytes": 11566,
+      "sha256": "d59808f520a22c83b3a0df30233619b88683de7f90254a2da889b885957ad4b4",
+      "archive_file": "sources/topics/serre-uniformity/scripts/R719_public_primitive_average.py.gz",
+      "archive_sha256": "4901a2a4348abd204a79b0a7738a4147ba6fb63048809c0d9b2ea14838261319"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "bytes": 10548,
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+      "archive_file": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/notes/R719-public-p137147-primitive-request.json",
+      "bytes": 509,
+      "sha256": "e6adf1ad5715a28156ca567eccd34e5f74f10ef1cac8e8ffe56a120368dc4d2c",
+      "archive_file": "sources/topics/serre-uniformity/notes/R719-public-p137147-primitive-request.json.gz",
+      "archive_sha256": "20f2033b19849e7faed56c26acbfe9226a1a073455a2351d44e033011afd746c"
+    },
+    {
+      "repository_path": ".github/workflows/serre-p137147-primitive-average.yml",
+      "bytes": 2765,
+      "sha256": "f21341069a6bee1e45834f0e204422dd4c3fc3329626946b04a7573fcd091232",
+      "archive_file": "sources/.github/workflows/serre-p137147-primitive-average.yml.gz",
+      "archive_sha256": "d99973063765f220274c4e9adf40d4ceb16d6f06b28daef6a9d2fdc4ea311f3a"
+    },
+    {
+      "repository_path": "README.md",
+      "bytes": 8842,
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "archive_file": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/README.md",
+      "bytes": 3430,
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+      "archive_file": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/notes/R719-p137147-original-primitive-visible-enumeration-method.md",
+      "bytes": 9205,
+      "sha256": "871bf7beb06aee81c1e89a72781836bbcad141cd0265885c23eb6dcdc936f710",
+      "archive_file": "sources/topics/serre-uniformity/notes/R719-p137147-original-primitive-visible-enumeration-method.md.gz",
+      "archive_sha256": "6fb120a6caaf5e7986fe6bc54761dab4c60168e69661dd5da5994f50f489ca27"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md",
+      "bytes": 15420,
+      "sha256": "89546e13ca714d5c5cfda7e57ba71beee48399dfd19c572edee288e32da716b8",
+      "archive_file": "sources/topics/serre-uniformity/results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md.gz",
+      "archive_sha256": "b0f9fd04c9441d145ef05004de015c82c5a6bceea1196a2a175c284c62e77f77"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "bytes": 23464,
+      "sha256": "dc3a7c47345858da059ae196d7739774a4840750e5e9457c45923721c289f241",
+      "archive_file": "sources/topics/serre-uniformity/results/R616-original-CM-point-difference-and-explicit-height-basis.md.gz",
+      "archive_sha256": "a1938df0f8773797ab8db3cacfb98332bdac10bed2f07756f6665a34402c132d"
+    }
+  ],
+  "prepared_at_utc": "2026-11-14T13:01:33.697425+00:00",
+  "run_id": "43597653737",
+  "run_attempt": "1",
+  "mathematical_completion_claimed": false
+}

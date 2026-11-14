@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "M": 45716,
+    "arb_precision_bits": 256,
+    "audit_norm_cutoff": 10000,
+    "norm_cutoff": 3428675,
+    "p": 137147,
+    "radius_multiplier": 25,
+    "rational_upper_denominator": 1000000000000
+  },
+  "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+  "python_flint_version": "0.9.0",
+  "python_version": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+  "repository": "Rogerhu12/math-research-public",
+  "run_attempt": "1",
+  "run_id": "43597653737",
+  "schema": "r719.public-input.v1",
+  "source_and_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/serre-uniformity/README.md": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+    "topics/serre-uniformity/notes/R719-p137147-original-primitive-visible-enumeration-method.md": "871bf7beb06aee81c1e89a72781836bbcad141cd0265885c23eb6dcdc936f710",
+    "topics/serre-uniformity/results/R616-original-CM-point-difference-and-explicit-height-basis.md": "dc3a7c47345858da059ae196d7739774a4840750e5e9457c45923721c289f241",
+    "topics/serre-uniformity/results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md": "89546e13ca714d5c5cfda7e57ba71beee48399dfd19c572edee288e32da716b8",
+    "topics/serre-uniformity/scripts/r719_visible_order_histogram.cpp": "6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc",
+    "topics/serre-uniformity/scripts/run_r719_p137147_primitive_certificate.py": "b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77"
+  },
+  "source_commit": "09a816c7e00c07f90727f98381bc0c76a8181425",
+  "started_utc": "2026-11-14T13:01:33Z"
+}
