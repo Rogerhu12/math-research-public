@@ -165,3 +165,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-complete-C0-state-and-nu-geometry-response.md)：实际全7722盒C0状态/nu到几何：normal0/25.05s，frame系数15.736315/.304809、position30.196406/.105999、曲率141.332651/3.988052；保全mean/所有频率及独立world anchor。结合原完整曲率界，在ε≤1e−3/τ≤1e−5的条件球有|κ|<11.233951/κ+<3.997745，尚未授实际误差半径或闭族。
+
+
+[实际完整记录](results/R133-supplement-complete-Arb-scalar-jets-and-directed-high-Taylor-models.md)：全Arb Laurent指数/无限primitive尾/真实scalar germ给3至12阶有向jets和精确dyadic Taylor合同；实际七阶首germ两片6门normal0，germ24.19s/整次26.49s，五scalar积分总余项<9.117418e−17。原cap6错截高阶输出明确invalid。固定52来源SHA的四range CI worker已准备，余168germ、全flow/共轭/参数Schur未授。
