@@ -220,3 +220,12 @@ run43615494107/source1a9f7197/job132509540819 success；同28输入/原band b39e
 ### 2026-11-14 原native stage J来源与最小传播分组范围
 
 独立stage-J-generation-and-propagation-scope note（18860B/a3d6d8fa…）已全文读并直接保存。actual28十层实际源码SHA链核明stage J是解析implicit root/Fourier矩/原RK4变分/端口缩放，非tiny-H差分；最终heightJetJacobian中的中心实差分未执行。原小量稳定化已经存在，不能冒新增修复；余下相消尚无量化证据。43/58原12步无cusp，分别part4/part5；全J最大项、correction最坏行、原trial坏stage不混同。34 exact e只证明保存有限A求解缺陷；J表示与原连续流误差另列。若36均衡不足，下一最小候选为原12步按原x/h/profile分6+6，保出口portRatio、旧坐标σ、noJ/withJac不同网格顺序及mean合并账，尚无新J或数值改善宣称。36实际run43617334081/source6d19fb8c进行中。
+
+
+### 2026-11-14 actual35：RMS471保护后真1/16下降，继续原mid475
+
+run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06d8f5b8…全文读。α1/16同轮固定weights merit44.36981782700075→44.32940101648062，drop.040416810520135016/ratio1.0016140785；全原node/mid/两RMS/rho通过。最近1/8十query均正（471=.021807211900929158），唯一原mid475 β²−.09677364082856954，6负角；更大步仍有真实选中query非线性失域，不冒线性reserve认证。新warm24ca673e…/status214d4eed…/freshFD9.255484210e−10；col.0071103782/BC8.439522e−8/H1=3.621969804e−14仍未完整BVP/native。94 B NPZ594数组、7observer9NPZ27数组、父32全部状态/producer及22/26源联集逐bit核，完整actual已保。下一从新场只加mid475，端点已捕获，原其余算法/容差/全域保持。
+
+### 2026-11-14 原RK12保序短块组件
+
+新薄源geometry_20261114_native_same_schedule_windows.mjs（11393B/2973c144…）及接口8594B/3a78c362…全文读后保存。原717ac5…flow仅loop范围和只读schedule观察两处可逆变换；withJac/noJ保各自原x/h/profile、全226中间mean和原出口port。43/58映射578stage/579node，新内部σ取parent明确，旧σ不变；尚未运行短J/试步/求解，不宣称改善。36实际run43617334081完成，26MB包已核取，具体完整精确残差结论正在读回。

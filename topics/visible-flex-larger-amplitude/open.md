@@ -21,10 +21,11 @@
 | [30完整H与C比较](notes/2026-11-14-actual-request30-complete-H-comparison-and-warm.md) | 同f中H44.35849607633413劣于C43.905058168501064，保C；1200H/18基/16工作行，17CG均未达原残差目标 | 有限H尝试确实执行；不据此盲增预算或声称QP收敛 |
 | 30原非线性回溯 | α1/256真降.002933782783976824；最近1/128节点/中点全finite，但原left-RMS471失败 | 新warm8a91f696…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0 |
 | [32九query](notes/2026-11-14-actual-request32-nine-query-warm-and-RMS471.md) | 1/16..1/128全部node/mid转finite，但原left-RMS471全拒；仍1/256真降.002631130390312819 | 新warm7f5e8d5f…/FD9.143364336e−10；85 B文件/536数组与全部父链已核，仍非BVP |
+| [35十query](notes/2026-11-14-actual-request35-ten-query-step-and-midpoint475.md) | RMS471保护后α1/16真降.040416810520135016；最近1/8仅原mid475坏，全部十query正 | warm24ca673e…/FD9.255484210e−10，94 B NPZ594数组及原父链全核；下一只加mid475 |
 
 30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
-[request35十query](notes/2026-11-14-ten-query-RMS471-projection-interface.md) 已接推送，从32真实新warm/status仅加实际left-RMS471，各2048角，保两真mid成8RMS+2mid。原九源不改，当前22源与typed alias明确；原λ270/LSMR200/Hildreth200/17trial/全部域/新FD不变。下一按它自己的真实新拒绝位置继续；完整midpoint基点/站点须直接用原 `state.middle`/`problem.mid`，保完整两端J/P、入口core与global p链以及列尺度一次。原七RMS块身份、所有query kind、单次原全J捕获及完整父producer都要保全。
+[actual35十query](notes/2026-11-14-actual-request35-ten-query-step-and-midpoint475.md) 已真实完成并全字节核。下一request37从35新warm/status只加已实际坏的原mid475完整2048角，保8RMS+3mid；端点已在12节点捕获，不扩节点、不第二全J。原λ270/LSMR200/Hildreth200/17trial/全域/newFD保持；MID基点直接state.middle/problem.mid，保完整ΓΠ/J/P/core/p链和尺度一次。原冻结engine只支持iterations=1；未来同源连续模型须另串联独立目录/实际parent双SHA，每步刷新自己的weights并保真实trial/FD，不能直接把iterations加大。
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 
@@ -41,6 +42,8 @@
 [原十试步重放接口](notes/2026-11-14-native-band-trial-replay-interface.md) 已备，明确缓存28真实基态非新withJac；原十档alpha、完整evaluate/guard/严格下降原样且不重复J。接受一步也仅保存全state后STOP，不冒native/J/audit。当前不调度34坏δ。[全行exact dyadic接口](notes/2026-11-14-native-allrows-exact-dyadic-residual-interface.md) 用于原保存系统读回/误差修正，不新增README门。
 
 [原stage J生成链诊断](notes/2026-11-14-native-stage-J-generation-and-propagation-scope.md) 已按actual28十层源码SHA核：stage导数是解析implicit/Fourier矩加RK变分，端点中心FD尚未执行。43/58各原12步无cusp；大条目、原缺陷最坏行与trial失败stage分别定位，不混作同一故障。保存A求解缺陷、J表示误差、连续流截断分开。后继最小分组保原每步x/h/profile和出口portRatio，withJac/noJ浮点网格及mean加法分别对照，不先增加ODE步或改g；尚未实际执行。
+
+[原schedule6+6薄接口](notes/2026-11-14-native-same-schedule-windows-interface.md) 已冻结源2973c144…：仅对原无cusp43/58做可逆范围化，分别保withJac/noJ的原x/h算式、同profile/原出口port、全226中间state及mean。新映射579节点/578stage，旧节点σ保留、内节点取parentσ明示；只是尚未执行的可接组件，不能当新J改善。
 
 ### 1C. 保留的替代设计与真正fullDN衔接
 
