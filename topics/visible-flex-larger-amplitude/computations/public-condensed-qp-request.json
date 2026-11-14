@@ -1,11 +1,11 @@
 {
-  "request": 58,
-  "requested_at": "2026-11-14T20:34:48Z",
+  "request": 60,
+  "requested_at": "2026-11-14T20:58:34Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the actual56 pair by adding only the real nearest rejected original left-RMS468 full angle grid; retain all original models, scientific gates and derivative check, complete exterior response and the read-only original collocation-location observer.",
+  "purpose": "Continue from the actual58 accepted warm/status pair by relinearizing one complete same seventeen-query model; retain lambda270, all budgets, full exterior response, every original scientific gate and the new actual derivative check.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -30,9 +30,9 @@
     "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
     "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121"
   },
-  "actual_parent_run": 43636630003,
-  "actual_parent_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
-  "actual_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+  "actual_parent_run": 43638348140,
+  "actual_parent_warm_sha256": "3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864",
+  "actual_parent_status_sha256": "64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -52,20 +52,16 @@
   "native_tail_requested": false,
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
-  "complete_B_support_expanded": true,
+  "complete_B_support_expanded": false,
   "original_left_RMS482_retained": true,
-  "new_queries_added": true,
-  "added_query": {
-    "kind": "left-RMS",
-    "interval": 468,
-    "fraction": 0.17267316464601146,
-    "original_angles": 2048
-  },
+  "new_queries_added": false,
   "source_entry": "geometry_20261114_seventeen_query_collocation_observer_warm.py",
   "mathematical_producer": "geometry_20261114_seventeen_query_condensed_warm.py",
   "observer_read_only": true,
   "extra_RHS_Jacobian_or_trial_calls": 0,
   "original_midpoint481_retained": true,
-  "original_left_RMS468_explicitly_added": true,
-  "actual56_original_status_bytes": 1350695
+  "original_left_RMS468_retained": true,
+  "actual58_original_status_bytes": 1276068,
+  "same_seventeen_query_relinearization": true,
+  "one_complete_model_call": true
 }

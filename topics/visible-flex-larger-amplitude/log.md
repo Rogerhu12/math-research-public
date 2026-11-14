@@ -536,3 +536,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 [完整58结论](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)21030B/83ef8322…全文读核，prefix76606B/4aa4052a…、observer51172B/743776c3…、root14raw5802B/ca6f0b4f…三份byte审计齐全。154domain994NPY/88凝聚38完整阵/11原evaluate/48源及父56原链、14raw245864112B全部原SHA匹配；未导出fullfactor与完整colraw不冒独审。
 
 实际alpha1/4接受，本轮固定merit44.08450062286488→43.925384505081816，col.00710961172228531/BC4.4918924725999154e−8，原两RMS全好，FD7.108999873259166e−10。最近1/2的mid473/475/481已全建模，原left468/473也负而34816线性行仍正；不据远alpha1的mid480盲加query。60将从真实58pair沿同17 own-schema只重建一个完整模型，保λ270/512/全部门，原源码明确只支持iterations1。当前仍无新H native或完整BVP接受。
+
+
+## 2026-11-14 20:59 UTC：request60从actual58同17模型重线性化
+
+58全文和三审计已归档，父warm4775328B/3911b642…与公开statusgzip163444B透明解压1276068B/64140c9f…再次按Git原bytes核同。request60/workflow两处父绑定同步换真实run43638348140/source ba8bc4f4…及17 own-schema，原22source pins/λ270/512/全部门/FD不变，只调用iterations1。未改17源中历史ACTUAL56初始分支，也未新增query。root已核完整diff、22pins、11bash及6inlinePython；实际新run待回读，科学仅公开Actions。

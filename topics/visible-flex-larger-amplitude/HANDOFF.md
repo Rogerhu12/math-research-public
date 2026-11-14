@@ -16,7 +16,7 @@ Accepted notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz SHA b4
 Frozen scalar .99/Connector/coast/bridge64Gauss7.5/cutr.3/end2.271004035438285/3controls. Current M112/T112/N2048/699nodes/453states=338physical+112core+3p;236036free,first3corefixed. Finite-Gauss derivatives remain original.
 True zeroT112 anchor e788a28d…/config01930f3b… complete. Cache ONLY sevenidentities/exactH0/auditFalse FIRST request; newH/finalaudit realworker. NoT96 substitute/zeroH; freshW eachmodel, no cross-model merit subtraction.
 
-## Prefix: actual58 complete; request60 being wired
+## Prefix: actual58 complete; request60 wired for dispatch
 
 58 run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075/art14130714261; ZIP465122089B SHA288f67d35684d7d4cb73ff869dd90bd29aa9b559b0a1ecf295524eac0b374570. Warm/FD/publication success. Full note: notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md; prefix/col/root14raw audits archived.
 17query34816 rows, B nodes468..483+p=5411; C4059 keeps all exterior offsets. Three trials: alpha1 bad mids473/475/477/480/481/482; nearest1/2 bad473/475/481 ALL MODELED, actual left468/473 also negative though linear rows positive;1/4 accepted. Fixed-model merit44.08450062286488->43.925384505081816; col.00710961172228531/BC4.4918924725999154e-8/both original RMS valid; FD7.108999873259166e-10 is still zero-anchor affine J, NOT new-H native.
@@ -25,7 +25,7 @@ CURRENT PARENT notes/public-actions-43638348140-1-condensedqp/seventeen-condense
 - warm-001.json.gz 4775328B SHA3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864
 - original driver-status.json1276068B SHA64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763; public gzip163444B, decompress ORIGINAL bytes, no JSON reserialization.
 - schema exact-constraint-seventeen-query-condensed-complete-H-warm-v1.
-60: same frozen17 own-schema entry, one fresh complete model at real58 pair. Lambda270/LSMR200/C200/512working/dual200/600s candidate/90s trial/30s recovery/1200s total/original17trials/all gates+FD unchanged. No18th query from distant alpha1 mid480. Source only supports --iterations1; no blind loop. If future warm>=5MB use explicit artifact transport, never silently skip then assume public parent. Earlier56/all histories fully audited/published; no rerun.
+60 wired: same frozen17 own-schema entry, one fresh complete model at real58 pair. Actual run not yet read. Lambda270/LSMR200/C200/512working/dual200/600s candidate/90s trial/30s recovery/1200s total/original17trials/all gates+FD unchanged. No18th query from distant alpha1 mid480. Source only supports --iterations1; no blind loop. If future warm>=5MB use explicit artifact transport, never silently skip then assume public parent. Earlier56/all histories fully audited/published; no rerun.
 
 ## Native: actual57 complete failure;59 original576 implementation
 
@@ -44,4 +44,4 @@ Closure retains all physical/z0/material cutangle mean ninejets/coreball exclusi
 Freeze scalar p*/g/interval/t/caps; release allcore K=k=0,T=M,same-g v4 dim450/514; same live TailClient newH/J->FD->fullmain->fresh audit.699bisected1397 needs actual maxbudget>1200.
 R248strongC2/R241allpairs reach/R238/254/258reflection/R251operator await realfield.16fixtures/oldsmall cases done; held allblocks/twocaps/fullD independentofreach. R259 backup notrun;R238-273 results.md. Numerical evidence not rigorous existence.
 
-规则同步记录：2026-11-14 20:57:43 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6460b0ae596484b3d8a83766e26d7d9b43239cc3。
+规则同步记录：2026-11-14 20:59:11 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 273a529c419bb2eb629c0a1dcd0720d9b7d9a33c。
