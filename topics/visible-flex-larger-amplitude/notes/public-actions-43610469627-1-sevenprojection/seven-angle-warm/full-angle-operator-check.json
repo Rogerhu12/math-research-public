@@ -1,0 +1,160 @@
+{
+  "schema": "captured-full-angle-Hermite-domain-operator-v1",
+  "model_sha256": "4ac1f9e9f798e27f5defa50d1d226cb2ab4e00c165ee1fd7599868182d76f85f",
+  "adjoint_and_local_checks": [
+    {
+      "kind": "all-coordinates",
+      "forward_dual": -3146839.229738212,
+      "transpose_dual": -3146839.229738211,
+      "normwise_adjoint_error": 1.2005439571019412e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "shared-endpoints-and-controls",
+      "forward_dual": -169979.52253890736,
+      "transpose_dual": -169979.52253890445,
+      "normwise_adjoint_error": 7.37099045789449e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "controls-and-zero-support-core",
+      "forward_dual": 0.0,
+      "transpose_dual": 0.0,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    }
+  ],
+  "original_complex_chain_checks": [
+    {
+      "kind": "actual-supplied-scaled-direction",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "91533665f7b6aa24bb7c8112359780c4c41383768d738027bf6a40ef67acb0fa",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "996430e02a614a2117ed235c8a31f39199ae59c940fea4c9bcd270ad864aae40",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "b7ef52a6817e6d083e9d13e9029294e756693c028e148365d87122af08bfdf13",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 2.8336444302112795e-11,
+      "maximum_relative_error": 6.548694215417781e-13,
+      "worst_row": 2070,
+      "worst_interval": 473,
+      "worst_angle_index": 22,
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 11,
+      "complex_chart_expand_not_used": true
+    },
+    {
+      "kind": "seeded-local-physical-core-and-controls",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "acf687810d6ae3cc80da88769aae2e2eeaa27302120e3ae1aa03a64750ce1c9b",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "bbf5d58a35c47bf0d2d652f3d7eb0652ad8f3b0599122b27622d203a0437880d",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          14336
+        ],
+        "dtype": "<f8",
+        "sha256": "b7079e5b0f3391c1b6c73ce62cabefeaa001ce8ff146c1dd1108c54b99c27220",
+        "bytes": 114688,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 1.641456037759781e-07,
+      "maximum_relative_error": 2.9046166400496875e-13,
+      "worst_row": 10261,
+      "worst_interval": 480,
+      "worst_angle_index": 21,
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 11,
+      "complex_chart_expand_not_used": true
+    }
+  ],
+  "maximum_normwise_adjoint_error": 7.37099045789449e-18,
+  "maximum_local_full_action_error": 0.0,
+  "maximum_original_complex_chain_relative_error": 6.548694215417781e-13,
+  "implementation_thresholds": {
+    "adjoint_and_local": 5e-12,
+    "original_complex_chain": 5e-05
+  },
+  "implementation_check_passed": true,
+  "actual_supplied_direction_checked": true,
+  "second_complete_Jacobian_constructed": false,
+  "native_tail_called": false,
+  "new_scientific_acceptance_gate": false,
+  "scope": "selected original Hermite queries and full finite original phi grids only",
+  "seven_query_projection_entry": {
+    "entry_source_sha256": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+    "projection_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "optimizer_schema": "exact-constraint-seven-query-full-angle-feasible-projection-warm-v1",
+    "parent_optimizer_schema": "exact-constraint-full-selected-angle-feasible-projection-warm-v1",
+    "declared_initial_parent_warm_sha256": "4e2ee245a3c931210eed8a9a67a4202397eb709b3e5aacc7271418d76d4098c1",
+    "actual_resume_sha256": "4e2ee245a3c931210eed8a9a67a4202397eb709b3e5aacc7271418d76d4098c1",
+    "intervals": [
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "original_physical_angles_per_query": 2048,
+    "selected_query_count": 7,
+    "selected_angle_row_count": 14336,
+    "fraction": 0.17267316464601146,
+    "theta": 0.5,
+    "added_queries": [
+      472,
+      481
+    ],
+    "added_query_evidence": "Actual request26 original left-RMS failures at alpha2^-4 and2^-5",
+    "query_change_is_only_in_the_finite_optimizer_subproblem": true,
+    "complete_original_residual_A_merit_and_all_scientific_gates_unchanged": true,
+    "original_Hildreth_radial_segment_and_trial_algorithm_unchanged": true,
+    "parent_producer_subtree_preserved": true,
+    "old_warm_not_relabelled": true,
+    "nonlinear_native_H_solved": false
+  },
+  "selected_angle_row_count": 14336
+}
