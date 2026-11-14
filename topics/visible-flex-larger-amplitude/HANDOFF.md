@@ -40,7 +40,7 @@ R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t
 R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
 R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
 R251直接operator证书：原φ中两Loewner矩阵四正性；同g的a²上下包络、Bernstein/全角Taylor及次数账完整。K=M行列式带宽8M、DFT N>16M。完整scalar见piecewise-envelopes note：prefix415五次+bump六次；turn48/bridge64原有限Gauss和，bridge实际7.5而port旧tag8，均不换g；无新数值通过。
-R252完整φ测试/全Jac/均值与两投影差已证。request13仅coupling112physical，四独立源已接：真T112 J仿射非零H完整FD→原全带LU联解→新旧R/均值/全角谱audit→真实尾闭合/R249。新有限Rφ门明确不等价旧Rθ，完整C²/metric/几何仍独立支付；推后取runID。
+R252完整φ测试/全Jac/均值与两投影差已证。request13/run43594985550/source821fded1，job132447496553实际FD step已success、全带LU联解进行中。真T112 J/非零H完整FD→新旧R/均值/全角谱audit→真尾闭合/R249已接；新有限Rφ不等价旧Rθ，完整C²/metric/几何仍独立支付。
 R253已证固定C∞正非恒密度下连续P_M及所有偶N≥(4+ε)M精确DFT的σmin超代数小：严格有限无均值源窗、全alias统一非驻相、均值同控。与R250可逆相容，不预判M112或全BVP。
 full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门原样。full_state_held_hausdorff补新packet/SHA链，原全活动块+完整帽盘距离、D/.2门不变，reach可独立。K/metric/误差仍条件，两接口未新数值。显示静态预算：同seed699–1200点可N32/九相位、最大4656978B；2305尾节点仅显示锚点入mesh，不删物理数据，见display-byte-budget note。
 R238/R242/R243/R246的含反射非全等、无平片、共享C²、operator界都保持原条件，新场须自己的输入。

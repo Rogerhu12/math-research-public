@@ -464,3 +464,7 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 ### 2026-11-14 12:27 UTC — request13 complete physical-angle boundary, true-J response and actual full solve
 
 新增R252四独立源及两说明；明确新finite Rφ，保全部物理/core/scalar/真实tail和原数值门。response用已付真T112 J及非零H检两个核心链式项，通过即原全带LU联解；新旧R/缺项/正确均值/全角谱固定同一实际尾审计。根修改共享.github/workflows/visible-larger-public-mainline.yml增加coupling112physical并接完整readout/closure/R249，publisher同时增加lane，request13只选此项；全部数值只公开Actions，尚无新接受。
+
+### 2026-11-14 12:30 UTC — request13 actual response check passed, full solve running
+
+公开run43594985550/source821fded1于12:28:21Z创建；job132447496553的真实完整physical-angle response步骤已success，现进入全带LU联解。尚无联解接受或完整artifact，不预报FD数值。下一步持续取真实输出；同g Rφ精化、R251全域operator实现与R254新prefix非平面证据并行准备。
